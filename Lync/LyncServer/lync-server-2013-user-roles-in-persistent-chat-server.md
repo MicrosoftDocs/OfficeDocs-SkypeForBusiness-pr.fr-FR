@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rôles d’utilisateur dans un serveur Chat permanent'
+title: 'Lync Server 2013 : rôles d’utilisateur dans un serveur Chat permanent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User roles in Persistent Chat Server
 ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36f84f71ca5253d28d9182acc9279010127ee6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 771eac8e5c8ff1c72bfb2ce64d9b6c04853b30a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846438"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846438"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-03-19_
+_**Dernière modification de la rubrique :** 2015-03-19_
 
 Le serveur Chat permanent fournit le concept de membre autorisé/refusé, qui s’applique aux catégories et aux contrôles persistants qui peuvent accéder aux salles d’une catégorie spécifique.
 
@@ -41,7 +43,7 @@ Le serveur Chat permanent fournit le concept de membre autorisé/refusé, qui s�
 
 
 > [!IMPORTANT]  
-> Les membres autorisés/refusés d’une catégorie ne sont pas les <STRONG></STRONG> mêmes que ceux d’une salle de conversation permanente.<BR>Les résultats de la recherche s’affichent dans la liste des membres autorisés/refusés par l’utilisateur dans la liste des salles de conversation ouvertes et fermées. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance.
+> Les membres autorisés/refusés d’une catégorie ne sont pas les mêmes que ceux <STRONG>d’une salle</STRONG> de conversation permanente.<BR>Les résultats de la recherche s’affichent dans la liste des membres autorisés/refusés par l’utilisateur dans la liste des salles de conversation ouvertes et fermées. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance.
 
 
 
@@ -49,9 +51,9 @@ Le serveur Chat permanent fournit le concept de membre autorisé/refusé, qui s�
 
 Le principal raisonnement pour le concept de membres autorisés/refusés est le mur d’éthique. Par exemple, il est courant dans les institutions bancaires et financières d’imposer des limites éthiques qui empêchent les courtiers et les analystes de partager des communications quand ils mettent en œuvre des stratégies et des conventions. Pour répondre à cette exigence, un administrateur peut créer des catégories de sorte qu’une seule catégorie autorise la création et l’utilisation des salles par les courtiers, et une autre catégorie autorise la création et l’utilisation des salles par les analystes. Avec cette contrainte est conçue dans le système interdit l’ajout d’un utilisateur en tant que membre de la salle, si la catégorie parent l’empêche.
 
-Vous trouverez ci-après les quatre rôles d’utilisateur de chat permanent:
+Vous trouverez ci-après les quatre rôles d’utilisateur de chat permanent :
 
-  - **Creator:** Utilisateurs qui ont l’autorisation de créer des salles de conversation. Ces utilisateurs se trouvent dans la liste de créateurs de certaines catégories: ils peuvent créer des salles de conversation dans cette catégorie, et ils peuvent également affecter des appartenances en fonction de la catégorie et affecter des responsables pour gérer la salle de conversation. L’utilisateur qui crée une salle de conversation est automatiquement ajouté en tant que gestionnaire de la salle.
+  - **Creator :** Utilisateurs qui ont l’autorisation de créer des salles de conversation. Ces utilisateurs se trouvent dans la liste de créateurs de certaines catégories : ils peuvent créer des salles de conversation dans cette catégorie, et ils peuvent également affecter des appartenances en fonction de la catégorie et affecter des responsables pour gérer la salle de conversation. L’utilisateur qui crée une salle de conversation est automatiquement ajouté en tant que gestionnaire de la salle.
     
     <div>
     
@@ -64,7 +66,7 @@ Vous trouverez ci-après les quatre rôles d’utilisateur de chat permanent:
     
     Ce rôle existe pour vous donner la possibilité de déterminer qui peut créer des salles de conversation dans votre organisation, en particulier si vous voulez centraliser la gestion de la création de salles de conversation pour appliquer des stratégies et des conventions, et par la suite déléguer la gestion des salles de conversation à d’autres utilisateurs de votre organisation.
 
-  - **Manager:** Utilisateurs qui gèrent les propriétés d’une salle de conversation. Les gestionnaires de salle de conversation peuvent modifier la liste des membres (ajouter et supprimer des membres) et modifier la liste des gestionnaires de salle de conversation (ajout et suppression de gestionnaires). Les gestionnaires de salle de conversation peuvent s’ajouter eux-mêmes à la liste membres ou présentateurs (pour les salles d’Auditorium) pour pouvoir participer à la salle de conversation. Les gestionnaires de salle de conversation peuvent également désactiver les salles de conversation (les administrateurs peuvent rechercher des salles de conversation désactivées et pouvoir les supprimer définitivement). Les responsables peuvent modifier toutes les propriétés d’une salle de conversation, à l’exception de la catégorie de la salle de conversation. Seul l’administrateur de chat permanent peut changer la catégorie après la création de la salle de conversation.
+  - **Manager :** Utilisateurs qui gèrent les propriétés d’une salle de conversation. Les gestionnaires de salle de conversation peuvent modifier la liste des membres (ajouter et supprimer des membres) et modifier la liste des gestionnaires de salle de conversation (ajout et suppression de gestionnaires). Les gestionnaires de salle de conversation peuvent s’ajouter eux-mêmes à la liste membres ou présentateurs (pour les salles d’Auditorium) pour pouvoir participer à la salle de conversation. Les gestionnaires de salle de conversation peuvent également désactiver les salles de conversation (les administrateurs peuvent rechercher des salles de conversation désactivées et pouvoir les supprimer définitivement). Les responsables peuvent modifier toutes les propriétés d’une salle de conversation, à l’exception de la catégorie de la salle de conversation. Seul l’administrateur de chat permanent peut changer la catégorie après la création de la salle de conversation.
     
     <div>
     
@@ -75,9 +77,9 @@ Vous trouverez ci-après les quatre rôles d’utilisateur de chat permanent:
     
     </div>
 
-  - **Membre:** Utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées, telles que les messages non lus, les filtres figure et les filtres par Mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est une salle d’Auditorium dans laquelle seuls les présentateurs peuvent publier, obtenir du contenu et effectuer une recherche. Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher une salle de conversation s’ils figurent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour joindre ces salles de conversation et accéder au contenu. (Il n’y a pas d’accès ou d’approbations de requête intégré au système; ces opérations sont effectuées en externe par e-mail, par téléphone ou d’autres types de contacts.)
+  - **Membre :** Utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées, telles que les messages non lus, les filtres figure et les filtres par Mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est une salle d’Auditorium dans laquelle seuls les présentateurs peuvent publier, obtenir du contenu et effectuer une recherche. Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher une salle de conversation s’ils figurent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour joindre ces salles de conversation et accéder au contenu. (Il n’y a pas d’accès ou d’approbations de requête intégré au système ; ces opérations sont effectuées en externe par e-mail, par téléphone ou d’autres types de contacts.)
 
-  - **Présentateur:** Utilisateurs pouvant publier des billets dans une salle d’Auditorium.
+  - **Présentateur :** Utilisateurs pouvant publier des billets dans une salle d’Auditorium.
 
 <div>
 
@@ -89,17 +91,17 @@ Vous trouverez ci-après les quatre rôles d’utilisateur de chat permanent:
 
 </div>
 
-Les rôles suivants sont des rôles d’administrateur pour le serveur Chat permanent:
+Les rôles suivants sont des rôles d’administrateur pour le serveur Chat permanent :
 
-  - **Administrateur de chat permanent (CsPersistentChatAdministrator):** Il s’agit d’un nouveau rôle de contrôle d’accès basé sur un rôle (RBAC) permettant d’administrer et de gérer le serveur de chat permanent. Les utilisateurs ou groupes de sécurité désignés comme CsPersistentChatAdministrator peuvent administrer le serveur Chat permanent en utilisant des applets de commande Windows PowerShell à distance (à partir d’un ordinateur autre que le serveur de chat permanent). Le serveur de chat permanent vérifie que l’administrateur de chat permanent est membre du groupe local de l’administrateur local RTC sur le serveur frontal de chat permanent du serveur.
+  - **Administrateur de chat permanent (CsPersistentChatAdministrator) :** Il s’agit d’un nouveau rôle de contrôle d’accès basé sur un rôle (RBAC) permettant d’administrer et de gérer le serveur de chat permanent. Les utilisateurs ou groupes de sécurité désignés comme CsPersistentChatAdministrator peuvent administrer le serveur Chat permanent en utilisant des applets de commande Windows PowerShell à distance (à partir d’un ordinateur autre que le serveur de chat permanent). Le serveur de chat permanent vérifie que l’administrateur de chat permanent est membre du groupe local de l’administrateur local RTC sur le serveur frontal de chat permanent du serveur.
     
     Le rôle CsPersistentChatAdministrator peut gérer des salles de conversation (modifier toutes les propriétés, y compris l’appartenance, les responsables, les catégories, marquer des salles comme désactivées), et créer et gérer des catégories de salle de conversation qui définissent les personnes autorisées à créer des salles de conversation. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Les administrateurs peuvent également modifier et gérer la configuration de chat permanent (propriétés du pool, paramètres globaux et configuration de la conformité) et peut également planifier et implémenter une migration à partir d’un ancien déploiement serveur Chat Server vers Lync Server 2013 persistent. Serveurs.
 
-  - **Administrateur Lync:** Administrateur général d’entreprise pour Lync Server 2013 responsable du déploiement.
+  - **Administrateur Lync :** Administrateur général d’entreprise pour Lync Server 2013 responsable du déploiement.
 
-  - **Operations Manager:** Utilisateur responsable de la gestion des opérations quotidiennes.
+  - **Operations Manager :** Utilisateur responsable de la gestion des opérations quotidiennes.
 
-  - **Développeurs et fournisseurs tiers:** Les développeurs tiers étendent le système, en particulier, en fournissant une solution de paroi éthique pour les conversations de groupe, le support technique et les outils, les clients Web/mobiles et l’infrastructure de développement des bot.
+  - **Développeurs et fournisseurs tiers :** Les développeurs tiers étendent le système, en particulier, en fournissant une solution de paroi éthique pour les conversations de groupe, le support technique et les outils, les clients Web/mobiles et l’infrastructure de développement des bot.
 
 </div>
 

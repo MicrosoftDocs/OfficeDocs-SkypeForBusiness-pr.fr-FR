@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: recherche de virus et vérification des signatures de virus'
+title: 'Lync Server 2013 : recherche de virus et vérification des signatures de virus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scanning for viruses and checking virus definitions
 ms:assetid: 287c0f43-82d1-4c1d-b08f-77112fcb5bfa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 357c2c2053aca6b7b18a966756ece2768a8e71c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb36ec86c5e9d30e6a215a89748a02e5ef355b73
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822173"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-01_
+_**Dernière modification de la rubrique :** 2014-05-01_
 
 Nous vous recommandons vivement d’installer un produit antivirus de niveau message instantané. Le message instantané est une source connue pour la propagation rapide des virus et des logiciels malveillants au sein d’une organisation. Microsoft Forefront® Security pour Lync Server fournit une analyse multimoteur avec un virus, un logiciel malveillant, une protection de filtre par fichier et mot clé ainsi qu’une intégration transparente avec Office Communications Server.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vue d’ensemble de l’accès des utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of external user access
 ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a527df5a3bc7b296d17860c7a02876dbc31fbc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1007dfb330aaa21dbac269f606102c51712c9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34825519"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Dans cette documentation, nous utilisons le terme *utilisateur externe* pour définir une grande catégorie d’utilisateurs qui communiquent avec vos utilisateurs de lync Server 2013 et de Lync 2013 en dehors du pare-feu. Les utilisateurs externes qu’il est possible d’autoriser à communiquer Lync Server 2013 avec des utilisateurs internes (c’est-à-dire, les utilisateurs qui se connectent à Lync Server à partir du pare-feu) peuvent inclure les éléments suivants:
+Dans cette documentation, nous utilisons le terme *utilisateur externe* pour définir une grande catégorie d’utilisateurs qui communiquent avec vos utilisateurs de lync Server 2013 et de Lync 2013 en dehors du pare-feu. Les utilisateurs externes qu’il est possible d’autoriser à communiquer Lync Server 2013 avec des utilisateurs internes (c’est-à-dire, les utilisateurs qui se connectent à Lync Server à partir du pare-feu) peuvent inclure les éléments suivants :
 
-  - **Utilisateurs**   distants utilisateurs de votre organisation qui se connectent à Lync Server depuis l’extérieur du pare-feu.
+  - **Utilisateurs distants**   utilisateurs de votre organisation qui se connectent à Lync Server depuis l’extérieur du pare-feu.
 
   - **Utilisateurs fédérés utilisateurs**   disposant d’un compte auprès d’une organisation de clients ou de partenaires approuvés, par exemple Lync Server 2010, Lync Server 2013 ou Office Communications Server 2007 R2. Les utilisateurs fédérés peuvent également être membres d’organisations partenaires définies utilisant le protocole XMPP (extensible Messaging and Presence Protocol) par le biais du proxy XMPP du serveur Edge et de la passerelle XMPP du serveur ou du pool frontal. Une relation d’approbation définie, appelée Fédération, n’est pas liée ou ne dépend pas d’une relation d’approbation des services de domaine Active Directory.
     
@@ -45,7 +47,7 @@ Dans cette documentation, nous utilisons le terme *utilisateur externe* pour dé
     
 
     > [!NOTE]  
-    > Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.
+    > Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.
 
     
     </div>
@@ -56,7 +58,7 @@ Dans cette documentation, nous utilisons le terme *utilisateur externe* pour dé
 
   - **Utilisateurs anonymes**   utilisateurs qui n’ont pas de compte d’utilisateur dans les services de domaine Active Directory de votre organisation ou qui ont reçu des invitations à distance dans une conférence locale.
 
-Votre déploiement Edge fournit un accès externe pour les types de communication suivants:
+Votre déploiement Edge fournit un accès externe pour les types de communication suivants :
 
   - **Messagerie instantanée et présence**   les utilisateurs externes autorisés peuvent participer aux conversations et conférences par messagerie instantanée, et ils peuvent obtenir des informations sur le statut de présence d’un autre utilisateur. Les utilisateurs de fournisseurs de services de messagerie instantanée publics peuvent participer à des conversations par messagerie instantanée avec des utilisateurs de Lync Server individuels au sein de votre organisation et accéder aux informations de présence, mais ils ne peuvent pas participer à des conférences par messagerie instantanée à l’aide de Lync Server. Ce type de communication est strictement égal à égal. Le transfert de fichiers n’est pas pris en charge pour les utilisateurs de fournisseurs de services de messagerie instantanée publics, et les communications audio/vidéo dans les communications d’égal à égal sont prises en charge pour les utilisateurs Windows Messenger 2011, mais pas pour les autres utilisateurs de fournisseurs de services de messagerie instantanée publics.
     
@@ -68,7 +70,7 @@ Votre déploiement Edge fournit un accès externe pour les types de communicatio
 
 Afin de contrôler les communications, vous pouvez configurer une ou plusieurs stratégies qui déterminent la façon dont les utilisateurs internes et externes à votre organisation communiquent entre eux. Vous pouvez également configurer les paramètres et appliquer des stratégies aux utilisateurs internes individuels ou à des types d’utilisateurs externes spécifiques pour contrôler les communications avec les utilisateurs externes.
 
-Rôles Lync Server 2013 utilisés pour fournir un accès externe:
+Rôles Lync Server 2013 utilisés pour fournir un accès externe :
 
 **Serveur Edge le**   serveur Edge est un serveur ou un pool de serveurs qui exécutent les services autorisant l’accès externe à la messagerie instantanée et aux services de présence, de conférence, de contenu audio et vidéo, ainsi que d’autres médias (par exemple, les services de transfert de fichiers). Le cas échéant, vous pouvez configurer le serveur de périphérie pour qu’il se fédérer avec d’autres déploiements Lync Server ou Office Communications Server 2007 R2, ainsi que d’autres déploiements de XMPP. La fonctionnalité de connectivité de messagerie instantanée publique optionnelle est activée et configurée via le serveur Edge.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test de l’audioconférence tierce'
+title: 'Lync Server 2013 : test de l’audioconférence tierce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing third-party audio conferencing
 ms:assetid: 0428eb2f-a5ce-47e5-9ea4-383965dfc1e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727299(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1c23f65015dd34f5efbaafa8472466394caa52c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a90aab3b0aec4fce46b311baccd0f28f2e7101b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846511"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846511"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-11-01_
+_**Dernière modification de la rubrique :** 2014-11-01_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-11-01_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsAudioConferencingProvider. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsAudioConferencingProvider. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -82,7 +84,7 @@ Exemple 1 vérifie si un utilisateur de test défini pour le pool atl-cs-001.lit
 
 Les commandes illustrées dans l’exemple 2 permettent de tester la capacité d’un\\utilisateur spécifique (litwareinc kenmyer) de se connecter à son fournisseur de services d’audioconférence. Pour cela, la première commande de l’exemple utilise l’applet de commande Get-Credential pour créer un objet d’information d’identification de l’interface de ligne de commande Windows PowerShell contenant le nom et le mot de passe de l’utilisateur Ken Myer. (Dans la mesure où le\\nom de connexion litwareinc kenmyer a été inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell n’exige que l’administrateur entre le mot de passe du compte Ken Myer.) L’objet Credentials obtenu est stocké dans une variable nommée $credential.
 
-La deuxième commande vérifie alors que l’utilisateur peut se connecter à son fournisseur de services d’audioconférence. Pour effectuer cette tâche, l’applet de contrôle test-CsAudioConferencingProvider est appelée, avec trois paramètres: TargetFqdn (nom de domaine complet du pool d’inscriptions); UserCredential (l’objet Windows PowerShell contenant les informations d’identification de l’utilisateur de Ken Myer); et UserSipAddress (adresse SIP correspondant aux informations d’identification fournies par l’utilisateur).
+La deuxième commande vérifie alors que l’utilisateur peut se connecter à son fournisseur de services d’audioconférence. Pour effectuer cette tâche, l’applet de contrôle test-CsAudioConferencingProvider est appelée, avec trois paramètres : TargetFqdn (nom de domaine complet du pool d’inscriptions); UserCredential (l’objet Windows PowerShell contenant les informations d’identification de l’utilisateur de Ken Myer); et UserSipAddress (adresse SIP correspondant aux informations d’identification fournies par l’utilisateur).
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -93,35 +95,35 @@ La deuxième commande vérifie alors que l’utilisateur peut se connecter à so
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si le fournisseur de services d’audioconférence est configuré correctement, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie:**
+Si le fournisseur de services d’audioconférence est configuré correctement, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie :**
 
-Nom de domaine complet (FQDN) cible: atl-sql-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-sql-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur:
+Message d’erreur :
 
 Diagnostic
 
-Si l’utilisateur spécifié ne peut pas se connecter ou se déconnecter, le résultat s’affichera en tant qu' **échec**et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic:
+Si l’utilisateur spécifié ne peut pas se connecter ou se déconnecter, le résultat s’affichera en tant qu' **échec**et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic :
 
-Nom de domaine complet (FQDN) cible: atl-sql-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-sql-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur: 10060, une tentative de connexion a échoué car la partie connectée
+Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée
 
 ne répond pas correctement après un certain temps, ou
 
 échec de la connexion établie, car l’hôte connecté a
 
-échec de la \[réponse à 2001:4898: E8: f39e: 5c9a: ad83:81b3\]: 9944:5061
+échec de la \[réponse à 2001:4898 : E8 : f39e : 5c9a : ad83:81b3\]: 9944:5061
 
-Exception interne: une tentative de connexion a échoué, car le
+Exception interne : une tentative de connexion a échoué, car le
 
 la fête connectée ne répond pas correctement après un délai de
 
@@ -129,11 +131,11 @@ heure ou échec de la connexion en raison d’un hôte connecté
 
 échec de la réponse
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898 : E8 : f39e : 5c9a : ad83:81b3:9944\]: 5061
 
 Diagnostic
 
-Par exemple, la sortie précédente inclut la remarque «la partie connectée n’a pas répondu correctement», qui indique généralement un problème avec le serveur Edge.
+Par exemple, la sortie précédente inclut la remarque « la partie connectée n’a pas répondu correctement », qui indique généralement un problème avec le serveur Edge.
 
 </div>
 
@@ -141,7 +143,7 @@ Par exemple, la sortie précédente inclut la remarque «la partie connectée n�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsAudioConferencingProvider** peuvent échouer:
+Voici quelques raisons courantes pour lesquelles **les tests-CsAudioConferencingProvider** peuvent échouer :
 
   - Une valeur de paramètre incorrecte a été fournie. Comme indiqué dans l’exemple précédent, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
 

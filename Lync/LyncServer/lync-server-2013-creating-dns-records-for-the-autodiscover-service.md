@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création d’enregistrements DNS pour le service de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831771"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-20_
+_**Dernière modification de la rubrique :** 2014-06-20_
 
-Vos utilisateurs mobiles Lync vous auront besoin d’activer la découverte automatique, et d’une partie de la création d’enregistrements DNS (Domain Name System). En fonction de vos besoins, vous devez disposer des éléments suivants:
+Vos utilisateurs mobiles Lync vous auront besoin d’activer la découverte automatique, et d’une partie de la création d’enregistrements DNS (Domain Name System). En fonction de vos besoins, vous devez disposer des éléments suivants :
 
   - Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent au sein du réseau de votre organisation.
 
   - Enregistrement DNS externe ou public permettant de prendre en charge les utilisateurs mobiles qui se connectent à partir d’Internet
 
-Pourquoi? Vous devez créer un enregistrement DNS interne et un enregistrement DNS externe pour chaque domaine SIP.
+Pourquoi ? Vous devez créer un enregistrement DNS interne et un enregistrement DNS externe pour chaque domaine SIP.
 
 Les enregistrements DNS que vous créez peuvent être des enregistrements de type (hôte) ou CNAMe. Pour vous aider, nous allons découvrir comment créer ces enregistrements DNS internes et externes ci-dessous. Pour plus d’informations sur la configuration requise pour les utilisateurs mobiles, vous pouvez consulter les [exigences techniques en matière de mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
@@ -51,7 +53,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements de typ
 
 1.  Pour créer un enregistrement DNS interne, vous devez vous connecter à un serveur DNS dans votre réseau à l’aide d’un compte de domaine membre du groupe administrateurs de domaine ou membre du groupe DnsAdmins.
 
-2.  Ouvrez le composant logiciel enfichable d’administration DNS: cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
+2.  Ouvrez le composant logiciel enfichable d’administration DNS : cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
 3.  Dans l’arborescence de la console du serveur DNS, développez **zones de recherche directe** pour le domaine Active Directory sur lequel se trouve votre pool de directeurs et votre pool de serveurs Lync Server 2013. (par exemple, contoso. local).
 
@@ -89,7 +91,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements de typ
 
 7.  Il doit exister une forme de zone de texte **nom d’alias** comme le DNS interne, vous devez entrer lyncdiscover comme nom d’hôte de l’URL du service de découverte automatique externe.
 
-8.  Il est également possible qu’il y ait une forme de **nom de domaine complet (FQDN) pour l’hôte cible** , à l’endroit où vous entrez le nom de domaine complet des services Web externes pour votre pool de directeurs (par exemple, lyncwebexdir01.contoso.com), puis cliquez sur OK ou prenez ce qui action du DNS externe permettant d’accepter la création de cette entrée. Comme indiqué à l’étape 4, si vous n’avez pas de pool de directeurs, vous devez utiliser le nom de domaine complet du pool frontal ou le nom de domaine complet (FQDN) du serveur configuré, le cas échéant.
+8.  Dans le cas d’un **nom de domaine complet (FQDN)** , vous devez également entrer le nom de domaine complet (FQDN) des services Web externes pour votre pool de directeurs (par exemple, lyncwebexdir01.contoso.com), puis cliquer sur OK ou exécuter une action quelconque du DNS externe pour accepter la création de cette entrée. Comme indiqué à l’étape 4, si vous n’avez pas de pool de directeurs, vous devez utiliser le nom de domaine complet du pool frontal ou le nom de domaine complet (FQDN) du serveur configuré, le cas échéant.
 
 9.  Vous devez créer un nouvel enregistrement CNAMe de découverte automatique dans la zone de recherche directe de chaque domaine SIP pris en charge dans votre environnement Lync 2013.
 
@@ -101,7 +103,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements de typ
 
 1.  Pour créer un enregistrement DNS interne, connectez-vous à un serveur DNS dans votre réseau à l’aide d’un compte de domaine membre du groupe Domain Admins ou membre du groupe DnsAdmins.
 
-2.  Ouvrez le composant logiciel enfichable d’administration DNS: cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
+2.  Ouvrez le composant logiciel enfichable d’administration DNS : cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
 3.  Dans le cas d’un enregistrement DNS interne, dans l’arborescence de la console du serveur DNS, développez **zones de recherche directe** pour votre domaine Active Directory (par exemple, contoso. local) sur lequel est installé votre pool de directeurs et votre pool frontal Lync Server 2013.
 
@@ -143,7 +145,7 @@ Les enregistrements DNS que vous créez peuvent être des enregistrements de typ
 
 7.  Il doit y avoir un lieu pour entrer un **nom**, tapez lyncdiscover comme nom d’hôte de l’URL du service de découverte automatique externe.
 
-8.  Il devrait également y avoir une zone de texte **adresse IP** , vous devez entrer l’adresse IP (par exemple, lyncwebexdir01.contoso.com) ou éventuellement l’adresse IP du solde de charge de votre pool (ou une adresse IP de proxy inverse qui mène à la même), puis cliquez sur OK ou exécuter une action quelconque dans le DNS externe pour accepter la création de cette entrée. Comme indiqué à l’étape 4, si vous n’avez pas de pool de répertoires, vous devez utiliser l’adresse IP du pool frontal ou l’adresse IP d’un serveur configuré, selon le cas.
+8.  Il devrait également y avoir une zone de texte **adresse IP** , vous devez entrer l’adresse IP (par exemple, lyncwebexdir01.contoso.com) ou éventuellement l’adresse IP du système d’équilibrage de charge (ou une adresse IP de proxy inverse), puis cliquer sur OK ou exécuter une action quelconque du DNS externe pour accepter la création de cette entrée. Comme indiqué à l’étape 4, si vous n’avez pas de pool de répertoires, vous devez utiliser l’adresse IP du pool frontal ou l’adresse IP d’un serveur configuré, selon le cas.
 
 9.  Vous devez effectuer une nouvelle découverte automatique A ou un enregistrement AAAA dans la zone de recherche directe de chaque domaine SIP pris en charge dans votre environnement Lync 2013.
 

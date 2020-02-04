@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la prise en charge de la Fédération pour un client Lync Online'
+title: 'Lync Server 2013 : configuration de la prise en charge de la Fédération pour un client Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring federation support for a Lync Online customer
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5e3b1e7a325a078d4769116697f957815f02487
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76582be324977d5466d234a37e4352806dd6d92f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838252"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838252"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous pouvez fournir des services de communication aux utilisateurs de votre organisation de l’une des façons suivantes:
+Vous pouvez fournir des services de communication aux utilisateurs de votre organisation de l’une des façons suivantes :
 
   - Déploiement de Lync Server 2013 au sein de votre organisation (connu sous le nom de *services locaux*) et configuration de comptes d’utilisateur Lync 2013 au sein de votre organisation.
 

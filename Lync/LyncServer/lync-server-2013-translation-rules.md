@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: règles de traduction'
+title: 'Lync Server 2013 : règles de traduction'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Translation rules
 ms:assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398520(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22b6fbacf068f6a1a388a968989259afec81d17a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4ae330633acb04a35abe19356f4b00ff09ef41a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846490"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846490"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Lync Server 2013 voix entreprise nécessite que toutes les chaînes de numérotation soient normalisées au format E. 164 pour pouvoir exécuter la recherche de numéro inverse (RNL). Dans Microsoft Lync Server 2010, les règles de traduction sont uniquement prises en charge pour les numéros appelés. Les règles de traduction suivantes sont également prises en charge dans Microsoft Lync Server 2013 pour les numéros d’appel. L’*homologue de jonction* (c’est-à-dire la jonction de passerelle, PBX ou SIP associée) peut exiger que les numéros soient au format de numérotation local. Pour convertir les numéros du format E.164 au format de numérotation local, vous pouvez définir une ou plusieurs règles de conversion pour manipuler l’URI demandé avant de l’acheminer vers l’homologue de jonction. Par exemple, vous pouvez rédiger une règle pour supprimer la valeur « +44 » au début de la chaîne de numérotation et la remplacer par « 0144 ».
 

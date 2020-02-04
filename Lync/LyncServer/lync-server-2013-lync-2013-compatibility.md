@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: compatibilité Lync 2013'
+title: 'Lync Server 2013 : compatibilité Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync 2013 compatibility
 ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e177003efb73cd1e16ae8fd772d579eb222af8bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 19099440c37da5550fb39643fad328ded08851f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830934"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830934"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 Cette section décrit la compatibilité de Lync 2013 avec différentes versions des suites Microsoft Office, Microsoft Exchange Server, des systèmes d’exploitation Windows et certains clients de messagerie instantanée publique sélectionnés.
 
@@ -110,14 +112,14 @@ Le tableau suivant décrit les fonctionnalités 2013 de Lync prises en charge pa
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
 </tr>
 <tr class="even">
 <td><p>Statut de présence dans les champs À et Cc de Microsoft Outlook</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
 </tr>
 <tr class="odd">
 <td><p>Répondre avec un appel de conférence à partir du menu Disponibilité.</p></td>
@@ -131,14 +133,14 @@ Le tableau suivant décrit les fonctionnalités 2013 de Lync prises en charge pa
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
 </tr>
 <tr class="odd">
 <td><p>Répondre avec un message instantané ou un appel à partir de la barre d’outils ou du ruban dans un message électronique reçu</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
 </tr>
 <tr class="even">
 <td><p>Statut de présence dans le champ De d’Outlook</p></td>
@@ -166,7 +168,7 @@ Le tableau suivant décrit les fonctionnalités 2013 de Lync prises en charge pa
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>Oui </p></td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +176,7 @@ Le tableau suivant décrit les fonctionnalités 2013 de Lync prises en charge pa
 
 1 pour plus d’informations, reportez-vous à [intégration de Microsoft Lync server 2013 et Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) dans la documentation de planification.
 
-Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou Office 2013:
+Les fonctionnalités suivantes sont disponibles uniquement avec Office 2010 ou Office 2013 :
 
   - Carte de visite avec options étendues, telles que l’appel vidéo et le partage de Bureau
 
@@ -317,9 +319,9 @@ Par ailleurs, la fonctionnalité d’intégration de XMPP de Lync Server 2013 pe
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync.</P></LI></UL>
 

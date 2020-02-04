@@ -3,6 +3,8 @@ title: Migration des serveurs d’archivage et de surveillance
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
 ms:assetid: 8d879253-ad76-42b7-8386-e44b110239cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688124(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 902970548d4bd9e95e1bd4e7d6eba75e2fe405d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846158"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Si vous avez déployé le serveur d’archivage et le serveur de surveillance sur votre serveur Office Communications Server 2007 R2, vous pouvez déployer ces serveurs dans votre environnement Lync Server 2013 après la migration de vos pools front-end. En revanche, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, il est conseillé d’y ajouter l’archivage et la surveillance de votre pool de pilotes avant de procéder à la migration.
 
-Si vous voulez utiliser les fonctionnalités d’archivage et de surveillance pendant la phase de migration et de coexistence, gardez à l’esprit les points suivants:
+Si vous voulez utiliser les fonctionnalités d’archivage et de surveillance pendant la phase de migration et de coexistence, gardez à l’esprit les points suivants :
 
   - L’archivage de données et le contrôle des données ne sont pas déplacés vers le déploiement Lync Server 2013. Les données que vous sauvegardez avant de désactiver l’environnement hérité seront votre historique d’activités dans Office Communications Server 2007 R2.
 

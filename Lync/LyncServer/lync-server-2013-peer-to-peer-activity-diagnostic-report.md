@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de diagnostic d’activité d’égal à égal'
+title: 'Lync Server 2013 : rapport de diagnostic d’activité d’égal à égal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Activity Diagnostic Report
 ms:assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558602(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f435a4b0ff0ec42e8898260c3ada528963bbebb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc98f1c81f79605da2de2b06397d8a23d8086861
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825407"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34825407"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Microsoft Lync Server 2013 distingue différentes sortes d’échecs:
+Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Microsoft Lync Server 2013 distingue différentes sortes d’échecs :
 
-  - **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. En revanche, il s’agissait d’un échec attendu: Microsoft Lync Server 2013 ne vous attend pas à répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
+  - **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. En revanche, il s’agissait d’un échec attendu : Microsoft Lync Server 2013 ne vous attend pas à répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
 
-  - **Échec inattendu**. Un échec inattendu constitue exactement ce que son nom indique : une erreur à laquelle on ne s’attend pas, compte tenu des circonstances. Par exemple, supposons que vous appelez une personne et qu’elle soit disponible pour répondre à un appel. Toutefois, lorsque Lync Server 2013 tente d’acheminer votre appel vers la boîte vocale, l’appel échoue car la connectivité à la messagerie unifiée Exchange a été perdue. Il s’agit d’une erreur inattendue: il est possible que les appels soient toujours acheminés vers la boîte vocale. En règle générale, les échecs inattendus sont de vrais échecs : ce sont des problèmes auxquels il n’est pas possible de remédier en formant les utilisateurs ou à l’aide de mesures similaires.
+  - **Échec inattendu**. Un échec inattendu constitue exactement ce que son nom indique : une erreur à laquelle on ne s’attend pas, compte tenu des circonstances. Par exemple, supposons que vous appelez une personne et qu’elle soit disponible pour répondre à un appel. Toutefois, lorsque Lync Server 2013 tente d’acheminer votre appel vers la boîte vocale, l’appel échoue car la connectivité à la messagerie unifiée Exchange a été perdue. Il s’agit d’une erreur inattendue : il est possible que les appels soient toujours acheminés vers la boîte vocale. En règle générale, les échecs inattendus sont de vrais échecs : ce sont des problèmes auxquels il n’est pas possible de remédier en formant les utilisateurs ou à l’aide de mesures similaires.
 
 Notez que le compte des succès et des échecs attendus et inattendus ne correspond pas nécessairement au compte total des sessions. Par exemple, l’illustration précédente indique les valeurs suivantes :
 
@@ -76,7 +78,7 @@ Si vous additionnez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessio
 
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Accès au rapport de diagnostic des activités P2P
 
-Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au [rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au [rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Nombre d’échecs inattendus
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Serveur Edge consolidé unique avec des adresses IP p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single consolidated edge with private IP addresses and NAT
 ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399001(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f37395f840e8811d343f11f6ee2a84bd4fcfbf82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 188104797475b0e0b54c39b3b896478d80e5636b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846819"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846819"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
-Si votre organisation a besoin d’une prise en charge de moins de 15 000 connexions clientes du service Edge d’accès, de 1 000 de 500 connexions client de service de conférence rendez-vous actives Lync important, cette topologie offre les avantages de réduire le coût du matériel et de simplifier le déploiement. Si vous avez besoin d’une plus grande capacité ou que vous avez besoin d’une haute disponibilité, vous devez déployer une topologie de serveur Edge consolidée à l’échelle. Pour plus d’informations, consultez l’une des rubriques suivantes:
+Si votre organisation a besoin d’une prise en charge de moins de 15 000 connexions clientes du service Edge d’accès, de 1 000 de connexions clientes Lync Server Web service et de 500 sessions A/V de haut niveau, et qu’une haute disponibilité du serveur Edge n’est pas importante, cette topologie présente les avantages d’un faible coût matériel et d’un déploiement simplifié. Si vous avez besoin d’une plus grande capacité ou que vous avez besoin d’une haute disponibilité, vous devez déployer une topologie de serveur Edge consolidée à l’échelle. Pour plus d’informations, consultez l’une des rubriques suivantes :
 
   - <span></span>  
     [Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
@@ -76,7 +78,7 @@ Il existe des technologies de traduction d’adresses réseau (NAT) pour IPv6 qu
 
 **Topologie de périphérie consolidée unique**
 
-![d9b889c1-587c-4732-9b68-841186ccff78] (images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "d9b889c1-587c-4732-9b68-841186ccff78")
+![d9b889c1-587c-4732-9b68-841186ccff78](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "d9b889c1-587c-4732-9b68-841186ccff78")
 
 <div>
 

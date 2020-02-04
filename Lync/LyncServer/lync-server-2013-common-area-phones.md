@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: téléphones de zone commune'
+title: 'Lync Server 2013 : téléphones de zone commune'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common area phones
 ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 179d6a0102e62a081846a14981ed70294432ed44
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838535"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Les téléphones portables courants sont des téléphones IP qui ne sont pas associés à un utilisateur individuel. Au lieu d’être localisé dans le Bureau d’une personne, les téléphones communs sont généralement situés dans des couloirs de bâtiment, des cafétérias, des salons d’employés, des salles de réunion et d’autres emplacements dans lesquels un grand nombre de personnes est susceptible de se réunir. Contrairement aux autres téléphones dans Lync Server, qui sont généralement conservés à l’aide de stratégies vocales et de plans de numérotation qui sont attribués à des utilisateurs individuels, les téléphones ordinaires n’ont pas d’utilisateurs individuels. Cela signifie qu’elles doivent être gérées différemment de celles de vos autres téléphones.
 
@@ -45,7 +47,7 @@ Les rubriques de cette section vous permettent d’apprendre à créer des objet
 
 
 > [!NOTE]  
-> Trois options s’offrent à vous pour les téléphones de zone commune: le téléphone local Aastra 6721ip, le téléphone IP HP 4110 et le téléphone local IP Polycom CX500. Le numéro de téléphone de la Conférence rendez-vous d’Polycom CX3000 est une variante. Il est toutefois destiné à une utilisation dans des salles de conférence. Pour plus d’informations sur les téléphones portables courants, voir la section téléphones communs pour le <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">choix de nouveaux périphériques</A>.
+> Trois options s’offrent à vous pour les téléphones de zone commune : le téléphone local Aastra 6721ip, le téléphone IP HP 4110 et le téléphone local IP Polycom CX500. Le numéro de téléphone de la Conférence rendez-vous d’Polycom CX3000 est une variante. Il est toutefois destiné à une utilisation dans des salles de conférence. Pour plus d’informations sur les téléphones portables courants, voir la section téléphones communs pour le <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">choix de nouveaux périphériques</A>.
 
 
 

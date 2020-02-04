@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Activation des utilisateurs pour la messagerie vocale
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable users for hosted voice mail
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45872df26989d8d264ce77406bfbce86f321ccf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e0ce9ee4da6ee0a36e5e5f0028371aab8af523f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831274"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-24_
+_**Dernière modification de la rubrique :** 2012-09-24_
 
 Suivez la procédure pour activer les utilisateurs de Lync Server 2013 pour la messagerie vocale sur un service de messagerie unifiée Exchange hébergé.
 
@@ -55,7 +57,7 @@ Pour plus d’informations sur l’applet [de connexion Set-Csuser](https://docs
 
 ## <a name="to-enable-users-for-hosted-voice-mail"></a>Pour autoriser les utilisateurs à utiliser la messagerie vocale hébergée
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de cmdlet Set-CsUser pour configurer le compte d’utilisateur pour la messagerie vocale hébergée. Par exemple, exécutez :
     
@@ -63,9 +65,9 @@ Pour plus d’informations sur l’applet [de connexion Set-Csuser](https://docs
     
     L’exemple qui précède définit les paramètres suivants :
     
-      - **HostedVoiceMail** permet d’acheminer les appels de messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée. Il signale également Microsoft Lync 2013 pour allumer l’indicateur «appel de la messagerie vocale».
+      - **HostedVoiceMail** permet d’acheminer les appels de messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée. Il signale également Microsoft Lync 2013 pour allumer l’indicateur « appel de la messagerie vocale ».
     
-      - **Identité** indique le compte d’utilisateur à modifier. La valeur IDENTITY peut être spécifiée en utilisant l’un des formats suivants:
+      - **Identité** indique le compte d’utilisateur à modifier. La valeur IDENTITY peut être spécifiée en utilisant l’un des formats suivants :
         
           - Adresse SIP de l’utilisateur
         
@@ -73,7 +75,7 @@ Pour plus d’informations sur l’applet [de connexion Set-Csuser](https://docs
         
           - Le nom de connexion\\au domaine de l’utilisateur (par\\exemple, contoso kenmyer);
         
-          - Nom d’affichage des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Si vous utilisez le nom d’affichage comme valeur d’identité, vous pouvez utiliser le caractère\*générique astérisque (). Par exemple, l’identité «\* Smith» renvoie tous les utilisateurs qui ont un nom d’affichage qui se termine par la valeur de chaîne «Smith».
+          - Nom d’affichage des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Si vous utilisez le nom d’affichage comme valeur d’identité, vous pouvez utiliser le caractère\*générique astérisque (). Par exemple, l’identité «\* Smith » renvoie tous les utilisateurs qui ont un nom d’affichage qui se termine par la valeur de chaîne « Smith ».
         
         <div>
         

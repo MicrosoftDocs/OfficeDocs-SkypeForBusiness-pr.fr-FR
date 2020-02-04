@@ -3,6 +3,8 @@ title: Activer le contrôle d’appel distant
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Enable remote call control
 ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204664(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 310a140d3497a77ddcaeb8ba32403aa8f28b68e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 190f4e56a291ce48b5cd18b2dcd3e1b3461e3d7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34838873"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
-Le contrôle d’appel distant permet aux utilisateurs de contrôler leurs téléphones PBX (Private Branch Exchange) à l’aide de Lync Server 2013. Si vous avez déployé le contrôle d’appel distant dans votre environnement hérité et souhaitez le migrer vers Lync Server 2013, vous devez effectuer les tâches suivantes:
+Le contrôle d’appel distant permet aux utilisateurs de contrôler leurs téléphones PBX (Private Branch Exchange) à l’aide de Lync Server 2013. Si vous avez déployé le contrôle d’appel distant dans votre environnement hérité et souhaitez le migrer vers Lync Server 2013, vous devez effectuer les tâches suivantes :
 
 1.  Installez une passerelle SIP/CSTA et configurez-la pour communiquer avec votre système PBX. Vous devez effectuer cette étape lors du déploiement de votre pool de pilotes Lync Server 2013.
 
-2.  Après avoir fusionné votre topologie et effectué la migration de vos stratégies et paramètres, configurez Lync Server 2013 pour acheminer les demandes CSTA vers la passerelle SIP/CSTA. Cette étape est une étape manuelle qui suit la migration automatique. Pour configurer le routage des requêtes CSTA, procédez comme suit:
+2.  Après avoir fusionné votre topologie et effectué la migration de vos stratégies et paramètres, configurez Lync Server 2013 pour acheminer les demandes CSTA vers la passerelle SIP/CSTA. Cette étape est une étape manuelle qui suit la migration automatique. Pour configurer le routage des requêtes CSTA, procédez comme suit :
     
       - Supprimer les entrées d’hébergement d’ancienne génération (connues sous le nom d' *entrées de serveurs de confiance* dans Lync Server 2013). Si vous migrez des utilisateurs à partir de votre déploiement hérité, assurez-vous que vous avez supprimé toutes les entrées d’hôtes approuvées que vous avez créées pour la passerelle SIP/CSTA avant de configurer de nouvelles entrées de l’application fiable sur le pool de pilotes de Lync Server 2013. Pour plus d’informations sur la façon de supprimer des entrées d’hébergement héritées, voir [supprimer une entrée d’hôte autorisé](remove-an-authorized-host-entry.md).
     
@@ -51,7 +53,7 @@ Le contrôle d’appel distant permet aux utilisateurs de contrôler leurs tél�
 
 4.  Configurez les utilisateurs de Lync 2013 pour le contrôle d’appel distant en activant le contrôle d’appel distant et en assignant un URI (Uniform Resource Identifier) et un URI de ligne. Lorsque vous migrez des utilisateurs de votre déploiement hérité vers Lync Server 2013, les paramètres de contrôle des appels distants sont migrés avec les paramètres d’autres utilisateurs.
 
-5.  Si vous personnalisez les règles de normalisation des numéros de téléphone de votre carnet d’adresses dans votre déploiement hérité, vous devez effectuer certaines tâches manuelles après la migration automatique de stratégies et de paramètres pour migrer les règles de normalisation personnalisées. Si vous n’avez pas personnalisé de règles de normalisation, le carnet d’adresses est migré avec le reste de votre topologie. Pour plus d’informations sur la migration manuelle de règles de normalisation personnalisées, voir migrer le [carnet d’adresses](migrate-address-book_1.md).
+5.  Si vous personnalisez les règles de normalisation des numéros de téléphone de votre carnet d’adresses dans votre déploiement hérité, vous devez effectuer certaines tâches manuelles après la migration automatique de stratégies et de paramètres pour migrer les règles de normalisation personnalisées. Si vous n’avez pas personnalisé de règles de normalisation, le carnet d’adresses est migré avec le reste de votre topologie. Pour plus d’informations sur la migration manuelle de règles de normalisation personnalisées, voir [migrer le carnet d’adresses](migrate-address-book_1.md).
 
 </div>
 

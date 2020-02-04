@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Récupération d’urgence de pool frontal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool disaster recovery
 ms:assetid: 299cec23-35b4-4337-8f9a-2a57edd9c68b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688005(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3efcd533c391300c7c05eb57deb72289d9c169c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831135"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831135"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-17_
+_**Dernière modification de la rubrique :** 2012-09-17_
 
 Les rubriques de cette section expliquent les capacités de haute disponibilité et de récupération d’urgence dans Lync Server 2013.
 

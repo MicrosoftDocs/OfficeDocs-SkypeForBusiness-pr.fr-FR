@@ -3,6 +3,8 @@ title: Restauration d’un serveur principal en miroir d’Enterprise Edition-mi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - mirror
 ms:assetid: 4b3c8eae-6f1f-4377-b39b-6699e725c517
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 113d69d7aa39673686ff870c36a64bd1a8fe90f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 84a7c5a2aa12c1599d16ec563d10e8f5147df400
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823076"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823076"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-19_
+_**Dernière modification de la rubrique :** 2013-02-19_
 
 Si vous disposez d’un serveur principal Enterprise Edition dans une configuration en miroir et que le miroir échoue uniquement, suivez les procédures décrites dans cette section. En cas d’échec de la base de données principale et du miroir, voir [restaurer un serveur principal Enterprise Edition dans Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md). En cas d’échec du serveur principal, voir [restauration d’un serveur principal Enterprise Edition en miroir dans Lync Server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md). En cas d’échec de la base de données qui héberge la Banque d’administration centrale, voir [restauration du serveur qui héberge le magasin de gestion central dans Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal ne fonctionne pas, consultez la rubrique [restauration d’un serveur membre Enterprise Edition dans Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
@@ -45,9 +47,9 @@ Nous vous recommandons de prendre une copie d’image du système avant de comme
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous à un serveur frontal.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Désinstaller la mise en miroir. Tout d’abord, tapez l’applet de commande suivante:
+3.  Désinstaller la mise en miroir. Tout d’abord, tapez l’applet de commande suivante :
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn <PrimaryServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
@@ -65,9 +67,9 @@ Nous vous recommandons de prendre une copie d’image du système avant de comme
 
 7.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous à un serveur frontal.
 
-8.  Utilisez le générateur de topologie pour installer la base de données miroir. Procédez comme suit:
+8.  Utilisez le générateur de topologie pour installer la base de données miroir. Procédez comme suit :
     
-      - Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+      - Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
     
       - Cliquez avec le bouton droit sur le nœud Lync Server 2013, cliquez sur **Topology**, puis cliquez sur **installer la base de données**.
     

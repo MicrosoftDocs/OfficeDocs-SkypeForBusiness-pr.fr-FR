@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: réinitialiser une règle de mise à jour d’appareil'
+title: 'Lync Server 2013 : réinitialiser une règle de mise à jour d’appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reset a Device Update rule
 ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab03c5c28db28ddbd883f3f50845eaf91d4fd1a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36a85ed29f6bf4838428af302904d80a2f792388
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823209"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823209"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Si vous ne voulez pas que la mise à jour fonctionne sur vos appareils de test, vous pouvez réinitialiser la règle de mise à jour de l’appareil, qui supprime l’État en attente de la règle et désinstaller la mise à jour des périphériques de test.
 
@@ -59,7 +61,7 @@ Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour d’appareil** .
 
-4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes:
+4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
     
       - Pour réinitialiser une règle, sélectionnez la règle que vous voulez réinitialiser.
     
@@ -90,7 +92,7 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -100,7 +102,7 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 ## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>Pour réinitialiser une règle de mise à jour de l’appareil spécifique sur un serveur
 
-  - La commande suivante réinitialise la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com:
+  - La commande suivante réinitialise la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -110,7 +112,7 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 ## <a name="to-reset-all-the-device-update-rules-on-a-server"></a>Pour réinitialiser toutes les règles de mise à jour de l’appareil sur un serveur
 
-  - Cette commande réinitialise toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com:
+  - Cette commande réinitialise toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com :
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"  | Reset-CsDeviceUpdateRule
 
@@ -120,7 +122,7 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 ## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>Pour réinitialiser toutes les règles de mises à jour de périphériques ayant une marque spécifique
 
-  - Dans cet exemple, toutes les mises à jour de l’appareil dans l’ensemble de l’organisation dont la marque est égale à Microsoft sont réinitialisées:
+  - Dans cet exemple, toutes les mises à jour de l’appareil dans l’ensemble de l’organisation dont la marque est égale à Microsoft sont réinitialisées :
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: numéros d’accès à une conférence rendez-vous'
+title: 'Lync Server 2013 : numéros d’accès à une conférence rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing access numbers
 ms:assetid: 28def7d3-d584-4ae4-bb2a-918cb0b96c37
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688002(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a704fef0f3f27b32633a8dbd4cd66882c661642d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831402"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831402"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-18_
+_**Dernière modification de la rubrique :** 2012-09-18_
 
 Pour permettre aux utilisateurs de participer à la partie audio de conférences locales en se connectant depuis le réseau téléphonique public commuté (RTC), vous devez configurer des numéros d’accès pour les conférences rendez-vous. Les numéros d’accès aux conférences rendez-vous sont les numéros que les utilisateurs appellent pour participer à une conférence.
 

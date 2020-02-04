@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des certificats de serveur Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up Edge certificates
 ms:assetid: b266e793-dcec-4807-b548-02c83848c983
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412858(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a7a8bcddd1873607d0f1aa5eee7f63c622f00b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 517d5203efa8c50e66e849b89623cad04770e02a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821921"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Lorsque vous installez un serveur Edge, vous devez demander, installer et affecter les certificats requis pour les interfaces internes et externes.
 

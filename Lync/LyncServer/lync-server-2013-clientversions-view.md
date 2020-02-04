@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: ClientVersions'
+title: 'Affichage Lync Server 2013 : ClientVersions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d219b8666afc0684b0d61f02f06618ea6ef60f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838530"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le mode ClientVersions stocke les informations sur les différents types de clients et différentes versions ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement dans la vue représente une version du client. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -80,7 +82,7 @@ Le mode ClientVersions stocke les informations sur les différents types de clie
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Catégorie à laquelle le client appartient. Par exemple, le client Conferencing_Attendant_ 1.0 appartient au CAA ClientCategory.</p></td>
+<td><p>Catégorie à laquelle le client appartient. Par exemple, le client Conferencing_Attendant_1.0 appartient au CAA ClientCategory.</p></td>
 </tr>
 </tbody>
 </table>

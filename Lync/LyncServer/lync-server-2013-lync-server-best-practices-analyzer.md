@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: analyseur de meilleures pratiques de Lync Server'
+title: 'Lync Server 2013 : analyseur de meilleures pratiques de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Best Practices Analyzer
 ms:assetid: 3124be9d-ad21-4a70-9c21-d2fc1adb3386
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558584(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab744ab132d77a51d35bd89749fdc691f46680ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf3161c66d522c09692e9fb7f1b124b506549ceb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830921"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-13_
+_**Dernière modification de la rubrique :** 2012-06-13_
 
 Lync Server 2013, l’outil de diagnostic est un outil de diagnostic qui rassemble les informations de configuration des environnements Lync Server 2013 et détermine si la configuration est définie conformément aux meilleures pratiques Microsoft.
 

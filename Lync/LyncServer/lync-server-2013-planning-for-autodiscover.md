@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification de la découverte automatique'
+title: 'Lync Server 2013 : planification de la découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Autodiscover
 ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a1d0ce7a775bc73c5f3afa10d1f9c148395b0eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 709b27059e1908a45b4b473f5380215bbd499d27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825120"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825120"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-16_
+_**Dernière modification de la rubrique :** 2013-02-16_
 
-La découverte automatique a été introduite pour Lync Server dans la mise à jour cumulative pour Lync Server 2010: novembre 2011. L’objectif principal de cette implémentation initiale de la découverte automatique était d’offrir à Lync mobile la possibilité de rechercher le service de mobilité (MCX). Le service de découverte automatique de Lync Server 2013 est désormais un service utilisé par tous les clients pour localiser les services serveur et utilisateur. Le service de découverte automatique Microsoft Lync Server 2013 s’exécute sur les directeurs et les serveurs frontaux.
+La découverte automatique a été introduite pour Lync Server dans la mise à jour cumulative pour Lync Server 2010 : novembre 2011. L’objectif principal de cette implémentation initiale de la découverte automatique était d’offrir à Lync mobile la possibilité de rechercher le service de mobilité (MCX). Le service de découverte automatique de Lync Server 2013 est désormais un service utilisé par tous les clients pour localiser les services serveur et utilisateur. Le service de découverte automatique Microsoft Lync Server 2013 s’exécute sur les directeurs et les serveurs frontaux.
 
 <div>
 

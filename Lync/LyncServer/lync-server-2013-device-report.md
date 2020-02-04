@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport sur les appareils'
+title: 'Lync Server 2013 : rapport sur les appareils'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Report
 ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831448"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-12_
+_**Dernière modification de la rubrique :** 2013-11-12_
 
-Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par les téléphones IP (également appelés «périphériques»), utilisez plutôt le [rapport d’inventaire téléphonique IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) .
+Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par les téléphones IP (également appelés « périphériques »), utilisez plutôt le [rapport d’inventaire téléphonique IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) .
 
 Le rapport de périphérique est très utile pour les administrateurs souhaitant déterminer si un type d’appareil spécifique rencontre un plus grand nombre d’appels médiocres que d’autres appareils. Ce rapport pourrait, à son tour, influencer les décisions que vous devez prendre au moment de l’achat de nouveaux périphériques ou du remplacement des périphériques existants.
 
@@ -129,13 +131,13 @@ Si vous préférez consulter les totaux combinés d’un périphérique donné (
 
 ## <a name="accessing-the-device-report"></a>Accès au rapport de périphérique
 
-Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous affichez le [rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) , vous pouvez explorer le rapport sur les appareils pour un appareil spécifique en cliquant sur l’une des mesures suivantes:
+Normalement, vous pouvez accéder au rapport de périphérique à partir de la page d’accueil Rapports de surveillance. Toutefois, si vous affichez le [rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) , vous pouvez explorer le rapport sur les appareils pour un appareil spécifique en cliquant sur l’une des mesures suivantes :
 
   - Périphérique de capture
 
   - Périphérique de rendu
 
-À partir de l’appareil, vous pouvez explorer le [rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
+À partir de l’appareil, vous pouvez explorer le [rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Volume d’appels
 

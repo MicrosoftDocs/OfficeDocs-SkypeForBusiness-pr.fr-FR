@@ -3,6 +3,8 @@ title: Installer le package de compatibilité descendante WMI
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Install WMI Backward Compatibility package
 ms:assetid: 38797fbd-06a0-4008-b099-158e7b5d7703
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204816(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b61d34ce8809f06156f4d4dca61c39cc4aff0f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c3b8d474ff451a488124ebfbae0ff0872a6cca1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838982"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
-Si vous essayez d’exécuter l’Assistant Fusion du générateur de topologie sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche:
+Si vous essayez d’exécuter l’Assistant Fusion du générateur de topologie sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche :
 
-![Message d’erreur WMI] (images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Message d’erreur WMI")
+![Message d’erreur WMI](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Message d’erreur WMI")
 
-Si vous essayez d’exécuter l’applet **de commande Merge-CsLegacytopology** sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche:
+Si vous essayez d’exécuter l’applet **de commande Merge-CsLegacytopology** sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche :
 
-![Erreur du fournisseur WMI Windows PowerShell] (images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Erreur du fournisseur WMI Windows PowerShell")
+![Erreur du fournisseur WMI Windows PowerShell](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Erreur du fournisseur WMI Windows PowerShell")
 
 Pour installer le package de compatibilité descendante WMI
 

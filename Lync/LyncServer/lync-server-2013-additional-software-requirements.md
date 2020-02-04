@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Autre configuration logicielle requise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional software requirements
 ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e21a375fecbd109e108806dc816a9fa3fce81a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc650b4c427640398af1748e86c7bca9d76c703d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838921"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-08_
+_**Dernière modification de la rubrique :** 2016-12-08_
 
 Outre le matériel et les exigences en matière de système d’exploitation pour les plates-formes serveur, Lync Server 2013 nécessite l’installation de logiciels supplémentaires sur les serveurs que vous déployez.
 
@@ -95,9 +97,9 @@ Lorsque vous installez Microsoft .NET Framework 4,5 sur des serveurs exécutant 
 
 ## <a name="windows-identity-foundation"></a>Windows Identity Foundation
 
-**Windows Identity Foundation** dans Lync Server 2013 nécessite l’installation de Windows Identity Foundation afin de prendre en charge les scénarios d’authentification de serveur à serveur. Windows Server 2008 R2 et Windows Server 2012 nécessitent différentes procédures pour installer Windows identify Foundation. Sélectionnez votre système d’exploitation serveur dans la liste suivante:
+**Windows Identity Foundation** dans Lync Server 2013 nécessite l’installation de Windows Identity Foundation afin de prendre en charge les scénarios d’authentification de serveur à serveur. Windows Server 2008 R2 et Windows Server 2012 nécessitent différentes procédures pour installer Windows identify Foundation. Sélectionnez votre système d’exploitation serveur dans la liste suivante :
 
-  - Windows Server 2008 R2 pour Windows Server 2008 R2, vous recherchez s’il a déjà été installé sur votre ordinateur. Pour ce faire, accédez à **Ajout/suppression de programmes**, affichez les **mises à jour installées**et Regardez sous **Windows** pour l’entrée **Windows Identity Foundation (KB974405)**. Pour plus d’informations sur l’installation de Windows [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Identity Foundation, voir.
+  - Windows Server 2008 R2 pour Windows Server 2008 R2, vous recherchez s’il a déjà été installé sur votre ordinateur. Pour ce faire, accédez à **Ajout/suppression de programmes**, **Affichez les mises à jour installées**et Regardez sous **Windows** pour l’entrée **Windows Identity Foundation (KB974405)**. Pour plus d’informations sur l’installation de Windows [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Identity Foundation, voir.
 
   - Windows Server 2012 pour Windows Server 2012, utilisez le **Gestionnaire de serveur** pour installer Windows Identity Foundation. Dans l' **Assistant Ajout de rôles et de fonctionnalités**du gestionnaire de serveur, sélectionnez **fonctionnalités**. Dans la liste, sélectionnez **Windows Identity Foundation 3,5** . Cliquez sur **suivant**, puis sur **installer**.
 
@@ -113,7 +115,7 @@ Tous les serveurs frontaux et les serveurs Standard Edition doivent également e
 
 ## <a name="internet-information-services-iis"></a>services Internet (IIS)
 
-Les serveurs frontaux et les serveurs Standard Edition doivent exécuter Internet Information Services (IIS), avec les modules suivants:
+Les serveurs frontaux et les serveurs Standard Edition doivent exécuter Internet Information Services (IIS), avec les modules suivants :
 
   - Contenu statique
 
@@ -169,11 +171,11 @@ Nous vous recommandons d’installer l’expérience de bureau Windows avant d�
 
 ## <a name="additional-software-for-front-end-servers-and-standard-edition-servers-running-on-windows-server-2012"></a>Logiciels supplémentaires pour les serveurs frontaux et les serveurs Standard Edition Server fonctionnant sous Windows Server 2012
 
-Les serveurs frontaux requièrent .NET 3,5, qui n’est pas installé par défaut sur Windows Server 2012. Pour l’installer, placez votre support d’installation de Windows Server 2012 dans le lecteur D et tapez ce qui suit:
+Les serveurs frontaux requièrent .NET 3,5, qui n’est pas installé par défaut sur Windows Server 2012. Pour l’installer, placez votre support d’installation de Windows Server 2012 dans le lecteur D et tapez ce qui suit :
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Pour plus d’informations sur l’installation de .NET 3,5 sur des serveurs exécutant Windows Server 2012, voir «considérations relatives au <https://go.microsoft.com/fwlink/p/?linkid=275032>déploiement de Microsoft .net Framework 3,5» à l’adresse.
+Pour plus d’informations sur l’installation de .NET 3,5 sur des serveurs exécutant Windows Server 2012, voir « considérations relatives au <https://go.microsoft.com/fwlink/p/?linkid=275032>déploiement de Microsoft .net Framework 3,5 » à l’adresse.
 
 </div>
 
@@ -181,7 +183,7 @@ Pour plus d’informations sur l’installation de .NET 3,5 sur des serveurs ex�
 
 ## <a name="additional-software-for-directors"></a>Logiciels supplémentaires pour les directeurs
 
-Les directeurs doivent exécuter Internet Information Services (IIS), avec les modules suivants:
+Les directeurs doivent exécuter Internet Information Services (IIS), avec les modules suivants :
 
   - Contenu statique
 
@@ -233,15 +235,15 @@ Pour plus d’informations sur l’activation de MSMQ, [cliquez ici.](https://te
 
 ## <a name="additional-software-for-edge-servers"></a>Logiciels supplémentaires pour les serveurs de périphérie
 
-Les serveurs Edge nécessitent le logiciel suivant:
+Les serveurs Edge nécessitent le logiciel suivant :
 
   - Chaque serveur exécutant Lync Server 2013 doit avoir installé la version appropriée de Windows PowerShell 3,0. Pour plus d’informations, consultez [installation de Windows PowerShell 3,0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
   - Lync Server nécessite Microsoft .NET Framework 4,5. Pour Lync Server 2013 installé sur Windows Server 2008 R2, vous devez installer manuellement l’édition 64 bits de Microsoft .NET Framework 4,5 sur le serveur avant d’installer Lync Server 2013. Pour l’installer manuellement, téléchargez l’infrastructure Microsoft .NET 4,5 à partir du centre de téléchargement Microsoft sur[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
-  - **Windows Identity Foundation** dans Lync Server 2013 nécessite l’installation de Windows Identity Foundation afin de prendre en charge les scénarios d’authentification de serveur à serveur. Windows Server 2008 R2 et Windows Server 2012 nécessitent différentes procédures pour installer Windows identify Foundation. Sélectionnez votre système d’exploitation serveur dans la liste suivante:
+  - **Windows Identity Foundation** dans Lync Server 2013 nécessite l’installation de Windows Identity Foundation afin de prendre en charge les scénarios d’authentification de serveur à serveur. Windows Server 2008 R2 et Windows Server 2012 nécessitent différentes procédures pour installer Windows identify Foundation. Sélectionnez votre système d’exploitation serveur dans la liste suivante :
     
-      - Windows Server 2008 R2 pour Windows Server 2008 R2, vous recherchez s’il a déjà été installé sur votre ordinateur. Pour ce faire, accédez à **Ajout/suppression de programmes**, affichez les **mises à jour installées**et Regardez sous **Windows** pour l’entrée **Windows Identity Foundation (KB974405)**. Pour plus d’informations sur l’installation de Windows [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Identity Foundation, voir.
+      - Windows Server 2008 R2 pour Windows Server 2008 R2, vous recherchez s’il a déjà été installé sur votre ordinateur. Pour ce faire, accédez à **Ajout/suppression de programmes**, **Affichez les mises à jour installées**et Regardez sous **Windows** pour l’entrée **Windows Identity Foundation (KB974405)**. Pour plus d’informations sur l’installation de Windows [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Identity Foundation, voir.
     
       - Windows Server 2012 pour Windows Server 2012, utilisez le **Gestionnaire de serveur** pour installer Windows Identity Foundation. Dans l' **Assistant Ajout de rôles et de fonctionnalités**du gestionnaire de serveur, sélectionnez **fonctionnalités**. Dans la liste, sélectionnez **Windows Identity Foundation 3,5** . Cliquez sur **suivant**, puis sur **installer**.
 

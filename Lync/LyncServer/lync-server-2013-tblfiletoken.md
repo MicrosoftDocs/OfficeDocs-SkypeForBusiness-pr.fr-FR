@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblFileToken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblFileToken
 ms:assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558646(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9146c168e62bd0602a76cd77ab678c84ba5e44da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846697"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846697"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblFileToken contient des jetons temporaires aux fins de transfert de fichiers.
 
@@ -91,7 +93,7 @@ tblFileToken contient des jetons temporaires aux fins de transfert de fichiers.
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
 <td><p>bit</p></td>
-<td><p>True si Télécharger; Faux si Télécharger (pour une utilisation du service de conformité).</p></td>
+<td><p>True si Télécharger ; Faux si Télécharger (pour une utilisation du service de conformité).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>

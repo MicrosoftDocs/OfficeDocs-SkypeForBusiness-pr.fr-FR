@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des certificats pour les serveurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a0e239074b4f6d4638214fad41ff8ba18078fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 303724fa705fa94e9bbacacb4764bba7b918c460
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838427"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-17_
+_**Dernière modification de la rubrique :** 2013-03-17_
 
 Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins ou disposer des autorisations appropriées déléguées. Pour plus d’informations sur la délégation d’autorisations, voir [autorisations de configuration de délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). En fonction de votre organisation et des conditions requises pour demander des certificats, vous pouvez avoir besoin d’autres appartenances aux groupes. Consultez le groupe qui gère votre autorité de certification d’infrastructure à clé publique (PKI).
 
@@ -57,7 +59,7 @@ Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisa
 
 </div>
 
-Chaque serveur Standard Edition ou serveur principal nécessite un maximum de quatre certificats: le certificat oAuthTokenIssuer, un certificat par défaut, un certificat interne Web et un certificat externe Web. Néanmoins, il est possible de demander et d’affecter un certificat par défaut avec les entrées de nom de domaine appropriées ainsi que le certificat oAuthTokenIssuer. Pour plus d’informations sur les exigences relatives aux certificats, voir exigences relatives aux [certificats pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md). Pour plus d’informations sur la demande, l’attribution et l’installation du certificat oAuthTokenIssuer, voir [gestion des applications d’authentification de serveur à serveur (OAuth) et de partenaire dans Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+Chaque serveur Standard Edition ou serveur principal nécessite un maximum de quatre certificats : le certificat oAuthTokenIssuer, un certificat par défaut, un certificat interne Web et un certificat externe Web. Néanmoins, il est possible de demander et d’affecter un certificat par défaut avec les entrées de nom de domaine appropriées ainsi que le certificat oAuthTokenIssuer. Pour plus d’informations sur les exigences relatives aux certificats, voir exigences relatives aux [certificats pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md). Pour plus d’informations sur la demande, l’attribution et l’installation du certificat oAuthTokenIssuer, voir [gestion des applications d’authentification de serveur à serveur (OAuth) et de partenaire dans Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
 Utilisez la procédure suivante pour demander, attribuer et installer des certificats de serveur Standard Edition Server ou frontal. Répétez cette procédure pour chaque serveur frontal.
 
@@ -65,7 +67,7 @@ Utilisez la procédure suivante pour demander, attribuer et installer des certif
 
 
 > [!IMPORTANT]  
-> La procédure suivante vous explique comment configurer les certificats d’une PKI d’entreprise interne déployée par votre organisation et avec le traitement de requête hors connexion. Pour plus d’informations sur l’obtention de certificats auprès d’une autorité de certification publique, voir <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">exigences de certificat pour les serveurs internes dans Lync Server 2013</A> dans la documentation de planification. Par ailleurs, cette procédure décrit comment demander, attribuer et installer des certificats lors de la configuration du serveur frontal. Si vous avez demandé des certificats à l’avance, comme décrit dans la section <A href="lync-server-2013-request-certificates-in-advance-optional.md">demander des certificats à l’avance (facultatif) pour Lync Server 2013</A> de cette documentation de déploiement, ou si vous n’utilisez pas une PKI d’entreprise interne déployée dans votre organisation pour se procurer les certificats, vous devez modifier ce processus selon vos besoins.
+> La procédure suivante vous explique comment configurer les certificats d’une PKI d’entreprise interne déployée par votre organisation et avec le traitement de requête hors connexion. Pour plus d’informations sur l’obtention de certificats auprès d’une autorité de certification publique, voir <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">exigences de certificat pour les serveurs internes dans Lync Server 2013</A> dans la documentation de planification. Par ailleurs, cette procédure décrit comment demander, attribuer et installer des certificats lors de la configuration du serveur frontal. Si vous avez demandé des certificats à l’avance, comme décrit dans la section <A href="lync-server-2013-request-certificates-in-advance-optional.md">demander des certificats à l’avance (facultatif) pour Lync Server 2013</A> de cette documentation de déploiement, ou si vous n’utilisez pas une PKI d’entreprise interne déployée dans votre organisation pour obtenir des certificats, vous devez modifier cette procédure selon les besoins.
 
 
 
@@ -75,7 +77,7 @@ Utilisez la procédure suivante pour demander, attribuer et installer des certif
 
 ## <a name="to-configure-certificates-for-a-front-end-server"></a>Pour configurer des certificats pour un serveur frontal
 
-1.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **exécuter** en regard de l' **étape 3: demander, installer ou affecter des certificats**.
+1.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **exécuter** en regard de l' **étape 3 : demander, installer ou affecter des certificats**.
 
 2.  Dans la page **Assistant Certificat**, cliquez sur **Demander**.
 
@@ -142,7 +144,7 @@ Utilisez la procédure suivante pour demander, attribuer et installer des certif
 
 20. Dans la page **Exécution de commandes**, passez en revue le résultat de la commande. Cliquez sur **Afficher le journal** si vous souhaitez consulter le processus d’attribution ou en cas d’erreur ou d’avertissement. Lorsque vous avez terminé votre vérification, cliquez sur **Terminer**.
 
-21. Dans la page **Assistant Certificat** , vérifiez que le **statut** du certificat est «attribué», puis cliquez sur **Fermer**.
+21. Dans la page **Assistant Certificat** , vérifiez que le **statut** du certificat est « attribué », puis cliquez sur **Fermer**.
 
 </div>
 

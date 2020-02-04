@@ -3,6 +3,8 @@ title: Résumé de port-SIP, Fédération de XMPP et messagerie instantanée pub
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2edcad9806c5e6c8714f3face301211633a53fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ae19fb2477f61c0e408ebad3a8abf97fb75b9c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824315"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34824315"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-15_
+_**Dernière modification de la rubrique :** 2013-03-15_
 
 Les exigences en matière de port, de protocole et de pare-feu pour la Fédération avec Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server sont similaires à celles du serveur Edge déployé. Les clients entament une communication avec le service Edge d’accès via TLS/SIP/TCP 443. Les partenaires fédérés peuvent toutefois lancer des communications avec le service Edge d’accès via MTLS/SIP/TCP 5061.
 
-Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que le protocole SIP/MTLS/TCP 5061 est bidirectionnel pour tenir compte de la capacité des contacts du fournisseur de messagerie instantanée publique à contacter les clients Lync, ou pour Lync à Contactez les contacts de la messagerie instantanée publique.
+Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que le protocole SIP/MTLS/TCP 5061 est bidirectionnel afin de tenir compte de la capacité des contacts du fournisseur de messagerie instantanée publique à contacter les clients Lync ou à communiquer avec des contacts de messagerie instantanée publics.
 
 Windows Live Messenger peut participer aux communications audio/vidéo avec les clients Lync. Il s’agit des comptes pour le pare-feu et la configuration de protocole très similaires dont vous disposez généralement sur le pare-feu pour la prise en charge des clients Lync en tant qu’utilisateurs externes.
 

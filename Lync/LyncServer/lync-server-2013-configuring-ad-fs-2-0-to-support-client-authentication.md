@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’AD FS 2,0 pour prendre en charge l’authentification du client'
+title: 'Lync Server 2013 : configuration d’AD FS 2,0 pour prendre en charge l’authentification du client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring AD FS 2.0 to support client authentication
 ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308565(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12f7cad4b36eb96f7b36925aa91e6363b8cdd264
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838294"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838294"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-03_
+_**Dernière modification de la rubrique :** 2013-07-03_
 
 Deux types d’authentifications peuvent être configurés pour permettre à AD FS 2.0 de prendre en charge l’authentification à l’aide de cartes à puce :
 
@@ -41,7 +43,7 @@ Deux types d’authentifications peuvent être configurés pour permettre à AD 
 
   - Authentification de client TLS (Transport Layer Security)
 
-L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications 2,0 d’AD FS, voir AD FS 2,0: Comment changer le [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)type d’authentification locale à.
+L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications 2,0 d’AD FS, voir AD FS 2,0 : Comment changer le [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)type d’authentification locale à.
 
 <div>
 

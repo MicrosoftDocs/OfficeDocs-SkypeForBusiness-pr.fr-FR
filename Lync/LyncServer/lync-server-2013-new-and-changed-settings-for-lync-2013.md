@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: paramètres nouveaux et modifiés pour Lync 2013'
+title: 'Lync Server 2013 : paramètres nouveaux et modifiés pour Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New and changed settings for Lync 2013
 ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205204(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 675997e815dc80ec173e75ca68358ef23c12f380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb5366f7e3d4c2aba81b5b8b25873ea22d54c3a6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826471"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826471"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-12-05_
+_**Dernière modification de la rubrique :** 2014-12-05_
 
 Cette rubrique traite des modifications apportées aux applets de applet Lync Server Management Shell qui sont associées directement à la gestion des clients. Lync Server 2013 introduit plusieurs nouveaux paramètres et déprécie les paramètres des fonctionnalités qui peuvent être configurées par le biais d’autres moyens.
 
@@ -59,7 +61,7 @@ Cette rubrique traite des modifications apportées aux applets de applet Lync Se
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Lorsque cette propriété est définie sur true, le suivi logiciel est activé dans Lync; Lorsque la valeur est définie sur false, le suivi logiciel est désactivé. Le suivi logiciel implique de maintenir un enregistrement détaillé de tout ce qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est particulièrement utile pour les développeurs et pour le personnel de support de l’application. Ce paramètre est équivalent au paramètre &quot;de stratégie de groupe Communications Server 2007 R2 activez le suivi pour Communicator. &quot; Les paramètres sont les suivants:</p>
+<td><p>Lorsque cette propriété est définie sur true, le suivi logiciel est activé dans Lync ; Lorsque la valeur est définie sur false, le suivi logiciel est désactivé. Le suivi logiciel implique de maintenir un enregistrement détaillé de tout ce qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est particulièrement utile pour les développeurs et pour le personnel de support de l’application. Ce paramètre est équivalent au paramètre &quot;de stratégie de groupe Communications Server 2007 R2 activez le suivi pour Communicator. &quot; Les paramètres sont les suivants :</p>
 <ul>
 <li><p>Désactivé = le suivi est désactivé et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
 <li><p>Clair = le suivi minimal est effectué et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
@@ -148,8 +150,8 @@ Cette rubrique traite des modifications apportées aux applets de applet Lync Se
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Le paramètre EnableSQMData de l’applet de passe Set-CSClientPolicy a été supprimé dans Lync Server 2013. Au lieu de cela, vous pouvez utiliser le paramètre de stratégie de groupe partagé pour les données de gestion de la qualité des logiciels pour déterminer l’interface utilisateur pour l’option d’amélioration du produit dans la page d’options général du client Lync:</p>
-<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<td><p>Le paramètre EnableSQMData de l’applet de passe Set-CSClientPolicy a été supprimé dans Lync Server 2013. Au lieu de cela, vous pouvez utiliser le paramètre de stratégie de groupe partagé pour les données de gestion de la qualité des logiciels pour déterminer l’interface utilisateur pour l’option d’amélioration du produit dans la page d’options général du client Lync :</p>
+<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Doubl</p>
 <p>1 = afficher et activer la case à cocher (l’utilisateur peut désactiver la case à cocher)</p>
 <p>0 = désactiver et désactiver la case à cocher (l’utilisateur ne peut pas remplacer)</p>

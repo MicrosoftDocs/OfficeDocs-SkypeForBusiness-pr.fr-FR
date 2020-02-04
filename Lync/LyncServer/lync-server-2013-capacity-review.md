@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: examen de la capacité'
+title: 'Lync Server 2013 : examen de la capacité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity review
 ms:assetid: 62a70ad3-87cf-4d8c-9f0c-710e9aa4ad63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725209(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c453f69e3bc4eaf0f970566664b09e911944e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838668"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838668"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-20_
+_**Dernière modification de la rubrique :** 2014-05-20_
 
 Passez en revue les chiffres de capacité pour le mois précédent et Élaborez un plan pour les mises à niveau éventuellement nécessaires dans les prochains mois afin de préserver le fonctionnement du système dans les limites spécifiées par les SLA de votre organisation.
 

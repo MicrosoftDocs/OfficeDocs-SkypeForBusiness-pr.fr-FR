@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des utilisateurs dans Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing users in Lync Server 2013
 ms:assetid: 16b2d276-f0ea-4be6-ac61-673be6f37cad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ649974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf066982dadfffc6d5adbb00da7e65ead9c87026
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827654"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827654"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-17_
+_**Dernière modification de la rubrique :** 2012-10-17_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server 2013 et Lync Server 2013 Management Shell pour gérer les comptes d’utilisateurs dans Lync Server 2013. Les procédures décrites dans cette section vous guident dans l’affichage des informations de compte et la configuration des comptes d’utilisateurs.
 

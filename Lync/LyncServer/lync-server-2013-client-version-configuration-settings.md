@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: paramètres de configuration de la version client'
+title: 'Lync Server 2013 : paramètres de configuration de la version client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client version configuration settings
 ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ884154(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50553005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f15162dea332662a9aad1f27f1865d49a6fda93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 588189b093a27c65ff8348a9c176f9be4f9d1c4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838553"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838553"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-12_
+_**Dernière modification de la rubrique :** 2012-12-12_
 
 Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, globalement ou pour des sites spécifiques. Utilisez les procédures suivantes pour configurer les paramètres de configuration de la version du client pour Lync Server 2013.
 

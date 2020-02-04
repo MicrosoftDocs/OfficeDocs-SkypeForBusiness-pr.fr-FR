@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: déploiement du portail Web d’administration du système de salle Lync'
+title: 'Lync Server 2013 : déploiement du portail Web d’administration du système de salle Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying the Lync Room System Administrative Web Portal
 ms:assetid: ecba5b36-632e-40b9-9c2e-ab825baf7a46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436324(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16fc5e7d0f136481ddce5d34de41268cb224822e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7f62a5c7fde401452744abba5f4b6dfec175da2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831522"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831522"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-04_
+_**Dernière modification de la rubrique :** 2015-05-04_
 
 Le portail Web d’administration Microsoft Lync Server 2013 Lync salle (LRS) est un portail Web que les organisations peuvent utiliser pour gérer leurs salles de conférence de systèmes de salle Lync. Les administrateurs peuvent utiliser le portail Web d’administration LRS pour surveiller l’intégrité de LRS, par exemple en surveillant des périphériques audio/vidéo qui sont connectés. Ils peuvent également collecter à distance des informations de diagnostic pour surveiller l’intégrité des salles de conférence.
 

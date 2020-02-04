@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une file d’attente'
+title: 'Lync Server 2013 : création ou modification d’une file d’attente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a queue
 ms:assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205207(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6bc1e5f956b5b975e14f07a3c37f2802d1b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831792"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831792"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.
 
@@ -93,9 +95,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP: bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP: numéro nom_domaine (par par exemple, sip:+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP : numéro nom_domaine (par exemple, SIP :+14255550121@contoso.com).
     
       - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<nom\>d’utilisateur NomDomaine.
     
@@ -113,9 +115,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP: bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP: numéro nom_domaine (par par exemple, sip:+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP : numéro nom_domaine (par exemple, SIP :+14255550121@contoso.com).
     
       - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<nom\>d’utilisateur NomDomaine.
     
@@ -140,7 +142,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     </div>
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     

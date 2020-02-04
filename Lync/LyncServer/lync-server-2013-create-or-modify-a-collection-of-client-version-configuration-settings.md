@@ -3,6 +3,8 @@ title: Créer ou modifier un ensemble de paramètres de configuration de la vers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of client version configuration settings
 ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898477(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84df13c7abbc98cbb90c5b59a6b0717deb855e28
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc50696444ddd0602bbf21fd9e05b5bba6eddde
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831802"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831802"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version du client global s’installe sur Lync Server et est utilisée pour activer ou désactiver le contrôle de version du client pour le déploiement complet du serveur. Vous pouvez également configurer les paramètres de configuration de la version du client pour chaque site. Vous pouvez créer ou modifier les paramètres de configuration de la version du client à partir du panneau de configuration de Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
@@ -57,9 +59,9 @@ Les paramètres de configuration de version du client sont utilisés pour active
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .
 
-4.  Dans la page Configuration de la **version du client** , procédez comme suit:
+4.  Dans la page Configuration de la **version du client** , procédez comme suit :
     
-      - Pour créer une nouvelle configuration, cliquez sur **nouveau**, sélectionnez un site, **** cliquez sur nom de l’utilisateur et mettez à jour les paramètres.
+      - Pour créer une nouvelle configuration, cliquez sur **nouveau**, sélectionnez un site, cliquez **sur nom de** l’utilisateur et mettez à jour les paramètres.
     
       - Pour modifier une configuration, sélectionnez celle-ci, cliquez sur **modifier**, sur **afficher les détails**, puis apportez les modifications souhaitées aux paramètres.
 
@@ -69,7 +71,7 @@ Les paramètres de configuration de version du client sont utilisés pour active
 
 ## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création ou modification des paramètres de configuration de la version du client à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration de la version du client à l’aide de l’applet **de nouvelle cmdlet New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de contrôle **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez créer des paramètres de configuration de la version du client à l’aide de l’applet **de nouvelle cmdlet New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de contrôle **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

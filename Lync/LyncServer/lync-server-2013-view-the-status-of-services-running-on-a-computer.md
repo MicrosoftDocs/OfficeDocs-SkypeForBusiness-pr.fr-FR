@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affichage de l’état des services en cours d’exécution sur un ordinateur'
+title: 'Lync Server 2013 : affichage de l’état des services en cours d’exécution sur un ordinateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View the status of services running on a computer
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52f7b1628f9e9fcd99eea84ebda2cbfe934fc7d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 984f85fca13704864b3cd47c83e8f6adca575705
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846284"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour afficher tous les services en cours d’exécution sur un ordinateur spécifique dans la topologie de votre serveur Lync et afficher l’état de chaque service.
 
@@ -61,13 +63,13 @@ Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour affich
 
 ## <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Affichage de l’état du service à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez également afficher l’état du service à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsWindowsService** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez également afficher l’état du service à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsWindowsService** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-service-status"></a>Pour afficher l’état du service
 
-  - Pour afficher l’état du service sur un ordinateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher l’état du service sur un ordinateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
     

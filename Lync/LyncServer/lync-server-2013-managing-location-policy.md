@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion de la stratégie d’emplacement'
+title: 'Lync Server 2013 : gestion de la stratégie d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing location policy
 ms:assetid: 59742679-7e3d-4f1d-8992-a4720b7a123a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fe7194ca51eda25d32a7139689a653a267d8359
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 229f5db57a4e61306dec541b402a545b8df0e77a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827969"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827969"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-15_
+_**Dernière modification de la rubrique :** 2012-10-15_
 
 Suivez les procédures décrites dans cette section pour gérer la stratégie d’emplacement Lync Server 2013 à partir du groupe de **Configuration réseau** dans le panneau de configuration de Lync Server.
 

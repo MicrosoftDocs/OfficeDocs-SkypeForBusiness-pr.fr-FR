@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé DNS - Proxy inverse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Reverse proxy
 ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47606fe71b271e01cc7fbefbcf319a2efe93f478
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae4834ce608f6726403e8742a4d506b173309b35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831348"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-22_
+_**Dernière modification de la rubrique :** 2013-03-22_
 
-Vous pouvez configurer deux cartes réseau dans votre proxy inverse en procédant comme suit:
+Vous pouvez configurer deux cartes réseau dans votre proxy inverse en procédant comme suit :
 
 <div>
 

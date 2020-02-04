@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Nouvelle fonctionnalité ID de l’appelant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New caller ID feature
 ms:assetid: 1529a207-cba0-4051-870a-f89606b0f3fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b50fa5c5e25c2fb27fbc10273604b438dabca76d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e62a74342e7501810edda4d0f46ff36aa80d76f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826464"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826464"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Lync Server 2013 fournit à l’administrateur la possibilité de modifier le format du numéro de téléphone de la personne qui appelle. Cette fonctionnalité de présentation d’identification de l’appelant permet à l’administrateur de changer le numéro de téléphone de l’appelant par un format de numérotation reconnu par l’homologue de Trunk, si nécessaire. Par exemple, vous pouvez écrire une règle de conversion pour supprimer +44 au début d’une chaîne de numérotation et utiliser 0144 à la place.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des règles de publication web pour un 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838335"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-07-07_
+_**Dernière modification de la rubrique :** 2014-07-07_
 
 Microsoft Forefront Threat Management Gateway 2010 et le routage de requête d’application Internet Information Server (IIS ARR) utilise des règles de publication Web pour publier les ressources internes, telles qu’une URL de réunion, pour les utilisateurs sur Internet.
 
@@ -75,7 +77,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
     
 
     > [!NOTE]  
-    > Si votre serveur interne est un serveur Standard Edition Server, il s’agit du nom de domaine complet Standard Edition Server. S’il s’agit d’un pool frontal, il s’agit d’une adresse IP virtuelle d’équilibrage de charge matérielle qui charge les serveurs internes de batteries de serveurs. Le serveur TMG doit être en mesure de résoudre le nom de domaine complet sur l’adresse IP du serveur Web interne. Si le serveur TMG ne peut pas résoudre le nom de domaine complet (FQDN) en adresse IP correcte, vous pouvez sélectionner l’option <STRONG>utiliser un nom d’ordinateur ou une adresse IP pour vous connecter au serveur publié</STRONG>, puis, dans la zone nom de l' <STRONG>ordinateur ou</STRONG> <STRONG>adresse IP</STRONG> , tapez l’adresse IP du w interne. serveur EB. Dans ce cas, vous devez vous assurer que le port 53 est ouvert sur le serveur TMG et qu’il peut accéder à un serveur DNS résidant sur le réseau de périmètre. Vous pouvez également utiliser des entrées dans le fichier hosts local pour fournir une résolution de nom.
+    > Si votre serveur interne est un serveur Standard Edition Server, il s’agit du nom de domaine complet Standard Edition Server. S’il s’agit d’un pool frontal, il s’agit d’une adresse IP virtuelle d’équilibrage de charge matérielle qui charge les serveurs internes de batteries de serveurs. Le serveur TMG doit être en mesure de résoudre le nom de domaine complet sur l’adresse IP du serveur Web interne. Si le serveur TMG ne peut pas résoudre le nom de domaine complet (FQDN) en adresse IP appropriée, vous pouvez sélectionner <STRONG>utiliser un nom d’ordinateur ou une adresse IP pour vous connecter au serveur publié</STRONG>, puis, dans la zone nom de l' <STRONG>ordinateur ou</STRONG> <STRONG>adresse IP</STRONG> , tapez l’adresse IP du serveur Web interne. Dans ce cas, vous devez vous assurer que le port 53 est ouvert sur le serveur TMG et qu’il peut accéder à un serveur DNS résidant sur le réseau de périmètre. Vous pouvez également utiliser des entrées dans le fichier hosts local pour fournir une résolution de nom.
 
     
     </div>
@@ -95,15 +97,15 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 10. Dans la page **Sélectionner un écouteur Web** , cliquez sur **nouveau** pour ouvrir l’Assistant Nouvelle définition d’écoute Web.
 
-11. Dans la page Bienvenue dans l' **Assistant Nouvelle écoute Web** , tapez un nom pour l’écouteur Web dans la zone **nom** de l’écouteur Web (par exemple, LyncServerWebServers).
+11. Dans la page Bienvenue dans l' **Assistant Nouvelle écoute Web** , tapez un nom pour l’écouteur Web dans la zone **nom de l’écouteur Web** (par exemple, LyncServerWebServers).
 
 12. Dans la page sécurité de la **connexion client** , sélectionnez **exiger des connexions SSL sécurisées avec les clients**.
 
-13. Dans la page **adresse IP** de l’écouteur Web, sélectionnez **externe**, puis cliquez sur **Sélectionner des adresses IP**.
+13. Dans la page **adresse IP de l’écouteur Web** , sélectionnez **externe**, puis cliquez sur **Sélectionner des adresses IP**.
 
 14. Dans la page de sélection de l' **écouteur externe** , sélectionnez **adresse IP spécifiée dans l’ordinateur Forefront TMG du réseau sélectionné**, sélectionnez l’adresse IP appropriée, puis cliquez sur **Ajouter**.
 
-15. Sur la page **certificats SSL** de l’écouteur, sélectionnez **attribuer un certificat pour chaque adresse IP**, sélectionnez l’adresse IP associée au FQDN Web externe, puis cliquez sur **Sélectionner un certificat**.
+15. Sur la page **certificats SSL de l’écouteur** , sélectionnez **attribuer un certificat pour chaque adresse IP**, sélectionnez l’adresse IP associée au FQDN Web externe, puis cliquez sur **Sélectionner un certificat**.
 
 16. Dans la page **Sélectionner un certificat** , sélectionnez le certificat correspondant aux noms publics spécifiés à l’étape 9, puis cliquez sur **Sélectionner**.
 
@@ -142,7 +144,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 3.  Sur le côté droit de la console, cliquez sur **Importer...**. Tapez le chemin d’accès et le nom du fichier du certificat portant l’extension ou cliquez sur **...** pour rechercher le certificat. Sélectionnez le certificat et cliquez sur **ouvrir**. Entrez le mot de passe utilisé pour protéger la clé privée (si vous avez attribué un mot de passe lors de l’exportation du certificat et de la clé privée). Cliquez sur **OK**. Si l’importation du certificat est réussie, le certificat apparaît comme entrée dans le milieu de la console en tant qu’entrée dans les **certificats de serveur**.
 
-4.  Attribuez le certificat pour une utilisation par HTTPs. Sur le côté gauche de la console, sélectionnez le **site Web par défaut** du serveur IIS. Sur le côté droit, cliquez sur **liaisons...**. Dans la boîte de dialogue **liaisons de sites** , cliquez sur **Ajouter...**. Dans la boîte de dialogue **Ajouter une liaison de site** , sous **type:**, sélectionnez **https**. La sélection de https vous permet de sélectionner le certificat à utiliser pour HTTPS. Sous **certificat SSL:**, sélectionnez le certificat que vous avez importé pour le proxy inverse. Cliquez sur **OK**. Cliquez ensuite sur **Fermer**. Le certificat est désormais lié au proxy inverse pour SSL (Secure Socket Layer) et TLS (Transport Layer Security).
+4.  Attribuez le certificat pour une utilisation par HTTPs. Sur le côté gauche de la console, sélectionnez le **site Web par défaut** du serveur IIS. Sur le côté droit, cliquez sur **liaisons...**. Dans la boîte de dialogue **liaisons de sites** , cliquez sur **Ajouter...**. Dans la boîte de dialogue **Ajouter une liaison de site** , sous **type :**, sélectionnez **https**. La sélection de https vous permet de sélectionner le certificat à utiliser pour HTTPS. Sous **certificat SSL :**, sélectionnez le certificat que vous avez importé pour le proxy inverse. Cliquez sur **OK**. Cliquez ensuite sur **Fermer**. Le certificat est désormais lié au proxy inverse pour SSL (Secure Socket Layer) et TLS (Transport Layer Security).
     
     <div>
     
@@ -196,7 +198,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
     
     </div>
 
-11. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire de services Internet, vous double-cliquez sur **règles de routage**. Dans la boîte de dialogue Règles de routage sous routage, désactivez la case à cocher en regard de activer le déchargement SSL. Si vous ne pouvez pas désactiver la case à cocher, activez la case à cocher utiliser la réécriture **d’URL pour inspecter les demandes entrantes**. Cliquez sur **appliquer** pour enregistrer vos modifications.
+11. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire de services Internet, vous double-cliquez sur **règles de routage**. Dans la boîte de dialogue Règles de routage sous routage, désactivez la case à cocher en regard de activer le déchargement SSL. Si vous ne pouvez pas désactiver la case à cocher, activez la case à cocher **utiliser la réécriture d’URL pour inspecter les demandes entrantes**. Cliquez sur **appliquer** pour enregistrer vos modifications.
     
     <div>
     
@@ -207,19 +209,19 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
     
     </div>
 
-12. Répétez les étapes 5-11 pour chaque URL qui doit traverser le proxy inverse. Une liste courante serait la suivante:
+12. Répétez les étapes 5-11 pour chaque URL qui doit traverser le proxy inverse. Une liste courante serait la suivante :
     
-      - Services Web du serveur frontal externes: webext.contoso.com (déjà configurés par le biais du parcours initial)
+      - Services Web du serveur frontal externes : webext.contoso.com (déjà configurés par le biais du parcours initial)
     
-      - Services Web de Director externes pour Director: webdirext.contoso.com (facultatif si un directeur est déployé)
+      - Services Web de Director externes pour Director : webdirext.contoso.com (facultatif si un directeur est déployé)
     
-      - URL simple: meet.contoso.com
+      - URL simple : meet.contoso.com
     
-      - Connexion simple pour les URL: dialin.contoso.com
+      - Connexion simple pour les URL : dialin.contoso.com
     
-      - URL de découverte automatique Lync: lyncdiscover.contoso.com
+      - URL de découverte automatique Lync : lyncdiscover.contoso.com
     
-      - URL du serveur Office Web Apps: officewebapps01.contoso.com
+      - URL du serveur Office Web Apps : officewebapps01.contoso.com
         
         <div>
         
@@ -230,17 +232,17 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
         
         </div>
 
-13. Sur le côté gauche de la console, cliquez sur le nom du serveur IIS. Au milieu de la console, repérez la réécriture d' **URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL. Vous devez voir les règles de chaque batterie de serveurs que vous avez créée lors des étapes précédentes. Si ce n’est pas le cas, vérifiez que vous avez cliqué sur le nom du **serveur IIS** juste en dessous du nœud de la **page de démarrage** dans la console du gestionnaire d’informations Internet.
+13. Sur le côté gauche de la console, cliquez sur le nom du serveur IIS. Au milieu de la console, repérez la **réécriture d’URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL. Vous devez voir les règles de chaque batterie de serveurs que vous avez créée lors des étapes précédentes. Si ce n’est pas le cas, vérifiez que vous avez cliqué sur le nom du **serveur IIS** juste en dessous du nœud de la **page de démarrage** dans la console du gestionnaire d’informations Internet.
 
-14. Dans la boîte de dialogue de réécriture d' **URL** , en utilisant webext.contoso.com en guise d’exemple, le nom complet de la règle telle qu’affichée est **arr\_\_webext.contoso.com LoadBalance\_SSL**.
+14. Dans la boîte de dialogue de **réécriture d’URL** , en utilisant webext.contoso.com en guise d’exemple, le nom complet de la règle telle qu’affichée est **\_arr webext.contoso.com\_LoadBalance\_SSL**.
     
       - Double-cliquez sur la règle pour ouvrir la boîte de dialogue **modifier la règle de trafic entrant** .
     
       - Cliquez sur **Ajouter...** dans la boîte de dialogue **conditions** .
     
-      - Sur la **condition ajouter** dans l’entrée de la **condition:** tapez **{http\_Host}**. (Lors de la saisie, une boîte de dialogue s’affiche pour vous permettre de sélectionner l’État). sous **vérifier si la chaîne d’entrée:** , sélectionnez **correspond au modèle**. Dans le type **\*** **d’entrée pattern** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
+      - Sur la **condition ajouter** dans l’entrée de la **condition :** tapez **{http\_Host}**. (Lors de la saisie, une boîte de dialogue s’affiche pour vous permettre de sélectionner l’État). sous **vérifier si la chaîne d’entrée :** , sélectionnez **correspond au modèle**. Dans le type **\*** **d’entrée pattern** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
     
-      - Faites défiler la boîte de dialogue **modifier la règle de trafic entrant** pour rechercher la boîte de dialogue **action** . **Type d’action:** doit être défini sur **route vers la batterie de serveurs**, **schéma:** défini sur **https://**, **batterie de serveurs:** définie sur l’URL à laquelle s’applique cette règle. Pour cet exemple, ce doit être défini sur **webext.contoso.com**. **Path:** est défini sur **/{R: 0}**
+      - Faites défiler la boîte de dialogue **modifier la règle de trafic entrant** pour rechercher la boîte de dialogue **action** . **Type d’action :** doit être défini sur **route vers la batterie de serveurs**, **schéma :** défini sur **https://**, **batterie de serveurs :** définie sur l’URL à laquelle s’applique cette règle. Pour cet exemple, ce doit être défini sur **webext.contoso.com**. **Path :** est défini sur **/{R : 0}**
     
       - Cliquez sur **appliquer** pour enregistrer vos modifications. Cliquez sur **retour aux règles** pour revenir aux règles de réécriture d’URL.
 
@@ -250,7 +252,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
     
 
     > [!WARNING]  
-    > Par défaut, les règles HTTP sont également créées et sont dénotées par leur appellation similaire aux règles SSL. Pour notre exemple actuel, la règle HTTP s’appelle <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. Il n’est pas nécessaire de modifier ces règles et celles-ci peuvent être ignorées en toute sécurité.
+    > Par défaut, les règles HTTP sont également créées et sont dénotées par leur appellation similaire aux règles SSL. Pour notre exemple actuel, la règle HTTP serait nommée <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Il n’est pas nécessaire de modifier ces règles et celles-ci peuvent être ignorées en toute sécurité.
 
     
     </div>
@@ -267,7 +269,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 3.  Dans le volet Détails, cliquez avec le bouton droit sur la règle de publication sur le serveur Web que vous avez créée au cours de la procédure précédente (par exemple, LyncServerExternalRule), puis cliquez sur **Propriétés**.
 
-4.  Dans la page **Propriétés** , sous l’onglet **de** , effectuez les opérations suivantes:
+4.  Dans la page **Propriétés** , sous l’onglet **de** , effectuez les opérations suivantes :
     
       - Dans la liste **cette règle s’applique au trafic de ces sources** , cliquez sur **n’importe où**, puis cliquez sur **supprimer**.
     
@@ -277,7 +279,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 5.  Dans l’onglet **à** , assurez-vous que la case à cocher **transférer l’en-tête de l’hôte d’origine au lieu de la** case à cocher réel est activée.
 
-6.  Dans l’onglet **pontage** , activez la case à cocher rediriger la **demande vers le port SSL** , puis spécifiez le port **4443**.
+6.  Dans l’onglet **pontage** , activez la case à cocher **rediriger la demande vers le port SSL** , puis spécifiez le port **4443**.
 
 7.  Dans l’onglet **nom du public** , ajoutez les URL simples (par exemple, meet.contoso.com et Dialin.contoso.com).
 
@@ -295,7 +297,7 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 2.  Sur le côté gauche de la console, cliquez sur le nom du serveur IIS.
 
-3.  Au milieu de la console, repérez la réécriture d' **URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL.
+3.  Au milieu de la console, repérez la **réécriture d’URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL.
 
 4.  Double-cliquez sur la règle que vous devez modifier. Apportez les modifications souhaitées, selon les besoins, en fonction de l' **URL**, des **conditions**, des **variables serveur** ou de l' **action**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Expérience de parcage d’appel en cas de défaillan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Park experience during pool failure
 ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205383(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b175e5029749ea4e3a344aaf9f3bcc7a403c1b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 59de3b7cc7490c84536cfbc1457c6486af52c33a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838695"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-10_
+_**Dernière modification de la rubrique :** 2012-09-10_
 
 Lorsqu’un pool frontal devient indisponible en raison d’un incident imprévu, les appels qui ont été emportés mais qui ne sont pas encore récupérés sont déconnectés. Pendant le basculement vers un pool de sauvegarde, les utilisateurs sont redirigés vers le pool de sauvegarde et sont en mode de résilience. Lorsque le mode de résilience est activé, les utilisateurs ne peuvent pas parcr les appels, mais ils peuvent placer des appels en attente et les transférer. Lorsque le basculement est terminé, les appels peuvent être de nouveau au parking et extraits comme d’habitude. Pendant la restauration automatique, les utilisateurs ne peuvent pas parcr les appels tant qu’ils ne sont pas en mode de résilience.
 

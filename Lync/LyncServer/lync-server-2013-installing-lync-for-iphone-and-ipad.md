@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: installation de Lync pour iPhone et iPad'
+title: 'Lync Server 2013 : installation de Lync pour iPhone et iPad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync for iPhone and iPad
 ms:assetid: 88d1c149-5842-4ecf-a15e-fcda0330325b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690987(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3e3b9c954d862789f5fb1d9ad2b128f2269122c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c0383fd4aa389912a9942d7cafd7ac22fdc4f477
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830982"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-10_
+_**Dernière modification de la rubrique :** 2014-03-10_
 
 Lync 2013 pour iPhone et Lync 2013 pour iPad sont des applications qui peuvent être installées par l’utilisateur dans l’App Store d’Apple.
 
@@ -51,12 +53,12 @@ Vous pouvez indiquer à vos utilisateurs d’installer Lync 2013 pour iPhone et 
 
 
 > [!IMPORTANT]  
-> les utilisateurs d’iPhone qui n’ont pas installé l’application Lync 2013 et qui essaient de participer à une réunion Lync à partir d’une invitation à une réunion seront redirigés vers une page de lancement de la réunion. Cette page contient un lien pour l’installation de l’application 2013 Lync. Toutefois, au lieu de rediriger l’utilisateur vers l’App Store, ce lien ouvre une page de navigateur Safari vide. Pour contourner ce problème, l’utilisateur peut procéder de l’une des deux manières suivantes: 
+> les utilisateurs d’iPhone qui n’ont pas installé l’application Lync 2013 et qui essaient de participer à une réunion Lync à partir d’une invitation à une réunion seront redirigés vers une page de lancement de la réunion. Cette page contient un lien pour l’installation de l’application 2013 Lync. Toutefois, au lieu de rediriger l’utilisateur vers l’App Store, ce lien ouvre une page de navigateur Safari vide. Pour contourner ce problème, l’utilisateur peut procéder de l’une des deux manières suivantes : 
 > <UL>
 > <LI>
-> <P>Utilisez le bouton <STRONG>Accueil</STRONG> pour envoyer la page Safari à l’arrière-plan, puis rouvrez Safari. Lorsque le message «ouvrir cette page dans le magasin d’applications» s’affiche, appuyez sur <STRONG>ouvrir</STRONG> pour être dirigé vers Lync 2013 Télécharger dans l’App Store.</P>
+> <P>Utilisez le bouton <STRONG>Accueil</STRONG> pour envoyer la page Safari à l’arrière-plan, puis rouvrez Safari. Lorsque le message « ouvrir cette page dans le magasin d’applications » s’affiche, appuyez sur <STRONG>ouvrir</STRONG> pour être dirigé vers Lync 2013 Télécharger dans l’App Store.</P>
 > <LI>
-> <P>Ouvrez manuellement l’App Store, recherchez «Lync 2013» et téléchargez l’application.</P></LI></UL>
+> <P>Ouvrez manuellement l’App Store, recherchez « Lync 2013 » et téléchargez l’application.</P></LI></UL>
 
 
 

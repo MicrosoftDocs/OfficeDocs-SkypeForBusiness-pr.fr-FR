@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Procédure de préparation et de déploiement d’un 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Steps to prepare and deploy Lync Server 2013 hybrid environment
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205157(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d239d7a57be1aa96dde1f9ccf30c2965de982017
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ebcce8d0021789a409c8f41b5f635d82284b7bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846753"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-08_
+_**Dernière modification de la rubrique :** 2016-12-08_
 
 Le tableau suivant répertorie les étapes nécessaires pour préparer votre environnement pour un déploiement hybride avec Skype entreprise Online et Microsoft Office 365.
 
@@ -83,12 +85,12 @@ Le tableau suivant répertorie les étapes nécessaires pour préparer votre env
 
 
 </div>
-<p>Pour préparer votre environnement en vue de la synchronisation Active Directory, suivez les étapes décrites dans la feuille de route de la <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">synchronisation</a>d’annuaires, y compris la configuration de l’authentification unique.</p></td>
+<p>Pour préparer votre environnement en vue de la synchronisation Active Directory, suivez les étapes décrites dans la feuille de route de la <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">synchronisation d’annuaires</a>, y compris la configuration de l’authentification unique.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><p>Créer des certificats pour les services AD FS (Active Directory Federation Services)</p></td>
-<td><p>Vous devrez créer les certificats utilisés pour la Fédération des identités avec Office 365. Pour plus d’informations, reportez-vous à la section «certificats de serveur de Fédération» de la rubrique planifier pour le déploiement d’AD FS pour une utilisation avec une connexion unique de la <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">liste de contrôle: utiliser AD FS pour implémenter et gérer l’authentification unique</a>.</p></td>
+<td><p>Vous devrez créer les certificats utilisés pour la Fédération des identités avec Office 365. Pour plus d’informations, reportez-vous à la section « certificats de serveur de Fédération » de la rubrique planifier pour le déploiement d’AD FS pour une utilisation avec une connexion unique de la <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">liste de contrôle : utiliser AD FS pour implémenter et gérer l’authentification unique</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>

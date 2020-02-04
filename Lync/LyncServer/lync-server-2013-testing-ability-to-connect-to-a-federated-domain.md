@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: possibilité de test de se connecter à un domaine fédéré'
+title: 'Lync Server 2013 : possibilité de test de se connecter à un domaine fédéré'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to connect to a federated domain
 ms:assetid: d8ccfade-ef54-47a4-9f87-36213a635ce5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743840(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2176008e3e941068f61a2fb385fa6230df6b25dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846563"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846563"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-05_
+_**Dernière modification de la rubrique :** 2014-06-05_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsFederatedPartner. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsFederatedPartner. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**Dernière modification de la rubrique:** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-Test-CsFederatedPartner vérifie la possibilité de se connecter au domaine d’un partenaire fédéré. Pour vérifier la connectivité d’un domaine, ce domaine doit être répertorié dans la collection de domaines autorisés (fédéré). Vous pouvez récupérer la liste des domaines de votre liste de domaines autorisés en utilisant la commande suivante:
+Test-CsFederatedPartner vérifie la possibilité de se connecter au domaine d’un partenaire fédéré. Pour vérifier la connectivité d’un domaine, ce domaine doit être répertorié dans la collection de domaines autorisés (fédéré). Vous pouvez récupérer la liste des domaines de votre liste de domaines autorisés en utilisant la commande suivante :
 
     Get-CsAllowedDomain
 
@@ -76,11 +78,11 @@ Pour plus d’informations, consultez la documentation d’aide de l’applet de
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-FederatedPartner nécessite deux éléments d’information: le nom de domaine complet (FQDN) de votre serveur Edge et le nom de domaine complet (FQDN) du partenaire fédéré. Par exemple, la commande suivante permet de tester la capacité à se connecter au domaine contoso.com:
+L’applet de contrôle test-FederatedPartner nécessite deux éléments d’information : le nom de domaine complet (FQDN) de votre serveur Edge et le nom de domaine complet (FQDN) du partenaire fédéré. Par exemple, la commande suivante permet de tester la capacité à se connecter au domaine contoso.com :
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-Cette commande vous permet de tester les connexions à tous les domaines figurant actuellement dans votre liste de domaines autorisés:
+Cette commande vous permet de tester les connexions à tous les domaines figurant actuellement dans votre liste de domaines autorisés :
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
@@ -92,29 +94,29 @@ Pour plus d’informations, consultez la documentation d’aide de l’applet de
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si le domaine spécifié est joignable, vous recevrez une sortie similaire à celle-ci avec la propriété Result marquée comme **réussie:**
+Si le domaine spécifié est joignable, vous recevrez une sortie similaire à celle-ci avec la propriété Result marquée comme **réussie :**
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:00
+Latence : 00:00:00
 
 Error
 
 Diagnostic
 
-Si le domaine spécifié ne peut pas être contacté, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
+Si le domaine spécifié ne peut pas être contacté, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Erreur: 504, délai du serveur
+Erreur : 504, délai du serveur
 
-Diagnostic: codeerreur = 2, source = ATL-CS-001. litwareinc. com, Reason = Voir
+Diagnostic : codeerreur = 2, source = ATL-CS-001. litwareinc. com, Reason = Voir
 
 Code de réponse et phrase de raison.
 
@@ -122,7 +124,7 @@ Microsoft. RTC. signalisation. DiagnosticHeader
 
 Par exemple, la sortie précédente indique que le test a échoué en raison d’une erreur de délai d’expiration du serveur. Cela indique généralement des problèmes de connectivité réseau ou des problèmes de contact du serveur Edge.
 
-Si test-CsFederatedPartner échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose:
+Si test-CsFederatedPartner échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -132,9 +134,9 @@ Si test-CsFederatedPartner échoue, il est possible que vous souhaitiez réexéc
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles les tests-CsFederatedPartner peuvent échouer:
+Voici quelques raisons courantes pour lesquelles les tests-CsFederatedPartner peuvent échouer :
 
-  - Le serveur de périphérie n’est peut-être pas disponible. Vous pouvez utiliser les noms de domaine complets de votre serveur Edge en utilisant la commande suivante:
+  - Le serveur de périphérie n’est peut-être pas disponible. Vous pouvez utiliser les noms de domaine complets de votre serveur Edge en utilisant la commande suivante :
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
@@ -142,11 +144,11 @@ Voici quelques raisons courantes pour lesquelles les tests-CsFederatedPartner pe
     
         ping atl-edge-001.litwareinc.com
 
-  - Le domaine spécifié n’est peut-être pas répertorié dans la liste des domaines autorisés. Pour vérifier les domaines qui ont été ajoutés à la liste des domaines autorisés, utilisez la commande suivante:
+  - Le domaine spécifié n’est peut-être pas répertorié dans la liste des domaines autorisés. Pour vérifier les domaines qui ont été ajoutés à la liste des domaines autorisés, utilisez la commande suivante :
     
         Get-CsAllowedDomain
     
-    Pour afficher une liste des domaines avec lesquels les utilisateurs ne peuvent plus communiquer, utilisez la commande suivante:
+    Pour afficher une liste des domaines avec lesquels les utilisateurs ne peuvent plus communiquer, utilisez la commande suivante :
     
         Get-CsBlockedDomain
 

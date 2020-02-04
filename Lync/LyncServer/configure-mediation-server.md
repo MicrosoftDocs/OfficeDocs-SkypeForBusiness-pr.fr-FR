@@ -3,6 +3,8 @@ title: Configurer le serveur de médiation
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Mediation Server
 ms:assetid: 583236fd-33cd-4045-81df-baa58ed07779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60bacd308249536aee49101cbcab739a0876343e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838826"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838826"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Cette procédure décrit la procédure de configuration du pool Lync Server 2013 de manière à utiliser le serveur de médiation Lync Server 2013 au lieu du serveur de médiation traditionnel d’Office Communications Server 2007 R2.
 
@@ -43,7 +45,7 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
 
 
 > [!NOTE]  
-> Pour obtenir les dernières informations sur la recherche de passerelles RTC, de PBX IP et de services d’agrégation de messages SIP qualifiés compatibles avec Lync Server 2013, voir «Microsoft Unified Communications Open <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Interoperability» à l’adresse.
+> Pour obtenir les dernières informations sur la recherche de passerelles RTC, de PBX IP et de services d’agrégation de messages SIP qualifiés compatibles avec Lync Server 2013, voir « Microsoft Unified Communications Open <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Interoperability » à l’adresse.
 
 
 
@@ -59,7 +61,7 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
 
 3.  Cliquez avec le bouton droit sur **passerelles RTC**, puis cliquez sur **nouvelle passerelle IP/PSTN**.
 
-4.  Complétez la page **définir une nouvelle passerelle IP/RTC** en utilisant les informations suivantes:
+4.  Complétez la page **définir une nouvelle passerelle IP/RTC** en utilisant les informations suivantes :
     
       - Entrez le nom de domaine complet ou l’adresse IP de la passerelle. Le FQDN de la passerelle est requis si la passerelle utilise le protocole TLS.
     

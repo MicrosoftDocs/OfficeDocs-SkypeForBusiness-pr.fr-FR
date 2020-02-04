@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer les paramètres de sécurité pour Lync Phone Edition'
+title: 'Lync Server 2013 : configurer les paramètres de sécurité pour Lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure security settings for Lync Phone Edition
 ms:assetid: 6e7cec17-8a79-4428-9300-8821256c46cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7bd44b5d3f466728ac1dbe928c08b1f4786f8fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6f414eb395025b359d074bb1d5882b20919eb3f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838332"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838332"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Aidez-vous à améliorer la sécurité des appareils exécutant Lync Phone Edition via le paramètre de sécurité SIP et les paramètres de verrouillage du téléphone.
 
@@ -68,7 +70,7 @@ Aidez-vous à améliorer la sécurité des appareils exécutant Lync Phone Editi
 
 ## <a name="configuring-security-settings-for-lync-phone-edition-phones-by-using-windows-powershell-cmdlets"></a>Configuration des paramètres de sécurité des téléphones Lync Phone Edition à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez gérer les paramètres de sécurité à l’aide de Lync Server Management Shell et de l’applet **de passe Get-CsUCPhoneConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez gérer les paramètres de sécurité à l’aide de Lync Server Management Shell et de l’applet **de passe Get-CsUCPhoneConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

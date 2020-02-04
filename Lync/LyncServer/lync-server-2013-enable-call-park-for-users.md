@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activer le parc d’appels pour les utilisateurs'
+title: 'Lync Server 2013 : activer le parc d’appels pour les utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Call Park for users
 ms:assetid: 9430763f-3394-467c-9c6d-426bf761604e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398753(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16538ba00571c429493a2bc0ce1ef14b0a331305
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd89ba10f5cae16e88c65e6e56178fc517c71213
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831325"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-11_
+_**Dernière modification de la rubrique :** 2012-09-11_
 
 Les utilisateurs ne peuvent pas parcer les appels ou récupérer les appels en stationnement tant qu’ils sont activés pour le parc d’appels dans la politique vocale.
 
@@ -75,13 +77,13 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
 
 1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
         Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
     
-    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut:
+    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut :
     
         Set-CsVoicePolicy -EnableCallPark $true
 

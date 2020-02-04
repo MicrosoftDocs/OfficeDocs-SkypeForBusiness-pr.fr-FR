@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: procédures standard'
+title: 'Lync Server 2013 : procédures standard'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Standard procedures
 ms:assetid: 1b45d610-9840-4568-89e5-004ba31a15cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720323(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac1d42075f48b780a96f9ca7ad8b831379b5187
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846764"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
-Plusieurs ressources peuvent vous aider à définir les procédures standard requises au sein de l’organisation et comment les exécuter. Étant donné que chaque organisation est unique, il est possible que vous deviez également personnaliser et adapter ces ressources pour répondre aux besoins de tous les jours. Les procédures opérationnelles standard changent et la documentation doit parfois être révisée. À mesure que des modifications sont apportées, le processus de gestion des modifications, tel que défini dans les fonctions de gestion des services de l’infrastructure opérationnelle de Microsoft, doit déterminer la façon dont chaque modification est susceptible d’influer sur l’exécution des tâches d’administration. Utilisez la fonction de gestion des modifications pour mettre à jour et contrôler la documentation procédurale. Nous vous recommandons d’intégrer les tâches opérationnelles dans des charges de travail gérables, où les tâches sont exécutées sur une base quotidienne, hebdomadaire, mensuelle et en tout besoin. Les tâches quotidiennes concentrent les efforts sur les aspects qui sont très importants pour le fonctionnement d’un système et les tâches mensuelles se focalisent davantage sur la manière de garantir l’intégrité du système à long terme. Les tâches qui doivent être effectuées peuvent être classées dans les catégories suivantes:
+Plusieurs ressources peuvent vous aider à définir les procédures standard requises au sein de l’organisation et comment les exécuter. Étant donné que chaque organisation est unique, il est possible que vous deviez également personnaliser et adapter ces ressources pour répondre aux besoins de tous les jours. Les procédures opérationnelles standard changent et la documentation doit parfois être révisée. À mesure que des modifications sont apportées, le processus de gestion des modifications, tel que défini dans les fonctions de gestion des services de l’infrastructure opérationnelle de Microsoft, doit déterminer la façon dont chaque modification est susceptible d’influer sur l’exécution des tâches d’administration. Utilisez la fonction de gestion des modifications pour mettre à jour et contrôler la documentation procédurale. Nous vous recommandons d’intégrer les tâches opérationnelles dans des charges de travail gérables, où les tâches sont exécutées sur une base quotidienne, hebdomadaire, mensuelle et en tout besoin. Les tâches quotidiennes concentrent les efforts sur les aspects qui sont très importants pour le fonctionnement d’un système et les tâches mensuelles se focalisent davantage sur la manière de garantir l’intégrité du système à long terme. Les tâches qui doivent être effectuées peuvent être classées dans les catégories suivantes :
 
   - [Tâches quotidiennes dans Skype Entreprise Server 2015](lync-server-2013-daily-tasks.md)
 

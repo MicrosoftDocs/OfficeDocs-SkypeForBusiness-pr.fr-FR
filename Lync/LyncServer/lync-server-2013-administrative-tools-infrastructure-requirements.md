@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: exigences d’infrastructure des outils d’administration'
+title: 'Lync Server 2013 : exigences d’infrastructure des outils d’administration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrative tools infrastructure requirements
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839016"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-27_
+_**Dernière modification de la rubrique :** 2012-09-27_
 
 Aucun besoin d’infrastructure supplémentaire n’est nécessaire pour installer les outils d’administration Microsoft Lync Server 2013 ou effectuer la plupart des tâches de gestion à l’aide de ces outils. Pour connaître la configuration requise en matière d’infrastructure pour des scénarios spécifiques, voir les rubriques de cette section.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test de la connexion utilisateur à la messagerie vocale de la messagerie unifiée Exchange'
+title: 'Lync Server 2013 : test de la connexion utilisateur à la messagerie vocale de la messagerie unifiée Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f09921d62eddb1f1b426e0e3b1fc4984a0987a8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c533781fedc3bf3d6266bae80e5c59cacbec4874
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846502"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846502"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-11-01_
+_**Dernière modification de la rubrique :** 2014-11-01_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-11-01_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsExUMVoiceMail</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsExUMVoiceMail</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -84,7 +86,7 @@ La deuxième commande de l’exemple utilise l’objet Credentials fourni ($x) e
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-Dans l’exemple qui suit, la commande est une variante de la commande affichée dans l’exemple 1; dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape réalisée par le **test-CsExUMVoiceMail** cmdletand le succès ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté à côté de la valeur de paramètre ExumText; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la commande final de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont alors écrites dans un fichier nommé C:\\logs\\VoicemailTest. XML en utilisant l’applet de connexion Out-File.
+Dans l’exemple qui suit, la commande est une variante de la commande affichée dans l’exemple 1 ; dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape réalisée par le **test-CsExUMVoiceMail** cmdletand le succès ou l’échec de chacune de ces étapes. Pour ce faire, le paramètre OutLoggerVariable est ajouté à côté de la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest. Dans la commande final de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML. Ces données XML sont alors écrites dans un fichier nommé C :\\logs\\VoicemailTest. XML en utilisant l’applet de connexion Out-File.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
@@ -98,23 +100,23 @@ Dans l’exemple qui suit, la commande est une variante de la commande affichée
 
 Si l’intégration Exchange est correctement configurée, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:02.9911345
+Latence : 00:00:02.9911345
 
-Message d’erreur:
+Message d’erreur :
 
 Diagnostic
 
-Si l’utilisateur spécifié ne peut pas se connecter à la boîte vocale, le résultat est affiché en **panne**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
+Si l’utilisateur spécifié ne peut pas se connecter à la boîte vocale, le résultat est affiché en **panne**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-AVERTISSEMENT: impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
+AVERTISSEMENT : impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
 
 nom de domaine (FQDN). Utilisation du numéro de port de bureau par défaut. Sauf
 
-System. InvalidOperationException: aucun cluster correspondant détecté dans la topologie.
+System. InvalidOperationException : aucun cluster correspondant détecté dans la topologie.
 
 dès
 
@@ -122,13 +124,13 @@ Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryR
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur: 10060, une tentative de connexion a échoué car la partie connectée
+Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée
 
 ne répond pas correctement après un certain temps, ou
 
@@ -136,7 +138,7 @@ ne répond pas correctement après un certain temps, ou
 
 échec de la réponse à 10.188.116.96:5061
 
-Exception interne: une tentative de connexion a échoué, car le
+Exception interne : une tentative de connexion a échoué, car le
 
 la fête connectée ne répond pas correctement après un délai de
 
@@ -152,7 +154,7 @@ Diagnostic
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsExUMVoiceMail** peuvent échouer:
+Voici quelques raisons courantes pour lesquelles **les tests-CsExUMVoiceMail** peuvent échouer :
 
   - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
 

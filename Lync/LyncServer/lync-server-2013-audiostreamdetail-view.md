@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: AudioStreamDetail'
+title: 'Affichage Lync Server 2013 : AudioStreamDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStreamDetail view
 ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10992007c76321f8ed3b436b9786cbef840173ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77cebcd47d735f1779396c0272877c0ec64a6189
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838901"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838901"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -80,7 +82,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="even">
 <td><p>DialogCategory</p></td>
 <td><p>bit</p></td>
-<td><p>Catégorie de boîte de dialogue: 0 est le serveur Lync en jambes du serveur de médiation; 1 est le serveur de médiation pour le tronçon de passerelle PSTN.</p></td>
+<td><p>Catégorie de boîte de dialogue : 0 est le serveur Lync en jambes du serveur de médiation ; 1 est le serveur de médiation pour le tronçon de passerelle PSTN.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
@@ -90,7 +92,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
 <td><p>int</p></td>
-<td><p>Le cas échéant, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Une seule valeur est définie:</p>
+<td><p>Le cas échéant, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Une seule valeur est définie :</p>
 <p>0x0001-ID de contournement inconnu pour la carte réseau par défaut.</p></td>
 </tr>
 <tr class="odd">
@@ -231,7 +233,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="even">
 <td><p>Transport</p></td>
 <td><p>tinyint</p></td>
-<td><p>Le type de transport: 0 correspond au protocole UDP; 1 est le protocole TCP.</p></td>
+<td><p>Le type de transport : 0 correspond au protocole UDP ; 1 est le protocole TCP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerIPAddr</p></td>
@@ -246,7 +248,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="odd">
 <td><p>CallerInside</p></td>
 <td><p>bit</p></td>
-<td><p>Indique si l’appelant se trouve à l’intérieur du réseau intervalle: 1 désigne l’appelant à l’intérieur du réseau d’entreprise, 0 indique que l’appelant se trouve hors du réseau.</p></td>
+<td><p>Indique si l’appelant se trouve à l’intérieur du réseau intervalle : 1 désigne l’appelant à l’intérieur du réseau d’entreprise, 0 indique que l’appelant se trouve hors du réseau.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeIPAddr</p></td>
@@ -261,7 +263,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="even">
 <td><p>CalleeInside</p></td>
 <td><p>bit</p></td>
-<td><p>Indique si l’appelant se trouve à l’intérieur de l’intervalle réseau: 1 signifie que l’appelant se trouve à l’intérieur du réseau d’entreprise, 0 indique que l’appelant se trouve hors du réseau.</p></td>
+<td><p>Indique si l’appelant se trouve à l’intérieur de l’intervalle réseau : 1 signifie que l’appelant se trouve à l’intérieur du réseau d’entreprise, 0 indique que l’appelant se trouve hors du réseau.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserSite</p></td>
@@ -346,12 +348,12 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="odd">
 <td><p>CallerNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Type de connexion réseau de l’appelant: 0 est filaire, 1 est un réseau sans fil.</p></td>
+<td><p>Type de connexion réseau de l’appelant : 0 est filaire, 1 est un réseau sans fil.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerVPN</p></td>
 <td><p>bit</p></td>
-<td><p>Indique si l’appelant s’est connecté via un réseau privé virtuel: 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
+<td><p>Indique si l’appelant s’est connecté via un réseau privé virtuel : 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerLinkSpeed</p></td>
@@ -361,12 +363,12 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="even">
 <td><p>CalleeNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Type de connexion réseau du ou du destinataire: 0 est filaire, 1 est un téléphone sans fil.</p></td>
+<td><p>Type de connexion réseau du ou du destinataire : 0 est filaire, 1 est un téléphone sans fil.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVPN</p></td>
 <td><p>bit</p></td>
-<td><p>Indique si l’appelant s’est connecté via un réseau privé virtuel: 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
+<td><p>Indique si l’appelant s’est connecté via un réseau privé virtuel : 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeLinkSpeed</p></td>
@@ -395,17 +397,17 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="odd">
 <td><p>PacketLossRate</p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p>Taux moyen de perte de paquets lors de l’appel.</p></td>
 </tr>
 <tr class="even">
 <td><p>PacketLossRateMax</p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p>Perte de paquets maximum observée pendant l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p>BurstDensity</p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p>Densité moyenne de perte de paquets en rafales de pertes pendant l’appel.</p></td>
 </tr>
 <tr class="even">
@@ -415,7 +417,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="odd">
 <td><p>BurstGapDensity</p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p>Densité moyenne de perte de paquets lors de l’intervalle entre les pics de perte de paquets.</p></td>
 </tr>
 <tr class="even">
@@ -500,22 +502,22 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="even">
 <td><p>CallerTimestampDriftRateMic</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Taux d’utilisation de l’horloge du périphérique microphone de l’appelant par rapport à l’horloge de l’UC.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerTimestampDriftRateSpk</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Taux d’horloge des périphériques de haut-parleurs de l’appelant par rapport à l’horloge de l’UC.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerTimestampErrorMicMs</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Erreur d’horodatage du flux de capture de microphone moyenne, en millisecondes, au cours des dernières 20 secondes de l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerTimestampErrorSpkMs</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Moyenne de l’erreur d’horodatage du flux de haut-parleur de l’appelant, en millisecondes, au cours des dernières 20 secondes de l’appel.</p></td>
 </tr>
 <tr class="even">
@@ -530,18 +532,18 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="even">
 <td><p>CallerEchoPercentMicIn</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Pourcentage de temps pendant lequel l’écho est détecté dans le flux de capture du microphone de l’appelant. Si le casque est utilisé, la valeur doit être faible.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEchoPercentSend</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Pourcentage de temps pendant lequel l’écho est détecté dans le flux envoyé de l’appelant. Pourcentage d’écho élevé dans les flux d’envoi indicateur de fuite d’écho.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRxAGCSignalLevel</p></td>
 <td><p>int</p></td>
-<td><p>Reçu le niveau du signal sur le serveur de médiation de la passerelle pour le son de l’appelant; Cela s’applique uniquement au serveur de médiation. L’unité de cette valeur est dBoV. Pour une qualité optimale, la plage acceptable doit être comprise entre-30 et-18 dBoV.</p></td>
+<td><p>Reçu le niveau du signal sur le serveur de médiation de la passerelle pour le son de l’appelant ; Cela s’applique uniquement au serveur de médiation. L’unité de cette valeur est dBoV. Pour une qualité optimale, la plage acceptable doit être comprise entre-30 et-18 dBoV.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRxAGCNoiseLevel</p></td>
@@ -595,22 +597,22 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="odd">
 <td><p>CalleeTimestampDriftRateMic</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Taux d’utilisation de l’horloge du périphérique du micro du destinataire, par rapport à l’horloge de l’UC.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeTimestampDriftRateSpk</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Taux d’horloge de l’horloge du périphérique du présentateur, par rapport à l’horloge du processeur.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeTimestampErrorMicMs</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Erreur d’horodatage du flux de capture de microphone moyenne, en millisecondes, au cours des dernières 20 secondes de l’appel.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeTimestampErrorSpkMs</p></td>
-<td><p>décimale (9; 2)</p></td>
+<td><p>décimale (9 ; 2)</p></td>
 <td><p>Moyenne de l’erreur d’horodatage du flux de rendu du haut-parleur de l’appelant, en millisecondes, au cours des dernières 20 secondes de l’appel.</p></td>
 </tr>
 <tr class="odd">
@@ -625,18 +627,18 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="odd">
 <td><p>CalleeEchoPercentMicIn</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Pourcentage de temps pendant lequel l’écho est détecté dans le flux de capture du micro de l’appelant. Si le casque est utilisé, la valeur doit être faible.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEchoPercentSend</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Pourcentage de temps pendant lequel l’écho est détecté dans le flux envoyé du destinataire du appel. Pourcentage d’écho élevé dans les flux d’envoi indicateur de fuite d’écho.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRxAGCSignalLevel</p></td>
 <td><p>int</p></td>
-<td><p>Reçu le niveau du signal sur le serveur de médiation de la passerelle pour le son de l’appelant; Cela s’applique uniquement au serveur de médiation. L’unité de cette valeur est dBoV. Pour une qualité optimale, la plage acceptable doit être comprise entre [-30 et-18] dBoV.</p></td>
+<td><p>Reçu le niveau du signal sur le serveur de médiation de la passerelle pour le son de l’appelant ; Cela s’applique uniquement au serveur de médiation. L’unité de cette valeur est dBoV. Pour une qualité optimale, la plage acceptable doit être comprise entre [-30 et-18] dBoV.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRxAGCNoiseLevel</p></td>
@@ -655,17 +657,17 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 </tr>
 <tr class="odd">
 <td><p>RatioConcealedSamplesAvg</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Taux moyen d’échantillons masqués générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
 <tr class="even">
 <td><p>RatioStretchedSamplesAvg</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Taux moyen d’échantillons étirés générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RatioCompressedSamplesAvg</p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td><p>Taux moyen d’échantillons compressés générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
 <tr class="even">
@@ -716,7 +718,7 @@ Le mode AudioStreamDetail stocke les informations relatives à chaque flux audio
 <tr class="odd">
 <td><p>SenderIsCallerPAI</p></td>
 <td><p>bit</p></td>
-<td><p>Indique la direction des informations d’identification par le biais de la déclaration p; 1 signifie que le sens du flux provient de l’appelant vers l’appelant; 0: le sens du flux provient de l’appelant.</p></td>
+<td><p>Indique la direction des informations d’identification par le biais de la déclaration p ; 1 signifie que le sens du flux provient de l’appelant vers l’appelant ; 0 : le sens du flux provient de l’appelant.</p></td>
 </tr>
 </tbody>
 </table>

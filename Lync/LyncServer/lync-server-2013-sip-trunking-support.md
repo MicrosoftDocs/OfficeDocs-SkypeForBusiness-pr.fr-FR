@@ -3,6 +3,8 @@ title: Prise en charge des jonctions SIP dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIP trunking support
 ms:assetid: e3042831-e8d8-4ea2-baa2-1a697401ffa0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399005(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2bdcf814a62bed4954c77be76bef32e1b6807ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58108df8795aaae8d431b320125d34d14ee3a275
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846814"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Si vous envisagez d’utiliser Enterprise Voice avec le trunking SIP, vous devez déployer un serveur de médiation et vous assurer que d’autres infrastructures et composants répondent aux exigences de support appropriées à votre modèle de déploiement. Pour plus d’informations sur la façon de déterminer s’il convient d’implémenter le trunking SIP, voir [vue d’ensemble du trunking SIP dans Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) dans la documentation de planification.
 
@@ -57,9 +59,9 @@ Chaque serveur de médiation peut avoir deux cartes réseau qui fournissent une 
 
 Selon les modèles d’utilisation au sein de votre entreprise, il est possible que vous ne souhaitiez pas acheminer tous les utilisateurs via le Trunk SIP centralisé. Pour vous aider à établir vos besoins, répondez aux questions suivantes :
 
-  - Quelle est la taille de chaque site? Combien d’utilisateurs?
+  - Quelle est la taille de chaque site ? Combien d’utilisateurs ?
 
-  - Quels sont les numéros de téléphone à composer vers l’intérieur sur chaque site pour obtenir la plupart des appels téléphoniques?
+  - Quels sont les numéros de téléphone à composer vers l’intérieur sur chaque site pour obtenir la plupart des appels téléphoniques ?
 
 *Distribué* Le trunking SIP est un modèle de déploiement dans lequel vous implémentez un Trunk SIP local au sein d’un ou plusieurs sites de succursale. Le trafic VoIP est alors routé à partir du site de succursale directement vers son prestataire de services, sans passer par le centre de données.
 
@@ -87,7 +89,7 @@ Le choix entre le déploiement d’une trunkation SIP centralisée ou répartie 
 
 ## <a name="supported-sip-trunking-connection-types"></a>Types de connexion de jonction SIP pris en charge
 
-Lync Server 2013 prend en charge les types de connexion suivants pour le trunking SIP:
+Lync Server 2013 prend en charge les types de connexion suivants pour le trunking SIP :
 
   - Le réseau privé MPLS (Multiprotocol Label Switching) dirige et transporte les données d’un nœud du réseau vers le suivant. La bande passante d’un réseau MPLS est partagée avec d’autres abonnés et un libellé est attribué à chaque paquet de données pour distinguer les données d’un abonné de celles d’un autre. Ce type de connexion n’exige pas VPN. Un des inconvénients possibles est que le trafic IP excessif peut interférer avec le trafic VoIP à moins qu’une priorité soit affectée au trafic VoIP.
 
@@ -115,7 +117,7 @@ Le type de connexion de jonction SIP le plus approprié à votre entreprise dép
 
 ## <a name="codec-support"></a>Prise en charge de codec
 
-Le proxy du fournisseur de services doit prendre en charge les codecs suivants:
+Le proxy du fournisseur de services doit prendre en charge les codecs suivants :
 
   - G.711 a-law (utilisé principalement en dehors de l’Amérique du Nord)
 

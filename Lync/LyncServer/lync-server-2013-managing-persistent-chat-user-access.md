@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion de l’accès des utilisateurs à la conversa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Persistent Chat user access
 ms:assetid: 588fab46-2960-435b-9ec0-7460079a9088
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398387(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da080f859b037ef5506f8640213d07656c245dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827871"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
 Les rubriques suivantes expliquent comment utiliser le panneau de configuration de Lync Server 2013 et la page de **conversation permanente** pour gérer l’accès des utilisateurs dans la conversation persistante. Pour gérer le serveur de chat permanent, vous devez disposer des droits d’administrateur de conversation permanents et des autorisations du système. Lorsque vous installez le serveur de chat permanent, vous spécifiez un ou plusieurs utilisateurs disposant des privilèges et des autorisations d’administrateur de conversation permanente nécessaires. Pour accorder des droits d’administrateur et des autorisations aux comptes d’utilisateurs supplémentaires, utilisez **gérer les utilisateurs et les groupes**d’utilisateurs. Pour plus d’informations, reportez-vous [à la rubrique activation d’un utilisateur pour gérer des catégories, des salles de conversation et des droits d’utilisateur et des autorisations dans Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
 

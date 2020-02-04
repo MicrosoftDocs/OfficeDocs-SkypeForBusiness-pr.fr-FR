@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Exigences de certificat pour les serveurs internes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for internal servers
 ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0351ab4f54273e1eccc09992ab933525cc2527ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838667"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-02-17_
+_**Dernière modification de la rubrique :** 2017-02-17_
 
 Les serveurs internes exécutant Lync Server et qui nécessitent des certificats incluent Standard Edition Server, Enterprise Edition front end Server, serveur de médiation et Director. Le tableau suivant répertorie les conditions requises pour les certificats pour ces serveurs. Vous pouvez utiliser l’Assistant certificat de serveur Lync pour demander ces certificats.
 
@@ -47,7 +49,7 @@ Les serveurs internes exécutant Lync Server et qui nécessitent des certificats
 
 </div>
 
-Même si une autorité de certification d’entreprise interne est recommandée pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir une liste des autorités de certification publiques qui fournissent des certificats qui répondent à des exigences spécifiques pour les certificats de communications unifiées (UC) et qui ont un partenariat avec Microsoft pour s’assurer qu’ils fonctionnent avec l’Assistant certificat de Lync Server, voir l’article connaissances Microsoft 929395 de base, «partenaires de certification de communications unifiées pour Exchange Server et Communications Server [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)» au.
+Même si une autorité de certification d’entreprise interne est recommandée pour les serveurs internes, vous pouvez également utiliser une autorité de certification publique. Pour obtenir une liste des autorités de certification publiques qui fournissent des certificats qui répondent à des exigences spécifiques pour les certificats de communications unifiées (UC) et qui ont un partenariat avec Microsoft pour s’assurer qu’ils fonctionnent avec l’Assistant certificat de Lync Server, voir l’article 929395 de la base de connaissances Microsoft, [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)« partenaires de certification de communications unifiées » pour Exchange Server et pour Communications Server».
 
 La communication avec d’autres applications et serveurs, comme Exchange 2013, nécessite un certificat pris en charge par les autres applications et produits. Pour la version 2013, Lync Server 2013 et d’autres produits Microsoft Server, dont Exchange 2013 et SharePoint Server, prennent en charge le protocole d’autorisation Open (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Pour plus d’informations, reportez-vous à la section [gestion des applications d’authentification de serveur à serveur (OAuth) et de partenariat dans Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) dans la documentation de déploiement ou la documentation des opérations.
 
@@ -240,8 +242,8 @@ Notez que l’utilisation améliorée de la clé du serveur est automatiquement 
 <td><p>Nom de domaine complet (FQDN) du pool de réalisateurs</p></td>
 <td><p>Nom de domaine complet (FQDN) du réalisateur du pool</p>
 <p>Si ce pool est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour SIP. sipdomain (pour chaque domaine SIP que vous utilisez).</p></td>
-<td><p>SN = dir-pool.contoso.com; SAN = dir-pool.contoso.com; SAN = DIR01. contoso. com</p>
-<p>Si ce pool de directeurs est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous devez également disposer de SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</p></td>
+<td><p>SN = dir-pool.contoso.com ; SAN = dir-pool.contoso.com ; SAN = DIR01. contoso. com</p>
+<p>Si ce pool de directeurs est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous devez également disposer de SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com</p></td>
 </tr>
 <tr class="even">
 <td><p>Site Web interne</p></td>
@@ -277,7 +279,7 @@ Notez que l’utilisation améliorée de la clé du serveur est automatiquement 
 </table>
 
 
-Si vous disposez d’un pool de serveurs de médiation autonome, vous avez besoin des certificats répertoriés dans le tableau ci-dessous. Si vous collocate un serveur de médiation avec les serveurs frontaux, les certificats répertoriés dans le tableau «certificats pour le serveur frontal du pool frontal», plus haut dans cette rubrique sont suffisants.
+Si vous disposez d’un pool de serveurs de médiation autonome, vous avez besoin des certificats répertoriés dans le tableau ci-dessous. Si vous collocate un serveur de médiation avec les serveurs frontaux, les certificats répertoriés dans le tableau « certificats pour le serveur frontal du pool frontal », plus haut dans cette rubrique sont suffisants.
 
 ### <a name="certificates-for-stand-alone-mediation-server"></a>Certificats pour un serveur de médiation autonome
 

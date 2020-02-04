@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé DNS - Pool directeur mis à l’échelle, é
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled Director pool, hardware load balancer
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ff76d69952d08db72e5647b58e38a43b4181c8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 891b69339416c81d81e72e43edf5f09bbf9da3e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831342"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831342"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-20_
+_**Dernière modification de la rubrique :** 2012-10-20_
 
 Le tableau suivant contient un résumé des enregistrements DNS requis pour prendre en charge le directeur d’équilibrage de charge matérielle. Le rôle du directeur nécessite des enregistrements DNS similaires comme serveur frontal. Le nombre d’enregistrements nécessaires est reflété dans les autres noms d’objet requis sur le certificat de réalisateur. Différent du serveur frontal, le pool de directeurs n’héberge pas les comptes d’utilisateurs ou n’héberge pas les services de mobilité.
 

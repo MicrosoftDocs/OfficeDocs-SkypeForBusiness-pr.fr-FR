@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: ErrorCategory'
+title: 'Tableau Lync Server 2013 : ErrorCategory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorCategory table
 ms:assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204675(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9bd9cebf26a147b00873c17372eca77f0a11f2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831207"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-08-20_
+_**Dernière modification de la rubrique :** 2012-08-20_
 
-La table ErrorCategory contient le nom convivial de chaque classification de diagnostic Microsoft Lync Server 2013. Par défaut, Lync Server 2013 utilise les classifications suivantes:
+La table ErrorCategory contient le nom convivial de chaque classification de diagnostic Microsoft Lync Server 2013. Par défaut, Lync Server 2013 utilise les classifications suivantes :
 
   - 0--succès
 

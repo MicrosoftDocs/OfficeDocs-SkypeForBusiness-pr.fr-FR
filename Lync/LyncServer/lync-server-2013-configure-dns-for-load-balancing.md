@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration du DNS pour l’équilibrage de charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838390"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe administrateurs de domaine ou membre du groupe DnsAdmins.
 
-L’équilibrage de charge DNS (Domain Name System) équilibre le trafic réseau unique vers Lync Server 2013, comme le trafic SIP et le trafic multimédia. L’équilibrage de charge DNS est pris en charge pour les listes frontales, les pools de périphériques, les pools de directeurs et les pools de médiation autonomes. Un pool configuré pour utiliser l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) définis: le nom de domaine complet (FQDN) du pool standard utilisé par l’équilibrage de charge DNS (par exemple, pool1.contoso.com) et résolu vers l’IPs physique des serveurs du pool. et un autre nom de domaine complet (par exemple, web1.contoso.net) pour les services Web du pool, qui est résolu sur l’adresse IP virtuelle du pool. Pour plus d’informations sur l’équilibrage de charge DNS, voir [équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
+L’équilibrage de charge DNS (Domain Name System) équilibre le trafic réseau unique vers Lync Server 2013, comme le trafic SIP et le trafic multimédia. L’équilibrage de charge DNS est pris en charge pour les listes frontales, les pools de périphériques, les pools de directeurs et les pools de médiation autonomes. Un pool configuré pour utiliser l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) définis : le nom de domaine complet (FQDN) du pool standard utilisé par l’équilibrage de charge DNS (par exemple, pool1.contoso.com) et résolu vers l’IPs physique des serveurs du pool. et un autre nom de domaine complet (par exemple, web1.contoso.net) pour les services Web du pool, qui est résolu sur l’adresse IP virtuelle du pool. Pour plus d’informations sur l’équilibrage de charge DNS, voir [équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
 <div>
 
@@ -49,7 +51,7 @@ L’équilibrage de charge DNS (Domain Name System) équilibre le trafic réseau
 
 </div>
 
-Pour pouvoir utiliser l’équilibrage de charge DNS, vous devez procéder comme suit:
+Pour pouvoir utiliser l’équilibrage de charge DNS, vous devez procéder comme suit :
 
 1.  Remplacez le nom de domaine complet (FQDN) du pool de services Web interne.
     
@@ -79,7 +81,7 @@ Pour pouvoir utiliser l’équilibrage de charge DNS, vous devez procéder comme
 
 ## <a name="to-override-internal-web-services-fqdn"></a>Pour ignorer le nom de domaine complet des services Web internes
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans l’arborescence de la console, développez le nœud Pools front end Enterprise Edition.
 
@@ -113,7 +115,7 @@ Pour pouvoir utiliser l’équilibrage de charge DNS, vous devez procéder comme
 
 7.  Continuez à créer des enregistrements pour tous les serveurs frontaux de membre qui feront partie de l’équilibrage de charge DNS.
     
-    Par exemple, si vous avez un pool intitulé pool1.contoso.com et trois serveurs front-end, vous devez créer les entrées DNS suivantes:
+    Par exemple, si vous avez un pool intitulé pool1.contoso.com et trois serveurs front-end, vous devez créer les entrées DNS suivantes :
     
     
     <table>
@@ -160,9 +162,9 @@ Pour pouvoir utiliser l’équilibrage de charge DNS, vous devez procéder comme
 
 2.  Développez **DNS**, cliquez avec le bouton droit sur le serveur DNS à configurer, puis cliquez sur **Propriétés**.
 
-3.  Cliquez sur l’onglet **avancé** , sélectionnez **activer la répétition alternée** et activez l’ordre de tri des **masques**net, puis cliquez sur **OK**.
+3.  Cliquez sur l’onglet **avancé** , sélectionnez **activer la répétition alternée** et **activez l’ordre de tri des masques**net, puis cliquez sur **OK**.
     
-    ![Boîte de dialogue de répétition alternée DNS] (images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Boîte de dialogue de répétition alternée DNS")
+    ![Boîte de dialogue de répétition alternée DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Boîte de dialogue de répétition alternée DNS")
 
 <div>
 

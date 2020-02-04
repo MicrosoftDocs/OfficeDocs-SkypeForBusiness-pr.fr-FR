@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: routage en fonction de l’emplacement pour les conférences'
+title: 'Lync Server 2013 : routage en fonction de l’emplacement pour les conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing for conferencing
 ms:assetid: e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362849(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ee4c8f996315ede0fd0f7ccd789a73cad25c4f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830936"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830936"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-31_
+_**Dernière modification de la rubrique :** 2013-07-31_
 
 Le routage basé sur l’emplacement permet de limiter le routage des appels entre les points de terminaison VoIP et les points de terminaison RTC en fonction de l’emplacement des parties de l’appel. Avec la mise à jour cumulative 2 de Lync Server 2013, les règles de routage basées sur les emplacements peuvent être appliquées à des réunions Lync (par exemple, des conférences) pour empêcher le contournement du numéro RTC. L’application surveille une conférence active et applique des restrictions de routage basées sur l’emplacement en fonction de l’emplacement des utilisateurs qui participent. L’application de conférence de routage basée sur l’emplacement permet en outre d’appliquer des restrictions de routage basées sur les emplacements aux transferts de points de terminaison RTC.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour DNS pour les serveurs et fonctionnalités Edge'
+title: 'Lync Server 2013 : configuration requise pour DNS pour les serveurs et fonctionnalités Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Edge Servers and features
 ms:assetid: e3bf05c8-96fb-4dd2-acb1-f0d141c9e2ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721912(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c5069e82da9d063cc19e230db7503cd1bc640e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e9f0cb2eb68ed29984811f1c42a97dab4693a2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831370"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831370"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-04-08_
+_**Dernière modification de la rubrique :** 2014-04-08_
 
 Les serveurs Edge Lync Server 2013, les pools de bords et les proxys inversés ont des exigences spécifiques pour les enregistrements DNS (Domain Name System). Dans Lync Server 2013 lorsque IPv4 et IPv6 sont en cours d’utilisation, vous devez planifier pour les enregistrements hôte A et AAAA.
 
-Les rubriques répertoriées ci-dessous décrivent l’utilisation des enregistrements DNS pour votre planification de déploiement:
+Les rubriques répertoriées ci-dessous décrivent l’utilisation des enregistrements DNS pour votre planification de déploiement :
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: processus de déploiement pour Response Group'
+title: 'Lync Server 2013 : processus de déploiement pour Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Response Group
 ms:assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205270(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2151532b31f3c1660be98d11ac9d9c337ffecb64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831458"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-27_
+_**Dernière modification de la rubrique :** 2012-09-27_
 
 Cette section fournit une vue d’ensemble des phases et étapes du déploiement de l’application Response Group.
 
@@ -79,7 +81,7 @@ Cette section fournit une vue d’ensemble des phases et étapes du déploiement
 <tr class="even">
 <td><p>Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail</p></td>
 <td><ol>
-<li><p>Utilisez le panneau de configuration de Lync Server ou Lync Server Management Shell pour effectuer les opérations suivantes:</p>
+<li><p>Utilisez le panneau de configuration de Lync Server ou Lync Server Management Shell pour effectuer les opérations suivantes :</p>
 <ol>
 <li><p>Créez et configurez des groupes d’agents.</p></li>
 <li><p>Créez et configurez des files d’attente.</p></li>

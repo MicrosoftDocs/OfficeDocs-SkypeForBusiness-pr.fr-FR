@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblNode'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84bf7cf57f9890093a56deb2e0769b82e92aa0ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24ba45d9ba650a9de4359d64e3281fb488b6a279
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846693"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846693"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou de salle de conversation) qui est gérée dans le panneau de configuration et les applets de commande d’administration de Lync Server 2013.
 
@@ -87,12 +89,12 @@ tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou d
 <tr class="odd">
 <td><p>inviter</p></td>
 <td><p>bit</p></td>
-<td><p>Pour les catégories:</p>
+<td><p>Pour les catégories :</p>
 <ul>
 <li><p>True si les invitations sont activées.</p></li>
 <li><p>Faux si les invitations sont désdésactivées.</p></li>
 </ul>
-<p>Pour les salles:</p>
+<p>Pour les salles :</p>
 <ul>
 <li><p>Faux si les invitations sont désactivées (ignore la catégorie parent).</p></li>
 <li><p>NULL si le paramètre d’invitations est hérité de la catégorie parent.</p></li>
@@ -101,12 +103,12 @@ tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou d
 <tr class="even">
 <td><p>utilisé</p></td>
 <td><p>bit</p></td>
-<td><p>Pour les catégories:</p>
+<td><p>Pour les catégories :</p>
 <ul>
 <li><p>True si l’historique des conversations est activé.</p></li>
 <li><p>Faux si l’historique des conversations est désactivé.</p></li>
 </ul>
-<p>Pour les salles:</p>
+<p>Pour les salles :</p>
 <ul>
 <li><p>Valeur.</p></li>
 </ul></td>
@@ -114,12 +116,12 @@ tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou d
 <tr class="odd">
 <td><p>filePost</p></td>
 <td><p>bit</p></td>
-<td><p>Pour les catégories:</p>
+<td><p>Pour les catégories :</p>
 <ul>
 <li><p>True si les téléchargements de fichiers sont autorisés.</p></li>
 <li><p>False si les téléchargements de fichiers ne le sont pas.</p></li>
 </ul>
-<p>Pour les salles:</p>
+<p>Pour les salles :</p>
 <ul>
 <li><p>Valeur.</p></li>
 </ul></td>
@@ -137,21 +139,21 @@ tblNode contient l’arborescence d’objets (avec des nœuds de catégorie ou d
 <tr class="even">
 <td><p>fonctionnement</p></td>
 <td><p>smallint, pas null</p></td>
-<td><p>Comportement (recherché dans la table EnumValue):</p>
+<td><p>Comportement (recherché dans la table EnumValue) :</p>
 <ul>
-<li><p>4: normal (salles de conversation normales).</p></li>
-<li><p>5: Auditorium (salles de conversation d’Auditorium; seuls les présentateurs peuvent collaborer).</p></li>
+<li><p>4 : normal (salles de conversation normales).</p></li>
+<li><p>5 : Auditorium (salles de conversation d’Auditorium ; seuls les présentateurs peuvent collaborer).</p></li>
 </ul>
 <p>S’applique uniquement aux salles de conversation.</p></td>
 </tr>
 <tr class="odd">
 <td><p>notoriété</p></td>
 <td><p>smallint, pas null</p></td>
-<td><p>Visibility (recherché sur la table EnumValue):</p>
+<td><p>Visibility (recherché sur la table EnumValue) :</p>
 <ul>
-<li><p>2: privé</p></li>
-<li><p>3: étendue</p></li>
-<li><p>6: ouvrir</p></li>
+<li><p>2 : privé</p></li>
+<li><p>3 : étendue</p></li>
+<li><p>6 : ouvrir</p></li>
 </ul>
 <p>S’applique uniquement aux salles de conversation.</p></td>
 </tr>

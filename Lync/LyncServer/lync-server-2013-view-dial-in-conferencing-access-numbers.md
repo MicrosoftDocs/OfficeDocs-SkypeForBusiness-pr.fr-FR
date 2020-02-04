@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affichage des numéros d’accès pour les conférences rendez-vous'
+title: 'Lync Server 2013 : affichage des numéros d’accès pour les conférences rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View dial-in conferencing access numbers
 ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b9d9e6ca8d4f388edf6f04f4012726f6abee9e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e86127c2a945bcd9154df0456545f5783fd1a34
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846303"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Dans Lync Server 2013 panneau de configuration, vous fournissez des numéros d’accès rendez-vous aux utilisateurs pour pouvoir participer à une réunion en externe.
 
@@ -57,13 +59,13 @@ Dans Lync Server 2013 panneau de configuration, vous fournissez des numéros d�
 
 ## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Affichage des numéros d’accès pour les conférences rendez-vous à l’aide des applets de connexion Windows PowerShell
 
-Les numéros d’accès aux conférences rendez-vous peuvent être affichés à l’aide de Windows PowerShell et de l’applet de connexion Get-CsDialInConferencingAccessNumber. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Les numéros d’accès aux conférences rendez-vous peuvent être affichés à l’aide de Windows PowerShell et de l’applet de connexion Get-CsDialInConferencingAccessNumber. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-dial-in-conferencing-access-numbers"></a>Pour afficher les numéros d’accès à une conférence rendez-vous
 
-  - Pour afficher des informations sur tous les numéros d’accès à une conférence rendez-vous, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur tous les numéros d’accès à une conférence rendez-vous, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsDialInConferencingAccessNumber
     

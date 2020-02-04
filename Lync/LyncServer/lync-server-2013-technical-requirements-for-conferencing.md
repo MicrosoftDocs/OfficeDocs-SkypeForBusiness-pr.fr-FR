@@ -3,6 +3,8 @@ title: Configuration technique requise pour les conférences dans Lync Server 20
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846647"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34846647"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-25_
+_**Dernière modification de la rubrique :** 2014-06-25_
 
 Pour Lync Server 2013, les conférences rendez-vous, les conférences rendez-vous, les conférences par messagerie instantanée et les fonctionnalités de conférences Web toujours exécutées sur des serveurs frontaux.
 
 Cette section détaille les configurations matérielles et logicielles requises pour ces serveurs, ainsi que la colocalisation prise en charge.
 
-La fonction de conférence rendez-vous est une fonctionnalité qui inclut de nombreux composants. Certains composants sont spécifiques aux conférences rendez-vous, et certains sont des composants voix entreprise. Cette section décrit les exigences relatives aux composants spécifiques aux conférences rendez-vous. Pour plus d’informations sur la configuration requise pour la passerelle du réseau téléphonique commuté (PSTN) et du serveur de médiation (RTC), voir [composant serveur de médiation dans Lync server 2013](lync-server-2013-mediation-server-component.md) et [composants et topologies du serveur de médiation dans Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) dans le planning accompagnant.
+La fonction de conférence rendez-vous est une fonctionnalité qui inclut de nombreux composants. Certains composants sont spécifiques aux conférences rendez-vous, et certains sont des composants voix entreprise. Cette section décrit les exigences relatives aux composants spécifiques aux conférences rendez-vous. Pour plus d’informations sur la configuration requise pour les passerelles de réseau téléphonique commuté (RTC) et de réseau téléphonique commuté (RTC), consultez la section [composant serveur de médiation dans Lync server 2013](lync-server-2013-mediation-server-component.md) et les [composants et topologies du serveur de médiation dans Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) dans la documentation de planification.
 
 <div>
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-Dans la mesure où les conférences Web et les conférences à l’aide de la fonctionnalité de conférence A/V sont colocalisées avec le serveur frontal, la configuration matérielle requise pour le serveur est la même que celle des serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge. Les composants suivants requis pour les conférences rendez-vous présentent également les mêmes exigences matérielles que les serveurs frontaux:
+Dans la mesure où les conférences Web et les conférences à l’aide de la fonctionnalité de conférence A/V sont colocalisées avec le serveur frontal, la configuration matérielle requise pour le serveur est la même que celle des serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge. Les composants suivants requis pour les conférences rendez-vous présentent également les mêmes exigences matérielles que les serveurs frontaux :
 
   - service d’application
 
@@ -121,7 +123,7 @@ Ces ports sont les paramètres par défaut que vous pouvez modifier à l’aide 
 
 ## <a name="supported-clients-for-dial-in-conferencing"></a>Clients pris en charge pour les conférences rendez-vous
 
-Vous pouvez utiliser le client suivant pour planifier des conférences locales prenant en charge l’accès rendez-vous:
+Vous pouvez utiliser le client suivant pour planifier des conférences locales prenant en charge l’accès rendez-vous :
 
   - Complément réunion en ligne pour Lync 2013 (installé automatiquement lors de l’installation de Lync 2013 ou participant)
 
@@ -192,11 +194,11 @@ La page des paramètres de conférence rendez-vous prend en charge les combinais
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Exigences relatives aux fichiers audio pour les conférences rendez-vous
 
-Lync Server 2013 ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences rendez-vous. Toutefois, si vous avez un besoin professionnel qui nécessite que vous deviez modifier les fichiers audio par défaut, voir l’article 961177 de la base de connaissances Microsoft, [Comment personnaliser les invites vocales ou les fichiers audio pour la Conférence rendez-vous dans Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences rendez-vous. Toutefois, si vous avez un besoin professionnel qui nécessite que vous deviez modifier les fichiers audio par défaut, voir l’article 961177 de la base de connaissances Microsoft, [Comment personnaliser les invites vocales ou les fichiers audio pour les conférences rendez-vous dans Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Vous pouvez également utiliser l’utilitaire de gestion des invites de [voix personnalisées du surveillant des conférences Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées quand un appelant de téléphone rejoint une réunion Lync à l’aide d’invites personnalisées afin de fournir une différentes activités d’entrée de réunion. Les invites vocales personnalisées peuvent être installées sur un serveur exécutant Lync Server 2010 ou Lync Server 2013, Enterprise ou Standard Edition.
+Vous pouvez également utiliser l’utilitaire de gestion des [invites de voix personnalisées du surveillant des conférences Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant de téléphone rejoint une réunion Lync à l’aide d’invites personnalisées afin de fournir une autre utilisation de la réunion. Les invites vocales personnalisées peuvent être installées sur un serveur exécutant Lync Server 2010 ou Lync Server 2013, Enterprise ou Standard Edition.
 
-L’application du service de conférence et l’application d’annonce présentent les exigences suivantes concernant la musique en attente, le nom enregistré et les fichiers d’invite audio:
+L’application du service de conférence et l’application d’annonce présentent les exigences suivantes concernant la musique en attente, le nom enregistré et les fichiers d’invite audio :
 
   - Format de fichier audio Windows Media (.wma)
 

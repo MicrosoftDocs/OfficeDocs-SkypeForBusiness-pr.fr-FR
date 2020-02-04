@@ -1,8 +1,10 @@
 ---
-title: 'Configuration requise pour le client Lync Server 2013:'
+title: 'Configuration requise pour le client Lync Server 2013 :'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client video requirements
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56743abd386cb59b177806eed3d441aaf587ccce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d174b73bd4369220ae83bc8365267a626849e235
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830930"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-01-29_
+_**Dernière modification de la rubrique :** 2016-01-29_
 
 Cette section décrit la prise en charge de matériel vidéo pour les appels vidéo Lync 2013 et explique comment déterminer la qualité vidéo prévue pour différentes configurations d’ordinateur, de tablette et de périphérique mobile.
 
@@ -84,7 +86,7 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 <li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li>
 </ul></li>
 </ul>
-<p>Les solutions de codage vidéo accélérées sur le matériel AMD suivantes sont prises en charge (nécessite des mises à jour CU1 pour Lync Server 2013):</p>
+<p>Les solutions de codage vidéo accélérées sur le matériel AMD suivantes sont prises en charge (nécessite des mises à jour CU1 pour Lync Server 2013) :</p>
 <ul>
 <li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li>
 </ul></td>

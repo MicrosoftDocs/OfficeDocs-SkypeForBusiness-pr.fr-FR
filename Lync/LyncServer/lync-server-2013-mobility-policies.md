@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: stratégies de mobilité'
+title: 'Lync Server 2013 : stratégies de mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility policies
 ms:assetid: 8caa5525-e16a-4e38-b3cd-acc0ae9ea375
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688126(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4854bcd63053e323a8df2f855e60e35e24bdd8ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826989"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826989"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Utilisez les procédures suivantes pour configurer les stratégies de mobilité pour Lync Server 2013.
 

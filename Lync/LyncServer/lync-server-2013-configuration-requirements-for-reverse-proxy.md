@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour le proxy inverse'
+title: 'Lync Server 2013 : configuration requise pour le proxy inverse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration requirements for reverse proxy
 ms:assetid: c37d688a-28e4-4822-80cc-6add59c71052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0367ea79a0f3de6ad716f18aab980e9d9442e148
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838452"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838452"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-05_
+_**Dernière modification de la rubrique :** 2013-03-05_
 
 Lync Server 2013 impose quelques exigences relatives aux communications du client externe, qui sont ensuite transmises aux services Web externes hébergés sur le directeur, le pool de directeurs, le serveur frontal ou le pool frontal. Le proxy inverse est également responsable de la publication du serveur Office Web Apps, si vous proposez des conférences à vos utilisateurs.
 
@@ -51,7 +53,7 @@ Lync Server 2013 impose quelques exigences relatives aux communications du clien
 
 ## <a name="reverse-proxy-requirements"></a>Configuration requise du proxy inverse
 
-Les opérations fonctionnelles qu’Lync Server 2013 attendent qu’un proxy inverse effectuent:
+Les opérations fonctionnelles qu’Lync Server 2013 attendent qu’un proxy inverse effectuent :
 
   - Utiliser le protocole SSL (Secure Socket Layer) et le protocole TLS (Transport Layer Security) implémentés à l’aide de certificats acquis auprès d’une autorité de certification publique pour vous connecter aux services Web externes publiés du directeur, du pool de directeurs, du serveur frontal ou du pool frontal. Le directeur et le serveur frontal peuvent faire partie d’un pool à équilibrage de charge à l’aide d’un dispositif d’équilibrage de la charge matérielle.
 
@@ -59,7 +61,7 @@ Les opérations fonctionnelles qu’Lync Server 2013 attendent qu’un proxy inv
 
   - Peut publier un site Web hébergé en interne en externe à l’aide d’un nom de domaine complet (FQDN).
 
-  - Capable de publier tout le contenu du site Web hébergé. Par défaut, vous pouvez utiliser la ** / ** directive qui est reconnue par la plupart des serveurs Web afin de dire «publier tout le contenu sur le serveur Web». Vous pouvez également modifier la directive, par exemple **/Uwca/\***, ce qui signifie «publier tout le contenu sous le répertoire virtuel Ucwa».
+  - Capable de publier tout le contenu du site Web hébergé. Par défaut, vous pouvez utiliser la ** / ** directive qui est reconnue par la plupart des serveurs Web afin de dire « publier tout le contenu sur le serveur Web ». Vous pouvez également modifier la directive, par exemple **/Uwca/\***, ce qui signifie « publier tout le contenu sous le répertoire virtuel Ucwa ».
 
   - Doit être configuré pour exiger des connexions SSL (Secure Sockets Layer) et/ou TLS (Transport Layer Security) avec des clients qui demandent du contenu à partir d’un site Web publié.
 

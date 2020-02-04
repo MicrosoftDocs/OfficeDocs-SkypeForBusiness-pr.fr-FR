@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport sur l’inscription des utilisateurs'
+title: 'Lync Server 2013 : rapport sur l’inscription des utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Registration Report
 ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f56ffd05e677d5106552a9ebcf8a0718efbc100
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 079e6cb96a9401d909be4f459d7bbe7c3f6d4ed6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846441"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 Le rapport sur l’inscription des utilisateurs fournit une vue d’ensemble de l’activité de connexion des utilisateurs, en particulier des informations sur le nombre d’utilisateurs connectés à Microsoft Lync Server 2013 pendant une période spécifiée (horaire, quotidienne, hebdomadaire, mensuel). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous apprend pas *qui* a ouvert une session. Les rapports d’analyse ne fournissent pas d’informations sur les utilisateurs spécifiques utilisant Lync Server 2013 (et ceux qui ne le sont pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
 
@@ -53,7 +55,7 @@ Vous ne pouvez accéder au rapport d’enregistrement de l’utilisateur qu’à
 
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>Utilisation optimale du rapport d’enregistrement de l’utilisateur
 
-Après avoir déployé Lync Server, vous devez répondre aux questions fréquemment posées: Comment savoir si mes utilisateurs utilisent réellement cette nouvelle technologie? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si des utilisateurs utilisent ou non Lync Server, vous devez effectuer deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique le nombre d’utilisateurs distincts qui se sont connectés à Lync Server.
+Après avoir déployé Lync Server, vous devez répondre aux questions fréquemment posées : Comment savoir si mes utilisateurs utilisent réellement cette nouvelle technologie ? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si des utilisateurs utilisent ou non Lync Server, vous devez effectuer deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique le nombre d’utilisateurs distincts qui se sont connectés à Lync Server.
 
 Par comparaison, la métrique total des ouvertures de session indique le nombre total de fois où quiconque s’est connecté à Lync Server. Par exemple, supposons que Ken Myer s’est connecté à Lync Server cinq fois par jour. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, l’utilisateur peut se connecter à l’aide d’un ordinateur de bureau, d’un ordinateur portable et peut disposer d’un téléphone IP qui ouvre automatiquement une session sur Lync Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
 
@@ -98,7 +100,7 @@ Pour mieux expliquer la différence entre le nombre total d’ouvertures de sess
 
 Notez qu’il y a cinq ouvertures de session au total, mais qu’il n’y a que deux utilisateurs uniques par ouverture de session : Ken Myer (qui a ouvert une session trois fois) et Pilar Ackerman (qui a ouvert une session deux fois). Cela illustre la différence entre les ouvertures de session et les utilisateurs uniques par ouverture de session.
 
-En plus de connaître le nombre d’ouvertures de session uniques, vous devez connaître le nombre total d’utilisateurs qui ont été activés pour Lync Server. Cette valeur peut être récupérée en ouvrant Lync Server 2013 Management Shell et en exécutant la commande Windows PowerShell suivante:
+En plus de connaître le nombre d’ouvertures de session uniques, vous devez connaître le nombre total d’utilisateurs qui ont été activés pour Lync Server. Cette valeur peut être récupérée en ouvrant Lync Server 2013 Management Shell et en exécutant la commande Windows PowerShell suivante :
 
     (Get-CsUser).Count
 
@@ -114,7 +116,7 @@ Si la commande précédente renvoie une valeur de 1 236 et que la métrique des 
 
 </div>
 
-Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La métrique utilisateurs actifs uniques indique le nombre d’utilisateurs uniques qui ont réellement utilisé Lync Server: ils ont effectué un appel téléphonique, ils ont rejoint une réunion Lync ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, car Microsoft Lync 2013 peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, il est possible que vous disposiez d’un grand nombre d’utilisateurs qui se connectent automatiquement à Lync quand ils se connectent à Windows tous les jours, mais qu’ils n’utilisent jamais réellement Lync Server pendant cette période.
+Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La métrique utilisateurs actifs uniques indique le nombre d’utilisateurs uniques qui ont réellement utilisé Lync Server : ils ont effectué un appel téléphonique, ils ont rejoint une réunion Lync ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, car Microsoft Lync 2013 peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, il est possible que vous disposiez d’un grand nombre d’utilisateurs qui se connectent automatiquement à Lync quand ils se connectent à Windows tous les jours, mais qu’ils n’utilisent jamais réellement Lync Server pendant cette période.
 
 La métrique unique des utilisateurs actifs fournit également des données plus significatives au sein d’une organisation dans laquelle les utilisateurs ne ferment pas de fenêtre à la fin de la journée. Au lieu de cela, ils verrouillent simplement leur ordinateur et laissent Windows et Lync en cours d’exécution. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, les utilisateurs actifs uniques vous indiquent si les utilisateurs utilisent activement Lync ou un autre client Lync Server.
 

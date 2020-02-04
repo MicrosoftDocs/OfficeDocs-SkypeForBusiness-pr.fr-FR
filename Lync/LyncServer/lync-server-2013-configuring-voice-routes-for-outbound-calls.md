@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des itinéraires de communications vo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring voice routes for outbound calls
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425890(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e91525f5d35110560b28059f774be8d2cb5df6d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8b425ce1e0627645f84223f36f6fc0de18b5af8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838148"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838148"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Un itinéraire vocal de Lync Server 2013 associe des numéros de téléphone de destination à une ou plusieurs passerelles de réseau téléphonique commuté (PSTN) ou des Trunks SIP et un ou plusieurs enregistrements d’utilisation PSTN.
 
@@ -58,9 +60,9 @@ Un itinéraire vocal de Lync Server 2013 associe des numéros de téléphone de 
 
 **Pour afficher les itinéraires vocaux à l’aide de Windows PowerShell**
 
-  - Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**. Les itinéraires vocaux peuvent être affichés à l’aide de Windows PowerShell et de l’applet **de passe Get-CsVoiceRoute** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+  - Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**. Les itinéraires vocaux peuvent être affichés à l’aide de Windows PowerShell et de l’applet **de passe Get-CsVoiceRoute** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
     
-    Pour afficher des informations sur l’ensemble de vos itinéraires vocaux, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+    Pour afficher des informations sur l’ensemble de vos itinéraires vocaux, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsVoiceRoute
     

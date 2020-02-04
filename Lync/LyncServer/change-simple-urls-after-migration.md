@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Change simple URLs after migration
 ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 811296efc12badd61d148b7dbd60a3489e74a747
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a24eda274734e0c5a27fab30640a363de6653514
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232869"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,9 +36,9 @@ ms.locfileid: "36232869"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-22_
+_**Dernière modification de la rubrique :** 2012-09-22_
 
-Lync Server prend en charge trois URL simples:
+Lync Server prend en charge trois URL simples :
 
   - La **fonction réunion** est utilisée comme URL de base pour toutes les conférences du site ou de l’organisation. Avec l’URL de la réunion, vous pouvez facilement comprendre les liens permettant de participer à des réunions, et facilement communiquer et diffuser.
 
@@ -54,7 +56,7 @@ Après avoir effectué la migration vers Lync Server 2013, vous devez tenir comp
 
 1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Lync Server**, puis cliquez sur **modifier les propriétés**.
 
-2.  Sélectionnez **URL simples** dans le volet gauche, puis sous **URL de la réunion:** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
+2.  Sélectionnez **URL simples** dans le volet gauche, puis sous **URL de la réunion :** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
 
 3.  Mettez à jour l’URL comme vous le souhaitez puis cliquez sur **OK** pour enregistrer l’URL modifiée.
 

@@ -3,6 +3,8 @@ title: Configuration requise pour les infrastructures de certificat Lync Server 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate infrastructure requirements
 ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59089e9e44110809374ef0bf11fb2dc97705d0d1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61205cf4ecdac8eac78820442264286f414095ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838661"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838661"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-06-23_
+_**Dernière modification de la rubrique :** 2016-06-23_
 
 Lync Server 2013 a besoin d’une infrastructure à clé publique (PKI) pour prendre en charge les connexions TLS et Mutual TLS (MTLS).
 
-Lync Server utilise des certificats aux fins suivantes:
+Lync Server utilise des certificats aux fins suivantes :
 
   - Connexions TLS entre le client et le serveur
 
@@ -51,7 +53,7 @@ Lync Server utilise des certificats aux fins suivantes:
 
   - Demandes mobiles utilisant la découverte automatique des services Web
 
-Pour Lync Server, les exigences courantes suivantes s’appliquent:
+Pour Lync Server, les exigences courantes suivantes s’appliquent :
 
   - Tous les certificats de serveur doivent prendre en charge l’autorisation serveur (utilisation améliorée de la clé du serveur).
 

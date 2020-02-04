@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Ressources requises pour le serveur de conversation p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Required resources
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823251"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823251"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-02-05_
+_**Dernière modification de la rubrique :** 2016-02-05_
 
 Une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent nécessitent des ressources supplémentaires en plus de ce qui est en général requis pour une opération complète. Avant de configurer le serveur de chat permanent pour une haute disponibilité et une reprise après sinistre, assurez-vous que vous disposez des ressources suivantes en plus de ce qui est requis pour l’opération de serveur de chat permanent standard. Pour plus d’informations sur la configuration, voir [configuration du serveur de chat permanent dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
 
@@ -59,7 +61,7 @@ Une haute disponibilité et une reprise après sinistre pour le serveur de chat 
 
 </div>
 
-Les illustrations suivantes fournissent des exemples sur la façon dont l’intégralité du pool de serveurs de chat permanent peut être configuré dans les deux topologies de pool étiré différentes:
+Les illustrations suivantes fournissent des exemples sur la façon dont l’intégralité du pool de serveurs de chat permanent peut être configuré dans les deux topologies de pool étiré différentes :
 
   - Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante élevée et une latence faible.
 
@@ -69,13 +71,13 @@ La figure ci-après illustre une topologie de pool de serveurs de chat permanent
 
 **Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante élevée et une latence faible.**
 
-![Examen permanent de configuration du pool de serveurs de conversation HBW] (images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation HBW")
+![Examen permanent de configuration du pool de serveurs de conversation HBW](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation HBW")
 
 La figure suivante illustre une topologie de pool de serveurs de chat permanent étirée dans laquelle les centres de données sont géospatiales avec une bande passante faible et une latence élevée.
 
 **Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante faible et une latence élevée.**
 
-![Examen permanent de configuration du pool de serveurs de conversation LBW] (images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation LBW")
+![Examen permanent de configuration du pool de serveurs de conversation LBW](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation LBW")
 
 </div>
 

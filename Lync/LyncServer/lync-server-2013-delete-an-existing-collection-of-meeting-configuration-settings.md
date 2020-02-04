@@ -3,6 +3,8 @@ title: Supprimer une collection existante de paramètres de configuration de ré
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of meeting configuration settings
 ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10d564cf8fbcfb8c66df5e84841aae456913f1dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96fe774830a8efc6f0cc88a2dd929b3126335b51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831612"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831612"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Vous pouvez supprimer une configuration de site ou d’utilisateur. La configuration globale ne peut pas être supprimée. Si vous supprimez la configuration globale, ses valeurs par défaut sont automatiquement rétablies.
 
@@ -55,13 +57,13 @@ Vous pouvez supprimer une configuration de site ou d’utilisateur. La configura
 
 ## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Supprimer les paramètres de configuration de la réunion à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez supprimer les paramètres de la réunion à l’aide de Windows PowerShell et de l’applet de passe Remove-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez supprimer les paramètres de la réunion à l’aide de Windows PowerShell et de l’applet de passe Remove-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration de réunion spécifiée
 
-  - Cette commande supprime les paramètres de configuration de la réunion appliqués au site de Redmond:
+  - Cette commande supprime les paramètres de configuration de la réunion appliqués au site de Redmond :
     
         Remove-CsMeetingConfiguration -Identity "site:Redmond"
 
@@ -71,7 +73,7 @@ Vous pouvez supprimer les paramètres de la réunion à l’aide de Windows Powe
 
 ## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration de réunion appliqués à l’étendue du site
 
-  - Cette commande supprime tous les paramètres de configuration de réunion appliqués à l’étendue du site:
+  - Cette commande supprime tous les paramètres de configuration de réunion appliqués à l’étendue du site :
     
         Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 
@@ -81,7 +83,7 @@ Vous pouvez supprimer les paramètres de la réunion à l’aide de Windows Powe
 
 ## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a>Pour supprimer tous les paramètres de configuration de réunion qui autorisent les utilisateurs anonymes par défaut
 
-  - Par défaut, cette option supprime tous les paramètres qui autorisent les utilisateurs anonymes à être admis par défaut:
+  - Par défaut, cette option supprime tous les paramètres qui autorisent les utilisateurs anonymes à être admis par défaut :
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 

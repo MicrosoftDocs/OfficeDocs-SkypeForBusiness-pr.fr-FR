@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les enregistrements d’utilisation RTC'
+title: 'Lync Server 2013 : afficher les enregistrements d’utilisation RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9042eca0b8ddd1f04b34c3fea0b57dd6235b69c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846293"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846293"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Un enregistrement d’utilisation de réseau téléphonique commuté (PSTN) spécifie un cours d’appel (par exemple, interne, local ou longue distance) qui peut être effectué par différents utilisateurs ou groupes d’utilisateurs au sein d’une organisation. Pour plus d’informations, reportez-vous à la rubrique [enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md) dans la documentation de planification.
 
@@ -64,13 +66,13 @@ Un enregistrement d’utilisation de réseau téléphonique commuté (PSTN) spé
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations d’utilisation RTC à l’aide d’applets de commande Windows PowerShell
 
-Vous pouvez également afficher les utilisations PSTN à l’aide de Windows PowerShell et de l’applet **de commande Get-CsPstnUsage** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez également afficher les utilisations PSTN à l’aide de Windows PowerShell et de l’applet **de commande Get-CsPstnUsage** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Pour afficher les informations d’utilisation RTC à l’aide d’applets de commande Windows PowerShell
 
-  - Pour afficher des informations sur toutes vos utilisations RTC, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur toutes vos utilisations RTC, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsPstnUsage
     

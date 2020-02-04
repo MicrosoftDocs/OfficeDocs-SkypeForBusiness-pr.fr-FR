@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration logicielle requise pour les outils d’
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrative tools software requirements
 ms:assetid: 2fb172c3-7b84-4e49-981c-2a17e7a00a29
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95dfed4d6cf69950a0e17ab6826d79ee7e7a68cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a3f174b4f699add911149128e3d7d48aa00e1c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839017"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839017"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
 Cette rubrique décrit les logiciels requis pour installer et utiliser les outils d’administration de Lync Server 2013 en plus de la configuration requise du système d’exploitation.
 

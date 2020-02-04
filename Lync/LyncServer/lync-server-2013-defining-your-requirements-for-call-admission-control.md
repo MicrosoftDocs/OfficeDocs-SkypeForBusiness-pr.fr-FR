@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour le contr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7737d303c7239df451c71b4f92d4dcd8dfe5b2e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba23e34099ed75f61f8025711189c60d36ca18f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831720"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831720"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-28_
+_**Dernière modification de la rubrique :** 2013-10-28_
 
 La planification du contrôle d’admission des appels (CAC) requiert des informations détaillées sur votre topologie de réseau d’entreprise. Pour vous aider à planifier vos stratégies de contrôle d’admission des appels, procédez comme suit.
 
@@ -60,7 +62,7 @@ Pour expliquer ces concepts, nous prendrons l’exemple de topologie réseau pr�
 
 **Exemple de topologie pour le contrôle d’admission des appels**
 
-![Exemple de topologie de réseau Litware Inc.] (images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Exemple de topologie de réseau Litware Inc.")
+![Exemple de topologie réseau Litware Inc.](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Exemple de topologie réseau Litware Inc.")
 
 <div>
 
@@ -72,7 +74,7 @@ Pour expliquer ces concepts, nous prendrons l’exemple de topologie réseau pr�
 
 </div>
 
-Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, reportez-vous à la rubrique [exemple: rassemblement des exigences relatives au contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
+Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, reportez-vous à la rubrique [exemple : rassemblement des exigences relatives au contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
 
 <div>
 
@@ -285,7 +287,7 @@ Les codecs G.722.1 et Siren sont similaires, mais offrent différentes vitesses 
 
 G. 722, le codec par défaut pour les conférences Lync Server, est totalement différent des codecs G. 722.1 et sirène.
 
-Le codec sirène est utilisé dans Lync Server dans les situations suivantes:
+Le codec sirène est utilisé dans Lync Server dans les situations suivantes :
 
   - La stratégie de bande passante est définie sur une valeur trop basse pour permettre l’utilisation de G.722.
 

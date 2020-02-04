@@ -3,6 +3,8 @@ title: Configuration requise pour les services Internet (IIS) pour les pools fro
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d804df614eab49eeabe82cca9d304e082d9ced3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00ffe97b77f20107fc3351a678c71e28bbc6675
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831040"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-19_
+_**Dernière modification de la rubrique :** 2012-06-19_
 
-Pour les serveurs Standard Edition et frontal, et les directeurs, le programme d’installation de Lync Server 2013 crée des répertoires virtuels dans Internet Information Services (IIS) aux fins suivantes:
+Pour les serveurs Standard Edition et frontal, et les directeurs, le programme d’installation de Lync Server 2013 crée des répertoires virtuels dans Internet Information Services (IIS) aux fins suivantes :
 
   - Pour permettre aux utilisateurs de télécharger des fichiers à partir du service de carnet d’adresses
 
@@ -51,7 +53,7 @@ Pour les serveurs Standard Edition et frontal, et les directeurs, le programme d
 
   - Pour activer les fonctionnalités de Response Group
 
-Par ailleurs, la mise à jour cumulative pour Lync Server 2010: novembre 2011 du programme d’installation crée des répertoires virtuels dans les services Internet (IIS) pour les raisons suivantes:
+Par ailleurs, la mise à jour cumulative pour Lync Server 2010 : novembre 2011 du programme d’installation crée des répertoires virtuels dans les services Internet (IIS) pour les raisons suivantes :
 
   - Serveur frontal ou serveurs Standard Edition pour prendre en charge les fonctionnalités de mobilité, telles que la messagerie instantanée et la présence, sur les appareils mobiles
 
@@ -64,7 +66,7 @@ Par ailleurs, la mise à jour cumulative pour Lync Server 2010: novembre 2011 du
 
 
 
-Le serveur Lync nécessite l’installation des modules IIS suivants:
+Le serveur Lync nécessite l’installation des modules IIS suivants :
 
 
 > [!IMPORTANT]
@@ -147,7 +149,7 @@ Le tableau suivant répertorie les URI des répertoires virtuels pour l’accès
 </tr>
 <tr class="odd">
 <td><p>Mises à jour de périphériques</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///DeviceUpdateFiles_Int</p></td>
+<td><p>DeviceUpdateFiles_Int&lt;FQDN&gt;interne http://</p></td>
 <td><p>Emplacement des fichiers de mise à jour de l’appareil de communications unifiées (UC) pour les appareils UC internes.</p></td>
 </tr>
 <tr class="even">
@@ -192,7 +194,7 @@ Le tableau suivant répertorie les URI des répertoires virtuels pour l’accès
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
 </tr>
 </thead>
 <tbody>

@@ -3,6 +3,8 @@ title: Calculatrice de planification de capacité de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2013 capacity planning calculator
 ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 385127f1686c2a4fa5beaf33f02d2eec6ba19500
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26abf069d7c1686fe8abb804d6de4508ba6333fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838689"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838689"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-21_
+_**Dernière modification de la rubrique :** 2013-11-21_
 
 Le calculateur Microsoft® Lync™ Server 2013 planification de la capacité est disponible en <http://www.microsoft.com/en-us/download/details.aspx?id=36828>téléchargement à l’adresse. Il est conçu pour vous aider à déterminer les besoins en matière de serveurs en fonction du nombre d’utilisateurs et de modalités de communication activées au sein de votre organisation. Vous entrez le profil de votre organisation et la calculatrice fournit des recommandations qui vous aideront à planifier votre topologie.
 
@@ -51,7 +53,7 @@ Vous pouvez tirer pleinement parti du calculateur si vous avez des informations 
 
 La calculatrice est une feuille de calcul Microsoft Excel®. Les cellules en couleur orange sont des entrées de votre part. Les valeurs par défaut sont tapées (les utilisateurs 80 000 au sein d’un pool avec douze serveurs front-end), mais vous pouvez modifier ces valeurs selon les besoins de votre organisation.
 
-Le modèle d’utilisation contient les sections suivantes. Pour calculer vos exigences de capacité, entrez les données comme décrit ci-dessous:
+Le modèle d’utilisation contient les sections suivantes. Pour calculer vos exigences de capacité, entrez les données comme décrit ci-dessous :
 
 **Messagerie instantanée et présence**
 
@@ -93,9 +95,9 @@ Le modèle d’utilisation contient les sections suivantes. Pour calculer vos ex
 
   - Dans pourcentage d’utilisateurs activés pour la mobilité, tapez le pourcentage d’utilisateurs qui seront activés pour se connecter à Lync Server à l’aide d’appareils mobiles. La valeur par défaut est 40 %.
 
-Lorsque vous avez entré toutes les informations nécessaires, le calculateur de capacité évalue votre configuration requise. Les cellules jaunes montrent des valeurs calculées pour le processeur, la mémoire et les exigences de bande passante en fonction des tests exécutés dans Lync Server 2013 performance Labs. Les nombres sont fournis dans le cadre d’une instruction, et aucune variante unique n’est testée et validée. Les valeurs suivantes sont calculées:
+Lorsque vous avez entré toutes les informations nécessaires, le calculateur de capacité évalue votre configuration requise. Les cellules jaunes montrent des valeurs calculées pour le processeur, la mémoire et les exigences de bande passante en fonction des tests exécutés dans Lync Server 2013 performance Labs. Les nombres sont fournis dans le cadre d’une instruction, et aucune variante unique n’est testée et validée. Les valeurs suivantes sont calculées :
 
-  - PROCESSEUR frontal: pourcentage d’utilisation de l’UC si le chargement complet a été géré par un serveur frontal de mêmes spécifications que le serveur utilisé dans les tests Microsoft.
+  - PROCESSEUR frontal : pourcentage d’utilisation de l’UC si le chargement complet a été géré par un serveur frontal de mêmes spécifications que le serveur utilisé dans les tests Microsoft.
 
   - Réseau (Mbits/s) : bande passante requise en mégabits par seconde (Mbits/s) pour la charge de travail correspondante.
 
@@ -103,11 +105,11 @@ Lorsque vous avez entré toutes les informations nécessaires, le calculateur de
 
 Les cellules vertes indiquent les recommandations pour le modèle d’utilisation que vous avez entré.
 
-  - Nombre total de serveurs frontaux: le nombre de serveurs physiques requis est basé sur des serveurs dédiés exécutant Lync Server 2013 avec deux processeurs, avec le cœur hexadécimal, avec 2 260 mégacycles.
+  - Nombre total de serveurs frontaux : le nombre de serveurs physiques requis est basé sur des serveurs dédiés exécutant Lync Server 2013 avec deux processeurs, avec le cœur hexadécimal, avec 2 260 mégacycles.
 
   - Il est recommandé d’activer l’hyperthreading. Il a été démontré que cette technologie améliore les performances des serveurs prenant en charge le son et la vidéo.
 
-  - Serveurs Edge: le nombre de serveurs Edge requis, en fonction de 30% de tous les utilisateurs concurrents qui communiquent par le biais des serveurs Edge. Ce pourcentage ne peut pas être modifié dans la calculatrice.
+  - Serveurs Edge : le nombre de serveurs Edge requis, en fonction de 30% de tous les utilisateurs concurrents qui communiquent par le biais des serveurs Edge. Ce pourcentage ne peut pas être modifié dans la calculatrice.
 
   - Magasin pour l’archivage/l’enregistrement des détails des appels/les services de qualité de l’expérience (QoE) : nombre de magasins requis pour les fonctionnalités d’archivage ou de surveillance, si celles-ci sont activées dans votre organisation.
 

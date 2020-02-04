@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table ProgressReport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ProgressReport table
 ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8ca0341cd5b85418ef5f71234870ae4171af27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e1cb7c8e764097af96981220ee74d481b379341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823720"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823720"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Les rapports de progression sont basés sur les données chargées par le client dans la base de données une fois l’appel ou la session terminée. Les rapports de progression seront écrits uniquement pour les appels et les sessions que Lync Server 2013 détermine peut être utile à des fins de diagnostic.
 
@@ -104,8 +106,8 @@ Les champs ErrorTime, ErrorReportSeq et ProgressReportSeq ne font pas nécessair
 <td><p><strong>Détails</strong></p></td>
 <td><p>image</p></td>
 <td></td>
-<td><p>Détails du rapport de progression, enregistrés au format binaire pour économiser de l’espace. Il est possible de convertir les données au format texte à l’aide de la syntaxe suivante:</p>
-<p>Cast (de type «detail») As varchar (max))</p></td>
+<td><p>Détails du rapport de progression, enregistrés au format binaire pour économiser de l’espace. Il est possible de convertir les données au format texte à l’aide de la syntaxe suivante :</p>
+<p>Cast (de type « detail ») As varchar (max))</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TelemetryId</strong></p></td>

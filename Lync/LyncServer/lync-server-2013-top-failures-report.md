@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport sur les principaux échecs'
+title: 'Lync Server 2013 : rapport sur les principaux échecs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Top Failures Report
 ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558640(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 094f5034951e20d48b05c8772698ae2983492509
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a62dce5d074b19c2bc8958715ced61bb54a4c8e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846503"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846503"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
 

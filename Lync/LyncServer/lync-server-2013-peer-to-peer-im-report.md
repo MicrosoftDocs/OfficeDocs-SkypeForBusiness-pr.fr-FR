@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de messagerie instantanée d’égal à égal'
+title: 'Lync Server 2013 : rapport de messagerie instantanée d’égal à égal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer IM Report
 ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44d25ec36788e6964ea81bde71e82f3746c5aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825351"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Le rapport de messagerie instantanée P2P fournit les tendances des sessions de messagerie instantanée P2P, par pool et par type d’authentification. Le rapport peut afficher le nombre total de sessions tenues pendant une période donnée (par exemple, jour par jour ou heure par heure) ou le nombre total de messages instantanés envoyés au cours de cette période.
 
@@ -41,7 +43,7 @@ Le rapport de messagerie instantanée P2P fournit les tendances des sessions de 
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Accès au rapport de messagerie instantanée P2P
 
-Vous pouvez accéder au rapport de messagerie instantanée d’égal à égal uniquement en ouvrant le [rapport de synthèse des activités d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) , puis en cliquant sur l’une des mesures suivantes:
+Vous pouvez accéder au rapport de messagerie instantanée d’égal à égal uniquement en ouvrant le [rapport de synthèse des activités d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) , puis en cliquant sur l’une des mesures suivantes :
 
   - Nombre total de sessions de messagerie instantanée P2P
 

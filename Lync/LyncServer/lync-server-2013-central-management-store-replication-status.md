@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : statut de réplication du magasin centr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Central management store replication status
 ms:assetid: f514f88d-986b-4e45-b79b-e04a7616c1fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720926(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ce46b403e27d0a2b69f705b5bada026882eec7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4212e8616916f6a2a256530a7a0b74c9811f166d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838664"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838664"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-26_
+_**Dernière modification de la rubrique :** 2015-01-26_
 
 Lorsqu’un administrateur apporte une modification d’une sorte à Lync Server (par exemple, lorsqu’un administrateur crée une nouvelle stratégie vocale ou change les paramètres de configuration du serveur du carnet d’adresses), cette modification est enregistrée dans le magasin central de gestion. À son tour, la modification doit alors être répliquée sur tous les ordinateurs qui exécutent des services ou rôles de serveur Lync Server.
 
@@ -43,7 +45,7 @@ L’applet de contrôle Get-CsManagementStoreReplicationStatus vous permet de v�
 
 Qui peut exécuter cette applet de commande ? Par défaut, les membres des groupes ci-dessous ont l’autorisation d’exécuter localement l’applet de commande Get-CsManagementStoreReplicationStatus : RTCUniversalUserAdmins, RTCUniversalServerAdmins.
 
-Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
+Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsManagementStoreReplicationStatus"}
 

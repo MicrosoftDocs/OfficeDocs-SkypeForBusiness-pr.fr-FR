@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server table
 ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398801(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363c07a6ab3be8f5acdf0286a4223f96a8bd3700
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822005"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822005"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 La table serveur est une table de prise en charge. Chaque enregistrement représente un serveur.
 
@@ -70,8 +72,8 @@ La table serveur est une table de prise en charge. Chaque enregistrement représ
 <td><p><strong>ServerType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Externes</p></td>
-<td><p>1: serveur de médiation</p>
-<p>2: service de conférence a/V Server16394: service32769 Edge A/V: passerelle</p></td>
+<td><p>1 : serveur de médiation</p>
+<p>2 : service de conférence a/V Server16394 : service32769 Edge A/V : passerelle</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>

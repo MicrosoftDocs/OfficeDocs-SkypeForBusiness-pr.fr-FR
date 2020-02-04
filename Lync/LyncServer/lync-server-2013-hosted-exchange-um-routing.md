@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Routage de la messagerie unifiée Exchange hébergée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831054"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831054"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 L’application de routage de messagerie unifiée Exchange s’exécute sur le serveur frontal pour acheminer les appels vers un déploiement local de messagerie unifiée (MU) sur site ou vers un service de messagerie UNIFIÉe Exchange hébergé.
 
@@ -45,7 +47,7 @@ L’application de routage de messagerie unifiée Exchange Server 2013 utilise l
 
 **Exemple de routage de MU Exchange de déploiement mixte**
 
-![Déploiement de la messagerie unifiée Exchange Server en local] (images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
+![Déploiement de la messagerie unifiée Exchange Server en local](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
 
 Le routage de MU Exchange peut être configuré pour diriger les appels vers les utilisateurs qui sont activés pour la messagerie unifiée Exchange locale, pour les utilisateurs qui sont activés pour la messagerie unifiée Exchange hébergée ou pour une combinaison des deux.
 
@@ -53,7 +55,7 @@ Par exemple, supposons que la boîte aux lettres de Roy et le service de message
 
   - Les informations d’adresse proxy du compte utilisateur de Roy fournissent les informations utilisées par l’application de routage ExUM pour diriger ses appels vers un serveur Exchange UM local.
 
-Les services de boîte aux lettres et de messagerie unifiée d’Alice sont situés dans le centre de données du fournisseur de services Exchange hébergé. Le routage des appels de messagerie unifiée Exchange est configuré comme suit:
+Les services de boîte aux lettres et de messagerie unifiée d’Alice sont situés dans le centre de données du fournisseur de services Exchange hébergé. Le routage des appels de messagerie unifiée Exchange est configuré comme suit :
 
   - Les valeurs définies dans l’attribut msExchUCVoiceMailSettings du compte d’utilisateur d’Alice indiquent à l’application de routage ExUM de vérifier les détails de routage dans une stratégie de messagerie vocale hébergée.
     
@@ -66,7 +68,7 @@ Les services de boîte aux lettres et de messagerie unifiée d’Alice sont situ
     
     </div>
 
-  - La stratégie de messagerie vocale hébergée qui est affectée au compte d’utilisateur d’Alice fournit des informations de routage:
+  - La stratégie de messagerie vocale hébergée qui est affectée au compte d’utilisateur d’Alice fournit des informations de routage :
     
       - La destination est le fournisseur de service de messagerie unifiée Exchange hébergé (LS. ExUm. \<hostedExchangeServer\>. com dans cet exemple).
     

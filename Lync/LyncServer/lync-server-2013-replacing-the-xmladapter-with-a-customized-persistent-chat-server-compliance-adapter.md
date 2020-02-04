@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: remplacement de XmlAdapter par un adaptateur de conformité personnalisé de serveur de conversation persistant'
+title: 'Lync Server 2013 : remplacement de XmlAdapter par un adaptateur de conformité personnalisé de serveur de conversation persistant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ680106(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d26e470438dc8a79dbaa3944c05ad4158cafe44
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9235c57a055131049251d17b75f73a4370cc5f2c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823139"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapter qui est installé avec le serveur de chat permanent. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Dans le dossier d’installation serveur Chat permanent de chaque serveur dans votre pool de serveurs chat permanent, vous devez l’installer. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
 

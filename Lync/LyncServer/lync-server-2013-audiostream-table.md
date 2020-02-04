@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table AudioStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStream table
 ms:assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9412001652f4f323bdd3fb5722d0d7222535fd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838902"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838902"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Chaque enregistrement représente un flux audio. Une ligne de médias audio contient généralement deux flux audio.
 
@@ -92,19 +94,19 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Taux moyen de perte de paquets lors de l’appel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Perte de paquets maximum observée pendant l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BurstDensity</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Densité moyenne de perte de paquets en rafales de pertes pendant l’appel.</p></td>
 </tr>
@@ -116,7 +118,7 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 </tr>
 <tr class="odd">
 <td><p><strong>BurstGapDensity</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Densité moyenne de perte de paquets lors de l’intervalle entre les pics de perte de paquets.</p></td>
 </tr>
@@ -230,19 +232,19 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 </tr>
 <tr class="even">
 <td><p><strong>RatioConcealedSamplesAvg</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>Taux moyen d’échantillons masqués générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RatioStretchedSamplesAvg</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>Taux moyen d’échantillons étirés générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioCompressedSamplesAvg</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>Taux moyen d’échantillons compressés générés par la correction audio sur des exemples classiques.</p></td>
 </tr>
@@ -263,7 +265,7 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 <td><p>bit</p></td>
 <td><p> </p></td>
 <td><p>1 signifie que le sens du flux provient de l’appelant vers l’appelant.</p>
-<p>0: le sens du flux provient de l’appelant.</p></td>
+<p>0 : le sens du flux provient de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalSD</strong></p></td>
@@ -381,42 +383,42 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Densité du Burst total unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Durée totale du Burst. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Densité de l’intervalle total à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Durée totale de l’intervalle. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: authentification utilisateur et client'
+title: 'Lync Server 2013 : authentification utilisateur et client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User and client authentication for Lync Server 2013
 ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 052c65bad805dff0d993cbf8533593c1f12915a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c9c91f1b8355c95ceb3deae5f07e5c95710d036
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846458"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-11_
+_**Dernière modification de la rubrique :** 2013-11-11_
 
 Un utilisateur approuvé est une personne dont les informations d’identification ont été authentifiées par un serveur approuvé dans Microsoft Lync Server 2013. Il s’agit généralement d’un serveur frontal Standard Edition Server Enterprise Edition ou Director. Lync Server 2013 repose sur les services de domaine Active Directory comme le référentiel principal unique de confiance des informations d’identification de l’utilisateur.
 
@@ -54,7 +56,7 @@ L’authentification consiste à fournir des informations d’identification d�
 
   - **Protocole Digest** pour utilisateurs anonymes. Les utilisateurs anonymes sont des utilisateurs externes qui ne disposent pas d’informations d’identification Active Directory reconnues mais qui ont été invités à une conférence sur site et qui possèdent une clé de conférence valide. L’authentification Digest n’est pas utilisée pour d’autres interactions clients.
 
-L’authentification Lync Server 2013 comporte deux phases:
+L’authentification Lync Server 2013 comporte deux phases :
 
 1.  Une association de sécurité est établie entre le client et le serveur.
 

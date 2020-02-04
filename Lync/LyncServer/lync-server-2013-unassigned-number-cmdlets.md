@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: applets de applet de numérotation non affectées'
+title: 'Lync Server 2013 : applets de applet de numérotation non affectées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Unassigned number cmdlets
 ms:assetid: 4956dddb-199b-47f4-813f-ef3c461aaf2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415649(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba277e3c7354ea87e6d4cfb9c2541152f3908d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f928958c976d2849d3ea8d6afd899315fe25e8da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846476"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846476"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-03-21_
+_**Dernière modification de la rubrique :** 2012-03-21_
 
 Les numéros non attribués sont les numéros de téléphone qui font partie d’une organisation, mais qui n’ont pas été attribués à un utilisateur ou à un téléphone. Les numéros non attribués peuvent être configurés pour lire divers types d’annonces lors de l’appel vers ces numéros.
 

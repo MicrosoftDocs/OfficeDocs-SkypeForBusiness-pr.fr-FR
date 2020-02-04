@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification des annonces'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for announcements
 ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e112429af7d3778755585e2bcb90bbe604170a85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825078"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-13_
+_**Dernière modification de la rubrique :** 2012-09-13_
 
 L’application annonce de Lync Server vous permet de configurer la gestion des appels téléphoniques entrants lorsque le numéro numéroté est valide pour votre organisation, mais qu’il n’est pas attribué à un utilisateur ou à un téléphone. Vous pouvez transférer ces appels vers une destination prédéterminée (numéro de téléphone, URI SIP ou messagerie vocale), lire une annonce audio, ou les deux. L’application d’annonce permet d’éviter les situations dans lesquelles un appelant compose un mauvais numéro et entend une tonalité de ligne occupée, ou lorsque le client SIP reçoit un message d’erreur. Cette section comprend des informations de planification spécifiques à l’application d’annonce.
 

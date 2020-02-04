@@ -3,6 +3,8 @@ title: Gestion de l’ordinateur, du site et de la configuration du service de j
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828158"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-04_
+_**Dernière modification de la rubrique :** 2014-02-04_
 
 Le service de journalisation centralisé peut être exécuté sur une étendue qui inclut un ordinateur unique, un pool d’ordinateurs, sur une étendue de site (c’est-à-dire un site défini tel que le site Redmond qui contient une collection d’ordinateurs et de pools dans votre déploiement), ou à une étendue globale (c’est-à-dire , tous les ordinateurs et pools de votre déploiement).
 
-Pour configurer l’étendue du service de journalisation centralisé à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell:
+Pour configurer l’étendue du service de journalisation centralisé à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -83,7 +85,7 @@ Les étendues de site et globales sont définies dans les applets de service de 
 
 ## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Pour récupérer la configuration actuelle du service de journalisation centralisée
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -93,7 +95,7 @@ Utilisez les applets de commande **New-CsClsConfiguration** et **Set-CsClsConfig
 
 Lorsque vous exécutez lʼapplet **Get-CsClsConfiguration**, les informations affichées sont identiques à la capture dʼécran suivante, quand le déploiement utilise la configuration globale par défaut, sans configuration de site :
 
-![Exemple de sortie de Get-CsClsConfiguration.] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")
+![Exemple de sortie de Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")
 
 </div>
 
@@ -101,7 +103,7 @@ Lorsque vous exécutez lʼapplet **Get-CsClsConfiguration**, les informations af
 
 ## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Pour récupérer la configuration actuelle du service de journalisation centralisée dans l’emplacement local de l’ordinateur
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -115,7 +117,7 @@ Lorsque vous utilisez le premier exemple où **Get-CsClsConfiguration** ne spéc
 
 ## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Pour récupérer une liste des scénarios actuellement définis
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -133,7 +135,7 @@ Lʼapplet de commande **Get-CsClsConfiguration** affiche systématiquement les s
 
 ## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour une étendue globale pour le service de journalisation centralisée à l’aide de Windows PowerShell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -151,7 +153,7 @@ La commande indique au CLSAgent de chaque ordinateur et pool du déploiement de 
 
 ## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Pour mettre à jour l’étendue d’un site du service de journalisation centralisé à l’aide de Windows PowerShell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -178,7 +180,7 @@ Cette commande indique au CLSAgent de chaque ordinateur et pool du site Redmond 
 
 ## <a name="to-create-a-new-centralized-logging-service-configuration"></a>Pour créer une configuration de service de journalisation centralisée
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
@@ -205,13 +207,13 @@ Vous devez planifier soigneusement la création de nouvelles configurations et l
 
 ## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Pour supprimer une configuration de service de journalisation centralisée existante
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit à l’invite de ligne de commande :
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    Par exemple, pour supprimer une configuration de service de journalisation centralisée que vous avez créée afin d’augmenter la durée de substitution du fichier journal, augmentez la taille du fichier journal de détournement et définissez l’emplacement du cache du fichier journal sur un partage réseau comme suit:
+    Par exemple, pour supprimer une configuration de service de journalisation centralisée que vous avez créée afin d’augmenter la durée de substitution du fichier journal, augmentez la taille du fichier journal de détournement et définissez l’emplacement du cache du fichier journal sur un partage réseau comme suit :
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
@@ -219,7 +221,7 @@ Vous devez planifier soigneusement la création de nouvelles configurations et l
     
 
     > [!NOTE]
-    > Il s’agit de la nouvelle configuration créée dans la procédure «pour créer une configuration de service de journalisation centralisée».
+    > Il s’agit de la nouvelle configuration créée dans la procédure « pour créer une configuration de service de journalisation centralisée ».
 
     
     </div>

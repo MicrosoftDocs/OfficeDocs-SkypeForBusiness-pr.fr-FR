@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Composants requis pour le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for the Director
 ms:assetid: 15c7c8d4-b93f-4386-b2d1-d76dab8f801e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398228(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c80002d0c91853be1523f6ce1bedfdccef72a68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838510"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Le seul composant requis pour créer et configurer un directeur consiste à déployer le rôle serveur directeur. Pour cela, vous devez utiliser le générateur de topologie et définir un pool d’ordinateurs unique ou un pool d’ordinateurs dans le nœud du pool de réalisateurs. Après avoir défini le directeur ou le pool de réalisateurs, exécutez l’Assistant Déploiement de Lync Server sur l’ordinateur qui sera directeur. Dans le cas d’un pool de directeurs, vous exécutez l’Assistant Déploiement de Lync Server sur chaque serveur qui sera membre du pool.
 
@@ -53,7 +55,7 @@ Vous pouvez implémenter un serveur Director ou un pool de réalisateurs. Le dir
 
 </div>
 
-Un pool de directeurs doit être équilibré. Vous pouvez effectuer l’une des opérations suivantes:
+Un pool de directeurs doit être équilibré. Vous pouvez effectuer l’une des opérations suivantes :
 
   - Créer une topologie qui utilise un équilibreur de charge matérielle pour les services Web et l’équilibrage de charge DNS (Domain Name System) pour les autres types de trafic.
     

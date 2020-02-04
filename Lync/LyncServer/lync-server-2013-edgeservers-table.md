@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table EdgeServers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: EdgeServers table
 ms:assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412833(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185081
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca947d710693590d6121242e79a6d29088432e0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 199aadf836547ff23277374c8bd4b338b3ef5a66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831328"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831328"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2010-11-06_
+_**Dernière modification de la rubrique :** 2010-11-06_
 
 La table EdgeServers est une table de prise en charge. Chaque enregistrement stocke les informations relatives à un serveur Edge impliqué dans les appels ayant des enregistrements dans la base de données.
 

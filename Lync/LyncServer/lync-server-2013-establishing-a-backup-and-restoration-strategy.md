@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création d’une stratégie de sauvegarde et de restauration'
+title: 'Lync Server 2013 : création d’une stratégie de sauvegarde et de restauration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831194"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-26_
+_**Dernière modification de la rubrique :** 2013-03-26_
 
-Pour pouvoir développer un plan de sauvegarde et de restauration pour Lync Server, vous devez développer une stratégie adaptée aux objectifs de votre organisation. Pour développer une stratégie efficace de sauvegarde et de restauration, vous devez:
+Pour pouvoir développer un plan de sauvegarde et de restauration pour Lync Server, vous devez développer une stratégie adaptée aux objectifs de votre organisation. Pour développer une stratégie efficace de sauvegarde et de restauration, vous devez :
 
   - Définissez les priorités de votre entreprise.
 
@@ -45,7 +47,7 @@ Pour pouvoir développer un plan de sauvegarde et de restauration pour Lync Serv
 
 ## <a name="establishing-business-priorities"></a>Établissement de priorités métiers
 
-Évaluez les priorités des entreprises de votre organisation. En règle générale, les priorités principales pour les entreprises qui affectent votre stratégie de sauvegarde et de restauration sont les suivantes:
+Évaluez les priorités des entreprises de votre organisation. En règle générale, les priorités principales pour les entreprises qui affectent votre stratégie de sauvegarde et de restauration sont les suivantes :
 
   - Exigences de continuité d’activité
 
@@ -65,17 +67,17 @@ Les besoins de votre entreprise, tels que ceux-ci, permettent de déterminer les
 
 ## <a name="identifying-backup-and-restoration-requirements"></a>Identification des exigences de sauvegarde et de restauration
 
-Les priorités de votre entreprise et les accords de niveau de service agissent pour déterminer les besoins de votre organisation pour la sauvegarde et la restauration de Lync Server. Identifiez et documentez vos exigences pour ce qui suit:
+Les priorités de votre entreprise et les accords de niveau de service agissent pour déterminer les besoins de votre organisation pour la sauvegarde et la restauration de Lync Server. Identifiez et documentez vos exigences pour ce qui suit :
 
   - **Fréquence des sauvegardes**   pour plus d’informations sur les meilleures pratiques en matière de fréquence de sauvegarde, voir [meilleures pratiques pour la sauvegarde et la restauration de Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **Les outils**   de sauvegarde et de restauration incluent qui consiste à utiliser les outils, et sur quels ordinateurs. Pour plus d’informations sur les outils mentionnés dans cette rubrique et les autorisations nécessaires, voir [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013: outils et autorisations](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - **Les outils**   de sauvegarde et de restauration incluent qui consiste à utiliser les outils, et sur quels ordinateurs. Pour plus d’informations sur les outils mentionnés dans cette rubrique et les autorisations nécessaires, voir [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
   - **Emplacement de sauvegarde**   : Déterminez si les sauvegardes sont conservées localement ou à distance, en tenant compte de la sécurité et de l’accessibilité. Spécifiez le média à utiliser pour les sauvegardes.
 
-  - **Configuration matérielle et logicielle requise**   identification et documentation de vos exigences matérielles et logicielles spécifiques, y compris le matériel pour le stockage de sauvegarde et la restauration de composants spécifiques et des logiciels et de la connectivité réseau requis pour Prenez en charge la sauvegarde et la restauration. Lorsque vous développez votre configuration matérielle et logicielle, n’oubliez pas les différents scénarios de restauration suivants.
+  - **Les configurations**   matérielles et logicielles permettent de recenser et de documenter votre configuration matérielle et logicielle requise, y compris le matériel de sauvegarde et de restauration de composants spécifiques et toute connectivité logicielle et réseau requise pour la prise en charge de la sauvegarde et de la restauration. Lorsque vous développez votre configuration matérielle et logicielle, n’oubliez pas les différents scénarios de restauration suivants.
 
-  - **Scénarios de restauration**   Voici les processus de restauration des scénarios suivants:
+  - **Scénarios de restauration**   Voici les processus de restauration des scénarios suivants :
     
       - Échec d’un pool de serveurs Lync. Ce scénario nécessite la reconstitution de chaque serveur dans le pool.
     

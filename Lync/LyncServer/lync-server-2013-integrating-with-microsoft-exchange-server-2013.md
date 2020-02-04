@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: intégration avec Microsoft Exchange Server 2013'
+title: 'Lync Server 2013 : intégration avec Microsoft Exchange Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ba140e4f7e33684a280a9d9c4b71f1d7e141a65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1467f6a570f83908eb5809f9493303bdc91c169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830972"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-07-09_
+_**Dernière modification de la rubrique :** 2014-07-09_
 
-Exchange et Lync Server présentent un historique d’intégration et de compatibilité longs. Cette intégration est plus notable dans l’application cliente correspondante. Par exemple, les informations de présence Lync peuvent être rapportées dans Microsoft Outlook. de même, Lync peut utiliser le calendrier Outlook pour mettre automatiquement à jour les informations de présence. (Par exemple, Lync peut définir votre statut sur occupé chaque fois que votre calendrier indique qu’une réunion est planifiée.) Même si vous n’avez pas besoin d’exécuter Exchange pour pouvoir exécuter Lync Server (ou inversement), il n’y a pas de doute que l’utilisation conjointe de deux produits a pour but epitomizes de définir le terme «meilleures».
+Exchange et Lync Server présentent un historique d’intégration et de compatibilité longs. Cette intégration est plus notable dans l’application cliente correspondante. Par exemple, les informations de présence Lync peuvent être rapportées dans Microsoft Outlook. de même, Lync peut utiliser le calendrier Outlook pour mettre automatiquement à jour les informations de présence. (Par exemple, Lync peut définir votre statut sur occupé chaque fois que votre calendrier indique qu’une réunion est planifiée.) Même si vous n’avez pas besoin d’exécuter Exchange pour pouvoir exécuter Lync Server (ou inversement), il n’y a pas de doute que l’utilisation conjointe de deux produits a pour but epitomizes de définir le terme « meilleures ».
 
-Ceci est particulièrement vrai avec la version de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013. Outre les fonctionnalités telles que la messagerie unifiée et la messagerie instantanée et la présence, qui se trouvent dans Microsoft Exchange Server 2010 et Microsoft Lync Server 2010, les publications 2013 des produits serveur incluent un certain nombre de nouvelles fonctionnalités. Ces fonctionnalités incluent les éléments suivants:
+Ceci est particulièrement vrai avec la version de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013. Outre les fonctionnalités telles que la messagerie unifiée et la messagerie instantanée et la présence, qui se trouvent dans Microsoft Exchange Server 2010 et Microsoft Lync Server 2010, les publications 2013 des produits serveur incluent un certain nombre de nouvelles fonctionnalités. Ces fonctionnalités incluent les éléments suivants :
 
   - **Intégration de l’archivage Lync**. Dans les administrateurs de Lync Server 2013, vous avez toujours la possibilité d’archiver les transcriptions de messagerie instantanée et de conférence Web sur SQL Server (de la même façon que ces transcriptions ont été archivées dans Lync Server 2010). En revanche, les administrateurs peuvent choisir d’archiver les transcriptions dans Exchange 2013, en stockant ces transcriptions dans les boîtes aux lettres individuelles de l’utilisateur de la même manière qu’Exchange Archive les communications. Il s’agit d’un référentiel unique pour toutes vos communications électroniques (Exchange et Lync Server), ce qui facilite la recherche et la récupération des communications archivées en cas de besoin.
 

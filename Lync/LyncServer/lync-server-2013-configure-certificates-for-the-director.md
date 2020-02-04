@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des certificats pour le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for the Director
 ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398296(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2da30923231087e706e2a969fdba2884361f6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fccab201ee9ab16b0195bc2780c37ab85f0519e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838415"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838415"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 <div>
 
@@ -53,7 +55,7 @@ Suivez la procédure ci-dessous pour configurer des certificats de réalisateur.
 
 ## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>Pour configurer des certificats pour le directeur ou le pool de réalisateurs
 
-1.  Dans l’Assistant Déploiement de Lync Server, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
+1.  Dans l’Assistant Déploiement de Lync Server, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
 
 2.  Dans la page **Assistant Certificat**, cliquez sur **Demander**.
 
@@ -86,7 +88,7 @@ Suivez la procédure ci-dessous pour configurer des certificats de réalisateur.
 
 12. Dans la page Configuration du protocole **SIP sur le nom de l’objet** , sélectionnez les **domaines SIP configurés** pour tous les domaines que le directeur doit gérer, puis cliquez sur **suivant**.
 
-13. Dans la page configurez d’autres **noms d’objet** , ajoutez d’autres noms d’objet requis, puis cliquez sur **suivant**.
+13. Dans la page **configurez** d’autres noms d’objet, ajoutez d’autres noms d’objet requis, puis cliquez sur **suivant**.
 
 14. Dans la page Résumé de la **demande de certificat** , cliquez sur **suivant**.
 
@@ -105,7 +107,7 @@ Suivez la procédure ci-dessous pour configurer des certificats de réalisateur.
     
     </div>
 
-18. Dans la page Résumé des affectations de **certificat** , cliquez sur **suivant**.
+18. Dans la page **Résumé des affectations de certificat** , cliquez sur **suivant**.
 
 19. Dans la page **exécution des commandes** , cliquez sur **Terminer** une fois l’exécution de la commande terminée.
 

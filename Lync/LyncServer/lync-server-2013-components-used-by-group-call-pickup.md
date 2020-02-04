@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: composants utilisés par le prélèvement d’appels de groupe'
+title: 'Lync Server 2013 : composants utilisés par le prélèvement d’appels de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Group Call Pickup
 ms:assetid: 45db2f23-d486-4b20-a8cf-7b48a1f9fd3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945625(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3583ee73c78a78317b1808bde395f76dcae85149
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838505"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838505"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
-La prise d’appel de groupe est déployée automatiquement lors du déploiement de l’application voix entreprise et de l’application de parc d’appels. Vous pouvez activer le prélèvement d’appels de groupe en configurant la table orbite du parc d’appels avec des plages de numéros distinctes désignés comme numéros de groupe de capture d’appel, puis en attribuant aux utilisateurs la possibilité d’appeler les groupes de capture et en permettant aux utilisateurs de procéder à un appel de groupe. Les composants Lync Server suivants prennent en charge la cueillette des appels de groupe:
+La prise d’appel de groupe est déployée automatiquement lors du déploiement de l’application voix entreprise et de l’application de parc d’appels. Vous pouvez activer le prélèvement d’appels de groupe en configurant la table orbite du parc d’appels avec des plages de numéros distinctes désignés comme numéros de groupe de capture d’appel, puis en attribuant aux utilisateurs la possibilité d’appeler les groupes de capture et en permettant aux utilisateurs de procéder à un appel de groupe. Les composants Lync Server suivants prennent en charge la cueillette des appels de groupe :
 
   - ****   Le service d’application de service d’application fournit une plateforme de déploiement, d’hébergement et de gestion d’applications de communications unifiées, telles que l’application de parc d’appels. Le service d’application est automatiquement installé sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server.
 

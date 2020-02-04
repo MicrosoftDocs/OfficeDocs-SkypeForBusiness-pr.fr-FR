@@ -3,6 +3,8 @@ title: Processus de déploiement pour l’intégration de la messagerie unifiée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7147a83bad1ed8b5cacc369d8d64e71fcaac32b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76a45210fa90e5d2493885e54f07bb922f6d0495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831479"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-17_
+_**Dernière modification de la rubrique :** 2012-12-17_
 
 Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 2013, vous devez effectuer les tâches décrites dans cette rubrique. Veillez également à consulter les meilleures pratiques en matière de planification et de déploiement décrites dans [recommandations en matière d’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md). Cette rubrique part du principe que vous avez déployé Lync Server 2013 avec un serveur de médiation colocalisé et que vous avez activé les utilisateurs pour Lync Server 2013, mais pas nécessairement que vous avez effectué toutes les étapes de déploiement et de configuration pour activer Enterprise Voice, comme décrit dans la rubrique [déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) dans la documentation de déploiement.
 
@@ -75,13 +77,13 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <li><p>Microsoft Exchange Server 2010 ou le dernier Service Pack</p></li>
 <li><p>Microsoft Exchange Server 2013</p></li>
 </ul></td>
-<td><p>Si vous utilisez Microsoft Exchange Server 2013, installez les rôles Exchange Server suivants dans la même forêt ou dans une autre forêt que Lync Server 2013:</p>
+<td><p>Si vous utilisez Microsoft Exchange Server 2013, installez les rôles Exchange Server suivants dans la même forêt ou dans une autre forêt que Lync Server 2013 :</p>
 <ul>
 <li><p>Accès client</p></li>
 <li><p>Boîte aux lettres</p></li>
 </ul>
 <p>Si Microsoft Exchange Server 2013 et la messagerie unifiée Exchange (UM) sont installés dans différentes forêts, configurez chaque forêt Exchange pour approuver la forêt Lync Server 2013.</p>
-<p>Si vous utilisez Exchange 2010, installez les rôles Exchange Server suivants au sein d’une même forêt ou d’une autre forêt que Lync Server 2013:</p>
+<p>Si vous utilisez Exchange 2010, installez les rôles Exchange Server suivants au sein d’une même forêt ou d’une autre forêt que Lync Server 2013 :</p>
 <ul>
 <li><p>Messagerie unifiée</p></li>
 <li><p>Transport Hub</p></li>
@@ -124,7 +126,7 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <td><p>Pour chiffrer le trafic vocal d’une entreprise, configurez les paramètres de sécurité sur le plan de numérotation SIP Exchange UM en protocole <strong>SIP sécurisé</strong> ou <strong>sécurisé</strong>. Cette étape est particulièrement importante si vous avez déployé ou envisagez de déployer des appareils Lync Phone Edition dans votre environnement. Pour que les appareils Lync Phone Edition fonctionnent dans un environnement avec l’intégration à la messagerie unifiée Exchange, les paramètres de chiffrement de Lync Server doivent être alignés avec les paramètres de sécurité du plan de numérotation de messagerie unifiée Exchange. Pour plus d’informations, reportez-vous à la documentation de déploiement.</p></td>
 <td><p>Administrateur d’organisation Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Configurer la messagerie unifiée sur Microsoft Exchange pour Lync Server 2013</a></p>
-<p>Pour Exchange 2007 SP1 ou le dernier Service Pack, voir également:</p>
+<p>Pour Exchange 2007 SP1 ou le dernier Service Pack, voir également :</p>
 <p>&quot;Comment configurer la sécurité sur un plan&quot; de numérotation de <a href="http://go.microsoft.com/fwlink/p/?linkid=268696">http://go.microsoft.com/fwlink/p/?LinkId=268696</a>messagerie unifiée à l’adresse.</p>
 <p>Pour Exchange 2010 ou le dernier Service Pack, reportez-vous également à :</p>
 <p>&quot;Configurer la sécurité VoIP sur un plan&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268697">http://go.microsoft.com/fwlink/p/?LinkId=268697</a>de numérotation de messagerie unifiée.</p>
@@ -150,7 +152,7 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 </tr>
 <tr class="odd">
 <td><p>Exécutez le script exchucutil.ps1.</p></td>
-<td><p>Sur le serveur exécutant les services de messagerie unifiée Exchange, ouvrez Exchange Management Shell et exécutez le script exchucutil. ps1, qui effectue les opérations suivantes:</p>
+<td><p>Sur le serveur exécutant les services de messagerie unifiée Exchange, ouvrez Exchange Management Shell et exécutez le script exchucutil. ps1, qui effectue les opérations suivantes :</p>
 <ul>
 <li><p>Octroie à Lync Server 2013 l’autorisation de lire les objets services de domaine Active Directory UM Exchange, notamment les plans de numérotation SIP créés dans la tâche précédente.</p></li>
 <li><p>Crée un objet passerelle IP de messagerie unifiée dans Active Directory pour chaque pool Lync Server 2013 Enterprise Edition ou Standard Edition Server qui héberge les utilisateurs qui sont activés pour Enterprise Voice.</p></li>
@@ -183,7 +185,7 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 </tr>
 <tr class="odd">
 <td><p>Exécutez l’outil d’intégration de la messagerie unifiée Exchange.</p></td>
-<td><p>Sur Lync Server 2013, exécutez <strong>ocsumutil. exe</strong>, qui:</p>
+<td><p>Sur Lync Server 2013, exécutez <strong>ocsumutil. exe</strong>, qui :</p>
 <ul>
 <li><p>crée des objets Contact Accès abonné et Standard automatique ;</p></li>
 <li><p>Vérifie qu’il existe un plan de numérotation vocale d’entreprise dont le nom correspond au nom de domaine complet du plan de numérotation de messagerie unifiée Exchange. Si vous exécutez Exchange 2010 SP1 ou une version ultérieure, les noms de plan de numérotation n’ont pas besoin d’être identiques et vous pouvez ignorer l’avertissement de l’outil à ce sujet.</p></li>
@@ -208,7 +210,7 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 </tr>
 <tr class="even">
 <td><p>Le cas échéant, effectuez d’autres étapes de configuration de voix entreprise.</p></td>
-<td><p>Si vous n’avez pas encore configuré les paramètres voix entreprise sur vos serveurs ou vos utilisateurs, effectuez une ou plusieurs des actions suivantes:</p>
+<td><p>Si vous n’avez pas encore configuré les paramètres voix entreprise sur vos serveurs ou vos utilisateurs, effectuez une ou plusieurs des actions suivantes :</p>
 <ul>
 <li><p>déployez et configurez</p>
 <p>les passerelles de réseau téléphonique commuté (RTC) et les serveurs de médiation ;</p></li>

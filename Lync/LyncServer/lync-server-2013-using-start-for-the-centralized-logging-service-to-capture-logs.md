@@ -3,6 +3,8 @@ title: Utiliser le service de connexion centralisé pour capturer les journaux
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5033b4a8dfd8121e2f0b5926623a55358188935e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75090036b7120c8af7cda132c26d5b4fb02d3dab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846369"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846369"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Pour capturer les journaux de suivi à l’aide du service de journalisation centralisé, vous devez exécuter une commande pour commencer à vous connecter sur un ou plusieurs ordinateurs et pools. Vous émettez également des paramètres qui définissent les ordinateurs ou les pools, scénarios d’exécution (par exemple, AlwaysOn, autre scénario prédéfinie ou scénario que vous avez créé), les composants serveur Lync (par exemple, S4, SipStack) à tracer.
 
@@ -57,9 +59,9 @@ Le service de journalisation centralisé fournit deux moyens d’émettre des co
 
 ## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Pour exécuter démarrer-CsClsLogging avec Windows PowerShell en utilisant les commandes de base
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Démarrez un scénario de journalisation avec le service de journalisation centralisée en entrant la commande suivante:
+2.  Démarrez un scénario de journalisation avec le service de journalisation centralisée en entrant la commande suivante :
     
         Start-CsClsLogging -Scenario <name of scenario>
     
@@ -87,7 +89,7 @@ Le service de journalisation centralisé fournit deux moyens d’émettre des co
     
     </div>
     
-    ![Exécution de Start-CsClsLogging.] (images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Exécution de Start-CsClsLogging.")
+    ![Exécution de Start-CsClsLogging.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Exécution de Start-CsClsLogging.")
 
 4.  Pour lancer un autre scénario, utilisez l’applet de commande **Start-CsClsLogging** associée au nom du scénario supplémentaire à exécuter (par exemple, le scénario **Authentification**) :
     
@@ -108,17 +110,17 @@ Le service de journalisation centralisé fournit deux moyens d’émettre des co
 
 ## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Pour exécuter Start-CsClsLogging avec Windows PowerShell à l’aide de commandes avancées
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Il existe d’autres paramètres pour gérer les commandes de journalisation. Vous pouvez utiliser –Duration pour définir la durée d’exécution d’un scénario. Vous pouvez également définir –Computers, une liste de noms complets d’ordinateurs séparés par une virgule ou –Pools, une liste de noms complets de pools séparés par une virgule sur lesquels vous souhaitez exécuter la journalisation.
     
-    Vous démarrez une session de journalisation pour le scénario *UserReplicator* sur le pool «pool01.contoso.net». Vous pouvez également définir la durée de la session de journalisation à 8 heures. Pour cela, tapez :
+    Vous démarrez une session de journalisation pour le scénario *UserReplicator* sur le pool « pool01.contoso.net ». Vous pouvez également définir la durée de la session de journalisation à 8 heures. Pour cela, tapez :
     
         Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
     
     L’exécution de ce scénario renvoie un résultat similaire à ce qui suit :
     
-    ![Exécution de Start-CsClsLogging.] (images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Exécution de Start-CsClsLogging.")
+    ![Exécution de Start-CsClsLogging.](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Exécution de Start-CsClsLogging.")
     
     Notez que dans cet exemple, les scénarios AlwaysOn et UserReplicator sont exécutés.
 

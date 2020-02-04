@@ -1,8 +1,10 @@
 ---
-title: 'Étape 1: planifier la migration à partir de Lync Server 2010'
+title: 'Étape 1 : planifier la migration à partir de Lync Server 2010'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Lync Server 2010'
 ms:assetid: 1461b343-05cd-44a3-b722-4c297708de31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 693fd46a313199bdc133abcbc3a8042a934122da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e413bef2271a7b01487536ed44f475eac60dd0c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846120"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846120"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>Étape 1: planifier la migration à partir de Lync Server 2010
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>Étape 1 : planifier la migration à partir de Lync Server 2010
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846120"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-29_
+_**Dernière modification de la rubrique :** 2012-09-29_
 
 Cette section décrit les rubriques de planification de la migration de Lync Server 2010 vers Lync Server 2013.
 

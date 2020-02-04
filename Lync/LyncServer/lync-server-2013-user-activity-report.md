@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport d’activité de l’utilisateur'
+title: 'Lync Server 2013 : rapport d’activité de l’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a7dd3dd1f2a061a327cc2a0bac79ee05f21d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583c647ac3cdab290f1833539abbbd033ea89410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846457"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846457"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-02-27_
+_**Dernière modification de la rubrique :** 2015-02-27_
 
 Le rapport d’activité de l’utilisateur fournit une liste détaillée des sessions P2P et des sessions de conférence exécutées par vos utilisateurs au cours d’une période donnée. Contrairement à la plupart des rapports de surveillance, le rapport d’activité de l’utilisateur lie chaque appel à des utilisateurs individuels. Par exemple, les sessions P2P spécifient les URI SIP de la personne à l’origine de l’appel (utilisateur d’origine) et celles de la personne qui a été appelée (utilisateur de destination). Si vous développez les informations sur une conférence, vous obtiendrez la liste de tous les participants à la conférence, ainsi que leur rôle à cette occasion.
 
@@ -71,7 +73,7 @@ Même si le rapport d’activité de l’utilisateur contient des informations u
 
 
 > [!WARNING]  
-> Techniquement, il est possible que certaines activités de l’utilisateur ne soient pas enregistrées: alors que Lync Server s’efforce de conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel ait été effectué sans que les informations relatives à cet appel soient écrites dans la base de données. Lync Server a été conçu pour donner un aspect très précis, mais pas nécessairement parfait pour l’utilisation de Lync Server 2013. (Le fait qu’il n’y a aucune garantie que 100% de tous les appels sont enregistrés explique pourquoi le contrôle de Lync Server ne doit pas être utilisé comme système de facturation.)<BR>Deuxièmement, un rapport de rapport de contrôle ne peut afficher que des enregistrements 1 000. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données.
+> Techniquement, il est possible que certaines activités de l’utilisateur ne soient pas enregistrées : alors que Lync Server s’efforce de conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel ait été effectué sans que les informations relatives à cet appel soient écrites dans la base de données. Lync Server a été conçu pour donner un aspect très précis, mais pas nécessairement parfait pour l’utilisation de Lync Server 2013. (Le fait qu’il n’y a aucune garantie que 100% de tous les appels sont enregistrés explique pourquoi le contrôle de Lync Server ne doit pas être utilisé comme système de facturation.)<BR>Deuxièmement, un rapport de rapport de contrôle ne peut afficher que des enregistrements 1 000. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données.
 
 
 
@@ -83,7 +85,7 @@ Même si le rapport d’activité de l’utilisateur contient des informations u
 
   - Les utilisateurs qui passent le plus grand nombre d’appels sont-ils aussi ceux qui participent le plus aux sessions de messagerie instantanée ?
 
-Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir du. Fichier CSV vers Windows PowerShell en utilisant une commande similaire à celle-ci:
+Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir du. Fichier CSV vers Windows PowerShell en utilisant une commande similaire à celle-ci :
 
     $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 
@@ -176,7 +178,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="even">
 <td><p><strong>Modalité</strong></p></td>
-<td><p>La modalité disponible varie selon le type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner mi. Transfert de fichier; Partage d’application; Téléphonique ou la vidéo comme modalité.</p>
+<td><p>La modalité disponible varie selon le type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner mi. Transfert de fichier ; Partage d’application ; Téléphonique ou la vidéo comme modalité.</p>
 <p>Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.</p></td>
 </tr>
 <tr class="odd">
@@ -188,7 +190,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <li><p>Échec attendu</p></li>
 <li><p>Échec inattendu</p></li>
 </ul>
-<p>Un &quot;échec&quot; attendu est un échec ATTENDU; par exemple, si un utilisateur a défini son statut sur ne pas déranger, vous attendiez qu’il n’y ait aucun appel. Un &quot;échec&quot; inattendu est une défaillance qui peut se produire dans un système de bon fonctionnement. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
+<p>Un &quot;échec&quot; attendu est un échec ATTENDU ; par exemple, si un utilisateur a défini son statut sur ne pas déranger, vous attendiez qu’il n’y ait aucun appel. Un &quot;échec&quot; inattendu est une défaillance qui peut se produire dans un système de bon fonctionnement. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Préfixe URI de l’utilisateur</strong></p></td>

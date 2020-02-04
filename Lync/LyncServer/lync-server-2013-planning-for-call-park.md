@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification du parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Call Park
 ms:assetid: e463c4ba-b7e4-42e5-98f0-0c8b842206dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0e7c6a1ae06ca484cb624ac647b9d491c00dd35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825029"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825029"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-07_
+_**Dernière modification de la rubrique :** 2012-09-07_
 
 L’application de parc d’appels serveur Lync permet aux utilisateurs de voix entreprise de mettre un appel en attente, puis de le récupérer ultérieurement sur n’importe quel téléphone. L’utilisateur qui a parqué l’appel peut composer le numéro en orbite fourni par le parc d’appels pour récupérer l’appel en stationnement ou utiliser un mécanisme externe, tel que la messagerie instantanée ou un système d’échange, pour demander à une autre personne de récupérer l’appel. Cette section comprend des informations de planification spécifiques au parc d’appels.
 

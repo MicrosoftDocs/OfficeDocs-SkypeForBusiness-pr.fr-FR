@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Architecture d’intégration de messagerie unifié
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM integration architecture
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2991bb35298534943d030b04c1cae7a438318c62
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49fbb815514d9a338412b638bdf373a285ebf6f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34831065"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-25_
+_**Dernière modification de la rubrique :** 2012-09-25_
 
 L’application de routage de ExUM Lync Server 2013 prend en charge l’intégration avec un déploiement de messagerie unifiée Exchange local (MU), avec la messagerie unifiée hébergée par un fournisseur de service ou avec une combinaison des deux. Le diagramme suivant présente les trois possibilités.
 
 **Intégration avec un déploiement Exchange UM local et deux fournisseurs Exchange hébergés**
 
-![Déploiement de la messagerie unifiée Exchange Server en local] (images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
+![Déploiement de la messagerie unifiée Exchange Server en local](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
 
-Les modes suivants sont pris en charge:
+Les modes suivants sont pris en charge :
 
-  - **Déploiement local:** Lync Server 2013 et la messagerie unifiée Exchange sont tous deux déployés sur des serveurs locaux au sein de votre entreprise.
+  - **Déploiement local :** Lync Server 2013 et la messagerie unifiée Exchange sont tous deux déployés sur des serveurs locaux au sein de votre entreprise.
 
-  - **Déploiement sur site:** Lync Server 2013 est déployé sur des serveurs locaux au sein de votre entreprise et la messagerie unifiée Exchange est hébergée dans une installation de prestataire de services en ligne, telle qu’un centre de données Microsoft Exchange Online.
+  - **Déploiement sur site :** Lync Server 2013 est déployé sur des serveurs locaux au sein de votre entreprise et la messagerie unifiée Exchange est hébergée dans une installation de prestataire de services en ligne, telle qu’un centre de données Microsoft Exchange Online.
 
-  - **Déploiement mixte:** Votre déploiement de Lync Server 2013 dispose de certaines boîtes aux lettres d’utilisateurs hébergées sur des serveurs Exchange locaux au sein de votre entreprise, et de certaines boîtes aux lettres dans un centre de données de service Exchange hébergé.
+  - **Déploiement mixte :** Votre déploiement de Lync Server 2013 dispose de certaines boîtes aux lettres d’utilisateurs hébergées sur des serveurs Exchange locaux au sein de votre entreprise, et de certaines boîtes aux lettres dans un centre de données de service Exchange hébergé.
     
     <div>
     
@@ -76,9 +78,9 @@ Pour intégrer Lync Server 2013 et la messagerie unifiée Exchange hébergée, v
 
 </div>
 
-Pour configurer l’espace d’adressage SIP partagé à des fins d’intégration à un fournisseur de service de messagerie unifiée Exchange, vous devez configurer votre serveur Edge comme suit:
+Pour configurer l’espace d’adressage SIP partagé à des fins d’intégration à un fournisseur de service de messagerie unifiée Exchange, vous devez configurer votre serveur Edge comme suit :
 
-1.  Configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CsAccessEdgeConfiguration** pour définir les paramètres suivants:
+1.  Configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CsAccessEdgeConfiguration** pour définir les paramètres suivants :
     
       - **UseDnsSrvRouting ** indique que les serveurs Edge doivent reposer sur les enregistrements DNS SRV lors de l’envoi et la réception des demandes de fédération.
     
@@ -88,7 +90,7 @@ Pour configurer l’espace d’adressage SIP partagé à des fins d’intégrati
 
 2.  Répliquez le magasin de gestion central sur le serveur Edge et vérifiez la réplication. Pour plus d’informations, reportez-vous [à exporter votre topologie Lync Server 2013 et à la copier sur média externe pour l’installation Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) dans la documentation de déploiement.
 
-3.  Configurez un *fournisseur d’hébergement* sur le serveur Edge en exécutant l’applet de commande **New-CsHostingProvider** pour définir les paramètres suivants:
+3.  Configurez un *fournisseur d’hébergement* sur le serveur Edge en exécutant l’applet de commande **New-CsHostingProvider** pour définir les paramètres suivants :
     
       - **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez, par exemple, la **messagerie unifiée Exchange hébergée**.
     

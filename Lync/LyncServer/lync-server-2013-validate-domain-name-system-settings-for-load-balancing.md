@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: valider les paramètres système de nom de domaine pour l’équilibrage de charge'
+title: 'Lync Server 2013 : valider les paramètres système de nom de domaine pour l’équilibrage de charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validate Domain Name System settings for load balancing
 ms:assetid: 92858e1c-91a5-4303-9bb4-b182e7f9c78b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d56219dc36859eb37a766a94f827fb0c28a9909
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0178d179a9684cf07450cdee839af1c8c1ebc22d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846346"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846346"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-02_
+_**Dernière modification de la rubrique :** 2014-05-02_
 
 Pour prendre en charge le FQDN utilisé par l’équilibrage de charge DNS, vous devez configurer le système DNS pour résoudre le nom de domaine complet (par exemple, pool01.contoso.com) pour les adresses IP de tous les serveurs du pool (par exemple, 192.168.1.1, 192.168.1.2, etc.). Vous ne devez inclure que les adresses IP des serveurs actuellement déployés.
 
-Par ailleurs, si vous utilisez l’équilibrage de charge DNS pour les pools Edge, les entrées DNS suivantes sont nécessaires:
+Par ailleurs, si vous utilisez l’équilibrage de charge DNS pour les pools Edge, les entrées DNS suivantes sont nécessaires :
 
   - Pour le service Edge d’accès de Lync Server, vous devez disposer d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet du service Edge d’accès de Lync Server (par exemple, sip.contoso.com) en adresse IP du service Edge d’accès de Lync Server sur l’un des serveurs Edge du pool.
 
@@ -47,7 +49,7 @@ Par ailleurs, si vous utilisez l’équilibrage de charge DNS pour les pools Edg
 
   - Si vous souhaitez utiliser l’équilibrage de charge DNS sur l’interface interne du pool de bords, vous devez ajouter un enregistrement DNS, qui résout le nom de domaine complet (FQDN) du pool Edge vers l’adresse IP de chaque serveur du pool.
 
-Pour vérifier que le DNS renvoie les valeurs correctes pour l’équilibrage de charge DNS, vous devez utiliser l’outil Nslookup. Pour renvoyer toutes les valeurs d’un enregistrement DNS avec nslookup, exécutez la commande suivante:
+Pour vérifier que le DNS renvoie les valeurs correctes pour l’équilibrage de charge DNS, vous devez utiliser l’outil Nslookup. Pour renvoyer toutes les valeurs d’un enregistrement DNS avec nslookup, exécutez la commande suivante :
 
 `nslookup <FQDN >`
 

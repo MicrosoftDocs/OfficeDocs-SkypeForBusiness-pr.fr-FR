@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de routage statique'
+title: 'Lync Server 2013 : cmdlets de routage statique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Static routing cmdlets
 ms:assetid: 71d5e0cd-8412-4383-818a-95b851a4da4b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416492(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca2171e66c9441dc2f2f0ff2a8475e03becefd1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846752"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846752"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 Les itinéraires statiques permettent aux administrateurs de prédéterminer les itinéraires réseau pris par les messages SIP. Lorsqu’un message est reçu par un serveur, le serveur vérifie l’adresse du message, puis transfère le message au serveur du tronçon suivant préconfiguré par un administrateur. S’il est configuré correctement, les itinéraires statiques permettent de garantir l’exactitude et la précision de la remise des messages, et le préentendement minimal placé sur les serveurs.
 

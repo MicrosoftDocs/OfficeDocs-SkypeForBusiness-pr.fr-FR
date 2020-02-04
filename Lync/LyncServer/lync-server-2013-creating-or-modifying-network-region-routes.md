@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification des itinéraires de la région réseau'
+title: 'Lync Server 2013 : création ou modification des itinéraires de la région réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying network region routes
 ms:assetid: 76993daa-76c2-4cec-8363-de8aebef0145
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f31daafe6cafbf74f9f12812f8259c24cfa7349
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d877de116cc2cf3e0c3354bb6e53d69c211cb482
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831758"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831758"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-08_
+_**Dernière modification de la rubrique :** 2012-10-08_
 
 Chaque région au sein d’une configuration de contrôle d’admission des appels (CAC) doit disposer d’un moyen d’accéder à toutes les autres régions. Lorsque les liaisons de zone définissent des limitations de bande passante pour les connexions entre les régions et représentent également les liens physiques, un itinéraire détermine le chemin d’accès lié que la connexion traverse d’une région à l’autre. Vous pouvez utiliser le panneau de configuration de Lync Server pour configurer les itinéraires de région réseau. Dans le panneau de configuration de Lync Server, vous pouvez créer, modifier ou supprimer un itinéraire de la région du réseau. Utilisez cette rubrique pour créer ou modifier un itinéraire de la région du réseau. Pour plus d’informations sur la suppression d’un itinéraire de région réseau existant, voir [Suppression d’itinéraires de région réseau existants dans Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).
 

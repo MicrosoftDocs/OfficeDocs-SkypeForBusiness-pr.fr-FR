@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé des ports - Pool directeur mis à l’échel
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled Director pool, hardware load balancer
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204983(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9a78225f7cf523d5f120f291498007fcdfa0cd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fdf054ee603f2c0917e35bdd2f19d108094c7c78
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824217"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824217"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 La configuration requise pour les ports de pare-feu pour un pool de directeurs est composée des ports utilisés pour établir une communication avec le directeur à partir de l’interface interne du serveur Edge ou de l’interface interne du proxy inverse. Microsoft Lync Server 2013 par défaut s’attend à ce que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts du proxy inverse au directeur, ainsi qu’au pool frontal et au serveur frontal. Par ailleurs, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge au directeur et au serveur principal et au pool frontal. Le protocole SIP utilise SIP/MTLS/TCP 5061 du serveur Edge au pool frontal et au serveur frontal. Une règle qui autorise la communication SIP/MTLS/TCP 5061 à partir du réalisateur, du pool frontal et du serveur frontal vers l’interface interne du serveur Edge doit également être créée.
 

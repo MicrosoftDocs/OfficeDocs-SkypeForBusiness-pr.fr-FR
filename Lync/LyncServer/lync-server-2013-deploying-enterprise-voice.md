@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: déploiement d’Enterprise Voice'
+title: 'Lync Server 2013 : déploiement d’Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae445d954bd1be7c956d76aa48da2ad7854c6a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf57d55899d556ddfde633c975ae9f0516e48e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831561"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Lync Server 2013, voix entreprise fait partie de l’infrastructure de serveur 2013 de Lync Server.
 
-Le déploiement de voix entreprise nécessite les éléments suivants:
+Le déploiement de voix entreprise nécessite les éléments suivants :
 
 <div id="sectionSection0" class="section">
 
@@ -68,7 +70,7 @@ Par ailleurs, vous devez déjà avoir déployé Lync Server Enterprise Edition d
 
 Pour afficher des topologies de référence à l’aide d’exemples de déploiement des rôles de serveur voix entreprise (et leur relation entre un autre et les rôles serveur Lync Server 2013), voir [topologies de référence dans Lync server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification.
 
-Pour afficher une topologie de référence illustrant et expliquant un exemple de déploiement de contrôle d’admission d’appel, notamment les régions réseau, les sites réseau et les sous-réseaux, voir [exemple: rassemblement de vos exigences de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) Documentation de planification.
+Pour afficher une topologie de référence illustrant et expliquant un exemple de déploiement de contrôle d’admission des appels, notamment les régions réseau, les sites réseau et les sous-réseaux, voir [exemple : rassemblement de vos exigences en matière de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) dans la documentation de planification.
 
 </div>
 
@@ -88,11 +90,11 @@ Pour afficher une topologie de référence illustrant et expliquant un exemple d
 
 Cette section comprend des procédures pour les déploiements dans lesquels un serveur de médiation est colocalisé sur chaque serveur frontal ou serveur Standard Edition, comme recommandé, ainsi que pour les déploiements avec un pool de serveurs de médiation autonome.
 
-Vous pouvez ignorer le contenu suivant si vous avez utilisé le générateur de topologie pour définir et publier une topologie qui collocates un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition, car l’Assistant déploiement a déjà installé automatiquement les fichiers pour Serveur de médiation lors de l’installation de fichiers pour votre pool de serveurs principal ou votre serveur Standard Edition:
+Vous pouvez ignorer le contenu suivant si vous avez utilisé le générateur de topologie pour définir et publier une topologie qui collocates un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition, car l’Assistant déploiement a déjà installé automatiquement les fichiers pour Serveur de médiation lors de l’installation de fichiers pour votre pool de serveurs principal ou votre serveur Standard Edition :
 
   - [Configuration des jonctions dans Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-Si vous avez utilisé le générateur de topologie pour définir et publier un serveur de médiation dans un pool autonome, vous pouvez utiliser le contenu suivant:
+Si vous avez utilisé le générateur de topologie pour définir et publier un serveur de médiation dans un pool autonome, vous pouvez utiliser le contenu suivant :
 
   - Vérifiez que votre topologie répond aux conditions préalables relatives aux logiciels et aux environnements, comme décrit dans la section [conditions vocales d’entreprise pour Lync Server 2013](lync-server-2013-enterprise-voice-prerequisites.md).
 

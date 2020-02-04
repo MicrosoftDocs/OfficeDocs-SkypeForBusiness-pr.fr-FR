@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport sur la liste d’appels'
+title: 'Lync Server 2013 : rapport sur la liste d’appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call List Report
 ms:assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faf330a776f64534c02833a0472cfefea7f0998e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce2954f848d448676aea2931cda4dffa8ddc0c5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838706"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838706"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-Le rapport Liste des appels fournit des métriques de Qualité de l’expérience pour chaque appel émis et reçu dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport Liste des appels. Par exemple, si vous ouvrez le rapport à partir du [rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md), vous verrez des indicateurs tels que les métriques suivantes qui sont également signalées sur le rapport sur les appareils:
+Le rapport Liste des appels fournit des métriques de Qualité de l’expérience pour chaque appel émis et reçu dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport Liste des appels. Par exemple, si vous ouvrez le rapport à partir du [rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md), vous verrez des indicateurs tels que les métriques suivantes qui sont également signalées sur le rapport sur les appareils :
 
   - Microphone de l’appelant
 
@@ -47,7 +49,7 @@ Le rapport Liste des appels fournit des métriques de Qualité de l’expérienc
 
   - Ratio de la durée du basculement vocal
 
-Toutefois, si vous ouvrez le rapport liste d’appels [dans le rapport d’emplacements dans Lync Server 2013](lync-server-2013-location-report.md), vous ne verrez pas l’un de ces indicateurs. à la place, vous verrez des métriques comme celles-ci:
+Toutefois, si vous ouvrez le rapport liste d’appels [dans le rapport d’emplacements dans Lync Server 2013](lync-server-2013-location-report.md), vous ne verrez pas l’un de ces indicateurs. à la place, vous verrez des métriques comme celles-ci :
 
   - Boucle (ms)
 

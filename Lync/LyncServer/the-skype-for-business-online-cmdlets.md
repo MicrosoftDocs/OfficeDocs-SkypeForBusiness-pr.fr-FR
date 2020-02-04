@@ -3,6 +3,8 @@ title: Applets de commande de Lync Online
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: The Skype for Business Online cmdlets
 ms:assetid: 71f38305-fd8b-4013-83e1-cb742e3174c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1994843eb2059045525c61c5821051add2d30b47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c0d56a85fda6cb4f46991700b6fa428acb1c823
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846035"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846035"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-05_
+_**Dernière modification de la rubrique :** 2013-07-05_
 
-Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de connexion Skype entreprise Online est copiée en mémoire sur votre ordinateur. Ces applets de construction, en plus de toutes les autres applets de connexion que vous avez déjà installées sur votre ordinateur local (y compris les applets de service installés lors de l’installation de Windows PowerShell), sont alors disponibles pour gérer votre déploiement de Skype entreprise Online et de Skype pour Comptes d’utilisateurs Business Online. Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes:
+Lorsque vous vous connectez à Skype entreprise Online à l’aide de Windows PowerShell, une collection d’applets de connexion Skype entreprise Online est copiée en mémoire sur votre ordinateur. Ces applets de construction, en plus de toutes les autres applets de connexion que vous avez déjà installées sur votre ordinateur local (y compris les applets de service installés lors de l’installation de Windows PowerShell), sont alors disponibles pour gérer votre déploiement de Skype entreprise Online et de Skype pour Comptes d’utilisateurs Business Online. Les applets de commande Skype entreprise Online sont présentées dans les rubriques suivantes :
 
   - [Gestion des clients Lync Online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

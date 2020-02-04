@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Restauration d’un serveur de conversation permanent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back Persistent Chat Server
 ms:assetid: 67b91de4-6ddc-43e6-9812-5e1aa84a7980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d79c25d153de81906fcaf9355a543d31cb8fe0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831182"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
 Cette procédure décrit les étapes nécessaires à la récupération d’une défaillance du serveur de chat permanent et à la restauration d’opérations à partir du centre de données principal.
 
@@ -130,7 +132,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     
     </div>
 
-Lorsque le pool est restauré à son état normal, exécutez la commande Windows PowerShell suivante:
+Lorsque le pool est restauré à son état normal, exécutez la commande Windows PowerShell suivante :
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 

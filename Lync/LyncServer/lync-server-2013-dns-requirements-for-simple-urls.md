@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Enregistrements DNS requis pour les URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for simple URLs
 ms:assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adcf537db908fcc0b69e95bec99b73a0e57e9ab4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831378"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831378"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Lync Server 2013 prend en charge des URL simples qui simplifient la participation à des réunions pour vos utilisateurs et permettent d’accéder plus facilement aux outils d’administration de Lync Server. Pour plus d’informations sur les URL simples, voir [planification d’URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
-Lync Server prend en charge les trois URL simples suivantes: réunion, accès et administration. Vous devez configurer des URL simples pour la réunion et le rendez-vous, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) nécessaires à la prise en charge d’URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la reprise après sinistre pour des URL simples.
+Lync Server prend en charge les trois URL simples suivantes : réunion, accès et administration. Vous devez configurer des URL simples pour la réunion et le rendez-vous, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) nécessaires à la prise en charge d’URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la reprise après sinistre pour des URL simples.
 
 <div>
 
@@ -83,7 +85,7 @@ Dans l’option 1, vous créez une nouvelle URL de base pour chaque URL simple.
 </table>
 
 
-Si vous utilisez l’option 1, vous devez définir les éléments suivants:
+Si vous utilisez l’option 1, vous devez définir les éléments suivants :
 
   - Pour chaque URL de la réunion, vous avez besoin d’un enregistrement DNS A qui résout l’URL en adresse IP du directeur, si vous en avez déployé une. Dans le cas contraire, elle doit résoudre vers l’adresse IP de l’équilibrage de charge d’un pool frontal. Si vous n’avez pas déployé de pool et que vous utilisez un déploiement Standard Edition Server, l’enregistrement DNS A doit résoudre vers l’adresse IP d’un serveur Standard Edition au sein de votre organisation.
     
@@ -198,7 +200,7 @@ Ensuite, créez des enregistrements CNAMe qui résolvent votre URL de réunion s
 
 
 > [!NOTE]  
-> Si votre réseau utilise <EM>Hairpinning</EM> (le routage de tout le trafic d’URL simple par le biais du lien externe, y compris le trafic qui provient de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et résoudre votre URL de réunion simple en Cette adresse externe.
+> Si votre réseau utilise <EM>Hairpinning</EM> (le routage de tout le trafic d’URL par le biais du lien externe, y compris le trafic qui provient de votre organisation), vous pouvez simplement configurer l’adresse GeoDNS externe et résoudre votre URL de la réunion pour qu’elle utilise uniquement cette adresse externe.
 
 
 

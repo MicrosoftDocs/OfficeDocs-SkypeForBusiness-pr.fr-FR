@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création de la stratégie de routage VoIP pour les u
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the VoIP routing policy for branch users
 ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398196(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f53e69069bc1f39f84c057f1e90882d5ae0d65d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d1cc8f0a6c4d960b4dacf6f62f283d806a6dd6f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831763"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831763"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-23_
+_**Dernière modification de la rubrique :** 2012-09-23_
 
 Nous vous recommandons de créer une stratégie VoIP (Voice over IP) distincte pour les utilisateurs des sites de succursales. Cette stratégie doit contenir des itinéraires vers la sortie à partir de la passerelle de l’appareil de branchement survivant ou de la passerelle externe du serveur de succursales survivant et des itinéraires de sauvegarde vers la sortie à partir d’une passerelle sur le site central. Quel que soit l’endroit où l’utilisateur est inscrit, soit dans le Bureau d’enregistrement sur l’appareil de succursale survivant ou sur le serveur de succursales survivant, soit dans le groupe d’inscriptions de secours sur le site central, la stratégie VoIP de l’utilisateur est toujours en vigueur.
 

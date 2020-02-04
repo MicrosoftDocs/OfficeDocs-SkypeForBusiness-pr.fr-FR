@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: résolution des problèmes de cmdlet voix entreprise'
+title: 'Lync Server 2013 : résolution des problèmes de cmdlet voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting Enterprise Voice cmdlets
 ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b569270a92808e03648042f84dbd491c80e61cf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846486"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846486"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 La configuration d’Enterprise Voice dans le cadre de l’implémentation de Microsoft Lync Server 2013 implique la création de routages, de stratégies et de règles qui doivent collaborer pour garantir que les appels entrants et sortants s’exécutent correctement. Lync Server Management Shell inclut des applets de contrôle qui peuvent être utilisées pour tester des connexions et des chemins d’accès et pour résoudre les problèmes qui peuvent survenir lors de l’implémentation.
 

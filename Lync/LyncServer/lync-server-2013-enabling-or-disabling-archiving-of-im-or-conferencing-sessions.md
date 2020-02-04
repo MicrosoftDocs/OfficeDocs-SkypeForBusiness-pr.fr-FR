@@ -3,6 +3,8 @@ title: Activation ou désactivation de l’archivage des sessions de messagerie 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling Archiving of IM or conferencing sessions
 ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182567(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65712cf15ae73ec7cdb49dc7652348085a4c93d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: be9782bfa73f30fbefaec0a51d91024b3c40ba55
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831252"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831252"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
-Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver l’archivage des messages instantanés ou des sessions de conférence. Cela inclut les configurations d’archivage suivantes:
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver l’archivage des messages instantanés ou des sessions de conférence. Cela inclut les configurations d’archivage suivantes :
 
   - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
 
-Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de configuration de Lync Server Management Shell'
+title: 'Lync Server 2013 : cmdlets de configuration de Lync Server Management Shell'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server Management Shell configuration cmdlets
 ms:assetid: fffc154b-24ef-457d-9b70-2b7b700f503a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415684(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58c673fe474e4f278f8f6b9106b90bdb66165c57
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830918"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-03-21_
+_**Dernière modification de la rubrique :** 2012-03-21_
 
 Lync Server Management Shell est une implémentation de la fenêtre de commande Windows PowerShell avec des applets de commande spécifiques à la gestion de Microsoft Lync Server 2010 pré-chargées dans l’environnement. Ces cmdlets vous permettent de personnaliser cet environnement.
 

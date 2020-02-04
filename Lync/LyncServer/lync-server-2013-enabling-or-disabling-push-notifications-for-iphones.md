@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation ou désactivation des notifications de transmission pour les iPhone'
+title: 'Lync Server 2013 : activation ou désactivation des notifications de transmission pour les iPhone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling push notifications for iPhones
 ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ccd4e4c65c539f5a6af36d1012c32059b3e291a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a73d0f32da5063f98da662e85ec531de6801a428
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831240"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les notifications de transmission sous forme de badges, d’icônes ou d’alertes peuvent être envoyées à un iPhone même lorsque l’application mobile n’est pas active. Les notifications de transmission avertissent un utilisateur d’événements tels qu’une invitation à la messagerie instantanée, une invitation à une nouvelle ou une messagerie vocale. Vous pouvez activer ou désactiver les notifications de transmission pour iPhone à l’aide de Lync Server 2013 Control Panel ou de Lync Server 2013 Management Shell.
 
@@ -45,11 +47,11 @@ Les notifications de transmission sous forme de badges, d’icônes ou d’alert
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de notifications de **transmission** .
+3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation **configuration de notifications de transmission** .
 
-4.  Dans la page Configuration de notifications de **transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur **afficher les détails**.
+4.  Dans la page **configuration de notifications de transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur Afficher les **Détails**.
 
-5.  Activez la case à cocher Activer les notifications de **type Apple** .
+5.  Activez la case à cocher **activer les notifications de type Apple** .
 
 6.  Cliquez sur **Valider**.
 
@@ -63,11 +65,11 @@ Les notifications de transmission sous forme de badges, d’icônes ou d’alert
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de notifications de **transmission** .
+3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation **configuration de notifications de transmission** .
 
-4.  Dans la page Configuration de notifications de **transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur **afficher les détails**.
+4.  Dans la page **configuration de notifications de transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur Afficher les **Détails**.
 
-5.  Décochez la case Activer les notifications de **type Apple** .
+5.  Décochez la case **activer les notifications de type Apple** .
 
 6.  Cliquez sur **Valider**.
 
@@ -77,7 +79,7 @@ Les notifications de transmission sous forme de badges, d’icônes ou d’alert
 
 ## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation des notifications de transmission pour iPhone à l’aide d’applets de cmdlet Windows PowerShell
 
-Les notifications de transmission vers Apple iPhone peuvent être activées ou désactivées à l’aide de l’applet de cmdlet **Set-CsPushNotificationConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Les notifications de transmission vers Apple iPhone peuvent être activées ou désactivées à l’aide de l’applet de cmdlet **Set-CsPushNotificationConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

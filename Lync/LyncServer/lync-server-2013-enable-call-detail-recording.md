@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activer l’enregistrement des détails des appels'
+title: 'Lync Server 2013 : activer l’enregistrement des détails des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable call detail recording
 ms:assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520980(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b12359e331e9abd2767285a5ef8c32d56433731e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2b033827600fc962ab5ea9df5c8848ed1533c75e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831324"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831324"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 La fonctionnalité d’enregistrement des détails des appels recense des informations d’utilisation et de diagnostic sur les activités d’égal à égal, telles que la messagerie instantanée, les appels VoIP (Voice over Internet Protocol), le partage d’application, le transfert de fichiers et les réunions. Vous pouvez utiliser les données d’utilisation pour calculer le retour sur investissement (ROI) et les données de diagnostic pour résoudre les problèmes liés aux activités d’égal à égal et aux réunions.
 
@@ -76,7 +78,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Activation de CDR à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **de passe Set-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **de passe Set-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

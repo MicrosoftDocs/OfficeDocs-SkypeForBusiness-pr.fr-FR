@@ -1,8 +1,10 @@
 ---
-title: 'Serveur Lync Server 2013: Résumé DNS-découverte automatique'
+title: 'Serveur Lync Server 2013 : Résumé DNS-découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Autodiscover
 ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64e303ebecc42f03197f6502296c8a2708e97ebf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831360"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-13_
+_**Dernière modification de la rubrique :** 2013-02-13_
 
 La découverte automatique est un service flexible qui accepte les communications via HTTP ou HTTPs. Pour ce faire, le système de noms de domaine (DNS) et les certificats utilisés par les serveurs qui hébergent le service de découverte automatique doivent être correctement configurés. Les exigences en matière de certificats sont décrites dans [synthèse des certificats-découverte automatique dans Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md).
 
@@ -77,7 +79,7 @@ La découverte automatique est un service flexible qui accepte les communication
 </table>
 
 
-Vous devez créer un des enregistrements DNS externes suivants:
+Vous devez créer un des enregistrements DNS externes suivants :
 
 ### <a name="external-dns-records"></a>Enregistrements DNS externes
 
@@ -123,7 +125,7 @@ Vous devez créer un des enregistrements DNS externes suivants:
 
 
 > [!NOTE]  
-> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) provenant de différents domaines. Par conséquent, la redirection CNAMe vers différents domaines n’est pas prise en charge sur HTTPs. Par exemple, un enregistrement CNAMe DNS pour lyncdiscover.contoso.com qui redirige vers une adresse de director.contoso.net n’est pas pris en charge sur HTTPs. Dans le cas d’une telle topologie, un client d’appareil mobile doit utiliser HTTP pour la première demande, de sorte que la redirection CNAMe soit résolue via HTTP. Les requêtes suivantes utilisent alors HTTPs. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication Web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à la section «pour créer une règle de publication Web pour le port 80» dans <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configuration du proxy inverse pour la mobilité dans Lync Server 2013</A>. La redirection CNAMe vers le même domaine est prise en charge sur HTTPs. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
+> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) provenant de différents domaines. Par conséquent, la redirection CNAMe vers différents domaines n’est pas prise en charge sur HTTPs. Par exemple, un enregistrement CNAMe DNS pour lyncdiscover.contoso.com qui redirige vers une adresse de director.contoso.net n’est pas pris en charge sur HTTPs. Dans le cas d’une telle topologie, un client d’appareil mobile doit utiliser HTTP pour la première demande, de sorte que la redirection CNAMe soit résolue via HTTP. Les requêtes suivantes utilisent alors HTTPs. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication Web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à la section « pour créer une règle de publication Web pour le port 80 » dans <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configuration du proxy inverse pour la mobilité dans Lync Server 2013</A>. La redirection CNAMe vers le même domaine est prise en charge sur HTTPs. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
 
 
 

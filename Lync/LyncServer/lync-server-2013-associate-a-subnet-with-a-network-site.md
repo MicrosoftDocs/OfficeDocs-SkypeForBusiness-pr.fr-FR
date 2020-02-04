@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Association d’un sous-réseau à un site réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associate a subnet with a network site
 ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec5a896af6312fecf53259ac10e72f99598d4a7e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f54ba8be2be6ae042633e519c5d7d27bde834162
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838915"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Chaque sous-réseau de votre réseau doit être associé à un site réseau spécifique, car les informations de sous-réseau servent à définir le site réseau sur lequel figure un point de terminaison lorsqu’une nouvelle session est initiée. Lorsque l’emplacement de chaque partie d’une session est connu, les fonctionnalités avancées de voix entreprise peuvent appliquer ces informations pour déterminer le mode de gestion de l’appel ou du routage.
 
@@ -51,7 +53,7 @@ Chaque sous-réseau de votre réseau doit être associé à un site réseau spé
 
 
 > [!NOTE]  
-> Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de huit heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source:</STRONG> Service de stratégie de bande passante CS (noyau)<BR><STRONG>Numéro de l’événement:</STRONG> 36034<BR><STRONG>Niveau:</STRONG> 2<BR><STRONG>Description:</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: une liste d'&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause:</STRONG> Les sous-réseaux pour les adresses IP correspondantes n’apparaissent pas dans les paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution:</STRONG> Ajoutez des sous-réseaux correspondant à la liste d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
+> Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de huit heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (noyau)<BR><STRONG>Numéro de l’événement :</STRONG> 36034<BR><STRONG>Niveau :</STRONG> 2<BR><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: une liste d'&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes n’apparaissent pas dans les paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
 > <OL>
 > <LI>
 > <P>Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</P>
@@ -62,7 +64,7 @@ Chaque sous-réseau de votre réseau doit être associé à un site réseau spé
 
 </div>
 
-Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)
 
@@ -76,7 +78,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
 
 
 > [!TIP]  
-> Si vous travaillez avec un grand nombre de sous-réseaux, nous vous recommandons d’utiliser un fichier de valeurs séparées par des virgules (CSV) pour associer les sous-réseaux aux sites. Le fichier CSV doit contenir les quatre colonnes suivantes: <STRONG>IPAddress</STRONG>, <STRONG>Mask</STRONG>, <STRONG>Description</STRONG>, <STRONG>NetworkSiteID</STRONG>.
+> Si vous travaillez avec un grand nombre de sous-réseaux, nous vous recommandons d’utiliser un fichier de valeurs séparées par des virgules (CSV) pour associer les sous-réseaux aux sites. Le fichier CSV doit contenir les quatre colonnes suivantes : <STRONG>IPAddress</STRONG>, <STRONG>Mask</STRONG>, <STRONG>Description</STRONG>, <STRONG>NetworkSiteID</STRONG>.
 
 
 
@@ -86,7 +88,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
 
 ## <a name="to-associate-a-subnet-with-a-network-site-by-using-management-shell"></a>Pour associer un sous-réseau à un site réseau à l’aide de Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande **New-CsNetworkSubnet** pour associer un sous-réseau à un site réseau :
     
@@ -118,9 +120,9 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
     
     `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Exécutez l’applet de commande suivante pour importer **subnet. csv**, puis stockez son contenu dans le magasin de gestion du serveur Lync:
+3.  Exécutez l’applet de commande suivante pour importer **subnet. csv**, puis stockez son contenu dans le magasin de gestion du serveur Lync :
     
         import-csv subnet.csv | foreach {New-CSNCSSubnet  _.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
 

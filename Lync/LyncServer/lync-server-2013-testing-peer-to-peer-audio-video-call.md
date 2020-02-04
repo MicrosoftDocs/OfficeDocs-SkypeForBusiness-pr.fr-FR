@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test des appels audio et vidéo d’égal à égal'
+title: 'Lync Server 2013 : test des appels audio et vidéo d’égal à égal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846529"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846529"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-05_
+_**Dernière modification de la rubrique :** 2014-06-05_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsP2PAV. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsP2PAV. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -80,7 +82,7 @@ L’applet de contrôle test-CsP2PAV peut être exécutée à l’aide d’une p
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Pour exécuter cette vérification à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Lync Server (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsP2PAV:
+Pour exécuter cette vérification à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Lync Server (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsP2PAV :
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,29 +94,29 @@ Pour exécuter cette vérification à l’aide de comptes d’utilisateurs réel
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si les deux utilisateurs de test peuvent effectuer un appel A/V d’égal à égal, vous recevrez une sortie semblable à ce qui suit avec la propriété Result marquée comme **réussie:**
+Si les deux utilisateurs de test peuvent effectuer un appel A/V d’égal à égal, vous recevrez une sortie semblable à ce qui suit avec la propriété Result marquée comme **réussie :**
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:06.8630376
+Latence : 00:00:06.8630376
 
 Error
 
 Diagnostic
 
-Si les utilisateurs ne parviennent pas à effectuer l’appel, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
+Si les utilisateurs ne parviennent pas à effectuer l’appel, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Erreur: 480, temporairement indisponible
+Erreur : 480, temporairement indisponible
 
-Diagnostic: codeerreur = 15030, source = ATL-CS-001. litwareinc. com; raison = échec
+Diagnostic : codeerreur = 15030, source = ATL-CS-001. litwareinc. com ; raison = échec
 
 pour acheminer vers Exchange Server
 
@@ -122,27 +124,27 @@ Microsoft. RTC. signalisation. DiagnosticHeader
 
 Par exemple, la sortie précédente indique que le test a échoué, car le serveur Microsoft Exchange n’a pas pu être contacté. Ce message d’erreur indique généralement un problème de configuration de la messagerie unifiée Exchange.
 
-Si test-CsP2PAV échoue alors, vous souhaiterez peut-être réexécuter le test, cette fois-ci, y compris le paramètre Verbose:
+Si test-CsP2PAV échoue alors, vous souhaiterez peut-être réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
 
-Test-CsP2PAV-TargetFqdn «atl-cs-001.litwareinc.com»-détails
+Test-CsP2PAV-TargetFqdn « atl-cs-001.litwareinc.com »-détails
 
-Lorsque le paramètre Verbose est inclus, test-CsP2PAV renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la capacité de l’utilisateur à se connecter à Lync Server. Par exemple, supposons que votre test ait échoué avec le diagnostic suivant:
+Lorsque le paramètre Verbose est inclus, test-CsP2PAV renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la capacité de l’utilisateur à se connecter à Lync Server. Par exemple, supposons que votre test ait échoué avec le diagnostic suivant :
 
-Codeerreur = 6003, source = ATL-CS-001. litwareinc. com; raison = non prise en charge d’une demande de boîte de dialogue
+Codeerreur = 6003, source = ATL-CS-001. litwareinc. com ; raison = non prise en charge d’une demande de boîte de dialogue
 
-Si vous exécutez de nouveau test-CsP2PAV et incluez le paramètre Verbose, vous obtiendrez une sortie semblable à ce qui suit:
+Si vous exécutez de nouveau test-CsP2PAV et incluez le paramètre Verbose, vous obtiendrez une sortie semblable à ce qui suit :
 
-DÉTAILLÉ: activité de’Register’démarrée.
+DÉTAILLÉ : activité de’Register’démarrée.
 
-Envoi de la demande d’inscription:
+Envoi de la demande d’inscription :
 
 Nom de domaine complet cible = atl-cs-011.litwareinc.com
 
-Adresse SIP de l’utilisateur = sip:kenmyer@litwareinc.com
+Adresse SIP de l’utilisateur = sip :kenmyer@litwareinc.com
 
 Port du Bureau d’enregistrement = 5062.
 
-Le type d’authentification «IWA» est sélectionné.
+Le type d’authentification « IWA » est sélectionné.
 
 Exception «le point de terminaison n’a pas pu s’inscrire. Voir le code d’après pour une raison spécifique. ' Il s’est produit lors de l’exécution du flux de travail Microsoft. RTC. SyntheticTransactions. flux de travail. STP2PAVWorkflow.
 
@@ -154,13 +156,13 @@ Même si vous examinez soigneusement la sortie, il est possible que vous voyiez 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles les tests-CsP2PAV peuvent échouer:
+Voici quelques raisons courantes pour lesquelles les tests-CsP2PAV peuvent échouer :
 
-  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit:
+  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit :
     
-    Get-CsUser "sip:kenmyer@litwareinc.com"
+    Get-CsUser "sip :kenmyer@litwareinc.com"
 
-  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit:
+  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     

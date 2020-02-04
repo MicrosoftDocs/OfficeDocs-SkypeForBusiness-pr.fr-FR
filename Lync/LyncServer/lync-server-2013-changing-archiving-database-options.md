@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modification des options de base de données d’archivage'
+title: 'Lync Server 2013 : modification des options de base de données d’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changing Archiving database options
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204814(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a98c2efc0dc956a6b8c33f2fcf065f629e5e57d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 198e2abff6118197167f0f017ace22fc2ad76381
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838591"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838591"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Si vous déployez l’archivage à l’aide du stockage SQL Server pour l’archivage pour l’un de vos utilisateurs, vous pouvez effectuer les modifications suivantes du stockage de la base de données:
+Si vous déployez l’archivage à l’aide du stockage SQL Server pour l’archivage pour l’un de vos utilisateurs, vous pouvez effectuer les modifications suivantes du stockage de la base de données :
 
   - Utilisez une autre base de données SQL Server pour l’archivage du stockage. Il s’agit de la base de données d’archivage principale et de la base de données que vous utilisez pour la mise en miroir SQL Server.
 
@@ -53,7 +55,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un composant à la topologie, vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et de la <STRONG>RTCUniversalSer. verAdmins</STRONG> et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers 2013 de Lync Server (c’est-à-dire que le générateur de topologie peut configurer les listes de contrôle d’accès discrétionnaire requises ( DACL ou un compte avec des droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un composant à la topologie. vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers 2013 Lync Server (c’est-à-dire que le générateur de topologie peut configurer les listes de contrôle d’accès discrétionnaire requises ( DACL ou un compte avec des droits équivalents.
 
     
     </div>
@@ -78,7 +80,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
             
               - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser.
             
-              - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit:
+              - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit :
                 
                   - Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau SQL Server Store.
                 
@@ -88,9 +90,9 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
     
       - Pour ajouter le magasin SQL Server ou choisir un autre magasin SQL Server existant pour la mise en miroir, sélectionnez **Activer la mise en miroir du magasin SQL Server**, puis procédez comme suit :
         
-          - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante archivage de **SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
+          - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante **archivage de SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
         
-          - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes:
+          - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes :
             
             1.  Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous souhaitez créer le nouveau SQL Server Store.
             
@@ -98,7 +100,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
             
             3.  Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
         
-          - Si vous activez la mise en miroir SQL Server et voulez ajouter ou modifier un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server principal et des instances miroir), sélectionnez le **témoin de mise en miroir SQL Server. activez l’option reprise automatique** , puis effectuez l’une des opérations suivantes:
+          - Si vous activez la mise en miroir SQL Server et voulez ajouter ou modifier un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server principal et des instances miroir), activez la case à cocher **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** , puis effectuez l’une des opérations suivantes :
             
             1.  Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
             

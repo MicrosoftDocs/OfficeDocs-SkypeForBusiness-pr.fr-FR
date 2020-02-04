@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie de plan de numérotation par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie de plan de numérotation par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user dial plan policy
 ms:assetid: 9fea861f-7770-4cae-9b1f-2a960595bfc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688156(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f9bca09515daba6db7e072625d5b4a217d37cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2bc62981a69b1260ba5f2fbaeabc112553b85f5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722964"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Affecter une stratégie de plan de numérotation par utilisateur dans Lync Server 2013
 
@@ -40,7 +42,7 @@ Pour achever la configuration de compte d’utilisateur pour les utilisateurs d�
 
 7.  Dans la page **modifier l’utilisateur de Lync Server** , sous **téléphonie**, cliquez sur **voix entreprise**.
 
-8.  Cliquez sur **stratégie de plan**de numérotation, puis sélectionnez le plan de numérotation de votre choix.
+8.  Cliquez sur **stratégie de plan de numérotation**, puis sélectionnez le plan de numérotation de votre choix.
 
 9.  Cliquez sur **Valider**.
 
@@ -48,7 +50,7 @@ Pour plus d’informations sur la configuration des plans de numérotation, repo
 
 ## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Affectation d’un plan de numérotation par utilisateur à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez affecter des plans de numérotation par utilisateur avec Windows PowerShell et l’applet **de connexion Grant-CsdialPlan** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez affecter des plans de numérotation par utilisateur avec Windows PowerShell et l’applet **de connexion Grant-CsdialPlan** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Pour affecter un plan de numérotation par utilisateur à un seul utilisateur
 

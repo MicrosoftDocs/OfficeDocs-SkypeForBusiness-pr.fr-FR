@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration du parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Call Park
 ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69e2a1c6ef9da447688ea1ca7d0308afc0b4ab9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838271"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-30_
+_**Dernière modification de la rubrique :** 2012-10-30_
 
-Le parc d’appels permet à un utilisateur d’entreprise Voice de mettre un appel en attente d’un seul téléphone, puis de récupérer l’appel ultérieurement en composant un numéro interne ( ** connu sous le nom de bobine de parking) depuis n’importe quel téléphone.
+Le parc d’appels permet à un utilisateur d’entreprise Voice de mettre un appel en attente d’un seul téléphone, puis de récupérer l’appel ultérieurement en composant un numéro interne (connu sous le nom de bobine *de parking)* depuis n’importe quel téléphone.
 
 Les composants utilisés par le parc d’appels sont automatiquement installés et activés sur le serveur frontal ou le serveur Standard Edition lors du déploiement d’Enterprise Voice. Toutefois, vous devez configurer le parc d’appels avant qu’il soit disponible pour les utilisateurs.
 

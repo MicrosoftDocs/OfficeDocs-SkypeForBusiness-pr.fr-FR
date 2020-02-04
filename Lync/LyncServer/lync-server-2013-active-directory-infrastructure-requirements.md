@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour l’infrastructure Active�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory infrastructure requirements
 ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412955(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c583fd751bf70814f9aa2fae5f6cfe08bec0202
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75278700623ae7251fe7cebec36e959a38f325dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838959"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Avant de commencer le processus de préparation des services de domaine Active Directory pour Lync Server 2013, assurez-vous que votre infrastructure Active Directory répond aux conditions préalables suivantes:
+Avant de commencer le processus de préparation des services de domaine Active Directory pour Lync Server 2013, assurez-vous que votre infrastructure Active Directory répond aux conditions préalables suivantes :
 
-  - Tous les contrôleurs de domaine (qui incluent tous les serveurs de catalogue global) dans la forêt où vous déployez Lync Server exécutent l’un des systèmes d’exploitation suivants:
+  - Tous les contrôleurs de domaine (qui incluent tous les serveurs de catalogue global) dans la forêt où vous déployez Lync Server exécutent l’un des systèmes d’exploitation suivants :
     
       - Système d’exploitation Windows Server 2012 R2
     
@@ -61,7 +63,7 @@ Avant de commencer le processus de préparation des services de domaine Active D
     
 
     > [!NOTE]  
-    > Pour modifier le niveau de fonctionnement de votre domaine ou forêt, voir «augmentation des niveaux fonctionnels de domaine et de <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>forêt» dans la bibliothèque TechNet à l’adresse.
+    > Pour modifier le niveau de fonctionnement de votre domaine ou forêt, voir « augmentation des niveaux fonctionnels de domaine et de <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>forêt » dans la bibliothèque TechNet à l’adresse.
 
     
     </div>

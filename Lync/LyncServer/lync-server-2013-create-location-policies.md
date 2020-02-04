@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création de stratégies d’emplacement'
+title: 'Lync Server 2013 : création de stratégies d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create location policies
 ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831851"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831851"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-11_
+_**Dernière modification de la rubrique :** 2012-09-11_
 
 Lync Server utilise une stratégie d’emplacement pour permettre aux clients Lync pour E9-1-1 lors de l’inscription du client. Une stratégie d’emplacement contient les paramètres qui définissent les modalités de mise en œuvre du système E9-1-1.
 
@@ -41,7 +43,7 @@ Vous pouvez modifier la stratégie d’emplacement globale et créer des straté
 
 Pour créer une stratégie d’emplacement, vous devez utiliser un compte membre du groupe RTCUniversalServerAdmins, membre du rôle administratif CsVoiceAdministrator ou possédant des droits et des autorisations d’administrateur équivalents.
 
-Pour obtenir une description complète des stratégies d’emplacement, voir [définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Dans cette procédure, les applets de commande utilisent une stratégie d’emplacement définie en utilisant les valeurs suivantes:
+Pour obtenir une description complète des stratégies d’emplacement, voir [définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Dans cette procédure, les applets de commande utilisent une stratégie d’emplacement définie en utilisant les valeurs suivantes :
 
 
 <table>
@@ -104,7 +106,7 @@ Pour obtenir une description complète des stratégies d’emplacement, voir [d�
 </table>
 
 
-Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des stratégies d’emplacement, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - New-CsLocationPolicy
 
@@ -120,7 +122,7 @@ Pour plus d’informations sur l’utilisation des stratégies d’emplacement, 
 
 ## <a name="to-create-location-policies"></a>Pour créer des stratégies d’emplacement
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
     <div>
     

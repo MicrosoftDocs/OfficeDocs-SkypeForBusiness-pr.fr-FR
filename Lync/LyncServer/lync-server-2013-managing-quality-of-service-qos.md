@@ -1,6 +1,8 @@
 ---
-title: 'Lync Server 2013: gestion de la qualité de service (QoS)'
+title: 'Lync Server 2013 : gestion de la qualité de service (QoS)'
 ms.reviewer: ''
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Quality of Service (QoS)
 author: lanachin
 ms.author: v-lanac
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96f25d35f0d96c9e1681c6b4d2c2c3b3079aad34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce88471361c63fde3ebf8a3ea716a140567e722e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827864"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,9 +36,9 @@ ms.locfileid: "34827864"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-La qualité de service (QoS) est une technologie de réseau utilisée dans certaines organisations pour vous permettre d’offrir une interface utilisateur optimale pour les communications audio et vidéo. La qualité de service (QoS) est souvent utilisée sur les réseaux disposant d’une bande passante limitée: il existe un grand nombre de paquets réseau en concurrence d’une faible quantité de bande passante disponible, ce qui permet aux administrateurs d’affecter des priorités plus élevées aux paquets. transport de données audio ou vidéo. La transmission de ces paquets est une priorité plus élevée, les communications audio et vidéo sont susceptibles de s’exécuter plus vite, et en moins d’interruption, que les sessions réseau impliquant des transferts de fichiers, la navigation sur le Web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
+La qualité de service (QoS) est une technologie de réseau utilisée dans certaines organisations pour vous permettre d’offrir une interface utilisateur optimale pour les communications audio et vidéo. La qualité de service (QoS) est souvent utilisée sur les réseaux disposant d’une bande passante limitée : il existe un grand nombre de paquets réseau en concurrence d’une faible quantité de bande passante disponible, ce qui permet aux administrateurs d’affecter des priorités plus élevées aux paquets. transport de données audio ou vidéo. La transmission de ces paquets est une priorité plus élevée, les communications audio et vidéo sont susceptibles de s’exécuter plus vite, et en moins d’interruption, que les sessions réseau impliquant des transferts de fichiers, la navigation sur le Web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
 
 <div>
 
@@ -50,11 +52,11 @@ La qualité de service (QoS) est une technologie de réseau utilisée dans certa
 
 Microsoft Lync Server 2013 ne nécessite pas de qualité de service. Si vous n’utilisez pas actuellement QoS, vous n’avez pas besoin d’installer le service avant d’installer Lync Server 2013. Si vous subissez une quantité considérable de perte de paquets sur votre réseau, la méthode recommandée pour résoudre ce problème consiste à ajouter de la bande passante supplémentaire. Si l’ajout de bande passante n’est pas possible, il est possible que vous souhaitiez implémenter la qualité de service.
 
-Lync Server 2013 offre une prise en charge complète de la qualité de service: cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Lync Server dans leur infrastructure réseau existante. Pour cela, vous devez effectuer les tâches suivantes:
+Lync Server 2013 offre une prise en charge complète de la qualité de service : cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Lync Server dans leur infrastructure réseau existante. Pour cela, vous devez effectuer les tâches suivantes :
 
   - [Activation de la qualité de service (QoS) dans Lync Server 2013 pour les appareils qui ne sont pas basés sur Windows](lync-server-2013-enabling-qos-for-devices-that-are-not-based-on-windows.md). Par défaut, QoS est désactivée pour les ordinateurs et autres appareils (tels que les iPhones) qui exécutent d'autres systèmes d'exploitation. Bien que vous puissiez utiliser Lync Server pour activer et désactiver la qualité de service des appareils, vous ne pouvez pas utiliser le produit pour modifier les codes DSCP utilisés par ces appareils.
 
-  - Configurez des [plages de ports dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. Avec Lync Server 2013, vous n’activez ou ne désactivez pas la qualité de service, par exemple, la définition d’une valeur de propriété sur true ou false. Au lieu de cela, vous activez la qualité de service en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez de ne pas utiliser la qualité de service (QoS), vous pouvez désactiver la qualité de service en supprimant les objets de stratégie de groupe appropriés.
+  - [Configurez des plages de ports dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. Avec Lync Server 2013, vous n’activez ou ne désactivez pas la qualité de service, par exemple, la définition d’une valeur de propriété sur true ou false. Au lieu de cela, vous activez la qualité de service en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez de ne pas utiliser la qualité de service (QoS), vous pouvez désactiver la qualité de service en supprimant les objets de stratégie de groupe appropriés.
 
   - [Vous configurez des plages de port pour vos serveurs Edge dans Lync Server 2013](lync-server-2013-configuring-port-ranges-for-your-edge-servers.md). Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs.
 

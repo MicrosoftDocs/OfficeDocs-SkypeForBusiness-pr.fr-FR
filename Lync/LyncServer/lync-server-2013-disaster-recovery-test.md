@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : test de récupération d’urgence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disaster recovery test
 ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747887(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b17f5841cad96cb83399082f61c00194ec4828
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831384"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831384"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-26_
+_**Dernière modification de la rubrique :** 2015-01-26_
 
 Effectuez une récupération du système pour un serveur de pool Lync Server 2013 pour tester votre processus de récupération d’urgence documenté. Ce test simule une défaillance matérielle complète d’un serveur et permet de s’assurer que les ressources, les plans et les données sont disponibles pour la récupération. Essayez d’alterner l’angle du test chaque mois afin que votre organisation teste chaque fois la défaillance d’un autre serveur ou d’un autre équipement.
 
@@ -44,13 +46,13 @@ Notez que le calendrier des tests de récupération d'urgence de votre organisat
 
 Exportez votre topologie, les stratégies et les paramètres de configuration de Lync Server 2013 vers un fichier. Ce fichier peut, entre autres, être utilisé pour restaurer ces informations dans le magasin central de gestion après une mise à niveau, une défaillance matérielle ou un autre problème ayant entraîné une perte de données.
 
-Importez votre topologie et vos paramètres de configuration de Lync Server 2013 vers le magasin de gestion central ou vers l’ordinateur local, comme illustré dans les commandes suivantes:
+Importez votre topologie et vos paramètres de configuration de Lync Server 2013 vers le magasin de gestion central ou vers l’ordinateur local, comme illustré dans les commandes suivantes :
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-Pour sauvegarder les données de Lync Server 2013 de production, procédez comme suit:
+Pour sauvegarder les données de Lync Server 2013 de production, procédez comme suit :
 
   - Sauvegardez les bases de données RTC et LCSLog à l’aide du processus de sauvegarde SQL Server standard pour vider la base de données sur un fichier ou un appareil de vidage de bande.
 
@@ -78,15 +80,15 @@ Une fois ces données restaurées, les utilisateurs peuvent se connecter efficac
 
 Pour permettre aux utilisateurs de se connecter au pool de reprise après sinistre Lync Server 2013, une modification de l’enregistrement DNS sera requise.
 
-Le pool Lync Server 2013 de production sera référencé par les clients à l’aide de la configuration automatique et des enregistrements SRV DNS de:
+Le pool Lync Server 2013 de production sera référencé par les clients à l’aide de la configuration automatique et des enregistrements SRV DNS de :
 
-  - SRV: \_SIP. \_TLS. \<Domain\> /CNAME: SIP. \<Domain (domaine)\>
+  - SRV : \_SIP. \_TLS. \<Domain\> /CNAME : SIP. \<Domain (domaine)\>
 
-  - CNAME: SIP. \<Domain\> /CVC-pool-1. \<Domain (domaine)\>
+  - CNAME : SIP. \<Domain\> /CVC-pool-1. \<Domain (domaine)\>
 
 Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour de manière à référencer le nom de domaine complet (FQDN) DROCSPool :
 
-  - CNAME: SIP. \<Domain\> /DROCSPool. \<Domain (domaine)\>
+  - CNAME : SIP. \<Domain\> /DROCSPool. \<Domain (domaine)\>
 
   - SIP. \<Domain (domaine)\>
 

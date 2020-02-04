@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification de lignes téléphoniques privées'
+title: 'Lync Server 2013 : planification de lignes téléphoniques privées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for private telephone lines
 ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412728(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4287e4b80b146e26fe5e548c07e5df189b1960e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0df93d8a8de73a3119e7ca9a1a7abd76e9157a17
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824567"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824567"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-11_
+_**Dernière modification de la rubrique :** 2013-02-11_
 
 Lync Server 2013 offre la possibilité de proposer aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées aux cadres et aux personnes qui souhaitent un numéro de téléphone non répertorié auquel ils peuvent être joints directement.
 
@@ -135,9 +137,9 @@ Outre les aspects techniques liés à la création et à la gestion des lignes t
 
 Les comptes pour les nouveaux utilisateurs qui ont besoin de lignes téléphoniques privées sont créés de la même manière que les comptes sans lignes téléphoniques privées, à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell.
 
-Utilisez l’applet de commande **Set-Csuser** dans Lync Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par exemple, **Set-Csuser-identity "SIP:joe@contoso.com"-PrivateLine "Tél: + 14255551212"**.
+Utilisez l’applet de commande **Set-Csuser** dans Lync Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par exemple, **Set-Csuser-identity "SIP :joe@contoso.com"-PrivateLine "Tél : + 14255551212"**.
 
-Les numéros de téléphone des lignes téléphoniques privées peuvent contenir entre 3 et 15 numéros de longueur et doivent être précédés du préfixe «TEL:». Ils peuvent ne pas présenter d’indicatif régional, ni d’indicatif de pays/région si l’organisation dispose d’une sélection directe à l’arrivée pour ces indicatifs.
+Les numéros de téléphone des lignes téléphoniques privées peuvent contenir entre 3 et 15 numéros de longueur et doivent être précédés du préfixe « TEL : ». Ils peuvent ne pas présenter d’indicatif régional, ni d’indicatif de pays/région si l’organisation dispose d’une sélection directe à l’arrivée pour ces indicatifs.
 
 Pour plus d’informations sur les applets de applet et Lync Server Management Shell, voir la documentation [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) .
 

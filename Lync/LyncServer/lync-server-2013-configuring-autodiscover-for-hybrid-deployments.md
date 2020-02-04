@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la découverte automatique pour les déploiements hybrides'
+title: 'Lync Server 2013 : configuration de la découverte automatique pour les déploiements hybrides'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Autodiscover for hybrid deployments
 ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc2c28d42569d2f52b55dd04a90f5a788969c3ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8924194d89eafb75c06ff78ed3b765699e36b196
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838277"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838277"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-12_
+_**Dernière modification de la rubrique :** 2012-12-12_
 
 Les déploiements hybrides sont des configurations utilisant à la fois le service de Cloud Computing Microsoft Lync Online et le déploiement local. Dans ce type de configuration, le service de découverte automatique doit être en mesure de localiser l’emplacement où l’utilisateur se trouve réellement. Par exemple, la fonction de découverte automatique facilite la recherche du compte d’utilisateur et l’emplacement du serveur qui héberge le compte de l’utilisateur, même s’il se trouve dans le déploiement local ou dans le déploiement Lync Online.
 

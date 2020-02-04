@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Résumé des ports-connectivité de messagerie instantanée publique'
+title: 'Lync Server 2013 : Résumé des ports-connectivité de messagerie instantanée publique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824245"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824245"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-16_
+_**Dernière modification de la rubrique :** 2013-02-16_
 
-Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que le protocole SIP/MTLS/TCP 5061 est bidirectionnel pour tenir compte de la capacité des contacts du fournisseur de messagerie instantanée publique à contacter les clients Lync, ou pour Lync à Contactez les contacts de la messagerie instantanée publique.
+Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que le protocole SIP/MTLS/TCP 5061 est bidirectionnel afin de tenir compte de la capacité des contacts du fournisseur de messagerie instantanée publique à contacter les clients Lync ou à communiquer avec des contacts de messagerie instantanée publics.
 
 Windows Live Messenger peut participer aux communications audio/vidéo avec les clients Lync. Il s’agit des comptes pour le pare-feu et la configuration de protocole très similaires dont vous disposez généralement sur le pare-feu pour la prise en charge des clients Lync en tant qu’utilisateurs externes.
 

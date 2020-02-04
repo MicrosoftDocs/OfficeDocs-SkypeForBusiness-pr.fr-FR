@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets d’archivage et de surveillance'
+title: 'Lync Server 2013 : cmdlets d’archivage et de surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Archiving and Monitoring cmdlets
 ms:assetid: 04e1d0f6-d00e-4d8f-b969-daf092b2cdb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415629(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc6654a8edd078b0f478d39d19d768809d540d83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58f7242ee62bb7f9796b1f8445d49dc5efd32c06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838768"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
-Les applets de contrôle d’archivage et de surveillance permettent aux administrateurs de gérer l’archivage des messages instantanés et des sessions de conférence. pour enregistrer les informations sur les détails des appels; et pour surveiller Microsoft Lync Server 2013 à l’aide de la qualité d’utilisation (QoE).
+Les applets de contrôle d’archivage et de surveillance permettent aux administrateurs de gérer l’archivage des messages instantanés et des sessions de conférence. pour enregistrer les informations sur les détails des appels ; et pour surveiller Microsoft Lync Server 2013 à l’aide de la qualité d’utilisation (QoE).
 
 
 > [!NOTE]
@@ -47,7 +49,7 @@ Les applets de contrôle d’archivage et de surveillance permettent aux adminis
 
 ## <a name="archiving-and-monitoring-cmdlets"></a>Cmdlets d’archivage et de surveillance
 
-Voici une liste des applets de commande qui se rapportent directement à la gestion de l’archivage et de la surveillance:
+Voici une liste des applets de commande qui se rapportent directement à la gestion de l’archivage et de la surveillance :
 
 **Archivage et surveillance**
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Sélection d’une topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa98d479ca2bfeaf6214bbd1e66bb3f41b09782
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9f59648d845f37c7cf6d92c471b81a29415753
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838579"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -31,9 +33,9 @@ ms.locfileid: "34838579"
 
 <div id="mainBody">
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Lorsque vous choisissez une topologie, vous pouvez utiliser l’une des options de topologie suivantes prises en charge:
+Lorsque vous choisissez une topologie, vous pouvez utiliser l’une des options de topologie suivantes prises en charge :
 
 <div>
 
@@ -133,12 +135,12 @@ Les scénarios de basculement de périphérie pris en charge lors de l’équili
 
 
 > [!NOTE]
-> Il est possible d’utiliser les topologies à un seul bord et à l’échelle de l’horizontale (équilibrage de charge DNS):
+> Il est possible d’utiliser les topologies à un seul bord et à l’échelle de l’horizontale (équilibrage de charge DNS) :
 > <ul><li><p>Adresses IP publiques routables</p></li>
 > <li><p>Adresse IP privée non routable si la traduction d’adresses réseau symétriques est utilisée</p></li>
 >
 > <ul><li> Si vous utilisez une adresse IP publique ou une adresse IP privée avec la traduction d’adresses réseau (NAT), vous devez toujours utiliser le même nombre d’adresses IP en fonction de votre choix de configuration dans le générateur de topologie. Vous pouvez configurer le serveur de périphérie de sorte qu’il utilise une seule adresse IP avec des ports distincts par service, ou utiliser des adresses IP distinctes par service, mais utiliser le même port (par défaut, TCP 443).</li></ul>>
-> Si vous décidez d’utiliser des adresses IP privées sans routage avec tar:
+> Si vous décidez d’utiliser des adresses IP privées sans routage avec tar :
 > <ul><li><p>Vous devez utiliser des adresses IP privées routables sur les trois interfaces externes</p></li>
 > <li><p>Vous devez configurer la traduction d’adresses réseau symétrique pour le trafic entrant et sortant.</p></li></ul>>
 > La topologie de l’équilibrage du matériel doit utiliser des adresses IP publiques.
@@ -147,7 +149,7 @@ Les scénarios de basculement de périphérie pris en charge lors de l’équili
 
 Lync Server 2013 prend en charge le placement d’accès, de conférences Web et d’interfaces externes A/V à partir d’un routeur ou d’un pare-feu qui effectue la traduction d’adresses réseau (NAT) pour les topologies de serveur de périphérie unique et à l’échelle.
 
-L’utilisation de la traduction d’adresses réseau pour toutes les interfaces externes d’Edge nécessite l’utilisation de l’équilibrage de charge DNS. Par rapport à l’utilisation d’un dispositif d’équilibrage de la charge matérielle, l’utilisation de l’équilibrage de charge DNS sans NAT vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool Edge, comme décrit dans la liste suivante:
+L’utilisation de la traduction d’adresses réseau pour toutes les interfaces externes d’Edge nécessite l’utilisation de l’équilibrage de charge DNS. Par rapport à l’utilisation d’un dispositif d’équilibrage de la charge matérielle, l’utilisation de l’équilibrage de charge DNS sans NAT vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool Edge, comme décrit dans la liste suivante :
 
   - Lync Server 2013 (l’équilibrage de charge DNS) nécessite trois adresses IP publiques pour chaque serveur Edge d’un pool Edge.
 
@@ -170,7 +172,7 @@ L’utilisation de la traduction d’adresses réseau pour toutes les interfaces
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>6</p></td>
 <td><p>3 (1 par adresse IP virtuelle) + 6</p></td>
 </tr>
@@ -211,7 +213,7 @@ L’utilisation de la traduction d’adresses réseau pour toutes les interfaces
 <tbody>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>1 (1 par adresse IP virtuelle) + 2</p></td>
 </tr>
 <tr class="even">
@@ -246,7 +248,7 @@ Les points de décision principaux pour la sélection de la topologie sont haute
     
     </div>
 
-  - **Équilibrage de charge matérielle**   Le système d’équilibrage de la charge matérielle est pris en charge pour l’équilibrage de charge des serveurs Edge Lync Server 2013 lors de l’utilisation d’adresses IP routables publiques pour les interfaces externes de périphérie. Par exemple, vous pouvez utiliser cette approche dans les situations dans lesquelles le basculement est requis pour l’une des applications suivantes:
+  - **Équilibrage de charge matérielle**   Le système d’équilibrage de la charge matérielle est pris en charge pour l’équilibrage de charge des serveurs Edge Lync Server 2013 lors de l’utilisation d’adresses IP routables publiques pour les interfaces externes de périphérie. Par exemple, vous pouvez utiliser cette approche dans les situations dans lesquelles le basculement est requis pour l’une des applications suivantes :
     
       - Solution PIC (Public IM Connectivity)
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Liste de vérification du déploiement pour le contr�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for call admission control
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dd425d53a282cc24fed8ad2f8be9acc5bf42209
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831503"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831503"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-08_
+_**Dernière modification de la rubrique :** 2012-10-08_
 
-Pour planifier efficacement le contrôle d’admission des appels, vous devez tenir compte des éléments suivants:
+Pour planifier efficacement le contrôle d’admission des appels, vous devez tenir compte des éléments suivants :
 
   - Conditions préalables pour le déploiement de CAC.
 

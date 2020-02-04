@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des domaines fédérés SIP pour l’organisa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage SIP federated domains for your organization
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4022edf2509d0fe75ec8cc91b8f1e3a519f1f21c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828249"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828249"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
 
-Pour gérer et configurer des domaines SIP avec lesquels vous êtes fédérer, vous pouvez procéder comme suit:
+Pour gérer et configurer des domaines SIP avec lesquels vous êtes fédérer, vous pouvez procéder comme suit :
 
   - Créer ou modifier une liste de domaines autorisés de domaines partenaires fédérés SIP.
 

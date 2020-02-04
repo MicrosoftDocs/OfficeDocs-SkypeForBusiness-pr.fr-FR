@@ -3,6 +3,8 @@ title: Connexion du pool pilote aux serveurs Edge hérités
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838838"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Après le déploiement de Lync Server 2013, un itinéraire de Fédération pour ce site n’est pas configuré. Pour pouvoir utiliser l’itinéraire fédéré utilisé par Office Communications Server 2007 R2, Lync Server 2013 doit être configuré pour utiliser cet itinéraire.
 
@@ -51,7 +53,7 @@ Pour permettre au site Lync Server 2013 d’utiliser le serveur directeur et le 
 
 4.  Sous **affectation**de l’itinéraire de Fédération de site, sélectionnez **activer la Fédération SIP**, puis sélectionnez le directeur Office Communications Server 2007 R2 ou le serveur Office Communications Server 2007 R2, si aucun directeur n’est répertorié.
     
-    ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération] (images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")  
+    ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")  
 
 5.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 
@@ -61,7 +63,7 @@ Pour permettre au site Lync Server 2013 d’utiliser le serveur directeur et le 
 
 8.  Dans la liste, sélectionnez l’interface du serveur Edge pour le BackCompatSite.
     
-    ![Boîte de dialogue Modifier les propriétés, page général] (images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")  
+    ![Boîte de dialogue Modifier les propriétés, page général](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")  
 
 9.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 

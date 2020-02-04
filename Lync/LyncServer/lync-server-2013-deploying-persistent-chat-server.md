@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Déploiement d’un serveur de conversation permanent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831535"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-31_
+_**Dernière modification de la rubrique :** 2014-03-31_
 
 Lync Server 2013, permanent Chat Server fait partie de l’infrastructure Lync Server 2013.
 
-Le déploiement de Server chat permanent nécessite les éléments suivants:
+Le déploiement de Server chat permanent nécessite les éléments suivants :
 
   - Utilisez le générateur de topologie pour définir, importer et publier ultérieurement votre topologie et les composants que vous voulez déployer.
 
@@ -67,7 +69,7 @@ Au minimum, chaque topologie nécessite un serveur sur lequel Lync Server 2013 e
 
 Utilisez le générateur de topologie pour ajouter le serveur de chat permanent aux déploiements de Lync Server 2013. Vous avez la possibilité d’ajouter un ou plusieurs pools de serveurs de chat permanent à l’aide du générateur de topologie. Suivez les mêmes instructions de déploiement pour déployer plusieurs pools de serveurs de chat permanent que pour n’importe quel pool. Pour plus d’informations, reportez-vous à [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
 
-Pour plus d’informations sur les topologies disponibles et la configuration logicielle requise pour l’installation d’un serveur de chat permanent, voir [planification du serveur de chat permanent dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, fonctionnement du [serveur Chat permanent. dans Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) , dans la documentation de planification, la documentation de déploiement ou la documentation des opérations, et le [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation de support.
+Pour plus d’informations sur les topologies disponibles et la configuration logicielle requise pour l’installation d’un serveur de chat permanent, voir [planification du serveur de chat permanent dans Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, fonctionnement du serveur Chat permanent dans lync Server [2013](lync-server-2013-how-persistent-chat-server-works.md) de la documentation de planification, de la documentation de déploiement ou de l’opération, et [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation de support
 
 Pour plus d’informations sur l’acquisition de certificats, la création de la base de données SQL Server et la création de magasins de fichiers, voir [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
 

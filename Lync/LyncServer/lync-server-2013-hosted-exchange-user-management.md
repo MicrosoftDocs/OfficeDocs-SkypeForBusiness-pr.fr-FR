@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des utilisateurs Exchange hébergés'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange user management
 ms:assetid: e8723af5-0604-4d7d-bad2-463a9832efb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ead9762c67f3239f84cc1290b4ff2e9acc976318
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831063"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831063"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Pour fournir des services de messagerie vocale aux utilisateurs de Lync Server 2013 dont les boîtes aux lettres se trouvent sur un service Exchange hébergé, vous devez activer leurs comptes d’utilisateurs pour la messagerie vocale hébergée.
 
@@ -101,7 +103,7 @@ Les paires clé/valeur de l’attribut et leurs auteurs sont indiquées dans le 
 
 
 > [!NOTE]  
-> Si l’attribut comporte déjà des valeurs autres que l’une des paires clé/valeur de Lync Server 2013 (CSHostedVoiceMail = 0 ou CSHostedVoiceMail = 1), un avertissement indique que l’attribut peut être géré par une autre application. Par exemple, un avertissement s’affiche si les paires clé/valeur ExchangeHostedVoiceMail = 0 ou ExchangeHostedVoiceMail = 1 sont déjà présentes. Dans ce cas, vous pouvez modifier la valeur en la modifiant dans Active Directory ou en exécutant l’applet de commande suivante pour définir la valeur sur null:<BR>Set-CsUser-Identity User-HostedVoicemail $null
+> Si l’attribut comporte déjà des valeurs autres que l’une des paires clé/valeur de Lync Server 2013 (CSHostedVoiceMail = 0 ou CSHostedVoiceMail = 1), un avertissement indique que l’attribut peut être géré par une autre application. Par exemple, un avertissement s’affiche si les paires clé/valeur ExchangeHostedVoiceMail = 0 ou ExchangeHostedVoiceMail = 1 sont déjà présentes. Dans ce cas, vous pouvez modifier la valeur en la modifiant dans Active Directory ou en exécutant l’applet de commande suivante pour définir la valeur sur null :<BR>Set-CsUser-Identity User-HostedVoicemail $null
 
 
 
@@ -113,15 +115,15 @@ Les paires clé/valeur de l’attribut et leurs auteurs sont indiquées dans le 
 
 ## <a name="enabling-users-for-hosted-voice-mail"></a>Activation des utilisateurs pour la messagerie vocale hébergée
 
-Pour permettre le routage des appels de messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée, vous devez exécuter l’applet de demande Set-CsUser pour définir la valeur du paramètre *HostedVoiceMail* . Ce paramètre indique également à Lync Server 2013 d’allumer l’indicateur «appeler la messagerie vocale».
+Pour permettre le routage des appels de messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée, vous devez exécuter l’applet de demande Set-CsUser pour définir la valeur du paramètre *HostedVoiceMail* . Ce paramètre indique également à Lync Server 2013 d’allumer l’indicateur « appeler la messagerie vocale ».
 
-  - Dans l’exemple suivant, le compte d’utilisateur de Pilar Arès est activé pour la messagerie vocale hébergée:
+  - Dans l’exemple suivant, le compte d’utilisateur de Pilar Arès est activé pour la messagerie vocale hébergée :
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
     L’applet de passe vérifie qu’une stratégie de messagerie vocale hébergée (globale, de niveau de site ou par utilisateur) s’applique à cet utilisateur. S’il n’y a aucune stratégie, l’applet de passe échoue.
 
-  - Dans l’exemple suivant, le compte d’utilisateur de la messagerie vocale hébergée Pilar Arès:
+  - Dans l’exemple suivant, le compte d’utilisateur de la messagerie vocale hébergée Pilar Arès :
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     

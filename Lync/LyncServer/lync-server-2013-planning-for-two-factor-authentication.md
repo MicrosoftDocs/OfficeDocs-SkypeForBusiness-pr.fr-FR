@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification de l’authentification à deux facteurs'
+title: 'Lync Server 2013 : planification de l’authentification à deux facteurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for two-factor authentication
 ms:assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308562(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299d2328ee11ffb893974e48b86922123145ed72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e610990182e01c0e9e2d7199bd3a34f70fbe3132
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824210"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-04-06_
+_**Dernière modification de la rubrique :** 2015-04-06_
 
 La liste suivante répertorie les éléments à prendre en compte lors de la configuration d’un environnement Microsoft Lync Server 2013 pour prendre en charge l’authentification à deux facteurs.
 
@@ -41,7 +43,7 @@ La liste suivante répertorie les éléments à prendre en compte lors de la con
 
 ## <a name="client-support"></a>Prise en charge des clients
 
-Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013: le client de bureau 2013 de juillet et tous les clients mobiles prennent actuellement en charge l’authentification à deux facteurs.
+Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013 : le client de bureau 2013 de juillet et tous les clients mobiles prennent actuellement en charge l’authentification à deux facteurs.
 
 </div>
 
@@ -49,7 +51,7 @@ Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013: le client de b
 
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
-Les clients sont fortement invités à déployer l’authentification à deux facteurs à l’aide de la 2013 dédiée de Lync Server avec des mises à jour cumulatives pour Lync Server 2013:2013 Edge, Director et groupes d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs de Lync, les autres méthodes d’authentification doivent être désactivées pour les autres rôles et services, notamment les suivantes:
+Les clients sont fortement invités à déployer l’authentification à deux facteurs à l’aide de la 2013 dédiée de Lync Server avec des mises à jour cumulatives pour Lync Server 2013:2013 Edge, Director et groupes d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs de Lync, les autres méthodes d’authentification doivent être désactivées pour les autres rôles et services, notamment les suivantes :
 
 
 <table>
@@ -144,7 +146,7 @@ Il existe un certain nombre de considérations de déploiement impliquant des in
 
 ## <a name="deleting-saved-credentials"></a>Suppression des informations d’identification enregistrées
 
-Les utilisateurs du client de bureau doivent utiliser l’option **Supprimer mes informations de connexion** dans le client Lync et supprimer leur dossier de profil SIP de\\%\\LocalAppData\\%\\Microsoft Office 15,0 Lync avant d’essayer de vous connecter pour la première fois utilisation de l’authentification à deux facteurs.
+Les utilisateurs du client de bureau doivent utiliser l’option **Supprimer mes informations de connexion** dans le client Lync et supprimer leur dossier de profil SIP de\\%\\LocalAppData\\%\\Microsoft Office 15,0 Lync avant d’essayer de vous connecter pour la première fois à l’aide de l’authentification à deux facteurs.
 
 </div>
 
@@ -156,11 +158,11 @@ Lorsque la méthode d’authentification Kerberos ou NTLM est utilisée, les inf
 
 Si les utilisateurs sont invités à entrer leurs informations d’identification avant leur code confidentiel, la clé de Registre **DisableNTCredentials** est peut être configurée involontairement sur les ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
 
-Pour empêcher l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe:
+Pour empêcher l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe :
 
 HKEY\_stratégies\_\\\\\\logicielles\\locales Microsoft Office 15,0\\\\
 
-REG\_DWORD: DisableNTCredentials
+REG\_DWORD : DisableNTCredentials
 
 Valeur : 0x0
 
@@ -172,11 +174,11 @@ Valeur : 0x0
 
 Lorsqu’un utilisateur se connecte à Lync pour la première fois, l’utilisateur est invité à enregistrer son mot de passe. Lorsqu’elle est sélectionnée, cette option permet le stockage du certificat client de l’utilisateur dans le magasin de certificats personnel et des informations d’identification Windows de l’utilisateur dans le Gestionnaire d’informations d’identification de l’ordinateur local.
 
-Le paramètre de Registre **SavePassword** doit être désactivé lorsque Lync est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe:
+Le paramètre de Registre **SavePassword** doit être désactivé lorsque Lync est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe :
 
 HKEY\_logiciel\_\\utilisateur\\actuel Microsoft\\Office\\15,0\\Lync
 
-REG\_DWORD: SavePassword
+REG\_DWORD : SavePassword
 
 Valeur : 0x0
 

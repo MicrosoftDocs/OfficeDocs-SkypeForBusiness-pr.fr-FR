@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: installation de rapports d’analyse Lync Server 2013'
+title: 'Lync Server 2013 : installation de rapports d’analyse Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync Server 2013 Monitoring Reports
 ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5908e4eb8f18ef464a4c69cc31bffdc33a10416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6b5f9832ddc10d3cea46d09aee6b047595db0f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830996"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-02-27_
+_**Dernière modification de la rubrique :** 2015-02-27_
 
-Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent des informations sur la qualité et la quantité des sessions de communication qui interviennent au sein de votre organisation. Toutefois, les rapports d’analyse ne sont pas automatiquement installés lors de l’installation de Lync Server 2013; au lieu de cela, vous devez installer des rapports de surveillance séparément, puis uniquement après l’installation de Lync Server sur votre ordinateur.
+Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent des informations sur la qualité et la quantité des sessions de communication qui interviennent au sein de votre organisation. Toutefois, les rapports d’analyse ne sont pas automatiquement installés lors de l’installation de Lync Server 2013 ; au lieu de cela, vous devez installer des rapports de surveillance séparément, puis uniquement après l’installation de Lync Server sur votre ordinateur.
 
 <div>
 
@@ -47,7 +49,7 @@ Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent des 
 
 </div>
 
-Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, des sessions de messagerie instantanée d’égal à égal, des inscriptions d’utilisateur, l’application de groupe de réponse, etc. Pour la version 2013, les rapports de surveillance de Lync Server incluent un certain nombre d’améliorations:
+Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, des sessions de messagerie instantanée d’égal à égal, des inscriptions d’utilisateur, l’application de groupe de réponse, etc. Pour la version 2013, les rapports de surveillance de Lync Server incluent un certain nombre d’améliorations :
 
   - **Nouveaux rapports de qualité de la voix**. Ces nouveaux rapports incluent le [rapport Comparaison de qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md), qui compare la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil). ainsi que le [rapport de temps de participation à la Conférence dans Lync Server 2013](lync-server-2013-conference-join-time-report.md), qui fournit des informations relatives à la durée nécessaire pour que les utilisateurs puissent participer à une conférence.
 
@@ -67,7 +69,7 @@ D’autres informations sur chaque rapport sont disponibles dans la documentatio
 
 </div>
 
-Il existe deux façons d’installer des rapports de surveillance de Lync Server: vous pouvez utiliser l’Assistant Déploiement de Lync Server ou utiliser un script Windows PowerShell inclus dans les fichiers d’installation de Lync Server 2013. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
+Il existe deux façons d’installer des rapports de surveillance de Lync Server : vous pouvez utiliser l’Assistant Déploiement de Lync Server ou utiliser un script Windows PowerShell inclus dans les fichiers d’installation de Lync Server 2013. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
 
   - avez le droit d’ajouter un rôle de base de données à un compte d’utilisateur dans la base de données de surveillance ;
 
@@ -89,7 +91,7 @@ Pour installer les rapports de surveillance à l’aide de l’Assistant Déploi
 
 6.  Dans la page **Exécution de commandes**, cliquez sur **Terminer**.
 
-Les rapports d’analyse peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports. ps1; Ce script Windows PowerShell est disponible sur le média d’installation de Lync Server dans \\le\\dossier ReportingSetup du programme d’installation. Pour installer des rapports d’analyse à l’aide de DeployReports. ps1, tapez une commande semblable à la suivante à l’invite Management Shell:
+Les rapports d’analyse peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports. ps1 ; Ce script Windows PowerShell est disponible sur le média d’installation de Lync Server dans \\le\\dossier ReportingSetup du programme d’installation. Pour installer des rapports d’analyse à l’aide de DeployReports. ps1, tapez une commande semblable à la suivante à l’invite Management Shell :
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 

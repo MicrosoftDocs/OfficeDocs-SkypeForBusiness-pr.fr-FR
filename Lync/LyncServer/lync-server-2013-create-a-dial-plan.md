@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création d’un plan de numérotation'
+title: 'Lync Server 2013 : création d’un plan de numérotation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a dial plan
 ms:assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8734ce4503ef62eb0fc04aab376f2819d1fc8fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d1d4647f374fd65c0be52da111b7ef2d41c0faae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838144"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838144"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-24_
+_**Dernière modification de la rubrique :** 2013-10-24_
 
 Pour créer un nouveau plan de numérotation, suivez les étapes de la procédure ci-dessous. Si vous voulez modifier un plan de numérotation, reportez-vous à [la rubrique modification d’un plan de numérotation dans Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
 
@@ -137,7 +139,7 @@ Pour créer un nouveau plan de numérotation, suivez les étapes de la procédur
     
 
     > [!IMPORTANT]  
-    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro numéroté. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives.<BR>Par défaut <STRONG></STRONG> , la règle de normalisation <STRONG>^ (\d{11}) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond aux numéros à 11 chiffres commençant par 1425, assurez-vous que l’ensemble de la fonction <STRONG>conserver tout</STRONG> est trié sous la règle de <STRONG>^ (1425 \{7}p) $</STRONG> la plus restrictive.
+    > Lync Server parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro numéroté. Si vous configurez un plan de numérotation de sorte qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, vérifiez que les règles plus restrictives s’affichent au-dessus des règles moins restrictives.<BR><STRONG>Par défaut</STRONG> , la règle de normalisation <STRONG>^ (\d{11}) $</STRONG> correspond à n’importe quel numéro à 11 chiffres. Par exemple, si vous ajoutez une règle de normalisation qui correspond aux numéros à 11 chiffres commençant par 1425, assurez-vous que l’ensemble de la fonction <STRONG>conserver tout</STRONG> est trié sous la règle de <STRONG>^ (1425 \{7}p) $</STRONG> la plus restrictive.
 
     
     </div>

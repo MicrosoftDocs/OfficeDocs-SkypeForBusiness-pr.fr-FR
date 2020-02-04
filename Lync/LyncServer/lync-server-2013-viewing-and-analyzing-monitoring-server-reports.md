@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affichage et analyse des rapports du serveur de surveillance'
+title: 'Lync Server 2013 : affichage et analyse des rapports du serveur de surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing and analyzing monitoring server reports
 ms:assetid: 4dd448f1-01d2-49b2-b109-0728f36566b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969599
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc942c887175bacb0047c5d82d1ad9a89c18ef5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e4fce6cf17601d2a68a07a3b832e6b50c10b759
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846287"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-19_
+_**Dernière modification de la rubrique :** 2014-05-19_
 
 Le rapport analyse du serveur fournit différentes mesures de qualité de la voix pour contrôler le QoE qui est remis aux utilisateurs finaux. Par ailleurs, la surveillance du serveur comporte plusieurs rapports prédéfinis que votre organisation peut utiliser pour surveiller les tendances d’utilisation et de qualité multimédia sur le réseau de votre organisation et résoudre les problèmes de qualité de média.
 
-Un élément principal de la conservation des rapports du serveur de surveillance intéressants pour les opérations quotidiennes et hebdomadaires consiste à afficher et à analyser des rapports de qualité multimédia, en particulier:
+Un élément principal de la conservation des rapports du serveur de surveillance intéressants pour les opérations quotidiennes et hebdomadaires consiste à afficher et à analyser des rapports de qualité multimédia, en particulier :
 
   - Rapport de synthèse
 
@@ -69,7 +71,7 @@ Un élément principal de la conservation des rapports du serveur de surveillanc
 
 5.  Pour activer le vidage, sélectionnez **activer la purge pour la surveillance des serveurs**.
 
-6.  Dans **conserver les enregistrements des détails des appels pour une durée maximale (jours):** sélectionnez le nombre maximal de jours pendant lequel les enregistrements des détails des appels doivent être conservés.
+6.  Dans **conserver les enregistrements des détails des appels pour une durée maximale (jours) :** sélectionnez le nombre maximal de jours pendant lequel les enregistrements des détails des appels doivent être conservés.
 
 7.  Dans **Conserver les données de signalement d’erreurs pendant la durée maximale (jours) :**, sélectionnez le nombre maximum de jours pendant lesquels les rapports d’erreurs sont à conserver.
 
@@ -91,7 +93,7 @@ Un élément principal de la conservation des rapports du serveur de surveillanc
 
 5.  Pour activer le vidage, sélectionnez **activer la purge pour la surveillance des serveurs**.
 
-6.  Dans **conserver les enregistrements des détails des appels pour une durée maximale (jours):** sélectionnez le nombre maximal de jours pendant lequel les données QoE doivent être conservées.
+6.  Dans **conserver les enregistrements des détails des appels pour une durée maximale (jours) :** sélectionnez le nombre maximal de jours pendant lequel les données QoE doivent être conservées.
 
 7.  Cliquez sur Valider.
 
@@ -105,7 +107,7 @@ Un élément principal de la conservation des rapports du serveur de surveillanc
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.
 
-3.  Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie**d’archivage.
+3.  Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
 
 4.  Cliquez sur **Globale** dans la liste des stratégies, sur **Modifier**, puis sur **Afficher les détails**.
 
@@ -131,7 +133,7 @@ Un élément principal de la conservation des rapports du serveur de surveillanc
 
 4.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
 
-5.  Dans **modifier l’utilisateur de Lync Server** sous **stratégie**d’archivage, sélectionnez la stratégie d’utilisateur d’archivage que vous voulez appliquer.
+5.  Dans **modifier l’utilisateur de Lync Server** sous **stratégie d’archivage**, sélectionnez la stratégie d’utilisateur d’archivage que vous voulez appliquer.
 
 6.  Cliquez sur **Valider**.
 

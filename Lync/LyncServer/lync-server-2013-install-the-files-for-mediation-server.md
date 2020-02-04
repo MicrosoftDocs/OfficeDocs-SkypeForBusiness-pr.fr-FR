@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: installer les fichiers pour le serveur de médiation'
+title: 'Lync Server 2013 : installer les fichiers pour le serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60274ced1bf72a17b4c05b4908f60bde32323f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831004"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-08-06_
+_**Dernière modification de la rubrique :** 2012-08-06_
 
 Pour mener à bien cette procédure, vous devez être connecté au serveur au minimum en tant qu’administrateur local et utilisateur de domaine appartenant au moins au groupe RTCUniversalReadOnlyAdmins.
 
@@ -45,7 +47,7 @@ Sur ce site, si vous avez déjà déployé des serveurs de médiation colocalis�
 
 
 > [!NOTE]  
-> Cette rubrique part du principe que vous avez déjà défini et publié un pool de serveurs de médiation autonome comme décrit dans la rubrique <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">définir un serveur de médiation dans le générateur de topologie de Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync Server 2013</A> dans le déploiement. et que vous avez vérifié que les ordinateurs figurant dans le pool de serveurs de médiation répondent aux conditions préalables décrites dans la rubrique <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">logiciels requis pour Enterprise Voice dans Lync Server 2013</A> et la <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Configuration requise pour Voix entreprise dans Lync Server 2013</A>.
+> Cette rubrique part du principe que vous avez déjà défini et publié un pool de serveurs de médiation autonome comme décrit dans la rubrique <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">définir un serveur de médiation dans le générateur de topologie de Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync Server 2013</A> dans la documentation de déploiement, et que vous avez vérifié que les ordinateurs du pool de serveurs de médiation répondent aux conditions préalables décrites dans la rubrique <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">logiciels requis pour enterprise Voice dans Lync Server 2013</A> et la <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Configuration requise pour Enterprise Voix dans Lync Server 2013</A>.
 
 
 
@@ -69,7 +71,7 @@ Sur ce site, si vous avez déjà déployé des serveurs de médiation colocalis�
 
 7.  Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
 
-8.  À côté de l' **étape 2: installer ou supprimer les composants Lync Server**, cliquez sur **exécuter**, puis sur **suivant**.
+8.  À côté de l' **étape 2 : installer ou supprimer les composants Lync Server**, cliquez sur **exécuter**, puis sur **suivant**.
 
 9.  Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
 
@@ -81,7 +83,7 @@ Sur ce site, si vous avez déjà déployé des serveurs de médiation colocalis�
 
 13. Sur l’ordinateur sur lequel vous exécutez le panneau de configuration de Lync Server, vérifiez sur la page **Topology** du panneau de configuration de Lync Server que l’état du service du serveur de médiation est représenté par une coche verte. Si une croix rouge est affichée, sélectionnez le serveur de médiation. Dans le menu **Action**, cliquez sur **Démarrer tous les services**.
 
-Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, suivez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveurs de médiation. Si vous n’avez pas besoin d’installer des fichiers pour un serveur de médiation pour d’autres ordinateurs, suivez les procédures décrites dans la section [configuration de Trunks dans Lync server 2013](lync-server-2013-configuring-trunks.md) pour configurer les paramètres de la connexion de Trunk entre ce pool de serveurs de médiation (ou toute la médiation Serveurs sur un site) et son homologue.
+Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, suivez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveurs de médiation. Si vous n’avez pas besoin d’installer des fichiers pour un serveur de médiation pour d’autres ordinateurs, suivez les procédures décrites dans la section [configuration de Trunks dans Lync server 2013](lync-server-2013-configuring-trunks.md) pour configurer les paramètres de connexion Trunk entre ce pool de serveurs de médiation (ou tous les serveurs de médiation sur un site) et son homologue.
 
 </div>
 

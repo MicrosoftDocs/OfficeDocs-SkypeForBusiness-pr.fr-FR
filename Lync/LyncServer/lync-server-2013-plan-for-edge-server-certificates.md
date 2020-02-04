@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification des certificats de serveur Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34825155"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-05_
+_**Dernière modification de la rubrique :** 2012-11-05_
 
 La création de certificats pour Edge est simplifiée dans Lync Server 2013.
 
 **Diagramme de certificats pour le serveur Edge**
 
-![a5fc20db-7ced-4364-b577-6a709a8367cd] (images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
+![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
-Créez un certificat public unique, assurez-vous d’avoir une clé privée exportable définie pour le certificat et attribuez-la aux interfaces externes du serveur Edge suivantes à l’aide de l’Assistant Certificat:
+Créez un certificat public unique, assurez-vous d’avoir une clé privée exportable définie pour le certificat et attribuez-la aux interfaces externes du serveur Edge suivantes à l’aide de l’Assistant Certificat :
 
 <div>
 
@@ -81,7 +83,7 @@ Créez un certificat public unique, assurez-vous d’avoir une clé privée expo
 
   - Service d’authentification a/V (appelé par le biais de l' **extérieur** de l’Assistant certificat)
 
-Créez un certificat interne unique avec une clé privée exportable, puis copiez-le et attribuez-le à chaque interface interne du serveur Edge:
+Créez un certificat interne unique avec une clé privée exportable, puis copiez-le et attribuez-le à chaque interface interne du serveur Edge :
 
   - Serveur Edge (appelé **Edge Internal** dans l’Assistant certificat)
 
@@ -89,7 +91,7 @@ Créez un certificat interne unique avec une clé privée exportable, puis copie
 
 
 > [!IMPORTANT]  
-> Il est possible d’utiliser des certificats distincts et distincts pour chaque service Edge Server. Il peut s’avérer utile de choisir des certificats séparés si vous souhaitez utiliser la nouvelle fonctionnalité de certificat de déploiement pour le certificat de service Edge A/V. Dans le cas de cette fonctionnalité, il est recommandé de découpler le certificat de service Edge A/V du service Edge d’accès et du service Edge de conférence Web. Si vous choisissez de demander, d’acquérir et d’affecter des certificats séparés pour chaque service, vous devez demander à la clé privée d’être exportable pour le service Edge A/v (de nouveau, il s’agit du service d’authentification a/v) et de lui attribuer le même certificat Interface externe latérale sur chaque serveur Edge.
+> Il est possible d’utiliser des certificats distincts et distincts pour chaque service Edge Server. Il peut s’avérer utile de choisir des certificats séparés si vous souhaitez utiliser la nouvelle fonctionnalité de certificat de déploiement pour le certificat de service Edge A/V. Dans le cas de cette fonctionnalité, il est recommandé de découpler le certificat de service Edge A/V du service Edge d’accès et du service Edge de conférence Web. Si vous choisissez de demander, d’acquérir et d’affecter des certificats séparés pour chaque service, vous devez demander à la clé privée d’être exportable pour le service Edge A/v (de nouveau, il s’agit de la fonction de service d’authentification A/v) et de lui attribuer le même certificat sur chaque serveur Edge.
 
 
 

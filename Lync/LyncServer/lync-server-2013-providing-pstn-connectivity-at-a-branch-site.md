@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Connectivité RTC sur un site de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823622"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Nous vous recommandons d’utiliser Microsoft Lync Server 2013, l’outil de planification pour ajouter des sites de succursales à votre topologie et configurer votre infrastructure vocale dans les sites de succursale.
 
-Si vous n’utilisez pas l’outil de planification, suivez les procédures décrites dans les rubriques de cette section pour ajouter d’abord les sites de succursale, puis pour configurer votre infrastructure vocale en définissant la passerelle RTC (réseau téléphonique commuté) IP/public, et/ou en configurant le SIP. Trunk (avec ou sans contournement de média). Une autre option consiste à connecter un système PBX à un site de succursale.
+Si vous n’utilisez pas l’outil de planification, suivez les procédures décrites dans les rubriques de cette section pour ajouter d’abord les sites de succursale, puis pour configurer votre infrastructure vocale en définissant la passerelle RTC (réseau téléphonique commuté) IP/public, et/ou en configurant le Trunk SIP (avec ou sans Bypass Media). Une autre option consiste à connecter un système PBX à un site de succursale.
 
 <div>
 

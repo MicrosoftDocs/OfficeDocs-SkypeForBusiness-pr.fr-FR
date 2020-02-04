@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Autres prises en charge et configurations de serveur 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional server support and requirements
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398577(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29f2d1a1b728fcec84f0aed70f00f1143c70c490
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f111b80bc88b632ff1020f45e899f220edeb7d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838925"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838925"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-12-09_
+_**Dernière modification de la rubrique :** 2013-12-09_
 
-Outre la prise en charge logicielle décrite dans les autres sections de cette documentation sur la prise en charge, Lync Server 2013 présente les limites de support suivantes:
+Outre la prise en charge logicielle décrite dans les autres sections de cette documentation sur la prise en charge, Lync Server 2013 présente les limites de support suivantes :
 
   - Lync Server 2013 prend en charge le système de nom de domaine (DNS) et l’équilibrage de charge matérielle pour des rôles de serveur spécifiques. Il prend également en charge l’équilibrage de charge des applications pour les serveurs de médiation, le cas échéant. Pour plus d’informations sur les situations d’utilisation, consultez la documentation de planification.
 
@@ -43,7 +45,7 @@ Outre la prise en charge logicielle décrite dans les autres sections de cette d
 
   - L’Assistant permettre aux utilisateurs ne prenant pas en charge la conversion automatique des caractères non anglais en un URI compatible SIP, vous devez modifier manuellement l’adresse SIP.
 
-  - Pour les serveurs exécutant un logiciel antivirus, voir exclusions de [l’analyse antivirus pour Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md) pour les exclusions de virus proposées et autres recommandations en matière de sécurité.
+  - Pour les serveurs exécutant un logiciel antivirus, voir [exclusions de l’analyse antivirus pour Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md) pour les exclusions de virus proposées et autres recommandations en matière de sécurité.
 
   - Si vous utilisez IPsec, nous vous recommandons de désactiver IPsec par rapport aux plages de port utilisées pour le trafic audio et vidéo. Pour plus d’informations, reportez-vous à la section [exceptions IPSec dans Lync Server 2013](lync-server-2013-ipsec-exceptions.md) dans la documentation de planification.
 
@@ -55,13 +57,13 @@ Outre la prise en charge logicielle décrite dans les autres sections de cette d
 
   - La fonctionnalité XMPP de Lync Server 2013 est testée et prise en charge par Microsoft pour la fédération de messagerie instantanée avec Google Talk. Pour d’autres systèmes XMPP, contactez le fournisseur tier pour vérifier qu’il prend en charge la fédération avec Lync Server 2013 et pour obtenir d’autres recommandations de déploiement et de dépannage.
 
-  - Avec la publication des mises à jour cumulatives de Lync Server 2013: juillet 2013, Lync Server 2013 prend désormais en charge l’authentification à deux facteurs. Pour plus d’informations, reportez-vous à la rubrique [authentification à deux facteurs dans Lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md).
+  - Avec la publication des mises à jour cumulatives de Lync Server 2013 : juillet 2013, Lync Server 2013 prend désormais en charge l’authentification à deux facteurs. Pour plus d’informations, reportez-vous à la rubrique [authentification à deux facteurs dans Lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md).
 
   - La plupart des serveurs internes nécessitent un type de certificat défini comme **authentification d’ouverture** (OAuth). Vous devez demander et attribuer un certificat OAuth lors de la phase de **demande, d’installation et d’attribution des certificats** de l’Assistant Déploiement de Lync Server. La taille minimale d’une clé de certificat OAuth est de 1024 bits. Un avertissement risque de s’afficher si vous demandez un certificat dont la longueur de la clé est inférieure à 2048 bits. Pour éviter d’éventuels problèmes dans le cas où une longueur de clé de 2048 est appliquée au lieu d’être prévenu, il est vivement recommandé de toujours utiliser une longueur de clé d' 2048 pour les certificats OAuth.
 
-  - Lync Server 2013 et Microsoft Exchange Server 2010 Service Pack 1 (SP1) prennent en charge les algorithmes 140-2 FIPS (Federal Information Processing Standard), si les systèmes d’exploitation Windows Server 2008 R2 sont configurés pour utiliser les algorithmes 140-2 FIPS pour cryptographie système. Pour mettre en œuvre la prise en charge du FIPS, vous devez configurer chaque serveur exécutant Lync Server 2013 pour le prendre en charge. Pour plus d’informations sur les algorithmes compatibles FIPS et sur l’implémentation de la prise en charge du cryptage FIPS, voir l’article de la base de connaissances Microsoft 811833, «chiffrement de système: utiliser les algorithmes compatibles FIPS pour le paramètre de sécurité du chiffrement, du hachage et de la signature dans Windows XP et versions ultérieures. versions de Windows à [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)l’adresse. Pour plus d’informations sur la prise en charge et les limitations de FIPS 140-2 dans Exchange 2010, voir «Exchange 2010 SP1 et prise en [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)charge des algorithmes compatibles FIPS» à l’adresse.
+  - Lync Server 2013 et Microsoft Exchange Server 2010 Service Pack 1 (SP1) prennent en charge les algorithmes 140-2 FIPS (Federal Information Processing Standard), si les systèmes d’exploitation Windows Server 2008 R2 sont configurés pour utiliser les algorithmes 140-2 FIPS pour cryptographie système. Pour mettre en œuvre la prise en charge du FIPS, vous devez configurer chaque serveur exécutant Lync Server 2013 pour le prendre en charge. Pour plus d’informations sur les algorithmes compatibles FIPS et sur l’implémentation de la prise en charge de la sécurité FIPS, voir l’article de la base de connaissances Microsoft 811833, «chiffrement de système : utiliser les algorithmes compatibles FIPS pour le chiffrement, le [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)hachage et le paramètre de sécurité de signature dans Windows XP et les versions ultérieures de Windows sur. Pour plus d’informations sur la prise en charge et les limitations de FIPS 140-2 dans Exchange 2010, voir « Exchange 2010 SP1 et prise en [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)charge des algorithmes compatibles FIPS » à l’adresse.
 
-Lync Server 2013 nécessite l’installation d’autres logiciels sur des composants spécifiques avant ou lors du déploiement. Cela inclut les logiciels disponibles avec le système d’exploitation, le logiciel téléchargeable et les logiciels qui sont automatiquement installés lors de l’installation de Lync Server 2013. Vous trouverez ci-dessous une liste de logiciels supplémentaires qui peuvent être nécessaires:
+Lync Server 2013 nécessite l’installation d’autres logiciels sur des composants spécifiques avant ou lors du déploiement. Cela inclut les logiciels disponibles avec le système d’exploitation, le logiciel téléchargeable et les logiciels qui sont automatiquement installés lors de l’installation de Lync Server 2013. Vous trouverez ci-dessous une liste de logiciels supplémentaires qui peuvent être nécessaires :
 
   - Windows Update
 

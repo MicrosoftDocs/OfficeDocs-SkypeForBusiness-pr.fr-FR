@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table CallPriorities'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: CallPriorities table
 ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398093(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdf08f1dfa8cd04b29f6edb6604a57ab5ec9e822
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838691"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838691"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
-La table CallPriorities est une table statique qui contient la liste des différentes priorités d’appel, telles que «urgence», «urgent» ou «normale».
+La table CallPriorities est une table statique qui contient la liste des différentes priorités d’appel, telles que « urgence », « urgent » ou « normale ».
 
 
 <table>
@@ -64,7 +66,7 @@ La table CallPriorities est une table statique qui contient la liste des différ
 <td><p><strong>Priorité</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td></td>
-<td><p>Valeurs autorisées:</p>
+<td><p>Valeurs autorisées :</p>
 <ul>
 <li><p>0-Inconnu</p></li>
 <li><p>1-non urgent</p></li>

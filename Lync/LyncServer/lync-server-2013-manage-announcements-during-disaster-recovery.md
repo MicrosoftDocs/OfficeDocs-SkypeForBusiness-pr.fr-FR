@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des annonces lors de la récupération d’ur
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage announcements during disaster recovery
 ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65627e68b31e23908e9fd5258a69862f7ea15b79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfc987ea579bef4e2b02c8da210efe9a707c5900
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830913"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830913"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Lync Server 2013 prend en charge les annonces pour les appels vers des numéros non attribués lors des pannes. La restauration de la fonctionnalité d’annonce pendant une interruption est facultative. Si vous choisissez de restaurer les annonces lors d’une panne, vous devez recréer votre configuration d’annonce dans le pool de sauvegarde. Cette section décrit ce que vous devez faire si vous choisissez de restaurer les annonces lors de la récupération d’urgence.
 
@@ -90,7 +92,7 @@ Pour utiliser l’application d’annonce au cours d’une période d’inactivi
 
 **Pour recréer la configuration d’annonce dans le pool de sauvegarde**
 
-1.  Recréez les annonces que vous avez déployées dans le pool principal du pool de sauvegarde en procédant comme suit:
+1.  Recréez les annonces que vous avez déployées dans le pool principal du pool de sauvegarde en procédant comme suit :
     
     1.  Importez les fichiers audio utilisés dans le pool principal vers le pool de sauvegarde en utilisant l’applet de passe **Import-CsAnnouncementFile** et en spécifiant le pool de sauvegarde du paramètre parent.
     
@@ -107,7 +109,7 @@ Pour utiliser l’application d’annonce au cours d’une période d’inactivi
 
 2.  Une fois toutes les annonces recréées dans le pool de sauvegardes, redirigez toutes les plages de nombres non affectées qui utilisent les annonces du pool principal vers les annonces recréées dans le pool de sauvegarde.
     
-    Pour chaque plage de numéros non affecté qui utilise une annonce de la liste principale, exécutez la commande suivante:
+    Pour chaque plage de numéros non affecté qui utilise une annonce de la liste principale, exécutez la commande suivante :
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
@@ -131,9 +133,9 @@ Lorsque le pool principal devient disponible, vous devez rediriger les plages de
 
 **Pour restaurer les annonces dans le pool principal**
 
-1.  Si vous deviez reconstruire le pool principal lors de la récupération, vous devez recréer les annonces dans le pool principal en important les fichiers audio et en créant des annonces, comme vous le feriez dans le pool de sauvegarde, à l’exception de la liste principale du parent. paramètre. Pour plus d’informations, consultez la section «au cours d’une interruption» plus haut dans cette rubrique.
+1.  Si vous deviez reconstruire le pool principal lors de la récupération, vous devez recréer les annonces dans le pool principal en important les fichiers audio et en créant des annonces, comme vous le feriez dans le pool de sauvegarde, à l’exception de la liste principale du parent. paramètre. Pour plus d’informations, consultez la section « au cours d’une interruption » plus haut dans cette rubrique.
 
-2.  Pour chaque plage de nombres non affectée que vous avez modifiée pour l’interruption, exécutez la commande suivante:
+2.  Pour chaque plage de nombres non affectée que vous avez modifiée pour l’interruption, exécutez la commande suivante :
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
@@ -145,7 +147,7 @@ Lorsque le pool principal devient disponible, vous devez rediriger les plages de
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    Dans la liste résultante, recherchez les annonces que vous voulez supprimer et copiez les GUID. Pour chaque annonce que vous voulez supprimer, exécutez:
+    Dans la liste résultante, recherchez les annonces que vous voulez supprimer et copiez les GUID. Pour chaque annonce que vous voulez supprimer, exécutez :
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     

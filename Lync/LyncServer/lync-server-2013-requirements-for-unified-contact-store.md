@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour le magasin de contacts uni
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for unified contact store
 ms:assetid: dab47e4d-6fc7-47a8-aefd-1499bf0d8c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205317(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e183b83457f11358539c5d7f7a315d53093a72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823237"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-La liste suivante décrit les exigences relatives à l’implémentation d’un magasin de contacts unifié dans Lync Server 2013:
+La liste suivante décrit les exigences relatives à l’implémentation d’un magasin de contacts unifié dans Lync Server 2013 :
 
   - Vous devez exécuter Microsoft Lync Server 2013 et Exchange 2013.
 

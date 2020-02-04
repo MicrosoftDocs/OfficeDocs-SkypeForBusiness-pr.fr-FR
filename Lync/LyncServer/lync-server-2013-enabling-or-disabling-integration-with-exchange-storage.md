@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation ou désactivation de l’intégration avec le stockage Exchange'
+title: 'Lync Server 2013 : activation ou désactivation de l’intégration avec le stockage Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling integration with Exchange storage
 ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5c8a52aabb504ce63ef6e340b5a68e9e8c4c0e7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831236"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
-Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver l’intégration avec le stockage Exchange. Cela inclut les configurations d’archivage suivantes:
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver l’intégration avec le stockage Exchange. Cela inclut les configurations d’archivage suivantes :
 
   - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
 
-Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.
 
 <div>
 

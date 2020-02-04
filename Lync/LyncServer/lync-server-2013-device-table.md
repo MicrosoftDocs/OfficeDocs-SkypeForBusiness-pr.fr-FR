@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table Device'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device table
 ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 974898f6c3fa96dd9356a0a9eed1e3fab09d288b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831430"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831430"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 La table Device est une table qui contient des informations sur les différents périphériques de capture ou de rendu. Chaque enregistrement de la table représente un appareil.
 
@@ -70,7 +72,7 @@ La table Device est une table qui contient des informations sur les différents 
 <td><p><strong>DeviceType</strong></p></td>
 <td><p>bit</p></td>
 <td><p>Nom_unité + DeviceType est unique</p></td>
-<td><p>Type d’appareil. 1 est un appareil de capture; 0 est un périphérique de rendu.</p></td>
+<td><p>Type d’appareil. 1 est un appareil de capture ; 0 est un périphérique de rendu.</p></td>
 </tr>
 </tbody>
 </table>

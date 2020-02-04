@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: détails de l’affichage QoE'
+title: 'Lync Server 2013 : détails de l’affichage QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE view details
 ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e223ff2adee63eb8e13304e4df6db519e85014f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823685"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823685"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Les vues couvrent les cas les plus courants de retour de données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés plutôt que d’accéder directement aux tables de la base de données. en effet, les vues sont plus susceptibles de garantir la compatibilité descendante avec les versions ultérieures.
 

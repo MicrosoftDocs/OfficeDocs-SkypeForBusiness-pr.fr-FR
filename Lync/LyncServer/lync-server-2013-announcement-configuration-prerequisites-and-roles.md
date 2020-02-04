@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Conditions prérequises et rôles de configuration d�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Announcement configuration prerequisites and roles
 ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5f909170e1de2566e21e9305175211c306fee6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42cbc1429d4e27ee172dc1dacf6b86fa6ac243d9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839039"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839039"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 Annonce est une fonction de gestion des appels voix entreprise. Cette rubrique décrit ce que vous devez mettre en place avant de pouvoir configurer l’annonce et les affectations de rôles nécessaires à l’exécution de tâches de configuration.
 
@@ -43,7 +45,7 @@ Cette section suppose que vous avez lu la documentation de planification liée �
 
 ## <a name="announcement-configuration-prerequisites"></a>Conditions préalables à la configuration de l’annonce
 
-L’application d’annonce nécessite les composants suivants:
+L’application d’annonce nécessite les composants suivants :
 
   - service d’application
 
@@ -59,13 +61,13 @@ Tous ces composants sont installés par défaut lorsque vous déployez Enterpris
 
 ## <a name="announcement-configuration-roles"></a>Rôles de configuration d’annonce
 
-Pour configurer des annonces, vous pouvez utiliser les outils d’administration suivants:
+Pour configurer des annonces, vous pouvez utiliser les outils d’administration suivants :
 
   - Panneau de configuration Lync Server
 
   - Lync Server Management Shell
 
-La configuration de l’application d’annonce nécessite l’un des rôles d’administration suivants:
+La configuration de l’application d’annonce nécessite l’un des rôles d’administration suivants :
 
   - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer toutes les stratégies et paramètres relatifs à la voix, y compris les paramètres d’annonce.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration du groupe Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Response Group
 ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4d12d1ee21cfa5e480dea52a0de9f89b250715c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838179"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-30_
+_**Dernière modification de la rubrique :** 2012-10-30_
 
 Response Group est une fonctionnalité de voix entreprise qui achemine et met en file d’attente les appels entrants vers des groupes de personnes, appelés *agents*, tels qu’un service d’assistance ou un service clientèle.
 
@@ -45,7 +47,7 @@ Cette section vous guide dans la configuration du groupe de réponse Lync Server
 
 
 > [!TIP]  
-> Pour plus d’informations sur la création d’un groupe de réponse à l’aide de Lync Server Management Shell, y compris un exemple de script, reportez-vous <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>à la section «Création de votre premier groupe de réponse avec Lync Server Management Shell».
+> Pour plus d’informations sur la création d’un groupe de réponse à l’aide de Lync Server Management Shell, y compris un exemple de script, reportez-vous <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>à la section « Création de votre premier groupe de réponse avec Lync Server Management Shell ».
 
 
 

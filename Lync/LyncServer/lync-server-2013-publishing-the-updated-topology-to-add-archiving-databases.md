@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: publication de la topologie mise à jour pour ajouter des bases de données d’archivage'
+title: 'Lync Server 2013 : publication de la topologie mise à jour pour ajouter des bases de données d’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing the updated topology to add Archiving databases
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204860(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f39e5f35dbd088543456f09ddd49f6aa2f9325c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0d12b1b4195e57fc289d11eb54f24903d05ea26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823692"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823692"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Après avoir effectué la mise à jour de votre topologie dans le générateur de topologie, vous devez publier la topologie dans le centre de gestion central avant de pouvoir configurer et utiliser l’archivage. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
 
@@ -47,7 +49,7 @@ Après avoir effectué la mise à jour de votre topologie dans le générateur d
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et de la <STRONG>RTCUniversalServer. </STRONG>Le groupe administrateurs et qui dispose des autorisations contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers 2013 de Lync Server (c’est-à-dire, afin que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire requise (DACL) ou un compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie. vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers 2013 Lync Server (c’est-à-dire, le générateur de topologie peut configurer la liste de contrôle d’accès discrétionnaire requise). ou un compte disposant de droits équivalents.
 
     
     </div>

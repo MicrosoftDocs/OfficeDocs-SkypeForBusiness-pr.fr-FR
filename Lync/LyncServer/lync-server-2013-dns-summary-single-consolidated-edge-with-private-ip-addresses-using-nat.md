@@ -3,6 +3,8 @@ title: Résumé des enregistrements DNS - Serveur Edge unique consolidé avec ad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412787(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 156757dbb3afd671d15618e8d3fceb0dfa7a04ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3276219fb4c2227cde75cf9a5d3a47616c03336d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831352"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,23 +35,23 @@ ms.locfileid: "34831352"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-03-09_
+_**Dernière modification de la rubrique :** 2017-03-09_
 
 Les exigences d’enregistrements DNS pour l’accès distant à Lync Server 2013 sont assez simples comparées à celles des certificats et des ports. De plus, de nombreux enregistrements sont facultatifs, en fonction de la configuration des clients exécutant Lync 2013 et de la possibilité d’activer la Fédération.
 
 Pour plus d’informations sur les exigences DNS de Lync 2013, voir [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-Pour plus d’informations sur la configuration automatique des clients exécutant Lync 2013 si le DNS fractionné-Brain n’est pas configuré, voir «Configuration automatique sans DNS fractionné-Brain» dans [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Pour plus d’informations sur la configuration automatique des clients exécutant Lync 2013 si le DNS fractionné-Brain n’est pas configuré, voir « Configuration automatique sans DNS fractionné-Brain » dans [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
 Le tableau suivant contient un résumé des enregistrements DNS requis pour la prise en charge de la topologie de périphérie unique consolidée illustrée dans la figure unique. Notez que certains enregistrements DNS sont requis uniquement pour la configuration automatique de clients 2013 et Lync 2010. Si vous envisagez d’utiliser des objets de stratégie de groupe pour configurer des clients Lync, les enregistrements de configuration automatique associés ne sont pas nécessaires.
 
 <div>
 
-## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANT: configuration requise pour les cartes réseau du serveur Edge
+## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANT : configuration requise pour les cartes réseau du serveur Edge
 
 Pour éviter les problèmes de routage, assurez-vous qu’il y a au moins deux cartes réseau dans vos serveurs Edge et que la passerelle par défaut est définie uniquement sur l’adaptateur réseau associé à l’interface externe. Par exemple, comme illustré dans la figure de la topologie unique de l’arête consolidée [avec des adresses IP privées et NAT dans Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md), la passerelle par défaut pointe vers le pare-feu externe (10.45.16.1).
 
-Vous pouvez configurer deux cartes réseau sur votre serveur Edge comme suit:
+Vous pouvez configurer deux cartes réseau sur votre serveur Edge comme suit :
 
   - **Carte réseau 1 (interface interne)**
     
@@ -132,7 +134,7 @@ Vous pouvez configurer deux cartes réseau sur votre serveur Edge comme suit:
 <td><p>DNS/SRV/5061 externes</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Interface externe de l’accès SIP SIP requise pour la détection automatique de DNS des partenaires fédérés connus sous le nom de «domaine SIP autorisé» (appelé Fédération avancée dans les versions précédentes). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p></td>
+<td><p>Interface externe de l’accès SIP SIP requise pour la détection automatique de DNS des partenaires fédérés connus sous le nom de « domaine SIP autorisé » (appelé Fédération avancée dans les versions précédentes). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne/A</p></td>
@@ -148,7 +150,7 @@ Vous pouvez configurer deux cartes réseau sur votre serveur Edge comme suit:
 
 
 > [!IMPORTANT]
-> Les enregistrements répertoriés dans le tableau précédent sont affichés avec une extension <EM>.net</EM> ou une extension <EM>. com</EM> afin de mettre en évidence la zone dans laquelle ils doivent résider si vous n’utilisez pas le DNS fractionné-Brain. Si vous utilisez le système DNS à Split-Brain, tous les enregistrements se trouvent dans la même zone <EM>. com</EM> , à la seule distinction qu’il s’agit de la version de zone DNS interne ou externe. Pour plus d’informations, consultez la section «DNS split-brain» dans <A href="lync-server-2013-determine-dns-requirements.md">déterminer les exigences DNS pour Lync Server 2013</A>.
+> Les enregistrements répertoriés dans le tableau précédent sont affichés avec une extension <EM>.net</EM> ou une extension <EM>. com</EM> afin de mettre en évidence la zone dans laquelle ils doivent résider si vous n’utilisez pas le DNS fractionné-Brain. Si vous utilisez le système DNS à Split-Brain, tous les enregistrements se trouvent dans la même zone <EM>. com</EM> , à la seule distinction qu’il s’agit de la version de zone DNS interne ou externe. Pour plus d’informations, consultez la section « DNS split-brain » dans <A href="lync-server-2013-determine-dns-requirements.md">déterminer les exigences DNS pour Lync Server 2013</A>.
 
 
 
@@ -181,7 +183,7 @@ Vous pouvez configurer deux cartes réseau sur votre serveur Edge comme suit:
 <td><p>DNS/SRV/5061 externes</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>L’interface externe d’accès SIP SIP doit être requise pour la découverte automatique du DNS de votre Fédération par le biais d’autres partenaires de Fédération potentiels, et est désignée sous le nom de «domaines SIP autorisés» (appelé Fédération avancée dans les versions antérieures). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p>
+<td><p>L’interface externe d’accès SIP SIP doit être requise pour la découverte automatique du DNS de votre Fédération par le biais d’autres partenaires de Fédération potentiels, et est désignée sous le nom de « domaines SIP autorisés » (appelé Fédération avancée dans les versions antérieures). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p>
 
 
 

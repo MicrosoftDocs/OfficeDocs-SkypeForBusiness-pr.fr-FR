@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de votre environnement pour le portail 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring your environment for the Lync Room System Administrative Web Portal
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef7596e65c44f871da8c26a0526a389dde72a45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838143"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-22_
+_**Dernière modification de la rubrique :** 2014-05-22_
 
 Pour utiliser le portail Web d’administration LRS (Lync Room System), vous devez installer ou configurer les éléments requis suivants.
 
@@ -47,7 +49,7 @@ Pour utiliser le portail Web d’administration LRS (Lync Room System), vous dev
 
 </div>
 
-1.  Installez les mises à jour cumulatives de Lync Server 2013: juillet 2013 dans la topologie du serveur Lync.
+1.  Installez les mises à jour cumulatives de Lync Server 2013 : juillet 2013 dans la topologie du serveur Lync.
     
     Pour obtenir la mise à jour ou découvrir ce qu’elle contient, voir [mises à jour de Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
 
@@ -65,19 +67,19 @@ Pour utiliser le portail Web d’administration LRS (Lync Room System), vous dev
     
      
     
-    ![Liste de groupes d’administrateurs avec le rôle groupe de sécurité] (images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Liste de groupes d’administrateurs avec le rôle groupe de sécurité")  
+    ![Liste des groupes d’administrateurs avec rôle de groupe de sécurité](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Liste des groupes d’administrateurs avec rôle de groupe de sécurité")  
     
      
 
 5.  Ajoutez LRSFullAccessAdminGroup en tant que membre de LRSSupportAdminGroup.
     
-    ![Page membres de propriété LRSSupportAdminGroup] (images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Page membres de propriété LRSSupportAdminGroup")  
+    ![Page des membres des propriétés LRSSupportAdminGroup](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Page des membres des propriétés LRSSupportAdminGroup")  
     
      
 
 6.  Créez un utilisateur Active Directory activé pour SIP avec le nom LRSSupport. Ajoutez cet utilisateur au groupe LRSSupportAdminGroup.
     
-    ![Page membres de propriété LRSSupportAdminGroup] (images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Page membres de propriété LRSSupportAdminGroup")  
+    ![Page des membres des propriétés LRSSupportAdminGroup](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Page des membres des propriétés LRSSupportAdminGroup")  
     
      
 

@@ -3,6 +3,8 @@ title: Voix Entreprise dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enterprise Voice
 ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7c8131c2f52dfc7ab061d8dec46ee34b62f89e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e62224a7187c54222364045d0ac7b1aa70bccb9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831215"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831215"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-04-08_
+_**Dernière modification de la rubrique :** 2015-04-08_
 
 Avec Enterprise Voice, Lync Server fournit une offre VoIP (voix sur IP) autonome pour améliorer ou remplacer les systèmes PBX (Private Branch Exchange) traditionnels. Les utilisateurs d’Enterprise Voice peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels à l’extérieur de votre organisation. La solution voix entreprise inclut des fonctionnalités d’appel courantes, telles que réponse, transfert, transfert, mise en attente, dérouter, libérer et parc, et 9-1-1 (E9-1-1-1). Voix entreprise prend également en charge un vaste éventail d’appareils IP et USB plus courants.
 
@@ -89,7 +91,7 @@ La délégation d’appel Lync permet aux utilisateurs de déléguer la gestion 
 
 Les appels d’équipe permettent à un utilisateur de faire sonner simultanément les téléphones des membres de l’équipe pour que tous les membres de l’équipe puissent répondre à l’appel.
 
-Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013: février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Le prélèvement d’appels de groupe diffère de l’appel d’équipe dans la mesure où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais que les autres utilisateurs peuvent choisir d’y répondre en composant un numéro de groupe.
+Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013 : février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Le prélèvement d’appels de groupe diffère de l’appel d’équipe dans la mesure où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais que les autres utilisateurs peuvent choisir d’y répondre en composant un numéro de groupe.
 
 Les groupes de réponse peuvent être configurés pour la mise en file d’attente et le routage intelligent des appels vers les agents désignés. Les utilisations courantes incluent les support informatiques, les services d’assistance aux ressources humaines et autres centres de contacts internes.
 

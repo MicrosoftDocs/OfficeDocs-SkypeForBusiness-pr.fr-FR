@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifier les paramètres de configuration d’un service Web existant'
+title: 'Lync Server 2013 : modifier les paramètres de configuration d’un service Web existant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify existing Web Service configuration settings
 ms:assetid: bd9c7aa5-d31c-4fab-b31d-8baae26b1296
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182580(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f53d0eb34412c746332a0f74d140b6c41c9c257f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11bd7f4629d4a3cf0f356a47760810e380af7deb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827150"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Vous pouvez utiliser la page de **service Web** pour configurer les méthodes d’authentification pour l’accès aux serveurs Web et aux services Web de Lync Server 2013.
 

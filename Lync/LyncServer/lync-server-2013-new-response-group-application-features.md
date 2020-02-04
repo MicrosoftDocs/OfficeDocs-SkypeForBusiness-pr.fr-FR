@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application Respons
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Response Group application features
 ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33dd01cf7516f950e58dbc90ee09b06901bccf74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bddf1f670ef2a0a246100564962b2f69db741186
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826149"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 L’application Response Group vous permet d’acheminer et de traiter en file d’attente les appels entrants vers des personnes disposant de personnes spécifiques, comme le service clientèle, le support technique interne ou l’assistance téléphonique générale pour un service.
 
-Les fonctionnalités d’application de groupe de réponse suivantes sont une nouveauté de Lync Server 2013:
+Les fonctionnalités d’application de groupe de réponse suivantes sont une nouveauté de Lync Server 2013 :
 
   - **Rôle du responsable**
     
-    Lync Server 2013 introduit un nouveau rôle responsable de groupe de réponse. Il existe désormais deux rôles de gestion pour les groupes de réponse: responsable de groupe de réponse et administrateur de groupe de réponse. Si les administrateurs de groupe de réponse peuvent tout de même configurer tous les éléments pour n’importe quel groupe de réponse, les responsables peuvent configurer uniquement certains éléments, uniquement pour les groupes de réponse qu’ils possèdent.
+    Lync Server 2013 introduit un nouveau rôle responsable de groupe de réponse. Il existe désormais deux rôles de gestion pour les groupes de réponse : responsable de groupe de réponse et administrateur de groupe de réponse. Si les administrateurs de groupe de réponse peuvent tout de même configurer tous les éléments pour n’importe quel groupe de réponse, les responsables peuvent configurer uniquement certains éléments, uniquement pour les groupes de réponse qu’ils possèdent.
     
     Cette amélioration apportée au modèle d’administration offre une évolutivité du groupe de réponse, en particulier pour des scénarios de déploiement importants.
 

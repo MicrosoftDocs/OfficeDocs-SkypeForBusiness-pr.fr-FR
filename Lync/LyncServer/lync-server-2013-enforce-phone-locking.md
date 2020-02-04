@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: renforcer le verrouillage du téléphone'
+title: 'Lync Server 2013 : renforcer le verrouillage du téléphone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enforce phone locking
 ms:assetid: 1f89298b-aea9-4952-93ca-0270b565792b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4961aabf2edce33f1e5975497844704ac0feae03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c781c09db1834d85a1df4532d1484e43d74ca48
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831220"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831220"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les appareils Lync Phone Edition peuvent être verrouillés pour des raisons de sécurité. Si vous appliquez le verrouillage du téléphone, l’appareil exécutant Lync Phone Edition se verrouille après un certain temps que vous configurez. Lorsque le téléphone est verrouillé, un utilisateur peut passer des appels mais ne peut pas accéder aux informations de calendrier et de contact, à la messagerie vocale et aux journaux d’appels ou utiliser la recherche. Pour déverrouiller le téléphone, l’utilisateur entre un code confidentiel.
 
@@ -65,7 +67,7 @@ Pour appliquer le verrouillage du téléphone, activez et configurez-le à l’a
 
 ## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a>Application du verrouillage du téléphone à l’aide des cmdlets Windows PowerShell
 
-Le verrouillage du téléphone peut être appliqué à l’aide de l’applet de passe Set-CsUCPhoneConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Le verrouillage du téléphone peut être appliqué à l’aide de l’applet de passe Set-CsUCPhoneConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

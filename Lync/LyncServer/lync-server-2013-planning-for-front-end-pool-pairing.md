@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification du jumelage de pools frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Front End pool pairing
 ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824966"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824966"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Pour les meilleures capacités de reprise après sinistre dans Lync Server 2013, le déploiement de paires de pools front-end sur deux sites à dispersion géographique. Chaque site comporte une réserve frontale associée à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde de Lync Server fournit la réplication des données en temps réel pour que les pools restent synchronisés. Le service de sauvegarde est une nouvelle fonctionnalité de Lync Server 2013 conçue pour prendre en charge la solution de reprise après sinistre. Elle est installée sur un pool frontal lorsque vous jumelez la liste avec un autre pool frontal.
 

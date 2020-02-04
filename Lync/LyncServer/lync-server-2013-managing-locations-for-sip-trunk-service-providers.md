@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion des emplacements pour les fournisseurs de service SIP Trunk'
+title: 'Lync Server 2013 : gestion des emplacements pour les fournisseurs de service SIP Trunk'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing locations for SIP trunk service providers
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398959(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba237ae4e984169a354339ce0222dfd58f324c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9ebc471459c8e406914f5a075d7e4cf8b69fadd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762092"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828004"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Pour configurer Lync Server de façon à ce qu’il détecte automatiquement les clients au sein d’un réseau, vous devez renseigner la base de données de service informations d’emplacement auprès d’un Wiremap réseau et publier les emplacements, ou lier une base de données externe contenant déjà le bon mappages. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, reportez-vous à [la rubrique Configurer la base de données de localisation dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
 
@@ -41,7 +43,7 @@ Renseignez la base de données du service Informations d’emplacement avec un e
 
   - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-  - Un identificateur d’emplacement qui permet à l’utilisateur de voir facilement le bon emplacement du client Lync. Le client Lync concatène et affiche automatiquement les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «numéro \<\>de rue du 1er étage»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+  - Un identificateur d’emplacement qui permet à l’utilisateur de voir facilement le bon emplacement du client Lync. Le client Lync concatène et affiche automatiquement les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, « numéro \<\>de rue du 1er étage »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
   - Si l’emplacement est approximatif (car déterminé par un point d’accès sans fil), vous pouvez ajouter le mot Near (par exemple, « À proximité du 1er étage 1234 »).
 
@@ -71,7 +73,7 @@ Les questions suivantes vous permettront de déterminer comment remplir la base 
   - **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**  
     À l’aide de l’option de service d’information d’emplacement secondaire du serveur Lync Server pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’information d’emplacement peut retourner plusieurs adresses à partir du service d’information d’emplacement secondaire, vers un client serveur Lync. L’utilisateur peut alors choisir l’emplacement le plus approprié.
     
-    Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour en savoir plus,\[voir «MS\]-E911WS: Web service for E911 support Protocol Specification <http://go.microsoft.com/fwlink/p/?linkid=213819>» à l’adresse. Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
+    Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour en savoir plus,\[voir « MS\]-E911WS : Web service for E911 support Protocol Specification <http://go.microsoft.com/fwlink/p/?linkid=213819>» à l’adresse. Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le remplissage de la base de données de localisation, voir [configurer la base de données de localisation dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
 

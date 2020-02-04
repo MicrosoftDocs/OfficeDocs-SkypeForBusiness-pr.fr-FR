@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: examen du rapport de synthèse'
+title: 'Lync Server 2013 : examen du rapport de synthèse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Summary Report
 ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822320"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Le rapport d’administration de Lync Server est le premier des quatre rapports intéressants qui décrivent en détail votre conception. Les informations contenues dans ce rapport et les trois autres rapports associés constituent une excellente documentation pour les équipes de technologie d’information:
+Le rapport d’administration de Lync Server est le premier des quatre rapports intéressants qui décrivent en détail votre conception. Les informations contenues dans ce rapport et les trois autres rapports associés constituent une excellente documentation pour les équipes de technologie d’information :
 
-![Rapport d’administration de synthèse générale] (images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Rapport d’administration de synthèse générale")
+![Rapport d’administration Synthèse générale](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Rapport d’administration Synthèse générale")
 
   - Rapport des certificats
 

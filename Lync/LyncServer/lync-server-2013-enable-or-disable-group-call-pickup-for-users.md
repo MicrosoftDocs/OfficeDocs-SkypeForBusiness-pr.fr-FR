@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activez ou désactivez le prélèvement d’appels de groupe pour les utilisateurs'
+title: 'Lync Server 2013 : activez ou désactivez le prélèvement d’appels de groupe pour les utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable Group Call Pickup for users
 ms:assetid: 5bd8537c-7519-4749-9b4e-1400632941d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945632(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d02aaa74c4b9d1329f02ff0fbb144d68e12461
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831289"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831289"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Lors de l’ajout d’une plage de capture d’appels de groupe à la table d’orbite du parc d’appels, vous pouvez activer et désactiver le prélèvement d’appel de groupe pour l’utilisateur, le cas échéant. Cette section explique comment utiliser l’outil Kit de ressources SEFAUtil pour activer et désactiver le choix d’appels de groupe pour les utilisateurs.
 

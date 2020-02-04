@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création d’une topologie de serveurs Edge et direc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Building an edge and Director topology
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398202(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae45053e8d9c01cd484da8a052304712f04a06fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f8a86d4f80b7fb4fc9990911908ef0c8a317c98
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838719"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
-La création de la topologie implique les tâches de planification et de déploiement suivantes:
+La création de la topologie implique les tâches de planification et de déploiement suivantes :
 
   - **Planification**   vous devez définir une topologie appropriée pour votre organisation et identifier les composants requis pour la déployer. Voici les étapes standard du processus de planification. L’outil de planification de Microsoft Lync Server 2013, fourni avec Lync Server 2013, simplifie le démarrage du processus de planification, ainsi que la possibilité d’apporter facilement des modifications à la fin de vos exigences et plans.
 
@@ -49,7 +51,7 @@ Pour plus d’informations sur ces outils, voir [liste de vérification de dépl
 
 
 > [!NOTE]  
-> Si vous avez déjà utilisé le générateur de topologie pour définir une topologie complète, y compris la topologie de bord, vous pouvez ignorer la <A href="lync-server-2013-define-your-edge-topology.md">topologie de définition de votre topologie de périphérie dans Lync server 2013</A> et <A href="lync-server-2013-publish-your-topology.md">publier votre topologie dans les tâches 2013 serveur Lync</A> dans cette section, mais vous avez besoin de pour mettre fin à l' <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export de votre topologie Lync Server 2013 et copiez-la sur le média externe pour la tâche d’installation latérale</A> .
+> Si vous avez déjà utilisé le générateur de topologie pour définir une topologie complète, y compris la topologie de bord, vous pouvez ignorer la <A href="lync-server-2013-define-your-edge-topology.md">topologie de définition de votre topologie Edge dans Lync server 2013</A> et <A href="lync-server-2013-publish-your-topology.md">publier votre topologie dans les tâches 2013 serveur Lync</A> de cette section, mais vous devez effectuer l' <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">exportation de votre topologie Lync Server 2013 et la copier vers le média externe pour la tâche d’installation Edge</A> .
 
 
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: listes de contrôle des opérations'
+title: 'Lync Server 2013 : listes de contrôle des opérations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations checklists
 ms:assetid: 263cf20b-bf2f-4a47-951c-6c5fbd0a9445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn745896(v=OCS.15)
@@ -10,17 +12,17 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b260ff9cad36a0657d5f27ff7f3c36e396e02cf
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701550"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755798"
 ---
 # <a name="operations-checklists-for-lync-server-2013"></a>Listes de contrôle des opérations pour Lync Server 2013 
 
 
-_**Dernière modification de la rubrique:** 2019-06-03_
+_**Dernière modification de la rubrique :** 2019-06-03_
 
 Les listes de vérification mentionnées ici concernent votre enregistrement interne et, si nécessaire, vous pouvez les modifier conformément aux besoins de votre organisation.
 

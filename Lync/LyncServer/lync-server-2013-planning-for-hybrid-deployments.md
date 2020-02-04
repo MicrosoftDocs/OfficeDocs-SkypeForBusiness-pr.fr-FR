@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification des déploiements hybrides'
+title: 'Lync Server 2013 : planification des déploiements hybrides'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825148"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825148"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-05-25_
+_**Dernière modification de la rubrique :** 2016-05-25_
 
 Prenez en compte les exigences suivantes pour les utilisateurs et votre infrastructure réseau lors de la planification d’un déploiement hybride.
 
@@ -63,7 +65,7 @@ Pour pouvoir implémenter et déployer un déploiement hybride, vous devez dispo
 
 ## <a name="lync-client-support"></a>Prise en charge du client Lync
 
-Il existe certaines différences entre les fonctionnalités prises en charge dans les clients Lync, ainsi que les fonctionnalités disponibles dans les environnements locaux et en ligne. Avant de décider de l’endroit où vous souhaitez accéder aux utilisateurs de votre organisation, vous pouvez afficher la prise en charge du client pour les différentes configurations de Lync Server. Les clients suivants sont pris en charge dans Skype entreprise Online dans un déploiement hybride Lync:
+Il existe certaines différences entre les fonctionnalités prises en charge dans les clients Lync, ainsi que les fonctionnalités disponibles dans les environnements locaux et en ligne. Avant de décider de l’endroit où vous souhaitez accéder aux utilisateurs de votre organisation, vous pouvez afficher la prise en charge du client pour les différentes configurations de Lync Server. Les clients suivants sont pris en charge dans Skype entreprise Online dans un déploiement hybride Lync :
 
   - Lync 2010
 
@@ -81,7 +83,7 @@ Il existe certaines différences entre les fonctionnalités prises en charge dan
 
   - Lync Basic 2013
 
-Pour plus d’informations sur la prise en charge des clients, voir les rubriques suivantes:
+Pour plus d’informations sur la prise en charge des clients, voir les rubriques suivantes :
 
   - [Clients pour Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
 
@@ -97,7 +99,7 @@ Pour plus d’informations sur la prise en charge des clients, voir les rubrique
 
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
-Pour configurer votre déploiement pour une connexion hybride avec Skype entreprise Online, vous devez disposer de l’une des topologies prises en charge suivantes:
+Pour configurer votre déploiement pour une connexion hybride avec Skype entreprise Online, vous devez disposer de l’une des topologies prises en charge suivantes :
 
   - Un déploiement 2015 de Skype entreprise Server avec tous les serveurs exécutant Skype entreprise Server 2015.
 
@@ -109,7 +111,7 @@ Pour configurer votre déploiement pour une connexion hybride avec Skype entrepr
     
       - Les outils d’administration de Skype entreprise Server 2015 ou Lync Server 2013 doivent être installés sur au moins un serveur ou une station de travail de gestion.
 
-  - Un déploiement Lync Server 2013 et Skype entreprise Server 2015 mixte avec les rôles serveur suivants dans au moins un site exécutant Skype entreprise Server 2015:
+  - Un déploiement Lync Server 2013 et Skype entreprise Server 2015 mixte avec les rôles serveur suivants dans au moins un site exécutant Skype entreprise Server 2015 :
     
       - Au moins un pool d'entreprise ou serveur Standard Edition 
     
@@ -117,7 +119,7 @@ Pour configurer votre déploiement pour une connexion hybride avec Skype entrepr
     
       - Pool Edge associé à la fédération SIP
 
-  - Un déploiement Lync Server 2010 et Skype entreprise Server 2015 mixte avec les rôles de serveurs suivants dans au moins un site exécutant Skype entreprise Server 2015:
+  - Un déploiement Lync Server 2010 et Skype entreprise Server 2015 mixte avec les rôles de serveurs suivants dans au moins un site exécutant Skype entreprise Server 2015 :
     
       - Au moins un pool d'entreprise ou serveur Standard Edition 
     
@@ -125,7 +127,7 @@ Pour configurer votre déploiement pour une connexion hybride avec Skype entrepr
     
       - Pool Edge associé à la fédération SIP pour le site
 
-  - Un déploiement Lync Server 2010 et Lync Server 2013 mixte avec les rôles serveur suivants dans au moins un site exécutant Lync Server 2013:
+  - Un déploiement Lync Server 2010 et Lync Server 2013 mixte avec les rôles serveur suivants dans au moins un site exécutant Lync Server 2013 :
     
       - Au moins un pool d'entreprise ou serveur Standard Edition dans le site
     
@@ -137,7 +139,7 @@ Pour configurer votre déploiement pour une connexion hybride avec Skype entrepr
 
 
 > [!IMPORTANT]  
-> La gestion des utilisateurs, y compris les déplacements entre les utilisateurs locaux et UNRESOLVED_TOKEN_VAL (skypeforbusiness) en ligne, doit être effectuée à l’aide de la version installée la plus récente des outils d’administration. Les outils d’administration doivent être installés sur un serveur distinct qui dispose d’un accès de connexion au déploiement local existant et à Internet. Pour déplacer des utilisateurs de votre déploiement local vers UNRESOLVED_TOKEN_VAL (skype16_online), l’applet de <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">passe Move-Csuser</A> doit être exécutée à partir des outils d’administration connectés à votre déploiement local.
+> Tout le fonctionnement de la gestion des utilisateurs, y compris les utilisateurs locaux et UNRESOLVED_TOKEN_VAL (skypeforbusiness) en ligne, doit être réalisé à l’aide de la version installée la plus récente des outils d’administration. Les outils d’administration doivent être installés sur un serveur distinct qui dispose d’un accès de connexion au déploiement local existant et à Internet. L’applet de connexion <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-Csuser</A> pour déplacer des utilisateurs de votre déploiement local vers UNRESOLVED_TOKEN_VAL (skype16_online) doit être exécutée à partir des outils d’administration connectés à votre déploiement local.
 
 
 
@@ -145,7 +147,7 @@ Pour configurer votre déploiement pour une connexion hybride avec Skype entrepr
 
 Pour plus d’informations sur les topologies prises en charge, voir [topologies prises en charge dans Lync server 2013](lync-server-2013-supported-topologies.md)et [topologies de référence de Lync Server 2013 pour les déploiements hybrides d’entreprise](http://go.microsoft.com/fwlink/p/?linkid=398709).
 
-Pour plus d’informations sur les déploiements hybrides et la connexion de PowerShell à Lync Online, voir [Lync Online: Lync PowerShell et résolution des problèmes hybrides](http://go.microsoft.com/fwlink/p/?linkid=306718).
+Pour plus d’informations sur les déploiements hybrides et la connexion de PowerShell à Lync Online, voir [Lync Online : Lync PowerShell et résolution des problèmes hybrides](http://go.microsoft.com/fwlink/p/?linkid=306718).
 
 </div>
 
@@ -189,7 +191,7 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 <td><p>Enregistrement DNS requis</p></td>
 </tr>
 <tr class="even">
-<td><p>Enregistrement SRV DNS pour _sipfederationtls. _ TCP. &lt;sipdomain.com&gt; pour tous les domaines SIP pris en charge résolus vers les adresses IP externes d’Access Edge</p></td>
+<td><p>Enregistrement SRV DNS pour _sipfederationtls. _tcp. &lt;sipdomain.com&gt; pour tous les domaines SIP pris en charge résolus vers les adresses IP externes d’Access Edge</p></td>
 <td><p>Serveur(s) Edge</p></td>
 <td><p>Permettre la communication fédérée dans une configuration hybride. Le serveur Edge doit savoir où acheminer le trafic fédéré pour le domaine SIP qui est à la fois en local et en ligne.</p></td>
 </tr>
@@ -305,7 +307,7 @@ Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements L
 
 Lors de la planification d'un déploiement hybride, prenez en compte les aspects suivants liés aux utilisateurs.
 
-  - **** Le nombre maximal de contacts pour les utilisateurs de Lync Online 250 est fixé aux utilisateurs    Au-delà de ce chiffre, les contacts seront supprimés de la liste des contacts de l'utilisateur.
+  - **Le nombre**maximal de contacts pour les utilisateurs de Lync Online 250 est fixé aux utilisateurs    Au-delà de ce chiffre, les contacts seront supprimés de la liste des contacts de l'utilisateur.
 
   - **Messagerie instantanée et présence**   les listes de contacts, groupes et listes de contrôle d’accès des utilisateurs sont migrés avec le compte d’utilisateur.
 

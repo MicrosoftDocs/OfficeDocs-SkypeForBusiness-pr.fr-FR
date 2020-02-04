@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifications apportées par la préparation du domaine'
+title: 'Lync Server 2013 : modifications apportées par la préparation du domaine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by domain preparation
 ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398742(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b674e2c3d65aeda22838dca08ac5b016fa83359
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838611"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838611"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2010-10-18_
+_**Dernière modification de la rubrique :** 2010-10-18_
 
 Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créées par la préparation du domaine à la racine du domaine. Toutes les entrées ACE sont héritées sauf mention contraire.
 
@@ -63,7 +65,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <tbody>
 <tr class="odd">
 <td><p>Lire le conteneur (non hérité)</p></td>
-<td><p><strong>Oui</strong></p></td>
+<td><p><strong>Positive</strong></p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -121,7 +123,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Écrire les adresses proxy de propriété utilisateur</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 </tr>
@@ -129,7 +131,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Write User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 </tr>
@@ -137,7 +139,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Écrire RTCPropertySet utilisateur</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 </tr>
@@ -146,14 +148,14 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Le tableau suivant répertorie les entrées de contrôle d’accès qu’il est créé dans les trois conteneurs intégrés: utilisateurs, ordinateurs et contrôleurs de domaine. Toutes les entrées ACE sont héritées sauf mention contraire.
+Le tableau suivant répertorie les entrées de contrôle d’accès qu’il est créé dans les trois conteneurs intégrés : utilisateurs, ordinateurs et contrôleurs de domaine. Toutes les entrées ACE sont héritées sauf mention contraire.
 
 ### <a name="aces-added-to-built-in-containers"></a>ACE ajoutés aux conteneurs intégrés
 
@@ -173,7 +175,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès qu’il est 
 <tbody>
 <tr class="odd">
 <td><p>Lire le conteneur (non hérité)</p></td>
-<td><p><strong>Oui</strong></p></td>
+<td><p><strong>Positive</strong></p></td>
 <td><p><strong>Oui</strong></p></td>
 </tr>
 </tbody>

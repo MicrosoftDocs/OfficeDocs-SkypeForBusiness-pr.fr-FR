@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion des groupes de réponse'
+title: 'Lync Server 2013 : gestion des groupes de réponse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing response groups
 ms:assetid: 5a804d7d-3c1a-4647-a0e0-d5c4c8c23b73
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184222
 ms.date: 02/01/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c0d8ac0fbfa8464fd0cd078fc90784eb9fdd3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 210debb3c3879d6895b127b960139970bf73d020
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827766"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827766"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2018-02-01_
+_**Dernière modification de la rubrique :** 2018-02-01_
 
 Les Response Groups sont une fonctionnalité de gestion des appels qui vous permet d’effectuer la mise en file d’attente d’appels passés vers une zone spécifique, par exemple un support technique, puis diriger les appels vers un groupe de personnes désignés, appelé *agents*.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: fonctionnement de l’archivage'
+title: 'Lync Server 2013 : fonctionnement de l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204900(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 097b40ef4194a618c090e0d67f73583d6aa427b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca026dcfb9b994353de139b6e10ecd419c9dd165
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831085"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-04_
+_**Dernière modification de la rubrique :** 2014-02-04_
 
-L’archivage de Lync Server 2013 fournit des options qui vous permettent de répondre à vos besoins en matière de conformité. Pour le mettre en œuvre et le mettre à jour de manière à satisfaire les exigences de votre organisation, vous devez comprendre les éléments suivants:
+L’archivage de Lync Server 2013 fournit des options qui vous permettent de répondre à vos besoins en matière de conformité. Pour le mettre en œuvre et le mettre à jour de manière à satisfaire les exigences de votre organisation, vous devez comprendre les éléments suivants :
 
-  - Quelles informations peuvent être archivées;
+  - Quelles informations peuvent être archivées ;
 
   - Procédures d’activation et de désactivation de l’archivage dans votre déploiement.
 
@@ -45,9 +47,9 @@ L’archivage de Lync Server 2013 fournit des options qui vous permettent de ré
 
 <div>
 
-## <a name="what-information-can-be-archived"></a>Quelles informations peuvent être archivées?
+## <a name="what-information-can-be-archived"></a>Quelles informations peuvent être archivées ?
 
-Les types de contenu suivants peuvent être archivés:
+Les types de contenu suivants peuvent être archivés :
 
   - Messages instantanés P2P
 
@@ -57,7 +59,7 @@ Les types de contenu suivants peuvent être archivés:
 
   - Tableaux blancs et sondages partagés durant une conférence
 
-Les types de contenu suivants ne sont pas archivés:
+Les types de contenu suivants ne sont pas archivés :
 
   - Transfert de fichiers d’égal à égal
 
@@ -71,9 +73,9 @@ Le serveur Lync n’archive pas non plus les conversations persistantes. Pour ar
 
 <div>
 
-## <a name="how-do-i-start-using-archiving"></a>Comment commencer à utiliser l’archivage?
+## <a name="how-do-i-start-using-archiving"></a>Comment commencer à utiliser l’archivage ?
 
-L’archivage est automatiquement installé sur chaque serveur frontal lors du déploiement du serveur, mais la mise à jour n’est pas activée tant que vous ne l’avez pas configuré. La configuration de celle-ci est déterminée par le déploiement de l’archivage:
+L’archivage est automatiquement installé sur chaque serveur frontal lors du déploiement du serveur, mais la mise à jour n’est pas activée tant que vous ne l’avez pas configuré. La configuration de celle-ci est déterminée par le déploiement de l’archivage :
 
   - **Archivage avec l’intégration de Microsoft Exchange.** Si vous avez des utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres ont été placées sur place, vous pouvez sélectionner l’option d’intégration du stockage de Lync Server 2013 avec le stockage Exchange. Si vous choisissez l’option intégration de Microsoft Exchange, vous utilisez les stratégies et configurations Exchange 2013 pour contrôler l’archivage des données de Lync Server 2013 pour ces utilisateurs.
 
@@ -83,7 +85,7 @@ L’archivage est automatiquement installé sur chaque serveur frontal lors du d
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Configuration de l’archivage avec l’intégration de Microsoft Exchange
 
-Si vos utilisateurs sont hébergés sur Exchange 2013 et que leurs boîtes aux lettres ont été placées sur le blocage sur place, vous pouvez choisir l’option d' **intégration de Microsoft Exchange** (décrite plus loin dans cette section) pour archiver Lync Server 2013 pour ces utilisateurs, puis contrôler pour ces utilisateurs, en spécifiant des paramètres et des stratégies de conservation inaltérable, ainsi que des configurations Lync Server pour contrôler les éléments suivants:
+Si vos utilisateurs sont hébergés sur Exchange 2013 et leurs boîtes aux lettres ont été placées sur place, vous pouvez choisir l’option d' **intégration de Microsoft Exchange** (comme décrit plus loin dans cette section) pour archiver Lync Server 2013 pour ces utilisateurs, puis contrôler l’archivage de ces utilisateurs en spécifiant des stratégies de blocage et des paramètres Exchange, ainsi que les configurations de Lync Server pour contrôler les éléments suivants :
 
   - L’archivage des messages instantanés, des conférences ou les deux.
 
@@ -99,7 +101,7 @@ Les options de configuration de l’archivage de Lync Server 2013 sont décrites
 
 ## <a name="archiving-setup-when-using-lync-server-archiving-database-storage"></a>Configuration de l’archivage lors de l’utilisation du stockage de la base de données d’archivage Lync Server
 
-Si vous voulez utiliser les bases de données d’archivage de Lync Server (à l’aide de bases de données SQL Server) pour archiver des données pour des utilisateurs de votre déploiement, vous pouvez configurer les stratégies d’archivage de Lync Server pour contrôler si l’archivage est activé pour ces utilisateurs. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’un ou l’autre des éléments suivants:
+Si vous voulez utiliser les bases de données d’archivage de Lync Server (à l’aide de bases de données SQL Server) pour archiver des données pour des utilisateurs de votre déploiement, vous pouvez configurer les stratégies d’archivage de Lync Server pour contrôler si l’archivage est activé pour ces utilisateurs. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’un ou l’autre des éléments suivants :
 
   - Communications internes
 
@@ -107,13 +109,13 @@ Si vous voulez utiliser les bases de données d’archivage de Lync Server (à l
 
 Par défaut, l’archivage n’est pas activé pour des communications internes ou des communications externes dans une stratégie d’archivage Lync Server. Activez et désactivez les communications à l’aide du panneau de configuration de Lync Server 2013 ou de l’utilisation des applets de commande dans Lync Server 2013 Management Shell.
 
-Les stratégies d’archivage de Lync Server 2013 incluent les éléments suivants:
+Les stratégies d’archivage de Lync Server 2013 incluent les éléments suivants :
 
   - **Stratégie d’archivage globale**. Il s’agit de la stratégie d’archivage par défaut qui s’applique à votre déploiement complet. Il est créé lors du déploiement de Lync Server 2013 et, par défaut, désactive l’archivage pour les communications internes et externes. Vous ne pouvez pas supprimer cette stratégie. Si vous choisissez l’option Supprimer, la stratégie globale est réinitialisée aux paramètres par défaut.
 
-  - **Stratégie**d’archivage de site. Si vous le souhaitez, vous pouvez activer ou désactiver l’archivage pour un ou plusieurs sites spécifiques en créant et en configurant une stratégie d’archivage au niveau du site pour le site. Lorsque vous créez une stratégie d’archivage au niveau du site, par défaut, l’archivage n’est pas activé. Vous pouvez supprimer toutes les stratégies d’archivage au niveau du site que vous créez. Une stratégie d’archivage au niveau du site remplace la stratégie globale, mais uniquement pour le site spécifié dans la stratégie. Par exemple, si vous activez l’archivage pour les communications internes et externes dans votre stratégie globale et que vous créez une stratégie de site dans laquelle vous désactivez l’archivage pour les communications externes, seules les communications internes seront archivées pour ce site.
+  - **Stratégie d’archivage de site**. Si vous le souhaitez, vous pouvez activer ou désactiver l’archivage pour un ou plusieurs sites spécifiques en créant et en configurant une stratégie d’archivage au niveau du site pour le site. Lorsque vous créez une stratégie d’archivage au niveau du site, par défaut, l’archivage n’est pas activé. Vous pouvez supprimer toutes les stratégies d’archivage au niveau du site que vous créez. Une stratégie d’archivage au niveau du site remplace la stratégie globale, mais uniquement pour le site spécifié dans la stratégie. Par exemple, si vous activez l’archivage pour les communications internes et externes dans votre stratégie globale et que vous créez une stratégie de site dans laquelle vous désactivez l’archivage pour les communications externes, seules les communications internes seront archivées pour ce site.
 
-  - **Stratégie**d’archivage des utilisateurs. Si vous le souhaitez, vous pouvez activer ou désactiver l’archivage pour un ou plusieurs utilisateurs et groupes d’utilisateurs spécifiques en créant, en configurant et en appliquant une stratégie d’archivage au niveau utilisateur pour les utilisateurs et groupes d’utilisateurs spécifiés. Lorsque vous créez une stratégie d’archivage au niveau utilisateur, par défaut, l’archivage n’est pas activé. Vous pouvez supprimer n’importe quelle stratégie d’archivage au niveau utilisateur que vous créez, mais vous pouvez modifier les utilisateurs et le groupe d’utilisateurs auxquels la stratégie d’archivage s’applique. Une stratégie d’archivage au niveau utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels la stratégie est appliquée. Par exemple, si vous désactivez l’archivage pour les communications internes et externes dans votre stratégie globale, créez une stratégie de niveau site dans laquelle vous activez l’archivage des communications internes et externes, puis créez une stratégie de niveau utilisateur dans laquelle vous désactivez Dans le cas d’une archivage pour les communications externes, les communications seront archivées pour les communications internes et externes de tous les utilisateurs du site, à l’exception de celle-ci, pour les utilisateurs auxquels vous appliquez la stratégie de niveau utilisateur, seules les communications internes seront archivées.
+  - **Stratégie d’archivage des utilisateurs**. Si vous le souhaitez, vous pouvez activer ou désactiver l’archivage pour un ou plusieurs utilisateurs et groupes d’utilisateurs spécifiques en créant, en configurant et en appliquant une stratégie d’archivage au niveau utilisateur pour les utilisateurs et groupes d’utilisateurs spécifiés. Lorsque vous créez une stratégie d’archivage au niveau utilisateur, par défaut, l’archivage n’est pas activé. Vous pouvez supprimer n’importe quelle stratégie d’archivage au niveau utilisateur que vous créez, mais vous pouvez modifier les utilisateurs et le groupe d’utilisateurs auxquels la stratégie d’archivage s’applique. Une stratégie d’archivage au niveau utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels la stratégie est appliquée. Par exemple, si vous désactivez l’archivage pour les communications internes et externes dans votre stratégie globale, créez une stratégie de niveau site dans laquelle vous activez l’archivage des communications internes et externes, puis créez une stratégie de niveau utilisateur dans laquelle vous désactivez Dans le cas d’une archivage pour les communications externes, les communications seront archivées pour les communications internes et externes de tous les utilisateurs du site, à l’exception de celle-ci, pour les utilisateurs auxquels vous appliquez la stratégie de niveau utilisateur, seules les communications internes seront archivées.
 
 Pour plus d’informations sur la configuration des stratégies d’archivage initial lors du déploiement de l’archivage, voir [configuration et affectation de stratégies d’archivage dans Lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md) dans la documentation de déploiement. Pour plus d’informations sur l’utilisation des stratégies d’archivage pour activer et désactiver les communications après le déploiement, reportez-vous à la rubrique [gestion de l’archivage des communications internes et externes dans Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) dans la documentation des opérations.
 
@@ -131,7 +133,7 @@ Pour plus d’informations sur la configuration des stratégies d’archivage in
 
 <div>
 
-## <a name="what-options-do-i-have-for-configuring-archiving"></a>Quelles sont les options de configuration de l’archivage?
+## <a name="what-options-do-i-have-for-configuring-archiving"></a>Quelles sont les options de configuration de l’archivage ?
 
 Outre l’utilisation de stratégies et l’activation ou la désactivation de l’archivage, vous disposez d’autres options d’archivage qui peuvent être configurées pour votre déploiement complet et, si vous le souhaitez, pour des sites et des groupes spécifiques. Vous contrôlez la plupart des options d’archivage à l’aide d’une ou de plusieurs configurations d’archivage, qui sont disponibles dans le panneau de configuration de Lync Server 2013, mais disposent également d’une autre option disponible uniquement pour la configuration à l’aide de Lync Server 2013 Management Shell.
 
@@ -139,13 +141,13 @@ Outre l’utilisation de stratégies et l’activation ou la désactivation de l
 
 ## <a name="archiving-configuration-options-available-in-lync-server-2013-control-panel"></a>Options de configuration de l’archivage disponibles dans le panneau de configuration de Lync Server 2013
 
-Chaque configuration de l’archivage fournit les options suivantes:
+Chaque configuration de l’archivage fournit les options suivantes :
 
-La configuration de niveau global est créée automatiquement lors du déploiement de l’archivage et peut être configurée, mais pas supprimée. Si vous sélectionnez l’option de suppression de la configuration globale, les paramètres sont rétablis sur les valeurs par défaut. Vous pouvez créer plusieurs configurations de sites et de pools, ainsi que la configuration globale, des paramètres d’archivage des contrôles. Pour la configuration globale et chaque configuration de site et de pool, vous disposez des options suivantes:
+La configuration de niveau global est créée automatiquement lors du déploiement de l’archivage et peut être configurée, mais pas supprimée. Si vous sélectionnez l’option de suppression de la configuration globale, les paramètres sont rétablis sur les valeurs par défaut. Vous pouvez créer plusieurs configurations de sites et de pools, ainsi que la configuration globale, des paramètres d’archivage des contrôles. Pour la configuration globale et chaque configuration de site et de pool, vous disposez des options suivantes :
 
   - Désactivez l’archivage, activez l’archivage uniquement pour la messagerie instantanée ou activez l’archivage des messages instantanés et des conférences.
 
-  - Configurer le mode critique pour bloquer les sessions de messagerie instantanée et de conférence en cas de panne du serveur Lync. Les échecs incluent les éléments suivants:
+  - Configurer le mode critique pour bloquer les sessions de messagerie instantanée et de conférence en cas de panne du serveur Lync. Les échecs incluent les éléments suivants :
     
       - **Messagerie instantanée**. Un problème avec le service de stockage de Lync Server. Dans ce cas, la messagerie instantanée est bloquée pour les utilisateurs activés pour l’archivage.
     
@@ -155,7 +157,7 @@ La configuration de niveau global est créée automatiquement lors du déploieme
 
   - Spécifiez l’utilisation de l’intégration de Microsoft Exchange Server 2013 pour l’utilisation d’Exchange 2013 pour le stockage des données archivées, au lieu de configurer des bases de données SQL Server distinctes pour le stockage des données d’archivage de Lync Server 2013.
 
-  - Configurer les options de purge pour les données archivées Cela inclut la définition du moment où effacer les données archivées, qui peuvent être l’un des éléments suivants:
+  - Configurer les options de purge pour les données archivées Cela inclut la définition du moment où effacer les données archivées, qui peuvent être l’un des éléments suivants :
     
       - Après un nombre spécifique de jours que vous spécifiez
     
@@ -172,7 +174,7 @@ La configuration de niveau global est créée automatiquement lors du déploieme
 
 Par défaut, aucune option d’archivage n’est activée. Vous pouvez gérer les configurations d’archivage à l’aide du panneau de configuration de Lync Server 2013.
 
-Vous pouvez spécifier les configurations d’archivage suivantes:
+Vous pouvez spécifier les configurations d’archivage suivantes :
 
   - **Configuration de l’archivage global**. Il s’agit de la configuration de l’archivage par défaut qui s’applique à votre déploiement complet. Il est créé lors du déploiement de Lync Server 2013 et, par défaut, ne permet pas la fonctionnalité d’archivage. Vous pouvez modifier la configuration globale sans pouvoir la supprimer. Si vous choisissez l’option Supprimer pour la configuration, la configuration globale est réinitialisée aux paramètres par défaut.
 
@@ -188,7 +190,7 @@ Pour plus d’informations sur la configuration d’un archivage initial lors du
 
 ## <a name="archiving-options-available-only-in-windows-powershell"></a>Options d’archivage disponibles uniquement dans Windows PowerShell
 
-À l’aide de Lync Server 2013 Management Shell, vous pouvez utiliser les applets de commande pour implémenter des options qui ne sont pas disponibles dans Lync Server 2013 le panneau de configuration. Les options suivantes sont disponibles:
+À l’aide de Lync Server 2013 Management Shell, vous pouvez utiliser les applets de commande pour implémenter des options qui ne sont pas disponibles dans Lync Server 2013 le panneau de configuration. Les options suivantes sont disponibles :
 
   - **Archiver des messages en double**. Pour plus d’informations, reportez-vous à [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) et [Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) dans la documentation sur les opérations.
 
@@ -202,7 +204,7 @@ Pour plus d’informations sur la configuration d’un archivage initial lors du
 
 <div>
 
-## <a name="how-do-i-access-archived-data"></a>Comment accéder aux données archivées?
+## <a name="how-do-i-access-archived-data"></a>Comment accéder aux données archivées ?
 
 L’accès aux données archivées dépend de l’emplacement où les données sont stockées :
 

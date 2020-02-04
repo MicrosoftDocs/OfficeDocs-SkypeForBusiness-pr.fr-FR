@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Prise en main'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Getting started
 ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398676(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4844e4b11e78063af649832ccb2e2c41aa5aa3a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831125"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831125"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-04-03_
+_**Dernière modification de la rubrique :** 2015-04-03_
 
 Lync Server 2013 offre de nombreuses fonctionnalités permettant d’améliorer la collaboration et la communication au sein de votre organisation. Bon nombre de ces fonctionnalités sont nouvelles par rapport à ce qui était disponible dans les versions précédentes. Les rubriques de cette section donnent un bref aperçu des nouvelles fonctionnalités.
 

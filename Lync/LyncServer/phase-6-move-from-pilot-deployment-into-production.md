@@ -3,6 +3,8 @@ title: 'Phase 6 : Transition d’un déploiement pilote vers un environnement 
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
 ms:assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 743fae3912dfb185e2930d08dcb5e092df1ac944
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61720e8a255be3f5eedbee3c8cf409b4342427af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846094"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846094"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Les rubriques de cette section décrit les tâches que vous devez effectuer avant de migrer votre déploiement de Lync Server 2013 d’un déploiement pilote vers un déploiement de niveau production.
 

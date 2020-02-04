@@ -3,6 +3,8 @@ title: Restauration d’un serveur back-end Enterprise Edition (principal)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf0c8562ed4180fb14bf0bda74a03dd4ee8f746
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 07546b59839631cbd558e91e3e617fefd1c6e362
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823062"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-17_
+_**Dernière modification de la rubrique :** 2013-02-17_
 
 Si vous disposez d’un serveur principal Enterprise Edition dans une configuration en miroir et que seule la base de données principale ne fonctionne pas, suivez les procédures décrites dans cette section. En cas d’échec de la base de données principale et du miroir, voir [restaurer un serveur principal Enterprise Edition dans Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md). Si le miroir ne fonctionne que le miroir, voir [restaurer un serveur principal Enterprise Edition en miroir dans Lync Server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md). En cas d’échec de la base de données qui héberge la Banque d’administration centrale, voir [restauration du serveur qui héberge le magasin de gestion central dans Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal ne fonctionne pas, consultez la rubrique [restauration d’un serveur membre Enterprise Edition dans Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
@@ -47,9 +49,9 @@ Dans cette rubrique, l’exemple de base de données principale aura un nom de d
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous à un serveur frontal.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Forcez la reprise de toutes les bases de données configurées sur le miroir. Pour chacun des types de bases de données que vous avez configurés sur ce serveur, tapez l’applet de commande suivante:
+3.  Forcez la reprise de toutes les bases de données configurées sur le miroir. Pour chacun des types de bases de données que vous avez configurés sur ce serveur, tapez l’applet de commande suivante :
     
         Invoke-CsDataBaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <Configured Database Type> -NewPrincipal Mirror -Force -Verbose
     
@@ -66,11 +68,11 @@ Dans cette rubrique, l’exemple de base de données principale aura un nom de d
     
     </div>
 
-4.  Après avoir terminé le basculement, effectuez les opérations suivantes:
+4.  Après avoir terminé le basculement, effectuez les opérations suivantes :
     
-      - Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+      - Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
     
-      - Désactiver la mise en miroir sur le serveur principal: cliquez avec le bouton droit sur le pool sous **Pools front end Edition** et sélectionnez **modifier les propriétés**. Sous l’onglet **général** , sous **associations**, décochez la case **activer la mise en miroir du magasin SQL Server** . Procédez comme suit pour l’archivage et la surveillance selon les besoins. Cliquez ensuite sur **OK**.
+      - Désactiver la mise en miroir sur le serveur principal : cliquez avec le bouton droit sur le pool sous **Pools front end Edition** et sélectionnez **modifier les propriétés**. Sous l’onglet **général** , sous **associations**, décochez la case **activer la mise en miroir du magasin SQL Server** . Procédez comme suit pour l’archivage et la surveillance selon les besoins. Cliquez ensuite sur **OK**.
     
       - Cliquez avec le bouton droit sur le nœud Lync Server 2013, cliquez sur **Topology**, puis sur **publier**.
     
@@ -78,12 +80,12 @@ Dans cette rubrique, l’exemple de base de données principale aura un nom de d
     
       - Cliquez avec le bouton droit sur le nœud Lync Server 2013, cliquez sur **Topology**, puis sur **publier**.
     
-      - Redémarrez les services de sorte que chaque serveur puisse lire la nouvelle topologie. À partir d’un environnement Lync Server Management Shell, exécutez les applets de commande suivantes sur chaque serveur frontal qui appartient à ce pool:
+      - Redémarrez les services de sorte que chaque serveur puisse lire la nouvelle topologie. À partir d’un environnement Lync Server Management Shell, exécutez les applets de commande suivantes sur chaque serveur frontal qui appartient à ce pool :
         
             Stop-CsWindowsService
             Start-CsWindowsService
 
-5.  Désinstaller la mise en miroir. Sur Lync Server Management Shell, exécutez l’applet de commande suivante:
+5.  Désinstaller la mise en miroir. Sur Lync Server Management Shell, exécutez l’applet de commande suivante :
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn <MirrorServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
@@ -101,9 +103,9 @@ Dans cette rubrique, l’exemple de base de données principale aura un nom de d
 
 9.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous à un serveur frontal.
 
-10. Utilisez le générateur de topologie pour installer une base de BDD en miroir. Procédez comme suit:
+10. Utilisez le générateur de topologie pour installer une base de BDD en miroir. Procédez comme suit :
     
-      - Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+      - Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
     
       - Activez la mise en miroir sur le serveur principal. Pour ce faire, cliquez avec le bouton droit de la liste sur le pool sous **Pools front end Enterprise Edition** , puis sélectionnez **modifier les propriétés**. Sous l’onglet **général** , sous **associations**, activez la case à cocher **activer la mise en miroir du magasin SQL Server** . Le cas échéant, effectuez cette opération pour l’archivage et le contrôle.
         

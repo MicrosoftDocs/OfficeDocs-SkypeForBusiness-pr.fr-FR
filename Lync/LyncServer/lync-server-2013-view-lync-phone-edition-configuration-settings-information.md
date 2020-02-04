@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les informations sur les paramètres de configuration de Lync Phone Edition'
+title: 'Lync Server 2013 : afficher les informations sur les paramètres de configuration de Lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Lync Phone Edition configuration settings information
 ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 213b9775b22818c34eb8f7896ea02a4872182a42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a58450b1d69ce757f40194d179606f332e152d7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846299"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846299"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Vous pouvez consulter les informations de configuration des appareils exécutant Lync Phone Edition. Les informations sont organisées en collections. Lorsque vous installez Lync Server, vous obtenez un ensemble de paramètres Lync Phone Edition qui s’appliquent à tous les appareils exécutant Lync Phone Edition dans votre déploiement. Vous pouvez également créer de nouvelles collections de paramètres pour un site spécifique. Les paramètres de site sont prioritaires par rapport aux paramètres globaux. Chaque collection de paramètres est composée d’un nom, d’une étendue (globale ou d’un site), d’un paramètre de sécurité SIP, d’un niveau de journalisation de la qualité de service (QoS), d’un paramètre de verrouillage du téléphone et de détails du verrou téléphonique, c’est-à-dire de la longueur minimale de déverrouillage de l’identification personnelle. nombre (code confidentiel) et temps avant que le téléphone se verrouille.
 
@@ -55,17 +57,17 @@ Vous pouvez consulter les informations de configuration des appareils exécutant
 
 ## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de Lync Phone Edition à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez afficher les paramètres de configuration de Lync Phone Edition à l’aide de Lync Server Management Shell et de l’applet **de passe Get-CsUCPhoneConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez afficher les paramètres de configuration de Lync Phone Edition à l’aide de Lync Server Management Shell et de l’applet **de passe Get-CsUCPhoneConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-lync-phone-edition-configuration-information"></a>Pour afficher les informations de configuration de Lync Phone Edition
 
-  - Pour afficher des informations sur les paramètres de configuration de Lync Phone Edition, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur les paramètres de configuration de Lync Phone Edition, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsUCPhoneConfiguration
     
-    La commande renvoie des informations similaires à ce qui suit:
+    La commande renvoie des informations similaires à ce qui suit :
     
         Identity             : Global
         CalendarPollInterval : 00:03:00
