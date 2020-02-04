@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table VideoStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoStream table
 ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425928(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98e0ad3f7c18032dd903d2f8d1d41428ccc12cf9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 674d013faca3b43db04d2c5b4802103def83dbd8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846321"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-12-13_
+_**Dernière modification de la rubrique :** 2013-12-13_
 
 Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
 
@@ -110,13 +112,13 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Taux moyen de perte de paquets lors de l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Perte de paquets maximum observée pendant l’appel.</p></td>
 </tr>
@@ -146,13 +148,13 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 </tr>
 <tr class="even">
 <td><p><strong>InboundVideoFrameRateAvg</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Fréquence d’images vidéo reçues.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutboundVideoFrameRateAvg</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Fréquence d’images vidéo envoyées.</p></td>
 </tr>
@@ -164,7 +166,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameLossRate</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p> </p></td>
 <td><p>Pourcentage du nombre total de trames vidéo perdues.</p></td>
 </tr>
@@ -176,7 +178,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLossPercentageAvg</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td></td>
 <td><p>Pourcentage du nombre total de trames vidéo perdues.</p></td>
 </tr>
@@ -245,7 +247,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 <td><p>bit</p></td>
 <td><p> </p></td>
 <td><p>1 signifie que le sens du flux provient de l’appelant vers l’appel.</p>
-<p>0: le sens du flux provient de l’appelant.</p></td>
+<p>0 : le sens du flux provient de l’appelant.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LossCongestionPercent</strong></p></td>
@@ -328,47 +330,47 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Densité du Burst total unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Durée totale du Burst. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Densité de l’intervalle total à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
+<td><p>Durée totale de l’intervalle. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cause du taux</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td></td>
 <td><p>Taux d’interruption des paquets vidéo.</p>
 <p>Cette colonne a été introduite dans Microsoft Lync Server 2013.</p></td>

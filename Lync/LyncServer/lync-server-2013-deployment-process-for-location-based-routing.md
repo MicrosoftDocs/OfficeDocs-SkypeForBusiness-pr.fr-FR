@@ -4,6 +4,8 @@ title: >
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Location-Based Routing
 ms:assetid: 9e923e72-83fc-4a4f-8937-28a55739ed3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994055(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 108dd35c7f184c974a317f68901c94bc81e9e403
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02e09106bc9d96fbfab2935aec07f3c472f49d6a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831476"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "34831476"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-09_
+_**Dernière modification de la rubrique :** 2013-03-09_
 
 Cette rubrique fournit une vue d’ensemble du processus de configuration du routage par emplacement. Vous devez déployer Lync Server Enterprise Edition ou Standard Edition avec Enterprise Voice avant de configurer le routage sur site. Les composants requis par le routage de géolocalisation sont déjà installés et activés lors du déploiement d’Enterprise Voice.
 
@@ -114,17 +116,17 @@ CsServerAdministrator</p></td>
 
 Le déploiement suivant est utilisé pour illustrer davantage les mécanismes activés par le routage géolocalisation.
 
-![e1bd2230-44DA-4784-b359-24572b6ce02d] (images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44DA-4784-b359-24572b6ce02d")
+![e1bd2230-44DA-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44DA-4784-b359-24572b6ce02d")
 
 <div>
 
 ## <a name="incoming-pstn-calls"></a>Appels RTC entrants
 
-Un administrateur peut activer le Trunk défini pour acheminer les appels vers «passerelle site 1» pour le routage de l’emplacement et associer la «passerelle site 1» au site 1. Lorsque l’option est activée, les appels routés par le biais de la passerelle «site 1» ne seront routés qu’aux utilisateurs situés dans le site 1. Tous les appels routés via le Trunk «site 1 passerelle» destinés aux utilisateurs d’un site différent, comme le site 2, seront bloqués pour empêcher les détournements d’appels RTC.
+Un administrateur peut activer le Trunk défini pour acheminer les appels vers « passerelle site 1 » pour le routage de l’emplacement et associer la « passerelle site 1 » au site 1. Lorsque l’option est activée, les appels routés par le biais de la passerelle « site 1 » ne seront routés qu’aux utilisateurs situés dans le site 1. Tous les appels routés via le Trunk « site 1 passerelle » destinés aux utilisateurs d’un site différent, comme le site 2, seront bloqués pour empêcher les détournements d’appels RTC.
 
-Tous les appels RTC entrants par le biais de la «passerelle du site 1» ne seront autorisés à effectuer le routage qu’aux points de terminaison situés dans le site 1. Par exemple, lorsque «Lync User 1» voyage sur le site 2, tous les appels RTC entrants par le biais de «passerelle site 1» ne seront pas routés aux points de terminaison «Lync User 1» situés dans le site 2. La même règle de routage s’applique si «Lync User 1» voyage sur un site réseau inconnu où l’emplacement de l’utilisateur ne peut pas être déterminé.
+Tous les appels RTC entrants par le biais de la « passerelle du site 1 » ne seront autorisés à effectuer le routage qu’aux points de terminaison situés dans le site 1. Par exemple, lorsque « Lync User 1 » voyage sur le site 2, tous les appels RTC entrants par le biais de « passerelle site 1 » ne seront pas routés aux points de terminaison « Lync User 1 » situés dans le site 2. La même règle de routage s’applique si « Lync User 1 » voyage sur un site réseau inconnu où l’emplacement de l’utilisateur ne peut pas être déterminé.
 
-Le tableau suivant décrit l’environnement utilisateur de «Lync User 1» dans ce contexte.
+Le tableau suivant décrit l’environnement utilisateur de « Lync User 1 » dans ce contexte.
 
 
 <table>
@@ -159,9 +161,9 @@ Le tableau suivant décrit l’environnement utilisateur de «Lync User 1» dans
 
 ## <a name="outgoing-pstn-calls"></a>Appels RTC sortants
 
-Les itinéraires vocaux sont référencés dans les stratégies vocales attribuées directement aux utilisateurs et les stratégies de routage vocal affectées aux sites réseau. Les deux stratégies contiennent des références à des itinéraires qui peuvent être utilisées pour acheminer un appel différemment. Par exemple, un administrateur peut définir une stratégie de routage vocale pour tous les utilisateurs situés dans le site réseau 1 pour acheminer tous les appels sortants par le biais de la «passerelle site 1», tandis que la stratégie vocale de certains utilisateurs définit un itinéraire pour tous les appels sortants par le biais de la «passerelle site 2». Même si ces utilisateurs se trouvent dans le site réseau 1, les appels sortants sont routés par le biais de la «passerelle du site 1».
+Les itinéraires vocaux sont référencés dans les stratégies vocales attribuées directement aux utilisateurs et les stratégies de routage vocal affectées aux sites réseau. Les deux stratégies contiennent des références à des itinéraires qui peuvent être utilisées pour acheminer un appel différemment. Par exemple, un administrateur peut définir une stratégie de routage vocale pour tous les utilisateurs situés dans le site réseau 1 pour acheminer tous les appels sortants par le biais de la « passerelle site 1 », tandis que la stratégie vocale de certains utilisateurs définit un itinéraire pour tous les appels sortants par le biais de la « passerelle site 2 ». Même si ces utilisateurs se trouvent dans le site réseau 1, les appels sortants sont routés par le biais de la « passerelle du site 1 ».
 
-Lorsqu’un utilisateur se trouve sur un site réseau configuré pour le routage sur la base de l’emplacement, l’itinéraire de la stratégie de routage de la voix du site réseau remplace l’itinéraire de la stratégie vocale de l’utilisateur. Cette règle est particulièrement utile pour les utilisateurs qui se déplacent temporairement sur un autre site. Dans ce cas particulier, un utilisateur utilisera toujours une passerelle locale vers son emplacement. Si "Lync User 3" est situé sur "site 2", tous les appels sortants seront routés par le biais de la «passerelle site 2», mais s’il est acheminé vers le site 1, tous les appels sortants placés alors qu’il se trouve sur le site 1 seront routés par le biais de «passerelle site 1».
+Lorsqu’un utilisateur se trouve sur un site réseau configuré pour le routage sur la base de l’emplacement, l’itinéraire de la stratégie de routage de la voix du site réseau remplace l’itinéraire de la stratégie vocale de l’utilisateur. Cette règle est particulièrement utile pour les utilisateurs qui se déplacent temporairement sur un autre site. Dans ce cas particulier, un utilisateur utilisera toujours une passerelle locale vers son emplacement. Si "Lync User 3" est situé sur "site 2", tous les appels sortants seront routés par le biais de la « passerelle site 2 », mais s’il est acheminé vers le site 1, tous les appels sortants placés alors qu’il se trouve sur le site 1 seront routés par le biais de « passerelle site 1 ».
 
 Le tableau suivant illustre l’utilisation de l’utilisateur Lync 1 lors du placement d’un appel sortant sur les sites réseau suivants.
 

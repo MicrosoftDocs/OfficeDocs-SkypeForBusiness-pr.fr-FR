@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les informations du code confidentiel d’utilisateur'
+title: 'Lync Server 2013 : afficher les informations du code confidentiel d’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View user PIN information
 ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1e6f8e12e7b6d2dde684a4cf558eec0ece216a9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846276"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur de Lync Server 2013 avec les informations d’identification d’AD DS (Active Directory Domain Services) nécessite un code confidentiel (PIN). Vous pouvez afficher les informations du code confidentiel d’un utilisateur à partir du panneau de configuration de Lync Server 2013.
 
@@ -101,13 +103,13 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de code confidentiel utilisateur à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-user-pin-information"></a>Pour afficher les informations relatives au code confidentiel de l’utilisateur
 
-  - Pour afficher les informations de code confidentiel d’un utilisateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher les informations de code confidentiel d’un utilisateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     

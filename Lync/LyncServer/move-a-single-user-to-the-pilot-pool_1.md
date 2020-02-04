@@ -3,6 +3,8 @@ title: Déplacer un utilisateur unique vers le pool de pilotes
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846138"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 2007 R2 vers votre pool de pilotes Lync Server 2013 à l’aide de Lync Server 2013 panneau de configuration ou de Lync Server 2013 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool de bureaux d’enregistrement, ** \<Office Communications Server\> ** est le pool Office Communications Server 2007 R2, et ces six utilisateurs sont connectés à ce pool. Pour déplacer un utilisateur vers votre pool Lync Server 2013 à l’aide de Lync Server 2013 Control Panel et de Lync Server Management Shell, procédez comme suit.
 
-![Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server] (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server")
+![Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server")
 
 <div>
 
@@ -57,7 +59,7 @@ Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 
 
 7.  Cliquez sur **Rechercher** pour rechercher les anciens utilisateurs d’Office Communications Server 2007 R2.
     
-    ![Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server] (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server")  
+    ![Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Rechercher des utilisateurs OCS dans le panneau de configuration de Lync Server")  
 
 8.  Sélectionnez l’utilisateur que vous voulez déplacer vers le pool Lync Server 2013. Dans l’exemple suivant, nous déplacerons l’utilisateur Sara Davis.
 
@@ -67,7 +69,7 @@ Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 
 
 11. Cliquez sur **Action**, puis sur **Déplacer les utilisateurs sélectionnés vers le pool**. Cliquez sur **OK**.
     
-    ![Configuration du pool de destination dans la boîte de dialogue déplacer des utilisateurs] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Configuration du pool de destination dans la boîte de dialogue déplacer des utilisateurs")  
+    ![Configuration du pool de destination dans la boîte de dialogue déplacer des utilisateurs](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Configuration du pool de destination dans la boîte de dialogue déplacer des utilisateurs")  
 
 12. Vérifiez que la colonne du **pool d’inscriptions** pour l’utilisateur contient désormais le pool Lync Server 2013, qui indique que l’utilisateur a été correctement déplacé.
 
@@ -83,19 +85,19 @@ Vous pouvez déplacer un utilisateur de votre pool Office Communications Server 
     
         Move-CsLegacyUser -Identity "David Pelton" -Target "pool02.contoso.net"
 
-3.  Ensuite, dans la ligne de commande, tapez ce qui suit:
+3.  Ensuite, dans la ligne de commande, tapez ce qui suit :
     
         Get-CsUser -Identity "David Pelton"
 
 4.  L’identité **RegistrarPool** pointe désormais vers le pool Lync Server 2013. La présence de cette identité confirme que l’utilisateur a bien été déplacé.
     
-    ![Sortie de l’applet de requête get-Csuser avec le filtre d’identité] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Sortie de l’applet de requête get-Csuser avec le filtre d’identité")  
+    ![Sortie de l’applet de requête get-CsUser avec le filtre d’identité](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Sortie de l’applet de requête get-CsUser avec le filtre d’identité")  
     
     <div>
     
 
     > [!NOTE]  
-    > Pour plus d’informations sur l’applet de connexion <STRONG>Get-Csuser</STRONG> , exécutez: <STRONG>Get-Help Get-Csuser-detailed</STRONG>
+    > Pour plus d’informations sur l’applet de connexion <STRONG>Get-Csuser</STRONG> , exécutez : <STRONG>Get-Help Get-Csuser-detailed</STRONG>
 
     
     </div>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: comptes d’utilisateurs activés pour Lync Server'
+title: 'Lync Server 2013 : comptes d’utilisateurs activés pour Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User accounts enabled for Lync Server 2013
 ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182543(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b7a8935e83b79cfac1c4d3283fe0011a72aa3ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846460"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846460"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-04-18_
+_**Dernière modification de la rubrique :** 2014-04-18_
 
 Les rubriques de cette section fournissent des procédures pas à pas permettant de configurer les paramètres utilisateur que vous pouvez effectuer à l’aide du panneau de configuration de Lync Server 2013.
 
@@ -47,7 +49,7 @@ Les rubriques de cette section fournissent des procédures pas à pas permettant
 
 </div>
 
-Lors de l’exécution d’une tâche administrative Lync Server 2013 qui implique de rechercher un utilisateur ou de filtrer les résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory (AD FS), mais qui ne sont pas répliquées dans le catalogue global. tant que Microsoft Exchange Server n’est pas déployé. Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de son installation:
+Lors de l’exécution d’une tâche administrative Lync Server 2013 qui implique de rechercher un utilisateur ou de filtrer les résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory (AD FS), mais qui ne sont pas répliquées dans le catalogue global. tant que Microsoft Exchange Server n’est pas déployé. Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de son installation :
 
 
 <table>
@@ -74,7 +76,7 @@ Lors de l’exécution d’une tâche administrative Lync Server 2013 qui impliq
 <td><p>Titre</p>
 <p>Elle</p>
 <p>Service</p>
-<p>Bureau</p></td>
+<p>Office</p></td>
 </tr>
 </tbody>
 </table>

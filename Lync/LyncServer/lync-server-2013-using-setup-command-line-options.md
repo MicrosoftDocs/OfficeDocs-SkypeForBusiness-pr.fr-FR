@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation des options de ligne de commande du programme d’installation'
+title: 'Lync Server 2013 : utilisation des options de ligne de commande du programme d’installation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Setup command-line options
 ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fcf3637ac0d334c2d22ef714891ea0544ee1a6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846366"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 La ligne de commande Setup.exe est utilisée pour très peu d’opérations dans le programme d’installation d’Office. Au lieu d’utiliser les options de ligne de commande du programme d’installation, vous utiliserez généralement l’outil de personnalisation Office et le fichier Config.xml pour personnaliser l’installation du produit et de ses fonctionnalités.
 
@@ -63,7 +65,7 @@ La ligne de commande de Setup.exe reconnaît les options de ligne de commande d�
 </tr>
 <tr class="odd">
 <td><p>/config [chemin]</p></td>
-<td><p>Spécifie le fichier Config.xml utilisé par le programme d’installation lors de l’installation. Utilisez l’option/config pour spécifier le fichier config. XML que vous avez personnalisé pour les installations de Lync 2013, par exemple:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Spécifie le fichier Config.xml utilisé par le programme d’installation lors de l’installation. Utilisez l’option/config pour spécifier le fichier config. XML que vous avez personnalisé pour les installations de Lync 2013, par exemple :<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/Modify Lync</p></td>

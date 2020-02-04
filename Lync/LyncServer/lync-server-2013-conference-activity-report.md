@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport d’activité de conférence'
+title: 'Lync Server 2013 : rapport d’activité de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Activity Report
 ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558627(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f96ddc5dfda18fa1d96903eb5755481f76853c06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838504"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
-Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un bref coup d’œil sur les rapports d’activité de conférence peut suggérer une raison possible: beaucoup plus de conférences sont prévues entre les heures de 10:00 AM et 2:00 PM à tout moment.
+Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un bref coup d’œil sur les rapports d’activité de conférence peut suggérer une raison possible : beaucoup plus de conférences sont prévues entre les heures de 10:00 AM et 2:00 PM à tout moment.
 
 Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les utilisateurs à replanifier certaines de leurs conférences à un moment de la journée où le trafic est moins important.
 
@@ -43,7 +45,7 @@ Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les uti
 
 ## <a name="accessing-the-conference-activity-report"></a>Accès au rapport des activités de conférence
 
-Le rapport d’activité de conférence est accessible à partir du [rapport de synthèse de conférences dans Lync Server 2013](lync-server-2013-conference-summary-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport d’activité de conférence est accessible à partir du [rapport de synthèse de conférences dans Lync Server 2013](lync-server-2013-conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Nombre total de conférences
 

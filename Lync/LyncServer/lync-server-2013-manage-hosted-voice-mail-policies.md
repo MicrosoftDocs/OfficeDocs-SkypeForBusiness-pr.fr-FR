@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des stratégies de messagerie vocale héberg�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage hosted voice mail policies
 ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f0db0d2c4e1e8258fb5d9a212084823d1e25f7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828263"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-20_
+_**Dernière modification de la rubrique :** 2012-09-20_
 
 Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage de l’ExUM de Lync Server 2013 sur l’emplacement de routage des appels pour les utilisateurs dont la boîte aux lettres est située sur un service Exchange hébergé.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Composants requis pour l’accès des utilisateurs ex
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for external user access
 ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425779(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895f2d4837eb465f0eead2b70cf1d603504699ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 550eb864ff7cc26eb0bfeace37759bb15b9816f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838518"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-29_
+_**Dernière modification de la rubrique :** 2014-05-29_
 
 La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants constituent la topologie latérale du réseau de périmètre. Sauf indication contraire, les composants font partie des [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
 
@@ -60,7 +62,7 @@ La plupart des composants Edge sont déployés sur un réseau de périmètre. Le
 
 ## <a name="edge-servers"></a>serveurs Edge
 
-Les serveurs Edge envoient et reçoivent le trafic réseau pour les services proposés par un déploiement interne par des utilisateurs externes. Le serveur Edge exécute les services suivants:
+Les serveurs Edge envoient et reçoivent le trafic réseau pour les services proposés par un déploiement interne par des utilisateurs externes. Le serveur Edge exécute les services suivants :
 
   - **Service Edge d'**   accès le service Edge d’accès fournit un point de connexion unique et approuvé pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
 
@@ -88,7 +90,7 @@ Les utilisateurs externes autorisés peuvent accéder aux serveurs de périphér
 
 ## <a name="reverse-proxy"></a>Proxy inverse
 
-Le proxy inverse est requis pour les éléments suivants:
+Le proxy inverse est requis pour les éléments suivants :
 
   - Pour permettre aux utilisateurs de se connecter à des réunions ou des conférences rendez-vous à l’aide d’URL simples
 
@@ -112,7 +114,7 @@ Pour plus d’informations sur les proxys inversés et les configurations requis
 
 
 > [!NOTE]  
-> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) pour votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN au sein de votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, les conférences vidéo) peut être affecté. Nous vous conseillons de fournir un moyen pour le trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article de blog NextHop intitulé «activation de médias <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour ignorer un tunnel VPN».
+> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) pour votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN au sein de votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, les conférences vidéo) peut être affecté. Nous vous conseillons de fournir un moyen pour le trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article de blog NextHop intitulé « activation de médias <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour ignorer un tunnel VPN ».
 
 
 

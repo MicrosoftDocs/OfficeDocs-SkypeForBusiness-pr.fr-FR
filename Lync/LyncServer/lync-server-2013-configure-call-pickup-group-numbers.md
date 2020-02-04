@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer les numéros de groupe de capture d’appels'
+title: 'Lync Server 2013 : configurer les numéros de groupe de capture d’appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure call pickup group numbers
 ms:assetid: 5cc67f0b-d70d-446a-8db1-befda8671121
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd20374a0e2507ff656c547d55b70d31969d821
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc2badf254fc42e9e8db401065467a6c673660ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838419"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838419"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Le prélèvement d’appels de groupe est basé sur l’application de parc d’appels. Lorsque vous déployez un appel de groupe, vous configurez la table d’orbite du parc d’appels avec des plages de numéros de téléphone désignés comme numéros de groupe de cueillette d’appel. Ces numéros de groupe sont les numéros que les utilisateurs composent pour prendre des appels qui sonnent pour un autre utilisateur.
 

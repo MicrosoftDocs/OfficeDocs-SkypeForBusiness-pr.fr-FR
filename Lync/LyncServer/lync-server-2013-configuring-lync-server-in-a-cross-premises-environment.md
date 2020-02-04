@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de Lync Server dans un environnement local'
+title: 'Lync Server 2013 : configuration de Lync Server dans un environnement local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
 ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44a47dc3bf3c832819fe431cb0177bfc1a03f330
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02696b85921e2f408b7a7ec5531b0596aaef49ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838237"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-02-21_
+_**Dernière modification de la rubrique :** 2017-02-21_
 
-Dans une configuration intersites, certains de vos utilisateurs sont hébergés sur une installation locale de Microsoft Lync Server 2013 alors que d’autres utilisateurs sont hébergés sur la version Office 365 de Lync Server. Pour configurer l’authentification de serveur à serveur dans un environnement local, vous devez commencer par configurer votre installation locale de Lync Server 2013 pour faire confiance au serveur d’autorisation Office 365. La première étape de ce processus peut être effectuée en exécutant le script Lync Server Management Shell suivant:
+Dans une configuration intersites, certains de vos utilisateurs sont hébergés sur une installation locale de Microsoft Lync Server 2013 alors que d’autres utilisateurs sont hébergés sur la version Office 365 de Lync Server. Pour configurer l’authentification de serveur à serveur dans un environnement local, vous devez commencer par configurer votre installation locale de Lync Server 2013 pour faire confiance au serveur d’autorisation Office 365. La première étape de ce processus peut être effectuée en exécutant le script Lync Server Management Shell suivant :
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -93,17 +95,17 @@ Une fois le script terminé, vous devez configurer une relation d’approbation 
 
 Une fois que vous avez configuré Office 365 et que vous avez créé des principaux de service Office 365 pour Lync Server 2013 et Exchange 2013, vous devrez alors enregistrer vos informations d’identification avec ces principaux de service. Pour ce faire, vous devez d’abord obtenir un certificat X.509 Base64 enregistré sous forme de fichier .CER. Ce certificat est alors appliqué aux principaux services d’Office 365.
 
-Lorsque vous avez obtenu le certificat X. 509, démarrez le module Microsoft Online Services (cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Online Services**, puis sur le **module Microsoft Online Services pour Windows). PowerShell**). Lorsque le module Services s’ouvre, tapez les informations suivantes pour importer le module Microsoft Online Windows PowerShell contenant les applets de commande qui peuvent être utilisées pour gérer les principaux de service:
+Lorsque vous avez obtenu le certificat X. 509, démarrez le module Microsoft Online Services (cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Online Services**, puis cliquez sur **Microsoft Online Services module pour Windows PowerShell**). Lorsque le module Services s’ouvre, tapez les informations suivantes pour importer le module Microsoft Online Windows PowerShell contenant les applets de commande qui peuvent être utilisées pour gérer les principaux de service :
 
     Import-Module MSOnlineExtended
 
-Lorsque le module a été importé, tapez la commande suivante et appuyez sur entrée pour vous connecter à Office 365:
+Lorsque le module a été importé, tapez la commande suivante et appuyez sur entrée pour vous connecter à Office 365 :
 
     Connect-MsolService
 
 Après avoir appuyé sur Entrée, une boîte de dialogue d’informations d’identification s’affiche. Entrez votre nom d’utilisateur et votre mot de passe Office 365 dans la boîte de dialogue, puis cliquez sur OK.
 
-Dès que vous êtes connecté à Office 365, vous pouvez exécuter la commande suivante afin de renvoyer des informations sur vos principaux de service:
+Dès que vous êtes connecté à Office 365, vous pouvez exécuter la commande suivante afin de renvoyer des informations sur vos principaux de service :
 
     Get-MsolServicePrincipal
 
@@ -118,14 +120,14 @@ Vous devriez obtenir des informations similaires à celles-ci pour tous vos prin
     ServicePrincipalName : LyncServer/litwareinc.com
     TrustedForDelegation : True
 
-L’étape suivante consiste à importer, encoder et affecter le certificat X.509. Pour importer et coder le certificat, utilisez les commandes Windows PowerShell suivantes, en veillant à spécifier le chemin d’accès complet au fichier. Fichier CER lorsque vous appelez la méthode d’importation:
+L’étape suivante consiste à importer, encoder et affecter le certificat X.509. Pour importer et coder le certificat, utilisez les commandes Windows PowerShell suivantes, en veillant à spécifier le chemin d’accès complet au fichier. Fichier CER lorsque vous appelez la méthode d’importation :
 
     $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
     $certificate.Import("C:\Certificates\Office365.cer")
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-Une fois le certificat importé et encodé, vous pouvez attribuer le certificat à vos principaux services Office 365. Pour ce faire, vous devez commencer par utiliser Get-MsolServicePrincipal pour récupérer la valeur de la propriété paramètre appprincipalid que pour les services de noms de serveur Lync Server et Microsoft Exchange. la valeur de la propriété paramètre appprincipalid que est utilisée pour identifier le principal de service affecté au certificat. La valeur de la propriété paramètre appprincipalid que de Lync Server 2013 étant disponible, utilisez la commande suivante pour affecter le certificat à la version 365 Office de Lync Server (les propriétés StartDate et DateFin doivent correspondre à la période de validité du certificat):
+Une fois le certificat importé et encodé, vous pouvez attribuer le certificat à vos principaux services Office 365. Pour ce faire, vous devez commencer par utiliser Get-MsolServicePrincipal pour récupérer la valeur de la propriété paramètre appprincipalid que pour les services de noms de serveur Lync Server et Microsoft Exchange. la valeur de la propriété paramètre appprincipalid que est utilisée pour identifier le principal de service affecté au certificat. La valeur de la propriété paramètre appprincipalid que de Lync Server 2013 étant disponible, utilisez la commande suivante pour affecter le certificat à la version 365 Office de Lync Server (les propriétés StartDate et DateFin doivent correspondre à la période de validité du certificat) :
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
@@ -148,7 +150,7 @@ Vous pouvez ensuite supprimer le certificat à l’aide d’une commande comme c
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-Outre l’attribution d’un certificat, vous devez également configurer le principal de service Office 365 pour Exchange Online en ajoutant le nom de principal du serveur pour votre version locale de Lync Server 2013. Pour ce faire, vous pouvez exécuter les quatre lignes suivantes dans une session PowerShell Microsoft Online Services:
+Outre l’attribution d’un certificat, vous devez également configurer le principal de service Office 365 pour Exchange Online en ajoutant le nom de principal du serveur pour votre version locale de Lync Server 2013. Pour ce faire, vous pouvez exécuter les quatre lignes suivantes dans une session PowerShell Microsoft Online Services :
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

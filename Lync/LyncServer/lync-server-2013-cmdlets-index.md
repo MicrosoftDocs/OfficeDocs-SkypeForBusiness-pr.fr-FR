@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: index cmdlets'
+title: 'Lync Server 2013 : index cmdlets'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d18b599792d2599d96b4775aa37a4178f99d1e47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64dd8edcb3f21cbdbdaf2b5a29c7e813675c9136
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838616"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-04-12_
+_**Dernière modification de la rubrique :** 2016-04-12_
 
-Microsoft Lync Server 2013 est fourni avec plus de 700 cmdlets qui permettent aux administrateurs de gérer Lync Server 2013 à partir de la ligne de commande. Les applets de applet de serveur Lync sont généralement utilisés avec Lync Server Management Shell. L’une des façons d’utiliser Lync Server Management Shell consiste à se connecter à un ordinateur exécutant un service ou un rôle serveur Lync Server. cliquez sur **Démarrer**, **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell. **. Après l’ouverture de Management Shell, vous pouvez obtenir de l’aide pour une applet de commande directement à partir de la ligne de commande en tapant une commande semblable à ce qui suit:
+Microsoft Lync Server 2013 est fourni avec plus de 700 cmdlets qui permettent aux administrateurs de gérer Lync Server 2013 à partir de la ligne de commande. Les applets de applet de serveur Lync sont généralement utilisés avec Lync Server Management Shell. Une des façons d’utiliser Lync Server Management Shell consiste à se connecter à un ordinateur exécutant un serveur Lync Server ou un rôle serveur, cliquez sur **Démarrer**, **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**. Après l’ouverture de Management Shell, vous pouvez obtenir de l’aide pour une applet de commande directement à partir de la ligne de commande en tapant une commande semblable à ce qui suit :
 
     Get-Help New-CsVoicePolicy -Full
 
 La commande précédente permet d’obtenir de l’aide concernant l’applet de commande **New-CsVoicePolicy**. Pour afficher l’aide d’une cmdlet différente, remplacez **New-CsVoicePolicy** par le nom de l’applet de commande pour laquelle vous souhaitez obtenir de l’aide.
 
-Pour obtenir la liste complète des applets de commande disponibles pour gérer Lync Server, tapez les informations suivantes à l’invite de commandes de Lync Server Management Shell:
+Pour obtenir la liste complète des applets de commande disponibles pour gérer Lync Server, tapez les informations suivantes à l’invite de commandes de Lync Server Management Shell :
 
     Get-Command * -Module Lync -CommandType cmdlet
 
@@ -51,7 +53,7 @@ Pour plus d’informations sur l’utilisation de Lync Server Management Shell, 
 
 ## <a name="lync-server-2013-cmdlets"></a>Applets de applet Lync Server 2013
 
-Voici une liste des applets de commande fournis avec Lync Server 2013:
+Voici une liste des applets de commande fournis avec Lync Server 2013 :
 
   - [Add-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
 

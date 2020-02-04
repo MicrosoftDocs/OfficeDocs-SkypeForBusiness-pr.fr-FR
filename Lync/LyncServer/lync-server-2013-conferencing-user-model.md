@@ -3,6 +3,8 @@ title: Modèle d’utilisateur de conférence Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: The conferencing user model
 ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f517e6d3ea3a832c4331377fa49ef7e474377de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838461"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838461"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
-La taille de la réunion est une partie essentielle du modèle utilisateur de conférence de Lync Server. Après la collecte des données à partir de plusieurs points de données (comme décrit dans la section précédente), nous avons déterminé les éléments suivants:
+La taille de la réunion est une partie essentielle du modèle utilisateur de conférence de Lync Server. Après la collecte des données à partir de plusieurs points de données (comme décrit dans la section précédente), nous avons déterminé les éléments suivants :
 
   - La plupart des réunions sont en fait de petites réunions en équipe avec une moyenne de quatre à six participants.
 
@@ -43,19 +45,19 @@ La taille de la réunion est une partie essentielle du modèle utilisateur de co
 
   - 99,98% des réunions ont moins de 100 participants.
 
-En plus de la taille de la réunion, le modèle utilisateur de conférence prend également en compte plusieurs facteurs, tels que:
+En plus de la taille de la réunion, le modèle utilisateur de conférence prend également en compte plusieurs facteurs, tels que :
 
-  - **Réunions simultanées**   combien d’utilisateurs sont-ils censés avoir en même temps des réunions?
+  - **Réunions simultanées**   combien d’utilisateurs sont-ils censés avoir en même temps des réunions ?
 
-  - **Media Mix**   quels types de médias sont disponibles et censés être utilisés par les utilisateurs dans les réunions?
+  - **Media Mix**   quels types de médias sont disponibles et censés être utilisés par les utilisateurs dans les réunions ?
 
   - **Les types**   d’utilisateurs sont des utilisateurs internes, des utilisateurs distants, des utilisateurs fédérés ou des utilisateurs anonymes.
 
-  - **Durée**   de la réunion avec le temps nécessaire pour permettre à tous les utilisateurs d’une réunion de participer à une réunion?
+  - **Durée**   de la réunion avec le temps nécessaire pour permettre à tous les utilisateurs d’une réunion de participer à une réunion ?
 
 Pour plus d’informations sur le modèle utilisateur, voir [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).
 
-Pour déterminer le nombre de réunions et d’utilisateurs à utiliser pour le test, nous avons effectué les opérations suivantes:
+Pour déterminer le nombre de réunions et d’utilisateurs à utiliser pour le test, nous avons effectué les opérations suivantes :
 
   - A suivi le nombre total d’utilisateurs au sein d’une organisation (par exemple, les utilisateurs 80 000) et multiplié par le taux de concurrence de la réunion (par exemple, 5% de l’ensemble des utilisateurs) pour déterminer le nombre total d’utilisateurs censés participer à des réunions en même temps (dans cet exemple, , 4000 utilisateurs).
 

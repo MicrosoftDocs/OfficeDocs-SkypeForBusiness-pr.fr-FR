@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour le pare-
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine external A/V firewall and port requirements
 ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425882(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b278c60eaca69fd17508d0e82198a002484ce586
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d5519ef37ff334ddf196e94b40aa7df14d69d25
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831446"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831446"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Les communications audio/vidéo (A/V) peuvent être complexes. En raison de la nature des protocoles utilisés dans A/V et de la manière dont les clients et les serveurs utilisent les protocoles, une section spéciale est garante d’expliquer les différences entre les versions client et serveur.
 
@@ -77,7 +79,7 @@ Le même type n’est pas vrai pour l’interface externe du périphérique audi
 
 La configuration de la plage de ports audio/vidéo de 50000-59,999 doit prendre en compte que la plage de port va contenir les ports sources pour les communications avec les partenaires de Fédération. En détail, considérez qu’une communication est lancée à partir d’un partenaire de Fédération. La communication des ports de service Edge A/V dans la plage 50000-59,999 se connectera au port TCP 443 du service Edge A/V du partenaire. À l’inverse, le trafic entrant vers votre service de port TCP 443 a un port source dans la plage comprise entre 50000 et 59,999.
 
-Les pare-feu et les stratégies différents pour l’administration du pare-feu peuvent nécessiter la configuration de règles de destination uniquement, ou exiger la configuration de la source et de la destination. S’il s’agit de la configuration requise pour les ports de destination uniquement, les exigences audio et vidéo sont les suivantes:
+Les pare-feu et les stratégies différents pour l’administration du pare-feu peuvent nécessiter la configuration de règles de destination uniquement, ou exiger la configuration de la source et de la destination. S’il s’agit de la configuration requise pour les ports de destination uniquement, les exigences audio et vidéo sont les suivantes :
 
 
 <table>
@@ -118,7 +120,7 @@ Les pare-feu et les stratégies différents pour l’administration du pare-feu 
 </table>
 
 
-Si vos stratégies nécessitent à la fois les définitions des règles de pare-feu entrant et sortant, les exigences audio et vidéo sont les suivantes:
+Si vos stratégies nécessitent à la fois les définitions des règles de pare-feu entrant et sortant, les exigences audio et vidéo sont les suivantes :
 
 
 <table>
@@ -181,7 +183,7 @@ Si vos stratégies nécessitent à la fois les définitions des règles de pare-
 
 ## <a name="nat-requirements-for-the-edge-service"></a>Configuration NAT requise pour le service Edge
 
-Les exigences suivantes concernant tar s’appliquent si vous choisissez de configurer des adresses IP privées non routables pour le service Edge:
+Les exigences suivantes concernant tar s’appliquent si vous choisissez de configurer des adresses IP privées non routables pour le service Edge :
 
   - TAR ne peut être utilisée qu’avec l’équilibrage de charge DNS. TAR n’est pas pris en charge avec une topologie de bord de l’équilibrage de charge matérielle (HLB).
 
@@ -199,9 +201,9 @@ Par exemple, dans la direction sortante dans la figure ci-dessous, l’adresse I
 
 **La figure ci-dessous montre comment tar modifie l’adresse IP de destination pour le trafic entrant et l’adresse IP source pour le trafic sortant.**
 
-![Modification des adresses IP de destination/source] (images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Modification des adresses IP de destination/source")
+![Modification des adresses IP de destination/source](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Modification des adresses IP de destination/source")
 
-Les points clés sont les suivants:
+Les points clés sont les suivants :
 
   - Le trafic entrant sur le serveur exécutant le service Edge A/V, l’adresse IP source reste inchangée mais l’adresse IP de destination passe d' 131.107.155.30 à l’adresse IP traduite de 10.45.16.10.
 

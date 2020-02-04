@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vérification ou configuration de l’authentificatio
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae692f788d906d01852990490ace01f67eebe63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48399ed2a6eba53707218295adcd1cbd11a5e32c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846334"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846334"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-05-25_
+_**Dernière modification de la rubrique :** 2012-05-25_
 
 Suivez la procédure ci-dessous pour configurer le certificat sur les répertoires virtuels d’Internet Information Services (IIS) ou vérifier que le certificat est correctement configuré. Appliquez la procédure suivante à chaque serveur exécutant IIS dans votre pool de serveurs Lync interne et au directeur facultatif.
 
@@ -68,19 +70,19 @@ Suivez la procédure ci-dessous pour configurer le certificat sur les répertoir
 
 4.  Sur le serveur frontal ou le directeur pour lequel vous demandez le certificat, cliquez sur **Démarrer**, sélectionnez **tous les programmes**, **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server Management Shell**.
 
-5.  Dans Lync Server Management Shell, tapez les informations suivantes:
+5.  Dans Lync Server Management Shell, tapez les informations suivantes :
     
         Get-CsCertificate
     
-    La sortie est une liste des certificats actuellement sur le serveur dans le magasin de certificats personnels de l’ordinateur. Notez que dans le certificat combiné (autrement dit, les services Web internes et externes par défaut utilisent le même certificat) vous constaterez que la propriété Use sera remplie avec la valeur par défaut, WebServicesInternal et WebServicesExternal. Par ailleurs, la propriété d’empreinte est identique pour chaque type d’utilisation. Un exemple de sortie de Get-CsCertificate est illustré dans cet exemple:
+    La sortie est une liste des certificats actuellement sur le serveur dans le magasin de certificats personnels de l’ordinateur. Notez que dans le certificat combiné (autrement dit, les services Web internes et externes par défaut utilisent le même certificat) vous constaterez que la propriété Use sera remplie avec la valeur par défaut, WebServicesInternal et WebServicesExternal. Par ailleurs, la propriété d’empreinte est identique pour chaque type d’utilisation. Un exemple de sortie de Get-CsCertificate est illustré dans cet exemple :
     
-    ![Get-CsCertificate informations sur l’état actuel de scert] (images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate informations sur l’état actuel de scert")
+    ![Get-CsCertificate informations sur l’état actuel de scert](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate informations sur l’état actuel de scert")
 
-6.  Dans Lync Server Management Shell, tapez les informations suivantes:
+6.  Dans Lync Server Management Shell, tapez les informations suivantes :
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA <CA Server FQDN\CA Instance> -Verbose -DomainName "<FQDN entries to be added to the Subject Alternative Name>"
     
-    Où la commande complète s’afficherait comme suit:
+    Où la commande complète s’afficherait comme suit :
     
         Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -CA dc01.contoso.net\contoso-DC01-CA -Verbose -DomainName "LyncdiscoverInternal.Contoso.com,Lyncdiscover.Contoso.com"
     
@@ -93,19 +95,19 @@ Suivez la procédure ci-dessous pour configurer le certificat sur les répertoir
     
     </div>
     
-    ![Sortie d’une demande de certificat à l’aide d’une requête-CsCertifica] (images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie d’une demande de certificat à l’aide d’une requête-CsCertifica")
+    ![Sortie d’une demande de certificat à l’aide d’une requête-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Sortie d’une demande de certificat à l’aide d’une requête-CsCertifica")
 
-7.  Dans Lync Server Management Shell, tapez les informations suivantes:
+7.  Dans Lync Server Management Shell, tapez les informations suivantes :
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Thumbprint of certificate to use>
     
-    Où la commande complète s’afficherait comme suit:
+    Où la commande complète s’afficherait comme suit :
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint 466D9BB0E8B928B65AF38FA2D9F41E1B301ECE9D
     
     La sortie de l’applet de commande Set-CsCertificate indique que le certificat (identifié par l’empreinte numérique du certificat) est attribué à l’utilisation par défaut de WebServicesExternal et WebServicesInternal.
     
-    ![Sortie de Set-CsCertificate sur IIS WebEx] (images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Sortie de Set-CsCertificate sur IIS WebEx")
+    ![Sortie de Set-CsCertificate sur IIS WebEx](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Sortie de Set-CsCertificate sur IIS WebEx")
 
 </div>
 

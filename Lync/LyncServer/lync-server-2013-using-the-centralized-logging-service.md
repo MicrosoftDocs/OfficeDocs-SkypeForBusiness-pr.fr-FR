@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation du service de journalisation centralisée'
+title: 'Lync Server 2013 : utilisation du service de journalisation centralisée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Centralized Logging Service
 ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688101(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03b5e4e2582c7b1738f0a6072197643f4df99238
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2fb3687d036f7d72160c8af0e168a40d09c84e4b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846354"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Le service de journalisation centralisé est une nouvelle fonctionnalité de Lync Server 2013. Il s’agit d’un remplacement amélioré pour les outils **OCSLogger** et **OCSTracer** fournis dans les versions précédentes. Vous pouvez utiliser le service de journalisation centralisé pour effectuer les tâches suivantes:
+Le service de journalisation centralisé est une nouvelle fonctionnalité de Lync Server 2013. Il s’agit d’un remplacement amélioré pour les outils **OCSLogger** et **OCSTracer** fournis dans les versions précédentes. Vous pouvez utiliser le service de journalisation centralisé pour effectuer les tâches suivantes :
 
   - Commencez à vous connecter sur un ou plusieurs ordinateurs et pools à partir d’un emplacement et d’une commande uniques.
 

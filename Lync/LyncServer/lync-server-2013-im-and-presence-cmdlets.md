@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de messagerie instantanée et de présence'
+title: 'Lync Server 2013 : cmdlets de messagerie instantanée et de présence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IM and presence cmdlets
 ms:assetid: 7b882480-f3d5-44a2-bb75-fffb7e5caede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5047a8fbb4d9533e7364ca0d566c0a9ce9660fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d96b8971bb25898e9e8b02403b0f8cd5447681c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831033"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831033"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-26_
+_**Dernière modification de la rubrique :** 2012-06-26_
 
 Les applets de recherche de messagerie instantanée et de présence vous permettent de gérer ces fonctionnalités de client par le biais de Windows PowerShell. Vous pouvez définir des stratégies de présence qui s’appliquent aux utilisateurs au niveau de l’étendue globale, du site ou par utilisateur. Vous pouvez également configurer des fonctionnalités de confidentialité et de messagerie instantanée différentes.
 
@@ -41,7 +43,7 @@ Les applets de recherche de messagerie instantanée et de présence vous permett
 
 ## <a name="im-and-presence-cmdlets"></a>Cmdlets de la messagerie instantanée et de la présence
 
-Configuration de la messagerie instantanée et de la présence, utilisez les applets de commande suivantes:
+Configuration de la messagerie instantanée et de la présence, utilisez les applets de commande suivantes :
 
   - <span></span>  
     [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))

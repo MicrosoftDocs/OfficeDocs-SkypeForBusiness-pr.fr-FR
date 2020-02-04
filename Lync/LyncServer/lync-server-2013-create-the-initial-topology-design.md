@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création de la conception de topologie initiale'
+title: 'Lync Server 2013 : création de la conception de topologie initiale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831768"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Après l’installation de l’outil de planification Lync Server 2013, vous pouvez démarrer l’outil de planification et commencer à concevoir l’infrastructure Lync Server 2013 proposée.
 
@@ -51,15 +53,15 @@ Après l’installation de l’outil de planification Lync Server 2013, vous pou
 
 ## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Pour commencer à utiliser l’outil de planification et créer la conception initiale
 
-1.  Démarrez l’outil de planification Lync Server 2013: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur outil de **planification**.
+1.  Démarrez l’outil de planification Lync Server 2013 : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur outil de **planification**.
 
 2.  Après le démarrage de l’outil de planification, la page **Bienvenue dans l’outil de planification de Microsoft Lync Server 2013** s’affiche. Choisissez l’une des options suivantes pour commencer votre conception :
     
-      - **Option 1:**   mise en route cliquez sur mise en **route** fournit une série spécifique de questions d’entretien avec des sélections pertinentes permettant de définir les critères. Lorsque vous en avez terminé avec la section **Mise en route** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
+      - **Option 1 :**   mise en route cliquez sur mise en **route** fournit une série spécifique de questions d’entretien avec des sélections pertinentes permettant de définir les critères. Lorsque vous en avez terminé avec la section **Mise en route** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
     
-      - **Option 2: créer des sites**   le fait de cliquer sur **sites de création** dans la page d’accueil ignore les questions présentées dans la section mise en **route** . Les informations collectées par les réponses fournies aux questions d’entretien dans la rubrique **Mise en route** sont définies comme valeurs par défaut avec cette option. En cliquant sur **Concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut selon ses besoins sur la page de démarrage **Sites centraux**. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
+      - **Option 2 : créer des sites**   le fait de cliquer sur **sites de création** dans la page d’accueil ignore les questions présentées dans la section mise en **route** . Les informations collectées par les réponses fournies aux questions d’entretien dans la rubrique **Mise en route** sont définies comme valeurs par défaut avec cette option. En cliquant sur **Concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut selon ses besoins sur la page de démarrage **Sites centraux**. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
     
-      - **Option 3: afficher votre topologie**   enregistrée si vous avez déjà terminé et enregistré une topologie lors de l’utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer en ouvrant et en affichant la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la ré-enregistrer, puis l’exporter dans Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
+      - **Option 3 : afficher votre topologie**   enregistrée si vous avez déjà terminé et enregistré une topologie lors de l’utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer en ouvrant et en affichant la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la ré-enregistrer, puis l’exporter dans Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
 
 3.  Cliquez sur mise en **route** pour commencer à concevoir votre topologie Lync Server 2013.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: exécuter des cas de test de routage de voix'
+title: 'Lync Server 2013 : exécuter des cas de test de routage de voix'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run voice routing test cases
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cded8f3bf44388103ccf5a33507973817de45ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822397"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822397"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage de voix ou exécuter un ou plusieurs cas de test sélectionnés.
 
@@ -53,15 +55,15 @@ Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage 
 
 5.  Facultatif Pour afficher les résultats détaillés pour chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats s’affichent dans la zone ombrée située sur le côté droit de la page **modifier le cas de test** :
     
-    1.  **Résultat du test:** État de réussite ou d’échec global du cas de test exécuté.
+    1.  **Résultat du test :** État de réussite ou d’échec global du cas de test exécuté.
     
-    2.  **Règle de normalisation:** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
+    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
     
-    3.  **Numéro normalisé:** Valeur du numéro composé une fois la règle de normalisation traduite.
+    3.  **Numéro normalisé :** Valeur du numéro composé une fois la règle de normalisation traduite.
     
-    4.  **Première utilisation RTC:** Premier enregistrement d’utilisation de réseau téléphonique commuté (PSTN) dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
+    4.  **Première utilisation RTC :** Premier enregistrement d’utilisation de réseau téléphonique commuté (PSTN) dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
     
-    5.  **Premier itinéraire:** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
+    5.  **Premier itinéraire :** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
         
         <div>
         
@@ -92,15 +94,15 @@ Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage 
 
 6.  Facultatif Pour afficher les résultats détaillés pour chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats s’affichent dans la zone ombrée située sur le côté droit de la page **modifier le cas de test** :
     
-    1.  **Résultat du test:** État de réussite ou d’échec global du cas de test exécuté.
+    1.  **Résultat du test :** État de réussite ou d’échec global du cas de test exécuté.
     
-    2.  **Règle de normalisation:** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
+    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
     
-    3.  **Numéro normalisé:** Valeur du numéro composé une fois la règle de normalisation traduite.
+    3.  **Numéro normalisé :** Valeur du numéro composé une fois la règle de normalisation traduite.
     
-    4.  **Première utilisation RTC:** Premier enregistrement d’utilisation RTC dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
+    4.  **Première utilisation RTC :** Premier enregistrement d’utilisation RTC dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
     
-    5.  **Premier itinéraire:** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
+    5.  **Premier itinéraire :** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
         
         <div>
         

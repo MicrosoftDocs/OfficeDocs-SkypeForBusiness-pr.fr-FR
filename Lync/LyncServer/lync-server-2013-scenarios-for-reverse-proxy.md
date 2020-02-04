@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Scénarios de proxy inverse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for reverse proxy
 ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204691(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1621e8bb0241e82f9f4678d4fe39a4f66f6bcf9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 82e1dffa55d6af8d131d3a94710c76277cfa75d9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822243"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34822243"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-21_
+_**Dernière modification de la rubrique :** 2013-01-21_
 
 Les proxys inversés sont requis dans Lync Server 2013 pour permettre l’accès aux services et aux ressources tels que la réunion et les URL de connexion, le carnet d’adresses, le contenu de la réunion, le développement de la liste de distribution, les services de mobilité, etc. Le scénario classique de proxy inverse dans Lync Server 2013 consiste à autoriser les clients externes (par exemple, le client de bureau ou le client Lync Web App) à accéder au directeur ou aux services Web externes du serveur frontal.
 
 **Proxy inverse et services Web externes**
 
-![13142405-D5C9-45b7-a8b7-a8c89f09c97c] (images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-D5C9-45b7-a8b7-a8c89f09c97c")
+![13142405-D5C9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-D5C9-45b7-a8b7-a8c89f09c97c")
 
-Pendant la phase de planification, vous définissez les exigences du proxy inverse dans un déploiement 2013 de Lync Server. Le proxy inverse autorise l’accès à des fonctionnalités pour les clients externes suivants:
+Pendant la phase de planification, vous définissez les exigences du proxy inverse dans un déploiement 2013 de Lync Server. Le proxy inverse autorise l’accès à des fonctionnalités pour les clients externes suivants :
 
   - Client de bureau Microsoft Lync 2013
 
@@ -68,13 +70,13 @@ Lors de la planification du déploiement de Lync Server 2013, vous mappez la con
 
 3.  Les services Web externes de Lync Server 2013 attendent un en-tête d’hôte non modifié du client pour identifier le service et l’annuaire du serveur Web que le client tente d’utiliser. Les demandes doivent apparaître comme si elles provenaient du proxy inverse.
 
-4.  Les services Web externes utilisent des répertoires virtuels définis par le Web Server (vDir), qui fournissent les services offerts aux clients. Les services Web d’identification externes spécifiques sont les suivants:
+4.  Les services Web externes utilisent des répertoires virtuels définis par le Web Server (vDir), qui fournissent les services offerts aux clients. Les services Web d’identification externes spécifiques sont les suivants :
     
       - VDir pour les réunions de conférences Web
     
-      - Le vDir «Dial» pour l’accès téléphonique et la conférence téléphonique
+      - Le vDir « Dial » pour l’accès téléphonique et la conférence téléphonique
     
-      - L’vDir de découverte automatique pour l’application Lync du Windows Store, la version mobile de Lync et le client de bureau Lync 2013. Le système de découverte automatique de Lync Server 2013 est connu sous le nom DNS «lyncdiscover»
+      - L’vDir de découverte automatique pour l’application Lync du Windows Store, la version mobile de Lync et le client de bureau Lync 2013. Le système de découverte automatique de Lync Server 2013 est connu sous le nom DNS « lyncdiscover »
     
       - Les services non définis sont accessibles par le client externe par le biais des appels directs vers les services Web externes. Par exemple, l’extension du groupe de distribution (DLX) et le service de carnet d’adresses (ABS) sont accessibles par des appels directs aux services Web externes et des vDirs associés. Le client connaît le chemin réel vers vDir et crée un localisateur d’enregistrements uniformes (URL) en fonction de ces informations. Le client accède au service de carnet d’adresses à l’aide d’une URL semblable à`https://externalweb.contoso.com/abs/handler`
     
@@ -95,7 +97,7 @@ Lors de la planification du déploiement de Lync Server 2013, vous mappez la con
 
 7.  Demandez et configurez le certificat de proxy inverse en fonction des services qui seront proposés. S’il est configuré avec le nom correct de l’objet, ce certificat peut être partagé par tous les écouteurs configurés du serveur proxy inverse.
 
-Ressources disponibles pour la planification de votre déploiement de proxy inverse:
+Ressources disponibles pour la planification de votre déploiement de proxy inverse :
 
   - [Collecte des données dans Lync Server 2013](lync-server-2013-data-collection.md)
 

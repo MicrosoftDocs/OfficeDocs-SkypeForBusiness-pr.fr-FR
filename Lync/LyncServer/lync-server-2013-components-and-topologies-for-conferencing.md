@@ -3,6 +3,8 @@ title: Composants et topologies utilisés pour les conférences dans Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for conferencing
 ms:assetid: eb83052a-3360-4ba1-a6a0-6ee419942809
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5caf5ba33e863e08bf4f728d2bf11394f37f20b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db44e7c8430865fcf8138c9b51f6e700ff85dd7b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838534"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-04_
+_**Dernière modification de la rubrique :** 2013-02-04_
 
 Lorsque vous sélectionnez l’option conférences dans le générateur de topologie, la Conférence est déployée dans le cadre du serveur frontal ou du serveur Standard Edition. Les conférences rendez-vous et le partage PowerPoint nécessitent des composants et une configuration supplémentaires. Les sections suivantes décrivent les composants et topologies pris en charge pour les conférences Web, les conférences A/V et la Conférence rendez-vous.
 
@@ -45,17 +47,17 @@ Les seuls composants de conférence Web et de conférence A/V requis sont les se
 
 Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-Outre les exigences relatives aux conférences Web et aux conférences audiovisuelles, la Conférence rendez-vous utilise les composants Lync Server 2013 suivants:
+Outre les exigences relatives aux conférences Web et aux conférences audiovisuelles, la Conférence rendez-vous utilise les composants Lync Server 2013 suivants :
 
-  - ****   Le service d’application de service d’application fournit une plate-forme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Les conférences rendez-vous utilisent deux applications de communications unifiées qui nécessitent le service d’application: le surveillant de conférences et l’annonce de conférence. Le service d’application est installé et activé par défaut sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
+  - ****   Le service d’application de service d’application fournit une plate-forme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Les conférences rendez-vous utilisent deux applications de communications unifiées qui nécessitent le service d’application : le surveillant de conférences et l’annonce de conférence. Le service d’application est installé et activé par défaut sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
 
   - **** L’application attendant du surveillant de conférences est une application de communications unifiées qui accepte les appels de réseau téléphonique commuté (RTC), lit les invites et joint les appels à une conférence a/V.    L’application de surveillance des conférences est installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
 
-  - **Annonce**   d’annonce d’annonce d’annonce d’application est une application de communications unifiées qui lit les sons et les invites des participants au RTC sur certaines actions, par exemple lorsque les participants rejoignent ou quittent une conférence. les participants sont inactivés ou désactivés, une personne entre dans la salle d’attente ou la Conférence est verrouillée ou déverrouillée. L’application d’annonce de conférence prend également en charge les commandes de double-tonalité (DTMF) sur le clavier du téléphone. L’application d’annonce de conférences est automatiquement installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
+  - **Annonce**   d’annonce d’annonce d’annonce d’application est une application de communications unifiées qui lit les sons et les invites des participants au RTC sur certaines actions, par exemple lorsque les participants rejoignent ou quittent une conférence, les participants sont en mode muet ou inversement. L’application d’annonce de conférence prend également en charge les commandes de double-tonalité (DTMF) sur le clavier du téléphone. L’application d’annonce de conférences est automatiquement installée et activée par défaut lorsque vous déployez une charge de travail de conférence et sélectionnez l’option Conférence rendez-vous.
 
-  - **Page des paramètres de conférence**   rendez-vous la page des paramètres de conférence rendez-vous affiche les numéros de conférence rendez-vous avec les langues disponibles et les informations de conférence affectées (c’est-à-dire pour les réunions dont le calendrier n’est pas nécessaire) et commandes DTMF en conférence et prise en charge de la gestion de votre code confidentiel (PIN) et des informations de conférence affectées. La page des paramètres de conférence rendez-vous est automatiquement installée dans le cadre des services Web.
+  - **Page des paramètres de conférence**   rendez-vous la page des paramètres de conférence rendez-vous affiche les numéros de conférence rendez-vous avec les langues disponibles, les informations sur les conférences téléphoniques affectées (c’est-à-dire pour les réunions dont le planning n’a pas besoin d’être planifié) et les commandes DTMF en conférence, et prend en charge la gestion de votre code confidentiel (pin) et des informations La page des paramètres de conférence rendez-vous est automatiquement installée dans le cadre des services Web.
 
-  - ****   Les conférences rendez-vous de Lync Server 2013, de médiation Server et de passerelle RTC nécessitent un serveur de médiation pour traduire le signalement (et le média, dans certaines configurations) entre Lync Server 2013 et la passerelle RTC et une passerelle PSTN pour traduire signalisation et médias entre le serveur de médiation et la passerelle PSTN. Pour les conférences rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants:
+  - ****   Les conférences rendez-vous de Lync Server 2013, de médiation Server et de passerelle RTC nécessitent un serveur de médiation pour traduire le signalement (et le média, dans certaines configurations) entre Lync Server 2013 et la passerelle RTC et une passerelle PSTN pour traduire les signaux et les médias entre le serveur de médiation et la passerelle RTC. Pour les conférences rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants :
     
       - Passerelle RTC
     
@@ -92,7 +94,7 @@ Dans Lync Server 2013, le serveur exécutant Conferencing services est toujours 
 
 ## <a name="dial-in-conferencing-toplogies"></a>Accès aux conférences Toplogies
 
-Vous pouvez déployer des conférences rendez-vous dans les topologies et configurations suivantes:
+Vous pouvez déployer des conférences rendez-vous dans les topologies et configurations suivantes :
 
   - Lync Server 2013 Standard Edition
 
@@ -128,7 +130,7 @@ Lync Server 2013 fournit les méthodes suivantes pour configurer Office Web Apps
     
     Dans cette topologie, Lync Server 2013 est déployé en local et utilise un serveur Office Web Apps déployé en dehors de la zone réseau de Lync Server. Cela peut se produire lorsqu’Office Web Apps Server est partagé sur plusieurs applications dans l’entreprise et est déployé sur un réseau nécessitant que Lync Server utilise l’interface externe d’Office Web Apps Server et inversement.
     
-    Vous n’avez pas besoin d’installer un serveur proxy inverse; au lieu de cela, toutes les demandes du serveur Office Web Apps Server vers Lync Server 2013 sont routées via votre serveur Edge. Votre client interne et vos clients Lync externes se connectent à Office Web Apps Server en utilisant l’URL externe.
+    Vous n’avez pas besoin d’installer un serveur proxy inverse ; au lieu de cela, toutes les demandes du serveur Office Web Apps Server vers Lync Server 2013 sont routées via votre serveur Edge. Votre client interne et vos clients Lync externes se connectent à Office Web Apps Server en utilisant l’URL externe.
     
     Si Office Web Apps Server est déployé à l’extérieur de votre pare-feu interne, sélectionnez l’option le **déploiement d’Office Web Apps Server dans un réseau externe (c’est-à-dire le périmètre/Internet)** dans le générateur de topologie. Pour plus d’informations, voir Configuration de l' [intégration à Office Web Apps Server et Lync server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 

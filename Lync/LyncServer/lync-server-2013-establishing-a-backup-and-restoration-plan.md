@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: établissement d’un plan de sauvegarde et de restauration'
+title: 'Lync Server 2013 : établissement d’un plan de sauvegarde et de restauration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration plan
 ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3516e63a7cbada4a89fad3540406e38b299fef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831193"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831193"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-17_
+_**Dernière modification de la rubrique :** 2013-02-17_
 
-Pour créer un plan de sauvegarde et de restauration, procédez comme suit:
+Pour créer un plan de sauvegarde et de restauration, procédez comme suit :
 
   - Développement du plan.
 
@@ -49,7 +51,7 @@ Pour créer un plan de sauvegarde et de restauration, procédez comme suit:
 
 Après avoir développé votre stratégie de sauvegarde et de restauration pour Lync Server, utilisez-la pour documenter une planification de sauvegarde et de restauration détaillées. Votre plan doit indiquer clairement les priorités et les exigences en matière de sauvegarde des données et des paramètres. Pour plus d’informations sur la [création d’une stratégie de sauvegarde et de restauration de lync 2013 server](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) 2013, vous pouvez utiliser les informations contenues dans la création d’une stratégie de sauvegarde et de restauration pour [Lync Server](lync-server-2013-backup-and-restoration-worksheets.md) et faciliter la documentation de votre stratégie. Votre plan doit également contenir des critères de décision concernant le mode de restauration du service.
 
-Lorsque vous développez votre plan, vous devez prendre en compte les éléments suivants:
+Lorsque vous développez votre plan, vous devez prendre en compte les éléments suivants :
 
   - Le mode de récupération des serveurs sur le nouveau matériel.
 
@@ -81,7 +83,7 @@ Pour vous assurer que votre plan de sauvegarde et de restauration répond bien �
 
 ## <a name="implementing-the-backup-and-restoration-plan"></a>Implémentation du plan de sauvegarde et de restauration
 
-Pour implémenter un plan de sauvegarde et de restauration, procédez comme suit:
+Pour implémenter un plan de sauvegarde et de restauration, procédez comme suit :
 
   - Test et validation du plan.
 
@@ -101,7 +103,7 @@ Les procédures décrites dans cet article ont été testées et validées dans 
 
 ## <a name="communicating-the-plan"></a>Communication du plan
 
-Votre plan de sauvegarde et de restauration doit clairement décrire les personnes qui mettent en œuvre des procédures et des instructions détaillées pour la réalisation des procédures. Assurez-vous que toutes les personnes responsables de la sauvegarde et de la restauration comprennent le plan, la manière dont il doit être implémenté et son rôle. Cela inclut toutes les exigences en matière d’implémentation pour les éléments suivants:
+Votre plan de sauvegarde et de restauration doit clairement décrire les personnes qui mettent en œuvre des procédures et des instructions détaillées pour la réalisation des procédures. Assurez-vous que toutes les personnes responsables de la sauvegarde et de la restauration comprennent le plan, la manière dont il doit être implémenté et son rôle. Cela inclut toutes les exigences en matière d’implémentation pour les éléments suivants :
 
   - Sauvegarde du pool et du serveur.
 
@@ -109,7 +111,7 @@ Votre plan de sauvegarde et de restauration doit clairement décrire les personn
 
 **Sauvegarde du serveur et du pool**
 
-Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à l’achèvement régulier des procédures de sauvegarde. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants:
+Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à l’achèvement régulier des procédures de sauvegarde. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants :
 
   - Équipe ou personne (spécifiée en tant qu’individu ou rôle) responsable de la sauvegarde de chaque serveur.
 
@@ -125,7 +127,7 @@ Le plan de sauvegarde et de restauration doit inclure toutes les informations n�
 
 **Restauration du service**
 
-Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à la restauration du service, en cas de perte de l’un ou de plusieurs serveurs pour lesquels le service n’est pas disponible. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants:
+Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à la restauration du service, en cas de perte de l’un ou de plusieurs serveurs pour lesquels le service n’est pas disponible. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants :
 
   - Une équipe ou une personne (spécifiée en tant qu’individu ou rôle) qui est responsable de la détermination du moment où la restauration du service est requise et des procédures à utiliser pour restaurer le service ainsi que de l’équipe ou de la personne responsable de la mise en œuvre de procédures pour chacun d’eux. scénario de restauration.
 
@@ -143,7 +145,7 @@ Le plan de sauvegarde et de restauration doit inclure toutes les informations n�
 
 ## <a name="validating-backup-and-restoration-operations"></a>Valider les opérations de sauvegarde et de restauration
 
-Après avoir effectué les efforts de sauvegarde initiale dans votre environnement de production et à des intervalles spécifiques (comme décrit dans votre plan de sauvegarde et de restauration), vous devez vérifier les points suivants:
+Après avoir effectué les efforts de sauvegarde initiale dans votre environnement de production et à des intervalles spécifiques (comme décrit dans votre plan de sauvegarde et de restauration), vous devez vérifier les points suivants :
 
   - Les sauvegardes se produisent selon les besoins.
 

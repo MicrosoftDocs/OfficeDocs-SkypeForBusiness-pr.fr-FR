@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les informations de périphérique de conférence'
+title: 'Lync Server 2013 : afficher les informations de périphérique de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View conferencing device information
 ms:assetid: 838bdbf8-8b68-4eb6-8fa3-45bfd5b0b1cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4b40e0ee28f13aa6be52009b750258c5cdadffe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846309"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Vous pouvez afficher des informations sur les appareils de conférence configurés pour une utilisation au sein de votre organisation à l’aide de Windows PowerShell et de l’applet **de passe Get-CsMeetingRoom** . Exécutez l’applet de commande **Get-CsMeetingRoom** à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
 
@@ -41,7 +43,7 @@ Vous pouvez afficher des informations sur les appareils de conférence configur�
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -56,11 +58,11 @@ Si vous utilisez l’applet de passe **Get-CsMeetingRoom** sans aucun paramètre
 
 ## <a name="viewing-information-about-all-your-conferencing-devices"></a>Affichage d’informations sur tous vos périphériques de conférence
 
-  - Pour afficher les détails de tous vos appareils de conférence, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher les détails de tous vos appareils de conférence, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsMeetingRoom
     
-    Cette applet de commande renvoie des informations similaires à ce qui suit pour chaque appareil de conférence. Notez que l’exemple ci-après illustre les informations que vous verrez lors de l’exécution de cette cmdlet:
+    Cette applet de commande renvoie des informations similaires à ce qui suit pour chaque appareil de conférence. Notez que l’exemple ci-après illustre les informations que vous verrez lors de l’exécution de cette cmdlet :
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem

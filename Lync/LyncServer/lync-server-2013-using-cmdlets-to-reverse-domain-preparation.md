@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Utilisation d’applets de commande pour inverser la 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using cmdlets to reverse domain preparation
 ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b03ab3218a1568613731efe60eaa95b05a91ebc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d72c135e7daccd677f8e42ea93a2aace8d7cafb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846394"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846394"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Utilisez l’applet de action **Disable-CsAdDomain** pour inverser l’étape de préparation du domaine.
 
@@ -43,7 +45,7 @@ Utilisez l’applet de action **Disable-CsAdDomain** pour inverser l’étape de
 
 1.  Ouvrez une session sur n’importe quel serveur du domaine en tant que membre du groupe Domain Admins.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     

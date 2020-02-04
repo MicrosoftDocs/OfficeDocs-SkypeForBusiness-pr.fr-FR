@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion des emplacements pour les passerelles ELIN'
+title: 'Lync Server 2013 : gestion des emplacements pour les passerelles ELIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing locations for ELIN gateways
 ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828039"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34828039"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
-Pour que Lync Server fournisse automatiquement des emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes:
+Pour que Lync Server fournisse automatiquement des emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes :
 
   - Remplissez la base de données de service informations d’emplacement auprès d’un réseau de Wiremap, puis incluez les numéros d’identification d’emplacement d’urgence (ELINs) dans le champ CompanyName.
 
@@ -71,7 +73,7 @@ Le champ d' **emplacement** du service des informations d’emplacement, qui con
 
   - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-  - Un identificateur d’emplacement qui permet à l’utilisateur de voir facilement le bon emplacement du client Lync. Le client Lync concatène et affiche automatiquement les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «numéro \<\>de rue du 1er étage»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+  - Un identificateur d’emplacement qui permet à l’utilisateur de voir facilement le bon emplacement du client Lync. Le client Lync concatène et affiche automatiquement les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, « numéro \<\>de rue du 1er étage »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
   - Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot Near (par exemple, « À proximité du 1er étage 1234 »).
 
@@ -106,7 +108,7 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 </tr>
 <tr class="even">
 <td><p>Deuxième étage</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">

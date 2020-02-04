@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour la résistance des sites d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff969638f8c46abdd0ebcc8d11821a6a31b3c76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f146f2c358e6eb6718aa60f8a51106430e6a4a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838761"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-25_
+_**Dernière modification de la rubrique :** 2014-02-25_
 
 Cette rubrique a pour but de vous aider à préparer les utilisateurs à la résistance des sites de succursale et à la survivabilité de la messagerie vocale, et indique également les configurations matérielles et logicielles correspondantes requises.
 
@@ -49,7 +51,7 @@ Préparez les utilisateurs à la résilience de site de succursale en définissa
 
 Quelle que soit la solution de résistance de site de succursale choisie, vous devez affecter un serveur d’inscriptions principal à chaque utilisateur. Les utilisateurs du site de succursale doivent toujours s’inscrire auprès du Bureau d’enregistrement au niveau de la succursale, qu’il s’agisse de bureaux d’enregistrement, de succursales survivables ou d’un serveur Lync Server 2013 standard ou Enterprise Edition Server. Un enregistrement de ressource de service (SRV) DNS (Domain Name System) est requis pour qu’un client puisse détecter automatiquement son pool de serveurs d’inscriptions. Si l’unité de branchement Survivable devient indisponible, c’est la façon dont les clients du site de succursale découvrent automatiquement le Bureau d’enregistrement de sauvegarde.
 
-Si un site de succursale ne possède pas de serveur DNS, il existe deux façons de configurer la découverte de l’appareil de succursales survivant ou du serveur de succursales survivant:
+Si un site de succursale ne possède pas de serveur DNS, il existe deux façons de configurer la découverte de l’appareil de succursales survivant ou du serveur de succursales survivant :
 
   - Configurez l’option DHCP 120 sur le serveur DHCP (Dynamic Host Configuration Protocol) du site de succursale de manière à ce qu’elle pointe vers le nom de domaine complet (FQDN) de l’appareil ou du serveur de succursales survivant.
 
@@ -61,7 +63,7 @@ Si un site de succursale ne possède pas de serveur DNS, il existe deux façons 
 
 ## <a name="voice-routing-for-branch-users"></a>Routage des communications vocales des utilisateurs de succursale
 
-Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte au niveau utilisateur pour les utilisateurs d’un site de succursale. Il doit s’agir d’un itinéraire principal qui utilise l’appareil de branchement ou la passerelle serveur survivant, et un ou plusieurs itinéraires de sauvegarde qui utilisent une passerelle de réseau téléphonique commuté (PSTN) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire alternatif faisant appel à une ou plusieurs passerelles de site central est utilisé à la place. Ainsi, quel que soit l’endroit où l’utilisateur est inscrit, soit sur le serveur d’inscriptions du site de succursale, soit sur le pool de serveurs d’inscriptions de sauvegarde du site central, la stratégie VoIP de l’utilisateur est toujours appliquée. Il est primordial de tenir compte de ce point pour les scénarios de basculement. Par exemple, si vous avez besoin de renommer l’unité de branchement Survivable ou de reconfigurer l’unité de branchement Survivable pour vous connecter à un pool d’bureaux de connexion sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pour la durée. (Pour plus d’informations sur le changement de nom d’une unité de branchement Survivable, voir [annexe B: gestion d’une unité de succursale Survivable dans Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) dans la documentation de déploiement.) Si ces utilisateurs ne disposent pas de stratégies VoIP au niveau utilisateur ou d’un plan de numérotation de niveau utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP de niveau de site et les plans de numérotation de niveau site du site central s’appliquent par défaut aux utilisateurs, et non au niveau VoIP du site de la succursale. politiques et plans de numérotation. Dans ce scénario, leurs appels échoueront, à moins que les stratégies VoIP et les plans de numérotation au niveau du site utilisés par le pool de serveurs d’inscriptions de sauvegarde puissent également s’appliquer aux utilisateurs du site de succursale. Par exemple, si les utilisateurs d’un site de succursale basé au Japon sont déplacés sur un site central situé à Redmond, il est probable qu’un plan de numérotation dont les règles de normalisation ajoutent le préfixe +1425 à tous les appels à 7 chiffres ne traduiront pas correctement les appels de ces utilisateurs.
+Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte au niveau utilisateur pour les utilisateurs d’un site de succursale. Il doit s’agir d’un itinéraire principal qui utilise l’appareil de branchement ou la passerelle serveur survivant, et un ou plusieurs itinéraires de sauvegarde qui utilisent une passerelle de réseau téléphonique commuté (PSTN) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire alternatif faisant appel à une ou plusieurs passerelles de site central est utilisé à la place. Ainsi, quel que soit l’endroit où l’utilisateur est inscrit, soit sur le serveur d’inscriptions du site de succursale, soit sur le pool de serveurs d’inscriptions de sauvegarde du site central, la stratégie VoIP de l’utilisateur est toujours appliquée. Il est primordial de tenir compte de ce point pour les scénarios de basculement. Par exemple, si vous avez besoin de renommer l’unité de branchement Survivable ou de reconfigurer l’unité de branchement Survivable pour vous connecter à un pool d’bureaux de connexion sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pour la durée. (Pour plus d’informations sur le changement de nom d’une unité de branchement Survivable, voir [annexe B : gestion d’une unité de succursale Survivable dans Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) dans la documentation de déploiement.) Si ces utilisateurs ne disposent pas de stratégies VoIP d’utilisateur ou de plans de numérotation de niveau utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP de niveau de site et les plans de numérotation de niveau site du site central s’appliquent par défaut aux utilisateurs plutôt qu’aux stratégies VoIP et aux plans de numérotation de site. Dans ce scénario, leurs appels échoueront, à moins que les stratégies VoIP et les plans de numérotation au niveau du site utilisés par le pool de serveurs d’inscriptions de sauvegarde puissent également s’appliquer aux utilisateurs du site de succursale. Par exemple, si les utilisateurs d’un site de succursale basé au Japon sont déplacés sur un site central situé à Redmond, il est probable qu’un plan de numérotation dont les règles de normalisation ajoutent le préfixe +1425 à tous les appels à 7 chiffres ne traduiront pas correctement les appels de ces utilisateurs.
 
 <div>
 
@@ -195,7 +197,7 @@ Dans ce scénario, si l’homologue de jonction qui traite le réacheminement ve
 
 Qu’une liaison de réseau étendu soit disponible ou pas, si votre organisation n’a pas de numéros SDA configurés pour les utilisateurs individuels et que l’URI de ligne d’un utilisateur contient le numéro de téléphone de votre organisation et le numéro de poste unique de l’utilisateur, vous devez configurer l’URI de ligne du numéro de téléphone de votre organisation avec un numéro joignable pour l’homologue de jonction ou la passerelle RTC du site de succursale. Vous devez également configurer l’URI de ligne du numéro de téléphone de votre organisation de sorte qu’il contienne son propre poste unique pour les appels devant être acheminés vers ce numéro.
 
-Pour plus d’informations sur les appels d’un utilisateur de site central à un utilisateur de site d’une succursale lorsque le lien réseau étendu entre les sites n’est pas disponible, voir «préparation de la survie de la messagerie vocale» plus loin dans cette rubrique. Pour plus d’informations sur les plans de numérotation et les règles de normalisation, notamment d’autres exemples de règles, voir [plans de numérotation et règles de normalisation dans Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification et [Configuration des plans de numérotation dans Lync Server 2013](lync-server-2013-configuring-dial-plans.md) lors du déploiement. accompagnant. Pour plus d’informations sur les règles de traduction sortantes, voir [règles de traduction dans Lync server 2013](lync-server-2013-translation-rules.md) dans la documentation de planification et [définition des règles de traduction dans Lync Server 2013](lync-server-2013-defining-translation-rules.md) dans la documentation de déploiement.
+Pour plus d’informations sur les appels d’un utilisateur de site central à un utilisateur de site d’une succursale lorsque le lien réseau étendu entre les sites n’est pas disponible, voir « préparation de la survie de la messagerie vocale » plus loin dans cette rubrique. Pour plus d’informations sur les plans de numérotation et les règles de normalisation, notamment d’autres exemples de règles, voir [plans de numérotation et règles de normalisation dans Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification et [Configuration des plans de numérotation dans Lync Server 2013](lync-server-2013-configuring-dial-plans.md) dans la documentation de déploiement. Pour plus d’informations sur les règles de traduction sortantes, voir [règles de traduction dans Lync server 2013](lync-server-2013-translation-rules.md) dans la documentation de planification et [définition des règles de traduction dans Lync Server 2013](lync-server-2013-defining-translation-rules.md) dans la documentation de déploiement.
 
 </div>
 

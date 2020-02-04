@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: règles de mise à jour d’appareils'
+title: 'Lync Server 2013 : règles de mise à jour d’appareils'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update rules
 ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cce4b0be575665d23b2b09126905fc35791f61ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831423"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Périodiquement, Microsoft publie un nouvel ensemble de mises à jour de microprogramme de périphérique pour Lync Phone Edition. Les *règles de mise à jour* de l’appareil associent les mises à jour du microprogramme aux périphériques matériels (téléphones et autres appareils exécutant Lync Phone Edition).
 
-Pour obtenir le dernier ensemble de règles de mise à jour de l’appareil, accédez à la page aide et support sur le site Web de Microsoft et recherchez «Phone Edition». Téléchargez le package de mise à jour et extrayez les fichiers vers un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, importez les règles de mise à jour de l’appareil trouvées dans le fichier extrait. Le fichier CAB (qui porte le nom UCUpdates. cab). Utilisez ensuite le panneau de configuration de Lync Server ou les applets de commande Windows PowerShell pour afficher et gérer ces règles pour les appareils de votre organisation.
+Pour obtenir le dernier ensemble de règles de mise à jour de l’appareil, accédez à la page aide et support sur le site Web de Microsoft et recherchez « Phone Edition ». Téléchargez le package de mise à jour et extrayez les fichiers vers un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, importez les règles de mise à jour de l’appareil trouvées dans le fichier extrait. Le fichier CAB (qui porte le nom UCUpdates. cab). Utilisez ensuite le panneau de configuration de Lync Server ou les applets de commande Windows PowerShell pour afficher et gérer ces règles pour les appareils de votre organisation.
 
 Les rubriques suivantes vous expliquent comment importer, afficher et gérer des règles de mise à jour d’appareil.
 

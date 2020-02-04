@@ -3,6 +3,8 @@ title: Exemple de rassemblement de vos exigences de contrôle d’admission des 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34831218"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Exemple: rassemblement de vos exigences de contrôle d’admission des appels dans Lync Server 2013
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Exemple : rassemblement de vos exigences de contrôle d’admission des appels dans Lync Server 2013
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831218"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Cet exemple indique comment planifier et implémenter le contrôle d’admission des appels (CAC). Globalement, il s’agit des activités suivantes :
 
@@ -67,7 +69,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
     **Exemple de réseau d’entreprise divisé en trois régions réseau**
     
-    ![Exemple de topologie de réseau avec 3 régions réseau] (images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemple de topologie de réseau avec 3 régions réseau")  
+    ![Exemple de topologie réseau avec 3 régions réseau](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemple de topologie réseau avec 3 régions réseau")  
     
     <div>
     
@@ -193,7 +195,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
     **Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison de réseau étendu (Portland, Reno et Albuquerque)**
     
-    ![Exemples de sites réseau limités par bande passante WAN] (images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemples de sites réseau limités par bande passante WAN")  
+    ![Exemples de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemples de sites réseau limités par la bande passante de la connexion WAN")  
 
 5.  Pour chaque liaison de réseau étendu dont la bande passante est limitée, déterminez les points suivants :
     
@@ -302,7 +304,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
 
     > [!NOTE]
-    > Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source:</STRONG> Service de stratégie de bande passante CS (noyau)<BR><STRONG>Numéro de l’événement:</STRONG> 36034<BR><STRONG>Niveau:</STRONG> 2<BR><STRONG>Description:</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: une liste d'&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause:</STRONG> Les sous-réseaux pour les adresses IP correspondantes n’apparaissent pas dans les paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution:</STRONG> Ajoutez des sous-réseaux correspondant à la liste précédente d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
+    > Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (noyau)<BR><STRONG>Numéro de l’événement :</STRONG> 36034<BR><STRONG>Niveau :</STRONG> 2<BR><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: une liste d'&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes n’apparaissent pas dans les paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste précédente d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
     > <OL>
     > <LI>
     > <P>Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</P>
@@ -414,7 +416,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
     **Liens de région réseau et limites de bande passante associées**
     
-    ![Exemple de limitations entre 3 régions] (images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemple de limitations entre 3 régions")  
+    ![Exemple de limitations entre 3 régions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemple de limitations entre 3 régions")  
     
     ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a>Information de bande passante du lien de région (bande passante en Kbits/s)
     
@@ -529,7 +531,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
     
     **Région réseau CAC Amérique du Nord avec les capacités et les limites de bande passante de la liaison intersite entre Reno et Albuquerque**
     
-    ![Site réseau limité par exemple de bande passante WAN] (images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Site réseau limité par exemple de bande passante WAN")  
+    ![Exemple de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Exemple de sites réseau limités par la bande passante de la connexion WAN")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>Information de bande passante d’une liaison intersite entre deux sites réseau (bande passante en Kbits/s)
     

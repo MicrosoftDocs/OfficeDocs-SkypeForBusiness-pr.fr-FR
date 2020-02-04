@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Instructions de routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidance for Location-Based Routing
 ms:assetid: ce88cb39-f486-46d4-af48-cdf047ad3444
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d7da21146107f8f5f9940813ffd9f517ea2ba4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831106"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831106"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Le routage basé sur géolocalisation en fonction de la situation peut être appliqué à l’emplacement du site du réseau de points de terminaison de l’utilisateur ou à l’emplacement du site réseau de la passerelle PSTN. Cette rubrique fournit des recommandations sur l’application du routage basé sur l’emplacement.
 
