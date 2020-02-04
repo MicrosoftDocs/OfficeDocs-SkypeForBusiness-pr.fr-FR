@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion des certificats de processus opérationnels'
+title: 'Lync Server 2013 : gestion des certificats de processus opérationnels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing certificates for operational processes
 ms:assetid: 328d2ae3-9d43-46bd-98a6-520726d55492
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688017(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3c9d53b3b709c29c00389b7afd179b3aae3a22d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7192462f5e9306a7410eb45cfb9060e4ddc11af4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828074"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34828074"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="27c02-102">Gestion des certificats de processus opérationnels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27c02-102">Managing certificates for operational processes in Lync Server 2013</span></span>
+# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a><span data-ttu-id="841e6-102">Gestion des certificats de processus opérationnels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="841e6-102">Managing certificates for operational processes in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34828074"
 
 <span> </span>
 
-<span data-ttu-id="27c02-103">_**Dernière modification de la rubrique:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="27c02-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="841e6-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="841e6-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="27c02-104">Pour gérer des certificats à l’aide des applets de commande Lync Server Management Shell, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="27c02-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
+<span data-ttu-id="841e6-104">Pour gérer des certificats à l’aide des applets de commande Lync Server Management Shell, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="841e6-104">Use the following procedures to manage certificates by using the Lync Server Management Shell cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="27c02-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="27c02-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="841e6-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="841e6-105">In This Section</span></span>
 
-  - [<span data-ttu-id="27c02-106">Test de l’audiovisuel et des certificats OAuth dans Lync Server 2013 à l’aide du CsCertificate</span><span class="sxs-lookup"><span data-stu-id="27c02-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+  - [<span data-ttu-id="841e6-106">Test de l’audiovisuel et des certificats OAuth dans Lync Server 2013 à l’aide du CsCertificate</span><span class="sxs-lookup"><span data-stu-id="841e6-106">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 
