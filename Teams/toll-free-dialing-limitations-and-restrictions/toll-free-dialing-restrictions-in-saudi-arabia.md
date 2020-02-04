@@ -18,38 +18,39 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 2c49ab6d2d0216164ff702d277faa160cb3ae9aa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bc87d582979b81fc51714b5c278ad978214a9661
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569788"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682291"
 ---
-# <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a><span data-ttu-id="36917-105">Restrictions de numérotation gratuit en Arabie Saoudite</span><span class="sxs-lookup"><span data-stu-id="36917-105">Toll-free dialing restrictions in Saudi Arabia</span></span>
+# <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a><span data-ttu-id="25181-105">Restrictions de numérotation gratuit en Arabie Saoudite</span><span class="sxs-lookup"><span data-stu-id="25181-105">Toll-free dialing restrictions in Saudi Arabia</span></span>
 
-<span data-ttu-id="36917-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="36917-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="25181-106">[Recherchez un autre pays ou une autre région](../toll-free-dialing-limitations-and-restrictions.md)ou en savoir plus sur les limitations et restrictions de numérotation sans frais.</span><span class="sxs-lookup"><span data-stu-id="25181-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="36917-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="36917-107">**Details**</span></span>|<span data-ttu-id="36917-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="36917-108">**Description**</span></span>|
+|<span data-ttu-id="25181-107">**Détails**</span><span class="sxs-lookup"><span data-stu-id="25181-107">**Details**</span></span>|<span data-ttu-id="25181-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="25181-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="36917-109">Est-ce que l’appel gratuit est disponible ?</span><span class="sxs-lookup"><span data-stu-id="36917-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="36917-110">Oui</span><span class="sxs-lookup"><span data-stu-id="36917-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="36917-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="36917-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="36917-112">800 814 XXXX</span><span class="sxs-lookup"><span data-stu-id="36917-112">800 814 XXXX</span></span> <br/>  <span data-ttu-id="36917-113">800 850 XXXX</span><span class="sxs-lookup"><span data-stu-id="36917-113">800 850 XXXX</span></span> <br/> |
-|<span data-ttu-id="36917-114">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="36917-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="36917-115">SA</span><span class="sxs-lookup"><span data-stu-id="36917-115">SA</span></span>  <br/> |
-|<span data-ttu-id="36917-116">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="36917-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="36917-117">Non applicable</span><span class="sxs-lookup"><span data-stu-id="36917-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="36917-118">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="36917-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="36917-119">Non applicable</span><span class="sxs-lookup"><span data-stu-id="36917-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="36917-120">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="36917-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="36917-121">Via STC uniquement.</span><span class="sxs-lookup"><span data-stu-id="36917-121">From STC only.</span></span>  <br/> |
-|<span data-ttu-id="36917-122">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="36917-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="36917-123">Via STC uniquement.</span><span class="sxs-lookup"><span data-stu-id="36917-123">From STC only.</span></span>  <br/> |
-|<span data-ttu-id="36917-124">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="36917-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="36917-125">Aucun</span><span class="sxs-lookup"><span data-stu-id="36917-125">None</span></span>  <br/> |
+|<span data-ttu-id="25181-109">Est-ce que l’appel gratuit est disponible ?</span><span class="sxs-lookup"><span data-stu-id="25181-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="25181-110">Oui</span><span class="sxs-lookup"><span data-stu-id="25181-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="25181-111">Format (s) de numérotation</span><span class="sxs-lookup"><span data-stu-id="25181-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="25181-112">800 814 XXXX</span><span class="sxs-lookup"><span data-stu-id="25181-112">800 814 XXXX</span></span> <br/>  <span data-ttu-id="25181-113">800 850 XXXX</span><span class="sxs-lookup"><span data-stu-id="25181-113">800 850 XXXX</span></span> <br/> |
+|<span data-ttu-id="25181-114">Code ISO pays/région</span><span class="sxs-lookup"><span data-stu-id="25181-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="25181-115">SA</span><span class="sxs-lookup"><span data-stu-id="25181-115">SA</span></span>  <br/> |
+|<span data-ttu-id="25181-116">Île/territoire couvert</span><span class="sxs-lookup"><span data-stu-id="25181-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="25181-117">Non applicable</span><span class="sxs-lookup"><span data-stu-id="25181-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="25181-118">Île/territoire non couvert</span><span class="sxs-lookup"><span data-stu-id="25181-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="25181-119">Non applicable</span><span class="sxs-lookup"><span data-stu-id="25181-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="25181-120">Disponibilité de ligne filaire/fixe</span><span class="sxs-lookup"><span data-stu-id="25181-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="25181-121">Via STC uniquement.</span><span class="sxs-lookup"><span data-stu-id="25181-121">From STC only.</span></span>  <br/> |
+|<span data-ttu-id="25181-122">Disponibilité de réseau mobile</span><span class="sxs-lookup"><span data-stu-id="25181-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="25181-123">Via STC uniquement.</span><span class="sxs-lookup"><span data-stu-id="25181-123">From STC only.</span></span>  <br/> |
+|<span data-ttu-id="25181-124">Commentaires, restrictions et problèmes d’accès</span><span class="sxs-lookup"><span data-stu-id="25181-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="25181-125">Aucun</span><span class="sxs-lookup"><span data-stu-id="25181-125">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="36917-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="36917-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="25181-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="25181-126">Related topics</span></span>
 
-[<span data-ttu-id="36917-127">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="36917-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="25181-127">Limitations et restrictions concernant la composition de numéros verts</span><span class="sxs-lookup"><span data-stu-id="25181-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="36917-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="36917-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="25181-128">Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="25181-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

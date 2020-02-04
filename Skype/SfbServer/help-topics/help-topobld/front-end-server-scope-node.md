@@ -7,35 +7,35 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 'Ce nœud affiche les informations sur la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 252ec46534279d0878e7267789582e643ae603fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9e85314f2ac5ca7a0e148dcaa95ce80d32b45fe0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284360"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684667"
 ---
-# <a name="front-end-server-scope-node"></a><span data-ttu-id="31998-104">Nœud d’étendue du serveur frontal</span><span class="sxs-lookup"><span data-stu-id="31998-104">Front End Server Scope Node</span></span>
+# <a name="front-end-server-scope-node"></a><span data-ttu-id="bfcb3-104">Nœud d’étendue du serveur frontal</span><span class="sxs-lookup"><span data-stu-id="bfcb3-104">Front End Server Scope Node</span></span>
  
-<span data-ttu-id="31998-p102">Ce nœud affiche les informations sur la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="31998-p102">This node shows the configuration information for this Front End pool or Standard Edition server. You can perform the following actions:</span></span>
+<span data-ttu-id="bfcb3-p102">Ce nœud affiche les informations sur la configuration de ce pool frontal ou de ce serveur Standard Edition Server. Vous pouvez effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p102">This node shows the configuration information for this Front End pool or Standard Edition server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="31998-p103">**Nouveau serveur** : s’il s’agit d’un pool frontal, vous pouvez sélectionner cette option pour lancer l’Assistant **Définition d’un nouveau serveur**, que vous pouvez utiliser pour ajouter un autre serveur frontal à ce pool.</span><span class="sxs-lookup"><span data-stu-id="31998-p103">**New Server**. If this is a Front End pool, you can select this to start the **Define New Server** wizard, which you can use to add another Front End Server to this pool.</span></span>
+- <span data-ttu-id="bfcb3-p103">**Nouveau serveur** : s’il s’agit d’un pool frontal, vous pouvez sélectionner cette option pour lancer l’Assistant **Définition d’un nouveau serveur**, que vous pouvez utiliser pour ajouter un autre serveur frontal à ce pool.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p103">**New Server**. If this is a Front End pool, you can select this to start the **Define New Server** wizard, which you can use to add another Front End Server to this pool.</span></span>
     
-- <span data-ttu-id="31998-p104">**Modifier les propriétés** : affiche la page **Modifier les propriétés** de ce pool ou de ce serveur, dans laquelle vous pouvez activer et désactiver des fonctions, spécifier des associations à des magasins de fichiers, des bases de données SQL Server et d’autres serveurs, et définir des informations sur les serveurs web et de médiation.</span><span class="sxs-lookup"><span data-stu-id="31998-p104">**Edit Properties**. Opens the **Edit Properties** page for this pool or server, where you can enable and disable features, specify associations with file stores, SQL Server databases, and other servers, and set web server and Mediation Server information.</span></span>
+- <span data-ttu-id="bfcb3-p104">**Modifier les propriétés** : affiche la page **Modifier les propriétés** de ce pool ou de ce serveur, dans laquelle vous pouvez activer et désactiver des fonctions, spécifier des associations à des magasins de fichiers, des bases de données SQL Server et d’autres serveurs, et définir des informations sur les serveurs web et de médiation.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p104">**Edit Properties**. Opens the **Edit Properties** page for this pool or server, where you can enable and disable features, specify associations with file stores, SQL Server databases, and other servers, and set web server and Mediation Server information.</span></span>
     
-- <span data-ttu-id="31998-p105">**Supprimer** : supprime le pool frontal ou le serveur Standard Edition Server de la topologie.</span><span class="sxs-lookup"><span data-stu-id="31998-p105">**Delete**. Deletes the Front End pool or Standard Edition server from the topology.</span></span>
+- <span data-ttu-id="bfcb3-p105">**Supprimer** : supprime le pool frontal ou le serveur Standard Edition Server de la topologie.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p105">**Delete**. Deletes the Front End pool or Standard Edition server from the topology.</span></span>
     
-<span data-ttu-id="31998-113">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="31998-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="bfcb3-113">Outre ces options, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="bfcb3-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="31998-p106">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="31998-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="bfcb3-p106">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="31998-p107">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="31998-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="bfcb3-p107">**Afficher** : vous pouvez utiliser cette option pour personnaliser l’affichage du générateur de topologie en sélectionnant les éléments à afficher et à masquer dans l’arborescence de la console.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="31998-p108">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="31998-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="bfcb3-p108">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="bfcb3-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
