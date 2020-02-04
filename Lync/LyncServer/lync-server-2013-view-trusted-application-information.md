@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher des informations sur l’application fiable'
+title: 'Lync Server 2013 : afficher des informations sur l’application fiable'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trusted application information
 ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846282"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trusted-application-information-in-lync-server-2013"></a><span data-ttu-id="10da9-102">Afficher des informations sur l’application fiable dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10da9-102">View trusted application information in Lync Server 2013</span></span>
+# <a name="view-trusted-application-information-in-lync-server-2013"></a><span data-ttu-id="7f4af-102">Afficher des informations sur l’application fiable dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7f4af-102">View trusted application information in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34846282"
 
 <span> </span>
 
-<span data-ttu-id="10da9-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="10da9-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="7f4af-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="7f4af-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="10da9-104">Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** .</span><span class="sxs-lookup"><span data-stu-id="10da9-104">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="10da9-105">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="10da9-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="10da9-106">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="10da9-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="7f4af-104">Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** .</span><span class="sxs-lookup"><span data-stu-id="7f4af-104">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="7f4af-105">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7f4af-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="7f4af-106">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».</span><span class="sxs-lookup"><span data-stu-id="7f4af-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-trusted-applications"></a><span data-ttu-id="10da9-107">Pour afficher des applications approuvées</span><span class="sxs-lookup"><span data-stu-id="10da9-107">To view trusted applications</span></span>
+## <a name="to-view-trusted-applications"></a><span data-ttu-id="7f4af-107">Pour afficher des applications approuvées</span><span class="sxs-lookup"><span data-stu-id="7f4af-107">To view trusted applications</span></span>
 
-  - <span data-ttu-id="10da9-108">Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:</span><span class="sxs-lookup"><span data-stu-id="10da9-108">To view all of your trusted applications, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="7f4af-108">Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :</span><span class="sxs-lookup"><span data-stu-id="7f4af-108">To view all of your trusted applications, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsConferenceDisclaimer
     
-    <span data-ttu-id="10da9-109">Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable:</span><span class="sxs-lookup"><span data-stu-id="10da9-109">This command returns information similar to the following for each trusted application:</span></span>
+    <span data-ttu-id="7f4af-109">Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable :</span><span class="sxs-lookup"><span data-stu-id="7f4af-109">This command returns information similar to the following for each trusted application:</span></span>
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -63,7 +65,7 @@ ms.locfileid: "34846282"
         ExUmEnabled            : False
         Enabled                : True
     
-    <span data-ttu-id="10da9-110">Pour plus d’informations, consultez la rubrique [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span><span class="sxs-lookup"><span data-stu-id="10da9-110">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
+    <span data-ttu-id="7f4af-110">Pour plus d’informations, consultez la rubrique [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span><span class="sxs-lookup"><span data-stu-id="7f4af-110">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vérifier les règles de normalisation de la voix'
+title: 'Lync Server 2013 : vérifier les règles de normalisation de la voix'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Check voice normalization rules
 ms:assetid: bf71a218-71cd-4b64-b8e8-b3a98b6e87a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725212(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487415fccc1e779daa476a4e76aa99a891f6b7fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04e383f38d5af6f106354a766c857635bcd87eb3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838581"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34838581"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="90452-102">Vérifier les règles de normalisation vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90452-102">Check voice normalization rules in Lync Server 2013</span></span>
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="31253-102">Vérifier les règles de normalisation vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31253-102">Check voice normalization rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838581"
 
 <span> </span>
 
-<span data-ttu-id="90452-103">_**Dernière modification de la rubrique:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="90452-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="31253-103">_**Dernière modification de la rubrique :** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="31253-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
 
 <table>
@@ -43,17 +45,17 @@ ms.locfileid: "34838581"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="90452-104">Échéancier de vérification</span><span class="sxs-lookup"><span data-stu-id="90452-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="90452-105">Mois</span><span class="sxs-lookup"><span data-stu-id="90452-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="31253-104">Échéancier de vérification</span><span class="sxs-lookup"><span data-stu-id="31253-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="31253-105">Mois</span><span class="sxs-lookup"><span data-stu-id="31253-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="90452-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="90452-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="90452-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="90452-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="31253-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="31253-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="31253-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="31253-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="90452-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="90452-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="90452-109">Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="90452-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="90452-110">Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="90452-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceNormalizationRule cmdlet.</span></span> <span data-ttu-id="90452-111">Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="90452-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="31253-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="31253-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="31253-109">Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="31253-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="31253-110">Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="31253-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceNormalizationRule cmdlet.</span></span> <span data-ttu-id="31253-111">Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="31253-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -62,11 +64,11 @@ ms.locfileid: "34838581"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="90452-112">Description</span><span class="sxs-lookup"><span data-stu-id="90452-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="31253-112">Description</span><span class="sxs-lookup"><span data-stu-id="31253-112">Description</span></span>
 
-<span data-ttu-id="90452-113">Les règles de normalisation vocale permettent de convertir un numéro de téléphone composé par un utilisateur (par exemple, 2065551219) au format E. 164 utilisé par Lync Server (+ 12065551219).</span><span class="sxs-lookup"><span data-stu-id="90452-113">Voice normalization rules are used to convert a phone number dialed by a user (for example, 2065551219) to the E.164 format that is used by Lync Server (+12065551219).</span></span> <span data-ttu-id="90452-114">Par exemple, si les utilisateurs ont l’habitude de composer un numéro de téléphone sans inclure le code pays ou l’indicatif régional (par exemple, 5551219), vous devez disposer d’une règle de normalisation de la voix qui peut convertir ce numéro au format E. 164: + 12065551219.</span><span class="sxs-lookup"><span data-stu-id="90452-114">For example, if users are in the habit of dialing a phone number without including the country code or the area code (e.g., 5551219) then you must have a voice normalization rule that can convert that number to the E.164 format: +12065551219.</span></span> <span data-ttu-id="90452-115">Sans cette règle, l’utilisateur ne pourra pas appeler 555-1219.</span><span class="sxs-lookup"><span data-stu-id="90452-115">Without such a rule, the user won't be able to call 555-1219.</span></span>
+<span data-ttu-id="31253-113">Les règles de normalisation vocale permettent de convertir un numéro de téléphone composé par un utilisateur (par exemple, 2065551219) au format E. 164 utilisé par Lync Server (+ 12065551219).</span><span class="sxs-lookup"><span data-stu-id="31253-113">Voice normalization rules are used to convert a phone number dialed by a user (for example, 2065551219) to the E.164 format that is used by Lync Server (+12065551219).</span></span> <span data-ttu-id="31253-114">Par exemple, si les utilisateurs ont l’habitude de composer un numéro de téléphone sans inclure le code pays ou l’indicatif régional (par exemple, 5551219), vous devez disposer d’une règle de normalisation de la voix qui peut convertir ce numéro au format E. 164 : + 12065551219.</span><span class="sxs-lookup"><span data-stu-id="31253-114">For example, if users are in the habit of dialing a phone number without including the country code or the area code (e.g., 5551219) then you must have a voice normalization rule that can convert that number to the E.164 format: +12065551219.</span></span> <span data-ttu-id="31253-115">Sans cette règle, l’utilisateur ne pourra pas appeler 555-1219.</span><span class="sxs-lookup"><span data-stu-id="31253-115">Without such a rule, the user won't be able to call 555-1219.</span></span>
 
-<span data-ttu-id="90452-116">L’applet de contrôle test-CsVoiceNormalizationRule vérifie qu’une règle de normalisation vocale spécifiée peut correctement convertir un numéro de téléphone spécifié.</span><span class="sxs-lookup"><span data-stu-id="90452-116">The Test-CsVoiceNormalizationRule cmdlet verifies that a specified voice normalization rule can successfully convert a specified phone number.</span></span> <span data-ttu-id="90452-117">Par exemple, cette commande vérifie si la règle de normalisation globale NoAreaCode peut normaliser et convertir la chaîne de numérotation 5551219.</span><span class="sxs-lookup"><span data-stu-id="90452-117">For example, this command checks whether the global normalization rule NoAreaCode can normalize and convert the dial string 5551219.</span></span>
+<span data-ttu-id="31253-116">L’applet de contrôle test-CsVoiceNormalizationRule vérifie qu’une règle de normalisation vocale spécifiée peut correctement convertir un numéro de téléphone spécifié.</span><span class="sxs-lookup"><span data-stu-id="31253-116">The Test-CsVoiceNormalizationRule cmdlet verifies that a specified voice normalization rule can successfully convert a specified phone number.</span></span> <span data-ttu-id="31253-117">Par exemple, cette commande vérifie si la règle de normalisation globale NoAreaCode peut normaliser et convertir la chaîne de numérotation 5551219.</span><span class="sxs-lookup"><span data-stu-id="31253-117">For example, this command checks whether the global normalization rule NoAreaCode can normalize and convert the dial string 5551219.</span></span>
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -74,21 +76,21 @@ ms.locfileid: "34838581"
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="90452-118">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="90452-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="31253-118">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="31253-118">Running the test</span></span>
 
-<span data-ttu-id="90452-119">Pour exécuter l’applet de contrôle de test-CsVoiceNormalizationRule, vous devez d’abord utiliser l’applet de contrôle Get-CsVoiceNormalizationRule pour récupérer une instance de la règle testée, puis canaler cette instance vers test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="90452-119">To run the Test-CsVoiceNormalizationRule cmdlet, you must first use the Get-CsVoiceNormalizationRule cmdlet to retrieve an instance of the rule being tested, and then pipe that instance to Test-CsVoiceNormalizationRule.</span></span> <span data-ttu-id="90452-120">La syntaxe similaire à celle-ci ne fonctionne pas:</span><span class="sxs-lookup"><span data-stu-id="90452-120">Syntax similar to this won't work:</span></span>
+<span data-ttu-id="31253-119">Pour exécuter l’applet de contrôle de test-CsVoiceNormalizationRule, vous devez d’abord utiliser l’applet de contrôle Get-CsVoiceNormalizationRule pour récupérer une instance de la règle testée, puis canaler cette instance vers test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="31253-119">To run the Test-CsVoiceNormalizationRule cmdlet, you must first use the Get-CsVoiceNormalizationRule cmdlet to retrieve an instance of the rule being tested, and then pipe that instance to Test-CsVoiceNormalizationRule.</span></span> <span data-ttu-id="31253-120">La syntaxe similaire à celle-ci ne fonctionne pas :</span><span class="sxs-lookup"><span data-stu-id="31253-120">Syntax similar to this won't work:</span></span>
 
-<span data-ttu-id="90452-121">Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "Global/prefix All"</span><span class="sxs-lookup"><span data-stu-id="90452-121">Test-CsVoiceNormalizationRule -DialedNumber "12065551219" –NormalizationRule "global/Prefix All"</span></span>
+<span data-ttu-id="31253-121">Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "Global/prefix All"</span><span class="sxs-lookup"><span data-stu-id="31253-121">Test-CsVoiceNormalizationRule -DialedNumber "12065551219" –NormalizationRule "global/Prefix All"</span></span>
 
-<span data-ttu-id="90452-122">À la place, utilisez une syntaxe telle que la suivante qui combine les applets de commande Get-CsVoiceNormalizationRule et test-CsVoiceNormalizationRule:</span><span class="sxs-lookup"><span data-stu-id="90452-122">Instead, use syntax such as the following, which combines both the Get-CsVoiceNormalizationRule and the Test-CsVoiceNormalizationRule cmdlets:</span></span>
+<span data-ttu-id="31253-122">À la place, utilisez une syntaxe telle que la suivante qui combine les applets de commande Get-CsVoiceNormalizationRule et test-CsVoiceNormalizationRule :</span><span class="sxs-lookup"><span data-stu-id="31253-122">Instead, use syntax such as the following, which combines both the Get-CsVoiceNormalizationRule and the Test-CsVoiceNormalizationRule cmdlets:</span></span>
 
-<span data-ttu-id="90452-123">Get-CsVoiceNormalizationRule-Identity "Global/prefix All" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"</span><span class="sxs-lookup"><span data-stu-id="90452-123">Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"</span></span>
+<span data-ttu-id="31253-123">Get-CsVoiceNormalizationRule-Identity "Global/prefix All" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"</span><span class="sxs-lookup"><span data-stu-id="31253-123">Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="90452-124">.</span><span class="sxs-lookup"><span data-stu-id="90452-124"></span></span> <span data-ttu-id="90452-125">Vous pouvez également utiliser cette approche pour récupérer une instance d’une règle, puis la tester sur un numéro de téléphone spécifié:</span><span class="sxs-lookup"><span data-stu-id="90452-125">Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:</span></span>
+> <span data-ttu-id="31253-124">.</span><span class="sxs-lookup"><span data-stu-id="31253-124">.</span></span> <span data-ttu-id="31253-125">Vous pouvez également utiliser cette approche pour récupérer une instance d’une règle, puis la tester sur un numéro de téléphone spécifié :</span><span class="sxs-lookup"><span data-stu-id="31253-125">Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:</span></span>
 
 
 
@@ -98,49 +100,49 @@ ms.locfileid: "34838581"
 
 `Test-CsVoiceNormalizationRule -DialedNumber "12065551219" -NormalizationRule $x`
 
-<span data-ttu-id="90452-126">Entrez la valeur du paramètre DialedNumber exactement telle que vous pensez que le numéro doit être composé.</span><span class="sxs-lookup"><span data-stu-id="90452-126">Enter the value for the DialedNumber parameter exactly as you expect that number to be dialed.</span></span> <span data-ttu-id="90452-127">Par exemple, si la règle de normalisation vocale spécifiée est censée ajouter automatiquement le code du pays (initial 1 dans la valeur 12065551219), vous devez quitter le code du pays:</span><span class="sxs-lookup"><span data-stu-id="90452-127">For example, if the specified voice normalization rule is supposed to automatically add the country code (the initial 1 in the value 12065551219) then you should leave off the country code:</span></span>
+<span data-ttu-id="31253-126">Entrez la valeur du paramètre DialedNumber exactement telle que vous pensez que le numéro doit être composé.</span><span class="sxs-lookup"><span data-stu-id="31253-126">Enter the value for the DialedNumber parameter exactly as you expect that number to be dialed.</span></span> <span data-ttu-id="31253-127">Par exemple, si la règle de normalisation vocale spécifiée est censée ajouter automatiquement le code du pays (initial 1 dans la valeur 12065551219), vous devez quitter le code du pays :</span><span class="sxs-lookup"><span data-stu-id="31253-127">For example, if the specified voice normalization rule is supposed to automatically add the country code (the initial 1 in the value 12065551219) then you should leave off the country code:</span></span>
 
 `-DialedNumber "2065551219"`
 
-<span data-ttu-id="90452-128">Si la règle est configurée correctement, le code du pays est automatiquement ajouté lors de la conversion du numéro au format E. 164 utilisé par Lync Server.</span><span class="sxs-lookup"><span data-stu-id="90452-128">If the rule is configured correctly, it will automatically add the country code when translating the number to the E.164 format that is used by Lync Server.</span></span>
+<span data-ttu-id="31253-128">Si la règle est configurée correctement, le code du pays est automatiquement ajouté lors de la conversion du numéro au format E. 164 utilisé par Lync Server.</span><span class="sxs-lookup"><span data-stu-id="31253-128">If the rule is configured correctly, it will automatically add the country code when translating the number to the E.164 format that is used by Lync Server.</span></span>
 
-<span data-ttu-id="90452-129">Pour plus d’informations, consultez la documentation d’aide de l’applet de contrôle test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="90452-129">For more information, see the Help documentation for the Test-CsVoiceNormalizationRule cmdlet.</span></span>
-
-</div>
-
-<div>
-
-## <a name="determining-success-or-failure"></a><span data-ttu-id="90452-130">Détermination du succès ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="90452-130">Determining success or failure</span></span>
-
-<span data-ttu-id="90452-131">Si la règle de normalisation vocale spécifiée peut traduire le numéro fourni, le numéro traduit est affiché à l’écran:</span><span class="sxs-lookup"><span data-stu-id="90452-131">If the specified voice normalization rule can translate the supplied number then the translated number will be displayed on-screen:</span></span>
-
-<span data-ttu-id="90452-132">TranslatedNumber</span><span class="sxs-lookup"><span data-stu-id="90452-132">TranslatedNumber</span></span>
-
-\----------------
-
-<span data-ttu-id="90452-133">\+12065551219</span><span class="sxs-lookup"><span data-stu-id="90452-133">\+12065551219</span></span>
-
-<span data-ttu-id="90452-134">Si le test échoue, un numéro traduit vide sera renvoyé:</span><span class="sxs-lookup"><span data-stu-id="90452-134">If the test fails then a blank translated number will be returned:</span></span>
-
-<span data-ttu-id="90452-135">TranslatedNumber</span><span class="sxs-lookup"><span data-stu-id="90452-135">TranslatedNumber</span></span>
-
-\----------------
+<span data-ttu-id="31253-129">Pour plus d’informations, consultez la documentation d’aide de l’applet de contrôle test-CsVoiceNormalizationRule.</span><span class="sxs-lookup"><span data-stu-id="31253-129">For more information, see the Help documentation for the Test-CsVoiceNormalizationRule cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="90452-136">Raisons pour lesquelles le test peut avoir échoué</span><span class="sxs-lookup"><span data-stu-id="90452-136">Reasons why the test might have failed</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="31253-130">Détermination du succès ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="31253-130">Determining success or failure</span></span>
 
-<span data-ttu-id="90452-137">Si le test-CsVoiceNormalizationRule renvoie un nombre traduit de telle sorte que la règle de normalisation vocale spécifiée n’a pas pu traduire le numéro de téléphone fourni au format E. 164 utilisé par Lync Server.</span><span class="sxs-lookup"><span data-stu-id="90452-137">If the Test-CsVoiceNormalizationRule does return a translated number that means that the specified voice normalization rule was unable to translate the supplied telephone number into the E.164 format that is used by Lync Server.</span></span> <span data-ttu-id="90452-138">Tout d’abord, vérifiez que vous avez correctement tapé le numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="90452-138">To verify that, first make sure that you typed the telephone number in correctly.</span></span> <span data-ttu-id="90452-139">Par exemple, vous vous attendez à ce que votre règle de normalisation vocale rencontre des problèmes de traduction d’un numéro similaire à celui-ci:</span><span class="sxs-lookup"><span data-stu-id="90452-139">For example, you would expect your voice normalization rule to have problems translating a number similar to this:</span></span>
+<span data-ttu-id="31253-131">Si la règle de normalisation vocale spécifiée peut traduire le numéro fourni, le numéro traduit est affiché à l’écran :</span><span class="sxs-lookup"><span data-stu-id="31253-131">If the specified voice normalization rule can translate the supplied number then the translated number will be displayed on-screen:</span></span>
+
+<span data-ttu-id="31253-132">TranslatedNumber</span><span class="sxs-lookup"><span data-stu-id="31253-132">TranslatedNumber</span></span>
+
+\----------------
+
+<span data-ttu-id="31253-133">\+12065551219</span><span class="sxs-lookup"><span data-stu-id="31253-133">\+12065551219</span></span>
+
+<span data-ttu-id="31253-134">Si le test échoue, un numéro traduit vide sera renvoyé :</span><span class="sxs-lookup"><span data-stu-id="31253-134">If the test fails then a blank translated number will be returned:</span></span>
+
+<span data-ttu-id="31253-135">TranslatedNumber</span><span class="sxs-lookup"><span data-stu-id="31253-135">TranslatedNumber</span></span>
+
+\----------------
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="31253-136">Raisons pour lesquelles le test peut avoir échoué</span><span class="sxs-lookup"><span data-stu-id="31253-136">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="31253-137">Si le test-CsVoiceNormalizationRule renvoie un nombre traduit de telle sorte que la règle de normalisation vocale spécifiée n’a pas pu traduire le numéro de téléphone fourni au format E. 164 utilisé par Lync Server.</span><span class="sxs-lookup"><span data-stu-id="31253-137">If the Test-CsVoiceNormalizationRule does return a translated number that means that the specified voice normalization rule was unable to translate the supplied telephone number into the E.164 format that is used by Lync Server.</span></span> <span data-ttu-id="31253-138">Tout d’abord, vérifiez que vous avez correctement tapé le numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="31253-138">To verify that, first make sure that you typed the telephone number in correctly.</span></span> <span data-ttu-id="31253-139">Par exemple, vous vous attendez à ce que votre règle de normalisation vocale rencontre des problèmes de traduction d’un numéro similaire à celui-ci :</span><span class="sxs-lookup"><span data-stu-id="31253-139">For example, you would expect your voice normalization rule to have problems translating a number similar to this:</span></span>
 
 `-DialedNumber "1"`
 
-<span data-ttu-id="90452-140">En supposant que le numéro a été entré correctement, l’étape suivante consiste à vérifier que la règle de normalisation spécifiée est conçue pour gérer ce numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="90452-140">Assuming the number was entered correctly, your next step should be to verify that the specified normalization rule is designed to handle that phone number.</span></span> <span data-ttu-id="90452-141">Par exemple, une règle de normalisation peut être conçue pour gérer le format 12065551219, mais une deuxième règle peut être conçue pour gérer le nombre 2065551219.</span><span class="sxs-lookup"><span data-stu-id="90452-141">For example, one normalization rule might be designed to handle the format 12065551219, but a second rule might be designed to handle the number 2065551219.</span></span> <span data-ttu-id="90452-142">(Il s’agit du même numéro de téléphone, moins le code pays 1 au début.) Pour renvoyer des informations détaillées sur une règle de normalisation vocale, exécutez une commande semblable à celle-ci:</span><span class="sxs-lookup"><span data-stu-id="90452-142">(That’s the same phone number, minus the country code 1 at the very beginning.) To return detailed information about a voice normalization rule, run a command similar to this:</span></span>
+<span data-ttu-id="31253-140">En supposant que le numéro a été entré correctement, l’étape suivante consiste à vérifier que la règle de normalisation spécifiée est conçue pour gérer ce numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="31253-140">Assuming the number was entered correctly, your next step should be to verify that the specified normalization rule is designed to handle that phone number.</span></span> <span data-ttu-id="31253-141">Par exemple, une règle de normalisation peut être conçue pour gérer le format 12065551219, mais une deuxième règle peut être conçue pour gérer le nombre 2065551219.</span><span class="sxs-lookup"><span data-stu-id="31253-141">For example, one normalization rule might be designed to handle the format 12065551219, but a second rule might be designed to handle the number 2065551219.</span></span> <span data-ttu-id="31253-142">(Il s’agit du même numéro de téléphone, moins le code pays 1 au début.) Pour renvoyer des informations détaillées sur une règle de normalisation vocale, exécutez une commande semblable à celle-ci :</span><span class="sxs-lookup"><span data-stu-id="31253-142">(That’s the same phone number, minus the country code 1 at the very beginning.) To return detailed information about a voice normalization rule, run a command similar to this:</span></span>
 
 `Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Format-List`
 
-<span data-ttu-id="90452-143">Pour obtenir des informations détaillées sur toutes les règles de normalisation vocale, exécutez cette commande à la place:</span><span class="sxs-lookup"><span data-stu-id="90452-143">To return detailed information about all the voice normalization rules, run this command instead:</span></span>
+<span data-ttu-id="31253-143">Pour obtenir des informations détaillées sur toutes les règles de normalisation vocale, exécutez cette commande à la place :</span><span class="sxs-lookup"><span data-stu-id="31253-143">To return detailed information about all the voice normalization rules, run this command instead:</span></span>
 
 `Get-CsVoiceNormalizationRule | Format-List`
 
@@ -148,10 +150,10 @@ ms.locfileid: "34838581"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="90452-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="90452-144">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="31253-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="31253-144">See Also</span></span>
 
 
-[<span data-ttu-id="90452-145">Test-CsVoiceNormalizationRule</span><span class="sxs-lookup"><span data-stu-id="90452-145">Test-CsVoiceNormalizationRule</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
+[<span data-ttu-id="31253-145">Test-CsVoiceNormalizationRule</span><span class="sxs-lookup"><span data-stu-id="31253-145">Test-CsVoiceNormalizationRule</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
   
 
 </div>
