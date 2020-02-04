@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: VideoMetricsThreshold'
+title: 'Tableau Lync Server 2013 : VideoMetricsThreshold'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoMetricsThreshold table
 ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204778(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c15910f6478f3df12bf906f04aee82c89a822de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846320"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité de l’utilisation des appels vidéo.
 
@@ -62,61 +64,61 @@ La table VideoMetricsThreshold contient des valeurs optimales et acceptables pou
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 0,05.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,0.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 12,0000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 7,0000.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10.0/</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,0.</p></td>
 </tr>
@@ -146,13 +148,13 @@ La table VideoMetricsThreshold contient des valeurs optimales et acceptables pou
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,00.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,00.</p></td>
 </tr>

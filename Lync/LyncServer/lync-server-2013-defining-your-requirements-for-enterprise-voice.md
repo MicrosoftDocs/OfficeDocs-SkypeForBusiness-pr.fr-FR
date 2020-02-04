@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour Voix Ent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Enterprise Voice
 ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0ce05c39e3433ff949d82f583207aebfba871fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8987905d2b117eb889486882b7d74ce4e52659a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831682"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831682"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-08-07_
+_**Dernière modification de la rubrique :** 2012-08-07_
 
 Cette rubrique fournit une vue d’ensemble des éléments à prendre en compte sur les régions, les sites et les liens entre les sites dans votre topologie et sur la manière dont celles-ci sont importantes lors du déploiement d’Enterprise Voice. Pour plus d’informations sur la prise en compte de ces décisions, voir [paramètres réseau pour les fonctionnalités avancées de voix entreprise de Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) dans la documentation de planification.
 

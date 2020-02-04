@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: UserAgentDef'
+title: 'Tableau Lync Server 2013 : UserAgentDef'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table
 ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846420"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846420"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-25_
+_**Dernière modification de la rubrique :** 2014-03-25_
 
 La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms descriptifs de l’agent. Les agents utilisateurs sont utilisés pour se connecter à Microsoft Lync Server 2013. Ce tableau a été présenté dans Microsoft Lync Server 2013.
 
@@ -58,7 +60,7 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 <td><p>Le serveur de médiation</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
@@ -99,17 +101,17 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_ 1.0</p></td>
+<td><p>Conferencing_Announcement_Service_1.0</p></td>
 <td><p>ALTERN</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_ 1.0</p></td>
+<td><p>Conferencing_Attendant_1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_ 1.0</p></td>
+<td><p>Conference_Auto_Attendant_1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
@@ -119,12 +121,12 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_ 1.0</p></td>
+<td><p>Call_Park_Service_1.0</p></td>
 <td><p>DÉCLARATIONS</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
-<td><p>Response_Group_Service Announcement_Service</p></td>
+<td><p>Announcement_Service Response_Group_Service</p></td>
 <td><p>PLUS</p></td>
 </tr>
 <tr class="even">

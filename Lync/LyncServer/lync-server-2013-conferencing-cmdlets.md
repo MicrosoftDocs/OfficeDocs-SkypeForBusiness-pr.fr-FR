@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets Conferencing'
+title: 'Lync Server 2013 : cmdlets Conferencing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd951904e14d864c165ff98c50088b96e42f04f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838475"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
-Microsoft Lync Server 2013 permet aux utilisateurs de participer à des conférences de deux manières: à l’aide d’une application de conférence telle que Lync 2013 ou en composant un numéro de téléphone. Les utilisateurs d’appels entrants ne sont pas en mesure d’effectuer les opérations suivantes: afficher des diapositives ou messages instantanés, mais ils peuvent participer pleinement à la partie audio d’une conférence.
+Microsoft Lync Server 2013 permet aux utilisateurs de participer à des conférences de deux manières : à l’aide d’une application de conférence telle que Lync 2013 ou en composant un numéro de téléphone. Les utilisateurs d’appels entrants ne sont pas en mesure d’effectuer les opérations suivantes : afficher des diapositives ou messages instantanés, mais ils peuvent participer pleinement à la partie audio d’une conférence.
 
 <div>
 
 ## <a name="conferencing-cmdlets"></a>Cmdlets de conférence
 
-Les applets de commande **CsDialInConferencing** permettent de configurer les propriétés de conférence rendez-vous, y compris la définition des numéros de téléphone que les utilisateurs peuvent appeler afin de joindre une conférence aux commandes clavier disponibles après avoir rejoint une réunion Conférence (par exemple, en appuyant sur 6 pour activer ou désactiver son téléphone). La plupart des autres fonctionnalités d’une conférence (par exemple, les utilisateurs peuvent enregistrer la Conférence, peuvent partager des applications pendant la Conférence, etc.) sont gérées à l’aide des applets de applet de **CsConferencingPolicy** .
+Les applets de commande **CsDialInConferencing** permettent de configurer les propriétés de conférence rendez-vous, y compris celles de la spécification des numéros de téléphone que les utilisateurs peuvent appeler pour joindre une conférence aux commandes clavier disponibles après avoir rejoint une conférence (par exemple, en appuyant sur 6 pour activer ou désactiver le son de leur téléphone). La plupart des autres fonctionnalités d’une conférence (par exemple, les utilisateurs peuvent enregistrer la Conférence, peuvent partager des applications pendant la Conférence, etc.) sont gérées à l’aide des applets de applet de **CsConferencingPolicy** .
 
 **[Cmdlets de conférence rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 

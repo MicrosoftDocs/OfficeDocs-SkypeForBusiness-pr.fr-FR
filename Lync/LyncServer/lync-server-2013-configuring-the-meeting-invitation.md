@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de l’invitation à une réunion'
+title: 'Lync Server 2013 : configuration de l’invitation à une réunion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the meeting invitation
 ms:assetid: 7faa4797-0344-418b-9fa3-59dfb9c2baf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 014a42597e3df416d9e502eaaa90e2f1e71e35ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14e0614ecdaa73a886429e89618cac568d620938
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838177"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838177"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-16_
+_**Dernière modification de la rubrique :** 2013-07-16_
 
-Vous pouvez personnaliser les invitations aux réunions envoyées par le complément réunion en ligne pour Lync 2013 en incluant les éléments facultatifs suivants dans le corps de l’invitation à la réunion:
+Vous pouvez personnaliser les invitations aux réunions envoyées par le complément réunion en ligne pour Lync 2013 en incluant les éléments facultatifs suivants dans le corps de l’invitation à la réunion :
 
   - **Le logo de votre organisation** Ajoutez le logo de votre organisation aux invitations aux réunions à l’aide de l’option logo URL. Si des invitations de réunion seront envoyées à des personnes extérieures à votre organisation, l’image doit se trouver dans une URL disponible au public. Les formats d’image pris en charge sont GIF et JPG. Même si Lync Server 2013 stocke l’URL sans restrictions de taille sur l’image, pour des résultats optimisés, la taille maximale de l’image doit être de 30 pixels de hauteur de 188 pixels de large.
 
@@ -76,7 +78,7 @@ Vous pouvez configurer ces options à l’aide de Lync Server Control Panel ou d
 
 **Pour personnaliser l’invitation à une réunion à l’aide de Lync Server Management Shell**
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de **CsMeetingConfiguration** ou **Set-CsMeetingConfiguration** pour créer ou configurer les options d’invitation à une réunion. Par exemple, exécutez :
     

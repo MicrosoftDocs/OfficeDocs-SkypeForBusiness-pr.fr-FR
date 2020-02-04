@@ -3,6 +3,8 @@ title: Planification des serveurs frontaux, de la messagerie instantanée et de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Front End Servers, instant messaging, and presence
 ms:assetid: 8db94c64-61af-4093-ac47-85932d0eae9f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398714(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b733608f95fdba333be3e19e2c155c4594abc910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a481953037ec818378c931a28ce8892c1a486d72
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824973"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-13_
+_**Dernière modification de la rubrique :** 2012-09-13_
 
 Les serveurs frontaux fournissent une grande partie de la fonctionnalité Lync Server et sont inclus dans chaque déploiement de Lync Server. La messagerie instantanée et la présence sont des fonctionnalités principales de Lync Server, qui sont déployées et activées automatiquement dans chaque installation de Lync Server. Les sections suivantes fournissent des informations supplémentaires sur les serveurs front end, la messagerie instantanée et la présence.
 

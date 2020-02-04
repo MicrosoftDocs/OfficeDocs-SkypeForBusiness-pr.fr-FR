@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: composants VoIP du serveur frontal'
+title: 'Lync Server 2013 : composants VoIP du serveur frontal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End Server VoIP components
 ms:assetid: 310e81a7-da45-47d4-95d0-92837e386502
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425812(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3558d230b1fb767f0e7844be3894b579149c3f6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bab5751fc0291047f3795731f379d1e14f5f12b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831138"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-Les composants VoIP situés sur les serveurs frontaux sont les suivants:
+Les composants VoIP situés sur les serveurs frontaux sont les suivants :
 
   - Service de conversion
 
@@ -81,7 +83,7 @@ La logique de routage qu’il utilise est en grande partie configurée par les a
 
 Le composant routage de messagerie unifiée Exchange gère le routage entre le serveur Lync et les serveurs exécutant la messagerie unifiée Exchange, pour intégrer Lync Server aux fonctionnalités de messagerie unifiée.
 
-Le composant routage de messagerie UNIFIÉe Exchange gère également le reroutage de la messagerie vocale sur le RTC si des serveurs de messagerie unifiée Exchange ne sont pas disponibles. Si vous avez des utilisateurs d’Enterprise Voice sur des sites de succursale qui n’ont pas de lien réseau étendu fiable vers un site central, l’unité de branchement survivant que vous déployez sur le site de succursale fournit une survie de la messagerie vocale pour les utilisateurs de succursales en cas de panne du réseau étendu. Lorsque le lien WAN n’est pas disponible, l’unité de branchement Survivable effectue les actions suivantes:
+Le composant routage de messagerie UNIFIÉe Exchange gère également le reroutage de la messagerie vocale sur le RTC si des serveurs de messagerie unifiée Exchange ne sont pas disponibles. Si vous avez des utilisateurs d’Enterprise Voice sur des sites de succursale qui n’ont pas de lien réseau étendu fiable vers un site central, l’unité de branchement survivant que vous déployez sur le site de succursale fournit une survie de la messagerie vocale pour les utilisateurs de succursales en cas de panne du réseau étendu. Lorsque le lien WAN n’est pas disponible, l’unité de branchement Survivable effectue les actions suivantes :
 
   - réachemine les appels sans réponse via la passerelle RTC vers le serveur de messagerie unifiée Exchange localisé sur le site central ;
 
@@ -107,7 +109,7 @@ Le composant de routage Intercluster est chargé d’acheminer les appels vers l
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>Autres composants du serveur frontal requis pour la voix sur IP (VoIP)
 
-D’autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle de VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, incluent les éléments suivants:
+D’autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle de VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, incluent les éléments suivants :
 
   - **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant dirige l’appel vers les points de terminaison SIP enregistrés de cet utilisateur. User Services est un composant principal de tous les serveurs et directeurs frontaux.
 

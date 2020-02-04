@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: ErrorReport'
+title: 'Affichage Lync Server 2013 : ErrorReport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorReport view
 ms:assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721887(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b50a2615fe83ed481d9642ac6895120f20b9fd0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a72b2f12c00248095b99198182b8c71bb945bfa3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831209"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831209"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-22_
+_**Dernière modification de la rubrique :** 2013-01-22_
 
 Le mode ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR exécuté sur le serveur frontal ou envoyées par le client. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -120,9 +122,9 @@ Le mode ErrorReport stocke les informations sur les erreurs signalées. Chaque e
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
 <td><p>varstring (LGA775)</p></td>
-<td><p>ID de boîte de dialogue SIP de session à l’origine de l’erreur. Le format est le suivant:</p>
-<p>boîte de dialogue; à partir d’une balise</p>
-<p>Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante:</p>
+<td><p>ID de boîte de dialogue SIP de session à l’origine de l’erreur. Le format est le suivant :</p>
+<p>boîte de dialogue ; à partir d’une balise</p>
+<p>Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :</p>
 <p>Cast (Cast (ExternalId) en tant que varchar (max))</p></td>
 </tr>
 <tr class="odd">

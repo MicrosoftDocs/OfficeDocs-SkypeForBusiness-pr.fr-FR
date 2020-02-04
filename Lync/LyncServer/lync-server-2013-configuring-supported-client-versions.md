@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration des versions clientes prises en charge'
+title: 'Lync Server 2013 : configuration des versions clientes prises en charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring supported client versions
 ms:assetid: aebf7b48-9aa2-4a06-adc5-0c9d11b6358d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412832(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14bc6decfea38151d1f060b13fa55c81006e98e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a262cab2145013d83cdae573d98b5db17e0e890
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838175"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838175"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-14_
+_**Dernière modification de la rubrique :** 2012-12-14_
 
 Dans Lync Server 2013, vous pouvez configurer des stratégies de version de client pour spécifier les versions des clients qui sont prises en charge dans votre environnement. De plus, vous pouvez utiliser la configuration de la version du client global pour spécifier une action par défaut pour les clients qui ne disposent pas encore d’une stratégie de version définie et ne sont donc pas explicitement pris en charge ou limités.
 

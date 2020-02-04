@@ -3,6 +3,8 @@ title: Configuration requise pour l’équilibrage de charge de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Load balancing requirements
 ms:assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4848c78c755b95a15c28ab1f8e2555a180e22bfa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830937"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830937"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Si vous disposez de pools de serveurs frontaux, de pools de directeurs ou de serveurs de périphérie, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool.
 
-Lync Server 2013 prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur: l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de charge matérielle. Le service d’équilibrage de la charge DNS offre plusieurs avantages, notamment une administration plus simple, un dépannage plus efficace et la possibilité d’isoler une grande partie du trafic de votre serveur Lync de tout problème éventuel d’équilibrage de charge matériel.
+Lync Server 2013 prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur : l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de charge matérielle. Le service d’équilibrage de la charge DNS offre plusieurs avantages, notamment une administration plus simple, un dépannage plus efficace et la possibilité d’isoler une grande partie du trafic de votre serveur Lync de tout problème éventuel d’équilibrage de charge matériel.
 
 Déterminez la solution d’équilibrage de charge adaptée à chaque pool de votre déploiement, en gardant à l’esprit les restrictions suivantes :
 

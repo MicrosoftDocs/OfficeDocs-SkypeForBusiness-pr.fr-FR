@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé des certificats - Directeur unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single Director
 ms:assetid: 1b769a76-cbf3-46e9-a955-f6cde5faff93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e44be0ca76a1926a1515657a9d7d5646a49390c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f18fcec270104be1620402ddee0c665c0f3f3a4f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838622"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Les exigences en matière de certificat pour un seul directeur sont composées d’un certificat par défaut dont le nom du sujet comporte le nom de l’objet et des noms de remplacement pour les services que le directeur peut recevoir. Par ailleurs, il existe un certificat de jeton OAuth pour les besoins d’authentification de serveur à serveur.
 

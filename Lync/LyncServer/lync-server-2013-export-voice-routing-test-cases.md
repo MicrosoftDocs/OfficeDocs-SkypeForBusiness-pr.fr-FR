@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Exportation des cas de test de routage des communicat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export voice routing test cases
 ms:assetid: 489ac472-1a35-4755-b390-48f7cdf31e94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e47158d9ea3da6f04a1424026c7edb73c1d482
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831184"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831184"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Les scénarios de test vous permettent de tester les itinéraires vocaux au sein de votre organisation: vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la politique vocale à utiliser, et Lync Server peut alors vérifier qu’il est possible d’utiliser le numéro fourni. correctement routés vers le réseau PSTN.
+Les scénarios de test vous permettent de tester les itinéraires vocaux au sein de votre organisation : vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la politique vocale à utiliser, et Lync Server peut alors vérifier qu’il est possible d’utiliser le numéro fourni. correctement routés vers le réseau PSTN.
 
 Les cas de test, qui peuvent être créés à l’aide du panneau de configuration de Lync Server, sont généralement enregistrés uniquement sur le serveur où le cas a été créé et exécuté à l’origine. Toutefois, ces cas de test peuvent être exportés sous forme de fichiers XML (avec l’extension. vtest), puis importés sur d’autres serveurs. Cela vous permet d’exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
 

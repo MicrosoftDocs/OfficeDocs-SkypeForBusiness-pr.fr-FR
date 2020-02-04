@@ -3,6 +3,8 @@ title: Migrer des groupes Response Group
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 5c07bf4b-ad8a-4b83-b970-7d933bb7c4ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204931(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bf7f0fa04f494eb49a0537011d5f9affcc68065
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c01ec246ba99d2a2f71a16179d839409e6b57b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846160"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846160"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Après avoir déplacé vos utilisateurs vers les pools Lync Server 2013, vous pouvez migrer vos groupes de réponse. La migration de groupes de réponse inclut la copie de groupes d’agents, de files d’attente, de flux de travail et de fichiers audio, et le déplacement d’objets de contact de groupe de réponse du déploiement hérité vers le pool Lync Server 2013. Après la migration de vos groupes de réponse hérités, les appels vers les groupes de réponse sont gérés par l’application Response Group dans le pool Lync Server 2013. Les appels de Response Groups ne sont plus gérés par le pool hérité.
 
@@ -180,7 +182,7 @@ La procédure suivante pour la migration de configurations de groupe de réponse
 
 1.  Ouvrez Lync Server Management Shell.
     
-    Pour plus d’informations sur les applets de commande suivantes, exécutez:
+    Pour plus d’informations sur les applets de commande suivantes, exécutez :
     
         Get-Help <cmdlet name> -Detailed
 

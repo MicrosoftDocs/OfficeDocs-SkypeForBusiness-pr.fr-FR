@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation des utilisateurs pour E9-1-1'
+title: 'Lync Server 2013 : activation des utilisateurs pour E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling users for E9-1-1
 ms:assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d62d811d78695cbc04fa8def76da1843beddb586
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831223"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Lors de l’enregistrement du client, Lync Server utilise une stratégie d’emplacement pour configurer les propriétés E9-1-1 pour les utilisateurs d’Enterprise Voice. Cette stratégie contient les paramètres qui déterminent la façon dont E9-1-1 est implémenté. Par exemple, la stratégie d’emplacement contient des informations telles que la chaîne de numérotation d’urgence, et si un utilisateur est tenu d’entrer manuellement un emplacement si le service d’information d’emplacement n’en a pas fourni automatiquement un. Pour obtenir une définition complète d’une stratégie d’emplacement, voir [définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: surveillance des discussions de groupe'
+title: 'Lync Server 2013 : surveillance des discussions de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring group chat
 ms:assetid: bddcf0be-ebf3-46bc-90c7-2576877734fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74897191cac7559237e961b7600a3ed478d11e58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa350924503f430ec0494cc5e1eb17f7878084a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826681"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826681"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-04_
+_**Dernière modification de la rubrique :** 2014-08-04_
 
 Nous vous recommandons vivement d’exécuter le [programme d’installation de mise à jour de serveur cumulative](http://support.microsoft.com/kb/968802) le plus récent disponible sur le centre de téléchargement Microsoft pour améliorer les performances.
 
@@ -64,50 +66,50 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 <td><p>canaux 25 000 hébergés par une liste de discussion de groupe.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Taille du canal:</p>
+<td><p>Taille du canal :</p>
 <ul>
-<li><p>Taille du petit canal: 30</p></li>
-<li><p>Taille du canal moyen: 150</p></li>
-<li><p>Grande taille de canal: 2500</p></li>
+<li><p>Taille du petit canal : 30</p></li>
+<li><p>Taille du canal moyen : 150</p></li>
+<li><p>Grande taille de canal : 2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de canaux:</p>
+<td><p>Nombre de canaux :</p>
 <ul>
-<li><p>Nombre de petits canaux: 24 000</p></li>
+<li><p>Nombre de petits canaux : 24 000</p></li>
 <li><p>Canaux de moyenne numérique 800</p></li>
 <li><p>Nombre de canaux de grande taille 24</p></li>
 <li><p>Nombre total de canaux 24 824</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Canaux d’invitation:</p>
+<td><p>Canaux d’invitation :</p>
 <ul>
 <li><p>La moitié des canaux étaient des canaux d’invitation</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de canaux qu’un utilisateur rejoint:</p>
+<td><p>Nombre de canaux qu’un utilisateur rejoint :</p>
 <ul>
-<li><p>Petites: 12</p></li>
-<li><p>Moyenne: 2</p></li>
-<li><p>Grande: 1</p></li>
+<li><p>Petites : 12</p></li>
+<li><p>Moyenne : 2</p></li>
+<li><p>Grande : 1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Taux de participation:</p>
+<td><p>Taux de participation :</p>
 <ul>
 <li><p>10 au total/par seconde, 3,33 secondes par serveur</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Taux de connexion:</p>
+<td><p>Taux de connexion :</p>
 <ul>
 <li><p>10 au total/par seconde, 3,33 secondes par serveur</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Taux de conversation:</p>
+<td><p>Taux de conversation :</p>
 <ul>
 <li><p>20 au total/par seconde, 6.66/seconde par serveur</p></li>
 </ul></td>
@@ -142,7 +144,7 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 <tbody>
 <tr class="odd">
 <td><p>Processus (ChannelService)-&gt;% temps processeur</p></td>
-<td><p>Min: 0</p></td>
+<td><p>Min : 0</p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: Valider la réplication des paramètres de configuration
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Validate replication of configuration settings
 ms:assetid: 81a3c21d-b28a-4287-adac-11791e8db56d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205042(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cde1f3a96f249e98bc4e48c2e6d9c40adaad526
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 698686dd217bf16457e4c3f4ebe6867566dcf49d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846029"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846029"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
-Vous pouvez valider la réplication des informations de configuration sur le serveur Edge en exécutant l’applet de contrôle Lync Server 2013 **Get-CsManagementStoreReplicationStatus** sur l’ordinateur interne sur lequel se trouve le magasin central de gestion ou n’importe quel domaine. ordinateur connecté sur lequel sont installés les composants principaux de Lync Server 2013.
+Vous pouvez valider la réplication des informations de configuration sur le serveur Edge en exécutant l’applet de contrôle Lync Server 2013 **Get-CsManagementStoreReplicationStatus** sur l’ordinateur interne sur lequel se trouve la Banque centrale de gestion ou n’importe quel ordinateur appartenant à un domaine sur lequel les composants principaux de Lync Server 2013 sont installés.
 
-Les résultats initiaux risquent d’indiquer l’état «false» au lieu de «true» pour la réplication. Si tel est le cas, exécutez l’applet de connexion **Invoke-CsManagementStoreReplication** et attendez la fin de la réplication avant d’exécuter de nouveau l’applet de connexion **Get-CsManagementStoreReplicationStatus** .
+Les résultats initiaux risquent d’indiquer l’état « false » au lieu de « true » pour la réplication. Si tel est le cas, exécutez l’applet de connexion **Invoke-CsManagementStoreReplication** et attendez la fin de la réplication avant d’exécuter de nouveau l’applet de connexion **Get-CsManagementStoreReplicationStatus** .
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une stratégie d’emplacement'
+title: 'Lync Server 2013 : création ou modification d’une stratégie d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying a location policy
 ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 173cfd6ce158a089e03a9eded12c3c6920183463
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1648e845fc3759e7083c2443013f89fb49c1b00f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831772"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres relatifs à la fonctionnalité améliorée 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si oui, le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro constituant un appel d’urgence (par exemple, 911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et la manière dont l’appel doit être routé.
 
@@ -51,17 +53,17 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
 
 3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie d’emplacement**.
 
-4.  Dans la page de **stratégie d’emplacement** , cliquez sur **nouveau** , puis sélectionnez le type de stratégie que vous voulez créer:
+4.  Dans la page de **stratégie d’emplacement** , cliquez sur **nouveau** , puis sélectionnez le type de stratégie que vous voulez créer :
     
       - Pour créer une stratégie de site, cliquez sur **stratégie de site**. Dans **Sélectionner un site**, sélectionnez le site auquel vous voulez appliquer la stratégie, puis cliquez sur **OK**. Dans la page **nouvelle stratégie d’emplacement** , le champ **étendue** contient la valeur **site**et le champ **nom** contient le nom du site que vous avez choisi. Vous ne pouvez pas modifier l’un de ces champs. Une stratégie de site est appliquée automatiquement à tous les utilisateurs du site spécifié et remplace la politique globale de ces utilisateurs.
     
       - Pour créer une **stratégie d’utilisateur**, cliquez sur stratégie de l' **utilisateur**. Dans la **nouvelle stratégie d’emplacement**, le champ **étendue** contient la valeur **utilisateur**. Vous ne pouvez pas modifier cette valeur. Dans le champ **nom** , entrez le nom que vous souhaitez attribuer à cette stratégie. Une stratégie d’utilisateur ne s’applique pas automatiquement à tous les utilisateurs. Après la création de la stratégie de l’utilisateur, vous devez l’octroyer manuellement aux utilisateurs ou aux sites du réseau auxquels vous voulez appliquer la stratégie.
 
-5.  Complétez les champs restants comme suit:
+5.  Complétez les champs restants comme suit :
     
       - **Activer les services**   d’urgence améliorés activez cette case à cocher pour autoriser les utilisateurs associés à cette stratégie pour E9-1-1. Lorsque les services d’urgence sont activés, les clients du serveur Lync récupèrent les informations d’emplacement lors de l’inscription et incluent ces informations lors de l’appel d’urgence.
     
-      - **Emplacement**   spécifiez l’une des valeurs suivantes:
+      - **Emplacement**   spécifiez l’une des valeurs suivantes :
         
           - **Requis**   l’utilisateur est invité à entrer les informations d’emplacement lorsque le client s’inscrit à un nouvel emplacement. L’utilisateur peut ignorer l’invite sans entrer d’information. Si les informations sont entrées, un appel d’urgence est d’abord traité par le fournisseur de services d’urgence pour vérifier l’emplacement avant d’être routé vers l’opérateur de sécurité publique (PSAPI) (c’est-à-dire, l’opérateur 911).
         
@@ -84,7 +86,7 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
     
       - **Numéro**   de téléphone d’urgence le numéro numéroté pour joindre les services d’urgence. Aux États-Unis, cette valeur est 911. La chaîne doit être effectuée sur les chiffres 0 à 9 et comporter entre 1 et 10 chiffres.
     
-      - **Masque**   de numérotation d’urgence il s’agit d’un numéro que vous souhaitez traduire en valeur de la valeur numéro de téléphone d’urgence lors de la numérotation. Par exemple, si vous entrez une valeur 212 dans ce champ et que le champ numéro de téléphone d’urgence a la valeur 911, si un utilisateur compose le numéro 212, l’appel est effectué sur 911. Cela permet d’appeler d’autres numéros d’urgence et de toujours avoir accès aux services d’urgence (par exemple, si un membre d’un pays ou d’une région dont le numéro de téléphone est différent pour composer le numéro de votre pays ou de votre région, et non le numéro de la pays ou région dans lequel ils se trouvent actuellement). Vous pouvez définir plusieurs masques de numérotation d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212; 414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+      - **Masque de numérotation d’urgence**   il s’agit d’un numéro que vous souhaitez traduire en valeur de la valeur numéro de téléphone d’urgence lors de la numérotation. Par exemple, si vous entrez une valeur 212 dans ce champ et que le champ numéro de téléphone d’urgence a la valeur 911, si un utilisateur compose le numéro 212, l’appel est effectué sur 911. Cela permet d’appeler d’autres numéros d’urgence et de toujours avoir accès aux services d’urgence (par exemple, si un membre d’un pays ou d’une région dont le numéro de téléphone est différent pour composer le numéro de votre pays ou de votre région, et non le numéro de la pays ou région dans lequel ils se trouvent actuellement). Vous pouvez définir plusieurs masques de numérotation d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212 ; 414. La longueur maximale de la chaîne est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
         
         <div>
         
@@ -95,13 +97,13 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
         
         </div>
     
-      - **URI de notification URI**   (Uniform Resource Identifiers) SIP pour être averti en cas d’appel d’urgence. Par exemple, le Bureau de sécurité de la société peut être notifié par un message instantané dès qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il sera inclus dans la notification. Plusieurs URI SIP peuvent être inclus en tant que liste séparée par des virgules. Par exemple, «SIP: security@litwareinc.com», «SIP: kmyer@litwareinc.com». Les listes de distribution sont prises en charge. La chaîne doit contenir entre 1 et 256 caractères et doit commencer par le préfixe «SIP:». Avant de cliquer dans le champ URI de notification, un exemple s’affiche.
+      - **URI de notification URI**   (Uniform Resource Identifiers) SIP pour être averti en cas d’appel d’urgence. Par exemple, le Bureau de sécurité de la société peut être notifié par un message instantané dès qu’un appel d’urgence est effectué. Si l’emplacement de l’appelant est disponible, il sera inclus dans la notification. Plusieurs URI SIP peuvent être inclus en tant que liste séparée par des virgules. Par exemple, « SIP : security@litwareinc. com », « SIP : kmyer@litwareinc. com ». Les listes de distribution sont prises en charge. La chaîne doit contenir entre 1 et 256 caractères et doit commencer par le préfixe « SIP : ». Avant de cliquer dans le champ URI de notification, un exemple s’affiche.
     
-      - **URI de conférence**   il s’agit du numéro de téléphone d’un fournisseur de services de conférence rendez-vous pour les appels d’urgence. Par exemple, le Bureau de sécurité de la société peut recevoir un appel lors de la mise en place d’un appel d’urgence et écouter ou participer à cet appel (en fonction de la valeur fournie dans le champ **mode de conférence** ). La chaîne doit avoir entre 1 et 256 caractères de longueur et doit commencer par le préfixe SIP:. Un exemple s’affiche jusqu’à ce que vous cliquiez dans ce champ.
+      - **URI de conférence**   il s’agit du numéro de téléphone d’un fournisseur de services de conférence rendez-vous pour les appels d’urgence. Par exemple, le Bureau de sécurité de la société peut recevoir un appel lors de la mise en place d’un appel d’urgence et écouter ou participer à cet appel (en fonction de la valeur fournie dans le champ **mode de conférence** ). La chaîne doit avoir entre 1 et 256 caractères de longueur et doit commencer par le préfixe SIP :. Un exemple s’affiche jusqu’à ce que vous cliquiez dans ce champ.
     
-      - **Mode**   Conférence si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si une tierce personne peut participer à l’appel ou si elle peut uniquement écouter. Spécifiez l’une des options suivantes:
+      - **Mode**   Conférence si vous spécifiez une valeur dans le champ **URI de conférence** , le **mode conférence** détermine si une tierce personne peut participer à l’appel ou si elle peut uniquement écouter. Spécifiez l’une des options suivantes :
         
-          - **** Une personne tierce peut écouter uniquement la conversation entre l’appelant et l’opérateur PSAPI.   
+          - **Une personne tierce peut**écouter uniquement la conversation entre l’appelant et l’opérateur PSAPI.   
         
           - **Deux sens**   de la partie tierce peuvent écouter l’appel et y participer entre l’appelant et l’opérateur PSAPI.
 
@@ -132,7 +134,7 @@ Dans Lync Server 2013, vous pouvez remplacer la durée par défaut entre les dem
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier la stratégie d’emplacement** , modifiez les champs comme vous le souhaitez (pour plus d’informations, reportez-vous à l’étape 5 de la section «pour créer une stratégie d’emplacement» plus haut dans cette rubrique).
+6.  Dans la page **modifier la stratégie d’emplacement** , modifiez les champs comme vous le souhaitez (pour plus d’informations, reportez-vous à l’étape 5 de la section « pour créer une stratégie d’emplacement » plus haut dans cette rubrique).
 
 7.  Cliquez sur **Valider**.
 

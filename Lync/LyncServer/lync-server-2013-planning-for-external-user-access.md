@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification de l’accès des utilisateurs externes
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for external user access
 ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76d4853e7e748128214fc93b721a59e979af03e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 17d38abe775a915fc3357610ad2b741eb0e77628
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824980"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41752334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824980"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-19_
+_**Dernière modification de la rubrique :** 2013-01-19_
 
 Dans la plupart des organisations, les communications concernent les services et les utilisateurs qui ne se trouvent pas à l’intérieur de votre réseau interne. Ces services et utilisateurs incluent des employés qui sont temporairement ou définitivement hors site, des employés d’organisations de clients ou de partenaires, des personnes qui utilisent des services de messagerie instantanée publique, et des clients potentiels, des partenaires et des utilisateurs anonymes que vous invitez à des réunions et des présentations. Dans cette documentation, ces personnes sont collectivement appelées *utilisateurs externes*.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de DNS pour la prise en charge de péri
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for edge support
 ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79e1712b3425c7cce4020799b37f10aba894aeb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c905c8fff7a67b26a7df8d2c741ce0a16fddce6c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838392"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-15_
+_**Dernière modification de la rubrique :** 2013-02-15_
 
-Vous devez configurer les enregistrements DNS (Domain Name System) pour les interfaces de périphérie interne et externe, y compris les interfaces de serveur Edge et de proxy inverse. Par défaut, les serveurs de périphérie ne sont pas joints à un domaine et ne disposent pas de nom de domaine complet (nom de domaine complet). Le serveur de périphérie est uniquement désigné par le nom court (ordinateur), et non par un nom de domaine complet. Toutefois, le générateur de topologie utilise les noms de domaine complets et non les noms courts. Le nom du serveur de périphérie doit correspondre au nom de domaine complet utilisé par le générateur de topologie. Pour ce faire, vous devez définir un suffixe DNS qui, lorsqu’il est combiné avec le nom de l’ordinateur, génère le FQDN attendu. Utilisez la procédure suivante dans «pour ajouter le suffixe DNS au nom de l’ordinateur sur un serveur Edge qui n’est pas joint à un domaine» pour ajouter le suffixe DNS au nom de l’ordinateur.
+Vous devez configurer les enregistrements DNS (Domain Name System) pour les interfaces de périphérie interne et externe, y compris les interfaces de serveur Edge et de proxy inverse. Par défaut, les serveurs de périphérie ne sont pas joints à un domaine et ne disposent pas de nom de domaine complet (nom de domaine complet). Le serveur de périphérie est uniquement désigné par le nom court (ordinateur), et non par un nom de domaine complet. Toutefois, le générateur de topologie utilise les noms de domaine complets et non les noms courts. Le nom du serveur de périphérie doit correspondre au nom de domaine complet utilisé par le générateur de topologie. Pour ce faire, vous devez définir un suffixe DNS qui, lorsqu’il est combiné avec le nom de l’ordinateur, génère le FQDN attendu. Utilisez la procédure suivante dans « pour ajouter le suffixe DNS au nom de l’ordinateur sur un serveur Edge qui n’est pas joint à un domaine » pour ajouter le suffixe DNS au nom de l’ordinateur.
 
 <div>
 
@@ -77,7 +79,7 @@ Pour créer et vérifier chaque enregistrement SRV DNS, procédez comme suit dan
     
 
     > [!IMPORTANT]  
-    > Vous devez configurer le DNS de manière à ce qu’il y ait: 1) entrées DNS externes pour les recherches DNS externes par les utilisateurs distants et les partenaires fédérés; 2) entrées pour les recherches DNS pour une utilisation par les serveurs Edge au sein du réseau de périmètre (également connu sous le nom de DMZ, zone démilitarisée et sous-réseau filtré), y compris les enregistrements des serveurs internes exécutant Lync Server 2013; et 3) entrées DNS internes pour les recherches par les clients et serveurs internes exécutant Lync Server 2013.
+    > Vous devez configurer le DNS de manière à ce qu’il y ait : 1) entrées DNS externes pour les recherches DNS externes par les utilisateurs distants et les partenaires fédérés ; 2) entrées pour les recherches DNS pour une utilisation par les serveurs Edge au sein du réseau de périmètre (également connu sous le nom de DMZ, zone démilitarisée et sous-réseau filtré), y compris les enregistrements des serveurs internes exécutant Lync Server 2013 ; et 3) entrées DNS internes pour les recherches par les clients et serveurs internes exécutant Lync Server 2013.
 
     
     </div>
@@ -114,7 +116,7 @@ Pour créer et vérifier chaque enregistrement SRV DNS, procédez comme suit dan
 
 2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
 
-3.  À l’invite de commandes, exécutez la commande suivante:
+3.  À l’invite de commandes, exécutez la commande suivante :
     
         nslookup <FQDN edge interface>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affichage des informations sur l’interface réseau'
+title: 'Lync Server 2013 : affichage des informations sur l’interface réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network interface information
 ms:assetid: e7dbb1ec-62b3-48be-a419-c493df5740e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f15cf34c7a6743fdd3dbf23558e0c747a1c237bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0434e673955729bdfad61d6e205f47dbf7f06577
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846270"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34846270"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
-Vous pouvez afficher les informations de l’interface réseau à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsNetworkInterface** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez afficher les informations de l’interface réseau à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsNetworkInterface** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-network-interface-information"></a>Pour afficher les informations sur l’interface réseau
 
-  - Pour afficher les informations sur l’interface réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher les informations sur l’interface réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkInterface
     
-    Cette commande renvoie des informations similaires à ce qui suit pour chaque interface réseau:
+    Cette commande renvoie des informations similaires à ce qui suit pour chaque interface réseau :
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’acc�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control public user access
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b348abcce00eb57988c7aa5184c0cfb5ea302adb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838356"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838356"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
-La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs de services de messagerie instantanée proposés par des fournisseurs de services de messagerie instantanée publics, y\!compris le réseau Windows Live de services Internet, Yahoo et AOL. Pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs externes du serveur Lync, vous devez configurer une ou plusieurs stratégies d’accès aux utilisateurs externes. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui repose sur la configuration de votre déploiement et de vos utilisateurs. Ce service dépend également de la configuration du service auprès du fournisseur de messagerie instantanée publique. Pour plus d’informations sur la façon de configurer votre déploiement pour utiliser les fournisseurs publics, voir le Guide de mise en service de la connectivité PIC (Public IM Connectivity pour Microsoft Lync Server, Office Communications Server et Live Communications Server»:[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs de services de messagerie instantanée proposés par des fournisseurs de services de messagerie instantanée publics, y\!compris le réseau Windows Live de services Internet, Yahoo et AOL. Pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs externes du serveur Lync, vous devez configurer une ou plusieurs stratégies d’accès aux utilisateurs externes. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui repose sur la configuration de votre déploiement et de vos utilisateurs. Ce service dépend également de la configuration du service auprès du fournisseur de messagerie instantanée publique. Pour plus d’informations sur la façon de configurer votre déploiement pour utiliser les fournisseurs publics, voir le Guide de mise en service de la connectivité PIC (Public IM Connectivity pour Microsoft Lync Server, Office Communications Server et Live Communications Server» :[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -43,9 +45,9 @@ La connectivité de messagerie instantanée publique permet aux utilisateurs de 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
@@ -53,11 +55,11 @@ La connectivité de messagerie instantanée publique permet aux utilisateurs de 
 
 </div>
 
-Pour accéder au site de mise en service de Microsoft Lync Server Public IM Connectivity, utilisez le lien suivant:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+Pour accéder au site de mise en service de Microsoft Lync Server Public IM Connectivity, utilisez le lien suivant :[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
 
-Pour contrôler l’accès des utilisateurs publics, vous pouvez configurer des stratégies au niveau global, au niveau du site et de l’utilisateur. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, voir Configuration de la [prise en charge de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) dans la documentation de déploiement ou la documentation de planification. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit: la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+Pour contrôler l’accès des utilisateurs publics, vous pouvez configurer des stratégies au niveau global, au niveau du site et de l’utilisateur. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, voir Configuration de la [prise en charge de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) dans la documentation de déploiement ou la documentation de planification. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit : la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
 
-Dans le cas d’invitations de messagerie instantanée, la réponse dépend du logiciel client. La requête est acceptée sauf si les expéditeurs externes sont explicitement bloqués par une règle configurée par l’utilisateur (autrement dit, les paramètres **** du client de l’utilisateur autorisent et **bloquent** les listes). Par ailleurs, les invitations de messagerie instantanée peuvent être bloquées si un utilisateur choisit de bloquer tous les messages instantanés de tous les utilisateurs qui ne figurent pas dans sa liste **verte** .
+Dans le cas d’invitations de messagerie instantanée, la réponse dépend du logiciel client. La requête est acceptée sauf si les expéditeurs externes sont explicitement bloqués par une règle configurée par l’utilisateur (autrement dit, les paramètres du client de l’utilisateur **autorisent** et **bloquent** les listes). Par ailleurs, les invitations de messagerie instantanée peuvent être bloquées si un utilisateur choisit de bloquer tous les messages instantanés de tous les utilisateurs qui ne figurent pas dans sa liste **verte** .
 
 <div>
 
@@ -81,7 +83,7 @@ Utilisez la procédure suivante pour configurer une stratégie permettant de pre
 
 3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes:
+4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes :
     
       - Pour configurer la stratégie globale de manière à prendre en charge l’accès public aux utilisateurs, cliquez sur la stratégie globale, cliquez sur **modifier**, puis sur **afficher les détails**.
     

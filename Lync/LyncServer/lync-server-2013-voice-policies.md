@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Stratégies de voix'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca1e72a1b62a224898d98aec7fcef9bc62ddf8bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3998bd6f879b20b1a22f46818a22f26bbb2cc29a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846226"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846226"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
-*Politiques vocales* Lync Server définissez les éléments suivants pour chaque utilisateur, site ou organisation affecté à la stratégie:
+*Politiques vocales* Lync Server définissez les éléments suivants pour chaque utilisateur, site ou organisation affecté à la stratégie :
 
   - Un ensemble de fonctionnalités d’appel qui peuvent être activées ou désactivées pour déterminer la fonctionnalité voix entreprise disponible aux utilisateurs.
 
@@ -45,7 +47,7 @@ _**Dernière modification de la rubrique:** 2012-09-21_
 
 ## <a name="planning-for-voice-policies"></a>Planification des politiques vocales
 
-Les étapes suivantes vous aideront à planifier les stratégies vocales dont vous aurez besoin pour votre déploiement voix entreprise:
+Les étapes suivantes vous aideront à planifier les stratégies vocales dont vous aurez besoin pour votre déploiement voix entreprise :
 
   - Déterminez la configuration prévue de votre stratégie de voix globale (stratégie de voix par défaut installée avec le produit). Ce paramètre s’applique à tous les utilisateurs de l’entreprise voix qui n’ont pas explicitement reçu une stratégie de niveau site ou par utilisateur.
 
@@ -106,7 +108,7 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
 
   - La boîte **vocale** d’arrêt empêche le routage des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsqu’une sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou en dehors de la plage et repose sur une valeur de minuteur. Ce paramètre active et désactive le minuteur et définit la valeur de Timer. Il peut être configuré uniquement à l’aide de Lync Server Management Shell. Désactivé par défaut.
 
-  - Le **transfert d’appel et la sonnerie simultanée des utilisations RTC** permettent aux administrateurs de spécifier la même utilisation PSTN que la stratégie vocale pour le transfert d’appel et la sonnerie simultanée, limiter le transfert d’appel et la sonnerie simultanée aux utilisateurs de Lync internes uniquement; vous pouvez ou spécifier une utilisation PSTN personnalisée qui est différente de l’utilisation du RTC de la stratégie vocale. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
+  - Le **transfert d’appel et la sonnerie simultanée des utilisations RTC** permettent aux administrateurs de spécifier la même utilisation PSTN que la stratégie vocale pour le transfert d’appel et la sonnerie simultanée, limiter le transfert d’appel et la sonnerie simultanée aux utilisateurs internes de Lync, ou spécifier une utilisation PSTN personnalisée différente de l’utilisation du RTC de la stratégie vocale. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
 
 </div>
 

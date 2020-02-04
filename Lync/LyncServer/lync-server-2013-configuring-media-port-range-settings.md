@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration des paramètres de plage de ports multimédias'
+title: 'Lync Server 2013 : configuration des paramètres de plage de ports multimédias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring media port range settings
 ms:assetid: 2c4b7c0b-0dce-48f4-a489-336d6e526f7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204770(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 300bec82443e1d2929df63a808cbe17c5bd6f9fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838204"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838204"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Les paramètres de la plage de ports multimédias peuvent avoir un impact considérable sur les performances du client. Vous pouvez configurer ces paramètres à l’aide de Lync Server Management Shell.
 
@@ -71,7 +73,7 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
 <td><p>Portrange\MaxMediaPort</p></td>
 <td><p>Spécifie le numéro de port le plus élevé à utiliser pour le contenu multimédia. S’associe à MinMediaPort pour spécifier la plage de ports. La plage minimale recommandée est 40 ports.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRange (indique le nombre total de ports disponibles pour le support client; la valeur par défaut est 40)</p></td>
+<td><p>ClientMediaPortRange (indique le nombre total de ports disponibles pour le support client ; la valeur par défaut est 40)</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +83,7 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
 
 ## <a name="to-configure-media-port-range-settings"></a>Pour configurer les paramètres de la plage de ports multimédia
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande suivante :
     
@@ -89,7 +91,7 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
     
     Cette cmdlet renvoie les paramètres de configuration de la Conférence.
 
-3.  Exécutez l’applet de commande suivante avec les paramètres et valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server Management Shell):
+3.  Exécutez l’applet de commande suivante avec les paramètres et valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server Management Shell) :
     
         Set-CsConferencingConfiguration
     

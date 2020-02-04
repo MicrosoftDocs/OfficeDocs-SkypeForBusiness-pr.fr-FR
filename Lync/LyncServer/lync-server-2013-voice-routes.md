@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Itinéraires des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice routes
 ms:assetid: a2ddf327-2ec4-407b-af0f-276f2b13eefd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412757(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e46b4074d41d2ac79dfe63bc99411a7aba72a88c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42aa810f40a6c00c7f2779acdf39caf39d7b2f07
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846223"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Les itinéraires d’appels spécifient comment Lync Server gère les appels sortants placés par des utilisateurs d’Enterprise Voice. Lorsqu’un utilisateur compose un numéro, le serveur frontal normalise la chaîne de numérotation au format E. 164, si nécessaire, et tente de correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction du numéro. La dernière étape de la définition de cette logique consiste à créer un itinéraire téléphonique nommé distinct pour chaque ensemble de numéros de téléphone de destination répertorié dans chaque plan de numérotation.
 
@@ -87,7 +89,7 @@ Lync Server 2013, à l’instar de ses prédécesseurs, nécessite que toutes le
 
 Avec Lync Server 2013, il est possible de créer une ou plusieurs règles qui vous aident à manipuler le numéro d’appel avant de le diriger vers le Trunk.
 
-Dans la planification de vos Trunks qui associent des passerelles: paires de port avec médiation Server: paires de port, il peut être utile de regrouper les Trunks avec des exigences de numérotation locales similaires, et donc de réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.
+Dans la planification de vos Trunks qui associent des passerelles : paires de port avec médiation Server : paires de port, il peut être utile de regrouper les Trunks avec des exigences de numérotation locales similaires, et donc de réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.
 
 </div>
 

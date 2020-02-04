@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table ConferenceUris'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceUris table
 ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2b1ab44b564d649b6c8fb812077645c6dc13093
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838482"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838482"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-05-25_
+_**Dernière modification de la rubrique :** 2012-05-25_
 
 La table ConfereneUris est une table qui contient une liste des différents URI de conférence ayant participé à des sessions de conférence enregistrées dans la base de données. Chaque enregistrement de la table représente un URI de conférence.
 
@@ -82,7 +84,7 @@ La table ConfereneUris est une table qui contient une liste des différents URI 
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Externes</p></td>
-<td><p>Type d’URI (par exemple, conf: chat pour une conférence par messagerie instantanée, ou conf: audio-vidéo pour les conférences audio/vidéo). Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans la table Lync Server 2013</a> .</p></td>
+<td><p>Type d’URI (par exemple, conf : chat pour une conférence par messagerie instantanée, ou conf : audio-vidéo pour les conférences audio/vidéo). Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans la table Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

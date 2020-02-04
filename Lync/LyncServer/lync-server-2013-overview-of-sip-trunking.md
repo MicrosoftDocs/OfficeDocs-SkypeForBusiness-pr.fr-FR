@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vue d’ensemble d’une jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of SIP trunking
 ms:assetid: 204f2c21-436f-4b2d-93ea-d6db98fa2952
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398285(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e2c79261923456575e208aa472daae4aaab5f55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825344"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825344"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Le déploiement d’une jonction SIP peut contribuer grandement à simplifier les télécommunications de votre organisation et à préparer celle-ci en vue des dernières améliorations apportées aux communications en temps réel. L’un des principaux avantages qu’offre le déploiement d’une jonction SIP est que vous pouvez consolider les connexions de votre organisation vers le réseau téléphonique commuté (RTC) sur le site central, contrairement à la jonction TDM, qui nécessite une jonction distincte pour chaque site de succursale vers le site central.
 
@@ -41,7 +43,7 @@ Le déploiement d’une jonction SIP peut contribuer grandement à simplifier le
 
 ## <a name="sip-trunking-in-lync-server"></a>Trunking SIP dans Lync Server
 
-Les fonctionnalités de trunking SIP de Lync Server 2013 permettent ce qui suit:
+Les fonctionnalités de trunking SIP de Lync Server 2013 permettent ce qui suit :
 
   - Un utilisateur d’entreprise, qu’il se trouve à l’intérieur ou à l’extérieur du pare-feu d’entreprise, peut effectuer un appel local ou un appel longue distance qui est fourni par un numéro compatible E. 164 qui est arrêté sur le RTC en tant que service du fournisseur de services correspondant.
 

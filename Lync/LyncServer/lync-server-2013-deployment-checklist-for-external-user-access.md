@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Liste de vérification du déploiement pour l’accè
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for external user access
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ad2ad90ab43402babdd10478e1d86cac2a38ddf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831518"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-04_
+_**Dernière modification de la rubrique :** 2014-02-04_
 
 Avant de déployer votre réseau de périmètre et de mettre en œuvre la prise en charge pour les utilisateurs externes, vous devez déjà avoir déployé vos serveurs internes Microsoft Lync Server 2013, y compris un pool frontal ou un serveur Standard Edition Server. Si vous envisagez de déployer les directeurs facultatifs dans votre réseau interne, vous devez également les déployer avant de déployer des serveurs Edge. Pour plus d’informations sur le processus de déploiement des directeurs, voir [scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) dans la documentation de planification.
 
@@ -59,7 +61,7 @@ Le tableau suivant fournit une vue d’ensemble du processus de déploiement de 
 
 </div>
 
-Pour améliorer les performances et la sécurité du serveur Edge et faciliter le déploiement, appliquez les meilleures pratiques suivantes lors du déploiement de votre réseau de périmètre et des serveurs Edge:
+Pour améliorer les performances et la sécurité du serveur Edge et faciliter le déploiement, appliquez les meilleures pratiques suivantes lors du déploiement de votre réseau de périmètre et des serveurs Edge :
 
   - Déployez les serveurs Edge uniquement après avoir testé et vérifié le fonctionnement de Lync Server 2013 au sein de votre organisation.
 
@@ -110,15 +112,15 @@ Pour améliorer les performances et la sécurité du serveur Edge et faciliter l
 <li><p>Configurez les adresses IP (IPv4 et IPv6, s’il est utilisé) pour les interfaces réseau internes et publiques sur chaque serveur Edge.</p></li>
 <li><p>Configurez les enregistrements DNS internes et externes (Host A et AAAA pour IPv4 et IPv6), y compris la configuration du suffixe DNS sur l’ordinateur pour être déployé en tant que serveur Edge.</p></li>
 <li><p>Facultatif Créez et installez des certificats publics. Le temps requis pour obtenir des certificats dépend de l’autorité de certification qui émet le certificat. Si vous n’effectuez pas cette étape à ce stade, vous devez le faire lors de l’installation du serveur Edge. Les services du serveur Edge ne peuvent pas être démarrés tant que les certificats n’ont pas été obtenus et installés.</p></li>
-<li><p>La prise en charge de la connectivité PIC (Public IM Connectivity), si votre déploiement prend en charge les communications avec Windows Live, AOL ou Yahoo! ont.</p>
+<li><p>La prise en charge de la connectivité PIC (Public IM Connectivity), si votre déploiement prend en charge les communications avec Windows Live, AOL ou Yahoo ! ont.</p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
@@ -163,7 +165,7 @@ Pour améliorer les performances et la sécurité du serveur Edge et faciliter l
 <tr class="even">
 <td><p>Configurer le déploiement pour l’accès des utilisateurs externes.</p></td>
 <td><ol>
-<li><p>Utilisez le panneau de configuration de Lync Server pour configurer la prise en charge de chacun des éléments suivants (selon le cas):</p>
+<li><p>Utilisez le panneau de configuration de Lync Server pour configurer la prise en charge de chacun des éléments suivants (selon le cas) :</p>
 <ul>
 <li><p>Relais multimédia</p></li>
 <li><p>Itinéraire de Fédération</p></li>

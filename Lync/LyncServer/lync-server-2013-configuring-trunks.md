@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des jonctions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring trunks
 ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d40a290f75ae48b73a4695e04ea2934b0c4d695
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1021295b375e4f28294ffb1ca5738d651f9ced2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838165"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Dans le cadre d’un déploiement voix entreprise, vous pouvez configurer un Trunk entre un serveur de médiation et un ou plusieurs des homologues suivants pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques vocaux d’entreprise au sein de votre organisation:
+Dans le cadre d’un déploiement voix entreprise, vous pouvez configurer un Trunk entre un serveur de médiation et un ou plusieurs des homologues suivants pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques vocaux d’entreprise au sein de votre organisation :
 
   - Connexion de jonction SIP vers un fournisseur de services de téléphonie Internet
 

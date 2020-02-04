@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport Détails de la Conférence'
+title: 'Lync Server 2013 : rapport Détails de la Conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Detail Report
 ms:assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204728(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac598c3f85211ad97f2d6266b74b6c524d76d006
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e8e2cd992e83adb29c43935d4b4c7f223580d53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838494"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Le rapport détaillé de conférence donne des informations détaillées sur tous les utilisateurs qui ont participé à une conférence. Vous pouvez par exemple voir des informations, telles que la date et l’heure auxquelles un utilisateur s’est joint à la conférence, la date et l’heure auxquelles l’utilisateur a quitté la conférence et l’agent utilisateur du point de terminaison qui a permis à l’utilisateur de se connecter à la conférence. Vous pouvez également afficher des informations sur le rôle de l’utilisateur dans chaque conférence (par exemple présentateur ou participant). Ce qui est peut-être le plus important, vous pouvez voir rapidement quels utilisateurs ont réussi à rejoindre et suivre la conférence et quels utilisateurs n’ont pas réussi à rejoindre et suivre la conférence.
 

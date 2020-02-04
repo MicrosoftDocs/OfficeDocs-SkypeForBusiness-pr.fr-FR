@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : surveillance du système d’exploitati
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring operating system
 ms:assetid: 72406d3e-54c8-4796-8d6d-2144a5b6f030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f8124afcf2d1acbde3518ff625d528d6e34a3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42ac03f61fca5717d279d39e703a8ffa97e8c2cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826695"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-26_
+_**Dernière modification de la rubrique :** 2015-01-26_
 
-Vous devez surveiller les performances de tous les serveurs et composants du serveur Lync Server 2013. Évidemment, lֹ’un des composants les plus importants est le système d’exploitation proprement dit. Lync Server 2013 prend en charge les éditions x64 de:
+Vous devez surveiller les performances de tous les serveurs et composants du serveur Lync Server 2013. Évidemment, lֹ’un des composants les plus importants est le système d’exploitation proprement dit. Lync Server 2013 prend en charge les éditions x64 de :
 
   - Windows Server 2008 R2
 
@@ -51,7 +53,7 @@ Outre les packs de gestion Windows Server appropriés pour System Center Operati
 
 ## <a name="windows-server2008r2"></a>Windows Server 2008 R2
 
-Windows Server 2008 R2 inclut les fonctionnalités et outils supplémentaires suivants pour permettre aux administrateurs d’effectuer le suivi et la gestion de base du système d’exploitation:
+Windows Server 2008 R2 inclut les fonctionnalités et outils supplémentaires suivants pour permettre aux administrateurs d’effectuer le suivi et la gestion de base du système d’exploitation :
 
   - L’**Analyseur de ressources Windows** est un outil puissant qui permet de comprendre comment les processus et les services utilisent les ressources système. Outre la surveillance de l’utilisation des ressources en temps réel, un analyseur des ressources peut aider à analyser les processus qui ne répondent pas, à identifier les applications qui utilisent des fichiers et à contrôler les processus et les services.
 
@@ -75,7 +77,7 @@ Il inclut également le Moniteur de fiabilité, un composant logiciel enfichable
 
 ## <a name="windows-reliability-and-performance-monitor"></a>Analyseur de fiabilité et de performances Windows
 
-Même si la fiabilité et le moniteur de performance Windows combinent des fonctionnalités d’anciens outils autonomes, tels que les journaux et alertes de performance, et le moniteur système et le conseiller en matière de performance du serveur, il fournit également une nouvelle fonctionnalité à Windows Server 2008 et Windows Server 2008 R2, comme suit:
+Même si la fiabilité et le moniteur de performance Windows combinent des fonctionnalités d’anciens outils autonomes, tels que les journaux et alertes de performance, et le moniteur système et le conseiller en matière de performance du serveur, il fournit également une nouvelle fonctionnalité à Windows Server 2008 et Windows Server 2008 R2, comme suit :
 
   - Ensembles de collecteurs de données
 

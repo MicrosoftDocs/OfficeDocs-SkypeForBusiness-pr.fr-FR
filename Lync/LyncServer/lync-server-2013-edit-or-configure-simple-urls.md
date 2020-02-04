@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Modification ou configuration des URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edit or configure simple URLs
 ms:assetid: 0008aeea-4ae9-4e36-83cd-ef7ff7b6e128
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398063(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b1439ddb0dafc63b0e70439ee5231477fdbb6be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fe6ae7197e2f47c590384547c34dd4b1db50950
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34831320"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-04_
+_**Dernière modification de la rubrique :** 2014-02-04_
 
 Cette procédure ne nécessite pas d’appartenance à un administrateur local ou à un groupe de domaines privilégiés. Vous devez vous connecter à un ordinateur en tant qu’utilisateur standard.
 
 Lync Server 2013 utilise des URL simples pour diriger les appels internes et externes vers des services du serveur frontal ou du réalisateur, s’il a été déployé. Pour plus d’informations sur les URL simples, voir [planification d’URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) dans la documentation de planification. Vous pouvez sélectionner le format de vos URL simples à partir de plusieurs options. Pour plus d’informations sur ces options, voir [configurations DNS requises pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) dans la documentation de planification.
 
-Par défaut, les URL simples seront configurées sous la forme (par exemple, l’URL de connexion simple): https://dialin.\<SIP Domain\>
+Par défaut, les URL simples seront configurées sous la forme (par exemple, l’URL de connexion simple) : https://dialin.\<SIP Domain\>
 
 <div>
 

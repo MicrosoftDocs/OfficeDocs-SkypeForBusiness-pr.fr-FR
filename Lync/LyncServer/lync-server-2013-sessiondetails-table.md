@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table SessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails table
 ms:assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faebef9ad03370c2fa969d3b119f13b88d1d3173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b68c50fc17199c68a69c5a7c6dd6abc8a5bd1dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822110"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822110"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Chaque enregistrement représente une session d’égal à égal, qui peut être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux parties ou tout autre type de session. Vous pouvez effectuer une jointure de tableau avec le [tableau multimédia dans Lync Server 2013](lync-server-2013-media-table.md) pour trouver les détails de chaque média impliqué dans cette session.
 
@@ -242,7 +244,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 <td><p><strong>MediaTypes</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Un ensemble de bits qui indique le type de média de cette session. Voici les définitions des types:</p>
+<td><p>Un ensemble de bits qui indique le type de média de cette session. Voici les définitions des types :</p>
 <h3 id="section-1"> </h3>
 <div>
 <table>
@@ -257,7 +259,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 </tr>
 <tr class="even">
 <td><p>FILE_TRANSFER</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>
@@ -288,7 +290,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 <td><p><strong>User1Flag</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Un ensemble de bits qui indique les attributs User1. Les définitions d’attribut suivantes apparaissent:</p>
+<td><p>Un ensemble de bits qui indique les attributs User1. Les définitions d’attribut suivantes apparaissent :</p>
 <ul>
 <li><p>0x01-intégré sur le téléphone de bureau</p></li>
 </ul></td>
@@ -297,7 +299,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 <td><p><strong>User2Flag</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Un ensemble de bits qui indique les attributs utilisateur2. Les définitions d’attribut suivantes apparaissent:</p>
+<td><p>Un ensemble de bits qui indique les attributs utilisateur2. Les définitions d’attribut suivantes apparaissent :</p>
 <ul>
 <li><p>0x01-intégré sur le téléphone de bureau</p></li>
 </ul></td>
@@ -306,7 +308,7 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent:</p>
+<td><p>Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent :</p>
 <ul>
 <li><p>0x01-nouvelle tentative de session</p></li>
 <li><p>0x02-appel émis par l’agent pour le compte d’un groupe de réponse</p></li>

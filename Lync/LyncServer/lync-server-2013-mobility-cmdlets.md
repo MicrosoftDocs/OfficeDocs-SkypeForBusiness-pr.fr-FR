@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets Mobility'
+title: 'Lync Server 2013 : cmdlets Mobility'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility cmdlets
 ms:assetid: 42a30a34-d66b-4c91-b596-a6fc7666e600
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690019(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b62a35da2d289bee1a08abe354ed990c75e6fb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e1f5339f2c47a611fa29d9511d4d73148afcda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826968"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758706"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826968"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
-Des cmdlets de mobilité ont été introduites pour gérer la fonctionnalité de mobilité ajoutée dans la mise à jour cumulative pour Lync Server 2010: novembre 2011. Utilisez ces applets de applet pour gérer les paramètres des fonctionnalités de mobilité, tels que la configuration de service de mobilité et les stratégies utilisateur.
+Des cmdlets de mobilité ont été introduites pour gérer la fonctionnalité de mobilité ajoutée dans la mise à jour cumulative pour Lync Server 2010 : novembre 2011. Utilisez ces applets de applet pour gérer les paramètres des fonctionnalités de mobilité, tels que la configuration de service de mobilité et les stratégies utilisateur.
 
 <div>
 

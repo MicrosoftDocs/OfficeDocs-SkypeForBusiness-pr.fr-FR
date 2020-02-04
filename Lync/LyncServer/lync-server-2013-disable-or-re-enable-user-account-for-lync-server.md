@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: désactiver ou réactiver un compte d’utilisateur pour Lync Server'
+title: 'Lync Server 2013 : désactiver ou réactiver un compte d’utilisateur pour Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable or re-enable user account for Lync Server
 ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429696(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7944af89ffae7545ba3a2593c7617fc944a7916e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aea86048fa29e9b6a21aa040093edff3f53ffe27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831388"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-04-04_
+_**Dernière modification de la rubrique :** 2016-04-04_
 
 Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utilisateur déjà activé dans Lync Server 2013 sans perdre les paramètres de serveur Lync que vous avez configurés pour le compte d’utilisateur. Étant donné que vous ne perdez pas les paramètres de compte d’utilisateur de Lync Server, vous pouvez réactiver un compte d’utilisateur déjà activé sans avoir à reconfigurer le compte d’utilisateur.
 
@@ -57,15 +59,15 @@ Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utili
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez désactiver ou réactiver. puis cliquez sur **Rechercher**.
+4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , tapez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité (Sam), adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez désactiver ou réactiver, puis cliquez sur **Rechercher**.
 
 5.  Dans la table, cliquez sur le compte d’utilisateur que vous souhaitez désactiver ou réactiver.
 
-6.  Dans le menu **action** , effectuez l’une des opérations suivantes:
+6.  Dans le menu **action** , effectuez l’une des opérations suivantes :
     
       - Pour désactiver temporairement le compte d’utilisateur pour Lync Server 2013, cliquez sur **désactiver temporairement pour Lync Server**.
     
-      - Pour activer le compte d’utilisateur pour Lync Server 2013, cliquez sur réactiver **pour Lync Server**.
+      - Pour activer le compte d’utilisateur pour Lync Server 2013, cliquez sur **réactiver pour Lync Server**.
 
 </div>
 
@@ -73,7 +75,7 @@ Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utili
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Utilisation de Windows PowerShell pour désactiver ou réactiver les comptes d’utilisateurs
 
-Pour désactiver temporairement les comptes d’utilisateurs, vous pouvez les réactiver ultérieurement à l’aide de l’applet de dialogue **Set-Csuser** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Pour désactiver temporairement les comptes d’utilisateurs, vous pouvez les réactiver ultérieurement à l’aide de l’applet de dialogue **Set-Csuser** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion des paramètres de groupe de réponse au niveau de l’application'
+title: 'Lync Server 2013 : gestion des paramètres de groupe de réponse au niveau de l’application'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing application-level Response Group settings
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721843(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bac03eaafc40ccd86aca8514319e3bf632ea6a83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffce659c2c4dc6c91ba4e4935b72c15e4cef4da5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828214"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828214"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les paramètres au niveau de l’application de l’application Response Group incluent la configuration par défaut de l’attente de musique, le fichier audio de musique par défaut, la période de grâce aux retours de l’agent et la configuration du contexte d’appel. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration**. Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration**.
 
@@ -45,7 +47,7 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Dans la ligne de commande, exécutez la commande suivante :
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Enregistrements DNS requis pour un serveur Standard E
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for a Standard Edition server
 ms:assetid: 5d1daf54-6e60-4ce0-9254-7d57a0835fa4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204936(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7508fea0fa6640546bda4f1ecb559821d468803d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831371"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831371"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de serveurs Standard Edition.
 
@@ -62,7 +64,7 @@ Le tableau suivant indique les exigences DNS pour le déploiement de Lync Server
 </tr>
 <tr class="even">
 <td><p>Connexion automatique au client</p></td>
-<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _ TCP. &lt;domaine&gt; sur le port 5061 qui correspond au nom de domaine complet du serveur Standard Edition qui authentifie et redirige les demandes de connexion du client. Pour plus d’informations, voir <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">configuration DNS requise pour la connexion automatique au client dans Lync Server 2013</a>.</p></td>
+<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _tcp. &lt;domaine&gt; sur le port 5061 qui correspond au nom de domaine complet du serveur Standard Edition qui authentifie et redirige les demandes de connexion du client. Pour plus d’informations, voir <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">configuration DNS requise pour la connexion automatique au client dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Découverte du service Web de mise à jour d’appareil par des appareils de communications unifiées (UC)</p></td>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: approuver une règle de mise à jour de l’appareil'
+title: 'Lync Server 2013 : approuver une règle de mise à jour de l’appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Approve a Device Update rule
 ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994053(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa560be6b8c341310c4831277902dab6f2e5552c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846928"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846928"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Une fois que vous avez importé une règle de mise à jour de l’appareil, celle-ci est installée sur vos appareils de test. Si le test est concluant et que vous souhaitez déployer la mise à jour de votre organisation, approuvez-la à l’aide du panneau de configuration de Lync Server ou de Windows PowerShell.
 
@@ -45,7 +47,7 @@ Une fois que vous avez importé une règle de mise à jour de l’appareil, cell
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes:
+3.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
     
       - Pour approuver une règle, sélectionnez cette règle.
     
@@ -59,13 +61,13 @@ Une fois que vous avez importé une règle de mise à jour de l’appareil, cell
 
 ## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Approbation d’une règle de mise à jour de l’appareil à l’aide des applets de cmdlet Windows PowerShell
 
-Les règles de mise à jour d’appareils peuvent également être approuvées à l’aide de Windows PowerShell et de l’applet de passe approbateur **-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Les règles de mise à jour d’appareils peuvent également être approuvées à l’aide de Windows PowerShell et de l’applet de passe **approbateur-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -75,7 +77,7 @@ Les règles de mise à jour d’appareils peuvent également être approuvées �
 
 ## <a name="to-approve-a-single-device-update-rule"></a>Pour approuver une seule règle de mise à jour de l’appareil
 
-  - La commande suivante approuve la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 trouvée sur le serveur Web atl-cs-001.litwareinc.com:
+  - La commande suivante approuve la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 trouvée sur le serveur Web atl-cs-001.litwareinc.com :
     
         Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 
@@ -85,13 +87,13 @@ Les règles de mise à jour d’appareils peuvent également être approuvées �
 
 ## <a name="to-approve-multiple-device-update-rules"></a>Pour approuver plusieurs règles de mise à jour de l’appareil
 
-  - Cette commande approuve toutes les règles de mise à jour d’appareils pour les appareils de marque Microsoft:
+  - Cette commande approuve toutes les règles de mise à jour d’appareils pour les appareils de marque Microsoft :
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion approbateur [-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [approbateur-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
 
 </div>
 

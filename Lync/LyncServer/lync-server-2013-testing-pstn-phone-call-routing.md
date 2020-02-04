@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test du routage des appels téléphoniques PSTN'
+title: 'Lync Server 2013 : test du routage des appels téléphoniques PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faa6bfe178397ab474c1bcd8edc21107faff8dc3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846534"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-11-01_
+_**Dernière modification de la rubrique :** 2014-11-01_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-11-01_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsInterTrunkRouting</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsInterTrunkRouting</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -84,7 +86,7 @@ Les commandes illustrées ci-dessous retournent les itinéraires correspondants 
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si les appels peuvent être routés d’un SIP à un autre, vous recevrez une sortie semblable à ce qui suit:
+Si les appels peuvent être routés d’un SIP à un autre, vous recevrez une sortie semblable à ce qui suit :
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -92,17 +94,17 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-Si le test échoue, vous recevrez une sortie semblable à ce qui suit:
+Si le test échoue, vous recevrez une sortie semblable à ce qui suit :
 
-Test-CsInterTrunkRouting: impossible de traiter la transformation d’argument sur le paramètre
+Test-CsInterTrunkRouting : impossible de traiter la transformation d’argument sur le paramètre
 
 'TrunkConfiguration'. TrunkConfigurationsetting non valide (paramètre). Spécifier une
 
 paramètre valide (paramètre), puis réessayez.
 
-À la ligne: 1 car: 79
+À la ligne : 1 car : 79
 
-\+Test-CsInterTrunkRouting-TargetNumber "Tél: + 12065551219"
+\+Test-CsInterTrunkRouting-TargetNumber "Tél : + 12065551219"
 
 \-TrunkConfiguration $t...
 
@@ -110,11 +112,11 @@ paramètre valide (paramètre), puis réessayez.
 
 ~~
 
-\+CategoryInfo: InvalidData: (:) \[Test-CsInterTrunkRouting\], par
+\+CategoryInfo : InvalidData : ( :) \[Test-CsInterTrunkRouting\], par
 
 ameterBindingArgumentTransformationException
 
-\+FullyQualifiedErrorId: ParameterArgumentTransformationError, Microsoft. R
+\+FullyQualifiedErrorId : ParameterArgumentTransformationError, Microsoft. R
 
 TC. Gestion. Voice. applets. TestOcsInterTrunkRoutingCmdlet
 
@@ -124,7 +126,7 @@ TC. Gestion. Voice. applets. TestOcsInterTrunkRoutingCmdlet
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsInterTrunkRouting** peuvent échouer:
+Voici quelques raisons courantes pour lesquelles **les tests-CsInterTrunkRouting** peuvent échouer :
 
   - Vous avez spécifié des paramètres non valides. Le Trunk n’est peut-être pas encore correctement configuré et le numéro de cible spécifié est peut-être incorrect ou non valide.
 

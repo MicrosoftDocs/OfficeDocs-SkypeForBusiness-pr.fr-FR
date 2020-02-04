@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de synthèse de diagnostic des appels'
+title: 'Lync Server 2013 : rapport de synthèse de diagnostic des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838708"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble des sessions de conférence et des sessions P2P ayant échoué. Ce rapport comprend le taux d’échecs général pour ces deux types de sessions, et détaille les informations par type de modalité de session :
 
@@ -51,7 +53,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport synthèse des diagnostics d’appel, vous pouvez accéder au [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) en cliquant sur l’indice du taux d’échec dans la section synthèse de la session d’égal à égal du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférences suivantes:
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport synthèse des diagnostics d’appel, vous pouvez accéder au [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) en cliquant sur l’indice du taux d’échec dans la section synthèse de la session d’égal à égal du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférences suivantes :
 
   - Taux d’échec de session global
 
@@ -65,7 +67,7 @@ Le rapport de synthèse de diagnostic des appels est accessible à partir de la 
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Utilisation efficace du rapport de synthèse de diagnostic des appels
 
-Le rapport synthèse des diagnostics de l’appel inclut des graphiques qui comparent les taux d’échec pour les différentes modalités d’utilisation dans Microsoft Lync Server 2013. Les colonnes de ces graphiques sont réellement des hyperliens. par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous découvrirez une instance du [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un rapport contenant des informations supplémentaires sur l’ensemble du moment les sessions de messagerie intégrées au rapport de synthèse des diagnostics d’appels.
+Le rapport synthèse des diagnostics de l’appel inclut des graphiques qui comparent les taux d’échec pour les différentes modalités d’utilisation dans Microsoft Lync Server 2013. Les colonnes de ces graphiques sont réellement des hyperliens. par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous découvrirez une instance du [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un rapport contenant des informations supplémentaires sur l’ensemble des sessions de messagerie instantanée incluses dans le rapport de synthèse des Diagnostics.
 
 </div>
 

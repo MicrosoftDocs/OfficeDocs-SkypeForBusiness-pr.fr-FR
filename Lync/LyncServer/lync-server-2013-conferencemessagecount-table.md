@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceMessageCount table
 ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398590(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2994f02bf087ef55edff6b2153e7504f881b03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838483"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
-Chaque enregistrement de cette table représente un utilisateur au sein d’une conférence par messagerie instantanée et inclut le nombre de messages envoyés par cet utilisateur. Chaque conférence est représentée par plusieurs enregistrements dans ce tableau; un enregistrement pour chaque utilisateur.
+Chaque enregistrement de cette table représente un utilisateur au sein d’une conférence par messagerie instantanée et inclut le nombre de messages envoyés par cet utilisateur. Chaque conférence est représentée par plusieurs enregistrements dans ce tableau ; un enregistrement pour chaque utilisateur.
 
 
 <table>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Description des exigences de pare-feu pour SQL Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding firewall requirements for SQL Server
 ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425818(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 586985c3059e12d358249a71dc2435c3be9254f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846474"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Dans le cadre d’un déploiement Standard Edition, des exceptions de pare-feu sont créées automatiquement lors de la configuration de Lync Server 2013. Toutefois, pour les déploiements Enterprise Edition, vous devez configurer les exceptions de pare-feu manuellement sur le serveur principal SQL Server. Le protocole TCP/IP permet d’utiliser un port donné une seule fois pour une adresse IP donnée. En d’autres termes, pour le serveur SQL Server, vous pouvez affecter l’instance de base de données par défaut, le port TCP 1433. Pour tous les autres cas, vous devez utiliser le gestionnaire de configuration SQL Server pour attribuer des ports uniques et inutilisés. Cette rubrique aborde les thèmes suivants:
+Dans le cadre d’un déploiement Standard Edition, des exceptions de pare-feu sont créées automatiquement lors de la configuration de Lync Server 2013. Toutefois, pour les déploiements Enterprise Edition, vous devez configurer les exceptions de pare-feu manuellement sur le serveur principal SQL Server. Le protocole TCP/IP permet d’utiliser un port donné une seule fois pour une adresse IP donnée. En d’autres termes, pour le serveur SQL Server, vous pouvez affecter l’instance de base de données par défaut, le port TCP 1433. Pour tous les autres cas, vous devez utiliser le gestionnaire de configuration SQL Server pour attribuer des ports uniques et inutilisés. Cette rubrique aborde les thèmes suivants :
 
   - Configuration requise pour une exception de pare-feu lors de l’utilisation de l’instance par défaut
 
@@ -143,7 +145,7 @@ Lors de l’utilisation d’instances nommées dans la configuration SQL Server 
 
 ## <a name="sql-server-documentation"></a>Documentation SQL Server
 
-La documentation Microsoft SQL Server 2012 fournit des instructions détaillées sur la configuration de l’accès par le pare-feu aux bases de données. Pour plus d’informations sur Microsoft SQL Server 2012, voir «Configuration du pare-feu Windows pour autoriser l’accès [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)à SQL Server» à l’adresse.
+La documentation Microsoft SQL Server 2012 fournit des instructions détaillées sur la configuration de l’accès par le pare-feu aux bases de données. Pour plus d’informations sur Microsoft SQL Server 2012, voir « Configuration du pare-feu Windows pour autoriser l’accès [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)à SQL Server » à l’adresse.
 
 </div>
 

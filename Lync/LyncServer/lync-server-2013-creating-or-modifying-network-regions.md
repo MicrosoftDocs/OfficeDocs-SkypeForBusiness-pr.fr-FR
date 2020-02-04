@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification de régions réseau'
+title: 'Lync Server 2013 : création ou modification de régions réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying network regions
 ms:assetid: bd08bb66-5976-4ece-b45c-7de19569f814
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182579(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3ca5d44fd2278ffee8a3e9dd4494575cc64c65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbebccd02b74c4fbfb69225a6397c1dd7cef862d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831759"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831759"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Une région réseau interconnecte diverses parties d’un réseau à plusieurs zones géographiques. Chaque région du réseau doit être associée à un site central. Le site central est le site du centre de données sur lequel le service de stratégie de bande passante de contrôle d’admission des appels (CAC) est en cours d’exécution. Vous pouvez utiliser le panneau de configuration de Lync Server pour configurer des régions réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins d’accès via Internet sont autorisés pour les connexions audio et vidéo. Dans le panneau de configuration de Lync Server, vous pouvez créer, modifier ou supprimer une région réseau. Utilisez cette rubrique pour créer et modifier des régions réseau. Pour plus d’informations sur la suppression de régions réseau existantes, voir [Suppression de régions réseau existantes dans Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md).
 
@@ -79,7 +81,7 @@ La table **site associée** n’est pas utilisée pour créer une région résea
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier la région** , vous pouvez modifier les paramètres d’activation et de désactivation des chemins audio et vidéo, et modifier la description (pour plus de détails, reportez-vous à la section «créer une région réseau» plus haut dans cette rubrique.
+6.  Dans la page **modifier la région** , vous pouvez modifier les paramètres d’activation et de désactivation des chemins audio et vidéo, et modifier la description (pour plus de détails, reportez-vous à la section « créer une région réseau » plus haut dans cette rubrique.
 
 7.  Cliquez sur **Valider**.
 

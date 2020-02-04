@@ -1,8 +1,10 @@
 ---
-title: 'Rapport de distribution de métriques de qualité multimédia Lync Server 2013:'
+title: 'Rapport de distribution de métriques de qualité multimédia Lync Server 2013 :'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1d814fd001f3510a7ae83e63746bdc1265932e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827388"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Le rapport de distribution des mesures de qualité des médias vous permet de consulter un graphique qui affiche les valeurs de distribution pour une mesure de la qualité de l’expérience, comme la gigue ou la perte de paquets. Par exemple, supposons que vos utilisateurs passent un total de 10 appels téléphoniques. Ces 10 appels présentent les délais d’aller-retour suivants :
 
@@ -55,7 +57,7 @@ Le rapport de distribution des mesures de qualité des médias vous permet de co
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
@@ -94,7 +96,7 @@ Le rapport de distribution des mesures de qualité des médias vous permet de co
 </table>
 
 
-La moyenne de ces temps d’aller-retour est de 500 millisecondes (5000 divisée par 10). 500 millisecondes est une durée de roundtrip très importante; par conséquent, il est possible que vous rencontriez un problème sérieux avec la congestion du réseau. (Les temps de roundtrip longs sont généralement le résultat de réseaux surchargés.)
+La moyenne de ces temps d’aller-retour est de 500 millisecondes (5000 divisée par 10). 500 millisecondes est une durée de roundtrip très importante ; par conséquent, il est possible que vous rencontriez un problème sérieux avec la congestion du réseau. (Les temps de roundtrip longs sont généralement le résultat de réseaux surchargés.)
 
 Pour le moment, le nombre de fois que 90% de vos appels avait des temps d’aller-retour exceptionnels. il vous suffit d’un appel incorrect qui a faussé les résultats globaux. Si vous observez uniquement la durée de l’aller-retour moyenne, vous risquez de sauter une erreur de conclusion.
 

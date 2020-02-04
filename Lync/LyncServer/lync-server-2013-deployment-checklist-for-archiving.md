@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Liste de vérification du déploiement pour l’archi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c556dd288ff3539bbf2f4de816eab3a544b847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831519"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 L’archivage est automatiquement installé sur chaque serveur frontal de votre déploiement Lync Server 2013, mais vous devez le configurer pour pouvoir l’utiliser. Les étapes nécessaires pour les configurer, telles qu’elles sont résumées dans cette section, constituent le déploiement de l’archivage.
 
@@ -41,7 +43,7 @@ L’archivage est automatiquement installé sur chaque serveur frontal de votre 
 
 ## <a name="deployment-sequence"></a>Séquence de déploiement
 
-La configuration de l’archivage dépend de l’option de stockage que vous choisissez:
+La configuration de l’archivage dépend de l’option de stockage que vous choisissez :
 
   - Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer des stratégies d’archivage Lync Server 2013 pour vos utilisateurs. Au lieu de cela, configurez vos stratégies de conservation inaltérable pour la prise en charge de l’archivage pour les utilisateurs hébergés sur Exchange 2013 et leurs boîtes aux lettres sont placées dans la conservation inaltérable. Pour plus d’informations sur la configuration de ces stratégies, voir la documentation du produit Exchange 2013.
 
@@ -108,12 +110,12 @@ Le tableau ci-dessous décrit les étapes nécessaires pour déployer l’archiv
 <td><p><strong>Créez la topologie interne appropriée pour la prise en charge de l’archivage (uniquement si vous n’utilisez pas l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement).</strong></p></td>
 <td><p>Exécutez le générateur de topologie pour ajouter des bases de données d’archivage Lync Server 2013 (bases de données SQL Server) à la topologie, puis publiez la topologie.</p></td>
 <td><p>Pour définir une topologie afin d’incorporer des bases de données d’archivage, un compte membre du groupe utilisateurs locaux.</p>
-<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers 2013 Lync Server (de façon à ce que le générateur de topologie puisse Configurez les DACL requis).</p></td>
+<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers 2013 Lync Server (de manière à ce que le générateur de topologie puisse configurer les DACL requis).</p></td>
 <td><p><a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">Ajouter des bases de données d’archivage à un déploiement 2013 Lync Server existant</a> dans la documentation de déploiement.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Configurer l’authentification de serveur à serveur (uniquement si vous utilisez l’intégration de Microsoft Exchange)</strong></p></td>
-<td><p>Configurer des serveurs pour activer l’authentification entre Lync Server 2013 et Exchange 2013. Nous vous recommandons d’exécuter <strong>test-CsExchangeStorageConnectivity testuser_sipUri – benne de dossiers</strong> pour valider la connectivité de stockage d’archivage Exchange avant de procéder à l’archivage.</p></td>
+<td><p>Configurer des serveurs pour activer l’authentification entre Lync Server 2013 et Exchange 2013. Nous vous recommandons d’exécuter <strong>test-CsExchangeStorageConnectivity testuser_sipUri – benne de dossiers</strong> pour valider la connectivité de stockage d’archivage Exchange avant d’activer l’archivage.</p></td>
 <td><p>Un compte doté des autorisations appropriées pour gérer les certificats sur les serveurs.</p></td>
 <td><p><a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gestion de l’authentification de serveur à serveur (OAuth) et des applications partenaires dans Lync server 2013</a> dans la documentation de déploiement ou la documentation des opérations.</p></td>
 </tr>
@@ -135,7 +137,7 @@ Le tableau ci-dessous décrit les étapes nécessaires pour déployer l’archiv
 
 ## <a name="deploying-lync-server-and-microsoft-exchange-in-different-forests"></a>Déploiement de Lync Server et Microsoft Exchange dans différentes forêts
 
-Si Microsoft Exchange Server n’est pas déployé dans la même forêt que Lync Server, vous devez vous assurer que les attributs Active Directory suivants sont synchronisés avec la forêt sur laquelle Lync Server est déployé:
+Si Microsoft Exchange Server n’est pas déployé dans la même forêt que Lync Server, vous devez vous assurer que les attributs Active Directory suivants sont synchronisés avec la forêt sur laquelle Lync Server est déployé :
 
 1.  msExchUserHoldPolicies
 

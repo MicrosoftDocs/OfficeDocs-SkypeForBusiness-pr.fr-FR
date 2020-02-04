@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test de l’accès au magasin de contacts unifié'
+title: 'Lync Server 2013 : test de l’accès au magasin de contacts unifié'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846505"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846505"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-15_
+_**Dernière modification de la rubrique :** 2015-05-15_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2015-05-15_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsUnifiedContactStore</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsUnifiedContactStore</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**Dernière modification de la rubrique:** 2015-05-15_
 
 ## <a name="description"></a>Description
 
-Le magasin de contacts unifié introduit dans Lync Server 2013 permet aux administrateurs de stocker les contacts d’un utilisateur dans Microsoft Exchange Server 2013 au lieu de Lync Server. Cela permet à l’utilisateur d’accéder au même jeu de contacts dans Outlook Web Access en plus de Lync 2013. (Vous pouvez continuer à stocker vos contacts dans Lync Server. Dans ce cas, les utilisateurs doivent tenir compte de deux ensembles de contacts distincts: un pour une utilisation avec Outlook et Outlook Web Access, et un pour une utilisation avec Lync 2013.)
+Le magasin de contacts unifié introduit dans Lync Server 2013 permet aux administrateurs de stocker les contacts d’un utilisateur dans Microsoft Exchange Server 2013 au lieu de Lync Server. Cela permet à l’utilisateur d’accéder au même jeu de contacts dans Outlook Web Access en plus de Lync 2013. (Vous pouvez continuer à stocker vos contacts dans Lync Server. Dans ce cas, les utilisateurs doivent tenir compte de deux ensembles de contacts distincts : un pour une utilisation avec Outlook et Outlook Web Access, et un pour une utilisation avec Lync 2013.)
 
 Vous pouvez déterminer si les contacts d’un utilisateur ont été déplacés dans le magasin de contacts unifié en exécutant l’applet de **contrôle CsUnifiedContactStore de test** . L’applet de connexion **test-CsUnifiedContactStore** prend le compte d’utilisateur spécifié, se connecte au magasin de contacts unifié et tente de récupérer un contact pour l’utilisateur. Si aucun contact ne peut être récupéré, la commande échoue avec le message «aucun contact n’a été reçu pour l’utilisateur. Vérifiez qu’il existe des contacts pour l’utilisateur.»
 
@@ -90,25 +92,25 @@ La deuxième commande de l’exemple utilise l’objet Credentials fourni ($x) e
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si l’accès au magasin de contacts est correctement configuré, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie:**
+Si l’accès au magasin de contacts est correctement configuré, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie :**
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:14.9862716
+Latence : 00:00:14.9862716
 
-Message d’erreur:
+Message d’erreur :
 
 Diagnostic
 
-Si l’accès au magasin de contacts n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
+Si l’accès au magasin de contacts n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-AVERTISSEMENT: impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
+AVERTISSEMENT : impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
 
 nom de domaine (FQDN). Utilisation du numéro de port de bureau par défaut. Sauf
 
-System. InvalidOperationException: aucun cluster correspondant détecté dans la topologie.
+System. InvalidOperationException : aucun cluster correspondant détecté dans la topologie.
 
 dès
 
@@ -116,13 +118,13 @@ Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryR
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur: 10060, une tentative de connexion a échoué car la partie connectée
+Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée
 
 ne répond pas correctement après un certain temps, ou
 
@@ -130,7 +132,7 @@ ne répond pas correctement après un certain temps, ou
 
 échec de la réponse à 10.188.116.96:5061
 
-Exception interne: une tentative de connexion a échoué, car le
+Exception interne : une tentative de connexion a échoué, car le
 
 la fête connectée ne répond pas correctement après un délai de
 
@@ -146,7 +148,7 @@ Diagnostic
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsUnifiedContactStore** peuvent échouer:
+Voici quelques raisons courantes pour lesquelles **les tests-CsUnifiedContactStore** peuvent échouer :
 
   - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
 

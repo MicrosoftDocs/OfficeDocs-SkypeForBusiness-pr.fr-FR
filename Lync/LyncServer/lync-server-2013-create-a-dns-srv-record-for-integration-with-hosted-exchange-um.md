@@ -3,6 +3,8 @@ title: Création d’un enregistrement SRV DNS pour l’intégrer à la messager
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a DNS SRV record for integration with hosted Exchange UM
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh500728(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2f96b8873e7d83b7025b43b111312185b8e5d5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c8cc5072e122d553007a2b4e095c58988aca390d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838134"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Name System) requis pour un serveur Edge Lync Server 2013 pour le routage vers un service Exchange hébergé tel que Microsoft Exchange Online.
 
@@ -89,7 +91,7 @@ Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Nam
 
 2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
 
-3.  À l’invite de commandes, exécutez la commande suivante:
+3.  À l’invite de commandes, exécutez la commande suivante :
     
         nslookup <FQDN Lync Edge Pool>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de conférence rendez-vous'
+title: 'Lync Server 2013 : cmdlets de conférence rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing cmdlets
 ms:assetid: 0718f82a-91c4-466f-8443-a85002deaa48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42e39081eef29da8d33b693bd4e319564c7be9a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 110bd0b96f16c986cffeaffc58085e597a44bd47
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831399"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831399"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-03-21_
+_**Dernière modification de la rubrique :** 2012-03-21_
 
-Les conférences rendez-vous permettent aux utilisateurs d’utiliser un téléphone «ordinaire» (c’est-à-dire, un appareil sur le réseau téléphonique commuté public) pour accéder à la partie audio d’une conférence.
+Les conférences rendez-vous permettent aux utilisateurs d’utiliser un téléphone « ordinaire » (c’est-à-dire, un appareil sur le réseau téléphonique commuté public) pour accéder à la partie audio d’une conférence.
 
 <div>
 
