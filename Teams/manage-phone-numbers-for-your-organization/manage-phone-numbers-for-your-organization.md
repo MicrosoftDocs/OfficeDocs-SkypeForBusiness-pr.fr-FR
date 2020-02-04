@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment obtenir et gérer les numéros de téléphone de Microsoft teams pour votre organisation.
-ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571988"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707189"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
@@ -92,7 +92,7 @@ Si vous avez encore besoin d’aide, faites-nous savoir comment nous pouvons vou
 - Pour obtenir de l’aide pour la configuration des numéros de téléphone pour votre organisation, [Contactez le service d’assistance PSTN](contact-pstn-service-desk.md).
   
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Conditions générales d’utilisation des appels d’urgence](../emergency-calling-terms-and-conditions.md)
 

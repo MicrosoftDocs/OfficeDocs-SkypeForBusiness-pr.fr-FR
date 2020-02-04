@@ -15,19 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570610"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707239"
 ---
 # <a name="pstn-service-desk-help"></a>Aide de l’assistance de service PSTN
 

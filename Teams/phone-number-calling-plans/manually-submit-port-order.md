@@ -1,5 +1,5 @@
 ---
-title: Envoi manuel d’une demande de transfert
+title: Envoyer manuellement une demande de transfert
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: Découvrez comment soumission manuelle d’une demande de transfert.
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708740"
 ---
-# <a name="manually-submit-a-port-order"></a>Envoi manuel d’une demande de transfert
+# <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
 Dans certains pays et certaines régions, il est possible que vous deviez envoyer manuellement une demande de service pour obtenir des numéros de téléphone, transférer des numéros de téléphone, libérer des numéros de téléphone ou changer d’adresse. Pour connaître les besoins de chaque pays ou région ou pour en savoir plus sur le transfert de numéros, voir [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -58,7 +58,7 @@ Téléchargez le [Loa](../manage-phone-numbers-for-your-organization/manage-phon
     
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Voir [affecter, modifier ou supprimer le numéro de téléphone d’un utilisateur](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

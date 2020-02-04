@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Découvrez les étapes nécessaires à la configuration des événements en direct dans Teams, y compris la préparation de votre réseau, l’attribution de licences, l’utilisation de stratégies pour activer les fonctionnalités d’événement en direct et la planification pour les utilisateurs et la configuration d’un fournisseur de distribution tiers.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570156"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708330"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -105,11 +105,11 @@ La lecture de vidéos d’événements en direct utilise le flux de débit adapt
 
 Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configurées pour être utilisées avec le flux.
 
-- La fonction **streaming en continu** fournit une solution simple et puissante pour une distribution vidéo professionnelle en direct et à la demande. Hive est une solution logicielle qui ne nécessite pas de matériel ou de bande passante supplémentaire et offre un moyen sécurisé d’activer des milliers de visionneuses vidéo simultanées sans impact sur votre réseau. Pour les clients qui cherchent à comprendre la vidéo d’impact sur leur réseau avant de procéder à l’achat d’une solution SDN/eCDN, la fonction de diffusion en continu de ruche fournit également une solution d’analyse basée sur le navigateur pour les clients Microsoft. [En savoir plus](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
+- La fonction **streaming en continu** fournit une solution simple et puissante pour une distribution vidéo professionnelle en direct et à la demande. Hive est une solution logicielle qui ne nécessite pas de matériel ou de bande passante supplémentaire et offre un moyen sécurisé d’activer des milliers de visionneuses vidéo simultanées sans impact sur votre réseau. Pour les clients qui cherchent à comprendre la vidéo d’impact sur leur réseau avant de procéder à l’achat d’une solution SDN/eCDN, la fonction de diffusion en continu de ruche fournit également une solution d’analyse basée sur le navigateur pour les clients Microsoft. [Apprenez-en davantage](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** est une plateforme de distribution d’homologation intelligente basée sur le Cloud qui tire parti de votre infrastructure réseau existante pour diffuser du contenu, sous différentes formes, (diffusion en continu de vidéos, vidéo à la demande, mises à jour de logiciels, correctifs de sécurité, etc.) plus rapide, plus fiabilité et réduction de la bande passante. Notre plate-forme sécurisée est digne de confiance par les plus grandes institutions financières du monde et sans aucun matériel supplémentaire, aucune configuration et maintenance n’est facile. [En savoir plus](https://kollective.com/microsoft-pilot/).
+- **Kollective** est une plate-forme de distribution d’homologation intelligente basée sur le Cloud qui tire parti de votre infrastructure réseau existante pour diffuser du contenu, sous différentes formes, (diffusion en continu de vidéos, vidéo à la demande, mises à jour de logiciels, correctifs de sécurité, etc.) plus rapide, plus fiable et avec moins de bande passante. Notre plate-forme sécurisée est digne de confiance par les plus grandes institutions financières du monde et sans aucun matériel supplémentaire, aucune configuration et maintenance n’est facile. [Apprenez-en davantage](https://kollective.com/microsoft-pilot/).
  
-- **RAMP OmniCache** fournit une distribution réseau nouvelle génération et garantit une remise transparente du contenu vidéo sur les réseaux WAN généraux, permettant aux producteurs d’événements d’optimiser la bande passante du réseau et de prendre en charge les diffusions d’événements en direct et à la demande. transmission. La prise en charge de RAMP OmniCache pour les événements en direct produits dans teams sera bientôt prise en charge. [En savoir plus](http://www.ramp.com). 
+- **RAMP OmniCache** fournit une distribution réseau nouvelle génération et garantit une remise transparente du contenu vidéo sur les réseaux WAN généraux, permettant aux producteurs d’événements d’optimiser la bande passante du réseau et de prendre en charge les diffusions d’événement en direct et la diffusion à la demande. La prise en charge de RAMP OmniCache pour les événements en direct produits dans teams sera bientôt prise en charge. [Apprenez-en davantage](http://www.ramp.com). 
  
 > [!NOTE] 
 > Votre solution SDN ou eCDN sélectionnée est soumise aux **conditions générales de service et à la politique de confidentialité du prestataire**tiers, qui régit l’utilisation de la solution du fournisseur. Votre utilisation de la solution du fournisseur ne sera pas soumise aux termes du contrat de licence en volume Microsoft ou des services en ligne. Si vous n’êtes pas d’accord avec les **conditions du fournisseur**tiers, n’activez pas la solution dans Teams. 
@@ -119,7 +119,7 @@ Après avoir configuré la solution SDN ou eCDN, vous pouvez configurer le fourn
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer les paramètres des événements en direct dans teams](configure-teams-live-events.md).
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les paramètres des événements en direct dans teams](configure-teams-live-events.md)

@@ -14,25 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793041"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705949"
 ---
 # <a name="skype-for-business-online-reporting"></a>Création de rapports Skype Entreprise Online
 
-En tant qu’administrateur de votre organisation, il est très pratique de disposer de la liste complète des différents rapports disponibles dans Skype entreprise online. Cela inclut tous les rapports et les informations qu'ils comprennent.
+En tant qu’administrateur de votre organisation, il est très pratique de disposer de la liste complète des différents rapports disponibles dans Skype entreprise online. Il inclut tous les différents rapports et informations que vous pouvez obtenir avec chaque rapport.
   
-Pour accéder aux rapports de Skype entreprise Online, connectez-vous au centre d’administration Microsoft 365 à l’aide de votre compte d’utilisateur et de votre mot de passe. Le compte que vous utilisez pour ouvrir une session doit disposer du rôle d'administrateur global ou du rôle d'administrateur de service Skype Entreprise délégué pour afficher les rapports.
+Pour accéder aux rapports de Skype entreprise Online, connectez-vous au centre d’administration Microsoft 365 à l’aide de votre compte d’utilisateur et de votre mot de passe. Le compte que vous utilisez pour vous connecter doit se voir attribuer le rôle d’administrateur général ou déléguer le rôle d’administrateur du service Skype entreprise pour pouvoir afficher les rapports.
   
 > [!NOTE]
-> Pour vérifier les autorisations, dans le centre d' **** > administration > utilisateurs**actifs**. Cliquez sur le nom d’affichage de l’utilisateur, puis cliquez sur **modifier** et sur la page Propriétés du compte, cliquez sur **rôles** .
+> Pour vérifier les autorisations, dans le centre d' **administration >** > utilisateurs**actifs**. Cliquez sur le nom d’affichage de l’utilisateur, puis cliquez sur **modifier** et sur la page Propriétés du compte, cliquez sur **rôles** .
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Guide de référence de la création de rapports Skype Entreprise Online
 
@@ -57,7 +58,7 @@ Dans les centres d’administration Office 365 et Skype entreprise, vous pouvez 
 |[Rapport de pools de minutes RTC Skype entreprise](pstn-minute-pools-report.md) <br/> | Capability est le plan de licence/service utilisé pour l’appel. <br/> Type de licence <br/> Description de la fonctionnalité <br/> Groupe de minutes pays  <br/> Minutes utilisées <br/> Nombre total de minutes <br/> Pourcentage de minutes d’utilisation pour le mois <br/> |
 |[Rapport Détails de la session Skype entreprise](session-details-report.md) <br/> | Alias d’utilisateur <br/> ID de boîte de dialogue  <br/> Types de médias  <br/> Heures de début et de fin <br/> URL vers et depuis <br/> URL de la Conférence <br/> Numéro de téléphone <br/> |
  
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

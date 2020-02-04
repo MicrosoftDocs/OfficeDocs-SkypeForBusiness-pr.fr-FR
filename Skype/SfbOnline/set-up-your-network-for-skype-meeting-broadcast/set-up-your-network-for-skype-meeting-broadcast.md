@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 05e970e7859b361a4ec8c9656aedbe54f0de6f4f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990979"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706119"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
@@ -95,7 +96,7 @@ La deuxième étape du processus de configuration consiste à ajouter d’abord 
 
 Si vous disposez d’une organisation Skype entreprise Online et d’un déploiement local de Lync Server 2010, Microsoft Lync Server 2013 et de Skype entreprise Server 2015 et que les utilisateurs sont connectés et en local, vous devez effectuer les opérations suivantes. vous pouvez également accéder à ces éléments pour permettre à votre organisation locale de communiquer avec Skype entreprise Online et de permettre aux utilisateurs de participer à une diffusion de réunion Skype. Pour connaître la configuration requise, reportez-vous à [la section configurer votre déploiement local pour la diffusion de réunion Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Activer une diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
 

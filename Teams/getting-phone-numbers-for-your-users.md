@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros et transférer des numéros existants pour les équipes, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209200"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707870"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -43,7 +44,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **Ajouter**.
 2. Entrez un nom pour la commande et, si vous le souhaitez, ajoutez une description.
@@ -67,7 +68,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Affichage des numéros de téléphone pour votre entreprise
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams** 
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** 
 
 Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **vocaux** > pour afficher les numéros de votre organisation, y compris l’emplacement, le type de numéro et les informations d’État.
   

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
 description: 'Découvrez comment configurer Skype entreprise afin de pouvoir voir la disponibilité de vos collègues. '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793343"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706519"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -42,21 +42,21 @@ En tant qu' **[administrateur](https://support.office.com/article/eac4d046-1afd-
 
 3. Sous **mode de confidentialité de présence**, sélectionnez l’un des paramètres suivants, puis choisissez **Enregistrer**.
 
-|**Paramètre**|**Qui peut voir la présence d’un utilisateur?**|
+|**Paramètre**|**Qui peut voir la présence d’un utilisateur ?**|
 |:-----|:-----|
 |**Afficher automatiquement des informations de présence** <br/> |Tout utilisateur Skype entreprise de votre entreprise qui n’a pas été ajouté à la liste **externe** ou **bloquée** d’une personne pourra voir la présence en ligne de cette personne. <br/> |
-|**Afficher les informations de présence uniquement aux contacts d’un utilisateur** <br/> |Toute personne figurant dans la liste des contacts d’une personne qui ne l’a pas ajouté à sa liste **externe** ou **bloqué** . <br/> Les utilisateurs peuvent remplacer vos paramètres par défaut dans leur application Skype entreprise:**options**des**Outils** > de **paramètres** > . <br/> |
+|**Afficher les informations de présence uniquement aux contacts d’un utilisateur** <br/> |Toute personne figurant dans la liste des contacts d’une personne qui ne l’a pas ajouté à sa liste **externe** ou **bloqué** . <br/> Les utilisateurs peuvent remplacer vos paramètres par défaut dans leur application Skype entreprise :**options**des**Outils** > de **paramètres** > . <br/> |
 
-Pour plus d’informations sur les modifications que vos utilisateurs peuvent modifier dans Skype entreprise, reportez-vous aux articles suivants:
+Pour plus d’informations sur les modifications que vos utilisateurs peuvent modifier dans Skype entreprise, reportez-vous aux articles suivants :
 
 - [Contrôle de l’accès à vos informations de présence dans Skype entreprise](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
 - [Définir les options de statut dans Skype entreprise](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 

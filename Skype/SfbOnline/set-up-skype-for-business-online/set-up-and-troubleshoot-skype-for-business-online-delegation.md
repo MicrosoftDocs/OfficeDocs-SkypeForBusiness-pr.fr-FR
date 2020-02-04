@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Cet article explique comment configurer et résoudre les problèmes de délégation Skype entreprise online. Cet article fournit des conseils pour la configuration des recommandations, meilleures pratiques et étapes de résolution des problèmes.
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285243"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706479"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
 
@@ -33,7 +34,7 @@ Cet article explique comment configurer et résoudre les problèmes de délégat
 
 ### <a name="guidelines-for-delegation"></a>Recommandations en matière de délégation
 
-La configuration et l’activation de la délégation fonctionneront correctement en fonction des recommandations suivantes:
+La configuration et l’activation de la délégation fonctionneront correctement en fonction des recommandations suivantes :
   
 - Vous devez utiliser le client complet Skype entreprise 2015 avec les mises à jour les plus récentes ou le client complet Skype entreprise 2016.
     
@@ -78,7 +79,7 @@ La configuration et l’activation de la délégation fonctionneront correctemen
    
 ## <a name="set-up-and-verify-delegation"></a>Configurer et vérifier la délégation
 
-Pour configurer la délégation de Skype entreprise Online, procédez comme suit:
+Pour configurer la délégation de Skype entreprise Online, procédez comme suit :
   
 ### <a name="for-windows-clients"></a>Pour les clients Windows
 
@@ -106,7 +107,7 @@ Pour configurer la délégation de Skype entreprise Online, procédez comme suit
     
 ### <a name="verify-success"></a>Vérifier le succès
 
-Si la configuration est réussie, le délégué doit voir le message **vous avez été ajouté en tant que délégué pour _LT_ Name>** , et les personnes avec lesquelles **je gère les appels de** groupe sont créées. La personne disposant doit voir que le groupe **délégués** est créé.
+Si la configuration est réussie, le délégué doit voir le message **vous avez été ajouté en tant que délégué pour < nom>** message et les **personnes avec lesquelles je gère les appels pour** le groupe sont créées. La personne disposant doit voir que le groupe **délégués** est créé.
   
 > [!NOTE]
 > Les autorisations de délégation apparaissent généralement dans les 30 minutes du processus d’installation. Toutefois, ce processus peut prendre jusqu’à 24 heures. 
@@ -139,14 +140,14 @@ Si la configuration est réussie, le délégué doit voir le message **vous avez
   
 - La création d’un groupe de sécurité et l’ajout d’autorisations de délégation pour ce groupe de sécurité ne sont pas prises en charge.
     
-- MAPI n’est pas disponible. Voir [erreur «MAPI non disponible» dans le client Skype entreprise 2016](https://support.microsoft.com/en-us/help/3147130).
+- MAPI n’est pas disponible. Voir [erreur « MAPI non disponible » dans le client Skype entreprise 2016](https://support.microsoft.com/en-us/help/3147130).
     
 - La boîte aux lettres Exchange Online n’est pas accessible via le client Skype entreprise. Le cas échéant, exécutez le [test de connectivité Outlook](https://testconnectivity.microsoft.com/) pour vérifier qu’il est transmis.
     
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

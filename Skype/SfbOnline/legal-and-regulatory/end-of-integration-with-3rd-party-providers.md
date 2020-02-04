@@ -14,29 +14,30 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Le 31 juillet 2021, le programme de fin de vie se conclut pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACP tiers).
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36170992"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706689"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programme de fin de vie pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers 
 
 Microsoft a annoncé le début du programme de fin de vie pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACPs). 
 
-Le programme de fin de vie sera conclu le 31 juillet 2021. Lorsque le programme se termine, l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers cesse de fonctionner et les modifications suivantes seront observées à cette date (31 juillet 2021):
+Le programme de fin de vie sera conclu le 31 juillet 2021. Lorsque le programme se termine, l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers cesse de fonctionner et les modifications suivantes seront observées à cette date (31 juillet 2021) :
 
 - Les participants qui essaient de participer à une réunion Skype entreprise par le biais d’un numéro de connexion fourni par un service d’ACP tiers ne seront plus connectés à la réunion Skype entreprise.
  
 - Les utilisateurs activés pour un service ACP tiers ne disposeront plus des informations de connexion intégrées automatiquement dans les nouvelles invitations à une réunion Skype entreprise.
 
-Dans le cadre de la mise en place du programme de fin de vie, le changement suivi de la mise en place et restera en vigueur jusqu’à la fin de la vie du programme: 
+Dans le cadre de la mise en place du programme de fin de vie, le changement suivi de la mise en place et restera en vigueur jusqu’à la fin de la vie du programme : 
 
 - Les clients ne disposant pas de Skype entreprise configurés pour utiliser un service ACP tiers ne pourront pas configurer les utilisateurs pour utiliser un service ACP tiers.
 
@@ -48,15 +49,15 @@ Pour préparer ce changement, nous encourageons les organisations concernées à
 
 Après le 31 juillet 2021, les utilisateurs peuvent continuer à utiliser Skype entreprise sans interruption de leurs réunions en ligne. Toutefois, les organisations doivent activer leurs utilisateurs pour l’audioconférence fournie par Microsoft s’ils ont besoin d’une audioconférence rendez-vous avec Skype entreprise ou Microsoft Teams. Pour en savoir plus sur l’audioconférence Microsoft, voir [audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
-En fonction de l’état de terminaison souhaité d’une organisation, vous pouvez suivre trois chemins d’accès:
+En fonction de l’état de terminaison souhaité d’une organisation, vous pouvez suivre trois chemins d’accès :
 
 - Migrer vers Microsoft audio Conferencing. 
 - Continuez à utiliser séparément un fournisseur de services d’audioconférence tiers. 
 - Mettre fin à l’utilisation de conférences rendez-vous.
 
-### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>#1 path: migrer vers Microsoft audio Conferencing   
+### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>#1 path : migrer vers Microsoft audio Conferencing   
 
-Les organisations qui décident de migrer vers Microsoft audio Conferencing et de terminer leur migration avant le 31 juillet 2021 ne pourront pas utiliser d’impact sur les services pendant ou après cette date. La migration vers Microsoft audio Conferencing introduira les modifications suivantes à une organisation: 
+Les organisations qui décident de migrer vers Microsoft audio Conferencing et de terminer leur migration avant le 31 juillet 2021 ne pourront pas utiliser d’impact sur les services pendant ou après cette date. La migration vers Microsoft audio Conferencing introduira les modifications suivantes à une organisation : 
 
 - Le service sera facturé avec tous les autres services Office 365. 
 
@@ -70,7 +71,7 @@ Les organisations qui décident de migrer vers Microsoft audio Conferencing et d
 
 - Toute utilisation du service est soumise aux conditions d’utilisation des services d’audioconférence. 
 
-La migration vers l’audioconférence Microsoft est une opération simple et peut être réalisée en quelques étapes après l’acquisition de licences pour le service. Pour plus d’informations sur la migration vers Microsoft audio Conferencing, voir:
+La migration vers l’audioconférence Microsoft est une opération simple et peut être réalisée en quelques étapes après l’acquisition de licences pour le service. Pour plus d’informations sur la migration vers Microsoft audio Conferencing, voir :
 
 - [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
@@ -80,7 +81,7 @@ La migration vers l’audioconférence Microsoft est une opération simple et pe
 
 - Pour en savoir plus sur la migration vers Microsoft audio Conferencing, voir [essayer ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Chemin #2: continuer à utiliser séparément un fournisseur de services d’audioconférence tiers
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Chemin #2 : continuer à utiliser séparément un fournisseur de services d’audioconférence tiers
 
 Les organisations qui décident de continuer à utiliser un fournisseur de services d’audioconférence tiers, et après le 31 juillet 2021, peuvent avoir une incidence sur les services, car les informations de connexion tierces tierces ne pourront plus être utilisées pour accéder à la partie audio d’une réunion Skype entreprise. 
 
@@ -94,7 +95,7 @@ Notez que le 31 juillet 2021, les réunions existantes des utilisateurs ne seron
 
 - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande Remove-CsUserAcp. Pour plus d’informations, consultez la rubrique [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec un fournisseur de services d’audioconférence tiers, voir la section «Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur?». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec un fournisseur de services d’audioconférence tiers, voir la section « Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur ? ». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
 **Résumé :**
 
@@ -108,9 +109,9 @@ Notez que le 31 juillet 2021, les réunions existantes des utilisateurs ne seron
 
     - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
 
-    - Pour reprogrammer automatiquement les réunions, reportez-vous à la section «Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur?». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+    - Pour reprogrammer automatiquement les réunions, reportez-vous à la section « Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur ? ». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
 
-### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Chemin #3: arrêter l’utilisation de conférences rendez-vous
+### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Chemin #3 : arrêter l’utilisation de conférences rendez-vous
 
 Les organisations qui décident d’arrêter d’utiliser la fonction de conférence rendez-vous (non fournies par Microsoft ou par un fournisseur de services d’audioconférence tiers) peuvent compter entièrement sur le protocole VoIP pour soutenir la partie audio d’une réunion Skype entreprise. 
 
@@ -118,7 +119,7 @@ Ces organisations doivent empêcher leurs utilisateurs d’utiliser un fournisse
 
 - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande Remove-CsUserAcp. Pour plus d’informations, consultez la rubrique [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec un fournisseur de services d’audioconférence tiers, voir la section «Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur?». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec un fournisseur de services d’audioconférence tiers, voir la section « Comment puis-je exécuter manuellement une migration de réunion pour un utilisateur ? ». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
 **Résumé :** 
 
@@ -126,4 +127,4 @@ Ces organisations doivent empêcher leurs utilisateurs d’utiliser un fournisse
 
 - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande Remove-CsUserAcp. Pour plus d’informations, consultez la rubrique [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec des fournisseurs de services d’audioconférence tiers, voir «comment puis-je exécuter manuellement une migration de réunion pour un utilisateur?». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+- Pour reprogrammer automatiquement les réunions des utilisateurs après la désactivation de l’intégration avec des fournisseurs de services d’audioconférence tiers, voir « comment puis-je exécuter manuellement une migration de réunion pour un utilisateur ? ». lors de [la configuration du service de migration de réunion (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).

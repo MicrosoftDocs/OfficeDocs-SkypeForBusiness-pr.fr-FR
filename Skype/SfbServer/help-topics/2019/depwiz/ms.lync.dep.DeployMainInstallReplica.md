@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer l’installation d’un nouveau serveur de rôles Skype entreprise Server, vous devez d’abord installer le serveur SQL Server local qui hébergera le magasin de configuration local. Le magasin de configuration local fera office de réplica en lecture seule du magasin de gestion centralisé de Skype entreprise Server (CMS).
-ms.openlocfilehash: 699294889008f0d353e1ba727cbc078f9616f4ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51343bc68415d5c3a9b99b0697285f2e5c30d557
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303403"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705451"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
 
@@ -26,7 +26,7 @@ Pour commencer l’installation d’un nouveau serveur de rôles Skype entrepris
 
 Pour commencer l’installation :
 
-1. Dans la page Skype entreprise Server, en regard de la page **étape suivante: installer le magasin de configuration local**, cliquez sur **exécuter**.
+1. Dans la page Skype entreprise Server, en regard de la page **étape suivante : installer le magasin de configuration local**, cliquez sur **exécuter**.
 
 2. Dans la page **Configuration du serveur local** assurez-vous que l’option **Récupérer automatiquement la configuration à partir du magasin central de gestion** est sélectionnée, puis cliquez sur **Suivant**.
 

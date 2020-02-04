@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Belgique pour Microsoft Teams.
-ms.openlocfilehash: cd8db5b009464c60997f8dff81644dfe69d81609
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e1f3085258da2e0e2102ada6b09141fa1d58349f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570599"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707089"
 ---
 # <a name="phone-number-management-for-belgium"></a>Gestion des numéros de téléphone pour la Belgique
 

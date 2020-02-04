@@ -14,20 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299581"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706139"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licences utilisateur bloquées pour l’hébergement d’une diffusion de réunion Skype
 
-Malheureusement, il existe certaines licences utilisateur bloquées lorsque les utilisateurs accèdent à https://broadcast.skype.com une diffusion de réunion Skype. Si un utilisateur voit ce message, c'est que l'une des licences bloquées lui est attribuée. SI vous souhaitez cependant qu'il puisse utiliser la diffusion de réunion, vous devez lui attribuer une autre licence Office 365.
+Malheureusement, il existe certaines licences utilisateur bloquées lorsque les utilisateurs accèdent à https://broadcast.skype.com une diffusion de réunion Skype. Si un utilisateur voit ce message, l’une des licences bloquées leur est affectée. Si vous souhaitez que les personnes le fassent, affectez-leur une autre licence Office 365.
   
  *« La politique de votre société ne vous permet d’utiliser la diffusion de réunion Skype. Renseignez-vous auprès de votre administrateur système pour vous assurer que le service est activé et que vous disposez de la licence correcte. »* 
   
@@ -58,7 +59,7 @@ L’hébergement d’événements de la diffusion de réunion Skype est bloqué 
 - Avantages d’utiliser Microsoft 365 A1 étudiant
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

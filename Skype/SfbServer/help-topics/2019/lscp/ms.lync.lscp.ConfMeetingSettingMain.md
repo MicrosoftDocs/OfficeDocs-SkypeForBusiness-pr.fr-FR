@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les paramètres de configuration de réunion définissent le type de conférences (également calledmeetings) que les utilisateurs peuvent créer et contrôlent la façon dont les utilisateurs anonymes et les conférences rendez-vous peuvent participer à ces conférences. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
-ms.openlocfilehash: ecd2d0ffb04bc4a1e783996270af91914620e6be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15dfed475928fe56b42e7a47522c911256b0f033
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300230"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705009"
 ---
 # <a name="meeting-configuration"></a>Configuration de la réunion
 
@@ -26,11 +26,11 @@ Les paramètres de configuration de réunion définissent le type de conférence
 
 Les configurations de réunion s’appliquent au niveau du site, au niveau du pool ou au niveau global :
 
-- **Configuration globale de la réunion:** La configuration globale de la réunion est créée par défaut. Vous pouvez modifier la configuration globale de la réunion, mais vous ne pouvez pas la supprimer. Si vous tentez de supprimer la configuration globale de la réunion, tous les paramètres sont réinitialisés aux valeurs par défaut.
+- **Configuration globale de la réunion :** La configuration globale de la réunion est créée par défaut. Vous pouvez modifier la configuration globale de la réunion, mais vous ne pouvez pas la supprimer. Si vous tentez de supprimer la configuration globale de la réunion, tous les paramètres sont réinitialisés aux valeurs par défaut.
 
-- **Configuration de la réunion site (facultatif):** Vous pouvez créer une ou plusieurs configurations de réunion de site, qui s’appliquent à un site spécifique. Les configurations de site remplacent la configuration globale.
+- **Configuration de la réunion site (facultatif) :** Vous pouvez créer une ou plusieurs configurations de réunion de site, qui s’appliquent à un site spécifique. Les configurations de site remplacent la configuration globale.
 
-- **Configuration d’une réunion en pool (facultatif):** Vous pouvez créer une ou plusieurs configurations de réunion de réserve qui s’appliquent à un pool spécifique. Les configurations de pool remplacent la configuration globale et les configurations de site.
+- **Configuration d’une réunion en pool (facultatif) :** Vous pouvez créer une ou plusieurs configurations de réunion de réserve qui s’appliquent à un pool spécifique. Les configurations de pool remplacent la configuration globale et les configurations de site.
 
 La page **Configuration de la réunion** affiche la liste de toutes les configurations de réunion définies pour votre organisation.
 
@@ -61,7 +61,7 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Identifie la configuration de la réunion.
 
-- **Scope** Identifie l’étendue de la configuration de la réunion: global, site ou pool.
+- **Scope** Identifie l’étendue de la configuration de la réunion : global, site ou pool.
 
 Pour plus d’informations sur l’utilisation des configurations de réunion, reportez-vous à la rubrique [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) de la documentation des opérations.
 

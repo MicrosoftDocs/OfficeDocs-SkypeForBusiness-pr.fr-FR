@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une configuration d’appareil est une collection de paramètres utilisée pour gérer les appareils Skype entreprise Phone Edition, qu’il s’agisse d’un site global ou d’un site. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 7a4e956e1831b8ac7fb34b6574af996484f04faf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05cd530c86453a71583137dc1029f6ed4ad56da8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300349"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705059"
 ---
 # <a name="device-configuration"></a>Configuration du périphérique
  
@@ -36,13 +36,13 @@ Dans la page **Configuration de l’appareil**, vous pouvez effectuer les tâche
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
   
-- **Nouvelle** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante:
+- **Nouvelle** Vous pouvez ajouter une nouvelle configuration de périphérique avec l’étendue suivante :
     
   - Globale
     
   - Site
     
-- **Modifier** Vous pouvez modifier les options de configuration d’un périphérique dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de configuration d’un périphérique dans la liste. Cette option vous permet d’effectuer les opérations suivantes :
     
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration d’un appareil.
     

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des appareils. Dans le cadre de la stratégie de gestion des données de votre organisation, vous souhaiterez peut-être définir des seuils pour la taille du cache des données journal, la taille du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, au besoin. Les paramètres des journaux peuvent être modifiés au niveau global ou par site.
-ms.openlocfilehash: 7c4f532af6e74f8ef13b3b2de17017b66afc0b59
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d726b1daa8dece14d645501130c988690b30cd17
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300471"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705179"
 ---
 # <a name="device-log-configuration"></a>Configuration du fichier journal du périphérique
 
@@ -42,13 +42,13 @@ Dans la page **Configuration du fichier journal de l'appareil**, vous pouvez eff
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouvelle** Vous pouvez ajouter une nouvelle configuration du journal d’appareils avec l’étendue suivante:
+- **Nouvelle** Vous pouvez ajouter une nouvelle configuration du journal d’appareils avec l’étendue suivante :
 
   - Globale
 
   - Site
 
-- **Modifier** Vous pouvez modifier les options de configuration du journal des appareils dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de configuration du journal des appareils dans la liste. Cette option vous permet d’effectuer les opérations suivantes :
 
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration du journal du périphérique.
 

@@ -12,19 +12,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
 - M365-collaboration
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
-ms.translationtype: HT
+ms.openlocfilehash: 6d5e4d4235eceda3821a34a039625730d11d9fff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069455"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707299"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 

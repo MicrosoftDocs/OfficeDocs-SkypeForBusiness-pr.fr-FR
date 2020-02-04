@@ -15,14 +15,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573788"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708490"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -173,6 +173,6 @@ Pour l’instant, les utilisateurs peuvent modifier l’ordre de leurs applicati
 
 Veillez à suivre les recommandations relatives au logo avant de procéder à la soumission de l’application. Pour en savoir plus, voir [liste de contrôle pour la soumission du tableau de bord du vendeur](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Rubriques connexes
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Publier une application dans le catalogue d’applications client à partir du client teams](tenant-apps-catalog-teams.md)

@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Ateliers en direct et interactifs conçus pour vous aider à utiliser Microsoft teams en seulement 30 jours.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570211"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708450"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -70,7 +70,7 @@ ms.locfileid: "37570211"
                     </div>
                     <div class="cardText">
                     <h3>Préparer votre environnement-Partie I</h3>
-                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p>Public : administrateurs informatiques</p>
+                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p>Public : administrateurs informatiques</p>
 </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "37570211"
                     </div>
                     <div class="cardText">
                         <h3>Préparer votre environnement-Partie 2</h3>
-                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p>Public : administrateurs informatiques</p>
+                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p>Public : administrateurs informatiques</p>
                     </div>
                 </div>
             </div>

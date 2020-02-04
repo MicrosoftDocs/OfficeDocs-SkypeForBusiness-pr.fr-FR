@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494168"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706509"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
@@ -99,7 +99,7 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [configurer v
 |**Nom du fournisseur** <br/> |Dans la liste, choisissez votre fournisseur.  <br/> |
 |**Numéro payant** (obligatoire) <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettez en forme les numéros comme vous voulez qu’ils apparaissent dans les demandes de réunion Skype entreprise et Microsoft Teams.  <br/> |
 |**Numéro gratuit** <br/> |Pour un fournisseur de services d’audioconférence tiers, ces numéros de téléphone sont ceux que vous avez reçus du fournisseur de services d’audioconférence. Si l’utilisateur utilise Microsoft en tant que fournisseur d’audioconférence, ce seront des numéros définis sur le pont d’audioconférence. Mettez en forme les numéros comme vous voulez qu’ils apparaissent dans les demandes de réunion Skype entreprise et Microsoft Teams.  <br/> |
-|**ID de conférence et code confidentiel** obligé <br/> |Code confidentiel du participant, ou code de conférence, utilisé pour participer aux réunions planifiées par cet utilisateur et fourni par un fournisseur de services d’audioconférence tiers. Si l’utilisateur utilise Microsoft en tant que fournisseur de services d’audioconférence, ce n’est pas obligatoire.  <br/> |
+|**ID de conférence et code confidentiel** (obligatoire) <br/> |Code confidentiel du participant, ou code de conférence, utilisé pour participer aux réunions planifiées par cet utilisateur et fourni par un fournisseur de services d’audioconférence tiers. Si l’utilisateur utilise Microsoft en tant que fournisseur de services d’audioconférence, ce n’est pas obligatoire.  <br/> |
    
 Pour configurer ces paramètres en bloc, utilisez PowerShell. Reportez-vous [à la rubrique définition des numéros de téléphone inclus dans les invitations](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
@@ -107,7 +107,7 @@ Pour configurer ces paramètres en bloc, utilisez PowerShell. Reportez-vous [à 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>Voir aussi 
+## <a name="related-topics"></a>Rubriques connexes 
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 

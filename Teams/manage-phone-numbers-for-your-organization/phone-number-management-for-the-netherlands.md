@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
-ms.openlocfilehash: 74801ef2f6f5202679a064b1a63528d81c56869e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 77e6748873d921a2e25fb10a73010da4dfdc6fc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573117"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706959"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gestion des numéros de téléphone pour les Pays-Bas
 

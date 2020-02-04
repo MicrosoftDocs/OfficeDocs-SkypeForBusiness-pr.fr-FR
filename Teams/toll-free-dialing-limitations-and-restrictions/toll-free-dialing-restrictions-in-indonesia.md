@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: ef43e1e818f7d57190d493344118d9f914a52485
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 477de4dbd3d72a664ce529d2916a3028a075b856
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573183"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707619"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Restrictions de numérotation gratuit en Indonésie
 
@@ -45,7 +46,7 @@ ms.locfileid: "37573183"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCD XXXX est accessible à partir du réseau PT Telkom, notamment Telkomsel et XL mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour les appareils mobiles : matrice cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

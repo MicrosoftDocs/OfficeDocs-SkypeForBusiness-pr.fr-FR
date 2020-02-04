@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 66c16b5b8afc7f040639f3f6f0450bffe129fe9a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b4fa22ef2e396233b0be3b2d6aec71a336531b7e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572965"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707962"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>Restrictions de numérotation gratuit Chypre
 
@@ -45,7 +46,7 @@ ms.locfileid: "37572965"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Accès mobile : Aucun temps d'accès facturé.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
