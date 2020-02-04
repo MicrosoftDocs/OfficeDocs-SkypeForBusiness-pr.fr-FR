@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: contrôle d’admission des appels pour les sites'
+title: 'Lync Server 2013 : contrôle d’admission des appels pour les sites'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control for sites
 ms:assetid: 5607b3f3-128b-44c7-a043-c0834e39e697
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccdba0497afe933fa681b73136f9e34e6c40bbf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4609a3db5b81b4a6cbf134fc2347e4fc459c58c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838715"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838715"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Les sites réseau sont les bureaux ou les emplacements dans chaque région du réseau de déploiement d’admission des appels (CAC), de E9-1-1 et de contournement de média. Suivez les procédures décrites dans cette section pour configurer le contrôle d’admission des appels pour les sites réseau.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affichage d’informations sur les paramètres de notifications de transmission'
+title: 'Lync Server 2013 : affichage d’informations sur les paramètres de notifications de transmission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing information about push notification settings
 ms:assetid: be5c6b01-4294-4d17-9772-fed40201e8a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721868(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da9279d09ab3b344514a472f3fb0f38e7071aabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846275"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846275"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les notifications de transmission sous forme de badges, d’icônes ou d’alertes peuvent être envoyées à un appareil mobile même lorsque l’application mobile n’est pas active. Les notifications de transmission avertissent un utilisateur d’événements tels qu’une invitation à la messagerie instantanée, une invitation à une nouvelle ou une messagerie vocale. Vous pouvez afficher les paramètres de notifications de transmission des informations pour les appareils mobiles à l’aide de Lync Server 2013 Control Panel ou de Lync Server 2013 Management Shell.
 
@@ -45,9 +47,9 @@ Les notifications de transmission sous forme de badges, d’icônes ou d’alert
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de notifications de **transmission** .
+3.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation **configuration de notifications de transmission** .
 
-4.  Dans la page Configuration de notifications de **transmission** , cliquez sur le site que vous souhaitez afficher, cliquez sur le menu **modifier** , puis cliquez sur **afficher les détails**.
+4.  Dans la page **configuration de notifications de transmission** , cliquez sur le site que vous souhaitez afficher, cliquez sur le menu **modifier** , puis cliquez sur Afficher les **Détails**.
 
 </div>
 
@@ -55,13 +57,13 @@ Les notifications de transmission sous forme de badges, d’icônes ou d’alert
 
 ## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de notifications de transmission à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez afficher les paramètres de configuration de la notification de transmission à l’aide de Windows PowerShell et de l’applet **de cmdlet Get-CsPushNotificationConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez afficher les paramètres de configuration de la notification de transmission à l’aide de Windows PowerShell et de l’applet **de cmdlet Get-CsPushNotificationConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-push-notification-configuration-information"></a>Pour afficher les informations de configuration des notifications de transmission
 
-  - Pour afficher des informations sur les paramètres de configuration de votre notification d’émission, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur les paramètres de configuration de votre notification d’émission, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsPushNotificationConfiguration
     

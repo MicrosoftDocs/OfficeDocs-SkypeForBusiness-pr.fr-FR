@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: appareils pris en charge'
+title: 'Lync Server 2013 : appareils pris en charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported devices
 ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7247d295a7807bf2a1f6970412384ce6006a2b89
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a1ed13a53bdf31c4bee0daaa7489809fd4e6f05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846727"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-08_
+_**Dernière modification de la rubrique :** 2012-10-08_
 
 Lync Server prend en charge tous les téléphones indiqués dans le tableau suivant. Notez que tous les téléphones compatibles ne peuvent pas exécuter Lync Phone Edition (certains ne peuvent exécuter que des versions antérieures). Utilisez le tableau pour savoir quels téléphones peuvent exécuter Lync Phone Edition et où obtenir des informations détaillées sur tous les téléphones pris en charge.
 
@@ -41,13 +43,13 @@ Lync Server prend en charge tous les téléphones indiqués dans le tableau suiv
 
 
 > [!NOTE]  
-> Trois types de téléphones sont pris en charge: les téléphones de bureau (ou les appareils USB combinés qui sont destinés à être utilisés par des employés au bureau), les appareils de conférence (par adresse IP ou de téléphone USB mains libres qui sont destinés à être utilisés dans les salles de réunion) et les téléphones portables courants (téléphones IP qui ils sont conçus pour être utilisés dans des zones partagées (par exemple, des couloirs, des salles de cuisine, des étages de fabrique et des espaces de travail partagés), et peuvent être personnalisés pour proposer différents jeux de fonctionnalités de Lync Phone Edition.
+> Trois types de téléphones sont pris en charge : les téléphones de bureau (ou les appareils USB combinés qui sont destinés à être utilisés par des employés au bureau), les appareils de conférence (par adresse IP ou de téléphone USB mains libres qui sont destinés à être utilisés dans les salles de réunion) et les téléphones portables courants (téléphones IP qui ils sont conçus pour être utilisés dans des zones partagées (par exemple, des couloirs, des salles de cuisine, des étages de fabrique et des espaces de travail partagés), et peuvent être personnalisés pour proposer différents jeux de fonctionnalités de Lync Phone Edition.
 
 
 
 </div>
 
-Pour obtenir des informations détaillées sur tous les périphériques optimisés pour fonctionner avec Lync, voir «téléphones et périphériques qualifiés pour Microsoft Lync» <http://go.microsoft.com/fwlink/p/?linkid=208938>à l’adresse. Les tableaux de comparaison de téléphone sur ce site Web incluent des informations de tarification et des spécifications techniques.
+Pour obtenir des informations détaillées sur tous les périphériques optimisés pour fonctionner avec Lync, voir « téléphones et périphériques qualifiés pour Microsoft Lync » <http://go.microsoft.com/fwlink/p/?linkid=208938>à l’adresse. Les tableaux de comparaison de téléphone sur ce site Web incluent des informations de tarification et des spécifications techniques.
 
 
 <table>

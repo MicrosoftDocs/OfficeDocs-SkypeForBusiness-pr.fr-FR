@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Préparation du schéma Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the Active Directory schema
 ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823958"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-08-27_
+_**Dernière modification de la rubrique :** 2012-08-27_
 
-Avant de commencer à préparer les services de domaine Active Directory, vous pouvez ouvrir les fichiers de schéma à l’aide d’un éditeur de texte, tel que le bloc-notes Windows, ou voir [extensions de schéma Active Directory, classes et attributs utilisés par Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) pour passer en revue toutes les opérations actives. Extensions de schéma de services de domaine Active Directory qui seront modifiées pour Lync Server 2013. Lync Server utilise quatre fichiers de schéma:
+Avant de commencer à préparer les services de domaine Active Directory, vous pouvez ouvrir les fichiers de schéma à l’aide d’un éditeur de texte, tel que le bloc-notes Windows, ou voir [extensions de schéma Active Directory, classes et attributs utilisés par Lync server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) pour consulter toutes les extensions de schéma des services de domaine Active Directory qui seront modifiées pour lync Server 2013. Lync Server utilise quatre fichiers de schéma :
 
   - ExternalSchema. ldf, utilisé à des fins d’interopérabilité avec Microsoft Exchange Server
 
@@ -67,7 +69,7 @@ L’éditeur d’interfaces de service Active Directory (ADSI Edit) est un outil
 
 ADSI Edit est installé par défaut lorsque vous installez le rôle AD DS pour définir un serveur comme contrôleur de domaine. Pour Windows Server 2008 et Windows Server 2008 R2, ADSI Edit (adsied. msc) est inclus dans les outils d’administration de serveur distant. Vous pouvez également installer le RSAT sur les serveurs de membres de domaine ou les serveurs autonomes. Le package RSAT est copié sur ces serveurs par défaut lors de l’installation de Windows, mais il n’est pas installé par défaut. Vous installez des outils individuels à l’aide du gestionnaire de serveur. La modification ADSI est incluse dans **Outils d’administration de rôles**, outils de services de **domaine Active Directory**, **outils de contrôleur de domaine Active Directory**.
 
-Pour Windows Server 2003, l’édition ADSI est incluse dans les outils de support. Les outils de support sont disponibles sur le CD Windows Server 2003 dans \\le\\dossier Outils de support, ou vous pouvez les télécharger à partir des outils de support technique de Windows server 2003 Service [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit. Pour obtenir des instructions sur l’installation des outils d’assistance technique sur le CD du produit, voir la [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)section «installer les outils de support Windows» à l’adresse. Adsied. dll est enregistré automatiquement lorsque vous installez les outils de support. Toutefois, si vous avez copié les fichiers sur votre ordinateur, vous devez exécuter la commande **regsvr32** pour inscrire le fichier adsied. dll avant de pouvoir exécuter l’outil.
+Pour Windows Server 2003, l’édition ADSI est incluse dans les outils de support. Les outils de support sont disponibles sur le CD Windows Server 2003 dans \\le\\dossier Outils de support, ou vous pouvez les télécharger à partir des outils de support technique de Windows server 2003 Service [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit. Pour obtenir des instructions sur l’installation des outils d’assistance technique sur le CD du produit, voir la [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)section « installer les outils de support Windows » à l’adresse. Adsied. dll est enregistré automatiquement lorsque vous installez les outils de support. Toutefois, si vous avez copié les fichiers sur votre ordinateur, vous devez exécuter la commande **regsvr32** pour inscrire le fichier adsied. dll avant de pouvoir exécuter l’outil.
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation de l’authentification à deux facteurs avec le client Lync'
+title: 'Lync Server 2013 : utilisation de l’authentification à deux facteurs avec le client Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5af9e9b5268fd218bfe5856473124514cfe34945
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 25b5d3305c5d9825342c0293325c9afca96c5a97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846350"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846350"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-11_
+_**Dernière modification de la rubrique :** 2013-07-11_
 
 Cette rubrique vous explique comment tirer parti de l’authentification à deux facteurs avec le client 2013 Lync.
 
@@ -86,7 +88,7 @@ Lorsque vous avez terminé d’utiliser Lync, vous pouvez fermer l’affichage, 
 <td><p>Fermer</p></td>
 <td><p>Ferme votre affichage Lync tout en permettant à la session Lync identifiée avec votre ID d’utilisateur de continuer à s’exécuter. Cela vous permet de continuer à recevoir des notifications et à interagir avec d’autres personnes.</p>
 <p>Vous pouvez obtenir l’affichage à tout moment en cliquant sur l’icône Lync dans la barre des tâches ou dans la zone de notification située en bas de votre écran.</p></td>
-<td><p>Dans la fenêtre principale de Lync, effectuez l’une des opérations suivantes:</p>
+<td><p>Dans la fenêtre principale de Lync, effectuez l’une des opérations suivantes :</p>
 <ol>
 <li><p>Sélectionnez le <strong>bouton Options</strong> , puis cliquez sur <strong>Fermer</strong>le <strong>fichier</strong> &gt; .</p></li>
 <li><p>Cliquez sur le bouton <strong>Fermer</strong> (X) dans le coin supérieur droit de la fenêtre.</p></li>
@@ -102,7 +104,7 @@ Lorsque vous avez terminé d’utiliser Lync, vous pouvez fermer l’affichage, 
 
 
 </div></td>
-<td><p>Dans la fenêtre principale de Lync, cliquez sur le bouton <strong>options</strong> , <strong></strong> &gt; puis sélectionnez <strong>se déconnecter</strong>.</p></td>
+<td><p>Dans la fenêtre principale de Lync, cliquez sur le bouton <strong>options</strong> , <strong>puis sélectionnez</strong> &gt; <strong>se déconnecter</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Quitter</p></td>
@@ -119,7 +121,7 @@ Lorsque vous avez terminé d’utiliser Lync, vous pouvez fermer l’affichage, 
 
 ## <a name="sign-in-to-lync-with-a-smart-card"></a>Se connecter à Lync avec une carte à puce
 
-Certaines organisations utilisent désormais une procédure de connexion à plusieurs étapes, appelée authentification à deux facteurs, pour renforcer la sécurité de leurs utilisateurs Lync 2013. Si vous utilisez cette option, vous avez besoin d’une carte à puce pour vous connecter à Lync. Les cartes à puce sont disponibles dans deux variétés, physiques et virtuelles:
+Certaines organisations utilisent désormais une procédure de connexion à plusieurs étapes, appelée authentification à deux facteurs, pour renforcer la sécurité de leurs utilisateurs Lync 2013. Si vous utilisez cette option, vous avez besoin d’une carte à puce pour vous connecter à Lync. Les cartes à puce sont disponibles dans deux variétés, physiques et virtuelles :
 
   - **Physiques**   concernant la taille d’une carte de crédit. Vous l’insérez dans un lecteur de carte à puce lorsque vous vous connectez.
 
@@ -129,7 +131,7 @@ Certaines organisations utilisent désormais une procédure de connexion à plus
 
 ## <a name="enroll-your-smart-card"></a>Inscription de votre carte à puce
 
-Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-ci doit être «inscrite»; autrement dit, vos informations d’identification d’utilisateur doivent être identifiées sur la carte. C’est le cas, qu’il s’agisse d’une carte physique ou virtuelle. Ce processus a pu être déjà exécuté par votre administrateur de serveur Lync. Si vous ne savez pas si vous avez terminé, contactez-les.
+Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-ci doit être « inscrite »; autrement dit, vos informations d’identification d’utilisateur doivent être identifiées sur la carte. C’est le cas, qu’il s’agisse d’une carte physique ou virtuelle. Ce processus a pu être déjà exécuté par votre administrateur de serveur Lync. Si vous ne savez pas si vous avez terminé, contactez-les.
 
 <div>
 
@@ -147,7 +149,7 @@ Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-c
 
 2.  À l’aide d’Internet Explorer, accédez à la page d’inscription web de l’autorité de certification de votre organisation.
     
-    Si ce n’est déjà fait, demandez à votre administrateur de serveur Lync l’adresse Web de cette ressource. L’URL ressemble à ceci: https://MyCA.\[nom\]. com/certsrv.
+    Si ce n’est déjà fait, demandez à votre administrateur de serveur Lync l’adresse Web de cette ressource. L’URL ressemble à ceci : https://MyCA.\[nom\]. com/certsrv.
     
     <div>
     

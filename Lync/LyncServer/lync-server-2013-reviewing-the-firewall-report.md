@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: examen du rapport de pare-feu'
+title: 'Lync Server 2013 : examen du rapport de pare-feu'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Firewall Report
 ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 995f35221e03086dc2777c1e02702fced17bbcdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822425"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34822425"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Lync Server 2013 est doté d’un ensemble de règles de pare-feu potentiellement complexes. L’outil de planification réduit cette complexité en générant un rapport qui définit en détail toutes les exigences de pare-feu, en fonction du critère d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
 
 En termes de gestion du pare-feu, le rapport doit être lu attentivement afin de s’assurer qu’il n’y a aucun conflit avec des règles de pare-feu existantes et que toutes les stratégies et procédures sont respectées.
 
-![Rapport d’administration de pare-feu] (images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administration de pare-feu")
+![Rapport d’administration de pare-feu](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administration de pare-feu")
 
 <div>
 

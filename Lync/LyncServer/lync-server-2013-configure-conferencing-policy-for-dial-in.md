@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de la stratégie de conférence rendez-
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure conferencing policy for dial-in
 ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398810(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74621fee97a1e6721f8772b265761b62b1b9f266
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 107c5fcf4b341c652cd4044fe47f4b650cf5adb4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838406"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838406"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-21_
+_**Dernière modification de la rubrique :** 2014-03-21_
 
 Une stratégie de conférence est un paramètre de compte d’utilisateur qui spécifie les modalités de la conférence pour les participants. Vous pouvez créer des stratégies de conférence avec une étendue de site ou d’utilisateur. Les paramètres de stratégie de conférence englobent de nombreux aspects de la planification de la conférence et de la participation. Plusieurs paramètres de stratégies de conférence prennent en charge la conférence rendez-vous pour les participants. Lorsque vous configurez une conférence rendez-vous, vous devez vérifier que ces champs sont correctement définis pour votre organisation, et vous devez les modifier uniquement en cas de nécessité.
 
-Vérifiez les champs suivants dans votre stratégie de conférence:
+Vérifiez les champs suivants dans votre stratégie de conférence :
 
   - **Permettre aux participants d’inviter des utilisateurs**   anonymes ce paramètre permet aux organisateurs de la réunion d’inviter des participants anonymes (non authentifiés) aux réunions. Ce paramètre est facultatif pour les conférences rendez-vous. Ce paramètre est sélectionné par défaut dans la stratégie de conférence globale par défaut.
 

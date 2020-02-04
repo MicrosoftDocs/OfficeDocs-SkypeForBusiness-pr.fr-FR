@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modèles utilisateur'
+title: 'Lync Server 2013 : modèles utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 user models
 ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846455"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 Les modèles d’utilisateur décrits ici fournissent la base des mesures de planification de capacité et des recommandations décrites dans [planification de la capacité de Lync Server 2013 à l’aide des modèles utilisateur](lync-server-2013-capacity-planning-using-the-user-models.md).
 
@@ -101,16 +103,16 @@ Le tableau suivant décrit le modèle utilisateur d’inscription, de contacts, 
 <p>La moyenne est de 80 contacts pour les utilisateurs d’un nuage public. Parmi ces utilisateurs :</p>
 <ul>
 <li><p>50 % des contacts font partie de l’entreprise. 10 % de ces utilisateurs sont des utilisateurs distants, qui se connectent en dehors du pare-feu.</p></li>
-<li><p>40% des contacts sont des utilisateurs du cloud public (par exemple, les utilisateurs d’AOL, de Yahoo!, de MSN ou de Google Talk).</p></li>
+<li><p>40% des contacts sont des utilisateurs du cloud public (par exemple, les utilisateurs d’AOL, de Yahoo !, de MSN ou de Google Talk).</p></li>
 <li><p>10 % des contacts sont des partenaires fédérés.</p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
@@ -151,7 +153,7 @@ Le tableau suivant décrit le modèle utilisateur d’inscription, de contacts, 
 <td><p>Sessions de messagerie instantanée P2P</p></td>
 <td><p>En moyenne, chaque utilisateur ouvre six sessions de messagerie instantanée P2P par jour.</p>
 <p>10 messages instantanés par session.</p>
-<p>Chaque message est associé à deux messages de type SIP et à 2 SIP 200 OK (pour les indicateurs d’État tels que&lt;«&gt; nom est en train d’écrire»)</p></td>
+<p>Chaque message est associé à deux messages de type SIP et à 2 SIP 200 OK (pour les indicateurs d’État tels que&lt;«&gt; nom est en train d’écrire »)</p></td>
 </tr>
 <tr class="even">
 <td><p>Interrogation de présence</p></td>
@@ -449,7 +451,7 @@ Le pic de charge des conférences suppose que 75 % de toutes les conférences d
 
 ## <a name="enterprise-voice-to-pstn-calls"></a>Appels voix entreprise vers RTC
 
-Les affirmations suivantes s’appliquent aux appels vocaux d’entreprise:
+Les affirmations suivantes s’appliquent aux appels vocaux d’entreprise :
 
   - 50% des utilisateurs sont activés pour voix entreprise et 60% de ces utilisateurs sont activés pour la fonction d’appel RTC.
 

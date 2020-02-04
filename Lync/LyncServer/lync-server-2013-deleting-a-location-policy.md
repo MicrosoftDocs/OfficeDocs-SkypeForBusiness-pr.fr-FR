@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: suppression d’une stratégie d’emplacement'
+title: 'Lync Server 2013 : suppression d’une stratégie d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a location policy
 ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4766d2b05cef89ab29b9c303c5ba1ec456843669
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ea7f585e42164c8387853c7525cd0478eeb4db4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831590"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831590"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
 Dans Lync Server 2013, vous pouvez utiliser la stratégie d’emplacement pour appliquer les paramètres relatifs à la fonctionnalité améliorée 9-1-1 (E9-1-1) et aux paramètres d’emplacement des utilisateurs ou des contacts. La stratégie d’emplacement détermine si un utilisateur est activé pour E9-1-1 et, si oui, le comportement d’un appel d’urgence. Par exemple, vous pouvez utiliser la stratégie d’emplacement pour définir le numéro constituant un appel d’urgence (par exemple, 911 aux États-Unis), si la sécurité d’entreprise doit être automatiquement notifiée et la manière dont l’appel doit être routé.
 
@@ -55,7 +57,7 @@ Vous pouvez configurer des stratégies d’emplacement à partir du groupe de **
     
 
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs stratégies tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les stratégies dans le <STRONG></STRONG> menu <STRONG>Edition</STRONG> .
+    > Vous pouvez supprimer plusieurs stratégies d’emplacement à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs stratégies tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les <STRONG>stratégies dans le</STRONG> menu <STRONG>Edition</STRONG> .
 
     
     </div>

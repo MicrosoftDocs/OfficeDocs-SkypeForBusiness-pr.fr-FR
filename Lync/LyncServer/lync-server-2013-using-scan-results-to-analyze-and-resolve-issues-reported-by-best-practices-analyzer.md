@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation des résultats d’analyse pour analyser et résoudre les problèmes signalés par les meilleurs analyseurs'
+title: 'Lync Server 2013 : utilisation des résultats d’analyse pour analyser et résoudre les problèmes signalés par les meilleurs analyseurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using scan results to analyze and resolve issues reported by Best Practices Analyzer
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591350(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2b776cda22d5570417d0de3fd2e055e9bdc4ed4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f2e7225cd79f4a89fcba1a168b9828ce6b72c8b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846360"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-14_
+_**Dernière modification de la rubrique :** 2012-06-14_
 
 Lorsque vous exécutez Lync Server 2013, recommandée par le biais de l’analyseur de meilleures pratiques dans votre environnement Lync Server 2013, l’outil utilise les résultats de l’analyse pour générer des rapports de problèmes liés à votre déploiement. Vous pouvez utiliser les rapports générés par l’analyseur de meilleures pratiques pour identifier et résoudre des problèmes spécifiques.
 

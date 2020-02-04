@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: créer ou modifier un groupe d’agents'
+title: 'Lync Server 2013 : créer ou modifier un groupe d’agents'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify an agent group
 ms:assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205370(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0a2765e9ba72501b148e61d0d38789a46b2c3bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99fed5bf80979ef807f45ce7e5ecdc8e8a16329b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831789"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831789"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-07_
+_**Dernière modification de la rubrique :** 2014-02-07_
 
 Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures ci-dessous.
 
@@ -105,7 +107,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
 
 9.  Dans **Méthode de routage**, sélectionnez la méthode de transmission des appels aux agents dans le groupe, comme suit :
     
-      - Pour vous permettre d’appeler tout d’abord l’agent qui est resté inactif le plus longtemps (a été **disponible** ou inactif dans Lync Server le plus longtemps), cliquez sur inactif le plus **longtemps**. ****
+      - Pour vous permettre d’appeler tout d’abord l’agent qui est resté inactif le plus longtemps (a été **disponible** ou **inactif** dans Lync Server le plus longtemps), cliquez sur **inactif**le plus longtemps.
     
       - Pour qu’un nouvel appel soit présenté simultanément à tous les agents disponibles, cliquez sur **Parallèle**. L’appel est envoyé au premier agent qui l’accepte.
     
@@ -162,7 +164,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Utilisez **New-CsRgsAgentGroup** pour créer un groupe d’agents. Utilisez **Set-CsRgsAgentGroup** pour modifier un groupe d’agents existant. Dans la ligne de commande, exécutez la commande suivante :
     

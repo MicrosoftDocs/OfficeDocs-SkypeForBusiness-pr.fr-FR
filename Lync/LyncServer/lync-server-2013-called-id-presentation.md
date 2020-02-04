@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: appelé présentation ID'
+title: 'Lync Server 2013 : appelé présentation ID'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Called ID presentation
 ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30bd84e60118697c94aba6c6088de68fc37d34c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8dc22438a688239618fc7a73cf3aa30ec614568d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838687"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838687"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Avec Lync Server 2010, le numéro de téléphone de la personne appelé (c’est-à-dire, le numéro de téléphone appelé) peut être converti à partir du format E. 164 vers le format de numérotation local requis par le Trunk pair (c’est-à-dire, la passerelle associée, le PBX (PBX) ou le Trunk SIP). À cet effet, vous devez définir une ou plusieurs règles de traduction pour convertir l’URI de demande avant de l’acheminer vers l’homologue de jonction.
 
@@ -47,7 +49,7 @@ Avec Lync Server 2010, le numéro de téléphone de la personne appelé (c’est
 
 </div>
 
-Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une des méthodes suivantes:
+Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une des méthodes suivantes :
 
   - Utilisez l’outil **créer une règle de traduction** pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laissez le panneau de configuration de Lync Server générer le modèle correspondant et la règle de traduction correspondants.
 
@@ -57,7 +59,7 @@ Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une d
 
 
 > [!NOTE]  
-> Pour plus d’informations sur la façon d’écrire des expressions régulières, voir «expressions <A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>régulières .NET Framework» à l’adresse.
+> Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « expressions <A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>régulières .NET Framework » à l’adresse.
 
 
 

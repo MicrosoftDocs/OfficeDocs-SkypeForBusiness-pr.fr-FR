@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets Infrastructure and Deployment'
+title: 'Lync Server 2013 : cmdlets Infrastructure and Deployment'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Infrastructure and deployment cmdlets
 ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d41545c7d128e57919c4a2bc66069e9a27b67c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831011"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831011"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
-Les applets de service d’infrastructure et de déploiement intégrées à Microsoft Lync Server 2013 peuvent être utiles lors de la configuration initiale et du déploiement du produit. après le déploiement de Lync Server, il est possible d’utiliser les cmdlets suivantes pour vérifier que les composants fonctionnent comme prévu. gérer les paramètres de réplication; et sauvegardez et restaurez la topologie, les stratégies et les paramètres de configuration de Lync Server.
+Les applets de service d’infrastructure et de déploiement intégrées à Microsoft Lync Server 2013 peuvent être utiles lors de la configuration initiale et du déploiement du produit. après le déploiement de Lync Server, il est possible d’utiliser les cmdlets suivantes pour vérifier que les composants fonctionnent comme prévu. gérer les paramètres de réplication ; et sauvegardez et restaurez la topologie, les stratégies et les paramètres de configuration de Lync Server.
 
 <div>
 
 ## <a name="infrastructure-and-deployment-cmdlets"></a>Cmdlets d’infrastructure et de déploiement
 
-Les administrateurs ont rarement besoin d’appeler directement un grand nombre de l’infrastructure et du déploiement. Cela est dû au fait que ces applets de service sont automatiquement appelés lorsque vous exécutez le programme d’installation ou le générateur de topologie. (Une exception majeure peut être l’applet de commande **Export-CsConfiguration** , qui vous permet de créer une copie de sauvegarde de la topologie, des stratégies et des paramètres de configuration de votre serveur Lync.) Néanmoins, si nécessaire, les cmdlets d’infrastructure et de déploiement peuvent également être exécutées à partir de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. La liste suivante répertorie les applets de commande en rapport avec l’infrastructure et le déploiement:
+Les administrateurs ont rarement besoin d’appeler directement un grand nombre de l’infrastructure et du déploiement. Cela est dû au fait que ces applets de service sont automatiquement appelés lorsque vous exécutez le programme d’installation ou le générateur de topologie. (Une exception majeure peut être l’applet de commande **Export-CsConfiguration** , qui vous permet de créer une copie de sauvegarde de la topologie, des stratégies et des paramètres de configuration de votre serveur Lync.) Néanmoins, si nécessaire, les cmdlets d’infrastructure et de déploiement peuvent également être exécutées à partir de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. La liste suivante répertorie les applets de commande en rapport avec l’infrastructure et le déploiement :
 
 **[Cmdlets Active Directory dans Lync Server 2013](lync-server-2013-active-directory-cmdlets.md)**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Étape 3: déployer le pool de pilotes de Lync Server 2013'
+title: 'Étape 3 : déployer le pool de pilotes de Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms:assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205367(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345fe1a110a4521fddde239681891a1491a17cca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846110"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846110"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Étape 3: déployer le pool de pilotes de Lync Server 2013
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Étape 3 : déployer le pool de pilotes de Lync Server 2013
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846110"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Cette section présente les étapes nécessaires au déploiement d’un pool de pilotes de Lync Server 2013. Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur de topologie pour définir votre topologie et les composants que vous voulez déployer, en préservant votre environnement pour le déploiement des composants Lync Server 2013 et en publiant votre conception topologique au premier plan Serveur, puis de l’installation et de la configuration du logiciel Lync Server 2013 pour les composants de votre déploiement. Lorsque vous avez terminé, votre déploiement de la liste de ressources pilotes 2010 de Lync 2013 Server
 

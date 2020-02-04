@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la prise en charge de la découverte automatique'
+title: 'Lync Server 2013 : configuration de la prise en charge de la découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for Autodiscover
 ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8eb83156d319db96a4c6ed79768193a24e5cc3e0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 779929d270fa4ae2f8eec59a954c2273ff61b44f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838178"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838178"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-21_
+_**Dernière modification de la rubrique :** 2013-01-21_
 
 Le **service de découverte automatique** des services Web de Lync Server est d’abord apparu dans la mise à jour cumulative de lync Server 2010:2011 novembre. Cette mise à jour a été accompagnée de la version initiale des clients mobiles Lync. Le service de découverte automatique a exposé les services de mobilité, connus sous le nom de service MCX.
 

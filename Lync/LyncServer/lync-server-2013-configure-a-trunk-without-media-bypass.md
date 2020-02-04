@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer un Trunk sans dérivation multimédia'
+title: 'Lync Server 2013 : configurer un Trunk sans dérivation multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trunk without media bypass
 ms:assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425831(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6508fe88a585c22b9936e787be2ee99b8f9b7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09fe6841fa8aab5a68017f92313395dc4d8ab55c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838479"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 Pour configurer une jonction sur laquelle la déviation du trafic multimédia est désactivée, procédez comme suit. Si vous voulez configurer un Trunk avec une dérivation multimédia activée, voir [configurer une Trunk with Media bypass dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md).
 
@@ -57,9 +59,9 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
     
       - Cliquez sur **Nouvelle**, puis sélectionnez une étendue pour la nouvelle configuration de jonction :
         
-          - **Trunk de site:** Choisissez le site pour cette configuration de Trunk dans **Sélectionner un site** , puis cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour un site, ce site n’apparaît pas dans **Sélectionner un site**. Cette configuration de Trunk est appliquée à tous les Trunks du site.
+          - **Trunk de site :** Choisissez le site pour cette configuration de Trunk dans **Sélectionner un site** , puis cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour un site, ce site n’apparaît pas dans **Sélectionner un site**. Cette configuration de Trunk est appliquée à tous les Trunks du site.
         
-          - **Trunk de réserve:** Sélectionnez le nom du Trunk auquel s’applique cette configuration de Trunk dans **Sélectionner un service** , puis cliquez sur **OK**. Ce Trunk peut être le Trunk racine ou d’éventuelles liaisons supplémentaires définies dans le générateur de topologie. Notez que si une configuration de Trunk a déjà été créée pour une ligne particulière, le Trunk n’apparaît pas dans **Sélectionner un service**.
+          - **Trunk de réserve :** Sélectionnez le nom du Trunk auquel s’applique cette configuration de Trunk dans **Sélectionner un service** , puis cliquez sur **OK**. Ce Trunk peut être le Trunk racine ou d’éventuelles liaisons supplémentaires définies dans le générateur de topologie. Notez que si une configuration de Trunk a déjà été créée pour une ligne particulière, le Trunk n’apparaît pas dans **Sélectionner un service**.
     
     <div>
     
@@ -72,11 +74,11 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 
 5.  Sélectionnez l’une des options de **Niveau de prise en charge du chiffrement** :
     
-      - **Obligatoire:** Le chiffrement SRTP (Secure Real-Time Transport Protocol) doit être utilisé pour protéger le trafic entre le serveur de médiation et la passerelle ou le PBX (Private Branch Exchange).
+      - **Obligatoire :** Le chiffrement SRTP (Secure Real-Time Transport Protocol) doit être utilisé pour protéger le trafic entre le serveur de médiation et la passerelle ou le PBX (Private Branch Exchange).
     
-      - **Facultatif:** Le chiffrement SRTP est utilisé si le prestataire de services ou le fabricant du matériel le prend en charge.
+      - **Facultatif :** Le chiffrement SRTP est utilisé si le prestataire de services ou le fabricant du matériel le prend en charge.
     
-      - **Non pris en charge:** Le chiffrement SRTP n’est pas pris en charge par le fabricant du fournisseur de services ou de l’équipement et ne sera donc pas utilisé.
+      - **Non pris en charge :** Le chiffrement SRTP n’est pas pris en charge par le fabricant du fournisseur de services ou de l’équipement et ne sera donc pas utilisé.
 
 6.  Assurez-vous que la case à cocher **Activer la déviation du trafic multimédia** est désactivée.
 
@@ -178,7 +180,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
     <table>
     <thead>
     <tr class="header">
-    <th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité:</th>
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
     </tr>
     </thead>
     <tbody>
