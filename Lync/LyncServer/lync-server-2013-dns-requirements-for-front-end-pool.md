@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Enregistrements DNS requis pour le pool frontal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c033d8f1a4167e423d5663b0c9b0b7dbfb2d760
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831381"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34831381"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-07_
+_**Dernière modification de la rubrique :** 2012-11-07_
 
 Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe administrateurs de domaine ou membre du groupe DnsAdmins.
 
-Vous devez configurer les enregistrements DNS (Domain Name System) requis avant de publier votre topologie dans le générateur de topologie. De plus, certains noms de domaine complets (FQDN) utilisés dans la configuration d’un déploiement de Lync Server 2013 sont logiques et non des noms de domaine complets de serveur physique; c’est pourquoi une configuration DNS supplémentaire est requise avant la publication.
+Vous devez configurer les enregistrements DNS (Domain Name System) requis avant de publier votre topologie dans le générateur de topologie. De plus, certains noms de domaine complets (FQDN) utilisés dans la configuration d’un déploiement de Lync Server 2013 sont logiques et non des noms de domaine complets de serveur physique ; c’est pourquoi une configuration DNS supplémentaire est requise avant la publication.
 
 <div>
 
 
 > [!WARNING]  
-> Lync Server 2013 ne prend pas en charge les domaines à mention unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé «informations sur la configuration de Windows pour les domaines avec les noms DNS en une seule étiquette» <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp, kbid = 300684</A>.
+> Lync Server 2013 ne prend pas en charge les domaines à mention unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé « informations sur la configuration de Windows pour les domaines avec les noms DNS en une seule étiquette » <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp, kbid = 300684</A>.
 
 
 
@@ -53,13 +55,13 @@ Vous devez configurer les enregistrements DNS (Domain Name System) requis avant 
 
 
 > [!IMPORTANT]  
-> Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom de l’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom court qui n’est pas un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. <STRONG>Utiliser uniquement les caractères standard</STRONG> (y compris A – Z, a – z, 0 à 9 et les traits d’Union) lors de l’affectation des noms de domaine complets de vos serveurs exécutant Lync Server, serveurs Edge et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le nom de domaine complet doit être attribué à l’SN dans le certificat).
+> Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom de l’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom court qui n’est pas un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. <STRONG>Utilisez uniquement les caractères standard</STRONG> (y compris A – z, a-z, 0 à 9 et les traits d’Union) lors de l’affectation des noms de domaine complets des serveurs exécutant Lync Server, des serveurs Edge et des pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le nom de domaine complet doit être attribué à l’SN dans le certificat).
 
 
 
 </div>
 
-Avant d’activer la topologie après le déploiement de celle-ci, vérifiez que les enregistrements DNS et Active Directory suivants sont créés (à mesure que vous avez besoin de fonctionnalités spécifiques dictées):
+Avant d’activer la topologie après le déploiement de celle-ci, vérifiez que les enregistrements DNS et Active Directory suivants sont créés (à mesure que vous avez besoin de fonctionnalités spécifiques dictées) :
 
   - Chaque rôle de serveur existant dans la topologie est publié en tant qu’objet Active Directory (si vous rejoignez l’ordinateur au domaine).
 
@@ -67,7 +69,7 @@ Avant d’activer la topologie après le déploiement de celle-ci, vérifiez que
 
   - Un enregistrement SRV DNS existe pour chaque domaine SIP si vous envisagez d’utiliser l’ouverture de session automatique pour \_les\_clients sous la forme de TCP sipinternaltls. \<Domaine\>SIP. Si vous allez utiliser la configuration manuelle pour les clients, cet enregistrement n’est pas nécessaire.
 
-  - Un enregistrement DNS A pour chaque URL simple configurée qui comporte généralement quatre éléments: réunion, Dial, LWA et Scheduler. De plus, il existe une URL simple d’administration, qui est une URL spéciale pour l’accès au panneau de configuration de Lync Server 2013.
+  - Un enregistrement DNS A pour chaque URL simple configurée qui comporte généralement quatre éléments : réunion, Dial, LWA et Scheduler. De plus, il existe une URL simple d’administration, qui est une URL spéciale pour l’accès au panneau de configuration de Lync Server 2013.
 
   - Le serveur exécutant SQL Server doit être joint au domaine et joignable par l’ordinateur à partir duquel le générateur de topologie publie.
 
@@ -210,7 +212,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <tr class="odd">
 <td><p>DNS interne</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _ TCP. contoso. com</p></td>
+<td><p>_sipinternaltls. _tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Requis pour la configuration automatique des clients 2013 Lync pour fonctionner en interne.</p></td>
@@ -218,7 +220,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <tr class="even">
 <td><p>DNS interne</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _ TCP. fabrikam. com</p></td>
+<td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Requis pour la configuration automatique des clients 2013 Lync pour fonctionner en interne.</p></td>

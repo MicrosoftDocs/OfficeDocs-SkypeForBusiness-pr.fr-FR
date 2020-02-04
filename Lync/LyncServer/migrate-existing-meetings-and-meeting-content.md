@@ -3,6 +3,8 @@ title: Migration des réunions existantes et du contenu des réunions
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate existing meetings and meeting content
 ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b4f374aef66fa95d49b2330a07f9def4135328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0aa0b83e2e206421300d16faf220b3fa0bb81503
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846168"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
-Lorsqu’un compte d’utilisateur est déplacé de Lync Server 2010 vers un serveur Lync Server 2013, les informations suivantes sont déplacées à l’aide de ce compte d’utilisateur:
+Lorsqu’un compte d’utilisateur est déplacé de Lync Server 2010 vers un serveur Lync Server 2013, les informations suivantes sont déplacées à l’aide de ce compte d’utilisateur :
 
   - **Réunions déjà planifiées par l’utilisateur**. Cela inclut le déplacement des répertoires de conférences et des données de conférence.
 

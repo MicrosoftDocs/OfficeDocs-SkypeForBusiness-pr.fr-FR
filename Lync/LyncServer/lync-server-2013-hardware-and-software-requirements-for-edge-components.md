@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration matérielle et logicielle requise pour 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware and software requirements for edge components
 ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412931(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ff89566757d8e184e51854235ab4990a0b2bdeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1951d682b42cd30477b25287525b7c457c910d6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831083"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-14_
+_**Dernière modification de la rubrique :** 2013-03-14_
 
 Les configurations matérielle et logicielle requises pour les composants Edge incluent celles des composants du logiciel de communication Lync Server 2013, y compris les serveurs de périphérie et les directeurs facultatifs. Pour plus d’informations sur les composants nécessaires à la prise en charge de l’accès des utilisateurs externes et des topologies prises en charge, voir [composants requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
 

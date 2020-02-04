@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration des stratégies de démarrage de clients'
+title: 'Lync Server 2013 : configuration des stratégies de démarrage de clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06119d5488b47adfe01a934aca9a55581feaf33e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8258063645267fb12801548ddfdeae1b4ef7c795
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838288"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-La Console de gestion des stratégies de groupe et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Inclus dans le modèle d’administration de la stratégie de groupe Office sont les modèles d’administration de Lync 2013. admx (ADMX) et. adml (ADML) qui contiennent les paramètres de stratégie de Registre configurés pour les objets de stratégie de groupe du domaine. Les fichiers ADML sont des compléments spécifiques à une langue pour les fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une seule application Office. Pour plus d’informations, reportez-vous à la section «fichiers de modèles d’administration Office 2013 (ADMX <http://go.microsoft.com/fwlink/p/?linkid=267516>, ADML)» dans la documentation Office 2013 à l’adresse.
+La Console de gestion des stratégies de groupe et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Inclus dans le modèle d’administration de la stratégie de groupe Office sont les modèles d’administration de Lync 2013. admx (ADMX) et. adml (ADML) qui contiennent les paramètres de stratégie de Registre configurés pour les objets de stratégie de groupe du domaine. Les fichiers ADML sont des compléments spécifiques à une langue pour les fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une seule application Office. Pour plus d’informations, reportez-vous à la section « fichiers de modèles d’administration Office 2013 (ADMX <http://go.microsoft.com/fwlink/p/?linkid=267516>, ADML) » dans la documentation Office 2013 à l’adresse.
 
 Pour Lync 2013, il existe plusieurs stratégies de démarrage de clients que vous devez envisager de configurer avant la première connexion des utilisateurs au serveur. C’est le cas, par exemple, des serveurs par défaut et du mode de sécurité que le client doit utiliser jusqu’à ce que l’authentification soit terminée. Vous pouvez utiliser la stratégie de groupe pour établir ces paramètres dans le Registre des ordinateurs des utilisateurs avant qu’ils se connectent et commencent à recevoir des paramètres de mise en service intrabande en provenance du serveur. Le tableau suivant répertorie les paramètres de stratégie de groupe disponibles pour Lync 2013.
 
@@ -73,10 +75,10 @@ ConfigurationMode</p></td>
 <td><p>Charge automatiquement les journaux d’échecs de connexion à Lync Server pour analyse. Aucun journal n’est téléchargé automatiquement si l’authentification réussit. Si cette stratégie n’est pas configurée, voici ce qui se produit :</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Pour les utilisateurs de Lync Online: les journaux d’échecs de connexion sont automatiquement téléchargés.</p>
+<dd><p>Pour les utilisateurs de Lync Online : les journaux d’échecs de connexion sont automatiquement téléchargés.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Pour les utilisateurs Lync local: une boîte de dialogue de confirmation s’affiche à l’utilisateur avant le chargement.</p>
+<dd><p>Pour les utilisateurs Lync local : une boîte de dialogue de confirmation s’affiche à l’utilisateur avant le chargement.</p>
 </dd>
 </dl>
 <p>Lorsque ce paramètre est désactivé, les journaux de connexion sont automatiquement téléchargés sur le serveur Lync pour les utilisateurs Lync Online et Lync Online. Lorsque ce paramètre est activé, les journaux de connexion ne sont jamais téléchargés automatiquement.</p></td>
@@ -157,12 +159,12 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
 <td><p>Mise en service de Lync Server 2013 intrabande</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>deuxième</p></td>
+<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>

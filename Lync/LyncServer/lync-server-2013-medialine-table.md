@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table MediaLine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaLine table
 ms:assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4828f67614115eb4d6f46ab0a0a7c315e02d1924
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7488aa258fd30c2f9b519806dc84f9d897a08656
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827437"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827437"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-21_
+_**Dernière modification de la rubrique :** 2014-02-21_
 
 Chaque enregistrement représente une ligne multimédia. (Une session audio est généralement composée d’une seule ligne de média audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo, bien que la session puisse contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée.
 
@@ -172,7 +174,7 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 <td><p><strong>CallerNetworkConnectionType</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Externes</p></td>
-<td><p>Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la <a href="lync-server-2013-networkconnectiondetail-table.md">table NetworkConnectionDetail dans Lync Server 2013</a>. Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi; et 3 pour une connexion Ethernet.</p></td>
+<td><p>Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la <a href="lync-server-2013-networkconnectiondetail-table.md">table NetworkConnectionDetail dans Lync Server 2013</a>. Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerBssid</strong></p></td>
@@ -262,7 +264,7 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 <td><p><strong>CalleeNetworkConnectionType</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Externes</p></td>
-<td><p>Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la <a href="lync-server-2013-networkconnectiondetail-table.md">table NetworkConnectionDetail dans Lync Server 2013</a>. Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi; et 3 pour une connexion Ethernet.</p></td>
+<td><p>Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la <a href="lync-server-2013-networkconnectiondetail-table.md">table NetworkConnectionDetail dans Lync Server 2013</a>. Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeBssid</strong></p></td>
@@ -274,7 +276,7 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 <td><p><strong>CalleeVPN</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Le lien du destinataire de l’appel; 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
+<td><p>Le lien du destinataire de l’appel ; 1 est un réseau privé virtuel (VPN), 0 est non VPN.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeLinkSpeed</strong></p></td>
@@ -298,13 +300,13 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Il s’agit de la source de la bande passante qui est imposée. Il décrit l’emplacement à partir duquel la limite de bande passante provient («serveur de stratégie», «activer le serveur», «modalité», etc.). Fait référence à partir de la <a href="lync-server-2013-appliedbandwidthsource-table.md">table AppliedBandwidthSource dans Lync Server 2013</a>.</p></td>
+<td><p>Il s’agit de la source de la bande passante qui est imposée. Il décrit l’emplacement à partir duquel la limite de bande passante provient (« serveur de stratégie », « activer le serveur », « modalité », etc.). Fait référence à partir de la <a href="lync-server-2013-appliedbandwidthsource-table.md">table AppliedBandwidthSource dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Appelant</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Indique si les mesures de l’appelant ont été reçues; 1 est oui, la valeur null est non.</p></td>
+<td><p>Indique si les mesures de l’appelant ont été reçues ; 1 est oui, la valeur null est non.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Appelé</strong></p></td>

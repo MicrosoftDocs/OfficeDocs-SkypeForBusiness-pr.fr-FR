@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des serveurs proxy inverses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbc6e0aee918d08f47c6df88f91493cd62ae6a3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846832"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846832"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-08_
+_**Dernière modification de la rubrique :** 2014-05-08_
 
-Pour les déploiements Microsoft Lync Server 2013 Edge Server, un proxy HTTPs inverse dans le réseau de périmètre est requis pour que les clients externes accèdent aux services Web de Lync Server 2013 (appelés *composants Web* dans Office Communications Server) sur le directeur. et la liste de démarrage de l’utilisateur. Certaines des fonctionnalités qui nécessitent un accès externe via un proxy inverse sont les suivantes:
+Pour les déploiements de serveur Edge Microsoft Lync Server 2013, un proxy HTTPs inverse dans le réseau de périmètre est requis pour que les clients externes accèdent aux services Web de Lync Server 2013 (appelés *composants Web* dans Office Communications Server) sur le directeur et sur le pool d’hébergement de l’utilisateur. Certaines des fonctionnalités qui nécessitent un accès externe via un proxy inverse sont les suivantes :
 
   - Permettre aux utilisateurs externes de télécharger le contenu de la réunion pour vos réunions.
 

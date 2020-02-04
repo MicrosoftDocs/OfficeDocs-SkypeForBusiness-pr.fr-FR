@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: déploiement de l’outil SEFAUtil'
+title: 'Lync Server 2013 : déploiement de l’outil SEFAUtil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy the SEFAUtil tool
 ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0783ab251359582d232d558da2161a149dea5117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831571"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831571"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Pour déployer et gérer la cueillette des appels de groupe, vous devez utiliser l’outil Kit de ressources SEFAUtil. L’outil fait partie des outils du kit de ressources Lync Server 2013. Pour pouvoir installer SEFAUtil, vous devez disposer d’un pool d’applications approuvé dans votre topologie, spécifier SEFAUtil en tant qu’application approuvée et activer la topologie.
 
@@ -53,7 +55,7 @@ Vous pouvez exécuter SEFAUtil dans n’importe quel pool frontal de votre dépl
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article de blog TechNet intitulé «Comment puis-je lancer SEFAutil?» à <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
+> Pour plus d’informations sur l’exécution de SEFAUtil, voir l’article de blog TechNet intitulé « Comment puis-je lancer SEFAutil ? » à <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
 
@@ -65,7 +67,7 @@ Vous pouvez exécuter SEFAUtil dans n’importe quel pool frontal de votre dépl
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  L’outil SEFAUtil ne peut être exécuté que sur un ordinateur qui fait partie d’un pool d’applications approuvées. Le cas échéant, définissez un pool d’applications approuvé pour le pool frontal sur lequel vous envisagez d’exécuter SEFAUtil. Dans la ligne de commande, exécutez la commande suivante :
     

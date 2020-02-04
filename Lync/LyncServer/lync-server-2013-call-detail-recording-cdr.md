@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: enregistrement des détails des appels (CDR)'
+title: 'Lync Server 2013 : enregistrement des détails des appels (CDR)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call detail recording (CDR)
 ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a15053ee79a246889f1802e5b7801e548574c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838700"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838700"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Lync Server 2013, vous devez également installer une collection prédéfinie de paramètres de configuration globale pour CDR. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
 

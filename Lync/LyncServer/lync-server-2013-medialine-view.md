@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: MediaLine'
+title: 'Affichage Lync Server 2013 : MediaLine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaLine view
 ms:assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687972(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d930f3beeeddb5c5582f41c44f1c68ff7f21f18d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7aebd16d8bd2efaf8deeb6752deeb199411ab125
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827395"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827395"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Le mode MediaLine stocke les informations relatives à chaque ligne multimédia dans la base de données. Une seule session audio contient généralement une ligne multimédia audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo. Toutefois, la session peut contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -260,12 +262,12 @@ Le mode MediaLine stocke les informations relatives à chaque ligne multimédia 
 <tr class="even">
 <td><p>AppliedBandwidthSource</p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Source de la bande passante imposée. Il décrit l’emplacement vers lequel la limite de bande passante provient (par exemple, «serveur de stratégie», «activer le serveur» ou «modalité»).</p></td>
+<td><p>Source de la bande passante imposée. Il décrit l’emplacement vers lequel la limite de bande passante provient (par exemple, « serveur de stratégie », « activer le serveur » ou « modalité »).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appelant</p></td>
 <td><p>bit</p></td>
-<td><p>Indique si les mesures de l’appelant ont été reçues; 1 est oui, 0 est non.</p></td>
+<td><p>Indique si les mesures de l’appelant ont été reçues ; 1 est oui, 0 est non.</p></td>
 </tr>
 <tr class="even">
 <td><p>Appelé</p></td>

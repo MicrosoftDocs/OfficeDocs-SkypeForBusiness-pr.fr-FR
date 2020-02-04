@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : (Facultatif) Modification du mappage des clés des co
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Modify key mapping for DTMF commands
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd1a9fbe17a07403fbf0195026d44b490680973e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 036092f1199ad0e361f8509b36930410685ece21
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825764"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur micro ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. Vous pouvez utiliser les applets de commande pour modifier les touches utilisées pour les commandes DTMF. Cette étape est facultative.
 
@@ -53,7 +55,7 @@ Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du 
 
 1.  Connectez-vous à l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou en tant que membre du rôle **CS-ServerAdministrator** ou **CsAdministrator** .
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez la commande suivante dans l’invite de commandes :
     
@@ -61,7 +63,7 @@ Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du 
     
     Cette applet de connexion renvoie les paramètres DTMF utilisés pour la Conférence rendez-vous.
 
-4.  Exécutez l’applet de commande suivante et spécifiez la clé à utiliser pour chaque option que vous voulez modifier:
+4.  Exécutez l’applet de commande suivante et spécifiez la clé à utiliser pour chaque option que vous voulez modifier :
     
         Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
         [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]

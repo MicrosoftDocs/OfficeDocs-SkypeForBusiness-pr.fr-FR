@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Topologies et composant utilisés pour les serveurs f
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc44790fc9584676cdd10305085b23bd5e99299
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 181ae682ec5ee1352c5d4f4280b4164fbbcd91f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846504"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-10-24_
+_**Dernière modification de la rubrique :** 2014-10-24_
 
 Les seuls composants requis pour la messagerie instantanée et la présence sont :
 
@@ -65,7 +67,7 @@ Pour les listes frontales, suivez les instructions de cette section.
 
 Avec le nouveau modèle distribué pour les pools front-end, certains numéros des serveurs d’un pool doivent être en cours d’exécution pour que le pool fonctionne. Il existe deux modes de perte pour une réserve
 
-  - Perte de quorum au niveau du groupe de routage, provoquée par lʼinsuffisance des serveurs réplica pour un groupe de routage particulier. Un groupe de routage est une agrégation d’un ensemble d’utilisateurs hébergés dans le pool. Chaque groupe de routage comporte trois réplicas du pool: un seul et deux secondaires.
+  - Perte de quorum au niveau du groupe de routage, provoquée par lʼinsuffisance des serveurs réplica pour un groupe de routage particulier. Un groupe de routage est une agrégation d’un ensemble d’utilisateurs hébergés dans le pool. Chaque groupe de routage comporte trois réplicas du pool : un seul et deux secondaires.
 
   - Perte de quorum au niveau du pool, provoquée par une insuffisance du nombre de serveurs d’amorçage en cours d’exécution dans le pool.
 
@@ -89,7 +91,7 @@ Lors du premier démarrage d’un nouveau nouveau pool frontal, il est primordia
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
@@ -170,7 +172,7 @@ Pour qu’un pool frontal puisse fonctionner, il ne peut pas être dans la perte
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
@@ -197,7 +199,7 @@ Pour qu’un pool frontal puisse fonctionner, il ne peut pas être dans la perte
 </table>
 
 
-Dans le tableau ci-dessus, le «premier serveur» est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l’applet de commande **Get-CsComputer** avec l’option **– PoolFqdn** . Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
+Dans le tableau ci-dessus, le « premier serveur » est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l’applet de commande **Get-CsComputer** avec l’option **– PoolFqdn** . Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
 
 </div>
 
@@ -205,7 +207,7 @@ Dans le tableau ci-dessus, le «premier serveur» est le serveur qui s’est aff
 
 ## <a name="front-end-pools-with-two-front-end-servers"></a>Pools front-end avec deux serveurs front-end
 
-Nous déconseillons le déploiement d’un pool frontal qui ne contient que deux serveurs frontaux. Si vous avez besoin de déployer une telle réserve, suivez les instructions ci-après:
+Nous déconseillons le déploiement d’un pool frontal qui ne contient que deux serveurs frontaux. Si vous avez besoin de déployer une telle réserve, suivez les instructions ci-après :
 
   - Si l’un des deux serveurs frontaux est en panne, vous devez essayer de remettre le serveur en panne dès que vous le pouvez. De même, si vous devez mettre à niveau l’un de ces serveurs, remettez-le en ligne dès la fin de la mise à niveau.
 
@@ -215,7 +217,7 @@ Nous déconseillons le déploiement d’un pool frontal qui ne contient que deux
     
       - Si les deux serveurs ne peuvent pas être redémarrés en même temps, vous devez les rétablir dans l’ordre inverse de leurs arrêts.
     
-      - Si vous ne pouvez pas les remettre dans cet ordre, utilisez l’applet de commande suivante avant de remettre le pool à nouveau:.
+      - Si vous ne pouvez pas les remettre dans cet ordre, utilisez l’applet de commande suivante avant de remettre le pool à nouveau :.
         
             Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>
 
@@ -239,11 +241,11 @@ Vous devez prêter attention à deux autres facteurs pour vous assurer que vos p
 
 ## <a name="improving-the-reliability-of-pool-upgrades"></a>Amélioration de la fiabilité des mises à niveau de pool
 
-Lorsque vous avez besoin de mettre à niveau ou de mettre à jour les serveurs dans un pool frontal, suivez le flux de travail présenté dans [mettre à niveau ou mettre à jour les serveurs frontaux dans Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)et les instructions suivantes:
+Lorsque vous avez besoin de mettre à niveau ou de mettre à jour les serveurs dans un pool frontal, suivez le flux de travail présenté dans [mettre à niveau ou mettre à jour les serveurs frontaux dans Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)et les instructions suivantes :
 
-  - Lorsque vous passez d’un domaine de mise à niveau à un autre pour les mises à niveau (suivi du flux de travail lors de la [mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), vous devez utiliser l’applet de commande **Get-CsPoolUpgradeReadinessState** et vérifier l’état Ready. L’ajout d’une attente de 20 minutes entre chaque domaine de mise à niveau après avoir atteint la «prête» permettra d’améliorer la fiabilité des mises à niveau. Si ce n’est **pas** le cas, redémarrez le minuteur de 20 minutes. Par ailleurs, vous pouvez exécuter l’applet de passe **Get-CsPoolFabricState** avant et après le démarrage de l’intervalle de 20 minutes et vérifier qu’il n’y a aucune modification apportée aux principaux et aux secondaires des groupes de routage.
+  - Lorsque vous passez d’un domaine de mise à niveau à un autre pour les mises à niveau (suivi du flux de travail lors de la [mise à niveau ou mise à jour des serveurs frontaux dans Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), vous devez utiliser l’applet de commande **Get-CsPoolUpgradeReadinessState** et vérifier l’état Ready. L’ajout d’une attente de 20 minutes entre chaque domaine de mise à niveau après avoir atteint la « prête » permettra d’améliorer la fiabilité des mises à niveau. Si ce n’est **pas** le cas, redémarrez le minuteur de 20 minutes. Par ailleurs, vous pouvez exécuter l’applet de passe **Get-CsPoolFabricState** avant et après le démarrage de l’intervalle de 20 minutes et vérifier qu’il n’y a aucune modification apportée aux principaux et aux secondaires des groupes de routage.
 
-  - Ne passez pas au domaine de mise à niveau suivant si l’un des serveurs du dernier domaine de mise à niveau corrigé est bloqué ou n’est pas redémarré. Cela s’applique également si l’un des serveurs au sein d’une mise à niveau ne peut pas démarrer. Exécutez **Get-CsPoolFabricState** pour vous assurer que tous les groupes de routage disposent d’une adresse principale et d’au moins un secondaire; Cela permet de vérifier si tous les utilisateurs ont un service.
+  - Ne passez pas au domaine de mise à niveau suivant si l’un des serveurs du dernier domaine de mise à niveau corrigé est bloqué ou n’est pas redémarré. Cela s’applique également si l’un des serveurs au sein d’une mise à niveau ne peut pas démarrer. Exécutez **Get-CsPoolFabricState** pour vous assurer que tous les groupes de routage disposent d’une adresse principale et d’au moins un secondaire ; Cela permet de vérifier si tous les utilisateurs ont un service.
 
   - Si certains utilisateurs ne disposent pas d’un service, exécutez **Get-CsPoolFabricState** avec l’option – verbose pour rechercher les groupes de routage pour lesquels il manque des réplicas. Ne redémarrez pas le pool entier en tant que première étape de dépannage. Pour plus d’informations sur cette cmdlet, voir [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).
 
@@ -255,11 +257,11 @@ Lorsque vous avez besoin de mettre à niveau ou de mettre à jour les serveurs d
 
 ## <a name="changing-a-front-end-pools-configuration"></a>Modification de la configuration d’un pool frontal
 
-Dès lors que vous ajoutez des serveurs frontaux à un pool ou que vous les supprimez de la liste, puis que vous publiez la nouvelle topologie, vous devez suivre les instructions suivantes:
+Dès lors que vous ajoutez des serveurs frontaux à un pool ou que vous les supprimez de la liste, puis que vous publiez la nouvelle topologie, vous devez suivre les instructions suivantes :
 
   - Après la publication de la nouvelle topologie, vous devez redémarrer chaque serveur frontal du pool. Redémarrez-les un par autre.
 
-  - Si le pool entier est arrêté lors de la modification de la configuration, exécutez l’applet de commande suivante une fois la nouvelle topologie publiée:
+  - Si le pool entier est arrêté lors de la modification de la configuration, exécutez l’applet de commande suivante une fois la nouvelle topologie publiée :
     
         Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset
 

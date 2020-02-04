@@ -3,6 +3,8 @@ title: Arrêter les services Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Stop Lync Server 2010 services
 ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ffe7a6204154d5cf45a277ea2dddbdf2b8021f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846040"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer ou arrêter l’exécution de tous les services Lync Server 2010 sur un ordinateur spécifique ou pour démarrer ou arrêter un service Lync Server 2010 spécifique.
 
@@ -43,7 +45,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer o
 
 1.  Ouvrez le Paneau de configuration Lync Server.
 
-2.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+2.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 3.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services que vous voulez démarrer ou arrêter, puis cliquez dessus.
 
@@ -59,7 +61,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer o
 
 1.  Ouvrez le Paneau de configuration Lync Server.
 
-2.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+2.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 3.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus.
 

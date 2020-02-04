@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification des fonctionnalités de gestion des appels'
+title: 'Lync Server 2013 : planification des fonctionnalités de gestion des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for call management features
 ms:assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398421(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c799051615a75801640c63ade6fe6d23b8a62dda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825022"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825022"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-17_
+_**Dernière modification de la rubrique :** 2012-12-17_
 
-Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes:
+Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes :
 
   - **Parcage d’appel** : permet aux utilisateurs des communications vocales de parquer temporairement un appel, puis de le reprendre sur le même téléphone ou un autre téléphone.
 
@@ -52,7 +54,7 @@ Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon
 
   - **Response Group** : achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche, ou de questions et réponses IVR (réponse vocale interactive).
 
-  - **Annonce:**    Lit un message pour les appels passés vers un numéro non attribué, ou route l’appel à un autre endroit, ou les deux.
+  - **Annonce :**    lit un message pour les appels passés à un numéro non attribué, ou route l’appel à un autre endroit, ou les deux.
 
 Si vous prévoyez de déployer Voix Entreprise, vous pouvez choisir d’implémenter une partie ou l’ensemble de ces fonctionnalités de gestion des appels.
 

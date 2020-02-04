@@ -1,8 +1,10 @@
 ---
-title: 'Rapport de performances du serveur Lync Server 2013:'
+title: 'Rapport de performances du serveur Lync Server 2013 :'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Performance Report
 ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822376"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le rapport sur les performances du serveur fournit une liste de serveurs Microsoft Lync Server 2013 ayant constaté le plus grand pourcentage d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
 
@@ -57,7 +59,7 @@ Il est important de noter que le classement indiqué dans le rapport est relatif
 
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Volume d’appels
 

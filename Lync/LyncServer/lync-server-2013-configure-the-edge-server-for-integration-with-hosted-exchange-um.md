@@ -3,6 +3,8 @@ title: Configuration du serveur Edge pour l’intégration à la messagerie unif
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185745
 ms.date: 01/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d9d37e5ed9127c81f0aec4fcdc8f2e90b5940f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a801ba4bf5f67eeda2eb760b3f639bac4cd13b66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838321"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-23_
+_**Dernière modification de la rubrique :** 2015-01-23_
 
-Pour fournir aux utilisateurs de Lync Server 2013 des fonctionnalités de messagerie vocale sur la messagerie unifiée Exchange hébergée (MU), vous devez effectuer les tâches de configuration suivantes sur le serveur Edge:
+Pour fournir aux utilisateurs de Lync Server 2013 des fonctionnalités de messagerie vocale sur la messagerie unifiée Exchange hébergée (MU), vous devez effectuer les tâches de configuration suivantes sur le serveur Edge :
 
   - Configurez le serveur Edge pour la fédération.
 
@@ -43,7 +45,7 @@ Pour fournir aux utilisateurs de Lync Server 2013 des fonctionnalités de messag
 
   - Créez un fournisseur d’hébergement sur le serveur de périphérie.
 
-Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
 
@@ -63,7 +65,7 @@ Pour plus d’informations, reportez-vous à la documentation Lync Server Manage
 
 ## <a name="to-configure-the-edge-server-for-federation"></a>Pour configurer le serveur de périphérique pour la fédération
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande Set-CsAccessEdgeConfiguration pour configurer le serveur pour la fédération. Par exemple, exécutez :
     
@@ -91,7 +93,7 @@ Pour plus d’informations, reportez-vous à la documentation Lync Server Manage
 
 ## <a name="to-create-a-hosting-provider-on-the-edge-server"></a>Pour créer un fournisseur d’hébergement sur le serveur de périphérie
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande **New-CsHostingProvider** pour configurer le fournisseur d’hébergement. Par exemple, exécutez :
     
@@ -109,7 +111,7 @@ Pour plus d’informations, reportez-vous à la documentation Lync Server Manage
         
 
         > [!NOTE]
-        > Avant d’avoir <CODE>EnableSharedAddressSpace</CODE> défini sur true, essayez de résoudre l’enregistrement SRV de Fédération en interne. Si cet enregistrement ne peut pas être résolu en interne, vous devez créer les enregistrements _sipfederationtls. _ TCP. &lt;Domain&gt; et _sip. _tls. &lt;Domain&gt; dans le DNS interne. Ces enregistrements doivent pointer vers l’adresse IP externe de l’interface d’accès du serveur Edge.
+        > Avant d’avoir <CODE>EnableSharedAddressSpace</CODE> défini sur true, essayez de résoudre l’enregistrement SRV de Fédération en interne. Si cet enregistrement ne peut pas être résolu en interne, vous devez créer les enregistrements, _sipfederationtls. _tcp. &lt;domain&gt; et _sip. _tls. &lt;Domain&gt; dans le DNS interne. Ces enregistrements doivent pointer vers l’adresse IP externe de l’interface d’accès du serveur Edge.
 
         
         </div>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets Topology'
+title: 'Lync Server 2013 : cmdlets Topology'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topology cmdlets
 ms:assetid: 3ed739a7-d58d-475d-8240-fa8d2c6dc7e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2fc5224257c4bb228fdcb0b6f6f27f5416a3b03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846492"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846492"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 De nombreuses cmdlets de topologie incluses dans Microsoft Lync Server 2013 sont conçues pour une utilisation avec le générateur de configuration et de topologie. pour cette raison, il existe diverses cmdlets de topologie que les administrateurs peuvent rarement appeler directement. Néanmoins, il y aura des moments où les administrateurs seront obligés d’utiliser ces applets de cmdlet. par exemple, après la création de nouveaux comptes Kerberos, vous devez exécuter l’applet de demande [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) pour que les modifications prennent effet. De plus, les administrateurs peuvent exécuter des cmdlets telles que [test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15)) et [test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15)) pour garantir que Lync Server 2013 a été correctement installé et qu’il fonctionne comme prévu.
 
@@ -41,7 +43,7 @@ De nombreuses cmdlets de topologie incluses dans Microsoft Lync Server 2013 sont
 
 ## <a name="topology-cmdlets"></a>Cmdlets de topologie
 
-Voici une liste des applets de commande qui concernent directement la topologie de votre Lync Server:
+Voici une liste des applets de commande qui concernent directement la topologie de votre Lync Server :
 
 **Topologie**
 

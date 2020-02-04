@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Colocalisation de serveur prise en charge pour les co
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported server collocation for edge components
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425934(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3ad78cc1060c64181a75acefa21e64809e0d7b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc12e442be98ba1fd962634460200ce749aca3d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846739"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846739"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
-Service Edge d’accès, service Edge de conférence Web, service Edge A/V et service proxy XMPP. Les serveurs suivants fournissent les fonctions requises pour l’accès des utilisateurs externes et doivent être déployées en tant que serveurs dédiés:
+Service Edge d’accès, service Edge de conférence Web, service Edge A/V et service proxy XMPP. Les serveurs suivants fournissent les fonctions requises pour l’accès des utilisateurs externes et doivent être déployées en tant que serveurs dédiés :
 
   - serveur Edge
 

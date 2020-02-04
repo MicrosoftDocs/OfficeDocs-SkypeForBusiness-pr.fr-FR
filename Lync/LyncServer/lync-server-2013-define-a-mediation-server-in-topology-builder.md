@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: définir un serveur de médiation dans le générateur de topologie'
+title: 'Lync Server 2013 : définir un serveur de médiation dans le générateur de topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831726"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-25_
+_**Dernière modification de la rubrique :** 2013-03-25_
 
 Suivez les étapes décrites dans cette rubrique pour utiliser le générateur de topologie pour définir un serveur de médiation autonome ou un pool colocalisé avec un pool frontal sur un site pour lequel vous n’avez pas encore déployé Enterprise Voice.
 
@@ -49,7 +51,7 @@ Suivez les étapes décrites dans cette rubrique pour utiliser le générateur d
 
 ## <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>Pour ajouter un serveur de médiation à un pool frontal
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans le générateur de topologie, dans l’arborescence de la console, développez le nom du site pour lequel vous voulez définir un pool frontal.
 
@@ -57,7 +59,7 @@ Suivez les étapes décrites dans cette rubrique pour utiliser le générateur d
 
 4.  Naviguez dans l’Assistant **Définition d’un nouveau pool frontal** jusqu’à ce que vous accédiez à la page **Sélectionner des rôles serveur colocalisés**.
 
-5.  Dans **sélection de rôles de serveur**colocalisés, activez l’option **Collocate médiation Server**.
+5.  Dans **sélection de rôles de serveur colocalisés**, activez l’option **Collocate médiation Server**.
     
     <div>
     
@@ -105,7 +107,7 @@ Si vous avez déjà déployé des serveurs de médiation colocalisés vers ce si
 
 
 > [!NOTE]  
-> Cette section suppose que vous avez déjà configuré au moins un pool frontal, comme décrit dans la rubrique <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">définir et configurer un pool frontal ou un serveur Standard Edition dans Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync Server 2013</A> dans le Guide de déploiement. accompagnant.
+> Cette section part du principe que vous avez déjà configuré au moins un pool frontal, comme décrit dans <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">la rubrique définir et configurer un pool frontal ou un serveur Standard Edition dans Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync Server 2013</A> dans la documentation du Guide de déploiement.
 
 
 
@@ -115,11 +117,11 @@ Si vous avez déjà déployé des serveurs de médiation colocalisés vers ce si
 
 ## <a name="to-add-a-mediation-server"></a>Pour ajouter un serveur de médiation
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans le générateur de topologie, dans l’arborescence de la console, développez le nom du site pour lequel vous voulez définir un serveur de médiation.
 
-3.  Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud Pools de **médiation** , puis cliquez sur **pool de serveurs de médiation**.
+3.  Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud **pools de médiation** , puis cliquez sur **pool de serveurs de médiation**.
 
 4.  Dans **définir un nouveau pool de médiation**, tapez le nom de domaine complet (FQDN) du pool de serveurs de médiation.
 
@@ -144,7 +146,7 @@ Si vous avez déjà déployé des serveurs de médiation colocalisés vers ce si
 
 8.  Dans la page **Sélectionner un serveur Edge**, effectuez l’une des opérations suivantes :
     
-      - Si vous voulez fournir une connectivité RTC aux utilisateurs externes activés pour Enterprise Voice, sous **Sélectionner le pool de périphériques utilisés par ce serveur de médiation**, cliquez sur le nom de domaine complet (FQDN) du pool de serveur Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN à utilisateurs externes, puis cliquez sur **suivant**.
+      - Si vous voulez fournir une connectivité RTC aux utilisateurs externes activés pour l’entreprise voix, sous **Sélectionner le pool de périphériques utilisés par ce serveur de médiation**, cliquez sur le nom de domaine complet du pool de serveur Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN aux utilisateurs externes, puis cliquez sur **suivant**.
     
       - Si vous envisagez de ne pas autoriser les utilisateurs externes pour les voix d’entreprise, ou si vous ne souhaitez pas fournir de connectivité RTC aux utilisateurs en dehors du réseau interne, cliquez sur **suivant**.
 
@@ -164,9 +166,9 @@ Suivez les étapes décrites dans cette rubrique pour utiliser le générateur d
 
 ## <a name="to-modify-the-mediation-server-listening-ports"></a>Pour modifier les ports d’écoute du serveur de médiation
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-2.  Dans le générateur de topologie, dans l’arborescence de la console, développez le nœud Pools de **médiation** , puis cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
+2.  Dans le générateur de topologie, dans l’arborescence de la console, développez le nœud **pools de médiation** , puis cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
 
 3.  Par défaut, les ports d’écoute SIP sur le serveur de médiation sont 5070 pour le trafic TLS provenant de Lync Server, 5067 pour le trafic TLS d’homologues (passerelles, PBXes ou SBCs). Le port TCP est désactivé par défaut. Vous devez activer le port TCP si vous disposez de passerelles qui ne prennent pas en charge le protocole TLS.
 

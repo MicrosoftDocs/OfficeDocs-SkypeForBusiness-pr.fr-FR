@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Tableau de comparaison des clients mobiles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client comparison tables
 ms:assetid: f3ba3379-afe4-4bc8-a038-9dff9dfd3bff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691004(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bacedb24a484ee68719427dbac2cfb2c1a11ba45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827283"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827283"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-09-21_
+_**Dernière modification de la rubrique :** 2015-09-21_
 
-Les tableaux suivants comparent les fonctionnalités et capacités des clients mobiles Lync 2013 et du client de bureau Lync 2013 dans les catégories suivantes:
+Les tableaux suivants comparent les fonctionnalités et capacités des clients mobiles Lync 2013 et du client de bureau Lync 2013 dans les catégories suivantes :
 
   - Connexion, notifications Push et fonctionnalités générales
 
@@ -63,7 +65,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Vous recherchez les tableaux de comparaison des clients mobiles pour Skype entreprise? Voir <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">tableaux de comparaison des clients mobiles pour Skype entreprise</A>.</P>
+> <P>Vous recherchez les tableaux de comparaison des clients mobiles pour Skype entreprise ? Voir <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">tableaux de comparaison des clients mobiles pour Skype entreprise</A>.</P>
 > <LI>
 > <P>Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, voir <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 pour les clients mobiles</A>.</P>
 > <LI>
@@ -170,13 +172,13 @@ Anglais uniquement</p></td>
 </table>
 
 
-1 sur Windows Phone, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit:
+1 sur Windows Phone, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit :
 
   - Si l’utilisateur a activé les notifications de transmission, Lync se déconnecte après 10 jours d’inactivité.
 
   - Si l’utilisateur n’a pas activé les notifications de transmission, Lync se déconnecte après 1 heure.
 
-Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit:
+Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit :
 
   - Si le client mobile n’a pas contacté le serveur pendant 10 jours en raison d’une perte de connectivité réseau ou d’autres problèmes.
 

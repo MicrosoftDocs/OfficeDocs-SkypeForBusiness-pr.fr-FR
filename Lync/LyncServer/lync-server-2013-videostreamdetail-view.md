@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: VideoStreamDetail'
+title: 'Affichage Lync Server 2013 : VideoStreamDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoStreamDetail view
 ms:assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721928(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95cc003a0e136a4a4c123355548b95c9566b4b31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfa754fbcc24377b07bab3b13473adb1c5e953ea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846318"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidéo dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -215,7 +217,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 <tr class="odd">
 <td><p>Transport</p></td>
 <td><p>int</p></td>
-<td><p>Le type de transport: 0 correspond au protocole UDP; 1 est le protocole TCP.</p></td>
+<td><p>Le type de transport : 0 correspond au protocole UDP ; 1 est le protocole TCP.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerIPAddr</p></td>
@@ -330,7 +332,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 <tr class="even">
 <td><p>CallerNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Type de connexion réseau de l’appelant: 0 est filaire, 1 est un réseau sans fil.</p></td>
+<td><p>Type de connexion réseau de l’appelant : 0 est filaire, 1 est un réseau sans fil.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerVPN</p></td>
@@ -345,7 +347,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 <tr class="odd">
 <td><p>CalleeNetworkConnectionType</p></td>
 <td><p>tinyint</p></td>
-<td><p>Type de connexion réseau du ou du destinataire: 0 est filaire, 1 est un téléphone sans fil.</p></td>
+<td><p>Type de connexion réseau du ou du destinataire : 0 est filaire, 1 est un téléphone sans fil.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeVPN</p></td>
@@ -389,12 +391,12 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 </tr>
 <tr class="even">
 <td><p>PacketLossRate</p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p>Taux moyen de perte de paquets lors de l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p>PacketLossRateMax</p></td>
-<td><p>décimale (5; 4)</p></td>
+<td><p>décimale (5 ; 4)</p></td>
 <td><p>Perte de paquets maximum observée pendant l’appel.</p></td>
 </tr>
 <tr class="even">
@@ -424,12 +426,12 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 </tr>
 <tr class="odd">
 <td><p>InboundVideoFrameRateAvg</p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p>Fréquence d’images de la vidéo reçue.</p></td>
 </tr>
 <tr class="even">
 <td><p>OutboundVideoFrameRateAvg</p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p>Fréquence d’images de la vidéo envoyée.</p></td>
 </tr>
 <tr class="odd">
@@ -439,7 +441,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 </tr>
 <tr class="even">
 <td><p>Cause du taux</p></td>
-<td><p>décimale (9; 4)</p></td>
+<td><p>décimale (9 ; 4)</p></td>
 <td><p>Taux d’interruption des paquets vidéo.</p></td>
 </tr>
 <tr class="odd">
@@ -465,7 +467,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 <tr class="odd">
 <td><p>SenderIsCallerPAI</p></td>
 <td><p>bit</p></td>
-<td><p>Direction du flux pour les informations d’identité affirmées p. 1 signifie que le sens du flux provient de l’appelant vers l’appelant; 0: le sens du flux provient de l’appelant.</p></td>
+<td><p>Direction du flux pour les informations d’identité affirmées p. 1 signifie que le sens du flux provient de l’appelant vers l’appelant ; 0 : le sens du flux provient de l’appelant.</p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: Configuration requise pour la bande passante réseau de Lync Server 2013 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network bandwidth requirements for media traffic
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688118(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e12092934ddd311f4fa9cd3860bc6fe0b79eff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 684f13a10c066e8902bed0024d7546017450ee9e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826779"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826779"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-09-24_
+_**Dernière modification de la rubrique :** 2015-09-24_
 
 Dans le cadre de la planification du réseau, il est important de s’assurer que votre réseau peut gérer le trafic multimédia généré par Lync Server. Cette section vous aide à planifier le trafic multimédia.
 
@@ -123,7 +125,7 @@ La version stéréo du codec G. 722 est utilisée par des systèmes basés sur l
 
 Pour la vidéo, le codec par défaut est le codec H. 264/MPEG-4 partie 10 Advanced Video Coding avec ses extensions de codage vidéo évolutives pour l’évolutivité temporelle. Pour préserver l’interopérabilité avec les clients Lync 2010 ou Office Communicator 2007 R2, le codec RTVideo est toujours utilisé pour les appels d’égal à égal entre Lync 2013 et les clients hérités. Dans les sessions de conférence avec les deux clients Lync 2013 et hérités, le point de terminaison 2013 de Lync risque de coder la vidéo à l’aide des codecs vidéo et 2007 2010 d’envoyer le flux binaire H. 264 aux clients Lync 2013 et RTVideo.
 
-La bande passante requise dépend de la résolution, de la qualité et de la fréquence d’images. Pour chaque résolution, il existe deux taux binaires intéressants:
+La bande passante requise dépend de la résolution, de la qualité et de la fréquence d’images. Pour chaque résolution, il existe deux taux binaires intéressants :
 
   - **Débit maximal de charge utile**   il s’agit du débit qui est utilisé par un point de terminaison 2013 Lync pour la résolution à la fréquence d’images maximale prise en charge pour cette résolution. Cette valeur est intéressante, car elle permet d’optimiser la qualité de la vidéo et de la fréquence d’images.
 
@@ -277,7 +279,7 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 </table>
 
 
-Pour des raisons de planification de la capacité, les deux bandes passantes suivantes vous intéressent:
+Pour des raisons de planification de la capacité, les deux bandes passantes suivantes vous intéressent :
 
   - **Bande passante maximale sans FEC**   valeur de bande passante maximale qu’un flux utilisera, y compris l’activité type du flux et le codec standard utilisé dans le scénario sans FEC.Il s’agit de la bande passante lorsque le flux correspond à une activité de 100% et qu’il n’y a pas de perte de paquets déclenchant l’utilisation de FEC.Cela est intéressant pour le calcul de la bande passante qui doit être allouée pour permettre l’utilisation du codec dans un scénario donné. 
 

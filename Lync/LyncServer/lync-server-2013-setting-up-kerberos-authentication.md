@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de l’authentification Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Kerberos authentication
 ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86526b40ee837866cdf0e3b016a8e4e627ca2eef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c644dd613b3186b314e8fc78b42197709286200
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846842"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846842"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Lync Server 2013 prend en charge l’authentification NTLM et Kerberos pour les services Web. Office Communications Server 2007 et Office Communications Server 2007 R2 utilisait le RTCComponentService et RTCService par défaut en tant que comptes d’utilisateurs pour exécuter les pools d’applications de services Web, permettant ainsi à l’utilisateur d’utiliser un nom de principal de service (SPN). comptes et agissant en tant que principal d’authentification. Lync Server utilise NetworkService pour exécuter les services Web et NetworkService ne peut pas avoir de SPN qui lui est affecté.
 

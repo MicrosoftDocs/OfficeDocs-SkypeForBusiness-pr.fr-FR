@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Restauration des utilisateurs migrés'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57462cee6c4996f0beb51290f8382a1736d3e635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e8b8c53f835bbbaa363a91ef547dd1d301c8976
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822439"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822439"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-07_
+_**Dernière modification de la rubrique :** 2012-10-07_
 
 Si vous avez besoin de restaurer la fonctionnalité de magasin de contacts unifiée, restaurez les contacts uniquement si vous revenez à l’utilisateur dans Exchange 2010 ou Lync Server 2010. Pour effectuer la restauration, désactivez la stratégie définie pour l’utilisateur, puis exécutez l’applet de commande **Invoke-CsUcsRollback**. La simple exécution de **Invoke-CsUcsRollback** ne suffit pas à garantir une restauration permanente ; en effet, si la stratégie n’est pas désactivée, le magasin de contacts unifié continue d’être transféré. Par exemple, si un utilisateur est restauré, car Exchange 2013 est restauré dans Exchange 2010, puis la boîte aux lettres de l’utilisateur est déplacée vers Exchange 2013, la migration de magasin de contacts unifiée sera lancée à nouveau après le Rollback, tant que magasin de contacts unifié est toujours activée pour l’utilisateur dans la stratégie de services des utilisateurs.
 
@@ -41,7 +43,7 @@ Si vous avez besoin de restaurer la fonctionnalité de magasin de contacts unifi
 
 
 > [!IMPORTANT]  
-> L’applet de commande <STRONG>Move-Csuser</STRONG> restaure automatiquement le magasin de contacts de l’utilisateur à partir d’Exchange 2013 vers Lync Server 2013 dans les situations suivantes: 
+> L’applet de commande <STRONG>Move-Csuser</STRONG> restaure automatiquement le magasin de contacts de l’utilisateur à partir d’Exchange 2013 vers Lync Server 2013 dans les situations suivantes : 
 > <UL>
 > <LI>
 > <P>Lorsque les utilisateurs sont déplacés de Lync Server 2013 vers Lync Server 2010.</P>
@@ -71,21 +73,21 @@ Si vous avez besoin de restaurer la fonctionnalité de magasin de contacts unifi
 
 
 > [!IMPORTANT]  
-> Avant de déplacer une boîte aux lettres Exchange à partir d’Exchange 2013 vers Exchange 2010, l’administrateur Exchange doit s’assurer que l’administrateur de Lync Server a restauré le premier contact de l’utilisateur du serveur Lync à partir d’Exchange 2013 sur Lync Server. Pour restaurer des contacts de magasin de contacts unifiés vers Lync Server, reportez-vous à la procédure «pour restaurer des contacts de magasin de contacts unifiés à partir d’Exchange 2013 vers Lync Server 2013», plus loin dans cette section.
+> Avant de déplacer une boîte aux lettres Exchange à partir d’Exchange 2013 vers Exchange 2010, l’administrateur Exchange doit s’assurer que l’administrateur de Lync Server a restauré le premier contact de l’utilisateur du serveur Lync à partir d’Exchange 2013 sur Lync Server. Pour restaurer des contacts de magasin de contacts unifiés vers Lync Server, reportez-vous à la procédure « pour restaurer des contacts de magasin de contacts unifiés à partir d’Exchange 2013 vers Lync Server 2013 », plus loin dans cette section.
 
 
 
 </div>
 
-La procédure suivante explique comment restaurer les contacts des utilisateurs. Si vous utilisez l’applet de méthode **Move-Csuser** pour déplacer des utilisateurs entre lync Server 2013 et lync Server 2010, vous pouvez ignorer ces étapes dans la mesure où l’applet de ligne de **déplacement-Csuser** annule automatiquement Unifed magasin de contacts lors du déplacement des utilisateurs de Lync Server 2013 vers Lync. Server 2010. **Move-Csuser** n’entraîne pas la désactivation de la stratégie de magasin de contacts unifiée, de sorte que la migration vers le magasin de contacts unifié se reproduit si l’utilisateur est reculé sur Lync Server 2013.
+La procédure suivante explique comment restaurer les contacts des utilisateurs. Si vous utilisez l’applet de action **Move-Csuser** pour déplacer des utilisateurs entre lync Server 2013 et lync Server 2010, vous pouvez ignorer ces étapes dans la mesure où l’applet de **passe de migration-Csuser** restaure automatiquement Unifed magasin de contacts lors du déplacement des utilisateurs de Lync Server 2013 vers Lync Server 2010. **Move-Csuser** n’entraîne pas la désactivation de la stratégie de magasin de contacts unifiée, de sorte que la migration vers le magasin de contacts unifié se reproduit si l’utilisateur est reculé sur Lync Server 2013.
 
 <div>
 
 ## <a name="to-roll-back-user-contacts-from-lync-server-2013-to-lync-server-2010"></a>Pour restaurer des contacts de l’utilisateur de Lync Server 2013 vers Lync Server 2010
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Désactivez le magasin de contacts unifié pour que les utilisateurs soient restaurés de façon à ce qu’ils ne soient pas à nouveau migrés après la restauration. (N’effectuez cette étape que si vous voulez vous assurer que les utilisateurs ne seront pas remigré ultérieurement.) Pour désactiver le magasin de contacts unifié pour des utilisateurs individuels, sur la ligne de commande, tapez:
+2.  Désactivez le magasin de contacts unifié pour que les utilisateurs soient restaurés de façon à ce qu’ils ne soient pas à nouveau migrés après la restauration. (N’effectuez cette étape que si vous voulez vous assurer que les utilisateurs ne seront pas remigré ultérieurement.) Pour désactiver le magasin de contacts unifié pour des utilisateurs individuels, sur la ligne de commande, tapez :
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
@@ -127,9 +129,9 @@ La procédure suivante explique comment restaurer les contacts des utilisateurs.
 
 ## <a name="to-roll-back-unified-contact-store-contacts-from-exchange-2013-to-lync-server-2013"></a>Pour restaurer des contacts de magasin de contacts unifiés à partir d’Exchange 2013 vers Lync Server 2013
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Désactivez le magasin de contacts unifié pour que les utilisateurs soient restaurés de façon à ce qu’ils ne soient pas à nouveau migrés après la restauration. Pour désactiver le magasin de contacts unifié pour des utilisateurs individuels, sur la ligne de commande, tapez:
+2.  Désactivez le magasin de contacts unifié pour que les utilisateurs soient restaurés de façon à ce qu’ils ne soient pas à nouveau migrés après la restauration. Pour désactiver le magasin de contacts unifié pour des utilisateurs individuels, sur la ligne de commande, tapez :
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     

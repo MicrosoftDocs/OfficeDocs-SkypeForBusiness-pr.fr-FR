@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblPrincipalAffiliations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb5f6400de1c71b4d11101871b2dadedd232a9ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846679"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846679"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory (AD FS) dans les conteneurs Active Directory, dans les domaines.
 

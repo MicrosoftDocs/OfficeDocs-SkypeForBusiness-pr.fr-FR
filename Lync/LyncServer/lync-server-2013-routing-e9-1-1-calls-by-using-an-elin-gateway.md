@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Routage des appels E9-1-1 via une passerelle ELIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using an ELIN gateway
 ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdb4b5879f92da79e8a6ec96f61e24fbe182c028
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97c921a0b31438103ba74dcc64925e5b2069a8e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822292"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822292"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-05_
+_**Dernière modification de la rubrique :** 2013-02-05_
 
 Certains partenaires du programme Unified Communications Open Interoperability fournissent des passerelles compatibles avec les numéros ELIN (Emergency Location Identification Number), ce qui peut servir de solution de remplacement pour une connexion de jonction SIP à un fournisseur de services E9-1-1 qualifié. Les passerelles ELIN prennent en charge la connectivité RNIS (réseau numérique à intégration de services) ou CAMA (Centralized Automatic Message Accounting) aux services E9-1-1 basés sur un réseau téléphonique commuté. Pour plus d’informations sur les partenaires qui fournissent des passerelles ELIN et des liens [http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)vers leurs documents, voir.
 
@@ -59,7 +61,7 @@ Le diagramme suivant montre comment un appel d’urgence est acheminé de Lync S
 
 **Acheminement d’appels E9-1-1 avec une passerelle ELIN**
 
-![ea68f88a-0fc4-43d4-9660-79a7e8936df1] (images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43d4-9660-79a7e8936df1")
+![ea68f88a-0fc4-43d4-9660-79a7e8936df1](images/JJ204919.ea68f88a-0fc4-43d4-9660-79a7e8936df1(OCS.15).jpg "ea68f88a-0fc4-43d4-9660-79a7e8936df1")
 
 1.  Une invitation SIP contenant l’emplacement, le numéro de rappel de l’appelant et l’URL de notification (facultative) et le numéro de rappel de conférence sont routés vers Lync Server.
 
