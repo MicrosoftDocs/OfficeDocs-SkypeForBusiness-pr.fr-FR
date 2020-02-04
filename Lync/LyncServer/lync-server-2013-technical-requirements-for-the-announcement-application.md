@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration technique requise pour l’application 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for the Announcement application
 ms:assetid: fbd8c204-3765-4b22-a0c9-a781b5126366
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205413(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec0da862ce2032f5a659c9e9b7bd3b437349a3cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846626"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846626"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="56655-102">Configuration technique requise pour l’application Annonces dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56655-102">Technical requirements for the Announcement application in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="15177-102">Configuration technique requise pour l’application Annonces dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15177-102">Technical requirements for the Announcement application in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,49 +35,49 @@ ms.locfileid: "34846626"
 
 <span> </span>
 
-<span data-ttu-id="56655-103">_**Dernière modification de la rubrique:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="56655-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="15177-103">_**Dernière modification de la rubrique :** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="15177-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="56655-104">Cette section décrit les exigences techniques suivantes pour l’application d’annonce:</span><span class="sxs-lookup"><span data-stu-id="56655-104">This section describes the following technical requirements for the Announcement application:</span></span>
+<span data-ttu-id="15177-104">Cette section décrit les exigences techniques suivantes pour l’application d’annonce :</span><span class="sxs-lookup"><span data-stu-id="15177-104">This section describes the following technical requirements for the Announcement application:</span></span>
 
-  - <span data-ttu-id="56655-105">Configuration matérielle requise</span><span class="sxs-lookup"><span data-stu-id="56655-105">Hardware requirements</span></span>
+  - <span data-ttu-id="15177-105">Configuration matérielle requise</span><span class="sxs-lookup"><span data-stu-id="15177-105">Hardware requirements</span></span>
 
-  - <span data-ttu-id="56655-106">Configuration logicielle requise</span><span class="sxs-lookup"><span data-stu-id="56655-106">Software requirements</span></span>
+  - <span data-ttu-id="15177-106">Configuration logicielle requise</span><span class="sxs-lookup"><span data-stu-id="15177-106">Software requirements</span></span>
 
-  - <span data-ttu-id="56655-107">Conditions requises en matière de ports</span><span class="sxs-lookup"><span data-stu-id="56655-107">Port requirements</span></span>
+  - <span data-ttu-id="15177-107">Conditions requises en matière de ports</span><span class="sxs-lookup"><span data-stu-id="15177-107">Port requirements</span></span>
 
-  - <span data-ttu-id="56655-108">Configuration requise pour le fichier audio</span><span class="sxs-lookup"><span data-stu-id="56655-108">Audio file requirements</span></span>
+  - <span data-ttu-id="15177-108">Configuration requise pour le fichier audio</span><span class="sxs-lookup"><span data-stu-id="15177-108">Audio file requirements</span></span>
 
 <div>
 
-## <a name="hardware-requirements"></a><span data-ttu-id="56655-109">Configuration matérielle requise</span><span class="sxs-lookup"><span data-stu-id="56655-109">Hardware Requirements</span></span>
+## <a name="hardware-requirements"></a><span data-ttu-id="15177-109">Configuration matérielle requise</span><span class="sxs-lookup"><span data-stu-id="15177-109">Hardware Requirements</span></span>
 
-<span data-ttu-id="56655-110">La configuration matérielle requise pour l’application d’annonce est identique à celle des serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="56655-110">The Announcement application has the same hardware requirements as Front End Servers.</span></span> <span data-ttu-id="56655-111">Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="56655-111">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="15177-110">La configuration matérielle requise pour l’application d’annonce est identique à celle des serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="15177-110">The Announcement application has the same hardware requirements as Front End Servers.</span></span> <span data-ttu-id="15177-111">Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="15177-111">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="software-requirements"></a><span data-ttu-id="56655-112">Configuration logicielle requise</span><span class="sxs-lookup"><span data-stu-id="56655-112">Software Requirements</span></span>
+## <a name="software-requirements"></a><span data-ttu-id="15177-112">Configuration logicielle requise</span><span class="sxs-lookup"><span data-stu-id="15177-112">Software Requirements</span></span>
 
-<span data-ttu-id="56655-113">La configuration requise pour le système d’exploitation et les composants logiciels requis par le biais de l’application d’annonce sont les mêmes.</span><span class="sxs-lookup"><span data-stu-id="56655-113">The Announcement application has the same operating system requirements and software prerequisites as Front End Servers.</span></span> <span data-ttu-id="56655-114">Pour plus d’informations sur la configuration logicielle requise, voir [prise en charge du système d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="56655-114">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="15177-113">La configuration requise pour le système d’exploitation et les composants logiciels requis par le biais de l’application d’annonce sont les mêmes.</span><span class="sxs-lookup"><span data-stu-id="15177-113">The Announcement application has the same operating system requirements and software prerequisites as Front End Servers.</span></span> <span data-ttu-id="15177-114">Pour plus d’informations sur la configuration logicielle requise, voir [prise en charge du système d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="15177-114">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="56655-115">Tous les serveurs front-end ou les serveurs Standard Edition qui exécutent l’application d’annonce doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="56655-115">All Front End Servers or Standard Edition servers that run the Announcement application must have the Windows Media Format Runtime installed for servers running Windows Server 2008 R2, or Microsoft Media Foundation for servers running Windows Server 2012 or Windows Server 2012 R2.</span></span> <span data-ttu-id="56655-116">Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows.</span><span class="sxs-lookup"><span data-stu-id="56655-116">For Windows Server 2008 R2, the Windows Media Format Runtime is installed as part of Windows Desktop Experience.</span></span> <span data-ttu-id="56655-117">Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media audio (. WMA) que l’application d’annonce exécute pour les annonces et la musique.</span><span class="sxs-lookup"><span data-stu-id="56655-117">Windows Media Format Runtime or Microsoft Media Foundation is required for Windows Media Audio (.wma) files that the Announcement application plays for announcements and music.</span></span>
+<span data-ttu-id="15177-115">Tous les serveurs front-end ou les serveurs Standard Edition qui exécutent l’application d’annonce doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="15177-115">All Front End Servers or Standard Edition servers that run the Announcement application must have the Windows Media Format Runtime installed for servers running Windows Server 2008 R2, or Microsoft Media Foundation for servers running Windows Server 2012 or Windows Server 2012 R2.</span></span> <span data-ttu-id="15177-116">Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows.</span><span class="sxs-lookup"><span data-stu-id="15177-116">For Windows Server 2008 R2, the Windows Media Format Runtime is installed as part of Windows Desktop Experience.</span></span> <span data-ttu-id="15177-117">Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media audio (. WMA) que l’application d’annonce exécute pour les annonces et la musique.</span><span class="sxs-lookup"><span data-stu-id="15177-117">Windows Media Format Runtime or Microsoft Media Foundation is required for Windows Media Audio (.wma) files that the Announcement application plays for announcements and music.</span></span>
 
 </div>
 
 <div>
 
-## <a name="port-requirements"></a><span data-ttu-id="56655-118">Configuration requise pour les ports</span><span class="sxs-lookup"><span data-stu-id="56655-118">Port Requirements</span></span>
+## <a name="port-requirements"></a><span data-ttu-id="15177-118">Configuration requise pour les ports</span><span class="sxs-lookup"><span data-stu-id="15177-118">Port Requirements</span></span>
 
-<span data-ttu-id="56655-119">L’application d’annonce utilise le port suivant:</span><span class="sxs-lookup"><span data-stu-id="56655-119">The Announcement application uses the following port:</span></span>
+<span data-ttu-id="15177-119">L’application d’annonce utilise le port suivant :</span><span class="sxs-lookup"><span data-stu-id="15177-119">The Announcement application uses the following port:</span></span>
 
-  - <span data-ttu-id="56655-120">**Port 5071**   utilisé pour les demandes d’écoute SIP</span><span class="sxs-lookup"><span data-stu-id="56655-120">**Port 5071**   Used for SIP listening requests</span></span>
+  - <span data-ttu-id="15177-120">**Port 5071**   utilisé pour les demandes d’écoute SIP</span><span class="sxs-lookup"><span data-stu-id="15177-120">**Port 5071**   Used for SIP listening requests</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="56655-121">Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="56655-121">This port is the default setting, which you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet.</span></span> <span data-ttu-id="56655-122">Pour plus d’informations sur cette applet de connexion, consultez la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="56655-122">For details about this cmdlet, see the Lync Server Management Shell documentation.</span></span>
+> <span data-ttu-id="15177-121">Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="15177-121">This port is the default setting, which you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet.</span></span> <span data-ttu-id="15177-122">Pour plus d’informations sur cette applet de connexion, consultez la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="15177-122">For details about this cmdlet, see the Lync Server Management Shell documentation.</span></span>
 
 
 
@@ -85,9 +87,9 @@ ms.locfileid: "34846626"
 
 <div>
 
-## <a name="audio-file-requirements"></a><span data-ttu-id="56655-123">Conditions requises pour les fichiers audio</span><span class="sxs-lookup"><span data-stu-id="56655-123">Audio File Requirements</span></span>
+## <a name="audio-file-requirements"></a><span data-ttu-id="15177-123">Conditions requises pour les fichiers audio</span><span class="sxs-lookup"><span data-stu-id="15177-123">Audio File Requirements</span></span>
 
-<span data-ttu-id="56655-124">L’application d’annonce prend en charge le format de fichier Wave (. wav) et le format de fichier Windows Media audio (. WMA) pour la musique et les annonces.</span><span class="sxs-lookup"><span data-stu-id="56655-124">The Announcement application supports Wave (.wav) file format and Windows Media audio (.wma) file format for music and announcements.</span></span> <span data-ttu-id="56655-125">La configuration requise pour le fichier audio pour l’application d’annonce est identique à celle de l’application Response Group.</span><span class="sxs-lookup"><span data-stu-id="56655-125">Audio file requirements for the Announcement application are the same as for the Response Group application.</span></span> <span data-ttu-id="56655-126">Pour plus d’informations, voir [configuration technique requise pour Response Group dans Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).</span><span class="sxs-lookup"><span data-stu-id="56655-126">For details, see [Technical requirements for Response Group in Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).</span></span>
+<span data-ttu-id="15177-124">L’application d’annonce prend en charge le format de fichier Wave (. wav) et le format de fichier Windows Media audio (. WMA) pour la musique et les annonces.</span><span class="sxs-lookup"><span data-stu-id="15177-124">The Announcement application supports Wave (.wav) file format and Windows Media audio (.wma) file format for music and announcements.</span></span> <span data-ttu-id="15177-125">La configuration requise pour le fichier audio pour l’application d’annonce est identique à celle de l’application Response Group.</span><span class="sxs-lookup"><span data-stu-id="15177-125">Audio file requirements for the Announcement application are the same as for the Response Group application.</span></span> <span data-ttu-id="15177-126">Pour plus d’informations, voir [configuration technique requise pour Response Group dans Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).</span><span class="sxs-lookup"><span data-stu-id="15177-126">For details, see [Technical requirements for Response Group in Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).</span></span>
 
 </div>
 
