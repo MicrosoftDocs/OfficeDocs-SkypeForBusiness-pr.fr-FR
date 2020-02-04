@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir une nouvelle passerelle vidéo ou une nouvelle passerelle vidéo dans le générateur de topologie sont décrites en ligne dans créer un pool de ressources dans Skype entreprise Server.
-ms.openlocfilehash: bb8c0f0ac40edd298b9eb78246acaf0f2bd6b040
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 486896d71f963f9ac7fbfc6ac0754d8b733b3bab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277754"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702579"
 ---
 # <a name="add-vis-machine"></a>Ajout d’un ordinateur de serveur d’interopérabilité vidéo (VIS)
  

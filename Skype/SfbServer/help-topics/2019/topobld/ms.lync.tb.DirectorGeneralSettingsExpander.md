@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les paramètres d’un réalisateur existant, vous avez accès aux sections suivantes:'
-ms.openlocfilehash: 92d0026f2bc769f32ca635435cd71866efb75d3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour modifier les paramètres d’un réalisateur existant, vous avez accès aux sections suivantes :'
+ms.openlocfilehash: 5b58f74d7d343f2a4b57074dbc041938247ddc1f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280538"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702379"
 ---
 # <a name="director-general-settings-expander"></a>Développeur des paramètres généraux du directeur
  
-Pour modifier les paramètres d’un réalisateur existant, vous avez accès aux sections suivantes:
+Pour modifier les paramètres d’un réalisateur existant, vous avez accès aux sections suivantes :
   
 - Paramètres généraux
     
@@ -46,7 +46,7 @@ Surveiller SQL Server Store.
 
 Pour modifier ou spécifier des paramètres supplémentaires pour les services Web dans la liste des directeurs, vous pouvez modifier ou spécifier des paramètres dans les services Web internes et les services Web externes.
   
-Pour les **services Web internes** , vous pouvez spécifier les éléments suivants:
+Pour les **services Web internes** , vous pouvez spécifier les éléments suivants :
   
 > [!CAUTION]
 > Si vous avez plusieurs pools front-end ou serveur frontal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que **pool01.contoso.com**, vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de directeurs, ainsi que sur n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de directeurs.
@@ -55,7 +55,7 @@ Si vous sélectionnez Remplacer le nom de domaine complet, vous pouvez spécifie
   
 Vous pouvez spécifier des ports d’écoute et de publication pour HTTP et HTTPs requis par votre déploiement. Le paramètre par défaut du port 80 pour HTTP et du port 443 pour HTTPs est les paramètres les plus courants et ne doit généralement pas être modifié, sauf si vous avez des exigences spécifiques au sein de votre organisation et de votre structure d’infrastructure.
   
-Pour les **services Web externes**, vous pouvez spécifier les éléments suivants:
+Pour les **services Web externes**, vous pouvez spécifier les éléments suivants :
   
 Vous pouvez définir le nom de domaine complet des services Web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
   

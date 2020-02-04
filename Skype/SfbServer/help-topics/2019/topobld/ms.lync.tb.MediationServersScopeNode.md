@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: ad39efed00fcc3c90abd3c8e62c9171804dbdeb3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 906882b4cbb15e708e2150ff6d73617d123a9990
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299124"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701879"
 ---
 # <a name="mediation-servers-scope-node"></a>Nœud d’étendue des serveurs de médiation
  

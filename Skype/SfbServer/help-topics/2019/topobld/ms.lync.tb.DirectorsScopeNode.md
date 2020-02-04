@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools directeurs répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: def27a8e60437c4949115f7d48dd5493d063fa58
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efdf068b523114cabc3132449bdf5cc7748c4b1b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280507"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702279"
 ---
 # <a name="directors-scope-node"></a>Nœud d’étendue des directeurs
  

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
-ms.openlocfilehash: 3ab0e8d8aaf44c5debece47a0507ae47c3d661f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fcd0e916cf57fa1ee1830e9d64c540b2dca3a20d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292569"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704386"
 ---
 # <a name="response-groups-queue"></a>File d’attente de groupes Response Groups
 
@@ -28,7 +28,7 @@ La page de la**file d’attente** de **groupes** - de réponse affiche la liste 
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page de la**file d’attente** de **groupes** - de réponse:
+Vous pouvez effectuer les tâches suivantes à partir de la page de la**file d’attente** de **groupes** - de réponse :
 
 - Créer une nouvelle file d’attente
 

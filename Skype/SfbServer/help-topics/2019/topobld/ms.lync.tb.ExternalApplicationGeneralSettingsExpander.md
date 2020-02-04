@@ -6,25 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
-ms.openlocfilehash: 96118d968a5c9fdf54a78df24019426e562220dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dffeb52ab1633a936a73cb2270a204d26ccf1056
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292779"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702169"
 ---
 # <a name="external-application-general-settings-expander"></a>Développeur des paramètres généraux d’une application externe
  
 Pour modifier les propriétés d’un serveur d’application de confiance qui a déjà été défini, suivez les instructions ci-dessous.
   
-Vous pouvez modifier deux sections:
+Vous pouvez modifier deux sections :
   
 > Paramètres généraux
 > 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-1-1) doit être activé et définissent son mode d’utilisation. Elles indiquent également la façon dont les informations d’emplacement sont traitées pour les utilisateurs et les contacts.
-ms.openlocfilehash: e86bf3c37350f0e7e571068eb276aa0b237dc86c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 82126acf09ed4e0cd1b98b20f22760f23038226c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291897"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704609"
 ---
 # <a name="location-policy"></a>Stratégie d’emplacement
 
@@ -26,11 +26,11 @@ Les stratégies d’emplacement déterminent si le service E9-1-1 (Enhanced 9-
 
 Les stratégies d’emplacement incluent la stratégie globale, ainsi, éventuellement, qu’une ou plusieurs stratégies de site et utilisateur :
 
-- **Politique globale:** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
+- **Politique globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
 
-- **Stratégies de site (facultatif):** Vous pouvez créer une ou plusieurs stratégies d’emplacement de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
+- **Stratégies de site (facultatif) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
 
-- **Stratégies utilisateur (facultatif):** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
+- **Stratégies utilisateur (facultatif) :** Vous pouvez créer une ou plusieurs stratégies d’emplacement utilisateur, qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
 > [!NOTE]
 > Vous pouvez également attribuer des stratégies d’emplacement à des sites réseau, qui sont des groupes de sous-réseaux. Les stratégies d’emplacement attribuées aux sites réseau prévalent sur toutes les autres stratégies utilisateur. Pour plus d’informations sur l’attribution de stratégies d’emplacement aux sites réseau à l’aide d’applets de connexion, voir [Ajouter une stratégie d’emplacement à un site réseau dans Skype entreprise Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Pour plus d’informations sur l’utilisation du panneau de configuration Skype entreprise Server pour assigner une stratégie d’emplacement à un site réseau, voir [configurer les sites réseau](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
@@ -64,7 +64,7 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Identifie la stratégie d’emplacement.
 
-- **Scope** Identifie l’étendue de la stratégie d’emplacement: global, site ou utilisateur.
+- **Scope** Identifie l’étendue de la stratégie d’emplacement : global, site ou utilisateur.
 
 - **E9-1-1** Activé si les utilisateurs auxquels cette stratégie d’emplacement est affectée sont activés pour E9-1-1.
 

@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, vous pouvez procéder comme suit:'
-ms.openlocfilehash: c16cd1ad5af24842c15844ad8d3f6c2d1274754d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, vous pouvez procéder comme suit :'
+ms.openlocfilehash: 4ad336ca8ddc6e5a2a63a90a9299289bf643aa87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294368"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702399"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Développeur des paramètres généraux du service MCU audio/vidéo
  
-Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, vous pouvez procéder comme suit:
+Pour modifier les propriétés d’un pool de serveurs de conférence A/V que vous avez déjà défini, vous pouvez procéder comme suit :
   
 ## <a name="general-settings"></a>Paramètres généraux
 
@@ -33,7 +33,7 @@ Mettez à jour le nom de domaine complet (FQDN) du pool de serveurs de conféren
 Pour associer un pool de serveurs de conférence A/V, sélectionnez le ou les pools frontaux que vous devez associer au pool de serveurs de conférence A/V.
   
 > [!NOTE]
-> Si aucun pool frontal ne s’affiche dans le volet **Sélectionner les listes frontales à associer à ce pool de conférence a/v** , vous avez colocalisé le serveur de conférence a/v avec le pool frontal ou n’a pas sélectionné pour ajouter des conférences dans les **fonctionnalités et section fonctionnalités** des propriétés du pool frontal.
+> Si aucun pool frontal ne s’affiche dans le volet **Sélectionner les pools frontaux à associer à ce pool de conférence a/v** , vous avez colocalisé le serveur de conférence a/v avec le pool frontal ou ne l’avez pas sélectionné pour ajouter une conférence dans la section **fonctionnalités et fonctionnalités** des propriétés du pool frontal.
   
 
 Lorsque vous avez terminé, cliquez sur **OK** pour achever la modification des paramètres du pool de serveurs de conférence A/V. Cliquez sur **Annuler** pour annuler les modifications.

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: Pour Demander, Assigner, Supprimer ou Afficher des certificats, utilisez l’Assistant Certificat. Vous devez être connecté en tant que membre du groupe RTCUniversalServerAdmins. Pour demander un certificat à une autorité de certification publique, il n’est pas nécessaire que vous soyez membre d’autres groupes. Pour demander un certificat à partir de l’infrastructure à clé publique (PKI) de votre organisation, vous devez vérifier ce qu’il vous faut (le cas échéant). Lors de la demande, vous pouvez entrer d’autres informations d’identification qui seront utilisées pour demander le certificat à partir de l’autorité de certification émettrice de votre PKI.
-ms.openlocfilehash: 0ae4a9f5bf80cc33cd743349c5353f40f2fdb986
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75f324415bbf0af96f79b0e6e5f00e1ee3faaab5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301903"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701139"
 ---
 # <a name="certificate-wizard"></a>Assistant Certificat
  

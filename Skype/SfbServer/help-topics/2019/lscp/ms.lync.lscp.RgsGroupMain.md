@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Un groupe d’agents est un groupe de personnes qui sont désignés pour répondre aux appels de groupe de réponse.
-ms.openlocfilehash: 279a8cbedebdefef64aebd887092d73cc3cd5c3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f9caf3ec7296ace681a753c401e0a55da874f559
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292583"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704380"
 ---
 # <a name="response-groups-group"></a>Services Response Group : groupe
 
@@ -28,7 +28,7 @@ La page groupe **Response** - **groups** affiche la liste de tous les groupes d�
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page de**groupe** **Response** - Groups:
+Vous pouvez effectuer les tâches suivantes à partir de la page de**groupe** **Response** - Groups :
 
 - Créer un groupe d’agents
 

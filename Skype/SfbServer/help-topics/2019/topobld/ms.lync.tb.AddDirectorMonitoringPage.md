@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous pouvez définir la gestion SQL Server Store en configurant les propriétés suivantes:'
-ms.openlocfilehash: dd6381588580bb5761fdc727630b58d115921d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Vous pouvez définir la gestion SQL Server Store en configurant les propriétés suivantes :'
+ms.openlocfilehash: 2a76c537912ae28513b1c9895b9e787de0e11eff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305180"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703199"
 ---
 # <a name="add-director-monitoring"></a>Ajouter une analyse de directeur
  
-Vous pouvez **définir la gestion SQL Server Store** en configurant les propriétés suivantes:
+Vous pouvez **définir la gestion SQL Server Store** en configurant les propriétés suivantes :
   
 - **Surveiller SQL Server Store**: sélectionnez un nom de domaine complet SQL Server (FQDN) (et éventuellement une instance de SQL Server nommée) dans la liste.
     

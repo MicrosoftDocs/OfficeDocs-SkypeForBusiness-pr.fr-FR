@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le générateur de topologie, vous pouvez effectuer des tâches liées au serveur exécutant l’archivage en cliquant avec le bouton droit sur le pool dans l’arborescence de la console et en sélectionnant Modifier les propriétés. À partir de la page modifier les propriétés, vous pouvez modifier le nom de domaine complet (FQDN) du serveur exécutant l’archivage, la base de données d’archivage SQL Server et la Banque de fichiers d’archivage.
-ms.openlocfilehash: 6fb52ca40dc7ed98a12c43d848f6c2b41af275a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 131e2b2f13d4e183e3825dc59c18b1af7436eca4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281366"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702529"
 ---
 # <a name="archiving-server-scope-node"></a>Nœud d’étendue du serveur d’archivage
  

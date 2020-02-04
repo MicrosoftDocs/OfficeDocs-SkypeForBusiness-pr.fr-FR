@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestOrgInfo
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: Le volet informations sur l’organisation vous permet de spécifier le nom de votre organisation et une unité d’organisation (en général, la division ou le service) qui demande le certificat. Les informations tapées dans les zones organisation et texte de l’unité d’organisation s’affichent sur le certificat et sont utilisées pour identifier les personnes qui ont demandé le certificat, lorsque le certificat est consulté par d’autres utilisateurs.
-ms.openlocfilehash: 29a2b6f46019eafc1fd20943a4b633934f10209d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 876b7e10abd90a2e03c0a653193062fa1c25f250
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701173"
 ---
 # <a name="certificate-request-organization-information"></a>Demande de certificat (informations sur l’organisation)
  
