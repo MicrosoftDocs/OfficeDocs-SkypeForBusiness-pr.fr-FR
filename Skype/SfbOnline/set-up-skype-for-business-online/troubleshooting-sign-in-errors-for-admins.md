@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221490"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692769"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
@@ -194,7 +195,7 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Mettez à jour l’attribut **msRTCSIP-UserEnabled** pour tous les utilisateurs affectés sur **TRUE**.
 
-2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
+2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/fr-FR/library/hh967642.aspx).
 
 Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utiliser le guide de résolution des problèmes du Support Microsoft

@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746287"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707549"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -74,7 +74,6 @@ L’expérience des invités comporte des limitations de par sa conception. Assu
 - Créer ou réviser une équipe
 - Rechercher une équipe
 - Télécharger des fichiers dans une conversation de personne à personne
-- Les invités peuvent toujours rechercher et trouver des utilisateurs (à l’extérieur de leur équipe) s’ils connaissent l’ID d’e-mail complet de l’utilisateur. Pour empêcher cela, les administrateurs informatiques peuvent utiliser des modèles tels que [la recherche étendue dans l’annuaire](teams-scoped-directory-search.md) qui ont la possibilité de restreindre les invités à leur propre LAG virtuelle.
 - Pour l’instant, Teams prend uniquement en charge les types d’États 1 et 2 des utilisateurs invités [définis par Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 Pour consulter la liste complète de ce qu’un invité peut et ne peut pas faire dans Teams, voir tableau [comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Pour en savoir plus sur l’accès invité au niveau Office 365, lisez [Ajout d’invités à des groupes Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
