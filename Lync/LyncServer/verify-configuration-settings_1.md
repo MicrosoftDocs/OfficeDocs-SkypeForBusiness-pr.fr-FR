@@ -3,6 +3,8 @@ title: Vérifier les paramètres de configuration
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc4d13f3bdd5af1a2c9b90e190775522ea6f11b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846027"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846027"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Après avoir fusionné la topologie et exécuté l’applet de contrôle **Import-CsLegacyConfiguration** , assurez-vous que les stratégies et paramètres de votre serveur Office Communications Server 2007 R2 ont été importés dans Lync Server 2013. Le tableau suivant répertorie les stratégies et les paramètres que vous devez vérifier.
 
@@ -49,8 +51,8 @@ Après avoir fusionné la topologie et exécuté l’applet de contrôle **Impor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Si vous utilisez cette charge de travail:</th>
-<th>Vérifiez les stratégies et les paramètres suivants:</th>
+<th>Si vous utilisez cette charge de travail :</th>
+<th>Vérifiez les stratégies et les paramètres suivants :</th>
 </tr>
 </thead>
 <tbody>
@@ -121,12 +123,12 @@ Après avoir fusionné la topologie et exécuté l’applet de contrôle **Impor
     
 
     > [!NOTE]  
-    > Si les <STRONG>participants anonymes</STRONG> sont définis pour <STRONG>appliquer par utilisateur</STRONG> dans votre stratégie de conférence Office Communications Server 2007 R2, deux stratégies de conférence sont créées lors de la migration: une avec <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> défini sur <STRONG>Vrai</STRONG> et un avec <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> défini sur <STRONG>false</STRONG>.
+    > Si les <STRONG>participants anonymes</STRONG> sont définis pour <STRONG>appliquer par utilisateur</STRONG> dans votre stratégie de conférence Office Communications Server 2007 R2, deux stratégies de conférence sont créées lors de la migration : une avec <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> défini sur <STRONG>true</STRONG> et une avec <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> définie sur <STRONG>false</STRONG>.
 
     
     </div>
 
-4.  Pour vérifier la présence de plans de numérotation, cliquez sur **routage des communications vocales**, sur **plan**de numérotation, puis vérifiez que tous les plans de numérotation dans votre environnement Office Communicator 2007 R2 sont inclus dans la liste.
+4.  Pour vérifier la présence de plans de numérotation, cliquez sur **routage des communications vocales**, sur **plan de numérotation**, puis vérifiez que tous les plans de numérotation dans votre environnement Office Communicator 2007 R2 sont inclus dans la liste.
     
     <div>
     
@@ -148,21 +150,21 @@ Après avoir fusionné la topologie et exécuté l’applet de contrôle **Impor
     
     </div>
 
-6.  Pour vérifier les itinéraires vocaux importés, cliquez sur **** **routage des communications**vocales, sur routage, puis vérifiez que tous les itinéraires vocaux dans votre environnement Office Communicator 2007 R2 sont inclus dans la liste.
+6.  Pour vérifier les itinéraires vocaux importés, cliquez sur **routage des communications**vocales, sur **routage, puis**Vérifiez que tous les itinéraires vocaux dans votre environnement Office Communicator 2007 R2 sont inclus dans la liste.
 
 7.  Pour vérifier les paramètres d’utilisation RTC importés, cliquez sur **routage des communications vocales**, sur **utilisation PSTN**, puis vérifiez que les paramètres d’utilisation RTC de votre environnement Office Communicator 2007 R2 sont inclus dans la liste.
 
 8.  Pour vérifier les stratégies d’accès externe importées, cliquez sur **Fédération et accès externe**, cliquez sur **stratégie d’accès externe**, puis vérifiez que toutes les stratégies d’accès externe dans votre environnement Office Communicator 2007 R2 sont incluses dans la liste.
 
-9.  Pour vérifier les stratégies d’archivage, cliquez sur **surveillance et archivage**, sur **stratégie**d’archivage, puis vérifiez que toutes les stratégies d’archivage de votre environnement Office Communications Server 2007 R2 sont incluses dans la liste.
+9.  Pour vérifier les stratégies d’archivage, cliquez sur **surveillance et archivage**, sur **stratégie d’archivage**, puis vérifiez que toutes les stratégies d’archivage de votre environnement Office Communications Server 2007 R2 sont incluses dans la liste.
 
 10. Ouvrez Lync Server Management Shell.
 
-11. Pour vérifier les stratégies de présence, à partir de la ligne de commande, tapez ce qui suit:
+11. Pour vérifier les stratégies de présence, à partir de la ligne de commande, tapez ce qui suit :
     
         Get-CsPresencePolicy
     
-    En examinant le nom dans le **** paramètre Identity, vérifiez que toutes les stratégies de présence de votre environnement Office Communications Server 2007 R2 ont été importées.
+    En examinant le nom dans le paramètre **Identity** , vérifiez que toutes les stratégies de présence de votre environnement Office Communications Server 2007 R2 ont été importées.
 
 </div>
 
@@ -174,11 +176,11 @@ Après avoir fusionné la topologie et exécuté l’applet de contrôle **Impor
 
 2.  Dans le tableau ci-dessous, exécutez les applets de commande pour vérifier les stratégies et les paramètres.
     
-    La syntaxe de ces applets de commande est semblable à l’exemple suivant:
+    La syntaxe de ces applets de commande est semblable à l’exemple suivant :
     
         Get-CsConferencingPolicy
     
-    Pour plus d’informations sur ces cmdlets, exécutez:
+    Pour plus d’informations sur ces cmdlets, exécutez :
     
         Get-Help <cmdlet name> -Detailed
 
@@ -190,8 +192,8 @@ Après avoir fusionné la topologie et exécuté l’applet de contrôle **Impor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pour cette stratégie ou ce paramètre:</th>
-<th>Utilisez cette applet de cmdlet:</th>
+<th>Pour cette stratégie ou ce paramètre :</th>
+<th>Utilisez cette applet de cmdlet :</th>
 </tr>
 </thead>
 <tbody>

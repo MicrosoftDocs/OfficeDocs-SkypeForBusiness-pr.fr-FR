@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: créer une collection de paramètres de configuration de Trunk'
+title: 'Lync Server 2013 : créer une collection de paramètres de configuration de Trunk'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new collection of trunk configuration settings
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc29d75fc90156516751ad53712b53f4848ab5bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838139"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services. Ces paramètres spécifient, par exemple :
 
@@ -45,7 +47,7 @@ Les paramètres de configuration du Trunk SIP définissent la relation et les fo
 
 Lorsque vous installez Microsoft Lync Server 2013, une collection globale de paramètres de configuration de Trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-Lors de la création des paramètres de configuration de Trunk SIP à l’aide du panneau de configuration de Lync Server, les options suivantes sont disponibles:
+Lors de la création des paramètres de configuration de Trunk SIP à l’aide du panneau de configuration de Lync Server, les options suivantes sont disponibles :
 
 
 <table>
@@ -133,7 +135,7 @@ Lors de la création des paramètres de configuration de Trunk SIP à l’aide d
 </tr>
 <tr class="odd">
 <td><p>Numéro converti à tester</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.</p></td>
 </tr>
 <tr class="even">
@@ -148,17 +150,17 @@ Lors de la création des paramètres de configuration de Trunk SIP à l’aide d
 </tr>
 <tr class="even">
 <td><p>Numéro de téléphone à tester</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Numéro appelant</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>Numéro appelé</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de la personne appelée.</p></td>
 </tr>
 </tbody>

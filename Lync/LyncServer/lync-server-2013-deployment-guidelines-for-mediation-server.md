@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: instructions de déploiement pour le serveur de médiation'
+title: 'Lync Server 2013 : instructions de déploiement pour le serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Mediation Server
 ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 400f8cceeb86d407297b3f564c01266a477ca0ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762672"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831495"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-12_
+_**Dernière modification de la rubrique :** 2012-10-12_
 
 Cette rubrique décrit les recommandations en matière de planification pour le déploiement de médiation Server. Après avoir examiné ces recommandations, nous vous conseillons d’utiliser l’outil de planification pour créer et afficher des topologies de remplacement possibles, qui peuvent servir de modèles pour la topologie de déploiement finale que vous décidez de déployer.
 
@@ -51,7 +53,7 @@ Le serveur de médiation est par défaut colocalisé sur le serveur principal ou
 
 Lors de la planification, veillez à prendre en compte les exigences de traitement multimédia pour les appels RTC et les conférences A/V qui ne sont pas configurées pour le recours au contenu multimédia, ainsi que le traitement requis pour gérer les interactions de signalisation en fonction du nombre d’appels vers des heures de disponibilité qui doivent être pris en charge. S’il n’y a pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. les passerelles RTC, IP PBX et SBCs doivent être divisées en sous-ensembles contrôlés par les serveurs de médiation colocalisés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
 
-Si vous avez déployé des passerelles RTC, des PBX IP ou des contrôleurs de frontière de session (SBCs) qui ne prennent pas en charge les fonctionnalités appropriées pour interagir avec un pool de serveurs de médiation, y compris les suivants, ils devront être associés à un pool autonome composé de d’un serveur de médiation unique:
+Si vous avez déployé des passerelles RTC, des PBX IP ou des contrôleurs de frontière de session (SBCs) qui ne prennent pas en charge les fonctionnalités appropriées pour interagir avec un pool de serveurs de médiation, y compris les suivants, ils devront être associés à un pool autonome composé de d’un serveur de médiation unique :
 
   - Effectuer l’équilibrage de charge DNS (Layer Domain Name System) entre les serveurs de médiation d’un pool (ou sinon, le trafic est uniformément routé vers tous les serveurs de médiation d’un pool)
 
@@ -87,7 +89,7 @@ Enfin, si votre site central possède un PBX TDM ou si votre PBX IP n’élimine
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «améliorations apportées à l’échelle de <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>réception dans Windows Server». Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section « améliorations apportées à l’échelle de <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>réception dans Windows Server ». Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
 
 
 

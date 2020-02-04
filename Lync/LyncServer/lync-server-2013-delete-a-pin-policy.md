@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer une stratégie de code confidentiel'
+title: 'Lync Server 2013 : supprimer une stratégie de code confidentiel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a PIN policy
 ms:assetid: 7c378927-2e41-418e-9721-327021bd2e45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85b8f77056c61fbeed32ab06f6ce4296bc32105f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc11f1383ec652c512fe5542d9a6780ce028c516
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831645"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831645"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Suivez cette procédure pour supprimer une stratégie de code confidentiel.
 
@@ -69,7 +71,7 @@ Suivez cette procédure pour supprimer une stratégie de code confidentiel.
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de code confidentiel à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de passe Remove-CsPinPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de passe Remove-CsPinPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

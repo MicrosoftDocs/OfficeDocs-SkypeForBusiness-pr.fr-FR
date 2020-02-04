@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Fonctionnalités de serveurs frontaux, de messagerie 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Features and functionality of Front End Servers, instant messaging, and presence
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 739825eed3c8a3ba8239849e0c17c449180a2d95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4a76dfed553e85838739c7c348e5bc53fc9943a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831157"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831157"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-17_
+_**Dernière modification de la rubrique :** 2013-03-17_
 
-Les serveurs front-end fournissent la plupart des fonctionnalités de Lync Server. Il existe deux éditions disponibles: Lync Server Enterprise Edition, principalement conçu pour les grandes organisations et Lync Server Standard Edition, conçu essentiellement pour les petites organisations qui souhaitent investir plus en ressources matérielles et ne pas Exigez une haute disponibilité. Les deux éditions prennent en charge toutes les charges de travail du serveur Lync, notamment la messagerie instantanée, la présence, les conférences et l’voix entreprise.
+Les serveurs front-end fournissent la plupart des fonctionnalités de Lync Server. Il existe deux éditions disponibles : Lync Server Enterprise Edition, principalement conçu pour les grandes organisations et Lync Server Standard Edition, conçu essentiellement pour les petites organisations qui souhaitent investir plus en ressources matérielles et ne pas Exigez une haute disponibilité. Les deux éditions prennent en charge toutes les charges de travail du serveur Lync, notamment la messagerie instantanée, la présence, les conférences et l’voix entreprise.
 
 La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
 

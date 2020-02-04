@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: marquer une application Microsoft SIP Processing Language (MSPL) comme critique ou non critique'
+title: 'Lync Server 2013 : marquer une application Microsoft SIP Processing Language (MSPL) comme critique ou non critique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182598(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 419a162e355434972216f0c47d79850af28cd244
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54d8b0858145930e0a2144ade55934b39394dcaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827647"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827647"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les applications serveur MSPL (Microsoft SIP Processing Language) sont des applications qui utilisent le langage de script MSPL au lieu de l’API 2010 Microsoft Lync. Certaines applications serveur MSPL sont spécifiées comme étant critiques. Si le script est essentiel, le script doit commencer au démarrage du système pour que Lync Server 2013 commence. Si le script échoue alors que Lync Server est en cours d’exécution, le serveur ne s’arrête pas, mais il cesse d’envoyer du trafic au script et il écrit les erreurs dans le journal des événements.
 
@@ -55,7 +57,7 @@ Tous les scripts ne prennent pas en charge cette option. Par exemple, le script 
 
 5.  Cliquez sur **action**.
 
-6.  Cliquez sur **marquer comme critique** ou désélectionner **comme critique** (autrement dit, si le script prend en charge cette option).
+6.  Cliquez sur **marquer comme critique** ou **désélectionner comme critique** (autrement dit, si le script prend en charge cette option).
 
 </div>
 

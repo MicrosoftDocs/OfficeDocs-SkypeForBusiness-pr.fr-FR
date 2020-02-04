@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: présentation des rapports créés par l’analyseur de meilleures pratiques'
+title: 'Lync Server 2013 : présentation des rapports créés par l’analyseur de meilleures pratiques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0903c3bafc4017d5455c188c66de3e1f2cf0b178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2262c490d84ec6f93ff395a9c8ec38d81c82e7de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846475"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
 L’analyseur de meilleures pratiques fournit plusieurs types de rapport organisés pour faciliter l’analyse et la résolution des problèmes. L’analyseur des pratiques recommandées identifie les problèmes tels que les erreurs, avertissements et autres informations.
 
@@ -41,7 +43,7 @@ L’analyseur de meilleures pratiques fournit plusieurs types de rapport organis
 
 ## <a name="reports"></a>Rapports
 
-Vous pouvez accéder aux résultats d’une analyse en consultant chacun des rapports suivants:
+Vous pouvez accéder aux résultats d’une analyse en consultant chacun des rapports suivants :
 
   - ****   Les rapports de liste de rapports sont organisés selon des critères spécifiques. Vous pouvez organiser les résultats par classe, par gravité ou par problème. Par exemple, si vous organisez les résultats par classe, les problèmes liés aux directeurs sont inclus dans la section directeurs du rapport. Vous pouvez voir tous les problèmes ou uniquement les éléments d’information. Vous pouvez rechercher des éléments spécifiques dans un rapport de liste, tels que la mémoire. Vous pouvez également imprimer le rapport ou l’exporter.
 
@@ -55,7 +57,7 @@ Vous pouvez accéder aux résultats d’une analyse en consultant chacun des rap
 
 ## <a name="issues"></a>Aspects
 
-Les rapports générés par meilleurs pratiques Analyzer indiquent des problèmes spécifiques identifiés lors de l’analyse de votre environnement, notamment les types de problèmes suivants:
+Les rapports générés par meilleurs pratiques Analyzer indiquent des problèmes spécifiques identifiés lors de l’analyse de votre environnement, notamment les types de problèmes suivants :
 
   - **Erreurs**   problèmes critiques qui nécessitent d’apporter des modifications à votre environnement. Par exemple, si les composants principaux de Lync Server 2013 ne sont pas installés, une erreur est journalisée.
     
@@ -71,11 +73,11 @@ Les rapports générés par meilleurs pratiques Analyzer indiquent des problème
 
 L’analyseur de meilleures pratiques pour Lync Server 2013 n’apporte pas de modifications à votre environnement pour résoudre les problèmes. L’analyse détecte uniquement les problèmes potentiels et fournit des rapports contenant des informations sur la résolution de chaque problème.
 
-Si vous cliquez sur un problème, une explication et certaines options apparaissent pour des problèmes spécifiques. Ensuite, vous pouvez effectuer l’une des opérations suivantes:
+Si vous cliquez sur un problème, une explication et certaines options apparaissent pour des problèmes spécifiques. Ensuite, vous pouvez effectuer l’une des opérations suivantes :
 
   - Recherchez des informations plus détaillées sur le problème et comment le résoudre.
 
-  - Ne plus afficher les problèmes dans les rapports:
+  - Ne plus afficher les problèmes dans les rapports :
     
       - Ne plus afficher de problèmes pour l’instance sélectionnée.
     

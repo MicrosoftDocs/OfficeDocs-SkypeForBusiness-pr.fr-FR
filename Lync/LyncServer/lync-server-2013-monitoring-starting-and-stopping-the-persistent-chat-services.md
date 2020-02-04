@@ -3,6 +3,8 @@ title: Surveillance, démarrage et arrêt des services de conversation permanent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring, starting, and stopping the Persistent Chat services
 ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398105(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e84900789a27295087791d8d3e8fa9d8bd0bbec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5d6f5a80a52c4bb506240dfbdf5a28929c6f3f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826590"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826590"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
-Les services de chat permanent et de conformité des conversations permanent font partie de la topologie Lync Server 2013 et peuvent donc être surveillés, arrêtés et démarrés à l’aide des applets de contrôle Windows PowerShell, **Get-CsWindowsService**, ** Stop-CsWindowsService**et **Démarrez-CsWindowsService**, respectivement.
+Les services de chat permanent et de conformité aux conversations permanent font partie de la topologie Lync Server 2013 et peuvent donc être surveillés, arrêtés et démarrés à l’aide des applets de commande Windows PowerShell, **Get-CsWindowsService**, **Stop-CsWindowsService**et **Start-CsWindowsService**, respectivement.
 
 </div>
 

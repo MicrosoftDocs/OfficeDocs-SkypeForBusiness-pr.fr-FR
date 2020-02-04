@@ -3,6 +3,8 @@ title: Test de l’audiovisuel et des certificats OAuth en utilisant Set-CsCerti
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846793"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846793"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-13_
+_**Dernière modification de la rubrique :** 2012-11-13_
 
 Les communications audio/vidéo (A/V) sont un composant clé de Microsoft Lync Server 2013. Les fonctionnalités telles que le partage d’application et les conférences audio et vidéo sont basées sur les certificats attribués au service Edge A/V, en particulier le service d’authentification A/V.
 
@@ -45,13 +47,13 @@ Les communications audio/vidéo (A/V) sont un composant clé de Microsoft Lync S
 > <LI>
 > <P>Cette nouvelle fonctionnalité est conçue pour fonctionner pour le service Edge A/V et le certificat <EM>OAuthTokenIssuer</EM> . D’autres types de certificats peuvent être configurés avec le service Edge A/V et le type de certificat OAuth, mais ils ne pourront pas bénéficier du comportement de coexistence du certificat de service Edge A/V.</P>
 > <LI>
-> <P>Les applets de certification PowerShell de Lync Server Management Shell utilisées pour gérer les certificats Microsoft Lync Server 2013 font référence au certificat de service A/V Edge en tant que type de certificat <EM>AudioVideoAuthentication</EM> et au certificat OAuthServer en tant que type <EM> OAuthTokenIssuer</EM>. Dans la suite de cette rubrique, les certificats seront désignés par le même type d’identificateur, <EM>AudioVideoAuthentication</EM> et <EM>OAuthTokenIssuer</EM> de manière à les identifier de manière unique.</P></LI></OL>
+> <P>Les applets de certification PowerShell Lync Server Management Shell utilisées pour gérer les certificats Microsoft Lync Server 2013 font référence au certificat de service A/V, comme le type de certificat <EM>AudioVideoAuthentication</EM> et au certificat OAuthServer en tant que type <EM>OAuthTokenIssuer</EM>. Dans la suite de cette rubrique, les certificats seront désignés par le même type d’identificateur, <EM>AudioVideoAuthentication</EM> et <EM>OAuthTokenIssuer</EM> de manière à les identifier de manière unique.</P></LI></OL>
 
 
 
 </div>
 
-Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration du certificat entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Pour résoudre ce problème, une nouvelle fonctionnalité de Lync Server 2013 résout le problème: la possibilité de mettre à niveau un nouveau certificat à l’avance de l’ancien et de laisser fonctionner les deux certificats pour une période donnée. Cette fonctionnalité utilise des fonctionnalités mises à jour dans la cmdlet Set-CsCertificate Lync Server Management Shell. Le nouveau paramètre –Roll, avec le paramètre –EffectiveDate existant, placera le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
+Le service d’authentification A/V est responsable de l’émission des jetons utilisés par les clients et autres consommateurs A/V. Les jetons sont générés à partir des attributs du certificat et l’expiration du certificat entraîne la perte de la connexion et la nécessité de se reconnecter avec un nouveau jeton généré par le nouveau certificat. Pour résoudre ce problème, une nouvelle fonctionnalité de Lync Server 2013 résout le problème : la possibilité de mettre à niveau un nouveau certificat à l’avance de l’ancien et de laisser fonctionner les deux certificats pour une période donnée. Cette fonctionnalité utilise des fonctionnalités mises à jour dans la cmdlet Set-CsCertificate Lync Server Management Shell. Le nouveau paramètre –Roll, avec le paramètre –EffectiveDate existant, placera le nouveau certificat AudioVideoAuthentication dans le magasin de certificats. L’ancien certificat AudioVideoAuthentication sera conservé pour permettre la validation des jetons émis. Après la mise en place du nouveau certificat AudioVideoAuthentication, la série d’événements suivante se produira :
 
 <div>
 
@@ -65,15 +67,15 @@ Le service d’authentification A/V est responsable de l’émission des jetons 
 
 Des informations supplémentaires sont nécessaires pour bien comprendre vos options et spécifications quand vous utilisez l’applet de commande Set-CsCertificate, par exemple, lorsque vous l’utilisez pour créer des certificats transitoires avant que le certificat actuel expire. Le paramètre –Roll est important, mais n’a, en substance, qu’une seule utilité. Si vous le définissez sous forme de paramètre, vous indiquez à Set-CsCertificate que vous fournirez des informations sur le certificat qui sera affecté, d’après le paramètre –Type (par exemple, AudioVideoAuthentication et OAuthTokenIssuer), quand le certificat entrera en vigueur selon le paramètre –EffectiveDate.
 
-**-Roll:** Le paramètre – Roll est obligatoire et dispose de dépendances qui doivent être fournies conjointement. Paramètres requis pour définir entièrement les certificats qui seront touchés et la manière dont ils sont appliqués:
+**-Roll :** Le paramètre – Roll est obligatoire et dispose de dépendances qui doivent être fournies conjointement. Paramètres requis pour définir entièrement les certificats qui seront touchés et la manière dont ils sont appliqués :
 
-**-EffectiveDate:** Le paramètre – EffectiveDate définit le moment où le nouveau certificat devient coactif avec le certificat actuel. Le – EffectiveDate peut être proche de la date d’expiration du certificat actuel ou bien il peut s’agir d’une période de temps plus longue. Une valeur minimale recommandée – EffectiveDate pour le certificat AudioVideoAuthentication serait de 8 heures, qui correspond à la durée de vie du jeton par défaut pour les jetons de service Edge AV émis à l’aide du certificat AudioVideoAuthentication.
+**-EffectiveDate :** Le paramètre – EffectiveDate définit le moment où le nouveau certificat devient coactif avec le certificat actuel. Le – EffectiveDate peut être proche de la date d’expiration du certificat actuel ou bien il peut s’agir d’une période de temps plus longue. Une valeur minimale recommandée – EffectiveDate pour le certificat AudioVideoAuthentication serait de 8 heures, qui correspond à la durée de vie du jeton par défaut pour les jetons de service Edge AV émis à l’aide du certificat AudioVideoAuthentication.
 
 Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d’avance (recouvrement) doit répondre à différentes spécifications pour que le certificat puisse entrer en vigueur. Le temps d’avance minimal du certificat OAuthTokenIssuer doit être de 24 heures avant l’heure d’expiration du certificat en cours. L’heure d’avance étendue pour la coexistence est due aux autres rôles de serveur qui dépendent du certificat OAuthTokenIssuer (Exchange Server, par exemple), qui possède une durée de conservation supérieure pour les clés de chiffrement et d’authentification créées à l’aide de certificats.
 
-**-Empreinte numérique:** L’empreinte numérique est un attribut du certificat unique de ce certificat. Le paramètre-d’empreinte numérique est utilisé pour identifier le certificat qui sera affecté par les actions de l’applet de certification Set-CsCertificate.
+**-Empreinte numérique :** L’empreinte numérique est un attribut du certificat unique de ce certificat. Le paramètre-d’empreinte numérique est utilisé pour identifier le certificat qui sera affecté par les actions de l’applet de certification Set-CsCertificate.
 
-**-Type:** Le paramètre – type peut accepter un type d’utilisation de certificat unique ou une liste séparée par des virgules des types d’utilisation de certificats. Les types de certificats sont ceux qui identifient l’objet du certificat sur l’applet de certification et sur le serveur. Par exemple, tapez AudioVideoAuthentication doit être utilisé par le service Edge A/V et le service d’authentification AV. Si vous décidez de mettre en place des certificats d’un type différent en même temps, vous devez prendre en considération le délai d’exécution effectif le plus long requis pour les certificats. Par exemple, vous devez organiser des certificats de type AudioVideoAuthentication et OAuthTokenIssuer. Le minimum-EffectiveDate doit être le plus important des deux certificats, dans le cas présent OAuthTokenIssuer, dont le délai de 24 heures est minimal. Si vous ne souhaitez pas organiser le certificat AudioVideoAuthentication avec un délai de 24 heures, emphasez-le séparément avec un EffectiveDate qui répond à vos besoins.
+**-Type :** Le paramètre – type peut accepter un type d’utilisation de certificat unique ou une liste séparée par des virgules des types d’utilisation de certificats. Les types de certificats sont ceux qui identifient l’objet du certificat sur l’applet de certification et sur le serveur. Par exemple, tapez AudioVideoAuthentication doit être utilisé par le service Edge A/V et le service d’authentification AV. Si vous décidez de mettre en place des certificats d’un type différent en même temps, vous devez prendre en considération le délai d’exécution effectif le plus long requis pour les certificats. Par exemple, vous devez organiser des certificats de type AudioVideoAuthentication et OAuthTokenIssuer. Le minimum-EffectiveDate doit être le plus important des deux certificats, dans le cas présent OAuthTokenIssuer, dont le délai de 24 heures est minimal. Si vous ne souhaitez pas organiser le certificat AudioVideoAuthentication avec un délai de 24 heures, emphasez-le séparément avec un EffectiveDate qui répond à vos besoins.
 
 <div>
 
@@ -85,13 +87,13 @@ Lors de la création de certificats OAuthTokenIssuer transitoires, l’heure d�
 
 3.  Importez le nouveau certificat AudioVideoAuthentication sur le serveur Edge et sur tous les autres serveurs Edge de votre pool (si vous avez déployé un pool).
 
-4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela nous permet de définir un moment où le certificat doit être actif et est la chaîne \<\>– EFFECTIVEDATE: «7/22/2012 6:00:00 AM».
+4.  Configurez le certificat importé à l’aide de l’applet de commande Set-CsCertificate et utilisez le paramètre –Roll avec le paramètre –EffectiveDate. La date d’effet doit être définie comme étant l’heure d’expiration du certificat actuel (14:00:00 ou 2:00:00 PM) moins la durée de vie du jeton, dont la valeur par défaut est de huit heures. Cela nous permet de définir un moment où le certificat doit être actif et est la chaîne \<\>– EFFECTIVEDATE : « 7/22/2012 6:00:00 AM ».
     
     <div>
     
 
     > [!IMPORTANT]
-    > Dans le cas d’un pool de bords, tous les certificats AudioVideoAuthentication doivent être déployés et configurés par la date et l’heure définies par le paramètre-EffectiveDate du premier certificat déployé pour éviter toute interruption de communications A/V éventuelle en raison de l’ancien le certificat expire avant que tous les jetons client et consommateur n’aient été renouvelés à l’aide du nouveau certificat.
+    > Dans le cas d’un pool de bords, tous les certificats AudioVideoAuthentication doivent être déployés et configurés par la date et l’heure définies par le paramètre-EffectiveDate du premier certificat déployé pour éviter toute interruption de communications A/V éventuelle en raison de l’expiration du certificat en raison de la date d’expiration de ce dernier.
 
     
     </div>
@@ -117,7 +119,7 @@ Une représentation chronologique constitue un moyen efficace pour mieux compren
 
 Dans l’exemple suivant, l’administrateur détermine que le certificat de service Edge A/V doit être échu à 2:00:00 PM sur 07/22/2012. Il demande et reçoit un nouveau certificat et l’importe à chaque serveur Edge de son pool. À 2 heures sur 07/22/2012, il commence à exécuter Get-CsCertificate with-roll,-empreinte égale de la chaîne d’empreintes du nouveau certificat et – EffectiveTime définie sur 07/22/2012 6:00:00 AM. Il exécute cette commande sur chaque serveur Edge.
 
-![Utiliser les paramètres rouli et EffectiveDate.] (images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Utiliser les paramètres rouli et EffectiveDate.")
+![Utilisation des paramètres Roll et EffectiveDate.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Utilisation des paramètres Roll et EffectiveDate.")
 
 Lorsque le temps effectif est atteint (7/22/2012 6:00:00 AM), tous les nouveaux jetons sont émis par le nouveau certificat. Lors de la validation des jetons, ces derniers sont d’abord validés par rapport au nouveau certificat. Si la validation échoue, l’ancien certificat est testé. La procédure de test du nouveau certificat et d’utilisation de l’ancien certificat continuera jusqu’à l’expiration de l’ancien certificat. Lorsque l’ancien certificat a expiré (7/22/2012 2:00:00 PM), les jetons sont uniquement validés par le nouveau certificat. L’ancien certificat peut être supprimé en toute sécurité à l’aide de l’applet de commande Remove-CsCertificate et du paramètre –Previous.
 

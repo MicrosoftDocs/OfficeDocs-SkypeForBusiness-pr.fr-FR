@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Installation des outils d’administration Lync Serve
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server administrative tools
 ms:assetid: 842b85e4-2eeb-464f-b1c1-ceb8cc04f8d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1115d5848806f95d35a158f36b7689967cec5d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ebdcf355618c4257ceaeced5f5e4032ede40cec
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831007"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831007"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Cette rubrique explique comment installer les outils d’administration que vous devez utiliser pour déployer et gérer Lync Server 2013. Les outils d’administration sont installés par défaut sur chaque serveur exécutant Lync Server 2013. Par ailleurs, vous pouvez installer les outils d’administration sur d’autres ordinateurs, par exemple des consoles d’administration dédiées. Nous vous recommandons vivement d’installer les outils d’administration sur un ordinateur qui se trouve dans le même domaine ou la même forêt que le déploiement de Lync Server 2013 que vous créez, car cela vous permet de vous assurer que les étapes de préparation des services de domaine Active Directory est déjà activée. terminé, qui vous permet d’utiliser les outils d’administration de cet ordinateur plus tard pour publier votre topologie.
 
-Assurez-vous d’avoir examiné les exigences relatives aux privilèges d’infrastructure, de système d’exploitation, de logiciels et d’administrateur avant d’installer ou d’utiliser les outils d’administration de Lync Server 2013. Pour plus d’informations sur la configuration requise en matière d’infrastructure, voir la [Configuration requise infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Pour plus d’informations sur le système d’exploitation et la configuration logicielle requise pour l’installation des outils d’administration de Lync Server 2013, voir [prise en charge des systèmes d’exploitation serveur et outils dans Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [configuration logicielle requise pour Lync Server 2013](lync-server-2013-additional-software-requirements.md), et La [prise en charge et les exigences serveur supplémentaires dans Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md). Pour plus d’informations sur les droits d’utilisateur et les autorisations nécessaires pour installer et utiliser les outils, voir [droits d’administrateur et autorisations nécessaires pour l’installation et l’administration de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+Assurez-vous d’avoir examiné les exigences relatives aux privilèges d’infrastructure, de système d’exploitation, de logiciels et d’administrateur avant d’installer ou d’utiliser les outils d’administration de Lync Server 2013. Pour plus d’informations sur la configuration requise en matière d’infrastructure, voir la [Configuration requise infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Pour plus d’informations sur le système d’exploitation et la configuration logicielle requise pour l’installation des outils d’administration de Lync Server 2013, voir [prise en charge des systèmes d’exploitation serveur et outils dans Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [configuration logicielle requise pour Lync Server 2013](lync-server-2013-additional-software-requirements.md), et [prise en charge et configuration supplémentaires du](lync-server-2013-additional-server-support-and-requirements.md)serveur sur Lync Server 2013. Pour plus d’informations sur les droits d’utilisateur et les autorisations nécessaires pour installer et utiliser les outils, voir [droits d’administrateur et autorisations nécessaires pour l’installation et l’administration de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
 <div>
 

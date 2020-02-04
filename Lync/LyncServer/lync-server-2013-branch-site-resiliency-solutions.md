@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Solutions de résistance de sites de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838745"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-12-10_
+_**Dernière modification de la rubrique :** 2014-12-10_
 
-Mettre en œuvre la résistance des sites de succursale pour votre organisation présente des avantages évidents. En particulier, si vous perdez la connexion au site central, les utilisateurs du site de succursale continuent d’avoir accès au service voix entreprise et à la messagerie vocale (si vous configurez les paramètres de reroutage de la messagerie vocale; pour plus d’informations, voir [Configuration requise pour la résilience du site de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Cependant, pour les sites comportant moins de 25 utilisateurs, une solution de résistance peut ne pas être assez rentable.
+Mettre en œuvre la résistance des sites de succursale pour votre organisation présente des avantages évidents. En particulier, si vous perdez la connexion au site central, les utilisateurs du site de succursale continuent d’avoir accès à la messagerie vocale et aux services vocaux d’entreprise (si vous configurez les paramètres de reroutage de la messagerie vocale ; pour plus d’informations, voir [Configuration requise pour la résilience de sites de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Cependant, pour les sites comportant moins de 25 utilisateurs, une solution de résistance peut ne pas être assez rentable.
 
 Si vous décidez de mettre en œuvre la résistance pour les sites de succursale, vous disposez de trois options. Le tableau ci-dessous peut vous aider à déterminer l’option appropriée.
 
@@ -60,7 +62,7 @@ Si vous décidez de mettre en œuvre la résistance pour les sites de succursale
 <td><p>Survivable Branch Appliance</p>
 <p>L’application branche Survivable est un serveur de Blades standard doté d’un serveur d’archivage et de médiation Lync Server s’exécutant sur Windows Server 2008 R2. L’unité de branchement Survivable comporte également une passerelle RTC (réseau téléphonique commuté). Des périphériques tiers qualifiés (développés par les partenaires de Microsoft dans le programme de qualification/certification Survivable Branch Appliance (SBA) assurent une connexion PSTN continue en cas de panne du réseau étendu, mais ils ne fournissent pas de services de conférence et de présence résistants, car ces fonctionnalités dépendent des serveurs frontaux du site central.</p>
 <p>Pour plus d’informations sur les appareils de branche &quot;survivables, voir détails sur&quot; le périphérique de branchement survivant plus loin dans cette rubrique.</p>
-<p><strong>Remarque:</strong> Si vous décidez également d’utiliser une ligne SIP avec votre appareil de branchement survivant, contactez le fournisseur de votre application pour savoir quel fournisseur de services est le plus approprié pour votre organisation.</p></td>
+<p><strong>Remarque :</strong> Si vous décidez également d’utiliser une ligne SIP avec votre appareil de branchement survivant, contactez le fournisseur de votre application pour savoir quel fournisseur de services est le plus approprié pour votre organisation.</p></td>
 </tr>
 <tr class="even">
 <td><p>Héberger entre 1000 et 2000 sur votre site de succursale, ne pas disposer d’une connexion WAN fiable et avoir reçu des administrateurs Lync Server</p></td>
@@ -72,7 +74,7 @@ Si vous décidez de mettre en œuvre la résistance pour les sites de succursale
 <td><p>Si vous avez besoin de fonctionnalités de présence et de conférence en plus des fonctionnalités vocales pour les utilisateurs de 5000 et que vous disposez d’un administrateur Lync Server expérimenté</p></td>
 <td><p>Procédez à un déploiement de site central avec un serveur Standard Edition au lieu d’un déploiement de site de succursale.</p>
 <p>Le déploiement de Lync Server à une échelle complète fournit une connexion RTC continue et une présence et une audioconférence résilientes en cas de panne du réseau étendu.</p>
-<p>Pour plus d’informations sur la préparation de cette solution, voir <a href="lync-server-2013-planning-for-your-organization.md">planification de l’Organisation pour Lync server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">déterminer la configuration système requise pour Lync Server 2013</a>et <a href="lync-server-2013-determining-your-infrastructure-requirements.md">déterminer la configuration requise pour votre infrastructure pour Lync Server 2013</a>, et autres sections pertinentes de la documentation relative à la planification.</p></td>
+<p>Pour plus d’informations sur la préparation de cette solution, voir <a href="lync-server-2013-planning-for-your-organization.md">planification de l’Organisation pour Lync server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">déterminer la configuration système requise pour Lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">déterminer la configuration requise pour votre infrastructure pour Lync Server 2013</a>, et les autres sections pertinentes de la documentation de planification.</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +88,7 @@ La figure suivante montre les topologies recommandées pour la résistance des s
 
 **Options de résistance pour sites de succursale**
 
-Options de résilience de la ![succursale vocale] Options de résilience de la (images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "succursale vocale")
+![Options de résilience de la succursale vocale](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Options de résilience de la succursale vocale")
 
 </div>
 
@@ -94,7 +96,7 @@ Options de résilience de la ![succursale vocale] Options de résilience de la (
 
 ## <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance en détail
 
-L’application de succursales survivant du serveur Lync inclut les éléments suivants:
+L’application de succursales survivant du serveur Lync inclut les éléments suivants :
 
   - serveur d’inscriptions pour l’authentification et l’inscription des utilisateurs et routage des appels ;
 

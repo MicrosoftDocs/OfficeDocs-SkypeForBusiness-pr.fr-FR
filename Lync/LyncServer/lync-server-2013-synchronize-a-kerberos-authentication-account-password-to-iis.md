@@ -3,6 +3,8 @@ title: Synchronisation d’un mot de passe de compte d’authentification Kerber
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Synchronize a Kerberos authentication account password to IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bc56da26961caaad236857c88d601676e12cefc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846719"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2010-11-08_
+_**Dernière modification de la rubrique :** 2010-11-08_
 
 Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
 
@@ -45,9 +47,9 @@ Dans un site, des serveurs frontaux, des serveurs Standard Edition et des direct
 
 1.  Connectez-vous à un ordinateur source (tel que fe01.contoso.com) en tant que membre du groupe RTCUniversalServerAdmins.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande Lync Server Management Shell, exécutez les deux commandes suivantes:
+3.  À partir de la ligne de commande Lync Server Management Shell, exécutez les deux commandes suivantes :
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer la téléphonie pour un utilisateur'
+title: 'Lync Server 2013 : configurer la téléphonie pour un utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure telephony for a user
 ms:assetid: 4546432e-c839-4517-a2c5-bc0d4d8c6a03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97f4fc79b871a962fe498d6dbd908b75f6b2fecd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d57c4799c0fe9bb9dc698c3e0e74a9d73cbde524
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838325"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les paramètres de téléphonie sont certains des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le panneau de configuration de Lync Server pour l’utilisateur (autrement dit, si l’utilisateur individuel a été activé pour Lync Server 2013 et si l’Organisation prend en charge la téléphonie).
 
-Les options de téléphonie de Lync Server pour les utilisateurs incluent les éléments suivants:
+Les options de téléphonie de Lync Server pour les utilisateurs incluent les éléments suivants :
 
   - **Audio/vidéo désactivé**   l’utilisateur ne peut pas passer d’appels audio et vidéo.
 
@@ -59,19 +61,19 @@ Pour plus d’informations sur la configuration de la téléphonie pour une orga
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **.
+4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur souhaité, puis cliquez sur **Rechercher**.
 
 5.  Dans la table, cliquez sur le compte d’utilisateur que vous voulez modifier.
 
 6.  Dans le menu **édition** , cliquez sur **modifier**.
 
-7.  En **téléphonie**, procédez comme suit:
+7.  En **téléphonie**, procédez comme suit :
     
       - Pour désactiver les appels audio et vidéo pour l’utilisateur, cliquez sur **audio/vidéo désactivé**.
     
       - Pour activer les communications audio de PC à ordinateur pour l’utilisateur, mais pas le contrôle d’appel distant ni la voix entreprise, cliquez sur **PC à PC uniquement**. Spécifiez une valeur pour **URI ligne** pour le téléphone utilisée par l’utilisateur pour les communications audio de PC à PC.
     
-      - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de l’infrastructure Lync Server 2010 conformément à la classe de la stratégie de service, y compris la communication audio entre PC et PC, cliquez sur **voix entreprise**. Dans **URI de ligne**, spécifiez le numéro de téléphone d’entreprise voix. Dans **politique de plan** de numérotation et de **stratégie vocale**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour la traduction des numéros de téléphone numérotés par l’utilisateur au format E. 164, sélectionnez le profil d’emplacement approprié dans la **politique d’emplacement**.
+      - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de l’infrastructure Lync Server 2010 conformément à la classe de la stratégie de service, y compris la communication audio entre PC et PC, cliquez sur **voix entreprise**. Dans **URI de ligne**, spécifiez le numéro de téléphone d’entreprise voix. Dans **politique de plan de numérotation** et de **stratégie vocale**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour la traduction des numéros de téléphone numérotés par l’utilisateur au format E. 164, sélectionnez le profil d’emplacement approprié dans la **politique d’emplacement**.
     
       - Pour activer le contrôle d’appel distant, qui permet aux utilisateurs de contrôler leur ligne téléphonique de bureau à partir de Lync Server 2013 pour passer des appels de PC à PC et des appels de PC à téléphone, cliquez sur **contrôle d’appel distant**. Dans **URI de ligne**, spécifiez le numéro de téléphone du contrôle d’appel distant. Pour le routage des appels, l’utilisateur doit avoir un téléphone de bureau et une connexion PBX (Private Branch Exchange).
 

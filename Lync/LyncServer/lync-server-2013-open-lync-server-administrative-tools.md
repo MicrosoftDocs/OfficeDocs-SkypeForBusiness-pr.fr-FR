@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: ouvrir les outils d’administration de Lync Server'
+title: 'Lync Server 2013 : ouvrir les outils d’administration de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Open Lync Server administrative tools
 ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195741(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa84c132061cb599448b78cf7d4ffcc6bd7fa3d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3c1b2eec210b22bc45a27c9635507c7ad83553
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826016"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-28_
+_**Dernière modification de la rubrique :** 2012-06-28_
 
 Vous pouvez utiliser les procédures décrites dans cette rubrique pour ouvrir les outils d’administration pour déployer, configurer ou dépanner votre topologie Lync Server 2013.
 
@@ -88,7 +90,7 @@ Utilisez la procédure suivante pour ouvrir le générateur de topologie et déf
     
     </div>
 
-2.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+2.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 </div>
 
@@ -137,7 +139,7 @@ Utilisez l’une des procédures suivantes pour ouvrir le panneau de configurati
 
 1.  À partir d’un compte d’utilisateur qui est membre du rôle CsAdministrator ou d’un autre rôle disposant de droits d’utilisateur et d’autorisations appropriés pour la tâche à exécuter, connectez-vous à un ordinateur sur lequel vous avez installé Lync Server 2013 ou, au minimum, Lync Server 2013 administration outils ive. Pour configurer les paramètres, l’ordinateur doit avoir une résolution d’écran d’au moins 1024 x 768.
 
-2.  Démarrez le panneau de configuration de Lync Server 2013: cliquez sur **Démarrer**, sur **tous les programmes**, pointez sur **Outils d’administration**, sur **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server 2013 Control Panel**.
+2.  Démarrez le panneau de configuration de Lync Server 2013 : cliquez sur **Démarrer**, sur **tous les programmes**, pointez sur **Outils d’administration**, sur **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server 2013 Control Panel**.
 
 </div>
 
@@ -165,11 +167,11 @@ Utilisez la procédure suivante pour ouvrir Lync Server 2013 Management Shell po
 
 ## <a name="to-open-the-lync-server-2013-management-shell"></a>Pour ouvrir Lync Server 2013 Management Shell
 
-  - Si vous ouvrez une fenêtre Windows PowerShell plutôt que Lync Server 2013 Management Shell, par défaut, vous ne pouvez pas exécuter les applets de cmdlet Lync Server 2013. Pour exécuter les applets de commande Lync Server 2013 à partir de Windows PowerShell, tapez la commande suivante à l’invite de commandes Windows PowerShell:
+  - Si vous ouvrez une fenêtre Windows PowerShell plutôt que Lync Server 2013 Management Shell, par défaut, vous ne pouvez pas exécuter les applets de cmdlet Lync Server 2013. Pour exécuter les applets de commande Lync Server 2013 à partir de Windows PowerShell, tapez la commande suivante à l’invite de commandes Windows PowerShell :
     
     `Import-Module Lync`
 
-  - Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+  - Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 </div>
 

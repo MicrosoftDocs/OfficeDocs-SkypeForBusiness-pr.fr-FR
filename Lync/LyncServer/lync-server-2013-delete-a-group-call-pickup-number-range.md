@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer une plage de numéros de capture d’appels de groupe'
+title: 'Lync Server 2013 : supprimer une plage de numéros de capture d’appels de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a Group Call Pickup number range
 ms:assetid: 521891f3-7a5d-45de-92dc-d57025453159
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945629(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7429543c48018eb8fef45e372a4788968396f256
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831643"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831643"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Utilisez la procédure suivante pour supprimer une plage de numéros de capture d’appels de groupe.
 
@@ -43,7 +45,7 @@ Utilisez la procédure suivante pour supprimer une plage de numéros de capture 
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Dans la ligne de commande, tapez :
     

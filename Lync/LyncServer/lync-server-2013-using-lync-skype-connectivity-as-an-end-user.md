@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Utilisation de la connectivité Lync-Skype en tant qu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Lync-Skype connectivity as an end user
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d2bf4584f3332171942f941cc382d22bb6a8db7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5404a42b0d8e2052541ccb9f9178bf33408c2099
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34846377"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-27_
+_**Dernière modification de la rubrique :** 2016-12-27_
 
 Lync-Skype Connectivity permet aux utilisateurs de Skype et aux utilisateurs de Lync de s’ajouter aux contacts, d’échanger des messages instantanés et de passer des appels audio et vidéo. Lorsqu’un utilisateur de Skype ajoute un utilisateur Lync, un utilisateur Skype crée un contact dans Skype contenant l’URI (Uniform Resource Identifier) de l’utilisateur Lync. À l’inverse, quand un utilisateur de Lync ajoute un contact Skype, l’utilisateur de Lync crée un contact dans Lync qui contient le compte Microsoft (MSA) de l’utilisateur Skype, et non le nom d’utilisateur Skype.
 
-**Qu’est-ce qu’un MSA?** Les utilisateurs de Skype doivent se connecter à Skype avec un compte Microsoft (auparavant appelé Windows Live ID) pour communiquer avec des contacts Lync.Un compte Microsoft repose sur la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeu Microsoft Xbox LIVE Online et la messagerie Microsoft Outlook et client de collaboration (et, auparavant, service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)à la page de connexion au compte Microsoft à l’adresse. Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, dans de nombreuses applications et services. Une fois le compte fusionné, l’utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
+**Qu’est-ce qu’un MSA ?** Les utilisateurs de Skype doivent se connecter à Skype avec un compte Microsoft (auparavant appelé Windows Live ID) pour communiquer avec des contacts Lync.Un compte Microsoft repose sur la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeu Microsoft Xbox LIVE Online et la messagerie Microsoft Outlook et client de collaboration (et, auparavant, service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)à la page de connexion au compte Microsoft à l’adresse. Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, dans de nombreuses applications et services. Une fois le compte fusionné, l’utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Pour que les utilisateurs de Lync et Skype puissent communiquer de manière complète, les conditions suivantes doivent être remplies: 
+> Pour que les utilisateurs de Lync et Skype puissent communiquer de manière complète, les conditions suivantes doivent être remplies : 
 > <UL>
 > <LI>
 > <P>Les utilisateurs de Skype doivent être connectés à leur client Skype avec un compte Microsoft (MSA).</P>
@@ -76,19 +78,19 @@ Lync-Skype Connectivity permet aux utilisateurs de Skype et aux utilisateurs de 
 
 Pour plus d’informations sur la prise en charge des contacts, consultez [Ajouter un contact dans Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
 
-Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé, tel que <strong>Bob@contoso.com</strong> , un utilisateur de Lync peut ajouter ce compte Microsoft à Lync de deux manières:
+Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé, tel que <strong>Bob@contoso.com</strong> , un utilisateur de Lync peut ajouter ce compte Microsoft à Lync de deux manières :
 
 1.  Utilisez l’icône **Ajouter un contact** ou
 
 2.  Utilisez le champ **Rechercher une personne ou une salle ou un numéro de** téléphone.
 
-Dans chaque instance, l’utilisateur de Lync doit entrer l’adresse e-mail de l’utilisateur Skype au format suivant: <strong>utilisateur (nom de domaine) @msn. com</strong> .
+Dans chaque instance, l’utilisateur de Lync doit entrer l’adresse e-mail de l’utilisateur Skype au format suivant : <strong>utilisateur (nom de domaine) @msn. com</strong> .
 
 <div>
 
 
 > [!IMPORTANT]  
-> Cette étape n’est pas requise pour les comptes Microsoft qui utilisent les noms de domaine suivants: <STRONG>@live. com, @hotmail. com ou @outlook. com</STRONG>. Pour plus d’informations sur les noms de domaine personnalisés pris en charge, voir <A href="https://support.microsoft.com/kb/897567">domaines de messagerie instantanée publics pris en charge</A>.
+> Cette étape n’est pas requise pour les comptes Microsoft qui utilisent les noms de domaine suivants : <STRONG>@live. com, @hotmail. com ou @outlook. com</STRONG>. Pour plus d’informations sur les noms de domaine personnalisés pris en charge, voir <A href="https://support.microsoft.com/kb/897567">domaines de messagerie instantanée publics pris en charge</A>.
 
 
 

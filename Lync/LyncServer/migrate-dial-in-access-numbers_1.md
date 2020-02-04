@@ -3,6 +3,8 @@ title: Migrer les numéros d’accès entrant
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b86db6e669fd5f52827591c25e5bb237bd9ee012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846169"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-26_
+_**Dernière modification de la rubrique :** 2012-09-26_
 
-La migration des numéros d’accès rendez-vous implique deux étapes: l’exécution de l’applet de connexion **Import-CsLegacyConfiguration** (exécutée précédemment dans l' [importation des stratégies et des paramètres](import-policies-and-settings.md)) pour migrer les **plans de numérotation et autres paramètres de numéro d’accès Applet de passe Move-CsApplicationEndpoint** pour migrer les objets de contact.
+La migration des numéros d’accès rendez-vous implique deux étapes : l’exécution de l’applet de connexion **Import-CsLegacyConfiguration** (exécutée précédemment dans l' [importation de stratégies et de paramètres](import-policies-and-settings.md)) pour migrer les plans de numérotation et les autres paramètres de numéro d’accès à la Conférence rendez-vous, et l’exécution de l’applet de **passe Move-CsApplicationEndpoint** .
 
 <div>
 
@@ -51,7 +53,7 @@ La migration des numéros d’accès rendez-vous implique deux étapes: l’exé
 
 5.  Ouvrez Lync Server Management Shell.
 
-6.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez:
+6.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez :
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 

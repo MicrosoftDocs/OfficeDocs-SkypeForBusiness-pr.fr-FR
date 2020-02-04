@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: dépendances opérationnelles'
+title: 'Lync Server 2013 : dépendances opérationnelles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operational dependencies
 ms:assetid: 450b6be2-7fb3-47d7-8b0b-c05faa331e14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720559(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d54ef9959f48c085ad4f5f28f182b86442ebec8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26e7de821dee778d4b0b1e9aa105669635abaf6c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826058"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826058"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-15_
+_**Dernière modification de la rubrique :** 2015-05-15_
 
 L’architecture de référence décrite dans ce document permet de vérifier que vous disposez d’un déploiement 2013 Server Lync qui n’est pas uniquement destiné aux besoins de l’organisation, mais qu’il est structuré conformément aux meilleures pratiques Microsoft. Soyez qu’il est possible que l’implémentation de Lync Server 2013 soit un service dynamique et que tous les autres services de l’entreprise requièrent une analyse et une gestion proactive pour maintenir un niveau élevé de disponibilité et de qualité de service pour l’entreprise.
 
@@ -115,7 +117,7 @@ Le tableau suivant répertorie les services de dépendance typiques pour une inf
 
 Il est supposé que l’organisation s’est imposée par le biais des fonctions de gestion de niveau de service de base, telles que la modification, l’incident et la gestion des versions, conformément au programme MOF. La solution Lync doit être adoptée par ces fonctions et être soumise aux mêmes processus de gestion opérationnels.
 
-Outre les informations fournies ci-dessus, nous avons à présent une connaissance plus approfondie des éléments qui peuvent avoir un impact sur le service Lync au sein de l’entreprise. Pour garantir la disponibilité et la qualité du service Lync Server 2013, les outils d’analyse suivants doivent accompagner le déploiement de l’architecture de référence:
+Outre les informations fournies ci-dessus, nous avons à présent une connaissance plus approfondie des éléments qui peuvent avoir un impact sur le service Lync au sein de l’entreprise. Pour garantir la disponibilité et la qualité du service Lync Server 2013, les outils d’analyse suivants doivent accompagner le déploiement de l’architecture de référence :
 
 ### <a name="monitoring-tools"></a>Outils d’analyse
 
@@ -136,7 +138,7 @@ Outre les informations fournies ci-dessus, nous avons à présent une connaissan
 <tr class="odd">
 <td><p>Serveur de surveillance Lync Server 2013</p></td>
 <td><p>Déploiement d’au moins un rôle de serveur Lync Server 2013 de surveillance par site central et de configuration du Pack de rapport qualité de l’interface (QoE).</p>
-<p>Pour plus d’informations, reportez-vous à la documentation sur le déploiement de Lync Server 2013:</p>
+<p>Pour plus d’informations, reportez-vous à la documentation sur le déploiement de Lync Server 2013 :</p>
 <p><a href="lync-server-2013-deploying-monitoring.md">Déploiement de la surveillance dans Lync Server 2013</a></p></td>
 <td><p>Sites centraux</p></td>
 </tr>
@@ -168,7 +170,7 @@ Outre les informations fournies ci-dessus, nous avons à présent une connaissan
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Vérifiez que les alertes classées sont configurées pour la notification:</p>
+<td><p>Vérifiez que les alertes classées sont configurées pour la notification :</p>
 <p>Alertes de priorité élevée</p>
 <p>Alertes de priorité moyenne</p>
 <p>Autres alertes.</p></td>

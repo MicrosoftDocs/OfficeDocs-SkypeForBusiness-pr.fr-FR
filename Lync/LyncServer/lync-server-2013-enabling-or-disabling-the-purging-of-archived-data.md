@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation ou désactivation de la suppression de données archivées'
+title: 'Lync Server 2013 : activation ou désactivation de la suppression de données archivées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling the purging of archived data
 ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28eba32895ca928b40e42a04d8d701c7257f1e43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b06d21cc0154ea57bc028c87c835e4de9a00f1b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831237"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
-Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver la purge et configurer le mode d’implémentation de la purge. Cela inclut les configurations d’archivage suivantes:
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour activer et désactiver la purge et configurer le mode d’implémentation de la purge. Cela inclut les configurations d’archivage suivantes :
 
   - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
 
-Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.
 
 <div>
 
@@ -81,7 +83,7 @@ Vous définissez initialement des configurations d’archivage lors du déploiem
 
 ## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la suppression de données d’archivage à l’aide d’applets de cmdlet Windows PowerShell
 
-L’activation et la désactivation de la purge automatique des données d’archivage peuvent être gérées à l’aide de Windows PowerShell et de l’applet **de passe Set-CsArchivingConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+L’activation et la désactivation de la purge automatique des données d’archivage peuvent être gérées à l’aide de Windows PowerShell et de l’applet **de passe Set-CsArchivingConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
@@ -103,7 +105,7 @@ L’activation et la désactivation de la purge automatique des données d’arc
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
-    Une fois la commande exécutée, le serveur Lync purge uniquement les enregistrements qui répondent aux deux critères suivants: 1) dont la valeur est antérieure à celle spécifiée pour la propriété **KeepArchivingDataForDays** . et 2) elles ont été exportées à l’aide de l’applet de passe **Export-CsArchivingData** .
+    Une fois la commande exécutée, le serveur Lync purge uniquement les enregistrements qui répondent aux deux critères suivants : 1) dont la valeur est antérieure à celle spécifiée pour la propriété **KeepArchivingDataForDays** . et 2) elles ont été exportées à l’aide de l’applet de passe **Export-CsArchivingData** .
 
 </div>
 

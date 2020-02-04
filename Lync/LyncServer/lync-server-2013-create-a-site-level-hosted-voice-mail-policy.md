@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création d’une stratégie de messagerie vocale hébergée au niveau du site'
+title: 'Lync Server 2013 : création d’une stratégie de messagerie vocale hébergée au niveau du site'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a site-level hosted voice mail policy
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9df91e28eeba8bc9769e4fcbeff6ebba2b3746d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6aeae2e533bd62cf1f3e24e7ceff69b870ebc7b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838076"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838076"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-24_
+_**Dernière modification de la rubrique :** 2012-09-24_
 
 Une stratégie de *site* peut influer sur l’ensemble des utilisateurs hébergés sur le site pour lesquels la stratégie est définie. Si un utilisateur est configuré pour l’accès à la messagerie unifiée Exchange hébergé sans avoir reçu une stratégie par utilisateur, la stratégie de site s’applique. Si vous n’avez pas déployé de stratégie de site, la politique globale s’applique.
 
-Pour plus d’informations sur la configuration des stratégies de site, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur la configuration des stratégies de site, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [Nouveau-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
@@ -49,13 +51,13 @@ Pour plus d’informations sur la configuration des stratégies de site, voir la
 
 ## <a name="to-create-a-site-hosted-voice-mail-policy"></a>Pour créer une stratégie de messagerie vocale hébergée sur un site
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de nouvelle applet de CsHostedVoicemailPolicy pour créer la stratégie. Par exemple, exécutez :
     
         New-CsHostedVoicemailPolicy -Identity site:Redmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for the Redmond site." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    Cet exemple crée une stratégie de messagerie vocale hébergée avec l’étendue du site et définit les paramètres suivants:
+    Cet exemple crée une stratégie de messagerie vocale hébergée avec l’étendue du site et définit les paramètres suivants :
     
       - **Identity** spécifie un identificateur unique pour la stratégie, qui inclut l’étendue. Dans le cas d’une stratégie avec l’étendue du site, la valeur du paramètre Identity doit être spécifiée dans le `site:` * \<nom\>* du format, par exemple `site:Redmond`.
     

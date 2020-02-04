@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: instructions de configuration spéciales pour les transactions synthétiques'
+title: 'Lync Server 2013 : instructions de configuration spéciales pour les transactions synthétiques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Special setup instructions for synthetic transactions
 ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8c2f0f45aa2187f1b47f8dfa81b3ba121388f6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846790"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846790"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-11-16_
+_**Dernière modification de la rubrique :** 2015-11-16_
 
-La plupart des transactions synthétiques peuvent s’exécuter sur un nœud d’observation en l’aspect; autrement dit, dès que la transaction synthétique a été ajoutée aux paramètres de configuration du nœud d’observation, le nœud d’observation peut commencer à utiliser la transaction synthétique lors de ses tests. Toutefois, ce n’est pas vrai pour toutes les transactions synthétiques. Les exceptions (transactions synthétiques qui nécessitent des instructions de configuration spéciales) sont décrites dans les sections suivantes.
+La plupart des transactions synthétiques peuvent s’exécuter sur un nœud d’observation en l’aspect ; autrement dit, dès que la transaction synthétique a été ajoutée aux paramètres de configuration du nœud d’observation, le nœud d’observation peut commencer à utiliser la transaction synthétique lors de ses tests. Toutefois, ce n’est pas vrai pour toutes les transactions synthétiques. Les exceptions (transactions synthétiques qui nécessitent des instructions de configuration spéciales) sont décrites dans les sections suivantes.
 
 <div>
 
@@ -45,7 +47,7 @@ Dans certains cas, il est possible que vous rencontriez des erreurs de temporisa
 
 Pour résoudre ce problème, vous devez créer manuellement des règles de pare-feu entrant pour MonitoringHost. exe et PowerShell. exe sur l’ordinateur local. Cette opération peut être réalisée via un pare-feu Windows ou un logiciel de pare-feu local tiers, en fonction de la configuration préexistante de votre serveur.
 
-Si vous utilisez un pare-feu réseau entre l’ordinateur hôte de transactions synthétiques et les serveurs Lync que vous essayez de surveiller, vous devez traiter l’hôte en tant qu’ordinateur client et observer toutes les exigences de port de pare-feu pour les [ports et les protocoles. pour les serveurs internes dans Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
+Si vous utilisez un pare-feu réseau entre l’ordinateur hôte de transactions synthétiques et les serveurs Lync que vous tentez de surveiller, vous devez traiter l’hôte en tant qu’ordinateur client et observer toutes les exigences de port de pare-feu des [ports et protocoles pour les serveurs internes dans Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
 
 </div>
 
@@ -53,15 +55,15 @@ Si vous utilisez un pare-feu réseau entre l’ordinateur hôte de transactions 
 
 ## <a name="data-conferencing-synthetic-transactions"></a>Transactions synthétiques de conférence de données
 
-Si votre ordinateur de nœud d’observateur se trouve en dehors de votre réseau de périmètre, vous ne pourrez probablement pas exécuter la transaction synthétique de conférence de données, sauf si vous désactivez d’abord les paramètres de proxy d’Internet Explorer pour le compte de service réseau. Pour désactiver les paramètres de proxy pour ce service, procédez comme suit:
+Si votre ordinateur de nœud d’observateur se trouve en dehors de votre réseau de périmètre, vous ne pourrez probablement pas exécuter la transaction synthétique de conférence de données, sauf si vous désactivez d’abord les paramètres de proxy d’Internet Explorer pour le compte de service réseau. Pour désactiver les paramètres de proxy pour ce service, procédez comme suit :
 
 1.  Sur l’ordinateur du nœud d’observation, cliquez sur **Démarrer**, sur **tous les programmes**, sur **accessoires**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
 
-2.  Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée:
+2.  Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée :
     
         bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
-Le message suivant s’affiche dans la fenêtre de commande:
+Le message suivant s’affiche dans la fenêtre de commande :
 
     BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
     
@@ -84,14 +86,14 @@ La transaction synthétique de la messagerie unifiée Exchange vérifie que les 
 
 ## <a name="persistent-chat-synthetic-transactions"></a>Transactions synthétiques de conversation permanente
 
-Pour utiliser la transaction synthétique des conversations permanentes, les administrateurs doivent d’abord créer un canal et donner aux utilisateurs du test l’autorisation d’utiliser ce dernier. L’applet de [contrôle test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) peut être utilisée pour configurer correctement ces utilisateurs de test:
+Pour utiliser la transaction synthétique des conversations permanentes, les administrateurs doivent d’abord créer un canal et donner aux utilisateurs du test l’autorisation d’utiliser ce dernier. L’applet de [contrôle test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) peut être utilisée pour configurer correctement ces utilisateurs de test :
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsPersistentChatMessage -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress sip:kenmyer@litwareinc.com -SenderCredential $cred1 -ReceiverSipAddress sip:pilar@litwareinc.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:kenmyer@litwareinc.com -TestUser2SipAddress sip:pilar@litwareinc.com -Setup $True
 
-Cette tâche de configuration doit être exécutée au sein de l’entreprise:
+Cette tâche de configuration doit être exécutée au sein de l’entreprise :
 
   - S’il est exécuté à partir d’un ordinateur non serveur, l’utilisateur qui exécute l’applet de commande doit être membre du rôle PersistentChatAdministrators pour le contrôle d’accès basé sur les rôles (RBAC).
 
@@ -109,7 +111,7 @@ La salle de conversation créée par test-CsPersistentChatMessage peut être sup
 
 La transaction synthétique [test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) vérifie la possibilité de passer et de recevoir des appels par le biais du réseau téléphonique public commuté (RTC).
 
-Pour exécuter cette transaction synthétique, les administrateurs doivent configurer les éléments suivants:
+Pour exécuter cette transaction synthétique, les administrateurs doivent configurer les éléments suivants :
 
   - Deux utilisateurs de test (un appelant et un destinataire) activés pour voix entreprise.
 
@@ -133,11 +135,11 @@ Pour utiliser cette transaction synthétique, les conditions suivantes doivent �
 
   - Les utilisateurs test doivent avoir une boîte aux lettres Exchange 2013 valide.
 
-Une fois ces conditions satisfaites, les administrateurs peuvent exécuter la commande suivante pour vérifier que l’utilisateur possédant l’adresse kenmyer@litwareinc.com peut récupérer ses contacts auprès du magasin de contacts unifié:
+Une fois ces conditions satisfaites, les administrateurs peuvent exécuter la commande suivante pour vérifier que l’utilisateur possédant l’adresse kenmyer@litwareinc.com peut récupérer ses contacts auprès du magasin de contacts unifié :
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-Notez l’utilisation du paramètre Setup utilisé dans la commande précédente. Si le paramètre d’installation est inclus lors de l’exécution de test-CsUnifiedContactStore, les contacts de l’utilisateur spécifié (dans ce cas, sip:kenmyer@litwareinc.com) seront déplacés vers le magasin de contacts unifié. (Bien entendu, si le contact de l’utilisateur se trouve déjà dans le magasin de contacts unifié, il n’est pas nécessaire de le déplacer.) Le paramètre Setup est généralement utilisé une seule fois (la première fois que le test-CsUnifiedContactStore est exécuté) et doit être utilisé uniquement avec les utilisateurs test. c’est-à-dire, avec les comptes d’utilisateurs qui ne seront jamais enregistrés sur Lync Server. Après la migration de votre utilisateur de test vers le magasin de contacts unifié, vous pouvez vérifier que les contacts de l’utilisateur peuvent être récupérés en appelant test-CsUnifiedContactStore sans le paramètre d’installation:
+Notez l’utilisation du paramètre Setup utilisé dans la commande précédente. Si le paramètre d’installation est inclus lors de l’exécution de test-CsUnifiedContactStore, les contacts de l’utilisateur spécifié (dans ce cas, sip :kenmyer@litwareinc.com) seront déplacés vers le magasin de contacts unifié. (Bien entendu, si le contact de l’utilisateur se trouve déjà dans le magasin de contacts unifié, il n’est pas nécessaire de le déplacer.) Le paramètre Setup est généralement utilisé une seule fois (la première fois que le test-CsUnifiedContactStore est exécuté) et doit être utilisé uniquement avec les utilisateurs test. c’est-à-dire, avec les comptes d’utilisateurs qui ne seront jamais enregistrés sur Lync Server. Après la migration de votre utilisateur de test vers le magasin de contacts unifié, vous pouvez vérifier que les contacts de l’utilisateur peuvent être récupérés en appelant test-CsUnifiedContactStore sans le paramètre d’installation :
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 

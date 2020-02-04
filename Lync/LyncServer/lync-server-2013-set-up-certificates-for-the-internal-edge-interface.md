@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des certificats pour l’interface inte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822103"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822103"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
 <div>
 
@@ -49,7 +51,7 @@ Un certificat unique est requis sur l’interface interne de chaque serveur Edge
 
 Pour plus d’informations sur ce problème et sur les autres exigences relatives aux certificats, voir [exigences relatives aux certificats pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour configurer des certificats sur l’interface latérale interne d’un site, suivez les procédures décrites dans cette section pour effectuer les opérations suivantes:
+Pour configurer des certificats sur l’interface latérale interne d’un site, suivez les procédures décrites dans cette section pour effectuer les opérations suivantes :
 
 1.  Téléchargez la chaîne de certification de l’autorité de certification pour l’interface interne vers chaque serveur Edge.
 
@@ -81,7 +83,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 1.  Connectez-vous à un serveur Lync Server 2013 dans le réseau interne (c’est-à-dire hors du serveur Edge) en tant que membre du groupe **administrateurs** .
 
-2.  Exécutez la commande suivante à l’invite de commandes en cliquant sur **Démarrer**, puis en cliquant sur **exécuter**et en tapant ce qui suit:
+2.  Exécutez la commande suivante à l’invite de commandes en cliquant sur **Démarrer**, puis en cliquant sur **exécuter**et en tapant ce qui suit :
     
         https://<name of your Issuing CA Server>/certsrv
     
@@ -169,7 +171,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 ## <a name="to-create-the-certificate-request-for-the-internal-interface"></a>Pour créer une demande de certificat pour l’interface interne
 
-1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, puis, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
+1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, puis, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
     
     <div>
     
@@ -186,11 +188,11 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 4.  Dans la page **Demandes différées ou immédiates**, cliquez sur **Préparer la demande, mais ne pas l’envoyer maintenant**.
 
-5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier vers lequel vous voulez enregistrer la requête (par exemple, **c:\\CERT\_Internal\_Edge. cer**).
+5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier vers lequel vous voulez enregistrer la requête (par exemple, **c :\\CERT\_Internal\_Edge. cer**).
 
 6.  Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .
 
-7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit:
+7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit :
     
       - Dans **nom convivial**, tapez un nom d’affichage pour le certificat (par exemple, bord interne).
     
@@ -205,7 +207,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
         
         </div>
     
-      - Si le certificat doit être exportable, activez la case à cocher **marquer le certificat comme étant** exportable.
+      - Si le certificat doit être exportable, activez la case à cocher **marquer le certificat comme étant exportable** .
 
 8.  Dans la page informations sur l' **organisation** , tapez le nom de l’organisation et l’unité d’organisation (UO) (par exemple, une division ou un service).
 
@@ -213,17 +215,17 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 10. Sur la page nom de l’objet **/nom** de l’objet, les informations à remplir automatiquement par l’Assistant sont affichées.
 
-11. Dans la page configurez d’autres **noms d’objet** , spécifiez d’autres noms d’objet obligatoires.
+11. Dans la page **configurez** d’autres noms d’objet, spécifiez d’autres noms d’objet obligatoires.
 
 12. Dans la page Résumé de la **demande** , passez en revue les informations de certificats qui vont être utilisées pour générer la requête.
 
-13. Une fois les commandes terminées, procédez comme suit:
+13. Une fois les commandes terminées, procédez comme suit :
     
       - Pour afficher le journal de la demande de certificat, cliquez sur **afficher le journal**.
     
       - Pour remplir la demande de certificat, cliquez sur **suivant**.
 
-14. Dans la page **fichier de demande de certificat** , procédez comme suit:
+14. Dans la page **fichier de demande de certificat** , procédez comme suit :
     
       - Pour afficher le fichier de demande de signature de certificat généré (CSR), cliquez sur **Afficher**.
     
@@ -239,7 +241,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 1.  Ouvrez une session sur le serveur Edge sur lequel vous avez créé la demande de certificat en tant que membre du groupe administrateurs locaux.
 
-2.  Dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+2.  Dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
     
     Après avoir exécuté l’étape 3 pour la première fois, le bouton est modifié pour **s’exécuter de nouveau**, mais une coche verte (indiquant la réussite de la tâche) ne s’affiche pas tant que tous les certificats requis n’ont pas été demandés, installés et attribués.
 
@@ -263,7 +265,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 4.  Dans la page Ajouter ou supprimer des composants logiciels enfichables, cliquez sur **certificats**, puis sur **Ajouter**.
 
-5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Sur votre ordinateur, sélectionnez **ordinateur local: (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
+5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Sur votre ordinateur, sélectionnez **ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
 
 6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **personnel**, puis double-cliquez sur **certificats**.
     
@@ -289,7 +291,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
     
     </div>
 
-9.  Dans la boîte de dialogue Exporter les formats de fichier, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez les options suivantes:
+9.  Dans la boîte de dialogue Exporter les formats de fichier, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez les options suivantes :
     
       - Incluez tous les certificats dans le chemin de certification, le cas échéant.
     
@@ -322,7 +324,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 ## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a>Pour affecter le certificat interne sur les serveurs de périphérie
 
-1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
 
 2.  Dans la page **tâches de certification disponibles** , cliquez sur **attribuer un certificat existant**.
 
@@ -330,11 +332,11 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 4.  Dans la page **magasin de certificats** , sélectionnez le certificat que vous avez importé pour le bord interne (à partir de la procédure précédente).
 
-5.  Dans la page Résumé des affectations de **certificat** , passez en revue vos paramètres, puis cliquez sur **suivant** pour attribuer les certificats.
+5.  Dans la page **Résumé des affectations de certificat** , passez en revue vos paramètres, puis cliquez sur **suivant** pour attribuer les certificats.
 
 6.  Dans la page de fin de l’Assistant, cliquez sur **Terminer**.
 
-7.  Après avoir utilisé cette procédure pour affecter le certificat de bord interne, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **certificats (ordinateur local)**, développez **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations qui le certificat de bord interne figure dans la liste.
+7.  Lorsque vous utilisez cette procédure pour attribuer le certificat de bord interne, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **certificats (ordinateur local)**, développez **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations que le certificat de bord interne est répertorié.
 
 8.  Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
 

@@ -3,6 +3,8 @@ title: Meilleures pratiques liées au serveur de conversation permanente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat Server best practices
 ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ac9419485212df8ecf0a11841a6eaee4c752640
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 119bc67622928ec2e60f082e72322e7b0b923c2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846116"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846116"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
-Lorsque vous créez des catégories et des salles de conversation permanente et que vous concevez votre étendue et votre appartenance, les conseils suivants peuvent vous aider à planifier:
+Lorsque vous créez des catégories et des salles de conversation permanente et que vous concevez votre étendue et votre appartenance, les conseils suivants peuvent vous aider à planifier :
 
   - Si votre entreprise n’a pas besoin d’une paroi éthique, n’Affinez pas l’étendue dans votre arborescence de catégories. Placez tous vos utilisateurs dans l’étendue d’une catégorie et créez toutes les salles de conversation dans cette catégorie. Par la suite, utilisez uniquement les listes d’appartenance pour octroyer ou restreindre l’accès à chaque salle de conversation.
 

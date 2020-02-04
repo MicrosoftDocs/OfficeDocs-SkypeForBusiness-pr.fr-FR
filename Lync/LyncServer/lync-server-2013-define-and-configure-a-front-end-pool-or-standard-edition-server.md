@@ -3,6 +3,8 @@ title: Définition et configuration d’un pool frontal ou d’un serveur Standa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ddc430370c59e279e0e36aa662da0f33973e0d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831738"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-08_
+_**Dernière modification de la rubrique :** 2013-03-08_
 
 Cette procédure ne nécessite pas d’appartenance à un administrateur local ou à un groupe de domaines privilégiés. Vous devez vous connecter à un ordinateur en tant qu’utilisateur standard.
 
@@ -58,7 +60,7 @@ Si vous déployez un serveur d’entreprise, un nombre minimum de serveurs front
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="odd">
 <td><p>5-6</p></td>
@@ -84,7 +86,7 @@ Si vous déployez un serveur d’entreprise, un nombre minimum de serveurs front
 
 
 > [!NOTE]
-> Pour Lync Server 2013, chaque fois que vous ajoutez ou supprimez un serveur frontal de la liste, vous devez redémarrer les services. La suppression et l’ajout de serveurs doivent être effectuées en tant qu’opérations séparées. Par exemple, si vous envisagez d’ajouter deux serveurs frontaux et de supprimer deux serveurs frontaux, procédez comme suit: 
+> Pour Lync Server 2013, chaque fois que vous ajoutez ou supprimez un serveur frontal de la liste, vous devez redémarrer les services. La suppression et l’ajout de serveurs doivent être effectuées en tant qu’opérations séparées. Par exemple, si vous envisagez d’ajouter deux serveurs frontaux et de supprimer deux serveurs frontaux, procédez comme suit : 
 > <OL>
 > <LI>
 > <P>Supprimez les deux serveurs frontaux.</P>
@@ -111,13 +113,13 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
 
 1.  Dans l’Assistant définir un nouveau pool frontal, dans la page **définir le nouveau pool frontal** , cliquez sur **suivant**.
 
-2.  Dans la page **définir le nom de domaine complet du pool frontal** , entrez un nom de domaine complet (FQDN) pour le pool que vous **** êtes en train de créer, puis cliquez sur **suivant**.
+2.  Dans la page **définir le nom de domaine complet du pool frontal** , entrez un nom de domaine complet (FQDN) pour le pool que vous êtes en train de créer, puis **cliquez**sur **suivant**.
 
 3.  Dans la page **définir les ordinateurs de ce pool** , entrez un nom de domaine complet pour le premier serveur frontal de la liste, puis cliquez sur **Ajouter**. Répétez cette étape pour tous les ordinateurs que vous voulez ajouter à la liste, puis cliquez sur **suivant**.
 
-4.  Dans la page **Sélectionner des fonctionnalités** , activez les cases à cocher des fonctionnalités que vous voulez inclure dans ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case à cocher **conférences** pour autoriser la messagerie instantanée à plusieurs éléments, mais pas la sélection des conférences rendez **-vous (RTC)**, **voix entreprise**ou ** **Cases à cocher contrôle d’admission des appels, car elles représentent les fonctionnalités de conférence vocale, vidéo et de collaboration.
+4.  Dans la page **Sélectionner des fonctionnalités** , activez les cases à cocher des fonctionnalités que vous voulez inclure dans ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case à cocher **Conférence** pour autoriser la messagerie instantanée à plusieurs éléments, mais sans sélectionner les cases à cocher Conférence rendez **-vous (RTC)**, **voix entreprise**ou **contrôle d’admission des appels** , car elles représentent les fonctionnalités de voix, de vidéo et de conférence de collaboration.
     
-      - **Conférences**   cette sélection permet d’obtenir une gamme étendue de fonctionnalités, notamment:
+      - **Conférences**   cette sélection permet d’obtenir une gamme étendue de fonctionnalités, notamment :
         
           - Messagerie instantanée avec plus de deux parties dans une session de messagerie instantanée.
         
@@ -131,9 +133,9 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
       - **Le contrôle d’admission des appels (CAC)**   CAC détermine, en fonction de la bande passante disponible sur le réseau, s’il est possible d’établir des sessions de communication en temps réel telles que des appels vocaux ou vidéo. Si vous avez déployé uniquement la messagerie instantanée et la présence, CAC n’est pas nécessaire, car aucune de ces deux fonctionnalités n’utilise le CAC.
     
-      - **** L’archivage de l’archivage vous permet d’archiver le contenu du message instantané, le contenu de la réunion ou les deux envoyés via Lync Server 2013.   
+      - **L'** archivage de l’archivage vous permet d’archiver le contenu du message instantané, le contenu de la réunion ou les deux envoyés via Lync Server 2013.   
     
-      - **La surveillance**   de Analysis Server vous permet de recueillir des données numériques qui décrivent la qualité multimédia sur votre réseau et vos points de terminaison, des informations sur l’utilisation des appels VoIP, des messages instantanés, des conversations par messagerie instantanée, des réunions, du partage d’applications et du fichier. transferts et informations d’erreur et de dépannage pour les appels en échec.
+      - **La surveillance**   de Monitoring Server vous permet de collecter des données numériques qui décrivent la qualité multimédia sur votre réseau et vos points de terminaison, des informations sur l’utilisation des appels VoIP, des messages instantanés, des conversations a/V, des réunions, du partage d’application et des transferts de fichiers, et les informations d’erreur et de dépannage pour les appels en échec.
     
     <div>
     
@@ -197,7 +199,7 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     </table>
 
 
-5.  Dans la page **Sélectionner des rôles de serveur** colocalisés, vous pouvez Collocate le serveur de médiation sur le serveur frontal ou le déployer en tant que serveur autonome.
+5.  Dans la page **Sélectionner des rôles de serveur colocalisés** , vous pouvez Collocate le serveur de médiation sur le serveur frontal ou le déployer en tant que serveur autonome.
     
     Vous pouvez collocate le serveur de médiation sur le pool frontal.
     
@@ -218,19 +220,19 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
     **Activer un pool**   Edge définit et associe un serveur Edge unique ou un pool de serveurs Edge. Un serveur Edge facilite la communication et la collaboration entre les utilisateurs au sein de l’organisation et les personnes qui travaillent en dehors de celle-ci, notamment les utilisateurs fédérés.
     
-    Vous pouvez utiliser deux scénarios possibles pour déployer et associer les rôles de serveur:
+    Vous pouvez utiliser deux scénarios possibles pour déployer et associer les rôles de serveur :
     
-    Dans le premier scénario, vous définissez une nouvelle topologie pour une nouvelle installation. Vous pouvez aborder l’installation de deux manières:
+    Dans le premier scénario, vous définissez une nouvelle topologie pour une nouvelle installation. Vous pouvez aborder l’installation de deux manières :
     
       - Laissez la case à cocher désactivée et continuez de définir la topologie. Une fois les rôles serveur frontal et principal publiés, configurés et testés, vous pouvez réexécuter le Générateur de topologies afin de les ajouter à la topologie. Cette stratégie vous permet de tester le pool frontal et le serveur exécutant SQL Server sans complications supplémentaires provenant de rôles supplémentaires. Une fois les tests initiaux réalisés, vous pouvez réexécuter le Générateur de topologies afin de sélectionner les rôles à déployer.
     
       - Sélectionnez les rôles à installer, puis configurez le matériel en fonction des rôles sélectionnés.
     
-    Dans le scénario 2, vous disposez d’un déploiement existant et votre infrastructure est prête pour de nouveaux rôles ou vous devez associer des rôles existants à un nouveau serveur frontal:
+    Dans le scénario 2, vous disposez d’un déploiement existant et votre infrastructure est prête pour de nouveaux rôles ou vous devez associer des rôles existants à un nouveau serveur frontal :
     
       - Dans ce cas, vous devez sélectionner les rôles que vous souhaitez déployer ou associer au nouveau serveur frontal. Dans les deux cas, vous devez définir les rôles, configurer le matériel nécessaire et effectuer l’installation.
 
-7.  Dans la page **définir le SQL Store** , effectuez l’une des opérations suivantes:
+7.  Dans la page **définir le SQL Store** , effectuez l’une des opérations suivantes :
     
       - Pour utiliser un magasin SQL Server qui a déjà été défini dans votre topologie, sélectionnez une instance dans **Magasin SQL**.
     
@@ -242,7 +244,7 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
       - Pour utiliser la mise en miroir SQL, sélectionnez **activer la mise en miroir SQL** et sélectionnez une instance existante ou créez une nouvelle instance.
 
-8.  Dans la page **définir le partage de fichiers** , effectuez l’une des opérations suivantes:
+8.  Dans la page **définir le partage de fichiers** , effectuez l’une des opérations suivantes :
     
       - Pour utiliser un partage de fichiers qui a déjà été défini dans votre topologie, sélectionnez **Utiliser un partage de fichiers précédemment défini**.
     
@@ -257,7 +259,7 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
     </div>
 
-9.  Dans la page **spécifier l’URL du service Web** , effectuez l’une des opérations suivantes ou les deux:
+9.  Dans la page **spécifier l’URL du service Web** , effectuez l’une des opérations suivantes ou les deux :
     
     <div>
     
@@ -277,7 +279,7 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
     </div>
     
-    1.  Si vous configurez l’équilibrage de charge DNS, activez la case à cocher **remplacer le FQDN du pool de services Web interne** , entrez l’URL de base interne (qui doit être différente de celle du pool de nom\<de domaine complet\>, par exemple, l’URL de base) dans ** URL de base interne**.
+    1.  Si vous configurez l’équilibrage de charge DNS, activez la case à cocher **remplacer le FQDN du pool de services Web interne** , entrez l’URL de base interne (qui doit être différente du nom de domaine complet du\<pool, par\>exemple, votre URL de base) dans l' **URL de base interne**.
         
         <div>
         
@@ -299,7 +301,7 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
     </div>
 
-10. Si vous avez sélectionné l’option **conférences** dans la page **Sélectionner des fonctionnalités** , dans la page **Sélectionner un serveur Office Web Apps** , sélectionnez **associer le pool à un serveur Office Web Apps** , puis cliquez sur **nouveau** (ou sélectionnez une application Office Web Apps existante). Serveur dans la liste déroulante).
+10. Si vous avez sélectionné l’option **conférences** dans la page **Sélectionner des fonctionnalités** , dans la page **Sélectionner un serveur Office Web Apps** , sélectionnez **associer le pool à un serveur Office Web Apps** , puis cliquez sur **nouveau** (ou sélectionnez un serveur Office Web Apps existant dans la liste déroulante).
 
 11. Dans la boîte de dialogue **Définir un nouveau serveur Office Web Apps**, tapez le nom de domaine complet de votre ordinateur Office Web Apps Server dans la zone **Nom de domaine complet du serveur Office Web Apps**. L’URL de découverte du serveur Office Web Apps Server est alors automatiquement entrée dans la zone **URL de découverte du serveur Office Web Apps**.
     
@@ -316,11 +318,11 @@ Après avoir défini votre topologie, utilisez la procédure suivante pour défi
     
     </div>
 
-12. Dans la page **définir le SQL Store** d’archivage, sélectionnez une instance existante ou SQL Server, ou définissez une nouvelle instance pour stocker les données associées aux données d’archivage.
+12. Dans la page **définir le SQL Store d’archivage** , sélectionnez une instance existante ou SQL Server, ou définissez une nouvelle instance pour stocker les données associées aux données d’archivage.
 
 13. Dans la page **définir la surveillance du SQL Store** , sélectionnez une instance existante ou SQL Server, ou définissez une nouvelle instance pour le stockage des données associées aux données d’analyse.
 
-14. Cliquez sur **Suivant**. Si vous avez défini d’autres serveurs de rôles sur la page **associer des rôles de serveur à cette liste frontale** , des pages d’assistant de configuration de rôles distinctes s’ouvrent pour vous permettre de configurer les rôles de serveur. Pour plus d’informations, reportez-vous aux rubriques suivantes:
+14. Cliquez sur **Suivant**. Si vous avez défini d’autres serveurs de rôles sur la page **associer des rôles de serveur à cette liste frontale** , des pages d’assistant de configuration de rôles distinctes s’ouvrent pour vous permettre de configurer les rôles de serveur. Pour plus d’informations, reportez-vous aux rubriques suivantes :
     
     [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
 

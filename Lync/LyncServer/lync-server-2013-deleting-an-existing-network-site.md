@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: suppression d’un site réseau existant'
+title: 'Lync Server 2013 : suppression d’un site réseau existant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an existing network site
 ms:assetid: 2762149b-3572-4513-b838-beda7fa9e81e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688001(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772d653e0bde803f47a5742a4f3824bdef01c3f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3c8e3828bccb84fcddb4404dd7228173c63ab8a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831585"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831585"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les sites réseau sont les bureaux ou les emplacements configurés dans chaque région d’un contrôle d’admission des appels (CAC) ou un déploiement 9-1-1 amélioré. Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour configurer les sites et les associer à des régions. Par exemple, une région réseau pour l’Amérique du Nord peut être associée à des sites réseaux tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site au sein d’une organisation, même si ce site n’a pas de limitations de bande passante. Le panneau de configuration de Lync Server vous permet de créer, de modifier et de supprimer des sites réseau. Utilisez la procédure suivante pour supprimer un site réseau existant. Pour plus d’informations sur la création et la modification de sites réseau, voir [création ou modification de sites réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)
 

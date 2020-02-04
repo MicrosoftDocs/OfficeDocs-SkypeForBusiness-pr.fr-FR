@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: stratégies et paramètres du client'
+title: 'Lync Server 2013 : stratégies et paramètres du client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client policies and settings
 ms:assetid: c3ee47c0-7e20-47ec-809a-f4502d939586
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412966(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bbe37efc3c1c5ab430137d47dd8d08a91041010
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc306e97c3325ce4cfc11110665bd2f23781cf89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838549"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838549"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-18_
+_**Dernière modification de la rubrique :** 2012-06-18_
 
-Cette rubrique fournit une vue d’ensemble des stratégies et paramètres liés au client que vous pouvez configurer dans Lync Server 2013. Lync Server 2013 inclut les outils suivants pour la gestion et la configuration des clients:
+Cette rubrique fournit une vue d’ensemble des stratégies et paramètres liés au client que vous pouvez configurer dans Lync Server 2013. Lync Server 2013 inclut les outils suivants pour la gestion et la configuration des clients :
 
   - **Panneau de configuration**   de Lync Server 2013 une interface utilisateur graphique basée sur le Web pour la gestion et la configuration des serveurs, utilisateurs, clients et périphériques.
 

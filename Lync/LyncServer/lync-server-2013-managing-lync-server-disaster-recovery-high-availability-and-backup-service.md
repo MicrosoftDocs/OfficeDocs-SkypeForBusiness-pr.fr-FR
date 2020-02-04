@@ -3,6 +3,8 @@ title: Gestion de la reprise après sinistre du serveur Lync, haute disponibilit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7adc4086ac8ac6b8e5ad33c2e4c1dc131d357e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828011"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34828011"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-12_
+_**Dernière modification de la rubrique :** 2012-11-12_
 
 Cette section contient des procédures pour les opérations de récupération d’urgence, ainsi que pour la gestion du service de sauvegarde qui synchronise les données dans les pools frontaux couplés.
 
 Les procédures de reprise après sinistre, à la fois de basculement et de restauration automatique, sont manuelles. En cas de sinistre, l’administrateur doit appeler manuellement les procédures de basculement. Il en va de même pour la restauration après la réparation du pool.
 
-Les procédures de reprise après sinistre dans le reste de cette section sont supposées comme suit:
+Les procédures de reprise après sinistre dans le reste de cette section sont supposées comme suit :
 
   - Vous disposez d’un déploiement avec des plages frontales couplées disponibles dans les différents sites, comme décrit dans la rubrique [planification de la haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Le service de sauvegarde est en cours d’exécution sur ces pools couplés pour qu’ils soient synchronisés.
 
@@ -49,7 +51,7 @@ Les procédures de reprise après sinistre dans le reste de cette section sont s
 
 
 > [!IMPORTANT]
-> Dans les procédures suivantes, le paramètre <EM>PoolFQDN</EM> fait référence au nom de domaine complet (FQDN) du pool affecté par un sinistre, et non à partir du pool sur lequel les utilisateurs concernés sont redirigés. Pour le même ensemble d’utilisateurs concernés, il fait référence au même pool dans les applets de service de basculement et de restauration automatique (autrement dit, le pool qui a d’abord hébergé les utilisateurs avant le basculement).<BR>Par exemple, supposons que l’ensemble des utilisateurs hébergés sur un pool P1 aient pu basculer vers le pool de sauvegardes P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement desservis par P2 pour être desservi par P1, l’administrateur doit procéder comme suit: 
+> Dans les procédures suivantes, le paramètre <EM>PoolFQDN</EM> fait référence au nom de domaine complet (FQDN) du pool affecté par un sinistre, et non à partir du pool sur lequel les utilisateurs concernés sont redirigés. Pour le même ensemble d’utilisateurs concernés, il fait référence au même pool dans les applets de service de basculement et de restauration automatique (autrement dit, le pool qui a d’abord hébergé les utilisateurs avant le basculement).<BR>Par exemple, supposons que l’ensemble des utilisateurs hébergés sur un pool P1 aient pu basculer vers le pool de sauvegardes P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement desservis par P2 pour être desservi par P1, l’administrateur doit procéder comme suit : 
 > <OL>
 > <LI>
 > <P>Basculez vers la page d’accueil de tous les utilisateurs à l’origine de l’appel P1 sur P1 à l’aide de l’applet de la cmdlet failback. Dans le cas présent, le <EM>PoolFQDN</EM> est P1's FQDN.</P>

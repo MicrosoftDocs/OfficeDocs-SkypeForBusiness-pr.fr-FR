@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: surveillance des fichiers journaux de suivi de requête IIS'
+title: 'Lync Server 2013 : surveillance des fichiers journaux de suivi de requête IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring IIS request tracing log files
 ms:assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690034(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1257e350dd7695bf132959d6b4cde4843192e41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d29082fd4f2e988d586501d4d867be0dc23a0c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826625"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826625"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-14_
+_**Dernière modification de la rubrique :** 2013-02-14_
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
