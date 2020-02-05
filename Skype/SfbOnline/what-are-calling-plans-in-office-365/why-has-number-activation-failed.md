@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateFailed
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateFailed
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692279"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769147"
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation de numéro a-t-elle échoué ?
 La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé en raison de la validation de l’adresse, vous devrez créer une demande de service. La procédure dépend de la taille de votre organisation.

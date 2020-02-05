@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 'Résumé: cette rubrique vous explique comment configurer les options d’archivage initial pour Skype entreprise Server. Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.'
-ms.openlocfilehash: 76611d5b475c66bc6546bfe1c340f729f281a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment configurer les options d’archivage initial pour Skype entreprise Server. Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.'
+ms.openlocfilehash: f663b310d4c82594976f2f0fc99b8ddd9baf035f
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234560"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769197"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurer les options d’archivage de Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la configuration des options d’archivage initial de Skype entreprise Server, reportez-vous à cette rubrique. Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.
+**Résumé :** Pour plus d’informations sur la configuration des options d’archivage initial de Skype entreprise Server, reportez-vous à cette rubrique. Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement.
   
-Pour configurer les configurations d’archivage initiales, utilisez le panneau de configuration Skype entreprise Server pour spécifier les éléments suivants:
+Pour configurer les configurations d’archivage initiales, utilisez le panneau de configuration Skype entreprise Server pour spécifier les éléments suivants :
   
 - Configuration de niveau global créée par défaut lors du déploiement de Skype entreprise Server
     
@@ -70,7 +72,7 @@ Pour configurer les options d’archivage au niveau global
     
    - **Archiver les sessions de messagerie instantanée et de conférence web**
     
-6. Par ailleurs, dans la page **modifier les paramètres d’archivage-général** , procédez comme suit:
+6. Par ailleurs, dans la page **modifier les paramètres d’archivage-général** , procédez comme suit :
     
    - Pour bloquer toute activité si l’archivage n’est pas disponible, cochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     

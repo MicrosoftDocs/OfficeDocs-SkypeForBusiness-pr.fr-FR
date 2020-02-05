@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BClients
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BClients
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation des appareils Skype entreprise pour afficher les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles, sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions. Pour plus d’informations, consultez les rapports d’activité dans le centre d’administration.
-ms.openlocfilehash: 12f16b050a105f6795437bbfd7f5008b177a6714
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706059"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769397"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 

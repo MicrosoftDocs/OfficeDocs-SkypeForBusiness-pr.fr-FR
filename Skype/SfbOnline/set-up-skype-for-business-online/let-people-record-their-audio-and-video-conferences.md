@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365P_RecordingDesc
+- CSH
 ms.custom:
 - Setup
+- O365P_RecordingDesc
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706489"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769607"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 

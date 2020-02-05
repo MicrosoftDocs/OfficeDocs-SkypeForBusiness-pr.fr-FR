@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.
-ms.openlocfilehash: 13ff6b1dbf1c6ba0cf9c8effddaaae8f097de9ea
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: ac9a5edac94d182812aefaf9eb817765c7af6444
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768817"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Déploiements locaux de plusieurs forêts Skype Room System
  

@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
-ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
+ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41205291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41772745"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -43,6 +43,9 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Éducation (enseignant)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux enseignants.      |
 |Voix professionnelle |Crée une stratégie de configuration d’application qui inclut les applications pour une interface vocale professionnelle.|
 |Officier de sûreté public   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique au sein de votre organisation.|
+|Healthcare (travailleur clinique)  |Crée un ensemble de stratégies et de paramètres de stratégie qui permettent aux travailleurs cliniques tels que les infirmières, les infirmières, les médecins et les travailleurs sociaux d’avoir un accès complet aux discussions, aux appels, à la gestion des équipes et aux réunions. |
+|Santé (travailleurs de l’information)  |Crée un ensemble de stratégies et de paramètres de stratégie qui permettent aux travailleurs de l’information, tels que le personnel informatique, le personnel informatique, le personnel financier et les responsables de la mise en conformité, un accès complet aux discussions, aux appels et aux réunions.|
+
 
 > [!NOTE]
 > Comme nous allons ajouter d’autres packages de stratégie dans les futures versions de teams, vous pouvez consulter les informations les plus récentes.  
@@ -104,6 +107,6 @@ Vous pouvez modifier les paramètres d’une stratégie par le biais de la page 
 
 Cela risque de se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées. Réattribuez-le à vos utilisateurs. Le renouvellement de l’opération résout généralement ce problème.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)

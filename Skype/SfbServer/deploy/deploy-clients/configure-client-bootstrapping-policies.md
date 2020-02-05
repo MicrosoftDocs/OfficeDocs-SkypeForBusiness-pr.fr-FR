@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-description: 'Résumé: procédure de gestion des stratégies de groupe.'
-ms.openlocfilehash: 5d099a57db720a87e67ee00aa87a8613ac6552b7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : procédure de gestion des stratégies de groupe.'
+ms.openlocfilehash: 40b79c2be5713249df9f7e3061cb42d6be27f926
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769107"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configuration des stratégies de démarrage de clients
  
-**Résumé:** Gestion des stratégies de groupe.
+**Résumé :** Gestion des stratégies de groupe.
   
 La Console de gestion des stratégies de groupe et l’Éditeur d’objets de stratégie de groupe sont des outils que vous utilisez pour gérer la stratégie de groupe. Inclus dans le modèle d’administration de stratégie de groupe Office sont les modèles d’administration lync16. admx (ADMX) et. adml (ADML) qui contiennent les paramètres de stratégie de registre de Skype entreprise que vous configurez pour les objets de stratégie de groupe dans le domaine. Les fichiers ADML sont des compléments spécifiques à une langue pour les fichiers ADMX. Chaque fichier ADMX et ADML contient les paramètres de stratégie d’une seule application Office. Vous pouvez [Télécharger les fichiers de modèles d’administration Office 2016 (ADMX/adml)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) gratuitement à partir du centre de téléchargement Microsoft.
   
@@ -29,9 +31,9 @@ Pour les clients Skype entreprise, il existe plusieurs stratégies de démarrage
 
 |Paramètre de stratégie de groupe|Description|
 |:-----|:-----|
-|Spécifiez Server (ConfigurationMode)  <br/> | Indique la manière dont Skype entreprise identifie le transport et le serveur à utiliser lors de la connexion. Dans ce paramètre, spécifiez les valeurs suivantes : <br/>  ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion de l’extérieur du pare-feu externe. <br/>  ServerAddressInternal: spécifie le nom ou l’adresse IP du serveur utilisée lorsque les clients se connectent à partir du pare-feu de l’organisation. <br/>  Transfert : spécifie le protocole TCP (Transmission Control Protocol) ou TLS (Transport Layer Security). <br/> |
+|Spécifiez Server (ConfigurationMode)  <br/> | Indique la manière dont Skype entreprise identifie le transport et le serveur à utiliser lors de la connexion. Dans ce paramètre, spécifiez les valeurs suivantes : <br/>  ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion de l’extérieur du pare-feu externe. <br/>  ServerAddressInternal : spécifie le nom ou l’adresse IP du serveur utilisée lorsque les clients se connectent à partir du pare-feu de l’organisation. <br/>  Transfert : spécifie le protocole TCP (Transmission Control Protocol) ou TLS (Transport Layer Security). <br/> |
 |Versions serveur supplémentaires prises en charge (ConfiguredServerCheckValues)  <br/> |Spécifie une liste de noms de version de serveur séparés par des points-virgules pour lesquels Skype entreprise Server est connecté, en plus des versions de serveur prises en charge par défaut.  <br/> |
-|Désactiver le téléchargement automatique des journaux d’échec de connexion (DisableAutomaticSendTracing)  <br/> |Charge automatiquement les journaux d’échec de connexion dans Skype entreprise Server pour analyse. Aucun journal n’est téléchargé automatiquement si l’authentification réussit. Si cette stratégie n’est pas configurée, voici ce qui se produit :  <br/> Pour les utilisateurs de Skype entreprise Online: les journaux d’échecs de connexion sont automatiquement téléchargés. Pour les utilisateurs de Skype entreprise sur site: une boîte de dialogue de confirmation s’affiche à l’utilisateur avant le chargement. Lorsque ce paramètre est désactivé, les journaux de connexion sont automatiquement téléchargés sur Skype entreprise Server pour les utilisateurs de Skype entreprise sur site et Skype entreprise online. Lorsque ce paramètre est activé, les journaux de connexion ne sont jamais téléchargés automatiquement.  <br/> |
+|Désactiver le téléchargement automatique des journaux d’échec de connexion (DisableAutomaticSendTracing)  <br/> |Charge automatiquement les journaux d’échec de connexion dans Skype entreprise Server pour analyse. Aucun journal n’est téléchargé automatiquement si l’authentification réussit. Si cette stratégie n’est pas configurée, voici ce qui se produit :  <br/> Pour les utilisateurs de Skype entreprise Online : les journaux d’échecs de connexion sont automatiquement téléchargés. Pour les utilisateurs de Skype entreprise sur site : une boîte de dialogue de confirmation s’affiche à l’utilisateur avant le chargement. Lorsque ce paramètre est désactivé, les journaux de connexion sont automatiquement téléchargés sur Skype entreprise Server pour les utilisateurs de Skype entreprise sur site et Skype entreprise online. Lorsque ce paramètre est activé, les journaux de connexion ne sont jamais téléchargés automatiquement.  <br/> |
 |Désactiver le secours HTTP pour la connexion SIP (DisableHttpConnect)  <br/> |Empêche Skype entreprise Server d’essayer de se connecter au serveur à l’aide du protocole HTTP si le protocole TLS ou TCP n’est pas disponible. Par défaut, Skype entreprise tente d’abord de se connecter au serveur à l’aide du protocole TLS ou TCP et, si aucune de ces méthodes de transport n’est réussie, Skype entreprise tente de se connecter à l’aide de HTTP. Utilisez cette stratégie pour désactiver la tentative de connexion HTTP de secours.  <br/> |
 |Nécessiter des informations d’identification de connexion (DisableNTCredentials)  <br/> |Nécessite que l’utilisateur fournit des informations d’identification d’ouverture de session pour Skype entreprise plutôt que d’utiliser automatiquement les informations d’identification Windows lors de la connexion à un serveur SIP.  <br/> |
 |Désactiver la vérification de version serveur (DisableServerCheck)  <br/> |Si vous affectez la valeur 1 à cette stratégie, vous empêchez Skype entreprise de vérifier le nom et la version du serveur avant de vous connecter. Par défaut, Skype entreprise effectue ces vérifications avant de se connecter.  <br/> |
@@ -50,7 +52,7 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
 |**Priorité**|**Emplacement ou méthode de définition**|
 |:-----|:-----|
 |1  <br/> |Approvisionnement de Skype entreprise Server intrabande  <br/> |
-|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|deuxième  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4  <br/> |Boîte de dialogue Options dans Skype entreprise  <br/> |
    

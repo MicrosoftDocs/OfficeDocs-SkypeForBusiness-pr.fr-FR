@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype Room System à votre domaine.
-ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 49e8c89ed9ddbbd579e7ed30fec6b98a933e3a3f
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768927"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Remarques relatives à la jonction du domaine Skype Room System
  

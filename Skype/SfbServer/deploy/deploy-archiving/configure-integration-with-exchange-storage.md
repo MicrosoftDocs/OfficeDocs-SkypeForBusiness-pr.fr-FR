@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
-description: 'Résumé: cette rubrique vous explique comment configurer l’intégration avec le stockage Exchange dans Skype entreprise Server.'
-ms.openlocfilehash: 72caf77c81dae538f793afe6f0a94ad6b61d0fa5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment configurer l’intégration avec le stockage Exchange dans Skype entreprise Server.'
+ms.openlocfilehash: cee41a52593a90490ec8da90637ee4ec5de33d03
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768887"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurer l’intégration avec le stockage Exchange pour Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la configuration de l’intégration avec le stockage Exchange dans Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Pour plus d’informations sur la configuration de l’intégration avec le stockage Exchange dans Skype entreprise Server, reportez-vous à cette rubrique.
   
 Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement, vous n’avez pas besoin de configurer les stratégies d’archivage de Skype entreprise Server pour vos utilisateurs. Au lieu de cela, vous configurez les stratégies de conservation inaltérable pour la prise en charge de l’archivage pour les utilisateurs hébergés sur Exchange, et leurs boîtes aux lettres sont placées dans la conservation inaltérable. Avant de configurer l’intégration avec le stockage Exchange, voir [plan d’archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md). Pour plus d’informations sur les stratégies de conservation inaltérable d’Exchange, voir la documentation du produit Exchange. 
   
@@ -41,7 +43,7 @@ Si vous utilisez l’intégration de Microsoft Exchange pour tous les utilisateu
     
 ## <a name="when-skype-for-business-server-and-microsoft-exchange-are-deployed-in-different-forests"></a>Lorsque Skype entreprise Server et Microsoft Exchange sont déployés dans différentes forêts
 
-Si vous utilisez l’intégration de Microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype entreprise Server, vous devez vous assurer que les attributs d’annuaire Active Directory suivants sont synchronisés avec la forêt où Skype pour Le déploiement d’Business Server est le suivant:
+Si vous utilisez l’intégration de Microsoft Exchange et que Microsoft Exchange Server n’est pas déployé dans la même forêt que Skype entreprise Server, vous devez vous assurer que les attributs d’annuaire Active Directory suivants sont synchronisés avec la forêt où Skype pour Le déploiement d’Business Server est le suivant :
   
 - msExchUserHoldPolicies
     

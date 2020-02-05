@@ -7,15 +7,17 @@ ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Cette rubrique décrit les procédures de déploiement pour l’utilisation de Skype entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 8892bf8b8772bdb301f914bca134d61e67ea934b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f864136ab55f37a9bfaf54d6c31d74d31844da59
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234402"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768946"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Déploiement du plug-in Lync VDI avec Skype entreprise Server
  
@@ -41,7 +43,7 @@ Cette rubrique fournit des détails sur le déploiement du plug-in Microsoft Lyn
 ## <a name="configure-remote-desktop-connection-settings"></a>Configurer les paramètres de la connexion Bureau à distance
 <a name="Prepare_vdi"> </a>
 
-Pour préparer la connexion Bureau à distance pour le plug-in Lync VDI, procédez comme suit sur l’ordinateur local:
+Pour préparer la connexion Bureau à distance pour le plug-in Lync VDI, procédez comme suit sur l’ordinateur local :
   
 1. Si l’ordinateur local exécute Windows 8, ignorez cette étape. Si l’ordinateur local exécute Windows 7 avec SP1, installez la dernière version de Windows 8 du [client de services Bureau à distance](https://go.microsoft.com/fwlink/p/?LinkId=268032).
     
@@ -70,7 +72,7 @@ Une fois que le plug-in Lync VDI est activé, l’utilisateur suit les étapes s
     
 2. Après avoir détecté le plug-in Lync VDI, Skype entreprise invite l’utilisateur à entrer de nouveau les informations d’identification. Dans cette boîte de dialogue, nous recommandons à l’utilisateur d’activer la case à cocher **Enregistrer mon mot de passe** afin qu’il n’ait pas à les entrer de nouveau lors de connexions ultérieures.
     
-3. Skype entreprise commence à jumeler avec le plug-in Lync VDI. Lorsque cela se produit, le client affiche deux icônes dans la barre d’état Skype entreprise. L’icône située dans le coin inférieur gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotant dans le coin inférieur droit indique que le jumelage VDI est en cours: a. Après le jumelage de l’infrastructure VDI, les icônes changent pour indiquer le périphérique audio à utiliser pour les appels et le succès du jumelage d’un appareil VDI: b. L’utilisateur peut maintenant voir son statut de connexion sur les appareils compatibles Skype entreprise qui sont connectés à l’ordinateur local, et les appels et les réponses habituelles.
+3. Skype entreprise commence à jumeler avec le plug-in Lync VDI. Lorsque cela se produit, le client affiche deux icônes dans la barre d’état Skype entreprise. L’icône située dans le coin inférieur gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotant dans le coin inférieur droit indique que le jumelage VDI est en cours : a. Après le jumelage de l’infrastructure VDI, les icônes changent pour indiquer le périphérique audio à utiliser pour les appels et le succès du jumelage d’un appareil VDI : b. L’utilisateur peut maintenant voir son statut de connexion sur les appareils compatibles Skype entreprise qui sont connectés à l’ordinateur local, et les appels et les réponses habituelles.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Résolution des problèmes du plug-in Lync VDI
 <a name="tshoot_VDI"> </a>
@@ -79,7 +81,7 @@ Reportez-vous aux sections suivantes si vous rencontrez des problèmes après l�
   
 ### <a name="issues-with-installing-the-lync-vdi-plug-in"></a>Problèmes d’installation du plug-in Lync VDI 
 
-Si vous rencontrez des problèmes lors de l’installation du plug-in Lync VDI, vérifiez les points suivants:
+Si vous rencontrez des problèmes lors de l’installation du plug-in Lync VDI, vérifiez les points suivants :
   
 - Assurez-vous que l’espace est suffisant dans le dossier que vous avez spécifié dans les variables système TEMP et TMP.
     
@@ -87,7 +89,7 @@ Si vous rencontrez des problèmes lors de l’installation du plug-in Lync VDI, 
     
 ### <a name="troubleshooting-issues-with-pairing"></a>Résolution des problèmes liés au jumelage
 
-Lorsque le jumelage du plug-in Lync VDI échoue, l’icône de jumelage dans le coin inférieur droit s’affiche sous la forme d’un «X» rouge, comme illustré ci-dessous: 
+Lorsque le jumelage du plug-in Lync VDI échoue, l’icône de jumelage dans le coin inférieur droit s’affiche sous la forme d’un « X » rouge, comme illustré ci-dessous : 
   
 Voici les raisons possibles des échecs, ainsi que les mesures que vous pouvez prendre pour y remédier.  
   
@@ -97,7 +99,7 @@ Voici les raisons possibles des échecs, ainsi que les mesures que vous pouvez p
     
 - **Une autre instance du client Bureau à distance est en cours d’exécution.**
     
-    S’ils utilisent une connexion Bureau à distance dans Windows, les utilisateurs doivent procéder comme suit:
+    S’ils utilisent une connexion Bureau à distance dans Windows, les utilisateurs doivent procéder comme suit :
     
 1. Démarrez le Gestionnaire des tâches : appuyez sur **Alt+Ctrl+Suppr **, puis cliquez sur **Démarrer le Gestionnaire des tâches**.
     

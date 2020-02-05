@@ -5,23 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: 'Résumé: cette rubrique vous explique comment ajouter des bases de données d’archivage à votre déploiement Skype entreprise Server.'
-ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment ajouter des bases de données d’archivage à votre déploiement Skype entreprise Server.'
+ms.openlocfilehash: 26cdd1befb695fbaf0656611ed65c7afa778af6c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234374"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769047"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server
  
-**Résumé:** Consultez cette rubrique pour découvrir comment ajouter des bases de données d’archivage à votre déploiement de Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour découvrir comment ajouter des bases de données d’archivage à votre déploiement de Skype entreprise Server.
   
-Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cet article vous expliquent comment utiliser le générateur de topologie pour:
+Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cet article vous expliquent comment utiliser le générateur de topologie pour :
   
 - Ajouter une base de données d’archivage à votre topologie.
     
@@ -46,11 +48,11 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
 7. Activez la case à cocher **Archivage**.
     
-8. Sous **archivage de SQL Server Store,** effectuez l’une des opérations suivantes:
+8. Sous **archivage de SQL Server Store,** effectuez l’une des opérations suivantes :
     
    - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont hébergés sur Microsoft Exchange Server 2013 ou une version ultérieure, vous pouvez archiver les communications Skype entreprise pour tous vos utilisateurs en échange. Dans ce cas, vous n’avez pas besoin de configurer le magasin SQL Server d’archivage.
     
-   - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit:
+   - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit :
     
    - Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
@@ -58,11 +60,11 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
    - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
-9. Si vous souhaitez utiliser la mise en miroir SQL Server Store, sélectionnez **activer la mise en miroir SQL Server Store**, puis procédez comme suit:
+9. Si vous souhaitez utiliser la mise en miroir SQL Server Store, sélectionnez **activer la mise en miroir SQL Server Store**, puis procédez comme suit :
     
-   - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante archivage de **SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
+   - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante **archivage de SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
     
-   - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes:
+   - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes :
     
      a. Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
@@ -70,7 +72,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
      c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
-   - Si vous activez la mise en miroir SQL Server et souhaitez inclure un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server et des instances miroir principales), sélectionnez le **témoin de mise en miroir SQL Server pour activer le service automatique. **activez le basculement, puis effectuez l’une des opérations suivantes:
+   - Si vous activez la mise en miroir SQL Server et souhaitez inclure un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server et des instances miroir principales), activez la case à cocher **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** , puis effectuez l’une des opérations suivantes :
     
      a. Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
     
@@ -85,7 +87,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
 1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte qui est membre du groupe utilisateurs local (ou d’un compte disposant de droits d’utilisateur équivalents).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe **administrateurs de domaine** et de la **RTCUniversalServer. Groupe administrateurs** et qui dispose des autorisations contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le stockage de fichiers Skype entreprise Server (de sorte que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise ou un compte avec des droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie. vous devez utiliser un compte membre du groupe **administrateurs de domaine** et du groupe **RTCUniversalServerAdmins** et ayant les autorisations contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le stockage de fichiers Skype entreprise Server (de sorte que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise. compte avec des droits équivalents.
   
 2. Ouvrez la topologie que vous avez créée dans la section précédente à l’aide du générateur de topologie.
     

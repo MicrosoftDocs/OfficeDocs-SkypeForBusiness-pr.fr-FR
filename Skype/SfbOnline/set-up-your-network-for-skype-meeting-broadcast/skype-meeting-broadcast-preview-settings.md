@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetingsPreview
 description: Le programme Customer Preview de Skype entreprise vous permet d’accéder en avant-première aux nouveaux produits et fonctions. Il permet à votre organisation de se familiariser avec les nouvelles fonctionnalités, de tester les nouvelles fonctionnalités de votre environnement et de transmettre des commentaires avant de mettre à jour le public. Pour en savoir plus, reportez-vous à la version préliminaire de Skype entreprise.
-ms.openlocfilehash: 16cfbfd05c5d1e54ba9613e088c99f7eece4f67a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7f3550db7259e1606e4ac4e5e4b766c73f61566a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692559"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769437"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Paramètres de visualisation de diffusion de réunion Skype
 

@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgMobileNotification
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgMobileNotification
 description: Apprenez à activer ou désactiver les notifications par téléphone mobile pour permettre aux utilisateurs de recevoir des alertes concernant les messages entrants, les messages vocaux et les messages instantanés manqués.
-ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769547"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 

@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
-description: 'Résumé: cette rubrique vous explique comment déployer l’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: 8611f83b6e3504d860cf37a7ad2c24c20b446671
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment déployer l’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: c4f0e28c0b48cc93f1c03296f6d00555d1a7d327
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769115"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Déploiement de l’archivage pour Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur le déploiement de l’archivage dans Skype entreprise Server, voir cette rubrique.
+**Résumé :** Pour plus d’informations sur le déploiement de l’archivage dans Skype entreprise Server, voir cette rubrique.
   
 L’archivage est automatiquement installé sur chaque serveur frontal dans le déploiement de Skype entreprise Server, mais vous devez toujours effectuer les étapes de configuration et de configuration pour pouvoir l’utiliser. Avant de commencer, assurez-vous que vous connaissez les concepts de la planification de l' [archivage dans Skype entreprise Server](../../plan-your-deployment/archiving/archiving.md).
   
@@ -41,8 +43,8 @@ Le tableau ci-dessous décrit les étapes nécessaires pour déployer l’archiv
 |**Phase**|**Étapes**|**Rôles et appartenance aux groupes**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |**Installer le matériel et les logiciels prérequis** <br/> |Pour utiliser l’intégration de Microsoft Exchange (à l’aide d’Exchange pour le stockage d’archivage pour tout ou partie des utilisateurs), vous avez besoin d’un déploiement Exchange existant.  <br/> Pour utiliser des bases de données d’archivage distinctes (à l’aide de bases de données SQL Server) pour le stockage d’archives d’une partie ou de la totalité des utilisateurs, vous avez besoin de SQL Server sur le serveur qui va stocker les données d’archivage.  <br/> L’archivage s’exécute sur les serveurs frontaux d’un pool Enterprise et des serveurs Standard Edition. Aucune configuration matérielle ou logicielle supplémentaire n’est requise en dehors de celle nécessaire à l’installation de ces serveurs.  <br/> |Utilisateur du domaine membre du groupe Administrateurs local.  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Planifier l’intégration de Skype Entreprise et d’Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Configuration système requise pour Skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md) |
-|**Créez la topologie interne appropriée pour la prise en charge de l’archivage (uniquement si vous n’utilisez pas l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement).** <br/> |Exécutez le générateur de topologie pour ajouter des bases de données d’archivage de Skype entreprise Server (bases de données SQL Server) à la topologie, puis publiez la topologie.  <br/> |Pour définir une topologie afin qu’elle intègre des bases de données d’archivage, un compte membre du groupe Utilisateurs local est requis.  <br/> Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le stockage de fichiers Skype entreprise Server (de sorte que cette topologie Le générateur peut configurer les DACL nécessaires.  <br/> |[Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server](add-archiving-databases.md) <br/> |
-|**Configurer l’authentification de serveur à serveur (uniquement si vous utilisez l’intégration de Microsoft Exchange)** <br/> |Configurer les serveurs pour activer l’authentification entre Skype entreprise Server et Exchange. Nous vous recommandons d’exécuter **test-CsExchangeStorageConnectivity testuser_sipUri-Folder benne** pour valider la connectivité de stockage d’archivage Exchange avant de procéder à l’archivage. <br/> |Un compte doté des autorisations appropriées pour gérer les certificats sur les serveurs.  <br/> |Gérer l’authentification de serveur à serveur  <br/> |
+|**Créez la topologie interne appropriée pour la prise en charge de l’archivage (uniquement si vous n’utilisez pas l’intégration de Microsoft Exchange pour tous les utilisateurs de votre déploiement).** <br/> |Exécutez le générateur de topologie pour ajouter des bases de données d’archivage de Skype entreprise Server (bases de données SQL Server) à la topologie, puis publiez la topologie.  <br/> |Pour définir une topologie afin qu’elle intègre des bases de données d’archivage, un compte membre du groupe Utilisateurs local est requis.  <br/> Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le stockage de fichiers Skype entreprise Server (de sorte que le générateur de topologie puisse configurer les DACL requis).  <br/> |[Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server](add-archiving-databases.md) <br/> |
+|**Configurer l’authentification de serveur à serveur (uniquement si vous utilisez l’intégration de Microsoft Exchange)** <br/> |Configurer les serveurs pour activer l’authentification entre Skype entreprise Server et Exchange. Nous vous recommandons d’exécuter le **test-CsExchangeStorageConnectivity testuser_sipUri-benne de dossiers** pour valider la connectivité de stockage d’archivage Exchange avant de procéder à l’archivage. <br/> |Un compte doté des autorisations appropriées pour gérer les certificats sur les serveurs.  <br/> |Gérer l’authentification de serveur à serveur  <br/> |
 |**Configurer les stratégies et les options d’archivage** <br/> |Configuration de l’archivage, y compris l’utilisation de l’intégration de Microsoft Exchange, de la stratégie globale et des stratégies de site et d’utilisateur (si vous n’utilisez pas l’intégration de Microsoft Exchange pour tout le stockage des données) et des options d’archivage spécifiques, telles que le mode et les données critiques exportation et suppression définitive.  <br/> Dans le cadre de l’utilisation de l’intégration de Microsoft Exchange, configurez les stratégies de blocage sur place Exchange, le cas échéant.  <br/> |Groupe RTCUniversalServerAdmins (Windows PowerShell uniquement) ou affectez des utilisateurs au rôle CSArchivingAdministrator ou CSAdministrator.  <br/> |[Configurer les options d’archivage de Skype entreprise Server](configure-archiving-options.md) <br/> Documentation du produit Exchange (si vous utilisez l’intégration de Microsoft Exchange).  <br/> |
    
 

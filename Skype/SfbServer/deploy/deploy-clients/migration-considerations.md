@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Pour en savoir plus sur le déploiement de votre système de salle Skype dans un environnement doté de plusieurs versions de Skype entreprise Server et de Lync Server, reportez-vous à cette rubrique.
-ms.openlocfilehash: 6524a7312644ec306185b952caf17818d29344af
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a4856977931d459fba3b11a65b21e49a25cc418b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768837"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Remarques sur la migration de Skype Room System
  

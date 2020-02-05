@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769827"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur le déploiement et la configuration de SBCs pour 
 
 - **AudioCodes :** [notes de configuration de routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrite dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
 - **Oracle :** [notes de configuration de routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
-- **Communications du ruban :**  Reportez-vous au [Guide de configuration de Microsoft teams SBC principal du ruban](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour obtenir une documentation sur la configuration de la série de cœurs du ruban SBCS et sur cette page. [ Bordure](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Communications du ruban :**  Pour plus d’informations sur la configuration du ruban de base du ruban, voir le [Guide de configuration de Microsoft teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) (en anglais [)](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing) sur la configuration de l’interface du ruban de Microsoft Teams, reportez-vous à la rubrique recommandations pour le routage
 - **Te-systèmes (anynode) :**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
 
 > [!NOTE]
@@ -83,7 +83,7 @@ Le diagramme suivant récapitule les exigences relatives aux domaines de base, s
 
 ![Diagramme présentant les exigences relatives aux domaines et en-tête de contact](media/direct-routing-1-sbc-requirements.png)
 
-L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec San * \*. base_domain (par exemple, \*. Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
+L’SBC nécessite un certificat pour authentifier les connexions. Pour le scénario d’hébergement SBC, l’opérateur doit demander un certificat avec le San * \*. base_domain (par exemple \*,. Customers.adatum.biz)*. Ce certificat peut être utilisé pour authentifier les connexions à plusieurs clients desservis à partir d’un SBC unique.
 
 
 Le tableau suivant illustre une configuration.
@@ -217,7 +217,7 @@ Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes 
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
 Deux nouvelles entités ont été introduites :
--   Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
+-   Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -   Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
 
