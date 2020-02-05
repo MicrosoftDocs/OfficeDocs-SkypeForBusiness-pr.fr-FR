@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 'Résumé: configurez un Trunk avec contournement multimédia activé pour Skype entreprise Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur SIP Trunk le prend en charge.'
-ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : configurez un Trunk avec contournement multimédia activé pour Skype entreprise Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur SIP Trunk le prend en charge.'
+ms.openlocfilehash: 4f834a908f002e334fbad70a8c1c8c0617ca2189
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233670"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768097"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configuration d’une Trunk with Media bypass dans Skype entreprise Server
 
-**Résumé:** Configurez un Trunk with Media Bypass Enabled pour Skype entreprise Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur SIP Trunk le prend en charge.
+**Résumé :** Configurez un Trunk with Media Bypass Enabled pour Skype entreprise Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur SIP Trunk le prend en charge.
 
 Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. Pour configurer un Trunk avec contournement de média désactivé, voir [configurer un Trunk sans dérivation multimédia dans Skype entreprise Server](configure-trunk-without-media-bypass.md).
 
@@ -172,7 +174,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 17. Assurez-vous que les règles de traduction du Trunk sont organisées dans l’ordre approprié. Pour modifier la position d’une règle dans la liste, sélectionnez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype entreprise Server parcourt la liste des règles de traduction du haut vers le bas et utilise la première règle correspondant au numéro numéroté. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui correspond uniquement aux numéros à 11 chiffres commençant par + 1425, assurez-vous que la règle qui correspond à n’importe quel numéro à 11 chiffres est triée *sous* la plus restrictive elle.
+    > Skype entreprise Server parcourt la liste des règles de traduction du haut vers le bas et utilise la première règle correspondant au numéro numéroté. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui correspond uniquement aux numéros à 11 chiffres commençant par + 1425, veillez à ce que la règle correspondant à un numéro à 11 chiffres soit triée *sous* la règle la plus restrictive.
 
 18. Lorsque vous avez fini de configurer la jonction, cliquez sur **OK**.
 

@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Résumé: Examinez les scénarios suivants pour vous aider à planifier votre topologie de serveur Edge dans Skype entreprise Server.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Examinez les scénarios suivants pour vous aider à planifier votre topologie de serveur Edge dans Skype entreprise Server.'
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277152"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754164"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Scénarios de serveur Edge dans Skype entreprise Server
  
-**Résumé:** Consultez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype entreprise Server.
+**Résumé :** Consultez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype entreprise Server.
   
 Nous avons quelques exemples de diagrammes pour vous aider à visualiser et à choisir la topologie de serveur Edge Skype entreprise Server que vous voulez implémenter. Une fois le scénario idéal sélectionné, vous pouvez effectuer des recherches sur les exigences environnementales devant être prises en compte. Nous allons commencer par les informations suivantes, applicables à tous les scénarios.
   
@@ -93,11 +93,4 @@ Nous disposons également d’un diagramme pour les pools de bords consolidés m
 Dans ce scénario, vous disposez de l’option de haute disponibilité dans le déploiement de votre serveur Edge, ce qui vous offre des avantages en matière de prise en charge de l’extensibilité et du basculement.
   
 ![Scénario de serveur Edge pour serveur Edge consolidé avec montée en puissance avec HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>Diagramme des ports
-
-Nous disposons également d’un diagramme pour les pools de bords consolidés mis à l’échelle avec l’équilibrage de charge matérielle
-  
-![Ports et protocoles du réseau de périmètre du serveur Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

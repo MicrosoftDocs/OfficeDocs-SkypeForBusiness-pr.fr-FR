@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628670"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737124"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
-Dans le rapport de l' [annonce](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) du 8 février 2019, Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article présente un résumé des utilisateurs concernés et à faire pour planifier leur continuité d’activité.
+Dans le rapport de l' [annonce](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) du 8 février 2019, Microsoft a supprimé le service Exchange Unified Messaging Online (ExchUMO) au 28 février 2020. Cet article présente un résumé des utilisateurs concernés et à faire pour planifier leur continuité d’activité.
  
 ExchUMO est déployé par des clients pour la boîte vocale, le standard automatique, la file d’attente des appels et les services d’intégration de télécopie. Microsoft envisage d’aider les clients à migrer sur des services de système téléphonique qui prennent déjà en charge des milliers de clients sur Skype entreprise Online et Microsoft Teams.
 
@@ -77,7 +77,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
     Recherchez une notification dans le centre de notification d’administration contenant des informations et une chronologie supplémentaires concernant la migration de vos utilisateurs. Les notifications sont envoyées au moins 30 jours avant votre période de migration. 
 
     > [!Note]
-    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et voulez différer votre migration pour une raison essentielle pour l’entreprise, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas différer votre migration au-delà de la date de retraite, 2020 février. Pour les clients qui peuvent avoir davantage de questions, contactez l’équipe de votre compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent proposer un dossier d’assistance via le portail d’administration Office 365. 
+    > Si vous avez reçu une notification avec la chronologie de la migration de vos utilisateurs et voulez différer votre migration pour une raison essentielle pour l’entreprise, vous pouvez le faire en contactant le support Microsoft. Notez que vous ne pouvez pas différer votre migration au-delà de la date de mise hors service, 28 février 2020. Pour les clients qui peuvent avoir davantage de questions, contactez l’équipe de votre compte ou le support Microsoft. Les clients qui utilisent déjà Office 365 peuvent proposer un dossier d’assistance via le portail d’administration Office 365. 
 
 6. **Vous pouvez opter pour une migration planifiée.**
 

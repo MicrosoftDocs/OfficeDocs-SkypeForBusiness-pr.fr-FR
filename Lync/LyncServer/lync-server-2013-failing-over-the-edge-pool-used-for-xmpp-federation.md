@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Basculement vers le pool Edge utilisé pour la fédé
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over the Edge pool used for XMPP federation
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688065(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 551774c070ebafd25376d220b20acccc8c573af2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1c76dc37ce1abb2d34c474d4144b0894d93a0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831161"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Dans votre organisation, il existe un pool Edge désigné comme pool à utiliser pour la Fédération XMPP. Si ce pool est vers le bas, vous devez le faire basculer sur la Fédération XMPP pour utiliser un pool Edge différent avant que la Fédération XMPP puisse fonctionner de nouveau.
 
@@ -47,11 +49,11 @@ Dans la procédure ci-dessous, EdgePool1 est le pool qui a hébergé la Fédéra
 
 1.  Si vous n’avez pas encore déployé un pool Edge (en plus de celui qui est actuellement disponible), vous devez déployer ce pool. Pour plus d’informations, reportez-vous à [déploiement d’un accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
 
-2.  Sur chaque serveur Edge du nouveau pool de périphériques Edge qui hébergera maintenant la Fédération de XMPP (EdgePool2), exécutez l’applet de commande suivante:
+2.  Sur chaque serveur Edge du nouveau pool de périphériques Edge qui hébergera maintenant la Fédération de XMPP (EdgePool2), exécutez l’applet de commande suivante :
     
         Stop-CsWindowsService
 
-3.  Exécutez l’applet de commande suivante pour rediriger l’itinéraire de Fédération XMPP vers EdgePool2:
+3.  Exécutez l’applet de commande suivante pour rediriger l’itinéraire de Fédération XMPP vers EdgePool2 :
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
@@ -65,7 +67,7 @@ Dans la procédure ci-dessous, EdgePool1 est le pool qui a hébergé la Fédéra
 
 6.  Assurez-vous que le pool de bords qui hébergera désormais la Fédération XMPP dispose d’une ouverture externe du port 5269.
 
-7.  Démarrez les services sur tous les serveurs Edge du pool Edge qui hébergeront désormais la Fédération XMPP:
+7.  Démarrez les services sur tous les serveurs Edge du pool Edge qui hébergeront désormais la Fédération XMPP :
     
         Start-CsWindowsService
 

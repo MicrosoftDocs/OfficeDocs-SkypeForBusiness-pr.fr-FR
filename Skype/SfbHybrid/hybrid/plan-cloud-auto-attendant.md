@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724224"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
 
@@ -23,12 +25,12 @@ Le standard automatique utilisé avec la messagerie unifiée Exchange (Exchange 
 
 Cela signifie, par essence, que vous disposez d’une implémentation hybride de Skype entreprise Server 2019 si vous souhaitez utiliser des fonctionnalités de messagerie unifiée comme les standards automatiques. Pour plus d’informations [, voir Configurer la connectivité hybride entre Skype entreprise Server et Office 365](configure-hybrid-connectivity.md) .
 
-Un standard automatique est un service Cloud qui accepte les appels des clients et émet des messages d’accueil, fournit des options de menu et interagit avec les appelants à l’aide de la voix ou de la numérotation pour acheminer les appels vers la destination appropriée. Chaque standard automatique est affecté à un **compte de ressource** (reportez-vous à la rubrique Configure Resource[Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera directement lié à un standard automatique dans le centre d’administration Microsoft Teams. Voir [qu’est-ce que les standards automatiques Cloud?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) pour plus d’informations sur les standards automatiques et sur les options et les fonctionnalités disponibles pour les standards automatiques.
+Un standard automatique est un service Cloud qui accepte les appels des clients et émet des messages d’accueil, fournit des options de menu et interagit avec les appelants à l’aide de la voix ou de la numérotation pour acheminer les appels vers la destination appropriée. Chaque standard automatique est affecté à un **compte de ressource** (reportez-vous à la rubrique[Configure Resource Accounts](configure-onprem-ra.md)) sur votre système Skype entreprise Server 2019 qui sera directement lié à un standard automatique dans le centre d’administration Microsoft Teams. Voir [qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) pour plus d’informations sur les standards automatiques et sur les options et les fonctionnalités disponibles pour les standards automatiques.
 
 > [!NOTE]
 > Vous pouvez affecter plusieurs numéros de service Microsoft ou des numéros hybrides à un standard automatique.
 
-Un appel entrant vers un standard automatique Cloud peut prendre plusieurs chemins, comme illustré ci-dessous:
+Un appel entrant vers un standard automatique Cloud peut prendre plusieurs chemins, comme illustré ci-dessous :
 
 ![Diagramme pour les standards automatiques](../../SfBServer2019/media/AA-plan-concept.png)
 
@@ -43,13 +45,13 @@ Voir également :
 
 ## <a name="requirements"></a>Configuration requise
 
-La configuration requise suivante suppose que vous ayez déjà déployé Skype entreprise Server 2019 dans une topologie prise en charge.  Vos besoins dépendent de votre scénario:
+La configuration requise suivante suppose que vous ayez déjà déployé Skype entreprise Server 2019 dans une topologie prise en charge.  Vos besoins dépendent de votre scénario :
 
 - Si vous utilisez déjà la messagerie unifiée Exchange en ligne ou en local et que vous effectuez une mise à niveau vers Skype entreprise 2019, vous devrez capturer la structure de vos standards automatiques et les recréer dans le Cloud à l’aide de standards automatiques Cloud. Pour plus d’informations, consultez la rubrique [migration d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers un système téléphonique](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - Pour une nouvelle configuration de standards automatiques Cloud, suivez les étapes décrites dans [Configure Resource Accounts](configure-onprem-ra.md).
 
-Outre la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de standard automatique Cloud Microsoft:
+Outre la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de standard automatique Cloud Microsoft :
 
 - Connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer le standard automatique Cloud pour vos utilisateurs sur site, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
@@ -68,7 +70,7 @@ Si vous envisagez de déployer Skype entreprise Server 2019 et/ou Exchange Serve
 
 Les standards automatiques Cloud peuvent être configurés avec Skype entreprise Server 2019, 2015 et 2013.
 
-Microsoft recommande les chemins de migration suivants:
+Microsoft recommande les chemins de migration suivants :
 
 - Si vous effectuez une mise à niveau vers Skype entreprise Server 2019, vous pouvez utiliser la messagerie unifiée Exchange dans Exchange Server 2013 ou 2016, mais vous devez effectuer une mise à niveau vers le standard automatique Cloud si vous utilisez Exchange Server 2019.
 
@@ -78,7 +80,7 @@ Pour plus d’informations sur la planification de la migration, reportez-vous �
 
 ### <a name="migrating-a-previously-implemented-exchange-um-auto-attendant-system"></a>Migration d’un système de standard automatique de messagerie unifiée Exchange précédemment implémenté
 
-Actuellement, nous ne prenons pas en charge la migration automatisée vers le Cloud d’un système de standard automatique de messagerie unifiée créé dans Exchange 2013 ou 2016. Pour recréer manuellement un système de standard automatique, vous devez:
+Actuellement, nous ne prenons pas en charge la migration automatisée vers le Cloud d’un système de standard automatique de messagerie unifiée créé dans Exchange 2013 ou 2016. Pour recréer manuellement un système de standard automatique, vous devez :
 
 1. Utilisez les commandes PowerShell d’administration Exchange pour examiner la structure de l’ancien système de standard automatique, y compris les standards automatiques imbriqués et les files d’attente d’appels.  
 2. Créez des copies de scripts de synthèse vocale ou de messages enregistrés associés à chaque nœud de standard automatique de messagerie unifiée.
@@ -91,7 +93,7 @@ Pour plus d’informations sur ces étapes, voir [migration d’un standard auto
 
 ## <a name="additional-planning-resources"></a>Ressources de planification supplémentaires
 
-Le didacticiel intitulé [petite entreprise-configurer un standard automatique](/microsoftteams/tutorial-org-aa) passe par le processus de collecte d’informations sur les besoins des utilisateurs, la planification d’une structure de standards automatiques et d’utilisateurs (et éventuellement des files d’attente d’appels), l’écriture des invites de menu et implémentation du plan dans le centre d’administration Teams. Passez en revue le didacticiel et utilisez les exercices pratiques pour créer votre plan.
+Le didacticiel intitulé [petite entreprise-configurer un standard automatique](/microsoftteams/tutorial-org-aa) passe par le processus de collecte d’informations sur les besoins des utilisateurs, de la planification d’une structure de standards automatiques et d’utilisateurs (et éventuellement d’appels de files d’attente), de l’écriture des invites de menu et de l’implémentation du plan dans le centre d’administration Teams. Passez en revue le didacticiel et utilisez les exercices pratiques pour créer votre plan.
 
 Lorsque vous disposez d’une structure solide qui répond à vos besoins et d’un script qui guide les clients de manière efficace, passez à la [Configuration des comptes de ressources](configure-onprem-ra.md).
 
@@ -106,14 +108,14 @@ Lorsque vous disposez d’une structure solide qui répond à vos besoins et d�
 
 [Activer l'enregistrement des invites personnalisées à l'aide de l'interface utilisateur de téléphonie](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Qu’est-ce que les standards automatiques Cloud?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Qu’est-ce que les standards automatiques Cloud ?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Configurer un standard automatique Cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 
-Messagerie unifiée Exchange: [répondre et acheminer automatiquement les appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Messagerie unifiée Exchange : [répondre et acheminer automatiquement les appels entrants](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Planification de la connectivité hybride entre Skype entreprise Server et Office 365](plan-hybrid-connectivity.md)
+[Planifier la connectivité hybride entre Skype Entreprise Server et Office 365](plan-hybrid-connectivity.md)
 
-[Configuration de la connectivité hybride entre Skype entreprise Server et Office 365](configure-hybrid-connectivity.md)
+[Configurer la connectivité hybride entre Skype Entreprise Server et Office 365](configure-hybrid-connectivity.md).
 
-[KB4480742: les appels à l’accès abonné ou au standard automatique échouent avec l’erreur Fast Busy et «500 Server Internal» après avoir déplacé les objets contact vers Skype entreprise Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+[KB4480742 : les appels à l’accès abonné ou au standard automatique échouent avec l’erreur Fast Busy et « 500 Server Internal » après avoir déplacé les objets contact vers Skype entreprise Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

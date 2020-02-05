@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 'Résumé: Découvrez comment configurer les stratégies vocales, les enregistrements d’utilisation RTC et les itinéraires vocaux dans Skype entreprise Server.'
-ms.openlocfilehash: 3cdc621e163aa8cff4ba2456c3a94ddf30bfcbaf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment configurer les stratégies vocales, les enregistrements d’utilisation RTC et les itinéraires vocaux dans Skype entreprise Server.'
+ms.openlocfilehash: faeb3b0eedead117f36b48e69e000350b4a04710
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239935"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766897"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configuration des stratégies de voix, des enregistrements d’utilisation RTC et des itinéraires vocaux dans Skype entreprise
  
-**Résumé:** Apprenez à configurer les stratégies vocales, les enregistrements d’utilisation RTC et les itinéraires vocaux dans Skype entreprise Server.
+**Résumé :** Apprenez à configurer les stratégies vocales, les enregistrements d’utilisation RTC et les itinéraires vocaux dans Skype entreprise Server.
   
 Les stratégies de voix, les enregistrements d’utilisation RTC et les itinéraires des communications vocales sont étroitement liés. Pour configurer une stratégie de voix vous devez sélectionner des fonctionnalités d’appel, puis affecter à la stratégie des enregistrements d’utilisation RTC, qui spécifient les droits accordés aux utilisateurs et aux groupes auxquels la stratégie de voix est affectée. Les itinéraires des communications vocales reçoivent également des enregistrements d’utilisation RTC, qui permettent d’associer les itinéraires aux utilisateurs autorisés à les utiliser. En d’autres termes, les utilisateurs ne peuvent effectuer que des appels utilisant des itinéraires pour lesquels ils disposent d’enregistrements d’utilisation RTC correspondants.
   

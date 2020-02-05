@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Résumé: Découvrez comment définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le générateur de topologies de Skype entreprise Server.'
-ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le générateur de topologies de Skype entreprise Server.'
+ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245609"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767717"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Définition de lignes supplémentaires dans le générateur de topologies de Skype entreprise Server
  
-**Résumé:** Découvrez comment définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le générateur de topologies de Skype entreprise Server.
+**Résumé :** Découvrez comment définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle dans le générateur de topologies de Skype entreprise Server.
   
 Procédez comme suit pour définir un Trunk supplémentaire auquel vous pouvez associer un homologue à un serveur de médiation. Un homologue fournit aux utilisateurs une connectivité voix entreprise compatible avec le réseau téléphonique commuté (PSTN). L’homologue peut être une passerelle RTC, un système IP-PBX ou un contrôleur SBC (Session Border Controller) pour un fournisseur ITSP (Internet Telephony Service Provider).
   
@@ -34,9 +36,9 @@ Un Trunk est une connexion logique entre un serveur de médiation et une passere
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir un Trunk supplémentaire entre un serveur de médiation et un homologue de passerelle
 
-1. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
+1. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
     
-2. Sous Skype entreprise Server, le nom de votre site, les **composants partagés**, cliquez avec **** le bouton droit sur le nœud Trunks, puis cliquez sur **nouveau Trunk**.
+2. Sous Skype entreprise Server, le nom de votre site, les **composants partagés**, cliquez avec le bouton droit sur le nœud **Trunks** , puis cliquez sur **nouveau Trunk**.
    1. Dans **Définir un nouveau tronçon**, spécifiez un nom convivial pour identifier le tronçon de manière unique. Deux tronçons ne peuvent pas porter le même nom.
     
       > [!NOTE]

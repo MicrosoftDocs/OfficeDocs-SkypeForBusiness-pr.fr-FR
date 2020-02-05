@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour Chypre.
-ms.openlocfilehash: 7ad182dafa712574ed7179e63d377ced733708cd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d3cfc2d1121fb43313ea0bb43222ab8af3d4ccc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570470"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683937"
 ---
 # <a name="availability-in-cyprus"></a>Disponibilité à Chypre
 

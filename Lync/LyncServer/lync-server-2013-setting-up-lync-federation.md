@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de la fédération Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846845"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846845"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-27_
+_**Dernière modification de la rubrique :** 2014-03-27_
 
 Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de fonctionnalités de scénarios fédérés est une avancée directe. Si vous n’avez pas configuré Edge Servers, vous devez commencer par cela. Pour plus d’informations, reportez-vous à la section [planification de l’accès des utilisateurs externes dans Lync server 2013](lync-server-2013-planning-for-external-user-access.md) dans la documentation de planification et [au déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
 
@@ -76,7 +78,7 @@ Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de foncti
 
 ## <a name="configuring-federation-with-partners"></a>Configuration de la Fédération avec des partenaires
 
-1.  Pour configurer une Fédération réussie avec un autre Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, sélectionnez le type de Fédération dans le tableau suivant et définissez les enregistrements DNS SRV, l’hôte DNS (A ou AAAA pour IPv6) et configurez les stratégies applicables au type de Fédération:
+1.  Pour configurer une Fédération réussie avec un autre Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, sélectionnez le type de Fédération dans le tableau suivant et définissez les enregistrements DNS SRV, l’hôte DNS (A ou AAAA pour IPv6) et configurez les stratégies applicables au type de Fédération :
     
     
     <table>
@@ -91,13 +93,13 @@ Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de foncti
     <th>Type de Fédération</th>
     <th>Enregistrements DNS</th>
     <th>Définition de la stratégie</th>
-    <th>Notes</th>
+    <th>Remarques</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>Domaine partenaire détecté</p></td>
-    <td><p>Configurez l’enregistrement SRV du format _sipfederationtls. _ TCP. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte proposant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe: nom de domaine complet (FQDN) du service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer la prise en charge de DNS pour Edge dans Lync Server 2013</a> .</p></td>
+    <td><p>Configurer l’enregistrement SRV du format _sipfederationtls. _tcp. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte proposant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe : nom de domaine complet (FQDN) du service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer la prise en charge de DNS pour Edge dans Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activation ou désactivation de la découverte de partenaires de fédération dans Lync Server 2013</a></p></li>
@@ -106,7 +108,7 @@ Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de foncti
     </tr>
     <tr class="even">
     <td><p>Domaine partenaire autorisé</p></td>
-    <td><p>Configurez l’enregistrement SRV du format _sipfederationtls. _ TCP. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte proposant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe: nom de domaine complet (FQDN) du service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer la prise en charge de DNS pour Edge dans Lync Server 2013</a> .</p></td>
+    <td><p>Configurer l’enregistrement SRV du format _sipfederationtls. _tcp. &lt;nom&gt;de domaine externe où la valeur de port pour l’enregistrement SRV est TCP 5061 et l' <strong>hôte proposant ce service</strong> est défini en tant que SIP. &lt;nom de domaine&gt; externe : nom de domaine complet (FQDN) du service Edge d’accès. Pour plus d’informations sur la création de l’enregistrement SRV <a href="lync-server-2013-configure-dns-for-edge-support.md">, voir Configurer la prise en charge de DNS pour Edge dans Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></li>
     </ul></td>
@@ -130,15 +132,15 @@ Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de foncti
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Ce type de Fédération définit les services et fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Les utilisations typiques incluent la configuration pour les fournisseurs de messagerie instantanée publique tels que Windows Live Messenger, Yahoo! et AOL, ainsi que des fournisseurs d’hébergement tels que Lync Online et Office 365</p>
+    <td><p>Ce type de Fédération définit les services et fournisseurs d’hébergement que vous voulez configurer pour vos utilisateurs. Les utilisations typiques incluent la configuration pour les fournisseurs de messagerie instantanée publique tels que Windows Live Messenger, Yahoo ! et AOL, ainsi que des fournisseurs d’hébergement tels que Lync Online et Office 365</p>
     <div>
 
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+    > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
     > <LI>
-    > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+    > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
     > <LI>
     > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
@@ -157,7 +159,7 @@ Si vous avez déjà déployé votre serveur ou serveur Edge, l’ajout de foncti
     
 
     > [!NOTE]  
-    > Le système de salle Lync (LRS) ne montre pas le bouton de participation pour les réunions envoyées par des organisateurs dans les partenaires Lync fédérés. Pour qu’un lien de participation à une réunion apparaisse sur LRS, l’organisation d’expédition doit activer TNEF en utilisant l’applet de commande suivante:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Notez que cela n’est pas spécifique à LRS. Dans le cas contraire, Outlook et Lync n’affichent pas de liens de jointure dans le cas où les propriétés MAPI ne sont pas transportées, mais dans le cas d’Outlook, l’utilisateur peut ouvrir l’invitation à la réunion et cliquer sur l’URL de la réunion. Lorsque TNEFEnabled est défini sur true Exchange 2013 ne Strip pas les propriétés MAPI, y compris OnlineMeetingExternalLink et le bouton Join s’affichera sur le rappel.
+    > Le système de salle Lync (LRS) ne montre pas le bouton de participation pour les réunions envoyées par des organisateurs dans les partenaires Lync fédérés. Pour qu’un lien de participation à une réunion apparaisse sur LRS, l’organisation d’expédition doit activer TNEF en utilisant l’applet de commande suivante :<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Notez que cela n’est pas spécifique à LRS. Dans le cas contraire, Outlook et Lync n’affichent pas de liens de jointure dans le cas où les propriétés MAPI ne sont pas transportées, mais dans le cas d’Outlook, l’utilisateur peut ouvrir l’invitation à la réunion et cliquer sur l’URL de la réunion. Lorsque TNEFEnabled est défini sur true Exchange 2013 ne Strip pas les propriétés MAPI, y compris OnlineMeetingExternalLink et le bouton Join s’affichera sur le rappel.
 
     
     </div>

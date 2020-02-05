@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 'Résumé: Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.'
-ms.openlocfilehash: b73832586ba4a09cc51f67bddcaf30c2f85fcca1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.'
+ms.openlocfilehash: 4dc4c9971b74bf27d0f516ed70484646b666a845
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240296"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767117"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installer les fichiers du serveur de médiation dans Skype entreprise Server
  
-**Résumé:** Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.
+**Résumé :** Découvrez comment installer les fichiers du serveur de médiation dans Skype entreprise Server.
   
 Pour mener à bien cette procédure, vous devez être connecté au serveur au minimum en tant qu’administrateur local et utilisateur de domaine appartenant au moins au groupe RTCUniversalReadOnlyAdmins.
   
@@ -48,7 +50,7 @@ Suivez les étapes décrites dans cette rubrique pour exécuter l’Assistant D�
     
 7. Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
     
-8. À côté de l' **étape 2: configurer ou supprimer les composants serveur Skype entreprise**, cliquez sur **exécuter**, puis sur **suivant**.
+8. À côté de l' **étape 2 : configurer ou supprimer les composants serveur Skype entreprise**, cliquez sur **exécuter**, puis sur **suivant**.
     
 9. Dans la page **Exécution de commandes**, lorsque le statut de la tâche est **Terminé**, cliquez sur **Terminer**.
     
@@ -60,5 +62,5 @@ Suivez les étapes décrites dans cette rubrique pour exécuter l’Assistant D�
     
 13. Sur l’ordinateur sur lequel vous exécutez le panneau de configuration Skype entreprise Server, vérifiez sur la page **Topology** du panneau de configuration de Skype entreprise Server que l’état du service du serveur de médiation est représenté par une coche verte. Si une croix rouge est affichée, sélectionnez le serveur de médiation. Dans le menu **Action**, cliquez sur **Démarrer tous les services**. 
     
-Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, suivez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveurs de médiation. Si vous n’avez pas besoin d’installer des fichiers pour un serveur de médiation pour d’autres ordinateurs, suivez les procédures décrites dans la section [configurer des Trunks dans Skype entreprise Server](configure-trunks.md) afin de configurer les paramètres de la connexion de Trunking entre ce pool de serveurs de médiation (ou toute la médiation). Serveurs sur un site) et son homologue.
+Si vous avez ajouté plusieurs ordinateurs au pool de serveurs de médiation, suivez les étapes de cette procédure sur tous les autres ordinateurs du pool de serveurs de médiation. Si vous n’avez pas besoin d’installer des fichiers pour un serveur de médiation pour d’autres ordinateurs, suivez les procédures décrites dans la section [configurer des Trunks dans Skype entreprise Server](configure-trunks.md) afin de configurer les paramètres de connexion Trunk entre ce pool de serveurs de médiation (ou tous les serveurs de médiation d’un site) et son homologue.
 

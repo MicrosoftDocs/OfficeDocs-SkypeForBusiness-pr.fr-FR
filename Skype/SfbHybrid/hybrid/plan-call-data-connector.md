@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation des outils de télémétrie Skype entreprise Online pour surveiller une implémentation locale dans un scénario hybride.
-ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328426"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765232"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -63,7 +65,7 @@ Les conditions suivantes supposent que vous avez déjà déployé Skype entrepri
 - Authentifiez-vous auprès de votre client Office 365 et assurez-vous que les rôles suivants sont activés :
 
   - Administrateur de Skype entreprise Server
-  - Administrateur général Office 365
+  - Administrateur général Office 365
 
 - Si vous ne l’avez pas déjà fait, activez le tableau de bord qualité des appels comme décrit dans [activation et utilisation du tableau de bord de la qualité des appels pour Microsoft teams et Skype entreprise Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

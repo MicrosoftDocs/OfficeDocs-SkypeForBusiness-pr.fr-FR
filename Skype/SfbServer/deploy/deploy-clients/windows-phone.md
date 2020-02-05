@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: 'Résumé: Découvrez comment installer et tester Skype entreprise sur votre Windows Phone.'
-ms.openlocfilehash: 80b7f208153474380e5fae1b1c8a95b3fdb06e39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment installer et tester Skype entreprise sur votre Windows Phone.'
+ms.openlocfilehash: 63d766a566f131bc58540a13e2a19aa2add0700b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234858"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768587"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype Entreprise Server 2015 : installation et test de Skype Entreprise pour Windows Phone
  
-**Résumé:** Découvrez comment installer et tester Skype entreprise sur votre Windows Phone.
+**Résumé :** Découvrez comment installer et tester Skype entreprise sur votre Windows Phone.
   
 L’application Skype entreprise pour Windows Phone permet de bénéficier de la présence, de la messagerie instantanée (mi) et des appels audio et vidéo de Skype entreprise sur les appareils Windows Mobile. Les utilisateurs de Lync 2013 obtiendront l’application mise à jour automatiquement ou seront invités à faire la mise à jour manuellement, selon leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir de [Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901). L’application Skype entreprise pour Windows Phone est uniquement disponible sur Windows Phone 8,1 et versions ultérieures.
   
@@ -45,7 +47,7 @@ Avant de diriger les utilisateurs de votre organisation à télécharger l’app
     
 4. Dans l’écran **Ne manquez jamais vos appels professionnels**, entrez votre numéro de téléphone avec les indicatifs du pays et de la région. Lorsque Skype entreprise pour Windows Phone ne peut pas utiliser un réseau Wi-Fi ou un réseau de données cellulaires pour effectuer un appel audio ou vidéo, vous êtes automatiquement appelé à ce numéro et vous êtes connecté à la partie audio de l’appel.
     
-5. Appuyez sur **suivant** et passez en revue les paramètres de notification et d’accès au répertoire:
+5. Appuyez sur **suivant** et passez en revue les paramètres de notification et d’accès au répertoire :
     
    - **Notifications de transmission** Recevez une alerte lorsque vous recevez un nouveau message instantané ou un nouvel appel. Cette option est **activée** par défaut (recommandé).
     
@@ -56,7 +58,7 @@ Avant de diriger les utilisateurs de votre organisation à télécharger l’app
     
 6. Appuyez sur **suivant** pour commencer à utiliser Skype entreprise pour Windows Phone.
     
-    [Vous avez besoin d’aide pour vous connecter?](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
+    [Vous avez besoin d’aide pour vous connecter ?](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
 ## <a name="verify-mobile-client-installation"></a>Vérification de l’installation du client mobile
 
@@ -104,11 +106,11 @@ Après avoir configuré le client et que vous êtes connecté avec succès, util
     
 ## <a name="remove-skype-for-business-from-your-windows-phone"></a>Supprimer Skype entreprise de votre Windows Phone
 
-Pour supprimer l’application Skype entreprise pour Windows Phone de votre appareil mobile, procédez comme suit: 
+Pour supprimer l’application Skype entreprise pour Windows Phone de votre appareil mobile, procédez comme suit : 
   
 1. Dans l’écran d’accueil, faites glisser votre doigt pour afficher la liste des applications. 
     
-2. Appuyez de façon prolongée sur l’application Skype entreprise pour Windows Phone, puis cliquez **** sur désinstaller.
+2. Appuyez de façon prolongée sur l’application Skype entreprise pour Windows Phone, puis cliquez sur **désinstaller**.
     
 
 

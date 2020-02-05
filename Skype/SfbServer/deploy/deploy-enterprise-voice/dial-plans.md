@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 'Résumé: Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 44917b45180abe02926aa0905b5fd20cbed0ccec
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767347"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Création ou modification d’un plan de numérotation dans Skype entreprise Server
 
-**Résumé:** Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.
+**Résumé :** Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.
 
 ### <a name="to-create-a-dial-plan"></a>Pour créer un plan de numérotation
 
@@ -35,7 +37,7 @@ ms.locfileid: "36240504"
 
    - **Plan de numérotation de site** s’applique à tout un site, à l’exception des utilisateurs ou des groupes attribués au plan de numérotation d’un utilisateur. Si vous sélectionnez **site** pour l’étendue d’un plan de numérotation, vous devez choisir le site dans la boîte de dialogue **Sélectionner un site** . Si un plan de numérotation a déjà été créé pour un site, le site ne s’affiche pas dans la boîte de dialogue **Sélectionner un site**.
 
-   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (RTC) ou à un serveur d’inscriptions. Si vous sélectionnez **** l’étendue d’un plan de numérotation, sélectionnez la passerelle PSTN ou le Bureau d’enregistrement dans la boîte de dialogue **Sélectionner un service** . Si un plan de numérotation a déjà été créé pour un service (passerelle RTC ou serveur d’inscriptions), le service ne s’affiche pas dans la liste.
+   - **Plan de numérotation du pool** peut s’appliquer à une passerelle de réseau téléphonique commuté (RTC) ou à un serveur d’inscriptions. Si **vous sélectionnez l’étendue d’un** plan de numérotation, sélectionnez la passerelle PSTN ou le Bureau d’enregistrement dans la boîte de dialogue **Sélectionner un service** . Si un plan de numérotation a déjà été créé pour un service (passerelle RTC ou serveur d’inscriptions), le service ne s’affiche pas dans la liste.
 
    - **Plan de numérotation de l’utilisateur** peut s’appliquer à des utilisateurs ou des groupes spécifiques.
 
@@ -50,7 +52,7 @@ ms.locfileid: "36240504"
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** incluent les espaces<http://www.ietf.org/rfc/rfc3966.txt>et les caractères réservés tels qu’ils sont définis dans RFC 3966 (). Les caractères réservés qui ne sont **pas pris en charge** dans le **nom simple** incluent les éléments suivants: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > Le **nom simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** incluent les espaces<http://www.ietf.org/rfc/rfc3966.txt>et les caractères réservés tels qu’ils sont définis dans RFC 3966 (). Les caractères réservés qui ne sont **pas pris en charge** dans le **nom simple** incluent les éléments suivants : > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -109,7 +111,7 @@ ms.locfileid: "36240504"
 5. (Facultatif) Dans **Modifier un plan de numérotation**, modifiez le champ **Nom simple**, qui contient déjà le nom qui s’affiche dans le champ **Nom**, pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
     > [!IMPORTANT]
-    > Le **nom simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.), un signe plus (+) ou un trait de soulignement (_) >. ****
+    > Le **nom simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas **contenir plus de** 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.), un signe plus (+) ou un trait de soulignement (_) >.
 
 6. (Facultatif) Dans le champ **Description**, entrez des informations descriptives concernant le plan de numérotation.
 

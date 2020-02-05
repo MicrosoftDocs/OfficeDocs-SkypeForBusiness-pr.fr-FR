@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs de Skype entreprise Online vers un site local.
-ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963012"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726734"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Déplacer des utilisateurs du nuage vers l’organisation locale 
 
@@ -30,7 +32,7 @@ Si nécessaire, vous pouvez déplacer un utilisateur qui a été précédemment 
 > [!Important]
 > Si l’utilisateur était précédemment en mode TeamsOnly et que vous utilisez une version antérieure à Skype entreprise Server 2015 avec CU8, vous devez également supprimer l’attribution du mode TeamsOnly de TeamsUpgradePolicy pour cet utilisateur. Les utilisateurs locaux ne doivent pas avoir le mode = TeamsOnly.  Les versions ultérieures de Skype entreprise Server suppriment automatiquement cette attribution. Pour plus d’informations, consultez la rubrique [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy).
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
 - La configuration d’Azure AD Connect doit être correctement configurée pour l’organisation et la synchronisation de tous les attributs pertinents pour l’utilisateur, comme décrit dans [configure Azure ad Connect](configure-azure-ad-connect.md).
 - L’utilisateur déplacé de la mise en ligne vers l’environnement local doit déjà exister dans l’environnement Active Directory local.

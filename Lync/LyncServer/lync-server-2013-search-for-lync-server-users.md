@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Rechercher des utilisateurs de Lync Server'
+title: 'Lync Server 2013 : Rechercher des utilisateurs de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Search for Lync Server users
 ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429701(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068fe07bf14894d22f929291514854360d6d0465
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7134afbc86134471e8d536b36fc8e28142a64db2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821893"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821893"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-14_
+_**Dernière modification de la rubrique :** 2014-05-14_
 
 Vous pouvez utiliser les résultats d’une requête de recherche pour configurer des utilisateurs pour Lync Server 2013. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne.
 
@@ -43,7 +45,7 @@ Vous pouvez rechercher des utilisateurs à l’aide du panneau de configuration 
 
 
 > [!NOTE]  
-> Dans un environnement doté d’une topologie de forêt centrale, il est possible que les résultats de la recherche soient inexacts lorsque vous recherchez un utilisateur à l’aide de son adresse de messagerie. Au lieu de cela, vous pouvez rechercher des utilisateurs en spécifiant un préfixe d’adresse SIP (par exemple, SIP: nom), ajouter un filtre de recherche et sélectionner une adresse SIP contenant une adresse de messagerie partielle ou utiliser l’applet de requête <STRONG>Get-Csuser</STRONG> .
+> Dans un environnement doté d’une topologie de forêt centrale, il est possible que les résultats de la recherche soient inexacts lorsque vous recherchez un utilisateur à l’aide de son adresse de messagerie. Au lieu de cela, vous pouvez rechercher des utilisateurs en spécifiant un préfixe d’adresse SIP (par exemple, SIP : nom), ajouter un filtre de recherche et sélectionner une adresse SIP contenant une adresse de messagerie partielle ou utiliser l’applet de requête <STRONG>Get-Csuser</STRONG> .
 
 
 

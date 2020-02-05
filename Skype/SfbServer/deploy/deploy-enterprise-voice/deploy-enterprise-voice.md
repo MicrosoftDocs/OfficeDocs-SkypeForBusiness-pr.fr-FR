@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: 'Résumé: Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.'
-ms.openlocfilehash: 3e85ac96415788e8e15ba1ed11786864b6fc3124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.'
+ms.openlocfilehash: 1b1b1d0f79d1730bd491314f4f4e97b43b0acb62
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245426"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767547"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Déploiement de voix entreprise dans Skype entreprise Server
 
-**Résumé:** Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.
+**Résumé :** Découvrez comment déployer Enterprise Voice pour Skype entreprise Server sur un site central.
 
-Utilisez cette rubrique pour déployer Enterprise Voice sur un site central. Pour déployer Enterprise Voice sur une succursale, passez à la partie [déploiement de sites](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)de succursales.
+Utilisez cette rubrique pour déployer Enterprise Voice sur un site central. Pour déployer Enterprise Voice sur une succursale, passez à la partie [déploiement de sites de succursales](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
 
-Cette section contient des procédures pour les déploiements dans lesquels un serveur de médiation est colocalisé sur chaque serveur frontal ou serveur Standard Edition, selon les recommandations et également pour les déploiements avec un pool de serveurs de médiation autonome. Vous pouvez ignorer le contenu suivant si vous avez utilisé le générateur de topologie pour définir et publier une topologie qui collocates un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition, car l’Assistant déploiement a déjà installé automatiquement les fichiers pour Serveur de médiation lors de l’installation de fichiers pour votre pool de serveurs principal ou votre serveur Standard Edition:
+Cette section contient des procédures pour les déploiements dans lesquels un serveur de médiation est colocalisé sur chaque serveur frontal ou serveur Standard Edition, selon les recommandations et également pour les déploiements avec un pool de serveurs de médiation autonome. Vous pouvez ignorer le contenu suivant si vous avez utilisé le générateur de topologie pour définir et publier une topologie qui collocates un serveur de médiation sur chaque serveur frontal ou serveur Standard Edition, car l’Assistant déploiement a déjà installé automatiquement les fichiers pour Serveur de médiation lors de l’installation de fichiers pour votre pool de serveurs principal ou votre serveur Standard Edition :
 ## <a name="in-this-section"></a>Contenu de cette section
 
 - [Conditions préalables à la sécurité et à la configuration d’Enterprise voix dans Skype entreprise Server](enterprise-voice-security.md)

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Confirmez la réussite du déploiement de votre groupe de réponses dans Skype entreprise Server Voice.
-ms.openlocfilehash: 758836f7003d5f1473801eae4bef400b0e048891
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e80328c2f14db4b7c9633509e36832966af5ca34
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240387"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767307"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>Facultatif Vérifier le déploiement de Response Group dans Skype entreprise
  
@@ -41,6 +43,6 @@ Après avoir configuré Response Group, vous devez vérifier la configuration po
 - Un utilisateur appelle le service Response Group pendant que l’agent traite un autre appel. L’appel de l’utilisateur est alors transmis à la file d’attente.
 
     > [!NOTE]
-    > Si le groupe réponse ne fonctionne pas comme prévu, consultez le lien suivant:https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > Si le groupe réponse ne fonctionne pas comme prévu, consultez le lien suivant :https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

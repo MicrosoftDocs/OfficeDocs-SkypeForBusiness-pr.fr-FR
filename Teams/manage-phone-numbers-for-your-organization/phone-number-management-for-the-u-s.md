@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Ce tableau vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone aux États-Unis (et à Porto Rico) pour Microsoft Teams.
-ms.openlocfilehash: d65dc8727d99d2387721176b9ee94242db6ff04a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580811"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706929"
 ---
 # <a name="phone-number-management-for-the-us"></a>Gestion des numéros de téléphone pour les États-Unis
 

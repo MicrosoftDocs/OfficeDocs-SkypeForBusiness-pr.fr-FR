@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: 33c72c4261b37427fba3d4c853ef2a6d9600e269
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: dcc64dfa6ea70c21959d9421c7cfc23a26beaa3f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506876"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766125"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -96,6 +96,7 @@ Ces appareils sont disponibles dans le [système de salle Showcase](https://prod
 |[Logitech Group](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   |  1.1.219   |
 |[Logitech PTZ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Caméra de cube d’oeil poly-Eagle](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   |  1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|

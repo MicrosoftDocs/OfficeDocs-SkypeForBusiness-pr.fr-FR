@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Résumé: configurez un Trunk sans dérivation de média activée pour Skype entreprise Server.'
-ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : configurez un Trunk sans dérivation de média activée pour Skype entreprise Server.'
+ms.openlocfilehash: ccdcc6612d13770eaffc663a95fdfca3c349e4e9
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233663"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768077"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer un Trunk sans dérivation multimédia dans Skype entreprise Server
 
-**Résumé:** Configurer un Trunk sans dérivation multimédia activée pour Skype entreprise Server.
+**Résumé :** Configurer un Trunk sans dérivation multimédia activée pour Skype entreprise Server.
 
 Pour configurer une jonction sur laquelle la déviation du trafic multimédia est désactivée, procédez comme suit. Si vous voulez configurer un Trunk avec une dérivation de média activée, voir [configurer une Trunk avec la dérivation multimédia dans Skype entreprise Server](configure-trunk-with-media-bypass.md).
 
@@ -154,7 +156,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 16. Assurez-vous que les règles de traduction du Trunk sont organisées dans l’ordre approprié. Pour modifier la position d’une règle dans la liste, sélectionnez le nom de la règle, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > Skype entreprise Server parcourt la liste des règles de traduction du haut vers le bas et utilise la première règle correspondant au numéro numéroté. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui correspond uniquement aux numéros à 11 chiffres commençant par + 1425, assurez-vous que la règle qui correspond à n’importe quel numéro à 11 chiffres est triée *sous* la plus restrictive elle.
+    > Skype entreprise Server parcourt la liste des règles de traduction du haut vers le bas et utilise la première règle correspondant au numéro numéroté. Si vous configurez une jonction de sorte qu’un numéro composé corresponde à plusieurs règles de conversion, vérifiez que les règles les plus restrictives s’affichent avant les règles les moins restrictives. Par exemple, si vous avez inclus une règle de traduction qui correspond à un numéro à 11 chiffres et une règle de traduction qui correspond uniquement aux numéros à 11 chiffres commençant par + 1425, veillez à ce que la règle correspondant à un numéro à 11 chiffres soit triée *sous* la règle la plus restrictive.
 
 17. Lorsque vous avez fini de configurer la jonction, cliquez sur **OK**.
 

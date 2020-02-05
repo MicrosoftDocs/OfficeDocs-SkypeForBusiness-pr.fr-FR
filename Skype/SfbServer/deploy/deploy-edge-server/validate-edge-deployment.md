@@ -7,22 +7,24 @@ audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Résumé: Découvrez comment vérifier que votre déploiement du serveur Edge Server ou du pool de serveurs Edge fonctionne dans Skype entreprise Server.'
-ms.openlocfilehash: 57994e4583a3424fc680c8dfb220aeb11668c6fc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment vérifier que votre déploiement du serveur Edge Server ou du pool de serveurs Edge fonctionne dans Skype entreprise Server.'
+ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768297"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Valider votre déploiement Edge dans Skype entreprise Server
  
-**Résumé:** Découvrez comment vérifier que votre déploiement du serveur Edge Server ou du pool de serveurs Edge fonctionne dans Skype entreprise Server.
+**Résumé :** Découvrez comment vérifier que votre déploiement du serveur Edge Server ou du pool de serveurs Edge fonctionne dans Skype entreprise Server.
   
 Après avoir déployé votre serveur Edge Server ou le pool de serveurs Edge, vous devez savoir s’il fonctionne correctement. Voici quelques conseils qui peuvent vous aider à confirmer la connexion de votre environnement Edge à vos serveurs internes et à la connexion de vos utilisateurs externes à votre environnement Skype entreprise Server via votre périphérie.
   
@@ -46,7 +48,7 @@ N’importe quel test pour l’accès des utilisateurs externes doit inclure tou
     
 - Les utilisateurs de votre organisation qui sont connectés à Skype entreprise à distance, mais qui ne fonctionnent pas avec VPN.
     
-Ces tests déterminent si votre serveur Edge est:
+Ces tests déterminent si votre serveur Edge est :
   
 - Écoute sur les ports requis à l’aide d’un client telnet depuis l’extérieur de votre réseau.
     

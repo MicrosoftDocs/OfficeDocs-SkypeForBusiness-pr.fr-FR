@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Résumé: Obtenez des informations sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Obtenez des informations sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.'
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240323"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767237"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration d’Enterprise voix dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.
+**Résumé :** En savoir plus sur la sécurité et la configuration requise pour Enterprise Voice dans Skype entreprise Server.
   
 Avant de déployer Enterprise Voice, assurez-vous que votre infrastructure répond à la configuration requise en matière de sécurité, de configuration utilisateur et de matériel spécifique. 
   
@@ -57,9 +59,9 @@ Si vous venez de déployer la charge de travail voix entreprise pour le moment, 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installation des fichiers ou configuration de la connectivité RTC
 
-Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez effectuer l’une des opérations suivantes:
+Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez effectuer l’une des opérations suivantes :
   
-- Installez le serveur de médiation, comme décrit dans la rubrique [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](deploy-a-mediation-server.md), mais uniquement si vous voulez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés comme partie intégrante du front-end. processus de déploiement d’une réserve ou d’un serveur Standard Edition lorsqu’il est localisé.
+- Installez le serveur de médiation, comme décrit dans la rubrique [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](deploy-a-mediation-server.md), mais uniquement si vous voulez déployer un serveur de médiation autonome ou un pool, car les serveurs de médiation sont installés dans le cadre du processus de déploiement de la liste frontale ou du serveur Standard Edition lorsqu’il est localisé.
     
 - Vous pouvez aussi commencer à configurer des paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans la rubrique [configurer des Trunks dans Skype entreprise Server](configure-trunks.md).
     

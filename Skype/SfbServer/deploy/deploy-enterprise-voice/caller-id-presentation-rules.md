@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 'Résumé: Découvrez comment configurer l’identification de l’appelant à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment configurer l’identification de l’appelant à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233766"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768157"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Création ou modification d’une règle de traduction pour une présentation d’identification d’appelant dans Skype entreprise Server
 
-**Résumé:** Découvrez comment configurer l’identification de l’appelant à l’aide du panneau de configuration Skype entreprise Server.
+**Résumé :** Découvrez comment configurer l’identification de l’appelant à l’aide du panneau de configuration Skype entreprise Server.
 
-Avec Skype entreprise Server, le numéro de téléphone de la personne appelé (c’est-à-dire, le numéro de téléphone appelé) peut être converti à partir du format E. 164 au format de numérotation local requis par l’homologue de _Trunk_ (c’est-à-dire, la passerelle associée, l’échange de succursales privées (). PBX ou SIP Trunk). À cet effet, vous devez définir une ou plusieurs règles de traduction pour convertir l’URI de demande avant de l’acheminer vers l’homologue de jonction.
+Avec Skype entreprise Server, le numéro de téléphone de la personne appelé (c’est-à-dire, le numéro de téléphone appelé) peut être converti à partir du format E. 164 vers le format de numérotation local requis par le _Trunk pair_ (c’est-à-dire, la passerelle associée, le PBX ou le Trunk SIP). À cet effet, vous devez définir une ou plusieurs règles de traduction pour convertir l’URI de demande avant de l’acheminer vers l’homologue de jonction.
 
 Skype entreprise Server vous permet également de traduire le numéro de téléphone de l’appelant (c’est-à-dire, le numéro de téléphone à partir duquel l’appelant appelle) le format E. 164 au format de numérotation local requis par l’homologue Trunk. Par exemple, vous pouvez écrire une règle de conversion pour supprimer +44 au début d’une chaîne de numérotation et utiliser 0144 à la place.
 

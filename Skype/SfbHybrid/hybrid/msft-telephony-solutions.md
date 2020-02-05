@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,18 +18,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Décrit les solutions de téléphonie Microsoft.
-ms.openlocfilehash: 57d1abe69bc0513fa015543e8440e9d9f778b78c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 350f7ed0ba2606e34af711bbdd3189c7a0bd1a02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160323"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765242"
 ---
 # <a name="microsoft-telephony-solutions"></a>Solutions de téléphonie Microsoft
 
 Microsoft prend en charge plusieurs options lorsque vous commencez votre transition vers teams dans le Cloud de Microsoft. Cet article vous aide à décider quelle solution de téléphonie Microsoft (système téléphonique dans le Cloud ou voix entreprise en local) est appropriée pour les utilisateurs de votre organisation, et comment votre organisation peut se connecter au réseau téléphonique commuté (PSTN). 
 
-Vous devez utiliser cet article avec le diagramme technique associé, qui fournit une aide visuelle pour prendre la bonne décision pour votre organisation:
+Vous devez utiliser cet article avec le diagramme technique associé, qui fournit une aide visuelle pour prendre la bonne décision pour votre organisation :
 
 - [Solutions de téléphonie Microsoft-PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf)
 
@@ -54,7 +56,7 @@ Pour plus d’informations, reportez-vous à la rubrique [plan for Enterprise Vo
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>Connexion aux options RTC (réseau téléphonique commuté)
 
-Vous pouvez choisir de vous connecter au réseau téléphonique commuté (PSTN) en procédant comme suit:
+Vous pouvez choisir de vous connecter au réseau téléphonique commuté (PSTN) en procédant comme suit :
 
 - Utilisation du plan d’appel Microsoft dans Office 365 
 - Connexion de votre propre opérateur de téléphonie
@@ -69,9 +71,9 @@ Pour plus d’informations, consultez la rubrique [forfaits d’appels pour Offi
 
 Cette option connecte un système téléphonique dans Office 365 ou Enterprise Voice System dans Skype entreprise en local à votre réseau téléphonique. Cette option nécessite un contrôleur SBC (session Border Controller) pris en charge. Dans certains cas, cette option peut nécessiter des logiciels Microsoft supplémentaires déployés sur site.
 
-## <a name="which-solution-is-right-for-your-organization"></a>Quelle solution convient à votre organisation?
+## <a name="which-solution-is-right-for-your-organization"></a>Quelle solution convient à votre organisation ?
 
-Vous pouvez choisir une solution «tout-en-un-Cloud», une solution de connexion à votre propre opérateur ou une combinaison entre les opérateurs de tout-le-nuage et tiers:
+Vous pouvez choisir une solution « tout-en-un-Cloud », une solution de connexion à votre propre opérateur ou une combinaison entre les opérateurs de tout-le-nuage et tiers :
 
 - Système téléphonique avec forfait d’appels (tout dans le Cloud)
 
@@ -81,25 +83,25 @@ Vous pouvez choisir une solution «tout-en-un-Cloud», une solution de connexion
 
 - Voix entreprise dans Skype entreprise Server avec votre propre opérateur
 
-La solution que vous choisissez dépend de vos besoins actuels et à venir, par exemple:
+La solution que vous choisissez dépend de vos besoins actuels et à venir, par exemple :
 
 - Si vous le souhaitez,-ou si nécessaire,-pour conserver les fonctionnalités fournies par votre déploiement sur site.
 - Le client que vous souhaitez déployer pour vos utilisateurs.
 - Votre forfait pour le transfert des personnes vers le Cloud.
 - Si vous devez interagir avec des PBX tiers et d’autres équipements de téléphonie.
 
-Posez-vous les questions suivantes pour déterminer la meilleure solution pour votre organisation:
+Posez-vous les questions suivantes pour déterminer la meilleure solution pour votre organisation :
 
-- Disposez-vous d’un déploiement Skype entreprise Server existant?
-- Vos utilisateurs sont-ils hébergés dans Skype entreprise en local, dans le nuage sur Skype entreprise Online ou dans les deux? 
-- Voulez-vous déplacer les utilisateurs locaux vers le Cloud?
-- Le plan d’appel RTC de Microsoft est-il disponible dans votre région?
-- Souhaitez-vous conserver votre opérateur de téléphonie actuel?  Par exemple, avez-vous besoin de conserver votre opérateur actuel en raison d’un contrat existant?
-- Avez-vous besoin d’un système PBX hérité sur site existant ou que vous souhaitez conserver?
-- Votre système PBX actuel offre-t-il des fonctionnalités uniques essentielles à votre entreprise?
-- Certains ou l’ensemble de vos utilisateurs nécessitent-ils des fonctionnalités qui ne sont actuellement pas proposées dans le système téléphonique?
+- Disposez-vous d’un déploiement Skype entreprise Server existant ?
+- Vos utilisateurs sont-ils hébergés dans Skype entreprise en local, dans le nuage sur Skype entreprise Online ou dans les deux ? 
+- Voulez-vous déplacer les utilisateurs locaux vers le Cloud ?
+- Le plan d’appel RTC de Microsoft est-il disponible dans votre région ?
+- Souhaitez-vous conserver votre opérateur de téléphonie actuel ?  Par exemple, avez-vous besoin de conserver votre opérateur actuel en raison d’un contrat existant ?
+- Avez-vous besoin d’un système PBX hérité sur site existant ou que vous souhaitez conserver ?
+- Votre système PBX actuel offre-t-il des fonctionnalités uniques essentielles à votre entreprise ?
+- Certains ou l’ensemble de vos utilisateurs nécessitent-ils des fonctionnalités qui ne sont actuellement pas proposées dans le système téléphonique ?
 
-Veuillez prendre en compte les éléments suivants:
+Remarques :
 
 - Les quatre options peuvent coexister les unes avec les autres au cas où vous devriez concevoir une solution pour un environnement complexe ou la gestion de la migration en plusieurs étapes.
 - Le système téléphonique avec propre opérateur via Skype entreprise Server ou Cloud Connector Edition ne peut être déployé qu’avec Skype entreprise Server ou Cloud Connector. La coexistence de Skype entreprise Server et de Cloud Connector n’est pas prise en charge dans une seule société.
@@ -107,7 +109,7 @@ Veuillez prendre en compte les éléments suivants:
 ## <a name="phone-system-with-calling-plan"></a>Système téléphonique avec forfait d’appels
 
 
-Le système téléphonique avec forfait d’appels est une option tout en nuage pour les équipes ou les utilisateurs de Skype entreprise Online, comme illustré dans le diagramme suivant:
+Le système téléphonique avec forfait d’appels est une option tout en nuage pour les équipes ou les utilisateurs de Skype entreprise Online, comme illustré dans le diagramme suivant :
 
 ![Système téléphonique avec forfait d’appels](../../sfbserver2019/media/msft-telephony-solutions-1.png)
 
@@ -127,7 +129,7 @@ Le système téléphonique avec forfait d’appels est une option tout en nuage 
 \*Pour plus d’informations sur les pays où le plan d’appels est disponible, consultez la rubrique [disponibilité du pays et de la région pour l’audioconférence et les forfaits d’appels](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
-Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée:
+Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée :
 
 - Le plan d’appel est disponible dans votre région.
 - Vous n’avez pas besoin de conserver votre opérateur RTC actuel.
@@ -158,7 +160,7 @@ Cette option fournit un système Microsoft Phone dans le Cloud avec pratiquement
 
 \*Sauf si elle est déployée en tant qu’option pour fournir une connexion à un PBX tiers, des appareils analogiques ou d’autres équipements de téléphonie pour les utilisateurs qui se trouvent sur un système téléphonique avec forfaits d’appels.
 
-Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée:
+Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée :
 
 - Vous souhaitez utiliser teams avec le système téléphonique.
 - Vous devez conserver votre opérateur RTC actuel.
@@ -166,7 +168,7 @@ Si vous répondez oui aux questions suivantes, il s’agit de la solution la plu
 - Vous devez interopérer avec des PBX tiers et/ou des appareils de communication, des appareils analogiques.
 - Teams dispose de toutes les fonctionnalités requises par votre organisation.
 
-Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) et planifiez le [routage direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
+Pour plus d’informations, consultez [qu’est-ce que le système téléphonique dans Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) et [planifiez le routage direct](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Système téléphonique avec propre opérateur via Skype entreprise Server ou Cloud Connector Edition
@@ -177,7 +179,7 @@ Cette option permet au système Microsoft Phone dans le Cloud de se connecter à
 
  - Connectez votre propre SBC au système Microsoft Phone via Skype entreprise Server ou Skype entreprise, version Cloud Connector déployée en local. 
 - Utilisez pratiquement n’importe quel opérateur de téléphonie avec Microsoft Phone System. 
-- Si vous possédez déjà Skype entreprise Server en local, vous pouvez l’utiliser;  Si vous ne le faites pas, vous pouvez déployer une version plus légère – Cloud Connector Edition.
+- Si vous possédez déjà Skype entreprise Server en local, vous pouvez l’utiliser ;  Si vous ne le faites pas, vous pouvez déployer une version plus légère – Cloud Connector Edition.
 
 
 | Conditions requises en matière d’infrastructure                   | Obligatoire ?|
@@ -190,7 +192,7 @@ Cette option permet au système Microsoft Phone dans le Cloud de se connecter à
 
 
 
-Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée:
+Si vous répondez oui aux questions suivantes, il s’agit de la solution la plus adaptée :
 
 - Vous souhaitez utiliser Skype entreprise Online pour vos utilisateurs.
 - Le plan d’appel RTC n’est pas disponible dans votre région.
@@ -198,7 +200,7 @@ Si vous répondez oui aux questions suivantes, il s’agit de la solution la plu
 
 Pour plus d’informations, voir [What is Phone System in Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-server-2019)et [plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
-Recommandation: lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour:
+Recommandation : lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour :
 - Réduire les coûts de maintenance
 - Avoir accès aux dernières fonctionnalités publiées par Microsoft
 
@@ -223,7 +225,7 @@ Cette option fournit une voix entreprise sur site avec la connectivité à un r�
 
 Pour plus d’informations, reportez-vous à la rubrique [plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
-Recommandation: lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour:
+Recommandation : lorsque les conditions de l’entreprise changent (par exemple, vous n’avez plus besoin de conserver votre opérateur RTC), envisagez de passer à Microsoft teams à l’aide des options 1 ou 2 pour :
 - Réduire les coûts de maintenance
 - Avoir accès aux dernières fonctionnalités publiées par Microsoft
 

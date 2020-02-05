@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,17 +17,17 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 'Résumé: Découvrez comment configurer la Fédération pour un fournisseur de services d’audioconférence dans Skype entreprise online.'
-ms.openlocfilehash: faeae07c0662bc252e07bbf66ec463355e439461
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment configurer la Fédération pour un fournisseur de services d’audioconférence dans Skype entreprise online.'
+ms.openlocfilehash: a19704327d1cf5591a1ebb3f62aa23f46fe09d10
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726884"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>Configurer la Fédération pour un fournisseur de services d’audioconférence dans votre déploiement hybride
 
-**Résumé:** Découvrez comment configurer la Fédération pour un fournisseur de services d’audioconférence dans Skype entreprise online.
+**Résumé :** Découvrez comment configurer la Fédération pour un fournisseur de services d’audioconférence dans Skype entreprise online.
 
 Si vous souhaitez utiliser un fournisseur de services d’audioconférence (ACP) dans votre déploiement hybride (local avec Online), vous devez configurer la Fédération entre votre déploiement local et le partenaire ACP en tant que serveur partenaire autorisé. Vous pouvez configurer la Fédération en ajoutant le domaine du partenaire ACP et le serveur Edge (il peut également s’agir du proxy d’accès) à la liste des domaines fédérés pour votre déploiement local. Votre partenaire ACP doit ensuite ajouter le nom de domaine complet de votre pool de serveurs Edge sur site à la liste des domaines fédérés autorisés. Pour plus d’informations, contactez votre fournisseur ACP. Votre partenaire ACP doit ensuite ajouter le nom de domaine complet de votre pool de serveurs Edge sur site à la liste des domaines fédérés autorisés.
 

@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 'Résumé: créez ou modifiez les stratégies vocales et configurez les enregistrements d’utilisation PSTN à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: 76ce531eab2eb88b9a62c4bc38aae1e899802084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : créez ou modifiez les stratégies vocales et configurez les enregistrements d’utilisation PSTN à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 6fe67c9c3764196559740e114419dc427cdeadf3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239928"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766967"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation RTC dans Skype entreprise
 
-**Résumé:** Créez ou modifiez les stratégies vocales et configurez les enregistrements d’utilisation PSTN à l’aide du panneau de configuration Skype entreprise Server.
+**Résumé :** Créez ou modifiez les stratégies vocales et configurez les enregistrements d’utilisation PSTN à l’aide du panneau de configuration Skype entreprise Server.
 
 > [!NOTE]
 > Chaque stratégie vocale doit être associée à au moins un enregistrement d’utilisation du réseau téléphonique commuté (RTC). Pour afficher une liste de tous les enregistrements d’utilisation RTC disponibles dans le déploiement de votre voix entreprise et afficher leurs propriétés, voir [afficher les enregistrements d’utilisation RTC dans Skype entreprise](view-pstn-usage-records.md).
@@ -123,7 +125,7 @@ ms.locfileid: "36239928"
 8. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Skype entreprise Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Skype entreprise Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 9. Pour associer et configurer les enregistrements d’utilisation RTC pour cette stratégie de voix, effectuez l’une des opérations suivantes :
 
@@ -272,7 +274,7 @@ ms.locfileid: "36239928"
 7. Organisez les enregistrements d’utilisation RTC pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!NOTE]
-    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Skype entreprise Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Skype entreprise Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 8. Pour associer et configurer les enregistrements d’utilisation RTC pour cette stratégie de voix, effectuez l’une des opérations suivantes :
 

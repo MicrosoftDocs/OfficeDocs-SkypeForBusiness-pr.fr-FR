@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Processus de déploiement et étapes du parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 55fc887d77d3b68088bb396763a244ef81ce3a6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e0e0559a99160bad06379751cbc0bb89fb882c20
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767477"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Processus de déploiement du parc d’appels dans Skype entreprise
  
@@ -33,8 +35,8 @@ Les composants utilisés par le parc d’appels sont automatiquement installés 
 
 |**Phase**|**Étapes**|**Groupes et rôles requis**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
-|Configurer les plages d’orbites de parcage d’appel dans la table des orbites  <br/> |Utilisez le panneau de configuration Skype entreprise Server ou l’applet de commande **New-CSCallParkOrbit** pour créer des plages d’orbites dans la table de stationnement d’appel et associez-les au service d’application qui héberge l’application de stationnement d’appels. <br/> **Remarque:** Pour une intégration transparente avec les plans de numérotation existants, les plages d’orbites sont généralement configurées comme un bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing [DID]) comme numéros d’orbites dans la table des orbites de parcage d’appel. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Créer ou modifier une gamme de parc d’appels dans Skype entreprise](create-or-modify-a-call-park-orbit-range.md) <br/> |
-|Configuration des paramètres de parcage d’appel  <br/> | Utilisez l’applet de cmdlet **Set-CsCpsConfiguration** pour configurer les paramètres du parc d’appels. Nous vous conseillons d’effectuer au moins une configuration de l’option **OnTimeoutURI** pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants: <br/>  (Facultatif) **EnableMusicOnHold** pour activer ou désactiver l’attente musicale. <br/>  (Facultatif) **MaxCallPickupAttempts** pour déterminer le nombre de fois qu’un appel parqué doit sonner de nouveau sur le téléphone de destination avant d’être transféré à l’URI (Uniform Resource Identifier) de remplacement. <br/>  (Facultatif) **CallPickupTimeoutThreshold** pour déterminer le délai qui s’écoule entre le moment où un appel est parqué et le moment où il sonne de nouveau sur le téléphone auquel il était destiné. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Configurer les paramètres de parc d’appels dans Skype entreprise](configure-call-park-settings.md) <br/> |
+|Configurer les plages d’orbites de parcage d’appel dans la table des orbites  <br/> |Utilisez le panneau de configuration Skype entreprise Server ou l’applet de commande **New-CSCallParkOrbit** pour créer des plages d’orbites dans la table de stationnement d’appel et associez-les au service d’application qui héberge l’application de stationnement d’appels. <br/> **Remarque :** Pour une intégration transparente avec les plans de numérotation existants, les plages d’orbites sont généralement configurées comme un bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing [DID]) comme numéros d’orbites dans la table des orbites de parcage d’appel. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Créer ou modifier une gamme de parc d’appels dans Skype entreprise](create-or-modify-a-call-park-orbit-range.md) <br/> |
+|Configuration des paramètres de parcage d’appel  <br/> | Utilisez l’applet de cmdlet **Set-CsCpsConfiguration** pour configurer les paramètres du parc d’appels. Nous vous conseillons d’effectuer au moins une configuration de l’option **OnTimeoutURI** pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants : <br/>  (Facultatif) **EnableMusicOnHold** pour activer ou désactiver l’attente musicale. <br/>  (Facultatif) **MaxCallPickupAttempts** pour déterminer le nombre de fois qu’un appel parqué doit sonner de nouveau sur le téléphone de destination avant d’être transféré à l’URI (Uniform Resource Identifier) de remplacement. <br/>  (Facultatif) **CallPickupTimeoutThreshold** pour déterminer le délai qui s’écoule entre le moment où un appel est parqué et le moment où il sonne de nouveau sur le téléphone auquel il était destiné. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Configurer les paramètres de parc d’appels dans Skype entreprise](configure-call-park-settings.md) <br/> |
 |Si vous le souhaitez, personnalisez l’attente musicale  <br/> |Si vous ne voulez pas utiliser l’attente musicale par défaut, personnalisez et téléchargez un fichier audio à l’aide de l’applet de commande **Set-CsCallParkServiceMusicOnHoldFile**. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Personnalisation du parc d’appels en attente dans Skype entreprise](customize-call-park-music-on-hold.md) <br/> |
 |Configurer la stratégie vocale pour activer le parc d’appels pour les utilisateurs  <br/> |Utilisez le panneau de configuration Skype entreprise Server ou l’applet de commande **Set-CSVoicePolicy** avec l’option **EnableCallPark** pour activer le parc d’appels pour les utilisateurs dans la stratégie vocale. <br/> Par défaut, le parc d’appels est désactivé pour tous les utilisateurs.  <br/> Si vous disposez de plusieurs stratégies de voix, définissez la propriété EnableCallPark pour toutes les stratégies de voix et pas seulement pour la stratégie par défaut.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Activer le parc d’appels pour les utilisateurs de Skype entreprise](enable-call-park-for-users.md) <br/> |
 |Vérification des règles de normalisation pour le parcage d’appel  <br/> |Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez que les règles de normalisation ne comportent aucune plage d’orbites. Si nécessaire, créez des règles de normalisation supplémentaires pour empêcher la normalisation des orbites.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Vérifier les règles de normalisation du parc d’appels dans Skype entreprise](verify-normalization-rules-for-call-park.md) <br/> |

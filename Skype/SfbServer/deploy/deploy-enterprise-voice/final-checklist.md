@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype entreprise Server Voice.
-ms.openlocfilehash: 275afdfcb3c5e2b7cc635e073bcb5b9ba5edc853
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5d5e4f6f40143bfec2a215e6bc9a54817d53da1b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767227"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels: liste de vérification finale pour Skype entreprise Server
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de vérification finale pour Skype entreprise Server
  
 Liste de vérification finale pour le déploiement du contrôle d’admission des appels (CAC) dans Skype entreprise Server Voice. 
   

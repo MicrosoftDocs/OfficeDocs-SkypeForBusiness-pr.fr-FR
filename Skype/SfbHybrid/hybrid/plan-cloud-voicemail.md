@@ -5,17 +5,19 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique Configuring Cloud vocaux.
-ms.openlocfilehash: 0071154ab1b9c1211725dd9b6addc2dfd5449e15
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "36160529"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765695"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux
 
@@ -23,7 +25,7 @@ ms.locfileid: "36160529"
 
 Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud pour vos utilisateurs locaux. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique [configurer le service de messagerie vocale Cloud](configure-cloud-voicemail.md).
 
-La messagerie vocale Cloud prend la place de la messagerie unifiée Exchange pour fournir des fonctionnalités de messagerie vocale pour les utilisateurs de la messagerie vocale Skype entreprise 2019 qui possèdent des boîtes aux lettres sur Exchange Server 2019 ou Exchange Online. La messagerie vocale Cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne:
+La messagerie vocale Cloud prend la place de la messagerie unifiée Exchange pour fournir des fonctionnalités de messagerie vocale pour les utilisateurs de la messagerie vocale Skype entreprise 2019 qui possèdent des boîtes aux lettres sur Exchange Server 2019 ou Exchange Online. La messagerie vocale Cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne :
 
 - Fonctionnalité de réponse aux messages vocaux et de dépôt avec transcription de parole améliorée
 
@@ -39,18 +41,18 @@ Pour plus d’informations sur la comparaison des fonctionnalités, reportez-vou
 
 Skype entreprise Server 2019 continue d’utiliser la messagerie unifiée Exchange pour les utilisateurs dont les boîtes aux lettres se trouvent sur des versions antérieures d’Exchange Server (2013, 2016).  Comprendre quelle solution de messagerie vocale sera utilisée en fonction de la version d’Exchange Server et de Skype entreprise Server est un élément important de la planification de la migration vers Skype entreprise Server 2019 ou Exchange Server 2019. Pour plus d’informations sur la migration et l’interopérabilité, reportez-vous à la rubrique [plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md).
 
-Avec la messagerie vocale Cloud, vos tâches d’administration sont grandement simplifiées car:
+Avec la messagerie vocale Cloud, vos tâches d’administration sont grandement simplifiées car :
 
 - Il n’est pas nécessaire de configurer le rôle de messagerie unifiée Exchange.
 - Les tâches de configuration de la messagerie vocale Cloud sont plus simples.
 - Les mises à jour de la fonctionnalité de messagerie vocale sont fournies directement dans le Cloud, de sorte que vos utilisateurs ont toujours accès aux fonctionnalités et mises à jour les plus récentes avec une dépendance moindre sur les mises à jour cumulatives (CUs).
 - Vous disposez du même ensemble de contrôles pour les boîtes aux lettres Exchange locales et en ligne. Pour plus d’informations sur ces contrôles, consultez la rubrique [configurer la messagerie vocale du système téléphonique](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
 
-Le diagramme suivant montre la messagerie vocale dans le Cloud dans un déploiement hybride:
+Le diagramme suivant montre la messagerie vocale dans le Cloud dans un déploiement hybride :
 
 ![Messagerie vocale Cloud SfB](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
-Les appels sans réponse sont traités comme suit:  
+Les appels sans réponse sont traités comme suit :  
 
 1. Pour les utilisateurs hébergés dans Skype entreprise 2019 en local, les appels sans réponse sont envoyés par le serveur Skype entreprise sur site au service de messagerie vocale en ligne dans le Cloud.
 2. Le service traite la messagerie vocale, y compris la transcription.
@@ -59,7 +61,7 @@ Les appels sans réponse sont traités comme suit:
 
 ## <a name="requirements"></a>Configuration requise
 
-Les conditions suivantes supposent que vous avez déjà déployé Skype entreprise Server dans une topologie prise en charge.  Vos besoins dépendent de votre scénario:
+Les conditions suivantes supposent que vous avez déjà déployé Skype entreprise Server dans une topologie prise en charge.  Vos besoins dépendent de votre scénario :
 
 - Si vous utilisez déjà la messagerie unifiée Exchange en ligne et que vous effectuez une mise à niveau vers Skype entreprise 2019, vous devrez modifier votre stratégie de messagerie vocale hébergée et vérifier que vos fournisseurs d’hébergement sont correctement configurés. Pour plus d’informations, consultez la rubrique [configurer le service de messagerie vocale Cloud](configure-cloud-voicemail.md).
 
@@ -67,7 +69,7 @@ Les conditions suivantes supposent que vous avez déjà déployé Skype entrepri
 
 - Pour une nouvelle configuration de la messagerie vocale sur le Cloud, suivez les étapes décrites dans [configurer le service de messagerie vocale](configure-cloud-voicemail.md)dans le Cloud.
 
-En plus de la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de messagerie vocale Microsoft Cloud:
+En plus de la configuration requise ci-dessus, les conditions suivantes doivent être configurées pour se connecter au service de messagerie vocale Microsoft Cloud :
 
 - Connectivité hybride. Si vous avez déjà déployé Skype entreprise Server et que vous souhaitez activer la messagerie vocale Cloud pour vos utilisateurs sur site, vous devez vous assurer que la connectivité hybride est configurée entre votre environnement local et en ligne. Il s’agit parfois d’une configuration de domaine fractionné.
 
@@ -94,12 +96,12 @@ L’interopérabilité des versions et les topologies prises en charge pour la m
 | Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale Cloud<sup>1</sup> | Messagerie vocale sur le Cloud <br> Messagerie unifiée Exchange Online<sup>2</sup> |
 | Lync Server 2013 <br>  | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Non pris en charge | Messagerie vocale sur le Cloud <br> Messagerie unifiée Exchange Online<sup>2</sup> |
 
-<sup>1</sup> cette option n’est-elle pas encore affichée? Elle est actuellement déployée et n’est peut-être pas encore disponible dans votre organisation. Reportez-vous à l’étape 6, envisager de choisir dans la [prise en charge de la migration de la messagerie unifiée Exchange Online](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
+<sup>1</sup> cette option n’est-elle pas encore affichée ? Elle est actuellement déployée et n’est peut-être pas encore disponible dans votre organisation. Reportez-vous à l’étape 6, envisager de choisir dans la [prise en charge de la migration de la messagerie unifiée Exchange Online](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
 ) pour vous inscrire à la messagerie vocale de Cloud.
 
 <sup>2</sup> jusqu’à dépréciation. Pour plus d’informations, reportez-vous à la rubrique [Exchange Unified Messaging migration Online migration](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) . 
 
-Microsoft recommande les chemins de migration suivants:
+Microsoft recommande les chemins de migration suivants :
 
 - Si vous effectuez une mise à niveau vers Skype entreprise Server 2019, vous pouvez utiliser la messagerie unifiée Exchange dans Exchange Server 2013 ou 2016, mais vous devez effectuer une mise à niveau vers la messagerie vocale Cloud si vous utilisez Exchange Server 2019.
 - Si vous effectuez une mise à niveau vers Exchange Server 2019 et que vous utilisez des versions précédentes de la messagerie UNIFIÉe Exchange Server pour la messagerie vocale Skype entreprise Server, Microsoft vous recommande d’effectuer une mise à niveau vers Skype entreprise Server 2019 avant la mise à niveau de la boîte aux lettres.  Dans le cas contraire, les fonctionnalités de messagerie vocale seront perdues.

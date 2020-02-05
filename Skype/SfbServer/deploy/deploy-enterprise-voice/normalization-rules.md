@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Résumé: Découvrez comment définir, créer et modifier une règle de normalisation dans Skype entreprise Server.'
-ms.openlocfilehash: af0f09710d427dc97a919468b5decfa9ef3d93fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment définir, créer et modifier une règle de normalisation dans Skype entreprise Server.'
+ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240259"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767087"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Création ou modification d’une règle de normalisation dans Skype entreprise
 
-**Résumé:** Familiarisez-vous avec la définition, la création et la modification d’une règle de normalisation dans Skype entreprise Server.
+**Résumé :** Familiarisez-vous avec la définition, la création et la modification d’une règle de normalisation dans Skype entreprise Server.
 
 Définir, créer et modifier des règles de normalisation dans Skype entreprise Server.
 
@@ -31,7 +33,7 @@ Définir, créer et modifier des règles de normalisation dans Skype entreprise 
 
 1. Ouvrir le panneau de configuration Skype entreprise Server
 
-2. Facultatif Suivez les étapes de la rubrique [créer ou modifier un plan de numérotation dans Skype entreprise Server via l'](dial-plans.md) étape 11 ou [modifier un plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) de numérotation via l’étape 10.
+2. Facultatif Suivez les étapes de la rubrique [créer ou modifier un plan de numérotation dans Skype entreprise Server via l'](dial-plans.md) étape 11 ou [modifier un plan de numérotation](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) via l’étape 10.
 
 3. Dans **nouvelle règle de normalisation** ou **modifier la règle de normalisation**, tapez un nom qui décrit le modèle numérique normalisé dans **nom** (par exemple, 5DigitExtension).
 
@@ -39,15 +41,15 @@ Définir, créer et modifier des règles de normalisation dans Skype entreprise 
 
 5. Dans **Créer une règle de normalisation**, entrez les valeurs dans les champs suivants :
 
-   - **Chiffres de départ** Facultatif Spécifiez les premiers chiffres des numéros numérotés que vous voulez associer au modèle. Par exemple, type425 si vous voulez que le modèle corresponde à des numéros numérotés commençant par 425.
+   - **Premiers chiffres** (facultatifs) Spécifiez les premiers chiffres des numéros numérotés que vous voulez associer au modèle. Par exemple, type425 si vous voulez que le modèle corresponde à des numéros numérotés commençant par 425.
 
    - **Longueur** Spécifiez le nombre de chiffres dans le modèle correspondant, puis indiquez si vous souhaitez que le modèle corresponde à cette longueur exactement, qu’il corresponde à des numéros numérotés au moins de cette longueur ou qu’il corresponde à des numéros numérotés de n’importe quelle longueur.
 
-   - **Chiffres à supprimer** Facultatif Spécifiez le nombre de chiffres de départ à supprimer des numéros numérotés que vous voulez que le modèle corresponde.
+   - **Chiffres à supprimer** (facultatif) Spécifiez le nombre de chiffres de départ à supprimer des numéros numérotés que vous voulez associer au modèle.
 
-   - **Chiffres à ajouter** Facultatif Spécifiez les chiffres à ajouter aux numéros numérotés que vous voulez que le modèle corresponde.
+   - **Chiffres à ajouter** (facultatif) Spécifiez les chiffres à ajouter aux numéros numérotés à utiliser pour le modèle.
 
-     Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez les **chiffres** vides, Type7 dans le champ **longueur** et sélectionnez **exactement**et spécifiez 0 dans les **chiffres à supprimer**, l’expression régulière résultante dans le **modèle à faire correspondre** est la suivante:
+     Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez les **chiffres** vides, Type7 dans le champ **longueur** et sélectionnez **exactement**et spécifiez 0 dans les **chiffres à supprimer**, l’expression régulière résultante dans le **modèle à faire correspondre** est la suivante :
 
      ^ (\d{7}) $
 

@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Résumé: Découvrez comment créer ou modifier un itinéraire vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: e5b8fcb5617d1f5abcbbda0826c3366ab4f73cd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment créer ou modifier un itinéraire vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 8732a07e835e6888efbc132da8dc99a0b4263f29
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233342"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767797"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Création ou modification d’un itinéraire vocal dans Skype entreprise
  
-**Résumé:** Découvrez comment créer ou modifier un itinéraire vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.
+**Résumé :** Découvrez comment créer ou modifier un itinéraire vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer une gamme vocale à l’aide du panneau de configuration Skype entreprise Server
 

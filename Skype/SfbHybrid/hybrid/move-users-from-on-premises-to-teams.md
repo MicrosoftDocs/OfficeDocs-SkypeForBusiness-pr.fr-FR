@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer des utilisateurs vers Teams.'
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010617"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726744"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’organisation locale vers teams
 
@@ -59,7 +61,7 @@ Les outils d’administration sur site de Skype entreprise Server 2015 avec CU8,
 
 Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype entreprise Management Shell locale. Les étapes ci-dessous et les autorisations requises sont les mêmes que pour le transfert d’un utilisateur vers Skype entreprise Online, à la différence que vous devez également spécifier le commutateur MoveToTeams et que vous devez vous assurer que l’utilisateur bénéficie également d’une licence pour Teams (en plus de Skype entreprise En ligne).
 
-Vous devez disposer de privilèges suffisants dans l’environnement local et le client Office 365, comme décrit dans la rubrique [Required Credentials Requirements](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Vous pouvez utiliser un compte unique qui dispose de privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre Skype entreprise Server Management Shell locale avec des informations d’identification locales et utiliser le `-Credential` paramètre pour spécifier des informations d’identification pour un Office 365 compte avec le rôle d’administrateur Office 365 nécessaire.
+Vous devez disposer de privilèges suffisants dans l’environnement local et le client Office 365, comme décrit dans la rubrique [Required Credentials Requirements](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Vous pouvez utiliser un compte unique qui dispose de privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre Skype entreprise Server Management Shell locale avec des informations d’identification locales et utiliser le `-Credential` paramètre pour spécifier des informations d’identification pour un compte Office 365 avec le rôle d’administration Office 365 nécessaire.
 
 Pour déplacer un utilisateur vers le mode teams uniquement à l’aide de Move-CsUser :
 
@@ -117,6 +119,6 @@ Par défaut, la valeur de DownloadTeams est true ; Toutefois, elle n’est hono
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[Guide de migration et d’interopérabilité pour les organisations qui utilisent teams avec Skype entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Coexistence avec Skype entreprise](/microsoftteams/coexistence-chat-calls-presence)

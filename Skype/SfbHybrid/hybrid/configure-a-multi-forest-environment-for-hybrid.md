@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes fournissent des instructions sur la configuration d’un environnement possédant plusieurs forêts dans un modèle de forêt de ressources/utilisateur afin de fournir des fonctionnalités Skype entreprise dans un scénario hybride.
-ms.openlocfilehash: 7ef895648c044dc5d1f3f907ad4f75d950a4253a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160512"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726944"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
  
@@ -42,7 +44,7 @@ Plusieurs forêts d’utilisateurs sont prises en charge. Gardez les éléments 
   
 ## <a name="user-homing-considerations"></a>Considérations relatives à l’hébergement des utilisateurs
 
-Les utilisateurs de Skype entreprise hébergés sur site peuvent avoir Exchange hébergé sur site ou en ligne. Les utilisateurs de Skype entreprise Online doivent utiliser Exchange Online pour une expérience optimale; Toutefois, cela n’est pas obligatoire. Exchange sur site n’est pas nécessaire pour mettre en œuvre Skype entreprise dans les deux cas.
+Les utilisateurs de Skype entreprise hébergés sur site peuvent avoir Exchange hébergé sur site ou en ligne. Les utilisateurs de Skype entreprise Online doivent utiliser Exchange Online pour une expérience optimale ; Toutefois, cela n’est pas obligatoire. Exchange sur site n’est pas nécessaire pour mettre en œuvre Skype entreprise dans les deux cas.
   
 ## <a name="configure-forest-trusts"></a>Configurer des approbations de forêt
 
@@ -54,7 +56,7 @@ Lorsque Skype entreprise Server est déployé dans une forêt (une forêt de res
   
 Quelle que soit la configuration à forêts multiples, la forêt qui héberge Skype entreprise Server peut également fournir des fonctionnalités pour les utilisateurs activés qui existent dans la même forêt.
   
-Pour obtenir une synchronisation d’identité correcte, les attributs suivants doivent être synchronisés: 
+Pour obtenir une synchronisation d’identité correcte, les attributs suivants doivent être synchronisés : 
   
 |**Forêts d’utilisateurs**|**Forêts de ressources**|
 |:-----|:-----|
@@ -63,7 +65,7 @@ Pour obtenir une synchronisation d’identité correcte, les attributs suivants 
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-L' [attribut de lien de compte choisi](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous avez un autre attribut non modifiable que vous préférez utiliser, vous pouvez le faire; Assurez-vous simplement de modifier la règle de revendications AD FS et sélectionnez l’attribut pendant la configuration de AAD Connect.
+L' [attribut de lien de compte choisi](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) sera utilisé comme ancre source. Si vous avez un autre attribut non modifiable que vous préférez utiliser, vous pouvez le faire ; Assurez-vous simplement de modifier la règle de revendications AD FS et sélectionnez l’attribut pendant la configuration de AAD Connect.
   
 Ne synchronisez pas les UPN entre les forêts. Nous avons trouvé pendant les tests que nous avions besoin d’utiliser un UPN unique pour chaque forêt d’utilisateurs, car vous ne pouvez pas utiliser le même nom d’utilisateur principal dans plusieurs forêts. Par conséquent, nous avons présenté deux possibilités pour synchroniser l’UPN ou non pour la synchronisation. 
   
@@ -81,7 +83,7 @@ Une fois que vous avez un client, vous devez configurer les services ADFS (Activ
   
 Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. Le fait de ne pas avoir un SIP/SMTP/UPN correspondant peut entraîner des fonctionnalités réduites, telles que des problèmes liés à l’intégration d’Exchange et à l’authentification unique. 
   
-À moins que vous n’utilisiez un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours rencontrer des problèmes d’authentification unique, quel que soit l’endroit où AD FS est déployé: 
+À moins que vous n’utilisiez un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours rencontrer des problèmes d’authentification unique, quel que soit l’endroit où AD FS est déployé : 
   
 - Approbations à sens unique ou bidirectionnelles entre les forêts de ressources/d’utilisateurs et la batterie de serveurs AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un nom UPN unique pour chaque forêt d’utilisateurs. 
     
@@ -101,7 +103,7 @@ Dans les topologies de forêt de ressources, il est nécessaire que les attribut
 
 Notez que AAD Connect ne fournit pas de synchronisation sur site entre les forêts de comptes et de ressources. Qui doivent être configurés séparément à l’aide de Microsoft Identity Manager ou d’un produit similaire, comme décrit précédemment.
   
-Lorsque vous avez terminé et que la connexion AAD est fusionnée, si vous examinez un objet dans le métaverse, vous devriez voir un résultat semblable à celui-ci: 
+Lorsque vous avez terminé et que la connexion AAD est fusionnée, si vous examinez un objet dans le métaverse, vous devriez voir un résultat semblable à celui-ci : 
   
 ![Écran d’objet métaverse multi-Forest](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
@@ -111,30 +113,30 @@ Il s’agit d’un utilisateur test, et vous pouvez voir que AAD Connect a ident
   
 Pour plus d’informations, consultez [la rubrique intégration de vos répertoires locaux à Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
-La connexion AAD doit être installée à l’aide des valeurs par défaut, à l’exception des suivantes: 
+La connexion AAD doit être installée à l’aide des valeurs par défaut, à l’exception des suivantes : 
   
-1. Authentification unique: les services AD FS sont déjà déployés et fonctionnent: sélectionnez **ne pas configurer**.
+1. Authentification unique : les services AD FS sont déjà déployés et fonctionnent : sélectionnez **ne pas configurer**.
     
-2. Connectez vos annuaires: Ajoutez tous les domaines.
+2. Connectez vos annuaires : Ajoutez tous les domaines.
     
-3. Identifier les utilisateurs dans les répertoires locaux: sélectionnez **User Identities EXISTS dans plusieurs répertoires**, puis sélectionnez les attributs **objectSID** et **msExchangeMasterAccountSID.** .
+3. Identifier les utilisateurs dans les répertoires locaux : sélectionnez **User Identities EXISTS dans plusieurs répertoires**, puis sélectionnez les attributs **objectSID** et **msExchangeMasterAccountSID.** .
     
-4. Identifier les utilisateurs dans Azure AD: ancre source: sélectionnez l’attribut que vous avez choisi après avoir lu [sélection d’un attribut ancre source approprié](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur principal- **userPrincipalName**.
+4. Identifier les utilisateurs dans Azure AD : ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu [sélection d’un attribut ancre source approprié](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nom d’utilisateur principal- **userPrincipalName**.
     
-5.  Fonctionnalités facultatives: Déterminez si vous avez déployé Exchange hybride.
+5.  Fonctionnalités facultatives : Déterminez si vous avez déployé Exchange hybride.
     
     > [!NOTE]
-    >  Si vous avez uniquement Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAMe. Pour corriger cela, vous devez définir l’URL de découverte automatique Exchange en exécutant l’applet de commande suivante à partir de Skype entreprise Server Management Shell:
+    >  Si vous avez uniquement Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAMe. Pour corriger cela, vous devez définir l’URL de découverte automatique Exchange en exécutant l’applet de commande suivante à partir de Skype entreprise Server Management Shell :
   
     Set-applet csoauthconfiguration-ExchangeAutoDiscoverURL https://<span>Autodiscover-s.Outlook.com/autodiscover/autodiscover.svc 
     
-6.  Batterie de serveurs AD FS: sélectionnez **utiliser une batterie de serveurs Windows Server 2012 R2 AD FS existante** et entrez le nom du serveur AD FS.
+6.  Batterie de serveurs AD FS : sélectionnez **utiliser une batterie de serveurs Windows Server 2012 R2 AD FS existante** et entrez le nom du serveur AD FS.
     
 7.  Terminez l’Assistant et effectuez les validations nécessaires.
     
 ## <a name="configure-hybrid-connectivity-for-skype-for-business-server"></a>Configuration de la connectivité hybride pour Skype entreprise Server
 
-Suivez les meilleures pratiques en matière de configuration de Skype entreprise hybride. Pour plus d’informations, reportez-vous à [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et configure [Hybrid Connectivity](configure-hybrid-connectivity.md). 
+Suivez les meilleures pratiques en matière de configuration de Skype entreprise hybride. Pour plus d’informations, reportez-vous à [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et [configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurer la connectivité hybride pour Exchange Server
 

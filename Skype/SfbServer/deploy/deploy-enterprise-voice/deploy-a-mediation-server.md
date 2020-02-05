@@ -8,23 +8,25 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 'Résumé: Découvrez comment définir et déployer un serveur de médiation dans le générateur de topologies dans Skype entreprise Server.'
-ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment définir et déployer un serveur de médiation dans le générateur de topologies dans Skype entreprise Server.'
+ms.openlocfilehash: c651ff3e254165161642c4e729d0d4e3f2983023
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767687"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déploiement d’un serveur de médiation dans le générateur de topologies dans Skype entreprise Server
  
-**Résumé:** Apprenez à définir et déployer un serveur de médiation dans le générateur de topologies de Skype entreprise Server.
+**Résumé :** Apprenez à définir et déployer un serveur de médiation dans le générateur de topologies de Skype entreprise Server.
   
 La charge de travail voix entreprise, les conférences rendez-vous et les applications Advanced Enterprise voix (application de groupe de réponse, application de stationnement d’appel, contrôle d’admission des appels (CAC), etc.), sont disponibles dans des regroupements front-end. Les fonctionnalités du serveur de médiation sont intégrées au serveur frontal. Il n’est pas nécessaire de disposer d’un serveur de médiation autonome séparé. 
   
@@ -38,7 +40,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle colocalisé sur u
   
 ### <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>Pour ajouter un serveur de médiation à un pool frontal
 
-1. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
+1. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
     
 2. Dans le générateur de topologie, dans l’arborescence de la console, développez le nom du site pour lequel vous voulez définir un pool frontal.
     
@@ -46,7 +48,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle colocalisé sur u
     
 4. Naviguez dans l’Assistant **Définition d’un nouveau pool frontal** jusqu’à ce que vous accédiez à la page **Sélectionner des rôles serveur colocalisés**.
     
-5. Dans **sélection de rôles de serveur**colocalisés, activez l’option **Collocate médiation Server**.
+5. Dans **sélection de rôles de serveur colocalisés**, activez l’option **Collocate médiation Server**.
     
     > [!NOTE]
     > Si le type de réserve frontale que vous avez sélectionné est l’édition entreprise, le composant serveur de médiation sera installé sur tous les serveurs front-end de cette liste frontale. 
@@ -68,11 +70,11 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle colocalisé sur u
     
 ### <a name="to-add-a-standalone-mediation-server"></a>Pour ajouter un serveur de médiation autonome
 
-1. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
+1. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
     
 2. Dans le générateur de topologie, dans l’arborescence de la console, développez le nom du site pour lequel vous voulez définir un serveur de médiation.
     
-3. Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud Pools de **médiation** , puis cliquez sur **pool de serveurs de médiation**.
+3. Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud **pools de médiation** , puis cliquez sur **pool de serveurs de médiation**.
     
 4. Dans **définir un nouveau pool de médiation**, tapez le nom de domaine complet (FQDN) du pool de serveurs de médiation.
     
@@ -91,7 +93,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle colocalisé sur u
     
 8. Dans la page **Sélectionner un serveur Edge**, effectuez l’une des opérations suivantes :
     
-   - Si vous voulez fournir une connectivité RTC aux utilisateurs externes activés pour Enterprise Voice, sous **Sélectionner le pool de périphériques utilisés par ce serveur de médiation**, cliquez sur le nom de domaine complet (FQDN) du pool de serveur Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN à utilisateurs externes, puis cliquez sur **suivant**.
+   - Si vous voulez fournir une connectivité RTC aux utilisateurs externes activés pour l’entreprise voix, sous **Sélectionner le pool de périphériques utilisés par ce serveur de médiation**, cliquez sur le nom de domaine complet du pool de serveur Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN aux utilisateurs externes, puis cliquez sur **suivant**.
     
    - Si vous envisagez de ne pas autoriser les utilisateurs externes pour les voix d’entreprise, ou si vous ne souhaitez pas fournir de connectivité RTC aux utilisateurs en dehors du réseau interne, cliquez sur **suivant**.
     
@@ -103,9 +105,9 @@ Suivez les étapes décrites dans cette rubrique pour utiliser le générateur d
   
 ### <a name="to-modify-the-mediation-server-listening-ports"></a>Pour modifier les ports d’écoute du serveur de médiation
 
-1. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
+1. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
     
-2. Dans le générateur de topologie, dans l’arborescence de la console, développez le nœud Pools de **médiation** , puis cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
+2. Dans le générateur de topologie, dans l’arborescence de la console, développez le nœud **pools de médiation** , puis cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
     
 3. Par défaut, les ports d’écoute SIP sur le serveur de médiation sont 5070 pour le trafic TLS de Skype entreprise Server et 5067 pour le trafic TLS d’homologues (par exemple, les passerelles, PBXes ou SBCs). Le port TCP est désactivé par défaut. Vous devez activer le port TCP si vous disposez de passerelles qui ne prennent pas en charge le protocole TLS.
     

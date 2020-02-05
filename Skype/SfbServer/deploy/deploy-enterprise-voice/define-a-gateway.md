@@ -7,29 +7,31 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Résumé: Découvrez comment définir une passerelle RTC dans le générateur de topologie dans Skype entreprise Server.'
-ms.openlocfilehash: 322c526c87c3a354f11fd0c906256b36e6df526e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment définir une passerelle RTC dans le générateur de topologie dans Skype entreprise Server.'
+ms.openlocfilehash: 41f5f37d7da23848c8a19d11347183d0c0697532
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233217"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767727"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Définir une passerelle dans le générateur de topologies dans Skype entreprise Server
  
-**Résumé:** Découvrez comment définir une passerelle RTC dans le générateur de topologie de Skype entreprise Server.
+**Résumé :** Découvrez comment définir une passerelle RTC dans le générateur de topologie de Skype entreprise Server.
   
 Suivez les étapes ci-dessous pour définir un homologue qui vous permet d’associer un serveur de médiation afin de fournir une connectivité au réseau téléphonique commuté (PSTN) pour les utilisateurs autorisés à utiliser voix entreprise. Un hôte du serveur de médiation peut être une passerelle RTC, un PBX IP ou un contrôleur de bordure de session (SBC) pour un fournisseur de services de téléphonie Internet (ITSP) auquel vous vous connectez en configurant un Trunk SIP.
   
 ### <a name="to-define-a-peer-for-the-mediation-server"></a>Pour définir un homologue pour le serveur de médiation
 
-1. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
+1. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **Skype entreprise Server 2015Topology Builder**.
     
 2. Sous Skype entreprise Server, nom de votre site, composants partagés, cliquez avec le bouton droit sur le nœud **passerelles RTC** , puis cliquez sur **nouvelle passerelle PSTN**.
 3. Dans **Définir une nouvelle passerelle IP/RTC**, tapez le nom de domaine complet ou l’adresse IP de l’homologue, puis cliquez sur **Suivant**.
@@ -41,7 +43,7 @@ Suivez les étapes ci-dessous pour définir un homologue qui vous permet d’ass
 
 5. Définissez une jonction racine pour la passerelle RTC. Un Trunk est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple.
     
-    Le nom de domaine complet du serveur de médiation, port d’écoute du serveur de médiation (TLS ou TCP): adresse IP et nom de domaine complet de la passerelle
+    Le nom de domaine complet du serveur de médiation, port d’écoute du serveur de médiation (TLS ou TCP) : adresse IP et nom de domaine complet de la passerelle
     
      - Lors de la définition d’une passerelle RTC dans le générateur de topologie, vous devez définir une Trunk racine pour ajouter correctement la passerelle RTC à votre topologie.
     

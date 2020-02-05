@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-description: 'Résumé: Découvrez comment modifier les paramètres de configuration de Trunk SIP à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: 6db2ddcf0155a599d8604bce2e3d5b5d34d6df20
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment modifier les paramètres de configuration de Trunk SIP à l’aide du panneau de configuration Skype entreprise Server.'
+ms.openlocfilehash: 137407525319f729eae28d91cfac8cd3aa1b456d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240279"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767097"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modification des paramètres de configuration de Trunk SIP dans Skype entreprise Server
  
-**Résumé:** Découvrez comment modifier les paramètres de configuration de Trunk SIP à l’aide du panneau de configuration Skype entreprise Server.
+**Résumé :** Découvrez comment modifier les paramètres de configuration de Trunk SIP à l’aide du panneau de configuration Skype entreprise Server.
   
 Les paramètres de configuration de jonction SIP (Session Initiation Protocol) définissent la relation et les possibilités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (RTC), un autocommutateur privé IP (PBX) ou le contrôleur SBC (Session Border Controller) du côté fournisseur de services. Ces paramètres spécifient, par exemple :
   
@@ -51,12 +53,12 @@ Lorsque vous modifiez les paramètres de configuration du Trunk SIP à l’aide 
 |Activer les données de transfert P-Asserted-Identity  <br/> |ForwardPAI  <br/> |Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.  <br/> |
 |Activer le minuteur de basculement de routage de trafic sortant  <br/> |EnableFastFailoverTimer  <br/> |Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront routés vers la jonction suivante disponible. En l’absence d’autre jonction, l’appel est abandonné automatiquement. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.  <br/> |
 |Utilisations RTC associées  <br/> |PSTNUsages  <br/> |Collection d’utilisations RTC affectées à la jonction.  <br/> |
-|Numéro converti à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
+|Numéro converti à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
 |Règles de conversion associées  <br/> |OutboundTranslationRulesList  <br/> |Collection de règles de conversion de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels routés vers les destinations PBX ou RTC).  <br/> |
 |Règles de conversion du numéro appelé  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Collection de règles de conversion de numéro d’appel sortant affectées à la jonction.  <br/> |
-|Numéro de téléphone à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.  <br/> |
-|Numéro appelant  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
-|Numéro appelé  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
+|Numéro de téléphone à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.  <br/> |
+|Numéro appelant  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
+|Numéro appelé  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
    
 > [!NOTE]
 > Les applets de commande Lync Server CsTrunkConfiguration prennent en charge des propriétés supplémentaires qui ne figurent pas dans le panneau de configuration de Lync Server. Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) .

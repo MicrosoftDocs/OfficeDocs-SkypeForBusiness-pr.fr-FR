@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 'Résumé: Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.'
-ms.openlocfilehash: 3c72e53044abe44660423bbd9bc1adbbeed2a3ed
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.'
+ms.openlocfilehash: 1a1f363ad157775395f77ef3e3c2915e9226bfd5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768197"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Création ou modification d’une règle de traduction pour appeler une présentation dans Skype entreprise Server
 
-**Résumé:** Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.
+**Résumé :** Découvrez comment définir une règle de traduction à l’aide de l’outil créer une règle de traduction dans Skype entreprise Server.
 
 Suivez ces étapes si vous voulez définir une règle de traduction en entrant un ensemble de valeurs dans l’outil **créer une règle de traduction** et en activant le panneau de configuration Skype entreprise Server pour générer les modèles correspondants et les règles de traduction correspondants. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, voir [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
 

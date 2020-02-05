@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées pour mettre à jour le certificat de serveur Edge dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: 52ab646387acb6901798f215f9677f16978e87fb
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: c4339eec5fa303429fdf8f42a7273c8f20f94e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963052"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762852"
 ---
 # <a name="update-the-edge-certificate"></a>Mettre à jour le certificat de serveur Edge
 
