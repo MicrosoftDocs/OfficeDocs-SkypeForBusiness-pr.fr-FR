@@ -1,7 +1,7 @@
 ---
 title: Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 1d6d41c9dba2aa5eff5d0f5d488b7403b54add5e
+ms.sourcegitcommit: 05aab1044fe34a65af18ed7368f9622e08f28f1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968035"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779219"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
@@ -29,7 +29,7 @@ Pour placer un utilisateur ou une équipe en conservation légale, accédez au [
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
 
 > [!NOTE]
-> Nous ne prenons pas encore en charge la configuration pour la conservation légale de messages de canal privé. Le blocage légal des fichiers partagés dans les canaux privés est pris en charge.
+> La prise en charge du blocage légal des messages de canal privé sera disponible prochainement. Le blocage légal des fichiers partagés dans les canaux privés est pris en charge.
 
 > [!IMPORTANT]
 > Lorsqu’un utilisateur ou un groupe est suspendu, toutes les copies de messages sont conservées. Exemple : Clay a publié un message dans un canal, puis l'a modifié. Dans un scénario de conservation, les deux copies du message sont conservées. Sans la conservation légale, seul le dernier message est conservé.

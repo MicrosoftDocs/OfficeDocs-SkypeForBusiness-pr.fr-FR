@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour des téléphones Skype entreprise online.
-ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705809"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784751"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -40,7 +40,7 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Avant de commencer, il est pertinent de télécharger les guides d'administration et les manuels de téléphone du fabricant.
   
-- Dans le cas de téléphones Polycom, consultez le guide [Polycom Deployment Guide](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Pour les téléphones Polycom, reportez-vous à la [bibliothèque de documentation de poly](https://documents.polycom.com/category/voice).
     
 - Pour les téléphones Yealink, reportez-vous à la rubrique [solution de téléphone SIP HD Yealink Skype entreprise](http://www.yealink.com/products_top_2.html).
     

@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Résumé: Découvrez où aller pour trouver des informations sur SQL Server Reporting Services utilisées par Skype entreprise Server.'
-ms.openlocfilehash: 3513b0a9da99147862fa207e26cbbb6a775d8a93
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez où aller pour trouver des informations sur SQL Server Reporting Services utilisées par Skype entreprise Server.'
+ms.openlocfilehash: 1e15ce0d05675f4e448f49424be375d574429cd4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239970"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789972"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installer SQL Server Reporting Services dans Skype entreprise Server 
  
-**Résumé:** Pour plus d’informations sur SQL Server Reporting Services utilisé par Skype entreprise Server, voir Rechercher des informations sur SQL Server Reporting Services.
+**Résumé :** Pour plus d’informations sur SQL Server Reporting Services utilisé par Skype entreprise Server, voir Rechercher des informations sur SQL Server Reporting Services.
   
 Skype entreprise Server peut utiliser SQL Server Reporting Services (SSRS) pour afficher et surveiller des rapports. Pour utiliser cette fonctionnalité, vous devez avoir installé et configuré Reporting Services.
   

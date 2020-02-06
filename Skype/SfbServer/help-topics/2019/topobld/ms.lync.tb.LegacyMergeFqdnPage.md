@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le nom de domaine complet (FQDN) du pool Edge d’accès est utilisé dans de nombreux scénarios où les utilisateurs internes communiquent avec des utilisateurs externes pour la Fédération, l’accès distant des utilisateurs et la connectivité de messagerie instantanée publique. Si un serveur Edge équilibré en charge a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) de l’équilibrage de charge interne.
-ms.openlocfilehash: 324f82f31e2f0e49b77ca063f9eba162dad7e108
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 40af6b5ffa57df56f1b41760435b3d8b9f13715e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688307"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787704"
 ---
 # <a name="legacy-merge-fqdn"></a>Fusion héritée : nom de domaine complet
  

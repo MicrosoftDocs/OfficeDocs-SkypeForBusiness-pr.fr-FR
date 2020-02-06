@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Résumé: Découvrez comment associer des rapports d’analyse à une base de données miroir utilisée par Skype entreprise Server.'
-ms.openlocfilehash: 522ed5f9bd6e437a83e9cb3575ca92c0bd049e44
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment associer des rapports d’analyse à une base de données miroir utilisée par Skype entreprise Server.'
+ms.openlocfilehash: 77e852860239ae6f87fce2b49fb6fa9f9d7c0834
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239885"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789932"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports d’analyse à une base de données miroir dans Skype entreprise Server 
  
-**Résumé:** Découvrez comment associer des rapports d’analyse à une base de données miroir utilisée par Skype entreprise Server.
+**Résumé :** Découvrez comment associer des rapports d’analyse à une base de données miroir utilisée par Skype entreprise Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Rapports de surveillance avec une base de données miroir
 
@@ -41,7 +43,7 @@ Pour que les rapports basculent automatiquement sur la base de données miroir, 
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Après avoir accédé à la page d’accueil des services de surveillance, cliquez sur **ServerReports**, puis sur **Reports_Content**. Vous serez ainsi dirigé vers la page **Reports_Content** des rapports de surveillance de Skype entreprise Server.
+2. Après avoir accédé à la page d’accueil des services de surveillance, cliquez sur **ServerReports**, puis sur **Reports_Content**. Vous serez ainsi dirigé vers la page de **Reports_Content** pour les rapports de surveillance de Skype entreprise Server.
     
 3. Sur la page **Reports_Content**, cliquez sur la source de données **CDRDB**.
     
