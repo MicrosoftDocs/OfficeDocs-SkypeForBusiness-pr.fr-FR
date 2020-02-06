@@ -7,23 +7,25 @@ audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: 'Résumé: Examinez les scénarios relatifs aux options de déploiement de Skype entreprise Server. Si vous voulez utiliser un serveur unique ou si vous préférez un pool de serveurs avec DNS ou HLB, cette rubrique devrait vous aider.'
-ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+description: 'Résumé : Examinez les scénarios relatifs aux options de déploiement de Skype entreprise Server. Si vous voulez utiliser un serveur unique ou si vous préférez un pool de serveurs avec DNS ou HLB, cette rubrique devrait vous aider.'
+ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758941"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802164"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planification DNS avancée du serveur Edge pour Skype entreprise Server
  
-**Résumé:** Passez en revue les scénarios relatifs aux options de déploiement de Skype entreprise Server. Si vous voulez utiliser un serveur unique ou si vous préférez un pool de serveurs avec DNS ou HLB, cette rubrique devrait vous aider.
+**Résumé :** Passez en revue les scénarios relatifs aux options de déploiement de Skype entreprise Server. Si vous voulez utiliser un serveur unique ou si vous préférez un pool de serveurs avec DNS ou HLB, cette rubrique devrait vous aider.
   
 Dans le cadre de la planification de votre système de nom de domaine (DNS) pour Skype entreprise Server, il existe de nombreux facteurs qui peuvent être à votre décision. Si la structure de domaines de votre organisation est déjà en place, la question est peut-être de réviser la façon dont vous allez procéder. Commençons par les rubriques situées ci-dessous :
   
@@ -50,11 +52,11 @@ Les clients Skype entreprise sont similaires aux versions précédentes de clien
     
      *Il s’agit d’un enregistrement d’hôte A pour le service de découverte automatique sur les services web internes.* 
     
-3. _sipinternaltls. _ TCP. \<Domain (domaine)\>
+3. _sipinternaltls. _tcp. \<Domain (domaine)\>
     
      *Il s’agit d’un enregistrement SRV pour les connexions TLS internes.* 
     
-4. _sip._tls. \<Domain (domaine)\>
+4. _sip. _tls. \<Domain (domaine)\>
     
      *Il s’agit d’un enregistrement SRV pour les connexions TLS externes.* 
     
@@ -77,9 +79,9 @@ Le service de découverte automatique est toujours privilégié, car il s’agit
   
 Si vous avez vraiment envie d’y parvenir, vous pouvez configurer votre appareil mobile à la découverte manuelle des services. Si c’est ce que vous cherchez à faire, chaque utilisateur doit configurer ses paramètres de l’appareil mobile avec les URI complètes interne et externe du service de découverte automatique, dont le protocole et le chemin d’accès, comme suit :
   
-- Pour l’accès externe:\<https://\>ExtPoolFQDN/Autodiscover/autodiscoverservice.svc/root
+- Pour l’accès externe :\<https://\>ExtPoolFQDN/Autodiscover/autodiscoverservice.svc/root
     
-- Pour l’accès interne:\<https://\>IntPoolFQDN/autodiscover/autodiscover.svc/root
+- Pour l’accès interne :\<https://\>IntPoolFQDN/autodiscover/autodiscover.svc/root
     
 Nous vous recommandons l’utilisation de la découverte automatique par opposition à la découverte manuelle. Mais si vous faites de la résolution de problèmes ou des tests, les paramètres manuels peuvent être très utiles.
   
@@ -149,7 +151,7 @@ Pour développer l’exemple, cela ne fonctionne pas :
     
      *Un utilisateur se connectant en tant que tim@litwareinc.com ne fonctionnera pas pour la configuration automatique, car son domaine SIP (Session Initiation Protocol) (litwareinc.com) ne correspond pas au domaine dans le pool (fabrikam.com).* 
     
-À présent que nous savons que c’est le cas, si vous avez besoin d’une configuration automatique pour vos clients Skype entreprise sans DNS split-brain, vous disposez des options suivantes:
+À présent que nous savons que c’est le cas, si vous avez besoin d’une configuration automatique pour vos clients Skype entreprise sans DNS split-brain, vous disposez des options suivantes :
   
 - **Objets de stratégie de groupe**
     
@@ -162,13 +164,13 @@ Pour développer l’exemple, cela ne fonctionne pas :
     
     Vous devez créer une zone dans votre DNS interne qui correspond à votre zone DNS externe (par exemple, contoso.com), puis créer des enregistrements DNS A (et AAAA si vous utilisez l’adressage IPv6) qui correspondent au pool de serveurs Skype entreprise utilisé pour le regroupement automatique. configurations.
     
-    Par exemple, si vous avez un utilisateur hébergé sur pool01.contoso.net, mais que vous vous connectez à Skype entreprise en tant que bob@contoso.com, vous pouvez créer une zone DNS interne appelée contoso.com, et à l’intérieur de celle-ci, vous devez créer un enregistrement DNS A (et le protocole AAAA si l’adresse IPv6 est utilisée). pool01.contoso.com.
+    Par exemple, si vous avez un utilisateur hébergé sur pool01.contoso.net, mais que vous vous connectez à Skype entreprise en tant que bob@contoso.com, créez une zone DNS interne appelée contoso.com, et à l’intérieur de celle-ci, vous devez créer un enregistrement DNS A (et le protocole AAAA si l’adressage IPv6 est utilisé) pour pool01.contoso.com.
     
 - **Repérage de la zone interne**
     
     Si la création d’une zone complète dans votre DNS interne n’est pas envisageable pour vous, vous pouvez créer des zones repère (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique, et renseigner ces zones à l’aide de dnscmd.exe. Dnscmd.exe est obligatoire car l’interface utilisateur DNS ne prendra pas en charge la création de zones repère.
     
-    Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de points de repère et des enregistrements A suivants dans votre DNS interne:
+    Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de points de repère et des enregistrements A suivants dans votre DNS interne :
     
   ```
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
@@ -223,7 +225,7 @@ Tous les enregistrements DNS dans ce tableau sont des exemples.
 
 L’équilibrage de charge DNS est généralement mis en œuvre au niveau de l’application. L’application (par exemple, un client exécutant Skype entreprise) essaie de se connecter à un serveur dans un pool en vous connectant à l’une des adresses IP renvoyées à partir de l’adresse DNS A et du nom de domaine complet du pool.
   
-Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool01.contoso.com, les éléments suivants se produisent:
+Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool01.contoso.com, les éléments suivants se produisent :
   
 - Clients exécutant la requête DNS de Skype entreprise pour pool01.contoso.com. La requête renvoie trois adresses IP et les met dans le cache comme suit (pas nécessairement dans cet ordre) :
     
@@ -244,7 +246,7 @@ Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool0
   
 Vous utilisez l’équilibrage de charge DNS pour :
   
-- Équilibrage de charge: SIP de serveur à serveur sur les serveurs de périphérie.
+- Équilibrage de charge : SIP de serveur à serveur sur les serveurs de périphérie.
     
 - équilibrer la charge des applications des services d’applications de communications unifiées (UCAS) telles que le Standard automatique de conférence, Response Group et le parcage d’appel ;
     

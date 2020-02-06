@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-description: 'Résumé: gestion du service de mobilité (MCX) et de l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
-ms.openlocfilehash: 5447eb0ac8ffe468fd52c7011824cc1f2f2f7b55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : gestion du service de mobilité (MCX) et de l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.'
+ms.openlocfilehash: 7c41e92b144e1bd4d198c5e9d9f90913ce41400e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279794"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817683"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Surveiller l’utilisation du service de mobilité et de UCWA dans Skype entreprise Server
  
-**Résumé:** Gestion du service de mobilité (MCX) et de l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.
+**Résumé :** Gestion du service de mobilité (MCX) et de l’API Web de communications unifiées (UCWA) dans Skype entreprise Server.
 
 > [!NOTE]
 > La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
@@ -36,7 +38,7 @@ Pour la plupart des déploiements, l’utilisation du processeur par l’API UCW
   
 Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez utiliser les compteurs de performances suivants pour aider à déterminer quand un serveur est surchargé de demandes :
   
-- **Ls: limitations sur le Web et Authentication\WEB: total des demandes de traitement**, qui indique le nombre de demandes Web en attente sur le serveur. Lorsque ce compteur atteint 10 000, les demandes ultérieures échouent avec le message d’erreur « 503 - Service indisponible ».
+- **Ls : limitations sur le Web et Authentication\WEB : total des demandes de traitement**, qui indique le nombre de demandes Web en attente sur le serveur. Lorsque ce compteur atteint 10 000, les demandes ultérieures échouent avec le message d’erreur « 503 - Service indisponible ».
     
 - **ASP.NET\Requests Queued** (doit toujours être égal à zéro).
     

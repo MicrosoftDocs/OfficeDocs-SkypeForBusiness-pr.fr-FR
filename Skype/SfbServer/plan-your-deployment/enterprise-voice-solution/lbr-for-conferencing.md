@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planification du routage basé sur l’emplacement pour les conférences dans Skype entreprise Server Voice, y compris les virements de consultation.
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276781"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802844"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Routage basé sur l’emplacement pour les conférences dans Skype entreprise Server
 
@@ -29,7 +31,7 @@ Le routage basé sur l’emplacement permet de limiter le routage des appels ent
 
 L’application de conférence de routage basée sur des emplacements fournit aux conférences Skype entreprise un mécanisme de prévention du contournement du numéro RTC. L’application surveille les conférences actives et applique les restrictions de routage basées sur les emplacements en fonction de l’emplacement des utilisateurs Skype entreprise participant.
 
-L’application de conférence de routage basée sur l’emplacement détermine si le routage selon l’emplacement doit être appliqué lors d’une réunion Skype entreprise si les critères suivants sont satisfaits:
+L’application de conférence de routage basée sur l’emplacement détermine si le routage selon l’emplacement doit être appliqué lors d’une réunion Skype entreprise si les critères suivants sont satisfaits :
 
 - L’organisateur de la réunion est activé pour le routage par emplacement. Les restrictions de routage basées sur les emplacements ne s’appliquent qu’aux conférences organisées par des utilisateurs qui sont configurés pour le routage selon l’emplacement.
 
@@ -37,7 +39,7 @@ L’application de conférence de routage basée sur l’emplacement détermine 
 
 - Le site réseau sur lequel la passerelle PSTN utilisée pour relier la conférence au réseau téléphonique commuté est localisée, de même que les sites réseau depuis lesquels les organisateurs et les participants se connectent.
 
-Le routage basé sur l’emplacement pour l’application de conférence empêche la participation d’utilisateurs Skype entreprise et de points de terminaison RTC de différents sites réseau à la même conférence. Si l’organisateur d’une réunion est activé pour le routage sur l’emplacement, l’application de conférence applique les restrictions suivantes:
+Le routage basé sur l’emplacement pour l’application de conférence empêche la participation d’utilisateurs Skype entreprise et de points de terminaison RTC de différents sites réseau à la même conférence. Si l’organisateur d’une réunion est activé pour le routage sur l’emplacement, l’application de conférence applique les restrictions suivantes :
 
 - Les points de terminaison qui peuvent participer à une réunion Skype entreprise dépendent des points de terminaison qui ont déjà participé à la Conférence, et cette restriction s’ajuste en tant que points de terminaison joints et de nouveaux points de terminaison rejoindre la Conférence. Si les organisateurs et les participants participent à une réunion Skype entreprise à partir du même site réseau, un point de terminaison PSTN, un autre participant du même site réseau, un autre participant d’un site réseau différent ou un participant d’un site réseau inconnu sont autorisés à participer.
 
@@ -56,7 +58,7 @@ Ces restrictions de routage basées sur l’emplacement des conférences sont r�
 |Utilisateurs du client VoIP Skype entreprise provenant de différents sites réseau  <br/> |Utilisateur de client VoIP Skype entreprise sur n’importe quel site réseau  <br/> Utilisateur du client VoIP Skype entreprise sur un site réseau inconnu  <br/> Utilisateur de client VoIP Skype entreprise fédéré  <br/> |Utilisateur rejoignant la conférence via un point de terminaison PSTN  <br/> |
 |Utilisateurs du client VoIP Skype entreprise à partir d’un site de réseau unique et utilisateurs qui se connectent à partir d’un point de terminaison RTC  <br/> |Utilisateur du client VoIP Skype entreprise du même site réseau  <br/> |Utilisateur du client VoIP Skype entreprise sur un site réseau différent  <br/> Utilisateur du client VoIP Skype entreprise sur un site réseau inconnu  <br/> Utilisateur de client VoIP Skype entreprise fédéré  <br/> |
 
-Vous trouverez ci-après des caractéristiques supplémentaires du routage selon l’emplacement de l’application de conférence:
+Vous trouverez ci-après des caractéristiques supplémentaires du routage selon l’emplacement de l’application de conférence :
 
 - Lorsque l’utilisateur ne peut pas participer à une conférence en fonction de ses restrictions de routage, l’appel de la Conférence est rejeté et le client Skype entreprise signale que l’appel n’a pas abouti ou a pris fin.
 
@@ -80,7 +82,7 @@ En plus d’appliquer le routage sur site aux réunions Skype entreprise, le rou
 
 ![Diagramme Routage géodépendant pour les conférences](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Lorsqu’un utilisateur a activé le routage de géolocalisation, le transfert d’appel d’un point de terminaison PSTN (comme illustré dans la figure ci-dessus) entraîne la création de deux appels actifs, un appel entre l’utilisateur RTC et l’utilisateur Skype entreprise A, et l’autre entre Skype pour Utilisateur professionnel A et utilisateur Skype entreprise B. le comportement suivant est appliqué par le routage par emplacement pour l’application de conférence:
+Lorsqu’un utilisateur a activé le routage de géolocalisation, le transfert d’appel d’un point de terminaison PSTN (comme illustré dans la figure ci-dessus) entraîne la création de deux appels actifs, un appel entre l’utilisateur RTC et l’utilisateur Skype entreprise A, et l’autre entre Skype pour Utilisateur professionnel A et utilisateur Skype entreprise B. le comportement suivant est appliqué par le routage par emplacement pour l’application de conférence :
 
 - Si le routage SIP Trunk est autorisé à rediriger l’appel RTC vers le site du réseau où se trouve l’utilisateur Skype entreprise B (c.-à-d. destination du transfert), le transfert d’appel sera autorisé. dans le cas contraire, le transfert d’appel consultatif sera bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée sur le même site réseau que le Trunk SIP qui achemine l’appel actif vers le point de terminaison RTC.
 
@@ -133,21 +135,21 @@ Le routage basé sur l’emplacement pour l’application de conférence repose 
 
 ## <a name="enabling-the-location-based-routing-for-conferencing"></a>Activation du routage par emplacement pour les conférences
 
-Par défaut, le routage sur la base de l’emplacement de l’application de conférence est désactivé. Avant d’activer cette application, vous devez déterminer la priorité adaptée à affecter à l’application. Pour déterminer cette priorité, exécutez l’applet de commande suivante dans Skype entreprise Server Management Shell:
+Par défaut, le routage sur la base de l’emplacement de l’application de conférence est désactivé. Avant d’activer cette application, vous devez déterminer la priorité adaptée à affecter à l’application. Pour déterminer cette priorité, exécutez l’applet de commande suivante dans Skype entreprise Server Management Shell :
 
-Get-CsServerApplication-Identity service: Registrar<Pool FQDN>: dans cette applet \<de demande\> , le nom de domaine complet (FQDN) du pool est le pool dans lequel l’application de routage basée sur l’emplacement pour la Conférence doit être activée.
+Get-CsServerApplication-Identity service : Registrar<Pool FQDN>: dans cette applet \<de demande\> , le nom de domaine complet (FQDN) du pool est le pool dans lequel l’application de routage basée sur l’emplacement pour la Conférence doit être activée.
 
-Cette applet de demande renvoie la liste des applications hébergées par Skype entreprise Server et la valeur de priorité de chacune d’elles. L’application de routage basée sur l’emplacement pour une application de conférence doit être affectée d’une valeur de priorité supérieure à l’application «UdcAgent» et plus petite que les applications «DefaultRouting», «ExumRouting» et «OutboundRouting». Nous vous recommandons d’affecter au routage de l’emplacement de l’application une valeur de priorité qui est un point supérieur à la valeur de priorité de l’application «UdcAgent».
+Cette applet de demande renvoie la liste des applications hébergées par Skype entreprise Server et la valeur de priorité de chacune d’elles. L’application de routage basée sur l’emplacement pour une application de conférence doit être affectée d’une valeur de priorité supérieure à l’application « UdcAgent » et plus petite que les applications « DefaultRouting », « ExumRouting » et « OutboundRouting ». Nous vous recommandons d’affecter au routage de l’emplacement de l’application une valeur de priorité qui est un point supérieur à la valeur de priorité de l’application « UdcAgent ».
 
-Par exemple, si l’application «UdcAgent» a une valeur de priorité de «2», l’application «DefaultRouting» a une valeur de priorité de «8», l’application «ExumRouting» a une valeur de priorité de «9» et l’application «OutboundRouting» a une valeur de priorité de «10», alors vous devez affecter au routage de l’emplacement de l’application une valeur de priorité de «3». En procédant de la sorte, vous devez placer la priorité des applications dans l’ordre suivant: autres applications (priorités: 0 à 1), "UdcAgent" (Priority: 2), application de conférence de routage basée sur l’emplacement (priorité: 3) DefaultRouting "(priorité: 9)," ExumRouting "(priorité: 10) et" OutboundRouting "(priorité: 11).
+Par exemple, si l’application « UdcAgent » a une valeur de priorité de « 2 », l’application « DefaultRouting » a une valeur de priorité de « 8 », l’application « ExumRouting » a une valeur de priorité de « 9 » et l’application « OutboundRouting » a une valeur de priorité de « 10 », alors vous devez affecter au routage de l’emplacement de l’application une valeur de priorité de « 3 ». En procédant de la sorte, vous devez placer la priorité des applications dans l’ordre suivant : autres applications (priorités : 0 à 1), "UdcAgent" (Priority : 2), application de conférence de routage basée sur l’emplacement (priorité : 3) DefaultRouting "(priorité : 9)," ExumRouting "(priorité : 10) et" OutboundRouting "(priorité : 11).
 
-Une fois que vous avez trouvé la valeur de priorité correcte pour l’application de routage basée sur l’emplacement de la Conférence, tapez l’applet de commande suivante pour chaque pool frontal ou serveur Standard Edition sur lequel les utilisateurs ont activé le routage de l’emplacement:
+Une fois que vous avez trouvé la valeur de priorité correcte pour l’application de routage basée sur l’emplacement de la Conférence, tapez l’applet de commande suivante pour chaque pool frontal ou serveur Standard Edition sur lequel les utilisateurs ont activé le routage de l’emplacement :
 
-New-CsServerApplication-Identity service: Registrar`<Pool FQDN`: _GT_/LBRouting- \<priority\> Application Priority $true-Critical $true-URL<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-Identity service : Bureau`<Pool FQDN` d’enregistrement :> \</Lbrouting-\> Priority application $true-$true-URL Critical.<http://www.microsoft.com/LCS/LBRouting> 
 
 Par exemple :
 
-New-CsServerApplication-Identity service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting 
+New-CsServerApplication-Identity service :Registrar :LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting 
 
 Après avoir utilisé cette applet de demande, redémarrez tous les serveurs frontaux dans le pool ou les serveurs Standard Edition dans lesquels l’application de routage basée sur l’emplacement de la Conférence est activée.
 

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidéo dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: ee342de919ffca8b62c60f8c7b724f3dc7be0205
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fb598feec3b4dca87086504c620109a99bce7d0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294529"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804144"
 ---
 # <a name="videostreamdetail-view"></a>Affichage VideoStreamDetail
  
@@ -56,7 +58,7 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 |ConnectivityIce  <br/> |tinyint  <br/> |Des informations sur le chemin multimédia, par exemple direct ou relayé. Pour plus d’informations, voir la [table MediaLine](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informations sur le processus de création d’une connexion interactive (ICE) décrite dans les indicateurs bits pour l’appelant. Pour plus d’informations, reportez-vous à la spécification relative au protocole serveur pour le contrôle qualité.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informations sur le processus de création d’une connexion interactive (ICE) décrite dans les indicateurs bits pour l’appelant. Pour plus d’informations, reportez-vous à la spécification relative au protocole serveur pour le contrôle qualité.  <br/> |
-|Transport  <br/> |int  <br/> |Le type de transport: 0 correspond au protocole UDP; 1 est le protocole TCP.  <br/> |
+|Transport  <br/> |int  <br/> |Le type de transport : 0 correspond au protocole UDP ; 1 est le protocole TCP.  <br/> |
 |CallerIPAddr  <br/> |var (50)  <br/> |Adresse IP de l’appelant. Il peut s’agir d’une adresse IPv4 ou IPv6.  <br/> |
 |CallerPort  <br/> |int  <br/> |Port utilisé par l’appelant.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indique si l’appelant se trouve au sein du réseau de l’organisation. 1 désigne l’appelant à l’intérieur du réseau d’entreprise, 0 indique que l’appelant se trouve hors du réseau.  <br/> |
@@ -79,10 +81,10 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 |CalleeRenderDev  <br/> |varchar (256)  <br/> |Nom de l’appareil de rendu de l’appelant.  <br/> |
 |CalleCaptureDevDriver  <br/> |varchar (256)  <br/> |Nom du pilote de l’appareil de capture du appelé.  <br/> |
 |CalleeRenderDevDriver  <br/> |varchar (256)  <br/> |Nom du pilote du périphérique de rendu de l’appelant.  <br/> |
-|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelant: 0 est filaire, 1 est un réseau sans fil.  <br/> |
+|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelant : 0 est filaire, 1 est un réseau sans fil.  <br/> |
 |CallerVPN  <br/> |bit  <br/> |Indique si l’appelant s’est connecté via un réseau privé virtuel. 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
 |CallerLinkSpeed  <br/> |décimale (18)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelant en bps.  <br/> |
-|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau du ou du destinataire: 0 est filaire, 1 est un téléphone sans fil.  <br/> |
+|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau du ou du destinataire : 0 est filaire, 1 est un téléphone sans fil.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indique si l’appelant est connecté via un réseau privé virtuel. 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
 |CalleeLinkSpeed  <br/> |décimale (18, 0)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelant (en BPS).  <br/> |
 |ConversationalMOS  <br/> |décimale (3, 2)  <br/> |La fonction de conversation à bande étroite des sessions audio (en fonction des deux flux audio).  <br/> |
@@ -91,21 +93,21 @@ Le mode VideoStreamDetail stocke les informations relatives à chaque flux vidé
 |JitterInterArrivalMax  <br/> |int  <br/> |Scintillement du réseau maximum lors de l’appel.  <br/> |
 |RoundTrip  <br/> |int  <br/> |Durée de l’aller-retour des statistiques RTCP.  <br/> |
 |RoundTripMax  <br/> |int  <br/> |Durée de l’aller-retour maximal pour le flux audio.  <br/> |
-|PacketLossRate  <br/> |décimale (5; 4)  <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
-|PacketLossRateMax  <br/> |décimale (5; 4)  <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
+|PacketLossRate  <br/> |décimale (5 ; 4)  <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
+|PacketLossRateMax  <br/> |décimale (5 ; 4)  <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |Nombre de paquets pour le flux vidéo (Real Time Transport Protocol, RTP).  <br/> |
 |Bande passante  <br/> |int  <br/> |Estimations de bande passante pour le flux audio.  <br/> |
 |PayloadDescription  <br/> |int  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la [table PayloadDescription](payloaddescription.md).  <br/> |
 |VideoResolution  <br/> |car (9)  <br/> |Résolution de la vidéo, en pixels, de largeur multipliée par la hauteur en pixels. Signalée en tant que chaîne.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |Vitesse de transmission moyenne du flux vidéo.  <br/> |
-|InboundVideoFrameRateAvg  <br/> |décimale (9; 4)  <br/> |Fréquence d’images de la vidéo reçue.  <br/> |
-|OutboundVideoFrameRateAvg  <br/> |décimale (9; 4)  <br/> |Fréquence d’images de la vidéo envoyée.  <br/> |
+|InboundVideoFrameRateAvg  <br/> |décimale (9 ; 4)  <br/> |Fréquence d’images de la vidéo reçue.  <br/> |
+|OutboundVideoFrameRateAvg  <br/> |décimale (9 ; 4)  <br/> |Fréquence d’images de la vidéo envoyée.  <br/> |
 |ViideoBitRateMax  <br/> |int  <br/> |Débit vidéo maximum lors de la session vidéo.  <br/> |
-|Cause du taux  <br/> |décimale (9; 4)  <br/> |Taux d’interruption des paquets vidéo.  <br/> |
+|Cause du taux  <br/> |décimale (9 ; 4)  <br/> |Taux d’interruption des paquets vidéo.  <br/> |
 |VideoFrameLossRate  <br/> |décimale (9.4)  <br/> |Pourcentage du nombre total de trames vidéo perdues.  <br/> |
 |VideoFEC  <br/> |bit  <br/> |Non utilisé.  <br/> |
 |VideoAllocateBWAvg  <br/> |int  <br/> |Quantité moyenne de bande passante allouée pour la vidéo.  <br/> |
 |VideoLocalFrameLossPercentageAvg  <br/> |décimale (9.4)  <br/> |Pourcentage du nombre total de trames vidéo perdues.  <br/> |
-|SenderIsCallerPAI  <br/> |bit  <br/> |Direction du flux pour les informations d’identité affirmées p. 1 signifie que le sens du flux provient de l’appelant vers l’appelant; 0: le sens du flux provient de l’appelant.  <br/> |
+|SenderIsCallerPAI  <br/> |bit  <br/> |Direction du flux pour les informations d’identité affirmées p. 1 signifie que le sens du flux provient de l’appelant vers l’appelant ; 0 : le sens du flux provient de l’appelant.  <br/> |
    
 

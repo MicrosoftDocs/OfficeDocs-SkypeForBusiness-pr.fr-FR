@@ -8,23 +8,25 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-description: 'Résumé: Examinez la configuration requise du support client Windows lors de la planification de Skype entreprise Server.'
-ms.openlocfilehash: bbcbf11da53b2895f04725fda57342c17989b7f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Examinez la configuration requise du support client Windows lors de la planification de Skype entreprise Server.'
+ms.openlocfilehash: a66887b616461a40c6326a66d982a8bfbe8e9605
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277271"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803484"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Configuration requise pour le client Windows et prise en charge logicielle
  
-**Résumé:** Passez en revue la configuration requise pour le client Windows lors de la planification de Skype entreprise Server.
+**Résumé :** Passez en revue la configuration requise pour le client Windows lors de la planification de Skype entreprise Server.
   
 Cette section résume les logiciels nécessaires à la prise en charge des clients Windows Skype entreprise.  Ces clients sont installés lors de l’installation d’Office 365 et sont également disponibles sur [le site Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
   
@@ -35,9 +37,9 @@ Cette section résume les logiciels nécessaires à la prise en charge des clien
 
 |**Composant système**|**Versions prises en charge**|
 |:-----|:-----|
-|Système d’exploitation Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Système d’exploitation Windows 7  <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque:** Skype entreprise et le complément réunion en ligne pour Skype entreprise ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
+|Système d’exploitation Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Système d’exploitation Windows 7  <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque :** Skype entreprise et le complément réunion en ligne pour Skype entreprise ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
 |Installation et mises à jour  <br/> |Droits et autorisations d’administrateur  <br/> |
-|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Navigateur Internet d’Internet Explorer 10 <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur Web Google Chrome  <br/>**Remarque:** Si vous utilisez Skype entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou version ultérieure est requis.           |
+|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Navigateur Internet d’Internet Explorer 10 <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur Web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou version ultérieure est requis.           |
 |Intégration à Microsoft Office  <br/> | Outlook 2010 ou version ultérieure |
 |Intégration à Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 ou version ultérieure  | 
    

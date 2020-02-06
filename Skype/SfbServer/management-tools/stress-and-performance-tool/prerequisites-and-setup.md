@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Configuration requise ou conditions préalables pour l'outil Stress and Performance de Skype Entreprise Server 2015. Comment installer ou configurer l'outil Stress and Performance.
-ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f52d92022e09314a8f9467cd939f67b2827cc153
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299729"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816173"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Conditions préalables et configuration pour l'outil Stress and Performance de Skype Entreprise
  
@@ -81,6 +83,6 @@ Pour que l'outil Stress and Performance fonctionne correctement, les configurati
 
 L'installation ne pourrait être plus facile. Exécutez le fichier d'installation Windows, **CapacityPlanningTool.msi**, sur tous les ordinateurs client qui seront utilisés pour simuler le trafic utilisateur et sur un serveur frontal de chaque pool où des utilisateurs et des contacts seront créés.
   
-Pour télécharger le fichier. msi, ainsi que les exemples de scripts mentionnés dans nos autres articles, accédez au lien du centre de téléchargement: [Skype entreprise Server 2015, stress et performance](https://www.microsoft.com/download/details.aspx?id=50367).
+Pour télécharger le fichier. msi, ainsi que les exemples de scripts mentionnés dans nos autres articles, accédez au lien du centre de téléchargement : [Skype entreprise Server 2015, stress et performance](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

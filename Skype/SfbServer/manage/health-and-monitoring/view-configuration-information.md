@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Résumé : Découvrez comment utiliser l’enregistrement des détails des appels (CDR) dans Skype entreprise Server.'
-ms.openlocfilehash: 976f61ac98cb02a0cd69750a581bfa5190156ff7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f4a216f1c2d8892370b80eef42c19cf07c133312
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991679"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817593"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de CDR dans Skype entreprise Server
  

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Chaque enregistrement de cette table contient les détails des appels sur une conférence.
-ms.openlocfilehash: 41a2a25e80b073b568152422defeee1ca3e2ac19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97d7fcb4dc2217b1b7c52c1aa3424f1cf9f57808
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296447"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815352"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tableau conférences dans Skype entreprise Server 2015
  
@@ -27,7 +29,7 @@ Chaque enregistrement de cette table contient les détails des appels sur une co
 |**SessionIdTime** <br/> |DateHeure  <br/> |Principal  <br/> |Temps d’acquisition de la demande de conférence par l’agent CDR. Utilisé uniquement comme clé primaire pour identifier de manière unique une instance de conférence.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Principal  <br/> |IDENTIFIant de la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une instance de conférence. * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Externes  <br/> |URI de conférence. Pour plus d’informations, reportez-vous [à la table ConferenceUris dans Skype entreprise Server 2015](conferenceuris.md) . <br/> |
-|**ConfInstance** <br/> |identificateur  <br/> | <br/> |Utile pour les conférences récurrentes; chaque instance d’une conférence périodique a le même **ConferenceUri**, mais aura un autre **ConfInstance**. <br/> |
+|**ConfInstance** <br/> |identificateur  <br/> | <br/> |Utile pour les conférences récurrentes ; chaque instance d’une conférence périodique a le même **ConferenceUri**, mais aura un autre **ConfInstance**. <br/> |
 |**ConferenceStartTime** <br/> |DateHeure  <br/> | <br/> |Heure de début de la Conférence.  <br/> |
 |**ConferenceEndTime** <br/> |DateHeure  <br/> | <br/> |Heure de début de la Conférence.  <br/> |
 |**PoolId** <br/> |int  <br/> |Externes  <br/> |Numéro d’identification identifiant le regroupement dans lequel la Conférence a été capturée. Pour plus d’informations, voir la [table pools](pools.md) . <br/> |

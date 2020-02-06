@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Apprenez à afficher l’état du service, à démarrer et arrêter des services, et à empêcher les sessions pour les services.
-ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991519"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817115"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gestion des services dans Skype entreprise Server
 

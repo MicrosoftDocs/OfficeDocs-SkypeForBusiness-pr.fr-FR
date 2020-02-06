@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
-description: 'Résumé: cette rubrique vous permet d’en savoir plus sur les fonctionnalités et capacités de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 9b46271e4381e2d2e11f00e3d936660626fbe5cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : cette rubrique vous permet d’en savoir plus sur les fonctionnalités et capacités de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: f91c815cf0b5d0b69ad5815157cba7a56bb28307
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816002"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planifier des conférences dans Skype entreprise Server
  
-**Résumé:** Consultez cette rubrique pour en savoir plus sur les fonctionnalités et capacités de conférence dans Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les fonctionnalités et capacités de conférence dans Skype entreprise Server.
   
 Les conférences dans Skype entreprise Server permettent aux utilisateurs de se réunir et de tenir des conférences en ligne à l’aide de leur client Skype entreprise au lieu de se réunir dans la même pièce. Les participants à la réunion peuvent se connecter à une réunion à l’aide de leur client Skype entreprise pour une utilisation complète de l’audio et de la vidéo, ou se connecter à une conférence à l’aide d’un téléphone. Les conférences prennent également en charge la messagerie instantanée, le partage du bureau et des applications, ainsi que les tableaux blancs interactifs.
   
@@ -37,7 +39,7 @@ Cette rubrique inclut les sections suivantes :
     
 ## <a name="conferencing-features-and-capabilities"></a>Fonctionnalités et fonctions de conférence
 
-Il existe quatre types de conférences disponibles dans Skype entreprise Server: les conférences Web, les conférences audio et vidéo (A/V), les conférences rendez-vous et les conférences de messagerie instantanée. 
+Il existe quatre types de conférences disponibles dans Skype entreprise Server : les conférences Web, les conférences audio et vidéo (A/V), les conférences rendez-vous et les conférences de messagerie instantanée. 
   
 Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, selon vos besoins. Par exemple, vous pouvez activer tous les types, y compris les conférences rendez-vous, pour permettre aux utilisateurs qui ne peuvent pas participer à une conférence avec un client Skype entreprise d’appeler le son de la réunion à partir d’un téléphone et de participer à celle-ci. Lorsque vous déployez Skype entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. vous pouvez spécifier si vous souhaitez déployer le Web, A/V et la Conférence rendez-vous à l’aide du générateur de topologie. Pour plus d’informations, reportez-vous à la rubrique [déploiement de conférences dans Skype entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
@@ -65,7 +67,7 @@ Les conférences Web permettent aux participants d’une réunion de collaborer 
 
 La conférence audio et vidéo permet d’utiliser du son et de la vidéo pendant la réunion. L’audio permet aux participants de communiquer entre eux comme s’ils se trouvaient dans la même pièce. La vidéo permet l’affichage vidéo dans le client Skype entreprise de tout participant ou présentateur qui participe à la réunion à l’aide d’une webcam ou d’un appareil de visioconférence prenant en charge la vidéo.
   
- Skype entreprise Server offre plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’utilisation de l’audioconférence pour l’utilisateur, notamment les suivantes:
+ Skype entreprise Server offre plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’utilisation de l’audioconférence pour l’utilisateur, notamment les suivantes :
   
 - **Désactiver le son pour les participants.** Le présentateur peut utiliser ce paramètre pour désactiver le micro de tous les participants audio de la conférence et placer la conférence dans un état dans lequel seuls les présentateurs peuvent réactiver le micro des participants.
     
@@ -73,7 +75,7 @@ La conférence audio et vidéo permet d’utiliser du son et de la vidéo pendan
     
 - **Ajouter un utilisateur en composant un numéro de téléphone.** Les présentateurs et les participants qui ont reçu une autorisation peuvent ajouter des numéros RTC aux conférences et être disposant d’une conférence rendez-vous pour ces numéros.
     
-  Skype entreprise Server offre plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’interface de visioconférence pour l’utilisateur, notamment les suivantes:
+  Skype entreprise Server offre plusieurs fonctionnalités que les utilisateurs peuvent utiliser pour configurer l’interface de visioconférence pour l’utilisateur, notamment les suivantes :
   
 - **Affichage Galerie.** Dans les visioconférences qui incluent plus de deux personnes, les utilisateurs voient automatiquement tous les participants à la conférence. Si la conférence rassemble plus de cinq participants, la vidéo des participants les plus actifs s’affiche sur la ligne supérieure et seule la photo s’affiche pour les autres participants. La vidéo à plusieurs est activée par défaut.
     
@@ -103,7 +105,7 @@ Les composants prenant en charge les fonctionnalités de conférence sont les su
     
 - **Page Paramètres de conférence rendez-vous.**  La page Paramètres de conférence rendez-vous indique les numéros d’accès aux conférences et les langues dans lesquelles ils sont disponibles. Elle présente également les informations relatives aux conférences affectées aux utilisateurs (c’est-à-dire pour les réunions qui ne doivent pas être planifiées) et comporte des contrôles DTMF à utiliser en cours de conférence. Enfin, elle permet aux utilisateurs de gérer leur code confidentiel et les informations relatives aux conférences qui leur ont été affectées. La page Paramètres de conférence rendez-vous est installée automatiquement dans le cadre des services web.
     
-- **Serveur de médiation et passerelle RTC.** La Conférence rendez-vous nécessite un serveur de médiation pour traduire la signalisation (et les éléments multimédias dans certaines configurations) entre Skype entreprise Server et la passerelle RTC et une passerelle PSTN pour traduire les signaux et les médias entre le serveur de médiation et la passerelle PSTN. . Pour les conférences rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants:
+- **Serveur de médiation et passerelle RTC.** La Conférence rendez-vous nécessite un serveur de médiation pour traduire la signalisation (et les éléments multimédias dans certaines configurations) entre Skype entreprise Server et la passerelle RTC et une passerelle PSTN pour traduire les signaux et les médias entre le serveur de médiation et la passerelle PSTN. . Pour les conférences rendez-vous, vous devez déployer au moins un serveur de médiation et au moins l’un des éléments suivants :
     
   - Passerelle RTC
     
@@ -126,7 +128,7 @@ Pour appliquer les stratégies de votre organisation et contrôler l’utilisati
   
 ## <a name="support-for-large-meetings"></a>Prise en charge de grandes réunions
 
-La taille des réunions prises en charge par Skype entreprise Server varie selon que les conférences sont hébergées sur un pool partagé ou dédié:
+La taille des réunions prises en charge par Skype entreprise Server varie selon que les conférences sont hébergées sur un pool partagé ou dédié :
   
 - Sur une réserve partagée, Skype entreprise Server peut héberger des réunions avec des utilisateurs de 250 maximum. Un pool partagé est un pool qui héberge toutes les charges de travail du serveur Skype entreprise, notamment la messagerie instantanée (mi) et la présence, les conférences et l’entreprise voix. 
     
@@ -164,7 +166,7 @@ Lorsque vous déterminez les fonctions de conférence à déployer, vous devez t
     > [!NOTE]
     > Vous n’êtes pas obligé d’utiliser Voix Entreprise pour utiliser la conférence A/V. Si vous activez la conférence A/V, vos utilisateurs peuvent ajouter de l’audio à leurs conférences sous réserve qu’ils disposent de périphériques audio, et ce, même si vous utilisez un autocommutateur privé (PBX) pour votre solution téléphonique. 
   
-- **Souhaitez-vous permettre aux utilisateurs d’accéder à la partie audio des conférences lors de l’utilisation d’un téléphone RTC?**
+- **Souhaitez-vous permettre aux utilisateurs d’accéder à la partie audio des conférences lors de l’utilisation d’un téléphone RTC ?**
     
     Si c’est le cas, déployez et activez la conférence rendez-vous. Les utilisateurs invités, à l’intérieur et à l’extérieur de votre organisation, peuvent alors participer à la partie audio des conférences par l’intermédiaire d’un téléphone RTC.
     
@@ -184,7 +186,7 @@ Lorsque vous déterminez les fonctions de conférence à déployer, vous devez t
     
     Pour plus d’informations sur le déploiement de serveurs Edge, reportez-vous aux rubriques Planification des serveurs Edge et Déploiement des serveurs Edge. Pour plus d’informations sur l’activation de l’accès externe pour Office Web Apps Server, voir [configurer l’intégration avec Office Web Apps Server dans Skype entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
-- **Souhaitez-vous contrôler les clients qui peuvent rejoindre des réunions Skype entreprise Server?**
+- **Souhaitez-vous contrôler les clients qui peuvent rejoindre des réunions Skype entreprise Server ?**
     
     Si c’est le cas, vous devez configurer la page de participation aux réunions de sorte que seules les options du client à prendre en charge soient disponibles. Chaque fois qu’un utilisateur clique sur un lien pour rejoindre une réunion planifiée, Skype entreprise Server détecte si un client est déjà installé sur l’ordinateur. Il lance alors le client par défaut et ouvre la page de participation à la réunion qui contient des liens vers d’autres clients. La page de participation à une réunion contient toujours l’option d’utilisation de Skype entreprise Web App. Outre cette option, vous pouvez décider d’inclure ou non des liens vers Participant et les versions précédentes de Communicator. 
     

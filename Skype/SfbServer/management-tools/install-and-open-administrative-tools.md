@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration dont vous avez besoin pour déployer et gérer Skype entreprise.
-ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c720aba3998df8742406f4c9954f523b20e9af5f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274400"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816553"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
@@ -64,7 +66,7 @@ Utilisez la procédure suivante pour ouvrir le générateur de topologie et déf
     > [!NOTE]
     > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour lire, publier ou activer une topologie, qui est requise pour l’installation de Skype entreprise Server sur un serveur, vous devez utiliser un compte membre du groupe administrateurs de domaine et Th le groupe e RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous allez utiliser pour le stockage des fichiers d’archivage, afin que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire requise ( DACL) ou un compte disposant de droits d’utilisateur équivalents.
  
-2. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
+2. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
 
 ## <a name="skype-for-business-server-control-panel"></a>Panneau de configuration Skype entreprise Server 
 
@@ -85,7 +87,7 @@ Utilisez l’une des procédures suivantes pour ouvrir le panneau de configurati
 **Pour ouvrir le panneau de configuration Skype entreprise Server sur un ordinateur exécutant Skype entreprise Server**
 
 1. À partir d’un compte d’utilisateur membre du rôle CsAdministrator ou d’un autre rôle disposant de droits d’utilisateur et d’autorisations appropriés pour la tâche à exécuter, connectez-vous à un ordinateur sur lequel vous avez installé Skype entreprise Server ou, au minimum , les outils d’administration de Skype entreprise Server. Pour configurer les paramètres, l’ordinateur doit avoir une résolution d’écran d’au moins 1024 x 768.
-2. Démarrer le panneau de configuration Skype entreprise Server: cliquez sur **Démarrer**, **tous les programmes**, pointez sur **Outils d’administration**, pointez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Control Panel**.
+2. Démarrer le panneau de configuration Skype entreprise Server : cliquez sur **Démarrer**, **tous les programmes**, pointez sur **Outils d’administration**, pointez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Control Panel**.
 
 ## <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell 
 
@@ -96,8 +98,8 @@ Utilisez la procédure suivante pour ouvrir Skype entreprise Server Management S
 
 **Pour ouvrir Skype entreprise Server Management Shell**
 
-Par défaut, si vous ouvrez une fenêtre Windows PowerShell plutôt que Skype entreprise Server Management Shell, vous ne pouvez pas exécuter les applets de cmdlet Skype entreprise Server. Pour exécuter les applets de commande Skype entreprise Server à partir de Windows PowerShell, tapez les informations suivantes à l’invite de commandes Windows PowerShell:
+Par défaut, si vous ouvrez une fenêtre Windows PowerShell plutôt que Skype entreprise Server Management Shell, vous ne pouvez pas exécuter les applets de cmdlet Skype entreprise Server. Pour exécuter les applets de commande Skype entreprise Server à partir de Windows PowerShell, tapez les informations suivantes à l’invite de commandes Windows PowerShell :
 
 `Import-Module Lync`
 
-Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.

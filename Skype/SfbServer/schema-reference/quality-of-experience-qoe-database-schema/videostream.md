@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
-ms.openlocfilehash: 678f8b14fb3746ddd50a83ebd68c3878237908e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7eca8335ccf6905d3f80dd6ad8a5ccf00b749b39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294522"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804234"
 ---
 # <a name="videostream-table"></a>Table VideoStream
  
@@ -33,18 +35,18 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Scintillement du réseau maximum lors de la session vidéo.  <br/> |
 |**RoundTrip** <br/> |int  <br/> | <br/> |Durée de l’aller-retour des statistiques RTCP.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Durée de l’aller-retour maximal pour le flux vidéo.  <br/> |
-|**PacketLossRate** <br/> |décimale (5; 4)  <br/> | <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
-|**PacketLossRateMax** <br/> |décimale (5; 4)  <br/> | <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
+|**PacketLossRate** <br/> |décimale (5 ; 4)  <br/> | <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
+|**PacketLossRateMax** <br/> |décimale (5 ; 4)  <br/> | <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
 |**PacketUtilization** <br/> |int  <br/> | <br/> |Nombre de paquets pour le flux vidéo (Real Time Transport Protocol, RTP).  <br/> |
 |**Bande passante** <br/> |int  <br/> | <br/> |Estimations de bande passante pour le flux vidéo.  <br/> |
 |**VideoResolution** <br/> |car (9)  <br/> | <br/> |Résolution de la vidéo, en pixels, de largeur multipliée par la hauteur en pixels. Signalée en tant que chaîne.  <br/> |
 |**VideoBitRateAvg** <br/> |int  <br/> | <br/> |Vitesse de transmission moyenne du flux vidéo.  <br/> |
-|**InboundVideoFrameRateAvg** <br/> |décimale (9; 4)  <br/> | <br/> |Fréquence d’images vidéo reçues.  <br/> |
-|**OutboundVideoFrameRateAvg** <br/> |décimale (9; 4)  <br/> | <br/> |Fréquence d’images vidéo envoyées.  <br/> |
+|**InboundVideoFrameRateAvg** <br/> |décimale (9 ; 4)  <br/> | <br/> |Fréquence d’images vidéo reçues.  <br/> |
+|**OutboundVideoFrameRateAvg** <br/> |décimale (9 ; 4)  <br/> | <br/> |Fréquence d’images vidéo envoyées.  <br/> |
 |**VideoBitRateMax** <br/> |int  <br/> | <br/> |Débit vidéo maximum lors de la session vidéo.  <br/> |
-|**VideoFrameLossRate** <br/> |décimale (9; 4)  <br/> | <br/> |Pourcentage du nombre total de trames vidéo perdues.  <br/> |
+|**VideoFrameLossRate** <br/> |décimale (9 ; 4)  <br/> | <br/> |Pourcentage du nombre total de trames vidéo perdues.  <br/> |
 |**VideoFEC** <br/> |bit  <br/> | <br/> |Non disponible.  <br/> |
-|**VideoLocalFrameLossPercentageAvg** <br/> |décimale (9; 4)  <br/> ||Pourcentage du nombre total de trames vidéo perdues.  <br/> |
+|**VideoLocalFrameLossPercentageAvg** <br/> |décimale (9 ; 4)  <br/> ||Pourcentage du nombre total de trames vidéo perdues.  <br/> |
 |**CIFQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à la résolution CAF (Common Interchange Format).  <br/> |
 |**VGAQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à la résolution VGA.  <br/> |
 |**HD720QualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel passé à la résolution HD720.  <br/> |
@@ -55,7 +57,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**BPSPIDropRatio** <br/> |tinyint  <br/> ||Pourcentage de la durée de l’appel avec BPSPI Frame.  <br/> |
 |**Entrant** <br/> |bit  <br/> | <br/> |Des données de flux sur le côté du destinataire sont reçues.  <br/> |
 |**Sortant** <br/> |bit  <br/> | <br/> |Les données du flux du côté de l’expéditeur sont reçues.  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que le sens du flux provient de l’appelant vers l’appel.  <br/> 0: le sens du flux provient de l’appelant.  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que le sens du flux provient de l’appelant vers l’appel.  <br/> 0 : le sens du flux provient de l’appelant.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage du temps pendant lequel l’appel a été dans un état de congestion de perte.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel au cours duquel une congestion est causée par le retard de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage de temps pendant lequel l’appel a été compétitif pour les ressources réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
@@ -67,13 +69,13 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**Moyenne unidirectionnelle relative** <br/> |float  <br/> ||Quantité moyenne de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**Cause du taux** <br/> |décimale (9; 4)  <br/> ||Taux d’interruption des paquets vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |int  <br/> ||Densité du Burst total unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale du Burst. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité de l’intervalle total à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale de l’intervalle. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**Cause du taux** <br/> |décimale (9 ; 4)  <br/> ||Taux d’interruption des paquets vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||Quantité moyenne de bande passante allouée pour la vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendCodecTypes** <br/> |type  <br/> |Externes  <br/> |Type de codecs vidéo utilisés par l’expéditeur. Pour plus d’informations, voir la [table CodecDescription](codecdescription.md) . <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

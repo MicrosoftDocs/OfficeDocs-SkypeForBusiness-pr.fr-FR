@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Des topologies de référence pour Skype entreprise Server, y compris des diagrammes et des décisions à prendre pour les grandes, moyennes et petites organisations.
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028280"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801704"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologies de référence pour Skype entreprise Server
 
@@ -134,7 +136,7 @@ Cette topologie est présentée dans de nombreux diagrammes, avec tout d’abord
     > [!NOTE]
     > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
 
-- **Équilibrage de la charge DNS.** Le pool frontal et le pool de serveur Edge ont un équilibrage de la charge DNS. Cela vous évite de devoir recourir à des programmes d’équilibrage de la charge matérielle pour l’interface interne des serveurs Edge et cela réduit significativement le temps consacré à leur configuration et maintenance pour les autres pools, étant donné que ces programmes sont requis uniquement pour le trafic HTTP. Pour plus d’informations, voir (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Équilibrage de la charge DNS.** Le pool frontal et le pool de serveur Edge ont un équilibrage de la charge DNS. Cela vous évite de devoir recourir à des programmes d’équilibrage de la charge matérielle pour l’interface interne des serveurs Edge et cela réduit significativement le temps consacré à leur configuration et maintenance pour les autres pools, étant donné que ces programmes sont requis uniquement pour le trafic HTTP. Pour plus d’informations, voir (.. /.. /plan-Your-Deployment/Network-Requirements/Load-Balancing.MD # BKMK_DNSLoadBalancing).
 
 - **Déploiement de la messagerie unifiée Exchange.** Skype entreprise Server fonctionne avec les déploiements locaux d’Exchange Unified Messaging (UM) et de messagerie unifiée Exchange hébergée. Le site central A inclut un serveur Exchange Unified Messaging (UM) qui exécute Microsoft Exchange Server et non Skype entreprise Server. La fonctionnalité de messagerie unifiée Exchange pour Skype entreprise Server s’exécute sur le pool frontal.
 

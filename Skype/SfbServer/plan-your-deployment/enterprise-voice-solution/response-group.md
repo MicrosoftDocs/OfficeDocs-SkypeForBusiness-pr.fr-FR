@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planification de Response groups dans Skype entreprise Server Voice, qui vous permet de configurer le routage des appels vers des groupes d’utilisateurs. Cela inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276467"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802484"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planifier l’application Response Group dans Skype entreprise Server
 
@@ -46,7 +48,7 @@ Un flux de travail définit le comportement d’un appel, du déclenchement de l
 
 ## <a name="management-of-response-groups"></a>Gestion des groupes Response Group
 
-Dans Skype entreprise Server, deux rôles de gestion sont disponibles pour gérer les groupes de réponse: responsable du groupe de réponse et administrateur du groupe de réponse. Les administrateurs de groupe de réponse peuvent gérer tout aspect de n’importe quel Response Group. Les responsables de groupe de réponse peuvent uniquement gérer certains aspects, et uniquement pour les groupes de réponse qu’ils possèdent. Le rôle responsable peut vous aider à réduire les coûts de votre administration, car vous pouvez déléguer des responsabilités limitées pour des groupes de réponse spécifiques à n’importe quel utilisateur qui est activé pour voix entreprise. Notez qu’un utilisateur peut être à la fois responsable du groupe de réponse et administrateur du groupe de réponse.
+Dans Skype entreprise Server, deux rôles de gestion sont disponibles pour gérer les groupes de réponse : responsable du groupe de réponse et administrateur du groupe de réponse. Les administrateurs de groupe de réponse peuvent gérer tout aspect de n’importe quel Response Group. Les responsables de groupe de réponse peuvent uniquement gérer certains aspects, et uniquement pour les groupes de réponse qu’ils possèdent. Le rôle responsable peut vous aider à réduire les coûts de votre administration, car vous pouvez déléguer des responsabilités limitées pour des groupes de réponse spécifiques à n’importe quel utilisateur qui est activé pour voix entreprise. Notez qu’un utilisateur peut être à la fois responsable du groupe de réponse et administrateur du groupe de réponse.
 
 Pour prendre en charge le rôle de responsable, l’application Response Group utilise un **type de flux de travail** géré ou non géré. Le tableau ci-dessous décrit les groupes Response Group gérés et non gérés.
 
@@ -92,7 +94,7 @@ Response Group utilise des **modules linguistiques** pour la prise en charge de 
 
 ### <a name="port-requirements"></a>Configuration requise pour les ports
 
-L’application Response Group utilise les ports suivants:
+L’application Response Group utilise les ports suivants :
 
 - **Port 5071** pour les demandes d’écoute SIP
 
@@ -168,7 +170,7 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 
 ## <a name="client-support"></a>Prise en charge des clients
 
-L’application Response Group prend en charge les clients suivants:
+L’application Response Group prend en charge les clients suivants :
 
 - Client de bureau Skype entreprise
 
@@ -185,13 +187,13 @@ L’application Response Group prend en charge les clients suivants:
 > [!NOTE]
 > L’application Response Group n’est pas prise en charge sur les clients mobiles Lync.
 
-Le client spécifique que vous pouvez utiliser dépend du type d’utilisateur de groupe de réponse que vous utilisez:
+Le client spécifique que vous pouvez utiliser dépend du type d’utilisateur de groupe de réponse que vous utilisez :
 
 - Les **appelants** peuvent appeler un groupe de réponse à l’aide de l’un des clients répertoriés précédemment, et en utilisant un téléphone standard sur le réseau téléphonique commuté (RTC).
 
-- **Agents** informels (les agents qui ne se connectent pas à leurs groupes pour accepter les appels) peuvent accepter des appels à l’aide de l’assistance standard, de Lync ou de Lync Phone Edition. Les agents informels sont automatiquement connectés à leur groupe lorsque les utilisateurs se connectent à Skype entreprise Server en utilisant l’un de ces clients.
+- Les **agents informels** (les agents qui ne se connectent pas à leurs groupes pour accepter les appels) peuvent accepter les appels à l’aide de la fonction standard, de Lync ou de Lync Phone Edition. Les agents informels sont automatiquement connectés à leur groupe lorsque les utilisateurs se connectent à Skype entreprise Server en utilisant l’un de ces clients.
 
-- **Agents officiels** (les agents qui doivent se connecter et se déconnecter de leurs groupes pour accepter les appels) peuvent accepter les appels en utilisant Skype entreprise et en accédant à la console de l’agent à partir de l’élément de menu, ou en utilisant le standard et en accédant à la console de l’agent directement à partir d’Internet Explorer.
+- Les **agents officiels** (agents qui doivent se connecter à leurs groupes pour accepter des appels) peuvent accepter les appels en utilisant Skype entreprise et en accédant à la console de l’agent à partir de l’élément de menu, ou en utilisant le standard et en accédant à la console de l’agent directement à partir d’Internet Explorer.
 
 ## <a name="capacity-planning"></a>Planification de capacité
 
@@ -207,7 +209,7 @@ Le tableau suivant décrit le modèle utilisateur de Response Group que vous pou
 
 |**Mesure**|**Par pool <br/> d’éditions d’entreprise (avec 8 serveurs frontaux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
-|Appels entrants par seconde  <br/> |Seiz  <br/> |2  <br/> |
+|Appels entrants par seconde  <br/> |Seiz  <br/> |deuxième  <br/> |
 |Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale  <br/> |480  <br/> |60  <br/> |
 |Sessions anonymes simultanées (sans messagerie instantanée)  <br/> |224  <br/> |12,70  <br/> |
 |Sessions anonymes simultanées (avec messagerie instantanée)  <br/> |64  <br/> |version8  <br/> |

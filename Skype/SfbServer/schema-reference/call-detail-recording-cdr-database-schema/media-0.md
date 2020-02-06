@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: Le mode multimédia stocke les informations relatives à un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés. Cet affichage a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 044a31381d4e1e48c465f7ee6de89acab10ab54e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26ef344b5fade02168fb8737fe00049e44e24892
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295999"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815052"
 ---
 # <a name="media-view"></a>Vue multimédia
  
@@ -29,7 +31,7 @@ La vue multimédia contient toutes les colonnes de la [vue SessionDetails](sessi
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Pour plus d’informations, reportez-vous à la [table](medialist.md) de médiane. <br/> |
+|**Media** <br/> |nvarchar(256)  <br/> |Type de média. Pour plus d’informations, reportez-vous à la [table de médiane](medialist.md) . <br/> |
 |**MediaStartTime** <br/> |DateHeure  <br/> |Temps d’envoi d’une demande de média.  <br/> |
 |**MediaEndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
    

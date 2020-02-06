@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 1775fc4f02b7efa9ec26b962154f0aa90b59b296
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c295ed1233cb8a0900828cb1d1c074de1d0f16f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279206"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817270"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Déléguer le contrôle administratif de Skype entreprise Server 
 
@@ -22,19 +24,19 @@ Dans Skype entreprise Server, les tâches d’administration sont déléguées a
 
 ## <a name="viewing-information-about-rbac-roles"></a>Affichage d’informations sur les rôles RBAC
 
-Vous pouvez récupérer des informations de base sur vos rôles RBAC en exécutant la commande suivante à partir de Skype entreprise Server Management Shell:
+Vous pouvez récupérer des informations de base sur vos rôles RBAC en exécutant la commande suivante à partir de Skype entreprise Server Management Shell :
 
 `Get-CsAdminRole`
 
 Gardez à l’esprit que l’identité du rôle RBAC (par exemple, CsVoiceAdministrator) est associée à un groupe de sécurité figurant dans le conteneur utilisateurs dans les services de domaine Active Directory (AD DS).
 
-Pour afficher une liste des applets de commande attribuées à un rôle, utilisez une commande semblable à celle-ci:
+Pour afficher une liste des applets de commande attribuées à un rôle, utilisez une commande semblable à celle-ci :
 
 `Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets`
 
 ## <a name="assigning-an-rbac-role-to-a-user"></a>Attribution d’un rôle RBAC à un utilisateur
 
-Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe de sécurité Active Directory approprié. Par exemple, pour affecter le rôle CsLocationAdministrator à un utilisateur, vous devez ajouter cet utilisateur au groupe CsLocationAdministrator. Pour cela, procédez comme suit:
+Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe de sécurité Active Directory approprié. Par exemple, pour affecter le rôle CsLocationAdministrator à un utilisateur, vous devez ajouter cet utilisateur au groupe CsLocationAdministrator. Pour cela, procédez comme suit :
 
 1. À l’aide d’un compte qui dispose des autorisations nécessaires pour modifier l’appartenance à un groupe Active Directory, connectez-vous à un ordinateur sur lequel sont installés les utilisateurs et ordinateurs Active Directory.
 2. Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Outils d’administration**, puis sur **utilisateurs et ordinateurs Active Directory**.
@@ -44,6 +46,6 @@ Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe
 6. Dans la boîte de dialogue **Sélectionner des utilisateurs, des ordinateurs, des contacts ou des groupes** , entrez le nom d’utilisateur ou le nom d’affichage de l’utilisateur à ajouter au groupe (par exemple, Ken Myer) dans la zone **Entrez les noms des objets à sélectionner** , puis cliquez sur **OK**.
 7. Dans la boîte de dialogue **Propriétés** , cliquez sur **OK**.
 
-Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de contrôle Get-CsAdminRoleAssignment, en transmettant l’applet de contrôle SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez la commande suivante à partir de Skype entreprise Server Management Shell:
+Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de contrôle Get-CsAdminRoleAssignment, en transmettant l’applet de contrôle SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez la commande suivante à partir de Skype entreprise Server Management Shell :
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

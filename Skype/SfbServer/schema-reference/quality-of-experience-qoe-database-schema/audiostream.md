@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un flux audio. Une ligne de médias audio contient généralement deux flux audio.
-ms.openlocfilehash: eae96b08f3a365288f48b7a68c75d3fd9114107d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 265125202de25da4c6e653ecd53bd465f9a5472b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295047"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810432"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -30,11 +32,11 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 |**StreamID** <br/> |int  <br/> |Principal  <br/> |IDENTIFIant unique dans une ligne de médias.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Gigue réseau moyenne des statistiques de protocole RTCP (Real Time Control Protocol).  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Scintillement du réseau maximum lors de l’appel.  <br/> |
-|**PacketLossRate** <br/> |décimale (5; 4)  <br/> | <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
-|**PacketLossRateMax** <br/> |décimale (5; 4)  <br/> | <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
-|**BurstDensity** <br/> |décimale (9; 4)  <br/> | <br/> |Densité moyenne de perte de paquets en rafales de pertes pendant l’appel.  <br/> |
+|**PacketLossRate** <br/> |décimale (5 ; 4)  <br/> | <br/> |Taux moyen de perte de paquets lors de l’appel.  <br/> |
+|**PacketLossRateMax** <br/> |décimale (5 ; 4)  <br/> | <br/> |Perte de paquets maximum observée pendant l’appel.  <br/> |
+|**BurstDensity** <br/> |décimale (9 ; 4)  <br/> | <br/> |Densité moyenne de perte de paquets en rafales de pertes pendant l’appel.  <br/> |
 |**BurstDuration** <br/> |int  <br/> | <br/> |Durée moyenne de perte de paquets en rafales de pertes pendant l’appel.  <br/> |
-|**BurstGapDensity** <br/> |décimale (9; 4)  <br/> | <br/> |Densité moyenne de perte de paquets lors de l’intervalle entre les pics de perte de paquets.  <br/> |
+|**BurstGapDensity** <br/> |décimale (9 ; 4)  <br/> | <br/> |Densité moyenne de perte de paquets lors de l’intervalle entre les pics de perte de paquets.  <br/> |
 |**BurstGapDuration** <br/> |int  <br/> | <br/> |Durée moyenne des espaces entre les pics de perte de paquets.  <br/> |
 |**PacketUtilization** <br/> |Ent  <br/> | <br/> |Nombre de paquets pour le flux audio.  <br/> |
 |**Bande passante** <br/> |Ent  <br/> | <br/> |Estimations de bande passante pour le flux audio.  <br/> |
@@ -53,12 +55,12 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 |**RecvListenMOS** <br/> |décimale (3, 2)  <br/> | <br/> |Le score d’écoute de la bande moyenne prédite pour le son reçu du réseau, notamment le niveau de voix, le niveau sonore, le codec, les conditions du réseau et les caractéristiques de l’appareil de capture.  <br/> |
 |**RecvListenMOSMin** <br/> |décimale (3, 2)  <br/> | <br/> |Le minimum RecvListenMOS pour l’appel.  <br/> |
 |**AudioFECUsed** <br/> |bit  <br/> ||Indicateur indiquant si l’audio FEC a été utilisé pour l’appel.  <br/> |
-|**RatioConcealedSamplesAvg** <br/> |décimale (5; 2)  <br/> ||Taux moyen d’échantillons masqués générés par la correction audio sur des exemples classiques.  <br/> |
-|**RatioStretchedSamplesAvg** <br/> |décimale (5; 2)  <br/> ||Taux moyen d’échantillons étirés générés par la correction audio sur des exemples classiques.  <br/> |
-|**RatioCompressedSamplesAvg** <br/> |décimale (5; 2)  <br/> ||Taux moyen d’échantillons compressés générés par la correction audio sur des exemples classiques.  <br/> |
+|**RatioConcealedSamplesAvg** <br/> |décimale (5 ; 2)  <br/> ||Taux moyen d’échantillons masqués générés par la correction audio sur des exemples classiques.  <br/> |
+|**RatioStretchedSamplesAvg** <br/> |décimale (5 ; 2)  <br/> ||Taux moyen d’échantillons étirés générés par la correction audio sur des exemples classiques.  <br/> |
+|**RatioCompressedSamplesAvg** <br/> |décimale (5 ; 2)  <br/> ||Taux moyen d’échantillons compressés générés par la correction audio sur des exemples classiques.  <br/> |
 |**Entrant** <br/> |bit  <br/> | <br/> |Des données de flux sur le côté du destinataire sont reçues.  <br/> |
 |**Sortant** <br/> |bit  <br/> | <br/> |Les données du flux du côté de l’expéditeur sont reçues.  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que le sens du flux provient de l’appelant vers l’appelant.  <br/> 0: le sens du flux provient de l’appelant.  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 signifie que le sens du flux provient de l’appelant vers l’appelant.  <br/> 0 : le sens du flux provient de l’appelant.  <br/> |
 |**JitterInterArrivalSD** <br/> |float  <br/> ||Écart type pour les heures d’arrivée de gigue.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ConcealRatioMax** <br/> |float  <br/> ||Taux maximal de paquets masqués par la correction.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ConcealRatioSD** <br/> |float  <br/> ||Écart type pour le rapport de paquets masqués par la correction.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
@@ -75,12 +77,12 @@ Chaque enregistrement représente un flux audio. Une ligne de médias audio cont
 |**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**Moyenne unidirectionnelle relative** <br/> |float  <br/> ||Quantité moyenne de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence à sens unique. Latence relative à sens unique, mesure du délai entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité du Burst total unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale du Burst. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité de l’intervalle total à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale de l’intervalle. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**DecodeStereoPercent** <br/> |float  <br/> ||Pourcentage de l’appel décodé en stéréo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**AecRenderStereoPercent** <br/> |float  <br/> ||Pourcentage de l’appel rendu en stéréo par l’suppresseur d’écho acoustique.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**AudioPostFECPLR** <br/> |float  <br/> ||Taux de perte de paquets après application de la correction d’erreur de transfert.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

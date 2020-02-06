@@ -7,29 +7,31 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Résumé: mettez en œuvre le protocole IPv6 avant d’installer Skype entreprise Server.'
-ms.openlocfilehash: e4af5403ce416332ec7c75ca26522038fd9c42df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : mettez en œuvre le protocole IPv6 avant d’installer Skype entreprise Server.'
+ms.openlocfilehash: 5fe8cd186d152d368ac89c1d6bc9c07cebb7bfe7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802074"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
-**Résumé:** Mettre en œuvre le protocole IPv6 avant d’installer Skype entreprise Server.
+**Résumé :** Mettre en œuvre le protocole IPv6 avant d’installer Skype entreprise Server.
   
 Skype entreprise Server prend en charge les adresses IP version 6 (IPv6), ainsi que la prise en charge des adresses IP version 4 (IPv4). 
 
 Les adresses IPv4 sont des adresses 32 bits qui permettent aux ordinateurs de communiquer sur Internet. En raison de l’augmentation du nombre d’appareils dans le monde entier, les adresses IPv4 disponibles sont épuisées. C’est la raison pour laquelle de nombreux nouveaux appareils sont déplacés vers l’adresse IPv6. Les adresses IPv6 ont le même rôle que les adresses IPv4 (avec des fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement 32 bits, les adresses IPv6 utilisent 128 bits. Cela permet de nouvelles adresses, mais également un plus grand nombre d’adresses. 
 
-Une adresse IPv4 classique ressemble à ceci: 192.0.2.235, alors qu’une adresse IPv6 ressemble à ceci: 2001:0DB8:85a3:0000:0000:8a2e: 0370:7334. La modification de la mise en forme et des fonctionnalités pour les appareils qui utilisent des adresses IPv6 nécessite plusieurs considérations de déploiement et de configuration dans votre installation de Skype entreprise Server. 
+Une adresse IPv4 classique ressemble à ceci : 192.0.2.235, alors qu’une adresse IPv6 ressemble à ceci : 2001:0DB8:85a3:0000:0000:8a2e : 0370:7334. La modification de la mise en forme et des fonctionnalités pour les appareils qui utilisent des adresses IPv6 nécessite plusieurs considérations de déploiement et de configuration dans votre installation de Skype entreprise Server. 
 
 Cette rubrique inclut les sections suivantes :
   
@@ -166,7 +168,7 @@ La messagerie unifiée Exchange (UM) ne prend pas en charge IPv6. Pour cette fon
 ### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Autres fonctionnalités de Skype entreprise Server prises en charge pour IPv6
 <a name="Ent_V"> </a>
 
-Outre les fonctionnalités et composants mentionnés précédemment, Skype entreprise Server prend en charge le protocole IPv6 pour les fonctionnalités suivantes:
+Outre les fonctionnalités et composants mentionnés précédemment, Skype entreprise Server prend en charge le protocole IPv6 pour les fonctionnalités suivantes :
   
 - **Conversation permanente**
     
@@ -179,7 +181,7 @@ Outre les fonctionnalités et composants mentionnés précédemment, Skype entre
 ## <a name="technical-requirements-for-ipv6"></a>Configuration technique requise pour IPv6
 <a name="tech"> </a>
 
-Si vous envisagez de configurer Skype entreprise Server pour IPv6, gardez les éléments suivants à l’esprit:
+Si vous envisagez de configurer Skype entreprise Server pour IPv6, gardez les éléments suivants à l’esprit :
   
 - Pour utiliser des adresses IPv6 avec Skype entreprise Server, vous devez créer des enregistrements DNS (Domain Name System) pour les enregistrements qui doivent être identifiés et résolus à une adresse IPv6. Le DNS IPv6 utilise des enregistrements AAAA (quadruple A). Si vous utilisez IPv4 et IPv6 dans votre déploiement, il est préférable de configurer et maintenir des enregistrements d’hôte A pour IPv4 et des enregistrements d’hôte AAAA pour IPv6. Même lors de la transition complète de votre déploiement vers IPv6, vous pouvez également nécessiter des enregistrements d’hôte DNS IPv4 pour les utilisateurs externes utilisant encore IPv4.
     

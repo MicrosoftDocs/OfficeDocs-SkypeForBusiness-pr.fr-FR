@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
 description: La table MediationServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation impliqué dans des appels ayant des enregistrements dans la base de données.
-ms.openlocfilehash: a79c7c1d81f220e034e63263ef8dbf81a13d4024
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74c1095044bd9bb7183202d115236eba863c62da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295992"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815022"
 ---
 # <a name="mediationservers-table"></a>Table MediationServers
  

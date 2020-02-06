@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype entreprise Server inclut plusieurs fonctionnalités de sécurité, notamment l’authentification de serveur à serveur, le contrôle d’accès basé sur les rôles et le stockage centralisé des données de configuration.
-ms.openlocfilehash: cd86d1ac404cd2fe487f6f9369cc73df0d72c52f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815652"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Principales fonctionnalités de sécurité dans Skype entreprise Server
  
@@ -58,7 +60,7 @@ Skype entreprise Server fournit un contrôle d’accès basé sur les rôles (RB
   
 ## <a name="network-address-translation-nat"></a>Traduction d’adresses réseau (NAT)
 
-Skype entreprise Server ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais prend en charge le placement de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V. derrière un routeur ou un pare-feu qui exécute la traduction d’adresses réseau (NAT) pour les topologies de serveur de périphérie unique et à l’échelle. S’il y a plusieurs serveurs Edge utilisant un programme d’équilibrage de la charge matérielle, ils ne peuvent pas utiliser la traduction d’adresses réseau. Si plusieurs serveurs Edge utilisent la traduction d’adresses réseau sur leurs interfaces externes, l’équilibrage de la charge DNS (Domain Name System) est requise. L’utilisation de l’équilibrage de la charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, reportez-vous à la rubrique [scénarios de serveur Edge dans Skype entreprise Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
+Skype entreprise Server ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais elle prend en charge la mise à niveau de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V d’un routeur ou d’un pare-feu qui effectue une traduction d’adresses réseau (NAT) pour les S’il y a plusieurs serveurs Edge utilisant un programme d’équilibrage de la charge matérielle, ils ne peuvent pas utiliser la traduction d’adresses réseau. Si plusieurs serveurs Edge utilisent la traduction d’adresses réseau sur leurs interfaces externes, l’équilibrage de la charge DNS (Domain Name System) est requise. L’utilisation de l’équilibrage de la charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, reportez-vous à la rubrique [scénarios de serveur Edge dans Skype entreprise Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Si vous vous fédérez avec des entreprises qui ont un déploiement de Microsoft Office Communications Server 2007 et que vous devez utiliser l’audio et la vidéo entre votre entreprise et une entreprise fédérée, les ports utilisés seront ceux de l’ancienne version des serveurs Edge déployés. Par exemple, les plages de ports requises pour ces versions antérieures doivent être ouvertes pour les deux entreprises tant que le partenaire fédéré a mis à niveau ses serveurs Edge vers Skype entreprise Server. Les exigences relatives aux ports peuvent alors être réévaluées et réduites, conformément à la nouvelle configuration. 

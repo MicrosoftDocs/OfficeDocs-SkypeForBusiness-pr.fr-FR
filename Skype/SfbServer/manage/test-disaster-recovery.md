@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Effectuer une récupération du système pour un serveur de pool de serveurs Skype entreprise pour tester votre processus de récupération d’urgence documenté
-ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279213"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817300"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Test de reprise après sinistre dans Skype entreprise Server
 
@@ -24,13 +26,13 @@ Notez que le calendrier des tests de récupération d'urgence de votre organisat
 
 Exportez votre topologie, vos stratégies et vos paramètres de configuration de Skype entreprise Server vers un fichier. Ce fichier peut, entre autres, être utilisé pour restaurer ces informations dans le magasin central de gestion après une mise à niveau, une défaillance matérielle ou un autre problème ayant entraîné une perte de données.
 
-Importez vos paramètres de topologie, de stratégies et de configuration de Skype entreprise Server sur le magasin de gestion central ou sur l’ordinateur local, comme illustré dans les commandes suivantes: 
+Importez vos paramètres de topologie, de stratégies et de configuration de Skype entreprise Server sur le magasin de gestion central ou sur l’ordinateur local, comme illustré dans les commandes suivantes : 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-Pour sauvegarder les données de production:
+Pour sauvegarder les données de production :
 
 - Sauvegardez les bases de données RTC et LCSLog à l’aide du processus de sauvegarde SQL Server standard pour vider la base de données sur un fichier ou un appareil de vidage de bande.
 - Sauvegardez les données dans un fichier ou sur une bande à l’aide de l’application de sauvegarde tierce.
@@ -44,14 +46,14 @@ Le processus de déplacement d’un utilisateur de Skype entreprise Server est u
 
 Une fois ces données restaurées, les utilisateurs peuvent se connecter au pool de reprise après sinistre et s’exécuter normalement. Pour permettre aux utilisateurs de se connecter au pool de récupération d’urgence, une modification de l’enregistrement DNS sera requise.
 
-Le pool Skype entreprise de production sera référencé par des clients à l’aide de la configuration automatique et des enregistrements SRV DNS de:
+Le pool Skype entreprise de production sera référencé par des clients à l’aide de la configuration automatique et des enregistrements SRV DNS de :
 
-- SRV: _sip. _tls. \<domain>/CNAME: SIP. \<domain>
-- CNAME: SIP. \<domain>/CVC-pool-1. \<domain>
+- SRV : _sip. _tls. \<Domain>/CNAME : SIP. \<> de domaine
+- CNAME : SIP. \<Domain>/CVC-pool-1. \<> de domaine
 
 Pour faciliter le basculement, cet enregistrement CNAME doit être mis à jour de manière à référencer le nom de domaine complet (FQDN) DROCSPool :
 
-- CNAME: SIP.<domain> /DROCSPool. \<domain>
-- SIP. \<domain>
-- AV.\<domain>
-- webconf. \<domain>
+- CNAME : SIP.<domain> /DROCSPool. \<> de domaine
+- SIP. \<> de domaine
+- > AV\<. Domain
+- webconf. \<> de domaine

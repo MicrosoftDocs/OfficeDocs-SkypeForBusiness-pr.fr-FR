@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal contient l’ensemble des principaux, y compris des utilisateurs, des dossiers et des groupes.
-ms.openlocfilehash: 5a0b6535ace344951b75f7c5c9488f56a18564ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7924c65745e29cce6dd71dc14b1ecfe7b41fe8b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295362"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814502"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -35,7 +37,7 @@ tblPrincipal contient l’ensemble des principaux, y compris des utilisateurs, d
 |prinEmail  <br/> |nvarchar (256)  <br/> |Messagerie. Utilisées uniquement par les types d’utilisateurs.  <br/> |
 |prinADPath  <br/> |nvarchar (384)  <br/> |Nom de domaine de l’objet Active Directory dont le principal est une version mise en cache. Il peut s’agir de valeurs NULL pour les types qui ne sont pas des objets Active Directory (par exemple, utilisateurs système).  <br/> |
 |prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Nom d’utilisateur principal (UPN) de l’utilisateur. Utilisé uniquement par les types d’utilisateurs normaux.  <br/> |
-|prinDisabled  <br/> |smallint, pas null  <br/> | 0: le principal est actif. <br/>  1: le principal est désactivé car les fonctionnalités SIP de l’utilisateur sont désactivées. <br/>  2: le principal est supprimé, car l’objet publicitaire associé a été supprimé. <br/> |
+|prinDisabled  <br/> |smallint, pas null  <br/> | 0 : le principal est actif. <br/>  1 : le principal est désactivé car les fonctionnalités SIP de l’utilisateur sont désactivées. <br/>  2 : le principal est supprimé, car l’objet publicitaire associé a été supprimé. <br/> |
 |prinTypeID  <br/> |smallint, pas null  <br/> |Type principal (issu de la table tblPrincipalType)  <br/> |
 |prinPoolID  <br/> |Ent  <br/> |Attribution du pool de clients Skype entreprise pour le principal.  <br/> |
 |prinPolicyID  <br/> |Ent  <br/> |Valeur de la stratégie de serveur de chat permanent pour l’utilisateur, si la stratégie de type balise est présente.  <br/> |

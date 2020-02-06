@@ -8,15 +8,17 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Cette section contient des exemples de requête pour la base de données de conversation persistante.
-ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295607"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814722"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  
@@ -42,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Pour obtenir la liste de toutes les personnes qui ont envoyé un message avec «Hello World», utilisez l’exemple ci-dessous.
+Pour obtenir la liste de toutes les personnes qui ont envoyé un message avec « Hello World », utilisez l’exemple ci-dessous.
   
 ```
 SELECT nodeName as ChatRoom, prinName as Name, content as Message

@@ -8,26 +8,28 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.
-ms.openlocfilehash: 9a3e09a03f764f8866865e08259cbaac12a1c554
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295614"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814742"
 ---
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  
 Ce document décrit le schéma de la base de données de conversation permanente dans Skype entreprise Server.
   
-La base de données de chat permanent fait référence à la base de données qui correspond au rôle de serveur principal de Skype entreprise Server **PersistentChatStore** (correspondant à la base de données MGC) et **PersistentChatComplianceStore** (correspondant au mgccomp de base de données). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
+La base de données de chat permanent fait référence à la base de données qui correspond au rôle de serveur principal de Skype entreprise Server **PersistentChatStore** (correspondant à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond à la base de données mgccomp). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
   
 > [!IMPORTANT]
 > Nous nous réservons le droit d’évolutionr ce schéma. Microsoft n’apporte aucune garantie de conservation de la compatibilité descendante avec ce schéma publié. 
   
-Suivez ces meilleures pratiques:
+Suivez ces meilleures pratiques :
   
 - Aucune sélection\* //est prise en charge, car la liste de colonnes peut grandir.
     

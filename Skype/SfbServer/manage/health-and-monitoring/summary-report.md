@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Résumé: en savoir plus sur le rapport synthèse des diagnostics de l’appel utilisé dans Skype entreprise Server.'
-ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport synthèse des diagnostics de l’appel utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279739"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817663"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des diagnostics de l’appel dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport synthèse des diagnostics de diagnostic utilisé dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport synthèse des diagnostics de diagnostic utilisé dans Skype entreprise Server.
   
 Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble des sessions de conférence et des sessions P2P ayant échoué. Ce rapport comprend le taux d’échecs général pour ces deux types de sessions, et détaille les informations par type de modalité de session :
   
@@ -35,7 +37,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport de synthèse des diagnostics d’appel, vous pouvez accéder au [rapport de diagnostic d’activité d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la métrique du taux d’échec dans la section Résumé de la session d’égal à égal du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Skype entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes:
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport de synthèse des diagnostics d’appel, vous pouvez accéder au [rapport de diagnostic d’activité d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la métrique du taux d’échec dans la section Résumé de la session d’égal à égal du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Skype entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
   
 - Taux d’échec de session global
     
@@ -45,7 +47,7 @@ Le rapport de synthèse de diagnostic des appels est accessible à partir de la 
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Utilisation efficace du rapport de synthèse de diagnostic des appels
 
-Le rapport synthèse des diagnostics inclut des graphiques qui comparent les taux d’échec pour les différentes modalités d’utilisation dans Skype entreprise Server. Les colonnes de ces graphiques sont réellement des hyperliens. par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous découvrirez une instance du [rapport de diagnostic des activités d’égal à égal dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md), un rapport contenant des informations supplémentaires sur tout le sessions de messagerie instantanée incluses dans le rapport synthèse des diagnostics d’appel.
+Le rapport synthèse des diagnostics inclut des graphiques qui comparent les taux d’échec pour les différentes modalités d’utilisation dans Skype entreprise Server. Les colonnes de ces graphiques sont réellement des hyperliens. par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous découvrirez une instance du rapport de diagnostic de l' [activité P2P dans Skype entreprise Server](peer-to-peer-activity-diagnostic-report.md), un rapport contenant des informations supplémentaires sur l’ensemble des sessions de messagerie instantanée figurant dans le rapport synthèse des diagnostics d’appel.
   
 ## <a name="filters"></a>Filtres
 

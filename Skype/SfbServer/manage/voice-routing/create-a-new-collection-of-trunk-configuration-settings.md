@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services.
-ms.openlocfilehash: 884116e8ac6cb5818c026123c652f439f44dc374
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db4978151bf9b649375adb7a2200710a1a503c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275037"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817004"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Créer une collection de paramètres de configuration de Trunk dans Skype entreprise Server
 
@@ -25,7 +27,7 @@ Les paramètres de configuration du Trunk SIP définissent la relation et les fo
 
 Lorsque vous installez Skype entreprise Server, une collection globale de paramètres de configuration SIP Trunk est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-Les options suivantes sont disponibles lors de la création de paramètres de configuration du Trunk SIP Utilisezskype pour le panneau de configuration pour les entreprises:
+Les options suivantes sont disponibles lors de la création de paramètres de configuration du Trunk SIP Utilisezskype pour le panneau de configuration pour les entreprises :
 
 |Paramètre de l’interface utilisateur | Paramètre PowerShell | Description |
 |--|--|--|
@@ -41,12 +43,12 @@ Les options suivantes sont disponibles lors de la création de paramètres de co
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront routés vers la jonction suivante disponible. En l’absence d’autre jonction, l’appel est abandonné automatiquement. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations RTC associées|PSTNUsages|Collection d’utilisations RTC affectées à la jonction.|
-|Numéro converti à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro converti à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de conversion associées|OutboundTranslationRulesList|Collection de règles de conversion de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels routés vers les destinations PBX ou RTC).|
 |Règles de conversion du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de conversion de numéro d’appel sortant affectées à la jonction.|
-|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
-|Numéro appelant|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
-|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
+|Numéro appelant|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
+|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 ||||
 
 > [!Note]
@@ -54,9 +56,9 @@ Les options suivantes sont disponibles lors de la création de paramètres de co
 
 **Pour créer des paramètres de configuration de Trunk en utilisant le panneau de configuration Skype entreprise Server**
 
-1. Dans le panneau de configuration Skype entreprise Server, cliquez sur **routage des communications vocales**, puis cliquez sur Configuration de **Trunk**.
+1. Dans le panneau de configuration Skype entreprise Server, cliquez sur **routage des communications vocales**, puis cliquez sur **configuration de Trunk**.
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
-3. Dans la boîte de dialogue **Sélectionner un site** ou **Sélectionner un service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue de sites ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK. **. Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun emplacement pour créer les nouveaux paramètres. par exemple, si la boîte de dialogue **Sélectionner un site** est vide, cela signifie que tous vos sites possèdent déjà une collection de sites de configuration de Trunk et chaque site (et chaque service) peut uniquement héberger une telle collection. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
+3. Dans la boîte de dialogue **Sélectionner un site** ou **Sélectionner un service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue de sites ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK**. Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun emplacement pour créer les nouveaux paramètres. par exemple, si la boîte de dialogue **Sélectionner un site** est vide, cela signifie que tous vos sites possèdent déjà une collection de sites de configuration de Trunk et chaque site (et chaque service) peut uniquement héberger une telle collection. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
 4. Dans la boîte de dialogue **Nouvelle configuration de jonction**, effectuez les sélections appropriées, puis cliquez sur **OK**.
 5. La propriété **État** de la collection est définie sur la valeur **Non validé**. Pour valider les modifications et supprimer la collection, cliquez sur **Valider**, puis sur **Tout valider**.
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.

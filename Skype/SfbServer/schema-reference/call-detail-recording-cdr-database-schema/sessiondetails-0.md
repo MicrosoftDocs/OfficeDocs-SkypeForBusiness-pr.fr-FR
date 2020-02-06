@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou un autre type de session. Cet affichage a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 627d038389098583b5e42f73e8dd0a1cc339d014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1d0d68fe152f277c02c53fd87afdb0ea4e4ab0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814912"
 ---
 # <a name="sessiondetails-view"></a>Affichage SessionDetails
  
@@ -52,11 +54,11 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 |**ReferredByUri** <br/> |nvarchar (450)  <br/> |URI de l’utilisateur qui a expertisé la session.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a expertisé la session. Pour plus d’informations, voir la [table UriTypes](uritypes.md) . <br/> |
 |**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a fait appel à la session. Pour plus d’informations, voir la [table locataires](tenants.md) . <br/> |
-|**DialogId** <br/> |varchar (775)  <br/> |ID de boîte de dialogue SIP. Le format est le suivant:  <br/> boîte de dialogue; à partir d’une balise  <br/> |
+|**DialogId** <br/> |varchar (775)  <br/> |ID de boîte de dialogue SIP. Le format est le suivant :  <br/> boîte de dialogue ; à partir d’une balise  <br/> |
 |**Corrélation** <br/> |identificateur  <br/> |GUID utilisé pour mettre en corrélation plusieurs sessions.  <br/> |
 |**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Heure de la boîte de dialogue qui a été remplacée par la session. Utilisé conjointement avec ReplaceDialogIdSeq pour identifier de façon unique une boîte de dialogue qui est remplacée par la session. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |IDENTIFIant de la session. Utilisé conjointement avec ReplaceDialogIdTime pour identifier de façon unique une boîte de dialogue qui est remplacée par la session. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
-|**ReplacesDialogId** <br/> |varchar (775)  <br/> |ID de boîte de dialogue SIP le remplacement de la session. Le format est le suivant:  <br/> boîte de dialogue; à partir d’une balise  <br/> |
+|**ReplacesDialogId** <br/> |varchar (775)  <br/> |ID de boîte de dialogue SIP le remplacement de la session. Le format est le suivant :  <br/> boîte de dialogue ; à partir d’une balise  <br/> |
 |**ResponseTime** <br/> |DateHeure  <br/> |Heure de la réponse au premier message d’invitation. Ce champ est généralement rempli par des données générées à partir du message d’invitation initial dans la session. S’il n’y a pas de message d’invitation, le champ est peuplé de la date et de l’heure du premier message SIP approprié (BYE, annuler, MESSAGE ou informations).  <br/> |
 |**ResponseCode** <br/> |int  <br/> |Code de réponse SIP à l’invitation de la session. Ce champ est généralement rempli par des données générées à partir du message d’invitation initial dans la session. S’il n’y a pas de message d’invitation, le champ est peuplé de la date et de l’heure du premier message SIP approprié (BYE, annuler, MESSAGE ou informations).  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |ID de diagnostic capturé à partir d’en-têtes SIP.  <br/> |
@@ -68,9 +70,9 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 |**IsFromInternal** <br/> |bit  <br/> |Indique si l’utilisateur qui a démarré la session s’est connecté à partir du réseau interne.  <br/> |
 |**IsToInternal** <br/> |bit  <br/> |Indique si l’utilisateur ayant rejoint la session à partir du réseau interne.  <br/> |
 |**CallPriority** <br/> |nvarchar(256)  <br/> |Priorité de la session.  <br/> |
-|**FromUserFlag** <br/> |type  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées:  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
-|**ToUserFlag** <br/> |type  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées:  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
-|**CallFlag** <br/> |type  <br/> |Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées:  <br/> 0x01-nouvelle tentative de session  <br/> 0x02-appel émis par l’agent pour le compte d’un groupe de réponse  <br/> |
+|**FromUserFlag** <br/> |type  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées :  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
+|**ToUserFlag** <br/> |type  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées :  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
+|**CallFlag** <br/> |type  <br/> |Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées :  <br/> 0x01-nouvelle tentative de session  <br/> 0x02-appel émis par l’agent pour le compte d’un groupe de réponse  <br/> |
 |**Emplacement** <br/> |varchar (max)  <br/> |Emplacement de l’appel d’urgence.  <br/> |
 |**LastModifiedTime** <br/> |Valeur  <br/> |Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
    

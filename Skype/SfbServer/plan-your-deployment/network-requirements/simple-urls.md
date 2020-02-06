@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Résumé: passez en revue les remarques relatives aux URL simples de cette rubrique avant d’implémenter les enregistrements DNS pour Skype entreprise Server.'
-ms.openlocfilehash: 6f5003542f797c6dd275eb8de7c0b00b1ea209ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : passez en revue les remarques relatives aux URL simples de cette rubrique avant d’implémenter les enregistrements DNS pour Skype entreprise Server.'
+ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297147"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815782"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Configuration DNS requise pour les URL simples dans Skype entreprise Server
 
-**Résumé:** Pour plus d’informations sur l’implémentation d’enregistrements DNS pour Skype entreprise Server, consultez les remarques d’URL simples.
+**Résumé :** Pour plus d’informations sur l’implémentation d’enregistrements DNS pour Skype entreprise Server, consultez les remarques d’URL simples.
 
 Les URL simples simplifient la participation à des réunions pour vos utilisateurs et permettent d’accéder plus facilement aux outils d’administration de Skype entreprise Server aux administrateurs. Les URL simples utilisent leur propre domaine, qui ne doit pas correspondre aux domaines SIP que vous définissez. 
 
-Skype entreprise Server prend en charge les trois URL simples suivantes: réunion, accès et administration. Vous devez configurer des URL simples pour la réunion et le rendez-vous, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) nécessaires à la prise en charge d’URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la reprise après sinistre pour des URL simples. 
+Skype entreprise Server prend en charge les trois URL simples suivantes : réunion, accès et administration. Vous devez configurer des URL simples pour la réunion et le rendez-vous, et l’URL simple d’administration est facultative. Les enregistrements DNS (Domain Name System) nécessaires à la prise en charge d’URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la reprise après sinistre pour des URL simples. 
 
 ## <a name="simple-url-scope"></a>Étendue d’URL simple
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Les décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants vers des emplacements pour le déploiement de E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: a68f1517d038f82e62a7aca3ef909e4e67d25e4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 404ac2d151f367ad391e4d5426090f20448cc383
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276690"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802664"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Définir les éléments réseau utilisés pour déterminer l’emplacement dans Skype entreprise Server
  
 Les décisions nécessaires pour planifier les composants réseau que vous allez utiliser pour mapper les appelants vers des emplacements pour le déploiement de E9-1-1 dans Skype entreprise Server Voice.
   
-Si vous configurez votre infrastructure du serveur Skype entreprise pour prendre en charge la détection automatique de l’emplacement du client, vous devez d’abord choisir les éléments réseau que vous allez utiliser pour mapper les appelants vers des emplacements. Dans Skype entreprise Server, vous pouvez associer les éléments réseau Layer 2 et Layer 3 suivants à des emplacements:
+Si vous configurez votre infrastructure du serveur Skype entreprise pour prendre en charge la détection automatique de l’emplacement du client, vous devez d’abord choisir les éléments réseau que vous allez utiliser pour mapper les appelants vers des emplacements. Dans Skype entreprise Server, vous pouvez associer les éléments réseau Layer 2 et Layer 3 suivants à des emplacements :
   
 - Adresses BSSID (Basic Service Set Identification) des points d’accès sans fil (WAP) (couche 2)
     
@@ -74,6 +76,6 @@ Si le sous-réseau couvre une zone trop vaste, vous devrez envisager d’utilise
 Pour utiliser l’adresse MAC d’un ordinateur client pour localiser un appelant, vous avez besoin de commutateurs Ethernet gérés et vous devez déployer une solution SNMP tierce capable de détecter les adresses MAC des clients Skype entreprise connectés (ou par le biais de) ces commutateurs. La solution SNMP interroge continuellement les commutateurs gérés pour obtenir les mappages actuels des adresses MAC de point de terminaison connectées à chaque port et obtient les IP de port correspondants. Dans le cadre d’une demande de client Skype entreprise adressée au service d’information d’emplacement, le service d’information d’emplacement interroge l’application tierce en utilisant l’adresse MAC du client, puis renvoie les adresses IP et ID de port correspondants. Le service des informations d’emplacement utilise ces informations pour interroger son Wiremap Layer 2 publié pour un enregistrement de correspondance et renvoie l’emplacement au client. Si vous utilisez cette option, vérifiez que les identifiants de port de commutateur sont cohérents entre l’application SNMP et les enregistrements de la base de données d’emplacements publiés.
   
 > [!NOTE]
-> Certaines solutions SNMP tierces peuvent prendre en charge des commutateurs d’accès non gérés; Si le commutateur de services Skype entreprise n’est pas géré par le client et qu’il dispose d’un lien vers un commutateur de distribution géré, le commutateur géré peut signaler à l’application SNMP les adresses MAC des clients connectés au commutateur d’accès. Ces informations permettent au service d’information d’emplacement d’identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port. 
+> Certaines solutions SNMP tierces peuvent prendre en charge des commutateurs d’accès non gérés ; Si le commutateur de services Skype entreprise n’est pas géré par le client et qu’il dispose d’un lien vers un commutateur de distribution géré, le commutateur géré peut signaler à l’application SNMP les adresses MAC des clients connectés au commutateur d’accès. Ces informations permettent au service d’information d’emplacement d’identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port. 
   
 

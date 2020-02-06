@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 'Résumé: Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 58be983ff3b282c94a4b42619a6c37c6270afcb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274757"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816813"
 ---
 # <a name="get-integration-log"></a>Obtenir le journal d’intégration
  
-**Résumé:** Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir le journal d’intégration fait partie de l’API de données pour le tableau de bord de qualité des appels
   
@@ -47,7 +49,7 @@ Cette opération est désactivée par défaut pour des raisons de sécurité. Lo
   
  **En-têtes de réponse** : aucun en-tête supplémentaire.
   
- **Corps** de la réponse: Voici un exemple de structure d’entrées du journal.
+ **Corps** de la réponse : Voici un exemple de structure d’entrées du journal.
   
 ```
 [

@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Avant de déployer et d’utiliser Skype entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype entreprise Server.
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296657"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815482"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Modifications de schéma dans Skype entreprise Server
  
@@ -25,7 +27,7 @@ Avant de déployer et d’utiliser Skype entreprise Server, vous devez préparer
 > [!NOTE]
 > Si vous effectuez une mise à niveau de Lync Server 2013 vers Skype entreprise Server 2015, il n’y a aucune modification de schéma et c’est pourquoi cet article ne s’applique pas.
   
-Skype entreprise Server nécessite plusieurs nouvelles classes et attributs, et modifie les classes et attributs existants. De plus, de nombreuses informations de configuration pour Skype entreprise Server sont stockées dans le magasin de gestion central plutôt que dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype entreprise Server:
+Skype entreprise Server nécessite plusieurs nouvelles classes et attributs, et modifie les classes et attributs existants. De plus, de nombreuses informations de configuration pour Skype entreprise Server sont stockées dans le magasin de gestion central plutôt que dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype entreprise Server :
   
 - **Extensions de schéma**:
     
@@ -33,7 +35,7 @@ Skype entreprise Server nécessite plusieurs nouvelles classes et attributs, et 
     
   - Extensions de classes permettant de maintenir la compatibilité descendante avec les versions précédentes de Lync Server prises en charge.
     
-- **Data (données** ) (stockés dans le schéma étendu de Skype entreprise Server et dans les classes de schéma existantes):
+- **Données** (stockées dans le schéma étendu de Skype entreprise Server et dans les classes de schéma existantes) :
     
   - URL (Uniform Resource Identifier) de l’utilisateur SIP et autres paramètres utilisateur
     
@@ -67,9 +69,9 @@ Le tableau suivant décrit les classes Active Directory modifiées par Skype ent
 
 |**Cours**|**Modification**|**Classe ou attribut**|
 |:-----|:-----|:-----|
-|Utilisateur  <br/> |Ajouter: mayContain  <br/> Ajouter: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|Locuteur  <br/> |Ajouter: mayContain  <br/> Ajouter: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
-|Mail-destinataire  <br/> |Ajouter: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
-|msRTCSIP-GlobalTopologySetting  <br/> |Ajouter: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
+|Utilisateur  <br/> |Ajouter : mayContain  <br/> Ajouter : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Locuteur  <br/> |Ajouter : mayContain  <br/> Ajouter : mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Mail-destinataire  <br/> |Ajouter : mayContain  <br/> |msExchUserHoldPolicies  <br/> |
+|msRTCSIP-GlobalTopologySetting  <br/> |Ajouter : mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |
    
 

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. '
-ms.openlocfilehash: 119b0450f2327c58508e85b5aecc76a27cca6fa5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b72392bceeec2a5fd737dc7587a74a43e90949c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275009"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817024"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer un Trunk sans dérivation multimédia dans Skype entreprise Server
 
@@ -76,7 +78,7 @@ Une configuration de jonction, comme indiqué dans la suite de cette rubrique, r
 12. L’option **activer l’historique des appels en aval** doit être sélectionnée pour permettre l’envoi des informations de l’historique des appels à l’homologue de la passerelle du serveur de médiation.
 13. **Autorisez les données de renvoi d’identité P** qui doivent être sélectionnées pour permettre aux informations de l’appelant d’appeler PAI d’être transmises entre le côté du serveur de médiation et la passerelle (et vice versa), le cas échéant.
 14. L’option **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionnée pour permettre un basculement rapide. La passerelle associée à cette jonction peut avertir dans les 10 secondes du traitement de l’appel sortant. Le reroutage vers un autre Trunk se produit si la notification n’est pas reçue par le serveur de médiation. Sur les réseaux dont la latence peut retarder le temps de réponse ou si la passerelle met plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
-15. Facultatif Associez et configurez des **règles de traduction des numéros d’appel** pour le Trunk. Ces règles de traduction s’appliquent au numéro d’appel pour les appels sortants.
+15. Facultatif Associez et **configurez des règles de traduction des numéros d’appel** pour le Trunk. Ces règles de traduction s’appliquent au numéro d’appel pour les appels sortants.
     - Pour sélectionner une ou plusieurs règles dans la liste de toutes les règles de traduction disponibles dans votre déploiement voix entreprise, cliquez sur **Sélectionner**. Dans **Sélectionner les règles de conversion**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
     - Pour définir une nouvelle règle de conversion et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur la définition d’une règle, reportez-vous à la rubrique [définition des règles de traduction dans Skype entreprise Server](defining-translation-rules.md).
     - Pour modifier une règle de conversion déjà associée à la jonction, sélectionnez le nom de la règle, puis sur **Afficher les détails**. Pour plus d’informations, reportez-vous à [définition des règles de traduction dans Skype entreprise Server](defining-translation-rules.md).

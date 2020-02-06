@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : en savoir plus sur la configuration système requise pour Edge Server dans Skype entreprise Server.'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277145"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803314"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Configuration requise pour le serveur Edge dans Skype entreprise Server
  
@@ -193,7 +195,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de charge matériell
   
 Voici la configuration requise pour HLB pour le directeur (facultatif) et les services Web de pool frontal (requis) :
   
-- Pour vos VIP de services Web internes, définissez persistance de Source_addr (port interne 80, 443) sur votre HLB. Dans le cas de Skype entreprise Server, la persistance de Source_addr implique que plusieurs connexions venant d’une seule adresse IP sont toujours envoyées à un serveur pour conserver l’état de la session.
+- Pour vos VIP de services Web internes, définissez Source_addr persistance (80 port interne 443) sur votre HLB. Dans le cas d’une connexion Skype entreprise Server, Source_addr persistance vous impliquez que plusieurs connexions venant d’une seule adresse IP sont toujours envoyées à un serveur pour conserver l’état de la session.
     
 - Utilisez un délai d’inactivité TCP de 1 800 secondes.
     
@@ -213,8 +215,8 @@ Vous définissez le contrôle de port sur vos équilibreurs de charge matériell
   
 |**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<web_mco_443_vs\>du pool  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
-|\<web_mco_80_vs\>du pool  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
+|\<web_mco_443_vs\>de réserve  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTPS  <br/> |
+|\<web_mco_80_vs\>de réserve  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucune  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Configuration matérielle et logicielle requise
 

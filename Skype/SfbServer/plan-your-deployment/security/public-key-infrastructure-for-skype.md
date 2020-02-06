@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype entreprise Server repose sur des certificats pour l’authentification du serveur et établit une chaîne de confiance entre les clients et les serveurs et entre les différents rôles de serveur. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et l’infrastructure à clé publique (PKI) Windows Server 2008 fournit l’infrastructure nécessaire pour établir et valider cette chaîne de confiance.
-ms.openlocfilehash: 381afce84c1a58d15187547c9cb8fd6f98e84790
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2ae6e94d9cf00a6193c45d6cefd7db6d5a5b62
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296853"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815632"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infrastructure à clé publique pour Skype entreprise Server
  

@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: Le schéma de base de données de chat permanent se compose des tables suivantes.
-ms.openlocfilehash: 6a6c0bc2c2cc2d5e5ba59f9f636ed9cea2189bed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae6e1a260cb167397da83d79d37b92067d2ae99d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295649"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814752"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Liste des tables de serveur de conversation permanente
  
@@ -45,8 +47,8 @@ Le schéma de base de données de chat permanent se compose des tables suivantes
 |[tblScopePrincipal](tblscopeprincipal.md) <br/> |Contient les étendues attribuées aux nœuds.  <br/> |
 |[tblPrincipalRole](tblprincipalrole.md) <br/> |Contient les rôles attribués aux nœuds.  <br/> |
 |[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |Contient les compléments enregistrés qui peuvent être associés à des nœuds.  <br/> |
-|[tblEnumAttribute](tblenumattribute.md) <br/> |Contient uniquement les attributs «Visibility» et «Behavior» en dur qui sont utilisés dans la table tblNode.  <br/> |
-|[tblEnumValue](tblenumvalue.md) <br/> |Contient les valeurs des attributs de «visibilité» et de «comportement» en dur qui sont utilisés dans la table tblNode.  <br/> |
+|[tblEnumAttribute](tblenumattribute.md) <br/> |Contient uniquement les attributs « Visibility » et « Behavior » en dur qui sont utilisés dans la table tblNode.  <br/> |
+|[tblEnumValue](tblenumvalue.md) <br/> |Contient les valeurs des attributs de « visibilité » et de « comportement » en dur qui sont utilisés dans la table tblNode.  <br/> |
    
 ## <a name="invites-chats-and-other-client-support"></a>Invitations, discussions et autres clients pris en charge
 

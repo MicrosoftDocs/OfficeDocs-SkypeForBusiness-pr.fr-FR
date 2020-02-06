@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Dans le cadre d’un déploiement voix entreprise, vous pouvez configurer un Trunk entre un serveur de médiation et un ou plusieurs homologues pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et appareils voix d’entreprise de votre organisation.
-ms.openlocfilehash: c350723720dccee069a28a4d9aa2c40517f6d1bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41e92f994606ea2153359546d408335d13a21f88
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275002"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817014"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Configuration de Trunks dans Skype entreprise Server
 
-Dans le cadre d’un déploiement voix entreprise, vous pouvez configurer un Trunk entre un serveur de médiation et un ou plusieurs des homologues suivants pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques vocaux d’entreprise au sein de votre organisation:
+Dans le cadre d’un déploiement voix entreprise, vous pouvez configurer un Trunk entre un serveur de médiation et un ou plusieurs des homologues suivants pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques vocaux d’entreprise au sein de votre organisation :
 
 - Connexion de jonction SIP vers un fournisseur de services de téléphonie Internet
 - Passerelle RTC

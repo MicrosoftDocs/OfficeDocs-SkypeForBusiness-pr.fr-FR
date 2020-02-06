@@ -8,23 +8,25 @@ ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: 'Résumé: Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur Chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: e700b76c8af29a0c877c1dc594244a299b8a3904
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur Chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: cba3b340710e4c5ed041c085f39f1a4cc209a789
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815752"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Pour en savoir plus sur les configurations matérielles et logicielles requises pour le serveur Chat permanent dans Skype entreprise Server 2015, consultez cette rubrique.
+**Résumé :** Pour en savoir plus sur les configurations matérielles et logicielles requises pour le serveur Chat permanent dans Skype entreprise Server 2015, consultez cette rubrique.
   
 Le serveur de chat permanent peut être installé avec Skype entreprise Server 2015 Enterprise Edition ou Standard Edition. Les exigences varient en fonction de la version de Skype entreprise Server 2015 que vous avez installée et des exigences en termes de performances de votre entreprise. La version Enterprise Edition peut prendre en charge jusqu’à 80 000 utilisateurs simultanés tandis que la version Standard Edition peut en prendre en charge jusqu’à 20 000. La conversation permanente comporte un composant frontal ainsi qu’un composant de base de données SQL principal.
   
-Avant de déployer le serveur de chat permanent, vous devez vous assurer que les configurations matérielles et logicielles suivantes sont respectées:
+Avant de déployer le serveur de chat permanent, vous devez vous assurer que les configurations matérielles et logicielles suivantes sont respectées :
   
 - Matériel qui répond à la configuration minimale requise pour la prise en charge de Skype entreprise Server 2015, serveur de discussions permanent, serveurs de base de données et serveurs de fichiers. Pour plus d’informations, reportez-vous [à configuration requise pour Skype entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     

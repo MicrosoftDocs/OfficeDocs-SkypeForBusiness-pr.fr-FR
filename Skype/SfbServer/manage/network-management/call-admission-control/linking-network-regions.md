@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). '
-ms.openlocfilehash: b9ffa45c8a0a09ba4a7f9f0ebf6402b87116f01f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4a643f34b9525b53168b9015b77a7f8292abd417
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279556"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817523"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 
@@ -47,7 +49,7 @@ Vous pouvez afficher les liens de région réseau à l’aide de Windows PowerSh
 
 ### <a name="to-view-network-region-link-information"></a>Pour afficher les informations sur le lien dans la région réseau
 
-  - Pour afficher des informations sur tous les liens de votre région réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur tous les liens de votre région réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkRegionLink
     

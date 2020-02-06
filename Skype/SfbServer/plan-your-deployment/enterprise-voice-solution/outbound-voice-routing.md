@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: En savoir plus sur le routage des communications sortantes dans Skype entreprise Server Voice, y compris les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les politiques vocales, les enregistrements d’utilisation RTC et les itinéraires vocaux.
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276581"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802574"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des communications sortantes dans Skype entreprise Server
  
@@ -178,13 +180,13 @@ Le tableau ci-dessous illustre un exemple de plan de numérotation pour Redmond,
   
 ## <a name="voice-policies"></a>Stratégies de voix
 
-Politiques vocales Skype entreprise Server définissez les éléments suivants pour chaque utilisateur, site ou organisation affecté à la stratégie:
+Politiques vocales Skype entreprise Server définissez les éléments suivants pour chaque utilisateur, site ou organisation affecté à la stratégie :
   
 - Un ensemble de fonctionnalités d’appel qui peuvent être activées ou désactivées pour déterminer la fonctionnalité voix entreprise disponible aux utilisateurs.
     
 - un ensemble d’enregistrements de l’utilisation du réseau téléphonique commuté (PSTN) qui définissent le type des appels autorisés. 
     
-Les étapes suivantes vous aideront à planifier les stratégies vocales dont vous aurez besoin pour votre déploiement voix entreprise:
+Les étapes suivantes vous aideront à planifier les stratégies vocales dont vous aurez besoin pour votre déploiement voix entreprise :
   
 - Déterminez la configuration prévue de votre stratégie de voix globale (stratégie de voix par défaut installée avec le produit). Ce paramètre s’applique à tous les utilisateurs de l’entreprise voix qui n’ont pas explicitement reçu une stratégie de niveau site ou par utilisateur.
     
@@ -233,7 +235,7 @@ Vous pouvez activer ou désactiver les fonctionnalités d’appel suivantes pour
     
 - La boîte **vocale** d’arrêt empêche le routage des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsqu’une sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou en dehors de la plage et repose sur une valeur de minuteur. Ce paramètre active et désactive le minuteur et définit la valeur de Timer. Il peut être configuré uniquement à l’aide de Skype entreprise Server Management Shell. Désactivé par défaut.
     
-- Le **transfert d’appel et la sonnerie simultanée des utilisations RTC** permettent aux administrateurs de spécifier la même utilisation PSTN que la politique vocale pour le transfert d’appel et la sonnerie simultanée, limiter le transfert d’appel et la sonnerie simultanée à Skype pour Utilisateurs professionnels uniquement, ou spécifier une utilisation PSTN personnalisée qui est différente de l’utilisation du RTC de la stratégie vocale. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
+- Le **transfert d’appel et la sonnerie simultanée des utilisations RTC** permettent aux administrateurs de spécifier la même utilisation PSTN que la stratégie vocale pour le transfert d’appel et la sonnerie simultanée, limiter le transfert d’appel et la sonnerie simultanée aux utilisateurs Skype entreprise internes, ou spécifier une utilisation PSTN personnalisée différente de l’utilisation du RTC de la stratégie vocale. L’utilisation de la même utilisation PSTN que la stratégie de voix pour le transfert d’appel et la sonnerie simultanée est la valeur par défaut.
     
 ### <a name="pstn-usage-records"></a>Enregistrements d’utilisation PSTN
 
@@ -310,7 +312,7 @@ Dans Skype entreprise Server, toutes les chaînes de numérotation doivent être
   
 Avec Skype entreprise Server, il est possible de créer une ou plusieurs règles qui vous aident à manipuler le numéro d’appel avant de le diriger vers le Trunk.
   
-Dans la planification de vos Trunks qui associent les paires passerelle: port et serveur de médiation: paires de port, il peut être utile de regrouper les Trunks avec des exigences de numérotation locales similaires, et donc de réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.
+Dans la planification de vos Trunks qui associent les paires passerelle : port et serveur de médiation : paires de port, il peut être utile de regrouper les Trunks avec des exigences de numérotation locales similaires, et donc de réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.
   
 ### <a name="configuring-caller-id"></a>Configuration d’un ID d’appelant
 

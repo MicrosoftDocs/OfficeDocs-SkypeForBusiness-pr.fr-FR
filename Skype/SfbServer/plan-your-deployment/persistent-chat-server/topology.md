@@ -8,19 +8,21 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Résumé: cette rubrique vous permet d’en savoir plus sur les composants et les topologies serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : cette rubrique vous permet d’en savoir plus sur les composants et les topologies serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: afcdf7ed85cca6b54652dcf5170316258a6b5551
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815722"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planification de la topologie du serveur de conversation permanente
  
-**Résumé:** Consultez cette rubrique pour en savoir plus sur les composants et topologies serveur Chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les composants et topologies serveur Chat permanent dans Skype entreprise Server 2015.
   
 Le serveur Chat permanent prend en charge les configurations à un serveur et à plusieurs serveurs. Vous pouvez installer le serveur Chat permanent sur Skype entreprise Server 2015 Enterprise Edition ou Standard Edition Server. 
 
@@ -31,7 +33,7 @@ Le serveur Chat permanent prend en charge les configurations à un serveur et à
 
 Le serveur de conversation permanente comprend les composants suivants :
   
-- Un ou plusieurs ordinateurs exécutant un serveur Chat permanent et fournissant les services suivants:
+- Un ou plusieurs ordinateurs exécutant un serveur Chat permanent et fournissant les services suivants :
     
   - Service Chat permanent
     
@@ -48,7 +50,7 @@ Pour plus d’informations sur les configurations matérielles et logicielles re
   
 ## <a name="persistent-chat-server-topologies"></a>Topologies serveur de chat permanent
 
-Vous pouvez déployer le serveur de chat permanent dans les pools serveur unique ou serveur multiples, avec une topologie à pool unique ou à plusieurs pools. Le serveur Chat permanent prend en charge les topologies suivantes:
+Vous pouvez déployer le serveur de chat permanent dans les pools serveur unique ou serveur multiples, avec une topologie à pool unique ou à plusieurs pools. Le serveur Chat permanent prend en charge les topologies suivantes :
   
 -  Serveur Standard Edition avec serveur de conversation permanente colocalisé sur le serveur frontal
     
@@ -66,7 +68,7 @@ Les sections suivantes décrivent les topologies plus en détail, notamment les 
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Serveur Standard Edition avec serveur de conversation permanente colocalisé sur le serveur frontal
 
-Avec Standard Edition, vous pouvez colocaliser la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus basique. Vous devez vous assurer que le serveur frontal actuel dispose d’une capacité suffisante en termes de ressources physiques: processeur, mémoire, espace disque, etc.
+Avec Standard Edition, vous pouvez colocaliser la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus basique. Vous devez vous assurer que le serveur frontal actuel dispose d’une capacité suffisante en termes de ressources physiques : processeur, mémoire, espace disque, etc.
   
 De plus, vous pouvez collocate du serveur principal de chat permanent et de la base de données de conformité des discussions persistantes (si elle est activée) sur le serveur principal SQL Server Express local. Vous pouvez également choisir d’utiliser un serveur SQL Server distinct avec une instance dédiée. 
   

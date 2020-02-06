@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Pour plus d’informations sur la planification de stratégies de géolocalisation pour un déploiement Enhanced Emergency Services (E9-1-1) dans Skype entreprise Server, voir la rubrique voix.
-ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5064197dd8d23113d7bfeca30fd3596d5ee89c5c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276753"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802804"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des politiques d’emplacement pour Skype entreprise Server
  
@@ -60,11 +62,11 @@ Ce paramètre spécifie la clause d’exclusion de responsabilité qui s’affic
 Cette chaîne de numérotation (moins le "+" au début, mais y compris la normalisation réalisée par le plan de numérotation de l’utilisateur) signifie qu’un appel est un appel d’urgence. La **chaîne de numérotation d’urgence** oblige le client à inclure dans l’appel les informations d’emplacement et de rappel.
   
 > [!NOTE]
-> Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute «+» à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur exécutant Skype entreprise Server. le "+" sera automatiquement ajouté par le client Skype entreprise en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe «+». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur compose 9 911 pour passer un appel d’urgence, le client utilisera sa stratégie de plan de numérotation pour normaliser cette opération sur + 911 avant que le numéro composé soit évalué par les itinéraires dans le profil de l’appelant. 
+> Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute « + » à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur exécutant Skype entreprise Server. le "+" sera automatiquement ajouté par le client Skype entreprise en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe « + ». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur compose 9 911 pour passer un appel d’urgence, le client utilisera sa stratégie de plan de numérotation pour normaliser cette opération sur + 911 avant que le numéro composé soit évalué par les itinéraires dans le profil de l’appelant. 
   
  **Masques de chaîne de numérotation d’urgence (masque E9-1-1)**
   
-Liste séparée par des virgules des chaînes de numérotation traduites dans la chaîne de numérotation de **secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Skype entreprise en Europe ne sait pas que 911 correspond au numéro d’urgence des États-Unis, mais il peut composer 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
+Liste séparée par des virgules des chaînes de numérotation traduites dans la **chaîne de numérotation de secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Skype entreprise en Europe ne sait pas que 911 correspond au numéro d’urgence des États-Unis, mais il peut composer 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
   
  **Utilisation PSTN**
   

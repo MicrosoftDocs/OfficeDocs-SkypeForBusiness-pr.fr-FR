@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants forment la topologie Edge du réseau de périmètre. Sauf indication contraire, les composants font partie des scénarios de serveur Edge dans Skype entreprise Server 2015 et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :'
-ms.openlocfilehash: 34fc5663554c953ffc29c930962192dcaf51772c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 33346bfdb91053d4633cfdfdbcdd00db3e5504c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684237"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816453"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  

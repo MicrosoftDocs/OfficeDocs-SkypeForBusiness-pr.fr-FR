@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
-description: 'Résumé: pour plus d’informations sur la planification de votre topologie de conférence dans Skype entreprise Server, voir cette rubrique.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : pour plus d’informations sur la planification de votre topologie de conférence dans Skype entreprise Server, voir cette rubrique.'
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277397"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816013"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planifier votre topologie de conférence pour Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la planification de votre topologie de conférence dans Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Pour plus d’informations sur la planification de votre topologie de conférence dans Skype entreprise Server, reportez-vous à cette rubrique.
   
-Cette rubrique décrit les principales notions fondamentales relatives aux conférences dans Skype entreprise Server:
+Cette rubrique décrit les principales notions fondamentales relatives aux conférences dans Skype entreprise Server :
   
 - Topologies prises en charge
     
@@ -82,9 +84,9 @@ Skype entreprise Server propose les méthodes suivantes pour configurer Office W
     
     Les clients Skype entreprise externes peuvent se connecter à Skype entreprise Server et à Office Web Apps Server/Office Online Server à l’aide d’un serveur de proxy inverse, qui est un serveur qui accepte les demandes d’Internet et les transmet au réseau interne. (Les clients internes n’ont pas besoin d’utiliser le serveur proxy inverse, car ils peuvent se connecter directement à Office Web Apps Server/Office Online Server.) Cette topologie fonctionne de façon optimale si vous souhaitez utiliser une batterie de serveurs Office Web Apps dédiée ou une batterie de serveurs Office Online qui est uniquement utilisée par Skype entreprise Server.
     
-- **Utiliser un serveur Office Web Apps Server/Office Online déployé en externe** Dans cette topologie, Skype entreprise Server est déployé en local et utilise un serveur Office Web Apps Server/Office Online Server déployé en dehors de la zone réseau de Skype entreprise Server. Cela peut se produire quand Office Web Apps Server/Office Online Server est partagé sur plusieurs applications dans l’entreprise et est déployée dans un réseau nécessitant que Skype entreprise Server utilise l’interface externe d’Office Web Apps Server/Office Online Server. et inversement.
+- **Utiliser un serveur Office Web Apps Server/Office Online déployé en externe** Dans cette topologie, Skype entreprise Server est déployé en local et utilise un serveur Office Web Apps Server/Office Online Server déployé en dehors de la zone réseau de Skype entreprise Server. Cela peut se produire quand Office Web Apps Server/Office Online Server est partagé sur plusieurs applications de l’entreprise et est déployé sur un réseau nécessitant que Skype entreprise Server utilise l’interface externe d’Office Web Apps Server/Office Online Server et inversement.
     
-    Vous n’avez pas besoin d’installer un serveur proxy inverse; à la place, toutes les demandes du serveur Office Web Apps Server/Office Online Server vers Skype entreprise Server sont routées via votre serveur Edge. Vos clients Skype entreprise internes et externes se connectent à Office Web Apps Server/Office Online Server en utilisant l’URL externe.
+    Vous n’avez pas besoin d’installer un serveur proxy inverse ; à la place, toutes les demandes du serveur Office Web Apps Server/Office Online Server vers Skype entreprise Server sont routées via votre serveur Edge. Vos clients Skype entreprise internes et externes se connectent à Office Web Apps Server/Office Online Server en utilisant l’URL externe.
     
     Si le serveur Office Web Apps Server/Office Online Server est déployé à l’extérieur de votre pare-feu interne, sélectionnez l’option **Le serveur Office Web Apps est déployé sur un réseau externe (périmètre/Internet)** dans le générateur de topologie.
     

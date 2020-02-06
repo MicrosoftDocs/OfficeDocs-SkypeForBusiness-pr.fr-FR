@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services.
-ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992551"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816903"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de Trunk dans Skype entreprise Server
 

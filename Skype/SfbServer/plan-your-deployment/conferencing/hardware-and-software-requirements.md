@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
-description: 'Résumé: Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server.'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server.'
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277341"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815982"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server
 
-**Résumé:** Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server.
 
-Cette section décrit la configuration matérielle et logicielle requise pour les conférences Web, les conférences audio et vidéo (A/V), les conférences rendez-vous et la messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur des serveurs front-end; Il existe d’autres exigences pour les différents types de conférences, comme indiqué dans le schéma suivant.
+Cette section décrit la configuration matérielle et logicielle requise pour les conférences Web, les conférences audio et vidéo (A/V), les conférences rendez-vous et la messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur des serveurs front-end ; Il existe d’autres exigences pour les différents types de conférences, comme indiqué dans le schéma suivant.
 
 Par exemple, si vous voulez autoriser les conférences rendez-vous, vous devez déployer un serveur de médiation et une passerelle pour la connexion au réseau téléphonique public commuté (RTC). Si vous voulez autoriser les conférences Web, vous devez vous assurer que Skype entreprise Server peut se connecter à un serveur Office Web Apps. Si vous voulez autoriser les utilisateurs externes à participer à des conférences, vous devez déployer un serveur Edge.
 
@@ -47,7 +49,7 @@ Si vous avez choisi d’activer les conférences web, vous devez planifier les p
 
 Le service de conférence Web Skype entreprise Server stocke le contenu partagé pendant les réunions dans le magasin de fichiers. Dans le cadre du déploiement, vous devez spécifier un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition Server ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel situer le partage de fichiers et un nom de dossier pour le nouveau partage de fichiers. Pour plus d’informations, reportez-vous à [la rubrique Création d’un partage de fichiers dans Skype entreprise Server](../../deploy/install/create-a-file-share.md). Le service de conférence web chiffre le contenu avant de le stocker dans le magasin de fichiers.
 
-Skype entreprise Server prend en charge l’utilisation des partages de fichiers sur le stockage en attachement direct (DAS) ou sur un réseau de stockage (SAN), y compris le système de fichiers DFS et sur une baie redondante de disques indépendants (RAID) pour les magasins de fichiers. Lorsque l’Assistant Déploiement de Skype entreprise Server a défini l’emplacement du partage de fichiers, Skype entreprise Server crée une structure de dossiers dans le partage de fichier de la même façon que:
+Skype entreprise Server prend en charge l’utilisation des partages de fichiers sur le stockage en attachement direct (DAS) ou sur un réseau de stockage (SAN), y compris le système de fichiers DFS et sur une baie redondante de disques indépendants (RAID) pour les magasins de fichiers. Lorsque l’Assistant Déploiement de Skype entreprise Server a défini l’emplacement du partage de fichiers, Skype entreprise Server crée une structure de dossiers dans le partage de fichier de la même façon que :
 
 - 1-ApplicationServer-1
 
@@ -87,7 +89,7 @@ La fonction de conférence rendez-vous est une fonctionnalité facultative de la
 
 ### <a name="required-components"></a>Composants requis
 
-Pour pouvoir configurer les conférences rendez-vous, vous devez installer les composants Skype entreprise Server suivants:
+Pour pouvoir configurer les conférences rendez-vous, vous devez installer les composants Skype entreprise Server suivants :
 
 - service d’application de communications unifiées (UCAS), désigné par Service d’application
 
@@ -107,9 +109,9 @@ L’application assistance de conférence et d’annonce de conférences nécess
 
 Skype entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences rendez-vous. Toutefois, si vous avez un besoin professionnel qui nécessite que vous deviez modifier les fichiers audio par défaut, voir l’article 961177 de la base de connaissances Microsoft, [Comment personnaliser les invites vocales ou les fichiers audio pour les conférences](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)rendez-vous.
 
-Vous pouvez également utiliser l’utilitaire de gestion des invites de [voix personnalisées du surveillant des conférences Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant de téléphone rejoint une réunion Skype entreprise avec des invites personnalisées. pour fournir une nouvelle interface de réunion. Les invites vocales personnalisées peuvent être installées sur un serveur Entreprise ou Standard.
+Vous pouvez également utiliser l’utilitaire de gestion des [invites de voix personnalisées du surveillant des conférences Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant de téléphone rejoint une réunion Skype entreprise avec des invites personnalisées afin de fournir une nouvelle interface de réunion. Les invites vocales personnalisées peuvent être installées sur un serveur Entreprise ou Standard.
 
-L’application du service de conférence et l’application d’annonce présentent les exigences suivantes concernant la musique en attente, le nom enregistré et les fichiers d’invite audio:
+L’application du service de conférence et l’application d’annonce présentent les exigences suivantes concernant la musique en attente, le nom enregistré et les fichiers d’invite audio :
 
 - Format de fichier audio Windows Media (.wma)
 
@@ -142,7 +144,7 @@ Pour pouvoir utiliser les fonctionnalités de conférence, Skype entreprise Serv
 |serveurs frontaux  <br/> |Service de partage d’application Skype entreprise Server  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
 |serveurs frontaux  <br/> |Service de partage d’application Skype entreprise Server  <br/> |49152-65535  <br/> |TCP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
 |Serveurs frontaux  <br/> |Service d’annonce de conférences Skype entreprise Server  <br/> |5073  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes pour le service d’annonce de conférence Skype entreprise Server (c’est-à-dire pour la Conférence rendez-vous).  <br/> |
-|Tous les serveurs internes  <br/> |Divers  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui terminent les appels audio: serveurs frontaux (pour le service de surveillance des conférences Skype entreprise Server, service d’annonce de conférences Skype entreprise Server et service de conférence audio/vidéo Skype entreprise Server), et Serveur de médiation.  <br/> |
+|Tous les serveurs internes  <br/> |Divers  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui terminent le son : serveurs front-end (pour le service de surveillance des conférences Skype entreprise Server, service d’annonce de conférence Skype entreprise Server et service de visioconférence Skype entreprise Server) et serveur de médiation.  <br/> |
 |Serveurs Office Web Apps Server  <br/> ||443  <br/> ||Utilisé par Skype entreprise Server pour la connexion à Office Web Apps Server.  <br/> |
 
 **Ports clients requis**

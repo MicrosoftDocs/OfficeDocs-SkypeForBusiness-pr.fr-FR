@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype entreprise Server voix entreprise route les appels sur la base des numéros de téléphone normalisés au format E. 164. Cela signifie que toutes les chaînes numérotées doivent être normalisées au format E. 164 pour pouvoir effectuer une recherche de numéro inverse (RNL), afin de les traduire dans leur URI SIP correspondante. Skype entreprise Server vous permet de manipuler l’ID appelé et la présentation d’identification de l’appelant.
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274975"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816984"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Définir des règles de traduction dans Skype entreprise Server
 
@@ -47,7 +49,7 @@ Skype entreprise Server vous permet également de traduire le numéro de télép
 > [!Important]
 > La possibilité d’associer une ou plusieurs règles de traduction à une configuration de Trunk vocale d’entreprise est conçue pour être utilisée comme *alternative* à la configuration de règles de traduction sur l’homologue de Trunk. N’associez pas de règles de traduction à une configuration de Trunk vocale d’entreprise si vous avez configuré des règles de traduction sur le Trunk homologue, car les deux règles peuvent entrer en conflit. 
 
-Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une des méthodes suivantes:
+Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une des méthodes suivantes :
 
 - [Utiliser l’outil créer une règle de traduction](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laisser le panneau de configuration de Skype entreprise Server générer le modèle correspondant et la règle de traduction correspondants pour vous.
 - [Rédigez manuellement des expressions régulières](#create-or-modify-a-translation-rule-manually) pour définir les modèles correspondants et les règles de traduction.
@@ -72,7 +74,7 @@ Suivez ces étapes si vous voulez définir une règle de traduction en entrant u
     - **Chiffres à supprimer** : (Facultatif) précisez le nombre de chiffres de début à supprimer. Par exemple, entrez **1** pour retirer le signe + au début du numéro.
     - **Chiffres à ajouter** : (Facultatif) précisez les chiffres à ajouter aux numéros traduits. Par exemple, entrez **011** si vous souhaitez ajouter 011 aux numéros traduits au moment d’appliquer la règle.
     
-    Les valeurs que vous entrez dans ces champs sont reflétées dans les champs **modèle pour correspondre** et règle de **traduction** . Par exemple, si vous spécifiez les valeurs d’exemple ci-dessus, l’expression régulière résultante dans le **modèle Matc**est la suivante:
+    Les valeurs que vous entrez dans ces champs sont reflétées dans les champs **modèle pour correspondre** et règle de **traduction** . Par exemple, si vous spécifiez les valeurs d’exemple ci-dessus, l’expression régulière résultante dans le **modèle Matc**est la suivante :
     
     **^\+(\d{9}\d +) $** 
 
@@ -100,7 +102,7 @@ Suivez ces étapes si vous voulez définir une règle de traduction en écrivant
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Skype pour les entreprises, voir [installer et ouvrir les outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Pour commencer à définir une règle de traduction, suivez les étapes décrites dans l’article [configurer un Trunk with Media Bypass](GET LINK AFTER MIGRATION)via l’étape 10 ou [configurer un Trunk sans média](GET LINK AFTER MIGRATION) par le biais de l’étape 9.
 4. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
-5. Facultatif Dans **Description**, tapez la description de la règle de traduction. par exemple, la numérotation internationale à la **distance américaine**.
+5. Facultatif Dans **Description**, tapez la description de la règle de traduction. par exemple, la **Numérotation internationale à la distance américaine**.
 6. Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.
 7. Entrez les informations suivantes dans entrer une **expression régulière**:
     - Dans **Suivre ce modèle**, spécifiez le modèle qui sera utilisé pour correspondre aux numéros à traduire.

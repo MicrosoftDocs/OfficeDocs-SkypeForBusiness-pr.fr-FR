@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: Le mode MediaLine stocke les informations relatives à chaque ligne multimédia dans la base de données. Une seule session audio contient généralement une ligne multimédia audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo. Toutefois, la session peut contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée. Cet affichage a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 03b86aa6e954c61a40a28e1d2c2a0194b581849e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b22408ddc40f1df6452895327e8a67800ef24eb9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808192"
 ---
 # <a name="medialine-view"></a>Affichage MediaLine
  
@@ -65,8 +67,8 @@ Le mode MediaLine stocke les informations relatives à chaque ligne multimédia 
 |CalleeVPN  <br/> |bit  <br/> |Indique si l’appelant est connecté via un réseau privé virtuel. 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
 |ConversationalMOS  <br/> |décimale (3, 2)  <br/> |La fonction de conversation à bande étroite des sessions audio (en fonction des deux flux audio).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |Il s’agit de la bande passante réelle appliquée au flux d’envoi indiqué en fonction de différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, etc.). Cela ne doit pas être confondu avec la bande passante effective, car il peut y avoir une bande passante effective plus faible en fonction de l’estimation de bande passante. Il s’agit essentiellement de la bande passante maximale que le flux d’envoi peut prendre en limitation par l’estimation de bande passante.  <br/> |
-|AppliedBandwidthSource  <br/> |varchar (256)  <br/> |Source de la bande passante imposée. Il décrit l’emplacement vers lequel la limite de bande passante provient (par exemple, «serveur de stratégie», «activer le serveur» ou «modalité»).  <br/> |
-|Appelant  <br/> |bit  <br/> |Indique si les mesures de l’appelant ont été reçues; 1 est oui, 0 est non.  <br/> |
+|AppliedBandwidthSource  <br/> |varchar (256)  <br/> |Source de la bande passante imposée. Il décrit l’emplacement vers lequel la limite de bande passante provient (par exemple, « serveur de stratégie », « activer le serveur » ou « modalité »).  <br/> |
+|Appelant  <br/> |bit  <br/> |Indique si les mesures de l’appelant ont été reçues ; 1 est oui, 0 est non.  <br/> |
 |Appelé  <br/> |bit  <br/> |Indique si les mesures du destinataire de l’appel ont été reçues. 1 est oui, 0 est non.  <br/> |
 |MidCallReport  <br/> |bit  <br/> |Indique s’il s’agit d’une portion de l’appel ou de l’appel complet.  <br/> |
 |ClassifiedPoorCall  <br/> |bit  <br/> |Indique si un appel a été considéré comme un appel médiocre (1) ou comme bon appel (0).  <br/> |

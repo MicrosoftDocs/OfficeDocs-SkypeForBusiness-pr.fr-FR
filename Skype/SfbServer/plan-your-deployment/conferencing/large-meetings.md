@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : cette rubrique vous présente les meilleures pratiques en matière de mise en œuvre et de gestion de grandes réunions dans Skype entreprise Server.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815972"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande envergure dans Skype entreprise Server
  
@@ -57,7 +59,7 @@ Pour disposer de suffisamment de ressources aux niveaux du processeur et de la m
   
 Dans le cas d’un pool de serveurs Skype entreprise destiné à accueillir des réunions de grande taille, il est préférable d’héberger une seule réunion d’au maximum 1000 utilisateurs, de telle sorte que les heures de réunion doivent être réservées à l’avance via un processus de planification hors-bande pour garantir une prise en charge dédiée du Serveurs frontaux. Pour prendre en charge plusieurs réunions de grande taille en même temps, vous devez configurer plusieurs pools de réunions volumineux dédiées.
   
-Pour plus d’informations sur la configuration matérielle et logicielle requise et sur la planification d’une topologie qui prend en charge les réunions de grande taille, voir [Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server](hardware-and-software-requirements.md) et [planification de votre topologie de conférence pour Skype entreprise Server](conferencing-topology.md).
+Pour plus d’informations sur la configuration matérielle et logicielle requise et sur la planification d’une topologie qui prend en charge des réunions de grande taille, voir [Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server](hardware-and-software-requirements.md) et [planification de votre topologie de conférence pour Skype entreprise Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Mise en œuvre des meilleures pratiques pour les grandes réunions
 

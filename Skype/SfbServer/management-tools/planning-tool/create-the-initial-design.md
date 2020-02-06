@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Une fois l’installation de l’outil de planification de Skype entreprise Server terminée, vous pouvez commencer à utiliser l’outil de planification et commencer à concevoir l’infrastructure 2015 de Skype entreprise Server.
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816493"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Création de la conception de topologie initiale pour Skype Entreprise Server 2015
 
@@ -28,15 +30,15 @@ Une fois l’installation de l’outil de planification de Skype entreprise Serv
 
 ### <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Pour commencer à utiliser l’outil de planification et créer la conception initiale
 
-1. Démarrez l’outil de planification de Skype entreprise Server 2015: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **outil de planification**.
+1. Démarrez l’outil de planification de Skype entreprise Server 2015 : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server 2015**, puis sur **outil de planification**.
 
 2. Après le démarrage de l’outil de planification, l' **outil Bienvenue dans l’outil de planification de la page 2015 de Skype entreprise Server** s’affiche. Choisissez l’une des options suivantes pour commencer votre conception :
 
-   - **Option 1: commencer** Le fait de cliquer sur mise en **route** fournit une série spécifique de questions relatives aux entretiens et à la définition du critère. Lorsque vous en avez terminé avec la section **Mise en route** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
+   - **Option 1 : commencer** Le fait de cliquer sur mise en **route** fournit une série spécifique de questions relatives aux entretiens et à la définition du critère. Lorsque vous en avez terminé avec la section **Mise en route** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
 
-   - **Option 2: créer des sites** Lorsque vous cliquez sur les **sites de création** sur la page d’accueil, les questions posées dans la section mise en **route sont** ignorées. Les informations collectées par les réponses fournies aux questions d’entretien dans la rubrique **Mise en route** sont définies comme valeurs par défaut avec cette option. En cliquant sur **Concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut selon ses besoins sur la page de démarrage **Sites centraux**. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
+   - **Option 2 : créer des sites** Lorsque vous cliquez sur les **sites de création** sur la page d’accueil, les questions posées dans la section mise en **route sont** ignorées. Les informations collectées par les réponses fournies aux questions d’entretien dans la rubrique **Mise en route** sont définies comme valeurs par défaut avec cette option. En cliquant sur **Concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut selon ses besoins sur la page de démarrage **Sites centraux**. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
 
-   - **Option 3: afficher la topologie enregistrée** Si vous avez déjà rempli et enregistré une topologie par le biais de l’utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la ré-enregistrer, puis l’exporter dans Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
+   - **Option 3 : afficher la topologie enregistrée** Si vous avez déjà rempli et enregistré une topologie par le biais de l’utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la ré-enregistrer, puis l’exporter dans Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
 
 3. Cliquez sur mise en **route** pour commencer à concevoir votre topologie 2015 de Skype entreprise Server.
 

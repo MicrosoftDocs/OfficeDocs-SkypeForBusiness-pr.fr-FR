@@ -8,23 +8,25 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: 'Résumé: cette rubrique vous explique comment planifier le fonctionnement du serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 3e485f938d2bd48dad5f1b9f0baa96d7f3f537d0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : cette rubrique vous explique comment planifier le fonctionnement du serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: f2adc5bc9ed23f4ca02843e8c6136c44fca92d6d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418279"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815732"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Pour plus d’informations sur la planification du serveur de conversation permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.
+**Résumé :** Pour plus d’informations sur la planification du serveur de conversation permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.
   
 Le serveur Chat permanent est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salles de conversation qui persistent dans le temps. Même si les utilisateurs peuvent communiquer en temps réel pendant une session - notamment par le biais de texte, de liens et de fichiers - le contenu de chaque session est persistant, ce qui signifie qu’il reste disponible après la fin d’une session.
   
-Le serveur de chat permanent peut améliorer la communication au sein de votre organisation en procédant comme suit:
+Le serveur de chat permanent peut améliorer la communication au sein de votre organisation en procédant comme suit :
   
 - Augmentation de la sensibilisation à l’information et à la participation au sein de l’organisation
     
@@ -85,9 +87,9 @@ Les services Web de chat permanent s’exécutent sur les serveurs front-end Sky
     
 ## <a name="defining-requirements-for-your-organization"></a>Définition des exigences pour votre organisation
 
-Si vous décidez de déployer le serveur de chat permanent, vous devez déterminer les besoins de votre organisation, puis définir la topologie, l’infrastructure et les exigences techniques pour répondre aux besoins de votre entreprise. Pour optimiser votre déploiement, vous devez répondre aux questions suivantes:
+Si vous décidez de déployer le serveur de chat permanent, vous devez déterminer les besoins de votre organisation, puis définir la topologie, l’infrastructure et les exigences techniques pour répondre aux besoins de votre entreprise. Pour optimiser votre déploiement, vous devez répondre aux questions suivantes :
   
-- Vous effectuez une migration à partir d’une version précédente du serveur de discussion de groupe ou d’une version antérieure de Chat Server ou vous déployez le serveur de chat permanent pour la première fois?
+- Vous effectuez une migration à partir d’une version précédente du serveur de discussion de groupe ou d’une version antérieure de Chat Server ou vous déployez le serveur de chat permanent pour la première fois ?
     
 - Qui peut utiliser le serveur de conversation permanente ? Vous spécifiez des stratégies de conversation permanente pour déterminer l’accès utilisateur au niveau global, site ou utilisateur.
     

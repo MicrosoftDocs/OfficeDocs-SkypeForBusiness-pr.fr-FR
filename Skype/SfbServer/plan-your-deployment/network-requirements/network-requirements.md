@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 'Résumé: passez en revue les considérations relatives aux composants réseau ci-dessous avant d’implémenter Skype entreprise Server.'
-ms.openlocfilehash: 56e8b00a4b662d19fd928b439ae8fafb7bcbdb3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : passez en revue les considérations relatives aux composants réseau ci-dessous avant d’implémenter Skype entreprise Server.'
+ms.openlocfilehash: b7b9c7e239aab5d395fcdadf0cb254df4e13cecd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297035"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802024"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
-**Résumé:** Passez en revue les considérations relatives aux composants réseau ci-dessous avant d’implémenter Skype entreprise Server.
+**Résumé :** Passez en revue les considérations relatives aux composants réseau ci-dessous avant d’implémenter Skype entreprise Server.
 
 Les informations contenues dans ces rubriques sont également abordées dans le livre blanc [planification du réseau, surveillance et résolution des problèmes liés à Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) et informations supplémentaires. Même si le contenu fait référence explicitement à Lync 2010 et à Lync 2013, les considérations relatives à Skype entreprise Server ne sont pas modifiées.
 
@@ -46,7 +48,7 @@ Dans le cas de l'intégration au réseau téléphonique commuté (RTC ou, en ang
 ## <a name="audiovideo-network-requirements"></a>Conditions de réseau requises pour les fonctionnalités audio/vidéo
 <a name="AV_req"> </a>
 
-La configuration réseau requise pour les appels audio/vidéo (A/V) dans un déploiement de Skype entreprise Server comprend les éléments suivants:
+La configuration réseau requise pour les appels audio/vidéo (A/V) dans un déploiement de Skype entreprise Server comprend les éléments suivants :
 
 - Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de charge DNS, vous pouvez configurer le pare-feu _externe_ pour effectuer la traduction d’adresses réseau (NAT). Vous ne pouvez pas configurer le pare-feu _internal_ pour effectuer la traduction NAT. Pour plus d’informations, consultez la section [planification de port et de pare-feu](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
@@ -130,7 +132,7 @@ L'utilisation de la bande passante par le trafic multimédia peut être difficil
 |Bande ultralarge soie  <br/> |Égal à égal  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> Les appels RTC du client Skype entreprise utilisent généralement le codec G. 711, qui nécessite une bande passante élevée. S’il n’y a pas assez de bande passante disponible pour ce codec, les appels peuvent échouer en utilisant une erreur qui ressemble à ce qui suit dans les journaux multimédia: au **moins un codec doit être activé, hr: c0042004**. Les journaux multimédias (. blogs) sont chiffrés et ne peuvent être décodés que par le personnel du support Microsoft.
+> Les appels RTC du client Skype entreprise utilisent généralement le codec G. 711, qui nécessite une bande passante élevée. S’il n’y a pas assez de bande passante disponible pour ce codec, les appels peuvent échouer en utilisant une erreur qui ressemble à ce qui suit dans les journaux multimédia : au **moins un codec doit être activé, hr : c0042004**. Les journaux multimédias (. blogs) sont chiffrés et ne peuvent être décodés que par le personnel du support Microsoft.
 
 Les valeurs de bande passante contenues dans le tableau ci-dessus reposent sur la mise en paquets 20 ms (50 paquets par seconde) et pour Siren et G.722 incluent le protocole SRTP (Secure Real-Time Transport Protocol) en plus des scénarios de conférence et supposent que le flux est entièrement actif. La correction d'erreur de transfert (FEC) est utilisée dynamiquement en cas de perte de paquet sur la liaison afin de maintenir la qualité du flux audio. 
 
@@ -262,7 +264,7 @@ La Qualité de service (QoS) est une technologie réseau utilisée dans certaine
 
 Skype entreprise Server n’est pas requis par QoS, mais il est fortement recommandé. Si vous rencontrez des problèmes de perte de paquets sur le réseau, il est possible d’ajouter de la bande passante ou d’implémenter QoS. Si l'ajout de bande passante n'est pas possible, l'implémentation de QoS peut constituer la seule solution au problème.
 
-Skype entreprise Server offre une prise en charge complète de QoS: cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Skype entreprise Server à leur infrastructure réseau existante. Pour ce faire, procédez comme suit :
+Skype entreprise Server offre une prise en charge complète de QoS : cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Skype entreprise Server à leur infrastructure réseau existante. Pour ce faire, procédez comme suit :
 
 - [Activation de la qualité de service (QoS) dans Skype entreprise Server pour les appareils qui ne sont pas basés sur Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). Par défaut, QoS est désactivée pour les ordinateurs et autres appareils (tels que les iPhones) qui exécutent d'autres systèmes d'exploitation. Même si vous pouvez utiliser Skype entreprise Server pour activer et désactiver la qualité de service des appareils, vous ne pouvez pas utiliser le produit pour modifier les codes DSCP utilisés par ces appareils.
 

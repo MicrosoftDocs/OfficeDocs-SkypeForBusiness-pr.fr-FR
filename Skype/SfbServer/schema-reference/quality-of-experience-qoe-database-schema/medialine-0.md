@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Chaque enregistrement représente une ligne multimédia. (Une session audio est généralement composée d’une seule ligne de média audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo, bien que la session puisse contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée.
-ms.openlocfilehash: f9ededade35e5654a89b68343f44094f4319ae70
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c189a79a9d87e76ec48be1acb7b4062876b5b16
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808812"
 ---
 # <a name="medialine-table"></a>Table MediaLine
  
@@ -43,7 +45,7 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 |**CallerRenderDev** <br/> |int  <br/> |Externes  <br/> |Périphérique de rendu utilisé par l’appelant. Référence à partir de la [table Device](device.md).  <br/> |
 |**CallerCaptureDevDriver** <br/> |int  <br/> |Externes  <br/> |Pilote pour l’appareil de capture de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |Externes  <br/> |Pilote de l’appareil de rendu de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
-|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Externes  <br/> |Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la [table NetworkConnectionDetail](networkconnectiondetail.md). Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi; et 3 pour une connexion Ethernet.  <br/> |
+|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Externes  <br/> |Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la [table NetworkConnectionDetail](networkconnectiondetail.md). Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
 |**CallerBssid** <br/> |int  <br/> |Externes  <br/> |BSSID de l’appelant, si la technologie sans fil est utilisée. Référencée à partir de la [table MacAddress](macaddress.md).  <br/> |
 |**CallerVPN** <br/> |bit  <br/> ||Le lien de l’appelant. 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
 |**CallerLinkSpeed** <br/> |décimale (18, 0)  <br/> ||La vitesse de connexion du réseau, en BPS, pour le point de terminaison de l’appelant.  <br/> |
@@ -58,14 +60,14 @@ Chaque enregistrement représente une ligne multimédia. (Une session audio est 
 |**CalleeRenderDev** <br/> |int  <br/> |Externes  <br/> |Périphérique de rendu utilisé par le destinataire de l’appel. Référence à partir de la [table Device](device.md).  <br/> |
 |**CalleeCaptureDevDriver** <br/> |int  <br/> |Externes  <br/> |Pilote de l’appareil de capture du destinataire de l’appel. Fait référence à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
 |**CalleeRenderDevDriver** <br/> |varchar (256)  <br/> |Externes  <br/> |Pilote de l’appareil de rendu du destinataire de l’appel. Fait référence à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
-|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Externes  <br/> |Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la [table NetworkConnectionDetail](networkconnectiondetail.md). Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi; et 3 pour une connexion Ethernet.  <br/> |
+|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Externes  <br/> |Indique la manière dont l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de la [table NetworkConnectionDetail](networkconnectiondetail.md). Les valeurs par défaut sont 0 pour une connexion câblée' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
 |**CalleeBssid** <br/> |int  <br/> |Externes  <br/> |Le BSSID de l’appelant si la technologie sans fil est utilisée. Référencée à partir de la [table MacAddress](macaddress.md).  <br/> |
-|**CalleeVPN** <br/> |bit  <br/> | <br/> |Le lien du destinataire de l’appel; 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
+|**CalleeVPN** <br/> |bit  <br/> | <br/> |Le lien du destinataire de l’appel ; 1 est un réseau privé virtuel (VPN), 0 est non VPN.  <br/> |
 |**CalleeLinkSpeed** <br/> |décimale (18, 0)  <br/> | <br/> |La vitesse de connexion du réseau, en BPS, pour le point de terminaison du destinataire de l’appel.  <br/> |
 |**ConversationalMOS** <br/> |décimale (3, 2)  <br/> | <br/> |La fonction de conversation à bande étroite des sessions audio (en fonction des deux flux audio).  <br/> |
 |**AppliedBandwidthLimit** <br/> |int  <br/> ||Il s’agit de la bande passante réelle appliquée au flux d’envoi indiqué en fonction de différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, etc.). Ce problème ne doit pas être confondu avec la bande passante effective, car il peut y avoir une bande passante effective plus faible en fonction de l’estimation de bande passante. Il s’agit essentiellement de la bande passante maximale que le flux d’envoi peut prendre en limitation par l’estimation de bande passante.  <br/> |
-|**AppliedBandwidthSourceKey** <br/> |type  <br/> ||Il s’agit de la source de la bande passante qui est imposée. Il décrit l’emplacement à partir duquel la limite de bande passante provient («serveur de stratégie», «activer le serveur», «modalité», etc.). Fait référence à partir de la [table AppliedBandwidthSource](appliedbandwidthsource.md).  <br/> |
-|**Appelant** <br/> |bit  <br/> | <br/> |Indique si les mesures de l’appelant ont été reçues; 1 est oui, la valeur null est non.  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |type  <br/> ||Il s’agit de la source de la bande passante qui est imposée. Il décrit l’emplacement à partir duquel la limite de bande passante provient (« serveur de stratégie », « activer le serveur », « modalité », etc.). Fait référence à partir de la [table AppliedBandwidthSource](appliedbandwidthsource.md).  <br/> |
+|**Appelant** <br/> |bit  <br/> | <br/> |Indique si les mesures de l’appelant ont été reçues ; 1 est oui, la valeur null est non.  <br/> |
 |**Appelé** <br/> |bit  <br/> | <br/> |Indique si les mesures du destinataire de l’appel ont été reçues. 1 est oui, la valeur null est non.  <br/> |
 |**MidCallReport** <br/> |bit  <br/> ||Indique si l’état correspond à une partie de la session ou à la session complète.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ClassifiedPoorCall** <br/> |bit  <br/> ||Indique si un appel a été considéré comme un appel médiocre (valeur de 1) ou comme bon appel (0).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

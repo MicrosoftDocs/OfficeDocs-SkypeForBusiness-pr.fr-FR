@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés à partir des sélections effectuées dans Concevoir des sites. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
-ms.openlocfilehash: 22b3628c5c2a499d57a6bfdd1d90fe3b79b90e85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae6dba3f5967fcd10618a8ab53c754a4f38da748
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288984"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816293"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
@@ -59,9 +61,9 @@ Le rapport certificats contient tous les certificats requis dans le déploiement
 
 ![Rapport d’administration de certificats](../../media/Certificates_Report_Admin_Report.png)
 
-Examinez et étudiez attentivement l’utilisation et l’objectif de chaque certificat dans le déploiement. En cas de doute sur le rôle d’un certificat, déterminez les éléments avec lesquels le serveur ou le service communique. Les certificats dans Skype entreprise Server 2015 sont utilisés pour deux fonctions principales:
+Examinez et étudiez attentivement l’utilisation et l’objectif de chaque certificat dans le déploiement. En cas de doute sur le rôle d’un certificat, déterminez les éléments avec lesquels le serveur ou le service communique. Les certificats dans Skype entreprise Server 2015 sont utilisés pour deux fonctions principales :
 
-- MTLS (Mutual Transport Layer Security): les ordinateurs impliqués dans la communication présentent chacun un certificat qui révèle leur identité sur un autre ordinateur. On appelle cela l’authentification serveur. La communication ne peut pas commencer tant que chaque ordinateur n’a pas approuvé l’identité de l’autre ordinateur.
+- MTLS (Mutual Transport Layer Security) : les ordinateurs impliqués dans la communication présentent chacun un certificat qui révèle leur identité sur un autre ordinateur. On appelle cela l’authentification serveur. La communication ne peut pas commencer tant que chaque ordinateur n’a pas approuvé l’identité de l’autre ordinateur.
 
 - Le chiffrement (Secure Sockets Layer), SSL et TLS (Transport Layer Security) est un moyen essentiel de garantir la sécurité des communications, de garantir la confidentialité et de créer un système de communication et de collaboration approuvé.
 

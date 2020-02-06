@@ -8,19 +8,21 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Résumé: cette rubrique vous explique en plus des catégories, des salles de conversation et des rôles d’utilisateur et d’administrateur pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : cette rubrique vous explique en plus des catégories, des salles de conversation et des rôles d’utilisateur et d’administrateur pour le serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 03a7b68a9728b60ebae25081e3e974bb61b0fc5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418468"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815762"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Catégories de conversation permanente, salles de conversation, rôles d’utilisateur dans Skype Entreprise Server 2015
  
-**Résumé:** Consultez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de chat permanent dans Skype entreprise Server 2015.
   
 Vous pouvez contrôler l’accès aux salles de conversation en créant des catégories de salles de conversation, puis en indiquant l’accès aux catégories et aux salles de conversation dans les catégories. Vous pouvez également indiquer différents rôles administrateur. Cette rubrique décrit les ressources suivantes : 
   
@@ -44,7 +46,7 @@ La logique principale du concept de membres autorisés ou refusés passe par des
   
 ## <a name="chat-rooms-and-user-roles"></a>Salles de conversation et rôles utilisateur
 
-Outre les membres autorisés et refusés pour les catégories, vous pouvez également contrôler l’accès aux salles de conversation en spécifiant les rôles d’utilisateur suivants: créateur, responsable, membre et présentateur.
+Outre les membres autorisés et refusés pour les catégories, vous pouvez également contrôler l’accès aux salles de conversation en spécifiant les rôles d’utilisateur suivants : créateur, responsable, membre et présentateur.
   
 - **Créateur** : utilisateurs ayant l’autorisation de créer des salles de conversation. Ces utilisateurs figurent dans la liste de créateurs de certaines catégories : ils peuvent créer des salles de conversation dans cette catégorie et ils peuvent aussi assigner une appartenance selon la catégorie et assigner des responsables pour gérer la salle de conversation. L’utilisateur qui crée une salle de conversation est automatiquement ajouté en tant que responsable de la salle.
     
@@ -58,15 +60,15 @@ Outre les membres autorisés et refusés pour les catégories, vous pouvez égal
     > [!IMPORTANT]
     > Si le responsable est aussi le créateur d’une autre catégorie, il peut modifier la catégorie de sorte à pouvoir créer des salles. 
   
-- **Membre**: utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées, telles que les messages non lus, les filtres figure et les filtres par Mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est une salle d’Auditorium dans laquelle seuls les présentateurs peuvent publier, obtenir du contenu et effectuer une recherche. Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher une salle de conversation s’ils figurent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour joindre ces salles de conversation et accéder au contenu. (Il n’y a pas d’accès ou d’approbations de requête intégré au système; ces opérations sont effectuées en externe par e-mail, par téléphone ou d’autres types de contacts.)
+- **Membre**: utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées, telles que les messages non lus, les filtres figure et les filtres par Mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est une salle d’Auditorium dans laquelle seuls les présentateurs peuvent publier, obtenir du contenu et effectuer une recherche. Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher une salle de conversation s’ils figurent dans la liste des membres autorisés de la catégorie, mais doivent demander l’accès pour joindre ces salles de conversation et accéder au contenu. (Il n’y a pas d’accès ou d’approbations de requête intégré au système ; ces opérations sont effectuées en externe par e-mail, par téléphone ou d’autres types de contacts.)
     
 - **Présentateur** : utilisateurs pouvant publier dans un auditorium.
     
 ## <a name="administrator-roles"></a>Rôles d’administrateur
 
-Vous trouverez ci-après les rôles d’administrateur pour le serveur de chat permanent:
+Vous trouverez ci-après les rôles d’administrateur pour le serveur de chat permanent :
   
-- **Administrateur de chat permanent**: le rôle d’administrateur de chat permanent peut gérer des salles de conversation (modifier toutes les propriétés y compris l’appartenance, les responsables, les catégories, marquer des salles comme désactivées), et créer et gérer des catégories de salle de conversation qui définissent les personnes peut créer des salles de conversation et y accéder. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Les administrateurs peuvent également modifier et gérer la configuration de chat permanent (propriétés du pool, paramètres globaux et configuration de la conformité) et peut également planifier et implémenter une migration à partir d’un ancien déploiement du serveur de discussion de groupe sur Skype entreprise Server 2015 Serveur de chat permanent.
+- **Administrateur de chat permanent**: le rôle d’administrateur de chat permanent peut gérer des salles de conversation (modifier toutes les propriétés, y compris l’appartenance, les responsables, les catégories, marquer des salles comme désactivées), et créer et gérer des catégories de salle de conversation qui définissent les personnes autorisées à créer des salles de conversation. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Les administrateurs peuvent également modifier et gérer la configuration de chat permanent (propriétés du pool, paramètres globaux et configuration de la conformité) et peut également planifier et implémenter une migration à partir d’un ancien déploiement du serveur de discussion de groupe sur Skype entreprise Server 2015 Serveur de chat permanent.
     
     Les administrateurs de chat permanent peuvent administrer le serveur de chat permanent en utilisant des applets de commande Windows PowerShell à distance (à partir d’un ordinateur autre que le serveur de chat permanent). Serveur de chat permanent vérifie que l’administrateur de chat permanent est membre du groupe local de l’administrateur local RTC sur le serveur frontal du serveur Chat permanent.
     

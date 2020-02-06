@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Le schéma de base de données d’enregistrement des détails des appels (CDR) se compose des tableaux suivants.
-ms.openlocfilehash: a8d36d75f629b41c535de99c0b9aef42770ba573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a35636333366bbfd55d4337fadfec68af681db6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296153"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815132"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste des tables CDR dans Skype entreprise Server 2015
  
@@ -28,7 +30,7 @@ Le schéma de base de données d’enregistrement des détails des appels (CDR) 
 |:-----|:-----|
 |[Table CallPriorities dans Skype entreprise Server 2015](callpriorities.md) <br/> |Cette liste contient les différentes priorités d’appels (par exemple, l’urgence, le standard, le standard, les non urgentes, etc.).  <br/> |
 |[Table ConferenceJoinTimeThresholds dans Skype entreprise Server 2015](conferencejointimethresholds.md) <br/> |Stocke les limites de classification utilisées par le rapport de synthèse des heures de participation à la Conférence.  <br/> |
-|[Table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md) <br/> |Stocke la liste des raisons possibles de registre de l’utilisateur, telles que «initié par le client», «inscription expirée», «blocage du client» et plus encore.  <br/> |
+|[Table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md) <br/> |Stocke la liste des raisons possibles de registre de l’utilisateur, telles que « initié par le client », « inscription expirée », « blocage du client » et plus encore.  <br/> |
 |[Table MediaList](medialist.md) <br/> |Stocke la liste de types de médias qui peuvent générer des entrées dans la base de données (par exemple, messagerie instantanée, audio, vidéo et transfert de fichiers).  <br/> |
 |[Table PurgeSettings](purgesettings.md) <br/> |Stocke les informations qui spécifient si les enregistrements de détails des appels obsolètes sont automatiquement supprimés de la base de données CDR.  <br/> |
 |[Table Roles](roles.md) <br/> |Stocke la liste des rôles de conférences possibles (par exemple, participants et présentateur).  <br/> |
@@ -104,7 +106,7 @@ Le schéma de base de données d’enregistrement des détails des appels (CDR) 
 |**Table**|**Description**|
 |:-----|:-----|
 |[Tableau d’application dans Skype entreprise Server 2015](application.md) <br/> |Stocke les informations relatives à divers processus dans Skype entreprise Server 2015 qui participent au routage et aux connexions.  <br/> |
-|[CallType table dans Skype entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types de l’appel (par exemple, «audio», «messages instantanés», «audio et vidéo» et «partage d’application»).  <br/> |
+|[CallType table dans Skype entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types de l’appel (par exemple, « audio », « messages instantanés », « audio et vidéo » et « partage d’application »).  <br/> |
 |[Table ErrorCategory dans Skype entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification de diagnostic 2015 de Skype entreprise Server.  <br/> |
 |[Table ErrorDef dans Skype entreprise Server 2015](errordef.md) <br/> |Stocke des informations sur les types d’erreurs et leurs définitions.  <br/> |
 |[Table ErrorReport dans Skype entreprise Server 2015](errorreport.md) <br/> |Stocke les informations sur les erreurs qui se sont produites.  <br/> |

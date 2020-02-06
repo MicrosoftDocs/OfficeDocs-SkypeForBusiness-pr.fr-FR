@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Skype entreprise Server.
-ms.openlocfilehash: 272785cd1dcfe0bf21f7ac2b5ab64f36646237eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a257ad197d573beccb187ef49e41b3864c1a58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275065"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817075"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gestion des applications approuvées dans Skype entreprise Server
 
@@ -28,7 +30,7 @@ Cet article vous explique comment configurer un nouveau serveur d’applications
 
 1.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-2.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
+2.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
 
 3.  Sélectionnez **Télécharger la topologie à partir du déploiement existant**, puis cliquez sur **OK**.
 
@@ -49,7 +51,7 @@ Cet article vous explique comment configurer un nouveau serveur d’applications
 
 ## <a name="view-a-list-of-trusted-applications"></a>Afficher une liste des applications approuvées
 
-Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour afficher une liste des applications approuvées que vous avez déployées dans votre environnement Skype entreprise Server. Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Skype entreprise Server. Cette relation d’approbation est résumée dans la liste suivante:
+Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour afficher une liste des applications approuvées que vous avez déployées dans votre environnement Skype entreprise Server. Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Skype entreprise Server. Cette relation d’approbation est résumée dans la liste suivante :
 
   - Les applications approuvées ne sont pas confrontées à l’authentification par Skype entreprise Server.
 
@@ -80,11 +82,11 @@ Vous pouvez afficher des informations sur vos applications approuvées à l’ai
 
 ### <a name="to-view-trusted-applications"></a>Pour afficher des applications approuvées
 
-Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsConferenceDisclaimer
     
-   Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable:
+   Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable :
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com

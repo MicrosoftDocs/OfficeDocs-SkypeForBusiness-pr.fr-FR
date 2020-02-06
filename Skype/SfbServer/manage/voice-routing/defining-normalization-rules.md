@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les règles de normalisation de Skype entreprise Server utilisent des expressions régulières du .NET Framework pour convertir les numéros de téléphone numérotés au format E. 164. en d’autres termes, les règles de normalisation emportent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274981"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816994"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition de règles de normalisation dans Skype entreprise Server
 
@@ -24,8 +26,8 @@ Pour plus d’informations sur les règles de normalisation, voir [plans de num�
 
 Pour plus d’informations sur la façon d’écrire des expressions régulières, voir [expressions régulières .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Pour définir ou modifier une règle de normalisation, vous pouvez utiliser l’une des méthodes suivantes:
-- [Utiliser l’outil **créer une règle de normalisation** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laisser le panneau de configuration de Skype entreprise Server générer le modèle de correspondance et la règle de traduction correspondants Pour vous.
+Pour définir ou modifier une règle de normalisation, vous pouvez utiliser l’une des méthodes suivantes :
+- [Utilisez l’outil **créer une règle de normalisation** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis faites en sorte que le panneau de configuration de Skype entreprise Server génère le modèle de correspondance et la règle de traduction correspondants pour vous.
 - [Rédigez manuellement des expressions régulières](#create-or-modify-a-normalization-rule-manually) pour définir les modèles correspondants et les règles de traduction. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Création ou modification d’une règle de normalisation à l’aide de l’onglet créer une règle de normalisation
@@ -45,7 +47,7 @@ Pour créer ou modifier une règle de normalisation dans le panneau de configura
     - **Chiffres à supprimer**: (facultatif) Spécifiez le nombre de chiffres de départ à supprimer des numéros numérotés que vous voulez associer au modèle.
     - **Chiffres à ajouter**: (facultatif) Spécifiez les chiffres à ajouter aux numéros numérotés à utiliser pour le modèle.
     
-    Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez **les chiffres de début** vides, tapez **7** dans le champ **longueur** , sélectionnez **exactement**et spécifiez **0** dans les **chiffres à supprimer**, l’expression régulière résultante dans le **modèle à faire correspondre** est la suivante:
+    Les valeurs que vous entrez dans ces champs s’affichent dans **Modèle à suivre** et **Règle de conversion**. Par exemple, si vous laissez **les chiffres de début** vides, tapez **7** dans le champ **longueur** , sélectionnez **exactement**et spécifiez **0** dans les **chiffres à supprimer**, l’expression régulière résultante dans le **modèle à faire correspondre** est la suivante :
 
     **^ (\d{7}) $**
 
@@ -92,4 +94,4 @@ Suivez les étapes ci-dessous si vous voulez créer ou modifier une règle de no
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 11. Cliquez sur **OK** pour enregistrer le plan de numérotation.
-12. Sur la page **plan** de numérotation, cliquez sur **commi**t puis sur **valider tout**. 
+12. Sur la page **plan de numérotation** , cliquez sur **commi**t puis sur **valider tout**. 

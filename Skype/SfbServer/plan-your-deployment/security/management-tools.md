@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
-description: 'Dans Skype entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Skype entreprise Server implémentés à l’aide de Windows PowerShell incluent les éléments suivants:'
-ms.openlocfilehash: 3eb156e002603378ec77fbbcbde4772870aad907
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Dans Skype entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Skype entreprise Server implémentés à l’aide de Windows PowerShell incluent les éléments suivants :'
+ms.openlocfilehash: f20a78729e778b069f7e84c9b7ed53e8564d2516
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296881"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815642"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Outils de gestion de Windows PowerShell et de Skype entreprise Server
  
-Dans Skype entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Skype entreprise Server implémentés à l’aide de Windows PowerShell incluent les éléments suivants: 
+Dans Skype entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Skype entreprise Server implémentés à l’aide de Windows PowerShell incluent les éléments suivants : 
   
 - **Générateur de topologie**. Le générateur de topologie vous permet de créer, d’ajuster et de publier votre topologie planifiée et de valider votre topologie avant de commencer les installations serveur. Lorsque vous installez Skype entreprise Server sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur conformément aux instructions de la topologie. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
     

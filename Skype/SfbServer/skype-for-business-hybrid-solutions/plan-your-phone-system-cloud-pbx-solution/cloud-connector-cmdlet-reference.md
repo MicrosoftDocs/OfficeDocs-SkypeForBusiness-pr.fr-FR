@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: Le tableau suivant présente les applets de commande Skype Entreprise, version Cloud Connector, une brève description et des liens pour obtenir plus d’informations.
-ms.openlocfilehash: 58fed82857138bf9716db88648344e9140b29d6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82d81fe19af7c0f305ce18e0bbce83f944b5d73
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294381"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803714"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector cmdlet reference
  
@@ -46,7 +48,7 @@ Le tableau suivant présente les applets de commande Skype Entreprise, version 
 |[Install-CcAppliance](install-ccappliance.md) <br/> |Installe le logiciel de connexion Cloud (y compris les machines virtuelles AD, Central Management, serveur de médiation et serveur de périphérie) sur le serveur hôte.  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | Obtient des informations de haute disponibilité dans la configuration de client en ligne et la publie sur le périphérique Cloud Connector sur le serveur hôte. <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | Enregistre les informations de l’appliance vers un site PSTN dans une configuration client en ligne. Un appareil doit être inscrit pour pouvoir être déployé et géré par le service de gestion de connecteurs Cloud. <br/> |
-|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> Version 1.4.2 et ultérieure  <br/> |Supprime le fichier de sauvegarde du service de\<l'\>autorité de certification «SiteRootDirectory \CA\SfB CCE. p12» dans le dossier ca sous le répertoire du partage de site pour le Cloud Connector.  <br/> |
+|[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> Version 1.4.2 et ultérieure  <br/> |Supprime le fichier de sauvegarde du service de\<l'\>autorité de certification « SiteRootDirectory \CA\SfB CCE. p12 » dans le dossier ca sous le répertoire du partage de site pour le Cloud Connector.  <br/> |
 |[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> Version 1.4.2 et ultérieure  <br/> |Supprime les certificats de l’ancien serveur sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des applets de commande Renew-CcCACertificate ou Renew CcServerCertificate.  <br/> |
 |[Renew-CcCACertificate](renew-cccacertificate.md) <br/> Version 1.4.2 uniquement  <br/> |Réinstalle le serveur AD de service d’autorité de certification afin de créer un certificat de l’AC racine.  <br/> |
 |[Renew-CcServerCertificate](renew-ccservercertificate.md) <br/> Version 1.4.2 uniquement  <br/> |Renouvelle les certificats de Cloud Connector lorsqu’ils arrivent à expiration ou une fois qu’ils ont expiré.  <br/> |

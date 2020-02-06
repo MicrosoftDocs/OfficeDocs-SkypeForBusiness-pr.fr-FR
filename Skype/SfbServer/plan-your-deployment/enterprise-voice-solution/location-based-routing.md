@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planifiez le routage sur la base de l’emplacement dans Skype entreprise Server Voice, y compris les interactions avec la sonnerie et la délégation simultanées, et les scénarios pris en charge pour le routage sur site.
-ms.openlocfilehash: 8c6ce8467c48231ebcab706874e70341ba431fd8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fae78dcbc1aa1d92d6fe192618d9fda5001436a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802904"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage sur la base de l’emplacement dans Skype entreprise
 
@@ -29,15 +31,15 @@ Le routage basé sur l’emplacement permet de limiter le routage des appels ent
 
 Le routage géodépendant introduit de nouvelles règles modifiant le routage des appels RTC nationaux et internationaux pour empêcher le contournement des frais de réseau téléphonique commuté. Il offre la flexibilité nécessaire pour appliquer ces règles à certaines régions, passerelles ou groupes d’utilisateurs uniquement.
 
-Les scénarios suivants illustrent les principaux types de routage de restrictions qui peuvent garantir:
+Les scénarios suivants illustrent les principaux types de routage de restrictions qui peuvent garantir :
 
 - Appels sortants-le routage de géolocalisation peut imposer les appels sortants vers une passerelle RTC qui se trouve dans la même région que celle de l’appelant, qui empêche les appels entrants vers une passerelle RTC située dans une région différente de celle de l’appelant.
 
-- Appels entrants: le routage géolocalisation peut empêcher les appels RTC entrants de sonner sur les points de terminaison Skype entreprise si la passerelle RTC qui achemine l’appel entrant ne se trouve pas dans la même région que l’utilisateur Skype entreprise appelé.
+- Appels entrants : le routage géolocalisation peut empêcher les appels RTC entrants de sonner sur les points de terminaison Skype entreprise si la passerelle RTC qui achemine l’appel entrant ne se trouve pas dans la même région que l’utilisateur Skype entreprise appelé.
 
-- Régions inconnues: le routage géolocalisation limite les appels RTC entrants et sortants vers et depuis les utilisateurs qui se trouvent dans des endroits indéterminés (c’est-à-dire, des utilisateurs distants qui se connectent à partir d’Internet ou qui se trouvent dans des régions inconnues).
+- Régions inconnues : le routage géolocalisation limite les appels RTC entrants et sortants vers et depuis les utilisateurs qui se trouvent dans des endroits indéterminés (c’est-à-dire, des utilisateurs distants qui se connectent à partir d’Internet ou qui se trouvent dans des régions inconnues).
 
-- Régions internationales: le routage de géolocalisation applique le routage des appels sortants par le biais des passerelles RTC internationales s’il n’y a aucune passerelle locale à l’emplacement de l’utilisateur.
+- Régions internationales : le routage de géolocalisation applique le routage des appels sortants par le biais des passerelles RTC internationales s’il n’y a aucune passerelle locale à l’emplacement de l’utilisateur.
 
 ## <a name="guidance-for-where-to-apply-location-based-routing"></a>Recommandations sur l’emplacement d’application du routage sur site
 
@@ -63,13 +65,13 @@ L’emplacement d’un utilisateur peut être classé comme suit :
 
 Les appels routés via des passerelles RTC et des PBX peuvent nécessiter des limitations de routage basées sur l’emplacement selon l’emplacement de ces systèmes. Le routage basé sur l’emplacement peut être activé en fonction du niveau de granularité par Trunk.
 
-Le routage basé sur l’emplacement présente l’ensemble de règles suivant lorsqu’il est activé sur un Trunk:
+Le routage basé sur l’emplacement présente l’ensemble de règles suivant lorsqu’il est activé sur un Trunk :
 
 - Lorsque le routage basé sur l’emplacement est activé sur une base par Trunk, les règles définies sur ce Trunk s’appliquent uniquement aux appels routés via ce Trunk.
 
 - Pour éviter les péages RTC dans lesquels les appels proviennent d’un site réseau différent du site du réseau sur lequel se trouve la passerelle RTC, le routage de géolocalisation présente l’Association d’un site réseau à un Trunk donné. Cela permet de définir le site réseau qui permet l’acheminement des appels vers une jonction donnée.
 
-Les types de Trunk peuvent être activés pour le routage selon l’emplacement de deux manières:
+Les types de Trunk peuvent être activés pour le routage selon l’emplacement de deux manières :
 
 - La jonction est définie pour une passerelle RTC qui fait sortir les appels vers le réseau téléphonique commuté (RTC). Les appels entrants pris en charge par une jonction de ce type sont acheminés uniquement vers les points de terminaison situés au sein du même site réseau que la jonction.
 
@@ -168,13 +170,13 @@ Le tableau suivant vous indique quelques scénarios post-mise à jour cumulative
 |Skype Entreprise Mobile  <br/> |Client Skype entreprise ou utilisateur fédéré  <br/> |Un mobile Skype entreprise effectue un appel vocal vers un autre client Skype entreprise ou un utilisateur fédéré.  <br/> |L’appel est réalisé via VoIP.  <br/> |
 |Skype Entreprise Mobile  <br/> |Client Skype entreprise ou utilisateur fédéré  <br/> | Un client Skype entreprise ou un utilisateur fédéré effectue un appel vocal vers un utilisateur de routage d’emplacement mobile Skype entreprise. <br/> |L’appel est réalisé via VoIP.  <br/> |
 |Skype Entreprise Mobile  <br/> |Client Skype entreprise ou utilisateur fédéré  <br/> |Un client Skype entreprise ou un utilisateur fédéré utilise un appel VoIP pour un utilisateur mobile Skype entreprise. Chaque partie passe à un utilisateur Skype entreprise ou fédéré supplémentaire.  <br/> |L’appel est réalisé via VoIP.  <br/> |
-|Skype Entreprise Mobile  <br/> |Utilisateur fédéré  <br/> |Un utilisateur fédéré est sur le point d’appel vocal d’un utilisateur de routage de l’emplacement mobile de Skype entreprise; une fête mobile Skype entreprise passe à un utilisateur PSTN.  <br/> |L’appel est bloqué.  <br/> |
-|Skype Entreprise Mobile  <br/> |Utilisateur fédéré  <br/> |Un utilisateur fédéré utilise un appel VoIP pour un utilisateur de routage de l’emplacement mobile Skype entreprise; chaque partie transmet un contact CAA.  <br/> |L’appel escaladé est bloqué, avec un message d’erreur correspondant.  <br/> |
+|Skype Entreprise Mobile  <br/> |Utilisateur fédéré  <br/> |Un utilisateur fédéré est sur le point d’appel vocal d’un utilisateur de routage de l’emplacement mobile de Skype entreprise ; une fête mobile Skype entreprise passe à un utilisateur PSTN.  <br/> |L’appel est bloqué.  <br/> |
+|Skype Entreprise Mobile  <br/> |Utilisateur fédéré  <br/> |Un utilisateur fédéré utilise un appel VoIP pour un utilisateur de routage de l’emplacement mobile Skype entreprise ; chaque partie transmet un contact CAA.  <br/> |L’appel escaladé est bloqué, avec un message d’erreur correspondant.  <br/> |
 |Skype Entreprise Mobile  <br/> |Utilisateur fédéré  <br/> |Un utilisateur fédéré utilise un appel VoIP pour un utilisateur de routage de l’emplacement mobile de Skype entreprise, et l’utilisateur fédéré passe à un utilisateur PSTN.  <br/> |La réaffectation sera autorisée ou interdite en fonction du routage sur l’emplacement de l’utilisateur fédéré. L’application de routage basée sur l’emplacement mobile de Skype entreprise ne prend aucune mesure.  <br/> |
 
 ### <a name="delegation"></a>Délégation
 
-Les fonctionnalités de délégation de Skype entreprise sont affectées par le routage géolocalisation de la façon suivante:
+Les fonctionnalités de délégation de Skype entreprise sont affectées par le routage géolocalisation de la façon suivante :
 
 - Lorsqu’un délégué activé pour le routage géolocalisation place un appel au nom d’un responsable, la stratégie vocale du délégué est utilisée pour autoriser l’appel et la stratégie de routage vocale du délégué est utilisée pour diriger l’appel.
 
@@ -194,7 +196,7 @@ Lors d’un basculement entre le pool principal et un pool de sauvegarde, ainsi 
 
 ### <a name="survivable-branch-appliance"></a>Survivable Branch Appliance
 
-La configuration de l’acheminement en fonction de l’emplacement a un impact sur la planification de l’endroit où vous déployez les passerelles associées à vos appareils distants. La passerelle associée à votre SBA doit se trouver dans le même site réseau que votre application de succursale Survivable; dans le cas contraire, les utilisateurs hébergés sur votre unité de branchement Survivable ne sont pas autorisés à effectuer des appels sortants si le routage par emplacement est configuré. Lorsque la connexion WAN entre votre appareil de branchement Survivable et le site central est en panne, des restrictions de routage basées sur l’emplacement ne sont pas appliquées.
+La configuration de l’acheminement en fonction de l’emplacement a un impact sur la planification de l’endroit où vous déployez les passerelles associées à vos appareils distants. La passerelle associée à votre SBA doit se trouver dans le même site réseau que votre application de succursale Survivable ; dans le cas contraire, les utilisateurs hébergés sur votre unité de branchement Survivable ne sont pas autorisés à effectuer des appels sortants si le routage par emplacement est configuré. Lorsque la connexion WAN entre votre appareil de branchement Survivable et le site central est en panne, des restrictions de routage basées sur l’emplacement ne sont pas appliquées.
 
 ## <a name="client-and-server-support-for-location-based-routing"></a>Prise en charge des clients et des serveurs pour le routage géodépendant
 
@@ -226,7 +228,7 @@ Le tableau suivant identifie les clients pris en charge par le routage de l’em
 
 |**Type de client**|**Prise en charge**|**Détails**|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui  <br/> ||
+|Skype Entreprise  <br/> |Oui  <br/> ||
 |Lync 2013  <br/> |Oui  <br/> ||
 |Lync 2010  <br/> |Oui  <br/> ||
 |Office Communicator 2007 R2  <br/> |Non  <br/> ||
@@ -253,7 +255,7 @@ Le routage basé sur l’emplacement ne s’applique pas aux types d’interacti
 
 - Appels RTC entrants récupérés via la prise d’appel de groupe
 
-Pour appliquer les règles de routage basées sur les emplacements aux types d’interactions dans la liste suivante, vous devez activer le routage par emplacement pour les conférences:
+Pour appliquer les règles de routage basées sur les emplacements aux types d’interactions dans la liste suivante, vous devez activer le routage par emplacement pour les conférences :
 
 - Appels RTC sortants à partir des conférences
 

@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Résumé: en savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.'
-ms.openlocfilehash: c2956910384c1e48fc9d38a9084bf1a4afe48539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.'
+ms.openlocfilehash: fc7e3232e16bd4366ac80f75fb12eca0fb24b4dd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279787"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817693"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Rapport sur les performances du serveur dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport sur les performances du serveur dans Skype entreprise Server.
   
 Le rapport sur les performances du serveur fournit une liste de serveurs Skype entreprise Server ayant constaté le pourcentage le plus élevé d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
   
@@ -41,7 +43,7 @@ Il est important de noter que le classement affiché dans ce rapport en tant que
   
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Skype entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Skype entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -105,7 +107,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 |**Vitesse de transmission moyenne (Kbit/s)** <br/> |Non  <br/> |Vitesse de transmission vidéo moyenne (en kilobits par seconde).  <br/> |
 |**Vitesse de transmission faible (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission était faible.  <br/> |
 |**Perte de paquets sortante** <br/> |Non  <br/> |Perte de paquets RTP (Real-Time Transport Protocol) pour les paquets sortants. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
-|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames «figées». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
+|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames « figées ». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
 |**Fréquence d’images moyenne sortante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions sortantes pendant l’appel.  <br/> |
 |**Fréquence d’images moyenne entrante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions entrantes pendant l’appel.  <br/> |
 |**Fréquence d’images basse entrante (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission pour la vidéo entrante était faible.  <br/> |

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Les décisions nécessaires pour la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype entreprise Server Voice.
-ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81ec257b30d2916bb4df2a4590b9abfc1b270375
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276725"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802724"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gestion des emplacements pour les fournisseurs de service SIP Trunk dans Skype entreprise Server
 
@@ -31,9 +33,9 @@ Renseignez la base de données du service Informations d’emplacement avec un e
 
 - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-- Un identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client Skype entreprise a choisi le bon emplacement. Le client Skype entreprise concatène automatiquement et affiche les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+- Un identificateur d’emplacement qui permet aux utilisateurs de voir facilement que leur client Skype entreprise a choisi le bon emplacement. Le client Skype entreprise concatène automatiquement et affiche les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, « 1er étage <street number>»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
-- Si l’emplacement est approximativement déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[proche]** (par exemple, «1er étage 1234»).
+- Si l’emplacement est approximativement déterminé par un point d’accès sans fil, vous pouvez ajouter le mot **[proche]** (par exemple, « 1er étage 1234 »).
 
 > [!NOTE]
 > Les emplacements ajoutés à la base de données d’emplacement central ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Skype entreprise Server Management Shell et répliqués dans les boutiques locales du pool. Pour plus d’informations, reportez-vous à [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) dans la documentation de déploiement.
@@ -52,7 +54,7 @@ Où sont stockées les données et quelles étapes devez-vous suivre pour les co
 
 À l’aide de l’option de service des informations de lieu secondaire pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’information d’emplacement peut retourner plusieurs adresses à partir du service d’information d’emplacement secondaire, vers un client Skype entreprise. L’utilisateur peut alors choisir l’emplacement le plus approprié.
 
-Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour plus d’informations, consultez [«[MS-E911WS]: service Web pour E911 support Protocol Specification»](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
+Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour plus d’informations, consultez [« [MS-E911WS] : service Web pour E911 support Protocol Specification »](https://go.microsoft.com/fwlink/p/?linkid=213819). Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le renseignement de la base de données d’emplacements, reportez-vous à [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) dans la documentation de déploiement.
 

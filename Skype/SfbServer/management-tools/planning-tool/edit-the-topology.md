@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet et les adresses IP pour le site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dae99620f34b832dd4abe0baf83d6df11b388750
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274288"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816443"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
@@ -27,11 +29,11 @@ L’outil de planification affiche la topologie de site pour le site sélectionn
 
 ![Topologie de site outil de planification](../../media/Planning_Tool_Site_Topology.png)
 
-- Topologie de site: page actuellement affichée avec une vue d’ensemble visuelle de la topologie recommandée.
+- Topologie de site : page actuellement affichée avec une vue d’ensemble visuelle de la topologie recommandée.
 
-- Diagramme de réseau Edge: la page réseau de tâches Edge est l’endroit où le concepteur effectue la majeure partie du travail dans l’outil de planification. Le diagramme affiche la configuration du réseau pour une topologie 2015 de Skype entreprise Server, avec des entrées modifiables pour les adresses IP et les noms de domaine complets pour les serveurs, le pool, et les équilibreurs de charge de matériel et de système de noms de domaine (DNS).
+- Diagramme de réseau Edge : la page réseau de tâches Edge est l’endroit où le concepteur effectue la majeure partie du travail dans l’outil de planification. Le diagramme affiche la configuration du réseau pour une topologie 2015 de Skype entreprise Server, avec des entrées modifiables pour les adresses IP et les noms de domaine complets pour les serveurs, le pool, et les équilibreurs de charge de matériel et de système de noms de domaine (DNS).
 
-- Rapport d’administration Edge: le rapport d’administration Edge comporte au total quatre rapports:
+- Rapport d’administration Edge : le rapport d’administration Edge comporte au total quatre rapports :
 
      ![Page rapport d’administration Edge](../../media/Planning_Tool_Summary_Report.png)
 

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. '
-ms.openlocfilehash: c807aeab3c9300428aabcf57c0ab2886451b5e4b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3628c0ea38c0692b313ee37ca7b836c159a5a2dd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275044"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817034"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configuration d’une Trunk with Media bypass dans Skype entreprise Server
 
@@ -124,7 +126,7 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 20. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Tout valider**. 
 
     > [!Note]
-    > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la section publier les modifications en attente dans la configuration de routage](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx) (VOUS AVEZ BESOIN D’UN NOUVEAU LIEN?)
+    > Chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Tout valider** pour publier la modification de la configuration. Pour plus d’informations, reportez-vous [à la section publier les modifications en attente dans la configuration de routage](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx) (VOUS AVEZ BESOIN D’UN NOUVEAU LIEN ?)
 
 Après avoir configuré le Trunk, continuez à configurer le contournement multimédia en choisissant entre les options de contournement de médias globales, comme décrit dans la rubrique déploiement d’une [dérivation multimédia dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md).
 

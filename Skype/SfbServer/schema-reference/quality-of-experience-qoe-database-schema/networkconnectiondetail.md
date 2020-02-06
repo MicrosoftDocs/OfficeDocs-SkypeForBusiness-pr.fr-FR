@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: La table NetworkConnectionDetail associe les types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données de qualité de l’utilisation. Ce tableau a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: c13725e7df8a164766faa6847fc8097a24a9df53
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d91928e40f6df9db1e53140726bbf04efad586ee
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294816"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807502"
 ---
 # <a name="networkconnectiondetail-table"></a>Table NetworkConnectionDetail
  

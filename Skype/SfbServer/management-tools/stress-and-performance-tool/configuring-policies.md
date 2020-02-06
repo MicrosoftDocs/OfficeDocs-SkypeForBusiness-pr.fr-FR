@@ -8,22 +8,24 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Configuration de la stratégie de l’outil de stress et de performance de Skype entreprise Server 2015.
-ms.openlocfilehash: 5c8e4c296d06c736519a12da5b5e34c6f48e9ee2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfdf0d9875a37f7f4a1f98aa24cd6fd5c3176a00
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816193"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies de l’outil de stress et de performance de Skype entreprise Server 2015
  
 Configuration de la stratégie de l’outil de stress et de performance de Skype entreprise Server 2015.
   
-Il existe plusieurs stratégies et autres modules que vous pouvez configurer dans Skype entreprise Server 2015, avant d’exécuter l’outil stress and performance:
+Il existe plusieurs stratégies et autres modules que vous pouvez configurer dans Skype entreprise Server 2015, avant d’exécuter l’outil stress and performance :
   
 - [Stratégie d’archivage](configuring-policies.md#ArchivingPolicy)
     
@@ -75,7 +77,7 @@ Vous pouvez faire référence à BandwidthPolicy. ps1 pour cette stratégie. Les
 
 Vous aurez besoin de l’exemple de script RoutingRules. ps1 pour le routage de la voix. Lorsque vous configurez ces règles, prenez note du contexte du téléphone (c’est-à-dire le profil/location ou/SimpleName) et des codes de zone interne/externe, afin de pouvoir les spécifier lors de la création d’utilisateurs. Vous en aurez également besoin dans le cadre de la configuration de LyncPerfTool (en particulier pour PSTN-Cu et UC-RTC).
   
-Par exemple, le paramètre SimpleName dans l’appel à l’applet de commande **New-CsDialPlan** dans l’exemple RoutingRules. ps1 doit être utilisé pour la valeur LocationProfile dans l’illustration suivante de UserProfileGenerator. exe:
+Par exemple, le paramètre SimpleName dans l’appel à l’applet de commande **New-CsDialPlan** dans l’exemple RoutingRules. ps1 doit être utilisé pour la valeur LocationProfile dans l’illustration suivante de UserProfileGenerator. exe :
   
 ![Chargez l’outil de configuration Skype Entreprise, onglet Scénarios vocaux, paramètres avancés de conversation.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
@@ -84,7 +86,7 @@ Pour plus d’informations, vous pouvez passer en revue les applets de contrôle
 ## <a name="conference-attendant-application"></a>Application de surveillance de la Conférence
 <a name="ConfAttendantApp"> </a>
 
-Commencez par revoir le script ConferenceAutoAttendantConfiguration. ps1. Vous devez noter le numéro de téléphone ConferencingAutoAttendant (1121111111 par défaut) pour pouvoir l’entrer dans l’outil de configuration LyncPerfTool de la génération de configuration, comme ci-dessous:
+Commencez par revoir le script ConferenceAutoAttendantConfiguration. ps1. Vous devez noter le numéro de téléphone ConferencingAutoAttendant (1121111111 par défaut) pour pouvoir l’entrer dans l’outil de configuration LyncPerfTool de la génération de configuration, comme ci-dessous :
   
 ![Onglet Scénarios vocaux affichant le niveau de charge de la conférence et le numéro de téléphone.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
@@ -98,14 +100,14 @@ Ce paramètre est en fait désactivé par défaut. Vous pouvez consulter l’exe
 ## <a name="emergency-calls"></a>Appels d’urgence
 <a name="EmergencyCalls"> </a>
 
-Pour configurer les tests de stress et de performance des appels d’urgence, vous devez effectuer les étapes suivantes:
+Pour configurer les tests de stress et de performance des appels d’urgence, vous devez effectuer les étapes suivantes :
   
 1. Configurez une gamme vocale pour les appels d’urgence. Vous pouvez utiliser le script RoutingRules. ps1, puis vérifier sous le commentaire « **routez le E911 vers PSTN** » pour obtenir un exemple de configuration de cet itinéraire vocal.
     
     > [!CAUTION]
     > La commande d’exemple dans RoutingRules. ps1 possède un modèle de nombre incluant le numéro 119 au lieu de 911. Vous devez éviter d’utiliser 911 (ou votre numéro de secours local réel) pour éviter les appels accidentels vers vos opérateurs d’urgence locaux pendant votre test de charge. N’oubliez pas que cette configuration est réservée aux fins de simulation. 
   
-2. Configurez les adresses en remplissant les valeurs sous l’onglet **configuration du service d’informations d’emplacement** dans le UserProvisioningTool, comme illustré dans la figure suivante:
+2. Configurez les adresses en remplissant les valeurs sous l’onglet **configuration du service d’informations d’emplacement** dans le UserProvisioningTool, comme illustré dans la figure suivante :
     
      ![Outil d’affectation d’utilisateurs affichant le nombre d’adresses, de sous-réseaux, de commutateurs et de ports.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
@@ -116,7 +118,7 @@ Pour configurer les tests de stress et de performance des appels d’urgence, vo
 ## <a name="configuring-response-group-application"></a>Configuration de l’application Response Group
 <a name="ConfigResponseGroupApp"> </a>
 
-L’exemple de script est ResponseGroupConfiguration. ps1. Il existe également des cmdlets application de groupe de réponse à examiner pour plus d’informations sur la configuration. Le diagramme suivant montre quelques détails de la configuration:
+L’exemple de script est ResponseGroupConfiguration. ps1. Il existe également des cmdlets application de groupe de réponse à examiner pour plus d’informations sur la configuration. Le diagramme suivant montre quelques détails de la configuration :
   
 ![Outil de configuration de groupe de réponse affichant les flux de travail existants pour les tests.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   

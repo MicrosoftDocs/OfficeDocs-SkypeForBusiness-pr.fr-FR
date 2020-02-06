@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Conseils relatifs à l’utilisation de l’outil de planification de Skype entreprise Server 2015.
-ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288949"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816303"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Outil de planification de Skype Entreprise Server 2015
  
@@ -29,9 +31,9 @@ En fin de compte, l’objectif de l’outil de planification consiste à facilit
   
 Après avoir personnalisé la topologie avec les adresses TCP/IP de l’infrastructure et les noms de domaine complets (FQDN), l’outil de planification met à votre disposition une série de rapports qui couvrent l’attribution de noms DNS (Domain Name System), les règles de pare-feu, les certificats, etc. 
   
-Utiliser cet outil est la première étape pour la planification de votre implémentation. L’étape suivante consiste à entrer les informations de votre site dans le [calculateur de capacités de Skype entreprise server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), à ajuster selon les besoins, puis à utiliser l' [outil de stress et de performance de skype entreprise Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) . vous aurez besoin de votre implémentation.
+Utiliser cet outil est la première étape pour la planification de votre implémentation. L’étape suivante consiste à entrer les informations de votre site dans le [calculateur de capacités de Skype entreprise server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), à ajuster selon les besoins, puis à utiliser l' [outil de stress et de performance de skype entreprise Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) .
   
-L’outil de planification offre également la possibilité d’exporter des informations dans deux formats:
+L’outil de planification offre également la possibilité d’exporter des informations dans deux formats :
   
 - Microsoft Excel (feuille de calcul .xml)
     

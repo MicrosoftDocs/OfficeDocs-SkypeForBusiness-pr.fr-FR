@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Résumé: en savoir plus sur le rapport de tendance sur la qualité des médias dans Skype entreprise Server.'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de tendance sur la qualité des médias dans Skype entreprise Server.'
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279829"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817713"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Rapport de tendances de la qualité multimédia du serveur dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport de tendances de la qualité Media Media dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de tendances de la qualité Media Media dans Skype entreprise Server.
   
 Le rapport de tendance générale de la qualité des médias serveur vous permet de comparer de façon graphique la qualité de l’expérience sur 5 serveurs maximum, par exemple le volume d’appel, le pourcentage d’appels médiocres, la perte de paquet et la gigue. Cela permet d’identifier plus facilement les serveurs dont les performances sont médiocres, les serveurs qui sont sous-utilisés ou sur-utilisés.
   
@@ -27,9 +29,9 @@ Le rapport de tendance générale de la qualité des médias serveur vous permet
 
 Le rapport de tendance générale de la qualité des médias serveur est accessible à partir de l’un des rapports suivants :
   
-- [Rapport sur les performances du serveur dans Skype entreprise Server](server-performance.md) (en cliquant sur la mesure de tendance)
+- [Rapport sur les performances du serveur dans Skype entreprise Server](server-performance.md) (en cliquant sur l’option tendance)
     
-- [Rapport Détails des appels dans Skype entreprise Server](call-detail-report.md) (en cliquant sur la métrique du serveur Edge A/V). Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
+- [Rapport Détails des appels dans Skype entreprise Server](call-detail-report.md) (en cliquant sur la mesure du serveur A/V Edge. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Utilisation efficace du rapport de tendance de la qualité des médias serveur
 

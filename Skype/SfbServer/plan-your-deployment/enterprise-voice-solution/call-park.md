@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planification du parc d’appels dans Skype entreprise Server Voice, qui permet de mettre les appels en attente et de transférer les appels vers les services. Cela inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
-ms.openlocfilehash: 3272efe89ac995b304d96ad7ce5660144641073b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3effeab4afef60fb7a5021206d9fc3cd0227ceb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277054"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803194"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planifier le parc d’appels dans Skype entreprise
  
 Planification du parc d’appels dans Skype entreprise Server Voice, qui permet de mettre les appels en attente et de transférer les appels vers les services. Cela inclut la planification de la capacité, les appels pris en charge et les clients pris en charge.
   
-L’application de parc d’appel permet aux utilisateurs d’Enterprise Voice d’effectuer les opérations suivantes:
+L’application de parc d’appel permet aux utilisateurs d’Enterprise Voice d’effectuer les opérations suivantes :
   
 - mettre un appel en attente, puis récupérer l’appel depuis le même téléphone ou un autre téléphone ;
     
@@ -65,7 +67,7 @@ L’application de parc d’appels utilise le **Port 5075** pour les demandes d�
   
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application de parc d’appels prend uniquement en charge les fichiers Windows Media audio (. WMA) pour la musique en attente. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir [«Expression Encoder 4»](https://go.microsoft.com/fwlink/p/?linkId=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers de la musique de parc d’appels est l’audio multimédia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+L’application de parc d’appels prend uniquement en charge les fichiers Windows Media audio (. WMA) pour la musique en attente. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir [« Expression Encoder 4 »](https://go.microsoft.com/fwlink/p/?linkId=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers de la musique de parc d’appels est l’audio multimédia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
   
 > [!NOTE]
 > Le fichier converti est lu sur le téléphone à seulement 16 kHz, même s’il a été enregistré à 44 kHz. 
@@ -81,9 +83,9 @@ Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), PS
 > [!NOTE]
 > Seuls les appels audio peuvent être parqués. Aucun parcage pour les messages instantanés et les conférences n’est possible. 
   
-Les clients suivants peuvent utiliser le parc d’appels pour les appels de parc:
+Les clients suivants peuvent utiliser le parc d’appels pour les appels de parc :
   
-- Skype Entreprise
+- Skype Entreprise
     
 - Lync 2013
     
@@ -102,9 +104,9 @@ Les plages d’orbites sont configurées en tant que blocs de postes virtuels (p
   
 Les utilisateurs fédérés ne peuvent pas récupérer des appels parqués.
   
-Les clients suivants peuvent récupérer les appels qui sont au parking sur le parc d’appels:
+Les clients suivants peuvent récupérer les appels qui sont au parking sur le parc d’appels :
   
-- Skype Entreprise
+- Skype Entreprise
     
 - Lync 2013
     

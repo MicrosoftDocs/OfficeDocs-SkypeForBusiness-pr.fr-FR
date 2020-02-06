@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
-description: 'Résumé: choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.'
-ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+description: 'Résumé : choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.'
+ms.openlocfilehash: b3f45a37bde409dcda38f3047e60776ebc8560e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820991"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801694"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Notions de base de la topologie pour Skype entreprise Server
 
-**Résumé:** Choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.
+**Résumé :** Choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.
 
 Avant de continuer, vous souhaiterez peut-être savoir que vous planifiez la topologie appropriée pour votre déploiement de Skype entreprise Server. Vous devez commencer par choisir si vous comptez un déploiement local de Skype entreprise Server ou si vous envisagez de le combiner avec un déploiement de Skype entreprise Server Online dans le cas d’un déploiement hybride. Quelle que soit la méthode que vous souhaitez, vous devrez lire davantage, car nous décrivons les topologies locales ici, mais les détails hybrides sont présentés dans leurs sections respectives.
 
@@ -39,7 +41,7 @@ Votre déploiement disposera d’au moins un site central (également appelé ce
 
 - Standard Edition Server inclut une base de données SQL Server Express colocalisée.
 
-- Le pool frontal d’entreprise Edition inclut les éléments suivants:
+- Le pool frontal d’entreprise Edition inclut les éléments suivants :
 
   - Un ou plusieurs serveurs front-end (idéalement au moins trois pour l’évolutivité), avec un maximum de 12. L’équilibrage de charge sera requis dans le cas de plusieurs serveurs.
 
@@ -47,7 +49,7 @@ Votre déploiement disposera d’au moins un site central (également appelé ce
 
 Vous obtiendrez plus d’informations sur les rôles serveur plus loin dans cette rubrique.
 
-Outre vos sites centraux, il est possible que vous ayez besoin d’un ou plusieurs sites de succursale associés à votre site central. Ils dépendent du site central pour presque toutes leurs fonctionnalités, donc qu’est-ce que c’est bien?
+Outre vos sites centraux, il est possible que vous ayez besoin d’un ou plusieurs sites de succursale associés à votre site central. Ils dépendent du site central pour presque toutes leurs fonctionnalités, donc qu’est-ce que c’est bien ?
 
 - Appareil de branchement Survivable qui combine une passerelle de réseau téléphonique commuté (PSTN) et une fonctionnalité de Skype entreprise Server.
 
@@ -57,9 +59,9 @@ Outre vos sites centraux, il est possible que vous ayez besoin d’un ou plusieu
 
 - Serveur de médiation autonome ou pool de serveurs de médiation autonomes (si vous ne voulez pas collocate ce rôle avec l’appareil de branchement survivant).
 
-## <a name="whats-in-a-skype-for-business-server-site"></a>Qu’est-ce qu’un site Skype entreprise Server?
+## <a name="whats-in-a-skype-for-business-server-site"></a>Qu’est-ce qu’un site Skype entreprise Server ?
 
-Pour plus d’informations, un site central peut également disposer des éléments suivants:
+Pour plus d’informations, un site central peut également disposer des éléments suivants :
 
 - Plusieurs listes frontales, au sein d’un même domaine ou dans des domaines différents (n’oubliez pas de planifier que tous les serveurs frontaux d’une liste frontale, ainsi que les serveurs dorsaux du pool, doivent se trouver dans le même domaine).
 
@@ -79,16 +81,16 @@ Pour plus d’informations, un site central peut également disposer des éléme
 
 Vous trouverez plus d’informations sur la colocalisation de ces serveurs plus bas.
 
-Toutes les plages frontales et les serveurs Standard Edition déployés dans votre site central partagent ce qui suit, en supposant que vous les avez déployés:
+Toutes les plages frontales et les serveurs Standard Edition déployés dans votre site central partagent ce qui suit, en supposant que vous les avez déployés :
 
 ||||
 |:-----|:-----|:-----|
 |Pool de directeurs ou de réalisateurs  <br/> |Serveur de médiation autonome ou pool de serveurs de médiation  <br/> |Office Web Apps Server  <br/> |
 |Serveur Edge ou pool de bords  <br/> |Serveur de chat permanent ou pool de serveurs de chat permanent  <br/> |Surveillance  <br/> |
 
-Où se trouve le serveur Exchange Unified Messaging (UM) de cette liste? De plus, vous pouvez l’utiliser avec Skype entreprise Server si vous voulez l’intégrer à la messagerie unifiée Exchange, mais qu’il ne s’agit pas d’un composant du site Skype entreprise Server.
+Où se trouve le serveur Exchange Unified Messaging (UM) de cette liste ? De plus, vous pouvez l’utiliser avec Skype entreprise Server si vous voulez l’intégrer à la messagerie unifiée Exchange, mais qu’il ne s’agit pas d’un composant du site Skype entreprise Server.
 
-Il est possible que vous envisagez de disposer de plusieurs sites centraux et que, si tel est le cas, ils puissent partager les serveurs et rôles suivants, s’ils sont déployés sur votre site central:
+Il est possible que vous envisagez de disposer de plusieurs sites centraux et que, si tel est le cas, ils puissent partager les serveurs et rôles suivants, s’ils sont déployés sur votre site central :
 
 |||
 |:-----|:-----|
@@ -116,7 +118,7 @@ Dans Skype entreprise Server Enterprise Edition, le serveur frontal est le rôle
 
 Un pool frontal est un ensemble de serveurs frontaux configurés de façon identique, ce qui collabore pour fournir des services à un groupe d’utilisateurs communs. Un pool de plusieurs serveurs exécutant le même rôle fournit l’extensibilité et la fonction de basculement.
 
-Le serveur frontal inclut les éléments suivants:
+Le serveur frontal inclut les éléments suivants :
 
 - Enregistrement et authentification des utilisateurs.
 
@@ -198,7 +200,7 @@ Skype entreprise Server offre une haute disponibilité grâce à la redondance d
 
 Skype entreprise Server fournit également des mesures de reprise après sinistre en activant le jumelage de pools. Si vous déployez cette topologie, vous désignez des paires de pools frontaux, chaque pool d’une paire étant situé dans un centre de données distinct et dans une zone géographique distincte. Si un pool ou un site n’est plus opérationnel, vous pouvez rediriger les utilisateurs de ce pool afin qu’ils se servent de l’autre pool de la paire, avec une interruption minimale du service.
 
-Skype entreprise Server prend également en charge plusieurs options de haute disponibilité du serveur principal. Il s’agit des éléments suivants:
+Skype entreprise Server prend également en charge plusieurs options de haute disponibilité du serveur principal. Il s’agit des éléments suivants :
 
 - Mise en miroir de bases de données
 
@@ -212,11 +214,11 @@ Pour plus d’informations sur le jumelage de pools et le serveur principal de h
 
 ## <a name="server-collocation-in-skype-for-business-server"></a>Colocalisation du serveur dans Skype entreprise Server
 
-Le terme collocate est déjà utilisé, mais qu’est-ce que cela signifie? Skype entreprise Server vous permet de rechercher des rôles de serveur et des fonctionnalités sur le même serveur, qui est une coexistence ou sur des serveurs différents, mais qui peut prêter à confusion lorsque vous commencez à travailler, et si vous effectuez un serveur Standard Edition ou Enterprise Edition Server. le déploiement (chacun possède ses propres règles). Pour vous aider à planifier, nous sommes en mesure d’inclure des déploiements de serveurs Standard Edition Server et de pool frontal Enterprise Edition (dans la plupart des cas, ces informations sont identiques et dans la mesure où il est différent, il est appelé en particulier).
+Le terme collocate est déjà utilisé, mais qu’est-ce que cela signifie ? Skype entreprise Server vous permet de rechercher des rôles de serveur et des fonctionnalités sur le même serveur, qui est une coexistence ou sur des serveurs différents, mais qui peut prêter à confusion lorsque vous commencez à travailler, et si vous effectuez un serveur Standard Edition ou Enterprise Edition Server. le déploiement (chacun possède ses propres règles). Pour vous aider à planifier, nous sommes en mesure d’inclure des déploiements de serveurs Standard Edition Server et de pool frontal Enterprise Edition (dans la plupart des cas, ces informations sont identiques et dans la mesure où il est différent, il est appelé en particulier).
 
 ### <a name="collocation-of-server-roles"></a>Colocalisation des rôles serveur
 
-Pour le moment, le serveur Standard Edition Server possède le rôle colocalisé (configuration supplémentaire est requis), dans la liste frontale Enterprise Edition, ce rôle peut être colocalisé ou déployé sur un serveur distinct:
+Pour le moment, le serveur Standard Edition Server possède le rôle colocalisé (configuration supplémentaire est requis), dans la liste frontale Enterprise Edition, ce rôle peut être colocalisé ou déployé sur un serveur distinct :
 
 - Serveur(s)
 
@@ -241,7 +243,7 @@ Dans la mesure où SQL Server Express est colocalisé sur le serveur Standard Ed
 > [!NOTE]
 > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
 
-Celles-ci ne peuvent pas être colocalisées sur le serveur Standard Edition Server, mais peuvent se trouver sur un serveur de base de données unique:
+Celles-ci ne peuvent pas être colocalisées sur le serveur Standard Edition Server, mais peuvent se trouver sur un serveur de base de données unique :
 
 - base de données de surveillance
 
@@ -251,7 +253,7 @@ Celles-ci ne peuvent pas être colocalisées sur le serveur Standard Edition Ser
 
 #### <a name="enterprise"></a>Enterprise
 
-Les bases de données suivantes peuvent être localisées sur le même serveur SQL principal:
+Les bases de données suivantes peuvent être localisées sur le même serveur SQL principal :
 
 - Base de données principale
 
@@ -265,7 +267,7 @@ Les bases de données suivantes peuvent être localisées sur le même serveur S
 
 #### <a name="both"></a>Les deux
 
-À présent, vous devez suivre d’autres règles lors de la collocating de base de données Skype entreprise Server dans une instance SQL unique ou dans plusieurs instances SQL dans la même base de données SQL Server:
+À présent, vous devez suivre d’autres règles lors de la collocating de base de données Skype entreprise Server dans une instance SQL unique ou dans plusieurs instances SQL dans la même base de données SQL Server :
 
 - Chaque instance SQL ne peut contenir qu’une seule base de données principale pour un pool frontal Enterprise Edition, une base de données de surveillance unique, une base de données d’archivage unique, une seule base de données de chat permanent et une seule base de données de conformité à la messagerie instantanée.
 

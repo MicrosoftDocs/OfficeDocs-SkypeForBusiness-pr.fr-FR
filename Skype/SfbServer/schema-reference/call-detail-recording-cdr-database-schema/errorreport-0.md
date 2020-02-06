@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: Le mode ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR exécuté sur le serveur frontal ou envoyées par le client. Cet affichage a été présenté dans Microsoft Lync Server 2013.
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815242"
 ---
 # <a name="errorreport-view"></a>Affichage ErrorReport
  
@@ -37,7 +39,7 @@ Le mode ErrorReport stocke les informations sur les erreurs signalées. Chaque e
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de la Conférence qui était la cible du rapport d’erreur. Pour plus d’informations, voir la [table UriTypes](uritypes.md) . <br/> |
 |**SessionIdTime** <br/> |DateHeure  <br/> |Durée de la demande de session à l’origine du rapport d’erreur. Utilisé conjointement avec SessionIdSeq pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification identifiant la demande de session à l’origine du rapport d’erreur. Utilisé conjointement avec SessionIdTime pour identifier une session de manière unique. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
-|**DialogId** <br/> |varstring (LGA775)  <br/> |ID de boîte de dialogue SIP de session à l’origine de l’erreur. Le format est le suivant:  <br/> boîte de dialogue; à partir d’une balise  <br/> Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante:  <br/> Cast (Cast (ExternalId) en tant que varchar (max))  <br/> |
+|**DialogId** <br/> |varstring (LGA775)  <br/> |ID de boîte de dialogue SIP de session à l’origine de l’erreur. Le format est le suivant :  <br/> boîte de dialogue ; à partir d’une balise  <br/> Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :  <br/> Cast (Cast (ExternalId) en tant que varchar (max))  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Version du client utilisée par l’utilisateur à l’origine de l’erreur.  <br/> |
 |**TypeClient** <br/> |int  <br/> |Client utilisé par l’utilisateur à l’origine de l’erreur. Pour plus d’informations, voir la [table UserAgentDef](useragentdef.md) . <br/> |
 |**ClientCategory** <br/> |nvarchar (64)  <br/> |Nom de la catégorie du client utilisée par l’utilisateur à l’origine de l’erreur.  <br/> |

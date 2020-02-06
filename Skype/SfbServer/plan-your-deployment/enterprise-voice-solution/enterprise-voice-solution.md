@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: 'Résumé: Découvrez les options de planification d’une solution de communication et de voix unifiées dans Skype entreprise Server.'
-ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+description: 'Résumé : Découvrez les options de planification d’une solution de communication et de voix unifiées dans Skype entreprise Server.'
+ms.openlocfilehash: ddf133c1efa5876437bce751cbb5020906153909
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768031"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802914"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planifier votre solution voix entreprise dans Skype entreprise Server
  
-**Résumé:** Découvrez les options de planification d’une solution de communication et de communications unifiées dans Skype entreprise Server.
+**Résumé :** Découvrez les options de planification d’une solution de communication et de communications unifiées dans Skype entreprise Server.
   
-Skype entreprise Server est doté de deux options de voix entreprise locales: voix entreprise et appel via le bureau, qui vous permet d’intégrer le système téléphonique de votre organisation à votre déploiement Skype entreprise Server et de faire des communications unifiées complètes. solutions. Ces deux options permettent aux utilisateurs d’utiliser le client Skype entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
+Skype entreprise Server est doté de deux options de voix entreprise locales : voix entreprise et appel via le bureau, qui vous permet d’intégrer le système téléphonique de votre organisation à votre déploiement Skype entreprise Server et de faire des communications unifiées complètes. solutions. Ces deux options permettent aux utilisateurs d’utiliser le client Skype entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
   
 Vous pouvez également tirer parti des services PBX Cloud de Microsoft, notamment les services PBX et la fonction d’appel RTC, en connectant votre infrastructure de téléphonie locale aux services proposés par Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   

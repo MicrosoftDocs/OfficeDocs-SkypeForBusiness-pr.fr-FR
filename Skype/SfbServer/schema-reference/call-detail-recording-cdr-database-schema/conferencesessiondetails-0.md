@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Chaque enregistrement représente une seule session de conférence, qui peut correspondre soit à la session ayant le focus, soit à la session associée à un serveur de conférence particulier.
-ms.openlocfilehash: 40216d159c9d52dcf8c22f7fe7b915255ed0f741
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95cf64589cdcd0fd38b4e29cd4e863c870f2a7a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296440"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815342"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Table ConferenceSessionDetails dans Skype entreprise Server 2015
  
@@ -24,7 +26,7 @@ Chaque enregistrement représente une seule session de conférence, qui peut cor
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Valeur  <br/> |Etranger principal  <br/> |Durée de la demande de session; utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une session de conférence. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
+|**SessionIdTime** <br/> |Valeur  <br/> |Etranger principal  <br/> |Durée de la demande de session ; utilisé conjointement avec **SessionIdSeq** pour identifier de manière unique une session de conférence. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Etranger principal  <br/> |IDENTIFIant de la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session de conférence. Pour plus d’informations, voir le [tableau des boîtes de dialogue dans Skype entreprise Server 2015](dialogs.md) . * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Externes  <br/> |URI de conférence Focus liée à cette session. Pour plus d’informations, reportez-vous [à la table ConferenceUris dans Skype entreprise Server 2015](conferenceuris.md) . Cet URI est un URI de conférence en fonction du focus. <br/> |
 |**ConfInstance** <br/> |Identificateur  <br/> ||Identificateur qui différencie les instances des conférences périodiques. Chaque instance de conférence périodique a le même ConferenceURI mais une valeur ConfInstance différente.  <br/> Ce champ a été présenté dans Microsoft Lync Server 2013.  <br/> |
@@ -52,8 +54,8 @@ Chaque enregistrement représente une seule session de conférence, qui peut cor
 |**ResponseTime** <br/> |DateHeure  <br/> ||Heure de la première réponse SIP. Ce champ est généralement rempli par des données générées à partir du message d’invitation initial dans la session. S’il n’y a pas de message d’invitation, le champ est peuplé de la date et de l’heure du premier message SIP approprié (BYE, annuler, MESSAGE ou informations).  <br/> |
 |**SessionEndTime** <br/> |DateHeure  <br/> ||Heure de fin de la session.  <br/> |
 |**UriTypeId** <br/> |tinyint  <br/> |Externes  <br/> |Contient la valeur du type d’URI MCU de la [table UriTypes](uritypes.md). Ce champ permet d’améliorer les performances de requête.  <br/> Ce champ a été présenté dans Microsoft Lync Server 2013.  <br/> |
-|**UserFlag** <br/> |type  <br/> || Un ensemble de bits indiquant les attributs de l’utilisateur. Les définitions d’attribut suivantes apparaissent: <br/>  Intégré au téléphone de bureau-1 <br/> |
-|**CallFlag** <br/> |type  <br/> || Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent: <br/>  Nouvelle tentative de session-1 <br/> |
+|**UserFlag** <br/> |type  <br/> || Un ensemble de bits indiquant les attributs de l’utilisateur. Les définitions d’attribut suivantes apparaissent : <br/>  Intégré au téléphone de bureau-1 <br/> |
+|**CallFlag** <br/> |type  <br/> || Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent : <br/>  Nouvelle tentative de session-1 <br/> |
 |**LastModifiedTime** <br/> |Valeur  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
    
 \*Pour la plupart des sessions, SessionIdSeq aura la valeur 1. S’il s’agit d’une session à partir de la même heure, le SessionIdSeq de l’une sera 1, et ainsi de suite.

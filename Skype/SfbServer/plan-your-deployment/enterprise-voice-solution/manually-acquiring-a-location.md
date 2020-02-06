@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planification de l’itinérance des utilisateurs dans un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP dans Skype entreprise Server Voice.
-ms.openlocfilehash: 221c123c9630996d487644d0f5358b95d65fe1a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 85bf13325d3c7c16958877d50f49057a7f402226
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802714"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Définition de l’interface utilisateur pour l’achat manuel d’un emplacement dans Skype entreprise Server
  
@@ -27,7 +29,7 @@ Planification de l’itinérance des utilisateurs dans un déploiement E9-1-1 à
   
 Si un client se trouve à l’extérieur du réseau ou dans un sous-réseau non défini, l’utilisateur peut entrer manuellement un emplacement. Mais pendant un appel d’urgence, l’appel sera tout d’abord acheminé vers un répartiteur de centre de réponse aux appels d’urgence (Emergency Call Response Center, ou ECRC) E9-1-1 national ou régional avant d’être acheminé vers un centre téléphonique de sécurité publique (Public Safety Answering Point, ou PSAP). L’ECRC demande verbalement un emplacement à l’appelant, puis transfère l’appel au PSAP approprié en fonction des informations renseignées. 
   
-**Les utilisateurs doivent-ils être invités à entrer un emplacement lorsque le service d’information d’emplacement n’est pas fourni automatiquement?**
+**Les utilisateurs doivent-ils être invités à entrer un emplacement lorsque le service d’information d’emplacement n’est pas fourni automatiquement ?**
   
 Par exemple, si un client se trouve dans un sous-réseau non défini, au domicile de l’utilisateur, dans un hôtel ou ailleurs à l’extérieur du réseau, l’utilisateur doit-il entrer un emplacement ?
     

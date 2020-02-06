@@ -8,19 +8,21 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Résumé: cet article décrit la configuration requise et les exigences en matière de réseau ou d’infrastructure pour Skype entreprise Server 2015. Si vous avez besoin d’installer ou de configurer un élément requis pour l’installation et le déploiement de Skype entreprise Server 2015, c’est ici.'
-ms.openlocfilehash: d28f550b9279b579f357517ffdfd0c6beea22f23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : cet article décrit la configuration requise et les exigences en matière de réseau ou d’infrastructure pour Skype entreprise Server 2015. Si vous avez besoin d’installer ou de configurer un élément requis pour l’installation et le déploiement de Skype entreprise Server 2015, c’est ici.'
+ms.openlocfilehash: 7c05420a8cf863a8ef6623a5750a46589145e44c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296811"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801894"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Configuration requise pour votre environnement Skype entreprise 2015
  

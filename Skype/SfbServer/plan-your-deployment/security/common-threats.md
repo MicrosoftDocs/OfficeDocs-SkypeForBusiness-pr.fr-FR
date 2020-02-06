@@ -8,16 +8,18 @@ ms.date: 3/22/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Étant donné que Skype entreprise Server est un système de communication d’entreprise, vous devez tenir compte des attaques courantes de sécurité qui pourraient affecter son infrastructure et ses communications.
-ms.openlocfilehash: 31971846f95b98d566166b6336451ecdb71d7ac7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 58141a735858d840acbd57e8039aa1c132dbeb8c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296923"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815672"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces fréquentes pour la sécurité dans l’informatique moderne
  
@@ -25,7 +27,7 @@ ms.locfileid: "34296923"
   
 ## <a name="compromised-key-attack"></a>Attaque par clé compromise
 
-Une clé est un code ou un nombre secret utilisé pour chiffrer, déchiffrer ou valider des informations confidentielles. Il existe deux clés sensibles utilisées dans l’infrastructure à clé publique (PKI) qui doivent être considérées comme suit: 
+Une clé est un code ou un nombre secret utilisé pour chiffrer, déchiffrer ou valider des informations confidentielles. Il existe deux clés sensibles utilisées dans l’infrastructure à clé publique (PKI) qui doivent être considérées comme suit : 
   
 - la clé privée que possède chaque détenteur de certificat ;
     
@@ -59,7 +61,7 @@ Le protocole TURN (Traversal Using Relay NAT) n’exige pas que le trafic soi
 
 L’usurpation d’identité intervient lorsque l’attaquant détermine et utilise le numéro de téléphone d’un utilisateur valide (ID d’appelant) ou d’une adresse IP d’un réseau, d’un ordinateur ou d’un composant réseau sans être autorisé à le faire. Une attaque réussie permet à l’attaquant de fonctionner comme s’il s’agissait d’une entité identifiée habituellement par le numéro de téléphone (ID d’appelant) ou l’adresse IP.
 
-Dans le cadre de Skype entreprise Server, l’usurpation d’adresse IP intervient uniquement si un administrateur a réalisé les deux opérations suivantes:
+Dans le cadre de Skype entreprise Server, l’usurpation d’adresse IP intervient uniquement si un administrateur a réalisé les deux opérations suivantes :
   
 - configuré des connexions qui prennent uniquement en charge le protocole TCP (Transmission Control Protocol), ce qui n’est pas recommandé car les communications TCP ne sont pas chiffrées ;
     

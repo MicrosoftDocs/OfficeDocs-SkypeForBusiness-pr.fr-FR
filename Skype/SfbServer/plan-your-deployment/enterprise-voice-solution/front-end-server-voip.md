@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: En savoir plus sur les composants vocaux d’entreprise situés sur des serveurs frontaux dans Skype entreprise Server, y compris le service de traduction et divers composants de routage.
-ms.openlocfilehash: d28beb809e172ea5d778e0cf8273cb232b7cf67c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae2f389720a6c359f442a7a163d5b4b5aef6e26
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276851"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802964"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Composants VoIP du serveur frontal pour Skype entreprise Server
 
 En savoir plus sur les composants vocaux d’entreprise situés sur des serveurs frontaux dans Skype entreprise Server, y compris le service de traduction et divers composants de routage.
 
-Les composants VoIP situés sur les serveurs frontaux sont les suivants:
+Les composants VoIP situés sur les serveurs frontaux sont les suivants :
 
 - Service de conversion
 
@@ -57,7 +59,7 @@ La logique de routage qu’il utilise est en grande partie configurée par les a
 
 Le composant routage de messagerie unifiée Exchange gère le routage entre Skype entreprise Server et les serveurs exécutant la messagerie unifiée Exchange, pour intégrer Skype entreprise Server aux fonctionnalités de messagerie unifiée.
 
-Le composant routage de messagerie UNIFIÉe Exchange gère également le reroutage de la messagerie vocale sur le RTC si des serveurs de messagerie unifiée Exchange ne sont pas disponibles. Si vous avez des utilisateurs d’Enterprise Voice sur des sites de succursale qui n’ont pas de lien réseau étendu fiable vers un site central, l’unité de branchement survivant que vous déployez sur le site de succursale fournit une survie de la messagerie vocale pour les utilisateurs de succursales en cas de panne du réseau étendu. Lorsque le lien WAN n’est pas disponible, l’unité de branchement Survivable effectue les actions suivantes:
+Le composant routage de messagerie UNIFIÉe Exchange gère également le reroutage de la messagerie vocale sur le RTC si des serveurs de messagerie unifiée Exchange ne sont pas disponibles. Si vous avez des utilisateurs d’Enterprise Voice sur des sites de succursale qui n’ont pas de lien réseau étendu fiable vers un site central, l’unité de branchement survivant que vous déployez sur le site de succursale fournit une survie de la messagerie vocale pour les utilisateurs de succursales en cas de panne du réseau étendu. Lorsque le lien WAN n’est pas disponible, l’unité de branchement Survivable effectue les actions suivantes :
 
 - réachemine les appels sans réponse via la passerelle RTC vers le serveur de messagerie unifiée Exchange localisé sur le site central ;
 
@@ -75,7 +77,7 @@ Le composant de routage Intercluster est responsable du routage des appels vers 
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>Autres composants du serveur frontal requis pour la voix sur IP (VoIP)
 
-D’autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle de VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, incluent les éléments suivants:
+D’autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle de VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, incluent les éléments suivants :
 
 - **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant distribue l’appel aux points de terminaison SIP inscrits de l’utilisateur. User Services est un composant principal de tous les serveurs et directeurs frontaux.
 

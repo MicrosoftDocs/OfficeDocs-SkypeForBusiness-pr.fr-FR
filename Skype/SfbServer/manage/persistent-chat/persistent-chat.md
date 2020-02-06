@@ -8,19 +8,21 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
-description: 'Résumé: Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 1702cc9891c34085f8de269d5e91723378c54ada
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 97cce8adedbb4dea932084497006e3c17bfdd7d8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418668"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817320"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment gérer le serveur Chat permanent dans Skype entreprise Server 2015.
   
 Lorsque vous configurez le serveur de chat permanent pour votre organisation, vous spécifiez la configuration initiale lors du déploiement. Toutefois, il peut arriver que vous souhaitiez modifier le mode de mise en œuvre d’une prise en charge du serveur de chat permanent. Par exemple, vous pouvez avoir besoin de configurer une prise en charge et des contrôles permanents pour une équipe ou un groupe spécifique au sein de votre organisation. Cette section fournit des informations et des procédures pour vous aider à personnaliser le déploiement de votre serveur Chat permanent. Pour plus d’informations sur les fonctionnalités que vous pouvez configurer pour le serveur de chat permanent, voir [planifier pour le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Pour plus d’informations sur le déploiement d’un serveur de chat permanent, voir [déployer un serveur Chat permanent dans Skype entreprise server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
 

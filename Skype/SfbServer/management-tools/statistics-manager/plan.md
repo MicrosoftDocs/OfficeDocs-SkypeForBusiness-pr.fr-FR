@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé: cette rubrique vous explique en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.'
-ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : cette rubrique vous explique en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.'
+ms.openlocfilehash: 0bf7a5366047a0f4435a98cd8bca75eeb3ebc8d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299736"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816233"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le gestionnaire de statistiques pour Skype Entreprise Server
 
-**Résumé:** Consultez cette rubrique pour en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur le gestionnaire de statistiques pour Skype entreprise Server.
 
  Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui permet de consulter Skype pour l’état et les performances des données entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques.
 
@@ -45,11 +47,11 @@ Cette rubrique contient les sections suivantes :
 ## <a name="features-and-capabilities"></a>Fonctionnalités et fonctionnalités
 <a name="BKMK_Features"> </a>
 
-Le gestionnaire de statistiques vous permet d’effectuer les opérations suivantes:
+Le gestionnaire de statistiques vous permet d’effectuer les opérations suivantes :
 
 - Affichez des données brutes pour tous les serveurs en temps réel. (Les données sont échantillonnées à un tarif très élevé et envoyées au site Web en moins d’une seconde.)
 
-- Afficher des données agrégées pour un rôle spécifique; par exemple, serveur frontal, serveur de médiation, serveur Edge, etc.
+- Afficher des données agrégées pour un rôle spécifique ; par exemple, serveur frontal, serveur de médiation, serveur Edge, etc.
 
 - Explorez les données vers le bas pour afficher les données de sites spécifiques, des pools spécifiques au sein du site, puis des serveurs spécifiques au sein de la liste.
 
@@ -90,7 +92,7 @@ Les rubriques suivantes décrivent les nouveautés de la version 2,0. Si vous av
 
 - De nombreuses améliorations liées à la fiabilité et aux performances.
 
-Pour vérifier la version du site Web du gestionnaire de statistiques que vous exécutez:
+Pour vérifier la version du site Web du gestionnaire de statistiques que vous exécutez :
 
 - Dans l’Explorateur de fichiers, ouvrez (répertoire par défaut) C:\Program Files\Skype entreprise Server Stats WebSite\bin
 
@@ -101,7 +103,7 @@ Pour vérifier la version du site Web du gestionnaire de statistiques que vous e
 ## <a name="components"></a>Composants
 <a name="BKMK_Components"> </a>
 
-Le gestionnaire de statistiques comprend les composants suivants:
+Le gestionnaire de statistiques comprend les composants suivants :
 
 - **Représentant.** Un agent léger qui s’exécute sur chaque serveur surveillé. L’agent autorise une interrogation de haut débit configurable des compteurs de performance avec une agrégation locale.
 
@@ -118,7 +120,7 @@ De plus, le gestionnaire de statistiques nécessite des **ReDim**, un serveur de
 
 Dans un déploiement local, un serveur unique héberge tous les composants du gestionnaire de statistiques côté serveur.
 
-Le diagramme suivant illustre un déploiement local, dans lequel le site Web du gestionnaire de statistiques, le concentrateur, l’écouteur et le système de mise en cache de ReDim sont hébergés sur un seul ordinateur. Le gestionnaire de statistiques analyse trois serveurs Skype entreprise, chacun d’eux disposant d’un seul agent pour transmettre des données à l’écouteur. Les utilisateurs se connectent à un site Web unique pour afficher toutes les données agrégées par le gestionnaire de statistiques:
+Le diagramme suivant illustre un déploiement local, dans lequel le site Web du gestionnaire de statistiques, le concentrateur, l’écouteur et le système de mise en cache de ReDim sont hébergés sur un seul ordinateur. Le gestionnaire de statistiques analyse trois serveurs Skype entreprise, chacun d’eux disposant d’un seul agent pour transmettre des données à l’écouteur. Les utilisateurs se connectent à un site Web unique pour afficher toutes les données agrégées par le gestionnaire de statistiques :
 
 ![Déploiement sur site du gestionnaire de statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
@@ -155,7 +157,7 @@ Lors de l’installation, les ports de pare-feu pour l’écouteur et le site We
 
 ### <a name="hardware-requirements"></a>Configuration matérielle requise
 
-Dans un déploiement local, dans lequel un serveur unique héberge tous les composants gestionnaires de statistiques côté serveur, un serveur doté de 16 Go de mémoire vive (RAM) et de 4 UC doit être en mesure de prendre en charge des exemples de 150 par seconde en moyenne. Pour déterminer le nombre de compteurs/agents pris en charge, procédez comme suit:
+Dans un déploiement local, dans lequel un serveur unique héberge tous les composants gestionnaires de statistiques côté serveur, un serveur doté de 16 Go de mémoire vive (RAM) et de 4 UC doit être en mesure de prendre en charge des exemples de 150 par seconde en moyenne. Pour déterminer le nombre de compteurs/agents pris en charge, procédez comme suit :
 
 100 serveurs \*80 compteurs \* 1 exemple par minute de chaque agent/60 secondes = ~ 133 exemples par seconde.
 

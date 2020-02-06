@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Résumé: pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, voir les rubriques suivantes.'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, voir les rubriques suivantes.'
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277327"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815992"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier la Conférence rendez-vous dans Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, reportez-vous à la rubrique.
+**Résumé :** Pour plus d’informations sur la planification de conférences rendez-vous dans Skype entreprise Server, reportez-vous à la rubrique.
   
 La fonction de conférence rendez-vous est une fonctionnalité facultative de Skype entreprise Server qui permet aux participants d’une réunion de rejoindre la partie audio d’une réunion en appelant la réunion à partir d’un téléphone. Une conférence rendez-vous est un sous-ensemble d’une conférence audio nécessitant une configuration supplémentaire. Cette rubrique décrit la préparation du déploiement de la conférence rendez-vous pour votre organisation. 
   
@@ -48,7 +50,7 @@ Vous pouvez déployer un serveur de médiation dans un site central ou dans un s
   
 Vous pouvez déployer une passerelle RTC dans un site central ou dans un site de succursale. Dans un site de succursale, la passerelle RTC peut être autonome ou un composant Survivable Branch Appliance.
   
-Pour plus d’informations sur la configuration requise du serveur de médiation et de la passerelle RTC, consultez le [composant serveur de médiation dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)et [définition d’une passerelle dans la topologie Générateur dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Pour plus d’informations sur la configuration requise du serveur de médiation et de la passerelle RTC, consultez le [composant serveur de médiation dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [déploiement d’un serveur de médiation dans le générateur de topologie de Skype entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)et [définition d’une passerelle dans le générateur de topologie de Skype entreprise Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Préparation des plans de numérotation, des numéros d’accès et des régions de conférence
 

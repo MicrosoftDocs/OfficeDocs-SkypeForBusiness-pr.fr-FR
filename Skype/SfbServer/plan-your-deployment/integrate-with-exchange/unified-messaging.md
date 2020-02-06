@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Résumé : reportez-vous à cette rubrique pour planifier l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772617"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815862"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planification de l’intégration de la messagerie unifiée Exchange à Skype Entreprise
 
@@ -61,7 +63,7 @@ Skype entreprise Server, voix entreprise utilise l’infrastructure de messageri
 
 ### <a name="exchange-server-components"></a>Composants d’Exchange Server
 
-Pour fournir les services et fonctionnalités de messagerie UNIFIÉe Exchange décrits dans les [fonctionnalités de la messagerie unifiée et de Skype entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) aux utilisateurs voix entreprise dans votre organisation, vous devez déployer un serveur de boîte aux lettres Microsoft Exchange et un accès client. serveur qui héberge les boîtes aux lettres des utilisateurs et fournit un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. La messagerie unifiée Exchange s’exécute en tant que service sur les serveurs de boîtes aux lettres Exchange et d’accès client.
+Pour fournir les services et fonctionnalités de messagerie UNIFIÉe Exchange décrits dans les [fonctionnalités de messagerie unifiée et de Skype entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) pour les utilisateurs d’Enterprise Voice au sein de votre organisation, vous devez déployer un serveur de boîte aux lettres Microsoft Exchange et un serveur d’accès au client, qui héberge les boîtes aux lettres des utilisateurs et fournit un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. La messagerie unifiée Exchange s’exécute en tant que service sur les serveurs de boîtes aux lettres Exchange et d’accès client.
 
 Pour plus d’informations sur les composants de messagerie unifiée Exchange dans Microsoft Exchange Server 2010, consultez [déploiement de la messagerie unifiée Exchange locale pour proposer Lync Server 2013 Preview](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
 

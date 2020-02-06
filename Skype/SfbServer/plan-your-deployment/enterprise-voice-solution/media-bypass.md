@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Décisions nécessaires à la planification d’une dérivation multimédia dans Skype entreprise Server Voice. Inclut l’interaction avec le contrôle d’admission des appels.
-ms.openlocfilehash: 9db3d9aec6af0cccec951faa3b103d7660a6944b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aed78aa12f593f834bc2c694fec87d5d31e6e47b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276704"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802704"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Plan de contournement de médias dans Skype entreprise
 
@@ -110,7 +112,7 @@ Pour chaque appel au RTC, le serveur de médiation détermine si les éléments 
 
 La déviation du trafic multimédia peut être utilisée lorsque les conditions suivantes sont remplies :
 
-- Un homologue de serveur de médiation doit prendre en charge les fonctionnalités nécessaires à la dérivation de média multimédia, c’est la possibilité de gérer plusieurs réponses correspondantes (appelées «boîtes de dialogue précoce»). Contactez le fabricant de votre passerelle ou système PBX, ou votre fournisseur ITSP, pour obtenir la valeur du nombre maximal de boîtes de dialogue préliminaires que la passerelle, PBX ou SBC peut accepter.
+- Un homologue de serveur de médiation doit prendre en charge les fonctionnalités nécessaires à la dérivation de média multimédia, c’est la possibilité de gérer plusieurs réponses correspondantes (appelées « boîtes de dialogue précoce »). Contactez le fabricant de votre passerelle ou système PBX, ou votre fournisseur ITSP, pour obtenir la valeur du nombre maximal de boîtes de dialogue préliminaires que la passerelle, PBX ou SBC peut accepter.
 
 - Le serveur de médiation doit accepter le trafic multimédia directement depuis les points de terminaison Skype entreprise. De nombreux ITSPs permettent à l’SBC de recevoir le trafic uniquement à partir du serveur de médiation. Contactez votre ITSP pour déterminer si l’SBC accepte le trafic multimédia directement depuis les points de terminaison Skype entreprise.
 

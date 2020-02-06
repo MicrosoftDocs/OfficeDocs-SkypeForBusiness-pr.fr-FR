@@ -8,27 +8,29 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Résumé : comment utiliser l’outil calculateur de capacité.'
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274456"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816633"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculateur de planification de la capacité Skype Entreprise Server
  
 **Résumé :** comment utiliser l’outil calculateur de capacité.
 
 > [!NOTE]
-> Cet article fait référence aux téléchargements Skype entreprise Server 2015, mais s’applique à:
+> Cet article fait référence aux téléchargements Skype entreprise Server 2015, mais s’applique à :
 > - Skype entreprise Server 2019.
 > - Skype entreprise Server 2015.
   
-L’outil de [calcul de capacité 2015 de Skype entreprise Server](https://www.microsoft.com/en-us/download/details.aspx?id=51196) et [skype entreprise Server 2019 de capacités](https://www.microsoft.com/en-us/download/details.aspx?id=57509) renforcent l' [outil de planification de Skype entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=50357) et votre documentation de déploiement ([planifiez votre abonnement Skype entreprise Le déploiement de serveur 2015](../plan-your-deployment/plan-your-deployment.md) et [la planification de votre déploiement de Skype entreprise Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivement). Utilisez le calculateur après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
+L’outil de [calcul de capacité 2015 de Skype entreprise Server](https://www.microsoft.com/en-us/download/details.aspx?id=51196) et [skype entreprise Server 2019 de capacités](https://www.microsoft.com/en-us/download/details.aspx?id=57509) renforcent l' [outil de planification de Skype entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=50357) et votre documentation de déploiement ([planifiez le déploiement](../plan-your-deployment/plan-your-deployment.md) de Skype entreprise Server 2015 et [prévoyez votre déploiement de Skype entreprise Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivement). Utilisez le calculateur après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
   
 Le calculateur de capacités de Skype entreprise Server vous permet de déterminer les exigences du serveur en fonction du nombre d’utilisateurs et des outils de communication utilisés par votre organisation. Une fois que vous avez déterminé votre profil d’utilisateur et les fonctions que vous voulez activer pour vos utilisateurs, utilisez le calculateur pour déterminer le nombre de serveurs, la quantité de mémoire et la bande passante dont vous aurez besoin. Cette version du calculateur ne fournit pas de recommandations concernant les spécifications des E/S du disque.
   
@@ -82,7 +84,7 @@ Le modèle d’utilisation contient les sections suivantes. Pour calculer la cap
   
 - Dans **pourcentage d’utilisateurs activés pour la mobilité**, tapez le pourcentage d’utilisateurs qui seront activés pour se connecter à Skype entreprise Server à l’aide d’appareils mobiles. La valeur par défaut est 40 %. 
     
-Lorsque vous avez entré toutes les informations nécessaires, le calculateur de capacité évalue votre configuration requise. Les cellules jaunes montrent des valeurs calculées pour le processeur, la mémoire et les exigences de bande passante en fonction des tests exécutés dans Skype entreprise Server-performance Labs. Les nombres sont fournis dans le cadre d’une instruction, et aucune variante unique n’est testée et validée. Les valeurs suivantes sont calculées: 
+Lorsque vous avez entré toutes les informations nécessaires, le calculateur de capacité évalue votre configuration requise. Les cellules jaunes montrent des valeurs calculées pour le processeur, la mémoire et les exigences de bande passante en fonction des tests exécutés dans Skype entreprise Server-performance Labs. Les nombres sont fournis dans le cadre d’une instruction, et aucune variante unique n’est testée et validée. Les valeurs suivantes sont calculées : 
   
 - **Processeur frontal** : pourcentage d’utilisation du processeur si la charge complète est traitée par un serveur frontal dont les spécifications sont identiques à celles du serveur utilisé lors du test (consultez la description à la fin de cet article).
     
@@ -92,7 +94,7 @@ Lorsque vous avez entré toutes les informations nécessaires, le calculateur de
     
 Les cellules vertes indiquent les recommandations pour le modèle d’utilisation que vous avez entré. 
   
-- **Nombre total de serveurs frontaux**: le nombre de serveurs physiques requis est basé sur des serveurs dédiés exécutant Skype entreprise Server 2015 avec deux processeurs, un cœur hexadécimal, avec 2 260 mégacycles ou Skype entreprise Server 2019 avec Intel Xeon E5-2673 v3, double processeur hex-cœur.
+- **Nombre total de serveurs frontaux**: le nombre de serveurs physiques requis est basé sur des serveurs dédiés exécutant Skype entreprise Server 2015 avec deux processeurs, un cœur hexadécimal, avec 2 260 mégacycles ou Skype entreprise Server 2019 avec Intel Xeon E5-2673 v3, double processeur, hex-cœur.
     
     Il est recommandé d’activer l’hyperthreading. Il a été démontré que cette technologie améliore les performances des serveurs prenant en charge le son et la vidéo.
     

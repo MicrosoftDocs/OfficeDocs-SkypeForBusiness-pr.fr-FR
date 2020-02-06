@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planifiez vos appels via le travail dans Skype entreprise Server, qui permet d’intégrer Skype entreprise et votre système téléphonique PBX, de sorte que les utilisateurs puissent utiliser Skype entreprise pour contrôler leurs téléphones PBX.
-ms.openlocfilehash: b2f0e57a33f6e194dc981b623a641850ed3c8de5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38c61145dcad609c75e7b2e3433efee307f8dc28
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277026"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803154"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planifier un appel via le travail dans Skype entreprise Server
  
@@ -27,7 +29,7 @@ Planifiez vos appels via le travail dans Skype entreprise Server, qui permet d�
   
  L' **appel par le biais du travail** est une nouvelle fonctionnalité de Skype entreprise Server qui vous permet d’intégrer votre solution Skype entreprise à vos systèmes de téléphonie PBX existants. Un utilisateur ayant activé les appels via le travail peut cliquer dans Skype entreprise pour appeler un autre utilisateur, au sein de votre déploiement ou d’un utilisateur externe. L’appel est effectué via le téléphone PBX de l’utilisateur. Cela permet à l’utilisateur d’un téléphone PBX d’inclure le son dans ses conversations Skype entreprise complètes. Dans les versions précédentes du contrôle d’appel distant de Lync Server est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype entreprise Server, cette fonction a été remplacée par un appel via le travail.
   
-L’appel par le biais de votre bureau permet aux utilisateurs de téléphones PBX de procéder comme suit:
+L’appel par le biais de votre bureau permet aux utilisateurs de téléphones PBX de procéder comme suit :
   
 - Expérience cliquer pour appeler grâce à la fonctionnalité audio du téléphone PBX.
     
@@ -43,7 +45,7 @@ Appel par travail utilise l’API UCWA (Unified Communications Web API) en tant 
   
 ### <a name="call-workflow-for-a-call-via-work-call"></a>Flux de travail d’appel pour un appel via un appel
 
-L’exemple suivant illustre la manière dont un utilisateur a activé les appels via le travail peut utiliser Skype entreprise Server pour passer un appel:
+L’exemple suivant illustre la manière dont un utilisateur a activé les appels via le travail peut utiliser Skype entreprise Server pour passer un appel :
   
 ![Affiche les étapes pendant un Appel via le bureau : l’appelant clique pour passer un appel à l’aide du client Skype Entreprise, puis UCWA fait sonner le téléphone de l’appelant. Lorsque celui-ci décroche, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
@@ -71,7 +73,7 @@ Lorsqu’un utilisateur a activé l’appel via le Bureau reçoit un appel PBX, 
   
 ## <a name="limitations-of-call-via-work"></a>Limitations d’appel via le Bureau
 
-L’appel par le biais du Bureau est une solution vocale qui nécessite un minimum de configuration matérielle, mais qui comporte des limitations par rapport aux fonctionnalités disponibles dans le contrôle voix ou appels distant complet de l’entreprise. Les appels via le bureau sont soumis aux limitations suivantes:
+L’appel par le biais du Bureau est une solution vocale qui nécessite un minimum de configuration matérielle, mais qui comporte des limitations par rapport aux fonctionnalités disponibles dans le contrôle voix ou appels distant complet de l’entreprise. Les appels via le bureau sont soumis aux limitations suivantes :
   
 - Si un appel via le téléphone de bureau a configuré le renvoi d’appel via le numéro de rappel professionnel et qu’une personne tente d’inviter cet utilisateur à une réunion à l’aide du numéro de téléphone de l’utilisateur, l’invitation n’atteint pas l’utilisateur. Vous devez recommander à vos utilisateurs de se servir des noms et non pas des numéros de téléphone pour adresser des invitations. 
     

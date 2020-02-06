@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-description: Apprenez-en davantage sur les serveurs de médiation dans Skype entreprise Server, notamment ses topologies prises en charge et ses relations avec les Trunks M:N, le contournement du contenu multimédia et le contrôle d’admission des appels.
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Apprenez-en davantage sur les serveurs de médiation dans Skype entreprise Server, notamment ses topologies prises en charge et ses relations avec les Trunks M :N, le contournement du contenu multimédia et le contrôle d’admission des appels.
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802694"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Composant serveur de médiation dans Skype entreprise Server
  
-Apprenez-en davantage sur les serveurs de médiation dans Skype entreprise Server, notamment ses topologies prises en charge et ses relations avec les Trunks M:N, le contournement du contenu multimédia et le contrôle d’admission des appels.
+Apprenez-en davantage sur les serveurs de médiation dans Skype entreprise Server, notamment ses topologies prises en charge et ses relations avec les Trunks M :N, le contournement du contenu multimédia et le contrôle d’admission des appels.
   
 Pour déployer Enterprise Voice, vous devez déployer un ou plusieurs serveurs de médiation. 
   
@@ -37,7 +39,7 @@ Le serveur de médiation est colocalisé par défaut avec le serveur frontal. Le
   
 ## <a name="what-mediation-server-does"></a>Rôle du serveur de médiation
 
-Les principales fonctions du serveur de médiation sont les suivantes:
+Les principales fonctions du serveur de médiation sont les suivantes :
   
 - Le chiffrement et le déchiffrement de SRTP du côté Skype entreprise Server. 
     
@@ -62,13 +64,13 @@ La figure suivante illustre les protocoles de signalisation et de média utilis�
   
 ## <a name="mn-trunk"></a>Jonction M:N
 
-Skype entreprise Server prend en charge la souplesse dans la définition d’un Trunk pour le routage des appels. Un Trunk est une association logique entre un serveur de médiation et un numéro de port d’écoute, avec une passerelle et un numéro de port d’écoute. Cela implique plusieurs facteurs: un serveur de médiation peut avoir plusieurs Trunks vers la même passerelle; un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles. à l’inverse, une passerelle peut avoir plusieurs Trunks pour différents serveurs de médiation.
+Skype entreprise Server prend en charge la souplesse dans la définition d’un Trunk pour le routage des appels. Un Trunk est une association logique entre un serveur de médiation et un numéro de port d’écoute, avec une passerelle et un numéro de port d’écoute. Cela implique plusieurs facteurs : un serveur de médiation peut avoir plusieurs Trunks vers la même passerelle ; un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles. à l’inverse, une passerelle peut avoir plusieurs Trunks pour différents serveurs de médiation.
   
-Vous devez tout de même créer un Trunk racine lorsque vous ajoutez une passerelle à votre topologie Skype entreprise à l’aide du générateur de topologie. Le nombre de passerelles qu’un serveur de médiation peut gérer dépend de la capacité de traitement du serveur pendant les heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui répond à la configuration minimale requise pour Skype entreprise Server, comme indiqué dans la [Configuration requise pour Skype entreprise server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), un serveur de médiation autonome peut gérer approximativement appels 1000. Le serveur de médiation effectue le transcodage, mais route les appels pour plusieurs passerelles, même si les passerelles ne prennent pas en charge la dérivation multimédia.
+Vous devez tout de même créer un Trunk racine lorsque vous ajoutez une passerelle à votre topologie Skype entreprise à l’aide du générateur de topologie. Le nombre de passerelles qu’un serveur de médiation peut gérer dépend de la capacité de traitement du serveur pendant les heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui répond à la configuration minimale requise pour Skype entreprise Server, comme indiqué dans la [Configuration requise pour Skype entreprise server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), un serveur de médiation autonome peut gérer approximativement les appels 1000. Le serveur de médiation effectue le transcodage, mais route les appels pour plusieurs passerelles, même si les passerelles ne prennent pas en charge la dérivation multimédia.
   
 Lors de la définition d’un itinéraire d’appel, vous spécifiez les Trunks associés à cet itinéraire, mais vous ne spécifiez pas les serveurs de médiation associés à cet itinéraire. À la place, vous utilisez le générateur de topologie pour associer des Trunks aux serveurs de médiation. En d’autres termes, le routage détermine le Trunk à utiliser pour un appel et, par la suite, le serveur de médiation associé à cette ligne envoie le signalement pour cet appel.
   
-Le serveur de médiation peut être déployé en tant que pool. ce pool peut être colocalisé avec un pool frontal ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool frontal, la taille du pool peut être 12 (la limite de la taille du pool d’inscriptions). Ces fonctionnalités, telles que la fiabilité et la flexibilité de déploiement, permettent d’améliorer la fiabilité et la souplesse de déploiement des serveurs de médiation, mais ils nécessitent des fonctionnalités similaires:
+Le serveur de médiation peut être déployé en tant que pool. ce pool peut être colocalisé avec un pool frontal ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool frontal, la taille du pool peut être 12 (la limite de la taille du pool d’inscriptions). Ces fonctionnalités, telles que la fiabilité et la flexibilité de déploiement, permettent d’améliorer la fiabilité et la souplesse de déploiement des serveurs de médiation, mais ils nécessitent des fonctionnalités similaires :
   
 - **Passerelle RTC.** Une passerelle éligible de Skype entreprise Server doit implémenter l’équilibrage de charge DNS, ce qui permet à une passerelle RTC (réseau téléphonique commuté) qualifiée d’un équilibreur de charge d’un pool de serveurs de médiation, et donc de répartir les appels sur le pool. .
     
@@ -92,7 +94,7 @@ Pour plus d’informations sur le contrôle de dérivation multimédia ou le con
 
 Le serveur de médiation dispose de fonctionnalités étendues afin qu’il puisse interagir correctement avec les fournisseurs de services 9-1-1 (E9-1-1) améliorés. Aucune configuration spéciale n’est nécessaire sur le serveur de médiation. Les extensions SIP requises pour l’interaction E9-1-1 sont par défaut incluses dans le protocole SIP du serveur de médiation pour ses interactions avec un homologue de passerelle (passerelle RTC, PBX IP ou l’SBC d’un fournisseur de services de téléphonie Internet, y compris le service E9-1-1 Moteurs
   
-Le trunking SIP pour un fournisseur de services E9-1-1 peut être arrêté sur un pool de serveurs de médiation existant ou exiger des serveurs de médiation autonomes, selon que l’élément SBC E9-1-1 peut interagir avec un pool de serveurs de médiation. Pour plus d’informations, reportez-vous à [M:N Trunk dans Skype entreprise Server](m-n-trunk.md).
+Le trunking SIP pour un fournisseur de services E9-1-1 peut être arrêté sur un pool de serveurs de médiation existant ou exiger des serveurs de médiation autonomes, selon que l’élément SBC E9-1-1 peut interagir avec un pool de serveurs de médiation. Pour plus d’informations, reportez-vous à [M :N Trunk dans Skype entreprise Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Déviation du trafic multimédia et serveur de médiation
 
@@ -108,7 +110,7 @@ Lorsque la performance est un problème, il peut être préférable de déployer
   
 Si vous déployez des connexions SIP directes vers une passerelle RTC qualifiée qui prend en charge le contournement du contenu multimédia et l’équilibrage de charge DNS, vous n’avez pas besoin d’un pool de serveurs de médiation autonome. En effet, les passerelles qualifiées sont capables d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool.
   
-Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie:
+Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie :
   
 - Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
     
@@ -146,7 +148,7 @@ Le serveur de médiation est par défaut colocalisé sur le serveur principal ou
     
 Lors de la planification, veillez à prendre en compte les exigences de traitement multimédia pour les appels RTC et les conférences A/V qui ne sont pas configurées pour le recours au contenu multimédia, ainsi que le traitement requis pour gérer les interactions de signalisation en fonction du nombre d’appels vers des heures de disponibilité qui doivent être pris en charge. S’il n’y a pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. les passerelles RTC, IP PBX et SBCs doivent être divisées en sous-ensembles contrôlés par les serveurs de médiation colocalisés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
   
-Si vous avez déployé des passerelles RTC, des PBX IP ou des contrôleurs de frontière de session (SBCs) qui ne prennent pas en charge les fonctionnalités appropriées pour interagir avec un pool de serveurs de médiation, y compris les suivants, ils devront être associés à un pool autonome composé de d’un serveur de médiation unique:
+Si vous avez déployé des passerelles RTC, des PBX IP ou des contrôleurs de frontière de session (SBCs) qui ne prennent pas en charge les fonctionnalités appropriées pour interagir avec un pool de serveurs de médiation, y compris les suivants, ils devront être associés à un pool autonome composé de d’un serveur de médiation unique :
   
 - Effectuer l’équilibrage de charge DNS (Layer Domain Name System) entre les serveurs de médiation d’un pool (ou sinon, le trafic est uniformément routé vers tous les serveurs de médiation d’un pool)
     
@@ -168,6 +170,6 @@ S’il s’agit d’interactions avec un PBX IP, si ce n’est 3960 pas le cas, 
 Enfin, si votre site central possède un PBX TDM ou si votre PBX IP n’élimine pas la nécessité d’une passerelle RTC, vous devez déployer une passerelle sur l’itinéraire d’appel connexion du serveur de médiation et du PBX.
   
 > [!NOTE]
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section [«améliorations apportées à l’échelle de réception dans Windows Server»](https://go.microsoft.com/fwlink/p/?LinkId=268731). Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau. 
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section [« améliorations apportées à l’échelle de réception dans Windows Server »](https://go.microsoft.com/fwlink/p/?LinkId=268731). Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau. 
   
 

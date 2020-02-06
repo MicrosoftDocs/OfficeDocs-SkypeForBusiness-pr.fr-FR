@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
-description: 'Résumé: cette rubrique vous explique comment planifier l’archivage dans Skype entreprise Server.'
-ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : cette rubrique vous explique comment planifier l’archivage dans Skype entreprise Server.'
+ms.openlocfilehash: 92658ef139464cacaa7f66abb2cf3aa6294b463b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816083"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planifier l’archivage dans Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la planification de l’archivage dans Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Pour plus d’informations sur la planification de l’archivage dans Skype entreprise Server, reportez-vous à cette rubrique.
   
 Les grandes entreprises et autres organisations sont soumises à un nombre croissant de réglementations nationales et industrielles nécessitant la conservation de types spécifiques de communications. Si votre organisation dispose de ces exigences, vous pouvez utiliser l’archivage dans Skype entreprise Server pour archiver les communications par messagerie instantanée et de conférence (réunion) pour vous aider à prendre en charge certaines de vos exigences de conformité.
   
 ## <a name="archiving-components"></a>Composants d’archivage
 
-Skype entreprise Server utilise les composants d’archivage suivants:
+Skype entreprise Server utilise les composants d’archivage suivants :
   
 - **Argents d’archivage**. Les agents d’archivage (également connus sous le nom d’agents de collecte de données unifiée) sont installés et activés automatiquement sur chaque pool frontal Enterprise Edition et serveur Standard Edition. Même si les agents d’archivage sont activés automatiquement, aucun message n’est réellement capturé tant que l’archivage n’est pas activé et correctement configuré. L’archivage est désactivé par défaut.
     
@@ -36,7 +38,7 @@ L’archivage nécessite également le stockage de fichiers. Cependant, l’arch
   
 ## <a name="determine-your-organizations-requirements-for-archiving"></a>Définition des besoins de votre organisation pour l’archivage
 
-Pour implémenter l’archivage, vous devez décider comment répondre aux besoins de votre organisation en matière d’archivage en établissant les informations suivantes:
+Pour implémenter l’archivage, vous devez décider comment répondre aux besoins de votre organisation en matière d’archivage en établissant les informations suivantes :
   
 - **Quelle option de stockage utiliser**. Vous pouvez implémenter le stockage de l’une des deux façons ou utiliser une combinaison des deux :
     
@@ -90,7 +92,7 @@ Pour implémenter l’archivage, vous devez décider comment répondre aux besoi
     
 ## <a name="choose-archiving-deployment-and-configuration-options"></a>Choisir les options de configuration et de déploiement de l’archivage
 
-L’archivage est automatiquement installé sur chaque serveur frontal lors du déploiement du serveur, mais la mise à jour n’est pas activée tant que vous ne l’avez pas configuré. La configuration de l’archivage dépend du mode de déploiement. Vous pouvez déployer l’archivage de l’une des façons suivantes:
+L’archivage est automatiquement installé sur chaque serveur frontal lors du déploiement du serveur, mais la mise à jour n’est pas activée tant que vous ne l’avez pas configuré. La configuration de l’archivage dépend du mode de déploiement. Vous pouvez déployer l’archivage de l’une des façons suivantes :
   
 - Utiliser le stockage Microsoft Exchange
     
@@ -121,11 +123,11 @@ Pour plus d’informations sur la configuration des stratégies de blocage et de
   
 ### <a name="skype-for-business-server-storage"></a>Stockage Skype Entreprise Server
 
-Si vous choisissez le stockage Skype entreprise Server, vous utilisez les stratégies et configurations d’archivage de Skype entreprise Server pour contrôler l’activation et l’implémentation de l’archivage. Le stockage de Skype entreprise Server utilise des bases de données SQL Server; vous devrez donc ajouter les bases de données SQL Server appropriées à votre topologie, puis configurer vos stratégies d’archivage. 
+Si vous choisissez le stockage Skype entreprise Server, vous utilisez les stratégies et configurations d’archivage de Skype entreprise Server pour contrôler l’activation et l’implémentation de l’archivage. Le stockage de Skype entreprise Server utilise des bases de données SQL Server ; vous devrez donc ajouter les bases de données SQL Server appropriées à votre topologie, puis configurer vos stratégies d’archivage. 
   
 ### <a name="add-storage-databases-to-your-topology"></a>Ajouter des bases de données à votre topologie
 
-Lorsque vous ajoutez des bases de données de stockage SQL Server à votre topologie, vous pouvez choisir de collocateer les bases de données d’archivage avec l’une des options suivantes:
+Lorsque vous ajoutez des bases de données de stockage SQL Server à votre topologie, vous pouvez choisir de collocateer les bases de données d’archivage avec l’une des options suivantes :
   
 - Base de données de surveillance
     
@@ -134,7 +136,7 @@ Lorsque vous ajoutez des bases de données de stockage SQL Server à votre topol
 > [!NOTE]
 > Le serveur qui héberge la base de données d’archivage peut également héberger d’autres bases de données. Cependant, quand vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données d’archivage peuvent devenir très importants. C’est la raison pour laquelle nous vous déconseillons de colocaliser la base de données d’archivage avec la base de données principale. 
   
-Si vous collocate la base de données d’archivage avec la base de données de surveillance, la base de données principale, ou les deux, vous pouvez utiliser une instance SQL unique pour tout ou partie des bases de données, ou vous pouvez utiliser une instance SQL distincte pour chaque base de données, comme suit: limitation: chaque instance SQL ne peut contenir qu’une seule base de données principale, une seule base de données de surveillance et une seule base de données d’archivage.
+Si vous collocate la base de données d’archivage avec la base de données de surveillance, la base de données principale, ou les deux, vous pouvez utiliser une instance SQL unique pour tout ou partie des bases de données, ou vous pouvez utiliser une instance SQL distincte pour chaque base de données, comme suit : limitation : chaque instance SQL ne peut contenir qu’une seule base de données principale, une seule base de données de surveillance et une seule base de données d’archivage.
   
 Pour plus d’informations sur la colocalisation de tous les rôles de serveur et bases de données, voir notions de base de la [topologie pour Skype entreprise Server](../../plan-your-deployment/topology-basics/topology-basics.md). Pour plus d’informations sur la mise à jour de votre topologie de façon à inclure des bases de données de stockage, reportez-vous à la rubrique [créer et publier une nouvelle topologie dans Skype entreprise Server](../../deploy/install/create-and-publish-new-topology.md).
   

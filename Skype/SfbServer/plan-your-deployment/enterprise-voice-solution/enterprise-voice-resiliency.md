@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: En savoir plus sur la prise en charge de la résilience vocale dans Skype entreprise Server Voice, sur des sites centraux et des sites de succursales. Les options de site de succursale incluent le déploiement d’appareils de succursales survivant ou de succursales survivant.
-ms.openlocfilehash: 2ede1677e59753e5f8f39b3e9a35221041b56263
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276886"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802944"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
@@ -41,7 +43,7 @@ Cette rubrique décrit la solution recommandée pour sécuriser la résistance v
 
 ### <a name="architecture-and-topology"></a>Architecture et topologie
 
-La planification de la résilience vocale sur un site central nécessite une connaissance de base du rôle central joué par le Bureau d’enregistrement de Skype entreprise Server en activant le basculement sur voix. Le Bureau d’enregistrement de Skype entreprise Server est un service qui permet l’inscription et l’authentification du client et fournit les services de routage. Il s’exécute sur tous les appareils Standard Edition Server, serveur frontal, directeur ou branche Survivable. Un pool d’bureaux d’enregistrement est constitué de services d’enregistrement de registre en cours d’exécution sur le pool frontal et résidant sur le même site. Un client Skype entreprise Découvre le pool frontal par le biais du mécanisme de découverte suivant:
+La planification de la résilience vocale sur un site central nécessite une connaissance de base du rôle central joué par le Bureau d’enregistrement de Skype entreprise Server en activant le basculement sur voix. Le Bureau d’enregistrement de Skype entreprise Server est un service qui permet l’inscription et l’authentification du client et fournit les services de routage. Il s’exécute sur tous les appareils Standard Edition Server, serveur frontal, directeur ou branche Survivable. Un pool d’bureaux d’enregistrement est constitué de services d’enregistrement de registre en cours d’exécution sur le pool frontal et résidant sur le même site. Un client Skype entreprise Découvre le pool frontal par le biais du mécanisme de découverte suivant :
 
 1. Enregistrement DNS SRV
 
@@ -88,7 +90,7 @@ Les conditions préalables et recommandations suivantes, relatives à l’implé
 
 ### <a name="dependencies"></a>Dépendances
 
-Skype entreprise Server dépend des composants d’infrastructure et de logiciels suivants pour garantir la résilience vocale:
+Skype entreprise Server dépend des composants d’infrastructure et de logiciels suivants pour garantir la résilience vocale :
 
 |**Composant** <br/> |**Fonction** <br/> |
 |:-----|:-----|
@@ -151,7 +153,7 @@ Les fonctionnalités vocales suivantes ne fonctionnent pas lorsqu’un site cent
 
 ## <a name="branch-site-resiliency"></a>Résistance des sites de succursale
 
-Si vous souhaitez fournir une résilience de site de succursale, c’est-à-dire, un service voix entreprise haute disponibilité, trois options s’offrent à vous:
+Si vous souhaitez fournir une résilience de site de succursale, c’est-à-dire, un service voix entreprise haute disponibilité, trois options s’offrent à vous :
 
 - Survivable Branch Appliance
 
@@ -163,7 +165,7 @@ Ce guide vous aidera à choisir la solution de résistance la plus adaptée à v
 
 ### <a name="branch-site-resiliency-features"></a>Fonctionnalités de résistance pour sites de succursale
 
-Si vous fournissez une résilience de site de succursale, si la connexion WAN d’un site de succursale à un site central échoue ou si le site central n’est pas joignable, les fonctionnalités vocales suivantes doivent rester disponibles:
+Si vous fournissez une résilience de site de succursale, si la connexion WAN d’un site de succursale à un site central échoue ou si le site central n’est pas joignable, les fonctionnalités vocales suivantes doivent rester disponibles :
 
 - Appels RTC entrants et sortants
 
@@ -183,7 +185,7 @@ Si vous fournissez une résilience de site de succursale, si la connexion WAN d�
 
 - Authentification et autorisations des utilisateurs
 
-Les fonctionnalités suivantes ne seront disponibles que si votre solution de résilience est un déploiement de Skype entreprise Server à une échelle complète sur le site de la succursale:
+Les fonctionnalités suivantes ne seront disponibles que si votre solution de résilience est un déploiement de Skype entreprise Server à une échelle complète sur le site de la succursale :
 
 - Messagerie instantanée, conférence A/V et web
 
@@ -210,8 +212,8 @@ Si vous décidez de mettre en œuvre la résistance pour les sites de succursale
 
 |**Si vous…**|**Nous vous recommandons d’utiliser un…**|
 |:-----|:-----|
-|Hébergez entre 25 et 1 000 utilisateurs sur le site de succursale, et si un déploiement complet n’est pas rentable ou si vous ne disposez pas d’une prise en charge d’administration locale.  <br/> |Survivable Branch Appliance  <br/> Le périphérique de la succursale survivant est un serveur de Blades standard doté d’un serveur d’inscription et de médiation de Skype entreprise Server exécuté sur Windows Server 2008 R2. L’unité de branchement Survivable comporte également une passerelle RTC (réseau téléphonique commuté). Des périphériques tiers qualifiés (développés par les partenaires de Microsoft dans le programme de qualification/certification Survivable Branch Appliance (SBA) assurent une connexion PSTN continue en cas de panne du réseau étendu, mais ils ne fournissent pas de services de conférence et de présence résistants, car ces fonctionnalités dépendent des serveurs frontaux du site central.  <br/> Pour plus d’informations sur les appareils de branchement Survivables, voir la section «informations sur l’appareil de branchement survivant» plus loin dans cette rubrique.  <br/> **Remarque:** Si vous décidez également d’utiliser une ligne SIP avec votre appareil de branchement survivant, contactez le fournisseur de votre application pour savoir quel fournisseur de services est le plus approprié pour votre organisation. <br/> |
-|Héberger entre 1000 et 2000 sur votre site de succursale, ne pas disposer d’une connexion WAN fiable et avoir reçu des administrateurs Skype entreprise Server  <br/> |Serveur de succursales survivant ou deux dispositifs de branchement plus survivant.  <br/> Le serveur de succursales survivant est une configuration matérielle requise pour les réunions Windows Server, sur laquelle sont installés les logiciels de bureau d’enregistrement et de médiation de Skype entreprise Server. Il doit se connecter à une passerelle PSTN ou à une jonction SIP à un fournisseur de services téléphoniques.  <br/> Pour plus d’informations sur les serveurs de succursales Survivables, voir la section «informations sur le serveur de succursales survivant» plus loin dans cette rubrique.  <br/> |
+|Hébergez entre 25 et 1 000 utilisateurs sur le site de succursale, et si un déploiement complet n’est pas rentable ou si vous ne disposez pas d’une prise en charge d’administration locale.  <br/> |Survivable Branch Appliance  <br/> Le périphérique de la succursale survivant est un serveur de Blades standard doté d’un serveur d’inscription et de médiation de Skype entreprise Server exécuté sur Windows Server 2008 R2. L’unité de branchement Survivable comporte également une passerelle RTC (réseau téléphonique commuté). Des périphériques tiers qualifiés (développés par les partenaires de Microsoft dans le programme de qualification/certification Survivable Branch Appliance (SBA) assurent une connexion PSTN continue en cas de panne du réseau étendu, mais ils ne fournissent pas de services de conférence et de présence résistants, car ces fonctionnalités dépendent des serveurs frontaux du site central.  <br/> Pour plus d’informations sur les appareils de branchement Survivables, voir la section « informations sur l’appareil de branchement survivant » plus loin dans cette rubrique.  <br/> **Remarque :** Si vous décidez également d’utiliser une ligne SIP avec votre appareil de branchement survivant, contactez le fournisseur de votre application pour savoir quel fournisseur de services est le plus approprié pour votre organisation. <br/> |
+|Héberger entre 1000 et 2000 sur votre site de succursale, ne pas disposer d’une connexion WAN fiable et avoir reçu des administrateurs Skype entreprise Server  <br/> |Serveur de succursales survivant ou deux dispositifs de branchement plus survivant.  <br/> Le serveur de succursales survivant est une configuration matérielle requise pour les réunions Windows Server, sur laquelle sont installés les logiciels de bureau d’enregistrement et de médiation de Skype entreprise Server. Il doit se connecter à une passerelle PSTN ou à une jonction SIP à un fournisseur de services téléphoniques.  <br/> Pour plus d’informations sur les serveurs de succursales Survivables, voir la section « informations sur le serveur de succursales survivant » plus loin dans cette rubrique.  <br/> |
 |Si vous avez besoin de fonctionnalités de présence et de conférence en plus des fonctionnalités vocales pour les utilisateurs de 5000 et que vous disposez d’un accès aux administrateurs de Skype entreprise Server.  <br/> |Procédez à un déploiement de site central avec un serveur Standard Edition au lieu d’un déploiement de site de succursale.  <br/> Le déploiement de Skype entreprise Server à une échelle complète fournit une connexion RTC continue et une présence et une audioconférence résilientes en cas de panne du réseau étendu.  <br/> |
 
 #### <a name="resiliency-topologies"></a>Topologies résistantes
@@ -224,7 +226,7 @@ La figure suivante montre les topologies recommandées pour la résistance des s
 
 #### <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance en détail
 
-L’unité de branchement Survivable du serveur Skype entreprise inclut les éléments suivants:
+L’unité de branchement Survivable du serveur Skype entreprise inclut les éléments suivants :
 
 - serveur d’inscriptions pour l’authentification et l’inscription des utilisateurs et routage des appels ;
 
@@ -267,7 +269,7 @@ Préparez les utilisateurs à la résilience de site de succursale en définissa
 
 Quelle que soit la solution de résistance de site de succursale choisie, vous devez affecter un serveur d’inscriptions principal à chaque utilisateur. Les utilisateurs du site de succursale doivent toujours s’inscrire auprès du Bureau d’enregistrement au niveau de la succursale, qu’il s’agisse de bureaux d’enregistrement, de succursales survivables ou de Skype entreprise Server standard ou Enterprise Edition autonomes. serveurs. Un enregistrement de ressource de service (SRV) DNS (Domain Name System) est requis pour qu’un client puisse détecter automatiquement son pool de serveurs d’inscriptions. Si l’unité de branchement Survivable devient indisponible, c’est la façon dont les clients du site de succursale découvrent automatiquement le Bureau d’enregistrement de sauvegarde.
 
-Si un site de succursale ne possède pas de serveur DNS, il existe deux façons de configurer la découverte de l’appareil de succursales survivant ou du serveur de succursales survivant:
+Si un site de succursale ne possède pas de serveur DNS, il existe deux façons de configurer la découverte de l’appareil de succursales survivant ou du serveur de succursales survivant :
 
 - Configurez l’option DHCP 120 sur le serveur DHCP (Dynamic Host Configuration Protocol) du site de succursale de manière à ce qu’elle pointe vers le nom de domaine complet (FQDN) de l’appareil ou du serveur de succursales survivant.
 
@@ -275,7 +277,7 @@ Si un site de succursale ne possède pas de serveur DNS, il existe deux façons 
 
 #### <a name="voice-routing-for-branch-users"></a>Routage des communications vocales des utilisateurs de succursale
 
-Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte au niveau utilisateur pour les utilisateurs d’un site de succursale. Il doit s’agir d’un itinéraire principal qui utilise l’appareil de branchement ou la passerelle serveur survivant, et un ou plusieurs itinéraires de sauvegarde qui utilisent une passerelle de réseau téléphonique commuté (PSTN) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire alternatif faisant appel à une ou plusieurs passerelles de site central est utilisé à la place. De cette façon, quel que soit l’emplacement d’enregistrement d’un utilisateur, sur le Bureau d’enregistrement de sites de succursale ou le pool d’registraire de sauvegarde sur le site central, la stratégie VoIP de l’utilisateur est toujours en vigueur. Il est primordial de tenir compte de ce point pour les scénarios de basculement. Par exemple, si vous avez besoin de renommer l’unité de branchement Survivable ou de reconfigurer l’unité de branchement Survivable pour vous connecter à un pool d’bureaux de connexion sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pour la durée. (Pour plus d’informations sur le changement de nom d’une unité de branchement survivant, voir [l’annexe B: gestion d’une unité de branchement survivant](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) dans la documentation de déploiement.) Si ces utilisateurs ne disposent pas de stratégies VoIP au niveau utilisateur ou d’un plan de numérotation de niveau utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP de niveau de site et les plans de numérotation de niveau site du site central s’appliquent par défaut aux utilisateurs, et non au niveau VoIP du site de la succursale. politiques et plans de numérotation. Dans ce scénario, leurs appels échoueront, à moins que les stratégies VoIP et les plans de numérotation au niveau du site utilisés par le pool de serveurs d’inscriptions de sauvegarde puissent également s’appliquer aux utilisateurs du site de succursale. Par exemple, si les utilisateurs d’un site de succursale basé au Japon sont déplacés sur un site central situé à Redmond, il est probable qu’un plan de numérotation dont les règles de normalisation ajoutent le préfixe +1425 à tous les appels à 7 chiffres ne traduiront pas correctement les appels de ces utilisateurs.
+Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte au niveau utilisateur pour les utilisateurs d’un site de succursale. Il doit s’agir d’un itinéraire principal qui utilise l’appareil de branchement ou la passerelle serveur survivant, et un ou plusieurs itinéraires de sauvegarde qui utilisent une passerelle de réseau téléphonique commuté (PSTN) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire alternatif faisant appel à une ou plusieurs passerelles de site central est utilisé à la place. De cette façon, quel que soit l’emplacement d’enregistrement d’un utilisateur, sur le Bureau d’enregistrement de sites de succursale ou le pool d’registraire de sauvegarde sur le site central, la stratégie VoIP de l’utilisateur est toujours en vigueur. Il est primordial de tenir compte de ce point pour les scénarios de basculement. Par exemple, si vous avez besoin de renommer l’unité de branchement Survivable ou de reconfigurer l’unité de branchement Survivable pour vous connecter à un pool d’bureaux de connexion sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pour la durée. (Pour plus d’informations sur le changement de nom d’une unité de branchement survivant, voir [l’annexe B : gestion d’une unité de branchement survivant](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) dans la documentation de déploiement.) Si ces utilisateurs ne disposent pas de stratégies VoIP d’utilisateur ou de plans de numérotation de niveau utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP de niveau de site et les plans de numérotation de niveau site du site central s’appliquent par défaut aux utilisateurs plutôt qu’aux stratégies VoIP et aux plans de numérotation de site. Dans ce scénario, leurs appels échoueront, à moins que les stratégies VoIP et les plans de numérotation au niveau du site utilisés par le pool de serveurs d’inscriptions de sauvegarde puissent également s’appliquer aux utilisateurs du site de succursale. Par exemple, si les utilisateurs d’un site de succursale basé au Japon sont déplacés sur un site central situé à Redmond, il est probable qu’un plan de numérotation dont les règles de normalisation ajoutent le préfixe +1425 à tous les appels à 7 chiffres ne traduiront pas correctement les appels de ces utilisateurs.
 
 > [!IMPORTANT]
 > Lorsque vous créez un itinéraire alternatif de succursale, nous vous conseillons d’ajouter deux enregistrements d’utilisation téléphonique RTC à la stratégie utilisateur de succursale et d’affecter des itinéraires distincts à chacun d’entre eux. Le premier itinéraire, ou principal, dirigerait les appels vers la passerelle associée à l’appareil de branchement (SBA) ou au serveur de succursales survivant. le deuxième, ou la sauvegarde, route dirigerait les appels vers la passerelle sur le site central. En dirigeant les appels, le SBA ou le serveur de succursale tente tous les itinéraires affectés au premier enregistrement d’utilisation RTC avant d’essayer le deuxième enregistrement.
@@ -328,7 +330,7 @@ Pour configurer la survivabilité de la messagerie vocale pour les utilisateurs 
 
 - L’administrateur Skype entreprise Server doit prendre le numéro de téléphone AA et utiliser ce numéro de téléphone comme numéro de **standard automatique de messagerie unifiée Exchange** dans les paramètres de routage de la messagerie vocale de l’appareil ou du serveur de succursales.
 
-- L’administrateur Skype entreprise Server doit obtenir le numéro de téléphone de l’abonné à la messagerie unifiée Exchange et utiliser ce numéro en tant que numéro d' **accès d’abonné** dans les paramètres de routage de la messagerie vocale de l’appareil de branche Survivable ou du serveur de succursales survivant. .
+- L’administrateur Skype entreprise Server devrait obtenir le numéro de téléphone d’accès de l’abonné à la messagerie unifiée Exchange et utiliser ce numéro en tant que numéro d' **accès d’abonné** dans les paramètres de routage de la messagerie vocale pour l’appareil de succursale Survivable ou le serveur de succursales survivant.
 
 - L’administrateur Skype entreprise Server doit configurer la messagerie unifiée Exchange de sorte qu’un seul plan de numérotation soit associé à tous les utilisateurs de succursales qui ont besoin d’accéder à la messagerie vocale lors d’une panne du réseau étendu.
 

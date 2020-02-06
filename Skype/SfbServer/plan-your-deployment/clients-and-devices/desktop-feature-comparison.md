@@ -8,23 +8,25 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
-description: 'Résumé: les administrateurs Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge pour les clients.'
-ms.openlocfilehash: a1df39ed3a426c7e01e753222526b0f18f260f19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : les administrateurs Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge pour les clients.'
+ms.openlocfilehash: b2a5bd1f0544713501bfce2fc0dffc9776ec64e2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277376"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803674"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités de client de bureau pour Skype entreprise Server 2015
 
-**Résumé:** Les administrateurs Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour savoir quelles fonctionnalités sont prises en charge sur les clients.
+**Résumé :** Les administrateurs Skype entreprise Server 2015 ou Skype entreprise Online peuvent utiliser ces tableaux pour savoir quelles fonctionnalités sont prises en charge sur les clients.
   
  Avant de déployer ou de procéder à la mise à niveau vers Skype entreprise, vérifiez quels clients sont déjà utilisés au sein de votre organisation. Utilisez les tableaux ci-dessous pour comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications aux utilisateurs, opérer le processus de déploiement et bien comprendre les avantages de la mise à niveau vers le dernier client.
   
@@ -35,7 +37,7 @@ Pour plus d’assistance sur le client Skype entreprise Server 2019, voir [compa
 Les tableaux suivants présentent les fonctionnalités disponibles avec chaque client fonctionnant avec Skype entreprise Server 2015 ou Skype entreprise online. Vous pouvez également vous reporter à la rubrique [comparaison des fonctionnalités du client mobile pour Skype entreprise](mobile-feature-comparison.md) pour les comparaisons de fonctionnalités de téléphone intelligent et de client tablette. Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus d’informations, consultez le [Guide des licences](https://products.office.com/en-us/skype-for-business/it-pros) .
   
 > [!IMPORTANT]
-> Skype entreprise Server 2015 et Skype entreprise Online prennent en charge les clients suivants: Lync 2013, Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+> Skype entreprise Server 2015 et Skype entreprise Online prennent en charge les clients suivants : Lync 2013, Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 > [!NOTE]
 > Le client de service d’assistance **Lync 2010** n’est pas pris en charge dans Skype entreprise online.
@@ -255,7 +257,7 @@ Ce tableau présente les fonctionnalités liées à la prise en charge de l’ar
 
 <a name="Full-Basic"> </a>
 
-Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base:
+Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base :
 
 - Gérer les paramètres d'appel d'équipe
 - Gérer les délégués
@@ -271,13 +273,13 @@ Les fonctionnalités suivantes sont disponibles avec le client complet et ne son
 
 <a name="Online-Hybrid"> </a>
 
-Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet:
+Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet :
   
-- Présence améliorée: utiliser une photo de n’importe quel site public pour mon image
-- Contacts: recherche de Response Groups
-- Prise en charge de la messagerie instantanée: intégration des discussions permanentes (discussion de groupe)
-- Prise en charge de la messagerie instantanée: remonter une salle de conversation permanente pour une réunion Skype entreprise d’un simple clic
-- Utilisateurs externes: diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
+- Présence améliorée : utiliser une photo de n’importe quel site public pour mon image
+- Contacts : recherche de Response Groups
+- Prise en charge de la messagerie instantanée : intégration des discussions permanentes (discussion de groupe)
+- Prise en charge de la messagerie instantanée : remonter une salle de conversation permanente pour une réunion Skype entreprise d’un simple clic
+- Utilisateurs externes : diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
 
 ## <a name="see-also"></a>Voir aussi
 

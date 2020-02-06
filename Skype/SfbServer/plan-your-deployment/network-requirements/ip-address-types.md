@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Résumé: Examinez les considérations relatives aux types d’adresses IP ci-dessous avant d’implémenter Skype entreprise Server.'
-ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Examinez les considérations relatives aux types d’adresses IP ci-dessous avant d’implémenter Skype entreprise Server.'
+ms.openlocfilehash: 74cb0738c7c6eb0518d8ab4ed4fae7db66921bfb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297049"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802114"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configuration des types d’adresse IP dans Skype Entreprise
 
-**Résumé:** Passez en revue les points suivants concernant le type d’adresse IP ci-dessous avant d’implémenter Skype entreprise Server.
+**Résumé :** Passez en revue les points suivants concernant le type d’adresse IP ci-dessous avant d’implémenter Skype entreprise Server.
 
 Le déploiement de types d’adresses IP s’effectue à l’aide des paramètres de topologie que vous configurez dans le générateur de topologie. Cette section décrit le déploiement de types d’adresse IP sur des serveurs frontaux, des serveurs de médiation et des serveurs Edge.
 
@@ -59,7 +61,7 @@ Le déploiement de types d’adresses IP s’effectue à l’aide des paramètre
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Pour déployer des types d’adresses IP sur un serveur de médiation
 
-- Dans le générateur de topologie, sous pools de **médiation**, cliquez avec le bouton droit sur le serveur dans une liste, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** dans le menu **Action**)
+- Dans le générateur de topologie, sous **pools de médiation**, cliquez avec le bouton droit sur le serveur dans une liste, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** dans le menu **Action**)
 
 - Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. S’il s’agit d’une configuration double pile, sélectionnez **Activer IPv4** et **Activer IPv6**, comme illustré dans la figure suivante.
 
@@ -86,11 +88,11 @@ Le déploiement de types d’adresses IP s’effectue à l’aide des paramètre
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>Déploiement des types d’adresse IP sur un serveur Edge
 
-À l’aide du générateur de topologie, procédez comme suit:
+À l’aide du générateur de topologie, procédez comme suit :
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Pour déployer des types d’adresses IP sur un serveur Edge
 
-1. Dans le générateur de topologie, sous pools de **bords**, cliquez avec le bouton droit sur le serveur d’un pool, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** à partir du menu **Action**.)
+1. Dans le générateur de topologie, sous **pools de bords**, cliquez avec le bouton droit sur le serveur d’un pool, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** à partir du menu **Action**.)
 
 2. Dans la fenêtre **Modifier les propriétés**, sélectionnez la configuration d’adresse IP à prendre en charge.
 

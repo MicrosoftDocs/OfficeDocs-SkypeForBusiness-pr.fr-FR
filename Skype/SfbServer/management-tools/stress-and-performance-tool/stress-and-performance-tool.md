@@ -8,22 +8,24 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: L’outil de stress et de performance de Skype entreprise Server 2015 est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements hors production et de test.
-ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efc3ed6cc7f24acc5fda7a7ae2ae818df5b43393
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299515"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816153"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
 L’outil de stress et de performance de Skype entreprise Server 2015 est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements hors production et de test.
   
-L’outil de stress et de performance de Skype entreprise Server 2015 inclut des outils qui simplifient la planification de la capacité de Skype entreprise Server 2015. L’outil de stress et de performance de Skype entreprise Server 2015 vous aide à effectuer les opérations suivantes:
+L’outil de stress et de performance de Skype entreprise Server 2015 inclut des outils qui simplifient la planification de la capacité de Skype entreprise Server 2015. L’outil de stress et de performance de Skype entreprise Server 2015 vous aide à effectuer les opérations suivantes :
   
 - Simplification de la planification de votre matériel pour Skype entreprise Server
     
@@ -38,7 +40,7 @@ En règle générale, vous devez utiliser cet outil après l’utilisation de l'
   
 ## <a name="tests"></a>Tests
 
-L’outil de stress et de performance peut simuler les types de charge utilisateur suivants:
+L’outil de stress et de performance peut simuler les types de charge utilisateur suivants :
   
 |||
 |:-----|:-----|
@@ -52,7 +54,7 @@ L’outil de stress et de performance peut simuler les types de charge utilisate
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Applications et fichiers inclus dans l’outil de stress et de performance de Skype entreprise Server 2015
 
-Ces applications font partie intégrante de l’outil de stress et de performance de Skype entreprise Server:
+Ces applications font partie intégrante de l’outil de stress et de performance de Skype entreprise Server :
   
 |**Il**|**Description**|
 |:-----|:-----|
@@ -64,7 +66,7 @@ Ces applications font partie intégrante de l’outil de stress et de performanc
    
 ## <a name="topics-in-this-section"></a>Rubriques de cette section
 
-Pour en savoir plus, consultez les articles suivants:
+Pour en savoir plus, consultez les articles suivants :
   
 - [Conditions préalables et configuration pour l'outil Stress and Performance de Skype Entreprise](prerequisites-and-setup.md)
     

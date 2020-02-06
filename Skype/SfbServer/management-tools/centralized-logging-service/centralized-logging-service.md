@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Résumé : en savoir plus sur les composants et les paramètres de configuration du service de journalisation centralisé dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6d3ac969e5d9e5898acfe2a95c6fc08e115ab545
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992601"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816623"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée pour Skype Entreprise 2015
  

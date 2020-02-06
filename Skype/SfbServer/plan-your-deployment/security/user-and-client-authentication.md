@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Un utilisateur approuvé est une personne dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype entreprise Server. Il s’agit généralement d’un serveur frontal Standard Edition Server Enterprise Edition ou Director. Skype entreprise Server repose sur les services de domaine Active Directory comme le référentiel principal de confiance des informations d’identification de l’utilisateur.
-ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296867"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815582"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification des utilisateurs et des clients pour Skype entreprise Server
  
@@ -32,7 +34,7 @@ L’authentification consiste à fournir des informations d’identification d�
   
 - **Protocole Digest** pour utilisateurs anonymes. Les utilisateurs anonymes sont des utilisateurs externes qui ne disposent pas d’informations d’identification Active Directory reconnues mais qui ont été invités à une conférence sur site et qui possèdent une clé de conférence valide. L’authentification Digest n’est pas utilisée pour d’autres interactions clients.
     
-L’authentification de Skype entreprise Server comporte deux phases:
+L’authentification de Skype entreprise Server comporte deux phases :
   
 1. Une association de sécurité est établie entre le client et le serveur.
     
@@ -50,7 +52,7 @@ Les certificats clients permettent aux utilisateurs d’être authentifiés de m
 
 À partir de Skype entreprise Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4,6 et cela peut entraîner le démarrage de l’application réunions Skype. Si un client utilise la valeur AES comme clé de validation de la clé d’ordinateur, vous devez redéfinir la valeur de la clé d’ordinateur sur SHA-1 ou un autre algorithme pris en charge sur le niveau du site de l’application réunions Skype sur IIS. Le cas échéant, voir [gestion des configurations d’IIS 8,0 ASP.net](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) pour obtenir des instructions.
   
-Les autres valeurs prises en charge sont les suivantes:
+Les autres valeurs prises en charge sont les suivantes :
   
 - HMACSHA256
     

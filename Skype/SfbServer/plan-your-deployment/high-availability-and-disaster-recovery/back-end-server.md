@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: En savoir plus sur les options de haute disponibilité du serveur principal prises en charge dans Skype entreprise Server, y compris les groupes de disponibilité AlwaysOn, les instances de cluster de basculement, la mise en miroir de base de données et la mise en cluster de basculement SQL.
-ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815952"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Haute disponibilité du serveur principal dans Skype entreprise Server
  

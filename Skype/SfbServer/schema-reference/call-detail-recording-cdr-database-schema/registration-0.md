@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: Le mode d’enregistrement enregistre des informations sur l’inscription des utilisateurs. Cet affichage a été présenté dans Lync Server 2013.
-ms.openlocfilehash: 6202e40e6385fd243f55badd25dbe196452c890a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ee19d4addae9ee7318828c4ab294dc15bd72f86
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814952"
 ---
 # <a name="registration-view"></a>Affichage d’inscription
  
@@ -38,7 +40,7 @@ Le mode d’enregistrement enregistre des informations sur l’inscription des u
 |**TypeClient** <br/> |int  <br/> |Client utilisé par l’utilisateur inscrit. Pour plus d’informations, voir la [table UserAgentDef](useragentdef.md) . <br/> |
 |**ClientCategory** <br/> |nvarchar (64)  <br/> |Catégorie du client utilisée par l’utilisateur qui est inscrit.  <br/> |
 |**Grat** <br/> |nvarchar(256)  <br/> |Adresse IP de l’utilisateur avec lequel il a été enregistré. Il s’agit éventuellement d’une adresse IPv4 ou IPv6.  <br/> |
-|**DialogId** <br/> |varstring (LGA775)  <br/> |ID de boîte de dialogue SIP. Le format de:  <br/> boîte de dialogue; à partir d’une balise  <br/> |
+|**DialogId** <br/> |varstring (LGA775)  <br/> |ID de boîte de dialogue SIP. Le format de :  <br/> boîte de dialogue ; à partir d’une balise  <br/> |
 |**ResponseCode** <br/> |int  <br/> |Code de réponse SIP à l’invitation de la session. Ce champ est généralement rempli par des données générées à partir du message d’invitation initial dans la session. S’il n’y a pas de message d’invitation, le champ est peuplé de la date et de l’heure du premier message SIP approprié (BYE, annuler, MESSAGE ou informations).  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |ID de diagnostic capturé à partir de l’en-tête SIP.  <br/> |
 |**serveur d’inscriptions** <br/> |nvarchar(256)  <br/> |Nom de domaine complet du Bureau d’enregistrement.  <br/> |

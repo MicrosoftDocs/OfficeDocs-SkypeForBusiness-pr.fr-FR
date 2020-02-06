@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planification de la cueillette des appels de groupe dans Skype entreprise Server Voice, qui permet aux utilisateurs de répondre aux appels destinés à des tiers.
-ms.openlocfilehash: c729e2d672d104337820c44fa41c113dded3110f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0be7adb5b3832851b9c38179416cfedb414508b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802874"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan de capture d’appel de groupe dans Skype entreprise
  
@@ -48,7 +50,7 @@ Si un utilisateur compose un numéro de groupe de prise d’appel pour répondre
   
 Les paramètres de sonnerie simultanée fonctionnent pour les utilisateurs qui bénéficient de la prise d’appel de groupe. Autrement dit, un appel passé à un utilisateur disposant d’un appel de groupe sonne pour toutes les destinations configurées et un autre utilisateur peut répondre à l’appel. Toutefois, cette règle ne s’applique pas si l’utilisateur configure une sonnerie simultanée pour appeler tous les membres de l’équipe.
   
-La cueillette de groupe ne peut pas être utilisée pour répondre aux types d’appel suivants:
+La cueillette de groupe ne peut pas être utilisée pour répondre aux types d’appel suivants :
   
 - Appels à destination d’une ligne privée
     
@@ -82,9 +84,9 @@ La prise d’appel de groupe est déployée automatiquement lors du déploiement
   
 ## <a name="clients-supported-for-group-call-pickup"></a>Clients pris en charge pour le prélèvement d’appels de groupe
 
-L’un des clients suivants peut être utilisé pour répondre aux appels aux membres d’un groupe d’appels de groupe:
+L’un des clients suivants peut être utilisé pour répondre aux appels aux membres d’un groupe d’appels de groupe :
   
-- Skype Entreprise
+- Skype Entreprise
     
 - Lync 2013
     
@@ -95,7 +97,7 @@ L’un des clients suivants peut être utilisé pour répondre aux appels aux me
 > [!NOTE]
 > Les utilisateurs peuvent utiliser n’importe lequel de ces clients pour répondre aux appels aux membres du groupe, mais les utilisateurs doivent être hébergés sur un pool Skype entreprise Server ou un pool Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013:2013 février. 
   
-Les clients et appareils suivants ne sont pas pris en charge pour capter les appels vers les membres du groupe d’appels de groupe:
+Les clients et appareils suivants ne sont pas pris en charge pour capter les appels vers les membres du groupe d’appels de groupe :
   
 - Lync Mobile
     

@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Cette section décrit les paramètres globaux et les objets, ainsi que les groupes de services et d’administration universels créés par l’étape de préparation de la forêt.
-ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296699"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815532"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation de la forêt dans Skype entreprise Server
 
@@ -24,7 +26,7 @@ Cette section décrit les paramètres globaux et les objets, ainsi que les group
 
 ## <a name="active-directory-global-settings-and-objects"></a>Paramètres globaux et objets Active Directory
 
-Si vous stockez des paramètres globaux dans le conteneur de configuration (comme dans le cas d’un nouveau déploiement de Skype entreprise Server), la préparation de la forêt utilise le conteneur services existants et ajoute un objet **Service RTC** sous le Configuration\Services objet. Sous l’objet RTC service, la préparation de la forêt ajoute un objet de **paramètres globaux** de type MsRTCSIP-GlobalContainer. L’objet paramètres globaux contient tous les paramètres qui s’appliquent au déploiement de Skype entreprise Server. Si vous stockez des paramètres globaux dans le conteneur système, la préparation de la forêt utilise un conteneur Microsoft sous le conteneur système du domaine racine et un objet service RTC sous l’objet System\Microsoft.
+Si vous stockez des paramètres globaux dans le conteneur de configuration (comme dans le cas d’un nouveau déploiement de Skype entreprise Server), la préparation de la forêt utilise le conteneur services existants et ajoute un objet **Service RTC** sous l’objet Configuration\Services. Sous l’objet RTC service, la préparation de la forêt ajoute un objet de **paramètres globaux** de type MsRTCSIP-GlobalContainer. L’objet paramètres globaux contient tous les paramètres qui s’appliquent au déploiement de Skype entreprise Server. Si vous stockez des paramètres globaux dans le conteneur système, la préparation de la forêt utilise un conteneur Microsoft sous le conteneur système du domaine racine et un objet service RTC sous l’objet System\Microsoft.
 
 La préparation de la forêt ajoute également un nouvel objet **msRTCSIP-Domain** pour le domaine racine dans lequel la procédure est exécutée.
 
@@ -32,7 +34,7 @@ La préparation de la forêt ajoute également un nouvel objet **msRTCSIP-Domain
 
 La préparation de la forêt crée des groupes universels en fonction du domaine que vous spécifiez et ajoute des entrées de contrôle d’accès (ACE) pour ces groupes. Cette étape permet de créer des groupes universels dans les conteneurs d’utilisateurs du domaine que vous spécifiez.
 
-Les groupes universels permettent aux administrateurs d’accéder aux paramètres globaux et de gérer ces derniers. La préparation de la forêt ajoute les types suivants de groupes universels:
+Les groupes universels permettent aux administrateurs d’accéder aux paramètres globaux et de gérer ces derniers. La préparation de la forêt ajoute les types suivants de groupes universels :
 
 - **Groupes d’administration** Ces groupes définissent des rôles d’administrateur pour un réseau Skype entreprise Server.
 
@@ -74,7 +76,7 @@ Le tableau suivant décrit les groupes de services.
 |RTCUniversalConfigReplicator  <br/> |Inclut les serveurs qui peuvent participer à la réplication du Windows Store de la gestion centrale de Skype entreprise Server.  <br/> |
 |RTCSBAUniversalServices  <br/> |Octroie un accès en lecture seule aux paramètres du serveur Skype entreprise, mais permet une configuration pour l’installation d’un serveur de succursales survivant et du déploiement d’une application de branchement plus survivant.  <br/> |
 
-La préparation de la forêt ajoute ensuite des groupes de services et d’administration aux groupes d’infrastructure appropriés, comme suit:
+La préparation de la forêt ajoute ensuite des groupes de services et d’administration aux groupes d’infrastructure appropriés, comme suit :
 
 - RTCUniversalServerAdmins est ajouté à RTCUniversalGlobalReadOnlyGroup, RTCUniversalGlobalWriteGroup, RTCUniversalServerReadOnlyGroup et RTCUniversalUserReadOnlyGroup.
 
@@ -82,7 +84,7 @@ La préparation de la forêt ajoute ensuite des groupes de services et d’admin
 
 - RTCHSUniversalServices, RTCComponentUniversalServices et RTCUniversalReadOnlyAdmins sont ajoutés en tant que membres de RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup et RTCUniversalUserReadOnlyGroup.
 
-La préparation de la forêt crée également les groupes de contrôle d’accès basés sur les rôles suivants:
+La préparation de la forêt crée également les groupes de contrôle d’accès basés sur les rôles suivants :
 
 - CSAdministrator
 
@@ -121,7 +123,7 @@ La préparation de la forêt crée des entrées ACE privées et publiques. Il cr
 > [!NOTE]
 > <strong>\\</strong>* Les ACE qui ne sont pas héritées n’accordent pas l’accès aux objets enfants sous ces conteneurs. Les As héritent d’octroyer l’accès à des objets enfants sous ces conteneurs.
 
-Dans le conteneur Configuration, sous le contexte d’appellation de configuration, la préparation de la forêt effectue les tâches suivantes:
+Dans le conteneur Configuration, sous le contexte d’appellation de configuration, la préparation de la forêt effectue les tâches suivantes :
 
 - Ajoute une entrée **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** pour la page de **Propriétés RTC** sous les attributs adminContextMenu et adminPropertyPages du spécificateur d’affichage de langue pour les utilisateurs, les contacts et les inetOrgPersons (par exemple, CN = user-Display, CN = 409, CN = DisplaySpecifiers).
 
@@ -129,8 +131,8 @@ Dans le conteneur Configuration, sous le contexte d’appellation de configurati
 
 - Ajoute un objet **RTCUserSearchPropertySet** de type **ControlAccessRight** sous **privilèges étendus** qui s’applique aux classes utilisateur, contact, UO et domainDNS.
 
-- Ajoute **msRTCSIP-PrimaryUserAddress** sous l’attribut **extraColumns** de chaque spécificateur d’affichage de l’unité d’organisation (UO) Language (par exemple, CN = ORGANIZATIONALUNIT-Display, CN = 409, CN = DisplaySpecifiers) et copie les valeurs du **extraColumnsx** xxxxxxxxx XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX
+- Ajoute **msRTCSIP-PrimaryUserAddress** sous l’attribut **extraColumns** de chaque spécificateur d’affichage de l’unité d’organisation (UO) Language (par exemple, CN = ORGANIZATIONALUNIT-Display, CN = 409, CN = DisplaySpecifiers) et copie les valeurs de l’attribut **extraColumns** de l’affichage par défaut (par exemple, CN = affichage par défaut, CN = 409, CN = DisplaySpecifiers).
 
-- Ajoute les attributs de filtre **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**et **msRTCSIP-UserEnabled** sous l’attribut **attributeDisplayNames** de chaque spécificateur d’affichage de langue pour les utilisateurs, les contacts, et les objets InetOrgPerson (par exemple, en anglais: CN = user-Display, CN = 409, CN = DisplaySpecifiers).
+- Il ajoute les attributs de filtre **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**et **msRTCSIP-UserEnabled** sous l’attribut **attributeDisplayNames** de chaque spécificateur d’affichage de langue pour les utilisateurs, les contacts et les objets INETORGPERSON (par exemple, en anglais : CN = user-Display, CN = 409, CN = DisplaySpecifiers).
 
 

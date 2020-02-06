@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Résumé : Découvrez comment configurer des compléments pour les salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 01e58422f28d0027114f5bc424f01eb9ef3d9e14
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817290"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configuration des compléments des salles de conversation permanente dans Skype Entreprise Server 2015
  

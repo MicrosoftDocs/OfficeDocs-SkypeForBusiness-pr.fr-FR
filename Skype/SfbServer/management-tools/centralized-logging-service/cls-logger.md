@@ -8,20 +8,22 @@ ms.date: 2/25/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Résumé: Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.'
+ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274463"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816613"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment utiliser le journal CLS (central Logging Service) dans Skype entreprise Server 2015.
   
 CLS Logger est un outil qui vous permet de gérer les journauxdu Service de journalisation centralisée (CLS).
   
@@ -37,7 +39,7 @@ Afin de pouvoir utiliser CLS Logger, veillez à ce que les conditions suivantes 
 
 Utiliser les commandes suivantes pour vérifier le statut de journalisation :
   
-1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence.
+1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence.
     
 2. Cliquez sur le bouton Statut de journalisation.
     
@@ -47,7 +49,7 @@ Utiliser les commandes suivantes pour vérifier le statut de journalisation :
 
 Pour lancer un scénario existant :
   
-1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un scénario existant dans le menu déroulant scénarios.
+1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un scénario existant dans le menu déroulant scénarios.
     
 2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
     
@@ -61,7 +63,7 @@ Pour lancer un scénario existant :
 
 Pour arrêter un scénario existant :
   
-1. Dans l’onglet «démarrer/arrêter les scénarios», sélectionnez un scénario existant dans le menu déroulant scénarios.
+1. Dans l’onglet « démarrer/arrêter les scénarios », sélectionnez un scénario existant dans le menu déroulant scénarios.
     
 2. Sélectionnez un groupe de pools et/ou d’ordinateurs dans l’arborescence Topologie.
     
@@ -73,7 +75,7 @@ Pour arrêter un scénario existant :
   
 ## <a name="search-for-logs"></a>Recherche dans les journaux
 
-Pour rechercher des journaux, sélectionnez l’onglet «Rechercher les journaux CLS» et cliquez sur le bouton «Rechercher dans les journaux» après avoir rempli les champs affichés comme décrit ci-dessous:
+Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journaux CLS » et cliquez sur le bouton « Rechercher dans les journaux » après avoir rempli les champs affichés comme décrit ci-dessous :
   
 > **Dossier des fichiers journaux** Dossier d’enregistrement des résultats de la recherche de journaux (obligatoire).
 > 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Cette rubrique décrit les recommandations en matière de planification pour le déploiement de médiation Server.
-ms.openlocfilehash: fdfc18871e4aa9ea30d7a02063e7d1a0bc05b6ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 806886b7c7c5e8ae367a6e104f7fd9127f25c099
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277607"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816053"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Recommandations en matière de déploiement pour le serveur de médiation dans Skype entreprise Server
  
@@ -56,6 +58,6 @@ S’il s’agit d’interactions avec un PBX IP, si ce n’est 3960 pas le cas, 
 Enfin, si votre site central possède un PBX TDM ou si votre PBX IP n’élimine pas la nécessité d’une passerelle RTC, vous devez déployer une passerelle sur l’itinéraire d’appel connexion du serveur de médiation et du PBX.
   
 > [!NOTE]
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «améliorations apportées à[l’échelle de réception dans Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)». Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau. 
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «[améliorations apportées à l’échelle de réception dans Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)». Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau. 
   
 

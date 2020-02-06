@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fournit un exemple détaillé de la planification du contrôle d’admission des appels dans la voix Skype entreprise Server entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
-ms.openlocfilehash: 73a1a75f8619877d2c9228f910aa747aee36a8e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf33c70120adb65c88a6be05d2c04bf55e989b72
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276879"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802884"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple: rassemblement des exigences de contrôle d’admission des appels dans Skype entreprise Server
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : rassemblement des exigences de contrôle d’admission des appels dans Skype entreprise Server
 
 Fournit un exemple détaillé de la planification du contrôle d’admission des appels dans la voix Skype entreprise Server entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
 

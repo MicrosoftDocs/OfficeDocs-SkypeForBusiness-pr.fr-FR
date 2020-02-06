@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services. '
-ms.openlocfilehash: fec64de813a9e4b0686e257ccfed7cb9c034467c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76196df2cf0bd74ef804a082862891c326048408
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816954"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modification des paramètres de configuration de Trunk SIP dans Skype entreprise Server
 
@@ -26,7 +28,7 @@ Les paramètres de configuration du Trunk SIP définissent la relation et les fo
 
 Lorsque vous installez Skype entreprise Server, une collection globale de paramètres de configuration SIP Trunk est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Ces collections peuvent être modifiées ultérieurement à l’aide du panneau de configuration Skype entreprise Server ou de Windows PowerShell.
 
-Lorsque vous modifiez les paramètres de configuration du Trunk SIP à l’aide du panneau de configuration Skype entreprise Server Server, les options suivantes sont disponibles:
+Lorsque vous modifiez les paramètres de configuration du Trunk SIP à l’aide du panneau de configuration Skype entreprise Server Server, les options suivantes sont disponibles :
 
 |Paramètre de l’interface utilisateur |Paramètre PowerShell |Description |
 |--|--|--|
@@ -42,12 +44,12 @@ Lorsque vous modifiez les paramètres de configuration du Trunk SIP à l’aide 
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront routés vers la jonction suivante disponible. En l’absence d’autre jonction, l’appel est abandonné automatiquement. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations RTC associées|PSTNUsages|Collection d’utilisations RTC affectées à la jonction.|
-|Numéro converti à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro converti à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de conversion associées|OutboundTranslationRulesList|Collection de règles de conversion de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels routés vers les destinations PBX ou RTC).|
 |Règles de conversion du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de conversion de numéro d’appel sortant affectées à la jonction.|
-|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
-|Numéro appelant|S/O|Indique que le numéro de téléphone à tester est celui de l’appelant.|
-|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de conversion.|
+|Numéro appelant|N/A|Indique que le numéro de téléphone à tester est celui de l’appelant.|
+|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 |||
 
 > [!Note]
@@ -55,7 +57,7 @@ Lorsque vous modifiez les paramètres de configuration du Trunk SIP à l’aide 
 
 **Pour modifier les paramètres de configuration du Trunk SIP à l’aide du panneau de configuration Skype entreprise Server**
 
-1. Dans le panneau de configuration Skype entreprise Server, cliquez sur **routage des communications vocales**, puis cliquez sur Configuration de **Trunk**.
+1. Dans le panneau de configuration Skype entreprise Server, cliquez sur **routage des communications vocales**, puis cliquez sur **configuration de Trunk**.
 2. Sous l’onglet **Configuration de la jonction**, double-cliquez sur les paramètres de configuration de la jonction à modifier. Notez que vous ne pouvez modifier qu’une collection de paramètres à la fois. Si vous voulez apporter les mêmes modifications à plusieurs collections, utilisez Windows PowerShell à la place.
 3. Dans la boîte de dialogue **modifier la configuration de Trunk** , effectuez les sélections appropriées, puis cliquez sur **OK**.
 4. La propriété État de la collection est définie sur la valeur Non validé. Pour valider les modifications et supprimer la collection, cliquez sur **valider**, puis sur **valider tout**.

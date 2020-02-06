@@ -8,23 +8,25 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Résumé: Examinez les considérations d’utilisation des ports avant d’implémenter Skype entreprise Server.'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Examinez les considérations d’utilisation des ports avant d’implémenter Skype entreprise Server.'
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297021"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802014"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Configuration requise pour les ports et les protocoles pour les serveurs
  
-**Résumé:** Passez en revue les considérations d’utilisation de port avant d’implémenter Skype entreprise Server.
+**Résumé :** Passez en revue les considérations d’utilisation de port avant d’implémenter Skype entreprise Server.
   
 Skype entreprise Server nécessite l’ouverture des ports spécifiques des pare-feux externes et internes. De plus, si la sécurité IPsec (Internet Protocol security) est déployée dans votre organisation, elle doit être désactivée sur la plage de ports utilisée pour l’acheminement des flux audio, vidéo et de vidéo panoramique. 
   
@@ -33,7 +35,7 @@ Même si l’utilisation de l' [outil de planification de Skype entreprise Serve
 Vous pouvez également rechercher les informations dans ces tableaux sous forme de diagramme en passant en revue l’poster de charge de travail du protocole lié aux schémas techniques de l’article [2015 de Skype entreprise Server](../../technical-diagrams.md) .
 > [!NOTE]
 > - Si vous implémentez Skype entreprise Online (O365), voir [URL et plages d’adresses IP Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Dans les environnements hybrides, vous devez faire référence à ce sujet et [planifier une connectivité hybride](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
-> - Vous pouvez disposer de pare-feu matériel ou logiciel; nous n’avons pas besoin de modèles ou de versions spécifiques. En ce qui concerne les ports autorisés, le pare-feu n’affectera pas le fonctionnement de Skype entreprise Server.
+> - Vous pouvez disposer de pare-feu matériel ou logiciel ; nous n’avons pas besoin de modèles ou de versions spécifiques. En ce qui concerne les ports autorisés, le pare-feu n’affectera pas le fonctionnement de Skype entreprise Server.
   
 ## <a name="port-and-protocol-details"></a>Détails sur les ports et protocoles
 
@@ -89,7 +91,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |serveurs frontaux  |Service de stratégie de bande passante Skype entreprise Server  |448  |TCP  |Utilisé pour le contrôle d’admission des appels par le service de stratégie de bande passante Skype entreprise Server.  |
 |Serveurs frontaux dans lesquels réside le magasin de gestion central  | Service principal de l’agent réplicateur de Skype entreprise Server |445  |TCP  |Utilisé pour transmettre les données de configuration du magasin central de gestion aux serveurs exécutant Skype entreprise Server.  |
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |Navigateur SQL pour la copie locale répliquée des données du magasin de gestion central dans l’instance SQL Server locale  |
-|Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui terminent les appels audio: serveurs frontaux (pour le service de surveillance des conférences Skype entreprise Server, service d’annonce de conférences Skype entreprise Server et service de conférence audio/vidéo Skype entreprise Server), et Serveur de médiation.  |
+|Tous les serveurs internes  |Divers  |49152-57500  |TCP/UDP  |Plage de ports multimédias utilisée pour les conférences audio sur tous les serveurs internes. Utilisé par tous les serveurs qui terminent le son : serveurs front-end (pour le service de surveillance des conférences Skype entreprise Server, service d’annonce de conférence Skype entreprise Server et service de visioconférence Skype entreprise Server) et serveur de médiation.  |
 |Serveurs Office Web Apps Server  ||443  ||Utilisé par Skype entreprise Server pour la connexion à Office Web Apps Server.  |
 |directeurs  |Service frontal Skype entreprise Server  |5060  |TCP  |Utilisé facultativement pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
 |directeurs  |Service frontal Skype entreprise Server  |444  |HTTPS  <br/> TCP  |Communication entre serveurs frontaux et directeurs. Par ailleurs, le certificat client est publié (pour les serveurs frontaux) ou validé si le certificat client a déjà été publié.  |

@@ -8,15 +8,17 @@ ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils disponibles dans le kit de ressources de Skype entreprise Server 2015, ainsi que l’objet de chaque outil et des exemples de son utilisation. Le kit de ressources de Skype entreprise Server 2015 vous aide à simplifier les tâches routinières pour les administrateurs informatiques qui déploient et gèrent Skype entreprise Server 2015. Par exemple, l’outil Web Conf Data permet de contrôler aisément les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil permet de définir le transfert des appels de délégué et le répondeur automatique pour les utilisateurs. Nous recommandons aux administrateurs informatiques d’utiliser ces outils pour gérer plus efficacement Skype entreprise Server 2015.
-ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992531"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816253"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du Kit de ressources techniques Skype Entreprise Server 2015
 

@@ -8,19 +8,21 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
-description: 'Résumé: cette rubrique vous explique comment planifier la haute disponibilité et la reprise après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 0cdd1d17680f0546a0081bb769e2c6f45a370d0c
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : cette rubrique vous explique comment planifier la haute disponibilité et la reprise après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 08b025b09acc4b4db5f26ae67761412a96c0339c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815742"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Prévoir une disponibilité élevée et une reprise après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015
  
-**Résumé:** Pour plus d’informations sur la planification d’une haute disponibilité et d’une reprise après sinistre pour le serveur Chat permanent, voir Skype entreprise Server 2015.
+**Résumé :** Pour plus d’informations sur la planification d’une haute disponibilité et d’une reprise après sinistre pour le serveur Chat permanent, voir Skype entreprise Server 2015.
   
 La haute disponibilité et la reprise après sinistre pour le serveur de chat permanent nécessitent des ressources supplémentaires en plus de ce qui est en général requis pour une opération complète. 
   
@@ -54,13 +56,13 @@ La solution de reprise après sinistre pour serveur de chat permanent décrite d
   
 Pour plus d’informations sur la configuration d’une haute disponibilité et d’une reprise après sinistre pour un serveur de chat permanent, voir [configurer une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans Skype entreprise server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
-Les illustrations suivantes montrent comment le pool de serveurs de chat permanent peut être configuré dans deux topologies de pool étiré différentes:
+Les illustrations suivantes montrent comment le pool de serveurs de chat permanent peut être configuré dans deux topologies de pool étiré différentes :
   
 - Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante élevée et une latence faible.
     
 - Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante faible et une latence élevée.
     
-La figure 1 illustre une topologie de pool de serveurs de chat permanent étirée dans laquelle les centres de données sont géographiques avec une bande passante élevée et une latence faible. Considérez les points suivants pour les topologies logiques et physiques:
+La figure 1 illustre une topologie de pool de serveurs de chat permanent étirée dans laquelle les centres de données sont géographiques avec une bande passante élevée et une latence faible. Considérez les points suivants pour les topologies logiques et physiques :
   
 - La topologie logique se compose des éléments suivants :
     
@@ -70,7 +72,7 @@ La figure 1 illustre une topologie de pool de serveurs de chat permanent étiré
     
   - Un deuxième pool de serveur frontal et une base de données de sauvegarde résidant physiquement sur le Site 2.
     
-- La topologie physique se compose des sites 1 et 2 comme suit:
+- La topologie physique se compose des sites 1 et 2 comme suit :
     
   - Un pool de conversation permanente, contenant les serveurs 1 à 4, deux actifs, deux inactifs sur le Site 1.
     
@@ -94,7 +96,7 @@ La figure 2 illustre une topologie de pool de serveurs de chat permanent étiré
     
   - Un deuxième pool de serveur frontal et une base de données de sauvegarde résidant physiquement sur le Site 2.
     
-- La topologie physique se compose des sites 1 et 2 comme suit:
+- La topologie physique se compose des sites 1 et 2 comme suit :
     
   - Un pool de conversation permanente, contenant les serveurs 1 à 4, tous actifs sur le Site 1.
     

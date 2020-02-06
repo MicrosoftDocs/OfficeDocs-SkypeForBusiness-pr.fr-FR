@@ -8,25 +8,27 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Résumé: Découvrez la prise en charge du client mobile lors de la planification de Skype entreprise Server.'
-ms.openlocfilehash: d3d3764ee5315b4fe211b4f79ea2401b98703261
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+description: 'Résumé : Découvrez la prise en charge du client mobile lors de la planification de Skype entreprise Server.'
+ms.openlocfilehash: 85d193fba624a7895b975bb30bf6392e9fc8c563
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681864"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803544"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités clientes mobiles pour Skype entreprise
  
-**Résumé:** Consultez la prise en charge du client mobile lors de la planification de Skype entreprise Server.
+**Résumé :** Consultez la prise en charge du client mobile lors de la planification de Skype entreprise Server.
   
-Cet article compare les fonctionnalités et capacités entre les clients mobiles Skype entreprise et le client de bureau Skype entreprise dans les catégories suivantes:
+Cet article compare les fonctionnalités et capacités entre les clients mobiles Skype entreprise et le client de bureau Skype entreprise dans les catégories suivantes :
   
 - Connexion, notifications Push et fonctionnalités générales
     
@@ -71,7 +73,7 @@ Les tableaux suivants répertorient les fonctionnalités disponibles pour les ut
 |Utilisation d’un clavier externe pour l’accessibilité  <br/> |&#x2714;||&#x2714;|&#x2714;|
 |Prise en charge du Programme d’amélioration du produit Microsoft  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; sur Windows Phone, Skype entreprise se ferme automatiquement après une période d’inactivité, comme suit:
+ &#x2776; sur Windows Phone, Skype entreprise se ferme automatiquement après une période d’inactivité, comme suit :
   
 - Si l’utilisateur a activé les notifications de transmission, Skype entreprise se déconnecte après 10 jours d’inactivité.
     

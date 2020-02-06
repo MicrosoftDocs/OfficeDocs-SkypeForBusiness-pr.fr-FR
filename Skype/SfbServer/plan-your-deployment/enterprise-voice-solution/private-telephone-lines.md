@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planification de lignes téléphoniques privées (secondaires) dans Skype entreprise Server Voice.
-ms.openlocfilehash: 38dd81bb0fae9f7edd062e111db462d264dda1d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 001a83e4bd81f0f47546f51f1d4993c6b1cec4bf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802564"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planifier des lignes téléphoniques privées avec Skype entreprise
  
@@ -86,9 +88,9 @@ Outre les aspects techniques liés à la création et à la gestion des lignes t
 
  Les comptes pour les nouveaux utilisateurs qui ont besoin de lignes téléphoniques privées sont créés de la même manière que les comptes sans lignes téléphoniques privées, en utilisant le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell.
   
-Utilisez l’applet de commande **Set-Csuser** dans Skype entreprise Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur (par exemple, **Set-Csuser-identity "SIP:joe@contoso.com"-PrivateLine "Tél: + 14255551212"**.
+Utilisez l’applet de commande **Set-Csuser** dans Skype entreprise Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur (par exemple, **Set-Csuser-identity "SIP :joe@contoso.com"-PrivateLine "Tél : + 14255551212"**.
   
-Les numéros de téléphone des lignes téléphoniques privées peuvent contenir entre 3 et 15 numéros de longueur et doivent être précédés du préfixe «TEL:». Ils peuvent ne pas présenter d’indicatif régional, ni d’indicatif de pays/région si l’organisation dispose d’une sélection directe à l’arrivée pour ces indicatifs. 
+Les numéros de téléphone des lignes téléphoniques privées peuvent contenir entre 3 et 15 numéros de longueur et doivent être précédés du préfixe « TEL : ». Ils peuvent ne pas présenter d’indicatif régional, ni d’indicatif de pays/région si l’organisation dispose d’une sélection directe à l’arrivée pour ces indicatifs. 
   
 Pour plus d’informations sur les applets de applet et Skype entreprise Server Management Shell, voir la documentation de Skype entreprise Server Management Shell.
   

@@ -11,19 +11,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: La qualité de service (QoS) est une technologie de réseau utilisée dans certaines organisations pour vous permettre d’offrir une interface utilisateur optimale pour les communications audio et vidéo.
-ms.openlocfilehash: fbc10c5e94706348b7e3f66687b4868a9feb44ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 821ebb1cd6a101856f4fbc4fb3428ecba7674245
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279402"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817360"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Gestion de la qualité de service (QoS) dans Skype entreprise Server
 
 
-La qualité de service (QoS) est une technologie de réseau utilisée dans certaines organisations pour vous permettre d’offrir une interface utilisateur optimale pour les communications audio et vidéo. La qualité de service (QoS) est souvent utilisée sur les réseaux disposant d’une bande passante limitée: il existe un grand nombre de paquets réseau en concurrence d’une faible quantité de bande passante disponible, ce qui permet aux administrateurs d’affecter des priorités plus élevées aux paquets. transport de données audio ou vidéo. La transmission de ces paquets est une priorité plus élevée, les communications audio et vidéo sont susceptibles de s’exécuter plus vite, et en moins d’interruption, que les sessions réseau impliquant des transferts de fichiers, la navigation sur le Web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
+La qualité de service (QoS) est une technologie de réseau utilisée dans certaines organisations pour vous permettre d’offrir une interface utilisateur optimale pour les communications audio et vidéo. La qualité de service (QoS) est souvent utilisée sur les réseaux disposant d’une bande passante limitée : il existe un grand nombre de paquets réseau en concurrence d’une faible quantité de bande passante disponible, ce qui permet aux administrateurs d’affecter des priorités plus élevées aux paquets. transport de données audio ou vidéo. La transmission de ces paquets est une priorité plus élevée, les communications audio et vidéo sont susceptibles de s’exécuter plus vite, et en moins d’interruption, que les sessions réseau impliquant des transferts de fichiers, la navigation sur le Web ou des sauvegardes de bases de données. C'est la raison pour laquelle la priorité « Meilleur effort » est affectée aux paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données.
 
 
 > [!NOTE]  
@@ -31,7 +33,7 @@ La qualité de service (QoS) est une technologie de réseau utilisée dans certa
 
 Skype entreprise Server n’exige aucune qualité de service. Si vous n’utilisez pas actuellement QoS, vous n’avez pas besoin d’installer le service avant d’installer Skype entreprise Server. Si vous subissez une quantité considérable de perte de paquets sur votre réseau, la méthode recommandée pour résoudre ce problème consiste à ajouter de la bande passante supplémentaire. Si l’ajout de bande passante n’est pas possible, il est possible que vous souhaitiez implémenter la qualité de service.
 
-Skype entreprise Server offre une prise en charge totale de la qualité de service: cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Skype entreprise Server à leur infrastructure réseau existante. Pour cela, vous devez effectuer les tâches suivantes:
+Skype entreprise Server offre une prise en charge totale de la qualité de service : cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer Skype entreprise Server à leur infrastructure réseau existante. Pour cela, vous devez effectuer les tâches suivantes :
 
   - [Activation de la qualité de service (QoS) pour les appareils qui ne sont pas basés sur Windows](enabling-qos-for-devices-that-are-not-based-on-windows.md). Par défaut, QoS est désactivée pour les ordinateurs et autres appareils (tels que les iPhones) qui exécutent d'autres systèmes d'exploitation. Même si vous pouvez utiliser Skype entreprise Server pour activer et désactiver la qualité de service des appareils, vous ne pouvez pas utiliser le produit pour modifier les codes DSCP utilisés par ces appareils.
 

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Chaque enregistrement représente un événement d’inscription utilisateur.
-ms.openlocfilehash: 7dcf96c5cb5b140711590943eb7ae5d2be8704b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bca31b85a0b88854760c2a79528792ee82bd272e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295859"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814942"
 ---
 # <a name="registration-table"></a>Table Registration
  
@@ -42,7 +44,7 @@ Chaque enregistrement représente un événement d’inscription utilisateur.
 |**ResponseCode** <br/> |int  <br/> ||Code de réponse de la demande Register.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> ||ID de diagnostic de la demande d’enregistrement. Ce type d’informations indique ce type d’informations de diagnostic.  <br/> |
 |**DeviceId** <br/> |int  <br/> |Externes  <br/> |L’appareil à partir duquel la requête d’enregistrement provient. Pour plus d’informations, voir le [tableau des appareils dans Skype entreprise Server 2015](devices.md) . <br/> |
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |Externes  <br/> |La raison de l’annulation de l’inscription, par exemple «initié par l’utilisateur», «inscription expirée», «échec du client», etc. Pour plus d’informations, reportez-vous [à la table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md) . <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Externes  <br/> |La raison de l’annulation de l’inscription, par exemple « initié par l’utilisateur », « inscription expirée », « échec du client », etc. Pour plus d’informations, reportez-vous [à la table DeRegisterType dans Skype entreprise Server 2015](deregistertype.md) . <br/> |
 |**IPAddress** <br/> |nvarchar(256)  <br/> ||Adresse IP du point de terminaison avec lequel l’utilisateur a été enregistré. Il peut s’agir d’une adresse IPv4 ou d’une adresse IPv6.  <br/> Ce champ a été présenté dans Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |Valeur  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
    

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 648713ce3474779a588d638e3e81272fbd62e2f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fa300ac2f4ba1c0d847abec138b6882e4f240831
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802464"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement de E9-1-1 dans Skype entreprise Server
 
@@ -27,7 +29,7 @@ Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skyp
 
 Avant de configurer Skype entreprise pour E9-1-1, vous devez planifier votre déploiement E9-1-1. Voici certaines des questions que vous pouvez vous poser :
 
- **Quelles sont les obligations légales et juridiques de votre organisation en matière de E9-1-1?**
+ **Quelles sont les obligations légales et juridiques de votre organisation en matière de E9-1-1 ?**
 
  Les obligations légales en matière d’E9-1-1 pour les PBX (appelés aussi systèmes téléphoniques multilignes, ou MLTS (Multi-line Telephone Systems) dans le langage E9-1-1) diffèrent d’un État à l’autre. Reportez-vous à votre équipe légale pour comprendre les obligations qui pourraient s’appliquer à votre déploiement de Skype entreprise dans vos zones géographiques pertinentes.
 
@@ -37,7 +39,7 @@ Avant de configurer Skype entreprise pour E9-1-1, vous devez planifier votre dé
 
  **Comment allez-vous déployer E9-1-1 sur des sites de succursale ?**
 
- La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des lignes SIP E-9-1-1 et une panne de réseau étendu (WAN), les clients qui se connectent risquent de ne pas être en mesure d’obtenir un emplacement à partir du service de coordonnées de l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype entreprise fournit différentes stratégies de gestion de la résilience vocale dans les succursales, notamment: utilisation de réseaux de données résilients, déploiement d’une ligne SIP dans chaque succursale, ou transfert d’appels d’urgence vers la passerelle locale lors des pannes. Pour plus d’informations, reportez-vous à [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des lignes SIP E-9-1-1 et une panne de réseau étendu (WAN), les clients qui se connectent risquent de ne pas être en mesure d’obtenir un emplacement à partir du service de coordonnées de l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype entreprise fournit différentes stratégies de gestion de la résilience vocale dans les succursales, notamment : utilisation de réseaux de données résilients, déploiement d’une ligne SIP dans chaque succursale, ou transfert d’appels d’urgence vers la passerelle locale lors des pannes. Pour plus d’informations, reportez-vous à [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
 
  **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**
 

@@ -8,19 +8,21 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 'Résumé: pour plus d’informations sur la planification de la capacité du serveur de chat permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : pour plus d’informations sur la planification de la capacité du serveur de chat permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.'
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418490"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815772"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planification de la capacité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Pour plus d’informations sur la planification de la capacité pour le serveur de chat permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.
+**Résumé :** Pour plus d’informations sur la planification de la capacité pour le serveur de chat permanent dans Skype entreprise Server 2015, consultez la rubrique suivante.
   
 Le serveur de chat permanent peut exécuter des discussions multi-utilisateurs, en temps réel, qui peuvent persister pour la récupération et la recherche ultérieures. À la différence de la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session serveur de chat permanent reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, les fichiers, les URL et les autres données faisant partie d’un conversation en cours.
   
@@ -57,7 +59,7 @@ Utilisez l’exemple de tableau suivant pour déterminer le nombre d’utilisate
 |Nombre total d’utilisateurs approvisionnés  <br/> |150,000  <br/> |
 |Nombre de points de terminaison  <br/> |120,000  <br/> |
    
-Dans l’exemple ci-dessus, le plan doit prendre en charge le nombre maximal d’utilisateurs pouvant être conservés par le serveur de chat permanent: quatre serveurs/instances du service de chat permanent (peuvent comporter 4 serveurs plus passifs pour une disponibilité élevée et reprise après sinistre) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
+Dans l’exemple ci-dessus, le plan doit prendre en charge le nombre maximal d’utilisateurs pouvant être conservés par un serveur de chat permanent : quatre serveurs/instances du service de chat permanent (peuvent comporter 4 serveurs plus passifs pour une disponibilité élevée et une reprise après sinistre) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Planifier la capacité de l’accès aux salles de conversation
 
@@ -86,7 +88,7 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 |Entités basées sur les utilisateurs et groupes d’utilisateurs dans toutes les salles de conversation auditorium  <br/> |0,4  <br/> |192  <br/> |50  <br/> ||
 |Entités de gestionnaires basées sur les utilisateurs et les groupes d’utilisateurs dans toutes les listes de gestionnaires de salles de conversation  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Utilisateurs actifs par salle de conversation  <br/> |trente  <br/> |150  <br/> |16,000  <br/> ||
-|Salles de conversation par utilisateur  <br/> |midi  <br/> |2  <br/> |2  <br/> |Seiz  <br/> |
+|Salles de conversation par utilisateur  <br/> |midi  <br/> |2  <br/> |deuxième  <br/> |Seiz  <br/> |
 |Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation  <br/> |0,10  <br/> |0,10  <br/> |0,15  <br/> ||
 |Salles gérées par groupes d’utilisateurs  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Entités d’appartenance basées sur le groupe d’utilisateurs dans toutes les salles de conversation  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
@@ -157,8 +159,8 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de chat perman
 |Nombre de grandes salles de conversation  <br/> |0,10  <br/> |
 |Nombre total de salles de conversation par utilisateur  <br/> |Seiz  <br/> |
 |Nombre total de petites salles de conversation par utilisateur  <br/> |midi  <br/> |
-|Nombre total de moyennes salles de conversation par utilisateur  <br/> |2  <br/> |
-|Nombre total de grandes salles de conversation par utilisateur  <br/> |2  <br/> |
+|Nombre total de moyennes salles de conversation par utilisateur  <br/> |deuxième  <br/> |
+|Nombre total de grandes salles de conversation par utilisateur  <br/> |deuxième  <br/> |
 |Nombre de salles jointes par utilisateur  <br/> |24  <br/> |
 |Taux maximal d’utilisateurs joints  <br/> |10/seconde  <br/> |
 |Taux de conversation total  <br/> |24/seconde  <br/> |

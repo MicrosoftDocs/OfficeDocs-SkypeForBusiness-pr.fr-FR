@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Le contenu de la sécurité de Skype entreprise Server.
-ms.openlocfilehash: d850eabc233e999e2334391fcee6f8019781370c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c0b2bd84eeeb35f24c2c4221aab4adffc9fa152
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296902"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815602"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Prévoir la sécurité dans Skype entreprise Server 
  

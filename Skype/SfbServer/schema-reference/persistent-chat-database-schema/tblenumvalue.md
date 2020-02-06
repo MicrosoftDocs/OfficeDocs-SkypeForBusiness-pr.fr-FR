@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue est une table codée en dur qui contient les valeurs de visibilité et de comportement des attributs qui sont utilisés dans la table de nœud.
-ms.openlocfilehash: bf1ddf75fc7b7fd78c85f47626b465a4d74e5ca2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295425"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814602"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -41,10 +43,10 @@ tblEnumValue est une table codée en dur qui contient les valeurs de visibilité
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|2  <br/> |1  <br/> |privé  <br/> |
+|deuxième  <br/> |1  <br/> |privé  <br/> |
 |3  <br/> |1  <br/> |hors  <br/> |
-|4  <br/> |2  <br/> |normalement  <br/> |
-|5  <br/> |2  <br/> |Conférence  <br/> |
+|4  <br/> |deuxième  <br/> |normalement  <br/> |
+|5  <br/> |deuxième  <br/> |Conférence  <br/> |
 |6  <br/> |1  <br/> |ouvre  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
