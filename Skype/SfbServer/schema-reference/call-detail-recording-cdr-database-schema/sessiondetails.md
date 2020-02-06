@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Chaque enregistrement représente une session d’égal à égal, qui peut être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux parties ou tout autre type de session. Vous pouvez effectuer une jointure de tableau avec le tableau multimédia pour trouver les détails de chaque média impliqué dans cette session.
-ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a211598e7771c5637af191f19ad2926e3cc803e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295803"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814902"
 ---
 # <a name="sessiondetails-table"></a>Table SessionDetails
  
@@ -56,10 +58,10 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 |**User1MessageCount** <br/> |int  <br/> ||Nombre de messages envoyés par user1 lors de la session.  <br/> |
 |**User2MessageCount** <br/> |int  <br/> ||Nombre de messages envoyés par utilisateur2 lors de la session.  <br/> |
 |**SessionEndTime** <br/> |DateHeure  <br/> ||Heure à la fin de la session.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||Un ensemble de bits qui indique le type de média de cette session. Voici les définitions des types:  <br/> 1-MESSAGE INSTANTANÉ  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-AUDIO  <br/> 32-VIDÉO  <br/> 64-APP_INVITE  <br/> |
-|**User1Flag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs User1. Les définitions d’attribut suivantes apparaissent:  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
-|**User2Flag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs utilisateur2. Les définitions d’attribut suivantes apparaissent:  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
-|**CallFlag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent:  <br/> 0x01-nouvelle tentative de session  <br/> 0x02-appel émis par l’agent pour le compte d’un groupe de réponse  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||Un ensemble de bits qui indique le type de média de cette session. Voici les définitions des types :  <br/> 1-MESSAGE INSTANTANÉ  <br/> 2-FILE_TRANSFER  <br/> 4 REMOTE_ASSISTANCE  <br/> 8 APP_SHARING  <br/> 16-AUDIO  <br/> 32-VIDÉO  <br/> 64-APP_INVITE  <br/> |
+|**User1Flag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs User1. Les définitions d’attribut suivantes apparaissent :  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
+|**User2Flag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs utilisateur2. Les définitions d’attribut suivantes apparaissent :  <br/> 0x01-intégré sur le téléphone de bureau  <br/> |
+|**CallFlag** <br/> |type  <br/> ||Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent :  <br/> 0x01-nouvelle tentative de session  <br/> 0x02-appel émis par l’agent pour le compte d’un groupe de réponse  <br/> |
 |**Formé** <br/> |bit  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |Valeur  <br/> ||Pour une utilisation interne par le service de surveillance.  <br/> Ce champ a été présenté dans Skype entreprise Server 2015.  <br/> |
    
