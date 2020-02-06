@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les procédures décrites dans cet article vous permettent d’afficher, de créer, de modifier ou de supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: 3b2b62e5e823a9d86f1884d79b67483bce38a39f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a9203c0935673e0dfd12d052876f06583c7c92c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279521"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817503"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
@@ -44,7 +46,7 @@ Les profils de bande passante réseau peuvent être affichés à l’aide de Win
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>Pour afficher les informations de profil de la stratégie de bande passante réseau
 
-  - Pour afficher des informations sur tous les profils de votre stratégie de bande passante réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur tous les profils de votre stratégie de bande passante réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkBandwidthPolicyProfile
     

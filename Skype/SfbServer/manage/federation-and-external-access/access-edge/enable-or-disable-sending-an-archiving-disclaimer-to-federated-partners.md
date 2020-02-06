@@ -11,21 +11,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: c2f64a617cae938ffe64ec8db313402785413c49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 889716377f89e2657adcd6e32c9077b8124e20c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280214"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818355"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Activation ou désactivation de l’envoi d’une exclusion d’archivage aux partenaires fédérés dans Skype entreprise Server
 
 Lors du déploiement de vos serveurs de périphérie et de la Fédération activée pour votre organisation, vous devez indiquer si vous souhaitez envoyer automatiquement l’exclusion de responsabilité aux partenaires fédérés. Si vous archivez des communications externes, vous devez autoriser l’envoi d’une exclusion de responsabilité d’archivage. Suivez la procédure décrite dans cette rubrique pour modifier cette configuration.
 
 > [!NOTE]
-> La procédure suivante suppose que vous avez déjà activé la Fédération pour votre organisation. Pour plus d’informations sur l’activation de la Fédération, voir [activation ou désactivation de l’accès des utilisateurs](enable-or-disable-remote-user-access.md)distants.
+> La procédure suivante suppose que vous avez déjà activé la Fédération pour votre organisation. Pour plus d’informations sur l’activation de la Fédération, voir [activation ou désactivation de l’accès des utilisateurs distants](enable-or-disable-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-sending-of-an-archiving-disclaimer-to-federated-partners"></a>Pour activer ou désactiver l’envoi d’une exclusion d’autorisation d’archivage aux partenaires fédérés
@@ -38,7 +40,7 @@ Lors du déploiement de vos serveurs de périphérie et de la Fédération activ
 
 4.  Sous l’onglet **Configuration du serveur Edge d’accès**, cliquez sur **Global**, **Modifier**, puis sur **Afficher les détails**.
 
-5.  Dans **modification de la configuration d’Access Edge**, sous **activer les communications avec des utilisateurs fédérés**, activez ou désactivez la case à cocher **Envoyer un courrier électronique d’envoi aux partenaires fédérés** pour activer ou désactiver l’envoi automatique de l’archivage relative.
+5.  Dans **modification de la configuration d’Access Edge**, sous **activer les communications avec des utilisateurs fédérés**, activez ou désactivez la case à cocher **Envoyer un courrier électronique d’envoi aux partenaires fédérés** pour activer ou désactiver l’envoi automatique de l’exclusion de responsabilité de l’archivage.
 
 6.  Cliquez sur **Valider**.
 

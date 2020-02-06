@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Les connexions SIP directes sont prises en charge entre Skype entreprise Server et les deux passerelles RTC et IP-PBX dans voix entreprise.
-ms.openlocfilehash: d70fa72032b86251870ebaf623679dedc782fe24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1948e08d63aed9d49c70443a386adce6dc65f78e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276963"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803054"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype entreprise Server
 
 Les connexions SIP directes sont prises en charge entre Skype entreprise Server et les deux passerelles RTC et IP-PBX dans voix entreprise.
 
-Vous pouvez utiliser des connexions SIP directes pour connecter Skype entreprise Server à l’un des éléments suivants:
+Vous pouvez utiliser des connexions SIP directes pour connecter Skype entreprise Server à l’un des éléments suivants :
 
 - Un PBX IP
 
@@ -38,11 +40,11 @@ Pour implémenter une connexion SIP directe, vous devez suivre les mêmes étape
 ### <a name="skype-for-business-server-stand-alone"></a>Skype entreprise Server en autonome
 <a name="BKMK_CommunicationsServerStand-Alone"> </a>
 
-Si votre organisation utilise l’un des déploiements décrits dans cette section, vous pouvez utiliser Skype entreprise Server en tant que solution de téléphonie unique pour une partie ou l’ensemble d’une organisation. Cette section décrit en détail les déploiements suivants:
+Si votre organisation utilise l’un des déploiements décrits dans cette section, vous pouvez utiliser Skype entreprise Server en tant que solution de téléphonie unique pour une partie ou l’ensemble d’une organisation. Cette section décrit en détail les déploiements suivants :
 
-- **Déploiement incrémentiel:** Cette option part du principe que vous disposez d’une infrastructure PBX (Private Branch Exchange) existante et que vous envisagez d’introduire une voix entreprise de façon incrémentielle pour des groupes ou équipes plus petits au sein de votre organisation.
+- **Déploiement incrémentiel :** Cette option part du principe que vous disposez d’une infrastructure PBX (Private Branch Exchange) existante et que vous envisagez d’introduire une voix entreprise de façon incrémentielle pour des groupes ou équipes plus petits au sein de votre organisation.
 
-- **Déploiement VoIP uniquement:** cette option suppose que vous envisagez le déploiement d’Enterprise Voice sur un site ne disposant pas d’une infrastructure de téléphonie classique.
+- **Déploiement VoIP uniquement :** cette option suppose que vous envisagez le déploiement d’Enterprise Voice sur un site ne disposant pas d’une infrastructure de téléphonie classique.
 
 #### <a name="incremental-deployment"></a>Déploiement incrémental
 
@@ -64,7 +66,7 @@ La figure suivante illustre la topologie générique pour le déploiement de la 
 
 Dans cette topologie, les services ou groupes de travail sélectionnés sont activés pour voix entreprise. Une passerelle RTC relie le groupe de travail VoIP au système PBX. Les utilisateurs qui sont activés pour voix entreprise, y compris les travailleurs distants, communiquent sur le réseau IP. Les appels d’utilisateurs vocaux d’entreprise vers le RTC et aux collègues qui ne sont pas activés pour voix entreprise sont routés vers la passerelle RTC appropriée. Les appels provenant de collègues qui se trouvent toujours sur le système PBX ou à partir des appelants sur le RTC sont routés vers la passerelle RTC, qui transfère les appels à Skype entreprise Server pour le routage.
 
-Il existe deux configurations recommandées pour la connexion de voix entreprise à une infrastructure PBX existante pour l’interopérabilité: voix entreprise derrière le PBX et voix entreprise en face du PBX.
+Il existe deux configurations recommandées pour la connexion de voix entreprise à une infrastructure PBX existante pour l’interopérabilité : voix entreprise derrière le PBX et voix entreprise en face du PBX.
 
 #### <a name="enterprise-voice-behind-the-pbx"></a>Voix entreprise à l’arrière-plan PBX
 
@@ -112,11 +114,11 @@ Le nombre, la taille et l’emplacement des passerelles RTC est peut-être la d�
 
 Voici les principales questions à prendre en considération. Gardez à l’esprit que les réponses à ces questions sont interdépendantes.
 
-- Combien de passerelles RTC sont-elles nécessaires? La réponse dépend du nombre d’utilisateurs, du nombre d’appels simultanés (chargement du trafic) et du nombre de sites (chaque site en nécessite une).
+- Combien de passerelles RTC sont-elles nécessaires ? La réponse dépend du nombre d’utilisateurs, du nombre d’appels simultanés (chargement du trafic) et du nombre de sites (chaque site en nécessite une).
 
-- Quelle est la taille des passerelles? La réponse dépend du nombre d’utilisateurs au niveau du site et du chargement du trafic.
+- Quelle est la taille des passerelles ? La réponse dépend du nombre d’utilisateurs au niveau du site et du chargement du trafic.
 
-- Où se trouvent les passerelles? La réponse dépend en partie de la topologie et en partie de la distribution géographique de votre organisation.
+- Où se trouvent les passerelles ? La réponse dépend en partie de la topologie et en partie de la distribution géographique de votre organisation.
 
   Vous devez également tenir compte des options de topologie de votre passerelle (pour plus de détails, voir topologies de passerelle plus loin dans cette rubrique).
 
@@ -124,13 +126,13 @@ Voici les principales questions à prendre en considération. Gardez à l’espr
 
 Les serveurs de médiation peuvent acheminer les appels par le biais de plusieurs passerelles, contrôleurs de frontière de session (SBCs) fournis par des fournisseurs de services de téléphonie Internet ou d’une combinaison des deux. Par ailleurs, plusieurs serveurs de médiation du pool peuvent interagir avec plusieurs passerelles. L’itinéraire logique défini entre un serveur de médiation et une passerelle est appelé Trunk. Lorsqu’un utilisateur interne place un appel RTC, la logique de routage sortante du pool frontal détermine le Trunk à transférer au-delà de toutes les combinaisons possibles qui peuvent être disponibles pour le routage d’un appel particulier. En cas d’équilibrage de la charge DNS, si un appel ne parvient pas à accéder à une passerelle en raison d’un problème lié à un serveur de médiation particulier dans le pool, l’appel est répété vers un autre serveur de médiation du pool.
 
-Pour plus d’informations sur la planification de plusieurs passerelles, reportez-vous à la rubrique [M:N Trunk dans Skype entreprise Server](m-n-trunk.md).
+Pour plus d’informations sur la planification de plusieurs passerelles, reportez-vous à la rubrique [M :N Trunk dans Skype entreprise Server](m-n-trunk.md).
 
 Pour plus d’informations sur les autres améliorations du routage sortant, voir [itinéraires d’appel](https://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
 
 #### <a name="gateway-topologies"></a>Topologies de passerelle
 
-Lorsque vous prenez en considération les questions fondamentales du déploiement de la passerelle, procédez comme suit:
+Lorsque vous prenez en considération les questions fondamentales du déploiement de la passerelle, procédez comme suit :
 
 1. Déterminez les sites pour lesquels vous souhaitez fournir une connectivité PSTN en utilisant Enterprise Voice.
 
@@ -150,7 +152,7 @@ L’emplacement de la passerelle détermine également les types de passerelles 
 
 #### <a name="gateway-size-and-number"></a>Taille et nombre de la passerelle
 
-Les passerelles RTC dont la plupart des organisations envisageront de déployer la plage de 2 à la taille des ports 960. (Il y a encore plus de passerelles, mais elles sont principalement utilisées par les fournisseurs de services de téléphonie.) Lorsque vous évaluez le nombre de ports requis par votre organisation, vous devez suivre les instructions suivantes:
+Les passerelles RTC dont la plupart des organisations envisageront de déployer la plage de 2 à la taille des ports 960. (Il y a encore plus de passerelles, mais elles sont principalement utilisées par les fournisseurs de services de téléphonie.) Lorsque vous évaluez le nombre de ports requis par votre organisation, vous devez suivre les instructions suivantes :
 
 - Les organisations ayant une utilisation du service de téléphonie léger (un appel RTC par utilisateur par heure) doivent allouer un port pour tous les 15 utilisateurs. Par exemple, si vous avez 20 utilisateurs, vous aurez besoin d’une passerelle avec deux ports.
 

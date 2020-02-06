@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
-description: 'Résumé: Découvrez comment configurer la page de participation à une réunion dans Skype entreprise Server.'
-ms.openlocfilehash: 30e220f2a1745aea0a77e3ec3ff491b842a2b221
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment configurer la page de participation à une réunion dans Skype entreprise Server.'
+ms.openlocfilehash: 7381db4983b5a2c1ec6dccf474f0b381e079e222
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283724"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818515"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configuration de la page de participation à une réunion dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur la configuration de la page de participation à une réunion dans Skype entreprise Server.
+**Résumé :** En savoir plus sur la configuration de la page de participation à une réunion dans Skype entreprise Server.
   
 Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à la réunion détecte si un client Skype entreprise est déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, le client ouvre et joint la réunion. Si un client n’est pas installé, le client Skype entreprise s’ouvre par défaut. 
   

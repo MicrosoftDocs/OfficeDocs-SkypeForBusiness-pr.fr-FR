@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Résumé: en savoir plus sur le rapport de diagnostic dans Skype entreprise Server.'
-ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de diagnostic dans Skype entreprise Server.'
+ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305772"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817984"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport de diagnostic dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de diagnostic dans Skype entreprise Server.
   
 Le Rapport de diagnostic fournit des informations de diagnostic et d’identification et de résolution des problèmes pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations d’identification et de résolution des problèmes précieuses qui sont connues par le composant de rapport. Par exemple :
   

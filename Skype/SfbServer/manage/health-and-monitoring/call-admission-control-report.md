@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Résumé: en savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.'
-ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.'
+ms.openlocfilehash: 5a8df542e666975e207bd5a105cb4c1d7261b51f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289433"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818165"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Rapport de contrôle d’admission des appels dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.
+**Résumé :** En savoir plus sur les rapports de contrôle d’admission des appels utilisés dans Skype entreprise Server.
   
 Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Celui-ci offre la possibilité aux administrateurs d’autoriser (ou non) les sessions de communication en fonction des restrictions de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
   
@@ -27,9 +29,9 @@ Le rapport du contrôle d’admission des appels fournit des informations sur le
 
 Le rapport du contrôle d’admission des appels est accessible à partir de la page d’accueil des Rapports de suivi. De ce rapport, vous pouvez atteindre l’un des rapports suivants :
   
-- Rapport Détails de la Conférence: pour accéder à ce rapport, cliquez sur la métrique détails d’une session de conférence. 
+- Rapport Détails de la Conférence : pour accéder à ce rapport, cliquez sur la métrique détails d’une session de conférence. 
     
-- Rapport détaillé de session d’égal à égal: pour accéder à ce rapport, cliquez sur la métrique détails pour une session d’égal à égal.
+- Rapport détaillé de session d’égal à égal : pour accéder à ce rapport, cliquez sur la métrique détails pour une session d’égal à égal.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Utilisation optimale du rapport du contrôle d’admission des appels
 

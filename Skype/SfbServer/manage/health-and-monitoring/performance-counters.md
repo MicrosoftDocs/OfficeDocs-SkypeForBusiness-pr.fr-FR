@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé: Découvrez les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.'
-ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.'
+ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279906"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817763"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performance de mobilité dans Skype entreprise Server
  
-**Résumé:** Apprenez-en davantage sur les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.
+**Résumé :** Apprenez-en davantage sur les compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX.
   
 Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité Skype entreprise Server MCX. 
   
-Le nom de la catégorie pour les compteurs dans la table UCWA est **ls: Web-UCWA**.
+Le nom de la catégorie pour les compteurs dans la table UCWA est **ls : Web-UCWA**.
   
 Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
 

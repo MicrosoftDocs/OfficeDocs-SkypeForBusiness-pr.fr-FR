@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: a368a364f39fe8178e9ce4f17a17bea96fea7b23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 40b365f25abccc05a5eb5156e1c7d79106a7537c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818405"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Activation ou désactivation de l’accès anonyme aux utilisateurs dans Skype entreprise Server
 
@@ -39,7 +41,7 @@ Si vous souhaitez suspendre temporairement ou définitivement l’accès par des
 
 4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
 
-5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes :
     
       - Pour activer l’accès anonyme aux utilisateurs de votre organisation, activez la case à cocher **activer les communications avec les utilisateurs anonymes** .
     
@@ -54,13 +56,13 @@ Vous pouvez gérer l’accès utilisateur anonyme à l’aide de Windows PowerSh
 
 ## <a name="to-enable-anonymous-user-access"></a>Pour autoriser l’accès des utilisateurs anonymes
 
-  - Pour autoriser l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($true):
+  - Pour autoriser l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($true) :
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Pour désactiver l’accès des utilisateurs anonymes
 
-  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur false ($false):
+  - Pour désactiver l’accès utilisateur anonyme, définissez la valeur de la propriété **AllowAnonymousUsers** sur false ($false) :
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 

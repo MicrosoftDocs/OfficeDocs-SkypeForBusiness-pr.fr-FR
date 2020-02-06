@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les sites réseau sont les bureaux ou les emplacements dans chaque région du réseau de déploiement d’admission des appels (CAC), de E9-1-1 et de contournement de média.
-ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279542"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817513"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion du contrôle d’admission des appels pour les sites dans Skype Entreprise Server
 
@@ -28,9 +30,9 @@ Dans le cadre d’une configuration de contrôle d’admission des appels (CAC),
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-3.  À partir de l’invite de commandes, tapez la commande suivante, en remplaçant les valeurs valides pour votre configuration:
+3.  À partir de l’invite de commandes, tapez la commande suivante, en remplaçant les valeurs valides pour votre configuration :
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
@@ -42,9 +44,9 @@ Pour obtenir une description détaillée des paramètres, consultez la rubrique 
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-3.  Utilisez l’applet de connexion **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, et vous pouvez modifier le profil de la stratégie de bande passante associé au lien. Voici un exemple de modification du profil de la stratégie de bande passante d’un lien\_de site nommé Reno Portland:
+3.  Utilisez l’applet de connexion **Set-CsNetworkInterSitePolicy** pour modifier les propriétés d’un lien de site réseau donné. Vous pouvez modifier l’un ou l’autre des sites connectés, et vous pouvez modifier le profil de la stratégie de bande passante associé au lien. Voici un exemple de modification du profil de la stratégie de bande passante d’un lien\_de site nommé Reno Portland :
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
@@ -55,9 +57,9 @@ Pour obtenir une description détaillée des paramètres, consultez la rubrique 
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires.
 
-2.  Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-3.  Utilisez l’applet de connexion **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. Dans l’exemple suivant, le lien\_vers le site réseau de Portland de Reno est supprimé:
+3.  Utilisez l’applet de connexion **Remove-CsNetworkInterSitePolicy** pour supprimer un lien de site réseau. Dans l’exemple suivant, le lien\_vers le site réseau de Portland de Reno est supprimé :
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
@@ -90,7 +92,7 @@ Vous pouvez afficher les informations de site réseau en utilisant Windows Power
 
 ### <a name="to-view-network-site-information"></a>Pour afficher les informations relatives au site réseau
 
-  - Pour afficher des informations sur tous les sites de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur tous les sites de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkSite
     

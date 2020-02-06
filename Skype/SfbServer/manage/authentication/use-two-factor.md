@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 'Résumé: utilisez l’authentification à deux facteurs avec Skype entreprise Server et Skype entreprise.'
-ms.openlocfilehash: 532e7567444b78dd30d053cf91aef1c10f0970bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : utilisez l’authentification à deux facteurs avec Skype entreprise Server et Skype entreprise.'
+ms.openlocfilehash: 378b76b61acd004dfe16f04dba922cc2b6fedc83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286108"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818706"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Utiliser l’authentification à deux facteurs avec le client Skype entreprise et Skype entreprise Server
  
-**Résumé:** Utiliser l’authentification à deux facteurs avec Skype entreprise Server et Skype entreprise.
+**Résumé :** Utiliser l’authentification à deux facteurs avec Skype entreprise Server et Skype entreprise.
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Première connexion à Skype Entreprise
 
@@ -48,13 +50,13 @@ Lorsque vous avez fini d’utiliser Skype entreprise, vous pouvez fermer l’aff
   
 |**Option**|**Action**|**Utilisation**|
 |:-----|:-----|:-----|
-|Fermer  <br/> |Ferme votre affichage tout en permettant à la session Skype entreprise identifiée avec votre ID d’utilisateur de continuer à s’exécuter. Cela vous permet de continuer à recevoir des notifications et à interagir avec d’autres personnes. <br/> <br/> Vous pouvez récupérer l’affichage à tout moment en cliquant sur l’icône Skype entreprise dans la barre des tâches ou dans la zone de notification située en bas de votre écran.  <br/> | Dans la fenêtre principale de Skype entreprise, effectuez l’une des opérations suivantes: <br/> 1. Sélectionnez le **bouton Options** , puis cliquez sur**Fermer**le **fichier** > .  <br/> 2. cliquez sur le bouton **Fermer** (X) dans le coin supérieur droit de la fenêtre. <br/> |
-|Se déconnecter  <br/> |Met fin à la session associée à votre ID d’utilisateur, mais Skype entreprise continue de s’exécuter en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion s’affiche.  <br/> **Astuce:** Si vous vous déconnectez, sélectionnez **Supprimer mes informations de connexion** pour supprimer l’enregistrement de votre ID de connexion et de votre mot de passe de votre ordinateur. Cela permet au support technique de résoudre plus facilement les problèmes de connexion. Vos informations de connexion sont mieux sécurisées, car l’ouverture de session avec vos informations d’identification est plus difficile pour des utilisateurs non autorisés. <br/> |Dans la fenêtre principale de Skype entreprise, cliquez sur le bouton **options** , puis **** > sélectionnez**se déconnecter**.  <br/> |
+|Fermer  <br/> |Ferme votre affichage tout en permettant à la session Skype entreprise identifiée avec votre ID d’utilisateur de continuer à s’exécuter. Cela vous permet de continuer à recevoir des notifications et à interagir avec d’autres personnes. <br/> <br/> Vous pouvez récupérer l’affichage à tout moment en cliquant sur l’icône Skype entreprise dans la barre des tâches ou dans la zone de notification située en bas de votre écran.  <br/> | Dans la fenêtre principale de Skype entreprise, effectuez l’une des opérations suivantes : <br/> 1. Sélectionnez le **bouton Options** , puis cliquez sur**Fermer**le **fichier** > .  <br/> 2. cliquez sur le bouton **Fermer** (X) dans le coin supérieur droit de la fenêtre. <br/> |
+|Se déconnecter  <br/> |Met fin à la session associée à votre ID d’utilisateur, mais Skype entreprise continue de s’exécuter en arrière-plan. Lorsque vous vous déconnectez, la fenêtre de connexion s’affiche.  <br/> **Astuce :** Si vous vous déconnectez, sélectionnez **Supprimer mes informations de connexion** pour supprimer l’enregistrement de votre ID de connexion et de votre mot de passe de votre ordinateur. Cela permet au support technique de résoudre plus facilement les problèmes de connexion. Vos informations de connexion sont mieux sécurisées, car l’ouverture de session avec vos informations d’identification est plus difficile pour des utilisateurs non autorisés. <br/> |Dans la fenêtre principale de Skype entreprise, cliquez sur le bouton **options** , puis **Sélectionnez** > **se déconnecter**.  <br/> |
 |Quitter  <br/> |Met fin à votre session Skype entreprise et arrête Skype entreprise sur votre ordinateur. Après avoir quitté le programme, si vous souhaitez redémarrer, sélectionnez **Démarrer** > **tous les programmes** > Skype entreprise. <br/> |Dans la fenêtre principale de Skype entreprise, sélectionnez le bouton **options** , puis sélectionnez **** > **quitter**.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Connexion à Skype Entreprise avec une carte à puce
 
-Certaines organisations utilisent désormais une procédure de connexion en plusieurs étapes appelée « authentification à deux facteurs » pour renforcer la sécurité de leurs utilisateurs. Si vous utilisez cette option, vous avez besoin d’une carte à puce pour vous connecter à Skype entreprise. Les cartes à puce peuvent être physiques ou virtuelles:
+Certaines organisations utilisent désormais une procédure de connexion en plusieurs étapes appelée « authentification à deux facteurs » pour renforcer la sécurité de leurs utilisateurs. Si vous utilisez cette option, vous avez besoin d’une carte à puce pour vous connecter à Skype entreprise. Les cartes à puce peuvent être physiques ou virtuelles :
   
 - **Physiques** À propos de la taille d’une carte de crédit. Vous l’insérez dans un lecteur de carte à puce lorsque vous vous connectez.
     
@@ -62,7 +64,7 @@ Certaines organisations utilisent désormais une procédure de connexion en plus
     
 ### <a name="enroll-your-smart-card"></a>Inscription de votre carte à puce
 
-Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-ci doit être «inscrite»; autrement dit, vos informations d’identification d’utilisateur doivent être identifiées sur la carte. C’est le cas, qu’il s’agisse d’une carte physique ou virtuelle. Ce processus a pu être déjà exécuté par votre administrateur Skype entreprise Server. Si vous ne savez pas si vous avez terminé, contactez-les.
+Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-ci doit être « inscrite »; autrement dit, vos informations d’identification d’utilisateur doivent être identifiées sur la carte. C’est le cas, qu’il s’agisse d’une carte physique ou virtuelle. Ce processus a pu être déjà exécuté par votre administrateur Skype entreprise Server. Si vous ne savez pas si vous avez terminé, contactez-les.
   
 > [!NOTE]
 > Dans la mesure où chaque carte à puce virtuelle est associée uniquement à l’appareil sur lequel elle est installée, une carte séparée doit être inscrite pour chaque ordinateur Windows 8 que vous utilisez. 
@@ -73,7 +75,7 @@ Pour que vous puissiez vous connecter à l’aide d’une carte à puce, celle-c
     
 2. À l’aide d’Internet Explorer, accédez à la page d’inscription au Web de l’autorité de certification de votre organisation. 
     
-    Si vous n’avez pas encore l’application, demandez à l’administrateur de votre serveur Skype entreprise d’obtenir l’adresse Web de cette ressource. L’URL ressemble à ceci: https://MyCA. [nom]. com/certsrv.
+    Si vous n’avez pas encore l’application, demandez à l’administrateur de votre serveur Skype entreprise d’obtenir l’adresse Web de cette ressource. L’URL ressemble à ceci : https://MyCA. [nom]. com/certsrv.
     
     > [!NOTE]
     > Si vous utilisez Internet Explorer 10, il est possible que vous deviez afficher ce site Web en mode de compatibilité. 

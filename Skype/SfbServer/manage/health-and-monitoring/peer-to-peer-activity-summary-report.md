@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Résumé: en savoir plus sur le rapport de synthèse des activités d’égal à égal dans Skype entreprise Server.'
-ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de synthèse des activités d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 001298b948f3a3b8b9b404387fe4d93843297c8a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817783"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des activités d’égal à égal dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport de synthèse des activités d’égal à égal dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de synthèse des activités d’égal à égal dans Skype entreprise Server.
   
 Le rapport de synthèse des activités P2P fournit un aperçu de vos sessions de communication d?’P2P. Une session d’égal à égal implique généralement deux utilisateurs uniquement et ne nécessite pas l’utilisation des services de conférence Skype entreprise Server. En comparaison, une conférence implique généralement plus de deux utilisateurs et nécessite l’utilisation des services de conférence Skype entreprise Server. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
   
@@ -27,13 +29,13 @@ Le rapport de synthèse des activités P2P vous aide à répondre à des questio
   
 - Combien de messages instantanés P2P mes utilisateurs envoient-ils généralement par jour ?
     
-- Certains de mes utilisateurs tirent-ils réellement parti du partage d’application et de la fonctionnalité de transfert de fichiers de Skype entreprise Server?
+- Certains de mes utilisateurs tirent-ils réellement parti du partage d’application et de la fonctionnalité de transfert de fichiers de Skype entreprise Server ?
     
 - Les utilisateurs ont signalé que le réseau semblait lent à certains moments de la journée. Combien de minutes sont consacrées à des sessions audio et vidéo P2P durant ces périodes ?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Accès au rapport de synthèse des activités P2P
 
-Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Pour ouvrir le [rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server](im-report.md) , cliquez sur l’une des mesures suivantes:
+Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Pour ouvrir le [rapport de messagerie instantanée d’égal à égal dans Skype entreprise Server](im-report.md) , cliquez sur l’une des mesures suivantes :
   
 - Nombre total de sessions d'égal à égal de messagerie instantanée
     

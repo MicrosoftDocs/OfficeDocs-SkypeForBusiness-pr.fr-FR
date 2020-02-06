@@ -11,22 +11,24 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: La prise en charge de la Fédération est requise pour permettre aux utilisateurs disposant d’un compte auprès d’un client ou d’une organisation de partenaire approuvés, notamment des domaines de partenariat et des utilisateurs de fournisseurs de messagerie instantanée publics que vous prenez en charge, pour collaborer avec des utilisateurs dans votre société.
-ms.openlocfilehash: 86cc3e66b2e3252b6b25ff4bef09d3abeb4badf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e24d670295a751c4cd3f41048fe1807b0fe1723
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280242"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818385"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Activation ou désactivation de la connectivité de Fédération et de messagerie instantanée publique dans Skype entreprise Server
 
 La prise en charge de la Fédération est requise pour permettre aux utilisateurs disposant d’un compte auprès d’un client ou d’une organisation de partenaire approuvés, notamment des domaines de partenariat et des utilisateurs de fournisseurs de messagerie instantanée publics que vous prenez en charge, pour collaborer avec des utilisateurs dans votre société. La Fédération est également requise pour l’utilisation d’un fournisseur de services Exchange hébergés pour fournir des messages vocaux aux utilisateurs vocaux d’entreprise dont la boîte aux lettres est située sur un service Exchange hébergé tel que Microsoft Exchange Online. Lorsque vous établissez une relation d’approbation avec ces domaines externes, vous pouvez autoriser les utilisateurs à accéder à votre déploiement et participer à des communications Skype entreprise Server. Cette relation d’approbation est appelée Fédération et ne dépend pas d’une relation d’approbation Active Directory ou n’est pas liée.
 
-Pour prendre en charge l’accès par des utilisateurs de domaines fédérés, vous devez activer la Fédération. Si vous activez la Fédération pour votre organisation, vous devez également spécifier si vous voulez implémenter les options suivantes:
+Pour prendre en charge l’accès par des utilisateurs de domaines fédérés, vous devez activer la Fédération. Si vous activez la Fédération pour votre organisation, vous devez également spécifier si vous voulez implémenter les options suivantes :
 
-  - **Activer la découverte**   de domaine partenaire si vous activez cette option, Skype entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de détecter les domaines qui ne sont pas répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant détecté. partenaires fédérés et limitation ou blocage de ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est activé uniquement pour les utilisateurs des domaines que vous incluez dans la liste des domaines autorisés. Si vous sélectionnez cette option, vous pouvez spécifier que les domaines individuels doivent être bloqués ou autorisés, y compris limiter l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle d’accès par des domaines fédérés, voir [configurer la prise en charge des domaines externes autorisés](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+  - **Activer la découverte**   de domaine partenaire si vous activez cette option, Skype entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines qui ne sont pas répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant des partenaires fédérés identifiés et en limitant ou en bloquant ce trafic en fonction du niveau de confiance, du trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est activé uniquement pour les utilisateurs des domaines que vous incluez dans la liste des domaines autorisés. Si vous sélectionnez cette option, vous pouvez spécifier que les domaines individuels doivent être bloqués ou autorisés, y compris limiter l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle d’accès par des domaines fédérés, voir [configurer la prise en charge des domaines externes autorisés](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
   - **Envoyer une exclusion de responsabilité à l’archivage pour les partenaires**     fédérés vous recevez des notifications de non-responsabilité pour les partenaires fédérés dans lesquels l’archivage de votre déploiement est en place. Si vous prise en charge de l’archivage des communications externes avec les domaines de partenaires fédérés, vous devez activer la notification d’exclusion de responsabilité de l’archivage pour avertir les partenaires de l’archivage de leurs messages.
 
@@ -46,13 +48,13 @@ Si vous souhaitez par la suite empêcher l’accès temporaire ou définitive au
 
 4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
 
-5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes :
     
       - Pour autoriser l’accès des utilisateurs fédérés pour votre organisation, activez la case à cocher **activer les communications avec les utilisateurs fédérés** .
     
       - Pour désactiver l’accès des utilisateurs fédérés pour votre organisation, décochez la case **activer les communications avec les utilisateurs fédérés** .
 
-6.  Si vous avez activé la case à cocher **activer les communications avec les utilisateurs fédérés** , procédez comme suit:
+6.  Si vous avez activé la case à cocher **activer les communications avec les utilisateurs fédérés** , procédez comme suit :
     
     1.  Si vous voulez prendre en charge la découverte automatique des domaines partenaires, activez la case à cocher **activer la découverte de domaines partenaires** .
     
@@ -69,7 +71,7 @@ La connectivité de Fédération et de messagerie instantanée publique peut ég
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la connectivité de Fédération et de messagerie instantanée publique
 
-  - Pour activer la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur True ($true):
+  - Pour activer la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur True ($true) :
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -77,7 +79,7 @@ La connectivité de Fédération et de messagerie instantanée publique peut ég
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>Pour désactiver la connectivité de Fédération et de messagerie instantanée publique
 
-  - Pour désactiver la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur false ($false):
+  - Pour désactiver la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur false ($false) :
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

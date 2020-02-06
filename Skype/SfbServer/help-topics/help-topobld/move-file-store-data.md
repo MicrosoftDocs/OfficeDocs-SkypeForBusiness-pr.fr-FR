@@ -8,15 +8,17 @@ ms.date: 8/30/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si vous avez besoin de supprimer le serveur de fichiers qui sert de magasin de fichiers pour votre déploiement de Skype entreprise Server 2015 ou si vous avez besoin d’apporter d’autres modifications pour rendre le stockage de fichiers actuel indisponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: 3ac6def729cbbf41f74d9a9b19352190f2ff2f1b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7334246f4de6a820339e3fff5f9c19cb86a74422
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819516"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 

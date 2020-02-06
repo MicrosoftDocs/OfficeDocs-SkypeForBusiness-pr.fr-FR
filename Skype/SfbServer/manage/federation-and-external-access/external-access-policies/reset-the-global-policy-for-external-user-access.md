@@ -11,18 +11,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Vous ne pouvez pas supprimer complètement une stratégie globale. L’utilisation de l’option **supprimer** dans la stratégie globale rétablit uniquement les paramètres par défaut de la stratégie globale, qui ne prennent pas en charge les options d’accès des utilisateurs externes.
-ms.openlocfilehash: 339ad22e1d049510416bfc3433c6c8a104455504
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e0e59c4de1b7a4bacbef30b4caa3d26c29b81e84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280144"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818265"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Réinitialisation de la stratégie globale pour l’accès des utilisateurs externes dans Skype entreprise Server 
 
-Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit:
+Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit :
 
   - Supprimez les stratégies de site ou d’utilisateur que vous avez créées.
 
@@ -49,7 +51,7 @@ La stratégie d’accès externe globale peut être réinitialisée à l’aide 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>Pour réinitialiser la stratégie d’accès externe globale
 
-  - Cette commande réinitialise la stratégie globale d’accès externe:
+  - Cette commande réinitialise la stratégie globale d’accès externe :
     
         Remove-CsExternalAccessPolicy -Identity "global"
 

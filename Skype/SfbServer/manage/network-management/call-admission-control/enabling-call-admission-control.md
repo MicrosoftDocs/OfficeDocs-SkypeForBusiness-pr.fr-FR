@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: " Après avoir configuré le réseau CAC (Call Admission Control), vous devez activer le CAC pour appliquer les limitations de bande passante."
-ms.openlocfilehash: cbe3ad690f7061611a91474ce6df1fe39d84b0fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f9f3f09f943b417ec589f26dc5c6505d30831f9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279549"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817533"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -40,7 +42,7 @@ Le contrôle d’admission des appels est un réseau de régions, de sites et de
 
 Lorsque vous cliquez sur **valider**, vous effectuez un test de la configuration. La boîte de dialogue **modifier les paramètres globaux** se ferme et vous permet de revenir à la page **globale** . Vous recevez un avertissement en cas d’erreurs ou d’éventuelles incohérences détectées dans votre configuration réseau qui empêche celle-ci de fonctionner correctement (par exemple, si chaque région n’est pas connectée à une autre région par le biais d’un itinéraire interrégion).
 
-Si vous apportez des modifications à la configuration de votre réseau, vous pouvez exécuter de nouveau le contrôle de validation en ouvrant la configuration globale et en cliquant sur **valider**. Vous n’avez pas besoin de désactiver le CAC d’abord: laissez la case à cocher activée, puis cliquez sur **valider**. Vous pouvez le faire à tout moment sans apporter de modifications à la configuration.
+Si vous apportez des modifications à la configuration de votre réseau, vous pouvez exécuter de nouveau le contrôle de validation en ouvrant la configuration globale et en cliquant sur **valider**. Vous n’avez pas besoin de désactiver le CAC d’abord : laissez la case à cocher activée, puis cliquez sur **valider**. Vous pouvez le faire à tout moment sans apporter de modifications à la configuration.
 
 ## <a name="see-also"></a>Voir aussi
 

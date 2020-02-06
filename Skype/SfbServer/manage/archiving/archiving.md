@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
-description: 'Résumé: Découvrez comment gérer l’archivage de Skype entreprise Server.'
-ms.openlocfilehash: e4566760a9d071b87596e581689f6373ca3cda49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer l’archivage de Skype entreprise Server.'
+ms.openlocfilehash: 46b0937a00f289ad5383d3bb1a4acf890bf48390
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282027"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818996"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Gestion de l’archivage dans Skype entreprise Server
 
-**Résumé:** Découvrez comment gérer l’archivage de Skype entreprise Server.
+**Résumé :** Découvrez comment gérer l’archivage de Skype entreprise Server.
   
 Quand vous déployez l’archivage pour votre organisation, vous devez spécifier la configuration initiale durant le déploiement. Cependant, vous pouvez être amené à modifier la façon dont vous implémentez la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre aux nouvelles exigences de votre organisation. Par exemple, vous pouvez être amené à configurer une prise en charge distincte de l’archivage pour un site, un pool ou des utilisateurs spécifiques au sein de votre organisation. Pour les utilisateurs hébergés sur Skype entreprise Server, procédez ainsi en créant et en personnalisant les options de configuration de l’archivage et les stratégies utilisateur. 
   
@@ -48,7 +50,7 @@ Ces options peuvent être définies au niveau global, site ou pool. Pour plus d�
   
 ## <a name="archiving-policies"></a>Stratégie d’archivage
 
-Les stratégies d’archivage déterminent s’il convient d’archiver les éléments suivants:
+Les stratégies d’archivage déterminent s’il convient d’archiver les éléments suivants :
   
 - Communications internes
     
@@ -73,7 +75,7 @@ Vous pouvez gérer l’archivage en utilisant le Panneau de configuration ou Win
 |Remove-CsArchivingConfiguration  <br/> |Supprime la collection spécifiée de paramètres d’archivage utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour bloquer éventuellement tout message instantané ne pouvant pas être archivé.  <br/> |
 |Remove-CsArchivingPolicy  <br/> |Supprime la stratégie d’archivage de messagerie instantanée spécifiée qui détermine si Skype entreprise Server enregistre automatiquement toutes les sessions de messagerie instantanée qui se produisent entre les utilisateurs internes et/ou toutes les sessions de messagerie instantanée entre les utilisateurs internes et les partenaires fédérés.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifie une collection existante d’options de configuration d’archivage de la messagerie instantanée.  <br/> |
-|Set-CsArchivingPolicy  <br/> |Modifie une stratégie d’archivage de messagerie instantanée existante. Une stratégie d’archivage vous donne la possibilité d’archiver toutes les sessions et conférences de messagerie instantanée qui se produisent entre les utilisateurs internes; vous pouvez également archiver des sessions qui interviennent entre des utilisateurs internes et des partenaires fédérés.  <br/> |
+|Set-CsArchivingPolicy  <br/> |Modifie une stratégie d’archivage de messagerie instantanée existante. Une stratégie d’archivage vous donne la possibilité d’archiver toutes les sessions et conférences de messagerie instantanée qui se produisent entre les utilisateurs internes ; vous pouvez également archiver des sessions qui interviennent entre des utilisateurs internes et des partenaires fédérés.  <br/> |
 |Set-CsArchivingServer  <br/> |Permet de spécifier un nouvel emplacement de base de données pour un ou plusieurs serveurs d’archivage.  <br/> |
    
 

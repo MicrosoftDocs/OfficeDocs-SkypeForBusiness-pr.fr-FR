@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Un itinéraire de région réseau définit l’itinéraire entre deux régions du réseau. Chaque paire de zones réseau dans le déploiement de votre contrôle d’admission des appels nécessite un itinéraire de la région du réseau.
-ms.openlocfilehash: 174fdd021655f3e338001582a1409107b266582e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e0c099b8c461873b96963c721d835f1ccdf4705
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279507"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817493"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 
@@ -48,7 +50,7 @@ Les informations sur les itinéraires de région réseau peuvent être affichée
 
 ### <a name="to-view-network-region-route-information"></a>Pour afficher les informations relatives aux itinéraires de la région réseau
 
-  - Pour afficher des informations sur l’ensemble des itinéraires de vos régions réseau, tapez la commande suivante dans le shell de gestion de Skype entreprise Server, puis appuyez sur entrée:
+  - Pour afficher des informations sur l’ensemble des itinéraires de vos régions réseau, tapez la commande suivante dans le shell de gestion de Skype entreprise Server, puis appuyez sur entrée :
     
         Get-CsNetworkInterRegionRoute
     

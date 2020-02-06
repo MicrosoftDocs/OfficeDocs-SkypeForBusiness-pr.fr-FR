@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-description: 'Résumé: en savoir plus sur le rapport d’emplacements dans Skype entreprise Server.'
-ms.openlocfilehash: 3f753705d497d1b3e5d67f6f6d642ee27b8a862d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport d’emplacements dans Skype entreprise Server.'
+ms.openlocfilehash: aea3ff0c712ea98e6795fee59f2e60298b64775f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280081"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817884"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Rapport d’emplacement dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport d’emplacement dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport d’emplacement dans Skype entreprise Server.
   
 Le rapport d’emplacement fournit des informations sur les mesures de la qualité des appels regroupées par emplacement réseau (c’est-à-dire, par sous-réseau). Si vos utilisateurs rencontrent des problèmes avec leurs appels, ce rapport peut vous aider à déterminer si ces problèmes sont étendus ou s’ils sont largement réduits à un segment de réseau donné.
   

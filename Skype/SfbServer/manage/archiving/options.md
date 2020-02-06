@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 'Résumé: Découvrez comment configurer les options d’archivage de Skype entreprise Server.'
-ms.openlocfilehash: c7353c305125e8e35523c573150471821f53301e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment configurer les options d’archivage de Skype entreprise Server.'
+ms.openlocfilehash: af5c8f90cd49f556e1e787e5f550b54da1976c45
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278418"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818896"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Gérer les options d’archivage dans Skype entreprise Server
 
-**Résumé:** Apprenez à configurer les options d’archivage de Skype entreprise Server.
+**Résumé :** Apprenez à configurer les options d’archivage de Skype entreprise Server.
   
 Si l’archivage est initialement configuré au déploiement, vous pouvez modifier, ajouter et supprimer des configurations par la suite. Les options d’archivage déterminent : 
   

@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: 'Résumé: Découvrez comment gérer les conférences rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: e27ee84769d2ba25b3d3ea6689c7125889b4f80e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer les conférences rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: ba8b62456a1fa2024f2cf37642658e76d528ebf3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283773"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818575"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Gestion des conférences rendez-vous dans Skype entreprise Server
  
-**Résumé:** Découvrez comment gérer les conférences rendez-vous dans Skype entreprise Server.
+**Résumé :** Découvrez comment gérer les conférences rendez-vous dans Skype entreprise Server.
   
 Cette rubrique décrit comment gérer la conférence rendez-vous. Pour plus d’informations sur la planification et la configuration de conférences rendez-vous lors du déploiement, reportez-vous à la rubrique [planification de la Conférence rendez-vous dans Skype entreprise Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) et configuration de la Conférence rendez [-vous dans Skype entreprise Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
-Pour gérer les conférences rendez-vous, vous pouvez effectuer les tâches suivantes: activer ou désactiver les conférences rendez-vous, gérer des numéros d’accès, gérer des stratégies de code confidentiel pour la Conférence rendez-vous ainsi que les utilisateurs qui ont accès à la Conférence rendez-vous. 
+Pour gérer les conférences rendez-vous, vous pouvez effectuer les tâches suivantes : activer ou désactiver les conférences rendez-vous, gérer des numéros d’accès, gérer des stratégies de code confidentiel pour la Conférence rendez-vous ainsi que les utilisateurs qui ont accès à la Conférence rendez-vous. 
   
 Pour plus d’informations sur la gestion des plans de numérotation, reportez-vous à [la rubrique création ou modification d’un plan de numérotation dans Skype entreprise Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
@@ -49,7 +51,7 @@ Pour gérer les informations sur les plans de numérotation et l’utilisation R
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Gestion des conférences rendez-vous à l’aide de Skype entreprise Server Management Shell
 
-Pour gérer les conférences rendez-vous à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes:
+Pour gérer les conférences rendez-vous à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes :
   
 **Paramètres de configuration des conférences rendez-vous**
 

@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Vous contrôlez qui peut inviter des utilisateurs anonymes en configurant une stratégie de conférence pour prendre en charge les utilisateurs anonymes et en appliquant cette stratégie de conférence à des utilisateurs spécifiques.
-ms.openlocfilehash: d7956e68db3330f0804e6161e0eeaf52958bc588
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5427ec96d3593cf87656f562acf0afc183b92d6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280284"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818415"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Attribution de stratégies de conférence pour prendre en charge les utilisateurs anonymes dans Skype entreprise Server 
 
@@ -37,7 +39,7 @@ Suivez la procédure décrite dans cette section pour appliquer une stratégie d
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis effectuez l’une des opérations suivantes:
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis effectuez l’une des opérations suivantes :
     
     1.  Pour créer une nouvelle stratégie d’utilisateur, cliquez sur **nouveau**, puis cliquez sur stratégie de l' **utilisateur**. Dans le champ **nom** , créez un nom unique qui indique l’objet de la stratégie de l’utilisateur (par exemple, **EnableAnonymous** pour une stratégie utilisateur qui autorise les communications avec des utilisateurs anonymes).
     

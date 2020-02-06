@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Résumé: en savoir plus sur le rapport de liste d’appels utilisé dans Skype entreprise Server.'
-ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de liste d’appels utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: 3013dcce34804c7afb4c0d1ca7a211f8decf56ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289328"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818115"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport sur la liste d’appels utilisé dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport sur la liste d’appels utilisé dans Skype entreprise Server.
   
-Le rapport Liste des appels fournit des métriques de Qualité de l’expérience pour chaque appel émis et reçu dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport Liste des appels. Par exemple, si vous ouvrez le rapport à partir de l’état de l' [appareil dans Skype entreprise Server](device-report.md), des indicateurs de performance tels que les indicateurs suivants sont également signalés sur le rapport de l’appareil:
+Le rapport Liste des appels fournit des métriques de Qualité de l’expérience pour chaque appel émis et reçu dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport Liste des appels. Par exemple, si vous ouvrez le rapport à partir de l’état de l' [appareil dans Skype entreprise Server](device-report.md), des indicateurs de performance tels que les indicateurs suivants sont également signalés sur le rapport de l’appareil :
   
 - Microphone de l’appelant
     
@@ -33,7 +35,7 @@ Le rapport Liste des appels fournit des métriques de Qualité de l’expérienc
     
 - Ratio de la durée du basculement vocal 
     
-Toutefois, si vous ouvrez le rapport liste d’appels [dans Skype entreprise Server](location-report.md), vous ne verrez pas l’un de ces indicateurs. à la place, vous verrez des métriques comme celles-ci:
+Toutefois, si vous ouvrez le rapport liste d’appels [dans Skype entreprise Server](location-report.md), vous ne verrez pas l’un de ces indicateurs. à la place, vous verrez des métriques comme celles-ci :
   
 - Boucle (ms)
     

@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Résumé: Découvrez comment surveiller des rapports dans Skype entreprise Server.'
-ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment surveiller des rapports dans Skype entreprise Server.'
+ms.openlocfilehash: 1468a012501753a720807f1b1ec609ff187ffc1c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279885"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817803"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation de rapports de surveillance dans Skype entreprise Server 
  
-**Résumé:** En savoir plus sur la surveillance des rapports dans Skype entreprise Server.
+**Résumé :** En savoir plus sur la surveillance des rapports dans Skype entreprise Server.
   
 Skype entreprise Server inclut un ensemble de rapports standard publiés par le service Microsoft SQL Server Reporting. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE.
   
@@ -47,7 +49,7 @@ Chaque rapport offre également une possibilité limitée de rechercher des enre
   
 Comme mentionné plus haut, les rapports de surveillance procurent uniquement des fonctionnalités de recherche de base. Par exemple, vous ne pouvez pas spécifier le champ dans lequel rechercher la valeur. Le mécanisme de recherche des valeurs correspondantes dans chaque champ de chaque enregistrement. Vous ne pouvez pas utiliser de caractères génériques dans vos recherches et toutes les recherches tentent de trouver des valeurs partielles. Cela signifie que si vous recherchez 111, la recherche renvoie la valeur 111, ainsi que les valeurs 11100, 811, 3112, 611A5B et tout autre champ qui comprend la valeur 111 n’importe où.
   
-Chaque rapport est configuré pour afficher un ensemble d’enregistrements par défaut. Par exemple, par défaut, le rapport sur l’inscription des utilisateurs présente les activités d’inscription des utilisateurs au cours de la semaine précédente. Dans certains cas, cela peut générer un État ne renvoyant aucun enregistrement. Le cas échéant, cela signifie qu’il n’y a pas eu d’inscriptions effectuées par les utilisateurs au cours de la semaine précédente. Si le message «aucune valeur ne correspond aux filtres du rapport» s’affiche, essayez de modifier les valeurs du filtre (par exemple, remplacez la période par le mois précédent plutôt que la semaine précédente) et réexécutez la requête. Pour plus d’informations, reportez-vous à la section «filtrage des données» plus loin dans cette rubrique.
+Chaque rapport est configuré pour afficher un ensemble d’enregistrements par défaut. Par exemple, par défaut, le rapport sur l’inscription des utilisateurs présente les activités d’inscription des utilisateurs au cours de la semaine précédente. Dans certains cas, cela peut générer un État ne renvoyant aucun enregistrement. Le cas échéant, cela signifie qu’il n’y a pas eu d’inscriptions effectuées par les utilisateurs au cours de la semaine précédente. Si le message « aucune valeur ne correspond aux filtres du rapport » s’affiche, essayez de modifier les valeurs du filtre (par exemple, remplacez la période par le mois précédent plutôt que la semaine précédente) et réexécutez la requête. Pour plus d’informations, reportez-vous à la section « filtrage des données » plus loin dans cette rubrique.
   
 ## <a name="filtering-data"></a>Filtrage des données
 

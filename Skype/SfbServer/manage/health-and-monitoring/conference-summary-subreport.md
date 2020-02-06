@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Résumé: en savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.'
-ms.openlocfilehash: ad3e382ac832976e15518a431055bf03189061a5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.'
+ms.openlocfilehash: 0d0b8fdc3971d60e326e59dd5417458533a10a31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305863"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818064"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Sous-état synthèse de la Conférence dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le sous-état synthèse de la Conférence dans Skype entreprise Server.
   
 Le sous-rapport de synthèse de conférence fournit une vision générale des sessions de conférence ayant échoué. Ces échecs de session sont répartis par type de session : sessions Focus et les sessions MCU.
   

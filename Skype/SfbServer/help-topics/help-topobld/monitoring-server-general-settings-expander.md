@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur de surveillance individuel en cliquant avec le bouton droit sur le serveur de surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions. Cliquez ensuite sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: 23e6a1c4e1db0fd01ce5b6043a795e9abb4070b1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3f81469727c2c99caef4895eb3d55ad03091d36c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684517"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819536"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expanseur des paramètres généraux du serveur de surveillance
  

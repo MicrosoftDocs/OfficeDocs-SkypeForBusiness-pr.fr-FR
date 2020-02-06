@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Résumé: en savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.'
-ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 4c6b05e6e4e4110a43c21dbdbbc7f190ecae98ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817773"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de session d’égal à égal dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de détail de session d’égal à égal dans Skype entreprise Server.
   
 Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
   

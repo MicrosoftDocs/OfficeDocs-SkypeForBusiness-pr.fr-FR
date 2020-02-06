@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
-description: 'Résumé: Explorez ces liens pour découvrir comment gérer et gérer Skype entreprise Server.'
-ms.openlocfilehash: 2199762872b638b6a141c6dc48827580b00c6233
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Explorez ces liens pour découvrir comment gérer et gérer Skype entreprise Server.'
+ms.openlocfilehash: b02fba1db57498b0cda6b8d50e4ac631b82755ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279640"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817563"
 ---
 # <a name="manage-skype-for-business-server"></a>Gérer Skype Entreprise Server 
 
-**Résumé:** Pour plus d’informations sur la gestion et la mise à jour de Skype entreprise Server, consultez les liens suivants.
+**Résumé :** Pour plus d’informations sur la gestion et la mise à jour de Skype entreprise Server, consultez les liens suivants.
   
 Skype Entreprise Server offre des solutions de messagerie instantanée (MI), de présence, de conférence et de téléphonie capables de répondre aux besoins de collaboration des entreprises. Cette rubrique fournit des liens vers des informations sur la façon de configurer, surveiller et tenir à jour votre déploiement de Skype entreprise Server. 
   
@@ -33,7 +35,7 @@ Pour plus d’informations sur la gestion de Skype entreprise Server, voir les r
 ||**Contenu**|**Description**|
 |:-----|:-----|:-----|
 |![Icône des diagrammes techniques](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |Découvrez les choix d’architecture d’un seul coup d’œil dans ces diagrammes grand format.  <br/> |
-|![Icône des vidéos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Démonstrations vidéo et formation: *bientôt disponible*  <br/> |Découvrez les présentations vidéo et les formations relatives à Skype Entreprise Server.  <br/> |
+|![Icône des vidéos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Démonstrations vidéo et formation : *bientôt disponible*  <br/> |Découvrez les présentations vidéo et les formations relatives à Skype Entreprise Server.  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Articles sur la gestion de Skype entreprise Server
 
@@ -44,7 +46,7 @@ Les articles suivants sur la configuration, le suivi et la gestion de Skype entr
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer votre topologie dans Skype entreprise Server](topology/topology.md) <br/> |Les rubriques de cette section fournissent des procédures pas à pas pour la mise à niveau, la mise à jour, l’ajout et la suppression de serveurs à l’aide du panneau de configuration Skype entreprise Server et de Skype entreprise Server Management Shell.  <br/> |
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gestion de l’intégrité et de la surveillance dans Skype entreprise Server](health-and-monitoring/health-and-monitoring.md) <br/> |Les rubriques de cette section fournissent des procédures pas à pas pour la surveillance et les tâches de configuration de l’intégrité que vous pouvez effectuer à l’aide du panneau de configuration Skype entreprise Server et de Skype entreprise Server Management Shell.  <br/> |
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gestion de l’archivage dans Skype entreprise Server](archiving/archiving.md) <br/> |Les rubriques de cette section fournissent des procédures pas à pas pour configurer les options d’archivage et les stratégies utilisateur pour Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server et de Skype entreprise Server Management Shell.  <br/> |
-|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015](persistent-chat/persistent-chat.md) <br/> |Les rubriques de cette section fournissent des procédures pas à pas pour gérer le serveur de chat permanent en utilisant le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell.  <br/> **Remarque:** Cette offre est disponible uniquement pour Skype entreprise 2015.|
+|![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Gérer un serveur de conversation permanente dans Skype Entreprise Server 2015](persistent-chat/persistent-chat.md) <br/> |Les rubriques de cette section fournissent des procédures pas à pas pour gérer le serveur de chat permanent en utilisant le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell.  <br/> **Remarque :** Cette offre est disponible uniquement pour Skype entreprise 2015.|
 |![Icône numérique Comment faire](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype Entreprise Server Management Shell](management-shell.md) <br/> |Les rubriques de cette section expliquent comment gérer Skype entreprise Server à l’aide de Skype entreprise Server Management Shell.  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Ressources supplémentaires sur la planification de Skype Entreprise Server

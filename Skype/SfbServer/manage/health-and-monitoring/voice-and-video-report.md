@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Résumé: Découvrez le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.'
-ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 1f67cb4de6f5980afa2fc2393160ffc854a7e94f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279633"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817583"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport audio et vidéo d’égal à égal dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport voix et vidéo d’égal à égal dans Skype entreprise Server.
   
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
   

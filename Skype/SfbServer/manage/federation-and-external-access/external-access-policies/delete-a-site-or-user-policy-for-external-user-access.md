@@ -11,18 +11,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur figurant dans le panneau de configuration Skype entreprise Server sur la page de stratégie d’accès externe.
-ms.openlocfilehash: 615df309088a329e07f5417dce16e98366a371c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2472058009622834e20a1657167c7061b9706579
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280123"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818285"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Suppression d’une stratégie utilisateur ou de site pour l’accès des utilisateurs externes
 
-Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit:
+Si vous avez créé ou configuré des stratégies d’accès des utilisateurs externes que vous ne souhaitez plus utiliser, vous pouvez procéder comme suit :
 
   - Supprimez les stratégies de site ou d’utilisateur que vous avez créées.
 
@@ -52,21 +54,21 @@ Les stratégies d’accès externe peuvent être supprimées à l’aide de Wind
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Pour supprimer une stratégie d’accès externe spécifique
 
-  - Cette commande supprime la stratégie d’accès externe appliquée au site de Redmond:
+  - Cette commande supprime la stratégie d’accès externe appliquée au site de Redmond :
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Pour supprimer toutes les stratégies d’accès externe appliquées à l’étendue par utilisateur
 
-  - Cette commande supprime toutes les stratégies d’accès externe configurées pour l’étendue par utilisateur:
+  - Cette commande supprime toutes les stratégies d’accès externe configurées pour l’étendue par utilisateur :
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Pour supprimer toutes les stratégies d’accès externes pour lesquelles l’accès des utilisateurs externes est désactivé
 
-  - Cette commande supprime toutes les stratégies d’accès externe dont l’accès à l’utilisateur extérieur a été désactivé:
+  - Cette commande supprime toutes les stratégies d’accès externe dont l’accès à l’utilisateur extérieur a été désactivé :
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 

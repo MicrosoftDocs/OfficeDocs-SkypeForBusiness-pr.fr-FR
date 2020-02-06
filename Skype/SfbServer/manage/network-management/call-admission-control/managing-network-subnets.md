@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Dans la plupart des déploiements de Skype entreprise Server où le contrôle d’admission des appels (CAC) est implémenté, il existe généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer les sous-réseaux à partir de Skype entreprise Server Management Shell.
-ms.openlocfilehash: 354dd43fd526ba2a6c6f88c8e1f30d0aae37b3bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd7d71b3971b176939967830ca3e071ef4c77dbf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279479"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817463"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Gestion des sous-réseaux réseau dans Skype Entreprise Server
 
@@ -47,7 +49,7 @@ Les informations de sous-réseau peuvent être affichées à l’aide de Windows
 
 ### <a name="to-view-network-subnet-information"></a>Pour afficher les informations de sous-réseau
 
-  - Pour afficher des informations sur tous les sous-réseaux de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur tous les sous-réseaux de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkSubnet
     

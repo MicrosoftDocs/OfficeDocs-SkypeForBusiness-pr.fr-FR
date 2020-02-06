@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Résumé: en savoir plus sur le rapport de diagnostic des activités d’égal à égal dans Skype entreprise Server.'
-ms.openlocfilehash: 37773edc939787eff034d8dd6d001e3529c0db91
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de diagnostic des activités d’égal à égal dans Skype entreprise Server.'
+ms.openlocfilehash: 7491fc6752bbf7c08c7433f83ea58fcd1a2ba86c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279898"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817813"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic d’activité d’égal à égal dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport de diagnostics d’activité d’égal à égal dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de diagnostics d’activité d’égal à égal dans Skype entreprise Server.
   
-Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Skype entreprise Server distingue différentes sortes d’échecs:
+Le rapport de diagnostic des activités P2P fournit des informations sur la réussite ou l’échec des sessions de communication P2P. Notez que Skype entreprise Server distingue différentes sortes d’échecs :
   
-- **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. En revanche, il s’agissait d’un échec attendu: Skype entreprise Server ne vous attend pas à répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
+- **échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que vous appeliez quelqu’un et que cette personne soit absente de son bureau et ne puisse donc répondre à votre appel. Étant donné que l’appel n’a pas été répondu, il est techniquement considéré comme un échec. En revanche, il s’agissait d’un échec attendu : Skype entreprise Server ne vous attend pas à répondre au téléphone si vous n’êtes pas disponible pour répondre au téléphone. De même, un échec attendu se produira si vous tentez d’envoyer un message instantané à un utilisateur qui est hors ligne ou qui est connecté à un téléphone qui ne prend pas les messages instantanés.
     
 - **Échec inattendu**. Un échec inattendu constitue exactement ce que son nom indique : une erreur à laquelle on ne s’attend pas, compte tenu des circonstances. Par exemple, supposons que vous appelez une personne et qu’elle soit disponible pour répondre à un appel. en revanche, lorsque Skype entreprise Server tente d’acheminer votre appel vers la messagerie vocale, l’appel échoue car la connectivité à la messagerie unifiée Exchange a été perdue. Il s’agit d’une erreur inattendue : car vous vous attendiez à ce que les appels soient toujours dirigés vers la messagerie vocale. En règle générale, les échecs inattendus sont de vrais échecs : ce sont des problèmes auxquels il n’est pas possible de remédier en formant les utilisateurs ou à l’aide de mesures similaires.
     
@@ -37,7 +39,7 @@ Si vous additionnez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessio
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Accès au rapport de diagnostic des activités P2P
 
-Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au [rapport de distribution des échecs dans Skype entreprise Server](failure-distribution-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de diagnostic des activités P2P est accessible à partir de la page d’accueil des rapports de surveillance. Vous pouvez accéder au [rapport de distribution des échecs dans Skype entreprise Server](failure-distribution-report.md) en cliquant sur l’une des mesures suivantes :
   
 - Nombre d’échecs inattendus
     

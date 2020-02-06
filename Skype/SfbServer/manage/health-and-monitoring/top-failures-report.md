@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Résumé: en savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.'
-ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.'
+ms.openlocfilehash: c1c7d5617581a004501568edc995871032e5cb5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279717"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817633"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Rapport sur les principaux échecs dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport sur les principaux échecs dans Skype entreprise Server.
   
 Le rapport des principales défaillances expose les défaillances les plus fréquentes et leur évolution dans le temps. Les défaillances sont basées sur une combinaison des deux métriques suivantes :
   
@@ -35,7 +37,7 @@ Le rapport des principales défaillances est accessible à partir de la page d�
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Optimisation de l’utilisation du rapport des principales défaillances
 
-Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous pouvez uniquement filtrer sur un élément (par exemple, adresse SIP de l’utilisateur). Pour filtrer sur plusieurs ID de diagnostics, il suffit d’entrer chacun d’eux dans la boîte de réception ID de diagnostic en séparant les ID à l’aide de virgules. (Si vous le souhaitez, vous pouvez laisser un espace après chaque virgule.) Par exemple:
+Le rapport des principales défaillances est particulier : il vous permet de filtrer jusqu’à 5 ID de diagnostic à la fois. (En règle générale, vous pouvez uniquement filtrer sur un élément (par exemple, adresse SIP de l’utilisateur). Pour filtrer sur plusieurs ID de diagnostics, il suffit d’entrer chacun d’eux dans la boîte de réception ID de diagnostic en séparant les ID à l’aide de virgules. (Si vous le souhaitez, vous pouvez laisser un espace après chaque virgule.) Par exemple :
   
 1011, 2412, 1033, 52116, 1008
   

@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: 'Résumé: Découvrez comment gérer les stratégies de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: d835c4760ef3e77bc36f21e64cb80aeb618526ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer les stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: fc069093b9cc7cf5ce0e1e1f1efc0ee9e18e335d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289054"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818645"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gestion des stratégies de conférence dans Skype entreprise Server
  
-**Résumé:** Apprenez à gérer les stratégies de conférence dans Skype entreprise Server.
+**Résumé :** Apprenez à gérer les stratégies de conférence dans Skype entreprise Server.
   
 Cette rubrique décrit comment gérer les stratégies de conférence. Pour plus d’informations sur la planification et le déploiement de conférences, voir [planifier les conférences dans Skype entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) et [déployer des conférences dans Skype entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
@@ -31,7 +33,7 @@ Une stratégie globale existe par défaut, par conséquent vous ne pouvez pas en
   
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Gestion des stratégies de conférence à l’aide du panneau de configuration Skype entreprise Server
 
-Pour gérer les stratégies de conférence à l’aide du panneau de configuration Skype entreprise Server, procédez comme suit:
+Pour gérer les stratégies de conférence à l’aide du panneau de configuration Skype entreprise Server, procédez comme suit :
   
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
@@ -41,7 +43,7 @@ Pour gérer les stratégies de conférence à l’aide du panneau de configurati
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Gestion des stratégies de conférence à l’aide de Skype entreprise Server Management Shell
 
-Pour gérer les réunions à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes:
+Pour gérer les réunions à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes :
   
 **Paramètres de stratégie de conférence**
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planification du contrôle d’admission des appels si vous disposez d’un réseau MPLS, d’une jonction SIP (Session Initiation Protocol) ou d’une passerelle RTC ou d’un système PBX tiers. S’applique à Skype entreprise Server voix entreprise.
-ms.openlocfilehash: 326387b7b0794b3cbd027d539880f8c4b40f42d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7fcbc3e8c7fc7b4139fd9c83718db59af099f47f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277012"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803114"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype entreprise
 
@@ -91,7 +93,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 > [!NOTE]
 > Pour plus d’informations, reportez-vous à la rubrique [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
-### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Cas 2: CAC entre le serveur de médiation et un PBX tiers avec point de terminaison du média
+### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Cas 2 : CAC entre le serveur de médiation et un PBX tiers avec point de terminaison du média
 
 Cette configuration est semblable à l’exemple 1. Dans les deux cas, le serveur de médiation détermine quel appareil arrête les éléments multimédias à l’extrémité opposée du lien réseau étendu, et l’adresse IP de la passerelle PSTN ou du PBX avec point de terminaison de média (MTP) est configurée sur le serveur de médiation comme tronçon suivant.
 
@@ -116,7 +118,7 @@ Cet exemple s’applique aux appels RTC entrants vers un client dans Site résea
 > [!NOTE]
 > Pour plus d’informations, reportez-vous à la rubrique [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
-### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Cas 3: CAC entre le serveur de médiation et un PBX tiers sans point de terminaison multimédia
+### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Cas 3 : CAC entre le serveur de médiation et un PBX tiers sans point de terminaison multimédia
 
 L’exemple 3 est légèrement différent des deux premiers. S’il n’y a pas de MTP sur le système PBX tiers, pour une demande de session sortante pour le PBX tiers, le serveur de médiation ne connaît pas l’endroit où le contenu multimédia sera arrêté dans la limite du PBX. Dans ce cas, les éléments multimédias sont acheminés directement entre le serveur de médiation et l’appareil de point de terminaison tiers.
 

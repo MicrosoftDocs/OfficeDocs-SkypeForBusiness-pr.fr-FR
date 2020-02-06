@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-description: 'Résumé: en savoir plus sur les rapports de diagnostic des appels multi-utilisateurs utilisés dans Skype entreprise Server.'
-ms.openlocfilehash: bd7205afcc6bb37f336b52a6f33c6f2265d151bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur les rapports de diagnostic des appels multi-utilisateurs utilisés dans Skype entreprise Server.'
+ms.openlocfilehash: dc27972836ec78b20276e91ce8bb35d17a95842f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289363"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818125"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Rapports de diagnostic des appels dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur les rapports de diagnostic des appels multi-utilisateurs utilisés dans Skype entreprise Server.
+**Résumé :** En savoir plus sur les rapports de diagnostic des appels multi-utilisateurs utilisés dans Skype entreprise Server.
   
 Les rapports de diagnostic des appels fournissent des informations récapitulatives et des données de diagnostic relatives aux sessions P2P et de conférence ayant échoué.
   

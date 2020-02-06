@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Si un utilisateur a été activé pour Skype entreprise Server, vous pouvez configurer la Fédération SIP, l’accès à l’utilisateur distant et la connectivité de messagerie instantanée publique dans le panneau de configuration Skype entreprise Server en appliquant les stratégies appropriées à des utilisateurs spécifiques.
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280172"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818325"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Affectation d’une stratégie d’accès utilisateur externe à un utilisateur de Skype entreprise
 
@@ -45,7 +47,7 @@ Suivez la procédure décrite dans cette rubrique pour appliquer une stratégie 
 5.  Dans **modifier l’utilisateur de Skype entreprise Server** sous **stratégie d’accès externe**, sélectionnez la stratégie d’utilisateur que vous voulez appliquer.
      
 > [!NOTE]  
-> Les ** \<paramètres Automatic>** appliquent le serveur par défaut ou les paramètres de stratégie globale.
+> Les paramètres de ** \<>automatiques** appliquent le serveur par défaut ou les paramètres de stratégie globale.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Attribution de stratégies d’accès externe par utilisateur à l’aide des applets de cmdlet Windows PowerShell

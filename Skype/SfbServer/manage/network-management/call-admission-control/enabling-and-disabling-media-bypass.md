@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Suivez les procédures décrites dans cet article pour activer ou désactiver la contournement du contenu multimédia à l’aide du panneau de configuration Skype entreprise Server.
-ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1c0a5eb409c6bb5c07c530b4799ab8a53a9fddb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279584"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817543"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 
@@ -41,9 +43,9 @@ Vous pouvez activer et configurer le contournement multimédia dans le panneau d
 
 6.  Dans la page **modifier le paramètre global** , activez la case à cocher **activer le contournement du contenu multimédia** .
 
-7.  Sélectionnez l’une des options suivantes:
+7.  Sélectionnez l’une des options suivantes :
     
-      - **Toujours ignorer**   sélectionnez cette option pour essayer la dérivation multimédia sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels (CAC) est activé. Si le CAC n’est pas activé, sélectionnez cette option dans les situations suivantes:
+      - **Toujours ignorer**   sélectionnez cette option pour essayer la dérivation multimédia sur tous les appels. Cette option n’est pas disponible si le contrôle d’admission des appels (CAC) est activé. Si le CAC n’est pas activé, sélectionnez cette option dans les situations suivantes :
         
           - Le contrôle de la bande passante n’est pas nécessaire.
         
@@ -51,7 +53,7 @@ Vous pouvez activer et configurer le contournement multimédia dans le panneau d
         
           - Il existe une connectivité complète entre les passerelles et les clients.
     
-      - **Utiliser la configuration**   des sites et des régions si le CAC est activé, cette option est activée par défaut et ne peut pas être modifiée. Lorsque cette option est sélectionnée, les sites et les régions de configuration réseau sont utilisés pour déterminer à quel moment une dérivation de média est possible. Si vous sélectionnez cette option, vous pouvez choisir d’activer le contournement pour les sites qui ne sont pas mappés. Activez la case à cocher **activer le contournement pour les sites non mappés** uniquement si vous avez un ou plusieurs sites de grande taille associés à la même région qui n’ont pas de contraintes de bande passante (par exemple, un site central de grande taille) et si des sites de succursales sont également associés au même région qui comporte des contraintes de bande passante. Lorsque vous activez le contournement pour les sites non mappés, la configuration est simplifiée, car vous spécifiez uniquement les sous-réseaux associés aux sites de succursale plutôt que d’indiquer tous les sous-réseaux associés à tous les sites. Nous vous recommandons de ne pas activer la case à cocher **activer le contournement pour les sites non mappés** si le CAC est activé.
+      - **Utiliser la configuration**   des sites et des régions si le CAC est activé, cette option est activée par défaut et ne peut pas être modifiée. Lorsque cette option est sélectionnée, les sites et les régions de configuration réseau sont utilisés pour déterminer à quel moment une dérivation de média est possible. Si vous sélectionnez cette option, vous pouvez choisir d’activer le contournement pour les sites qui ne sont pas mappés. Activez la case à cocher **activer le contournement pour les sites non mappés** uniquement si vous avez un ou plusieurs sites de grande taille associés à la même région qui n’ont pas de contraintes de bande passante (par exemple, un site central de grande taille) et si des sites de succursales sont également associés à la même région qui comporte des contraintes de bande passante. Lorsque vous activez le contournement pour les sites non mappés, la configuration est simplifiée, car vous spécifiez uniquement les sous-réseaux associés aux sites de succursale plutôt que d’indiquer tous les sous-réseaux associés à tous les sites. Nous vous recommandons de ne pas activer la case à cocher **activer le contournement pour les sites non mappés** si le CAC est activé.
 
 8.  Cliquez sur **valider** pour enregistrer vos modifications.
 

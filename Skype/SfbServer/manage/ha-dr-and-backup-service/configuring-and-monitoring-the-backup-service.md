@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Vous pouvez utiliser les commandes de Skype entreprise Server Management Shell pour configurer et surveiller le service de sauvegarde.
-ms.openlocfilehash: 2170f58fcc60a648788934048f3d0e6bbfac9c77
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 80b15b2306807fe5bfc36449e16953466e3af75c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303904"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818215"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Configuration et analyse du service de sauvegarde dans Skype entreprise Server
 
@@ -52,7 +54,7 @@ Exécutez l’applet de commande suivante :
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
 > [!NOTE]  
-> L’état de synchronisation du service de sauvegarde est défini de façon unidirectionnelle à partir d’un pool (P1) vers son pool de sauvegarde (P2). L’état de synchronisation de P1 à P2 peut être différent de celui de P2 à P1. Pour P1 à P2, le service de sauvegarde est dans un état «permanent» si toutes les modifications apportées à P1 sont entièrement répliquées dans le cadre de l’intervalle de synchronisation. Il est dans l’état «final» s’il n’y a plus de modifications à synchroniser entre P1 et P2. Les deux États indiquent une capture instantanée du service de sauvegarde au moment de l’exécution de l’applet de connexion. Cela ne signifie pas que l’état renvoyé sera le plus tard possible. En particulier, l’état «final» reste en attente uniquement si P1 ne génère aucune modification après l’exécution de l’applet de suspension. C’est vrai en cas d’échec de P1 sur P2 après que P1 est passé dans le mode lecture seule dans le cadre de la logique d’exécution d' **Invoke-CsPoolfailover** .
+> L’état de synchronisation du service de sauvegarde est défini de façon unidirectionnelle à partir d’un pool (P1) vers son pool de sauvegarde (P2). L’état de synchronisation de P1 à P2 peut être différent de celui de P2 à P1. Pour P1 à P2, le service de sauvegarde est dans un état « permanent » si toutes les modifications apportées à P1 sont entièrement répliquées dans le cadre de l’intervalle de synchronisation. Il est dans l’état « final » s’il n’y a plus de modifications à synchroniser entre P1 et P2. Les deux États indiquent une capture instantanée du service de sauvegarde au moment de l’exécution de l’applet de connexion. Cela ne signifie pas que l’état renvoyé sera le plus tard possible. En particulier, l’état « final » reste en attente uniquement si P1 ne génère aucune modification après l’exécution de l’applet de suspension. C’est vrai en cas d’échec de P1 sur P2 après que P1 est passé dans le mode lecture seule dans le cadre de la logique d’exécution d' **Invoke-CsPoolfailover** .
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Pour obtenir des informations sur la relation de sauvegarde d’un pool particulier
 
@@ -72,11 +74,11 @@ Si les informations de la Conférence stockées dans le magasin de fichiers d’
 
 Vous devez également effectuer cette tâche si un pool entier a échoué et que vous devez faire basculer ses utilisateurs vers un pool de sauvegarde. Lorsque les utilisateurs ont basculé vers leur pool d’origine, vous devez utiliser cette procédure pour copier le contenu de la Conférence sur leur pool d’origine.
 
-Supposez que Pool1 est associé à Pool2, et les données de conférence en Pool1 sont perdues. Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde et restaurer le contenu:
+Supposez que Pool1 est associé à Pool2, et les données de conférence en Pool1 sont perdues. Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde et restaurer le contenu :
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-La restauration du contenu de la Conférence risque de prendre un certain temps en fonction de la taille de celle-ci. Pour vérifier l’état du processus, vous pouvez utiliser l’applet de commande suivante:
+La restauration du contenu de la Conférence risque de prendre un certain temps en fonction de la taille de celle-ci. Pour vérifier l’état du processus, vous pouvez utiliser l’applet de commande suivante :
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 

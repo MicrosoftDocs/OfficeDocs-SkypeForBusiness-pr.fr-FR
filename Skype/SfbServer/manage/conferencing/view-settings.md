@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 'Résumé: Découvrez comment afficher les paramètres de configuration de la réunion dans Skype entreprise Server.'
-ms.openlocfilehash: 13d91bc4c0335d8c069e0b0d9bc41efd8714f112
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment afficher les paramètres de configuration de la réunion dans Skype entreprise Server.'
+ms.openlocfilehash: 858d1a3d786cb9fe3c6b33daaca8667cab2390f8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280368"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818455"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Afficher les paramètres de configuration de la réunion dans Skype entreprise Server
  
-**Résumé:** Découvrez comment afficher les paramètres de configuration de la réunion dans Skype entreprise Server.
+**Résumé :** Découvrez comment afficher les paramètres de configuration de la réunion dans Skype entreprise Server.
   
 Vous pouvez afficher les paramètres de configuration de la réunion en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
@@ -36,7 +38,7 @@ Vous pouvez afficher les paramètres de configuration de la réunion en utilisan
     
 5. Dans **Modifier le filtre de fichier**, sélectionnez la case à cocher **Afficher les détails**.
     
-    **Modifier la configuration de \<la\> réunion: une stratégie** s’ouvre et affiche les paramètres de la stratégie sélectionnée.
+    **Modifier la configuration de \<la\> réunion : une stratégie** s’ouvre et affiche les paramètres de la stratégie sélectionnée.
     
     Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer des paramètres de configuration de réunion dans Skype entreprise Server](create-settings.md).
     

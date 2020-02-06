@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Les pools d’applications approuvés contiennent des serveurs qui exécutent des applications de communications unifiées Microsoft approuvées, mais qui n’exécutent pas de rôles Skype entreprise Server. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 09c7a7294436477ffb2cf36226e3163247ed2592
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d56facba5bda2207c8110b5c3f39ab4a701e350
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684707"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819956"
 ---
 # <a name="external-applications-scope-node"></a>Nœud d’étendue des applications externes
  

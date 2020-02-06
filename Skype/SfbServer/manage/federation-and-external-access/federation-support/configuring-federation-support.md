@@ -11,18 +11,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Si vous déployez Skype entreprise dans votre organisation, vous pouvez fédérer avec les domaines d’un ou de plusieurs clients Skype entreprise online. '
-ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6b0cbb439910b97d6fcbb0fee78825b0aff9dce
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818255"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configuration de la prise en charge de la Fédération pour un client Skype entreprise Online dans Skype entreprise Server 
 
-Vous pouvez fournir des services de communication aux utilisateurs de votre organisation de l’une des façons suivantes:
+Vous pouvez fournir des services de communication aux utilisateurs de votre organisation de l’une des façons suivantes :
 
   - Déploiement de Skype entreprise Server dans votre organisation (connu sous *le nom de services locaux*) et configuration de comptes d’utilisateurs Skype entreprise dans votre organisation.
   - Configurer un compte client Microsoft Skype entreprise Online auprès d’un fournisseur d’hébergement et configurer des comptes d’utilisateurs avec le fournisseur d’hébergement (appelé *services en ligne*).
@@ -46,7 +48,7 @@ Pour fédérer avec un client Skype entreprise Online, vous devez déjà avoir e
 
 ## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>Configurer la prise en charge de la Fédération pour un domaine Skype entreprise Online
 
-Pour fédérer avec un client Skype entreprise Online, vous devez procéder comme suit:
+Pour fédérer avec un client Skype entreprise Online, vous devez procéder comme suit :
 
   - Configurez la prise en charge du domaine du client 2010 de Skype entreprise Online (par exemple, contoso.onmicrosoft.com). Comme indiqué dans la [Configuration requise pour la Fédération avec un client Skype entreprise Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer), vous devez déjà avoir activé la Fédération pour votre organisation. L’activation de la Fédération nécessite de spécifier la méthode à utiliser pour contrôler l’accès par des domaines fédérés. Si vous avez configuré votre organisation pour une utilisation de découverte, l’ajout du domaine à la liste autorisée de votre organisation est facultatif. Si vous n’avez pas activé la découverte de domaine, vous devez ajouter le nom de domaine du client Skype entreprise Online à votre liste de domaines autorisés. Vous pouvez ajouter un nom de domaine à l’aide du panneau de configuration Skype entreprise Server ou en exécutant l’applet **de commande New-CSAllowedDomain** . Pour plus d’informations sur l’utilisation du panneau de configuration Skype entreprise Server, y compris sur l’activation de la découverte des domaines, voir [gérer les fournisseurs fédérés SIP pour votre organisation dans Skype entreprise Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). Pour plus d’informations sur l’utilisation de l’applet de nouvelle applet de **CSAllowedDomain** pour ajouter un domaine, consultez la rubrique [New-CSAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain).
 
@@ -61,7 +63,7 @@ Pour fédérer avec un client Skype entreprise Online, vous devez procéder comm
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>Pour configurer la prise en charge d’un fournisseur d’hébergement
 
-1.  À partir d’un serveur frontal, démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1.  À partir d’un serveur frontal, démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 2.  Exécutez l’applet de nouvelle applet de **CsHostingProvider** pour créer et configurer le fournisseur d’hébergement. Par exemple, exécutez :
     
@@ -91,10 +93,10 @@ Vous devez configurer les comptes d’utilisateurs de tous les utilisateurs de v
 
 ## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Vérification des communications avec un client Skype entreprise Online dans Skype entreprise Server
 
-Pour permettre aux utilisateurs Skype entreprise de votre organisation de communiquer avec des utilisateurs d’un client Skype entreprise Online, vous devez effectuer les étapes suivantes:
+Pour permettre aux utilisateurs Skype entreprise de votre organisation de communiquer avec des utilisateurs d’un client Skype entreprise Online, vous devez effectuer les étapes suivantes :
 
   - Rempli toutes les conditions préalables. Cela inclut le déploiement de vos serveurs internes et de périphérie, l’activation de la prise en charge de la Fédération pour votre organisation et la configuration des comptes d’utilisateurs. Pour plus d’informations, reportez-vous [à la configuration requise pour la Fédération avec un client Skype entreprise Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer).
   - Configuration de la prise en charge de l’accès au domaine dans votre déploiement interne. Cela inclut la création d’une entrée de fournisseur d’hébergement et la configuration de votre déploiement pour autoriser l’accès à partir du domaine du client de Skype entreprise online. Pour plus d’informations, consultez [la rubrique Configurer la prise en charge de la Fédération pour un domaine Skype entreprise Online](#configure-federation-support-for-a-skype-for-business-online-domain).
-  - Configuré vos comptes d’utilisateurs pour la prise en charge de la Fédération; Pour plus d’informations, reportez-vous à [la rubrique Configuration de l’accès utilisateur pour la Fédération avec un client Skype entreprise Online](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
+  - Configuré vos comptes d’utilisateurs pour la prise en charge de la Fédération ; Pour plus d’informations, reportez-vous à [la rubrique Configuration de l’accès utilisateur pour la Fédération avec un client Skype entreprise Online](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
 
 Après avoir effectué toutes les étapes décrites dans le tableau ci-dessous, l’administrateur de Skype entreprise Online dispose de toutes les informations de configuration de ses services en ligne pour la prise en charge de la Fédération avec votre organisation. un utilisateur interne au sein de votre organisation et un utilisateur du client Skype entreprise online. Si la communication échoue, utilisez l’outil de journalisation de votre serveur de périphérie pour capturer les fichiers de journaux et de suivi afin de résoudre le problème. 

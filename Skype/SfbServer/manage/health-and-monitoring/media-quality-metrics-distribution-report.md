@@ -7,26 +7,28 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Résumé: Découvrez le rapport de distribution des métriques de qualité multimédia dans Skype entreprise Server.'
-ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez le rapport de distribution des métriques de qualité multimédia dans Skype entreprise Server.'
+ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280039"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817853"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Rapport de distribution des métriques de qualité multimédia dans Skype entreprise Server 
  
-**Résumé:** En savoir plus sur le rapport de distribution des métriques de qualité multimédia dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport de distribution des métriques de qualité multimédia dans Skype entreprise Server.
   
 Le rapport de distribution des mesures de qualité des médias vous permet de consulter un graphique qui affiche les valeurs de distribution pour une mesure de la qualité de l’expérience, comme la gigue ou la perte de paquets. Par exemple, supposons que vos utilisateurs passent un total de 10 appels téléphoniques. Ces 10 appels présentent les délais d’aller-retour suivants :
   
 |**Numéro de l’appel**|**Délai d’aller-retour (millisecondes)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
-|2  <br/> |50  <br/> |
+|deuxième  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
 |4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |

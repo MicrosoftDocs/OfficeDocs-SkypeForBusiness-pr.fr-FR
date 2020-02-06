@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Résumé : Découvrez comment Bienvenue les utilisateurs à la Conférence rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6228d0636e878ccf9a208edf9afeee3fe1e808f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992831"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818435"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un courrier de bienvenue aux utilisateurs d’appels entrants dans Skype entreprise Server
  

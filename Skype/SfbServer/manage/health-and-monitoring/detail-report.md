@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Résumé: en savoir plus sur le rapport Détails de la Conférence utilisé dans Skype entreprise Server.'
-ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+description: 'Résumé : en savoir plus sur le rapport Détails de la Conférence utilisé dans Skype entreprise Server.'
+ms.openlocfilehash: 73ca72bbfb7b003aaaa894a5bc9e417312d96caa
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271393"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818004"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Rapport Détails de la Conférence dans Skype entreprise Server
 
-**Résumé:** En savoir plus sur le rapport Détails de la Conférence utilisé dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport Détails de la Conférence utilisé dans Skype entreprise Server.
 
 Le rapport détaillé de conférence donne des informations détaillées sur tous les utilisateurs qui ont participé à une conférence. Vous pouvez par exemple voir des informations, telles que la date et l’heure auxquelles un utilisateur s’est joint à la conférence, la date et l’heure auxquelles l’utilisateur a quitté la conférence et l’agent utilisateur du point de terminaison qui a permis à l’utilisateur de se connecter à la conférence. Vous pouvez également afficher des informations sur le rôle de l’utilisateur dans chaque conférence (par exemple présentateur ou participant). Ce qui est peut-être le plus important, vous pouvez voir rapidement quels utilisateurs ont réussi à rejoindre et suivre la conférence et quels utilisateurs n’ont pas réussi à rejoindre et suivre la conférence.
 

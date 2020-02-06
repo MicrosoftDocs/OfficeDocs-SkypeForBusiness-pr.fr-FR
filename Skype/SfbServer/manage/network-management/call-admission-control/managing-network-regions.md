@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Région du réseau * sont les concentrateurs réseau ou les dorsales utilisés dans la configuration de contrôle d’admission des appels, de E9-1-1 et de contournement de média.
-ms.openlocfilehash: 8d1d60389fe910e2b5c2b8b1c357520aad30db96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08232e455edb4388a052c2859b35e6c137b890a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279528"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817483"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
@@ -49,7 +51,7 @@ Vous pouvez afficher les informations relatives à la région du réseau à l’
 
 ### <a name="to-view-network-region-information"></a>Pour afficher les informations relatives aux régions du réseau
 
-  - Pour afficher des informations sur toutes les régions de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher des informations sur toutes les régions de votre réseau, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkRegion
     
@@ -106,7 +108,7 @@ La table **site associée** n’est pas utilisée pour créer une région résea
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier la région** , vous pouvez modifier les paramètres d’activation et de désactivation des chemins audio et vidéo, et modifier la description (pour plus de détails, reportez-vous à la section «créer une région réseau» plus haut dans cette rubrique.
+6.  Dans la page **modifier la région** , vous pouvez modifier les paramètres d’activation et de désactivation des chemins audio et vidéo, et modifier la description (pour plus de détails, reportez-vous à la section « créer une région réseau » plus haut dans cette rubrique.
 
 7.  Cliquez sur **Valider**.
 
@@ -128,7 +130,7 @@ Une région réseau interconnecte diverses parties d’un réseau à plusieurs z
 4.  Dans la page **zone** , cliquez sur la zone que vous voulez supprimer.
   
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs régions à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs régions tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les régions dans le **** menu **Edition** .
+    > Vous pouvez supprimer plusieurs régions à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs régions tout en maintenant la touche CTRL enfoncée. Vous pouvez sélectionner toutes les **régions dans le** menu **Edition** .
 
 5.  Dans le menu **modifier** , cliquez sur **supprimer**.
 

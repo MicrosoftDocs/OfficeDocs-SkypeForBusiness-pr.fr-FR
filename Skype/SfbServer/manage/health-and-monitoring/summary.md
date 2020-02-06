@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Résumé: en savoir plus sur le rapport synthèse qualité multimédia dans Skype entreprise Server.'
-ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport synthèse qualité multimédia dans Skype entreprise Server.'
+ms.openlocfilehash: a1c29eaa9d7c3ae394e40b089c4e38efe0802802
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279752"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817653"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Rapport synthèse qualité multimédia dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport synthèse qualité multimédia dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport synthèse qualité multimédia dans Skype entreprise Server.
   
 Le rapport de synthèse de la qualité des médias permet d’analyser la qualité des appels au sein de votre organisation : ce rapport fournit des mesures d’appel de qualité de l’expérience (QoE) détaillées décomposées selon les catégories suivantes :
   
@@ -39,13 +41,13 @@ Le rapport de synthèse de la qualité des médias permet d’analyser la qualit
     
 Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour afficher des sous-catégories, comme les appels passés à partir d’Office Communicator 2007 R2 vers Skype entreprise. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
   
-Dans Skype entreprise Server, le rapport synthèse sur la qualité multimédia répartit les données en trois types d’appels: les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
+Dans Skype entreprise Server, le rapport synthèse sur la qualité multimédia répartit les données en trois types d’appels : les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
   
 Le rapport de synthèse de la qualité des médias vous permet d’appliquer des filtres pour comparer la qualité des appels entre les appels câblés et les appels sans fil, les appels internes et externes, les appels VPN et non VPN.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Skype entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Skype entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -118,7 +120,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 |**Vitesse de transmission moyenne (Kbit/s)** <br/> |Non  <br/> |Vitesse de transmission vidéo moyenne (en kilobits par seconde).  <br/> |
 |**Vitesse de transmission faible (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission était faible.  <br/> |
 |**Perte de paquets sortante** <br/> |Non  <br/> |Perte de paquets RTP (Real-Time Transport Protocol) pour les paquets sortants. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
-|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames «figées». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
+|**Image figée (%)** <br/> |Non  <br/> |Pourcentage de trames « figées ». Dans une image figée, la vidéo cesse d’avancer tandis que la partie audio de l’appel continue.  <br/> |
 |**Fréquence d’images moyenne sortante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions sortantes pendant l’appel.  <br/> |
 |**Fréquence d’images moyenne entrante** <br/> |Non  <br/> |Fréquence d’images moyenne pour les transmissions entrantes pendant l’appel.  <br/> |
 |**Fréquence d’images basse entrante (%)** <br/> |Non  <br/> |Pourcentage de l’appel où la vitesse de transmission pour la vidéo entrante était faible.  <br/> |
