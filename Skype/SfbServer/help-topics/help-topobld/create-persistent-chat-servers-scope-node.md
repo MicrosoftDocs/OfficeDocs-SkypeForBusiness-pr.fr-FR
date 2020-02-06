@@ -8,32 +8,34 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Vous pouvez cliquer avec le bouton droit sur pool de conversation persistant dans le générateur de topologie pour effectuer les opérations suivantes :'
-ms.openlocfilehash: 15f73a250944cc30b26cbeec093015b861b83f2e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1143a8128b90a21bdfc679a7fc6291c18e261f9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697579"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820226"
 ---
-# <a name="create-persistent-chat-servers-scope-node"></a><span data-ttu-id="3013b-103">Créer un nœud d’étendue des serveurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3013b-103">Create Persistent Chat Servers Scope Node</span></span>
+# <a name="create-persistent-chat-servers-scope-node"></a><span data-ttu-id="b36b6-103">Créer un nœud d’étendue des serveurs de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="b36b6-103">Create Persistent Chat Servers Scope Node</span></span>
  
-<span data-ttu-id="3013b-104">Vous pouvez cliquer avec le bouton droit sur **pool de conversation persistant** dans le générateur de topologie pour effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="3013b-104">You right click on **Persistent Chat Pool** in Topology Builder to perform the following:</span></span>
+<span data-ttu-id="b36b6-104">Vous pouvez cliquer avec le bouton droit sur **pool de conversation persistant** dans le générateur de topologie pour effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="b36b6-104">You right click on **Persistent Chat Pool** in Topology Builder to perform the following:</span></span>
   
-- <span data-ttu-id="3013b-105">**Nouvelle liste de conversations permanentes**: démarre l’Assistant **définir un nouveau pool de discussions permanentes** utilisé pour définir un nouveau serveur ou pool de conversation persistante.</span><span class="sxs-lookup"><span data-stu-id="3013b-105">**New Persistent Chat Pool**: Starts the **Define New Persistent Chat Pool** wizard used to define a new Persistent Chat Server or pool.</span></span>
+- <span data-ttu-id="b36b6-105">**Nouvelle liste de conversations permanentes**: démarre l’Assistant **définir un nouveau pool de discussions permanentes** utilisé pour définir un nouveau serveur ou pool de conversation persistante.</span><span class="sxs-lookup"><span data-stu-id="b36b6-105">**New Persistent Chat Pool**: Starts the **Define New Persistent Chat Pool** wizard used to define a new Persistent Chat Server or pool.</span></span>
     
-<span data-ttu-id="3013b-106">Outre l’option Nouveau pool de conversations permanentes, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="3013b-106">In addition to the New Persistent Chat Pool option, you can perform the following general tasks:</span></span>
+<span data-ttu-id="b36b6-106">Outre l’option Nouveau pool de conversations permanentes, vous pouvez effectuer les tâches générales suivantes :</span><span class="sxs-lookup"><span data-stu-id="b36b6-106">In addition to the New Persistent Chat Pool option, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="3013b-p101">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures de Lync Server ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="3013b-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
+- <span data-ttu-id="b36b6-p101">**Topologie** : vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures de Lync Server ou supprimer le déploiement.</span><span class="sxs-lookup"><span data-stu-id="b36b6-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
     
-- <span data-ttu-id="3013b-p102">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="3013b-p102">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="b36b6-p102">**Aide** : vous pouvez utiliser cette option pour accéder à l’Aide pour le nœud actif.</span><span class="sxs-lookup"><span data-stu-id="b36b6-p102">**Help**. You can use this option to access Help for the active node.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3013b-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3013b-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b36b6-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b36b6-111">See also</span></span>
 
-[<span data-ttu-id="3013b-112">Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="3013b-112">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="b36b6-112">Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="b36b6-112">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="3013b-113">Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="3013b-113">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="b36b6-113">Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b36b6-113">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

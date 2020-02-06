@@ -8,20 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployStartServicesIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 description: Pour démarrer des services sur le serveur de rôles Skype entreprise Server 2015 que vous déployez, consultez l’écran de présentation. Remarquez que les commandes émises pour démarrer Skype entreprise Server n’attendent pas que le service démarre. Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows. Cliquez sur Suivant pour lancer la tâche Démarrer les services.
-ms.openlocfilehash: 964ccd172595b1b7bcce365ce79a40e7b92dbca0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fec6fd5ed6212e6c0cb71ca606ff8ddc4e561036
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700699"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823298"
 ---
-# <a name="startservices-intro"></a><span data-ttu-id="5d447-106">StartServices (introduction)</span><span class="sxs-lookup"><span data-stu-id="5d447-106">StartServices (Intro)</span></span>
+# <a name="startservices-intro"></a><span data-ttu-id="b00e1-106">StartServices (introduction)</span><span class="sxs-lookup"><span data-stu-id="b00e1-106">StartServices (Intro)</span></span>
  
-<span data-ttu-id="5d447-107">Pour démarrer des services sur le serveur de rôles Skype entreprise Server 2015 que vous déployez, consultez l’écran de présentation.</span><span class="sxs-lookup"><span data-stu-id="5d447-107">To start services on the Skype for Business Server 2015 role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="5d447-108">Remarquez que les commandes émises pour démarrer Skype entreprise Server n’attendent pas que le service démarre.</span><span class="sxs-lookup"><span data-stu-id="5d447-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="5d447-109">Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows.</span><span class="sxs-lookup"><span data-stu-id="5d447-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="5d447-110">Cliquez sur **Suivant** pour lancer la tâche **Démarrer les services**.</span><span class="sxs-lookup"><span data-stu-id="5d447-110">Click **Next** to begin the **Start Services** task.</span></span>
+<span data-ttu-id="b00e1-107">Pour démarrer des services sur le serveur de rôles Skype entreprise Server 2015 que vous déployez, consultez l’écran de présentation.</span><span class="sxs-lookup"><span data-stu-id="b00e1-107">To start services on the Skype for Business Server 2015 role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="b00e1-108">Remarquez que les commandes émises pour démarrer Skype entreprise Server n’attendent pas que le service démarre.</span><span class="sxs-lookup"><span data-stu-id="b00e1-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="b00e1-109">Vous devez surveiller le statut réel des services à l’aide de la console MMC (Microsoft Management Console) Services Windows.</span><span class="sxs-lookup"><span data-stu-id="b00e1-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="b00e1-110">Cliquez sur **Suivant** pour lancer la tâche **Démarrer les services**.</span><span class="sxs-lookup"><span data-stu-id="b00e1-110">Click **Next** to begin the **Start Services** task.</span></span>
   
 
