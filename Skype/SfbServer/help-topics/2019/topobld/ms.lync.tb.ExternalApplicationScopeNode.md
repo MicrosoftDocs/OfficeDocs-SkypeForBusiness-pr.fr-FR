@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du tronçon suivant pour ce pool d’applications approuvées. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 61f10cc9fdbb7b8af83d7f8742ed0675d887ad56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f96eb641ea09c9b7a61602b6b7c070e9a67eb73b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702189"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793722"
 ---
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  

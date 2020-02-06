@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner des utilisateurs voix entreprise pour rechercher les utilisateurs activés pour voix entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous voulez rechercher, puis cliquez sur Rechercher. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur OK. Si vous ne trouvez pas l’utilisateur que vous cherchez, il est possible que l’utilisateur ne soit pas activé pour voix entreprise.
-ms.openlocfilehash: 619d79c332c01183d787f3d278c403e95c3368d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 657370b80b3fb538e39a46aa73266c727ad8d3ce
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690339"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797871"
 ---
 # <a name="select-enterprise-voice-users"></a>Sélectionner des utilisateurs Voix Entreprise
  

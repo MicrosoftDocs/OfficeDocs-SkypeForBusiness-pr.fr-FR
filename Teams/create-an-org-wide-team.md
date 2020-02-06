@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871720"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795153"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -58,9 +58,9 @@ Réduisez le bruit du canal en permettant uniquement aux propriétaires d’équ
 
  Réduisez les @mentions pour les empêcher de surcharger l’ensemble de l’organisation. Accédez à l’équipe et cliquez sur **̇ ̇ ̇ plus d’options** > **gérer l’équipe**. Dans l’onglet **paramètres** , cliquez sur <strong>@mentions</strong> > désactiver **l’option Afficher les membres pour @team ou @ [nom de l’équipe]**. 
 
-### <a name="automatically-favorite-important-channels"></a>Ajouter automatiquement aux favoris les canaux importants
+### <a name="automatically-show-important-channels"></a>Afficher automatiquement les canaux importants
 
-Canaux importants importants pour garantir que tous les membres de votre organisation entreprennent des conversations spécifiques. Pour en savoir plus, reportez-vous à la section ajouter [des canaux aux favoris pour toute l’équipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Afficher les canaux importants pour garantir que tous les membres de votre organisation entreprennent des conversations spécifiques. Pour en savoir plus, reportez-vous à la section ajouter [des canaux aux favoris pour toute l’équipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
 
 ### <a name="set-up-channel-moderation"></a>Configurer le modérateur du canal
 

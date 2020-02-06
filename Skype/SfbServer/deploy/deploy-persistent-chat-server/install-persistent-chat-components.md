@@ -8,19 +8,21 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
-description: 'Résumé: cette rubrique vous explique comment utiliser l’Assistant Déploiement de Skype entreprise Server pour installer les composants et services de Skype entreprise Server 2015.'
-ms.openlocfilehash: 5b8205cb2ab828001eae76eeaab8cd4f697c9315
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment utiliser l’Assistant Déploiement de Skype entreprise Server pour installer les composants et services de Skype entreprise Server 2015.'
+ms.openlocfilehash: 019700b169c3507540c93a3a152c3741de2681fb
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234741"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795685"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Installation des composants de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Consultez cette rubrique pour savoir comment utiliser l’Assistant Déploiement de Skype entreprise Server pour installer les composants et services de Skype entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour savoir comment utiliser l’Assistant Déploiement de Skype entreprise Server pour installer les composants et services de Skype entreprise Server 2015.
   
 Avant d’installer les composants chat persistants, assurez-vous que vous avez déjà installé le matériel et les logiciels requis et que vous avez créé la topologie appropriée pour prendre en charge le serveur de chat permanent. Pour plus d’informations sur la planification et la configuration requise, reportez-vous à [la section Configuration requise pour votre environnement Skype entreprise](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) et [planifier le serveur de chat permanent dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Pour plus d’informations sur la mise à jour et la publication de votre topologie dans le cas d’inclusion du serveur de chat permanent, voir [Ajouter le serveur de conversation permanente à votre topologie 2015 Skype entreprise Server](add-persistent-chat-server.md).
   
@@ -29,7 +31,7 @@ Avant d’installer les composants chat persistants, assurez-vous que vous avez 
 
 ## <a name="install-and-start-services"></a>Installation et démarrage des services
 
-À l’aide de l’Assistant Déploiement de Skype entreprise Server, sélectionnez Installer ou mettre à jour le système Skype entreprise Server pour effectuer les étapes suivantes: 
+À l’aide de l’Assistant Déploiement de Skype entreprise Server, sélectionnez Installer ou mettre à jour le système Skype entreprise Server pour effectuer les étapes suivantes : 
   
 1. Installer le magasin de configurations local
     

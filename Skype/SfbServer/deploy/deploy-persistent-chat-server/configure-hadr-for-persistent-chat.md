@@ -8,19 +8,21 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Résumé: cette rubrique vous explique comment configurer la haute disponibilité et la récupération après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: e9e313cf83fd784e94efe98fe7a49bbbb800f83f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment configurer la haute disponibilité et la récupération après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 81fcc37ecbdf513decd89481c8a651404d91294a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239835"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795525"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Pour plus d’informations sur la configuration d’une haute disponibilité et d’une reprise après sinistre pour le serveur Chat permanent, voir Skype entreprise Server 2015.
+**Résumé :** Pour plus d’informations sur la configuration d’une haute disponibilité et d’une reprise après sinistre pour le serveur Chat permanent, voir Skype entreprise Server 2015.
   
 Skype entreprise Server prend en charge plusieurs modes de haute disponibilité pour votre serveur principal, y compris la mise en miroir de la base de données. Pour plus d'informations, reportez-vous à la rubrique [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -38,7 +40,7 @@ Dans le générateur de topologie, effectuez les étapes suivantes pour configur
   
 1. Ajoutez les bases de données miroir et les magasins de données secondaires SQL Server.
     
-2. Modifiez les propriétés du service de chat permanent serveur pour:
+2. Modifiez les propriétés du service de chat permanent serveur pour :
     
     a. activer la mise en miroir pour la base de données primaire ;
     
@@ -54,7 +56,7 @@ Dans le générateur de topologie, effectuez les étapes suivantes pour configur
     
 ## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente
 
-À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données d’envoi de journaux secondaires du serveur Chat permanent et assurez-vous que l’agent SQL Server est en cours d’exécution. Ensuite, connectez-vous à l’instance de base de données principale de chat permanent et effectuez les étapes suivantes:
+À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données d’envoi de journaux secondaires du serveur Chat permanent et assurez-vous que l’agent SQL Server est en cours d’exécution. Ensuite, connectez-vous à l’instance de base de données principale de chat permanent et effectuez les étapes suivantes :
   
 1. Cliquez avec le bouton droit sur la base de données mgc, puis cliquez sur **Propriétés**.
     
@@ -147,7 +149,7 @@ Pour continuer, procédez comme suit pour l’envoi de journaux dans le cas où 
     
 19. Dans la nouvelle fenêtre de requête, dans **Propriétés de la base de données**, cliquez sur **OK** pour commencer le processus de configuration.
     
-20. Sélectionnez et exécutez la première moitié de la requête (Voir l’étape 18) jusqu’à la ligne:- \* \* \* \* \* \* -end: script à exécuter sur le principal \* \* \* \* \* \*:.
+20. Sélectionnez et exécutez la première moitié de la requête (Voir l’étape 18) jusqu’à la ligne :- \* \* \* \* \* \* -end : script à exécuter sur le principal \* \* \* \* \* \*:.
     
     > [!IMPORTANT]
     > L’exécution manuelle de ce script est nécessaire car SQL Server Management Studio ne prend pas en charge plusieurs bases de données principales dans une configuration d’envoi du journal SQL Server. 

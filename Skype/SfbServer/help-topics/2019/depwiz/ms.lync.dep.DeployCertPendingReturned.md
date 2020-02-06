@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page État de la demande de certificat en ligne renvoie l’état actuel du certificat. Si le certificat reste dans un état d’approbation en attente avec l’administrateur de l’autorité de certification (c’est-à-dire s’il n’a pas encore été approuvé), l’état indique que le certificat est toujours en cours de traitement.
-ms.openlocfilehash: 4505258bb46f2475dc43bc3b3446e04ccfac1a86
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705739"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796805"
 ---
 # <a name="pending-certificate-returned"></a>Certificat en attente (retourné)
  

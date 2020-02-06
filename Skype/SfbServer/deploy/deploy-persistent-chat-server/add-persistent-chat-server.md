@@ -8,21 +8,23 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: 'Résumé: pour plus d’informations sur l’ajout d’un serveur de chat permanent à votre topologie 2015 de Skype entreprise Server.'
-ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : pour plus d’informations sur l’ajout d’un serveur de chat permanent à votre topologie 2015 de Skype entreprise Server.'
+ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794112"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur l’ajout d’un serveur de chat permanent à votre topologie 2015 de Skype entreprise Server, reportez-vous à cette rubrique.
+**Résumé :** Pour plus d’informations sur l’ajout d’un serveur de chat permanent à votre topologie 2015 de Skype entreprise Server, reportez-vous à cette rubrique.
   
-Une fois que vous avez installé le logiciel requis sur chaque serveur sur lequel vous envisagez de déployer le serveur de chat permanent, vous utilisez le générateur de topologie pour: 
+Une fois que vous avez installé le logiciel requis sur chaque serveur sur lequel vous envisagez de déployer le serveur de chat permanent, vous utilisez le générateur de topologie pour : 
   
 - Mettre à jour votre topologie de façon à y inclure le serveur de conversation permanente
     
@@ -40,11 +42,11 @@ Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même
 1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte qui est membre du groupe utilisateurs local (ou d’un compte disposant de droits d’utilisateur équivalents).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie qui est requise pour l’installation de Skype entreprise Server, vous devez utiliser un compte membre du groupe **administrateurs de domaine** et de l' ** RTCUniversalServerAdmins** et qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers que vous allez utiliser pour le stockage de fichiers sur le serveur de chat permanent (de sorte que le générateur de topologie puisse configurer les DACL requis) ou un compte avec droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est requise pour l’installation de Skype entreprise Server. vous devez utiliser un compte membre du groupe **administrateurs de domaine** et du groupe **RTCUniversalServerAdmins** et qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers que vous voulez utiliser pour le stockage de fichiers du serveur de chat permanent (de manière à ce que le générateur de topologie puisse configurer les DACL requis), ou un compte avec un équivalent Mission.
   
 2. Démarrer le générateur de topologie.
     
-3. Dans l’arborescence de la console, accédez au nœud Pools de **conversations permanentes** et développez-le pour sélectionner un pool Skype entreprise Server, ou cliquez avec le bouton droit sur le nœud et sélectionnez **nouvelle liste de conversations permanentes**. Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer s’il s’agit d’un pool de serveur unique ou d’un déploiement de pool multiserveur.
+3. Dans l’arborescence de la console, accédez au nœud **pools de conversations permanentes** et développez-le pour sélectionner un pool Skype entreprise Server, ou cliquez avec le bouton droit sur le nœud et sélectionnez **nouvelle liste de conversations permanentes**. Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer s’il s’agit d’un pool de serveur unique ou d’un déploiement de pool multiserveur.
     
     Vous pouvez choisir un **Pool de plusieurs ordinateurs** ou un **Pool d’un seul ordinateur**. Choisissez le premier si vous envisagez de disposer de plusieurs serveurs frontaux dans votre pool de serveurs de chat permanent. Effectuez ce choix maintenant, ou ultérieurement, car une fois que vous aurez créé un pool d’un seul ordinateur, vous ne pourrez pas ajouter d’autres serveurs. Si vous choisissez un pool d’ordinateurs multiples, entrez le nom de chaque serveur frontal qui comprend le pool.
     
@@ -62,11 +64,11 @@ Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même
     > [!IMPORTANT]
     > Vous pouvez personnaliser les fonctionnalités de création et de gestion d’une salle à l’aide du kit de développement logiciel (SDK) serveur Chat permanent. 
   
-8. Définissez le **SQL Store pour le serveur de chat permanent (emplacement de stockage du contenu d’une salle de conversation)** en effectuant l’une des opérations suivantes:
+8. Définissez le **SQL Store pour le serveur de chat permanent (emplacement de stockage du contenu d’une salle de conversation)** en effectuant l’une des opérations suivantes :
     
    - Pour utiliser un magasin SQL Server existant, dans la liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser.
     
-   - Pour spécifier une nouvelle base de données SQL Server, cliquez sur **nouveau**, puis dans **définir un nouveau SQL Store**, procédez comme suit:
+   - Pour spécifier une nouvelle base de données SQL Server, cliquez sur **nouveau**, puis dans **définir un nouveau SQL Store**, procédez comme suit :
     
    - Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous voulez créer la nouvelle base de données SQL Server.
     
@@ -78,7 +80,7 @@ Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même
 9. Définissez le magasin de conformité SQL Server si vous avez activé la conformité.
     
     > [!IMPORTANT]
-    > Pour plus d’informations sur la configuration des miroirs SQL Server pour une disponibilité élevée de la base de données serveur de chat permanent et de la base de données de conformité du serveur Chat permanent [ pour Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Pour plus d’informations sur la configuration des miroirs SQL Server en vue d’une haute disponibilité de la base de données serveur Chat permanent et de la base de données de conformité du serveur Chat permanent, voir [configurer une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans Skype entreprise server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 10. Définissez le magasin de fichiers. Un magasin de fichiers est un dossier dans lequel une copie des fichiers téléchargés dans le référentiel est stockée (par exemple, le stockage des pièces jointes publiées dans une salle de conversation). Dans le cas d’une topologie de serveur de chat permanent multiserveur, il doit s’agir d’un chemin UNC (Universal Naming Convention); dans le cas d’une topologie de serveur de chat permanent d’un serveur unique, il peut s’agir d’un chemin d’accès de fichier local.
     
@@ -107,7 +109,7 @@ Après avoir effectué la mise à jour de votre topologie dans le générateur d
   
 Avant de publier votre topologie, installez les bases de données pour le serveur de chat permanent. Utilisez le générateur de topologie pour installer des bases de données en sélectionnant **action** et **installer la base de données**.
   
-1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte membre du groupe administrateurs de **domaine** et du groupe **RTCUniversalServerAdmins** . et qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le stockage de fichiers du serveur de chat permanent (de sorte que le générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire requises), ou un compte avec un utilisateur équivalent Mission.
+1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server. Connectez-vous à l’aide d’un compte membre du groupe administrateurs de **domaine** et du groupe **RTCUniversalServerAdmins** , et qui dispose des autorisations contrôle total (lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le stockage de fichiers du serveur de chat permanent (de sorte que le générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire requises), ou un compte d’utilisateur équivalent. Mission.
     
 2. Démarrer le générateur de topologie. Sélectionnez **Ouvrir une topologie depuis un fichier local** si vous l’avez enregistrée localement.
     

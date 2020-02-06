@@ -7,24 +7,26 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Résumé: créer un pool de serveurs vidéo Interop dans Skype entreprise Server à l’aide du générateur de topologie.'
-ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : créer un pool de serveurs vidéo Interop dans Skype entreprise Server à l’aide du générateur de topologie.'
+ms.openlocfilehash: 474752253312b58b87a3d01f445bd93eabdaf203
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798051"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Créer un pool d’objets dans Skype entreprise Server
  
-**Résumé:** Créer un pool de serveurs Video Interop dans Skype entreprise Server à l’aide du générateur de topologie.
+**Résumé :** Créer un pool de serveurs Video Interop dans Skype entreprise Server à l’aide du générateur de topologie.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Création d’un VIS ou d’un pool de VIS à l’aide du Générateur de topologie
 
-1. Ouvrez le Générateur de topologie sur le serveur frontal. Dans le volet gauche de la fenêtre du générateur de topologie, cliquez avec le bouton droit sur pools de **serveurs d’interopérabilité vidéo** et sélectionnez **nouvelle liste de serveurs d’interopérabilité vidéo**. 
+1. Ouvrez le Générateur de topologie sur le serveur frontal. Dans le volet gauche de la fenêtre du générateur de topologie, cliquez avec le bouton droit sur **pools de serveurs d’interopérabilité vidéo** et sélectionnez **nouvelle liste de serveurs d’interopérabilité vidéo**. 
     
 2. Cela a pour effet d’ouvrir l’assistant **Créer un nouveau pool de serveurs d’interopérabilité vidéo**. Fournissez le nom de domaine complet du pool pour le nouveau serveur d’interopérabilité vidéo, puis sélectionnez **ce pool possède un serveur** ou **ce pool a plusieurs serveurs** en fonction de votre configuration requise, puis appuyez sur **suivant**.
     
@@ -55,7 +57,7 @@ ms.locfileid: "36235660"
 10. Une jonction vidéo SIP correspondante est ajoutée une fois que l’étape ci-dessus a été effectuée. Cliquez avec le bouton droit sur la jonction vidéo SIP et sélectionnez la jonction qui vient d’être ajoutée. Le nom du Trunk SIP vidéo, le serveur d’interopérabilité vidéo associé, le protocole de transport SIP et le port peuvent tous être modifiés. 
     
     > [!NOTE]
-    >  Un serveur Video Interop prend en charge 1: N Trunks. De ce fait, il est possible d’ajouter plusieurs Trunks, qui sont associés à un serveur d’interopérabilité vidéo unique, où chaque Trunk est arrêté sur une autre passerelle vidéo. La limitation réside dans le fait qu’une passerelle vidéo particulière dispose d’une seule ligne et qu’elle peut être définie pour le déploiement de Skype entreprise Server.
+    >  Un serveur Video Interop prend en charge 1 : N Trunks. De ce fait, il est possible d’ajouter plusieurs Trunks, qui sont associés à un serveur d’interopérabilité vidéo unique, où chaque Trunk est arrêté sur une autre passerelle vidéo. La limitation réside dans le fait qu’une passerelle vidéo particulière dispose d’une seule ligne et qu’elle peut être définie pour le déploiement de Skype entreprise Server.
   
 11. Publiez le document topologique comme décrit dans la rubrique [créer et publier une nouvelle topologie dans Skype entreprise Server 2015](../../deploy/install/create-and-publish-new-topology.md).
     

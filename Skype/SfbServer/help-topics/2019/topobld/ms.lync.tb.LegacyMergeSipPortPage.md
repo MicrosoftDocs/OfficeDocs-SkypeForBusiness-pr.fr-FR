@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le port SIP TCP par défaut pour la communication avec les clients, les pools et serveurs frontaux hérités est le port 5061. Si la valeur par défaut n’est pas utilisée, sélectionnez Port SIP pour tous les pools et serveurs et tapez la nouvelle valeur.
-ms.openlocfilehash: 54637d3ea84849da2750ab3f95fbc5db97de28f4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a3035e25b5eb716bf955a1bfd9ca9c11e770071
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795335"
 ---
 # <a name="legacy-merge-sip-port"></a>Port SIP de la fusion héritée
  

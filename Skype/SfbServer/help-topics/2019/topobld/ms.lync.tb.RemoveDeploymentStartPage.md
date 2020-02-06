@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exécutez l’Assistant Suppression du déploiement uniquement si vous souhaitez désactiver tout votre déploiement. Cet Assistant crée une topologie vide composée d’un serveur frontal unique. Après avoir exécuté cet Assistant et publié la topologie vide, vous ne pouvez pas revenir à votre topologie d’origine.
-ms.openlocfilehash: 5cef0f444db92c799fd46f6d3c2d34ddcafa3bc1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d5724dacfb4ec1f13b7e2a2f5a5350e9d6f87366
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688007"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797215"
 ---
 # <a name="remove-deployment-introduction"></a>Assistant Suppression du déploiement
  

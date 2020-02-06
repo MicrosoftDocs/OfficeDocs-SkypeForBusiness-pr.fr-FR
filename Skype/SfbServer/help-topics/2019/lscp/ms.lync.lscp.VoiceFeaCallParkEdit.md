@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les plages de numéros de parc d’appels définissent les numéros temporaires dans lesquels les appels en attente sont maintenus jusqu’à ce qu’une personne les récupère ou le délai d’expiration.
-ms.openlocfilehash: 5f32cccf70593ffe480cbcba028974cc1dc91046
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 252d0ab604eb733ddbe3ea79fc27e29f8e3c8035
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703929"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797821"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Parcage d’appel : création d’un parcage ou modification d’un parcage existant
 

@@ -8,21 +8,23 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: 'Résumé: pour plus d’informations sur la création de stratégies utilisateur initiales pour le serveur de conversation persistant dans Skype entreprise Server 2015, consultez la rubrique suivante. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
-ms.openlocfilehash: 83d6b49372f695be1a4db516eda6c7be357beed3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : pour plus d’informations sur la création de stratégies utilisateur initiales pour le serveur de conversation persistant dans Skype entreprise Server 2015, consultez la rubrique suivante. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
+ms.openlocfilehash: a51304c9e85951e9858d56c511aa8c7519babe51
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239755"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795695"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Pour plus d’informations sur la création de stratégies utilisateur initiales pour le serveur de chat permanent dans Skype entreprise Server 2015, lisez cette rubrique. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.
+**Résumé :** Pour plus d’informations sur la création de stratégies utilisateur initiales pour le serveur de chat permanent dans Skype entreprise Server 2015, lisez cette rubrique. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.
   
-Vous pouvez gérer les stratégies d’utilisateur de chat permanent aux niveaux suivants: global, site ou utilisateur. Initialement, vous configurez la stratégie globale pour activer les paramètres de conversation permanente pour tous les utilisateurs de votre déploiement, puis créer des stratégies utilisateur et site supplémentaires afin de déterminer si la conversation permanente est activée pour des utilisateurs ou des sites spécifiques.
+Vous pouvez gérer les stratégies d’utilisateur de chat permanent aux niveaux suivants : global, site ou utilisateur. Initialement, vous configurez la stratégie globale pour activer les paramètres de conversation permanente pour tous les utilisateurs de votre déploiement, puis créer des stratégies utilisateur et site supplémentaires afin de déterminer si la conversation permanente est activée pour des utilisateurs ou des sites spécifiques.
   
 Cette rubrique contient les sections suivantes :
   
@@ -61,7 +63,7 @@ Pour configurer la stratégie globale :
     
 ## <a name="create-a-site-policy"></a>Créer une stratégie de site
 
-Pour chaque site déployé, vous pouvez créer une stratégie de conversation persistante spécifique au site. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie. Pour créer une stratégie de site:
+Pour chaque site déployé, vous pouvez créer une stratégie de conversation persistante spécifique au site. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie. Pour créer une stratégie de site :
   
 1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     
@@ -85,7 +87,7 @@ Pour chaque site déployé, vous pouvez créer une stratégie de conversation pe
     
 ## <a name="create-a-user-policy"></a>Créer une stratégie utilisateur
 
-Vous pouvez créer des stratégies spécifiques à l’utilisateur qui remplacent la stratégie globale et les stratégies de site auxquelles l’utilisateur appartient. Pour créer une stratégie d’utilisateur:
+Vous pouvez créer des stratégies spécifiques à l’utilisateur qui remplacent la stratégie globale et les stratégies de site auxquelles l’utilisateur appartient. Pour créer une stratégie d’utilisateur :
   
 1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     
@@ -107,7 +109,7 @@ Vous pouvez créer des stratégies spécifiques à l’utilisateur qui remplacen
     
 ## <a name="apply-a-policy-to-a-user-account"></a>Appliquer une stratégie à un compte d’utilisateur
 
-Lorsque vous créez des stratégies, vous pouvez les appliquer à un compte d’utilisateur en procédant comme suit:
+Lorsque vous créez des stratégies, vous pouvez les appliquer à un compte d’utilisateur en procédant comme suit :
   
 1. À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
     

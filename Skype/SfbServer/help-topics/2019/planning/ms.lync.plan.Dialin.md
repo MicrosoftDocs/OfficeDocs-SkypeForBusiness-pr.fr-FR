@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les conférences rendez-vous de Skype entreprise Server permettent aux utilisateurs d’accéder à la partie audio d’une conférence Skype entreprise Server en utilisant un téléphone RTC (réseau téléphonique commuté) sans nécessiter un fournisseur de services d’audioconférence tiers.
-ms.openlocfilehash: b8705103a6e84491228b0787a2aa41ee09d01111
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fb992a77d2cdd4b80fd7d1e946b6b0580bedc79f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703719"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797345"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

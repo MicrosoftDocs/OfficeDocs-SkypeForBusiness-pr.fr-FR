@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 'Résumé: configurez CUCM pour qu’il fonctionne avec Skype entreprise Server.'
-ms.openlocfilehash: 8324e146147480bb682c2cc18c62a96e95a130e3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : configurez CUCM pour qu’il fonctionne avec Skype entreprise Server.'
+ms.openlocfilehash: 0f8b5321b482d78d9dc833471323ae842c247246
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798071"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurer CUCM pour l’interopérabilité avec Skype entreprise Server
  
-**Résumé:** Configurer CUCM pour qu’il fonctionne avec Skype entreprise Server.
+**Résumé :** Configurer CUCM pour qu’il fonctionne avec Skype entreprise Server.
   
 > [!CAUTION]
 > Cette fonctionnalité est testée à l’aide de la version 10,5 du gestionnaire de communications unifiées Cisco (CallManager ou CUCM) par le biais du programme d’installation de Trunks par TCP uniquement. Vérifiez que l’environnement CUCM remplit ces critères avant de continuer. 
@@ -125,7 +127,7 @@ Il est nécessaire de confirmer ou modifier un certain nombre de paramètres CUC
     |Liste des jonctions/itinéraires SIP  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Case à cocher modèle de bloc  <br/> |ne pas activer  <br/> |
    
-25. Si vous avez modifié les taux de bits audio ou vidéo à partir des paramètres par défaut, vous devez les rétablir aux valeurs par défaut. Pour définir le taux de bits pour les appels audio/vidéo, accédez à l’administration Cisco\>Unified\>cm-région\>informations sur le système. Les valeurs par défaut sont affichées ci-dessous pour référence:
+25. Si vous avez modifié les taux de bits audio ou vidéo à partir des paramètres par défaut, vous devez les rétablir aux valeurs par défaut. Pour définir le taux de bits pour les appels audio/vidéo, accédez à l’administration Cisco\>Unified\>cm-région\>informations sur le système. Les valeurs par défaut sont affichées ci-dessous pour référence :
     
     |**Paramètre**|**Paramètre recommandé**|
     |:-----|:-----|

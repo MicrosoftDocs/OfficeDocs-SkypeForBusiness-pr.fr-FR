@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: En plus de spécifier la version de clients que vous voulez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore de stratégie de version définie. Cela vous permet de limiter les versions de client utilisées dans votre environnement, qui peuvent vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions de client.
-ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e5675a2b3cab2309a78c2d8dc88041beee8cc619
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691569"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794563"
 ---
 # <a name="client-version-configuration"></a>Configuration de version du client
 

@@ -8,21 +8,23 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
-description: 'Résumé: Découvrez comment préparer votre environnement pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment préparer votre environnement pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244335"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797085"
 ---
 # <a name="install-skype-for-business-server"></a>Installation de Skype Entreprise Server
  
-**Résumé:** Découvrez comment préparer votre environnement pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour:.
+**Résumé :** Découvrez comment préparer votre environnement pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour :.
   
 Cet article vous guide tout au long du processus d’installation de Skype entreprise Server. Cet article ne couvre pas toutes les procédures dont vous avez besoin pour effectuer une installation complète de Skype entreprise Server. Son but est de fournir des exemples de procédures dans une topologie étroitement définie, qui comprend les fonctionnalités standard de réunion et de partage.
   
@@ -56,7 +58,7 @@ La première fois que vous exécutez Skype entreprise Server implique huit étap
     
 - [Créer et publier une nouvelle topologie dans Skype entreprise Server](create-and-publish-new-topology.md) : avant de pouvoir installer le système Skype entreprise Server sur chacun des serveurs de la topologie, vous devez créer une topologie et la publier. Lorsque vous publiez une topologie, vous chargez les informations dans la base de données du magasin central de gestion. S’il s’agit d’un pool Enterprise Edition, vous créez la base de données du magasin central de gestion la première fois que vous publiez une nouvelle topologie. S’il s’agit de l’édition standard, vous devez exécuter le processus préparer le premier serveur édition standard à partir de l’Assistant Déploiement avant de publier une topologie. Il prépare l’installation de Standard Edition en installant une instance de SQL Server Express Edition et en créant le magasin central de gestion.
     
-- [Installation de Skype entreprise Server sur des serveurs dans la topologie](install-skype-for-business-server.md) : une fois que la topologie est chargée dans le magasin de gestion central et qu’Active Directory sait quels serveurs utiliseront les rôles, vous devez installer le système Skype entreprise Server sur chacun de serveurs de la topologie.
+- [Installation de Skype entreprise Server sur des serveurs dans la topologie](install-skype-for-business-server.md) : une fois que la topologie est chargée dans le magasin de gestion central et qu’Active Directory sait quels serveurs vont utiliser quels rôles, vous devez installer le système Skype entreprise Server sur chacun des serveurs de la topologie.
     
 - [Vérifier la topologie dans Skype entreprise Server](verify-the-topology.md) : une fois que vous avez publié la topologie et les composants du système Skype entreprise Server installés sur chacun des serveurs de la topologie, vous êtes prêt à vérifier que la topologie fonctionne correctement. Pour cela, vous devez vérifier que la configuration a été propagée sur tous les serveurs Active Directory de sorte que le domaine complet sache que Skype entreprise est disponible dans le domaine.
     

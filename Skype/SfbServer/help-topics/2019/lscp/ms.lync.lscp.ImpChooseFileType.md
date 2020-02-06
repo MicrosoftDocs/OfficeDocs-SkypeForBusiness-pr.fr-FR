@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner les extensions de type de fichier pour sélectionner les extensions de types de fichiers que vous souhaitez bloquer ou autoriser en activant ou en désactivant les cases à cocher en regard des extensions sous extensions de type de fichier. Cliquez sur la flèche pour développer une catégorie et afficher toutes les extensions de type de fichier pour cette catégorie. Si vous voulez sélectionner toutes les extensions de type de fichier pour une catégorie, sélectionnez le nom de la catégorie.
-ms.openlocfilehash: b738ea0b9c6ea19e616c42e83395e6efcdf11682
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691179"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796443"
 ---
 # <a name="select-file-type-extensions"></a>Sélectionner des extensions de type de fichier
  

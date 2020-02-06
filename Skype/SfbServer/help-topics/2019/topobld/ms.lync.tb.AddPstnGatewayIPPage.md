@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option Activer IPv4 ou activer IPv6. Vous pouvez choisir d’utiliser toutes les adresses IP configurées ou les services limités aux adresses IP sélectionnées.
-ms.openlocfilehash: 7c92f3b73421dcfe078594a8c3872c8f62efb3a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c55c5aea5659845fc0ad4e519e3382065ae9371e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689033"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794373"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 
