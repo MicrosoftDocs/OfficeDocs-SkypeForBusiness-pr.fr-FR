@@ -8,20 +8,22 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: 'Résumé: passez en revue les étapes d’intégration d’Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
-ms.openlocfilehash: 398ded1c138743c79de0e372b930dacef08fd94f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : passez en revue les étapes d’intégration d’Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
+ms.openlocfilehash: ad8921c9c4c5c54809aa8323f60314dfc0826061
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791652"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Intégration de Skype entreprise Server à Exchange Server
 
-**Résumé:** Passez en revue les étapes d’intégration d’Exchange Server 2013 ou version ultérieure et Skype entreprise Server.
+**Résumé :** Passez en revue les étapes d’intégration d’Exchange Server 2013 ou version ultérieure et Skype entreprise Server.
 
 Exchange Server 2013 ou version ultérieure, Skype entreprise Server est compatible et intégré. Par exemple, les informations de présence d’un utilisateur de Skype entreprise peuvent être rapportées dans Microsoft Outlook. de même, Skype entreprise peut accéder au calendrier Outlook d’un utilisateur, noter qu’il dispose d’une réunion planifiée et montrer la présence de l’utilisateur en tant qu’il est occupé lors de la réunion. Même si vous n’avez pas besoin d’exécuter Exchange Server pour pouvoir exécuter Skype entreprise Server (ou inversement), les deux produits renforcent l’utilisation de l’utilisateur.
 

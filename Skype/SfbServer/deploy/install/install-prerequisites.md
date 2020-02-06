@@ -8,23 +8,25 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: 'Résumé: en savoir plus sur les rôles serveur et serveur que vous devez configurer avant d’installer Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 2fbf90a1ee6f517cad2c716e6a50dd814352993e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : en savoir plus sur les rôles serveur et serveur que vous devez configurer avant d’installer Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: f8ecb50525a9bb312975bf71b55a5f71c19db205
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240605"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791762"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installer la configuration requise pour Skype entreprise Server
  
-**Résumé:** En savoir plus sur les rôles de serveurs et de serveurs que vous devez configurer avant d’installer Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** En savoir plus sur les rôles de serveurs et de serveurs que vous devez configurer avant d’installer Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 L’installation des conditions préalables consiste à mettre en place Windows Server en installant les fonctionnalités et rôles requis pour chaque serveur de la topologie. Les conditions sont basées sur le rôle que le serveur va jouer dans la topologie. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6, 7, et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué sur le diagramme. L’installation des conditions préalables est présentée dans l’étape 1 sur 8.
   

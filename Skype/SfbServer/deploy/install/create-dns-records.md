@@ -8,23 +8,25 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 'Résumé: Découvrez comment configurer DNS et créer des enregistrements DNS pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: f5f5c40805388d6a1c861a53bae0a85c27537056
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment configurer DNS et créer des enregistrements DNS pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: 573d39c44bb4b4067d1030a957b1447ad62266c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244652"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791792"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype entreprise Server
  
-**Résumé:** Apprenez à configurer le système DNS et à créer des enregistrements DNS pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour:.
+**Résumé :** Apprenez à configurer le système DNS et à créer des enregistrements DNS pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour :.
   
 Pour que Skype entreprise Server fonctionne correctement, il est nécessaire de disposer d’un certain nombre de paramètres DNS (Domain Name System). Cela permet aux clients de savoir comment accéder aux services et que les serveurs les connaissent. Ces paramètres ne doivent être exécutés qu’une seule fois par déploiement car une fois que vous affectez une entrée DNS, celle-ci est disponible dans l’ensemble du domaine. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. La création d’enregistrements DNS comprend les étapes 5 à 8. Pour plus d’informations sur la planification de DNS, voir [configuration environnementale requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [configuration serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
@@ -121,7 +123,7 @@ Cet exemple utilise un FQDN de DNS à charge équilibrée nommé pool.contoso.lo
     
 5. Si vous prenez en charge les clients hérités et si vous avez créé l’enregistrement SRV, vérifiez-le en saisissant **set type=srv** à l’invite **nslookup**, puis appuyez sur Entrée.
     
-6. Tapez **_sipinternaltls. _ TCP. *Domain (domaine* ** ) (par exemple, _sipinternaltls. _ TCP. contoso. local), puis appuyez sur entrée.
+6. Tapez **_sipinternaltls. _tcp. *Domain (domaine* ** ) (par exemple, _sipinternaltls. _tcp. contoso. local), puis appuyez sur entrée.
     
 7. Le résultat prévu devrait ressembler au résultat affiché dans la figure. Veuillez remarquer que, bien que tous les enregistrements DNS ne soient pas affichés dans la sortie, il faut vérifier tous les enregistrements. 
     

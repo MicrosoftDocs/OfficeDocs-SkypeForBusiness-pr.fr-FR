@@ -8,23 +8,25 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Résumé: Découvrez comment vérifier que la topologie du serveur Skype entreprise et les serveurs Active Directory fonctionnent comme prévu. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 6c7d7a67cab2cbd383ee26eb64f478985bcc4b27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment vérifier que la topologie du serveur Skype entreprise et les serveurs Active Directory fonctionnent comme prévu. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: aa631e5b08ff8cbe9cb6db17009f286dcc975679
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245235"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791712"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Vérifier la topologie dans Skype entreprise Server
  
-**Résumé:** Découvrez comment vérifier que la topologie de Skype entreprise Server et les serveurs Active Directory fonctionnent comme prévu. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** Découvrez comment vérifier que la topologie de Skype entreprise Server et les serveurs Active Directory fonctionnent comme prévu. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Après la publication de la topologie et des composants du système Skype entreprise Server installés sur chacun des serveurs de la topologie, vous êtes prêt à vérifier que la topologie fonctionne correctement. Pour cela, vous devez vérifier que la configuration a été propagée sur tous les serveurs Active Directory de sorte que l’intégralité du domaine sache que Skype entreprise est disponible dans le domaine. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez réaliser les étapes 6, 7 et 8 dans l’ordre stipulé, après les étapes 1 à 5, comme indiqué dans le diagramme. La vérification de la topologie est la 8e des 8 étapes.
   
@@ -39,7 +41,7 @@ La dernière étape consiste à tester le pool frontal et à confirmer que les c
 1. Utilisez les ordinateurs et les utilisateurs Active Directory pour ajouter l’objet utilisateur Active Directory du rôle administrateur pour le déploiement de Skype entreprise Server (sur lequel est installé le panneau de configuration Skype entreprise Server) vers le groupe **CSAdministrator** .
     
     > [!IMPORTANT]
-    > Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CsAdministors, vous recevez un message d’erreur lors de l’ouverture du panneau de configuration Skype entreprise Server qui lit «non autorisé: accès refusé en raison d’un échec de l’autorisation de contrôle d’accès basé sur un rôle (RBAC) ." 
+    > Si vous n’ajoutez pas les utilisateurs et les groupes appropriés au groupe CsAdministors, vous recevez un message d’erreur lors de l’ouverture du panneau de configuration Skype entreprise Server qui lit «non autorisé : accès refusé en raison d’un échec de l’autorisation de contrôle d’accès basé sur un rôle (RBAC) ." 
   
 2. Si l’objet utilisateur est actuellement connecté, fermez, puis rouvrez la session pour inscrire la nouvelle affectation de groupe.
     
