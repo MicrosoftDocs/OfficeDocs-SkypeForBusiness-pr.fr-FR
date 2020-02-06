@@ -9,15 +9,17 @@ ms.date: 2/11/2019
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
-description: 'Résumé: Explorez ces liens pour découvrir comment mettre en œuvre Skype entreprise Server 2019.'
-ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype entreprise Server 2019.'
+ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283905"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812532"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype Entreprise Server 2019
 
@@ -33,7 +35,7 @@ ms.locfileid: "34283905"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Offre</h3>
+                        <h3>Plan</h3>
                     </div>
                 </div>
             </div>
@@ -205,7 +207,7 @@ ms.locfileid: "34283905"
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Avant de commencer** <br>[Configuration requise](plan/system-requirements.md) <br>[Configuration réseau requise](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installer** <br>[Installer Skype Entreprise Server](../SfbServer/deploy/install/install.md) <br> [Migration vers Skype entreprise 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Voix Entreprise**<br>[Planifier](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Déployer](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Avant de commencer** <br>[Configuration requise](plan/system-requirements.md) <br>[Configuration requise pour le réseau](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installer** <br>[Installer Skype Entreprise Server](../SfbServer/deploy/install/install.md) <br> [Migration vers Skype entreprise 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Voix Entreprise**<br>[Planifier](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Déployer](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
 | **Nouvelles fonctionnalités**<br>[Nouveautés](whats-new.md)                                                                                                                                         | **Solutions hybrides**<br>[Planifier une connectivité hybride](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Versions antérieures**<br/>  [Documentation 2015 de Skype entreprise Server](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentation sur Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 

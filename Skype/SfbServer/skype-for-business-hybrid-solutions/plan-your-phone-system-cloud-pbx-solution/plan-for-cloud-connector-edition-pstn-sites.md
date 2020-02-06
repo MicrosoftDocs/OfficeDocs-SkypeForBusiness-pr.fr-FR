@@ -8,18 +8,20 @@ ms.date: 3/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Pour plus d’informations sur la planification de vos sites RTC dans le Cloud Connector, consultez cette rubrique pour en savoir plus sur le routage des appels, qui est efficace et rentable.
-ms.openlocfilehash: 7afc5ac09e80edf6b1502e9d169aee77b3bd69b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f20a5cf7a3395d4695a0e38d21e595982dc6398
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287033"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812502"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification pour sites RTC, version Cloud Connector
  
@@ -53,7 +55,7 @@ L’exemple suivant montre comment grouper des Trunks vers des sites RTC et comm
     
   - Utilisateur D de Portland ou (États-Unis)
     
-- Le transporteur A fournit des numéros de téléphone et des lignes en:
+- Le transporteur A fournit des numéros de téléphone et des lignes en :
     
   - Redmond (indicatif régional 425)
     
@@ -61,7 +63,7 @@ L’exemple suivant montre comment grouper des Trunks vers des sites RTC et comm
     
   - Centralia (indicatif régional 360)
     
-- Le transporteur B fournit des numéros de téléphone et des lignes de téléphone:
+- Le transporteur B fournit des numéros de téléphone et des lignes de téléphone :
     
   -  Portland (indicatif régional 503)
     
@@ -75,7 +77,7 @@ Considérez également les exemples suivants :
   
 - L’utilisateur C à Centralia, dont le numéro est fourni par l’opérateur A,est à deux heures de route et a un indicatif régional différent (360), des autres utilisateurs de l’opérateur A avec l’indicatif régional 425 de Bellevue et Redmond.   
     
-    Par conséquent, même si un appel provient du transporteur a, il est possible que le logiciel de routage des appels de l’opérateur dans Centralia 360 code de zone soit rejeté un appel d’urgence entrant provenant de l’utilisateur B dans Bellevue code de zone 425. Dans le cas présent, il est essentiel que l’opérateur confirme que le connecteur Cloud et ses lignes associées dans les sites RTC Centralia peuvent gérer les appels sur les distances et les indicatifs.
+    Par conséquent, même si un appel provient du transporteur A, il est possible que le logiciel de routage des appels de l’opérateur dans Centralia 360 code de zone soit rejeté un appel d’urgence entrant provenant de l’utilisateur B dans Bellevue code de zone 425. Dans le cas présent, il est essentiel que l’opérateur confirme que le connecteur Cloud et ses lignes associées dans les sites RTC Centralia peuvent gérer les appels sur les distances et les indicatifs.
     
 - Dans le cas contraire, l’utilisateur de Portland utilise un numéro et un Trunk fourni par l’opérateur B, de sorte qu’il est très improbable que le transporteur A un appel d’urgence à partir d’un numéro de téléphone possédé par le transporteur A. C’est pourquoi l’appliance D et l’appareil de connexion Cloud et les liaisons associées dans Portland doivent se trouver sur un site PSTN différent.
     

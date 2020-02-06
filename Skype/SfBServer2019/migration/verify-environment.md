@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les services et fonctionnalités clés qui existent dans votre environnement hérité, avant de déployer un pool de pilotes Skype entreprise Server 2019. Avant de déployer Microsoft Skype entreprise Server 2019 XMPP dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré qui utilise la configuration XMPP héritée. annexes.
-ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34c9ecbc4fe9863c09b2648145ff46c1628ef655
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243774"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812692"
 ---
 # <a name="verify-the-legacy-environment"></a>Vérifier l’environnement hérité
 
-Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les services et fonctionnalités clés qui existent dans votre environnement hérité avant de déployer un pool de pilotes Skype entreprise Server 2019. Avant de déployer Microsoft Skype entreprise Server 2019 XMPP dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré de la fonction XMPP héritée. la configuration est prise en charge. La vérification de votre déploiement hérité implique les éléments suivants:
+Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les services et fonctionnalités clés qui existent dans votre environnement hérité avant de déployer un pool de pilotes Skype entreprise Server 2019. Avant de déployer Microsoft Skype entreprise Server 2019 XMPP dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré de la fonction XMPP héritée. la configuration est prise en charge. La vérification de votre déploiement hérité implique les éléments suivants :
   
 - Vérification du démarrage des services hérités
     
@@ -32,7 +34,7 @@ Avant de déployer Skype entreprise Server 2019 dans un état de coexistence, vo
 
 1. À partir du serveur frontal antérieur, accédez à l’applet d’administration Tools\Services.
     
-2. Vérifiez que les services suivants s’exécutent sur le serveur frontal:
+2. Vérifiez que les services suivants s’exécutent sur le serveur frontal :
     
      ![Liste des services s’exécutant sur un serveur frontal](../media/migration_lyncserver_config_w14_services.jpg)
   

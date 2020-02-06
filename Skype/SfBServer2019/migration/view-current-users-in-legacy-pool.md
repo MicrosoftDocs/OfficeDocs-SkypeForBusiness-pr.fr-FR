@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Avant d’apprendre les différentes façons dont vous pouvez déplacer les utilisateurs entre les pools, nous devons d’abord déterminer quels utilisateurs existent dans le pool hérité. La colonne pool d’inscriptions identifie les utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs de test que nous allons déplacer vers le pool 2019 de Skype entreprise Server.
-ms.openlocfilehash: d5ef86d1750cb0a6bb770adf0c75628d9229d83a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f9f5a7f7ef93828968f75745b5ec91538e8b46cc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243627"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812642"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Afficher les utilisateurs actuels dans le pool hérité
 

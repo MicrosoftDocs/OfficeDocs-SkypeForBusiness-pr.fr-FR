@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les procédures décrites dans cette rubrique sont conçues pour vous guider dans le processus de suppression d’un pool frontal Enterprise Edition ou d’un serveur frontal Standard Edition. Après la migration vers Skype entreprise Server 2019, vous devez commencer par désaffecter votre environnement hérité.
-ms.openlocfilehash: 611f9c3129b46026c55c2184ea8416bbe8a1f26c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6c402035823a10e2c6e823c7558bd8a57a97b915
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244176"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812922"
 ---
 # <a name="remove-the-front-end-server"></a>Supprimer le serveur frontal
 

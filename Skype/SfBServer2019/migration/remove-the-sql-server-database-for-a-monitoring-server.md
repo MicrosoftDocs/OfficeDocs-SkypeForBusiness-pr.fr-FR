@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Après avoir supprimé un serveur de surveillance, vous pouvez supprimer les bases de données SQL Server ayant hébergé les données du serveur. Utilisez les procédures suivantes pour supprimer les définitions du générateur de topologie, puis supprimez la base de données et les fichiers journaux du serveur de base de données.
-ms.openlocfilehash: 94081aa7ec4b32797dedaaa2a89dc7221b04bd97
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 275c69f2c35428bcff2d12799cad3fbc129abc23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989009"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812822"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Suppression de la base de données SQL Server pour un serveur de surveillance
 

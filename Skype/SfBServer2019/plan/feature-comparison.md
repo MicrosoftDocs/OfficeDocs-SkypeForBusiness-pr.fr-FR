@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
-description: 'Résumé: les administrateurs Skype entreprise Server 2019 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge pour les clients.'
-ms.openlocfilehash: e26c5020f780542a890b9016057171c59a3eee32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : les administrateurs Skype entreprise Server 2019 ou Skype entreprise Online peuvent utiliser ces tableaux pour comprendre les fonctionnalités prises en charge pour les clients.'
+ms.openlocfilehash: 351158dde052039ad60e796fb528af48e923dfd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280569"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812602"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparaison des fonctionnalités de client de bureau pour Skype entreprise Server 2019
 
-**Résumé:** Les administrateurs Skype entreprise Server 2019 ou Skype entreprise Online peuvent utiliser ces tableaux pour savoir quelles fonctionnalités sont prises en charge sur les clients.
+**Résumé :** Les administrateurs Skype entreprise Server 2019 ou Skype entreprise Online peuvent utiliser ces tableaux pour savoir quelles fonctionnalités sont prises en charge sur les clients.
 
  Avant de déployer ou de procéder à la mise à niveau vers Skype entreprise Server, vérifiez quels clients sont déjà utilisés au sein de votre organisation. Utilisez les tableaux ci-dessous pour comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications aux utilisateurs, opérer le processus de déploiement et bien comprendre les avantages de la mise à niveau vers le dernier client.
 
@@ -32,7 +34,7 @@ Certaines fonctions disponibles avec Skype entreprise Server 2019 ne sont pas di
 Les tableaux suivants présentent les fonctionnalités disponibles avec chaque client fonctionnant avec Skype entreprise Server 2019 ou Skype entreprise online. Vous pouvez également vous reporter à la rubrique [comparaison des fonctionnalités du client mobile pour Skype entreprise](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) pour les comparaisons de fonctionnalités de téléphone intelligent et de client tablette. Les licences d’accès client ou USL (User Subscription License) qu’achète votre organisation auront également un impact sur les fonctionnalités auxquelles les utilisateurs ont accès. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus d’informations, consultez le [Guide des licences](https://products.office.com/en-us/skype-for-business/it-pros) .
 
 > [!IMPORTANT]
-> Skype entreprise Server 2019 et Skype entreprise Online prennent en charge les clients suivants: Lync 2013, Skype entreprise 2015 et Skype entreprise 2016, ainsi que le client Skype entreprise 2019. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et la [comparaison des fonctionnalités du client de bureau pour Skype entreprise 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype entreprise Server 2019 et Skype entreprise Online prennent en charge les clients suivants : Lync 2013, Skype entreprise 2015 et Skype entreprise 2016, ainsi que le client Skype entreprise 2019. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et la [comparaison des fonctionnalités du client de bureau pour Skype entreprise 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]
@@ -147,7 +149,7 @@ Pour plus d’informations, reportez-vous à la [Description du service Skype en
 
  &#x2778; le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lors de leur partage dans une conférence par le biais de l’application Web Skype entreprise.
 
-&#x2779; pour les applications 2016 Skype entreprise, vous devez utiliser la version «démarrer en un clic», 16.0.4227 ou une version ultérieure.
+&#x2779; pour les applications 2016 Skype entreprise, vous devez utiliser la version « démarrer en un clic », 16.0.4227 ou une version ultérieure.
 
 &#x2780; pour les applications 2015 Skype entreprise, vous devez disposer de la mise à jour de septembre, Build 15.0.4747 ou version ultérieure.
 
@@ -245,7 +247,7 @@ Ce tableau présente les fonctionnalités liées à la prise en charge de l’ar
 ### <a name="basic-client-limitations"></a>Limitations du client de base
 <a name="Full-Basic"> </a>
 
-Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base: 
+Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base : 
 
 - Gérer les paramètres d'appel d'équipe
 
@@ -268,17 +270,17 @@ Les fonctionnalités suivantes sont disponibles avec le client complet et ne son
 ### <a name="online-or-hybrid-user-account-limitations"></a>Limitations relatives aux comptes d’utilisateurs en ligne ou hybrides
 <a name="Online-Hybrid"> </a>
 
-Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet: 
+Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet : 
 
-- Présence améliorée: utiliser une photo de n’importe quel site public pour mon image
+- Présence améliorée : utiliser une photo de n’importe quel site public pour mon image
 
-- Contacts: recherche de Response Groups
+- Contacts : recherche de Response Groups
 
-- Prise en charge de la messagerie instantanée: intégration des discussions permanentes (discussion de groupe)
+- Prise en charge de la messagerie instantanée : intégration des discussions permanentes (discussion de groupe)
 
-- Prise en charge de la messagerie instantanée: remonter une salle de conversation permanente pour une réunion Skype entreprise d’un simple clic
+- Prise en charge de la messagerie instantanée : remonter une salle de conversation permanente pour une réunion Skype entreprise d’un simple clic
 
-- Utilisateurs externes: diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
+- Utilisateurs externes : diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
 
 ## <a name="see-also"></a>Voir aussi
 <a name="Types"> </a>

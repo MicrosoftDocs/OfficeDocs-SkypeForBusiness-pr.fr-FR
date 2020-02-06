@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Processus de vérification de la coexistence du pool pilote avec le pool hérité.
-ms.openlocfilehash: e71160a2a20d4a80979e3c3c4875c19db181f2da
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 386ea4a7857fcdef7d45e5d8029ff4bf31293819
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243749"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812672"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérification de la coexistence du pool pilote avec le pool hérité
 
@@ -33,7 +35,7 @@ Après avoir déployé le pool de pilotes, vous devez vérifier la coexistence d
 
 1. À partir du serveur frontal Skype entreprise Server 2019, accédez à l’applet d’administration Tools\Services.
     
-2. Vérifiez que les services suivants s’exécutent sur le serveur frontal:
+2. Vérifiez que les services suivants s’exécutent sur le serveur frontal :
 
     - Agent du service de journalisation centralisée
     - Partage d’application
