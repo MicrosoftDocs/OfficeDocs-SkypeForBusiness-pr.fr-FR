@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: Les rubriques de cette section vous expliquent comment planifier et déployer Skype entreprise Server de façon à ce que vous puissiez planifier le nombre d’utilisateurs de votre organisation de manière appropriée et planifier la charge serveur que leurs activités génèrent.
-ms.openlocfilehash: 4dca5470b5512bb8a6310a60442478c761c7411e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15f59d2052a4d73f6e1b1c09b10525b503958fea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284073"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824028"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planification de la capacité pour Skype entreprise Server 2019
 
@@ -41,11 +43,11 @@ Le tableau ci-dessous résume nos recommandations.
 |**Rôle serveur**|**Nombre maximal d’utilisateurs pris en charge**|
 |:-----|:-----|
 |Pool frontal avec seize serveurs frontaux et serveur principal ou paire de serveurs dorsaux avec SQL toujours activé pour une disponibilité élevée.  <br/> |106 000 210 000 40 50, xxxxxxx, xxxxxxx, XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX.  <br/> |
-|Conférence A/V  <br/> |Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant la taille maximale d’une conférence d’utilisateurs 250, et une seule conférence de grande envergure exécutée à la fois.  <br/> **Remarque:** De plus, vous pouvez prendre en charge des conférences de grande envergure entre les utilisateurs de 250 et de 1000 en déployant un pool frontal distinct avec deux serveurs front-end pour héberger les conférences de grande envergure. Pour plus d’informations, reportez-vous à la section [planifier des réunions de grande envergure dans Skype entreprise Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
+|Conférence A/V  <br/> |Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant la taille maximale d’une conférence d’utilisateurs 250, et une seule conférence de grande envergure exécutée à la fois.  <br/> **Remarque :** De plus, vous pouvez prendre en charge des conférences de grande envergure entre les utilisateurs de 250 et de 1000 en déployant un pool frontal distinct avec deux serveurs front-end pour héberger les conférences de grande envergure. Pour plus d’informations, reportez-vous à la section [planifier des réunions de grande envergure dans Skype entreprise Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
 |Un serveur Edge  <br/> |18 000 utilisateurs distants concurrents.  <br/> |
 |Un réalisateur  <br/> |18 000 utilisateurs distants concurrents.  <br/> |
 |Surveillance et archivage  <br/> |Les services front-end d’analyse et d’archivage s’exécutent sur chaque serveur frontal, au lieu de rôles de serveur distincts.  <br/> La surveillance et l’archivage requièrent un magasin de base de données chacun. Si vous exécutez également Exchange 2013 ou une version ultérieure, vous pouvez conserver vos données d’archivage dans Exchange, au lieu d’une base de données SQL dédiée.  <br/> |
-|Un serveur de médiation  <br/> |Le serveur de médiation en fonction du serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante aux utilisateurs de la liste. Pour un serveur de médiation autonome, voir la section «serveur de médiation» plus loin dans cette rubrique.  <br/> |
+|Un serveur de médiation  <br/> |Le serveur de médiation en fonction du serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante aux utilisateurs de la liste. Pour un serveur de médiation autonome, voir la section « serveur de médiation » plus loin dans cette rubrique.  <br/> |
 |One Standard Edition Server  <br/> |Nous vous recommandons vivement de recourir à des serveurs Standard Edition pour héberger les utilisateurs, que vous utilisez toujours deux serveurs, couplés selon les recommandations en [matière de planification d’une haute disponibilité et de récupération d’urgence](https://technet.microsoft.com/library/15a72073-0336-45dd-b2a0-35e7522c6000.aspx). Chaque serveur dans la paire peut accueillir jusqu’à 2 500 utilisateurs et, si un serveur tombe en panne, le serveur restant peut prendre en charge les utilisateurs 5 000 dans le cas d’un basculement.  <br/>  Si votre déploiement présente un trafic audio ou vidéo important, les performances du serveur peuvent être affectées avec plus de 2 500 utilisateurs par serveur. Dans ce cas, envisagez d’ajouter d’autres serveurs Standard Edition ou de migrer vers Skype entreprise Server Enterprise Edition. <br/> |
 
 ## <a name="front-end-server"></a>serveur frontal
@@ -53,7 +55,7 @@ Le tableau ci-dessous résume nos recommandations.
 > [!NOTE]
 > Les pools étendus ne sont pas pris en charge pour ce rôle serveur.
 
-Dans une liste frontale, vous devez disposer d’un serveur frontal pour chaque 6 660 hébergé dans votre pool, en supposant que la technologie HyperThreading soit activée sur tous les serveurs du pool, que vous utilisez SQL Server Express Edition et que le matériel du serveur répond aux recommandations. dans [Configuration requise pour le serveur Skype entreprise Server 2019](system-requirements.md). Le nombre maximal d’utilisateurs dans une liste frontale est de 106 000, en partant du principe que la technologie hyperthreading est activée et que SQL Server Express Edition est utilisé sur tous les serveurs de votre pool. Si vous avez plus d’utilisateurs 106 000 sur un site, vous pouvez déployer plusieurs pools front-end.
+Dans une liste frontale, vous devez disposer d’un serveur frontal pour chaque 6 660 hébergé dans votre pool, en partant du principe que la technologie hyperthreading est activée sur tous les serveurs du pool, que vous utilisez SQL Server Express Edition et que le matériel du serveur répond aux recommandations de la [Configuration requise pour Skype entreprise server 2019](system-requirements.md). Le nombre maximal d’utilisateurs dans une liste frontale est de 106 000, en partant du principe que la technologie hyperthreading est activée et que SQL Server Express Edition est utilisé sur tous les serveurs de votre pool. Si vous avez plus d’utilisateurs 106 000 sur un site, vous pouvez déployer plusieurs pools front-end.
 
 Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez tous les utilisateurs hébergés sur des appareils de succursales Survivables et des serveurs de succursales survivant dans les succursales associées à ce pool frontal.
 
@@ -65,7 +67,7 @@ Le nombre maximal d’utilisateurs dans une liste frontale est de 106 000. Le no
 
 Dans le cas d’un pool frontal avec des utilisateurs 80 000, 16 serveurs frontaux est approprié pour les performances, dans les déploiements typiques qui suivent les [modèles utilisateur dans Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md). Les déploiements conçus pour prendre en charge le basculement de reprise après sinistre présupposent qu’un maximum de 53 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose de serveurs frontaux suffisants pour contenir les utilisateurs des deux pools, en cas d’échec d’un pool sur t o l’autre.
 
-Le nombre d’utilisateurs pris en charge avec une bonne performance par un pool frontal particulier peuvent différer de ces numéros pour les raisons suivantes:
+Le nombre d’utilisateurs pris en charge avec une bonne performance par un pool frontal particulier peuvent différer de ces numéros pour les raisons suivantes :
 
 - Le matériel de votre serveur frontal ne répond pas aux recommandations.
 - Au lieu d’utiliser SQL Server Express Edition, vous utilisez une autre version de SQL Server, vous serez peut-être en mesure d’héberger des utilisateurs supplémentaires dans chaque pool frontal.
@@ -122,11 +124,11 @@ Si vous collocate un serveur de médiation avec un serveur frontal, le serveur d
 
 Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, dont le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP, dont vous disposez, le nombre de pairs de passerelle les contrôles, le trafic horaire occupé par le biais de ces passerelles et le pourcentage d’appels avec des éléments multimédias qui contournent le serveur de médiation.
 
-Les tableaux suivants décrivent le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en partant du principe que le matériel requis pour les serveurs de médiation répond à la configuration requise pour les plateformes matérielles de [serveur](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) et que le Hyper-Threading est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [estimation de l’utilisation de la voix et du trafic pour Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) et [instructions de déploiement pour le serveur de médiation dans Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
+Les tableaux suivants décrivent le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en partant du principe que le matériel requis pour les serveurs de médiation répond à la configuration requise pour les [plateformes matérielles de serveur](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) et que le Hyper-Threading est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [estimation de l’utilisation de la voix et du trafic pour Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) et [instructions de déploiement pour le serveur de médiation dans Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
 
 Toutes les tables suivantes présupposent que l’utilisation est résumée dans les [modèles utilisateur de Skype entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md).
 
-**Capacité du serveur de médiation autonome: 70% des utilisateurs internes et 30% des utilisateurs externes avec la capacité de non-contournement de l’appel (transcodage de média effectué par le serveur de médiation)**
+**Capacité du serveur de médiation autonome : 70% des utilisateurs internes et 30% des utilisateurs externes avec la capacité de non-contournement de l’appel (transcodage de média effectué par le serveur de médiation)**
 
 |**Matériel serveur**|**Nombre maximal d’appels**|**Nombre maximal de lignes T1**|**Nombre maximal de lignes E1**|
 |:-----|:-----|:-----|:-----|
@@ -150,7 +152,7 @@ Toutes les tables suivantes présupposent que l’utilisation est résumée dans
 
 ## <a name="back-end-server"></a>serveur principal
 
-Bien que la plupart des informations de base de données soient stockées essentiellement sur les serveurs frontaux, vous devez vous assurer que vos serveurs dorsaux respectent les recommandations en matière de matériel [](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)indiquées plus haut dans cette section et sur les plateformes matérielles.
+Bien que la plupart des informations de base de données soient stockées essentiellement sur les serveurs frontaux, vous devez vous assurer que vos serveurs dorsaux respectent les recommandations en matière de matériel indiquées plus haut dans cette section et sur les [plateformes matérielles](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 Pour garantir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer le groupe de disponibilité AlwaysOn ou la mise en miroir du serveur. Pour plus d’informations, reportez-vous à la rubrique [Back End Server high availability in Skype for Business Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
@@ -180,9 +182,9 @@ Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le ser
 |**Lecteur** <br/> |**Configuration RAID** <br/> |**Nombre de disques** <br/> |
 |:-----|:-----|:-----|
 |Fichiers de données des bases de données CDR, QoE et d’archivage sur un seul disque  <br/> |1+0  <br/> |Seiz  <br/> |
-|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1  <br/> |2  <br/> |
-|Fichier journal de la base de données QoE  <br/> |1  <br/> |2  <br/> |
-|Fichier journal de la base de données d’archivage  <br/> |1  <br/> |2  <br/> |
+|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1  <br/> |deuxième  <br/> |
+|Fichier journal de la base de données QoE  <br/> |1  <br/> |deuxième  <br/> |
+|Fichier journal de la base de données d’archivage  <br/> |1  <br/> |deuxième  <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Capacité du serveur Video Interop
 

@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 'L’applet de commande Publish-CcAppliance apporte des informations haute disponibilité à partir de la configuration client en ligne et les publie dans l’appliance du serveur hôte de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: da9135f669cb5b8cbe127295b20d82fd1632a3d3
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003084"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824310"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  

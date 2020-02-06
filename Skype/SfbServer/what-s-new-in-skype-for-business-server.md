@@ -8,24 +8,26 @@ ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
-description: 'Résumé: pour en savoir plus sur les nouvelles fonctionnalités, voir Skype entreprise Server 2015. Pour plus d’informations sur la nouvelle interface client, voir Lync devient Skype entreprise--nouveautés.'
-ms.openlocfilehash: e59d158242a5d2dd4b129da3a531749b22e3eadc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : pour en savoir plus sur les nouvelles fonctionnalités, voir Skype entreprise Server 2015. Pour plus d’informations sur la nouvelle interface client, voir Lync devient Skype entreprise--nouveautés.'
+ms.openlocfilehash: 0a11c94f7c31b0140a256ab350f5dad6112bc71e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291514"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824078"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Nouveautés de Skype Entreprise Server 2015
 
-**Résumé:** Consultez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype entreprise Server 2015. Pour plus d’informations sur la nouvelle interface client, voir [Lync devient Skype entreprise--](https://go.microsoft.com/fwlink/p/?LinkId=529022)nouveautés.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype entreprise Server 2015. Pour plus d’informations sur la nouvelle interface client, voir [Lync devient Skype entreprise--](https://go.microsoft.com/fwlink/p/?LinkId=529022)nouveautés.
   
 Lync devient Skype entreprise, une plate-forme de communication et de collaboration qui réunit une connaissance inspirée de Skype, avec la sécurité et le contrôle de Lync en entreprise. Skype entreprise propose des fonctionnalités telles que la présence, la messagerie instantanée, les appels vocaux et vidéo et les réunions en ligne. Skype entreprise fournit une nouvelle utilisation du client, une nouvelle version du serveur et des mises à jour du service dans Office 365. Si les utilisateurs de votre organisation connaissent déjà Skype, ils apprécieront la puissance et la simplicité de Skype entreprise pour faciliter la recherche et la connexion avec des collègues. Si les utilisateurs de votre organisation arrivent dans Skype entreprise à partir de Lync, ils reconnaîtront toutes les fonctionnalités qu’ils utilisent déjà et dans une nouvelle interface avec des commandes simplifiées et de nouveaux ajouts. Outre la nouvelle interface client, Skype entreprise Server 2015 offre plusieurs nouvelles fonctionnalités pour améliorer la gestion des serveurs locaux et des solutions hybrides.
   
-Les nouvelles fonctionnalités de Skype entreprise Server 2015 incluent des améliorations apportées à:
+Les nouvelles fonctionnalités de Skype entreprise Server 2015 incluent des améliorations apportées à :
   
 - Expérience utilisateur  
 - Prise en charge de la voix et de la vidéo
@@ -41,7 +43,7 @@ Le client Skype entreprise ressemble beaucoup à la version grand public de Skyp
 Skype entreprise inclut la nouvelle utilisation de l’utilisateur décrite ci-dessus et l’interface utilisateur de Lync 2013 publiée précédemment. L’inclusion de ces deux expériences permet aux entreprises de gérer le changement de leurs utilisateurs en contrôlant le processus et le calendrier du déploiement du nouveau client. L’utilisation de l’interface utilisateur par défaut dépend de la version du serveur que vous utilisez. Les administrateurs peuvent choisir l’expérience préférée à l’aide de l’applet de commande **Set-CsClientPolicy** avec le paramètre EnableSkypeUI. Pour plus d’informations sur la configuration de l’expérience client, reportez-vous à [la rubrique Configuration de l’expérience client avec Skype entreprise](deploy/deploy-clients/configure-the-client-experience.md) et [comparaison des fonctionnalités du client de bureau pour Skype entreprise](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
-> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes de Skype entreprise 2016. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16; par exemple: 16. x.x.x. 
+> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes de Skype entreprise 2016. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16 ; par exemple : 16. x.x.x. 
   
 ## <a name="voice-and-video-improvements"></a>Améliorations de la voix et de la vidéo
 
@@ -80,7 +82,7 @@ La fonctionnalité des réunions disponible sur le bureau est maintenant disponi
     
 ### <a name="skype-for-business-on-android-improvements"></a>Améliorations de Skype entreprise sur Android
 
-Skype entreprise sur Android propose désormais des fonctions similaires à celles disponibles dans Skype entreprise pour iOS et Skype entreprise sur Windows:
+Skype entreprise sur Android propose désormais des fonctions similaires à celles disponibles dans Skype entreprise pour iOS et Skype entreprise sur Windows :
   
 - Continuer ou rejoindre des conversations
 - Activer l’authentification des certificats et l’authentification passive
@@ -138,11 +140,11 @@ Skype entreprise Server 2015 utilise des cmdlets Windows PowerShell pour gérer 
   
 Le service de journalisation centralisé peut s’exécuter sur n’importe quel serveur Skype entreprise Server 2015. Les scénarios intégrés (traces prédéfinies) ne changent pas, tout comme la possibilité de créer des scénarios personnalisés. Il existe un scénario spécial appelé AlwaysOn qui est toujours en exécution et qui permet aux administrateurs de localiser les problèmes courants en temps quasi-réel.
   
-L’outil de débogage Snoop a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec des appareils qui se connectent à Lync 2013 ou Skype entreprise Server 2015. L’outil est disponible sous la forme d’un téléchargement Web à partir d' [Outils](https://go.microsoft.com/fwlink/?LinkId=285257)de débogage.
+L’outil de débogage Snoop a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec des appareils qui se connectent à Lync 2013 ou Skype entreprise Server 2015. L’outil est disponible sous la forme d’un téléchargement Web à partir d' [outils de débogage](https://go.microsoft.com/fwlink/?LinkId=285257).
   
 ## <a name="hybrid-deployment-and-management"></a>Gestion et déploiement hybrides
 
-Skype entreprise Server 2015 offre des fonctionnalités d’administration et de gestion hybrides du déploiement en introduisant les fonctionnalités suivantes:
+Skype entreprise Server 2015 offre des fonctionnalités d’administration et de gestion hybrides du déploiement en introduisant les fonctionnalités suivantes :
   
 - Recommandations en matière de déploiements hybrides en fonction de l’état des ressources locales du client, tel que déterminé par l’outil d’assistance automatique OnRamp pour O365.
 - Les améliorations apportées au panneau de configuration Skype entreprise Server et au centre d’administration de Skype entreprise Server permettent aux administrateurs d’utiliser ces outils pour gérer un déploiement hybride.
@@ -166,8 +168,8 @@ L’authentification multifacteur est une méthode d’authentification qui néc
     
 Avec l’authentification multifacteur de Skype entreprise, il est désormais possible d’offrir différentes options d’authentification en fonction de votre géographie. Par exemple, les clients peuvent configurer leur environnement afin que l’authentification interne repose sur l’authentification Windows intégrée, tandis que les employés s’authentifiant en dehors de l’organisation utilisent l’authentification multifacteur. 
   
-L’interface d’authentification multifacteur de Skype entreprise est transparente, quels que soient les éléments suivants:
+L’interface d’authentification multifacteur de Skype entreprise est transparente, quels que soient les éléments suivants :
   
-- Emplacement géographique: si l’utilisateur se connecte à l’intérieur ou à l’extérieur de l’organisation. 
-- Client/type d’appareil: le client Skype entreprise est utilisé et l’appareil sur lequel s’exécute le client (PC, mobile, iPad, etc.)
-- Emplacement du compte: indique si l’utilisateur est hébergé dans un environnement Active Directory local ou dans Azure Active Directory Online (O365)
+- Emplacement géographique : si l’utilisateur se connecte à l’intérieur ou à l’extérieur de l’organisation. 
+- Client/type d’appareil : le client Skype entreprise est utilisé et l’appareil sur lequel s’exécute le client (PC, mobile, iPad, etc.)
+- Emplacement du compte : indique si l’utilisateur est hébergé dans un environnement Active Directory local ou dans Azure Active Directory Online (O365)

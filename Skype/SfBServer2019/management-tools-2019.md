@@ -8,19 +8,21 @@ ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé: en savoir plus sur les outils de gestion des services dans Skype entreprise Server 2019.'
-ms.openlocfilehash: c666d76a232d64bb81892be96e64da1d544fe9cd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur les outils de gestion des services dans Skype entreprise Server 2019.'
+ms.openlocfilehash: 4ec1ebad33d58bd507af750260d5e1381d9b000f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306325"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824048"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Outils de gestion de Skype entreprise Server 2019
  
-**Résumé:** En savoir plus sur les outils de gestion des services dans Skype entreprise Server 2019.
+**Résumé :** En savoir plus sur les outils de gestion des services dans Skype entreprise Server 2019.
   
 Skype entreprise Server 2019 offre des solutions de messagerie instantanée, de présence, de conférence et de téléphonie qui prennent en charge les exigences de collaboration au niveau de l’entreprise. Les outils servant à gérer ces services sont à la fois flexibles et puissants.
   

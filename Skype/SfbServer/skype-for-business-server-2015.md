@@ -9,16 +9,18 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Résumé: Explorez ces liens pour découvrir comment mettre en œuvre Skype entreprise Server 2015.'
-ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype entreprise Server 2015.'
+ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286809"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824098"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Entreprise Server 2015
 
@@ -146,7 +148,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                     <div class="cardText">
                         <h3>Avant de commencer</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Configuration requise pour votre environnement</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Configuration réseau requise</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Configuration requise pour le réseau</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et périphériques</a></p>
                     </div>
                 </div>

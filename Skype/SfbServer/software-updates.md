@@ -8,15 +8,17 @@ ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour de Skype entreprise Server ou de Lync 2013. Utilisez les liens pour obtenir plus d’informations et télécharger les mises à jour.
-ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 1cae70bec8e6bdae88e945e035844ce1186c6454
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746437"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824088"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
@@ -52,4 +54,4 @@ La page Web _téléchargements et mises à jour Skype entreprise_ qui s’affich
         - [Group Chat](sfb-server-updates.md#group-chat)
         - [Logiciel d’évaluation](sfb-server-updates.md#trial-software)
     - [Informations complémentaires](sfb-server-updates.md#additional-information)
-    - [Voir aussi](sfb-server-updates.md#related-topics)
+    - [Rubriques connexes](sfb-server-updates.md#related-topics)

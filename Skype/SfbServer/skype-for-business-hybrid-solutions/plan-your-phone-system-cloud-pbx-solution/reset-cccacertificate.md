@@ -8,15 +8,17 @@ ms.date: 6/22/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: L’applet de commande Reset-CcCACertificate réinstalle le serveur AD de service d’autorité de certification afin de créer un nouveau certificat de l’AC racine.
-ms.openlocfilehash: 50c3b1afc29503b2b292ce578ea01b03aeeba368
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003254"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824250"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
