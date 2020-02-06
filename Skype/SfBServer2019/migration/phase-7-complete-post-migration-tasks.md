@@ -1,5 +1,5 @@
 ---
-title: 'Étape 7: effectuer les tâches postérieures à la migration'
+title: 'Étape 7 : effectuer les tâches postérieures à la migration'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section décrit les tâches que vous devez effectuer après la migration vers Skype entreprise Server 2019.
-ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b89831f2b3e0811e4dce810ccad9f02e35424f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244388"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813112"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 

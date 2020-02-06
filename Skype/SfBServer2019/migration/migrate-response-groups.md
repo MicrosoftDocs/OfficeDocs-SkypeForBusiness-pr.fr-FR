@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Après le déplacement de vos utilisateurs vers les pools 2019 de Skype entreprise Server, vous pouvez migrer vos groupes de réponse. La migration de Response Groups inclut la copie de groupes d’agents, de files d’attente, de flux de travail, de fichiers audio et de déplacements de groupe de réponses de l’ancien déploiement vers le pool Skype entreprise Server 2019. Après avoir migré vos groupes de réponses héritées, les appels vers les groupes de réponse sont gérés par l’application Response Group dans le pool Skype entreprise Server 2019. Les appels de Response Groups ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9e7605daf92646e5bb53626eeed2371888bf9cb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813462"
 ---
 # <a name="migrate-response-groups"></a>Migrer des groupes Response Group
 

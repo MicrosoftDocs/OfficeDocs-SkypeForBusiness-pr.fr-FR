@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Cette rubrique présente les paramètres de configuration que vous devez prendre en compte avant de déployer votre serveur Edge 2019 Skype entreprise Server. Le processus de déploiement et de configuration de Skype entreprise Server 2019 est très similaire à celui de Skype entreprise Server 2015. Cette section présente uniquement les points clés à prendre en compte dans le cadre de votre déploiement de pool pilote. Pour plus d’informations, reportez-vous à la rubrique déploiement d’un accès utilisateur externe dans Skype entreprise Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c2beb22e2cce608b692884ad9b49fef40cb87058
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813652"
 ---
 # <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 
@@ -27,7 +29,7 @@ Cette rubrique présente les paramètres de configuration que vous devez prendre
 
 1. Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
     
-2. Accédez au nœud Skype entreprise Server 2019. Cliquez avec le bouton droit sur pools de **bords**, puis cliquez sur **nouvelle liste de bord**.
+2. Accédez au nœud Skype entreprise Server 2019. Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle liste de bord**.
     
      ![Boîte de dialogue définir la nouvelle réserve de bords](../media/migration_ocs_topo_edgepool_page1.JPG)
   
@@ -38,7 +40,7 @@ Cette rubrique présente les paramètres de configuration que vous devez prendre
 4. Dans la page **Sélectionner des fonctionnalités** , n’activez pas la Fédération de Fédération ou XMPP. Les fédérations de Fédération et XMPP sont actuellement routées via le serveur Edge hérité. Ces fonctionnalités seront configurées lors de la phase de migration ultérieure. 
 
   
-5. Continuez à remplir les pages suivantes de l’Assistant: noms de **domaine complets externes**, **définir l’adresse IP interne**et **définir l’adresse IP externe**.
+5. Continuez à remplir les pages suivantes de l’Assistant : noms de **domaine complets externes**, **définir l’adresse IP interne**et **définir l’adresse IP externe**.
     
 6. Dans la page **définir le serveur du tronçon suivant** , sélectionnez le directeur pour le tronçon suivant du pool de bords antérieurs. 
     

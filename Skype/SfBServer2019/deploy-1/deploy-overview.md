@@ -8,23 +8,25 @@ ms.date: 7/9/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: 'Résumé: pour plus d’informations sur l’installation et la configuration de Skype entreprise Server 2019, consultez les liens suivants.'
-ms.openlocfilehash: 302b2a7be850e434bbf705e38d6671cdc580b3e0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : pour plus d’informations sur l’installation et la configuration de Skype entreprise Server 2019, consultez les liens suivants.'
+ms.openlocfilehash: 419155b0cce38c9e212af3ebc47bc5dd9a5ba0e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242003"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814052"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Déploiement de Skype entreprise Server 2019
  
-**Résumé:** Pour plus d’informations sur l’installation et la configuration de Skype entreprise Server 2019 et la migration à partir de versions précédentes, consultez ces liens.
+**Résumé :** Pour plus d’informations sur l’installation et la configuration de Skype entreprise Server 2019 et la migration à partir de versions précédentes, consultez ces liens.
   
 Skype Entreprise Server offre des solutions de messagerie instantanée (MI), de présence, de conférence et de téléphonie capables de répondre aux besoins de collaboration des entreprises. Cette rubrique contient des liens pour obtenir plus d’informations sur le déploiement et la configuration de Skype Entreprise Server. 
   

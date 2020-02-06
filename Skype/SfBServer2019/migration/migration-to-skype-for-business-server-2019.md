@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section vous guident dans le processus de migration vers Skype entreprise Server 2019.
-ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51c3be10b90198e1abe24172aa35ab167e871739
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237771"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813402"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration vers Skype entreprise Server 2019
 
@@ -30,13 +32,13 @@ Ce guide fournit des informations spécifiques à la mise à niveau de votre dé
   
 Cet article définit les termes comme spécifié dans la liste suivante.
   
-**migration:** Migration de votre déploiement de production de Lync Server 2013 ou de Skype entreprise Server 2015 vers Skype entreprise Server 2019.
+**migration :** Migration de votre déploiement de production de Lync Server 2013 ou de Skype entreprise Server 2015 vers Skype entreprise Server 2019.
     
-**coexistence:** Environnement temporaire existant lors de la migration lors de la migration de certaines fonctionnalités vers Skype entreprise Server 2019 et si d’autres fonctionnalités continuent de subsister dans une version antérieure.
+**coexistence :** Environnement temporaire existant lors de la migration lors de la migration de certaines fonctionnalités vers Skype entreprise Server 2019 et si d’autres fonctionnalités continuent de subsister dans une version antérieure.
     
-**interopérabilité:** La capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
+**interopérabilité :** La capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
 
-**héritage:** Le système à partir duquel vous effectuez la migration, qui est Lync Server 2013 ou Skype entreprise Server 2015.
+**héritage :** Le système à partir duquel vous effectuez la migration, qui est Lync Server 2013 ou Skype entreprise Server 2015.
     
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -48,7 +50,7 @@ Cet article définit les termes comme spécifié dans la liste suivante.
     
 - [Étape 3 : Déployer un pool pilote](phase-3-deploy-pilot-pool.md)
     
-- [Étape 4: déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
+- [Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [Étape 5 : Ajouter un serveur Edge au pool pilote](phase-5-add-edge-server-to-pilot-pool.md)
     

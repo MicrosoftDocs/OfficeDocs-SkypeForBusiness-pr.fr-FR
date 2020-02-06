@@ -8,17 +8,19 @@ ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Pour commencer l’installation d’un nouveau serveur de rôles Skype entreprise Server 2015, vous devez d’abord installer le serveur SQL Server local qui hébergera le magasin de configuration local. Le magasin de configuration local fera office de réplica en lecture seule du magasin de gestion centralisé de Skype entreprise Server (CMS). Vous devez être connecté au serveur décrit à l’étape Installer le magasin de configurations local en tant qu’administrateur local de l’ordinateur ; en outre, vous devez être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Si vous effectuez l’installation sur un serveur Edge, vous n’avez pas besoin d’être membre du groupe RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. Le document de définition du générateur de topologie sera lu à partir du document de définition exporté plutôt que du magasin central de gestion. Pour exporter le document de définition du générateur de topologie et le mettre à la disposition des serveurs de périphérie, voir la rubrique exporter votre topologie et copier celle-ci sur des éléments multimédias externes pour l’installation Edge.
-ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7908a862a01871988d6afe6ae1b0cf9c752e9d30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687638"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823618"
 ---
 # <a name="install-local-configuration-store"></a>Installer le magasin de configurations local
 

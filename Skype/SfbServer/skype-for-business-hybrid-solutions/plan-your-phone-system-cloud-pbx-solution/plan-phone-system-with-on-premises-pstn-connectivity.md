@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: En savoir plus sur les considérations en matière de planification pour le système téléphonique dans Office 365 (Cloud PBX) avec la connectivité PSTN locale.
-ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a134b4dbe48d302ee8be8df528e6bbebac336b8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814482"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier le système téléphonique dans Office 365 avec la connectivité PSTN locale dans Skype entreprise Server
 
@@ -67,14 +69,14 @@ Lorsque vous déployez un service hébergé sur le cloud comme un système tél�
 
 - **Interconnexion RTC entreprise/Cloud** Il s’agit du réseau qui connecte votre entreprise au Cloud Office 365. Il n'est pas forcément identique à votre connexion Internet générique.
 
-- **Le réseau de votre entreprise** La qualité des contenus multimédias en temps réel dépend essentiellement de votre propre réseau: en particulier le réseau WiFi et la qualité de l’interconnexion utilisée pour joindre le Cloud Office 365.
+- **Le réseau de votre entreprise** La qualité des contenus multimédias en temps réel dépend essentiellement de votre propre réseau : en particulier le réseau WiFi et la qualité de l’interconnexion utilisée pour joindre le Cloud Office 365.
 
 > [!NOTE]
 > Pour plus d’informations sur l’optimisation des performances dans Skype entreprise Online, reportez-vous à la rubrique [optimiser les performances de Skype entreprise Online](https://support.office.com/en-us/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
 
 ## <a name="prerequisites-for-using-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Conditions préalables à l’utilisation du système téléphonique dans Office 365 avec la connectivité PSTN locale
 
-Pour pouvoir configurer le système téléphonique dans Office 365 avec une connectivité RTC sur site et déplacer des utilisateurs vers Skype entreprise Online, vous devez vérifier que vous disposez de la configuration requise suivante:
+Pour pouvoir configurer le système téléphonique dans Office 365 avec une connectivité RTC sur site et déplacer des utilisateurs vers Skype entreprise Online, vous devez vérifier que vous disposez de la configuration requise suivante :
 
  **Versions de serveur local.** Les versions des serveurs dans votre déploiement local doivent être répertoriées dans le tableau suivant pour prendre en charge le système téléphonique dans Office 365 avec une connectivité PSTN locale.
 
@@ -87,7 +89,7 @@ Pour pouvoir configurer le système téléphonique dans Office 365 avec une conn
 | serveur Edge  <br/>                                    | Skype Entreprise Server 2015  <br/>                                                                              |
 | serveur de médiation  <br/>                               | Skype Entreprise Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
-\*Les versions minimales prises en charge sont les suivantes:
+\*Les versions minimales prises en charge sont les suivantes :
 
 - Skype Entreprise Server 2015, mise à jour cumulative 6.0.9319.235 de mars 2016
 
@@ -95,7 +97,7 @@ Pour pouvoir configurer le système téléphonique dans Office 365 avec une conn
 
 \*\*L’itinéraire de Fédération de tous les domaines SIP pris en charge doit être acheminé via le serveur Edge Skype entreprise Server 2015 exécutant la mise à jour cumulative 2016 ou une version ultérieure. Si le pool d'utilisateurs se trouve sur Lync Server 2013, le trafic de pool externe reste sur le serveur Edge de Lync Server 2013. 
 
-De plus, vous devez vérifier les points suivants:
+De plus, vous devez vérifier les points suivants :
 
 - La **voix entreprise locale est configurée et testée pour les utilisateurs locaux** Cela inclut les composants de connectivité PSTN. Pour plus d’informations, reportez-vous aux rubriques suivantes si vous utilisez Skype entreprise Server 2015, reportez-vous à la rubrique [planification d’entreprise voix dans](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Skype entreprise Server 2015 et [déploiement d’Enterprise Voice dans skype entreprise Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
@@ -106,7 +108,7 @@ De plus, vous devez vérifier les points suivants:
     > [!NOTE]
     > La version AAD Connect que vous utilisez doit être la version 1.0.9125.0 ou une version ultérieure. Si vous utilisez des outils d'une version antérieure d'AAD Connect ou de DirSync, effectuez une mise à niveau vers la version prise en charge. Vous pouvez mettre à niveau votre installation actuelle et conserver les règles personnalisées définies dans votre environnement. 
 
-- **Configurer votre déploiement hybride** Que tous vos utilisateurs Skype entreprise sont actuellement hébergés en ligne ou en local, ou si vous disposez actuellement d’un mix, vous devez suivre les étapes de configuration d’un déploiement hybride de Skype entreprise Server ou Lync Server 2013, comme décrit dans la rubrique [déploiement hybride connectivité entre Skype entreprise Server et Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Pour plus d’informations sur les déploiements hybrides, voir [planifier une connectivité hybride entre Skype entreprise Server et Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
+- **Configurer votre déploiement hybride** Si tous les utilisateurs de Skype entreprise sont actuellement hébergés en ligne ou en local, ou si vous disposez actuellement d’un mix, vous devez suivre les étapes de configuration d’un déploiement hybride de Skype entreprise Server ou Lync Server 2013, comme décrit dans la rubrique déploiement de la [connectivité hybride entre Skype entreprise Server et Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Pour plus d’informations sur les déploiements hybrides, voir [planifier une connectivité hybride entre Skype entreprise Server et Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
 
     Si vous utilisez Lync Server 2013, consultez la rubrique [hybride Lync server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 

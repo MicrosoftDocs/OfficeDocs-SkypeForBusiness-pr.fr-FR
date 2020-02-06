@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: La Fédération est une relation d’approbation entre au moins deux domaines SIP, qui permet aux utilisateurs d’organisations distinctes de communiquer au sein des frontières du réseau. Après avoir effectué une migration vers votre pool de pilotes, vous devez effectuer une transition de l’itinéraire de Fédération de vos serveurs de périphérie de version précédente vers l’itinéraire de Fédération de vos serveurs Edge 2019 Skype entreprise Server.
-ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71417307fd46c2c29535cea3a52f0286ad6dc951
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239361"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813812"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configuration des itinéraires de fédération et du trafic multimédia
 
@@ -53,7 +55,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour basculer e
     
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Pour configurer le serveur de périphérie traditionnel en tant que serveur Edge non fédéré
 
-1. Dans le volet gauche, accédez au nœud d’installation hérité, puis au nœud de pools de **périphérie** . 
+1. Dans le volet gauche, accédez au nœud d’installation hérité, puis au nœud de **pools de périphérie** . 
     
 2. Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **modifier les propriétés**.
     
@@ -79,7 +81,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour basculer e
     
 ## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Pour modifier l’itinéraire de Fédération de la version précédente pour utiliser Skype entreprise Server 2019 Edge Server
 
-1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud Pools de **périphérie** . 
+1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud **pools de périphérie** . 
     
 2. Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **modifier les propriétés**.
     
@@ -96,7 +98,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour basculer e
   
 ## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Pour mettre à jour Skype entreprise Server 2019 Edge Server Federation Next tronçon
 
-1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud Pools de **périphérie** . 
+1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud **pools de périphérie** . 
     
 2. Développez le nœud, cliquez avec le bouton droit sur le serveur Edge indiqué, puis cliquez sur **modifier les propriétés**. 
     
@@ -122,7 +124,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour basculer e
     
 ## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Pour activer Skype entreprise Server 2019 Edge Server Federation
 
-1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud Pools de **périphérie** . 
+1. Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Skype entreprise Server 2019** , puis au nœud **pools de périphérie** . 
     
 2. Développez le nœud, cliquez avec le bouton droit sur le serveur Edge indiqué, puis cliquez sur **modifier les propriétés**. 
     
@@ -154,7 +156,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour basculer e
 3. Attendez la fin de la réplication Active Directory pour tous les pools du déploiement.
     
     > [!NOTE]
-    > Le message suivant risque de s’afficher: **Avertissement: la topologie comporte plusieurs serveurs Edge fédérés. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la Fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge approprié. Si vous voulez déployer plusieurs serveurs de frontière de Fédération de manière à être actifs en même temps (il ne s’agit pas d’un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Skype entreprise Server. Vérifiez que l’enregistrement SRV DNS externe recense tous les serveurs Edge compatibles avec la Fédération.** Cet avertissement est attendu et peut être ignoré en toute sécurité. 
+    > Le message suivant risque de s’afficher : **Avertissement : la topologie comporte plusieurs serveurs Edge fédérés. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la Fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge approprié. Si vous voulez déployer plusieurs serveurs de frontière de Fédération de manière à être actifs en même temps (il ne s’agit pas d’un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Skype entreprise Server. Vérifiez que l’enregistrement SRV DNS externe recense tous les serveurs Edge compatibles avec la Fédération.** Cet avertissement est attendu et peut être ignoré en toute sécurité. 
   
 ## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Pour configurer Skype entreprise Server 2019 Edge Server
 

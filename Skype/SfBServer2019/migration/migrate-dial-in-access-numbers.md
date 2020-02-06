@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: La migration des numéros d’accès rendez-vous dans Skype entreprise Server 2019 nécessite l’exécution de l’applet de connexion Move-CsApplicationEndpoint pour migrer les objets de contact. Lors de l’installation héritée et de la période de coexistence 2019 de Skype entreprise Server, les numéros d’accès rendez-vous créés dans Skype entreprise Server 2019 se comportent de la même manière que les numéros d’accès entrants que vous créez dans l’installation héritée, comme décrit dans cet zone.
-ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5333cc7cb835fc6bf324de9ab12a868f95b72972
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991139"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813502"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrer les numéros d’accès entrant
 

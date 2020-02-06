@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Pour préparer le schéma pour les services de domaine Active Directory (AD FS), exécutez l’étape préparer le schéma dans l’Assistant Déploiement de Skype entreprise Server. Cliquez sur Exécuter pour commencer la préparation du schéma. L’étape préparer le schéma lit les fichiers de définition de schéma fournis dans le dossier/Program Files/Microsoft Lync Server 2013/déploiement/installation sur le système sur lequel l’Assistant déploiement s’exécute. Ces fichiers sont également disponibles sur le média d’installation dans le répertoire support/schéma. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation est terminée et qu’elle a abouti.
-ms.openlocfilehash: fd1e79411c9820013954be0add7b68c326188e9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae4c44adf8c94efa7b87c9f1a4f5f142a7117276
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700819"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823478"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  

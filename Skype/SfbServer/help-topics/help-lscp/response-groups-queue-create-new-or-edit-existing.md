@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Les files d’attente de groupe de réponse contiennent les appels d’un groupe de réponse tant qu’un agent ne répond pas à l’appel.
-ms.openlocfilehash: 4e290c47842ac58cec621629419281cbac63f206
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cd948c145033cf3d4f6a3e79a0c4d0c36f6f70fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699789"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822377"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente Response Group : création d’une file d’attente ou modification d’une file d’attente existante
 

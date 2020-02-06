@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 'Le nœud Pools directeurs répertorie les pools directeurs de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: b7d748e98ff747247722f30c4bbe63401fef5aaa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 802cf2161ede835c58b94d0bbde34f4a1edd2916
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820106"
 ---
 # <a name="directors-scope-node"></a>Nœud d’étendue des directeurs
  

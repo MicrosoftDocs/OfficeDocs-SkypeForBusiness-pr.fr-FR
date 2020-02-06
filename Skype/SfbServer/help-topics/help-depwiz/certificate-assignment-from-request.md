@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: La page Assignation de certificat démarre le processus d’assignation d’un certificat aux utilisations requises sur le serveur de rôle. Cliquez sur Afficher les détails du certificat pour afficher le certificat. Vous pouvez sélectionner l’onglet général, l’onglet Détails ou le chemin de certification. L’onglet général affiche des informations de base sur le certificat, par exemple l’autorité de certification émettrice et l’état d’une clé privée. L’onglet Détails affiche des informations sur le certificat telles que le nom du sujet, les autres noms du sujet et d’autres détails. L’onglet chemin d’accès de certification affiche le CertificateChain de trustfrom le certificat par le biais des autorités de certification émettrices ou intermédiaires (s’ils sont présents) auprès de l’autorité de certification racine.
-ms.openlocfilehash: a6687f4374cdffe1a0ff6885abbf4a995fee9180
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 994b3f3c215b7b887730077437e4922a95760354
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823968"
 ---
 # <a name="certificate-assignment-from-request"></a>Assignation de certificat (à partir d’une demande)
  

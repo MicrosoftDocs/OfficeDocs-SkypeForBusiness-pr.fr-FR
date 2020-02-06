@@ -8,18 +8,20 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour consulter les facteurs de planification pour implémenter la déviation du trafic multimédia avec les versions 2.0 et suivantes de Cloud Connector. Pour plus d’informations sur le déploiement d’une dérivation multimédia, voir déploiement d’une dérivation multimédia dans la version Cloud Connector.
-ms.openlocfilehash: 00f700880e26f12da3aa6c2d791e4f15bfe9a90b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67598cbe31dac074bf360ba6fe1462544fe12c5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287026"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814492"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planification de la déviation du trafic multimédia dans la version Cloud Connector
  
@@ -35,7 +37,7 @@ La déviation du trafic multimédia peut améliorer la qualité de la voix en di
 
 Bien que la signalisation prenne le même chemin avec ou sans la déviation du trafic multimédia, le trafic multimédia diffère. Les schémas suivants montrent des médias et des voies de signalisation dans des topologies avec et sans déviation du trafic multimédia.   
   
-Par exemple, dans la topologie suivante (qui n’utilise pas de contournement multimédia), un client Skype entreprise place un appel RTC sur un numéro externe, le signalement SIP passe à Office 365 et Office 365 appelle le trafic de signalisation en fonction de la voix de l’utilisateur final politique. Pour les utilisateurs du Cloud Connector, la stratégie vocale dirige le trafic de signalisation vers le serveur Edge du Cloud Connector, qui achemine alors le trafic de signalisation vers une passerelle ou un contrôleur de frontière de session PSTN par le biais du serveur de médiation du Cloud Connector. Flux multimédia du client Skype entreprise au serveur de médiation du Cloud Connector, puis à l’SBC ou à la passerelle, comme illustré dans le schéma suivant:
+Par exemple, dans la topologie suivante (qui n’utilise pas de contournement multimédia), un client Skype entreprise place un appel RTC sur un numéro externe, le signalement SIP passe à Office 365 et Office 365 appelle le trafic de signalisation en fonction de la voix de l’utilisateur final politique. Pour les utilisateurs du Cloud Connector, la stratégie vocale dirige le trafic de signalisation vers le serveur Edge du Cloud Connector, qui achemine alors le trafic de signalisation vers une passerelle ou un contrôleur de frontière de session PSTN par le biais du serveur de médiation du Cloud Connector. Flux multimédia du client Skype entreprise au serveur de médiation du Cloud Connector, puis à l’SBC ou à la passerelle, comme illustré dans le schéma suivant :
   
 **Médias et voies de signalisation sans déviation du trafic multimédia**
 
@@ -43,7 +45,7 @@ Par exemple, dans la topologie suivante (qui n’utilise pas de contournement mu
   
 Un appel entrant du PSTN utilise le même chemin de signalisation en sens inverse. Pour les utilisateurs internes, le contenu multimédia restera en dernier lieu entre le client Skype entreprise et le serveur de médiation Cloud Connector, puis l’SBC ou la passerelle.
   
-Dans la topologie suivante (qui utilise le contournement multimédia), le signalement utilise le même chemin d’accès, mais le contenu multimédia passe directement entre le client Skype entreprise et l’SBC ou la passerelle, comme indiqué dans le schéma suivant:
+Dans la topologie suivante (qui utilise le contournement multimédia), le signalement utilise le même chemin d’accès, mais le contenu multimédia passe directement entre le client Skype entreprise et l’SBC ou la passerelle, comme indiqué dans le schéma suivant :
   
 **Médias et voies de signalisation avec déviation du trafic multimédia**
 
@@ -67,7 +69,7 @@ La fonction de contournement de média est également utile lorsque vous souhait
     
    Cette approche autorise le déploiement d’autres utilisateurs par le biais d’un déploiement Cloud Connector pour lesquels le Cloud Connector est centralisé. Même si le Cloud Connector est éliminé du chemin d’accès multimédia, dans le cas d’un contenu multimédia de scénario centralisé, il est possible que le contenu du réseau étendu reste parcouru à deux reprises en passant par l’SBC ou la passerelle centralisée.
   
-Si un client se trouve en dehors du réseau d’entreprise, le trafic multimédia passe par les serveurs Edge et de médiation du Cloud Connector et du lien réseau étendu entre Zurich et Amsterdam, comme indiqué dans le schéma suivant:
+Si un client se trouve en dehors du réseau d’entreprise, le trafic multimédia passe par les serveurs Edge et de médiation du Cloud Connector et du lien réseau étendu entre Zurich et Amsterdam, comme indiqué dans le schéma suivant :
   
 ![Exemple multisite de Cloud Connector 2](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   

@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Pour ce faire, vous devez créer un serveur de chat permanent ou un pool de serveurs de chat permanent à l’aide de l’Assistant définir un pool de discussions permanent. Sélectionnez un pool comportant plusieurs ordinateurs ou un pool comportant un seul ordinateur. Lorsque vous sélectionnez un pool comportant un seul ordinateur et qu’ensuite vous avez besoin d’un pool comportant plusieurs ordinateurs, vous devez supprimer le pool comportant un seul ordinateur afin de définir un pool comportant plusieurs ordinateurs.
-ms.openlocfilehash: 0a30073d4b4df28eadaa206778adeb59651b1a48
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12b5a648de211086d33624afad56ce069493b135
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684827"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820196"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Définir le nom de domaine complet de la conversation permanente
  

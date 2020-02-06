@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Le déploiement d’un serveur Standard Edition Server installe automatiquement le logiciel de base de données Microsoft SQL Server Express et la base de données SQL Server requis. Par conséquent, toutes les options sont préremplies et vous ne pouvez pas apporter de modifications à la configuration par défaut.
-ms.openlocfilehash: b2f3aef2b48981368a74d536254da55ae5e0495d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 865f9a63902124c57232ba8d8c591622dcbfd84a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685137"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820816"
 ---
 # <a name="add-front-end-sql-server-store"></a>Ajouter un magasin SQL Server frontal
 

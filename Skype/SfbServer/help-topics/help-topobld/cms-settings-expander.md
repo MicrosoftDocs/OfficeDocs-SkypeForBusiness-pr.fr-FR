@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.CmsSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Le serveur de gestion centralisée peut être changé d’un pool frontal défini à un autre. Pour modifier l’emplacement du serveur de gestion centralisée, sélectionnez le pool frontal dans la liste déroulante sous Serveur frontal sur lequel installer le serveur de gestion centralisée. Un serveur frontal peut être un pool frontal Enterprise Edition ou un serveur frontal Standard Edition.
-ms.openlocfilehash: 5bf4f92c5b67edb30ec81c2da3604755a8c0bf36
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cdf7bad59a80f0f45049f5e37f31c15e7e0d7c93
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820246"
 ---
 # <a name="cms-settings-expander"></a>Expanseur des paramètres CMS
  

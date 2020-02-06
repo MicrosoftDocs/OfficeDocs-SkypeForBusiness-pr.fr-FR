@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 'L’Assistant définir un nouveau serveur Office Web Apps définit un nouveau serveur Office Web Apps dans votre déploiement. Vous devez fournir les informations suivantes :'
-ms.openlocfilehash: 2af737d2579fb4d89c6670e016ff89a8d24f3743
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9f0d9680e57dd55b0a4370364aff23c7f37f57a4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685087"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820716"
 ---
 # <a name="add-office-web-apps-server"></a>Ajouter Office Web Apps Server
 

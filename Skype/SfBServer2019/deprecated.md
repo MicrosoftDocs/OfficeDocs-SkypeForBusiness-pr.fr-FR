@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé: les fonctionnalités suivantes ont été supprimées de Skype entreprise Server 2019.'
-ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : les fonctionnalités suivantes ont été supprimées de Skype entreprise Server 2019.'
+ms.openlocfilehash: f77ccecd0ab963c0707a7b1dc1d24083ed0c3729
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418360"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813982"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé dans Skype entreprise Server 2019
 
@@ -55,7 +57,7 @@ Pour plus d’informations, reportez-vous à la rubrique [planification de la mo
 
 ## <a name="tools"></a>Utilitaires
 
-Les outils suivants ne seront pas disponibles lors de la publication initiale de Skype entreprise Server 2019:
+Les outils suivants ne seront pas disponibles lors de la publication initiale de Skype entreprise Server 2019 :
 
 - Calculateur de planification de la capacité Skype Entreprise Server
 - Outils de débogage de Skype entreprise Server
@@ -64,7 +66,7 @@ Les outils suivants ne seront pas disponibles lors de la publication initiale de
     - Console utilisateur de recherche
     - Migration d’annonce de numéro non affectée
 
-Les outils suivants ne sont pas pris en charge avec Skype entreprise Server 2019:
+Les outils suivants ne sont pas pris en charge avec Skype entreprise Server 2019 :
 
 - Méthodologie de qualité d’appel (mais pas de tableau de bord de qualité d’appel)
 - Carte de performance de méthodologie de qualité d’appel Microsoft, v 1.5

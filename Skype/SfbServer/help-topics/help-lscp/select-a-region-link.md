@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Utilisez la boîte de dialogue Lien de région pour rechercher les liens de région disponibles dans votre environnement. Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur OK.
-ms.openlocfilehash: 9072fa0582a74990bc5dfd4d7e49b35ceb08fbc1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6d27ffe43d1b0e43cbb6dd34b39d11c20f5f362c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699739"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822337"
 ---
 # <a name="select-a-region-link"></a>Sélection d’un lien de région
  

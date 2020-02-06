@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: 'Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes: le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.'
-ms.openlocfilehash: dc8caa1e6553f03dff420a24487e12fa306bc85d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes : le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.'
+ms.openlocfilehash: 4d43d75cd886dbbd4ec2b5883109270dea77652d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244415"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813172"
 ---
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Étape 4: déplacer les utilisateurs de test vers le pool de pilotes
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes
 
-Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes: le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
+Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Skype entreprise Server 2019 selon les deux méthodes suivantes : le panneau de configuration Skype entreprise Server et Skype entreprise Server Management Shell. Les rubriques de cette section décrit les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

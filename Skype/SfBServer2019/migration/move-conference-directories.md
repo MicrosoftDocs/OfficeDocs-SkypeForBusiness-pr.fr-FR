@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour chaque annuaire de conférences de votre pool hérité.
-ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bdcb816a91f6bc4a4372141595e46ba2369618a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988939"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813282"
 ---
 # <a name="move-conference-directories"></a>Déplacement des annuaires de conférences
 

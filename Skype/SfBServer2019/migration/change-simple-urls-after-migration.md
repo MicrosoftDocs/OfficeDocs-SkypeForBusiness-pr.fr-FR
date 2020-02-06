@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype entreprise Server prend en charge des URL simples.
-ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239492"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813882"
 ---
 # <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
-Skype entreprise Server prend en charge trois URL simples:
+Skype entreprise Server prend en charge trois URL simples :
   
 - La **fonction réunion** est utilisée comme URL de base pour toutes les conférences du site ou de l’organisation. Avec l’URL de la réunion, vous pouvez facilement comprendre les liens permettant de participer à des réunions, et facilement communiquer et diffuser. 
     
@@ -32,7 +34,7 @@ Après la migration vers Skype entreprise Server, vous devez tenir compte des di
 
 1. Dans le générateur de topologie, cliquez avec le bouton droit sur le nœud supérieur **Skype entreprise Server**, puis cliquez sur **modifier les propriétés**.
     
-2. Sélectionnez **URL simples** dans le volet gauche, puis sous **URL de la réunion:** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
+2. Sélectionnez **URL simples** dans le volet gauche, puis sous **URL de la réunion :** sélectionnez l’URL de la réunion, puis cliquez sur **modifier l’URL**.
     
 3. Mettez à jour l’URL comme vous le souhaitez puis cliquez sur **OK** pour enregistrer l’URL modifiée. 
     

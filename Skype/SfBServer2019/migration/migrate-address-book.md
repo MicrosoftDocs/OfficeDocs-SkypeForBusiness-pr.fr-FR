@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'En règle générale, le carnet d’adresses est déplacé en même temps que le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes après la migration si vous avez personnalisé les éléments suivants dans votre environnement hérité :'
-ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990099"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813602"
 ---
 # <a name="migrate-address-book"></a>Migrer le carnet d’adresses
 

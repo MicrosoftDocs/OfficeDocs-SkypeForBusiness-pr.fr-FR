@@ -8,17 +8,19 @@ ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'La page État de la demande de certificat en ligne présente des informations importantes qui résultent de la création réussie et de l’envoi de la demande de certificat en ligne. Cette page fournit l’empreinte numérique du certificat qui identifie de manière unique le certificat. Par défaut, la case à cocher affecter ce certificat aux utilisations des certificats de Skype entreprise Server est activée. Si vous cliquez sur terminer, le certificat est automatiquement attribué à Lync Server 2013 conformément aux étapes de création de la demande de certificat. Par défaut, le certificat est affecté par défaut :'
-ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687747"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823808"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  

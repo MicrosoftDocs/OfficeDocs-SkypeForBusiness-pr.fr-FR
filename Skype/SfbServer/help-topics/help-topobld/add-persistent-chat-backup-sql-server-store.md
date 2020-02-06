@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Vous configurez les banques SQL Server de sauvegarde qui fournissent des bases de données de sauvegarde pour le serveur de chat permanent ou le pool de serveurs de chat permanent.
-ms.openlocfilehash: 05baf1760b1f7a4f8c30d964b55811d56a2830a8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f8fe19d95adff9e2ac538600f3dcf5153c25afd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820706"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Ajouter un magasin SQL Server de stockage de conversation permanente
  

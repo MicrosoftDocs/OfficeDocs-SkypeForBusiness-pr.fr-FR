@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Les serveurs frontaux Enterprise Edition d’un site central ne disposant pas d’un service de conférence A/V colocalisé peuvent utiliser le même pool de conférence A/V autonome. Pour chaque pool de conférence A/V, vous devez spécifier un nom de domaine complet (FQDN) pour le pool et savoir s’il n’en a qu’un seul ou plusieurs serveurs de conférence A/V.
-ms.openlocfilehash: cf34ca6b82f31b0232748d15f0b0cc6597511249
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1d78a9d24659ec2ad571c01528323796e7ae5d18
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821316"
 ---
 # <a name="add-av-mcu-pool"></a>Ajouter un pool MCU audio/vidéo
  

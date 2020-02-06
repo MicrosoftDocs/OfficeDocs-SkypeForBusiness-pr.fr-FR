@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: Sur la page exécution des commandes, les tâches d’installation de SQL Server Express et de configuration pour fonctionner en tant que magasin de gestion centrale peuvent être affichées dans le volet Office. Par défaut, une instance de base de données SQL Server nommée RTC est créée. Des règles de pare-feu sont également créées pour autoriser l’accès entrant et sortant aux serveurs et clients pour communiquer avec la base de données et l’instance. Une fois la tâche effectuée, vous pouvez sélectionner le fichier journal dans la liste déroulante. Le fichier journal porte le nom de l’ordinateur local bootstrap. Après avoir sélectionné le fichier journal, cliquez sur Afficher le journal. Examinez le fichier journal pour afficher les erreurs et les avertissements. Lorsque vous êtes prêt à poursuivre, cliquez sur Terminer. Si ce n’est déjà fait, vous devez maintenant définir votre topologie avec le générateur de topologie.
-ms.openlocfilehash: 729bdacffff09876272e45a34377ced950e88ebf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 16cc6ada75ae90da4da2cb269aed26adbf472a33
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700809"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823438"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Préparer le serveur Standard Edition (appel)
  

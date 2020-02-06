@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe de réponse (appelées « agents »), ainsi que les paramètres qui s’appliquent à tous les agents du groupe.
-ms.openlocfilehash: e3b6091e2f7fdc64dd155b0bdd0c8f130335ab82
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e8253a516a04f147901821767867bcdfb5900d5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699779"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822397"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Groupes Response Group : création d’un groupe d’agents ou modification d’un groupe d’agents existant
 

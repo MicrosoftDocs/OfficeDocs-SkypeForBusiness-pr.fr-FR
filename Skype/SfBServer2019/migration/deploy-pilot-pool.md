@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: L’une des premières étapes requises pour la migration vers Skype entreprise Server 2019 consiste à déployer un pool de pilotes. Le pool de pilotes vous permet de tester la coexistence de Skype entreprise Server 2019 avec votre déploiement hérité. La coexistence est un état temporaire qui dure jusqu’à ce que vous ayez déplacé l’ensemble des utilisateurs et des groupes vers Skype entreprise Server 2019.
-ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55f7383300ba8fbe1623e63bc42aa40102dd8b41
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238380"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813642"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Déploiement du pool de pilotes Skype entreprise Server 2019
 
@@ -42,9 +44,9 @@ Lorsque vous déployez un pool de pilotes, vous utilisez l’Assistant définir 
 5. Dans la page **Sélectionner des fonctionnalités** , activez les cases à cocher des fonctionnalités que vous voulez inclure dans ce pool frontal. Par exemple, si vous déployez uniquement les fonctionnalités de messagerie instantanée et de présence, activez la case à cocher Conférence pour autoriser la messagerie instantanée multipartie, mais pas la vérification de la Conférence rendez-vous (RTC), de la voix entreprise ou du contrôle d’admission des appels les zones, car elles représentent les fonctionnalités de conférence vocale, vidéo et de collaboration. <!-- For additional information on selecting features, see 
  [Define and configure a Front End pool or Standard Edition server in Skype for Business Server 2019](../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
   
-6. Dans la page **Sélectionner des rôles de serveurs** colocalisés, nous vous recommandons de choisir de Collocate le serveur de médiation dans Skype entreprise Server 2019. Lors de la fusion d’une topologie héritée avec Skype entreprise Server 2019, nous vous recommandons de commencer par collocate le serveur de médiation hérité. Après la fusion des topologies et la configuration du serveur de médiation Skype entreprise Server 2019, vous pouvez décider si vous souhaitez conserver le serveur de médiation colocalisé ou le modifier en serveur autonome lorsque vous déplacez le rôle serveur de médiation vers Skype entreprise Server. 2019 plus tard dans le processus de déploiement. 
+6. Dans la page **Sélectionner des rôles de serveurs colocalisés** , nous vous recommandons de choisir de Collocate le serveur de médiation dans Skype entreprise Server 2019. Lors de la fusion d’une topologie héritée avec Skype entreprise Server 2019, nous vous recommandons de commencer par collocate le serveur de médiation hérité. Après la fusion des topologies et la configuration du serveur de médiation Skype entreprise Server 2019, vous pouvez décider si vous souhaitez conserver le serveur de médiation colocalisé ou le modifier en serveur autonome lorsque vous déplacez le rôle serveur de médiation vers Skype entreprise Server. 2019 plus tard dans le processus de déploiement. 
    
-7. Dans la page associez les **rôles de serveur à cette liste frontale** , pendant le déploiement du pool de pilotes, *ne sélectionnez pas* l’option **activer un pool Edge à utiliser par le composant multimédia de cette option de pool frontal** . Il s’agit d’une fonctionnalité que vous allez activer et mettre en ligne dans une phase ultérieure de la migration. Laissez ce paramètre désactivé pour le moment. 
+7. Dans la page **associez les rôles de serveur à cette liste frontale** , pendant le déploiement du pool de pilotes, *ne sélectionnez pas* l’option **activer un pool Edge à utiliser par le composant multimédia de cette option de pool frontal** . Il s’agit d’une fonctionnalité que vous allez activer et mettre en ligne dans une phase ultérieure de la migration. Laissez ce paramètre désactivé pour le moment. 
   
 8. Dans la page **Sélectionner un serveur Office Web Apps** , cliquez sur **nouveau**, puis spécifiez le nom de domaine complet du serveur d’applications.
   
@@ -54,7 +56,7 @@ Lorsque vous déployez un pool de pilotes, vous utilisez l’Assistant définir 
   
 11. Lorsque le processus de publication est terminé, cliquez sur **Terminer**.
 
-12. Avant de passer à la section suivante intitulé «vérifier la coexistence du pool de pilotes avec le pool hérité», vous devez installer le nouveau pool de pilotes front end de Skype entreprise Server que nous venons de définir dans la topologie publiée, suivre les procédures décrites dans la section [Installer Skype pour Business Server sur des serveurs dans la topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+12. Avant de passer à la section suivante intitulé « vérifier la coexistence du pool de pilotes avec le pool hérité », vous devez installer le nouveau pool de pilotes front end de Skype entreprise Server que nous venons de définir dans la topologie publiée, suivre les procédures décrites dans la section [Installer Skype entreprise Server sur des serveurs dans la topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
 
 13. À la fin de l’étape précédente, passez à la section suivante pour vérifier la coexistence du pool pilote avec le pool hérité.
     
