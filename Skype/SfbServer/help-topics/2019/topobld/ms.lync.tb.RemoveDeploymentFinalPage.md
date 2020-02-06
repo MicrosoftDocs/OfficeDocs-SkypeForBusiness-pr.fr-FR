@@ -7,24 +7,26 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RemoveDeploymentFinalPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cliquez sur Terminer pour créer une topologie vide en guise de première étape de mise hors service de l’ensemble de votre déploiement.
-ms.openlocfilehash: dce528966fa85ae1329d345fd69e2ebbb5ed31c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0efb8caa1092f542c247d1eb37d839ac9019b3b2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701629"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797225"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="3604c-103">Suppression du déploiement</span><span class="sxs-lookup"><span data-stu-id="3604c-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="19fc2-103">Suppression du déploiement</span><span class="sxs-lookup"><span data-stu-id="19fc2-103">Remove Deployment</span></span>
  
-<span data-ttu-id="3604c-104">Cliquez sur **Terminer** pour créer une topologie vide en guise de première étape de mise hors service de l’ensemble de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="3604c-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="19fc2-104">Cliquez sur **Terminer** pour créer une topologie vide en guise de première étape de mise hors service de l’ensemble de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="19fc2-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="3604c-105">Cette action ne peut pas être annulée.</span><span class="sxs-lookup"><span data-stu-id="3604c-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="19fc2-105">Cette action ne peut pas être annulée.</span><span class="sxs-lookup"><span data-stu-id="19fc2-105">You cannot undo this step.</span></span> 
   
 

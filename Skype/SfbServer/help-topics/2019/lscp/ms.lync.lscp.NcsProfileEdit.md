@@ -6,25 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.NcsProfileEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: 217d4742378ea10afe144e6b5ac510c4adf1533e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5760460ca660c03520ecd48e4bcdee1778031ac3
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691029"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795665"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="945a7-104">Profil de stratégie de bande passante : en créer une autre ou en modifier une existante</span><span class="sxs-lookup"><span data-stu-id="945a7-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="6b5e4-104">Profil de stratégie de bande passante : en créer une autre ou en modifier une existante</span><span class="sxs-lookup"><span data-stu-id="6b5e4-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="945a7-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="945a7-105">What do you want to do?</span></span> <span data-ttu-id="945a7-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="945a7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6b5e4-105">Que voulez-vous faire ?</span><span class="sxs-lookup"><span data-stu-id="6b5e4-105">What do you want to do?</span></span> <span data-ttu-id="6b5e4-106">Cliquez sur le lien de la tâche que vous voulez effectuer.</span><span class="sxs-lookup"><span data-stu-id="6b5e4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="945a7-107">Configuration du profil de la stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="945a7-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="6b5e4-107">Configuration du profil de la stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="6b5e4-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

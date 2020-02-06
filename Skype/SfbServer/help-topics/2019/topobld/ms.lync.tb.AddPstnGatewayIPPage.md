@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option Activer IPv4 ou activer IPv6. Vous pouvez choisir d’utiliser toutes les adresses IP configurées ou les services limités aux adresses IP sélectionnées.
-ms.openlocfilehash: 7c92f3b73421dcfe078594a8c3872c8f62efb3a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c55c5aea5659845fc0ad4e519e3382065ae9371e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689033"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794373"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="82acb-104">Définir l’adresse IP de la passerelle IP ou PSTN</span><span class="sxs-lookup"><span data-stu-id="82acb-104">Define the IP Address of the IP or PSTN Gateway</span></span>
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="1cacd-104">Définir l’adresse IP de la passerelle IP ou PSTN</span><span class="sxs-lookup"><span data-stu-id="1cacd-104">Define the IP Address of the IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="82acb-105">Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option **activer IPv4** ou **activer IPv6**.</span><span class="sxs-lookup"><span data-stu-id="82acb-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="82acb-106">Vous pouvez choisir d' **utiliser toutes les adresses IP configurées ou les** **services limités aux adresses IP sélectionnées**.</span><span class="sxs-lookup"><span data-stu-id="82acb-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
+<span data-ttu-id="1cacd-105">Pour définir les adresses IPv4 ou IPv6 de la passerelle RTC (réseau téléphonique commuté), sélectionnez l’option **activer IPv4** ou **activer IPv6**.</span><span class="sxs-lookup"><span data-stu-id="1cacd-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="1cacd-106">Vous pouvez choisir d' **utiliser toutes les adresses IP configurées ou les** **services limités aux adresses IP sélectionnées**.</span><span class="sxs-lookup"><span data-stu-id="1cacd-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
 
-<span data-ttu-id="82acb-107">Si vous sélectionnez **utiliser toutes les adresses IP configurées**, toutes les adresses configurées sur la passerelle seront utilisées.</span><span class="sxs-lookup"><span data-stu-id="82acb-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="82acb-108">Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées**, ce qui active l’entrée d' **adresse IP PSTN** .</span><span class="sxs-lookup"><span data-stu-id="82acb-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="82acb-109">Entrez l’adresse IPv4 ou IPv6 qui a été attribuée pour cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="82acb-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
+<span data-ttu-id="1cacd-107">Si vous sélectionnez **utiliser toutes les adresses IP configurées**, toutes les adresses configurées sur la passerelle seront utilisées.</span><span class="sxs-lookup"><span data-stu-id="1cacd-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="1cacd-108">Vous pouvez également sélectionner **limiter l’utilisation du service aux adresses IP sélectionnées**, ce qui active l’entrée d' **adresse IP PSTN** .</span><span class="sxs-lookup"><span data-stu-id="1cacd-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="1cacd-109">Entrez l’adresse IPv4 ou IPv6 qui a été attribuée pour cette passerelle.</span><span class="sxs-lookup"><span data-stu-id="1cacd-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="82acb-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="82acb-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1cacd-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1cacd-110">See also</span></span>
 
-[<span data-ttu-id="82acb-111">Exigences relatives aux conférences rendez-vous</span><span class="sxs-lookup"><span data-stu-id="82acb-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[<span data-ttu-id="1cacd-111">Exigences relatives aux conférences rendez-vous</span><span class="sxs-lookup"><span data-stu-id="1cacd-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
