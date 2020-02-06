@@ -8,21 +8,20 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.VoiceInfrastructure
-- ms.lync.plan.VoiceInfrastructure
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype entreprise Server 2015 fournit une connectivité PSTN fiable et évolutive à l’aide de Trunks SIP, de connexions SIP directes vers une passerelle PSTN ou de connexions SIP directes vers un PBX. Pour plus d’informations, reportez-vous à la rubrique planification de la connectivité PSTN dans Skype entreprise Server 2015.
-ms.openlocfilehash: 4d4e2de7f9c48cd2fcd8f4e6480e91e4f3b8b27f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5f291755f2007a114e4fad3970d4ea5c1ea82ba4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707469"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816263"
 ---
-# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="ed5a4-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="ed5a4-104">Voice Infrastructure (Planning Tool)</span></span>
+# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="e9941-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="e9941-104">Voice Infrastructure (Planning Tool)</span></span>
  
-<span data-ttu-id="ed5a4-105">Skype entreprise Server 2015 fournit une connectivité PSTN fiable et évolutive à l’aide de Trunks SIP, de connexions SIP directes vers une passerelle PSTN ou de connexions SIP directes vers un PBX.</span><span class="sxs-lookup"><span data-stu-id="ed5a4-105">Skype for Business Server 2015 provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="ed5a4-106">Pour plus d’informations, reportez-vous à la rubrique [planification de la connectivité PSTN dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span><span class="sxs-lookup"><span data-stu-id="ed5a4-106">For details, see [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
+<span data-ttu-id="e9941-105">Skype entreprise Server 2015 fournit une connectivité PSTN fiable et évolutive à l’aide de Trunks SIP, de connexions SIP directes vers une passerelle PSTN ou de connexions SIP directes vers un PBX.</span><span class="sxs-lookup"><span data-stu-id="e9941-105">Skype for Business Server 2015 provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="e9941-106">Pour plus d’informations, reportez-vous à la rubrique [planification de la connectivité PSTN dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span><span class="sxs-lookup"><span data-stu-id="e9941-106">For details, see [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
   
 
