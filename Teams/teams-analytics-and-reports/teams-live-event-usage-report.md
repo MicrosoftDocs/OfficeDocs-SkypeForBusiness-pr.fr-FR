@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du centre d’administration Microsoft teams dans le centre d’administration Microsoft teams pour avoir une vue d’ensemble des activités d’événements en direct au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571146"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827242"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Rapport sur l’utilisation des événements Microsoft teams Live
 

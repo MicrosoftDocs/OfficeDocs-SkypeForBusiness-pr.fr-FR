@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Utilisez ce modèle de courrier pour communiquer aux utilisateurs de votre organisation la transition de Microsoft StaffHub vers Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569653"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825772"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub vers équipes exemples de courrier électronique aux utilisateurs
 
@@ -56,7 +58,7 @@ Si vous avez besoin d’une aide immédiate, &lt;Contactez le support&gt;techniq
 
 ***
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Planifier le déplacement de vos équipes de StaffHub vers Shifts dans Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 - [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](move-staffhub-teams-to-shifts-in-teams.md)

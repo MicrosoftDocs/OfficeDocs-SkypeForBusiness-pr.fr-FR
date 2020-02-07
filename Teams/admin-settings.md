@@ -11,21 +11,21 @@ ms.reviewer: ritikag, rarang
 description: En savoir plus sur les stratégies et les paramètres que vous pouvez utiliser pour gérer des applications pour votre organisation dans Microsoft Teams.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
-f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.adminsettings
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
+f1.keywords:
+- CSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b857d0b1c0ded68bc74831d1596c78ff1d8e5907
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d85aa5435d05d5f296b06e56841a2e10c7ddd413
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826872"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================

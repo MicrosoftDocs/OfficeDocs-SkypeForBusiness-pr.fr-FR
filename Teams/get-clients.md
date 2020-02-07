@@ -13,16 +13,18 @@ ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS).
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628540"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833764"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 

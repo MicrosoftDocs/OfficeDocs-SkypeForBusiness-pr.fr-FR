@@ -10,20 +10,22 @@ ms.reviewer: ''
 search.appverid: MET150
 description: Apprenez à gérer les paramètres utilisateur et à l’échelle du client pour les équipes lors de la transition de l’utilisation de teams dans le centre d’administration Microsoft 365 vers le nouveau centre d’administration Microsoft Teams.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
-f1.keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+- ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1a914fbfe393c01d7f2024c2890e11e0d8678e23
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708372"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833124"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================

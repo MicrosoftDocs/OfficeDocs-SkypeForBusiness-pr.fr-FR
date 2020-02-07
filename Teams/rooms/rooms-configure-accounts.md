@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
 description: Consultez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft teams dans Exchange et Skype entreprise.
-ms.openlocfilehash: 473eb6de8b3e680487cee5ebe9e052fa179a619e
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268888"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825942"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles de Microsoft teams
  

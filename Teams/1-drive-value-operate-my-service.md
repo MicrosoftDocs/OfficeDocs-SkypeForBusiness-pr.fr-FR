@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Tâches et activités requises pour la gestion des services d’équipe, y compris la surveillance de l’état du service, l’évaluation et la qualité du réseau et son utilisation.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826982"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
@@ -39,7 +41,7 @@ La gestion des services englobe toutes les activités et processus impliqués da
 
 Les tâches et les activités de ce guide sont regroupées en huit catégories, comme illustré dans le schéma suivant. Chacune de ces catégories sera développée sur les sections suivantes.
 
-![Diagramme illustrant une liste de catégories de tâches et d’activités](media/operate-my-service-image1.png "graphique illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
+![Diagramme illustrant une liste de catégories de tâches et d’activités](media/operate-my-service-image1.png "Diagramme illustrant une liste de catégories de tâches et d’activités que la gestion de service pour teams comporte. Le diagramme montre également que la gestion des services est essentiellement une tâche client.")
 
 
 <table>
@@ -251,7 +253,7 @@ Les deux autres rapports sont spécifiques aux équipes et fournissent des infor
 
 #### <a name="required-permissions"></a>Autorisations requises
 
-Les rapports d’utilisation du centre d’administration sont accessibles aux personnes qui ont été affectées d’un rôle d' **administrateur général** ou d’un rôle d’administrateur spécifique au produit (**administrateur Exchange**, **administrateur Skype entreprise**, **SharePoint administrateur**).
+Les rapports d’utilisation du centre d’administration sont accessibles aux personnes qui ont été affectées d’un rôle d' **administrateur général** ou à un rôle d’administrateur spécifique à un produit (**administrateur Exchange**, **administrateur Skype entreprise**ou **administrateur SharePoint**).
 
 De plus, le rôle de **lecteur de rapports** est disponible pour les utilisateurs qui ont besoin d’accéder aux rapports, mais n’effectue pas de tâches qui nécessitent des autorisations au niveau de l’administrateur. Vous attribuez ce rôle pour fournir des rapports d’utilisation à toute personne qui est une partie prenante, surveiller et conduire une adoption. Pour plus d’informations sur les différents rôles disponibles, voir [à propos des rôles d’administrateur Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -316,7 +318,7 @@ NPS est un index, allant de-100 à 100, qui mesure la volonté d’un client de 
 
 -   Entre 1 et 6 : les détenteurs qui peuvent endommager votre service et entraver la croissance.
 
-![Diagramme montrant l’échelle NPS](media/operate-my-service-image2.png "ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
+![Diagramme illustrant l’échelle NPS](media/operate-my-service-image2.png "Ce diagramme montre l’échelle NPS. Il indique que les rangs de 0 à 6 sont des tracteurs de 0 à 6 sont passifs et les promoteurs 9 à 10.")
 
 Même si le numéro NPS de base est utile, vous obtiendrez la plus grande valeur de l’analyse des commentaires des utilisateurs. Ils vous aideront à comprendre la raison pour laquelle l’utilisateur serait (ou aurait) recommander des équipes. Ces commentaires peuvent fournir des commentaires intéressants pour aider les équipes de gestion de projet ou de service à comprendre les ajustements nécessaires pour fournir un service qualité.
 
@@ -548,7 +550,7 @@ Par défaut, tous les utilisateurs disposant d’une boîte aux lettres dans Exc
 
 Le [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide) inclut un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact élevé sur l’amélioration de l’interface utilisateur, comme illustré ci-dessous.
 
-![Diagramme des zones à examiner lors d’une qualité d’utilisation examinez](media/plan-my-service-management-image2.png "les principales zones à examiner lors d’une évaluation de qualité d’utilisation : audio, fiabilité et résultats de l’enquête utilisateur.")
+![Diagramme des zones à examiner lors d’une évaluation de qualité de l’expertise](media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation : audio, fiabilité et résultats d’une enquête utilisateur.")
 
 En évaluant et en révisant en permanence les zones décrites dans le guide, vous pouvez réduire leur potentiel pour une utilisation négative de l’utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

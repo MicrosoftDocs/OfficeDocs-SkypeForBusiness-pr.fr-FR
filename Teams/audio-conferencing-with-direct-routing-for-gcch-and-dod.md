@@ -15,14 +15,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Découvrez comment utiliser les fonctionnalités d’audioconférence avec le routage direct dans les environnements GCCH et DoD.
-ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992894"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825652"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconférence avec routage direct pour GCC High et DoD
 

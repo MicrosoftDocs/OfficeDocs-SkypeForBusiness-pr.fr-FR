@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Gestion des mises à jour Windows pour les salles de Microsoft teams
-ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628560"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827912"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 

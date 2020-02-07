@@ -9,18 +9,20 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Apprenez à exécuter un rapport pour obtenir la liste des utilisateurs de StaffHub actifs au sein de votre organisation.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826692"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>Exécuter un rapport pour afficher l’utilisation effective de StaffHub
 
@@ -39,6 +41,6 @@ Pour pouvoir effectuer les étapes décrites dans cet article, vous devez dispos
 
     ![Capture d’écran montrant les étapes d’affichage de l’utilisation de StaffHub active](../../media/staffhub-active-usage-report.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams](move-staffhub-teams-to-shifts-in-teams.md)

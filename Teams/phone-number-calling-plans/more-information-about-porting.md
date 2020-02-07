@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les conseils nécessaires pour porter vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925195"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827962"
 ---
 # <a name="more-information-about-porting"></a>Plus d’informations sur le portage
 
@@ -108,7 +110,7 @@ Lorsque vous envoyez une demande de transfert, vous devez utiliser un fichier CS
 
 [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

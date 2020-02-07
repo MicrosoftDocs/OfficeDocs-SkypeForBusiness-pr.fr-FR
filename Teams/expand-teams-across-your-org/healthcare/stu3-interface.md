@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569242"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827632"
 ---
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
@@ -71,7 +73,7 @@ Outre les [champs Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefi
 2. Nom. préfixe
 3. [GeneralPractitioner] : la référence GeneralPractitioner doit être incluse dans la ressource patient (champ d’affichage uniquement)
 
-Une recherche de ressource utilise la méthode POST sur/patient/_search et les paramètres suivants :
+Une recherche de ressource utilise la méthode POST à/patient/_search et les paramètres suivants :
 
 1. ID
 2. famille = (recherche tous les patients dont le nom de famille contient la valeur)
@@ -92,16 +94,16 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
 * * *
 
-    Request : POST <fhir-Server> le corps de la requête/patient/_search : fourni = Ruth&Family = Black
+    Request : POST <fhir-Server>/patient/_search corps de la requête : fourni = Ruth&Family = Black
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "meta" : {"lastUpdated" : "2019-01-14T23:44:45.052 + 00:00"}, "tapez", "searchset", "total" : 1, "lien" : [{"relation" : "Self", "URL" : <fhir-Server>/patient/_search "})," entry " : [{" fullUrl " : <fhir-Server>/patient/<patient-ID>", "ressource" : {"resourceType" : "patient", "identifiant" : "<patient-ID>", "meta" : {"versionId" : "1", "lastUpdated" : "2017-10-18T18:32:37.000 + 00:00"}, "texte" : {"État" : "generated", "div" : "<div>\n        <p>Noir Ruth</p>\n      </div>"}," identificateur " : [{" use " :" usuelle "," type " : {" codage " : [{" système " :"http://hl7.org/fhir/v2/0203"," code " :" Mr "," Display "," ",", "userSelected" : false]), "texte" : "le numéro de l’enregistrement médical"}, "système"http://hospital.smarthealthit.org: "", "valeur" : "1234567" nom " : [{" use " :" Official "," Family "," Black "," donné " : [" Ruth "," C "
-    ]}], "Telecom" : [{"système" : "téléphone", "value" : "800-599-2739", "utiliser" : "maison"}, {"système" : "téléphone", "valeur" : "800-808-7785", "utilisation" : "mobile"}, {"système" : "« Ruth.Black@example.com »)," sexe ";" ";" ";" "" 1951-08-23 adresse : [{"use" : "Home", "Line" : ["26 South RdApt 22"], "City", "", "France", "", "Country" : "74066", "Country" : "USA"})}, "match"}})} "
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "meta" : {"lastUpdated" : "2019-01-14T23:44:45.052 + 00:00"}, "tapez" : "searchset", "total" : 1, "Self", "URL" : « auto », « URL » : <fhir-Server>/patient/_search "}]," entrée " : [{" fullUrl " : <fhir-Server>/patient/<patient-ID>", "ressource" : {"resourceType" : "patient", "ID" : "<patient-ID>", "meta" : {"versionId" : "1", "lastUpdated" : "2017-10-18T18:32:37.000 + 00:00"}, "texte" : {"Status" : "generated", "div" : "<div>\n        <p>Noir Ruth</p>\n      </div>"}," identificateur " : [{" use " :" usuelle "," type " : {" codification " : [{" System " :"http://hl7.org/fhir/v2/0203"," code " :" Mr "," Display "," "userSelected" : false}], "texte" : "http://hospital.smarthealthit.org", "", "", "", "", "valeur" : "1234567"}], "actif" : vrai, "nom" : "" ";" ""; ""; ""; "" ";"
+    ]}], "Telecom" : [{"système" : "téléphone", "valeur" : "800-599-2739", "utiliser" : "maison"}, {"système" : "téléphone", "valeur" : "800-808-7785", "utiliser" : "mobile"}, {"système" : "ruth.black@example.com" = "" valeur "femelle", "DateNaissance" : "1951-08-23", "adresse" : [{"utiliser" : "maison", "ligne" : ["26 South RdApt 22"], "ville" : "sapâtea", "État" : "OK", "CodePostal" : "74066", "Country" : "USA"}]), "Search" : {"mode" : "match"}})}
 
 * * *
 
     Demande : obtenez <fhir-Server>/patient/<patient-ID>
     
-    Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>", "identificateur" : [{"utilisation" : "habituellement", "type" : {"code" : [{"système" : "http://hl7.org/fhir/v2/0203", "code" : "Mr",}], "texte" : "nom"}, "valeur" : "1234567"}), "nom" : "" famille " :" Adams "," fourni " : [" Michel ";" X. " ]}], "sexe" : "mâle", "DateNaissance" : "1925-12-23",}
+    Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>", "identificateur" : [{"use" : "usuelle", "type" : {"codage" : [{"système" : "http://hl7.org/fhir/v2/0203", "code" : "Mr",}], "texte" : "le numéro de l’enregistrement médical"}, "valeur" : "1234567"}], "nom" : [{"utiliser" : "officiel", "famille" : "Adams", ""» : "Michel", "X." ]}], "sexe" : "mâle", "DateNaissance" : "1925-12-23",}
 
 * * *
 
@@ -132,7 +134,7 @@ Reportez-vous à cet exemple de l’appel :
 
     Demande : obtenez <fhir-Server>/observation ? patient =<patient-ID>&catégorie = vitaux-signes
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "tapez" : "searchset", "total" : 20, "entrée" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-ID>", "category" : "http://hl7.org/fhir/observation-category", "code" : "", "code" : " les signes vitaux "}],}]," code " : {" codage " : [{" système " :"http://loinc.org"," code " :" 8867-4 "," Display " :" heart_rate "}])," effectiveDateTime " :" 2009-04-08T00:00:00-06:00 "," valueQuantity " : {" value " : 72,0," Unit " :" {temps} minute "," système "http://unitsofmeasure.org
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 20, "entrée" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-ID>", "category" : [{"code" : [{"System", "http://hl7.org/fhir/observation-category", "code" : "" code " : {" Coding " : [{" System " :"http://loinc.org"," code " :" 8867-4 "," display " :" heart_rate "}]}," effectiveDateTime " :" 2009-04-08T00:00:00-06:00 "," valueQuantity " : {" value " : 72,0," Unit " :" {temps} minute "," système " :"http://unitsofmeasure.org",}}},.
         .
         .
       ] }
@@ -155,7 +157,7 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
 1. patient =\<ID du patient>
-2. _count =\<résultats Max>
+2. _count =\<résultats maximum>
 
 Pour plus d’informations, reportez-vous à l’exemple suivant :
 
@@ -163,7 +165,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/condition ? patient =<patient-ID>&_count = 10
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "tapez" : "searchset", "total" : 2, "entrée" : [{"ressource" : {"resourceType" : "condition", "ID" : "<-ID>", "code" : {"code" : "185903001" : "http://snomed.info/sct", "code" : "", " Affichage «  : » a besoin de l’immunisation de la grippe»,}]}, « gravité » : {"codage" : [{"http://snomed.info/sctSystem" : "", "code" : "24484000", "Display" : "sévère"}}), "assertedDate" : "2018-04-04"}};
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 2, "entry" : [{"Resource" : {"resourceType" = "condition", "ID" : "<-ID>", "code" : {"code"http://snomed.info/sct"," code " :" 185903001 "," Display " :" nécessite une immunisation de la grippe ",}]}," gravité " : {" codage " : [{" System " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" assertedDate "}}," " :" 2018-04-04 "}};
         .
         .
       ] }
@@ -187,7 +189,7 @@ Une recherche de ressource utilise la méthode GET et les paramètres suivants 
 
 1. patient =\<ID du patient>
 2. _sort : DESC =\<champ ex. Date>
-3. _count =\<résultats Max>
+3. _count =\<résultats maximum>
 
 L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence inclut également le champ d’affichage de l’emplacement.
 
@@ -219,7 +221,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "clinicalStatus" rificationStatus " :" confirme "," code " : {" code " : [{" System " :"http://rxnav.nlm.nih.gov/REST/Ndfrt"," code " :" N0000175503 "," Display " :" sulfonamide antibactérienne ",}]," texte " :" sulfonamide ant " ibacterial "}," assertedDate " :" 2018-01-01T00:00:00-07:00 "," réaction " : [" système " :" {"code" : [{"System" : "http://snomed.info/sct", "code" :  "271807003", "Display" : "Skin rash",}], "texte" : "Skin rash"}})}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "AllergyIntolerance", "ID" : "<-ID de ressource-ID>", "clinicalStatus" : "actif", "verificationStatus" : "", "" : {"," code " :" N0000175503 "http://rxnav.nlm.nih.gov/REST/Ndfrt," "," code " :" "," "," code " ibacterial "}," assertedDate " :" 2018-01-01T00:00:00-07:00 "," réaction " : [{" de manifeste " : [{" code " : [{" System " :"http://snomed.info/sct"," code " :" 271807003 "," Display " :" Skin rash ",}]," Text " :" Skin rash "}})}
 
 * * *
 
@@ -242,7 +244,7 @@ Outre les champs de base américaine, l’application patients peut également l
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
 1. patient =\<ID du patient>
-2. _count =\<résultats Max>
+2. _count =\<résultats maximum>
 
 Pour [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) plus d’informations sur ce jeu de champs, voir.
 

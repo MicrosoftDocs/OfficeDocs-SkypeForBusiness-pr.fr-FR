@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Prise en main de Teams pour les organismes de santé
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569231"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827622"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -38,7 +40,7 @@ Le contenu de cette section repose sur les fonctionnalités de base de teams, te
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft teams dispose désormais d’une solution de coordination de soins adaptée aux organisations de santé pour leur permettre d’offrir la meilleure assistance pour le patient. Le Crux de la solution de coordination de soins, l’application patients de Microsoft Teams, est une application de l’onglet première partie qui s’intègre aux systèmes de contrôle de l’intégrité électronique (DMI) à l’aide d’une interface[FHIR](https://www.hl7.org/fhir/)(Fast Healthcare Interoperability Resources) pour s’avérer utile. informations médicales dans Microsoft teams dans le contexte pour favoriser la collaboration et la communication cliniques.  
+Microsoft teams dispose désormais d’une solution de coordination de soins adaptée aux organisations de santé pour leur permettre d’offrir la meilleure assistance pour le patient. Le Crux de la solution de coordination des soins, l’application Microsoft teams patients, est une application de l’onglet première partie qui s’intègre aux systèmes de dossiers d’intégrité par voie électronique (DMI) à l’aide d’une interface[FHIR](https://www.hl7.org/fhir/)(Fast Healthcare Interoperability Resources) pour permettre une collaboration et une communication cliniques.  
 
 La solution de coordination de soins peut communiquer avec des éditeurs de logiciels indépendants leaders (ISV) qui peuvent connecter l’application patients à vos systèmes DMI en utilisant des normes de données d’état actuelles telles que HL7v2 et FHIR. Les partenaires Microsoft disposant des leaders suivants pour établir une intégration d’une santé électronique aux équipes :
 

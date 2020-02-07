@@ -13,16 +13,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur la configuration matérielle requise pour l’installation et l’exécution de Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 64fc1698b4eda804825342708d430bd4b9dbcff9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111348"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833164"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -92,7 +94,7 @@ Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version 
 
 Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 - [Obtenir des applications teams](get-clients.md)
 - [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)

@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment configurer et gérer l’application Shifts dans teams pour terrain travailleurs de votre organisation.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831166"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
@@ -77,11 +79,11 @@ Pour afficher la stratégie FirstlineWorker, dans le volet de navigation de gauc
 2. En regard de **stratégies affectées**, choisissez **modifier**.
 3. Sous **stratégie de configuration des applications teams**, sélectionnez **FirstlineWorker**, puis cliquez sur **Enregistrer**.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Affecter la stratégie de configuration de l’application FirstlineWorker aux utilisateurs d’un groupe
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Affectez la stratégie de configuration de l’application FirstlineWorker aux membres des utilisateurs d’un groupe.
 
-Vous pouvez affecter la stratégie de configuration de l’application FirstlineWorker aux utilisateurs d’un groupe, tel qu’un groupe de sécurité, en vous connectant au service Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](../../teams-powershell-overview.md).
+Vous pouvez affecter la stratégie de configuration de l’application FirstlineWorker aux membres des utilisateurs d’un groupe, comme un groupe de sécurité, en vous connectant au service Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](../../teams-powershell-overview.md).
 
-Dans cet exemple, nous affectons la stratégie de configuration de l’application FirstlineWorker à tous les utilisateurs du groupe d’équipes contoso terrain.
+Dans cet exemple, nous affectons la stratégie d’installation de l’application FirstlineWorker à tous les membres du groupe d’équipes contoso terrain.
 
 > [!NOTE]
 > Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -94,11 +96,11 @@ Obtenez les membres du groupe spécifié.
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Assignez tous les utilisateurs du groupe à la stratégie de configuration de l’application FirstlineWorker.
+Affectez la stratégie de configuration de l’application FirstlineWorker à tous les membres de ce groupe.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 - [Aide sur les équipes pour les travailleurs terrain](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

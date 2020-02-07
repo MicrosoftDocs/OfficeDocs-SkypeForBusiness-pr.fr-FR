@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
-ms.openlocfilehash: d63145cf6a8c761b4454fff212bd0e593ac8f395
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571212"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826682"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Organisations GOV, EDU et à but non lucratif
 

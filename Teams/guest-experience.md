@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753429"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833234"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -59,19 +61,19 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 
 | Fonction d’appel | Dactylo | Utilisateurs E1 et E3 | E5 et utilisateur voix entreprise |
 | --------------- | ----- | -------------- | -------------- |
-| Appels VOIP | Oui | Oui | Oui |
-| Appels de groupe | Oui | Oui | Oui |
-| Commandes d’appel principales prises en charge (mise en attente, muet, vidéo activées, partage d’écran) | Oui | Oui | Oui |
-| Destination du transfert | Oui | Oui | Oui |
-| Peut transférer un appel | Oui | Oui | Oui |
-| Possibilité de transférer des conseils | Oui | Oui | Oui |
-| Peut ajouter d’autres utilisateurs à un appel via le protocole VOIP | Oui | Oui | Oui |
+| Appels VOIP | Oui | Oui  | Oui  |
+| Appels de groupe | Oui | Oui  | Oui  |
+| Commandes d’appel principales prises en charge (mise en attente, muet, vidéo activées, partage d’écran) | Oui | Oui  | Oui  |
+| Destination du transfert | Oui | Oui  | Oui  |
+| Peut transférer un appel | Oui | Oui  | Oui  |
+| Possibilité de transférer des conseils | Oui | Oui  | Oui  |
+| Peut ajouter d’autres utilisateurs à un appel via le protocole VOIP | Oui | Oui  | Oui  |
 | Peut ajouter des utilisateurs par numéro de téléphone à un appel | Non | Non | Oui |
-| Destination directe | Non | Oui | Oui |
-| Cible du groupe d’appels | Non | Oui | Oui |
-| Cible sans réponse | Non | Oui | Oui |
-| Peut être la cible d’un appel fédéré | Non | Oui | Oui |
-| Possibilité d’effectuer un appel fédéré | Non | Oui | Oui |
+| Destination directe | Non | Oui | Oui  |
+| Cible du groupe d’appels | Non | Oui | Oui  |
+| Cible sans réponse | Non | Oui | Oui  |
+| Peut être la cible d’un appel fédéré | Non | Oui | Oui  |
+| Possibilité d’effectuer un appel fédéré | Non | Oui | Oui  |
 | Peut immédiatement transférer ses appels | Non | Non | Oui |
 | Peuvent sonner simultanément dans leurs appels | Non | Non | Oui |
 | Peut acheminer les appels sans réponse | Non | Non | Oui |
@@ -91,7 +93,7 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
 > [!NOTE]
 > Les administrateurs d'Office 365 contrôlent les fonctionnalités disponibles pour les invités. 
 
-## <a name="frequently-asked-questions"></a>Forum aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>Comment puis-je laisser une organisation à laquelle j’ai été invité ?
 Si vous avez été invité à une organisation dont vous ne voulez pas être invité, vous pouvez choisir de quitter l’organisation. Pour plus d’informations, voir [quitter une organisation en tant qu’utilisateur invité](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Par ailleurs, vous pouvez demander à l’administrateur de l’organisation de vous supprimer de son locataire. Notez que, dans tous les cas, vous devrez être réinvité pour le client si vous souhaitez accéder à l’organisation ultérieurement.

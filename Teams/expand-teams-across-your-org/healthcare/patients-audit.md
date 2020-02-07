@@ -7,20 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749546"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827612"
 ---
-# <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application patients
+# <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
 Le journal d’audit de l’activité des applications patient permet aux équipes de réponse après incident de passer en revue les modifications apportées aux dossiers médicaux électroniques d’un patient ou aux informations médicales du patient (PHI) et de déterminer si les modifications ou les améliorations apportées à la politique ou la procédure pour l’accès PHI en. des outils de productivité sont nécessaires. Les événements du journal d’audit traitent les actions effectuées par le biais de l’interface utilisateur de l’application patients.
 
@@ -76,7 +78,7 @@ Vous pouvez personnaliser votre audit selon vos besoins pour effectuer une reche
 
 Les activités journalisées de Microsoft teams sont décrites dans [activités de Microsoft teams](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Effectuer une recherche dans le journal d’audit Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 

@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827667"
 ---
 # <a name="patients-app-overview"></a>Présentation de l’application Patients
 
@@ -66,6 +68,6 @@ Pas pour l’instant, mais cette fonctionnalité sera bientôt disponible.
 
 Oui, c’est. Chaque action de l’interface utilisateur exécutée par un utilisateur de Microsoft teams sur l’application patients est auditée et disponible dans le centre de sécurité et conformité. Les détails sont décrits dans [cet article.](patients-audit.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

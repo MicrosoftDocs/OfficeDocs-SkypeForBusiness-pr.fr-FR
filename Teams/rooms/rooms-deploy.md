@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628260"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825962"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 

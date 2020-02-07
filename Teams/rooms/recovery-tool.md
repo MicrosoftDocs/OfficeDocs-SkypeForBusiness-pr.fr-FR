@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge.
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831176"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
@@ -27,7 +29,7 @@ Cet article explique comment utiliser l’outil de récupération pour les salle
 Téléchargez le dernier [package d’installation de Microsoft teams](https://go.microsoft.com/fwlink/?linkid=851168) , puis récupérez-le sur une clé USB ou un partage réseau accessible à partir de l’appareil Microsoft Teams.
 
 > [!NOTE]
-> L’extraction des fichiers à partir du MSI peut être effectuée de diverses manières. Tout mécanisme qui extrait tous les fichiers et conserve leur structure d’annuaire est acceptable. Par exemple, vous pouvez utiliser la commande `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` où `PathToMsi` correspond au chemin d’accès complet au package d’installation de Microsoft Teams, puis `PathToTarget` correspond au chemin d’accès complet au dossier dans lequel vous voulez extraire les fichiers.
+> L’extraction des fichiers à partir du MSI peut être effectuée de diverses manières. Tout mécanisme qui extrait tous les fichiers et conserve leur structure d’annuaire est acceptable. Par exemple, vous pouvez utiliser la commande `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` où `PathToMsi` correspond au chemin d’accès complet au package d’installation de Microsoft Teams, puis `PathToTarget` correspond au chemin d’accès complet au dossier dans lequel vous voulez extraire les fichiers.
 
 ## <a name="running-the-tool"></a>Exécution de l’outil
 

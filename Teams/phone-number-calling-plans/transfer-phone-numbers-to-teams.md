@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827932"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transfert de numéros de téléphone dans Microsoft teams
 
 Utilisez l’Assistant de Portage dans le centre d’administration de Microsoft teams pour transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous transférez vos numéros de téléphone vers Teams, Microsoft deviendra votre fournisseur de services et vous facturera ces numéros de téléphone.
 
-Avant de commencer, nous vous conseillons de passer en revue les informations relatives à [une demande](port-order-overview.md)de transfert. Si vous disposez de numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou d’autres numéros de service, les numéros de téléphone gratuits ou dont vous avez plus de 999, vous devez transférer des numéros de téléphone dans Teams, reportez-vous à [la rubrique gestion des numéros de téléphone pour votre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires appropriés et nous les envoyer.
+Avant de commencer, nous vous conseillons de passer en revue les informations relatives à [une demande](port-order-overview.md)de transfert. Si vous disposez de numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou d’autres numéros de service, les numéros de téléphone gratuits ou dont vous avez plus de 999, vous devez transférer les numéros de téléphone de votre organisation, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires appropriés et nous les envoyer.
 
   > [!NOTE]
   > Les commandes de port ne sont traitées pour le transfert des numéros de téléphone qu’aux États-Unis et non aux jours fériés et week-end publics.
@@ -87,7 +89,7 @@ Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier �
 
 Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

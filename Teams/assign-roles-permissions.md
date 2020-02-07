@@ -9,17 +9,19 @@ ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: Découvrez comment assigner des rôles et des autorisations de propriétaire et de membre d'équipe dans Microsoft Teams, notamment des autorisations de création d'équipes.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968065"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826102"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================

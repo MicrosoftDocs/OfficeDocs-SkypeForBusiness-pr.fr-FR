@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
-ms.openlocfilehash: e428b54f1a91c8443000dafa3270d2283dc1d029
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268926"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826262"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Déploiement :::no-loc text="Microsoft Teams Rooms"::: de la gestion avec:::no-loc text="Azure Monitor":::
 

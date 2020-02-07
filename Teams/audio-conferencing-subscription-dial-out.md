@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: 'Les clients disposent d’une fonctionnalité de numérotation supplémentaire qui prendra fin le 30 novembre 2019.  À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois à l’un des pays/régions comme décrit dans le présent document. '
-ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e10f50a5b11ce6c490a4bd4e195709425ca8e33
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695649"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826242"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Abonnement à la conférence audio « dial-out »/«appelez-moi au
 

@@ -11,15 +11,17 @@ ms.collection:
 - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43105db9a4e12d658bf5cf2e9c2c8897fdc918e3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d85bef224966d15a6c383163d9ac4a5dd5ed126c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989789"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833794"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
@@ -100,6 +102,6 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche eDiscovery.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

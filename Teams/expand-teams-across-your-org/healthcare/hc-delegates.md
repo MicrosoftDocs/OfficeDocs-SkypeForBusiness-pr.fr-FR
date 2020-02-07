@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Un utilisateur peut définir explicitement un autre utilisateur comme délégué dans son message d’État.
-ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570357"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827782"
 ---
 # <a name="message-delegation"></a>Délégation de messages
 
@@ -61,6 +63,6 @@ Skype entreprise ne prend pas en charge les délais d’expiration des notes.
 
 La migration de notes de Skype entreprise vers teams n’est pas prise en charge lorsque l’utilisateur a procédé à la mise à niveau vers le mode TeamsOnly.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Coexistence avec Skype Entreprise](../../coexistence-chat-calls-presence.md)

@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de l’application patients
+title: Présentation de l’application Patients
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569289"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827652"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
@@ -61,13 +63,13 @@ Les sections suivantes décrivent les exigences de la couche d’accès aux donn
 
 ### <a name="authentication"></a>Authentification  
 
-L’autorisation au niveau *de l’application sans prise en charge de l’autorisation au niveau de l’utilisateur* est la méthode la plus courante pour effectuer des transformations de données et exposer les connexions aux données DMI via FHIR, même si le système DMI peut implémenter une autorisation au niveau de l’utilisateur. . Le service d’interopérabilité (partenaire) obtient un accès élevé aux données DMI et, lorsqu’il expose les mêmes données que les ressources FHIR appropriées, qu’il n’y a aucun contexte d’autorisation transmis au consommateur de services d’interopérabilité (l’application patients) intégrant l’interopérabilité Service ou plateforme. L’application patients ne sera pas en mesure de mettre en œuvre l’autorisation de niveau utilisateur, mais elle prend en charge l’authentification des applications entre l’application patients et le service du partenaire d’interopérabilité.
+L’autorisation au niveau *de l’application sans support pour l’autorisation au niveau de l’utilisateur* est la façon la plus courante de procéder à des transformations de données et d’exposer les connexions aux données DMI via FHIR, même si le système DMI peut implémenter une autorisation au niveau de l’utilisateur. Le service d’interopérabilité (partenaire) obtient un accès élevé aux données DMI et, lorsqu’il expose les mêmes données que les ressources FHIR appropriées, qu’il n’y a aucun contexte d’autorisation transmis au consommateur de services d’interopérabilité (l’application patients) intégrant l’interopérabilité Service ou plateforme. L’application patients ne sera pas en mesure de mettre en œuvre l’autorisation de niveau utilisateur, mais elle prend en charge l’authentification des applications entre l’application patients et le service du partenaire d’interopérabilité.
 
 Le modèle d’authentification des applications est décrit ci-dessous :
 
 L’authentification du service au service doit être réalisée par le biais du [flux d’informations d’identification du Client](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)2,0 OAuth. Le service partenaire doit fournir ce qui suit :
 
-1. Le service partenaire permet à l’application patients de créer un compte auprès du partenaire, qui permet à l’application patients de générer et de client_id et de client_secret, gérée par le biais d’un portail d’inscription d’auth sur le serveur d’authentification du partenaire.
+1. Le service partenaire permet à l’application patients de créer un compte auprès du partenaire, qui permet à l’application patients de générer client_id et de client_secret, gérée par le biais d’un portail d’inscription d’auth sur le serveur d’authentification du partenaire.
 2. Le service partenaire possède le système d’authentification/d’autorisation qui accepte et vérifie (authentifie) les informations d’identification du client fournies et renvoie un jeton d’accès avec l’indicateur de client dans l’étendue, comme décrit ci-dessous.
 3. Pour des raisons de sécurité, ou en cas de violation secrète, l’application patients peut régénérer le secret et invalider ou supprimer l’ancien secret (par exemple, il est disponible dans Azure Portal-inscription des applications AAD)
 4. Le point de terminaison de métadonnées qui héberge la déclaration de conformité doit être non authentifié, il doit être accessible sans jeton d’authentification.
@@ -77,7 +79,7 @@ L’authentification du service au service doit être réalisée par le biais du
     {"resourceType" : "CapabilityStatement",.
         .
         .
-        "Rest" : [{"mode" : "serveur", "sécurité" : {"extension" : [{"extension" : [{"URL" : "Token", "valueUri" : "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"URL" : "«autorisive", "valueUri" :https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}], "URL" :http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris""}), "service" : [{"Coding" : [{"System" :http://hl7.org/fhir/ValueSet/restful-security-service"", "code" : "OAuth" } ] } ] }, .
+        "Rest" : [{"mode" : "serveur", "sécurité" : {{"URL" : [{"extension" : [{"URL" : "Token", "valueUri" :https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL" : ""} "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize," URL "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris:" "}])," service " : [{" Coding " : [{" System " :"http://hl7.org/fhir/ValueSet/restful-security-service"," code " :" OAuth "})}]}
                 .
                 .
             } ] }
@@ -94,7 +96,7 @@ Une demande de jeton d’accès comprend les paramètres suivants :
 
 * * *
 
-Le service partenaire fournit l’application client_id et client_secret pour les patients, gérée par le biais d’un portail d’inscription d’authentification du côté du partenaire. Le service partenaire fournit le point de terminaison pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification client. Une réponse réussie doit inclure les paramètres token_type, access_token et expires_in.
+Le service partenaire fournit les client_id et les client_secret de l’application patients, gérés par le biais d’un portail d’inscription d’authentification du côté du partenaire. Le service partenaire fournit le point de terminaison pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification client. Une réponse réussie doit inclure les paramètres token_type, access_token et expires_in.
 
 ### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Routage : mappage du client AAD au point de terminaison du fournisseur
 
@@ -164,6 +166,6 @@ Une fois que vous avez créé le serveur Open source FHIR, il est très facile d
 
     ![Capture d’écran des paramètres de serveur de l’application patients](../../media/patients-server.png)
 
-5. Commencez à utiliser l’application pour rechercher des patients à partir du serveur FHIR/DMI et ajoutez-les à une liste, puis [faites-nous part de vos commentaires](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) en cas de dysfonctionnement. Par ailleurs, pour établir une version entièrement authentifié de l’application patients-> flux serveur FHIR, vous pouvez vous engager dans un dialogue hors connexion avec Microsoft teams pour l’ingénierie des produits pour la santé, par le biais de la demande de courrier électronique mentionnée plus haut pour clarifier les exigences et nous vous pour cela, vous devez vous en authentifier conformément aux exigences d’authentification décrites ci-dessus dans le document de l’interface FHIR.  
+5. Commencez à utiliser l’application pour rechercher des patients à partir du serveur FHIR/DMI et ajoutez-les à une liste, puis [faites-nous part de vos commentaires](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) en cas de dysfonctionnement. Par ailleurs, pour établir une version entièrement authentifié de l’application patients-> flux de serveurs FHIR, vous devez vous connecter à l’application en mode hors connexion avec Microsoft teams pour l’ingénierie des produits pour la santé, par le biais de la demande de message électronique mentionnée précédemment pour clarifier les exigences et nous vous aidons à vous en servir conformément aux exigences d’authentification énoncées ci-dessus  
 
 

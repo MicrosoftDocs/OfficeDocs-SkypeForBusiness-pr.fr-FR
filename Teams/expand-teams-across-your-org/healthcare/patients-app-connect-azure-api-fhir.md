@@ -1,5 +1,5 @@
 ---
-title: Connecter l’application patients à l’API Azure pour FHIR
+title: Connecter l’application coordination des soins à l’API Azure pour FHIR
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Découvrez comment connecter l’application patients dans Microsoft teams à l’API Azure pour FHIR (ressources d’interopérabilité Fast Healthcare).
-ms.openlocfilehash: e532aa9f9fbecb472db63a1ddad4cd71518a8041
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259097"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827722"
 ---
-# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Connecter l’application patients à l’API Azure pour FHIR
+# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Connecter l’application coordination des soins à l’API Azure pour FHIR
 
 Suivez ces étapes pour autoriser l’application patients dans Microsoft teams à accéder à une API Azure pour l’instance FHIR. Cet article part du principe que vous disposez d’une [API Azure pour](https://azure.microsoft.com/services/azure-api-for-fhir/) la configuration de l’instance FHIR et qu’elle est configurée dans votre client.  Si vous n’avez pas encore créé d’API Azure pour FHIR dans votre client, reportez-vous à [démarrage rapide : déployer l’API Azure pour FHIR à l’aide d’Azure Portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
@@ -57,7 +59,7 @@ Suivez ces étapes pour autoriser l’application patients dans Microsoft teams 
     
     Si vous obtenez un message d’erreur lors de la connexion à teams au cours de cette étape, vous pouvez envoyer une capture d’écran détaillée de l’erreur, des journaux de [Fiddler](https://www.telerik.com/download/fiddler) et de toutes les autres étapes de reproduction dans un courrier électronique avec une ligne d’objet de «application patients – résolution de EMR en mode [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Présentation de l’application Patients](patients-app-overview.md)
 - [Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

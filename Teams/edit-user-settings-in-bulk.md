@@ -12,18 +12,20 @@ search.appverid: MET150
 description: Découvrez comment gérer les paramètres utilisateur de Microsoft teams en bloc dans le centre d’administration Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fec2338e1a7e518e90b2a5fbed716a01782bbb8c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6177a463bee481812323b2334461f20e7021af84
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693289"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832644"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Modification des paramètres utilisateur de Microsoft teams en bloc
 

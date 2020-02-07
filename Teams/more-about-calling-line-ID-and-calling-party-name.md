@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Découvrez pourquoi vous devez ajouter une personne autorisée pouvant apporter des modifications au compte lorsque vous utilisez l’Assistant Nouvelle demande de transfert de numéros locaux.
-ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708800"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832654"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
 

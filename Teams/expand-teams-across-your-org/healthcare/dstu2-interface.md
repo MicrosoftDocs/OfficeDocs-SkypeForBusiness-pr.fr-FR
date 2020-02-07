@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570368"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827802"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
@@ -80,11 +82,11 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
     Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>",.
       .
       .
-      "nom" : [{"utilisation" : "officiel", "préfixe" : ["Mr"], "famille" : ["Chau"], "fourni" : ["Hugh"]}], "identificateur" : [{"use" : "Official", "type" : {"Coding" : [{"System" : "http://hl7.org/fhir/v2/0203", "code" : "Mr"}]), "valeur" : "1234567"}), "sexe" : "mâle", "DateNaissance" : "1957-06-05 "," careProvider " : [{" Display " :" Jane Dupont "}],}
+      "nom" : [{"utilisation" : "officiel", "préfixe" : ["Mr"], "famille" : ["Chau"], "en"; ";" ";" ";" ";" officiel "," tapez " : {" codage " : [{" système " :"http://hl7.org/fhir/v2/0203"," code " :" 1234567 "}])," valeur " :" "}]," sexe "," careProvider "," DateNaissance " :" 1957-06-05 "," " : [{" Display " :" Jane Dupont "}],}
 
 * * *
 
-Une recherche de ressource utilise la méthode POST sur/patient/_search et les paramètres suivants :
+Une recherche de ressource utilise la méthode POST à/patient/_search et les paramètres suivants :
 
 1. ID
 2. famille : contient = (recherche les patients dont le nom de famille contient la valeur.)
@@ -105,7 +107,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant.
 
 * * *
 
-    Request : POST <fhir-Server> le corps de la requête/patient/_search : fourni = Hugh&Family = Chau
+    Request : POST <fhir-Server>/patient/_search corps de la requête : fourni = Hugh&Family = Chau
     
     Réponse : {"resourceType" : "bundle", "ID" : "<-ID>",.
       .
@@ -142,7 +144,7 @@ L’objectif est de pouvoir récupérer les derniers signes vitaux pour un patie
 
     Demande : obtenez <fhir-Server>/observation ? patient =<patient-ID>&_sort :d Échap = date&catégorie = vitaux-signes
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "tapez" : "searchset", "total" : 20, "entry" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-id de ressource", "category" : {"code" : {{code "=" le code "> =" " : [{" système " :"http://loinc.org"," code " :" 39156-5 "," Display " :" BMI "}),}," effectiveDateTime " :" 2009-12-01 "," valueQuantity " : {" value " : 34,4," Unit " :" kg/m2 "," système " :"http://unitsofmeasure.org"," code " :" kg/m2 "}},}.
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "tapez" : "searchset", "total" : 20, "entrée" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-id de ressource", "category" : {"code" : {{code " :" "Pseudo"> = "" code " : {" codage " : [{" système " :"http://loinc.org"," code " :" 39156-5 "," Display " :" BMI "}),}," effectiveDateTime " :" 2009-12-01 "," valueQuantity " : {" value " : 34,4," Unit " :" kg/m2 "," système " :"http://unitsofmeasure.org"," code " :" kg/m2 "}},},.
         .
         .
       ] }
@@ -165,7 +167,7 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
 1. patient =\<ID du patient>
-2. _count =\<résultats Max>
+2. _count =\<résultats maximum>
 
 Pour plus d’informations, reportez-vous à l’exemple suivant :
 
@@ -173,7 +175,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/condition ? patient =<patient-ID>&_count = 10
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : "=", "ID" : "<-ID>", "code" : {"codage" : [{».               "système" : "http://snomed.info/sct", "code" : "386033004", "Display" : "neuropathie (dommage nerveux)"}]}, "dateRecorded" : "2018-09-17", "gravité" : {"codage" : [{"syst em " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" sévère "}]}}})}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "condition", "ID" : "<-ID de ressource-ID>", "code" : {"Coding" : [{"System"http://snomed.info/sct: "", "code" : "386033004", "Display" : "« syst" », "Display" : "2018-09-17", "dateRecorded", "" : "", "gravité" em " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" sévère "}]}}})}
 
 * * *
 
@@ -195,14 +197,14 @@ Une recherche de ressource utilise la méthode GET et les paramètres suivants 
 
 1. patient =\<ID du patient>
 2. _sort : DESC =\<champ ex. Date>
-3. _count =\<résultats Max>
+3. _count =\<résultats maximum>
 
 L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence inclut également le champ d’affichage de l’emplacement. Pour plus d’informations, reportez-vous à l’exemple suivant.
 * * *
 
     Demande : obtenez <fhir-Server>/Encounter ? patient =<patient-ID>&_sort :d Échap = date&_count = 1
     
-    Réponse : {"ResourceType" : "bundle", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"ResourceType" : "rencontre", "identifiant" : "<-ID>", "identificateur" : [{"utiliser" : "officiel", "valeur" : "<id>"}], "État" : "incomplet", "type" : [{"codage" : [{"Display" : "rendez-vous"}]), "patient" : {"référence" : "patient/<patient-ID>"}, "période" : {"09/17/2018 1:00:00 PM"}, "lieu" : [{              "location" : {"Display" : "Clinic-ENT"}})}
+    Réponse : {"ResourceType" : "bundle", "type" : "searchset", "total" : 1, "entrée" : [{"Resource" : "" ResourceType "=", "'ID" : "<-ID>", "identificateur" : [{"use" : "Official", "value" : ""<id>}], "Status" : "incomplet", "type" : [{"code" : [{"Display" : "rendez-vous"}],}], "patient" : "09/17/2018 1:00:00" = "patient/<patient-ID>              "location" : {"Display" : "Clinic-ENT"}})}
 
 * * *
 
@@ -234,7 +236,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "recordedDate" : "2 17T07. 0Z "," substance " : {" texte " :" Cashew écrous "}," État " :" confirmé "," réaction " : [{" substance " : {" texte " :" Cashew d’extraction allergique d’écrou "}," manifestati sur " : [{" texte " :" réaction anaphylactic "}]}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"Resource" : "" resourceType " :" AllergyIntolerance "," ID " :" <> d’ID de ressource "," recordedDate " :" 2018-09-17T07:00:00.000 Z "," substance " : {" texte " :" Cashew écrous "}," État " :" confirmé "," réaction " : [{" substance " : {" texte " :" Cashew d’extraction allergique sur " : [{" texte " :" réaction anaphylactic "}]}
 
 * * *
 
@@ -258,7 +260,7 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
 1. patient =\<ID du patient>
-2. _count =\<résultats Max>
+2. _count =\<résultats maximum>
 
 Pour plus d’informations, reportez-vous à l’exemple suivant :
 
@@ -266,7 +268,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/MedicationOrder ? patient =<patient-ID>&_count = 10
     
-    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entry" : "MedicationOrder", "ID" : "<-ID>", "dateWritten" : "2018-09-17", "Medi cationCodeableConcept " : {" texte " :" Lisinopril 20 MG de tablette orale "}," ordonnateur " : {" Display " :" Jane Dupont "}," dosageInstruction " : [{" Text " :" 1 quotidiennement "}]}})}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "MedicationOrder", "ID" : "<-ID de ressource>", "dateWritten" : "2018-09-17", "medicationCodeableConcept" : {"Text" : "Lisinopril 20 MG de comprimé"}, "" : "Jane Dupont"}, "dosageInstruction" : [{"Text" : "1 quotidien"}
 
 * * *  
 
@@ -288,7 +290,7 @@ Pour plus d’informations, reportez-vous à l’exemple suivant :
 
     Demande : obtenez <fhir-Server>/Coverage ? patient =<patient-ID>
     
-    Réponse : {"resourceType" : "bundle", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "couverture", "ID" : "<-> ID de ressource", "plan" : "aucune assurance principale", "abonné" : {"référence" ID de <patient> "}}}}
+    Réponse : {"resourceType" : "bundle", "tapez" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "couverture", "ID" : "<-id de ressource", "plan" : "pas d'> assurance primaire", "abonné" : {"référence" : "patient/<patient-ID>"}}}]}
 
 * * *
 

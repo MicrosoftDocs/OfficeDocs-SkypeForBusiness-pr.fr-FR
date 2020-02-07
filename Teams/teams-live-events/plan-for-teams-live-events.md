@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001264"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827122"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -123,7 +125,7 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer pour les événements en direct teams](set-up-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 - [Configurer les paramètres des événements en direct dans teams](configure-teams-live-events.md)

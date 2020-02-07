@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570335"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827732"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -28,7 +30,7 @@ Les stratégies de messagerie sont utilisées pour contrôler les fonctionnalit�
 
 Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Lorsque vous créez une stratégie, vous lui attribuez un utilisateur ou des groupes d’utilisateurs de votre organisation. Par exemple, vous pouvez choisir d’autoriser uniquement certains rôles de poste pour utiliser ces fonctions (par exemple, les médecins et les infirmières uniquement) et d’autres travailleurs (comme le JANITORIAL ou le personnel de cuisine) pour obtenir un ensemble de fonctionnalités plus limité. Déterminez pour vous-même les besoins de votre organisation, et voici une suggestion.
 
-Vous pouvez facilement gérer les stratégies dans le [Centre d’administration Microsoft teams](http://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche.
+Vous pouvez facilement gérer les stratégies dans le [Centre d’administration Microsoft teams](https://admin.teams.microsoft.com) en vous connectant avec les informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche.
 
  ![Capture d’écran de la page stratégies de messagerie](../../media/messaging-policies-image1.png)
 
@@ -42,7 +44,7 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
 
 - ![Icône du numéro 1, faisant référence à une légende dans](../../media/sfbcallout1.png) **la capture d’écran précédente confirmations** de lecture pour permettre à l’expéditeur d’un message de savoir lorsque le message a été lu par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, pour tout le monde ou désactivé pour tout le monde. Les confirmations de lecture de messages sont importantes dans les organisations de soins de santé, car elles suppriment de façon incertaine l’existence ou non de la lecture d’un message.
 
-  Pour les applications de santé, sélectionnez **contrôle utilisateur** ou **activé pour tout le monde**. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée « global (organisation par défaut) ») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
+  Pour les applications de santé, sélectionnez **contrôle utilisateur** ou **activé pour tout le monde**. Sachez que lors de l’utilisation du paramètre **activé pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est d’avoir une seule stratégie de messagerie pour l’ensemble du client (la stratégie par défaut nommée « global (organisation par défaut) ») ou de faire en sorte que toutes les stratégies de messagerie du client utilisent les mêmes paramètres pour les reçus. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
 
     *Exemple d’utilisation sans confirmation de lecture :* Jakob Roth, un patient à haut risque, est admis aux hôpitaux.Le Sofia Krause est une infirmier qui travaille dans le cadre de l’équipe interdisciplinaire (IDT) des travailleurs médicaux, y compris des spécialistes, est désigné comme le coordinateur principal responsable du patient.  Le champ Sofia envoie des messages électroniques et d’autres messages instantanés à un groupe d’infirmières et de médecins utilisant divers clients et applications de messagerie, et n’obtient généralement aucune réponse ou indication qu’un message a été lu par les membres de l’équipe. En raison de processus de communication Tangled, le médicament de Jakob est appliqué de façon incertaine et le reste de l’hôpital est prolongé.
 
@@ -60,7 +62,7 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
 
   *Exemple d’utilisation :* Sofia Krause est en plus d’admettre un patient à haut risque, Jakob Roth. Manuela Carsten est le médecin principal du patient pour ce patient.  Sofia envoie un message à Manuela à l’aide d’une notification de priorité demandant une assistance immédiate au triage de Jakob.  Le numéro de téléphone de Manuela reçoit le message mais Manuela n’a pas trouvé la vibration du téléphone et ne répond pas. Teams réactive le Manuela et continue d’avertir de nouveau jusqu’à ce qu’il Lise le message. Si les confirmations de lecture sont également activées, vous savez que le message a été lu par Manuela, même avant que Manuela ne décide du mode de réponse.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies de messagerie dans Teams](../../messaging-policies-in-teams.md)
 - [Prise en main de Teams pour les organismes de santé](teams-in-hc.md)

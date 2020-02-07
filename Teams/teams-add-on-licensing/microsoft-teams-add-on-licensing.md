@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Apprenez-en davantage sur les licences de complément, les fonctionnalités que vous allez obtenir avec chaque licence, comment les acheter pour votre produit et comment utiliser votre opérateur existant avec eux. Vous pouvez obtenir des informations sur les tarifs et les détails de votre plan pour Office 365, les crédits de communication et les offres d’appels.
-ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37571201"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826632"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
@@ -50,7 +52,7 @@ En fonction de l’offre dont vous disposez, vous pouvez acheter des licences de
 |||
 |:-----|:-----|
 |**Fonctionnalité** <br/> |**Description** <br/> |
-|**Audioconférence** <br/> |Parfois, les personnes de votre organisation devront utiliser un téléphone pour appeler une réunion teams au lieu d’utiliser leur ordinateur. Utilisez la fonctionnalité de conférence audio pour cette situation.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Pour plus d’informations sur la manière dont vous avez besoin, voir [tarifs pour les conférences audio](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
+|**Audioconférence,** <br/> |Parfois, les personnes de votre organisation devront utiliser un téléphone pour appeler une réunion teams au lieu d’utiliser leur ordinateur. Utilisez la fonctionnalité de conférence audio pour cette situation.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Pour plus d’informations sur la manière dont vous avez besoin, voir [tarifs pour les conférences audio](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Système téléphonique** <br/> |Un PBX est un système téléphonique dédié aux entreprises. Le système téléphonique dans Office 365 est un service téléphonique hébergé. Il vous offre des fonctionnalités innovantes de façon simple et économique. [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Pour plus d’informations, consultez la section [système téléphonique](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Forfaits d’appel** <br/> |Les appels vers les autres utilisateurs d’équipes sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler n’importe quel numéro de téléphone en dehors de votre entreprise, vous pouvez obtenir un [plan](../calling-plans-for-office-365.md)d’appels. Il existe des forfaits d'appels nationaux et des forfaits d'appels nationaux et internationaux dans Office 365.  <br/> Pour plus d’informations sur le coût de l’appel, voir [tarifs du plan d’appel](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
@@ -90,7 +92,7 @@ Pour obtenir une documentation complète sur la planification de votre déploiem
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer teams](../microsoft-teams.md)
     

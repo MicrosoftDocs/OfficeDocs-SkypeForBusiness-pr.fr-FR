@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec les modèles Teams pour les organismes de santé
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702315"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827762"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -161,7 +163,7 @@ Pour utiliser ces modèles, il vous suffit de changer la propriété « templat
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Prise en main des modèles Teams](../../get-started-with-teams-templates.md)
 
