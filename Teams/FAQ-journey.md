@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Forum aux questions sur le passage de Skype Entreprise à Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268480"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834494"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 

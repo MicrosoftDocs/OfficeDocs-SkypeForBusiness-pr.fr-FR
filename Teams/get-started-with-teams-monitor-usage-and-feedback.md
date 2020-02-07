@@ -11,16 +11,18 @@ ms.reviewer: lolaj
 description: Venez en apprendre plus sur les options de création de rapports disponibles pour voir comment les utilisateurs utilisent Microsoft Teams et pour recueillir des commentaires sur leur expérience.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8700802f0f307ef474bde602c813da404a7c82bd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569585"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837054"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.

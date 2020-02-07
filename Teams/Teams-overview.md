@@ -13,15 +13,17 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa58c0a61a5a9a718cc38b316d91ed14ab224c20
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681401"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834794"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
