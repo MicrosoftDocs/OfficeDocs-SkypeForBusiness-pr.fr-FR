@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la discussion, du routage des appels et de la présence entre les utilisateurs d’équipes et Skype entreprise, à la fois dans le client et fédéré, en fonction de modes TeamsUpgrade attribués. Il inclut des optimisations de routage, le comportement de présence, ainsi que le changement du mode de TeamsUpgrade par défaut de l' *ancien* au départ des *îles* et de l’ancienne mise au *départ.*
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515861"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824932"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 

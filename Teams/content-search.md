@@ -11,15 +11,17 @@ ms.collection:
 - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Apprenez-en davantage sur la recherche de contenu dans Microsoft teams et la recherche de conversations de canal à partir d’Exchange, de téléchargements de fichiers et de modifications de SharePoint et de modifications de OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825342"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -87,6 +89,6 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [cas de découverte électronique dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

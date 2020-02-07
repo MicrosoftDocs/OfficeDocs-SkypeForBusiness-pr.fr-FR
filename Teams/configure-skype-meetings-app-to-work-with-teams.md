@@ -9,17 +9,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Les administrateurs peuvent utiliser le centre d’administration de Microsoft teams pour configurer l’application réunions Skype pour collaborer avec les équipes
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516921"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825522"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 ===================================================
@@ -41,7 +43,7 @@ Les utilisateurs qui utilisent l’application réunions Skype avec teams sont s
 - Les utilisateurs n’ont pas la possibilité de modifier leur périphérique vidéo.
 - Après la mise à niveau d’un utilisateur vers Teams, si un utilisateur participe à une réunion à l’aide de l’application réunions Skype et reçoit un appel en équipe, la réunion dans l’application réunions Skype n’est pas suspendue. Au lieu de cela, l’utilisateur est connecté aux deux appels.
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 - [Qu’est-ce que l’application réunions Skype (Skype entreprise Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Configuration réseau minimale requise pour l’application Réunions Skype](https://technet.microsoft.com/library/mt845808.aspx)

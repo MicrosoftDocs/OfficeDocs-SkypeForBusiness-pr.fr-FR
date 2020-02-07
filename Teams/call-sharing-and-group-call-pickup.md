@@ -16,17 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
-ms.custom:
 - Phone System
 description: Les appels de partage et de groupe permettent aux utilisateurs de partager des appels entrants avec des collègues, de sorte que les appels puissent être capturés quand l’utilisateur n’est pas disponible.
-ms.openlocfilehash: a39ed0a606b38a159473fbab9c35d21ae461c34b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684117"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824552"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
@@ -57,6 +58,6 @@ Important : lorsque les administrateurs désactivent les groupes d’appels pou
 
 Un locataire peut contenir un maximum de groupes d’appels 32 768. Chaque groupe d’appels peut comporter un maximum de 25 utilisateurs. 
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 [Transfert d’appel et sonnerie simultanée dans teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

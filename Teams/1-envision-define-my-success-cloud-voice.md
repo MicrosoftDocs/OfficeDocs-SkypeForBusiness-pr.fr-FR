@@ -13,15 +13,17 @@ description: Évaluez les résultats de votre audioconférence, de votre systèm
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517074"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825422"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -29,7 +31,7 @@ Cet article fournit une vue d’ensemble des exigences relatives à la définiti
 
 <!--ENDOFSECTION-->
 
-L' **audioconférence** fournit aux organisations des points d’entrée supplémentaires pour toutes les réunions (ad hoc ou programmées) en permettant aux participants d’une réunion de se connecter via un réseau téléphonique commuté (PSTN) en composant un numéro de téléphone fixe ou privé. échange de succursale (PBX) ou téléphones mobiles. Cette fonctionnalité est utile lorsque l’organisateur ou les participants ne se trouvent pas devant un ordinateur, ou lorsque les connexions de données sont indisponibles ou trop fiables pour prendre en charge les communications vocales (par exemple, dans une zone distante avec la protection des données mobiles, ou qui est connectée à un réseau Wi-Fi gratuit et public). service avec une bande passante limitée ou lorsque les participants à la réunion préfèrent se connecter à la réunion via un point de terminaison de téléphonie qui est facilement accessible.
+**Audioconférence** fournit aux organisations des points d’entrée supplémentaires pour toutes les réunions (ad hoc ou programmées) en permettant aux participants d’une réunion de se connecter via un réseau téléphonique commuté (PSTN) en composant un numéro de téléphone fixe ou mobile. Cette fonctionnalité est utile lorsque l’organisateur ou les participants ne se trouvent pas devant un ordinateur, ou lorsque les connexions de données sont indisponibles ou trop fiables pour prendre en charge les communications vocales (par exemple, dans une zone distante avec la protection des données mobiles, ou qui est connectée à un réseau Wi-Fi gratuit et public). service avec une bande passante limitée ou lorsque les participants à la réunion préfèrent se connecter à la réunion via un point de terminaison de téléphonie qui est facilement accessible.
 
 Le **système téléphonique avec des plans d’appels (« plans d’appel »)** donne aux organisations une façon de moderniser leur lieu de travail en permettant aux utilisateurs de passer des appels téléphoniques professionnels depuis leurs ordinateurs et leurs appareils mobiles. La modernisation de l’espace de travail peut faire partie d’un certain nombre de scénarios : une implémentation de travail basée sur une activité, un déplacement de bureau principal, une actualisation de la déconnexion d’Office, la suppression d’une solution PBX héritée, la conclusion d’un contrat de prestataire de services RTC, etc. Avec les offres d’appels, Microsoft facilite la connexion au RTC.
 

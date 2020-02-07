@@ -1,11 +1,13 @@
 ---
-title: Configurer des files d’attente d’appels
+title: Configuration de files d’attente d’appels
 author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf26731dac9d3ee60099fdbfde6021e7613f332d
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: ed0eaffd0567d47fe9b759d6bdbc8804406e2d49
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37972305"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824785"
 ---
 [!INCLUDE [create-a-phone-system-call-queue](../create-a-phone-system-call-queue.md)]

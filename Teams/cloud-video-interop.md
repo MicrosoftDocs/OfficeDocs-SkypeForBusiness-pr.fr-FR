@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: La technologie Cloud Video Interop permet à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516682"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825062"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -92,10 +94,10 @@ Une fois qu’un utilisateur est activé pour l’interopérabilité Cloud Video
 En fonction de la solution de partenariat, il existe plusieurs façons de participer à une réunion Cloud Video Interop. Les scénarios exacts de participation à une réunion seront fournis par votre partenaire Cloud Video Interop. Nous avons classé quelques exemples ci-dessous :
 
 - IVR (réponse vocale interactive) 
-  - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey @ Domain.
+  - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey@domain.
   - Lorsque vous vous trouvez dans l’IVR du partenaire, vous êtes invité à entrer le conferenceId VTC, qui vous connecte ensuite à la réunion Teams.
 - Numérotation directe 
-  - Vous pouvez directement composer le numéro de la réunion teams sans interagir avec l’IVR du partenaire à l’aide de la fonction de numérotation directe, en utilisant la chaîne complète de tenantkey. VTC ConferenceId @ Domain.
+  - Vous pouvez directement composer le numéro de la réunion teams sans interagir avec l’IVR du partenaire à l’aide de la fonction de numérotation directe, en utilisant la chaîne complète de tenantkey. VTC ConferenceId@domain.
 - Numérotation en un clic 
   - Si vous avez une salle d’équipe intégrée, vous pouvez utiliser les fonctionnalités de numérotation à l’aide de votre partenaire (sans avoir à taper une chaîne de numérotation).
 

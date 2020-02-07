@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Créer un plan pour favoriser l’adoption des utilisateurs en définissant vos buts, en vous baportant sur l’acception et en offrant une assistance technique.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825082"
 ---
 # <a name="prepare-my-users"></a>Préparer mes utilisateurs
 
@@ -46,7 +48,7 @@ Le paramétrage de votre vision de projet permet aux parties prenantes de lire u
 
 L’image ci-après illustre une instruction de vision pour la mise à niveau du client de Skype entreprise vers Teams.
 
-![Tableau sur deux colonnes montrant]le tableau de vision et de valeur en(media/prepare-my-users-new-image1.png "deux colonnes avec vision (niveau de l’organisation) à gauche et valeur-présentation pour moi (niveau utilisateur) sur la droite")
+![Tableau sur deux colonnes présentant une vision et une valeur](media/prepare-my-users-new-image1.png "Tableau sur deux colonnes avec vision-pourquoi est-ce que nous effectuons cette opération ? (niveau de l’organisation) à gauche et valeur-présentation pour moi (niveau utilisateur) sur la droite")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous exprimé l’avantage et la valeur pour vos utilisateurs d’une façon qui gagne leur achat pour cette nouvelle solution ?</li></ul></td></tr>
@@ -126,7 +128,7 @@ Pour chaque groupe de personnages, discutez des éléments suivants avec votre �
 
 L’image ci-après illustre une table Persona.
 
-![Tableau de valeurs indiquant le tableau des détails sur](media/prepare-my-users-image2.png "le nom des personnes avec leurs rôles courants et les dépendances de solution de communication et de collaboration. Le personnage exécutif est mis en surbrillance avec des détails sur le profil (jour de la vie), ainsi que les fonctionnalités, les appareils et la formation dont il a besoin.")
+![Tableau de valeurs indiquant les détails des personnages](media/prepare-my-users-image2.png "Tableau répertoriant les personnes avec leurs rôles courants et les dépendances de solution de communication et de collaboration. Le personnage exécutif est mis en surbrillance avec des détails sur le profil (jour de la vie), ainsi que les fonctionnalités, les appareils et la formation dont il a besoin.")
 
 Pour chaque cas d’utilisation, discutez des éléments suivants avec votre équipe de projet :
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Téléchargez le manuel d’utilisation du site pour planifier le déploiement de vos équipes et accélérer et optimiser l’adoption des utilisateurs, la perception de la qualité et la satisfaction.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515999"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825172"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -42,7 +44,7 @@ En remplissant les activités de ce manuel, votre organisation peut :
 -   Réduisez les besoins en matière de support et augmentez la satisfaction des utilisateurs.
 
 > [!NOTE]
-> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de vérification d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipes, [réseau pour teams](onboarding-checklist-configure-networking.md)et [activation d’Office 365](onboarding-checklist-enable-office-365.md).
+> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de contrôle d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, la [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), les [fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipe, la [mise en réseau pour les équipes](onboarding-checklist-configure-networking.md)et [l’activation d’Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ Le manifeste consiste à traiter les facteurs qui influencent la perception de l
 
 Le manuel [d’activation des sites pour les appels vocaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines de focalisation est une feuille séparée dans le classeur, et chaque tâche et activité de déploiement est regroupée sur l’une de ces feuilles.
 
-Capture d’écran ![de la](media/deploy-my-service-image1.png "capture d'") écran du manuel d’activation du site
+![Capture d’écran du manuel d’activation du site](media/deploy-my-service-image1.png "Capture d’écran du manuel")
 
 > [!NOTE]
 > Vous allez créer une instance distincte du manuel pour chaque site dans le cadre de votre déploiement d’équipes.
@@ -84,7 +86,7 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 4. Entrez le **nom du site, le code du site**et la **Date de lancement prévue**, comme illustré ci-dessous. Il s’agit d’une étape essentielle, car elle ajuste les délais recommandés pour chaque activité du manuel.
 
-   ![Exemple avec le nom du site, l’code du site et la date de lancement planifiée](media/deploy-my-service-image2.png "avec le nom du site de New York, le code de site NY01 et la date de lancement prévue du 20 mars-18")
+   ![Exemple avec le nom du site, le code du site et la date de lancement planifiée](media/deploy-my-service-image2.png "Exemple avec le nom de site New York, le code de site NY01 et la date de début planifiée 20-Mar-18")
 
 5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous :
   
@@ -94,7 +96,7 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 
-![Capture d’écran de la boîte de progression de l’état hebdomadaire dans la](media/deploy-my-service-image6.png "capture d’écran de la boîte de progression de l’état hebdomadaire dans le manuel")
+![Capture d’écran des déploiements de l’état hebdomadaire dans le manuel](media/deploy-my-service-image6.png "Capture d’écran des déploiements de l’état hebdomadaire dans le manuel")
 
 > [!TIP]
 > Répétez les étapes ci-dessus pour tous les emplacements que vous avez.

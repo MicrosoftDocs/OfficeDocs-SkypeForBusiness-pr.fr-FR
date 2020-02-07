@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: Cet article décrit la planification et la configuration de l’interopérabilité Cloud Video pour les utilisateurs de votre organisation.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825102"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -100,10 +102,10 @@ Ensuite, planifiez une réunion en équipe avec des coordonnées d’interopéra
 Vous pouvez participer à des réunions d’équipes à l’aide de vos appareils VTC comme suit :
  
 - IVR (réponse vocale interactive)
-    - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey @ Domain. 
+    - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey@domain. 
     - Une fois que vous avez été dans le partenaire IVR, vous êtes invité à entrer le conferenceId VTC, qui vous connecte ensuite à la réunion Teams.
 - Numérotation directe
-    - Vous pouvez accéder directement à la réunion teams sans interagir avec le son de votre partenaire à l’aide de la fonction de numérotation directe qui utilise la chaîne complète de tenantkey. VTC ConferenceId @ Domain.
+    - Vous pouvez accéder directement à la réunion teams sans interagir avec le son de votre partenaire à l’aide de la fonction de numérotation directe qui utilise la chaîne complète de tenantkey. VTC ConferenceId@domain.
 - Numérotation en un clic
     - Si vous avez une salle d’équipe intégrée, vous pouvez utiliser les fonctionnalités de numérotation à l’aide de votre partenaire (sans avoir à taper une chaîne de numérotation).
 

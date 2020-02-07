@@ -10,16 +10,18 @@ audience: admin
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909360"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824692"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -53,7 +55,7 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ## <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 
-Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à teams ou partager avec le reste de la communauté. Pour plus d’informations, consultez [la documentation du développeur](/microsoftteams/platform/tabs/what-are-tabs) .
+Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à teams ou partager avec le reste de la communauté. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Capture d'écran d'un onglet personnalisé d'exemple dans Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
-ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
+ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41664325"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824806"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 

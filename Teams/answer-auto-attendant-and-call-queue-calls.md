@@ -9,6 +9,8 @@ ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
 description: Décrit les standards automatiques du Cloud et les files d’attente d’appels, et explique comment vous pouvez répondre à ces appels dans Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516794"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825312"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -60,7 +62,7 @@ La prise en charge des appels de standard automatique et de file d’attente d�
 
 Pour recevoir des appels de standard automatique et de file d’attente d’appels sur Microsoft Teams, vous devez configurer votre stratégie d’interopérabilité et votre stratégie de mise à niveau. Passez en revue la [migration et l’interopérabilité des organisations qui utilisent des équipes dans Skype entreprise](migration-interop-guidance-for-teams-with-skype.md). Si vous n’avez pas configuré le standard automatique et/ou la file d’attente d’appels, puis souhaitez le faire, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md) et [créer une file d’attente d’appels Cloud](create-a-phone-system-call-queue.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 -   [Qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
 -   [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)

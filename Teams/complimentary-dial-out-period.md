@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 description: Les clients peuvent utiliser le plan d’appel d’Office 365 et la fonction de conférence rendez-vous d’Office 365 comme il est autorisé dans les conditions d’utilisation des services RTC de Skype entreprise Online et Microsoft Teams.
-ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695439"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825502"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 

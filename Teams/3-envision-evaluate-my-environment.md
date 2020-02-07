@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Utiliser des personnages et une analyse réseau pour évaluer la disponibilité de votre organisation, ouvrir les ports TCP et UDP appropriés, effectuer une correction du réseau.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925075"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825072"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 

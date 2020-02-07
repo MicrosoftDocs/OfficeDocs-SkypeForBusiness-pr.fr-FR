@@ -10,19 +10,21 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
 description: Découvrez comment gérer les appareils utilisés avec les équipes de votre organisation.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 2557410adf0eda18fab0e5450f739baf2ec7d581
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211951"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824866"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
@@ -37,7 +39,7 @@ Les appareils doivent être certifiés pour les équipes et inscrits dans Teams.
 
 ## <a name="manage-devices-in-teams"></a>Gérer les appareils dans teams
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
 2. Sélectionnez **tous les appareils**.  

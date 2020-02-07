@@ -11,15 +11,17 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Configurer un appel d’urgence dynamique
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a282d8c5cd923f6881a04da7f2569a5dca11421b
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825512"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -200,7 +202,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

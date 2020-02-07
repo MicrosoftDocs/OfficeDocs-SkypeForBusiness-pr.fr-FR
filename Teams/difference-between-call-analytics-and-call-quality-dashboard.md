@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
 description: Apprenez-en davantage sur l’analyse des appels et le tableau de bord de qualité des appels et le moment où les utiliser pour surveiller et résoudre les problèmes de qualité d’appel.
-ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: be63c4e227e74e242169ec5c3b5e0b01a43a0730
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972465"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824906"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -95,7 +96,7 @@ Pour plus d’informations sur ces rôles, voir [à propos des rôles d’admini
 
 Pour plus d’informations sur bord, reportez-vous [à activation et utilisation du tableau de bord de qualité des appels de Microsoft Teams, de Skype entreprise Online](turning-on-and-using-call-quality-dashboard.md) et des [dimensions et mesures disponibles dans le tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Vidéo : vue d’ensemble de la qualité d’appel](https://aka.ms/teams-quality)
 

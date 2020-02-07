@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.callparkpolicies.overview
+- CSH
 ms.custom:
 - Phone System
+- ms.teamsadmincenter.callparkpolicies.overview
 description: Utiliser le parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
-ms.openlocfilehash: 4bd77fcd90cb17f0ca5b09f784d6532d552df473
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695619"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824592"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -103,6 +104,6 @@ Si un utilisateur tente de récupérer un appel et échoue, vérifiez les points
 - Mode île : le parc d’appels et la récupération ne sont pas disponibles en mode îlot d’équipe.
 - L’appel a déjà été récupéré ou arrêté.
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 [Parcez un appel dans teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
