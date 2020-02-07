@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Découvrez comment mesurer les résultats et la réussite de votre vaste public d’équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837854"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 
@@ -85,7 +87,7 @@ Voici quelques recommandations pour la plupart des organisations de clients. Il 
 
     Teams Go Big correspond également à la stratégie d’activation préférée pour les organisations qui utilisent des employés de 1 000 qui souhaitent simplifier la communication et l’engagement de leurs employés. L’utilisation de l’équipe au sein de l’organisation peut répartir les tâches et les initiatives courantes sur n’importe quel appareil. 
 
-- **Choisissez côte à côte**: pour les organisations qui utilisent Skype entreprise pour l’audioconférence, la prise en charge des appareils de salle de conférence ou de l’utilisation de la voix dans le Cloud, nous vous recommandons d’exécuter des équipes et de Skype côte à côte pour familiariser vos employés avec le les fonctionnalités de collaboration principales, lors de la planification de la migration de Skype entreprise à un moment approprié pour votre entreprise. Notez que l’exécution des deux clients côte à côte peut entraîner la confusion des utilisateurs, et nous vous conseillons de rester au courant de votre introduction. 
+- **Choisissez côte à côte**: pour les organisations qui utilisent Skype entreprise pour l’audioconférence, la prise en charge des appareils de salle de conférence ou des fonctionnalités de voix dans le Cloud, nous vous recommandons d’exécuter les équipes et Skype côte à côte pour familiariser vos employés avec les principales fonctionnalités de collaboration, tout en planifiant la migration de Skype entreprise à un moment approprié pour votre organisation. Notez que l’exécution des deux clients côte à côte peut entraîner la confusion des utilisateurs, et nous vous conseillons de rester au courant de votre introduction. 
 
 - **Choix**de la migration : la migration de Skype entreprise vers équipes dispose d’éléments supplémentaires d’un point de vue technique, mais le voyage de l’utilisateur se sert des mêmes composants qu’une implémentation de teams. Par ailleurs, vous éduquerez les utilisateurs de l’interface utilisateur et de l’interface de réunion Teams, le nouveau comportement de chat permanent ainsi que d’autres éléments de l’interface qui sont différents de Skype entreprise.
 

@@ -11,22 +11,24 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment prendre en charge l’activation à grande échelle des équipes pour votre organisation.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 85cb53ed6099dcbb5c2fdf0b9b45816048f3b77c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837754"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
-Au cours de cette phase, vous allez utiliser vos connaissances, votre équipe de projet douée et vos relations avec les parties prenantes, les champions et les premiers décideurs pour soutenir une large gamme d’équipes au sein de votre organisation. Suivez les étapes ci-dessous pour vous préparer à la poursuite de l’engagement pour les entreprises concernant l’utilisation de Microsoft teams:
+Au cours de cette phase, vous allez utiliser vos connaissances, votre équipe de projet douée et vos relations avec les parties prenantes, les champions et les premiers décideurs pour soutenir une large gamme d’équipes au sein de votre organisation. Suivez les étapes ci-dessous pour vous préparer à la poursuite de l’engagement pour les entreprises concernant l’utilisation de Microsoft teams :
 
 1. Définir des résultats et des mesures de réussite.
 2. Sélectionnez stratégie de service.
@@ -37,4 +39,4 @@ Au cours de cette phase, vous allez utiliser vos connaissances, votre équipe de
 7. Préparez-vous à l’engagement professionnel.
 8. Préparez-vous à l’examen continu de l’adoption des services &.
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [définir les résultats et réussite](teams-adoption-define-outcomes.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [définir les résultats et réussite](teams-adoption-define-outcomes.md)

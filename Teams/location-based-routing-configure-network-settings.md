@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment créer et configurer des zones, des sites et des sous-réseaux réseau pour le routage direct.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: bfa81c0d5856ba97b60f3183ff282bef8c911fda
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615844"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836564"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
@@ -55,6 +57,6 @@ Si l’adresse IP de l’utilisateur correspond à une adresse IP figurant dans 
 
 Accédez à [activer le routage en fonction de l’emplacement pour le routage direct](location-based-routing-enable.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)

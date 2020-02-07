@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Suivez la liste de vérification pour commencer à adopter Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d7cef7033a79d7282d73534ded41805b11b2a46e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837744"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Liste de contrôle de démarrage rapide pour l’adoption de Microsoft Teams
 
@@ -36,7 +38,7 @@ ms.locfileid: "36237815"
 
 - [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
 - [Créer votre première équipe](teams-adoption-your-first-teams.md)
-- [Êtes-vous prêt pour Microsoft teams?](teams-adoption-assess-readiness.md)
+- [Êtes-vous prêt pour Microsoft teams ?](teams-adoption-assess-readiness.md)
 - [Réunion avec les parties prenantes](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identifier les premiers décideurs](teams-adoption-assess-readiness.md#identify-early-adopters)
 
@@ -50,7 +52,7 @@ ms.locfileid: "36237815"
 - [Intégration des utilisateurs précoces et collecte de commentaires](teams-adoption-onboard-early-adopters.md)
 - [Prise en charge de l’intégration](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>Étape 3 : échelle
+## <a name="phase-3---scale"></a>Étape 3 : mise à l’échelle
 
 - [Définir des résultats et des mesures de réussite](teams-adoption-define-outcomes.md)
 - [Sélectionner une stratégie d’activation du service](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)

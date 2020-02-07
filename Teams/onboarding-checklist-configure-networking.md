@@ -10,22 +10,24 @@ ms.reviewer: rowille
 audience: admin
 description: Suivez les tâches principales et les activités de cette liste de vérification lorsque vous configurez votre réseau pour Teams.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cf45acd7053864dbb92e58444cdcc4b162cec9b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 489857d1109230339a051712db374040800275fd
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567902"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835954"
 ---
 # <a name="configure-networking"></a>Configurer la mise en réseau
 
 | Non | Activité ou tâche | Description | Terminé ? | Informations supplémentaires |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Consulter la configuration requise pour Network teams | Bénéficiez d’une vue globale de votre besoin réseau avant d’accéder aux détails du réseau. | | [Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
-| 2  | Ateliers de préparation du réseau | Effectuer une évaluation de la disponibilité du réseau. | |  |
+| deuxième  | Ateliers de préparation du réseau | Effectuer une évaluation de la disponibilité du réseau. | |  |
 | 3  | Utiliser le planificateur de réseau | Utiliser la planification de la bande passante réseau. | | |
 | 4  | Valider la taille de pool NAT requise pour la connectivité utilisateur | Assurez-vous que les adresses IP publiques appropriées sont affectées aux pools NAT pour empêcher les épuisements de port. L’épuisement du port contribuera aux utilisateurs internes et aux appareils qui ne peuvent pas se connecter au service Office 365. <br/><br/>Les problèmes de connectivité constituent une cause principale de problèmes de perception des utilisateurs pour les services Cloud. | | [Prise en charge NAT avec Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9) |
 | 5  | Mettre en œuvre le routage le plus efficace vers les centres de connaissances Microsoft | Identifiez les emplacements qui peuvent utiliser des points de sortie locaux ou régionaux pour vous connecter au réseau Microsoft aussi efficacement que possible. <br/><br/>L’article de la colonne **informations supplémentaires** décrit la façon dont les clients peuvent tirer parti des fonctionnalités de la résolution de noms et du routage IP d’Office 365 pour être connectés efficacement au centre de données régional le plus proche. | | [Connectivité du client Office 365](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |

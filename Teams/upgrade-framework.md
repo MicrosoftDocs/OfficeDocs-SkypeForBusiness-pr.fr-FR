@@ -10,18 +10,20 @@ audience: admin
 description: Utiliser une structure ayant fait ses preuves pour aides les équipes de démarche mise à niveau de votre organisation à passer de Skype Entreprise à Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236408"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837184"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 
@@ -29,7 +31,7 @@ Pour vous aider à ne pas manquer votre niveau de mise à niveau, nous avons uti
 
 Commencez par réunir les parties prenantes appropriées et de définir votre plan de mise à niveau (par exemple, Scope, buts et chronologie). Avec un plan en place, vous pouvez confirmer votre environnement technique et vos utilisateurs finaux pour les équipes. Ensuite, implémentez votre mise à niveau par étapes, en passant d’un pilote à une mise à niveau de l’Organisation dès que vous êtes prêt. Lorsque votre organisation est en équipe, établissez un plan opérationnel qui surveille la qualité et accélère son adoption par les utilisateurs.
 
-![Illustration de l’infrastructure de parcours de mise à niveau] (media/upgrade-banner-main.png "Assurez-vous que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez l’étendue de votre projet, vos buts et votre chronologie. Confirmez la compatibilité technique et des utilisateurs. Exécutez votre plan de déploiement. Mettez à jour votre dynamisme pour optimiser les résultats.")
+![Illustration de l’infrastructure de parcours de mise à niveau](media/upgrade-banner-main.png "Assurez-vous que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez l’étendue de votre projet, vos buts et votre chronologie. Confirmez la compatibilité technique et des utilisateurs. Exécutez votre plan de déploiement. Mettez à jour votre dynamisme pour optimiser les résultats.")
 
 Recherchez ce graphique d’infrastructure sur les pages associées pour identifier l’endroit où vous vous trouvez dans le processus de mise à niveau.
 
@@ -49,7 +51,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 > [!TIP]
 > Téléchargez le [Kit de réussite de mise à niveau](https://aka.ms/UpgradeSuccessKit)pour les documents de préparation des utilisateurs de modèles tels que les communications et les enquêtes utilisateur, en plus d’un exemple de plan de projet de mise à niveau et d’un plan de test pilote. Les éléments disponibles dans le kit sont marqués d’un astérisque (*) dans les listes ci-dessous.
 
-### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: créez votre plan de mise à niveau pour vous assurer que votre organisation est configurée pour le succès à long terme.
+### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan : créez votre plan de mise à niveau pour vous assurer que votre organisation est configurée pour le succès à long terme.
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
@@ -61,7 +63,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 | **6** | **Définir la stratégie de mise à niveau et de coexistence de Skype entreprise et des équipes** | Faites correspondre votre parcours pour garantir le meilleur chemin entre Skype entreprise et Teams pour votre organisation. | [Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
-### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Préparer: évaluer la disponibilité de votre organisation pour teams
+### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Préparer : évaluer la disponibilité de votre organisation pour teams
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
@@ -72,7 +74,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 | **5** | **Annoncer le lancement en attente de Microsoft teams** | Communiquez plus en avance afin d’aider les utilisateurs à utiliser la fonction, de réduire la confusion et de susciter l’intérêt. | [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Préparer votre équipe informatique pour teams** | Confirmez que votre équipe technique et de support technique dispose de tous les éléments nécessaires pour préparer votre environnement technique pour Teams. | [Préparer votre équipe informatique pour Microsoft teams](upgrade-prepare-it-pros.md) <br><br> [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
 
-### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Pilote: exécution d’un pilote pour vérifier que votre organisation est prête et informer votre voyage d’équipe
+### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Pilote : exécution d’un pilote pour vérifier que votre organisation est prête et informer votre voyage d’équipe
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
@@ -83,7 +85,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 | **5** | **Conduire votre pilote** | Démarrez votre pilote, effectuez le suivi de l’avancement et itérez selon les besoins pour optimiser les résultats de votre pilote. | [Conduire votre pilote](pilot-essentials.md#5-conduct-your-pilot) |
 | **6** | **Évaluez les connaissances et évaluez votre plan de transfert** | Recueillez les commentaires des utilisateurs, les statistiques réseau et les tickets de support pour analyse par rapport aux objectifs et évaluez votre plan de transfert. | [Évaluez les connaissances et évaluez votre plan de transfert](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
-### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Déploiement: exécution d’équipes pour coexistence avec Skype entreprise
+### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Déploiement : exécution d’équipes pour coexistence avec Skype entreprise
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
@@ -96,7 +98,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 
 **Faire passer le fonctionnaire aux équipes**. Lorsque vous effectuez une mise à niveau de vos utilisateurs, vous les déplacez dans le mode équipes uniquement. Teams devient son application principale pour la discussion, les réunions, les appels et la collaboration, et l’accès à l’application Skype entreprise est désactivé. Même si les aspects techniques de cette phase sont assez simples, envisagez l’impact qu’il peut avoir sur l’action de l’utilisateur et de permettre aux utilisateurs de transférer officiellement leurs activités de Skype entreprise à Teams. Pour réduire le nombre d’expériences utilisateur différentes avec différents clients, essayez de limiter la fenêtre de mise à niveau de bout en bout à 45 jours.
 
-### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Mise à niveau: mettre en œuvre la mise à niveau de Skype entreprise vers teams
+### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Mise à niveau : mettre en œuvre la mise à niveau de Skype entreprise vers teams
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|
@@ -110,7 +112,7 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 
 **Optimisez votre valeur commerciale avec teams**. Une fois votre organisation entièrement mise à niveau vers Teams, prenez le temps d’évaluer votre réussite par rapport à vos objectifs et de mettre en place un plan de reprise. 
 
-### <a name="operate-measure-the-success-of-your-upgrade"></a>Fonctionnement: Mesurez la réussite de votre mise à niveau
+### <a name="operate-measure-the-success-of-your-upgrade"></a>Fonctionnement : Mesurez la réussite de votre mise à niveau
 
 | Étape |  | Résumé | Ressources |
 |------|--|---------|----------|

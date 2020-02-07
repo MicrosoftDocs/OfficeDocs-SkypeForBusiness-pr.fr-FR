@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment obtenir des commentaires des utilisateurs et utiliser la fonctionnalité de création de rapports sur l’état du service pour votre adoption d’équipes.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83ae406e68a69c14c044ed8198dea1db31d3a7d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9b1367ce5f3814c7ca6a9743e5ec0ccc159312cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837784"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
@@ -30,13 +32,13 @@ Assurez-vous d’obtenir des signaux de votre service et de vos employés en sui
 
 ## <a name="incorporating-feedback"></a>Incorporation de commentaires 
 
-Tout au long de votre phase d’expérimentation, vous allez capturer des informations sur la façon dont les personnes ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster vos programmes de sensibilisation et de formation lorsque vous envisagez de développer son utilisation dans toutes les unités de votre entreprise. Voici quelques exemples de questions fréquemment posées:
+Tout au long de votre phase d’expérimentation, vous allez capturer des informations sur la façon dont les personnes ont utilisé le produit et leur expérience. Utilisez ces informations maintenant pour ajuster vos programmes de sensibilisation et de formation lorsque vous envisagez de développer son utilisation dans toutes les unités de votre entreprise. Voici quelques exemples de questions fréquemment posées :
 
-- Dans quel cas dois-je utiliser ce nouvel outil parallèlement à ma technologie existante?
-- Qui est autorisé à utiliser cet outil avec moi?
-- Est-il sécurisé pour les informations à caractère très confidentiel? 
-- Qui parle pour en savoir plus sur Microsoft teams?
-- Un message ne fonctionne pas. Comment obtenir de l’aide?
+- Dans quel cas dois-je utiliser ce nouvel outil parallèlement à ma technologie existante ?
+- Qui est autorisé à utiliser cet outil avec moi ?
+- Est-il sécurisé pour les informations à caractère très confidentiel ? 
+- Qui parle pour en savoir plus sur Microsoft teams ?
+- Un message ne fonctionne pas. Comment obtenir de l’aide ?
 
 ## <a name="invest-in-your-champions"></a>Investir dans vos champions
 
@@ -44,16 +46,16 @@ Tout au long de votre phase d’expérimentation, vous allez capturer des inform
  
 Soyez plus clair dans votre programme de conception de votre personnel et ce qu’il y a à savoir s’il s’agit de champions. Les exigences courantes du programme sont les heures consacrées au travail, la participation à des appels de communauté mensuels et la participation à des communautés internes en ligne pour soutenir votre transition vers ces nouvelles expériences.  
 
-Meilleure pratique: Organisez une réunion mensuelle teams pour vos champions internes. Fractionnez votre agenda entre les nouvelles fonctionnalités, les commentaires et les outils d’auto-service pour votre communauté d’employés.
+Meilleure pratique : Organisez une réunion mensuelle teams pour vos champions internes. Fractionnez votre agenda entre les nouvelles fonctionnalités, les commentaires et les outils d’auto-service pour votre communauté d’employés.
 
-Meilleure pratique: Demandez aux représentants de votre service d’assistance interne ou de votre support informatique de rejoindre la communauté des champions pour vous tenir au courant des nouvelles informations relatives à l’utilisation de vos équipes. 
+Meilleure pratique : Demandez aux représentants de votre service d’assistance interne ou de votre support informatique de rejoindre la communauté des champions pour vous tenir au courant des nouvelles informations relatives à l’utilisation de vos équipes. 
 
 ## <a name="service-reporting"></a>Rapport de service
 
-Il existe trois types de rapports que vous devez examiner lors du déploiement et de l’adoption de Microsoft teams:
+Il existe trois types de rapports que vous devez examiner lors du déploiement et de l’adoption de Microsoft teams :
 
 - [État du service](https://status.office365.com/) : à partir d’Office 365 et de votre service d’assistance informatique interne.
 - [Activité de service](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – à partir d’Office 365 afficher des [rapports sur Microsoft teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Vous pouvez également utiliser des informations d’autres systèmes au sein de votre organisation.
 - Satisfaction des services – recueillies auprès des forums et enquêtes de la communauté interne sur des expériences spécifiques.
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [prise de connaissance et mise en œuvre des formations](teams-adoption-drive-awareness.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [prise de connaissance et mise en œuvre des formations](teams-adoption-drive-awareness.md)

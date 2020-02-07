@@ -13,14 +13,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231105"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834684"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
@@ -82,7 +84,7 @@ L’onglet **fichiers** de teams ressemble étroitement à la vue documents Shar
 
 SharePoint et OneDrive disposent d’un paramètre d’administrateur pour spécifier le type de lien par défaut pour les liens créés pour un fichier. Teams adopte cette même approche en réutilisant les paramètres définis par l’administrateur pour SharePoint et OneDrive. Pour plus d’informations sur cette approche, voir [modifier le type de lien par défaut lorsque les utilisateurs reçoivent des liens pour le partage](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 Pour plus d’informations sur le fonctionnement de SharePoint avec Teams, reportez-vous à la rubrique [SharePoint et équipes : meilleure combinaison](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

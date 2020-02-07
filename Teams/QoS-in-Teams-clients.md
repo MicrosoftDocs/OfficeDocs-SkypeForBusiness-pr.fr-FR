@@ -11,16 +11,18 @@ audience: admin
 description: Implémenter la qualité de service (QoS) pour les clients Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3447f86be825099b7fada63fecd1b106f94cd80a
-ms.sourcegitcommit: 2b76e6a9a6ba0eb391e4adba5402eb572d1dc61f
+ms.openlocfilehash: 43a4c7ea45fe0feabbe8851cde944a70994829da
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40303866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836484"
 ---
 # <a name="set-qos-on-windows-clients"></a>Définir la qualité de service sur les clients Windows
 
@@ -28,11 +30,11 @@ Vous pouvez utiliser la QoS basée sur une stratégie dans une stratégie de gro
 
 *Tableau 1. Plages de port initiales recommandées*
 
-|Type de trafic multimédia| Plage de ports sources du client |Protocole|Valeur DSCP|Classe DSCP|
+|Type de trafic média| Plage de port source du client  |Protocole|Valeur DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50000 – 50019|TCP/UDP|46|Acheminement accéléré (EF)|
-|Vidéo| 50,020 – 50039|TCP/UDP|34|Acheminement assuré (AF41)|
-|Partage d’écran ou d’application| 50,040 – 50059|TCP/UDP|19|Transfert assuré (AF21)|
+|Audio| Entre 50 000 et 50 019|TCP/UDP|46|Acheminement accéléré (EF)|
+|Vidéo| 50 020–50 039|TCP/UDP|34|Acheminement assuré (AF41)|
+|Partage d’application/d'écran| 50 040–50 059|TCP/UDP|19|Transfert garanti (AF21)|
 | | | | | |
 
 Dans la mesure du possible, vous pouvez configurer les paramètres de QoS basée sur une stratégie au sein d’un objet de stratégie de groupe. Les étapes suivantes sont similaires à la [configuration de plages de ports et d’une politique de qualité de service pour vos clients sur Skype entreprise Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), qui comporte des informations supplémentaires qui peuvent ne pas être nécessaires.

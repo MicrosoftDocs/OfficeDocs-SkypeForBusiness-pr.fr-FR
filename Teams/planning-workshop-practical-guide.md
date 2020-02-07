@@ -11,14 +11,16 @@ ms.reviewer: lolaj, rowille
 description: Outils de planification, ateliers et kits de prise en main pour aider les organisations à prendre en main Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567724"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834654"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Outils et ateliers : planifier, fournir et adopter Microsoft Teams
 

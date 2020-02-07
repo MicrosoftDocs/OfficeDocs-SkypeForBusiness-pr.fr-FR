@@ -14,14 +14,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Apprenez à configurer les jours fériés dans Microsoft teams et à les connecter à votre standard automatique.
-ms.openlocfilehash: 3f52cd1e99a2dec23cae5e6b9f80dd664017d881
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693839"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838014"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 

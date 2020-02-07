@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Évaluez régulièrement les possibilités d’améliorer le service teams après la mise à niveau, de surveiller la présentation des fonctionnalités d’Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236454"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837204"
 ---
-![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
+![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
 

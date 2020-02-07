@@ -1,5 +1,5 @@
 ---
-title: Utilisation de la mémoire par Microsoft teams
+title: Utilisation de la mémoire par Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506901"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836984"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Utilisation de la mémoire par Microsoft teams
+# <a name="how-microsoft-teams-uses-memory"></a>Utilisation de la mémoire par Microsoft Teams
 
 Certains utilisateurs de Microsoft teams ont des questions sur l’utilisation de la mémoire par Teams. Cet article décrit la façon dont la mémoire est utilisée par teams et pourquoi l’application de bureau Teams (application) et l’application Web teams n’empêchent pas d’autres applications et charges de travail sur le même ordinateur d’avoir suffisamment de mémoire pour fonctionner de manière optimale. Teams est conçu pour utiliser la technologie Web moderne. Pour ce faire, le client de bureau teams a été développé sur Electron, qui utilise le chrome pour le rendu. Il s’agit du même moteur de rendu que sur la plupart des navigateurs les plus populaires du jour, y compris les périphériques Edge et chrome.
 

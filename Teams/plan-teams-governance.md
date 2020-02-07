@@ -11,16 +11,18 @@ audience: admin
 description: Apprenez-en davantage sur la planification de l’implémentation des fonctionnalités de gouvernance dans Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913040"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836186"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -131,9 +133,9 @@ Teams repose sur les fonctionnalités avancées de sécurité et de conformité 
 > [!Important]
 > Si votre organisation a des exigences de conformité et de sécurité, consultez le contenu détaillé fourni sur cette rubrique dans l’article [Présentation de la sécurité et de la conformité de Microsoft teams](security-compliance-overview.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-[Démarrage rapide de Microsoft teams](teams-adoption-governance-quick-start.md)
+[Démarrage rapide de la gouvernance pour Teams](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

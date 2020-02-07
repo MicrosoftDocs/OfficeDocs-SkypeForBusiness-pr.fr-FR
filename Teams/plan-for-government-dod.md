@@ -10,17 +10,19 @@ audience: admin
 description: Conseils destinés aux professionnels de l’informatique pour piloter les déploiements d’Office 365 dans les entités qui gèrent les données soumises aux règlements du ministère des États-Unis.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573294"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836854"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour les déploiements Microsoft 365 Government-DoD
 
@@ -90,7 +92,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Envoyer un canal par courrier électronique | Non disponibles |
 | | Ajouter un membre | Disponibles |
 | | Accès invité | Sur le backlog du secteur public |
-| Réunions | Programmer une réunion | Disponibles |
+| Meetings | Programmer une réunion | Disponibles |
 | | Rejoindre une réunion | Disponibles |
 | | Réunion VoIP | Disponibles |
 | | Partage de Bureau | Disponibles |
@@ -125,7 +127,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Standard automatique de l’Organisation | Sur le backlog du secteur public |
 | | Skype grand public-service d’appel d’équipe | Non disponibles |
 | Fichiers | Dernier | Disponibles |
-| | Microsoft Teams | Disponibles |
+| | Microsoft Teams | Disponibles |
 | Enregistrer | Magasin d’applications | Non disponibles |
 | Rechercher | Contenus | Disponibles |
 | | Personnes | Disponibles |

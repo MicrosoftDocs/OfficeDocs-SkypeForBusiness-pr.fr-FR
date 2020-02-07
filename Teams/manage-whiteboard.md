@@ -11,18 +11,20 @@ ms.reviewer: esmather
 search.appverid: MET150
 description: En savoir plus sur l’utilisation de l’application Web tableau blanc dans Microsoft teams
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837514"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft teams
 ==========================================
@@ -37,7 +39,7 @@ Pour activer ou désactiver l’application tableau blanc collaboratif, voir [ac
 
 Avant d’essayer d’utiliser le tableau blanc collaboratif Microsoft, assurez-vous que l’application tableau blanc collaboratif est installée sur votre appareil surface Hub. Si le tableau blanc n’est pas installé, sur l’appareil surface Hub, accédez à l’application Microsoft Store et obtenez le [tableau blanc Microsoft](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Pour plus d’informations, voir [activer le tableau blanc collaboratif Microsoft sur surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 Pour plus d’informations, consultez :
 

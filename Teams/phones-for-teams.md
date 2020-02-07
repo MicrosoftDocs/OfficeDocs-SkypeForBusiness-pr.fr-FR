@@ -10,16 +10,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675388"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836864"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
@@ -52,7 +54,7 @@ Le tableau suivant contient un ensemble de fonctionnalités de niveau supérieur
 |Intégration du calendrier Exchange |Oui |Oui|
 |Intégration de l'image des contacts  |Oui |Oui|
 |Accès à l’annuaire d’entreprise | Oui |Oui|
-|**Réunions**|   ||
+|**Meetings**|   ||
 |Participation en un clic aux réunions  | Oui   |Oui |
 |Participation à des réunions Skype entreprise | Oui   | Oui|
 |Contrôles d’appel de réunion (activation/désactivation du micro, mise en attente/reprise, raccrocher, ajout/suppression de participants)|Oui |Oui|

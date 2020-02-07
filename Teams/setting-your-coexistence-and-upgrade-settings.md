@@ -11,16 +11,18 @@ ms.collection:
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: Cet article vous permet de choisir le mode de coexistence et de définir d’autres paramètres de coexistence.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e0eee70dd27647e59a742f4155ba292b54684eaa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003314"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837974"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -37,7 +39,7 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Définir les options de mise à niveau pour tous les utilisateurs de votre organisation
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
 
@@ -57,7 +59,7 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Définir les options de mise à niveau pour un utilisateur unique au sein de votre organisation
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à **utilisateurs**, puis sélectionnez l’utilisateur dans la liste. 
 2. Dans l’onglet **compte** de l’utilisateur, sous **mise à niveau de Microsoft teams**, cliquez sur **modifier**.
@@ -71,7 +73,7 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 4. Si vous sélectionnez n’importe quel **mode de coexistence** autre que l’option **utiliser les paramètres**à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype entreprise d’un utilisateur qui est bientôt mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activant l’option **informer l’utilisateur de Skype entreprise** .
 5. Cliquez sur **Enregistrer** une fois que vous avez effectué vos modifications.
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 [Planifier le voyage](upgrade-plan-journey.md)
 
 [Comprendre le parcours de coexistence et de mise à niveau de Skype entreprise et équipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

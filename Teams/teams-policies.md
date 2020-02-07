@@ -16,18 +16,20 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’équipe dans votre organisation pour contrôler ce que les utilisateurs peuvent faire dans les équipes et les canaux.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
 - ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 81192f405563c3f7eb023050745d68fcd4c067f9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708320"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836964"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
 

@@ -11,18 +11,20 @@ ms.reviewer: bjwhalen
 description: Remarques concernant la mise à niveau vers teams à partir d’un déploiement local de Skype entreprise.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37396420"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836236"
 ---
 ![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 

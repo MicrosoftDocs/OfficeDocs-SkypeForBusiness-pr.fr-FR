@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.users.voice.calldelegation.tooltip
+- CSH
 ms.custom:
 - Phone System
+- ms.teamsadmincenter.users.voice.calldelegation.tooltip
 description: L’apparence des lignes partagées permet à l’utilisateur de choisir un délégué pour répondre à des appels ou gérer son nom.
-ms.openlocfilehash: 2d050d341d22d74f0d207873925126ad5f7fdc3b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694359"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837964"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -72,6 +73,6 @@ Les responsables peuvent ajouter jusqu’à 25 délégués et des délégués pe
  
 Si le délégué et la personne qui ne se trouvent pas dans le même emplacement géographique, c’est le fournisseur RTC qu’il est autorisé à afficher l’identification de l’appelant à partir d’un autre emplacement géographique pour un appel délégué (au nom de). 
  
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 [Partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

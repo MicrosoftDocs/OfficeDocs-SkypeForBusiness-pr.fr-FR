@@ -10,18 +10,20 @@ audience: admin
 description: Exemples de messages électroniques et d’enquêtes à utiliser dans conjunciton avec le plan d’action en dix étapes accéléré pour la mise à niveau de Skype entreprise vers équipes
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236386"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837224"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de messages électroniques et d’enquêtes pour la mise à niveau des communications de base
 
@@ -31,13 +33,13 @@ ms.locfileid: "36236386"
 
 ### <a name="stakeholder-email-for-step-1"></a>Courrier des parties prenantes, pour l’étape 1
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -53,13 +55,13 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 ### <a name="notify-users-email-for-step-4"></a>Informer les utilisateurs de la messagerie électronique, à l’étape 4
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -82,13 +84,13 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>Rappel du courrier des utilisateurs, à l’étape 6
 
-Ligne d’objet: rappel: Préparez-vous à la mise à niveau vers teams
+Ligne d’objet : rappel : Préparez-vous à la mise à niveau vers teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -113,13 +115,13 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 ### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bienvenue aux utilisateurs de la messagerie électronique du commanditaire du cadre de l’étape 7
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -148,13 +150,13 @@ Regards,
 
 ### <a name="check-in-email-for-step-9"></a>Message d’archivage, pour l’étape 9
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -170,13 +172,13 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Courrier électronique pour demander aux utilisateurs de donner à des équipes et des canaux une tentative, pour l’étape 10
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -201,14 +203,14 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indiquez la façon dont vous souhaitez effectuer les activités suivantes dans Microsoft teams et si vous souhaitez en savoir plus sur les activités suivantes.
 
-| &nbsp; | Très expérimenté | Assez expérimenté | Pas du tout | Pour en savoir plus | S/O | Non familier | | | | |
+| &nbsp; | Très expérimenté | Assez expérimenté | Pas du tout | Pour en savoir plus | N/A | Non familier | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Utiliser teams pour la messagerie instantanée et les conversations avec d’autres personnes | | | | | | | | | | |
 | Utiliser teams pour les réunions en ligne | | | | | | | | | | |
 | Utiliser teams pour la collaboration (équipes et canaux) | | | | | | | | | | |
 | Utiliser teams sur mon appareil mobile | | | | | | | | | | |
 
-| **Quels sont les éléments qui vous empêchent d’utiliser Microsoft teams?** | **Sélectionnez toutes les réponses qui s’appliquent.** |
+| **Quels sont les éléments qui vous empêchent d’utiliser Microsoft teams ?** | **Sélectionnez toutes les réponses qui s’appliquent.** |
 |---|---|
 | Je n’ai jamais entendu parler | &#9744; |
 | Il n’est pas installé sur mon ordinateur | &#9744; |
@@ -221,9 +223,9 @@ Indiquez la façon dont vous souhaitez effectuer les activités suivantes dans M
 | Rien, je l’utilise actuellement | &#9744; |
 | Other (spécifier) | &#9744; |
 
-**Dans quelle mesure êtes-vous susceptible de recommander Microsoft teams à un ami/collègue? (0 = sans doute... 10 = très probable)**
+**Dans quelle mesure êtes-vous susceptible de recommander Microsoft teams à un ami/collègue ? (0 = sans doute... 10 = très probable)**
 
-| 0,4 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
+| 0,4 | 1 | deuxième | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

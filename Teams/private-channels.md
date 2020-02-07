@@ -11,17 +11,19 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
-ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
+ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "40929560"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837314"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft teams
 
@@ -157,7 +159,7 @@ Si un bloc-notes existant est ajouté en tant qu’onglet à un canal privé, l�
 - Par défaut, tout le monde n’a pas accès au bloc-notes. En effet, ils ne peuvent pas avoir accès à l’emplacement de l’hébergement du bloc-notes, par exemple le site SharePoint d’un autre équipe.
 - Les utilisateurs qui ne sont pas membres du canal privé peuvent afficher le bloc-notes.  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

@@ -10,15 +10,17 @@ ms.reviewer: rowille
 audience: admin
 description: Lorsque vous configurez Office 365 pour Teams, exécutez les tâches et activités principales à effectuer.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c102a09e8c0249b9919769b6714b2382c33ccc30
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b207d5b7eafc7574daa454dbca6d9761f7375c0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567850"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835934"
 ---
 # <a name="enable-office-365"></a>Activer Office 365
  

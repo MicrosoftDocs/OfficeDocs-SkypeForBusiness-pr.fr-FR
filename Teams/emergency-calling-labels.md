@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Vous pouvez télécharger ces étiquettes pour les appels d’urgence lorsque vous utilisez des forfaits d’appels dans Office 365.
-ms.openlocfilehash: 375d0cf16e86cf2ee79eb0e757689e7ec72c0a5d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f56a024f379a3534486294f3bc301503cb010950
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696139"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834974"
 ---
 # <a name="emergency-calling-labels"></a>Étiquettes d’appel d’urgence
 

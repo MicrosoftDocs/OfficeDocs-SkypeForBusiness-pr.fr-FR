@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: c8309f4d7007bcd249334c554d284e5be00bfa16
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268928"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838184"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -69,7 +71,7 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
 1. [Ouvrez Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [Connectez-vous à votre serveur Exchange à l’aide de Remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. Dans Exchange PowerShell, en utilisant la commande suivante, la boîte aux lettres du compte (activée par boîte aux lettres) s’exécute à l’aide de la commande suivante :
+2. Dans Exchange PowerShell, créez une boîte aux lettres pour le compte (activation du compte par boîte aux lettres) en exécutant la commande suivante :
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room

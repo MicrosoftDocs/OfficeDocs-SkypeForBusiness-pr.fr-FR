@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570123"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836954"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
 
@@ -120,7 +122,7 @@ Les configurations sont des compartiments des paramètres conservés dans le ser
 
 ## <a name="other-powershell-tools"></a>Autres outils PowerShell
 
-Vous trouverez des instructions détaillées sur l’utilisation de tous les contrôles PowerShell pour la gestion de Microsoft teams et de Skype entreprise, notamment la description détaillée des paramètres de chaque stratégie dans les informations de référence sur l’applet de commande [Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) et [Skype pour Référence sur les applets de décision](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Vous trouverez des instructions détaillées sur l’utilisation de tous les contrôles PowerShell pour la gestion de Microsoft teams et de Skype entreprise, notamment la description détaillée des paramètres de chaque stratégie dans les informations de [référence](https://docs.microsoft.com/powershell/teams/?view=teams-ps) sur les applets de commande et les [applets de commande Skype entreprise](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>En savoir plus
 

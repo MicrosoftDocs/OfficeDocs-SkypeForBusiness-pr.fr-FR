@@ -11,18 +11,20 @@ ms.reviewer: jatpatel
 description: Configurer les paramètres d’administration de Microsoft teams pour surface Hub.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom:
 - Devices
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570101"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836934"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
@@ -62,7 +64,7 @@ Les packages sont disponibles sur cette [page de téléchargement](https://1drv.
 |---------|---------|
 |0,4     | Application préférée Skype sur l’écran d’accueil, réunions teams disponibles        |
 |1     | Application par défaut teams dans l’écran d’accueil, réunions Skype disponibles        |
-|2     | Application Skype pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible)        |
+|deuxième     | Application Skype pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible)        |
  
 1. Associez la clé USB à l’appareil surface Hub. 
 2. Ouvrez l’application **paramètres** sur un appareil surface Hub. 
@@ -88,7 +90,7 @@ Procédez comme suit pour configurer la stratégie d’application pour les appe
 |Paramètre   |Valeur    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Type de données | Définissez chaîne-donnez à l’ID de package de l’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe ! Teams** |
+|Type de données | Définissez chaîne-donnez une chaîne à l’ID de package d’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe. Teams** |
 |Opérations| Obtenir, définir        |
 
 Redémarrez l’appareil surface Hub. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier.

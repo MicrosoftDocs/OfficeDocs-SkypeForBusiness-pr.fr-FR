@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à contrôler si les équipes privées peuvent être détectées par les utilisateurs de Microsoft teams par le biais de suggestions dans la Galerie d’équipe et les résultats de recherche.
-ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992009"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836514"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
 
@@ -87,5 +89,5 @@ Dans cet exemple, nous créons une stratégie nommée VendorPolicy qui empêche 
 > [!NOTE]
 > Les équipes privées qui ne sont pas détectables ne sont jamais affichées dans les résultats de recherche et les suggestions, indépendamment du paramètre de stratégie. Par exemple, si vous désactivez le paramètre de découverte pour une équipe privée, les utilisateurs ne parviennent pas à découvrir l’équipe, même si le paramètre **AllowPrivateTeamDiscovery** est défini sur **true** dans le paramètre de stratégie pour ces utilisateurs.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

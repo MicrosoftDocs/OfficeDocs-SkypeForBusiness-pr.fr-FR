@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Suivez ces instructions pour en savoir plus sur la configuration requise pour évaluer votre environnement actuel et procéder à la mise à niveau vers Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837126"
 ---
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -182,7 +184,7 @@ Utilisez le tableau suivant et consignez l’état d’adoption et de préparati
 > | Question | Réponse | Commentaires |
 > |---|---|---|
 > | Quelle est votre utilisation actuellement active de <br>Skype entreprise ? | **_ _** % total des utilisateurs actifs par rapport aux utilisateurs activés | |
-> | Utilisation de votre organisation <br>Skype entreprise ? | Conversations en tête-à-tête <br>&nbsp;&nbsp; &nbsp; Messagerie <input type="checkbox"> instantanée <br>&nbsp;&nbsp; Appel &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Partage &nbsp; <input type="checkbox"><br> Réunions <br>&nbsp;&nbsp; &nbsp; Conférences <input type="checkbox"> téléphoniques<br>&nbsp;&nbsp; Partage &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Appel &nbsp; <input type="checkbox"> | |
+> | Utilisation de votre organisation <br>Skype entreprise ? | Conversations en tête-à-tête <br>&nbsp;&nbsp; &nbsp; Messagerie <input type="checkbox"> instantanée <br>&nbsp;&nbsp; Appel &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Partage &nbsp; <input type="checkbox"><br> Meetings <br>&nbsp;&nbsp; &nbsp; Conférences <input type="checkbox"> téléphoniques<br>&nbsp;&nbsp; Partage &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Appel &nbsp; <input type="checkbox"> | |
 > | Votre organisation a-t-elle adopté un utilisateur <br>et équipe de gestion des changements ? | <input type="checkbox">Positive<br/> <input type="checkbox">Aucun | |
 > | Comment évaluez-vous actuellement la réussite de la technologie <br>des déploiements tels que Skype entreprise ? | | |
 > | Quel pourcentage de votre base de données d’utilisateurs avez-vous dit ? <br>avez-vous adopté Skype entreprise ? | | |

@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros et transférer des numéros existants pour les équipes, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f4688287df090ca4b293af7f4b1466c7e666f7d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707870"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837004"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 

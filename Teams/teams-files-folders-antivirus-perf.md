@@ -1,5 +1,5 @@
 ---
-title: Fichiers et dossiers teams à exclure de l’analyse antivirus
+title: Fichiers et dossiers Teams à exclure de l’analyse antivirus
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -10,18 +10,20 @@ audience: admin
 description: Améliorez les performances des équipes en excluant certains fichiers et dossiers de l’analyse antivirus classique.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b4a4591bf25d7ef1a5b6efb9ab83c4508e26110
-ms.sourcegitcommit: bcebe833d5ff4fcd3d6246fc5ed80980c6f31d0c
+ms.openlocfilehash: 2dbb4b31fc3cddd8c434eb5c94e4f8801ff0633b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37578806"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837674"
 ---
-<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Fichiers et dossiers teams à exclure de l’analyse antivirus
+<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Fichiers et dossiers Teams à exclure de l’analyse antivirus
 =================================
 
 Vous pouvez améliorer les performances globales du déploiement d’équipes en empêchant vos logiciels antivirus d’analyser certains fichiers et dossiers Teams. Cela évite d’avoir recours aux ressources système pour analyser les fichiers et dossiers qui n’ont pas besoin d’être analysés.

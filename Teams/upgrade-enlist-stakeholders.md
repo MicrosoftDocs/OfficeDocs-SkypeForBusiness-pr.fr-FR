@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Enrôlez les parties prenantes qui doivent faire office de l’équipe de projet pour la mise à niveau.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "36437626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837194"
 ---
 ![Illustration illustrant l’état des parties prenantes du parcours de mise à niveau](media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
 

@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: En savoir plus sur les différentes combinaisons de création d’utilisateur et les combinaisons prises en charge ou non prises en charge.
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572112"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837284"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN
 
@@ -58,10 +60,10 @@ Un environnement hybride Skype entreprise avec connectivité PSTN offre une soup
 | ------------ | --------- | --------- | --------- | -------- |
 |ANNONCE locale| En local |Skype Entreprise   | Voix Entreprise   |Oui|
 |ANNONCE locale|Online| Skype Entreprise  | Connectivité vocale hybride   |Oui |
-|ANNONCE locale|Online |Microsoft Teams |Routage direct  |Oui |
+|ANNONCE locale|Online |Microsoft Teams |Routage direct  |Oui |
 |**Combinaisons non prises en charge**    | |         |         |      |
 |Azure AD| En local/en ligne | Skype entreprise et Microsoft teams|Voix entreprise/connectivité vocale hybride/routage direct  |Non, un objet utilisateur doit d’abord être créé dans une publicité locale |
-|ANNONCE locale  |En local| Microsoft Teams| Voix entreprise/connectivité vocale hybride/routage direct   |Non, le client Microsoft teams n’est pas pris en charge avec Skype entreprise local. |     
+|ANNONCE locale  |En local| Microsoft Teams| Voix entreprise/connectivité vocale hybride/routage direct   |Non, le client Microsoft teams n’est pas pris en charge avec Skype entreprise local. |     
 |ANNONCE locale  |Online |Skype Entreprise  | Routage direct  |Non, le routage direct n’est pas pris en charge par le client Skype entreprise et l’utilisateur doit être activé pour voix entreprise dans Skype entreprise d’abord  |
 
 

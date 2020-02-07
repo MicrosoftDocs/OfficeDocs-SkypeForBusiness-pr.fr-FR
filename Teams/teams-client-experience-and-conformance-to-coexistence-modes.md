@@ -10,18 +10,20 @@ audience: admin
 description: Expérience client Teams et conformité aux modes coexistence
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435238"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837374"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -76,7 +78,7 @@ Les administrateurs ont besoin de *ne pas* définir explicitement ces paramètre
 |SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
 ||||||
 
-Lors de l’utilisation de `Grant-CsTeamsUpgradePolicy` PowerShell, l’applet de contrôle vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres sont remplacés par TeamsUpgradePolicy et, si tel est le cas, un le message d’information est fourni dans PowerShell.  Comme indiqué plus haut, il n’est plus nécessaire de définir les autres paramètres de stratégie. Voici un exemple d’avertissement de PowerShell :
+Lors de l’utilisation de `Grant-CsTeamsUpgradePolicy` PowerShell, l’applet de contrôle vérifie la configuration des paramètres correspondants dans TeamsMessagingPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres sont remplacés par TeamsUpgradePolicy et, si tel est le cas, un message d’information est fourni dans PowerShell.  Comme indiqué plus haut, il n’est plus nécessaire de définir les autres paramètres de stratégie. Voici un exemple d’avertissement de PowerShell :
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -84,7 +86,7 @@ Lors de l’utilisation de `Grant-CsTeamsUpgradePolicy` PowerShell, l’applet d
 
 
 
-# <a name="related-topics"></a>Voir aussi
+# <a name="related-topics"></a>Rubriques connexes
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

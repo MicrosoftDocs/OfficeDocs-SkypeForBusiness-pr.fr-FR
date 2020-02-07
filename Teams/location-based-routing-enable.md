@@ -10,16 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Apprenez à activer le routage en fonction de l’emplacement pour le routage direct.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 763eadd0f38ce1dcaf941a92ed8221024f23b6ed
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 734a2354e81dc88430e8f880c46b0f97862158b5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836554"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 

@@ -16,13 +16,15 @@ localization_priority: Normal
 search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708490"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837394"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 

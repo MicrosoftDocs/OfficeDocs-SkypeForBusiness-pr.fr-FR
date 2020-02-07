@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur les phases de démarrage, d’expérimentation et d’activation de Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 04c785a704c5619dbeb0bd4b2089ed75d52fd5f1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837824"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 
@@ -30,7 +32,7 @@ En tirant parti de Microsoft Teams, vous pouvez offrir une excellente utilisatio
 
 ## <a name="adoption-prerequisites"></a>Conditions préalables à l’adoption
 
-Avant de commencer, assurez-vous que:
+Avant de commencer, assurez-vous que :
 
 - [Teams est installé](get-clients.md) et les [licences sont affectées](office-365-licensing.md) dans votre environnement. Les licences minimales doivent être attribuées à votre équipe principale et aux premiers décideurs qui participeront à cette phase initiale du projet.
 
@@ -50,9 +52,9 @@ La taille et la complexité de chaque projet d’adoption varient en fonction de
 
 - **Expérimentation** -dans cette phase de croissance maîtrisée, vous mettrez en place vos champions internes et vos premiersateurs. Vous parlez avec les utilisateurs de votre entreprise pour identifier les scénarios qui vous aideront à tirer le meilleur parti des fonctionnalités de collaboration et de communication offertes par Teams. Vous recueillerez des commentaires qui vous informeront de votre phase d’adoption à grande échelle et vous prendrez des décisions de service concernant la gouvernance et la gestion du cycle de vie qui garantiront un déploiement réussi.
 
-- **Scale** -il s’agit de la phase de déploiement à grande échelle dans laquelle vous activez les fonctionnalités d’équipes pour tous vos employés. Au cours de cette phase, la taille de votre organisation déterminera s’il s’agit d’un projet «Go Big» qui permettra d’activer les équipes pour tous les employés simultanément, ou si vous allez aborder cette fonction par région, unité d’entreprise ou tout autre moyen de segmenter votre population d’employés. Dans cette phase, vous basculerez vers un modèle de remise continue. Les employés, les leaders et les unités d’entreprise doivent développer leur utilisation des équipes et nécessiter une formation et votre engagement pour comprendre la manière dont vous pouvez utiliser au mieux les équipes et d’autres fonctionnalités d’Office 365.   
+- **Scale** -il s’agit de la phase de déploiement à grande échelle dans laquelle vous activez les fonctionnalités d’équipes pour tous vos employés. Au cours de cette phase, la taille de votre organisation déterminera s’il s’agit d’un projet « Go Big » qui permettra d’activer les équipes pour tous les employés simultanément, ou si vous allez aborder cette fonction par région, unité d’entreprise ou tout autre moyen de segmenter votre population d’employés. Dans cette phase, vous basculerez vers un modèle de remise continue. Les employés, les leaders et les unités d’entreprise doivent développer leur utilisation des équipes et nécessiter une formation et votre engagement pour comprendre la manière dont vous pouvez utiliser au mieux les équipes et d’autres fonctionnalités d’Office 365.   
 
-Chacune de ces phases d’adoption dépend de votre compatibilité technique et environnementale pour Teams. C’est parti!
+Chacune de ces phases d’adoption dépend de votre compatibilité technique et environnementale pour Teams. C’est parti !
 
 
-![Une icône représentant l’étape](media/teams-adoption-next-icon.png) suivante, à côté de Microsoft Teams, [phase 1: début](teams-adoption-phase1.md)|
+![Une icône représentant l’étape](media/teams-adoption-next-icon.png) suivante, à côté de [Microsoft Teams, phase 1 : début](teams-adoption-phase1.md)|

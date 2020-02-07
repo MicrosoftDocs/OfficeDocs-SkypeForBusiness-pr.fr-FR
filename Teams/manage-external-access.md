@@ -12,17 +12,19 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 description: Votre équipe ou administrateur informatique peut configurer l’accès externe pour les autres domaines (Fédération) pour permettre aux utilisateurs de ces domaines de participer aux équipes.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a04a5547e13b8b93864b1b23dc598b08877c745a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eb0b252f2df1deb3e2a92bfada9a04b1df561316
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707289"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836894"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================

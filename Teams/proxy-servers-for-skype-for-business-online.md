@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Optimization
 description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec teams ou Skype entreprise.
-ms.openlocfilehash: e71dd21d8d359093b5dada84a8d0788e8dff6af3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708830"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837304"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online et Teams
 

@@ -11,24 +11,26 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à renforcer la sensibilisation et à implémenter un programme de formation pour l’adoption de Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8bda03900368e349e2a6579dfb32381af8c97b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242293"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837834"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
 La sensibilisation et la formation sont les segments marketing et de communications de votre stratégie d’adoption globale. Cela permet de garantir que vos employés connaissent les nouvelles fonctionnalités de Microsoft Teams, ainsi que les services et applications Office 365 sous-jacents.
    
-Pour vos pilotes initiaux et votre déploiement à l’échelle de l’entreprise, vos communications internes doivent être de priorité. Ils doivent inclure:
+Pour vos pilotes initiaux et votre déploiement à l’échelle de l’entreprise, vos communications internes doivent être de priorité. Ils doivent inclure :
 
 - Des documents de sensibilisation destinés aux employés, tels que des affiches, une signalétique numérique et des événements
 - Des informations d’aide et de formation au même endroit.
@@ -45,7 +47,7 @@ Si votre entreprise possède un portail intranet central pour les actualités, l
 
 ## <a name="implement-end-user-training"></a>Mettre en œuvre une formation pour les utilisateurs finaux
 
-Utilisez nos ressources pour vous permettre de réaliser des formations aux utilisateurs finaux au fur et à mesure que les utilisateurs commenceront à utiliser Microsoft teams et d’autres services 365 Office. Consultez nos pages de ressources pour en savoir plus:
+Utilisez nos ressources pour vous permettre de réaliser des formations aux utilisateurs finaux au fur et à mesure que les utilisateurs commenceront à utiliser Microsoft teams et d’autres services 365 Office. Consultez nos pages de ressources pour en savoir plus :
 
 - [Formation pour les utilisateurs finaux dirigées par un instructeur pour teams](instructor-led-training-teams-landing-page.md)
 - [Formations destinées aux administrateurs pour teams](itadmin-readiness.md)
@@ -55,7 +57,7 @@ Utilisez nos ressources pour vous permettre de réaliser des formations aux util
 
 ## <a name="measure-and-share-success"></a>Mesurer et partager la réussite
 
-Comme pour toutes les campagnes de communications et d’adoption, il est préférable d’identifier les mesures de réussite au premier plan. Prenez en considération les éléments suivants:
+Comme pour toutes les campagnes de communications et d’adoption, il est préférable d’identifier les mesures de réussite au premier plan. Prenez en considération les éléments suivants :
 
 - Utilisateurs actifs dans le produit
 - Vues de vos pages Web d'informations
@@ -67,4 +69,4 @@ Partagez les avis que vous obtenez de votre canal de commentaires grâce au mot-
 
 [En savoir plus sur les rapports d’utilisation de Microsoft teams dans le centre d’administration 365 Microsoft.](teams-activity-reports.md)
 
-![Une icône représentant les étapes](media/teams-adoption-next-icon.png) suivantes: planifier des révisions d’état de [service](teams-adoption-schedule-service-health-reviews.md)
+![Une icône représentant les étapes](media/teams-adoption-next-icon.png) suivantes : planifier des [révisions d’état de service](teams-adoption-schedule-service-health-reviews.md)

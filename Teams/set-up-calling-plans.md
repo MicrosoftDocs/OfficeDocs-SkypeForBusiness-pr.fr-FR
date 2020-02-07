@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Pour les offres d’appels d’Office 365, Découvrez comment acheter et configurer des licences, obtenir des numéros de téléphone, ajouter et affecter des emplacements et des numéros de téléphone d’urgence aux utilisateurs et communiquer à vos utilisateurs leurs nouveaux numéros de téléphone.
-ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693929"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838044"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 

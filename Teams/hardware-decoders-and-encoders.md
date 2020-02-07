@@ -13,16 +13,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Répertorie les combinaisons de systèmes d’exploitation, de modèles et de pilotes qui ne sont pas activées pour l’accélération matérielle en raison de problèmes de pilotes.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: dace536d8d47ecacc15661d159563a916b447113
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772597"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836434"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recommandations concernant le pilote matériel encodeur et décodeur
 
@@ -137,6 +139,6 @@ Les combinaisons de systèmes d’exploitation, de modèles et de pilotes suivan
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | ses | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | ses | [21.19.137.1] |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configuration matérielle requise pour l’application Teams](hardware-requirements-for-the-teams-app.md)

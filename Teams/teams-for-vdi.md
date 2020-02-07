@@ -10,16 +10,18 @@ audience: admin
 description: Découvrez comment exécuter Microsoft teams dans un environnement VDI (Virtual Desktop Infrastructure).
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e412f6f45fabda12ca01df0f50c46f3989b0afd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952847"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837664"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -360,7 +362,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

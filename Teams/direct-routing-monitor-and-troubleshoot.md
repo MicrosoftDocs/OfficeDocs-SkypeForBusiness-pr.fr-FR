@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Cet article décrit comment surveiller et résoudre les problèmes de votre configuration de routage direct.
-ms.openlocfilehash: b2afef2a8f02f6823be10d127c8efc7b4cd5d72d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5dcae4d734c146c92c0cda4ac988d6010f90cc6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572167"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836044"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 

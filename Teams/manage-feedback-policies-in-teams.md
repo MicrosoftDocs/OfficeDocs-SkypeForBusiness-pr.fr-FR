@@ -10,17 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 70771f4a5e7c1376970ac3ac96cb9a4f822882a8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991419"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837544"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -92,6 +94,6 @@ $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Fee
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

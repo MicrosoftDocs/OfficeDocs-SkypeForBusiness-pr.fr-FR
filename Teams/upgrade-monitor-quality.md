@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Tâches et activités requises pour l’analyse de la qualité et de l’utilisation de Microsoft teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236427"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837174"
 ---
-Mise en ![évidence de l’étape de mise à niveau d’amélioration du diagramme] (media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
+![Mise en évidence de l’étape de mise à niveau d’amélioration du diagramme](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
 Cet article fait partie de l’étape du fonctionnement de votre mise à niveau du fonctionnement de votre mise à niveau, qui commence dès que vous avez terminé la mise à niveau de Skype entreprise vers Teams.
 
@@ -31,7 +33,7 @@ Cet article fait partie de l’étape du fonctionnement de votre mise à niveau 
 
 Le [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide) inclut un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact élevé sur l’amélioration de l’interface utilisateur, comme illustré ci-dessous.
 
-![Illustration des principales zones à examiner lors d’une révision.] (media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation: audio, fiabilité et résultats d’une enquête utilisateur.")
+![Illustration des principales zones à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux points à examiner lors de la vérification de la qualité de l’utilisation : audio, fiabilité et résultats d’une enquête utilisateur.")
 
 En évaluant et en révisant en permanence les zones décrites dans le guide, vous pouvez réduire leur potentiel pour une utilisation négative de l’utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

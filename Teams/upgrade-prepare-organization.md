@@ -10,22 +10,24 @@ audience: admin
 description: Évaluez la volonté de votre organisation d’accepter les modifications, puis préparez un plan pour préparer les utilisateurs à la mise à niveau de Skype entreprise vers Microsoft teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd0509f3f016d6c8c62e6f79de791e8fc531653
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236091"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836246"
 ---
-![Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur] (media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
+![Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur](media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
-Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
+Cet article fait partie de l’étape de préparation de votre mise à niveau par l’utilisateur, une activité que vous effectuez parallèlement à l’étape de préparation technique. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
 
 - [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
@@ -34,9 +36,9 @@ Cet article fait partie de l’étape de préparation de votre mise à niveau pa
 
 # <a name="prepare-your-organization"></a>Préparer votre organisation
 
-Pour tirer le meilleur parti des équipes, les utilisateurs doivent réellement l’utiliser, mais les utilisateurs peuvent changer la façon dont ils ne fonctionnent pas toujours facilement. Le temps de comprendre les utilisateurs et de concevoir le plan de préparation approprié peut vous aider à faciliter les changements et à accélérer l’adoption d’équipes. Ces activités doivent être effectuées parallèlement à votre préparation technique:
+Pour tirer le meilleur parti des équipes, les utilisateurs doivent réellement l’utiliser, mais les utilisateurs peuvent changer la façon dont ils ne fonctionnent pas toujours facilement. Le temps de comprendre les utilisateurs et de concevoir le plan de préparation approprié peut vous aider à faciliter les changements et à accélérer l’adoption d’équipes. Ces activités doivent être effectuées parallèlement à votre préparation technique :
 
-- [Évaluation](https://aka.ms/OrgReadiness)de la compatibilité des modifications de l’Organisation: il s’agit de comprendre qui est vos utilisateurs, de la façon dont ils utiliseront la nouvelle technologie et de la facilité d’adaptation. Il s’agit également de l’opportunité d’identifier les profils utilisateur spécifiques qui bénéficieront d’une intégration prioritaire.
+- [Évaluation](https://aka.ms/OrgReadiness)de la compatibilité des modifications de l’Organisation : il s’agit de comprendre qui est vos utilisateurs, de la façon dont ils utiliseront la nouvelle technologie et de la facilité d’adaptation. Il s’agit également de l’opportunité d’identifier les profils utilisateur spécifiques qui bénéficieront d’une intégration prioritaire.
 - [Préparation d’un plan de compatibilité utilisateur](https://aka.ms/UserReadinessPlan): il s’agit de formations, de formations et de prises en charge, votre plan de préparation doit répondre à la plupart des utilisateurs et des profils ciblés, comme indiqué dans l’article évaluation de la [compatibilité des modifications](https://aka.ms/OrgReadiness) .
 
 > [!Tip]

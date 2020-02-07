@@ -11,22 +11,24 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur la phase de démarrage de l’adoption d’équipes.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 294b623a9487094607330382c1d2ec63056207f5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237940"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837774"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase 1 de l’adoption de Microsoft Teams - Démarrer
 
-Vous entamerez votre adoption d’équipes avec les activités suivantes:
+Vous entamerez votre adoption d’équipes avec les activités suivantes :
 
 - [Valider les conditions préalables](#validate-adoption-prerequisites)à l’adoption.
 - [Assembler votre équipe](#assemble-your-team).
@@ -63,10 +65,10 @@ Dans la plupart des cas, cette équipe initiale doit être un petit groupe de pe
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations d’approbation fournies par un homologue en matière d’adoption et de problèmes techniques pour de nombreux produits Office 365. Nous vous suggérons de rejoindre les communautés suivantes:
+La [communauté technique Microsoft](https://aka.ms/TechCommunity) fournit des informations d’approbation fournies par un homologue en matière d’adoption et de problèmes techniques pour de nombreux produits Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
 
 - [Communauté technique Microsoft teams](https://aka.ms/TeamsCommunity) : Obtenez des réponses à vos questions sur le produit, apprenez auprès des clients d’autres équipes et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation pour Teams. 
-- [Programme des champions office 365](https://aka.ms/O365Champions) et communauté d’adoption du pilotage: Apprenez auprès de vos collègues comment adopter efficacement les charges de travail d’Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ce service est destiné aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur «accidentel» et aux personnes qui souhaitent adopter les services Cloud.  
+- [Programme des champions office 365](https://aka.ms/O365Champions) et communauté d’adoption du pilotage : Apprenez auprès de vos collègues comment adopter efficacement les charges de travail d’Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ce service est destiné aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et aux personnes qui souhaitent adopter les services Cloud.  
 
 
-![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante: [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)
+![Une icône représentant la prochaine étape](media/teams-adoption-next-icon.png) suivante : [Présentation des équipes et des canaux](teams-adoption-understand-teams-and-channels.md)

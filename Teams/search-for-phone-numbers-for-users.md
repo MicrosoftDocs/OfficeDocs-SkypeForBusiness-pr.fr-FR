@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et par ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694199"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838174"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 

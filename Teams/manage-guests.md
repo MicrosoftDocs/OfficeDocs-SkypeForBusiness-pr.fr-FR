@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111358"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834774"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -68,7 +70,7 @@ Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-2
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 Pour plus d’informations sur l’utilisation de PowerShell pour gérer l’accès invité, voir [Utiliser PowerShell pour contrôler l’accès invité à une équipe](guest-access-powershell.md).
 

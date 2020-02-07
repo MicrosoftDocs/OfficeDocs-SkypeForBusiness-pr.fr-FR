@@ -11,17 +11,19 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837324"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
@@ -342,7 +344,7 @@ Si vous avez déjà installé le module teams PowerShell à partir de la Galerie
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Utiliser l’API Microsoft Graph pour travailler avec des équipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)

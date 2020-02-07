@@ -10,22 +10,24 @@ audience: admin
 description: Validez votre environnement et votre disponibilité du réseau avant de commencer la mise à niveau de Skype entreprise vers Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 481c32dd7b41f377d1d16c7e8d3fc068f86d8391
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837094"
 ---
-![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
+![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
-Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous:
+Cet article fait partie de l’étape de préparation technique de votre mouvement de mise à niveau, une activité que vous finalisez en parallèle avec l’étape de préparation de l’utilisateur. Avant de continuer, assurez-vous d’avoir suivi les étapes ci-dessous :
 
 - [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
@@ -36,7 +38,7 @@ Cet article fait partie de l’étape de préparation technique de votre mouveme
 
 Pour améliorer la mise à niveau de vos équipes au sein de votre organisation, il est important de valider votre environnement Skype entreprise actuel et votre disponibilité du réseau. En préparant votre environnement actuel, vous garantirez une meilleure qualité d’utilisation de l’utilisateur, en plus d’améliorer la qualité de l’utilisation de l’utilisateur dans Teams. Le temps de planifier des étapes individuelles peut vous aider à accélérer votre déploiement et à ne pas ignorer les points d’action importants.
 
-Effectuez les activités suivantes en parallèle avec votre préparation de l’utilisateur:
+Effectuez les activités suivantes en parallèle avec votre préparation de l’utilisateur :
 
 - [Préparez votre équipe informatique](upgrade-prepare-IT-pros.md) pour vous assurer qu’elle a son besoin pour réussir la mise à niveau.
 - Vérifiez que votre environnement répond à toutes les [conditions préalables](upgrade-plan-journey-prerequisites.md)et comprenez les dépendances entre les services et les équipes Office 365.

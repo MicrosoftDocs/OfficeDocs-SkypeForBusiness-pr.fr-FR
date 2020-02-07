@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: Cette section explique quelles données et autorisations sont demandées par les applications de votre organisation.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516783"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845225"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -72,13 +74,13 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - POST_MESSAGE_TEAM. Permet aux robots d’une application de lui envoyer des messages directs (proactif) à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
 
-- Les éléments suivants ne sont pas des autorisations explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE, ainsi que les étendues dans lesquelles les robots peuvent être utilisés, et déclarés dans le manifeste :
+- Les éléments suivants ne sont pas des autorisations explicites, mais sont implicites en RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les robots peuvent être utilisés, déclarées dans le manifeste :
  
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES. <sup>2</sup> contrôle si un bot peut envoyer et recevoir des fichiers dans la conversation personnelle (pas encore pris en charge pour les conversations ou canaux de groupe).
+- SEND_FILES RECEIVE_FILES. <sup>2</sup> contrôle si un bot peut envoyer et recevoir des fichiers dans la conversation personnelle (pas encore pris en charge pour les conversations ou canaux de groupe).
 
 ### <a name="considerations"></a>Inconvénients
 
@@ -106,7 +108,7 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - En revanche, les extensions de messagerie s’affichent avec les adresses IP des utilisateurs et les informations de renvoi.
 
-- Recommandations en matière d’applications (et notre processus de vérification de AppSource) demander la validation de messages de discussion personnelle aux utilisateurs (via l’autorisation POST_MESSAGE_TEAM) pour des raisons valides. En cas d’abus, les utilisateurs peuvent bloquer le bot, les administrateurs de clients peuvent bloquer l’application et Microsoft peut bloquer les robots de manière centralisée, le cas échéant.
+- Recommandations en matière d’applications (et notre processus de vérification AppSource) exigez la discrétion lors de l’envoi de messages de discussion personnelles aux utilisateurs (via l’autorisation POST_MESSAGE_TEAM) à des fins valides. En cas d’abus, les utilisateurs peuvent bloquer le bot, les administrateurs de clients peuvent bloquer l’application et Microsoft peut bloquer les robots de manière centralisée, le cas échéant.
 
 <sup>1</sup> certains robots envoient uniquement des messages (POST_MESSAGE_USER). Il s’agit de robots « notifications uniquement », mais le terme ne fait pas référence à ce qu’un bot est autorisé ou qu’il n’est pas autorisé à faire, cela signifie que le bot ne veut pas exposer une conversation. Teams utilise ce champ pour désactiver les fonctionnalités de l’interface utilisateur qui seraient en principe activées ; Ce robot n’est pas limité à ce qu’il est autorisé à faire comparé aux robots qui présentent une connaissance de conversation.
 
@@ -153,7 +155,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages 
 
 - Aucune donnée ne quitte le réseau d’entreprise lorsque des messages de connecteur sont publiés dans un canal.
 
-- Les connecteurs prenant en charge des messages interactifs (autorisation REPLYTO_CONNECTOR_MESSAGE) ne voient pas les informations d’adresse IP et de renvoi. ces informations sont envoyées à Microsoft, puis routées aux points de terminaison HTTP déjà enregistrés auprès de Microsoft dans le portail de connecteurs.
+- Les connecteurs qui prennent en charge les messages interactifs (autorisation REPLYTO_CONNECTOR_MESSAGE) ne voient pas les informations d’adresse IP et de renvoi. ces informations sont envoyées à Microsoft, puis routées aux points de terminaison HTTP déjà enregistrés auprès de Microsoft dans le portail de connecteurs.
 
 - Chaque fois qu’un connecteur est configuré pour un canal, une URL unique est créée pour cette instance de connecteur. Si cette instance de connecteur est supprimée, l’URL ne peut plus être utilisée.
 
@@ -168,11 +170,11 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages 
 
 ## <a name="outgoing-webhooks"></a>Raccordements Web sortants
 
-Les *webhook sortants* sont créés à la volée par les propriétaires d’équipe ou les membres de l’équipe si chargement indépendant est activé pour un client. Elles ne sont pas des fonctionnalités des applications Teams. ces informations sont disponibles à des fins d’exhaustivité.
+Les *webhook sortants* sont créés à la volée par les propriétaires d’équipe ou les membres de l’équipe. Elles ne sont pas des fonctionnalités des applications Teams. ces informations sont disponibles à des fins d’exhaustivité.
 
 ### <a name="required-permissions"></a>Autorisations requises
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et y répondre.
+RECEIVE_MESSAGE REPLYTO_MESSAGE. Peut recevoir des messages des utilisateurs et y répondre.
 
 ### <a name="optional-permissions"></a>Autorisations facultatives
 

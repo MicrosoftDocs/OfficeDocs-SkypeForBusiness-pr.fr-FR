@@ -13,14 +13,16 @@ description: Se connecter à Microsoft teams à l’aide de l’authentification
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790612"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845135"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -39,9 +41,14 @@ L’authentification moderne est un processus qui permet à teams de savoir que 
 
 - Si les utilisateurs sont connectés à un ordinateur appartenant à un domaine au démarrage d’Teams, ils peuvent être invités à procéder à une autre étape d’authentification, selon que votre organisation a opté pour l’authentification multifacteur ou si elle exige déjà une authentification multifacteur pour se connecter. Si son ordinateur exige déjà une authentification multifacteur, il démarre automatiquement lorsque les utilisateurs ouvrent Teams.
 
-- Si les utilisateurs sont connectés à un ordinateur appartenant à un domaine et que vous ne souhaitez pas que leur nom d’utilisateur soit prérempli sur l’écran de connexion Teams, les administrateurs peuvent configurer le Registre Windows suivant pour désactiver le pré-remplissage du nom d’utilisateur : ordinateur \ HKEY_CURRENT_USER \Software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+- Si les utilisateurs sont connectés à un ordinateur appartenant à un domaine et que vous ne souhaitez pas que leur nom d’utilisateur soit prérempli sur l’écran de connexion Teams, les administrateurs peuvent configurer le Registre Windows suivant pour désactiver le préremplissage du nom d’utilisateur (UPN) :
 
-  Remarque : le préremplissage du nom d’utilisateur qui se termine par « . local » ou « . Corp » est activé par défaut, de sorte que vous n’avez pas besoin de définir une clé de Registre pour désactiver cette fonctionnalité. 
+  Ordinateur \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill (REG_DWORD)<br/>
+  0x00000001 (1)
+
+    > [!NOTE]
+    > Ignorer le nom d’utilisateur prérempli pour les noms d’utilisateurs qui se terminent par « . local » ou « . Corp » est activé par défaut, de sorte que vous n’avez pas besoin de définir une clé de Registre pour désactiver cette fonctionnalité. 
 
 
 ### <a name="mac-users"></a>Utilisateurs de Mac 
@@ -62,5 +69,5 @@ Teams nécessite une connexion à Internet. Pour comprendre les points de termin
 
 L’authentification moderne est disponible pour toutes les organisations qui utilisent Teams, de sorte que si les utilisateurs ne sont pas en mesure de terminer le processus, il se peut qu’il y ait un problème au niveau de votre domaine ou du compte Office 365 entreprise de votre organisation. 
 
-Pour plus d’informations, reportez-vous à la section [pourquoi je rencontre des difficultés pour me connecter à Microsoft teams ?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Pour plus d’informations, reportez-vous à la section [pourquoi je rencontre des difficultés pour me connecter à Microsoft teams ?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
