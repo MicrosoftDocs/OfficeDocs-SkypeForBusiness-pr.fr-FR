@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Indonésie.
-ms.openlocfilehash: 15f0e95567a521688fbb88bc2e3deab4f743534b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3c17f597343ba2f23ecd5070059852c4d477b6f0
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695037"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853299"
 ---
 # <a name="availability-in-indonesia"></a>Disponibilité en Indonésie
 
@@ -62,6 +62,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
+
+Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct du système téléphonique](../direct-routing-landing-page.md). Avec le routage direct, vous pouvez utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

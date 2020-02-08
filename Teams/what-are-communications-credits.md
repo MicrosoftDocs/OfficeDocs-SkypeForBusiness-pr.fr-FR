@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 4fe46800df7dbef9baf8184283d0e4d811388f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836734"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852121"
 ---
 # <a name="what-are-communications-credits"></a>Qu’est-ce que les crédits de communication ?
 
@@ -52,7 +52,7 @@ Les crédits de communication constituent un moyen pratique de régler les minut
   
 ## <a name="what-are-the-communications-credits-rates"></a>Quels sont les tarifs liés aux crédits de communication ?
 
-Si vous vous demandez comment le coût des appels est destiné aux offres d’appels, reportez-vous à la rubrique taux de crédits de communication pour les offres [d'](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) appels.
+Si vous vous demandez quel est le coût de vos appels pour les offres d’appels, reportez-vous à la rubrique taux de crédits de communication pour les offres [d'](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) appels (faites défiler vers le bas jusqu’à « voir les tarifs pour l’endroit où vous voulez appeler »).
   
 ## <a name="what-is-it"></a>Description
 
@@ -91,7 +91,7 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
   
 - [Forfaits d’appel](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Audioconférence,](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
     
 - [Système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763 )
     

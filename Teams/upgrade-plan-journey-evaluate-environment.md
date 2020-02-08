@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837126"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863485"
 ---
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -196,4 +196,4 @@ Utilisez le tableau suivant et consignez l’état d’adoption et de préparati
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Étape suivante</td><td><ul><li>Documentez les résultats de l’évaluation de l’environnement.</li></ul></td></tr>
 </table>
 
-Après avoir évalué votre environnement, passez à l’étape suivante : [préparer votre réseau](upgrade-prepare-environment-prepare-network.md).
+Après avoir évalué votre environnement, passez à l’étape suivante : [préparer votre réseau](prepare-network.md).

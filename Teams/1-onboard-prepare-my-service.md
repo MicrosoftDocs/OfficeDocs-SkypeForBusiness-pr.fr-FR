@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 418496b5dd86fb9720393721854c0fcf68daf52a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825142"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862824"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -37,7 +37,7 @@ Les listes de vérification suivantes vous guident tout au long des étapes d’
 
 *  [Configurer les fonctionnalités principales de teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Configurer la mise en réseau](onboarding-checklist-configure-networking.md)
+*  [Préparer votre réseau](prepare-network.md)
 
 *  [Configurer des charges de travail vocales Cloud dans teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

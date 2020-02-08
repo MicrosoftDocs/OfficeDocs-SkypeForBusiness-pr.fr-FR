@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835144"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863175"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -249,17 +249,15 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 
 ## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
-La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible :
+Vous devez utiliser les ports suivants pour les environnements Office 365 dans lesquels le routage direct est disponible :
 - Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
 
-Vous devez utiliser les ports suivants :
-
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Définie sur l’SBC|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535 (pour Office 365 les ports les plus hautes/DoD pour les seuls 5061 et 5062 doivent être utilisés)|Définie sur l’SBC|
 SIP/TLS|SBC|Proxy SIP|Définie sur l’SBC|5061|
 ||||||
 

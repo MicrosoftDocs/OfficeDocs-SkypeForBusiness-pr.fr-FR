@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825152"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862714"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -36,7 +36,7 @@ La gestion des services est un vaste sujet qui couvre les opérations quotidienn
 La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez probablement déjà mis en œuvre des processus et des tâches qui sont associés à des services existants. Cela dit, vous pouvez probablement augmenter ce que vous avez en place lorsque vous planifiez la gestion des services aujourd'hui pour soutenir Microsoft Teams à l'avenir.
 
 La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Certaines composantes de la gestion des services - les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'il fournit.
-Pour une analyse détaillée de la responsabilité du client quant à la gestion du service Teams et de son incidence sur les principales composantes qui contribuent à la qualité de l’expérience utilisateur, reportez-vous à la rubrique [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Pour une analyse détaillée de la responsabilité du client quant à la gestion du service Teams et de son incidence sur les principales composantes qui contribuent à la qualité de l’expérience utilisateur, reportez-vous à la rubrique [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 ![Diagramme des trois composants de qualité](media/plan-my-service-management-image1.png "Diagramme des trois composants qualité (service 365 Office, réseau et points de terminaison) et mode de superposition des trois services.")
 

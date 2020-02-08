@@ -1,11 +1,11 @@
 ---
 title: Guide d’Analyse de la Qualité d’Expérience pour Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: Guide pour l’analyse de la performance multimédia en temps réel de Microsoft teams à l’aide du tableau de bord de qualité des appels (bord).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838254"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863395"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -1141,8 +1141,6 @@ Nous vous [recommandons](proxy-servers-for-skype-for-business-online.md) de touj
 La cause la plus fréquente de l’utilisation de HTTP est le manque de règles d’exception dans les proxys. En utilisant le bâtiment ou le sous-réseau fourni, vous pouvez déterminer rapidement quel proxy doit être configuré pour la dérivation multimédia.
 
 Vérifiez que les noms de [domaine complets Office 365](https://aka.ms/o365ips) requis sont autorisés dans votre proxy.
-
-Pour plus d’informations sur l’utilisation de proxys avec Skype entreprise Online et Teams, reportez-vous à [cet article](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Investigations de points de terminaison
 

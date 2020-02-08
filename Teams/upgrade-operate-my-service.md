@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837144"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863515"
 ---
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
@@ -345,7 +345,7 @@ Pour fournir des enquêtes NPS à votre organisation, vous pouvez tirer parti de
 
 ## <a name="manage-network-quality"></a>Gestion de la qualité du réseau
 
-De nombreux éléments de planification principaux s’imvoient à l’optimisation, au dimensionnement à droite et à la correction de votre infrastructure réseau pour garantir un chemin d’accès efficace et de haute qualité au service Microsoft Teams. Les tâches de planification et les exigences sont décrites dans nos recommandations en matière de [disponibilité du réseau](upgrade-prepare-environment-prepare-network.md) . Les réseaux évoluent souvent dans le temps en raison de mises à niveau, d’extensions ou d’autres exigences métiers. Il est important de tenir compte de vos exigences relatives aux équipes dans les activités de planification de votre réseau.
+De nombreux éléments de planification principaux s’imvoient à l’optimisation, au dimensionnement à droite et à la correction de votre infrastructure réseau pour garantir un chemin d’accès efficace et de haute qualité au service Microsoft Teams. Les tâches de planification et les exigences sont décrites dans nos recommandations en matière de [disponibilité du réseau](prepare-network.md) . Les réseaux évoluent souvent dans le temps en raison de mises à niveau, d’extensions ou d’autres exigences métiers. Il est important de tenir compte de vos exigences relatives aux équipes dans les activités de planification de votre réseau.
 
 Bien que la planification du réseau soit un aspect essentiel du déploiement d’équipes, il est également important de veiller à ce que le réseau reste sain et reste actif, en fonction de l’évolution des besoins métiers ou techniques.
 
@@ -431,7 +431,7 @@ Même si vous avez suivi les instructions ci-dessus, les utilisateurs de votre o
 
 1. **Valider l’état du service :** Le problème auquel un utilisateur peut être confronté peut être lié à un événement qui a un impact négatif sur le service teams ou les services itsdependent. Pour commencer, il est recommandé de vérifier qu’il n’y a pas de problème de service actif. Découvrez [Comment vérifier l’état du service Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). N’oubliez pas de vérifier l’état des services dépendants (par exemple, Exchange, SharePoint, OneDrive entreprise). La surveillance de l’état du service est décrite plus en détail dans la section précédente, [surveiller l’état du service](#monitor-service-health).
 
-2. **Valider la connectivité du client :** Les problèmes de connectivité entraînent des fonctionnalités ou des problèmes de connexion dans Teams. Nous vous conseillons de valider la connectivité au service (en particulier pour les nouveaux sites et emplacements). Assurez-vous que les instructions d' [URL et de plages d’adresses IP d’Office 365](https://aka.ms/o365ips) suivantes sont suivies pour chaque site. Vous pouvez tirer parti de l' [outil d’évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour effectuer un test de connectivité afin de vérifier que les ports multimédias ont été ouverts correctement pour les fonctionnalités d’équipe. Les étapes détaillées d’exécution des tests de connectivité sont fournies dans les recommandations relatives à la [préparation du réseau](upgrade-prepare-environment-prepare-network.md) .
+2. **Valider la connectivité du client :** Les problèmes de connectivité entraînent des fonctionnalités ou des problèmes de connexion dans Teams. Nous vous conseillons de valider la connectivité au service (en particulier pour les nouveaux sites et emplacements). Assurez-vous que les instructions d' [URL et de plages d’adresses IP d’Office 365](https://aka.ms/o365ips) suivantes sont suivies pour chaque site. Vous pouvez tirer parti de l' [outil d’évaluation du réseau Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) pour effectuer un test de connectivité afin de vérifier que les ports multimédias ont été ouverts correctement pour les fonctionnalités d’équipe. Les étapes détaillées d’exécution des tests de connectivité sont fournies dans les recommandations relatives à la [préparation du réseau](prepare-network.md) .
 
 3. **Consultez la liste des problèmes connus :** Consultez la [liste des problèmes connus de Microsoft teams](known-issues.md) pour déterminer si l’utilisateur a été lésé par l’un de ces problèmes. Pour résoudre le problème, suivez la solution de contournement fournie (le cas échéant).
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Koweït.
-ms.openlocfilehash: c7032d8066660bf2982f14e4bf84b6e584b66767
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8187ebabcd9dfef2261a7dffc232e9a25eee60ba
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683757"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853073"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilité au Koweït
 
@@ -61,6 +61,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
+
+Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct du système téléphonique](../direct-routing-landing-page.md). Avec le routage direct, vous pouvez utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

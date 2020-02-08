@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Italie.
-ms.openlocfilehash: 4c402c0cbb376ceacebd39f8618100b503827651
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 982dac5989c66f743df1c0e1dca41e2c34ae4d7e
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683797"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853289"
 ---
 # <a name="availability-in-italy"></a>Disponibilité en Italie
 
@@ -62,6 +62,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
+
+Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct du système téléphonique](../direct-routing-landing-page.md). Avec le routage direct, vous pouvez utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

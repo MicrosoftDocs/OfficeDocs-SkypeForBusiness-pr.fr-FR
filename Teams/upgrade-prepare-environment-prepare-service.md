@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836114"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863445"
 ---
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -46,7 +46,7 @@ Les listes de vérification suivantes vous guident tout au long du déploiement 
 
 - [Configurer les fonctionnalités principales de teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [Configurer la mise en réseau](onboarding-checklist-configure-networking.md)
+- [Préparer votre réseau](prepare-network.md)
 
 - [Configurer des charges de travail vocales Cloud dans teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

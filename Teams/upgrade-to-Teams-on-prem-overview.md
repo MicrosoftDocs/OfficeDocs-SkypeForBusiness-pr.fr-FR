@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e63a287fcd265a22dc2f9264920d3b0283a5bd6a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836206"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852101"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers &mdash; teams pour les administrateurs informatiques
 
@@ -40,21 +40,21 @@ Les administrateurs gèrent leur transition vers teams à l’aide du concept de
 
 Il existe deux méthodes pour migrer une organisation existante avec Skype entreprise (en ligne ou sur site) vers teams :
 
-- **Méthode côte à côte** (avec le mode îlot) : les utilisateurs d’une organisation Skype entreprise existante sont introduits dans teams pour qu’ils puissent utiliser les deux clients côte à côte pendant une phase de transition. Pendant ce laps de temps, la plupart des fonctionnalités d’équipe sont disponibles. Le mode de cette configuration est appelé îlots, et il s’agit du mode par défaut de toute organisation existante avec Skype entreprise. Lorsque l’organisation est prête, l’administrateur déplace les utilisateurs vers le mode TeamsOnly.
+- **Méthode de superposition de capacités** (avec le mode îlot) : les utilisateurs d’une organisation Skype entreprise existante sont introduits dans teams pour qu’ils puissent utiliser les deux clients pendant une phase de transition. Pendant ce laps de temps, la plupart des fonctionnalités d’équipe sont disponibles. Le mode de cette configuration est appelé îlots, et il s’agit du mode par défaut de toute organisation existante avec Skype entreprise. Lorsque l’organisation est prête, l’administrateur déplace les utilisateurs vers le mode TeamsOnly.
 
-- **Une méthode gérée** (à l’aide d’un ou de plusieurs modes Skype entreprise) : l’administrateur gère la transition (de Skype entreprise à Teams) de la fonctionnalité de conversation, d’appel et de planification de réunion pour les utilisateurs de leur organisation.  Chacune de ces fonctions est disponible dans Skype entreprise ou Teams, mais pas les deux. Les administrateurs utilisent TeamsUpgradePolicy pour contrôler le moment auquel décaler cette fonctionnalité vers équipes pour leurs utilisateurs. Les utilisateurs qui ne sont pas encore en mode TeamsOnly continuent d’utiliser Skype entreprise pour les discussions et les appels, et les deux utilisateurs peuvent communiquer par le biais de fonctionnalités d’interopérabilité. Les administrateurs gèrent la transition en migrant progressivement de plus utilisateurs vers le mode TeamsOnly.  
+- **Sélectionner une méthode de fonctions** (à l’aide d’un ou de plusieurs modes Skype entreprise) : l’administrateur gère la transition (de Skype entreprise à Teams) de la fonctionnalité de conversation, d’appel et de planification de réunion pour les utilisateurs de leur organisation.  Chacune de ces fonctions est disponible dans Skype entreprise ou Teams, mais pas les deux. Les administrateurs utilisent TeamsUpgradePolicy pour contrôler le moment auquel décaler cette fonctionnalité vers équipes pour leurs utilisateurs. Les utilisateurs qui ne sont pas encore en mode TeamsOnly continuent d’utiliser Skype entreprise pour les discussions et les appels, et les deux utilisateurs peuvent communiquer par le biais de fonctionnalités d’interopérabilité. Les administrateurs gèrent la transition en migrant progressivement de plus utilisateurs vers le mode TeamsOnly.  
 
 Cet article vous permet de choisir la méthode correcte pour votre organisation en décrivant les deux méthodes et en présentant les avantages et inconvénients de chacune d’elles. 
 
-## <a name="side-by-side-method-using-islands-mode"></a>Méthode côte à côte (avec le mode îlot)
+## <a name="overlapping-capabilities-method-using-islands-mode"></a>Méthode de superposition des capacités (à l’aide du mode îlot)
 
-Avec la méthode côte à côte, les utilisateurs peuvent utiliser une équipe et un client Skype entreprise pour la messagerie instantanée, les appels VoIP et les réunions. Cet État est connu sous le nom de « îles », car le trafic de communication pour Skype entreprise et teams reste différent (même pour le même utilisateur) et les deux clients ne communiquent jamais entre eux (pour les utilisateurs au sein de la même organisation). Par exemple, supposons que l’utilisateur A est en mode îlot :
+Grâce à la méthode de superposition des capacités, les utilisateurs peuvent utiliser des équipes et des clients Skype entreprise pour la messagerie instantanée, les appels VoIP et les réunions. Cet État est connu sous le nom de « îles », car le trafic de communication pour Skype entreprise et teams reste différent (même pour le même utilisateur) et les deux clients ne communiquent jamais entre eux (pour les utilisateurs au sein de la même organisation). Par exemple, supposons que l’utilisateur A est en mode îlot :
 
 - Les communications déclenchées à partir du client Skype entreprise d’un autre utilisateur seront toujours portées sur le client Skype entreprise d’un utilisateur.
 - La communication lancée à partir du client teams d’un autre utilisateur sera toujours terrestre dans le client teams de l’utilisateur, *si ce dernier est dans la même organisation*. 
 - La communication lancée à partir du client teams d’un autre utilisateur sera toujours effectuée sur le client Skype entreprise d’un utilisateur, *si ce dernier est dans une organisation fédérée*.
 
-Le mode îlot est le mode par défaut de TeamsUpgradePolicy pour toute organisation existante qui n’est pas encore TeamsOnly. Lorsque vous affectez une licence Office 365, les équipes et les licences Skype entreprise Online sont affectées par défaut. (Cela s’applique même si l’utilisateur est hébergé sur site dans Skype entreprise Server. Que l’utilisateur réside en local ou en ligne, laissez la licence Skype entreprise Online activée, car elle est actuellement requise pour les fonctionnalités d’équipe complètes.) En fait, si vous n’avez pas effectué de modification de la configuration par défaut, il est possible que vous ayez une utilisation significative des équipes au sein de votre organisation.  C’est l’un des avantages de l’approche côte à côte. Elle permet une adoption rapide et rapide par l’utilisateur au sein d’une organisation.
+Le mode îlot est le mode par défaut de TeamsUpgradePolicy pour toute organisation existante qui n’est pas encore TeamsOnly. Lorsque vous affectez une licence Office 365, les équipes et les licences Skype entreprise Online sont affectées par défaut. (Cela s’applique même si l’utilisateur est hébergé sur site dans Skype entreprise Server. Que l’utilisateur réside en local ou en ligne, laissez la licence Skype entreprise Online activée, car elle est actuellement requise pour les fonctionnalités d’équipe complètes.) En fait, si vous n’avez pas effectué de modification de la configuration par défaut, il est possible que vous ayez une utilisation significative des équipes au sein de votre organisation.  C’est l’un des avantages de l’approche des fonctionnalités qui se chevauchent. Elle permet une adoption rapide et rapide par l’utilisateur au sein d’une organisation.
 
 Pour que cette méthode fonctionne efficacement, tous les utilisateurs doivent exécuter les deux clients simultanément. Les discussions et les appels entrants au sein de l’organisation à un utilisateur en mode d’îlot peuvent débarquer dans le client Skype entreprise ou équipes, et ce n’est pas le contrôle du destinataire. Tout dépend du client utilisé par l’expéditeur pour initier la communication. Si l’expéditeur et le destinataire se trouvent dans différentes organisations, les appels et les discussions entrants à un utilisateur en mode îlot sont toujours terrains dans le client Skype entreprise.  
 
@@ -80,7 +80,7 @@ Le tableau suivant résume l’interface du mode de travail de l’équipe et du
  |Présence  | La présence dans Skype entreprise et équipes est indépendante. Les utilisateurs peuvent voir des États différents pour les mêmes utilisateurs d’îlot, en fonction du client qu’ils utilisent. | La présence est basée uniquement sur l’activité de l’utilisateur dans Teams. Tous les autres utilisateurs, quel que soit le client qu’ils utilisent, voient leur présence. | 
  | Planification de réunions   | Les utilisateurs peuvent planifier des réunions dans teams ou Skype entreprise. Ces deux compléments s’afficheront dans Outlook. |   Les utilisateurs planifient uniquement les réunions dans Teams. Le complément équipes n’est disponible que dans Outlook. | 
 
-Le tableau suivant récapitule les avantages et inconvénients de l’utilisation de la méthode côte à côte pour migrer votre organisation vers Teams.
+Le tableau suivant récapitule les avantages et inconvénients de l’utilisation de la méthode de superposition de capacités pour migrer votre organisation vers Teams.
 
 | Spécialistes     |       Argument |
 | :------------------ | :---------------- |
@@ -89,19 +89,19 @@ Le tableau suivant récapitule les avantages et inconvénients de l’utilisatio
 | Effort d’administration minimal pour la mise en route dans Teams. | Il peut être difficile de mettre en place le mode « extraire des îles » et de basculer vers le mode TeamsOnly si tous les utilisateurs de l’organisation n’utilisent pas Teams, en particulier si les utilisateurs ne sont pas actifs dans Teams. Par exemple, une fois qu’un sous-ensemble d’utilisateurs est mis à niveau vers le mode TeamsOnly, ils sont envoyés uniquement dans Teams. Pour le reste de la population en mode îlot, ces messages seront toujours présents dans Teams. Mais si certains de ces populations n’exécutent pas Teams, ils peuvent considérer ces messages comme manqués. |
 |  | Lors de l’utilisation d’équipes, les utilisateurs disposant d’un compte local dans Skype entreprise Server ne disposent pas de la prise en charge de l’interopérabilité ou de la Fédération.  Cela peut éventuellement générer une confusion si vous avez une combinaison d’utilisateurs d’îlots, dont certains sont hébergés dans Skype entreprise Online et d’autres dans Skype entreprise local.   |
 
-## <a name="managed-transition-method-using-skype-for-business-modes"></a>Méthode de transition gérée (à l’aide du mode Skype entreprise)
+## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Sélectionner une méthode de fonctions (à l’aide du mode Skype entreprise)
 
-Certaines organisations peuvent proposer à leurs utilisateurs finaux une utilisation plus simple et plus prévisible de la transition de Skype entreprise à Teams. Dans ce modèle, les administrateurs informatiques ont recours à l’un des modes Skype entreprise de TeamsUpgradePolicy pour désigner explicitement les utilisateurs de Skype entreprise avant de procéder à la migration vers le mode TeamsOnly. Étant donné qu’ils sont prêts à décaler les utilisateurs sélectionnés vers le mode TeamsOnly, l’administrateur doit mettre à jour le mode de ces utilisateurs pour qu’ils TeamsOnly.  Au fur et à mesure de l’évolution du déploiement, de plus en plus d’utilisateurs sont migrés de Skype entreprise vers le mode TeamsOnly.  Lors de cette transition :
+Certaines organisations peuvent proposer à leurs utilisateurs finaux une utilisation plus simple et plus prévisible de la transition de Skype entreprise à Teams. Dans ce modèle, les administrateurs informatiques ont recours à l’un des modes Skype entreprise de TeamsUpgradePolicy pour désigner explicitement les utilisateurs de Skype entreprise avant de procéder à la migration vers le mode TeamsOnly. Étant donné qu’ils sont prêts à décaler les utilisateurs sélectionnés vers le mode TeamsOnly, l’administrateur doit mettre à jour le mode de ces utilisateurs pour qu’ils TeamsOnly. Au fur et à mesure de l’évolution du déploiement, de plus en plus d’utilisateurs sont migrés de Skype entreprise vers le mode TeamsOnly.  Lors de cette transition :
 
 - Les utilisateurs de Skype entreprise reçoivent toutes les discussions et les appels entrants dans leur client Skype entreprise, que la communication provient de l’équipe ou du client Skype entreprise. Par ailleurs, pour ces utilisateurs Skype entreprise, les fonctionnalités d’appel et de discussion dans le client teams sont désactivées pour éviter toute confusion et garantir le routage approprié. 
 
 - Les utilisateurs en mode TeamsOnly reçoivent toutes les discussions et les appels entrants dans leur client Teams, quel que soit le lieu d’origine de la communication : Teams, Skype entreprise ou tout type d’utilisateur fédéré. 
 
-Contrairement à la méthode îlot, dans la méthode de transition gérée, les utilisateurs de Skype entreprise et les utilisateurs de TeamsOnly peuvent communiquer entre eux. La communication entre un utilisateur de Skype entreprise et des équipes est appelée interopérabilité ou « interopérabilité ». (Voir [interopérabilité](#interoperability).) La communication d’interopérabilité est possible sur une base un-à-un pour les conversations et les appels entre un utilisateur dans Skype entreprise et un autre utilisateur dans Teams. De plus, les utilisateurs invités peuvent toujours participer à une réunion Skype entreprise ou Teams, mais ils doivent utiliser un client correspondant au type de réunion. Pour plus d’informations, reportez-vous à la section [réunions](#meetings).
+Contrairement à la méthode îlots, dans la méthode sélectionner des fonctions, les utilisateurs Skype entreprise et les utilisateurs de TeamsOnly peuvent communiquer entre eux. La communication entre un utilisateur de Skype entreprise et des équipes est appelée interopérabilité ou « interopérabilité ». (Voir [interopérabilité](#interoperability).) La communication d’interopérabilité est possible sur une base un-à-un pour les conversations et les appels entre un utilisateur dans Skype entreprise et un autre utilisateur dans Teams. De plus, les utilisateurs invités peuvent toujours participer à une réunion Skype entreprise ou Teams, mais ils doivent utiliser un client correspondant au type de réunion. Pour plus d’informations, reportez-vous à la section [réunions](#meetings).
 
-Étant donné que les utilisateurs dans une transition gérée ne sont généralement pas en mode îlot, la présence d’un utilisateur est cohérente, quel que soit le client utilisé par l’autre utilisateur. Si l’utilisateur se trouve dans l’un des modes Skype entreprise, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Skype entreprise. De même, si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Teams. Pour plus d’informations, voir [présence](#presence).
+Dans la mesure où les utilisateurs d’une transition à l’aide de la fonctionnalité SELECT ne sont généralement pas en mode îlot, la présence d’un utilisateur est cohérente quel que soit le client utilisé par l’autre utilisateur. Si l’utilisateur se trouve dans l’un des modes Skype entreprise, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Skype entreprise. De même, si un utilisateur est en mode TeamsOnly, tous les autres utilisateurs voient leur présence en fonction de l’activité de l’utilisateur dans Teams. Pour plus d’informations, voir [présence](#presence).
 
-Dans le cas d’une organisation qui n’a pas encore commencé à utiliser Teams, l’administrateur doit changer le mode de travail à l’échelle du client de îlot à SfbWithTeamsCollab. (Pour les organisations disposant déjà de l’utilisation de teams, l’administrateur doit avoir le « grand nombre d’utilisateurs » déjà actifs dans teams pour s’assurer que le changement ne leur est pas applicable. Pour plus d’informations, reportez-vous à [la rubrique mise à niveau gérée d’une organisation qui utilise déjà teams en mode îlot](#a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode).)
+Dans le cas d’une organisation qui n’a pas encore commencé à utiliser Teams, l’administrateur doit changer le mode de travail à l’échelle du client de îlot à SfbWithTeamsCollab. (Pour les organisations disposant déjà de l’utilisation de teams, l’administrateur doit avoir le « grand nombre d’utilisateurs » déjà actifs dans teams pour s’assurer que le changement ne leur est pas applicable. Pour plus d’informations, reportez-vous [à la rubrique sélection de fonctionnalités pour une organisation qui utilise déjà teams en mode îlot](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode).)
 
 Lorsque le mode passe d’îlot à SfbWithTeamsCollab, un utilisateur qui ne les utilise jamais n’aura pas de différence dans la façon dont il utilise Skype entreprise. Toutefois, si l’utilisateur commence à utiliser Teams, il ne serait exposé qu’aux fonctionnalités telles que les équipes & le canal et les fichiers. Les discussions, les appels et la planification de réunions ne seront pas disponibles dans Teams, dans la mesure où l’administrateur dispose de Skype entreprise (pour le moment) pour ces fonctions.  
 
@@ -118,7 +118,7 @@ Le tableau suivant récapitule les avantages et inconvénients de l’utilisatio
 | Spécialistes     |       Argument |
 | :------------------ | :---------------- |
 | Routage prévisible pour l’utilisateur final.  Tous les appels et messages instantanés dans Skype entreprise ou équipes (mais pas les deux), en fonction de la sélection de l’administrateur.  | Les conversations d’interopérabilité ne prennent pas en charge le texte enrichi, le partage de fichiers et le partage d’écran.  Cela peut être utilisé avec des réunions à la demande, mais cela n’est pas aussi simple que possible.  |
-| Éliminer la confusion des utilisateurs finaux, car une fonctionnalité donnée est disponible uniquement dans un client.  | Les utilisateurs ne peuvent pas utiliser les deux clients côte à côte pour le même ensemble de fonctionnalités. Le facteur de place est particulièrement important si les utilisateurs perçoivent le changement de Skype entreprise par rapport aux équipes en tant que déphasage de paradigme majeure. |
+| Éliminer la confusion des utilisateurs finaux, car une fonctionnalité donnée est disponible uniquement dans un client.  | Les utilisateurs ne peuvent pas essayer les deux clients côte à côte pour le même ensemble de fonctionnalités. Le facteur de place est particulièrement important si les utilisateurs perçoivent le changement de Skype entreprise par rapport aux équipes en tant que déphasage de paradigme majeure. |
 | Permet une présentation incrémentielle des équipes.  |  | |
 | L’administrateur contrôle entièrement le passage de Skype entreprise à Teams. |  | | 
 | Permet à une organisation d’utiliser des équipes pour les réunions, même si elle n’est pas encore prête pour le passage entièrement au mode TeamsOnly. |  | |
@@ -128,7 +128,7 @@ Le tableau suivant récapitule les avantages et inconvénients de l’utilisatio
 
 Le tableau suivant récapitule les méthodes de mise à niveau :
 
-| Côte à côte (à l’aide du mode îlot)     |      Gestion (utilisation du mode Skype entreprise) |
+| Fonctionnalités qui se chevauchent (à l’aide du mode îlot)     |      Sélectionner des capacités (à l’aide du mode Skype entreprise) |
 | :------------------ | :---------------- |
 | Avant la mise à niveau vers TeamsOnly, les utilisateurs doivent exécuter les deux clients simultanément, dans la mesure où les conversations et les appels entrants peuvent débarquer dans l’un ou l’autre client.   | Discussions et appels uniquement terrestres d’un client, en fonction du mode du destinataire. Les utilisateurs non mis à niveau peuvent exécuter les deux clients, mais il n’y a pas de chevauchement fonctionnel (les appels et les discussions ne sont pas disponibles dans Teams).  Les administrateurs peuvent également contrôler si les utilisateurs planifient des réunions dans teams ou Skype entreprise.   |
 | Les utilisateurs peuvent utiliser Skype entreprise et équipes côte à côte pour de mêmes fonctionnalités.   | Permet aux administrateurs de présenter de nouvelles fonctionnalités de Microsoft teams aux utilisateurs finaux (équipes et canaux), sans offrir de nouvelles fonctionnalités dans Skype entreprise.   |
@@ -138,7 +138,7 @@ Le tableau suivant récapitule les méthodes de mise à niveau :
 
 Pour l’une des méthodes décrites ci-dessus, les administrateurs gèrent la transition vers TeamsOnly à l’aide de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), qui contrôle le mode de coexistence d’un utilisateur. Pour plus d’informations sur chacun des modes, voir [modes de coexistence](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes).
 
-Que l’administrateur effectue une transition gérée à l’aide du mode Skype entreprise ou qu’il soit simplement mis à niveau vers le mode TeamsOnly à partir de la configuration des îles par défaut, TeamsUpgradePolicy est l’outil principal.  À l’instar des autres stratégies dans Teams, TeamsUpgradePolicy peut être attribué directement à un utilisateur et peut également être défini en tant que client par défaut. Tout devoir d’un utilisateur est prioritaire sur le paramètre par défaut du client.  Elle peut être gérée à la fois dans la console d’administration teams et dans PowerShell.
+Que l’administrateur effectue une transition sélection de fonctionnalités en utilisant les modes Skype entreprise ou qu’il passe simplement au mode TeamsOnly à partir de la configuration des îles par défaut, TeamsUpgradePolicy est l’outil principal.  À l’instar des autres stratégies dans Teams, TeamsUpgradePolicy peut être attribué directement à un utilisateur et peut également être défini en tant que client par défaut. Tout devoir d’un utilisateur est prioritaire sur le paramètre par défaut du client.  Elle peut être gérée à la fois dans la console d’administration teams et dans PowerShell.
 
 Les administrateurs peuvent attribuer n’importe quel mode de TeamsUpgradePolicy aux utilisateurs, que l’utilisateur soit hébergé dans Skype entreprise Online ou en local, à l’exception du mode TeamsOnly ne peut être attribué qu’à un utilisateur déjà associé à Skype entreprise online. En effet, l’interopérabilité avec les utilisateurs Skype entreprise et la Fédération n’est possible que si l’utilisateur est hébergé dans Skype entreprise online.
 
@@ -228,22 +228,22 @@ Lors de l’attribution du mode TeamsOnly au niveau du client, la migration de l
 
 Cette section décrit les options de mise à niveau suivantes :
 
-- Mise à niveau côte à côte (avec le mode îlot)
-- Mise à niveau gérée pour une organisation qui n’a pas encore commencé à utiliser teams
-- Mise à niveau gérée pour une organisation qui utilise déjà teams en mode îlot
+- Mise à niveau des fonctionnalités qui se chevauchent (à l’aide du mode îlot)
+- Mise à niveau des fonctionnalités SELECT pour une organisation qui n’a pas encore commencé à utiliser teams
+- Mise à niveau des fonctionnalités SELECT pour une organisation qui utilise déjà teams en mode îlot
 
-### <a name="side-by-side-upgrade-using-islands-mode"></a>Mise à niveau côte à côte (avec le mode îlot)
+### <a name="overlapping-capabilities-upgrade-using-islands-mode"></a>Mise à niveau des fonctionnalités qui se chevauchent (à l’aide du mode îlot)
 
-Pour l’option de mise à niveau côte à côte :
+Pour l’option de mise à niveau des fonctionnalités qui se chevauchent :
 
 - Cette option est utile si vous pouvez effectuer une mise à niveau rapide de votre organisation globale.  Dans la mesure où il existe des risques potentiels de confusion lors de l’exécution de ces deux clients, il est préférable de réduire ce délai. Vous devez veiller à ce que les utilisateurs sachent exécuter les deux clients.
 
 - Cette option est le modèle de la boîte et ne nécessite pas d’action de l’administrateur pour commencer à utiliser teams à l’exception de l’attribution de la licence Office 365. Si vos utilisateurs disposent déjà de Skype entreprise Online, il est possible que vous soyez déjà dans ce modèle.
 
-- Il peut être difficile de sortir du mode côte à côte et de se déplacer dans TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement par le biais d’équipes, tout autre utilisateur de l’organisation qui communique avec cet utilisateur doit utiliser Teams.  Si certains de vos utilisateurs ne sont pas encore en cours d’utilisation, ils seront exposés à des messages manquants. De plus, ils ne verront pas les utilisateurs de TeamsOnly en ligne dans Skype entreprise. Certaines organisations choisissent de procéder à une mise à niveau du client à l’aide de la stratégie globale du client pour éviter cela, mais cela nécessite l’attente que tous les utilisateurs soient prêts à être mis à niveau.
+- Il peut être difficile de sortir du mode de superposition des capacités et de migrer vers TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement par le biais d’équipes, tout autre utilisateur de l’organisation qui communique avec cet utilisateur doit utiliser Teams.  Si certains de vos utilisateurs ne sont pas encore en cours d’utilisation, ils seront exposés à des messages manquants. De plus, ils ne verront pas les utilisateurs de TeamsOnly en ligne dans Skype entreprise. Certaines organisations choisissent de procéder à une mise à niveau du client à l’aide de la stratégie globale du client pour éviter cela, mais cela nécessite l’attente que tous les utilisateurs soient prêts à être mis à niveau.
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Mise à niveau gérée pour une organisation qui n’a pas encore commencé à utiliser teams
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Mise à niveau des fonctionnalités SELECT pour une organisation qui n’a pas encore commencé à utiliser teams
 
 Si votre organisation n’a pas encore de personnes actives dans Teams, la première étape consiste à définir la stratégie à l’échelle de locataire par défaut de TeamsUpgradePolicy sur l’un des modes Skype entreprise, par exemple, SfbWithTeamsCollab.  Les utilisateurs qui n’ont pas encore commencé à utiliser Teams ne noteront aucune différence de comportement. Toutefois, la définition de cette stratégie au niveau du client permet de commencer à mettre à niveau les utilisateurs vers le mode TeamsOnly et de s’assurer que les utilisateurs mis à niveau peuvent toujours communiquer avec des utilisateurs non mis à niveau.  Une fois que vous avez identifié vos utilisateurs pilotes, vous pouvez les mettre à niveau vers TeamsOnly.  S’il s’agit d’un environnement local, utilisez Move-CsUser. S’il est connecté, affectez-lui simplement le mode TeamsOnly à l’aide de TeamsUpgradePolicy.  Par défaut, toutes les réunions Skype entreprise planifiées par ces utilisateurs seront déplacées vers Teams.
 
@@ -275,12 +275,12 @@ Remarques
 - Move-CsUser est une cmdlet dans les outils locaux. Le commutateur MoveToTeams nécessite Skype entreprise Server 2019 ou Skype entreprise Server 2015 avec CU8. Si vous utilisez une version antérieure, vous pouvez d’abord déplacer l’utilisateur vers Skype entreprise Online, puis accorder le mode TeamsOnly à cet utilisateur.
 - Par défaut, les réunions Skype entreprise sont déplacées vers teams lors de la mise à niveau vers le mode TeamsOnly ou lors de l’attribution du mode SfbWithTeamsCollabAndMeetings.  
 
-Le diagramme ci-dessous présente les phases conceptuelles de la mise à niveau gérée pour une organisation sans utilisation antérieure d’Teams. La hauteur des barres représente le nombre d’utilisateurs. Pendant une phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Les utilisateurs de Skype entreprise communiquent avec des utilisateurs de TeamsOnly à l’aide d’interopérabilité, et inversement.
+Le diagramme ci-dessous présente les phases conceptuelles de la mise à niveau de fonctionnalités sélectionnées pour une organisation sans utilisation antérieure d’Teams. La hauteur des barres représente le nombre d’utilisateurs. Pendant une phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Les utilisateurs de Skype entreprise communiquent avec des utilisateurs de TeamsOnly à l’aide d’interopérabilité, et inversement.
 
-![Diagramme illustrant la mise à niveau gérée sans utilisation antérieure des équipes](media/teams-upgrade-1.png)
+![Diagramme illustrant la mise à niveau de fonctionnalités sélectionnées sans utilisation antérieure des équipes](media/teams-upgrade-1.png)
 
 
-### <a name="a-managed-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Mise à niveau gérée pour une organisation qui utilise déjà teams en mode îlot
+### <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Mise à niveau des fonctionnalités SELECT pour une organisation qui utilise déjà teams en mode îlot
 
 Si certains utilisateurs de votre organisation utilisent activement teams en mode îlot, il est probable que vous ne vouliez pas supprimer les fonctionnalités des utilisateurs existants. Par conséquent, une étape supplémentaire est requise avant de modifier la stratégie à l’échelle du client. La solution est de « grand-moi », qui sont des utilisateurs d’équipes actives actuellement en mode îlot, avant de définir la stratégie à l’échelle du client sur SfbWithTeamsCollab.  Une fois cette opération effectuée, vous pourrez procéder au déploiement comme décrit ci-dessus, mais vous aurez deux groupes d’utilisateurs qui migrent vers TeamsOnly : les utilisateurs qui ont été actifs dans teams seront en mode d’îlot de travail et les utilisateurs restants seront en mode SfbWithTeamsCollab. Vous pouvez déplacer progressivement ces utilisateurs vers le mode TeamsOnly.
 
@@ -318,10 +318,10 @@ Si certains utilisateurs de votre organisation utilisent activement teams en mod
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
-Le diagramme ci-dessous montre les phases conceptuelles d’une transition gérée dans laquelle les utilisateurs d’îlots sont actifs au début. La hauteur des barres représente le nombre d’utilisateurs. Pendant une phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Les utilisateurs de Skype entreprise communiquent avec des utilisateurs de TeamsOnly à l’aide d’interopérabilité, et inversement.
+Le diagramme ci-dessous présente les phases conceptuelles d’une transition de sélection de fonctionnalités dans laquelle les utilisateurs d’îlots sont actifs au début. La hauteur des barres représente le nombre d’utilisateurs. Pendant une phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Les utilisateurs de Skype entreprise communiquent avec des utilisateurs de TeamsOnly à l’aide d’interopérabilité, et inversement.
 
 
-![Diagramme illustrant une mise à niveau gérée avec des utilisateurs actifs en mode îlot](media/teams-upgrade-2.png)
+![Diagramme illustrant l’option Sélectionner les fonctionnalités mise à niveau avec des utilisateurs actifs en mode d’îlot](media/teams-upgrade-2.png)
 
    
 
@@ -337,7 +337,7 @@ Si la fonctionnalité d’appel RTC est impliquée, il existe quatre scénarios 
 
 - *Un utilisateur de Skype entreprise sur site avec voix entreprise*, qui sera déplacé vers en ligne et utilisant un forfait d’appel Microsoft.  La migration de cet utilisateur vers teams nécessite le passage du compte Skype entreprise local de l’utilisateur dans le Cloud, et la coordination de la migration à l’aide de l’un des numéros de téléphone de l’utilisateur vers un forfait d’appel Microsoft ou un nouveau numéro d’abonné de régions disponibles.
 
-Cet article fournit une vue d’ensemble de haut niveau.  Pour plus d’informations, reportez-vous à la section routage et [appels](calling-plan-landing-page.md) [directs du système téléphonique](direct-routing-landing-page.md) . Par ailleurs, Notez que l’utilisation d’un système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
+Cet article fournit une vue d’ensemble de haut niveau. Pour plus d’informations, reportez-vous à la section routage et [appels](calling-plan-landing-page.md) [directs du système téléphonique](direct-routing-landing-page.md) . Par ailleurs, Notez que l’utilisation d’un système téléphonique avec teams est uniquement prise en charge lorsque l’utilisateur est en mode TeamsOnly.  Si l’utilisateur est en mode îlot, le système téléphonique est uniquement pris en charge par Skype entreprise. 
 
 ### <a name="from-skype-for-business-online-with-microsoft-calling-plans"></a>À partir de Skype entreprise Online avec les offres d’appel Microsoft 
 

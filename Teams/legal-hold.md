@@ -1,6 +1,6 @@
 ---
 title: Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
-author: LolaJacobsen
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -15,38 +15,56 @@ f1.keywords:
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0526ed2d5b0aa48ab7229c8fa40dbb13413c3139
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833464"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863025"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
 
-Pour placer un utilisateur ou une équipe en conservation légale, accédez au [Centre de sécurité et de conformité](https://go.microsoft.com/fwlink/?linkid=854628). Lors de la création d'un cas, l'option permettant de placer des boîtes aux lettres ou des sites en conservation vous est présentée.
+S’il existe une éventualité raisonnable de litige, les organisations doivent conserver les informations stockées électroniquement (ESI), y compris les messages de discussion de teams pertinents. Les organisations peuvent avoir besoin de conserver tous les messages relatifs à un sujet spécifique ou à certaines personnes. Cet article aborde la conservation légale dans Microsoft Teams (pour gérer la mise en attente de la mise en place de l’espace M365, consultez la rubrique [gérer les cas de découverte électronique : placer les emplacements de contenu en attente](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).)
+
+> [!NOTE]
+> En février 2020, nous avons activé le blocage légal ou la conservation des dossiers sur les canaux privés (les discussions de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, les discussions de canal normales sont stockées dans les boîtes aux lettres de groupe de ces équipes). S’il existe déjà un blocage légal en vigueur pour une boîte aux lettres d’utilisateur, la stratégie de conservation s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune action supplémentaire n’est nécessaire pour qu’un administrateur active cette fonction. Le blocage légal des fichiers partagés dans les canaux privés est également pris en charge.
+
+Dans Microsoft Teams, une équipe entière ou des utilisateurs peuvent être mis en attente ou en conservation légale. Cela permet de s’assurer que tous les messages échangés avec ces équipes (y compris les canaux privés) ou les messages échangés par ces personnes sont détectables par les responsables de la conformité ou par les administrateurs de l’organisation.
 
 > [!NOTE]
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
 
-> [!NOTE]
-> La prise en charge du blocage légal des messages de canal privé sera disponible prochainement. Le blocage légal des fichiers partagés dans les canaux privés est pris en charge.
+Pour mettre en attente un utilisateur ou une équipe en attente légale :
+
+1. Accédez au [Centre de sécurité & conformité](https://go.microsoft.com/fwlink/?linkid=854628). Lorsque vous créez un nouveau cas, vous avez la possibilité de placer des boîtes aux lettres ou des sites en attente.
+1. Accédez à eDiscovery ou Advanced eDiscovery et créez un cas en cliquant sur « + créer un cas ». Une fois la demande de création, ouvrez-la.
+![L’onglet eDiscovery de Microsoft teams est sélectionné, avec le bouton créer un cas.](media/LegalHold1.png)
+1. Dans le menu supérieur, accédez à la section « conservations », puis cliquez sur « + créer » pour créer un blocage le placement d’un utilisateur ou d’une équipe en attente enregistre tous les messages échangés par ces utilisateurs ou messages lorsque vous créez un nouveau cas, vous avez la possibilité de placer des boîtes aux lettres ou des sites en attente.
+![Image montrant l’onglet conservations sélectionné et le bouton créer situé au-dessous.](media/LegalHold2.png)
+    1. **Nommez votre conservation**. Sélectionnez un nom descriptif et unique pour l’attente que vous allez créer.
+![Cette capture d’écran illustre le nom de votre onglet de conservation, dans lequel vous pouvez entrer un nom et une description pour l’attente que vous créez.](media/LegalHold3.png)
+    1. **Sélectionnez emplacement**. Déterminez si vous voulez que la conservation soit appliquée à un utilisateur ou à une équipe entière (la conservation ne peut pas être appliquée aux canaux individuels pour le moment). Remarque : si un utilisateur est en attente, tous ses messages seront suspendus, y compris les éléments envoyés dans une conversation 1:1, 1 : plusieurs personnes ou conversations de groupe, ou une conversation de canal (y compris les canaux privés).
+    ![Dans cette section, vous trouverez la section choisir des emplacements dans créer une nouvelle mise en attente, qui vous permet de prendre des décisions sur les options M365, notamment Microsoft Teams, auxquelles vous voulez que la conservation s’applique.](media/LegalHold4.png)
+    1. **Créer une requête**. Vous pouvez personnaliser la conservation si vous souhaitez davantage de granularité dans la stratégie de suspension. Par exemple, vous pouvez spécifier des mots-clés à chercher ou ajouter des conditions supplémentaires qui doivent être satisfaites pour que la conservation soit appliquée.
+    1. **Passez en revue vos paramètres** avant de le publier dans votre organisation.
+
+Lorsque le maintien légal a été défini, vous pouvez découvrir tout le contenu conservé par n’importe quelle stratégie de conservation en suivant l’article [EDiscovery teams](eDiscovery-investigation.md) .
 
 > [!IMPORTANT]
-> Lorsqu’un utilisateur ou un groupe est suspendu, toutes les copies de messages sont conservées. Exemple : Clay a publié un message dans un canal, puis l'a modifié. Dans un scénario de conservation, les deux copies du message sont conservées. Sans la conservation légale, seul le dernier message est conservé.
+> Lorsqu’un utilisateur ou un groupe est suspendu, toutes les copies de messages sont conservées. Par exemple, si un utilisateur a publié un message dans un canal puis modifié le message, dans un scénario de conservation, les deux copies du message sont conservées. Sans le maintien légal sur place, seul le dernier message est conservé.
 
-Dans la figure ci-après, Clay est impliqué dans une enquête. Clay est membre de l'équipe Brokers-Dealers.
-
-Si nous devons placer en conservation légale tous les emplacements dans lesquels Clay a discuté des plans intermédiaires, assurez-vous que le site SharePoint de l'équipe est ajouté à la liste des sites en conservation légale, ainsi que le site OneDrive Entreprise de Clay.
-
-![Capture d'écran d'une boîte de dialogue Créer une nouvelle conservation.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
-
-En résumé, utilisez le tableau ci-dessous pour connaître les éléments à placer en conservation légale en fonction des données requises :
+Pour vous aider, vous pouvez utiliser le tableau ci-dessous pour comprendre ce qui doit être placé sur le blocage légal en fonction de la configuration requise pour les données :
 
 |Scénario  |Éléments à placer en conservation  |
 |---------|---------|
-|**Conversations privées Microsoft Teams**     |Boîte aux lettres de l'utilisateur         |
-|**Conversations de canal Microsoft Teams**    |Boîte aux lettres de groupe utilisée pour l'équipe         |
-|**Contenu Microsoft Teams (par ex. : pages Wiki, fichiers)**     |Site SharePoint utilisé par l'équipe         |
-|**Contenu privé**     |Site OneDrive Entreprise de l'utilisateur         |
+|**Le contenu de Microsoft teams chat par un utilisateur (dans les discussions 1:1, 1 : plusieurs personnes ou discussions de groupe, conversations de canal privé, etc.)**     |Boîte aux lettres de l'utilisateur         |
+|**Discussions de canal de Microsoft Teams (exclusion de canaux privés**    |Boîte aux lettres de groupe utilisée pour l'équipe         |
+|**Contenu de Microsoft Teams (par exemple, wiki, fichiers)**     |Site SharePoint utilisé par l'équipe         |
+|**Fichiers de canaux privés de Microsoft teams**     |Site SharePoint dédié au canal privé     |
+|**Contenu privé de l’utilisateur**     |Site OneDrive Entreprise de l'utilisateur         |
+
+> [!NOTE]
+> Pour conserver la communication dans les canaux privés, vous devez placer les boîtes aux lettres d’utilisateur (utilisateurs de canaux privés) en attente et, lors de l’utilisation de l’outil eDiscovery pour effectuer une recherche, vous devez effectuer une recherche dans la boîte aux lettres de l’utilisateur. Comme indiqué précédemment, les discussions de canal privé sont stockées dans les boîtes aux lettres d’utilisateur, pas dans la boîte aux lettres de groupe d’une équipe.
+
+Pour en savoir plus sur ce sujet, consultez gérer les cas de découverte électronique dans M365, consultez la rubrique [gérer les cas de découverte électronique : placer les emplacements de contenu en attente](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).

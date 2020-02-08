@@ -24,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 3ce67a13a2da66ebf582eb0aa9b928983910b173
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683697"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852917"
 ---
 # <a name="availability-in-moldova"></a>Disponibilité en Moldavie
 
@@ -61,6 +61,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Non  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |Non applicable  <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> |Non applicable  <br/> |
+
+Si les offres d’appel ne sont pas disponibles à l’achat, envisagez d’utiliser le [routage direct du système téléphonique](../direct-routing-landing-page.md). Avec le routage direct, vous pouvez utiliser le système téléphonique avec quasiment n’importe quel opérateur de téléphonie.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services
 

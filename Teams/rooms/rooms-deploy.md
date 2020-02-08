@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825962"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863345"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -45,7 +45,7 @@ Vous pouvez en savoir plus sur ces dépendances dans les liens d’instructions 
 -   [Certificats](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Conseil professionnel** : Si vous envisagez d’utiliser des serveurs proxy pour accéder à Microsoft teams ou à Skype entreprise Online, consultez d’abord [cet article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Notez que lorsqu’il s’agit du trafic de Skype entreprise sur les serveurs proxy, nous vous recommandons de contourner entièrement les serveurs proxy. Le trafic Skype entreprise est déjà crypté, de sorte que les serveurs proxy ne le rendent pas plus sûr. Dans le cadre de votre déploiement plus large, nous vous conseillons de suivre les recommandations de la rubrique [évaluer mon environnement](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) pour la planification de la bande passante et évaluer la pertinence de votre réseau pour le trafic en temps réel.
+**Conseil professionnel** : Si vous envisagez d’utiliser des serveurs proxy pour donner accès à teams ou à Skype entreprise Online, vous devez commencer par [consulter cet article](../proxy-servers-for-skype-for-business-online.md). Notez que lorsqu’il s’agit du trafic de Skype entreprise sur les serveurs proxy, nous vous recommandons de contourner entièrement les serveurs proxy. Le trafic Skype entreprise est déjà crypté, de sorte que les serveurs proxy ne le rendent pas plus sûr. Dans le cadre de votre déploiement plus large, nous vous conseillons de suivre les recommandations de la rubrique [préparer votre réseau pour les équipes](../prepare-network.md) pour la planification de la bande passante et évaluer la pertinence de votre réseau pour le trafic en temps réel.
 
 |    |     |
 |-----------|------------|
