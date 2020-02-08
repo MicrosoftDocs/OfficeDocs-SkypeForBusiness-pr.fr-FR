@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: Suivez les instructions pour la migration de Slack vers Microsoft Teams.
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793470"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845209"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrer de Slack vers Microsoft Teams
 
@@ -43,7 +44,7 @@ Pour en savoir plus sur les options d’exportation de Slack, accédez au site W
 
 Le diagramme ci-dessous donne une vue d’ensemble du paysage de la migration de Slack que nous allons aborder dans cet article. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Diagramme montrant le paysage d’exportation Slack.":::
+![Diagramme affichant le paysage d’exportation Slack.](media/migrate-slack-to-teams-image2.png)
 
 Après avoir lu cette section, vous devriez être en mesure de comprendre les concepts suivants :
 - Niveau de service de vos espaces de travail Slack
@@ -80,9 +81,9 @@ Les applications dans Slack sont comme les applications dans Teams. Une fois que
 
 Accédez à <your Slack workspace>. slack.com/apps/manage pour obtenir la liste des applications et les intégrations personnalisées. Cette page indique également le nombre de configurations où chaque application est en cours d’utilisation. L’intégration personnalisée peut varier en fonction de la « capacité de migration ». S’il s’agit d’un hook Web, vous pouvez généralement l’envoyer à un connecteur Office 365 pour déplacer le flux de travail dans Teams. Évaluez les robots et les autres applications au cas par cas pour planifier leur migration vers Teams.
 
-* Si votre administrateur a utilisé des applications restreintes, il est possible que vous ne consultiez pas la liste complète des applications disponibles.
+\* Si votre administrateur a utilisé des applications restreintes, il est possible que vous ne puissiez pas voir la liste complète des applications disponibles.
 
-### <a name="users"></a>Utilisateurs
+### <a name="users"></a>Users
 Il se peut que les schémas d’identité que vous avez utilisés dans Slack ne s’intègrent pas directement à Office 365. Par exemple, il est possible que les adresses de messagerie de Slack ne correspondent pas aux comptes Office 365 professionnels ou scolaires. Vous devez créer un mappage ID utilisateur avant de commencer à planifier le déploiement de Teams.
 
 Si vous utilisez une offre de service Slack payante, vous pouvez accéder à *<your Slack workspace>. slack.com/admin/stats#members* pour obtenir des informations sur les membres, telles que l’adresse de messagerie et le type de compte pour chaque utilisateur (par exemple, un invité à un ou plusieurs canaux).
@@ -162,10 +163,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 Après avoir lu cette section, vous devriez disposer de :
-- Liste de canaux par espace de travail avec les statistiques d’utilisation
-- Liste des applications Slack avec des configurations par canal
-- Déterminez le type d’historique de message Slack que vous voulez exporter (le cas échéant)
-- Liste d’utilisateurs dont les comptes Slack sont mappés avec les comptes professionnels ou scolaires de Microsoft et quelle licence Teams leur est associée
+- Liste de canaux par espace de travail incluant les statistiques d’utilisation.
+- Liste des applications Slack avec des configurations par canal.
+- Déterminez le type d’historique de message Slack que vous voulez exporter (le cas échéant).
+- Liste d’utilisateurs dont les comptes Slack sont mappés avec les comptes professionnels ou scolaires de Microsoft ainsi que la licence Teams qui leur est associée.
 
 ## <a name="plan-your-teams-deployment"></a>Planifier le déploiement de Teams
 Vous avez exporté les éléments dont vous avez besoin de Slack (et laissés les éléments dont vous n’avez pas besoin). À présent, il est temps de planifier le déploiement de Teams et l’importation de vos données Slack. Il s’agit d’une excellente opportunité pour évaluer ce qui est bien adapté à l’équipe en fonction de l’utilisation et inclure les éléments de votre plan de déploiement Teams. À la fin de cette section, vous aurez un plan pour les utilisateurs, les canaux et les applications Teams. 

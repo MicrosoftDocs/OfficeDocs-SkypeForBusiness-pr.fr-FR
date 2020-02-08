@@ -13,15 +13,17 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628530"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845145"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -42,6 +44,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |La gestion des administrateurs des connecteurs à l’échelle du client n’est plus disponible  <br/> |Lorsque l’on tente d’ajouter un connecteur dans le client et la version en ligne, l’erreur suivante s’affiche : Une erreur inattendue s'est produite. Veuillez réessayer. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Désactivez les paramètres avec Teams. Reportez-vous à cet article de l’assistance. https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
 
 ## <a name="apps"></a>Applications
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|80 utilisateurs de la version Chrome ne peuvent pas se connecter à certaines applications sur la plateforme Teams.<br/>|Une fois que les utilisateurs ont correctement entré leurs informations d’identification par mot de passe dans la page de connexion d’une application, un cycle continu est initié lorsque l’utilisateur n’est pas reconnu par l’application et il est redirigé vers la page de connexion de l’application. <br/>|Demandez aux utilisateurs d’utiliser le client de bureau Teams. |15/11/19<br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -316,7 +322,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Intégration du Planificateur Teams avec le Planificateur en ligne <br/> |Les propriétaires ne peuvent pas créer de plan à partir d’une équipe créée à l'aide d’un groupe Office 365 existant.  <br/> |Accordez au membre les autorisations d'un propriétaire de groupe. <br/> |14/01/20  <br/>|
+|Intégration du Planificateur Teams avec le Planificateur en ligne <br/> |Les propriétaires ne peuvent pas créer de plan pour une équipe créée à partir d’un groupe Office 365 existant.  <br/> |Accordez au membre les autorisations d'un propriétaire de groupe. <br/> |14/01/20  <br/>|
 
 
 
