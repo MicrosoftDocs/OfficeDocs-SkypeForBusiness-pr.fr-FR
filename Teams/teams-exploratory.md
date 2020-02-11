@@ -16,19 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
+ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837684"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917019"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
 
 L’expérience exploratoire Microsoft Teams permet aux utilisateurs au sein de votre organisation d’Azure Active Directory (AAD) et de ne pas être licenciés pour Teams de lancer une expérience exploratoire de Teams. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. Le précédent [essai de cloud commercial Microsoft](iw-trial-teams.md) est désormais appelée expérience exploratoire Teams.
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)] Cette expérience est disponible à partir du mi-janvier 2020.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Qu’est-ce que l’expérience exploratoire Teams ?
 
