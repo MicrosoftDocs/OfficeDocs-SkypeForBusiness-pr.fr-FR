@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838024"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889413"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
@@ -58,9 +58,9 @@ Pour plus d’informations, reportez-vous à la rubrique [licences de complémen
 
 1. Connectez-vous au nouveau portail Office 365 à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **facturation** > **abonnements** > **Ajouter des abonnements**.
+2. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **facturation** > **services**. Faites défiler vers le bas, puis sélectionnez **modules complémentaires**.
 
-3. Développez **abonnements de modules complémentaires**, puis cliquez sur **crédits** > de communication**acheter maintenant**.
+3. Sélectionnez **crédits de communication**.
     
 4. Sur la **page** abonnement, entrez vos informations, puis cliquez sur **suivant**:
     
@@ -93,9 +93,9 @@ Lorsque vous configurez des crédits de communication, vous devez examiner l’u
     
 2. Dans le volet de navigation de gauche du centre d’administration Microsoft 365, **accédez à** > utilisateurs**actifs**, puis sélectionnez un ou des utilisateurs dans la liste.
     
-3. Dans le volet Action, sous **Licences de produit**, cliquez sur **Modifier**.
+3. Sélectionnez **licences et applications**.
     
-4. Sur la page **licences de produits** , activez/désactivez l’option crédits de **communication** **pour affecter** cette licence, puis cliquez sur **Enregistrer**.
+4. Activez/désactivez l’option **crédits de communication** **pour affecter** cette licence, puis sélectionnez **Enregistrer**.
     
     > [!NOTE]
     > Même si certains de vos utilisateurs sont affectés à une licence **entreprise E5** , il est recommandé d’effectuer cette opération.

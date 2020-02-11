@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences aux fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826312"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888683"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Attribution de licences Microsoft teams
 
@@ -58,7 +58,7 @@ Cet exemple affecte une licence Entreprise E3, ainsi qu'une licence Système té
 
 Le nom des licences ou des noms de produits figurant dans le script est affiché en italique (voir [système téléphonique et plans d’appel, noms de produits ou références SKU utilisés pour l’écriture de scripts](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting), après l’exemple).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Système téléphonique et offres d’appels noms de produits ou UGS utilisés pour l’écriture de scripts
 
 | Nom du produit | Référence |
@@ -131,7 +132,7 @@ Le nom des licences ou des noms de produits figurant dans le script est affiché
 
 Cet exemple affecte une licence entreprise E3, ainsi qu’une licence de conférence audio.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Noms des produits de conférence audio ou références (SKU) utilisés pour l’écriture de scripts
 
 | Nom du produit | Référence |

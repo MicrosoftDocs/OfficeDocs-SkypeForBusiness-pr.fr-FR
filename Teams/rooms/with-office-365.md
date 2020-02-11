@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft teams avec Office 365.
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827442"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888753"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer des Salles Microsoft Teams avec Office 365 ProPlus
 
@@ -36,7 +36,7 @@ Pour activer Skype entreprise, vous devez disposer des éléments suivants :
 
 - Skype entreprise Online (plan 2 ou plan d’entreprise) ou une version ultérieure dans votre plan Office 365. Le plan doit permettre l’accès aux fonctionnalités de conférence rendez-vous.
 
-- Si vous avez besoin de fonctionnalités de connexion à une réunion, vous avez besoin d’une licence de système téléphonique et de téléconférence.  Si vous avez besoin de fonctionnalités de numérotation d’une réunion, vous aurez besoin d’un forfait d’appels nationaux ou internationaux.
+- Si vous avez besoin de fonctionnalités de connexion à une réunion, vous avez besoin d’une licence de système téléphonique et de téléconférence.  Si vous avez besoin de fonctionnalités de numérotation d’une réunion, vous aurez besoin d’une licence de conférence audio.
 
 - Les utilisateurs de votre client doivent avoir des boîtes aux lettres Exchange.
 

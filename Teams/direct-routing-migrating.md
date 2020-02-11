@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836054"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888583"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -31,7 +31,7 @@ Cet article décrit les éléments nécessaires pour migrer vers un routage dire
 - Système téléphonique Office 365 avec une connectivité PSTN en local dans Skype Entreprise Server (pour Skype Entreprise en ligne)  
 - Système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition (pour Skype Entreprise en ligne)
 
-  
+
 En plus de ces étapes de configuration, la configuration est également requise sur le contrôleur de frontière de session (SBC) pour acheminer les appels vers le nouvel itinéraire. Cet élément n’est pas abordé dans ce document. Pour plus d'informations, consultez la documentation du fournisseur du contrôleur SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>État final de l’attribution d’utilisateurs pour différentes options de connectivité PSTN 
@@ -55,7 +55,7 @@ OnPremLineURI |S/O|Le numéro de téléphone doit être synchronisé à partir d
 |TeamsCallingPolicy</br>AllowGroupCalling|Vrai|N/D|N/D|Vrai|
 ||||||
 
-<sup>1</sup> Le choix du mode approprié de TeamsUpgradePolicy dépend du scénario. Renseignez-vous sur l’expérience de la voix dans le [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> le choix du mode approprié du TeamsUpgradePolicy dépend du scénario. Renseignez-vous sur l’expérience de la voix dans le [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md).
 
 Dans le cadre de cet effort, Microsoft a récemment mis à jour le « centre d’administration Microsoft Teams » (également connu sous le nom de portail moderne) pour refléter le nouveau modèle de gestion sur la base des modes de coexistence. Dans le portail moderne, la configuration de TeamsUpgradePolicy définira désormais aussi automatiquement TeamsInteropPolicy sur une valeur cohérente. Par conséquent, TeamsInteropPolicy n’est plus exposé dans l’interface utilisateur. Cependant, les administrateurs utilisant PowerShell doivent continuer à utiliser conjointement TeamsUpgradePolicy et TeamsInteropPolicy pour assurer un routage correct. Une fois la transition vers TeamsUpgradePolicy terminée, il n’est plus nécessaire de configurer TeamsInteropPolicy.
 
@@ -72,7 +72,7 @@ Pour plus d'informations sur la migration à partir de forfaits d’appels, voir
  
 Nous vous recommandons de supprimer les informations d’offre de licences précédemment configurées comme suit :
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Nous vous recommandons de supprimer les informations sur le routage des communic
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > Si un CsVoiceRoutingPolicy global est configuré, il est recommandé de supprimer les utilisations RTC associées à cette stratégie globale. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration à partir du système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition 
@@ -109,7 +110,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 ```
 
 
-## <a name="related-links"></a>LIENS CONNEXES
+## <a name="related-links"></a>Liens connexes
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 

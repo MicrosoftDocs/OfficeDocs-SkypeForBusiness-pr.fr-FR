@@ -15,12 +15,12 @@ description: Utilisez ce script PowerShell pour nettoyer Microsoft Teams sur de
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: f6e6f54bb1e0a4098994f4fb17b167f8ae02dd70
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827582"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888253"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Exemple de script PowerShell - Nettoyage du déploiement de Microsoft Teams
 -------------------------------------------------------------------------
@@ -30,7 +30,7 @@ Ce script PowerShell peut être utilisé pour nettoyer Microsoft Teams sur des 
 
 ## <a name="sample-script"></a>Exemple de script
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script allows you to uninstall the Microsoft Teams app and remove Teams directory for a user.
@@ -61,6 +61,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-````
+```
 
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837984"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888723"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurer le système téléphonique au sein de votre organisation
 
@@ -116,7 +116,7 @@ Pour plus d’informations sur les files d’attente d’appels, voir [créer un
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Étape 8 : Si vous voulez configurer un standard automatique Cloud
 
-Les standards automatiques permettent aux personnes qui rejoignent votre organisation d’appeler votre organisation et de naviguer dans un système de menu pour les faire passer au service approprié, à la file d’attente des appels, à la personne ou à l’opérateur. Vous pouvez créer un standard automatique pour votre organisation à l’aide du centre d’administration Skype entreprise.
+Les standards automatiques permettent aux personnes qui rejoignent votre organisation d’appeler votre organisation et de naviguer dans un système de menu pour les faire passer au service approprié, à la file d’attente des appels, à la personne ou à l’opérateur. Vous pouvez créer un standard automatique pour votre organisation à l’aide du centre d’administration Teams.
 
 Pour plus d’informations sur la configuration d’une auto-attendendant du Cloud, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md).
 

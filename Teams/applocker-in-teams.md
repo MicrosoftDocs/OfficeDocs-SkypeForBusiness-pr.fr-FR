@@ -15,12 +15,12 @@ f1.keywords:
 description: Apprenez à activer l’application cliente de bureau teams avec des stratégies de contrôle d’application AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 13a1afd4ad4089db3c6b0c1223bf06831d9be667
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826382"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888553"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Stratégies de contrôle d’application AppLocker dans Microsoft teams
 
@@ -42,7 +42,7 @@ Dans la mesure où les fichiers exécutable de bureau teams sont signés numéri
 
 Pour l’application client Teams (tous les fichiers, toutes les versions), ajoutez les éléments suivants aux règles d’exécution & règles de DLL :
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE

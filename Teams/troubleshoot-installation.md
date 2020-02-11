@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment résoudre les problèmes d’installation et de mise à jour de l’application application de bureau teams sur Windows.
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837624"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888843"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Résoudre les problèmes d’installation et de mise à jour de Microsoft teams sur Windows
 
@@ -77,36 +77,36 @@ Cette section explique comment collecter et analyser les journaux d’applicatio
 
     1. Pour accéder à votre dossier TEMP, procédez comme suit :
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. Copiez les journaux de configuration et d’application. Notez que certains de ces journaux risquent de ne pas être présents en fonction du point de défaillance.
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. Exécutez la commande suivante pour capturer les descripteurs ouverts.
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. Exécutez la commande suivante pour capturer les dll ouvertes.
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. Exécutez la commande suivante pour capturer les pilotes en cours d’exécution.
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. Exécutez la commande suivante pour capturer les listes de contrôle d’accès (ACL) du dossier Teams.
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 
