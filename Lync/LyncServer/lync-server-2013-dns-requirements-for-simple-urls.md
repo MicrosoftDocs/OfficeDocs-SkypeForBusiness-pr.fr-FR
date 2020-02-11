@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737374"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Enregistrements DNS requis pour les URL simples dans Lync Server 2013
 
@@ -182,13 +182,13 @@ Si vous disposez de plusieurs sites et que votre fournisseur DNS prend en charge
 
 Pour le configurer, créez deux adresses GeoDNS. Chaque adresse possède deux enregistrements DNS A ou CNAMe qui sont résolus en deux regroupements qui sont associés à des fins de récupération par sinistre. Une adresse GeoDNS est utilisée pour l’accès interne et est résolue vers l’adresse IP du nom de domaine complet ou du nom de domaine complet (FQDN) du site Web interne. L’autre adresse GeoDNS est utilisée pour l’accès externe et est résolue sur l’adresse IP de nom de domaine complet ou du nom de domaine complet des deux pools. Voici un exemple de l’URL de la réunion, en utilisant les noms de domaine complets (FQDN) pour les pools.
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Vous pouvez configurer la même configuration pour l’URL d’accès à la Conf
 
 Une fois cette configuration configurée, vous devez utiliser une application de surveillance pour configurer la surveillance HTTP et surveiller les échecs. Pour un accès externe, assurez-vous que les demandes de découverte automatique associées à l’adresse IP du nom de domaine complet ou du nom de domaine complet des deux pools sont correctes. Par exemple, les requêtes suivantes ne doivent pas contenir d’en-tête **Accept** et doivent retourner **200 OK**.
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Pour un accès interne, vous devez surveiller le port 5061 sur l’adresse IP du nom de domaine complet (FQDN) du site Web interne ou du solde de charge des deux pools. Si des échecs de connectivité sont détectés, l’adresse VIP de ces groupes doit fermer les ports 80, 443 et 444.
 

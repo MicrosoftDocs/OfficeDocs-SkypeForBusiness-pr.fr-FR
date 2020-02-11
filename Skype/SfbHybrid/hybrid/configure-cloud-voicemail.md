@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726914"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888533"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
 
@@ -102,7 +102,7 @@ Par exemple, la commande suivante attribue une stratégie de messagerie vocale h
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Activer un utilisateur pour la messagerie vocale sur le Cloud
@@ -111,13 +111,17 @@ Pour permettre aux appels de messagerie vocale d’un utilisateur d’être ache
 
 Par exemple, la commande suivante active un compte d’utilisateur pour la messagerie vocale sur le Cloud : 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 L’applet de commande vérifie qu’une stratégie de messagerie vocale Cloud, au niveau global, site ou utilisateur, s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
 
 L’exemple suivant désactive un compte d’utilisateur pour la messagerie vocale sur le Cloud :
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 L’applet de commande vérifie qu’aucune stratégie de messagerie vocale hébergée (au niveau global, site ou utilisateur) ne s’applique à cet utilisateur. Si une stratégie s’applique, la cmdlet échoue.
 
