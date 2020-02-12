@@ -13,26 +13,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Cette section contient des exemples de requêtes pour la base de données de qualité de l’expertise (QoE).
-ms.openlocfilehash: 46286f23a2f687d8c7464c2e131e4cef943a57c2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806202"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888653"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="5f8f0-103">Exemples de requête de base de données QoE</span><span class="sxs-lookup"><span data-stu-id="5f8f0-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="d8646-103">Exemples de requête de base de données QoE</span><span class="sxs-lookup"><span data-stu-id="d8646-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="5f8f0-104">Cette section contient des exemples de requêtes pour la base de données de qualité de l’expertise (QoE).</span><span class="sxs-lookup"><span data-stu-id="5f8f0-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="d8646-104">Cette section contient des exemples de requêtes pour la base de données de qualité de l’expertise (QoE).</span><span class="sxs-lookup"><span data-stu-id="d8646-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="5f8f0-105">Utilisez l’exemple suivant pour obtenir le taux de gigue et de perte de paquets pour tous les flux audio.</span><span class="sxs-lookup"><span data-stu-id="5f8f0-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="d8646-105">Utilisez l’exemple suivant pour obtenir le taux de gigue et de perte de paquets pour tous les flux audio.</span><span class="sxs-lookup"><span data-stu-id="d8646-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
-```
+```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="5f8f0-106">Pour connaître le nombre total de conférences à l’aide de la console de réunion, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="5f8f0-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="d8646-106">Pour connaître le nombre total de conférences à l’aide de la console de réunion, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="d8646-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
-```
+```SQL
 select avg(ConversationalMOS)
 from SessionView s
 inner join MediaLineView m
@@ -43,9 +43,9 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="5f8f0-107">Pour obtenir ConversstionalMOS, SendingMOS et ListendingMOS par appareil de capture, utilisez l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="5f8f0-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="d8646-107">Pour obtenir ConversstionalMOS, SendingMOS et ListendingMOS par appareil de capture, utilisez l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="d8646-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
-```
+```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
 from
 (
