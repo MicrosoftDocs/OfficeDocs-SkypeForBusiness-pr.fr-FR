@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes liés à votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.'
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816213"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888873"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Dépannage du gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Cette rubrique explique comment résoudre les problèmes de déploiement de votr
 
     Recherchez « MaxProcessMemoryMB » et attribuez la valeur « 0 » comme suit :
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ Cette rubrique explique comment résoudre les problèmes de déploiement de votr
     
     Si l’agent ne peut pas se connecter à l’ordinateur d’écoute, vérifiez les points suivants :
     
-1. Vérifiez que le service d’écoute est en cours d’exécution sur l’ordinateur d’écoute. Si ce n’est pas le cas, assurez-vous que Redis est en cours d’exécution sur ce serveur, puis redémarrez le service d’écoute.
-    
-    Pour vérifier qu’il n’y a aucun problème avec le service d’écouteur de statistiques, consultez le journal des événements du gestionnaire de statistiques sur l’ordinateur de l’écouteur.
-    
-2. Utilisez un outil de connectivité tel que telnet pour vérifier la connectivité entre l’ordinateur de l’agent et l’écouteur sur le port approprié.
-    
-    Sinon, assurez-vous que la règle de pare-feu pour le trafic entrant est activée sur l’ordinateur d’écoute pour le type de réseau auquel l’ordinateur d’écoute est connecté (privé/public/domaine). S’il n’est pas joint à un domaine, il est possible que le réseau soit répertorié comme public et, dans ce cas, les règles de pare-feu installées avec le gestionnaire de statistiques ne s’appliquent pas par défaut.
+    1. Vérifiez que le service d’écoute est en cours d’exécution sur l’ordinateur d’écoute. Si ce n’est pas le cas, assurez-vous que Redis est en cours d’exécution sur ce serveur, puis redémarrez le service d’écoute.
+        
+        Pour vérifier qu’il n’y a aucun problème avec le service d’écouteur de statistiques, consultez le journal des événements du gestionnaire de statistiques sur l’ordinateur de l’écouteur.
+        
+    2. Utilisez un outil de connectivité tel que telnet pour vérifier la connectivité entre l’ordinateur de l’agent et l’écouteur sur le port approprié.
+        
+        Sinon, assurez-vous que la règle de pare-feu pour le trafic entrant est activée sur l’ordinateur d’écoute pour le type de réseau auquel l’ordinateur d’écoute est connecté (privé/public/domaine). S’il n’est pas joint à un domaine, il est possible que le réseau soit répertorié comme public et, dans ce cas, les règles de pare-feu installées avec le gestionnaire de statistiques ne s’appliquent pas par défaut.
     
 - **4000** : impossible de télécharger les informations du serveur depuis l’écouteur (raison inconnue)
     

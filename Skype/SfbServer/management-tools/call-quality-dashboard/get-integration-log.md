@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Résumé : Découvrez l’opération d’obtention du journal d’intégration, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816813"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888803"
 ---
 # <a name="get-integration-log"></a>Obtenir le journal d’intégration
  
@@ -51,7 +51,7 @@ Cette opération est désactivée par défaut pour des raisons de sécurité. Lo
   
  **Corps** de la réponse : Voici un exemple de structure d’entrées du journal.
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]

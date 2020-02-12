@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Résumé : en savoir plus sur le processus de déploiement du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816853"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888833"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Déploiement du tableau de bord de qualité des appels pour Skype entreprise Server
  
@@ -88,7 +88,7 @@ Le déploiement du tableau de bord de qualité des appels consiste à configurer
    - **Tâche de l’agent SQL user- &amp; mot de passe nom d’utilisateur :** Nom du compte de domaine et mot de passe (masqué) qui seront utilisés pour exécuter l’étape « données d’archive QoE » du poste de travail de l’agent SQL Server (qui exécute la procédure stockée pour extraire les données de la base de données QoE de la base de données d’archivage, comme indiqué dans la section comptes. Ce compte doit également avoir une connexion dans l’instance de SQL Server d’archive QoE.
     
      > [!NOTE]
-     > Le compte sous lequel l’instance SQL Server est en cours d’exécution (par exemple, NT SERVICE\MSSQLSERVER) doit disposer d’un accès ou d’une autorisation aux annuaires ci-dessus pour que l’installation réussisse. Pour plus d’informations, voir [configurer les autorisations du système de fichiers pour l’accès du moteur de base de données](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > Le compte sous lequel l’instance SQL Server est en cours d’exécution (par exemple, NT SERVICE\MSSQLSERVER) doit disposer d’un accès ou d’une autorisation aux annuaires ci-dessus pour que l’installation réussisse. Pour plus d’informations, voir [configurer les autorisations du système de fichiers pour l’accès du moteur de base de données](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. Lorsque vous cliquez sur suivant, le programme d’installation effectue des vérifications et signale les conditions préalables en cas de problème. Lorsque toutes les vérifications préalables sont réussies, le programme d’installation accède à la page Configuration du cube. 
     
@@ -104,7 +104,7 @@ Le déploiement du tableau de bord de qualité des appels consiste à configurer
    - **Serveur d’analyse du cube :** Nom de l’instance de SQL Server Analysis Services pour l’emplacement de création du cube. Il peut s’agir d’un autre ordinateur, mais l’utilisateur doit être membre des administrateurs de serveurs de l’instance de service SQL Server Analysis Services cible.
     
      > [!NOTE]
-     >  Pour plus d’informations sur la configuration des autorisations d’administrateur du serveur Analysis Services, voir [accorder des autorisations d’administrateur serveur (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx) .
+     >  Pour plus d’informations sur la configuration des autorisations d’administrateur du serveur Analysis Services, voir [accorder des autorisations d’administrateur serveur (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx) .
   
    - **Utiliser plusieurs partitions :** Par défaut, la valeur est « multiple partition », qui nécessite Business Intelligence Edition ou Enterprise Edition de SQL Server. Pour l’édition standard, sélectionnez l’option « partition unique ». Notez que les performances de traitement de cube risquent d’être affectées en cas d’utilisation d’une partition unique.
     
@@ -135,7 +135,7 @@ Lorsque le programme d’installation est en cours d’exécution, il est probab
   
 Les messages détaillés du journal seront affichés en mode débogage. Pour activer le mode de débogage, accédez à **%systemdrive%\Program Files\Skype pour Business 2015 CQD\QoEDataService\web.config**, puis mettez à jour la ligne suivante de sorte que la valeur soit définie sur **true**:
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ Par la suite, les administrateurs doivent ajouter de nouvelles règles d’autor
   
 Les détails de la configuration sont stockés dans le fichier Web. config situé dans le répertoire physique du portail.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ Pour les liaisons de port HTTP et HTTPs, le programme d’installation va créer
   
 Pour activer SSL/TLS dans IIS et obliger les utilisateurs à se connecter par le biais de HTTPS au lieu de HTTP :
   
-1. Configurer le protocole SSL (Secure Sockets Layer) dans IIS, voir [configurer le protocole SSL (Secure Sockets Layer) dans IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Après cela, remplacez `http` par `https`.
+1. Configurer le protocole SSL (Secure Sockets Layer) dans IIS, voir [configurer le protocole SSL (Secure Sockets Layer) dans IIS 7](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx). Après cela, remplacez `http` par `https`.
     
 2. Pour obtenir des instructions sur l’activation de TLS dans les connexions SQL Server, voir [activation du chiffrement SSL pour une instance de SQL Server à l’aide de Microsoft Management Console](https://support.microsoft.com/en-us/kb/316898/).
     

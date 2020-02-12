@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Les stratégies de client permettent d'identifier les fonctionnalités de Skype Entreprise Online mises à la disposition des utilisateurs. Par exemple, vous pouvez octroyer à certains utilisateurs le droit de transférer des fichiers tout en refusant ce droit à d'autres utilisateurs.
-ms.openlocfilehash: 0d92e9d4aab477cdcb010b4840d43a622f28b8cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692999"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887903"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurer les stratégies client pour votre organisation
 
@@ -41,51 +41,50 @@ Vous pouvez configurer les paramètres de stratégie de client lors de la créat
 
 - **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
     
-1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
-    
-2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
-    
-3. Si vous n’avez pas la version 3,0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
-    
-4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
+    1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
+        
+    2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
+        
+    3. Si vous n’avez pas la version 3,0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
+        
+    4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
     Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
-1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+    1. Depuis le **Menu Démarrer** > **Windows PowerShell**.
+        
+    2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
-2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
-    
-    > [!NOTE]
-    > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
+        > [!NOTE]
+        > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
-
-   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+       ```powershell
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
+Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Désactiver les émoticônes et des notifications de présence et empêcher l’enregistrement des messages instantanés
 
 - Pour créer une stratégie pour ces paramètres, exécutez :
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+   ```
 
   En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+   ```
 
   En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
@@ -95,19 +94,19 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
 
 - Pour créer une stratégie pour ces paramètres, exécutez :
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+   ```
 
   En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+   ```
 
   En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
@@ -116,18 +115,18 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
 ### <a name="prevent-showing-recent-contacts"></a>Bloquer l'affichage des contacts récents
 
 - Pour créer une stratégie pour ces paramètres, exécutez :
-  > 
-  > ```PowerShell
-  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  > ```
+   
+   ```powershell
+   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+   ```
 
   En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
-  > 
-  > ```PowerShell
-  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+   ```
 
   En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     

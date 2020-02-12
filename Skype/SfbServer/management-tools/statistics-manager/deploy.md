@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : consultez cette rubrique pour connaître la procédure de déploiement du gestionnaire de statistiques de Skype Entreprise Serveur.'
-ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803964"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888423"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
@@ -100,9 +100,9 @@ Pour installer le service d’écoute sur l’ordinateur hôte, exécutez le fic
     
      Vous pouvez trouver l’empreinte de certificat à l’aide du gestionnaire de certificats ou de la commande PowerShell :
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+       ```PowerShell
+       Get-ChildItem -path cert:\LocalMachine\My
+       ```
 
    - **Répertoire d’installation: ** il s’agit du répertoire dans lequel les fichiers binaires seront installés. Vous pouvez modifier le répertoire par défaut à l’aide du bouton **Parcourir...**.
     
@@ -172,7 +172,7 @@ Pour installer un agent sur chaque Skype Entreprise Server que vous souhaitez su
     
 Si vous installez un agent sur différents ordinateurs, vous souhaitez peut-être le faire en mode sans assistance. Par exemple : 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
@@ -198,25 +198,25 @@ Pour importer a topologie de Skype Entreprise Server, procédez comme suit :
     
    b. Accédez au répertoire dans lequel l’écouteur est installé. Valeur par défaut : 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. Pour confirmer les serveurs qui sont ajoutés et mis à jour, exécutez la commande suivante :
     
-   ```PowerShell
+   ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 La commande suivante permet d’afficher toutes les options :
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 Pour consulter les informations du serveur importé, exécutez le script suivant : 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -224,13 +224,13 @@ Si vous souhaitez surveiller des serveurs qui ne font pas partie de votre topolo
   
 1. Accédez au répertoire dans lequel l’écouteur est installé. Valeur par défaut : 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. Exécutez la commande suivante :
     
-   ```
+   ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -241,29 +241,29 @@ Si un agent ne démarre pas, vérifiez les points suivants :
   
 - L’agent est-il enregistré auprès du Gestionnaire de Statistiques?
     
-1. 	Assurez-vous que vous avez suivi les instructions pour importer la topologie. Consultez la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).  
-    
-2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, nœuds dans un cluster SQL AlwaysOn), vous devrez ajouter l’agent manuellement en suivant les instructions de la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).
+    1. 	Assurez-vous que vous avez suivi les instructions pour importer la topologie. Consultez la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).  
+        
+    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, nœuds dans un cluster SQL AlwaysOn), vous devrez ajouter l’agent manuellement en suivant les instructions de la rubrique [Import the topology](deploy.md#BKMK_ImportTopology).
     
 - L’agent peut-il contacter l’écouteur ?
     
-1. Vérifiez que le service d’écoute est exécuté. 
-    
-    Si ce n’est pas le cas, vérifiez que le système Redis est en cours d’exécution, puis essayez de redémarrer l’écouteur.
-    
-2. Assurez-vous que le port est ouvert sur le service d’écoute et que l’ordinateur de l’agent peut communiquer avec le port.
+    1. Vérifiez que le service d’écoute est exécuté. 
+        
+        Si ce n’est pas le cas, vérifiez que le système Redis est en cours d’exécution, puis essayez de redémarrer l’écouteur.
+        
+    2. Assurez-vous que le port est ouvert sur le service d’écoute et que l’ordinateur de l’agent peut communiquer avec le port.
     
 - Pour vérifier que le Gestionnaire de Statistiques collecte des données, vous pouvez consulter le fichier CSV comme suit.  
     
     La commande suivante récupère les noms de stockage de compteur : 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     La commande suivante récupère les valeurs des compteurs spécifiés : 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -276,7 +276,7 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
   
 1. Connectez-vous à une console PowerShell en tant qu’administrateur, et tapez les informations suivantes :
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

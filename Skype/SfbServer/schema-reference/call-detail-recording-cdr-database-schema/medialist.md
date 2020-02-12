@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La table MediaList est une table statique qui stocke la liste de divers types de médias.
-ms.openlocfilehash: 7742baf17240ca810268721c0e47e37f17e555cd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e7d739b27bf45b5f5a21183c30bd5b07108b4a9d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815032"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888513"
 ---
 # <a name="medialist-table"></a>Table MediaList
  
@@ -31,6 +31,6 @@ La table MediaList est une table statique qui stocke la liste de divers types de
    
 Si vous tentez de déterminer le type de modalité pour les valeurs dans LcsCDR.SessionDetailsView.MediaTypes, vous devrez utiliser l’extrait de Joindre suivant :  
   
-```json
+```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```

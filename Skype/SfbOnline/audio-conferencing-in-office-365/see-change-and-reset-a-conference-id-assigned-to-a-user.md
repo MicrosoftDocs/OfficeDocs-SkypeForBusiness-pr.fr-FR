@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment attribuer un ID de conférence à un utilisateur dans Skype entreprise Online et quels sont les paramètres d’ID de conférence. '
-ms.openlocfilehash: 84218fefb831e37255e7049e082f7fe715dc0eb4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680451"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888063"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Afficher et réinitialiser un ID de conférence affecté à un utilisateur de Skype Entreprise Online
 
@@ -65,11 +65,11 @@ Vous pouvez afficher leurs ID de conférence et les envoyer aux utilisateurs.
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```PowerShell
+  ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+Voir [Get-csonlinedialinconferencinguser n’affiche](https://go.microsoft.com/fwlink/?LinkId=617693 ) pour en savoir plus sur l’applet de passe.
 
 
 ### <a name="to-reset-the-conference-id"></a>Pour réinitialiser l’ID de conférence
@@ -84,11 +84,11 @@ Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'ou
 
 3. Dans> **les** > **utilisateurs**du **Centre d’administration de Skype entreprise**, dans le volet action, sous **ID de conférence**, cliquez sur **Réinitialiser**.
 
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. Dans la fenêtre de **réinitialisation de l’ID de conférence ?** , cliquez sur **Oui**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
-You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
+Vous pouvez réinitialiser l’ID de conférence d'un utilisateur à l’aide de Windows PowerShell. Pour cela, exécutez :
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
@@ -97,11 +97,11 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
    > [!IMPORTANT]
-   >  After a new conference ID is created or one is reset, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Après la création d’un ID de conférence ou son réinitialisation, l’ancien ID de conférence ne peut pas être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser l’outil de migration de réunion Skype entreprise pour mettre à jour leurs réunions existantes. Pour plus d’informations sur le téléchargement, l’installation et l’exécution de l’outil, voir la section [outil de mise à jour des réunions pour Skype entreprise et Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype entreprise Online, outil de migration de réunion (64)](https://go.microsoft.com/fwlink/?LinkID=626047)et [Skype entreprise Online, outil de migration de réunion (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
 - Pour en savoir plus sur l'applet de commande, reportez-vous à la rubrique [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
 
-- The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
+- L’ID de conférence doit correspondre à la longueur dans les chiffres définis sur le pont de conférence audio. Vous ne pouvez pas utiliser des caractères alphabétiques ou spéciaux dans les ID de conférence ; Seuls les numéros peuvent être utilisés.
 
 - L’ID de conférence de tous les utilisateurs de l’audioconférence sera 7 chiffres par défaut et le nombre de chiffres ne peut pas être modifié.
 
@@ -114,7 +114,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
 
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

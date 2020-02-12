@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692519"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887813"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
@@ -64,7 +64,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
    Le nom des licences ou des noms de produits figurant dans le script est affiché en italique (voir le **système téléphonique et les noms des produits de plan d’appel et les références (SKU) utilisées pour l’écriture de scripts**, après l’exemple).
 
-   ```
+   ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
    #Example of text file:
@@ -137,40 +137,40 @@ Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez l
 
     Cet exemple affecte une licence entreprise E3, ainsi qu’une licence de conférence audio.
 
-```
-#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
-#Example of text file:
-#user1@domain.com
-#user2@domain.com
+    ```powershell
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Example of text file:
+    #user1@domain.com
+    #user2@domain.com
 
-#Import Module
-ipmo MSOnline
+    #Import Module
+    ipmo MSOnline
 
-#Authenticate to MSOLservice
-Connect-MSOLService
-#File prompt to select the userlist txt file
-[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
+    #Authenticate to MSOLservice
+    Connect-MSOLService
+    #File prompt to select the userlist txt file
+    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+      $OFD = New-Object System.Windows.Forms.OpenFileDialog
+      $OFD.filter = "text files (*.*)| *.txt"
+      $OFD.ShowDialog() | Out-Null
+      $OFD.filename
 
-If ($OFD.filename -eq '')
-{
-Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-}
-
-#Create a variable of all users
-$users = Get-Content $OFD.filename
-
-#License each user in the $users variable
-foreach ($user in $users)
+    If ($OFD.filename -eq '')
     {
-    Write-host "Assigning License: $user"
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+    Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-```
+
+    #Create a variable of all users
+    $users = Get-Content $OFD.filename
+
+    #License each user in the $users variable
+    foreach ($user in $users)
+        {
+        Write-host "Assigning License: $user"
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+        }
+    ```
 
 ### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Noms des produits de conférence audio ou références (SKU) utilisés pour l’écriture de scripts
 <a name="sku"> </a>

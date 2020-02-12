@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en tant que magasin de fichiers pour votre déploiement de Skype entreprise Server ou si vous devez apporter d’autres modifications pour rendre le stockage de fichiers actuel indisponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817105"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888453"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype entreprise Server
 
@@ -37,7 +37,7 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
 1. Connectez-vous à un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator dans lequel Skype entreprise Server, outils d’administration sont installés.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
 
@@ -55,8 +55,8 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
    c. Dans **Définir un nouveau magasin de fichiers**, sous **Nom de domaine complet du serveur de fichiers**, saisissez le nom de domaine complet du serveur de fichiers. Sous **Partage de fichiers**, saisissez le nom de dossier pour le nouveau partage de fichiers et cliquez sur **OK**.
 
-    > [!IMPORTANT]
-    > Cette étape définit un nouveau magasin de fichiers à utiliser dans le générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, reportez-vous à la section [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Cette étape définit un nouveau magasin de fichiers à utiliser dans le générateur de topologie. Définissez-le une seule fois, non pour chaque serveur. Avant de publier la topologie, vous devez créer le partage de fichiers sur le serveur de fichiers défini. Pour plus d’informations, reportez-vous à la section [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 8. Pour chaque serveur ou pool qui utilise le magasin de fichiers, procédez comme suit :
 
@@ -70,10 +70,9 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
 11. Dans la ligne de commande, tapez ce qui suit :
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > Le commutateur /S permet de copier sur des fichiers, des répertoires et des sous-répertoires. Le commutateur /XF permet d’ignorer des fichiers nommés Meeting.Active. Les versions actuelles du fichier robocopy.exe avec le commutateur /MT augmentent considérablement la vitesse de copie à l’aide de plusieurs threads. Pour le commutateur/LOG, utilisez un chemin d’accès au répertoire et un nom de fichier journal sous la forme de C:\Logfiles\log.txt. Ce commutateur crée un fichier journal d’opérations à l’emplacement nommé.
@@ -88,8 +87,6 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
 ## <a name="see-also"></a>Voir aussi
 
-
 [Réattribuer un serveur à un autre magasin de fichiers](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Supprimer un magasin de fichiers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

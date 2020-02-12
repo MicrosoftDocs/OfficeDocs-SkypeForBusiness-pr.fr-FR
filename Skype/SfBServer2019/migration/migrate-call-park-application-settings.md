@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'La migration de l’application de parc d’appels inclut la mise en service du pool Skype entreprise Server 2019 avec n’importe quel fichier de musique personnalisé sur les fichiers qui ont été téléchargés dans l’installation héritée, en restaurant les paramètres de niveau de service et en reciblant toutes les orbites du parc d’appels sur le Pool 2019 de Skype entreprise Server. Si des fichiers personnalisés de musique en attente ont été configurés dans la liste, ces fichiers doivent être copiés dans le nouveau pool Skype entreprise Server 2019. Par ailleurs, il est recommandé de sauvegarder les fichiers de conservation de musique personnalisés de votre parc d’appels à partir d’une autre destination pour conserver une copie de sauvegarde distincte de tous les fichiers de conservation de la musique personnalisés qui ont été téléchargés pour le parc d’appels. Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers de réserve dans un magasin de fichiers 2019 Skype entreprise Server, utilisez la commande xcopy avec les paramètres suivants :'
-ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 058f2f1652dcb7c05730fd058e9867a4c2dee8af
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813582"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888133"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
 
 La migration de l’application de parc d’appels inclut la mise en service du pool Skype entreprise Server 2019 avec des fichiers personnalisés de conservation de la musique qui ont été téléchargés dans l’installation héritée, en restaurant les paramètres de niveau de service et en reciblant tout le parc d’appels. au pool 2019 de Skype entreprise Server. Si des fichiers personnalisés de musique en attente ont été configurés dans la liste, ces fichiers doivent être copiés dans le nouveau pool Skype entreprise Server 2019. Par ailleurs, il est recommandé de sauvegarder les fichiers de mise en attente personnalisés de votre parc d’appels dans une autre destination pour conserver une copie de sauvegarde distincte de tous les fichiers de conservation de la musique personnalisés qui ont été téléchargés pour le parc d’appels. Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers de réserve dans un magasin de fichiers 2019 Skype entreprise Server, utilisez la commande **xcopy** avec les paramètres suivants : 
 
-```
+```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
 ```
 
-```
+```console
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 

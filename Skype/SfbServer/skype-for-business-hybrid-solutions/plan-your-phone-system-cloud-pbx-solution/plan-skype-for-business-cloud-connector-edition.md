@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814462"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887733"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
 Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
 
-L’édition Cloud Connector peut être la solution adaptée à votre organisation si vous n’avez pas encore de déploiement Lync Server ou Skype entreprise Server existant. Si vous étudiez toujours quel système téléphonique dans la solution 365 Office est approprié pour votre entreprise, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+L’édition Cloud Connector peut être la solution adaptée à votre organisation si vous n’avez pas encore de déploiement Lync Server ou Skype entreprise Server existant. Si vous étudiez toujours quel système téléphonique dans la solution 365 Office est approprié pour votre entreprise, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Ce document décrit les exigences en matière de édition Cloud Connector et les topologies prises en charge, et vous aide à planifier le déploiement de votre version Cloud Connector. Avant de configurer votre environnement Cloud Connector, veillez à lire ce sujet. Lorsque vous êtes prêt à déployer et configurer le Cloud Connector Edition, reportez-vous à la rubrique [configurer et gérer Skype entreprise version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -429,7 +429,7 @@ Si des règles plus restrictives sont nécessaires, consultez les URL suivantes 
 
 - [URL de la liste de révocation de certificats](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) dans [les URL et plages d’adresses IP 365 Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update : [configuration d’un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update : [configuration d’un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/library/bb693717.aspx)
 
 - PowerShell d’administration de Skype entreprise Online \*:. online.Lync.com
 
@@ -545,14 +545,14 @@ Chaque composant Edge nécessite un certificat délivré par une autorité de ce
 
 - **Option 1.** Le nom de sujet doit contenir le nom du pool affecté aux composants Edge. Notez que le nom de l’objet ne peut pas être sip.sipdomain.com car ce nom est réservé pour le composant Microsoft Edge de Skype entreprise online. L'autre nom de sujet doit contenir sip.sipdomain.com et le nom du pool Edge d'accès :
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **Option 2.** Si vous souhaitez utiliser un certificat générique unique sur tous les serveurs de pools Edge que vous déployez, vous pouvez utiliser une entrée SAN \*de. sipdomain.com au lieu du nom du pool de bords dans le certificat. Le nom de sujet peut être le nom d'un des pools Edge d'accès que vous avez déployés :
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Vous devez ajouter sip.sipdomain.com pour chaque domaine SIP, ainsi que le nom 
 
 - **Option 1.** Le nom du sujet doit contenir le nom du pool que vous avez attribué aux composants du bord. Notez que le nom de l’objet ne peut pas être sip.sipdomain.com car ce nom est réservé pour le composant Microsoft Edge de Skype entreprise online. L'autre nom de sujet doit contenir sip.sipdomain.com et le nom du pool Edge d'accès :
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>Option 2.</strong> Si vous souhaitez utiliser un certificat générique unique sur tous les serveurs de pools Edge que vous déployez, vous pouvez utiliser une entrée SAN \*de. sipdomain.com au lieu du nom du pool de bords dans le certificat. Le nom de sujet peut être le nom d'un des pools Edge d'accès que vous avez déployés :
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ Cloud Connector 2.1 et les versions ultérieures prennent en charge la surveill
 
 Pour plus d'informations, voir les articles suivants :
 
-- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuration et gestion de Skype Entreprise, version Cloud Connector](configure-skype-for-business-cloud-connector-edition.md)
 

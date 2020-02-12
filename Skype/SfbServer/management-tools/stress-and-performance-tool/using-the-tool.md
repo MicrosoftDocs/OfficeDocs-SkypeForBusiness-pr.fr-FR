@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Pour exécuter l’outil de stress et de performances de Skype entreprise Server 2015, vous devez être en mesure de gérer les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil d’exécution, puis de passer en revue les résultats produits par l’outil.
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816143"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888863"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Utilisation de l’outil de stress et de performance 2015 de Skype entreprise Server
  
@@ -145,8 +145,8 @@ Cet onglet vous permet de fournir des informations de contact aux utilisateurs p
     
 8. Cliquez sur **créer des contacts** pour commencer la création du contact. Ce processus peut prendre quelques minutes. Une fois qu’elle est terminée, une boîte de dialogue s’affiche avec le message « opération terminée correctement ». Vous pouvez valider les contacts créés en vous connectant en tant qu’utilisateur créé à partir de l’onglet création d’utilisateur.
     
-> [!NOTE]
-> Une fois les contacts créés, vous redémarrez tous les serveurs frontaux dans la liste cible. Le début de la période (jusqu’à 2 heures) est susceptible de durer plus longtemps, selon le nombre de contacts créés par cette opération. 
+    > [!NOTE]
+    > Une fois les contacts créés, vous redémarrez tous les serveurs frontaux dans la liste cible. Le début de la période (jusqu’à 2 heures) est susceptible de durer plus longtemps, selon le nombre de contacts créés par cette opération. 
   
 #### <a name="distribution-list"></a>Liste de distribution
 
@@ -367,7 +367,7 @@ L’outil de configuration de charge (UserProfileGenerator. exe) crée un fichie
     
 2. Accédez au dossier client et exécutez le script de commande **RunClient** . Vous pouvez double-cliquer sur le fichier de commandes dans l’Explorateur Windows pour exécuter tous les fichiers de configuration pour ce client. Vous pouvez également exécuter le script à partir d’un dossier client en utilisant la syntaxe suivante :
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Pour plus d’informations sur la façon de surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Microsoft Operations Management Suite (OMS), consultez cette rubrique.
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799624"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888633"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector avec Operations Management Suite (OMS)
 
 Pour plus d’informations sur la façon de surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Microsoft Operations Management Suite (OMS), consultez cette rubrique.
 
-Vous pouvez désormais surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Operations Management Suite (OMS), une solution de gestion informatique du Cloud Microsoft. L’analyse du journal OMS vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, notamment les machines physiques et virtuelles. Pour plus d’informations sur OMS et sur l’analyse du journal, voir [qu’est-ce que la suite de gestion des opérations ?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+Vous pouvez désormais surveiller la version 2,1 du Cloud Connector et le déploiement ultérieur à l’aide de Operations Management Suite (OMS), une solution de gestion informatique du Cloud Microsoft. L’analyse du journal OMS vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, notamment les machines physiques et virtuelles. Pour plus d’informations sur OMS et sur l’analyse du journal, voir [qu’est-ce que la suite de gestion des opérations ?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 Cette rubrique contient les sections suivantes :
 
@@ -58,28 +58,28 @@ La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario
 
 - **Si vous installez un nouveau matériel de connecteur Cloud ou que vous voulez redéployer un appareil**, procédez comme suit avant d’exécuter l’installation-CcAppliance :
 
-1. Dans la section [Common] du fichier CloudConnector. ini, définissez le paramètre OMSEnabled sur true.
+    1. Dans la section [Common] du fichier CloudConnector. ini, définissez le paramètre OMSEnabled sur true.
 
-    Chaque fois que le Cloud Connector est déployé ou mis à niveau, il essaiera d’installer automatiquement l’agent OMS sur les ordinateurs virtuels. Activez cette fonctionnalité pour que l’agent OMS puisse survivre à la mise à jour automatique du Cloud Cloud.
+        Chaque fois que le Cloud Connector est déployé ou mis à niveau, il essaiera d’installer automatiquement l’agent OMS sur les ordinateurs virtuels. Activez cette fonctionnalité pour que l’agent OMS puisse survivre à la mise à jour automatique du Cloud Cloud.
 
-2. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
+    2. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
 
 - **Si vous installez un agent OMS sur un appareil de connecteur Cloud existant**, procédez comme suit :
 
-1. Dans la section [Common] du fichier CloudConnector. ini, définissez OMSEnabled = true. 
+    1. Dans la section [Common] du fichier CloudConnector. ini, définissez OMSEnabled = true. 
 
-2. Exécutez Import-CcConfiguration. 
+    2. Exécutez Import-CcConfiguration. 
 
-3. Exécutez Install-CcOMSAgent. 
+    3. Exécutez Install-CcOMSAgent. 
 
-    > [!NOTE]
-    > Si les informations d’identification OMSWorkspace n’ont jamais été définies, vous êtes invité à entrer les informations d’identification lorsque vous exécutez Install-CcOMSAgent. 
+        > [!NOTE]
+        > Si les informations d’identification OMSWorkspace n’ont jamais été définies, vous êtes invité à entrer les informations d’identification lorsque vous exécutez Install-CcOMSAgent. 
 
 - **Si vous voulez mettre à jour l’ID d’espace de travail OMS ou la clé dans un appareil Cloud sur lequel est déjà installé un agent OMS :**
 
-1. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
+    1. Pour configurer l’ID et la clé OMS, exécutez Set-CcCredential-AccountType OMSWorkspace. 
 
-2. Pour appliquer les mises à jour, exécutez Install-CcOMSAgent. 
+    2. Pour appliquer les mises à jour, exécutez Install-CcOMSAgent. 
 
 - **Dans tous les cas, vérifiez que les agents sont connectés comme suit :**
 
@@ -116,15 +116,15 @@ Dans le portail OMS, vous devez spécifier les informations relatives aux journa
 
      Nombre total d’appels actifs :
 
-   - LS : MediationServer-appels entrants (_Total)\- actuels 
+       - LS : MediationServer-appels entrants (_Total)\- actuels 
 
-   - LS : MediationServer-les appels sortants (_Total\- ) actuels 
+       - LS : MediationServer-les appels sortants (_Total\- ) actuels 
 
      Nombre total d’appels multimédias actifs :
 
-   - LS : appels entrants et MediationServer (_Total)\- 
+       - LS : appels entrants et MediationServer (_Total)\- 
 
-   - LS : MediationServer-appels sortants (_Total)\- appels multimédias actifs 
+       - LS : MediationServer-appels sortants (_Total)\- appels multimédias actifs 
 
      > [!NOTE]
      > Vous devez entrer manuellement les compteurs de performance dans la zone de texte. Elles n’apparaissent pas sous la forme d’options dans la liste déroulante. 
@@ -155,7 +155,7 @@ Pour créer cette paire d’alertes :
 
 - La requête d’erreur est la suivante :
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ Pour créer cette paire d’alertes :
 
 - La requête de réinitialisation est la suivante :
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     La requête Reset effectue exactement l’opération inverse de la requête d’erreur. S’il s’agit d’un ordinateur, l’événement de début de service sera renvoyé. elle ne renvoie aucune valeur si le dernier événement est l’événement d’arrêt de service.
 
-  **Créer une paire d’alertes : « un trop grand nombre d’appels simultanés dans les serveurs de médiation » et « les appels simultanés sont ramenés au chargement normal »**
+**Créer une paire d’alertes : « un trop grand nombre d’appels simultanés dans les serveurs de médiation » et « les appels simultanés sont ramenés au chargement normal »**
 
 Pour créer cette alerte :
 
 - La requête d’erreur est la suivante :
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ Pour créer cette alerte :
 
 - La requête de réinitialisation est la suivante :
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     La requête Reset effectue exactement l’opération inverse de la requête d’erreur. Pour chaque ordinateur, la requête obtiendra les derniers compteurs pour les appels entrants et sortants et additionner ces deux valeurs. Il renverra un journal si la valeur somme est inférieure à 500 ; elle ne renvoie aucun résultat.
 
-  **Créer une alerte : « utilisation \> processeur 90 ou RTCMEDIARELAY arrêtées dans les serveurs »**
+**Créer une alerte : « utilisation \> processeur 90 ou RTCMEDIARELAY arrêtées dans les serveurs »**
 
 Pour créer cette alerte, la requête est la suivante :
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

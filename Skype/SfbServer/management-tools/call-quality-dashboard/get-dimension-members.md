@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Résumé : en savoir plus sur l’opération obtenir les membres d’une dimension. L’opération obtenir les membres de la dimension fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: ba80e14c011d6cecb9b70f8a8faf32764b5b433d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816823"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888813"
 ---
 # <a name="get-dimension-members"></a>Obtenir les membres de dimension
  
@@ -41,7 +41,7 @@ Opération obtenir les membres d’une dimension renvoie la liste des membres d�
   
  Le corps de la **requête** contient le nom de la dimension pour laquelle nous voulons les membres. Le nombre maximal de membres retourné, à côté de vous pouvez spécifier un filtre pour limiter les membres renvoyés.
   
-```
+```json
 {
 "ByPassCache": false,
 "DataModelName": "[StartDate].[Month]",
@@ -63,7 +63,7 @@ Opération obtenir les membres d’une dimension renvoie la liste des membres d�
 > [!NOTE]
 > La liste affiche uniquement une petite partie de la liste. 
   
-```
+```json
 {
 "MembersCount": 493,
 "Members": [["[1990-01-01T00:00:00]",

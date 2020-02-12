@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services.
-ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816903"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888483"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de Trunk dans Skype entreprise Server
 
@@ -35,14 +35,16 @@ Lorsque vous installez Skype entreprise Server, une collection globale de param�
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de Trunk SIP à l’aide des cmdlets Windows PowerShell
 
-Les paramètres de configuration de Trunk SIP peuvent être affichés à l’aide de Skype entreprise Server PowerShell et de l’applet de ligne Get-CsTrunkConfiguration. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype entreprise Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync http://go.microsoft.com/fwlink/p/?linkId=255876Server 2010 à l’aide de Remote PowerShell ». REMPLACEZ OU SUPPRIMEZ CE LIEN.
+Les paramètres de configuration de Trunk SIP peuvent être affichés à l’aide de Skype entreprise Server PowerShell et de l’applet de ligne Get-CsTrunkConfiguration. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Skype entreprise Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync https://go.microsoft.com/fwlink/p/?linkId=255876Server 2010 à l’aide de Remote PowerShell ». REMPLACEZ OU SUPPRIMEZ CE LIEN.
 
 
 **Pour afficher les informations de configuration du Trunk SIP**
 
 Pour afficher des informations sur l’ensemble des paramètres de configuration de Trunk SIP, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
 
-`Get-CsTrunkConfiguration`
+```powershell
+Get-CsTrunkConfiguration
+```
 
 Vous obtiendrez des indications semblables à ceci :
 
@@ -72,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) .
+Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .
 
 
 

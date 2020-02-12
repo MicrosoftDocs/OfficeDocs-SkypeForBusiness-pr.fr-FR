@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: En savoir plus sur les options de haute disponibilité du serveur principal prises en charge dans Skype entreprise Server, y compris les groupes de disponibilité AlwaysOn, les instances de cluster de basculement, la mise en miroir de base de données et la mise en cluster de basculement SQL.
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815952"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888613"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Haute disponibilité du serveur principal dans Skype entreprise Server
  
@@ -56,7 +56,7 @@ Skype entreprise Server prend en charge la mise en miroir avec le logiciel de ba
     
 
 > [!NOTE]
-> La mise en miroir SQL est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de clusters de basculement AlwaysOn (ICF) et les méthodes de regroupement de relais SQL sont préférés dans Skype entreprise Server 2019.
+> La mise en miroir SQL est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de clusters de basculement AlwaysOn (ICF) et les méthodes de cluster de basculement SQL sont les seules options prises en charge par Skype entreprise Server 2019.
     
 La mise en miroir de base de données asynchrone n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype entreprise Server. Dans le reste du document, sauf mention explicite, la mise en miroir sous-entend une mise en miroir synchrone. 
   
