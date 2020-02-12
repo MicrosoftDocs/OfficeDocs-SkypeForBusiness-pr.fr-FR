@@ -1,53 +1,77 @@
 ### YamlMime:Hub
-title: Documentation technique de Microsoft Teams
-summary: Documentation technique de Microsoft Teams
+title: Documentation d’administration de Microsoft teams
+summary: Apprenez à déployer et à gérer Teams, et à préparer vos utilisateurs pour teams
 brand: teams
 metadata:
-  title: Documentation technique de Microsoft Teams
-  description: Documentation technique de Microsoft Teams
+  title: Documentation d’administration de Microsoft teams
+  description: Apprenez à déployer et à gérer Teams, et à préparer vos utilisateurs pour teams
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
-  ms.date: 07/03/2019
+  ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
-  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
+  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "41889423"
+  ms.lasthandoff: 02/12/2020
+  ms.locfileid: "41953795"
+highlightedContent:
+  items:
+  - title: Procédure de déploiement de Teams
+    itemType: deploy
+    url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: Trouver une formation pour vous et vos utilisateurs
+    itemType: learn
+    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+  - title: Mise à niveau de Skype Entreprise vers Teams
+    itemType: overview
+    url: /MicrosoftTeams/upgrade-start-here
+  - title: Hub d’adoption
+    itemType: get-started
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: Affiches et solutions pour l’architecture informatique
+    itemType: architecture
+    url: /MicrosoftTeams/teams-architecture-solutions-posters
+  - title: Commencez ici si vous êtes nouveau dans teams
+    itemType: quickstart
+    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
-  - title: Pour les professionnels de l’informatique
-    items:
-    - title: Bienvenue dans Teams
-      summary: Obtenez une vue d’ensemble des équipes et trouvez les conseils techniques dont vous avez besoin en tant qu’administrateur d’équipes ou professionnel de l’informatique.
-      url: /MicrosoftTeams/teams-overview
-    - title: Mise à niveau de Skype Entreprise vers Teams
-      summary: Trouvez des conseils et des outils pour découvrir votre chemin optimal vers Teams.
-      url: /MicrosoftTeams/upgrade-start-here
-    - title: Hub d’adoption
-      summary: Obtenez des outils pour soutenir votre déploiement d’équipes.
-      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-    - title: Rechercher des formations et des vidéos
-      summary: Obtenez des formations en équipe-pour vous et vos utilisateurs.
-      url: /MicrosoftTeams/training-microsoft-teams-landing-page
-    - title: 'Posters : Architecture Teams, solutions de téléphonie'
-      summary: Profitez d’illustrations imprimables d’architecture informatique et de solutions de téléphonie.
-      url: /microsoftteams/teams-architecture-solutions-posters
-    - title: Développer Teams au sein de votre organisation
-      summary: Trouvez des solutions personnalisées pour votre secteur, y compris la santé, les travailleurs terrain, le détail, le gouvernement et l’éducation.
-      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
-  - title: Pour les autres participants.
-    items:
-    - title: Communauté technique Teams
-      summary: Rejoignez la communauté des technologies technologiques teams pour poser des questions et obtenir des réponses, et pour lire le blog Teams.
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-    - title: Aide de l’utilisateur final Teams
-      summary: Accédez à aide, formation et nouveau contenu pour les utilisateurs finaux.
-      url: https://support.office.com/Teams
-    - title: Plateforme de développeurs Teams
-      summary: Apprenez-en davantage sur la plateforme de développement d’équipes et sur la façon de créer des applications utiles et puissantes.
-      url: /microsoftteams/platform/overview
+  - items:
+    - title: Principaux Articles
+      links:
+      - text: Préparer votre réseau pour teams
+        url: /MicrosoftTeams/prepare-network
+      - text: Utiliser le conseiller pour les équipes pour vous aider à déployer des équipes
+        url: /MicrosoftTeams/use-advisor-teams-roll-out
+      - text: Utilisation de la mémoire par teams
+        url: /MicrosoftTeams/teams-memory-usage-perf
+      - text: Communiquer avec des utilisateurs d’autres organisations (accès invité/externe)
+        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+      - text: Sécurité et conformité dans teams
+        url: /MicrosoftTeams/security-compliance-overview
+    - title: Appels vocaux avec teams
+      links:
+      - text: Appel vocal dans le nuage dans Microsoft Teams
+        url: /MicrosoftTeams/cloud-voice-landing-page
+      - text: Microsoft 365 pour les PME
+        url: /MicrosoftTeams/business-voice/whats-business-voice
+      - text: Routage direct via le système téléphonique
+        url: /MicrosoftTeams/direct-routing-landing-page
+      - text: Configuration des téléphones de zone commune
+        url: /MicrosoftTeams/set-up-common-area-phones
+    - title: Davantage de contenus d’équipes
+      links:
+      - text: Contenu de l’aide pour les utilisateurs finaux
+        url: https://support.office.com/Teams
+      - text: Communauté technique Teams
+        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+      - text: Forum de commentaires des utilisateurs teams
+        url: https://microsoftteams.uservoice.com/
+      - text: Informations sur le produit teams
+        url: https://products.office.com/microsoft-teams/group-chat-software
+      - text: Plateforme de développeurs Teams
+        url: https://docs.microsoft.com/microsoftteams/platform/overview
