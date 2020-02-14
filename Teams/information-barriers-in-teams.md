@@ -15,16 +15,16 @@ f1.keywords:
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836644"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962133"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
-Les barrières en informations sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. Cela peut s’avérer utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
+Les barrières d’information (IB) sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. Cela peut s’avérer utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
 
 > [!NOTE]
 > - Les groupes de barrière d’information ne peuvent pas être créés entre des clients.
@@ -96,7 +96,7 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
 
 ## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Les fichiers et les expériences de site SharePoint connectés à teams respectent-elles la politique IB ?
  
-Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à l’équipe pour l’interface des fichiers. L’accès à ce site SharePoint et aux fichiers respecte la stratégie IB de l’organisation, c’est-à-dire que seuls les utilisateurs pour lesquels le segment IB correspond à une stratégie IB sont autorisés à y accéder. Même au moment du partage de fichiers, la stratégie IB est honorée.
+Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à l’équipe pour l’interface des fichiers. L’accès à ce site SharePoint et aux fichiers respecte la préversion de l’organisation, c’est-à-dire que seuls les utilisateurs pour lesquels le segment IB correspond à une stratégie IB sont autorisés à y accéder. Même au moment du partage de fichiers, la stratégie IB est honorée.
 
 Par exemple : dans contoso Bank Corporation, l’utilisateur’Sesha@contosobank.onmicrosoft.com’appartient au segment bancaire d’investissement et l’utilisateur’Nikita@contosobank.onmicrosoft.com’appartient à un avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Lorsque l’utilisateur Sesha crée une équipe pour un segment de services d’investissement, l’équipe et le site SharePoint qui la replaceront ne seront accessibles qu’aux utilisateurs de segments bancaires d’investissement. L’utilisateur Nikita ne peut pas accéder à ce site, même s’il possède le lien de site.
 
@@ -104,7 +104,7 @@ Par exemple : dans contoso Bank Corporation, l’utilisateur’Sesha@contosoban
 
 Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les barrières d’information, voir [barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
