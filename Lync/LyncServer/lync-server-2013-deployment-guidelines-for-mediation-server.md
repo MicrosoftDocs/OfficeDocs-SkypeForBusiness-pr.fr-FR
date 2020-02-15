@@ -12,20 +12,20 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Recommandations en matière de déploiement pour le serveur de médiation dans Lync Server 2013
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instructions de déploiement pour le serveur de médiation dans Lync Server 2013
 
 </div>
 
@@ -37,59 +37,59 @@ ms.locfileid: "41762672"
 
 _**Dernière modification de la rubrique :** 2012-10-12_
 
-Cette rubrique décrit les recommandations en matière de planification pour le déploiement de médiation Server. Après avoir examiné ces recommandations, nous vous conseillons d’utiliser l’outil de planification pour créer et afficher des topologies de remplacement possibles, qui peuvent servir de modèles pour la topologie de déploiement finale que vous décidez de déployer.
+Cette rubrique décrit les instructions de planification pour le déploiement d’un serveur de médiation. Après avoir examiné ces instructions, nous vous recommandons d’utiliser l’outil de planification pour créer et afficher d’autres topologies possibles, qui peuvent servir de modèles pour ce que la topologie personnalisée finale que vous décidez de déployer ressemblerait.
 
 <div>
 
-## <a name="collocated-or-stand-alone-mediation-server"></a>Serveur de médiation autonome ou colocalisé
+## <a name="collocated-or-stand-alone-mediation-server"></a>Serveur de médiation colocalisé ou autonome ?
 
-Le serveur de médiation est par défaut colocalisé sur le serveur principal ou le serveur frontal standard dans un pool frontal de sites centraux. Le nombre d’appels RTC (réseau téléphonique commuté) pouvant être gérés et le nombre d’ordinateurs requis dans le pool dépendront des éléments suivants :
+Le serveur de médiation est colocalisé par défaut sur le serveur Standard Edition Server ou frontal dans un pool frontal sur les sites centraux. Le nombre d’appels RTC (réseau téléphonique commuté) pouvant être gérés et le nombre d’ordinateurs requis dans le pool dépendent des éléments suivants :
 
-  - Nombre d’homologues de passerelle que le pool de serveurs de médiation contrôle
+  - Le nombre d’homologues de passerelle contrôlés par le pool de serveurs de médiation ;
 
-  - des périodes de trafic aux heures de pointe via ces passerelles ;
+  - Les périodes de trafic à haut volume via ces passerelles ;
 
-  - Pourcentage d’appels dont le média ignore le serveur de médiation
+  - Le pourcentage d’appels qui sont des appels dont le média contournent le serveur de médiation.
 
-Lors de la planification, veillez à prendre en compte les exigences de traitement multimédia pour les appels RTC et les conférences A/V qui ne sont pas configurées pour le recours au contenu multimédia, ainsi que le traitement requis pour gérer les interactions de signalisation en fonction du nombre d’appels vers des heures de disponibilité qui doivent être pris en charge. S’il n’y a pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. les passerelles RTC, IP PBX et SBCs doivent être divisées en sous-ensembles contrôlés par les serveurs de médiation colocalisés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
+Lors de la planification, veillez à prendre en compte les exigences en matière de traitement des médias pour les appels PSTN et les conférences A/V qui ne sont pas configurées pour la déviation du trafic multimédia, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels d’heure de pointe qui doivent être pris en charge. S’il n’y a pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation ; les passerelles PSTN, IP-PBX et SBCs doivent être divisées en sous-ensembles contrôlés par les serveurs de médiation colocalisés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
 
-Si vous avez déployé des passerelles RTC, des PBX IP ou des contrôleurs de frontière de session (SBCs) qui ne prennent pas en charge les fonctionnalités appropriées pour interagir avec un pool de serveurs de médiation, y compris les suivants, ils devront être associés à un pool autonome composé de d’un serveur de médiation unique :
+Si vous avez déployé des passerelles PSTN, des systèmes IP-PBX ou des contrôleurs de frontière de session (SBC) qui ne prennent pas en charge les fonctionnalités correctes pour interagir avec un pool de serveurs de médiation, y compris les éléments suivants, ils devront être associés à un pool autonome composé d’un serveur de médiation unique :
 
-  - Effectuer l’équilibrage de charge DNS (Layer Domain Name System) entre les serveurs de médiation d’un pool (ou sinon, le trafic est uniformément routé vers tous les serveurs de médiation d’un pool)
+  - Effectuer l’équilibrage de charge DNS (Domain Name System) de couche réseau entre les serveurs de médiation d’un pool (ou acheminer uniformément le trafic de manière uniforme vers tous les serveurs de médiation d’un pool)
 
-  - Accepter le trafic de n’importe quel serveur de médiation dans un pool
+  - Accepter le trafic d’un serveur de médiation dans un pool
 
-Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour déterminer si collocating du serveur de médiation avec votre pool frontal peut gérer le chargement. Si votre environnement ne peut pas répondre à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
+Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour évaluer si colocaliser le serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne remplit pas les conditions requises, vous devez alors déployer un pool de serveurs de médiation autonome.
 
 </div>
 
 <div>
 
-## <a name="central-site-and-branch-site-considerations"></a>Aspects relatifs au site central et aux sites de succursale
+## <a name="central-site-and-branch-site-considerations"></a>Considérations relatives au site central et aux sites de succursale
 
-Les serveurs de médiation sur le site central peuvent être utilisés pour acheminer les appels pour les PBX IP ou les passerelles RTC dans les sites de succursale. Toutefois, si vous déployez des Trunks SIP, vous devez déployer un serveur de médiation sur le site où chaque Trunk est arrêté. Le fait de disposer d’un serveur de médiation au niveau du site central pour les appels pour un PBX IP ou une passerelle RTC sur un site de succursale ne nécessite pas l’utilisation de la fonctionnalité de contournement de média. Toutefois, si vous pouvez activer la dérivation multimédia, cela réduit la latence du chemin multimédia et, par conséquent, entraîne une meilleure qualité multimédia, car le chemin multimédia n’est plus nécessaire pour suivre le chemin d’accès de signalisation. La déviation du trafic multimédia réduira également la charge de traitement sur le pool.
+Les serveurs de médiation sur le site central peuvent être utilisés pour router les appels sur les sites de succursale pour les passerelles PSTN ou les IP-PBX. Si vous déployez des jonctions SIP, cependant, vous devez déployer un serveur de médiation sur le site où s’arrête chaque jonction. Le fait de disposer d’un serveur de médiation sur le site central qui route les appels sur un site de succursale pour un IP/PBX ou une passerelle PSTN ne requiert pas l’utilisation du contournement de média. Toutefois, si vous pouvez l’activer, vous pourrez réduire la latence du chemin d’accès des médias et par conséquent, obtenir une qualité des médias améliorée du fait que le chemin d’accès des médias n’est plus nécessaire pour suivre le chemin de signalisation. Le contournement de média réduira également la charge de traitement sur le pool.
 
 <div>
 
 
 > [!NOTE]  
-> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle RTC, système IP-PBX et SBC. Microsoft a testé une série de passerelles RTC et de SBC avec l’aide de partenaires agréés et a réalisé des tests avec les systèmes IP-PBX de Cisco. La dérivation de média est uniquement prise en charge avec les produits et les versions indiqués sur le programme d’interopérabilité d’ouverture de communications unifiées-Lync Server à <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>.
+> Le contournement de média ne fonctionnera pas avec chaque passerelle PSTN, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à.
 
 
 
 </div>
 
-Si la résilience du site de succursale est requise, il est nécessaire d’avoir une branche ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle dans le site de succursale. (L’hypothèse de la résilience du site de succursale est que la présence et les conférences ne sont pas résilientes sur le site.) Pour obtenir des instructions sur la planification du site de succursale pour les appels vocaux, voir [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+Si la résistance de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle doit être déployé sur le site de succursale. (L’hypothèse de résistance de site de succursale est que la présence et la Conférence ne sont pas résilientes sur le site.) Pour obtenir des conseils sur la planification de site de succursale pour la voix, voir [Planning for Branch-site Voice Resiliency in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
-S’il s’agit d’interactions avec un PBX IP, si ce n’est 3960 pas le cas, vous pouvez découper les premiers mots du message d’accueil pour les appels entrants du PBX IP vers les points de terminaison de Lync. Ce comportement peut être plus sérieux si un serveur de médiation sur un site central effectue le routage des appels pour un PBX IP à l’endroit où l’itinéraire se termine sur un site de succursale, car une plus grande période est nécessaire pour que le signalement s’exécute. Si vous subissez ce comportement, le déploiement d’un serveur de médiation sur le site de la succursale est le seul moyen de réduire l’écrêtage des premiers mots.
+Pour les interactions avec un système IP-PBX, si le système IP-PBX ne prend pas correctement en charge les interactions de médias précoces avec plusieurs boîtes de dialogue précoces et RFC 3960, il peut y avoir un découpage des premiers mots du message d’accueil pour les appels entrants depuis le PBX IP vers des points de terminaison Lync. Ce comportement peut s’aggraver si un serveur de médiation sur le site central achemine les appels pour un IP-PBX là où s’arrête l’itinéraire sur un site de succursale, car la signalisation a besoin de plus de temps pour se terminer. Si vous êtes confronté à ce problème, le déploiement d’un serveur de médiation sur le site de succursale constitue le seul moyen de réduire le découpage des premiers mots.
 
-Enfin, si votre site central possède un PBX TDM ou si votre PBX IP n’élimine pas la nécessité d’une passerelle RTC, vous devez déployer une passerelle sur l’itinéraire d’appel connexion du serveur de médiation et du PBX.
+Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne supprime pas le besoin d’une passerelle PSTN, vous devez alors déployer une passerelle sur l’itinéraire d’appel qui se connecte au serveur de médiation et au PBX.
 
 <div>
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, activez RSS (Receive-Side Scaling) sur les cartes réseau de ces serveurs. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section « améliorations apportées à l’échelle de <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>réception dans Windows Server ». Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l' <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>évolutivité côté réception dans Windows Server » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 

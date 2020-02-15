@@ -12,20 +12,20 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bc3e644955a59515334a30fdf974db6c90d3f33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Planifier les fonctionnalités de gestion des appels dans Lync Server 2013
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Planification des fonctionnalités de gestion des appels dans Lync Server 2013
 
 </div>
 
@@ -37,24 +37,24 @@ ms.locfileid: "41754624"
 
 _**Dernière modification de la rubrique :** 2012-12-17_
 
-Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes :
+Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la façon dont le système achemine les appels entrants et y répond. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes :
 
   - **Parcage d’appel** : permet aux utilisateurs des communications vocales de parquer temporairement un appel, puis de le reprendre sur le même téléphone ou un autre téléphone.
 
-  - **Prise d’appel de groupe** : permet à un utilisateur de la fonctionnalité audio de prendre un appel qui sonne pour un autre utilisateur de la fonctionnalité audio membre d’un groupe de prise d’appel.
+  - **Collecte de groupe**: permet aux utilisateurs de la voix de prendre des appels qui sonnent pour d’autres utilisateurs vocaux affectés à des groupes de prise d’appel.
     
     <div>
     
 
     > [!NOTE]  
-    > La cueillette de groupe est une nouveauté avec des mises à jour cumulatives pour Lync Server 2013:2013 février.
+    > La collecte de groupe est une nouveauté avec des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
     
     </div>
 
-  - **Response Group** : achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche, ou de questions et réponses IVR (réponse vocale interactive).
+  - **Response Group**: achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche ou de questions et réponses de réponse vocale interactive (IVR).
 
-  - **Annonce :**    lit un message pour les appels passés à un numéro non attribué, ou route l’appel à un autre endroit, ou les deux.
+  - **Annonce :**    lit un message pour les appels passés à un numéro non attribué ou achemine l’appel ailleurs, ou les deux.
 
 Si vous prévoyez de déployer Voix Entreprise, vous pouvez choisir d’implémenter une partie ou l’ensemble de ces fonctionnalités de gestion des appels.
 
@@ -64,7 +64,7 @@ Si vous prévoyez de déployer Voix Entreprise, vous pouvez choisir d’implém
 
   - [Planification du parcage d’appel dans Lync Server 2013](lync-server-2013-planning-for-call-park.md)
 
-  - [Planification de la capture des appels de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)
+  - [Planification de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)
 
   - [Planification des groupes Response Group dans Lync Server 2013](lync-server-2013-planning-for-response-groups.md)
 

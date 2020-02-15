@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de la résistance vocale du site central'
+title: 'Lync Server 2013 : planification de la résistance vocale du site central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11f1f6a44530bbb6bdabde4f39b3e63bd0b5c1c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41754354"
 
 _**Dernière modification de la rubrique :** 2013-10-30_
 
-De plus en plus d’entreprises ont plusieurs sites basés dans le monde entier. La mise à jour des services d’urgence, l’accès au support technique et la possibilité d’effectuer des tâches professionnelles critiques quand un site central est hors service est essentiel pour toute solution de résilience vocale d’entreprise. Quand un site central devient indisponible, les conditions suivantes doivent être remplies :
+De plus en plus d’entreprises ont plusieurs sites basés dans le monde entier. La maintenance des services d’urgence, l’accès au support technique et la possibilité d’effectuer des tâches professionnelles critiques lorsqu’un site central est inaccessible sont essentielles pour toute solution de résistance vocale d’entreprise. Quand un site central devient indisponible, les conditions suivantes doivent être remplies :
 
   - Le basculement vocal doit être fourni.
 
-  - Les utilisateurs qui s’inscrivent habituellement avec le pool frontal sur le site central doivent pouvoir s’inscrire avec un autre pool frontal. Pour ce faire, vous pouvez créer plusieurs enregistrements SRV DNS, chacun d’eux résolu vers un pool de directeurs ou un pool frontal dans chacun de vos sites centraux. Vous pouvez ajuster la priorité et le poids des enregistrements SRV de telle sorte que les utilisateurs qui sont servis par ce site central obtiennent le directeur et la liste frontale correspondants dans d’autres enregistrements SRV.
+  - Les utilisateurs qui s’inscrivent généralement auprès du pool frontal sur le site central doivent être en mesure de s’inscrire auprès d’un autre pool frontal. Pour ce faire, vous pouvez créer plusieurs enregistrements SRV DNS, chacun d’eux résolu en un pool directeur ou un pool frontal dans chacun de vos sites centraux. Vous pouvez ajuster la priorité et les pondérations des enregistrements SRV afin que les utilisateurs qui sont pris en charge par ce site central obtiennent le directeur et le pool frontal correspondants avant ceux d’autres enregistrements SRV.
 
   - Les appels pour et par les utilisateurs situés sur d’autres sites doivent être réacheminés vers le RTC.
 
@@ -51,7 +51,7 @@ Cette rubrique décrit la solution recommandée pour sécuriser la résistance v
 
 ## <a name="architecture-and-topology"></a>Architecture et topologie
 
-La planification de la résilience vocale sur un site central nécessite une connaissance de base du rôle central joué par le Bureau d’enregistrement 2013 du serveur Lync en activant le basculement sur voix. Lync Server Registrar est un rôle serveur qui permet l’inscription et l’authentification du client et fournit les services de routage. Il se trouve avec d’autres composants sur un serveur Standard Edition, un serveur frontal, un directeur ou une branche Survivable. Un pool d’bureaux d’enregistrement est constitué de services d’enregistrement de registre en cours d’exécution sur le pool frontal et résidant sur le même site. Le pool frontal doit être équilibré. L’équilibrage de charge DNS est recommandé, mais l’équilibrage de charge matérielle est acceptable. Un client Lync Découvre le pool frontal par le biais du mécanisme de découverte suivant :
+La planification de la résistance des communications vocales dans un site central nécessite une connaissance de base du rôle central joué par le serveur d’inscriptions Lync Server 2013 pour activer le basculement vocal. Le serveur d’inscriptions Lync Server est un rôle de serveur qui permet l’enregistrement et l’authentification du client et fournit des services de routage. Il réside avec d’autres composants sur un serveur Standard Edition, un serveur frontal, un directeur ou un Survivable Branch appliance. Un pool de serveurs d’inscriptions se compose de services de serveur d’inscriptions s’exécutant sur le pool frontal et résidant sur le même site. Le pool frontal doit être équilibré en charge. L’équilibrage de la charge DNS est recommandé, mais l’équilibrage de la charge matérielle est acceptable. Un client Lync Découvre le pool frontal via le mécanisme de découverte suivant :
 
 1.  Enregistrement DNS SRV
 
@@ -59,34 +59,34 @@ La planification de la résilience vocale sur un site central nécessite une con
 
 3.  Option DHCP 120
 
-Lorsque le client Lync se connecte au pool frontal, il est dirigé par le biais de l’équilibrage de charge vers l’un des serveurs frontaux de la liste. Ce serveur frontal, à son tour, redirige le client vers un bureau d’enregistrement préféré dans le pool.
+Une fois que le client Lync se connecte au pool frontal, il est dirigé par l’équilibreur de charge vers l’un des serveurs frontaux du pool. Ce serveur frontal, à son tour, redirige le client vers un serveur d’inscriptions préféré dans le pool.
 
-Chaque utilisateur activé pour voix entreprise est attribué à un pool d’bureaux d’enregistrement particulier, lequel devient le pool d’inscriptions principal de cet utilisateur. Sur un site donné, des centaines voire des milliers d’utilisateurs partagent généralement un seul pool de serveurs d’inscriptions principal. Pour calculer la consommation des ressources du site central par les utilisateurs de site de succursale qui recourent au site central pour accéder aux fonctionnalités de présence, de conférence ou de basculement, nous vous conseillons de considérer chaque utilisateur de site de succursale comme s’il était inscrit sur le site central. Il n’existe actuellement aucune limite sur le nombre d’utilisateurs de sites de succursales, y compris les utilisateurs enregistrés auprès d’une unité de succursale Survivable.
+Chaque utilisateur activé pour voix entreprise est affecté à un pool de serveurs d’inscriptions particulier, qui devient le pool de serveurs d’inscriptions principal de cet utilisateur. Sur un site donné, des centaines voire des milliers d’utilisateurs partagent généralement un seul pool de serveurs d’inscriptions principal. Pour calculer la consommation des ressources du site central par les utilisateurs de site de succursale qui recourent au site central pour accéder aux fonctionnalités de présence, de conférence ou de basculement, nous vous conseillons de considérer chaque utilisateur de site de succursale comme s’il était inscrit sur le site central. Il n’existe actuellement aucune limite au nombre d’utilisateurs de site de succursale, y compris les utilisateurs enregistrés avec un Survivable Branch appliance.
 
-Pour garantir la résistance vocale en cas de défaillance du site central, le pool de serveurs d’inscriptions principal doit avoir un pool de serveurs d’inscriptions de sauvegarde associé, situé sur un autre site. La sauvegarde peut être configurée à l’aide des paramètres de résilience du générateur de topologie. S’il existe une liaison réseau étendu résistante entre les deux sites, les utilisateurs dont le pool de serveurs d’inscriptions principal n’est plus disponible sont automatiquement dirigés vers le pool de serveurs d’inscriptions de sauvegarde.
+Pour garantir la résistance vocale en cas de défaillance du site central, le pool de serveurs d’inscriptions principal doit avoir un pool de serveurs d’inscriptions de sauvegarde associé, situé sur un autre site. La sauvegarde peut être configurée à l’aide des paramètres de résistance du générateur de topologie. S’il existe une liaison réseau étendu résistante entre les deux sites, les utilisateurs dont le pool de serveurs d’inscriptions principal n’est plus disponible sont automatiquement dirigés vers le pool de serveurs d’inscriptions de sauvegarde.
 
 Les étapes suivantes décrivent le processus de découverte et d’inscription des clients :
 
-1.  Un client Découvre Lync Server via les enregistrements DNS SRV. Dans Lync Server 2013, les enregistrements DNS SRV peuvent être configurés pour renvoyer plusieurs FQDN vers la requête DNS SRV. Par exemple, si l’entreprise Contoso possède trois sites centraux (Amérique du Nord, Europe et Asie-Pacifique) et un pool directeur sur chaque site central, les enregistrements DNS SRV peuvent pointer vers les noms de domaine complets du pool directeur sur chacun des trois sites. Tant que le pool de directeurs dans l’un des emplacements est disponible, le client peut se connecter au premier serveur Lync tronçon.
+1.  Un client identifie Lync Server par le biais des enregistrements SRV DNS. Dans Lync Server 2013, les enregistrements DNS SRV peuvent être configurés pour renvoyer plus d’un nom de domaine complet à la requête SRV DNS. Par exemple, si l’entreprise Contoso possède trois sites centraux (Amérique du Nord, Europe et Asie-Pacifique) et un pool directeur sur chaque site central, les enregistrements DNS SRV peuvent pointer vers les noms de domaine complets du pool directeur sur chacun des trois sites. Tant que le pool directeur de l’un des emplacements est disponible, le client peut se connecter au premier tronçon Lync Server.
     
     <div>
     
 
     > [!NOTE]  
-    > L’utilisation d’un pool de directeurs est facultative. Un pool frontal peut être utilisé à la place.
+    > L’utilisation d’un pool directeur est facultative. Un pool frontal peut être utilisé à la place.
 
     
     </div>
 
-2.  Le pool de répertoires informe le client Lync sur le pool d’inscriptions principal de l’utilisateur et le pool d’inscriptions de sauvegarde.
+2.  Le pool Directeur informe le client Lync sur le pool de serveurs d’inscriptions principal de l’utilisateur et le pool de serveurs d’inscriptions de sauvegarde.
 
-3.  Le client Lync tente d’abord de se connecter au pool d’inscriptions principal de l’utilisateur. Si le pool de serveurs d’inscriptions principal est disponible, le serveur d’inscriptions accepte l’inscription. Si le pool d’inscriptions principal n’est pas disponible, le client Lync tente de se connecter au pool d’inscriptions de sauvegarde. Si le pool de serveurs d’inscriptions de sauvegarde est disponible et a déterminé que le pool de serveurs d’inscriptions principal de l’utilisateur est indisponible (en détectant un manque de pulsations pendant l’intervalle de basculement spécifié), le pool de serveurs d’inscriptions de sauvegarde accepte l’inscription de l’utilisateur. Après que le Bureau d’enregistrement de la sauvegarde a détecté que le Bureau d’enregistrement principal est de nouveau disponible, le pool d’inscriptions de sauvegarde redirigera les clients Lync de basculement vers leur pool principal.
+3.  Le client Lync tente d’abord de se connecter au pool de serveurs d’inscriptions principal de l’utilisateur. Si le pool de serveurs d’inscriptions principal est disponible, le serveur d’inscriptions accepte l’inscription. Si le pool de serveurs d’inscriptions principal n’est pas disponible, le client Lync tente de se connecter au pool de serveurs d’inscriptions de sauvegarde. Si le pool de serveurs d’inscriptions de sauvegarde est disponible et a déterminé que le pool de serveurs d’inscriptions principal de l’utilisateur est indisponible (en détectant un manque de pulsations pendant l’intervalle de basculement spécifié), le pool de serveurs d’inscriptions de sauvegarde accepte l’inscription de l’utilisateur. Une fois que le serveur d’inscriptions de sauvegarde détecte que le serveur d’inscriptions principal est de nouveau disponible, le pool de serveurs d’inscriptions de sauvegarde redirige les clients Lync de basculement vers leur pool principal.
 
-La figure suivante illustre la topologie recommandée pour garantir la résilience du site central. Les deux sites sont connectés à l’aide d’une liaison réseau étendu fiable. Si le site central devient indisponible, les utilisateurs qui sont affectés à ce pool sont dirigés vers le site de sauvegarde pour inscription.
+La figure suivante présente la topologie recommandée pour la résistance du site central. Les deux sites sont connectés par une liaison réseau étendu résistante. Si le site central devient indisponible, les utilisateurs qui sont affectés à ce pool sont dirigés vers le site de sauvegarde pour l’inscription.
 
-**Topologie recommandée pour la résilience vocale d’un site central**
+**Topologie recommandée pour la résistance vocale du site central**
 
-![Topologie pour les appels vocaux de site resliency](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie pour les appels vocaux de site resliency")
+![Topologie pour les communications vocales du site la résilience](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie pour les communications vocales du site la résilience")
 
 </div>
 
@@ -96,21 +96,21 @@ La figure suivante illustre la topologie recommandée pour garantir la résilien
 
 Les conditions préalables et recommandations suivantes, relatives à l’implémentation de la résistance vocale du site central, sont appropriées à la plupart des organisations :
 
-  - Les sites où se trouvent les pools de serveurs d’inscriptions principaux et de sauvegarde doivent être connectés par une liaison réseau étendu résistante.
+  - Les sites où résident les pools de serveurs d’inscriptions principaux et de sauvegarde doivent être connectés par une liaison réseau étendu résistante.
 
   - Chaque site central doit contenir un pool de serveurs d’inscriptions comprenant un ou plusieurs serveurs d’inscriptions.
 
-  - La charge de chaque pool de serveurs d’inscriptions doit être équilibrée via l’équilibrage de la charge DNS, l’équilibrage de la charge matérielle ou les deux. Pour plus d’informations sur la planification de la configuration de l’équilibrage de charge, voir [Configuration requise pour l’équilibrage de charge pour Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+  - La charge de chaque pool de serveurs d’inscriptions doit être équilibrée à l’aide de l’équilibrage de charge DNS, de l’équilibrage de charge matérielle ou des deux. Pour plus d’informations sur la planification de votre configuration d’équilibrage de charge, voir [Load Balancing Requirements for Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
-  - Chaque utilisateur doit être affecté à un pool d’inscriptions principal en utilisant l’applet **de commande Set-Csuser** de Lync Server Management Shell ou le panneau de configuration de Lync Server.
+  - Chaque utilisateur doit être affecté à un pool de serveurs d’inscriptions principal à l’aide de la cmdlet **Set-Csuser** de Lync Server Management Shell ou du panneau de configuration Lync Server.
 
   - Le pool de serveurs d’inscriptions principal doit être associé à un pool de serveurs d’inscriptions de sauvegarde situé sur un autre site central.
 
-  - Le pool de serveurs d’inscriptions principal doit être configuré pour basculer vers le pool de serveurs d’inscriptions de sauvegarde. Par défaut, le serveur d’inscriptions principal est configuré pour basculer vers le pool de serveurs d’inscriptions de sauvegarde après 300 secondes. Vous pouvez modifier cet intervalle à l’aide du générateur de topologie Lync Server 2013.
+  - Le pool de serveurs d’inscriptions principal doit être configuré pour basculer vers le pool de serveurs d’inscriptions de sauvegarde. Par défaut, le serveur d’inscriptions principal est configuré pour basculer vers le pool de serveurs d’inscriptions de sauvegarde au bout de 300 secondes. Vous pouvez modifier cet intervalle à l’aide du générateur de topologies Lync Server 2013.
 
-  - Configurez un itinéraire de basculement, comme décrit dans la rubrique «[configuration d’un itinéraire de basculement dans Lync Server 2013](lync-server-2013-configuring-a-failover-route.md)» de la documentation de planification. Lors de la configuration de l’itinéraire, spécifiez une passerelle située sur un autre site que la passerelle définie dans l’itinéraire principal.
+  - Configurez un itinéraire de basculement, comme décrit dans la rubrique «[configuration d’un itinéraire de basculement dans Lync Server 2013](lync-server-2013-configuring-a-failover-route.md)» dans la documentation de planification. Lors de la configuration de l’itinéraire, spécifiez une passerelle située sur un autre site que la passerelle définie dans l’itinéraire principal.
 
-  - Si le site central contient votre serveur de gestion principal et qu’il est susceptible d’être indisponible pendant une longue période, vous devez réinstaller vos outils de gestion sur le site de sauvegarde ; sinon, vous ne pourrez pas modifier vos paramètres de gestion.
+  - Si le site central contient votre serveur de gestion principal et qu’il est susceptible d’être indisponible pendant une longue période, vous devez réinstaller vos outils de gestion sur le site de sauvegarde ; sinon, vous ne pourrez pas modifiez vos paramètres de gestion.
 
 </div>
 
@@ -118,7 +118,7 @@ Les conditions préalables et recommandations suivantes, relatives à l’implé
 
 ## <a name="dependencies"></a>Dépendances
 
-Le serveur Lync dépend de l’infrastructure et des composants logiciels suivants pour garantir la résilience vocale :
+Lync Server dépend des composants logiciels et d’infrastructure suivants pour garantir la résistance vocale :
 
 
 <table>
@@ -129,23 +129,23 @@ Le serveur Lync dépend de l’infrastructure et des composants logiciels suivan
 <tbody>
 <tr class="odd">
 <td><p><strong>Composant</strong></p></td>
-<td><p><strong>Fonction</strong></p></td>
+<td><p><strong>Dysfonctionnement</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>DNS</p></td>
 <td><p>Résolution des enregistrements SRV et des enregistrements A pour la connectivité serveur-serveur et serveur-client</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange et services web Exchange (EWS)</p></td>
+<td><p>Exchange et services Web Exchange (EWS)</p></td>
 <td><p>Stockage des contacts ; données de calendrier</p></td>
 </tr>
 <tr class="even">
-<td><p>Messagerie unifiée Exchange et services web Exchange</p></td>
+<td><p>Messagerie unifiée Exchange et services Web Exchange</p></td>
 <td><p>Journaux des appels, liste des messages vocaux, messagerie vocale</p></td>
 </tr>
 <tr class="odd">
 <td><p>Options DHCP 120</p></td>
-<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cette opération fonctionne, un serveur DHCP doit être configuré ou le protocole DHCP Lync Server 2013 doit être activé. Pour plus d’informations, consultez la configuration matérielle et logicielle requise pour la résilience de site pour les filiales dans la section Configuration de la <a href="lync-server-2013-branch-site-resiliency-requirements.md">résilience de site pour Lync Server 2013</a> .</p></td>
+<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cela fonctionne, un serveur DHCP doit être configuré ou Lync Server 2013 DHCP doit être activé. Pour plus d’informations, voir Configuration matérielle et logicielle requise pour la résistance des sites de succursale dans la section <a href="lync-server-2013-branch-site-resiliency-requirements.md">Configuration requise pour la résistance des sites de succursale pour Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -159,17 +159,17 @@ Le serveur Lync dépend de l’infrastructure et des composants logiciels suivan
 
 Si les conditions et recommandations précédentes ont été implémentées, les fonctionnalités vocales suivantes seront fournies par le pool de serveurs d’inscriptions :
 
-  - Appels RTC sortants
+  - Appels PSTN sortants
 
-  - Appels RTC entrants si le fournisseur de services de téléphonie prend en charge le basculement vers un site de sauvegarde
+  - Appels PSTN entrants si le fournisseur de services de téléphonie prend en charge le basculement vers un site de sauvegarde
 
-  - Appels Enterprise entre des utilisateurs situés sur le même site ou sur deux sites différents
+  - Appels Enterprise entre des utilisateurs situés sur le même site ou sur deux sites différents
 
   - Fonctionnalités de base de gestion des appels, dont la mise en attente, la récupération et le transfert
 
-  - Messagerie instantanée entre deux utilisateurs et partage audio et vidéo entre des utilisateurs situés sur le même site
+  - Messagerie instantanée entre deux utilisateurs, et partage audio et vidéo entre des utilisateurs situés sur le même site
 
-  - Services de transfert d’appel, de sonnerie simultanée des points de terminaison, de délégation d’appel et d’appel d’équipe, mais seulement si les deux parties utilisant la délégation d’appel (ou tous les membres de l’équipe) sont configurés sur le même site.
+  - Services de transfert d’appel, de sonnerie simultanée des systèmes d’extrémité, de délégation d’appel et d’appel d’équipe, mais seulement si les deux parties utilisant la délégation d’appel, ou tous les membres de l’équipe, sont configurés sur le même site.
 
   - Les téléphones et clients existants continuent à fonctionner.
 
@@ -185,17 +185,17 @@ En fonction de leur configuration, les fonctionnalités vocales suivantes foncti
     
       - Modifiez les enregistrements DNS SRV pour que les serveurs de messagerie unifiée Exchange situés sur le site central pointent sur les serveurs de messagerie unifiée Exchange de sauvegarde situés sur un autre site.
     
-      - Configurez le plan de numérotation de messagerie unifiée Exchange de chaque utilisateur de manière à inclure les serveurs de messagerie unifiée Exchange à la fois sur le site central et sur le site de sauvegarde, mais définissez les serveurs de messagerie unifiée Exchange Si le site principal devient indisponible, l’administrateur Exchange doit marquer les serveurs Exchange UM sur le site de sauvegarde comme activé.
+      - Configurez le plan de numérotation de messagerie unifiée Exchange de chaque utilisateur pour inclure les serveurs de messagerie unifiée Exchange sur le site central et le site de sauvegarde, mais désignez-le comme désactivé. Si le site principal devient indisponible, l’administrateur Exchange doit marquer les serveurs de messagerie unifiée Exchange sur le site de sauvegarde comme étant activé.
     
-    Si aucune des solutions précédentes n’est possible, la messagerie unifiée Exchange ne sera pas disponible dans l’éventualité où le site central ne sera pas disponible.
+    Si aucune des solutions précédentes n’est possible, la messagerie unifiée Exchange ne sera pas disponible si le site central devient indisponible.
 
-  - Conférence de tout type
+  - Conférence de tous types
     
-    Un utilisateur qui a été basculé vers un site de sauvegarde peut prendre part à une conférence créée ou hébergée par un organisateur dont le pool est disponible, mais ne peut pas créer ni héberger de conférence sur son propre pool principal, qui n’est plus disponible. De même, les autres utilisateurs ne peuvent pas participer aux conférences hébergées sur le pool principal de l’utilisateur concerné.
+    Un utilisateur qui a été basculé vers un site de sauvegarde peut prendre part à une conférence créée ou hébergée par un organisateur dont le pool est disponible, mais ne peut pas créer ni héberger de conférence sur son propre pool principal, qui n’est plus disponible. De même, les autres utilisateurs ne peuvent pas participer aux conférences qui sont hébergées sur le pool principal de l’utilisateur concerné.
 
 Les fonctionnalités vocales suivantes ne fonctionnent pas lorsqu’un site central principal est hors service :
 
-  - Standard automatique de conférence
+  - standard automatique de conférence
 
   - Routage basé sur la présence et DND
 

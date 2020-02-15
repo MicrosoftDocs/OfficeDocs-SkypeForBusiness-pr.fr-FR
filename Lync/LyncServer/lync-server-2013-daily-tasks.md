@@ -1,5 +1,5 @@
 ---
-title: 'Skype Entreprise Server 2015 : tâches quotidiennes'
+title: 'Lync Server 2013 : tâches quotidiennes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Tâches quotidiennes dans Skype Entreprise Server 2015
+# <a name="daily-tasks-in-lync-server-2013"></a>Tâches quotidiennes dans Lync Server 2013
 
 </div>
 
@@ -37,28 +37,28 @@ ms.locfileid: "41728674"
 
 _**Dernière modification de la rubrique :** 2015-01-26_
 
-Pour garantir la disponibilité et la fiabilité du déploiement de Lync Server 2013, vous devez faire partie du moniteur de routine quotidienne et des éléments de test qui sont très importants pour le fonctionnement du système, y compris la plateforme physique, le système d’exploitation et tout service important de Lync Server 2013. La maintenance préventive et la surveillance proactive vous permettent d’identifier les erreurs potentielles et les problèmes susceptibles d’affecter le déploiement de Lync Server 2013.
+Pour garantir la disponibilité et la fiabilité du déploiement de Lync Server 2013, vous devez faire partie de la surveillance de routine quotidienne et des éléments de test qui sont très importants pour le fonctionnement du système, qui inclut la plateforme physique, le système d’exploitation et tous les services Lync Server 2013 importants. La maintenance préventive et la surveillance proactive vous aideront à identifier les erreurs et les problèmes potentiels susceptibles d’avoir un impact négatif sur le déploiement de Lync Server 2013.
 
-L’analyse du déploiement de Lync Server 2013 implique de vérifier les problèmes liés aux connexions, services, ressources serveur et ressources système. Les systèmes d’exploitation Windows Server, avec System Center Operations Manager et Lync Server vous fournissent de nombreux outils et services d’analyse pour vous permettre de vérifier que l’organisation du serveur Lync fonctionne correctement. Lorsque ces technologies sont mises en œuvre conjointement, les administrateurs peuvent recevoir des avertissements lorsque des problèmes se produisent ou avant.
+La surveillance du déploiement de Lync Server 2013 implique de vérifier les problèmes liés aux connexions, aux services, aux ressources du serveur et aux ressources système. Les systèmes d’exploitation Windows Server, ainsi que System Center Operations Manager et Lync Server, vous offrent un grand nombre d’outils et de services de surveillance pour vous aider à garantir le bon fonctionnement de l’organisation Lync Server. Lorsque ces technologies sont implémentées ensemble, les administrateurs peuvent recevoir des alertes quand ou avant des problèmes.
 
-Principaux avantages de la surveillance quotidienne :
+Les principaux avantages de la surveillance quotidienne sont les suivants :
 
-  - Elle permet de répondre aux exigences de performances et de disponibilité des contrats de niveau de service (SLA) définis.
+  - Répondre aux exigences en matière de performances et de disponibilité des SLA définis.
 
-  - Elle permet d’effectuer correctement des tâches d’administration spécifiques, comme les opérations de sauvegarde quotidiennes et la vérification de l’intégrité des serveurs.
+  - Exécution réussie de tâches d’administration spécifiques, telles que les opérations de sauvegarde quotidiennes et la vérification de l’intégrité du serveur.
 
-  - Elle permet de détecter les problèmes, comme des goulets d’étranglement affectant les performances des serveurs ou la nécessité de recourir à des ressources supplémentaires, et de les prendre en compte avant qu’ils affectent la productivité.
+  - Détecter et résoudre les problèmes, tels que les goulots d’étranglement des performances du serveur, ou avoir besoin de ressources supplémentaires avant qu’elles aient une incidence sur la productivité.
 
-Les tâches de maintenance quotidiennes permettent à l’équipe d’administration de définir un critère ou une valeur de référence pour les opérations normales des systèmes dans l’organisation et de détecter les activités anormales. Il est important de mettre en œuvre ces tâches de maintenance quotidienne de sorte que l’équipe d’administration puisse capturer et tenir à jour des données sur l’infrastructure 2013 de Lync Server, telles que des niveaux d’utilisation, des goulets d’étranglement de performance possibles et des changements d’administration.
+Les tâches de maintenance quotidiennes aident l’équipe d’administration à définir ou établir un critère ou une référence pour les opérations système normales au sein de l’organisation et à détecter toute activité anormale. Il est important d’implémenter ces tâches de maintenance quotidiennes afin que l’équipe administrative puisse capturer et gérer les données relatives à l’infrastructure Lync Server 2013, telles que les niveaux d’utilisation, les goulots d’étranglement des performances possibles et les modifications administratives.
 
-Pour faciliter l’organisation des tâches quotidiennes, utilisez la [Liste de contrôle des tâches quotidiennes](lync-server-2013-operations-checklists.md).
+Pour vous aider à organiser les performances des tâches quotidiennes, utilisez la [liste de vérification des tâches quotidiennes](lync-server-2013-operations-checklists.md).
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Liste de contrôle des tâches quotidiennes](lync-server-2013-operations-checklists.md)  
+[Liste de vérification des tâches quotidiennes](lync-server-2013-operations-checklists.md)  
   
 
 </div>

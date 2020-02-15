@@ -12,16 +12,16 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efa0124bb66974755a7cae0ab799dc66cc48fd1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741374"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41741374"
 
 _**Dernière modification de la rubrique :** 2013-03-05_
 
-Lync Server 2013 impose quelques exigences relatives aux communications du client externe, qui sont ensuite transmises aux services Web externes hébergés sur le directeur, le pool de directeurs, le serveur frontal ou le pool frontal. Le proxy inverse est également responsable de la publication du serveur Office Web Apps, si vous proposez des conférences à vos utilisateurs.
+Lync Server 2013 impose quelques exigences sur les communications à partir du client externe, qui sont ensuite transmises aux services Web externes hébergés sur le directeur, le pool Directeur, le serveur frontal ou le pool frontal. Le proxy inverse est également responsable de la publication d’Office Web Apps Server, si vous proposez des conférences à vos utilisateurs.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 ne spécifie pas de proxy inverse particulier que vous devez utiliser. Lync Server 2013 définit uniquement les exigences opérationnelles que le proxy inverse doit pouvoir exécuter. En règle générale, le proxy inverse que vous avez déjà déployé dans votre infrastructure peut être en mesure de répondre aux exigences.
+> Lync Server 2013 ne spécifie pas un proxy inverse particulier que vous devez utiliser. Lync Server 2013 définit uniquement les exigences opérationnelles que le proxy inverse doit être en mesure de faire. En règle générale, le proxy inverse que vous avez déjà déployé dans votre infrastructure peut répondre aux exigences.
 
 
 
@@ -51,31 +51,31 @@ Lync Server 2013 impose quelques exigences relatives aux communications du clien
 
 <div>
 
-## <a name="reverse-proxy-requirements"></a>Configuration requise du proxy inverse
+## <a name="reverse-proxy-requirements"></a>Exigences relatives au proxy inverse
 
-Les opérations fonctionnelles qu’Lync Server 2013 attendent qu’un proxy inverse effectuent :
+Les opérations fonctionnelles que Lync Server 2013 attend qu’un proxy inverse effectuent sont les suivantes :
 
-  - Utiliser le protocole SSL (Secure Socket Layer) et le protocole TLS (Transport Layer Security) implémentés à l’aide de certificats acquis auprès d’une autorité de certification publique pour vous connecter aux services Web externes publiés du directeur, du pool de directeurs, du serveur frontal ou du pool frontal. Le directeur et le serveur frontal peuvent faire partie d’un pool à équilibrage de charge à l’aide d’un dispositif d’équilibrage de la charge matérielle.
+  - Utilisez les protocoles SSL (Secure Socket Layer) et TLS (Transport Layer Security) implémentés à l’aide de certificats acquis auprès d’une autorité de certification publique pour se connecter aux services Web externes publiés du directeur, du pool Directeur, du serveur frontal ou du pool frontal. Le directeur et le serveur frontal peuvent se trouver dans un pool à charge équilibrée à l’aide d’programmes d’équilibrage de la charge matérielle.
 
-  - La possibilité de publier des sites Web internes en utilisant des certificats pour le chiffrement ou de les publier sur une méthode non chiffrée, si nécessaire.
+  - En mesure de publier des sites Web internes à l’aide de certificats pour le chiffrement, ou de les publier sur des moyens non chiffrés, si nécessaire.
 
-  - Peut publier un site Web hébergé en interne en externe à l’aide d’un nom de domaine complet (FQDN).
+  - En mesure de publier un site Web hébergé en interne de façon externe à l’aide d’un nom de domaine complet (FQDN).
 
-  - Capable de publier tout le contenu du site Web hébergé. Par défaut, vous pouvez utiliser la ** / ** directive qui est reconnue par la plupart des serveurs Web afin de dire « publier tout le contenu sur le serveur Web ». Vous pouvez également modifier la directive, par exemple **/Uwca/\***, ce qui signifie « publier tout le contenu sous le répertoire virtuel Ucwa ».
+  - En mesure de publier tout le contenu du site Web hébergé. Par défaut, vous pouvez utiliser la ** / ** directive, qui est reconnue par la plupart des serveurs Web comme signifiant « publier tout le contenu sur le serveur Web ». Vous pouvez également modifier la directive (par exemple, **/Uwca/\***, ce qui signifie « publier tout le contenu sous le répertoire virtuel Ucwa ».
 
-  - Doit être configuré pour exiger des connexions SSL (Secure Sockets Layer) et/ou TLS (Transport Layer Security) avec des clients qui demandent du contenu à partir d’un site Web publié.
+  - Doit être configurable pour exiger des connexions SSL (Secure Sockets Layer) et/ou TLS (Transport Layer Security) avec des clients qui demandent du contenu à partir d’un site Web publié.
 
-  - Doit accepter les certificats avec les entrées de nom de remplacement de l’objet.
+  - Doit accepter les certificats avec des entrées de l’autre nom de l’objet (SAN).
 
-  - Doit être en mesure d’autoriser la liaison d’un certificat à un écouteur ou une interface par le biais duquel le nom de domaine complet des services Web externes sera résolu. Les configurations d’écouteurs sont préférables aux interfaces. De nombreux écouteurs peuvent être configurés sur une même interface ;
+  - Doit pouvoir autoriser la liaison d’un certificat à un écouteur ou une interface par le biais duquel le nom de domaine complet des services Web externes est résolu. Les configurations de l’écouteur sont préférables aux interfaces. De nombreux écouteurs peuvent être configurés sur une seule interface.
 
-  - Doit permettre la configuration de la gestion des en-têtes d’hôte. Dans la plupart des cas, l’en-tête d’hôte d’origine envoyé par le client demandant doit être passé transparent au lieu d’être modifié par le proxy inverse.
+  - Doit autoriser la configuration de la gestion des en-têtes d’hôte. Souvent, l’en-tête d’hôte d’origine envoyé par le client demandeur doit être passé de manière transparente, au lieu d’être modifié par le proxy inverse.
 
-  - Le pontage du trafic SSL et TLS d’un port défini en externe (par exemple, TCP 443) vers un autre port défini (par exemple, TCP 4443). Le proxy inverse risque de déchiffrer le paquet lors de la réception, puis de rechiffrer le paquet lors de l’envoi.
+  - Le pontage du trafic SSL et TLS à partir d’un port défini de manière externe (par exemple, TCP 443) vers un autre port défini (par exemple, TCP 4443). Le proxy inverse peut déchiffrer le paquet lors de sa réception, puis rechiffrer le paquet lors de l’envoi.
 
-  - Pontage du trafic TCP non chiffré d’un port (par exemple, TCP 80) vers un autre (par exemple, TCP 8080).
+  - Le pontage du trafic TCP non chiffré à partir d’un port (par exemple, TCP 80) vers un autre (par exemple, TCP 8080).
 
-  - Autorisez la configuration de ou acceptez l’authentification NTLM, sans authentification et authentification directe.
+  - Autorisez la configuration ou acceptez, l’authentification NTLM, aucune authentification et authentification directe.
 
 </div>
 

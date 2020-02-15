@@ -12,16 +12,16 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e870b68d1252ea5a203b3c334299fb65b6a56512
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0643cf250e00b447bfac8a1b32c2a3038cff139
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41733214"
 
 _**Dernière modification de la rubrique :** 2013-02-18_
 
-Si un serveur exécutant l’un des rôles serveur suivants ne fonctionne pas, suivez la procédure décrite dans cette rubrique pour restaurer le serveur. Si plusieurs serveurs échouent indépendamment, suivez la procédure pour chaque serveur.
+Si un serveur exécutant l’un des rôles serveur suivants échoue, suivez la procédure décrite dans cette rubrique pour restaurer le serveur. Si plusieurs serveurs connaissent une défaillance, appliquez la procédure à chaque serveur.
 
   - serveur frontal
 
-  - serveur de médiation
+  - Serveur de médiation
 
-  - directeur
+  - 48000b
 
   - serveur de conversations permanentes
 
-  - serveur Edge
+  - Serveur Edge
 
 <div>
 
 
 > [!TIP]  
-> Nous vous recommandons de prendre une copie d’image du système avant de commencer la restauration. Vous pouvez utiliser cette image comme point de restauration en cas de problème de restauration. Vous souhaiterez peut-être prendre la copie d’image après l’installation du système d’exploitation et de SQL Server, puis restaurez ou Réinscrivez les certificats.
+> Nous vous recommandons de prendre une copie de l’image du système avant de commencer la restauration. Vous pouvez utiliser cette image comme point de restauration, en cas de problème lors de la restauration. Vous pouvez utiliser la copie d’image après avoir installé le système d’exploitation et SQL Server, et restaurer ou réinscrire les certificats.
 
 
 
@@ -63,32 +63,32 @@ Si un serveur exécutant l’un des rôles serveur suivants ne fonctionne pas, s
 
 ## <a name="to-restore-a-member-server"></a>Pour restaurer un serveur membre
 
-1.  Commencez par un serveur propre ou nouveau qui porte le même nom de domaine complet (FQDN) que le serveur en panne, installez le système d’exploitation, puis restaurez ou Réinscrivez les certificats.
+1.  Démarrez avec un serveur nouveau ou propre qui a le même nom de domaine complet (FQDN) que le serveur défaillant, installez le système d’exploitation, puis restaurez ou Réinscrivez les certificats.
     
     <div>
     
 
     > [!NOTE]  
-    > Pour effectuer cette étape, suivez les procédures de déploiement du serveur de votre organisation.
+    > Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.
 
     
     </div>
 
 2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous au serveur que vous restaurez.
 
-3.  Recherchez le dossier d’installation ou le média de Lync Server et démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de Setup. exe.
+3.  Accédez au dossier ou au support d’installation de Lync Server et démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de amd64 Setup. exe.
 
-4.  Suivez l’Assistant déploiement pour effectuer les opérations suivantes :
+4.  Utilisez l’Assistant Déploiement pour faire ce que suit :
     
-    1.  Exécutez l' **étape 1 : installer le magasin de configuration local** pour installer les fichiers de configuration locaux.
+    1.  Exécutez l’**Étape 1 : Installer le magasin de configurations local** pour installer les fichiers de configuration locaux.
     
-    2.  Exécutez l' **étape 2 : configurer ou supprimer les composants serveur Lync** pour installer le rôle serveur Lync Server.
+    2.  Exécutez l' **étape 2 : installer ou supprimer des composants Lync Server** pour installer le rôle serveur Lync Server.
     
-    3.  Exécutez l' **étape 3 : demandez, installez ou attribuez des certificats** pour attribuer les certificats.
+    3.  Exécuter l’**Étape 3 : Demander, installer ou assigner les certificats** pour assigner les certificats.
     
-    4.  Exécutez l' **étape 4 : démarrer des services** pour démarrer des services sur le serveur.
+    4.  Exécutez l’**Étape 4 : Démarrer les services** pour démarrer les services sur le serveur.
     
-    Pour plus d’informations sur l’exécution de l’Assistant Déploiement, voir la documentation de déploiement pour le rôle de serveur que vous restaurez.
+    Pour plus d’informations sur l’exécution de l’Assistant Déploiement, reportez-vous à la documentation de déploiement du rôle serveur que vous restaurez.
 
 </div>
 

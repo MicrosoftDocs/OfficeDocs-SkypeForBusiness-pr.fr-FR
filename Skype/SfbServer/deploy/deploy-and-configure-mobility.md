@@ -1,5 +1,5 @@
 ---
-title: Déploiement et configuration de la mobilité pour Skype entreprise Server
+title: Déployer et configurer la mobilité pour Skype entreprise Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,188 +11,188 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: Cet article vous guide dans la procédure de configuration d’une installation de Skype entreprise Server existante pour utiliser le service de mobilité et permettre à vos appareils mobiles de profiter des fonctionnalités de mobilité de Skype entreprise Server.
-ms.openlocfilehash: 7b619da5b0567aff73b3d8d48eda96efdc098611
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Cet article vous guide tout au long des étapes nécessaires pour configurer une installation de Skype entreprise Server existante afin qu’elle utilise le service de mobilité, ce qui permet à vos appareils mobiles de tirer parti des fonctionnalités de mobilité de Skype entreprise Server.
+ms.openlocfilehash: 457eeff39c87f20326d64cc5227745b43e0af5f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796083"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029065"
 ---
-# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déploiement et configuration de la mobilité pour Skype entreprise Server  
+# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déployer et configurer la mobilité pour Skype entreprise Server  
  
-Cet article vous guide dans la procédure de configuration d’une installation de Skype entreprise Server existante pour utiliser le service de mobilité et permettre à vos appareils mobiles de profiter des fonctionnalités de mobilité de Skype entreprise Server.
+Cet article vous guide tout au long des étapes nécessaires pour configurer une installation de Skype entreprise Server existante afin qu’elle utilise le service de mobilité, ce qui permet à vos appareils mobiles de tirer parti des fonctionnalités de mobilité de Skype entreprise Server.
   
-Après avoir consulté le [plan de mobilité pour l’article Skype entreprise Server](../plan-your-deployment/mobility.md) , vous devez être prêt à suivre les étapes ci-dessous pour déployer la mobilité dans votre environnement Skype entreprise Server. Voici les étapes à suivre (avec une liste des autorisations incluse dans le tableau) :
+Après avoir examiné l’article [plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) , vous devez être prêt à suivre les étapes ci-dessous pour déployer la mobilité dans votre environnement Skype entreprise Server. Les étapes sont les suivantes (et nous les incluons dans ce tableau une liste d’autorisations) :
   
-|**Phase**|**Autorisations**|
+|**Étape**|**Autorisations**|
 |:-----|:-----|
-|[Créer des enregistrements DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |DomainAdmins  <br/> DNSAdmins  <br/> |
+|[Créer des enregistrements DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |Admins du domaine  <br/> DNSAdmins  <br/> |
 |[Modifier les certificats](deploy-and-configure-mobility.md#ModCerts) <br/> |Administrateur local  <br/> |
 |[Configurer le proxy inverse](deploy-and-configure-mobility.md#ConfigRP) <br/> |Administrateur local  <br/> |
-|[Configurer la découverte automatique pour la mobilité avec les déploiements hybrides](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |DomainAdmins  <br/> |
+|[Configurer la découverte automatique pour la mobilité avec les déploiements hybrides](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Admins du domaine  <br/> |
 |[Tester votre déploiement de mobilité](deploy-and-configure-mobility.md#TestMobility) <br/> |CsAdministrator  <br/> |
-|[Configurer les notifications push](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
+|[Configurer les notifications de type push](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
 |[Configurer la stratégie de mobilité](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
    
-Toutes les sections suivantes comprennent des étapes qui impliquent que vous ayez parcouru la rubrique concernant la planification. En cas de doute, n'hésitez pas à consulter les informations fournies ici.
+Toutes les sections suivantes contiennent des étapes qui supposent que vous avez lu la rubrique Planning. Si vous êtes déroutant, n’hésitez pas à en consulter les informations.
 
 > [!NOTE]
-> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility service) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs avec des clients hérités qui utilisent MCX devront effectuer une mise à niveau vers un client actuel.
   
 ## <a name="create-dns-records"></a>Créer des enregistrements DNS
 <a name="CreateDNSRec"> </a>
 
-Vous pouvez déjà disposer de ces éléments dans le cadre de votre environnement Skype entreprise Server, mais vous devez créer les enregistrements suivants pour que la découverte automatique fonctionne :
+Vous disposez peut-être déjà de ces éléments dans le cadre de votre environnement Skype entreprise Server, mais vous devez créer les enregistrements suivants pour que la découverte automatique fonctionne :
   
-- un enregistrement DNS interne afin de prendre en charge les utilisateurs mobiles qui se connectent depuis le réseau de votre organisation ;
+- Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent à partir du réseau de votre organisation.
     
-- un enregistrement DNS externe (ou public) afin de prendre en charge les utilisateurs mobiles qui se connectent depuis le réseau de votre organisation.
+- Un enregistrement DNS externe (ou public) pour prendre en charge les utilisateurs mobiles qui se connectent depuis l’extérieur du réseau de votre organisation.
     
-Ces enregistrements sont soit des enregistrements de noms (d'hôte) A, soit des enregistrements CNAME (vous n'avez pas à créer ces deux enregistrements, mais nous décrivons ici toutes les étapes pour les deux types d'enregistrement).
+Ces enregistrements peuvent être soit des noms (hôtes), soit des enregistrements CNAMe (vous n’avez pas à effectuer les deux à la fois, nous incluons simplement les étapes de tous les éléments ici).
   
-### <a name="create-an-internal-dns-cname-record"></a>Créer un enregistrement CNAME DNS interne
+### <a name="create-an-internal-dns-cname-record"></a>Créer un enregistrement CNAMe DNS interne
 
-1. Ouvrez une session sur un serveur DNS de votre réseau qui est membre du groupe **Administrateurs du domaine** ou du groupe **DnsAdmins**.
+1. Connectez-vous à un serveur DNS de votre réseau qui est membre du groupe **administrateurs du domaine** ou du groupe **DnsAdmins** .
     
-2. Cliquez sur **Démarrer**, Sélectionnez **Outils d’administration ** (vous devrez peut-être **Rechercher ** l'option si elle n'existe pas dans le menu Démarrer), puis cliquez sur **DNS** pour ouvrir le composant logiciel enfichable d'administration DNS.
+2. Cliquez sur **Démarrer**, sélectionnez **Outils d’administration** (il se peut que vous deviez le **Rechercher** s’il n’est pas possible d’utiliser le menu Démarrer), puis cliquez sur **DNS** pour ouvrir le composant logiciel enfichable d’administration DNS.
     
-3. Dans le volet gauche de la fenêtre de la console, vous devez vous rendre sur le domaine qui est destiné aux serveurs frontaux de Skype entreprise Server et étendre les **zones de recherche directe** .
+3. Dans le volet de gauche de la fenêtre de la console, vous devez accéder au domaine qui héberge les serveurs frontaux de Skype entreprise Server et développer les **zones de recherche directes** .
     
-4. Prenez un moment pour vérifiez lequel des enregistrements suivants vous avez :
+4. Prenez un moment pour voir les éléments suivants :
     
-   - Un ou plusieurs enregistrements d’hôte A ou AAAA pour votre serveur frontal (standard ou entreprise) ou le ou les pools front-end.
+   - Tout enregistrement A ou AAAA hôte pour votre serveur frontal (standard ou Enterprise) ou un ou plusieurs pools frontaux.
     
-   - Tout enregistrement d’hôte A ou AAAA d’un directeur ou d’un pool de réalisateur (Configuration facultative éventuellement disponible dans votre déploiement).
+   - N’importe quel enregistrement A ou AAAA hôte pour un directeur ou un pool directeur (Configuration facultative que vous pouvez avoir dans votre déploiement).
     
-5. Une fois l'information vérifiée, cliquez avec le bouton droit de la souris sur votre nom de domaine SIP, puis sélectionnez **Nouvel alias (CNAME)** dans le menu.
+5. Une fois que vous avez noté cela, cliquez avec le bouton droit sur le nom de votre domaine SIP, puis choisissez **Nouvel alias (CNAME)** dans le menu.
     
-6. Dans la zone **Nom de l’alias**, saisissez le nom d’hôte correspondant à l’URL de service interne de découverte automatique : lyncdiscoverinternal.
+6. Dans la zone de texte **nom d’alias** , tapez lyncdiscoverinternal pour votre nom d’hôte, pour l’URL du service de découverte automatique interne.
     
-7. Dans le **nom de domaine complet (FQDN pour l’hôte cible**), vous devez taper ou parcourir le nom de domaine complet (FQDN) des services Web interne pour votre liste frontale (ou un serveur frontal ou un réalisateur), comme indiqué à l’étape 4 ci-dessus. Cliquez sur Entrée une fois le nom saisi.
+7. Dans le **nom de domaine complet (FQDN) de l’hôte de destination**, vous devez taper ou parcourir le nom de domaine complet des services Web internes pour votre pool frontal (ou un serveur frontal unique, ou un pool ou directeur de directeur), identifié à l’étape 4 ci-dessus. Cliquez sur OK lorsque cette entrée est entrée.
     
-8. Vous devez créer un enregistrement CNAMe de découverte automatique dans la zone de recherche directe pour chaque domaine SIP pris en charge dans votre environnement Skype entreprise Server.
+8. Vous devrez créer un nouvel enregistrement CNAMe de découverte automatique dans la zone de recherche directe pour chaque domaine SIP pris en charge dans votre environnement Skype entreprise Server.
     
-### <a name="create-an-external-dns-cname-record"></a>Créer un enregistrement CNAME DNS externe
+### <a name="create-an-external-dns-cname-record"></a>Créer un enregistrement CNAMe DNS externe
 
-1. Ces étapes sont génériques, car nous ne pouvons pas déterminer quel fournisseur DNS public vous utilisez, mais elles pourront toujours vous être utiles. Connectez-vous à votre fournisseur DNS public avec un compte qui vous permettra de créer ici de nouveaux enregistrements DNS.
+1. Ces étapes sont génériques, car nous ne pouvons pas indiquer quel fournisseur DNS public vous pouvez utiliser, mais nous souhaitons toujours vous aider. Connectez-vous à votre fournisseur DNS public à l’aide d’un compte qui pourra y créer de nouveaux enregistrements DNS.
     
-2. À ce moment-là, un domaine SIP doit déjà exister pour Skype entreprise Server. Développez la **zone de recherche directe** pour ce domaine SIP, ou procédez à son ouverture.
+2. À ce stade, un domaine SIP doit déjà exister ici pour Skype entreprise Server. Développez la **zone de recherche directe** pour ce domaine SIP, ou ouvrez-la.
     
-3. Prenez un moment pour vérifiez lequel des enregistrements suivants vous avez :
+3. Prenez un moment pour voir les éléments suivants :
     
-   - Un ou plusieurs enregistrements d’hôte A ou AAAA pour votre serveur frontal (standard ou entreprise) ou le ou les pools front-end.
+   - Tout enregistrement A ou AAAA hôte pour votre serveur frontal (standard ou Enterprise) ou un ou plusieurs pools frontaux.
     
-   - Tout enregistrement d’hôte A ou AAAA d’un directeur ou d’un pool de réalisateur (Configuration facultative éventuellement disponible dans votre déploiement).
+   - N’importe quel enregistrement A ou AAAA hôte pour un directeur ou un pool directeur (Configuration facultative que vous pouvez avoir dans votre déploiement).
     
-4. Une fois que vous avez vérifié l'information, vous devriez pouvoir sélectionner une option pour créer un **Nouvel alias (CNAME)**.
+4. Une fois que vous disposez de ces informations, vous devez pouvoir sélectionner une option pour créer un **Nouvel alias (CNAME)**.
     
-5. Vous devriez maintenant pouvoir saisir un **Nom d'alias**. Saisissez ensuite lyncdiscover en tant qu'URL de service interne de découverte automatique.
+5. À présent, vous devriez pouvoir entrer un **nom d’alias**, vous devez entrer lyncdiscover ici pour l’URL du service de découverte automatique externe.
     
-6. À présent, il devrait y avoir une zone à entrer dans un nom de domaine complet (FQDN) **pour l’hôte cible**, il doit s’agir du nom de domaine complet (FQDN) du pool frontal (ou d’un serveur frontal ou réalisateur), identifié à l’étape 3 ci-dessus.
+6. Il doit s’agir d’une zone à entrer dans un **nom de domaine complet (FQDN) pour l’hôte cible**, il doit s’agir du nom de domaine complet de votre pool frontal (ou d’un serveur frontal unique, ou du pool ou directeur de directeur) identifié à l’étape 3 ci-dessus.
     
-7. Vous devrez peut-être enregistrer cet emplacement ou, si vous avez besoin de créer des enregistrements CNAMe supplémentaires dans la zone de recherche directe de chaque domaine SIP de votre environnement Skype entreprise Server, procédez ainsi, mais lorsque vous serez prêt, enregistrez votre travail.
+7. Vous devrez peut-être enregistrer cet emplacement, ou si vous devez créer des enregistrements CNAMe supplémentaires dans la zone de recherche directe de chaque domaine SIP dans votre environnement Skype entreprise Server, vous devez procéder ainsi, mais une fois que vous êtes prêt, enregistrez votre travail.
     
-### <a name="create-an-internal-dns-a-record"></a>Créer un enregistrement A DNS interne
+### <a name="create-an-internal-dns-a-record"></a>Créer un enregistrement DNS A interne
 
-1. Ouvrez une session sur un serveur DNS de votre réseau qui est membre du groupe **Administrateurs du domaine** ou du groupe **DnsAdmins**.
+1. Connectez-vous à un serveur DNS de votre réseau qui est membre du groupe **administrateurs du domaine** ou du groupe **DnsAdmins** .
     
-2. Cliquez sur **Démarrer**, Sélectionnez **Outils d’administration ** (vous devrez peut-être **Rechercher ** l'option si elle n'existe pas dans le menu Démarrer), puis cliquez sur **DNS** pour ouvrir le composant logiciel enfichable d'administration DNS.
+2. Cliquez sur **Démarrer**, sélectionnez **Outils d’administration** (il se peut que vous deviez le **Rechercher** s’il n’est pas possible d’utiliser le menu Démarrer), puis cliquez sur **DNS** pour ouvrir le composant logiciel enfichable d’administration DNS.
     
-3. Dans le volet gauche de la fenêtre de la console, vous devez vous rendre sur le domaine qui est destiné aux serveurs frontaux de Skype entreprise Server et étendre les **zones de recherche directe** .
+3. Dans le volet de gauche de la fenêtre de la console, vous devez accéder au domaine qui héberge les serveurs frontaux de Skype entreprise Server et développer les **zones de recherche directes** .
     
-4. Prenez un moment pour vérifiez lequel des enregistrements suivants vous avez :
+4. Prenez un moment pour voir les éléments suivants :
     
-   - Un ou plusieurs enregistrements d’hôte A ou AAAA pour votre serveur frontal (standard ou entreprise) ou le ou les pools front-end.
+   - Tout enregistrement A ou AAAA hôte pour votre serveur frontal (standard ou Enterprise) ou un ou plusieurs pools frontaux.
     
-   - Tout enregistrement d’hôte A ou AAAA d’un directeur ou d’un pool de réalisateur (Configuration facultative éventuellement disponible dans votre déploiement).
+   - N’importe quel enregistrement A ou AAAA hôte pour un directeur ou un pool directeur (Configuration facultative que vous pouvez avoir dans votre déploiement).
     
-5. Une fois l'information vérifiée, cliquez avec le bouton droit de la souris sur votre nom de domaine SIP, puis sélectionnez **Nouvel hôte (A ou AAAA)** dans le menu.
+5. Une fois que vous avez noté cela, cliquez avec le bouton droit sur le nom de votre domaine SIP, puis sélectionnez **nouvel hôte (A ou AAAA)** dans le menu.
     
-6. Dans la zone **Nom**, saisissez le nom d’hôte correspondant à l’URL de service interne de découverte automatique : lyncdiscoverinternal.
+6. Dans la zone de texte **nom** , tapez lyncdiscoverinternal pour votre nom d’hôte, pour l’URL du service de découverte automatique interne.
     
-7. Dans la zone de saisie de l' **adresse IP** , tapez l’adresse IP des services Web internes de votre pool frontal (ou un serveur frontal ou un réalisateur), identifié à l’étape 4 ci-dessus.
+7. Dans la zone **adresse IP** , tapez l’adresse IP interne des services Web pour votre pool frontal (ou un serveur frontal unique, ou un pool ou directeur de directeur), identifié à l’étape 4 ci-dessus.
     
-8. Une fois terminé, cliquez sur **Ajouter un hôte**, puis cliquez sur **OK**.
+8. Une fois cette opération terminée, cliquez sur **Ajouter un hôte**, puis cliquez sur **OK**.
     
-9. Vous devez créer un nouvel enregistrement de découverte automatique A ou AAAA dans la zone de recherche directe pour chaque domaine SIP pris en charge dans votre environnement Skype entreprise Server. Pour ce faire, répétez les étapes 6 à 8 autant de fois que nécessaire.
+9. Vous devrez créer un nouvel enregistrement Autodiscover A ou AAAA dans la zone de recherche directe pour chaque domaine SIP pris en charge dans votre environnement Skype entreprise Server. Pour ce faire, répétez les étapes 6-8 autant de fois que nécessaire.
     
-10. Une fois l'opération terminée, cliquez sur **Terminé**.
+10. Lorsque vous avez fini, cliquez sur **Terminer**.
     
 ### <a name="create-an-external-dns-a-record"></a>Créer un enregistrement A DNS externe
 
-1. Ces étapes sont génériques, car nous ne pouvons pas déterminer quel fournisseur DNS public vous utilisez, mais elles pourront toujours vous être utiles. Connectez-vous à votre fournisseur DNS public avec un compte qui vous permettra de créer ici de nouveaux enregistrements DNS.
+1. Ces étapes sont génériques, car nous ne pouvons pas indiquer quel fournisseur DNS public vous pouvez utiliser, mais nous souhaitons toujours vous aider. Connectez-vous à votre fournisseur DNS public à l’aide d’un compte qui pourra y créer de nouveaux enregistrements DNS.
     
-2. À ce moment-là, un domaine SIP doit déjà exister pour Skype entreprise Server. Développez la **zone de recherche directe** pour ce domaine SIP, ou procédez à son ouverture.
+2. À ce stade, un domaine SIP doit déjà exister ici pour Skype entreprise Server. Développez la **zone de recherche directe** pour ce domaine SIP, ou ouvrez-la.
     
-3. Prenez un moment pour vérifiez lequel des enregistrements suivants vous avez :
+3. Prenez un moment pour voir les éléments suivants :
     
-   - Un ou plusieurs enregistrements d’hôte A ou AAAA pour votre serveur frontal (standard ou entreprise) ou le ou les pools front-end.
+   - Tout enregistrement A ou AAAA hôte pour votre serveur frontal (standard ou Enterprise) ou un ou plusieurs pools frontaux.
     
-   - Tout enregistrement d’hôte A ou AAAA d’un directeur ou d’un pool de réalisateur (Configuration facultative éventuellement disponible dans votre déploiement).
+   - N’importe quel enregistrement A ou AAAA hôte pour un directeur ou un pool directeur (Configuration facultative que vous pouvez avoir dans votre déploiement).
     
-4. Une fois que vous avez vérifié l'information, vous devriez être capable de sélectionner une option pour créer un **Nouvel hôte A ou AAAA)**.
+4. Une fois que vous disposez de ces informations, vous devez être en mesure de sélectionner une option pour créer un **nouvel hôte a ou AAAA**.
     
-5. Vous devriez maintenant pouvoir saisir un **Nom**. Saisissez ensuite lyncdiscover en tant qu'URL de service interne de découverte automatique.
+5. À présent, vous devriez pouvoir entrer un **nom**, vous devez entrer lyncdiscover ici pour l’URL du service de découverte automatique externe.
     
-6. Ensuite, il devrait y avoir une zone à entrer dans une **adresse IP**, il doit s’agir de l’adresse IP de votre pool frontal (ou d’un serveur frontal unique ou du réalisateur), identifié à l’étape 3 ci-dessus.
+6. Ensuite, il doit y avoir une zone à saisir dans une **adresse IP**, il doit s’agir de l’adresse IP de votre pool frontal (ou d’un serveur frontal unique, ou d’un pool directeur ou directeur), identifié à l’étape 3 ci-dessus.
     
-7. Vous devrez peut-être enregistrer cet emplacement ou, si vous avez besoin de créer des enregistrements A ou AAAA supplémentaires dans la zone de recherche directe de chaque domaine SIP pour votre environnement Skype entreprise Server, vous devez le faire, mais une fois que vous êtes prêt, enregistrez votre travail.
+7. Vous devrez peut-être enregistrer ici, ou si vous avez besoin de créer des enregistrements A ou AAAA supplémentaires dans la zone de recherche directe de chaque domaine SIP pour votre environnement Skype entreprise Server, vous devez procéder ainsi, mais une fois que vous êtes prêt, enregistrez votre travail.
     
 ## <a name="modify-certificates"></a>Modifier les certificats
 <a name="ModCerts"> </a>
 
-Si vous avez des questions sur la planification des certificats, nous avons documenté le [projet dans notre plan de mobilité pour Skype entreprise Server](../plan-your-deployment/mobility.md) . Une fois que vous avez examiné ce qui suit, nous vous guidons à travers les étapes suivantes :
+Si vous avez des questions sur la planification des certificats, nous avons documenté cela dans notre article [plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) . Une fois que vous avez consulté ce qui suit, nous allons vous présenter les éléments suivants :
   
-- Dois-je obtenir de nouveaux certificats ?
+- Ai-je besoin de nouveaux certificats ?
     
 - Demande de nouveaux certificats auprès de votre autorité de certification (CA).
     
-- Mise à jour sur site de certificats avec les remplacements à l'aide de PowerShell.
+- Mise à jour de vos certificats sur place avec les remplacements à l’aide de PowerShell.
     
-- Vérification des certificats à l’aide du composant logiciel enfichable Certificats dans Microsoft Management Console (MMC).
+- Vérification des certificats à l’aide du composant logiciel enfichable Certificats dans la console MMC (Microsoft Management Console).
     
-### <a name="do-i-need-new-certificates"></a>Dois-je obtenir de nouveaux certificats ?
+### <a name="do-i-need-new-certificates"></a>Ai-je besoin de nouveaux certificats ?
 
-1. Vous devez d'abord vérifier quels certificats sont en place et s'ils disposent ou non des entrées dont vous avez besoin. Pour ce faire, vous devez vous connecter à Skype entreprise Server à l’aide d’un compte d’administrateur local. Ce compte doit également disposer des autorisations d'accès à l'autorité de certification (CA) émettrice pour effectuer certaines de ces étapes.
+1. Tout d’abord, il se peut que vous deviez vérifier et voir quels certificats sont en place, et s’ils disposent ou non des entrées dont vous avez besoin. Pour ce faire, vous devez vous connecter à votre serveur Skype entreprise à l’aide d’un compte administrateur local. Pour certaines de ces étapes, il se peut que ce compte doive également disposer de droits sur l’autorité de certification émettrice.
     
-2. Ouvrez Skype entreprise Server Management Shell (vous pouvez utiliser la recherche pour le rechercher si vous n’avez pas épinglé le menu Démarrer ou la barre des tâches).
+2. Ouvrez Skype entreprise Server Management Shell (vous pouvez utiliser la recherche pour le trouver si vous ne l’avez pas épinglée à votre menu Démarrer ou à la barre des tâches).
     
-3. Vous devrez absolument savoir quels certificats ont été affectés avant de pouvoir ajouter un certificat mis à jour. À partir de la ligne de commande, saisissez ce qui suit :
+3. Il va être essentiel de savoir quels certificats ont été affectés avant d’ajouter un certificat mis à jour. Par conséquent, à la commande, tapez :
     
    ```powershell
    Get-CsCertificate
    ```
 
-4. Les informations fournies à partir de l'étape 3 vous seront spécifiques. Vous devez les vérifier afin de déterminer si vous disposez d'un certificat unique ayant été affecté à plusieurs éléments, ou si vous disposez d'un autre certificat affecté pour les différents composants qui en ont besoin. Le paramètre **Utiliser** vous permettra de savoir de quelle manière un certificat est utilisé et le paramètre **Thumbprint** vous permettra de savoir s'il s'agit du même certificat ou de plusieurs certificats.
+4. Les informations de l’étape 3 vous seront propres. Vous devez le Rechercher pour déterminer si vous avez un certificat unique qui a été affecté à plusieurs éléments, ou si vous avez un certificat différent affecté aux différents composants qui en ont besoin. Le paramètre **use** vous indique le mode d’utilisation d’un certificat et le paramètre d' **empreinte** vous indique s’il s’agit du même certificat ou de plusieurs certificats.
     
-5. Si vous disposez des entrées SAN recommandées dans votre section Planification, vous n'avez rien à faire. Sinon, vous devrez demander un nouveau certificat ou plusieurs certificats (en fonction de votre configuration) auprès de votre autorité de certification.
+5. Si vous avez les entrées SAN recommandées dans notre section planification, vous avez l’habitude. Si ce n’est pas le cas, vous devrez demander un nouveau certificat ou plusieurs certificats (en fonction de votre configuration) auprès de votre autorité de certification.
     
-### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>Demander un nouveau certificat ou de nouveaux certificats auprès de votre autorité de certification (CA)
+### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>Demander un nouveau certificat ou des certificats auprès de votre autorité de certification (CA)
 
-1. Après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez un **certificat unique** (la vérification ayant été effectuée en suivant la procédure décrite précédemment) et vous savez que vous ne disposez pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server :
+1. Une fois que vous avez vérifié les entrées SAN dont vous disposez, vous savez que vous disposez d’un **certificat unique** (après avoir vérifié les étapes ci-dessus), et que vous avez appris que vous n’avez pas toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée sur votre autorité de certification. Ouvrez votre serveur PowerShell Skype entreprise :
     
-   - Pour un SAN de service de découverte automatique (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
+   - Pour un SAN de service de découverte automatique manquant (en remplaçant le paramètre-ca par votre propre chemin d’accès de l’autorité de certification) :
     
    ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devrez plutôt utiliser le paramètre DomainName. De plus, lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet pour les enregistrements lyncdiscoverinternal et lyncdiscover. En voici un exemple (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
+   - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devez utiliser le paramètre DomainName à la place. Lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet (FQDN) pour les enregistrements lyncdiscoverinternal et lyncdiscover. Voici un exemple (remplacement du paramètre-ca par votre propre chemin d’accès à l’autorité de certification) :
     
    ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. Ou, après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez **plusieurs certificats** qui ne disposent pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server :
+2. Ou, une fois que vous avez vérifié les entrées SAN dont vous disposez, vous avez trouvé **plusieurs certificats** qui n’ont pas toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée sur votre autorité de certification. Ouvrez votre serveur PowerShell Skype entreprise :
     
-   - Pour un SAN de service de découverte automatique (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
+   - Pour un SAN de service de découverte automatique manquant (en remplaçant le paramètre-ca par votre propre chemin d’accès de l’autorité de certification) :
     
    ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devrez plutôt utiliser le paramètre DomainName. De plus, lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet pour les enregistrements lyncdiscoverinternal et lyncdiscover. En voici des exemples (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
+   - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devez utiliser le paramètre DomainName à la place. Lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet (FQDN) pour les enregistrements lyncdiscoverinternal et lyncdiscover. Voici quelques exemples (remplacer le paramètre-ca par votre propre chemin d’accès à l’autorité de certification) :
     
    ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -202,19 +202,19 @@ Si vous avez des questions sur la planification des certificats, nous avons docu
    Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
    ```
 
-   - Une fois que les nouveaux certificats ont été générés par votre autorité de certification, vous devrez les affecter.
+   - Une fois que les nouveaux certificats ont été générés par l’autorité de certification, vous devez les affecter.
     
-### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>Affecter des certificats à l'aide de Skype Entreprise Server Management Shell
+### <a name="assign-certificates-using-skype-for-business-server-management-shell"></a>Affecter des certificats à l’aide de Skype entreprise Server Management Shell
 
-- En fonction de ce que vous avez trouvé dans la section Dois-je obtenir de nouveaux certificats ci-dessus, vous devrez effectuer l'**une ** des mesures suivantes.
+- En fonction de ce que vous avez trouvé dans la section ai-je besoin de nouvelles certifications ci-dessus, vous devez exécuter l' **un** des éléments suivants.
     
-  - Si vous disposez d'un certificat unique pour tout (les thumbprints sont identiques), vous devez procéder comme suit :
+  - Si vous disposez d’un certificat unique pour tous les éléments (les empreintes sont identiques), vous devez exécuter l’élément suivant :
     
   ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
-  - Si vous disposez de plusieurs certificats (les thumbprints sont tous différents), procédez plutôt comme suit :
+  - Si vous avez des certificats différents pour des éléments (les empreintes sont tous différents), exécutez plutôt cette fonction :
     
   ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
@@ -224,181 +224,181 @@ Si vous avez des questions sur la planification des certificats, nous avons docu
 
 ### <a name="viewing-certificates-in-the-microsoft-management-console-mmc"></a>Affichage des certificats dans la console MMC (Microsoft Management Console)
 
-1. Vous avez la possibilité de consulter vos certificats à l'aide du composant logiciel enfichable Certificats pour la console MMC. Saisissez simplement MMC dans la zone de recherche pour les faire apparaître en tant qu'option d'application
+1. Vous avez la possibilité de consulter vos certificats à l’aide du composant logiciel enfichable Certificats pour la console MMC. Il vous suffit de taper MMC dans la recherche et de le faire apparaître comme option d’application.
     
-2. Pour ajouter le composant logiciel enfichable Certificats, cliquez sur **Fichier**, puis sur **Ajouter/Supprimer un composant logiciel enfichable...** (ou utilisez le raccourci clavier **Ctrl+M**). **Certificats** apparaîtra comme option dans le volet de gauche ; sélectionnez-la, puis choisissez **Compte d'ordinateur** dans la fenêtre contextuelle et cliquez sur **Suivant**.
+2. Pour ajouter le composant logiciel enfichable Certificats, vous devez cliquer sur **fichier**, puis sur **Ajouter/supprimer un composant logiciel enfichable...** (ou un raccourci clavier **Ctrl + M** fonctionne également). Les **certificats** seront une option dans le volet de gauche, sélectionnez-le, puis **compte d’ordinateur** dans la fenêtre contextuelle, puis cliquez sur **suivant**.
     
-3. Vous effectuez probablement cette opération sur l'ordinateur qui héberge les certificats que vous souhaitez consulter, vous pouvez donc laisser la sélection, toujours dans la fenêtre contextuelle, sur **Ordinateur local**. Si vous utilisez une machine distante, changez le bouton radio sur **Autre ordinateur**, puis entrez le nom de domaine complet de cet ordinateur ou utilisez le bouton **Naviguer** pour rechercher cet ordinateur via Active Directory. Après avoir sélectionné l’ordinateur, vous devez cliquer sur **Terminer** lorsque vous êtes prêt, puis sur **OK** pour ajouter le composant logiciel enfichable à la console MMC.
+3. Toujours dans la fenêtre contextuelle, quelle que soit la probabilité que vous effectuiez cette opération sur l’ordinateur qui est à l’origine des certificats que vous devez consulter, conservez la sélection sur **ordinateur local** si c’est le cas. Si vous travaillez sur un ordinateur distant, modifiez la case d’option sur **un autre ordinateur** , puis entrez le nom de domaine complet de l’ordinateur ou utilisez le bouton **Parcourir** pour rechercher cet ordinateur via ad. Après avoir sélectionné l’ordinateur, vous devez cliquer sur **Terminer** lorsque vous êtes prêt, puis sur **OK** pour ajouter le composant logiciel enfichable à la console MMC.
     
-4. Développez la section **certificats** dans le volet gauche de la console MMC. Développez également le dossier **Personnel**, puis sélectionnez **Certificats**. Ceci vous permet de visualiser les certificats dans ce magasin.
+4. Développez la section **certificats** dans le volet de gauche de la console MMC. Développez également le dossier **personnel** , puis sélectionnez **certificats**. Cela vous permet d’afficher les certificats de ce magasin.
     
-5. Localisez le certificat que vous souhaitez visualiser, cliquez dessus avec le bouton de la souris et sélectionnez **Ouvrir**.
+5. Vous devez rechercher le certificat que vous souhaitez afficher, cliquez dessus avec le bouton droit, puis choisissez **ouvrir**.
     
     > [!NOTE]
-    > Comment savez-vous de quel certificat il s'agit ? Il doit s’agir du certificat unique affecté à tout le contenu de votre batterie de serveurs, ou vous pouvez avoir plusieurs certificats pour différentes choses (par exemple, des services Web internes par défaut, etc.). Plusieurs certificats auront le même thumbprint. 
+    > Comment savoir quel certificat il s’agit ? Il doit s’agir du certificat unique affecté à tous les éléments de votre batterie de serveurs, ou vous pouvez avoir plusieurs certificats pour différentes choses, tels que default, des services Web internes, etc., auquel cas vous devrez peut-être examiner plusieurs certificats. Plusieurs certificats auront la même empreinte. 
   
-6. Une fois l'affichage **Certificat** défini, sélectionnez **Détails**. Ceci vous permettra de visualiser le nom de l'objet du certificat lorsque vous sélectionnerez **Objet** et le nom de l'objet affecté ainsi que les propriétés associées s'afficheront.
+6. Une fois que vous avez obtenu la vue du **certificat** , choisissez **Détails**. Cela vous permettra d’afficher le nom de l’objet du certificat lorsque vous sélectionnez l’option **objet**, et le nom de l’objet affecté et les propriétés associées sont affichés.
     
-7. Vous devrez également vérifier les entrées **Autres noms du sujet **. Les éléments suivants peuvent apparaître :
+7. Vous devrez également vérifier les entrées de l' **autre nom du sujet** . Vous trouverez un ou plusieurs des éléments suivants :
     
-   - Nom du pool pour ce pool ou nom de serveur unique s’il ne s’agit pas d’un pool.
+   - Nom du pool de ce pool, ou nom de serveur unique s’il ne s’agit pas d’un pool.
     
    - Nom du serveur auquel le certificat est affecté.
     
-   - Enregistrements d’URL simples, généralement meet et dialin.
+   - Enregistrements d’URL simples, généralement correspondant à la numérotation.
     
-   - Services Web internes et services Web (par exemple, webpool01.contoso.net, webpool01.contoso.com), en fonction des choix effectués dans le générateur de topologie et des sélections de services Web.
+   - Noms externes des services Web et des services Web (par exemple, webpool01.contoso.net, webpool01.contoso.com), en fonction des choix effectués dans le générateur de topologie et des sélections de services Web remplacés.
     
    - S’il est déjà attribué, le lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<enregistrements\> sipdomain.
     
-     Vous devrez vérifier les différents certificats dans le cas où plusieurs certificats ont été affectés (consultez la remarque ci-dessus).
+     Vous devrez vérifier plusieurs certificats si vous en avez attribué plusieurs (consultez la remarque ci-dessus).
     
-8. Par conséquent, si vous trouvez lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<sipdomain\> les enregistrements que vous avez déjà configurés. Vous pouvez fermer la console MMC.
+8. Par conséquent, si vous trouvez lyncdiscover. \<sipdomain\> et lyncdiscoverinternal. \<enregistrements\> sipdomain, vous avez déjà configuré cette configuration. Vous pouvez fermer la console MMC.
     
-9. S'ils ne sont pas affectés, vous devrez effectuer une nouvelle demande de certificat (telle que décrite ci-dessus) ou les installer une fois la demande effectuée (nous recommandons d'utiliser PowerShell à cet effet).
+9. Si elles ne sont pas affectées, vous devez créer une demande de certificat (décrite ci-dessus) ou les installer après la demande (nous vous recommandons de suivre PowerShell ci-dessus).
     
 ## <a name="configure-the-reverse-proxy"></a>Configurer le proxy inverse
 <a name="ConfigRP"> </a>
 
-Les étapes ci-dessous ne doivent pas nécessairement être suivies pas à pas. Dans les versions précédentes de ce produit, nous vous avons par exemple guidé tout au long de la procédure de configuration de Threat Management Gateway (TMG) et si vous ne l'utilisez pas, vous devrez élaborer votre propre procédure selon la version que vous utilisez.
+Les étapes ci-dessous ne sont pas destinées à être suivies exactement. En effet, dans les versions précédentes du produit, nous aurions pu vous présenter, par exemple, la configuration de la passerelle de gestion des menaces (TMG) et, si vous ne l’avez pas fait, vous devez utiliser votre propre version à partir de là.
   
-TMG n’est plus offert par Microsoft en tant que produit et, si vous le souhaitez, vous pouvez examiner les étapes de la [2013 serveur Lync](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Toutefois, les informations suivantes sont destinées à être plus utiles, même si vous n’êtes pas en mesure de fournir des étapes de procédures spécifiques pour chaque proxy inverse.
+TMG n’est plus offert par Microsoft en tant que produit, et si vous devez le configurer, vous pouvez consulter les [étapes de Lync Server 2013](https://technet.microsoft.com/library/hh690011%28v=ocs.15%29.aspx). Toutefois, les informations suivantes doivent être plus généralement utiles, même si vous ne pouvez pas fournir des étapes de procédure pas à pas spécifiques pour chaque proxy inverse.
   
-Deux points essentiels doivent être pris en compte :
+Deux éléments principaux sont à prendre en compte :
   
-- Allez-vous effectuer votre demande de découverte automatique initiale sur HTTPS (ce que nous recommandons) ?
+- Allez-vous effectuer votre demande de découverte automatique initiale sur HTTPs (recommandé) ?
     
-  - Si vous avez une règle de publication web, vous devez la modifier.
+  - Si vous avez une règle de publication Web, vous devez la modifier.
     
-  - Si vous n'avez pas de règle de publication web, vous devez la créer.
+  - Si vous n’avez pas encore de règle de publication Web, vous devez la créer.
     
-- Si vous effectuez votre demande de découverte automatique initiale sur HTTPS, vous devrez également créer ou modifier cette règle.
+- Si vous effectuez votre demande de découverte automatique initiale sur HTTP, vous devez également créer ou modifier cette règle.
     
 > [!NOTE]
-> **Important** La valeur du délai d’expiration du proxy est un nombre qui peut varier d’un déploiement au déploiement. Nous vous conseillons de surveiller votre déploiement et de modifier la valeur de la meilleure utilisation pour les clients. Il est possible que vous puissiez définir la valeur sur une valeur inférieure ou égale à 200. Si vous prenez en charge des clients mobiles Lync dans votre environnement, définissez la valeur sur 960 pour autoriser les délais d’expiration de la notification de transmission d’Office 365, qui ont une valeur de délai d’expiration de 900. Il est très probable que vous deviez augmenter la valeur du délai d’expiration pour éviter que le client se déconnecte lorsque la valeur est trop faible, ou si les connexions par le biais du proxy ne se déconnectent pas une fois qu’il a été déconnecté. Le fait de surveiller et de définir ce qui est habituel pour votre environnement est le seul moyen de déterminer le paramètre approprié pour cette valeur.
+> **Important** Une valeur de délai d’expiration du proxy est un nombre qui varie d’un déploiement à l’autre. Vous devez surveiller votre déploiement et modifier la valeur pour la meilleure expérience pour les clients. Vous pouvez définir la valeur sur 200. Si vous prenez en charge les clients mobiles Lync dans votre environnement, vous devez définir la valeur sur 960 pour autoriser les délais d’expiration des notifications de type transmission à partir d’Office 365, dont la valeur de délai d’expiration est de 900. Il est fort probable que vous deviez augmenter la valeur du délai d’expiration pour éviter que le client se déconnecte lorsque la valeur est trop faible ou réduire le nombre si les connexions par le biais du proxy ne se déconnectent pas bien après la déconnexion du client. La surveillance et la détermination de la configuration habituelle de votre environnement sont la seule façon de déterminer le paramètre approprié pour cette valeur.
   
-### <a name="modify-the-existing-web-publishing-rule-for-your-external-autodiscover-san-and-url"></a>Modifiez la règle de publication web existante pour votre SAN et URL de découverte automatique externes.
+### <a name="modify-the-existing-web-publishing-rule-for-your-external-autodiscover-san-and-url"></a>Modifier la règle de publication Web existante pour votre SAN de découverte automatique externe et votre URL
 
 1. Ouvrez votre interface de proxy inverse.
     
-2. Vous devez localiser votre règle de publication Web, puis sélectionner l’option modifier (il peut s’agir d’un menu ou d’un onglet, en fonction de votre configuration de proxy inverse).
+2. Vous devez localiser votre règle de publication Web, puis choisir l’option modifier (elle peut se trouver sur un menu ou un onglet, en fonction de la configuration de votre proxy inverse).
     
-3. Un emplacement doit être utilisé pour indiquer le type de cette règle de publication Web. Vous devez modifier cette règle pour les sites entrants ou les demandes pour les sites. Vous allez **ajouter** une nouvelle entrée.
+3. Il doit y avoir un domaine qui indique le type d’application de cette règle de publication Web. Vous devez modifier cette règle pour les sites entrants ou les demandes de sites. Vous allez **Ajouter** une nouvelle entrée.
     
-4. Tapez le nom de votre site de découverte automatique (l’exemple utilisé est lyncdiscover.contoso.com), puis cliquez sur **OK** ou sur **Enregistrer**en fonction du format de votre proxy inverse.
+4. Tapez le nom de votre site de découverte automatique (l’exemple que nous allons utiliser est lyncdiscover.contoso.com), puis cliquez sur **OK** ou sur **Enregistrer**, selon le format de votre proxy inverse.
     
-5. Vous devez avoir un nouveau certificat contenant l'entrée SAN de découverte automatique. Il doit être installé en même temps et configuré pour une utilisation en fonction des paramètres de votre proxy inverse. Assurez-vous de tout sauvegarder une fois la configuration terminée.
+5. Vous avez peut-être un nouveau certificat qui contient l’entrée SAN de découverte automatique. Celle-ci doit être installée et configurée pour être utilisée conformément aux paramètres de votre proxy inverse. N’oubliez pas d’enregistrer tous les éléments lorsque la configuration est terminée.
     
 6. Si votre proxy inverse dispose d’une fonctionnalité de **test** , utilisez-le pour vous assurer que tout fonctionne correctement.
     
-7. À présent, il est possible que vous deviez répéter ces étapes si vous disposez d’un directeur ou d’un pool de réalisateur dans votre environnement (cela signifie que vous disposez d’une deuxième règle).
+7. À présent, vous devrez peut-être répéter ces étapes si vous avez un directeur ou un pool directeur dans votre environnement (cela signifie que vous disposez d’une deuxième règle).
     
 ### <a name="create-a-web-publishing-rule-for-the-external-autodiscover-url"></a>Créer une règle de publication Web pour l’URL de découverte automatique externe
 
 1. Ouvrez votre interface de proxy inverse.
     
-2. Vous devez localiser l’emplacement dans l’interface dans laquelle vous créez les règles de publication Web, puis sélectionner l’option **nouveau** ou **créer** (il peut s’agir d’un menu ou d’un onglet, en fonction de votre configuration de proxy inverse). Vous recherchez l'option permettant de créer une nouvelle règle de publication web.
+2. Vous devez Rechercher l’emplacement dans l’interface dans lequel vous créez vos règles de publication Web, puis choisir l’option **nouveau** ou **créer** (il peut s’agir d’un menu ou d’un onglet, en fonction de votre configuration de proxy inverse). Vous recherchez l’option permettant de créer une règle de publication Web.
     
-3. Vous devrez généralement saisir les informations suivantes :
+3. En règle générale, vous devez entrer les informations suivantes :
     
-   - **Nom** : le nom de votre règle.
+   - **Name**: nom de votre règle
     
-   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
+   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez passer par un proxy inverse.
     
-   - La règle ou l'option de **Publication** que vous choisissez doit être **un seul site web ou équilibrage de charge**.
+   - La règle ou l’option de **publication** que vous choisissez doit être **un seul site Web ou équilibreur de charge**.
     
-   - Choisissez l'option **SSL** pour l'accès externe.
+   - Cela doit être **SSL** pour l’accès externe, choisissez cette option.
     
-   - Vous aurez besoin de publier un chemin pour la **publication interne**, puis entrez le nom de domaine complet (FQDN) pour les services Web externes sur le solde de charge de votre pool frontal (ou le nom de domaine complet du solde de charge du pool de réalisateur si vous en avez un); par exemple, sfb_pool01. contoso. local.
+   - Vous devrez publier un chemin d’accès pour la **publication interne**, et entrer le nom de domaine complet (FQDN) des services Web externes sur le programme d’équilibrage de charge de votre pool frontal (ou le nom de domaine complet de l’équilibreur de charge du pool directeur s’il en existe un), par exemple, sfb_pool01. contoso. local.
     
-   - Vous devez taper ** / *** pour le chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
+   - Vous devez taper ** / *** comme chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
     
-   - Une option vous permettra de sélectionner les informations du **nom public ou externe**. À cet endroit, vous pourrez saisir les informations suivantes :
+   - Il y aura une option pour les détails du **nom public ou externe** ou des informations. Il s’agit de l’endroit où vous pouvez entrer :
     
-   - **Accepter les demandes**, mais pour le nom de domaine.
+   - **Accepter les demandes**, mais il doit s’agir du nom de domaine.
     
-   - Pour le **Nom**, vous devez saisir **lyncdiscover.** <sipdomain>(il s’agit de l’URL du service de découverte automatique externe). À présent, si vous créez une règle pour l’URL des services Web externes sur le pool frontal, vous devez taper le nom de domaine complet (FQDN) pour les services Web externes dans votre liste frontale (par exemple, lyncwebextpool01.contoso.com).
+   - Pour le **nom**, vous devez entrer **lyncdiscover.** <sipdomain>(il s’agit de l’URL du service de découverte automatique externe). À présent, si vous créez une règle pour l’URL des services Web externes sur le pool frontal, vous devez taper le nom de domaine complet (FQDN) des services Web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
     
-   - Une option **path** sera disponible et vous devrez entrer ** / *** ici.
+   - Il y aura une option **path** , et vous devrez entrer ** / *** ici.
     
-   - Vous devrez sélectionner un **Écouteur SSL** avec votre certificat public à jour.
+   - Vous devrez sélectionner un **écouteur SSL** avec votre certificat public à jour.
     
-   - **Délégation de l’authentification** doit être définie sur **Aucune délégation**, mais une authentification client directe **doit** être autorisée.
+   - La **délégation de l’authentification** doit être définie sur **aucune délégation**, mais l’authentification client directe **doit** être autorisée.
     
-   - La règle doit être définie sur **Tous les utilisateurs**.
+   - La règle doit être définie sur **tous les utilisateurs**.
     
-   - Il s'agit de toutes les informations dont vous avez besoin pour créer cette règle et vous permettre de suivre la procédure.
+   - Il doit s’agir de toutes les informations dont vous avez besoin pour créer cette règle et vous permettre de continuer.
     
-4. Vous devez vous assurer que l'**en-tête de l’hôte d’origine** est transmis.
+4. Vous devez vous assurer que l' **en-tête d’hôte d’origine** est transféré.
     
-5. Les ports du **serveur web** devront également être définis ; procédez de la manière suivante :
+5. Les ports du **serveur Web** devront également être définis, vous devrez effectuer les opérations suivantes :
     
-   - **Rediriger les demandes au port HTTP**, avec le numéro de port **8080**.
+   - **Rediriger les demandes vers le port http** et le numéro de port doit être **8080**.
     
-   - **Rediriger les demandes au port SSL**, avec le numéro de port **4443**.
+   - **Rediriger les demandes vers le port SSL** et le numéro de port doit être **4443**.
     
-6. Une fois tous les éléments configurés, vous devrez enregistrer et appliquer les paramètres, puis tester la règle.
+6. Lorsque tout est configuré, vous devez enregistrer ou appliquer ces éléments, puis vous souhaitez tester la règle.
     
-### <a name="create-a-web-publishing-rule-for-port-80-optional"></a>Créer une règle de publication web pour le port 80 (facultatif)
+### <a name="create-a-web-publishing-rule-for-port-80-optional"></a>Créer une règle de publication Web pour le port 80 (facultatif)
 
 1. Ouvrez votre interface de proxy inverse.
     
-2. Vous devez localiser l’emplacement dans l’interface dans laquelle vous créez les règles de publication Web, puis sélectionner l’option **nouveau** ou **créer** (il peut s’agir d’un menu ou d’un onglet, en fonction de votre configuration de proxy inverse). Vous recherchez l'option permettant de créer une nouvelle règle de publication web.
+2. Vous devez Rechercher l’emplacement dans l’interface dans lequel vous créez vos règles de publication Web, puis choisir l’option **nouveau** ou **créer** (il peut s’agir d’un menu ou d’un onglet, en fonction de votre configuration de proxy inverse). Vous recherchez l’option permettant de créer une règle de publication Web.
     
-3. Vous devrez généralement saisir les informations suivantes :
+3. En règle générale, vous devez entrer les informations suivantes :
     
-   - **Nom** : le nom de votre règle.
+   - **Name**: nom de votre règle
     
-   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
+   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez passer par un proxy inverse.
     
-   - La règle ou l'option de **Publication** que vous choisissez doit être **un seul site web ou équilibrage de charge**.
+   - La règle ou l’option de **publication** que vous choisissez doit être **un seul site Web ou équilibreur de charge**.
     
-   - Une **connexion non sécurisée est nécessaire pour se connecter au serveur web publié ou à la batterie de serveurs**.
+   - Cela doit être une **connexion non sécurisée pour la connexion au serveur Web publié ou à la batterie de serveurs**.
     
-   - Vous devez publier un chemin pour la **publication interne**et entrer le nom de domaine complet (FQDN) de l' **adresse VIP** de l’équilibrage de charge de votre pool frontal, par exemple sfb_pool01. contoso. local.
+   - Vous allez devoir publier un chemin d’accès pour la **publication interne**, et entrez le nom de domaine complet (FQDN) de l' **adresse IP virtuelle** de l’équilibreur de charge de votre pool frontal, par exemple, sfb_pool01. contoso. local.
     
-   - Vous devez taper ** / *** pour le chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
+   - Vous devez taper ** / *** comme chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
     
-   - Une option vous permettra de sélectionner les informations du **nom public ou externe**. À cet endroit, vous pourrez saisir les informations suivantes :
+   - Il y aura une option pour les détails du **nom public ou externe** ou des informations. Il s’agit de l’endroit où vous pouvez entrer :
     
-   - **Accepter les demandes**, mais pour le nom de domaine.
+   - **Accepter les demandes**, mais il doit s’agir du nom de domaine.
     
-   - Pour le **Nom**, vous devez saisir **lyncdiscover.** <sipdomain>(il s’agit de l’URL du service de découverte automatique externe).
+   - Pour le **nom**, vous devez entrer **lyncdiscover.** <sipdomain>(il s’agit de l’URL du service de découverte automatique externe).
     
-   - Une option **path** sera disponible et vous devrez entrer ** / *** ici.
+   - Il y aura une option **path** , et vous devrez entrer ** / *** ici.
     
-   - Vous devez sélectionner un écouteur Web ou autoriser votre proxy inverse à en créer un pour vous.
+   - Vous devrez sélectionner un port d’écoute Web ou autoriser votre proxy inverse à en créer un pour vous.
     
-   - **Délégation de l’authentification** doit être définie sur **Aucune délégation**, mais une authentification client directe **ne doit pas** être autorisée.
+   - La **délégation de l’authentification** doit être définie sur **aucune délégation**, mais l’authentification client directe ne **doit pas** être autorisée.
     
-   - La règle doit être définie sur **Tous les utilisateurs**.
+   - La règle doit être définie sur **tous les utilisateurs**.
     
-   - Il s'agit de toutes les informations dont vous avez besoin pour créer cette règle et vous permettre de suivre la procédure.
+   - Il doit s’agir de toutes les informations dont vous avez besoin pour créer cette règle et vous permettre de continuer.
     
-4. Les ports du **serveur web** devront être définis ; procédez de la manière suivante :
+4. Les ports de **serveur Web** doivent être définis, vous devez effectuer les opérations suivantes :
     
-   - **Rediriger les demandes au port HTTP**, avec le numéro de port **8080**.
+   - **Rediriger les demandes vers le port http** et le numéro de port doit être **8080**.
     
-   - **Rediriger les demandes au port SSL**, avec le numéro de port **4443**.
+   - **Rediriger les demandes vers le port SSL** et le numéro de port doit être **4443**.
     
-5. Une fois tous les éléments configurés, vous devrez enregistrer et appliquer les paramètres, puis tester la règle.
+5. Lorsque tout est configuré, vous devez enregistrer ou appliquer ces éléments, puis vous souhaitez tester la règle.
     
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>Configurer la découverte automatique pour la mobilité avec les déploiements hybrides
 <a name="ConfigAutoD"> </a>
 
-Les environnements hybrides dans Skype entreprise Server sont des environnements qui combinent un environnement local et Office 365. Lorsque Skype entreprise Server fonctionne dans un environnement hybride, le service de découverte automatique doit être en mesure de rechercher un utilisateur à partir de l’un de ces environnements.
+Les environnements hybrides dans Skype entreprise Server sont des environnements qui combinent un environnement local et un environnement O365. Lorsque vous utilisez Skype entreprise Server dans un environnement hybride, le service de découverte automatique doit pouvoir localiser un utilisateur dans l’un de ces environnements.
   
-Pour permettre aux clients mobiles de découvrir où est localisé un utilisateur, le service de découverte automatique doit être configuré avec une nouvelle URL (uniform resource locator). Les étapes à suivre sont :
+Pour permettre aux clients mobiles de découvrir où se trouve un utilisateur, le service de découverte automatique doit être configuré avec une nouvelle URL (Uniform Resource Locator). Voici comment procéder :
   
 1. Ouvrez Skype entreprise Server Management Shell.
     
-2. Pour obtenir la valeur de l’attribut **ProxyFQDN** pour votre environnement Skype entreprise Server, procédez comme suit :
+2. Exécutez la commande suivante pour obtenir la valeur de l’attribut **ProxyFQDN** pour votre environnement Skype entreprise Server :
     
    ```powershell
    Get-CsHostingProvider
    ```
 
-3. Puis, toujours dans la fenêtre de shell, exécutez :
+3. Ensuite, dans la fenêtre du shell, exécutez la commande suivante :
     
    ```powershell
    Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
@@ -409,26 +409,26 @@ Pour permettre aux clients mobiles de découvrir où est localisé un utilisateu
 ## <a name="test-your-mobility-deployment"></a>Tester votre déploiement de mobilité
 <a name="TestMobility"> </a>
 
-Une fois que vous avez déployé le service de mobilité Skype entreprise Server et le service de découverte automatique Skype entreprise Server, vous pouvez exécuter une transaction de test pour vous assurer que votre déploiement fonctionne correctement. Vous pouvez exécuter **Test-CsUcwaConference** afin de tester la capacité de deux utilisateurs à créer et à rejoindre une conférence, ainsi qu'à y communiquer. Il vous faudra deux utilisateurs (réels ou tests) et leurs informations d'identification complètes pour effectuer ce test. Cette commande fonctionne pour les clients Skype entreprise et Lync Server 2013.
+Une fois que vous avez déployé Skype for Business Server Mobility service et Skype for Business Server Autodiscover Service, vous pouvez exécuter une transaction de test pour vous assurer que votre déploiement fonctionne correctement. Vous pouvez exécuter **test-CsUcwaConference** pour tester la capacité de deux utilisateurs à créer, rejoindre et communiquer dans une conférence. Vous aurez besoin de deux utilisateurs (réel ou test) et de leurs informations d’identification complètes pour effectuer ce test. Cette commande fonctionne pour les clients Skype entreprise, ainsi que pour les clients Lync Server 2013.
   
-Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez exécuter **le test-CsMcxP2PIM** . Vos utilisateurs de Lync Server 2010 doivent toujours être des utilisateurs réels ou des utilisateurs de test prédéfinis et vous aurez besoin de leurs informations d’identification de mot de passe.
+Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez exécuter **test-CsMcxP2PIM** pour tester. Vos utilisateurs de Lync Server 2010 devront toujours être des utilisateurs réels ou des utilisateurs de test prédéfinis, et vous aurez besoin de leurs informations d’identification de mot de passe.
 
 > [!NOTE]
-> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility service) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs avec des clients hérités qui utilisent MCX devront effectuer une mise à niveau vers un client actuel.
   
-### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Conférence test pour clients mobiles Skype Entreprise et Lync 2013
+### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Tester la Conférence pour les clients mobiles Skype entreprise et Lync 2013
 
-1. Ouvrez une session en tant que membre du rôle **CsAdministrator** sur n’importe quel ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session en tant que membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
     
-2. Démarrez **Skype entreprise Server Management Shell** (vous pouvez taper le nom dans la zone de recherche ou accédez à **tous les programmes** , puis sélectionnez-le).
+2. Démarrez **Skype entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou accéder à **tous les programmes** et sélectionnez-le).
     
-3. Dans la ligne de commande, saisissez :
+3. Sur la ligne de commande, entrez :
     
    ```powershell
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l'applet de commande de test. Un exemple est fourni ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet Test. Nous avons un exemple de ce qui suit.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -438,22 +438,22 @@ Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez e
    Test-CsUcwaConference -TargetFqdn pool01.contoso.com -Authentication Negotiate -OrganizerSipAddress sip:UserName1@contoso.com -OrganizerCredential $testuser1 -ParticipantSipAddress sip:UserName2@contoso.com -ParticipantCredential $testuser2 -v
    ```
 
-### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Conférence test pour clients mobiles Lync 2010
+### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Conférence de test pour les clients mobiles Lync 2010
 
 > [!NOTE]
-> La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility service) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà Unified Communications Web API (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs avec des clients hérités qui utilisent MCX devront effectuer une mise à niveau vers un client actuel.
 
-1. Ouvrez une session en tant que membre du rôle **CsAdministrator** sur n’importe quel ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session en tant que membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
     
-2. Démarrez **Skype entreprise Server Management Shell** (vous pouvez taper le nom dans la zone de recherche ou accédez à **tous les programmes** , puis sélectionnez-le).
+2. Démarrez **Skype entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou accéder à **tous les programmes** et sélectionnez-le).
     
-3. Dans la ligne de commande, saisissez :
+3. Sur la ligne de commande, entrez :
     
    ```powershell
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l'applet de commande de test. Un exemple est fourni ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet Test. Nous avons un exemple de ce qui suit.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -463,91 +463,91 @@ Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez e
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Pour examiner en détail les procédures de commande, vous pouvez consulter [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) et [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
+Pour revoir les procédures de commande, vous pouvez consulter [test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) et [test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   
-## <a name="configure-for-push-notifications"></a>Configurer les notifications push
+## <a name="configure-for-push-notifications"></a>Configurer les notifications de type push
 <a name="ConfigPush"> </a>
 
-Les notifications push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l'application Skype ou Lync est inactive. Que sont les notifications de transmission ? Ce sont des alertes pour des événements, comme des invitations de messagerie instantanée nouvelles ou manquées, ou un message vocal reçu. Le service de mobilité Skype entreprise Server envoie ces notifications au service de notification Poussée dans le Cloud de Skype entreprise Server, qui envoie les notifications au service de notifications de transmission de Microsoft (MSNS) pour les utilisateurs de Windows Phone.
+Les notifications de type diffuser, sous la forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l’application Skype ou Lync est inactive. Mais que sont les notifications de type transmission ? Il s’agit d’alertes d’événement, comme une invitation de messagerie instantanée nouvelle ou manquée, ou pour une messagerie vocale reçue. Le service de mobilité Skype entreprise Server envoie ces notifications au service de notifications poussés de Skype entreprise Server basé sur le Cloud, qui envoie ensuite les notifications au service de notifications Microsoft (MSNS) pour les utilisateurs de Windows Phone.
   
-Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais si vous disposez d’un serveur Skype entreprise, vous devez effectuer les opérations suivantes :
+Cette fonctionnalité est identique à celle de Lync Server 2013, mais si vous disposez d’un serveur Skype entreprise, vous devez effectuer les opérations suivantes :
   
 - Pour un serveur Edge Skype entreprise Server, ajoutez un nouveau fournisseur d’hébergement, Microsoft Skype entreprise Online, puis configurez la Fédération des fournisseurs d’hébergement entre votre organisation et Skype entreprise online.
     
-- Activez les notifications push en exécutant l’applet de commande **Set-CsPushNotificationConfiguration**. Par défaut, les notifications push sont désactivées.
+- Activez les notifications de type transmission en exécutant la cmdlet **Set-CsPushNotificationConfiguration** . Par défaut, les notifications push sont désactivées.
     
-- Testez votre configuration de fédération et les notifications push.
+- Testez la configuration de votre Fédération et les notifications de transmission.
     
-### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Configurer Skype Entreprise Edge Server pour les notifications push
+### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Configuration de votre serveur Microsoft Skype entreprise Edge pour les notifications de type transmission
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Ajoutez un fournisseur d’hébergement en ligne Skype entreprise Server.
+3. Ajoutez un fournisseur d’hébergement Skype entreprise Server.
     
    ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
    ```
 
-   Par exemple :
+   Par exemple :
     
    ```powershell
    New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
    ```
 
     > [!NOTE]
-    > Vous ne pouvez pas avoir plus d’une relation de fédération avec un même fournisseur d’hébergement. Par conséquent, si vous avez déjà configuré un fournisseur d’hébergement ayant une relation de fédération avec sipfed.online.lync.com, vous ne devez pas ajouter d’autre fournisseur d’hébergement, même si l’identité du fournisseur d’hébergement est différente de SkypeOnline. 
+    > Vous ne pouvez pas avoir plus d’une relation de Fédération avec un seul fournisseur d’hébergement. Par conséquent, si vous avez déjà configuré un fournisseur d’hébergement qui a une relation de Fédération avec sipfed.online.lync.com, n’ajoutez pas un autre fournisseur d’hébergement pour lui, même si l’identité du fournisseur d’hébergement est différente de SkypeOnline. 
   
-4. Configurez la Fédération des fournisseurs d’hébergement entre votre organisation et le service de notifications de transmission de Skype entreprise online. Dans la ligne de commande, tapez :
+4. Configurez la Fédération des fournisseurs d’hébergement entre votre organisation et le service de notifications par transmission Skype entreprise online. Sur la ligne de commande, vous devez taper :
     
    ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
    ```
 
-### <a name="enable-push-notifications"></a>Activer les notifications push
+### <a name="enable-push-notifications"></a>Activer les notifications de type transmission
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Activer les notifications push :
+3. Activer les notifications de type transmission :
     
    ```powershell
    Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
    ```
 
-4. Activer la fédération :
+4. Activer la Fédération :
      
    ```powershell
    Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
    ```
 
-### <a name="test-federation-and-push-notifications"></a>Tester la fédération et les notifications push
+### <a name="test-federation-and-push-notifications"></a>Fédération de test et notifications de type transmission
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Testez la configuration de la fédération :
+3. Testez la configuration de la Fédération :
     
    ```powershell
    Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
    ```
 
-4. Testez vos notifications push
+4. Testez vos notifications d’envoi :
     
    ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
@@ -556,72 +556,72 @@ Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais 
 ## <a name="configure-mobility-policy"></a>Configurer la stratégie de mobilité
 <a name="ConfigMob"> </a>
 
-Skype entreprise Server vous permet de déterminer qui peut utiliser votre service de mobilité, de passer des appels par le biais de votre travail, de la voix sur IP (VoIP) ou de la vidéo, et si vous avez besoin d’un réseau Wi-Fi ou d’une vidéo. La fonctionnalité d'Appel via le Bureau permet à un utilisateur mobile d'utiliser son numéro de téléphone professionnel, plutôt que son numéro de téléphone mobile, pour passer et recevoir des appels. La personne à l'autre bout de la ligne ne verra pas le numéro de téléphone mobile de cet utilisateur, et cet utilisateur mobile n'aura pas à payer de frais d'appels sortants. Lorsque VoIP et la vidéo sont configurés, les utilisateurs peuvent prendre et effectuer des appels VoIP et vidéo. Les paramètres d'utilisation de la fonctionnalité WiFi permettent de déterminer si l'appareil mobile d'un utilisateur sera requis pour utiliser un réseau WiFi sur un réseau de données cellulaires.
+Vous avez la possibilité de contacter Skype entreprise Server pour déterminer qui peut utiliser votre service de mobilité, appeler via le bureau, une voix sur IP (VoIP) ou une vidéo, et si WiFi sera requis pour la voix ou la vidéo. Appel via le bureau permet à un utilisateur mobile d’utiliser son numéro de téléphone professionnel au lieu de son numéro de téléphone mobile lors de l’envoi et de la réception d’appels. La personne à l’autre bout de la ligne ne verra pas le numéro de téléphone portable de l’utilisateur mobile, et elle permettra à l’utilisateur d’envoyer des frais d’appels sortants. Lors de la configuration de VoIP et de vidéo, les utilisateurs peuvent prendre et effectuer des appels VoIP et vidéo. Les paramètres de l’utilisation WiFi déterminent si l’appareil mobile d’un utilisateur doit utiliser un réseau WiFi via un réseau de données cellulaires.
   
-Les fonctionnalités de mobilité, d’appel via le bureau et les fonctions VoIP et vidéo sont toutes activées par défaut. Les paramètres pour exiger WiFi pour VoIP et pour la vidéo sont désactivés. Un administrateur a la capacité de modifier ces paramètres, soit de manière globale, soit par site ou par utilisateur.
+La mobilité, l’appel via le bureau et les fonctionnalités VoIP et vidéo sont toutes activées par défaut. Le paramètre pour exiger WiFi pour VoIP et vidéo est désactivé. Un administrateur a la possibilité de le modifier, de manière globale, par site ou par utilisateur.
   
-Pour pouvoir utiliser les fonctionnalités de mobilité et l’appel via le bureau, les utilisateurs doivent être :
+Pour pouvoir utiliser les fonctionnalités de mobilité et d’appel via le bureau, les utilisateurs doivent être :
   
 - Activé pour Skype entreprise Server
     
-- Activés pour Voix Entreprise
+- Activé pour voix entreprise.
     
-- Attribution d’une stratégie de mobilité dont l’option **EnableMobility** est définie sur **true**.
+- Affectation d’une stratégie de mobilité dont l’option **EnableMobility** a la valeur **true**.
     
-Pour pouvoir utiliser la fonctionnalité d'Appel via le Bureau, les utilisateurs doivent également être :
+Pour que les utilisateurs puissent utiliser l’appel via le bureau, ils doivent également être :
   
-- Affectés à une stratégie de voix dont l’option **Activer la sonnerie simultanée de téléphones ** est activée.
+- Affectation d’une stratégie de voix pour laquelle l’option **activer la sonnerie simultanée de téléphones** est sélectionnée.
     
-- Attribution d’une stratégie de mobilité qui utilise la propriété **EnableOutsideVoice** définie sur **true**.
+- Affectation d’une stratégie de mobilité dont la valeur de **EnableOutsideVoice** est définie sur **true**.
     
 > [!NOTE]
-> Les utilisateurs non activés pour Voix Entreprise peuvent utiliser leur appareil mobile pour effectuer des appels de Skype à Skype VoIP ou peuvent participer à des conférences via le lien Clic pour participer sur leur appareil mobile, si les options adéquates sont configurées pour la stratégie de voix à laquelle ils sont associés. Vous trouverez plus de détails dans la rubrique Planification. 
+> Les utilisateurs qui ne sont pas activés pour voix entreprise peuvent utiliser leur appareil mobile pour passer des appels VoIP Skype à Skype ou participer à des conférences à l’aide du lien Cliquer pour rejoindre les appareils mobiles, si les options appropriées sont définies pour la stratégie de voix à laquelle ils sont associés. avec. Vous trouverez plus de détails dans la rubrique planification. 
   
 ### <a name="modify-global-mobility-policy"></a>Modifier la stratégie de mobilité globale
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Désactivez l’accès à la mobilité et aux appels via le mode de fonctionnement global en entrant :
+3. Désactivez l’accès à la mobilité et appelez via le Bureau de façon globale en tapant :
     
    ```powershell
    Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
    ```
 
     > [!NOTE]
-    > Vous pouvez désactiver les appels via le mode de fonctionnement sans désactiver l’accès à la mobilité. En revanche, vous ne pouvez pas désactiver la mobilité sans désactiver la fonction d’appel via le mode de fonctionnement. 
+    > Vous pouvez désactiver l’appel via le bureau sans désactiver l’accès à la mobilité. Mais vous ne pouvez pas désactiver la mobilité sans désactiver l’appel via le bureau. 
   
-    Pour plus d’informations, consultez la rubrique [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/set-csmobilitypolicy?view=skype-ps).
+    Pour plus d’informations, consultez [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/set-csmobilitypolicy?view=skype-ps).
     
 ### <a name="modify-mobility-policy-by-site"></a>Modifier la stratégie de mobilité par site
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Vous pouvez créer une stratégie au niveau du site, désactiver les fonctionnalités VoIP et vidéo et activer l'option Exiger WiFi pour l'audio IP et Exiger WiFi pour la vidéo IP par site.
+3. Vous pouvez créer une stratégie au niveau du site, désactiver VoIP et la vidéo, activer l’utilisation de WiFi pour l’audio IP et exiger la vidéo Wi-Fi pour IP par site. Type :
     
    ```powershell
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Pour en savoir plus, reportez-vous à [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+    Pour plus d’informations, consultez la rubrique [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
     
 ### <a name="modify-mobility-policy-by-user"></a>Modifier la stratégie de mobilité par utilisateur
 
-1. Ouvrez une session avec un compte membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype entreprise Server Management Shell** et **OCSCore** sont installés.
+1. Ouvrez une session avec un compte qui est membre du rôle **CsAdministrator** sur un ordinateur sur lequel **Skype for Business Server Management Shell** et **OCSCore** sont installés.
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Créez des stratégies de mobilité au niveau utilisateur, puis désactivez la mobilité et les appels via votre bureau. Tapez :
+3. Créez des stratégies de mobilité au niveau de l’utilisateur et désactivez la mobilité et l’appel via le bureau par utilisateur. Type :
     
    ```powershell
    New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
    ```
 
-    Autre exemple avec échantillons de données :
+    Un autre exemple avec des exemples de données :
     
    ```powershell
    New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
@@ -629,6 +629,6 @@ Pour pouvoir utiliser la fonctionnalité d'Appel via le Bureau, les utilisateurs
    ```
 
     > [!NOTE]
-    > Vous pouvez désactiver les appels via le mode de fonctionnement sans désactiver l’accès à la mobilité. En revanche, vous ne pouvez pas désactiver la mobilité sans désactiver la fonction d’appel via le mode de fonctionnement. 
+    > Vous pouvez désactiver l’appel via le bureau sans désactiver l’accès à la mobilité. Mais vous ne pouvez pas désactiver la mobilité sans désactiver l’appel via le bureau. 
   
 

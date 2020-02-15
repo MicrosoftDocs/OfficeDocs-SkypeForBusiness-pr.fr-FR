@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vue d’ensemble du serveur de conversation permanente'
+title: 'Lync Server 2013 : vue d’ensemble du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71b856b4c5199acacd0ed7a3fdf41ed5ab92f59d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab73f99c8b5818a68b232e2f2dd928f79d5ff094
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050916"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41755478"
 
 _**Dernière modification de la rubrique :** 2012-10-29_
 
-Lync Server 2013, serveur de chat permanent permet aux utilisateurs de participer à des conversations à plusieurs sujets qui persistent dans le temps. Le serveur de chat permanent peut aider votre organisation à effectuer les opérations suivantes :
+Lync Server 2013, serveur de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs sujets qui persistent dans le temps. Le serveur de conversation permanente peut aider votre organisation à effectuer les opérations suivantes :
 
-  - Améliorez la communication entre les équipes géographiquement dispersées et celles à plusieurs fonctions. En utilisant la conversation permanente, les équipes peuvent facilement partager des informations, des idées et des décisions entre elles. Les messages publiés dans des salles de conversation (forums de discussion) peuvent persister (autrement dit, qui peuvent être disponibles dans le temps), de sorte que les personnes de différents sites et services peuvent participer, même s’ils ne sont pas en ligne simultanément. Lorsqu’un utilisateur se connecte à une salle de conversation, la messagerie instantanée (le nombre configurable de messages de l’historique) est automatiquement chargée dans la salle de conversation pour fournir à l’utilisateur un contexte pour la conversation.
+  - Améliorer la communication entre des équipes géographiquement dispersées et multifonctionnelles. À l’aide de la conversation permanente, les équipes peuvent partager efficacement des informations, des idées et des décisions les uns avec les autres. Les messages publiés dans les salles de conversation (forums de discussion) peuvent persister (disponibles dans le temps), afin que les utilisateurs de différents emplacements et services puissent participer, même s’ils ne sont pas en ligne simultanément. Lorsqu’un utilisateur se connecte à une salle de conversation, la conversation (un nombre configurable de messages d’historique de conversation) est automatiquement chargée dans la salle de conversation pour fournir à l’utilisateur un contexte pour la conversation.
 
-  - Améliorez la sensibilisation des informations. En utilisant des filtres côté client, les utilisateurs peuvent définir des conditions (par exemple, des mots-clés dans le contenu d’un message ou la valeur du champ « de » dans un message) pour recevoir une notification quand ces conditions sont remplies dans des messages instantanés ou des salles de conversation persistants. De cette façon, les utilisateurs peuvent rester à jour avec le contenu qui les intéressent le plus.
+  - Améliorer la prise en compte des informations. À l’aide de filtres côté client, les utilisateurs peuvent définir des conditions, telles que des mots clés dans le contenu d’un message ou la valeur du champ « de » dans un message, pour recevoir des notifications lorsque ces conditions sont remplies dans les messages instantanés de conversation permanente ou les messages de salle de conversation. De cette façon, les utilisateurs peuvent rester à jour avec le contenu qui les intéresse le plus.
 
-  - Améliorer la communication avec son organisation étendue. En facilitant la collaboration sur des sujets de longue durée avec d’autres personnes au sein de l’organisation et en fournissant un emplacement permanent pour partager les informations, la conversation permanente contribue à améliorer la communication.
+  - Améliorer la communication avec une organisation étendue. En facilitant la collaboration sur des sujets de longue durée avec d’autres personnes de l’organisation et en fournissant un emplacement permanent pour partager des informations, la conversation permanente contribue à améliorer la communication.
 
-  - Réduire la surcharge des informations. Les utilisateurs peuvent suivre des salles de conversation et des messages particulièrement intéressants en utilisant des filtres côté client et ajouter des salles de conversation que vous voulez suivre à leur liste de contacts.
+  - Réduire la surcharge d’informations. Les utilisateurs peuvent suivre les salles de conversation et les messages les plus intéressants en utilisant des filtres côté client, et ajouter des salles de conversation qu’ils souhaitent suivre à leur liste de contacts.
 
-  - Augmenter la dispersion des connaissances et informations importantes. Les documents et les liens peuvent être inclus dans les conversations, pour que tous les membres puissent y accéder. La publication de questions destinées à une équipe plus large permet aux utilisateurs de répondre à des questions d’experts. L’intégration avec d’autres systèmes d’information permet de communiquer facilement des données d’entreprise importantes aux grands groupes.
+  - Augmenter la dispersion des connaissances et informations importantes. Il est possible d’inclure des documents et des liens dans des conversations afin que toute l’équipe puisse y accéder. En publiant des questions à l’attention d’une équipe plus vaste, les utilisateurs peuvent bénéficier de réponses fournies par des experts du domaine concerné. L’intégration à d’autres systèmes d’informations permet de communiquer facilement les données d’entreprise importantes aux grands groupes.
 
-Pour activer des salles de conversation dans Lync Server 2013, déployez Lync Server 2013 persistent chat. Pour plus d’informations sur l’activation des salles de conversation, voir <http://go.microsoft.com/fwlink/p/?linkid=270945>l’aide de la messagerie instantanée à l’adresse. Si les utilisateurs sont activés pour Lync Server et que la prise en charge de Lync Server est déployée, les utilisateurs peuvent installer et utiliser Lync 2013 chat permanent pour fournir une prise en charge des salles de conversation.
+Pour activer les salles de conversation dans Lync Server 2013, déployez Lync Server 2013 persistent chat. Pour plus d’informations sur l’activation des salles de conversation, consultez <http://go.microsoft.com/fwlink/p/?linkid=270945>l’aide de conversation permanente à l’adresse. Si les utilisateurs sont activés pour Lync Server et que la prise en charge de Lync Server est déployée, les utilisateurs peuvent installer et utiliser Lync 2013 persistent chat pour fournir la prise en charge de la salle de conversation.
 
-Si votre organisation est tenue de respecter les règles de conformité, vous pouvez éventuellement déployer le service de conformité des conversations permanentes.
+Si votre organisation est tenue de suivre les réglementations de conformité, vous pouvez déployer le service de conformité de conversation permanente.
 
 </div>
 

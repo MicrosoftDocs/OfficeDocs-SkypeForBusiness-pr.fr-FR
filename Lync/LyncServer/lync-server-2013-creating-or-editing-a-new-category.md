@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création ou modification d’une catégorie'
+title: 'Lync Server 2013 : création ou modification d’une nouvelle catégorie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ca98ade04110aa2c6543e7f368d0fcd9b3e627
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fec264c0abf8b0482e451b47a0c419ffc206253d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>Création ou modification d’une catégorie dans Lync Server 2013
+# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>Création ou modification d’une nouvelle catégorie dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41722365"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour créer une catégorie, reportez-vous à la rubrique [configurer les catégories dans Lync Server 2013](lync-server-2013-configure-categories.md) dans la documentation de déploiement. Si vous êtes un administrateur de chat permanent, vous pouvez créer des catégories à l’aide du panneau de configuration de Lync Server ou des applets de commande Windows PowerShell.
+Pour créer une catégorie, reportez-vous à la rubrique [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) dans la documentation de déploiement. Si vous êtes un administrateur de conversation permanente, vous pouvez créer des catégories à l’aide du panneau de configuration Lync Server ou des applets de commande Windows PowerShell.
 
 </div>
 

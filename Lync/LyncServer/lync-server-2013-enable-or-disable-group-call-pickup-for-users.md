@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activez ou désactivez le prélèvement d’appels de groupe pour les utilisateurs'
+title: 'Lync Server 2013 : activation ou désactivation de la prise d’appel de groupe pour les utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Activer ou désactiver le prélèvement d’appels de groupe pour les utilisateurs dans Lync Server 2013
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Activer ou désactiver la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41736024"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Lors de l’ajout d’une plage de capture d’appels de groupe à la table d’orbite du parc d’appels, vous pouvez activer et désactiver le prélèvement d’appel de groupe pour l’utilisateur, le cas échéant. Cette section explique comment utiliser l’outil Kit de ressources SEFAUtil pour activer et désactiver le choix d’appels de groupe pour les utilisateurs.
+Lorsqu’une plage de prise d’appel de groupe est ajoutée à la table d’orbites de parcage d’appel, vous pouvez activer et désactiver la prise d’appel de groupe pour l’utilisateur, le cas échéant. Cette section explique comment utiliser l’outil Kit de ressources SEFAUtil pour activer et désactiver la prise d’appel de groupe pour les utilisateurs.
 
 <div>
 
 
 > [!NOTE]  
-> Le paramètre SEFAUtil,/enablegrouppickup, active la capture d’appel de groupe et attribue le numéro de groupe.
+> Le paramètre SEFAUtil,/enablegrouppickup, active la prise d’appel de groupe et affecte le numéro de groupe.
 
 
 
@@ -53,9 +53,9 @@ Lors de l’ajout d’une plage de capture d’appels de groupe à la table d’
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Activer le prélèvement d’appels de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [Activer la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [Désactiver le prélèvement d’appels de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [Désactivation de la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 

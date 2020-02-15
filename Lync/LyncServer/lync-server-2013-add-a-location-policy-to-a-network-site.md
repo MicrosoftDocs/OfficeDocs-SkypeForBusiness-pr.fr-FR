@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : ajouter une stratégie d’emplacement à un site réseau'
+title: 'Lync Server 2013 : ajout d’une stratégie d’emplacement à un site réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5e0247ccdff82737c2ed7ed830b0a99b7da1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc968af06590eab55d541330bbfeef9d9cc4d24c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,27 +37,27 @@ ms.locfileid: "41735074"
 
 _**Dernière modification de la rubrique :** 2013-02-24_
 
-Les exemples suivants montrent comment ajouter la stratégie d’emplacement **Redmond** définie dans [créer des stratégies d’emplacement dans Lync Server 2013](lync-server-2013-create-location-policies.md) à un site réseau existant et comment créer un nouveau site réseau qui utilise la stratégie de localisation **Redmond** .
+Les exemples suivants montrent comment ajouter la stratégie d’emplacement **Redmond** définie dans [Create location Policies in Lync Server 2013](lync-server-2013-create-location-policies.md) à un site réseau existant et comment créer un nouveau site réseau qui utilise la stratégie d’emplacement **Redmond** .
 
-Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des sites réseau, reportez-vous à la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
-  - **New-CsNetworkSite**
+  - **New-applet csnetworksite**
 
-  - **Get-CsNetworkSite**
+  - **Get-applet csnetworksite**
 
-  - **Set-CsNetworkSite**
+  - **Set-applet csnetworksite**
 
-  - **Remove-CsNetworkSite**
+  - **Remove-applet csnetworksite**
 
 <div>
 
 ## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Pour affecter une stratégie d’emplacement à un site réseau existant
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez les applets de commande suivantes pour modifier un site réseau existant.
     
-    Affectez la stratégie d’emplacement balisée **Redmond** à un site réseau existant appelé **Redmond**.
+    Affectez la stratégie d’emplacement balisée **Redmond** à un site réseau existant nommé **Redmond**.
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -67,11 +67,11 @@ Pour plus d’informations sur l’utilisation des sites réseau, voir la docume
 
 ## <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Pour affecter une stratégie d’emplacement à un nouveau site réseau
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande suivante pour créer un nouveau site réseau.
     
-    Créez un site réseau dans la région réseau et affectez la stratégie d’emplacement balisée **Redmond**.
+    Créez un nouveau site réseau dans la région réseau et affectez la stratégie d’emplacement balisée **Redmond**.
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

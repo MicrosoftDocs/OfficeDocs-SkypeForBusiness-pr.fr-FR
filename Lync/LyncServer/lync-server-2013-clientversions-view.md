@@ -1,5 +1,5 @@
 ---
-title: 'Affichage Lync Server 2013 : ClientVersions'
+title: 'Lync Server 2013 : vue ClientVersions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756408"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clientversions-view-in-lync-server-2013"></a>Affichage ClientVersions dans Lync Server 2013
+# <a name="clientversions-view-in-lync-server-2013"></a>Vue ClientVersions dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756408"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le mode ClientVersions stocke les informations sur les différents types de clients et différentes versions ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement dans la vue représente une version du client. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+L’affichage ClientVersions stocke des informations sur les différents types et versions de clients qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la vue représente une version du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
 <div>
 
@@ -67,22 +67,22 @@ Le mode ClientVersions stocke les informations sur les différents types de clie
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Numéro unique identifiant ce type et version de client.</p></td>
+<td><p>Numéro unique identifiant le type et la version de ce client.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Version</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Représente l’agent utilisateur.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TypeClient</strong></p></td>
+<td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Type de client.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Catégorie à laquelle le client appartient. Par exemple, le client Conferencing_Attendant_1.0 appartient au CAA ClientCategory.</p></td>
+<td><p>Catégorie à laquelle appartient le client. Par exemple, le client Conferencing_Attendant_1.0 appartient au ClientCategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

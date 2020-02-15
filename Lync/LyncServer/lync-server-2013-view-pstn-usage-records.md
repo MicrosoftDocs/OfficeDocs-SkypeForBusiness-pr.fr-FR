@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les enregistrements d’utilisation RTC'
+title: 'Lync Server 2013 : affichage des enregistrements d’utilisation RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84ba8e2091a88238caee188f3542b76f652129c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41756678"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Un enregistrement d’utilisation de réseau téléphonique commuté (PSTN) spécifie un cours d’appel (par exemple, interne, local ou longue distance) qui peut être effectué par différents utilisateurs ou groupes d’utilisateurs au sein d’une organisation. Pour plus d’informations, reportez-vous à la rubrique [enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md) dans la documentation de planification.
+Un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) spécifie une classe d’appel (interne, local ou longue distance) réalisable par différents utilisateurs, ou groupes d’utilisateurs, dans une organisation. Pour plus d’informations, reportez-vous à la rubrique [RTC usage Records in Lync Server 2013](lync-server-2013-pstn-usage-records.md) dans la documentation de planification.
 
 <div>
 
-## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>Pour afficher un enregistrement d’utilisation RTC en utilisant le panneau de configuration de Lync Server
+## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>Pour afficher un enregistrement d’utilisation PSTN à l’aide du panneau de configuration Lync Server
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Utilisation RTC**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Utilisation PSTN**.
 
-4.  Dans la page **Utilisation RTC**, sélectionnez l’enregistrement d’utilisation RTC que vous souhaitez afficher, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
+4.  Dans la page **Utilisation PSTN**, sélectionnez l’enregistrement d’utilisation PSTN que vous souhaitez afficher, cliquez sur **Modifier**, puis cliquez sur **Afficher les détails**.
     
     <div>
     
 
     > [!NOTE]  
-    > Une page en lecture seule de l’enregistrement d’utilisation RTC sélectionné affiche les itinéraires associés et les stratégies de voix associées.
+    > Une page en lecture seule de l’enregistrement d’utilisation PSTN sélectionné affiche les itinéraires associés et les stratégies de voix associées.
 
     
     </div>
@@ -64,26 +64,26 @@ Un enregistrement d’utilisation de réseau téléphonique commuté (PSTN) spé
 
 <div>
 
-## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations d’utilisation RTC à l’aide d’applets de commande Windows PowerShell
+## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations d’utilisation PSTN à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez également afficher les utilisations PSTN à l’aide de Windows PowerShell et de l’applet **de commande Get-CsPstnUsage** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez également afficher les utilisations PSTN à l’aide de Windows PowerShell et de la cmdlet **Get-CsPstnUsage** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Pour afficher les informations d’utilisation RTC à l’aide d’applets de commande Windows PowerShell
+## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Pour afficher les informations d’utilisation PSTN à l’aide des applets de commande Windows PowerShell
 
   - Pour afficher des informations sur toutes vos utilisations RTC, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsPstnUsage
     
-    Cette commande renvoie le type d’informations suivant :
+    Cette commande renvoie le type d’information suivant :
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
 </div>
 
-Pour plus d’informations, consultez la rubrique [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage).
+Pour plus d’informations, voir [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage).
 
 </div>
 
@@ -92,8 +92,8 @@ Pour plus d’informations, consultez la rubrique [Get-CsPstnUsage](https://docs
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer une stratégie de voix et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
-[Modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Création d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
   
 
 </div>

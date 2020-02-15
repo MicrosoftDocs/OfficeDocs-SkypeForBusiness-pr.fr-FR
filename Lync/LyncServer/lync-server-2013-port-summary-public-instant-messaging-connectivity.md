@@ -12,20 +12,20 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 87a51e2030c17e7ed228a75b474b168a74924cb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé de port-connectivité de messagerie instantanée publique dans Lync Server 2013
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé des ports-connectivité de messagerie instantanée publique dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41725054"
 
 _**Dernière modification de la rubrique :** 2013-02-16_
 
-Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que le protocole SIP/MTLS/TCP 5061 est bidirectionnel afin de tenir compte de la capacité des contacts du fournisseur de messagerie instantanée publique à contacter les clients Lync ou à communiquer avec des contacts de messagerie instantanée publics.
+Pour configurer votre pare-feu pour les ports et les protocoles nécessaires à la prise en charge de la connectivité de messagerie instantanée publique, notez d’abord que SIP/MTLS/TCP 5061 est bidirectionnel afin de tenir compte de la capacité des contacts dans le fournisseur de messagerie instantanée publique à contacter les clients Lync ou à contacter les contacts de messagerie instantanée publique.
 
-Windows Live Messenger peut participer aux communications audio/vidéo avec les clients Lync. Il s’agit des comptes pour le pare-feu et la configuration de protocole très similaires dont vous disposez généralement sur le pare-feu pour la prise en charge des clients Lync en tant qu’utilisateurs externes.
+Windows Live Messenger peut participer à des communications audio/vidéo avec des clients Lync. Cela tient compte des ports de pare-feu et de la configuration de protocole très similaires dont vous disposez généralement sur le pare-feu pour prendre en charge les clients Lync en tant qu’utilisateurs externes.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisation/appareil supplémentaire au-delà de la licence d’accès client standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.<BR>Les contacts de la Fédération avec le client Messenger se terminent officiellement le 15 mars 2013, à l’exception de la Chine continentale. Skype deviendra le client de Fédération pour les utilisateurs fédérés qui utilisaient déjà Messenger.
+> Plus que jamais, Lync est un outil puissant pour la connexion entre les organisations et les utilisateurs dans le monde entier. La Fédération avec Windows Live Messenger ne requiert pas de licences utilisateur/périphérique supplémentaires au-delà de la licence d’accès client (CAL) standard Lync. La Fédération Skype est ajoutée à cette liste, ce qui permet aux utilisateurs de Lync d’atteindre des centaines de millions de personnes avec la messagerie instantanée et la voix.<BR>Les contacts de la Fédération avec des clients Messenger se termineront officiellement le 15 mars 2013, à l’exception de la Chine continentale. Skype devient le client de Fédération pour les utilisateurs fédérés qui utilisaient précédemment Messenger.
 
 
 
@@ -53,7 +53,7 @@ Windows Live Messenger peut participer aux communications audio/vidéo avec les 
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Résumé du pare-feu-connectivité de messagerie instantanée publique
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Résumé du pare-feu : connectivité de messagerie instantanée publique
 
 
 <table>
@@ -65,48 +65,48 @@ Windows Live Messenger peut participer aux communications audio/vidéo avec les 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rôles/protocole/TCP ou UDP/Port</th>
+<th>Rôle/Protocole/TCP ou UDP/Port</th>
 <th>Adresse IP source</th>
 <th>Adresse IP de destination</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>/TCP/5061 d’accès/SIP (MTLS)</p></td>
-<td><p>Partenaires de connectivité de messagerie instantanée publique</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
-<td><p>Pour la connectivité de messagerie instantanée fédérée et publique qui utilise SIP.</p></td>
+<td><p>Accès/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Partenaires de connectivité PIC</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
+<td><p>Pour la connectivité de messagerie instantanée publique et fédérée qui utilisent SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p>/TCP/5061 d’accès/SIP (MTLS)</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
-<td><p>Partenaires de connectivité de messagerie instantanée publique</p></td>
-<td><p>Pour la connectivité de messagerie instantanée fédérée et publique qui utilise SIP.</p></td>
+<td><p>Accès/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
+<td><p>Partenaires de connectivité PIC</p></td>
+<td><p>Pour la connectivité de messagerie instantanée publique et fédérée qui utilisent SIP.</p></td>
 </tr>
 <tr class="odd">
-<td><p>/TCP/443 d’accès/SIP (TLS)</p></td>
+<td><p>Accès/SIP (TLS)/TCP/443</p></td>
 <td><p>Clients</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
-<td><p>Trafic SIP client vers serveur pour l’accès des utilisateurs externes.</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
+<td><p>Trafic SIP client à serveur pour l’accès des utilisateurs externes.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50000-59,999</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
+<td><p>A/V/RTP/TCP/50000-000-59 999</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
 <td><p>Clients Live Messenger</p></td>
-<td><p>Utilisé pour les sessions A/V avec Windows Live Messenger si la connectivité PIC (Public IM Connectivity) est configurée.</p></td>
+<td><p>Utilisé pour les sessions A/V avec Windows Live Messenger si la connectivité PIC est configurée.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
 <td><p>Clients Live Messenger</p></td>
-<td><p>Requis pour la connectivité de messagerie instantanée publique avec Windows Live Messenger.</p></td>
+<td><p>Obligatoire pour la connectivité PIC avec Windows Live Messenger.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Clients Live Messenger</p></td>
-<td><p>Interface d’accès Edge Server</p></td>
-<td><p>Requis pour la connectivité de messagerie instantanée publique avec Windows Live Messenger.</p></td>
+<td><p>Interface d’accès au serveur Edge</p></td>
+<td><p>Obligatoire pour la connectivité PIC avec Windows Live Messenger.</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,8 +119,8 @@ Windows Live Messenger peut participer aux communications audio/vidéo avec les 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
-[Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[Scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+[Déterminer la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

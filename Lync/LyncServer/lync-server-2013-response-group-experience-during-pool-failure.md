@@ -1,5 +1,5 @@
 ---
-title: Expérience de Response Group en cas de défaillance d’un pool dans Lync Server 2013
+title: Expérience de groupe de réponse Lync Server 2013 en cas de défaillance du pool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad00afac363642106019269e86111f61eaca504e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e7867af15eb5e8824562eb03244280cfbc84f7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Expérience de Response Group en cas de défaillance d’un pool dans Lync Server 2013
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Expérience Response Group dans Lync Server 2013 en cas de défaillance d’un pool
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41723604"
 
 _**Dernière modification de la rubrique :** 2012-10-30_
 
-Cette section décrit en détail la façon dont l’activité du groupe de réponses est affectée aux étapes suivantes :
+Cette section décrit en détail la façon dont l’activité des groupes Response Group est affectée au cours des étapes suivantes :
 
-  - Une panne se produit dans le pool principal, mais le basculement n’est pas encore lancé.
+  - Une panne se produit dans le pool principal, mais le basculement n’est pas encore démarré.
 
-  - Le service est en échec sur le pool de sauvegarde.
+  - Un basculement du service est effectué vers le pool de sauvegarde.
 
-  - Le service n’a pas pu revenir au pool principal.
+  - Une restauration automatique du service est effectuée vers le pool principal.
 
 <div>
 
-## <a name="user-experience-when-outage-occurs"></a>Utilisation de l’interface utilisateur en cas d’interruption
+## <a name="user-experience-when-outage-occurs"></a>Expérience utilisateur en cas de panne
 
-En cas d’interruption d’une réserve ou d’un site, mais que l’administrateur n’a pas encore lancé le basculement, l’activité du groupe de réponses est gérée comme décrit dans le tableau suivant.
+Quand une panne se produit au niveau d’un pool ou d’un site mais que l’administrateur n’a pas encore effectué de basculement, l’activité des groupes Response Group est gérée comme indiqué dans le tableau suivant.
 
 <div>
 
 
 > [!NOTE]  
-> Lors de la récupération après incident, les appels se comportent différemment selon que les groupes de réponses de la liste principale ont été importés au pool de sauvegarde lors de la récupération. Dans le tableau suivant, les références aux groupes de réponse importés impliquent que les groupes de réponse de pool principal aient été importés dans le pool de sauvegarde lors du mode de récupération d’urgence.
+> Au cours d’une récupération d’urgence, les appels se comportent différemment si les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde au cours de la récupération d’urgence. Dans le tableau suivant, les références vers les groupes Response Group importés indiquent que les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde en mode récupération d’urgence.
 
 
 
 </div>
 
-### <a name="outage-occurs"></a>Une panne survient
+### <a name="outage-occurs"></a>Situation de panne
 
 <table>
 <colgroup>
@@ -70,47 +70,47 @@ En cas d’interruption d’une réserve ou d’un site, mais que l’administra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type d’appel ou d’action de l’utilisateur</th>
-<th>Pendant la période d’interruption</th>
+<th>Type d’appel ou action de l’utilisateur</th>
+<th>Pendant une panne</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Appels connectés à un agent</p></td>
 <td><ul>
-<li><p>Les appels ordinaires restent connectés.</p></li>
+<li><p>Les appels normaux restent connectés.</p></li>
 <li><p>Les appels anonymes sont déconnectés.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Appels en cours non encore connectés à un agent</p></td>
+<td><p>Appels en cours pas encore connectés à un agent</p></td>
 <td><p>Les appels sont déconnectés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nouveaux appels</p></td>
 <td><ul>
 <li><p>Les appels sont déconnectés.</p></li>
-<li><p>Si les groupes de réponse étaient importés, les appels se connectent à un pool de sauvegarde, mais les agents hébergés dans le pool principal sont injoignables.</p></li>
+<li><p>Si des groupes Response Group sont importés, les appels se connectent au pool de sauvegarde mais les agents hébergés dans le pool principal sont injoignables.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Appels d’agent de la part de Response Group</p></td>
-<td><p>Cette fonctionnalité est désactivée pendant cette étape.</p></td>
+<td><p>L’agent appelle pour le compte du groupe Response Group</p></td>
+<td><p>La fonctionnalité est désactivée au cours de cette étape.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Informations de connexion et d’agent</p></td>
+<td><p>Connexion et informations de l’agent</p></td>
 <td><ul>
-<li><p>Les groupes d’agents appartenant au pool principal peuvent être affichés sur la console de l’agent, mais les agents ne peuvent pas se connecter.</p></li>
-<li><p>Les groupes d’agents appartenant au pool de sauvegarde peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agent importés ne sont pas affichés dans la console de l’agent.</p></li>
+<li><p>Les groupes d’agents que possède le pool principal sont consultables sur la console des agents mais les agents ne peuvent pas se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool de sauvegarde sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents importés ne sont pas affichés dans la console des agents.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Configuration de Response Group</p></td>
+<td><p>Configuration des groupes Response Group</p></td>
 <td><ul>
-<li><p>Il est possible d’afficher les groupes de réponse appartenant au pool principal en fonction de la disponibilité de la base de données principale du pool principal, mais pas de les modifier.</p></li>
-<li><p>Les groupes de réponse appartenant au pool de sauvegarde peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse importés ne peuvent pas être affichés dans le panneau de configuration de Lync Server ou dans l’outil de configuration de groupe de réponse, mais ils peuvent être configurés en utilisant des applets de commande Lync Server Management Shell.</p></li>
+<li><p>Les groupes Response Group que possède le pool principal sont consultables en fonction de la disponibilité de la base de données principale du pool principal, mais ils ne sont pas modifiables.</p></li>
+<li><p>Les groupes Response Group que possède le pool de sauvegarde sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group importés ne peuvent pas être affichés à l’aide du panneau de configuration Lync Server ou de l’outil de configuration Response Group, mais ils peuvent être configurés à l’aide des applets de commande Lync Server Management Shell.</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -121,21 +121,21 @@ En cas d’interruption d’une réserve ou d’un site, mais que l’administra
 
 <div>
 
-## <a name="user-experience-during-failover"></a>Utilisation de l’interface utilisateur pendant le basculement
+## <a name="user-experience-during-failover"></a>Expérience utilisateur durant le basculement
 
-Lorsqu’un administrateur appelle le basculement vers un pool de sauvegarde, l’activité du groupe de réponses est gérée durant et après le basculement, comme décrit dans le tableau suivant. La première colonne décrit le type d’activité qui peut avoir lieu. La colonne du milieu décrit la façon dont chaque activité est gérée au cours de la période de reprise du pool de sauvegarde. La dernière colonne décrit le mode de gestion de l’activité pour la durée, une fois le processus de basculement terminé et le pool de sauvegarde en cours pour le pool principal.
+Quand un administrateur a recours au basculement vers un pool de sauvegarde, l’activité des groupes Response Group est gérée pendant et après le basculement comme indiqué dans le tableau suivant. La première colonne décrit le type d’activité qui peut avoir lieu. La colonne du milieu décrit la façon dont chaque activité est gérée durant le bref laps de temps nécessaire au basculement vers le pool de sauvegarde. La dernière colonne décrit la façon dont l’activité est gérée pendant toute la durée de l’opération, une fois que le processus de basculement est terminé et que le pool de sauvegarde a remplacé le pool principal.
 
 <div>
 
 
 > [!NOTE]  
-> Lors de la récupération après incident, les appels se comportent différemment selon que les groupes de réponses de la liste principale ont été importés au pool de sauvegarde lors de la récupération. Dans le tableau suivant, les références aux groupes de réponse importés impliquent que les groupes de réponse de pool principal aient été importés dans le pool de sauvegarde lors du mode de récupération d’urgence.
+> Au cours d’une récupération d’urgence, les appels se comportent différemment si les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde au cours de la récupération d’urgence. Dans le tableau suivant, les références vers les groupes Response Group importés indiquent que les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde en mode récupération d’urgence.
 
 
 
 </div>
 
-### <a name="failover-is-initiated"></a>Le basculement est lancé
+### <a name="failover-is-initiated"></a>Basculement démarré
 
 <table>
 <colgroup>
@@ -145,74 +145,74 @@ Lorsqu’un administrateur appelle le basculement vers un pool de sauvegarde, l�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type d’appel ou d’action de l’utilisateur</th>
-<th>Lors du basculement</th>
-<th>Après le basculement</th>
+<th>Type d’appel ou action de l’utilisateur</th>
+<th>Durant le basculement</th>
+<th>Une fois le basculement terminé</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Appels connectés à un agent</p></td>
 <td><ul>
-<li><p>Les appels ordinaires restent connectés.</p></li>
+<li><p>Les appels normaux restent connectés.</p></li>
 <li><p>Les appels anonymes sont déconnectés.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Les appels ordinaires restent connectés.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels anonymes ayant atteint le pool de sauvegarde restent connectés.</p></li>
+<li><p>Les appels normaux restent connectés.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels anonymes qui ont joint le pool de sauvegarde restent connectés.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Appels en cours non encore connectés à un agent</p></td>
+<td><p>Appels en cours pas encore connectés à un agent</p></td>
 <td><p>Les appels sont déconnectés.</p></td>
 <td><ul>
-<li><p>Si les Response Groups n’ont pas été importés, aucun appel n’est dans ce statut.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels ayant atteint le pool de sauvegarde restent connectés.</p></li>
+<li><p>Si aucun groupe Response Group n’a été importé, il n’y a aucun appel avec cet état.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels qui ont joint le pool de sauvegarde restent connectés.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Nouveaux appels</p></td>
 <td><ul>
 <li><p>Les appels sont déconnectés.</p></li>
-<li><p>S’il s’agit de groupes de réponse importés, les appels se connectent au pool de sauvegarde, mais les agents hébergés dans le pool principal sont injoignables.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels se connectent au pool de sauvegarde mais les agents hébergés dans le pool principal sont injoignables.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Si les Response Groups n’ont pas été importés, les appels sont interrompus.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels se connectent au pool de sauvegarde.</p></li>
+<li><p>Si les groupes Response Group n’ont pas été importés, les appels sont déconnectés.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels se connectent au pool de sauvegarde.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Appels d’agent de la part de Response Group</p></td>
-<td><p>Cette fonctionnalité est désactivée pendant cette étape</p></td>
+<td><p>L’agent appelle pour le compte du groupe Response Group</p></td>
+<td><p>La fonctionnalité est désactivée au cours de cette étape.</p></td>
 <td><ul>
-<li><p>Si les Response Groups n’ont pas été importés, les appels échouent.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels aboutissent.</p></li>
+<li><p>Si les groupes Response Group n’ont pas été importés, les appels n’aboutissent pas.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels aboutissent.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Informations de connexion et d’agent</p></td>
+<td><p>Connexion et informations de l’agent</p></td>
 <td><ul>
-<li><p>Les groupes d’agents appartenant au pool principal peuvent être affichés sur la console de l’agent, mais les agents ne peuvent pas se connecter.</p></li>
-<li><p>Les groupes d’agents appartenant au pool de sauvegarde peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agent importés s’affichent dans la console d’agent et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool principal sont consultables sur la console des agents mais les agents ne peuvent pas se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool de sauvegarde sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents importés sont affichés dans la console des agents et les agents peuvent se connecter.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Les groupes d’agents appartenant au pool principal peuvent être affichés sur la console de l’agent, mais les agents ne peuvent pas se connecter.</p></li>
-<li><p>Les groupes d’agents appartenant au pool de sauvegarde peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agent importés s’affichent dans la console d’agent et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool principal sont consultables sur la console des agents mais les agents ne peuvent pas se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool de sauvegarde sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents importés sont affichés dans la console des agents et les agents peuvent se connecter.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Configuration de Response Group</p></td>
+<td><p>Configuration des groupes Response Group</p></td>
 <td><ul>
-<li><p>Il est possible d’afficher les groupes de réponse appartenant au pool principal en fonction de la disponibilité de la base de données principale du pool principal, mais pas de les modifier.</p></li>
-<li><p>Les groupes de réponse appartenant au pool de sauvegarde peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse importés ne peuvent pas être affichés dans le panneau de configuration de Lync Server ou dans l’outil de configuration de groupe de réponse, mais ils peuvent être configurés en utilisant des applets de commande Lync Server Management Shell.</p></li>
+<li><p>Les groupes Response Group que possède le pool principal sont consultables en fonction de la disponibilité de la base de données principale du pool principal, mais ils ne sont pas modifiables.</p></li>
+<li><p>Les groupes Response Group que possède le pool de sauvegarde sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group importés ne peuvent pas être affichés à l’aide du panneau de configuration Lync Server ou de l’outil de configuration Response Group, mais ils peuvent être configurés à l’aide des applets de commande Lync Server Management Shell.</p></li>
 </ul></td>
 <td><ul>
-<li><p>En fonction de la disponibilité de la base de données principale, vous pouvez afficher les groupes de réponses détenus par le pool principal, mais ils ne peuvent pas être modifiés.</p></li>
-<li><p>Les groupes de réponse appartenant au pool de sauvegarde peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse importés ne peuvent pas être affichés dans le panneau de configuration de Lync Server ou dans l’outil de configuration de groupe de réponse, mais ils peuvent être configurés en utilisant des applets de commande Lync Server Management Shell.</p></li>
+<li><p>Les groupes Response Group que possède le pool principal sont consultables en fonction de la disponibilité de la base de données principale, mais ils ne sont pas modifiables.</p></li>
+<li><p>Les groupes Response Group que possède le pool de sauvegarde sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group importés ne peuvent pas être affichés à l’aide du panneau de configuration Lync Server ou de l’outil de configuration Response Group, mais ils peuvent être configurés à l’aide des applets de commande Lync Server Management Shell.</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -223,21 +223,21 @@ Lorsqu’un administrateur appelle le basculement vers un pool de sauvegarde, l�
 
 <div>
 
-## <a name="user-experience-during-failback"></a>Utilisation des utilisateurs lors du retour arrière
+## <a name="user-experience-during-failback"></a>Expérience utilisateur durant la restauration automatique
 
-Lorsqu’un administrateur appelle la restauration automatique vers le pool principal, l’activité de groupe de réponses est gérée pendant et après le retour automatique comme décrit dans le tableau suivant.
+Quand un administrateur a recours à la restauration automatique vers le pool principal, l’activité des groupes Response Group est gérée pendant et après la restauration automatique comme indiqué dans le tableau suivant.
 
 <div>
 
 
 > [!NOTE]  
-> Lors de la récupération après incident, les appels se comportent différemment selon que les groupes de réponses de la liste principale ont été importés au pool de sauvegarde lors de la récupération. Dans le tableau suivant, les références aux groupes de réponse importés impliquent que les groupes de réponse de pool principal aient été importés dans le pool de sauvegarde lors du mode de récupération d’urgence.
+> Au cours d’une récupération d’urgence, les appels se comportent différemment si les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde au cours de la récupération d’urgence. Dans le tableau suivant, les références vers les groupes Response Group importés indiquent que les groupes Response Group du pool principal ont été importés dans le pool de sauvegarde en mode récupération d’urgence.
 
 
 
 </div>
 
-### <a name="call-handling-in-failback"></a>Gestion des appels en retour automatique
+### <a name="call-handling-in-failback"></a>Gestion des appels pendant la restauration automatique
 
 <table>
 <colgroup>
@@ -247,70 +247,70 @@ Lorsqu’un administrateur appelle la restauration automatique vers le pool prin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type d’appel ou d’action de l’utilisateur</th>
+<th>Type d’appel ou action de l’utilisateur</th>
 <th>Pendant la restauration automatique</th>
-<th>Après la restauration automatique</th>
+<th>Une fois la restauration automatique terminée</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Appels connectés à un agent</p></td>
 <td><ul>
-<li><p>Les appels ordinaires restent connectés.</p></li>
-<li><p>Si les Response Groups n’ont pas été importés, il n’y a pas de statut anonyme.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels anonymes restent connectés.</p></li>
+<li><p>Les appels normaux restent connectés.</p></li>
+<li><p>Si aucun groupe Response Group n’a été importé, il n’y a aucun appel anonyme avec cet état.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels anonymes restent connectés.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Les appels ordinaires restent connectés.</p></li>
-<li><p>Si les Response Groups n’ont pas été importés, il n’y a pas de statut anonyme.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels anonymes restent connectés.</p></li>
+<li><p>Les appels normaux restent connectés.</p></li>
+<li><p>Si aucun groupe Response Group n’a été importé, il n’y a aucun appel anonyme avec cet état.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels anonymes restent connectés.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Appels en cours non encore connectés à un agent</p></td>
+<td><p>Appels en cours pas encore connectés à un agent</p></td>
 <td><ul>
-<li><p>Si les Response Groups n’ont pas été importés, aucun appel n’est dans ce statut.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels seront déconnectés.</p></li>
+<li><p>Si aucun groupe Response Group n’a été importé, il n’y a aucun appel avec cet état.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels seront déconnectés.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Si les Response Groups n’ont pas été importés, aucun appel n’est dans ce statut.</p></li>
-<li><p>Pour les groupes de réponse importés, les appels seront déconnectés.</p></li>
+<li><p>Si aucun groupe Response Group n’a été importé, il n’y a aucun appel avec cet état.</p></li>
+<li><p>Pour les groupes Response Group importés, les appels seront déconnectés.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Nouveaux appels</p></td>
-<td><p>Les appels se connectent au pool principal, mais les agents hébergés dans le pool principal sont injoignables.</p></td>
-<td><p>Les appels se connectent à la liste principale.</p></td>
+<td><p>Les appels se connectent au pool principal mais les agents hébergés dans le pool principal sont injoignables.</p></td>
+<td><p>Les appels se connectent au pool principal.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels d’agent de la part de Response Group</p></td>
-<td><p>Cette fonctionnalité est désactivée pendant cette étape.</p></td>
-<td><p>Appels réussis.</p></td>
+<td><p>L’agent appelle pour le compte du groupe Response Group</p></td>
+<td><p>La fonctionnalité est désactivée au cours de cette étape.</p></td>
+<td><p>Les appels aboutissent.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Informations de connexion et d’agent</p></td>
+<td><p>Connexion et informations de l’agent</p></td>
 <td><ul>
-<li><p>Les groupes d’agents appartenant au pool principal peuvent être affichés sur la console de l’agent, mais les agents ne peuvent pas se connecter.</p></li>
-<li><p>Les groupes d’agents appartenant au pool de sauvegarde peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agent importés s’affichent dans la console d’agent et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool principal sont consultables sur la console des agents mais les agents ne peuvent pas se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool de sauvegarde sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents importés sont affichés dans la console des agents et les agents peuvent se connecter.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Les groupes d’agents appartenant au pool principal peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agents appartenant au pool de sauvegarde peuvent être affichés sur la console de l’agent et les agents peuvent se connecter.</p></li>
-<li><p>Les groupes d’agent importés ne sont pas affichés dans la console de l’agent.</p></li>
+<li><p>Les groupes d’agents que possède le pool principal sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents que possède le pool de sauvegarde sont consultables sur la console des agents et les agents peuvent se connecter.</p></li>
+<li><p>Les groupes d’agents importés ne sont pas affichés dans la console des agents.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Configuration de Response Group</p></td>
+<td><p>Configuration des groupes Response Group</p></td>
 <td><ul>
-<li><p>Il est possible d’afficher les groupes de réponse appartenant au pool principal en fonction de la disponibilité de la base de données principale du pool principal, mais pas de les modifier.</p></li>
-<li><p>Les groupes de réponse appartenant au pool de sauvegarde peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse importés ne peuvent pas être affichés dans le panneau de configuration de Lync Server ou dans l’outil de configuration de groupe de réponse, mais ils peuvent être configurés en utilisant des applets de commande Lync Server Management Shell.</p></li>
+<li><p>Les groupes Response Group que possède le pool principal sont consultables en fonction de la disponibilité de la base de données principale du pool principal, mais ils ne sont pas modifiables.</p></li>
+<li><p>Les groupes Response Group que possède le pool de sauvegarde sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group importés ne peuvent pas être affichés à l’aide du panneau de configuration Lync Server ou de l’outil de configuration Response Group, mais ils peuvent être configurés à l’aide des applets de commande Lync Server Management Shell.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Les groupes de réponse appartenant au pool principal peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse appartenant au pool de sauvegarde peuvent être affichés et modifiés.</p></li>
-<li><p>Les groupes de réponse importés ne peuvent pas être affichés dans le panneau de configuration de Lync Server ou dans l’outil de configuration de groupe de réponse, mais ils peuvent être configurés en utilisant des applets de commande Lync Server Management Shell.</p></li>
+<li><p>Les groupes Response Group que possède le pool principal sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group que possède le pool de sauvegarde sont consultables et modifiables.</p></li>
+<li><p>Les groupes Response Group importés ne peuvent pas être affichés à l’aide du panneau de configuration Lync Server ou de l’outil de configuration Response Group, mais ils peuvent être configurés à l’aide des applets de commande Lync Server Management Shell.</p></li>
 </ul></td>
 </tr>
 </tbody>

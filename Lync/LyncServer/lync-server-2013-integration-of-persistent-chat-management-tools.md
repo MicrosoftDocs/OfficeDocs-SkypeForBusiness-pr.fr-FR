@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Intégration des outils de gestion de conversation permanente'
+title: 'Lync Server 2013 : intégration des outils de gestion de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35f9bcd1238141aada9bc5bfd9b802c10ffc6ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29d283b7c935cb41f14b2a7048eedd369d378f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41725814"
 
 _**Dernière modification de la rubrique :** 2012-08-16_
 
-Lync Server 2013 simplifie l’administration du serveur de chat permanent en intégrant ses outils d’administration aux outils utilisés pour le reste de Lync Server.
+Lync Server 2013 simplifie l’administration du serveur de conversation permanente en intégrant ses outils d’administration aux outils utilisés pour le reste de Lync Server.
 
-Le serveur Chat permanent inclut une interface utilisateur d’administration intégrée au panneau de configuration de Lync Server. Par ailleurs, le serveur Chat permanent inclut une collection d’applets de dialogue Windows PowerShell permettant d’administrer et de gérer les catégories de serveurs de chat permanent, les salles (y compris la suppression de salles et la suppression de contenu obsolète) et les compléments.
+Le serveur de conversation permanente inclut une expérience d’interface utilisateur d’administration intégrée au panneau de configuration Lync Server. De même, le serveur de conversation permanente inclut une collection d’applets de commande Windows PowerShell pour administrer et gérer les catégories de serveur de conversation permanente, les salles (y compris la suppression de salles et le contenu obsolète) et les compléments.
 
 <div>
 

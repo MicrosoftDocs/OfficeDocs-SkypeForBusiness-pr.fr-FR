@@ -12,16 +12,16 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91d8826a777e8e5f59ffda8cf1004c10c8cc6437
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765985"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Les rubriques de cette section fournissent des procédures pas à pas relatives à la surveillance et aux tâches de configuration de l’intégrité que vous pouvez effectuer dans Lync Server 2013 Server Control Panel et Lync Server 2013 Management Shell.
+Les rubriques de cette section comportent des procédures détaillées pour les tâches de configuration de surveillance et d’intégrité que vous pouvez effectuer dans le panneau de configuration Lync Server 2013 et dans Lync Server 2013 Management Shell.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Enregistrement des détails des appels (CDR) dans Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
+  - [Enregistrement des détails des appels dans Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
 
-  - [Qualité de l’expertise dans Lync Server 2013](lync-server-2013-quality-of-experience-qoe.md)
+  - [Qualité de l’expérience (QoE) dans Lync Server 2013](lync-server-2013-quality-of-experience-qoe.md)
 
-  - [Surveiller la mobilité des performances dans Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)
+  - [Surveillance de la mobilité pour les performances dans Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [Utilisation de rapports d’analyse dans Lync Server 2013](lync-server-2013-using-monitoring-reports.md)
+  - [Utilisation des rapports de surveillance dans Lync Server 2013](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 
@@ -58,7 +58,7 @@ Les rubriques de cette section fournissent des procédures pas à pas relatives 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Opérations dans Skype Entreprise Server 2015](lync-server-2013-operations.md)  
+[Opérations dans Lync Server 2013](lync-server-2013-operations.md)  
   
 
 </div>

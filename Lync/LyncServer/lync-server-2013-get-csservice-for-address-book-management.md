@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Get-CsService pour la gestion du carnet d’adresses'
+title: 'Lync Server 2013 : Get-CsService pour la gestion des carnets d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService pour la gestion du carnet d’adresses dans Lync Server 2013
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService pour la gestion des carnets d’adresses dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41763578"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Qui peut exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsService localement : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
+Personnes autorisées à exécuter cette applet de commande : Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Get-CsService : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService est utile pour récupérer et afficher la configuration actuelle des services Web définis de votre infrastructure. En définissant le nom de domaine complet (FQDN) du pool et le serveur de noms WebServer, l’applet de passe renvoie les services Web proposés par votre serveur, y compris le gestionnaire du carnet d’adresses et les URI d’extension de liste de distribution.
+Get-CsService est utile pour extraire et afficher la configuration actuelle des services Web définis de votre infrastructure. Si vous définissez le nom de domaine complet (FQDN) du pool et le paramètre WebServer, l’applet de commande renvoie les services web que votre serveur met à disposition, y compris les URI de développement du gestionnaire de carnet d’adresses et de la liste de distribution.
 
 Par exemple :
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-Cette applet de commande renvoie ce qui suit :
+L’applet de commande renvoie ce qui suit :
 
-Identité : serveur :pool01. contoso. net
+Identity : serveur :pool01. contoso. net
 
-:DC01 :%. contoso. net
+:DC01 : cache de sous-magasin. contoso. net
 
 UserServer : UserServer :pool01. contoso. net
 
@@ -129,7 +129,7 @@ ExternalFqdn : csweb.contoso.com
 
 InternalFqdn : internalweb.contoso.net
 
-DependentServiceList : {Registrar :pool01. contoso. net ConferencingServer :pool01. contoso. net}
+DependentServiceList : {serveur d’inscriptions :pool01. contoso. net, conferenceserver :pool01. contoso. net}
 
 ServiceId : 1-WebServices-1
 

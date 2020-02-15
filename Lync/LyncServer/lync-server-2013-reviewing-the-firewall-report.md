@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : examen du rapport de pare-feu'
+title: 'Lync Server 2013 : révision du rapport de pare-feu'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,18 +37,18 @@ ms.locfileid: "41765082"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Lync Server 2013 est doté d’un ensemble de règles de pare-feu potentiellement complexes. L’outil de planification réduit cette complexité en générant un rapport qui définit en détail toutes les exigences de pare-feu, en fonction du critère d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
+Lync Server 2013 dispose d’un ensemble de règles de pare-feu potentiellement complexe. L’outil de planification réduit cette complexité en générant un rapport qui définit en détail tous les besoins en matière de pare-feu, en fonction des critères d’entrée du concepteur. L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.
 
-En termes de gestion du pare-feu, le rapport doit être lu attentivement afin de s’assurer qu’il n’y a aucun conflit avec des règles de pare-feu existantes et que toutes les stratégies et procédures sont respectées.
+Du point de vue de la gestion de pare-feu, le rapport doit être soigneusement révisé pour garantir qu’il n’y a aucun conflit avec la sortie des règles de pare-feu et qu’il n’existe aucune stratégie ou procédure susceptible d’être violée.
 
-![Rapport d’administration de pare-feu](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administration de pare-feu")
+![Rapport d’administrateur de pare-feu](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administrateur de pare-feu")
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Consultation des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Examen des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : paramètres de configuration de la réunion'
+title: 'Lync Server 2013 : paramètres de configuration de réunion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Paramètres de configuration de la réunion dans Lync Server 2013
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Paramètres de configuration de réunion dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41766055"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Dans Lync Server 2013, la stratégie de conférence définit l’utilisation de la planification et de la participation des utilisateurs, et les paramètres de participation à une réunion situés dans la page Configuration de la réunion sont définis comme suit :
+Dans Lync Server 2013, la stratégie de conférence définit l’expérience de planification et de participation des utilisateurs, et les paramètres de participation aux réunions situés dans la page Configuration de la réunion définissent les éléments suivants :
 
   - si les appels émis à partir d’un du réseau téléphonique commuté (PSTN) sont transférés vers la salle d’attente ;
 
@@ -47,15 +47,15 @@ Dans Lync Server 2013, la stratégie de conférence définit l’utilisation de 
 
   - si les utilisateurs anonymes (non authentifiés) sont admis par défaut.
 
-Les rubriques de cette section expliquent comment configurer les paramètres de participation à une réunion.
+Les rubriques de cette section expliquent comment configurer les paramètres de participation aux réunions.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Afficher les paramètres de configuration de la réunion dans Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
+  - [Afficher les paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [Créer ou modifier un ensemble de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [Création ou modification d’une collection de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
   - [Supprimer une collection existante de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 

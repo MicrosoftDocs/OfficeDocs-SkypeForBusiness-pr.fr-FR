@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vue d’ensemble du déploiement'
+title: 'Lync Server 2013 : vue d’ensemble du déploiement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d237e0ba3f94f81ce3988e2ce8994d49f97087d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65d5fd5de9a72002d6ee8bd58ef5367b96634b80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41762662"
 
 _**Dernière modification de la rubrique :** 2013-03-12_
 
-La principale différence entre Lync Server 2013 Enterprise Edition et Lync Server 2013 Standard Edition est que Standard Edition ne prend pas en charge les fonctionnalités de haute disponibilité incluses dans l’édition Enterprise. Pour une disponibilité élevée, vous devez déployer plusieurs serveurs frontaux vers un pool, puis vous pouvez mettre en miroir le serveur exécutant SQL Server. Avec Enterprise Edition, vous pouvez choisir de collocate ou de définir un serveur de médiation autonome. Le serveur de surveillance et l’archivage serveur peuvent utiliser un serveur autonome exécutant SQL Server. Des instances de SQL Server peuvent être exécutées sur le serveur de base de données pour les serveurs frontaux et les pools.
+La différence principale entre Lync Server 2013 Enterprise Edition et Lync Server 2013 Standard Edition réside dans le fait que Standard Edition ne prend pas en charge les fonctionnalités de haute disponibilité incluses dans Enterprise Edition. Pour la haute disponibilité, vous devez déployer plusieurs serveurs frontaux dans un pool, puis mettre en miroir le serveur exécutant SQL Server. Avec Enterprise Edition, vous pouvez choisir de colocaliser ou de définir un serveur de médiation autonome. Le serveur de surveillance et le serveur d’archivage peuvent utiliser un serveur autonome exécutant SQL Server. Ou, les instances de SQL Server peuvent être exécutées sur le serveur de base de données pour les pools et les serveurs frontaux.
 
-Les serveurs exécutant Lync Server 2013 Standard Edition sont destinés aux organisations plus petites et aux emplacements distants, qui sont retirés géographiquement du déploiement principal de l’organisation. Deux serveurs Standard Edition Server associés à une reprise en cas de sinistre peuvent prendre en charge jusqu’à 5 000 utilisateurs. Vous ne pouvez pas mettre en réserve les serveurs Standard Edition tels que vous pouvez disposer de serveurs frontaux dans l’édition Enterprise. Par ailleurs, la base de données SQL Server utilisée par Standard Edition est un serveur colocalisé exécutant SQL Server Express conçu pour gérer les charges de travail des serveurs Standard Edition. Ce n’est pas dire que tous les rôles doivent résider sur un serveur Standard Edition Server. Vous pouvez disposer de serveurs de médiation autonomes et de serveurs Edge. La base de données SQL Server du magasin de gestion central et aux fins de Lync Server 2013 doit résider sur un serveur Standard Edition Server en tant que serveur exécutant SQL Server. Le serveur de surveillance et le serveur d’archivage utilisent un serveur autonome avec la base de données SQL Server.
+Les serveurs exécutant Lync Server 2013 Standard Edition sont conçus pour des organisations de plus petite taille et des emplacements distants, qui sont retirés géographiquement du déploiement principal de l’organisation. Deux serveurs Standard Edition Server réunis pour le basculement en cas de catastrophe peuvent prendre en charge jusqu’à 5 000 utilisateurs. Vous ne pouvez pas regrouper les serveurs Standard Edition comme vous pouvez les serveurs frontaux dans Enterprise Edition. De plus, la base de données SQL Server utilisée par Standard Edition est un serveur colocalisé exécutant SQL Server Express qui est conçu pour gérer les charges de travail de serveur Standard Edition. Cela ne signifie pas que tous les rôles doivent résider sur un serveur Standard Edition. Vous pouvez avoir des serveurs de médiation autonomes et des serveurs Edge. La base de données SQL Server pour le magasin central de gestion et pour les besoins de Lync Server 2013 doit résider sur le serveur Standard Edition colocalisé avec le serveur exécutant SQL Server. Le serveur de surveillance et le serveur d’archivage utilisent un serveur autonome avec la base de données SQL Server.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a153899fd484da861088a8e7672a69707e46a59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7d20d748f9c9754efab768a702f1272bc70d889e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764812"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="session-view-in-lync-server-2013"></a>Affichage de session dans Lync Server 2013
+# <a name="session-view-in-lync-server-2013"></a>Vue de session dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764812"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Le mode session stocke les informations sur les sessions contenant des enregistrements dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+L’affichage Session stocke des informations sur les sessions pour lesquelles il existe des enregistrements dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,7 +57,7 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 <tr class="odd">
 <td><p>ConferenceDateTime</p></td>
 <td><p>DateHeure</p></td>
-<td><p>Fait référence à partir de la table MediaLine.</p></td>
+<td><p>Référencé depuis la table MediaLine.</p></td>
 </tr>
 <tr class="even">
 <td><p>ConferenceURI</p></td>
@@ -65,25 +65,25 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 <td><p>URI de conférence s’il s’agit d’une conférence, ou DialogID s’il s’agit d’une session d’égal à égal.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Correspondance</p></td>
+<td><p>Correlation</p></td>
 <td><p>varchar (max)</p></td>
 <td><p>ID de corrélation de la session.</p></td>
 </tr>
 <tr class="even">
 <td><p>DialogCategory</p></td>
-<td><p>bit</p></td>
-<td><p>Catégorie de boîte de dialogue. 0 est Lync Server to Mediation Server leg ; 1 est un serveur de médiation en tronçon de passerelle PSTN.</p></td>
+<td><p>légèrement</p></td>
+<td><p>Catégorie de boîte de dialogue ; 0 est le tronçon Lync Server vers serveur de médiation ; 1 est le serveur de médiation au tronçon de passerelle PSTN.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
-<td><p>bit</p></td>
-<td><p>Indique si l’appel a été ignoré.</p></td>
+<td><p>légèrement</p></td>
+<td><p>Indique si l’appel a été contourné ou non.</p></td>
 </tr>
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
 <td><p>int</p></td>
-<td><p>Ce champ, s’il est présent, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Pour Lync Server, une seule valeur est définie :</p>
-<p>0x0001-ID de contournement inconnu pour la carte réseau par défaut</p></td>
+<td><p>Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Pour Lync Server, une seule valeur est définie :</p>
+<p>0x0001 – ID de contournement inconnu pour la carte réseau par défaut</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartTime</p></td>
@@ -97,63 +97,63 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 </tr>
 <tr class="odd">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom de domaine complet du pool d’appelant.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom de domaine complet du pool des appelants.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom de domaine complet (FQDN) du pool d’appel.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom de domaine complet du pool des appelés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI d’identité ayant une assertion p d’appelant.</p></td>
+<td><p>URI P-Asserted-Identity (PAI) de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePAI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI d’identité affirmée de l’appelant.</p></td>
+<td><p>URI P-Asserted-Identity (PAI) de l’appelé.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom du point de terminaison de l’appelant.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom du système d’extrémité de l’appelant de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Nom du point de terminaison de l’appelant.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Chaîne de l’agent utilisateur de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentType</p></td>
 <td><p>type</p></td>
-<td><p>Type de l’agent utilisateur de l’appelant. Pour plus d’informations, voir la <a href="lync-server-2013-useragent-table.md">table UserAgent dans Lync Server 2013</a> .</p></td>
+<td><p>Type de l’agent utilisateur de l’appelant. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-useragent-table.md">table UserAgent dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, reportez-vous <a href="lync-server-2013-useragentdef-table-qoe.md">à la table UserAgentDef (QoE) dans Lync Server 2013</a> .</p></td>
+<td><p>Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-useragentdef-table-qoe.md">table table useragentdef (QoE) dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Chaîne de l’agent utilisateur de l’appelant.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Chaîne de l’agent utilisateur de l’appelé.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>type</p></td>
-<td><p>Type d’agent utilisateur pour l’appelant. Pour plus d’informations, voir la <a href="lync-server-2013-useragent-table.md">table UserAgent dans Lync Server 2013</a> .</p></td>
+<td><p>Type de l’agent utilisateur de l’appelé. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-useragent-table.md">table UserAgent dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentCategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Catégorie de l’agent utilisateur de l’appelant. Pour plus d’informations, reportez-vous <a href="lync-server-2013-useragentdef-table-qoe.md">à la table UserAgentDef (QoE) dans Lync Server 2013</a> .</p></td>
+<td><p>Catégorie de l’agent utilisateur de l’appelé. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-useragentdef-table-qoe.md">table table useragentdef (QoE) dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerURI</p></td>
@@ -163,7 +163,7 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 <tr class="even">
 <td><p>CalleeURI</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de l’appelant.</p></td>
+<td><p>URI de l’appelé.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallPrioirty</p></td>

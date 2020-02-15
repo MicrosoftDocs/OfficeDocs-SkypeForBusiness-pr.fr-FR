@@ -1,5 +1,5 @@
 ---
-title: Configuration des paramètres et des utilisateurs test de nœud observateur
+title: Configuration des paramètres et des utilisateurs test du nœud observateur
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,62 +13,62 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 'Résumé : configuration des comptes d’utilisateurs et des paramètres de nœud d’observation pour les transactions synthétiques de Skype entreprise Server.'
-ms.openlocfilehash: 877e7256c31bf5bf66f25e80c9625078cfc15b02
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Résumé : configurez les comptes d’utilisateur test et les paramètres du nœud observateur pour les transactions synthétiques de Skype entreprise Server.'
+ms.openlocfilehash: 8b586cf4c1d003bb54afa050469a10eee8d113e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888853"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005949"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test de nœud observateur
+# <a name="configure-watcher-node-test-users-and-settings"></a>Configuration des paramètres et des utilisateurs test du nœud observateur
  
-**Résumé :** Configurez des comptes d’utilisateurs et des paramètres de nœud d’observation pour les transactions synthétiques de Skype entreprise Server.
+**Résumé :** Configurez des comptes d’utilisateurs test et des paramètres de nœud observateur pour les transactions synthétiques de Skype entreprise Server.
   
 Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur, vous devez :
   
-1. [Configurez des comptes d’utilisateurs test](test-users-and-settings.md#testuser) à utiliser par ces nœuds d’observation. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande **Set-CsTestUserCredential** pour activer ces comptes pour une utilisation sur le nœud observateur.
+1. [Configurez des comptes d’utilisateurs test](test-users-and-settings.md#testuser) devant être utilisés par ces nœuds observateurs. SI vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de commande **Set-CsTestUserCredential** pour activer ces comptes pour une utilisation sur le nœud observateur ;
     
-2. Mettre à jour les paramètres de configuration du nœud observateur.
+2. mettre à jour les paramètres de configuration du nœud observateur.
     
-## <a name="configure-test-user-accounts"></a>Configurer les comptes d’utilisateurs tests
+## <a name="configure-test-user-accounts"></a>Configurer des comptes d’utilisateurs test
 <a name="testuser"> </a>
 
-Les comptes de test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes Active Directory valides. De plus, ces comptes doivent être activés pour Skype entreprise Server, ils doivent disposer d’adresses SIP valides, et ils doivent être activés pour Enterprise Voice (pour utiliser la transaction synthétique test-CsPstnPeerToPeerCall). 
+Les comptes de test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype entreprise Server, doivent avoir des adresses SIP valides, et ils doivent être activés pour voix entreprise (pour utiliser la transaction synthétique test-CsPstnPeerToPeerCall). 
   
-Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et configurez-les comme indiqué. Vous devez assigner au moins deux utilisateurs de test pour chaque liste que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser l’applet de contrôle Set-CsTestUserCredential et Skype entreprise Server Management Shell pour permettre à ces comptes de test d’utiliser les transactions synthétiques. Pour ce faire, vous devez exécuter une commande semblable à la suivante (ces commandes présupposent que les deux comptes d’utilisateurs Active Directory aient été créés et que ces comptes sont activés pour Skype entreprise Server) :
+Si vous utilisez la méthode d’authentification TrustedServer, tout ce que vous devez faire est de vous assurer que ces comptes existent et de les configurer comme indiqué. Vous devez affecter au moins deux utilisateurs de test pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser la cmdlet Set-applet cstestusercredential et Skype for Business Server Management Shell pour permettre à ces comptes de test de fonctionner avec les transactions synthétiques. Pour ce faire, exécutez une commande semblable à la suivante (ces commandes partent du principe que les deux comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype entreprise Server) :
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
 
-Vous devez inclure non seulement l’adresse SIP, mais également le nom d’utilisateur et le mot de passe. Si vous omettez le mot de passe, l’applet de commande Set-CsTestUserCredential vous invitera à entrer ces informations. Le nom d’utilisateur peut être spécifié au format nom de domaine/nom d’utilisateur indiqué ci-dessus dans le bloc de code précédent.
+Vous devez inclure non seulement l’adresse SIP, mais également le nom d’utilisateur et le mot de passe. Si vous n’incluez pas le mot de passe, l’applet de commande Set-applet cstestusercredential vous invite à entrer ces informations. Le nom d’utilisateur peut être spécifié à l’aide du format de nom de DOMAINE\nom d’utilisateur indiqué dans le bloc de code précédent.
   
-Pour vérifier que les informations d’identification de l’utilisateur ont été créées, exécutez les commandes suivantes dans Skype entreprise Server Management Shell :
+Pour vérifier que les informations d’identification de l’utilisateur de test ont été créées, exécutez les commandes suivantes à partir de Skype entreprise Server Management Shell :
   
 ```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
 
-Des informations semblables aux suivantes sont retournées pour chaque utilisateur :
+Des informations semblables à ce qui suit sont renvoyées pour chaque utilisateur :
   
-|**Noms**|**Son**|
+|**UserName**|**Password**|
 |:-----|:-----|
 |Litwareinc\watcher1  <br/> |System. Security. SecureString  <br/> |
    
-### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Configurer un nœud observateur de base avec les transactions synthétiques par défaut
+### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Configuration d’un nœud observateur de base avec les transactions synthétiques par défaut
 
-Une fois les utilisateurs tests créés, vous pouvez créer un nœud observateur en exécutant une commande semblable à la suivante :
+Une fois que les utilisateurs de test ont été créés, vous pouvez créer un nœud observateur à l’aide d’une commande semblable à celle-ci :
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-Cette commande crée un nœud observateur qui utilise les paramètres par défaut et exécute le jeu de transactions synthétiques par défaut. Le nouveau nœud Watcher utilise également les utilisateurs de test watcher1@litwareinc.com et watcher2@litwareinc.com. Si le nœud Watcher utilise l’authentification TrustedServer, les deux comptes de test peuvent être tout compte d’utilisateur valide activé pour Active Directory et Skype entreprise Server. Si le nœud observateur utilise la méthode d’authentification Negotiate, vous devez également activer ces comptes d’utilisateurs pour le nœud observateur à l’aide de l’applet de commande Set-CsTestUserCredential.
+Cette commande crée un nœud observateur qui utilise les paramètres par défaut et exécute le jeu de transactions synthétiques par défaut. Le nouveau nœud observateur utilise également les utilisateurs test watcher1@litwareinc.com et watcher2@litwareinc.com. Si le nœud observateur utilise l’authentification TrustedServer, les deux comptes de test peuvent être des comptes d’utilisateurs valides activés pour Active Directory et Skype entreprise Server. Si le nœud observateur utilise la méthode d’authentification Negotiate, ces comptes d’utilisateur doivent également être activés pour le nœud observateur à l’aide de la cmdlet Set-applet cstestusercredential.
   
-Pour vérifier que la découverte automatique du pool cible pour se connecter est correctement configurée, au lieu de cibler un pool directement, utilisez les étapes suivantes :
+Pour vérifier que la découverte automatique du pool cible pour la connexion est correctement configurée plutôt que de cibler un pool, suivez plutôt ces étapes :
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
@@ -76,46 +76,46 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>Configuration de tests étendus
 
-Si vous souhaitez activer le test PSTN, qui vérifie la connectivité avec le réseau téléphonique commuté, vous devez effectuer certaines tâches de configuration supplémentaires lors de la configuration du nœud observateur. Tout d’abord, vous devez associer vos utilisateurs test au type de test PSTN en exécutant une commande semblable à la suivante à partir de Skype Entreprise Server Management Shell :
+Si vous souhaitez activer le test PSTN, qui vérifie la connectivité avec le réseau téléphonique commuté public, vous devez effectuer une configuration supplémentaire lors de la configuration du nœud observateur. Tout d’abord, vous devez associer vos utilisateurs de test au type de test PSTN en exécutant une commande semblable à celle-ci à partir de Skype entreprise Server Management Shell :
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
-> Les résultats de cette commande doivent être stockés dans une variable. Dans cet exemple, il s’agit de la variable nommée $pstnTest. 
+> Les résultats de cette commande doivent être stockés dans une variable. Dans cet exemple, la variable est nommée $pstnTest. 
   
-Ensuite, vous pouvez utiliser l’applet de contrôle **New-CsWatcherNodeConfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un pool de serveurs Skype entreprise. Par exemple, la commande suivante crée une nouvelle configuration de nœud d’observation pour le pool atl-cs-001.litwareinc.com, en ajoutant les deux utilisateurs test créés précédemment et en ajoutant le type de test PSTN :
+Ensuite, vous pouvez utiliser la cmdlet **New-applet cswatchernodeconfiguration** pour associer le type de test (stocké dans la variable $pstnTest) à un pool Skype entreprise Server. Par exemple, la commande suivante crée une nouvelle configuration de nœud observateur pour le pool atl-cs-001.litwareinc.com, ajoutant les deux utilisateurs test créés précédemment et en ajoutant le type de test PSTN :
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
-La commande précédente échoue si vous n’avez pas installé les fichiers principaux de Skype Entreprise Server et la base de données RTCLocal sur l’ordinateur nœud observateur. 
+La commande précédente échoue si vous n’avez pas installé les fichiers principaux de Skype entreprise Server et la base de données RTCLocal sur l’ordinateur du nœud observateur. 
   
-Pour tester plusieurs stratégies de voix, vous pouvez créer un test étendu pour chaque stratégie à l’aide de l’applet de commande **New-Cs ExtendedTest**. Les utilisateurs fournis doivent être configurés avec les stratégies de voix souhaitées. Les tests étendus sont ensuite passés à l’applet de commande **New-CsWatcherNodeConfiguration** à l’aide de virgules de délimitation, comme suit :
+Pour tester plusieurs stratégies de voix, vous pouvez créer un test étendu pour chaque stratégie à l’aide de la cmdlet **New-CsExtendedTest** . Les utilisateurs fournis doivent être configurés avec les stratégies de voix souhaitées. Les tests étendus sont transmis à la cmdlet **New-applet cswatchernodeconfiguration** à l’aide de délimiteurs par des virgules, tels que :
   
--ExtendedTests @ {Add = $pstnTest 1 $pstnTest 2 $pstnTest 3}
+-ExtendedTests @ {Add = $pstnTest 1, $pstnTest 2, $pstnTest 3}
   
-Dans la mesure où l’applet de commande **New-CsWatcherNodeConfiguration** est appelée sans utiliser le paramètre Tests, seules les transactions synthétiques par défaut (et la transaction synthétique étendue spécifiée) seront activées pour le nouveau nœud observateur. Dans ce cas, le nœud observateur testera les composants suivants :
+Étant donné que la cmdlet **New-applet cswatchernodeconfiguration** a été appelée sans utiliser le paramètre tests, seules les transactions synthétiques par défaut (et la transaction synthétique étendue spécifiée) seront activées pour le nouveau nœud observateur. Par conséquent, le nœud observateur testera les composants suivants :
   
-- Enregistrement
+- Son
     
-- IM
+- IM (Messagerie instantanée)
     
-- GroupIM (messagerie instantanée de groupe)
+- GroupIM
     
 - P2PAV (sessions audio/vidéo d’égal à égal)
     
 - AvConference (audioconférence)
     
-- Presence
+- Présence
     
 - ABS (Service de carnet d’adresses)
     
 - ABWQ (Service web de carnet d’adresses)
     
-Les composants suivants ne seront pas testés par défaut :
+Les composants suivants ne seront pas testés par défaut :
   
 - ASConference
     
@@ -123,7 +123,7 @@ Les composants suivants ne seront pas testés par défaut :
     
 - DataConference
     
-- DialInConferencing
+- DialinConferencing
     
 - ExumConnectivity (Messagerie unifiée Exchange)
     
@@ -135,7 +135,7 @@ Les composants suivants ne seront pas testés par défaut :
     
 - PersistentChatMessage
     
-- PSTN (appels de passerelle PSTN, spécifiés comme test étendu.)
+- Appels de la passerelle PSTN (RTC), spécifié comme un test étendu
     
 - UcwaConference
     
@@ -157,11 +157,11 @@ Plusieurs tests peuvent être ajoutés en séparant leur nom par des virgules. P
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-Une erreur se produit si un ou plusieurs de ces tests (par exemple DataConference) ont déjà été activés sur le nœud observateur. Dans ce cas, vous recevez un message d’erreur semblable au suivant :
+Une erreur se produit si un ou plusieurs de ces tests (par exemple, DataConference) ont déjà été activés sur le nœud observateur. Dans ce cas, vous recevez un message d’erreur semblable au suivant :
   
-Set-CsWatcherNodeConfiguration : il existe une combinaison de clés dupliquée « DataConference » pour la clé « urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName » ou une contrainte d’identité unique.
+Set-applet cswatchernodeconfiguration : il existe une combinaison de clés dupliquée « DataConference » pour la clé « urn : Schema : Microsoft. RTC. Management. Settings. WatcherNode. 2010 : nomtest » ou une contrainte d’identité unique.
   
-Lorsque cette erreur se produit, aucune modification n’est appliquée. La commande doit être réexécutée en supprimant le test dupliqué.
+Lorsque cette erreur se produit, aucune modification n’est appliquée. La commande doit être réexécutée avec le test en double supprimé.
   
 Pour supprimer une transaction synthétique d’un nœud observateur, utilisez la méthode Remove. Par exemple, la commande suivante supprime le test ABWQ d’un nœud observateur :
   
@@ -169,7 +169,7 @@ Pour supprimer une transaction synthétique d’un nœud observateur, utilisez l
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
-Vous pouvez utiliser la méthode Replace pour remplacer tous les tests activés actuellement par un ou plusieurs nouveaux tests. Par exemple, si vous souhaitez que le nœud observateur exécute seulement le test de messagerie instantanée, vous pouvez exécuter la commande suivante :
+Vous pouvez utiliser la méthode Replace pour remplacer tous les tests actuellement activés par un ou plusieurs nouveaux tests. Par exemple, si vous souhaitez qu’un nœud observateur exécute uniquement le test de messagerie instantanée, vous pouvez configurer ce dernier à l’aide de la commande suivante :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
@@ -185,9 +185,9 @@ Si vous souhaitez afficher les tests qui ont été assignés à un nœud observa
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-Cette commande retourne des informations semblables aux suivantes, en fonction des transactions synthétiques qui ont été assignées au nœud :
+Cette commande renvoie des informations semblables à celles-ci, en fonction des transactions synthétiques qui ont été affectées au nœud :
   
-Inscription aux messages instantanés GroupIM P2PAV AvConference de présence PersistentChatMessage DataConference
+Inscription de messagerie instantanée GroupIM P2PAV AvConference présence PersistentChatMessage DataConference
 > [!TIP]
 > Pour afficher les transactions synthétiques par ordre alphabétique, exécutez plutôt la commande suivante : 
   
@@ -195,71 +195,71 @@ Inscription aux messages instantanés GroupIM P2PAV AvConference de présence Pe
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
-Pour vérifier qu’un nœud observateur a été créé, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
+Pour vérifier qu’un nœud observateur a été créé, tapez la commande suivante à partir de Skype entreprise Server Management Shell :
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
-Des informations semblables aux suivantes sont retournées :
+Vous obtiendrez des informations semblables à celles-ci :
   
-Identité : atl-cs-001.litwareinc.com <br/>
+Identity : atl-cs-001.litwareinc.com <br/>
 TestUsers : {sip :watcher1@litwareinc.com, sip :watcher2@litwareinc.com...}<br/>
-ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+ExtendedTests : {TestUsers = IList<System. String> ; Nom = test PSTN ; Te...}<br/>
 TargetFqdn : atl-cs-001.litwareinc.com<br/>
 Numéro_port : 5061<br/>
 
-Pour vérifier que le nœud observateur a été correctement configuré, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
+Pour vérifier que le nœud observateur a été correctement configuré, tapez la commande suivante à partir de Skype entreprise Server Management Shell :
   
 ```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
-Cette commande teste chaque nœud observateur de votre déploiement et vérifie si :
+Cette commande teste chaque nœud observateur de votre déploiement et confirme si les actions suivantes sont effectuées :
   
-- Le rôle de bureau d’enregistrement requis est installé.
+- Le rôle serveur d’inscriptions requis est installé.
     
-- La clé de registre requise est créée (terminée lorsque vous avez exécuté l’applet de demande Set-CsWatcherNodeConfiguration).
+- La clé de registre requise est créée (terminée lorsque vous avez exécuté la cmdlet Set-applet cswatchernodeconfiguration).
     
-- Vos serveurs exécutent la version appropriée de Skype entreprise Server.
+- Vos serveurs exécutent la version correcte de Skype entreprise Server.
     
-- Vos ports sont correctement configurés.
+- Vos ports sont configurés correctement.
     
-- Les informations d’identification requises pour vos utilisateurs de tests sont obligatoires.
+- si vos utilisateurs de test assignés disposent des informations d’identification requises.
     
 ## <a name="managing-watcher-nodes"></a>Gestion des nœuds observateurs
 <a name="testuser"> </a>
 
-En plus de modifier les transactions synthétiques qui sont exécutées sur un nœud observateur, vous pouvez également utiliser l’applet de commande **Set-CsWatcherNodeConfiguration** pour effectuer deux autres tâches importantes : d’une part, l’activation et la désactivation du nœud observateur et, d’autre part, la configuration du nœud observateur pour utiliser des URLweb internes ou externes lors de l’exécution de ses tests.
+En plus de modifier les transactions synthétiques qui sont exécutées sur un nœud observateur, vous pouvez également utiliser la cmdlet **Set-applet cswatchernodeconfiguration** pour effectuer deux autres tâches importantes : l’activation et la désactivation du nœud observateur, et la configuration du nœud observateur pour utiliser des URL Web internes ou des URL Web externes lors de l’exécution de ses tests.
   
-Par défaut, les nœuds observateurs sont conçus pour exécuter régulièrement toutes leurs transactions synthétiques activées. Parfois, cependant, vous souhaiterez peut-être suspendre ces transactions. Par exemple, si le nœud observateur est temporairement déconnecté du réseau, il est inutile d’exécuter les transactions synthétiques. Sans connectivité réseau, ces transactions sont vouées à l’échec. Pour désactiver temporairement un nœud observateur, exécutez une commande semblable à celle-ci à partir de Skype Entreprise Server Management Shell :
+Par défaut, les nœuds observateur sont conçus pour exécuter régulièrement toutes leurs transactions synthétiques activées. Toutefois, il peut arriver que vous souhaitiez suspendre ces transactions. Par exemple, si le nœud observateur est temporairement déconnecté du réseau, il est inutile d’exécuter les transactions synthétiques. Sans connectivité réseau, ces transactions échouent. Pour désactiver temporairement un nœud observateur, exécutez une commande semblable à celle-ci à partir de Skype entreprise Server Management Shell :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
-Cette commande désactive l’exécution des transactions synthétiques sur le nœud observateur atl 001.litwareinc.com. Pour reprendre l’exécution des transactions synthétiques, affectez à la propriété Enabled la valeur True ($True) :
+Cette commande désactive l’exécution des transactions synthétiques sur le nœud observateur ATL observateur 001.litwareinc.com. Pour reprendre l’exécution des transactions synthétiques, affectez à la propriété Enabled la valeur True ($True) :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
-> La propriété Enabled peut être utilisée pour activer ou désactiver les nœuds observateurs. Si vous souhaitez supprimer définitivement un nœud observateur, utilisez l’applet de commande **Remove-CsWatcherNodeConfiguration** :
+> La propriété Enabled peut être utilisée pour activer ou désactiver les nœuds observateur. Si vous souhaitez supprimer définitivement un nœud observateur, utilisez l’applet de commande **Remove-CsWatcherNodeConfiguration** :
   
 ```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche ainsi l’ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle pas les fichiers de l’agent System Center ou les fichiers système de Skype entreprise Server.
+Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche cet ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle pas les fichiers de l’agent System Center ni les fichiers système de Skype entreprise Server.
   
-Par défaut, les nœuds observateurs utilisent les URL web externes d’une organisation dans le cadre de leurs tests. Cependant, les nœuds observateurs peuvent également être configurés de manière à utiliser les URL web internes de l’organisation. Cela permet aux administrateurs de vérifier l’accès URL pour les utilisateurs situés à l’intérieur du réseau de périmètre. Pour configurer un nœud observateur de manière à utiliser des URL internes à la place d’URL externes, affectez à la propriété UseInternalWebURls la valeur True ($True) :
+Par défaut, les nœuds observateurs utilisent les URL Web externes d’une organisation lors de la réalisation de tests. Toutefois, les nœuds observateurs peuvent également être configurés pour utiliser les URL Web internes de l’organisation. Cela permet aux administrateurs de vérifier l’accès URL pour les utilisateurs situés à l’intérieur du réseau de périmètre. Pour configurer un nœud observateur afin qu’il utilise des URL internes au lieu d’URL externes, définissez la propriété UseInternalWebURls sur true ($True) :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
-La réinitialisation de cette propriété à la valeur par défaut False ($False) fera que l’observateur utilisera de nouveau les URL externes :
+La réinitialisation de cette propriété à la valeur par défaut false ($False) fera en sorte que l’observateur utilise de nouveau les URL externes :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
@@ -268,21 +268,21 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
 ## <a name="special-setup-instructions-for-synthetic-transactions"></a>Instructions d’installation spéciales pour les transactions synthétiques
 <a name="special_synthetictrans"> </a>
 
-La plupart des transactions synthétiques peuvent s’exécuter sur un nœud observateur en l’état. Dans la plupart des cas, dès que la transaction synthétique est ajoutée aux paramètres de configuration du nœud observateur, ce dernier peut commencer à utiliser la transaction synthétique lors de ses tests. Toutefois, il existe des transactions synthétiques qui nécessitent des instructions d’installation spéciales, comme détaillé dans les sections suivantes.
+La plupart des transactions synthétiques peuvent s’exécuter sur un nœud observateur tel quel. Dans la plupart des cas, dès que la transaction synthétique est ajoutée aux paramètres de configuration du nœud observateur, le nœud observateur peut commencer à utiliser cette transaction synthétique lors de son test. Toutefois, il existe des transactions synthétiques qui nécessitent des instructions de configuration spécifiques, comme indiqué dans les sections suivantes.
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Transaction synthétique de conférence de données
 
-Si votre ordinateur de nœud observateur se situe à l’extérieur de votre réseau de périmètre, vous ne pourrez probablement pas exécuter la transaction synthétique de conférence de données à moins que vous ne désactiviez au préalable les paramètres proxy du navigateur Internet Windows Internet Explorer® pour le compte Service réseau, en procédant de la manière suivante :
+Si votre ordinateur nœud observateur se trouve en dehors de votre réseau de périmètre, vous ne pourrez probablement pas exécuter la transaction synthétique de conférence de données, sauf si vous avez d’abord désactivé les paramètres de proxy du navigateur Internet® Windows Internet Explorer pour le réseau. Compte de service en procédant comme suit :
   
-1. Sur l’ordinateur nœud observateur, cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Accessoires**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
+1. Sur l’ordinateur nœud observateur, cliquez sur **Démarrer**, **sur tous les programmes**, sur **accessoires**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
     
-2. Dans la fenêtre de console, tapez la commande suivante, puis appuyez sur Entrée : 
+2. Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur entrée. 
     
     ```console
     bitsadmin /util /SetIEProxy NetworkService NO_PROXY
     ```
 
-    Le message suivant s’affiche dans la fenêtre Commande :
+    Le message suivant s’affiche dans la fenêtre de commande :
 
     ```console
     BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
@@ -292,17 +292,17 @@ Si votre ordinateur de nœud observateur se situe à l’extérieur de votre ré
     (connection = default)
     ```
       
-    Ce message signifie que vous avez désactivé les paramètres proxy d’Internet Explorer pour le compte Service réseau.
+    Ce message indique que vous avez désactivé les paramètres de proxy Internet Explorer pour le compte service réseau.
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Transaction synthétique de la messagerie unifiée Exchange
 
-La transaction synthétique de la messagerie unifiée Exchange vérifie que les utilisateurs test peuvent se connecter à des comptes de messagerie vocale hébergés dans Exchange.
+La transaction synthétique de messagerie unifiée Exchange vérifie que les utilisateurs de test peuvent se connecter aux comptes de messagerie instantanée hébergés dans Exchange.
   
 Les utilisateurs test doivent être préconfigurés avec des comptes de messagerie vocale. 
   
 ### <a name="persistent-chat-synthetic-transaction"></a>Transaction synthétique de conversation permanente
 
-Pour utiliser la transaction synthétique de conversation permanente, vous devez d’abord créer un canal et donner aux utilisateurs test l’autorisation de l’utiliser.
+Pour utiliser la transaction synthétique de conversation permanente, vous devez d’abord créer un canal et donner aux utilisateurs test les autorisations pour l’utiliser.
   
 Vous pouvez utiliser la transaction synthétique de conversation permanente pour configurer ce canal : 
   
@@ -313,129 +313,129 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-Vous devez exécuter cette tâche de configuration au sein de l’entreprise :
+Vous devez exécuter cette tâche de configuration doit être exécutée à partir de l’intérieur de l’entreprise :
   
-- Si elle est exécutée à partir d’un ordinateur non-serveur, l’utilisateur qui exécute l’applet de commande doit être membre du rôle CsPersistentChatAdministrators pour le contrôle d’accès en fonction du rôle (RBAC).
+- Si elle est exécutée à partir d’un ordinateur non-serveur, l’utilisateur qui exécute l’applet de commande doit être membre du rôle CsPersistentChatAdministrators pour le contrôle d’accès basé sur un rôle (RBAC).
     
 - Si elle est exécutée à partir du serveur lui-même, l’utilisateur qui exécute l’applet de commande doit être membre du groupe RTCUniversalServerAdmins.
     
-### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>Transaction synthétique pour les appels d’égal à égal PSTN
+### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>Transaction synthétique des appels d’égal à égal PSTN
 
-La transaction synthétique Test-CSPstnPeerToPeerCall vérifie la capacité de passer et recevoir des appels via le réseau téléphonique commuté (PSTN).
+La transaction synthétique test-CsPstnPeerToPeerCall vérifie la capacité de passer et de recevoir des appels via un réseau téléphonique commuté (PSTN).
   
 Pour exécuter cette transaction synthétique, vous devez configurer les éléments suivants :
   
-- Deux utilisateurs test (un appelant et un récepteur) activés pour les communications unifiées (UC).
+- Deux utilisateurs de test à UC activée (un appelant et un récepteur).
     
-- Numéros de sélection directe à l’arrivée (SDA) pour chaque compte d’utilisateur.
+- Numéros de sélection directe à l’arrivée (SDA) pour chaque compte d’utilisateur
     
-- Stratégies VoIP et itinéraires vocaux permettant d’appeler le numéro du destinataire pour joindre la passerelle RTC.
+- Les stratégies VoIP et les itinéraires des communications vocales qui permettent aux appels au numéro du récepteur d’atteindre la passerelle PSTN.
     
-- Passerelle RTC qui accepte les appels et les éléments multimédias qui acheminent les appels vers le pool d’hébergement d’un destinataire, en fonction du numéro composé.
+- Une passerelle PSTN qui accepte les appels et les médias qui acheminent les appels vers le pool d’accueil d’un récepteur en fonction du numéro composé.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transaction synthétique du magasin de contacts unifié
 
-La transaction synthétique du magasin de contacts unifié vérifie la capacité de Skype entreprise Server à récupérer des contacts pour le compte d’un utilisateur à partir d’Exchange.
+La transaction synthétique du magasin de contacts unifié vérifie la capacité de Skype entreprise Server à récupérer des contacts au nom d’un utilisateur à partir d’Exchange.
   
 Pour utiliser cette transaction synthétique, les conditions suivantes doivent être remplies :
   
-- L’authentification serveur à serveur Lyss-Exchange doit être configurée.
+- Lyss-l’authentification Exchange Server to Server doit être configurée.
     
 - Les utilisateurs test doivent disposer d’une boîte aux lettres Exchange valide.
     
-Lorsque les conditions suivantes sont remplies, vous pouvez exécuter l’applet de commande Windows PowerShell suivante pour migrer les listes de contacts des utilisateurs de test vers Exchange :
+Une fois ces conditions remplies, vous pouvez exécuter l’applet de commande Windows PowerShell suivante pour migrer les listes de contacts des utilisateurs test vers Exchange :
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-La migration des listes de contacts des utilisateurs test vers Exchange peut prendre un moment. Pour surveiller la progression de la migration, vous pouvez exécuter la même ligne de commande sans l’indicateur d’installation :
+La migration des listes de contacts de l’utilisateur test vers Exchange peut prendre un certain temps. Pour surveiller la progression de la migration, la même ligne de commande peut être exécutée sans l’indicateur-Setup :
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
-Cette ligne de commande aboutira une fois que la migration est terminée.
+Cette ligne de commande réussit une fois la migration terminée.
   
 ### <a name="xmpp-synthetic-transaction"></a>Transaction synthétique XMPP
 
-La transaction synthétique de messagerie instantanée XMPP (Extensible Messaging and Presence Protocol) requiert que la fonctionnalité XMPP soit configurée avec un ou plusieurs domaines fédérés.
+La transaction synthétique de messagerie électronique XMPP (extensible Messaging and Presence Protocol) exige que vous configuriez la fonctionnalité XMPP avec un ou plusieurs domaines fédérés.
   
-Pour activer la transaction synthétique XMPP, vous devez fournir un paramètre XmppTestReceiverMailAddress avec un compte d’utilisateur au niveau d’un domaine XMPP routable. Par exemple :
+Pour activer la transaction synthétique XMPP, vous devez fournir un paramètre XmppTestReceiverMailAddress avec un compte d’utilisateur dans un domaine XMPP routable. Par exemple :
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-Dans cet exemple, une règle du serveur Skype entreprise doit exister pour acheminer les messages pour litwareinc.com vers une passerelle XMPP.
+Dans cet exemple, une règle de Skype entreprise Server doit exister pour router les messages pour litwareinc.com vers une passerelle XMPP.
 
 > [!NOTE]
-> Les passerelles et les proxys XMPP sont disponibles dans Skype entreprise Server 2015, mais ne sont plus pris en charge dans Skype entreprise Server 2019. Pour plus d’informations, consultez la section migration de la [Fédération XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
+> Les passerelles XMPP et les proxys sont disponibles dans Skype entreprise Server 2015, mais ne sont plus pris en charge dans Skype entreprise Server 2019. Pour plus d’informations, consultez la rubrique migration de la [Fédération XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
-### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique VIS (Serveur d’interopérabilité vidéo)
+### <a name="video-interop-server-vis-synthetic-transaction"></a>Transaction synthétique de serveur d’interopérabilité vidéo (VIS)
 
-La transaction synthétique du serveur d’interopérabilité vidéo (à l’envers) nécessite le téléchargement et l’installation des fichiers de prise en charge des transactions synthétiques ([VISSTSupportPackage. msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transaction synthétique VIS (Video Interop Server) requiert le téléchargement et l’installation des fichiers de prise en charge des transactions synthétiques ([VISSTSupportPackage. msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-Pour installer VISSTSupportPackage.msi, assurez-vous que les dépendances (sous Configuration logicielle requise) du msi sont déjà installées. Exécutez VISSTSupportPackage.msi pour effectuer une installation simple. Le fichier. msi installe tous les fichiers dans le chemin d’accès suivant : « package de prise en charge des transactions synthétiques%ProgramFiles%\VIS ».
+Pour installer VISSTSupportPackage. msi, assurez-vous que les dépendances (sous Configuration système requise) pour le MSI sont déjà installées. Exécutez VISSTSupportPackage. msi pour effectuer une installation simple. Le fichier. msi installe tous les fichiers dans le chemin d’accès suivant : « package de prise en charge des transactions synthétiques%ProgramFiles%\VIS ».
   
-Pour plus d’informations sur l’exécution de la transaction synthétique sur le sujet, voir la documentation relative à l’applet de [contrôle de test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) .
+Pour plus d’informations sur la façon d’exécuter la transaction synthétique VIS, reportez-vous à la documentation de la cmdlet [test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Modification de la fréquence d’exécution des transactions synthétiques
 <a name="special_synthetictrans"> </a>
 
-Par défaut, les transactions synthétiques s’exécutent avec les utilisateurs configurés toutes les 15 minutes. Les transactions synthétiques sont exécutées en mode séquentiel dans un ensemble d’utilisateurs pour éviter tout conflit entre deux transactions synthétiques. Un intervalle plus long est nécessaire pour laisser à toutes les transactions synthétiques le temps de se terminer.
+Par défaut, les transactions synthétiques sont exécutées avec les utilisateurs configurés toutes les 15 minutes. Les transactions synthétiques sont exécutées de manière séquentielle au sein d’un ensemble d’utilisateurs afin d’éviter que deux transactions synthétiques ne soient en conflit. Un intervalle plus long est nécessaire pour fournir le temps nécessaire à l’exécution de toutes les transactions synthétiques.
   
-Si vous souhaitez exécuter les transactions synthétiques plus fréquemment, il est conseillé de réduire le nombre de transactions synthétiques exécutées avec un ensemble d’utilisateurs donné afin que les tests puissent se terminer dans le délai imparti en tenant compte de retards occasionnels liés au réseau. Si vous exécutez plus de transactions synthétiques que recommandé, créez plusieurs ensembles d’utilisateurs pour exécuter davantage de transactions synthétiques.
+S’il est souhaitable d’exécuter des transactions synthétiques plus fréquemment, le nombre de transactions synthétiques exécutées avec un ensemble d’utilisateurs donné doit être réduit afin que les tests puissent se terminer dans la plage de temps souhaitée avec une mémoire tampon pour les retards réseau occasionnels. Si l’exécution de transactions synthétiques est souhaitable, créez davantage d’utilisateurs pour exécuter des transactions synthétiques supplémentaires.
   
-Pour modifier la fréquence à laquelle les transactions synthétiques sont exécutées, procédez comme suit :
+Pour modifier la fréquence d’exécution des transactions synthétiques, procédez comme suit :
   
-1. Ouvrez System Center Operations Manager. Cliquez sur section de création. Cliquez sur la section règles (sous création).
+1. Ouvrez System Center Operations Manager. Cliquez sur section Création. Cliquez sur la section règles (sous création).
     
-2. Dans la section règles, recherchez la règle portant le nom « règle de collection de performance du canal de transactions synthétique principal ».
+2. Dans la section règles, recherchez la règle nommée « principale règle de collecte de performances de transaction de synthèse de transactions synthétiques ».
     
-3. Cliquez avec le bouton droit sur la règle, puis sélectionnez remplacements, sélectionnez remplacer la règle, puis sélectionnez « pour tous les objets de la classe : observateur d’observation ».
+3. Cliquez avec le bouton droit sur la règle, puis sélectionnez remplacer, sélectionnez remplacer la règle, puis « pour tous les objets de la classe : observateur de pools ».
     
-4. Dans la fenêtre Propriétés de remplacement, sélectionnez le nom du paramètre « Frequency », puis définissez la valeur override sur la valeur souhaitée.
+4. Dans la fenêtre Propriétés de remplacement, sélectionnez le nom du paramètre « fréquence » et définissez la valeur de remplacement sur l’option souhaitée.
     
-5. Dans la même fenêtre, sélectionnez le module de gestion auquel ce remplacement doit être appliqué.
+5. Dans la même fenêtre, sélectionnez le pack d’administration auquel ce remplacement doit être appliqué.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Utilisation de la journalisation enrichie pour les transactions synthétiques
 <a name="special_synthetictrans"> </a>
 
-Les transactions synthétiques se sont révélées extrêmement utiles pour aider les administrateurs à identifier les problèmes du système. Par exemple, l’applet de commande Test-Cs Registration pouvait alerter les administrateurs quand les utilisateurs rencontraient des problèmes pour s’inscrire à Skype Entreprise Server. Cependant, d’autres détails peuvent être nécessaires pour déterminer la cause réelle d’une défaillance.
+Les transactions synthétiques se révèlent extrêmement utiles pour vous aider à identifier les problèmes liés au système. Par exemple, l’applet de commande test-CsRegistration pourrait alerter les administrateurs du fait que les utilisateurs ont des difficultés à s’inscrire auprès de Skype entreprise Server. Toutefois, des détails supplémentaires peuvent être nécessaires pour déterminer la cause réelle d’une défaillance.
   
-Pour cette raison, les transactions synthétiques fournissent une journalisation enrichie. Avec cette journalisation enrichie, pour chaque activité qu’entreprend une transaction synthétique, les informations suivantes sont enregistrées :
+Pour cette raison, les transactions synthétiques fournissent une journalisation enrichie. Avec une journalisation enrichie, pour chaque activité qu’une transaction synthétique s’exécute, les informations suivantes sont enregistrées :
   
-- L’heure de début de l’activité.
+- Heure à laquelle l’activité a commencé.
     
-- L’heure de fin de l’activité.
+- Heure à laquelle l’activité est terminée.
     
-- L’action effectuée (par exemple, création, participation ou fin de participation à une conférence, connexion à Skype Entreprise Server, envoi d’un message instantané).
+- Action effectuée (par exemple, la création, la participation ou la fermeture d’une conférence ; connexion à Skype entreprise Server, envoi d’un message instantané).
     
-- Messages d’information, de commentaires, d’avertissement ou d’erreur générés lors de l’exécution de l’activité.
+- Messages informatifs, détaillés, d’avertissement ou d’erreur générés lors de l’exécution de l’activité.
     
-- Les messages d’inscription SIP.
+- Messages d’inscription SIP.
     
-- Les enregistrements d’exception ou codes de diagnostic générés pendant l’exécution de l’activité.
+- Les enregistrements d’exception ou les codes de diagnostic générés lors de l’exécution de l’activité.
     
-- Le résultat net suite à l’exécution de l’activité.
+- Résultat net de l’exécution de l’activité.
     
-Ces informations sont automatiquement générées à chaque exécution d’une transaction synthétique. Toutefois, elles ne sont pas automatiquement affichées ou enregistrées dans un fichier journal. Si vous exécutez manuellement une transaction synthétique, vous pouvez utiliser le paramètre OutLoggerVariable pour spécifier une variable Windows PowerShell dans laquelle seront stockées les informations. À partir de là, vous disposez de deux méthodes pour enregistrer et/ou afficher les messages d’erreur dans le journal enrichi au format XML ou HTML. 
+Ces informations sont générées automatiquement chaque fois qu’une transaction synthétique est exécutée, mais elle n’est pas automatiquement affichée ou enregistrée dans un fichier journal. Si vous exécutez manuellement une transaction synthétique, vous pouvez utiliser le paramètre OutLoggerVariable pour spécifier une variable Windows PowerShell dans laquelle les informations seront stockées. À partir de là, vous pouvez utiliser l’une des deux méthodes pour enregistrer et/ou afficher les messages d’erreur dans le journal enrichi au format XML ou HTML. 
   
-Pour récupérer les informations de dépannage, spécifiez le paramètre OutLoggerVariable, suivi d’un nom de variable que vous choisissez :
+Pour récupérer les informations de résolution des problèmes, spécifiez le paramètre OutLoggerVariable, suivi d’un nom de variable que vous choisissez :
   
 ```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
 > [!NOTE]
-> Ne faites pas précéder le nom de la variable du caractère $. Utilisez un nom de variable comme RegistrationTest (et non $RegistrationTest). 
+> Ne faites pas précéder le nom de variable du caractère $. Utilisez un nom de variable comme RegistrationTest (non $RegistrationTest). 
   
-Lorsque vous exécutez cette commande, vous obtenez un résultat semblable à celui-ci :
+Lorsque vous exécutez cette commande, vous obtiendrez une sortie semblable à ceci :
   
-Nom de domaine complet (FQDN) du atl-cs-001.litwareinc.com : latence d’échec : message d’erreur 00:00:00 : cet ordinateur ne comporte aucun certificat attribué. Diagnostic : vous pouvez accéder à des informations beaucoup plus détaillées pour ce problème que le message d’erreur affiché ici.
+Nom de domaine complet cible : résultat atl-cs-001.litwareinc.com : latence des échecs : message d’erreur 00:00:00 : cet ordinateur ne dispose d’aucun certificat attribué. Diagnostic : vous pouvez accéder à des informations bien plus détaillées sur ce problème que le message d’erreur affiché ici.
 
-Pour obtenir ces informations au format HTML, utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
+Pour accéder à ces informations au format HTML, utilisez une commande semblable à celle-ci pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
   
 ```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -447,9 +447,9 @@ Vous pouvez aussi utiliser la méthode ToXML() pour enregistrer les données dan
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 
-Vous pouvez afficher ces fichiers à l’aide de Windows Internet Explorer, Microsoft Visual Studio ou toute autre application capable d’ouvrir des fichiers HTML/XML.
+Vous pouvez afficher ces fichiers à l’aide de Windows Internet Explorer, Microsoft Visual Studio ou toute autre application capable d’ouvrir des fichiers HTML/XML.
   
-Les transactions synthétiques exécutées à partir de System Center Operations Manager génèrent automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne sont pas générés si l’exécution échoue avant que Skype Entreprise Server PowerShell n’ait pu charger et exécuter la transaction synthétique. 
+Les transactions synthétiques exécutées à l’intérieur de System Center Operations Manager génèrent automatiquement ces fichiers journaux pour les échecs. Ces journaux ne seront pas générés si l’exécution échoue avant que Skype entreprise Server PowerShell ne puisse charger et exécuter la transaction synthétique. 
   
 > [!IMPORTANT]
-> Par défaut, Skype entreprise Server enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour rendre ces journaux facilement accessibles, vous devez partager ce dossier. Par exemple : \\ATL-Watcher-001. litwareinc. com\WatcherNode. 
+> Par défaut, Skype entreprise Server enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour faciliter l’accès à ces journaux, vous devez partager ce dossier. Par exemple : \\ATL-Watcher-001. litwareinc. com\WatcherNode. 

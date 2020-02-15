@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : prise en charge de plusieurs Trunks'
+title: 'Lync Server 2013 : prise en charge de plusieurs tronçons'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a2f8e9bea40532486d75e76887e35b496df8631
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="multiple-trunk-support-in-lync-server-2013"></a>Prise en charge de plusieurs Trunks dans Lync Server 2013
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Prise en charge de plusieurs tronçons dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41765955"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-La fonctionnalité Lync Server 2013 prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Pour ce faire, vous devez définir une ligne Trunk, qui est une association logique entre une grappe de serveurs de médiation et une passerelle de réseau téléphonique commuté (PSTN), un contrôleur de bordure de session (SBC) ou un PBX IP. Utilisez le générateur de topologie pour associer des passerelles aux serveurs de médiation (c’est-à-dire, des Trunks).
+La fonctionnalité Lync Server 2013 prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont établies en définissant une jonction, qui est une association logique entre un pool de serveurs de médiation et une passerelle de réseau téléphonique commuté (RTC), un contrôleur de frontière de session (SBC) ou un PBX IP. Utilisez le générateur de topologie pour associer des passerelles aux serveurs de médiation (c’est-à-dire, des jonctions).
 
-  - Pour attribuer ou supprimer un Trunk dans Lync Server 2013, vous devez commencer par définir un Trunk dans le générateur de topologie. Un Trunk est composé de l’Association suivante : nom de domaine complet (FQDN) du serveur de médiation, port d’écoute du serveur de médiation, nom de domaine complet de la passerelle et port d’écoute de la passerelle.
+  - Pour attribuer ou supprimer une jonction dans Lync Server 2013, vous devez d’abord définir une jonction dans le générateur de topologies. Une jonction se compose de l’Association suivante : nom de domaine complet (FQDN) du serveur de médiation, port d’écoute du serveur de médiation, nom de domaine complet de la passerelle et port d’écoute de la passerelle.
 
-  - Pour configurer plusieurs Trunks, vous pouvez créer plusieurs associations entre la même passerelle et le serveur de médiation. Cela fournit une résilience supplémentaire à l’infrastructure voix entreprise, qui est particulièrement utile dans les scénarios d’interopération de PBX (Private Branch Exchange).
+  - Pour configurer plusieurs jonctions, vous pouvez créer plusieurs associations entre la même passerelle et le serveur de médiation. Cela procure une résistance supplémentaire à l’infrastructure voix entreprise, ce qui est particulièrement utile dans les scénarios d’interopérabilité PBX (Private Branch Exchange).
 
-Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer un Trunk à un itinéraire, vous devez définir un nom simple pour le Trunk dans le générateur de topologie. Ce nom simple est utilisé en tant que nom du Trunk dans le panneau de configuration de Lync Server, dans lequel les lignes peuvent être associées aux itinéraires. Le nom de Trunk simple est utilisé comme nom de passerelle de Lync Server Management Shell.
+Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer une jonction à un itinéraire, vous définissez un nom simple pour la jonction dans le générateur de topologie. Ce nom simple est utilisé comme nom de jonction dans le panneau de configuration Lync Server, où des jonctions peuvent être associées à des itinéraires. Le nom de jonction simple est utilisé comme nom de passerelle à partir de Lync Server Management Shell.
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-L’administrateur doit sélectionner une Trunk par défaut associée à un serveur de médiation. Dans le générateur de topologie, cliquez avec le bouton droit sur le serveur de médiation associé, puis cliquez sur **Propriétés**. Spécifiez la passerelle par défaut du serveur de médiation.
+L’administrateur doit sélectionner une jonction par défaut associée à un serveur de médiation. Dans le générateur de topologies, cliquez avec le bouton droit sur le serveur de médiation associé, puis cliquez sur **Propriétés**. Spécifiez la passerelle par défaut pour le serveur de médiation.
 
-Le diagramme suivant illustre les différentes liaisons définies pour chaque serveur et passerelle de médiation.
+Le diagramme suivant illustre les différentes jonctions qui sont définies pour chaque serveur de médiation et passerelle.
 
-**Routage de l’interligne M-N**
+**Routage de jonction M-N**
 
-![Affectations de plusieurs tronçons.](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Affectations de plusieurs tronçons.")
+![Plusieurs affectations de jonctions.](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Plusieurs affectations de jonctions.")
 
 </div>
 

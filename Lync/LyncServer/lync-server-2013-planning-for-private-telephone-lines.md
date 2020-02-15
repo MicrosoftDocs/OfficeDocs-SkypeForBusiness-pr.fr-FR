@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : planification de lignes téléphoniques privées'
+title: 'Lync Server 2013 : planification des lignes téléphoniques privées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0df93d8a8de73a3119e7ca9a1a7abd76e9157a17
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0369ea671860b29c8cf7f7e1d9e0b894770c6d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Planification de lignes téléphoniques privées avec Lync Server 2013
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Planification des lignes téléphoniques privées avec Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41725314"
 
 _**Dernière modification de la rubrique :** 2013-02-11_
 
-Lync Server 2013 offre la possibilité de proposer aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent attribuées aux cadres et aux personnes qui souhaitent un numéro de téléphone non répertorié auquel ils peuvent être joints directement.
+Lync Server 2013 offre la possibilité de fournir aux utilisateurs une deuxième ligne téléphonique privée en plus de leur ligne téléphonique principale. Les lignes téléphoniques privées sont souvent affectées aux cadres et aux autres qui souhaitent un numéro de téléphone non répertorié auquel ils peuvent être joints directement.
 
-Les lignes téléphoniques privées ne peuvent être configurées qu’avec Lync Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec le panneau de configuration de Lync Server. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Lync Server et non dans les déploiements mixtes.
+Les lignes téléphoniques privées ne peuvent être configurées qu’avec Lync Server Management Shell. Vous ne pouvez pas configurer de lignes téléphoniques privées avec le panneau de configuration Lync Server. Les lignes téléphoniques privées doivent être configurées uniquement dans les déploiements de Lync Server et non dans des déploiements mixtes.
 
 <div>
 
 ## <a name="characteristics-of-private-telephone-lines"></a>Caractéristiques des lignes téléphoniques privées
 
-Même si le concept de la deuxième ligne téléphonique privée est simple à la base, il est important de comprendre les caractéristiques des lignes privées, ainsi que leurs similitudes et différences par rapport aux lignes téléphoniques principales des utilisateurs.
+Bien que le concept de deuxième ligne téléphonique privée soit fondamentalement simple, il est important de comprendre les caractéristiques des lignes privées et les façons dont elles sont similaires et différentes des lignes téléphoniques principales des utilisateurs.
 
 <div>
 
 ## <a name="general-characteristics-of-private-telephone-lines"></a>Caractéristiques générales des lignes téléphoniques privées
 
-  - Un utilisateur ne peut disposer que d’une seule ligne téléphonique privée.
+  - Un utilisateur ne peut avoir qu’une seule ligne téléphonique privée.
 
-  - Un utilisateur avec une ligne téléphonique privée n’est doté que d’une seule messagerie vocale et reçoit des notifications d’appel en absence à une adresse de messagerie unique.
+  - Un utilisateur avec une ligne téléphonique privée n’a qu’une seule boîte aux lettres vocale et reçoit des notifications d’appel en absence à une adresse de messagerie unique.
 
-  - Un utilisateur avec une ligne téléphonique privée ne dispose pas d’une deuxième adresse SIP, et une deuxième ligne téléphonique privée n’accorde pas à l’utilisateur une deuxième présence sur le réseau (comme une deuxième identité de messagerie instantanée).
+  - Un utilisateur disposant d’une ligne téléphonique privée ne dispose pas d’une deuxième adresse SIP, et une deuxième ligne téléphonique privée ne donne pas à un utilisateur une fonction de deuxième présence sur le réseau (par exemple, une deuxième identité de messagerie instantanée).
 
   - Les lignes téléphoniques privées sont disponibles uniquement pour les déploiements locaux. Elles ne sont pas disponibles pour les déploiements hébergés de Lync Server.
 
@@ -63,41 +63,41 @@ Même si le concept de la deuxième ligne téléphonique privée est simple à l
 
 <div>
 
-## <a name="how-private-telephone-lines-differ-from-primary-telephone-lines"></a>Différences entre les lignes téléphoniques privées et principales
+## <a name="how-private-telephone-lines-differ-from-primary-telephone-lines"></a>Différences entre les lignes téléphoniques privées et les lignes téléphoniques principales
 
-  - Les numéros de téléphone des lignes privées ne s’affichent pas dans les annuaires ou les listes de contacts dérivés des services de domaine Active Directory.
+  - Les numéros de téléphone des lignes téléphoniques privées n’apparaissent pas dans les listes des annuaires téléphoniques ou des contacts qui sont dérivés des services de domaine Active Directory.
 
-  - Aucune des fonctionnalités suivantes n’est disponible avec une ligne téléphonique privée : transfert d’appel, appel d’équipe, délégation, sonnerie d’appel d’équipe, prise d’appel de groupe et application Response Group.
+  - Aucune des fonctionnalités suivantes n’est disponible avec une ligne téléphonique privée : transfert d’appel, appel d’équipe, délégation, sonnerie d’équipe, prise d’appel de groupe et application Response Group.
 
-  - Les appels sur une ligne téléphonique privée présentent une sonnerie spéciale et la notification système de l’appel indique à l’utilisateur que l’appel entre sur sa ligne privée.
+  - Les appels vers une ligne téléphonique privée ont un anneau spécial, et la notification système pour l’appel indique à l’utilisateur que l’appel entrant se trouve sur sa ligne privée.
 
-  - Les appels sur la ligne téléphonique privée sonnent systématiquement. Ils ne suivent pas les règles « Ne pas déranger ».
+  - Les appels vers la ligne téléphonique privée sont toujours circulaires. Elles ne suivent pas les règles « ne pas déranger ».
 
-  - Les lignes téléphoniques privées sont uniquement entrantes et ne peuvent pas être utilisées pour passer des appels sortants. Lorsqu’un utilisateur doté d’une ligne téléphonique privée passe un appel, l’appel provient de la ligne téléphonique principale de l’utilisateur et ne masque pas le nom ou le numéro de téléphone principal de l’utilisateur à la personne appelée.
+  - Les lignes téléphoniques privées sont uniquement entrantes et ne peuvent pas être utilisées pour effectuer des appels sortants. Lorsqu’un utilisateur avec une ligne téléphonique privée effectue un appel, l’appel provient de la ligne téléphonique principale de l’utilisateur et ne masque pas le nom de l’utilisateur ou le numéro de téléphone principal de l’utilisateur de la personne appelée.
 
 </div>
 
 <div>
 
-## <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>Similitudes entre les lignes téléphoniques privées et principales
+## <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>Similitudes entre les lignes téléphoniques privées et les lignes téléphoniques principales
 
-  - Les appels sans réponse sur une ligne téléphonique privée sont routés vers la même boîte de réception vocale que pour la ligne téléphonique principale (si la messagerie vocale est activée).
+  - Les appels sans réponse à une ligne téléphonique privée sont routés vers la même boîte de réception de messagerie vocale que pour la ligne téléphonique principale (si la messagerie vocale est activée).
 
-  - Le parcage d’appel et la prise d’appel fonctionnent avec les lignes téléphoniques privées exactement de la même manière qu’avec la ligne téléphonique principale de l’utilisateur.
+  - Le parcage d’appel et la prise d’appel fonctionnent avec des lignes téléphoniques privées exactement de la même manière qu’avec la ligne téléphonique principale de l’utilisateur.
 
-  - Lorsque la sonnerie simultanée est activée sur la ligne téléphonique principale de l’utilisateur, elle l’est également sur la ligne téléphonique privée.
+  - Lorsque la sonnerie simultanée est activée sur la ligne téléphonique principale d’un utilisateur, elle est également activée sur la ligne téléphonique privée.
 
-  - Le numéro de téléphone d’une ligne téléphonique privée est consigné dans l’enregistrement des détails des appels comme le numéro de la ligne principale d’un utilisateur, mais en précisant qu’il s’agit d’un numéro de téléphone privé.
+  - Le numéro de téléphone d’une ligne téléphonique privée est enregistré dans l’enregistrement des détails des appels de la même manière que le numéro de téléphone de la ligne téléphonique principale d’un utilisateur, mais avec une indication qu’il s’agit d’un numéro de téléphone privé.
 
-  - Une fois que l’utilisateur a répondu à un appel sur la ligne téléphonique privée, l’appel est traité de la même manière qu’un appel passé sur la ligne téléphonique principale d’un utilisateur. Par exemple, si un utilisateur qui reçoit un appel sur une ligne téléphonique privée transfère l’appel ou invitez d’autres personnes à participer à une conférence téléphonique, le nom de l’utilisateur apparaît dans Lync 2013 et le numéro de téléphone de la ligne téléphonique principale de l’utilisateur apparaît dans l’identification de l’appelant.
+  - Une fois qu’un utilisateur répond à un appel sur une ligne téléphonique privée, l’appel est traité de la même manière qu’un appel sur la ligne téléphonique principale de l’utilisateur. Par exemple, si un utilisateur qui reçoit un appel sur une ligne téléphonique privée transfère l’appel ou invite d’autres personnes à participer à une téléconférence, le nom de l’utilisateur s’affiche dans Lync 2013 et le numéro de téléphone de la ligne téléphonique principale de l’utilisateur apparaît dans ID de l’appelant.
 
-  - Un utilisateur peut rediriger un appel (vers une autre destination, comme un téléphone mobile ou personnel, avant de répondre) provenant de la ligne téléphonique privée comme avec une ligne téléphonique principale.
+  - Un utilisateur peut dévier un appel (rediriger l’appel vers une autre destination, telle qu’un téléphone mobile ou un téléphone personnel, avant de répondre) à partir de la ligne téléphonique privée de la même manière qu’avec une ligne téléphonique principale.
     
     <div>
     
 
     > [!NOTE]  
-    > Lorsqu’un appel sur la ligne privée est routé sur un autre numéro de téléphone, le numéro de la ligne privée est mis à la disposition de l’autre numéro et peut être affiché dans les journaux pour ce numéro.
+    > Lorsqu’un appel à une ligne privée est acheminé vers un autre numéro de téléphone, le numéro de téléphone de la ligne téléphonique privée est mis à la disposition de l’autre numéro de téléphone et peut être affiché dans les journaux pour ce numéro.
 
     
     </div>
@@ -106,7 +106,7 @@ Même si le concept de la deuxième ligne téléphonique privée est simple à l
     
 
     > [!NOTE]  
-    > Les appels d’une conférence vers la ligne téléphonique privée ne porteront pas la mention de <EM>ligne privée</EM> dans la notification système entrante.
+    > Les appels d’une conférence vers la ligne téléphonique privée n’auront aucune indication de <EM>ligne privée</EM> dans la notification système entrante.
 
     
     </div>
@@ -119,13 +119,13 @@ Même si le concept de la deuxième ligne téléphonique privée est simple à l
 
 ## <a name="administering-private-telephone-lines"></a>Administration des lignes téléphoniques privées
 
-Outre les aspects techniques liés à la création et à la gestion des lignes téléphoniques privées, vous devrez établir des procédures administratives, entre autres déterminer des stratégies afin de définir qui est autorisé à obtenir une ligne privée dans l’organisation, créer et gérer des listes de personnes et de leurs lignes téléphoniques, créer éventuellement un annuaire téléphonique privé pour les cadres, organiser des formations pour les utilisateurs, et ainsi de suite.
+En plus des aspects techniques de la création et de la gestion des lignes téléphoniques privées, vous devrez établir des procédures administratives pour celles-ci. Cela inclut la détermination des stratégies pour les personnes de l’organisation qui sont éligibles pour une ligne privée, la création et la gestion de listes de personnes et de leurs lignes téléphoniques, éventuellement la création d’un annuaire téléphonique privé pour les cadres, l’organisation de la formation des utilisateurs et tâches connexes.
 
 <div>
 
 
 > [!NOTE]  
-> La ligne téléphonique privée est stockée dans Active Directory en tant qu’attribut msRTCSIP-PrivateLine de l’objet utilisateur. Par défaut, tout membre du groupe Utilisateurs authentifiés dispose d’un accès en lecture à cet attribut.
+> La ligne téléphonique privée est stockée dans Active Directory sous la forme d’un attribut msRTCSIP-PrivateLine sur l’objet de l’utilisateur. Par défaut, tout membre du groupe utilisateurs authentifiés dispose d’un accès en lecture à cet attribut.
 
 
 
@@ -133,15 +133,15 @@ Outre les aspects techniques liés à la création et à la gestion des lignes t
 
 <div>
 
-## <a name="assigning-telephone-numbers"></a>Attribution de numéros de téléphone
+## <a name="assigning-telephone-numbers"></a>Affectation de numéros de téléphone
 
-Les comptes pour les nouveaux utilisateurs qui ont besoin de lignes téléphoniques privées sont créés de la même manière que les comptes sans lignes téléphoniques privées, à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell.
+Les comptes pour les nouveaux utilisateurs qui ont besoin de lignes téléphoniques privées sont créés de la même manière que les comptes sans ligne téléphonique privée, à l’aide du panneau de configuration Lync Server ou de Lync Server Management Shell.
 
-Utilisez l’applet de commande **Set-Csuser** dans Lync Server Management Shell pour affecter un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par exemple, **Set-Csuser-identity "SIP :joe@contoso.com"-PrivateLine "Tél : + 14255551212"**.
+Utilisez la cmdlet **Set-Csuser** dans l’environnement de ligne de commande Lync Server Management Shell pour attribuer un numéro de téléphone à une ligne téléphonique privée pour un utilisateur, par exemple, **Set-Csuser-identity "SIP :joe@contoso.com"-PrivateLine "Tél : + 14255551212"**.
 
-Les numéros de téléphone des lignes téléphoniques privées peuvent contenir entre 3 et 15 numéros de longueur et doivent être précédés du préfixe « TEL : ». Ils peuvent ne pas présenter d’indicatif régional, ni d’indicatif de pays/région si l’organisation dispose d’une sélection directe à l’arrivée pour ces indicatifs.
+Les numéros de téléphone des lignes téléphoniques privées peuvent avoir une longueur comprise entre 3 et 15 chiffres et doivent être précédés du préfixe « TEL : ». Ils peuvent disposer de n’importe quel indicatif régional et de n’importe quel code de pays/région tant que votre organisation dispose d’un accès direct aux codes de zone et de pays/région.
 
-Pour plus d’informations sur les applets de applet et Lync Server Management Shell, voir la documentation [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) .
+Pour plus d’informations sur les applets de commande et sur Lync Server Management Shell, voir la documentation de [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) .
 
 </div>
 
@@ -149,7 +149,7 @@ Pour plus d’informations sur les applets de applet et Lync Server Management S
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>Lignes téléphoniques privées dans des déploiements mixtes
 
-Les lignes téléphoniques privées doivent être configurées uniquement pour les déploiements de Lync Server. Dans le cadre d’un déploiement dans lequel les serveurs Lync Server et Office Communications 2007 Server 2007 ou Office Communications Server R2 sont tous deux configurés sur une ligne téléphonique privée, le routage de l’appel échoue, car le serveur ne peut pas effectuer une recherche de numéro inverse sur une ligne téléphonique privée.
+Les lignes téléphoniques privées doivent être configurées uniquement pour les déploiements de Lync Server. Dans un déploiement où se trouvent des serveurs Lync Server et Office Communications Server 2007 ou Office Communications Server 2007 R2, lorsqu’un utilisateur de la version précédente tente d’appeler une ligne téléphonique privée, le routage de l’appel échoue car le serveur ne peut pas effectuer une recherche inversée de numéros sur une ligne téléphonique privée.
 
 </div>
 

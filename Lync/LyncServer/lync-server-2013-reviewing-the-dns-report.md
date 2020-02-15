@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : examen du rapport DNS'
+title: 'Lync Server 2013 : révision du rapport DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d12aba3d7b8d1bdd01bce1b0bce805c5d982b5c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e67a132ba420731575fb3c93f0a793f2351767a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,18 +37,18 @@ ms.locfileid: "41733004"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Le rapport DNS, qui fait partie du rapport Administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes. Si le concepteur a effectué des modifications au diagramme de réseau et que toutes les adresses IP et tous les noms de domaine complets (FQDN) sont définis à leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration. Ce rapport peut également faire office de document de dépannage opérationnel.
+Le rapport DNS, qui fait partie du rapport de l’administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes. Si le concepteur a terminé les modifications apportées au réseau de tâches, et que toutes les adresses IP et les noms de domaine complets (FQDN) sont définis sur leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration. Ce rapport peut également servir de document de dépannage opérationnel.
 
 ![Rapport d’administration DNS](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "Rapport d’administration DNS")
 
-Votre équipe de gestion DNS doit vérifier le rapport DNS minutieusement, afin de s’assurer qu’il ne contient aucune erreur susceptible de créer des problèmes lors du déploiement ou de compliquer une session de dépannage.
+Vous devez faire en sorte que votre équipe de gestion DNS examine soigneusement le rapport DNS pour vous assurer qu’il n’y a pas d’erreurs susceptibles de créer des difficultés pendant le déploiement ou qui peut compliquer une session de dépannage.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Consultation des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Examen des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des mots de passe de compte d’authentification Kerberos'
+title: 'Lync Server 2013 : configuration des mots de passe de compte d’authentification Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41764610"
 
 _**Dernière modification de la rubrique :** 2010-11-03_
 
-Une fois que vous avez créé l’objet ordinateur pour le compte d’authentification Kerberos, vous pouvez configurer le mot de passe du compte. Vous exécutez l’applet de cmdlet Windows PowerShell pour configurer le mot de passe du compte Kerberos sur un serveur. Vous pouvez définir le mot de passe sur l’objet que vous avez créé pour l’authentification Kerberos. Le mot de passe peut être défini sur une valeur connue, mais par défaut comme un mot de passe aléatoire. Le mot de passe est disponible pour toutes les sources d’authentification Kerberos qui utilisent le compte. Les applets de cmdlet Windows PowerShell permettent de configurer et de gérer les mots de passe des comptes Kerberos.
+Après avoir créé l’objet ordinateur pour le compte d’authentification Kerberos, vous pouvez configurer le mot de passe pour le compte. Vous exécutez l’applet de commande Windows PowerShell pour définir le mot de passe du compte Kerberos sur un serveur. Vous pouvez définir le mot de passe sur l’objet créé pour l’authentification Kerberos. Le mot de passe peut être défini sur une valeur connue, mais par défaut il s’agit d’un mot de passe aléatoire. Il est valable pour toutes les sources d’authentification Kerberos qui utilisent le compte. Vous utilisez les applets de commande Windows PowerShell pour configurer et gérer les mots de passe de compte Kerberos.
 
 <div>
 
 
 > [!NOTE]  
-> L’objet de compte Kerberos est un objet ordinateur, mais il utilise le paramètre UserAccount pour les opérations dans les cmdlets Windows PowerShell qui sont référencées. Notez qu’il ne s’agit pas d’une erreur, mais du comportement prévu de l’applet de passe lorsqu’elle est utilisée avec la création et la maintenance du compte Kerberos.
+> L’objet de compte Kerberos est un objet ordinateur, mais il utilise le paramètre UserAccount pour les opérations des applets de commande Windows PowerShell référencées. Notez qu’il ne s’agit pas d’une erreur, mais du comportement prévu de l’applet de commande lorsqu’elle est utilisée pour la création et la maintenance du compte Kerberos.
 
 
 
@@ -53,7 +53,7 @@ Une fois que vous avez créé l’objet ordinateur pour le compte d’authentifi
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [Définir un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
   - [Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS) dans Lync Server 2013](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 

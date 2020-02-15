@@ -1,5 +1,5 @@
 ---
-title: (Facultatif) Activation et désactivation des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence
+title: Module Activer et désactiver les annonces de participation et de congé de conférence
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b8e75a0d2ed81a515540f2a8a1811998a85d44c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b18dadbb4b7dc5a35f8688c46f2836b46cb55a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>(Facultatif) Activation et désactivation des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence dans Lync Server 2013
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Module Activer et désactiver les annonces de participation et de sortie de conférence dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41755748"
 
 _**Dernière modification de la rubrique :** 2012-09-30_
 
-Lorsque des utilisateurs d’appels entrants rejoignent ou quittent une conférence, l’application d’annonce d’annonce peut annoncer leur ouverture ou leur sortie en jouant un message ou en prononçant leurs noms. Vous pouvez modifier le fonctionnement des annonces en exécutant des cmdlets. Cette étape est facultative.
+Lorsque des utilisateurs d’appels entrants rejoignent ou quittent une conférence, l’application d’annonce de conférence peut annoncer leur entrée ou leur sortie en lisant une tonalité ou en disant leur nom. Vous pouvez modifier le fonctionnement des annonces en exécutant des cmdlets. Cette étape est facultative.
 
 <div>
 
 ## <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>Pour modifier le comportement des annonces indiquant qu’un utilisateur rejoint ou quitte une conférence
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **CS-ServerAdministrator** ou **CsAdministrator** .
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle **Cs-ServerAdministratorr** ou **CsAdministrator**.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Exécutez la commande suivante dans l’invite de commandes :
+3.  Exécutez la commande suivante à l’invite de commandes :
     
         Get-CsDialinConferencingConfiguration
     
-    Cette applet de connexion récupère des informations sur la nécessité pour les participants d’enregistrer leur nom lorsqu’ils rejoignent une conférence et de la manière dont Lync Server répond lorsque les participants rejoignent ou quittent une conférence rendez-vous.
+    Cette applet de commande permet de récupérer des informations indiquant si les participants doivent enregistrer leur nom lors de la participation à une conférence et comment Lync Server répond quand les participants rejoignent ou quittent une conférence rendez-vous.
 
-4.  Exécutez la commande suivante dans l’invite de commandes :
+4.  Exécutez la commande suivante à l’invite de commandes :
     
         Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
         [-EnableNameRecording <$true | $false>]
@@ -75,7 +75,7 @@ Lorsque des utilisateurs d’appels entrants rejoignent ou quittent une confére
         -EntryExitAnnouncementsEnabledByDefault $true
         -EntryExitAnnouncementsType ToneOnly
     
-    Dans cet exemple, les paramètres sont configurés dans l’étendue du site de Redmond. Les annonces sont activées, mais les participants ne sont pas invités à donner leur nom lorsqu’ils rejoignent une conférence. Une tonalité est lue lorsque les participants entrent ou quittent une conférence.
+    Dans cet exemple, les paramètres sont configurés au niveau du site de Redmond. Les annonces sont activées, mais les participants ne sont pas invités à donner leur nom lorsqu’ils rejoignent une conférence. Une tonalité est émise lorsque les participants rejoignent ou quittent une conférence.
 
 </div>
 

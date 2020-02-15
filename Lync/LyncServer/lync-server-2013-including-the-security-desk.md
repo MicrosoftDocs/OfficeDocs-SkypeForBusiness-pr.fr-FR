@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : incluant le centre de sécurité'
+title: 'Lync Server 2013 : y compris le service de sécurité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99f35087d03b046fade741140dc3f5522e6c6d05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763808"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="including-the-security-desk-in-lync-server-2013"></a>Inclure le centre de sécurité dans Lync Server 2013
+# <a name="including-the-security-desk-in-lync-server-2013"></a>Inclusion du service de sécurité dans Lync Server 2013
 
 </div>
 
@@ -40,7 +40,7 @@ _**Dernière modification de la rubrique :** 2012-10-02_
 Votre entreprise est susceptible de demander au service de sécurité de prendre part au traitement d’un appel d’urgence. Pour vous aider à décider comment intégrer le service de sécurité dans votre déploiement E9-1-1, répondez aux questions suivantes.
 
   - **Souhaitez-vous que le service de sécurité soit averti en cas d’appel d’urgence ?**  
-    Vous pouvez configurer la stratégie d’emplacement de manière à ce que Lync Server envoie des alertes de messagerie instantanée aux adresses SIP de Lync d’un ou de plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui met l’appel d’urgence, et facilitent le personnel de sécurité en aidant à la situation d’urgence.
+    Vous pouvez configurer la stratégie d’emplacement afin que Lync Server envoie des alertes de messagerie instantanée aux adresses SIP Lync d’un ou de plusieurs membres du personnel de sécurité. Ces alertes contiennent le nom, le numéro et l’emplacement de la personne qui passe l’appel d’urgence, et facilitent le personnel de sécurité à l’aide de la situation d’urgence.
 
 <!-- end list -->
 

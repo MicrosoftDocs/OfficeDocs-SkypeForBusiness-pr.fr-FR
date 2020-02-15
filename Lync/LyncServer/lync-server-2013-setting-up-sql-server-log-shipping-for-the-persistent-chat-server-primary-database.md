@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente'
+title: 'Lync Server 2013 : configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae44d410ef165cdd4f77b877afcfb9349dd0ec00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da247e50975ecbed5e64a6e4bebc31d531218b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764570"
 
 _**Dernière modification de la rubrique :** 2012-11-12_
 
-À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données d’envoi de journaux secondaires du serveur Chat permanent et assurez-vous que l’agent SQL Server est en cours d’exécution.
+À l’aide de SQL Server Management Studio, connectez-vous à l’instance de base de données de copie de journaux secondaires du serveur de conversation permanente et assurez-vous que l’agent SQL Server est en cours d’exécution.
 
-En utilisant SQL Server Management Studio connecté à l’instance de base de données principale de chat, procédez comme suit :
+À l’aide de SQL Server Management Studio connecté à l’instance de base de données principale de conversation permanente, procédez comme suit :
 
 1.  Assurez-vous que l’agent SQL Server est en cours d’exécution.
 
@@ -53,34 +53,34 @@ En utilisant SQL Server Management Studio connecté à l’instance de base de d
 
 6.  Dans la zone **Indiquer le chemin d’accès réseau au dossier de sauvegarde**, tapez le chemin d’accès vers le partage que vous avez créé pour le dossier de sauvegarde des journaux de transactions.
 
-7.  Si le dossier de sauvegarde se trouve sur le serveur principal, tapez le chemin d’accès local du dossier de sauvegarde dans la boîte de **réception si le dossier de sauvegarde se trouve sur le serveur principal, tapez un chemin d’accès\\local au dossier (par exemple : c : sauvegarde)** . (Si le dossier de sauvegarde ne figure pas sur le serveur principal, vous pouvez laisser cette case à cocher vide.)
+7.  Si le dossier de sauvegarde se trouve sur le serveur principal, tapez le chemin d’accès local au dossier de sauvegarde dans la zone **si le dossier de sauvegarde se trouve sur le serveur principal, tapez un chemin d’accès local au\\dossier (exemple : c : sauvegarde)** . (Si le dossier de sauvegarde ne figure pas sur le serveur principal, vous pouvez laisser cette case à cocher vide.)
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si le compte de service SQL Server sur votre serveur principal s’exécute sous le compte système local, vous devez créer votre dossier de sauvegarde sur le serveur principal et spécifier un chemin local vers ce dossier.
+    > Si le compte de service SQL Server sur votre serveur principal s’exécute sous le compte système local, vous devez créer votre dossier de sauvegarde sur le serveur principal et spécifier un chemin d’accès local à ce dossier.
 
     
     </div>
 
 8.  Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de**.
 
-9.  Examinez la planification des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser le planning de votre installation, cliquez sur **Planning**, puis ajustez la planification de l’agent SQL Server selon vos besoins.
+9.  Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **planifier**et ajustez la planification de l’agent SQL Server comme il se doit.
 
 10. Sous **Compression**, sélectionnez **Utiliser le paramètre du serveur par défaut**, puis cliquez sur **OK**.
 
 11. Sous **Instances de serveurs et bases de données secondaires**, cliquez sur **Ajouter**.
 
-12. Cliquez sur **se connecter** , puis connectez-vous à l’instance de SQL Server que vous avez configurée en tant que serveur secondaire.
+12. Cliquez sur **connecter** , puis connectez-vous à l’instance de SQL Server que vous avez configurée en tant que serveur secondaire.
 
 13. Dans la zone **Base de données secondaire** sélectionnez la base de données **mgc** dans la liste.
 
-14. Sous l’onglet **Initialiser la base de données secondaire**, sélectionnez l’option **Oui, générer une sauvegarde complète de la base de données primaire et la restaurer dans la base de données secondaire (créer la base de données secondaire si elle n’existe pas)**.
+14. Sous l’onglet **initialiser la base de données secondaire** , sélectionnez l’option **Oui, générer une sauvegarde complète de la base de données principale et la restaurer dans la base de données secondaire (et créer la base de données secondaire si elle n’existe pas)**.
 
 15. Sous l’onglet **Copier les fichiers**, dans la zone **Dossier de destination des fichiers copiés**, tapez le chemin d’accès au dossier dans lequel les sauvegardes des journaux de transactions doivent être copiées. Ce dossier se trouve souvent sur le serveur secondaire.
 
-16. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser le planning de votre installation, cliquez sur **Planning**, puis ajustez la planification de l’agent SQL Server selon vos besoins. Cette planification doit être approximativement la même que celle des sauvegardes.
+16. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser la planification de votre installation, cliquez sur **planifier**et ajustez la planification de l’agent SQL Server comme il se doit. Cette planification doit être approximativement la même que celle des sauvegardes.
 
 17. Sous l’onglet **Restaurer**, sous **État de la base de données lors de la restauration des sauvegardes**, choisissez l’option **Mode sans récupération**.
 
@@ -88,7 +88,7 @@ En utilisant SQL Server Management Studio connecté à l’instance de base de d
 
 19. Choisissez un seuil d’alerte sous **Envoyer une alerte si aucune restauration ne se produit en l’espace de**.
 
-20. Examinez la planification des restaurations dans la zone **Planification** sous **Restaurer le travail**. Pour personnaliser le planning de votre installation, cliquez sur **Planning**, ajustez la planification de l’agent SQL Server selon les besoins, puis cliquez sur **OK**. Cette planification doit être approximativement la même que celle des sauvegardes.
+20. Examinez la planification des restaurations dans la zone **Planification** sous **Restaurer le travail**. Pour personnaliser la planification de votre installation, cliquez sur **planification**, ajustez la planification de l’agent SQL Server, puis cliquez sur **OK**. Cette planification doit être approximativement la même que celle des sauvegardes.
 
 21. Dans la boîte de dialogue **Propriétés de la base de données**, cliquez sur **OK** pour lancer le processus de configuration.
 

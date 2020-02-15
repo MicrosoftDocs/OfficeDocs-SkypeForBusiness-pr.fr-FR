@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test de la configuration d’une base de données'
+title: 'Lync Server 2013 : test de la configuration de base de données'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745824"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-database-configuration-in-lync-server-2013"></a>Test de la configuration d’une base de données dans Lync Server 2013
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Test de la configuration de la base de données dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée en local à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins et doivent disposer de privilèges d’administrateur sur le serveur SQL Server.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsDatabase</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins et disposer de privilèges d’administrateur sur le serveur SQL Server.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-applet csdatabase</strong> . Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Dernière modification de la rubrique :** 2016-07-07_
 
 ## <a name="description"></a>Description
 
-L’applet de **contrôle test-CsDatabase** vérifie la connectivité à une ou plusieurs bases de données Lync Server 2013. Lors de l’exécution, l’applet de connexion **test-CsDatabase** lit la topologie du serveur Lync, tente de se connecter aux bases de données pertinentes, puis signale la réussite ou l’échec de chaque tentative. S’il est possible de créer une connexion, l’applet de contrôle renvoie également des informations telles que le nom de la base de données, les informations de version de SQL Server et l’emplacement de toutes les bases de données de miroirs installées.
+L’applet de commande **test-applet csdatabase** vérifie la connectivité avec une ou plusieurs bases de données Lync Server 2013. Lorsqu’elle est exécutée, l’applet de commande **test-applet csdatabase** lit la topologie Lync Server, tente de se connecter aux bases de données appropriées, puis signale la réussite ou l’échec de chaque tentative. Si une connexion peut être établie, l’applet de commande fournit également des informations telles que le nom de la base de données, les informations de version SQL Server et l’emplacement des éventuelles bases de données miroir installées.
 
 </div>
 
@@ -74,19 +74,19 @@ L’applet de **contrôle test-CsDatabase** vérifie la connectivité à une ou 
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La commande décrite dans l’exemple 1 vérifie la configuration de la base de données de gestion centrale.
+La commande de l’exemple 1 vérifie la configuration de la base de données Central Management.
 
     Test-CsDatabase -CentralManagementDatabase
 
-L’exemple 2 vérifie toutes les bases de données serveur Lync installées sur l’ordinateur atl-sql-001.litwareinc.com.
+L’exemple 2 vérifie toutes les bases de données Lync Server installées sur l’ordinateur atl-sql-001.litwareinc.com.
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-Dans l’exemple 3, la vérification est effectuée uniquement pour la base de données d’archivage installée sur l’ordinateur atl-sql-001.litwareinc.com. Notez que le paramètre SqlInstanceName est inclus pour spécifier l’instance SQL Server (Archinst) de l’emplacement de la base de données d’archivage.
+Dans l’exemple 3, la vérification est exécutée uniquement pour la base de données Archiving installée sur l’ordinateur atl-sql-001.litwareinc.com. Notez que l’inclusion du paramètre SqlInstanceName permet de spécifier l’instance SQL Server (Archinst) où se trouve la base de données Archiving.
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-La commande affichée dans l’exemple 4 vérifie les bases de données installées sur l’ordinateur local.
+La commande illustrée à l’exemple 4 vérifie les bases de données installées l’ordinateur local.
 
     Test-CsDatabase -LocalService
 
@@ -94,9 +94,9 @@ La commande affichée dans l’exemple 4 vérifie les bases de données install�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si la connectivité de la base de données est correctement configurée, vous recevrez une sortie similaire à celle-ci, avec la propriété réussite marquée comme **vraie**:
+Si la connectivité de la base de données est correctement configurée, vous recevrez un résultat similaire à celui-ci, avec la propriété réussite marquée **true**:
 
 SqlServerFqdn : atl-sql-001.litwareinc.com
 
@@ -108,7 +108,7 @@ MirrorSqlInstanceName :
 
 DatabaseName : XDS
 
-DataSource :
+Source
 
 SQLServerVersion :
 
@@ -116,7 +116,7 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Réussite : vrai
+Réussite : true
 
 SqlServerFqdn : atl-sql-001.litwareinc.com
 
@@ -128,7 +128,7 @@ MirrorSqlInstanceName :
 
 DatabaseName : lis
 
-DataSource :
+Source
 
 SQLServerVersion :
 
@@ -136,9 +136,9 @@ ExpectedVersion : 3.1.1
 
 InstalledVersion :
 
-Réussite : vrai
+Réussite : true
 
-Si la base de données est configurée correctement mais toujours disponible, le champ réussite s’affichera comme **faux**, et des alertes et informations supplémentaires seront fournies :
+Si la base de données est correctement configurée mais toujours disponible, le champ réussite affiche **false**et des avertissements et informations supplémentaires sont fournis :
 
 SqlServerFqdn : atl-sql-001.litwareinc.com
 
@@ -150,7 +150,7 @@ MirrorSqlInstanceName :
 
 DatabaseName : XDS
 
-DataSource :
+Source
 
 SQLServerVersion :
 
@@ -158,7 +158,7 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Réussite : faux
+Réussite : false
 
 SqlServerFqdn : atl-cs-001.litwareinc.com
 
@@ -170,7 +170,7 @@ MirrorSqlInstanceName :
 
 DatabaseName : lis
 
-DataSource :
+Source
 
 SQLServerVersion :
 
@@ -178,17 +178,17 @@ ExpectedVersion : 3.1.1
 
 InstalledVersion :
 
-Réussite : faux
+Réussite : false
 
-AVERTISSEMENT : test-CsDatabase a rencontré des erreurs. Consulter le fichier journal d’un
+AVERTISSEMENT : test-applet csdatabase a rencontré des erreurs. Consulter le fichier journal pour un
 
-analyse détaillée et vérification de la prise en considération de toutes les erreurs (2) et avertissements (0)
+analyse détaillée et vérification de la prise en compte de toutes les erreurs (2) et avertissements (0)
 
 avant de continuer.
 
-AVERTISSEMENT : des résultats détaillés sont disponibles à l’adresse suivante :
+AVERTISSEMENT : les résultats détaillés sont disponibles à l’adresse
 
-"C :\\les\\utilisateurs\\testent\\AppData\\\\local\\Temp 2 test-CsDatabase-b18d488a-8044-4679-bbf2-
+"C :\\\\Users\\testing\\AppData\\local\\Temp\\2 test-applet csdatabase-b18d488a-8044-4679-bbf2-
 
 04d593cce8e6. html».
 
@@ -196,13 +196,13 @@ AVERTISSEMENT : des résultats détaillés sont disponibles à l’adresse suiv
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsDatabase** peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec **de test-applet csdatabase** :
 
-  - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
+  - Une valeur de paramètre incorrecte a été fournie. Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.
 
-  - Cette commande échoue si la base de données est mal configurée ou n’est pas encore déployée.
+  - Cette commande échoue si la base de données n’est pas configurée correctement ou n’est pas encore déployée.
 
 </div>
 

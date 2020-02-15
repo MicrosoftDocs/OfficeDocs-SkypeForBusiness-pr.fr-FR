@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Meilleures pratiques liées au contrôle d’admission des appels'
+title: 'Lync Server 2013 : meilleures pratiques pour le contrôle d’admission des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d8f75c546b2307de8f55504c2c6ebaab5c48f7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c00dbaa2f47d34f06424c9013a5b691caab56499
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Meilleures pratiques liées au contrôle d’admission des appels dans Lync Server 2013
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Meilleures pratiques pour le contrôle d’admission des appels dans Lync Server 2013
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41741674"
 
 _**Dernière modification de la rubrique :** 2012-09-22_
 
-Pour améliorer les performances et faciliter le déploiement, appliquez les recommandations suivantes lors du déploiement du contrôle d’admission des appels :
+Pour améliorer les performances et faciliter le déploiement, appliquez les meilleures pratiques suivantes lorsque vous déployez le contrôle d’admission des appels :
 
-  - Vérifiez que les réseaux étendus (WAN) sont configurés en conséquence pour le trafic multimédia actuel et envisagé.
+  - Assurez-vous que les réseaux étendus (WAN) sont correctement configurés pour le trafic multimédia actuel et prévu.
     
     <div>
     
 
     > [!NOTE]  
-    > Nous vous conseillons de définir un facteur en mémoire tampon quant aux limites de votre bande passante. Il existe des scénarios de condition de concurrence qui agissent sur la bande passante totale utilisée et qui peuvent entraîner des situations de dépassement de la limite de la bande. Prenons l’exemple de deux appels amorcés alors que le trafic multimédia approche de la limite de la bande passante : l’un des appels pourra être refusé, car l’autre a été configuré pour démarrer en premier.
+    > Nous vous recommandons de factoriser un tampon vers vos limites de bande passante. Certains scénarios, tels que les conditions de concurrence, affectent la bande passante totale utilisée et peuvent entraîner des situations dans lesquelles la limite de bande passante est dépassée. Par exemple, si deux appels essaient de démarrer alors que le trafic multimédia approche de la limite de bande passante, l’un d’entre eux peut être refusé, car l’autre a pu démarrer en premier.
 
     
     </div>
 
-  - Contrôlez l’utilisation du réseau et les enregistrements des détails des appels pour pouvoir choisir les meilleurs paramètres de contrôle d’admission des appels (CAC) et les mettre à jour en fonction de l’évolution de l’utilisation du réseau.
+  - Surveillez l’utilisation du réseau et les enregistrements des détails des appels afin de pouvoir choisir les paramètres CAC optimaux et mettre à jour les paramètres CAC lorsque les modifications de l’utilisation du réseau
 
   - Utilisez les stratégies de bande passante CAC pour compléter les paramètres QoS.
 
-  - Si vous souhaitez réacheminer des appels bloqués sur le réseau RTC, vérifiez les fonctionnalités et capacités correspondantes. Pour plus d’informations, reportez-vous à la [planification du routage de la voix sortante dans Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+  - Si vous souhaitez réacheminer les appels bloqués vers le réseau téléphonique commuté, vérifiez la capacité et la fonctionnalité PSTN. Pour plus d’informations, consultez la rubrique [planification de l’acheminement des communications vocales dans Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
     
     <div>
     
 
     > [!NOTE]  
-    > La capacité fait référence au nombre de ports à ouvrir pour prendre en charge un éventuel réacheminement vers le réseau RTC.
+    > La capacité fait référence au nombre de ports que vous devez ouvrir afin de prendre en charge un éventuel réacheminement RTC.
 
     
     </div>

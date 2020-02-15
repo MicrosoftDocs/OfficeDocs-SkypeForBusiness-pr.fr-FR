@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Début du processus de planification'
+title: 'Lync Server 2013 : début du processus de planification'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9da1c5535f190a6f57aa76b78a04845d4a073e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd0a83042415cd2cf919d0fd66fe5309a4cae9e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741724"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41741724"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-Dans le cadre de la planification d’un déploiement de communications unifiées sur site, il est possible que Lync Server propose deux outils intéressants pour vous aider :
+Bien que la planification d’un déploiement de communications unifiées sur site puisse paraître intimidante, Lync Server fournit deux outils utiles pour vous aider à :
 
-  - **L’outil de planification** est un assistant qui présente une série de questions sur votre organisation, les fonctionnalités de serveur Lync que vous souhaitez activer et votre planification de capacité. Elle crée ensuite une topologie de déploiement recommandée en fonction de vos réponses et produit un diagramme Microsoft Visio de ce déploiement.
+  - **L’outil de planification** est un assistant qui présente une série de questions sur votre organisation, les fonctionnalités Lync Server que vous souhaitez activer et vos besoins en matière de planification de la capacité. Il crée ensuite une topologie de déploiement recommandée en fonction de vos réponses et génère un diagramme Microsoft Visio de ce déploiement.
 
-  - Le **Générateur de topologie** est un composant d’installation de Lync Server. Le générateur de topologie vous permet de créer, d’ajuster et de publier votre topologie planifiée. Il valide également votre topologie avant de commencer les installations serveur. Lorsque vous installez Lync Server sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur conformément aux instructions de la topologie.
+  - Le **Générateur de topologies** est un composant d’installation de Lync Server. Le générateur de topologies vous permet de créer, d’ajuster et de publier votre topologie planifiée. Il valide également votre topologie avant que vous ne commenciez à installer les serveurs. Lorsque vous installez Lync Server sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur comme indiqué dans la topologie.
 
 <div>
 
-## <a name="lync-server-planning-tool"></a>Outil de planification de Lync Server
+## <a name="lync-server-planning-tool"></a>Outil de planification Lync Server
 
-L’outil de planification répond aux questions de l’outil et génère une topologie en fonction des recommandations et recommandations de Lync Server. Il fournit également plusieurs vues d’un déploiement en fonction de vos réponses. Il affiche à la fois un affichage global de tous vos sites (y compris les sites centraux et les sites de succursales) et des affichages détaillés affichant les serveurs et autres composants sur chaque site.
+L’outil de planification répond aux questions posées dans l’outil et génère une topologie basée sur les recommandations et les meilleures pratiques de Lync Server. Il propose également plusieurs vues de déploiement en fonction de vos réponses. Il offre à la fois une vue globale de tous vos sites (y compris les sites centraux et les sites de succursale) ainsi que des vues détaillées montrant les serveurs et autres composants de chaque site.
 
-L’exécution de l’outil de planification ne vous engage pas à effectuer de déploiement spécifique ou à lancer des processus. En fait, l’exécution de l’outil de planification, même avant d’avoir une offre de bureau d’une entreprise, peut être une façon très instructive de comprendre les types de questions dont vous avez besoin dans le processus de planification.
+L’exécution de l’outil de planification ne vous engage pas sur un déploiement spécifique ou ne lance pas de processus. En fait, l’exécution de l’outil de planification, même avant que vous ne soyez prêt à l’esprit, peut être une façon très instructive de comprendre les types de questions que vous devez prendre en compte dans votre processus de planification.
 
-Vous pouvez exécuter plusieurs fois l’outil de planification, répondre aux questions différemment et comparer les résultats. Si vous disposez d’une conception dont vous êtes le plus satisfait, mais que vous devez y apporter des modifications, vous pouvez revenir à l’outil de planification, charger la conception, puis apporter les modifications. L’exécution d’un outil de planification nécessite environ 15 minutes.
+Vous pouvez exécuter l’outil de planification plusieurs fois, répondre différemment aux questions et comparer les résultats. Si vous disposez d’une conception que vous êtes le plus satisfaite, mais que vous devez y effectuer des modifications, vous pouvez revenir à l’outil de planification, charger la conception et effectuer les modifications. Il faut environ 15 minutes pour terminer l’outil de planification une seule fois.
 
-Lorsque vous êtes satisfait, vous pouvez utiliser l’outil de planification pour créer un diagramme de votre déploiement planifié. Vous pouvez utiliser ce diagramme lors de la création du déploiement dans le générateur de topologie.
+Une fois que vous êtes satisfait, vous pouvez utiliser l’outil de planification pour créer un diagramme de votre déploiement planifié. Vous pouvez utiliser ce diagramme lors de la création du déploiement dans le générateur de topologie.
 
 <div>
 
 
 > [!NOTE]  
-> L’outil de planification inclus dans cette version de Lync Server 2013 est une version préliminaire. Notez que les chiffres de planification de la capacité de l’outil de planification sont préliminaires, et ne sont pas pris en charge par la version finale.
+> L’outil de planification inclus dans cette version de Lync Server 2013 est une version préliminaire. Notez que les nombres de planification de la capacité dans l’Outil de planification sont préliminaires et ne sont pas pris en charge pour la version finale.
 
 
 
@@ -69,13 +69,13 @@ Lorsque vous êtes satisfait, vous pouvez utiliser l’outil de planification po
 
 <div>
 
-## <a name="lync-server-topology-builder"></a>Générateur de topologie Lync Server
+## <a name="lync-server-topology-builder"></a>Générateur de topologies Lync Server
 
-Une fois que vous avez décidé de votre plan de déploiement, vous utilisez le générateur de topologie pour commencer le déploiement. Lorsque vous avez terminé, vous utilisez le générateur de topologie pour valider la topologie, puis, le cas échéant, vous pouvez publier la topologie. Lorsque vous publiez la topologie, Lync Server place la topologie dans le magasin central de gestion, qui est créé à ce moment-là s’il n’existe pas déjà. Lorsque vous installez Lync Server sur chaque serveur dans le cadre de votre déploiement, le serveur lit la topologie du magasin centralisé de gestion et s’installe pour s’adapter à son rôle dans votre déploiement.
+Une fois que vous avez choisi votre plan de déploiement, vous utilisez le générateur de topologie pour commencer le déploiement. Lorsque vous avez terminé, vous utilisez le générateur de topologies pour valider la topologie, puis, si elle réussit, vous pouvez publier la topologie. Lorsque vous publiez la topologie, Lync Server place la topologie dans le magasin central de gestion, qui est créé à ce stade s’il n’existe pas déjà. Lorsque vous installez Lync Server sur chaque serveur de votre déploiement, le serveur lit la topologie à partir du magasin central de gestion et s’installe en fonction de son rôle dans votre déploiement.
 
-Par ailleurs, si vous avez l’habitude d’utiliser Lync Server et que vous avez besoin d’un minimum d’instructions, vous pouvez ignorer l’outil de planification et utiliser les assistants du générateur de topologie pour la conception initiale de votre déploiement ainsi que pour les étapes de validation et de publication.
+Par ailleurs, si vous connaissez Lync Server et que vous avez besoin de conseils moins normatifs, vous pouvez ignorer l’outil de planification et utiliser les assistants du générateur de topologies pour la conception initiale de votre déploiement, ainsi que les étapes de validation et de publication.
 
-L’utilisation du générateur de topologie pour planifier et publier une topologie est une étape requise. Vous ne pouvez pas ignorer le générateur de topologie et installer Lync Server individuellement sur les serveurs de votre déploiement. Chaque serveur doit lire la topologie à partir d’une topologie validée et publiée dans le magasin central de gestion.
+L’utilisation du générateur de topologie pour planifier et publier une topologie est une étape obligatoire. Vous ne pouvez pas contourner le générateur de topologie et installer Lync Server individuellement sur les serveurs de votre déploiement. Chaque serveur doit lire la topologie à partir d’une topologie validée et publiée dans le magasin central de gestion.
 
 </div>
 
@@ -83,23 +83,23 @@ L’utilisation du générateur de topologie pour planifier et publier une topol
 
 ## <a name="high-level-planning-process"></a>Processus de planification de haut niveau
 
-Nous recommandons le processus général suivant d’utilisation de la documentation et de l’outil de planification pour planifier votre déploiement de Lync Server.
+Nous vous recommandons d’utiliser la documentation et l’outil de planification pour planifier votre déploiement Lync Server.
 
-1.  Si vous êtes familiarisé avec les versions précédentes de Lync Server, reportez-vous à la lecture de [nouvelles fonctionnalités dans Lync server 2013](lync-server-2013-new-features.md) pour vous familiariser avec les nouvelles fonctionnalités et exigences de lync Server 2013.
+1.  Si vous êtes familiarisé avec les versions précédentes de Lync Server, lisez les [nouvelles fonctionnalités de Lync server 2013](lync-server-2013-new-features.md) pour vous familiariser avec les nouvelles fonctionnalités et conditions requises dans lync Server 2013.
 
-2.  Pour plus d’informations, reportez-vous à la rubrique informations supplémentaires dans cette section de la documentation : [notions de base sur la topologie que vous devez connaître avant de planifier Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), des [topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md), [des décisions de planification initiale pour Lync Server 2013](lync-server-2013-initial-planning-decisions.md), et [des clients pour Lync Server 2013](lync-server-2013-clients.md). Notez les décisions de planification représentées dans les [topologies de référence de Lync Server 2013](lync-server-2013-reference-topologies.md).
+2.  Lisez les autres rubriques de cette section de la documentation : [notions de base sur la topologie que vous devez savoir avant de planifier Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md), [décisions de planification initiale pour Lync Server 2013](lync-server-2013-initial-planning-decisions.md)et [clients pour Lync Server 2013](lync-server-2013-clients.md). Notez les décisions de planification représentées dans les [topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md).
 
-3.  Maintenant que vous êtes familiarisé avec les fonctionnalités de Lync Server et les types de questions auxquelles vous devez répondre, exécutez l’outil de planification et consultez la topologie qui en résulte et les détails associés. Assurez-vous que la topologie répond à la configuration requise unique pour votre organisation.
+3.  Maintenant que vous êtes familiarisé avec les fonctionnalités de Lync Server et les types de questions auxquelles vous devez répondre, exécutez l’outil de planification et affichez la topologie résultante et ses détails. Assurez-vous que la topologie s’adapte aux exigences uniques de votre entreprise.
 
-4.  S’il existe des charges de travail ou des fonctionnalités spécifiques qui vous intéressent ou dont vous avez besoin pour en savoir plus, consultez les sections de [planification appropriées pour Lync Server 2013](lync-server-2013-planning.md).
+4.  S’il existe des charges de travail ou des fonctionnalités particulières qui vous intéressent ou que vous devez en savoir plus, lisez les sections appropriées de la [planification de Lync Server 2013](lync-server-2013-planning.md).
 
-5.  Réexécutez l’outil de planification. Vous pouvez commencer avec le déploiement que vous avez créé à l’étape 3 et modifier les résultats ou commencer par le début.
+5.  Réexécutez l’outil de planification. Vous pouvez commencer par le déploiement que vous avez créé à l’étape 3 puis modifier les résultats, ou reprendre tout à zéro.
     
-    Le cas échéant, exécutez l’outil de planification une troisième fois et répétez l’opération jusqu’à ce que le résultat vous convienne.
+    Si nécessaire, exécutez l’outil de planification une troisième fois et répétez l’opération jusqu’à ce que vous soyez satisfait du résultat.
 
-6.  Après avoir finalisé le plan topologique, utilisez l’outil de planification pour créer et imprimer un diagramme Visio de votre topologie. Vous pouvez utiliser cette impression tout en travaillant avec le générateur de topologie pour entrer votre topologie.
+6.  Une fois que vous avez finalisé le plan de la topologie, utilisez l’outil de planification pour créer et imprimer un diagramme Visio de votre topologie. Vous pouvez utiliser cette impression lorsque vous utilisez le générateur de topologie pour entrer votre topologie.
 
-7.  Avant de commencer le déploiement, prenez connaissance de la [Configuration système requise pour Lync server 2013](lync-server-2013-determining-your-system-requirements.md) et [Déterminez vos exigences d’infrastructure pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) afin de vous familiariser avec les conditions préalables et l’infrastructure requise pour Lync Server. Par ailleurs, assurez-vous que vous avez lu toutes les sections de [planification pour Lync Server 2013](lync-server-2013-planning.md) qui s’appliquent aux charges de travail et fonctionnalités que vous envisagez de déployer.
+7.  Avant de commencer le déploiement, consultez la détermination de la [Configuration système requise pour Lync server 2013](lync-server-2013-determining-your-system-requirements.md) et détermination de la [Configuration requise pour votre infrastructure pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) afin de vous familiariser avec les conditions préalables et l’infrastructure nécessaire pour Lync Server. De plus, vérifiez que vous avez lu toutes les sections de [planification de Lync Server 2013](lync-server-2013-planning.md) qui s’appliquent aux charges de travail et aux fonctionnalités que vous prévoyez de déployer.
 
 </div>
 
@@ -107,7 +107,7 @@ Nous recommandons le processus général suivant d’utilisation de la documenta
 
 ## <a name="migrating-from-previous-versions"></a>Migration à partir de versions précédentes
 
-Si vous effectuez une migration vers Lync Server à partir d’une version antérieure, consultez la documentation de [migration](migration.md) pour obtenir des instructions spécifiques pour votre migration et votre déploiement.
+Si vous effectuez une migration vers Lync Server à partir d’une version antérieure, reportez-vous à la documentation de [migration](migration.md) pour obtenir des instructions spécifiques pour votre migration et votre déploiement.
 
 </div>
 

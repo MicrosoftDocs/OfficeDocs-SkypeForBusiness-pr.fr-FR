@@ -12,16 +12,16 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764400"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41764400"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Vous pouvez utiliser des paramètres de ligne de commande pour démarrer rapidement Lync 2013. Par exemple, si un utilisateur clique sur un numéro de téléphone dans une autre application, l’application peut démarrer une instance de Lync 2013 et lancer un appel vers ce numéro.
+Vous pouvez utiliser des paramètres de ligne de commande pour lancer rapidement Lync 2013. Par exemple, si un utilisateur clique sur un numéro de téléphone dans une autre application, l’application peut démarrer une instance de Lync 2013 et initier un appel à ce numéro.
 
-Lync 2013 peut également reconnaître une liste délimitée par des points-virgules de noms de contacts pour les conférences multipièces.
+Lync 2013 peut également reconnaître une liste de noms de contact délimités par des points-virgules pour les conférences à plusieurs.
 
-Si Lync 2013 est configuré de manière à se connecter automatiquement au démarrage, puis en démarrant Lync 2013 avec des paramètres de ligne de commande, vous ouvrez la fenêtre principale de Lync. Si Lync n’est pas configuré de manière à se connecter automatiquement au démarrage, la fenêtre de connexion s’ouvre.
+Si Lync 2013 est configuré pour se connecter automatiquement lorsqu’il est démarré, le démarrage de Lync 2013 avec des paramètres de ligne de commande ouvre la fenêtre principale de Lync. Si Lync n’est pas configuré pour la connexion automatique au démarrage, la fenêtre de connexion s’ouvre.
 
-Le tableau suivant répertorie les paramètres disponibles.
+Le tableau suivant présente les paramètres disponibles.
 
 ### <a name="lync-2013-command-line-parameters"></a>Paramètres de ligne de commande Lync 2013
 
@@ -55,48 +55,48 @@ Le tableau suivant répertorie les paramètres disponibles.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Long</th>
+<th>Extension</th>
 <th>Format des données</th>
 <th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>tel</p></td>
+<td><p>Téléphone</p></td>
 <td><p>URI tel</p></td>
-<td><p>Ouvre la fenêtre de conversation pour un appel audio sans composer le numéro spécifié.</p></td>
+<td><p>Ouvre la fenêtre de conversation pour un appel audio, mais ne compose pas le numéro spécifié.</p></td>
 </tr>
 <tr class="even">
-<td><p>callto</p></td>
-<td><p>Tel :, SIP : ou URI tel de type</p></td>
-<td><p>Ouvre la fenêtre de conversation pour un appel audio sans composer le numéro spécifié.</p></td>
+<td><p>protocoles callto</p></td>
+<td><p>tel:, sip: ou URI tel à taper</p></td>
+<td><p>Ouvre la fenêtre de conversation pour un appel audio, mais ne compose pas le numéro spécifié.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP</p></td>
 <td><p>URI SIP</p></td>
-<td><p>Ouvre la fenêtre de conversation avec l’URI (Uniform Resource Identifier) SIP spécifié dans la liste des participants.</p></td>
+<td><p>Ouvre la fenêtre de conversation avec l’URI SIP spécifié dans la liste des participants.</p></td>
 </tr>
 <tr class="even">
-<td><p>Quels</p></td>
+<td><p>Câbles</p></td>
 <td><p>URI SIP</p></td>
-<td><p>Si Lync 2013 est configuré pour utiliser le protocole TLS (Transport Layer Security), fonctionne exactement comme pour SIP :. Si TLS n’est pas utilisé, affiche une boîte de dialogue informant l’utilisateur qu’un niveau de sécurité supérieur est requis.</p></td>
+<td><p>Si Lync 2013 est configuré pour utiliser le protocole TLS (Transport Layer Security), fonctionne exactement comme SIP :. Si TLS n’est pas utilisé, affiche une boîte de dialogue informant l’utilisateur qu’un niveau de sécurité supérieur est requis.</p></td>
 </tr>
 <tr class="odd">
-<td><p>donne</p></td>
-<td><p>URI SIP de la Conférence à rejoindre</p></td>
-<td><p>Si URI est Self, instancie le focus et affiche le focus uniquement. Dans le cas contraire, ouvre l’affichage de la liste, mais n’envoie pas d’invitation.</p></td>
+<td><p>CONF</p></td>
+<td><p>URI SIP de la conférence à rejoindre</p></td>
+<td><p>Si l’URI est automatique, instancie le focus et affiche la vue tableau uniquement. Sinon, affiche la vue tableau mais n’envoie pas INVITE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Pseudo</p></td>
+<td><p>messagerie instantanée</p></td>
 <td><p>URI SIP</p></td>
-<td><p>Affiche une fenêtre de conversation par messagerie instantanée uniquement avec l’URI SIP. Accepte plusieurs URI SIP spécifiés entre crochets (&lt;&gt;) sans séparateur.</p>
+<td><p>Affiche une fenêtre de conversation de messagerie instantanée uniquement avec l’URI SIP. Accepte plusieurs URI SIP spécifiés entre chevrons&lt;&gt;() sans séparateur.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-Le tableau suivant contient des exemples de ces paramètres de ligne de commande.
+Le tableau suivant fournit des exemples de ces paramètres de ligne de commande.
 
 ### <a name="command-line-parameter-examples"></a>Exemples de paramètres de ligne de commande
 
@@ -107,22 +107,22 @@ Le tableau suivant contient des exemples de ces paramètres de ligne de commande
 </colgroup>
 <thead>
 <tr class="header">
-<th>Instanci</th>
-<th>Conduit</th>
+<th>Instance</th>
+<th>Résultats</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tel : + 14255550101</p></td>
-<td><p>Ouvre une seule vue de téléphone avec + 14255550101.</p></td>
+<td><p>Tél : + 14255550101</p></td>
+<td><p>Ouvre une vue téléphone uniquement avec +14255550101.</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto : tel : + 14255550101</p></td>
-<td><p>Ouvre une seule vue de téléphone avec + 14255550101.</p></td>
+<td><p>Callto:tel:+ 14255550101</p></td>
+<td><p>Ouvre une vue téléphone uniquement avec +14255550101.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Callto:sip:kazuto@litwareinc.com</p></td>
-<td><p>Ouvre une seule vue de téléphone avec kazuto@litwareinc.com.</p></td>
+<td><p>Ouvre une vue téléphone uniquement avec kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="even">
 <td><p>sip:kazuto@litwareinc.com</p></td>
@@ -130,7 +130,7 @@ Le tableau suivant contient des exemples de ces paramètres de ligne de commande
 </tr>
 <tr class="odd">
 <td><p>conf : SIP :https://meet.contoso.com/kazuto/7322994</p></td>
-<td><p>Ouvre une fenêtre de conversation et affiche les options de participation à une réunion audio.</p></td>
+<td><p>Ouvre une fenêtre de conversation et affiche les options de participation à une réunion.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : restaurer une règle de mise à jour d’appareil'
+title: 'Lync Server 2013 : restaurer une règle de mise à jour de périphérique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0416092c7021d599ec7e516d72c19e8baa3c598
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 728adc1384738d93fc7ac4506a55621830c7de39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restore-a-device-update-rule-in-lync-server-2013"></a>Restaurer une règle de mise à jour d’appareil dans Lync Server 2013
+# <a name="restore-a-device-update-rule-in-lync-server-2013"></a>Restaurer une règle de mise à jour de périphérique dans Lync Server 2013
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41723584"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Pour désinstaller une règle de mise à jour de l’appareil des appareils de votre déploiement, restaurez-la. La restauration d’une règle de mise à jour de l’appareil à la fois désinstalle la mise à jour et réinstalle la version précédente de cette règle.
+Pour désinstaller une règle de mise à jour de périphérique à partir des appareils de votre déploiement, restaurez-la. La restauration d’une règle de mise à jour de périphérique désinstalle la mise à jour et réinstalle la version précédente de cette règle.
 
-Vous pouvez restaurer une règle de mise à jour de l’appareil à l’aide du panneau de configuration de Lync Server ou de Windows PowerShell.
+Vous pouvez restaurer une règle de mise à jour des périphériques à l’aide du panneau de configuration Lync Server ou de Windows PowerShell.
 
 <div>
 
-## <a name="to-restore-device-update-rules-by-using-lync-server-control-panel"></a>Pour restaurer les règles de mise à jour de l’appareil à l’aide du panneau de configuration de Lync Server
+## <a name="to-restore-device-update-rules-by-using-lync-server-control-panel"></a>Pour restaurer des règles de mise à jour des périphériques à l’aide du panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour d’appareil** .
+3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour des périphériques** .
 
-4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
+4.  Sur la page **mise à jour du périphérique** , effectuez l’une des opérations suivantes :
     
       - Pour restaurer une règle, sélectionnez cette règle.
     
-      - Pour restaurer toutes les règles, cliquez sur **modifier**, puis sur **Sélectionner tout**.
+      - Pour restaurer toutes les règles, cliquez sur **modifier**, puis cliquez sur **Sélectionner tout**.
 
-5.  Cliquez sur le menu **action** , puis cliquez sur **restaurer**.
+5.  Cliquez sur le menu **action** , puis sur **restaurer**.
 
 </div>
 
 <div>
 
-## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a>Restauration de règles de mise à jour de l’appareil à l’aide des cmdlets Windows PowerShell
+## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a>Restauration des règles de mise à jour des périphériques à l’aide des applets de commande Windows PowerShell
 
-Les règles de mises à jour de périphériques peuvent également être restaurées à l’aide de Windows PowerShell et de l’applet de passe **Restore-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Les règles de mise à jour des appareils peuvent également être restaurées à l’aide de Windows PowerShell et de la cmdlet **Restore-CsDeviceUpdateRule** .. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -79,9 +79,9 @@ Les règles de mises à jour de périphériques peuvent également être restaur
 
 <div>
 
-## <a name="to-restore-a-single-device-update-rule-on-a-server"></a>Pour restaurer une seule règle de mise à jour d’un appareil sur un serveur
+## <a name="to-restore-a-single-device-update-rule-on-a-server"></a>Pour restaurer une règle de mise à jour de périphérique unique sur un serveur
 
-  - La commande suivante restaure la règle de mise à jour d’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
+  - La commande suivante restaure la règle de mise à jour de périphérique d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
     
         Restore-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -89,15 +89,15 @@ Les règles de mises à jour de périphériques peuvent également être restaur
 
 <div>
 
-## <a name="to-restore-all-the-device-update-rules-on-a-server"></a>Pour restaurer toutes les règles de mise à jour de l’appareil sur un serveur
+## <a name="to-restore-all-the-device-update-rules-on-a-server"></a>Pour restaurer toutes les règles de mise à jour des périphériques sur un serveur
 
-  - Cette commande restaure toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com :
+  - Cette commande restaure toutes les règles de mise à jour des périphériques sur le serveur Web atl-cs-001.litwareinc.com :
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) .
+Pour plus d’informations, consultez la rubrique d’aide relative à la cmdlet [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) .
 
 </div>
 

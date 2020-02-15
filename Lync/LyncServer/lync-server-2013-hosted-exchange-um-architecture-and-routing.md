@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Architecture et routage de la messagerie unifiée Exchange hébergée'
+title: 'Lync Server 2013 : architecture et routage de la messagerie unifiée Exchange hébergée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3846e6b2a6817bb01b678f6ddb2c8d0ce7231ec1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41739014"
 
 _**Dernière modification de la rubrique :** 2012-03-26_
 
-Cette section fournit une vue d’ensemble de l’architecture d’intégration de la messagerie unifiée Exchange hébergée en local, notamment les modes pris en charge, l’espace SIP partagé et les considérations relatives au routage.
+Cette section fournit une vue d’ensemble de l’architecture d’intégration de la messagerie unifiée Exchange sur site et hébergée, notamment des informations relatives aux modes de prise en charge, à l’espace SIP partagé et au routage.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Architecture d’intégration de messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md)
+  - [Architecture d’intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 
-  - [Routage de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-routing.md)
+  - [Routage de messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-um-routing.md)
 
 </div>
 

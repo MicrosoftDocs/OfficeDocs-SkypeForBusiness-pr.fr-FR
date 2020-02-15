@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des serveurs Edge'
+title: 'Lync Server 2013 : configuration des serveurs Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764620"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Les principales tâches nécessaires à la configuration des serveurs de frontière sont les mêmes pour l’installation d’un serveur de périphérie unique ou d’un pool d’équilibrage de charge de serveurs Edge, sauf qu’un ensemble de serveurs Edge équilibrés par la charge matérielle nécessite le déploiement des équilibreurs de charge et des étapes supplémentaires pour répliquer le configuré sur plusieurs serveurs Edge.
+Les tâches principales requises pour configurer les serveurs Edge sont les mêmes que pour installer un serveur Edge sur un pool avec charge équilibrée de serveurs Edge. En revanche, un pool de serveurs Edge avec charge matérielle équilibrée nécessite le déploiement de programmes d’équilibrage de charge et des tâches supplémentaires pour répliquer la configuration sur plusieurs serveurs Edge.
 
 <div>
 
@@ -45,15 +45,15 @@ Les principales tâches nécessaires à la configuration des serveurs de fronti�
 
   - [Configuration des interfaces réseau pour les serveurs Edge dans Lync Server 2013](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [Installation du logiciel prérequis sur les serveurs Edge pour Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [Installer les logiciels prérequis sur les serveurs Edge pour Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [Exportation de votre topologie Lync Server 2013 et copie vers le support externe pour l’installation Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [Installation des serveurs Edge pour Lync Server 2013](lync-server-2013-install-edge-servers.md)
+  - [Installer des serveurs Edge pour Lync Server 2013](lync-server-2013-install-edge-servers.md)
 
-  - [Configuration des certificats de serveur Edge pour Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
+  - [Configurer des certificats de serveur Edge pour Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
 
-  - [Démarrage des serveurs de périphérie dans Lync Server 2013](lync-server-2013-start-edge-servers.md)
+  - [Démarrer des serveurs Edge dans Lync Server 2013](lync-server-2013-start-edge-servers.md)
 
   - [Configuration des serveurs proxy inverses pour Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
 

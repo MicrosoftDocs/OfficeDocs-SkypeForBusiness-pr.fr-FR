@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Sonnerie simultanée'
+title: 'Lync Server 2013 : sonnerie simultanée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764510"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Lorsque la partie appelée dispose d’une sonnerie simultanée activée, le routage de géolocalisation analyse l’emplacement de la partie de l’appel et les points de terminaison des parties appelées pour déterminer si l’appel doit être routé.
+Lorsque le composant appelé dispose d’une sonnerie simultanée, le routage géodépendant permet d’analyser l’emplacement de l’appelant et les points de terminaison des parties appelées afin de déterminer si l’appel doit être acheminé.
 
-Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultanée est configurée. La cible de la sonnerie simultanée est un utilisateur appartenant au même site réseau, à un autre site réseau ou à un site réseau inconnu.
+Le tableau suivant illustre un utilisateur configuré avec la sonnerie simultanée et la cible de la sonnerie simultanée est un utilisateur du même site réseau, d’un site réseau différent ou d’un site réseau inconnu.
 
 
 <table>
@@ -52,9 +52,9 @@ Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultané
 <thead>
 <tr class="header">
 <th>Appel RTC entrant pour</th>
-<th>Situé dans le même site réseau que l’appelé</th>
-<th>Situé dans un autre site réseau que l’appelé</th>
-<th>Se trouve sur un site réseau inconnu ou n’est pas activé pour le routage par emplacement</th>
+<th>Situé dans le même site réseau que l’appelé.</th>
+<th>Situé dans un site réseau différent de celui de l’appelé ;</th>
+<th>Situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +68,7 @@ Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultané
 </table>
 
   
-Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, appelant Lync) au sein d’un même site réseau, sur un autre site réseau ou à partir d’un site réseau inconnu. L’appelé a un point de terminaison RTC (téléphone portable) configuré comme cible de la sonnerie simultanée. Dans ce scénario, le routage en fonction de l’emplacement détermine si l’appel doit être acheminé vers la cible de sonnerie simultanée (c.-à-d. téléphone mobile) de l’appelé ou non.
+Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, l’appelant Lync) dans le même site réseau, dans un autre site réseau ou à partir d’un site réseau inconnu. L’appelé a un point de terminaison PSTN (par exemple, téléphone portable) configuré en tant que cible circulaire simultanée. Dans ce scénario, le routage géodépendant indique si l’appel doit être acheminé vers la cible de sonnerie simultanée (téléphone cellulaire) de l’appelé ou non.
 
 
 <table>
@@ -80,18 +80,18 @@ Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, appel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cible de la sonnerie simultanée</th>
-<th>Situé dans le même site réseau que l’appelé</th>
-<th>Situé dans un autre site réseau que l’appelé</th>
-<th>Se trouve sur un site réseau inconnu ou n’est pas activé pour le routage par emplacement</th>
+<th>Cible annulaire simultanée</th>
+<th>Situé dans le même site réseau que l’appelé.</th>
+<th>Situé dans un site réseau différent de celui de l’appelé ;</th>
+<th>Situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Point de terminaison RTC</p></td>
+<td><p>Point de terminaison PSTN</p></td>
 <td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
 <td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
-<td><p>Sonnerie simultanée autorisée via la stratégie de voix de l’appelant vers les jonctions sur lesquelles le routage géodépendant n’est pas activé</p></td>
+<td><p>Sonnerie simultanée autorisée via la stratégie de voix de l’appelant aux jonctions non activées pour le routage géodépendant</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 390d6289daf8075c873e90319642f0e74b61d835
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f767a2c94e797ab43e3b5ace6b553b05bafd81f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730364"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Sauvegarder et restaurer des feuilles de calcul pour Lync Server 2013
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41730364"
 
 _**Dernière modification de la rubrique :** 2013-02-18_
 
-Le plan de sauvegarde et de restauration de votre organisation doit contenir des détails sur la façon dont et quand vous sauvegardez des données et des paramètres. Vous pouvez utiliser les feuilles de calcul présentées ici pour documenter ces informations pour votre déploiement spécifique et pour les besoins en matière de sauvegarde et de restauration de votre organisation.
+Le plan de sauvegarde et de restauration de votre organisation doit contenir des détails sur la manière et le moment de sauvegarder les données et les paramètres. Vous pouvez utiliser les feuilles de calcul présentées ici pour vous aider à documenter ces informations pour votre déploiement et pour les besoins de votre organisation en matière de sauvegarde et de restauration.
 
-Utilisez les feuilles de calcul suivantes pour enregistrer les informations dont vous avez besoin pour sauvegarder et restaurer des informations de base de données, de magasin de fichiers et de paramètres pour un pool de serveurs Lync ou un serveur Standard Edition Server. Conservation d’une ou plusieurs copies de ces feuilles de calcul dans un emplacement sécurisé de sorte qu’elles soient facilement accessibles si vous devez restaurer Lync Server.
+Utilisez les feuilles de calcul suivantes pour enregistrer les informations dont vous avez besoin pour sauvegarder et restaurer les informations de base de données, de magasin de fichiers et de paramètres d’un pool Lync Server ou d’un serveur Standard Edition Server. Conservez une ou plusieurs copies de ces feuilles de calcul dans un endroit sûr afin qu’elles soient facilement accessibles si vous devez restaurer Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Les feuilles de calcul de cette section couvrent uniquement les informations nécessaires pour restaurer les données et les paramètres des bases de données et serveurs Lync Server. Si vous avez besoin de documenter d’autres informations de restauration, telles que les informations de réinstallation de systèmes d’exploitation et autres logiciels, utilisez les plans de déploiement de votre organisation ainsi que les plans de sauvegarde et de restauration pour répondre à ces exigences.
+> Les feuilles de cette section traitent uniquement les informations requises pour restaurer les données et les paramètres des serveurs et des bases de données Lync Server. Si vous devez documenter d’autres informations de restauration, telles que les informations de réinstallation des systèmes d’exploitation et d’autres logiciels, utilisez les plans de déploiement de votre organisation, ainsi que les plans de sauvegarde et de restauration pour répondre à ces exigences.
 
 
 
@@ -71,13 +71,13 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bases</th>
-<th>Nom du serveur (FQDN)</th>
-<th>Planning de sauvegarde</th>
+<th>Base de données</th>
+<th>Nom de serveur (FQDN)</th>
+<th>Planification de la sauvegarde</th>
 <th>Outil de sauvegarde de base de données</th>
 <th>Jeu de sauvegarde</th>
 <th>Destination de la sauvegarde</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -85,9 +85,9 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <td><p>Base de données RTC sur le serveur principal pour les données utilisateur</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p>Cmdlet <strong>Export-CsUserData</strong></p></td>
-<td><p>Nommer</p>
-<p>Leur</p>
+<td><p>Cmdlet <strong>Export-applet csuserdata</strong></p></td>
+<td><p>Nom</p>
+<p>Pire</p>
 <p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
@@ -97,28 +97,28 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Outil de gestion SQL Server</p></td>
-<td><p>Nommer</p>
-<p>Leur</p></td>
+<td><p>Nom</p>
+<p>Pire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de données LcsCdr sur analyse du serveur de base de données pour les enregistrements des détails des appels (CdR)</p></td>
+<td><p>Base de données LcsCdr sur le serveur de base de données de surveillance pour les enregistrements des détails des appels</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Outil de gestion SQL Server</p></td>
-<td><p>Nommer</p>
-<p>Leur</p></td>
+<td><p>Nom</p>
+<p>Pire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>Base de données QoEMetrics sur l’analyse des données d’un serveur de base de données</p></td>
+<td><p>Base de données QoEMetrics sur le serveur de base de données de surveillance pour les données QoE (qualité de l’expérience)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Outil de gestion SQL Server</p></td>
-<td><p>Nommer</p>
-<p>Leur</p></td>
+<td><p>Nom</p>
+<p>Pire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -126,9 +126,9 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <td><p>Base de données de conversation permanente</p></td>
 <td></td>
 <td></td>
-<td><p>Outil de gestion SQL Server ou cmdlet <strong>Export-CsPersistentChatData</strong></p></td>
-<td><p>Nommer</p>
-<p>Leur</p></td>
+<td><p>Outil de gestion SQL Server ou cmdlet <strong>Export-applet cspersistentchatdata</strong></p></td>
+<td><p>Nom</p>
+<p>Pire</p></td>
 <td></td>
 <td></td>
 </tr>
@@ -136,15 +136,15 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </table>
 
 
-Aucune sauvegarde ou restauration requise pour les bases de données suivantes :
+Aucune sauvegarde ou restauration n’est requise pour les bases de données suivantes :
 
-  - Rtcdyn. Les données utilisateur temporaires de cette base de données ne sont pas nécessaires à la restauration du service.
+  - RTCDyn. Les données utilisateur temporaires de cette base de données ne sont pas nécessaires à la restauration du service.
 
-  - Rtcab. La base de données du carnet d’adresses est recréée automatiquement à partir de la liste d’adresses globale dans les services de domaine Active Directory (AD DS).
+  - RTCAb. La base de données de carnet d’adresses est recréée automatiquement à partir de la liste d’adresses globale (LAG) dans les services de domaine Active Directory.
 
-  - Rgsdyn. Il n’est pas nécessaire de restaurer les données du service de groupe de réponse temporaire dans cette base de données pour la restauration du service.
+  - Rgsdyn. Les données de service Response Group de cette base de données ne sont pas nécessaires à la restauration du service.
 
-  - Cpsdyn. Les informations dynamiques pour l’application de stationnement d’appel ne sont pas nécessaires pour la restauration du service.
+  - Cpsdyn. Les informations dynamiques pour l’application de parcage d’appel ne sont pas nécessaires à la restauration du service.
 
   - MgcComp. La base de données de conformité pour la conversation permanente n’est pas nécessaire pour la restauration du service.
 
@@ -154,9 +154,9 @@ Aucune sauvegarde ou restauration requise pour les bases de données suivantes 
 
 ## <a name="file-store-backup-and-restoration-worksheet"></a>Feuille de calcul de sauvegarde et de restauration du magasin de fichiers
 
-Utilisez le tableau suivant pour enregistrer les informations dont vous avez besoin pour sauvegarder et restaurer les magasins de fichiers. Les magasins de fichiers contiennent des données telles que les métadonnées de contenu de la réunion, les journaux de mise à jour des mises à jour pour les mises à jour de l’appareil et les fichiers audio pour le groupe de réponse, le parc d’appels et les applications d’annonce.
+Utilisez le tableau suivant pour enregistrer les informations nécessaires à la sauvegarde et à la restauration des magasins de fichiers. Les magasins de fichiers contiennent des données telles que des métadonnées de contenu de réunion, des journaux de conformité de réunion, des journaux de mise à jour pour les mises à jour de périphérique et des fichiers audio pour le groupe de réponse, le parcage d’appel et les applications d’annonce.
 
-### <a name="file-store-information-for-backup-and-restoration"></a>Informations de stockage de fichiers pour la sauvegarde et la restauration
+### <a name="file-store-information-for-backup-and-restoration"></a>Informations sur le magasin de fichiers pour la sauvegarde et la restauration
 
 <table style="width:100%;">
 <colgroup>
@@ -171,23 +171,23 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <thead>
 <tr class="header">
 <th>Contenu</th>
-<th>Nom du serveur (FQDN)</th>
-<th>Planning de sauvegarde</th>
-<th>Outil de sauvegarde du système de fichiers</th>
+<th>Nom de serveur (FQDN)</th>
+<th>Planification de la sauvegarde</th>
+<th>Outil de sauvegarde de système de fichiers</th>
 <th>Partage de fichiers à sauvegarder *</th>
 <th>Destination de la sauvegarde</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Magasin de fichiers de Lync Server</p></td>
+<td><p>Magasin de fichiers Lync Server</p></td>
 <td></td>
 <td></td>
 <td><p>Outil de sauvegarde standard, tel que Robocopy</p></td>
-<td><p>Sur le serveur de fichiers Enterprise Edition. Sur l’édition standard par défaut, pour le déploiement Standard Edition. En règle générale, un par site.</p></td>
+<td><p>Sur le serveur de fichiers pour Enterprise Edition. Sur Standard Edition, par défaut, pour le déploiement Standard Edition. En règle générale, un par site.</p></td>
 <td></td>
-<td><p>Les fichiers nommés <strong>réunion. actif</strong> ne doivent pas être sauvegardés. Ces fichiers sont utilisés et sont verrouillés lors d’une réunion.</p></td>
+<td><p>Les fichiers nommés <strong>Meeting. active</strong> ne doivent pas être sauvegardés. Ces fichiers sont en cours d’utilisation et sont verrouillés pendant qu’une réunion a lieu.</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,11 +197,11 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 
 <div>
 
-## <a name="settings-backup-and-restoration-worksheet"></a>Sauvegarder les paramètres et la feuille de calcul de restauration
+## <a name="settings-backup-and-restoration-worksheet"></a>Feuille de calcul de restauration et de sauvegarde des paramètres
 
 Utilisez le tableau suivant pour enregistrer les informations dont vous avez besoin pour sauvegarder et restaurer les paramètres.
 
-### <a name="settings-information-for-backup-and-restoration"></a>Informations de paramètres pour la sauvegarde et la restauration
+### <a name="settings-information-for-backup-and-restoration"></a>Informations sur les paramètres de sauvegarde et de restauration
 
 <table style="width:100%;">
 <colgroup>
@@ -215,18 +215,18 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bases</th>
-<th>Nom du serveur (FQDN)</th>
-<th>Planning de sauvegarde</th>
+<th>Base de données</th>
+<th>Nom de serveur (FQDN)</th>
+<th>Planification de la sauvegarde</th>
 <th>Outil de sauvegarde</th>
 <th>Nom du fichier de configuration (. Xml)</th>
 <th>Emplacement de sauvegarde</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Base de données XDS dans le magasin central de gestion pour la configuration de la topologie (globale)</p></td>
+<td><p>Base de données XDS dans le magasin central de gestion pour la configuration de la topologie (Global)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 <td><p>Cmdlet <strong>Export-CsConfiguration</strong></p></td>
@@ -235,7 +235,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <td><p>                   </p></td>
 </tr>
 <tr class="even">
-<td><p>Base de données lis dans le magasin central de gestion pour E9-1-1 informations d’emplacement (Global)</p></td>
+<td><p>Base de données lis dans le magasin central de gestion pour les informations d’emplacement E9-1-1 (Global)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Cmdlet <strong>Export-CsLisConfiguration</strong></p></td>
@@ -244,10 +244,10 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <td><p>                    </p></td>
 </tr>
 <tr class="odd">
-<td><p>Base de données RgsConfig du serveur principal pour la configuration de Response Group (pool)</p></td>
+<td><p>Base de données RgsConfig sur le serveur principal pour la configuration Response Group (pool)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p>Cmdlet <strong>Export-CsRgsConfiguration</strong></p></td>
+<td><p>Cmdlet <strong>Export-applet csrgsconfiguration</strong></p></td>
 <td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>

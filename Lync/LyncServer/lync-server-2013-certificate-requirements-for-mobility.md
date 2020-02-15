@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Exigences relatives aux certificats pour la mobilité'
+title: 'Lync Server 2013 : exigences en matière de certificats pour la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 680eaf205959b67d8fef93ff56d379ae8cd293bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbf7dd0f3ce9868fbeac5c757fce5371ad77fba4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736774"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41736774"
 
 _**Dernière modification de la rubrique :** 2012-06-24_
 
-Si vous déployez la fonctionnalité de mobilité et que vous prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrées de nom alternatif de sujet sur les certificats pour la prise en charge de connexions sécurisées à partir des clients mobiles.
+Si vous déployez la fonctionnalité de mobilité et prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrée d’autres noms de sujet sur les certificats de manière prendre en charge les connexions sécurisées établies à partir de clients mobiles.
 
-Vous devez inclure les autres entrées de nom de l’objet pour la découverte automatique sur les certificats suivants :
+Vous devez inclure des entrées d’autres noms de sujet pour la découverte automatique sur les certificats suivants :
 
-  - pool de directeurs
+  - pool directeur
 
-  - pool de serveurs frontaux
+  - pool frontal
 
   - Proxy inverse
 
-Cette section décrit les entrées de nom alternatif requises sur vos certificats pour une découverte automatique.
+Cette section décrit les entrées d’autres noms de sujet requises sur vos certificats pour la découverte automatique.
 
 <div>
 
 
 > [!NOTE]  
-> La réémission de certificats à l’aide d’une autorité de certification interne correspond généralement à un processus simple, mais l’ajout de plusieurs entrées de nom de remplacement de sujet à des certificats publics utilisés par le proxy inverse peut être coûteux. Si vous avez de nombreux domaines SIP, le fait d’ajouter des noms de substitution d’objet très coûteux, vous pouvez configurer le proxy inverse pour qu’il utilise HTTP pour la demande de service de découverte automatique initiale au lieu d’utiliser HTTPs (configuration par défaut). Pour plus d’informations, voir <A href="lync-server-2013-technical-requirements-for-mobility.md">Configuration requise pour la mobilité dans Lync Server 2013</A>.
+> La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse. Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut). Pour plus d’informations, voir <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical Requirements for Mobility in Lync Server 2013</A>.
 
 
 
 </div>
 
-### <a name="director-pool-certificate-requirements"></a>Conditions requises pour le certificat de pool de réalisateur
+### <a name="director-pool-certificate-requirements"></a>Exigences relatives au certificat du pool directeur
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée de l’autre nom de l’objet</th>
+<th>Entrée d’autre nom de sujet</th>
 </tr>
 </thead>
 <tbody>
@@ -95,7 +95,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a>Conditions requises pour le certificat de pool frontal
+### <a name="front-end-pool-certificate-requirements"></a>Exigences relatives au certificat du pool frontal
 
 <table>
 <colgroup>
@@ -105,7 +105,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée de l’autre nom de l’objet</th>
+<th>Entrée d’autre nom de sujet</th>
 </tr>
 </thead>
 <tbody>
@@ -131,7 +131,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Conditions requises pour les certificats de proxy inverse (AC publique)
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Exigences relatives au certificat de proxy inverse (autorité de certification publique)
 
 <table>
 <colgroup>
@@ -141,7 +141,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée de l’autre nom de l’objet</th>
+<th>Entrée d’autre nom de sujet</th>
 </tr>
 </thead>
 <tbody>
@@ -157,7 +157,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 
 
 > [!NOTE]  
-> Vous attribuez ce SAN au certificat attribué à l’écouteur SSL sur le proxy inverse.
+> Vous affecté cet autre nom d’objet (SAN) au certificat assigné à l’écouteur SSL sur le proxy inverse.
 
 
 
@@ -167,7 +167,7 @@ Cette section décrit les entrées de nom alternatif requises sur vos certificat
 
 
 > [!NOTE]  
-> Votre écouteur de proxy inverse aura des noms de remplacement pour vos URL de services Web externes (par exemple, SAN = lyncwebextpool01. contoso. com et dirwebexternal.contoso.com si vous avez déployé le réalisateur facultatif).
+> Votre écouteur de proxy inverse aura des noms d’objet alternatifs pour vos URL de services Web externes (par exemple, SAN = lyncwebextpool01. contoso. com et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).
 
 
 

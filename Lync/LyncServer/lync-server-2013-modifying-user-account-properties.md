@@ -12,16 +12,16 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d327da37188625fd44e01dc6146c5d6341f60fbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e10f172ec6b1d96a94d74a7654ceb908687ad264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766005"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41766005"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.
+Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
 
 <div>
 
@@ -55,7 +55,7 @@ Vous pouvez utiliser les procédures décrites dans cette section pour modifier 
 
 
 [Comptes d’utilisateurs activés pour Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
+[Affectation de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

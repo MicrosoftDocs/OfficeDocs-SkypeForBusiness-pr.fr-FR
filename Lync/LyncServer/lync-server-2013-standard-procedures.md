@@ -12,16 +12,16 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59c3c4a1b76b7f3549f53721e29aa1e34085334
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,28 +37,28 @@ ms.locfileid: "41731864"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-Plusieurs ressources peuvent vous aider à définir les procédures standard requises au sein de l’organisation et comment les exécuter. Étant donné que chaque organisation est unique, il est possible que vous deviez également personnaliser et adapter ces ressources pour répondre aux besoins de tous les jours. Les procédures opérationnelles standard changent et la documentation doit parfois être révisée. À mesure que des modifications sont apportées, le processus de gestion des modifications, tel que défini dans les fonctions de gestion des services de l’infrastructure opérationnelle de Microsoft, doit déterminer la façon dont chaque modification est susceptible d’influer sur l’exécution des tâches d’administration. Utilisez la fonction de gestion des modifications pour mettre à jour et contrôler la documentation procédurale. Nous vous recommandons d’intégrer les tâches opérationnelles dans des charges de travail gérables, où les tâches sont exécutées sur une base quotidienne, hebdomadaire, mensuelle et en tout besoin. Les tâches quotidiennes concentrent les efforts sur les aspects qui sont très importants pour le fonctionnement d’un système et les tâches mensuelles se focalisent davantage sur la manière de garantir l’intégrité du système à long terme. Les tâches qui doivent être effectuées peuvent être classées dans les catégories suivantes :
+Plusieurs ressources peuvent vous aider à définir les procédures standard requises dans l’organisation et à les effectuer. Chaque organisation étant unique, vous devrez peut-être également personnaliser et adapter ces ressources pour répondre aux besoins de tous les jours. Les procédures de fonctionnement standard changent et la documentation doit être révisée. Au fur et à mesure que des modifications sont apportées, le processus de gestion des modifications, tel que défini dans les fonctions de gestion des services de l’infrastructure opérationnelle de Microsoft, doit identifier la manière dont chaque modification est susceptible d’influer sur l’exécution des tâches d’administration. Utilisez la fonction de gestion des modifications pour mettre à jour et contrôler la documentation procédurale. Nous vous recommandons de séparer les tâches opérationnelles en charges de travail gérables, où les tâches sont effectuées de manière quotidienne, hebdomadaire, mensuelle et en fonction des besoins. Les tâches quotidiennes se concentrent sur des aspects très importants pour le fonctionnement d’un système et les tâches mensuelles se concentrent davantage sur l’intégrité de l’intégrité d’un système à long terme. Les tâches qui doivent être effectuées peuvent être réparties dans les catégories suivantes :
 
-  - [Tâches quotidiennes dans Skype Entreprise Server 2015](lync-server-2013-daily-tasks.md)
+  - [Tâches quotidiennes dans Lync Server 2013](lync-server-2013-daily-tasks.md)
 
-  - [Tâches hebdomadaires dans Skype Entreprise Server 2015](lync-server-2013-weekly-tasks.md)
+  - [Tâches hebdomadaires dans Lync Server 2013](lync-server-2013-weekly-tasks.md)
 
   - [Tâches mensuelles dans Lync Server 2013](lync-server-2013-monthly-tasks.md)
 
-  - [Tâches selon les besoins dans Lync Server 2013](lync-server-2013-as-needed-tasks.md)
+  - [Tâches nécessaires dans Lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
-Lorsque vous préparez une documentation sur la gestion des opérations, utilisez les listes de contrôle pour vous assurer que les tâches requises sont exécutées au moment approprié. Pour plus d’informations sur la préparation des listes de vérification des opérations, voir les exemples de liste de vérification figurant dans les listes de contrôle des opérations.
+Lors de la préparation de la documentation pour la gestion des opérations, utilisez des listes de vérification pour vous assurer que les tâches requises sont exécutées au moment opportun. Pour plus d’informations sur la préparation des listes de vérification des opérations, voir l’exemple de liste de vérification dans les listes de vérification des opérations.
 
-Souvent, la gestion des modifications prend en charge l’exécution de l’administration du système. Si une tâche est couverte par une procédure standard, elle fait partie de la fonction d’administration du système. S’il n’existe aucune procédure standard pour une tâche, celle-ci doit être gérée à l’aide de la fonction de gestion des modifications.
+En général, la gestion des modifications prend le relais de la fin de l’administration du système. Si une tâche est couverte par une procédure standard, elle fait partie de la fonction d’administration système. S’il n’existe aucune procédure standard pour une tâche, elle doit être gérée à l’aide de la fonction de gestion des modifications.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Liste de contrôle des tâches quotidiennes](lync-server-2013-operations-checklists.md)  
-[Liste hebdomadaire des tâches](lync-server-2013-operations-checklists.md)  
-[Liste de vérification mensuelle des tâches](lync-server-2013-operations-checklists.md)  
+[Liste de vérification des tâches quotidiennes](lync-server-2013-operations-checklists.md)  
+[Liste de vérification des tâches hebdomadaires](lync-server-2013-operations-checklists.md)  
+[Liste de vérification des tâches mensuelles](lync-server-2013-operations-checklists.md)  
   
 
 </div>

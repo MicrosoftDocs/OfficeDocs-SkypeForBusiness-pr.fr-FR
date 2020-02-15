@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Gateways'
+title: 'Lync Server 2013 : tableau de passerelles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ee7296b93b3a9e1d7900b3ddde5c1b850c3580
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a03222cd628466e7d88e8f36adafbf5207f0ef0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a>Table Gateways dans Lync Server 2013
+# <a name="gateways-table-in-lync-server-2013"></a>Tableau des passerelles dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41739624"
 
 _**Dernière modification de la rubrique :** 2010-11-05_
 
-Le tableau passerelles est une table de prise en charge. Chaque enregistrement stocke des informations sur une passerelle impliquée dans les appels de réseau téléphonique commuté (PSTN) qui comportent des enregistrements dans la base de données.
+Le tableau des passerelles est une table de prise en charge. Chaque enregistrement stocke des informations sur une passerelle impliquée dans des appels RTC (réseau téléphonique commuté) ayant des enregistrements dans la base de données.
 
 
 <table>
@@ -51,7 +51,7 @@ Le tableau passerelles est une table de prise en charge. Chaque enregistrement s
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,12 +59,12 @@ Le tableau passerelles est une table de prise en charge. Chaque enregistrement s
 <tr class="odd">
 <td><p><strong>GatewayId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Numéro unique identifiant cette passerelle.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Passerelle</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Nom de la passerelle.</p></td>
 </tr>

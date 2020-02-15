@@ -12,16 +12,16 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a23ab96b25fa3ba5da846fc5967053fdac041b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d09980e7a34e5c565fe8282a665cede654a725a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763984"
 
 _**Dernière modification de la rubrique :** 2014-04-22_
 
-Pour installer les outils proposés dans le cadre de l’outil de stress et de performance de Lync Server 2013, suivez ces instructions.
+Pour installer les outils fournis dans le cadre de l’outil de contrainte et de performances de Lync Server 2013, suivez ces instructions.
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a>Installation de l’outil de stress et de performance
+## <a name="installing-the-stress-and-performance-tool"></a>Installation de l’outil stress and performance
 
-Exécutez le fichier Windows Installer, **CapacityPlanningTool. msi**, sur chaque ordinateur client que vous allez utiliser pour simuler le trafic utilisateur. Ces ordinateurs clients ne doivent pas exécuter tous les composants serveur Lync.
+Exécutez le fichier Windows Installer, **CapacityPlanningTool. msi**, sur chaque ordinateur client que vous utiliserez pour simuler le trafic de l’utilisateur. Ces ordinateurs clients ne doivent pas exécuter de composants Lync Server.
 
 </div>
 

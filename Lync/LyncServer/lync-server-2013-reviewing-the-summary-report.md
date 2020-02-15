@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : examen du rapport de synthèse'
+title: 'Lync Server 2013 : révision du rapport de synthèse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf9b53c295aa2616c5886ab9383f46e64c300a99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Examen du rapport de synthèse dans Lync Server 2013
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Consultation du rapport de synthèse dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41732994"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Le rapport d’administration de Lync Server est le premier des quatre rapports intéressants qui décrivent en détail votre conception. Les informations contenues dans ce rapport et les trois autres rapports associés constituent une excellente documentation pour les équipes de technologie d’information :
+Le rapport Administrateur Lync Server est le premier de quatre rapports très utiles donnant des informations détaillées sur la conception de votre infrastructure. Les informations de ce rapport, ainsi que celles des trois rapports associés, constituent une documentation de qualité que pourront exploiter les équipes chargées de l’informatique au sein de votre entreprise :
 
-![Rapport d’administration Synthèse générale](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Rapport d’administration Synthèse générale")
+![Rapport d’administration Résumé générale](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Rapport d’administration Résumé générale")
 
   - Rapport des certificats
 
@@ -47,16 +47,16 @@ Le rapport d’administration de Lync Server est le premier des quatre rapports 
 
   - Rapport DNS
 
-Le rapport récapitulatif répertorie des informations de configuration générales relatives à votre réseau de périmètre. Vous y trouverez des informations sur l’emplacement, le nom de domaine complet (FQDN), l’adresse IP, le type de réseau et des commentaires spécifiques à un rôle donné.
+Le rapport récapitulatif répertorie des informations de configuration générales relatives à votre réseau de périmètre. L’emplacement, le nom de domaine complet (FQDN) et l’adresse IP, le type de réseau et les commentaires spécifiques à un rôle donné sont documentés.
 
-Le concepteur ainsi que chacune des équipes chargées de déployer, de gérer et d’assurer la maintenance de l’infrastructure devraient vérifier ce rapport récapitulatif afin de limiter le nombre d’erreurs.
+Le concepteur et chacune des équipes chargées du déploiement, de la gestion et de la maintenance de l’infrastructure doivent examiner le rapport de synthèse à des fins de précision et garantir que les erreurs sont au minimum.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Consultation des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Examen des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

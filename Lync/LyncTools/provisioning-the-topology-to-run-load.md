@@ -1,5 +1,5 @@
 ---
-title: Mise en service de la topologie pour exécuter le chargement
+title: Mise en service de la topologie pour exécuter la charge
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a913dc678b2f5e929ad22e09e1d8350f667ce39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a>Mise en service de la topologie pour exécuter le chargement
+# <a name="provisioning-the-topology-to-run-load"></a>Mise en service de la topologie pour exécuter la charge
 
 </div>
 
@@ -39,27 +39,27 @@ _**Dernière modification de la rubrique :** 2013-02-04_
 
 <div>
 
-## <a name="provisioning-the-topology-to-run-load"></a>Mise en service de la topologie pour exécuter le chargement
+## <a name="provisioning-the-topology-to-run-load"></a>Mise en service de la topologie pour exécuter la charge
 
-Selon vos paramètres et la configuration de Lync Server 2013, il est possible que vous deviez apporter les modifications suivantes à votre environnement :
+En fonction de vos paramètres et de la configuration existants de Lync Server 2013, vous devrez peut-être effectuer les modifications suivantes dans votre environnement :
 
-1.  Définissez la stratégie d’exécution Windows PowerShell sur non restreinte. Pour vérifier les paramètres de stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante :
+1.  Définissez la stratégie d’exécution Windows PowerShell sur Unrestricted. Pour vérifier les paramètres de la stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante :
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    Si cette commande n’a pas pour résultat la valeur Unrestricted, exécutez la commande suivante :
+    Si cette commande ne renvoie pas la valeur Unrestricted, exécutez la commande suivante :
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  Pour configurer efficacement Lync Server 2013, vous devez :
+2.  Pour configurer de manière efficace Lync Server 2013, vous devez :
     
-      - Familiarisez-vous avec la topologie Lync Server 2013 (par exemple, les noms d’ordinateurs, les instances de service, les noms de sites et les stratégies).
+      - Se familiariser avec la topologie Lync Server 2013 (par exemple, les noms d’ordinateur, les instances de service, les noms de site et les stratégies).
     
-      - Assignez certains utilisateurs qui ont été créés dans des groupes, par exemple, des groupes de recherche de Response Group (par exemple, URI SIP).
+      - Affectez certains des utilisateurs qui ont été créés à des groupes, tels que les groupes de postes Response Group (par exemple, URI SIP).
 
 3.  Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants :
 
@@ -67,9 +67,9 @@ Selon vos paramètres et la configuration de Lync Server 2013, il est possible q
         Powershell.exe -file <path to the file>
     ```
     
-4.  En règle générale, après l’exécution de l’un des scripts de ce package, les traces obtenues à partir du script seront stockées dans un fichier dans le même chemin à partir duquel le script \<a\>été appelé, nommé scriptname $h $ m $ s. txt. Par exemple, en exécutant ArchivingPolicy. ps1 à 12:15 P.M. va générer un fichier journal tel que ArchivingPolicy121500. txt.
+4.  En règle générale, après l’exécution d’un des scripts de ce package, les traces résultantes du script sont stockées dans un fichier dans le même chemin d’accès que celui à partir duquel \<le\>script a été invoqué, nommé scriptname $h $ m $ s. txt. Par exemple, l’exécution de ArchivingPolicy. ps1 à 12:15 P.M. générera un fichier journal tel que ArchivingPolicy121500. txt.
 
-5.  Enfin, Notez que bien que nous ayons fourni des exemples de configuration du serveur, vous êtes responsable de la modification ou de la suppression de la configuration lorsque vous avez terminé d’exécuter le chargement.
+5.  Enfin, Notez que même si nous avons fourni des exemples pour configurer le serveur, vous êtes responsable de la modification ou de la suppression de la configuration une fois le chargement terminé.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Forum aux questions sur l’outil contraintes et performances de Lync Server 2013
+title: Forum aux questions sur l’outil de contrainte et de performances de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9138a23ee1fa45f3da827832b568852952b0ae4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9de9555f9f009558b700a32ca6e58059eb5ea990
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Forum aux questions sur l’outil contraintes et performances de Lync Server 2013
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Forum aux questions sur l’outil de contrainte et de performances de Lync Server 2013
 
 </div>
 
@@ -39,23 +39,23 @@ _**Dernière modification de la rubrique :** 2013-02-24_
 
 <div>
 
-## <a name="frequently-asked-questions"></a>Forum aux questions
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
-Voici quelques questions fréquemment posées sur l’outil de stress et de performances de Lync Server 2013.
+Voici quelques questions fréquemment posées sur l’outil de contrainte et de performances de Lync Server 2013.
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>Est-il possible d’exécuter LyncPerfTool. exe en production ?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>Puis-je exécuter LyncPerfTool. exe en production ?
 
-Nous déconseillons de le faire. Cet outil aura un impact sur les performances, la sécurité et l’interface utilisateur du serveur.
+Nous vous déconseillons de le faire. Cet outil aura un impact sur les performances, la sécurité et l’expérience utilisateur du serveur.
 
 </div>
 
 <div>
 
-## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>Je me connecte pour la première fois. Pourquoi les serveurs s’exécutent-ils sur une telle charge ?
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>Je me connecte pour la première fois. Pourquoi les serveurs fonctionnent-ils à cette charge élevée ?
 
-La première fois que les utilisateurs se connectent, il existe d’autres opérations. C’est la raison pour laquelle les performances du serveur principal Microsoft SQL Server sont détériorées. Nous vous recommandons d’effectuer un test de courte durée de connexion pour tous les utilisateurs, puis de redémarrer les clients avant de procéder à la mesure des résultats. Nous ne prenons pas en charge plus de 12 sessions d’ouverture de session simultanées par seconde, mais cela dépend de votre configuration matérielle.
+La première fois que les utilisateurs se connectent, des opérations supplémentaires se produisent. Par conséquent, les performances du serveur principal Microsoft SQL Server seront dégradées. Nous vous recommandons d’exécuter un test court qui ouvre une session sur tous les utilisateurs, puis de redémarrer les clients avant de mesurer les résultats. Nous ne prenons pas en charge plus de 12 sessions de connexion utilisateur simultanées par seconde, mais cela dépend de votre configuration matérielle.
 
 </div>
 
@@ -63,29 +63,29 @@ La première fois que les utilisateurs se connectent, il existe d’autres opér
 
 ## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Mes clients manquent de mémoire. Que dois-je faire ?
 
-Si vos clients manquent de mémoire, vous devez réduire le nombre d’utilisateurs par ordinateur.
+Si la mémoire de vos clients est insuffisante, vous devez réduire le nombre d’utilisateurs par ordinateur.
 
 </div>
 
 <div>
 
-## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>Mes clients utilisent tout le temps de 100%. Que dois-je faire ?
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>Mon client dispose d’un processeur de 100% en tout temps. Que dois-je faire ?
 
-Si vos clients s’exécutent avec une UC très élevée alors que tous les utilisateurs sont connectés, vous devez réduire le nombre d’utilisateurs par ordinateur. Les pics d’UC élevés sont acceptables, mais si la charge est soutenue, vous devez réduire la charge.
-
-</div>
-
-<div>
-
-## <a name="can-i-run-the-tool-on-the-server-itself"></a>Est-il possible d’exécuter l’outil sur le serveur lui-même ?
-
-Non. Ce scénario n’est pas pris en charge et peut échouer en raison d’une incompatibilité binaire. Par ailleurs, dans la mesure où le point est de mesurer la consommation de ressources sur le serveur, l’exécution de l’outil génère un rendu inutile des mesures.
+Si vos clients s’exécutent avec un processeur très élevé une fois que tous les utilisateurs ont ouvert une session, vous devez réduire le nombre d’utilisateurs par ordinateur. Les pics d’utilisation du processeur élevés sont acceptables, mais si elle est soutenue, vous devez réduire la charge.
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Est-il possible d’exécuter LyncPerfTool. exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?
+## <a name="can-i-run-the-tool-on-the-server-itself"></a>Puis-je exécuter l’outil sur le serveur lui-même ?
+
+Non. Ce scénario n’est pas pris en charge et peut échouer en raison d’une incompatibilité binaire. En outre, étant donné que le point est de mesurer la consommation des ressources sur le serveur, l’exécution de l’outil peut rendre les mesures sans signification.
+
+</div>
+
+<div>
+
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Puis-je exécuter LyncPerfTool. exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?
 
 Oui.
 
@@ -93,31 +93,31 @@ Oui.
 
 <div>
 
-## <a name="what-does-mpop-mean"></a>Qu’est-ce que MPOP ?
+## <a name="what-does-mpop-mean"></a>Qu’est-ce que MPOP signifie ?
 
-MPOP représente plusieurs points de présence. Il est conçu pour simuler le scénario dans lequel les utilisateurs sont connectés à Lync 2013 à partir de plusieurs ordinateurs. Notez que dans LyncPerfTool. exe, chaque point de terminaison utilise le profil par défaut (autrement dit, le profil n’est pas fractionné entre les deux points de présence).
-
-</div>
-
-<div>
-
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>J’ai démarré LyncPerfTool. exe, mais rien ne se passe. Que se passe-t-il?
-
-Vérifiez le compteur total de points de terminaison actifs sur les clients pour voir si les utilisateurs se connectent. Si les utilisateurs ne se connectent pas, vérifiez votre configuration de Lync Server 2013. Ce problème se produit généralement lorsque le nom du serveur, le préfixe d’utilisateur ou le mot de passe est incorrect. Notez que les clients externes doivent spécifier le proxy d’accès comme valeur TargetServer. Vérifiez le port dans le fichier de configuration.
+MPOP signifie plusieurs points de présence. Il est conçu pour simuler le scénario dans lequel les utilisateurs sont connectés à Lync 2013 à partir de plusieurs machines. Notez que dans LyncPerfTool. exe, chaque point de terminaison utilise le profil par défaut (autrement dit, le profil n’est pas fractionné entre les deux points de présence).
 
 </div>
 
 <div>
 
-## <a name="how-do-i-know-something-is-happening"></a>Comment savoir si un événement se produit ?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>J’ai démarré LyncPerfTool. exe mais rien ne se passe. Que se passe-t-il ?
 
-Les différents compteurs de performance LyncPerfTool indiquent si les utilisateurs se connectent et exécutent des actions. Toutefois, une méthode simple pour vérifier consiste à se connecter à l’un des comptes à l’aide de Lync 2013 et à effectuer l’action souhaitée.
+Vérifiez le compteur nombre total de points de terminaison actifs sur les clients pour voir si les utilisateurs se connectent. Si les utilisateurs ne se connectent pas, vérifiez votre configuration Lync Server 2013. Ce problème se produit généralement lorsque le nom du serveur, le préfixe d’utilisateur ou le mot de passe est incorrect. Notez que les clients externes doivent spécifier le proxy d’accès comme valeur de TargetServer. Vérifiez le port dans le fichier de configuration.
 
 </div>
 
 <div>
 
-## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>J’ai installé les outils de planification de capacité de Live Communications Server 2007 R2 et/ou Lync Server 2010. C’est tout !
+## <a name="how-do-i-know-something-is-happening"></a>Comment puis-je savoir ce qu’il se passe ?
+
+Les différents compteurs de performance LyncPerfTool indiquent si les utilisateurs se connectent et exécutent des actions. Toutefois, il est facile de vérifier qu’il est possible de se connecter à l’un des comptes à l’aide de Lync 2013 et d’effectuer l’action souhaitée.
+
+</div>
+
+<div>
+
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>Les outils de planification de capacité de Live Communications Server 2007 R2 et/ou Lync Server 2010 sont installés. Est-ce OK ?
 
 Non. Il existe des problèmes d’interopérabilité et vous devez désinstaller toutes les versions précédentes de ce produit.
 
@@ -125,9 +125,9 @@ Non. Il existe des problèmes d’interopérabilité et vous devez désinstaller
 
 <div>
 
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>Les outils de stress et de performance configureront-ils la topologie du serveur des informations d’appel CAA ?
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>Les outils de stress et de performances configurent-ils la topologie du serveur d’informations d’appel CAA ?
 
-Non. Les outils créent uniquement des utilisateurs, des contacts et des listes de distribution et simulent la charge des utilisateurs.
+Non. Les outils créent uniquement des utilisateurs, des contacts et des listes de distribution et simulent la charge utilisateur.
 
 </div>
 
@@ -135,7 +135,7 @@ Non. Les outils créent uniquement des utilisateurs, des contacts et des listes 
 
 ## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Quel est le nombre maximal d’utilisateurs pris en charge par les outils ?
 
-Nous avons créé un total de 80 000 utilisateurs et des tests exécutés totalisant 30 000 utilisateurs, à l’aide de ces outils. Nous vous suggérons d’utiliser un maximum de 120 000 utilisateurs, même si les limitations techniques autorisent une plus grande valeur, en fonction du matériel du serveur et du serveur disponibles.
+Nous avons créé un total de 80 000 utilisateurs et des tests exécutés totalisant 30 000 utilisateurs, à l’aide de ces outils. Nous vous suggérons un maximum de 120 000 utilisateurs, même si les limitations techniques permettent une plus grande valeur, en fonction du matériel du client et du serveur disponible.
 
 </div>
 

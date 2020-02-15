@@ -12,16 +12,16 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c00ffe97b77f20107fc3351a678c71e28bbc6675
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,40 +37,40 @@ ms.locfileid: "41729344"
 
 _**Dernière modification de la rubrique :** 2012-06-19_
 
-Pour les serveurs Standard Edition et frontal, et les directeurs, le programme d’installation de Lync Server 2013 crée des répertoires virtuels dans Internet Information Services (IIS) aux fins suivantes :
+Pour les serveurs Standard Edition et les serveurs frontaux et les directeurs, le programme d’installation de Lync Server 2013 crée des répertoires virtuels dans les services Internet (IIS) aux fins suivantes :
 
-  - Pour permettre aux utilisateurs de télécharger des fichiers à partir du service de carnet d’adresses
+  - permettre aux utilisateurs de télécharger des fichiers du service de carnet d’adresses ;
 
   - Pour permettre aux clients d’obtenir des mises à jour
 
-  - Pour activer les conférences
+  - activer les conférences ;
 
-  - Pour permettre aux utilisateurs de télécharger le contenu d’une réunion
+  - permettre aux utilisateurs de télécharger le contenu de réunions ;
 
-  - Pour permettre aux utilisateurs d’étendre les groupes de distribution
+  - permettre aux utilisateurs de développer des groupes de distribution ;
 
-  - Pour activer la fonction de conférence téléphonique
+  - activer la téléconférence ;
 
-  - Pour activer les fonctionnalités de Response Group
+  - activer les fonctionnalités du service Response Group.
 
-Par ailleurs, la mise à jour cumulative pour Lync Server 2010 : novembre 2011 du programme d’installation crée des répertoires virtuels dans les services Internet (IIS) pour les raisons suivantes :
+En outre, la mise à jour cumulative de Lync Server 2010 : novembre 2011 installer crée des répertoires virtuels dans les services Internet (IIS) dans les buts suivants :
 
-  - Serveur frontal ou serveurs Standard Edition pour prendre en charge les fonctionnalités de mobilité, telles que la messagerie instantanée et la présence, sur les appareils mobiles
+  - Sur les serveurs frontaux ou les serveurs Standard Edition pour prendre en charge la fonctionnalité de mobilité, telle que la messagerie instantanée et la présence, sur les appareils mobiles
 
-  - Sur des serveurs frontaux ou Standard Edition et sur des directeurs pour permettre aux appareils mobiles de détecter automatiquement les ressources de mobilité
+  - Sur les serveurs frontaux ou Standard Edition et sur les directeurs pour permettre aux appareils mobiles de découvrir automatiquement les ressources de mobilité
 
 
 
 > [!NOTE]
-> Si vous déployez une mobilité, nous vous recommandons d’utiliser IIS 7,5. Le programme d’installation de service de mobilité Lync Server définit des indicateurs ASP.NET pour améliorer les performances. IIS 7,5 est installé par défaut sur Windows Server 2008 R2 et le programme d’installation de service de mobilité modifie automatiquement les paramètres de ASP.NET. Si vous utilisez IIS 7,0 sur Windows Server 2008, vous devez modifier manuellement ces paramètres.
+> Si vous déployez la mobilité, nous vous recommandons d’utiliser les services Internet (IIS) 7.5. Le programme d’installation de Lync Server Mobility service définit certains indicateurs ASP.NET pour améliorer les performances. Les services Internet (IIS) 7.5 sont installés par défaut sur Windows Server 2008 R2 et le programme d’installation du service de mobilité modifie automatiquement les paramètres ASP.NET. Si vous utilisez les services Internet (IIS) 7.0 sur Windows Server 2008, vous devez modifier manuellement ces paramètres.
 
 
 
-Le serveur Lync nécessite l’installation des modules IIS suivants :
+Lync Server nécessite l’installation des modules IIS suivants :
 
 
 > [!IMPORTANT]
-> Si votre organisation nécessite que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès d’installation pour les fichiers du serveur Lync dans la boîte de dialogue d’installation. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, le reste des fichiers du serveur Lync sera également déployé sur ce lecteur. Pour plus d’informations sur la façon de déplacer le INETPUB déployé par Windows Server Manager lors de l' <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>installation d’IIS, voir.
+> Si votre organisation exige que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue de configuration. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, les autres fichiers Lync Server seront également déployés sur ce lecteur. Pour plus d’informations sur la façon de déplacer le INETPUB déployé par le gestionnaire Windows Server lors de <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>l’installation d’IIS, reportez-vous à la rubrique.
 
 
   - Contenu statique
@@ -81,7 +81,7 @@ Le serveur Lync nécessite l’installation des modules IIS suivants :
 
   - ASP.NET
 
-  - Extensibilité .NET
+  - Extensibilité .NET
 
   - Extensions ISAPI (Internet Server API)
 
@@ -91,7 +91,7 @@ Le serveur Lync nécessite l’installation des modules IIS suivants :
 
   - Outils de journalisation
 
-  - Suivi
+  - Analyzer
 
   - Authentification Windows
 
@@ -101,15 +101,15 @@ Le serveur Lync nécessite l’installation des modules IIS suivants :
 
   - Compression du contenu dynamique
 
-  - Console de gestion des services Internet (IIS)
+  - Console de gestion IIS
 
-  - Scripts et outils de gestion des services Internet (IIS)
+  - Scripts et outils de gestion IIS
 
-  - Authentification anonyme (installée par défaut lors de l’installation d’IIS)
+  - Authentification anonyme (installée par défaut avec IIS)
 
   - Authentification par mappage de certificat client
 
-Le tableau suivant répertorie les URI des répertoires virtuels pour l’accès interne et les ressources système de fichiers auxquelles ils font référence.
+Le tableau suivant répertorie les URI des répertoires virtuels pour l’accès interne et les ressources du système de fichiers auxquelles ils se rapportent.
 
 ### <a name="virtual-directories-for-internal-access"></a>Répertoires virtuels pour l’accès interne
 
@@ -122,84 +122,84 @@ Le tableau suivant répertorie les URI des répertoires virtuels pour l’accès
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
-<th>URI de répertoire virtuel</th>
-<th>Fait référence à</th>
+<th>URI du répertoire virtuel</th>
+<th>Se rapporte à</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Serveur de carnet d’adresses</p></td>
-<td><p>nom&lt;de domaine&gt;complet https:///ABS/int/Handler</p></td>
-<td><p>Emplacement des fichiers de téléchargement de carnet d’adresses pour les utilisateurs internes.</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne https:///ABS/int/Handler</p></td>
+<td><p>Emplacement des fichiers téléchargés du serveur de carnet d’adresses pour les utilisateurs internes.</p></td>
 </tr>
 <tr class="even">
 <td><p>Service de découverte automatique</p></td>
-<td><p>nom&lt;de domaine&gt;complet https:///autodiscover</p></td>
-<td><p>Emplacement du service de découverte automatique de Lync Server qui recherche les ressources de mobilité pour les utilisateurs d’appareils mobiles internes.</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne https:///autodiscover</p></td>
+<td><p>Emplacement du service de découverte automatique Lync Server qui localise les ressources de mobilité pour les utilisateurs d’appareils mobiles internes.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mises à jour du client</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///AutoUpdate/int</p></td>
-<td><p>Emplacement des fichiers de mise à jour pour les clients basés sur des ordinateurs internes.</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///AutoUpdate/int</p></td>
+<td><p>Emplacement des fichiers de mise à jour pour les clients internes basés sur ordinateur.</p></td>
 </tr>
 <tr class="even">
-<td><p>Donne</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///conf/int</p></td>
+<td><p>CONF</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///conf/int</p></td>
 <td><p>Emplacement des ressources de conférence pour les utilisateurs internes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Mises à jour de périphériques</p></td>
-<td><p>DeviceUpdateFiles_Int&lt;FQDN&gt;interne http://</p></td>
-<td><p>Emplacement des fichiers de mise à jour de l’appareil de communications unifiées (UC) pour les appareils UC internes.</p></td>
+<td><p>Mises à jour des périphériques</p></td>
+<td><p>nom&lt;de domaine&gt;complet (FQDN) interne http:///DeviceUpdateFiles_Int</p></td>
+<td><p>Emplacement des fichiers de mise à jour des appareils de communications unifiées pour les appareils de communications unifiées internes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Répond</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///etc/place/null</p></td>
-<td><p>Emplacement du contenu de la réunion pour les utilisateurs internes.</p></td>
+<td><p>Satisfaire</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///etc/place/null</p></td>
+<td><p>Emplacement du contenu de réunion pour les utilisateurs internes.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Service de mobilité</p></td>
-<td><p>nom&lt;de domaine&gt;complet https:///MCX</p></td>
-<td><p>Emplacement des ressources de service de mobilité pour les utilisateurs de périphériques mobiles internes.</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne https:///MCX</p></td>
+<td><p>Emplacement des ressources du service de mobilité pour les utilisateurs d’appareils mobiles internes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Extension du groupe et service de requête Web du carnet d’adresses</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///GroupExpansion/int/service.asmx</p></td>
-<td><p>Emplacement du service Web qui autorise l’extension du groupe pour les utilisateurs internes. Il s’agit également de l’emplacement du service de requête sur le carnet d’adresses qui fournit les informations de liste d’adresses globale aux clients mobiles Lync mobile de Lync mobile Microsoft Lync 2010.</p></td>
+<td><p>Développement de groupes et service de requête web du carnet d’adresses</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///GroupExpansion/int/service.asmx</p></td>
+<td><p>Emplacement du service web qui active le développement des groupes pour les utilisateurs internes. Il s’agit également de l’emplacement du service de requête sur le Web du carnet d’adresses qui fournit des informations de liste d’adresses globales aux clients mobiles Lync mobile Microsoft Lync 2010 internes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conférences téléphoniques</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///PhoneConferencing/int</p></td>
-<td><p>Emplacement des données de la conférence téléphonique pour les utilisateurs internes.</p></td>
+<td><p>Téléconférence</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///PhoneConferencing/int</p></td>
+<td><p>Emplacement des données de téléconférence pour les utilisateurs internes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Mises à jour de périphériques</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///RequestHandler</p></td>
-<td><p>Emplacement du gestionnaire de demandes de service Web de mise à jour de l’appareil qui permet aux périphériques d’UC internes de télécharger les journaux et de rechercher les mises à jour.</p></td>
+<td><p>Mises à jour des périphériques</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///RequestHandler</p></td>
+<td><p>Emplacement du Gestionnaire des demandes du service web de mise à jour des périphériques qui permet aux appareils de communications unifiées internes de télécharger des journaux et de vérifier l’existence de mises à jour.</p></td>
 </tr>
 <tr class="odd">
-<td><p>application Response Group</p></td>
-<td><p>nom&lt;de domaine&gt;complet http:///RgsConfig</p>
-<p>nom&lt;de domaine&gt;complet http:///RgsClients</p></td>
-<td><p>Emplacement de l’outil de configuration de Response Group.</p></td>
+<td><p>Application Response Group</p></td>
+<td><p>nom&lt;de domaine&gt;complet interne http:///RgsConfig</p>
+<p>nom&lt;de domaine&gt;complet interne http:///RgsClients</p></td>
+<td><p>Emplacement de l’outil de configuration du service Response Group.</p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> Pour les pools frontaux dans une configuration consolidée, vous devez déployer IIS avant de pouvoir ajouter des serveurs au pool.
+> Pour les pools frontaux dans une configuration consolidée, vous devez déployer les services Internet (IIS) avant de pouvoir ajouter des serveurs au pool.
 
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="caution" alt="security" />Note de sécurité :</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Vous devez utiliser le composant logiciel enfichable d’administration d’IIS pour affecter le certificat utilisé par le serveur de composants Web IIS.</td>
+<td>Vous devez utiliser le composant logiciel enfichable d’administration IIS pour assigner le certificat utilisé par le serveur de composants web IIS.</td>
 </tr>
 </tbody>
 </table>

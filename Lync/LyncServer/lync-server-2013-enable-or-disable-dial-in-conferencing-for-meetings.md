@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activer ou désactiver les conférences rendez-vous pour les réunions'
+title: 'Lync Server 2013 : activation ou désactivation de la Conférence rendez-vous pour les réunions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4600d5f978c553699029416951505c952f62bb62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3ec3a148710c3195eef0670f6c533801fb264f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Activer ou désactiver les conférences rendez-vous pour les réunions dans Lync Server 2013
+# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Activer ou désactiver la Conférence rendez-vous pour les réunions dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41736184"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-La procédure suivante vous explique comment permettre aux utilisateurs de participer à une réunion à l’aide d’un composant WebPart.
+La procédure suivante explique comment autoriser un utilisateur à rejoindre une réunion en composant un numéro d’accès.
 
 <div>
 
 ## <a name="to-enable-or-disable-dial-in-conferencing"></a>Pour activer ou désactiver la Conférence rendez-vous
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
 
 4.  Dans la liste des stratégies de conférence, sélectionnez celle pour laquelle vous voulez activer la conférence rendez-vous, cliquez sur **Modifier**, puis sur **Afficher les détails**.
 
-5.  Pour autoriser les utilisateurs à rejoindre une réunion en composant un numéro d’accès, activez la case à cocher **Activer la conférence rendez-vous RTC**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
+5.  Pour autoriser les utilisateurs à rejoindre une réunion en composant un numéro d’accès, activez la case à cocher**Activer la conférence rendez-vous PSTN**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (PSTN).
 
 6.  Cliquez sur **Valider**.
 

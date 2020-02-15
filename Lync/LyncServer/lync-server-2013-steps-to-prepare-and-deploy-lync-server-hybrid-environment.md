@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Procédure de préparation et de déploiement d’un environnement hybride Lync Server'
+title: 'Lync Server 2013 : étapes de préparation et de déploiement d’un environnement hybride Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ebcce8d0021789a409c8f41b5f635d82284b7bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3326db7ce62279c4295bc13ec262a5a553ca5e62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Procédure de préparation et de déploiement d’un environnement hybride Lync Server 2013
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Étapes de préparation et de déploiement de l’environnement hybride Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764390"
 
 _**Dernière modification de la rubrique :** 2016-12-08_
 
-Le tableau suivant répertorie les étapes nécessaires pour préparer votre environnement pour un déploiement hybride avec Skype entreprise Online et Microsoft Office 365.
+Le tableau suivant répertorie les étapes nécessaires à la préparation de votre environnement pour un déploiement hybride avec Skype entreprise Online et Microsoft Office 365.
 
 
 <table>
@@ -48,7 +48,7 @@ Le tableau suivant répertorie les étapes nécessaires pour préparer votre env
 </colgroup>
 <thead>
 <tr class="header">
-<th>Terminé ?</th>
+<th>Résultat</th>
 <th>Étape</th>
 <th>Description</th>
 </tr>
@@ -57,56 +57,56 @@ Le tableau suivant répertorie les étapes nécessaires pour préparer votre env
 <tr class="odd">
 <td></td>
 <td><p>Créer un compte client pour Office 365 et activer Lync Online</p></td>
-<td><p>En savoir plus sur Office 365 et Lync Online dans <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>.</p>
-<p>Pour vérifier que votre environnement est prêt pour Office 365, consultez la <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">Configuration système requise</a>.</p>
-<p>Pour plus d’informations sur la configuration d’Office 365, voir <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">mise en route d’office 365</a> et <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Configurer Office 365</a>.</p></td>
+<td><p>Découvrez Office 365 et Lync Online dans <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>.</p>
+<p>Pour vous assurer que votre environnement est prêt pour Office 365, reportez-vous à la <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">Configuration système requise</a>.</p>
+<p>Pour plus d’informations sur la configuration d’Office 365, voir <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Getting Started with office 365</a> et <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Set up Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><p>Ajout de votre domaine et vérification de la propriété</p></td>
-<td><p>Votre domaine est parfois appelé <em>domaine personnel</em>. Vous devez l’ajouter à votre client Office 365, puis suivre la procédure de validation avec Office 365. Cela permet de confirmer que vous êtes bien le propriétaire du domaine.</p>
-<p>Pour ajouter votre domaine à votre client 365 Office, suivez les étapes décrites dans l’article <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">ajouter votre domaine à office 365</a>.</p>
-<p>Effectuez toutes les étapes de chaque section de la rubrique, y compris &quot;la modification des enregistrements DNS pour vos services 365 Office.&quot;</p></td>
+<td><p>Ajouter votre domaine et vérifier la propriété</p></td>
+<td><p>Votre domaine est parfois également appelé votre <em>domaine personnel</em>. Vous devez ajouter votre domaine à votre client Office 365, puis suivre les étapes pour valider le domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine.</p>
+<p>Pour ajouter votre domaine à votre client Office 365, suivez les étapes décrites dans la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">ajouter votre domaine à office 365</a>.</p>
+<p>Effectuez toutes les étapes de chaque section de la rubrique, y compris &quot;modifier les enregistrements DNS pour vos services Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Vérifier la compatibilité de l’environnement</p></td>
-<td><p>Vous pouvez utiliser l’Assistant Installation d’Office 365 pour vous aider à déployer Office 365. Pour plus d’informations, reportez-vous <a href="https://go.microsoft.com/fwlink/p/?linkid=254985">à utiliser l’Assistant de configuration pour déterminer la disponibilité d’Office 365</a>.</p>
-<p>Pour plus d’informations sur l’utilisation de l’outil et le déploiement d’Office 365, voir le <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">Guide de déploiement d’office 365</a>.</p></td>
+<td><p>Vérifier la préparation de l’environnement</p></td>
+<td><p>Vous pouvez utiliser l’Assistant Installation d’Office 365 pour vous aider à déployer Office 365. Pour plus d’informations, consultez la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=254985">utiliser l’Assistant Configuration pour déterminer la préparation d’Office 365</a>.</p>
+<p>Pour plus d’informations sur l’utilisation de l’outil et sur le déploiement d’Office 365, voir le <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">Guide de déploiement d’office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>Préparer la synchronisation Active Directory</p></td>
-<td><p>La synchronisation Active Directory maintient votre annuaire Active Directory local synchronisé en continu avec Office 365. Cela vous permet de créer des versions synchronisées de chaque groupe et compte d’utilisateur et de synchroniser la liste d’adresses globale de votre environnement Microsoft Exchange Server local vers Microsoft Exchange Online.</p>
+<td><p>La synchronisation Active Directory maintient la synchronisation permanente de votre Active Directory local avec Office 365. Cela vous permet de créer des versions synchronisées de chaque compte d’utilisateur et groupe, et d’activer la synchronisation de la liste d’adresses globale (GAL) à partir de votre environnement Microsoft Exchange Server local vers Microsoft Exchange Online.</p>
 <div>
 
 > [!IMPORTANT]  
-> Vous devez synchroniser les comptes d’annonces de tous les utilisateurs de Lync au sein de votre organisation entre votre déploiement local et votre déploiement Lync en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.
+> Vous devez synchroniser les comptes AD de tous les utilisateurs Lync de votre organisation entre vos déploiements Lync sur site et en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et les utilisateurs en ligne de votre organisation peut ne pas fonctionner comme prévu.
 
 
 </div>
-<p>Pour préparer votre environnement en vue de la synchronisation Active Directory, suivez les étapes décrites dans la feuille de route de la <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">synchronisation d’annuaires</a>, y compris la configuration de l’authentification unique.</p></td>
+<p>Pour préparer votre environnement à la synchronisation Active Directory, suivez les étapes décrites dans la feuille de <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">route de synchronisation d’annuaires</a>, notamment la configuration de l’authentification unique.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Créer des certificats pour les services AD FS (Active Directory Federation Services)</p></td>
-<td><p>Vous devrez créer les certificats utilisés pour la Fédération des identités avec Office 365. Pour plus d’informations, reportez-vous à la section « certificats de serveur de Fédération » de la rubrique planifier pour le déploiement d’AD FS pour une utilisation avec une connexion unique de la <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">liste de contrôle : utiliser AD FS pour implémenter et gérer l’authentification unique</a>.</p></td>
+<td><p>Créer des certificats pour les services ADFS (Active Directory Federation Services)</p></td>
+<td><p>Vous devrez créer les certificats qui sont utilisés pour la Fédération des identités avec Office 365. Pour plus d’informations, reportez-vous à la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign-On <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">: Use AD FS pour implémenter et gérer l’authentification unique</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>Attribuer des certificats pour AD FS</p></td>
-<td><p>Après avoir créé les certificats utilisés pour la Fédération des identités avec Office 365, vous devez les installer et les affecter.</p></td>
+<td><p>Une fois que vous avez créé les certificats qui sont utilisés pour la Fédération des identités avec Office 365, vous devez les installer et les affecter.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><p>Déplacer les utilisateurs pilotes vers Skype entreprise Online</p></td>
-<td><p>Après avoir suivi les étapes de préparation et de configuration de votre environnement pour Skype entreprise Online, vous pouvez commencer à déplacer les utilisateurs pilotes vers Lync Online.</p>
-<p>Voir <a href="lync-server-2013-move-users-to-lync-online.md">déplacer des utilisateurs vers Lync Online dans Lync Server 2013</a>.</p></td>
+<td><p>Déplacement des utilisateurs pilotes vers Skype entreprise Online</p></td>
+<td><p>Une fois que vous avez terminé les étapes de préparation et de configuration de votre environnement pour Skype entreprise Online, vous pouvez commencer à transférer des utilisateurs pilotes vers Lync Online.</p>
+<p>Voir <a href="lync-server-2013-move-users-to-lync-online.md">Move users to Lync Online dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>Administration des utilisateurs dans un déploiement hybride</p></td>
-<td><p>Pour plus d’informations sur la façon d’administrer les utilisateurs dans un déploiement hybride, consultez <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">administration des utilisateurs dans un déploiement 2013 hybride de Lync Server</a>.</p></td>
+<td><p>Pour plus d’informations sur l’administration des utilisateurs dans un déploiement hybride, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a Hybrid Lync Server 2013 Deployment</a>.</p></td>
 </tr>
 </tbody>
 </table>

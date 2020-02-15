@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration d’une autorité de certification d’entreprise pour l’authentification par carte à puce'
+title: 'Lync Server 2013 : configuration de l’autorité de certification d’entreprise pour l’authentification par carte à puce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,43 +37,43 @@ ms.locfileid: "41728964"
 
 _**Dernière modification de la rubrique :** 2013-07-03_
 
-La section suivante décrit comment configurer une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce. Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, voir installer une [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)autorité de certification racine d’entreprise à l’adresse.
+La section suivante décrit la configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce. Pour plus d’informations sur l’installation d’une autorité de certification racine d’entreprise, consultez la rubrique [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)installer une autorité de certification racine d’entreprise à l’adresse.
 
 <div>
 
 ## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce
 
-La procédure ci-dessous décrit la configuration d’une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce :
+Les étapes suivantes décrivent comment configurer une autorité de certification racine d’entreprise pour prendre en charge l’authentification par carte à puce :
 
 1.  Connectez-vous à l’ordinateur de l’autorité de certification d’entreprise à l’aide d’un compte d’administrateur de domaine.
 
-2.  Lancez le gestionnaire système, puis vérifiez que le rôle Inscription de l’autorité de certification par le biais du web est installé.
+2.  Lancez le Gestionnaire système et assurez-vous que le rôle d’inscriptions par le Web de l’autorité de certification est installé.
 
-3.  Dans le menu **Outils d’administration**, ouvrez la console de gestion **Autorité de certification**.
+3.  Dans le menu **Outils d’administration** , ouvrez la console de gestion **autorité de certification** .
 
-4.  Dans le volet de navigation, développez **Autorité de certification**.
+4.  Dans le volet de navigation, développez **autorité de certification**.
 
-5.  Cliquez avec le bouton droit sur **Modèles de certificat**, sélectionnez **Nouveau**, puis **Modèle de certificat à délivrer**.
+5.  Cliquez avec le bouton droit sur **modèles de certificats**, sélectionnez **nouveau**, puis **modèle de certificat à délivrer**.
 
-6.  Sélectionnez **Agent d’inscription**, **Utilisateur de carte à puce** et **Connexion par carte à puce**.
+6.  Sélectionnez **agent d’enregistrement**, **utilisateur de carte à puce**et ouverture de session par carte à **puce**.
 
 7.  Cliquez sur **OK**.
 
-8.  Cliquez avec le bouton droit sur **Modèles de certificat**.
+8.  Cliquez avec le bouton droit sur **modèles de certificats**.
 
-9.  Sélectionnez **Gérer**.
+9.  Sélectionnez **gérer**.
 
-10. Ouvrez les propriétés du modèle utilisateur de carte à puce.
+10. Ouvrez les propriétés du modèle utilisateur SmartCard.
 
-11. Cliquez sur l’onglet **Sécurité**.
+11. Cliquez sur l’onglet **sécurité** .
 
-12. Modifiez les autorisations, comme suit :
+12. Modifiez les autorisations comme suit :
     
-      - Ajoutez des comptes Active Directory d’utilisateurs individuels avec les autorisations Lire/Inscrire (Autoriser) ou
+      - Ajouter des comptes AD d’utilisateur individuels avec des autorisations Lecture/inscription (autoriser) ou
     
-      - Ajoutez un groupe de sécurité contenant des utilisateurs de carte à puce avec les autorisations Lire/Inscrire (Autoriser) ou
+      - Ajouter un groupe de sécurité contenant des utilisateurs de carte à puce avec des autorisations Lecture/inscription (autoriser) ou
     
-      - Ajoutez le groupe Utilisateurs du domaine avec les autorisations Lire/Inscrire (Autoriser).
+      - Ajouter le groupe utilisateurs du domaine avec les autorisations lire/inscrire (autoriser)
 
 </div>
 

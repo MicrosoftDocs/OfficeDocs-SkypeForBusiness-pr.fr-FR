@@ -12,16 +12,16 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25a9de5a754545aa49c4a7d9dda6b8378f448eab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724234"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,50 +37,50 @@ ms.locfileid: "41724234"
 
 _**Dernière modification de la rubrique :** 2012-10-09_
 
-Les applets de contrôle de réplication vous permettent de surveiller et de gérer la réplication de Lync Server. Vous pouvez utiliser ces applets de applet pour configurer les paramètres de réplication. pour surveiller la progression de la réplication ; pour forcer manuellement la réplication sur un serveur.
+Les cmdlets de réplication vous permettent de surveiller et de gérer la réplication Lync Server. Vous pouvez utiliser ces applets de commande pour configurer les paramètres de réplication, pour surveiller la progression de la réplication et pour forcer manuellement la réplication sur un serveur.
 
 <div>
 
-## <a name="replication-cmdlets"></a>Cmdlets de réplication
+## <a name="replication-cmdlets"></a>Applets de commande de réplication
 
-Voici une liste des applets de commande qui concernent directement la gestion de la réplication :
+La liste suivante indique les applets de commande qui sont directement associées à la gestion de la réplication :
 
-**Duplication**
+**Réplication**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
 </div>
 

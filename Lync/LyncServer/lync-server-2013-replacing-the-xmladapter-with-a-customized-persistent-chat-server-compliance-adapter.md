@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : remplacement de XmlAdapter par un adaptateur de conformité personnalisé de serveur de conversation persistant'
+title: 'Lync Server 2013 : remplacement de XmlAdapter par une carte de conformité de serveur de conversation permanente personnalisée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9235c57a055131049251d17b75f73a4370cc5f2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c6cd49ee2596627849b5b67147d6f7ef2a328e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746684"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Remplacement de XmlAdapter par un adaptateur de conformité du serveur de chat permanent personnalisé dans Lync Server 2013
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Remplacement de XmlAdapter par une carte de conformité de serveur de conversation permanente personnalisée dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41746684"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapter qui est installé avec le serveur de chat permanent. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Dans le dossier d’installation serveur Chat permanent de chaque serveur dans votre pool de serveurs chat permanent, vous devez l’installer. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
+Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser XmlAdapter qui est installé avec le serveur de conversation permanente. Pour ce faire, vous devez fournir un assembly .NET Framework contenant une classe publique qui implémente l’interface **IComplianceAdapter**. Vous devez placer cet assembly dans le dossier d’installation du serveur de conversation permanente de chaque serveur de votre pool de serveurs de conversation permanente. Chacun des serveurs de conformité peut fournir des données de conformité à votre adaptateur, mais ils ne délivrent aucun duplicata des données de conformité à plusieurs instances de votre adaptateur.
 
 <div>
 
 ## <a name="implementing-the-icomplianceadapter-interface"></a>Implémentation de l’interface IComplianceAdapter
 
-L’interface est définie dans l’espace de noms `Microsoft.Rtc.Internal.Chat.Server.Compliance`Compliance. dll. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
+L’interface est définie dans l’assembly. dll de l’espace `Microsoft.Rtc.Internal.Chat.Server.Compliance`de noms. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
     void SetConfig(AdapterConfig config)
 
-Le serveur de conformité des conversations permanent appelle cette méthode lors du premier chargement de la carte. Le `AdapterConfig` contient la configuration de compatibilité de conversation permanente pertinente pour la carte de conformité.
+Le serveur de conformité de conversation permanente appellera cette méthode lors du premier chargement de la carte. Le `AdapterConfig` contient la configuration de la conformité de conversation permanente qui est pertinente pour la carte de conformité.
 
     void Translate(ConversationCollection conversations)
 
-Le serveur de conformité des conversations permanent appelle cette méthode à intervalles réguliers tant qu’il existe de nouvelles données à traduire. Cet intervalle de temps est égal à `RunInterval` la valeur définie dans la configuration de la conformité aux conversations persistantes.
+Le serveur de conformité de conversation permanente appelle cette méthode à intervalles réguliers tant qu’il y a de nouvelles données à traduire. Cet intervalle de temps est égal à `RunInterval` l’comme défini dans la configuration de la conformité de conversation permanente.
 
-Le `ConversationCollection` contient les informations de conversation collectées à partir de la dernière fois que cette méthode a été appelée.
+`ConversationCollection` Contient les informations de conversation collectées lors du dernier appel de cette méthode.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Restauration du contenu d’une conférence avec le service de sauvegarde'
+title: 'Lync Server 2013 : restauration du contenu de conférence à l’aide du service de sauvegarde'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Restauration du contenu d’une conférence avec le service de sauvegarde dans Lync Server 2013
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Restauration du contenu d’une conférence à l’aide du service de sauvegarde dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41733194"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Si les informations de la Conférence stockées dans le magasin de fichiers d’un pool frontal deviennent indisponibles. vous devez restaurer ces informations de sorte que les utilisateurs hébergés sur le pool conservent leurs données de conférence. Si le pool frontal qui a perdu les données de conférence est associé à un autre pool frontal, vous pouvez utiliser le service de sauvegarde pour restaurer les données.
+Si les informations de conférence stockées dans le magasin de fichiers d’un pool frontal deviennent disponibles, vous devez restaurer ces informations pour permettre aux utilisateurs hébergés sur le pool de conserver leurs données de conférence. Si le pool frontal qui a perdu les données de conférence est couplé à un autre pool frontal, vous pouvez utiliser le service de sauvegarde pour restaurer les données.
 
-Vous devez également effectuer cette tâche si un pool entier a échoué et que vous devez faire basculer ses utilisateurs vers un pool de sauvegarde. Lorsque les utilisateurs ont basculé vers leur pool d’origine, vous devez utiliser cette procédure pour copier le contenu de la Conférence sur leur pool d’origine.
+Vous devez aussi effectuer cette tâche en cas de panne d’un pool entier et basculer ses utilisateurs sur un pool de sauvegarde. Quand ces utilisateurs sont rebasculés sur leur pool d’origine, vous devez également exécuter cette procédure pour recopier leur contenu de référence sur le pool d’origine.
 
-Supposez que Pool1 est associé à Pool2, et les données de conférence en Pool1 sont perdues. Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde et restaurer le contenu :
+Supposons que Pool1 est couplé à Pool2 et que les données de conférence de Pool1 sont perdues. Vous pouvez utiliser l’applet de commande suivante pour appeler le service de sauvegarde afin de restaurer le contenu :
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-La restauration du contenu de la Conférence risque de prendre un certain temps en fonction de la taille de celle-ci. Pour vérifier l’état du processus, vous pouvez utiliser l’applet de commande suivante :
+La restauration du contenu de conférence peut prendre un certain temps, qui est fonction de sa taille. Vous pouvez utiliser l’applet de commande suivante pour vérifier l’état du processus
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-Le processus est réalisé lorsque cette cmdlet renvoie une valeur d’état stable pour le module de conférence de données.
+Le processus est terminé une fois que cette applet de commande a retourné une valeur d’état stable pour les données du module de conférence.
 
 </div>
 

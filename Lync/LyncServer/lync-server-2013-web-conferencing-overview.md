@@ -1,5 +1,5 @@
 ---
-title: Présentation de la conférence Web Lync Server 2013
+title: Vue d’ensemble de la conférence Web Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de63cb5bf2578359d012cda72b07b8fc7f62880d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 253141be23396ccce12a52123d907b3523a30b03
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758536"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Présentation de la conférence Web dans Lync Server 2013
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Vue d’ensemble de la conférence Web dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758536"
 
 _**Dernière modification de la rubrique :** 2012-09-30_
 
-Les conférences Web permettent aux utilisateurs de partager des documents et de collaborer sur ceux-ci dans leurs conférences. De plus, les utilisateurs peuvent partager tout ou une partie de leurs bureaux entre eux en temps réel, ce qui semble que les personnes de la Conférence aient été rassemblées au sein de la même table lors de la réunion.
+La conférence web permet aux utilisateurs de partager des documents, tels que des présentations PowerPoint, et de collaborer dessus au cours de leurs conférences. En outre, les utilisateurs peuvent partager tout ou partie de leur Bureau en temps réel, comme si les participants à la conférence se trouvaient autour de la même table de réunion.
 
 <div>
 
 ## <a name="whiteboard-and-annotations"></a>Tableau blanc et annotations
 
-Un tableau blanc est une surface vierge qui vous permet de collaborer en utilisant du texte, des entrées manuscrites, des dessins et des images. Tous les participants à une réunion peuvent voir les annotations qui y sont ajoutées. La fonctionnalité de tableau blanc favorise la collaboration en permettant aux participants à une réunion d’échanger des idées, de débattre, de prendre des notes, etc.
+Un tableau blanc est une surface vierge que vous pouvez utiliser à des fins de collaboration, avec du texte, de l’encre, des dessins et des images. Tous les participants à une réunion peuvent voir les annotations qui y sont ajoutées. La fonctionnalité de tableau blanc favorise la collaboration en permettant aux participants à une réunion d’échanger des idées, de débattre, de prendre des notes, etc.
 
 </div>
 
@@ -51,21 +51,21 @@ Un tableau blanc est une surface vierge qui vous permet de collaborer en utilisa
 
 ## <a name="polling"></a>Interrogation
 
-La fonctionnalité d’interrogation améliore la collaboration en permettant aux présentateurs de déterminer rapidement les préférences des participants. Lors des réunions et des conversations en ligne, les présentateurs peuvent avoir recours à l’interrogation pour recueillir des réponses anonymes des participants. Tous les présentateurs peuvent voir les résultats et choisir de les montrer à tous les participants ou de les masquer.
+La fonctionnalité d’interrogation favorise la collaboration en permettant aux présentateurs de déterminer rapidement les préférences des participants. Au cours des réunions et des conversations en ligne, les présentateurs peuvent avoir recours à l’interrogation pour recueillir des réponses anonymes des participants. Tous les présentateurs peuvent voir les résultats et choisir soit de les montrer à tous les participants, soit de les masquer.
 
 </div>
 
 <div>
 
-## <a name="application-sharing-and-desktop-sharing"></a>Partage d’application et partage de bureau
+## <a name="application-sharing-and-desktop-sharing"></a>Partage d’application et partage de Bureau
 
-Pendant une conférence, vous pouvez partager l’intégralité de votre bureau, une application individuelle ou des écrans individuels dans un environnement multi-moniteur. Outre la possibilité d’afficher le contenu, les autres participants à la Conférence peuvent également demander le contrôle de votre écran et, avec cette autorisation, interagir avec le contenu (y compris le défilement et la modification).
+Au cours d’une conférence, vous pouvez partager votre ordinateur de bureau, une application individuelle ou des moniteurs individuels dans un environnement à plusieurs moniteurs. Outre la possibilité de consulter le contenu, les autres participants de la conférence peuvent aussi demander à prendre le contrôle de votre écran et, moyennant votre autorisation, d’interagir avec le contenu (défilement, modification, etc).
 
 <div>
 
 
 > [!NOTE]  
-> Les personnes qui visualisent la Conférence peuvent également prendre le contrôle du contenu pendant la réunion et commencer à le partager.
+> Les participants qui agissent en tant que spectateurs de la conférence peuvent aussi décider de prendre le contrôle et de partager du contenu au cours de la réunion.
 
 
 
@@ -75,23 +75,23 @@ Pendant une conférence, vous pouvez partager l’intégralité de votre bureau,
 
 <div>
 
-## <a name="powerpoint-sharing"></a>Partage PowerPoint
+## <a name="powerpoint-sharing"></a>Partage de PowerPoint
 
-Dans les présentations PowerPoint 2010, les présentations PowerPoint étaient affichées de l’une des deux façons suivantes. Pour les utilisateurs exécutant Lync 2010, les présentations PowerPoint étaient affichées dans le format PowerPoint 97-2003 et consultées à l’aide d’une copie incorporée de la visionneuse PowerPoint. Pour les utilisateurs exécutant Lync Web App, les présentations PowerPoint ont été converties en fichiers HTML dynamiques, puis consultées à l’aide d’une combinaison de ces fichiers DHTML personnalisés et de Silverlight. En règle générale, cette approche avait des limitations :
+Dans Lync 2010, les présentations PowerPoint ont été visualisées de deux manières. Pour les utilisateurs de Lync 2010, les présentations PowerPoint étaient affichées au format PowerPoint 97-2003 et affichaient une copie incorporée de la visionneuse PowerPoint. Pour les utilisateurs de Lync Web App, les présentations PowerPoint ont été converties en fichiers HTML dynamiques, puis visualisées à l’aide d’une combinaison de ces fichiers DHTML personnalisés et de Silverlight. Bien que cette approche s'avère généralement efficace, elle comporte certaines limitations :
 
-  - La visionneuse PowerPoint incorporée (qui offre une meilleure qualité d’affichage) n’est disponible que sur la plateforme Windows.
+  - La visionneuse PowerPoint incorporée (qui fournit l’expérience de visualisation optimale) n’est disponible que sur la plateforme Windows.
 
-  - De nombreux appareils mobiles (y compris certains des téléphones mobiles plus populaires) ne prennent pas en charge Silverlight.
+  - De nombreux appareils mobiles (y compris certains des téléphones mobiles les plus populaires) ne prennent pas en charge Silverlight.
 
-  - La visionneuse PowerPoint et l’approche DHTML/Silverlight ne prennent pas en charge toutes les fonctionnalités (transitions de diapositives et vidéo incorporées) qui se trouvent dans les éditions plus récentes de PowerPoint.
+  - La visionneuse PowerPoint et l’approche DHTML/Silverlight ne prennent pas en charge toutes les fonctionnalités (telles que les transitions de diapositives et la vidéo incorporée) qui se trouvent dans les dernières éditions de PowerPoint.
 
-Pour vous aider à résoudre ces problèmes et améliorer l’utilisation globale des utilisateurs qui présentent ou visualisent des présentations PowerPoint, Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer les présentations PowerPoint. Parmi les autres avantages, cette approche permet de :
+Pour vous aider à résoudre ces problèmes et à améliorer l’expérience globale des utilisateurs présentant ou affichant des présentations PowerPoint, Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer les présentations PowerPoint. Voici quelques-uns des avantages offerts par cette nouvelle approche :
 
-  - Des écrans de résolution supérieure et une meilleure prise en charge des fonctionnalités de PowerPoint, telles que les animations, les transitions entre les diapositives et la vidéo incorporée.
+  - Une résolution d’affichage supérieure et une meilleure prise en charge des fonctionnalités de PowerPoint, telles que les animations, les transitions de diapositives et la vidéo incorporée.
 
-  - Appareils mobiles supplémentaires permettant d’accéder à ces présentations. C’est parce que Lync Server 2013 utilise le langage DHTML et JavaScript standard pour diffuser des présentations PowerPoint au lieu de DHTML et Silverlight personnalisés.
+  - Des présentations accessibles à un plus grand nombre d’appareils mobiles. C’est parce que Lync Server 2013 utilise le DHTML et le JavaScript standard pour diffuser des présentations PowerPoint au lieu de DHTML et Silverlight personnalisés.
 
-  - Utilisateurs disposant des privilèges appropriés pour faire défiler une présentation PowerPoint indépendamment de la présentation elle-même. Par exemple, si Ken Myer a présenté son diaporama, Pilar Arès peut examiner n’importe quelle diapositive et ce n’est pas le cas pour la présentation de Ken.
+  - Possibilité pour les utilisateurs disposant des privilèges appropriés de parcourir librement une présentation PowerPoint pendant son exécution. Par exemple, pendant que Ken Myer présente son diaporama, Pilar Ackerman peut examiner la diapositive de son choix sans perturber la présentation de Ken.
 
 </div>
 

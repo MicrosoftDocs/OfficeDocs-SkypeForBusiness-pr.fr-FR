@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de la récupération d’urgence pour le parcage d’appel'
+title: 'Lync Server 2013 : planification de la récupération d’urgence du parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a76052297e527e24fd3daf0c03d02661c7ddc255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74aec0a6fe0edc288dfaae57a146c52cf9a0babe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754454"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Planification de la récupération d’urgence pour le parcage d’appel dans Lync Server 2013
+# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Planification de la récupération d’urgence par le parcage d’appel dans Lync Server 2013
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41754454"
 
 _**Dernière modification de la rubrique :** 2012-10-30_
 
-Cette section décrit quelques méthodes de préparation de l’application de parc d’appels à des fins de reprise après sinistre et des éléments à prendre en compte lors du processus de reprise après sinistre.
+Cette section décrit certaines façons de préparer l’application de parcage d’appel pour la récupération d’urgence et quelques considérations pour le processus de récupération d’urgence.
 
 <div>
 
-## <a name="preparing-for-call-park-disaster-recovery"></a>Préparation de la reprise après sinistre du parc d’appels
+## <a name="preparing-for-call-park-disaster-recovery"></a>Préparation de la récupération d’urgence du parcage d’appel
 
-Gardez les points suivants à l’esprit lorsque vous préparez et mettez en oeuvre des procédures de reprise après sinistre.
+Gardez les informations suivantes à l’esprit lorsque vous préparez et menez à bien les procédures de récupération d’urgence.
 
-  - Prévoyez une reprise après sinistre lors de la planification de la capacité. Pour la capacité de reprise après sinistre, chaque pool dans un pool couplé doit être capable de gérer les charges de travail des services de parc d’appels dans les deux pools. Pour plus d’informations sur la planification de la capacité de parc d’appels, voir [planification de la capacité pour le parc d’appels dans Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
+  - Planifiez la récupération d’urgence lorsque vous effectuez votre planification de capacité. Pour la capacité de récupération d’urgence, chaque pool d’un pool couplé doit être en mesure de gérer les charges de travail des services de parcage d’appel dans les deux pools. Pour plus d’informations sur la planification de la capacité du parcage d’appel, voir [Capacity Planning for Call parcage in Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
 
-  - Lors de la récupération d’urgence, les utilisateurs qui ont été redirigés vers le pool de sauvegarde dans le cadre du processus de basculement utilisent le service de parc d’appels qui s’exécute dans le pool de sauvegarde. Par conséquent, la prise en charge du parc d’appels lors d’une reprise après sinistre nécessite que l’application du parc d’appels soit déployée et activée dans le pool principal et dans le pool de sauvegarde.
+  - Durant la récupération d’urgence, les utilisateurs redirigés vers le pool de sauvegarde durant le processus de basculement utilisent le service de parcage d’appel exécuté dans le pool de sauvegarde. Par conséquent, la prise en charge du parcage d’appel pendant la récupération d’urgence nécessite le déploiement et l’activation de l’application de parcage d’appel dans le pool principal et le pool de sauvegarde.
 
-  - Chaque liste doit avoir une plage de numéros en orbite valide pour les utilisateurs qui sont dans le groupe, à utiliser pour les appels en stationnement.
+  - Chaque pool doit avoir une plage de numéros d’orbite valable pour que les utilisateurs hébergés dans ce pool puissent utiliser le parcage d’appels.
 
-  - Conservez toujours une copie de sauvegarde séparée de tout morceau de musique personnalisé en attente qui a été téléchargé pour le parc d’appels. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers téléchargés vers le pool sont endommagés, endommagés ou supprimés.
+  - Conservez toujours une copie de sauvegarde distincte de toute musique personnalisée en conservation qui a été téléchargée pour le parcage d’appel. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et seront perdus si les fichiers chargés vers le pool sont endommagés, endommagés ou effacés.
 
 </div>
 
 <div>
 
-## <a name="call-park-disaster-recovery-considerations"></a>Considérations en matière de reprise après sinistre du parc d’appels
+## <a name="call-park-disaster-recovery-considerations"></a>Considérations relatives à la récupération d’urgence du parcage d’appel
 
-Vous ne pouvez définir qu’un seul ensemble de paramètres de configuration d’application de parc d’appels et un seul fichier audio de musique personnalisé par liste. Ces paramètres incluent le seuil de temporisation, la musique en attente, les tentatives de sélection d’appels maximum et l’URI de délai d’expiration. Pour afficher ces paramètres de configuration, exécutez l’applet **de passe Get-CsCpsConfiguration** . Pour plus d’informations sur l’applet de connexion **Get-CsCpsConfiguration** , voir [Get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration).
+Vous ne pouvez définir qu’un seul ensemble de paramètres de configuration de l’application de parcage d’appel et un seul fichier audio de mise en attente musicale personnalisé par pool. Ces paramètres incluent le seuil d’expiration, la musique d’attente, le nombre maximum de tentatives de prises d’appels, et l’URI d’expiration. Pour afficher ces paramètres de configuration, exécutez la cmdlet **Get-CsCpsConfiguration**. Pour plus d’informations sur la cmdlet **Get-CsCpsConfiguration** , voir [Get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration).
 
-En cas de reprise après sinistre, le parc d’appels utilise l’application de parc d’appels dans le pool de sauvegarde, de sorte que les paramètres du pool principal ne soient pas sauvegardés. Si le pool principal ne peut pas être récupéré et que vous déployez un nouveau pool pour remplacer le pool principal, les paramètres du pool principal sont perdus et vous devez reconfigurer les paramètres de parc d’appels et les fichiers audio de la musique personnalisée dans le nouveau pool.
+Pendant la récupération d’urgence, le parcage d’appel utilise l’application de parcage d’appel dans le pool de sauvegarde, de sorte que les paramètres du pool principal ne sont pas sauvegardés. Si le pool principal ne peut pas être récupéré et si vous déployez un nouveau pool pour remplacer le pool principal, les paramètres du pool principal sont perdus et vous devez reconfigurer les paramètres de parcage d’appel et tous les fichiers audio de la musique personnalisée dans le nouveau pool.
 
-Si vous déployez un nouveau pool avec un nom de domaine complet différent (FQDN) pour remplacer le pool principal, vous devez réaffecter toutes les plages d’orbite de parking d’appel associées au pool principal au FQDN du nouveau pool. Pour réattribuer des plages d’Orbit à la nouvelle liste de choix, vous pouvez utiliser le panneau de configuration de Lync Server ou l’applet **de commande Set-CsCallParkOrbit** . Pour plus d’informations sur l’applet **de connexion Set-CsCallParkOrbit** , reportez-vous à [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
+Si vous déployez un nouveau pool avec un nom de domaine complet (FQDN) différent pour remplacer le pool principal, vous devez réaffecter toutes les plages d’orbites de parcage d’appel associées au pool principal au nom de domaine complet du nouveau pool. Pour réaffecter les plages d’orbites au nouveau pool, vous pouvez utiliser le panneau de configuration Lync Server ou la cmdlet **Set-CsCallParkOrbit** . Pour plus d’informations sur l’applet de commande **Set-CsCallParkOrbit** , voir [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
 
 </div>
 

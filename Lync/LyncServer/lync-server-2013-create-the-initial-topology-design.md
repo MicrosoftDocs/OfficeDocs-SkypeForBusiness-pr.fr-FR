@@ -12,20 +12,20 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ed95696dc0acad9030615f8a031672f8abf3a136
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Créer la conception de topologie initiale pour Lync Server 2013
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Création de la conception de topologie initiale pour Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756958"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Après l’installation de l’outil de planification Lync Server 2013, vous pouvez démarrer l’outil de planification et commencer à concevoir l’infrastructure Lync Server 2013 proposée.
+Une fois que vous avez terminé l’installation de l’outil de planification Lync Server 2013, vous êtes prêt à démarrer l’outil de planification et à commencer à concevoir l’infrastructure Lync Server 2013 proposée.
 
 <div>
 
 
 > [!NOTE]  
-> L’outil de planification est un outil géré par l’Assistant contenant des guides détaillés pour informer votre processus de décision dans la conception de vos sites et de votre topologie. Ce sujet n’est pas une présentation exhaustive, mais simplement pour vous aider à commencer à utiliser l’outil de planification dans vos sessions de conception.
+> L’outil de planification est un outil piloté par un Assistant, avec des guides détaillés pour vous informer de votre processus de prise de décision lors de la conception de vos sites et de votre topologie. Cette rubrique n’est pas un guide exhaustif, mais pour vous aider à commencer à utiliser l’outil de planification dans vos sessions de conception.
 
 
 
@@ -51,72 +51,72 @@ Après l’installation de l’outil de planification Lync Server 2013, vous pou
 
 <div>
 
-## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Pour commencer à utiliser l’outil de planification et créer la conception initiale
+## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Pour commencer à utiliser l’Outil de planification et à créer la conception initiale
 
-1.  Démarrez l’outil de planification Lync Server 2013 : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur outil de **planification**.
+1.  Démarrez l’outil de planification Lync Server 2013: cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013**, puis sur **Outil de planification**.
 
-2.  Après le démarrage de l’outil de planification, la page **Bienvenue dans l’outil de planification de Microsoft Lync Server 2013** s’affiche. Choisissez l’une des options suivantes pour commencer votre conception :
+2.  Une fois que l’outil de planification a démarré, la page **Bienvenue dans l’outil de planification pour Microsoft Lync Server 2013** s’affiche. Choisissez l’une des options suivantes pour commencer votre conception :
     
-      - **Option 1 :**   mise en route cliquez sur mise en **route** fournit une série spécifique de questions d’entretien avec des sélections pertinentes permettant de définir les critères. Lorsque vous en avez terminé avec la section **Mise en route** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
+      - **Option 1 : prise en main**   le fait de cliquer sur **commencer** fournit une série spécifique de questions d’entretien avec des sélections appropriées pour définir les critères. Lorsque vous en avez terminé avec la section **Démarrage** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
     
-      - **Option 2 : créer des sites**   le fait de cliquer sur **sites de création** dans la page d’accueil ignore les questions présentées dans la section mise en **route** . Les informations collectées par les réponses fournies aux questions d’entretien dans la rubrique **Mise en route** sont définies comme valeurs par défaut avec cette option. En cliquant sur **Concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut selon ses besoins sur la page de démarrage **Sites centraux**. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
+      - **Option 2 : conception de sites**   le fait de cliquer sur **concevoir des sites** sur la page d’accueil ignore les questions présentées dans la section prise en **main** . Les informations qui auraient été collectées en répondant aux questions de l’entretien dans la section **prise en main** sont définies sur les valeurs par défaut avec cette option. En cliquant sur **concevoir des sites**, le concepteur expérimenté peut contourner l’entretien initial et modifier les valeurs par défaut, selon vos besoins, sur la page de démarrage des **sites centraux** . Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
     
-      - **Option 3 : afficher votre topologie**   enregistrée si vous avez déjà terminé et enregistré une topologie lors de l’utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer en ouvrant et en affichant la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la ré-enregistrer, puis l’exporter dans Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
+      - **Option 3 : afficher votre topologie**   enregistrée si vous avez déjà terminé et enregistré une topologie à l’aide de l’outil de planification précédemment, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également effectuer des modifications et des mises à jour de la topologie, la réenregistrer, puis l’exporter vers Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
 
-3.  Cliquez sur mise en **route** pour commencer à concevoir votre topologie Lync Server 2013.
+3.  Cliquez sur **prise en main** pour commencer à concevoir votre topologie Lync Server 2013.
 
-4.  Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez sur **Précédent** pour modifier les pages précédentes.
+4.  Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez sur **précédent** pour modifier les pages précédentes.
     
     <div>
     
 
     > [!TIP]  
-    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin d’informations supplémentaires, cliquez sur <STRONG>en savoir plus</STRONG> pour lire des informations détaillées dans la documentation de planification de Lync Server 2013 sur le site Web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site web Microsoft TechNet.
+    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin de détails supplémentaires, cliquez sur <STRONG>en savoir plus</STRONG> pour consulter des informations détaillées dans la documentation de planification de Lync Server 2013 sur le site Web Microsoft TechNet. Vous devez disposer d’une connexion à Internet pour accéder au site Web Microsoft TechNet.
 
     
     </div>
 
 5.  Sélectionnez les options appropriées pour votre conception. Une fois les critères initiaux définis, une page viendra confirmer que votre vue d’ensemble des fonctionnalités est complète.
 
-6.  Cliquez sur **sites de création** pour définir votre site central.
+6.  Cliquez sur **concevoir des sites** pour définir votre site central.
     
     <div>
     
 
     > [!NOTE]  
-    > Chaque topologie Lync Server 2013 dispose d’au moins un site central. Votre conception est dotée d’un seul site central, d’un site central composé de plusieurs sites de succursales, d’un certain nombre de sites centraux ou d’un certain nombre de sites centraux avec des sites de succursales associés à chaque site central.
+    > Chaque topologie Lync Server 2013 aura au moins un site central. Votre conception peut avoir un seul site central, un site central avec un certain nombre de sites de succursale, un certain nombre de sites centraux ou un certain nombre de sites centraux avec des sites de succursale associés à chaque site central.
 
     
     </div>
 
-7.  Dans **nom du site**, tapez le nom qui permettra d’identifier ce site central.
+7.  Dans **nom du site**, tapez le nom qui identifiera ce site central.
 
-8.  Dans la **page utilisateurs hébergés**sur le site, entrez le nombre d’utilisateurs simultanés locaux qui seront hébergés sur ce site central.
+8.  Dans **utilisateurs hébergés**sur le site, tapez le nombre d’utilisateurs simultanés locaux attendus qui seront hébergés dans ce site central.
 
-9.  Dans la **page utilisateurs**dans le Cloud, entrez le nombre prévu d’utilisateurs simultanés en ligne qui seront hébergés sur ce site central.
+9.  Dans **utilisateurs hébergés**dans le Cloud, tapez le nombre d’utilisateurs simultanés en ligne attendus qui seront hébergés dans ce site central.
 
-10. Modifiez les sélections pour Collaboration en ligne, Utilisateurs, Voix, Options de déploiement supplémentaires ou Applications serveur, selon les besoins.
+10. Modifiez les sélections pour la collaboration en ligne, les utilisateurs, la voix, les options de déploiement supplémentaires ou les applications serveur, selon vos besoins.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Ce n’est qu’à ce moment de la conception que vous pouvez activer ou désactiver les options de votre déploiement. Toutefois, vous pouvez configurer d’autres options dans une phase ultérieure de l’outil de planification. Certaines options sont également indisponibles et ne peuvent pas être désactivées. En outre, vous pouvez être amené à désactiver une option pour en désactiver une autre. Par exemple, si vous désactivez l’option <STRONG>Voix Entreprise</STRONG> sous Voix, les options <STRONG>Response Group</STRONG>, <STRONG>Annonce</STRONG> et <STRONG>Parcage d’appel</STRONG> sous Applications serveur (toutes étant des fonctionnalités de Voix Entreprise) sont également désactivées.
+    > À ce stade de la conception, vous pouvez uniquement sélectionner ou effacer les options de votre déploiement. Toutefois, vous pouvez configurer d’autres options dans une phase ultérieure de l’outil de planification. Certaines options sont également indisponibles et ne peuvent pas être désactivées. En outre, vous pouvez être amené à désactiver une option pour en désactiver une autre. Par exemple, si vous désactivez l’option <STRONG>voix entreprise</STRONG> sous voix, les options <STRONG>Response Group</STRONG>, <STRONG>announcer</STRONG>et <STRONG>parcage d’appel</STRONG> sous applications serveur (toutes les fonctionnalités de voix entreprise) sont également désactivées.
 
     
     </div>
 
 11. Après avoir défini le nom du site et le nombre d’utilisateurs, cliquez sur **Suivant**.
 
-12. Les pages suivantes vous demandent des informations relatives aux domaines SIP, aux paramètres de conférence, aux paramètres vocaux et à l’infrastructure, à la messagerie unifiée, aux options de colocalisation et aux sites de succursales d’Exchange. Répondez à toutes ces questions selon le cas.
+12. Les pages suivantes demandent des informations sur les domaines SIP, les paramètres de conférence, les paramètres vocaux et l’infrastructure, la messagerie unifiée Exchange, l’accès des utilisateurs externes, les paramètres de conversation permanente, les paramètres du client, les options de colocalisation et les sites de succursale. Répondez à toutes ces questions selon le cas.
 
-13. La question finale vous demande si vous souhaitez créer un autre site central. Si vous sélectionnez **Oui**, l’outil de planification revient à la page sites centraux. Si vous sélectionnez **Non**, cliquez sur **Suivant**, puis sur **Dessiner** pour afficher la vue Topologie globale de niveau supérieur.
+13. La dernière question demande si vous souhaitez créer un autre site central. Si vous sélectionnez **Oui**, l’outil de planification revient à la page sites centraux. Si vous sélectionnez **non**, cliquez sur **suivant**, puis sur **dessiner** pour afficher la vue topologique globale de haut niveau.
 
-14. Pour afficher la topologie existante, cliquez sur **Afficher**.
+14. Pour afficher une topologie existante, cliquez sur **Afficher**.
 
 15. Cliquez sur le fichier .xml qui représente la topologie précédemment enregistrée, puis cliquez sur **Ouvrir**.
 
-16. L’outil de planification affiche la page de topologie globale. Vous pouvez désormais commencer à modifier, à mettre à jour ou à modifier la topologie en utilisant les outils disponibles dans l’outil de planification.
+16. L’outil de planification affiche la page topologie globale. Vous pouvez maintenant commencer à modifier, mettre à jour ou modifier la topologie à l’aide des outils disponibles dans l’outil de planification.
 
 </div>
 

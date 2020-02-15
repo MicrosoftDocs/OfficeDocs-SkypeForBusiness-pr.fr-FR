@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : réinitialiser une règle de mise à jour d’appareil'
+title: 'Lync Server 2013 : réinitialiser une règle de mise à jour de périphérique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36a85ed29f6bf4838428af302904d80a2f792388
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1079236ceab3fda42b1920675761f272333d264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723764"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Réinitialiser une règle de mise à jour d’appareil dans Lync Server 2013
+# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Réinitialiser une règle de mise à jour de périphérique dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41723764"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Si vous ne voulez pas que la mise à jour fonctionne sur vos appareils de test, vous pouvez réinitialiser la règle de mise à jour de l’appareil, qui supprime l’État en attente de la règle et désinstaller la mise à jour des périphériques de test.
+Si vous n’aimez pas la façon dont une mise à jour fonctionne sur vos périphériques de test, vous pouvez réinitialiser la règle de mise à jour du périphérique, ce qui supprime l’État en attente de la règle et désinstalle la mise à jour des périphériques de test.
 
-Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le panneau de configuration de Lync Server ou Windows PowerShell.
+Vous pouvez supprimer une règle de mise à jour de périphérique à l’aide du panneau de configuration Lync Server ou de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour désinstaller une règle que vous avez déjà approuvée (qui est déployée), restaurez-la. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-restore-a-device-update-rule.md">restaurer une règle de mise à jour d’appareil dans Lync Server 2013</A>.
+> Pour désinstaller une règle que vous avez déjà approuvée (c’est-à-dire, reprise), restaurez-la. Pour plus d’informations, consultez <A href="lync-server-2013-restore-a-device-update-rule.md">la rubrique restaurer une règle de mise à jour des périphériques dans Lync Server 2013</A>.
 
 
 
@@ -53,21 +53,21 @@ Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le
 
 <div>
 
-## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Pour réinitialiser une règle de mise à jour de l’appareil à l’aide du panneau de configuration de Lync Server
+## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Pour réinitialiser une règle de mise à jour de périphérique à l’aide du panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour d’appareil** .
+3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour des périphériques** .
 
-4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
+4.  Sur la page **mise à jour du périphérique** , effectuez l’une des opérations suivantes :
     
-      - Pour réinitialiser une règle, sélectionnez la règle que vous voulez réinitialiser.
+      - Pour réinitialiser une règle, sélectionnez la règle que vous souhaitez réinitialiser.
     
-      - Pour réinitialiser toutes les règles, dans le menu **édition** , cliquez sur **Sélectionner tout**.
+      - Pour réinitialiser toutes les règles, dans le menu **Edition** , cliquez sur **Sélectionner tout**.
     
-      - Pour réinitialiser toutes les règles pour une seule marque, utilisez le menu de la colonne de **marque** .
+      - Pour réinitialiser toutes les règles d’une marque, utilisez le menu de la colonne **marque** .
 
 5.  Cliquez sur **action**, puis sur **annuler les mises à jour en attente**.
     
@@ -75,7 +75,7 @@ Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le
     
 
     > [!TIP]  
-    > Si vous êtes sûr de ne jamais vouloir déployer les règles de mise à jour de l’appareil que vous avez annulées, vous souhaiterez peut-être les supprimer. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-remove-a-device-update-rule.md">supprimer une règle de mise à jour d’appareil dans Lync Server 2013</A>.
+    > Si vous êtes sûr de vouloir ne jamais déployer les règles de mise à jour des périphériques que vous avez annulées, vous pouvez les supprimer. Pour plus d’informations, consultez <A href="lync-server-2013-remove-a-device-update-rule.md">la rubrique supprimer une règle de mise à jour de périphérique dans Lync Server 2013</A>.
 
     
     </div>
@@ -84,15 +84,15 @@ Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le
 
 <div>
 
-## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Réinitialisation d’une règle de mise à jour de l’appareil à l’aide des cmdlets Windows PowerShell
+## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Réinitialisation d’une règle de mise à jour de périphérique à l’aide des applets de commande Windows PowerShell
 
-Les règles de mise à jour d’appareils peuvent également être réinitialisées à l’aide de Windows PowerShell et de l’applet de passe **Reset-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Les règles de mise à jour des périphériques peuvent également être réinitialisées à l’aide de Windows PowerShell et de la cmdlet **Reset-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -100,9 +100,9 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 <div>
 
-## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>Pour réinitialiser une règle de mise à jour de l’appareil spécifique sur un serveur
+## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>Pour réinitialiser une règle de mise à jour d’appareil spécifique sur un serveur
 
-  - La commande suivante réinitialise la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
+  - La commande suivante réinitialise la règle de mise à jour de périphérique d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -110,9 +110,9 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 <div>
 
-## <a name="to-reset-all-the-device-update-rules-on-a-server"></a>Pour réinitialiser toutes les règles de mise à jour de l’appareil sur un serveur
+## <a name="to-reset-all-the-device-update-rules-on-a-server"></a>Pour réinitialiser toutes les règles de mise à jour des périphériques sur un serveur
 
-  - Cette commande réinitialise toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com :
+  - Cette commande réinitialise toutes les règles de mise à jour des périphériques sur le serveur Web atl-cs-001.litwareinc.com :
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"  | Reset-CsDeviceUpdateRule
 
@@ -120,15 +120,15 @@ Les règles de mise à jour d’appareils peuvent également être réinitialis�
 
 <div>
 
-## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>Pour réinitialiser toutes les règles de mises à jour de périphériques ayant une marque spécifique
+## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>Pour réinitialiser toutes les règles de mises à jour de périphériques qui ont une marque spécifique
 
-  - Dans cet exemple, toutes les mises à jour de l’appareil dans l’ensemble de l’organisation dont la marque est égale à Microsoft sont réinitialisées :
+  - Dans cet exemple, toutes les mises à jour de périphérique de l’organisation dont la marque est égale à Microsoft sont réinitialisées :
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) .
+Pour plus d’informations, consultez la rubrique d’aide relative à la cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) .
 
 </div>
 
@@ -137,7 +137,7 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 ## <a name="see-also"></a>Voir aussi
 
 
-[Approuver une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+[Approuver une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

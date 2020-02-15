@@ -12,16 +12,16 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb693f79470e7d68a1aaf662c9ab82b8bafa5c39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730104"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41730104"
 
 _**Dernière modification de la rubrique :** 2010-10-18_
 
-Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créées par la préparation du domaine à la racine du domaine. Toutes les entrées ACE sont héritées sauf mention contraire.
+Le tableau ci-après répertorie les entrées de contrôle d’accès créées par la préparation de domaine sur la racine de domaine. Toutes les entrées de contrôle d’accès sont héritées, sauf indication contraire.
 
 <div id="sectionSection0" class="section">
 
-### <a name="aces-added-to-domain-root"></a>ACE ajoutés à la racine du domaine
+### <a name="aces-added-to-domain-root"></a>Entrées de contrôle d’accès ajoutées à la racine de domaine
 
 <table style="width:100%;">
 <colgroup>
@@ -54,9 +54,9 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 </colgroup>
 <thead>
 <tr class="header">
-<th>MAILLOTS</th>
-<th>RTCUniversal-UserReadOnly-groupe</th>
-<th>RTCUniversal-ServerReadOnly-groupe</th>
+<th>moteur ACE</th>
+<th>RTCUniversal-UserReadOnly-Group</th>
+<th>RTCUniversal-ServerReadOnly-Group</th>
 <th>RTCUniversal-UserAdmins</th>
 <th>RTCHSUniversal-services</th>
 <th>Utilisateurs authentifiés</th>
@@ -64,15 +64,15 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lire le conteneur (non hérité)</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p>Read Container (non héritée)</p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Lire User PropertySet-compte-restrictions</p></td>
+<td><p>Read User PropertySet User-Account-Restrictions</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -80,7 +80,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lire Personal User PropertySet-informations</p></td>
+<td><p>Read User PropertySet Personal-Information</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -88,7 +88,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Lecture générale de User PropertySet-informations</p></td>
+<td><p>Read User PropertySet General-Information</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lire le public user PropertySet public-information</p></td>
+<td><p>Read User PropertySet Public-Information</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -104,7 +104,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Lecture utilisateur PropertySet RTCUserSearchProperty-Set</p></td>
+<td><p>Read User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -112,7 +112,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p><strong>Oui</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lire User PropertySet RTCPropertySet</p></td>
+<td><p>Read User PropertySet RTCPropertySet</p></td>
 <td><p><strong>Oui</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -120,7 +120,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Écrire les adresses proxy de propriété utilisateur</p></td>
+<td><p>Write User Property Proxy-Addresses</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p><strong>Oui</strong></p></td>
@@ -136,7 +136,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Écrire RTCPropertySet utilisateur</p></td>
+<td><p>Write User PropertySet RTCPropertySet</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p><strong>Oui</strong></p></td>
@@ -144,7 +144,7 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lecture de PropertySet DS-réplication-obtention-modification de tous les objets Active Directory</p></td>
+<td><p>Read PropertySet DS-Replication-Get-Changes de tous les objets Active Directory</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
 <td><p>Non</p></td>
@@ -155,9 +155,9 @@ Le tableau suivant répertorie les entrées de contrôle d’accès (ACE) créé
 </table>
 
 
-Le tableau suivant répertorie les entrées de contrôle d’accès qu’il est créé dans les trois conteneurs intégrés : utilisateurs, ordinateurs et contrôleurs de domaine. Toutes les entrées ACE sont héritées sauf mention contraire.
+Le tableau suivant répertorie les entrées de contrôle d’accès créées par la préparation de domaine dans les trois conteneurs intégrés : Utilisateurs, Ordinateurs et Contrôleurs de domaine. Toutes les entrées de contrôle d’accès sont héritées, sauf indication contraire.
 
-### <a name="aces-added-to-built-in-containers"></a>ACE ajoutés aux conteneurs intégrés
+### <a name="aces-added-to-built-in-containers"></a>Entrées de contrôle d’accès ajoutées aux conteneurs intégrés
 
 <table>
 <colgroup>
@@ -167,15 +167,15 @@ Le tableau suivant répertorie les entrées de contrôle d’accès qu’il est 
 </colgroup>
 <thead>
 <tr class="header">
-<th>MAILLOTS</th>
-<th>RTCUniversal-UserReadOnly-groupe</th>
-<th>RTCUniversal-ServerReadOnly-groupe</th>
+<th>moteur ACE</th>
+<th>RTCUniversal-UserReadOnly-Group</th>
+<th>RTCUniversal-ServerReadOnly-Group</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lire le conteneur (non hérité)</p></td>
-<td><p><strong>Positive</strong></p></td>
+<td><p>Read Container (non héritée)</p></td>
+<td><p><strong>Oui</strong></p></td>
 <td><p><strong>Oui</strong></p></td>
 </tr>
 </tbody>

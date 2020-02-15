@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exécution de réunions de grande envergure'
+title: 'Lync Server 2013 : exécution de grandes réunions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e3dacecfcb619d9b2a7142c562572f60b121894
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7d3d105b09f3a917829e5610396b49f43d923
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051016"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a>Exécution de réunions de grande envergure dans Lync Server 2013
+# <a name="running-large-meetings-in-lync-server-2013"></a>Exécution de grandes réunions dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765052"
 
 _**Dernière modification de la rubrique :** 2019-01-17_
 
-Les réunions pouvant inclure de plusieurs centaines à un millier d’utilisateurs, il est recommandé de désigner une personne dédiée chargée d’animer la session en ligne d’une grande réunion. Il peut s’agir d’un délégué de l’organisateur de la réunion ou un membre de l’équipe de support pour les grandes réunions de l’organisation. Il est important d’ajouter le modérateur de réunion dédié comme présentateur au moment où la réunion est programmée, même s’il soit possible de promouvoir un participant de la réunion en ligne au rôle de présentateur pendant la réunion.
+Avec plusieurs centaines à un millier d’utilisateurs dans une réunion, il est recommandé de faire en sorte qu’une personne dédiée ait modéré la session en ligne d’une grande réunion. Il peut s’agir d’un délégué de l’organisateur de la réunion ou un membre de l’équipe de support pour les grandes réunions de l’organisation. Il est important d’ajouter le modérateur de réunion dédié comme présentateur au moment où la réunion est programmée, même s’il soit possible de promouvoir un participant de la réunion en ligne au rôle de présentateur pendant la réunion.
 
-Le modérateur de la réunion peut utiliser les fonctionnalités de présentateur suivantes des clients Lync Server 2013 pour gérer la grande réunion :
+Le modérateur de réunion peut utiliser les fonctionnalités de présentateur suivantes des clients Lync Server 2013 pour gérer la grande réunion :
 
-- Changer de type d’accès aux réunions.
+- Modifier les types d’accès aux réunions.
 
-- Invitez d’autres participants lors de la réunion à l’aide de la fonctionnalité glisser-déplacer de Lync, d’un numéro de téléphone sortant ou d’une adresse e-mail.
+- Inviter d’autres participants lors de la réunion à l’aide de la fonctionnalité glisser-déplacer de Lync, de la numérotation téléphonique ou du courrier électronique.
 
-- Gérer le contenu de la réunion, y compris le téléchargement de contenu, la suppression de contenu et le changement du contenu actif.
+- Gérer le contenu de la réunion, y compris le téléchargement de contenu, la suppression de contenu et le changement de contenu actif.
 
 </div>
 

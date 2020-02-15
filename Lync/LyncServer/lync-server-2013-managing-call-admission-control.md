@@ -12,16 +12,16 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738814"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies. Utilisez les procédures suivantes pour gérer différentes fonctionnalités CAC pour votre environnement Lync Server 2013.
+Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies. Utilisez les procédures suivantes pour gérer les différentes fonctionnalités CAC pour votre environnement Lync Server 2013.
 
 <div>
 
@@ -53,9 +53,9 @@ Le contrôle d’admission des appels détermine, en fonction de la bande passan
 
   - [Contrôle d’admission des appels pour les sites dans Lync Server 2013](lync-server-2013-call-admission-control-for-sites.md)
 
-  - [Activation et désactivation de la contournement multimédia dans Lync Server 2013](lync-server-2013-enabling-and-disabling-media-bypass.md)
+  - [Activation et désactivation de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
-  - [Liaison des régions réseau dans Lync Server 2013](lync-server-2013-linking-network-regions.md)
+  - [Liaison de régions réseau dans Lync Server 2013](lync-server-2013-linking-network-regions.md)
 
   - [Gestion des sous-réseaux réseau dans Lync Server 2013](lync-server-2013-managing-network-subnets.md)
 

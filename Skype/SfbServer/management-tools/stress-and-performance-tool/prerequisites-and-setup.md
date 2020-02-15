@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables et configuration pour l'outil Stress and Performance de Skype Entreprise
+title: Conditions préalables et configuration de l’outil stress and performance de Skype outil
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,76 +13,76 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
-description: Configuration requise ou conditions préalables pour l'outil Stress and Performance de Skype Entreprise Server 2015. Comment installer ou configurer l'outil Stress and Performance.
-ms.openlocfilehash: f52d92022e09314a8f9467cd939f67b2827cc153
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Conditions requises ou conditions préalables pour l’outil de contrainte et de performances de Skype entreprise Server 2015. Comment installer ou configurer l’outil stress and performance.
+ms.openlocfilehash: 9389feedb21948604b1ea68319c5fc068a561679
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816173"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005979"
 ---
-# <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Conditions préalables et configuration pour l'outil Stress and Performance de Skype Entreprise
+# <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Conditions préalables et configuration de l’outil stress and performance de Skype outil
  
-Configuration requise ou conditions préalables pour l'outil Stress and Performance de Skype Entreprise Server 2015. Comment installer ou configurer l'outil Stress and Performance.
+Conditions requises ou conditions préalables pour l’outil de contrainte et de performances de Skype entreprise Server 2015. Comment installer ou configurer l’outil stress and performance.
   
-Vous devez avoir pris connaissance des sections suivantes relatives à la configuration matérielle, logicielle et système requise avant d'exécuter l'outil Stress and Performance :
+Nous avons les sections suivantes relatives à la configuration matérielle, logicielle et système requise avant d’exécuter l’outil stress and performance :
   
-- [Configuration matérielle client requise](prerequisites-and-setup.md#ClientHardwareReqs)
+- [Configuration matérielle requise pour le client](prerequisites-and-setup.md#ClientHardwareReqs)
     
-- [Configuration logicielle client requise](prerequisites-and-setup.md#ClientSoftwareReqs)
+- [Configuration logicielle requise pour le client](prerequisites-and-setup.md#ClientSoftwareReqs)
     
 - [Configuration requise](prerequisites-and-setup.md#ConfigReqs)
     
-En outre, une section concernant [l'installation de l'outil Stress and Performance de Skype Entreprise Server 2015](prerequisites-and-setup.md#Installing) figure ci-dessous
+De plus, nous avons également une section ci-dessous pour l' [installation de l’outil de contrainte et de performances de Skype entreprise Server 2015](prerequisites-and-setup.md#Installing)
   
-## <a name="client-hardware-requirements"></a>Configuration matérielle client requise
+## <a name="client-hardware-requirements"></a>Configuration matérielle requise pour le client
 <a name="ClientHardwareReqs"> </a>
 
-Lorsque vous exécutez l'outil Stress and Performance pour votre déploiement Skype Entreprise Server 2015, vous devez disposer, au minimum, de la configuration matérielle suivante, pour chaque groupe de 4500 utilisateurs de votre test :
+Lors de l’exécution de l’outil stress and performance sur votre déploiement de Skype entreprise Server 2015, vous aurez au minimum besoin de ces exigences matérielles pour tous les 4500 utilisateurs de votre test :
   
-- carte réseau 1 gigabit
+- carte réseau 1 Gigabit
     
-- 8 Go de mémoire vive
+- 8 Go de mémoire vive (RAM)
     
-- 2 processeurs double cœur
+- 2 processeurs double cœur
     
-## <a name="client-software-requirements"></a>Configuration logicielle client requise
+## <a name="client-software-requirements"></a>Configuration logicielle requise pour le client
 <a name="ClientSoftwareReqs"> </a>
 
-Systèmes d'exploitation pris en charge par l'outil Stress and Performance :
+Les systèmes d’exploitation pris en charge pour l’outil stress and performance sont les suivants :
   
-- Windows Server 2012
+- Windows Server 2012
     
-- Windows Server 2008 (64 bits)
+- Windows Server 2008 (64 bits)
     
-De plus, l'ordinateur requiert la configuration logicielle suivante :
+En outre, les ordinateurs doivent respecter les configurations logicielles suivantes :
   
-- Microsoft .NET 4.5 Framework doit être installé. [Téléchargez l’infrastructure .net 4,5 ici.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- L’infrastructure Microsoft .NET 4,5 est installée. [Téléchargez .net 4,5 Framework ici.](https://www.microsoft.com/download/details.aspx?id=30653)
     
-- Dans Windows, la fonctionnalité Expérience utilisateur doit être activée.
+- Vous aurez besoin de la fonctionnalité expérience utilisateur activée dans Windows.
     
-- Microsoft Visual C++ 2013 (x64) doit être installé. [Télécharger Visual C++ 2013 ici](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- Microsoft Visual C++ 2013 (x64) doit être installé. [Téléchargez Visual C++ 2013 ici](https://www.microsoft.com/download/details.aspx?id=40784)
     
-- Un déploiement réussi de Skype Entreprise Server 2015 est requis.
+- Vous allez avoir besoin du déploiement de Skype entreprise Server 2015.
     
 ## <a name="configuration-requirements"></a>Configuration requise
 <a name="ConfigReqs"> </a>
 
-Pour que l'outil Stress and Performance fonctionne correctement, les configurations supplémentaires suivantes sont nécessaires :
+Vous aurez besoin de ces configurations supplémentaires pour exécuter l’outil stress and performance :
   
-- Connectez-vous au serveur en tant que membre du groupe du domaine ou de l'administrateur local.
+- Vous devez vous connecter au serveur en tant que membre du groupe d’administrateurs de domaine ou local.
     
-- Vous ne pouvez pas installer l'outil Création d'utilisateur de Skype Entreprise Server 2015 sur n'importe quel serveur frontal ou Standard Edition où les comptes de l'utilisateur résideront.
+- Vous ne pouvez pas installer l’outil de création d’utilisateur Skype entreprise Server 2015 (UserProvisioningTool. exe) sur un serveur frontal ou un serveur Standard Edition où les comptes d’utilisateur doivent résider.
     
-- Lorsque l'outil Création d'utilisateur est exécuté plusieurs fois, chaque utilisateur actif pour Microsoft Unified Communications doit présenter un numéro de téléphone unique.
+- Lorsque l’outil de création d’utilisateur est exécuté plusieurs fois, chaque utilisateur activé pour les communications unifiées de Microsoft doit disposer d’un numéro de téléphone unique.
     
-- La taille de fichier de la page doit être gérée par les systèmes ou correspondre à au moins 1,5 fois la quantité de mémoire vive du système de l'ordinateur.
+- La taille du fichier d’échange doit être gérée par les systèmes ou doit être au moins égale à 1,5 fois la quantité de RAM dans le système informatique.
     
-## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Installation de l'outil Stress and Performance de Skype Entreprise Server 2015.
+## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Installation de l’outil de contrainte et de performances de Skype entreprise Server 2015
 <a name="Installing"> </a>
 
-L'installation ne pourrait être plus facile. Exécutez le fichier d'installation Windows, **CapacityPlanningTool.msi**, sur tous les ordinateurs client qui seront utilisés pour simuler le trafic utilisateur et sur un serveur frontal de chaque pool où des utilisateurs et des contacts seront créés.
+L’installation ne peut pas être simplifiée. Vous devez exécuter le fichier Windows Installer, **CapacityPlanningTool. msi**, sur chaque ordinateur client que vous allez utiliser pour simuler le trafic des utilisateurs et sur un serveur frontal dans chaque pool où vous allez créer des utilisateurs et des contacts.
   
-Pour télécharger le fichier. msi, ainsi que les exemples de scripts mentionnés dans nos autres articles, accédez au lien du centre de téléchargement : [Skype entreprise Server 2015, stress et performance](https://www.microsoft.com/download/details.aspx?id=50367).
+Pour télécharger le fichier. msi, ainsi que les exemples de scripts mentionnés dans nos autres articles, accédez au lien du centre [de téléchargement : Skype entreprise Server 2015, stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158537f2473beba686daa51c5384a45f01432320
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b189054d1333e6eb0f9754a9405718607f48ec2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-network-region-links-in-lync-server-2013"></a>Supprimer des liens de région réseau dans Lync Server 2013
+# <a name="deleting-network-region-links-in-lync-server-2013"></a>Suppression de liens de région réseau dans Lync Server 2013
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41763022"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). Les régions d’un réseau sont liées par le biais de la connectivité du réseau étendu (WAN) physique. Le panneau de configuration de Lync Server vous permet de supprimer un lien existant entre deux zones du réseau. Pour plus d’informations sur la création ou la modification du lien de région de réseau, voir [configuration de liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
+Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC). Au sein d’un réseau, les régions sont liées par une connectivité physique au réseau étendu (WAN). Vous pouvez utiliser le panneau de configuration Lync Server pour supprimer un lien existant entre deux régions réseau. Pour plus d’informations sur la création ou la modification d’un lien de région réseau, voir [Configuring Network Region Links in Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 
 <div>
 
-## <a name="to-delete-a-network-region-link"></a>Pour supprimer un lien de zone réseau
+## <a name="to-delete-a-network-region-link"></a>Pour supprimer un lien de région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **liaison de région**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Lien de région**.
 
-4.  Dans la page de liaison de la **zone** , cliquez sur le lien dans la région que vous voulez supprimer.
+4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez supprimer.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs liens vers une région à la fois. Pour cela, appuyez sur CTRL et sélectionnez les liens de plusieurs régions tout en maintenant la touche CTRL enfoncée. Pour sélectionner tous les liens de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>Edition</STRONG> .
+    > Vous pouvez supprimer plusieurs liens de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs liens de région. Ou, pour sélectionner tous les liens de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>Edition</STRONG>.
 
     
     </div>
 
-5.  Dans le menu **modifier** , sélectionnez **supprimer**.
+5.  Dans le menu **Edition**, sélectionnez **Supprimer**.
 
 6.  Cliquez sur **OK**.
 
@@ -71,7 +71,7 @@ Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration de liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)  
+[Configuration des liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)  
   
 
 </div>

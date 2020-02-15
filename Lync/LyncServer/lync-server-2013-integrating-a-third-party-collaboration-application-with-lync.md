@@ -1,5 +1,5 @@
 ---
-title: Intégration d’une application de collaboration tierce avec Lync
+title: Intégration d’une application de collaboration tierce à Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 075c8289a55683b18b0a006319b426c94796f9cd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,27 +37,27 @@ ms.locfileid: "41725864"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Vous pouvez intégrer Lync 2013 à toute application de collaboration en ligne tierce en ajoutant des informations sur l’application au registre. Vous pouvez utiliser Lync 2013 pour démarrer des sessions de conférence de données hébergées sur un serveur interne, un service basé sur Internet, ou les deux. La session de collaboration ou de conférence de données peut être démarrée à partir de la liste de contacts ou à partir d’une conversation par messagerie instantanée, audio ou vidéo. Lync 2013 agit uniquement comme véhicule pour le démarrage de l’application. Toutes les conversations Lync 2013 existantes restent actives après le démarrage de la session de collaboration en ligne.
+Vous pouvez intégrer Lync 2013 avec n’importe quelle application de collaboration en ligne tierce en ajoutant des informations sur l’application au registre. Vous pouvez utiliser Lync 2013 pour démarrer des sessions de conférence de données hébergées sur un serveur interne, un service basé sur Internet ou les deux. Vous pouvez démarrer la session de collaboration ou de conférence de données directement à partir de la liste des contacts, ou bien à partir d’une session existante (vocale, messagerie instantanée ou vidéo). Lync 2013 agit uniquement en tant que véhicule pour le démarrage de l’application. Toute conversation Lync 2013 existante reste active après le début de la session de collaboration en ligne.
 
-Les sections suivantes décrivent comment intégrer Lync 2013 aux applications de collaboration basées sur Internet et celles basées sur le serveur.
+Les sections suivantes décrivent comment intégrer Lync 2013 avec des applications de collaboration basées sur Internet et sur le serveur.
 
 <div>
 
 ## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Intégration d’une application de collaboration basée sur Internet avec Lync 2013
 
-En règle générale, les étapes nécessaires à l’intégration d’une application de collaboration tierce sont les suivantes :
+En règle générale, les étapes requises pour l’intégration d’une application de collaboration tierce sont les suivantes :
 
-1.  Des informations sur l’application sont ajoutées au registre.
+1.  Les informations relatives à l’application sont ajoutées au Registre.
 
-2.  L’organisateur se connecte à Lync 2013 et sélectionne les contacts pour le partage et la collaboration de données. Il est possible que l’organisateur se trouve déjà dans une conversation et décide d’ajouter des conférences de données.
+2.  L’organisateur se connecte à Lync 2013 et sélectionne les contacts pour le partage et la collaboration de données. L’organisateur peut également ajouter une conférence de données à une conversation à laquelle il participe déjà.
 
-3.  Lync 2013 lit le registre, démarre l’application de collaboration, puis envoie un message SIP personnalisé (appINVITE) aux participants sélectionnés.
+3.  Lync 2013 lit le registre, démarre l’application de collaboration, puis envoie un message SIP personnalisé, un appINVITE, aux participants sélectionnés.
 
-4.  Les participants acceptent l’invitation et l’application de collaboration est démarrée sur l’ordinateur de chaque personne. Lync 2013 utilise le registre pour déterminer quelle application de collaboration utiliser, puis démarre cette application en utilisant les paramètres inclus dans le message appINVITE.
+4.  Les participants acceptent l’invitation et l’application de collaboration démarre sur l’ordinateur de chaque personne. Lync 2013 utilise le registre pour déterminer l’application de collaboration à utiliser, puis démarre cette application en utilisant les paramètres inclus dans le message appINVITE.
 
-Le tableau suivant décrit les entrées de Registre requises pour intégrer une application de collaboration basée sur Internet avec Lync 2013. Ces entrées sont placées dans le registre à l’emplacement suivant :
+Le tableau suivant décrit les entrées de Registre requises pour intégrer une application de collaboration basée sur Internet à Lync 2013. Ces entrées sont placées dans le registre à l’emplacement suivant :
 
-  - HKEY\_logiciel\_\\de\\l’ordinateur\\local\\Microsoft\\Office\\15,0\\les\\paramètres des applications Lync sessionmanager
+  - HKEY\_\\Software\_local Software\\Microsoft\\Office\\15,0\\Lync\\sessionmanager\\Apps\\Parameters
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entrées de Registre pour une application de collaboration basée sur Internet
 
@@ -83,29 +83,29 @@ Le tableau suivant décrit les entrées de Registre requises pour intégrer une 
 <tr class="even">
 <td><p>SmallIcon</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Chemin d’accès à l’icône 16 pixels x 16 pixels, BMP ou PNG.</p></td>
+<td><p>Chemin d’accès de l’icône (BMP ou PNG de 16 pixels sur 16).</p></td>
 </tr>
 <tr class="odd">
-<td><p> Path</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Chemin du participant pour le démarrage de l’application de collaboration en ligne.</p></td>
+<td><p>Chemin à utiliser pour le démarrage de l’application de collaboration en ligne sur l’ordinateur du participant.</p></td>
 </tr>
 <tr class="even">
 <td><p>OriginatorPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Chemin d’accès de l’organisateur du démarrage de l’application de collaboration en ligne. Ce chemin peut contenir un ou plusieurs paramètres personnalisés tels qu’ils sont définis dans la sous-clé paramètres. Par exemple,<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>Chemin à utiliser pour le démarrage de l’application de collaboration en ligne par l’organisateur. Ce chemin peut contenir un ou plusieurs paramètres personnalisés définis dans la sous-clé Parameters. Par exemple, <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
-<td><p>INSÉRÉ</p></td>
-<td><p>0 = session locale. L’application est démarrée sur l’ordinateur local.</p>
-<p>1 = session à deux parties (par défaut). Lync 2013 démarre l’application localement, puis envoie une notification système à l’autre utilisateur. L’autre utilisateur clique sur la notification et démarre l’application spécifiée sur son ordinateur.</p>
-<p>2 = session multipartie. Lync 2013 démarre l’application localement, puis envoie des notifications système aux autres utilisateurs, en leur demandant de démarrer l’application spécifiée sur leur ordinateur.</p></td>
+<td><p>COMPLÉTER</p></td>
+<td><p>0 = Session locale. L’application démarre sur l’ordinateur local.</p>
+<p>1 = Session à deux personnes (par défaut). Lync 2013 démarre l’application localement, puis envoie une notification système à l’autre utilisateur. Ce dernier clique alors sur la notification pour démarrer l’application spécifiée sur son ordinateur.</p>
+<p>2 = Session à plusieurs. Lync 2013 démarre l’application localement, puis envoie des notifications système aux autres utilisateurs, en les invitant à démarrer l’application spécifiée sur leur propre ordinateur.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Liste des menus dans lesquels cette commande s’affiche, séparés par des points-virgules. Valeurs possibles :</p>
+<td><p>Liste des menus dans lesquels cette commande apparaîtra. Les menus sont séparés par un point-virgule. Les valeurs possibles sont les suivantes :</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -119,7 +119,7 @@ Le tableau suivant décrit les entrées de Registre requises pour intégrer une 
 </table>
 
 
-Le tableau suivant décrit les entrées de Registre correspondant aux paramètres. Ces entrées sont placées sur\_HKEY\_logiciel\\\\de l'\\utilisateur\\actuel\\Microsoft\\Office\\15,0\\les paramètres des applications Lync sessionmanager.
+Le tableau suivant décrit les entrées de Registre pour les paramètres. Ces entrées sont placées dans\_HKEY\_Current\\user\\Software\\Microsoft\\Office\\15,0\\Lync\\sessionmanager\\Apps Parameters.
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Entrées de Registre pour une application de collaboration basée sur Internet
 
@@ -138,9 +138,9 @@ Le tableau suivant décrit les entrées de Registre correspondant aux paramètre
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TypeDonnées</p></td>
+<td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Permet d’ajouter des valeurs spécifiques<code>%Parm1%</code>à l’utilisateur dans la clé de Registre OriginatorPath.</p></td>
+<td><p>Utilisé dans le format sous forme<code>%Parm1%</code>de jeton () pour ajouter des valeurs spécifiques à l’utilisateur à la clé de Registre OriginatorPath.</p></td>
 </tr>
 <tr class="even">
 <td><p>TypeDonnées</p></td>
@@ -182,13 +182,13 @@ Les exemples de paramètres de registre suivants intègrent le client de collabo
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Intégration d’une application de collaboration basée sur le serveur avec Lync 2013
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Intégration d’une application de collaboration basée sur un serveur avec Lync 2013
 
-Les paramètres permettant d’ajouter des commandes pour le démarrage d’une application de collaboration serveur à partir de Lync 2013 sont similaires à ceux décrits dans la section précédente, intégration d’une application de collaboration basée sur Internet avec Lync 2013. Toutefois, le OriginatorPath n’est pas obligatoire et certaines valeurs sont modifiées. Les entrées de Registre sont placées à l’emplacement suivant :
+Les paramètres permettant d’ajouter des commandes de démarrage d’une application de collaboration basée sur un serveur à partir de Lync 2013 sont semblables à ceux décrits dans la section précédente, intégrant une application de collaboration basée sur Internet à Lync 2013. Toutefois, OriginatorPath n’est pas requis et certaines valeurs changent. Les entrées de Registre sont placées à l’emplacement suivant :
 
-  - HKEY\_logiciel\_\\de\\l’ordinateur\\local\\Microsoft\\Office\\15,0\\les\\paramètres des applications Lync sessionmanager
+  - HKEY\_\\Software\_local Software\\Microsoft\\Office\\15,0\\Lync\\sessionmanager\\Apps\\Parameters
 
-### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Entrées de Registre pour une application de collaboration basée sur le serveur
+### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Entrées de Registre pour une application de collaboration basée sur un serveur
 
 <table>
 <colgroup>
@@ -211,30 +211,30 @@ Les paramètres permettant d’ajouter des commandes pour le démarrage d’une 
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
-<td><p>INSÉRÉ</p></td>
-<td><p>Valeur = 1. Définit le type d’application sur protocole. Les autres valeurs possibles ne s’appliquent pas dans le cas présent. Si ce n’est pas le cas, ApplicationType est défini sur 0 (exécutable).</p></td>
+<td><p>COMPLÉTER</p></td>
+<td><p>Valeur = 1. Définit le type de l’application comme protocole. Les autres valeurs possibles ne sont pas applicables dans ce cas. S’il n’est pas présent, ApplicationType est défini sur 0 (exécutable).</p></td>
 </tr>
 <tr class="odd">
-<td><p> Path</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Protocole utilisé pour démarrer l’application de collaboration. Pour Live Meeting 2007, la valeur de path est définie sur <code>meet:%conf-uri%</code>.</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>
-<td><p>INSÉRÉ</p></td>
-<td><p>0 = session locale. L’application est démarrée sur l’ordinateur local.</p>
-<p>1 = session à deux parties (par défaut). Lync 2013 démarre l’application localement, puis envoie une notification système à l’autre utilisateur. L’autre utilisateur clique sur la notification et démarre l’application spécifiée sur son ordinateur.</p>
-<p>2 = session multipartie. Lync 2013 démarre l’application localement, puis envoie des notifications système aux autres utilisateurs, en leur demandant de démarrer l’application spécifiée sur leur ordinateur.</p></td>
+<td><p>COMPLÉTER</p></td>
+<td><p>0 = Session locale. L’application démarre sur l’ordinateur local.</p>
+<p>1 = Session à deux personnes (par défaut). Lync 2013 démarre l’application localement, puis envoie une notification système à l’autre utilisateur. Ce dernier clique alors sur la notification pour démarrer l’application spécifiée sur son ordinateur.</p>
+<p>2 = Session à plusieurs. Lync 2013 démarre l’application localement, puis envoie des notifications système aux autres utilisateurs, en les invitant à démarrer l’application spécifiée sur leur ordinateur.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MCUType</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>DATA = le type du serveur.</p></td>
+<td><p>DATA = Type du serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Liste des menus dans lesquels cette commande s’affiche, en les séparant par un point-virgule. Valeurs possibles :</p>
+<td><p>Liste des menus dans lesquels cette commande apparaît, séparés par des points-virgules. Les valeurs possibles sont les suivantes :</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>

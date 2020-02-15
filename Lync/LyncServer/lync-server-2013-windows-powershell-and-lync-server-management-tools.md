@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Outils de gestion de Windows PowerShell et Lync Server 2013'
+title: 'Lync Server 2013 : outils de gestion Windows PowerShell et Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbfd15ff3c1047f04a6878b65a3d16e63bac490b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e475cd9249030ec09ad3261e84e068d9db0e8c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Outils de gestion de Windows PowerShell et Lync Server 2013
+# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Outils de gestion Windows PowerShell et Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41727744"
 
 _**Dernière modification de la rubrique :** 2016-07-20_
 
-Dans Microsoft Lync Server 2013, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Lync Server 2013 implémentés à l’aide de Windows PowerShell incluent les éléments suivants :
+Dans Microsoft Lync Server 2013, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Les outils Lync Server 2013 qui sont implémentés à l’aide de Windows PowerShell sont les suivants :
 
-  - **Générateur de topologie**. Le générateur de topologie vous permet de créer, d’ajuster et de publier votre topologie planifiée et de valider votre topologie avant de commencer les installations serveur. Lorsque vous installez Lync Server 2013 sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur conformément aux instructions de la topologie. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
+  - **Générateur de topologies**. Le générateur de topologies vous permet de créer, d’ajuster et de publier votre topologie planifiée, et de valider votre topologie avant de commencer les installations de serveurs. Lorsque vous installez Lync Server 2013 sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur comme indiqué dans la topologie. Après l’installation, les informations de configuration sont répliquées automatiquement sur tous les serveurs. Les composants ne peuvent être ajoutés à votre déploiement qu’à l’aide du générateur de topologie.
 
-  - **Lync Server Management Shell**. Vous pouvez utiliser Lync Server Management Shell pour une gestion complète de votre déploiement.
+  - **Lync Server Management Shell**. Vous pouvez utiliser Lync Server Management Shell pour une gestion complète de la ligne de commande de votre déploiement.
 
-  - **Panneau de configuration de Lync Server**. Vous pouvez utiliser l’interface utilisateur du panneau de configuration Microsoft Lync Server 2013 pour gérer les tâches les plus courantes dans votre déploiement.
+  - **Panneau de configuration Lync Server**. Vous pouvez utiliser l’interface utilisateur du panneau de configuration Microsoft Lync Server 2013 pour gérer les tâches les plus courantes de votre déploiement.
 
-Ces outils utilisent des cmdlets Windows PowerShell pour la gestion de votre déploiement, y compris des applets de applet 550 spécifiques au produit. Les applets de vérification intégrés à Lync Server 2013 servent essentiellement à gérer l’authentification, ainsi que les droits et les autorisations des utilisateurs. Une vaste gamme d’applets de commande est disponible pour gérer l’authentification, dont des applets de commande pour l’authentification de certificats et de codes confidentiels (PIN). De plus, un certain nombre d’applets de commande vous permettent d’utiliser la nouvelle fonctionnalité de contrôle d’accès basée sur un rôle (RBAC) pour déléguer le contrôle d’administration de Lync Server 2013. Pour plus d’informations sur les applets de connexion Lync Server, voir [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).
+Ces outils utilisent des applets de commande Windows PowerShell pour la gestion de votre déploiement, y compris presque 550 applets de commande spécifiques au produit. Les cmdlets de sécurité incluses dans Lync Server 2013 sont principalement utilisées pour gérer l’authentification, ainsi que les droits et les autorisations des utilisateurs. Une large gamme d’applets de commande sont disponibles pour gérer l’authentification, dont certaines pour l’authentification de certificats et de codes confidentiels (PIN). De plus, un certain nombre d’applets de commande vous permettent d’utiliser la nouvelle fonctionnalité de contrôle d’accès basé sur un rôle (RBAC) pour déléguer le contrôle administratif de Lync Server 2013. Pour plus d’informations sur les applets de commande Lync Server, voir [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).
 
-Les fonctionnalités de sécurité de script pour Windows PowerShell sont spécifiquement conçues pour éviter certains problèmes de sécurité liés au script des technologies plus anciennes, y compris Microsoft Visual Basic Scripting Edition (VBScript). Les fonctionnalités de sécurité de Windows PowerShell sont conçues pour créer un environnement dans lequel les utilisateurs ne peuvent pas facilement exécuter de scripts ou sans le savoir. Par défaut, les fonctionnalités de sécurité de Windows PowerShell sont activées. Vous pouvez modifier l’état de ces fonctionnalités pour les adapter à vos besoins de script et à divers objectifs de sécurité. Cela ne veut pas dire que le shell empêche les utilisateurs d’exécuter des scripts. Mais plutôt, il est plus difficile, par défaut, pour les utilisateurs d’exécuter des scripts sans en avoir conscience. Pour plus d’informations, consultez sécurité du script [http://go.microsoft.com/fwlink/p/?LinkId=213145](http://go.microsoft.com/fwlink/p/?linkid=213145)Windows PowerShell à l’adresse.
+Les fonctionnalités de sécurité de script pour Windows PowerShell sont spécifiquement conçues pour éviter certains des problèmes de sécurité liés aux scripts de technologies plus anciennes, notamment Microsoft Visual Basic Scripting Edition (VBScript). Les fonctionnalités de sécurité Windows PowerShell visent à créer un environnement dans lequel les utilisateurs ne peuvent pas exécuter facilement ou sans le savoir des scripts. Par défaut, les fonctionnalités de sécurité Windows PowerShell sont activées. Vous pouvez modifier l’état de ces fonctionnalités afin de répondre à vos besoins de script et à divers objectifs en matière de sécurité. Cela ne signifie pas que le shell empêche les utilisateurs d’exécuter des scripts. Au lieu de cela, l’environnement de commande Exchange Management Shell complique, par défaut, les utilisateurs qui exécutent des scripts sans les utiliser. Pour plus d’informations, consultez la page relative [http://go.microsoft.com/fwlink/p/?LinkId=213145](http://go.microsoft.com/fwlink/p/?linkid=213145)à la sécurité des scripts Windows PowerShell à l’adresse.
 
 </div>
 

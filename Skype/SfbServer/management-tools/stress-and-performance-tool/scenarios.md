@@ -1,5 +1,5 @@
 ---
-title: Scénarios de performances de l’outil de stress et de performances de Skype entreprise Server 2015
+title: Scénarios de performances pour l’outil de contrainte et de performances de Skype entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,44 +13,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
-description: Tâches que vous devez effectuer pour configurer Skype entreprise Server 2015 de façon à effectuer des opérations de performance et de test de charge à l’aide de l’outil stress et performance.
-ms.openlocfilehash: 343378d0b0d763d8a290e8d1e930a64c5d114bdb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Les tâches que vous devez effectuer pour configurer Skype entreprise Server 2015 pour effectuer des tests de performances et de chargement à l’aide de l’outil stress and performance.
+ms.openlocfilehash: 5531627ab7d5072d32dfcf60fed41eac47f5373f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803874"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983849"
 ---
-# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Scénarios de performances de l’outil de stress et de performances de Skype entreprise Server 2015
+# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Scénarios de performances pour l’outil de contrainte et de performances de Skype entreprise Server 2015
  
-Tâches que vous devez effectuer pour configurer Skype entreprise Server 2015 de façon à effectuer des opérations de performance et de test de charge à l’aide de l’outil stress et performance.
+Les tâches que vous devez effectuer pour configurer Skype entreprise Server 2015 pour effectuer des tests de performances et de chargement à l’aide de l’outil stress and performance.
   
-Pour exécuter l’outil de stress et de performance 2015 de Skype entreprise Server (LyncPerfTool), la topologie de Skype entreprise Server 2015 doit d’abord être configurée pour les scénarios qui vous intéressent. Si Skype entreprise Server 2015 n’est pas configuré ou s’il est configuré de manière incorrecte, votre simulation de charge risque de ne pas fonctionner. Grâce à [l’outil de](https://www.microsoft.com/download/details.aspx?id=50367)stress et de performances de Skype entreprise Server 2015, nous proposons des exemples de scripts et de fichiers de ressources de base de Skype entreprise Server Management Server. Ils peuvent servir de point de départ pour configurer votre déploiement de Skype entreprise Server. Cet article décrit les exemples Windows PowerShell proposés.
+Pour exécuter l’outil de contrainte et de performances de Skype entreprise Server 2015 (LyncPerfTool), la topologie de Skype entreprise Server 2015 doit d’abord être configurée pour les scénarios qui vous concernent. Si Skype entreprise Server 2015 n’est pas configuré ou qu’il est configuré de manière incorrecte, votre simulation de charge risque d’échouer. Avec l’outil de contrainte et de performances de Skype entreprise Server 2015, nous fournissons des exemples de scripts Skype entreprise Server Management Shell et des fichiers de ressources de base dans le cadre du téléchargement de l' [outil](https://www.microsoft.com/download/details.aspx?id=50367). Ces éléments peuvent être utilisés comme point de départ pour la configuration de votre déploiement de Skype entreprise Server. Cet article décrit les exemples Windows PowerShell fournis.
   
 > [!NOTE]
-> Dans cette rubrique, vous ne pourrez pas décrire la configuration de Skype entreprise Server 2015 en règle générale, nous avons d’autres rubriques de planification et de déploiement pour cela. Pour plus d’informations sur l’utilisation de Windows PowerShell dans Skype entreprise Server 2015, voir la documentation Skype entreprise Server Management Shell dans la section insérer une présentation ici. 
+> Cette rubrique ne vous aidera pas à décrire la configuration de Skype entreprise Server 2015 généralement, nous avons d’autres rubriques de planification et de déploiement pour cela. Pour plus d’informations sur l’utilisation de Windows PowerShell dans Skype entreprise Server 2015, reportez-vous à la documentation de Skype entreprise Server Management Shell dans insérer Introduction ici. 
   
-## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>À propos de l’utilisation de scripts de gestion de Skype entreprise Server
+## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>À propos de l’exécution de scripts Skype entreprise Server Management Shell
 
-Nous vous proposons des exemples de scripts PowerShell que vous pouvez utiliser pour préparer votre simulation de charge. Dans la mesure où ces scripts sont destinés à une simulation de charge, vous pouvez les rendre plus simples et permissifs. Qui n’est pas approprié pour votre environnement de production. Dans de nombreux cas, nous faisons en sorte que ces scripts soient des exemples, vous devez les revoir et, dans de nombreux cas, apporter des modifications pertinentes à votre environnement avant de pouvoir les utiliser. Pour le moment, vous devez modifier le script de groupe de service de réponse (RSG) en tenant compte de votre topologie (pour spécifier les agents affectés aux groupes d’agents). Toutefois, vous n’avez pas besoin de l’exécuter, si ce n’est pas le cas.
+Nous fournissons des exemples de scripts PowerShell que vous pouvez utiliser pour vous préparer à vos simulations de charge. Étant donné que ces scripts sont destinés à la simulation de charge, vous les trouverez comme simples et permissants. Cela n’est peut-être pas approprié pour votre environnement de production. À nouveau, nous insistons sur le fait que ces scripts sont des exemples, que vous devez les examiner et, dans de nombreux cas, effectuer des modifications pertinentes pour votre environnement avant de pouvoir les utiliser. Au minimum, il est nécessaire de modifier le script de groupe de service de réponse (RSG) en tenant compte de votre topologie (pour spécifier les agents affectés aux groupes d’agents). Toutefois, si vous n’avez pas besoin de le faire, il n’est pas nécessaire de l’exécuter.
   
 > [!CAUTION]
-> Prenez soin de revoir et de comprendre ces exemples. Les scripts écraseront tout paramètre existant dans la topologie lors de l’exécution. 
+> Veillez à examiner et à comprendre ces exemples. Les scripts remplaceront les paramètres existants dans la topologie lors de l’exécution. 
   
-## <a name="stress-and-performance-tool-client-version-names"></a>Nom des versions du client de l’outil stress et performance
+## <a name="stress-and-performance-tool-client-version-names"></a>Noms des versions du client outil de stress et de performances
 
-Vous devrez peut-être configurer la stratégie de vérification de la version du client si vous avez déjà modifié les paramètres des valeurs par défaut. Si vous n’êtes pas sûr de cela, consultez la [documentation relative à la version du client](https://msdn.microsoft.com/en-us/vsto/jj923060).
+Vous devrez peut-être configurer la stratégie de vérification de la version du client si vous avez déjà modifié les valeurs par défaut des paramètres. Si vous n’êtes pas sûr de ce sujet, consultez la documentation de vérification de la [version du client](https://msdn.microsoft.com/vsto/jj923060).
   
-L’outil stress and performance utilise par défaut les versions d’agent utilisateur suivantes lors de la communication avec Skype entreprise Server 2015 :
+L’outil stress and performance utilise par défaut les versions suivantes de l’agent utilisateur lors de la communication avec Skype entreprise Server 2015 :
   
-- LSPT/15.0.0.0 (outil de stress et de performance de Skype entreprise Server 2015)
+- LSPT/15.0.0.0 (outil de contrainte et de performances de Skype entreprise Server 2015)
     
 - OCPHONE/.0.522
     
 Pour le client Mobility (UCWA) dans LyncPerfTool :
   
-- Outil de performance/conférence Web UCWA
+- Outil perf UCWA/conférence Web
     
-- Outil perf UCWA/mobile
+- Outil de performances UCWA/mobile
     
 

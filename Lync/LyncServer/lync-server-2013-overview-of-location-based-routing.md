@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : vue d’ensemble du routage par emplacement'
+title: 'Lync Server 2013 : vue d’ensemble du routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07a7db57d506b892fd030efccfb304c7103e1e9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bc7320ffd8bb4d12483a882b588205d26e7e164
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Vue d’ensemble du routage basé sur l’emplacement dans Lync Server 2013
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Vue d’ensemble du routage géodépendant dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41755508"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Le routage géodépendant introduit de nouvelles règles modifiant le routage des appels RTC nationaux et internationaux pour empêcher le contournement des frais de réseau téléphonique commuté. Il offre la flexibilité nécessaire pour appliquer ces règles à certaines régions, passerelles ou groupes d’utilisateurs uniquement.
+Le routage géodépendant introduit un nouveau jeu de règles qui modifie le routage des appels RTC nationaux et internationaux afin de prévenir toute déviation du péage. Le routage géodépendant permet d’étendre la flexibilité de ces règles à des régions spécifiques, des passerelles spécifiques ou à un ensemble spécifique d’utilisateurs.
 
-Les scénarios suivants illustrent les principaux types de routage de restrictions qui peuvent garantir :
+Les scénarios suivants illustrent les principaux types de restrictions que le routage géodépendant peut appliquer :
 
-  - Appels de sortie : le routage de géolocalisation peut imposer des appels sortants vers la sortie à partir d’une passerelle RTC qui se trouve dans la même région que celle où l’appelant doit éviter le contournement du réseau PSTN, qui empêche les appels à la sortie d’une passerelle RTC située dans une autre région que le visiteur.
+  - Appels sortants : le routage géodépendant peut forcer les appels sortants à sortir d’une passerelle PSTN se trouvant dans la même région que l’appelant est d’empêcher le contournement des appels PSTN, ce qui empêche les appels à sortir d’une passerelle PSTN située dans une autre région que le appelant.
 
-  - Appels entrants – le routage de géolocalisation peut empêcher les appels RTC entrants de sonner sur des points de terminaison Lync si la passerelle RTC qui achemine l’appel entrant ne se trouve pas dans la même région que l’utilisateur Lync appelé.
+  - Appels entrants : le routage géodépendant peut empêcher les appels RTC entrants de sonner les points de terminaison Lync si la passerelle PSTN achemine l’appel entrant ne se trouve pas dans la même région que l’utilisateur Lync appelé.
 
-  - Régions inconnues : le routage géolocalisation limite les appels RTC entrants et sortants vers et depuis les utilisateurs qui se trouvent dans des endroits indéterminés (c’est-à-dire, des utilisateurs distants qui se connectent à partir d’Internet ou qui se trouvent dans des régions inconnues).
+  - Régions inconnues : le routage géodépendant limite les appels RTC entrants et sortants à destination et en provenance des utilisateurs situés dans des emplacements indéterminés (c’est-à-dire des utilisateurs distants se connectant à partir d’Internet ou se trouvant dans des régions inconnues).
 
-  - Régions internationales : le routage de géolocalisation applique le routage des appels sortants par le biais des passerelles RTC internationales si une passerelle locale à l’emplacement de l’utilisateur est introuvable.
+  - Régions internationales : le routage géodépendant impose le routage des appels sortants via des passerelles RTC internationales s’il est impossible de trouver une passerelle locale vers l’emplacement de l’utilisateur.
 
 <div>
 

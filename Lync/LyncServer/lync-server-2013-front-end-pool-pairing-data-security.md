@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : sécurité des données d’appariement de pools frontaux'
+title: 'Lync Server 2013 : sécurité des données d’appariement de pools frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efe51da622107183d3dbf2897a9e2a708acd78dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5157f78606a4577cf638857a4bc6719f2e1a42d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Sécurité des données d’appariement de pools frontaux dans Lync Server 2013
+# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Sécurité des données de jumelage des pools frontaux dans Lync Server 2013
 
 </div>
 
@@ -37,37 +37,37 @@ ms.locfileid: "41739754"
 
 _**Dernière modification de la rubrique :** 2014-10-07_
 
-Le service de sauvegarde est un mécanisme de réplication des données introduit dans Lync Server 2013, qui permet de transférer les données utilisateur et le contenu de la conférence entre deux listes frontales couplées en continu sur deux centres de données à des fins de reprise après sinistre. Les données utilisateur contiennent les URI SIP de l’utilisateur ainsi que les listes de contacts et les paramètres. Le contenu de la Conférence inclut les téléchargements Microsoft PowerPoint 2010 ainsi que les tableaux blancs utilisés en conférences. À partir de la liste source, les données utilisateur et le contenu de la Conférence sont exportés à partir du stockage local, compressé et transférés vers le pool cible, où il est décompressé et importé dans le stockage local. Le service de sauvegarde part du principe que le lien de communication entre les deux centres de données est à l’intérieur du réseau d’entreprise qui est protégé d’Internet. Le chiffrement des données transférées entre les deux centres de données n’est pas crypté en natif au sein d’un protocole sécurisé tel que HTTPs. Par conséquent, il est possible d’attaquer par le biais d’une attaque par le biais du milieu interne au sein du réseau d’entreprise.
+Le service de sauvegarde est un mécanisme de réplication des données introduit dans Lync Server 2013 qui transfère les données utilisateur et le contenu de conférence entre deux pools frontaux couplés en continu entre deux centres de données à des fins de récupération d’urgence. Les données utilisateur contiennent les URI SIP de l’utilisateur, ainsi que les listes de contacts et les paramètres. Le contenu des conférences inclut les téléchargements de Microsoft PowerPoint 2010, ainsi que les tableaux blancs utilisés dans les conférences. À partir du pool source, les données utilisateur et le contenu de conférence sont exportés à partir du stockage local, zippé, transféré vers le pool cible, où il est décompressé et importé dans le stockage local. Le service de sauvegarde suppose que la liaison de communication entre les deux centres de données se trouve dans le réseau d’entreprise protégé d’Internet. Il ne chiffre pas les données transférées entre les deux centres de données, et n’est pas encapsulé de manière native dans un protocole sécurisé, tel que HTTPs. Par conséquent, l’attaque de l’intercepteur du personnel interne au sein du réseau d’entreprise est possible.
 
 <div>
 
-## <a name="evaluating-security-risks"></a>Évaluation des risques en matière de sécurité
+## <a name="evaluating-security-risks"></a>Évaluation des risques de sécurité
 
-Toute entreprise qui déploie Lync Server 2013 sur plusieurs centres de données et utilise la fonctionnalité de reprise après sinistre doit garantir que le trafic du centre de données est protégé par l’intranet de l’entreprise. Les entreprises qui se soucient de la protection interne contre les attaques doivent sécuriser les liens entre les centres de données.
+Toute entreprise qui déploie Lync Server 2013 sur plusieurs centres de données et qui utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic du centre de données croisée est protégé par son intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données.
 
-L’hypothèse selon laquelle les centres de données d’une entreprise sont protégés au-delà de l’intranet de l’entreprise est standard. Il existe de nombreux autres types de données sensibles d’entreprise transférées entre ces centres de données. L’infrastructure informatique de l’entreprise est un risque catastrophique si ces liens entre les centres de données ne sont pas protégés.
+L’hypothèse que les centres de données d’une entreprise sont protégés derrière l’intranet d’entreprise est standard. Il existe de nombreux autres types de données sensibles d’entreprise transférées entre ces centres de données. L’infrastructure informatique de l’entreprise est un risque catastrophique si ces liens entre les centres de données ne sont pas protégés.
 
-Si le risque d’attaques de l’intercepteur (« man-in-the-middle ») sur le réseau d’entreprise existe, il est relativement contrôlé en comparaison de l’exposition du trafic sur Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (par exemple, les URI SIP) sont généralement disponibles pour tous les employés au sein de l’entreprise via d’autres moyens tels que le carnet d’adresses global d’Exchange ou d’autres logiciels d’annuaire. Par conséquent, le focus doit être placé sur la sécurité du réseau étendu (WAN) entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier des données entre les deux pools couplés.
+Bien que le risque d’attaques de l’intercepteur dans le réseau d’entreprise existe, il est relativement important par rapport à l’exposition du trafic sur Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (comme les URI SIP) sont généralement accessibles à tous les employés au sein de l’entreprise par le biais d’autres moyens tels que le carnet d’adresses global d’Exchange ou d’autres logiciels d’annuaire. Par conséquent, la sécurisation du réseau étendu doit être activée entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier les données entre les deux pools couplés.
 
 </div>
 
 <div>
 
-## <a name="mitigating-security-risks"></a>Réduction des risques liés à la sécurité
+## <a name="mitigating-security-risks"></a>Atténuation des risques de sécurité
 
-Il existe de nombreuses façons d’améliorer la protection de la sécurité du trafic du service de sauvegarde, qu’il s’agisse de limiter l’accès aux centres de données pour sécuriser le transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises qui déploient Lync Server 2013 peuvent avoir déjà l’infrastructure de sécurité requise en vigueur. Pour les entreprises recherchant des recommandations, Microsoft fournit une solution comme exemple de création d’une infrastructure informatique sécurisée. Toutefois, cela ne signifie pas qu’il s’agit de la seule solution et qu’elle n’implique pas qu’il s’agit de la solution préférée pour Lync Server. Nous recommandons aux clients d’entreprise de choisir une solution adaptée à leurs besoins spécifiques en fonction de leur infrastructure de sécurité informatique et de leurs besoins. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolement du serveur et du domaine. Pour plus d’informations [http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544), reportez-vous à. Pour des questions et des commentaires, contactez secwish@microsoft.com.
+Il existe de nombreuses façons d’améliorer la sécurité du trafic du service de sauvegarde, qu’il s’agisse de restreindre l’accès aux centres de données pour sécuriser le transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises déployant Lync Server 2013 peuvent avoir déjà l’infrastructure de sécurité requise en place. Pour les entreprises qui cherchent des conseils, Microsoft propose une solution comme exemple de création d’une infrastructure informatique sécurisée. Toutefois, cela ne signifie pas qu’il s’agit de la seule solution, ni qu’il s’agit de la solution par défaut pour Lync Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques en fonction de leurs besoins et de l’infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine. Pour plus d’informations [http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544), reportez-vous à. Pour obtenir des questions et des commentaires, contactez secwish@microsoft.com.
 
-Une autre solution possible consiste à utiliser IPSec simplement pour sécuriser les données envoyées par le service de sauvegarde proprement dit. Si vous choisissez cette méthode, vous devez configurer les règles IPSec du protocole SMB pour les serveurs ci-dessous, où le pool A et le pool B sont deux pools frontaux associés.
+Une autre solution possible consiste à utiliser IPSec uniquement pour sécuriser les données envoyées par le service de sauvegarde lui-même. Si vous choisissez cette méthode, vous devez configurer les règles IPSec pour le protocole SMB pour les serveurs suivants, où le pool A et le pool B sont deux pools frontaux couplés.
 
-  - Service SMB (TCP/445) de chaque serveur frontal dans le pool A vers le magasin de fichiers utilisé par le pool B.
+  - Service SMB (TCP/445) de chaque serveur frontal dans le pool A vers le magasin de fichiers utilisé par le pool B.
 
-  - Service SMB (TCP/445) de chaque serveur frontal dans le pool B vers le magasin de fichiers utilisé par le pool A.
+  - Service SMB (TCP/445) de chaque serveur frontal dans le pool B vers le magasin de fichiers utilisé par le pool A.
 
 <div>
 
 
 > [!WARNING]  
-> IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, comme SSL/TLS. L’intérêt d’utiliser IPsec est qu’il peut assurer la sécurité du trafic réseau pour les applications existantes sans avoir à les modifier. Les entreprises qui veulent simplement sécuriser le transport entre les deux centres de données doivent s’adresser à leurs fournisseurs de matériel réseau respectifs pour savoir comment configurer des connexions de réseau étendu (WAN) sécurisées avec leur matériel.
+> IPsec n’est pas destiné à remplacer la sécurité au niveau de l’application, comme SSL/TLS. L’un des avantages de l’utilisation d’IPsec est qu’elle permet de sécuriser le trafic réseau pour les applications existantes sans qu’il soit nécessaire de les modifier. Les entreprises qui souhaitent sécuriser le transport entre les deux centres de données doivent consulter leurs fournisseurs de matériel réseau respectifs sur les moyens de configurer des connexions WAN sécurisées à l’aide de l’équipement du fournisseur.
 
 
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730476"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a>Accessibilité de Lync Server 2013
+# <a name="accessibility-in-lync-server-2013"></a>Accessibilité dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41730476"
 
 _**Dernière modification de la rubrique :** 2014-10-09_
 
-Microsoft s’engage à faciliter l’utilisation de ses produits et services par tous les utilisateurs. Les sections suivantes fournissent des informations sur les fonctionnalités, les produits et les services qui vous permettent de rendre Lync Server 2013 plus accessible aux personnes souffrant de handicaps.
+Microsoft s'engage à faciliter l'utilisation de ses produits et services pour tous. Les sections suivantes fournissent des informations sur les fonctionnalités, les produits et les services qui permettent de rendre Lync Server 2013 plus accessible aux personnes présentant un handicap.
 
 <div>
 
 ## <a name="accessibility-features-of-lync-server-2013"></a>Fonctionnalités d’accessibilité de Lync Server 2013
 
-Les fonctionnalités suivantes de Lync Server 2013 permettent d’améliorer l’accessibilité pour les personnes atteintes de handicaps :
+Les fonctionnalités suivantes de Lync Server 2013 permettent de faciliter l’accès aux personnes présentant un handicap :
 
   - Raccourcis clavier
 
-  - Texte de substitution pour les illustrations
+  - Texte alternatif pour les illustrations
 
-De plus, les fonctionnalités et outils d’accessibilité de Windows peuvent être utiles pour les utilisateurs du serveur Lync présentant un handicap. Les changements de taille et de couleur de Windows PowerShell fournissent des options d’accessibilité lors de l’utilisation de Lync Server Management Shell. Pour plus d’informations sur les options d’accessibilité de Windows PowerShell, voir « accessibilité dans Windows PowerShell 2,0 » [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)dans la bibliothèque TechNet à l’adresse.
+De plus, certaines fonctionnalités d’accessibilité et certains outils de Windows peuvent tirer parti des utilisateurs de Lync Server présentant un handicap. Modification de la taille et de la couleur Windows PowerShell fournit des options d’accessibilité lors de l’utilisation de Lync Server Management Shell. Pour plus d’informations sur les options d’accessibilité Windows PowerShell, voir « Accessibility in Windows PowerShell 2,0 » [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)dans la bibliothèque TechNet à l’adresse.
 
 </div>
 
@@ -59,9 +59,9 @@ De plus, les fonctionnalités et outils d’accessibilité de Windows peuvent ê
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
-Vous pouvez utiliser des raccourcis clavier pour interagir avec l’interface utilisateur dans les outils d’administration de Lync Server et d’autres fonctionnalités.
+Vous pouvez utiliser les raccourcis clavier pour interagir avec l’interface utilisateur dans les outils d’administration de Lync Server et d’autres fonctionnalités.
 
-À l’aide des raccourcis clavier, vous pouvez rapidement effectuer les tâches courantes suivantes.
+Les raccourcis clavier vous permettent d’accomplir rapidement les tâches courantes suivantes.
 
 
 <table>
@@ -71,62 +71,62 @@ Vous pouvez utiliser des raccourcis clavier pour interagir avec l’interface ut
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pour effectuer cette action</th>
-<th>Utilisez ce raccourci clavier</th>
+<th>Pour effectuer cela</th>
+<th>Utiliser ce raccourci clavier</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Basculer entre les éléments dans l’interface utilisateur.</p></td>
-<td><p>Délimité</p></td>
+<td><p>Passer d’un élément à l’autre de l’interface utilisateur.</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="even">
-<td><p>Effectuer l’action de l’élément sélectionné, comme <strong>Afficher tout</strong>, <strong>Masquer tout</strong>ou ouvrir un lien hypertexte.</p></td>
-<td><p>Spécifi</p></td>
+<td><p>Effectuer l’action pour l’élément sélectionné, tel que <strong>Afficher tout</strong> ou <strong>Masquer tout</strong>, ou ouvrir un lien hypertexte.</p></td>
+<td><p>Entrez </p></td>
 </tr>
 <tr class="odd">
-<td><p>Remplacer l’élément sélectionné par l’élément suivant sur la page ou dans un menu.</p></td>
-<td><p>Délimité</p></td>
+<td><p>Sélectionner l’élément suivant dans la page ou dans un menu.</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="even">
-<td><p>Changer l’élément sélectionné à l’élément précédent de la page.</p></td>
-<td><p>Maj + Tab</p></td>
+<td><p>Sélectionner l’élément précédent dans la page.</p></td>
+<td><p>Maj+Tab</p></td>
 </tr>
 <tr class="odd">
-<td><p>Changer l’élément sélectionné dans la page ou le menu vers le haut, le bas, la gauche ou la droite.</p></td>
+<td><p>Sélectionner l’élément au-dessus, en dessous, à droite ou à gauche dans la page ou dans le menu.</p></td>
 <td><p>Touches de direction</p></td>
 </tr>
 <tr class="even">
-<td><p>Développez le nœud sélectionné dans l’arborescence.</p></td>
-<td><p>+Clés</p></td>
+<td><p>Développer le nœud sélectionné dans l’arborescence.</p></td>
+<td><p>+Flèche</p></td>
 </tr>
 <tr class="odd">
 <td><p>Réduire le nœud sélectionné dans l’arborescence.</p></td>
-<td><p>-Clés</p></td>
+<td><p>-Flèche</p></td>
 </tr>
 <tr class="even">
-<td><p>Accédez à la barre de menus.</p></td>
-<td><p>Droite</p></td>
+<td><p>Accéder à la barre de menus.</p></td>
+<td><p>Alt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Accéder à une commande de barre de menus.</p></td>
-<td><p>Alt + la lettre soulignée dans le menu contextuel.</p></td>
+<td><p>Accéder à une commande de la barre de menus.</p></td>
+<td><p>Alt+ la lettre soulignée dans le menu contextuel.</p></td>
 </tr>
 <tr class="even">
-<td><p>Dans l’Assistant certificat, sélectionnez la liste déroulante.</p></td>
-<td><p>Délimité</p></td>
+<td><p>Sélectionner la liste déroulante de l’Assistant Certificat.</p></td>
+<td><p>Tab</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ouvrez la liste déroulante dans l’Assistant certificat.</p></td>
-<td><p>Ctrl + Espace</p></td>
+<td><p>Ouvrir la liste déroulante de l’Assistant Certificat.</p></td>
+<td><p>Ctrl + barre d’espace</p></td>
 </tr>
 <tr class="even">
-<td><p>Sélectionnez un élément dans la liste déroulante de l’Assistant certificat.</p></td>
-<td><p>Appuyez sur TAB, puis sur CTRL + touches de direction pour vous déplacer entre les éléments.</p></td>
+<td><p>Mettre en surbrillance un élément de la liste déroulante de l’Assistant Certificat.</p></td>
+<td><p>TAB, puis Ctrl+Touches de direction pour passer d’un élément à l’autre.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Activez ou désactivez un élément dans la liste déroulante de l’Assistant certificat.</p></td>
-<td><p>Ctrl + Espace</p></td>
+<td><p>Sélectionner ou désactiver un élément de la liste déroulante de l’Assistant Certificat.</p></td>
+<td><p>Ctrl + barre d’espace</p></td>
 </tr>
 </tbody>
 </table>
@@ -138,9 +138,9 @@ Vous pouvez utiliser des raccourcis clavier pour interagir avec l’interface ut
 
 <div>
 
-## <a name="alternate-text-for-figures"></a>Texte de substitution pour les illustrations
+## <a name="alternate-text-for-figures"></a>Texte alternatif pour les illustrations
 
-Chaque figure dans l’aide de Lync Server 2013, y compris les captures d’écran, diagrammes, diagrammes de flux et autres illustrations, associe un texte de remplacement. Les utilisateurs qui ont du mal à lire des chiffres peuvent suspendre le curseur sur la figure pour lire le texte de remplacement. Le texte de remplacement décrit ce qui est affiché dans l’illustration.
+Toutes les figures de l’aide de Lync Server 2013, y compris les captures d’écran, les diagrammes, les organigrammes et d’autres figures, contiennent un texte de remplacement. Les utilisateurs rencontrant des difficultés pour afficher des figures peuvent placer le curseur sur la figure pour lire le texte de remplacement. Le texte de remplacement décrit ce qui est illustré dans la figure.
 
 </div>
 
@@ -148,15 +148,15 @@ Chaque figure dans l’aide de Lync Server 2013, y compris les captures d’écr
 
 <div>
 
-## <a name="accessibility-products-and-services-from-microsoft"></a>Produits et services d’accessibilité de Microsoft
+## <a name="accessibility-products-and-services-from-microsoft"></a>Produits et services Microsoft pour l’accessibilité
 
-Les sections suivantes fournissent des informations sur les fonctionnalités, les produits et les services qui rendent Windows plus accessible aux personnes souffrant de handicaps.
+Les sections suivantes fournissent des informations sur les fonctionnalités, les produits et les services qui rendent Windows plus accessible aux personnes présentant un handicap.
 
 <div>
 
 
 > [!NOTE]  
-> Les informations contenues dans cette section s’appliquent uniquement aux utilisateurs qui ont réservé aux produits Microsoft aux États-Unis. Si vous avez obtenu ce produit hors des États-Unis, vous pouvez utiliser la carte informations sur les filiales fournie avec votre logiciel ou visiter le site Web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> accessibilité de Microsoft pour obtenir la liste des numéros de téléphone et des adresses des services de support technique Microsoft. Vous pouvez contacter votre filiale pour savoir si le type de produits et services décrits dans cette section est disponible dans votre région. Pour en savoir plus sur les fonctionnalités d’accessibilité incluses dans les produits Microsoft, consultez le site Web d’accessibilité dans les produits Microsoft.
+> Les informations de cette section concernent uniquement les utilisateurs détenteurs d'une licence pour les produits Microsoft aux États-Unis. Si vous avez obtenu ce produit en dehors des États-Unis, vous pouvez utiliser la carte d’informations des filiales fournie avec votre package logiciel ou visiter le <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> site Web accessibilité de Microsoft à l’adresse pour obtenir la liste des numéros de téléphone et adresses des services de support technique Microsoft. Vous pouvez contacter la filiale de votre région pour savoir si les produits et services décrits dans cette section sont disponibles dans votre zone. Vous pouvez obtenir plus d’informations sur les fonctionnalités d’accessibilité incluses dans les produits Microsoft sur le site web Accessibilité des produits Microsoft.
 
 
 
@@ -166,25 +166,25 @@ Les sections suivantes fournissent des informations sur les fonctionnalités, le
 
 ## <a name="accessibility-features-of-windows"></a>Fonctionnalités d’accessibilité de Windows
 
-Le système d’exploitation Windows propose de nombreuses fonctionnalités d’accessibilité intégrées qui sont utiles pour les personnes qui ont des difficultés à taper ou à utiliser une souris, qui sont aveugles ou malvoyantes ou qui sont sourdes ou malentendantes. Les fonctionnalités sont installées lors de l’installation. Pour plus d’informations sur ces fonctionnalités, voir l’aide de Windows [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)ou Microsoft Accessibility à l’adresse.
+Le système d'exploitation Windows inclut de nombreuses fonctionnalités d'accessibilité intégrées utiles pour les personnes pour lesquelles l'utilisation d'un clavier ou d'une souris présente une difficulté, les personnes aveugles et à acuité visuelle réduite, et les personnes sourdes et malentendantes. Les fonctionnalités sont installées dans le cadre de l'installation. Pour plus d’informations sur ces fonctionnalités, consultez l’aide de Windows [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)ou l’accessibilité Microsoft à l’adresse.
 
-  - **Didacticiels pas à pas gratuits**   Microsoft propose une série de didacticiels pas à pas qui décrivent les procédures détaillées permettant d’ajuster les options et paramètres d’accessibilité sur votre ordinateur. Ces informations sont présentées dans un format côte à côte pour vous permettre d’apprendre à utiliser la souris, le clavier ou une combinaison des deux.
+  - **Didacticiels pas-à-pas gratuits**   Microsoft propose une série de didacticiels pas-à-pas qui fournissent des procédures détaillées pour ajuster les options et les paramètres d’accessibilité sur votre ordinateur. Ces informations étant présentées en vis-à-vis, un simple coup d'œil suffit pour savoir comment utiliser la souris et/ou le clavier.
     
-    Pour trouver des didacticiels pas à pas pour les produits Microsoft, consultez la rubrique [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)accessibilité de Microsoft à l’adresse.
+    Pour obtenir des didacticiels pas-à-pas pour les produits Microsoft, consultez [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)la page relative à l’accessibilité de Microsoft à l’adresse.
 
-  - **Les produits de technologie d’assistance pour Windows**   offrent de nombreux outils d’assistance technique pour faciliter l’utilisation des ordinateurs pour les personnes atteintes de handicaps. Vous pouvez rechercher dans un catalogue des produits de technologie d’assistance qui s’exécutent sur Windows sur le [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)site Web accessibilité de Microsoft à l’adresse.
+  - **Produits de technologie d’assistance pour Windows**   un grand nombre de produits de technologie d’assistance sont disponibles pour faciliter l’utilisation des ordinateurs pour les personnes présentant un handicap. Vous pouvez effectuer des recherches dans un catalogue de produits de technologie d’assistance exécutés sur Windows sur le [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)site Web accessibilité de Microsoft à l’adresse.
     
-    Si vous utilisez une technologie d’assistance, contactez votre fournisseur de technologie d’assistance avant de procéder à la mise à niveau de votre logiciel ou de votre matériel pour vérifier les problèmes de compatibilité potentiels.
+    Si vous utilisez la technologie d’assistance, contactez votre fournisseur de technologie d’assistance avant de mettre à jour votre logiciel ou matériel, afin de vérifier les problèmes de compatibilité éventuels.
 
 </div>
 
 <div>
 
-## <a name="documentation-in-alternative-formats"></a>Documentation dans d’autres formats
+## <a name="documentation-in-alternative-formats"></a>Autres formats de documentation
 
-Si vous éprouvez des difficultés à lire ou à gérer des supports imprimés, vous pouvez obtenir la documentation de nombreux produits Microsoft dans des formats plus accessibles. Vous pouvez obtenir un index de la documentation relative aux produits accessibles sur le site [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Web accessibilité de Microsoft à l’adresse.
+Si vous rencontrez des difficultés pour consulter les supports imprimés, vous pouvez obtenir de la documentation pour de nombreux produits Microsoft dans des formats plus accessibles. Vous pouvez obtenir un index de documentation sur le produit accessible sur le site Web [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)accessibilité de Microsoft à l’adresse.
 
-De plus, vous pouvez obtenir des publications Microsoft supplémentaires auprès de l’enregistrement pour le aveugle & Dyslexic,\&Inc (RFB D). RFB\&D distribue ces documents aux membres inscrits et éligibles de leur service de distribution. Pour plus d’informations sur la disponibilité de la documentation et des livres de produits Microsoft dans\&Microsoft Press, contactez RFB D.
+En outre, vous pouvez obtenir des publications Microsoft supplémentaires auprès de Recording for the Blind & Dyslexic,\&Inc (RFB D). RFB\&D distribue ces documents aux membres inscrits et éligibles de leur service de distribution. Pour plus d’informations sur la disponibilité de la documentation produit Microsoft et des livres de Microsoft\&Press, contactez RFB D.
 
 
 <table>
@@ -193,11 +193,11 @@ De plus, vous pouvez obtenir des publications Microsoft supplémentaires auprès
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Enregistrement pour la Dyslexic &amp; aveugle, Inc.</p>
-<p>20 Roszel Road route</p>
+<td><p>Enregistrement pour le blinde &amp; Dyslexic, Inc.</p>
+<p>20 Roszel Road</p>
 <p>Princeton, NJ 08540</p>
-<p>Numéro de téléphone depuis les États-Unis : (800) 221-4792</p>
-<p>Site Web : enregistrement pour le &amp; Dyslexic-Dyslexic à<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>Numéro de téléphone depuis les États-Unis : (800) 221-4792</p>
+<p>Site Web : enregistrement pour le &amp; site Dyslexic à l’adresse<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -207,19 +207,19 @@ De plus, vous pouvez obtenir des publications Microsoft supplémentaires auprès
 
 <div>
 
-## <a name="customer-service-for-people-with-disabilities"></a>Service clientèle pour les personnes atteintes de handicaps
+## <a name="customer-service-for-people-with-disabilities"></a>Service clientèle pour les personnes présentant un handicap
 
-Microsoft veut offrir la meilleure qualité possible à tous nos clients, y compris les personnes souffrant de handicaps. Si vous avez besoin d’aide, contactez notre équipe de support technique pour l’accessibilité, qui est formée pour aider les personnes handicapées par téléphone ou par e-mail.
+Microsoft souhaite offrir la meilleure expérience possible à tous nos clients, y compris aux personnes présentant un handicap. Si vous avez besoin d’aide, contactez notre équipe de support d’accessibilité, qui est formée pour aider les personnes handicapées par téléphone ou par e-mail.
 
-[Contacter Answer Desk](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[Contacter le service de réponse d’invalidité](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 Ligne téléphonique directe : 1-800-936-5900
 
 TTY : 1-800-892-5234
 
-Jours de semaine : 17:00 -9 H (Heure du Pacifique)
+Jours de la semaine : 5 h -9 H (Heure du Pacifique)
 
-Week-end : 6 AM -15:00 (Heure du Pacifique)
+Week-ends : 6 h 00 -3 H (Heure du Pacifique)
 
 </div>
 
@@ -227,13 +227,13 @@ Week-end : 6 AM -15:00 (Heure du Pacifique)
 
 ## <a name="customer-service-for-people-with-hearing-impairments"></a>Service clientèle pour les personnes malentendantes
 
-Si vous êtes sourd ou malentendant, un service télétexte/téléscripteur (TTY/TDD) vous permet d’accéder à toute la gamme des services clientèles et de support technique de Microsoft :
+Si vous êtes sourd ou malentendant, un accès complet au service des produits Microsoft et au service clientèle est disponible via un service de téléscripteur (TTY/ATS) :
 
-  - Pour le service clientèle, contactez Microsoft Sales Information Center au (800) 892-5234 entre 6:30 AM et 5:30 P.M. Heure du Pacifique, lundi au vendredi, à l’exception des jours fériés.
+  - Pour le service clientèle, contactez le Microsoft Sales Information Center au (800) 892 5234 entre 06h30 et 17h30 (heure du Pacifique), du lundi au vendredi, en dehors des jours fériés.
 
-  - Pour obtenir une assistance technique aux États-Unis, contactez les services de support technique Microsoft au (800) 892-5234 entre 6:00 AM et 6:00 P.M. Heure du Pacifique, lundi au vendredi, à l’exception des jours fériés. Au Canada, composez le (905) 568-9641 entre 8:00 du matin. et 8:00 P.M. Heure de la côte est du lundi au vendredi, sauf jours fériés.
+  - Pour l'assistance technique aux États-Unis, contactez le Microsoft Sales Information Center au (800) 892 5234 entre 06h00 et 17h30 (heure du Pacifique), du lundi au vendredi, en dehors des jours fériés. Au Canada, composez le (905) 568 9641 entre 8h00 et 20h00 (heure de l'Est), du lundi au vendredi, en dehors des jours fériés.
 
-Les services de support Microsoft sont soumis aux prix, termes et conditions en vigueur au moment de l’utilisation du service. Pour plus d’informations, consultez le [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)support technique de Microsoft à l’adresse.
+Les services de support technique Microsoft sont soumis aux tarifs, termes et conditions valables au moment de leur utilisation. Pour plus d’informations, consultez le [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)support Microsoft à l’adresse.
 
 </div>
 
@@ -243,7 +243,7 @@ Les services de support Microsoft sont soumis aux prix, termes et conditions en 
 
 ## <a name="for-more-information"></a>Pour plus d'informations
 
-Pour plus d’informations sur la manière dont la technologie d’accessibilité pour les ordinateurs contribue à faciliter la vie des personnes atteintes [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)de handicaps, voir Microsoft Accessibility à l’adresse.
+Pour plus d’informations sur la façon dont les technologies accessibles pour les ordinateurs contribuent à améliorer la vie des personnes présentant un [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)handicap, consultez la page relative à l’accessibilité de Microsoft à l’adresse.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer la contournement multimédia pour ignorer toujours le serveur de médiation'
+title: 'Lync Server 2013 : configuration de la déviation du trafic multimédia pour toujours contourner le serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0023fba32b24243dc4bf2a12659700ace6dea91a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 376ce5c00b4d326f283d1fde204d6c1bd17dd1de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762842"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configure media bypass in Lync Server 2013 to always bypass the Mediation Server
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configuration de la déviation du trafic multimédia dans Lync Server 2013 pour toujours contourner le serveur de médiation
 
 </div>
 
@@ -41,27 +41,27 @@ _**Dernière modification de la rubrique :** 2013-02-25_
 
 
 > [!NOTE]  
-> Dans cette rubrique, nous partons du principe que vous avez déjà configuré le contournement multimédia pour n’importe quelle connexion de Trunk vers un homologue (passerelle RTC (réseau téléphonique commuté), un PBX IP ou un contrôleur de bordure de session (SBC) sur un fournisseur de services de téléphonie Internet (ITSP) le service ou le site pour lequel vous souhaitez que le média ignore le serveur de médiation.<BR>Vous ne pouvez pas configurer le contenu multimédia pour ignorer toujours le serveur de médiation tout en activant également le contrôle d’admission des appels. Ces paramètres ne sont pas compatibles et sont donc mutuellement exclusifs dans l’interface utilisateur du panneau de configuration de Lync Server.
+> Cette rubrique suppose que vous avez déjà configuré le contournement de média pour des connexions de jonction vers un homologue (une passerelle PSTN, un PBX IP ou un contrôleur SBC chez un fournisseur de services de téléphonie Internet) pour un site ou un service spécifique pour lequel vous souhaitez que le contournement de média contourne toujours le serveur de médiation.<BR>Vous ne pouvez pas configurer le contournement de média pour qu’il contourne toujours le serveur de médiation alors que le contrôle d’admission des appels est activé. Ces paramètres sont incompatibles et sont par conséquent mutuellement exclusifs dans l’interface utilisateur du panneau de configuration Lync Server.
 
 
 
 </div>
 
-Outre l’activation de l’exclusion de médias pour les connexions de Trunk individuelles associées à un homologue au serveur de médiation, vous devez également configurer des paramètres globaux pour le contournement multimédia. Si vous suivez les étapes décrites dans cette rubrique pour configurer des paramètres globaux pour le contournement du média multimédia, il est supposé que vous disposez d’une bonne connectivité entre les points de terminaison Lync et les homologues pour lesquels vous avez configuré une contournement multimédia sur la connexion Trunk.
+Outre l’activation du contournement de média pour des connexions de jonction individuelles associées à un homologue vers le serveur de médiation, vous devez également configurer les paramètres globaux du contournement de média. Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux pour la déviation du trafic multimédia, il est supposé que vous disposez d’une connexion correcte entre les points de terminaison Lync et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de jonction.
 
-Si vous n’avez pas de bonne connectivité entre les points de terminaison de Lync Server et tous les homologues sur le serveur de médiation pour lesquels une connexion de ligne respective a été activée, vous devez configurer des paramètres globaux de contournement de médias pour utiliser les informations de site et de région lorsque utilisation du contournement de média. Cela permet d’augmenter le contrôle lors du contournement du serveur de médiation par le média. Pour cela, suivez les étapes décrites dans [configurer les paramètres globaux de contournement de médias dans Lync server 2013 pour utiliser les informations de site et de région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) , puis [associez un sous-réseau à un site réseau dans Lync Server 2013 à la](lync-server-2013-associate-a-subnet-with-a-network-site.md) place.
+Si vous n’avez pas une connectivité correcte entre les points de terminaison Lync Server et tous les homologues du serveur de médiation dont les connexions de jonction respectives ont été activées pour la déviation du trafic multimédia, vous devez configurer les paramètres globaux de contournement de média pour utiliser les informations de site et de région lorsque utilisation de la déviation du trafic multimédia. Cela permet de déterminer plus précisément le moment auquel le média contourne le serveur de médiation. Pour ce faire, suivez les étapes décrites dans [configure Media Bypass Global Settings in Lync Server 2013 pour utiliser les informations de site et de région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) , et [associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) .
 
 <div>
 
-## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Pour activer la déviation du trafic multimédia au niveau global pour qu’il contourne toujours le serveur de médiation
+## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Pour activer le contournement de média au niveau global pour qu’il contourne toujours le serveur de médiation
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
 3.  Double-cliquez sur la configuration **Globale** dans la liste.
 
-4.  Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer la déviation du trafic multimédia**.
+4.  Dans la page **Modifier la configuration globale**, activez la case à cocher **Activer le contournement de média**.
 
 5.  Cliquez sur **Toujours ignorer**.
 
@@ -74,9 +74,9 @@ Si vous n’avez pas de bonne connectivité entre les points de terminaison de L
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
-[Options de contournement global de médias dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
-[Déviation du trafic multimédia et serveur de médiation dans Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
+[Configurer la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
+[Options globales de déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+[Contournement de média et serveur de médiation dans Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
 
 
 [Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  

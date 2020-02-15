@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server'
+title: 'Lync Server 2013 : utilisateurs domestiques sur un Survivable Branch Appliance ou un serveur Survivable Branch Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cca9528e884807f6180d8c99b143eb0041211
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6efd5991260ffeec3c6279857625eadfe34eca4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739134"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server dans Lync Server 2013
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Utilisateurs domestiques sur un Survivable Branch Appliance ou un serveur Survivable Branch Server dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41739134"
 
 _**Dernière modification de la rubrique :** 2014-12-10_
 
-Le processus d’hébergement des utilisateurs sur une unité de branchement survivant ou un serveur de succursale survivant est similaire au processus d’hébergement des utilisateurs sur un pool frontal. Exécutez l’application branche Survivable ou le serveur de succursales survivant sur le site central.
+Le processus d’hébergement des utilisateurs sur un Survivable Branch Appliance ou un serveur Survivable Branch Server est semblable à celui de l’hébergement des utilisateurs sur un pool frontal. Effectuez la procédure Survivable Branch Appliance ou le serveur Survivable Branch Server sur le site central.
 
 <div>
 
-## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Pour les particuliers sur un appareil de succursale survivant ou un serveur de succursales survivant
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Pour héberger des utilisateurs sur un Survivable Branch Appliance ou sur un serveur Survivable Branch Server
 
-1.  Avant de déplacer des utilisateurs vers un serveur de succursales ou un serveur de succursales survivant, ouvrez Lync Server Management Shell, puis effectuez l’une des opérations suivantes :
+1.  Avant de transférer des utilisateurs vers le Survivable Branch Server ou le serveur Survivable Branch Server, ouvrez Lync Server Management Shell, puis effectuez toutes les opérations suivantes :
     
-      - Exécutez l’applet de **contrôle test-CsPstnOutboundCall** pour vérifier que le serveur de succursales survivant est en cours d’exécution et que la connectivité PSTN (réseau téléphonique commuté) est configurée. Si vous devez modifier les propriétés de la passerelle RTC, utilisez la cmdlet **Set-CsPstnGateway**.
+      - Exécutez l’applet de commande **test-CsPstnOutboundCall** pour vérifier que le serveur Survivable Branch Server est en cours d’exécution et que la connectivité PSTN (réseau téléphonique commuté) est configurée. Si vous avez besoin de modifier les propriétés de la passerelle PSTN, utilisez la **Set-CsPstnGateway**.
     
-      - Exécutez l’applet de contrôle **Get-CsVoicePolicy** pour vérifier que les utilisateurs qui sont hébergés sur le serveur de succursales survivables disposent de la stratégie de routage de VoIP appropriée. Si vous avez besoin de modifier la stratégie VoIP, utilisez la cmdlet **Set-CsVoicePolicy**.
+      - Exécutez l’applet de commande **Get-CsVoicePolicy** pour vérifier que les utilisateurs qui seront hébergés sur le serveur Survivable Branch Server possèdent la stratégie de routage VoIP appropriée. Si vous avez besoin de modifier la stratégie VoIP, utilisez la cmdlet **Set-CsVoicePolicy**.
     
-      - Exécutez l’applet de contrôle **Get-CsVoicemailReroutingConfiguration** pour vérifier que les paramètres de reroutage de la messagerie vocale sont configurés. Si vous devez modifier les paramètres de redirection de la messagerie vocale, utilisez la cmdlet **Set-CsVoicemailReroutingConfiguration**.
+      - Exécutez la **Get-CsVoicemailReroutingConfiguration** pour vérifier que les paramètres de réacheminement de la messagerie vocale sont configurés. Si vous avez besoin de modifier les paramètres de réacheminement de la messagerie vocale, utilisez la cmdlet **Set-CsVoicemailReroutingConfiguration**.
 
-2.  Dans Lync Server Management Shell, exécutez l’applet de l’applet de **Csuser** pour déplacer les utilisateurs de l’accueil.
+2.  Dans Lync Server Management Shell, exécutez l’applet de commande **Move-Csuser** pour déplacer les utilisateurs d’accueil.
 
 <div>
 
 
 > [!NOTE]  
-> Vous pouvez également utiliser le panneau de configuration de Lync Server pour vérifier les prérequis et les particuliers.
+> Vous pouvez également utiliser le panneau de configuration Lync Server pour vérifier les conditions préalables et les utilisateurs domestiques.
 
 
 
@@ -67,7 +67,7 @@ Le processus d’hébergement des utilisateurs sur une unité de branchement sur
 
 
 > [!NOTE]  
-> Les utilisateurs qui sont hébergés sur une unité de branchement Survivable Lync Server ne peuvent pas créer de nouvelles salles de conversation ou afficher la carte de la salle pour les salles existantes.
+> Les utilisateurs hébergés sur une appliance Survivable Branch Lync Server ne peuvent pas créer de nouvelles salles de conversation ni afficher la carte de salle pour les salles existantes.
 
 
 

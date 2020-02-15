@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion de l’archivage'
+title: 'Lync Server 2013 : gestion de l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-archiving"></a>Gestion de l’archivage Lync Server 2013
+# <a name="managing-lync-server-2013-archiving"></a>Gestion de l’archivage Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41738864"
 
 _**Dernière modification de la rubrique :** 2012-10-10_
 
-Lorsque vous déployez l’archivage pour votre organisation, vous spécifiez la configuration initiale lors du déploiement. Toutefois, il peut arriver que vous souhaitiez modifier le mode d’implémentation de la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre à de nouvelles exigences au sein de votre organisation. Par exemple, vous pouvez avoir besoin de configurer la prise en charge de l’archivage différemment pour un site, un pool ou des utilisateurs spécifiques au sein de votre organisation. Pour les utilisateurs hébergés sur Lync Server 2013, c’est la création et la personnalisation des configurations et des stratégies d’archivage. Si vous utilisez l’intégration de Microsoft Exchange, vous devez également configurer les paramètres d’Exchange 2013. Cette section fournit des informations et des procédures pour vous permettre de modifier votre déploiement d’archivage.
+Lorsque vous déployez l’archivage pour votre organisation, vous spécifiez la configuration initiale lors du déploiement. Toutefois, il peut arriver que vous souhaitiez modifier la façon dont vous implémentez la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre aux nouvelles exigences de votre organisation. Par exemple, il se peut que vous deviez configurer la prise en charge de l’archivage différemment pour un site, un pool ou des utilisateurs spécifiques au sein de votre organisation. Pour les utilisateurs hébergés sur Lync Server 2013, vous créez et personnalisez des stratégies et des configurations d’archivage. Si vous utilisez l’intégration de Microsoft Exchange, vous devez également configurer les paramètres Exchange 2013. Cette section fournit des informations et des procédures pour vous permettre d’effectuer des modifications dans votre déploiement de l’archivage.
 
 <div>
 

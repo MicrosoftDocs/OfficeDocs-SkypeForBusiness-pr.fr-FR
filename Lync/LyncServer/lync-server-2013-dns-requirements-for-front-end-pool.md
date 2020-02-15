@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Enregistrements DNS requis pour le pool frontal'
+title: 'Lync Server 2013 : configuration DNS requise pour le pool frontal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 078b8dc63e630487e13f1d187896bcf0617c0d15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Enregistrements DNS requis pour le pool frontal dans Lync Server 2013
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Configuration DNS requise pour le pool frontal dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765292"
 
 _**Dernière modification de la rubrique :** 2012-11-07_
 
-Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe administrateurs de domaine ou membre du groupe DnsAdmins.
+Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine au moins en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
 
-Vous devez configurer les enregistrements DNS (Domain Name System) requis avant de publier votre topologie dans le générateur de topologie. De plus, certains noms de domaine complets (FQDN) utilisés dans la configuration d’un déploiement de Lync Server 2013 sont logiques et non des noms de domaine complets de serveur physique ; c’est pourquoi une configuration DNS supplémentaire est requise avant la publication.
+Vous devez configurer les enregistrements DNS (Domain Name System) requis avant de publier votre topologie dans le générateur de topologies. De plus, certains des noms de domaine complets utilisés dans la configuration d’un déploiement Lync Server 2013 sont logiques et non des noms de domaine complets de serveur physiques, de sorte que la configuration DNS supplémentaire est requise avant la publication.
 
 <div>
 
 
 > [!WARNING]  
-> Lync Server 2013 ne prend pas en charge les domaines à mention unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé « informations sur la configuration de Windows pour les domaines avec les noms DNS en une seule étiquette » <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp, kbid = 300684</A>.
+> Lync Server 2013 ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt comportant le domaine racine <STRONG>contoso.local</STRONG> est prise en charge alors que le domaine racine <STRONG>local</STRONG> ne l’est pas. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec des noms DNS en une seule partie » à l’adresse <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
 
 
 
@@ -55,25 +55,25 @@ Vous devez configurer les enregistrements DNS (Domain Name System) requis avant 
 
 
 > [!IMPORTANT]  
-> Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom de l’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom court qui n’est pas un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. <STRONG>Utilisez uniquement les caractères standard</STRONG> (y compris A – z, a-z, 0 à 9 et les traits d’Union) lors de l’affectation des noms de domaine complets des serveurs exécutant Lync Server, des serveurs Edge et des pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le nom de domaine complet doit être attribué à l’SN dans le certificat).
+> Le nom que vous spécifiez doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, pas un nom de domaine complet (FQDN). Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. <STRONG>Utilisez uniquement des caractères standard</STRONG> (tels que a – z, a – z, 0 – 9 et des tirets) lorsque vous affectez des noms de domaine complets à vos serveurs exécutant Lync Server, des serveurs Edge et des pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard figurant dans un nom de domaine complet ne sont en général pas pris en charge par les serveurs DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté au SN dans le certificat).
 
 
 
 </div>
 
-Avant d’activer la topologie après le déploiement de celle-ci, vérifiez que les enregistrements DNS et Active Directory suivants sont créés (à mesure que vous avez besoin de fonctionnalités spécifiques dictées) :
+Avant de faire fonctionner la topologie une fois qu’elle a été déployée, vérifiez que les enregistrements Active Directory et DNS suivants sont créés (en fonction de vos besoins en matière de fonctionnalités spécifiques) :
 
-  - Chaque rôle de serveur existant dans la topologie est publié en tant qu’objet Active Directory (si vous rejoignez l’ordinateur au domaine).
+  - Chaque rôle serveur qui existe dans la topologie est publié en tant qu’objet Active Directory (le fait de joindre l’ordinateur au domaine effectue cette opération).
 
   - Un enregistrement DNS A existe pour chaque serveur.
 
-  - Un enregistrement SRV DNS existe pour chaque domaine SIP si vous envisagez d’utiliser l’ouverture de session automatique pour \_les\_clients sous la forme de TCP sipinternaltls. \<Domaine\>SIP. Si vous allez utiliser la configuration manuelle pour les clients, cet enregistrement n’est pas nécessaire.
+  - Un enregistrement DNS SRV existe pour chaque domaine SIP si vous envisagez d’utiliser l’ouverture de session automatique pour \_les\_clients sous la forme d’un TCP sipinternaltls. \<Domaine\>SIP. Si vous utilisez la configuration manuelle pour les clients, cet enregistrement n’est pas nécessaire.
 
-  - Un enregistrement DNS A pour chaque URL simple configurée qui comporte généralement quatre éléments : réunion, Dial, LWA et Scheduler. De plus, il existe une URL simple d’administration, qui est une URL spéciale pour l’accès au panneau de configuration de Lync Server 2013.
+  - Un enregistrement DNS A pour chaque URL simple configurée, dont il y a généralement quatre : réunion, numérotation, LWA et planificateur. De plus, il existe une URL simple d’administration qui est une URL spéciale pour accéder au panneau de configuration Lync Server 2013.
 
-  - Le serveur exécutant SQL Server doit être joint au domaine et joignable par l’ordinateur à partir duquel le générateur de topologie publie.
+  - Le serveur exécutant SQL Server doit être joint au domaine et accessible par l’ordinateur à partir duquel le générateur de topologies est publié.
 
-Le tableau suit les architectures de référence présentées dans la section Planning. Pour plus d’informations, reportez-vous à la rubrique [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) dans la documentation de planification.
+Le tableau suivant indique les architectures de référence présentées dans la section Planification. Pour plus d’informations, reportez-vous à [scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) dans la documentation de planification.
 
 <div id="sectionSection0" class="section">
 
@@ -88,10 +88,10 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Emplacement</th>
+<th>L’emplacement</th>
 <th>Type</th>
 <th>FQDN</th>
-<th>Cartes sur/Commentaires</th>
+<th>Mappage à/Commentaires</th>
 </tr>
 </thead>
 <tbody>
@@ -99,13 +99,13 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>pool01.contoso.net</p></td>
-<td><p>Pool01 (équilibrage de charge DNS). Il est nécessaire de disposer d’un enregistrement DNS A pour l’adresse IP de chaque serveur frontal au sein du pool et de mapper le nom de domaine complet du pool.</p></td>
+<td><p>Pool01 (équilibrage de charge DNS). Nécessite un enregistrement DNS A pour l’adresse IP de chaque serveur frontal dans le pool, mappé au nom de domaine complet du pool.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>pool01.contoso.net</p></td>
-<td><p>Pool01 (adresse IP virtuelle de l’équilibrage de charge matérielle).</p></td>
+<td><p>Pool01 (adresse IP virtuelle (VIP) de l’équilibreur de la charge matérielle).</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne</p></td>
@@ -129,7 +129,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>lsweb.contoso.net</p></td>
-<td><p>Pool01 (VIP) pour le trafic Web de client à serveur.</p></td>
+<td><p>Pool01 (VIP) pour le trafic web client à serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne</p></td>
@@ -141,32 +141,32 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Requis pour Lync Phone Edition ou l’ouverture de session automatique de clients sans enregistrements DNS SRV, et pour une concordance de domaine stricte. Ce n’est pas obligatoire dans tous les cas.</p></td>
+<td><p>Requis pour Lync Phone Edition, ou ouverture de session automatique des clients sans enregistrements DNS SRV, et pour une correspondance de domaine stricte. Non requis dans tous les cas.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>sip.fabrikam.com</p></td>
-<td><p>Suppose un deuxième domaine SIP. Requis pour Lync Phone Edition, l’ouverture de session automatique de clients sans enregistrements DNS SRV et pour une concordance de domaine stricte. Ce n’est pas obligatoire dans tous les cas.</p></td>
+<td><p>Suppose qu’il existe un second domaine SIP. Obligatoire pour Lync Phone Edition, l’ouverture de session automatique des clients sans enregistrements DNS SRV et pour une correspondance de domaine stricte. Non requis dans tous les cas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>URL simple pour les conférences rendez-vous publiées en interne-serveur frontal (ou directeur, le cas échéant) répond aux requêtes d’URL simples.</p></td>
+<td><p>URL simple pour les conférences rendez-vous publiées en interne : le serveur frontal (ou directeur, s’il est installé) répond aux requêtes d’URL simples.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>URL simple pour les conférences publiées en interne-serveur frontal (ou réalisateur, le cas échéant) répond aux requêtes d’URL simples.</p></td>
+<td><p>URL simple pour les conférences publiées en interne – le serveur frontal (ou directeur, s’il est installé) répond aux requêtes d’URL simples.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne</p></td>
 <td><p>A</p></td>
 <td><p>admin.contoso.com</p>
-<p>administrateur</p></td>
-<td><p>Enregistrement facultatif, URL simple pour le panneau de configuration de Lync Server 2013 publié en interne (ou Director, s’il est installé) répond aux requêtes d’URL simples. Nom d’hôte uniquement (il n’y a pas de nom de domaine) recommandé.</p></td>
+<p>administration</p></td>
+<td><p>Enregistrement facultatif, URL simple pour le panneau de configuration Lync Server 2013 publié en interne (ou directeur, s’il est installé) répond aux requêtes d’URL simples. Seul le nom de l’hôte (pas de nom de domaine) est recommandé.</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,7 +176,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 
 
 > [!NOTE]  
-> VIP = adresse IP virtuelle pour le système d’équilibrage de la charge matérielle
+> VIP = adresse IP virtuelle de l’équilibreur de la charge matérielle
 
 
 
@@ -186,7 +186,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 
 <div>
 
-## <a name="dns-srv-records-for-the-front-end-pool"></a>Enregistrements SRV DNS pour le pool frontal
+## <a name="dns-srv-records-for-the-front-end-pool"></a>Enregistrements DNS SRV pour le pool frontal
 
 
 <table style="width:100%;">
@@ -200,12 +200,12 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Emplacement</th>
+<th>L’emplacement</th>
 <th>Type</th>
 <th>FQDN</th>
-<th>Nom de domaine complet cible</th>
+<th>FQDN cible</th>
 <th>Port</th>
-<th>Cartes sur/Commentaires</th>
+<th>Mappage à/Commentaires</th>
 </tr>
 </thead>
 <tbody>
@@ -215,7 +215,7 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <td><p>_sipinternaltls. _tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
-<td><p>Requis pour la configuration automatique des clients 2013 Lync pour fonctionner en interne.</p></td>
+<td><p>Nécessaire pour que la configuration automatique des clients Lync 2013 fonctionne en interne.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne</p></td>
@@ -223,15 +223,15 @@ Le tableau suit les architectures de référence présentées dans la section Pl
 <td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
-<td><p>Requis pour la configuration automatique des clients 2013 Lync pour fonctionner en interne.</p></td>
+<td><p>Nécessaire pour que la configuration automatique des clients Lync 2013 fonctionne en interne.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interne</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp._udp.contoso.com</p></td>
+<td><p>_ntp. _udp. contoso. com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
-<td><p>Source d’horloge réseau (NTP) requise pour les appareils exécutant Lync Phone Edition. En interne, cela doit pointer sur le contrôleur de domaine. Si le contrôleur de domaine n’est pas défini, il essaiera d’utiliser le serveur NTP time.windows.com.</p></td>
+<td><p>Source NTP (Network Time Protocol) requise pour les appareils exécutant Lync Phone Edition. En interne, cet enregistrement doit pointer vers le contrôleur de domaine. Si le contrôleur de domaine n’est pas défini, l’enregistrement essaiera d’utiliser le serveur NTP time.windows.com</p></td>
 </tr>
 </tbody>
 </table>

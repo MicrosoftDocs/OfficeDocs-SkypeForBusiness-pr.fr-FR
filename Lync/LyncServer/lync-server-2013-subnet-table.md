@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Subnet'
+title: 'Lync Server 2013 : table de sous-réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d107889b49ec16c51224b075a8fb7f7a7cec1b00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff03309ab4c71f2dfda9aac96223cde2cd6e000a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731734"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a>Table Subnet dans Lync Server 2013
+# <a name="subnet-table-in-lync-server-2013"></a>Table de sous-réseau dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731734"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-La table de sous-réseau est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans les paramètres de configuration du réseau.
+La table Subnet est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans un paramètre de configuration réseau.
 
 
 <table>
@@ -51,19 +51,19 @@ La table de sous-réseau est une table de prise en charge. Chaque enregistrement
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
-<td><p>Etranger principal</p></td>
-<td><p>Représentation entière de l’adresse IP du sous-réseau.</p></td>
+<td><p>Primaire, étrangère</p></td>
+<td><p>Représentation sous forme d’entier de l’adresse IP de sous-réseau.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Masque_sous_réseau</strong></p></td>
+<td><p><strong>Masque</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>Masque de sous-réseau.</p></td>
@@ -71,8 +71,8 @@ La table de sous-réseau est une table de prise en charge. Chaque enregistrement
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Fait référence à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</p></td>
+<td><p>Etranger</p></td>
+<td><p>Référencé à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SubnetDescription</strong></p></td>

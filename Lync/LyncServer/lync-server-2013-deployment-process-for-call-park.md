@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : processus de déploiement pour le parc d’appels'
+title: 'Lync Server 2013 : processus de déploiement du parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a00c354aa29a3c9a431b18a686105ab16d94c54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e896aa89fe6fadecab3d17689d92671ffe6966
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762642"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processus de déploiement du parc d’appels dans Lync Server 2013
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Processus de déploiement du parcage d’appel dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41762642"
 
 _**Dernière modification de la rubrique :** 2013-02-25_
 
-Cette section fournit une vue d’ensemble des étapes de déploiement de l’application de parc d’appels. Vous devez déployer Enterprise Edition ou Standard Edition avec voix entreprise avant de configurer le parc d’appels. Les composants requis par le parc d’appels sont installés et activés lorsque vous déployez Enterprise Voice.
+Cette section fournit une vue d’ensemble des étapes nécessaires au déploiement de l’application de parcage d’appel. Vous devez déployer Enterprise Edition ou Standard Edition avec voix entreprise avant de configurer le parcage d’appel. Les composants requis par le parcage d’appel sont installés et activés lorsque vous déployez voix entreprise.
 
-### <a name="call-park-deployment-process"></a>Procédure de déploiement du parcage d’appel
+### <a name="call-park-deployment-process"></a>Processus de déploiement du parcage d’appel
 
 <table>
 <colgroup>
@@ -59,11 +59,11 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 <tbody>
 <tr class="odd">
 <td><p>Configurer les plages d’orbites de parcage d’appel dans la table des orbites</p></td>
-<td><p>Utilisez le panneau de configuration de Lync Server ou l’applet <strong>de commande New-CSCallParkOrbit</strong> pour créer les plages d’orbites dans la table de stationnement d’appel et associez-les au service d’application qui héberge l’application de stationnement d’appels.</p>
+<td><p>Utilisez le panneau de configuration Lync Server ou la cmdlet <strong>New-CSCallParkOrbit</strong> pour créer les plages d’orbites dans la table des orbites de parcage d’appel et les associer au service d’application qui héberge l’application de parcage d’appel.</p>
 <div>
 
 > [!NOTE]  
-> Pour une intégration transparente aux plans de numérotation existants, les plages d’orbites sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing [DID]) comme numéros d’orbites dans la table des orbites de parcage d’appel.
+> Pour une intégration transparente aux plans de numérotation existants, les plages d’orbites sont en général configurées en tant que bloc d’extensions virtuelles. Il n’est pas possible d’affecter des numéros SDA (sélection directe à l’arrivée, Direct Inward Dialing (DID)) comme numéros d’orbites dans la table des orbites de parcage d’appel.
 
 
 </div></td>
@@ -71,11 +71,11 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Créer ou modifier une gamme de parc d’appels dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configuration des paramètres de parcage d’appel</p></td>
-<td><p>Utilisez l’applet de cmdlet <strong>Set-CsCpsConfiguration</strong> pour configurer les paramètres du parc d’appels. Nous vous conseillons d’effectuer au moins une configuration de l’option <strong>OnTimeoutURI</strong> pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants :</p>
+<td><p>Configurer les paramètres de parcage d’appel</p></td>
+<td><p>Utilisez la cmdlet <strong>Set-CsCpsConfiguration</strong> pour configurer les paramètres de parcage d’appel. Au minimum, nous vous recommandons de configurer l’option <strong>OnTimeoutURI</strong> pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants :</p>
 <ul>
 <li><p>(Facultatif) <strong>EnableMusicOnHold</strong> pour activer ou désactiver l’attente musicale.</p></li>
 <li><p>(Facultatif) <strong>MaxCallPickupAttempts</strong> pour déterminer le nombre de fois qu’un appel parqué doit sonner de nouveau sur le téléphone de destination avant d’être transféré à l’URI (Uniform Resource Identifier) de remplacement.</p></li>
@@ -85,7 +85,7 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-park-settings.md">Configurer les paramètres de parc d’appels dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-park-settings.md">Configurer les paramètres de parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Si vous le souhaitez, personnalisez l’attente musicale</p></td>
@@ -94,22 +94,22 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">Personnaliser le parc d’appels en attente dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">Personnalisation de l’attente musicale du parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurer la stratégie vocale pour activer le parc d’appels pour les utilisateurs</p></td>
-<td><p>Utilisez le panneau de configuration de Lync Server ou l’applet de commande <strong>Set-CSVoicePolicy</strong> avec l’option <strong>EnableCallPark</strong> pour activer le parc d’appels pour les utilisateurs dans la stratégie vocale.</p>
+<td><p>Configurer la stratégie de voix pour activer le parcage d’appel pour les utilisateurs</p></td>
+<td><p>Utilisez le panneau de configuration Lync Server ou la cmdlet <strong>Set-CSVoicePolicy</strong> avec l’option <strong>EnableCallPark</strong> pour activer le parcage d’appel pour les utilisateurs dans la stratégie de voix.</p>
 <div>
 
 > [!NOTE]  
-> Par défaut, le parc d’appels est désactivé pour tous les utilisateurs.
+> Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> Si vous disposez de plusieurs stratégies de voix, définissez la propriété EnableCallPark pour toutes les stratégies de voix et pas seulement pour la stratégie par défaut.
+> Si vous disposez de plusieurs stratégies de voix, définissez la propriété EnableCallPark pour chaque stratégie de voix, et pas seulement pour la stratégie par défaut.
 
 
 </div></td>
@@ -117,22 +117,22 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-enable-call-park-for-users.md">Activer le parc d’appels pour les utilisateurs dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-call-park-for-users.md">Activer le parcage d’appel pour les utilisateurs dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Vérification des règles de normalisation pour le parcage d’appel</p></td>
+<td><p>Vérifier les règles de normalisation pour le parcage d’appel</p></td>
 <td><p>Les orbites de parcage d’appel ne doivent pas être normalisées. Vérifiez que les règles de normalisation ne comportent aucune plage d’orbites. Si nécessaire, créez des règles de normalisation supplémentaires pour empêcher la normalisation des orbites.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Vérifier les règles de normalisation du parc d’appels dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Vérifier les règles de normalisation pour le parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Vérifier le déploiement de votre parc d’appels</p></td>
-<td><p>Testez la réalisation et la récupération des appels pour vérifier que la configuration fonctionne comme prévu.</p></td>
+<td><p>Vérifier le déploiement de votre parcage d’appel</p></td>
+<td><p>Testez le parking et récupérez des appels pour vous assurer que votre configuration fonctionne comme prévu.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">Facultatif Vérifier le déploiement du parc d’appels dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">Module Vérifier le déploiement du parcage d’appel dans Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

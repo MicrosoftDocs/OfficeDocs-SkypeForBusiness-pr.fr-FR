@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration requise pour les services Internet (IIS)'
+title: 'Lync Server 2013 : configuration requise pour les services Internet (IIS)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a086713c4c4c1ea5752c7e1b46ce46e48a0ea42
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725804"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41725804"
 
 _**Dernière modification de la rubrique :** 2012-06-19_
 
-Plusieurs composants de Lync Server 2013 requièrent Internet Information Services (IIS). Cette rubrique décrit les fonctionnalités IIS spécifiques nécessaires à la prise en charge de Lync Server. Les rubriques de cette section décrivent la configuration requise pour les composants spécifiques pour IIS.
+Plusieurs composants Lync Server 2013 nécessitent Internet Information Services (IIS). Cette rubrique décrit les fonctionnalités IIS spécifiques requises pour prendre en charge Lync Server. Les rubriques de cette section présentent les exigences relatives à certains composants pour IIS.
 
-Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différents services de rôle sont installés par défaut. Le tableau suivant décrit les services de rôle supplémentaires qui doivent être installés lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008.
+Lorsque le rôle serveur web (IIS) est activé sur Windows Server 2008, divers services de rôle sont installés par défaut. Le tableau suivant décrit les services de rôle supplémentaires devant être installés lorsque le rôle serveur web (IIS) est activé sur Windows Server 2008.
 
 
 <table>
@@ -56,7 +56,7 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 <tbody>
 <tr class="odd">
 <td><p>Fonctionnalités HTTP communes</p></td>
-<td><p>Redirection HTTP</p></td>
+<td><p>Redirection HTTP</p></td>
 </tr>
 <tr class="even">
 <td><p>Développement d’applications</p></td>
@@ -64,7 +64,7 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 </tr>
 <tr class="odd">
 <td><p>Développement d’applications</p></td>
-<td><p>Extensibilité .NET</p></td>
+<td><p>Extensibilité .NET</p></td>
 </tr>
 <tr class="even">
 <td><p>Développement d’applications</p></td>
@@ -75,12 +75,12 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 <td><p>Filtres ISAPI</p></td>
 </tr>
 <tr class="even">
-<td><p>Intégrité et diagnostics</p></td>
+<td><p>État de santé et diagnostics</p></td>
 <td><p>Outils de journalisation</p></td>
 </tr>
 <tr class="odd">
-<td><p>Intégrité et diagnostics</p></td>
-<td><p>Suivi</p></td>
+<td><p>État de santé et diagnostics</p></td>
+<td><p>Analyzer</p></td>
 </tr>
 <tr class="even">
 <td><p>Sécurité</p></td>
@@ -92,11 +92,11 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 </tr>
 <tr class="even">
 <td><p>Outils de gestion</p></td>
-<td><p>Scripts et outils de gestion des services Internet (IIS)</p></td>
+<td><p>Scripts et outils de gestion IIS</p></td>
 </tr>
 <tr class="odd">
 <td><p>Outils de gestion</p></td>
-<td><p>Compatibilité de gestion IIS 6</p></td>
+<td><p>Compatibilité avec la gestion IIS 6</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="caution" alt="security" />Note de sécurité :</th>
 </tr>
 </thead>
 <tbody>

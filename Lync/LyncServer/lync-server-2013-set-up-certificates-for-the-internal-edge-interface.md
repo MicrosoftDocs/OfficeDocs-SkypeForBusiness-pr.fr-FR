@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des certificats pour l’interface interne Edge'
+title: 'Lync Server 2013 : configuration des certificats pour l’interface Edge interne'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ff176545b84be3b4477894650c1d379df0a6be1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732264"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configuration des certificats pour l’interface interne Edge dans Lync Server 2013
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurer des certificats pour l’interface Edge interne dans Lync Server 2013
 
 </div>
 
@@ -41,37 +41,37 @@ _**Dernière modification de la rubrique :** 2013-11-07_
 
 
 > [!IMPORTANT]  
-> Lorsque vous exécutez l’Assistant certificat, assurez-vous que vous êtes connecté à l’aide d’un compte associé à un compte qui dispose des autorisations appropriées pour le type de modèle de certificat que vous utilisez. Par défaut, une demande de certificat 2013 Lync Server utilise le modèle de certificat de serveur Web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat à l’aide de ce modèle, vérifiez que le groupe a été affecté aux autorisations d’inscription requises pour utiliser ce modèle.
+> Lorsque vous exécutez l’Assistant Certificat, veillez à être connecté avec un compte membre d’un groupe auquel les autorisations appropriées ont été octroyées pour le type de modèle de certificat que vous allez utiliser. Par défaut, une demande de certificat Lync Server 2013 utilisera le modèle de certificat de serveur Web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat qui utilise ce modèle, vérifiez que le groupe possède les autorisations d’inscription requises pour utiliser ce modèle.
 
 
 
 </div>
 
-Un certificat unique est requis sur l’interface interne de chaque serveur Edge. Des certificats pour l’interface interne peuvent être émis par une autorité de certification d’entreprise interne ou une autorité de certification publique. Si votre organisation a déployé une autorité de certification interne, vous pouvez faire des économies sur les frais d’utilisation des certificats publics à l’aide de l’autorité de certification interne pour émettre le certificat de l’interface interne. Vous pouvez utiliser une autorité de certification Windows Server 2008 interne ou une autorité de certification Windows Server 2008 R2 pour créer ces certificats.
+Un certificat unique est requis sur l’interface interne de chaque serveur Edge. Les certificats pour l’interface interne peuvent être émis par une autorité de certification d’entreprise interne ou une autorité de certification publique. Si votre organisation a déployé une autorité de certification interne, vous pouvez épargner sur les frais d’utilisation des certificats publics à l’aide de l’autorité de certification interne pour émettre le certificat pour l’interface interne. Vous pouvez utiliser une autorité de certification Windows Server 2008 ou Windows Server 2008 R2 interne pour créer ces certificats.
 
-Pour plus d’informations sur ce problème et sur les autres exigences relatives aux certificats, voir [exigences relatives aux certificats pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
+Pour plus d’informations à ce sujet et sur d’autres exigences de certificat, voir [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour configurer des certificats sur l’interface latérale interne d’un site, suivez les procédures décrites dans cette section pour effectuer les opérations suivantes :
+Pour configurer des certificats sur l’interface Edge interne au niveau d’un site, utilisez les procédures de cette section pour effectuer les opérations suivantes :
 
-1.  Téléchargez la chaîne de certification de l’autorité de certification pour l’interface interne vers chaque serveur Edge.
+1.  Téléchargez la chaîne de certification de l’autorité de certification pour l’interface interne sur chaque serveur Edge.
 
 2.  Importez la chaîne de certification de l’autorité de certification pour l’interface interne sur chaque serveur Edge.
 
-3.  Créez une demande de certificat pour l’interface interne, sur un serveur Edge, appelé le premier serveur Edge.
+3.  Créez la demande de certificat pour l’interface interne, sur un serveur Edge, appelé le premier serveur Edge.
 
-4.  Importez le certificat de l’interface interne sur le premier serveur de périphérie.
+4.  Importez le certificat pour l’interface interne sur le premier serveur Edge.
 
-5.  Importez le certificat sur les autres serveurs Edge sur ce site (ou déployé sur ce dernier).
+5.  Importez le certificat sur les autres serveurs Edge de ce site (ou déployé derrière cet équilibrage de charge).
 
-6.  Attribuez le certificat pour l’interface interne de chaque serveur Edge.
+6.  Assignez le certificat pour l’interface interne de chaque serveur Edge.
 
-Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement dit, une topologie de périmètre de plusieurs sites), ou des ensembles séparés de serveurs de frontière déployés dans des équilibreurs de charge différents, vous devez suivre ces étapes pour chaque site incluant des serveurs de périphérie et pour chaque ensemble de serveurs de périphérie. déploiement à l’arrière-plan d’un autre équilibreur de charge.
+Si vous avez plusieurs sites avec des serveurs Edge (c’est-à-dire, une topologie Edge sur plusieurs sites) ou des ensembles de serveurs Edge déployés derrière différents programmes d’équilibrage de la charge, vous devez suivre ces étapes pour chaque site doté de serveurs Edge et pour chaque ensemble de serveurs Edge. déployé derrière un programme d’équilibrage de charge différent.
 
 <div>
 
 
 > [!NOTE]  
-> Les étapes décrites dans cette section sont basées sur l’utilisation d’une autorité&nbsp;de certification windows Server 2008&nbsp;,&nbsp;d’une autorité de certification Windows Server 2008 R2, d’une autorité de certification Windows Server 2012 ou d’une autorité de certification Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions détaillées pour une autre autorité de certification, consultez la documentation de cette autorité de certification. Par défaut, tous les utilisateurs authentifiés disposent des droits d’utilisateur appropriés pour demander des certificats.<BR>Les procédures décrites dans cette section sont basées sur la création de demandes de certificat sur le serveur Edge dans le cadre du processus de déploiement de serveur Edge. Il est possible de créer des demandes de certificat à l’aide du serveur frontal. Vous pouvez le faire pour compléter la demande de certificat au début du processus de planification et de déploiement avant de commencer le déploiement des serveurs Edge. Pour cela, vous devez vous assurer que le certificat que vous demandez est défini à l’aide d’une clé privée exportable.<BR>Les procédures dans cette section décrivent l’utilisation d’un fichier. cer et d’un fichier. p7b pour le certificat. Si vous utilisez un autre type de fichier, modifiez ces procédures selon vos besoins.
+> Les étapes des procédures décrites dans cette section sont basées sur l’utilisation d'&nbsp;une autorité de certification windows&nbsp;Server&nbsp;2008, Windows Server 2008 R2 ca, Windows server 2012 ca ou Windows Server 2012 R2 pour créer un certificat pour chaque serveur Edge. Pour obtenir des instructions détaillées pour toute autre autorité de certification, consultez la documentation de cette autorité de certification. Par défaut, tous les utilisateurs authentifiés disposent des droits d’utilisateur appropriés pour demander des certificats.<BR>Les procédures de cette section sont basées sur la création de demandes de certificats sur le serveur Edge dans le cadre du processus de déploiement du serveur Edge. Il est possible de créer des demandes de certificat à l’aide du serveur frontal. Vous pouvez effectuer cette opération pour terminer la demande de certificat au début du processus de planification et de déploiement, avant de commencer le déploiement des serveurs Edge. Pour ce faire, vous devez vous assurer que le certificat que vous demandez est défini avec une clé privée exportable.<BR>Les procédures décrites dans cette section décrivent l’utilisation d’un fichier. cer et d’un fichier. p7b pour le certificat. Si vous utilisez un autre type de fichier, modifiez ces procédures selon vos besoins.
 
 
 
@@ -81,9 +81,9 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 ## <a name="to-download-the-ca-certification-chain-for-the-internal-interface-using-certsrv-web-site"></a>Pour télécharger la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide du site Web certsrv
 
-1.  Connectez-vous à un serveur Lync Server 2013 dans le réseau interne (c’est-à-dire hors du serveur Edge) en tant que membre du groupe **administrateurs** .
+1.  Connectez-vous à un serveur Lync Server 2013 sur le réseau interne (c’est-à-dire, pas au serveur Edge) en tant que membre du groupe **administrateurs** .
 
-2.  Exécutez la commande suivante à l’invite de commandes en cliquant sur **Démarrer**, puis en cliquant sur **exécuter**et en tapant ce qui suit :
+2.  À l’invite de commandes, exécutez la commande suivante en cliquant sur **Démarrer**, sur **exécuter**, puis en tapant ce qui suit :
     
         https://<name of your Issuing CA Server>/certsrv
     
@@ -95,16 +95,16 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
     
 
     > [!NOTE]  
-    > Si vous utilisez une autorité de certification Windows Server 2008 ou Windows Server 2008 R2 entreprise, vous devez utiliser HTTPS, et non http.
+    > Si vous utilisez une autorité de certification Windows Server 2008 ou Windows Server 2008 R2 Enterprise, vous devez utiliser le protocole HTTPS, et non http.
 
     
     </div>
 
-3.  Dans la page web certsrv de l’autorité de certification émettrice, sous **Sélectionnez une tâche**, cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou la liste de révocation de certificats**.
+3.  Sur la page Web certsrv de l’autorité de certification émettrice, sous **Sélectionner une tâche**, cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une liste de révocation de**certificats.
 
-4.  Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une LRC**, cliquez sur **Télécharger la chaîne de certificats d’autorité**de certification.
+4.  Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une liste de révocation de**certificats, cliquez sur **Télécharger la chaîne de certificat ca**.
 
-5.  Dans la boîte de dialogue **téléchargement de fichier** , cliquez sur **Enregistrer**.
+5.  Dans la boîte de dialogue **Téléchargement de fichiers**, cliquez sur **Enregistrer**.
 
 6.  Enregistrez le fichier. p7b sur le disque dur du serveur, puis copiez-le dans un dossier sur chaque serveur Edge.
     
@@ -112,7 +112,7 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
     
 
     > [!NOTE]  
-    > Le fichier. p7b contient tous les certificats figurant dans le chemin de certification. Pour afficher le chemin d’accès de certification, ouvrez le certificat de serveur, puis cliquez sur le chemin d’accès de certification.
+    > Le fichier. p7b contient tous les certificats qui se trouvent dans le chemin d’accès de certification. Pour afficher le chemin d’accès de certification, ouvrez le certificat de serveur et cliquez sur le chemin d’accès de certification.
 
     
     </div>
@@ -123,21 +123,21 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 ## <a name="to-export-the-ca-certification-chain-for-the-internal-interface-using-mmc"></a>Pour exporter la chaîne de certification de l’autorité de certification pour l’interface interne à l’aide de MMC
 
-1.  Vous pouvez exporter le certificat racine de l’autorité de certification à partir de n’importe quel ordinateur sur lequel est connecté le domaine à l’aide de Microsoft Management Console (MMC). Cliquez sur **Démarrer**, sur **exécuter**, puis tapez **MMC**.
+1.  Vous pouvez exporter le certificat racine de l’autorité de certification à partir d’un ordinateur appartenant à un domaine à l’aide de la console MMC (Microsoft Management Console). Cliquez sur **Démarrer**, sur **exécuter**, puis tapez **MMC**.
 
 2.  Dans la console MMC, cliquez sur **fichier**, puis sur **Ajouter/supprimer**.
 
-3.  Dans la liste de la boîte de dialogue **Ajouter ou supprimer des composants additionnels** , sélectionnez **certificats**, puis cliquez sur **Ajouter**. Lorsque vous y êtes invité, sélectionnez **compte d’ordinateur**. Dans la boîte de dialogue **Sélectionner un ordinateur**, sélectionnez **Ordinateur local**. Cliquez sur **Terminer**. Cliquez sur **OK**.
+3.  Dans la liste de la boîte de dialogue **Ajouter ou supprimer des composants logiciels enfichables** , sélectionnez **certificats**, puis cliquez sur **Ajouter**. Lorsque vous y êtes invité, sélectionnez **compte d’ordinateur**. Dans la boîte de dialogue **Sélectionner un ordinateur** , sélectionnez **ordinateur local**. Cliquez sur **Terminer**. Cliquez sur **OK**.
 
-4.  Développez **certificats (ordinateur local)**. Développez **autorités de certification racine de confiance**, puis sélectionnez **certificats**.
+4.  Développez **certificats (ordinateur local)**. Développez **autorités de certification racines de confiance**, puis sélectionnez **certificats**.
 
 5.  Cliquez sur le certificat racine émis par votre autorité de certification. Cliquez avec le bouton droit sur le certificat, sélectionnez **toutes les tâches**, sélectionnez **Exporter**. L' **Assistant exportation de certificat** s’ouvre.
 
-6.  Dans l’**Assistant Exportation du certificat**, cliquez sur **Suivant**.
+6.  Dans l’**Assistant Exportation de certificat**, cliquez sur **Suivant**.
 
-7.  Dans la boîte de dialogue **Exporter le format de fichier** , sélectionnez le format d’exportation. Nous vous recommandons d’utiliser la **syntaxe de message \#cryptographique standard-certificats PKCS 7 (. P7B)**. Si vous sélectionnez la **syntaxe de message cryptographique standard- \#certificats PKCS 7 (. P7B)**, activez la case à cocher **inclure tous les certificats dans le chemin de certification si possible** pour exporter la chaîne de certificats, y compris le certificat de l’autorité de certification racine et les certificats d’autorité de certification intermédiaires. Cliquez sur **Suivant**.
+7.  Dans la boîte de dialogue **Exporter le format de fichier** , sélectionnez un format d’exportation. Nous vous recommandons d’utiliser la **syntaxe de message \#de chiffrement standard – certificats PKCS 7 (. P7B)**. Si vous sélectionnez la **syntaxe de message chiffré standard – \#certificats PKCS 7 (. P7B)**, activez la case à cocher **inclure tous les certificats dans le chemin d’accès de certification si possible** pour exporter la chaîne de certificats, y compris le certificat de l’autorité de certification racine et les certificats de l’autorité de certification intermédiaire. Cliquez sur **Suivant**.
 
-8.  Dans la boîte de dialogue **fichier à exporter** du nom de fichier, tapez le chemin d’accès et le nom du fichier (l’extension par défaut est. p7b) du certificat exporté. Vous pouvez également cliquer sur **Parcourir**, recherchez le répertoire dans lequel placer le certificat exporté et attribuez un nom au certificat exporté. Cliquez sur **Enregistrer**. Cliquez sur **Suivant**.
+8.  Dans la boîte de dialogue **fichier à exporter** de l’entrée nom de fichier, tapez un chemin d’accès et un nom de fichier (extension. p7b) pour le certificat exporté. Éventuellement, cliquez sur **Parcourir**, recherchez un répertoire dans lequel placer le certificat exporté et attribuez un nom au certificat exporté. Cliquez sur **Enregistrer**. Cliquez sur **Suivant**.
 
 9.  Examinez le résumé des actions, puis cliquez sur **Terminer** pour terminer l’exportation du certificat. Cliquez sur **OK** pour confirmer l’exportation.
 
@@ -147,21 +147,21 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 ## <a name="to-import-the-ca-certification-chain-for-the-internal-interface"></a>Pour importer la chaîne de certification de l’autorité de certification pour l’interface interne
 
-1.  Sur chaque serveur Edge, ouvrez Microsoft Management Console (MMC) en cliquant sur **Démarrer**, sur **exécuter**, en tapant **MMC** dans la zone **ouvrir** , puis en cliquant sur **OK**.
+1.  Sur chaque serveur Edge, ouvrez la console MMC (Microsoft Management Console) en cliquant sur **Démarrer**, puis sur **exécuter**, en tapant **MMC** dans la zone **ouvrir** , puis en cliquant sur **OK**.
 
-2.  Dans le menu **fichier** , cliquez sur **Ajouter/supprimer un composant logiciel enfichable**, puis cliquez sur **Ajouter**.
+2.  Dans le menu **Fichier**, cliquez sur **Ajouter/Supprimer un composant logiciel enfichable**, puis sur **Ajouter**.
 
-3.  Dans la boîte de dialogue **Ajouter des composants logiciels enfichables autonomes** , cliquez sur **certificats**, puis cliquez sur **Ajouter**.
+3.  Dans la zone **Ajout d’un composant logiciel enfichable autonome**, cliquez sur **Certificats**, puis sur **Ajouter**.
 
 4.  Dans la boîte de dialogue **Composant logiciel enfichable Certificats**, cliquez sur **Compte d’ordinateur**, puis sur **Suivant**.
 
-5.  Dans la boîte de dialogue **Sélectionner un ordinateur** , assurez-vous que l' **ordinateur local (sur lequel cette console s’exécute)** est sélectionné, puis cliquez sur **Terminer**.
+5.  Dans la boîte de dialogue **Sélectionner un ordinateur**, assurez-vous que la case à cocher **Ordinateur local : (l’ordinateur sur lequel cette console s’exécute)** est activée, puis cliquez sur **Terminer**.
 
-6.  Cliquez sur **Fermer**, puis cliquez sur **OK**.
+6.  Cliquez sur **Fermer**, puis sur **OK**.
 
-7.  Dans l’arborescence de la console, développez **certificats (ordinateur local)**, cliquez avec le bouton droit sur **autorités de certification racine de confiance**, pointez sur **toutes les tâches**, puis cliquez sur **Importer**.
+7.  Dans l’arborescence de la console, développez **certificats (ordinateur local)**, cliquez avec le bouton droit sur **autorités de certification racines de confiance**, pointez sur **toutes les tâches**, puis cliquez sur **Importer**.
 
-8.  Dans l’Assistant, dans **fichier à importer**, spécifiez le nom de fichier du certificat (autrement dit, le nom de l’interface que vous avez spécifiée lors du téléchargement de la chaîne de certification de l’autorité de certification pour l’interface interne au cours de la procédure précédente).
+8.  Dans l’Assistant, dans **fichier à importer**, spécifiez le nom de fichier du certificat (autrement dit, le nom de celui que vous avez spécifié lorsque vous avez téléchargé la chaîne de certification de l’autorité de certification pour l’interface interne dans la procédure précédente).
 
 9.  Répétez cette procédure sur chaque serveur Edge.
 
@@ -169,87 +169,87 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 <div>
 
-## <a name="to-create-the-certificate-request-for-the-internal-interface"></a>Pour créer une demande de certificat pour l’interface interne
+## <a name="to-create-the-certificate-request-for-the-internal-interface"></a>Pour créer la demande de certificat pour l’interface interne
 
-1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement, puis, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
+1.  Sur l’un des serveurs Edge, démarrez l’Assistant Déploiement et en regard de l' **étape 3 : demander, installer ou assigner les certificats**, cliquez sur **exécuter**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si vous avez plusieurs serveurs Edge à un emplacement dans un pool, vous pouvez exécuter l’Assistant certificat sur n’importe quel serveur Edge.<BR>Après avoir exécuté l’étape 3 pour la première fois, le bouton est modifié pour <STRONG>s’exécuter de nouveau</STRONG>et une coche verte indiquant la réussite de la tâche n’est pas affichée tant que tous les certificats requis n’ont pas été demandés, installés et attribués.
+    > Si vous disposez de plusieurs serveurs Edge dans un même emplacement d’un pool, vous pouvez exécuter l’Assistant certificat sur l’un des serveurs Edge.<BR>Après avoir exécuté l’étape 3 pour la première fois, le bouton passe à <STRONG>réexécuter</STRONG>, et une coche verte indiquant que l’exécution de la tâche a réussi s’affiche jusqu’à ce que tous les certificats requis aient été demandés, installés et affectés.
 
     
     </div>
 
 2.  Dans la page **Tâches se rapportant aux certificats disponibles**, cliquez sur **Créer une demande de certificat**.
 
-3.  Dans la page **demande de certificat** , cliquez sur **suivant**.
+3.  Dans la page **Demande de certificat**, cliquez sur **Suivant**.
 
-4.  Dans la page **Demandes différées ou immédiates**, cliquez sur **Préparer la demande, mais ne pas l’envoyer maintenant**.
+4.  Sur la page **demandes différées ou immédiates** , cliquez sur **préparer la demande maintenant, mais l’envoyer plus tard**.
 
-5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier vers lequel vous voulez enregistrer la requête (par exemple, **c :\\CERT\_Internal\_Edge. cer**).
+5.  Dans la page **fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, **c :\\CERT\_Internal\_Edge. cer**).
 
-6.  Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .
+6.  Sur la page **spécifier un autre modèle de certificat** , pour utiliser un autre modèle que le modèle serveur Web par défaut, activez la case à cocher utiliser un autre modèle **de certificat pour l’autorité de certification sélectionnée** .
 
-7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit :
+7.  Dans la page **Nom et paramètres de sécurité**, procédez comme suit :
     
-      - Dans **nom convivial**, tapez un nom d’affichage pour le certificat (par exemple, bord interne).
+      - Dans **nom convivial**, tapez un nom d’affichage pour le certificat (par exemple, Edge interne).
     
-      - En **longueur**, spécifiez la longueur en bits (en général, la valeur par défaut **2048**).
+      - Dans **longueur en bits**, spécifiez la longueur en bits (généralement, la valeur par défaut de **2048**).
         
         <div>
         
 
         > [!NOTE]  
-        > Des longueurs de bits plus élevées offrent une plus grande sécurité, mais ils ont un impact négatif sur la vitesse.
+        > Les longueurs de bits plus élevées offrent davantage de sécurité, mais ont un impact négatif sur la vitesse.
 
         
         </div>
     
-      - Si le certificat doit être exportable, activez la case à cocher **marquer le certificat comme étant exportable** .
+      - Si le certificat doit être exportable, activez la case à cocher **marquer la clé privée du certificat comme exportable** .
 
-8.  Dans la page informations sur l' **organisation** , tapez le nom de l’organisation et l’unité d’organisation (UO) (par exemple, une division ou un service).
+8.  Sur la page informations sur l' **organisation** , tapez le nom de l’organisation et de l’unité d’organisation (ou) (par exemple, une division ou un service).
 
-9.  Dans la page **informations géographiques** , spécifiez les informations d’emplacement.
+9.  Dans la page **Informations géographiques**, spécifiez les informations d’emplacement.
 
-10. Sur la page nom de l’objet **/nom** de l’objet, les informations à remplir automatiquement par l’Assistant sont affichées.
+10. Dans la page **Nom du sujet/Autres noms du sujet**, le système affiche les informations automatiquement renseignées par l’Assistant.
 
-11. Dans la page **configurez** d’autres noms d’objet, spécifiez d’autres noms d’objet obligatoires.
+11. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
 
-12. Dans la page Résumé de la **demande** , passez en revue les informations de certificats qui vont être utilisées pour générer la requête.
+12. Sur la page Résumé de la **demande** , passez en revue les informations de certificat qui vont être utilisées pour générer la demande.
 
 13. Une fois les commandes terminées, procédez comme suit :
     
       - Pour afficher le journal de la demande de certificat, cliquez sur **afficher le journal**.
     
-      - Pour remplir la demande de certificat, cliquez sur **suivant**.
+      - Pour terminer la demande de certificat, cliquez sur **suivant**.
 
 14. Dans la page **fichier de demande de certificat** , procédez comme suit :
     
-      - Pour afficher le fichier de demande de signature de certificat généré (CSR), cliquez sur **Afficher**.
+      - Pour afficher le fichier de demande de signature de certificat (CSR) généré, cliquez sur **Afficher**.
     
       - Pour fermer l’Assistant, cliquez sur **Terminer**.
 
-15. Envoyez ce fichier à votre autorité de certification (par courrier électronique ou autre méthode prise en charge par votre organisation) et, lorsque vous recevez le fichier de réponse, copiez le nouveau certificat sur cet ordinateur pour qu’il soit disponible à des fins d’importation.
+15. Envoyez ce fichier à votre autorité de certification (par courrier électronique ou une autre méthode prise en charge par votre organisation pour votre autorité de certification d’entreprise) et, lorsque vous recevez le fichier de réponse, copiez le nouveau certificat sur cet ordinateur pour qu’il soit disponible pour l’importation.
 
 </div>
 
 <div>
 
-## <a name="to-import-the-certificate-for-the-internal-interface"></a>Pour importer le certificat de l’interface interne
+## <a name="to-import-the-certificate-for-the-internal-interface"></a>Pour importer le certificat pour l’interface interne
 
-1.  Ouvrez une session sur le serveur Edge sur lequel vous avez créé la demande de certificat en tant que membre du groupe administrateurs locaux.
+1.  Ouvrez une session sur le serveur Edge sur lequel vous avez créé la demande de certificat en tant que membre du groupe Administrateurs local.
 
-2.  Dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+2.  Dans l’Assistant Déploiement, en regard de **étape 3 : demander, installer ou assigner les certificats**, cliquez sur **réexécuter**.
     
-    Après avoir exécuté l’étape 3 pour la première fois, le bouton est modifié pour **s’exécuter de nouveau**, mais une coche verte (indiquant la réussite de la tâche) ne s’affiche pas tant que tous les certificats requis n’ont pas été demandés, installés et attribués.
+    Après avoir exécuté l’étape 3 pour la première fois, le bouton passe à **réexécuter**, mais une coche verte (indiquant l’exécution réussie de la tâche) ne s’affiche qu’une fois que tous les certificats requis ont été demandés, installés et affectés.
 
-3.  Dans la page **tâches de certification disponibles** , cliquez sur **Importer un certificat à partir de a. Le fichier P7B,. pfx ou. cer**.
+3.  Sur la page **tâches de certificats disponibles** , cliquez sur **Importer un certificat à partir d’un. Fichier P7B,. pfx ou. cer**.
 
-4.  Sur la page **importer le certificat** , tapez le chemin d’accès complet et le nom de fichier du certificat que vous avez demandé et reçu pour l’interface interne du serveur Edge (ou cliquez sur **Parcourir** pour rechercher et sélectionner le fichier).
+4.  Sur la page **Importer un certificat** , tapez le chemin d’accès complet et le nom de fichier du certificat que vous avez demandé et reçu pour l’interface interne de ce serveur Edge (ou cliquez sur **Parcourir** pour rechercher et sélectionner le fichier).
 
-5.  Si vous importez des certificats pour les autres membres du pool ayant un certificat contenant une clé privée, activez la case à cocher le **fichier de certificat contient la clé privée du** certificat et spécifiez le mot de passe.
+5.  Si vous importez des certificats pour d’autres membres du pool, un certificat contenant une clé privée, activez la case à cocher le **fichier de certificat contient la clé privée du** certificat et spécifiez le mot de passe.
 
 </div>
 
@@ -265,15 +265,15 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
 
 4.  Dans la page Ajouter ou supprimer des composants logiciels enfichables, cliquez sur **certificats**, puis sur **Ajouter**.
 
-5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Sur votre ordinateur, sélectionnez **ordinateur local : (l’ordinateur sur lequel cette console s’exécute)**. Cliquez sur **Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
+5.  Dans la boîte de dialogue composant logiciel enfichable Certificats, sélectionnez **compte d’ordinateur**. Cliquez sur **Suivant**. Dans sélectionner un ordinateur, sélectionnez **ordinateur local : (l’ordinateur sur lequel cette console est exécutée)**. Cliquez sur**Terminer**. Cliquez sur **OK** pour terminer la configuration de la console MMC.
 
-6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **personnel**, puis double-cliquez sur **certificats**.
+6.  Double-cliquez sur **certificats (ordinateur local)** pour développer les magasins de certificats. Double-cliquez sur **personnel**, puis sur **certificats**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > S’il n’y a aucun certificat dans le magasin personnel de certificats de l’ordinateur local, il n’existe aucune clé privée associée au certificat importé. Passez en revue les étapes de demande et d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur de l’autorité de certification.
+    > S’il n’y a aucun certificat dans le magasin personnel de certificats pour l’ordinateur local, il n’y a pas de clé privée associée au certificat importé. Passez en revue les étapes de demande et d’importation. Si le problème persiste, contactez l’administrateur de votre autorité de certification ou votre fournisseur.
 
     
     </div>
@@ -286,14 +286,14 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
     
 
     > [!NOTE]  
-    > Si la sélection est <STRONG>Oui, exporter la clé privée</STRONG> n’est pas disponible, la clé privée associée à ce certificat n’est pas marquée pour l’exportation. Vous devez demander à nouveau le certificat, en veillant à ce que le certificat soit marqué pour autoriser l’exportation de la clé privée avant de poursuivre l’exportation. Contactez votre administrateur ou fournisseur de l’autorité de certification.
+    > Si la sélection est <STRONG>Oui, l’exportation de la clé privée</STRONG> n’est pas disponible, la clé privée associée à ce certificat n’a pas été marquée pour l’exportation. Vous devrez demander de nouveau le certificat, en vous assurant que le certificat est marqué pour autoriser l’exportation de la clé privée avant de pouvoir poursuivre l’exportation. Contactez l’administrateur ou le fournisseur de votre autorité de certification.
 
     
     </div>
 
-9.  Dans la boîte de dialogue Exporter les formats de fichier, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez les options suivantes :
+9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez ce qui suit :
     
-      - Incluez tous les certificats dans le chemin de certification, le cas échéant.
+      - Inclure tous les certificats dans le chemin d’accès de certification si possible
     
       - Exporter toutes les propriétés étendues
         
@@ -301,44 +301,44 @@ Si vous disposez de plusieurs sites avec des serveurs de frontière (autrement d
         
 
         > [!WARNING]  
-        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <STRONG>Supprimer la clé privée si l’exportation est réussie</STRONG>. La sélection de cette option nécessite l’importation du certificat et de la clé privée vers ce serveur Edge.
+        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <STRONG>Supprimer la clé privée si l’exportation réussit</STRONG>. Si vous sélectionnez cette option, vous devez importer le certificat et la clé privée sur ce serveur Edge.
 
         
         </div>
     
     Cliquez sur **Suivant** pour continuer.
 
-10. Si vous voulez affecter un mot de passe pour protéger la clé privée, tapez un mot de passe pour la clé privée. Entrez à nouveau le mot de passe pour le confirmer. Cliquez sur **Suivant**.
+10. Si vous souhaitez affecter un mot de passe pour protéger la clé privée, tapez un mot de passe pour la clé privée. Entrez à nouveau le mot de passe pour le confirmer. Cliquez sur **Suivant**.
 
-11. Tapez un chemin d’accès et un nom de fichier avec l’extension .pfx pour le certificat exporté. Le chemin d’accès doit être accessible à tous les autres serveurs de périphérie du pool ou disponible pour le transport par le biais de médias amovibles (par exemple, un lecteur flash USB). Cliquez sur **Suivant**.
+11. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide d’une extension de fichier. pfx. Le chemin d’accès doit être accessible à tous les autres serveurs Edge du pool ou être disponible pour le transport via un support amovible (par exemple, un lecteur flash USB). Cliquez sur **Suivant**.
 
-12. Passez en revue le résumé de la boîte de dialogue de l’Assistant d’exportation de certificat. Cliquez sur **Terminer**.
+12. Consultez le résumé dans la boîte de dialogue fin de l’Assistant Exportation du certificat. Cliquez sur**Terminer**.
 
-13. Cliquez sur **OK** dans la boîte de dialogue indiquant que l’exportation a abouti.
+13. Cliquez sur **OK** dans la boîte de dialogue d’exportation réussie.
 
-14. Importez le fichier de certificat exporté vers les autres serveurs Edge en suivant les étapes décrites dans la rubrique [configurer des certificats pour les procédures Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) .
+14. Importez le fichier de certificat exporté vers les autres serveurs Edge en suivant les étapes décrites dans les procédures [set up Certificates for the external Edge interface for Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) .
 
 </div>
 
 <div>
 
-## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a>Pour affecter le certificat interne sur les serveurs de périphérie
+## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a>Pour affecter le certificat interne sur les serveurs Edge
 
-1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, à côté de **étape 3 : demander, installer ou assigner les certificats**, cliquez sur **réexécuter**.
 
-2.  Dans la page **tâches de certification disponibles** , cliquez sur **attribuer un certificat existant**.
+2.  Dans la page **tâches de certificats disponibles** , cliquez sur **affecter un certificat existant**.
 
-3.  Dans la page **Affectation de certificat**, sélectionnez **Serveur Edge interne** dans la liste.
+3.  Sur la page **affectation de certificat** , sélectionnez serveur **Edge interne** dans la liste.
 
-4.  Dans la page **magasin de certificats** , sélectionnez le certificat que vous avez importé pour le bord interne (à partir de la procédure précédente).
+4.  Sur la page **magasin de certificats** , sélectionnez le certificat que vous avez importé pour le serveur Edge interne (à partir de la procédure précédente).
 
-5.  Dans la page **Résumé des affectations de certificat** , passez en revue vos paramètres, puis cliquez sur **suivant** pour attribuer les certificats.
+5.  Sur la page Résumé de l' **affectation du certificat** , vérifiez vos paramètres, puis cliquez sur **suivant** pour affecter les certificats.
 
 6.  Dans la page de fin de l’Assistant, cliquez sur **Terminer**.
 
-7.  Lorsque vous utilisez cette procédure pour attribuer le certificat de bord interne, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **certificats (ordinateur local)**, développez **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations que le certificat de bord interne est répertorié.
+7.  Après avoir utilisé cette procédure pour affecter le certificat Edge interne, ouvrez le composant logiciel enfichable certificat sur chaque serveur, développez **certificats (ordinateur local)**, développez **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations que le certificat de périmètre interne est affiché.
 
-8.  Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
+8.  Si votre déploiement comprend plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
 
 </div>
 

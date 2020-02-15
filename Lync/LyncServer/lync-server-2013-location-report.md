@@ -12,16 +12,16 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bb42f32313acd3609b21180ddaef90c53c27564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45f7db796a4edab00918b0353e9b635f4615ba9a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762152"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -55,7 +55,7 @@ Le rapport d’emplacement est accessible à partir de la page d’accueil des r
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport d’emplacement vous permet de filtrer des éléments comme l’emplacement duquel un appel provient ou s’il s’est produit sur une connexion réseau câblée ou sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport d’emplacement vous permet de filtrer des éléments comme l’emplacement duquel un appel provient ou s’il s’est produit sur une connexion  réseau câblée ou sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’emplacement.
 
@@ -74,17 +74,17 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -95,28 +95,28 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </tr>
 <tr class="odd">
 <td><p><strong>Emplacement de l’appelant</strong></p></td>
-<td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel. Vous ne pouvez sélectionner <strong>[tout]</strong> pour indiquer tous les sous-réseaux.</p></td>
+<td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel. Vous pouvez uniquement sélectionner <strong>[Tous]</strong> pour indiquer tous les sous-réseaux.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Emplacement du rappel</strong></p></td>
-<td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel. Vous ne pouvez sélectionner <strong>[tout]</strong> pour indiquer tous les sous-réseaux.</p></td>
+<td><p><strong>Emplacement de l’appelé</strong></p></td>
+<td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel. Vous pouvez uniquement sélectionner <strong>[Tous]</strong> pour indiquer tous les sous-réseaux.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -129,9 +129,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 ## <a name="metrics"></a>Mesures
 
-Le tableau suivant répertorie les informations fournies dans le rapport d’emplacements.
+Le tableau qui suit répertorie les informations fournies dans le rapport d’emplacement.
 
-### <a name="location-report-metrics"></a>Métrique de rapport d’emplacement
+### <a name="location-report-metrics"></a>Mesures du rapport d’emplacement
 
 <table>
 <colgroup>
@@ -148,12 +148,12 @@ Le tableau suivant répertorie les informations fournies dans le rapport d’emp
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Sous-réseau appelant</strong></p></td>
+<td><p><strong>Sous-réseau de l’appelant</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Sous-réseau IP de l’utilisateur qui a émis l’appel.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sous-réseau appelé</strong></p></td>
+<td><p><strong>Sous-réseau de l’appelé</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Sous-réseau IP de l’utilisateur qui a reçu l’appel.</p></td>
 </tr>
@@ -165,19 +165,19 @@ Le tableau suivant répertorie les informations fournies dans le rapport d’emp
 <tr class="even">
 <td><p><strong>Pourcentage d’appels médiocres</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Pourcentage d’appels classés comme appels médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
+<td><p>Pourcentage d’appels jugés et classés comme étant médiocres. Un appel médiocre désigne un appel dont l’une des valeurs mesurées est supérieure à la valeur autorisée (par exemple, un appel soumis à un phénomène de gigue excessive).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Boucle (ms)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</p>
+<td><p>Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</p>
 <p>Des boucles avec des temps plus élevés peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les temps d’aller-retour élevés créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
-<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Perte de paquets</strong></p></td>
@@ -185,9 +185,9 @@ Le tableau suivant répertorie les informations fournies dans le rapport d’emp
 <td><p>Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Gigue</strong></p></td>
+<td><p><strong>Scintill</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : importer les règles de mise à jour de périphériques'
+title: 'Lync Server 2013 : importer des règles de mise à jour des périphériques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872f729584f14011d18920a676c32205d38c7f62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7c0700606966713d9828f538d37600a718dcd43
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a>Importer des règles de mise à jour de périphériques dans Lync Server 2013
+# <a name="import-device-update-rules-in-lync-server-2013"></a>Importer des règles de mise à jour des périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763848"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Les règles de mise à jour d’appareils peuvent être importées uniquement à l’aide de Windows PowerShell et de l’applet **de cmdlet Import-CsDeviceUpdate** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Les règles de mise à jour des périphériques ne peuvent être importées qu’à l’aide de Windows PowerShell et de l’applet de commande **Import-CsDeviceUpdate** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -54,9 +54,9 @@ Les règles de mise à jour d’appareils peuvent être importées uniquement à
 
 <div>
 
-## <a name="to-import-device-update-rules-to-a-single-web-server"></a>Pour importer des règles de mise à jour de périphériques sur un serveur Web unique
+## <a name="to-import-device-update-rules-to-a-single-web-server"></a>Pour importer des règles de mise à jour des périphériques sur un seul serveur Web
 
-  - La commande suivante importe les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com :
+  - La commande suivante importe les règles de mise à jour des périphériques vers le serveur Web atl-cs-001.litwareinc.com :
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
@@ -64,15 +64,15 @@ Les règles de mise à jour d’appareils peuvent être importées uniquement à
 
 <div>
 
-## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>Pour importer des règles de mise à jour de périphériques sur tous vos serveurs Web
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>Pour importer des règles de mise à jour des périphériques sur tous vos serveurs Web
 
-  - Dans cet exemple, les règles de mise à jour d’appareil sont importées sur tous les serveurs Web déployés dans votre organisation. Pour que cette commande fonctionne, les mises \\ \\à\\jour de ATL-FS-001.litwareinc.com de dossiers doivent être partagées et disponibles pour tous les serveurs Web.
+  - Dans cet exemple, les règles de mise à jour des périphériques sont importées sur tous les serveurs Web déployés dans votre organisation. Pour que cette commande fonctionne, le dossier \\ \\mises\\à jour ATL-FS-001.litwareinc.com doit être partagé et disponible pour tous les serveurs Web.
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) .
 
 </div>
 
@@ -81,8 +81,8 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 ## <a name="see-also"></a>Voir aussi
 
 
-[Afficher des informations sur les règles de mise à jour des appareils dans Lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)  
-[Approuver une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+[Afficher des informations sur les règles de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)  
+[Approuver une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie
+title: Ajouter le site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4fc2dd7426006d0c8f19b38b85ba778744fff2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e57a7b062cd95012102ba30a527c99c2fba71d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038626"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology"></a>Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie
+# <a name="add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology"></a>Ajouter le site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41735014"
 
 _**Dernière modification de la rubrique :** 2012-10-07_
 
-Microsoft Lync Server 2013 les appareils de branchement Survivables (SBA) ne peuvent pas être associés à un pool Microsoft Lync Server 2010 frontal en tant qu’Bureau d’enregistrement de sauvegarde. Le SBA doit être associé à un pool Microsoft Lync Server 2013 front end. Ces étapes supposent un serveur Microsoft Lync Server 2013 SBA. Suivez cette procédure sur le site central.
+Microsoft Lync Server 2013 Survivable Branch Appliances (SBA) ne peut pas être associé à un pool frontal Microsoft Lync Server 2010 comme serveur d’inscriptions de sauvegarde. Le SBA doit être associé à un pool frontal Microsoft Lync Server 2013. Ces étapes supposent une Microsoft Lync Server 2013 SBA. Cette procédure doit être effectuée sur le site central.
 
 <div>
 
 ## <a name="to-add-branch-sites-with-microsoft-lync-server-2013-sba-to-your-topology"></a>Pour ajouter des sites de succursale avec Microsoft Lync Server 2013 SBA à votre topologie
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site central, développez **sites de succursales**, puis cliquez sur **nouveau site de succursale**.
+2.  Dans l’arborescence de la console, développez successivement le site central, **Sites de succursale**, puis cliquez sur **Nouveau site de succursale**.
 
-3.  Dans la boîte de dialogue **définir un nouveau site de succursale** , cliquez sur **nom**, puis tapez un nom pour le nouveau site de succursale.
+3.  Dans la boîte de dialogue **Définir un nouveau site de succursale**, cliquez sur **Nom**, puis tapez un nom pour le nouveau site de succursale.
 
-4.  Facultatif Cliquez sur **Description**, puis tapez une description significative pour le site de la succursale.
+4.  (Facultatif) Cliquez sur **Description**, puis tapez une description explicite pour le site de succursale.
 
 5.  Cliquez sur **Suivant**.
 
-6.  Facultatif Dans la boîte de dialogue **définir un nouveau site de succursale** suivante, effectuez l’une des opérations suivantes :
+6.  (Facultatif) Dans la boîte de dialogue **Définir un nouveau site de succursale** qui suit, effectuez l’une des opérations suivantes :
     
-      - Cliquez sur **City**, puis tapez le nom de la ville dans laquelle se trouve le site de la succursale.
+      - Cliquez sur **Ville**, puis tapez le nom de la ville dans laquelle se trouve le site de succursale.
     
-      - Cliquez sur **état/région**, puis tapez le nom de l’État ou de la région où se trouve le site de la succursale.
+      - Cliquez sur **Dép./Région**, puis tapez le nom du département ou de la région où se trouve le site de succursale.
     
-      - Cliquez sur **indicatif du pays**, puis tapez le code d’appel à deux chiffres correspondant au pays/la région où se trouve le site de la succursale.
+      - Cliquez sur **Code du pays**, puis tapez le code d’appel à deux chiffres du pays ou de la région du site de succursale.
 
-7.  Cliquez sur **suivant**, puis effectuez l’une des opérations suivantes :
+7.  Cliquez sur **Suivant** et effectuez l’une des opérations suivantes :
     
-      - Si vous utilisez un appareil de branchement ou un serveur de succursales survivant sur ce site, vérifiez que la case à cocher **ouvrir le nouvel Assistant survie à la fermeture de cet Assistant** est activée.
+      - Si vous utilisez un Survivable Branch Appliance ou un serveur Survivable Branch Server sur ce site, vérifiez que la case à cocher **ouvrir l’Assistant Nouveau Survivable Branch Wizard à la fermeture de cet Assistant** est activée.
     
-      - Si vous n’utilisez pas une application de succursale Survivable ou un serveur de succursales survivant sur ce site, désactivez la case à cocher **ouvrir le nouvel Assistant survie à la fermeture de cet Assistant** .
+      - Si vous n’utilisez pas un Survivable Branch Appliance ou un serveur Survivable Branch Server sur ce site, désactivez la case à cocher **ouvrir l’Assistant Nouveau Survivable Branch Server lors de la fermeture de cet Assistant** .
     
-      - Cliquez sur **Terminer**, puis suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, voir [définir une unité ou un serveur de succursales survivant dans Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - Cliquez sur **Terminer**, puis suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, voir [define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
 
-8.  Répétez les étapes précédentes pour chaque site de succursale que vous voulez ajouter à la topologie.
+8.  Répétez les étapes précédentes pour chaque site de succursale que vous souhaitez ajouter à la topologie.
 
 </div>
 
@@ -79,9 +79,9 @@ Microsoft Lync Server 2013 les appareils de branchement Survivables (SBA) ne peu
 
 
 [Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
-[Définition d’une passerelle RTC pour un site de succursale dans Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[Définition d’une passerelle PSTN pour un site de succursale dans Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
+[Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Activation des utilisateurs pour la messagerie vocale hébergée'
+title: 'Lync Server 2013 : activation des utilisateurs pour la messagerie vocale hébergée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e0ce9ee4da6ee0a36e5e5f0028371aab8af523f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7287f31a4dc0e43b0108ce666e9c65f51f75f2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735998"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Activation des utilisateurs pour la messagerie vocale hébergée dans Lync Server 2013
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Activer les utilisateurs pour la messagerie vocale hébergée dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41735998"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-Suivez la procédure pour activer les utilisateurs de Lync Server 2013 pour la messagerie vocale sur un service de messagerie unifiée Exchange hébergé.
+Suivez la procédure pour activer les utilisateurs Lync Server 2013 pour la messagerie vocale sur un service de messagerie unifiée Exchange hébergé.
 
-Pour plus d’informations, reportez-vous à la rubrique [gestion des utilisateurs Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) dans la documentation de planification.
+Pour plus d’informations, voir [Hosted Exchange User Management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) dans la documentation de planification.
 
-Pour plus d’informations sur l’applet [de connexion Set-Csuser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , voir la documentation Lync Server Management Shell.
+Pour plus d’informations sur la cmdlet [Set-Csuser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , voir la documentation de Lync Server Management Shell.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Pour 2013 que l’utilisateur de la messagerie vocale hébergée puisse être activé, une stratégie de messagerie vocale hébergée qui s’applique à son compte d’utilisateur doit être déployée. Pour plus d’informations, reportez-vous <A href="lync-server-2013-hosted-voice-mail-policies.md">à stratégies de messagerie vocale hébergées dans Lync Server 2013</A>.
+> Avant de pouvoir activer un utilisateur Lync Server 2013 pour la messagerie vocale hébergée, une stratégie de messagerie vocale hébergée qui s’applique à son compte d’utilisateur doit être déployée. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-hosted-voice-mail-policies.md">stratégies de messagerie vocale hébergée dans Lync Server 2013</A>.
 
 
 
@@ -55,33 +55,33 @@ Pour plus d’informations sur l’applet [de connexion Set-Csuser](https://docs
 
 <div>
 
-## <a name="to-enable-users-for-hosted-voice-mail"></a>Pour autoriser les utilisateurs à utiliser la messagerie vocale hébergée
+## <a name="to-enable-users-for-hosted-voice-mail"></a>Pour activer les utilisateurs pour la messagerie vocale hébergée
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de cmdlet Set-CsUser pour configurer le compte d’utilisateur pour la messagerie vocale hébergée. Par exemple, exécutez :
+2.  Exécutez la cmdlet Set-CsUser pour configurer le compte d’utilisateur pour la messagerie vocale hébergée. Par exemple, exécutez :
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
     L’exemple qui précède définit les paramètres suivants :
     
-      - **HostedVoiceMail** permet d’acheminer les appels de messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée. Il signale également Microsoft Lync 2013 pour allumer l’indicateur « appel de la messagerie vocale ».
+      - **HostedVoiceMail** permet d’acheminer les appels de la messagerie vocale d’un utilisateur vers la messagerie unifiée Exchange hébergée. Il signale également à Microsoft Lync 2013 l’indicateur d’appel de messagerie vocale.
     
-      - **Identité** indique le compte d’utilisateur à modifier. La valeur IDENTITY peut être spécifiée en utilisant l’un des formats suivants :
+      - **Identité** indique le compte d’utilisateur à modifier. Vous pouvez définir la valeur d’identité dans l’un des formats suivants :
         
-          - Adresse SIP de l’utilisateur
+          - l’adresse SIP de l’utilisateur ;
         
-          - Nom d’utilisateur principal d’Active Directory de l’utilisateur
+          - le nom d’utilisateur principal Active Directory ;
         
-          - Le nom de connexion\\au domaine de l’utilisateur (par\\exemple, contoso kenmyer);
+          - Nom de connexion au\\domaine de l’utilisateur (par exemple\\, contoso kenmyer)
         
-          - Nom d’affichage des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Si vous utilisez le nom d’affichage comme valeur d’identité, vous pouvez utiliser le caractère\*générique astérisque (). Par exemple, l’identité «\* Smith » renvoie tous les utilisateurs qui ont un nom d’affichage qui se termine par la valeur de chaîne « Smith ».
+          - le nom complet des services de domaine Active Directory de l’utilisateur (par exemple, Ken Myer). Si vous utilisez le nom d’affichage comme valeur d’identité, vous pouvez utiliser le caractère\*générique astérisque (). Par exemple, l’identité «\* Smith » renvoie tous les utilisateurs dont le nom complet se termine par la valeur de chaîne « Smith ».
         
         <div>
         
 
         > [!NOTE]  
-        > Le nom de compte SAM-nom Active Directory de l’utilisateur ne peut pas être utilisé en tant que valeur d’identité, car le nom de compte SAM n’est pas nécessairement unique dans la forêt.
+        > Le nom de compte SAM Active Directory de l’utilisateur ne peut pas être utilisé comme valeur d’identité, car il n’est pas forcément unique dans la forêt.
 
         
         </div>

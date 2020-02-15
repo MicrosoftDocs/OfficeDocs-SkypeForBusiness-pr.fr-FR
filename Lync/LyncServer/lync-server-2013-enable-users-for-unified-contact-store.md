@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Activation des utilisateurs pour le magasin de contacts unifié'
+title: 'Lync Server 2013 : activation des utilisateurs pour le magasin de contacts unifié'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3df3cbd4d71a1decc3607263f2e98b159dc29b2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Activation des utilisateurs pour le magasin de contacts unifié dans Lync Server 2013
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Activer les utilisateurs pour le magasin de contacts unifié dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41735864"
 
 _**Dernière modification de la rubrique :** 2012-10-07_
 
-Lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le magasin de contacts unifié est activé par défaut pour tous les utilisateurs. Vous n’avez pas besoin d’effectuer d’action supplémentaire pour activer le magasin de contacts unifié après le déploiement de Lync Server 2013. Cependant, vous pouvez utiliser l’applet de commande **Set-CsUserServicesPolicy** pour personnaliser les utilisateurs pour lesquels le magasin de contact unifié est disponible. Vous pouvez activer cette fonctionnalité globalement, par site, par locataire, par personne ou par groupes de personnes.
+Lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le magasin de contacts unifié est activé par défaut pour tous les utilisateurs. Aucune action supplémentaire n’est nécessaire pour activer le magasin de contacts unifié après avoir déployé Lync Server 2013. Cependant, vous pouvez utiliser l’applet de commande **Set-CsUserServicesPolicy** pour personnaliser les utilisateurs pour lesquels le magasin de contact unifié est disponible. Vous pouvez activer cette fonctionnalité globalement, par site, par locataire, par personne ou par groupes de personnes.
 
 <div>
 
 ## <a name="to-enable-users-for-unified-contact-store"></a>Pour activer les utilisateurs pour le magasin de contact unifié
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Effectuez l’une des opérations suivantes :
     
-      - Pour activer globalement le magasin de contacts unifié pour tous les utilisateurs de Lync Server, sur la ligne de commande, tapez :
+      - Pour activer le magasin de contacts unifié globalement pour tous les utilisateurs de Lync Server, à partir de la ligne de commande, tapez :
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - Pour activer le magasin de contacts unifié pour les utilisateurs d’un site spécifique, dans la ligne de commande, tapez :
+      - Pour activer le magasin de contact unifié pour tous les utilisateurs d’un site spécifique, sur la ligne de commande, tapez :
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
@@ -59,7 +59,7 @@ Lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le mag
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - Pour activer le magasin de contacts unifié par locataire, dans la ligne de commande, tapez :
+      - Pour activer le magasin de contact unifié par locataire, sur la ligne de commande, tapez :
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
@@ -67,7 +67,7 @@ Lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le mag
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - Pour activer le magasin de contacts unifié pour des utilisateurs spécifiques, sur la ligne de commande, tapez :
+      - Pour activer le magasin de contact unifié pour des utilisateurs spécifiques, sur la ligne de commande, tapez :
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
@@ -81,7 +81,7 @@ Lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le mag
         
         </div>
         
-        Exemple :
+        Par exemple :
         
             New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"

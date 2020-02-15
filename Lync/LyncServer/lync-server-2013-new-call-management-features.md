@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de gestion des appels'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de gestion des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb4f93e0120d8295d601e482e0c6600a092fe599
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63715d3785d8b7a4d605b2e5acc416f36f01c2c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,14 +43,14 @@ Les sections suivantes décrivent les modifications apportées aux fonctionnalit
 
   - [Nouvelles fonctionnalités de l’application de parcage d’appel dans Lync Server 2013](lync-server-2013-new-call-park-application-features.md)
 
-  - [Nouvelle fonctionnalité de capture d’appel de groupe dans Lync Server 2013](lync-server-2013-new-group-call-pickup-feature.md)
+  - [Nouvelle fonctionnalité de prise d’appel de groupe dans Lync Server 2013](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Nouvelles fonctionnalités Voix Entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nouvelles fonctionnalités voix entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

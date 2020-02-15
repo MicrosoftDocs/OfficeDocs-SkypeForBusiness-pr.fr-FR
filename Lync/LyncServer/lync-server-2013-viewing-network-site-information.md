@@ -12,20 +12,20 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3d6ee36e77a36e614019f4c29b563a4e7b25469
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-site-information-in-lync-server-2013"></a>Affichage des informations sur le site réseau dans Lync Server 2013
+# <a name="viewing-network-site-information-in-lync-server-2013"></a>Affichage des informations de site réseau dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757258"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Les sites réseau sont les bureaux ou les emplacements configurés dans chaque région d’un contrôle d’admission des appels (CAC) ou un déploiement 9-1-1 amélioré. Vous pouvez consulter les informations relatives à un site réseau dans Lync Server 2013 Control Panel ou Lync Server Management Shell. Pour plus d’informations sur la création et la modification de sites réseau, voir [création ou modification de sites réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
+Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque région d’un contrôle d’admission des appels (Call Admission Control ou CAC) ou encore d’un déploiement Enhanced 9-1-1. Vous pouvez afficher les informations relatives à un site réseau dans le panneau de configuration Lync Server 2013 ou dans Lync Server Management Shell. Pour plus d’informations sur la création ou la modification de sites réseau, reportez-vous à la rubrique [création ou modification de sites réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
 
 <div>
 
-## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>Pour afficher les informations de site réseau dans le panneau de configuration de Lync Server
+## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>Pour afficher les informations sur les sites réseau dans le panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis cliquez sur **site**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Site**.
 
-4.  Sur la page du **site** , cliquez sur le site que vous voulez afficher.
+4.  Dans la page **Site**, cliquez sur le site que vous souhaitez afficher.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous ne pouvez afficher que les informations relatives à un site à la fois.
+    > Vous ne pouvez afficher les informations que d’un site à la fois.
 
     
     </div>
@@ -66,19 +66,19 @@ Les sites réseau sont les bureaux ou les emplacements configurés dans chaque r
 
 <div>
 
-## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations sur le site réseau à l’aide des cmdlets Windows PowerShell
+## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de site réseau à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez afficher les informations de site réseau en utilisant Windows PowerShell et l’applet de connexion Get-CsNetworkSite. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez afficher les informations de site réseau à l’aide de Windows PowerShell et de la cmdlet Get-applet csnetworksite. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-view-network-site-information"></a>Pour afficher les informations relatives au site réseau
+## <a name="to-view-network-site-information"></a>Pour afficher des informations sur les sites réseau
 
-  - Pour afficher des informations sur tous les sites de votre réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+  - Pour afficher des informations sur tous les sites réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkSite
     
-    Vous obtiendrez des indications semblables à ceci :
+    Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -90,7 +90,7 @@ Vous pouvez afficher les informations de site réseau en utilisant Windows Power
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
+Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).
 
 </div>
 

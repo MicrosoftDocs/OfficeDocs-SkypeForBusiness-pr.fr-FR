@@ -1,5 +1,5 @@
 ---
-title: Prise en charge des réunions importantes dans Lync Server 2013
+title: Prise en charge de Lync Server 2013 pour les grandes réunions
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6a8da2c58cc650fa0d2ddb7fe71ba62b4b29af9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 705640e7bd75292f67ed0dcd551db83a61dc7fd4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038636"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="support-for-large-meetings-in-lync-server-2013"></a>Prise en charge des réunions importantes dans Lync Server 2013
+# <a name="support-for-large-meetings-in-lync-server-2013"></a>Prise en charge des grandes réunions dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731744"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Lync Server 2013 peut prendre en charge des réunions comportant jusqu’à 1000 participants à l’aide d’une conférence audio/vidéo (A/V), y compris le partage de présentations PowerPoint. Cette prise en charge nécessite un pool dédié configuré pour prendre en charge de grandes réunions et géré pour n’héberger qu’une seule grande réunion à la fois.
+Lync Server 2013 peut prendre en charge des réunions avec un maximum de 1000 participants à l’aide de la conférence audio/vidéo (A/V), y compris le partage de présentations PowerPoint. Cette prise en charge requiert un pool dédié configuré pour prendre en charge de grandes réunions et géré pour n’héberger qu’une seule grande réunion à la fois.
 
-Cette section explique comment prendre en charge des réunions de grande envergure à l’aide d’un pool Lync Server 2013 dédié. Il décrit les considérations d’évolutivité et les exigences en matière d’implémentation pour une réserve dédiée, y compris la topologie, le matériel, les logiciels et la configuration. Il fournit également un ensemble de recommandations en matière de meilleures pratiques pour la prise en charge de réunions importantes, d’un résumé des méthodes de test et de résultats de test de l’évolutivité du serveur menés par l’équipe d’ingénierie de Lync Server et des réponses aux questions fréquemment posées sur le support technique. pour les réunions de grande envergure.
+Cette section décrit comment prendre en charge les grandes réunions à l’aide d’un pool Lync Server 2013 dédié. Elle décrit les exigences d’extensibilité et d’implémentation requises pour un pool dédié, y compris la topologie, le matériel, les logiciels et la configuration requise. Elle fournit également une série de recommandations pour la prise en charge de grandes réunions, un résumé des méthodes de test et des résultats du test d’évolutivité des serveurs menés par l’équipe d’ingénierie Lync Server, ainsi que les réponses aux questions fréquemment posées sur le support pour les grandes réunions.
 
 <div>
 
@@ -47,9 +47,9 @@ Cette section explique comment prendre en charge des réunions de grande envergu
 
   - [Vue d’ensemble de l’évolutivité des conférences dans Lync Server 2013](lync-server-2013-conferencing-scalability-overview.md)
 
-  - [Prise en charge de grandes réunions à l’aide de Lync Server 2013](lync-server-2013-supporting-large-meetings.md)
+  - [Prise en charge des grandes réunions à l’aide de Lync Server 2013](lync-server-2013-supporting-large-meetings.md)
 
-  - [FAQ sur la prise en charge des réunions de grande taille pour Lync Server 2013](lync-server-2013-large-meeting-support-faq.md)
+  - [Forum aux questions sur la prise en charge des grandes réunions pour Lync Server 2013](lync-server-2013-large-meeting-support-faq.md)
 
 </div>
 

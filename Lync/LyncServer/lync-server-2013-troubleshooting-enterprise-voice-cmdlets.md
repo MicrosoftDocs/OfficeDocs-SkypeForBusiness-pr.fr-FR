@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : résolution des problèmes de cmdlet voix entreprise'
+title: 'Lync Server 2013 : résolution des applets de commande voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Résoudre les problèmes de cmdlet voix entreprise dans Lync Server 2013
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a>Dépannage des applets de commande voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,66 +37,66 @@ ms.locfileid: "41745034"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-La configuration d’Enterprise Voice dans le cadre de l’implémentation de Microsoft Lync Server 2013 implique la création de routages, de stratégies et de règles qui doivent collaborer pour garantir que les appels entrants et sortants s’exécutent correctement. Lync Server Management Shell inclut des applets de contrôle qui peuvent être utilisées pour tester des connexions et des chemins d’accès et pour résoudre les problèmes qui peuvent survenir lors de l’implémentation.
+La configuration de voix entreprise dans le cadre de votre implémentation Microsoft Lync Server 2013 implique la création d’itinéraires, de stratégies et de règles qui doivent fonctionner ensemble pour garantir que les appels entrants et sortants sont terminés comme prévu. Lync Server Management Shell inclut des applets de commande qui permettent de tester les connexions et les chemins d’accès et de résoudre les problèmes susceptibles de survenir lors de l’implémentation.
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Résolution des problèmes de cmdlet voix entreprise
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Dépannage des applets de commande de Voix Entreprise
 
-Vous pouvez utiliser les applets de commande suivantes pour tester et résoudre les problèmes de connexion voix entreprise.
+Vous pouvez utiliser les applets de commande suivantes pour tester et dépanner les connexions Voix Entreprise.
 
-**Résolution des problèmes de cmdlet voix entreprise**
-
-  - <span></span>  
-    [Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**Dépannage des applets de commande de Voix Entreprise**
 
   - <span></span>  
-    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [Get-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [Get-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [New-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [Remove-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [Set-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [Test-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 
@@ -105,7 +105,7 @@ Vous pouvez utiliser les applets de commande suivantes pour tester et résoudre 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Cmdlets voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Applets de commande voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Blog Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

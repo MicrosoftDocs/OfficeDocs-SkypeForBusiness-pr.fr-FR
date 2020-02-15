@@ -1,5 +1,5 @@
 ---
-title: Messagerie instantanée et présence dans Lync Server 2013
+title: Messagerie instantanée et présence de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f57d4fae488a7d4946a0adb1f8350d02114a7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a7713f7b09602aed01ac20e5a76a361e04277a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41742384"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-La messagerie instantanée et la présence sont automatiquement installés dans n’importe quel déploiement de Lync Server.
+La messagerie instantanée et la présence sont automatiquement installées dans n’importe quel déploiement Lync Server.
 
-Les informations de *présence* permettent aux utilisateurs d’aborder les collègues au moment le plus opportun avec le bon moyen de communication, afin d’améliorer l’environnement de bureau. La présence d’un utilisateur est une collection d’informations qui inclut la disponibilité, la volonté de communiquer, des notes supplémentaires (par exemple, l’emplacement et le statut) et la façon dont l’utilisateur peut être contacté. La présence est améliorée dans Lync Server avec des images, des informations de géolocalisation et un ensemble complet d’États de présence incluant « arrêt du fonctionnement », « ne pas déranger » et « revenir de nouveau », en plus des États de base tels que « disponible », « occupé » et « en réunion ». Les administrateurs peuvent également définir des États de présence spécifiques de l’organisation.
+Les informations de *présence* permettent aux utilisateurs de contacter leurs collègues au bon moment et avec le bon mode de communication, et d’augmenter ainsi la productivité au sein de leur environnement de travail. La présence d’un utilisateur est un ensemble d’informations qui incluent la disponibilité, la volonté de communiquer, des remarques supplémentaires (comme le lieu et le statut), ainsi que la façon dont l’utilisateur peut être contacté. La présence est améliorée dans Lync Server avec des images, des informations d’emplacement et un ensemble complet d’États de présence, qui incluent les États de base tels que « disponible », « de «ne pas déranger » et « revenons » dans une conférence». Les administrateurs peuvent aussi définir des états de présence personnalisés et spécifiques à l’organisation.
 
-La gestion des contacts et les options d’accès des utilisateurs permettent aux utilisateurs de contrôler les informations qu’ils peuvent afficher. Les utilisateurs peuvent définir différents niveaux de contacts, qui peuvent chacun afficher différents niveaux d’informations de présence.
+Les options de gestion des contacts et d’accès utilisateur permettent aux utilisateurs de contrôler les informations que les autres personnes peuvent consulter. Les utilisateurs peuvent définir différents niveaux de contacts, chacun d’eux pouvant afficher différents niveaux d’informations de présence.
 
-La consultation d’une liste de contacts permet aux utilisateurs de trouver en un clin d’œil les informations dont ils ont besoin. Les icônes de couleur simples indiquent le statut de présence d’autres utilisateurs et l’image et l’emplacement sont également affichés.
+En effectuant simplement une recherche dans une liste de contacts, les utilisateurs peuvent trouver immédiatement tout ce dont ils ont besoin. Les icônes de couleur simples indiquent le statut de présence des autres utilisateurs, et l’image et le lieu sont également affichés.
 
-L’intégration de Lync Server à d’autres produits tels qu’Outlook et SharePoint, chaque fois que le nom d’un contact apparaît (par exemple, dans un message électronique ou sur un site Web d’équipe), les informations de statut et de contact sont également affichées. Par ailleurs, si vous déployez Exchange 2013, Lync Server et Exchange 2013 peuvent partager un magasin de contacts unifié, lequel est accessible à tous les clients de chaque produit.
+Avec l’intégration entre Lync Server et d’autres produits tels qu’Outlook et SharePoint, lorsque le nom d’un contact apparaît, par exemple dans un message électronique ou sur un site Web d’équipe, l’État et les informations de contact sont également affichés. En outre, si vous déployez Exchange 2013, Lync Server et Exchange 2013 peuvent partager un magasin de contacts unifié, qui est accessible par les clients de l’un ou l’autre produit.
 
-Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent s’échanger rapidement des messages avec des informations opportunes. Si vous le souhaitez, vos utilisateurs peuvent également communiquer avec les utilisateurs de réseaux de messagerie instantanée publics tels que MSN/\!Windows Live, Yahoo et AOL. Notez qu’une licence distincte peut être nécessaire pour la connectivité de messagerie instantanée publique avec Windows Live, AOL et Yahoo\! Lync Server inclut également la compatibilité de l’extensibilité du protocole et de la messagerie instantanée, afin que vos utilisateurs puissent échanger des messages instantanés et des informations de présence avec des utilisateurs de services XMPP tels que Google Talk.
+Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent rapidement s’afficher avec des informations opportunes. Si vous le souhaitez, vos utilisateurs peuvent également communiquer avec des utilisateurs de réseaux de messagerie instantanée publics, tels que MSN\!/Windows Live, Yahoo et AOL. Notez qu’une licence distincte peut être requise pour la connectivité PIC avec Windows Live, AOL et Yahoo.\! Lync Server inclut également la compatibilité XMPP (extensible Messaging and Presence Protocol), afin que vos utilisateurs puissent échanger des messages INSTANTANÉs et des informations de présence avec des utilisateurs de services XMPP tels que Google Talk.
 
 <div>
 
@@ -55,21 +55,21 @@ Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent s’�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À partir du 2012 1er septembre, la licence d’abonnement utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») n’est plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo !. Messenger jusqu’à la date d’arrêt du service. Date de fin du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité PIC de messagerie instantanée dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL PIC est une licence d’abonnement par utilisateur et par mois requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonnée à la prise en charge de Yahoo !, l’accord sous-jacent de qui est en panne.</P>
 > <LI>
-> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
+> <P>Plus que jamais, Lync est un outil puissant pour la connexion entre les organisations et les utilisateurs dans le monde entier. La Fédération avec Windows Live Messenger ne requiert aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client Lync standard. La Fédération Skype est ajoutée à cette liste, ce qui permet aux utilisateurs de Lync d’atteindre des centaines de millions de personnes avec la messagerie instantanée et la voix.</P></LI></UL>
 
 
 
 </div>
 
-L’historique des conversations permet aux utilisateurs d’effectuer le suivi d’anciennes conversations par messagerie instantanée et de récupérer des informations qui peuvent avoir été communiquées par des mois de mi auparavant.
+L’historique des conversations permet aux utilisateurs de conserver les anciennes conversations de messagerie instantanée et de récupérer des informations qui ont pu être transmises par messagerie instantanée plusieurs mois auparavant.
 
-La fonctionnalité de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs sujets qui persistent dans le temps. Les messages publiés dans des salles de conversation (forums de discussion) peuvent être persistants (disponible dans le temps), de sorte que les personnes de différents sites et services peuvent participer, même s’ils ne sont pas en ligne en même temps.
+La fonctionnalité de conversation permanente permet aux utilisateurs de participer à des conversations à plusieurs sujets qui persistent dans le temps. Les messages publiés dans les salles de conversation (forums de discussion) peuvent être permanents, afin que les personnes qui se trouvent dans des sites et départements différents puissent participer, même lorsqu’elles ne sont pas toutes en ligne en même temps.
 
-Si votre organisation doit suivre des règles de conformité, vous pouvez déployer une fonctionnalité d’archivage des messages pour archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation, ou uniquement pour certains utilisateurs que vous spécifiez. Si vous déployez également Exchange 2013, votre archive de messagerie instantanée peut être intégrée à la fonctionnalité de conservation inaltérable d’Exchange, afin de fournir une interface d’administration unique pour votre conformité.
+Si votre organisation doit respecter des réglementations en matière de conformité, vous pouvez déployer une fonctionnalité d’archivage des messages, afin d’archiver le contenu des messages instantanés pour tous les utilisateurs de votre organisation ou seulement pour certains utilisateurs que vous spécifiez. Si vous déployez également Exchange 2013, votre archive de messagerie instantanée peut être intégrée à la fonctionnalité de conservation inaltérable d’Exchange, afin de fournir une expérience d’administration unique pour votre conformité.
 
 </div>
 

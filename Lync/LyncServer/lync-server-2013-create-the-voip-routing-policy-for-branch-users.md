@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création de la stratégie de routage VoIP pour les utilisateurs de succursale'
+title: 'Lync Server 2013 : création de la stratégie de routage VoIP pour les utilisateurs de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1cc8f0a6c4d960b4dacf6f62f283d806a6dd6f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 308c4ad3a7371c9a27f668b79623a512227623b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,30 +37,30 @@ ms.locfileid: "41733674"
 
 _**Dernière modification de la rubrique :** 2012-09-23_
 
-Nous vous recommandons de créer une stratégie VoIP (Voice over IP) distincte pour les utilisateurs des sites de succursales. Cette stratégie doit contenir des itinéraires vers la sortie à partir de la passerelle de l’appareil de branchement survivant ou de la passerelle externe du serveur de succursales survivant et des itinéraires de sauvegarde vers la sortie à partir d’une passerelle sur le site central. Quel que soit l’endroit où l’utilisateur est inscrit, soit dans le Bureau d’enregistrement sur l’appareil de succursale survivant ou sur le serveur de succursales survivant, soit dans le groupe d’inscriptions de secours sur le site central, la stratégie VoIP de l’utilisateur est toujours en vigueur.
+Nous vous recommandons de créer une stratégie de Voix sur IP (VoIP) distincte pour les utilisateurs sur des sites de succursale. Cette stratégie doit contenir des itinéraires vers une sortie à partir de la passerelle Survivable Branch Appliance ou de la passerelle externe du serveur Survivable Branch Server et des itinéraires de sauvegarde vers une sortie à partir d’une passerelle sur le site central. Quel que soit l’emplacement d’enregistrement de l’utilisateur, soit sur le serveur d’inscriptions sur le Survivable Branch appliance, soit sur le serveur Survivable Branch Server, ou sur le cluster de serveurs d’inscriptions de sauvegarde du site central, la stratégie VoIP de l’utilisateur est toujours en vigueur.
 
 <div>
 
-## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>Pour configurer la stratégie de routage VoIP pour les utilisateurs de succursales
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>Pour configurer la stratégie de routage VoIP pour les utilisateurs de sites de succursale
 
-1.  Créer un plan de numérotation utilisateur et l’affecter aux utilisateurs de succursales. (Pour plus d’informations, reportez-vous à la rubrique [création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) .)
+1.  Créez un plan de numérotation utilisateur et affectez-le aux utilisateurs. (Voir [créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) dans la documentation des opérations.)
 
-2.  Affectez des règles de normalisation correspondant aux habitudes de numérotation des utilisateurs sur ce site. Dans le cas où l’utilisateur de l’unité de branchement survivant ou du serveur de succursale Survivable bascule vers le pool d’inscriptions de secours sur le site central, le même plan de numérotation sera appliqué. (Pour plus d’informations, reportez-vous à la rubrique [création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) .)
+2.  Affectez les règles de normalisation correspondantes aux habitudes de numérotation des utilisateurs sur ce site. Si l’utilisateur Survivable Branch Appliance ou le serveur Survivable Branch Server bascule vers le pool de serveurs d’inscriptions de sauvegarde sur le site central, le même plan de numérotation sera appliqué. (Voir [créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md) dans la documentation des opérations.)
 
-3.  Configurez un itinéraire vocal qui egresses à partir de la passerelle de l’appareil de succursale survivant ou de la passerelle externe du serveur de succursales survivant. (Pour plus d’informations, reportez-vous à la rubrique [création d’un itinéraire vocal dans Lync Server 2013](lync-server-2013-create-a-voice-route.md) .)
+3.  Configurez un itinéraire des communications vocales qui egresses à partir de la passerelle Survivable Branch Appliance ou de la passerelle externe du serveur Survivable Branch Server. (Voir [créer un itinéraire des communications vocales dans Lync Server 2013](lync-server-2013-create-a-voice-route.md) dans la documentation des opérations.)
 
-4.  Définissez un itinéraire de sauvegarde sur l’appareil de branchement survivant ou la passerelle du serveur de succursales survivant pour qu’il pointe vers le pool de bureau d’enregistrement de sauvegarde (colocalisé avec le serveur de médiation) sur le site central. (Voir votre appareil de succursale survivant ou la documentation du fournisseur de votre serveur de succursales survivant.)
+4.  Définissez un itinéraire d’appel de sauvegarde sur le Survivable Branch Appliance ou le Survivable Branch Server Gateway de manière à pointer vers le pool de serveurs d’inscriptions de sauvegarde (colocalisé avec le serveur de médiation) sur le site central. (Consultez votre Survivable Branch Appliance ou la documentation du fournisseur Survivable Branch Server.)
     
     <div>
     
 
     > [!NOTE]  
-    > Cette opération de sauvegarde de l’itinéraire permet de garantir que les appels entrants de l’utilisateur de la succursale fonctionneront lorsque l’unité de branchement ou le serveur de succursale Survivable ne sera pas disponible (par exemple, s’il est arrêté pour maintenance). Si le serveur d’inscriptions et de médiation sur l’appareil de branchement survivant ou la succursale Survivable ne sont pas disponibles, et si l’utilisateur est inscrit auprès du pool d’inscriptions de sauvegarde au niveau du site central, les appels entrants peuvent toujours être routés vers l’utilisateur.
+    > Cette configuration de l’acheminement des appels permet de s’assurer que les appels entrants vers l’utilisateur de succursale fonctionnent lorsque le Survivable Branch Appliance ou le serveur Survivable Branch Server n’est pas disponible (par exemple, s’il est arrêté pour maintenance). Si le serveur d’inscriptions et de médiation sur le Survivable Branch Appliance ou le serveur Survivable Branch Server ne sont pas disponibles et que l’utilisateur est inscrit auprès du pool de serveurs d’inscriptions de sauvegarde sur le site central, les appels entrants peuvent toujours être acheminés vers l’utilisateur.
 
     
     </div>
 
-**Étape suivante**: [configurer les paramètres de reroutage de la messagerie vocale dans Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+**Étape suivante**: [configurer les paramètres de réacheminement de la messagerie vocale dans Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 
