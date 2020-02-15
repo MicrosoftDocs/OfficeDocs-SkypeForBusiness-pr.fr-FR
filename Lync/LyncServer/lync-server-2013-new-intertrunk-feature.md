@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelle fonctionnalité de routage entre les jonctions'
+title: 'Lync Server 2013 : nouvelle fonctionnalité d’interjonction'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c88447434594f940ef28b74212e4db2357d6ce38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758616"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-intertrunk-feature-in-lync-server-2013"></a><span data-ttu-id="b3ebe-102">Nouvelle fonctionnalité de routage entre les jonctions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3ebe-102">New intertrunk feature in Lync Server 2013</span></span>
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a><span data-ttu-id="36179-102">Nouvelle fonctionnalité de jonction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36179-102">New intertrunk feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758616"
 
 <span> </span>
 
-<span data-ttu-id="b3ebe-103">_**Dernière modification de la rubrique :** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="b3ebe-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="36179-103">_**Dernière modification de la rubrique :** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="36179-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="b3ebe-104">Lync Server 2013 fournit une gestion de session de base grâce à la prise en charge du routage intertrunk.</span><span class="sxs-lookup"><span data-stu-id="b3ebe-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="b3ebe-105">Cette nouvelle fonctionnalité permet à Lync Server de fournir des fonctionnalités de contrôle d’appel aux systèmes de téléphonie en aval.</span><span class="sxs-lookup"><span data-stu-id="b3ebe-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="b3ebe-106">Avec le routage intertrunk, Lync Server peut interconnecter un PBX IP à une passerelle de réseau téléphonique commuté (PSTN) pour que les appels d’un téléphone PBX (Private Branch Exchange) puissent être routés vers le RTC et que les appels RTC entrants puissent être routés vers un téléphone PBX.</span><span class="sxs-lookup"><span data-stu-id="b3ebe-106">With intertrunk routing, Lync Server can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="b3ebe-107">De la même façon, Lync Server peut interconnecter au moins deux systèmes IP-PBX pour que les appels puissent être placés et reçus entre les téléphones PBX des différents systèmes IP PBX.</span><span class="sxs-lookup"><span data-stu-id="b3ebe-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
+<span data-ttu-id="36179-104">Lync Server 2013 fournit une gestion de session de base par le biais de la prise en charge du routage interjonction.</span><span class="sxs-lookup"><span data-stu-id="36179-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="36179-105">Cette nouvelle fonctionnalité permet à Lync Server de fournir des fonctionnalités de contrôle d’appel aux systèmes téléphoniques en aval.</span><span class="sxs-lookup"><span data-stu-id="36179-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="36179-106">Avec le routage interjonction, Lync Server peut interconnecter un PBX IP à une passerelle de réseau téléphonique commuté (PSTN) afin que les appels provenant d’un téléphone PBX (Private Branch Exchange) puissent être acheminés vers le RTC et que les appels RTC entrants puissent être acheminés vers un téléphone PBX.</span><span class="sxs-lookup"><span data-stu-id="36179-106">With intertrunk routing, Lync Server can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="36179-107">De même, Lync Server peut interconnecter deux ou plusieurs systèmes IP-PBX afin que les appels puissent être passés et reçus entre les téléphones PBX à partir des différents systèmes IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="36179-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b3ebe-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b3ebe-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="36179-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="36179-108">See Also</span></span>
 
 
-[<span data-ttu-id="b3ebe-109">Routage inter-Trunk dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3ebe-109">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)  
-[<span data-ttu-id="b3ebe-110">Nouvelles fonctionnalités Voix Entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3ebe-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="36179-109">Routage entre les jonctions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36179-109">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)  
+[<span data-ttu-id="36179-110">Nouvelles fonctionnalités voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36179-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

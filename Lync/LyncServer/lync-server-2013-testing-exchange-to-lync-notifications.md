@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tester les notifications Exchange vers Lync'
+title: 'Lync Server 2013 : test des notifications Exchange vers Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37f163d5a43dce9672535ec3d78f360bcec8d926
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5e6010d7884bca7ec82d4992b83e22cce315b1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745808"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a><span data-ttu-id="49818-102">Test d’Exchange vers des notifications Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49818-102">Testing Exchange to Lync notifications in Lync Server 2013</span></span>
+# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a><span data-ttu-id="448d5-102">Test d’Exchange vers des notifications Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="448d5-102">Testing Exchange to Lync notifications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745808"
 
 <span> </span>
 
-<span data-ttu-id="49818-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="49818-103">_**Topic Last Modified:** 2014-11-01_</span></span>
+<span data-ttu-id="448d5-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="448d5-103">_**Topic Last Modified:** 2014-11-01_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745808"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="49818-104">Échéancier de vérification</span><span class="sxs-lookup"><span data-stu-id="49818-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="49818-105">Jour</span><span class="sxs-lookup"><span data-stu-id="49818-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="448d5-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="448d5-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="448d5-105">Tous les jours</span><span class="sxs-lookup"><span data-stu-id="448d5-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="49818-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="49818-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="49818-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="49818-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="448d5-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="448d5-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="448d5-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="448d5-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="49818-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="49818-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="49818-109">Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="49818-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="49818-110">Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsExStorageNotification</strong> .</span><span class="sxs-lookup"><span data-stu-id="49818-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExStorageNotification</strong> cmdlet.</span></span> <span data-ttu-id="49818-111">Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="49818-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="448d5-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="448d5-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="448d5-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="448d5-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="448d5-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsExStorageNotification</strong> .</span><span class="sxs-lookup"><span data-stu-id="448d5-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExStorageNotification</strong> cmdlet.</span></span> <span data-ttu-id="448d5-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="448d5-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,17 +64,17 @@ ms.locfileid: "41745808"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="49818-112">Description</span><span class="sxs-lookup"><span data-stu-id="49818-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="448d5-112">Description</span><span class="sxs-lookup"><span data-stu-id="448d5-112">Description</span></span>
 
-<span data-ttu-id="49818-113">L’applet de **contrôle test-CsExStorageNotification** est utilisée pour vérifier que le service de notification Microsoft Exchange Server 2013 peut informer Lync Server 2013 chaque fois que des mises à jour sont apportées à la liste de contacts d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="49818-113">The **Test-CsExStorageNotification** cmdlet is used to verify that the Microsoft Exchange Server 2013 notification service can notify Lync Server 2013 any time updates are made to a user's Contact List.</span></span> <span data-ttu-id="49818-114">Cette applet de cmdlet n’est valide que si vous utilisez le magasin de contacts unifié.</span><span class="sxs-lookup"><span data-stu-id="49818-114">This cmdlet is valid only if you are using the unified contact store.</span></span>
+<span data-ttu-id="448d5-113">La cmdlet **test-CsExStorageNotification** est utilisée pour vérifier que le service de notification de Microsoft Exchange Server 2013 peut avertir Lync Server 2013 toutes les mises à jour apportées à la liste des contacts d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="448d5-113">The **Test-CsExStorageNotification** cmdlet is used to verify that the Microsoft Exchange Server 2013 notification service can notify Lync Server 2013 any time updates are made to a user's Contact List.</span></span> <span data-ttu-id="448d5-114">Cette applet de commande est valide uniquement si vous utilisez le magasin de contacts unifié.</span><span class="sxs-lookup"><span data-stu-id="448d5-114">This cmdlet is valid only if you are using the unified contact store.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="49818-115">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="49818-115">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="448d5-115">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="448d5-115">Running the test</span></span>
 
-<span data-ttu-id="49818-116">La commande décrite dans l’exemple 1 vérifie si le service de stockage Lync Server peut se connecter au service de notification de boîte aux lettres Microsoft Exchange Server pour l’utilisateur sip :kenmyer@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="49818-116">The command shown in Example 1 tests to see whether the Lync Server Storage Service can connect to the Microsoft Exchange Server mailbox notification service for the user sip:kenmyer@litwareinc.com.</span></span> <span data-ttu-id="49818-117">Dans cet exemple, NetNamedPipe est utilisé en tant que liaison WCF.</span><span class="sxs-lookup"><span data-stu-id="49818-117">In this example, NetNamedPipe is used as the WCF binding.</span></span>
+<span data-ttu-id="448d5-116">La commande illustrée dans l’exemple 1 vérifie si le service de stockage Lync Server peut se connecter au service de notification de boîte aux lettres Microsoft Exchange Server pour l’utilisateur sip :kenmyer@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="448d5-116">The command shown in Example 1 tests to see whether the Lync Server Storage Service can connect to the Microsoft Exchange Server mailbox notification service for the user sip:kenmyer@litwareinc.com.</span></span> <span data-ttu-id="448d5-117">Dans cet exemple, NetNamedPipe est utilisé comme liaison WCF.</span><span class="sxs-lookup"><span data-stu-id="448d5-117">In this example, NetNamedPipe is used as the WCF binding.</span></span>
 
     Test-CsExStorageNotification -SipUri "sip:kenmyer@litwareinc.com" -Binding "NetNamedPipe"
 
@@ -82,66 +82,66 @@ ms.locfileid: "41745808"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="49818-118">Détermination du succès ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="49818-118">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="448d5-118">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="448d5-118">Determining success or failure</span></span>
 
-<span data-ttu-id="49818-119">Si l’intégration Exchange est correctement configurée, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:</span><span class="sxs-lookup"><span data-stu-id="49818-119">If Exchange integration is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
+<span data-ttu-id="448d5-119">Si l’intégration d’Exchange est correctement configurée, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success**:</span><span class="sxs-lookup"><span data-stu-id="448d5-119">If Exchange integration is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
 
-<span data-ttu-id="49818-120">Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="49818-120">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="448d5-120">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="448d5-120">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="49818-121">Résultat : réussite</span><span class="sxs-lookup"><span data-stu-id="49818-121">Result : Success</span></span>
+<span data-ttu-id="448d5-121">Résultat : opération réussie</span><span class="sxs-lookup"><span data-stu-id="448d5-121">Result : Success</span></span>
 
-<span data-ttu-id="49818-122">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="49818-122">Latency : 00:00:00</span></span>
+<span data-ttu-id="448d5-122">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="448d5-122">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="49818-123">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="49818-123">Error Message :</span></span>
+<span data-ttu-id="448d5-123">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="448d5-123">Error Message :</span></span>
 
-<span data-ttu-id="49818-124">Diagnostic</span><span class="sxs-lookup"><span data-stu-id="49818-124">Diagnosis :</span></span>
+<span data-ttu-id="448d5-124">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="448d5-124">Diagnosis :</span></span>
 
-<span data-ttu-id="49818-125">Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :</span><span class="sxs-lookup"><span data-stu-id="49818-125">If the specified user can't receive notifications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="448d5-125">Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché sous la forme échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :</span><span class="sxs-lookup"><span data-stu-id="448d5-125">If the specified user can't receive notifications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="49818-126">Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="49818-126">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="448d5-126">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="448d5-126">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="49818-127">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="49818-127">Result : Failure</span></span>
+<span data-ttu-id="448d5-127">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="448d5-127">Result : Failure</span></span>
 
-<span data-ttu-id="49818-128">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="49818-128">Latency : 00:00:00</span></span>
+<span data-ttu-id="448d5-128">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="448d5-128">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="49818-129">Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée</span><span class="sxs-lookup"><span data-stu-id="49818-129">Error Message : 10060, A connection attempt failed because the connected party</span></span>
+<span data-ttu-id="448d5-129">Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée</span><span class="sxs-lookup"><span data-stu-id="448d5-129">Error Message : 10060, A connection attempt failed because the connected party</span></span>
 
-<span data-ttu-id="49818-130">ne répond pas correctement après un certain temps, ou</span><span class="sxs-lookup"><span data-stu-id="49818-130">did not properly respond after a period of time, or</span></span>
+<span data-ttu-id="448d5-130">ne répond pas correctement au bout d’un certain temps, ou</span><span class="sxs-lookup"><span data-stu-id="448d5-130">did not properly respond after a period of time, or</span></span>
 
-<span data-ttu-id="49818-131">échec de la connexion établie, car l’hôte connecté a</span><span class="sxs-lookup"><span data-stu-id="49818-131">established connection failed because connected host has</span></span>
+<span data-ttu-id="448d5-131">échec de la connexion établie car l’hôte connecté a</span><span class="sxs-lookup"><span data-stu-id="448d5-131">established connection failed because connected host has</span></span>
 
-<span data-ttu-id="49818-132">échec de la réponse à 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="49818-132">failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="448d5-132">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="448d5-132">failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="49818-133">Exception interne : une tentative de connexion a échoué, car le</span><span class="sxs-lookup"><span data-stu-id="49818-133">Inner Exception:A connection attempt failed because the</span></span>
+<span data-ttu-id="448d5-133">Exception interne : une tentative de connexion a échoué car le</span><span class="sxs-lookup"><span data-stu-id="448d5-133">Inner Exception:A connection attempt failed because the</span></span>
 
-<span data-ttu-id="49818-134">la fête connectée ne répond pas correctement après un délai de</span><span class="sxs-lookup"><span data-stu-id="49818-134">connected party did not properly respond after a period of</span></span>
+<span data-ttu-id="448d5-134">la partie connectée n’a pas répondu correctement après une période de</span><span class="sxs-lookup"><span data-stu-id="448d5-134">connected party did not properly respond after a period of</span></span>
 
-<span data-ttu-id="49818-135">heure ou échec de la connexion en raison d’un hôte connecté</span><span class="sxs-lookup"><span data-stu-id="49818-135">time, or established connection failed because connected host</span></span>
+<span data-ttu-id="448d5-135">heure ou échec de la connexion établie car l’hôte connecté</span><span class="sxs-lookup"><span data-stu-id="448d5-135">time, or established connection failed because connected host</span></span>
 
-<span data-ttu-id="49818-136">échec de la réponse à 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="49818-136">has failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="448d5-136">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="448d5-136">has failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="49818-137">Diagnostic</span><span class="sxs-lookup"><span data-stu-id="49818-137">Diagnosis :</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="49818-138">Raisons pour lesquelles le test peut avoir échoué</span><span class="sxs-lookup"><span data-stu-id="49818-138">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="49818-139">Voici quelques raisons courantes pour lesquelles **les tests-CsExStorageNotification** peuvent échouer :</span><span class="sxs-lookup"><span data-stu-id="49818-139">Here are some common reasons why **Test-CsExStorageNotification** might fail:</span></span>
-
-  - <span data-ttu-id="49818-140">Une valeur de paramètre incorrecte a été fournie.</span><span class="sxs-lookup"><span data-stu-id="49818-140">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="49818-141">S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue.</span><span class="sxs-lookup"><span data-stu-id="49818-141">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="49818-142">Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.</span><span class="sxs-lookup"><span data-stu-id="49818-142">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
-
-  - <span data-ttu-id="49818-143">Si le serveur Microsoft Exchange Server n’est pas configuré correctement ou n’est pas encore déployé, cette commande échoue.</span><span class="sxs-lookup"><span data-stu-id="49818-143">This command will fail if the Microsoft Exchange Server is misconfigured or not yet deployed.</span></span>
+<span data-ttu-id="448d5-137">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="448d5-137">Diagnosis :</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="49818-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="49818-144">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="448d5-138">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="448d5-138">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="448d5-139">Voici quelques-unes des causes courantes de l’échec **de test-CsExStorageNotification** :</span><span class="sxs-lookup"><span data-stu-id="448d5-139">Here are some common reasons why **Test-CsExStorageNotification** might fail:</span></span>
+
+  - <span data-ttu-id="448d5-140">Une valeur de paramètre incorrecte a été fournie.</span><span class="sxs-lookup"><span data-stu-id="448d5-140">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="448d5-141">Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue.</span><span class="sxs-lookup"><span data-stu-id="448d5-141">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="448d5-142">Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.</span><span class="sxs-lookup"><span data-stu-id="448d5-142">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+  - <span data-ttu-id="448d5-143">Cette commande échoue si le serveur Microsoft Exchange est mal configuré ou s’il n’est pas encore déployé.</span><span class="sxs-lookup"><span data-stu-id="448d5-143">This command will fail if the Microsoft Exchange Server is misconfigured or not yet deployed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="448d5-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="448d5-144">See Also</span></span>
 
 
-[<span data-ttu-id="49818-145">Test-CsExStorageConnectivity</span><span class="sxs-lookup"><span data-stu-id="49818-145">Test-CsExStorageConnectivity</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsExStorageConnectivity)  
+[<span data-ttu-id="448d5-145">Test-CsExStorageConnectivity</span><span class="sxs-lookup"><span data-stu-id="448d5-145">Test-CsExStorageConnectivity</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsExStorageConnectivity)  
   
 
 </div>

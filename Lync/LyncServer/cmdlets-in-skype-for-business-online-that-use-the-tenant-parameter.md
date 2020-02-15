@@ -1,5 +1,5 @@
 ---
-title: Cmdlets dans Skype entreprise Online utilisant le paramètre locataire
+title: Applets de commande dans Skype entreprise Online qui utilisent le paramètre client
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,60 +13,60 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f325c55415f97822b1e8c9d21a6d2e80e27273
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000929"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a><span data-ttu-id="56e16-102">Cmdlets dans Skype entreprise Online utilisant le paramètre locataire</span><span class="sxs-lookup"><span data-stu-id="56e16-102">Cmdlets in Skype for Business Online that use the Tenant parameter</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a><span data-ttu-id="05479-102">Applets de commande dans Skype entreprise Online qui utilisent le paramètre client</span><span class="sxs-lookup"><span data-stu-id="05479-102">Cmdlets in Skype for Business Online that use the Tenant parameter</span></span>
 
  
 
 
-<span data-ttu-id="56e16-103">Lorsque vous modifiez les paramètres de votre fournisseur public, vous devez toujours fournir une identité de client ; C’est vrai, même si vous n’avez qu’un seul client.</span><span class="sxs-lookup"><span data-stu-id="56e16-103">When modifying your public provider settings, you always need to supply a Tenant identity; this is true even if you only have a single tenant.</span></span> <span data-ttu-id="56e16-104">Par exemple, cette commande définit Windows Live en tant que seul fournisseur public auquel les utilisateurs sont autorisés à communiquer :</span><span class="sxs-lookup"><span data-stu-id="56e16-104">For example, this command sets Windows Live as the only public provider your users are allowed to communicate with:</span></span>
+<span data-ttu-id="05479-103">Lors de la modification de vos paramètres de fournisseur public, vous devez toujours fournir une identité de client ; Cela est vrai même si vous n’avez qu’un seul client.</span><span class="sxs-lookup"><span data-stu-id="05479-103">When modifying your public provider settings, you always need to supply a Tenant identity; this is true even if you only have a single tenant.</span></span> <span data-ttu-id="05479-104">Par exemple, cette commande définit Windows Live en tant que seul fournisseur public avec lequel les utilisateurs sont autorisés à communiquer :</span><span class="sxs-lookup"><span data-stu-id="05479-104">For example, this command sets Windows Live as the only public provider your users are allowed to communicate with:</span></span>
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-<span data-ttu-id="56e16-105">Heureusement, vous n’avez pas besoin de taper l’ID de locataire (par exemple, bf19b7db-6960-41E5-A139-2aa373474354) chaque fois que vous exécutez l’une de ces applets de connexion.</span><span class="sxs-lookup"><span data-stu-id="56e16-105">Fortunately, you do not need to type the Tenant ID (for example, bf19b7db-6960-41e5-a139-2aa373474354) each time you run one of these cmdlets.</span></span> <span data-ttu-id="56e16-106">Au lieu de cela, vous pouvez récupérer l’ID de locataire en exécutant l’applet de demande [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) , en stockant l’ID de locataire dans une variable, puis en utilisant cette variable lorsque vous appelez l’une des autres cmdlets.</span><span class="sxs-lookup"><span data-stu-id="56e16-106">Instead, you can retrieve the Tenant ID by running the [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) cmdlet, storing the Tenant ID in a variable, and then using that variable when you call one of the other cmdlets.</span></span> <span data-ttu-id="56e16-107">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="56e16-107">For example:</span></span>
+<span data-ttu-id="05479-105">Heureusement, il n’est pas nécessaire de taper l’ID de client (par exemple, bf19b7db-6960-41E5-A139-2aa373474354) chaque fois que vous exécutez l’une de ces applets de commande.</span><span class="sxs-lookup"><span data-stu-id="05479-105">Fortunately, you do not need to type the Tenant ID (for example, bf19b7db-6960-41e5-a139-2aa373474354) each time you run one of these cmdlets.</span></span> <span data-ttu-id="05479-106">Au lieu de cela, vous pouvez récupérer l’ID de client en exécutant la cmdlet [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) , en stockant l’ID de client dans une variable, puis en utilisant cette variable lorsque vous appelez l’une des autres cmdlets.</span><span class="sxs-lookup"><span data-stu-id="05479-106">Instead, you can retrieve the Tenant ID by running the [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet, storing the Tenant ID in a variable, and then using that variable when you call one of the other cmdlets.</span></span> <span data-ttu-id="05479-107">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="05479-107">For example:</span></span>
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-<span data-ttu-id="56e16-108">Vous pouvez également effectuer cette opération dans une seule commande en récupérant l’ID de locataire, puis en canalisant cette valeur vers l’applet de commande Set-CsTenantPublicProvider :</span><span class="sxs-lookup"><span data-stu-id="56e16-108">Alternatively, you can do this in a single command by retrieving the Tenant ID and then piping that value to the Set-CsTenantPublicProvider cmdlet:</span></span>
+<span data-ttu-id="05479-108">Vous pouvez également effectuer cette opération dans une seule commande en récupérant l’ID de client, puis en canalisant cette valeur vers la cmdlet Set-CsTenantPublicProvider :</span><span class="sxs-lookup"><span data-stu-id="05479-108">Alternatively, you can do this in a single command by retrieving the Tenant ID and then piping that value to the Set-CsTenantPublicProvider cmdlet:</span></span>
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-<span data-ttu-id="56e16-109">Vous n’avez pas besoin de spécifier l’ID de locataire lorsque vous appelez l’applet **de action Get-CsTenant** .</span><span class="sxs-lookup"><span data-stu-id="56e16-109">You do not need to specify the tenant ID when calling the **Get-CsTenant** cmdlet.</span></span> <span data-ttu-id="56e16-110">Cette commande renvoie des informations sur votre client :</span><span class="sxs-lookup"><span data-stu-id="56e16-110">This command returns information about your tenant:</span></span>
+<span data-ttu-id="05479-109">Vous n’avez pas besoin de spécifier l’ID de client lors de l’appel de la cmdlet **Get-CsTenant** .</span><span class="sxs-lookup"><span data-stu-id="05479-109">You do not need to specify the tenant ID when calling the **Get-CsTenant** cmdlet.</span></span> <span data-ttu-id="05479-110">Cette commande retourne des informations sur votre client :</span><span class="sxs-lookup"><span data-stu-id="05479-110">This command returns information about your tenant:</span></span>
 
     Get-CsTenant
 
-<span data-ttu-id="56e16-111">Les applets de commande suivantes acceptent une identité de client.</span><span class="sxs-lookup"><span data-stu-id="56e16-111">The following cmdlets accept a tenant identity.</span></span> <span data-ttu-id="56e16-112">Néanmoins, dans ces cas-là, le paramètre est facultatif et n’a pas besoin d’être entré lorsque vous appelez l’applet de cmdlet.</span><span class="sxs-lookup"><span data-stu-id="56e16-112">However, in these cases, the parameter is optional and does not need to be entered when calling the cmdlet.</span></span> <span data-ttu-id="56e16-113">Au lieu de cela, Windows PowerShell entrera efficacement l’identité du client en fonction du client Skype entreprise Online auquel vous êtes actuellement connecté :</span><span class="sxs-lookup"><span data-stu-id="56e16-113">Instead, Windows PowerShell will effectively enter the tenant identity for you based on the Skype for Business Online tenant you are currently connected to:</span></span>
+<span data-ttu-id="05479-111">Les applets de commande suivantes acceptent une identité de client.</span><span class="sxs-lookup"><span data-stu-id="05479-111">The following cmdlets accept a tenant identity.</span></span> <span data-ttu-id="05479-112">Toutefois, dans ce cas, le paramètre est facultatif et n’a pas besoin d’être entré lors de l’appel de l’applet de commande.</span><span class="sxs-lookup"><span data-stu-id="05479-112">However, in these cases, the parameter is optional and does not need to be entered when calling the cmdlet.</span></span> <span data-ttu-id="05479-113">Au lieu de cela, Windows PowerShell entrera l’identité du client à votre place en fonction du client Skype entreprise Online auquel vous êtes actuellement connecté :</span><span class="sxs-lookup"><span data-stu-id="05479-113">Instead, Windows PowerShell will effectively enter the tenant identity for you based on the Skype for Business Online tenant you are currently connected to:</span></span>
 
-  - <span data-ttu-id="56e16-114">[Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-114">[Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-114">[Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-114">[Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="56e16-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="56e16-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994046\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994046\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="56e16-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="56e16-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="56e16-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="05479-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))</span></span>
 
-<span data-ttu-id="56e16-120">Par exemple, vous pouvez appeler l’applet de commande **Get-CsTenantFederationConfiguration** à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="56e16-120">For example, the **Get-CsTenantFederationConfiguration** cmdlet can be called by using this command:</span></span>
+<span data-ttu-id="05479-120">Par exemple, la cmdlet **Get-CsTenantFederationConfiguration** peut être appelée à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="05479-120">For example, the **Get-CsTenantFederationConfiguration** cmdlet can be called by using this command:</span></span>
 
     Get-CsTenantFederationConfiguration
 
-<span data-ttu-id="56e16-121">Même si ce n’est pas obligatoire, vous pouvez inclure le paramètre locataire lors de l’appel de Get-CsTenantFederationConfiguration :</span><span class="sxs-lookup"><span data-stu-id="56e16-121">Although not required, you can include the Tenant parameter when calling Get-CsTenantFederationConfiguration :</span></span>
+<span data-ttu-id="05479-121">Bien que cela ne soit pas obligatoire, vous pouvez inclure le paramètre client lors de l’appel de Get-CsTenantFederationConfiguration :</span><span class="sxs-lookup"><span data-stu-id="05479-121">Although not required, you can include the Tenant parameter when calling Get-CsTenantFederationConfiguration :</span></span>
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
-## <a name="see-also"></a><span data-ttu-id="56e16-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="56e16-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05479-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="05479-122">See Also</span></span>
 
 
-[<span data-ttu-id="56e16-123">Identités, étendues et clients dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="56e16-123">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="56e16-124">[Applets de commande de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="56e16-124">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="05479-123">Identités, étendues et locataires dans Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="05479-123">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="05479-124">[Applets de commande Skype entreprise Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="05479-124">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
 

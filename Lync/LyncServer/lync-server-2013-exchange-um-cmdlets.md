@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets de messagerie unifiée Exchange'
+title: 'Lync Server 2013 : applets de commande de messagerie unifiée Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc9d63189d66e6e5255ca7c0d34a717cc2eb514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c21d013c35d8f1379d049e0f252ac6c0d3356eb1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756248"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-um-cmdlets-in-lync-server-2013"></a><span data-ttu-id="2ec58-102">Cmdlets de messagerie unifiée Exchange dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ec58-102">Exchange UM cmdlets in Lync Server 2013</span></span>
+# <a name="exchange-um-cmdlets-in-lync-server-2013"></a><span data-ttu-id="3f987-102">Applets de commande de messagerie unifiée Exchange dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f987-102">Exchange UM cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41756248"
 
 <span> </span>
 
-<span data-ttu-id="2ec58-103">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="2ec58-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="3f987-103">_**Dernière modification de la rubrique :** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="3f987-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="2ec58-104">Microsoft Lync Server 2013 collabore avec la messagerie unifiée Exchange pour implémenter le standard automatique et l’accès de l’abonné pour la messagerie vocale hébergée.</span><span class="sxs-lookup"><span data-stu-id="2ec58-104">Microsoft Lync Server 2013 works together with Exchange Unified Messaging (UM) to implement Auto Attendant and Subscriber Access for hosted voice mail.</span></span> <span data-ttu-id="2ec58-105">Ces fonctionnalités peuvent être gérées par le biais de cmdlets dans Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="2ec58-105">These features can be managed through cmdlets in the Lync Server Management Shell.</span></span>
+<span data-ttu-id="3f987-104">Microsoft Lync Server 2013 fonctionne conjointement avec la messagerie unifiée Exchange pour implémenter le standard automatique et l’accès abonné pour la messagerie vocale hébergée.</span><span class="sxs-lookup"><span data-stu-id="3f987-104">Microsoft Lync Server 2013 works together with Exchange Unified Messaging (UM) to implement Auto Attendant and Subscriber Access for hosted voice mail.</span></span> <span data-ttu-id="3f987-105">Ces fonctionnalités peuvent être gérées par le biais d’applets de commande dans Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="3f987-105">These features can be managed through cmdlets in the Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="exchange-um-cmdlets"></a><span data-ttu-id="2ec58-106">Cmdlets de MU Exchange</span><span class="sxs-lookup"><span data-stu-id="2ec58-106">Exchange UM Cmdlets</span></span>
+## <a name="exchange-um-cmdlets"></a><span data-ttu-id="3f987-106">Applets de commande de la messagerie unifiée Exchange</span><span class="sxs-lookup"><span data-stu-id="3f987-106">Exchange UM Cmdlets</span></span>
 
-<span data-ttu-id="2ec58-107">Les applets de commande suivantes peuvent être utilisées pour gérer la messagerie unifiée Exchange</span><span class="sxs-lookup"><span data-stu-id="2ec58-107">The following cmdlets can be used to manage Exchange UM</span></span>
+<span data-ttu-id="3f987-107">Les applets de commande suivantes peuvent être utilisées pour gérer la messagerie unifiée Exchange</span><span class="sxs-lookup"><span data-stu-id="3f987-107">The following cmdlets can be used to manage Exchange UM</span></span>
 
-<span data-ttu-id="2ec58-108">**messagerie unifiée Exchange**</span><span class="sxs-lookup"><span data-stu-id="2ec58-108">**Exchange UM**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-109">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-109">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))</span></span>
+<span data-ttu-id="3f987-108">**Messagerie unifiée Exchange**</span><span class="sxs-lookup"><span data-stu-id="3f987-108">**Exchange UM**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-110">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-110">[Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-109">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-109">[Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-111">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-111">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-110">[Move-CsExUmContact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-110">[Move-CsExUmContact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-112">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-112">[Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-111">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-111">[New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-113">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-113">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-112">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-112">[Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3f987-113">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-113">[Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="2ec58-114">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-114">[Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))</span></span>
+  - <span data-ttu-id="3f987-114">[Test-CsExStorageConnectivity](https://technet.microsoft.com/library/JJ204740(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-114">[Test-CsExStorageConnectivity](https://technet.microsoft.com/library/JJ204740(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="2ec58-115">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-115">[Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))</span></span>
+  - <span data-ttu-id="3f987-115">[Test-CsExStorageNotification](https://technet.microsoft.com/library/JJ205331(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-115">[Test-CsExStorageNotification](https://technet.microsoft.com/library/JJ205331(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="2ec58-116">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-116">[Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))</span></span>
+  - <span data-ttu-id="3f987-116">[Test-CsExUMConnectivity](https://technet.microsoft.com/library/JJ204784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-116">[Test-CsExUMConnectivity](https://technet.microsoft.com/library/JJ204784(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="2ec58-117">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-117">[Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-118">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-118">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-119">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-119">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-120">[Nouveau-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-120">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-121">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-121">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="2ec58-122">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-122">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))</span></span>
+  - <span data-ttu-id="3f987-117">[Test-CsExUMVoiceMail](https://technet.microsoft.com/library/JJ205058(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-117">[Test-CsExUMVoiceMail](https://technet.microsoft.com/library/JJ205058(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="2ec58-123">[Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-123">[Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-118">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-118">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-124">[Nouveau-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-124">[New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-119">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-119">[Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-125">[Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-125">[Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-120">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-120">[New-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="2ec58-126">[Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2ec58-126">[Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412948(v=OCS.15))</span></span>
+    <span data-ttu-id="3f987-121">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-121">[Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3f987-122">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-122">[Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span></span>  
+    <span data-ttu-id="3f987-123">[Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425732(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-123">[Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425732(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3f987-124">[New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425849(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-124">[New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425849(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3f987-125">[Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg398573(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-125">[Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg398573(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="3f987-126">[Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg412948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3f987-126">[Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg412948(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2ec58-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2ec58-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f987-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3f987-127">See Also</span></span>
 
 
-[<span data-ttu-id="2ec58-128">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="2ec58-128">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="3f987-128">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="3f987-128">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Supprimer une entrée d’hôte autorisée
+title: Supprimer une entrée d’hôte autorisé
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849617676305cc2d7308c0c8b1a48bef327f3c87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71fa2b6aeb56a9adaef1f528c577b7d15c290533
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a><span data-ttu-id="7efe8-102">Supprimer une entrée d’hôte autorisée</span><span class="sxs-lookup"><span data-stu-id="7efe8-102">Remove an authorized host entry</span></span>
+# <a name="remove-an-authorized-host-entry"></a><span data-ttu-id="794b7-102">Supprimer une entrée d’hôte autorisé</span><span class="sxs-lookup"><span data-stu-id="794b7-102">Remove an authorized host entry</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41727184"
 
 <span> </span>
 
-<span data-ttu-id="7efe8-103">_**Dernière modification de la rubrique :** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="7efe8-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="794b7-103">_**Dernière modification de la rubrique :** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="794b7-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="7efe8-104">Cette rubrique explique comment supprimer une entrée d’hôte autorisé héritée (connue sous le nom d' *entrée d’application fiable* dans Lync Server 2013).</span><span class="sxs-lookup"><span data-stu-id="7efe8-104">This topic describes how to remove a legacy authorized host entry (known as a *trusted application entry* in Lync Server 2013).</span></span> <span data-ttu-id="7efe8-105">Vous devez supprimer les entrées d’hôte autorisées existantes pour toutes les passerelles SIP/CSTA dans votre déploiement d’Office Communications Server 2007 R2 lors de la migration du contrôle d’appel distant vers un déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7efe8-105">You must remove existing authorized host entries for any SIP/CSTA gateways in your Office Communications Server 2007 R2 deployment when you migrate remote call control to a Lync Server 2013 deployment.</span></span> <span data-ttu-id="7efe8-106">Vous devez utiliser les outils d’administration inclus dans Office Communications Server 2007 R2 pour supprimer les entrées d’hébergement autorisées existantes.</span><span class="sxs-lookup"><span data-stu-id="7efe8-106">You must use the administrative tools included with Office Communications Server 2007 R2 to remove the existing authorized host entries.</span></span>
+<span data-ttu-id="794b7-104">Cette rubrique explique comment supprimer une entrée d’hôte autorisé héritée (connue sous le nom d' *entrée d’application approuvée* dans Lync Server 2013).</span><span class="sxs-lookup"><span data-stu-id="794b7-104">This topic describes how to remove a legacy authorized host entry (known as a *trusted application entry* in Lync Server 2013).</span></span> <span data-ttu-id="794b7-105">Vous devez supprimer les entrées d’hôte autorisé existantes pour toutes les passerelles SIP/CSTA dans votre déploiement Office Communications Server 2007 R2 lorsque vous migrez le contrôle d’appel distant vers un déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="794b7-105">You must remove existing authorized host entries for any SIP/CSTA gateways in your Office Communications Server 2007 R2 deployment when you migrate remote call control to a Lync Server 2013 deployment.</span></span> <span data-ttu-id="794b7-106">Vous devez utiliser les outils d’administration inclus dans Office Communications Server 2007 R2 pour supprimer les entrées existantes de l’hôte autorisé.</span><span class="sxs-lookup"><span data-stu-id="794b7-106">You must use the administrative tools included with Office Communications Server 2007 R2 to remove the existing authorized host entries.</span></span>
 
 <div>
 
-## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a><span data-ttu-id="7efe8-107">Pour supprimer une entrée d’hôte autorisée dans un déploiement d’Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7efe8-107">To remove an authorized host entry in an Office Communications Server 2007 R2 deployment</span></span>
+## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a><span data-ttu-id="794b7-107">Pour supprimer une entrée d’hôte autorisé dans un déploiement d’Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="794b7-107">To remove an authorized host entry in an Office Communications Server 2007 R2 deployment</span></span>
 
-1.  <span data-ttu-id="7efe8-108">Ouvrez la console d’administration d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="7efe8-108">Open the Office Communications Server 2007 R2 administrative console.</span></span>
+1.  <span data-ttu-id="794b7-108">Ouvrez la console d’administration Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="794b7-108">Open the Office Communications Server 2007 R2 administrative console.</span></span>
 
-2.  <span data-ttu-id="7efe8-109">Développez l’arborescence, puis cliquez avec le bouton droit sur le pool dans lequel l’hôte autorisé a été créé.</span><span class="sxs-lookup"><span data-stu-id="7efe8-109">Expand the tree and right-click the pool where the authorized host was created.</span></span>
+2.  <span data-ttu-id="794b7-109">Développez l’arborescence et cliquez avec le bouton droit sur le pool dans lequel l’hôte autorisé a été créé.</span><span class="sxs-lookup"><span data-stu-id="794b7-109">Expand the tree and right-click the pool where the authorized host was created.</span></span>
 
-3.  <span data-ttu-id="7efe8-110">Cliquez sur **Propriétés**, puis sur **Propriétés du front end**.</span><span class="sxs-lookup"><span data-stu-id="7efe8-110">Click **Properties**, and then click **Front End Properties**.</span></span>
+3.  <span data-ttu-id="794b7-110">Cliquez sur **Propriétés**, puis sur **Propriétés du serveur frontal**.</span><span class="sxs-lookup"><span data-stu-id="794b7-110">Click **Properties**, and then click **Front End Properties**.</span></span>
 
-4.  <span data-ttu-id="7efe8-111">Cliquez sur l’onglet **autorisation d’hébergement** .</span><span class="sxs-lookup"><span data-stu-id="7efe8-111">Click the **Host Authorization** tab.</span></span>
+4.  <span data-ttu-id="794b7-111">Cliquez sur l’onglet **Autorisation de l’hôte**.</span><span class="sxs-lookup"><span data-stu-id="794b7-111">Click the **Host Authorization** tab.</span></span>
 
-5.  <span data-ttu-id="7efe8-112">Sélectionnez un serveur, puis cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="7efe8-112">Select a server, and then click **Remove**.</span></span>
+5.  <span data-ttu-id="794b7-112">Sélectionnez un serveur, puis cliquez sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="794b7-112">Select a server, and then click **Remove**.</span></span>
 
-6.  <span data-ttu-id="7efe8-113">Dans **Propriétés**, cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="7efe8-113">In **Properties**, click **OK**.</span></span>
+6.  <span data-ttu-id="794b7-113">Dans **Propriétés**, cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="794b7-113">In **Properties**, click **OK**.</span></span>
 
 </div>
 

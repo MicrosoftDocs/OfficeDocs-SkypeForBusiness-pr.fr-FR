@@ -1,5 +1,5 @@
 ---
-title: Déploiement de clients Lync Server 2013
+title: Déployer les clients Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185375
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcea8daa265c7e4b59bae7bc7464bacc61fe7cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13ddf7fd99172ee5c0372d848b9139bf02f655c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723004"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="cc7b2-102">Déploiement de clients Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc7b2-102">Deploy Lync Server 2013 clients</span></span>
+# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="cd9ee-102">Déployer les clients Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd9ee-102">Deploy Lync Server 2013 clients</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41723004"
 
 <span> </span>
 
-<span data-ttu-id="cc7b2-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="cc7b2-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="cd9ee-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="cd9ee-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="cc7b2-104">Pour plus d’informations, reportez-vous à la section [déploiement de clients et d’appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="cc7b2-104">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="cd9ee-104">Pour plus d’informations, voir [Deploying clients and Devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="cd9ee-104">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
 
 </div>
 

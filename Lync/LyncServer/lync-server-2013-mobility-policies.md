@@ -12,20 +12,20 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f96061011087bc3e23f4e57172b85cc9a379a83f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="4ce42-102">Stratégies de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ce42-102">Mobility policies in Lync Server 2013</span></span>
+# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="8ca54-102">Stratégies de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca54-102">Mobility policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41758676"
 
 <span> </span>
 
-<span data-ttu-id="4ce42-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="4ce42-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="8ca54-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="8ca54-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="4ce42-104">Utilisez les procédures suivantes pour configurer les stratégies de mobilité pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4ce42-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
+<span data-ttu-id="8ca54-104">Utilisez les procédures suivantes pour configurer les stratégies de mobilité pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8ca54-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4ce42-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="4ce42-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8ca54-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8ca54-105">In This Section</span></span>
 
-  - [<span data-ttu-id="4ce42-106">Création ou modification d’une stratégie de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ce42-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
+  - [<span data-ttu-id="8ca54-106">Création ou modification d’une stratégie de mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca54-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [<span data-ttu-id="4ce42-107">Affecter une stratégie de mobilité par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ce42-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [<span data-ttu-id="8ca54-107">Attribuer une stratégie de mobilité par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca54-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [<span data-ttu-id="4ce42-108">Renforcer le verrouillage du téléphone dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ce42-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="8ca54-108">Appliquer le verrouillage du téléphone dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca54-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4ce42-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4ce42-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8ca54-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8ca54-109">See Also</span></span>
 
 
-[<span data-ttu-id="4ce42-110">Planification de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ce42-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
+[<span data-ttu-id="8ca54-110">Planification de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca54-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

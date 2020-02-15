@@ -13,20 +13,20 @@ ms:contentKeyID: 48184883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b808f4cc0eea74253ecf8f360278983f0bf92b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55c1749a24e89f68ccae858b94d41208fc4b6123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724204"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42004389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="9a650-102">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="9a650-102">Administering servers after migration</span></span>
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="4bd6d-102">Administration des serveurs après la migration</span><span class="sxs-lookup"><span data-stu-id="4bd6d-102">Administering servers after migration</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724204"
 
 <span> </span>
 
-<span data-ttu-id="9a650-103">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="9a650-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="4bd6d-103">_**Dernière modification de la rubrique :** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="4bd6d-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="9a650-104">En règle générale, vous devez utiliser l’outil d’administration qui correspond à la version du serveur que vous voulez gérer.</span><span class="sxs-lookup"><span data-stu-id="9a650-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="9a650-105">Vous ne pouvez pas installer les outils d’administration de Lync Server 2013 et Office Communications Server 2007 R2 sur le même ordinateur.</span><span class="sxs-lookup"><span data-stu-id="9a650-105">You cannot install the Lync Server 2013 and Office Communications Server 2007 R2 administrative tools on the same computer.</span></span> <span data-ttu-id="9a650-106">Par ailleurs, le panneau de configuration de Lync Server 2013 n’est pas installé automatiquement sur chaque serveur.</span><span class="sxs-lookup"><span data-stu-id="9a650-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="9a650-107">Pour installer le panneau de configuration de Lync Server 2013, suivez la procédure décrite dans la rubrique [installer les outils d’administration de Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="9a650-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="4bd6d-104">En règle générale, vous devez utiliser les outils d’administration qui correspondent à la version du serveur à gérer.</span><span class="sxs-lookup"><span data-stu-id="4bd6d-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="4bd6d-105">Vous ne pouvez pas installer les outils d’administration Lync Server 2013 et Office Communications Server 2007 R2 sur le même ordinateur.</span><span class="sxs-lookup"><span data-stu-id="4bd6d-105">You cannot install the Lync Server 2013 and Office Communications Server 2007 R2 administrative tools on the same computer.</span></span> <span data-ttu-id="4bd6d-106">De plus, le panneau de configuration Lync Server 2013 n’est pas installé automatiquement sur chaque serveur.</span><span class="sxs-lookup"><span data-stu-id="4bd6d-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="4bd6d-107">Pour installer le panneau de configuration Lync Server 2013, suivez la procédure décrite dans la rubrique [install Lync server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="4bd6d-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
 
 </div>
 

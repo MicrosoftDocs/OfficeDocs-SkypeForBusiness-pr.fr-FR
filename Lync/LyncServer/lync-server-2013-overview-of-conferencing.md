@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vue d’ensemble des conférences'
+title: 'Lync Server 2013 : vue d’ensemble des conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43209ccc816e1c5d2c877aa0ac9089c81db4cd08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc6702a1958dc9e2582cf3d59720f729dbdb5e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755578"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="5a982-102">Vue d’ensemble des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5a982-102">Overview of conferencing in Lync Server 2013</span></span>
+# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="f5bee-102">Vue d’ensemble des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5bee-102">Overview of conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755578"
 
 <span> </span>
 
-<span data-ttu-id="5a982-103">_**Dernière modification de la rubrique :** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="5a982-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="f5bee-103">_**Dernière modification de la rubrique :** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="f5bee-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="5a982-104">Lorsque vous déployez des conférences, vous pouvez choisir d’activer et d’utiliser des conférences Web et des conférences A/V, ou uniquement des conférences Web.</span><span class="sxs-lookup"><span data-stu-id="5a982-104">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing.</span></span> <span data-ttu-id="5a982-105">Une conférence rendez-vous est un sous-ensemble d’une conférence audio nécessitant une configuration supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="5a982-105">Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
+<span data-ttu-id="f5bee-p101">Quand vous déployez la conférence, vous pouvez choisir d’activer et d’utiliser la conférence web et la conférence A/V, ou uniquement la conférence web. Une conférence rendez-vous est un sous-ensemble d’une audioconférence et nécessite une configuration supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="f5bee-p101">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing. Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
 
-<span data-ttu-id="5a982-106">Toutes les formes de conférences activées permettent aux utilisateurs de profiter de l’environnement de conférence le plus riche possible avec n’importe quelle combinaison de messages instantanés, d’audio, de vidéo, de partage de bureau, de présentations, de partage de pièces jointes et de partage d’applications.</span><span class="sxs-lookup"><span data-stu-id="5a982-106">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications.</span></span> <span data-ttu-id="5a982-107">Les conférences peuvent être planifiées ou imprévues, et les utilisateurs peuvent facilement ajouter des formes de communication à une conférence en temps réel.</span><span class="sxs-lookup"><span data-stu-id="5a982-107">Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens.</span></span> <span data-ttu-id="5a982-108">Par exemple, en commençant par un message instantané, en ajoutant une collaboration sur des documents, puis en ajoutant de la voix ou de la vidéo.</span><span class="sxs-lookup"><span data-stu-id="5a982-108">For example, starting with IM, adding document collaboration, and then adding voice or video.</span></span> <span data-ttu-id="5a982-109">Vous pouvez également ajouter des participants à des conférences en temps réel.</span><span class="sxs-lookup"><span data-stu-id="5a982-109">New participants can also be added to ongoing conferences in real time.</span></span>
+<span data-ttu-id="f5bee-p102">Si toutes les formes de conférence sont activées, vos utilisateurs peuvent bénéficier de l’environnement de conférence le plus complet possible grâce à la combinaison de la messagerie instantanée, de l’audio, de la vidéo, du partage de Bureau, de la présentation de diapositives, du partage de pièces jointes et du partage d’applications. Les conférences peuvent être planifiées ou improvisées, et les utilisateurs peuvent facilement ajouter des modes de communication à une conférence pendant son déroulement. Par exemple, il est possible de commencer par la messagerie instantanée, d’ajouter une collaboration sur des documents, puis d’ajouter la voix ou la vidéo. De nouveaux participants peuvent aussi être ajoutés aux conférences en cours en temps réel.</span><span class="sxs-lookup"><span data-stu-id="f5bee-p102">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications. Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens. For example, starting with IM, adding document collaboration, and then adding voice or video. New participants can also be added to ongoing conferences in real time.</span></span>
 
-<span data-ttu-id="5a982-110">Les rubriques suivantes offrent une vue d’ensemble des fonctionnalités et fonctionnalités spécifiques de conférences Web, de conférences A/V et de conférences rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="5a982-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="f5bee-110">Les rubriques suivantes fournissent une vue d’ensemble des fonctionnalités et capacités spécifiques de la conférence web, de la conférence A/V et de la conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="f5bee-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5a982-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5a982-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f5bee-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f5bee-111">In This Section</span></span>
 
-  - [<span data-ttu-id="5a982-112">Concepts de conférence courants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5a982-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
+  - [<span data-ttu-id="f5bee-112">Concepts communs de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5bee-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
 
-  - [<span data-ttu-id="5a982-113">Présentation de la conférence Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5a982-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
+  - [<span data-ttu-id="f5bee-113">Vue d’ensemble de la conférence Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5bee-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
 
-  - [<span data-ttu-id="5a982-114">Présentation de la fonctionnalité de conférence A/V dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5a982-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
+  - [<span data-ttu-id="f5bee-114">Vue d’ensemble de la conférence A/V dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5bee-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
 
-  - [<span data-ttu-id="5a982-115">Présentation de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5a982-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
+  - [<span data-ttu-id="f5bee-115">Vue d’ensemble de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5bee-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
 
 </div>
 

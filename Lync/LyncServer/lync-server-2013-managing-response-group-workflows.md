@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : gestion des flux de travail de groupe réponse'
+title: 'Lync Server 2013 : gestion des flux de travail Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765585"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991979"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="067a2-102">Gestion des flux de travail de groupe de réponses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-102">Managing Response Group workflows in Lync Server 2013</span></span>
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="ef8e4-102">Gestion des flux de travail Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-102">Managing Response Group workflows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41765585"
 
 <span> </span>
 
-<span data-ttu-id="067a2-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="067a2-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="ef8e4-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ef8e4-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="067a2-104">Un flux de travail de groupe de réponse définit le comportement d’un appel à partir du moment où le téléphone sonne au moment où l’agent répond à l’appel.</span><span class="sxs-lookup"><span data-stu-id="067a2-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="067a2-105">Le flux de travail inclut des informations de files d’attente et de routage, ainsi que des informations de groupe de recherche ou de réponse vocale interactive.</span><span class="sxs-lookup"><span data-stu-id="067a2-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
+<span data-ttu-id="ef8e4-104">Un flux de travail Response Group définit le comportement d’un appel à partir du moment où le téléphone sonne jusqu’à ce qu’un agent réponde à l’appel.</span><span class="sxs-lookup"><span data-stu-id="ef8e4-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="ef8e4-105">Le flux de travail inclut les informations de file d’attente et de routage, ainsi que les informations de groupe de recherche ou de réponse vocale interactive (IVR).</span><span class="sxs-lookup"><span data-stu-id="ef8e4-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
 
-<span data-ttu-id="067a2-106">Les rubriques de cette section décrivent les meilleures pratiques en matière de conception de flux de travail IVR et expliquent comment créer ou modifier des horaires de travail personnalisés et comment les supprimer.</span><span class="sxs-lookup"><span data-stu-id="067a2-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
+<span data-ttu-id="ef8e4-106">Les rubriques de cette section identifient les meilleures pratiques en matière de conception de flux de travail de réponse vocale interactive. En outre, elles expliquent comment créer des heures d’ouverture et des périodes de congé personnalisées, comment créer ou modifier des flux de travail, et comment supprimer des groupes de travail.</span><span class="sxs-lookup"><span data-stu-id="ef8e4-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="067a2-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="067a2-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ef8e4-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ef8e4-107">In This Section</span></span>
 
-  - [<span data-ttu-id="067a2-108">Conception des flux d’appels du système de réponse vocale interactive dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="ef8e4-108">Concevoir des flux d’appels de réponse vocale interactive dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="067a2-109">Facultatif Définir les heures d’activité du groupe de réponses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="ef8e4-109">Module Définition des heures d’ouverture d’un groupe Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [<span data-ttu-id="067a2-110">Facultatif Définir des jeux de vacances de groupe de réponse dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="ef8e4-110">Module Définir les groupes de congés Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [<span data-ttu-id="067a2-111">Créer ou modifier un flux de travail dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
+  - [<span data-ttu-id="ef8e4-111">Création ou modification d’un flux de travail dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
 
-  - [<span data-ttu-id="067a2-112">Supprimer un flux de travail dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="067a2-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
+  - [<span data-ttu-id="ef8e4-112">Supprimer un flux de travail dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef8e4-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
 
 </div>
 

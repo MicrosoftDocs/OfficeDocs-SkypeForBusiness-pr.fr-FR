@@ -12,20 +12,20 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 389c6e5c017594bf386109541a379bd5ae2f7e01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a><span data-ttu-id="922bc-102">Configurer le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="922bc-102">Configure Mediation Server</span></span>
+# <a name="configure-mediation-server"></a><span data-ttu-id="871ca-102">Configurer le serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="871ca-102">Configure Mediation Server</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728164"
 
 <span> </span>
 
-<span data-ttu-id="922bc-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="922bc-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="871ca-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="871ca-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="922bc-104">Cette procédure décrit la procédure de configuration du pool Lync Server 2013 de manière à utiliser le serveur de médiation Lync Server 2013 au lieu du serveur de médiation traditionnel d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="922bc-104">This procedure details the steps to configure the Lync Server 2013 pool to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="871ca-104">Cette procédure décrit en détail les étapes à suivre pour configurer le pool Lync Server 2013 afin qu’il utilise le serveur de médiation Lync Server 2013, au lieu du serveur de médiation Office Communications Server 2007 R2 hérité.</span><span class="sxs-lookup"><span data-stu-id="871ca-104">This procedure details the steps to configure the Lync Server 2013 pool to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
 
-<span data-ttu-id="922bc-105">Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine.</span><span class="sxs-lookup"><span data-stu-id="922bc-105">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="922bc-106">Il est également possible de déléguer les droits d’administrateur et les autorisations nécessaires pour ajouter des rôles de serveur.</span><span class="sxs-lookup"><span data-stu-id="922bc-106">It is also possible to delegate the proper administrator rights and permissions for adding server roles.</span></span> <span data-ttu-id="922bc-107">Pour plus d’informations, voir autorisations de configuration de délégué dans la documentation de déploiement Standard Edition Server ou Enterprise Edition Server.</span><span class="sxs-lookup"><span data-stu-id="922bc-107">For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation.</span></span> <span data-ttu-id="922bc-108">Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.</span><span class="sxs-lookup"><span data-stu-id="922bc-108">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
+<span data-ttu-id="871ca-p101">Pour réussir à publier, activer ou désactiver une topologie quand vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les droits et autorisations d’administrateur appropriés pour ajouter des rôles serveur. Pour plus d’informations, voir Déléguer des autorisations de configuration dans la documentation de déploiement consacrée aux serveurs Standard Edition ou Enterprise Edition. Pour toutes les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est nécessaire.</span><span class="sxs-lookup"><span data-stu-id="871ca-p101">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="922bc-109">Pour obtenir les dernières informations sur la recherche de passerelles RTC, de PBX IP et de services d’agrégation de messages SIP qualifiés compatibles avec Lync Server 2013, voir « Microsoft Unified Communications Open <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Interoperability » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="922bc-109">For the latest information on finding qualified PSTN gateways, IP-PBXs, and SIP trunking services that work with Lync Server 2013, see "Microsoft Unified Communications Open Interoperability Program" at <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>.</span></span>
+> <span data-ttu-id="871ca-109">Pour obtenir les dernières informations sur la recherche de passerelles RTC qualifiées, de PBX IP et de services de jonction SIP fonctionnant avec Lync Server 2013, voir « Microsoft Unified Communications Open Interoperability <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Program » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="871ca-109">For the latest information on finding qualified PSTN gateways, IP-PBXs, and SIP trunking services that work with Lync Server 2013, see "Microsoft Unified Communications Open Interoperability Program" at <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>.</span></span>
 
 
 
@@ -53,41 +53,41 @@ ms.locfileid: "41728164"
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a><span data-ttu-id="922bc-110">Pour configurer la médiation serveur à l’aide du générateur de topologie</span><span class="sxs-lookup"><span data-stu-id="922bc-110">To configure Mediation Server Using Topology Builder</span></span>
+## <a name="to-configure-mediation-server-using-topology-builder"></a><span data-ttu-id="871ca-110">Pour configurer le serveur de médiation à l’aide du Générateur de topologie</span><span class="sxs-lookup"><span data-stu-id="871ca-110">To configure Mediation Server Using Topology Builder</span></span>
 
-1.  <span data-ttu-id="922bc-111">Ouvrez une topologie existante à partir du générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="922bc-111">Open an existing topology from Topology Builder.</span></span>
+1.  <span data-ttu-id="871ca-111">Ouvrez une topologie existante à partir du Générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="871ca-111">Open an existing topology from Topology Builder.</span></span>
 
-2.  <span data-ttu-id="922bc-112">Dans le volet gauche, sélectionnez **passerelles RTC**.</span><span class="sxs-lookup"><span data-stu-id="922bc-112">In the left pane, navigate to **PSTN gateways**.</span></span>
+2.  <span data-ttu-id="871ca-112">Dans le volet gauche, accédez à **Passerelles PSTN**.</span><span class="sxs-lookup"><span data-stu-id="871ca-112">In the left pane, navigate to **PSTN gateways**.</span></span>
 
-3.  <span data-ttu-id="922bc-113">Cliquez avec le bouton droit sur **passerelles RTC**, puis cliquez sur **nouvelle passerelle IP/PSTN**.</span><span class="sxs-lookup"><span data-stu-id="922bc-113">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
+3.  <span data-ttu-id="871ca-113">Cliquez avec le bouton droit sur **Passerelles PSTN**, puis cliquez sur **Nouvelle passerelle IP/PSTN**.</span><span class="sxs-lookup"><span data-stu-id="871ca-113">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
 
-4.  <span data-ttu-id="922bc-114">Complétez la page **définir une nouvelle passerelle IP/RTC** en utilisant les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="922bc-114">Complete the **Define New IP/PSTN Gateway** page with the following information:</span></span>
+4.  <span data-ttu-id="871ca-114">Complétez la page **Définir une nouvelle passerelle IP/PSTN** à l’aide des informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="871ca-114">Complete the **Define New IP/PSTN Gateway** page with the following information:</span></span>
     
-      - <span data-ttu-id="922bc-115">Entrez le nom de domaine complet ou l’adresse IP de la passerelle.</span><span class="sxs-lookup"><span data-stu-id="922bc-115">Enter the gateway FQDN or IP address.</span></span> <span data-ttu-id="922bc-116">Le FQDN de la passerelle est requis si la passerelle utilise le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="922bc-116">The FQDN of the gateway is required if the gateway uses the TLS protocol.</span></span>
+      - <span data-ttu-id="871ca-p102">Entrez le nom de domaine complet ou l’adresse IP de la passerelle. Le nom de domaine complet de la passerelle est requis si celle-ci utilise le protocole TLS.</span><span class="sxs-lookup"><span data-stu-id="871ca-p102">Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.</span></span>
     
-      - <span data-ttu-id="922bc-117">Acceptez la valeur par défaut du **port d’écoute pour la passerelle IP/PSTN** ou entrez le nouveau port d’écoute s’il a été modifié.</span><span class="sxs-lookup"><span data-stu-id="922bc-117">Accept the default value of the **Listening port for IP/PSTN gateway** or enter the new listening port if it was modified.</span></span>
+      - <span data-ttu-id="871ca-117">Acceptez la valeur **Port d’écoute de la passerelle IP/PSTN** par défaut ou entrez le nouveau port d’écoute s’il a été modifié.</span><span class="sxs-lookup"><span data-stu-id="871ca-117">Accept the default value of the **Listening port for IP/PSTN gateway** or enter the new listening port if it was modified.</span></span>
     
-      - <span data-ttu-id="922bc-118">Définissez le **protocole de transport SIP**.</span><span class="sxs-lookup"><span data-stu-id="922bc-118">Set the **Sip Transport Protocol**.</span></span>
+      - <span data-ttu-id="871ca-118">Définissez la valeur **Protocole de transport SIP**.</span><span class="sxs-lookup"><span data-stu-id="871ca-118">Set the **Sip Transport Protocol**.</span></span>
 
-5.  <span data-ttu-id="922bc-119">Dans le volet gauche, accédez au **pool frontal d’Enterprise Edition** ou au **serveur Standard Edition Server**.</span><span class="sxs-lookup"><span data-stu-id="922bc-119">In the left pane, navigate to the **Enterprise Edition Front End pool** or the **Standard Edition Server**.</span></span>
+5.  <span data-ttu-id="871ca-119">Dans le volet gauche, accédez au **Pool frontal Enterprise Edition** ou au **Serveur Standard Edition**.</span><span class="sxs-lookup"><span data-stu-id="871ca-119">In the left pane, navigate to the **Enterprise Edition Front End pool** or the **Standard Edition Server**.</span></span>
 
-6.  <span data-ttu-id="922bc-120">Cliquez avec le bouton droit sur la liste, puis cliquez sur **modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="922bc-120">Right-click the pool, and then click **Edit Properties**.</span></span>
+6.  <span data-ttu-id="871ca-120">Cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**.</span><span class="sxs-lookup"><span data-stu-id="871ca-120">Right-click the pool, and then click **Edit Properties**.</span></span>
 
-7.  <span data-ttu-id="922bc-121">Sous **serveur de médiation**, définissez les **ports Listening**.</span><span class="sxs-lookup"><span data-stu-id="922bc-121">Under **Mediation Server**, set the **Listening ports**.</span></span>
+7.  <span data-ttu-id="871ca-121">Sous **Serveur de médiation**, définissez les **Ports d’écoute**.</span><span class="sxs-lookup"><span data-stu-id="871ca-121">Under **Mediation Server**, set the **Listening ports**.</span></span>
 
-8.  <span data-ttu-id="922bc-122">Ensuite, associez la passerelle RTC nouvellement créée en la sélectionnant et en cliquant sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="922bc-122">Next, associate the newly created PSTN gateway by selecting it and clicking **Add**.</span></span>
+8.  <span data-ttu-id="871ca-122">Ensuite, associez la nouvelle passerelle PSTN créée en la sélectionnant, puis en cliquant sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="871ca-122">Next, associate the newly created PSTN gateway by selecting it and clicking **Add**.</span></span>
 
-9.  <span data-ttu-id="922bc-123">Dans **Générateur de topologie**, sélectionnez le **serveur Lync**le plus en tête de nœud.</span><span class="sxs-lookup"><span data-stu-id="922bc-123">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
+9.  <span data-ttu-id="871ca-123">Dans le **Générateur de topologie**, sélectionnez le nœud de niveau supérieur **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="871ca-123">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
 
-10. <span data-ttu-id="922bc-124">Dans le menu **action** , sélectionnez la **topologie de publication** , puis cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="922bc-124">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
+10. <span data-ttu-id="871ca-124">Dans le menu **Action**, sélectionnez **Publier la topologie**, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="871ca-124">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
 
-11. <span data-ttu-id="922bc-125">Lorsque l' **Assistant Publication** est terminé, cliquez sur **Terminer** pour fermer l’Assistant.</span><span class="sxs-lookup"><span data-stu-id="922bc-125">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+11. <span data-ttu-id="871ca-125">Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.</span><span class="sxs-lookup"><span data-stu-id="871ca-125">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="922bc-126">Il est important que vous complétiez le sujet suivant, que vous <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Modifiez les itinéraires vocaux pour utiliser le nouveau serveur de médiation Lync Server 2013</A> pour vous assurer que les itinéraires vocaux pointent vers le serveur de médiation approprié.</span><span class="sxs-lookup"><span data-stu-id="922bc-126">It is important that you complete the next topic, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Change voice routes to use the new Lync Server 2013 Mediation Server</A> to ensure that the voice routes are pointing to the correct Mediation Server.</span></span>
+> <span data-ttu-id="871ca-126">Il est important que vous terminiez la rubrique suivante, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">change Voice routes to use the New Lync server 2013 Mediation Server</A> pour vous assurer que les itinéraires des communications vocales pointent vers le serveur de médiation approprié.</span><span class="sxs-lookup"><span data-stu-id="871ca-126">It is important that you complete the next topic, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Change voice routes to use the new Lync Server 2013 Mediation Server</A> to ensure that the voice routes are pointing to the correct Mediation Server.</span></span>
 
 
 

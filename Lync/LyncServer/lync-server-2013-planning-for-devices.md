@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : planification pour les appareils'
+title: 'Lync Server 2013 : planification des périphériques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632c76e04c58abd5458de78d17c4a8f6bb079e6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2ad6cf0792898994ba2b31f94cccf878337d1d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754134"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-devices-in-lync-server-2013"></a><span data-ttu-id="15d25-102">Planification des appareils dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15d25-102">Planning for devices in Lync Server 2013</span></span>
+# <a name="planning-for-devices-in-lync-server-2013"></a><span data-ttu-id="32fa3-102">Planification des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32fa3-102">Planning for devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41754134"
 
 <span> </span>
 
-<span data-ttu-id="15d25-103">_**Dernière modification de la rubrique :** 2013-02-28_</span><span class="sxs-lookup"><span data-stu-id="15d25-103">_**Topic Last Modified:** 2013-02-28_</span></span>
+<span data-ttu-id="32fa3-103">_**Dernière modification de la rubrique :** 2013-02-28_</span><span class="sxs-lookup"><span data-stu-id="32fa3-103">_**Topic Last Modified:** 2013-02-28_</span></span>
 
-<span data-ttu-id="15d25-104">Lync Server 2013 inclut Lync Phone Edition, un logiciel qui s’exécute sur les appareils qualifiés et fournit des fonctionnalités de téléphonie traditionnelles et avancées, une sécurité intégrée, une gestion, etc.</span><span class="sxs-lookup"><span data-stu-id="15d25-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="15d25-105">Le fonctionnement de Lync Phone Edition fonctionne de la même façon que pour Lync Server 2013 comme pour Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="15d25-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="15d25-106">Pour plus d’informations sur la planification des appareils, voir [planification des appareils](http://go.microsoft.com/fwlink/p/?linkid=285880) dans la bibliothèque TechNet de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="15d25-106">For details about planning for devices, see [Planning for Devices](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span></span>
+<span data-ttu-id="32fa3-104">Lync Server 2013 comprend Lync Phone Edition, un logiciel qui s’exécute sur des appareils qualifiés et fournit des fonctionnalités de téléphonie traditionnelles et avancées, une sécurité intégrée, une facilité de gestion et bien plus encore.</span><span class="sxs-lookup"><span data-stu-id="32fa3-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="32fa3-105">Lync Phone Edition fonctionne de la même manière que Lync Server 2013 que dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="32fa3-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="32fa3-106">Pour plus d’informations sur la planification des appareils, voir [Planning for Devices](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span><span class="sxs-lookup"><span data-stu-id="32fa3-106">For details about planning for devices, see [Planning for Devices](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="15d25-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="15d25-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32fa3-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="32fa3-107">See Also</span></span>
 
 
-[<span data-ttu-id="15d25-108">Déploiement de périphériques</span><span class="sxs-lookup"><span data-stu-id="15d25-108">Deploying Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[<span data-ttu-id="15d25-109">Prise en charge de logiciels et d’infrastructure pour les clients et périphériques</span><span class="sxs-lookup"><span data-stu-id="15d25-109">Client and Device Software and Infrastructure Support</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[<span data-ttu-id="32fa3-108">Déploiement des appareils</span><span class="sxs-lookup"><span data-stu-id="32fa3-108">Deploying Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285881)  
+[<span data-ttu-id="32fa3-109">Prise en charge du logiciel et de l’infrastructure des clients et des appareils</span><span class="sxs-lookup"><span data-stu-id="32fa3-109">Client and Device Software and Infrastructure Support</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

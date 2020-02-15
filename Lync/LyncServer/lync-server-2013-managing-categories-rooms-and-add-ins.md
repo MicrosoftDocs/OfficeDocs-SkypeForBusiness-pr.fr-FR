@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des catégories, des salles et des compléments'
+title: 'Lync Server 2013 : gestion des catégories, des salles et des compléments'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738764"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="d46a1-102">Gestion des catégories, des salles et des compléments dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="09080-102">Gestion des catégories, des salles et des compléments dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41738764"
 
 <span> </span>
 
-<span data-ttu-id="d46a1-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="d46a1-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="09080-103">_**Dernière modification de la rubrique :** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="09080-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="d46a1-104">Dans Lync Server 2013 panneau de configuration, ou à l’aide des applets de commande Windows PowerShell, les administrateurs de discussions permanentes peuvent utiliser la page de **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanentes, les administrateurs peuvent utiliser les applets de cmdlet Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d46a1-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="d46a1-105">Par ailleurs, si l’administrateur de chat permanent est compatible SIP, il peut utiliser le client Lync pour lancer une page Web afin de créer et gérer des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="d46a1-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
+<span data-ttu-id="09080-104">Dans le panneau de configuration Lync Server 2013 ou à l’aide des applets de commande Windows PowerShell, les administrateurs de conversation permanente peuvent utiliser la page **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanente, les administrateurs peuvent utiliser des applets de commande Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="09080-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="09080-105">Par ailleurs, si l’administrateur de conversation permanente est également compatible SIP, il peut utiliser le client Lync pour lancer une page Web afin de créer et gérer des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="09080-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
 
-<span data-ttu-id="d46a1-106">Les rubriques suivantes expliquent comment créer et utiliser des catégories et des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="d46a1-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
+<span data-ttu-id="09080-106">Les rubriques suivantes décrivent comment créer et utiliser des catégories et des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="09080-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d46a1-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d46a1-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="09080-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="09080-107">In This Section</span></span>
 
-  - [<span data-ttu-id="d46a1-108">Création ou modification d’une catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
+  - [<span data-ttu-id="09080-108">Création ou modification d’une nouvelle catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [<span data-ttu-id="d46a1-109">Création ou modification d’une salle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [<span data-ttu-id="09080-109">Création ou modification d’une nouvelle salle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [<span data-ttu-id="d46a1-110">Création de compléments pour les salles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [<span data-ttu-id="09080-110">Création de compléments pour les salles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [<span data-ttu-id="d46a1-111">Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type auditorium dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [<span data-ttu-id="09080-111">Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type Auditorium dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [<span data-ttu-id="d46a1-112">Désactivation ou activation d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [<span data-ttu-id="09080-112">Désactivation ou activation d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [<span data-ttu-id="d46a1-113">Déplacement d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [<span data-ttu-id="09080-113">Migration d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [<span data-ttu-id="d46a1-114">Suppression d’une catégorie ou d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [<span data-ttu-id="09080-114">Suppression d’une salle de conversation ou d’une catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [<span data-ttu-id="d46a1-115">Suppression d’un message ou purge de messages obsolètes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d46a1-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [<span data-ttu-id="09080-115">Suppression d’un message ou purge de messages obsolètes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09080-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

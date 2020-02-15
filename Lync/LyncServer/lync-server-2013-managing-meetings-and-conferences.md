@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des réunions et des conférences'
+title: 'Lync Server 2013 : gestion des réunions et des conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762062"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="e7153-102">Gestion des réunions et des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7153-102">Managing meetings and conferences in Lync Server 2013</span></span>
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a><span data-ttu-id="a2d22-102">Gestion des réunions et des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d22-102">Managing meetings and conferences in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762062"
 
 <span> </span>
 
-<span data-ttu-id="e7153-103">_**Dernière modification de la rubrique :** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="e7153-103">_**Topic Last Modified:** 2013-08-09_</span></span>
+<span data-ttu-id="a2d22-103">_**Dernière modification de la rubrique :** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="a2d22-103">_**Topic Last Modified:** 2013-08-09_</span></span>
 
-<span data-ttu-id="e7153-104">Les rubriques de cette section fournissent des procédures pas à pas pour les tâches que vous pouvez effectuer à l’aide des pages dans le groupe de **conférences** du panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e7153-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
+<span data-ttu-id="a2d22-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide des pages du groupe de **Conférence** dans le panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2d22-104">Topics in this section provide step-by-step procedures for tasks you can perform using the pages in the **Conferencing** group in Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e7153-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="e7153-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a2d22-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a2d22-105">In This Section</span></span>
 
-  - [<span data-ttu-id="e7153-106">Paramètres de configuration de la réunion dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7153-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
+  - [<span data-ttu-id="a2d22-106">Paramètres de configuration de réunion dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d22-106">Meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="e7153-107">Stratégies de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7153-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
+  - [<span data-ttu-id="a2d22-107">Stratégies de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d22-107">Conferencing policies in Lync Server 2013</span></span>](lync-server-2013-conferencing-policies.md)
 
-  - [<span data-ttu-id="e7153-108">Conférence rendez-vous dans Lync Server 2013 (numéros de configuration/accès)</span><span class="sxs-lookup"><span data-stu-id="e7153-108">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
+  - [<span data-ttu-id="a2d22-108">Conférence rendez-vous dans Lync Server 2013 (numéros de configuration/d’accès)</span><span class="sxs-lookup"><span data-stu-id="a2d22-108">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [<span data-ttu-id="e7153-109">Utiliser appeler avec un téléphone compatible Lync et Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7153-109">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [<span data-ttu-id="a2d22-109">Utilisation de m’appeler à l’aide d’un téléphone compatible Lync et de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d22-109">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

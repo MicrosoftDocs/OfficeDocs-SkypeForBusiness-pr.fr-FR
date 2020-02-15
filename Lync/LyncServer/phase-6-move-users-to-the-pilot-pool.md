@@ -1,5 +1,5 @@
 ---
-title: 'Étape 6 : déplacer les utilisateurs vers le pool de pilotes'
+title: 'Phase 6 : déplacer des utilisateurs vers le pool pilote'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="bdc7e-102">Étape 6 : déplacer les utilisateurs vers le pool de pilotes</span><span class="sxs-lookup"><span data-stu-id="bdc7e-102">Phase 6: Move users to the pilot pool</span></span>
+# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="0a417-102">Phase 6 : déplacer des utilisateurs vers le pool pilote</span><span class="sxs-lookup"><span data-stu-id="0a417-102">Phase 6: Move users to the pilot pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743614"
 
 <span> </span>
 
-<span data-ttu-id="bdc7e-103">_**Dernière modification de la rubrique :** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="bdc7e-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="0a417-103">_**Dernière modification de la rubrique :** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="0a417-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="bdc7e-104">Vous pouvez déplacer un ou plusieurs utilisateurs vers le nouveau déploiement de Lync Server 2013 à l’aide des deux méthodes suivantes : Lync Server Control Panel et Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="bdc7e-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="bdc7e-105">Les rubriques de cette section décrivent les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Lync Server 2013 d’un déploiement pilote vers un déploiement de niveau production.</span><span class="sxs-lookup"><span data-stu-id="bdc7e-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="0a417-104">Vous pouvez déplacer un ou plusieurs utilisateurs vers le nouveau déploiement Lync Server 2013 à l’aide des deux méthodes suivantes : Lync Server Control Panel et Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="0a417-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="0a417-105">Les rubriques de cette section décrivent les tâches que vous devez effectuer lors du déploiement pilote, ainsi que avant de faire passer votre déploiement de Lync Server 2013 d’un déploiement pilote à un déploiement au niveau de la production.</span><span class="sxs-lookup"><span data-stu-id="0a417-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bdc7e-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="bdc7e-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0a417-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0a417-106">In This Section</span></span>
 
-  - [<span data-ttu-id="bdc7e-107">Vérifier que la réplication utilisateur est terminée</span><span class="sxs-lookup"><span data-stu-id="bdc7e-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
+  - [<span data-ttu-id="0a417-107">Vérifier que la réplication utilisateur est terminée</span><span class="sxs-lookup"><span data-stu-id="0a417-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
 
-  - [<span data-ttu-id="bdc7e-108">Déplacer un utilisateur unique vers le pool de pilotes</span><span class="sxs-lookup"><span data-stu-id="bdc7e-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="0a417-108">Déplacer un seul utilisateur vers le pool pilote</span><span class="sxs-lookup"><span data-stu-id="0a417-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [<span data-ttu-id="bdc7e-109">Déplacer plusieurs utilisateurs vers le pool de pilotes</span><span class="sxs-lookup"><span data-stu-id="bdc7e-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="0a417-109">Déplacer plusieurs utilisateurs vers le pool pilote</span><span class="sxs-lookup"><span data-stu-id="0a417-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 

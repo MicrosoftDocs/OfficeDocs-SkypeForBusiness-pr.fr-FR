@@ -12,20 +12,20 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9bd597665f389c814fbdc8fe1745587fd3d1b3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a><span data-ttu-id="8bf50-102">Déplacement des annuaires de conférences</span><span class="sxs-lookup"><span data-stu-id="8bf50-102">Move Conference Directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="85129-102">Déplacer les annuaires des conférences</span><span class="sxs-lookup"><span data-stu-id="85129-102">Move Conference Directories</span></span>
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41766115"
 
 <span> </span>
 
-<span data-ttu-id="8bf50-103">_**Dernière modification de la rubrique :** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="8bf50-103">_**Topic Last Modified:** 2014-05-28_</span></span>
+<span data-ttu-id="85129-103">_**Dernière modification de la rubrique :** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="85129-103">_**Topic Last Modified:** 2014-05-28_</span></span>
 
-<span data-ttu-id="8bf50-104">Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour chaque annuaire de conférences de votre pool Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="8bf50-104">Before decommissioning a pool you must perform the following procedure for each conference directory in your Lync Server 2010 pool.</span></span>
+<span data-ttu-id="85129-104">Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour chaque annuaire des conférences de votre pool Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="85129-104">Before decommissioning a pool you must perform the following procedure for each conference directory in your Lync Server 2010 pool.</span></span>
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="8bf50-105">Pour déplacer un annuaire de conférences vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8bf50-105">To Move a Conference Directory to Lync Server 2013</span></span>
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="85129-105">Pour déplacer un annuaire des conférences vers Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85129-105">To Move a Conference Directory to Lync Server 2013</span></span>
 
-1.  <span data-ttu-id="8bf50-106">Ouvrez Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="8bf50-106">Open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="85129-106">Ouvrez Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="85129-106">Open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="8bf50-107">Pour obtenir l’identité des annuaires de conférences au sein de votre organisation, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="8bf50-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
+2.  <span data-ttu-id="85129-107">Pour obtenir l’identité des annuaires des conférences de votre organisation, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="85129-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
     
         Get-CsConferenceDirectory
     
-    <span data-ttu-id="8bf50-108">La commande précédente renvoie tous les annuaires de conférences de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="8bf50-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="8bf50-109">Pour cette raison, il est possible que vous souhaitiez limiter les résultats au pool en cours de désactivation.</span><span class="sxs-lookup"><span data-stu-id="8bf50-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="8bf50-110">Par exemple, si vous désaffectez le pool avec le nom de domaine complet (FQDN) pool01.contoso.net, utilisez cette commande pour limiter les données renvoyées aux annuaires de conférences à partir du pool :</span><span class="sxs-lookup"><span data-stu-id="8bf50-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
+    <span data-ttu-id="85129-108">La commande précédente renvoie tous les annuaires des conférences de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="85129-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="85129-109">Pour cette raison, vous souhaiterez peut-être limiter les résultats au pool en cours de mise hors service.</span><span class="sxs-lookup"><span data-stu-id="85129-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="85129-110">Par exemple, si vous désaffectez le pool avec le nom de domaine complet pool01.contoso.net, utilisez cette commande pour limiter les données renvoyées aux annuaires de conférence à partir de ce pool :</span><span class="sxs-lookup"><span data-stu-id="85129-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    <span data-ttu-id="8bf50-111">Cette commande renvoie uniquement les répertoires de conférences dans lesquels la propriété ServiceID contient le nom de domaine complet pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="8bf50-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="85129-111">Cette commande renvoie uniquement les annuaires des conférences dans lesquels la propriété ServiceID contient le nom de domaine complet pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="85129-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
 
-3.  <span data-ttu-id="8bf50-112">Pour déplacer des répertoires de conférence, exécutez la commande suivante pour chaque annuaire de conférences de la liste :</span><span class="sxs-lookup"><span data-stu-id="8bf50-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
+3.  <span data-ttu-id="85129-112">Pour déplacer les annuaires des conférences, exécutez la commande suivante pour chaque annuaire des conférences du pool :</span><span class="sxs-lookup"><span data-stu-id="85129-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    <span data-ttu-id="8bf50-113">Par exemple, pour déplacer l’annuaire de conférence 3, utilisez cette commande en spécifiant un pool Lync Server 2013 en tant que TargetPool :</span><span class="sxs-lookup"><span data-stu-id="8bf50-113">For example, to move conference directory 3 use this command, specifying a Lync Server 2013 pool as the TargetPool:</span></span>
+    <span data-ttu-id="85129-113">Par exemple, pour déplacer l’annuaire des conférences 3, utilisez cette commande en spécifiant un pool Lync Server 2013 comme TargetPool :</span><span class="sxs-lookup"><span data-stu-id="85129-113">For example, to move conference directory 3 use this command, specifying a Lync Server 2013 pool as the TargetPool:</span></span>
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
     
-    <span data-ttu-id="8bf50-114">Si vous souhaitez déplacer tous les répertoires de conférence sur un pool, utilisez une commande similaire à celle qui suit :</span><span class="sxs-lookup"><span data-stu-id="8bf50-114">If you want to move all the conference directories on a pool then use a command similar to the following:</span></span>
+    <span data-ttu-id="85129-114">Si vous souhaitez déplacer tous les annuaires des conférences d’un pool, utilisez une commande semblable à la suivante :</span><span class="sxs-lookup"><span data-stu-id="85129-114">If you want to move all the conference directories on a pool then use a command similar to the following:</span></span>
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-<span data-ttu-id="8bf50-115">Pour obtenir des instructions complètes et détaillées sur la désaffectation des pools 2010 de Lync, voir le document « désinstallation de Microsoft Lync Server 2010 et suppression des rôles de serveur » (qui peut être téléchargé à partir de [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)).</span><span class="sxs-lookup"><span data-stu-id="8bf50-115">Please see the document "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles" (which can be downloaded from [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) for comprehensive, step-by-step instructions on decommissioning Lync 2010 pools.</span></span>
+<span data-ttu-id="85129-115">Consultez le document « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur » (qui peut être téléchargé à [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)partir de) pour obtenir des instructions détaillées, étape par étape, sur la désaffectation des pools Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="85129-115">Please see the document "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles" (which can be downloaded from [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) for comprehensive, step-by-step instructions on decommissioning Lync 2010 pools.</span></span>
 
-<span data-ttu-id="8bf50-116">Lorsque vous déplacez des répertoires de conférence, vous pouvez rencontrer l’erreur suivante :</span><span class="sxs-lookup"><span data-stu-id="8bf50-116">When moving conference directories you might encounter the following error:</span></span>
+<span data-ttu-id="85129-116">Lorsque vous déplacez des annuaires de conférence, vous pouvez rencontrer l’erreur suivante :</span><span class="sxs-lookup"><span data-stu-id="85129-116">When moving conference directories you might encounter the following error:</span></span>
 
     WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
     WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
     Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 
     This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 
-<span data-ttu-id="8bf50-117">Cette erreur se produit généralement lorsque Lync Server Management Shell nécessite un ensemble mis à jour d’autorisations Active Directory pour effectuer une tâche.</span><span class="sxs-lookup"><span data-stu-id="8bf50-117">This error typically occurs when the Lync Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="8bf50-118">Pour résoudre le problème, fermez l’instance actuelle de Management Shell, puis ouvrez une nouvelle instance de l’interpréteur de commandes, puis réexécutez la commande afin de déplacer le répertoire de conférence.</span><span class="sxs-lookup"><span data-stu-id="8bf50-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command in order to move the conference directory.</span></span>
+<span data-ttu-id="85129-117">Cette erreur se produit généralement lorsque Lync Server Management Shell requiert un jeu mis à jour d’autorisations Active Directory pour effectuer une tâche.</span><span class="sxs-lookup"><span data-stu-id="85129-117">This error typically occurs when the Lync Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="85129-118">Pour résoudre le problème, fermez l’instance actuelle de Management Shell, puis ouvrez une nouvelle instance du shell et réexécutez la commande afin de déplacer l’annuaire des conférences.</span><span class="sxs-lookup"><span data-stu-id="85129-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command in order to move the conference directory.</span></span>
 
 </div>
 

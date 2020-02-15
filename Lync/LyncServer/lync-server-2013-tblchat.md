@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblChat'
+title: 'Lync Server 2013 : tblChat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f3879924b37fa535973116af599f4713c58a207
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3f0672fc3cf41113c0cfa206890848f8ccbde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764220"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblchat-in-lync-server-2013"></a><span data-ttu-id="19f98-102">tblChat dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19f98-102">tblChat in Lync Server 2013</span></span>
+# <a name="tblchat-in-lync-server-2013"></a><span data-ttu-id="af52e-102">tblChat dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af52e-102">tblChat in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764220"
 
 <span> </span>
 
-<span data-ttu-id="19f98-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="19f98-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="af52e-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="af52e-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="19f98-104">tblChat contient tous les messages de discussion.</span><span class="sxs-lookup"><span data-stu-id="19f98-104">tblChat contains all chat messages.</span></span>
+<span data-ttu-id="af52e-104">tblChat contient tous les messages de conversation.</span><span class="sxs-lookup"><span data-stu-id="af52e-104">tblChat contains all chat messages.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="19f98-105">Celles</span><span class="sxs-lookup"><span data-stu-id="19f98-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="af52e-105">Columns</span><span class="sxs-lookup"><span data-stu-id="af52e-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,57 +49,57 @@ ms.locfileid: "41764220"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="19f98-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="19f98-106">Column</span></span></th>
-<th><span data-ttu-id="19f98-107">Type</span><span class="sxs-lookup"><span data-stu-id="19f98-107">Type</span></span></th>
-<th><span data-ttu-id="19f98-108">Description</span><span class="sxs-lookup"><span data-stu-id="19f98-108">Description</span></span></th>
+<th><span data-ttu-id="af52e-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="af52e-106">Column</span></span></th>
+<th><span data-ttu-id="af52e-107">Type</span><span class="sxs-lookup"><span data-stu-id="af52e-107">Type</span></span></th>
+<th><span data-ttu-id="af52e-108">Description</span><span class="sxs-lookup"><span data-stu-id="af52e-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="19f98-109">channelId</span><span class="sxs-lookup"><span data-stu-id="19f98-109">channelId</span></span></p></td>
-<td><p><span data-ttu-id="19f98-110">ent, non null</span><span class="sxs-lookup"><span data-stu-id="19f98-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-111">ID du nœud.</span><span class="sxs-lookup"><span data-stu-id="19f98-111">Node ID.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-109">channelId</span><span class="sxs-lookup"><span data-stu-id="af52e-109">channelId</span></span></p></td>
+<td><p><span data-ttu-id="af52e-110">int, non null</span><span class="sxs-lookup"><span data-stu-id="af52e-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-111">ID de nœud.</span><span class="sxs-lookup"><span data-stu-id="af52e-111">Node ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="19f98-112">chatId</span><span class="sxs-lookup"><span data-stu-id="19f98-112">chatId</span></span></p></td>
-<td><p><span data-ttu-id="19f98-113">bigint, pas null</span><span class="sxs-lookup"><span data-stu-id="19f98-113">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-114">Numéro séquentiel unique (par ID de nœud) qui définit l’ordre des salles de conversation généré par la table tblLastChatId.</span><span class="sxs-lookup"><span data-stu-id="19f98-114">Unique sequential number (per node ID) that defines the chat room order, generated by tblLastChatId table.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-112">chatId</span><span class="sxs-lookup"><span data-stu-id="af52e-112">chatId</span></span></p></td>
+<td><p><span data-ttu-id="af52e-113">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="af52e-113">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-114">Numéro d’ordre unique (par ID de nœud) qui définit l’ordre de la salle de conversation, généré par la table tblLastChatId.</span><span class="sxs-lookup"><span data-stu-id="af52e-114">Unique sequential number (per node ID) that defines the chat room order, generated by tblLastChatId table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="19f98-115">chatDate</span><span class="sxs-lookup"><span data-stu-id="19f98-115">chatDate</span></span></p></td>
-<td><p><span data-ttu-id="19f98-116">bigint, pas null</span><span class="sxs-lookup"><span data-stu-id="19f98-116">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-117">Horodatage du message.</span><span class="sxs-lookup"><span data-stu-id="19f98-117">Time stamp for the chat message.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-115">chatDate</span><span class="sxs-lookup"><span data-stu-id="af52e-115">chatDate</span></span></p></td>
+<td><p><span data-ttu-id="af52e-116">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="af52e-116">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-117">Horodatage du message de conversation.</span><span class="sxs-lookup"><span data-stu-id="af52e-117">Time stamp for the chat message.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="19f98-118">userId</span><span class="sxs-lookup"><span data-stu-id="19f98-118">userId</span></span></p></td>
-<td><p><span data-ttu-id="19f98-119">ent, non null</span><span class="sxs-lookup"><span data-stu-id="19f98-119">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-120">ID principal de l’affiche.</span><span class="sxs-lookup"><span data-stu-id="19f98-120">Principal ID of the poster.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-118">userId</span><span class="sxs-lookup"><span data-stu-id="af52e-118">userId</span></span></p></td>
+<td><p><span data-ttu-id="af52e-119">int, non null</span><span class="sxs-lookup"><span data-stu-id="af52e-119">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-120">ID de principal de la personne ayant publié le message.</span><span class="sxs-lookup"><span data-stu-id="af52e-120">Principal ID of the poster.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="19f98-121">isAlert</span><span class="sxs-lookup"><span data-stu-id="19f98-121">isAlert</span></span></p></td>
-<td><p><span data-ttu-id="19f98-122">bit, pas null</span><span class="sxs-lookup"><span data-stu-id="19f98-122">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-123">True si le message est un message d’alerte.</span><span class="sxs-lookup"><span data-stu-id="19f98-123">True if the message is an alert message.</span></span> <span data-ttu-id="19f98-124">Faux si ce n’est pas le cas.</span><span class="sxs-lookup"><span data-stu-id="19f98-124">False if it is not.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-121">isAlert</span><span class="sxs-lookup"><span data-stu-id="af52e-121">isAlert</span></span></p></td>
+<td><p><span data-ttu-id="af52e-122">bit, non null</span><span class="sxs-lookup"><span data-stu-id="af52e-122">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-p101">True s’il s’agit d’un message d’alerte. False dans le cas contraire.</span><span class="sxs-lookup"><span data-stu-id="af52e-p101">True if the message is an alert message. False if it is not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="19f98-125">teneur</span><span class="sxs-lookup"><span data-stu-id="19f98-125">content</span></span></p></td>
-<td><p><span data-ttu-id="19f98-126">nvarchar (max), pas null</span><span class="sxs-lookup"><span data-stu-id="19f98-126">nvarchar (max), not null</span></span></p></td>
-<td><p><span data-ttu-id="19f98-127">Contenu de la discussion (version en texte brut).</span><span class="sxs-lookup"><span data-stu-id="19f98-127">Chat content (the plain text version).</span></span> <span data-ttu-id="19f98-128">Le contenu est généralement au format texte brut avec les exceptions suivantes :</span><span class="sxs-lookup"><span data-stu-id="19f98-128">The content is usually in plain text with the following exceptions:</span></span></p>
+<td><p><span data-ttu-id="af52e-125">contenu</span><span class="sxs-lookup"><span data-stu-id="af52e-125">content</span></span></p></td>
+<td><p><span data-ttu-id="af52e-126">nvarchar (max), non null</span><span class="sxs-lookup"><span data-stu-id="af52e-126">nvarchar (max), not null</span></span></p></td>
+<td><p><span data-ttu-id="af52e-p102">Contenu de la conversation (version en texte brut). Le contenu est généralement en texte brut, avec les exceptions suivantes :</span><span class="sxs-lookup"><span data-stu-id="af52e-p102">Chat content (the plain text version). The content is usually in plain text with the following exceptions:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="19f98-129">Les fichiers sont représentés par ma-filelink : links.</span><span class="sxs-lookup"><span data-stu-id="19f98-129">Files are represented as ma-filelink: links.</span></span></p></li>
-<li><p><span data-ttu-id="19f98-130">Les liens sont représentés sous forme d’élément HTML (même si le type de contenu ne peut pas être considéré comme du code HTML).</span><span class="sxs-lookup"><span data-stu-id="19f98-130">Links are represented as an HTML element (although the type of content cannot be considered HTML).</span></span></p></li>
-<li><p><span data-ttu-id="19f98-131">Les récits sont encodés en tant que format « [histoire].... ».</span><span class="sxs-lookup"><span data-stu-id="19f98-131">Stories are encoded as a “[STORY]....”-like format.</span></span></p></li>
+<li><p><span data-ttu-id="af52e-129">les fichiers sont représentés sous forme de liens ma-filelink: ;</span><span class="sxs-lookup"><span data-stu-id="af52e-129">Files are represented as ma-filelink: links.</span></span></p></li>
+<li><p><span data-ttu-id="af52e-130">les liens sont représentés sous forme d’éléments HTML (bien que le type de contenu ne puisse pas être considéré comme du HTML) ;</span><span class="sxs-lookup"><span data-stu-id="af52e-130">Links are represented as an HTML element (although the type of content cannot be considered HTML).</span></span></p></li>
+<li><p><span data-ttu-id="af52e-131">Les articles sont encodés au format « [STORY].... ».</span><span class="sxs-lookup"><span data-stu-id="af52e-131">Stories are encoded as a “[STORY]....”-like format.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="19f98-132">RTF</span><span class="sxs-lookup"><span data-stu-id="19f98-132">rtf</span></span></p></td>
-<td><p><span data-ttu-id="19f98-133">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="19f98-133">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="19f98-134">Contenu de conversation (version RTF).</span><span class="sxs-lookup"><span data-stu-id="19f98-134">Chat content (the RTF version).</span></span> <span data-ttu-id="19f98-135">Est susceptible d’être null si le client ne la fournit pas.</span><span class="sxs-lookup"><span data-stu-id="19f98-135">May be Null if client doesn’t provide it.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-132">formats</span><span class="sxs-lookup"><span data-stu-id="af52e-132">rtf</span></span></p></td>
+<td><p><span data-ttu-id="af52e-133">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="af52e-133">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="af52e-p103">Contenu de la conversation (version au format RTF). Peut être Null si le client ne le fournit pas.</span><span class="sxs-lookup"><span data-stu-id="af52e-p103">Chat content (the RTF version). May be Null if client doesn’t provide it.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="19f98-136">Clé</span><span class="sxs-lookup"><span data-stu-id="19f98-136">Key</span></span>
+### <a name="key"></a><span data-ttu-id="af52e-136">Clé</span><span class="sxs-lookup"><span data-stu-id="af52e-136">Key</span></span>
 
 <table>
 <colgroup>
@@ -108,14 +108,14 @@ ms.locfileid: "41764220"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="19f98-137">Colonne</span><span class="sxs-lookup"><span data-stu-id="19f98-137">Column</span></span></th>
-<th><span data-ttu-id="19f98-138">Description</span><span class="sxs-lookup"><span data-stu-id="19f98-138">Description</span></span></th>
+<th><span data-ttu-id="af52e-137">Colonne</span><span class="sxs-lookup"><span data-stu-id="af52e-137">Column</span></span></th>
+<th><span data-ttu-id="af52e-138">Description</span><span class="sxs-lookup"><span data-stu-id="af52e-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="19f98-139">&lt;channelID, conversation&gt;</span><span class="sxs-lookup"><span data-stu-id="19f98-139">&lt;channelID, chatD&gt;</span></span></p></td>
-<td><p><span data-ttu-id="19f98-140">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="19f98-140">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="af52e-139">&lt;channelID, conversation&gt;</span><span class="sxs-lookup"><span data-stu-id="af52e-139">&lt;channelID, chatD&gt;</span></span></p></td>
+<td><p><span data-ttu-id="af52e-140">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="af52e-140">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

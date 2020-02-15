@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déplacement d’une salle de conversation d’une catégorie vers une autre'
+title: 'Lync Server 2013 : transfert d’une salle de conversation d’une catégorie à une autre'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72f9774e53321ff6fe667b3b8c8dcfe0e78bcdaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 40077d8092f8b0b78b6e9ce78cd16c6f1e0812f0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756718"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a><span data-ttu-id="33f40-102">Déplacement d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33f40-102">Moving a chat room from one category to another in Lync Server 2013</span></span>
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a><span data-ttu-id="5485d-102">Migration d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5485d-102">Moving a chat room from one category to another in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756718"
 
 <span> </span>
 
-<span data-ttu-id="33f40-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="33f40-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="5485d-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5485d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="33f40-104">Nous vous recommandons de ne pas modifier la catégorie d’une salle de conversation permanente après la création de la salle de conversation.</span><span class="sxs-lookup"><span data-stu-id="33f40-104">We recommend that you do not change the category of a Persistent Chat room after the chat room is created.</span></span> <span data-ttu-id="33f40-105">Toutefois, si le gestionnaire de la salle de conversation dispose de privilèges de **création** dans une autre catégorie, il peut déplacer la salle d’une catégorie vers une autre.</span><span class="sxs-lookup"><span data-stu-id="33f40-105">However, if the chat room manager has **Creator** privileges in another category, he or she can move the room from one category to another.</span></span> <span data-ttu-id="33f40-106">La salle n’est pas supprimée et recréée.</span><span class="sxs-lookup"><span data-stu-id="33f40-106">The room is not deleted and recreated.</span></span> <span data-ttu-id="33f40-107">Seule son association dans la base de données est modifiée.</span><span class="sxs-lookup"><span data-stu-id="33f40-107">It is a change of association within the database.</span></span>
+<span data-ttu-id="5485d-104">Nous vous recommandons de ne pas modifier la catégorie d’une salle de conversation permanente une fois la salle de conversation créée.</span><span class="sxs-lookup"><span data-stu-id="5485d-104">We recommend that you do not change the category of a Persistent Chat room after the chat room is created.</span></span> <span data-ttu-id="5485d-105">Cependant, si le gestionnaire de la salle de conversation à des privilèges **Créateur** dans une autre catégorie, il peut déplacer la salle d’une catégorie à une autre.</span><span class="sxs-lookup"><span data-stu-id="5485d-105">However, if the chat room manager has **Creator** privileges in another category, he or she can move the room from one category to another.</span></span> <span data-ttu-id="5485d-106">La salle n’est pas supprimée et recréée.</span><span class="sxs-lookup"><span data-stu-id="5485d-106">The room is not deleted and recreated.</span></span> <span data-ttu-id="5485d-107">Seule son association dans la base de données est modifiée.</span><span class="sxs-lookup"><span data-stu-id="5485d-107">It is a change of association within the database.</span></span>
 
-<span data-ttu-id="33f40-108">Le changement de catégorie d’une salle de conversation doit être rarement réalisé.</span><span class="sxs-lookup"><span data-stu-id="33f40-108">Changing a chat room category should be done rarely.</span></span> <span data-ttu-id="33f40-109">Une catégorie détermine l’appartenance autorisée pour la salle de conversation, donc si une salle de conversation est déplacée vers une autre catégorie, toutes les listes de contrôle d’accès système (SACL) qui ne sont plus prises en charge par la nouvelle catégorie sont vidées.</span><span class="sxs-lookup"><span data-stu-id="33f40-109">A category determines the allowed membership for the chat room, so when a chat room is moved to another category, all the system access control lists (SACLs) that are no longer supported by the new category are purged.</span></span> <span data-ttu-id="33f40-110">Par exemple, si un utilisateur était membre de la salle et n’est plus **AllowedMember** dans la nouvelle catégorie, l’appartenance à la salle sera modifiée et l’utilisateur sera supprimé de la salle.</span><span class="sxs-lookup"><span data-stu-id="33f40-110">For example, if a user was a member of the room and is no longer an **AllowedMember** in the new category, the room membership will be modified and the user will be removed from the room.</span></span>
+<span data-ttu-id="5485d-p102">La modification d’une catégorie de salle de conversation est très rare. Une catégorie détermine l’appartenance autorisée pour la salle de conversation, donc si une salle de conversation est déplacée vers une autre catégorie, toutes les listes de contrôle d’accès système (SACLs) qui ne sont plus prises en charge par la nouvelle catégorie sont vidées. Par exemple, si un utilisateur était membre de la salle et qu’il n’est plus un **AllowedMember** dans la nouvelle catégorie, l’appartenance de la salle sera modifiée et l’utilisateur sera supprimé de la salle.</span><span class="sxs-lookup"><span data-stu-id="5485d-p102">Changing a chat room category should be done rarely. A category determines the allowed membership for the chat room, so when a chat room is moved to another category, all the system access control lists (SACLs) that are no longer supported by the new category are purged. For example, if a user was a member of the room and is no longer an **AllowedMember** in the new category, the room membership will be modified and the user will be removed from the room.</span></span>
 
-<span data-ttu-id="33f40-111">Pour plus d’informations sur le déplacement d’une salle de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, reportez-vous à la section « gestion des salles » dans [configuration du serveur de chat permanent à l’aide des cmdlets Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="33f40-111">For details about moving a chat room by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
+<span data-ttu-id="5485d-111">Pour plus d’informations sur le transfert d’une salle de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, voir « gestion des salles » dans [Configuring persistent Chat Server by Using Windows PowerShell Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="5485d-111">For details about moving a chat room by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
 
-<span data-ttu-id="33f40-112">Pour plus d’informations sur la configuration des salles de conversation, voir [configurer des salles dans Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="33f40-112">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="5485d-112">Pour plus d’informations sur la configuration des salles de conversation, voir [configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="5485d-112">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
 
 </div>
 
