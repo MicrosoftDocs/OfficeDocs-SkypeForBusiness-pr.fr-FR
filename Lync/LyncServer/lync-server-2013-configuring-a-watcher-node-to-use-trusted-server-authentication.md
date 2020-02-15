@@ -1,5 +1,5 @@
 ---
-title: Configuration d’un nœud FileSystemWatcher pour utiliser l’authentification de serveur approuvé
+title: Configuration d’un nœud observateur pour utiliser l’authentification de serveur approuvé
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7279e18c73ecca9340f57d40794a3e9eb2dd160b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ba69980f97e901703f51f71729c661821e70e61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Configuration d’un nœud FileSystemWatcher dans Lync Server 2013 de façon à utiliser l’authentification de serveur approuvé
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Configuration d’un nœud observateur dans Lync Server 2013 pour utiliser l’authentification de serveur approuvé
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41741224"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Si votre ordinateur de nœud d’observateur se trouve à l’intérieur du réseau de périmètre, l’utilisation de l’authentification de serveur approuvé peut considérablement réduire les taxes d’administration pour gérer un seul certificat plutôt que de nombreux mots de passe de compte d’utilisateur.
+Si votre ordinateur de nœud observateur se trouve dans le réseau de périmètre, l’utilisation de l’authentification de type Serveur sécurisé permet de réduire considérablement les tâches d’administration à la gestion d’un certificat unique à la place des nombreux mots de passe de comptes d’utilisateurs.
 
-La première étape de la configuration de l’authentification de serveur approuvé consiste à créer un pool d’applications approuvé pour héberger l’ordinateur de nœud d’observation. Une fois le pool d’applications approuvé créé, vous devez configurer les transactions synthétiques sur le nœud de l’observateur pour qu’il s’exécute en tant qu’application approuvée.
+La première étape de configuration de l’authentification de type Serveur sécurisé consiste à créer un pool d’applications approuvées afin d’héberger l’ordinateur de nœud observateur. Une fois le pool d’applications approuvées créé, vous devez configurer les transactions synthétiques de ce nœud observateur afin qu’elles s’exécutent sous forme d’application approuvée.
 
 <div>
 
 
 > [!NOTE]
-> Une application fiable est une application dotée d’un État approuvé à exécuter dans le cadre de Lync Server 2013, mais qui n’est pas une partie intégrante du produit. Le statut approuvé signifie que l’application n’a pas à s’authentifier chaque fois qu’elle est exécutée.
+> Une application approuvée est une application à laquelle est attribuée un État approuvé à exécuter dans le cadre de Lync Server 2013, mais ce n’est pas une partie intégrée du produit. Le statut d’application approuvée signifie que l’application n’a pas à s’authentifier chaque fois qu’elle s’exécute.
 
 
 
 </div>
 
-Pour créer un pool d’applications approuvé, ouvrez Lync Server 2013 Management Shell et exécutez une commande semblable à ce qui suit :
+Pour créer un pool d’applications approuvées, ouvrez Lync Server 2013 Management Shell et exécutez une commande semblable à celle-ci :
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
@@ -59,64 +59,64 @@ Pour créer un pool d’applications approuvé, ouvrez Lync Server 2013 Manageme
 
 
 > [!NOTE]
-> Pour plus d’informations sur les paramètres utilisés dans la commande précédente, tapez ce qui suit à l’invite Lync Server Management Shell :<BR>Get-nouvelle-CsTrustedApplicationPool-complet | nombre
+> Pour plus d’informations sur les paramètres utilisés dans la commande précédente, tapez ce qui suit à l’invite de Lync Server Management Shell :<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
 
 </div>
 
-Après avoir créé le pool d’applications approuvé, configurez l’ordinateur de nœud d’observation pour qu’il exécute des transactions synthétiques en tant qu’application approuvée. Pour ce faire, vous pouvez utiliser l’applet **de commande New-CsTrustedApplication** et une commande similaire à celle-ci :
+Après avoir créé le pool d’applications approuvées, configurez l’ordinateur de nœud observateur afin qu’il exécute les transactions synthétiques sous forme d’application approuvée. Pour ce faire, utilisez l’applet de commande **New-CsTrustedApplication** et une commande similaire à ce qui suit :
 
     New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 
-Une fois la commande précédente terminée et l’application de confiance créée, exécutez Enable-CsTopology pour vous assurer que les modifications entrent en vigueur :
+Quand l’exécution de la commande précédente est terminée et que l’application approuvée a été créée, exécutez Enable-CsTopology pour vous assurer que les modifications sont appliquées :
 
     Enable-CsTopology
 
-Après avoir exécuté enable-CsTopology, il est recommandé de redémarrer l’ordinateur.
+Après l’exécution de l’applet de commande Enable-CsTopology, nous vous recommandons de redémarrer l’ordinateur.
 
-Pour vérifier que la nouvelle application fiable a été créée, tapez les informations suivantes à l’invite Lync Server Management Shell :
+Pour vérifier que la nouvelle application approuvée a été créée, tapez ce qui suit à l’invite Lync Server Management Shell :
 
     Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 
 <div>
 
-## <a name="configuring-a-default-certificate-on-the-watcher-node"></a>Configuration d’un certificat par défaut sur le nœud d’observation
+## <a name="configuring-a-default-certificate-on-the-watcher-node"></a>Configuration d’un certificat par défaut sur le nœud observateur
 
-Un certificat par défaut doit être attribué à chaque nœud de l’observateur à l’aide de l’Assistant Déploiement de Lync Server.
+Chaque nœud observateur doit avoir un certificat par défaut affecté à l’aide de l’Assistant Déploiement de Lync Server.
 
-**Pour attribuer un certificat par défaut**
+**Pour affecter un certificat par défaut**
 
-1.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Lync Server**, puis sur **Assistant Déploiement de Lync Server**.
+1.  Cliquez successivement sur **Démarrer**, sur **tous les programmes**, sur **Lync Server**, puis sur **Assistant Déploiement Lync Server**.
 
-2.  Dans l’Assistant Déploiement de Lync Server, cliquez sur **installer ou mettre à jour le système de serveur Lync** , puis cliquez sur **exécuter** sous le titre **demande, installer ou attribuer un certificat**.
+2.  Dans l’Assistant Déploiement Lync Server, cliquez sur **installer ou mettre à jour le système Lync Server** , puis cliquez sur **exécuter** sous le titre **requête, installer ou assigner un certificat**.
     
     <div>
     
 
     > [!NOTE]
-    > Si le bouton <STRONG>exécuter</STRONG> est désactivé, vous devrez peut-être cliquer d’abord sur <STRONG>exécuter</STRONG> sous installer le <STRONG>magasin de configuration local</STRONG>.
+    > Si le bouton <STRONG>Exécuter</STRONG> est désactivé, vous devrez peut-être d’abord cliquer sur <STRONG>Exécuter</STRONG> sous <STRONG>Installer le magasin de configurations local</STRONG>.
 
     
     </div>
 
 3.  Effectuez l’une des actions suivantes :
     
-      - Si vous disposez déjà d’un certificat qui peut être utilisé comme certificat par défaut, cliquez sur **par défaut** dans l’Assistant certificat, puis cliquez sur **affecter**. Suivez les étapes de l’Assistant permettant d’affecter un certificat pour affecter ce certificat.
+      - Si vous avez déjà un certificat qui peut être utilisé comme certificat par défaut, cliquez sur **Par défaut** dans l’Assistant Certificat, puis cliquez sur **Attribuer**. Suivez les étapes de l’Assistant permettant d’affecter un certificat pour affecter ce certificat.
     
-      - Si vous avez besoin de demander un certificat pour utiliser le certificat par défaut, cliquez sur **demander** , puis suivez les étapes de l’Assistant demande de certificat pour demander ce certificat. Si vous utilisez les valeurs par défaut pour le certificat de serveur web, vous obtenez un certificat que vous pouvez affecter comme certificat par défaut.
+      - Si vous devez demander un certificat à utiliser comme certificat par défaut, cliquez sur **Demander**, puis suivez les étapes de l’Assistant Demande de certificat pour demander ce certificat. Si vous utilisez les valeurs par défaut pour le certificat de serveur web, vous obtenez un certificat que vous pouvez affecter en tant que certificat par défaut.
 
 </div>
 
 <div>
 
-## <a name="installing-and-configuring-a-watcher-node"></a>Installation et configuration d’un nœud FileSystemWatcher
+## <a name="installing-and-configuring-a-watcher-node"></a>Installation et configuration d’un nœud observateur
 
-Après avoir redémarré l’ordinateur du nœud d’observation et configuré un certificat, vous devez exécuter le fichier Watchernode. msi. (Vous devez exécuter Watchernode. msi sur un ordinateur sur lequel sont installés les fichiers agent Operations Manager et les composants principaux de Lync Server 2013.)
+Après avoir redémarré l’ordinateur de nœud observateur et configuré un certificat, vous devez exécuter le fichier Watchernode.msi. (Vous devez exécuter Watchernode. msi sur un ordinateur sur lequel les fichiers de l’agent Operations Manager et les composants principaux de Lync Server 2013 sont installés.)
 
-**Pour installer et configurer un nœud FileSystemWatcher**
+**Pour installer et configurer un nœud observateur**
 
-1.  Ouvrez Lync Server Management Shell en cliquant sur **Démarrer**, puis sur **tous les programmes**, sur **Lync Server**et sur **Lync Server Management Shell**.
+1.  Ouvrez Lync Server Management Shell en cliquant sur **Démarrer**, sur **tous les programmes**, sur **Lync Server**, puis sur **Lync Server Management Shell**.
 
 2.  Dans Lync Server Management Shell, tapez la commande suivante, puis appuyez sur entrée (spécifiez le chemin d’accès réel à votre copie de Watchernode. msi) :
     
@@ -126,16 +126,16 @@ Après avoir redémarré l’ordinateur du nœud d’observation et configuré u
     
 
     > [!NOTE]
-    > Vous pouvez également exécuter Watchernode. msi à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur <STRONG>Démarrer</STRONG>, cliquez avec le bouton droit sur <STRONG>Invite de commandes</STRONG>, puis cliquez sur <STRONG>Exécuter en tant qu’administrateur</STRONG>. Lorsque la fenêtre de commande s’ouvre, tapez la même commande précédente.
+    > Vous pouvez également exécuter Watchernode.msi à partir d’une fenêtre de commande. Pour ouvrir une fenêtre de commande, cliquez sur <STRONG>Démarrer</STRONG>, cliquez avec le bouton droit sur <STRONG>Invite de commandes</STRONG>, puis cliquez sur <STRONG>Exécuter en tant qu’administrateur</STRONG>. Quand la fenêtre de commande s’ouvre, tapez la même commande que celle indiquée précédemment.
 
     
     </div>
 
-Notez que la paire nom/valeur dans l’authentification de commande précédente = TrustedServer est sensible à la casse. Vous devez la taper exactement comme indiqué. La commande suivante échoue, car elle n’utilise pas la casse correcte pour les lettres :
+Notez que la paire nom/valeur de la commande précédente Authentication=TrustedServer respecte l’emploi des majuscules et minuscules. Vous devez la taper exactement telle qu’elle est indiquée. La commande suivante échoue, car elle ne respecte pas l’emploi des majuscules et minuscules :
 
-C :\\outils\\Watchernode. msi d’authentification = Trustedserver
+C :\\Tools\\Watchernode. msi Authentication = Trustedserver
 
-Vous pouvez utiliser le mode TrustedServer uniquement avec des ordinateurs situés dans le réseau de périmètre. Lorsqu’un nœud d’observateur est en cours d’exécution en mode TrustedServer, les administrateurs n’ont pas besoin de mettre à jour les mots de passe des utilisateurs de tests sur l’ordinateur.
+Vous pouvez utiliser le mode TrustedServer uniquement avec les ordinateurs situés dans le réseau de périmètre. Quand un nœud observateur est exécuté en mode TrustedServer, les administrateurs n’ont pas à gérer les mots de passe d’utilisateurs de test sur l’ordinateur.
 
 </div>
 

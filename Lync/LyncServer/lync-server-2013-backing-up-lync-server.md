@@ -12,16 +12,16 @@ ms:contentKeyID: 51541498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084adb2663c8ae515be5c19df0652be515aa3273
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7f7b2b9b7ecb3b6e25bf83ce7f424cb2ce040c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41740624"
 
 _**Dernière modification de la rubrique :** 2013-02-17_
 
-Les procédures dans cette section décrivent la sauvegarde de Lync Server afin que vous puissiez récupérer le service en cas de panne ou d’échec.
+Les procédures décrites dans cette section expliquent comment sauvegarder Lync Server afin de pouvoir récupérer le service en cas de panne ou de panne.
 
-Vous devez développer une stratégie de sauvegarde et de récupération pour votre organisation, comme décrit dans [la rubrique développement d’une stratégie de sauvegarde et de restauration et planifier pour Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md). Cette stratégie et ce plan doivent inclure les procédures spécifiques que vous envisagez d’utiliser. Suivez les procédures décrites dans les rubriques de cette section, ainsi que dans les feuilles de calcul de [sauvegarde et de restauration pour Lync server 2013](lync-server-2013-backup-and-restoration-worksheets.md), pour documenter la façon dont vous envisagez de sauvegarder votre déploiement de Lync Server.
+Vous devez développer une stratégie de sauvegarde et de récupération et planifier pour votre organisation, comme décrit dans l' [élaboration d’une stratégie de sauvegarde et de restauration et d’un plan pour Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md). Cette stratégie et ce plan doivent inclure les procédures spécifiques que vous envisagez d’utiliser. Suivez les procédures décrites dans les rubriques de cette section, ainsi que les feuilles de calcul dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md), afin de documenter la manière dont vous prévoyez de sauvegarder votre déploiement Lync Server spécifique.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Vérification de la configuration requise pour la sauvegarde dans Lync Server 2013](lync-server-2013-verifying-backup-prerequisites.md)
+  - [Vérification des conditions préalables à la sauvegarde dans Lync Server 2013](lync-server-2013-verifying-backup-prerequisites.md)
 
-  - [Sauvegarder des données et des paramètres dans Lync Server 2013](lync-server-2013-backing-up-data-and-settings.md)
+  - [Sauvegarde des données et des paramètres dans Lync Server 2013](lync-server-2013-backing-up-data-and-settings.md)
 
 </div>
 

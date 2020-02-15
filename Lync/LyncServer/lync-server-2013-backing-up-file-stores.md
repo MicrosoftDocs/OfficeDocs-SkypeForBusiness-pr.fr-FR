@@ -12,20 +12,20 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a>Sauvegarder des magasins de fichiers dans Lync Server 2013
+# <a name="backing-up-file-stores-in-lync-server-2013"></a>Sauvegarde de magasins de fichiers dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41741034"
 
 _**Dernière modification de la rubrique :** 2013-02-17_
 
-La sauvegarde des banques de fichiers Lync Server inclut tous les fichiers et dossiers utilisés par les composants serveur Lync.
+La sauvegarde des magasins de fichiers Lync Server inclut tous les fichiers et dossiers utilisés par les composants Lync Server.
 
 <div>
 
 ## <a name="to-back-up-file-stores"></a>Pour sauvegarder des magasins de fichiers
 
-1.  Pour trouver les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologie et recherchez dans le nœud **magasins de fichiers** .
+1.  Pour rechercher les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologies et regardez dans le nœud **magasins de fichiers** .
 
-2.  Utilisez Robocopy ou un autre outil de gestion du système de fichiers pour copier chaque\\Banque de fichiers dans $Backup.
+2.  Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque\\magasin de fichiers vers $Backup de stockage de fichiers.
 
 </div>
 

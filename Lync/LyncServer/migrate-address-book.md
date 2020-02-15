@@ -12,20 +12,20 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba7608b6d08fa028e86e995e0bdb646167860182
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765282"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>Migrer le carnet d’adresses
+# <a name="migrate-address-book"></a>Faire migrer le carnet d’adresses
 
 </div>
 
@@ -37,60 +37,60 @@ ms.locfileid: "41765282"
 
 _**Dernière modification de la rubrique :** 2012-10-09_
 
-En règle générale, le carnet d’adresses de Lync Server 2010 est migré en même temps que le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes après la migration si vous avez personnalisé les éléments suivants dans votre environnement Lync Server 2010 :
+En règle générale, le carnet d’adresses Lync Server 2010 est migré avec le reste de votre topologie. Toutefois, vous devrez peut-être effectuer certaines étapes de post-migration si vous avez personnalisé les éléments suivants dans votre environnement Lync Server 2010 :
 
-  - Définissez la propriété WMI **PartitionbyOU** pour regrouper les entrées du carnet d’adresses par unité d’organisation.
+  - définir la propriété WMI **PartitionbyOU** pour regrouper les entrées de carnet d’adresses par unité d’organisation ;
 
-  - Personnalisé les règles de normalisation du carnet d’adresses.
+  - personnaliser les règles de normalisation du carnet d’adresses ;
 
-  - La valeur par défaut du paramètre **UseNormalizationRules** a été remplacée par false.
+  - remplacer par False la valeur par défaut du paramètre **UseNormalizationRules**.
 
-**Entrées du carnet d’adresses groupé**
+**Entrées de carnet d’adresses groupées**
 
-Si vous définissez la propriété WMI **PartitionbyOU** sur true pour créer des carnets d’adresses pour chaque unité d’organisation, vous devez configurer l’attribut Active Directory **msRTCSIP-GroupingId** sur les utilisateurs et les contacts si vous voulez continuer à regrouper les entrées du carnet d’adresses. Il est possible que vous souhaitiez regrouper les entrées du carnet d’adresses afin de limiter l’étendue des recherches dans le carnet d’adresses. Pour utiliser l’attribut **msRTCSIP-GroupingId** , écrivez un script pour remplir l’attribut, en attribuant la même valeur à tous les utilisateurs que vous voulez regrouper. Par exemple, attribuez une valeur unique à tous les utilisateurs d’une unité d’organisation.
+Si vous affectez la valeur True à la propriété WMI **PartitionbyOU** afin de créer des carnets d’adresses pour chaque unité d’organisation, vous devez définir l’attribut Active Directory **msRTCSIP-GroupingId** sur les utilisateurs et contacts si vous souhaitez continuer de regrouper les entrées de carnet d’adresses. Il peut être préférable de regrouper les entrées de carnet d’adresses pour limiter l’étendue des recherches dans les carnets d’adresses. Pour utiliser l’attribut **msRTCSIP-GroupingId**, écrivez un script pour remplir l’attribut, en affectant la même valeur pour tous les utilisateurs que vous souhaitez regrouper. Par exemple, affectez une valeur unique pour tous les utilisateurs d’une même unité d’organisation.
 
-**Règles de normalisation du carnet d’adresses**
+**Règles de normalisation de carnet d’adresses**
 
-Si vous avez personnalisé des règles de normalisation du carnet d’adresses dans votre environnement Lync Server 2010, vous devez migrer les règles personnalisées vers votre pool de pilotes. Si vous n’avez pas personnalisé les règles de normalisation du carnet d’adresses, vous n’avez rien à migrer pour le service de carnet d’adresses. Les règles de normalisation par défaut de Lync Server 2013 sont les mêmes que celles par défaut de Lync Server 2010. Suivez la procédure décrite plus loin dans cette section pour migrer des règles de normalisation personnalisées.
+Si vous avez personnalisé des règles de normalisation de carnet d’adresses dans votre environnement Lync Server 2010, vous devez migrer les règles personnalisées vers votre pool pilote. Si vous n’avez pas personnalisé de règles de normalisation de carnet d’adresses, vous n’avez rien à migrer pour le service Carnet d’adresses. Les règles de normalisation par défaut pour Lync Server 2013 sont les mêmes que les règles par défaut pour Lync Server 2010. Suivez la procédure décrite plus loin dans cette section pour migrer des règles de normalisation personnalisées.
 
 <div>
 
 
 > [!NOTE]  
-> Si votre organisation utilise le contrôle d’appel distant et que vous avez personnalisé des règles de normalisation du carnet d’adresses, vous devez effectuer la procédure décrite dans cette rubrique avant de pouvoir utiliser le contrôle d’appel distant. Cette procédure requiert l’appartenance au groupe RTCUniversalServerAdmins ou aux droits équivalents.
+> Si votre organisation utilise le contrôle d’appel distant et que vous avez personnalisé des règles de normalisation de carnet d’adresses, vous devez appliquer la procédure de cette rubrique pour pouvoir utiliser le contrôle d’appel distant. Cette procédure requiert l’appartenance au groupe RTCUniversalServerAdmins ou des droits équivalents.
 
 
 
 </div>
 
-**UseNormalizationRules défini sur false**
+**Valeur False affectée à UseNormalizationRules**
 
-Si vous définissez la valeur de **UseNormalizationRules** sur false pour que les utilisateurs puissent utiliser les numéros de téléphone tels qu’ils sont définis dans les services de domaine Active Directory (AD FS) sans que Lync Server 2013 applique des règles de normalisation, vous devez définir les paramètres **UseNormalizationRules** et **IgnoreGenericRules** sur true. Suivez la procédure décrite plus loin dans cette section pour définir ces paramètres sur true.
+Si vous définissez la valeur de **UseNormalizationRules** sur false afin que les utilisateurs puissent utiliser les numéros de téléphone tels qu’ils sont définis dans les services de domaine Active Directory sans que Lync Server 2013 n’applique les règles de normalisation, vous devez définir les paramètres **UseNormalizationRules** et **IgnoreGenericRules** sur true. Suivez la procédure décrite plus loin dans cette section pour affecter la valeur True à ces paramètres.
 
 <div>
 
-## <a name="to-migrate-address-book-customized-normalization-rules"></a>Pour migrer des règles de normalisation personnalisées du carnet d’adresses
+## <a name="to-migrate-address-book-customized-normalization-rules"></a>Pour migrer des règles de normalisation de carnet d’adresses personnalisées
 
-1.  Recherchez le fichier\_.\_txt\_du numéro\_de téléphone de l’entreprise à la racine du dossier partagé du carnet d’adresses, puis copiez-le à la racine du dossier partagé du carnet d’adresses dans votre pool de pilotes 2013 de Lync Server.
+1.  Recherchez le fichier\_\_Rules\_de normalisation des numéros de téléphone\_de l’entreprise. txt dans la racine du dossier partagé du carnet d’adresses, puis copiez-le à la racine du dossier partagé du carnet d’adresses dans votre pool pilote Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Les règles de normalisation de votre carnet d’adresses sont installées dans votre répertoire de fichiers de composants Web ABS. Le chemin d’accès est <STRONG>$installedDriveLetter : \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Ce fichier peut être copié et renommé en tant &nbsp;que <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;dans le répertoire racine du dossier partagé du carnet d’adresses. Par exemple, dans le carnet d’adresses <STRONG></STRONG>partagé dans&nbsp;$serverX, le chemin d’accès est semblable à ce qui suit : <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
+    > Les exemples de règles de normalisation de carnet d’adresses ont été installés dans votre répertoire de fichiers de composants web ABS. Le chemin d’accès est <STRONG>$lettre_lecteur_installation:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Ce fichier peut être copié et renommé &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;dans le répertoire racine du dossier partagé carnet d’adresses. Par exemple, le carnet d’adresses partagé <STRONG></STRONG>dans $serverX&nbsp;, le chemin d’accès est similaire à : <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
     
     </div>
 
-2.  Utilisez un éditeur de texte, tel que le bloc-notes,\_pour\_ouvrir\_le fichier\_de règles de normalisation des numéros de téléphone de l’entreprise.
+2.  Utilisez un éditeur de texte, tel que le bloc-notes,\_pour\_ouvrir\_le fichier\_. txt des règles de normalisation des numéros de téléphone de la société.
 
-3.  Certains types d’entrée ne fonctionnent pas correctement dans Lync Server 2013. Parcourez le fichier pour obtenir les types d’entrée décrits dans cette étape, modifiez-les comme vous le souhaitez et enregistrez les modifications apportées au dossier partagé du carnet d’adresses dans votre pool de pilotes.
+3.  Certains types d’entrées ne fonctionnent pas correctement dans Lync Server 2013. Recherchez dans le fichier les types d’entrées décrites à cette étape, modifiez-les selon les besoins, puis enregistrez les modifications dans le dossier partagé de carnet d’adresses de votre pool pilote.
     
-    Les chaînes qui comprennent des espaces blancs ou des signes de ponctuation peuvent entraîner l’échec des règles de normalisation, car ces caractères sont supprimés de la chaîne qui est en entrée dans les règles de normalisation. Si vous avez des chaînes qui incluent des espaces blancs ou des signes de ponctuation requis, vous devez modifier les chaînes. Par exemple, la chaîne suivante entraînera l’échec de la règle de normalisation :
+    Les chaînes qui comportent des espaces ou des signes de ponctuation provoquent l’échec des règles de normalisation car ces caractères sont supprimés de la chaîne fournie comme entrée aux règles de normalisation. Si vous avez des chaînes qui comportent des espaces ou des signes de ponctuation obligatoires, vous devez modifier ces chaînes. Par exemple, la chaîne suivante provoque l’échec de la règle de normalisation :
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    La chaîne suivante n’entraînera pas l’échec de la règle de normalisation :
+    La chaîne suivante ne provoque pas l’échec de la règle de normalisation :
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
 
@@ -98,27 +98,27 @@ Si vous définissez la valeur de **UseNormalizationRules** sur false pour que le
 
 <div>
 
-## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>Pour définir UseNormalizationRules et IgnoreGenericRules sur true
+## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>Pour affecter la valeur True à UseNormalizationRules et IgnoreGenericRules
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Effectuez l’une des actions suivantes :
+2.  Effectuez l’une des opérations suivantes :
     
       - Si votre déploiement inclut uniquement Lync Server 2013, exécutez l’applet de commande suivante au niveau global pour modifier les valeurs de **UseNormalizationRules** et **IgnoreGenericRules** sur true :
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
-      - Si votre déploiement inclut une combinaison de Lync Server 2013 et de Lync Server 2010 ou Office Communications Server 2007 R2, exécutez l’applet de commande suivante et affectez-la à chaque pool Lync Server 2013 dans la topologie :
+      - Si votre déploiement inclut une combinaison de Lync Server 2013 et Lync Server 2010 ou Office Communications Server 2007 R2, exécutez l’applet de commande suivante et affectez-la à chaque pool Lync Server 2013 dans la topologie :
         
             New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
-3.  Attendez la fin de la réplication du magasin de gestion centrale sur tous les pools.
+3.  Attendez que la réplication du magasin central de gestion se produise sur tous les pools.
 
-4.  Modifiez le fichier de règles de normalisation du téléphone,\_«\_\_règles\_de normalisation du numéro de téléphone de l’entreprise. txt », pour que votre déploiement efface le contenu. Le fichier se trouve sur le partage de fichiers de chaque pool Lync Server 2013. Si le fichier n’est pas présent, créez-en un dans la section\_«\_\_règles\_de normalisation des numéros de téléphone de l’entreprise. txt ».
+4.  Modifiez le fichier de règles de normalisation téléphonique, «\_Company\_Phone\_Number Normalization\_Rules. txt », pour que votre déploiement efface le contenu. Le fichier se trouve sur le partage de fichiers de chaque pool Lync Server 2013. Si le fichier n’est pas présent, créez un fichier vide nommé « Company\_Phone\_Number\_Normalization\_Rules. txt ».
 
-5.  Attendez quelques minutes pour que tous les pools du serveur principal lisent les nouveaux fichiers.
+5.  Attendez quelques minutes que tous les pools frontaux aient lu les nouveaux fichiers.
 
-6.  Exécutez l’applet de commande suivante sur chaque pool Lync Server 2013 dans votre déploiement :
+6.  Exécutez l’applet de commande suivante sur chaque pool Lync Server 2013 de votre déploiement :
     
         Update-CsAddressBook
 

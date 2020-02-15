@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : détails de l’affichage QoE'
+title: 'Lync Server 2013 : données d’affichage de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a>Détails de l’affichage QoE dans Lync Server 2013
+# <a name="qoe-view-details-in-lync-server-2013"></a>QoE afficher les détails dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41724604"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Les vues couvrent les cas les plus courants de retour de données à partir de la base de données SQL QoE. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés plutôt que d’accéder directement aux tables de la base de données. en effet, les vues sont plus susceptibles de garantir la compatibilité descendante avec les versions ultérieures.
+Les affichages couvrent les scénarios les plus courants pour le renvoi de données à partir de la base de données de QoE SQL. Il s’agit des vues recommandées utilisées pour créer des rapports personnalisés au lieu d’accéder directement aux tables de base de données ; Cela est dû au fait que les vues ont plus de chances de conserver une compatibilité descendante avec les versions ultérieures.
 
 
 <table>
@@ -53,27 +53,27 @@ Les vues couvrent les cas les plus courants de retour de données à partir de l
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Affichage AudioStreamDetail dans Lync Server 2013</a></p></td>
-<td><p>Stocke les informations relatives à chaque flux audio dans la base de données.</p></td>
+<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Vue AudioStreamDetail dans Lync Server 2013</a></p></td>
+<td><p>Stocke les informations sur chaque flux audio dans la base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialine-view.md">Affichage MediaLine dans Lync Server 2013</a></p></td>
-<td><p>Stocke les informations relatives à chaque ligne multimédia dans la base de données. Une seule session audio contient généralement une ligne multimédia audio. Une session audio et vidéo (A/V) contient généralement une seule ligne de médias audio et une seule ligne de média vidéo. Toutefois, la session peut contenir deux lignes de média vidéo si un appareil de conférence est utilisé ou si la vue Galerie est utilisée.</p></td>
+<td><p><a href="lync-server-2013-medialine-view.md">Vue MediaLine dans Lync Server 2013</a></p></td>
+<td><p>Stocke des informations sur chaque ligne de média dans la base de données. Une session audio contient généralement une ligne de média audio. Une session audio et vidéo (A/V) contient généralement une ligne de média audio et une ligne de média vidéo ; toutefois, la session peut contenir deux lignes de média vidéo si un périphérique de conférence ou la Vue Galerie est utilisé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Affichage NetworkConfigurationSettings dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Vue NetworkConfigurationSettings dans Lync Server 2013</a></p></td>
 <td><p>Stocke des informations sur la configuration du réseau.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-view.md">Affichage de session dans Lync Server 2013</a></p></td>
-<td><p>Stocke les informations sur les sessions contenant des enregistrements dans la base de données.</p></td>
+<td><p><a href="lync-server-2013-session-view.md">Vue de session dans Lync Server 2013</a></p></td>
+<td><p>Stocke des informations sur les sessions disposant d’enregistrements dans la base de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragent-view.md">Affichage UserAgent dans Lync Server 2013</a></p></td>
-<td><p>Stocke les informations sur les agents utilisateur impliqués dans les sessions contenant des enregistrements dans la base de données.</p></td>
+<td><p><a href="lync-server-2013-useragent-view.md">Vue UserAgent dans Lync Server 2013</a></p></td>
+<td><p>Stocke des informations sur les agents utilisateurs qui ont participé à des sessions disposant d’enregistrements dans la base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostreamdetail-view.md">Affichage VideoStreamDetail dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-videostreamdetail-view.md">Vue VideoStreamDetail dans Lync Server 2013</a></p></td>
 <td><p>Stocke des informations sur chaque flux vidéo dans la base de données.</p></td>
 </tr>
 </tbody>

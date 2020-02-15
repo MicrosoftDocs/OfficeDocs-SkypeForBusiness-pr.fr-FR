@@ -12,16 +12,16 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0383fd4aa389912a9942d7cafd7ac22fdc4f477
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d762fb6f8d7fbd9202db78806e8ddbd9082d777
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726154"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,28 +37,28 @@ ms.locfileid: "41726154"
 
 _**Dernière modification de la rubrique :** 2014-03-10_
 
-Lync 2013 pour iPhone et Lync 2013 pour iPad sont des applications qui peuvent être installées par l’utilisateur dans l’App Store d’Apple.
+Lync 2013 pour iPhone et Lync 2013 pour iPad sont des applications installables par l’utilisateur qui sont disponibles dans Apple App Store.
 
 <div>
 
-## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>Installation de Lync pour iPhone et Lync pour iPad
+## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>Installation de Lync pour iPhone et de Lync pour iPad
 
-Vous pouvez indiquer à vos utilisateurs d’installer Lync 2013 pour iPhone et Lync 2013 pour iPad en les redirigeant vers l’App Store depuis leurs appareils. L’App Store pour chaque appareil est également disponible en ligne.
+Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour iPhone et Lync 2013 pour iPad en les dirigeant vers l’App Store à partir de leurs appareils. L’App Store de chaque appareil est également disponible en ligne.
 
   - Lync pour iPhone est disponible dans l’App Store à \< l'<span></span>adresse h ttp://www.Apple.com/iPhone/from-the-App-Store/>
 
-  - Lync pour iPad est disponible dans l’App Store sur \< le<span></span>> TP://www.Apple.com/iPad/from-the-App-Store/HT.
+  - Lync pour iPad est disponible dans l’App Store à \< l'<span></span>adresse HT TP://www.Apple.com/iPad/from-the-App-Store/>
 
 <div>
 
 
 > [!IMPORTANT]  
-> les utilisateurs d’iPhone qui n’ont pas installé l’application Lync 2013 et qui essaient de participer à une réunion Lync à partir d’une invitation à une réunion seront redirigés vers une page de lancement de la réunion. Cette page contient un lien pour l’installation de l’application 2013 Lync. Toutefois, au lieu de rediriger l’utilisateur vers l’App Store, ce lien ouvre une page de navigateur Safari vide. Pour contourner ce problème, l’utilisateur peut procéder de l’une des deux manières suivantes : 
+> les utilisateurs de iPhone qui n’ont pas installé l’application Lync 2013 et qui essaient de participer à une réunion Lync à partir d’une invitation à une réunion seront redirigés vers une page de lancement de participation. Cette page contient un lien permettant d’installer l’application Lync 2013. Toutefois, au lieu de diriger l’utilisateur vers le magasin d’applications, ce lien ouvre une page de navigateur Safari vierge. Pour contourner ce problème, l’utilisateur peut procéder de l’une des deux manières suivantes : 
 > <UL>
 > <LI>
-> <P>Utilisez le bouton <STRONG>Accueil</STRONG> pour envoyer la page Safari à l’arrière-plan, puis rouvrez Safari. Lorsque le message « ouvrir cette page dans le magasin d’applications » s’affiche, appuyez sur <STRONG>ouvrir</STRONG> pour être dirigé vers Lync 2013 Télécharger dans l’App Store.</P>
+> <P>Utilisez le bouton <STRONG>Accueil</STRONG> pour envoyer la page Safari en arrière-plan, puis rouvrez Safari. Lorsque la notification « ouvrir cette page dans l’application Store » s’affiche, appuyez sur <STRONG>ouvrir</STRONG> pour être dirigé vers le téléchargement Lync 2013 dans l’App Store.</P>
 > <LI>
-> <P>Ouvrez manuellement l’App Store, recherchez « Lync 2013 » et téléchargez l’application.</P></LI></UL>
+> <P>Ouvrez manuellement le magasin d’applications, recherchez « Lync 2013 » et téléchargez l’application.</P></LI></UL>
 
 
 
@@ -70,23 +70,23 @@ Vous pouvez indiquer à vos utilisateurs d’installer Lync 2013 pour iPhone et 
 
 ## <a name="verifying-mobile-client-installation"></a>Vérification de l’installation du client mobile
 
-Après avoir configuré le client et que vous êtes connecté avec succès, utilisez les tests suivants pour vérifier que votre installation Lync fonctionne correctement sur votre appareil mobile.
+Après avoir configuré le client et ouvert une session, procédez aux tests suivants pour vérifier que votre installation de Lync fonctionne correctement sur votre appareil mobile.
 
-**Recherche d’un contact dans l’annuaire d’entreprise**
+**Rechercher un contact dans l’annuaire d’entreprise**
 
 1.  Dans la liste Contacts, tapez dans la barre de recherche affichée en haut et commencez à taper le nom d’un contact qui existe uniquement dans la liste d’adresses global.
 
 2.  Vérifiez que le nom du contact figure dans les résultats de la recherche.
 
-**Test de la messagerie instantanée et de la présence**
+**Tester la messagerie instantanée et la présence**
 
 1.  Dans la liste Contacts, tapez sur un contact.
 
-2.  Sur la carte de visite, appuyez sur l’icône de **messagerie instantanée** .
+2.  Dans la carte de visite, tapez sur l’icône **IM**.
 
 3.  Vérifiez qu’une fenêtre de messagerie instantanée apparaît et que vous pouvez taper et envoyer un message instantané.
 
-**Test de la conférence rendez-vous**
+**Tester la conférence rendez-vous**
 
 1.  Dans Outlook, planifiez une réunion Lync.
 
@@ -94,19 +94,19 @@ Après avoir configuré le client et que vous êtes connecté avec succès, util
 
 3.  Cliquez sur le lien dans la réunion afin de la rejoindre.
 
-4.  Répondez à l’appel du service de conférence et vérifiez que vous êtes connecté au système audio de la réunion.
+4.  Répondez à l’appel du service de conférence et vérifiez que vous êtes connecté à la réunion audio.
 
-**Test des notifications Push**
+**Tester les notifications de type poussé**
 
-1.  Sur l’appareil mobile de l’utilisateur, connectez-vous à Lync avec le compte de l’utilisateur.
+1.  Sur l’appareil mobile de l’utilisateur A, connectez-vous à Lync avec le compte de l’utilisateur A.
 
 2.  Ouvrez une autre application sur l’appareil mobile.
 
 3.  Sur un autre client, connectez-vous à Lync avec le compte de l’utilisateur B.
 
-4.  Envoyez un message instantané de l’utilisateur B à l’utilisateur A.
+4.  Envoyez un message instantané de l’utilisateur B à l’utilisateur A.
 
-5.  Vérifiez que la notification de messagerie instantanée s’affiche sur l’appareil mobile de l’utilisateur A.
+5.  Vérifiez que la notification de messagerie instantanée s’affiche sur l’appareil mobile de l’utilisateur A.
 
 </div>
 

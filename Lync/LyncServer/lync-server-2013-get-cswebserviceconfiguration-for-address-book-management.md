@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Get-CsWebServiceConfiguration pour la gestion du carnet d’adresses'
+title: 'Lync Server 2013 : Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration pour la gestion du carnet d’adresses dans Lync Server 2013
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration pour la gestion des carnets d’adresses dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41730574"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Qui peut exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsWebServiceConfiguration localement : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
+Personnes autorisées à exécuter cette applet de commande : Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Get-CsWebServiceConfiguration : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-Get-CsWebServiceConfiguration renvoie des informations sur la configuration des services Web actuellement utilisée au sein de votre organisation. Le statut de la fonction d’extension de liste de distribution est particulièrement utile pour les services du carnet d’adresses. Si l’attribut EnableGroupExpansion est vrai, votre organisation autorise actuellement l’extension du groupe.
+Get-CsWebServiceConfiguration retourne les informations de la configuration des services web actuellement appliquée dans votre organisation. Ce qui est important pour les services de carnet d’adresses est l’état de la fonction Distribution List Expansion. Si la valeur de l’attribut EnableGroupExpansion est True, votre organisation autorise le développement des groupes.
 
 Par exemple :
 

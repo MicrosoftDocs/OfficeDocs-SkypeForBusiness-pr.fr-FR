@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Ajout de rôles serveur'
+title: 'Lync Server 2013 : ajout de rôles serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738024"
 
 _**Dernière modification de la rubrique :** 2012-06-19_
 
-Après avoir activé votre déploiement initial, vous pouvez ajouter des rôles serveur supplémentaires pour Lync Server 2013, tel qu’un directeur ou un serveur de médiation autonome.
+Une fois que votre déploiement initial est activé, vous pouvez ajouter des rôles serveur supplémentaires pour Lync Server 2013, comme un directeur ou un serveur de médiation autonome.
 
 <div>
 
 
 > [!NOTE]  
-> Avant d’entreprendre la tâche d’installation de rôles serveur supplémentaires, consultez les rubriques de planification associées à chaque rôle.
+> Avant de commencer à installer des rôles serveur supplémentaires, consultez les rubriques de planification relatives à chaque rôle.
 
 
 
@@ -53,9 +53,9 @@ Après avoir activé votre déploiement initial, vous pouvez ajouter des rôles 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration de conférences rendez-vous dans Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [Configuration de la Conférence rendez-vous dans Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-Pour plus d’informations sur le déploiement de vos logiciels et périphériques clients qui peuvent être utilisés avec Lync Server 2013, voir [déploiement de clients et d’appareils dans Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).
+En outre, pour plus d’informations sur le déploiement de vos logiciels et périphériques client pouvant être utilisés avec Lync Server 2013, voir [Deploying clients and Devices in Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).
 
 </div>
 

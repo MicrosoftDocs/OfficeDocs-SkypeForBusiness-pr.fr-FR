@@ -12,16 +12,16 @@ ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad833bc84d488221d46822686077cfde2cda0ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a64803642249ef4b355279337fc62d1b3f356d93
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765092"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044926"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765092"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le mode multimédia stocke les informations relatives à un type de média utilisé dans une session d’égal à égal. Une session serait représentée par plusieurs enregistrements dans la table, si plusieurs types de média sont utilisés. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Le mode multimédia ne doit pas être utilisé pour calculer la durée du média pour une session. Cet affichage contient les détails de signalisation d’échange de médias dans une session. L’échange de média est effectué par la demande d’invitation, et la durée de StartTime indique l’heure d’envoi de l’invitation. La durée d’invitation ne correspond pas nécessairement à l’heure de début du média, car le contenu multimédia ne démarre qu’après acceptation de la session.
+> La vue Media ne doit pas être utilisée pour calculer la durée du média lors d’une session. Cette vue contient les détails de signalisation de l’échange multimédia lors d’une session. L’échange multimédia est effectué par la requête INVITE et StartTime indique l’heure à laquelle la requête INVITE a été envoyée. L’heure d’invitation ne signifie pas nécessairement l’heure de début du média, car le média démarre seulement une fois la session acceptée.
 
 
 
@@ -67,14 +67,14 @@ La vue multimédia contient toutes les colonnes de la [vue SessionDetails dans L
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Media</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Type de média. Pour plus d’informations, reportez-vous <a href="lync-server-2013-medialist-table.md">à la table de médiane dans Lync Server 2013</a> .</p></td>
+<td><p><strong>Support</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Type de média. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-medialist-table.md">table médial dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediaStartTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Temps d’envoi d’une demande de média.</p></td>
+<td><p>Heure d’envoi d’une demande multimédia.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaEndTime</strong></p></td>

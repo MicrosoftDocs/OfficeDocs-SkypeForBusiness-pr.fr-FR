@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : installation de rapports d’analyse Lync Server 2013'
+title: 'Lync Server 2013 : installation des rapports de surveillance de Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b5f9832ddc10d3cea46d09aee6b047595db0f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02be5b77ffc64ba7c206f141f1600ddfb858acfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726144"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Installation des rapports d’analyse Lync Server 2013
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Installation des rapports de surveillance Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41726144"
 
 _**Dernière modification de la rubrique :** 2015-02-27_
 
-Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent des informations sur la qualité et la quantité des sessions de communication qui interviennent au sein de votre organisation. Toutefois, les rapports d’analyse ne sont pas automatiquement installés lors de l’installation de Lync Server 2013 ; au lieu de cela, vous devez installer des rapports de surveillance séparément, puis uniquement après l’installation de Lync Server sur votre ordinateur.
+Les rapports de surveillance Microsoft Lync Server 2013 fournissent une mine d’informations sur la qualité et la quantité des sessions de communication qui ont lieu dans votre organisation. Toutefois, les rapports de surveillance ne sont pas installés automatiquement lors de l’installation de Lync Server 2013 ; au lieu de cela, vous devez installer les rapports de surveillance séparément et uniquement après l’installation de Lync Server sur l’ordinateur.
 
 <div>
 
@@ -49,11 +49,11 @@ Les rapports de surveillance de Microsoft Lync Server 2013 vous fournissent des 
 
 </div>
 
-Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, des sessions de messagerie instantanée d’égal à égal, des inscriptions d’utilisateur, l’application de groupe de réponse, etc. Pour la version 2013, les rapports de surveillance de Lync Server incluent un certain nombre d’améliorations :
+Les rapports de surveillance de Lync Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions des utilisateurs, l’application Response Group, et bien plus encore. Pour la version 2013, les rapports de surveillance de Lync Server incluent un certain nombre d’améliorations :
 
-  - **Nouveaux rapports de qualité de la voix**. Ces nouveaux rapports incluent le [rapport Comparaison de qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md), qui compare la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil). ainsi que le [rapport de temps de participation à la Conférence dans Lync Server 2013](lync-server-2013-conference-join-time-report.md), qui fournit des informations relatives à la durée nécessaire pour que les utilisateurs puissent participer à une conférence.
+  - **Nouveaux rapports de qualité de la voix**. Ces nouveaux rapports incluent le [rapport comparatif de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md), qui compare la qualité entre différents types d’appels (par exemple, entre les appels câblés et les appels sans fil); et le [rapport de temps de participation aux conférences dans Lync Server 2013](lync-server-2013-conference-join-time-report.md), qui fournit des informations sur le temps nécessaire pour que les utilisateurs puissent rejoindre une conférence.
 
-  - **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** Le [rapport synthèse sur la qualité multimédia dans Lync server 2013](lync-server-2013-media-quality-summary-report.md) fournit un moyen d’analyser les appels vidéo et de partage d’application, tandis que le [rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) décrit les performances des serveurs qui génèrent ces appels. Les métriques de partage d’application et de vidéo sont également signalées par le [rapport détaillé de session d’égal à égal dans Lync server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) et le [rapport de détails de la Conférence dans Lync Server 2013](lync-server-2013-conference-detail-report.md).
+  - **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** Le [rapport de synthèse de la qualité des médias dans Lync server 2013](lync-server-2013-media-quality-summary-report.md) permet d’analyser les appels de partage vidéo et d’application, tandis que le [rapport de performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) détaille les performances des serveurs qui génèrent ces appels. Les mesures de partage vidéo et d’application sont désormais communiquées par le [rapport détaillé de session P2P dans Lync server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) et le [rapport détaillé de conférence dans Lync Server 2013](lync-server-2013-conference-detail-report.md).
 
   - **Performances améliorées des rapports**. Ces améliorations incluent un temps de réponse et d’extraction des données plus court, ainsi qu’une navigation plus rapide et plus facile dans les rapports.
 
@@ -63,13 +63,13 @@ D’autres informations sur chaque rapport sont disponibles dans la documentatio
 
 
 > [!NOTE]  
-> Il y a un autre rapport-sous-état de détails d’appels QoE, inclus dans Lync Server 2013. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct.
+> Il existe un autre nouveau rapport : sous-rapport de détails des appels QoE – inclus dans Lync Server 2013. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct.
 
 
 
 </div>
 
-Il existe deux façons d’installer des rapports de surveillance de Lync Server : vous pouvez utiliser l’Assistant Déploiement de Lync Server ou utiliser un script Windows PowerShell inclus dans les fichiers d’installation de Lync Server 2013. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
+Il existe deux façons d’installer les rapports de surveillance Lync Server : vous pouvez utiliser l’Assistant Déploiement de Lync Server ou vous pouvez utiliser un script Windows PowerShell inclus avec les fichiers d’installation de Lync Server 2013. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
 
   - avez le droit d’ajouter un rôle de base de données à un compte d’utilisateur dans la base de données de surveillance ;
 
@@ -77,21 +77,21 @@ Il existe deux façons d’installer des rapports de surveillance de Lync Server
 
 Pour installer les rapports de surveillance à l’aide de l’Assistant Déploiement, procédez comme suit :
 
-1.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Assistant Déploiement de Lync Server**.
+1.  Cliquez successivement sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Assistant Déploiement Lync Server**.
 
 2.  Dans l’Assistant Déploiement, cliquez sur **Déployer les rapports de surveillance** afin de démarrer l’Assistant Déploiement des rapports de surveillance.
 
 3.  Dans l’Assistant Déploiement des rapports de surveillance, dans la page **Spécifier une base de données de surveillance**, vérifiez que le nom de domaine complet de l’ordinateur qui héberge votre magasin d’analyse apparaît dans la liste déroulante **Base de données de surveillance**. (Si vous avez plusieurs magasins d’analyse, vous devez sélectionner le serveur approprié dans la liste déroulante.) Vérifiez que l’instance SQL Server correcte apparaît dans la zone **Instance SQL Server Reporting Services (SSRS)** (par exemple, **atl-sql-001.litwareinc.com/archinst**), puis cliquez sur **Suivant**.
 
-4.  Dans la page **spécifier les informations d’identification** , dans la zone **nom d’utilisateur** , tapez le nom de domaine et le nom d’utilisateur du compte à utiliser lors de l’accès aux rapports de surveillance (par exemple, **litwareinc\\kenmyer**). Si vous n’utilisez pas ce format (nom\\d’utilisateur de domaine), une erreur se produit.
+4.  Sur la page **spécifier les informations d’identification** , dans la zone **nom d’utilisateur** , tapez le nom de domaine et le nom d’utilisateur du compte à utiliser lors de l’accès aux rapports de surveillance (par exemple, **litwareinc\\kenmyer**). Si vous n’utilisez pas ce format (nom\\d’utilisateur de domaine), une erreur se produit.
     
-    Tapez le mot de passe du compte d’utilisateur dans la zone **Mot de passe**, puis cliquez sur **Suivant**. Notez qu’aucun droit spécial n’est requis pour ce compte. Le nom de connexion et les autorisations de base de données requis sont octroyés automatiquement au compte une fois l’installation terminée.
+    Tapez le mot de passe du compte d’utilisateur dans la zone **Mot de passe**, puis cliquez sur **Suivant**. Notez qu’aucun droit particulier n’est requis pour ce compte. Une fois l’installation terminée, le compte dispose automatiquement des autorisations d’ouverture de session et de base de données requises.
 
 5.  Dans la page **Spécifier un groupe en lecture seule**, entrez le nom d’un groupe de sécurité qui disposera d’un accès en lecture seule à SQL Server Reporting Services dans la zone de groupe Utilisateur. Par exemple, pour octroyer aux administrateurs un accès en lecture seule aux rapports, entrez **RTCUniversalReadOnlyAdmins**. Cliquez sur **Suivant**.
 
-6.  Dans la page **Exécution de commandes**, cliquez sur **Terminer**.
+6.  Dans la page de **Exécution de commandes**, cliquez sur **Terminer**.
 
-Les rapports d’analyse peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports. ps1 ; Ce script Windows PowerShell est disponible sur le média d’installation de Lync Server dans \\le\\dossier ReportingSetup du programme d’installation. Pour installer des rapports d’analyse à l’aide de DeployReports. ps1, tapez une commande semblable à la suivante à l’invite Management Shell :
+Les rapports de surveillance peuvent également être installés à partir de Lync Server Management Shell en exécutant le script DeployReports. ps1 ; Ce script Windows PowerShell se trouve sur le support d’installation de Lync Server dans \\le\\dossier Setup ReportingSetup Pour installer les rapports de surveillance à l’aide de DeployReports.ps1, tapez une commande similaire à la suivante à l’invite Management Shell :
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -127,7 +127,7 @@ Les paramètres utilisés dans la commande précédente sont décrits dans le ta
 <tr class="odd">
 <td><p>readOnlyGroupName</p></td>
 <td><p>Non</p></td>
-<td><p>Domaine ou groupe de sécurité local dont les membres disposent d’un accès en lecture seule aux rapports de surveillance. Notez que le script échoue si le groupe spécifié n’existe pas. Si vous décidez ultérieurement de révoquer ces autorisations ou si vous décidez d’octroyer à d’autres utilisateurs ou groupes des autorisations d’accès, vous pouvez le faire à l’aide du Gestionnaire de rapports SQL Service Reporting Services.</p></td>
+<td><p>Domaine ou groupe de sécurité local dont les membres disposent d’un accès en lecture seule aux rapports de surveillance. Notez que le script échoue si le groupe spécifié n’existe pas. Si vous décidez ultérieurement de révoquer ces autorisations, ou si vous décidez d’octroyer à d’autres utilisateurs ou groupes des autorisations d’accès, vous pouvez le faire à l’aide du Gestionnaire de rapports SQL Service Reporting Services.</p></td>
 </tr>
 <tr class="even">
 <td><p>reportSqlServerInstance</p></td>
@@ -146,7 +146,7 @@ Les paramètres utilisés dans la commande précédente sont décrits dans le ta
 </table>
 
 
-Une fois les rapports d’analyse installés, vous devez utiliser l’applet de contrôle Set-CsReportingConfiguration pour configurer l’URL utilisée pour accéder à ces rapports. Cette tâche peut être exécutée à partir de Lync Server Management Shell en exécutant la commande Windows PowerShell suivante. Notez qu’il est recommandé, mais pas obligatoire, d’utiliser le protocole HTTPS pour configurer l’URL des rapports :
+Une fois que les rapports de surveillance ont été installés, vous devez utiliser l’applet de commande Set-CsReportingConfiguration pour configurer l’URL utilisée pour accéder à ces rapports. Cette tâche peut être exécutée à partir de Lync Server Management Shell en exécutant la commande Windows PowerShell suivante. Notez qu’il est recommandé, mais pas obligatoire, d’utiliser le protocole HTTPS pour configurer l’URL des rapports :
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 
@@ -158,7 +158,7 @@ Dans la commande précédente, la propriété ReportingUrl doit avoir la valeur 
 
 3.  Dans le Gestionnaire de configuration de Reporting Services, cliquez sur URL du Gestionnaire de rapports. Une ou plusieurs URL doivent apparaître dans le volet URL du Gestionnaire de rapports. Chacune de ces URL peut être utilisée en tant qu’URL de rapports, même si, là encore, il est recommandé d’utiliser le protocole HTTPS pour le paramètre ReportingUrl.
 
-Si vous avez configuré une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Pour plus d’informations, reportez-vous à l’article [Association de rapports d’analyse à une base de données miroir dans Lync Server 2013](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md) .
+Si vous avez configuré une base de données miroir pour votre base de données de surveillance, vous devez également associer les rapports de surveillance à la base de données miroir. Pour plus d’informations, reportez-vous à l’article [Association des rapports de surveillance avec une base de données miroir dans Lync Server 2013](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md) .
 
 </div>
 

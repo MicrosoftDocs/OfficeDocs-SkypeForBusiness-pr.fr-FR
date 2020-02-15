@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Détails des tables QoE'
+title: 'Lync Server 2013 : détails de la table QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157335ce68713c4c54b7cd69daf1c9ae0676a0b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a1b776aec52f74712b458050e36142b3dc633e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-table-details-in-lync-server-2013"></a>Détails des tables QoE dans Lync Server 2013
+# <a name="qoe-table-details-in-lync-server-2013"></a>Détails de la table QoE dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41747004"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
+Ces sections détaillent les colonnes de chacune des tables de schéma de la base de données de qualité de l’expérience (QoE).
 
-  - [Table AppliedBandwidthSource dans Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
+  - [Table table appliedbandwidthsource dans Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
   - [Table AppSharingMetricsThreshold dans Lync Server 2013](lync-server-2013-appsharingmetricsthreshold-table.md)
 
   - [Table AppSharingStream dans Lync Server 2013](lync-server-2013-appsharingstream-table.md)
 
-  - [Table AudioClientEvent dans Lync Server 2013](lync-server-2013-audioclientevent-table.md)
+  - [Table table audioclientevent dans Lync Server 2013](lync-server-2013-audioclientevent-table.md)
 
-  - [Table AudioSignal de Lync Server 2013](lync-server-2013-audiosignal-table.md)
+  - [Table table audiosignal dans Lync Server 2013](lync-server-2013-audiosignal-table.md)
 
   - [Table AudioStream dans Lync Server 2013](lync-server-2013-audiostream-table.md)
 
@@ -61,53 +61,53 @@ Les sections suivantes décrivent en détail les colonnes dans chaque table de s
 
   - [Table Dialog dans Lync Server 2013](lync-server-2013-dialog-table.md)
 
-  - [Table Endpoint dans Lync Server 2013](lync-server-2013-endpoint-table.md)
+  - [Tableau de points de terminaison dans Lync Server 2013](lync-server-2013-endpoint-table.md)
 
-  - [Table EndpointSubnet dans Lync Server 2013](lync-server-2013-endpointsubnet-table.md)
+  - [Table table endpointsubnet dans Lync Server 2013](lync-server-2013-endpointsubnet-table.md)
 
-  - [Table IPAddress dans Lync Server 2013](lync-server-2013-ipaddress-table.md)
+  - [IPAddress table dans Lync Server 2013](lync-server-2013-ipaddress-table.md)
 
   - [Table MacAddress dans Lync Server 2013](lync-server-2013-macaddress-table.md)
 
   - [Table MediaLine dans Lync Server 2013](lync-server-2013-medialine-table.md)
 
-  - [Table MonitoredRegionLink dans Lync Server 2013](lync-server-2013-monitoredregionlink-table.md)
+  - [Table table monitoredregionlink dans Lync Server 2013](lync-server-2013-monitoredregionlink-table.md)
 
-  - [Table MonitoredUserSiteLink](monitoredusersitelink-table.md)
+  - [Table table monitoredusersitelink](monitoredusersitelink-table.md)
 
   - [Table NetworkConnectionDetail dans Lync Server 2013](lync-server-2013-networkconnectiondetail-table.md)
 
   - [Table PayloadDescription dans Lync Server 2013](lync-server-2013-payloaddescription-table.md)
 
-  - [Table Pool dans Lync Server 2013](lync-server-2013-pool-table.md)
+  - [Table pool dans Lync Server 2013](lync-server-2013-pool-table.md)
 
   - [PurgeSettings table (QoE) dans Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Table Region dans Lync Server 2013](lync-server-2013-region-table.md)
 
-  - [Table Server dans Lync Server 2013](lync-server-2013-server-table.md)
+  - [Table serveur dans Lync Server 2013](lync-server-2013-server-table.md)
 
-  - [Table Session dans Lync Server 2013](lync-server-2013-session-table.md)
+  - [Table session dans Lync Server 2013](lync-server-2013-session-table.md)
 
-  - [Table SessionCorrelation dans Lync Server 2013](lync-server-2013-sessioncorrelation-table.md)
+  - [Table table sessioncorrelation dans Lync Server 2013](lync-server-2013-sessioncorrelation-table.md)
 
-  - [Table Subnet dans Lync Server 2013](lync-server-2013-subnet-table.md)
+  - [Table de sous-réseau dans Lync Server 2013](lync-server-2013-subnet-table.md)
 
-  - [Tableau TraceRoute dans Lync Server 2013](lync-server-2013-traceroute-table.md)
+  - [Table TraceRoute dans Lync Server 2013](lync-server-2013-traceroute-table.md)
 
-  - [Table User dans Lync Server 2013](lync-server-2013-user-table.md)
+  - [Table user dans Lync Server 2013](lync-server-2013-user-table.md)
 
   - [Table UserAgent dans Lync Server 2013](lync-server-2013-useragent-table.md)
 
-  - [UserAgentDef table (QoE) dans Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
+  - [Table useragentdef table (QoE) dans Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
 
   - [Table UserSite dans Lync Server 2013](lync-server-2013-usersite-table.md)
 
-  - [Table VideoClientEvent dans Lync Server 2013](lync-server-2013-videoclientevent-table.md)
+  - [Table table videoclientevent dans Lync Server 2013](lync-server-2013-videoclientevent-table.md)
 
   - [Table VideoMetricsThreshold dans Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
 
-  - [Table VideoStream dans Lync Server 2013](lync-server-2013-videostream-table.md)
+  - [Table table Videostream dans Lync Server 2013](lync-server-2013-videostream-table.md)
 
 </div>
 

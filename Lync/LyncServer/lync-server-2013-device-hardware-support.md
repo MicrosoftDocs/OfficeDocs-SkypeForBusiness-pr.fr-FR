@@ -1,5 +1,5 @@
 ---
-title: Prise en charge du matériel de périphérique dans Lync Server 2013
+title: Prise en charge du matériel de périphérique Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762432"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41762432"
 
 _**Dernière modification de la rubrique :** 2012-12-14_
 
-Des configurations matérielles spécifiques doivent être en place avant le déploiement de téléphones IP et d’appareils analogiques.
+Vous devez mettre en place des configurations matérielles spécifiques avant de déployer des téléphones IP et des périphériques analogiques.
 
-Sur les téléphones IP exécutant Lync Phone Edition, le protocole de découverte des couches de connexion (LLDP-MED) et Power over Ethernet (PoE) sont pris en charge.Pour tirer parti de LLDP-MED, le commutateur doit prendre en charge les normes IEEE 802.1 AB et ANSI/TIA-1057. Pour tirer parti de la PoE, le commutateur doit prendre en charge le mode PoE 802.3 AF ou 802.3 au.
+Les téléphones IP exécutant Lync Phone Edition prennent en charge la fonctionnalité Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) et Power over Ethernet (PoE).Pour utiliser le protocole LLDP-MED, le commutateur doit prendre en charge les normes IEEE802.1AB et ANSI/TIA-1057. Pour utiliser PoE, il doit prendre en charge la norme PoE802.3AF ou 802.3at.
 
-Pour activer LLDP-MED, l’administrateur doit activer LLDP en utilisant la fenêtre console de basculement et définir la stratégie réseau LLDP-MED avec l’ID VLAN valide.
+Pour utiliser LLDP-MED, l’administrateur doit activer LLDP dans la fenêtre de la console du commutateur et définir la stratégie réseau LLDP-MED à l’aide de l’ID du réseau local virtuel (VLAN) de voix correct.
 
-De plus, si votre déploiement inclut des appareils analogiques, vous devez configurer la passerelle analogique pour utiliser Lync Server et la passerelle doit être l’un des éléments suivants :
+En outre, si votre déploiement inclut des appareils analogiques, vous devez configurer la passerelle analogique pour utiliser Lync Server et la passerelle doit être l’une des suivantes :
 
   - Un adaptateur de téléphone analogique (ATA)
 
-  - Passerelle analogique PSTN
+  - Une passerelle analogique PSTN
 
-  - Une unité de branchement Survivable qui inclut une passerelle analogique PSTN
+  - Un Survivable Branch Appliance qui inclut une passerelle analogique PSTN
 
-  - Une unité de branchement Survivable qui inclut une passerelle RTC qui communique avec un disque ATA
+  - Un Survivable Branch Appliance qui inclut une passerelle PSTN communiquant avec un adaptateur de téléphone analogique (ATA)
 
-Pour plus d’informations sur la configuration d’une passerelle analogique, voir la section « planification de [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) déploiement de périphériques analogiques » dans la bibliothèque TechNet de Lync Server 2010. (Les appareils analogiques fonctionnent de la même manière dans Lync Server 2013 que dans Lync Server 2010.)
+Pour en savoir plus sur la configuration d’une passerelle analogique, voir la section sur la planification [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) du déploiement des périphériques analogiques dans la bibliothèque TechNet Lync Server 2010. (Les périphériques analogiques fonctionnent de la même manière dans Lync Server 2013 que dans Lync Server 2010.)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si le commutateur prend en charge cette option, vous pouvez configurer le commutateur pour Enhanced 9-1-1 (E9-1-1).
+> Vous pouvez configurer le commutateur pour Enhanced 9-1-1 (E9-1-1) si celui-ci prend en charge cette fonctionnalité.
 
 
 

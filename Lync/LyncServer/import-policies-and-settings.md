@@ -12,16 +12,16 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b12a47ffde7d09fa7e216312211b6f0118b89233
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734084"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41734084"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Après avoir fusionné vos informations topologiques Office Communications Server 2007 R2 avec votre pool de pilotes Lync Server 2013, vous devez exécuter une cmdlet Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration d’Office Communications Server 2007 R2. à votre pool de pilotes de Lync Server 2013.
+Après avoir fusionné les informations de topologie Office Communications Server 2007 R2 avec votre pool pilote Lync Server 2013, vous devez exécuter une cmdlet Lync Server 2013 Management Shell pour migrer vos stratégies et paramètres de configuration Office Communications Server 2007 R2. à votre pool pilote Lync Server 2013.
 
-L’applet **de connexion Import-CsLegacyConfiguration** importe les stratégies, les itinéraires vocaux, les plans de numérotation, les URL et les numéros d’accès rendez-vous sur Lync Server 2013.
+L’applet de commande **Import-applet cslegacyconfiguration** importe des stratégies, des itinéraires de communications vocales, des plans de numérotation, des URL d’Office Communicator Web Access et des numéros d’accès entrant vers Lync Server 2013.
 
 <div>
 
-## <a name="to-migrate-policies-and-settings"></a>Pour migrer des stratégies et des paramètres
+## <a name="to-migrate-policies-and-settings"></a>Pour migrer les stratégies et les paramètres
 
 1.  Sur le serveur frontal Lync Server 2013, démarrez Lync Server Management Shell.
 
-2.  Dans la ligne de commande, tapez ce qui suit :
+2.  Dans la ligne de commande, tapez le code suivant :
     
         Import-CsLegacyConfiguration
     
-    Une fois les stratégies importées, utilisez la procédure suivante pour afficher les stratégies importées dans le panneau de configuration de Lync Server.
+    Une fois les stratégies importées, utilisez la procédure suivante pour afficher les stratégies importées dans le panneau de configuration Lync Server.
 
 </div>
 
@@ -59,15 +59,15 @@ L’applet **de connexion Import-CsLegacyConfiguration** importe les stratégies
 
 ## <a name="to-view-imported-policies"></a>Pour afficher les stratégies importées
 
-1.  Ouvrez le panneau de configuration de Lync Server 2013.
+1.  Ouvrez le panneau de configuration Lync Server 2013.
 
-2.  Cliquez sur **routage** et afficher les stratégies importées.
+2.  Cliquez sur **Routage des communications vocales** et affichez les stratégies importées.
 
 3.  Cliquez sur **Conférence** et affichez les stratégies importées.
 
-4.  Cliquez sur **Fédération et accès externe** , puis affichez les stratégies importées.
+4.  Cliquez sur **Fédération et accès externe** et affichez les stratégies importées.
 
-5.  Cliquez sur **surveillance et archivage** et afficher les stratégies importées.
+5.  Cliquez sur **Surveillance et archivage** et affichez les stratégies importées.
 
 </div>
 

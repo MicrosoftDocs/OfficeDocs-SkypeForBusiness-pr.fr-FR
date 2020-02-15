@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : SIPResponseMetaData'
+title: 'Lync Server 2013 : table SIPResponseMetaData'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcd6cb462bd64f6fdcdbae93cfb733de0639898
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c6e1541869a2976f283443f2fae9246f28007
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731914"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731914"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Le SIPResponseMetaDataTable contient une liste des codes de réponse SIP et la classification et la définition de chacun de ces codes. Ces codes sont générés en réponse à des événements affectant des périphériques SIP et des sessions de communication SIP ; par exemple, le code de réponse 403 est généré lorsqu’un périphérique SIP envoie une demande, mais que le serveur décline la demande.
+La table SIPResponseMetaDataTable contient la liste des codes de réponse SIP et les classification et définition de chacun de ces codes. Ceux-ci sont générés en réponse aux événements affectant les périphériques SIP et les sessions de communication SIP. Par exemple, le code de réponse 403 est généré quand un périphérique SIP effectue une requête, mais que le serveur refuse d’honorer cette requête.
 
-Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -53,7 +53,7 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -61,29 +61,29 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Valeur numérique qui représente le code de réponse SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cours</strong></p></td>
+<td><p><strong>Classe</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Classification générale du code de réponse. Les classifications sont les suivantes :</p>
+<td><p>Classification générale pour le code de réponse. Les classifications comprennent :</p>
 <ul>
-<li><p>1 – réponses d’information</p></li>
-<li><p>2 – réponses réussies</p></li>
-<li><p>3 – réponses de redirection</p></li>
-<li><p>4 – réponses d’échec client</p></li>
-<li><p>5 réponses aux échecs sur le serveur</p></li>
-<li><p>6-réponse d’échec globale</p></li>
+<li><p>1 – Réponses informatives</p></li>
+<li><p>2 – Réponses réussies</p></li>
+<li><p>3 – Réponses de redirection</p></li>
+<li><p>4 – Réponses d’échec de client</p></li>
+<li><p>5--réponses d’échec de serveur</p></li>
+<li><p>6 – Réponse d’échec global</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Description du code de réponse SIP. Par exemple, le code de réponse 181 contient la description suivante :</p>
-<p>Appel en cours de transfert</p></td>
+<td><p>Description du code de réponse SIP. Par exemple, le code de réponse 181 a la description suivante :</p>
+<p>L’appel est en cours de transfert</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a493fed33fff897ea2cccc2a89c0d55c5b8a8097
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 080f27b1e01f86d23fd5fd7bf6fdb9e9a05c0742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726124"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Installer un logiciel facultatif dans Lync Server 2013
+# <a name="installing-optional-software-in-lync-server-2013"></a>Installation de logiciels facultatifs dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41726124"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-L’outil de planification Microsoft Lync Server 2013 est conçu pour être exporté vers Microsoft Excel et Microsoft Visio. Même si ces applications ne sont pas nécessaires pour l’utilisation de l’outil de planification, elles ajoutent une valeur importante au déploiement et à la documentation de votre conception.
+L’outil de planification Microsoft Lync Server 2013 est conçu pour l’exportation vers Microsoft Excel et Microsoft Visio. Bien que ces applications ne soient pas requises pour le fonctionnement de l’outil de planification, elles ajoutent une valeur significative au déploiement et à la documentation de votre conception.
 
 <div>
 
@@ -47,21 +47,21 @@ L’outil de planification Microsoft Lync Server 2013 est conçu pour être expo
 
 ## <a name="microsoft-excel"></a>Microsoft Excel
 
-L’exportation de votre conception vers Microsoft Excel permet de créer un rapport sous forme de feuille de calcul à quatre onglets :
+L’exportation de votre conception vers Microsoft Excel crée un rapport qui affiche sept onglets dans la feuille de calcul :
 
-  - Synthèse : affiche des informations sur la configuration du site, notamment le nombre d’utilisateurs, les paramètres de capacité et les informations de profil du serveur.
+  - Résumé : affiche des informations sur la configuration du site, notamment le nombre d’utilisateurs, les paramètres de capacité et les informations de profil de serveur.
 
-  - Profil matériel : affiche un rapport détaillant les configurations matérielles recommandées pour les serveurs spécifiés dans la topologie, y compris le processeur, la mémoire, le disque et l’interface réseau. La quantité et les caractéristiques conseillées pour les composants serveur y figurent également. Par ailleurs, chaque serveur est défini par site afin de fournir une représentation complète de la configuration serveur requise pour chaque site.
+  - Profil matériel : affiche un rapport détaillant les configurations matérielles recommandées pour les serveurs spécifiés dans la topologie, y compris le processeur, la mémoire, le disque et l’interface réseau. La quantité et les spécifications recommandées pour les composants serveur sont également incluses. Par ailleurs, chaque serveur est défini par site pour fournir une représentation complète des exigences en matière de serveur par site.
 
-  - Configuration requise pour les ports : affiche un rapport de tous les ports activés et l’association entre l’équilibrage de la charge DNS et les programmes d’équilibrage de la charge matérielle. Vous devez utiliser ce rapport pour planifier votre pare-feu et les configurations de l’équilibrage de la charge DNS et des programmes d’équilibrage de la charge matérielle.
+  - Ports Requirements : affiche un rapport de tous les ports activés, ainsi que l’association avec l’équilibrage de charge DNS (Domain Name System) et les programmes d’équilibrage de la charge matérielle (charge matérielle). Vous devez utiliser ce rapport pour planifier vos configurations de pare-feu et de DNS et charge matérielle.
 
-  - Rapport de synthèse : affiche la synthèse générale des paramètres nécessaires à la configuration de votre réseau Edge Server.
+  - Rapport de synthèse : affiche le résumé général des paramètres requis pour configurer votre réseau de serveur Edge.
 
-  - Rapport sur les certificats : affiche le nom du sujet et les noms de domaine alternatifs requis pour les certificats nécessaires à l’exécution des serveurs Edge.
+  - Certificate Report : affiche le nom de l’objet et les autres noms du sujet requis pour les certificats nécessaires pour obtenir les serveurs Edge en cours d’exécution.
 
-  - Rapport de pare-feu : affiche les adresses IP et ports sources et de destination des interfaces internes et externes.
+  - Rapport de pare-feu : affiche les adresses IP et les ports source et de destination pour les interfaces internes et externes.
 
-  - Rapport DNS : affiche le nom de domaine complet et les adresses IP/VIP requises pour chaque entrée DNS que vous créez.
+  - Rapport DNS : affiche le nom de domaine complet (FQDN) et les adresses IP/VIP requises pour chaque entrée DNS que vous créez.
 
 </div>
 
@@ -75,7 +75,7 @@ L’exportation de votre conception vers Microsoft Visio crée un diagramme à 
 
 
 > [!NOTE]  
-> Si votre conception est suffisamment grande pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de domaine complets.
+> Si votre conception est suffisamment importante pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de domaine complets.
 
 
 
@@ -83,9 +83,9 @@ L’exportation de votre conception vers Microsoft Visio crée un diagramme à 
 
   - Topologie globale : diagramme des sites Lync Server 2013 configurés.
 
-  - Onglet nom du site : affiche la topologie de configuration de site avec serveur de périmètre, pare-feu, réseau téléphonique public commuté (RTC) avec passerelles et le déploiement de serveur interne. Le déploiement interne se compose de serveurs et de pools configurés, y compris les pools front end, serveurs SQL Server, services de domaine Active Directory, directeurs, serveurs de messagerie unifiée Exchange, serveurs de boîte aux lettres Exchange, serveurs Office Web Apps. Serveurs de médiation et serveurs de chat permanents.
+  - Onglet nom du site – affiche la topologie de configuration de site avec le serveur Edge, le pare-feu, le réseau téléphonique commuté (RTC) avec passerelles et le déploiement du serveur interne. Le déploiement interne se compose de serveurs et de pools configurés, y compris les pools frontaux, les serveurs SQL Server, les services de domaine Active Directory, les directeurs, les serveurs de messagerie unifiée Exchange, les serveurs de boîtes aux lettres Exchange, les serveurs Office Web Apps, Les serveurs de médiation et les serveurs de conversation permanente.
 
-  - Cartographie de réseaux de réseaux latéraux : diagramme détaillant la configuration du serveur Edge avec les adresses IP et noms de domaine complets associés. L’équilibrage de la charge DNS et les programmes d’équilibrage de la charge matérielle sont également inclus. De plus, les directeurs et le serveur frontal ou le pool frontal sont affichés, avec DNS ou HLB associé et l’adresse IP attribuée (l’outil de planification prend en charge à la fois les adresses IPv4 et IPv6) et le FQDN.
+  - Diagramme de réseau Edge : diagramme détaillant la configuration du serveur Edge avec des adresses IP et des noms de domaine complets associés. L’équilibrage de charge DNS et les programmes d’équilibrage de la charge matérielle sont également inclus. De plus, les directeurs et le serveur frontal ou le pool frontal sont affichés, avec le DNS charge matérielle associé et l’adresse IP affectée (l’outil de planification prend en charge les adresses IPv4 et IPv6) et le nom de domaine complet (FQDN).
 
 </div>
 

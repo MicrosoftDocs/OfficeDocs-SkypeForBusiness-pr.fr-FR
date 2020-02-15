@@ -12,16 +12,16 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e42f9fd2b954e943050fc9877706ae53a1143c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726134"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41726134"
 
 _**Dernière modification de la rubrique :** 2014-02-03_
 
-Lync 2013 pour Windows Phone est une application qui est disponible sur Windows Phone Marketplace.
+Lync 2013 pour Windows Phone est une application installable par l’utilisateur et disponible sur le site Marketplace Windows Phone.
 
 <div>
 
 ## <a name="installing-lync-for-windows-mobile"></a>Installation de Lync pour Windows Mobile
 
-Vous pouvez indiquer à vos utilisateurs d’installer Lync 2013 pour Windows Phone sur leurs appareils en les redirigeant vers Windows Phone Marketplace <http://go.microsoft.com/fwlink/p/?linkid=231901>à l’adresse.
+Vous pouvez demander à vos utilisateurs d’installer Lync 2013 pour Windows Phone sur leurs appareils en les dirigeant vers Windows Phone Marketplace à l' <http://go.microsoft.com/fwlink/p/?linkid=231901>adresse.
 
 </div>
 
@@ -51,26 +51,26 @@ Vous pouvez indiquer à vos utilisateurs d’installer Lync 2013 pour Windows Ph
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>Si vous utilisez un enregistrement SRV DNS pour publier des services Web Exchange
 
-Pour activer l’intégration Exchange pour les clients Lync, certaines organisations publient l’URL du service Web Exchange à l’aide d’un enregistrement SRV DNS. Le document « comprendre et résoudre les problèmes d’intégration d’Exchange », disponible dans le [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)Centre de téléchargement Microsoft à, décrit les scénarios dans lesquels cela peut être nécessaire. Toutefois, l’intégration Exchange pour les utilisateurs Windows Phone ne fonctionnera pas dans ce scénario, car la plateforme Windows Phone ne prend pas en charge les recherches SRV. Vous devez indiquer aux utilisateurs Windows Phone de spécifier l’URL du service Web Exchange au lieu de laisser le téléphone détecter automatiquement le serveur.
+Pour activer l’intégration d’Exchange pour les clients Lync, certaines organisations publient l’URL des services Web Exchange à l’aide d’un enregistrement SRV DNS. Le document « Understanding and Troubleshooting Exchange Integration », disponible dans le centre [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)de téléchargement Microsoft à l’adresse, décrit les scénarios dans lesquels cela peut s’avérer nécessaire. Toutefois, l’intégration d’Exchange pour les utilisateurs de Windows Phone ne fonctionnera pas dans ce scénario, car la plateforme Windows Phone ne prend pas en charge les recherches SRV. Vous devrez indiquer aux utilisateurs Windows Phone de spécifier l’URL des services Web Exchange au lieu de permettre au téléphone de détecter automatiquement le serveur.
 
 Demandez à vos utilisateurs de configurer les paramètres Lync sur leurs téléphones Windows comme suit :
 
-1.  Dans les paramètres de Lync pour Windows Phone, sélectionnez l’écran **Exchange** .
+1.  Dans Windows Phone, dans les paramètres de Lync, sélectionnez l’écran **Exchange** .
 
-2.  Pour **Désactiver**l’option **détecter automatiquement le serveur,**
+2.  Déplacez **le serveur de détection automatique** sur **désactivé**.
 
-3.  Appuyez sur le champ vide, puis entrez le nom de domaine complet (FQDN) ou l’URL des services Web Exchange.
+3.  Appuyez sur le champ vide et entrez le nom de domaine complet (FQDN) ou l’URL des services Web Exchange.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez spécifier le nom de domaine complet (FQDN) ou l’URL complète de votre serveur de services Web Exchange. Si vous spécifiez le nom de domaine complet, le protocole (https://) et le chemin d’accès aux services Web Exchange (/EWS/Exchange.asmx) sont automatiquement ajoutés. Si votre chemin d’accès aux services Web Exchange est différent, vous pouvez spécifier l’URL complète.
+    > Vous pouvez spécifier le nom de domaine complet (FQDN) ou l’URL complète de votre serveur de services Web Exchange. Si vous spécifiez le nom de domaine complet, le protocole (https://) et le chemin d’accès des services Web Exchange (/EWS/Exchange.asmx) sont automatiquement ajoutés. Si votre chemin d’accès aux services Web Exchange est différent, vous pouvez spécifier l’URL complète.
 
     
     </div>
 
-4.  Fermez l’écran.
+4.  Fermer l’écran.
 
 </div>
 
@@ -78,25 +78,25 @@ Demandez à vos utilisateurs de configurer les paramètres Lync sur leurs télé
 
 ## <a name="verifying-mobile-client-installation"></a>Vérification de l’installation du client mobile
 
-Après avoir configuré le client et que vous êtes connecté avec succès, utilisez les tests suivants pour vérifier que votre installation de Lync 2013 fonctionne correctement sur votre appareil mobile.
+Après avoir configuré le client et s’être connecté, utilisez les tests suivants pour vérifier que votre installation de Lync 2013 fonctionne correctement sur votre appareil mobile.
 
-**Recherche d’un contact dans l’annuaire d’entreprise**
+**Rechercher un contact dans l’annuaire d’entreprise**
 
-1.  Dans la liste des contacts, appuyez sur **Rechercher** en bas.
+1.  Dans la liste Contacts, tapez sur **Rechercher** en bas.
 
 2.  Recherchez un contact qui n’existe que dans la liste d’adresses globale.
 
 3.  Vérifiez que le nom du contact figure dans les résultats de la recherche.
 
-**Test de la messagerie instantanée et de la présence**
+**Tester la messagerie instantanée et la présence**
 
 1.  Dans la liste Contacts, tapez sur un contact.
 
-2.  Sur la carte de visite, appuyez sur l’icône de **messagerie instantanée** .
+2.  Dans la carte de visite, tapez sur l’icône **IM**.
 
 3.  Vérifiez qu’une fenêtre de messagerie instantanée apparaît et que vous pouvez taper et envoyer un message instantané.
 
-**Test de la conférence rendez-vous**
+**Tester la conférence rendez-vous**
 
 1.  Dans Outlook, planifiez une réunion Lync.
 
@@ -106,17 +106,17 @@ Après avoir configuré le client et que vous êtes connecté avec succès, util
 
 4.  Répondez à l’appel du service de conférence et vérifiez que vous êtes connecté au système audio de la réunion.
 
-**Test des notifications Push**
+**Tester les notifications de type push**
 
-1.  Sur l’appareil mobile de l’utilisateur, connectez-vous à Lync avec le compte de l’utilisateur.
+1.  Sur l’appareil mobile de l’utilisateur A, connectez-vous à Lync avec le compte de l’utilisateur A.
 
 2.  Ouvrez une autre application sur l’appareil mobile.
 
 3.  Sur un autre client, connectez-vous à Lync avec le compte de l’utilisateur B.
 
-4.  Envoyez un message instantané de l’utilisateur B à l’utilisateur A.
+4.  Envoyez un message instantané de l’utilisateur B à l’utilisateur A.
 
-5.  Vérifiez que la notification de messagerie instantanée s’affiche sur l’appareil mobile de l’utilisateur A.
+5.  Vérifiez que la notification de messagerie instantanée s’affiche sur l’appareil mobile de l’utilisateur A.
 
 </div>
 

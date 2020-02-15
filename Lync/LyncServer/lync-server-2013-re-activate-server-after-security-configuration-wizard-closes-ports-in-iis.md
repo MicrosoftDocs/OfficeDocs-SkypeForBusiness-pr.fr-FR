@@ -1,5 +1,5 @@
 ---
-title: Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)
+title: Réactiver le serveur après la fermeture des ports par l’Assistant Configuration de sécurité dans les services Internet (IIS)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6642906c1855575fb8077846eef6646bfb37531
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 388a39c81af2f7e3ca4e0c61f468b283deaa7a4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746874"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Réactivation du serveur après la fermeture des ports par l’Assistant Configuration de la sécurité dans les services Internet (IIS)
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Réactiver le serveur après la fermeture des ports par l’Assistant Configuration de sécurité dans les services Internet (IIS)
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41746874"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Certains rôles Lync Server 2013 exécutent des services Web sur Internet Information Services (IIS) 4443. L’exécution de l’Assistant Déploiement de Lync Server, Bootstrapper. exe, ou à l’aide de l’applet de action **Enable-CsComputer** crée une exception dans le pare-feu et ouvre le port. Si vous exécutez ensuite l’Assistant Configuration de la sécurité Windows Server 2008 R2 (ou d’autres scripts de renforcement), le port 4443 sera bloqué et les clients externes ne seront pas en mesure de contacter les services Web. Pour rouvrir le port, vous pouvez modifier directement l’exception de pare-feu ou réactiver le serveur.
+Certains rôles Lync Server 2013 exécutent des services Web sur le port 4443 des services Internet (IIS). L’exécution de l’Assistant Déploiement de Lync Server, Bootstrapper. exe ou l’utilisation de l’applet de commande **Enable-CsComputer** crée une exception dans le pare-feu et ouvre le port. Si vous exécutez ensuite l’Assistant Configuration de la sécurité Windows Server 2008 R2 (ou d’autres scripts de renforcement de la protection), le port 4443 sera bloqué et les clients externes ne pourront pas contacter les services Web. Pour rouvrir le port, vous pouvez modifier directement l’exception de pare-feu ou réactiver le serveur.
 
 <div>
 
 ## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>Pour réactiver le serveur à l’aide de l’Assistant Déploiement
 
-1.  Dans la page Assistant Déploiement de Lync Server, cliquez sur **exécuter** à côté de l' **étape 2 : configurer ou supprimer les composants Lync Server**.
+1.  Sur la page Assistant Déploiement Lync Server, cliquez sur **exécuter** à côté de **étape 2 : installer ou supprimer des composants Lync Server**.
 
-2.  Sur la page **Configuration des composants du serveur Lync** , cliquez sur **suivant**.
+2.  Sur la page **Installer les composants Lync Server**, cliquez sur **Suivant**.
 
-3.  Dans la page **exécution des commandes** , lorsque l’état de la tâche est affiché comme terminé, cliquez sur **Terminer**.
+3.  Sur la page **Exécution de commandes**, lorsque l’état indique que la tâche est terminée, cliquez sur **Terminer**.
     
     <div>
     

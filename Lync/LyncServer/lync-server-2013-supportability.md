@@ -1,5 +1,5 @@
 ---
-title: Prise en charge pour Lync Server 2013
+title: Prise en charge de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2829ff9869287a08532584e318362ba57e51d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 348cdf890574e80b5997dee4312ec1a4b6371566
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supportability-for-lync-server-2013"></a>Prise en charge pour Lync Server 2013
+# <a name="supportability-for-lync-server-2013"></a>Prise en charge de Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731754"
 
 _**Dernière modification de la rubrique :** 2012-04-23_
 
-Le logiciel de communications Microsoft Lync Server 2013 prend en charge des topologies conçues pour répondre aux besoins des entreprises de petite taille, moyenne ou grande qui présentent des exigences différentes en matière de performances, de haute disponibilité et d’évolutivité.
+Le logiciel de communication Microsoft Lync Server 2013 prend en charge les topologies qui sont conçues pour répondre aux besoins des organisations de petite, moyenne ou grande taille et qui ont des exigences variables en matière de performances, de haute disponibilité et d’évolutivité.
 
 <div>
 
@@ -53,11 +53,11 @@ Le logiciel de communications Microsoft Lync Server 2013 prend en charge des top
 
   - [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md)
 
-  - [Prise en charge des infrastructures et des logiciels de serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
-  - [Autres prises en charge et configurations de serveur requises dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)
+  - [Prise en charge supplémentaire des serveurs et configuration requise dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)
 
-  - [Prise en charge du logiciel et de l’infrastructure des clients et des dispositifs dans Lync Server 2013](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
+  - [Prise en charge du logiciel et de l’infrastructure des clients et des périphériques dans Lync Server 2013](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
 
 </div>
 

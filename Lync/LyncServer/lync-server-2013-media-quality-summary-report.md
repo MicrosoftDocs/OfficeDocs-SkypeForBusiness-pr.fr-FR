@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport de synthèse sur la qualité multimédia'
+title: 'Lync Server 2013 : rapport de synthèse de la qualité des médias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6980168a2d509bc32b9aa48f30167bca8721fef2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 89a5046ba15534d40c81e1e3b8a4f310873a9e1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766085"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Rapport synthèse qualité multimédia dans Lync Server 2013
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Rapport de synthèse de la qualité des médias dans Lync Server 2013
 
 </div>
 
@@ -39,23 +39,23 @@ _**Dernière modification de la rubrique :** 2016-06-29_
 
 Le rapport de synthèse de la qualité des médias permet d’analyser la qualité des appels au sein de votre organisation : ce rapport fournit des mesures d’appel de qualité de l’expérience (QoE) détaillées décomposées selon les catégories suivantes :
 
-  - Appels d’égal à égal (par exemple, Microsoft Lync 2013 vers Microsoft Lync 2013)
+  - Appels d’égal à égal UC (tels qu’un appel Microsoft Lync 2013 vers Microsoft Lync 2013)
 
   - Sessions de conférence UC
 
-  - Sessions de conférence RTC
+  - Sessions de conférence PSTN
 
-  - Appels RTC : contournement du média
+  - Appels PSTN : contournement du média
 
-  - Appels RTC (sans contournement) : partie UC
+  - Appels PSTN (sans contournement) : partie UC
 
-  - Appels RTC (sans contournement) : partie passerelle
+  - Appels PSTN (sans contournement) : partie passerelle
 
   - Autres types d’appels
 
-Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour afficher des sous-catégories, comme les appels passés à partir d’Office Communicator 2007 R2 vers Lync 2013. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
+Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour consulter des sous-catégories telles que les appels passés d’Office Communicator 2007 R2 à Lync 2013. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
 
-Dans Microsoft Lync Server 2013, le rapport synthèse qualité multimédia répartit les données en trois types d’appels : les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
+Dans Microsoft Lync Server 2013, le rapport de synthèse de la qualité des médias divise les données en trois types d’appels : les appels audio, les appels vidéo et les appels de partage d’applications. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
 
 Le rapport de synthèse de la qualité des médias vous permet d’appliquer des filtres pour comparer la qualité des appels entre les appels câblés et les appels sans fil, les appels internes et externes, les appels VPN et non VPN.
 
@@ -63,7 +63,7 @@ Le rapport de synthèse de la qualité des médias vous permet d’appliquer des
 
 ## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [rapport des listes d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Volume d’appels
 
@@ -91,7 +91,7 @@ De plus, vous pouvez accéder au Rapport de distribution des mesures de qualité
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, grâce au rapport de synthèse de la qualité des médias, vous pouvez filtrer les données renvoyées selon des éléments précis, tels que le type d’accès (à savoir « accès interne » par comparaison à « accès externe ») ou la connexion réseau câblée/sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, grâce au rapport de synthèse de la qualité des médias, vous pouvez filtrer les données retournées selon des éléments précis, tels que le type d’accès (à savoir « accès interne » par comparaison à « accès externe ») ou la connexion réseau câblée/sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse de la qualité des médias.
 
@@ -110,7 +110,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -120,20 +120,20 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type d’accès</strong></p></td>
 <td><p>Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Interne</p></li>
 <li><p>Externe</p></li>
 </ul></td>
@@ -142,18 +142,18 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -185,16 +185,16 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
+<td><p><strong>Type d’appel/type de système d’extrémité</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
 <ul>
-<li><p>Appels P2P UC</p></li>
+<li><p>Appels d’égal à égal UC</p></li>
 <li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
+<li><p>Sessions de conférence PSTN</p></li>
+<li><p>Appels PSTN : contournement du média</p></li>
+<li><p>Appels PSTN (sans contournement) : partie UC</p></li>
+<li><p>Appels PSTN (sans contournement) : partie passerelle</p></li>
 <li><p>Autres types d’appels</p></li>
 </ul></td>
 </tr>
@@ -232,8 +232,8 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
-<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Perte de paquets</strong></p></td>
@@ -243,7 +243,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="even">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -281,16 +281,16 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
+<td><p><strong>Type d’appel/type de système d’extrémité</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
 <ul>
-<li><p>Appels P2P UC</p></li>
+<li><p>Appels d’égal à égal UC</p></li>
 <li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
+<li><p>Sessions de conférence PSTN</p></li>
+<li><p>Appels PSTN : contournement du média</p></li>
+<li><p>Appels PSTN (sans contournement) : partie UC</p></li>
+<li><p>Appels PSTN (sans contournement) : partie passerelle</p></li>
 <li><p>Autres types d’appels</p></li>
 </ul></td>
 </tr>
@@ -380,16 +380,16 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
+<td><p><strong>Type d’appel/type de système d’extrémité</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
 <ul>
-<li><p>Appels P2P UC</p></li>
+<li><p>Appels d’égal à égal UC</p></li>
 <li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
+<li><p>Sessions de conférence PSTN</p></li>
+<li><p>Appels PSTN : contournement du média</p></li>
+<li><p>Appels PSTN (sans contournement) : partie UC</p></li>
+<li><p>Appels PSTN (sans contournement) : partie passerelle</p></li>
 <li><p>Autres types d’appels</p></li>
 </ul></td>
 </tr>
@@ -421,7 +421,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unilatéral relatif moyen</strong></p></td>
@@ -431,7 +431,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="odd">
 <td><p><strong>Latence moyenne de traitement des mosaïques RDP</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Une moyenne élevée équivaut à une expérience de visionnage plus longue et inclut une latence du réseau. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</p></td>
+<td><p>Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Une moyenne élevée reflète un délai plus long dans l’expérience de visualisation et inclut la latence du réseau. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre total de mosaïques altérées (%)</strong></p></td>

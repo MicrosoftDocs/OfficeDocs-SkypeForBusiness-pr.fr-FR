@@ -12,20 +12,20 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb74e5a6272f752da7cf31be3379d217447f3397
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765382"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="load-balancing-requirements-for-lync-server-2013"></a>Exigences d’équilibrage de charge pour Lync Server 2013
+# <a name="load-balancing-requirements-for-lync-server-2013"></a>Exigences en matière d’équilibrage de charge pour Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41765382"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Si vous disposez de pools de serveurs frontaux, de pools de directeurs ou de serveurs de périphérie, vous devez déployer l’équilibrage de charge pour ces pools. Lʼéquilibrage de charge distribue le trafic entre les serveurs dans un pool.
+Si vous disposez de pools frontaux, de pools directeurs ou de pools de serveurs Edge, vous devez déployer l’équilibrage de charge pour ces pools. L’équilibrage de la charge distribue le trafic entre les serveurs dans un pool.
 
-Lync Server 2013 prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur : l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de charge matérielle. Le service d’équilibrage de la charge DNS offre plusieurs avantages, notamment une administration plus simple, un dépannage plus efficace et la possibilité d’isoler une grande partie du trafic de votre serveur Lync de tout problème éventuel d’équilibrage de charge matériel.
+Lync Server 2013 prend en charge deux types de solutions d’équilibrage de charge pour le trafic client à serveur : l’équilibrage de charge DNS (Domain Name System) et l’équilibrage de la charge matérielle. L’équilibrage de charge DNS offre plusieurs avantages, notamment l’administration simplifiée, une résolution des problèmes plus efficace et la possibilité d’isoler la plupart du trafic Lync Server des problèmes potentiels d’équilibreur de charge matériel.
 
-Déterminez la solution d’équilibrage de charge adaptée à chaque pool de votre déploiement, en gardant à l’esprit les restrictions suivantes :
+Déterminez la solution d’équilibrage de la charge adaptée à chaque pool de votre déploiement, en gardant à l’esprit les restrictions suivantes :
 
-  - Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de charge. Vous ne pouvez pas utiliser l’équilibrage de charge DNS sur une interface et l’équilibrage de charge matérielle sur l’autre.
+  - Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface et l’équilibrage de la charge matérielle sur l’autre.
 
-  - Certains types de trafic nécessitent un programme dʼéquilibrage de charge matérielle. Par exemple, le trafic HTTP requiert un équilibrage de charge matérielle plutôt que l’équilibrage de charge DNS. Celui-ci ne fonctionne pas avec le trafic web client à serveur.
+  - Certains types de trafic nécessitent un programme d’équilibrage de la charge matérielle. Par exemple, le trafic HTTP requiert un programme d’équilibrage de la charge matérielle plutôt que l’équilibrage de la charge DNS. Celui-ci ne fonctionne pas avec le trafic web client-à-serveur.
 
-Pour plus d’informations sur le choix d’une solution d’équilibrage de charge matérielle, voir [Configuration requise pour l’équilibrage de charge matérielle pour Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
+Pour plus d’informations sur le choix d’une solution d’équilibrage de la charge matérielle, voir [Configuration requise de l’équilibreur de charge matérielle pour Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
 
-Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des équilibreurs de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des équilibreurs de la charge matérielle est grandement simplifiée. Par exemple, l’équilibreur de charge matérielle sera plus simple car il ne gérera que le trafic HTTP et HTTPS, alors que tous les autres protocoles seront gérés par l’équilibrage de charge DNS. Pour plus d’informations, voir [équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md).
+Si vous décidez d’utiliser l’équilibrage de la charge DNS pour un pool mais que vous souhaitez quand même implémenter des programmes d’équilibrage de la charge matérielle pour certains types de trafics, tels que le trafic HTTP, l’administration des programmes d’équilibrage de la charge matérielle est grandement simplifiée. Par exemple, la configuration de l’équilibreur de la charge matérielle sera plus simple, car elle ne gérera que le trafic HTTP et HTTPs, tandis que tous les autres protocoles seront gérés par l’équilibrage de la charge DNS. Pour plus d’informations, reportez-vous à la rubrique [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md).
 
-Pour le trafic de serveur à serveur, Lync Server 2013 utilise l’équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Les administrateurs n’ont pas besoin de configurer ou de gérer ce type d’équilibrage de charge.
+Pour le trafic de serveur à serveur, Lync Server 2013 utilise un équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Les administrateurs n’ont pas besoin de configurer ou de gérer ce type d’équilibrage de charge.
 
-Si vous utilisez l’équilibrage de charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également l’entrée DNS associée à l’ordinateur.
+Si vous utilisez l’équilibrage de la charge DNS et que vous avez besoin de bloquer le trafic sur un ordinateur spécifique, il ne suffit pas de supprimer les entrées d’adresses IP du nom de domaine complet du pool. Vous devez également supprimer l’entrée DNS pour l’ordinateur.
 
 </div>
 

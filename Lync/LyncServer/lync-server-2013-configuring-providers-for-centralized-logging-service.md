@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration des fournisseurs pour le service de journalisation centralisé'
+title: 'Lync Server 2013 : configuration des fournisseurs pour le service de journalisation centralisée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2428bd11e656d0f1b6295e63ca6106fa7edcbb15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51dbb8c1a2e24290e4ab2805bed191e5f2dc86bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuration de fournisseurs pour le service de journalisation centralisé dans Lync Server 2013
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Lync Server 2013
 
 </div>
 
@@ -37,65 +37,65 @@ ms.locfileid: "41734851"
 
 _**Dernière modification de la rubrique :** 2014-03-19_
 
-Les concepts et la configuration des *fournisseurs* dans le service de journalisation centralisé sont les plus importants à comprendre. Les *fournisseurs* mappent directement aux composants du rôle serveur Lync Server dans le modèle de suivi du serveur Lync. Le fournisseur définit les composants d’un serveur Lync Server 2013 qui seront tracés, le type de messages (par exemple, irrécupérable, d’erreur ou d’avertissement) à collecter, ainsi que les indicateurs (par exemple\_, la connexion\_TF ou TF diag). Les fournisseurs sont les composants traçables dans chaque rôle serveur Lync Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
+Les concepts et la configuration des *fournisseurs* dans le service de journalisation centralisée sont les plus importants à comprendre. Les *fournisseurs* mappent directement vers les composants de rôle serveur Lync Server dans le modèle de suivi Lync Server. Le fournisseur définit les composants d’un Lync Server 2013 qui seront suivis, le type de messages (par exemple, fatal, erreur ou avertissement) à collecter, ainsi que les indicateurs (par exemple, TF\_Connection ou TF\_diag). Les fournisseurs sont les composants traçables dans chaque rôle serveur Lync Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
 
-Pour exécuter les fonctions de service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé qui contient l’un des ces deux groupes. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
+Pour exécuter les fonctions du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur un rôle) CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’une des ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC (contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Exemple :
+Par exemple :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Le reste de cette rubrique met l’accent sur la définition des fournisseurs, la modification d’un fournisseur et la spécification du contenu d’un fournisseur afin d’optimiser votre dépannage. Il existe deux façons d’envoyer des commandes de service de journalisation centralisées. Vous pouvez utiliser le CLSController. exe qui se trouve par défaut dans le répertoire C\\: fichiers\\fichiers communs\\Microsoft Lync Server 2013\\CLSAgent. Vous pouvez ou utiliser Lync Server Management Shell pour exécuter les commandes Windows PowerShell. La distinction importante réside dans le fait que, lorsque vous utilisez CLSController. exe à partir de la ligne de commande, il existe une sélection limitée de scénarios disponibles dans lesquels les fournisseurs sont déjà définis et ne peuvent pas être modifiés, mais vous pouvez définir le niveau de journal. À l’aide de Windows PowerShell, vous pouvez définir de nouveaux fournisseurs à utiliser dans vos sessions de journalisation et disposer d’un contrôle total sur la création, la collecte et le niveau de collecte des données.
+Le reste de cette rubrique porte sur la définition des fournisseurs, la modification d’un fournisseur et ce que contient une définition de fournisseur afin d’optimiser le dépannage. Il existe deux façons d’émettre des commandes de service de journalisation centralisée. Vous pouvez utiliser le CLSController. exe qui se trouve, par défaut, dans le répertoire C :\\Program Files\\Common files\\Microsoft Lync Server 2013\\CLSAgent. Vous pouvez utiliser Lync Server Management Shell pour émettre des commandes Windows PowerShell. Il est important de noter que lorsque vous utilisez CLSController.exe à la ligne de commande, la sélection de scénarios disponibles dans lesquels les fournisseurs sont déjà définis est limitée et non modifiable ; toutefois, vous pouvez définir le niveau de journalisation. À l’aide de Windows PowerShell, vous pouvez définir de nouveaux fournisseurs à utiliser dans vos sessions de journalisation et disposer d’un contrôle total sur leur création, leur collecte et leur niveau de collecte des données.
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> Comme nous l’avons précédemment mentionné, les fournisseurs sont très puissants. Cependant, les scénarios le sont davantage, et ce du fait qu’ils contiennent toutes les informations nécessaires pour définir et exécuter le suivi sur les composants que les fournisseurs représentent. Les scénarios étant une collection de fournisseurs, une certaine analogie peut être établie entre, d’une part, l’exécution d’un fichier de commandes qui contient des centaines de commandes destinées à collecter une grande quantité d’informations et, d’autre part, l’émission de centaines de commandes, une à la fois, à la ligne de commande.<BR>Au lieu de vous demander de vous plonger dans les détails des fournisseurs, le service de journalisation centralisé fournit un certain nombre de scénarios déjà définis pour vous. Les scénarios fournis couvrent la grande majorité des problèmes que vous êtes susceptible de rencontrer. Dans de rares cas, vous devrez créer et définir des fournisseurs et les affecter à des scénarios. Nous vous recommandons fortement de vous familiariser avec chacun des scénarios fournis avant d’étudier la nécessité de créer de nouveaux scénarios et de nouveaux fournisseurs. Bien que des informations sur la création de fournisseurs sont données ici pour vous familiariser avec la façon dont les scénarios utilisent les éléments des fournisseurs pour collecter des informations de suivi, aucun détail sur les fournisseurs eux-mêmes n’est fourni pour le moment.
+> Comme nous l’avons précédemment mentionné, les fournisseurs sont très puissants. Cependant, les scénarios le sont davantage, et ce du fait qu’ils contiennent toutes les informations nécessaires pour définir et exécuter le suivi sur les composants que les fournisseurs représentent. Les scénarios étant une collection de fournisseurs, une certaine analogie peut être établie entre, d’une part, l’exécution d’un fichier de commandes qui contient des centaines de commandes destinées à collecter une grande quantité d’informations et, d’autre part, l’émission de centaines de commandes, une à la fois, à la ligne de commande.<BR>Au lieu de vous demander d’approfondir les détails des fournisseurs, le service de journalisation centralisée fournit un certain nombre de scénarios qui sont déjà définis pour vous. Les scénarios fournis couvrent la grande majorité des problèmes que vous êtes susceptible de rencontrer. Dans de rares cas, vous devrez créer et définir des fournisseurs et les affecter à des scénarios. Nous vous recommandons fortement de vous familiariser avec chacun des scénarios fournis avant d’étudier la nécessité de créer de nouveaux scénarios et de nouveaux fournisseurs. Bien que des informations sur la création de fournisseurs sont données ici pour vous familiariser avec la façon dont les scénarios utilisent les éléments des fournisseurs pour collecter des informations de suivi, aucun détail sur les fournisseurs eux-mêmes n’est fourni pour le moment.
 
 
 
 </div>
 
-Présenté dans [la vue d’ensemble du service de journalisation centralisé dans Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), les principaux éléments de la définition d’un fournisseur pour une utilisation dans un scénario sont les suivants :
+Introduits dans [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), les éléments clés de la définition d’un fournisseur à utiliser dans un scénario sont les suivants :
 
-  - **Fournisseurs**   si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez pour déterminer OCSLogger ce sur quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec l’utilisation de OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur pour lesquels le service de journalisation centralisé peut collecter des journaux. Dans le cas d’un service de journalisation centralisé, le CLSAgent est la partie architecturale du service de journalisation centralisé qui effectue le suivi des composants que vous définissez dans la configuration des fournisseurs.
+  - **Fournisseurs**   si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez pour indiquer à OCSLogger ce que le moteur de suivi doit collecter dans les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur, dont le service de journalisation centralisée peut collecter des journaux. Dans le cas du service de journalisation centralisée, le CLSAgent est la partie architecturale du service de journalisation centralisée qui effectue le suivi des composants que vous définissez dans la configuration des fournisseurs.
 
-  - **Niveaux de connexion**   OCSLogger avez fourni la possibilité de choisir un certain niveau de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisé et des scénarios, et est définie par le paramètre de **type** . Vous avez le choix entre les valeurs suivantes :
+  - **Niveaux de journalisation**   OCSLogger offre la possibilité de choisir un certain nombre de niveaux de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisée et des scénarios, et est définie par le paramètre **type** . Vous pouvez choisir l'une des options suivantes :
     
-      - **Tout rassemble les**   messages de suivi de type irrécupérable, erreur, avertissement et informations au Journal du fournisseur défini.
+      - **All collecte les**   messages de suivi de type fatal, Error, Warning et info dans le journal pour le fournisseur défini.
     
-      - **Irrécupérable**   recueille uniquement les messages de suivi qui indiquent un échec du fournisseur défini.
+      - **Fatal**   collecte uniquement les messages de suivi qui indiquent un échec pour le fournisseur défini.
     
-      - **Erreur**   collecte uniquement les messages de suivi indiquant une erreur pour le fournisseur défini, ainsi que les messages irrécupérables.
+      - **Error**   collecte uniquement les messages de suivi qui indiquent une erreur pour le fournisseur défini, ainsi que les messages irrécupérables.
     
-      - **AVERTISSEMENT**   recueille uniquement les messages de suivi qui indiquent un avertissement pour le fournisseur défini, ainsi que les messages d’erreur et d’erreur irrécupérable.
+      - **Warning**   collecte uniquement les messages de suivi qui indiquent un avertissement pour le fournisseur défini, ainsi que les messages d’erreur et fatale.
     
-      - **Les informations**   collectent uniquement les messages de suivi qui indiquent un message d’information pour le fournisseur défini, ainsi que les messages d’avertissement ou d’erreur irrécupérable.
+      - **Info**   collecte uniquement les messages de suivi qui indiquent un message d’information pour le fournisseur défini, ainsi que les messages d’erreur fatale, d’erreur et d’avertissement.
     
-      - **Détaillé**   recueille tous les messages de suivi de type irrécupérable, erreur, avertissement et informations pour le fournisseur défini.
+      - **Verbose**   collecte tous les messages de suivi de type fatal, Error, Warning et info pour le fournisseur défini.
 
-  - **Indicateurs**   OCSLogger vous avez fourni l’option permettant de choisir les indicateurs de chaque fournisseur définissant le type d’informations que vous pouvez récupérer dans les fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
+  - **Indicateurs**   OCSLogger offre la possibilité de choisir des indicateurs pour chaque fournisseur définissant le type d’informations que vous pouvez récupérer dans les fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
     
-      - **La\_connexion**   TF fournit des entrées de journal liées à la connexion. Ces journaux incluent des informations sur les connexions établies depuis et vers un composant particulier. Ils peuvent également comprendre des informations importantes au niveau du réseau (c’est-à-dire, pour les composants sans le concept d’une connexion).
+      - **TF\_Connection**   fournit des entrées de journal liées à la connexion. Ces journaux incluent des informations sur les connexions établies depuis et vers un composant particulier. Ils peuvent également comprendre des informations importantes au niveau du réseau (c’est-à-dire, pour les composants sans le concept d’une connexion).
     
-      - **TF\_Security**   fournit toutes les informations relatives à la sécurité. Par exemple, pour SipStack, il s’agit d’événements de sécurité tels que les échecs de validation de domaine et les échecs d’authentification ou d’autorisation du client.
+      - **TF\_Security**   fournit tous les événements/entrées de journal liés à la sécurité. Par exemple, pour SipStack, il s’agit d’événements de sécurité tels que les échecs de validation de domaine et les échecs d’authentification ou d’autorisation du client.
     
-      - **TF\_diag**   fournit des événements de diagnostics que vous pouvez utiliser pour diagnostiquer ou résoudre les problèmes liés au composant. Par exemple, pour SipStack, il s’agit d’échecs de certificat ou d’avertissements/erreurs DNS.
+      - **TF\_diag**   fournit des événements de diagnostic que vous pouvez utiliser pour diagnostiquer ou dépanner le composant. Par exemple, pour SipStack, il s’agit d’échecs de certificat ou d’avertissements/erreurs DNS.
     
-      - **Le\_protocole**   TF fournit des messages de protocole tels que SIP et les messages du Pack de codecs de la Communauté combinée.
+      - **Le\_protocole**   TF fournit des messages de protocole, tels que SIP et les messages du Pack de codecs communautaires combinés.
     
-      - **Le\_composant**   TF autorise la journalisation sur les composants spécifiés comme faisant partie des fournisseurs.
+      - **Le\_composant**   TF active la journalisation sur les composants spécifiés dans le cadre des fournisseurs.
     
-      - **All**   définit tous les indicateurs disponibles disponibles pour le fournisseur.
+      - **All**   définit tous les indicateurs disponibles pour le fournisseur.
 
 <div>
 
-## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>Pour consulter des informations sur les fournisseurs de scénarios de service de journalisation centralisée existants
+## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>Pour consulter les informations sur les fournisseurs de scénarios de service de journalisation centralisée existants
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Pour examiner la configuration de fournisseurs existants, tapez ce qui suit :
     
@@ -115,9 +115,9 @@ Présenté dans [la vue d’ensemble du service de journalisation centralisé da
 
 <div>
 
-## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>Pour définir un nouveau fournisseur de scénarios de service de journalisation centralisée
+## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>Pour définir un nouveau fournisseur de scénario de service de journalisation centralisée
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Un fournisseur de scénario se compose d’un composant à suivre, d’indicateurs à utiliser et d’un niveau de détail à collecter. Pour cela, tapez :
     
@@ -127,7 +127,7 @@ Présenté dans [la vue d’ensemble du service de journalisation centralisé da
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-–Level collecte les messages Fatal, Error, Warning et Info. Les indicateurs utilisés sont tous ceux définis pour le fournisseur de services de Lyss et incluent\_les connexions TF\_, TF diag\_et TF.
+–Level collecte les messages Fatal, Error, Warning et Info. Les indicateurs utilisés sont tous ceux définis pour le fournisseur Lyss, et incluent la connexion\_TF, TF\_diag et TF\_Protocol.
 
 Après avoir défini la variable $LyssProvider, vous pouvez l’utiliser avec la nouvelle applet de commande **New-CsClsScenario** pour collecter des suivis à partir du fournisseur Lyss. Pour terminer la création du fournisseur et son affectation à un nouveau scénario, tapez :
 
@@ -139,9 +139,9 @@ Où $LyssProvider est la variable qui contient le scénario défini créé avec 
 
 <div>
 
-## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Pour modifier un fournisseur de scénarios de service de journalisation centralisé existant
+## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Pour modifier un fournisseur de scénario de service de journalisation centralisé existant
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Pour mettre à jour ou modifier la configuration d’un fournisseur existant, tapez :
     
@@ -175,9 +175,9 @@ Où chaque fournisseur défini avec la directive Add a déjà été défini à l
 
 ## <a name="to-remove-a-scenario-provider"></a>Pour supprimer un fournisseur de scénario
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, notre fournisseur LyssProvider est défini sur WPP comme type de journal, niveau défini pour le débogage et indicateurs définis sont\_connexion TF et\_TF diag. Vous devez affecter aux indicateurs la valeur « All ». Pour modifier le fournisseur, tapez ce qui suit :
+2.  Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, notre fournisseur LyssProvider est défini avec WPP comme type de journal, niveau défini sur déboguer et ensemble d’indicateurs\_sont connexion TF\_et TF diag. Vous devez affecter aux indicateurs la valeur « All ». Pour modifier le fournisseur, tapez ce qui suit :
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 
@@ -189,7 +189,7 @@ Où chaque fournisseur défini avec la directive Add a déjà été défini à l
     
         Remove-CsClsScenario -Identity <scope and name of scenario>
     
-    Exemple :
+    Par exemple :
     
         Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
     

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : définir le code confidentiel de conférence rendez-vous d’un utilisateur'
+title: 'Lync Server 2013 : définition du code confidentiel de conférence rendez-vous d’un utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab97b3efe350ef82527262103e9b00104990245a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c344a848050d53027c094ad549f0285fbae09489
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764690"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41764690"
 
 _**Dernière modification de la rubrique :** 2014-06-10_
 
-Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur de Lync Server 2013 avec les informations d’identification d’AD DS (Active Directory Domain Services) nécessite un code confidentiel (PIN). Si un utilisateur oublie le code confidentiel de conférence rendez-vous ou n’a pas défini le code confidentiel à l’aide de Lync Server, vous pouvez définir le code confidentiel de l’utilisateur à partir du panneau de configuration de Lync Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
+Pour joindre une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Lync Server 2013 avec les informations d’identification des services de domaine Active Directory (AD DS) nécessite un code confidentiel (PIN). Si un utilisateur oublie le code confidentiel de la Conférence rendez-vous ou n’a pas défini le code confidentiel à l’aide de Lync Server, vous pouvez définir le code confidentiel de l’utilisateur à partir du panneau de configuration Lync Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
 
 <div>
 
 
 > [!NOTE]  
-> Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies sous forme de stratégie. Outre la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur spécifique. Pour plus d’informations sur la configuration d’une stratégie de code confidentiel, reportez-vous à la rubrique <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">configurer les règles du code confidentiel pour les conférences rendez-vous dans Lync Server 2013</A>.
+> Les caractéristiques spécifiques du code confidentiel, comme sa longueur minimale, peuvent être définies en tant que stratégie. En plus de la stratégie globale, vous pouvez configurer une stratégie de code confidentiel pour un site ou un utilisateur particulier. Pour plus d’informations sur la configuration d’une stratégie de code confidentiel, voir <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">configurer des règles de code confidentiel (pin) pour les conférences rendez-vous dans Lync Server 2013</A>.
 
 
 
@@ -53,27 +53,27 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 ## <a name="to-set-a-users-pin"></a>Pour définir le code confidentiel d’un utilisateur
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
 4.  Recherchez un utilisateur à l’aide de l’une des méthodes suivantes :
     
-      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP (Session Initiation Protocol) ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
+      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
     
-      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour rechercher la requête (un fichier .usf).
+      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour localiser la requête (un fichier .usf).
 
 5.  (Facultatif) Indiquez des critères de recherche supplémentaires pour affiner les résultats :
     
     1.  Cliquez sur **Ajouter un filtre**.
     
-    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
+    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
     
-    3.  Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
+    3.  Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Pas égal à**).
     
-    4.  Selon la propriété utilisateur sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche de la liste déroulante.
+    4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
         <div>
         
@@ -90,16 +90,16 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
 
     > [!NOTE]  
-    > Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, sélectionnez l’utilisateur, cliquez sur <STRONG>Action</STRONG>, puis sur <STRONG>Déverrouiller le code confidentiel</STRONG>.
+    > Si le code confidentiel est verrouillé, vous devez le déverrouiller avant de pouvoir le définir. Pour déverrouiller le code confidentiel, cliquez sur l’utilisateur, sur <STRONG>Action</STRONG>, puis sur <STRONG>Déverrouiller le code confidentiel</STRONG>.
 
     
     </div>
 
-6.  Sélectionnez un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Définir le code confidentiel**.
+6.  Cliquez sur un utilisateur dans les résultats de recherche, puis cliquez sur **Action** et sur **Définir le code confidentiel**.
 
 7.  Dans la boîte de dialogue **Définir le code confidentiel**, effectuez l’une des opérations suivantes :
     
-      - Pour permettre à Lync Server 2013 de générer le code confidentiel de l’utilisateur, sélectionnez **générer automatiquement un code confidentiel valide** (par défaut).
+      - Pour permettre à Lync Server 2013 de générer le code confidentiel de l’utilisateur, sélectionnez **générer automatiquement un code confidentiel valide** (valeur par défaut).
     
       - Pour créer votre propre code confidentiel, cliquez sur **Entrer manuellement un code confidentiel spécifique**, cliquez sur la zone de texte, puis tapez un code confidentiel respectant les exigences de code confidentiel spécifiées dans vos paramètres de stratégie de code confidentiel.
 
@@ -109,7 +109,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
       - Activez la case à cocher **Afficher le code confidentiel** pour afficher le code confidentiel, puis copiez-le et communiquez-le à l’utilisateur selon la méthode préférée de votre organisation.
     
-      - Cliquez sur **Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur** afin d’envoyer le code confidentiel par courrier électronique. Si Microsoft Office Outlook est votre client de messagerie, le code confidentiel est copié automatiquement dans un nouveau message électronique. Si vous utilisez un autre client de messagerie, activez la case à cocher **Afficher le code confidentiel** pour afficher le code confidentiel, puis copiez-le dans votre message électronique.
+      - Cliquez sur **Ouvrir mon application de messagerie pour envoyer le nouveau code confidentiel à l’utilisateur** afin d’envoyer le code confidentiel par courrier électronique. Si Microsoft Office Outlook est votre client de messagerie, le code confidentiel est automatiquement copié dans un nouveau message électronique. Si vous utilisez un autre client de messagerie, activez la case à cocher **Afficher le code confidentiel** pour afficher le code confidentiel, puis copiez-le dans votre message électronique.
 
 10. Cliquez sur **Fermer**.
 
@@ -117,15 +117,15 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 <div>
 
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Attribution d’un code confidentiel utilisateur à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Affectation d’un code confidentiel d’utilisateur à l’aide d’applets de commande Windows PowerShell
 
-Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez attribuer des numéros de code confidentiel à l’aide de la cmdlet Set-CsClientPin. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
 ## <a name="to-auto-assign-a-pin-number-to-a-user"></a>Affectation automatique d’un code confidentiel à un utilisateur
 
-  - La commande ci-dessous affecte un code confidentiel à l’utilisateur Ken Myer. Dans la mesure où le paramètre code confidentiel n’est pas inclus, Lync Server génère automatiquement et attribue le numéro de broche.
+  - La commande suivante affecte un code confidentiel à l’utilisateur Ken Myer. Étant donné que le paramètre de code confidentiel n’est pas inclus, Lync Server génère et affecte automatiquement le numéro de code confidentiel.
     
         Set-CsClientPin -Identity "Ken Myer" 
 
@@ -133,7 +133,7 @@ Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l�
 
 <div>
 
-## <a name="to-assign-a-specific-pin-number-to-a-user"></a>Affectation d’un code confidentiel à un utilisateur
+## <a name="to-assign-a-specific-pin-number-to-a-user"></a>Pour affecter un numéro de code confidentiel spécifique à un utilisateur
 
   - Cette commande utilise le paramètre de code confidentiel pour affecter le code confidentiel 121989 à l’utilisateur Ken Myer.
     
@@ -141,7 +141,7 @@ Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l�
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) .
 
 </div>
 
@@ -150,7 +150,7 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 ## <a name="see-also"></a>Voir aussi
 
 
-[Numéro d’accès entrant](https://technet.microsoft.com/en-us/library/gg133674\(v=ocs.15\))  
+[Numéro d’accès entrant](https://technet.microsoft.com/library/gg133674\(v=ocs.15\))  
 
 
 [Configurer des règles de code confidentiel (PIN) de conférence rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)  

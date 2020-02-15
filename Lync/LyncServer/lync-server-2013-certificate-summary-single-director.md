@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des certificats - Directeur unique'
+title: 'Lync Server 2013 : Résumé des certificats-directeur unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18fcec270104be1620402ddee0c665c0f3f3a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: abb3b1e9963d88a7876232219a8d4f2290c2c9cc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743534"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-director-in-lync-server-2013"></a>Résumé des certificats - Directeur unique dans Lync Server 2013
+# <a name="certificate-summary---single-director-in-lync-server-2013"></a>Résumé des certificats-directeur unique dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41743534"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Les exigences en matière de certificat pour un seul directeur sont composées d’un certificat par défaut dont le nom du sujet comporte le nom de l’objet et des noms de remplacement pour les services que le directeur peut recevoir. Par ailleurs, il existe un certificat de jeton OAuth pour les besoins d’authentification de serveur à serveur.
+Les certificats requis pour un seul directeur consistent en un certificat par défaut dont le nom d’objet et les autres noms de sujet pour les services que le directeur peut recevoir. Il existe en outre un certificat de jeton OAuth servant à l’authentification de serveur à serveur.
 
-### <a name="certificates-for-director"></a>Certificats pour Director
+### <a name="certificates-for-director"></a>Certificats pour le directeur
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Les exigences en matière de certificat pour un seul directeur sont composées d
 <tr class="header">
 <th>Composant</th>
 <th>Nom du sujet (SN)</th>
-<th>Autres noms d’objet (SAN)</th>
+<th>Autres noms du sujet (SAN)</th>
 <th>Commentaires</th>
 </tr>
 </thead>
@@ -65,10 +65,10 @@ Les exigences en matière de certificat pour un seul directeur sont composées d
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Facultatif) *. contoso.com</p></td>
-<td><p>Les certificats de réalisateur peuvent être demandés auprès d’une autorité de certification (CA) gérée en interne ou auprès d’une autorité de certification publique.</p>
-<p>Le directeur répond aux requêtes du proxy inverse dans le périmètre ou du serveur Edge. Les clients internes n’utiliseront pas le directeur.</p>
-<p>Ou une entrée de caractère générique pour les URL simples</p></td>
+<p>(Facultatif) *.contoso.com</p></td>
+<td><p>Les certificats directeurs peuvent être demandés auprès d’une autorité de certification gérée en interne ou auprès d’une autorité de certification publique.</p>
+<p>Le directeur répond aux demandes du proxy inverse dans le périmètre ou à partir du serveur Edge. Les clients internes n’utiliseront pas le directeur.</p>
+<p>Ou, une entrée de caractère générique pour les URL simples</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
@@ -77,11 +77,11 @@ Les exigences en matière de certificat pour un seul directeur sont composées d
 <td><div>
 
 > [!IMPORTANT]  
-> Notez que la longueur de la clé minimum est de 1024, mais vous pouvez recevoir un avertissement indiquant que la longueur de la clé minimum recommandée est 2048 bits.
+> Notez que la longueur de clé minimale s’élève à 1 024 bits ; toutefois, vous pouvez recevoir un avertissement indiquant que la longueur de clé minimale recommandée s’élève à 2 048 bits.
 
 
 </div>
-<p>Le certificat OAuthTokenIssuer est un certificat à usage unique qui permet d’authentifier des serveurs dans un environnement à grande échelle et qui peut être demandé auprès d’une autorité de certification interne ou d’une autorité de certification publique. Le certificat est requis.</p></td>
+<p>Le certificat OAuthTokenIssuer est un certificat à usage unique qui permet d’authentifier des serveurs dans un environnement à grande échelle ; il peut être demandé auprès d’une autorité de certification interne ou publique. Ce certificat est obligatoire.</p></td>
 </tr>
 </tbody>
 </table>

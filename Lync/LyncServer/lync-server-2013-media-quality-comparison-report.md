@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport de comparaison de la qualité multimédia'
+title: 'Lync Server 2013 : rapport de comparaison de la qualité des médias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bcec69db6154aa346fc4545dc3b50fcfe0f2d6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c45f2d238d2ffd8df058e31bfa50a51f26c1caf5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758762"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Rapport de comparaison de qualité multimédia dans Lync Server 2013
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Rapport de comparaison de la qualité des médias dans Lync Server 2013
 
 </div>
 
@@ -68,7 +68,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -78,26 +78,26 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Appels</strong></p></td>
 <td><p>Type d’appel à utiliser en tant que principal élément de comparaison. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Externe</p></li>
 <li><p>Interne</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Non VPN</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 <li><p>Externe et câblé</p></li>
 <li><p>Externe et sans fil</p></li>
 <li><p>Externe et VPN</p></li>
@@ -110,13 +110,13 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <td><p><strong>Comparer avec les appels</strong></p></td>
 <td><p>Type d’appel à utiliser en tant qu’élément de comparaison secondaire. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Externe</p></li>
 <li><p>Interne</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Non VPN</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 <li><p>Externe et câblé</p></li>
 <li><p>Externe et sans fil</p></li>
 <li><p>Externe et VPN</p></li>
@@ -126,14 +126,14 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec le 7/8/2012 comme date de début et le 28/9/2012 comme date de fin, les données s’affichent pour les jours compris entre le 7/8/2012 12:00 AM et le 7/9/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
 </tr>
 </tbody>
 </table>
@@ -171,7 +171,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport compar
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
+<td><p>Quantité moyenne de dégradation MOS (note moyenne d’opinion) lors d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion ont été calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une balance de 1 à 5. Lync Server utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
 <p>Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
@@ -193,7 +193,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport compar
 <tr class="even">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>

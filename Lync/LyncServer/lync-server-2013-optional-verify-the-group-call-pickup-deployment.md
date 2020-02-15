@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : (facultatif) vérifier le déploiement d’un appel de groupe'
+title: 'Lync Server 2013 : (facultatif) vérifier le déploiement de la prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91c449a0bafc4067b3315b659d981f7a57a023bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cdf1e75f950ebf155bfd21c68b860f48af8e978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755668"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>Facultatif Vérifier le déploiement d’un appel de groupe dans Lync Server 2013
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>Module Vérifier le déploiement de la prise d’appel de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41755668"
 
 _**Dernière modification de la rubrique :** 2013-01-30_
 
-Une fois que vous avez activé le prélèvement d’appel de groupe pour les utilisateurs, vérifiez que la configuration fonctionne comme prévu. Vérifiez au minimum les éléments suivants :
+Une fois que vous avez activé la prise d’appel de groupe pour les utilisateurs, vérifiez que la configuration fonctionne comme prévu. Vérifiez au minimum les points suivants :
 
-  - Appelez un utilisateur activé pour la prise d’appel de groupe et faites en sorte qu’un autre utilisateur récupère l’appel. Cet autre utilisateur peut appartenir au même groupe, à un groupe différent ou ne pas être activé pour la prise d’appel de groupe.
+  - Appeler un utilisateur activé pour la prise d’appel de groupe et demander à un autre utilisateur de récupérer l’appel. L’autre utilisateur peut appartenir au même groupe, à un groupe différent ou ne pas avoir activé la prise d’appel de groupe.
 
   - Appelez un utilisateur activé pour la prise d’appel de groupe et ne répondez pas à l’appel.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : gestion des épingles d’utilisateur'
+title: 'Lync Server 2013 : gestion des codes confidentiels d’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c66cfd395f3fd48da401d4e6d72b37aae386e0d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742174"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-user-pins-in-lync-server-2013"></a>Gestion des codes secrets d’utilisation dans Lync Server 2013
+# <a name="managing-user-pins-in-lync-server-2013"></a>Gestion des codes confidentiels d’utilisateur dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742174"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-Utilisez les procédures suivantes pour gérer les codes confidentiels de conférence rendez-vous des utilisateurs dans la section **utilisateurs** du panneau de configuration de Lync Server 2013.
+Utilisez les procédures suivantes pour gérer les codes confidentiels de conférence rendez-vous des utilisateurs à partir de la section **utilisateurs** du panneau de configuration Lync Server 2013.
 
 <div>
 
@@ -47,7 +47,7 @@ Utilisez les procédures suivantes pour gérer les codes confidentiels de confé
 
   - [Afficher les informations de code confidentiel utilisateur dans Lync Server 2013](lync-server-2013-view-user-pin-information.md)
 
-  - [Verrouiller ou déverrouiller un code confidentiel d’utilisateur dans Lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)
+  - [Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Utilisez les procédures suivantes pour gérer les codes confidentiels de confé
 ## <a name="see-also"></a>Voir aussi
 
 
-[Affecter une stratégie de code confidentiel par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[Affectation d’une stratégie de code confidentiel par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>

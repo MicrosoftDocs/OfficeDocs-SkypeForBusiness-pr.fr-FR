@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer une règle de mise à jour d’appareil'
+title: 'Lync Server 2013 : suppression d’une règle de mise à jour de périphérique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803977
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d367c507ea2e8871231248b1f29d7d033dedbe9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6db307572d72d11b73baa723405fd32da46b7c75
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-device-update-rule-in-lync-server-2013"></a>Supprimer une règle de mise à jour d’appareil dans Lync Server 2013
+# <a name="remove-a-device-update-rule-in-lync-server-2013"></a>Supprimer une règle de mise à jour de périphérique dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41724354"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-La suppression d’une règle de mise à jour d’appareil permet de supprimer définitivement la file d’attente de mise à jour de l’appareil.
+La suppression d’une règle de mise à jour de périphérique supprime définitivement la file d’attente de mise à jour des périphériques.
 
-La suppression d’une règle est différente de la désinstallation d’une mise à jour à partir des appareils de votre déploiement ou de vos périphériques de test. Pour désinstaller une mise à jour approuvée de votre déploiement, vous *restaurez* la règle de mise à jour de l’appareil. Pour plus d’informations, reportez-vous à [restaurer une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md). Pour désinstaller une mise à jour que vous n’avez pas approuvée de vos appareils de test, vous pouvez la *Réinitialiser* . Pour plus d’informations, voir [Réinitialiser une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).
+La suppression d’une règle est différente de la désinstallation d’une mise à jour des appareils de votre déploiement ou de vos périphériques de test. Pour désinstaller une mise à jour approuvée de votre déploiement, vous devez *restaurer* la règle de mise à jour des périphériques. Pour plus d’informations, consultez [la rubrique restaurer une règle de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md). Pour désinstaller une mise à jour que vous n’avez pas approuvée de vos périphériques de test, vous devez la *Réinitialiser* . Pour plus d’informations, voir [Réinitialiser une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).
 
-Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le panneau de configuration de Lync Server ou Windows PowerShell.
+Vous pouvez supprimer une règle de mise à jour de périphérique à l’aide du panneau de configuration Lync Server ou de Windows PowerShell.
 
 <div>
 
-## <a name="to-remove-device-update-rules-by-using-lync-server-control-panel"></a>Pour supprimer les règles de mise à jour des appareils à l’aide du panneau de configuration de Lync Server
+## <a name="to-remove-device-update-rules-by-using-lync-server-control-panel"></a>Pour supprimer des règles de mise à jour des périphériques à l’aide du panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour d’appareil** .
+3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour des périphériques** .
 
-4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
+4.  Sur la page **mise à jour du périphérique** , effectuez l’une des opérations suivantes :
     
-      - Pour supprimer une règle, sélectionnez la règle que vous voulez supprimer.
+      - Pour supprimer une règle, sélectionnez la règle que vous souhaitez supprimer.
     
-      - Pour supprimer toutes les règles, cliquez sur le menu **modifier** , puis sur **Sélectionner tout**.
+      - Pour supprimer toutes les règles, cliquez sur le menu **Edition** , puis cliquez sur **Sélectionner tout**.
 
 5.  Cliquez sur **Modifier**, puis sur **Supprimer**.
 
@@ -65,15 +65,15 @@ Vous pouvez supprimer une règle de mise à jour de l’appareil en utilisant le
 
 <div>
 
-## <a name="removing-device-update-rules-by-using-windows-powershell-cmdlets"></a>Suppression des règles de mise à jour des appareils à l’aide des cmdlets Windows PowerShell
+## <a name="removing-device-update-rules-by-using-windows-powershell-cmdlets"></a>Suppression des règles de mise à jour des périphériques à l’aide des applets de commande Windows PowerShell
 
-Les règles de mise à jour d’appareils peuvent également être supprimées à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Les règles de mise à jour des périphériques peuvent également être supprimées à l’aide de Windows PowerShell et de l’applet de commande **Remove-CsDeviceUpdateRule** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-remove-a-single-device-update-rule-from-a-server"></a>Pour supprimer une seule règle de mise à jour d’un appareil d’un serveur
+## <a name="to-remove-a-single-device-update-rule-from-a-server"></a>Pour supprimer une seule règle de mise à jour de périphérique d’un serveur
 
-  - La commande suivante supprime la règle de mise à jour de l’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 du serveur Web sur atl-cs-001.litwareinc.com.
+  - La commande suivante supprime la règle de mise à jour de périphérique d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 du serveur Web sur atl-cs-001.litwareinc.com.
     
         Remove-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -81,15 +81,15 @@ Les règles de mise à jour d’appareils peuvent également être supprimées �
 
 <div>
 
-## <a name="to-remove-all-the-device-update-rules-from-a-server"></a>Pour supprimer toutes les règles de mise à jour d’appareil d’un serveur
+## <a name="to-remove-all-the-device-update-rules-from-a-server"></a>Pour supprimer toutes les règles de mise à jour des périphériques d’un serveur
 
-  - Cette commande supprime toutes les règles de mise à jour de l’appareil du serveur Web sur atl-cs-001.litwareinc.com.
+  - Cette commande supprime toutes les règles de mise à jour des périphériques du serveur Web sur atl-cs-001.litwareinc.com.
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) .
 
 </div>
 
@@ -98,7 +98,7 @@ Pour plus d’informations, consultez la rubrique d’aide relative à l’apple
 ## <a name="see-also"></a>Voir aussi
 
 
-[Approuver une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+[Approuver une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

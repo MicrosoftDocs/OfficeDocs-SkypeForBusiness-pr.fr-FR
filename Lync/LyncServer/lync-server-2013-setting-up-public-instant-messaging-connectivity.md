@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration de la connectivité PIC'
+title: 'Lync Server 2013 : configuration de la connectivité PIC (public Instant Messaging Connectivity)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 871f513170fcb0491f6732751cfc1b23877526b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31224e145fc5fea1623b0236b87ae9cdec3f82b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732254"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Configuration de la connectivité PIC dans Lync Server 2013
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Configuration de la connectivité de messagerie instantanée publique dans Lync Server 2013
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41732254"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Si votre organisation veut prendre en charge la connectivité de messagerie instantanée publique avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. À la place, suivez les étapes de la procédure suivante.
+Si votre organisation souhaite prendre en charge la connectivité PIC avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. À la place, effectuez les étapes de la procédure suivante.
 
 <div>
 
-## <a name="setting-up-public-instant-messaging-connectivity"></a>Configuration de la connectivité de messagerie instantanée publique
+## <a name="setting-up-public-instant-messaging-connectivity"></a>Configuration de la connectivité PIC
 
-1.  Sur un serveur frontal, ouvrez le générateur de topologie. Développez pools de bords, puis cliquez avec le bouton droit sur votre serveur Edge ou sur le pool de serveurs Edge. Sélectionnez modifier les propriétés.
+1.  Sur le serveur frontal, ouvrez le Générateur de topologie. Développez les pools Edge, puis cliquez avec le bouton droit sur votre serveur Edge ou votre pool de serveurs Edge. Sélectionnez Modifier les propriétés.
 
-2.  Dans modifier les propriétés sous général, sélectionnez Activer la Fédération pour ce pool Edge (port 5061). Cliquez sur OK.
+2.  Dans Modifier les propriétés sous Général, sélectionnez Activer la fédération pour ce pool Edge (port 5061). Cliquez sur OK.
 
-3.  Cliquez sur action, sélectionnez topologie, puis publier. Lorsque le système vous le demande, cliquez sur suivant. Lorsque la publication est terminée, cliquez sur Terminer.
+3.  Cliquez sur Action, sélectionnez Topologie, puis Publier. Dans la page Publier la topologie, cliquez sur Suivant. Quand la publication est terminée, cliquez sur Terminer.
 
-4.  Sur le serveur Edge, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur installer ou mettre à jour le système serveur Lync, puis cliquez sur Configurer ou supprimer les composants Lync Server. Cliquez de nouveau sur Exécuter.
+4.  Sur le serveur Edge, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur Installer ou mettre à jour le système Lync Server, puis sur Installer ou supprimer des composants Lync Server. Cliquez sur Réexécuter.
 
-5.  Dans configurer les composants serveur Lync, cliquez sur suivant. L’écran de synthèse indique les actions à mesure qu’elles sont exécutées. Lorsque le déploiement est effectué, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
+5.  Dans Installer les composants Lync Server, cliquez sur Suivant. L’écran de résumé affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>Pour créer une demande de certificat pour l’interface externe du serveur de périphérie pour la prise en charge de la connectivité de messagerie instantanée publique avec AOL
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>Pour créer une demande de certificat pour l’interface externe du serveur Edge, afin de prendre en charge la connectivité PIC avec AOL
 
-1.  Lorsque le modèle requis est disponible pour l’autorité de certification, utilisez la cmdlet Windows PowerShell suivante à partir du serveur de périphérie pour demander le certificat.
+1.  Lorsque le modèle requis est à la disposition de l’autorité de certification, utilisez l’applet de commande Windows PowerShell suivante depuis le serveur Edge pour demander le certificat :
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Le nom du certificat par défaut du modèle utilisé pour Lync Server est le serveur Web. Spécifiez le \<nom\> du modèle uniquement si vous devez utiliser un modèle différent du modèle par défaut.
+    Le nom de certificat par défaut du modèle utilisé pour Lync Server est le serveur Web. Ne spécifiez \<le nom\> du modèle que si vous devez utiliser un modèle différent du modèle par défaut.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si votre organisation veut prendre en charge une connectivité de messagerie instantanée publique avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat pour demander que le certificat soit affecté au bord externe du service Edge d’accès. En effet, le modèle de serveur Web d’autorité de certification utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration améliorée de l’utilisation du client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’utilisation améliorée de l’utilisation du client.
+    > Si votre organisation souhaite prendre en charge la connectivité PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat pour demander que le certificat soit attribué au serveur Edge externe pour le service Edge d’accès. Ceci est dû au fait que le modèle Serveur web de l’autorité de certification utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’utilisation améliorée de la variable client.
 
     
     </div>

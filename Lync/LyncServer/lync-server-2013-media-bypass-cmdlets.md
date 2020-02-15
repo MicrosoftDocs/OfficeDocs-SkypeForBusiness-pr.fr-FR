@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : applets de applet de contournement multimédia'
+title: 'Lync Server 2013 : applets de commande de contournement de média'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Cmdlets de contournement multimédia dans Lync Server 2013
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Applets de commande de déviation du trafic multimédia dans Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41761960"
 
 _**Dernière modification de la rubrique :** 2012-03-21_
 
-La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.
+Le contournement de média fait référence à la suppression du serveur de médiation du chemin d’accès des médias, dans la mesure du possible, pour les appels dont la signalisation traverse le serveur de médiation.
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a>Cmdlets de contournement multimédia
+## <a name="media-bypass-cmdlets"></a>Applets de commande du contournement de média
 
-Utilisez les applets de commande suivantes pour configurer la dérivation multimédia.
+Utilisez les applets de commande suivantes pour configurer le contournement de média.
 
 **Contournement de média**
 
   - <span></span>  
-    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 

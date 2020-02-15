@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport détaillé sur la session d’égal à égal'
+title: 'Lync Server 2013 : rapport détaillé de session P2P'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c977b2f9f9a6248ab7ba5d5391397d4cd4326a18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755294"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Rapport détaillé sur la session d’égal à égal dans Lync Server 2013
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Rapport détaillé de session d’égal à égal dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755294"
 
 _**Dernière modification de la rubrique :** 2012-06-06_
 
-Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
+Le rapport détaillé de session d’égal à égal retourne des informations détaillées sur une session d’égal à égal. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Accès au rapport détaillé de session P2P
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Accès au rapport détaillé de session d’égal à égal
 
-Vous pouvez accéder au rapport de détails de session P2P à partir de l’un des rapports suivants (disponibles en totalité dans la page d’accueil Rapports de surveillance) :
+Vous pouvez accéder au rapport de détails de session d’égal à égal à partir de l’un des rapports suivants (disponibles en totalité dans la page d’accueil Rapports de surveillance) :
 
   - Rapport d’inventaire de téléphonie IP
 
@@ -53,7 +53,7 @@ Vous pouvez accéder au rapport de détails de session P2P à partir de l’un d
 
   - Rapport de liste des échecs
 
-Dans le rapport détaillé de la session d’égal à égal, vous pouvez accéder au [rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur le rapport de diagnostic (détails) métrique. Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+À partir du rapport détaillé de session P2P, vous pouvez accéder au [rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur la mesure rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
 
   - Réponse
 
@@ -63,13 +63,13 @@ Dans le rapport détaillé de la session d’égal à égal, vous pouvez accéde
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Exploiter au mieux le rapport détaillé de session P2P
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Exploiter au mieux le rapport détaillé de session d’égal à égal
 
-Le rapport détaillé de session P2P comprend un grand nombre de mesures, dont bon nombre peuvent être inconnues des administrateurs système. Cependant, dans bien des cas, vous pouvez afficher une info-bulle qui offre une brève description de cette mesure en maintenant simplement votre souris sur l’étiquette de la mesure.
+Le rapport détaillé de session d’égal à égal comprend un grand nombre de mesures, dont bon nombre peuvent être inconnues des administrateurs système. Toutefois, dans bien des cas, vous pouvez afficher une info-bulle qui offre une brève description de cette mesure en maintenant simplement votre souris sur l’étiquette de la mesure.
 
-Note que les mesures qui s’affichent sur un rapport donné dépendent du type de session P2P que vous avez sélectionné. Une session audio/vidéo et une session de messagerie instantanée n’affichent pas le même ensemble de mesures.
+Note que les mesures qui apparaissent sur un rapport donné dépendent du type de session d’égal à égal que vous avez sélectionné. Une session audio/vidéo et une session de messagerie instantanée n’affichent pas le même ensemble de mesures.
 
-Vous pouvez également pointer votre souris sur les mesures Code de réponse et ID de diagnostic pour obtenir une description de ces valeurs :
+Vous pouvez également pointer votre souris sur les mesures Code de réponse et ID de diagnostic pour obtenir une description de ces valeurs :
 
 </div>
 
@@ -77,7 +77,7 @@ Vous pouvez également pointer votre souris sur les mesures Code de réponse et 
 
 ## <a name="filters"></a>Filtres
 
-Aucun. Vous ne pouvez pas filtrer le Rapport détaillé de session P2P.
+Aucun. Vous ne pouvez pas filtrer le Rapport détaillé de session d’égal à égal.
 
 </div>
 
@@ -85,7 +85,7 @@ Aucun. Vous ne pouvez pas filtrer le Rapport détaillé de session P2P.
 
 ## <a name="session-information-metrics"></a>Mesures des informations de session
 
-Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque session.
+Le tableau suivant liste les informations fournies dans le Rapport détaillé de session d’égal à égal de chaque session.
 
 ### <a name="session-information-metrics"></a>Mesures des informations de session
 
@@ -114,12 +114,12 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 <td><p>Date et heure auxquelles l’acceptation de l’invitation a été reçue.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>De l’utilisateur</strong></p></td>
-<td><p>Adresse SIP de l’utilisateur ayant initié la session.</p></td>
+<td><p><strong>De l’utilisateur </strong></p></td>
+<td><p>Adresse SIP de l’utilisateur qui a initié la session.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Agent utilisateur d’origine</strong></p></td>
-<td><p>Logiciel utilisé par le point de terminaison de l’utilisateur ayant initié la session.</p></td>
+<td><p>Logiciel utilisé par le système d’extrémité de l’utilisateur qui a démarré la session.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Interne à l’utilisateur d’origine</strong></p></td>
@@ -127,18 +127,18 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </tr>
 <tr class="odd">
 <td><p><strong>Utilisateur d’origine intégré au téléphone de bureau</strong></p></td>
-<td><p>Indique si le point de terminaison utilisé par l’utilisateur qui a démarré la session est intégré à son téléphone de bureau.</p></td>
+<td><p>Indique si le système d’extrémité utilisé par l’utilisateur qui a démarré la session est intégré avec son téléphone de bureau.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Priorité de la session</strong></p></td>
-<td><p>Priorité affectée à la session. Les priorités valides sont : Inconnu, Non urgent, Normal, Urgent et Urgence.</p></td>
+<td><p>Priorité assignée à la session. Les priorités valides sont : Inconnu, Non urgent, Normal, Urgent et Urgence.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Code de réponse</strong></p></td>
-<td><p>Code de réponse SIP envoyé lors de l’échec de session.</p></td>
+<td><p><strong>Code de réponse </strong>.</p></td>
+<td><p>Code de réponse SIP envoyé lors de l’échec de la session.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Serveur frontal</strong></p></td>
+<td><p><strong>Frontal</strong></p></td>
 <td><p>Nom du serveur frontal utilisé dans la conférence.</p></td>
 </tr>
 <tr class="odd">
@@ -151,11 +151,11 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </tr>
 <tr class="odd">
 <td><p><strong>À l’utilisateur</strong></p></td>
-<td><p>Adresse IP de l’utilisateur ayant été invité à participer à la session.</p></td>
+<td><p>Adresse SIP de l’utilisateur invité à la session.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Agent utilisateur de destination</strong></p></td>
-<td><p>Logiciel utilisé par le point de terminaison de l’utilisateur qui a été invité à la session.</p></td>
+<td><p>Logiciel utilisé par le système d’extrémité de l’utilisateur qui a été invité à la session.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Interne à l’utilisateur de destination</strong></p></td>
@@ -163,7 +163,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </tr>
 <tr class="even">
 <td><p><strong>Utilisateur de destination intégré au téléphone de bureau</strong></p></td>
-<td><p>Indique si le point de terminaison utilisé par l’utilisateur qui a été invité à la session est intégré à son téléphone de bureau.</p></td>
+<td><p>Indique si le système d’extrémité utilisé par l’utilisateur qui a été invité à la session est intégré avec son téléphone de bureau.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nouvelle tentative de session</strong></p></td>
@@ -171,7 +171,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </tr>
 <tr class="even">
 <td><p><strong>ID de diagnostic</strong></p></td>
-<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles à l’identification et à la résolution des erreurs. Placez la souris au-dessus du numéro d’ID pour afficher des informations supplémentaires sur cet ID.</p></td>
+<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles au dépannage des erreurs. Placez la souris au-dessus du numéro d’ID pour afficher des informations supplémentaires sur cet ID.</p></td>
 </tr>
 </tbody>
 </table>
@@ -183,7 +183,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 
 ## <a name="metrics-for-modalities"></a>Mesures des modalités
 
-Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque modalité de session.
+Le tableau suivant liste les informations fournies dans le Rapport détaillé de session d’égal à égal de chaque modalité de session.
 
 ### <a name="metrics-for-modalities"></a>Mesures des modalités
 
@@ -226,7 +226,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 
 ## <a name="metrics-for-diagnostic-reports"></a>Mesures pour les rapports de diagnostic
 
-Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P pour chaque rapport de diagnostic.
+Le tableau suivant liste les informations fournies dans le Rapport détaillé de session d’égal à égal pour chaque rapport de diagnostic.
 
 ### <a name="metrics-for-diagnostic-reports"></a>Mesures pour les rapports de diagnostic
 
@@ -245,7 +245,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Détails</strong></p></td>
+<td><p><strong>Detail</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.</p></td>
 </tr>
@@ -262,7 +262,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 <tr class="even">
 <td><p><strong>ID de diagnostic</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.</p></td>
+<td><p>Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de contenu</strong></p></td>

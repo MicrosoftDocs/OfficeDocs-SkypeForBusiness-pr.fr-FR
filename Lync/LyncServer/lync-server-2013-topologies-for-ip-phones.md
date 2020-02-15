@@ -12,20 +12,20 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Topologies pour téléphones IP dans Lync Server 2013
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Topologies de téléphones IP dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41745204"
 
 _**Dernière modification de la rubrique :** 2012-06-21_
 
-Cette section fournit une vue d’ensemble du processus de connectivité et explique les différences entre la connexion d’un téléphone IP à un réseau interne et externe.
+Cette section fournit une vue d’ensemble du processus de connexion et explique les différences qui existent entre le mode de connexion d’un téléphone IP à un réseau interne ou externe.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server prend en charge les téléphones IP suivants : le téléphone de bureau Aastra 6721ip, Aastra 6725ip Phone, le téléphone IP HP 4110 (téléphone pour la zone commune 4120), le numéro de téléphone IP (téléphone de bureau), le téléphone de bureau IP CX600 téléphone standard et téléphone de conférence IP Polycom CX3000. De ces téléphones, mais le Polycom CX700 peut exécuter Lync Phone Edition.
+> Lync Server prend en charge les téléphones IP suivants : le téléphone de partie commune Aastra 6721ip, Aastra 6725ip téléphone, le téléphone IP HP 4110 (téléphone de partie commune), HP 4120 IP Phone (téléphone de bureau), Polycom CX600 de bureau de bureau IP, Polycom CX700 IP de bureau, Polycom CX500 IP Téléphone de partie commune et téléphone de conférence IP Polycom CX3000. Ces téléphones, à l’exception du CX700 Polycom, peuvent exécuter Lync Phone Edition.
 
 
 
 </div>
 
-Le diagramme suivant décrit tous les composants impliqués dans la connectivité des appareils au sein de l’environnement d’entreprise.
+Le diagramme suivant décrit tous les composants impliqués dans la connectivité d’appareil au sein d’un environnement d’entreprise.
 
 **Topologie interne**
 
@@ -59,13 +59,13 @@ Le diagramme suivant décrit tous les composants impliqués dans la connectivit�
 
 
 > [!NOTE]  
-> La figure précédente est une représentation logique qui n’est pas une vue d’ensemble physique. Par exemple, les services de domaine Active Directory (AD DS) se trouvent rarement sur le même ordinateur que les composants serveur Lync. Le magasin utilisateur peut se trouver sur le serveur principal ou sur les serveurs d’archivage et de surveillance. Lync Server Management Shell, le serveur Web et les services de mise à jour font partie du rôle serveur frontal.
+> L’illustration précédente est une représentation logique, et non une vue d’ensemble physique. Par exemple, les services de domaine Active Directory (AD DS) se trouvent rarement sur le même ordinateur que n’importe quel composant Lync Server. Le magasin d’utilisateurs peut être situé sur le serveur principal ou sur les serveurs d’archivage et de surveillance. Lync Server Management Shell, le serveur Web et les services de mise à jour font partie du rôle de serveur frontal.
 
 
 
 </div>
 
-Le diagramme suivant fournit une vue d’ensemble des composants impliqués lorsque l’appareil se trouve en dehors du réseau d’entreprise.
+Le diagramme suivant fournit une vue d’ensemble des composants impliqués lorsque l’appareil est situé à l’extérieur du réseau d’entreprise.
 
 **Topologie externe**
 
@@ -75,7 +75,7 @@ Le diagramme suivant fournit une vue d’ensemble des composants impliqués lors
 
 
 > [!NOTE]  
-> Le service Web de mise à jour d’appareil fournit un site Web interne et externe, mais seul le premier est affiché ici.<BR>L’emplacement du Bureau d’enregistrement et l’URL du service Web de mise à jour de l’appareil pour l’organisation doivent être publiés dans DNS si l’accès externe doit être activé. Par ailleurs, le serveur de périphérie doit être déployé et correctement configuré pour autoriser les communications externes entre l’appareil et l’environnement d’entreprise. Ce paramètre est omis du diagramme précédent, car le déploiement Edge n’est pas spécifique à la connectivité de l’appareil.
+> Le service web de mise à jour des appareils fournit un site web externe et interne, mais seul le site externe est indiqué ici.<BR>L’emplacement du serveur d’inscriptions et l’URL du service web de mise à jour des appareils pour l’organisation doivent être publiés dans le système DNS si l’accès externe doit être activé. Par ailleurs, le serveur Edge doit être déployé et correctement configuré afin d’autoriser les communications externes à partir de l’appareil vers l’environnement d’entreprise et vice-versa. Cela n’apparaît pas sur le diagramme précédent car le déploiement du serveur Edge n’est pas effectué en fonction de la connectivité de l’appareil.
 
 
 

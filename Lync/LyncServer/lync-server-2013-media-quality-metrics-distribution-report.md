@@ -1,5 +1,5 @@
 ---
-title: 'Rapport de distribution de métriques de qualité multimédia Lync Server 2013 :'
+title: 'Lync Server 2013 : rapport de distribution des mesures de qualité des médias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38adc41aaffcccbb27d4c9105f0fecabcae3c21c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045116"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Rapport de distribution des métriques de qualité multimédia dans Lync Server 2013
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Le rapport de distribution des mesures de qualité des médias dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757938"
 
 _**Dernière modification de la rubrique :** 2012-06-06_
 
-Le rapport de distribution des mesures de qualité des médias vous permet de consulter un graphique qui affiche les valeurs de distribution pour une mesure de la qualité de l’expérience, comme la gigue ou la perte de paquets. Par exemple, supposons que vos utilisateurs passent un total de 10 appels téléphoniques. Ces 10 appels présentent les délais d’aller-retour suivants :
+Le rapport de distribution des mesures de qualité des médias vous permet d’afficher un graphique qui indique les valeurs de distribution pour une mesure de qualité de l’expérience, comme la gigue ou la perte de paquets. Par exemple, supposons que vos utilisateurs effectuent un total de 10 appels téléphoniques ; ces 10 appels indiquent les temps d’aller-retour suivants :
 
 
 <table>
@@ -47,66 +47,66 @@ Le rapport de distribution des mesures de qualité des médias vous permet de co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Numéro de l’appel</th>
-<th>Durée d’aller-retour (millisecondes)</th>
+<th>Numéro d’appel</th>
+<th>Temps aller-retour (millisecondes)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>deuxième</p></td>
+<td><p>2 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>version8</p></td>
+<td><p>8 </p></td>
 <td><p>4550</p></td>
 </tr>
 <tr class="odd">
-<td><p>09</p></td>
+<td><p>9 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>0,10</p></td>
+<td><p>10 </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
 </table>
 
 
-La moyenne de ces temps d’aller-retour est de 500 millisecondes (5000 divisée par 10). 500 millisecondes est une durée de roundtrip très importante ; par conséquent, il est possible que vous rencontriez un problème sérieux avec la congestion du réseau. (Les temps de roundtrip longs sont généralement le résultat de réseaux surchargés.)
+La moyenne de ces temps d’aller-retour est de 500 millisecondes (5000 divisée par 10). 500 millisecondes est un temps d’aller-retour extrêmement important ; par conséquent, vous pourriez penser que vous rencontrez un problème sérieux en matière de congestion du réseau. (Les temps d’aller-retour longs sont généralement le résultat des réseaux surchargés.)
 
-Pour le moment, le nombre de fois que 90% de vos appels avait des temps d’aller-retour exceptionnels. il vous suffit d’un appel incorrect qui a faussé les résultats globaux. Si vous observez uniquement la durée de l’aller-retour moyenne, vous risquez de sauter une erreur de conclusion.
+En réalité, bien évidemment, 90% de vos appels ont des temps d’aller-retour excellents ; Il y avait simplement un appel incorrect qui a faussé les résultats globaux. Si vous examinez uniquement le temps d’aller-retour moyen, vous pouvez passer à une mauvaise conclusion.
 
-Le rapport de distribution des mesures de qualité des médias vous permet de ne pas tirer de conclusions hâtives et erronées : il vous présente une répartition graphique d’une mesure précise (comme le délai d’aller-retour). Ces graphiques permettent de clarifier la situation, à savoir que vous avez passé neuf appels de très bonne qualité et un de mauvaise qualité. Vous souhaitez peut-être examiner plus en détail cet appel-ci. Cependant, le fait que 9 appels sur 10 étaient de bonne qualité semble indiquer qu’il n’existe aucune raison d’apporter des modifications radicales à votre réseau, au moins pas pour l’instant.
+Le rapport de distribution des mesures de qualité des médias vous permet d’éviter de sauter des conclusions erronées en affichant une distribution graphique d’une mesure spécifiée (par exemple, la durée des boucles). Ces graphiques permettent de clarifier le fait que vous avez neuf appels très bons et un très mauvais appel. De la même façon, vous souhaiterez peut-être continuer à étudier cet appel ; Toutefois, le fait que 9 des 10 appels ont été très intéressants indique qu’il n’y a aucune raison de modifier radicalement votre réseau, au moins dans le temps.
 
 <div>
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport de distribution des mesures de qualité des médias.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapport de distribution des mesures de qualité des médias.
 
 ### <a name="media-quality-metrics-distribution-report-filters"></a>Filtres du rapport de distribution des mesures de qualité des médias
 
@@ -123,7 +123,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -133,7 +133,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -148,13 +148,13 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 </tr>
 <tr class="even">
 <td><p><strong>Maximum sur l’axe x</strong></p></td>
-<td><p>Plus grande valeur à afficher sur l’axe X du graphique.</p></td>
+<td><p>Valeur la plus élevée à afficher sur l’axe X du graphique.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type d’accès</strong></p></td>
 <td><p>Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Interne</p></li>
 <li><p>Externe</p></li>
 </ul></td>
@@ -163,18 +163,18 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ul></td>
 </tr>
 </tbody>

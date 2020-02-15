@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726694"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41726694"
 
 _**Dernière modification de la rubrique :** 2014-04-30_
 
-Les disques durs sont une composante importante du déploiement de Lync Server 2013. Le système d’exploitation et les bases de données 2013 de Lync Server peuvent fonctionner correctement sans le volume de disque libre suffisant. Vous devez surveiller quotidiennement les statistiques de la base de données principale de Lync Server 2013 pour vous assurer que les serveurs ne manquent pas d’espace disque et préparer l’ajout de ressources de stockage selon les besoins.
+Les disques durs sont un composant important du déploiement de Lync Server 2013. Sans volume de disque libre suffisant, ni le système d’exploitation ni les bases de données Lync Server 2013 ne fonctionnent correctement. Vous devez surveiller quotidiennement les statistiques de la base de données principale Lync Server 2013 afin de vous assurer que les serveurs ne manquent pas d’espace disque et de se préparer à ajouter des ressources de stockage selon les besoins.
 
-Outre le contrôle de l’espace sur les disques hébergeant le système d’exploitation, les fichiers de programme, la base de données et les journaux de transactions (serveur principal Lync Server 2013), vous devez également surveiller l’utilisation du système de fichiers qui inclut l’espace disque pour les partages de fichiers qui contiennent les éléments suivants : données
+Outre l’espace sur les disques hébergeant le système d’exploitation, les fichiers de programme, les bases de données et les journaux de transaction (Lync Server 2013 back end), vous devez également surveiller l’utilisation du système de fichiers qui inclut l’espace disque pour les partages de fichiers qui contiennent les éléments suivants. Datacenter
 
   - Contenu de la réunion
 
@@ -47,31 +47,31 @@ Outre le contrôle de l’espace sur les disques hébergeant le système d’exp
 
   - Journaux de conformité des réunions
 
-  - Fichiers de données d’application (utilisés en interne par le composant Application Server)
+  - Fichiers de données d’application (utilisés en interne par le composant du serveur d’applications)
 
-  - Service Web de groupe de discussion et dossiers de conformité (pour le stockage des fichiers téléchargés vers le service Web de discussion de groupe)
+  - Dossiers de service Web et de conformité du serveur de conversation de groupe (pour stocker les fichiers téléchargés vers le service Web de conversation de groupe)
 
-  - Fichiers XML de mise en conformité des conversations de groupe (qui contiennent les enregistrements de conformité des conversations de groupe)
+  - Fichiers XML de conformité de conversation de groupe (qui contiennent des enregistrements de conformité de conversation de groupe)
 
-  - Fichiers de mise à jour (pour le service de mise à jour d’appareils)
+  - Mettre à jour les fichiers (pour le service de mise à jour des périphériques)
 
   - Fichiers du carnet d’adresses
 
-Lync Server 2013 a besoin d’espace disque dur pour stocker ses bases de données et journaux de transactions en plus des fichiers figurant dans les partages de fichiers figurant précédemment dans la liste.
+Lync Server 2013 a besoin d’espace disque pour stocker ses bases de données et ses journaux de transaction en plus des fichiers figurant dans la zone de partage de fichiers précédemment indiquée.
 
-Vous devez surveiller régulièrement l’espace disque pour vous assurer que le déploiement de Lync Server 2013 n’est pas affecté en raison de ressources de stockage insuffisantes.
+Vous devez surveiller régulièrement l’espace disque afin de vous assurer que le déploiement de Lync Server 2013 n’est pas affecté par des ressources de stockage insuffisantes.
 
-Comparer et tenir à jour des informations statistiques sur l’espace disque disponible sur chaque volume Lync Server 2013 et croissance attendue des bases de données et des fichiers du journal des transactions. Cela favorise la planification de la capacité et l’ajout d’espace de stockage lorsque les ressources de stockage sont nécessaires.
+Comparez et gérez les informations statistiques relatives à l’espace disque disponible sur chaque volume Lync Server 2013 et la croissance attendue des bases de données et des fichiers journaux de transactions. Cela permet de planifier la capacité et d’ajouter de l’espace de stockage lorsque les ressources de stockage sont requises.
 
-Pour prendre en charge la résolution des problèmes et les situations de reprise après sinistre, nous vous recommandons d’utiliser une quantité d’espace libre disponible égale ou supérieure à 110% de la taille de la base de données.
+Pour tenir compte des situations de dépannage et de récupération d’urgence, nous vous recommandons d’utiliser un espace de volume disponible égal ou supérieur à 110% de la taille de la base de données.
 
-Vous pouvez vérifier l’espace disque disponible en utilisant les méthodes suivantes :
+Vous pouvez vérifier l'espace disque disponible en utilisant les méthodes suivantes :
 
-1.  **System Center**   Operations Manager System Center Operations Manager peut être utilisé pour avertir les administrateurs lorsque l’espace disque est limité.
+1.  **System Center Operations Manager**   System Center Operations Manager peut être utilisé pour avertir les administrateurs lorsque l’espace de volume est limité.
 
-2.  **L’exécution d’un script**   du moniteur de script en exécutant un script qui vous envoie un message si l’espace disponible sur le disque dur est inférieur à 20%. Vous trouverez un exemple de script sur le centre de scripts Microsoft sur TechNet et examinez les éléments suivants :[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Exécution d’un**   script de l’espace disque en exécutant un script qui vous envoie un message si l’espace disponible sur le disque tombe en dessous de 20%. Vous trouverez un exemple de script sur le centre de scripts Microsoft sur TechNet :[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **L’Explorateur**   Windows permet de vérifier l’espace disque sur les volumes qui stockent les journaux et bases de données Lync Server 2013.
+3.  **L’Explorateur**   Windows utilise l’Explorateur Windows pour vérifier l’espace disque sur les volumes qui stockent les journaux et les bases de données Lync Server 2013.
 
 </div>
 

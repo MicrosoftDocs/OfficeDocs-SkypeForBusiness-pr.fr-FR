@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Résumé : Explorez ces liens pour découvrir comment mettre en œuvre Skype entreprise Server 2015.'
-ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Explorez ces liens pour savoir comment implémenter Skype entreprise Server 2015.'
+ms.openlocfilehash: 05d9da9fb1edb9b9063b9d2649b34a45003dee7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045366"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Entreprise Server 2015
 
-Skype entreprise est une plate-forme de communication et de collaboration qui réunit une connaissance du client inspirée par Skype, avec une sécurité et un contrôle de niveau professionnel. Skype entreprise propose des fonctionnalités telles que la présence, la messagerie instantanée, les appels vocaux et vidéo et les réunions en ligne. 
+Skype entreprise est une plateforme de communication et de collaboration qui offre une expérience client inspirée par Skype, avec une sécurité de niveau entreprise, une conformité et un contrôle. Skype entreprise offre des fonctionnalités telles que la présence, la messagerie instantanée, les appels vocaux et vidéo, ainsi que les réunions en ligne.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planifier votre déploiement</h3>
+                        <h3>Planification de votre déploiement</h3>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -128,7 +128,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Télécharger à partir du centre d’évaluation Skype entreprise</h3>
+                        <h3>Téléchargement à partir du centre d’évaluation de Skype entreprise</h3>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
 
 ---
 
-<h2>Articles proposés</h2>
+<h2>Articles proposées</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -148,8 +148,8 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                     <div class="cardText">
                         <h3>Avant de commencer</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Configuration requise pour votre environnement</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Configuration requise pour le réseau</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et périphériques</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Configuration réseau requise</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients et appareils</a></p>
                     </div>
                 </div>
             </div>
@@ -161,8 +161,8 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                 <div class="card">
                     <div class="cardText">
                         <h3>Installer et gérer</h3>
-                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installer Skype Entreprise Server</a></p>
-                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Gérer Skype Entreprise Server</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installer Skype entreprise Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Gérer Skype entreprise Server</a></p>
                      </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Voix Entreprise</h3>
+                        <h3>Enterprise Voice</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Planifier</a></p>
                         <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Déployer</a></p>
                     </div>
@@ -187,8 +187,8 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                 <div class="card">
                     <div class="cardText">
                         <h3>Diffusion de réunion Skype</h3>
-                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Qu'est-ce que c'est?</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configurer votre déploiement local pour la diffusion de réunion Skype</a>
+                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">De quoi s’agit-il ?</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configuration de votre déploiement local pour la diffusion de réunion Skype</a>
                     </div>
                 </div>
             </div>
@@ -200,11 +200,11 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                 <div class="card">
                     <div class="cardText">
                         <h3>Solutions hybrides</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planifier une connectivité hybride</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planification de la connectivité hybride</a></p>
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -212,13 +212,12 @@ Skype entreprise est une plate-forme de communication et de collaboration qui r�
                 <div class="card">
                     <div class="cardText">
                         <h3>Autres ressources</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Série de compatibilité Skype entreprise</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Documentation 2019 de Skype entreprise Server</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Documentation sur Lync Server 2013</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Série de disponibilité Skype entreprise</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Documentation sur Skype entreprise Server 2019</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Documentation Lync Server 2013</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
-

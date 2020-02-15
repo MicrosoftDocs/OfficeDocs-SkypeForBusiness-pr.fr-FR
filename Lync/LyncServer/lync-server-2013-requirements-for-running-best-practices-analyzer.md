@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour l’utilisation de l’analyseur de meilleures pratiques'
+title: 'Lync Server 2013 : configuration requise pour l’exécution de Best Practices Analyzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723804"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Configuration requise pour l’exécution de l’analyseur de meilleures pratiques dans Lync Server 2013
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Configuration requise pour l’exécution de Best Practices Analyzer dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41723804"
 
 _**Dernière modification de la rubrique :** 2012-09-19_
 
-Vous pouvez utiliser Lync Server 2013, recommandée Analyzer pour analyser votre environnement Lync Server 2013. Vous ne pouvez pas l’utiliser pour analyser d’anciens environnements, mais vous pouvez utiliser les versions précédentes de l’outil pour analyser ces environnements. Pour plus d’informations sur le téléchargement et l’utilisation de la version de l’analyseur de meilleures pratiques pour Lync Server 2010 et Office Communications Server 2007 R2, voir "Lync Server [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) 2010, meilleures pratiques Analyzer" at et "meilleure version d’Analyzer pour Office communications Server 2007 et [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)Office Communications Server 2007 R2" sur.
+Vous pouvez utiliser Lync Server 2013, Best Practices Analyzer pour analyser votre environnement Lync Server 2013. Vous ne pouvez pas l’utiliser pour analyser des environnements antérieurs, mais vous pouvez utiliser les versions précédentes de l’outil pour analyser ces environnements. Pour plus d’informations sur le téléchargement et l’utilisation des versions Lync Server 2010 et Office Communications Server 2007 R2 de Best Practices Analyzer, voir « Lync Server 2010, Best Practices Analyzer » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) et « Best Practices Analyzer for Office communications Server 2007 and Office [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)Communications Server 2007 R2 » à l’adresse.
 
-Avant de démarrer votre numérisation, assurez-vous que tous les composants de votre environnement Lync Server 2013 sont en cours d’exécution et en ligne.
+Avant de commencer l’analyse, vous devez vous assurer que tous les composants de votre environnement Lync Server 2013 sont en cours d’exécution et en ligne.
 
 <div>
 
 
 > [!NOTE]  
-> En fonction de la configuration de votre serveur Edge et des paramètres de réseau de périmètre associés, y compris les paramètres de pare-feu et les autorisations, l’analyseur de meilleures pratiques peut ne pas être en mesure d’accéder aux serveurs Edge et de les analyser. Si vous incluez des serveurs de périphérie dans votre numérisation et que les rapports indiquent qu’il y a un problème avec l’accès aux serveurs Edge, vous souhaiterez peut-être supprimer les serveurs de frontière des options de numérisation et relancer la numérisation de sorte que les problèmes n’apparaissent pas dans le rapport.
+> Selon la configuration de vos serveurs Edge et des paramètres de réseau de périmètre associés, notamment les paramètres de pare-feu et les autorisations, il se peut que l’outil Best Practices Analyzer ne puisse pas accéder à vos serveurs Edge et en faire l’analyse. Si vous incluez des serveurs Edge à votre analyse et qu’un rapport indique l’existence d’un problème d’accès aux serveurs Edge, vous avez tout intérêt à retirer les serveurs Edge des options d’analyse et à réexécuter l’analyse de façon à faire disparaître le problème du rapport.
 
 
 

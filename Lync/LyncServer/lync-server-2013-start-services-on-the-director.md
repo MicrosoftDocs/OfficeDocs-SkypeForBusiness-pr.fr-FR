@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Démarrage des services sur le directeur'
+title: 'Lync Server 2013 : démarrage des services sur le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b15b1285fa81f59c2b0a116e8ee80eeee2e8e952
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731824"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a>Démarrage des services sur le directeur dans Lync Server 2013
+# <a name="start-services-on-the-director-in-lync-server-2013"></a>Démarrer les services sur le directeur dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41731824"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Après avoir installé le magasin de configuration local, installé les composants serveur Lync et configuré des certificats sur un réalisateur, vous devez démarrer les services Lync Server sur le serveur. Vous pouvez utiliser la procédure suivante pour démarrer des services dans chaque réalisateur de votre déploiement.
+Après avoir installé le magasin de configurations local, installé les composants Lync Server et configuré les certificats sur un directeur, vous devez démarrer les services Lync Server sur le serveur. Utilisez la procédure suivante pour démarrer les services sur chaque directeur dans le déploiement.
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a>Pour démarrer des services sur un réalisateur
+## <a name="to-start-services-on-a-director"></a>Pour démarrer les services sur un directeur
 
-1.  Dans l’Assistant Déploiement de Lync Server, sur la page **Lync server 2013** , cliquez sur le bouton **exécuter** en regard de l' **étape 4 : démarrer les services**.
+1.  Dans l’Assistant Déploiement de Lync Server, sur la page **Lync server 2013** , cliquez sur le bouton **exécuter** en regard de **étape 4 : démarrer les services**.
 
-2.  Dans la page **Démarrer des services** , cliquez sur **suivant** pour démarrer les services Lync Server sur le serveur.
+2.  Sur la page **Démarrer les services** , cliquez sur **suivant** pour démarrer les services Lync Server sur le serveur.
 
 3.  Dans la page **Exécution de commandes**, une fois que tous les services ont démarré correctement, cliquez sur **Terminer**.
 
-4.  Sous **étape 4 : démarrer les services**, cliquez sur **État des services (facultatif)**.
+4.  Sous **Étape 4 : Démarrer les services**, cliquez sur **État des services (facultatif)**.
 
-5.  Dans la console de gestion des **services** Microsoft (MMC) sur le serveur, vérifiez que tous les services Lync Server 2013 sont en cours d’exécution.
+5.  Dans la console MMC (Microsoft Management Console) **services** sur le serveur, vérifiez que tous les services Lync Server 2013 sont en cours d’exécution.
 
 </div>
 

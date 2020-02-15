@@ -12,16 +12,16 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a7aa10719a357100ce38da6616ef6c79d6a4a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755144"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755144"
 
 _**Dernière modification de la rubrique :** 2013-07-11_
 
-L’authentification à deux facteurs fournit une sécurité améliorée en demandant aux utilisateurs de répondre à deux critères d’authentification : une combinaison nom d’utilisateur/mot de passe et un jeton ou un certificat. Cette technique est également appelée « quelque chose que vous avez, quelque chose ce que vous savez ». Un exemple classique d’authentification à deux facteurs avec un certificat est l’utilisation de cartes à puce. Une carte à puce contient un certificat associé au compte d’utilisateur et peut être validé par rapport aux informations d’utilisateur et de certificat stockées sur un serveur. En comparant les informations utilisateur (nom d’utilisateur et mot de passe) au certificat fourni, le serveur valide les informations d’identification et authentifie l’utilisateur.
+L’authentification à deux facteurs offre une sécurité accrue en demandant aux utilisateurs de respecter deux critères d’authentification : une combinaison nom d’utilisateur/mot de passe et un jeton ou un certificat. Cette valeur est également appelée « tout ce dont vous disposez », que vous connaissez. Un exemple type d’authentification à deux facteurs avec un certificat est l’utilisation de cartes à puce. Une carte à puce contient un certificat associé au compte d’utilisateur et peut être validé par rapport aux informations d’utilisateur et de certificat stockées sur un serveur. En comparant les informations utilisateur (nom d’utilisateur et mot de passe) au certificat fourni, le serveur valide les informations d’identification et authentifie l’utilisateur.
 
 <div>
 

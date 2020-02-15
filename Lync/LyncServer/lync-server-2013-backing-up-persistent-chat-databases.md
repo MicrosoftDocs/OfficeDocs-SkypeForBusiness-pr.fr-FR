@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : sauvegarder des bases de données de conversation persistante'
+title: 'Lync Server 2013 : sauvegarde des bases de données de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541507
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f186552b9e0d5c78d0f40416cd92e41d5705e93a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98d4d69a09ad58d4578c0636f7e6bce54497cb9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>Sauvegarder des bases de données de chat permanent dans Lync Server 2013
+# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>Sauvegarde de bases de données de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41740614"
 
 _**Dernière modification de la rubrique :** 2013-02-17_
 
-Le contenu d’une salle de conversation permanente est stocké dans la base de données de chat permanent (MGC. mdf). Il s’agit de données vitales qui doivent être sauvegardées régulièrement. Outre le contenu d’une salle de conversation, la base de données de conversation permanente stocke également des informations sur les principaux (par exemple, les utilisateurs et les groupes d’utilisateurs), ainsi que les rôles et l’accès à des salles de conversation et des salles de conversation.
+Le contenu de la salle de conversation permanente est stocké dans la base de données de conversation permanente (MGC. mdf). Il s’agit de données stratégiques qui doivent être sauvegardées régulièrement. Outre le contenu de la salle de conversation, la base de données de conversation permanente stocke également des informations sur les principaux (par exemple, les utilisateurs et les groupes d’utilisateurs), ainsi que sur les rôles et l’accès dont ils disposent aux salles de conversation et à la salle de conversation.
 
-Il existe deux méthodes pour sauvegarder les données de conversation permanente.
+Il existe deux manières de sauvegarder les données de conversation permanente.
 
   - Sauvegarde SQL Server
 
-  - L' `Export-CsPersistentChatData` applet de passe qui exporte les données de conversation permanente en tant que fichier
+  - L' `Export-CsPersistentChatData` applet de commande, qui exporte les données de conversation permanente en tant que fichier
 
-Les données qui sont créées à l’aide de la sauvegarde SQL Server nécessitent considérablement plus d’espace disque, ce qui peut être `Export-CsPersistentChatData`plus de 20 fois plus important que ce qui est créé par la sauvegarde SQL Server.
+Les données créées à l’aide de la sauvegarde SQL Server nécessitent beaucoup plus d’espace disque, parfois 20 fois plus, que `Export-CsPersistentChatData`celles créées par, mais la sauvegarde SQL Server est plus susceptible d’être une procédure que les administrateurs connaissent.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des utilisateurs dans Lync Server'
+title: 'Lync Server 2013 : gestion des utilisateurs dans Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756058"
 
 _**Dernière modification de la rubrique :** 2012-10-17_
 
-Vous pouvez utiliser le panneau de configuration de Lync Server 2013 et Lync Server 2013 Management Shell pour gérer les comptes d’utilisateurs dans Lync Server 2013. Les procédures décrites dans cette section vous guident dans l’affichage des informations de compte et la configuration des comptes d’utilisateurs.
+Vous pouvez utiliser le panneau de configuration Lync Server 2013 et Lync Server 2013 Management Shell pour gérer les comptes d’utilisateur dans Lync Server 2013. Les procédures de cette section expliquent comment afficher les informations sur les comptes et comment paramétrer les comptes d’utilisateurs.
 
 <div>
 
@@ -52,7 +52,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server 2013 et Lync Ser
 ## <a name="see-also"></a>Voir aussi
 
 
-[Opérations dans Skype Entreprise Server 2015](lync-server-2013-operations.md)  
+[Opérations dans Lync Server 2013](lync-server-2013-operations.md)  
   
 
 </div>

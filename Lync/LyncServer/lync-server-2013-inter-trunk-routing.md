@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : routage inter-Trunk'
+title: 'Lync Server 2013 : routage entre les jonctions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 587b908cbbff1b69f04fa285fd60a18c28992efb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="inter-trunk-routing-in-lync-server-2013"></a>Routage inter-Trunk dans Lync Server 2013
+# <a name="inter-trunk-routing-in-lync-server-2013"></a>Routage entre les jonctions dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41725844"
 
 _**Dernière modification de la rubrique :** 2012-10-08_
 
-Lync Server 2013 fournit une gestion de session de base grâce à la prise en charge du routage intertrunk. Cette nouvelle fonctionnalité permet à Lync Server de fournir des fonctionnalités de contrôle d’appel aux systèmes de téléphonie en aval. Le routage entre les jonctions peut interconnecter un IP-PBX à une passerelle de réseau de téléphonique commuté (PSTN) pour que les appels d’un téléphone PBX (autocommutateur privé) puissent être acheminés vers la passerelle PSTN et que les appels PSTN entrants puissent être acheminés vers un téléphone PBX. De la même façon, Lync Server peut interconnecter au moins deux systèmes IP-PBX pour que les appels puissent être placés et reçus entre les téléphones PBX des différents systèmes IP PBX.
+Lync Server 2013 fournit une gestion de session de base par le biais de la prise en charge du routage interjonction. Cette nouvelle fonctionnalité permet à Lync Server de fournir des fonctionnalités de contrôle d’appel aux systèmes téléphoniques en aval. Le routage interjonction peut interconnecter un PBX IP à une passerelle de réseau téléphonique commuté (PSTN) afin que les appels provenant d’un téléphone PBX (Private Branch Exchange) puissent être acheminés vers le RTC et que les appels PSTN entrants puissent être acheminés vers un téléphone PBX. De même, Lync Server peut interconnecter deux ou plusieurs systèmes IP-PBX afin que les appels puissent être passés et reçus entre les téléphones PBX à partir des différents systèmes IP-PBX.
 
-La figure suivante illustre Lync Server 2013 permettant une interconnexion entre une passerelle RTC et un PBX IP.
+La figure suivante illustre Lync Server 2013 fournissant une interconnexion entre une passerelle PSTN et un IP-PBX.
 
-![Diagramme IP-PBX/Passerelle RTC connectant Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagramme IP-PBX/Passerelle RTC connectant Lync Server")
+![Diagramme de passerelle RTC/IP-PBX de connexion Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagramme de passerelle RTC/IP-PBX de connexion Lync Server")
 
-La figure suivante illustre Lync Server 2013 connectant deux systèmes PBX IP.
+La figure suivante illustre la connexion de Lync Server 2013 à deux systèmes IP-PBX.
 
-![Diagramme IP-PBX/Passerelle RTC interconnectant Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramme IP-PBX/Passerelle RTC interconnectant Lync Server")
+![Diagramme de systèmes IP-PAX d’interconnexion de Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramme de systèmes IP-PAX d’interconnexion de Lync Server")
 
 </div>
 

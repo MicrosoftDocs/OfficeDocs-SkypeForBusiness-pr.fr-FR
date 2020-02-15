@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Prise en charge du matériel client et du périphérique'
+title: Prise en charge du matériel client et périphérique Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41729834"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Pour prendre en charge des clients dans votre déploiement Lync Server 2013, les ordinateurs client doivent respecter certaines exigences matérielles. Il est nécessaire de disposer de configurations matérielles supplémentaires avant de déployer des téléphones IP et des appareils analogiques.
+Les ordinateurs clients doivent répondre à certaines exigences matérielles pour prendre en charge les clients dans votre déploiement Lync Server 2013. Une configuration matérielle supplémentaire doit être en place avant de pouvoir déployer des téléphones IP et des périphériques analogiques.
 
 <div>
 

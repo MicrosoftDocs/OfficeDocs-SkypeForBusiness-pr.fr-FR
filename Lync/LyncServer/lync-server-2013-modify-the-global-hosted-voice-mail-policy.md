@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : modification de la stratégie de messagerie vocale hébergée dans le monde entier'
+title: 'Lync Server 2013 : modifier la stratégie de messagerie vocale hébergée globale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e930e0b1f9a6e2d246a8011c59e2c92c75ba138d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1746f622afb380f53a0109400a7d326b0b3c5de7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifier la stratégie globale de messagerie vocale hébergée dans Lync Server 2013
+# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifier la stratégie de messagerie vocale hébergée globale dans Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41756878"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-La stratégie de messagerie vocale *globale* hébergée est installée avec Lync Server 2013. Vous pouvez le modifier en fonction de vos besoins, mais vous ne pouvez pas le renommer ou le supprimer. Pour modifier la stratégie globale, vous devez utiliser l’applet de passe Set-CsHostedVoicemailPolicy pour définir les paramètres sur les valeurs appropriées pour votre déploiement spécifique.
+La stratégie de messagerie vocale *globale* hébergée est installée avec Lync Server 2013. Vous pouvez la modifier en fonction de vos besoins, mais pas la renommer ni la supprimer. Pour modifier la stratégie globale, utilisez la cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres sur les valeurs appropriées pour votre déploiement spécifique.
 
-Pour plus d’informations sur l’applet [de connexion Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) , voir la documentation Lync Server Management Shell.
+Pour plus d’informations sur la cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) , voir la documentation de Lync Server Management Shell.
 
 <div>
 
-## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>Pour modifier la stratégie de messagerie vocale hébergée dans le monde
+## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>Pour modifier la stratégie de messagerie vocale hébergée globale
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres de stratégie globale pour votre environnement. Par exemple, exécutez :
+2.  Exécutez la cmdlet Set-CsHostedVoicemailPolicy pour définir les paramètres de stratégie globale pour votre environnement. Par exemple, exécutez :
     
         Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
-    Étant donné que cette commande ne spécifie pas le paramètre Identity de la stratégie, l’interface de ligne de commande Windows PowerShell définit les valeurs suivantes sur la stratégie de messagerie vocale hébergée dans le monde entier :
+    Étant donné que cette commande ne spécifie pas le paramètre Identity de la stratégie, l’interface de ligne de commande Windows PowerShell définit les valeurs suivantes sur la stratégie de messagerie vocale globale hébergée :
     
-      - **Destination** spécifie le nom de domaine complet (FQDN) du service Exchange um hébergé. Ce paramètre est facultatif, mais si vous tentez d’activer un utilisateur pour la messagerie vocale hébergée et que la stratégie attribuée de l’utilisateur n’a pas de valeur de destination, l’activation échoue.
+      - **Destination** spécifie le nom de domaine complet du service de messagerie unifiée Exchange hébergé. Ce paramètre est facultatif, mais si vous tentez d’activer un utilisateur pour la messagerie vocale hébergée alors que la stratégie affectée à l’utilisateur n’a pas de valeur Destination, l’activation échoue.
     
-      - **Organization** spécifie une liste séparée par des virgules des clients Exchange que les utilisateurs du serveur principal de Lync Server. Chaque client doit être spécifié en tant que nom de domaine complet (FQDN) du client sur le service de messagerie unifiée Exchange hébergé.
+      - **Organisation** spécifie une liste séparée par des virgules des clients Exchange hébergeant des utilisateurs de Lync Server. Chaque locataire doit être spécifié avec son nom de domaine complet (FQDN) dans le service de messagerie unifiée Exchange hébergé.
     
     <div>
     
 
     > [!NOTE]  
-    > Dans l’applet de l’exemple précédent, la valeur « corp1.litwareinc.com » remplace une valeur éventuellement déjà présente dans le paramètre Organization. Par exemple, si la stratégie comporte déjà une liste d’organisations séparée par des virgules, la liste complète serait remplacée. Si vous souhaitez ajouter une organisation à la liste au lieu de remplacer la liste entière, exécutez une commande similaire à ce qui suit.
+    > Dans l’exemple de cmdlet précédent, la valeur « corp1.litwareinc.com » remplace toute valeur qui pourrait déjà figurer dans le paramètre Organization. Par exemple, si la stratégie contient déjà une liste d’organisations séparées par des virgules, la liste complète serait remplacée. Si vous souhaitez ajouter une organisation à la liste au lieu de remplacer toute la liste, exécutez une commande semblable à la suivante.
 
     
     </div>

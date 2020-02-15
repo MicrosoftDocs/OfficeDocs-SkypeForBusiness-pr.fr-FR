@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration du chiffrement multimédia pour les fournisseurs publics'
+title: 'Lync Server 2013 : configuration du chiffrement multimédia pour les fournisseurs publics'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d4ab36d19726a6092f978a2ac2a119b248cd0f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f1775a845c10797d145c7ee1ad5def3af729f4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configuration du chiffrement multimédia pour les fournisseurs publics dans Lync Server 2013
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configurer le chiffrement multimédia pour les fournisseurs publics dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41758392"
 
 _**Dernière modification de la rubrique :** 2014-12-12_
 
-Si vous implémentez une Fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez modifier deux paramètres : le niveau de chiffrement de Lync Server et la stratégie EnablePublicCloudAccess. Par défaut, le niveau de cryptage est défini sur obligatoire. Vous devez définir ce paramètre sur pris en charge. Si la stratégie EnablePublicCloudAccess est définie sur false, elle doit être définie sur **true**. Vous pouvez le faire à partir de Lync Server Management Shell.
+Si vous implémentez la Fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez modifier deux paramètres : le niveau de chiffrement Lync Server et la stratégie EnablePublicCloudAccess. Par défaut, le niveau de chiffrement est Requis. Vous devez définir ce paramètre sur Pris en charge. Si la stratégie EnablePublicCloudAccess a la valeur False, vous devez lui affecter la valeur **True**. Vous pouvez effectuer cette opération à partir de Lync Server Management Shell.
 
 <div>
 
-## <a name="configure-federation-for-windows-live"></a>Configurer la Fédération pour Windows Live
+## <a name="configure-federation-for-windows-live"></a>Configurer la fédération pour Windows Live
 
 1.  Démarrez Lync Server Management Shell sur le serveur frontal : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
@@ -59,7 +59,7 @@ Si vous implémentez une Fédération audio/vidéo (A/V) avec Windows Live Messe
     
 
     > [!NOTE]  
-    > Cette étape est obligatoire, car Windows Live Messenger ne prend pas en charge le chiffrement audio/vidéo. La commande définit votre stratégie globale sur un paramètre de chiffrement du support au lieu de nécessiter le chiffrement des données audio/vidéo. Les clients prenant en charge le chiffrement utilisent toujours le chiffrement, tel que Lync 2013.
+    > Cette étape est obligatoire car Windows Live Messenger ne prend pas en charge le chiffrement de l’audio/vidéo. La commande affecte un paramètre de prise en charge du chiffrement à votre stratégie globale au lieu d’exiger le chiffrement des données audio/vidéo. Les clients qui prennent en charge le chiffrement utilisent toujours le chiffrement, tel que Lync 2013.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : surveillance des discussions de groupe'
+title: 'Lync Server 2013 : surveillance de la conversation de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa350924503f430ec0494cc5e1eb17f7878084a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a>Surveiller la discussion de groupe dans Lync Server 2013
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>Surveillance de la conversation de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41756848"
 
 _**Dernière modification de la rubrique :** 2014-08-04_
 
-Nous vous recommandons vivement d’exécuter le [programme d’installation de mise à jour de serveur cumulative](http://support.microsoft.com/kb/968802) le plus récent disponible sur le centre de téléchargement Microsoft pour améliorer les performances.
+Nous vous recommandons vivement d’exécuter le [programme d’installation de mise à jour de serveur](http://support.microsoft.com/kb/968802) le plus récent disponible sur le centre de téléchargement Microsoft pour en améliorer les performances.
 
-En supposant que vous exécutez la dernière mise à jour cumulative, utilisez le tableau de test de stress suivant pour déterminer si vos serveurs de discussion de groupe s’exécutent de manière optimale.
+En supposant que vous exécutez la dernière mise à jour cumulative, utilisez le tableau test de contrainte suivant pour les mesures à comprendre si vos serveurs de conversation de groupe fonctionnent au niveau de l’intégrité.
 
 ### <a name="test-environment-and-user-model"></a>Environnement de test et modèle utilisateur
 
@@ -54,44 +54,44 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Trois serveurs de discussion de groupe dans une liste de discussion de groupe, chacun avec 8 Go de mémoire et 8 processeurs.</p></td>
+<td><p>Trois serveurs de conversation de groupe dans un pool de conversation de groupe, chacun avec une mémoire de 8 Go et 8 processeurs.</p></td>
 </tr>
 <tr class="even">
-<td><p>Deux serveurs frontaux de Lync Server 2013 dans l’édition Enterprise.</p></td>
+<td><p>Deux serveurs frontaux Lync Server 2013 dans Enterprise Edition.</p></td>
 </tr>
 <tr class="odd">
-<td><p>60 000 utilisateurs simultanés sur trois serveurs de discussion de groupe.</p></td>
+<td><p>60 000 utilisateurs simultanés sur trois serveurs de conversation de groupe.</p></td>
 </tr>
 <tr class="even">
-<td><p>canaux 25 000 hébergés par une liste de discussion de groupe.</p></td>
+<td><p>25 000 canaux hébergés par le pool de conversation de groupe.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Taille du canal :</p>
 <ul>
-<li><p>Taille du petit canal : 30</p></li>
-<li><p>Taille du canal moyen : 150</p></li>
-<li><p>Grande taille de canal : 2500</p></li>
+<li><p>Taille des petits canaux : 30</p></li>
+<li><p>Taille moyenne des canaux : 150</p></li>
+<li><p>Taille de canal large : 2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de canaux :</p>
 <ul>
-<li><p>Nombre de petits canaux : 24 000</p></li>
-<li><p>Canaux de moyenne numérique 800</p></li>
-<li><p>Nombre de canaux de grande taille 24</p></li>
+<li><p>Nombre petites canaux : 24 000</p></li>
+<li><p>Nombre moyen canaux 800</p></li>
+<li><p>Nombre grandes canaux 24</p></li>
 <li><p>Nombre total de canaux 24 824</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Canaux d’invitation :</p>
 <ul>
-<li><p>La moitié des canaux étaient des canaux d’invitation</p></li>
+<li><p>La moitié des canaux ont été des canaux d’invitation</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de canaux qu’un utilisateur rejoint :</p>
 <ul>
-<li><p>Petites : 12</p></li>
+<li><p>Petit : 12</p></li>
 <li><p>Moyenne : 2</p></li>
 <li><p>Grande : 1</p></li>
 </ul></td>
@@ -99,19 +99,19 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 <tr class="odd">
 <td><p>Taux de participation :</p>
 <ul>
-<li><p>10 au total/par seconde, 3,33 secondes par serveur</p></li>
+<li><p>10 au total/seconde, 3,33/seconde par serveur</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Taux de connexion :</p>
+<td><p>Taux de déconnexion :</p>
 <ul>
-<li><p>10 au total/par seconde, 3,33 secondes par serveur</p></li>
+<li><p>10 au total/seconde, 3,33/seconde par serveur</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Taux de conversation :</p>
 <ul>
-<li><p>20 au total/par seconde, 6.66/seconde par serveur</p></li>
+<li><p>20 Total/seconde, 6.66/seconde par serveur</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,13 +122,13 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 
 
 > [!IMPORTANT]  
-> Les numéros de compteurs de performance suivants peuvent varier en fonction du matériel utilisé.
+> Les numéros de compteur de performances suivants seront susceptibles de varier lorsque différentes spécifications matérielles ou profils utilisateur sont utilisés.
 
 
 
 </div>
 
-### <a name="performance-counter-to-be-monitored"></a>Compteur de performance à surveiller
+### <a name="performance-counter-to-be-monitored"></a>Compteur de performances à surveiller
 
 <table>
 <colgroup>
@@ -138,7 +138,7 @@ En supposant que vous exécutez la dernière mise à jour cumulative, utilisez l
 <thead>
 <tr class="header">
 <th>Compteur de performance</th>
-<th>Seuil</th>
+<th>Seuils</th>
 </tr>
 </thead>
 <tbody>

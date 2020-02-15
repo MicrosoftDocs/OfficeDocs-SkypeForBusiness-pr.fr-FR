@@ -12,20 +12,20 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51f846d92f5d8cfecbbface31df6543c5c9ac23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fc2aac99251c0b2e5bc950b3dc11e8e2044b440
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Recommandations en matière de sauvegarde et de restauration pour Lync Server 2013
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Meilleures pratiques pour la sauvegarde et la restauration pour Lync Server 2013
 
 </div>
 
@@ -37,57 +37,57 @@ ms.locfileid: "41741884"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Cette section inclut deux types de meilleures pratiques :
+Cette section comprend deux types de meilleures pratiques :
 
-  - Pratiques recommandées pour la sauvegarde et la restauration.
+  - Meilleures pratiques pour la sauvegarde et la restauration.
 
-  - Recommandations permettant de réduire l’impact d’un sinistre.
+  - Meilleures pratiques pour limiter l’impact d’un sinistre.
 
 <div>
 
-## <a name="best-practices-for-backup-and-restoration"></a>Recommandations en matière de sauvegarde et de restauration
+## <a name="best-practices-for-backup-and-restoration"></a>Meilleures pratiques de sauvegarde et restauration
 
-Pour faciliter votre processus de sauvegarde et de restauration, appliquez les meilleures pratiques suivantes lors de la sauvegarde ou de la restauration de vos données :
+Pour faciliter le processus de sauvegarde et de restauration, appliquez les meilleures pratiques suivantes lors de la sauvegarde ou de la restauration de vos données :
 
-  - Effectuez des sauvegardes régulières à intervalles appropriés. Le plus simple et le plus souvent utilisé dans les plannings de type et de rotation est une sauvegarde complète et nocturne de l’ensemble de la base de données SQL Server. Si une restauration est nécessaire, le processus de restauration ne nécessite qu’une seule sauvegarde et aucune donnée de jour ne doit être perdue.
+  - Effectuez des sauvegardes régulières, à intervalles adéquats. Le type de sauvegarde et le planning de rotation les plus simples et les plus couramment utilisés consistent à effectuer chaque nuit une sauvegarde complète de la base de données SQL Server entière. Ensuite, si la restauration est nécessaire, le processus de restauration ne nécessite qu’une seule sauvegarde et aucune donnée de jour ne doit être perdue.
 
-  - Si vous utilisez des applets de commande ou le panneau de configuration de Lync Server pour apporter des modifications de configuration, utilisez l’applet de commande **Export-CsConfiguration** pour effectuer une sauvegarde instantané du fichier de configuration de la topologie (XDS. mdf) après avoir effectué les modifications, afin de ne pas perdre les modifications si vous avez besoin de restaurer vos bases de données. Notez que cette configuration est sauvegardée au format XML et compactée sous forme de fichier ZIP.
+  - Si vous utilisez des applets de commande ou le panneau de configuration Lync Server pour effectuer des modifications de configuration, utilisez la cmdlet **Export-CsConfiguration** pour effectuer une sauvegarde instantanée du fichier de configuration de topologie (XDS. mdf) après avoir apporté les modifications, afin de ne pas perdre les modifications si vous devez restaurer vos bases de données. Notez que cette configuration est sauvegardée au format XML et compressée sous la forme d’un fichier. ZIP.
 
   - Assurez-vous que le dossier partagé que vous envisagez d’utiliser pour la sauvegarde de Lync Server dispose de suffisamment d’espace disque pour contenir toutes les données sauvegardées.
 
-  - Planifier des sauvegardes lorsque la consommation de Lync Server est généralement faible, afin d’améliorer les performances du serveur et l’interface utilisateur.
+  - Planifiez les sauvegardes lorsque l’utilisation de Lync Server est généralement faible, pour améliorer les performances du serveur et l’expérience utilisateur.
 
-  - Assurez-vous que l’emplacement de sauvegarde des données est sécurisé (nous vous recommandons d’utiliser un emplacement distant).
+  - Assurez-vous que l’emplacement où vous sauvegardez les données est sécurisé (nous vous recommandons d’utiliser un emplacement distant).
 
-  - Conservez les fichiers de sauvegarde dans lesquels ils seront disponibles, si vous avez besoin de restaurer les données.
+  - Conservez les fichiers de sauvegarde où ils seront disponibles, au cas où vous devriez restaurer les données.
 
-  - Planifiez et planifiez des tests périodiques des processus de restauration pris en charge par votre organisation.
+  - Planifiez et planifiez les tests périodiques des processus de restauration pris en charge par votre organisation.
 
-  - Validez vos processus de sauvegarde et de restauration à l’avance pour vérifier qu’ils fonctionnent comme prévu.
+  - Validez vos processus de sauvegarde et de restauration à l’avance afin de vous assurer qu’ils fonctionnent comme prévu.
 
 </div>
 
 <div>
 
-## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a>Recommandations pour réduire l’impact d’un sinistre
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a>Meilleures pratiques pour limiter l’impact d’un sinistre
 
-La meilleure stratégie pour gérer les interruptions de service désastreuses (provoquées par des événements ingérables tels que les coupures de courant ou les défaillances matérielles soudaines) est de supposer qu’elles se produiront et de planifier en conséquence.
+La meilleure stratégie pour traiter les interruptions de service désastreuses (dues à des événements non gérables, tels que des coupures de courant ou des pannes matérielles soudaines), est de supposer qu’elles se produiront et de planifier en conséquence.
 
-Si les services Lync, présentant un minimum de perturbation et d’interruption de service, sont vitaux pour votre organisation, il est recommandé de mettre en œuvre des pools de serveurs frontaux couplés, comme décrit dans la section [planification de la haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Ensuite, si l’une de ces réserves rencontre un problème, un administrateur peut basculer les utilisateurs de ce pool pour qu’ils soient desservis par l’autre réserve, avec un minimum de temps d’arrêt.
+Si les services Lync, avec un minimum de perturbation et de panne, sont essentiels pour l’entreprise, vous devez envisager d’implémenter des pools de serveurs frontaux couplés, comme décrit dans la rubrique [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Ensuite, si l’un de ces pools rencontre un problème, un administrateur peut faire en sorte que les utilisateurs de ce pool soient pris en charge par l’autre pool, avec un minimum de temps d’arrêt.
 
-Les plans de gestion des sinistres développés dans le cadre de votre stratégie de sauvegarde et de restauration doivent inclure les éléments suivants :
+Les plans de gestion des sinistres que vous développez dans le cadre de votre stratégie de sauvegarde et de restauration doivent inclure les éléments suivants :
 
-  - La conservation de votre média logiciel ainsi que des mises à jour de logiciels et de microprogrammes, facilement disponibles.
+  - La mise à disposition de vos supports logiciels, ainsi que de vos logiciels et mises à jour de microprogramme, est immédiatement disponible.
 
-  - Maintenance des enregistrements matériels et logiciels.
+  - maintenance d’enregistrements relatifs aux matériels et aux logiciels ;
 
-  - Sauvegarder vos données régulièrement et surveiller l’intégrité de vos sauvegardes.
+  - Sauvegarde régulière de vos données et surveillance de l’intégrité de vos sauvegardes.
 
-  - Formation de votre équipe dans le cas d’une reprise après sinistre, de procédures de documentation et de l’implémentation de perçages de simulation de récupération d’urgence.
+  - formation du personnel en matière de récupération après incident, documentation des procédures et implémentation d’exercices de simulation de récupération après sinistre ;
 
-  - La conservation de matériel de réserve ou, si vous disposez d’un contrat de niveau de service (SLA), un contrat avec des fournisseurs de matériel et des fournisseurs pour les remplacements d’instructions.
+  - La mise à disposition de matériel de rechange ou, si vous disposez d’un contrat de niveau de service (SLA), vous devez détenir les fournisseurs de matériel et les fournisseurs pour les remplacements d’invites.
 
-  - Séparation de l’emplacement de vos fichiers journaux de transactions (fichiers. ldf) et fichiers de base de données (fichiers. mdf).
+  - séparation des emplacements de vos fichiers journaux de transactions (fichiers .ldf) et des fichiers de base de données (fichiers .mdf).
 
 </div>
 

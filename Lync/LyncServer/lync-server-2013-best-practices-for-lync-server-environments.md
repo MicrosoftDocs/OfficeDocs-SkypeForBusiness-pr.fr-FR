@@ -12,20 +12,20 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf207f4cd0303330ccb01dc56e28b949c1df22f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737554"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-lync-server-2013-environments"></a>Recommandations en matière d’environnements Lync Server 2013
+# <a name="best-practices-for-lync-server-2013-environments"></a>Meilleures pratiques pour les environnements Lync Server 2013
 
 </div>
 
@@ -39,47 +39,47 @@ _**Dernière modification de la rubrique :** 2014-08-04_
 
 Les principes généraux suivants doivent être appliqués aux opérations en cours de votre système :
 
-  - **Comprenez et utilisez**   MOF MOF est une collection de meilleures pratiques, de principes et de modèles qui fournissent aux organisations des recommandations techniques sur la gestion des ressources informatiques, telles que les opérations quotidiennes de Lync Server 2013. Les instructions MOF suivantes vous permettent de bénéficier de la fiabilité, de la disponibilité, de la prise en charge et de la gestion des systèmes de production stratégiques pour les produits Microsoft. Pour plus d’informations, consultez [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Comprendre et utiliser**   MOF MOF est une collection de meilleures pratiques, de principes et de modèles qui fournissent aux organisations des instructions techniques sur la gestion des ressources informatiques, telles que les opérations quotidiennes de Lync Server 2013. Les instructions MOF suivantes peuvent vous aider à améliorer la fiabilité, la disponibilité, la prise en charge et la facilité de gestion des systèmes de production critiques pour les produits Microsoft. Pour plus d’informations, consultez la rubrique [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
 
-  - **En savoir plus sur les meilleures pratiques en matière de Lync Server 2013**   , nous vous recommandons de mettre en œuvre des procédures pratiques et éprouvées pour gérer Lync Server 2013. L’utilisation de méthodes essayées, testées et documentées lors de la gestion d’opérations risque d’être plus efficace que de développer vos propres méthodes.
+  - **Découvrez les meilleures pratiques pour Lync Server 2013**   nous vous recommandons d’implémenter des procédures pratiques et éprouvées pour gérer Lync Server 2013. En utilisant les méthodes testées, testées et documentées de gestion des opérations peut être plus efficace que le développement de vos propres méthodes.
 
-  - **Séparez les opérations en processus**   quotidiens, hebdomadaires et mensuels pour documenter les tâches opérationnelles requises que vous effectuerez régulièrement. La documentation du mode d’exécution des tâches permet de garantir la conservation de vos informations en cas de modification de votre environnement opérationnel, par exemple lors du déploiement de nouvelles technologies ou du changement du personnel. Nous vous recommandons d’intégrer les tâches opérationnelles dans des charges de travail gérables, où les tâches sont effectuées quotidiennement, par semaine et par mois. Les tâches quotidiennes concentrent les efforts sur le fonctionnement d’un système, et les tâches mensuelles se focalisent davantage sur la façon de garantir l’intégrité du système sur le long terme.
+  - **Séparation des opérations en processus**   quotidiens, hebdomadaires et mensuels documentez les tâches opérationnelles requises que vous effectuerez régulièrement. La documentation de la façon dont vous effectuez les tâches permet de s’assurer que vos informations sont conservées en cas de modification de votre environnement opérationnel, par exemple lors du déploiement de nouvelles technologies ou de la modification du personnel. Nous vous recommandons de séparer les tâches opérationnelles en charges de travail gérables où les tâches sont effectuées quotidiennement, toutes les semaines et tous les mois. Les tâches quotidiennes se concentrent sur le fonctionnement d’un système, et les tâches mensuelles se concentrent davantage sur l’intégrité du système à long terme.
     
-    Ce document peut être utilisé dans les environnements qui déploient uniquement les composants de messagerie instantanée et de présence (IM/P) ou de messagerie instantanée/P avec Enterprise Voice. Lorsque des tâches ou des éléments de liste de vérification sont spécifiques aux voix entreprise, cela est mentionné et si votre environnement n’inclut pas d’entreprise voix, la partie peut être ignorée.
+    Ce document peut être utilisé dans les environnements déployant uniquement les composants de messagerie instantanée/présence (IM/P) ou la messagerie instantanée/P avec voix entreprise. Lorsque des tâches ou des éléments de liste de contrôle sont spécifiques à voix entreprise, cela est mentionné et, si votre environnement n’inclut pas la fonctionnalité voix entreprise, la partie peut être ignorée.
 
-  - **Déploiement des outils requis pour l’utilisation de Lync Server 2013**   de nombreux outils sont disponibles pour résoudre les problèmes, automatiser les tâches et surveiller et mettre à jour l’environnement Lync Server 2013. Définissez un ensemble standard d’outils pour votre organisation de sorte que les tâches effectuées par l’équipe d’opérations soient effectuées de manière précise, efficace, cohérente et de manière contrôlée. Vous devez également implémenter des processus pour suivre les incidents et les changements de configuration importants.
+  - **Déployer les outils requis pour l’exploitation de Lync Server 2013**   de nombreux outils sont disponibles pour vous aider à résoudre des problèmes, automatiser des tâches et surveiller et gérer l’environnement Lync Server 2013. Définissez un ensemble d’outils standard pour votre organisation afin que les tâches effectuées par l’équipe des opérations soient réalisées avec précision, efficacement, de façon cohérente et de manière contrôlée. Vous devez également implémenter des processus pour assurer le suivi des incidents et des changements de configuration importants.
 
 <div>
 
 ## <a name="reference"></a>Référence
 
-Dans le souci des utilisateurs qui ne connaissent pas encore les notions de base de la gestion de serveur, nous proposons une vue d’ensemble des pratiques de gestion du serveur. Les lecteurs déjà familiarisés avec la gestion du serveur pourront choisir d’ignorer cette section.
+Pour les utilisateurs qui ne sont pas déjà familiarisés avec les notions de base de la gestion de serveur en général, nous proposons une vue d’ensemble des pratiques de gestion de serveur. Les lecteurs déjà familiarisés avec la gestion des serveurs peuvent choisir d’ignorer cette section.
 
-Les pratiques recommandées sont des recommandations fondées sur les connaissances et les compétences des informaticiens ayant gagné dans de nombreux environnements. Ils fournissent des procédures standard pour les tâches courantes que les administrateurs de votre serveur Lync doivent exécuter quotidiennement et répertorient les outils qu’ils doivent utiliser pour gérer un environnement Lync Server.
+Les meilleures pratiques sont des recommandations basées sur les connaissances et l’expérience que les professionnels de l’informatique ont acquis dans de nombreux environnements. Elles fournissent des procédures standard pour les tâches courantes que vos administrateurs Lync Server doivent effectuer quotidiennement et répertorient les outils qu’ils doivent utiliser pour gérer un environnement Lync Server.
 
-Les tâches typiques pour les administrateurs Lync sont les suivantes :
+Les tâches courantes pour les administrateurs Lync sont les suivantes :
 
-  - **Gestion de la capacité et**   de la disponibilité définir le mode de mesure et les mesures à prendre pour prévoir les exigences de capacité future et pour signaler la capacité, la fiabilité et la disponibilité des systèmes. Vous devez vérifier que les serveurs qui exécutent Lync Server sont dimensionnés de manière à gérer la charge sur le système et que le temps d’arrêt non planifié est maintenu conformément aux niveaux définis dans le contrat de niveau de service (SLA). Par ailleurs, vous devez mettre à niveau le matériel pour continuer à respecter les exigences définies.
+  - **La gestion**   de la capacité et de la disponibilité définissent le mode et les éléments à mesurer afin de prévoir les besoins futurs en termes de capacité et de rapport sur la capacité, la fiabilité et la disponibilité de vos systèmes. Vous devez vérifier que les serveurs qui exécutent Lync Server sont dimensionnés de façon à gérer la charge sur le système, et que les temps morts non planifiés sont maintenus selon les niveaux définis dans le contrat de niveau de service (SLA). De plus, vous devez mettre à niveau le matériel pour continuer à respecter les exigences définies.
 
-  - **Gestion des changements et gestion**   de la configuration : contrôle des modifications apportées aux systèmes informatiques. Il doit s’agir de tests, de commentaires sur les applications et de plans d’urgence, de la documentation relative à toutes les modifications et de l’approbation de la gestion en cas de problème. Enregistrez vos ressources logicielles et matérielles et leurs configurations.
+  - **Gestion des modifications et gestion**   de la configuration contrôle des modifications apportées aux systèmes informatiques. Cela doit inclure les tests, les commentaires d’application et les plans d’urgence, la documentation de toutes les modifications et l’approbation de la direction en cas de problèmes. Conservez un enregistrement de vos ressources logicielles et matérielles, ainsi que leurs configurations.
 
-  - ****   Méthodes standard d’administration du système permettant d’effectuer des tâches administratives telles que l’administration de la base de données et l’administration du site.
+  - ****   Structure d’administration du système méthodes standard pour effectuer des tâches d’administration telles que l’administration de base de données et l’administration de site.
 
-  - **L’administration**   de la sécurité a une stratégie et un plan détaillés qui protège la confidentialité des données, l’intégrité des données et la disponibilité des données de l’infrastructure informatique. Cela inclut les activités quotidiennes et les tâches qui sont liées à la mise à jour et à l’ajustement de l’infrastructure de sécurité informatique.
+  - **L’administration**   de la sécurité est dotée d’une stratégie et d’un plan détaillés qui protège la confidentialité des données, l’intégrité des données et la disponibilité des données de l’infrastructure informatique. Cela inclut les activités quotidiennes et les tâches liées à la maintenance et à l’ajustement de l’infrastructure de sécurité informatique.
 
-  - ****   Processus de résolution des problèmes de configuration du système pour traiter les problèmes inattendus, y compris les étapes pour éviter des problèmes similaires à l’avenir.
+  - **Résolution des**   problèmes du système méthodes de plan pour traiter les problèmes inattendus, notamment les étapes permettant d’éviter des problèmes similaires à l’avenir.
 
-  - **Les contrats**   de niveau de service maintiennent un ensemble d’objectifs pour la performance des systèmes informatiques et mesurent régulièrement les performances par rapport à ces objectifs.
+  - **Les contrats**   de niveau de service conservent un ensemble d’objectifs pour les performances des systèmes informatiques et mesurent régulièrement les performances par rapport à ces objectifs.
 
-  - ****   Documents de documentation procédures standard, tels que les informations de configuration et les leçons tirées, et les mettre à la disposition des membres du personnel enseignant qui en ont besoin. À mesure que des modifications sont apportées à la configuration, mettez à jour la documentation en conséquence.
+  - **Documentation**   documentez les procédures standard, telles que les informations de configuration et les leçons apprises, et rendez-les accessibles aux membres du personnel qui en ont besoin. Lorsque les modifications apportées à la configuration sont effectuées, mettez à jour la documentation en conséquence.
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
-Pour plus d’informations, consultez les rubriques suivantes concernant les opérations système :
+Consultez les rubriques suivantes concernant les opérations système avant de continuer :
 
   - [Gestion de la capacité et de la disponibilité dans Lync Server 2013](lync-server-2013-capacity-and-availability-management.md)
 
@@ -87,7 +87,7 @@ Pour plus d’informations, consultez les rubriques suivantes concernant les op�
 
   - [Gestion de la configuration dans Lync Server 2013](lync-server-2013-configuration-management.md)
 
-  - [Administration du système dans Lync Server 2013](lync-server-2013-system-administration.md)
+  - [Administration système dans Lync Server 2013](lync-server-2013-system-administration.md)
 
   - [Contrats de niveau de service dans Lync Server 2013](lync-server-2013-service-level-agreements.md)
 

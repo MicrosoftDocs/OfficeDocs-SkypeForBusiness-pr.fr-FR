@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Schéma de base de données de qualité de l’expérience (QoE)'
+title: 'Lync Server 2013 : schéma de base de données de qualité de l’expérience (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cdff416379d26391ca817f242104a433612a011
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ba219bcf473287879f8c198938506749262b726
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746974"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a>Schéma de base de données de qualité de l’expérience (QoE) dans Lync Server 2013
+# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a>Schéma de la base de données de qualité de l’expérience (QoE) dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41746974"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Ce document décrit le schéma de la base de données de qualité de l’expertise (QoE) dans le logiciel de communication Microsoft Lync Server 2010.
+Cela décrit le schéma de la base de données de qualité de l’expérience (QoE) dans le logiciel de communication Microsoft Lync Server 2010.
 
 <div>
 
@@ -45,11 +45,11 @@ Ce document décrit le schéma de la base de données de qualité de l’experti
 
   - [Liste des tables QoE dans Lync Server 2013](lync-server-2013-list-of-qoe-tables.md)
 
-  - [Détails des tables QoE dans Lync Server 2013](lync-server-2013-qoe-table-details.md)
+  - [Détails de la table QoE dans Lync Server 2013](lync-server-2013-qoe-table-details.md)
 
-  - [Détails de l’affichage QoE dans Lync Server 2013](lync-server-2013-qoe-view-details.md)
+  - [QoE afficher les détails dans Lync Server 2013](lync-server-2013-qoe-view-details.md)
 
-  - [Exemples de requête de base de données QoE dans Lync Server 2013](lync-server-2013-sample-qoe-database-queries.md)
+  - [Exemples de requêtes de base de données QoE dans Lync Server 2013](lync-server-2013-sample-qoe-database-queries.md)
 
 </div>
 

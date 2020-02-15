@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : gestion des nœuds d’observateur'
+title: 'Lync Server 2013 : gestion des nœuds observateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fd7a9a2aa3152e64a48fb87670280259b082677
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-watcher-nodes-in-lync-server-2013"></a>Gestion des nœuds d’observation dans Lync Server 2013
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a>Gestion des nœuds observateur dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724004"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-Outre la modification des transactions synthétiques exécutées sur un nœud d’observation, les administrateurs peuvent également utiliser l’applet de connexion **Set-CsWatcherNodeConfiguration** pour effectuer deux autres tâches importantes : l’activation et la désactivation du nœud Watcher et la configuration du nœud d’observation pour utiliser des URL internes ou des URL externes lors de l’exécution de ces tests.
+En plus de modifier les transactions synthétiques qui sont exécutées sur un nœud observateur, les administrateurs peuvent utiliser l’applet de commande **Set-CsWatcherNodeConfiguration** pour effectuer deux autres tâches importantes : d’une part, l’activation et la désactivation du nœud observateur et, d’autre part, la configuration du nœud observateur pour utiliser des URL internes ou externes lors de l’exécution de ses tests.
 
-Par défaut, les nœuds observateurs sont conçus pour exécuter régulièrement toutes leurs transactions synthétiques activées. Néanmoins, il est possible que vous deviez suspendre ces transactions. Par exemple, si le nœud observateur est temporairement déconnecté du réseau, il est inutile d’exécuter les transactions synthétiques. Sans connectivité réseau, il est garanti que les transactions échouent. Si vous voulez désactiver temporairement un nœud FileSystemWatcher, exécutez une commande similaire à celle-ci à partir de Lync Server Management Shell :
+Par défaut, les nœuds observateur sont conçus pour exécuter régulièrement toutes leurs transactions synthétiques activées. Cependant, il peut arriver que vous deviez suspendre ces transactions. Par exemple, si le nœud observateur est temporairement déconnecté du réseau, il est inutile d’exécuter les transactions synthétiques. Sans connectivité réseau, ces transactions sont vouées à l’échec. Si vous souhaitez désactiver temporairement un nœud observateur, exécutez une commande semblable à celle-ci à partir de Lync Server Management Shell :
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-Cette commande désactive l’exécution de transactions synthétiques dans le nœud d’observation, ATL-Watcher-001.litwareinc.com. Pour reprendre l’exécution des transactions synthétiques, affectez à la propriété Enabled la valeur True ($True) :
+Cette commande désactive l’exécution des transactions synthétiques sur le nœud observateur atl-watcher- 001.litwareinc.com. Pour reprendre l’exécution des transactions synthétiques, affectez à la propriété Enabled la valeur True ($True) :
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
@@ -51,17 +51,17 @@ Cette commande désactive l’exécution de transactions synthétiques dans le n
 
 
 > [!NOTE]  
-> La propriété Enabled peut être utilisée pour activer ou désactiver les nœuds observateurs. Si vous souhaitez supprimer définitivement un nœud observateur, utilisez l’applet de commande <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> :<BR>Remove-CsWatcherNodeConfiguration-Identity "atl-watcher-001.litwareinc.com"<BR>Cette commande supprime tous les paramètres de configuration de nœud d’observation de l’ordinateur spécifié, ce qui empêche l’ordinateur d’exécuter automatiquement des transactions de synthèse. Toutefois, la commande ne désinstalle pas les fichiers de l’agent System Center ou les fichiers système de Lync Server 2013.
+> La propriété Enabled peut être utilisée pour activer ou désactiver les nœuds observateur. Si vous souhaitez supprimer définitivement un nœud observateur, utilisez l’applet de commande <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> :<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>Cette commande supprime tous les paramètres de configuration du nœud observateur de l’ordinateur spécifié, ce qui empêche ainsi l’ordinateur d’exécuter automatiquement des transactions synthétiques. Toutefois, la commande ne désinstalle pas les fichiers de l’agent System Center ni les fichiers système de Lync Server 2013.
 
 
 
 </div>
 
-Par défaut, les nœuds d’observation utilisent les URL externes d’une organisation lors de ses tests. Toutefois, les nœuds d’observation peuvent également être configurés pour utiliser les URL internes de l’organisation. Cela permet aux administrateurs de vérifier l’accès URL pour les utilisateurs situés à l’intérieur du réseau de périmètre. Pour configurer un nœud FileSystemWatcher de manière à utiliser des URL internes au lieu d’URL externes, définissez la propriété UseInternalWebUrls sur true ($True) :
+Par défaut, les nœuds observateur utilisent les URL externes d’une organisation dans le cadre de leurs tests. Cependant, les nœuds observateur peuvent également être configurés de manière à utiliser les URL internes de l’organisation. Cela permet aux administrateurs de vérifier l’accès URL pour les utilisateurs situés à l’intérieur du réseau de périmètre. Pour configurer un nœud observateur de manière à utiliser des URL internes à la place d’URL externes, affectez à la propriété UseInternalWebUrls la valeur True ($True) :
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-Si vous rétablissez cette propriété sur la valeur par défaut false ($False), l’observateur utilise alors les URL externes :
+Si vous affectez à cette propriété la valeur par défaut, à savoir False ($False), l’observateur utilise alors les URL externes :
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 

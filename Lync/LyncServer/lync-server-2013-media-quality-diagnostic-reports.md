@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapports de diagnostic de qualité multimédia'
+title: 'Lync Server 2013 : rapports de diagnostic de la qualité des médias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 257346792c7f1e3d815942c7eecacd16cba9194e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Rapports de diagnostic de qualité multimédia dans Lync Server 2013
+# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Rapports de diagnostic de la qualité des médias dans Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41723964"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Les rapports de diagnostic de la qualité des médias fournissent des informations sur la qualité des appels, ainsi que des informations de diagnostic et de résolution des problèmes pour les appels ayant échoué.
+Les rapports de diagnostic de la qualité des médias fournissent des informations sur la qualité des appels, ainsi que des informations de diagnostic et de dépannage pour les appels ayant échoué.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Rapport synthèse sur la qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   fournit des données de qualité globale pour les différents types de points de terminaison, notamment les appels d’égal à égal voix d’entreprise, les appels de conférences vocaux d’entreprise et les appels reposant, au moins en partie, sur le réseau téléphonique public commuté (RTC).
+  - [Le rapport de synthèse de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   fournit des données de qualité globale pour différents types de points de terminaison, notamment les appels P2P voix entreprise, les appels de conférence voix entreprise et les appels qui reposent, au moins en partie, sur le réseau téléphonique commuté (PSTN).
 
-  - [Rapport de comparaison de qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   fournit une comparaison des valeurs de qualité d’appel pour les différents types d’appels audio (par exemple, les appels passés via un réseau sans fil et les appels effectués sur une connexion câblée).
+  - [Le rapport de comparaison de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   fournit une comparaison des valeurs de qualité des appels pour différents types d’appels audio (par exemple, les appels effectués sur un réseau sans fil ou les appels effectués via une connexion câblée).
 
-  - [Le rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md)   répertorie les serveurs ayant rencontré le plus de problèmes, en fonction des mesures de ces mesures de qualité clé en matière de dégradation, de perte de paquets et de gigue.
+  - [Le rapport de performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md)   répertorie les serveurs qui ont rencontré le plus de problèmes, en fonction de mesures de qualité clés telles que la dégradation, la perte de paquets et la gigue.
 
-  - [Rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md)   fournit une liste d’emplacements réseau et une synthèse de la qualité de média des appels qui se produisent à chaque emplacement. En raison des objectifs de ce rapport, les emplacements sont basés sur les sous-réseaux IP.
+  - [Le rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md)   fournit une liste des emplacements réseau et un résumé de la qualité des médias des appels qui se produisent à chaque emplacement. Pour les besoins de ce rapport, les emplacements sont basés sur des sous-réseaux IP.
 
-  - [Rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md)   fournit un résumé des appareils utilisés pour les appels voix entreprise et inclut la qualité de média moyenne des appels par appareil.
+  - [Device Report in Lync Server 2013](lync-server-2013-device-report.md)   fournit un résumé des appareils utilisés pour les appels vocaux d’entreprise et inclut la qualité moyenne des médias des appels par périphérique.
 
-  - [Rapport de liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md)   fournit des informations détaillées sur les appels téléphoniques passés ou reçus au sein de votre organisation.
+  - [Call List report dans Lync Server 2013](lync-server-2013-call-list-report.md)   fournit des informations détaillées sur les appels téléphoniques émis ou reçus au sein de votre organisation.
 
-  - [Rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md)   fournit des informations détaillées sur les appels téléphoniques passés ou reçus au sein de votre organisation.
+  - [Call Detail report dans Lync Server 2013](lync-server-2013-call-detail-report.md)   fournit des informations détaillées sur les appels téléphoniques émis ou reçus au sein de votre organisation.
 
-  - [Rapport sur les tendances de la qualité Media Media dans Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   vous permet de comparer graphiquement les statistiques de qualité d’appel, telles que le volume des appels, le pourcentage d’appels médiocres, la perte de paquets et la gigue.
+  - [Le rapport de tendance de la qualité des médias serveur dans Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   vous permet de comparer graphiquement jusqu’à 5 serveurs sur les mesures de qualité de l’expérience, telles que le volume d’appels, le pourcentage d’appels médiocres, la perte de paquets et la gigue.
 
-  - [Le rapport de distribution des métriques de qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   fournit un graphique montrant les valeurs de distribution pour une métrique de qualité d’acquisition telle que la gigue ou la perte de paquets.
+  - [Le rapport de distribution des mesures de qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   fournit un graphique qui indique les valeurs de distribution pour une mesure de qualité de l’expérience, comme la gigue ou la perte de paquets.
 
-  - [Rapport de tendance d’emplacement dans Lync Server 2013](lync-server-2013-location-trend-report.md)   fournit des informations de tendance de qualité d’appel pour les emplacements réseau.
+  - [Le rapport de tendance des emplacements dans Lync Server 2013](lync-server-2013-location-trend-report.md)   fournit des informations de tendance de la qualité des appels pour les emplacements réseau.
 
 </div>
 

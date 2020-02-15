@@ -1,5 +1,5 @@
 ---
-title: Relations des serveurs d’inscriptions de sauvegarde dans Lync Server 2013
+title: Relations de serveur de sauvegarde de sauvegarde Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44111dbdec945e525b1ef54d910e1cf7f3b5a5d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c2b7dbf410aaf5ab6bedd322d018abab76a8324e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relations des serveurs d’inscriptions de sauvegarde dans Lync Server 2013
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relations de serveur d’inscriptions de sauvegarde dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41730344"
 
 _**Dernière modification de la rubrique :** 2012-06-28_
 
-En plus de fournir une fonctionnalité de récupération d’urgence, deux pools associés jouent le rôle de serveur d’inscriptions de sauvegarde l’un pour l’autre. Dans Lync Server 2013, les relations de registre de secours entre les pools frontal sont toujours 1:1 et réciproques. En d’autres termes, si P1 est la sauvegarde pour P2, P2 doit être la sauvegarde de P1, et aucune de ses autres listes frontales ne peut être sauvegardée. Il s’agit d’une modification de Lync Server 2010, qui peut être un grand nombre d’une relation de sauvegarde de pool frontal.
+En plus de fournir une fonctionnalité de récupération d’urgence, deux pools associés jouent le rôle de serveur d’inscriptions de sauvegarde l’un pour l’autre. Dans Lync Server 2013, les relations de serveur d’inscriptions de sauvegarde entre les pools frontaux sont toujours 1:1 et réciproques. Cela signifie que si P1 est la sauvegarde de P2, alors P2 doit être la sauvegarde de P1, et aucun des deux ne peut servir de sauvegarde pour un autre pool frontal. Il s’agit d’une modification de Lync Server 2010, dans laquelle les relations de sauvegarde de pool frontal peuvent être nombreuses.
 
-Même si les relations de sauvegarde entre les deux pools front-end doivent être 1:1 et symétriques, chaque pool frontal peut également être le Bureau d’enregistrement de sauvegarde pour n’importe quel nombre d’appareils plus survivant, comme dans Lync Server 2010.
+Même si les relations de sauvegarde entre deux pools frontaux doivent être 1:1 et symétriques, chaque pool frontal peut toujours être le serveur d’inscriptions de sauvegarde pour un nombre d’appliances Survivable Branch appliance, tout comme dans Lync Server 2010.
 
-Notez que Lync Server 2013 n’étend pas l’assistance de reprise après sinistre aux utilisateurs hébergés sur un appareil de succursales survivant. Dans le cas d’un pool frontal qui sert de sauvegarde pour une unité de branchement Survivable, les utilisateurs connectés à l’unité de branchement Survivable peuvent passer en mode de résilience, même si les utilisateurs hébergés sur le pool frontal ont basculé vers le pool frontal de sauvegarde.
+Notez que Lync Server 2013 n’étend pas la prise en charge de la récupération d’urgence aux utilisateurs hébergés sur un Survivable Branch appliance. Si un pool frontal qui sert de sauvegarde pour un Survivable Branch Appliance tombe en panne, les utilisateurs connectés au Survivable Branch Appliance tombent en mode résistance même après que les utilisateurs hébergés sur le pool frontal ont basculé vers le pool de serveurs frontaux de sauvegarde.
 
 </div>
 
