@@ -1,5 +1,5 @@
 ---
-title: Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Server
+title: Restauration du pool Edge utilisé pour Lync Server Federation ou XMPP Federation
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fec3082c172cc9e31d931d1c64ef3eaeccd04b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1adafdb90b9ea42d3694410b2103ef0e46aa70b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Server dans Lync Server 2013
+# <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>Restauration du pool Edge utilisé pour Lync Server Federation ou XMPP Federation dans Lync Server 2013
 
 </div>
 
@@ -37,49 +37,49 @@ ms.locfileid: "41756158"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Après un échec de remise du pool de frontière d’hébergement de la Fédération, utilisez la procédure suivante pour restaurer le routage de Fédération de Lync Server et/ou l’itinéraire de Fédération XMPP pour qu’il utilise de nouveau ce pool de périphéries restauré.
+Lorsqu’un pool Edge en échec qui hébergeait la fédération a été remis en ligne, suivez cette procédure pour restaurer l’itinéraire de fédération Lync Server et/ou l’itinéraire de fédération XMPP pour réutiliser ce pool Edge restauré.
 
 <div>
 
-## <a name="failing-back-federation-to-a-restored-edge-pool"></a>Échec de la Fédération d’arrière-plan vers un pool de périphérie restauré
+## <a name="failing-back-federation-to-a-restored-edge-pool"></a>Restauration de la fédération sur un pool Edge restauré
 
-1.  Sur le pool Edge qui est désormais disponible, démarrez les services Edge.
+1.  Sur le pool Edge de nouveau disponible, lancez les Services Edge.
 
-2.  Si vous souhaitez restaurer l’itinéraire de Fédération de Lync Server pour utiliser le serveur de périphérie restauré, procédez comme suit :
+2.  Si vous voulez restaurer l’itinéraire de fédération Lync Server pour utiliser le serveur Edge restauré, procédez comme suit :
     
-      - Sur un serveur frontal, ouvrez le générateur de topologie. Développez **pools de bords**, puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la Fédération. Sélectionnez **modifier les propriétés**.
+      - Sur un serveur frontal, ouvrez le Générateur de topologie. Développez **Pools Edge**, puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la fédération. Sélectionnez **Modifier les propriétés**.
     
-      - Dans **modifier les propriétés** sous **général**, décochez **la case Activer la Fédération pour ce pool de périphériques (port 5061)**. Cliquez sur **OK**.
+      - Dans **Modifier les propriétés**, sous **Général**, désactivez l’option **Activer la fédération pour ce pool Edge (Port 5061)**. Cliquez sur **OK**.
     
-      - Développez **pools de bords**, puis cliquez avec le bouton droit sur le serveur Edge d’origine ou sur le pool de serveurs Edge que vous souhaitez utiliser pour la Fédération. Sélectionnez **modifier les propriétés**.
+      - Développez **Pools Edge**, puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge d’origine que vous voulez réutiliser pour la fédération. Sélectionnez **Modifier les propriétés**.
     
-      - Dans **modifier les propriétés** sous **général**, sélectionnez **activer la Fédération pour ce pool Edge (port 5061)**. Cliquez sur **OK**.
+      - Dans **Modifier les propriétés**, sous **Général**, sélectionnez l’option **Activer la fédération pour ce pool Edge (Port 5061)**. Cliquez sur **OK**.
     
-      - Cliquez sur **action**, sélectionnez **topologie**, puis **publier**. Lorsque le système vous **le**demande, cliquez sur **suivant**. Lorsque la publication est terminée, cliquez sur **Terminer**.
+      - Cliquez sur **Action**, sélectionnez **Topologie**, puis **Publier**. À l’invite dans la page **Publier la topologie**, cliquez sur **Suivant**. Une fois la publication terminée, cliquez sur **Terminer**.
     
-      - Sur le serveur Edge, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur **installer ou mettre à jour le système serveur Lync**, puis cliquez sur **configurer ou supprimer les composants Lync Server**. Cliquez de **nouveau sur exécuter**.
+      - Sur le serveur Edge, ouvrez l’Assistant Déploiement de Lync Server. Cliquez sur **Installer ou mettre à jour le système Lync Server**, puis sur **Installer ou supprimer des composants Lync Server**. Cliquez sur **Réexécuter**.
     
-      - Dans configurer les composants serveur Lync, cliquez sur **suivant**. L’écran de synthèse indique les actions à mesure qu’elles sont exécutées. Lorsque le déploiement est effectué, cliquez sur **afficher le journal** pour afficher les fichiers journaux disponibles. Cliquez sur **Terminer** pour terminer le déploiement.
+      - Sur la page Configurer les composants Lync Server, cliquez sur **Suivant**. L’écran de résumé affiche les actions lorsqu’elles sont exécutées. Une fois le déploiement terminé, cliquez sur **Voir le journal** pour voir les fichiers journaux disponibles. Cliquez sur **Terminer** pour terminer le déploiement.
 
-3.  Si vous souhaitez restaurer l’itinéraire de la Fédération XMPP de manière à utiliser le serveur de périphérie de restauration, procédez comme suit :
+3.  Si vous voulez restaurer l’itinéraire de fédération XMPP pour utiliser le serveur Edge restauré, procédez comme suit :
     
-      - Exécutez l’applet de commande suivante pour rediriger l’itinéraire de Fédération XMPP vers le pool Edge qui hébergera maintenant la Fédération de XMPP (dans cet exemple, EdgeServer1) :
+      - Exécutez la cmdlet suivante pour pointer de nouveau l’itinéraire de fédération XMPP sur le pool Edge qui héberge désormais la fédération XMPP (dans cet exemple, EdgeServer1) :
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        Dans cet exemple, site1 est le site contenant le pool de bords qui héberge désormais l’itinéraire de Fédération XMPP et EdgeServer1.contoso.com est le nom de domaine complet d’un serveur Edge dans ce pool.
+        Dans cet exemple, Site1 représente le site qui contient le pool Edge qui hébergera désormais l’itinéraire de fédération XMPP, et EdgeServer1.contoso.com représente le nom de domaine complet (FQDN) d’un serveur Edge de ce pool.
     
-      - Si vous ne disposez pas encore d’un enregistrement DNS SRV pour la Fédération XMPP qui se résout au pool de périphérie qui hébergera maintenant la Fédération de XMPP, vous devez l’ajouter, comme dans l’exemple ci-dessous. Cet enregistrement SRV doit avoir une valeur de port de 5269.
+      - Si vous n’avez pas encore d’enregistrement DNS SRV pour la fédération XMPP qui aboutit au pool Edge qui héberge désormais la fédération XMPP, vous devez l’ajouter, comme dans l’exemple suivant. Cet enregistrement SRV doit avoir une valeur de port de 5269.
         
             _xmpp-server._tcp.contoso.com
     
-      - Sur le serveur DNS externe, modifiez l’enregistrement DNS A pour la Fédération XMPP de sorte qu’il pointe sur EdgeServer2.contoso.com.
+      - Sur le serveur DNS externe, modifiez l’enregistrement DNS A pour la fédération XMPP de sorte qu’il pointe sur EdgeServer2.contoso.com.
     
-      - Assurez-vous que le pool de bords qui hébergera désormais la Fédération XMPP dispose d’une ouverture externe du port 5269.
+      - Vérifiez que le port 5269 du pool Edge qui héberge désormais la fédération XMPP est ouvert de façon externe.
 
-4.  Si le pool frontal restait en cours d’exécution sur le site contenant le pool de périphériques ayant échoué et a été restauré, vous devez mettre à jour les services de conférence Web et de service de conférence A/V sur ces pools frontal pour pouvoir utiliser les pools de périphérie sur leur site local. Pour plus d’informations, reportez-vous à [la section changement du pool de bords associé à un pool frontal dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+4.  Si les pools frontaux ont continué à s’exécuter sur le site contenant le pool Edge qui a échoué et a été restauré, vous devez mettre à jour les services de conférence web et de conférence A/V sur ces pools frontaux pour réutiliser les pools Edge sur leur site local. Pour plus d’informations, consultez [la rubrique Modification du pool de serveurs Edge associé à un pool frontal dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
 
-5.  Si le pool frontal sur le même site que le pool d’échecs en panne ne fonctionne pas, vous pouvez désormais utiliser Invoke-CsPoolFailback pour restaurer le pool frontal.
+5.  Si le pool frontal du site où le pool Edge a échoué échoue également, vous pouvez désormais utiliser Invoke–CsPoolFailback pour restaurer le pool frontal.
 
 </div>
 
@@ -88,8 +88,8 @@ Après un échec de remise du pool de frontière d’hébergement de la Fédéra
 ## <a name="see-also"></a>Voir aussi
 
 
-[Basculement vers le pool Edge utilisé pour la fédération Lync Server dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  
-[Basculement vers le pool Edge utilisé pour la fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[Basculement du pool de serveurs Edge utilisé pour la Fédération Lync Server dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  
+[Basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
 
 
 [Récupération d’urgence de serveur Edge dans Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  

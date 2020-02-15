@@ -12,16 +12,16 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b01181296a42f786a4739b5ec59d775212baaf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d63f13442588a84039fee6e1147a9c29e821e14a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755418"
 
 _**Dernière modification de la rubrique :** 2012-09-11_
 
-Quand un appelant appelle un Response Group, l’appel est acheminé vers un agent en fonction du groupe de recherche ou des réponses de l’appelant aux questions du système de réponse vocale interactive. L’application Response Group utilise des méthodes de routage de groupe de réponse standard pour acheminer l’appel vers le prochain agent disponible. Les méthodes de routage des appels incluent le routage de série, de longue durée, parallèle, de tourniquet cyclique et le routage de l’attendant (c’est-à-dire que tous les agents sont appelés en même temps pour chaque appel entrant, quelle que soit leur présence actuelle). Si aucun agent n’est disponible, l’appel est mis en file d’attente jusqu’à ce qu’un agent se libère. Quand il est en file d’attente, l’appelant entend de la musique jusqu’à ce qu’un agent accepte l’appel. S’il s’agit d’une file d’attente complète ou si l’appel est interrompu dans la file d’attente, l’appelant peut entendre un message, puis être déconnecté ou transféré vers une autre destination. Quand un agent accepte l’appel, l’appelant peut dans certains cas voir l’identité de l’agent, selon la façon dont l’administrateur configure le groupe de réponses. Les agents peuvent être formels, c’est-à-dire qu’ils doivent se connecter au groupe avant de pouvoir accepter les appels y étant acheminés, ou informels, c’est-à-dire qu’ils n’ont pas besoin de se connecter ou déconnecter du groupe pour accepter les appels.
+Lorsqu’un appelant appelle un groupe de réponses, l’appel est acheminé vers un agent basé sur un groupement de postes ou vers les réponses vocales interactives (IVR) aux questions de l’appelant. L’application Response Group utilise des méthodes de routage Response Group standard pour acheminer l’appel vers le prochain agent disponible. Parmi les méthodes de routage d’appel figurent notamment le routage de série, parallèle, le plus longuement inactif, tourniquet (round robin) et le nouveau routage Attendant dans lequel tous les agents sont appelés en même temps pour tous les appels entrants, quelle que soit leur présence actuelle. Si aucun agent n’est disponible, l’appel est mis en file d’attente jusqu’à ce qu’un agent se libère. Quand il est en file d’attente, l’appelant entend de la musique jusqu’à ce qu’un agent accepte l’appel. Si la file d’attente est pleine, ou si l’appel arrive à expiration dans la file d’attente, l’appelant entendra probablement un message, puis sera déconnecté ou transféré vers une autre destination. Quand un agent accepte l’appel, l’appelant peut dans certains cas voir l’identité de l’agent, selon la façon dont l’administrateur configure le groupe de réponses. Les agents peuvent être formels, c’est-à-dire qu’ils doivent se connecter au groupe avant de pouvoir accepter les appels y étant acheminés, ou informels, c’est-à-dire qu’ils n’ont pas besoin de se connecter ou déconnecter du groupe pour accepter les appels.
 
 <div>
 
 
 > [!NOTE]  
-> Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de local vers en ligne, les appels de groupe de réponse ne seront pas routés vers cet agent.
+> Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de local vers en ligne, les appels Response Group ne sont pas acheminés vers cet agent.
 
 
 
@@ -53,15 +53,15 @@ Quand un appelant appelle un Response Group, l’appel est acheminé vers un age
 
 
 > [!NOTE]  
-> L’application Response Group utilise un service interne appelé faire correspondre pour mettre en file d’attente les appels et rechercher les agents disponibles. Chaque ordinateur exécutant l’application Response Group exécute le service Matching, mais une seule correspondance avec le service par le pool Lync Server est active à la fois, les autres sont passives. En cas d’indisponibilité du service d’établissement des correspondances actif au cours d’une interruption de service imprévue, l’un des services passifs devient actif. L’application de groupe de réponse utilise le mieux pour s’assurer que le routage d’appel et la mise en file d’attente continuent de fonctionner sans interruption. Cependant, lorsqu’une transition du service d’établissement des correspondances se produit, tous les appels en transfert à ce moment-là sont perdus. Par exemple, si la transition est en raison du fait que le serveur frontal s’arrête, tout appel actuellement géré par le service de correspondance active sur le serveur principal est également perdu.
+> L’application Response Group utilise un service interne, appelé faire correspondre les appels, pour mettre en file d’attente des appels et trouver des agents disponibles. Chaque ordinateur qui exécute l’application Response Group exécute le service de mise en correspondance, mais un seul service correspondant est actif par pool Lync Server, les autres étant passifs. En cas d’indisponibilité du service d’établissement des correspondances actif au cours d’une interruption de service imprévue, l’un des services passifs devient actif. L’application Response Group fait de son mieux pour s’assurer que le routage des appels et la mise en file d’attente se poursuivent sans interruption. Cependant, lorsqu’une transition du service d’établissement des correspondances se produit, tous les appels en transfert à ce moment-là sont perdus. Par exemple, si la transition est due au fait que le serveur frontal descend, les appels actuellement traités par le service de correspondance active sur ce serveur frontal sont également perdus.
 
 
 
 </div>
 
-Dans Lync Server 2013, deux rôles de gestion sont disponibles pour gérer les groupes de réponse : responsable du groupe de réponse et administrateur du groupe de réponse. Les administrateurs de groupe de réponse peuvent gérer tout aspect de n’importe quel Response Group. Les responsables de groupe de réponse peuvent uniquement gérer certains aspects, et uniquement pour les groupes de réponse qu’ils possèdent. Le nouveau rôle de responsable peut vous aider à réduire les coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes de réponse spécifiques à n’importe quel utilisateur qui est activé pour voix entreprise.
+Dans Lync Server 2013, deux rôles de gestion sont disponibles pour la gestion des groupes Response Group : Response Group Manager et l’administrateur Response Group. Les administrateurs de Response Group peuvent gérer tous les aspects de n’importe quel groupe Response Group. Les gestionnaires Response Group ne peuvent gérer que certains aspects, et uniquement pour les groupes Response Group qu’ils possèdent. Le nouveau rôle de gestionnaire peut aider à réduire les coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes Response Group spécifiques à tout utilisateur activé pour voix entreprise.
 
-Pour prendre en charge le rôle de nouveau directeur, l’application Response Group de Lync Server 2013 introduit un **type de flux de travail de type** géré ou non géré. Le tableau ci-dessous décrit les groupes Response Group gérés et non gérés.
+Pour prendre en charge le nouveau rôle de gestionnaire, l’application Response Group Lync Server 2013 introduit un **type de flux de travail** géré ou non géré. Le tableau suivant décrit les groupes Response Group gérés et non gérés.
 
 ### <a name="managed-and-unmanaged-response-groups"></a>Groupes Response Group gérés et non gérés
 
@@ -78,19 +78,19 @@ Pour prendre en charge le rôle de nouveau directeur, l’application Response G
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Non géré</p></td>
+<td><p>Non gérés</p></td>
 <td><ul>
-<li><p>Aucun gestionnaire n’est affecté aux groupes Response Group non gérés. Seul l’administrateur du groupe de réponse peut configurer ces groupes de réponse.</p></li>
+<li><p>Aucun gestionnaire n’est affecté aux groupes Response Group non gérés. Seul l’administrateur de groupe de réponse peut configurer ces groupes Response Group.</p></li>
 <li><p>Plusieurs groupes Response Group non gérés peuvent partager une file d’attente ou un groupe d’agents.</p></li>
-<li><p>Lorsque vous migrez des groupes de réponses d’une version antérieure vers Lync Server 2013, le type est défini sur non géré.</p></li>
+<li><p>Lorsque vous migrez des groupes Response Group d’une version antérieure vers Lync Server 2013, le type est défini sur non géré.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Géré</p></td>
 <td><ul>
-<li><p>Les administrateurs de groupe de réponse peuvent configurer n’importe quel aspect de groupes de réponse gérés.</p></li>
-<li><p>Les responsables de groupe de réponse ne peuvent pas afficher ou modifier des groupes de réponse qui ne sont pas explicitement attribués.</p></li>
-<li><p>Les responsables de groupe de réponse peuvent configurer uniquement certains paramètres des groupes de réponse qui leur sont explicitement affectés.</p></li>
+<li><p>Les administrateurs de Response Group peuvent configurer tous les aspects des groupes Response Group gérés.</p></li>
+<li><p>Les gestionnaires Response Group ne peuvent pas afficher ou modifier les groupes Response Group qui ne leur sont pas explicitement affectés.</p></li>
+<li><p>Les responsables de groupes Response Group peuvent configurer uniquement certains paramètres des groupes Response Group qui leur sont explicitement affectés.</p></li>
 <li><p>Les groupes Response Group gérés ne peuvent pas partager des files d’attente ou des groupes d’agents avec d’autres groupes Response Group, qu’ils soient gérés ou non gérés.</p></li>
 </ul></td>
 </tr>
@@ -98,7 +98,7 @@ Pour prendre en charge le rôle de nouveau directeur, l’application Response G
 </table>
 
 
-Le tableau suivant décrit les actions que les responsables de groupe de réponse peuvent exécuter et ne peuvent pas effectuer pour les groupes de réponse qui leur sont attribués.
+Le tableau suivant décrit les actions que les gestionnaires de groupe de réponse peuvent et ne peuvent pas effectuer pour les groupes Response Group qui leur sont attribués.
 
 ### <a name="response-group-manager-capabilities"></a>Fonctions du gestionnaire Response Group
 
@@ -112,15 +112,15 @@ Le tableau suivant décrit les actions que les responsables de groupe de répons
 <tr class="header">
 <th>Peut configurer :</th>
 <th>Peut créer, supprimer ou configurer :</th>
-<th>Ne peut pas :</th>
+<th>Pouvant</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>Agents</p></li>
+<li><p>Représentants</p></li>
 <li><p>Message d’accueil</p></li>
-<li><p>Nom du groupe de réponse</p></li>
+<li><p>Nom du groupe Response Group</p></li>
 <li><p>Description</p></li>
 <li><p>Numéro affiché</p></li>
 <li><p>Heures d’ouverture</p></li>
@@ -142,26 +142,26 @@ Le tableau suivant décrit les actions que les responsables de groupe de répons
 </table>
 
 
-Les responsables de groupe de réponse peuvent utiliser les outils suivants pour gérer leurs groupes de réponse désignés.
+Les responsables des groupes Response Group peuvent utiliser les outils suivants pour gérer leurs groupes Response Group désignés.
 
-  - Panneau de configuration Lync Server
+  - Panneau de commande Lync Server
     
     <div>
     
 
     > [!NOTE]  
-    > Les responsables de groupe de réponse peuvent uniquement gérer les paramètres de groupe de réponse à l’aide de cet outil. Les autres paramètres du serveur Lync ne sont pas disponibles aux responsables.
+    > Les gestionnaires Response Group peuvent gérer uniquement les paramètres Response Group à l’aide de cet outil. Les autres paramètres de Lync Server ne sont pas disponibles pour les responsables.
 
     
     </div>
 
   - outil de configuration Response Group
 
-  - Lync Server Management Shell
+  - Lync Server Management Shell
 
-Response Group s’adapte bien aux environnements de services ou de groupe de travail (pour plus de détails, voir [planification de la capacité pour Response Group dans Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) et peut être déployé dans les nouvelles installations de téléphonie. Il prend en charge les appels entrants du déploiement voix entreprise et du réseau d’opérateur local. Les agents peuvent utiliser Lync 2013, Lync 2010, Lync 2010 attendant ou Lync Phone Edition pour prendre les appels routés vers eux.
+Response Group est adapté aux environnements de service ou de groupe de travail (pour plus d’informations, consultez la rubrique [Capacity Planning for Response Group in Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)) et peut être déployé dans des installations de téléphonie entièrement nouvelles. Il prend en charge les appels entrants du déploiement voix entreprise et du réseau de l’opérateur local. Les agents peuvent utiliser Lync 2013, Lync 2010, Lync 2010 attendant ou Lync Phone Edition pour prendre les appels qui leur sont routés.
 
-L’application Response Group est un composant d’Enterprise Voice. Lorsque vous déployez Enterprise Voice, l’application Response Group est installée et activée automatiquement.
+L’application Response Group est un composant de voix entreprise. Lorsque vous déployez voix entreprise, l’application Response Group est installée et activée automatiquement.
 
 </div>
 

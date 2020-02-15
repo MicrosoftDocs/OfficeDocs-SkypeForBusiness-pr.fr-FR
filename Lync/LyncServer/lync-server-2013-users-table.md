@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Users'
+title: 'Lync Server 2013 : tableau utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2be643f8a593af01ee47ad93d3910d44ee86e48
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67663afbd9e5b61b1b24478e003db91c5be511e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744324"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="users-table-in-lync-server-2013"></a>Table Users dans Lync Server 2013
+# <a name="users-table-in-lync-server-2013"></a>Table users dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744324"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table users est une table de prise en charge. Chaque enregistrement de la table stocke des informations relatives à un utilisateur impliqué dans des appels ou des sessions ayant des enregistrements dans la base de données.
+La table users est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur un utilisateur impliqué dans des appels ou des sessions qui ont des enregistrements dans la base de données.
 
 
 <table>
@@ -51,7 +51,7 @@ La table users est une table de prise en charge. Chaque enregistrement de la tab
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -60,12 +60,12 @@ La table users est une table de prise en charge. Chaque enregistrement de la tab
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>DateHeure</p></td>
 <td></td>
-<td><p>Horodatage pour un usage interne.</p></td>
+<td><p>Horodatage pour utilisation interne.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Numéro unique identifiant cet utilisateur.</p></td>
 </tr>
 <tr class="odd">
@@ -75,16 +75,16 @@ La table users est une table de prise en charge. Chaque enregistrement de la tab
 <td><p>URI de l’utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IDClient</strong></p></td>
+<td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>ID de client de cet utilisateur. Pour plus d’informations, voir la <a href="lync-server-2013-tenants-table.md">table locataires dans Lync Server 2013</a> .</p></td>
+<td><p>Etranger</p></td>
+<td><p>ID de client de cet utilisateur. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-tenants-table.md">table clients dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Type d’URI de cet utilisateur. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
+<td><p>Etranger</p></td>
+<td><p>Type d’URI de cet utilisateur. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

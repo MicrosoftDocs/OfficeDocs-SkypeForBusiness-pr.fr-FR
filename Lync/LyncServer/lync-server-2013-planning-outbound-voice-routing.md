@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification du routage des communications vocales sortantes'
+title: 'Lync Server 2013 : planification du routage des communications vocales sortantes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747664"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41747664"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Le routage des appels sortants s’applique aux appels destinés à une passerelle du réseau téléphonique commuté (PSTN), au Trunk ou au PBX (Private Branch Exchange). Lorsqu’un utilisateur place un appel, le serveur normalise le numéro de téléphone au format E. 164, si nécessaire, et tente de correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
+Le routage des appels sortants s’applique aux appels destinés à une passerelle PSTN, une jonction SIP ou un système PBX. Lorsqu’un utilisateur passe un appel, le serveur normalise le numéro de téléphone au format E.164 et tente de le faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
 
-### <a name="lync-server-outbound-call-routing-settings"></a>Paramètres de routage des appels sortants de Lync Server
+### <a name="lync-server-outbound-call-routing-settings"></a>Paramètres de routage des appels sortants Lync Server
 
 <table>
 <colgroup>
@@ -59,10 +59,10 @@ Le routage des appels sortants s’applique aux appels destinés à une passerel
 </tr>
 <tr class="even">
 <td><p>Règle de normalisation</p></td>
-<td><p>Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés en divers formats sont acheminés vers chaque emplacement, utilisateur ou objet contact. La même chaîne de numérotation peut être interprétée et convertie différemment selon l’emplacement d’origine de la numérotation et la personne ou l’objet contact passant l’appel. Un ensemble de règles de normalisation associées à un emplacement particulier constitue un plan de numérotation.</p></td>
+<td><p>Les règles de normalisation définissent la façon dont les numéros de téléphone exprimés en divers formats sont acheminés vers chaque emplacement, utilisateur ou objet contact. La même chaîne de numérotation peut être interprétée et traduite différemment selon l’emplacement d’origine de la numérotation et la personne ou l’objet contact passant l’appel. Un ensemble de règles de normalisation associées à un emplacement particulier constitue un plan de numérotation.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Stratégie de voix</p></td>
+<td><p>Stratégie de la voix</p></td>
 <td><p>Une stratégie de voix associe un ou plusieurs enregistrements d’utilisation PSTN à un utilisateur ou groupe d’utilisateurs. Elle fournit également une liste de fonctionnalités d’appel que vous pouvez activer ou désactiver.</p></td>
 </tr>
 <tr class="even">
@@ -81,7 +81,7 @@ Le routage des appels sortants s’applique aux appels destinés à une passerel
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Cette section fournit des recommandations pour la configuration des paramètres de serveur de routage des appels sortants suivants :
+Cette section explique comment configurer les paramètres serveur de routage des appels sortants suivants :
 
   - <span></span>  
     [Plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
@@ -90,7 +90,7 @@ Cette section fournit des recommandations pour la configuration des paramètres 
     [Stratégies de voix dans Lync Server 2013](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [Enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+    [Enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
   - <span></span>  
     [Itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-voice-routes.md)
@@ -102,7 +102,7 @@ Cette section fournit des recommandations pour la configuration des paramètres 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Trunking SIP dans Lync Server 2013](lync-server-2013-sip-trunking.md)  
+[Jonction SIP dans Lync Server 2013](lync-server-2013-sip-trunking.md)  
 [Connexions SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-connections.md)  
   
 

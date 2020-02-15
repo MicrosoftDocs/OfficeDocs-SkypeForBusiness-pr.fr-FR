@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Contrôle d’appel distant et normalisation des numéros de téléphone'
+title: 'Lync Server 2013 : contrôle d’appel distant et normalisation des numéros de téléphone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eff9fb48e9730549d67638c69d8655d8f04d710
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76d7ffb386f6b565fc00b866072bfab6390bc8d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724374"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41724374"
 
 _**Dernière modification de la rubrique :** 2012-09-22_
 
-Les clients Lync téléchargent les règles de normalisation des numéros de téléphone dans le cadre du téléchargement de fichiers du service de carnet d’adresses (ABS). Dans les scénarios de contrôle d’appel distant, les règles de normalisation des numéros de téléphone du service de carnet d’adresses sont appliquées aux appels de contrôles d’appel distants entrants et sortants. Pour les appels entrants vers un utilisateur prenant en charge le contrôle d’appel distant, le numéro de téléphone de l’appelant est d’abord normalisé au format E. 164 par la passerelle SIP/CSTA ou le protocole PBX (Private Branch Exchange). Lorsque Lync Server 2013 reçoit l’appel de la passerelle, il effectue la recherche de numéro inverse (RNL) sur le numéro de téléphone de l’appelant par rapport au numéro normalisé de la liste de contacts Microsoft Office Outlook du destinataire ou de la liste d’adresses globale qui est stockée dans Service de carnet d’adresses. Si la recherche par numéro inverse trouve une correspondance, l’appelant est identifié par son nom dans la notification de l’appel entrant.
+Les clients Lync téléchargent les règles de normalisation des numéros de téléphone dans le cadre du téléchargement de fichiers du service de carnet d’adresses (ABS). Dans les scénarios de contrôle d’appel distant, ces règles s’appliquent aux appels entrants et sortants de contrôle d’appel distant. Pour les appels entrants vers un utilisateur pour lequel le contrôle d’appel distant est activé, le numéro de téléphone de l’appelant est d’abord normalisé au format E.164 par la passerelle SIP/CSTA ou par un système PBX. Lorsque Lync Server 2013 reçoit l’appel de la passerelle, il effectue une recherche de numéro inversée (RNL) sur le numéro de téléphone de l’appelant par rapport au numéro normalisé dans la liste de contacts Microsoft Office Outlook de l’appelé ou dans la liste d’adresses globale (LAG) stockée dans Service de carnet d’adresses. Si une correspondance est trouvée, l’appelant est identifié par son nom dans la notification d’appel entrant.
 
-Pour les appels sortants de contrôle d’appel distant, Lync applique les règles de normalisation du numéro de téléphone du service de carnet d’adresses au numéro composé avant de router l’appel vers la passerelle SIP/CSTA.
+Pour les appels de contrôle d’appel distant sortants, Lync applique les règles de normalisation du service de carnet d’adresses au numéro composé avant d’acheminer l’appel vers la passerelle SIP/CSTA.
 
-Pour plus d’informations sur la création de règles de normalisation des numéros de téléphone pour le contrôle d’appel distant, voir [plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification.
+Pour plus d’informations sur la création de règles de normalisation des numéros de téléphone pour le contrôle d’appel distant, voir [Dial plans and Normalization Rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification.
 
 <div>
 
 ## <a name="migrating-phone-number-normalization-rules"></a>Migration des règles de normalisation des numéros de téléphone
 
-Si vous migrez des utilisateurs déjà activés pour le contrôle d’appel distant, reportez-vous aux rubriques suivantes dans la documentation relative à la migration :
+Si vous migrez des utilisateurs pour lesquels le contrôle d’appel distant était activé, voir les rubriques suivantes dans la documentation de migration :
 
-  - Pour Lync Server 2010, voir [migrer le carnet d’adresses](migrate-address-book.md) dans la documentation relative à la migration.
+  - Pour Lync Server 2010, voir [Migrate Address Book](migrate-address-book.md) dans la documentation de migration.
 
-  - Pour Communications Server 2007 R2, voir [migrer le carnet d’adresses](migrate-address-book_1.md) dans la documentation de migration.
+  - Pour Communications Server 2007 R2, consultez la rubrique [Migrate Address Book](migrate-address-book_1.md) dans la documentation de migration.
 
 </div>
 
