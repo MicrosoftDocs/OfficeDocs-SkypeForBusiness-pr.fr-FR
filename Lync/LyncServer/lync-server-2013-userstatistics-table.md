@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : UserStatistics'
+title: 'Lync Server 2013 : table UserStatistics'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744254"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744254"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table UserStatistics est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur l’utilisation individuelle du système par un utilisateur. Ce tableau a été présenté dans Microsoft Lync Server 2013.
+La table UserStatistics est une table de prise en charge. Chaque enregistrement dans la table stocke les informations sur l’utilisation individuelle d’un utilisateur du système. Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -51,7 +51,7 @@ La table UserStatistics est une table de prise en charge. Chaque enregistrement 
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,32 +59,32 @@ La table UserStatistics est une table de prise en charge. Chaque enregistrement 
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Numéro unique identifiant cet utilisateur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>DateHeure</p></td>
 <td></td>
-<td><p>Dernière connexion de l’utilisateur.</p></td>
+<td><p>Heure de la dernière connexion de l’utilisateur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>DateHeure</p></td>
 <td></td>
-<td><p>Dernière organisation d’une conférence.</p></td>
+<td><p>Heure de la dernière organisation d’une conférence par l’utilisateur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>DateHeure</p></td>
 <td></td>
-<td><p>Dernière fois que l’utilisateur a rencontré un échec de l’appel.</p></td>
+<td><p>Heure du dernier échec d’appel de l’utilisateur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>DateHeure</p></td>
 <td></td>
-<td><p>Dernière fois que l’utilisateur a rencontré un appel d’organisateur en tant qu’organisateur de la Conférence.</p></td>
+<td><p>Heure du dernier échec d’appel de l’utilisateur en tant qu’organisateur de conférence.</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827002"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008086"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -48,7 +48,7 @@ Les événements en direct dans teams permettent à plusieurs rôles (organisate
 Vous pouvez voir dans l’image ci-dessus qu’il existe quatre principaux composants utilisés avec des événements en direct dans Teams.
 
 > [!NOTE]
-> Pour obtenir une vue d’ensemble de la configuration des événements en direct et de l’utilisation des participants, regardez les courtes [vidéos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)suivantes.
+> Pour obtenir une vue d’ensemble de la configuration des événements en direct et de l’utilisation des participants, regardez les courtes [vidéos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)suivantes.
 
 ### <a name="scheduling"></a>Tâches
 Teams permet aux organisateurs de créer un événement avec les autorisations des participants appropriés, de désigner les membres de l’équipe d’événement, de sélectionner une méthode de production et d’inviter des participants. Si l’événement en direct a été créé à partir d’un groupe Yammer, les participants à l’événement en direct pourront utiliser la conversation Yammer pour interagir avec des personnes dans l’événement. 

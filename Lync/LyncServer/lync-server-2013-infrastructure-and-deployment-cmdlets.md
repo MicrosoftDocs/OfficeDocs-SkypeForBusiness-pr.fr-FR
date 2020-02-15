@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets Infrastructure and Deployment'
+title: 'Lync Server 2013 : applets de commande d’infrastructure et de déploiement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93d2c35fcc9ebf037eb33e6553cef28b9e1041ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Cmdlets Infrastructure and Deployment dans Lync Server 2013
+# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Applets de commande d’infrastructure et de déploiement dans Lync Server 2013
 
 </div>
 
@@ -37,195 +37,195 @@ ms.locfileid: "41763788"
 
 _**Dernière modification de la rubrique :** 2012-10-09_
 
-Les applets de service d’infrastructure et de déploiement intégrées à Microsoft Lync Server 2013 peuvent être utiles lors de la configuration initiale et du déploiement du produit. après le déploiement de Lync Server, il est possible d’utiliser les cmdlets suivantes pour vérifier que les composants fonctionnent comme prévu. gérer les paramètres de réplication ; et sauvegardez et restaurez la topologie, les stratégies et les paramètres de configuration de Lync Server.
+Les applets de commande d’infrastructure et de déploiement incluses dans Microsoft Lync Server 2013 peuvent être utiles lors de la configuration initiale et du déploiement du produit ; une fois que Lync Server a été déployé, ces applets de commande peuvent être utilisées pour effectuer des tâches telles que vérifier que les composants fonctionnent comme prévu ; gérer les paramètres de réplication ; sauvegarde et restauration de la topologie, des stratégies et des paramètres de configuration de Lync Server.
 
 <div>
 
-## <a name="infrastructure-and-deployment-cmdlets"></a>Cmdlets d’infrastructure et de déploiement
+## <a name="infrastructure-and-deployment-cmdlets"></a>Applets de commande d’infrastructure et de déploiement
 
-Les administrateurs ont rarement besoin d’appeler directement un grand nombre de l’infrastructure et du déploiement. Cela est dû au fait que ces applets de service sont automatiquement appelés lorsque vous exécutez le programme d’installation ou le générateur de topologie. (Une exception majeure peut être l’applet de commande **Export-CsConfiguration** , qui vous permet de créer une copie de sauvegarde de la topologie, des stratégies et des paramètres de configuration de votre serveur Lync.) Néanmoins, si nécessaire, les cmdlets d’infrastructure et de déploiement peuvent également être exécutées à partir de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. La liste suivante répertorie les applets de commande en rapport avec l’infrastructure et le déploiement :
+Les administrateurs auront rarement besoin d’appeler directement un grand nombre de l’infrastructure et du déploiement. Cela est dû au fait que ces cmdlets sont automatiquement appelées lorsque vous exécutez le programme d’installation ou le générateur de topologie. (Une exception majeure peut être l’applet de commande **Export-CsConfiguration** , qui vous permet de créer une copie de sauvegarde de votre topologie, de vos stratégies et de vos paramètres de configuration Lync Server.) Toutefois, lorsque cela est nécessaire, les applets de commande d’infrastructure et de déploiement peuvent également être exécutées à partir de Lync Server Management Shell ou à partir d’un script ; l’utilisation d’un script vous permet d’automatiser certaines tâches. Voici une liste des applets de commande qui sont directement liées à l’infrastructure et au déploiement :
 
-**[Cmdlets Active Directory dans Lync Server 2013](lync-server-2013-active-directory-cmdlets.md)**
-
-  - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+**[Applets de commande Active Directory dans Lync Server 2013](lync-server-2013-active-directory-cmdlets.md)**
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Installation-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 **[Cmdlets de réplication dans Lync Server 2013](lync-server-2013-replication-cmdlets.md)**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
-**[Cmdlets Topology Jn Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
+**[Applets de commande de topologie Jn Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [Get-applet cspool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [Get-CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
-
-  - <span></span>  
-    [Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
-
-  - <span></span>  
-    [Publisher-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
-
-  - <span></span>  
-    [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [Set-CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [Importation-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
-
-<!-- end list -->
+    [Get-CsTopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
-
-<!-- end list -->
+    [Publish-CsTopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
-
-  - <span></span>  
-    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
-
-  - <span></span>  
-    [Get-CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
-
-  - <span></span>  
-    [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [Export-CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
-**[Cmdlets de sauvegarde et de haute disponibilité dans Lync Server 2013](lync-server-2013-backup-and-high-availability-cmdlets.md)**
-
-  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
-
-  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
-
-  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
+  - <span></span>  
+    [Import-CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+  - <span></span>  
+    [Get-CsServerVersion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+  - <span></span>  
+    [Disable-CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
+
+  - <span></span>  
+    [Enable-CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
-  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+  - <span></span>  
+    [Get-CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
+
+**[Applets de commande de sauvegarde et de haute disponibilité dans Lync Server 2013](lync-server-2013-backup-and-high-availability-cmdlets.md)**
+
+  - [Get-applet csbackupserviceconfiguration ne](https://technet.microsoft.com/library/JJ205087(v=OCS.15))
+
+  - [Remove-applet csbackupserviceconfiguration ne](https://technet.microsoft.com/library/JJ204903(v=OCS.15))
+
+  - [Set-applet csbackupserviceconfiguration ne](https://technet.microsoft.com/library/JJ205006(v=OCS.15))
 
 <!-- end list -->
 
-  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+  - [Backup-applet cspool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+  - [Get-applet cspoolfabricstate ne](https://technet.microsoft.com/library/JJ619188(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+  - [Invoke-applet cspoolfailback](https://technet.microsoft.com/library/JJ204873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+  - [Invoke-applet cspoolfailover ne](https://technet.microsoft.com/library/JJ205189(v=OCS.15))
 
 <!-- end list -->
 
-  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/library/JJ204689(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))
+
+<!-- end list -->
+
+  - [Sync-applet csuserdata](https://technet.microsoft.com/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/library/JJ205003(v=OCS.15))
 
 </div>
 

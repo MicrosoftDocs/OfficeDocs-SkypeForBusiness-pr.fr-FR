@@ -12,16 +12,16 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd6e60749e35c9680300925f07e84d98d675884c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: abd6af0af5722d05d7439ac262ff36e62d2b12e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,47 +37,47 @@ ms.locfileid: "41730204"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-La modification de l’environnement informatique est inévitable. Les modifications incluent de nouvelles technologies, systèmes, applications, matériel, outils, processus et modifications dans les rôles et les responsabilités. Un système de gestion des modifications efficace vous permet d’apporter des modifications à l’environnement informatique en toute simplicité et en minimisant les interruptions de service. Un système de gestion des modifications réunit les équipes impliquées dans le changement de système. Par exemple, en choisissant de tirer parti d’Office Web Apps. Il s’agit d’une application de service Lync intégrée qui permet aux utilisateurs de lire et de modifier des documents dans un navigateur. La mise en place de ce service, une fois que vous êtes passé en production, nécessite la participation de plusieurs équipes :
+Les modifications apportées à l’environnement informatique sont inévitables. Les modifications incluent les nouvelles technologies, les systèmes, les applications, le matériel, les outils, les processus et les modifications apportées aux rôles et aux responsabilités. Un système de gestion des modifications efficace vous permet d’apporter des modifications à l’environnement informatique rapidement et avec une interruption de service minimale. Un système de gestion des modifications permet de réunir les équipes impliquées dans la modification d’un système. Par exemple, choisir de tirer parti des Office Web Apps. Il s’agit d’une application de service Lync intégrée qui permet aux utilisateurs de lire et de modifier des documents dans un navigateur. Une fois que vous êtes en production, l’implémentation de ce service nécessite l’implication de plusieurs équipes :
 
-  - **Test**   de l’équipe cette équipe charge les tests sur Office Web Apps sur un serveur de test, dans le processus fournissant des informations sur les modèles d’utilisation prévus et les performances attendues des serveurs de production.
+  - **Équipe de test**   cette équipe a pour but de tester la charge Office Web Apps sur un serveur de test, dans le processus fournissant des informations sur les modèles d’utilisation attendus et les performances attendues des serveurs de production.
 
-  - **Administrateurs Lync cette**   équipe détermine la stratégie de déploiement et l’installation à l’endroit où il était possible. L’équipe doit s’assurer que le changement est déployé dans l’environnement de production et qu’il est responsable de l’administration par la suite. L’équipe doit comprendre l’impact des modifications et les inclure dans les procédures avant que les modifications soient apportées à la production.
+  - **Administrateurs Lync cette**   équipe détermine la stratégie de déploiement et les scripts de l’installation où elle était possible. L’équipe est chargée de s’assurer que la modification est déployée sur l’environnement de production et qu’elle est responsable de l’administration. L’équipe doit comprendre l’impact des modifications et les intégrer aux procédures avant la mise en production des modifications.
 
-  - **Équipe réseau cette**   équipe est responsable des modifications apportées aux règles de pare-feu qui autorisent l’accès à partir d’Internet aux serveurs de pools Lync internes. L’équipe est également responsable de l’utilisation des administrateurs Lync pour s’assurer que la bande passante disponible peut prendre en charge la charge supplémentaire.
+  - **Équipe réseau cette**   équipe est responsable des modifications apportées aux règles de pare-feu autorisant l’accès à partir d’Internet aux serveurs de pools internes de Lync. L’équipe est également chargée de collaborer avec les administrateurs Lync pour s’assurer que la bande passante disponible peut prendre en charge la charge supplémentaire.
 
-  - **Équipe de sécurité**   cette équipe évalue la sécurité et réduit les risques. L’équipe de sécurité doit revoir les vulnérabilités connues et garantir le minimum de risques en matière de sécurité.
+  - **Équipe de sécurité**   cette équipe évalue la sécurité et minimise les risques. L’équipe de sécurité doit examiner les vulnérabilités connues et s’assurer que les risques de sécurité sont minimisés.
 
-  - **Équipe d’approbation des utilisateurs**   cette équipe est composée d’utilisateurs qui souhaitent tester le système et formuler des commentaires sur les améliorations apportées.
+  - **Équipe d’acceptation des utilisateurs**   cette équipe est composée d’utilisateurs qui souhaitent tester le système et proposer des commentaires pour les améliorations.
 
-Le processus de gestion des modifications définit les responsabilités de chaque équipe et planifie le travail à effectuer, en incluant des contrôles et des tests là où ils sont nécessaires. Les contrôles de modification varient en fonction de la complexité et de l’effet attendu d’une modification. Ils peuvent varier en fonction de l’approbation automatique des modifications mineures, de la modification des réunions de révision et des avis complets au niveau du projet. Pour en expliquer davantage, les groupes de modifications sont décrits dans cette section.
+Le processus de gestion des modifications définit les responsabilités de chaque équipe et planifie le travail à effectuer, en intégrant des vérifications et des tests là où ils sont nécessaires. Les contrôles de modification varient en fonction de la complexité et de l’effet attendu d’une modification. Elles peuvent varier de l’approbation automatique des modifications mineures à la modification des réunions de révision, en révisions complètes au niveau du projet. Pour expliquer ce mieux, les groupes de modifications sont présentés dans cette section.
 
-  - **Modifications**   majeures les modifications majeures ont un effet global sur le système et peuvent nécessiter une entrée de diverses équipes. Voici un exemple de mise à niveau vers Lync Server 2013. Les modifications majeures affectent de nombreuses équipes et peut-être des systèmes différents. Le processus de gestion des modifications inclura probablement une ou plusieurs réunions d’avis de modification pour informer les équipes participant au changement ou affectées par le changement.
+  - **Modifications majeures les**   modifications majeures ont un effet global sur le système et peuvent nécessiter une intervention de différentes équipes. Voici un exemple de mise à niveau vers Lync Server 2013. Les modifications majeures concernent de nombreuses équipes et peut-être différents systèmes. Le processus de gestion des modifications inclut probablement une ou plusieurs réunions de révision des modifications pour informer les équipes qui seront impliquées dans la modification ou être concernées par la modification.
 
-  - **Modifications importantes les**   changements importants nécessitent des ressources significatives pour la planification, la création et l’implémentation. Des contrôles de modification appropriés doivent être introduits pour s’assurer que l’effet du changement est compris, que les procédures de déploiement sont testées et que les plans de restauration et de contingence sont prêts. Le déploiement d’une nouvelle mise à jour cumulative est un exemple de modification notable.
+  - **Modifications importantes les**   modifications importantes nécessitent des ressources importantes pour la planification, la création et l’implémentation. Des contrôles de modification appropriés doivent être introduits pour garantir que l’effet de la modification est compris, que les procédures de déploiement sont testées et que les plans de restauration et d’urgence sont prêts. Un exemple de modification importante concerne le déploiement d’une nouvelle mise à jour cumulative.
 
-  - **Changements**   mineurs les changements mineurs n’affectent pas de façon significative l’environnement informatique, par exemple, en modifiant certaines stratégies Lync via le panneau de configuration Microsoft Lync Server 2013.
+  - **Modifications mineures**   les modifications mineures n’ont pas une incidence significative sur l’environnement informatique, par exemple, la modification de certaines stratégies Lync via le panneau de configuration Microsoft Lync Server 2013.
 
-  - **Les**   modifications standard apportées aux modifications standard sont effectuées régulièrement et sont bien entendues et documentées. Le processus de gestion des modifications doit examiner toutes les modifications apportées aux procédures. Il n’est pas nécessaire de procéder à des modifications de routine comme la création d’une base de données de contenu ou l’ajout d’un utilisateur.
+  - **Modifications standard les**   modifications standard sont effectuées régulièrement et sont bien comprises et documentées. Le processus de gestion des modifications doit examiner toutes les modifications apportées aux procédures. Elle ne doit pas être nécessaire pour les modifications de routine, telles que la création d’une base de données de contenu ou l’ajout d’un utilisateur.
 
-Dans l’exemple suivant, la gestion des modifications examine le mode d’interaction des différentes équipes et les actions effectuées lors du déploiement d’un nouveau Service Pack. Ces actions sont organisées et gérées par le processus de gestion des modifications.
+L’exemple suivant de gestion des modifications examine le mode d’interaction entre différentes équipes et les actions effectuées lors du déploiement d’un nouveau Service Pack. Ces actions sont organisées et gérées par le processus de gestion des modifications.
 
-  - **Déclenchement d’une demande**   de modification l’équipe de sécurité a évalué le dernier Service Pack et confirme qu’il résout une vulnérabilité dans le système de production. L’équipe déclenche une demande de modification pour que la nouvelle mise à jour cumulative s’applique à tous les serveurs exécutant Lync Server.
+  - **Émettre une demande**   de modification l’équipe de sécurité a évalué le Service Pack le plus récent et a confirmé qu’il résout une vulnérabilité possible dans le système de production. L’équipe déclenche une demande de modification pour que la nouvelle mise à jour cumulative s’applique à tous les serveurs qui exécutent Lync Server.
 
-  - **Notes de publication du Service Pack examinez**   l’équipe de l’administrateur Lync qui examine les notes de publication du Service Pack pour identifier l’effet sur le système.
+  - **Notes de publication du Service Pack consultez**   les notes de publication du Service Pack pour identifier l’impact sur le système.
 
-  - **Une série de tests en laboratoire est effectuée**   l’équipe de l’administrateur de Lync doit effectuer des mises à jour de test sur un serveur dans un environnement de test pour déterminer si le Service Pack peut être appliqué correctement sans affecter les applications et systèmes serveur installés. S’il existe des applications tierces ou créées en interne qui interservent le serveur Lync dans un environnement de production, celles-ci doivent également être testées. Ces tests peuvent également être utilisés pour estimer le temps nécessaire pour effectuer les mises à jour.
+  - **Une série de tests de laboratoire est effectuée**   l’équipe de l’administrateur Lync doit effectuer des mises à jour de test sur un serveur dans un environnement de test pour déterminer si le Service Pack peut être appliqué sans affecter les applications et systèmes serveur installés. S’il existe des applications tierces ou créées en interne qui s’interfacent avec Lync Server dans un environnement de production, elles doivent également être testées. Ces tests peuvent également être utilisés pour estimer le temps nécessaire pour effectuer les mises à niveau.
 
-  - **Les utilisateurs sont informés de la**   mise en place de l’équipe d’administration de Lync, de l’équipe de communication ou du Bureau d’aide de l’utilisateur, qui informe tous les utilisateurs concernés du cycle de maintenance planifié et de la durée d’indisponibilité du service.
+  - **Les utilisateurs sont informés de la panne**   que l’équipe de l’administrateur Lync, l’équipe de communication ou le support technique de l’utilisateur informe tous les utilisateurs concernés du cycle de maintenance planifié et de la durée pendant laquelle le service n’est pas disponible.
 
-  - **Une sauvegarde complète de Lync est effectuée avant**   de procéder à la mise à niveau de l’équipe de l’administrateur Lync pour vérifier qu’il existe une sauvegarde valide qui peut être utilisée pour rétablir l’état du système d’origine en cas d’échec de l’installation du Service Pack. Nous vous recommandons de restaurer la sauvegarde sur un serveur de secours pour que ce système soit facilement disponible en cas de problème.
+  - **Une sauvegarde complète de Lync est effectuée avant la mise à niveau**   l’équipe de l’administrateur Lync doit vérifier qu’il existe une sauvegarde valide pouvant être utilisée pour rétablir l’état du système d’origine en cas d’échec de l’installation du Service Pack. Nous vous recommandons de restaurer la sauvegarde sur un serveur de secours afin que ce système soit immédiatement disponible en cas de problème.
 
-  - **La mise à jour cumulative est déployée**   l’équipe de l’administrateur de Lync effectue l’installation pendant le cycle de maintenance planifiée.
+  - **La mise à jour cumulative est déployée**   l’équipe de l’administrateur Lync effectue l’installation pendant le cycle de maintenance planifiée.
 
 <div>
 
-## <a name="managing-the-timing-of-changes"></a>Gestion de la durée des modifications
+## <a name="managing-the-timing-of-changes"></a>Gestion du calendrier des modifications
 
-Nous vous recommandons d’implémenter une procédure pour la planification des modifications afin d’éviter toute interruption dans les sections qui se chevauchent. Par exemple, il est possible que deux équipes envisagent une modification mineure d’un système. Une équipe peut appliquer une mise à jour cumulative sur un pool alors qu’une autre équipe migre des utilisateurs hérités vers ce pool. Aucune équipe n’est concernée par les modifications que l’autre équipe planifie, et chaque équipe ne connaît peut-être pas nécessairement les modifications que l’autre équipe planifie. Si les deux modifications ont été apportées en même temps, il est possible que les modifications soient implémentées. Par ailleurs, s’il y a des problèmes une fois les modifications appliquées (par exemple, en cas d’échec de la migration des utilisateurs), il peut être difficile de déterminer quelles modifications doivent être répercutées. Des périodes de maintenance normales doivent être définies entre le service informatique et la gestion pour tester les modifications et les accepter.
+Nous vous recommandons d’implémenter une procédure pour les modifications de planification afin d’éviter toute interruption dans les sections de votre travail qui se chevauchent. Par exemple, deux équipes peuvent à la fois planifier un changement mineur sur un système. Il est possible qu’une équipe applique une mise à jour cumulative sur un pool pendant qu’une autre équipe migre des utilisateurs hérités vers ce pool. Aucune des équipes n’est affectée par les modifications que l’autre équipe envisage, et chaque équipe n’est pas nécessairement informée des modifications que l’autre équipe prévoit. Si les deux modifications ont été effectuées en même temps, il peut y avoir des problèmes d’implémentation des modifications. En outre, si des problèmes surviennent après l’application des modifications, par exemple, en cas d’échec de la migration de l’utilisateur, il peut s’avérer difficile de déterminer le changement à restaurer. Des périodes de maintenance régulières doivent être configurées entre le service informatique et la direction pour tester les modifications et les accepter.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Tableau de comparaison des clients mobiles'
+title: 'Lync Server 2013 : tableau de comparaison des clients mobiles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f9a3627930f65740fdd00596ddde24cde4dabc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758742"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Tableau de comparaison des clients mobiles pour Lync Server 2013
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Tableaux de comparaison des clients mobiles pour Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41758742"
 
 _**Dernière modification de la rubrique :** 2015-09-21_
 
-Les tableaux suivants comparent les fonctionnalités et capacités des clients mobiles Lync 2013 et du client de bureau Lync 2013 dans les catégories suivantes :
+Les tableaux suivants comparent les fonctionnalités entre les clients mobiles Lync 2013 et le client de bureau Lync 2013 dans les catégories suivantes :
 
-  - Connexion, notifications Push et fonctionnalités générales
+  - Connexion, notifications de transmission et fonctionnalités générales
 
-  - Présence avancée
+  - Présence enrichie
 
   - Contacts et groupes de contacts
 
   - Messagerie instantanée
 
-  - Lync-to-Lync-audio et vidéo
+  - Audio et vidéo Lync à Lync
 
-  - Téléconférence
+  - Vidéoconférence
 
   - Téléphonie
 
@@ -57,7 +57,7 @@ Les tableaux suivants comparent les fonctionnalités et capacités des clients m
 
   - Archivage et conformité
 
-Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype entreprise Online et Microsoft Office 365, sauf indication contraire dans les notes de bas de page.
+Ces tableaux indiquent les fonctionnalités disponibles pour les utilisateurs de Lync dans un déploiement local de Lync Server 2013. Les mêmes fonctionnalités sont également disponibles pour les utilisateurs de Skype entreprise Online et de Microsoft Office 365, sauf indication contraire dans les notes de bas de page du tableau.
 
 <div>
 
@@ -65,13 +65,13 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Vous recherchez les tableaux de comparaison des clients mobiles pour Skype entreprise ? Voir <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">tableaux de comparaison des clients mobiles pour Skype entreprise</A>.</P>
+> <P>Vous recherchez les tableaux de comparaison des clients mobiles pour Skype entreprise ? Consultez la rubrique <A href="https://technet.microsoft.com/library/dn951412.aspx">mobile client Comparison Tables for Skype for Business</A>.</P>
 > <LI>
-> <P>Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, voir <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 pour les clients mobiles</A>.</P>
+> <P>Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, consultez la rubrique <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft Lync 2013 pour les clients mobiles</A>.</P>
 > <LI>
-> <P>Pour comparer les fonctionnalités disponibles dans d’autres clients 2013 Lync, reportez-vous à la rubrique <A href="lync-server-2013-desktop-client-comparison-tables.md">tableau de comparaison client pour Lync Server 2013</A>.</P>
+> <P>Pour comparer les fonctionnalités disponibles dans les autres clients Lync 2013, reportez-vous aux <A href="lync-server-2013-desktop-client-comparison-tables.md">tableaux de comparaison des clients pour Lync Server 2013</A>.</P>
 > <LI>
-> <P>Lync Server 2013 prend également en charge les applications mobiles Lync 2010. Pour plus d’informations, consultez <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">tableaux de comparaison des clients mobiles</A> dans la documentation de Lync Server 2010.</P></LI></UL>
+> <P>Lync Server 2013 prend également en charge les applications mobiles Lync 2010. Pour plus d’informations, reportez-vous à la rubrique <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">mobile client Comparison Tables</A> dans la documentation Lync Server 2010.</P></LI></UL>
 
 
 
@@ -93,7 +93,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -111,7 +111,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 <td><p>● 1</p></td>
 </tr>
 <tr class="even">
-<td><p>Prise en charge des notifications Push</p></td>
+<td><p>Prise en charge des notifications de type push</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>4Not requis</p></td>
@@ -119,7 +119,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 <td><p>4Not requis</p></td>
 </tr>
 <tr class="odd">
-<td><p>Le code pays remplit en fonction des paramètres régionaux</p></td>
+<td><p>L’indicatif du pays est rempli en fonction des paramètres régionaux</p></td>
 <td></td>
 <td></td>
 <td><p>●</p></td>
@@ -135,7 +135,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Lecteur d’écran/voix off</p></td>
+<td><p>Lecteur d’écran/voix sur</p></td>
 <td><p>●</p></td>
 <td><p>● 2<br />
 Anglais uniquement</p></td>
@@ -153,7 +153,7 @@ Anglais uniquement</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Support des certificats et de l’authentification passive pour les clients mobiles (Lync Server uniquement)</p></td>
+<td><p>Prise en charge des certificats et de l’authentification passive pour les clients mobiles (Lync Server uniquement)</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -161,7 +161,7 @@ Anglais uniquement</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Prise en charge du Programme d’amélioration du produit Microsoft </p></td>
+<td><p>Prise en charge du programme d’amélioration du produit Microsoft </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -172,13 +172,13 @@ Anglais uniquement</p></td>
 </table>
 
 
-1 sur Windows Phone, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit :
+1 sur Windows Phone, Lync se déconnecte automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit :
 
-  - Si l’utilisateur a activé les notifications de transmission, Lync se déconnecte après 10 jours d’inactivité.
+  - Si l’utilisateur a activé les notifications d’envoi, Lync se déconnecte après 10 jours d’inactivité.
 
-  - Si l’utilisateur n’a pas activé les notifications de transmission, Lync se déconnecte après 1 heure.
+  - Si l’utilisateur n’a pas activé les notifications de type poussé, Lync se déconnecte après 1 heure.
 
-Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas utilisé l’application pendant un certain temps, comme suit :
+Sur iPhone et iPad, Lync se déconnecte automatiquement si l’utilisateur n’a pas utilisé l’application pendant une période de temps, comme suit :
 
   - Si le client mobile n’a pas contacté le serveur pendant 10 jours en raison d’une perte de connectivité réseau ou d’autres problèmes.
 
@@ -186,13 +186,13 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 
 3 doit être en mode VoiceOver.
 
-4iPhone, iPad et Android ne nécessitent pas de notifications de transmission pour la réception des messages lorsqu’une application s’exécute en arrière-plan.
+4iPhone, iPad et Android n’ont pas besoin de notifications de transmission pour la réception de messages lorsqu’une application est exécutée en arrière-plan.
 
 </div>
 
 <div>
 
-## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>Prise en charge de la présence avancée dans les clients mobiles Lync
+## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>Prise en charge améliorée de la présence dans les clients mobiles Lync
 
 
 <table style="width:100%;">
@@ -206,7 +206,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -232,7 +232,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Afficher les notes de statut et les messages de notification d'absence du bureau</p></td>
+<td><p>Afficher les notes de statut et les messages de notification d’absence du bureau</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -256,7 +256,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Publier le statut d’après les informations de disponibilité du calendrier </p></td>
+<td><p>Publier le statut d’après les informations de disponibilité du calendrier</p></td>
 <td><p>● 1</p></td>
 <td></td>
 <td></td>
@@ -264,7 +264,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Définir le statut de présence manuel (Occupé, Ne pas déranger, etc.)</p></td>
+<td><p>Définir l’état de présence manuel (par exemple, occupé, ne pas déranger, etc.)</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -275,7 +275,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 les clients mobiles Lync ne mettent pas à jour les informations de présence de l’utilisateur en fonction des informations de son calendrier de disponibilités. Si un utilisateur du client mobile est également connecté au client de bureau Lync, ce dernier met à jour les informations de présence de l’utilisateur en fonction des informations de son calendrier de disponibilités. Si l’utilisateur est connecté uniquement à un client mobile, sa présence n’est pas mise à jour d’après les informations de disponibilité du calendrier.
+1 les clients mobiles Lync ne mettent pas à jour la présence d’un utilisateur en fonction des informations de disponibilité du calendrier de l’utilisateur. Si un utilisateur de client mobile est également connecté au client de bureau Lync, le client de bureau met à jour la présence de l’utilisateur en fonction des informations de disponibilité de l’utilisateur. Si l’utilisateur est connecté uniquement à un client mobile, sa présence n’est pas mise à jour d’après les informations de disponibilité du calendrier.
 
 </div>
 
@@ -295,7 +295,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -353,7 +353,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Effectuer des recherches dans le carnet d'adresses de l'entreprise</p></td>
+<td><p>Effectuer des recherches dans le carnet d’adresses de l’entreprise</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -401,7 +401,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Épingler un contact sur votre écran d’accueil</p></td>
+<td><p>Épingler un contact à votre écran d’accueil</p></td>
 <td></td>
 <td><p>●</p></td>
 <td></td>
@@ -412,7 +412,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 non disponible pour les utilisateurs de Skype entreprise Online et/ou d’Office 365.
+1 non disponible pour les utilisateurs de Skype entreprise Online et/ou Office 365.
 
 </div>
 
@@ -432,7 +432,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -442,7 +442,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Démarrer une conversation par messagerie instantanée avec un contact</p></td>
+<td><p>Lancer une messagerie instantanée avec un contact</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -450,7 +450,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Participer à une conversation par messagerie instantanée à plusieurs</p></td>
+<td><p>Prendre part à une conversation par messagerie instantanée à plusieurs</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -490,7 +490,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Envoyer une conversation par messagerie instantanée sous forme de message électronique</p></td>
+<td><p>Envoyer une conversation par messagerie instantanée en tant que message électronique</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -525,13 +525,13 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 ce périphérique vibre chaque fois qu’un message instantané est reçu même si le message actuel dans la conversation par messagerie instantanée est affiché.
+1 ce périphérique vibre chaque fois qu’un message instantané est reçu même si le message en cours dans la conversation de messagerie instantanée est affiché.
 
 </div>
 
 <div>
 
-## <a name="lync-to-lync-audio-and-video"></a>Lync-to-Lync-audio et vidéo
+## <a name="lync-to-lync-audio-and-video"></a>Audio et vidéo Lync à Lync
 
 
 <table style="width:100%;">
@@ -545,7 +545,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -555,7 +555,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Voix Lync-to-Lync</p></td>
+<td><p>Voix Lync à Lync</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -563,7 +563,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Vidéo Lync-to-Lync</p></td>
+<td><p>Vidéo Lync à Lync</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -592,7 +592,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -602,7 +602,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Cliquez sur un lien dans le rappel de réunion pour rejoindre une réunion (réseau téléphonique public commuté (RTC)).</p></td>
+<td><p>Cliquer sur un lien dans le rappel de réunion pour participer à une réunion (réseau téléphonique commuté public)</p></td>
 <td><p>●</p></td>
 <td><p>● 1</p></td>
 <td><p>● 1</p></td>
@@ -618,7 +618,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Participer à une conversation par messagerie instantanée à plusieurs</p></td>
+<td><p>Prendre part à une conversation par messagerie instantanée à plusieurs</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -650,7 +650,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Afficher une vidéo à plusieurs (vue galerie)</p></td>
+<td><p>Afficher une vidéo à plusieurs (mode Galerie)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -698,7 +698,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Afficher le Bureau ou le programme partagé</p></td>
+<td><p>Afficher le bureau ou le programme partagé</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -706,7 +706,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Afficher une présentation PowerPoint partagée</p></td>
+<td><p>Afficher le partage PowerPoint</p></td>
 <td><p>●</p></td>
 <td><p>● 4</p></td>
 <td><p>● 4</p></td>
@@ -714,7 +714,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Utiliser les outils de réunion (présenter des fichiers Microsoft PowerPoint, utiliser le tableau blanc, effectuer des sondages et partager des fichiers)</p></td>
+<td><p>Utiliser des outils de réunion (présenter des fichiers Microsoft PowerPoint, utiliser un tableau blanc, mener des enquêtes, partager des fichiers)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -746,7 +746,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Commencer une conversation de groupe non planifiée avec plusieurs participants directement de votre client ou appareil </p></td>
+<td><p>Démarrer une conversation de groupe non planifiée avec plusieurs participants directement à partir de votre client ou appareil</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -757,13 +757,13 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 pour les utilisateurs d’Office 365, cette fonctionnalité n’est disponible que pour les réunions par fournisseur de services d’audioconférence (ACP).
+1 pour les utilisateurs d’Office 365, cette fonctionnalité est disponible uniquement pour les réunions activées par le fournisseur de services d’audioconférence (ACP).
 
 2 non disponible pour les utilisateurs d’Office 365.
 
-3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité est disponible auprès des fournisseurs de services d’audioconférence tiers.
+3 pour les utilisateurs de Skype entreprise Online et/ou Office 365, cette fonctionnalité est disponible auprès de fournisseurs de services d’audioconférence tiers.
 
-4A présentation PowerPoint partagée par Lync Web App ne peut pas être affichée sur Lync mobile 2013. Les annotations apportées aux clients de bureau Lync 2013 ne sont pas visibles sur les appareils mobiles.
+la présentation PowerPoint 4A partagée par Lync Web App ne peut pas être affichée à partir de Lync mobile 2013. Les annotations effectuées sur les clients de bureau Lync 2013 ne sont pas affichables sur les appareils mobiles.
 
 </div>
 
@@ -783,7 +783,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -793,7 +793,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dans Lync, appuyez sur l’icône appeler pour appeler un contact</p></td>
+<td><p>Dans Lync, appuyez sur l’icône d’appel pour appeler un contact.</p></td>
 <td><p>● 1</p></td>
 <td><p>● 2</p></td>
 <td><p>● 2</p></td>
@@ -809,7 +809,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Gérer le transfert d'appel</p></td>
+<td><p>Gérer le transfert d’appel</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -817,7 +817,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Gérer les paramètres d'appel d'équipe</p></td>
+<td><p>Gérer les paramètres d’appel d’équipe</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td></td>
@@ -833,7 +833,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Appeler un groupe Response Group</p></td>
+<td><p>Démarrer un appel à un groupe Response Group</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td></td>
@@ -841,7 +841,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Prendre en charge des services d’urgence</p></td>
+<td><p>Prise en charge des services d’urgence</p></td>
 <td><p>● 4</p></td>
 <td></td>
 <td></td>
@@ -857,7 +857,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Gérer les appels d’une autre personne si cette personne est configurée en tant que délégué</p></td>
+<td><p>Gérer les appels d’un autre contact, s’il est configuré en tant que délégué</p></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
@@ -865,7 +865,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>● 3</p></td>
 </tr>
 <tr class="even">
-<td><p>Utiliser appel via le bureau (Lync Server 2013 positionne vos appels sortants de sorte que l’ID d’appelant du destinataire affiche votre numéro de votre bureau plutôt que votre numéro de téléphone mobile)</p></td>
+<td><p>Utiliser l’appel via le bureau (Lync Server 2013 place vos appels sortants de sorte que l’ID de l’appelant du destinataire affiche votre numéro de travail au lieu de votre numéro de téléphone mobile)</p></td>
 <td></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
@@ -892,9 +892,9 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 les utilisateurs de Lync Server 2013, Skype entreprise Online et Office 365 peuvent appeler d’autres utilisateurs de Lync et des utilisateurs Skype en appuyant sur l’icône. Les utilisateurs de Lync Server 2013 peuvent également passer des appels RTC en appuyant sur l’icône.
+1 les utilisateurs de Lync Server 2013, Skype entreprise Online et Office 365 peuvent appeler d’autres utilisateurs Lync et des utilisateurs Skype en cliquant sur l’icône. Les utilisateurs de Lync Server 2013 peuvent également placer des appels RTC en cliquant sur l’icône.
 
-2 pour les utilisateurs de Lync Server 2013 locaux, sur les appareils Windows Phone, iPhone et iPad, l’utilisateur appuie sur l’icône d’appel dans la carte de visite et accepte le rappel de Lync Server 2013. Pour les utilisateurs d’Office 365, sur les appareils Windows Phone, iPhone et iPad, lorsque l’utilisateur appuie sur le bouton d’appel, une boîte de dialogue s’ouvre demandant à l’utilisateur de confirmer qu’il veut appeler le numéro.
+2 pour les utilisateurs de Lync Server 2013 locaux, sur les appareils Windows Phone, iPhone et iPad, l’utilisateur clique sur l’icône d’appel dans la carte de visite et accepte le rappel depuis Lync Server 2013. Pour les utilisateurs d’Office 365, sur les appareils Windows Phone, iPhone et iPad, lorsque l’utilisateur clique sur le bouton appeler, une boîte de dialogue s’ouvre pour demander à l’utilisateur de confirmer qu’il souhaite appeler le numéro.
 
 3 non disponible pour les utilisateurs de Skype entreprise Online et/ou d’Office 365.
 
@@ -918,7 +918,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -960,7 +960,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Utiliser un appel via le Bureau pour joindre un contact fédéré sur son téléphone mobile en appelant son professionnel publié nombre1</p></td>
+<td><p>Utiliser l’appel via le Bureau pour joindre un contact fédéré sur son téléphone mobile en appelant leur travail publié Numéro1</p></td>
 <td></td>
 <td><p>● 2</p></td>
 <td><p>● 2</p></td>
@@ -971,7 +971,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </table>
 
 
-1 par défaut, les utilisateurs fédérés reçoivent la relation de confidentialité des contacts externes. Pour que vous puissiez joindre un contact fédéré sur son téléphone mobile en composant son numéro professionnel publié, le contact fédéré doit manuellement vous assigner le niveau de confidentialité Collègues.
+1 par défaut, la relation de confidentialité des contacts externes est attribuée aux utilisateurs fédérés. Pour pouvoir joindre un contact fédéré sur son téléphone mobile en appelant son numéro professionnel publié, le contact fédéré doit vous affecter manuellement la relation de confidentialité des collègues.
 
 2 non disponible pour les utilisateurs d’Office 365.
 
@@ -993,7 +993,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>
@@ -1003,7 +1003,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appeler des contacts du carnet d’adresses</p></td>
+<td><p>Contacts du carnet d’adresses d’appels</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1011,7 +1011,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Passer des appels Lync vers des contacts directement à partir du carnet d’adresses</p></td>
+<td><p>Effectuer des appels Lync vers les contacts directement à partir du carnet d’adresses</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1040,7 +1040,7 @@ Sur iPhone et iPad, Lync se ferme automatiquement si l’utilisateur n’a pas u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fonction/fonctionnalité</th>
+<th>Fonctionnalité/capacité</th>
 <th>Client de bureau Lync 2013</th>
 <th>Windows Phone</th>
 <th>iPhone</th>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets RTC'
+title: 'Lync Server 2013 : applets de commande de passerelles PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b4cd1a5458fac6b2d5ade712fcfeeaf120208
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37e64fe903f873fd1d350007ee3b02601416797a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724664"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a>Applets de applet passerelles RTC dans Lync Server 2013
+# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a>Applets de commande de passerelles PSTN dans Lync Server 2013
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41724664"
 
 _**Dernière modification de la rubrique :** 2012-03-21_
 
-Les passerelles RTC permettent aux utilisateurs de voix entreprise de passer des appels téléphoniques et de recevoir des appels téléphoniques de la part du réseau PSTN (c’est-à-dire, du réseau téléphonique commuté). Ces passerelles servent de pont entre le serveur de médiation et le réseau PSTN.
+Les passerelles PSTN permettent aux utilisateurs de Voix Entreprise de passer des appels téléphoniques à des personnes faisant partie du réseau téléphonique commuté ou de recevoir des appels de celles-ci. Ces passerelles agissent comme un pont entre le serveur de médiation et le réseau téléphonique commuté.
 
 <div>
 
-## <a name="pstn-gateways-cmdlets"></a>Cmdlets PSTN passerelles
+## <a name="pstn-gateways-cmdlets"></a>Applets de commande des passerelles PSTN
 
-Les applets [de CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15)) et [test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15)) vous permettent de vérifier que les utilisateurs sont en mesure de passer des appels sur le réseau PSTN.
+Les applets de commande [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) et [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) vous permettent de vérifier que les utilisateurs peuvent passer un appel via le réseau téléphonique commuté.
 
-**Passerelles RTC**
+**Passerelles PSTN**
 
   - <span></span>  
-    [Set-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [Set-applet cspstngateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Set-applet csmediationserver](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
 </div>
 

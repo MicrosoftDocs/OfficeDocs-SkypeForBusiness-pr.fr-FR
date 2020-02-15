@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Prise en charge des clients et des serveurs pour le routage géodépendant'
+title: 'Lync Server 2013 : prise en charge des clients et des serveurs pour le routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729854"
 
 _**Dernière modification de la rubrique :** 2013-06-18_
 
-Le routage basé sur l’emplacement est appliqué par Lync Server. Lync Server peut identifier les sites réseau dans lesquels les utilisateurs se connectent au sein du réseau d’entreprise. Comme les utilisateurs distants sont situés en dehors du réseau d’entreprise, leur emplacement est considéré comme inconnu.
+Le routage géodépendant est appliqué par Lync Server. Lync Server peut identifier les sites réseau sur lesquels les utilisateurs se connectent à partir du réseau d’entreprise. Étant donné que les utilisateurs distants se trouvent à l’extérieur du réseau d’entreprise, leur emplacement est considéré comme inconnu.
 
 <div>
 
 ## <a name="lync-server-support"></a>Prise en charge de Lync Server
 
-Le routage basé sur l’emplacement nécessite le déploiement de Lync Server 2013 CU1 sur tous les pools frontaux et les serveurs Standard Edition dans une topologie donnée. Si Lync Server 2013 CU1 n’est pas installé sur certains composants Lync dans la topologie, les restrictions de routage basées sur l’emplacement ne peuvent pas être entièrement appliquées.
+Le routage géodépendant nécessite que Lync Server 2013 CU1 soit déployé sur tous les pools frontaux et les serveurs Standard Edition dans une topologie donnée. Si Lync Server 2013 CU1 n’est pas installé sur certains composants Lync dans la topologie, les restrictions de routage géodépendant ne peuvent pas être entièrement appliquées.
 
-Le tableau suivant identifie la combinaison des rôles de serveur et des versions prises en charge pour le routage par emplacement.
+Le tableau suivant identifie les combinaisons de rôles serveur et de versions prises en charge pour le routage géodépendant.
 
 
 <table>
@@ -57,7 +57,7 @@ Le tableau suivant identifie la combinaison des rôles de serveur et des version
 <thead>
 <tr class="header">
 <th>Version du pool</th>
-<th>Version de serveur de médiation</th>
+<th>Version du serveur de médiation</th>
 <th>Pris en charge</th>
 </tr>
 </thead>
@@ -65,7 +65,7 @@ Le tableau suivant identifie la combinaison des rôles de serveur et des version
 <tr class="odd">
 <td><p>Mise à jour cumulative de Lync Server 2013 février 2013</p></td>
 <td><p>Mise à jour cumulative de Lync Server 2013 février 2013</p></td>
-<td><p>Oui</p></td>
+<td><p>oui</p></td>
 </tr>
 <tr class="even">
 <td><p>Mise à jour cumulative de Lync Server 2013 février 2013</p></td>
@@ -79,22 +79,22 @@ Le tableau suivant identifie la combinaison des rôles de serveur et des version
 </tr>
 <tr class="even">
 <td><p>Mise à jour cumulative de Lync Server 2013 février 2013</p></td>
-<td><p>Office Communications Server 2007 R2</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
-<td><p>Quelconque</p></td>
+<td><p>indifférent</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010</p></td>
-<td><p>Quelconque</p></td>
+<td><p>indifférent</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Quelconque</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
+<td><p>indifférent</p></td>
 <td><p>Non</p></td>
 </tr>
 </tbody>
@@ -105,9 +105,9 @@ Le tableau suivant identifie la combinaison des rôles de serveur et des version
 
 <div>
 
-## <a name="lync-client-support"></a>Prise en charge du client Lync
+## <a name="lync-client-support"></a>Prise en charge des clients Lync
 
-Le tableau suivant identifie les clients pris en charge par le routage de l’emplacement.
+Le tableau suivant identifie les clients pris en charge par le routage géodépendant.
 
 
 <table>
@@ -125,28 +125,28 @@ Le tableau suivant identifie les clients pris en charge par le routage de l’em
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 2013</p></td>
-<td><p>Oui</p></td>
+<td><p>Lync 2013</p></td>
+<td><p>oui</p></td>
 <td><p>Y compris la mise à jour cumulative de Lync 2013 février 2013</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010</p></td>
-<td><p>Oui</p></td>
+<td><p>Lync 2010</p></td>
+<td><p>oui</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Office Communicator 2007 R2</p></td>
+<td><p>Office Communicator 2007 R2</p></td>
 <td><p>Non</p></td>
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Lync Phone Edition</p></td>
-<td><p>Oui</p></td>
+<td><p>Lync Phone Edition</p></td>
+<td><p>oui</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Lync Attendant</p></td>
-<td><p>Oui</p></td>
+<td><p>oui</p></td>
 <td> </td>
 </tr>
 <tr class="even">
@@ -155,13 +155,13 @@ Le tableau suivant identifie les clients pris en charge par le routage de l’em
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>2013 mobile Lync</p></td>
+<td><p>Lync mobile 2013</p></td>
 <td><p>Non</p></td>
-<td><p>VoIP doit être désactivée pour les clients 2013 mobiles Lync, s’il est utilisé par les utilisateurs avec le routage par emplacement activé.</p></td>
+<td><p>La voix sur IP doit être désactivée pour les clients Lync mobile 2013 si elle est utilisée par des utilisateurs dont le routage géodépendant est activé.</p></td>
 </tr>
 <tr class="even">
-<td><p>2010 mobile Lync</p></td>
-<td><p>Oui</p></td>
+<td><p>Lync Mobile 2010</p></td>
+<td><p>oui</p></td>
 <td> </td>
 </tr>
 </tbody>
@@ -173,7 +173,7 @@ Le tableau suivant identifie les clients pris en charge par le routage de l’em
 
 
 > [!NOTE]  
-> Pour désactiver la voix sur IP (VoIP) pour les clients 2013 Lync mobile, attribuez une stratégie de mobilité avec le paramètre, audio/vidéo IP désactivé pour tous les utilisateurs activés pour le routage en fonction de l’emplacement. Pour plus d’informations sur la stratégie de mobilité, reportez-vous à <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
+> Pour désactiver VoIP pour les clients Lync mobile 2013, affectez une stratégie de mobilité avec le paramètre, audio/vidéo IP, désactivé pour tous les utilisateurs activés pour le routage géodépendant. Pour plus d’informations sur la stratégie de mobilité, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 

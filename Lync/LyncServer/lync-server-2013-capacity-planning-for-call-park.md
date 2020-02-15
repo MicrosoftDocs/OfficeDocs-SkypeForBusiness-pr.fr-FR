@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de capacité pour le parcage d’appel'
+title: 'Lync Server 2013 : planification de la capacité pour le parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1192ef9b5b30c722a4f62973cf4992da3ca7300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planification de capacité pour le parcage d’appel dans Lync Server 2013
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planification de la capacité pour le parcage d’appel dans Lync Server 2013
 
 </div>
 
@@ -39,13 +39,13 @@ _**Dernière modification de la rubrique :** 2012-09-13_
 
 <div id="sectionSection0" class="section">
 
-Le tableau suivant décrit le modèle d’utilisateur de parc d’appels que vous pouvez utiliser comme base pour les exigences de planification de capacité.
+Le tableau suivant décrit le modèle utilisateur de parcage d’appel que vous pouvez utiliser comme base pour les exigences de planification de capacité.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Gardez à l’esprit que pour la planification de la capacité de reprise après sinistre, chaque pool d’un pool couplé doit être en mesure de gérer les charges de travail des services de parc d’appels dans les deux pools.
+> N’oubliez pas que, pour la planification de la capacité de récupération d’urgence, chaque pool d’un pool couplé doit être en mesure de gérer les charges de travail des services de parcage d’appel dans les deux pools.
 
 
 
@@ -61,7 +61,7 @@ Le tableau suivant décrit le modèle d’utilisateur de parc d’appels que vou
 </colgroup>
 <thead>
 <tr class="header">
-<th>Mesure</th>
+<th>Liées</th>
 <th>Par pool frontal (avec 8 serveurs frontaux)</th>
 <th>Par serveur Standard Edition</th>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport Détails des appels'
+title: 'Lync Server 2013 : rapport détaillé des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e14ca8565216efbdeaae3060587d5d18d919876
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743154"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-report-in-lync-server-2013"></a>Rapport Détails des appels dans Lync Server 2013
+# <a name="call-detail-report-in-lync-server-2013"></a>Rapport détaillé des appels dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743154"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Le rapport Détails de l’appel fournit un examen détaillé d’un appel individuel. ce rapport inclut presque toutes les mesures et les statistiques de qualité de performance collectées par Lync Server, divisées en sections de rapport, telles que :
+Le rapport sur le détail de l’appel fournit un aperçu détaillé d’un appel individuel ; le rapport inclut presque toutes les mesures de qualité de l’expérience et les statistiques collectées par Lync Server, divisée en sections de rapport, telles que :
 
   - Informations d’appel
 
@@ -57,7 +57,7 @@ Le rapport Détails de l’appel fournit un examen détaillé d’un appel indiv
 
   - Flux de données vidéo (de l’appelé vers l’appelant)
 
-Gardez à l’esprit que les catégories et les mesures qui figurent dans un rapport donné dépendent de deux facteurs : du type de session et du type des points de terminaison utilisés dans la session. Par exemple, un appel audio ne fait l’objet d’aucune mesure de flux de données vidéo, car il n’en comporte pas. De même, il peut arriver qu’un rapport répertorie des statistiques sur l’appelant mais pas sur l’appelé. En règle générale, cela est dû au fait que l’appelé utilise un appareil non compatible SIP. La génération de statistiques à la fin d’un appel est une tâche qui incombe aux points de terminaison. Or, un téléphone cellulaire (qui n’a pas connaissance de SIP ni des statistiques SIP) n’est pas capable de fournir ce type d’information. Si vous appelez une personne et qu’elle vous répond sur son téléphone cellulaire, vous n’obtiendrez pas de rapport de ce téléphone à la fin de l’appel.
+Gardez à l’esprit que les catégories et les mesures qui figurent dans un rapport donné dépendent de deux facteurs : du type de session et du type des systèmes d’extrémité utilisés dans la session. Par exemple, un appel audio ne fait l’objet d’aucune mesure de flux de données vidéo, car il n’en comporte pas. De même, il peut arriver qu’un rapport répertorie des statistiques sur l’appelant mais pas sur l’appelé. En règle générale, cela est dû au fait que l’appelé utilise un appareil non compatible SIP. La génération de statistiques à la fin d’un appel est une tâche qui incombe aux systèmes d’extrémité. Or, un téléphone cellulaire (qui n’a pas connaissance de SIP ni des statistiques SIP) n’est pas capable de fournir ce type d’information. Si vous appelez une personne et qu’elle vous répond sur son téléphone cellulaire, vous n’obtiendrez pas de rapport de ce téléphone à la fin de l’appel.
 
 Le rapport sur le détail de l’appel s’avère particulièrement utile pour identifier les causes exactes des problèmes de qualité des médias rencontrés lors d’un appel donné.
 
@@ -67,17 +67,17 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
 
-  - Le [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur le volume des appels ou la métrique de faible pourcentage d’appels)
+  - Le [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - [Rapport synthèse qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur le volume des appels ou sur le pourcentage d’appels médiocre)
+  - Le [rapport de synthèse de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - Pour plus d’informations sur le [rapport qualité multimédia dans Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (en cliquant sur le [rapport liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) , puis sur la métrique de détail).
+  - Le [rapport de comparaison de la qualité des médias dans Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (en cliquant sur le [rapport liste des appels dans Lync Server 2013](lync-server-2013-call-list-report.md) , puis en cliquant sur la mesure détail).
 
-  - [Rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur le volume des appels ou en utilisant une métrique de pourcentage médiocre)
+  - Le [rapport de performances du serveur dans Lync server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - [Rapport de liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) (en cliquant sur la métrique de détail)
+  - Le [rapport liste des appels dans Lync Server 2013](lync-server-2013-call-list-report.md) (en cliquant sur la mesure détail)
 
-Dans le rapport Détails de l’appel, vous pouvez accéder au [rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md) en cliquant sur l’une des mesures suivantes :
+À partir du rapport sur le détail de l’appel, vous pouvez accéder au [rapport de périphérique dans Lync Server 2013](lync-server-2013-device-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Périphérique de capture
 
@@ -93,9 +93,9 @@ Vous pouvez aussi accéder au Rapport de tendance générale de la qualité des 
 
 En règle générale, le rapport sur le détail de l’appel comprend plus de 250 mesures différentes, avec notamment les éléments Dérive d’horodatage du microphone, Durée du SNR faible et Durée de l’écho au point de terminaison. Si vous ne vous rappelez pas de la fonction de l’une de ces nombreuses mesures, placez le curseur de la souris sur l’étiquette de la mesure ; vous devriez obtenir une info-bulle décrivant cette mesure.
 
-Si vous rencontrez des problèmes en localisant une métrique, tapez une partie de l’étiquette métrique dans la zone de recherche, puis cliquez sur Rechercher. Par exemple, si vous ne trouvez pas la métrique de l’inversion basse, tapez SNR dans la zone de recherche, puis cliquez sur Rechercher.
+Si vous avez des difficultés à retrouver une mesure, tapez une partie de son nom dans la zone de recherche et cliquez sur Rechercher. Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur Rechercher.
 
-Notez que le rapport effectue uniquement le suivi des informations concernant un appel. L’appel proprement dit n’est pas enregistré.
+Notez que le rapport effectue uniquement le suivi des informations relatives à un appel. L’appel lui-même n’est pas enregistré.
 
 </div>
 
@@ -111,7 +111,7 @@ Aucun. Vous ne pouvez pas filtrer le rapport sur le détail de l’appel.
 
 ## <a name="metrics"></a>Mesures
 
-Le tableau ci-dessous liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
+Le tableau suivant liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
 
 ### <a name="call-detail-report-metrics"></a>Mesures du rapport sur le détail de l’appel
 
@@ -140,7 +140,7 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 <td><p>Adresse SIP de l’utilisateur qui a initié l’appel.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Point de terminaison de l’appelant</strong></p></td>
+<td><p><strong>Système d’extrémité de l’appelant</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Appareil utilisé pour passer l’appel.</p></td>
 </tr>
@@ -157,7 +157,7 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 <tr class="even">
 <td><p><strong>Appel de contournement du serveur de médiation</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Indique si l’appel connecté à une passerelle vocale RTC ou IP-PBX qualifié sans passer par le serveur de médiation.</p></td>
+<td><p>Indique si l’appel connecté à une passerelle vocale PSTN ou IP-PBX qualifié sans passer par le serveur de médiation.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SE de l’appelant</strong></p></td>
@@ -195,7 +195,7 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 <td><p>Adresse SIP de l’utilisateur appelé.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Point de terminaison de l’appelé</strong></p></td>
+<td><p><strong>Système d’extrémité de l’appelé</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Appareil utilisé pour recevoir l’appel.</p></td>
 </tr>
@@ -205,12 +205,12 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 <td><p>Logiciel utilisé sur l’appareil qui a reçu l’appel.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Durée</strong></p></td>
+<td><p><strong>Duration</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Durée de l’appel.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Indicateur d’avertissement de déviation du trafic multimédia</strong></p></td>
+<td><p><strong>Indicateur d’avertissement de contournement de média</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Avertissement paru quand le serveur de médiation a été contourné.</p></td>
 </tr>

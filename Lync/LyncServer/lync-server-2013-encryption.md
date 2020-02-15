@@ -12,16 +12,16 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cc25c66ce807e796cf7e510d89a5a623f98eb49
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41735614"
 
 _**Dernière modification de la rubrique :** 2017-09-14_
 
-Microsoft Lync Server 2013 utilise TLS et MTLS pour chiffrer les messages instantanés. L’ensemble du trafic serveur à serveur nécessite MTLS, et ce que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre du réseau interne. TLS est facultatif, mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat provenant d’une autorité de certification approuvée par le serveur de médiation.
+Microsoft Lync Server 2013 utilise TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur nécessite MTLS, que le trafic soit limité au réseau interne ou qu’il croise le périmètre réseau interne. TLS est facultatif mais fortement recommandé entre le serveur de médiation et la passerelle multimédia. Si TLS est configuré sur cette liaison, MTLS est requis. Par conséquent, la passerelle doit être configurée avec un certificat provenant d’une autorité de certification approuvée par le serveur de médiation.
 
 <div>
 
 
 > [!NOTE]  
-> Un avis de sécurité relatif à SSL 3.0 a été publié en 2014. La désactivation de SSL 3,0 dans Lync Server 2013 est une option prise en charge. Pour en savoir plus sur l’avis de sécurité <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>, voir.
+> Un avis de sécurité concernant SSL 3,0 a été publié en 2014. La désactivation de SSL 3,0 dans Lync Server 2013 est une option prise en charge. Pour en savoir plus sur l’avis de sécurité <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>, reportez-vous à la rubrique.
 
 
 
@@ -54,12 +54,12 @@ Microsoft Lync Server 2013 utilise TLS et MTLS pour chiffrer les messages instan
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="caution" alt="security" />Note de sécurité :</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pour vous assurer que le protocole cryptographique le plus puissant est utilisé, Lync Server 2013 propose des protocoles de chiffrement TLS dans l’ordre suivant pour les clients : <strong>tls 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. Le protocole TLS est un aspect essentiel de Lync Server 2013 et donc requis pour gérer un environnement pris en charge.</td>
+<td>Pour vous assurer que le protocole de chiffrement le plus puissant est utilisé, Lync Server 2013 propose des protocoles de chiffrement TLS dans l’ordre suivant pour les clients : <strong>tls 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. Le protocole TLS est un aspect critique de Lync Server 2013 et, par conséquent, il est nécessaire pour maintenir un environnement pris en charge.</td>
 </tr>
 </tbody>
 </table>
@@ -67,9 +67,9 @@ Microsoft Lync Server 2013 utilise TLS et MTLS pour chiffrer les messages instan
 
 </div>
 
-La configuration requise pour le trafic client à client varie selon que le trafic traverse le pare-feu interne de l’entreprise. Le trafic interne strictement disponible peut utiliser la valeur TLS, auquel cas le message instantané est crypté, et ce n’est pas le cas.
+Les exigences applicables au trafic entre les clients varient, selon qu’il franchit ou non le pare-feu de l’entreprise. S’il s’agit d’un trafic exclusivement en interne, il peut utiliser TLS, ce qui implique le chiffrement des messages instantanés, ou TCP, sans ce chiffrement.
 
-Le tableau suivant résume les exigences de protocole pour chaque type de trafic.
+Le tableau suivant résume les protocoles requis pour chaque type de trafic.
 
 ### <a name="traffic-protection"></a>Protection du trafic
 
@@ -95,14 +95,14 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 </tr>
 <tr class="odd">
 <td><p>Messagerie instantanée et présence</p></td>
-<td><p>TLS (si TLS est configuré)</p></td>
+<td><p>TLS (si configuré pour TLS)</p></td>
 </tr>
 <tr class="even">
-<td><p>Partage multimédia audio, vidéo et de bureau</p></td>
+<td><p>Partage de données audio, vidéo ou du Bureau</p></td>
 <td><p>SRTP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Partage du bureau (signalisation)</p></td>
+<td><p>Partage du Bureau (signalisation)</p></td>
 <td><p>TLS</p></td>
 </tr>
 <tr class="even">
@@ -110,7 +110,7 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 <td><p>TLS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Téléchargement de contenu de réunion, téléchargement de carnet d’adresses, développement de groupe de distribution</p></td>
+<td><p>Téléchargement de contenu de réunion, de carnets d’adresses, développement des groupes de distribution</p></td>
 <td><p>HTTPS</p></td>
 </tr>
 </tbody>
@@ -119,29 +119,29 @@ Le tableau suivant résume les exigences de protocole pour chaque type de trafic
 
 <div>
 
-## <a name="media-encryption"></a>Chiffrement multimédia
+## <a name="media-encryption"></a>Chiffrement des données multimédias
 
-Le trafic multimédia est chiffré à l'aide du protocole SRTP (Secure Real-time Transport Protocol), un profil du protocole RTP (Real-Time Transport Protocol) qui offre confidentialité, authentification et protection contre les attaques sur le trafic RTP. De plus, les données multimédias acheminées dans les deux directions entre le serveur de médiation et son tronçon suivant interne sont également chiffrées avec SRTP. Par défaut, le flux multimédia dans les deux directions entre le serveur de médiation et une passerelle multimédia n’est pas chiffré. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia, mais la passerelle doit prendre en charge MTLS et le stockage d’un certificat.
+Le trafic multimédia est chiffré à l’aide du protocole SRTP (Secure RTP), un profil du protocole RTP (Real-Time Transport Protocol). Le contenu multimédia transitant dans les deux sens entre le serveur de médiation et son tronçon suivant interne est également chiffré à l’aide de SRTP. Les flux de médias dans les deux directions entre le serveur de médiation et une passerelle multimédia ne sont pas chiffrés par défaut. Le serveur de médiation peut prendre en charge le chiffrement sur la passerelle multimédia mais, dans ce cas, celle-ci doit prendre en charge MTLS et le stockage d’un certificat.
 
 <div>
 
 
 > [!NOTE]  
-> L’audio/vidéo (A/V) est pris en charge avec la nouvelle version de Windows Live Messenger. Si vous implémentez une fédération A/V avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement de Lync Server. Par défaut, ce paramètre est défini sur Requis. Vous devez définir ce paramètre sur pris en charge à l’aide de Lync Server Management Shell. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-external-user-access.md">déploiement d’un accès utilisateur externe dans Lync Server 2013</A> dans la documentation de déploiement.
+> Audio/vidéo (A/V) est pris en charge avec la nouvelle version de Windows Live Messenger. Si vous implémentez la fédération A/V avec Windows Live Messenger, vous devez également modifier le niveau de chiffrement de Lync Server. Par défaut, le niveau de chiffrement est Requis. Vous devez définir ce paramètre sur pris en charge à l’aide de Lync Server Management Shell. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-external-user-access.md">Deploying External User Access in Lync Server 2013</A> dans la documentation de déploiement.
 
 
 
 </div>
 
-Le trafic des contenus multimédias audio et vidéo n’est pas crypté entre les clients Microsoft Lync 2013 et Windows Live.
+Le trafic audio et vidéo n’est pas chiffré entre Microsoft Lync 2013 et les clients Windows Live.
 
 </div>
 
 <div>
 
-## <a name="fips"></a>FIPS
+## <a name="fips"></a>AGRÉÉ
 
-Lync Server 2013 et Microsoft Exchange Server 2013 prennent en charge les algorithmes 140-2 FIPS (Federal Information Processing Standard), si les systèmes d’exploitation Windows Server sont configurés pour utiliser les algorithmes 140-2 FIPS FIPS pour le chiffrement du système. Pour mettre en œuvre la prise en charge du FIPS, vous devez configurer chaque serveur exécutant Lync Server 2013 pour le prendre en charge. Pour plus d’informations sur l’utilisation des algorithmes compatibles FIPS et sur l’implémentation de la prise en charge du FIPS, voir l’article 811833 de la base de connaissances Microsoft, effets de l’activation du paramètre de sécurité « chiffrement de système : utiliser les algorithmes compatibles FIPS pour le chiffrement, le hachage [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)et la signature » dans Windows XP et les versions ultérieures de Windows. Pour plus d’informations sur la prise en charge et les limitations de FIPS 140-2 dans Exchange 2010, voir Exchange 2010 SP1 et prise [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)en charge des algorithmes compatibles FIPS à l’adresse.
+Lync Server 2013 et Microsoft Exchange Server 2013 fonctionnent avec la prise en charge des algorithmes FIPS (Federal Information Processing Standard) 140-2 si les systèmes d’exploitation Windows Server sont configurés pour utiliser les algorithmes FIPS 140-2 pour la cryptographie système. Pour implémenter la prise en charge du cryptage FIPS, vous devez configurer chaque serveur exécutant Lync Server 2013 afin de le prendre en charge. Pour plus d’informations sur l’utilisation des algorithmes compatibles FIPS et sur l’implémentation de la prise en charge du FIPS, voir l’article 811833 de la base de connaissances Microsoft sur les effets de l’activation du paramètre de sécurité « chiffrement du système : utiliser des algorithmes compatibles FIPS pour le chiffrement, le [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)hachage et la signature » dans. Pour plus d’informations sur la prise en charge et les limitations du FIPS 140-2 dans Exchange 2010, consultez la rubrique Exchange 2010 SP1 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)et prise en charge des algorithmes compatibles FIPS à l’adresse.
 
 </div>
 

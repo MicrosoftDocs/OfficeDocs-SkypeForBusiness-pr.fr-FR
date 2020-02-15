@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport de synthèse des conférences RTC'
+title: 'Lync Server 2013 : rapport de synthèse de conférence RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse des conférences RTC dans Lync Server 2013
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Rapport de synthèse de conférence RTC dans Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41724794"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Dans Microsoft Lync Server 2013, une conférence RTC est une conférence dans laquelle au moins un participant compose un numéro de téléphone à l’aide d’un téléphone RTC (réseau téléphonique commuté). (Un téléphone RTC est un téléphone mobile, un téléphone mobile ou un autre téléphone qui n’utilise pas le protocole voix sur IP.) Même s’il est appelé conférences RTC dans les rapports de surveillance, ces conférences peuvent être plus fréquemment appelées conférences rendez-vous.
+Dans Microsoft Lync Server 2013, une conférence RTC est une conférence dans laquelle au moins un participant se connecte à la partie audio à l’aide d’un téléphone RTC (réseau téléphonique commuté public). (Un téléphone PSTN est une « ligne fixe », un téléphone cellulaire ou tout autre téléphone qui n’utilise pas le protocole voix sur IP.) Bien qu’appelées conférences RTC dans les rapports de surveillance, ces conférences sont peut-être plus connues sous le nom de conférences rendez-vous.
 
-Le rapport de synthèse de conférence RTC fournit des informations sur toutes les conférences RTC qui ont lieu au sein de votre organisation (c’est-à-dire, toutes les conférences comportant au moins un utilisateur connecté). Ce rapport comprend des informations sur le nombre total de conférences RTC, le nombre total de personnes ayant participé à ces conférences, et, peut-être plus important, le nombre total d’utilisateurs connectés (la mesure Nombre total de participants RTC).
+Le rapport de synthèse de conférence PSTN fournit des informations sur toutes les conférences PSTN qui ont lieu au sein de votre organisation (c’est-à-dire, toutes les conférences comportant au moins un utilisateur connecté). Ce rapport comprend des informations sur le nombre total de conférences PSTN, le nombre total de personnes ayant participé à ces conférences, et, peut-être plus important, le nombre total d’utilisateurs connectés (la mesure Nombre total de participants PSTN).
 
 <div>
 
-## <a name="accessing-the-pstn-conference-summary-report"></a>Accès au rapport de synthèse de conférence RTC
+## <a name="accessing-the-pstn-conference-summary-report"></a>Accès au rapport de synthèse de conférence PSTN
 
-Le rapport de synthèse de conférence RTC est accessible uniquement à partir de la page d’accueil Rapports de surveillance. Ce rapport n’est lié à aucun autre rapport. Vous ne pouvez pas obtenir d’informations détaillées sur les appels pour une conférence RTC, en partie parce que les points de terminaison individuels sont responsables de l’envoi de ces informations. Les téléphones RTC ne sont pas capables d’effectuer le suivi ou d’envoyer des informations détaillées sur les appels.
+Le rapport de synthèse de conférence PSTN est accessible uniquement à partir de la page d’accueil Rapports de surveillance. Ce rapport n’est lié à aucun autre rapport. Vous ne pouvez pas obtenir d’informations détaillées sur les appels pour une conférence PSTN, en partie parce que les points de terminaison individuels sont responsables de l’envoi de ces informations. Les téléphones PSTN ne sont pas capables d’effectuer le suivi ou d’envoyer des informations détaillées sur les appels.
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Utilisation efficace du rapport de synthèse de conférence RTC
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Utilisation efficace du rapport de synthèse de conférence PSTN
 
-Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs rendez-vous, comparez la valeur de la métrique du total des conférences RTC avec la mesure du total des conférences trouvées dans le [rapport récapitulatif de la Conférence dans Lync Server 2013](lync-server-2013-conference-summary-report.md).
+Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs de rendez-vous, comparez la valeur de la mesure nombre total de conférences RTC avec la mesure nombre total de conférences trouvées dans le [rapport de synthèse de conférence dans Lync Server 2013](lync-server-2013-conference-summary-report.md).
 
-Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier les stratégies de conférence (le cas échéant) permettre aux utilisateurs de planifier des conférences RTC en exécutant la commande suivante à partir de Lync Server Management Shell :
+Si les conférences PSTN que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence assignée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences PSTN, vous verrez peu de conférences PSTN. Vous pouvez vérifier rapidement les stratégies de conférence qui autorisent les utilisateurs à planifier des conférences PSTN en exécutant la commande suivante avec Lync Server Management Shell :
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-Des données semblables à ceci sont renvoyées :
+Les données retournées se présentent ainsi :
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -69,7 +69,7 @@ Des données semblables à ceci sont renvoyées :
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-Des données semblables à ceci sont renvoyées :
+Des données semblables à ceci sont alors retournées :
 
 </div>
 
@@ -77,11 +77,11 @@ Des données semblables à ceci sont renvoyées :
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de synthèse des conférences RTC vous permet de choisir la façon dont les données doivent être groupées. Dans ce cas, les conférences sont groupées par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport de synthèse des conférences PSTN vous permet de choisir la façon dont les données doivent être groupées. Dans ce cas, les conférences sont groupées par heure, jour, semaine ou mois.
 
-Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse des conférences RTC.
+Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse des conférences PSTN.
 
-### <a name="pstn-conference-summary-report-filters"></a>Filtres du rapport de synthèse des conférences RTC
+### <a name="pstn-conference-summary-report-filters"></a>Filtres du rapport de synthèse des conférences PSTN
 
 <table>
 <colgroup>
@@ -96,7 +96,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -106,7 +106,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -116,15 +116,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec le 7/8/2012 comme date de début et le 28/9/2012 comme date de fin, les données s’affichent pour les jours compris entre le 7/8/2012 12:00 et le 7/9/2012 12:00 (c’est-à-dire, un total de 31 jours de données).</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,9 +136,9 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 ## <a name="metrics"></a>Mesures
 
-Le tableau qui suit répertorie les informations fournies dans le rapport de synthèse des conférences RTC
+Le tableau qui suit répertorie les informations fournies dans le rapport de synthèse des conférences PSTN
 
-### <a name="pstn-conference-summary-report-metrics"></a>Mesures du rapport de synthèse des conférences RTC
+### <a name="pstn-conference-summary-report-metrics"></a>Mesures du rapport de synthèse des conférences PSTN
 
 <table>
 <colgroup>
@@ -156,14 +156,14 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tbody>
 <tr class="odd">
 <td><p><strong>Toutes les heures</strong></p>
-<p><strong>Jour</strong></p>
+<p><strong>Tous les jours</strong></p>
 <p><strong>Toutes les semaines</strong></p>
-<p><strong>Mois</strong></p></td>
+<p><strong>Tous les mois</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Indique l’intervalle de temps sélectionné. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle quotidien et que vous cliquez sur 7/7/2012, vous pouvez voir une répartition horaire de l’activité d’inscription des utilisateurs à cette date.</p></td>
+<td><p>Indique l’intervalle de temps sélectionné. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées pour cet intervalle. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 7/7/2012, une répartition par jour de l’activité d’enregistrement utilisateur est affichée pour cette date.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre total de conférences RTC</strong></p></td>
+<td><p><strong>Nombre total de conférences PSTN</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Nombre total de conférences ayant autorisé l’accès de rendez-vous.</p></td>
 </tr>
@@ -183,14 +183,14 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <td><p>Durée totale de participants audio/vidéo. Par exemple, si un participant a passé cinq minutes dans une conférence A/V et qu’un autre participant a passé trois minutes dans la même conférence, la durée totale de participants de conférences A/V sera de huit minutes.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre total de participants RTC</strong></p></td>
+<td><p><strong>Nombre total de participants PSTN</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Nombre total d’utilisateurs qui se sont connectés à des conférences ayant autorisé l’accès de rendez-vous.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Nombre total de minutes par participant RTC</strong></p></td>
+<td><p><strong>Nombre total de minutes par participant PSTN</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Durée totale de conférence passée par les utilisateurs de rendez-vous. Par exemple, si un participant de rendez-vous a passé cinq minutes dans une conférence et qu’un autre participant a passé trois minutes dans la même conférence, la durée totale de participants RTC sera de huit minutes.</p></td>
+<td><p>Durée totale de conférence passée par les utilisateurs de rendez-vous. Par exemple, si un participant de rendez-vous a passé cinq minutes dans une conférence et qu’un autre participant a passé trois minutes dans la même conférence, la durée totale de participants PSTN sera de huit minutes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organisateurs de conférence uniques</strong></p></td>

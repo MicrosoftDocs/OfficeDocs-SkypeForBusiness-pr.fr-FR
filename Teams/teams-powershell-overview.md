@@ -15,12 +15,12 @@ f1.keywords:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035356"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
 
@@ -30,7 +30,7 @@ Microsoft teams est doté d’un ensemble d’outils riches pour gérer le produ
 
 Les contrôles PowerShell pour la gestion d’équipes se trouvent dans deux modules PowerShell différents : 
 - [Module Microsoft teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : le module PowerShell teams contient toutes les applets de applet nécessaires pour créer et gérer Teams.  
-- [Module PowerShell Skype entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=39366): le module PowerShell Skype entreprise contient les applets de décision permettant de gérer les stratégies, configurations et autres outils Teams. 
+- [Module PowerShell Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366): le module PowerShell Skype entreprise contient les applets de décision permettant de gérer les stratégies, configurations et autres outils Teams. 
 
 La documentation de référence relative aux contrôles PowerShell indique le module qui contient l’applet de commande que vous étudiez. (Les deux modules seront combinés.)
 
@@ -79,7 +79,7 @@ Lorsque nous avons distribué notre version générale de notre module PowerShel
 
 ## <a name="managing-policies-via-powershell"></a>Gestion des stratégies via PowerShell
 
-Les applets de décision pour la gestion des stratégies se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Les applets de décision pour la gestion des stratégies se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366).
 
 > [!NOTE]
 > Les applets de connexion seront disponibles dans votre session PowerShell une fois que vous vous connectez à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -111,7 +111,7 @@ Paramètres courants :
 
 ## <a name="managing-configurations-via-powershell"></a>Gestion des configurations via PowerShell
 
-Les applets de configuration de la gestion de votre configuration se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Les applets de configuration de la gestion de votre configuration se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Les configurations sont des compartiments des paramètres conservés dans le service qui ne peuvent pas être spécifiés à un niveau utilisateur. Les paramètres s’appliquent toujours à l’ensemble de l’organisation. Votre configuration globale est la seule configuration efficace au sein de votre organisation. Chaque type de configuration est fourni avec deux cmdlets principales :
 

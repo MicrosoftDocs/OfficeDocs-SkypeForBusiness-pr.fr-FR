@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : organisateurs de réunion dédiés'
+title: 'Lync Server 2013 : organisateurs de réunions dédiées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728534"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Organisateurs de réunion dédiés dans Lync Server 2013
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a>Organisateurs de réunions dédiés dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41728534"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Pour réduire le trafic de communications en temps réel dans le grand groupe de réunions, nous déconseillons l’hébergement des utilisateurs qui se connectent à l’aide des clients Lync et qui participent à la messagerie instantanée, à la présence, aux conférences et aux sessions vocales. À la place, nous vous recommandons d’effectuer l’une des opérations suivantes :
+Pour minimiser le trafic des communications en temps réel dans le pool des grandes réunions, nous vous déconseillons d’héberger des utilisateurs se connectant régulièrement à l’aide des clients Lync et participant à des sessions de messagerie instantanée, de présence, de conférence et de communication vocale. Il est préférable que vous procédiez comme suit :
 
-  - Créer un ou plusieurs comptes d’utilisateurs dédiés pour planifier des réunions de grande envergure ou
+  - créez un ou plusieurs comptes d’utilisateur dédiés à la planification des grandes réunions, ou
 
-  - Accueil le compte d’utilisateur de l’équipe chargée de planifier des réunions de grande taille sur un groupe de réunions de grande taille.
+  - hébergez les comptes d’utilisateur du personnel responsable de la planification des grandes réunions dans un pool de grandes réunions.
 
-Dans tous les cas, les comptes d’utilisateurs qui sont hébergés sur le grand groupe de réunions ne doivent pas être utilisés pour se connecter à Lync de manière régulière, et non pour planifier des réunions.
+Dans les deux cas, les comptes d’utilisateur hébergés dans le pool des grandes réunions ne doivent pas être utilisés pour se connecter régulièrement à Lync mais seulement pour planifier des réunions.
 
 </div>
 

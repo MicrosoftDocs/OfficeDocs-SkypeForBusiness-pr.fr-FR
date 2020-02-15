@@ -12,20 +12,20 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b205699e9efd896a157654f5c1fb200e34087fc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9878cf6d6de482e2319cfd3cddf15e6d0e6ecb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infrastructure à clé publique pour Lync Server 2013
+# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infrastructure de clé publique pour Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41724624"
 
 _**Dernière modification de la rubrique :** 2013-11-13_
 
-Microsoft Lync Server 2013 repose sur des certificats pour l’authentification du serveur et établit une chaîne de confiance entre les clients et les serveurs et entre les différents rôles de serveur. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 et Windows Server 2003 infrastructure à clé publique (PKI) fournit l’infrastructure permettant d’établir et de valider cette chaîne de confiance.
+Microsoft Lync Server 2013 repose sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs et entre les différents rôles serveur. L’infrastructure à clé publique (PKI) Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 et Windows Server 2003 fournit l’infrastructure permettant d’établir et de valider cette chaîne de confiance.
 
-Les certificats sont des ID numériques. Ils identifient un serveur par son nom et indiquent ses propriétés. Afin de garantir que les informations d’un certificat sont valides, celui-ci doit être émis par une autorité de certification (CA) approuvée par les clients ou d’autres serveurs qui se connectent au serveur. Si le serveur se connecte uniquement avec d’autres clients et serveurs sur un réseau privé, la CA peut être une CA d’entreprise. Si le serveur interagit avec des entités en dehors du réseau privé, une CA publique peut être requise.
+Les certificats sont des identifiants numériques. Ils identifient un serveur à l’aide de son nom et spécifient ses propriétés. Pour vous assurer que les informations sur un certificat sont valides, le certificat doit être émis par une autorité de certification approuvée par les clients ou d’autres serveurs qui se connectent au serveur. Si le serveur se connecte uniquement à d’autres clients et serveurs sur un réseau privé, l’autorité de certification peut être une autorité de certification d’entreprise. Si le serveur communique avec des entités en dehors du réseau privé, une autorité de certification publique peut être nécessaire.
 
-Même si les informations du certificat sont valides, il doit exister un moyen de vérifier que le serveur présentant le certificat est en fait celui représenté par le certificat. C’est ici que le PKI de Windows entre en jeu.
+Même si les informations du certificat sont valides, il doit être possible de vérifier si le serveur soumettant le certificat est réellement celui qu’il représente. C’est à ce niveau qu’intervient l’infrastructure à clé publique Windows.
 
-Chaque certificat est lié à une clé publique. Le serveur nommé sur le certificat contient une clé privée correspondante que lui seul connaît. Un client ou serveur se connectant utilise la clé publique pour chiffrer une information aléatoire et l’envoie au serveur. Si le serveur déchiffre l’information et la retourne sous forme de texte simple, l’entité se connectant peut ainsi être sûre que le serveur contient la clé privée du certificat et qu’il s’agit donc du serveur nommé sur le certificat.
+Chaque certificat est lié à une clé publique. Le serveur nommé dans le certificat détient une clé privée correspondante qu’il est le seul à connaître. Lorsqu’un client ou un serveur se connecte, il utilise la clé publique pour chiffrer une information aléatoire qu’il envoie au serveur. Si le serveur déchiffre les informations et les renvoie sous forme de texte simple, l’entité connectée est sûre que le serveur détient la clé privée du certificat et qu’il s’agit donc bien du serveur nommé dans le certificat.
 
 <div>
 
 
 > [!NOTE]  
-> Toutes les autorités de certification publiques ne respectent pas les exigences des certificats Lync Server 2013. Nous vous conseillons de vous reporter à la liste des autorités de certification publiques approuvées pour vos besoins de certificats publics. Pour plus d’informations, reportez- <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>vous à la rubrique partenaires de certification de communications unifiées
+> Toutes les autorités de certification publiques ne respectent pas les exigences des certificats Lync Server 2013. Nous vous recommandons de vous reporter à la liste des fournisseurs d’autorités de certification publiques certifiées selon vos besoins de certificats publics. Pour plus d’informations, consultez la page relative <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>aux partenaires de certificat de communications unifiées.
 
 
 
@@ -57,9 +57,9 @@ Chaque certificat est lié à une clé publique. Le serveur nommé sur le certif
 
 <div>
 
-## <a name="crl-distribution-points"></a>Points de distribution de liste de révocation de certificats
+## <a name="crl-distribution-points"></a>Points de distribution de liste de révocation de certificats (CRL)
 
-Lync Server 2013 nécessite que tous les certificats serveur contiennent un ou plusieurs points de distribution de la liste de révocation de certificats. Les points de distribution CRL (CDP) sont des emplacements à partir desquels les CRL peuvent être téléchargés en vue de vérifier que le certificat n’a pas été révoqué depuis son émission et qu’il est toujours dans sa période de validité. Un point de distribution CRL est indiqué dans les propriétés du certificat sous forme d’URL et il s’agit généralement d’une adresse HTTP sécurisée.
+Lync Server 2013 nécessite que tous les certificats de serveur contiennent un ou plusieurs points de distribution de liste de révocation de certificats (CRL). Il s’agit d’emplacements à partir desquels il est possible de télécharger des listes de révocation de certificats afin de vérifier si un certificat a été révoqué depuis son émission et s’il est toujours dans sa période de validité. Un point de distribution de liste de révocation de certificats figure dans les propriétés du certificat sous forme d’URL, généralement HTTP sécurisée.
 
 </div>
 
@@ -67,13 +67,13 @@ Lync Server 2013 nécessite que tous les certificats serveur contiennent un ou p
 
 ## <a name="enhanced-key-usage"></a>Utilisation améliorée de la clé
 
-Lync Server 2013 nécessite que tous les certificats serveur prennent en charge l’utilisation améliorée de l’utilisation de la clé pour l’utilisation de l’authentification du serveur. La configuration du champ EKU pour l’authentification du serveur signifie que le certificat est valide pour l’authentification des serveurs. Cette EKU est essentielle pour MTLS. Il est possible d’avoir plusieurs entrées dans l’EKU, ce qui permet au certificat d’avoir plusieurs rôles.
+Lync Server 2013 nécessite que tous les certificats de serveur prennent en charge l’utilisation améliorée de la clé (EKU) pour l’authentification du serveur. La configuration du champ EKU pour l’authentification de serveurs signifie que le certificat est valide pour l’authentification des serveurs. L’utilisation améliorée de la clé est essentielle pour MTLS. Le champ EKU peut contenir plusieurs entrées, ce qui permet d’activer le certificat à plusieurs fins.
 
 <div>
 
 
 > [!NOTE]  
-> L’utilisation améliorée de l’authentification du client est requise pour les connexions MTLS sortantes à partir de Live Communications Server 2003 et de Live Communications Server 2005, mais elle n’est plus nécessaire. Toutefois, cette utilisation de l’utilisation améliorée doit être présente sur les serveurs Edge qui se connectent à AOL au moyen de la connectivité PIC (Public IM Connectivity).
+> L’EKU d’authentification client était requis pour les connexions MTLS sortantes provenant de Live Communications Server 2003 et Live Communications Server 2005, mais il n’est plus nécessaire. Toutefois, cet EKU doit figurer sur les serveurs de périphérie qui se connectent à AOL par le biais de la solution PIC.
 
 
 

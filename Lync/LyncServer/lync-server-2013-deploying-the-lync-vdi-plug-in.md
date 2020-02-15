@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement du plug-in Lync VDI'
+title: 'Lync Server 2013 : déploiement du plug-in Lync VDI'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d51b1858e3e1944d290d907ee14691786bf3cc53
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6802be2d2191c057e35ac25618d74c1e338899a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740774"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41740774"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Le client Lync 2013 prend en charge l’audio et la vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Un utilisateur peut connecter un périphérique audio ou vidéo (par exemple, un casque ou un appareil photo) à l’ordinateur local (par exemple, un client léger ou un ordinateur réaffecté). L’utilisateur peut se connecter à la machine virtuelle, se connecter au client 2013 Lync qui s’exécute sur l’ordinateur virtuel et participer à des communications audio et vidéo en temps réel, comme si le client s’exécute localement.
+Le client Lync 2013 prend en charge les fonctionnalités audio et vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Un utilisateur peut connecter un périphérique audio ou vidéo (par exemple, un casque ou une caméra) à l’ordinateur local (par exemple, un client léger ou un ordinateur réaffecté). L’utilisateur peut se connecter à la machine virtuelle, se connecter au client Lync 2013 qui est en cours d’exécution sur l’ordinateur virtuel et participer à des communications audio et vidéo en temps réel, comme si le client était en cours d’exécution localement.
 
-Le plug-in Lync VDI est une application autonome qui est installée sur l’ordinateur local et qui permet d’utiliser les périphériques audio et vidéo locaux avec le client Lync 2013 exécuté sur l’ordinateur virtuel. Le plug-in ne doit pas nécessairement être installé sur l’ordinateur local. Lorsque l’utilisateur se connecte au client Lync 2013 exécuté sur l’ordinateur virtuel, Lync invite l’utilisateur à entrer à nouveau ses informations d’identification pour établir une connexion avec le plug-in Lync VDI exécuté sur l’ordinateur local. Une fois la connexion établie, l’utilisateur est prêt à passer et à recevoir des appels audio et vidéo.
+Le plug-in Lync VDI est une application autonome qui s’installe sur l’ordinateur local et permet d’utiliser des périphériques audio et vidéo locaux avec le client Lync 2013 qui s’exécute sur l’ordinateur virtuel. Le plug-in ne nécessite pas l’installation de Lync sur l’ordinateur local. Une fois que l’utilisateur se connecte au client Lync 2013 qui s’exécute sur l’ordinateur virtuel, Lync invite l’utilisateur à entrer de nouveau ses informations d’identification pour établir une connexion avec le plug-in Lync VDI en cours d’exécution sur l’ordinateur local. Une fois cette connexion établie, l’utilisateur est prêt à passer et à recevoir des appels audio et vidéo.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration requise pour le plug-in Lync VDI dans Lync Server 2013](lync-server-2013-lync-vdi-plug-in-prerequisites.md)
+  - [Conditions préalables du plug-in Lync VDI dans Lync Server 2013](lync-server-2013-lync-vdi-plug-in-prerequisites.md)
 
-  - [Préparation de l’environnement Lync Server 2013 pour VDI](lync-server-2013-preparing-your-environment-for-vdi.md)
+  - [Préparation de votre environnement Lync Server 2013 pour VDI](lync-server-2013-preparing-your-environment-for-vdi.md)
 
-  - [Connexion à Lync 2013 et utilisation sur l’ordinateur virtuel](lync-server-2013-signing-in-and-using-lync-2013-on-the-virtual-machine.md)
+  - [Connexion et utilisation de Lync 2013 sur l’ordinateur virtuel](lync-server-2013-signing-in-and-using-lync-2013-on-the-virtual-machine.md)
 
-  - [Résoudre les problèmes du plug-in Lync VDI dans Lync Server 2013](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
+  - [Résolution des problèmes liés au plug-in Lync VDI dans Lync Server 2013](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
 
-  - [Technologies de virtualisation prises en charge et limites connues dans Lync Server 2013](lync-server-2013-supported-virtualization-technologies-and-known-limitations.md)
+  - [Technologies de virtualisation prises en charge et limitations connues dans Lync Server 2013](lync-server-2013-supported-virtualization-technologies-and-known-limitations.md)
 
 </div>
 

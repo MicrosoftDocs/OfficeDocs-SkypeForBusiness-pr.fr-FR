@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : numéros d’accès à une conférence rendez-vous'
+title: 'Lync Server 2013 : numéros d’accès aux conférences rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762332"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Numéros d’accès à une conférence rendez-vous dans Lync Server 2013
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Numéros d’accès aux conférences rendez-vous dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41762332"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-Pour permettre aux utilisateurs de participer à la partie audio de conférences locales en se connectant depuis le réseau téléphonique public commuté (RTC), vous devez configurer des numéros d’accès pour les conférences rendez-vous. Les numéros d’accès aux conférences rendez-vous sont les numéros que les utilisateurs appellent pour participer à une conférence.
+Pour permettre aux utilisateurs de participer à la partie audio des conférences locales en passant un appel téléphonique sur le réseau téléphonique commuté, vous devez configurer des numéros d’accès aux conférences rendez-vous. Les numéros d’accès aux conférences rendez-vous sont les numéros que les utilisateurs appellent pour participer à une conférence.
 
-Les numéros d’accès entrants s’affichent dans les invitations aux réunions et dans la page Web des paramètres de conférence rendez-vous.
+Ils apparaissent dans les invitations à une réunion et dans la page web des paramètres de configuration des conférences rendez-vous.
 
 <div>
 
 
 > [!NOTE]  
-> Vous ne pouvez pas utiliser de nouveau numéro d’accès rendez-vous tant qu’il n’y a pas de réplication Active Directory de ce numéro d’accès. La réplication peut prendre plusieurs heures.
+> Vous ne pouvez pas utiliser un nouveau numéro d’accès pour la conférence rendez-vous tant que la réplication Active Directory de ce numéro n’est pas terminée. La réplication peut durer plusieurs heures.
 
 
 
@@ -55,11 +55,11 @@ Les numéros d’accès entrants s’affichent dans les invitations aux réunion
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Afficher les numéros d’accès à une conférence rendez-vous dans Lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [Afficher les numéros d’accès aux conférences rendez-vous dans Lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
   - [Création ou modification d’un numéro d’accès à une conférence rendez-vous dans Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [Supprimer un numéro d’accès à une conférence rendez-vous dans Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [Suppression d’un numéro d’accès à une conférence rendez-vous dans Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

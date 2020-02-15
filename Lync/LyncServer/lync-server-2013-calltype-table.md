@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table CallType'
+title: 'Lync Server 2013 : CallType table'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743194"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table CallType est une table statique qui contient la liste des types d’appels possibles.
+La table CallType est une table statique qui contient la liste de types d’appels possibles.
 
 
 <table>
@@ -51,7 +51,7 @@ La table CallType est une table statique qui contient la liste des types d’app
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,7 +59,7 @@ La table CallType est une table statique qui contient la liste des types d’app
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ La table CallType est une table statique qui contient la liste des types d’app
 <td></td>
 <td><p>Valeurs autorisées :</p>
 <ul>
-<li><p>0--Inconnu</p></li>
-<li><p>1-messagerie instantanée</p></li>
-<li><p>2-partage d’application</p></li>
-<li><p>3-audio</p></li>
-<li><p>4-audio et vidéo</p></li>
-<li><p>5-transfert de fichiers</p></li>
+<li><p>0 - Inconnu</p></li>
+<li><p>1 - Messagerie instantanée</p></li>
+<li><p>2--partage d’application</p></li>
+<li><p>3 - Audio</p></li>
+<li><p>4 - Audio et vidéo</p></li>
+<li><p>5 - Transfert de fichiers</p></li>
 </ul></td>
 </tr>
 </tbody>

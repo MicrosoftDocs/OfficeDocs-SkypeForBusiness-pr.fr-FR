@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825702"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008146"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planifier le déplacement de vos équipes StaffHub vers les équipes de Microsoft teams
 
@@ -49,7 +49,7 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |0,10    |Communiquer aux utilisateurs de StaffHub à propos de la transition aux équipes dans teams         |[StaffHub-XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX](staffhub-to-teams-email-template.md)         |
 |27,9     |Installer les clients teams         |[Obtenir des clients pour Teams](../../get-clients.md) |
 |midi    |Affectez la stratégie de configuration de l’application FirstLineWorker aux utilisateurs (ou créez et attribuez une stratégie de configuration d’application personnalisée) pour épingler l’application Shifts aux clients Teams.  |[Affecter la stratégie de configuration de l’application FirstlineWorker aux utilisateurs](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|n°13     |Former les utilisateurs sur l’utilisation des équipes et des équipes         |[Utilisateurs intégrés à teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Documentation d’aide sur les Shifts](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentation d'aide Teams](https://support.office.com/teams)<br><br>[Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|n°13     |Former les utilisateurs sur l’utilisation des équipes et des équipes         |[Utilisateurs intégrés à teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Documentation d’aide sur les Shifts](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentation d'aide Teams](https://support.office.com/teams)<br><br>[Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |Passez en revue la liste de vos équipes StaffHub pour vous assurer que tous les utilisateurs de ces équipes doivent être déplacés vers Teams. Supprimez les utilisateurs qui ne doivent pas figurer dans l’échéancier. |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>Déplacer les équipes StaffHub de votre organisation vers teams

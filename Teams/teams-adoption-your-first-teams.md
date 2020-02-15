@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837714"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030768"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Le meilleur moyen d’attirer l’appel d’équipes est d’utiliser le produit
 | Mise en œuvre de Microsoft teams | Général <br/> Sensibilisation et adoption <br/> Engagement pour les entreprises <br/> Programme du premier adoptant <br/> Commentaires et Insights <br/> Sécurité et conformité <br/> Stratégie et planification <br/> État du service et incidents <br/> Formation <br/> Chat Watercooler |
 | Champions d’équipe | Général <br/> Recommandations, formations et procédures <br/> Le coin des champions <br/> Commentaires et assistance <br/> Responsables du programme <br/> Concentrateur de réseaux sociaux |
 
-Dans Microsoft Teams, la [Galerie d’onglets](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) vous donne accès à toutes les applications Office 365 et aux applications tierces activées par l’administrateur. Pour tirer le meilleur parti de votre produit, nous vous suggérons d’épingler les ressources clés en tant qu’onglets dans chacun des canaux appropriés. Voir l’exemple ci-dessous.
+Dans Microsoft Teams, la [Galerie d’onglets](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) vous donne accès à toutes les applications Office 365 et aux applications tierces activées par l’administrateur. Pour tirer le meilleur parti de votre produit, nous vous suggérons d’épingler les ressources clés en tant qu’onglets dans chacun des canaux appropriés. Voir l’exemple ci-dessous.
 
 ![Capture d’écran montrant les onglets par défaut et personnalisés](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 | Engagement pour les entreprises | Wiki : conseils relatifs à l’engagement<br/>Formulaire : demande de consultation d’équipes<br/>Liste : demandes d’engagements |
 |Premiers décideurs | Communauté de commentaires épinglés <br/> Forum aux questions et thèmes communs à OneNote |
 | Commentaires et création de rapports | Rapport sur l’utilisation d’Office 365 mis en attente (pour les administrateurs Office 365 uniquement) |
-| Sécurité et conformité | Portail d’approbation Microsoft <br/> [Documentation sur la sécurité et la conformité](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Sécurité et conformité | Portail d’approbation Microsoft <br/> [Documentation sur la sécurité et la conformité](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Stratégie et planification | PowerPoint collaboration Nord Star <br/> Plan de projet d’adoption de service |
 | Formation | Portail de formations personnalisées <br/> [Formation équipes en ligne](https://aka.ms/TeamsTraining) |
 | **Champions d’équipe**|  |

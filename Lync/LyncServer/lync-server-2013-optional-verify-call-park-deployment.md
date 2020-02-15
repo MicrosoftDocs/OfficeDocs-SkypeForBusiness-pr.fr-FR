@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : (facultatif) vérifier le déploiement du parc d’appels'
+title: 'Lync Server 2013 : (facultatif) vérification du déploiement du parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755718"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044626"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Facultatif Vérifier le déploiement du parc d’appels dans Lync Server 2013
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Module Vérifier le déploiement du parcage d’appel dans Lync Server 2013
 
 </div>
 
@@ -37,22 +37,22 @@ ms.locfileid: "41755718"
 
 _**Dernière modification de la rubrique :** 2012-09-11_
 
-Après l’installation et la configuration du parc d’appels, vous devez vérifier la configuration pour vous assurer que le parking et la récupération des appels fonctionnent comme prévu. Vérifiez au minimum les éléments suivants :
+Après avoir installé et configuré le parcage d’appel, vous devez vérifier la configuration pour vous assurer que les appels de parking et de récupération fonctionnent comme prévu. Vérifiez au minimum les éléments suivants :
 
-  - Appeler un utilisateur dont le parc d’appels est activé et demander à l’utilisateur d’appeler l’appel.
+  - Appelez un utilisateur qui a activé le parcage d’appel et demandez-lui de parkiser l’appel.
     
     <div>
     
 
     > [!NOTE]  
-    > Si vous avez activé le parc d’appels dans la politique vocale juste avant d’effectuer ce test, l’utilisateur qui travaille en stationnement doit se déconnecter de Lync Server, puis se reconnecter pour pouvoir voir l’option de transfert d’appel dans la liste transférer l’appel.
+    > Si vous avez activé le parcage d’appel dans la stratégie de voix juste avant d’effectuer ce test, l’utilisateur qui est responsable de l’appel doit se déconnecter de Lync Server, puis se reconnecter pour pouvoir voir l’option parcage d’appel dans la liste de transfert d’appel.
 
     
     </div>
 
   - Composez le numéro orbite pour récupérer l’appel.
 
-  - Parquez un autre appel, laissez expirer le délai d’attente de l’appel parqué et ne décrochez pas lors du rappel. Vérifiez que l’appel dont le délai d’attente a expiré est routé correctement vers la destination secondaire spécifiée pour **OnTimeoutURI**.
+  - Parquez un autre appel, laissez expirer le délai d’attente de l’appel parqué et ne décrochez pas lors du rappel. Vérifiez que l’appel dont le délai d’attente a expiré est correctement acheminé vers la destination secondaire qui est spécifiée pour **OnTimeoutURI**.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce93f84f977630ec4b0764b67ce4622c9b81f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,35 +37,35 @@ ms.locfileid: "41757188"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-Les règles de normalisation vocale permettent de convertir une configuration requise pour le numéro de téléphone (par exemple, la numérotation 9 pour accéder à une ligne extérieure) au format de numéro de téléphone E. 164 utilisé par Microsoft Lync Server 2013.
+Les règles de normalisation vocale sont utilisées pour convertir une configuration requise de la numérotation téléphonique (par exemple, 9 pour accéder à une ligne extérieure) au format de numéro de téléphone E. 164 utilisé par Microsoft Lync Server 2013.
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a>Cmdlets de règles de normalisation vocale
+## <a name="voice-normalization-rules-cmdlets"></a>Applets de commande de règles de normalisation vocale
 
-Les applets de commande suivantes peuvent être utilisés pour gérer les règles de normalisation vocale.
+Les applets de commande qui suivent servent à gérer les règles de normalisation vocale.
 
 **Règles de normalisation vocale**
 
   - <span></span>  
-    [Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+    [Get-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [New-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Nouveau-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 
@@ -74,7 +74,7 @@ Les applets de commande suivantes peuvent être utilisés pour gérer les règle
 ## <a name="see-also"></a>Voir aussi
 
 
-[Cmdlets voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Applets de commande voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Blog Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 112a21dbb131e0bd34729584b8fb58399b192f70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743034"
 
 _**Dernière modification de la rubrique :** 2012-06-06_
 
-Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble des sessions de conférence et des sessions P2P ayant échoué. Ce rapport comprend le taux d’échecs général pour ces deux types de sessions, et détaille les informations par type de modalité de session :
+Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble des sessions de conférence et des sessions d’égal à égal ayant échoué. Ce rapport comprend le taux d’échecs général pour ces deux types de sessions, et détaille les informations par type de modalité de session :
 
   - Messagerie instantanée
 
@@ -53,11 +53,11 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport synthèse des diagnostics d’appel, vous pouvez accéder au [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) en cliquant sur l’indice du taux d’échec dans la section synthèse de la session d’égal à égal du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférences suivantes :
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. Dans le rapport de synthèse de diagnostic des appels, vous pouvez accéder au [rapport de diagnostic des activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure taux d’échec sous la section Résumé de la session P2P du rapport. Vous pouvez également accéder au [rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
 
-  - Taux d’échec de session global
+  - Taux d’échec global des sessions
 
-  - Taux d’échec de focus
+  - Taux d’échec Focus
 
   - Taux d’échec MCU
 
@@ -67,7 +67,7 @@ Le rapport de synthèse de diagnostic des appels est accessible à partir de la 
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Utilisation efficace du rapport de synthèse de diagnostic des appels
 
-Le rapport synthèse des diagnostics de l’appel inclut des graphiques qui comparent les taux d’échec pour les différentes modalités d’utilisation dans Microsoft Lync Server 2013. Les colonnes de ces graphiques sont réellement des hyperliens. par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions d’égal à égal, vous découvrirez une instance du [rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un rapport contenant des informations supplémentaires sur l’ensemble des sessions de messagerie instantanée incluses dans le rapport de synthèse des Diagnostics.
+Le rapport de synthèse de diagnostic des appels inclut des graphiques qui comparent les taux d’échec pour les différentes modalités utilisées dans Microsoft Lync Server 2013. Les colonnes de ces graphiques sont en fait des lien hypertexte ; par exemple, si vous cliquez sur la colonne de messagerie instantanée pour les sessions P2P, vous accédez à une instance du rapport de diagnostic des [activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), un rapport qui fournit des détails supplémentaires sur toutes les sessions de messagerie instantanée incluses dans le rapport de synthèse de diagnostic des appels.
 
 </div>
 
@@ -75,7 +75,7 @@ Le rapport synthèse des diagnostics de l’appel inclut des graphiques qui comp
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de synthèse de diagnostic des appels vous permet de filtrer selon des éléments tels que le pool de serveurs d’inscriptions ou le serveur Edge utilisé dans la session. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, le rapport de synthèse de diagnostic des appels vous permet de filtrer selon des éléments tels que le pool de serveurs d’inscriptions ou le serveur Edge utilisé dans la session. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse de diagnostic des appels.
 
@@ -94,7 +94,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -104,7 +104,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -114,19 +114,19 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 7/7/2012 et une date de fin le 2/28/2012, les données s’affichent pour les jours compris entre le 8/7/2012 12:00 AM et le 9/7/2012 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur <strong>[Tous]</strong> pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.</p></td>
+<td><p>Nom de domaine complet du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool spécifique ou cliquer sur <strong>[Tout]</strong> pour afficher des données pour tous les pools. Cette liste déroulante est remplie automatiquement pour vous en fonction des enregistrements de la base de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,11 +136,11 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions P2P
+## <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions d’égal à égal
 
-Le tableau ci-dessous décrit les informations fournies dans le rapport de synthèse de diagnostic des appels pour les sessions P2P (à savoir, celles qui n’impliquent que deux participants).
+Le tableau suivant décrit les informations fournies dans le rapport de synthèse de diagnostic des appels pour les sessions d’égal à égal (à savoir, celles qui n’impliquent que deux participants).
 
-### <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions P2P
+### <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions d’égal à égal
 
 <table>
 <colgroup>
@@ -159,12 +159,12 @@ Le tableau ci-dessous décrit les informations fournies dans le rapport de synth
 <tr class="odd">
 <td><p><strong>Nombre total de sessions</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nombre total de sessions P2P ayant eu lieu.</p></td>
+<td><p>Nombre total de sessions d’égal à égal ayant eu lieu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taux d’échec</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Pourcentage de sessions P2P ayant échoué. Lorsque vous cliquez sur cet élément, le rapport affiche le rapport de diagnostic des activités P2P, qui fournit des informations plus détaillées sur les sessions P2P ayant échoué.</p></td>
+<td><p>Pourcentage de sessions d’égal à égal ayant échoué. Lorsque vous cliquez sur cet élément, le rapport affiche le rapport de diagnostic des activités d’égal à égal, qui fournit des informations plus détaillées sur les sessions d’égal à égal ayant échoué.</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,7 +176,7 @@ Le tableau ci-dessous décrit les informations fournies dans le rapport de synth
 
 ## <a name="metrics-for-conferencing-sessions"></a>Mesures pour les sessions de conférence
 
-Le tableau ci-dessous décrit les informations fournies dans le rapport de diagnostic des appels pour les sessions de conférence (à savoir, celles qui impliquent trois participants ou plus).
+Le tableau suivant décrit les informations fournies dans le rapport de diagnostic des appels pour les sessions de conférence (à savoir, celles qui impliquent trois participants ou plus).
 
 ### <a name="metrics-for-conferencing-sessions"></a>Mesures pour les sessions de conférence
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836974"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035458"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -55,7 +55,7 @@ Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Te
  - Office 365 Allemagne
  - Le client Skype entreprise est hébergé en Corée du Sud **et** l’organisation nécessite le stockage des données d’équipe en Corée du Sud. Pour l’instant, les organisations possédant des données Skype entreprise stockées en Corée du Sud qui effectuent une mise à niveau vers teams disposeront des données de leurs équipes dans la région du centre de données Asia, et non dans la région du centre de données de Corée du Sud
 
-**Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. En particulier, nous travaillons toujours sur des scénarios d’adressage pour les utilisateurs dont l’appareil principal est basé sur l’infrastructure VDI. Pour plus d’annonces, visitez le site de [plan d’évolution d’Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) .
+**Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. En particulier, nous travaillons toujours sur des scénarios d’adressage pour les utilisateurs dont l’appareil principal est basé sur l’infrastructure VDI. Pour plus d’annonces, visitez le site de [plan d’évolution d’Office 365](https://www.microsoft.com/microsoft-365/roadmap) .
 
 > [!NOTE]
 > Avant de basculer vers le mode équipes uniquement, vous devez remplacer ou mettre à jour les appareils qui ne prennent pas en charge Teams. 

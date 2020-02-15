@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de haute disponibilité et de récupération d’urgence'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de haute disponibilité et de récupération d’urgence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aabac29c5e866c4bfeff8ad79d392578d52ba650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d69a77e1277b843ed1df13a130e67a9ee081d98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41757518"
 
 _**Dernière modification de la rubrique :** 2012-09-20_
 
-Comme dans Lync Server 2010, le schéma principal de haute disponibilité pour Lync Server 2013 repose sur la redondance du serveur via le regroupement. Si un serveur exécutant un rôle serveur particulier rencontre une défaillance, les autres serveurs du pool qui exécutent le même rôle assument la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
+Comme dans Lync Server 2010, le schéma haute disponibilité (HA) principal pour Lync Server 2013 repose sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
 
-Lync Server 2013 ajoute de nouvelles mesures de reprise après sinistre en vous permettant de jumeler les pools front-end situés dans deux centres de données. Si l’une des listes de réserve s’affiche, un administrateur peut basculer sur les utilisateurs de ce pool vers l’autre pool de la paire pour garantir la continuation du service. Cette fonctionnalité n’exige pas de solutions réseau ou matérielles onéreuses, telles que les réseaux de stockage ou les disques partagés.
+Lync Server 2013 ajoute de nouvelles mesures de récupération d’urgence en vous permettant de coupler des pools frontaux situés dans deux centres de données. Si l’un des pools appariés n’est plus opérationnel, un administrateur peut effectuer le basculement des utilisateurs de ce pool vers l’autre pool de la paire afin de garantir une continuité du service. Cette fonctionnalité ne nécessite aucune solution réseau ou matérielle coûteuse comme les réseaux de stockage ou les disques partagés.
 
-Lync Server 2013 ajoute également la haute disponibilité du serveur principal. Il s’agit d’une topologie facultative dans laquelle vous déployez deux serveurs dorsaux pour un pool frontal, et configurez la mise en miroir SQL synchrone pour toutes les bases de données Lync exécutées sur les serveurs dorsaux. Vous pouvez décider de déployer un témoin pour le miroir.
+Lync Server 2013 ajoute également la haute disponibilité du serveur principal. Il s’agit d’une topologie facultative dans laquelle vous déployez deux serveurs principaux pour un pool frontal et configurez la mise en miroir SQL synchrone pour toutes les bases de données Lync exécutées sur les serveurs principaux. Vous pouvez décider de déployer ou non un serveur témoin pour le miroir.
 
 <div>
 

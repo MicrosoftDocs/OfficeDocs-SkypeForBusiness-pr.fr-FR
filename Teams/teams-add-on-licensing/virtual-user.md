@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: En savoir plus sur les licences utilisateur virtuelles gratuites.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826512"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029355"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Système téléphonique-licence utilisateur virtuel 
 
@@ -67,7 +67,7 @@ Contoso doit envisager de reconcevoir le standard automatique et le système de 
 Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique, licence d’utilisateur virtuel : 
 
 1. Téléchargez le nouveau système téléphonique – licence utilisateur virtuel. 
-2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Supprimez toujours une licence de système téléphonique complet et attribuez-la à la licence de l’utilisateur virtuel pour la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour le système téléphonique-licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 

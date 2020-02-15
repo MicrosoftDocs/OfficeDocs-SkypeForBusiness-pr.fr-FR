@@ -1,5 +1,5 @@
 ---
-title: Utiliser le BPA Analyzer pour rechercher des problèmes potentiels dans votre déploiement
+title: Utilisation de Best Practices Analyzer pour analyser les problèmes éventuels dans votre déploiement
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f787268301570d4440240289c19fdd1e266a607
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: afda261fc3e57750afaabbf349eb31631adea275
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Utilisation de l’analyseur de meilleures pratiques pour analyser le déploiement de Lync Server 2013 pour détecter des problèmes potentiels
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Utilisation de Best Practices Analyzer pour analyser le déploiement de Lync Server 2013 à la recherche de problèmes éventuels
 
 </div>
 
@@ -37,58 +37,58 @@ ms.locfileid: "41744204"
 
 _**Dernière modification de la rubrique :** 2012-10-21_
 
-Pour exécuter une analyse d’analyse des pratiques recommandées, vous devez spécifier les éléments suivants :
+Pour lancer une analyse Best Practices Analyzer, vous devez spécifier ce qui suit :
 
-  - **Les informations d’identification**   pour exécuter une analyse, vous devez vous connecter à un ordinateur sur lequel le système d’analyse des recommandations est installé à l’aide d’un compte membre du groupe Administrateurs local. Par ailleurs, vous devez vous connecter à l’aide d’un compte d’utilisateur disposant des droits d’utilisateur et des autorisations nécessaires pour exécuter les analyses appropriées, ou vous devez spécifier des informations d’identification qui disposent des privilèges et autorisations d’utilisateur appropriés lorsque vous exécutez l’analyseur de meilleures pratiques. Pour plus d’informations, consultez la section [appartenances aux groupes et conditions d’utilisation requise pour l’analyseur de meilleures pratiques dans Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Informations d’identification**   pour exécuter une analyse, vous devez vous connecter à un ordinateur sur lequel Best Practices Analyzer est installé à l’aide d’un compte membre du groupe Administrateurs local. En outre, ce compte doit disposer des droits et autorisations requis pour lancer les analyses appropriées ou vous devez spécifier des informations d’identification disposant des droits et autorisations appropriés pour exécuter Best Practices Analyzer. Pour plus d’informations, reportez-vous aux [appartenances aux groupes et aux droits des utilisateurs pour Best Practices Analyzer dans Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Étendue de l’analyse**   pour spécifier l’étendue de la numérisation, sélectionnez les catégories et les serveurs que vous souhaitez analyser. Vous pouvez sélectionner toutes les catégories, une ou plusieurs catégories ou un ou plusieurs serveurs au sein d’une catégorie spécifique dans votre environnement Lync Server.
+  - **Étendue de l’analyse**   pour spécifier l’étendue de l’analyse, sélectionnez les catégories et les serveurs que vous souhaitez analyser. Vous pouvez sélectionner toutes les catégories, une ou plusieurs catégories ou un ou plusieurs serveurs d’une catégorie spécifique dans votre environnement Lync Server.
 
-  - **Type de numérisation**   actuellement, le seul type de numérisation disponible est disponible (option activée par défaut). L’analyse de vérification de l’intégrité génère un rapport incluant des erreurs, des avertissements et d’autres informations pour tous les serveurs spécifiés dans l’étendue.
+  - **Type d’analyse**   actuellement, l’analyse du contrôle d’intégrité est le seul type d’analyse disponible (sélectionné par défaut). L’analyse de vérification de l’intégrité génère un rapport qui comprend les erreurs, les avertissements et d’autres informations pour tous les serveurs spécifiés dans l’étendue de l’analyse.
 
-  - ****   Les options de vitesse du réseau à débit de réseau incluent Fast LAN (100 Mbps ou plus), LAN (10 Mbps), WAN rapide (1,5 Mbps) ou WAN (64 kb/s). Le temps estimé pour terminer la numérisation est basé sur ce paramètre. Ce paramètre est également utilisé pour définir le délai d’expiration. Lors de l’analyse, l’analyseur de meilleures pratiques attend la réponse d’un serveur pour une durée spécifiée. S’il ne reçoit pas de réponse dans le délai imparti, il passe au serveur suivant de l’analyse. Sur les réseaux plus lents, ce délai d’expiration spécifié est plus long pour tenir compte des latences du réseau plus longues. Nous vous recommandons de sélectionner le lien le plus lent dans votre topologie pour ce paramètre afin que l’outil ne soit pas trop rapide.
+  - **Vitesse réseau les**   options de vitesse de réseau incluent Fast LAN (100 Mbits/s ou plus), LAN (10 Mbits/s), Fast WAN (1,5 Mbits/s) ou WAN (64 Kbits/s). Le temps estimé pour réaliser l’analyse dépend de ce paramètre. Ce paramètre est également utilisé pour définir le délai d’expiration. Au cours de l’analyse, Best Practices Analyzer attend une réponse d’un serveur dans un délai spécifié. S’il ne reçoit aucune réponse dans ce délai, il passe au serveur suivant dans l’analyse. Sur les réseaux plus lents, ce délai est plus long pour prendre en compte les latences réseau plus longues. Nous vous recommandons de sélectionner la liaison la plus lente dans votre topologie pour ce paramètre afin que l’exécution de l’outil n’expire pas non plus.
 
 <div>
 
-## <a name="to-scan-your-lync-server-2013-deployment"></a>Pour analyser le déploiement de Lync Server 2013
+## <a name="to-scan-your-lync-server-2013-deployment"></a>Pour analyser votre déploiement Lync Server 2013
 
-1.  Ouvrez une session sur un ordinateur sur lequel le système d’analyse des recommandations est installé à l’aide d’un compte membre du groupe Administrateurs local et ayant d’autres droits et autorisations d’utilisateur requis.
+1.  Ouvrez une session sur un ordinateur, sur lequel Best Practices Analyzer est installé, avec un compte membre du groupe Administrateurs local et qui dispose d’autres droits et autorisations requis.
 
-2.  Cliquez sur **Démarrer**, pointez sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis cliquez sur **recommandations Analyzer**.
+2.  Cliquez sur **Démarrer**, pointez sur **tous les programmes**, cliquez sur **Microsoft Lync Server 2013**, puis sur **Best Practices Analyzer**.
 
-3.  Dans l’écran d' **Accueil** , cliquez sur **Sélectionner les options pour une nouvelle analyse**.
+3.  Dans l’écran d’**accueil**, cliquez sur **Sélectionner des options pour une nouvelle analyse**.
 
-4.  Dans la page **se connecter à Active Directory** , vérifiez le nom spécifié dans **Active Directory Server**, puis effectuez l’une des opérations suivantes :
+4.  Dans la page **Connexion à Active Directory**, vérifiez le nom spécifié dans **Serveur Active Directory**, puis effectuez l’une des opérations suivantes :
     
-      - Pour effectuer une analyse à l’aide des informations d’identification que vous avez utilisées pour vous connecter à l’ordinateur, cliquez sur **se connecter au serveur Active Directory**.
+      - Pour lancer une analyse avec les informations d’identification que vous avez utilisées pour ouvrir une session sur l’ordinateur, cliquez sur **Connexion au serveur Active Directory**.
     
-      - Pour spécifier d’autres informations d’identification que vous souhaitez utiliser pour les services de domaine Active Directory (AD FS), Edge Server ou Exchange Server, cliquez sur **afficher les options de connexion avancées**, activez chaque case à cocher pour lesquelles des informations d’identification distinctes sont requises, spécifiez les informations d’identification pour chaque case sélectionnée, puis cliquez sur **se connecter au serveur Active Directory**.
+      - Pour spécifier d’autres informations d’identification que celles que vous souhaitez utiliser pour les services de domaine Active Directory, les serveurs Edge ou les serveurs Exchange, cliquez sur **Afficher les options d’ouverture de session avancées**, activez les cases à cocher pour lesquelles des informations d’identification distinctes sont requises, spécifiez les informations d’identification pour chacune des cases à cocher activées, puis cliquez sur **Connexion au serveur Active Directory**.
     
     <div>
     
 
     > [!NOTE]
-    > Avant de commencer l’analyse, l’analyseur de meilleures pratiques effectue une vérification du réseau et des autorisations pour vérifier que les informations d’identification du compte spécifiées sont valides et que l’analyseur des meilleures pratiques peut se connecter aux services de domaine Active Directory (AD FS). Si l’outil s’exécute sur un serveur de groupe de travail, l’outil vérifie également qu’il peut se connecter aux serveurs Edge du réseau de périmètre (autrement dit, s’il est inclus dans l’analyse).
+    > Avant de commencer l’analyse, Best Practices Analyzer effectue une vérification du réseau et des autorisations pour s’assurer que les informations d’identification spécifiées sont valides et qu’il peut se connecter aux services de domaine Active Directory. Si l’outil est exécuté sur un serveur de groupe de travail, il vérifie également qu’il peut se connecter aux serveurs Edge dans le réseau de périmètre (s’ils sont inclus dans l’analyse).
 
     
     </div>
 
-5.  Dans la page **Démarrer une nouvelle analyse des meilleures pratiques** , sélectionnez les options que vous voulez inclure dans l’analyse, spécifiez la vitesse du réseau, puis cliquez sur **Démarrer l’analyse**.
+5.  Dans la page **Démarrer une nouvelle analyse Best Practices**, sélectionnez les options que vous souhaitez inclure dans l’analyse, spécifiez la vitesse du réseau, puis cliquez sur **Démarrer l’analyse**.
 
-6.  Sur la page **analyse terminée** , cliquez sur **afficher un rapport de cette analyse recommandée**.
+6.  Dans la page **Analyse terminée**, cliquez sur **Afficher un rapport de cette analyse**.
 
-7.  Dans la page **afficher le rapport** des recommandations, effectuez l’une des opérations suivantes :
+7.  Dans la page **Afficher le rapport Best Practices**, effectuez l’une des opérations suivantes :
     
-      - Pour afficher les rapports dans une liste organisée par composant serveur, cliquez sur **rapports de liste**, puis sur l’onglet **tous les problèmes** ou **éléments d’information** .
+      - Pour afficher les rapports dans une liste organisée par composant serveur, cliquez sur **Rapports de liste**, puis cliquez sur l’onglet **Tous les problèmes** ou sur l’onglet **Éléments d’information**.
     
-      - Pour afficher les rapports sous forme de liste hiérarchique organisée par type de résultat, cliquez sur **rapports d’arborescence**, puis sur l’onglet **affichage détaillé** ou **affichage de synthèse** .
+      - Pour afficher les rapports sous forme de liste hiérarchique organisée par type de résultat, cliquez sur **Rapports d’arborescence**, puis cliquez sur l’onglet **Affichage détaillé** ou sur l’onglet **Affichage de synthèse**.
     
-      - Pour afficher d’autres rapports, cliquez sur **autres rapports**.
+      - Pour afficher d’autres rapports, cliquez sur **Autres rapports**.
     
     <div>
     
 
     > [!NOTE]
-    > Pour plus d’informations sur les meilleurs rapports d’analyseurs et les problèmes qu’ils ont identifiés, voir <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">afficher et utiliser les rapports créés par meilleurs analyseurs dans Lync server 2013</A> et <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analyser et résoudre les problèmes identifiés par l’analyseur de meilleures pratiques dans</A>Lync Server 2013.
+    > Pour plus d’informations sur les rapports de Best Practices Analyzer et les problèmes qu’ils identifient, voir <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">affichage et utilisation des rapports créés par Best Practices Analyzer dans Lync server 2013</A> et <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analyse et résolution des problèmes identifiés par Best Practices Analyzer dans Lync Server 2013</A>.
 
     
     </div>

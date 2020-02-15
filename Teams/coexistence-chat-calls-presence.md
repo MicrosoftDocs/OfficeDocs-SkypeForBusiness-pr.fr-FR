@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la discussion, du routage des appels et de la présence entre les utilisateurs d’équipes et Skype entreprise, à la fois dans le client et fédéré, en fonction de modes TeamsUpgrade attribués. Il inclut des optimisations de routage, le comportement de présence, ainsi que le changement du mode de TeamsUpgrade par défaut de l' *ancien* au départ des *îles* et de l’ancienne mise au *départ.*
-ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824932"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050116"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -215,6 +215,6 @@ Pour aligner la présence et l’accessibilité dans des threads préexistants, 
 Par exemple, si un destinataire du thread de conversation d’interopérabilité persistant a été mis à niveau vers Teams, ce thread ne reflétera plus une présence précise et ne pourra plus être routable. Commencez un nouveau thread.
 
 ## <a name="related-links"></a>Liens connexes
-[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Vidéo : gérer la coexistence et l’interopérabilité entre marketing et Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

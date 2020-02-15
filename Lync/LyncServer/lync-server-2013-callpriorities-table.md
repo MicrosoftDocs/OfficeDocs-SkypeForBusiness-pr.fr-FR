@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table CallPriorities'
+title: 'Lync Server 2013 : table table callpriorities'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2be19538e065a1f9a25dd58da93b2752a27333e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="callpriorities-table-in-lync-server-2013"></a>Table CallPriorities dans Lync Server 2013
+# <a name="callpriorities-table-in-lync-server-2013"></a>Table table callpriorities dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743214"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table CallPriorities est une table statique qui contient la liste des différentes priorités d’appel, telles que « urgence », « urgent » ou « normale ».
+La table CallPriorities est une table statique qui stocke la liste des priorités d’appel possibles, par exemple « très urgent », « urgent » ou « normal ».
 
 
 <table>
@@ -51,28 +51,28 @@ La table CallPriorities est une table statique qui contient la liste des différ
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>PriorityId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
+<td><p>entier très petit</p></td>
+<td><p>Primaire</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Priorité</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valeurs autorisées :</p>
 <ul>
-<li><p>0-Inconnu</p></li>
-<li><p>1-non urgent</p></li>
-<li><p>2-normal</p></li>
-<li><p>3-urgent</p></li>
-<li><p>4-urgence</p></li>
+<li><p>0 - Inconnu</p></li>
+<li><p>1 – Non urgent</p></li>
+<li><p>2 - Normal</p></li>
+<li><p>3 - Urgent</p></li>
+<li><p>4 - Très urgent</p></li>
 </ul></td>
 </tr>
 </tbody>

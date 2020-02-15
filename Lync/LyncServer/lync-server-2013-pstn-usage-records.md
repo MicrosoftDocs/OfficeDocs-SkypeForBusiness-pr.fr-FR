@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Enregistrements d’utilisation RTC'
+title: 'Lync Server 2013 : enregistrements d’utilisation RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60700070c5426d4df4d1957367ccfd743a5ba44b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-usage-records-in-lync-server-2013"></a>Enregistrements d’utilisation RTC dans Lync Server 2013
+# <a name="pstn-usage-records-in-lync-server-2013"></a>Enregistrements d’utilisation PSTN dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41724674"
 
 _**Dernière modification de la rubrique :** 2012-09-23_
 
-La planification des enregistrements d’utilisation PSTN consiste principalement à répertorier toutes les autorisations d’appel actuellement en vigueur dans votre organisation, du PDG aux travailleurs temporaires, consultants et subordonnés. Ce processus donne également la possibilité de revérifier les autorisations d’appel existantes et de les modifier. Vous pouvez créer des enregistrements d’utilisation RTC uniquement pour les autorisations d’appel qui s’appliquent aux utilisateurs vocaux de votre entreprise, mais une meilleure solution de grande gamme peut être de créer des enregistrements d’utilisation RTC pour toutes les autorisations d’appel, qu’il soit ou non Appliquez au groupe d’utilisateurs à activer pour voix entreprise. Si les autorisations d’appel changent ou que de nouveaux utilisateurs avec des autorisations d’appel différentes sont ajoutés, vous aurez déjà créé les enregistrements d’utilisation PSTN requis.
+La planification des enregistrements d’utilisation PSTN consiste principalement à répertorier toutes les autorisations d’appel actuellement en vigueur dans votre organisation, du PDG aux travailleurs temporaires, consultants et subordonnés. Ce processus donne également la possibilité de revérifier les autorisations d’appel existantes et de les modifier. Vous pouvez créer des enregistrements d’utilisation PSTN uniquement pour les autorisations qui s’appliquent aux utilisateurs Voix Entreprise prévus, mais une meilleure solution à long terme peut consister à créer des enregistrements d’utilisation PSTN pour toutes les autorisations d’appel, même si certaines d’entre elles peuvent ne pas s’appliquer actuellement au groupe d’utilisateurs à activer pour Voix Entreprise. Si les autorisations d’appel changent ou que de nouveaux utilisateurs avec des autorisations d’appel différentes sont ajoutés, vous aurez déjà créé les enregistrements d’utilisation PSTN requis.
 
-Le tableau ci-dessous présente un exemple d’utilisation PSTN standard :
+Le tableau suivant présente un exemple d’utilisation PSTN standard :
 
 ### <a name="pstn-usage-records"></a>Enregistrements d’utilisation PSTN
 
@@ -60,7 +60,7 @@ Le tableau ci-dessous présente un exemple d’utilisation PSTN standard :
 <td><p>Appels locaux</p></td>
 </tr>
 <tr class="even">
-<td><p>Long-Distance</p></td>
+<td><p>Longue distance</p></td>
 <td><p>Appels longue distance</p></td>
 </tr>
 <tr class="odd">
@@ -89,11 +89,11 @@ Le tableau ci-dessous présente un exemple d’utilisation PSTN standard :
 
 Les enregistrements d’utilisation PSTN n’effectuent aucune action par eux-mêmes. Pour qu’ils fonctionnent, vous devez les associer aux éléments suivants :
 
-  - des stratégies de voix, affectées aux utilisateurs ;
+  - des stratégies de voix, qui sont assignées aux utilisateurs ;
 
-  - des itinéraires, affectés aux numéros de téléphone.
+  - des itinéraires, qui sont assignés aux numéros de téléphone.
 
-Pour plus d’informations sur les stratégies et les itinéraires vocaux, voir [stratégies vocales dans Lync server 2013](lync-server-2013-voice-policies.md) et [itinéraires vocaux dans Lync Server 2013](lync-server-2013-voice-routes.md). Pour plus d’informations sur la création et la configuration de celles-ci, reportez-vous à la rubrique [Configuration des itinéraires vocaux pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+Pour plus d’informations sur les stratégies de voix et les itinéraires, consultez la rubrique [Voice Policies in Lync server 2013](lync-server-2013-voice-policies.md) and [Voice routes in Lync Server 2013](lync-server-2013-voice-routes.md). Pour plus d’informations sur la façon de les créer et de les configurer, reportez-vous à la rubrique [Configuration des itinéraires vocaux pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
 </div>
 

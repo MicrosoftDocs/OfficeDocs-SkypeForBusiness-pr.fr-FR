@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Association de rapports d’analyse à une base de données miroir'
+title: 'Lync Server 2013 : Association de rapports de surveillance à une base de données miroir'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e5f10e3e4bd3c063cafcb2fd984098482ebf22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d1ec6b1256326cca9e74d47d27820529050721
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="associating-monitoring-reports-with-a-mirror-database-in-lync-server-2013"></a>Association de rapports d’analyse à une base de données miroir dans Lync Server 2013
+# <a name="associating-monitoring-reports-with-a-mirror-database-in-lync-server-2013"></a>Association des rapports de surveillance à une base de données miroir dans Lync Server 2013
 
 </div>
 
@@ -37,45 +37,45 @@ ms.locfileid: "41722754"
 
 _**Dernière modification de la rubrique :** 2014-02-07_
 
-Si vous configurez une instance miroir pour votre base de données de surveillance, cette base de données miroir prendra la relève en tant que base de données principale en cas de basculement. Toutefois, si vous utilisez les rapports de surveillance de Lync Server et un basculement, il est possible que vos rapports d’analyse ne se connectent pas à la base de données miroir. Et ce, car, lorsque vous installez des rapports de surveillance, vous spécifiez seulement l’emplacement de la base de données principale ; vous devez aussi spécifier l’emplacement de la base de données miroir.
+Si vous configurez un miroir pour votre base de données de surveillance, cette base de données miroir prend le relais comme base de données principale en cas de basculement. Toutefois, si vous utilisez les rapports de surveillance Lync Server et qu’un basculement se produit, vous pouvez constater que vos rapports de surveillance ne se connectent pas à la base de données miroir. En effet, lorsque vous installez des rapports de surveillance, vous spécifiez uniquement l’emplacement de la base de données principale ; vous ne spécifiez pas l’emplacement de la base de données miroir.
 
-Pour que les rapports basculent automatiquement sur la base de données miroir, vous devez ajouter la base de données miroir comme « partenaire de basculement » pour les deux bases de données utilisées par les rapports de surveillance (l’une pour les données d’enregistrement des détails des appels, et l’autre pour les données de la qualité de l’expérience (QoE)). (Notez que cette étape doit être effectuée après l’installation des rapports de surveillance.) Vous pouvez ajouter les informations du partenaire de basculement en modifiant manuellement les valeurs des chaînes de connexion utilisées par ces deux bases de données. Pour cela, procédez comme suit :
+Pour obtenir un basculement automatique des rapports de surveillance vers la base de données miroir, vous devez ajouter la base de données miroir en tant que « partenaire de basculement » aux deux bases de données utilisées par les rapports de surveillance (une base de données pour les données d’enregistrement des détails des appels et l’autre pour la qualité du Données de qualité de l’expérience (QoE)). (Notez que cette étape doit être effectuée après avoir installé les rapports de surveillance.) Vous pouvez ajouter les informations de partenaire de basculement en modifiant manuellement les valeurs de chaîne de connexion utilisées par ces deux bases de données. Pour ce faire, procédez de la manière suivante :
 
-1.  Utilisez Internet Explorer pour ouvrir la page d’accueil de **SQL Server Reporting Services**. L’URL de cette page d’accueil comprend ce qui suit :
+1.  Utilisez Internet Explorer pour ouvrir la page d’accueil **SQL Server Reporting Services** . L’URL de la page d’accueil de Reporting Services comprend les éléments suivants :
     
-      - Le préfixe **http:**.
+      - Le préfixe **http :** .
     
-      - Le nom de domaine complet (FQDN) de l’ordinateur sur lequel les services de surveillance sont installés (par exemple, **atl-sql-001.litwareinc.com**).
+      - Nom de domaine complet (FQDN) de l’ordinateur sur lequel Reporting Services est installé (par exemple, **ATL-SQL-001.litwareinc.com**).
     
       - La chaîne de **caractères\_/Reports**.
     
-      - Le nom de l’instance de la base de données où les rapports de surveillance sont installés (par exemple, **archinst**).
+      - Nom de l’instance de base de données dans laquelle les rapports de surveillance sont installés (par exemple, **archinst**).
     
     Par exemple, si SQL Server Reporting Services a été installé sur l’ordinateur atl-sql-001.litwareinc.com et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil doit ressembler à ceci :
     
     **http://atl-sql-001.litwareinc.com/Reports\_archinst**
 
-2.  Après avoir consulté la page d’accueil de Reporting Services, cliquez sur **LyncServerReports**, puis cliquez sur **signaler\_le contenu**. Vous serez ainsi dirigé vers la page de **contenu du rapport\_** pour les rapports de surveillance de Lync Server.
+2.  Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **LyncServerReports**, puis sur **rapports\_content**. Cela vous permettra d’accéder à la page de **contenu des rapports\_** pour les rapports de surveillance Lync Server.
 
-3.  Dans la page de **contenu du rapport\_** , cliquez sur la source de données **CDRDB** .
+3.  Sur la **page\_contenu des rapports** , cliquez sur la source de données **CDRDB** .
 
-4.  Sur la page **CDRDB**, sous l’onglet **Propriétés**, recherchez le texte intitulé **Chaîne de connexion**. La chaîne de connexion actuelle a un format similaire à celui-ci :
+4.  Sur la page **CDRDB** , sous l’onglet **Propriétés** , recherchez la zone de texte intitulée **chaîne de connexion**. La chaîne de connexion actuelle ressemblera à ceci :
     
     **Source de données = (local\\) archinst ; catalogue initial = LcsCDR**
 
-5.  Modifiez la chaîne de connexion façon à y inclure le nom du serveur et l’instance de base de données pour la base de données miroir. Par exemple, si le serveur est nommé atl-miroir-001 et que la base de données miroir est dans l’instance archinst, vous devez en plus spécifier la base de données miroir en utilisant cette syntaxe :
+5.  Modifiez la chaîne de connexion afin d’inclure le nom du serveur et l’instance de base de données pour la base de données miroir. Par exemple, si le serveur est nommé ATL-Mirror-001 et que la base de données miroir se trouve dans l’instance archinst, vous devrez ajouter pour spécifier la base de données miroir à l’aide de la syntaxe suivante :
     
     **Partenaire de basculement = ATL-miroir\\-001 archinst**
     
-    Votre chaîne de connexion modifiée ressemblera à ceci :
+    La chaîne de connexion modifiée se présente comme suit :
     
-    **Source de données = (local\\) archinst ; Partenaire de basculement = ATL-Mirror\\-001 archinst ; initial catalog = LcsCDR**
+    **Source de données = (local\\) archinst ; Partenaire de basculement = ATL-miroir\\-001 archinst ; initial catalog = LcsCDR**
 
-6.  Après avoir mis à jour la chaîne de connexion, cliquez sur **Appliquer**.
+6.  Après avoir mis à jour la chaîne de connexion, cliquez sur **appliquer**.
 
-7.  Dans la page **CDRDB** , cliquez sur le lien **rapports\_** sur le contenu. Cliquez sur la source de données **QMSDB**, puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
+7.  Sur la page **CDRDB** , cliquez sur le lien **contenu des rapports\_** . Cliquez sur la source de données **QMSDB** , puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
     
-    **Source de données = (local\\) archinst ; Partenaire de basculement = ATL-Mirror\\-001 archinst ; initial catalog = QoEMetrics**
+    **Source de données = (local\\) archinst ; Partenaire de basculement = ATL-miroir\\-001 archinst ; initial catalog = QoEMetrics**
 
 8.  Cliquez sur **Appliquer**.
 
@@ -84,8 +84,8 @@ Pour que les rapports basculent automatiquement sur la base de données miroir, 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Installation des rapports d’analyse Lync Server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
-[Utilisation de rapports d’analyse dans Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
+[Installation des rapports de surveillance Lync Server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
+[Utilisation des rapports de surveillance dans Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
   
 
 </div>

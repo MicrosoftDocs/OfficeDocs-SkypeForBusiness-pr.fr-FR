@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Devices'
+title: 'Lync Server 2013 : table Devices'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381b03fc5680276a64fc327f423f74c6773c2ed3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c6e1fb5afda3a657bbeff864f5bba06349f4fb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762352"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762352"
 
 _**Dernière modification de la rubrique :** 2012-05-25_
 
-Le tableau appareils est une table de prise en charge. Chaque enregistrement stocke des informations sur un appareil (téléphone de bureau).
+La table Devices est une table de prise en charge. Chaque enregistrement stocke des informations sur un appareil (téléphone de bureau).
 
 
 <table>
@@ -51,7 +51,7 @@ Le tableau appareils est une table de prise en charge. Chaque enregistrement sto
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,24 +59,24 @@ Le tableau appareils est une table de prise en charge. Chaque enregistrement sto
 <tr class="odd">
 <td><p><strong>DeviceId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant cette version matérielle.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro unique identifiant cette version du matériel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Fabricant de cet appareil. Pour plus d’informations, reportez-vous <a href="lync-server-2013-manufacturers-table.md">à la table fabricants dans Lync Server 2013</a> .</p></td>
+<td><p>Etranger</p></td>
+<td><p>Fabricant de cet appareil. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-manufacturers-table.md">table constructeurs dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Version matérielle de cet appareil. Pour plus d’informations, voir la <a href="lync-server-2013-hardwareversions-table.md">table HardwareVersions dans Lync Server 2013</a> .</p></td>
+<td><p>Etranger</p></td>
+<td><p>Version du matériel de cet appareil. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-hardwareversions-table.md">table table hardwareversions dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MacAddress</strong></p></td>
-<td><p>bigint</p></td>
+<td><p><strong>Mac</strong></p></td>
+<td><p>comportant</p></td>
 <td></td>
 <td><p>Adresse MAC</p></td>
 </tr>

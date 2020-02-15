@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités d’archivage'
+title: 'Lync Server 2013 : nouvelles fonctionnalités d’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1509a0857b54673ab20783f69b34b59c6d2afde8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765835"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41765835"
 
 _**Dernière modification de la rubrique :** 2012-10-09_
 
-L’archivage dans Lync Server 2013 permet d’archiver les types de contenu suivants :
+L’archivage dans Lync Server 2013 peut archiver les types de contenu suivants :
 
-  - Messages instantanés P2P
+  - Messages instantanés d’égal à égal
 
-  - Conférences (réunions) qui sont des messages instantanés à plusieurs participants
+  - Conférences (réunions) constituant des messages instantanés entre utilisateurs multiples
 
-  - Contenu de conférence, dont le contenu téléchargé (par exemple, documents) et le contenu lié à l’événement (par exemple, joindre, quitter la réunion, téléchargement de partage et modifications en termes de visibilité)
+  - Contenu de conférence, dont le contenu téléchargé (documents, par exemple) et le contenu lié à un événement (par exemple, rejoindre ou quitter la conférence, télécharger des données partagées ou modifier la visibilité)
 
-De plus, l’archivage dans Lync Server 2013 fournit de nouvelles fonctionnalités qui améliorent l’efficacité du déploiement et des opérations. Ces nouvelles fonctionnalités sont les suivantes :
+De plus, l’archivage dans Lync Server 2013 offre de nouvelles fonctionnalités qui améliorent l’efficacité du déploiement et des opérations. Voici ces nouvelles options :
 
-  - **Colocalisation de l’archivage sur des serveurs frontaux.**    Lync Server 2013 ne possède pas de rôle serveur d’archivage distinct. L’archivage est une fonctionnalité facultative disponible sur tous les serveurs frontaux d’un déploiement Enterprise Edition et sur les serveurs Standard Edition Server qui peuvent être implémentés pour un pool ou un site.
+  - **Colocalisation de l’archivage sur les serveurs frontaux.**    Lync Server 2013 ne dispose pas d’un rôle de serveur d’archivage distinct. L’archivage est une fonctionnalité facultative disponible sur tous les serveurs frontaux dans un déploiement Enterprise Edition, ainsi que sur les serveurs Standard Edition Server qui peuvent être implémentés pour un pool ou un site.
 
-  - **Intégration de Microsoft Exchange.**    Lorsque vous déployez l’archivage, vous pouvez intégrer le stockage des données pour l’archivage avec votre espace de stockage 2013 Exchange pour tous les utilisateurs hébergés sur Exchange 2013 et disposer de leurs boîtes aux lettres sur place, de sorte que vous n’avez pas besoin de déployer des bases de données SQL Server distinctes pour archiver les données Lync. Si vous n’avez pas de déploiement Exchange 2013 ou si vous préférez ne pas l’intégrer, ou si vous avez des utilisateurs de Lync 2013 qui ne sont pas hébergés sur Exchange 2013 avec leurs boîtes aux lettres placées sur place, vous pouvez déployer des bases de données d’archivage distinctes en utilisant SQL Server to Stor. e données archivées provenant des communications Lync. Vous pouvez utiliser les bases de données d’archivage Microsoft Exchange et Lync Server 2013 si vous souhaitez utiliser l’intégration de Microsoft Exchange pour certains utilisateurs, mais pas pour tous les utilisateurs de votre déploiement. Pour plus d’informations sur la conservation inaltérable, voir la section « conservation inaltérable » [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)à l’adresse.
+  - **Intégration de Microsoft Exchange.**    Lorsque vous déployez l’archivage, vous pouvez intégrer le stockage des données pour l’archivage à votre stockage Exchange 2013 existant pour tous les utilisateurs hébergés sur Exchange 2013 et disposer de leurs boîtes aux lettres en conservation inaltérable, de sorte que vous n’avez pas besoin de déployer des bases de données SQL Server distinctes pour archiver les données Lync. Si vous ne disposez pas d’un déploiement d’Exchange 2013 ou si vous préférez ne pas l’intégrer ou si vous avez des utilisateurs Lync 2013 qui ne sont pas hébergés sur Exchange 2013 avec leurs boîtes aux lettres placées en conservation inaltérable, vous pouvez déployer des bases de données d’archivage distinctes à l’aide de SQL Server to Stor e données archivées à partir de Lync communications. Vous pouvez utiliser à la fois l’intégration de Microsoft Exchange et les bases de données d’archivage Lync Server 2013 pour utiliser l’intégration de Microsoft Exchange pour certains utilisateurs, mais pas pour tous, dans votre déploiement. Pour plus d’informations sur le blocage sur place, consultez la rubrique « conservation inaltérable [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)» à l’adresse.
 
-  - **Mise en miroir du SQL Store.**    Lorsque vous déployez l’archivage, vous pouvez activer la mise en miroir de la base de données SQL Server pour votre base de données d’archivage.
+  - **Mise en miroir du magasin SQL.**    Lorsque vous déployez l’archivage, vous pouvez activer la mise en miroir de base de données SQL Server pour votre base de données d’archivage.
 
-  - **Archivage de tableaux blancs et de sondages.**    Le contenu des conférences archivées inclut désormais les tableaux blancs et les sondages partagés pendant la réunion.
+  - **Archivage des tableaux blancs et des sondages.**    Le contenu de conférence archivé inclut désormais des tableaux blancs et des sondages partagés au cours de la réunion.
 
 Les types de contenu suivants ne sont pas archivés :
 
-  - Transfert de fichiers d’égal à égal
+  - Transferts de fichiers d’égal à égal
 
-  - Audio/vidéo pour messages instantanés et conférences P2P
+  - Audio/vidéo pour messages instantanés et conférences d’égal à égal
 
-  - Partage d’application pour les messages instantanés et les conférences d’égal à égal
+  - Partage d’application pour messages instantanés et conférences d’égal à égal
 
 <div>
 

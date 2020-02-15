@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour le service DNS pour les pools front-end'
+title: 'Lync Server 2013 : configuration DNS requise pour les pools frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b763f9b01e070fc434dae997bc1e2da68dcbc26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12fc719c52434e07599fb4b65604ea832dc95f7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729414"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pools-in-lync-server-2013"></a>Configuration DNS requise pour les listes frontales dans Lync Server 2013
+# <a name="dns-requirements-for-front-end-pools-in-lync-server-2013"></a>Configuration DNS requise pour les pools frontaux dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729414"
 
 _**Dernière modification de la rubrique :** 2012-11-07_
 
-Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de la gamme frontale.
+Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de pools frontaux.
 
 <div>
 
-## <a name="dns-records-for-front-end-pools"></a>Enregistrements DNS pour les pools front-end
+## <a name="dns-records-for-front-end-pools"></a>Enregistrements DNS requis pour les pools frontaux
 
-Le tableau suivant indique les exigences DNS pour un déploiement de pool frontal 2013 Lync Server.
+Le tableau suivant spécifie les exigences DNS pour un déploiement de pool frontal Lync Server 2013.
 
-### <a name="dns-requirements-for-a-front-end-pool"></a>Configuration requise pour le service DNS pour une liste frontale
+### <a name="dns-requirements-for-a-front-end-pool"></a>Composants DNS requis pour un pool frontal
 
 <table>
 <colgroup>
@@ -60,15 +60,15 @@ Le tableau suivant indique les exigences DNS pour un déploiement de pool fronta
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Pool frontal avec plusieurs serveurs frontaux et un équilibreur de charge matérielle (qu’il s’agisse d’un équilibrage de charge DNS ou non)</p></td>
-<td><p>Lors de l’utilisation de l’équilibrage de charge DNS et de l’équilibrage de charge matérielle, vous devez héberger (A) des enregistrements. Créer un enregistrement A interne qui résout le nom de domaine complet (FQDN) du pool frontal pour l’équilibrage de charge DNS. Créer un enregistrement d’hôte interne (A) pour les services Web internes vers l’adresse IP virtuelle (VIP) de l’équilibrage de charge. Vous devez utiliser le nom des services Web internes, tel qu’il est défini dans générateur de topologie.</p>
-<p>Par exemple, si vous utilisez à la fois l’équilibrage de charge DNS et l’équilibrage de charge matérielle, un enregistrement a pour chaque serveur frontal d’un pool pour l’équilibrage de charge DNS et un enregistrement A pour les services Web internes pointant vers l’adresse IP virtuelle de l’équilibrage de charge matérielle. :</p>
+<td><p>Un pool frontal avec plusieurs serveurs frontaux et un programme d’équilibrage de la charge matérielle (que l’équilibrage de la charge DNS soit également déployé dans ce pool ou non).</p></td>
+<td><p>Quand vous utilisez l’équilibrage de charge DNS et un équilibreur de la charge matérielle, vous avez besoin d’enregistrements Hôte (A). Créez un enregistrement A interne qui est résolu en nom de domaine complet (FQDN) du pool de serveur frontal pour l’équilibrage de charge DNS. Créez un enregistrement (A) hôte interne pour les services web internes vers l’adresse IP virtuelle (VIP) de l’équilibreur de charge. Vous devez utiliser le nom des services Web internes comme défini dans le générateur de topologie.</p>
+<p>Par exemple, si vous utilisez l’équilibrage de charge DNS et l’équilibrage de la charge matérielle, vous devez avoir un enregistrement A pour chaque serveur frontal dans un pool pour l’équilibrage de charge DNS et un enregistrement A pour les services Web internes pointant vers l’adresse IP virtuelle de l’équilibreur de charge matérielle. :</p>
 <ul>
-<li><p>Équilibrage de charge DNS : adresse IP de Pool01.contoso.net du pool 10.10.10.5</p>
+<li><p>Équilibrage de charge DNS :   Pool01.contoso.net   Adresse IP du pool   10.10.10.5</p>
 <div>
 
 > [!WARNING]  
-> Chaque serveur frontal dispose également d’un enregistrement distinct :
+> Chaque serveur frontal aura également un enregistrement A distinct :
 
 
 </div>
@@ -78,48 +78,48 @@ Le tableau suivant indique les exigences DNS pour un déploiement de pool fronta
 <li><p>FE03.contoso.net 10.10.10.3</p></li>
 <li><p>FE04.contoso.net 10.10.10.4</p></li>
 </ol></li>
-<li><p>Équilibrage de la charge matérielle : adresse IP WebInternal.contoso.net de HLB VIP 192.168.10.5</p></li>
+<li><p>Équilibrage de la charge matérielle :   WebInternal.contoso.net   Address IP de HLB VIP   192.168.10.5</p></li>
 </ul>
-<p>Tout le trafic, à l’exception du trafic HTTP/HTTPs, utilise l’enregistrement Pool01.contoso.net. Le trafic HTTP/HTTPs utilise l’adresse de services Web interne définie de 192.168.10.5</p></td>
+<p>Tout le trafic à l’exception du trafic HTTP/HTTPS utilisera l’enregistrement Pool01.contoso.net. Le trafic HTTP/HTTPS utilisera l’adresse des services web interne 192.168.10.5</p></td>
 </tr>
 <tr class="even">
-<td><p>Réserve frontale déployée par l’équilibrage de charge DNS</p></td>
-<td><p>Un ensemble d’enregistrements A internes qui résout le nom de domaine complet (FQDN) du pool sur l’adresse IP de chaque serveur du pool. Un enregistrement A doit être enregistré pour chaque serveur du pool.</p></td>
+<td><p>Un pool frontal avec déploiement de l’équilibrage de la charge DNS.</p></td>
+<td><p>Un ensemble d’enregistrements A internes qui associent le nom de domaine complet du pool à l’adresse IP de chaque serveur au sein du pool. Il doit y avoir un enregistrement A pour chaque serveur dans le pool.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Réserve frontale déployée par l’équilibrage de charge DNS</p></td>
-<td><p>Un ensemble d’enregistrements A internes qui résout le nom de domaine complet (FQDN) de chaque serveur dans le pool à l’adresse IP du serveur. Pour plus d’informations, voir <a href="lync-server-2013-dns-load-balancing.md">équilibrage de la charge DNS dans Lync Server 2013</a> dans la documentation de planification.</p></td>
+<td><p>Un pool frontal avec déploiement de l’équilibrage de la charge DNS.</p></td>
+<td><p>Un ensemble d’enregistrements A internes qui associent le nom de domaine complet à l’adresse IP de chaque serveur au sein du pool. Pour plus d’informations, reportez-vous à la rubrique <a href="lync-server-2013-dns-load-balancing.md">DNS Load Balancing in Lync Server 2013</a> dans la documentation de planification.</p></td>
 </tr>
 <tr class="even">
-<td><p>Réserve frontale avec un serveur frontal unique et une base de données principale dédiée, mais pas de solde de charge</p></td>
-<td><p>Un enregistrement A interne qui résout le nom de domaine complet (FQDN) du pool frontal vers l’adresse IP du serveur principal Enterprise Edition.</p></td>
+<td><p>Un pool frontal avec un seul serveur frontal et une base de données principale dédiée, mais aucun équilibrage de charge.</p></td>
+<td><p>Un enregistrement A interne associant le nom de domaine complet du pool frontal à l’adresse IP du serveur frontal Enterprise Edition unique.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Connexion automatique au client</p></td>
-<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _tcp. &lt;domaine&gt; sur le port 5061 qui correspond au nom de domaine complet du pool frontal qui authentifie et redirige les demandes de connexion du client. Pour plus d’informations, voir <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">configuration DNS requise pour la connexion automatique au client dans Lync Server 2013</a>.</p></td>
+<td><p>Ouverture de session client automatique</p></td>
+<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _tcp. &lt;domaine&gt; sur le port 5061 qui mappe sur le nom de domaine complet du pool frontal qui authentifie et redirige les demandes client de connexion. Pour plus d’informations, consultez la rubrique <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS Requirements for Automatic client Sign-in dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Découverte du service Web de mise à jour d’appareil par des appareils de communications unifiées (UC)</p></td>
-<td><p>Un enregistrement A interne du nom ucupdates-r2. &lt;Domaine&gt; SIP résolu sur l’adresse IP du pool frontal qui héberge le service Web de mise à jour de l’appareil. Dans le cas où un périphérique de communications unifiées est activé, mais qu’aucun utilisateur ne s’est connecté à l’appareil, l’enregistrement A permet à l’appareil de détecter le service Web de mise à jour des périphériques d’hébergement du pool frontal et d’obtenir les mises à jour. Dans le cas contraire, les appareils obtiennent ces informations en même temps que la première fois qu’un utilisateur se connecte.</p>
+<td><p>Détection du service web de mise à jour des périphériques par les périphériques de communications unifiées</p></td>
+<td><p>Un enregistrement A interne portant le nom ucupdates-r2. &lt;Domaine&gt; SIP qui est résolu en adresse IP du pool frontal qui héberge le service Web de mise à jour des périphériques. Dans le cas où un périphérique de communications unifiées est activé, mais qu’un utilisateur ne s’y est jamais connecté, l’enregistrement A permet au périphérique de détecter le pool frontal hébergeant le service de mise à jour des périphériques et d’obtenir des mises à jour. Les périphériques peuvent autrement se procurer ces informations via une mise en service intrabande la première fois qu’un utilisateur se connecte.</p>
 <div>
 
 > [!IMPORTANT]  
-> Si vous avez un déploiement existant du service Web de mise à jour de l’appareil dans Lync Server 2010, vous avez déjà créé un enregistrement A interne avec le nom ucupdates. &lt;Domaine&gt;SIP. Pour Microsoft Office Communications Server 2007 R2, vous devez créer un enregistrement DNS A supplémentaire portant le nom ucupdates-r2. &lt;Domaine&gt;SIP.
+> Si vous disposez d’un déploiement existant du service Web de mise à jour des périphériques dans Lync Server 2010, vous avez déjà créé un enregistrement A interne avec le nom ucupdates. &lt;Domaine&gt;SIP. Pour Microsoft Office Communications Server 2007 R2, vous devez créer un enregistrement DNS A supplémentaire avec le nom ucupdates-r2. &lt;Domaine&gt;SIP.
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Proxy inverse pour la prise en charge du trafic HTTP</p></td>
-<td><p>Un enregistrement A externe qui résout le nom de domaine complet de la batterie de serveurs Web externe à l’adresse IP externe du proxy inverse. Les clients et les appareils UC utilisent cet enregistrement pour se connecter au proxy inverse. Pour plus d’informations, reportez-vous à la rubrique <a href="lync-server-2013-determine-dns-requirements.md">déterminer les exigences DNS pour Lync Server 2013</a> dans la documentation de planification.</p></td>
+<td><p>Proxy inverse de prise en charge du trafic HTTP</p></td>
+<td><p>Enregistrement A externe qui résout le nom de domaine complet de la batterie de serveurs web externes en adresse IP externe du proxy inverse. Les clients et les périphériques de communications unifiées utilisent cet enregistrement pour se connecter au proxy inverse. Pour plus d’informations, reportez-vous à la rubrique <a href="lync-server-2013-determine-dns-requirements.md">determine DNS Requirements for Lync Server 2013</a> dans la documentation de planification.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Le tableau suivant montre un exemple des enregistrements DNS requis pour le nom de domaine complet (FQDN) de la batterie de serveurs Web interne.
+Le tableau qui suit montre un exemple des enregistrements DNS requis pour le nom de domaine complet de la batterie de serveurs web internes.
 
-### <a name="example-dns-records-for-internal-web-farm-fqdn"></a>Exemples d’enregistrements DNS pour le FQDN d’une batterie de serveurs Web interne
+### <a name="example-dns-records-for-internal-web-farm-fqdn"></a>Exemples d’enregistrements DNS requis pour le nom de domaine complet de la batterie de serveurs web internes
 
 <table>
 <colgroup>
@@ -129,23 +129,23 @@ Le tableau suivant montre un exemple des enregistrements DNS requis pour le nom 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom de domaine complet (FQDN) du site Web interne</th>
-<th>FQDN du pool</th>
-<th>Enregistrement (s) DNS</th>
+<th>Nom de domaine complet de la batterie de serveurs web internes</th>
+<th>Nom de domaine complet du pool</th>
+<th>Enregistrement(s) DNS A</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>webcon.contoso.com</p></td>
 <td><p>ee-pool.contoso.com</p></td>
-<td><p>Enregistrement DNS A pour le ee-pool.contoso.com résolu vers l’adresse VIP de l’équilibrage de charge utilisé par les serveurs frontaux.</p>
-<p>Enregistrement DNS A pour webcon.contoso.com résolu vers l’adresse VIP de l’équilibrage de charge utilisé par les serveurs frontaux.</p></td>
+<td><p>Enregistrement DNS A pour le nom ee-pool.contoso.com associé à l’adresse IP virtuelle du programme d’équilibrage de charge utilisé par les serveurs frontaux.</p>
+<p>Enregistrement DNS A pour le nom webcon.contoso.com associé à l’adresse IP virtuelle du programme d’équilibrage de charge utilisé par les serveurs frontaux.</p></td>
 </tr>
 <tr class="even">
 <td><p>ee-pool.contoso.com</p></td>
 <td><p>ee-pool.contoso.com</p></td>
-<td><p>Enregistrement DNS A pour ee-pool.contoso.com résolu vers l’adresse IP virtuelle (VIP) de l’équilibrage de charge utilisé par les serveurs frontaux de l’entreprise Edition dans le pool frontal.</p>
-<p>Notez que si vous utilisez l’équilibrage de charge DNS sur ce pool, votre pool frontal et votre batterie de serveurs Web interne ne peuvent pas avoir le même nom de domaine complet.</p></td>
+<td><p>Enregistrement DNS A pour le nom ee-pool.contoso.com associé à l’adresse IP virtuelle du programme d’équilibrage de charge utilisé par les serveurs frontaux Enterprise Edition du pool frontal.</p>
+<p>Notez que si vous avez recours à l’équilibrage de la charge DNS dans ce pool, votre pool frontal et votre batterie de serveurs web internes ne peuvent pas avoir le même nom de domaine complet.</p></td>
 </tr>
 </tbody>
 </table>

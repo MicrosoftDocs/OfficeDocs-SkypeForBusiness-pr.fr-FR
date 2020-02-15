@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport sur la liste d’appels'
+title: 'Lync Server 2013 : rapport de liste d’appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2954f848d448676aea2931cda4dffa8ddc0c5d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53b462644e2334f428b8cd9a46c0ca07472f6ee2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743004"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le rapport Liste des appels fournit des métriques de Qualité de l’expérience pour chaque appel émis et reçu dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport Liste des appels. Par exemple, si vous ouvrez le rapport à partir du [rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md), vous verrez des indicateurs tels que les métriques suivantes qui sont également signalées sur le rapport sur les appareils :
+Le rapport des listes d’appels fournit des mesures de qualité de l’expérience pour les appels individuels émis et reçus dans votre organisation. Notez que les mesures réelles indiquées dépendent de la façon dont vous accédez au rapport de liste d’appels. Par exemple, si vous ouvrez le rapport à partir du [rapport de périphérique dans Lync Server 2013](lync-server-2013-device-report.md), vous verrez des métriques telles que les mesures suivantes, qui sont également signalées dans le rapport de périphérique :
 
   - Microphone de l’appelant
 
@@ -49,7 +49,7 @@ Le rapport Liste des appels fournit des métriques de Qualité de l’expérienc
 
   - Ratio de la durée du basculement vocal
 
-Toutefois, si vous ouvrez le rapport liste d’appels [dans le rapport d’emplacements dans Lync Server 2013](lync-server-2013-location-report.md), vous ne verrez pas l’un de ces indicateurs. à la place, vous verrez des métriques comme celles-ci :
+Toutefois, si vous ouvrez le rapport liste des appels à partir du [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md), vous ne verrez aucune de ces mesures ; au lieu de cela, vous verrez des mesures comme celles-ci :
 
   - Boucle (ms)
 
@@ -59,31 +59,31 @@ Toutefois, si vous ouvrez le rapport liste d’appels [dans le rapport d’empla
 
   - Gigue (ms)
 
-Il s’agit des mesures signalées dans le Rapport d’emplacement. Cependant, dans le rapport Liste des appels, vous pouvez toujours cliquer sur la mesure Détail pour fournir des informations de qualité de l’expérience complète pour n’importe quel appel.
+Il s’agit des mesures indiquées dans le rapport d’emplacement. Toutefois, à partir du rapport liste des appels, vous pouvez toujours cliquer sur la mesure détail pour fournir des informations QoE complètes pour tous les appels.
 
 <div>
 
-## <a name="accessing-the-call-list-report"></a>Accès au rapport Liste des appels
+## <a name="accessing-the-call-list-report"></a>Accès au rapport de liste d’appels
 
-Le rapport Liste des appels est accessible à partir des rapports suivants :
+Le rapport des listes d’appels est accessible à partir des rapports suivants :
 
-  - Le [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur le volume des appels ou en utilisant une métrique de pourcentage médiocre)
+  - Le [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - [Rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md) (en cliquant sur le volume des appels ou en utilisant une métrique de pourcentage médiocre)
+  - Le [rapport de périphérique dans Lync Server 2013](lync-server-2013-device-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - [Rapport synthèse sur la qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur le volume des appels ou sur le pourcentage d’appels médiocre)
+  - Le [rapport de synthèse de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-  - Rapport sur les [performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur le volume des appels ou en utilisant une métrique de pourcentage médiocre)
+  - Le [rapport de performances du serveur dans Lync server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la mesure volume d’appels ou pourcentage d’appels médiocres)
 
-Dans le rapport de la liste d’appels, vous pouvez accéder au [rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) en cliquant sur la métrique de détail.
+À partir du rapport liste des appels, vous pouvez accéder au [rapport détaillé des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) en cliquant sur la mesure détail.
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation optimale du rapport Liste des appels
+## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation optimale du rapport liste des appels
 
-Si vous ne vous souvenez pas de la signification de certaines des mesures du rapport Liste des appels (par exemple, Ratio de la durée du basculement vocal), maintenez le pointeur de la souris sur l’étiquette de la mesure ; une info-bulle s’affiche et fournit une brève description de la mesure.
+Si vous ne vous souvenez pas de la mesure des mesures du rapport de liste d’appels (par exemple, temps de commutation de voix), placez votre souris sur l’étiquette de mesure ; une info-bulle s’affiche et vous donne une brève description de la mesure.
 
 </div>
 
@@ -91,7 +91,7 @@ Si vous ne vous souvenez pas de la signification de certaines des mesures du rap
 
 ## <a name="filters"></a>Filtres
 
-Aucun. Il est impossible de filtrer le rapport de liste d’appels.
+Aucun. Vous ne pouvez pas filtrer le rapport de liste d’appels.
 
 </div>
 
@@ -99,7 +99,7 @@ Aucun. Il est impossible de filtrer le rapport de liste d’appels.
 
 ## <a name="metrics"></a>Mesures
 
-Le tableau qui suit répertorie les informations fournies dans le rapport de liste d’appels pour chaque appel.
+Le tableau suivant répertorie les informations fournies dans le rapport de liste d’appels pour chaque appel.
 
 ### <a name="call-list-report-metrics"></a>Mesures du rapport de liste d’appels
 
@@ -118,19 +118,19 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de lis
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Détails</strong></p></td>
+<td><p><strong>Details</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Appelant</strong></p></td>
+<td><p><strong>Caller</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Adresse IP de la personne ayant initié l’appel.</p></td>
+<td><p>Adresse SIP de la personne qui a initié l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Appelé</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Adresse IP de la personne qui a été appelée.</p></td>
+<td><p>Adresse SIP de la personne qui a été appelée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Heure de début</strong></p></td>
@@ -145,7 +145,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de lis
 <tr class="even">
 <td><p><strong>Agent utilisateur de l’appelant</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Logiciel utilisé par le point de terminaison de la personne ayant initié l’appel.</p></td>
+<td><p>Logiciel utilisé par le point de terminaison de la personne qui a initié l’appel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Agent utilisateur de l’appelé</strong></p></td>
@@ -155,14 +155,14 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de lis
 <tr class="even">
 <td><p><strong>Boucle (ms)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</p>
+<td><p>Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre système d’extrémité. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.</p>
 <p>Des boucles avec des temps plus élevés peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les temps d’aller-retour élevés créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
-<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Perte de paquets</strong></p></td>
@@ -170,9 +170,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de lis
 <td><p>Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gigue</strong></p></td>
+<td><p><strong>Scintill</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -192,10 +192,10 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de lis
 <tr class="odd">
 <td><p><strong>Connectivité</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Type de liaison de communication sans fil. Il s’agit en général de l’un des types suivants :</p>
+<td><p>Type de liaison de communication sans fil. En règle générale, il s’agit de l’une des valeurs suivantes :</p>
 <ul>
-<li><p>Relais</p></li>
-<li><p>Direct</p></li>
+<li><p>Transmettre</p></li>
+<li><p>Directes</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Utiliser le BPA Analyzer pour identifier les problèmes potentiels dans votre déploiement
+title: Utilisation de Best Practices Analyzer pour identifier les problèmes potentiels dans votre déploiement
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12cf3fcc76c1fba3b8162a4928f672558818e735
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Utiliser le BPA Analyzer pour identifier les problèmes potentiels dans votre déploiement de Lync Server 2013
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Utilisation de Best Practices Analyzer pour identifier les problèmes potentiels dans votre déploiement Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41744214"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Pour utiliser l’analyseur de meilleures pratiques pour analyser votre environnement Lync Server 2013, votre système doit répondre à des conditions préalables spécifiques avant de commencer l’analyse. Après vous être assuré que votre système répond à la configuration requise, vous pouvez effectuer le processus de numérisation à l’aide de l’analyseur de recommandations.
+Pour utiliser Best Practices Analyzer pour analyser votre environnement Lync Server 2013, votre système doit répondre à des conditions préalables spécifiques avant de lancer l’analyse. Une fois que vous vous êtes assuré que votre système respecte ces conditions, vous pouvez lancer le processus d’analyse à l’aide de Best Practices Analyzer.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Conditions préalables à l’exécution de l’analyseur de meilleures pratiques dans Lync Server 2013](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
+  - [Conditions préalables à l’exécution de Best Practices Analyzer dans Lync Server 2013](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
-  - [Vérification des mises à jour apportées par l’analyseur de meilleures pratiques dans Lync Server 2013](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
+  - [Recherche des mises à jour apportées par Best Practices Analyzer dans Lync Server 2013](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [Utilisation de l’analyseur de meilleures pratiques pour analyser le déploiement de Lync Server 2013 pour détecter des problèmes potentiels](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [Utilisation de Best Practices Analyzer pour analyser le déploiement de Lync Server 2013 à la recherche de problèmes éventuels](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 

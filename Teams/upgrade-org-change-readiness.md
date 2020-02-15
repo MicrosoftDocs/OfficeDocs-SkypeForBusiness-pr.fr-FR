@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837129"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048595"
 ---
 ![Diagramme de route de mise à niveau, mise en évidence de l’étape de préparation de l’utilisateur](media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 
@@ -107,7 +107,7 @@ Pour tirer le meilleur parti de teams, créez une stratégie d’équipe qui inc
 | | |
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Quels scénarios d’équipe relatable utiliserez-vous pour accélérer l’adoption des équipes et faciliter la mise à niveau de Skype entreprise ?</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les exemples ci-dessous pour vous aider à élaborer vos propres scénarios d’équipe. Documentez-les dans le [classeur de mise à niveau](https://aka.ms/upgradesuccesskit).</li><li>Pour des scénarios et des exemples supplémentaires, accédez à la [bibliothèque de productivité](https://www.microsoft.com/en-us/microsoft-365/success/) .</li></ul>|
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les exemples ci-dessous pour vous aider à élaborer vos propres scénarios d’équipe. Documentez-les dans le [classeur de mise à niveau](https://aka.ms/upgradesuccesskit).</li><li>Pour des scénarios et des exemples supplémentaires, accédez à la [bibliothèque de productivité](https://www.microsoft.com/microsoft-365/success/) .</li></ul>|
 
 ### <a name="examples"></a>Exemples
 

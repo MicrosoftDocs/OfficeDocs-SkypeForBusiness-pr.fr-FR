@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : ErrorCategory'
+title: 'Lync Server 2013 : table ErrorCategory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 407b7efd00a521e0eec7a6d573368d2f971ce3bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,13 +39,13 @@ _**Dernière modification de la rubrique :** 2012-08-20_
 
 La table ErrorCategory contient le nom convivial de chaque classification de diagnostic Microsoft Lync Server 2013. Par défaut, Lync Server 2013 utilise les classifications suivantes :
 
-  - 0--succès
+  - 0 : réussite
 
-  - 1-échec imprévu
+  - 1-échec ATTENDU
 
-  - 2-échec inattendu
+  - 2 : échec inattendu
 
-Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -59,26 +59,26 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>RéfCatégorie</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
-<td><p>Identificateur unique de la classification.</p></td>
+<td><p><strong>CategoryId</strong></p></td>
+<td><p>entier très petit</p></td>
+<td><p>Primaire</p></td>
+<td><p>Identificateur unique pour la classification.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Name</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valeur et nom convivial attribués à la classification. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>0--succès</p></li>
-<li><p>1-échec imprévu</p></li>
-<li><p>2-échec inattendu</p></li>
+<li><p>0 : réussite</p></li>
+<li><p>1-échec ATTENDU</p></li>
+<li><p>2 : échec inattendu</p></li>
 </ul></td>
 </tr>
 </tbody>

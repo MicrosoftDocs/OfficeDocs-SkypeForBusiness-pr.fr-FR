@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer le système Microsoft Phone pour votre entreprise. '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045166"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -56,13 +56,13 @@ Le système téléphonique offre les fonctionnalités suivantes. Sauf indication
 |[ID de l’appelant](how-can-caller-id-be-used-in-your-organization.md)  <br/> |Les appels internes à l’entreprise indiquent un ID d’appelant détaillé pour extraire des informations de l’annuaire de l’entreprise, avec l’ID d’image et la fonction de poste plutôt qu’un numéro de téléphone. Pour les appels provenant de numéros de téléphone externes, l’ID d’appelant fourni par le fournisseur de services téléphoniques est affiché. Si les numéros de téléphone externes sont des numéros secondaires dans l’annuaire de l’entreprise, les informations de l’annuaire d’entreprise sont affichées.  <br/> |
 |Changement de périphériques  <br/> |Permet aux utilisateurs de lire un appel ou une réunion sur un autre périphérique HID connecté à Teams. par exemple, en passant de leur haut-parleur PC à un casque.   <br/> |
 |Routage des appels en fonction de la présence <br/> |Contrôle les communications entrantes avec la présence, ce qui permet à l’utilisateur de bloquer toutes les communications entrantes à l’exception de celles spécifiquement indiquées.  <br/> |
-|[Pavé de numérotation intégré](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permet aux utilisateurs de composer par nom ou par numéro n’importe où dans la barre de recherche et dans le pavé de numérotation, ce qui accélère le processus de passage des appels sortants. <br/> |
+|[Pavé de numérotation intégré](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Permet aux utilisateurs de composer par nom ou par numéro n’importe où dans la barre de recherche et dans le pavé de numérotation, ce qui accélère le processus de passage des appels sortants. <br/> |
 |Appels fédérés  <br/> |Permet aux utilisateurs de se connecter, de communiquer et de collaborer en toute sécurité avec des utilisateurs de clients fédérés.  <br/> |
 |[Émettre et recevoir un appel vidéo](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Si le compte de l’utilisateur est activé pour les appels vidéo, l’utilisateur peut passer des appels vidéo en face à face avec ses contacts. Il suffit d’une caméra, de ses haut-parleurs et de votre micro. Les utilisateurs peuvent également utiliser un casque si leur ordinateur ne dispose pas d’un périphérique audio intégré.<br/> |
 |[Messagerie vocale Cloud](set-up-phone-system-voicemail.md) <br/> | Lorsqu’un utilisateur reçoit un message vocal, il est remis dans sa boîte aux lettres Exchange en tant que courrier électronique contenant le message de la boîte vocale en tant que pièce jointe. Les utilisateurs peuvent écouter leurs messages sur leur téléphone de bureau certifié et sur toutes les équipes ou applications Skype entreprise. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations.   <br/> |
 |[Paramètres d’utilisation de la boîte vocale Cloud](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permet aux utilisateurs de configurer les paramètres de leur client pour les messages d’accueil de la boîte vocale, les règles de répondeur automatique et le langage de salutation, y compris les messages d’accueil d’absence du bureau.   |
 |[Anneau secondaire](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Les utilisateurs disposant de plusieurs haut-parleurs connectés à leur PC peuvent choisir de configurer un périphérique secondaire pour sonner en plus de leur haut-parleur par défaut. Par exemple, un utilisateur équipé d’un casque connecté au PC et aux haut-parleurs de bureau peut choisir de laisser des haut-parleurs du casque et du Bureau sonner lors de la réception d’un appel.  |
-|[Alertes de sonnerie distinctive](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (teams uniquement)<br/> |Permet aux utilisateurs de sélectionner des sonneries distinctes pour les appels ordinaires, des appels transférés et des appels délégués pour pouvoir distinguer le type d’appel.  <br/> |
+|[Alertes de sonnerie distinctive](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (teams uniquement)<br/> |Permet aux utilisateurs de sélectionner des sonneries distinctes pour les appels ordinaires, des appels transférés et des appels délégués pour pouvoir distinguer le type d’appel.  <br/> |
 |[Mode partage de lignes](shared-line-appearance.md) <br/> | Permet aux utilisateurs de partager leur ligne téléphonique de sorte qu’un autre utilisateur puisse passer et recevoir des appels en son nom.|
 |[Occupé sur occupé](teams-calling-policy.md) (teams uniquement) <br/> | Une stratégie d’appel qui vous permet de configurer le mode de gestion des appels entrants lorsqu’un utilisateur se trouve déjà dans un appel ou une conférence ou qu’un appel est en attente. L’appelant entend un signal occupé lorsque l’appelant est déjà sur le téléphone. L’appelant reçoit une notification d’appel manqué mais ne peut pas répondre aux appels entrants. Cette fonctionnalité est désactivée par défaut, mais elle peut être activée par l’administrateur client. |
 |[Blocage des appels](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Permet aux utilisateurs d’ajouter des numéros de téléphone RTC à une liste d’utilisateurs bloqués de manière à ce que l’appel suivant à partir de ce numéro ne soit pas bloqué par la sonnerie de l’utilisateur.|

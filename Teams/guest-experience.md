@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977526"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -56,6 +56,7 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 |Rechercher et rejoindre une équipe publique  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Afficher l'organigramme  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Utiliser la traduction intraligne  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Devenir le propriétaire de l’équipe  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 Le tableau suivant répertorie les fonctionnalités d’appel et de réunion accessibles aux invités par rapport aux autres types d’utilisateurs.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Contrôle d’admission des appels sur une jonction SIP'
+title: 'Lync Server 2013 : contrôle d’admission des appels sur une jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab8196070bbb7992aed915cf188d67e95912524a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ae55f6146e59931b55ec384d374ea837eeb598c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742404"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -41,13 +41,13 @@ Pour déployer le contrôle d’admission des appels sur une jonction SIP, vous 
 
 La figure suivante montre un exemple de déploiement du contrôle d’admission des appels sur une jonction SIP.
 
-**Configuration du contrôle d’admission des appels sur une jonction SIP (Session Initiation Protocol)**
+**Configuration du contrôle d’admission des appels sur une jonction SIP**
 
-![Diagramme de jonction SIP de Contrôle d’admission des appels](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagramme de jonction SIP de Contrôle d’admission des appels")
+![Diagramme de jonction SIP de contrôle d’admission des appels](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagramme de jonction SIP de contrôle d’admission des appels")
 
 Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous devrez exécuter les tâches suivantes pendant le déploiement du contrôle d’admission des appels :
 
-1.  Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, reportez-vous à [configurer les sites réseau pour CAC dans Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) dans la documentation de déploiement.
+1.  Créez un site réseau pour représenter le fournisseur de services de téléphonie Internet. Associez le site réseau à une région réseau appropriée, et allouez une bande passante nulle pour l’audio et la vidéo pour ce site réseau. Pour plus d’informations, reportez-vous à la rubrique [configure Network sites for CAC in Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md) dans la documentation de déploiement.
     
     <div>
     
@@ -58,9 +58,9 @@ Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous
     
     </div>
 
-2.  Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, reportez-vous à [création de stratégies d’intersite réseau dans Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) dans la documentation de déploiement. Consultez également la documentation Lync Server Management Shell pour l’applet de nouvelle-CsNetworkInterSitePolicy.
+2.  Créez un lien intersite pour la jonction SIP à l’aide des valeurs de paramètre pertinentes pour le site créé à l’étape 1. Par exemple, utilisez le nom du site réseau dans votre entreprise comme valeur du paramètre NetworkSiteID1 et le site réseau du fournisseur de services de téléphonie Internet comme valeur du paramètre NetworkSiteID2. Pour plus d’informations, consultez la rubrique [Create Network intersite Policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md) dans la documentation de déploiement. Consultez également la documentation Lync Server Management Shell pour la cmdlet New-CsNetworkInterSitePolicy.
 
-3.  Récupérez l’adresse IP du point de terminaison multimédia du contrôleur SBC auprès de votre fournisseur de services de téléphonie Internet. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, consultez [associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+3.  Récupérez l’adresse IP du point de terminaison multimédia du contrôleur SBC auprès de votre fournisseur de services de téléphonie Internet. Ajoutez cette adresse IP avec un masque de sous-réseau de 32 au site réseau qui représente le fournisseur de services de téléphonie Internet. Pour plus d’informations, consultez [la rubrique associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
 </div>
 

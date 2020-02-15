@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836236"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045026"
 ---
 ![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
@@ -49,7 +49,7 @@ Si vous avez déployé Skype entreprise Server ou Microsoft Lync local et que vo
 
 La configuration requise pour la mise à niveau de vos utilisateurs locaux vers teams consiste à configurer une connectivité hybride pour votre déploiement local de Skype entreprise Server. 
 
-Commencez par lire [prévoir une connectivité hybride](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) , puis suivez les étapes décrites dans la rubrique [configurer une connectivité hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Commencez par lire [prévoir une connectivité hybride](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) , puis suivez les étapes décrites dans la rubrique [configurer une connectivité hybride](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Étape 2 : définir le mode de coexistence de la transition (facultatif)

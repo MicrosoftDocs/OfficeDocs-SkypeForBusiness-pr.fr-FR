@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : déploiement de zones, de sites et de sous-réseaux réseau'
+title: 'Lync Server 2013 : déploiement des régions réseau, des sites et des sous-réseaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04c39a18147bad3f84bd345ec0a56b606db4cae4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e4db701dc3d43ed30b8101ef2af5ff2e4a2ad0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736274"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Déploiement de zones, sites et sous-réseaux réseau dans Lync Server 2013
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Déploiement des régions réseau, des sites et des sous-réseaux dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41736274"
 
 _**Dernière modification de la rubrique :** 2013-03-12_
 
-Après le déploiement d’Enterprise Voice, vous devez configurer les éléments suivants :
+Une fois Enterprise Voice déployé, vous devez configurer les éléments suivants :
 
   - Régions réseau
 
   - Sites réseau
 
-  - Sous-réseaux réseau
+  - Sous-réseaux de réseau
 
 <div>
 
-## <a name="define-network-regions"></a>Définir des régions réseau
+## <a name="define-network-regions"></a>Définir les régions réseau
 
-Pour définir les zones du réseau, utilisez la commande Windows PowerShell de Lync Server, le nouveau-CsNetworkRegion ou le panneau de configuration de Lync Server.
+Utilisez la commande Lync Server Windows PowerShell, le panneau de configuration New-applet csnetworkregion ou Lync Server pour définir les régions réseau.
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-Pour plus d’informations, reportez-vous à [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).
+Pour plus d’informations, consultez la rubrique [New-applet csnetworkregion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).
 
-Pour cet exemple, la commande Windows PowerShell suivante illustre la région du réseau, région 1 (Inde), définie dans ce scénario.
+Pour cet exemple, la commande Windows PowerShell suivante illustre la région réseau, région 1 (Inde), définie dans ce scénario.
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -68,15 +68,15 @@ Pour cet exemple, la commande Windows PowerShell suivante illustre la région du
 
 <div>
 
-## <a name="define-network-sites"></a>Définir des sites réseau
+## <a name="define-network-sites"></a>Définir les sites réseau
 
-Utilisez la commande Windows PowerShell de Lync Server, le nouveau-CsNetworkSite ou le panneau de configuration de Lync Server pour définir les sites réseau.
+Utilisez la commande Lync Server Windows PowerShell, New-applet csnetworksite ou le panneau de configuration Lync Server pour définir les sites réseau.
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-Pour plus d’informations, reportez-vous à [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).
+Pour plus d’informations, consultez la rubrique [New-applet csnetworksite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).
 
-Pour cet exemple, le tableau suivant et la commande Windows PowerShell Lync Server illustrent les sites réseau définis dans ce scénario. Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.
+Pour cet exemple, le tableau suivant et la commande Lync Server Windows PowerShell illustrent les sites réseau définis dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -119,15 +119,15 @@ Pour cet exemple, le tableau suivant et la commande Windows PowerShell Lync Serv
 
 <div>
 
-## <a name="define-network-subnets"></a>Définir des sous-réseaux réseau
+## <a name="define-network-subnets"></a>Définir des sous-réseaux
 
-Utilisez la commande Windows PowerShell de Lync Server, le nouveau-CsNetworkSubnet ou le panneau de configuration de Lync Server pour définir des sous-réseaux réseau et les affecter à des sites réseau.
+Utilisez la commande Lync Server Windows PowerShell, New-CsNetworkSubnet ou le panneau de configuration Lync Server pour définir des sous-réseaux réseau et les affecter aux sites réseau.
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-Pour plus d’informations, reportez-vous à [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+Pour plus d’informations, consultez la rubrique [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
-Pour cet exemple, les commandes de tableau et Windows PowerShell suivantes montrent l’affectation de sous-réseaux réseau aux sites réseau, Delhi et Hyderabad définis dans ce scénario. Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.
+Pour cet exemple, le tableau suivant et les commandes Windows PowerShell illustrent l’affectation de sous-réseaux réseau aux sites réseau, Delhi et Hyderabad, définis dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -153,9 +153,9 @@ Pour cet exemple, les commandes de tableau et Windows PowerShell suivantes montr
 <td><p>192.168.1.0</p></td>
 </tr>
 <tr class="even">
-<td><p>Réseau</p></td>
-<td><p>24</p></td>
-<td><p>24</p></td>
+<td><p>Masque</p></td>
+<td><p>heures/24</p></td>
+<td><p>heures/24</p></td>
 </tr>
 <tr class="odd">
 <td><p>ID de site</p></td>

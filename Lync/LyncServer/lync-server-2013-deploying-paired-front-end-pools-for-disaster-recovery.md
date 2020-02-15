@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de pools frontaux couplés pour la récupération d’urgence'
+title: 'Lync Server 2013 : déploiement de pools frontaux couplés pour la récupération d’urgence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740914"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41740914"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Vous pouvez facilement déployer la topologie de reprise après sinistre des pools front-end couplés à l’aide du générateur de topologie.
+Vous pouvez facilement déployer la topologie de récupération d’urgence des pools frontaux couplés à l’aide du générateur de topologie.
 
 <div>
 
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>Pour déployer une paire de pools de serveurs frontaux
 
-1.  Si les pools sont nouveaux et ne sont pas encore définis, utilisez le générateur de topologie pour créer les pools.
+1.  Si les pools ne sont pas encore définis, utilisez le générateur de topologies pour créer les pools.
 
-2.  Dans le générateur de topologie, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez sur **modifier les propriétés**.
+2.  Dans le générateur de topologies, cliquez avec le bouton droit sur l’un des deux pools, puis cliquez sur **modifier les propriétés**.
 
 3.  Cliquez sur **Résistance** dans le volet gauche, puis sélectionnez **Pool de stockage associé** dans le volet droit.
 
@@ -53,15 +53,15 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
     
     ![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
-5.  Sélectionnez **Basculement et restauration automatiques pour Voice**, puis cliquez sur **OK **.
+5.  Sélectionnez **Basculement et restauration automatiques pour Voice**, puis cliquez sur **OK**.
     
-    Quand vous affichez les détails de ce pool, le pool associé s’affiche dans le volet droit sous **Résistance**. 
+    Quand vous affichez les détails de ce pool, le pool associé apparaît dans le volet droit sous **Résistance**.
 
 6.  Utilisez le générateur de topologie pour publier la topologie.
 
 7.  Si les deux pools n’étaient pas déjà déployés, déployez-les maintenant pour terminer la configuration. Vous pouvez ignorer les deux dernières étapes de cette procédure.
     
-    Cependant, si les pools étaient déjà déployés avant de définir la relation de paire, vous devez procéder aux deux dernières étapes suivantes.
+    Toutefois, si les pools étaient déjà déployés avant de définir la relation de paire, vous devez procéder aux deux dernières étapes suivantes.
 
 8.  Sur chaque serveur frontal des deux pools, exécutez la commande suivante :
     ```console
@@ -69,7 +69,7 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
     ```
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
 
-9.  À partir d’une invite de commandes de Lync Server Management Shell, exécutez la commande suivante :
+9.  À partir d’une invite de commandes Lync Server Management Shell, exécutez la commande suivante :
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
@@ -83,7 +83,7 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’état de synchronisation dans les deux sens est stable.
+    La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’État dans les deux directions est stable.
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
 
 
 > [!NOTE]  
-> L’option <STRONG>reprise automatique et retour automatique pour les appels vocaux</STRONG> et les intervalles de temps associés dans le générateur de topologie ne s’appliquent qu’aux fonctionnalités de résilience vocale introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
+> L’option <STRONG>de basculement et de restauration automatiques pour Voice</STRONG> et les intervalles de temps associés dans le générateur de topologies s’appliquent uniquement aux fonctionnalités de résistance vocale introduites dans Lync Server 2010. La sélection de cette option ne signifie pas que le basculement du pool mentionné dans ce document est automatique. Le basculement et la restauration du pool requiert l’intervention manuelle d’un administrateur pour appeler respectivement les applets de commande de basculement et de restauration.
 
 
 

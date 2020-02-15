@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activation ou désactivation d’une application serveur Microsoft SIP Processing Language (MSPL)'
+title: 'Lync Server 2013 : activation ou désactivation d’une application serveur MSPL (Microsoft SIP Processing Language)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12fb1160742898b65b14ea17bc10a9c6ed56c780
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e8aac965a375520ac46534846a65b67e6d9f92c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41736204"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Le panneau de configuration de Lync Server vous permet d’activer ou de désactiver les applications serveur MSPL (Microsoft SIP Processing Language) qui s’exécutent dans votre environnement Lync Server 2013. Ces applications sont des applications uniquement basées sur des scripts qui utilisent un langage de script au lieu de l’API Microsoft Lync 2013 preview.
+Vous pouvez utiliser le panneau de configuration Lync Server pour activer ou désactiver les applications serveur MSPL (Microsoft SIP Processing Language) qui s’exécutent dans votre environnement Lync Server 2013. Ces applications script uniquement utilisent un langage de script au lieu de l’API de prévisualisation Microsoft Lync 2013.
 
-Tous les scripts ne peuvent pas être activés ou désactivés. Par exemple, le script DefaultRouting est activé, et cette option ne peut pas être modifiée pour DefaultRouting.
+Il n’est pas possible d’activer ou de désactiver tous les scripts. Par exemple, le script DefaultRouting est activé et ce paramètre ne peut pas être modifié pour DefaultRouting.
 
 <div>
 
 ## <a name="to-enable-or-disable-an-mspl-server-application"></a>Pour activer ou désactiver une application serveur MSPL
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **topologie** , puis sur **application serveur**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **Application de serveur**.
 
-4.  Dans la page de l' **application serveur** , cliquez sur un en-tête de colonne pour trier les applications, le cas échéant, puis cliquez sur l’application serveur que vous voulez modifier.
+4.  Dans la page **Application de serveur**, cliquez sur l’en-tête d’une colonne pour trier les applications, si nécessaire, puis sur l’application de serveur à modifier.
 
-5.  Cliquez sur **action**.
+5.  Cliquez sur **Action**.
 
-6.  Cliquez sur **activer l’application** ou désactiver l' **application** (autrement dit, si le script prend en charge cette option).
+6.  Cliquez sur **Activer l’application** ou sur **Désactiver l’application** (si le script prend en charge cette option).
 
 </div>
 
@@ -64,10 +64,10 @@ Tous les scripts ne peuvent pas être activés ou désactivés. Par exemple, le 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Marquer une application Microsoft SIP Processing Language (MSPL) comme critique ou non critique dans Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[Marquer une application MSPL (Microsoft SIP Processing Language) comme critique ou non critique dans Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
 
 
-[Afficher des applications de serveur MSPL (Microsoft SIP Processing Language) dans Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+[Afficher les applications serveur MSPL (Microsoft SIP Processing Language) dans Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
 
 [Gestion de la topologie Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  

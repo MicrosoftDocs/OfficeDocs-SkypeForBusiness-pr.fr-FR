@@ -1,5 +1,5 @@
 ---
-title: 'Rapport de diagnostic Lync Server 2013 :'
+title: 'Lync Server 2013 : rapport de diagnostic'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762342"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41762342"
 
 _**Dernière modification de la rubrique :** 2014-02-07_
 
-Le Rapport de diagnostic fournit des informations de diagnostic et d’identification et de résolution des problèmes pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations d’identification et de résolution des problèmes précieuses qui sont connues par le composant de rapport. Par exemple :
+Le Rapport de diagnostic fournit des informations de diagnostic et de dépannage pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations de dépannage précieuses qui sont connues par le composant de rapport. Par exemple :
 
-  - Code de motif fourni par la passerelle RTC qui a généré la défaillance. Quand un appel sortant échoue sur le réseau téléphonique commuté, un code de motif de la « partie Usager RNIS » (ISUP) est automatiquement généré. Par exemple, une passerelle RTC peut renvoyer le code de motif 34, indiquant ainsi qu’aucun circuit ou canal n’était disponible pour terminer l’appel.
+  - Code de motif fourni par la passerelle PSTN qui a généré la défaillance. Quand un appel sortant échoue sur le réseau téléphonique commuté, un code de motif de la « partie Usager RNIS » (ISUP) est automatiquement généré. Par exemple, une passerelle PSTN peut retourner le code de motif 34, indiquant ainsi qu’aucun circuit ou canal n’était disponible pour terminer l’appel.
 
   - Nom de domaine complet (FQDN), port et erreurs Winsock de l’homologue pour les échecs de connectivité.
 
@@ -49,7 +49,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et d’identific
 
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de diagnostic est accessible en cliquant sur la métrique du rapport de diagnostic (détail) sur le [rapport détaillé de la session d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou le rapport de détails de la Conférence.
+Le rapport de diagnostic est accessible en cliquant sur la mesure rapport de diagnostic (détail) sur le [rapport détaillé de session P2P dans Lync Server 2013 ou dans](lync-server-2013-peer-to-peer-session-detail-report.md) le rapport détaillé de conférence.
 
 </div>
 
@@ -116,7 +116,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 <tr class="odd">
 <td><p><strong>ID de diagnostic</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.</p></td>
+<td><p>Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de contenu</strong></p></td>
@@ -147,7 +147,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 </table>
 
 
-La liste des erreurs de diagnostic est disponible sur la [page d’en-tête MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Une liste des erreurs de diagnostic se trouve dans la [page d’en-tête MS-Diagnostics](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx).
 
 </div>
 

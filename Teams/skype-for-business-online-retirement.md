@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029395"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
@@ -34,7 +34,7 @@ La mise à jour de Skype entreprise Online sera le 31 juillet 2021 et après cet
 
 ## <a name="why-are-we-making-this-announcement-now"></a>Pourquoi devons-nous faire cette annonce maintenant ?
 
-Dans 2017, nous avons lancé Microsoft teams en tant que « Hub pour le travail en équipe » dans Microsoft 365. Teams combine la collaboration, la vidéo, les appels et la collaboration sur des documents dans une application unique et intégrée, et permet de travailler de manière entièrement nouvelle. Au cours des deux dernières années, nous avons étroitement collaboré avec ses clients pour affiner les équipes, et nous sommes désormais au point que nous puissions vous recommander ce service en tant que mise à niveau de tous les clients de Skype entreprise online. Les clients qui ont déjà consenti le déménagement indiquent que teams n’ont pas seulement contribué à améliorer la collaboration en règle générale, il a également prévu une seule occasion de repenser la façon dont le travail est réalisé au sein de leur organisation. Grâce aux équipes, les entreprises à travers le monde sont de plus en plus agiles, de réduire le temps de cycle, d’améliorer l’efficacité des flux de travail clés et de réduire la surcharge inutile. Teams n’est pas une seule mise à niveau de Skype entreprise Online, c’est un outil puissant qui permet d’ouvrir la porte à une façon entièrement nouvelle de travailler. N’avez-vous pas le mot ! Pour plus d’informations sur les avantages potentiels des équipes de votre organisation, nous avons publié le livre blanc de Forrester publié en dernier, c’est-à-dire[le niveau d’impact économique total de Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf).»
+Dans 2017, nous avons lancé Microsoft teams en tant que « Hub pour le travail en équipe » dans Microsoft 365. Teams combine la collaboration, la vidéo, les appels et la collaboration sur des documents dans une application unique et intégrée, et permet de travailler de manière entièrement nouvelle. Au cours des deux dernières années, nous avons étroitement collaboré avec ses clients pour affiner les équipes, et nous sommes désormais au point que nous puissions vous recommander ce service en tant que mise à niveau de tous les clients de Skype entreprise online. Les clients qui ont déjà consenti le déménagement indiquent que teams n’ont pas seulement contribué à améliorer la collaboration en règle générale, il a également prévu une seule occasion de repenser la façon dont le travail est réalisé au sein de leur organisation. Grâce aux équipes, les entreprises à travers le monde sont de plus en plus agiles, de réduire le temps de cycle, d’améliorer l’efficacité des flux de travail clés et de réduire la surcharge inutile. Teams n’est pas une seule mise à niveau de Skype entreprise Online, c’est un outil puissant qui permet d’ouvrir la porte à une façon entièrement nouvelle de travailler. N’avez-vous pas le mot ! Pour plus d’informations sur les avantages potentiels des équipes de votre organisation, nous avons publié le livre blanc de Forrester publié en dernier, c’est-à-dire[le niveau d’impact économique total de Microsoft teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf).»
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>Qu’est-ce que Microsoft effectue pour aider les clients à migrer vers teams ?
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc306e97c3325ce4cfc11110665bd2f23781cf89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72708219dcb6df3b0a0185cb9c59bcbd84c5c19a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742894"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742894"
 
 _**Dernière modification de la rubrique :** 2012-06-18_
 
-Cette rubrique fournit une vue d’ensemble des stratégies et paramètres liés au client que vous pouvez configurer dans Lync Server 2013. Lync Server 2013 inclut les outils suivants pour la gestion et la configuration des clients :
+Cette rubrique fournit une vue d’ensemble des paramètres et des stratégies liées au client que vous pouvez configurer dans Lync Server 2013. Lync Server 2013 inclut les outils suivants pour la gestion et la configuration des clients :
 
-  - **Panneau de configuration**   de Lync Server 2013 une interface utilisateur graphique basée sur le Web pour la gestion et la configuration des serveurs, utilisateurs, clients et périphériques.
+  - **Panneau de configuration**   Lync Server 2013 interface utilisateur graphique basée sur le Web pour la gestion et la configuration des serveurs, des utilisateurs, des clients et des appareils.
 
-  - **Lync Server Management Shell**   interface de gestion dotée d’un ensemble complet d’applets de commande d’interface de ligne de commande Windows PowerShell et de plusieurs scripts prédéfinis.
+  - **Lync Server Management Shell**   une interface de gestion avec un ensemble complet d’applets de commande d’interface de ligne de commande Windows PowerShell et un certain nombre de scripts prédéfinis.
 
-  - **Stratégie de groupe Lync 2013**     ensemble de stratégies que vous pouvez configurer pour les clients à l’aide du modèle d’administration de stratégie de groupe Office. Certaines stratégies de démarrage de client doivent être configurées avant le déploiement de clients Lync 2013. D’autres paramètres facultatifs de Lync 2010 continuent d’être respectés dans Lync 2013.
+  - **Stratégie de groupe Lync 2013**     un ensemble de stratégies que vous pouvez configurer pour les clients à l’aide du modèle d’administration de stratégie de groupe Office. Certaines stratégies de démarrage client doivent être configurées avant de déployer les clients Lync 2013. Les autres paramètres facultatifs de Lync 2010 continuent à être honorés dans Lync 2013.
 
-Cette section décrit les modifications apportées aux paramètres liés au client dans Lync Server 2013.
+Cette section décrit les modifications apportées aux paramètres du client dans Lync Server 2013.
 
 <div>
 

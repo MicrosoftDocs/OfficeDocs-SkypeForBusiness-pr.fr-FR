@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des ports - Directeur unique'
+title: 'Lync Server 2013 : Résumé des ports-directeur unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0179d6fd27207d28caa10ffa01bea155f9b00c03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95ae1ada828ea4ad3c6bdd2c863333c911635ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Résumé des ports - Directeur unique dans Lync Server 2013
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Résumé des ports-directeur unique dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41725024"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-La configuration requise pour les ports de pare-feu pour un seul directeur consiste à utiliser les ports utilisés pour établir une communication avec le directeur à partir de l’interface interne ou du réseau interne du proxy inverse. Microsoft Lync Server 2013 par défaut s’attend à ce que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts du proxy inverse au directeur, ainsi qu’au pool frontal et au serveur frontal. Par ailleurs, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge au directeur et au serveur principal et au pool frontal. Le protocole SIP utilise SIP/MTLS/TCP 5061 du serveur Edge au pool frontal et au serveur frontal. Une règle qui autorise la communication SIP/MTLS/TCP 5061 à partir du réalisateur, du pool frontal et du serveur frontal vers l’interface interne du serveur Edge doit également être créée.
+Les exigences de port de pare-feu pour un seul directeur consistent en des ports utilisés pour établir la communication avec le directeur depuis l’interface interne ou le réseau interne du proxy inverse. Microsoft Lync Server 2013 attend par défaut que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts depuis le proxy inverse vers le directeur, ainsi que le pool frontal et le serveur frontal. En outre, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge vers le directeur et vers le pool frontal et le serveur frontal. Le protocole SIP utilise SIP/MTLS/TCP 5061 à partir du serveur Edge vers le pool frontal et le serveur frontal. Une règle qui autorise la communication SIP/MTLS/TCP 5061 depuis le directeur, le pool frontal et le serveur frontal vers l’interface interne du serveur Edge doit également être créée.
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>Ports et protocoles de Director uniques pour les définitions de pare-feu
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>Ports et protocoles de directeur unique pour les définitions de pare-feu
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ La configuration requise pour les ports de pare-feu pour un seul directeur consi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rôles/protocole/TCP ou UDP/Port</th>
+<th>Rôle/Protocole/TCP ou UDP/Port</th>
 <th>Adresse IP source</th>
 <th>Adresse IP de destination</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP/TCP 8080</p></td>
-<td><p>Interface interne du proxy inverse</p></td>
-<td><p>directeur</p></td>
-<td><p>Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée au directeur et aux services Web du serveur principal.</p></td>
+<td><p>HTTP/TCP 8080</p></td>
+<td><p>Interface interne de proxy inverse</p></td>
+<td><p>48000b</p></td>
+<td><p>Initialement reçus par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur et du serveur frontal.</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP 4443</p></td>
-<td><p>Interface interne du proxy inverse</p></td>
-<td><p>directeur</p></td>
-<td><p>Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée au directeur et aux services Web du serveur principal.</p></td>
+<td><p>HTTPS/TCP 4443</p></td>
+<td><p>Interface interne de proxy inverse</p></td>
+<td><p>48000b</p></td>
+<td><p>Initialement reçus par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur et du serveur frontal.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 444</p></td>
-<td><p>directeur</p></td>
-<td><p>Serveur frontal ou liste de front-end</p></td>
-<td><p>Communication entre serveur entre le directeur et le serveur frontal</p></td>
+<td><p>HTTPS/TCP 444</p></td>
+<td><p>48000b</p></td>
+<td><p>Serveur frontal ou pool frontal</p></td>
+<td><p>Communication entre le directeur et le serveur frontal</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP/TCP 80</p></td>
+<td><p>HTTP/TCP 80</p></td>
 <td><p>Clients internes</p></td>
-<td><p>Services Web de Director</p></td>
+<td><p>Services Web Director</p></td>
 <td><p>Le directeur fournit des services Web aux clients internes et externes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 443</p></td>
+<td><p>HTTPS/TCP 443</p></td>
 <td><p>Clients internes</p></td>
-<td><p>Services Web de Director</p></td>
+<td><p>Services Web Director</p></td>
 <td><p>Le directeur fournit des services Web aux clients internes et externes.</p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP 5061</p></td>
+<td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>directeur</p></td>
-<td><p>Communication SIP du serveur Edge au directeur et au serveur frontal.</p></td>
+<td><p>48000b</p></td>
+<td><p>Communication SIP entre le serveur Edge et le directeur, ainsi que le serveur frontal.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,5 @@
 ---
-title: >
-  Lync Server 2013 : Configuration de la connexion automatique du client pour utiliser le directeur
+title: 'Lync Server 2013 : configuration de la connexion automatique du client pour utiliser le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,16 +12,16 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a6d9090796b2c6c2271025ed4d17a134943c11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 634bfad77e61846528b6013b82921dfdc366f372
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -38,23 +37,23 @@ ms.locfileid: "41757798"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Lorsque vous déployez un serveur Lync Server 2013, un directeur ou un pool de directeurs, nous vous recommandons d’utiliser la connexion automatique à un client comme recommandée. Pour plus d’informations sur la configuration des serveurs DNS pour la connexion automatique au client, voir [configuration DNS requise pour la connexion automatique au client dans Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) dans la documentation de planification.
+Lorsque vous déployez un serveur Lync Server 2013, un directeur ou un pool de directeurs, nous vous recommandons d’utiliser la connexion automatique des clients comme meilleure pratique. Pour plus d’informations sur la configuration des serveurs DNS pour la connexion automatique des clients, voir [configuration DNS requise pour la connexion automatique des clients dans Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) dans la documentation de planification.
 
-Si vous avez déjà déployé la connexion automatique au client, consultez les sections suivantes pour le configurer sur votre ou vos directeurs.
+Si vous avez déjà déployé l’ouverture de session client automatique, consultez les sections suivantes pour la configurer sur votre ou vos directeurs.
 
 <div>
 
-## <a name="single-director-instance"></a>Instance de réalisateur unique
+## <a name="single-director-instance"></a>Instance de directeur unique
 
-Si vous disposez déjà d’une connexion client automatique déployée et qu’elle pointe vers un serveur frontal ou un pool frontal, vous devez modifier l’enregistrement SRV DNS pour qu’il pointe vers le directeur.
+Si vous avez déjà déployé la connexion client automatique et qu’elle pointe vers un serveur frontal ou un pool frontal, vous devez modifier l’enregistrement DNS SRV de sorte qu’il pointe vers le directeur.
 
 </div>
 
 <div>
 
-## <a name="director-pool"></a>Pool de réalisateurs
+## <a name="director-pool"></a>Pool directeur
 
-Si vous avez déjà déployé la connexion automatique au client et qu’elle pointe vers un serveur frontal ou un pool frontal, vous devez modifier l’enregistrement SRV DNS de façon à ce qu’il pointe vers le pool de directeurs.
+Si vous avez déjà déployé la connexion client automatique et qu’elle pointe vers un serveur frontal ou un pool frontal, vous devez modifier l’enregistrement DNS SRV de sorte qu’il pointe vers le pool directeur.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Fonctionnalités de la messagerie unifiée intégrée'
+title: 'Lync Server 2013 : fonctionnalités de la messagerie unifiée intégrée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69726c614df344c76b06cf68e4d844c0514af7dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c70df997e0ed42f77451287cccbae23ae93d14e6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765142"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>Fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>Fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765142"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Lync Server 2013, voix entreprise utilise l’infrastructure de messagerie unifiée Exchange pour fournir des réponses aux appels, des notifications d’appel, l’accès vocal (y compris la messagerie vocale) et des services de standard automatique.
+Lync Server 2013, voix entreprise utilise l’infrastructure de messagerie unifiée Exchange pour fournir des services de répondeur automatique, de notification d’appel, d’accès vocal (y compris la messagerie vocale) et de services de standard automatique.
 
 <div>
 
 ## <a name="call-answering"></a>Répondeur automatique
 
-La fonction de répondeur automatique consiste à prendre les messages vocaux pour le compte d’utilisateurs qui ne peuvent pas répondre aux appels ou qui sont déjà au téléphone. Elle comprend la lecture d’un message d’accueil personnel, l’enregistrement d’un message et l’envoi du message dans la file d’attente avant qu’il soit finalement remis dans la boîte aux lettres de l’utilisateur, qui est stockée sur le serveur de boîte aux lettres Exchange.
+Le répondeur automatique est la réception de messages vocaux pour le compte des utilisateurs dont les appels ne sont pas traités ou qui sont occupés. Elle inclut la lecture d’un message d’accueil personnel, l’enregistrement d’un message et l’envoi du message pour être mis en file d’attente pour remise à la boîte aux lettres de l’utilisateur, qui est stockée sur le serveur de boîtes aux lettres Exchange.
 
-Si un appelant laisse un message, celui-ci est transmis à la boîte de réception de l’utilisateur. Si un appelant choisit de ne pas laisser de message, une notification d’appel manqué est enregistrée dans la boîte aux lettres de l’utilisateur. L’utilisateur peut ensuite accéder à sa boîte de réception à l’aide du client de messagerie et de collaboration de Microsoft Outlook, d’Outlook Web Access, de la technologie Exchange ActiveSync ou d’Outlook Voice Access. L’objet et la priorité des appels peuvent être affichés à peu près de la même façon que dans un message électronique.
+Si un appelant laisse un message, celui-ci est transmis à la boîte de réception de l’utilisateur. Si un appelant choisit de ne pas laisser de message, une notification d’appel manqué est stockée dans la boîte aux lettres de l’utilisateur. L’utilisateur peut ensuite accéder à sa boîte de réception à l’aide du client de messagerie et de collaboration de Microsoft Outlook, d’Outlook Web Access, de la technologie Exchange ActiveSync ou d’Outlook Voice Access. L’objet et la priorité des appels peuvent être affichés à peu près de la même façon que dans un message électronique.
 
 </div>
 
@@ -53,7 +53,7 @@ Si un appelant laisse un message, celui-ci est transmis à la boîte de récepti
 
 ## <a name="outlook-voice-access"></a>Outlook Voice Access
 
-Outlook Voice Access permet à un utilisateur de voix entreprise d’accéder uniquement à la messagerie vocale, mais également à la boîte de réception Exchange, y compris à la messagerie, au calendrier et aux contacts à partir d’une interface de téléphonie. Le numéro d’accès de l’abonné est attribué par un administrateur de messagerie unifiée Exchange.
+Outlook Voice Access permet à un utilisateur de Voix Entreprise d’accéder non seulement à la messagerie vocale, mais également à la boîte de réception Exchange, y compris à la messagerie électronique, au calendrier et aux contacts à partir d’une interface de téléphonie. Le numéro d’accès abonné est affecté par un administrateur de messagerie unifiée Exchange.
 
 </div>
 
@@ -61,7 +61,7 @@ Outlook Voice Access permet à un utilisateur de voix entreprise d’accéder un
 
 ## <a name="auto-attendant"></a>Standard automatique
 
-Le standard automatique est une fonctionnalité de MU Exchange qui peut être utilisée pour configurer un numéro de téléphone que les utilisateurs externes peuvent composer pour joindre des représentants d’une entreprise. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur Exchange UM par l’administrateur Exchange UM.
+Le standard automatique est une fonctionnalité de messagerie unifiée Exchange qui permet de configurer un numéro de téléphone que les utilisateurs externes peuvent composer pour atteindre les représentants d’une entreprise. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie unifiée Exchange par l’administrateur de messagerie unifiée Exchange.
 
 </div>
 
@@ -69,13 +69,13 @@ Le standard automatique est une fonctionnalité de MU Exchange qui peut être ut
 
 ## <a name="fax-services"></a>Services de télécopie
 
-La messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, reportez-vous à la section « messagerie [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)unifiée » dans la documentation Microsoft Exchange Server à l’adresse.
+La messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, reportez-vous à la rubrique « messagerie [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)unifiée » dans la documentation de Microsoft Exchange Server à l’adresse.
 
 <div>
 
 
 > [!NOTE]  
-> Les services de télécopie fournis par le serveur de messagerie unifiée Exchange ne sont pas disponibles dans les déploiements de Lync Server intégrés à Microsoft Exchange Server 2010, Exchange 2010 avec le dernier Service Pack ou Exchange 2013.
+> Les services de télécopie fournis par le serveur de messagerie unifiée Exchange ne sont pas disponibles dans les déploiements Lync Server qui sont intégrés à Microsoft Exchange Server 2010, Exchange 2010 avec le Service Pack le plus récent ou Exchange 2013.
 
 
 

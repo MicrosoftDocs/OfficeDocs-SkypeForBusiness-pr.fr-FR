@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Clients pris en charge pour le parcage d’appel'
+title: 'Lync Server 2013 : clients pris en charge pour le parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756458"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756458"
 
 _**Dernière modification de la rubrique :** 2012-09-13_
 
-Cette section identifie les clients qui peuvent être utilisés pour parcr les appels et les clients qui peuvent être utilisés pour récupérer les appels en stationnement.
+Cette section identifie les clients qu’il est possible d’utiliser pour le parcage des appels et ceux que vous pouvez utiliser pour récupérer des appels parqués.
 
 <div>
 
 ## <a name="clients-supported-for-parking-calls"></a>Clients pris en charge pour le parcage d’appel
 
-Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), PSTN (réseau téléphonique commuté) ou mobile peuvent être parqués.
+Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), RTC (réseau téléphonique commuté) ou mobile peuvent être parqués.
 
 <div>
 
@@ -55,21 +55,21 @@ Les appels de n’importe quel téléphone IP, PBX (autocommutateur privé), PS
 
 </div>
 
-Les clients suivants peuvent utiliser le parc d’appels pour les appels de parc :
+Les clients suivants peuvent utiliser les appels de parcage d’appel vers parcage :
 
-  - Lync 2013
+  - Lync 2013
 
-  - Lync 2010
+  - Lync 2010
 
-  - Lync 2010 attendant
+  - Lync 2010 Attendant
 
-  - Lync Phone Edition
+  - Lync Phone Edition
 
 <div>
 
 
 > [!NOTE]  
-> Les téléphones mobiles ne peuvent pas utiliser le parc d’appels pour Park.
+> Les téléphones mobiles ne peuvent pas utiliser le parcage d’appel vers des appels Park.
 
 
 
@@ -81,23 +81,23 @@ Les clients suivants peuvent utiliser le parc d’appels pour les appels de parc
 
 ## <a name="clients-supported-for-retrieving-calls"></a>Clients pris en charge pour la récupération des appels
 
-Les plages d’orbites sont configurées en tant que blocs de postes virtuels (postes sans utilisateur ou téléphone attribué). Lorsque vous configurez des orbites sous la forme de postes virtuels, les téléphones mobiles et PSTN ne peuvent pas récupérer des appels parqués.
+Les plages d’orbites sont configurées en tant que blocs de postes virtuels (postes sans utilisateur ou téléphone attribué). Lorsque vous configurez des orbites sous la forme de postes virtuels, les téléphones mobiles et RTC ne peuvent pas récupérer des appels parqués.
 
 Les utilisateurs fédérés ne peuvent pas récupérer des appels parqués.
 
-Les clients suivants peuvent récupérer les appels qui sont au parking sur le parc d’appels :
+Les clients suivants peuvent récupérer des appels parqués sur le parcage d’appel :
 
-  - Lync 2013
+  - Lync 2013
 
-  - Lync 2010
+  - Lync 2010
 
-  - Lync 2010 attendant
+  - Lync 2010 Attendant
 
-  - Lync Phone Edition
+  - Lync Phone Edition
 
   - Téléphones de partie commune IP
 
-  - Téléphones non IP connectés à l’infrastructure 2013 du serveur Lync, y compris les téléphones portables et les téléphones PBX (Private Branch Exchange)
+  - Téléphones non IP connectés à l’infrastructure Lync Server 2013, y compris les téléphones de partie commune et les téléphones PBX (Private Branch Exchange)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapports de diagnostic d’appel'
+title: 'Lync Server 2013 : rapports de diagnostic des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41100a6cc41c38b3d32870d530f99d8c919a2e83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cd121aa0f93a6fca92293d926c89bf1527931cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743094"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41743094"
 
 _**Dernière modification de la rubrique :** 2012-10-21_
 
-Les rapports de diagnostic des appels fournissent des informations récapitulatives et des données de diagnostic relatives aux sessions P2P et de conférence ayant échoué.
+Les rapports de diagnostic des appels fournissent des informations récapitulatives et des données de diagnostic relatives aux sessions d’égal à égal et de conférence ayant échoué.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Rapport de synthèse des diagnostics dans Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   fournit un récapitulatif global des sessions d’égal à égal et des sessions de conférence. Les sessions P2P sont des sessions impliquant seulement deux utilisateurs. Les sessions de conférence impliquent trois participants ou plus.
+  - [Le rapport de synthèse de diagnostic des appels dans Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   fournit un résumé global des sessions de conférence et sessions P2P ayant échoué. Les sessions d’égal à égal sont des sessions qui n’impliquent que deux participants. Les sessions de conférence impliquent trois participants ou plus.
 
-  - [Rapport de diagnostic d’activité d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   fournit une vue de tendance globale des sessions d’égal à égal ayant échoué. Une session P2P implique uniquement deux participants.
+  - [Le rapport de diagnostic des activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   fournit une vue d’ensemble de la tendance des sessions P2P ayant échoué. Une session d’égal à égal implique uniquement deux participants.
 
-  - [Rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   offre une vue d’ensemble des tendances globales des sessions de conférence et des vues de tendance en échec pour chaque modalité de conférence. Les sessions de conférence impliquent au moins trois participants.
+  - [Le rapport de diagnostic de conférence dans Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   fournit une vue d’ensemble de la tendance des sessions de conférence et des vues de tendance ayant échoué pour chaque modalité de conférence. Les sessions de conférence impliquent au moins trois participants.
 
-  - [Rapport sur les principaux échecs dans Lync Server 2013](lync-server-2013-top-failures-report.md)   fournit une liste des erreurs les plus fréquentes et leurs tendances dans le temps.
+  - [Top Failures Report in Lync Server 2013](lync-server-2013-top-failures-report.md)   fournit une liste des défaillances les plus fréquentes et présente leurs tendances au fil du temps.
 
-  - [Rapport de distribution des échecs dans Lync Server 2013](lync-server-2013-failure-distribution-report.md)   fournit une analyse des sessions ayant échoué.
+  - [Failure distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md)   fournit une analyse des sessions ayant échoué.
 
-  - [Rapport de liste d’échecs dans Lync Server 2013](lync-server-2013-failure-list-report.md)   fournit des informations détaillées sur les participants individuels impliqués dans une conférence en échec.
+  - [Le rapport des listes d’échecs dans Lync Server 2013](lync-server-2013-failure-list-report.md)   fournit des informations détaillées sur les participants individuels impliqués dans une conférence ayant échoué.
 
-  - [Rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md)   fournit des informations de diagnostic et de dépannage (y compris les codes de réponse SIP et les en-têtes et ID de diagnostic) pour les échecs de session.
+  - [Le rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md)   fournit des informations de diagnostic et de dépannage (notamment des codes de réponse SIP et des en-têtes et ID de diagnostic) pour les sessions ayant échoué.
 
 </div>
 

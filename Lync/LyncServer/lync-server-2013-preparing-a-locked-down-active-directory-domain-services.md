@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Préparation des services de domaine Active Directory verrouillés'
+title: 'Lync Server 2013 : préparation des services de domaine Active Directory verrouillés'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d589fbc6b7d31b38bc788ba9851edf4386294ea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0181c2e4362685f8840af66d6a885c3e02611a85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747454"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Préparation des services de domaine Active Directory verrouillés dans Lync Server 2013
+# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Préparation d’un service de domaine Active Directory verrouillé dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41747454"
 
 _**Dernière modification de la rubrique :** 2012-05-14_
 
-Les organisations verrouillent souvent les services de domaine Active Directory pour réduire les risques liés à la sécurité. Toutefois, un environnement Active Directory verrouillé peut limiter les autorisations requises par Lync Server 2013. La préparation correcte d’un environnement Active Directory verrouillé pour Lync Server 2013 implique quelques considérations et étapes supplémentaires.
+Les organisations verrouillent souvent les services de domaine Active Directory pour limiter les risques de sécurité. Toutefois, un environnement Active Directory verrouillé peut limiter les autorisations requises par Lync Server 2013. La préparation correcte d’un environnement Active Directory verrouillé pour Lync Server 2013 implique des considérations et des étapes supplémentaires.
 
-Il existe deux méthodes courantes pour lesquelles les autorisations sont limitées dans un environnement Active Directory verrouillé :
+Deux méthodes courantes permettent de limiter les autorisations dans un environnement Active Directory verrouillé :
 
-  - Les entrées de contrôle d’accès des utilisateurs authentifiées (ACE) sont supprimées des conteneurs.
+  - Les entrées de contrôle d’accès des utilisateurs authentifiés sont supprimées des conteneurs.
 
-  - L’héritage des autorisations est désactivé sur les conteneurs d’objets utilisateur, de contact, de InetOrgPerson ou d’ordinateur.
+  - L’héritage des autorisations est désactivé dans les conteneurs des objets Utilisateur, Contact, InetOrgPerson ou Ordinateur.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Suppression des autorisations d’utilisateur authentifié dans Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)
+  - [Les autorisations des utilisateurs authentifiés sont supprimées dans Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
-  - [Désactivation de l’héritage des autorisations sur les conteneurs des objets Ordinateur, Utilisateur ou InetOrgPerson dans Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+  - [L’héritage des autorisations est désactivé sur les conteneurs ordinateurs, utilisateurs ou InetOrgPerson dans Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
 
 </div>
 

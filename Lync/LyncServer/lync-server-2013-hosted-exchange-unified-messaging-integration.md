@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Intégration de la messagerie unifiée Exchange hébergée'
+title: 'Lync Server 2013 : intégration de la messagerie unifiée Exchange hébergée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fff608d74da3851f810b971f922bafd2e4c1f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 358bdeb20629bcaf69536cb6ac90d8a2d7255485
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41738994"
 
 _**Dernière modification de la rubrique :** 2012-09-20_
 
-Outre la prise en charge des versions précédentes de Lync Server 2013 pour l’intégration à des déploiements *sur site* de la messagerie unifiée Exchange, Lync Server 2013 apporte une prise en charge de l’intégration à la messagerie unifiée Exchange *hébergée* . La messagerie unifiée Exchange hébergée permet à Lync Server 2013 de fournir la messagerie vocale à vos utilisateurs si vous les transférez en tout ou partie vers un fournisseur de services Exchange hébergé tel que Microsoft Exchange Online.
+En plus de la prise en charge que les précédentes versions de Lync Server 2013 ont fournies pour l’intégration avec des déploiements *locaux* de la messagerie unifiée Exchange, Lync Server 2013 introduit la prise en charge de l’intégration à la messagerie unifiée Exchange *hébergée* . La messagerie unifiée Exchange hébergée permet à Lync Server 2013 de fournir des messages vocaux à vos utilisateurs si vous en transférez une partie ou la totalité vers un fournisseur de services Exchange hébergé tel que Microsoft Exchange Online.
 
-Lync Server 2013 voix entreprise utilise l’infrastructure de messagerie unifiée Exchange pour fournir les réponses aux appels, les notifications d’appel, l’accès vocal (y compris les messages vocaux) et les services de standard automatique. Pour plus d’informations, reportez-vous à la rubrique [fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md).
+Lync Server 2013 Enterprise Voice utilise l’infrastructure de messagerie unifiée Exchange pour fournir des services de répondeur automatique, de notification d’appel, d’accès vocal (y compris la messagerie vocale) et de standard automatique. Pour plus d’informations, reportez-vous à la rubrique [fonctionnalités de la messagerie unifiée intégrée et Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md).
 
 <div>
 
@@ -51,7 +51,7 @@ Lync Server 2013 voix entreprise utilise l’infrastructure de messagerie unifi�
 
   - [Gestion des utilisateurs Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md)
 
-  - [Gestion des objets Contact Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md)
+  - [Gestion des objets contact Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md)
 
   - [Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server 2013](lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md)
 

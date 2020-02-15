@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement d’un magasin de contacts unifié'
+title: 'Lync Server 2013 : déploiement d’un magasin de contacts unifié'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41740794"
 
 _**Dernière modification de la rubrique :** 2016-06-06_
 
-L’activation d’un magasin de contacts unifié dans Lync Server 2013 ne nécessite aucun paramètre de topologie. L’activation du magasin de contacts unifié pour les utilisateurs nécessite ce qui suit :
+L’activation du magasin de contacts unifié dans Lync Server 2013 ne requiert aucun paramètre de topologie. L’activation du magasin de contacts unifié pour les utilisateurs nécessite les éléments suivants :
 
   - La stratégie du magasin de contacts unifié est activée (par défaut).
 
   - Les utilisateurs se connectent avec Lync 2013 au moins une fois.
 
-Après la migration des contacts d’un utilisateur, ce qui se produit automatiquement lorsqu’un utilisateur se connecte à l’aide de Lync 2013, l’utilisateur peut accéder et gérer ses contacts Lync à partir de Lync 2013, Outlook 2013 ou Outlook Web Access. L’utilisateur n’a pas besoin d’être connecté à Lync pour gérer ses contacts à partir d’Outlook ou d’Outlook Web Access.
+Une fois que les contacts d’un utilisateur ont été migrés, ce qui se produit automatiquement lorsqu’un utilisateur se connecte avec Lync 2013, l’utilisateur peut accéder à ses contacts Lync et les gérer à partir de Lync 2013, Outlook 2013 ou Outlook Web Access. L’utilisateur n’a pas besoin d’être connecté à Lync pour gérer ses contacts à partir d’Outlook ou d’Outlook Web Access.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si un utilisateur se connecte à partir de Lync 2010 après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (c’est-à-dire ajouter, supprimer, déplacer, marquer, supprimer ou modifier) ces contacts.
+> Si un utilisateur se connecte à partir de Lync 2010 après la migration, les contacts et les groupes sont disponibles et à jour, mais l’utilisateur ne peut pas gérer (c’est-à-dire ajouter, supprimer, déplacer, Baliser, supprimer ou modifier) ces contacts.
 
 
 
@@ -59,11 +59,11 @@ Après la migration des contacts d’un utilisateur, ce qui se produit automatiq
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Activation des utilisateurs pour le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [Activer les utilisateurs pour le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [Migration des utilisateurs vers le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [Migrer des utilisateurs vers le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [Restauration des utilisateurs migrés dans Lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
+  - [Restaurer les utilisateurs migrés dans Lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

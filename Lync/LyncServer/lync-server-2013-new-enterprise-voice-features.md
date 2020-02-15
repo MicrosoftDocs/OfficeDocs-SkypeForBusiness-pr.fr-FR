@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités Voix Entreprise'
+title: 'Lync Server 2013 : nouvelles fonctionnalités voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92c1c264b9ffa5459962b2b6e915ea0fef2cf775
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14f3f2429183e76a120fed1ef7437f18bdb8639f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Nouvelles fonctionnalités Voix Entreprise dans Lync Server 2013
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Nouvelles fonctionnalités voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757508"
 
 _**Dernière modification de la rubrique :** 2013-05-01_
 
-Lync Server 2013 introduit de nouvelles fonctionnalités de routage et de gestion des appels qui améliorent la voix entreprise.
+Lync Server 2013 introduit plusieurs nouvelles fonctionnalités de routage et de gestion des appels qui améliorent voix entreprise.
 
-Lync Server 2013 prend en charge plusieurs Trunks entre serveurs de médiation et passerelles. Un *Trunk* est une association logique entre un numéro de port et un serveur de médiation avec un numéro de port et une passerelle. En d’autres termes, un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles, et une passerelle peut avoir plusieurs Trunks vers différents serveurs de médiation. Le routage interligne permet à Lync Server 2013 d’interconnecter un PBX IP à une passerelle réseau téléphonique commuté (PSTN) ou d’interconnecter plusieurs systèmes IP PBX. Lync Server 2013 sert de collage (c’est-à-dire d’interconnexion) entre différents systèmes de téléphonie.
+Lync Server 2013 prend en charge plusieurs jonctions entre les serveurs de médiation et les passerelles. Une *jonction* est une association logique entre un numéro de port et un serveur de médiation avec un numéro de port et une passerelle. Cela signifie qu’un serveur de médiation peut avoir plusieurs jonctions vers différentes passerelles, et une passerelle peut avoir plusieurs tronçons vers différents serveurs de médiation. Le routage interjonction permet à Lync Server 2013 d’interconnecter un système IP-PBX à une passerelle RTC (réseau téléphonique commuté) ou d’interconnecter plusieurs systèmes IP-PBX. Lync Server 2013 sert de collage (autrement dit, l’interconnexion) entre différents systèmes téléphoniques.
 
-Microsoft Lync Server 2013 apporte des améliorations aux domaines du renvoi d’appel, de la sonnerie simultanée, de la gestion de la messagerie vocale et de la présentation de l’identification de l’appelant. Ces fonctionnalités enrichissent l’interface vocale d’entreprise.
+Microsoft Lync Server 2013 apporte des améliorations dans les domaines du transfert d’appel, de la sonnerie simultanée, de la gestion de la messagerie vocale et de la présentation de l’ID de l’appelant. Ces fonctionnalités enrichissent l’expérience d’appel voix entreprise.
 
-Lync Server 2013 introduit les nouvelles améliorations suivantes dans voix entreprise :
+Lync Server 2013 présente les nouvelles améliorations suivantes à voix entreprise :
 
   - [Nouvelles fonctionnalités d’appel dans Lync Server 2013](lync-server-2013-new-call-features.md)
 
@@ -53,7 +53,7 @@ Lync Server 2013 introduit les nouvelles améliorations suivantes dans voix entr
 
   - [Nouvelle fonctionnalité de jonction dans Lync Server 2013](lync-server-2013-new-trunk-feature.md)
 
-  - [Nouvelle fonctionnalité de routage entre les jonctions dans Lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
+  - [Nouvelle fonctionnalité de jonction dans Lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
 
   - [Nouvelles fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-new-call-management-features.md)
 

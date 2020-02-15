@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Consignation des affectations de comptes Kerberos'
+title: 'Lync Server 2013 : rapports sur les affectations de comptes Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c5a6c118596acd406c3741c4dd2ee780fd381b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c742e6e7e5cedc773e0275700a738afd26a6777d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746694"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Consignation des affectations de comptes Kerberos dans Lync Server 2013
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Rapports sur les affectations de comptes Kerberos dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41746694"
 
 _**Dernière modification de la rubrique :** 2012-01-16_
 
-Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
 
-Vous pouvez utiliser l’applet de requête **Get-CsKerberosAccountAssignment** pour rechercher des informations sur les affectations de compte d’authentification Kerberos et des informations de rapport sur les affectations actuelles dans votre déploiement.
+Vous pouvez utiliser l’applet de commande **Get-CsKerberosAccountAssignment** pour rechercher des informations sur les affectations de compte d’authentification Kerberos et des informations de rapport sur les affectations actuelles dans votre déploiement.
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>Pour interroger les affectations de compte d’authentification Kerberos pour un site
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>Pour rechercher des affectations de compte d’authentification Kerberos pour un site
 
-1.  En tant que membre du groupe RTCUniversalServerAdmins, connectez-vous à un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.
+1.  En tant que membre du groupe RTCUniversalServerAdmins, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande, exécutez l’une des commandes suivantes :
+3.  Depuis la ligne de commande, exécutez l’une des commandes suivantes :
     
-      - Pour interroger toutes les affectations de compte d’authentification Kerberos au sein de votre organisation et retourner des informations d’attribution sur chacun d’eux, exécutez l’applet de requête sans paramètres :
+      - Pour rechercher toutes les affectations de compte d’authentification Kerberos dans votre organisation et renvoyer les informations d’affectation sur chacune d’entre elles, exécutez l’applet de commande sans aucun paramètre :
         
             Get-CsKerberosAccountAssignment
     
-      - Pour interroger toutes les affectations de compte d’authentification Kerberos dans votre déploiement et retourner les informations d’affectation de site sur chacun d’eux, exécutez l’applet de requête avec le paramètre Identity :
+      - Pour rechercher toutes les affectations de compte d’authentification Kerberos dans votre déploiement et renvoyer les informations d’affectation de site sur chacune d’entre elles, exécutez l’applet de commande avec le paramètre Identity :
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
@@ -63,7 +63,7 @@ Vous pouvez utiliser l’applet de requête **Get-CsKerberosAccountAssignment** 
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - Pour interroger toutes les affectations de compte d’authentification Kerberos dans un site unique et retourner les informations d’affectation de chacune d’elles, exécutez l’applet de requête avec le paramètre de filtre :
+      - Pour rechercher toutes les affectations de compte d’authentification Kerberos dans un seul site et renvoyer les informations d’affectation sur chacune d’entre elles, exécutez l’applet de commande avec le paramètre Filter :
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
@@ -75,7 +75,7 @@ Vous pouvez utiliser l’applet de requête **Get-CsKerberosAccountAssignment** 
         
 
         > [!NOTE]  
-        > Si vous spécifiez * SiteName pour le paramètre de filtre, les informations relatives à tous les sites contenant le nom de site spécifié n’importe où dans l’identificateur de site (par exemple, tous les sites contenant la chaîne Redmond dans l’identificateur de site).
+        > Si vous spécifiez *SiteName pour le paramètre Filter, le système renvoie les informations sur tous les sites qui contiennent le nom de site spécifié partout dans l’identificateur de site (par exemple, tous les sites qui contiennent la chaîne Redmond dans l’identificateur de site).
 
         
         </div>

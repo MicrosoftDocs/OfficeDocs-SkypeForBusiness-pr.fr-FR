@@ -12,20 +12,20 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8838e5d3dfd1e3590f7988102f187c49114fc233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8838336fbea4f901b763b7ca034f42e957de33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734004"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a>Exécution des tests physiques sur l’environnement
+# <a name="performing-physical-environmental-checks"></a>Effectuer des vérifications environnementales physiques
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41734004"
 
 _**Dernière modification de la rubrique :** 2014-04-30_
 
-Avant de vérifier les performances, la disponibilité et les fonctionnalités du déploiement de Lync Server 2013, vous devez vérifier l’environnement physique. Par exemple, il se peut que la température de la salle du serveur soit réduite ou qu’un câble réseau puisse être remplacé. Pour obtenir de meilleurs résultats, effectuez les inspections physiques en environnement suivantes :
+Avant de vérifier les performances, la disponibilité et les fonctionnalités du déploiement Lync Server 2013, vous devez vérifier l’environnement physique. Par exemple, il se peut que la température de la salle serveur soit abaissée ou qu’un câble réseau doit être remplacé. Pour obtenir de meilleurs résultats, effectuez les inspections environnementales physiques suivantes :
 
-  - **La sécurité physique mesure**   la protection physique de la sécurité telle que les verrouillages, les portes et les salles d’accès restreints. Recherchez les entrées non autorisées et imposées et les signes d’endommagement de l’équipement.
+  - **Mesures de sécurité physique les mesures**   de sécurité physique, telles que les verrous, les portes et les salles d’accès restreints, doivent être sécurisées. Recherchez les entrées non autorisées et forcées et les signes d'endommagement des équipements.
 
-  - ****   Le faible débit d’air de températures et d’humidité, le faible débit d’air et l’humidité peuvent entraîner une surchauffe des composants matériels. Vérifiez la température et l’humidité pour vous aider à vous assurer que les systèmes environnementaux tels que le chauffage et le conditionnement d’air peuvent respecter les conditions et fonctions acceptables dans les spécifications du fabricant du matériel. Lorsque de nouveaux équipements sont installés récemment, assurez-vous également que le flux d’air vers et depuis les serveurs n’est pas entravé et conforme aux spécifications du fabricant.
+  - **Température et humidité**   haute température, faible débit d’air et humidité peuvent entraîner une surchauffe des composants matériels. Vérifiez la température et l’humidité afin de vous assurer que les systèmes environnementaux, tels que le chauffage et l’air conditionné, peuvent conserver des conditions et des fonctions acceptables dans les spécifications du fabricant du matériel. Lors de l’installation récente d’un nouvel équipement, vérifiez également que le débit d’air à la fois vers et à partir des serveurs n’est pas entravé et conforme aux spécifications du fabricant.
 
-  - **Appareils et composants**   l’organisation Lync Server 2013 repose sur un réseau physique opérationnel et sur le matériel associé. Assurez-vous que les routeurs, commutateurs, concentrateurs, câbles physiques et connecteurs sont opérationnels.
+  - **Périphériques et composants**   l’organisation Lync Server 2013 repose sur un réseau physique opérationnel et sur le matériel associé. Assurez-vous que les routeurs, commutateurs, concentrateurs, câbles physiques et connecteurs sont opérationnels.
 
-Les spécificités de l’exécution de ces tests dépendent considérablement de votre site d’installation et du matériel de serveur choisi. La première fois que vous effectuez cette vérification, reportez-vous à la documentation matérielle et notez les paramètres souhaités pour référence future.
+Les spécificités relatives à l’exécution de ces tests dépendront en grande fonction de votre site d’installation et du matériel de serveur choisi. La première fois que vous effectuez cette vérification, reportez-vous à la documentation du matériel et notez les paramètres souhaités à des fins de référence ultérieure.
 
 ### <a name="desired-server-space-environment"></a>Environnement d’espace serveur souhaité
 
@@ -62,19 +62,19 @@ Les spécificités de l’exécution de ces tests dépendent considérablement d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Surchauffe</p></td>
+<td><p>Régulation</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Humidité ambiante</p></td>
+<td><p>Humid</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Face du serveur face</p></td>
-<td><p>Allée réactive/allée froide</p></td>
+<td><p>Face avant des faces de serveur</p></td>
+<td><p>Allée chaude/allée de froid</p></td>
 </tr>
 <tr class="even">
-<td><p>Dégagement de l’échappement n’est pas entravée</p></td>
+<td><p>Dégagement d’échappement inentravé</p></td>
 <td></td>
 </tr>
 </tbody>

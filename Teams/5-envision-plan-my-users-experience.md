@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021595"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 
@@ -108,7 +108,7 @@ Un exercice de mappage personne à appareil devrait être effectué dans le cadr
 Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
 > [!NOTE]
-> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher des périphériques certifiés dans le cadre de ce programme, voir les appareils [Microsoft teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) et les [périphériques audio et vidéo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher des périphériques certifiés dans le cadre de ce programme, voir les appareils [Microsoft teams](https://products.office.com/microsoft-teams/across-devices/devices) et les [périphériques audio et vidéo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
 
 
 

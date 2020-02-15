@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : clients pris en charge pour le prélèvement d’appels de groupe'
+title: 'Lync Server 2013 : clients pris en charge pour la prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clients pris en charge pour le prélèvement d’appels de groupe dans Lync Server 2013
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clients pris en charge pour la prise d’appel de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41756448"
 
 _**Dernière modification de la rubrique :** 2013-02-12_
 
-L’un des clients suivants peut être utilisé pour répondre aux appels aux membres d’un groupe d’appels de groupe :
+Les clients suivants peuvent être utilisés pour répondre aux appels aux membres de la prise d’appel de groupe :
 
-  - Lync 2013
+  - Lync 2013
 
-  - Lync 2010
+  - Lync 2010
 
-  - Lync Phone Edition
+  - Lync Phone Edition
 
 <div>
 
 
 > [!NOTE]  
-> Les utilisateurs peuvent utiliser n’importe lequel de ces clients pour répondre aux appels aux membres du groupe, mais les utilisateurs doivent être hébergés sur un pool Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013:2013 février.
+> Les utilisateurs peuvent utiliser l’un de ces clients pour répondre aux appels aux membres de la prise d’appel de groupe, mais les utilisateurs doivent être hébergés sur un pool Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-Dans les mises à jour cumulatives de Lync Server 2013:2013 février, les clients et appareils suivants ne sont pas pris en charge pour capter les appels vers les membres du groupe d’appels de groupe :
+Dans les mises à jour cumulatives pour Lync Server 2013 : février 2013, les clients et appareils suivants ne sont pas pris en charge pour la sélection des appels aux membres de la prise d’appel de groupe :
 
-  - Lync Mobile
+  - Lync Mobile
 
   - Application Lync pour Windows 8 et Windows RT
 
@@ -65,7 +65,7 @@ Dans les mises à jour cumulatives de Lync Server 2013:2013 février, les client
 
   - Téléphones analogiques
 
-  - Téléphones avec des numéros RTC
+  - Téléphones avec des numéros de réseau téléphonique commuté (PSTN)
 
 </div>
 

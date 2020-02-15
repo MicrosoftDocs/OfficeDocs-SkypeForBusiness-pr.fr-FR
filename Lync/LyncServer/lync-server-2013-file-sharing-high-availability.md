@@ -12,20 +12,20 @@ ms:contentKeyID: 48185238
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67fc8cfffc0b5dbecaf6da212b3a8e5414b18ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 453b4c63f58f6153092dae0259155dbfa72b5eca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735234"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Forte disponibilité du partage de fichiers dans Lync Server 2013
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Haute disponibilité du partage de fichiers dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41735234"
 
 _**Dernière modification de la rubrique :** 2012-03-30_
 
-Pour garantir une haute disponibilité du partage de fichiers Lync Server au sein d’un seul centre de données, vous pouvez utiliser le système de fichiers DFS. DFS prend en charge le basculement d’un serveur de fichiers vers un autre dans le même centre de données. Pour un déploiement à grande échelle, il est recommandé d’utiliser des serveurs de fichiers dédiés associés à l’aide de DFS.
+Pour garantir la haute disponibilité du partage de fichiers Lync Server au sein d’un centre de données unique, vous pouvez utiliser le système de fichiers DFS. DFS prend en charge le basculement d’un serveur de fichiers vers un autre dans le même centre de données. Pour un déploiement à grande échelle, il est recommandé d’utiliser des serveurs de fichiers dédiés qui sont associés à l’aide de DFS.
 
-En fonction de la taille de votre réseau et de la capacité de résilience souhaitée, vous pouvez utiliser une paire de serveurs pour héberger tous les partages de fichiers dans un site, ou utiliser une paire par pool frontal.
+En fonction de la taille de votre réseau et du niveau de résistance souhaité, vous pouvez utiliser une paire de serveurs pour héberger tous les partages de fichiers d’un site, ou utiliser une paire de serveurs par pool frontal.
 
-DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Le basculement entre les serveurs DFS doit être effectué rapidement, mais le délai de réplication des données peut empêcher les utilisateurs de continuer à travailler en cours lorsque le basculement a lieu.
+DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Le basculement entre les serveurs DFS doit être effectué rapidement, mais le délai de réplication des données peut empêcher les utilisateurs de poursuivre le travail en cours lorsque le basculement se produit.
 
-Si vous utilisez le système de fichiers DFS et le magasin de données sur le partage de fichiers est essentiel, il est recommandé de sauvegarder les fichiers partagés, par exemple tous les 4 à 8 heures. Lorsqu’un partage de fichiers ne fonctionne pas et que la réplication n’est pas à jour, vous pouvez utiliser la sauvegarde pour restaurer le contenu du serveur défaillant sur l’autre serveur associé à ce serveur à présent indisponible.
+Si vous utilisez DFS et que le magasin de données sur le partage de fichiers est crucial, vous devez sauvegarder fréquemment les partages de fichiers, par exemple toutes les 4 à 8 heures. Lorsqu’un partage de fichiers tombe en panne et que la réplication n’est pas à jour, vous pouvez utiliser la sauvegarde pour restaurer le contenu du serveur défaillant sur l’autre serveur qui est associé à ce serveur à présent indisponible.
 
 </div>
 

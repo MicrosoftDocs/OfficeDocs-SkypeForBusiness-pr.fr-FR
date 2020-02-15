@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Résumé : en savoir plus sur le rapport de diagnostic dans Skype entreprise Server.'
-ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez le rapport de diagnostic dans Skype entreprise Server.'
+ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041991"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype entreprise Server
  
-**Résumé :** En savoir plus sur le rapport de diagnostic dans Skype entreprise Server.
+**Résumé :** Découvrez le rapport de diagnostic dans Skype entreprise Server.
   
-Le Rapport de diagnostic fournit des informations de diagnostic et d’identification et de résolution des problèmes pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations d’identification et de résolution des problèmes précieuses qui sont connues par le composant de rapport. Par exemple :
+Le Rapport de diagnostic fournit des informations de diagnostic et de dépannage pour les sessions ayant échoué. Ces informations incluent à la fois l’ID de diagnostic et l’en-tête de diagnostic qui ont été signalés lorsque la session a échoué. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) qui est joint à un message SIP, tandis que l’en-tête de diagnostic fournit une description d’accompagnement pour l’ID de diagnostic. Ce rapport peut également contenir des informations de dépannage précieuses qui sont connues par le composant de rapport. Par exemple :
   
-- Code de motif fourni par la passerelle RTC qui a généré la défaillance. Quand un appel sortant échoue sur le réseau téléphonique commuté, un code de motif de la « partie Usager RNIS » (ISUP) est automatiquement généré. Par exemple, une passerelle RTC peut renvoyer le code de motif 34, indiquant ainsi qu’aucun circuit ou canal n’était disponible pour terminer l’appel.
+- Code de motif fourni par la passerelle PSTN qui a généré la défaillance. Quand un appel sortant échoue sur le réseau téléphonique commuté, un code de motif de la « partie Usager RNIS » (ISUP) est automatiquement généré. Par exemple, une passerelle PSTN peut retourner le code de motif 34, indiquant ainsi qu’aucun circuit ou canal n’était disponible pour terminer l’appel.
     
 - Nom de domaine complet (FQDN), port et erreurs Winsock de l’homologue pour les échecs de connectivité.
     
@@ -33,7 +33,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et d’identific
     
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de diagnostic est accessible en cliquant sur la métrique du rapport de diagnostic (détail) sur le [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](peer-to-peer-session-detail-report.md) ou sur le rapport Détails de la Conférence.
+Le rapport de diagnostic est accessible en cliquant sur la mesure rapport de diagnostic (détail) sur le [rapport détaillé de session P2P dans Skype entreprise Server](peer-to-peer-session-detail-report.md) ou sur le rapport détaillé de conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -45,7 +45,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
   
 **Mesures du rapport de diagnostic**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
 |**Code de réponse** <br/> |Non  <br/> |Code de réponse SIP envoyé lors de l’échec de session.  <br/> |
@@ -53,13 +53,13 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
 |**Source** <br/> |Non  <br/> |Source de l’erreur.  <br/> |
 |**URI de l’utilisateur d’origine** <br/> |Non  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
 |**Agent utilisateur d’origine** <br/> |Non  <br/> |Logiciel utilisé par le point de terminaison de l’utilisateur ayant initié la session.  <br/> |
-|**ID de diagnostic** <br/> |Non  <br/> |Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.  <br/> |
+|**ID de diagnostic** <br/> |Non  <br/> |Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.  <br/> |
 |**Type de contenu** <br/> |Non  <br/> |Type de contenu multimédia ayant échoué. Par exemple, un type de contenu courant est Application/sdp. Session Description Protocol (SDP) est un protocole Internet standard utilisé pour les annonces de session, les invitations de session et autres formes d’initiation de session multimédia.  <br/> |
 |**Application** <br/> |Non  <br/> |Application impliquée dans l’erreur.  <br/> |
 |**URI de l’utilisateur de destination** <br/> |Non  <br/> |Adresse IP de l’utilisateur ayant été invité à participer à la session.  <br/> |
 |**Temps de connexion à la conférence (ms)** <br/> |Non  <br/> |Temps (en millisecondes) utilisé pour que l’utilisateur rejoigne la conférence.  <br/> |
 |**En-tête de diagnostic** <br/> |Non  <br/> |Description de l’ID de diagnostic.  <br/> |
    
-La liste des erreurs de diagnostic est disponible sur la [page d’en-tête MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+Une liste des erreurs de diagnostic se trouve dans la [page d’en-tête MS-Diagnostics](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
   
 

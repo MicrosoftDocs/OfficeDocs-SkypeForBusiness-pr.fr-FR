@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : affichage des informations sur l’interface réseau'
+title: 'Lync Server 2013 : affichage des informations relatives à l’interface réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0434e673955729bdfad61d6e205f47dbf7f06577
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 159cc2b5fc878534dceedb5a56ab6c007898f1e6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-interface-information-in-lync-server-2013"></a>Affichage des informations de l’interface réseau dans Lync Server 2013
+# <a name="viewing-network-interface-information-in-lync-server-2013"></a>Affichage des informations d’interface réseau dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41757298"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Vous pouvez afficher les informations de l’interface réseau à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsNetworkInterface** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez afficher les informations relatives à l’interface réseau à l’aide de Windows PowerShell et de la cmdlet **Get-CsNetworkInterface** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-view-network-interface-information"></a>Pour afficher les informations sur l’interface réseau
+## <a name="to-view-network-interface-information"></a>Pour voir les informations d’interface réseau
 
-  - Pour afficher les informations sur l’interface réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+  - Pour afficher les informations relatives à l’interface réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsNetworkInterface
     
-    Cette commande renvoie des informations similaires à ce qui suit pour chaque interface réseau :
+    Cette commande renvoie des informations comme celles-ci pour chaque interface réseau :
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -59,7 +59,7 @@ Vous pouvez afficher les informations de l’interface réseau à l’aide de Wi
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    Pour plus d’informations, consultez la rubrique [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
+    Pour plus d’informations, voir [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface) (contenu éventuellement en anglais).
 
 </div>
 

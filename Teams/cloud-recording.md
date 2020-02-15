@@ -16,12 +16,12 @@ f1.keywords:
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825602"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030718"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -112,7 +112,7 @@ Pour les clients nouveaux et existants qui n’ont pas encore activé l’enregi
 
 Pour trouver la région de stockage de vos données Microsoft Stream, dans Microsoft Stream, cliquez sur **?** dans le coin supérieur droit, cliquez sur **à propos de Microsoft Stream**, puis cliquez sur **vos données sont stockées dans**.  Pour en savoir plus sur les régions dans lesquelles Microsoft Stream stocke les données, consultez le [Forum aux questions sur Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Pour en savoir plus sur l’emplacement de stockage des données dans les services dans Office 365, voir [où se trouvent vos données ?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+Pour en savoir plus sur l’emplacement de stockage des données dans les services dans Office 365, voir [où se trouvent vos données ?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activer ou désactiver la transcription d’enregistrement
 

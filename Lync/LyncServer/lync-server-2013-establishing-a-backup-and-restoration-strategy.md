@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : création d’une stratégie de sauvegarde et de restauration'
+title: 'Lync Server 2013 : établissement d’une stratégie de sauvegarde et de restauration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35674a1eee5106dd20b64060d4f039cdddc45236
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,61 +37,61 @@ ms.locfileid: "41735261"
 
 _**Dernière modification de la rubrique :** 2013-03-26_
 
-Pour pouvoir développer un plan de sauvegarde et de restauration pour Lync Server, vous devez développer une stratégie adaptée aux objectifs de votre organisation. Pour développer une stratégie efficace de sauvegarde et de restauration, vous devez :
+Avant de pouvoir développer un plan de sauvegarde et de restauration pour Lync Server, vous devez développer une stratégie adaptée aux objectifs de votre organisation. Pour développer une stratégie de sauvegarde et de restauration efficace, vous devez :
 
-  - Définissez les priorités de votre entreprise.
+  - Établir les priorités de l’entreprise.
 
-  - Identifiez les exigences de sauvegarde et de restauration.
+  - Identifier les besoins en matière de sauvegarde et de restauration.
 
 <div>
 
-## <a name="establishing-business-priorities"></a>Établissement de priorités métiers
+## <a name="establishing-business-priorities"></a>Définition des priorités de l’entreprise
 
-Évaluez les priorités des entreprises de votre organisation. En règle générale, les priorités principales pour les entreprises qui affectent votre stratégie de sauvegarde et de restauration sont les suivantes :
+Évaluez les priorités de votre organisation. Habituellement, les principales priorités de l’entreprise qui ont des répercussions sur votre stratégie de sauvegarde et de restauration sont les suivantes :
 
-  - Exigences de continuité d’activité
+  - Besoins de continuité de l’activité
 
   - Exhaustivité des données
 
-  - Criticité des données
+  - Sensibilité des données
 
-  - Exigences en matière de portabilité
+  - Besoins de portabilité
 
-  - Contraintes de coût
+  - Contraintes budgétaires
 
-Les besoins de votre entreprise, tels que ceux-ci, permettent de déterminer les contrats de niveau de service (SLA) que vous développez auprès de vos clients. Les contrats de niveau de service influent grandement sur votre stratégie de sauvegarde et de récupération.
+Les besoins de l’entreprise, tels que ceux-ci, permettent de déterminer les contrats de niveau de service (SLA) que vous développez avec vos clients. Les contrats de niveau de service influencent considérablement votre stratégie de sauvegarde et de restauration.
 
 </div>
 
 <div>
 
-## <a name="identifying-backup-and-restoration-requirements"></a>Identification des exigences de sauvegarde et de restauration
+## <a name="identifying-backup-and-restoration-requirements"></a>Identification des besoins de sauvegarde et de restauration
 
-Les priorités de votre entreprise et les accords de niveau de service agissent pour déterminer les besoins de votre organisation pour la sauvegarde et la restauration de Lync Server. Identifiez et documentez vos exigences pour ce qui suit :
+Les priorités de votre entreprise et les contrats de niveau de service agissent dans la détermination de la configuration requise de votre organisation pour la sauvegarde et la restauration de Lync Server. Identifiez et documentez vos besoins dans les domaines suivants :
 
-  - **Fréquence des sauvegardes**   pour plus d’informations sur les meilleures pratiques en matière de fréquence de sauvegarde, voir [meilleures pratiques pour la sauvegarde et la restauration de Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - **Fréquence des sauvegardes**   pour plus d’informations sur les meilleures pratiques en matière de fréquence de sauvegarde, voir [Best Practices for Backup and Restoration for Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **Les outils**   de sauvegarde et de restauration incluent qui consiste à utiliser les outils, et sur quels ordinateurs. Pour plus d’informations sur les outils mentionnés dans cette rubrique et les autorisations nécessaires, voir [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - **Les outils**   de sauvegarde et de restauration incluent qui doit utiliser les outils et sur quels ordinateurs. Pour plus d’informations sur les outils présentés dans cette rubrique et les autorisations nécessaires, voir [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - **Emplacement de sauvegarde**   : Déterminez si les sauvegardes sont conservées localement ou à distance, en tenant compte de la sécurité et de l’accessibilité. Spécifiez le média à utiliser pour les sauvegardes.
+  - **Emplacement de sauvegarde**   identifiez si les sauvegardes sont conservées localement ou à distance, en tenant compte de la sécurité et de l’accessibilité. Spécifiez les supports à utiliser pour les sauvegardes.
 
-  - **Les configurations**   matérielles et logicielles permettent de recenser et de documenter votre configuration matérielle et logicielle requise, y compris le matériel de sauvegarde et de restauration de composants spécifiques et toute connectivité logicielle et réseau requise pour la prise en charge de la sauvegarde et de la restauration. Lorsque vous développez votre configuration matérielle et logicielle, n’oubliez pas les différents scénarios de restauration suivants.
+  - **Configuration matérielle et logicielle requise**   Identifiez et consignez les configurations matérielle et logicielle requises spécifiques, notamment le matériel de stockage de sauvegarde et la restauration de composants spécifiques, ainsi que les logiciels et la connectivité réseau requis pour prendre en charge la sauvegarde et la restauration. Au fur et à mesure que vous développez votre configuration matérielle et logicielle requise, gardez à l’esprit les divers scénarios de restauration ci-après.
 
-  - **Scénarios de restauration**   Voici les processus de restauration des scénarios suivants :
+  - **Scénarios de restauration**   Voici les processus de restauration pour les scénarios suivants :
     
-      - Échec d’un pool de serveurs Lync. Ce scénario nécessite la reconstitution de chaque serveur dans le pool.
+      - Un pool Lync Server ne fonctionne pas. Ce scénario requiert une nouvelle création de chaque serveur inclus dans le pool.
     
-      - Un serveur Standard Edition Server échoue. Ce scénario nécessite la reconstitution du serveur sur un nouvel ordinateur ou un nouvel ordinateur et la restauration de bases de données.
+      - Un serveur Standard Edition Server échoue. Ce scénario requiert une nouvelle création du serveur sur un ordinateur nouveau ou nettoyé ainsi que la restauration des bases de données.
     
-      - Perte de la boutique centrale de gestion. Ce scénario nécessite au minimum la restauration et la publication du magasin central de gestion.
+      - Perte du magasin central de gestion. Au minimum, ce scénario nécessite la restauration et la publication du magasin central de gestion.
     
-      - Perte d’un serveur principal lorsque le magasin central de gestion continue de fonctionner correctement. Ce scénario nécessite la reconstitution du serveur sur un nouvel ordinateur ou un nouvel ordinateur et la restauration de bases de données.
+      - Perte d’un serveur principal lorsque le magasin central de gestion fonctionne toujours normalement. Ce scénario requiert une nouvelle création du serveur sur un ordinateur nouveau ou nettoyé ainsi que la restauration des bases de données.
     
-      - Un serveur qui fait partie d’un pool de serveurs Lync échoue. Ce scénario nécessite le réfection du serveur sur un nouvel ordinateur ou un nouvel ordinateur.
+      - Un serveur qui est membre d’un pool Lync Server ne fonctionne pas. Ce scénario requiert une nouvelle création du serveur sur un ordinateur nouveau ou nettoyé.
     
-      - Un magasin de fichiers échoue. Ce scénario nécessite la restauration du serveur de fichiers ou du groupe de fichiers.
+      - Un magasin de fichiers échoue. Ce scénario requiert la restauration du serveur de fichiers ou du cluster de fichiers.
     
-      - Une base de données de chat d’archivage, de surveillance ou persistante ne fonctionne pas. Ce scénario nécessite une recréation des bases de données, et si les données sont importantes pour votre organisation, la restauration des données. Il n’est pas nécessaire d’archiver, de surveiller et de discussions permanentes sur le serveur Lync.
+      - Une base de données d’archivage, de surveillance ou de conversation permanente échoue. Ce scénario requiert une nouvelle création des bases de données et, si les données sont critiques pour l’organisation, une restauration des données. Les données d’archivage, de surveillance et de conversation permanente ne sont pas requises pour la sauvegarde et l’exécution de Lync Server.
 
 </div>
 

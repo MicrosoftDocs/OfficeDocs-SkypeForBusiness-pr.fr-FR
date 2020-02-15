@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapports de diagnostic d’appel (par utilisateur)'
+title: 'Lync Server 2013 : Call diagnostic Reports (Per User)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743114"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41743114"
 
 _**Dernière modification de la rubrique :** 2012-10-21_
 
-Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et P2P ayant échoué.
+Les rapports de diagnostic des appels fournissent des informations par utilisateur concernant les sessions de conférence et d’égal à égal ayant échoué.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Rapport d’activité de l’utilisateur dans Lync Server 2013](lync-server-2013-user-activity-report.md)   fournit des informations sur les activités d’égal à égal et de conférence pour chaque utilisateur.
+  - [Le rapport d’activité de l’utilisateur dans Lync Server 2013](lync-server-2013-user-activity-report.md)   fournit des informations sur les activités de conférence et d’égal à égal pour chacun de vos utilisateurs.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbe142d697fc3d95772fb2d4ca758b8550054a8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735255"
 
 _**Dernière modification de la rubrique :** 2013-02-17_
 
-Pour créer un plan de sauvegarde et de restauration, procédez comme suit :
+La création d’un plan de sauvegarde et de restauration nécessite d’effectuer les étapes suivantes :
 
   - Développement du plan.
 
@@ -49,33 +49,33 @@ Pour créer un plan de sauvegarde et de restauration, procédez comme suit :
 
 ## <a name="developing-a-backup-and-restoration-plan"></a>Développement d’un plan de sauvegarde et de restauration
 
-Après avoir développé votre stratégie de sauvegarde et de restauration pour Lync Server, utilisez-la pour documenter une planification de sauvegarde et de restauration détaillées. Votre plan doit indiquer clairement les priorités et les exigences en matière de sauvegarde des données et des paramètres. Pour plus d’informations sur la [création d’une stratégie de sauvegarde et de restauration de lync 2013 server](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) 2013, vous pouvez utiliser les informations contenues dans la création d’une stratégie de sauvegarde et de restauration pour [Lync Server](lync-server-2013-backup-and-restoration-worksheets.md) et faciliter la documentation de votre stratégie. Votre plan doit également contenir des critères de décision concernant le mode de restauration du service.
+Une fois que vous avez développé votre stratégie de sauvegarde et de restauration pour Lync Server, utilisez-la pour documenter un plan de sauvegarde et de restauration détaillé. Ce plan doit identifier clairement les priorités et exigences de sauvegarde des données et paramètres. Vous pouvez utiliser les informations contenues dans la [définition d’une stratégie de sauvegarde et de restauration pour Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) et les feuilles de calcul dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) afin de faciliter la documentation de votre stratégie. Votre plan doit également contenir des critères identifiant quand et comment restaurer le service.
 
 Lorsque vous développez votre plan, vous devez prendre en compte les éléments suivants :
 
-  - Le mode de récupération des serveurs sur le nouveau matériel.
+  - la façon dont vous procéderez à la récupération des serveurs sur le nouveau matériel ;
 
-  - Le mode de récupération des services nécessitant une action de la part de plusieurs domaines ou services commerciaux.
+  - la façon dont vous procéderez à la récupération des services qui requièrent une action de la part de plusieurs unités professionnelles ou départements ;
 
-  - Comment vous pouvez obtenir des serveurs de réserve rapidement.
+  - le meilleur moyen d’acquérir rapidement des serveurs de secours ;
 
-  - Le temps nécessaire à la récupération en utilisant votre stratégie. Prenez en compte les exigences de votre organisation concernant les objectifs de temps de récupération.
+  - la durée nécessaire pour effectuer la récupération conformément à votre stratégie. Tenez compte des exigences de votre organisation concernant l’objectif de temps de récupération (RTO).
 
-Modifiez les procédures de sauvegarde et de restauration décrites dans cette rubrique, en ajoutant et en supprimant les procédures le cas échéant, afin de répercuter les serveurs et les composants dans votre déploiement. Vous pouvez également ajouter des détails appropriés, comme le planning de sauvegarde, aux procédures appropriées pour vous assurer que les informations ne sont pas ignorées.
+Modifiez les procédures de sauvegarde et de restauration décrites dans cette rubrique, en ajoutant et en supprimant les procédures appropriées, afin de refléter les serveurs et les composants de votre déploiement. Vous pouvez également ajouter des détails appropriés, tels que la planification de sauvegarde, aux procédures appropriées pour vous assurer que les informations ne sont pas négligées.
 
 <div>
 
 
 > [!NOTE]  
-> Il est recommandé de créer des scripts pour autant de étapes que possible afin de garantir la qualité et la reproductibilité des procédures.
+> Il est recommandé de créer des scripts pour autant d’étapes que possible afin de garantir la qualité et la reproductibilité des procédures.
 
 
 
 </div>
 
-Dans votre plan, spécifiez qui est responsable de la consultation du plan, qui est chargé de tester et de valider tout nouveau mode ou outil, et qui doit approuver les modifications apportées au plan et aux procédures associées.
+Dans votre plan, indiquez qui est responsable de l’examen du plan, qui est responsable du test et de la validation des nouvelles procédures ou outils, et qui doit approuver les modifications apportées au plan et aux procédures connexes.
 
-Pour vous assurer que votre plan de sauvegarde et de restauration répond bien à toutes les priorités et buts définis, obtenez l’approbation des décideurs et des décisions techniques appropriés de votre organisation avant d’implémenter le plan.
+Pour vous assurer que votre plan de sauvegarde et de restauration répond entièrement à tous les objectifs et priorités établis, obtenez l’approbation des décideurs d’entreprise et des décisionnaires techniques appropriés dans votre organisation avant d’implémenter le plan.
 
 </div>
 
@@ -83,19 +83,19 @@ Pour vous assurer que votre plan de sauvegarde et de restauration répond bien �
 
 ## <a name="implementing-the-backup-and-restoration-plan"></a>Implémentation du plan de sauvegarde et de restauration
 
-Pour implémenter un plan de sauvegarde et de restauration, procédez comme suit :
+L’implémentation d’un plan de sauvegarde et de restauration nécessite les étapes suivantes :
 
   - Test et validation du plan.
 
   - Communication du plan.
 
-  - Valider les opérations de sauvegarde et de restauration.
+  - Validation des opérations de sauvegarde et de restauration.
 
 <div>
 
 ## <a name="testing-and-validating-the-plan"></a>Test et validation du plan
 
-Les procédures décrites dans cet article ont été testées et validées dans un environnement Lab. Pour vous assurer que les procédures suivantes s’appliquent à votre environnement, testez et validez les procédures que vous envisagez d’implémenter. Finalisez le test et la validation avant de remettre votre plan pour approbation finale.
+Les procédures décrites ici ont été testées et validées dans un environnement de laboratoire. Pour vous assurer que ces procédures ou d’autres procédures fonctionnent dans votre environnement, vous devez tester et valider chaque procédure que vous envisagez d’implémenter. Terminez les tests et la validation avant d’envoyer votre plan pour approbation finale.
 
 </div>
 
@@ -103,59 +103,59 @@ Les procédures décrites dans cet article ont été testées et validées dans 
 
 ## <a name="communicating-the-plan"></a>Communication du plan
 
-Votre plan de sauvegarde et de restauration doit clairement décrire les personnes qui mettent en œuvre des procédures et des instructions détaillées pour la réalisation des procédures. Assurez-vous que toutes les personnes responsables de la sauvegarde et de la restauration comprennent le plan, la manière dont il doit être implémenté et son rôle. Cela inclut toutes les exigences en matière d’implémentation pour les éléments suivants :
+Votre plan de sauvegarde et de restauration doit identifier clairement qui implémente les procédures et fournir des instructions pas à pas pour l’exécution de ces procédures. Assurez-vous que toutes les personnes responsables de tous les aspects de la sauvegarde et de la restauration comprennent le plan, la façon dont il doit être implémenté, ainsi que son rôle. Cela comprend toutes les exigences d’implémentation pour les éléments suivants :
 
-  - Sauvegarde du pool et du serveur.
+  - Sauvegarde des pools et des serveurs.
 
   - Restauration du service.
 
-**Sauvegarde du serveur et du pool**
+**Sauvegarde des pools et des serveurs**
 
-Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à l’achèvement régulier des procédures de sauvegarde. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants :
+Le plan de sauvegarde et de restauration doit contenir toutes les informations requises pour effectuer les procédures de sauvegarde de manière régulière. Les principales informations à communiquer aux membres d’équipe responsables sont les suivantes :
 
   - Équipe ou personne (spécifiée en tant qu’individu ou rôle) responsable de la sauvegarde de chaque serveur.
 
-  - Plannings spécifiques de sauvegarde de chaque serveur.
+  - Planifications spécifiques pour la sauvegarde de chaque serveur.
 
   - Emplacements de sauvegarde pour chaque type de données (paramètres, base de données et partages de fichiers).
 
-  - Procédures de sauvegarde à utiliser, y compris les outils nécessaires à la réalisation de chaque procédure.
+  - Procédures de sauvegarde à utiliser, y compris les outils nécessaires pour effectuer chaque procédure.
 
-  - Les informations nécessaires à la réalisation des sauvegardes, telles qu’elles sont décrites dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Informations requises pour effectuer les sauvegardes, comme indiqué dans la [fiche de travail de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-  - Les méthodes de validation à utiliser pour garantir que les données et paramètres soient correctement sauvegardés et disponibles à des fins de restauration, qui peuvent inclure des audits périodiques et des restaurations de tests.
+  - Méthodes de validation à utiliser pour garantir que les données et les paramètres sont correctement sauvegardés et disponibles pour la restauration, ce qui peut inclure des audits périodiques et des restaurations de test.
 
 **Restauration du service**
 
-Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires à la restauration du service, en cas de perte de l’un ou de plusieurs serveurs pour lesquels le service n’est pas disponible. Les principales informations à communiquer aux membres de l’équipe responsable incluent les éléments suivants :
+Le plan de sauvegarde et de restauration doit inclure toutes les informations nécessaires pour restaurer le service, au cas où un ou plusieurs serveurs subiront une perte de disponibilité du service. Les principales informations à communiquer aux membres d’équipe responsables sont les suivantes :
 
-  - Une équipe ou une personne (spécifiée en tant qu’individu ou rôle) qui est responsable de la détermination du moment où la restauration du service est requise et des procédures à utiliser pour restaurer le service ainsi que de l’équipe ou de la personne responsable de la mise en œuvre de procédures pour chacun d’eux. scénario de restauration.
+  - équipe ou personne (identifiée personnellement ou par rôle) chargée de déterminer quand une restauration du service est requise et les procédures à appliquer pour restaurer le service, ainsi que l’équipe ou la personne responsable de l’implémentation des procédures pour chaque scénario de restauration ;
 
-  - Critères permettant de déterminer quelles procédures de restauration conviennent le mieux pour une situation spécifique.
+  - critères permettant d’identifier les procédures de restauration les plus appropriées pour une situation spécifique ;
 
-  - Temps d’estimation pour la restauration de l’objectif de temps de service et de temps de reprise (RTO) dans chaque scénario de restauration.
+  - Estimations de temps pour la restauration des objectifs de temps de service et de temps de récupération dans chaque scénario de restauration.
 
-  - Procédures de restauration à utiliser, y compris les outils nécessaires à la réalisation de chaque procédure.
+  - procédures de restauration à appliquer, y compris les outils nécessaires pour effectuer chaque procédure ;
 
-  - Informations nécessaires à la restauration des données et des paramètres. Les feuilles de calcul sont fournies dans les [feuilles de calcul et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
+  - informations requises pour restaurer les données et paramètres. Les feuilles de calcul sont fournies dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
 </div>
 
 <div>
 
-## <a name="validating-backup-and-restoration-operations"></a>Valider les opérations de sauvegarde et de restauration
+## <a name="validating-backup-and-restoration-operations"></a>Validation des opérations de sauvegarde et de restauration
 
-Après avoir effectué les efforts de sauvegarde initiale dans votre environnement de production et à des intervalles spécifiques (comme décrit dans votre plan de sauvegarde et de restauration), vous devez vérifier les points suivants :
+Après avoir effectué les tâches de sauvegarde initiales dans votre environnement de production et à intervalles spécifiés (tel qu’indiqué dans votre plan de sauvegarde et de restauration), vérifiez les points suivants :
 
-  - Les sauvegardes se produisent selon les besoins.
+  - les sauvegardes ont lieu au moment voulu ;
 
-  - Les données et paramètres sauvegardés sont accessibles.
+  - Les données et les paramètres sauvegardés sont accessibles.
 
-  - Les procédures de restauration peuvent être exécutées dans les temps d’objectif de temps de restauration spécifiés dans le plan de sauvegarde et de restauration, et les résultats répondent à toutes les exigences métiers.
+  - Les procédures de restauration peuvent être effectuées au cours des objectifs de temps de récupération (RTO) spécifiés dans le plan de sauvegarde et de restauration, et les résultats satisfont à tous les besoins de l’entreprise.
 
-  - Les feuilles de calcul de sauvegarde sont achevées et vérifiées, et sont stockées dans un emplacement sécurisé. Ces feuilles de calcul sont fournies dans les [feuilles de calcul et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
+  - les fiches de travail de sauvegarde ont été remplies et vérifiées et elles sont stockées à un emplacement sécurisé. Ces feuilles de calcul sont fournies dans les [feuilles de calcul de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-  - Les procédures de restauration ont été testées et vérifiées pour fonctionner comme prévu, comme indiqué dans votre plan de sauvegarde et de restauration.
+  - les procédures de restauration ont été testées et leur fonctionnement a été vérifié, comme indiqué dans votre plan de sauvegarde et de restauration.
 
 </div>
 
@@ -165,7 +165,7 @@ Après avoir effectué les efforts de sauvegarde initiale dans votre environneme
 
 ## <a name="maintaining-the-backup-and-restoration-plan"></a>Maintenance du plan de sauvegarde et de restauration
 
-Une topologie de serveur Lync est un environnement dynamique modifié par votre organisation. Réévaluez votre plan de sauvegarde et de restauration au fur et à mesure de l’évolution de votre organisation et examinez-le régulièrement pour vous assurer qu’il continue de répondre aux besoins de votre entreprise.
+Une topologie Lync Server est un environnement dynamique qui est modifié avec votre organisation. Réévaluez votre plan de sauvegarde et de restauration au fur et à mesure que votre organisation change, puis examinez-la régulièrement pour vous assurer qu’elle continue de répondre aux besoins de votre entreprise.
 
 </div>
 

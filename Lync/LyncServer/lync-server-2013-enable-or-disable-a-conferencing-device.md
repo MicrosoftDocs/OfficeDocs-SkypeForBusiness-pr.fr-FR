@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activation ou désactivation d’un appareil de conférence'
+title: 'Lync Server 2013 : activation ou désactivation d’un périphérique de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a4a0f582f57d4e096001d508d3983facdded74c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3eb79f77bd6e99d36b1a6c9c9feb67f697e40f1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Activer ou désactiver un appareil de conférence dans Lync Server 2013
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Activer ou désactiver un périphérique de conférence dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41736224"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Activez et désactivez un appareil de conférence à l’aide de l’applet de passe **Enable-CsMeetingRoom** et de l’applet **de passe CsMeetingRoom** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Activer et désactiver un périphérique de conférence à l’aide de la cmdlet **Enable-CsMeetingRoom** et de l’applet de commande **Disable-CsMeetingRoom** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -54,9 +54,9 @@ Activez et désactivez un appareil de conférence à l’aide de l’applet de p
 
 <div>
 
-## <a name="enabling-a-conferencing-device"></a>Activation d’un appareil de conférence
+## <a name="enabling-a-conferencing-device"></a>Activation d’un périphérique de conférence
 
-  - Pour activer un appareil de conférence, vous pouvez utiliser l’applet de passe **Enable-CsMeetingRoom** . Dans le cadre de l’activation d’un appareil de conférence, vous devez inclure a) l’identité de l’appareil de conférence, b) le pool d’inscriptions dans lequel le compte de la salle sera hébergé et c) l’adresse SIP à attribuer à ce compte.
+  - Pour activer un périphérique de conférence, utilisez la cmdlet **Enable-CsMeetingRoom** . Lors de l’activation d’un périphérique de conférence, vous devez inclure a) l’identité de l’appareil de conférence, b) le pool de serveurs d’inscriptions où le compte de salle sera hébergé et c) l’adresse SIP à attribuer à ce compte.
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -64,15 +64,15 @@ Activez et désactivez un appareil de conférence à l’aide de l’applet de p
 
 <div>
 
-## <a name="disabling-a-conferencing-device"></a>Désactivation d’un appareil de conférence
+## <a name="disabling-a-conferencing-device"></a>Désactivation d’un périphérique de conférence
 
-  - Pour désactiver un appareil de conférence, vous pouvez utiliser l’applet de vue **Disable-CsMeetingRoom** . Veillez à spécifier l’identité de l’appareil de conférence à désactiver :
+  - Pour désactiver un périphérique de conférence, utilisez l’applet de commande **Disable-CsMeetingRoom** . Assurez-vous que vous spécifiez l’identité du périphérique de conférence à désactiver :
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-Pour plus d’informations, consultez les rubriques d’aide de l’applet de connexion [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) et de l’applet de connexion [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .
+Pour plus d’informations, reportez-vous aux rubriques d’aide pour la cmdlet [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) et la cmdlet [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .
 
 </div>
 

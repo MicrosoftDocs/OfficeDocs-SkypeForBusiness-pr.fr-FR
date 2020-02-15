@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Configurez et utilisez l’analyse des appels pour identifier et résoudre les problèmes de qualité d’appel dans Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029405"
 ---
 # <a name="set-up-call-analytics"></a>Configurer l’analyse des appels
 
@@ -74,7 +74,7 @@ Les spécialistes de la prise en charge des communications traitent des problèm
  ### <a name="set-up-permissions-by-assigning-admin-roles"></a>Définir des autorisations en attribuant des rôles d’administrateur
 <a name="BKMK_SetUpTier"> </a>
 
-Pour plus d’informations sur l’attribution de rôles d’administrateur dans Azure Active Directory, voir [afficher et affecter des rôles dans Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+Pour plus d’informations sur l’attribution de rôles d’administrateur dans Azure Active Directory, voir [afficher et affecter des rôles dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Télécharger un fichier. TSV ou. csv pour ajouter des informations de bâtiment, de site et de client
 <a name="BKMK_UploadFiles"> </a>

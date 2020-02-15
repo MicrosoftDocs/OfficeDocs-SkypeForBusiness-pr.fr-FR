@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration d’un nœud d’observateur pour exécuter des transactions synthétiques'
+title: 'Lync Server 2013 : configuration d’un nœud observateur pour exécuter des transactions synthétiques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19211c786c288326d5769824524f5571e5df2f00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 107803caba66c19ec852d4c077e69aec5f7cf5ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Configuration d’un nœud d’observateur pour exécuter des transactions synthétiques dans Lync Server 2013
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Configuration d’un nœud observateur pour exécuter des transactions synthétiques dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41763418"
 
 _**Dernière modification de la rubrique :** 2014-02-07_
 
-Une fois les fichiers de l’agent de centre système installés, vous devez configurer le nœud de l’observateur. Les étapes à suivre pour configurer un nœud d’observateur varient selon que votre ordinateur de nœud de l’observateur se trouve à l’intérieur du réseau de périmètre ou en dehors de votre réseau de périmètre.
+Une fois les fichiers de l’agent System Center installés, vous devez configurer le nœud observateur. La procédure varie selon que l’ordinateur du nœud observateur se trouve à l’intérieur ou à l’extérieur de votre réseau de périphérie.
 
-Lorsque vous configurez un nœud observateur, vous devez également sélectionner le type de méthode d’authentification utilisé par ce nœud. Lync Server 2013 vous permet de choisir parmi deux méthodes d’authentification : serveur de confiance ou authentification des informations d’identification. Les différences entre ces deux méthodes sont décrites dans le tableau suivant :
+Lorsque vous configurez un nœud observateur, vous devez également choisir le type de méthode d’authentification utilisé par ce nœud. Lync Server 2013 vous permet de choisir l’une des deux méthodes d’authentification suivantes : serveur approuvé ou authentification des informations d’identification. Les différences entre ces deux méthodes sont indiquées dans le tableau suivant :
 
 
 <table>
@@ -57,24 +57,24 @@ Lorsque vous configurez un nœud observateur, vous devez également sélectionne
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Serveur de confiance</p></td>
+<td><p>Serveur approuvé</p></td>
 <td><p>Utilise un certificat pour emprunter l’identité d’un serveur interne et contourner les demandes d’authentification.</p>
-<p>Cette fonctionnalité est utile pour les administrateurs préférant gérer un certificat unique au lieu de nombreux mots de passe d’utilisateur sur chaque nœud d’observateur.</p></td>
-<td><p>Dans l’entreprise</p>
-<p>Notez que, dans cette méthode, le nœud Watcher doit se trouver dans le même domaine que les pools surveillés. Si le nœud d’observation et les pools surveillés figurent dans des domaines différents, utilisez plutôt l’authentification des informations d’identification.</p></td>
+<p>Utile pour les administrateurs qui préfèrent gérer un seul certificat au lieu de plusieurs mots de passe d’utilisateur sur chaque nœud observateur.</p></td>
+<td><p>Au sein de l’entreprise.</p>
+<p>Notez qu’avec cette méthode, le nœud observateur doit se trouver dans le même domaine que les pools surveillés. Si le nœud observateur et les pools surveillés se trouvent dans des domaines différents, utilisez l’authentification des informations d’identification à la place.</p></td>
 </tr>
 <tr class="even">
 <td><p>Authentification des informations d’identification</p></td>
-<td><p>Stocke les noms d’utilisateur et les mots de passe de manière sécurisée dans le Gestionnaire d’informations d’identification Windows sur chaque nœud observateur.</p>
-<p>Ce mode nécessite une plus grande gestion du mot de passe, mais est la seule option disponible pour les nœuds d’observation situés en dehors de l’entreprise. Ces nœuds observateurs ne peuvent pas être traités comme un point de terminaison approuvé pour l’authentification.</p></td>
-<td><p>En dehors de l’entreprise</p>
-<p>Dans l’entreprise</p></td>
+<td><p>Stocke les noms d’utilisateur et mots de passe de manière sécurisée dans le Gestionnaire d’informations d’identification Windows sur chaque nœud observateur.</p>
+<p>Ce mode implique davantage d’opérations de gestion des mots de passe, mais est la seule option pour les nœuds observateurs situés en dehors de l’entreprise. Ces nœuds observateurs ne peuvent pas être traités comme un point de terminaison approuvé pour l’authentification.</p></td>
+<td><p>En dehors de l’entreprise.</p>
+<p>Au sein de l’entreprise.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Vous devez également vérifier que votre pare-feu dispose de règles de trafic entrant pour MonitoringHost. exe et PowerShell. exe. Si ces processus sont bloqués par le pare-feu, vos transactions synthétiques échoueront avec l’erreur 504 (délai d’expiration du serveur).
+Vous devez également vérifier que votre pare-feu comporte des règles de trafic entrant pour MonitoringHost. exe et PowerShell. exe. Si ces processus sont bloqués par le pare-feu, vos transactions synthétiques échouent avec une erreur 504 (délai d’attente du serveur).
 
 </div>
 

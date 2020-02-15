@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : gestion d’URL simples'
+title: 'Lync Server 2013 : gestion des URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-simple-urls-in-lync-server-2013"></a>Gestion d’URL simples dans Lync Server 2013
+# <a name="managing-simple-urls-in-lync-server-2013"></a>Gestion des URL simples dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757978"
 
 _**Dernière modification de la rubrique :** 2012-10-11_
 
-Suivez les procédures décrites dans cette section pour gérer des URL simples à partir de la page **Topology** du panneau de configuration de Lync Server 2013.
+Utilisez les procédures de cette section pour gérer les URL simples à partir de la page **topologie** du panneau de configuration Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-[Afficher des informations d’URL simples dans Lync Server 2013](lync-server-2013-view-simple-url-details.md)
+[Afficher les détails des URL simples dans Lync Server 2013](lync-server-2013-view-simple-url-details.md)
 
 </div>
 

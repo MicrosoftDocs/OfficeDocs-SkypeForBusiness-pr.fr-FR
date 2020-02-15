@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Basculement et restauration d’un serveur de conversation permanente'
+title: 'Lync Server 2013 : basculement et restauration d’un serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d36196da91cacfc47d0f3117a534567ab76e3946
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 78d17ee4ae73ccfa068275ca1244355253813ae6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765212"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765212"
 
 _**Dernière modification de la rubrique :** 2012-08-03_
 
-Pour pouvoir basculer et basculer vers Lync Server 2013, le serveur de chat permanent, vous devez être familiarisé avec les processus de réplication et de basculement pour Microsoft SQL Server 2008 R2 et version ultérieure. Vous devez également être familiarisé avec les services serveur de chat permanent.
+Pour basculer et restaurer le serveur de conversation permanente Lync Server 2013, vous devez être familiarisé avec les processus de réplication et de basculement pour Microsoft SQL Server 2008 R2 et versions ultérieures. Vous devez également être familiarisé avec les services de serveur de conversation permanente.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Basculement vers un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)
+  - [Basculement du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)
 
   - [Restauration d’un serveur de conversation permanente dans Lync Server 2013](lync-server-2013-failing-back-persistent-chat-server.md)
 

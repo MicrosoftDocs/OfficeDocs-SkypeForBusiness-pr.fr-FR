@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Routage interjonctions'
+title: 'Lync Server 2013 : routage interjonction'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaa41fe229e9246506fd92eb9f48767994997e4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23aab6df352b162f7f389ef56fb2300f01654edb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41725674"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-Lync Server 2013 peut interconnecter un PBX IP à une passerelle RTC (réseau téléphonique commuté) pour que les appels d’un téléphone PBX puissent être routés vers le RTC et que les appels RTC entrants puissent être routés vers un téléphone PBX (Private Branch Exchange). De la même façon, Lync Server 2013 peut interconnecter au moins deux systèmes IP-PBX pour que les appels puissent être placés et reçus entre les téléphones PBX des différents systèmes IP PBX.
+Lync Server 2013 peut interconnecter un PBX IP à une passerelle de réseau téléphonique commuté (PSTN) de sorte que les appels provenant d’un téléphone PBX puissent être acheminés vers le RTC et que les appels RTC entrants puissent être acheminés vers un téléphone PBX (Private Branch Exchange). De même, Lync Server 2013 peut interconnecter deux systèmes IP-PBX ou plus afin que les appels puissent être passés et reçus entre les téléphones PBX à partir des différents systèmes IP-PBX.
 
-Cette fonctionnalité de routage intertrunk peut être configurée à l’aide de la cmdlet Lync Server Management Shell, **Set-CsTrunkConfiguration**, avec le nouveau paramètre PstnUsages. Ce paramètre spécifie l’ensemble d’enregistrements d’utilisation RTC à utiliser. Un Trunk utilise cette utilisation PSTN pour déterminer un itinéraire et acheminer tous les appels entrants en conséquence.
+Cette fonctionnalité de routage interjonction peut être configurée à l’aide de la cmdlet Lync Server Management Shell, **Set-applet cstrunkconfiguration**, avec le nouveau paramètre PstnUsages. Ce paramètre spécifie l’ensemble d’enregistrements d’utilisation PSTN à utiliser. Une jonction fait appel à cette utilisation PSTN pour déterminer un itinéraire et pour acheminer tous les appels entrants en conséquence.
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
-Le diagramme suivant illustre Lync Server 2013 permettant une interconnexion entre une passerelle RTC et un PBX IP.
+Le diagramme suivant illustre Lync Server 2013 fournissant une interconnexion entre une passerelle PSTN et un IP-PBX.
 
-**Routage intertrunk entre passerelle et PBX IP**
+**Routage d’inter-jonctions entre la passerelle et le système IP-PBX**
 
-![Diagramme IP-PBX/Passerelle RTC connectant Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagramme IP-PBX/Passerelle RTC connectant Lync Server")
+![Diagramme de passerelle RTC/IP-PBX de connexion Lync Server](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Diagramme de passerelle RTC/IP-PBX de connexion Lync Server")
 
-Le diagramme suivant illustre Lync Server 2013 qui interconnecte deux systèmes PBX IP.
+Le diagramme suivant illustre Lync Server 2013 interconnectant deux systèmes IP-PBX.
 
-**Routage intertrunk entre deux PBX IP**
+**Routage d’inter-jonctions entre deux systèmes IP-PBXs**
 
-![Diagramme IP-PBX/Passerelle RTC interconnectant Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramme IP-PBX/Passerelle RTC interconnectant Lync Server")
+![Diagramme de systèmes IP-PAX d’interconnexion de Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramme de systèmes IP-PAX d’interconnexion de Lync Server")
 
 </div>
 

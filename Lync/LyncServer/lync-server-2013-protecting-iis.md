@@ -12,16 +12,16 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d0f3e736284970bf22fe813093e0e54accd29e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 612945a8ad69cffa8401cb64367d8b860d556a19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043796"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41724784"
 
 _**Dernière modification de la rubrique :** 2013-12-05_
 
-Dans Microsoft Office Communications Server 2007 et Microsoft Office Communications Server 2007 R2, Internet Information Services (IIS) s’exécutait sous un compte d’utilisateur standard. Cela pouvait entraîner un problème : si ce mot de passe est arrivé à expiration, il est possible que vous deviez nous faire perdre vos services Web. Pour vous aider à éviter le problème d’expiration des mots de passe, Microsoft Lync Server 2013 vous permet de créer un compte d’ordinateur (pour un ordinateur qui n’existe pas réellement) qui peut faire office d’identité d’authentification pour tous les ordinateurs d’un site exécutant IIS. Étant donné que ces comptes utilisent le protocole d’authentification Kerberos, les comptes sont désignés sous le nom de comptes Kerberos et le nouveau processus d’authentification est connu sous le nom d’authentification Web Kerberos. Cela vous permet de gérer tous vos serveurs IIS en utilisant un seul compte.
+Dans Microsoft Office Communications Server 2007 et Microsoft Office Communications Server 2007 R2, Internet Information Services (IIS) s’est exécuté sous un compte d’utilisateur standard. Cela était susceptible de provoquer des problèmes : si ce mot de passe a expiré, vous pouviez perdre vos services Web, un problème souvent difficile à diagnostiquer. Pour éviter le problème d’expiration des mots de passe, Microsoft Lync Server 2013 vous permet de créer un compte d’ordinateur (pour un ordinateur qui n’existe pas réellement) qui peut servir de principal d’authentification pour tous les ordinateurs d’un site qui exécutent les services Internet (IIS). Étant donné que ces comptes utilisent le protocole d’authentification Kerberos, les comptes sont appelés comptes Kerberos et le nouveau processus d’authentification est appelé authentification Web Kerberos. Cela vous permet de gérer tous vos serveurs IIS à l’aide d’un seul compte.
 
-Pour exécuter vos serveurs sous ce principal d’authentification, vous devez d’abord créer un compte d’ordinateur à l’aide de l’applet de nouvelle cmdlet New-CsKerberosAccount. ce compte est ensuite affecté à un ou plusieurs sites. Après avoir effectué l’affectation, l’association entre le compte et le site 2013 de Lync Server est activée en exécutant l’applet de la cmdlet Enable-CsTopology. Entre autres choses, cela crée le nom de principal de service (SPN) requis dans les services de domaine Active Directory (AD DS). Les noms SPN permettent aux applications clientes de localiser un service. Pour plus d’informations, reportez-vous à la rubrique [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) dans la documentation des opérations.
+Pour pouvoir exécuter vos serveurs sous ce nom principal d’authentification, vous devez créer un compte d’ordinateur au moyen de l’applet de commande New-CsKerberosAccount, le compte étant ensuite affecté à un ou plusieurs sites. Une fois l’affectation effectuée, l’association entre le compte et le site Lync Server 2013 est activée en exécutant la cmdlet Enable-CsTopology. Entre autres choses, cela crée le nom de principal du service (SPN) requis dans les services de domaine Active Directory (AD DS). Les noms SPN permettent aux applications clientes de localiser un service. Pour plus d’informations, consultez la rubrique [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) dans la documentation des opérations.
 
 <div>
 
 ## <a name="best-practices"></a>Meilleures pratiques
 
-Pour renforcer la sécurité d’IIS, nous vous recommandons de mettre en œuvre un compte Kerberos pour les services Internet (IIS). Si vous n’avez pas implémenté de compte Kerberos, IIS s’exécute sous un compte d’utilisateur standard.
+Pour aider à améliorer la sécurité d’IIS, nous vous recommandons d’implémenter un compte Kerberos pour IIS. Si vous ne le faites pas, IIS est exécuté sous un compte utilisateur standard.
 
 </div>
 

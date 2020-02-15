@@ -1,5 +1,5 @@
 ---
-title: Vérification de la coexistence du pool pilote avec le pool hérité
+title: Vérifier la coexistence du pool pilote avec le pool hérité
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f361882d0994b8e3add5447dbcaaffe2b75127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730894"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérification de la coexistence du pool pilote avec le pool hérité
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérifier la coexistence du pool pilote avec le pool hérité
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41730894"
 
 _**Dernière modification de la rubrique :** 2012-09-29_
 
-Après avoir déployé le pool de pilotes, vous devez vérifier la coexistence des deux pools en utilisant les outils d’administration pour afficher les informations sur le pool. Pour les pools Lync Server 2013 et les pools hérités, vous devez utiliser les outils de panneau de configuration et de générateur de topologie de Lync Server 2013.
+Après avoir déployé le premier pool, vous devez vérifier la coexistence des deux pools à l’aide des outils d’administration pour afficher les informations des pools. Pour les pools hérités et les pools Lync Server 2013, vous devez utiliser le panneau de configuration Lync Server 2013 et les outils du générateur de topologies.
 
 <div>
 
-## <a name="verify-that-lync-server-2013-services-have-started"></a>Vérifiez que les services Lync Server 2013 ont démarré
+## <a name="verify-that-lync-server-2013-services-have-started"></a>Vérifier que les services Lync Server 2013 ont démarré
 
 1.  À partir du serveur frontal Lync Server 2013, accédez à l’applet\\services d’administration.
 
-2.  Vérifiez que les services suivants s’exécutent sur le serveur frontal :
+2.  Vérifiez que les services suivants sont exécutés sur le serveur frontal :
 
-**Services Lync Server 2013**
+**Services Lync Server 2013**
 
-![Liste des services serveur Lync démarrés](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste des services serveur Lync démarrés")
+![Liste des services Lync Server démarré](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Liste des services Lync Server démarré")
 
 </div>
 
 <div>
 
-## <a name="open-the-lync-server-2013-control-panel"></a>Ouvrir le panneau de configuration de Lync Server 2013
+## <a name="open-the-lync-server-2013-control-panel"></a>Ouvrir le panneau de configuration Lync Server 2013
 
-Sur le serveur frontal de votre déploiement Lync Server 2013, ouvrez le panneau de configuration de Lync Server 2013 et sélectionnez le pool Lync Server 2010. Répétez cette procédure pour ouvrir le pool Lync Server 2013.
+À partir du serveur frontal de votre déploiement Lync Server 2013, ouvrez le panneau de configuration Lync Server 2013 et sélectionnez le pool Lync Server 2010. Répétez la procédure pour ouvrir le pool Lync Server 2013.
 
-**Ouvrir le panneau de configuration de Lync Server 2013**
+**Ouvrez le Panneau de configuration Lync Server 2013.**
 
 ![Boîte de dialogue Sélectionner une URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Boîte de dialogue Sélectionner une URL")
 
@@ -67,7 +67,7 @@ Sur le serveur frontal de votre déploiement Lync Server 2013, ouvrez le panneau
 
 
 > [!IMPORTANT]  
-> Sur Lync Server 2013, vous devez mettre à niveau Silverlight vers Silverlight version 5 avant d’utiliser le panneau de configuration de Lync Server.
+> Sur Lync Server 2013, vous devez mettre à niveau Silverlight vers Silverlight version 5 avant d’utiliser le panneau de configuration Lync Server.
 
 
 
@@ -75,21 +75,21 @@ Sur le serveur frontal de votre déploiement Lync Server 2013, ouvrez le panneau
 
 Cette topologie inclut désormais les rôles serveur Lync Server 2010 et Lync Server 2013.
 
-**Page Topology du panneau de configuration de Lync Server 2013**
+**Page Topologie du Panneau de configuration Lync Server 2013**
 
-![Panneau de configuration de Lync Server-page Topology](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Panneau de configuration de Lync Server-page Topology")
+![Panneau de configuration Lync Server-page topologie](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Panneau de configuration Lync Server-page topologie")
 
 </div>
 
 <div>
 
-## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>Ne pas essayer d’ouvrir la topologie dans Lync Server 2010-générateur de topologie
+## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>Ne pas essayer d’ouvrir la topologie dans le générateur de topologies Lync Server 2010
 
-Si vous essayez d’ouvrir la topologie à l’aide du générateur de topologie Lync Server 2010, le message d’erreur ci-dessous s’affiche. Le module topologique peut uniquement être affiché à l’aide du générateur de topologie Lync Server 2013. Le générateur de topologie Lync Server 2013 doit être utilisé pour créer des pools pour Lync Server 2013 et Lync Server 2010.
+Si vous tentez d’ouvrir la topologie à l’aide du générateur de topologie Lync Server 2010, vous rencontrerez l’erreur ci-dessous. La topologie peut uniquement être visualisée à l’aide du générateur de topologie Lync Server 2013. Le générateur de topologies Lync Server 2013 doit être utilisé pour créer des pools pour Lync Server 2013 et Lync Server 2010.
 
-**Message d’erreur du générateur de topologie Lync Server 2010**
+**Message d’erreur du générateur de topologie Lync Server 2010**
 
-![Erreur d’alignement de la console MMC du générateur de topologie Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erreur d’alignement de la console MMC du générateur de topologie Lync Server")
+![Erreur du Snap MMC du générateur de topologies Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erreur du Snap MMC du générateur de topologies Lync Server")
 
 </div>
 

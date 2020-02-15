@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement du contrôle d’appel distant'
+title: 'Lync Server 2013 : déploiement du contrôle d’appel distant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c2cb64b3ca2d8e7d0c520e1d8ff4ee896895e13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41740834"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-Cette section vous guide tout au long du processus de déploiement de la fonctionnalité de contrôle d’appel distant pour les utilisateurs de votre organisation.
+Cette section vous guide tout au long du processus de déploiement de la fonctionnalité de contrôle d’appel distant sur les utilisateurs de votre organisation.
 
 <div>
 
 
 > [!NOTE]  
-> Bien que les fonctionnalités de contrôle d’appel distant soient accessibles aux utilisateurs distants alors qu’ils ne sont pas en dehors du pare-feu de votre organisation, les détails sur le déploiement de scénarios d’accès externes ne sont pas abordés dans cette documentation. Pour plus d’informations sur le déploiement d’un accès utilisateur externe, voir <A href="lync-server-2013-deploying-external-user-access.md">déploiement d’un accès utilisateur externe dans Lync Server 2013</A> dans la documentation de déploiement.
+> Même si les fonctionnalités de contrôle d’appel distant sont accessibles aux utilisateurs distants lorsqu’ils se trouvent à l’extérieur du pare-feu de votre organisation, les détails relatifs au déploiement de scénarios d’accès externe ne rentrent pas dans le cadre de cette documentation. Pour plus d’informations sur le déploiement de l’accès des utilisateurs externes, voir <A href="lync-server-2013-deploying-external-user-access.md">Deploying External User Access in Lync Server 2013</A> dans la documentation de déploiement.
 
 
 
@@ -53,25 +53,25 @@ Cette section vous guide tout au long du processus de déploiement de la fonctio
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
+  - [Configuration de Lync Server 2013 pour un routage vers une passerelle SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
-  - [Configuration d’un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [Configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [Définition d’une adresse IP de passerelle SIP/CSTA dans Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (uniquement si la passerelle est configurée pour utiliser TCP)
+  - [Définition d’une adresse IP de passerelle SIP/CSTA dans Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (uniquement si la passerelle est configurée pour utiliser le protocole TCP)
 
   - [Activation des utilisateurs Lync pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
   - [Contrôle d’appel distant et normalisation des numéros de téléphone dans Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Supprimer un hôte autorisé hérité de Lync Server 2013 (facultatif)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (uniquement si vous migrez des utilisateurs déjà activés pour le contrôle d’appel distant)
+  - [Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (uniquement si vous migrez les utilisateurs précédemment activés pour le contrôle d’appel distant)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
 [Planification du contrôle d’appel distant dans Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 

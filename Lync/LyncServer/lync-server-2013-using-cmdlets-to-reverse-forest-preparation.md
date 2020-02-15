@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Utilisation des commandes d’applet pour inverser la préparation d’une forêt'
+title: 'Lync Server 2013 : utilisation d’applets de commande pour inverser la préparation de la forêt'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b893eb79cb19856572e90bd449b315f0ade803c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Utilisation des commandes d’applet pour inverser la préparation d’une forêt pour Lync Server 2013
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Utilisation d’applets de commande pour inverser la préparation de la forêt pour Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41744184"
 
 _**Dernière modification de la rubrique :** 2013-06-19_
 
-Utilisez l’applet de action **Disable-CsAdForest** pour inverser l’étape de préparation de la forêt.
+Utilisez la cmdlet **Disable-CsAdForest** pour inverser la procédure de préparation d’une forêt.
 
 <div>
 
 
 > [!WARNING]  
-> Si vous exécutez l’applet de contrôle <STRONG>Disable-CsAdForest</STRONG> dans un environnement dans lequel vous avez également une version antérieure de Lync Server déployée, les paramètres globaux de la version précédente sont également supprimés.
+> Si vous exécutez l’applet de commande <STRONG>Disable-CsAdForest</STRONG> dans un environnement où vous avez également une version antérieure de Lync Server déployée, les paramètres globaux de la version précédente seront également supprimés.
 
 
 
@@ -51,13 +51,13 @@ Utilisez l’applet de action **Disable-CsAdForest** pour inverser l’étape de
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>Pour utiliser des applets de cmdlet pour inverser la préparation de la forêt
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>Pour utiliser des cmdlets afin d’inverser la préparation d’une forêt
 
-1.  Ouvrez une session sur un ordinateur qui est joint à un domaine en tant que membre du groupe Domain Admins dans le domaine racine de la forêt.
+1.  Ouvrez une session sur un ordinateur qui est associé à un domaine en tant que membre du groupe Administrateurs du domaine dans le domaine racine de la forêt.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Exécutez :
+3.  Générer
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
@@ -65,9 +65,9 @@ Utilisez l’applet de action **Disable-CsAdForest** pour inverser l’étape de
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    Le paramètre Force spécifie si l’exécution de la tâche doit être forcée. Si ce paramètre n’est pas présent, la commande ne s’exécute pas s’il n’y a pas encore de domaine dans la forêt pour Lync Server 2013. Si le paramètre force est spécifié, l’action se poursuit indépendamment de l’état des autres domaines dans la forêt.
+    Le paramètre Force spécifie s’il faut forcer l’exécution de la tâche. Si ce paramètre n’est pas présent, la commande ne s’exécutera pas si un seul domaine de la forêt est toujours préparé pour Lync Server 2013. Si le paramètre Force est spécifié, l’action se poursuit quel que soit l’état des autres domaines dans la forêt.
     
-    Si vous ne spécifiez pas le paramètre GroupDomain, la valeur par défaut est le domaine local.
+    Si vous omettez le paramètre GroupDomain, le domaine local est utilisé par défaut.
 
 </div>
 

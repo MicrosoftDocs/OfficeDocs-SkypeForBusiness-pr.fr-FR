@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : service web de mise à jour des dispositifs'
+title: 'Lync Server 2013 : service Web de mise à jour des périphériques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c2c9f7068943deabb90e5a87d95f35fecfbc30c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7213513657720cc08057cbf2d54d425b5d2a96f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044866"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-update-web-service-in-lync-server-2013"></a>Service web de mise à jour des dispositifs dans Lync Server 2013
+# <a name="device-update-web-service-in-lync-server-2013"></a>Service Web de mise à jour des périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41762372"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Lync Server inclut le service Web de mise à jour d’appareils, qui est automatiquement installé dans le cadre du rôle Services Web. Ce service vous permet de télécharger les mises à jour de Microsoft, de les tester, puis de déployer les mises à jour apportées vers des téléphones IP au sein de votre organisation. Vous pouvez également utiliser le service Web de mise à jour de l’appareil pour restaurer les appareils dans les versions antérieures de logiciels.
+Lync Server inclut le service Web de mise à jour des périphériques, qui est automatiquement installé dans le cadre du rôle Services Web. Ce service vous permet de télécharger des mises à jour à partir de Microsoft, de les tester, puis de déployer les mises à jour sur les téléphones IP de votre organisation. Vous pouvez également faire appel au service web de mise à jour des périphériques pour restaurer les périphériques en rétablissant les versions logicielles précédentes.
 
-Cette section fournit des détails sur la façon de gérer le service Web de mise à jour de l’appareil et les mises à jour déployées à l’aide de journaux de mise à jour de l’appareil, de règles (Lync Phone Edition utilise des *règles* pour associer les mises à jour de version du microprogramme avec des périphériques matériels) et des paramètres de configuration.
+Cette section fournit des détails sur la façon de gérer le service Web de mise à jour des périphériques et des mises à jour déployées à l’aide des journaux de mise à jour des appareils, des règles (Lync Phone Edition utilise des *règles* pour associer les mises à jour de version de microprogramme aux périphériques matériels) et des paramètres de configuration.
 
-Pour plus d’informations sur le processus et les fonctionnalités de service Web de mise à jour d’appareils, voir [mise à jour d’appareils](http://technet.microsoft.com/en-us/library/gg412864\(v=ocs.14\).aspx) dans la bibliothèque TechNet de Lync Server 2010. (Notez que le service Web de mise à jour de l’appareil, tel que tous les composants de Lync Phone Edition, fonctionne de la même façon que Lync Server 2013 comme pour Lync Server 2010.)
+Pour plus d’informations sur le processus et les fonctionnalités du service Web de mise à jour des périphériques, voir [mise à jour des périphériques](http://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx) dans la bibliothèque TechNet Lync Server 2010. (Notez que le service Web de mise à jour des périphériques, comme tous les composants de Lync Phone Edition, fonctionne de la même manière avec Lync Server 2013 que avec Lync Server 2010.)
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Fichiers et journaux de mise à jour des appareils dans Lync Server 2013](lync-server-2013-device-update-logs-and-files.md)
+  - [Fichiers et journaux de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-device-update-logs-and-files.md)
 
-  - [Règles de mise à jour des appareils dans Lync Server 2013](lync-server-2013-device-update-rules.md)
+  - [Règles de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-device-update-rules.md)
 
-  - [Paramètres de configuration de la mise à jour des appareils dans Lync Server 2013](lync-server-2013-device-update-configuration-settings.md)
+  - [Paramètres de configuration de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-device-update-configuration-settings.md)
 
-  - [Afficher les mises à jour logicielles des appareils dans Lync Server 2013](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
+  - [Affichage des mises à jour logicielles pour les périphériques dans Lync Server 2013](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
 
 </div>
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur le processus et les fonctionnalités de service W
 ## <a name="see-also"></a>Voir aussi
 
 
-[Outils et services pour la gestion et la résolution des problèmes de périphériques](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)  
+[Outils et services de gestion et de dépannage des appareils](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)  
   
 
 </div>

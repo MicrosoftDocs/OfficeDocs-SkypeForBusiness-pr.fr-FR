@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table UserSite'
+title: 'Lync Server 2013 : table UserSite'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744264"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744264"
 
 _**Dernière modification de la rubrique :** 2010-11-09_
 
-La table UserSite est une table de prise en charge. Chaque enregistrement représente un site d’utilisateur défini dans les paramètres de configuration réseau.
+La table UserSite est une table de prise en charge. Chaque enregistrement représente un site d’utilisateurs défini dans les paramètres de configuration réseau.
 
 
 <table>
@@ -51,28 +51,28 @@ La table UserSite est une table de prise en charge. Chaque enregistrement repré
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant le site de l’utilisateur.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro unique d’identification de ce site utilisateur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSiteName</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Différent</p></td>
-<td><p>Nom du site de l’utilisateur.</p></td>
+<td><p>Uniques</p></td>
+<td><p>Nom d’utilisateur du site.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Référencé à partir de la <a href="lync-server-2013-region-table.md">table région dans Lync Server 2013</a>.</p></td>
+<td><p>Etranger</p></td>
+<td><p>Référencé à partir de la <a href="lync-server-2013-region-table.md">table Region dans Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

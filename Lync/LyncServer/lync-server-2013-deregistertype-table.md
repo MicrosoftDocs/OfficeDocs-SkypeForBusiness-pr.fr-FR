@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table DeRegisterType'
+title: 'Lync Server 2013 : table DeRegisterType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762532"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table DeRegisterType est une table statique qui stocke la liste de types de déregistreurs d’utilisateurs possibles, par exemple « client lancé », « inscription expirée » ou « le client a cessé de répondre ».
+La table DeRegisterType est une table statique qui stocke la liste des différents types de désinscriptions liées aux utilisateurs, tels que « initiative du client », « expiration de l’inscription » ou « absence de réponse du client ».
 
 
 <table>
@@ -51,30 +51,30 @@ La table DeRegisterType est une table statique qui stocke la liste de types de d
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
+<td><p>entier très petit</p></td>
+<td><p>Primaire</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valeurs autorisées :</p>
 <ul>
-<li><p>0--Inconnu</p></li>
-<li><p>1--le client a démarré la suppression</p></li>
-<li><p>2--inscription expirée</p></li>
-<li><p>3-client bloqué</p></li>
-<li><p>4--attributs utilisateur modifiés</p></li>
-<li><p>5 – Bureau d’enregistrement préféré modifié</p></li>
-<li><p>6--client hérité en mode de survie</p></li>
+<li><p>0 -- Inconnu</p></li>
+<li><p>1 -- Désinscription à l’initiative du client</p></li>
+<li><p>2 -- Expiration de l’inscription</p></li>
+<li><p>3 – Client bloqué</p></li>
+<li><p>4 -- Modification des attributs de l’utilisateur</p></li>
+<li><p>5 – Modification du serveur d’inscriptions préféré</p></li>
+<li><p>6 -- Client hérité en mode survie</p></li>
 </ul></td>
 </tr>
 </tbody>

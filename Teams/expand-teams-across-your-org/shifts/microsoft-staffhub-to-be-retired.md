@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3849a3e4601c6af48e5a848774708d6c66a761e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827532"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008156"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
@@ -70,7 +70,7 @@ Le changement est disponible dans toutes les références de l’entreprise, où
 
 #### <a name="how-do-i-get-shifts"></a>Comment obtenir le changement de poste ? 
 
-Si vous avez déjà un plan qui comprend des équipes, vous pouvez commencer à utiliser les Shifts dès aujourd’hui dans le cadre de teams. Pour en savoir plus, consultez la rubrique mise [en route des équipes](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+Si vous avez déjà un plan qui comprend des équipes, vous pouvez commencer à utiliser les Shifts dès aujourd’hui dans le cadre de teams. Pour en savoir plus, consultez la rubrique mise [en route des équipes](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Sur quels appareils ou plates-formes les équipes sont-elles disponibles ?
 

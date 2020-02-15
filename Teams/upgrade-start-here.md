@@ -26,12 +26,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837084"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045046"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Prise en main de votre mise à niveau de Microsoft Teams
 
@@ -41,7 +41,7 @@ Que vous soyez à la mise à niveau de Skype entreprise Online vers équipes ou 
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Pourquoi effectuer une mise à niveau vers Microsoft teams ?
 
-Microsoft teams étend les fonctionnalités de Skype entreprise, en regroupant les conversations, les réunions, les appels, la collaboration, l’intégration d’applications et le stockage de fichiers en une seule interface. Ce nouveau concentrateur pour le travail en équipe peut vous aider à rationaliser la façon dont les utilisateurs accomplissent leurs tâches, améliorer la satisfaction des utilisateurs et accélérer les résultats de l’entreprise. Nous développons continuellement les fonctionnalités de teams pour vous permettre de communiquer et de collaborer de manière inédite, de mettre en avant les barrières organisationnelles et géographiques et de dynamiser l’efficacité du processus et de la prise de décision. Apprenez-en davantage sur les avantages de la mise à niveau vers teams dans le rapport Forrester : [impact économique total de Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft teams étend les fonctionnalités de Skype entreprise, en regroupant les conversations, les réunions, les appels, la collaboration, l’intégration d’applications et le stockage de fichiers en une seule interface. Ce nouveau concentrateur pour le travail en équipe peut vous aider à rationaliser la façon dont les utilisateurs accomplissent leurs tâches, améliorer la satisfaction des utilisateurs et accélérer les résultats de l’entreprise. Nous développons continuellement les fonctionnalités de teams pour vous permettre de communiquer et de collaborer de manière inédite, de mettre en avant les barrières organisationnelles et géographiques et de dynamiser l’efficacité du processus et de la prise de décision. Apprenez-en davantage sur les avantages de la mise à niveau vers teams dans le rapport Forrester : [impact économique total de Microsoft teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>Quand mon organisation doit-elle être mise à niveau vers teams ?
 

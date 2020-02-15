@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045126"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation de l’intégration de Moodle à Microsoft teams
 
@@ -173,7 +173,7 @@ Une fois le déploiement des ressources vers Azure terminé, vous devez configur
 
 À présent que votre bot est déployé sur Azure et configuré pour parler sur votre serveur Moodle, il est temps de déployer votre application Microsoft Teams. Pour cela, vous devez charger le fichier manifeste que vous avez téléchargé à partir de la page des paramètres d’équipe du plug-in Office 365 Moodle de l’étape précédente.
 
-Avant de procéder à l’installation de l’application, vous devez vous assurer que les applications externes et chargement indépendant d’applications sont activées. Pour ce faire, vous pouvez suivre [ces étapes](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings). Une fois que vous avez vérifié que les applications externes sont activées, vous pouvez suivre les étapes ci-dessous pour déployer votre application.
+Avant de procéder à l’installation de l’application, vous devez vous assurer que les applications externes et chargement indépendant d’applications sont activées. Pour ce faire, vous pouvez suivre [ces étapes](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Une fois que vous avez vérifié que les applications externes sont activées, vous pouvez suivre les étapes ci-dessous pour déployer votre application.
 
 1. Ouvrez Microsoft Teams.
 2. Cliquez sur l’icône **Store** dans le coin inférieur gauche de la barre de navigation.

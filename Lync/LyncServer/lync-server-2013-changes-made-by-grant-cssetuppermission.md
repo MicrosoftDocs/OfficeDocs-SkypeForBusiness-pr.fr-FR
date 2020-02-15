@@ -12,16 +12,16 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043916"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41742354"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-Pour déléguer le programme d’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique (UO), ce qui permet aux membres du groupe RTCUniversalServerAdmins dans cette UO d’installer Lync Server 2013 dans le dossier spécifié. domaine sans être membre du groupe administrateurs de domaine.
+Pour déléguer le programme d’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique, permettant ainsi aux membres du groupe RTCUniversalServerAdmins dans cette unité d’organisation d’installer Lync Server 2013 dans le domaine sans être membre du groupe administrateurs du domaine.
 
-L’applet de commande **Grant-CsSetupPermission** accorde aux autorisations de groupe RTCUniversalServerAdmins sur une unité d’organisation, comme indiqué dans le tableau suivant :
+L’applet de commande **Grant-CsSetupPermission** accorde des autorisations de groupe RTCUniversalServerAdmins sur une unité d’organisation, comme indiqué dans le tableau suivant :
 
 ### <a name="permissions-granted-to-objects-in-the-ou"></a>Autorisations accordées aux objets dans l’unité d’organisation
 
@@ -51,103 +51,103 @@ L’applet de commande **Grant-CsSetupPermission** accorde aux autorisations de 
 <thead>
 <tr class="header">
 <th>Les autorisations s’appliquent à :</th>
-<th>Les autorisations accordées sont les suivantes :</th>
+<th>Les autorisations accordées sont :</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Lire servicePrincipalName</p></li>
-<li><p>Écrire le servicePrincipalName</p></li>
-<li><p>Supprimer l’arborescence</p></li>
-<li><p>Répliquer les modifications de l’annuaire</p></li>
+<li><p>Lecture servicePrincipalName</p></li>
+<li><p>Écriture servicePrincipalName</p></li>
+<li><p>Suppression de l’arborescence</p></li>
+<li><p>Réplication des modifications d’annuaire</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Objets serviceConnectionPoint descendants</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Autorisations de lecture</p></li>
-<li><p>Autorisations d’écriture</p></li>
-<li><p>Créer un enfant</p></li>
-<li><p>Supprimer un enfant</p></li>
-<li><p>Contenu de la liste</p></li>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Autorisations en lecture</p></li>
+<li><p>Autorisations en écriture</p></li>
+<li><p>Création de l’enfant</p></li>
+<li><p>Suppression de l’enfant</p></li>
+<li><p>Affichage du contenu</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets enfants msRTCSIP-Server</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-Server descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets enfants msRTCSIP-webcomposants</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-WebComponents descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets descendants msRTCSIP-MCU</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-MCU descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets MediationServer en descendant</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-MediationServer descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets ApplicationServer en descendant</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-ApplicationServer descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets descendants de msRTCSIP-ConnectionPoint</p></td>
-<td><p>Accès spécial :</p>
+<td><p>Objets msRTCSIP-ConnectionPoint descendants</p></td>
+<td><p>Accès particulier :</p>
 <ul>
-<li><p>Propriété Write</p></li>
-<li><p>Propriété de lecture</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Écriture de propriété</p></li>
+<li><p>Lecture de propriété</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets ordinateur descendants</p></td>
-<td><p>Accès spécial pour serviceConnectionPoint :</p>
+<td><p>Objets Computer descendants</p></td>
+<td><p>Accès particulier pour serviceConnectionPoint :</p>
 <ul>
-<li><p>Créer des objets enfants</p></li>
-<li><p>Supprimer des objets enfants</p></li>
-<li><p>Supprimer l’arborescence</p></li>
+<li><p>Création d’objets enfants</p></li>
+<li><p>Suppression d’objets enfants</p></li>
+<li><p>Suppression de l’arborescence</p></li>
 </ul>
-<p>Accès spécial pour les informations publiques :</p>
+<p>Accès particulier pour les informations publiques :</p>
 <ul>
-<li><p>Propriété de lecture</p></li>
+<li><p>Lecture de propriété</p></li>
 </ul>
-<p>Accès spécial pour le nom d’hôte DNS :</p>
+<p>Accès particulier pour le nom d’hôte DNS :</p>
 <ul>
-<li><p>Propriété de lecture</p></li>
+<li><p>Lecture de propriété</p></li>
 </ul></td>
 </tr>
 </tbody>

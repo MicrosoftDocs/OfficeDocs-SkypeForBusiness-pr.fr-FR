@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table AppliedBandwidthSource'
+title: 'Lync Server 2013 : table table appliedbandwidthsource'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6978802893b2c4af4f4d4199c3e35452200d8d4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fcbcad9c69731d2a39d990f2342b7427f98fb74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Table AppliedBandwidthSource dans Lync Server 2013
+# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Table table appliedbandwidthsource dans Lync Server 2013
 
 </div>
 
@@ -51,22 +51,22 @@ La table AppliedBandwidthSource est une table de prise en charge. Chaque enregis
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant la source.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro unique d’identification de cette source.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>AppliedBandwidthSource</strong></p></td>
+<td><p><strong>Table appliedbandwidthsource</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Différent</p></td>
-<td><p>Il s’agit de la source de la bande passante qui est imposée. Il décrit l’emplacement vers lequel la limite de bande passante provient (par exemple, « serveur de stratégie », « activer le serveur » ou « modalité »).</p></td>
+<td><p>Uniques</p></td>
+<td><p>Il s’agit de la source de la capacité de bande passante imposée. Elle décrit l’origine de la limite de la bande passante (par exemple, « Serveur de stratégie », « Serveur TURN » ou « Modalité »).</p></td>
 </tr>
 </tbody>
 </table>

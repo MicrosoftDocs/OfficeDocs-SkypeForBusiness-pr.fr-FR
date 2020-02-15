@@ -12,16 +12,16 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96f5ac1fb747a3e64be6cc84c44b390de8ce821c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be9dee7f4e79492e62e04441b6fa56d4e04ff45a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -40,7 +40,7 @@ _**Dernière modification de la rubrique :** 2012-06-06_
 Avant de configurer Microsoft Lync Server 2013 pour E9-1-1, vous devez planifier votre déploiement E9-1-1. Voici certaines des questions que vous pouvez vous poser :
 
   - **Quelles sont la stratégie et les obligations légales de votre organisation concernant E9-1-1 ?**  
-    Les obligations légales en matière d’E9-1-1 pour les PBX (appelés aussi systèmes téléphoniques multilignes, ou MLTS (Multi-line Telephone Systems) dans le langage E9-1-1) diffèrent d’un État à l’autre. Reportez-vous à votre équipe légale pour comprendre les obligations qui pourraient s’appliquer à votre déploiement de Lync Server dans vos zones géographiques pertinentes.
+    Les obligations légales en matière d’E9-1-1 pour les PBX (appelés aussi systèmes téléphoniques multilignes, ou MLTS (Multi-line Telephone Systems) dans le langage E9-1-1) diffèrent d’un État à l’autre. Vous devez consulter votre équipe juridique pour comprendre les obligations qui peuvent s’appliquer à votre déploiement de Lync Server dans vos régions géographiques pertinentes.
 
 <!-- end list -->
 
@@ -49,19 +49,19 @@ Avant de configurer Microsoft Lync Server 2013 pour E9-1-1, vous devez planifier
 
 <!-- end list -->
 
-  - **Comment allez-vous déployer E9-1-1 sur des sites de succursale ?**  
-    La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des lignes SIP E-9-1-1 et une panne de réseau étendu (WAN), les clients qui se connectent risquent de ne pas être en mesure d’obtenir un emplacement à partir du service de coordonnées de l’emplacement ou de se connecter au fournisseur de services d’urgence. Lync Server offre plusieurs stratégies de gestion de la résilience vocale dans les succursales, notamment : disposer de réseaux de données résilients, déploiement d’une ligne SIP dans chaque succursale ou envoi d’appels d’urgence vers la passerelle locale lors des pannes. Pour plus d’informations, reportez-vous à la rubrique [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+  - **Comment allez-vous déployer E9-1-1 sur des sites de succursales ?**  
+    La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des jonctions SIP E-9-1-1 et qu’une panne de réseau étendu se produit, les clients qui se connectent risquent de ne pas pouvoir obtenir un emplacement depuis le service d’informations d’emplacement ou de se connecter au fournisseur de services d’urgence. Lync Server offre plusieurs stratégies de gestion de la résistance des communications vocales dans les succursales, notamment : les réseaux de données résistants, le déploiement d’une jonction SIP à chaque succursale ou l’envoi d’appels d’urgence à la passerelle locale pendant les pannes. Pour plus d’informations, reportez-vous à la rubrique [Planning for Branch-site Voice Resiliency in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
 <!-- end list -->
 
   - **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**  
-    L’acquisition automatique de l’emplacement est disponible uniquement pour les clients situés à l’intérieur du réseau de l’organisation, afin que votre organisation puisse prendre en charge les appels E9-1-1 passés à partir des clients Lync en local. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Cependant, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
+    L’acquisition d’emplacement automatique n’est disponible que pour les clients se trouvant sur le réseau de l’organisation, votre société doit donc décider si elle prendra en charge les appels E9-1-1 effectués à partir de clients Lync en dehors du site. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Toutefois, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
     
     <div>
     
 
     > [!NOTE]  
-    > Les clients Lync qui se connectent au réseau de votre organisation à l’aide d’un VPN peuvent capter les informations d’adresse IP interne, mais ces adresses ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du Service d’information d’emplacement.
+    > Les clients Lync des utilisateurs qui se connectent au réseau de votre organisation à l’aide du VPN peuvent récupérer les informations d’adresse IP interne, mais ces adresses ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du Service d’informations d’emplacement.
 
     
     </div>
@@ -69,7 +69,7 @@ Avant de configurer Microsoft Lync Server 2013 pour E9-1-1, vous devez planifier
 <!-- end list -->
 
   - **Voulez-vous que les appels d’urgence soient acheminés vers des sites en dehors des États-Unis ?**  
-    Vous voudrez peut-être que des zones de votre entreprise bénéficient du routage des appels d’urgence alors qu’elles ne disposent pas d’un fournisseur de services d’urgence (par exemple, des sites à l’étranger). Pour ce faire, créez un site, puis affectez des stratégies de voix aux sites qui utilisent le réseau RTC pour acheminer l’appel via une passerelle RTC locale.
+    Vous voudrez peut-être que des zones de votre entreprise bénéficient du routage des appels d’urgence alors qu’elles ne disposent pas d’un fournisseur de services d’urgence (par exemple, des sites à l’étranger). Pour ce faire, créez un site, puis affectez des stratégies de voix aux sites qui utilisent le réseau PSTN pour acheminer l’appel via une passerelle PSTN locale.
 
 </div>
 

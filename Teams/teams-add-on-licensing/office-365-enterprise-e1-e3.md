@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat pour les offres Office 365 entreprise E1 et E3. '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826542"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029365"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Entreprise E1 et E3
 
-Si vous avez déjà acheté [Office 365 entreprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) , Voici les licences de compléments que vous devez acheter pour accéder à d’autres fonctionnalités de Microsoft Teams.
+Si vous avez déjà acheté [Office 365 entreprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) , Voici les licences de compléments que vous devez acheter pour accéder à d’autres fonctionnalités de Microsoft Teams.
 
 |Pour ajouter cette fonctionnalité|Voici ce que vous devez faire|
 |:------------------|:--------------------------|

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets de gestion du client'
+title: 'Lync Server 2013 : applets de commande de gestion des clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 023b7c165d1366d42303f4b609401fcc7bbe6a1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fa957a6c0c8e995a6e1cff8b0ec1df38ec732c6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742924"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-management-cmdlets-in-lync-server-2013"></a>Cmdlets de gestion des clients dans Lync Server 2013
+# <a name="client-management-cmdlets-in-lync-server-2013"></a>Applets de commande de gestion des clients dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41742924"
 
 _**Dernière modification de la rubrique :** 2012-09-27_
 
-La gestion des clients consiste essentiellement à identifier les applications clientes (par exemple, Microsoft Lync 2013) qui seront autorisées à se connecter à Lync Server 2013 et à déterminer les fonctionnalités disponibles pour ces applications clientes après leur connexion.
+La gestion des clients consiste principalement à déterminer les applications clientes (telles que Microsoft Lync 2013) qui seront autorisées à se connecter à Lync Server 2013 et à déterminer les fonctionnalités disponibles pour ces applications clientes une fois qu’elles ont ouvert une session.
 
 <div>
 
 
 > [!NOTE]
-> Pour plus d’informations sur les applets de applet,&nbsp;consultez le blog Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>Server Windows PowerShell à l’adresse. Le contenu des blogs et leurs URL peuvent être modifiés sans préavis.
+> Pour plus d’informations sur les applets de commande,&nbsp;Voir le blog Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>Server Windows PowerShell à l’adresse. Le contenu de chaque blog et les URL correspondantes peuvent faire l'objet de modifications sans préavis.
 
 
 
@@ -51,74 +51,74 @@ La gestion des clients consiste essentiellement à identifier les applications c
 
 <div>
 
-## <a name="client-management-cmdlets"></a>Cmdlets de gestion du client
+## <a name="client-management-cmdlets"></a>Applets de commande de gestion des clients
 
-La plupart des tâches de gestion qui s’appliquent à la gestion des clients peuvent être effectuées à partir du panneau de configuration de Lync Server 2013. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. À l’aide d’un script, vous pouvez automatiser certaines tâches. La liste suivante répertorie les applets de commande qui concernent directement la gestion du client :
-
-  - <span></span>  
-    [Get-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg398830(v=OCS.15))
+La plupart des tâches de gestion qui s’appliquent à la gestion des clients peuvent être effectuées à partir du panneau de configuration Lync Server 2013. Ces mêmes tâches peuvent être exécutées à l’aide d’applets de commande de Lync Server Management Shell ou à partir d’un script. En utilisant un script, vous pouvez automatiser certaines tâches. La liste suivante indique les applets de commande qui sont directement associées à la gestion des clients :
 
   - <span></span>  
-    [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg412942(v=OCS.15))
+    [Get-CsClientPolicy](https://technet.microsoft.com/library/Gg398830(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg425949(v=OCS.15))
+    [Grant-CsClientPolicy](https://technet.microsoft.com/library/Gg412942(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg425772(v=OCS.15))
+    [New-CsClientPolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg398300(v=OCS.15))
+    [Remove-CsClientPolicy](https://technet.microsoft.com/library/Gg425772(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsClientPolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Nouveau-CsClientPolicyEntry](https://technet.microsoft.com/en-us/library/Gg399046(v=OCS.15))
+    [New-CsClientPolicyEntry](https://technet.microsoft.com/library/Gg399046(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg399072(v=OCS.15))
+    [Get-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg399072(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg399029(v=OCS.15))
+    [New-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg399029(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15))
+    [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg398623(v=OCS.15))
+    [Set-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg398623(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg398957(v=OCS.15))
+    [Get-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398957(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg412903(v=OCS.15))
+    [Grant-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg412903(v=OCS.15))
 
   - <span></span>  
-    [New-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg398709(v=OCS.15))
+    [New-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398709(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg425801(v=OCS.15))
+    [Remove-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg425801(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientVersionPolicy](https://technet.microsoft.com/en-us/library/Gg398876(v=OCS.15))
+    [Set-CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398876(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsClientVersionPolicyRule](https://technet.microsoft.com/en-us/library/Gg413048(v=OCS.15))
+    [Get-CsClientVersionPolicyRule](https://technet.microsoft.com/library/Gg413048(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsClientVersionPolicyRule](https://technet.microsoft.com/en-us/library/Gg398905(v=OCS.15))
+    [New-CsClientVersionPolicyRule](https://technet.microsoft.com/library/Gg398905(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsClientVersionPolicyRule](https://technet.microsoft.com/en-us/library/Gg398541(v=OCS.15))
+    [Remove-CsClientVersionPolicyRule](https://technet.microsoft.com/library/Gg398541(v=OCS.15))
 
   - <span></span>  
-    [Set-CsClientVersionPolicyRule](https://technet.microsoft.com/en-us/library/Gg425790(v=OCS.15))
+    [Set-CsClientVersionPolicyRule](https://technet.microsoft.com/library/Gg425790(v=OCS.15))
 
 </div>
 
