@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour la mobilité'
+title: 'Lync Server 2013 : configuration DNS requise pour la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0201a9e8870a1b7d8cc579eb270ca67c929cae5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a><span data-ttu-id="f5c0a-102">Configuration DNS requise pour la mobilité avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5c0a-102">DNS requirements for mobility with Lync Server 2013</span></span>
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a><span data-ttu-id="dfec4-102">Configuration DNS requise pour la mobilité avec Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dfec4-102">DNS requirements for mobility with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737384"
 
 <span> </span>
 
-<span data-ttu-id="f5c0a-103">_**Dernière modification de la rubrique :** 2012-11-13_</span><span class="sxs-lookup"><span data-stu-id="f5c0a-103">_**Topic Last Modified:** 2012-11-13_</span></span>
+<span data-ttu-id="dfec4-103">_**Dernière modification de la rubrique :** 2012-11-13_</span><span class="sxs-lookup"><span data-stu-id="dfec4-103">_**Topic Last Modified:** 2012-11-13_</span></span>
 
-<span data-ttu-id="f5c0a-104">Lorsque vous déployez la fonctionnalité de mobilité de Lync Server 2013, vous pouvez utiliser les nouvelles URL disponibles avec le service de découverte automatique Microsoft Lync Server 2013 ou utiliser vos URL de services Web existantes.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-104">When you deploy the Lync Server 2013 mobility feature, you can use the new URLs that are available with the Microsoft Lync Server 2013 Autodiscover Service, or you can use your existing Web Services URLs.</span></span> <span data-ttu-id="f5c0a-105">Si vous utilisez vos URL existantes, les utilisateurs doivent entrer manuellement les URL dans leurs paramètres d’appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-105">If you use your existing URLs, users need to manually enter the URLs in their mobile device settings.</span></span> <span data-ttu-id="f5c0a-106">Cette option est généralement utilisée pour la résolution des problèmes.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-106">This option is typically used for troubleshooting.</span></span> <span data-ttu-id="f5c0a-107">Lorsque vous utilisez les nouvelles URL, les clients mobiles peuvent automatiquement découvrir les ressources de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-107">When you use the new URLs, mobile clients can automatically discover Lync Server 2013 resources.</span></span> <span data-ttu-id="f5c0a-108">Lorsque vous prenez en charge la découverte automatique, vous devez ajouter de nouveaux enregistrements DNS (Domain Name System).</span><span class="sxs-lookup"><span data-stu-id="f5c0a-108">When you support automatic discovery, you need to add new Domain Name System (DNS) records.</span></span> <span data-ttu-id="f5c0a-109">Cette section décrit les enregistrements DNS requis pour la découverte automatique.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-109">This section describes the DNS records that are required for automatic discovery.</span></span>
+<span data-ttu-id="dfec4-104">Lorsque vous déployez la fonctionnalité de mobilité Lync Server 2013, vous pouvez utiliser les nouvelles URL disponibles avec le service de découverte automatique Microsoft Lync Server 2013 ou vous pouvez utiliser vos URL de services Web existantes.</span><span class="sxs-lookup"><span data-stu-id="dfec4-104">When you deploy the Lync Server 2013 mobility feature, you can use the new URLs that are available with the Microsoft Lync Server 2013 Autodiscover Service, or you can use your existing Web Services URLs.</span></span> <span data-ttu-id="dfec4-105">Si vous utilisez vos URL existantes, les utilisateurs doivent entrer manuellement les URL dans les paramètres de leur appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="dfec4-105">If you use your existing URLs, users need to manually enter the URLs in their mobile device settings.</span></span> <span data-ttu-id="dfec4-106">Cette option est généralement utilisée à des fins de dépannage.</span><span class="sxs-lookup"><span data-stu-id="dfec4-106">This option is typically used for troubleshooting.</span></span> <span data-ttu-id="dfec4-107">Lorsque vous utilisez les nouvelles URL, les clients mobiles peuvent découvrir automatiquement les ressources Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dfec4-107">When you use the new URLs, mobile clients can automatically discover Lync Server 2013 resources.</span></span> <span data-ttu-id="dfec4-108">Lorsque vous prenez en charge la découverte automatique, vous devez ajouter de nouveaux enregistrements DNS (Domain Name System).</span><span class="sxs-lookup"><span data-stu-id="dfec4-108">When you support automatic discovery, you need to add new Domain Name System (DNS) records.</span></span> <span data-ttu-id="dfec4-109">Cette section décrit les enregistrements DNS nécessaires pour la découverte automatique.</span><span class="sxs-lookup"><span data-stu-id="dfec4-109">This section describes the DNS records that are required for automatic discovery.</span></span>
 
-<span data-ttu-id="f5c0a-110">Pour prendre en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP :</span><span class="sxs-lookup"><span data-stu-id="f5c0a-110">To support automatic discovery, you need to create the following DNS records for each SIP domain:</span></span>
+<span data-ttu-id="dfec4-110">Pour prendre en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP :</span><span class="sxs-lookup"><span data-stu-id="dfec4-110">To support automatic discovery, you need to create the following DNS records for each SIP domain:</span></span>
 
-  - <span data-ttu-id="f5c0a-111">Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent au sein du réseau de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-111">An internal DNS record to support mobile users who connect from within your organization's network</span></span>
+  - <span data-ttu-id="dfec4-111">un enregistrement DNS interne afin de prendre en charge les utilisateurs qui se connectent depuis le réseau de votre organisation ;</span><span class="sxs-lookup"><span data-stu-id="dfec4-111">An internal DNS record to support mobile users who connect from within your organization's network</span></span>
 
-  - <span data-ttu-id="f5c0a-112">Enregistrement DNS externe ou public permettant de prendre en charge les utilisateurs mobiles qui se connectent à partir d’Internet</span><span class="sxs-lookup"><span data-stu-id="f5c0a-112">An external, or public, DNS record to support mobile users who connect from the Internet</span></span>
+  - <span data-ttu-id="dfec4-112">un enregistrement DNS externe, ou public, afin de prendre en charge les utilisateurs mobiles qui se connectent depuis Internet.</span><span class="sxs-lookup"><span data-stu-id="dfec4-112">An external, or public, DNS record to support mobile users who connect from the Internet</span></span>
 
-<span data-ttu-id="f5c0a-113">L’URL de découverte automatique interne ne doit pas être adressable depuis l’extérieur de votre réseau.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-113">The internal automatic discovery URL should not be addressable from outside your network.</span></span> <span data-ttu-id="f5c0a-114">L’URL de découverte automatique externe ne doit pas être adressable à partir de votre réseau.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-114">The external automatic discovery URL should not be addressable from within your network.</span></span> <span data-ttu-id="f5c0a-115">Toutefois, si vous ne pouvez pas respecter cette exigence pour l’URL externe, le client mobile ne doit pas être affecté.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-115">However, if you cannot meet this requirement for the external URL, mobile client functionally should not be affected.</span></span>
+<span data-ttu-id="dfec4-p102">L’URL de découverte automatique interne ne doit pas être adressable depuis l’extérieur de votre réseau. L’URL de découverte automatique externe ne doit pas être adressable depuis votre réseau. Toutefois, si cette condition ne peut pas être remplie pour l’URL externe, la fonctionnalité du client mobile ne devrait pas être affectée.</span><span class="sxs-lookup"><span data-stu-id="dfec4-p102">The internal automatic discovery URL should not be addressable from outside your network. The external automatic discovery URL should not be addressable from within your network. However, if you cannot meet this requirement for the external URL, mobile client functionally should not be affected.</span></span>
 
-<span data-ttu-id="f5c0a-116">Les enregistrements DNS peuvent être des enregistrements CNAMe ou des enregistrements (Host).</span><span class="sxs-lookup"><span data-stu-id="f5c0a-116">The DNS records can be either CNAME records or A (host) records.</span></span>
+<span data-ttu-id="dfec4-116">Les enregistrements DNS peuvent être des enregistrements CNAME ou des enregistrements A (hôte).</span><span class="sxs-lookup"><span data-stu-id="dfec4-116">The DNS records can be either CNAME records or A (host) records.</span></span>
 
-<span data-ttu-id="f5c0a-117">**Enregistrements DNS internes**</span><span class="sxs-lookup"><span data-stu-id="f5c0a-117">**Internal DNS records**</span></span>
+<span data-ttu-id="dfec4-117">**Enregistrements DNS internes**</span><span class="sxs-lookup"><span data-stu-id="dfec4-117">**Internal DNS records**</span></span>
 
-<span data-ttu-id="f5c0a-118">Vous devez créer un des enregistrements DNS internes suivants :</span><span class="sxs-lookup"><span data-stu-id="f5c0a-118">You need to create one of the following internal DNS records:</span></span>
+<span data-ttu-id="dfec4-118">Vous devez créer l’un des enregistrements DNS internes suivants :</span><span class="sxs-lookup"><span data-stu-id="dfec4-118">You need to create one of the following internal DNS records:</span></span>
 
 
 <table>
@@ -62,29 +62,29 @@ ms.locfileid: "41737384"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5c0a-119">Type d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="f5c0a-119">Record type</span></span></th>
-<th><span data-ttu-id="f5c0a-120">Nom d’hôte ou définition SRV</span><span class="sxs-lookup"><span data-stu-id="f5c0a-120">Host name or SRV definition</span></span></th>
-<th><span data-ttu-id="f5c0a-121">Résolu en</span><span class="sxs-lookup"><span data-stu-id="f5c0a-121">Resolves to</span></span></th>
+<th><span data-ttu-id="dfec4-119">Type d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="dfec4-119">Record type</span></span></th>
+<th><span data-ttu-id="dfec4-120">Nom d’hôte ou définition SRV</span><span class="sxs-lookup"><span data-stu-id="dfec4-120">Host name or SRV definition</span></span></th>
+<th><span data-ttu-id="dfec4-121">Résolu en</span><span class="sxs-lookup"><span data-stu-id="dfec4-121">Resolves to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5c0a-122">CNAME</span><span class="sxs-lookup"><span data-stu-id="f5c0a-122">CNAME</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-123">lyncdiscoverinternal. &lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="f5c0a-123">lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-124">Nom de domaine complet des services Web internes (FQDN) de votre pool de directeurs, le cas échéant, ou de votre pool frontal si vous n’avez pas de réalisateur</span><span class="sxs-lookup"><span data-stu-id="f5c0a-124">Internal Web Services fully qualified domain name (FQDN) for your Director pool, if you have one, or for your Front End pool if you do not have a Director</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-122">CNAME</span><span class="sxs-lookup"><span data-stu-id="dfec4-122">CNAME</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-123">lyncdiscoverinternal. &lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="dfec4-123">lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-124">Nom de domaine complet (FQDN) des services Web internes pour votre pool Directeur, si vous en avez un, ou pour votre pool frontal si vous ne disposez pas d’un directeur</span><span class="sxs-lookup"><span data-stu-id="dfec4-124">Internal Web Services fully qualified domain name (FQDN) for your Director pool, if you have one, or for your Front End pool if you do not have a Director</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5c0a-125">A (hôte)</span><span class="sxs-lookup"><span data-stu-id="f5c0a-125">A (host)</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-126">lyncdiscoverinternal. &lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="f5c0a-126">lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-127">Adresse IP des services Web internes (adresse IP virtuelle) si vous utilisez un équilibreur de charge, si vous en avez un, ou si vous n’avez pas de directeur...</span><span class="sxs-lookup"><span data-stu-id="f5c0a-127">Internal Web Services IP address (virtual IP (VIP) address if you use a load balancer) of your Director pool, if you have one, or of your Front End pool if you do not have a Director</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-125">A (hôte)</span><span class="sxs-lookup"><span data-stu-id="dfec4-125">A (host)</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-126">lyncdiscoverinternal. &lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="dfec4-126">lyncdiscoverinternal.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-127">Adresse IP interne des services Web (adresse IP virtuelle (VIP) si vous utilisez un programme d’équilibrage de la charge) de votre pool Directeur, si vous en avez un, ou de votre pool frontal si vous ne disposez pas d’un directeur</span><span class="sxs-lookup"><span data-stu-id="dfec4-127">Internal Web Services IP address (virtual IP (VIP) address if you use a load balancer) of your Director pool, if you have one, or of your Front End pool if you do not have a Director</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f5c0a-128">**Enregistrements DNS externes**</span><span class="sxs-lookup"><span data-stu-id="f5c0a-128">**External DNS records**</span></span>
+<span data-ttu-id="dfec4-128">**Enregistrements DNS externes**</span><span class="sxs-lookup"><span data-stu-id="dfec4-128">**External DNS records**</span></span>
 
-<span data-ttu-id="f5c0a-129">Vous devez créer un des enregistrements DNS externes suivants :</span><span class="sxs-lookup"><span data-stu-id="f5c0a-129">You need to create one of the following external DNS records:</span></span>
+<span data-ttu-id="dfec4-129">Vous devez créer l’un des enregistrements DNS externes suivants :</span><span class="sxs-lookup"><span data-stu-id="dfec4-129">You need to create one of the following external DNS records:</span></span>
 
 
 <table>
@@ -95,31 +95,31 @@ ms.locfileid: "41737384"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5c0a-130">Type d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="f5c0a-130">Record type</span></span></th>
-<th><span data-ttu-id="f5c0a-131">Nom d’hôte</span><span class="sxs-lookup"><span data-stu-id="f5c0a-131">Host name</span></span></th>
-<th><span data-ttu-id="f5c0a-132">Résolu en</span><span class="sxs-lookup"><span data-stu-id="f5c0a-132">Resolves to</span></span></th>
+<th><span data-ttu-id="dfec4-130">Type d’enregistrement</span><span class="sxs-lookup"><span data-stu-id="dfec4-130">Record type</span></span></th>
+<th><span data-ttu-id="dfec4-131">Nom d’hôte</span><span class="sxs-lookup"><span data-stu-id="dfec4-131">Host name</span></span></th>
+<th><span data-ttu-id="dfec4-132">Résolu en</span><span class="sxs-lookup"><span data-stu-id="dfec4-132">Resolves to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5c0a-133">CNAME</span><span class="sxs-lookup"><span data-stu-id="f5c0a-133">CNAME</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-134">lyncdiscover.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-134">lyncdiscover.</span></span> <span data-ttu-id="f5c0a-135">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="f5c0a-135">&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-136">Nom de domaine complet des services Web externes pour votre pool de directeurs, le cas échéant, ou pour votre pool frontal si vous n’avez pas de réalisateur</span><span class="sxs-lookup"><span data-stu-id="f5c0a-136">External Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-133">CNAME</span><span class="sxs-lookup"><span data-stu-id="dfec4-133">CNAME</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-134">lyncdiscover.</span><span class="sxs-lookup"><span data-stu-id="dfec4-134">lyncdiscover.</span></span> <span data-ttu-id="dfec4-135">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="dfec4-135">&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-136">Nom de domaine complet externe des services Web pour votre pool Directeur, si vous en avez un, ou pour votre pool frontal si vous n’avez pas de directeur</span><span class="sxs-lookup"><span data-stu-id="dfec4-136">External Web Services FQDN for your Director pool, if you have one, or for your Front End pool if you do not have a Director</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5c0a-137">A (hôte)</span><span class="sxs-lookup"><span data-stu-id="f5c0a-137">A (host)</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-138">lyncdiscover.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-138">lyncdiscover.</span></span> <span data-ttu-id="f5c0a-139">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="f5c0a-139">&lt;sipdomain&gt;</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-140">Adresse IP externe ou publique (adresse VIP si vous utilisez un équilibreur de charge) du proxy inverse</span><span class="sxs-lookup"><span data-stu-id="f5c0a-140">External or public IP address (VIP address if you use a load balancer) of the reverse proxy</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-137">A (hôte)</span><span class="sxs-lookup"><span data-stu-id="dfec4-137">A (host)</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-138">lyncdiscover.</span><span class="sxs-lookup"><span data-stu-id="dfec4-138">lyncdiscover.</span></span> <span data-ttu-id="dfec4-139">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="dfec4-139">&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-140">Adresse IP externe ou publique (adresse VIP si vous utilisez un programme d’équilibrage de la charge) du proxy inverse</span><span class="sxs-lookup"><span data-stu-id="dfec4-140">External or public IP address (VIP address if you use a load balancer) of the reverse proxy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f5c0a-141">SRV</span><span class="sxs-lookup"><span data-stu-id="f5c0a-141">SRV</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-142">_sipfederationtls._tcp.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-142">_sipfederationtls._tcp.</span></span> <span data-ttu-id="f5c0a-143">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="f5c0a-143">&lt;sipdomain&gt;</span></span></p>
-<p><span data-ttu-id="f5c0a-144">Se résout en enregistrement Host (A ou AAAA) pour le service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-144">Resolves to host (A or AAAA) record for the Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="f5c0a-145">Pour prendre en charge les services de notifications de transmission et de notifications de type Apple, vous devez créer un enregistrement SRV pour chaque domaine SIP doté de clients mobiles Microsoft Lync.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-145">To support Push Notification Service and Apple Push Notification service, you create one SRV record for each SIP domain that has Microsoft Lync Mobile clients.</span></span></p>
+<td><p><span data-ttu-id="dfec4-141">SRV</span><span class="sxs-lookup"><span data-stu-id="dfec4-141">SRV</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-142">_sipfederationtls. _tcp.</span><span class="sxs-lookup"><span data-stu-id="dfec4-142">_sipfederationtls._tcp.</span></span> <span data-ttu-id="dfec4-143">&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="dfec4-143">&lt;sipdomain&gt;</span></span></p>
+<p><span data-ttu-id="dfec4-144">Résout l’enregistrement d’hôte (A ou AAAA) pour le service Edge d’accès</span><span class="sxs-lookup"><span data-stu-id="dfec4-144">Resolves to host (A or AAAA) record for the Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="dfec4-145">Pour prendre en charge le service de notifications et le service de notifications d’Apple, vous devez créer un enregistrement SRV pour chaque domaine SIP doté de clients Microsoft Lync mobile.</span><span class="sxs-lookup"><span data-stu-id="dfec4-145">To support Push Notification Service and Apple Push Notification service, you create one SRV record for each SIP domain that has Microsoft Lync Mobile clients.</span></span></p>
 <div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="f5c0a-146">Cette condition s’applique uniquement aux clients mobiles Microsoft Lync sur les appareils mobiles Apple ou Microsoft.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-146">This requirement applies only to Microsoft Lync Mobile clients on Apple or Microsoft based mobile devices.</span></span> <span data-ttu-id="f5c0a-147">Les appareils Android et Nokia Symbian n’utilisent pas la notification de transmission.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-147">Andriod and Nokia Symbian devices do not use push notification.</span></span>
+> <span data-ttu-id="dfec4-146">Cette exigence s’applique uniquement aux clients mobiles Microsoft Lync sur des appareils mobiles Apple ou Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfec4-146">This requirement applies only to Microsoft Lync Mobile clients on Apple or Microsoft based mobile devices.</span></span> <span data-ttu-id="dfec4-147">Les appareils Android et Nokia Symbian n’utilisent pas de notification push.</span><span class="sxs-lookup"><span data-stu-id="dfec4-147">Andriod and Nokia Symbian devices do not use push notification.</span></span>
 
 
 </div></td>
@@ -132,7 +132,7 @@ ms.locfileid: "41737384"
 
 
 > [!NOTE]  
-> <span data-ttu-id="f5c0a-148">Lyncdiscover, également connu sous le nom de découverte automatique, le trafic passe par le proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-148">Lyncdiscover, also known as autodiscover, traffic goes through the reverse proxy.</span></span> <span data-ttu-id="f5c0a-149">Un enregistrement SRV pointe vers un enregistrement qui est résolu par le biais du service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="f5c0a-149">SRV record points to a record that resolves through the Access Edge service.</span></span>
+> <span data-ttu-id="dfec4-148">Lyncdiscover, également appelé découverte automatique, le trafic passe par le proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="dfec4-148">Lyncdiscover, also known as autodiscover, traffic goes through the reverse proxy.</span></span> <span data-ttu-id="dfec4-149">L’enregistrement SRV pointe vers un enregistrement qui est résolu via le service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="dfec4-149">SRV record points to a record that resolves through the Access Edge service.</span></span>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Attributs, classes et extensions deq schémas Active Directory utilisés par Lync Server'
+title: 'Lync Server 2013 : extensions de schéma, classes et attributs du schéma Active Directory utilisés par Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ec6b3eff05ba27b41488aea49bb0347d058b6f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6868c98fd8ba78514d1e88c52075cbcccc50719b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735194"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a><span data-ttu-id="0de9e-102">Attributs, classes et extensions des schémas Active Directory utilisés par Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-102">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a><span data-ttu-id="65b8e-102">Extensions de schéma, classes et attributs du schéma Active Directory utilisés par Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-102">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41735194"
 
 <span> </span>
 
-<span data-ttu-id="0de9e-103">_**Dernière modification de la rubrique :** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="0de9e-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="65b8e-103">_**Dernière modification de la rubrique :** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="65b8e-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="0de9e-104">Cette section de référence contient les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="0de9e-104">This reference section includes the following information:</span></span>
+<span data-ttu-id="65b8e-104">Cette section de référence inclut les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="65b8e-104">This reference section includes the following information:</span></span>
 
-  - <span data-ttu-id="0de9e-105">Extensions de schéma Active Directory nouvelles ou modifiées pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-105">Active Directory schema extensions that are new or changed for Lync Server 2013</span></span>
+  - <span data-ttu-id="65b8e-105">Extensions de schéma Active Directory nouvelles ou modifiées pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-105">Active Directory schema extensions that are new or changed for Lync Server 2013</span></span>
     
-    <span data-ttu-id="0de9e-106">Le schéma Active Directory contient des définitions formels de toutes les classes d’objets qui peuvent être créées dans une forêt Active Directory.</span><span class="sxs-lookup"><span data-stu-id="0de9e-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="0de9e-107">Le schéma contient également des définitions formels de chaque attribut qui peut exister sur un objet Active Directory.</span><span class="sxs-lookup"><span data-stu-id="0de9e-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="0de9e-108">Le catalogue global Active Directory contient des réplicas de tous les objets pour la forêt, ainsi qu’un sous-ensemble des attributs de chaque objet.</span><span class="sxs-lookup"><span data-stu-id="0de9e-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="0de9e-109">Cette section décrit les classes et attributs qui sont nouveaux ou modifiés dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0de9e-109">This section describes the classes and attributes that are new or changed in Lync Server 2013.</span></span>
+    <span data-ttu-id="65b8e-106">Le schéma Active Directory contient des définitions formelles de chaque classe d’objet pouvant être créée dans une forêt Active Directory.</span><span class="sxs-lookup"><span data-stu-id="65b8e-106">The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest.</span></span> <span data-ttu-id="65b8e-107">Il contient également des définitions formelles de chaque attribut pouvant exister dans un objet Active Directory.</span><span class="sxs-lookup"><span data-stu-id="65b8e-107">The schema also contains formal definitions of every attribute that can exist on an Active Directory object.</span></span> <span data-ttu-id="65b8e-108">Le catalogue global Active Directory contient les réplicas de tous les objets de la forêt, ainsi qu’un sous-ensemble d’attributs pour chaque objet.</span><span class="sxs-lookup"><span data-stu-id="65b8e-108">The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object.</span></span> <span data-ttu-id="65b8e-109">Cette section décrit les classes et les attributs qui sont nouveaux ou modifiés dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65b8e-109">This section describes the classes and attributes that are new or changed in Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="0de9e-110">Toutes les classes utilisées par Lync Server, avec une description de chacune d’elles.</span><span class="sxs-lookup"><span data-stu-id="0de9e-110">All the classes used by Lync Server, with a description of each</span></span>
+  - <span data-ttu-id="65b8e-110">Toutes les classes utilisées par Lync Server, avec une description de chacune</span><span class="sxs-lookup"><span data-stu-id="65b8e-110">All the classes used by Lync Server, with a description of each</span></span>
 
-  - <span data-ttu-id="0de9e-111">Tous les attributs utilisés par Lync Server, avec une description de chacune d’elles.</span><span class="sxs-lookup"><span data-stu-id="0de9e-111">All the attributes used by Lync Server, with a description of each</span></span>
+  - <span data-ttu-id="65b8e-111">Tous les attributs utilisés par Lync Server, avec une description de chaque</span><span class="sxs-lookup"><span data-stu-id="65b8e-111">All the attributes used by Lync Server, with a description of each</span></span>
 
-  - <span data-ttu-id="0de9e-112">Une liste des classes utilisées par Lync Server, ainsi que les attributs qu’ils contiennent</span><span class="sxs-lookup"><span data-stu-id="0de9e-112">A list of the classes used by Lync Server, with the attributes each may contain</span></span>
+  - <span data-ttu-id="65b8e-112">Une liste des classes utilisées par Lync Server, avec les attributs que chacun peut contenir ;</span><span class="sxs-lookup"><span data-stu-id="65b8e-112">A list of the classes used by Lync Server, with the attributes each may contain</span></span>
 
-  - <span data-ttu-id="0de9e-113">Paramètres globaux et objets, en plus du service universel et des groupes d’administration créés lors de la préparation de la forêt</span><span class="sxs-lookup"><span data-stu-id="0de9e-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
+  - <span data-ttu-id="65b8e-113">Objets et paramètres globaux, ainsi que groupes de services universels et d’administration, qui sont créés pendant la préparation de la forêt</span><span class="sxs-lookup"><span data-stu-id="65b8e-113">Global settings and objects, in addition to the universal service and administration groups that are created during forest preparation</span></span>
 
-  - <span data-ttu-id="0de9e-114">Entrées de contrôle d’accès (ACE) créées sur la racine de domaine et les conteneurs intégrés lors de la préparation du domaine</span><span class="sxs-lookup"><span data-stu-id="0de9e-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
+  - <span data-ttu-id="65b8e-114">Entrées de contrôle d’accès (ACE) créées à la racine du domaine et conteneurs intégrés pendant la préparation du domaine</span><span class="sxs-lookup"><span data-stu-id="65b8e-114">Access control entries (ACEs) that are created on the domain root and built-in containers during domain preparation</span></span>
 
-  - <span data-ttu-id="0de9e-115">Modifications effectuées sur une unité d’organisation Active Directory par l’applet de contrôle Grant\_CsSetupPermission.</span><span class="sxs-lookup"><span data-stu-id="0de9e-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant\_CsSetupPermission cmdlet.</span></span>
+  - <span data-ttu-id="65b8e-115">Modifications apportées à une unité d’organisation (UO) Active Directory par l'\_applet de commande Grant CsSetupPermission.</span><span class="sxs-lookup"><span data-stu-id="65b8e-115">Changes that are made on an Active Directory organizational unit (OU) by the Grant\_CsSetupPermission cmdlet.</span></span>
 
-  - <span data-ttu-id="0de9e-116">Les modifications apportées sur une unité d’organisation Active Directory\_par l’applet de contrôle Grant CsOUPermission.</span><span class="sxs-lookup"><span data-stu-id="0de9e-116">Changes that are made on an Active Directory OU by the Grant\_CsOUPermission cmdlet.</span></span>
+  - <span data-ttu-id="65b8e-116">Modifications apportées à une unité d’organisation Active Directory par\_l’applet de commande Grant CsOUPermission.</span><span class="sxs-lookup"><span data-stu-id="65b8e-116">Changes that are made on an Active Directory OU by the Grant\_CsOUPermission cmdlet.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0de9e-117">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0de9e-117">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="65b8e-117">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="65b8e-117">In This Section</span></span>
 
-  - [<span data-ttu-id="0de9e-118">Modifications de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-118">Schema changes in Lync Server 2013</span></span>](lync-server-2013-schema-changes-in-lync-server-2013.md)
+  - [<span data-ttu-id="65b8e-118">Modifications apportées au schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-118">Schema changes in Lync Server 2013</span></span>](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="0de9e-119">Descriptions et classes de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-119">Schema classes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-classes-and-descriptions.md)
+  - [<span data-ttu-id="65b8e-119">Classes de schéma et descriptions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-119">Schema classes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-classes-and-descriptions.md)
 
-  - [<span data-ttu-id="0de9e-120">Attributs et descriptions de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-120">Schema attributes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-and-descriptions.md)
+  - [<span data-ttu-id="65b8e-120">Attributs et descriptions de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-120">Schema attributes and descriptions in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-and-descriptions.md)
 
-  - [<span data-ttu-id="0de9e-121">Attributs de schéma par classe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-121">Schema attributes by class in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-by-class.md)
+  - [<span data-ttu-id="65b8e-121">Attributs de schéma par classe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-121">Schema attributes by class in Lync Server 2013</span></span>](lync-server-2013-schema-attributes-by-class.md)
 
-  - [<span data-ttu-id="0de9e-122">Modifications apportées par la préparation de la forêt dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-122">Changes made by forest preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-forest-preparation.md)
+  - [<span data-ttu-id="65b8e-122">Modifications apportées par la préparation de la forêt dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-122">Changes made by forest preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [<span data-ttu-id="0de9e-123">Modifications apportées par la préparation du domaine dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-123">Changes made by domain preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [<span data-ttu-id="65b8e-123">Modifications apportées par la préparation du domaine dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-123">Changes made by domain preparation in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [<span data-ttu-id="0de9e-124">Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-124">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [<span data-ttu-id="65b8e-124">Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-124">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [<span data-ttu-id="0de9e-125">Modifications apportées par Grant-CsOUPermission dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0de9e-125">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [<span data-ttu-id="65b8e-125">Modifications apportées par Grant-CsOUPermission dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65b8e-125">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

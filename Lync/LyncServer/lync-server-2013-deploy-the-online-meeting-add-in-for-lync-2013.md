@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement du complément de réunion en ligne pour Lync 2013'
+title: 'Lync Server 2013 : déploiement du complément de réunion en ligne pour Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6c89c9d49754464c954c04ee0673f122848cdea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb38b41b57898b24abe1197a516103fa47c72d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028895"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="d3f69-102">Déploiement du complément de réunion en ligne pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="d3f69-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="7661b-102">Déploiement du complément de réunion en ligne pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7661b-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729634"
 
 <span> </span>
 
-<span data-ttu-id="d3f69-103">_**Dernière modification de la rubrique :** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="d3f69-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="7661b-103">_**Dernière modification de la rubrique :** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="7661b-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="d3f69-104">Déployez le complément réunion en ligne pour Lync 2013 de sorte que les utilisateurs puissent programmer des conférences prenant en charge la Conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="d3f69-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
+<span data-ttu-id="7661b-104">Déployez le complément de réunion en ligne pour Lync 2013 afin que les utilisateurs puissent planifier des conférences qui prennent en charge la Conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="7661b-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
 
-<span data-ttu-id="d3f69-105">Le complément réunion en ligne pour Lync 2013 est installé automatiquement lorsque vous installez Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="d3f69-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="d3f69-106">Pour plus d’informations sur la personnalisation du complément réunion en ligne pour Lync 2013 pour Lync, consultez [la rubrique Configuration de l’invitation à une réunion dans Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span><span class="sxs-lookup"><span data-stu-id="d3f69-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
+<span data-ttu-id="7661b-105">Le complément de réunion en ligne pour Lync 2013 est installé automatiquement lorsque vous installez Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="7661b-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="7661b-106">Pour plus d’informations sur la personnalisation du complément de réunion en ligne pour Lync 2013 pour Lync, reportez-vous à [la rubrique Configuration de l’invitation à une réunion dans Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span><span class="sxs-lookup"><span data-stu-id="7661b-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
 
 </div>
 

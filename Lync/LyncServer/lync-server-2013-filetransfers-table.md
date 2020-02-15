@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table FileTransfers'
+title: 'Lync Server 2013 : table FileTransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-table-in-lync-server-2013"></a><span data-ttu-id="06e88-102">Table FileTransfers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06e88-102">FileTransfers table in Lync Server 2013</span></span>
+# <a name="filetransfers-table-in-lync-server-2013"></a><span data-ttu-id="e8299-102">Table FileTransfers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8299-102">FileTransfers table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743360"
 
 <span> </span>
 
-<span data-ttu-id="06e88-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="06e88-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="e8299-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="e8299-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="06e88-104">Chaque enregistrement représente une session de transfert de fichiers.</span><span class="sxs-lookup"><span data-stu-id="06e88-104">Each record represents one file transfer session.</span></span>
+<span data-ttu-id="e8299-104">Chaque enregistrement représente une session de transfert de fichiers.</span><span class="sxs-lookup"><span data-stu-id="e8299-104">Each record represents one file transfer session.</span></span>
 
 
 <table>
@@ -49,60 +49,60 @@ ms.locfileid: "41743360"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06e88-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="06e88-105">Column</span></span></th>
-<th><span data-ttu-id="06e88-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="06e88-106">Data Type</span></span></th>
-<th><span data-ttu-id="06e88-107">Clé/Index</span><span class="sxs-lookup"><span data-stu-id="06e88-107">Key/Index</span></span></th>
-<th><span data-ttu-id="06e88-108">Détails</span><span class="sxs-lookup"><span data-stu-id="06e88-108">Details</span></span></th>
+<th><span data-ttu-id="e8299-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="e8299-105">Column</span></span></th>
+<th><span data-ttu-id="e8299-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="e8299-106">Data Type</span></span></th>
+<th><span data-ttu-id="e8299-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="e8299-107">Key/Index</span></span></th>
+<th><span data-ttu-id="e8299-108">Détails</span><span class="sxs-lookup"><span data-stu-id="e8299-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06e88-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="06e88-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="06e88-111">Etranger principal</span><span class="sxs-lookup"><span data-stu-id="06e88-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06e88-112">Durée de la demande de session.</span><span class="sxs-lookup"><span data-stu-id="06e88-112">Time of session request.</span></span> <span data-ttu-id="06e88-113">Utilisé conjointement avec <strong>SessionIdSeq</strong> pour identifier une session de manière unique.</span><span class="sxs-lookup"><span data-stu-id="06e88-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="06e88-114">Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06e88-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="e8299-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e8299-111">Primaire, étrangère</span><span class="sxs-lookup"><span data-stu-id="e8299-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e8299-112">Heure de la demande de session.</span><span class="sxs-lookup"><span data-stu-id="e8299-112">Time of session request.</span></span> <span data-ttu-id="e8299-113">Utilisée conjointement avec <strong>SessionIdSeq</strong> pour identifier de manière unique une session.</span><span class="sxs-lookup"><span data-stu-id="e8299-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="e8299-114">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e8299-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06e88-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-116">int</span><span class="sxs-lookup"><span data-stu-id="06e88-116">int</span></span></p></td>
-<td><p><span data-ttu-id="06e88-117">Etranger principal</span><span class="sxs-lookup"><span data-stu-id="06e88-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06e88-118">IDENTIFIant de la session.</span><span class="sxs-lookup"><span data-stu-id="06e88-118">ID number to identify the session.</span></span> <span data-ttu-id="06e88-119">Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une session de manière unique.</span><span class="sxs-lookup"><span data-stu-id="06e88-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="06e88-120">Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06e88-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-116">int</span><span class="sxs-lookup"><span data-stu-id="e8299-116">int</span></span></p></td>
+<td><p><span data-ttu-id="e8299-117">Primaire, étrangère</span><span class="sxs-lookup"><span data-stu-id="e8299-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e8299-118">Numéro d’ID pour identifier la session.</span><span class="sxs-lookup"><span data-stu-id="e8299-118">ID number to identify the session.</span></span> <span data-ttu-id="e8299-119">Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier de manière unique une session.</span><span class="sxs-lookup"><span data-stu-id="e8299-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="e8299-120">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e8299-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06e88-121"><strong>Nom de fichier</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-121"><strong>File Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-122">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="06e88-122">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e8299-121"><strong>Nom de fichier</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-121"><strong>File Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-122">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e8299-122">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06e88-123">Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="06e88-123">Name of the file.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-123">Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="e8299-123">Name of the file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06e88-124"><strong>FileIdentity</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-124"><strong>FileIdentity</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-125">identificateur</span><span class="sxs-lookup"><span data-stu-id="06e88-125">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="e8299-124"><strong>FileIdentity</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-124"><strong>FileIdentity</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-125">unique</span><span class="sxs-lookup"><span data-stu-id="e8299-125">uniqueidentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06e88-126">Identificateur unique permettant de faire la distinction entre les transferts de fichiers impliquant le même nom de fichier.</span><span class="sxs-lookup"><span data-stu-id="06e88-126">Unique identifier to distinguish between file transfers involving the same file name.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-126">Identificateur unique permettant de différencier les transferts de fichiers concernant le même nom de fichier.</span><span class="sxs-lookup"><span data-stu-id="e8299-126">Unique identifier to distinguish between file transfers involving the same file name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06e88-127"><strong>Sans</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-127"><strong>Cookie</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-128">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="06e88-128">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="06e88-129">Principal</span><span class="sxs-lookup"><span data-stu-id="06e88-129">Primary</span></span></p></td>
-<td><p><span data-ttu-id="06e88-130">Permet de détecter chaque message de suivi associé à celui-ci.</span><span class="sxs-lookup"><span data-stu-id="06e88-130">Used to identify every follow-up message as being associated with this one.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-127"><strong>Cookie</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-127"><strong>Cookie</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-128">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="e8299-128">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="e8299-129">Primaire</span><span class="sxs-lookup"><span data-stu-id="e8299-129">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e8299-130">Utilisé pour identifier chaque message de suivi comme étant associé à celui-ci.</span><span class="sxs-lookup"><span data-stu-id="e8299-130">Used to identify every follow-up message as being associated with this one.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06e88-131"><strong>Valide</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-131"><strong>Accept</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-132">bit</span><span class="sxs-lookup"><span data-stu-id="06e88-132">bit</span></span></p></td>
+<td><p><span data-ttu-id="e8299-131"><strong>Accept</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-131"><strong>Accept</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-132">légèrement</span><span class="sxs-lookup"><span data-stu-id="e8299-132">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06e88-133">Peut être vrai ou nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-133">Can be TRUE or NULL.</span></span> <span data-ttu-id="06e88-134">Si vrai, l’argument refuser et annuler est nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-134">If TRUE, then Reject and Cancel will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-p103">Peut-être TRUE ou NULL. Si TRUE, alors Reject et Cancel seront NULL.</span><span class="sxs-lookup"><span data-stu-id="e8299-p103">Can be TRUE or NULL. If TRUE, then Reject and Cancel will be NULL.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06e88-135"><strong>Rejeter</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-135"><strong>Reject</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-136">bit</span><span class="sxs-lookup"><span data-stu-id="06e88-136">bit</span></span></p></td>
+<td><p><span data-ttu-id="e8299-135"><strong>Reject</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-135"><strong>Reject</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-136">légèrement</span><span class="sxs-lookup"><span data-stu-id="e8299-136">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06e88-137">Peut être vrai ou nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-137">Can be TRUE or NULL.</span></span> <span data-ttu-id="06e88-138">Si vrai, l’argument accepter et annuler est nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-138">If TRUE, then Accept and Cancel will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-p104">Peut-être TRUE ou NULL. Si TRUE, alors Accept et Cancel seront NULL.</span><span class="sxs-lookup"><span data-stu-id="e8299-p104">Can be TRUE or NULL. If TRUE, then Accept and Cancel will be NULL.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06e88-139"><strong>Annuler</strong></span><span class="sxs-lookup"><span data-stu-id="06e88-139"><strong>Cancel</strong></span></span></p></td>
-<td><p><span data-ttu-id="06e88-140">bit</span><span class="sxs-lookup"><span data-stu-id="06e88-140">bit</span></span></p></td>
+<td><p><span data-ttu-id="e8299-139"><strong>Cancel</strong></span><span class="sxs-lookup"><span data-stu-id="e8299-139"><strong>Cancel</strong></span></span></p></td>
+<td><p><span data-ttu-id="e8299-140">légèrement</span><span class="sxs-lookup"><span data-stu-id="e8299-140">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06e88-141">Peut être vrai ou nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-141">Can be TRUE or NULL.</span></span> <span data-ttu-id="06e88-142">Si vrai, l’argument accepter et refuser est nul.</span><span class="sxs-lookup"><span data-stu-id="06e88-142">If TRUE, then Accept and Reject will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="e8299-p105">Peut-être TRUE ou NULL. Si TRUE, alors Accept et Reject seront NULL.</span><span class="sxs-lookup"><span data-stu-id="e8299-p105">Can be TRUE or NULL. If TRUE, then Accept and Reject will be NULL.</span></span></p></td>
 </tr>
 </tbody>
 </table>

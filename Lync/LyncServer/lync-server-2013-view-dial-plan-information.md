@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les informations de plan de numérotation'
+title: 'Lync Server 2013 : afficher les informations sur le plan de numérotation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a83de5daf33764dd08be9c08141d338e73a675d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c63aead21441cb972cce2b6fb26391efc43969bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a><span data-ttu-id="501c3-102">Afficher les informations de plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="501c3-102">View dial plan information in Lync Server 2013</span></span>
+# <a name="view-dial-plan-information-in-lync-server-2013"></a><span data-ttu-id="303ff-102">Afficher les informations de plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="303ff-102">View dial plan information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41731074"
 
 <span> </span>
 
-<span data-ttu-id="501c3-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="501c3-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="303ff-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="303ff-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="501c3-104">Pour afficher des informations pour un plan de numérotation existant, suivez les étapes de la procédure ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="501c3-104">To view information for an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="501c3-105">Pour créer un nouveau plan de numérotation, reportez-vous à [la rubrique créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="501c3-105">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
+<span data-ttu-id="303ff-104">Pour afficher les informations d’un plan de numérotation existant, effectuez la procédure suivante.</span><span class="sxs-lookup"><span data-stu-id="303ff-104">To view information for an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="303ff-105">Si vous souhaitez créer un nouveau plan de numérotation, voir [créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="303ff-105">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
 
 <div>
 
-## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a><span data-ttu-id="501c3-106">Pour afficher des informations sur un plan de numérotation via le panneau de configuration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="501c3-106">To view information about a dial plan from Lync Server Control Panel</span></span>
+## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a><span data-ttu-id="303ff-106">Pour afficher des informations sur un plan de numérotation à partir du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="303ff-106">To view information about a dial plan from Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="501c3-107">Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="501c3-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="501c3-108">Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="501c3-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="303ff-107">Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="303ff-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="303ff-108">Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="303ff-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="501c3-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="501c3-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="501c3-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="501c3-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="303ff-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="303ff-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="303ff-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="303ff-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="501c3-111">Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Plan de numérotation**.</span><span class="sxs-lookup"><span data-stu-id="501c3-111">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
+3.  <span data-ttu-id="303ff-111">Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Plan de numérotation**.</span><span class="sxs-lookup"><span data-stu-id="303ff-111">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
 
-4.  <span data-ttu-id="501c3-112">Dans la page **Plan de numérotation**, double-cliquez sur le nom d’un plan de numérotation.</span><span class="sxs-lookup"><span data-stu-id="501c3-112">On the **Dial Plan** page, double-click a dial plan name.</span></span>
+4.  <span data-ttu-id="303ff-112">Dans la page **Plan de numérotation**, double-cliquez sur le nom du plan de numérotation.</span><span class="sxs-lookup"><span data-stu-id="303ff-112">On the **Dial Plan** page, double-click a dial plan name.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="501c3-113">Vous pouvez afficher des informations pour un seul plan de numérotation à la fois.</span><span class="sxs-lookup"><span data-stu-id="501c3-113">You can view information for only one dial plan at a time.</span></span>
+    > <span data-ttu-id="303ff-113">Vous ne pouvez afficher les informations que d’un seul plan de numération à la fois.</span><span class="sxs-lookup"><span data-stu-id="303ff-113">You can view information for only one dial plan at a time.</span></span>
 
     
     </div>
@@ -64,15 +64,15 @@ ms.locfileid: "41731074"
 
 <div>
 
-## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="501c3-114">Pour afficher les plans de numérotation à l’aide des cmdlets Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="501c3-114">To view dial plans by using Windows PowerShell cmdlets</span></span>
+## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="303ff-114">Pour afficher les plans de numérotation à l’aide des applets de commande Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="303ff-114">To view dial plans by using Windows PowerShell cmdlets</span></span>
 
-  - <span data-ttu-id="501c3-115">Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de l’applet de commande **Get-CsDialPlan** .</span><span class="sxs-lookup"><span data-stu-id="501c3-115">Dial plans can be viewed by using the Windows PowerShell command-line interface and the **Get-CsDialPlan** cmdlet.</span></span> <span data-ttu-id="501c3-116">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="501c3-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="501c3-117">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».</span><span class="sxs-lookup"><span data-stu-id="501c3-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+  - <span data-ttu-id="303ff-115">Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de la cmdlet **Get-CsDialPlan** .</span><span class="sxs-lookup"><span data-stu-id="303ff-115">Dial plans can be viewed by using the Windows PowerShell command-line interface and the **Get-CsDialPlan** cmdlet.</span></span> <span data-ttu-id="303ff-116">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="303ff-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="303ff-117">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="303ff-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
     
-    <span data-ttu-id="501c3-118">Pour afficher des informations sur l’ensemble de vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :</span><span class="sxs-lookup"><span data-stu-id="501c3-118">To view information about all your dial plans, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
+    <span data-ttu-id="303ff-118">Pour afficher des informations sur tous vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :</span><span class="sxs-lookup"><span data-stu-id="303ff-118">To view information about all your dial plans, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsDialPlan
     
-    <span data-ttu-id="501c3-119">Cette commande renvoie des informations similaires à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="501c3-119">That command will return information similar to this:</span></span>
+    <span data-ttu-id="303ff-119">Cette commande renvoie des informations semblables à celles-ci :</span><span class="sxs-lookup"><span data-stu-id="303ff-119">That command will return information similar to this:</span></span>
     
         Identity                 : Global
         Description              :
@@ -91,11 +91,11 @@ ms.locfileid: "41731074"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="501c3-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="501c3-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="303ff-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="303ff-120">See Also</span></span>
 
 
-[<span data-ttu-id="501c3-121">Créer un plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="501c3-121">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
-[<span data-ttu-id="501c3-122">Modification d’un plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="501c3-122">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
+[<span data-ttu-id="303ff-121">Création d’un plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="303ff-121">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="303ff-122">Modifier un plan de numérotation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="303ff-122">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
   
 
 </div>

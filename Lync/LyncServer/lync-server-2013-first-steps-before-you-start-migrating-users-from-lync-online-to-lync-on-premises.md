@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : premières étapes avant de commencer à migrer des utilisateurs de Lync Online vers Lync local'
+title: 'Lync Server 2013 : premières étapes préalables à la migration des utilisateurs de Lync Online vers Lync en local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59ca20a994934a199504a4fb6a7dd5eec206c960
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1bf61b4e2f3e3a14d5e2434ff80bd5d6f612f267
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742494"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="53a42-102">Premiers pas avant de commencer à migrer des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53a42-102">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
+# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="6d876-102">Premières étapes avant de commencer la migration des utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d876-102">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742494"
 
 <span> </span>
 
-<span data-ttu-id="53a42-103">_**Dernière modification de la rubrique :** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="53a42-103">_**Topic Last Modified:** 2014-05-08_</span></span>
+<span data-ttu-id="6d876-103">_**Dernière modification de la rubrique :** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="6d876-103">_**Topic Last Modified:** 2014-05-08_</span></span>
 
-<span data-ttu-id="53a42-104">Avant de commencer à déplacer des utilisateurs de Lync Online vers votre environnement local, assurez-vous que les conditions suivantes sont remplies :</span><span class="sxs-lookup"><span data-stu-id="53a42-104">Before you start moving Lync Online users to your on-premises environment, check that all of the following are true:</span></span>
+<span data-ttu-id="6d876-104">Avant de commencer à transférer des utilisateurs Lync Online vers votre environnement local, vérifiez que toutes les conditions suivantes sont vraies :</span><span class="sxs-lookup"><span data-stu-id="6d876-104">Before you start moving Lync Online users to your on-premises environment, check that all of the following are true:</span></span>
 
-  - <span data-ttu-id="53a42-105">Votre environnement Lync Server local doit être entièrement déployé et validé.</span><span class="sxs-lookup"><span data-stu-id="53a42-105">Your Lync Server on-premises environment must be fully deployed and validated.</span></span> <span data-ttu-id="53a42-106">Pour plus d’informations, reportez-vous à [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="53a42-106">For more information, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span></span>
+  - <span data-ttu-id="6d876-105">Votre environnement Lync Server local doit être entièrement déployé et validé.</span><span class="sxs-lookup"><span data-stu-id="6d876-105">Your Lync Server on-premises environment must be fully deployed and validated.</span></span> <span data-ttu-id="6d876-106">Pour plus d’informations, consultez la rubrique [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="6d876-106">For more information, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span></span>
 
-  - <span data-ttu-id="53a42-107">Votre client Lync Online doit être configuré pour l’accès PowerShell à distance.</span><span class="sxs-lookup"><span data-stu-id="53a42-107">Your Lync Online tenant must be configured for remote PowerShell Access.</span></span>
+  - <span data-ttu-id="6d876-107">Votre client Lync Online doit être configuré pour l’accès à PowerShell à distance.</span><span class="sxs-lookup"><span data-stu-id="6d876-107">Your Lync Online tenant must be configured for remote PowerShell Access.</span></span>
     
-    <span data-ttu-id="53a42-108">Pour ce faire, vous devez d’abord installer le module Lync Online pour Windows PowerShell que vous trouverez ici [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911):.</span><span class="sxs-lookup"><span data-stu-id="53a42-108">To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
+    <span data-ttu-id="6d876-108">Pour ce faire, commencez par installer le module Lync Online pour Windows PowerShell, que vous pouvez obtenir ici [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911):.</span><span class="sxs-lookup"><span data-stu-id="6d876-108">To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
     
-    <span data-ttu-id="53a42-109">Après avoir installé le module, vous pouvez établir une session distante en tapant les applets de commande suivantes dans Lync Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="53a42-109">After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:</span></span>
+    <span data-ttu-id="6d876-109">Après avoir installé le module, vous pouvez établir une session distante en tapant les applets de commande suivantes dans Lync Server Management Shell :</span><span class="sxs-lookup"><span data-stu-id="6d876-109">After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:</span></span>
     
        ```PowerShell
         Import-Module LyncOnlineConnector
@@ -63,15 +63,15 @@ ms.locfileid: "41742494"
         Import-PSSession $CSSession -AllowClobber
        ```
     
-    <span data-ttu-id="53a42-110">Pour plus d’informations sur l’établissement d’une session PowerShell distante avec Lync Online, voir [connexion à Lync Online à l’aide de Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="53a42-110">For more information about how to establish a remote PowerShell session with Lync Online, see [Connecting to Lync Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+    <span data-ttu-id="6d876-110">Pour plus d’informations sur la façon d’établir une session PowerShell distante avec Lync Online, consultez la rubrique [connexion à Lync Online à l’aide de Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="6d876-110">For more information about how to establish a remote PowerShell session with Lync Online, see [Connecting to Lync Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
   
-    <span data-ttu-id="53a42-111">Pour plus d’informations sur l’utilisation du module Lync Online PowerShell, reportez-vous à la rubrique [utilisation de Windows PowerShell pour gérer Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="53a42-111">For more information about using the Lync Online PowerShell module, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+    <span data-ttu-id="6d876-111">Pour plus d’informations sur l’utilisation du module Lync Online PowerShell, voir [Using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="6d876-111">For more information about using the Lync Online PowerShell module, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
-  - <span data-ttu-id="53a42-112">Votre Lync Online doit être configuré pour l’espace d’adressage SIP partagé.</span><span class="sxs-lookup"><span data-stu-id="53a42-112">Your Lync Online must be configured for Shared SIP Address Space.</span></span> <span data-ttu-id="53a42-113">Pour ce faire, commencez par commencer une session PowerShell distante avec Lync Online.</span><span class="sxs-lookup"><span data-stu-id="53a42-113">To do this, first start a remote Powershell session with Lync Online.</span></span> <span data-ttu-id="53a42-114">Ensuite, exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="53a42-114">Then run the following cmdlet:</span></span>
+  - <span data-ttu-id="6d876-112">Votre Lync Online doit être configuré pour l’espace d’adressage SIP partagé.</span><span class="sxs-lookup"><span data-stu-id="6d876-112">Your Lync Online must be configured for Shared SIP Address Space.</span></span> <span data-ttu-id="6d876-113">Pour ce faire, commencez par démarrer une session PowerShell distante avec Lync Online.</span><span class="sxs-lookup"><span data-stu-id="6d876-113">To do this, first start a remote Powershell session with Lync Online.</span></span> <span data-ttu-id="6d876-114">Exécutez ensuite l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6d876-114">Then run the following cmdlet:</span></span>
     
         Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
-<span data-ttu-id="53a42-115">Une fois ces étapes terminées, vous pouvez passer à la [migration des utilisateurs Lync Online vers Lync local dans Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span><span class="sxs-lookup"><span data-stu-id="53a42-115">After you’ve finished these steps, you can move on to [Migrating Lync Online users to Lync on-premises in Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span></span>
+<span data-ttu-id="6d876-115">Une fois que vous avez terminé ces étapes, vous pouvez passer à la [migration des utilisateurs Lync Online vers Lync sur site dans Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span><span class="sxs-lookup"><span data-stu-id="6d876-115">After you’ve finished these steps, you can move on to [Migrating Lync Online users to Lync on-premises in Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span></span>
 
 </div>
 
