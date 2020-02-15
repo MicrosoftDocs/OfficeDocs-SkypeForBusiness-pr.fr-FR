@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblComplianceState'
+title: 'Lync Server 2013 : tblComplianceState'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764200"
 
 _**Dernière modification de la rubrique :** 2012-06-28_
 
-tblComplianceState contient des informations sur l’état de compatibilité à l’échelle du pool.
+tblComplianceState contient des informations d’état de conformité à l’échelle du pool.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,18 +57,18 @@ tblComplianceState contient des informations sur l’état de compatibilité à 
 <tbody>
 <tr class="odd">
 <td><p>lastProcessedEntryID</p></td>
-<td><p>bigint, pas null</p></td>
-<td><p>ID de l’événement de conformité traité le plus récent.</p></td>
+<td><p>bigint, non null</p></td>
+<td><p>ID du dernier événement de conformité traité.</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID du serveur de conformité qui détient le verrou exclusif sur la base de données, ou-1 si aucun.</p></td>
+<td><p>int, non null</p></td>
+<td><p>ID du serveur de conformité contenant le verrou exclusif sur la base de données, ou-1 si aucun.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
-<td><p>datetime2, pas null</p></td>
-<td><p>Durée d’expiration du verrouillage (si activeServerID n’est pas-1).</p></td>
+<td><p>datetime2, non null</p></td>
+<td><p>Délai d’expiration du verrouillage (si activeServerID n’est pas-1).</p></td>
 </tr>
 </tbody>
 </table>

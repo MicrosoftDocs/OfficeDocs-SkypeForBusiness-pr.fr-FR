@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblFileToken'
+title: 'Lync Server 2013 : tblFileToken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764180"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764180"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblFileToken contient des jetons temporaires aux fins de transfert de fichiers.
+tblFileToken contient des jetons temporaires pour le transfert de fichiers.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,54 +57,54 @@ tblFileToken contient des jetons temporaires aux fins de transfert de fichiers.
 <tbody>
 <tr class="odd">
 <td><p>fileToken</p></td>
-<td><p>nvarchar (50), pas null</p></td>
-<td><p>Jeton unique (GUID).</p></td>
+<td><p>nvarchar (50), non null</p></td>
+<td><p>Jeton unique (un GUID).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
-<td><p>ent, non null</p></td>
+<td><p>int, non null</p></td>
 <td><p>ID du principal qui transfère le fichier.</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenChannelID</p></td>
-<td><p>GUID, pas null</p></td>
-<td><p>GUID du nœud de salle de conversation.</p></td>
+<td><p>GUID, non null</p></td>
+<td><p>GUID du nœud de salles de conversation.</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>DATEHEURE, pas null</p></td>
-<td><p>Durée d’expiration. (Les jetons expirent au bout de 30 minutes, sauf s’ils sont épinglés (voir les descriptions suivies dans cette colonne).</p></td>
+<td><p>datetime, non null</p></td>
+<td><p>Heure d’expiration. Les jetons expirent après 30 minutes sauf s’ils sont épinglés (voir les descriptions suivantes dans cette colonne).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>URL du fichier transféré (pour une utilisation du service de conformité).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL du fichier transféré (pour l’utilisation du service de conformité).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>URL de la miniature du fichier transféré (pour une utilisation du service de conformité).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL de la miniature du fichier transféré (pour l’utilisation du service de conformité).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>Horodatage de l’opération de transfert de fichiers réelle (pour l’utilisation du service de conformité).</p></td>
+<td><p>Horodatage de l’opération effective de transfert de fichier (pour l’utilisation du service de conformité).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
-<td><p>bit</p></td>
-<td><p>True si Télécharger ; Faux si Télécharger (pour une utilisation du service de conformité).</p></td>
+<td><p>légèrement</p></td>
+<td><p>True en cas de téléchargement sortant ; False en cas de téléchargement entrant (pour l’utilisation du service de conformité).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
-<td><p>bit, pas null</p></td>
-<td><p>True si le jeton est épinglé. Il est utilisé pour conserver le jeton dans le tableau jusqu’à ce que le service de conformité puisse récupérer les champs appropriés.</p></td>
+<td><p>bit, non null</p></td>
+<td><p>True si le jeton est épinglé. Cela permet de garder le jeton dans la table jusqu’à ce que le service de conformité puisse y récupérer les champs appropriés.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Permettent
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ tblFileToken contient des jetons temporaires aux fins de transfert de fichiers.
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblNode. nodeGuid.</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblNode.nodeGuid.</p></td>
 </tr>
 </tbody>
 </table>

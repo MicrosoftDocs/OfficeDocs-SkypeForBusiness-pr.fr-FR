@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblConfig'
+title: 'Lync Server 2013 : tblConfig'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b0e383791eafbe017e5163156ba53cdad581cb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 399d4e794b45f549aed86838463091db437b286f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731494"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731494"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblConfig contient certaines configurations du serveur de chat permanent non prises en charge, en une seule ligne.
+tblConfig contient une configuration non prise en charge par le serveur de conversation permanente, dans une ligne.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,7 +57,7 @@ tblConfig contient certaines configurations du serveur de chat permanent non pri
 <tbody>
 <tr class="odd">
 <td><p>configLabel</p></td>
-<td><p>nvarchar (255), pas null</p></td>
+<td><p>nvarchar (255), non null</p></td>
 <td><p>Contient &quot;le pool.&quot;</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ tblConfig contient certaines configurations du serveur de chat permanent non pri
 </tr>
 <tr class="odd">
 <td><p>configPoolID</p></td>
-<td><p>GUID, pas null</p></td>
+<td><p>GUID, non null</p></td>
 <td><p>ID unique de l’instance de base de données.</p></td>
 </tr>
 </tbody>

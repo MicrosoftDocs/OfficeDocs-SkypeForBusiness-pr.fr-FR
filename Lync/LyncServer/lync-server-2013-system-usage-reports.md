@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapports d’utilisation du système'
+title: 'Lync Server 2013 : rapports sur l’utilisation du système'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a349a9816f11b73d942598f0141df497fb0294c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bacfc69c0b587ad613382f48359123ed9e0d0443
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,39 +37,39 @@ ms.locfileid: "41764250"
 
 _**Dernière modification de la rubrique :** 2012-10-21_
 
-Les rapports d’utilisation du système fournissent des informations sur l’utilisation du système en fonction des données d’enregistrement des détails des appels collectées par le serveur Lync.
+Les rapports d’utilisation du système fournissent des informations relatives à l’utilisation du système en fonction des données d’enregistrement des détails des appels collectées par Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Rapport sur l’inscription des utilisateurs dans Lync Server 2013](lync-server-2013-user-registration-report.md)
+  - [Rapport d’enregistrement de l’utilisateur dans Lync Server 2013](lync-server-2013-user-registration-report.md)
     
-    Fournit un résumé de la connectivité utilisateur au déploiement de Lync Server 2013 en fonction des événements d’inscription, tels que les connexions utilisateur. Ce rapport fournit un moyen d’afficher à la fois des ouvertures de session internes et externes, et de comparer le nombre d’utilisateurs connectés à Lync Server 2013 et le nombre d’utilisateurs qui ont réellement utilisé le service pendant la connexion.
+    Fournit un résumé de la connectivité utilisateur au déploiement Lync Server 2013 en fonction des événements d’inscription, tels que les ouvertures de session utilisateur. Le rapport permet d’afficher les ouvertures de session internes et externes et de comparer le nombre d’utilisateurs qui se sont connectés à Lync Server 2013 avec le nombre d’utilisateurs ayant réellement utilisé le service pendant qu’ils ont ouvert une session.
 
-  - [Rapport de synthèse des activités d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
+  - [Rapport de synthèse des activités P2P dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
     
-    Fournit une synthèse des sessions de messagerie instantanée P2P, audio, vidéo, de transfert de fichiers et de partage d’applications. Les sessions P2P sont des sessions impliquant seulement deux utilisateurs.
+    Fournit une synthèse des sessions de messagerie instantanée d’égal à égal, audio, vidéo, de transfert de fichiers et de partage d’applications. Les sessions d’égal à égal sont des sessions impliquant seulement deux utilisateurs.
 
   - [Rapport de synthèse de conférence dans Lync Server 2013](lync-server-2013-conference-summary-report.md)
     
     Fournit une synthèse de toutes les activités de conférence. Les conférences sont des sessions qui impliquent plus de deux personnes.
 
-  - [Rapport de synthèse des conférences RTC dans Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
+  - [Rapport de synthèse de conférence RTC dans Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
     
-    Fournit une synthèse de toutes les conférences RTC. Il s’agit de conférences où au moins un utilisateur compose un numéro sur le réseau téléphonique commuté (RTC). Ces conférences sont aussi appelées *conférence rendez-vous*.
+    Fournit une synthèse de toutes les conférences PSTN. Il s’agit de conférences où au moins un utilisateur compose un numéro sur le réseau téléphonique commuté (PSTN). Ces conférences sont aussi appelées *conférence rendez-vous*.
 
-  - [Rapport sur l’utilisation du groupe de réponses dans Lync Server 2013](lync-server-2013-response-group-usage-report.md)
+  - [Rapport d’utilisation de Response Group dans Lync Server 2013](lync-server-2013-response-group-usage-report.md)
     
-    Fournit un résumé de l’utilisation de Response Group. L’application Response Group vous permet d’acheminer automatiquement les appels téléphoniques vers des entités comme un support technique ou une ligne d’assistance clientèle.
+    Fournit un résumé de l’utilisation de Response Group. L’application Response Group vous permet d’acheminer automatiquement les appels téléphoniques vers des entités telles qu’un support technique ou un service clientèle.
 
-  - [Rapport d’inventaire des téléphones IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
+  - [Rapport d’inventaire de téléphonie IP dans Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
     
-    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, il est possible que vous ayez de nouveaux téléphones qui ne s’affichent pas dans le rapport, car les utilisateurs ne sont pas encore connectés à Lync Server avec leur nouveau téléphone.
+    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui ne s’affichent pas dans le rapport simplement parce que les utilisateurs n’ont pas encore ouvert de session sur Lync Server avec leur nouveau téléphone.
 
   - [Rapport de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-call-admission-control-report.md)
     
-    Fournit une liste d’activités P2P et de conférence qui utilisent le contrôle d’admission des appels. Le contrôle d’admission des appels (CAC, Call Admission Control) permet de déterminer si les sessions de communication en temps réel, comme les appels audio et vidéo, doivent ou non être autorisées, en fonction des restrictions de bande passante.
+    Fournit une liste d’activités d’égal à égal et de conférence qui utilisent le contrôle d’admission des appels. Le contrôle d’admission des appels (CAC, Call Admission Control) permet de déterminer si les sessions de communication en temps réel, comme les appels audio et vidéo, doivent ou non être autorisées, en fonction des restrictions de bande passante.
 
 </div>
 

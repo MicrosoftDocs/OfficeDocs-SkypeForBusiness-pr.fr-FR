@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des domaines fédérés SIP pour l’organisation'
+title: 'Lync Server 2013 : gestion des domaines fédérés SIP pour votre organisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733304"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Gestion des domaines fédérés SIP pour l’organisation dans Lync Server 2013
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Gérer les domaines fédérés SIP pour votre organisation dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41733304"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
+Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
-Pour gérer et configurer des domaines SIP avec lesquels vous êtes fédérer, vous pouvez procéder comme suit :
+Pour gérer et configurer des domaines SIP avec lesquels vous pouvez vous fédérer, vous pouvez effectuer les opérations suivantes :
 
-  - Créer ou modifier une liste de domaines autorisés de domaines partenaires fédérés SIP.
+  - créer ou modifier une liste de domaines partenaires fédérés SIP autorisés ;
 
-  - Créez ou modifiez la liste des domaines bloqués des domaines fédérés SIP.
+  - créer ou modifier une liste de domaines fédérés SIP bloqués.
 
-Pour effectuer ces tâches, suivez les procédures décrites dans cette section.
+Pour effectuer ces tâches, utilisez les procédures décrites dans cette section.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration de la prise en charge des domaines externes autorisés dans Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)
+  - [Configurer la prise en charge des domaines externes autorisés dans Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
-  - [Configuration de la prise en charge pour les domaines externes bloqués dans Lync Server 2013](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - [Configurer la prise en charge des domaines externes bloqués dans Lync Server 2013](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
 </div>
 
@@ -62,9 +62,9 @@ Pour effectuer ces tâches, suivez les procédures décrites dans cette section.
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[Activation ou désactivation de la découverte de partenaires de fédération dans Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>

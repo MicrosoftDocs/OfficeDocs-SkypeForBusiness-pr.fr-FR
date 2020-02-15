@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblLastInviteId'
+title: 'Lync Server 2013 : tblLastInviteId'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b58f43c696a6218d0dd9b670615cc0f73b0b7ae3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764170"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764170"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblLastInviteId contient le dernier ID d’invitation généré (et utilisé dans la table tblPrincipalInvites) pour chaque utilisateur.
+La table tblLastInviteId contient le dernier ID d’invitation généré (et utilisé dans la table tblPrincipalInvites) pour chaque utilisateur.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblLastInviteId contient le dernier ID d’invitation généré (et utilisé dan
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID du principal.</p></td>
+<td><p>entier, non null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastInviteID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>Dernier ID d’invitation utilisé.</p></td>
+<td><p>int, non null</p></td>
+<td><p>ID d’invitation le plus récemment utilisé.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Permettent
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ tblLastInviteId contient le dernier ID d’invitation généré (et utilisé dan
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblPrincipal. prinID.</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>
