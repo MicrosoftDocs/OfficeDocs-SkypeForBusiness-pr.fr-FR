@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des ports - Directeur unique'
+title: 'Lync Server 2013 : Résumé des ports-directeur unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0179d6fd27207d28caa10ffa01bea155f9b00c03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95ae1ada828ea4ad3c6bdd2c863333c911635ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a><span data-ttu-id="1dc73-102">Résumé des ports - Directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1dc73-102">Port summary - Single Director in Lync Server 2013</span></span>
+# <a name="port-summary---single-director-in-lync-server-2013"></a><span data-ttu-id="e0cf9-102">Résumé des ports-directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0cf9-102">Port summary - Single Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725024"
 
 <span> </span>
 
-<span data-ttu-id="1dc73-103">_**Dernière modification de la rubrique :** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="1dc73-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="e0cf9-103">_**Dernière modification de la rubrique :** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="e0cf9-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="1dc73-104">La configuration requise pour les ports de pare-feu pour un seul directeur consiste à utiliser les ports utilisés pour établir une communication avec le directeur à partir de l’interface interne ou du réseau interne du proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="1dc73-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="1dc73-105">Microsoft Lync Server 2013 par défaut s’attend à ce que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts du proxy inverse au directeur, ainsi qu’au pool frontal et au serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="1dc73-106">Par ailleurs, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge au directeur et au serveur principal et au pool frontal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="1dc73-107">Le protocole SIP utilise SIP/MTLS/TCP 5061 du serveur Edge au pool frontal et au serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="1dc73-108">Une règle qui autorise la communication SIP/MTLS/TCP 5061 à partir du réalisateur, du pool frontal et du serveur frontal vers l’interface interne du serveur Edge doit également être créée.</span><span class="sxs-lookup"><span data-stu-id="1dc73-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+<span data-ttu-id="e0cf9-104">Les exigences de port de pare-feu pour un seul directeur consistent en des ports utilisés pour établir la communication avec le directeur depuis l’interface interne ou le réseau interne du proxy inverse.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="e0cf9-105">Microsoft Lync Server 2013 attend par défaut que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts depuis le proxy inverse vers le directeur, ainsi que le pool frontal et le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="e0cf9-106">En outre, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge vers le directeur et vers le pool frontal et le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="e0cf9-107">Le protocole SIP utilise SIP/MTLS/TCP 5061 à partir du serveur Edge vers le pool frontal et le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="e0cf9-108">Une règle qui autorise la communication SIP/MTLS/TCP 5061 depuis le directeur, le pool frontal et le serveur frontal vers l’interface interne du serveur Edge doit également être créée.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="1dc73-109">Ports et protocoles de Director uniques pour les définitions de pare-feu</span><span class="sxs-lookup"><span data-stu-id="1dc73-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="e0cf9-109">Ports et protocoles de directeur unique pour les définitions de pare-feu</span><span class="sxs-lookup"><span data-stu-id="e0cf9-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ ms.locfileid: "41725024"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1dc73-110">Rôles/protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="1dc73-110">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="1dc73-111">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="1dc73-111">Source IP address</span></span></th>
-<th><span data-ttu-id="1dc73-112">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="1dc73-112">Destination IP address</span></span></th>
-<th><span data-ttu-id="1dc73-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="1dc73-113">Notes</span></span></th>
+<th><span data-ttu-id="e0cf9-110">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e0cf9-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e0cf9-111">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="e0cf9-111">Source IP address</span></span></th>
+<th><span data-ttu-id="e0cf9-112">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="e0cf9-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="e0cf9-113">Notes</span><span class="sxs-lookup"><span data-stu-id="e0cf9-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1dc73-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="1dc73-114">HTTP/TCP 8080</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-115">Interface interne du proxy inverse</span><span class="sxs-lookup"><span data-stu-id="1dc73-115">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-116">directeur</span><span class="sxs-lookup"><span data-stu-id="1dc73-116">Director</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-117">Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée au directeur et aux services Web du serveur principal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director and Front End Server web services</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="e0cf9-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-115">Interface interne de proxy inverse</span><span class="sxs-lookup"><span data-stu-id="e0cf9-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-116">48000b</span><span class="sxs-lookup"><span data-stu-id="e0cf9-116">Director</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-117">Initialement reçus par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur et du serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director and Front End Server web services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1dc73-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="1dc73-118">HTTPS/TCP 4443</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-119">Interface interne du proxy inverse</span><span class="sxs-lookup"><span data-stu-id="1dc73-119">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-120">directeur</span><span class="sxs-lookup"><span data-stu-id="1dc73-120">Director</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-121">Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée au directeur et aux services Web du serveur principal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director and Front End Server web services</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="e0cf9-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-119">Interface interne de proxy inverse</span><span class="sxs-lookup"><span data-stu-id="e0cf9-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-120">48000b</span><span class="sxs-lookup"><span data-stu-id="e0cf9-120">Director</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-121">Initialement reçus par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur et du serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director and Front End Server web services</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1dc73-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="1dc73-122">HTTPS/TCP 444</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-123">directeur</span><span class="sxs-lookup"><span data-stu-id="1dc73-123">Director</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-124">Serveur frontal ou liste de front-end</span><span class="sxs-lookup"><span data-stu-id="1dc73-124">Front End server or Front End pool</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-125">Communication entre serveur entre le directeur et le serveur frontal</span><span class="sxs-lookup"><span data-stu-id="1dc73-125">Inter-server communication between the Director and the Front End Server</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="e0cf9-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-123">48000b</span><span class="sxs-lookup"><span data-stu-id="e0cf9-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-124">Serveur frontal ou pool frontal</span><span class="sxs-lookup"><span data-stu-id="e0cf9-124">Front End server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-125">Communication entre le directeur et le serveur frontal</span><span class="sxs-lookup"><span data-stu-id="e0cf9-125">Inter-server communication between the Director and the Front End Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1dc73-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="1dc73-126">HTTP/TCP 80</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-127">Clients internes</span><span class="sxs-lookup"><span data-stu-id="1dc73-127">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-128">Services Web de Director</span><span class="sxs-lookup"><span data-stu-id="1dc73-128">Director web services</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-129">Le directeur fournit des services Web aux clients internes et externes.</span><span class="sxs-lookup"><span data-stu-id="1dc73-129">The Director provides web services to internal and external clients.</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="e0cf9-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-127">Clients internes</span><span class="sxs-lookup"><span data-stu-id="e0cf9-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-128">Services Web Director</span><span class="sxs-lookup"><span data-stu-id="e0cf9-128">Director web services</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-129">Le directeur fournit des services Web aux clients internes et externes.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-129">The Director provides web services to internal and external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1dc73-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="1dc73-130">HTTPS/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-131">Clients internes</span><span class="sxs-lookup"><span data-stu-id="1dc73-131">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-132">Services Web de Director</span><span class="sxs-lookup"><span data-stu-id="1dc73-132">Director web services</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-133">Le directeur fournit des services Web aux clients internes et externes.</span><span class="sxs-lookup"><span data-stu-id="1dc73-133">The Director provides web services to internal and external clients.</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="e0cf9-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-131">Clients internes</span><span class="sxs-lookup"><span data-stu-id="e0cf9-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-132">Services Web Director</span><span class="sxs-lookup"><span data-stu-id="e0cf9-132">Director web services</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-133">Le directeur fournit des services Web aux clients internes et externes.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-133">The Director provides web services to internal and external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1dc73-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="1dc73-134">SIP/MTLS/TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-135">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="1dc73-135">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-136">directeur</span><span class="sxs-lookup"><span data-stu-id="1dc73-136">Director</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-137">Communication SIP du serveur Edge au directeur et au serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="1dc73-137">SIP communication from the Edge Server to the Director, and the Front End Server.</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="e0cf9-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-135">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e0cf9-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-136">48000b</span><span class="sxs-lookup"><span data-stu-id="e0cf9-136">Director</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-137">Communication SIP entre le serveur Edge et le directeur, ainsi que le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="e0cf9-137">SIP communication from the Edge Server to the Director, and the Front End Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1dc73-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="1dc73-138">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-139">Indifférente</span><span class="sxs-lookup"><span data-stu-id="1dc73-139">Any</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-140">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="1dc73-140">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-141">Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</span><span class="sxs-lookup"><span data-stu-id="1dc73-141">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="e0cf9-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-139">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e0cf9-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-140">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e0cf9-140">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-141">Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e0cf9-141">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1dc73-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="1dc73-142">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-143">Indifférente</span><span class="sxs-lookup"><span data-stu-id="1dc73-143">Any</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-144">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="1dc73-144">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-145">Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</span><span class="sxs-lookup"><span data-stu-id="1dc73-145">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="e0cf9-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-143">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e0cf9-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-144">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e0cf9-144">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-145">Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e0cf9-145">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1dc73-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="1dc73-146">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-147">Indifférente</span><span class="sxs-lookup"><span data-stu-id="1dc73-147">Any</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-148">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="1dc73-148">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1dc73-149">Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClasAgent. exe) et collection de journaux</span><span class="sxs-lookup"><span data-stu-id="1dc73-149">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="e0cf9-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-147">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e0cf9-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-148">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e0cf9-148">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e0cf9-149">Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClasAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e0cf9-149">Centralized Logging Service controller (ClsController.exe) or agent (ClasAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion de l’intégrité du système'
+title: 'Lync Server 2013 : gestion de l’intégrité du système'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4dc692c7fb246df751d481bbb1d95c05be38cf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="1f65c-102">Gestion de l’intégrité du système dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f65c-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="1699a-102">Gestion de l’intégrité du système dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1699a-102">Managing system health in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757968"
 
 <span> </span>
 
-<span data-ttu-id="1f65c-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1f65c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="1699a-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1699a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1f65c-104">La gestion de l’intégrité du système et la surveillance sont intégrées dans la gestion et la surveillance de l’état global de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1f65c-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="1f65c-105">Pour plus d’informations, voir [configuration de l’intégrité dans Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="1f65c-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="1699a-104">La gestion et la surveillance de l’intégrité du système sont intégrées à la gestion et à la surveillance globales de l’intégrité de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1699a-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="1699a-105">Pour plus d’informations, consultez la rubrique [configuration de l’intégrité dans Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="1699a-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 

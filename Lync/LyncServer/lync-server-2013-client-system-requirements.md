@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration système requise pour le client'
+title: 'Lync Server 2013 : configuration requise pour le système client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183900
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac52ae9856d49047040bb839ad650cbe591ec95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0415f2d7380b86facb727541e73ad57d5b5d2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-system-requirements-for-lync-server-2013"></a><span data-ttu-id="6d13d-102">Configuration requise pour le client pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-102">Client system requirements for Lync Server 2013</span></span>
+# <a name="client-system-requirements-for-lync-server-2013"></a><span data-ttu-id="f06b4-102">Configuration requise pour le système client pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-102">Client system requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742834"
 
 <span> </span>
 
-<span data-ttu-id="6d13d-103">_**Dernière modification de la rubrique :** 2012-11-06_</span><span class="sxs-lookup"><span data-stu-id="6d13d-103">_**Topic Last Modified:** 2012-11-06_</span></span>
+<span data-ttu-id="f06b4-103">_**Dernière modification de la rubrique :** 2012-11-06_</span><span class="sxs-lookup"><span data-stu-id="f06b4-103">_**Topic Last Modified:** 2012-11-06_</span></span>
 
-<span data-ttu-id="6d13d-104">Cette section décrit la configuration matérielle et logicielle requise pour les clients 2013 Lync.</span><span class="sxs-lookup"><span data-stu-id="6d13d-104">This section describes the hardware and software requirements for Lync 2013 clients.</span></span>
+<span data-ttu-id="f06b4-104">Cette section décrit la configuration matérielle et logicielle requise pour les clients Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="f06b4-104">This section describes the hardware and software requirements for Lync 2013 clients.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6d13d-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="6d13d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f06b4-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f06b4-105">In This Section</span></span>
 
-  - [<span data-ttu-id="6d13d-106">Prise en charge du matériel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-106">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
+  - [<span data-ttu-id="f06b4-106">Prise en charge du matériel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-106">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
 
-  - [<span data-ttu-id="6d13d-107">Configuration vidéo requise pour le client Lync pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-107">Lync client video requirements for Lync Server 2013</span></span>](lync-server-2013-lync-client-video-requirements.md)
+  - [<span data-ttu-id="f06b4-107">Configuration requise pour la vidéo client Lync pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-107">Lync client video requirements for Lync Server 2013</span></span>](lync-server-2013-lync-client-video-requirements.md)
 
-  - [<span data-ttu-id="6d13d-108">Support du logiciel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-108">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
+  - [<span data-ttu-id="f06b4-108">Prise en charge du logiciel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-108">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
 
-  - [<span data-ttu-id="6d13d-109">Plates-formes prises en charge par Lync Web App pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-109">Lync Web App supported platforms for Lync Server 2013</span></span>](lync-server-2013-lync-web-app-supported-platforms.md)
+  - [<span data-ttu-id="f06b4-109">Plateformes de Lync Web App prises en charge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-109">Lync Web App supported platforms for Lync Server 2013</span></span>](lync-server-2013-lync-web-app-supported-platforms.md)
 
-  - [<span data-ttu-id="6d13d-110">Configuration requise pour l’application Lync du Windows Store pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d13d-110">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)
+  - [<span data-ttu-id="f06b4-110">Configuration requise pour les applications Lync Windows Store pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f06b4-110">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)
 
 </div>
 

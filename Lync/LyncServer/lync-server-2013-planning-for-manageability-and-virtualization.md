@@ -12,20 +12,20 @@ ms:contentKeyID: 49733551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc796ec5489cce79b091a92144816266d1cb6ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7972b522b2dd0108bc2b053de806228ffdcf4b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725404"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-manageability-and-virtualization-in-lync-server-2013"></a><span data-ttu-id="3fa7e-102">Planification de la gérabilité et de la virtualisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fa7e-102">Planning for manageability and virtualization in Lync Server 2013</span></span>
+# <a name="planning-for-manageability-and-virtualization-in-lync-server-2013"></a><span data-ttu-id="6946a-102">Planification de la gestion et de la virtualisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6946a-102">Planning for manageability and virtualization in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41725404"
 
 <span> </span>
 
-<span data-ttu-id="3fa7e-103">_**Dernière modification de la rubrique :** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="3fa7e-103">_**Topic Last Modified:** 2013-07-05_</span></span>
+<span data-ttu-id="6946a-103">_**Dernière modification de la rubrique :** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="6946a-103">_**Topic Last Modified:** 2013-07-05_</span></span>
 
-<span data-ttu-id="3fa7e-104">Cette section contient des rubriques sur la planification pour une gestion simple de votre déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3fa7e-104">This section includes topics on planning for simple management of your Lync Server 2013 deployment.</span></span>
+<span data-ttu-id="6946a-104">Cette section comprend des rubriques sur la planification de la gestion simple de votre déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6946a-104">This section includes topics on planning for simple management of your Lync Server 2013 deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3fa7e-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="3fa7e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6946a-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="6946a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="3fa7e-106">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fa7e-106">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)
+  - [<span data-ttu-id="6946a-106">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6946a-106">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)
 
-  - [<span data-ttu-id="3fa7e-107">Planification des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fa7e-107">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
+  - [<span data-ttu-id="6946a-107">Planification des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6946a-107">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
 
-  - [<span data-ttu-id="3fa7e-108">Exécution de Lync Server 2013 sur des serveurs virtuels</span><span class="sxs-lookup"><span data-stu-id="3fa7e-108">Running Lync Server 2013 on virtual servers</span></span>](lync-server-2013-running-lync-server-on-virtual-servers.md)
+  - [<span data-ttu-id="6946a-108">Exécution de Lync Server 2013 sur des serveurs virtuels</span><span class="sxs-lookup"><span data-stu-id="6946a-108">Running Lync Server 2013 on virtual servers</span></span>](lync-server-2013-running-lync-server-on-virtual-servers.md)
 
-  - [<span data-ttu-id="3fa7e-109">Authentification à deux facteurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fa7e-109">Two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)
+  - [<span data-ttu-id="6946a-109">Authentification à deux facteurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6946a-109">Two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="3fa7e-110">Sections associées</span><span class="sxs-lookup"><span data-stu-id="3fa7e-110">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="6946a-110">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="6946a-110">Related Sections</span></span>
 
 </div>
 

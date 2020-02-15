@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Endpoint'
+title: 'Lync Server 2013 : tableau de points de terminaison'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 201e2ae3b44f59f0edb128f58af6c18e18e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042231"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a><span data-ttu-id="6a50b-102">Table Endpoint dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a50b-102">Endpoint table in Lync Server 2013</span></span>
+# <a name="endpoint-table-in-lync-server-2013"></a><span data-ttu-id="12a05-102">Tableau de points de terminaison dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a05-102">Endpoint table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735584"
 
 <span> </span>
 
-<span data-ttu-id="6a50b-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="6a50b-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="12a05-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="12a05-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="6a50b-104">La table Endpoint est une table qui contient des informations sur les points de terminaison ayant participé à des sessions enregistrées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="6a50b-104">The Endpoint table is a supporting table that stores information about the endpoints that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="6a50b-105">Chaque enregistrement de la table représente un point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-105">Each record in the table represents one endpoint.</span></span>
+<span data-ttu-id="12a05-104">La table de points de terminaison est une table de prise en charge qui stocke des informations sur les points de terminaison qui ont participé à des sessions enregistrées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="12a05-104">The Endpoint table is a supporting table that stores information about the endpoints that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="12a05-105">Chaque enregistrement de la table représente un point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-105">Each record in the table represents one endpoint.</span></span>
 
 
 <table>
@@ -49,60 +49,60 @@ ms.locfileid: "41735584"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6a50b-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="6a50b-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="6a50b-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="6a50b-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="12a05-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="12a05-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="12a05-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="12a05-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6a50b-110"><strong>EndpointKey</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-110"><strong>EndpointKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-111">int</span><span class="sxs-lookup"><span data-stu-id="6a50b-111">int</span></span></p></td>
-<td><p><span data-ttu-id="6a50b-112">Principal</span><span class="sxs-lookup"><span data-stu-id="6a50b-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6a50b-113">Numéro unique identifiant ce point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-113">Unique number identifying this endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-110"><strong>EndpointKey</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-110"><strong>EndpointKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-111">int</span><span class="sxs-lookup"><span data-stu-id="12a05-111">int</span></span></p></td>
+<td><p><span data-ttu-id="12a05-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="12a05-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="12a05-113">Numéro unique identifiant ce point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-113">Unique number identifying this endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a50b-114"><strong>Nom</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-114"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="6a50b-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6a50b-116">Différent</span><span class="sxs-lookup"><span data-stu-id="6a50b-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="6a50b-117">Nom du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-117">Endpoint name.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-114"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-114"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="12a05-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="12a05-116">Uniques</span><span class="sxs-lookup"><span data-stu-id="12a05-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="12a05-117">Nom du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-117">Endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a50b-118"><strong>OS</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-118"><strong>OS</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-119">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="6a50b-119">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="12a05-118"><strong>OS</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-118"><strong>OS</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-119">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="12a05-119">nvarchar(128)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="6a50b-120">Système d’exploitation (se) du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-120">Operating system (OS) of the endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-120">Système d’exploitation (OS) du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-120">Operating system (OS) of the endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a50b-121"><strong>CPUName</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-121"><strong>CPUName</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-122">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="6a50b-122">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="12a05-121"><strong>CPUName</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-121"><strong>CPUName</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-122">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="12a05-122">nvarchar(128)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a50b-123">Nom de l’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-123">CPU name of the endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-123">Nom de l’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-123">CPU name of the endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a50b-124"><strong>CPUNumberOfCores</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-124"><strong>CPUNumberOfCores</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-125">type</span><span class="sxs-lookup"><span data-stu-id="6a50b-125">smallint</span></span></p></td>
+<td><p><span data-ttu-id="12a05-124"><strong>CPUNumberOfCores</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-124"><strong>CPUNumberOfCores</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-125">type</span><span class="sxs-lookup"><span data-stu-id="12a05-125">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a50b-126">Nombre de cœurs d’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-126">Number of CPU cores of the endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-126">Nombre de cœurs de l’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-126">Number of CPU cores of the endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a50b-127"><strong>CPUProcessorSpeed</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-127"><strong>CPUProcessorSpeed</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-128">int</span><span class="sxs-lookup"><span data-stu-id="6a50b-128">int</span></span></p></td>
+<td><p><span data-ttu-id="12a05-127"><strong>CPUProcessorSpeed</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-127"><strong>CPUProcessorSpeed</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-128">int</span><span class="sxs-lookup"><span data-stu-id="12a05-128">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a50b-129">Vitesse de processeur de l’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="6a50b-129">CPU processor speed of the endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="12a05-129">Vitesse du processeur de l’UC du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="12a05-129">CPU processor speed of the endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a50b-130"><strong>VirtualizationFlag</strong></span><span class="sxs-lookup"><span data-stu-id="6a50b-130"><strong>VirtualizationFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a50b-131">tinyint</span><span class="sxs-lookup"><span data-stu-id="6a50b-131">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="12a05-130"><strong>VirtualizationFlag</strong></span><span class="sxs-lookup"><span data-stu-id="12a05-130"><strong>VirtualizationFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="12a05-131">entier très petit</span><span class="sxs-lookup"><span data-stu-id="12a05-131">tinyint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a50b-132">Indicateur binaire indiquant si le système s’exécute dans un environnement virtualisé :</span><span class="sxs-lookup"><span data-stu-id="6a50b-132">Bit flag that indicates if the system is running in a virtualized environment:</span></span></p>
+<td><p><span data-ttu-id="12a05-132">Indicateur binaire qui indique si le système est exécuté dans un environnement virtualisé :</span><span class="sxs-lookup"><span data-stu-id="12a05-132">Bit flag that indicates if the system is running in a virtualized environment:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="6a50b-133">0x0000 – aucun</span><span class="sxs-lookup"><span data-stu-id="6a50b-133">0x0000 – None</span></span></p></li>
-<li><p><span data-ttu-id="6a50b-134">0x0001 – HyperV</span><span class="sxs-lookup"><span data-stu-id="6a50b-134">0x0001 – HyperV</span></span></p></li>
-<li><p><span data-ttu-id="6a50b-135">0x0002 – VMWare</span><span class="sxs-lookup"><span data-stu-id="6a50b-135">0x0002 – VMWare</span></span></p></li>
-<li><p><span data-ttu-id="6a50b-136">0x0004 – PC virtuel</span><span class="sxs-lookup"><span data-stu-id="6a50b-136">0x0004 – Virtual PC</span></span></p></li>
-<li><p><span data-ttu-id="6a50b-137">0x0008-Xen PC</span><span class="sxs-lookup"><span data-stu-id="6a50b-137">0x0008 – Xen PC</span></span></p></li>
+<li><p><span data-ttu-id="12a05-133">0x0000 – aucune</span><span class="sxs-lookup"><span data-stu-id="12a05-133">0x0000 – None</span></span></p></li>
+<li><p><span data-ttu-id="12a05-134">0x0001 – HyperV</span><span class="sxs-lookup"><span data-stu-id="12a05-134">0x0001 – HyperV</span></span></p></li>
+<li><p><span data-ttu-id="12a05-135">0x0002 – VMWare</span><span class="sxs-lookup"><span data-stu-id="12a05-135">0x0002 – VMWare</span></span></p></li>
+<li><p><span data-ttu-id="12a05-136">0x0004 – Virtual PC</span><span class="sxs-lookup"><span data-stu-id="12a05-136">0x0004 – Virtual PC</span></span></p></li>
+<li><p><span data-ttu-id="12a05-137">0x0008 – PC xen</span><span class="sxs-lookup"><span data-stu-id="12a05-137">0x0008 – Xen PC</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

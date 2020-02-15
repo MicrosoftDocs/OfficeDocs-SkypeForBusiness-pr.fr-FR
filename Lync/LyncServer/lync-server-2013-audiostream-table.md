@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table AudioStream'
+title: 'Lync Server 2013 : table AudioStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44f41dc95e1c7c39a0c9c2cc4dd0a3a2462083e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a><span data-ttu-id="21782-102">Table AudioStream dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21782-102">AudioStream table in Lync Server 2013</span></span>
+# <a name="audiostream-table-in-lync-server-2013"></a><span data-ttu-id="f851b-102">Table AudioStream dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f851b-102">AudioStream table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738344"
 
 <span> </span>
 
-<span data-ttu-id="21782-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="21782-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="f851b-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="f851b-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="21782-104">Chaque enregistrement représente un flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-104">Each record represents one audio stream.</span></span> <span data-ttu-id="21782-105">Une ligne de médias audio contient généralement deux flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-105">One audio media line usually contains two audio streams.</span></span>
+<span data-ttu-id="f851b-104">Chaque enregistrement représente un flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-104">Each record represents one audio stream.</span></span> <span data-ttu-id="f851b-105">Une ligne multimédia audio contient généralement deux flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-105">One audio media line usually contains two audio streams.</span></span>
 
 
 <table>
@@ -49,412 +49,412 @@ ms.locfileid: "41738344"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="21782-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="21782-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="21782-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="21782-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="21782-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="21782-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="21782-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="21782-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="f851b-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="f851b-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="f851b-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="f851b-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-110"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="21782-110"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-111">DateHeure</span><span class="sxs-lookup"><span data-stu-id="21782-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="21782-112">Principal</span><span class="sxs-lookup"><span data-stu-id="21782-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="21782-113">Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="21782-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-110"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-110"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-111">DateHeure</span><span class="sxs-lookup"><span data-stu-id="f851b-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="f851b-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="f851b-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="f851b-113">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="f851b-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="21782-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-115">int</span><span class="sxs-lookup"><span data-stu-id="21782-115">int</span></span></p></td>
-<td><p><span data-ttu-id="21782-116">Principal</span><span class="sxs-lookup"><span data-stu-id="21782-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="21782-117">Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="21782-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-115">int</span><span class="sxs-lookup"><span data-stu-id="f851b-115">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="f851b-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="f851b-117">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="f851b-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-118"><strong>MediaLineLabel</strong></span><span class="sxs-lookup"><span data-stu-id="21782-118"><strong>MediaLineLabel</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-119">tinyint</span><span class="sxs-lookup"><span data-stu-id="21782-119">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="21782-120">Principal</span><span class="sxs-lookup"><span data-stu-id="21782-120">Primary</span></span></p></td>
-<td><p><span data-ttu-id="21782-121">Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="21782-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-118"><strong>MediaLineLabel</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-118"><strong>MediaLineLabel</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-119">entier très petit</span><span class="sxs-lookup"><span data-stu-id="f851b-119">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="f851b-120">Primaire</span><span class="sxs-lookup"><span data-stu-id="f851b-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="f851b-121">Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="f851b-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-122"><strong>StreamID</strong></span><span class="sxs-lookup"><span data-stu-id="21782-122"><strong>StreamID</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-123">int</span><span class="sxs-lookup"><span data-stu-id="21782-123">int</span></span></p></td>
-<td><p><span data-ttu-id="21782-124">Principal</span><span class="sxs-lookup"><span data-stu-id="21782-124">Primary</span></span></p></td>
-<td><p><span data-ttu-id="21782-125">IDENTIFIant unique dans une ligne de médias.</span><span class="sxs-lookup"><span data-stu-id="21782-125">Unique ID within a media line.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-122"><strong>StreamID</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-122"><strong>StreamID</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-123">int</span><span class="sxs-lookup"><span data-stu-id="f851b-123">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-124">Primaire</span><span class="sxs-lookup"><span data-stu-id="f851b-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="f851b-125">ID unique dans une ligne de média.</span><span class="sxs-lookup"><span data-stu-id="f851b-125">Unique ID within a media line.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-126"><strong>JitterInterArrival</strong></span><span class="sxs-lookup"><span data-stu-id="21782-126"><strong>JitterInterArrival</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-127">int</span><span class="sxs-lookup"><span data-stu-id="21782-127">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-126"><strong>JitterInterArrival</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-126"><strong>JitterInterArrival</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-127">int</span><span class="sxs-lookup"><span data-stu-id="f851b-127">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-128">Gigue réseau moyenne des statistiques de protocole RTCP (Real Time Control Protocol).</span><span class="sxs-lookup"><span data-stu-id="21782-128">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-128">Gigue réseau moyenne d’après les statistiques RTCP (Real Time Control Protocol).</span><span class="sxs-lookup"><span data-stu-id="f851b-128">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-129"><strong>JitterInterArrivalMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-129"><strong>JitterInterArrivalMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-130">int</span><span class="sxs-lookup"><span data-stu-id="21782-130">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-129"><strong>JitterInterArrivalMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-129"><strong>JitterInterArrivalMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-130">int</span><span class="sxs-lookup"><span data-stu-id="f851b-130">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-131">Scintillement du réseau maximum lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-131">Maximum network jitter during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-131">Gigue réseau maximum pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-131">Maximum network jitter during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-132"><strong>PacketLossRate</strong></span><span class="sxs-lookup"><span data-stu-id="21782-132"><strong>PacketLossRate</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-133">décimale (5 ; 4)</span><span class="sxs-lookup"><span data-stu-id="21782-133">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-132"><strong>PacketLossRate</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-132"><strong>PacketLossRate</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-133">décimal (5, 4)</span><span class="sxs-lookup"><span data-stu-id="f851b-133">decimal(5,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-134">Taux moyen de perte de paquets lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-134">Average packet loss rate during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-134">Taux moyen de perte de paquets pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-134">Average packet loss rate during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-135"><strong>PacketLossRateMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-135"><strong>PacketLossRateMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-136">décimale (5 ; 4)</span><span class="sxs-lookup"><span data-stu-id="21782-136">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-135"><strong>PacketLossRateMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-135"><strong>PacketLossRateMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-136">décimal (5, 4)</span><span class="sxs-lookup"><span data-stu-id="f851b-136">decimal(5,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-137">Perte de paquets maximum observée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-137">Maximum packet loss observed during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-137">Perte maximale de paquets observée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-137">Maximum packet loss observed during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-138"><strong>BurstDensity</strong></span><span class="sxs-lookup"><span data-stu-id="21782-138"><strong>BurstDensity</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-139">décimale (9 ; 4)</span><span class="sxs-lookup"><span data-stu-id="21782-139">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-138"><strong>BurstDensity</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-138"><strong>BurstDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-139">décimale (9, 4)</span><span class="sxs-lookup"><span data-stu-id="f851b-139">decimal(9,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-140">Densité moyenne de perte de paquets en rafales de pertes pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-140">Average density of packet Loss during bursts of losses during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-140">Densité moyenne de perte de paquets pendant les rafales de pertes au cours de l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-140">Average density of packet Loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-141"><strong>BurstDuration</strong></span><span class="sxs-lookup"><span data-stu-id="21782-141"><strong>BurstDuration</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-142">int</span><span class="sxs-lookup"><span data-stu-id="21782-142">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-141"><strong>BurstDuration</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-141"><strong>BurstDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-142">int</span><span class="sxs-lookup"><span data-stu-id="f851b-142">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-143">Durée moyenne de perte de paquets en rafales de pertes pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-143">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-143">Durée moyenne de perte de paquets pendant les rafales de pertes au cours de l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-143">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-144"><strong>BurstGapDensity</strong></span><span class="sxs-lookup"><span data-stu-id="21782-144"><strong>BurstGapDensity</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-145">décimale (9 ; 4)</span><span class="sxs-lookup"><span data-stu-id="21782-145">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-144"><strong>BurstGapDensity</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-144"><strong>BurstGapDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-145">décimale (9, 4)</span><span class="sxs-lookup"><span data-stu-id="f851b-145">decimal(9,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-146">Densité moyenne de perte de paquets lors de l’intervalle entre les pics de perte de paquets.</span><span class="sxs-lookup"><span data-stu-id="21782-146">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-146">Densité moyenne de perte de paquets pendant les intervalles entre rafales de pertes de paquets.</span><span class="sxs-lookup"><span data-stu-id="f851b-146">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-147"><strong>BurstGapDuration</strong></span><span class="sxs-lookup"><span data-stu-id="21782-147"><strong>BurstGapDuration</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-148">int</span><span class="sxs-lookup"><span data-stu-id="21782-148">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-147"><strong>BurstGapDuration</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-147"><strong>BurstGapDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-148">int</span><span class="sxs-lookup"><span data-stu-id="f851b-148">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-149">Durée moyenne des espaces entre les pics de perte de paquets.</span><span class="sxs-lookup"><span data-stu-id="21782-149">Average duration of gaps between bursts of packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-149">Durée moyenne des intervalles entre les rafales de pertes de paquets.</span><span class="sxs-lookup"><span data-stu-id="f851b-149">Average duration of gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-150"><strong>PacketUtilization</strong></span><span class="sxs-lookup"><span data-stu-id="21782-150"><strong>PacketUtilization</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-151">Ent</span><span class="sxs-lookup"><span data-stu-id="21782-151">Int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-150"><strong>PacketUtilization</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-150"><strong>PacketUtilization</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-151">Int</span><span class="sxs-lookup"><span data-stu-id="f851b-151">Int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-152">Nombre de paquets pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-152">Packet count for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-152">Nombre de paquets pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-152">Packet count for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-153"><strong>Bande passante</strong></span><span class="sxs-lookup"><span data-stu-id="21782-153"><strong>BandwidthEst</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-154">Ent</span><span class="sxs-lookup"><span data-stu-id="21782-154">Int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-153"><strong>Bande passante</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-153"><strong>BandwidthEst</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-154">Int</span><span class="sxs-lookup"><span data-stu-id="f851b-154">Int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-155">Estimations de bande passante pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-155">Bandwidth estimates for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-155">Estimations de la bande passante pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-155">Bandwidth estimates for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-156"><strong>DegradationAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-156"><strong>DegradationAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-157">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-157">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-156"><strong>DegradationAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-156"><strong>DegradationAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-157">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-157">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-158">Baisse de la dégradation du réseau pour l’ensemble de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-158">Network MOS Degradation for the whole call.</span></span> <span data-ttu-id="21782-159">La plage est 0,0 à 5,0.</span><span class="sxs-lookup"><span data-stu-id="21782-159">Range is 0.0 to 5.0.</span></span> <span data-ttu-id="21782-160">Cette mesure indique la somme que le coût du réseau a diminué en raison de la gigue et de la perte de paquets.</span><span class="sxs-lookup"><span data-stu-id="21782-160">This metric shows the amount the Network MOS was reduced because of jitter and packet loss.</span></span> <span data-ttu-id="21782-161">Pour une qualité acceptable, elle doit être inférieure à 0,5.</span><span class="sxs-lookup"><span data-stu-id="21782-161">For acceptable quality it should less than 0.5.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p102">Dégradation de la note MOS qualité réseau pour l’appel entier. La plage va de 0.0 à 5.0. Cette mesure montre la baisse de la note MOS qualité réseau pour cause de gigue et de perte de paquets. Pour une qualité acceptable, elle doit être inférieure à 0.5.</span><span class="sxs-lookup"><span data-stu-id="f851b-p102">Network MOS Degradation for the whole call. Range is 0.0 to 5.0. This metric shows the amount the Network MOS was reduced because of jitter and packet loss. For acceptable quality it should less than 0.5.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-162"><strong>DegradationMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-162"><strong>DegradationMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-163">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-163">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-162"><strong>DegradationMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-162"><strong>DegradationMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-163">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-163">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-164">Dégradation du réseau maximal pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-164">Maximum Network MOS degradation during the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-164">Dégradation de la note MOS qualité réseau maximale pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-164">Maximum Network MOS degradation during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-165"><strong>DegradationJitterAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-165"><strong>DegradationJitterAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-166">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-166">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-165"><strong>DegradationJitterAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-165"><strong>DegradationJitterAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-166">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-166">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-167">Baisse de la dégradation du réseau à l’origine de gigue.</span><span class="sxs-lookup"><span data-stu-id="21782-167">Network MOS degradation caused by jitter.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-167">Dégradation de la note MOS qualité réseau causée par la gigue.</span><span class="sxs-lookup"><span data-stu-id="f851b-167">Network MOS degradation caused by jitter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-168"><strong>DegradationPacketLossAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-168"><strong>DegradationPacketLossAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-169">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-169">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-168"><strong>DegradationPacketLossAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-168"><strong>DegradationPacketLossAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-169">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-169">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-170">Baisse de la dégradation du réseau à l’origine de la perte de paquets.</span><span class="sxs-lookup"><span data-stu-id="21782-170">Network MOS degradation caused by packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-170">Dégradation de la note MOS qualité réseau causée par la perte de paquets.</span><span class="sxs-lookup"><span data-stu-id="f851b-170">Network MOS degradation caused by packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-171"><strong>AudioPayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="21782-171"><strong>AudioPayloadDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-172">int</span><span class="sxs-lookup"><span data-stu-id="21782-172">int</span></span></p></td>
-<td><p><span data-ttu-id="21782-173">Externes</span><span class="sxs-lookup"><span data-stu-id="21782-173">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="21782-174">Le codec audio utilisé pour l’appel, référencé à partir de la table PayloadDescription.</span><span class="sxs-lookup"><span data-stu-id="21782-174">The audio Codec used for the call, referenced from PayloadDescription Table.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-171"><strong>AudioPayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-171"><strong>AudioPayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-172">int</span><span class="sxs-lookup"><span data-stu-id="f851b-172">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-173">Etranger</span><span class="sxs-lookup"><span data-stu-id="f851b-173">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="f851b-174">Codec audio utilisé pour l’appel, référencé à partir de la table PayloadDescription.</span><span class="sxs-lookup"><span data-stu-id="f851b-174">The audio Codec used for the call, referenced from PayloadDescription Table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-175"><strong>AudioSampleRate</strong></span><span class="sxs-lookup"><span data-stu-id="21782-175"><strong>AudioSampleRate</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-176">int</span><span class="sxs-lookup"><span data-stu-id="21782-176">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-175"><strong>AudioSampleRate</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-175"><strong>AudioSampleRate</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-176">int</span><span class="sxs-lookup"><span data-stu-id="f851b-176">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-177">Taux d’échantillonnage pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-177">Sampling rate for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-177">Taux d’échantillonnage pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-177">Sampling rate for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-178"><strong>RoundTrip</strong></span><span class="sxs-lookup"><span data-stu-id="21782-178"><strong>RoundTrip</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-179">int</span><span class="sxs-lookup"><span data-stu-id="21782-179">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-178"><strong>Retour</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-178"><strong>RoundTrip</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-179">int</span><span class="sxs-lookup"><span data-stu-id="f851b-179">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-180">Durée de l’aller-retour des statistiques RTCP.</span><span class="sxs-lookup"><span data-stu-id="21782-180">Round trip time from RTCP statistics.</span></span> <span data-ttu-id="21782-181">Pour une qualité acceptable, il devrait être inférieur à 100 millisecondes.</span><span class="sxs-lookup"><span data-stu-id="21782-181">For acceptable quality this should be less than 100ms.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-180">Durée d’aller-retour d’après les statistiques RTCP.</span><span class="sxs-lookup"><span data-stu-id="f851b-180">Round trip time from RTCP statistics.</span></span> <span data-ttu-id="f851b-181">Pour une qualité acceptable, cette valeur doit être inférieure à 100 ms.</span><span class="sxs-lookup"><span data-stu-id="f851b-181">For acceptable quality this should be less than 100ms.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-182"><strong>RoundTripMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-182"><strong>RoundTripMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-183">int</span><span class="sxs-lookup"><span data-stu-id="21782-183">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-182"><strong>RoundTripMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-182"><strong>RoundTripMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-183">int</span><span class="sxs-lookup"><span data-stu-id="f851b-183">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-184">Durée de l’aller-retour maximal pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="21782-184">Maximum round trip time for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-184">Durée d’aller-retour maximale pour le flux audio.</span><span class="sxs-lookup"><span data-stu-id="f851b-184">Maximum round trip time for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-185"><strong>OverallAvgNetworkMOS</strong></span><span class="sxs-lookup"><span data-stu-id="21782-185"><strong>OverallAvgNetworkMOS</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-186">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-186">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-185"><strong>OverallAvgNetworkMOS</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-185"><strong>OverallAvgNetworkMOS</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-186">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-186">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-187">MOS du réseau à bandes moyenne pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-187">Average wideband Network MOS for the call.</span></span> <span data-ttu-id="21782-188">Cette métrique dépend du niveau de perte de paquets, de gigue et de codec utilisés.</span><span class="sxs-lookup"><span data-stu-id="21782-188">This metric depends on the packet loss, jitter, and codec used.</span></span> <span data-ttu-id="21782-189">La plage est [1,0 à 5,0].</span><span class="sxs-lookup"><span data-stu-id="21782-189">Range is [1.0 to 5.0].</span></span></p></td>
+<td><p><span data-ttu-id="f851b-187">Note MOS qualité réseau moyenne en large bande pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-187">Average wideband Network MOS for the call.</span></span> <span data-ttu-id="f851b-188">Cette mesure dépend de la perte de paquets, de la gigue et du codec utilisé.</span><span class="sxs-lookup"><span data-stu-id="f851b-188">This metric depends on the packet loss, jitter, and codec used.</span></span> <span data-ttu-id="f851b-189">La plage est [1,0 to 5,0].</span><span class="sxs-lookup"><span data-stu-id="f851b-189">Range is [1.0 to 5.0].</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-190"><strong>OverallMinNetworkMOS</strong></span><span class="sxs-lookup"><span data-stu-id="21782-190"><strong>OverallMinNetworkMOS</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-191">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-191">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-190"><strong>OverallMinNetworkMOS</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-190"><strong>OverallMinNetworkMOS</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-191">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-191">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-192">Le réseau de bandes minimum pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-192">The minimum wideband Network MOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-192">Le MOS de réseau à large bande minimum pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-192">The minimum wideband Network MOS for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-193"><strong>SendListenMOS</strong></span><span class="sxs-lookup"><span data-stu-id="21782-193"><strong>SendListenMOS</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-194">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-194">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-193"><strong>SendListenMOS</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-193"><strong>SendListenMOS</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-194">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-194">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-195">Le score d’écoute de la bande moyenne prédite pour le son envoyé, y compris le niveau de voix, le niveau de bruit et les caractéristiques de l’appareil de capture.</span><span class="sxs-lookup"><span data-stu-id="21782-195">The average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-195">Nombre moyen de scores de retour à la ligne pour l’audio envoyé, y compris le niveau de voix, le niveau sonore et les caractéristiques du périphérique de capture.</span><span class="sxs-lookup"><span data-stu-id="f851b-195">The average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-196"><strong>SendListenMOSMin</strong></span><span class="sxs-lookup"><span data-stu-id="21782-196"><strong>SendListenMOSMin</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-197">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-197">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-196"><strong>SendListenMOSMin</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-196"><strong>SendListenMOSMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-197">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-197">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-198">Le minimum SendListenMOS pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-198">The minimum SendListenMOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-198">SendListenMOS minimale pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-198">The minimum SendListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-199"><strong>RecvListenMOS</strong></span><span class="sxs-lookup"><span data-stu-id="21782-199"><strong>RecvListenMOS</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-200">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-200">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-199"><strong>RecvListenMOS</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-199"><strong>RecvListenMOS</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-200">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-200">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-201">Le score d’écoute de la bande moyenne prédite pour le son reçu du réseau, notamment le niveau de voix, le niveau sonore, le codec, les conditions du réseau et les caractéristiques de l’appareil de capture.</span><span class="sxs-lookup"><span data-stu-id="21782-201">The average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-201">Nombre moyen de scores de retour à la ligne pour l’audio reçu du réseau, y compris le niveau de voix, le niveau sonore, le codec, les conditions réseau et les caractéristiques du périphérique de capture.</span><span class="sxs-lookup"><span data-stu-id="f851b-201">The average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-202"><strong>RecvListenMOSMin</strong></span><span class="sxs-lookup"><span data-stu-id="21782-202"><strong>RecvListenMOSMin</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-203">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="21782-203">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-202"><strong>RecvListenMOSMin</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-202"><strong>RecvListenMOSMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-203">décimale (3, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-203">decimal(3,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-204">Le minimum RecvListenMOS pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-204">The minimum RecvListenMOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-204">RecvListenMOS minimale pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-204">The minimum RecvListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-205"><strong>AudioFECUsed</strong></span><span class="sxs-lookup"><span data-stu-id="21782-205"><strong>AudioFECUsed</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-206">bit</span><span class="sxs-lookup"><span data-stu-id="21782-206">bit</span></span></p></td>
+<td><p><span data-ttu-id="f851b-205"><strong>AudioFECUsed</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-205"><strong>AudioFECUsed</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-206">légèrement</span><span class="sxs-lookup"><span data-stu-id="f851b-206">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-207">Indicateur indiquant si l’audio FEC a été utilisé pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-207">Flag indicating if audio FEC was used for the call.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-207">Indicateur signalant si la fonction FEC audio a été utilisée pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-207">Flag indicating if audio FEC was used for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-208"><strong>RatioConcealedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-208"><strong>RatioConcealedSamplesAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-209">décimale (5 ; 2)</span><span class="sxs-lookup"><span data-stu-id="21782-209">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-208"><strong>RatioConcealedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-208"><strong>RatioConcealedSamplesAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-209">décimal (5, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-209">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-210">Taux moyen d’échantillons masqués générés par la correction audio sur des exemples classiques.</span><span class="sxs-lookup"><span data-stu-id="21782-210">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-210">Taux moyen d’échantillons masqués générés par la réparation du contenu audio par rapport aux échantillons standard.</span><span class="sxs-lookup"><span data-stu-id="f851b-210">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-211"><strong>RatioStretchedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-211"><strong>RatioStretchedSamplesAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-212">décimale (5 ; 2)</span><span class="sxs-lookup"><span data-stu-id="21782-212">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-211"><strong>RatioStretchedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-211"><strong>RatioStretchedSamplesAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-212">décimal (5, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-212">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-213">Taux moyen d’échantillons étirés générés par la correction audio sur des exemples classiques.</span><span class="sxs-lookup"><span data-stu-id="21782-213">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-213">Taux moyen d’échantillons étirés générés par la réparation du contenu audio par rapport aux échantillons standard.</span><span class="sxs-lookup"><span data-stu-id="f851b-213">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-214"><strong>RatioCompressedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="21782-214"><strong>RatioCompressedSamplesAvg</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-215">décimale (5 ; 2)</span><span class="sxs-lookup"><span data-stu-id="21782-215">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="f851b-214"><strong>RatioCompressedSamplesAvg</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-214"><strong>RatioCompressedSamplesAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-215">décimal (5, 2)</span><span class="sxs-lookup"><span data-stu-id="f851b-215">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-216">Taux moyen d’échantillons compressés générés par la correction audio sur des exemples classiques.</span><span class="sxs-lookup"><span data-stu-id="21782-216">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-216">Taux moyen d’échantillons compressés générés par la réparation du contenu audio par rapport aux échantillons standard.</span><span class="sxs-lookup"><span data-stu-id="f851b-216">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-217"><strong>Entrant</strong></span><span class="sxs-lookup"><span data-stu-id="21782-217"><strong>Inbound</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-218">bit</span><span class="sxs-lookup"><span data-stu-id="21782-218">bit</span></span></p></td>
+<td><p><span data-ttu-id="f851b-217"><strong>Entrant</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-217"><strong>Inbound</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-218">légèrement</span><span class="sxs-lookup"><span data-stu-id="f851b-218">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-219">Des données de flux sur le côté du destinataire sont reçues.</span><span class="sxs-lookup"><span data-stu-id="21782-219">Stream data on receiver side is received.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-219">Les données de flux du côté récepteur sont reçues.</span><span class="sxs-lookup"><span data-stu-id="f851b-219">Stream data on receiver side is received.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-220"><strong>Sortant</strong></span><span class="sxs-lookup"><span data-stu-id="21782-220"><strong>Outbound</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-221">bit</span><span class="sxs-lookup"><span data-stu-id="21782-221">bit</span></span></p></td>
+<td><p><span data-ttu-id="f851b-220"><strong>Sortant</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-220"><strong>Outbound</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-221">légèrement</span><span class="sxs-lookup"><span data-stu-id="f851b-221">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-222">Les données du flux du côté de l’expéditeur sont reçues.</span><span class="sxs-lookup"><span data-stu-id="21782-222">Stream data on sender side is received.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-222">Les données de flux du côté de l’expéditeur sont reçues.</span><span class="sxs-lookup"><span data-stu-id="f851b-222">Stream data on sender side is received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-223"><strong>SenderIsCallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="21782-223"><strong>SenderIsCallerPAI</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-224">bit</span><span class="sxs-lookup"><span data-stu-id="21782-224">bit</span></span></p></td>
+<td><p><span data-ttu-id="f851b-223"><strong>SenderIsCallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-223"><strong>SenderIsCallerPAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-224">légèrement</span><span class="sxs-lookup"><span data-stu-id="f851b-224">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="21782-225">1 signifie que le sens du flux provient de l’appelant vers l’appelant.</span><span class="sxs-lookup"><span data-stu-id="21782-225">1 means the stream direction is from the caller to the callee.</span></span></p>
-<p><span data-ttu-id="21782-226">0 : le sens du flux provient de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="21782-226">0 means the stream direction is from the callee to the caller.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-225">1 signifie que la direction du flux est entre l’appelant et l’appelé.</span><span class="sxs-lookup"><span data-stu-id="f851b-225">1 means the stream direction is from the caller to the callee.</span></span></p>
+<p><span data-ttu-id="f851b-226">0 signifie que la direction du flux va de l’appelé à l’appelant.</span><span class="sxs-lookup"><span data-stu-id="f851b-226">0 means the stream direction is from the callee to the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-227"><strong>JitterInterArrivalSD</strong></span><span class="sxs-lookup"><span data-stu-id="21782-227"><strong>JitterInterArrivalSD</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-228">float</span><span class="sxs-lookup"><span data-stu-id="21782-228">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-227"><strong>JitterInterArrivalSD</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-227"><strong>JitterInterArrivalSD</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-228">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-228">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-229">Écart type pour les heures d’arrivée de gigue.</span><span class="sxs-lookup"><span data-stu-id="21782-229">Standard deviation for jitter arrival times.</span></span></p>
-<p><span data-ttu-id="21782-230">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-230">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-229">Écart-type pour les heures d’arrivée de gigue.</span><span class="sxs-lookup"><span data-stu-id="f851b-229">Standard deviation for jitter arrival times.</span></span></p>
+<p><span data-ttu-id="f851b-230">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-230">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-231"><strong>ConcealRatioMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-231"><strong>ConcealRatioMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-232">float</span><span class="sxs-lookup"><span data-stu-id="21782-232">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-231"><strong>ConcealRatioMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-231"><strong>ConcealRatioMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-232">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-232">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-233">Taux maximal de paquets masqués par la correction.</span><span class="sxs-lookup"><span data-stu-id="21782-233">Maximum ratio of packets concealed by the healer.</span></span></p>
-<p><span data-ttu-id="21782-234">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-234">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-233">Ratio maximal de paquets masqués par la réparation.</span><span class="sxs-lookup"><span data-stu-id="f851b-233">Maximum ratio of packets concealed by the healer.</span></span></p>
+<p><span data-ttu-id="f851b-234">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-234">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-235"><strong>ConcealRatioSD</strong></span><span class="sxs-lookup"><span data-stu-id="21782-235"><strong>ConcealRatioSD</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-236">float</span><span class="sxs-lookup"><span data-stu-id="21782-236">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-235"><strong>ConcealRatioSD</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-235"><strong>ConcealRatioSD</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-236">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-236">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-237">Écart type pour le rapport de paquets masqués par la correction.</span><span class="sxs-lookup"><span data-stu-id="21782-237">Standard deviation for the ratio of packets concealed by the healer.</span></span></p>
-<p><span data-ttu-id="21782-238">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-238">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-237">Écart-type pour le rapport des paquets masqués par le réparer.</span><span class="sxs-lookup"><span data-stu-id="f851b-237">Standard deviation for the ratio of packets concealed by the healer.</span></span></p>
+<p><span data-ttu-id="f851b-238">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-238">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-239"><strong>HealerPacketDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="21782-239"><strong>HealerPacketDropRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-240">float</span><span class="sxs-lookup"><span data-stu-id="21782-240">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-239"><strong>HealerPacketDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-239"><strong>HealerPacketDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-240">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-240">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-241">Taux de paquets rejetés par le taux de correction par rapport au nombre total de paquets reçus.</span><span class="sxs-lookup"><span data-stu-id="21782-241">Ratio of packets dropped by the healer compared to the total number of packets received.</span></span></p>
-<p><span data-ttu-id="21782-242">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-242">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-241">Ratio de paquets supprimés par la réparation par rapport au nombre total de paquets reçus.</span><span class="sxs-lookup"><span data-stu-id="f851b-241">Ratio of packets dropped by the healer compared to the total number of packets received.</span></span></p>
+<p><span data-ttu-id="f851b-242">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-242">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-243"><strong>HealerFECPacketUsedRatio</strong></span><span class="sxs-lookup"><span data-stu-id="21782-243"><strong>HealerFECPacketUsedRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-244">float</span><span class="sxs-lookup"><span data-stu-id="21782-244">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-243"><strong>HealerFECPacketUsedRatio</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-243"><strong>HealerFECPacketUsedRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-244">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-244">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-245">Taux de paquets de correction d’erreur de transfert utilisés par rapport au nombre total de paquets reçus.</span><span class="sxs-lookup"><span data-stu-id="21782-245">Ratio of used forward error correction packets compared to the total number of packets received.</span></span></p>
-<p><span data-ttu-id="21782-246">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-246">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-245">Rapport entre les paquets de correction d’erreur de transfert utilisés et le nombre total de paquets reçus.</span><span class="sxs-lookup"><span data-stu-id="f851b-245">Ratio of used forward error correction packets compared to the total number of packets received.</span></span></p>
+<p><span data-ttu-id="f851b-246">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-246">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-247"><strong>MaxCompressedSamples</strong></span><span class="sxs-lookup"><span data-stu-id="21782-247"><strong>MaxCompressedSamples</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-248">float</span><span class="sxs-lookup"><span data-stu-id="21782-248">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-247"><strong>MaxCompressedSamples</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-247"><strong>MaxCompressedSamples</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-248">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-248">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-249">Nombre maximal de paquets audio compressés par le cicatrisé.</span><span class="sxs-lookup"><span data-stu-id="21782-249">Maximum number of audio packets that were compressed by the healer.</span></span></p>
-<p><span data-ttu-id="21782-250">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-250">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-249">Nombre maximal de paquets audio qui ont été compressés par le réparer.</span><span class="sxs-lookup"><span data-stu-id="f851b-249">Maximum number of audio packets that were compressed by the healer.</span></span></p>
+<p><span data-ttu-id="f851b-250">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-250">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-251"><strong>LossCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-251"><strong>LossCongestionPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-252">float</span><span class="sxs-lookup"><span data-stu-id="21782-252">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-251"><strong>LossCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-251"><strong>LossCongestionPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-252">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-252">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-253">Indique le pourcentage du temps pendant lequel l’appel a été dans un état de congestion de perte.</span><span class="sxs-lookup"><span data-stu-id="21782-253">Indicates the percentage of the time when the call was in a loss congestion state.</span></span></p>
-<p><span data-ttu-id="21782-254">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-254">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-253">Indique le pourcentage de temps pendant lequel l’appel se trouve dans un état de congestion de perte.</span><span class="sxs-lookup"><span data-stu-id="f851b-253">Indicates the percentage of the time when the call was in a loss congestion state.</span></span></p>
+<p><span data-ttu-id="f851b-254">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-254">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-255"><strong>DelayCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-255"><strong>DelayCongestionPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-256">float</span><span class="sxs-lookup"><span data-stu-id="21782-256">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-255"><strong>DelayCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-255"><strong>DelayCongestionPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-256">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-256">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-257">Indique le pourcentage de l’appel au cours duquel une congestion est causée par le retard de paquets réseau.</span><span class="sxs-lookup"><span data-stu-id="21782-257">Indicates the percentage of the call during which congestion was caused by the delayed arrival of network packets.</span></span></p>
-<p><span data-ttu-id="21782-258">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-258">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-257">Indique le pourcentage de l’appel pendant lequel la congestion a été causée par le retard de l’arrivée des paquets réseau.</span><span class="sxs-lookup"><span data-stu-id="f851b-257">Indicates the percentage of the call during which congestion was caused by the delayed arrival of network packets.</span></span></p>
+<p><span data-ttu-id="f851b-258">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-258">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-259"><strong>ContentionDetectedPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-259"><strong>ContentionDetectedPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-260">float</span><span class="sxs-lookup"><span data-stu-id="21782-260">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-259"><strong>ContentionDetectedPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-259"><strong>ContentionDetectedPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-260">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-260">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-261">Indique le pourcentage de temps pendant lequel l’appel a été compétitif pour les ressources réseau.</span><span class="sxs-lookup"><span data-stu-id="21782-261">Indicates the percentage of the time when the call was competing for network resources.</span></span></p>
-<p><span data-ttu-id="21782-262">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-262">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-261">Indique le pourcentage de temps pendant lequel l’appel a eu accès aux ressources réseau.</span><span class="sxs-lookup"><span data-stu-id="f851b-261">Indicates the percentage of the time when the call was competing for network resources.</span></span></p>
+<p><span data-ttu-id="f851b-262">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-262">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-263"><strong>BandwidthEstMin</strong></span><span class="sxs-lookup"><span data-stu-id="21782-263"><strong>BandwidthEstMin</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-264">int</span><span class="sxs-lookup"><span data-stu-id="21782-264">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-263"><strong>BandwidthEstMin</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-263"><strong>BandwidthEstMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-264">int</span><span class="sxs-lookup"><span data-stu-id="f851b-264">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-265">Quantité minimale d’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-265">Minimum amount of bandwidth estimation measured during the call.</span></span></p>
-<p><span data-ttu-id="21782-266">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-266">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-265">Quantité minimale d’estimation de bande passante mesurée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-265">Minimum amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="f851b-266">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-266">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-267"><strong>BandwidthEstMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-267"><strong>BandwidthEstMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-268">int</span><span class="sxs-lookup"><span data-stu-id="21782-268">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-267"><strong>BandwidthEstMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-267"><strong>BandwidthEstMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-268">int</span><span class="sxs-lookup"><span data-stu-id="f851b-268">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-269">Quantité maximale d’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-269">Maximum amount of bandwidth estimation measured during the call.</span></span></p>
-<p><span data-ttu-id="21782-270">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-270">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-269">Quantité maximale d’estimation de bande passante mesurée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-269">Maximum amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="f851b-270">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-270">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-271"><strong>BandwidthEstStdDev</strong></span><span class="sxs-lookup"><span data-stu-id="21782-271"><strong>BandwidthEstStdDev</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-272">int</span><span class="sxs-lookup"><span data-stu-id="21782-272">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-271"><strong>BandwidthEstStdDev</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-271"><strong>BandwidthEstStdDev</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-272">int</span><span class="sxs-lookup"><span data-stu-id="f851b-272">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-273">Écart type de l’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-273">Standard deviation of the bandwidth estimation measured during the call.</span></span></p>
-<p><span data-ttu-id="21782-274">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-274">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-273">Écart-type de l’estimation de bande passante mesurée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-273">Standard deviation of the bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="f851b-274">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-274">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-275"><strong>BandwidthEstAvge</strong></span><span class="sxs-lookup"><span data-stu-id="21782-275"><strong>BandwidthEstAvge</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-276">int</span><span class="sxs-lookup"><span data-stu-id="21782-276">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-275"><strong>BandwidthEstAvge</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-275"><strong>BandwidthEstAvge</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-276">int</span><span class="sxs-lookup"><span data-stu-id="f851b-276">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-277">Quantité moyenne d’estimation de bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="21782-277">Average amount of bandwidth estimation measured during the call.</span></span></p>
-<p><span data-ttu-id="21782-278">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-278">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-277">Quantité moyenne d’estimation de bande passante mesurée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="f851b-277">Average amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="f851b-278">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-278">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-279"><strong>RelativeOneWayTotal</strong></span><span class="sxs-lookup"><span data-stu-id="21782-279"><strong>RelativeOneWayTotal</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-280">float</span><span class="sxs-lookup"><span data-stu-id="21782-280">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-279"><strong>RelativeOneWayTotal</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-279"><strong>RelativeOneWayTotal</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-280">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-280">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-281">Quantité totale de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="21782-281">Total amount of one-way latency.</span></span> <span data-ttu-id="21782-282">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-282">Relative one-way latency measures the delay between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-283">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-283">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p105">Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p105">Total amount of one-way latency. Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-283">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-283">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-284"><strong>Moyenne unidirectionnelle relative</strong></span><span class="sxs-lookup"><span data-stu-id="21782-284"><strong>RelativeOneWayAverage</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-285">float</span><span class="sxs-lookup"><span data-stu-id="21782-285">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-284"><strong>RelativeOneWayAverage</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-284"><strong>RelativeOneWayAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-285">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-285">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-286">Quantité moyenne de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="21782-286">Average amount of one-way latency.</span></span> <span data-ttu-id="21782-287">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-287">Relative one-way latency measures the delay between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-288">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-288">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p106">Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p106">Average amount of one-way latency. Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-288">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-288">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-289"><strong>RelativeOneWayMax</strong></span><span class="sxs-lookup"><span data-stu-id="21782-289"><strong>RelativeOneWayMax</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-290">float</span><span class="sxs-lookup"><span data-stu-id="21782-290">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-289"><strong>RelativeOneWayMax</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-289"><strong>RelativeOneWayMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-290">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-290">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-291">Quantité maximale de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="21782-291">Maximum amount of one-way latency.</span></span> <span data-ttu-id="21782-292">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-292">Relative one-way latency measures the delay between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-293">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-293">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p107">Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p107">Maximum amount of one-way latency. Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-293">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-293">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-294"><strong>RelativeOneWayBurstOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="21782-294"><strong>RelativeOneWayBurstOccurrences</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-295">int</span><span class="sxs-lookup"><span data-stu-id="21782-295">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-294"><strong>RelativeOneWayBurstOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-294"><strong>RelativeOneWayBurstOccurrences</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-295">int</span><span class="sxs-lookup"><span data-stu-id="f851b-295">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-296">Nombre total d’occurrences de rafales à sens unique.</span><span class="sxs-lookup"><span data-stu-id="21782-296">Total one-way burst occurrences.</span></span> <span data-ttu-id="21782-297">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="21782-297">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="21782-298">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-298">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-299">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-299">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p108">Nombre total d’occurrences de rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p108">Total one-way burst occurrences. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-299">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-299">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-300"><strong>RelativeOneWayBurstDensity</strong></span><span class="sxs-lookup"><span data-stu-id="21782-300"><strong>RelativeOneWayBurstDensity</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-301">float</span><span class="sxs-lookup"><span data-stu-id="21782-301">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-300"><strong>RelativeOneWayBurstDensity</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-300"><strong>RelativeOneWayBurstDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-301">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-301">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-302">Densité du Burst total unidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="21782-302">Total one-way burst density.</span></span> <span data-ttu-id="21782-303">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="21782-303">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="21782-304">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-304">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-305">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-305">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p109">Densité totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p109">Total one-way burst density. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-305">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-305">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-306"><strong>RelativeOneWayBurstDuration</strong></span><span class="sxs-lookup"><span data-stu-id="21782-306"><strong>RelativeOneWayBurstDuration</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-307">float</span><span class="sxs-lookup"><span data-stu-id="21782-307">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-306"><strong>RelativeOneWayBurstDuration</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-306"><strong>RelativeOneWayBurstDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-307">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-307">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-308">Durée totale du Burst.</span><span class="sxs-lookup"><span data-stu-id="21782-308">Total one-way burst duration.</span></span> <span data-ttu-id="21782-309">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="21782-309">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="21782-310">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-310">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-311">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-311">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p110">Durée totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p110">Total one-way burst duration. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-311">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-311">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-312"><strong>RelativeOneWayGapOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="21782-312"><strong>RelativeOneWayGapOccurrences</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-313">int</span><span class="sxs-lookup"><span data-stu-id="21782-313">int</span></span></p></td>
+<td><p><span data-ttu-id="f851b-312"><strong>RelativeOneWayGapOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-312"><strong>RelativeOneWayGapOccurrences</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-313">int</span><span class="sxs-lookup"><span data-stu-id="f851b-313">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-314">Nombre total d’occurrences de l’espacement unidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="21782-314">Total one-way gap occurrences.</span></span> <span data-ttu-id="21782-315">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="21782-315">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="21782-316">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-316">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-317">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-317">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p111">Nombre total d’occurrences d’intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p111">Total one-way gap occurrences. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-317">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-317">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-318"><strong>RelativeOneWayGapDensity</strong></span><span class="sxs-lookup"><span data-stu-id="21782-318"><strong>RelativeOneWayGapDensity</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-319">float</span><span class="sxs-lookup"><span data-stu-id="21782-319">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-318"><strong>RelativeOneWayGapDensity</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-318"><strong>RelativeOneWayGapDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-319">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-319">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-320">Densité de l’intervalle total à sens unique.</span><span class="sxs-lookup"><span data-stu-id="21782-320">Total one-way gap density.</span></span> <span data-ttu-id="21782-321">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="21782-321">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="21782-322">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-322">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-323">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-323">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p112">Densité totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p112">Total one-way gap density. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-323">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-323">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-324"><strong>RelativeOneWayGapDuration</strong></span><span class="sxs-lookup"><span data-stu-id="21782-324"><strong>RelativeOneWayGapDuration</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-325">float</span><span class="sxs-lookup"><span data-stu-id="21782-325">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-324"><strong>RelativeOneWayGapDuration</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-324"><strong>RelativeOneWayGapDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-325">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-325">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-326">Durée totale de l’intervalle.</span><span class="sxs-lookup"><span data-stu-id="21782-326">Total one-way gap duration.</span></span> <span data-ttu-id="21782-327">Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="21782-327">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="21782-328">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="21782-328">This metric measures data flow between the client and the server.</span></span></p>
-<p><span data-ttu-id="21782-329">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-329">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-p113">Durée totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="f851b-p113">Total one-way gap duration. A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts. This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="f851b-329">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-329">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-330"><strong>DecodeStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-330"><strong>DecodeStereoPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-331">float</span><span class="sxs-lookup"><span data-stu-id="21782-331">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-330"><strong>DecodeStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-330"><strong>DecodeStereoPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-331">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-331">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-332">Pourcentage de l’appel décodé en stéréo.</span><span class="sxs-lookup"><span data-stu-id="21782-332">Percentage of the call decoded as stereo.</span></span></p>
-<p><span data-ttu-id="21782-333">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-333">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-332">Pourcentage de l’appel décodé en stéréo.</span><span class="sxs-lookup"><span data-stu-id="f851b-332">Percentage of the call decoded as stereo.</span></span></p>
+<p><span data-ttu-id="f851b-333">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-333">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-334"><strong>AecRenderStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-334"><strong>AecRenderStereoPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-335">float</span><span class="sxs-lookup"><span data-stu-id="21782-335">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-334"><strong>AecRenderStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-334"><strong>AecRenderStereoPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-335">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-335">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-336">Pourcentage de l’appel rendu en stéréo par l’suppresseur d’écho acoustique.</span><span class="sxs-lookup"><span data-stu-id="21782-336">Percentage of the call rendered as stereo by the acoustic echo canceller.</span></span></p>
-<p><span data-ttu-id="21782-337">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-337">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-336">Pourcentage de l’appel rendu stéréo par le suppresseur d’écho acoustique.</span><span class="sxs-lookup"><span data-stu-id="f851b-336">Percentage of the call rendered as stereo by the acoustic echo canceller.</span></span></p>
+<p><span data-ttu-id="f851b-337">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-337">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-338"><strong>AudioPostFECPLR</strong></span><span class="sxs-lookup"><span data-stu-id="21782-338"><strong>AudioPostFECPLR</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-339">float</span><span class="sxs-lookup"><span data-stu-id="21782-339">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-338"><strong>AudioPostFECPLR</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-338"><strong>AudioPostFECPLR</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-339">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-339">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-340">Taux de perte de paquets après application de la correction d’erreur de transfert.</span><span class="sxs-lookup"><span data-stu-id="21782-340">Packet loss rate after forward error correction has been applied.</span></span></p>
-<p><span data-ttu-id="21782-341">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-341">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-340">Taux de perte de paquets après la correction des erreurs de transfert a été appliquée.</span><span class="sxs-lookup"><span data-stu-id="f851b-340">Packet loss rate after forward error correction has been applied.</span></span></p>
+<p><span data-ttu-id="f851b-341">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-341">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21782-342"><strong>EncodeStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-342"><strong>EncodeStereoPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-343">float</span><span class="sxs-lookup"><span data-stu-id="21782-343">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-342"><strong>EncodeStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-342"><strong>EncodeStereoPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-343">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-343">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-344">Pourcentage de l’appel encodé en stéréo.</span><span class="sxs-lookup"><span data-stu-id="21782-344">Percentage of the call encoded as stereo.</span></span></p>
-<p><span data-ttu-id="21782-345">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-345">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-344">Pourcentage de l’appel codé en stéréo.</span><span class="sxs-lookup"><span data-stu-id="f851b-344">Percentage of the call encoded as stereo.</span></span></p>
+<p><span data-ttu-id="f851b-345">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-345">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21782-346"><strong>AecCaptureStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="21782-346"><strong>AecCaptureStereoPercent</strong></span></span></p></td>
-<td><p><span data-ttu-id="21782-347">float</span><span class="sxs-lookup"><span data-stu-id="21782-347">float</span></span></p></td>
+<td><p><span data-ttu-id="f851b-346"><strong>AecCaptureStereoPercent</strong></span><span class="sxs-lookup"><span data-stu-id="f851b-346"><strong>AecCaptureStereoPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f851b-347">flottant</span><span class="sxs-lookup"><span data-stu-id="f851b-347">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="21782-348">Pourcentage de l’appel capturé comme stéréo par l’suppresseur d’écho acoustique.</span><span class="sxs-lookup"><span data-stu-id="21782-348">Percentage of the call captured as stereo by the acoustic echo canceller.</span></span></p>
-<p><span data-ttu-id="21782-349">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21782-349">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="f851b-348">Pourcentage de l’appel capturé en tant que stéréo par le suppresseur d’écho acoustique.</span><span class="sxs-lookup"><span data-stu-id="f851b-348">Percentage of the call captured as stereo by the acoustic echo canceller.</span></span></p>
+<p><span data-ttu-id="f851b-349">Cette chronique a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f851b-349">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>
