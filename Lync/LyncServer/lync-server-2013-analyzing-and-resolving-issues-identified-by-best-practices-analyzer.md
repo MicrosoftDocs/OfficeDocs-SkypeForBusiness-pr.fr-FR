@@ -1,5 +1,5 @@
 ---
-title: Analyser et résoudre les problèmes identifiés par l’analyseur de meilleures pratiques
+title: Analyse et résolution des problèmes identifiés par Best Practices Analyzer
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737814"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>Analyser et résoudre les problèmes identifiés par l’analyseur de meilleures pratiques dans Lync Server 2013
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>Analyse et résolution des problèmes identifiés par Best Practices Analyzer dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41737814"
 
 _**Dernière modification de la rubrique :** 2012-06-25_
 
-L’analyseur de recommandations n’apporte aucune modification à votre environnement pour résoudre les problèmes. Elle détecte uniquement les problèmes potentiels et affiche des informations sur la façon de les résoudre. Si vous identifiez des problèmes dont vous avez besoin pour résoudre le problème, vous devez déterminer la solution appropriée. Les rubriques de cette section vous aident à identifier et résoudre certains problèmes potentiels les plus importants.
+Best Practices Analyzer ne modifie pas votre environnement pour résoudre les problèmes. Il détecte uniquement les problèmes potentiels et affiche des informations sur la façon de les résoudre. Si vous identifiez les problèmes que vous devez résoudre, vous devez déterminer la solution appropriée. Les rubriques de cette section vous aident à identifier et à résoudre certains des problèmes potentiels les plus significatifs.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Problèmes liés au test de l’environnement dans Lync Server 2013](lync-server-2013-issues-with-the-environment-test.md)
+  - [Problèmes avec le test de l’environnement dans Lync Server 2013](lync-server-2013-issues-with-the-environment-test.md)
 
-  - [Problèmes liés au test topologique dans Lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
+  - [Problèmes avec le test de topologie dans Lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
 
 </div>
 

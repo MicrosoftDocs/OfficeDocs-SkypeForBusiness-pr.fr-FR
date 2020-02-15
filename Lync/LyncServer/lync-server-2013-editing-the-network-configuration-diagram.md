@@ -12,16 +12,16 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e65fc660285501cf8d2326505ad46ea227e123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729384"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729384"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-La majeure partie du travail qu’un concepteur effectue dans l’outil de planification de Lync Server 2013 (en anglais) consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le réseau de tâches. Les informations entrées dans cette page sont incluses dans les rapports et autres informations contenus dans l’outil de planification.
+La plupart du travail qu’un concepteur effectue dans l’outil de planification Lync Server 2013, consiste à définir les entrées des adresses IP et des noms de domaine complets (FQDN) pour les entrées sur le réseau de tâches. Les informations qui sont entrées sur cette page sont reportées dans les rapports et les autres informations contenues dans l’outil de planification.
 
-![Diagramme du réseau d’outils de planification](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagramme du réseau d’outils de planification")
+![Diagramme de réseau de l’outil de planification](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagramme de réseau de l’outil de planification")
 
 L’outil de planification crée un diagramme de réseau avec le texte par défaut pour les adresses IP et les noms de domaine complets.
 
 Pour modifier le diagramme de réseau et les valeurs entrées :
 
-1.  Commencez par choisir une section du réseau. Par exemple, double-cliquez sur le texte **access1.contoso.com**. Dans la boîte de dialogue qui s’ouvre, tapez le nom de domaine complet (FQDN) réel du serveur access1.contoso.com et l’adresse IP réelle, en remplaçant 131.107.155.3.
+1.  Choisissez la section du réseau sur laquelle vous souhaitez commencer à travailler. Par exemple, double-cliquez sur le texte, **access1.contoso.com**. Dans la boîte de dialogue qui s’ouvre, tapez le nom de domaine complet réel du serveur access1.contoso.com et l’adresse IP réelle, en remplaçant le 131.107.155.3.
 
 2.  Cliquez sur **OK** pour enregistrer les entrées.
 
@@ -53,17 +53,17 @@ Pour modifier le diagramme de réseau et les valeurs entrées :
 
 Une fonction utile de l’outil de planification est la possibilité d’affecter une plage d’adresses IP et de noms d’hôte de serveur, au lieu de demander au concepteur de modifier chaque serveur d’un pool. Par exemple :
 
-1.  Double-cliquez sur les serveurs frontaux du pool. Quand la boîte de dialogue s’ouvre, sélectionnez **Souhaitez-vous utiliser les adresses IP et les noms de domaine complets (FQDN) comme points de départ pour tous les serveurs équivalents dans ce cluster ?**.
+1.  Double-cliquez sur les serveurs frontaux du pool. Lorsque la boîte de dialogue s’ouvre, sélectionnez **Souhaitez-vous utiliser les adresses IP et les noms de domaine complets (FQDN) comme points de départ pour tous les serveurs équivalents dans ce cluster ?**.
 
-2.  Dans l’exemple, la valeur de démarrage pour le premier serveur est fe0101.contoso.com avec l’adresse IP 192.168.21.122.
+2.  Par exemple, la valeur de départ du premier serveur est fe0101.contoso.com et l’adresse IP 192.168.21.122.
 
-3.  Tapez **fe0.contoso.com** dans le **nom de domaine complet du serveur frontal**, tapez **192.168.21.131** dans l’**Adresse IP du serveur frontal**, puis cliquez sur **OK**.
+3.  Tapez **Fe0.contoso.com** dans **nom de domaine complet du serveur frontal**, tapez **192.168.21.131** dans **adresse IP du serveur frontal**, puis cliquez sur **OK**.
 
-4.  La fonction d’incrémentation automatique met à jour tous les serveurs du pool entre fe01 et fe06, et toutes les adresses IP entre 192.168.21.131 et 136.
+4.  La fonctionnalité d’auto-incrémentation met à jour tous les serveurs du pool vers entre FE01 via fe06 et toutes les adresses IP de 192.168.21.131 à 136.
 
-Une fois toutes les modifications terminées, enregistrez la topologie en procédant comme suit :
+Une fois que vous avez terminé toutes les modifications, enregistrez la topologie en procédant comme suit :
 
-Pour enregistrer la conception de l’outil de planification, cliquez sur **fichier**, puis sur **enregistrer la topologie** ou **enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous** s’affiche, tapez un nom pour le fichier dans **Nom de fichier**, puis cliquez sur **Enregistrer**.
+Pour enregistrer la conception de l’outil de planification, cliquez sur **fichier**, puis sur **Enregistrer** la topologie ou sur **enregistrer la topologie sous**. Si une boîte de dialogue **Enregistrer l’outil de planification sous le nom** s’affiche, tapez un nom pour le fichier dans **Nom du fichier**, puis cliquez sur **Enregistrer**.
 
 <div>
 

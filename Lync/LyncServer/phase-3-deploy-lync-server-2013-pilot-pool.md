@@ -1,5 +1,5 @@
 ---
-title: 'Étape 3 : déployer le pool de pilotes de Lync Server 2013'
+title: 'Phase 3 : déployer le pool pilote Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c87be6f690c5c31822dd59bea52c9140e43a4926
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757678"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Étape 3 : déployer le pool de pilotes de Lync Server 2013
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Phase 3 : déployer le pool pilote Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757678"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Cette section présente les étapes nécessaires au déploiement d’un pool de pilotes de Lync Server 2013. Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur de topologie pour définir votre topologie et les composants que vous voulez déployer, en préservant votre environnement pour le déploiement des composants Lync Server 2013 et en publiant votre conception topologique au premier plan Serveur, puis de l’installation et de la configuration du logiciel Lync Server 2013 pour les composants de votre déploiement. Lorsque vous avez terminé, votre déploiement de la liste de ressources pilotes 2010 de Lync 2013 Server
+Cette section décrit les étapes nécessaires au déploiement d’un pool pilote de Lync Server 2013. Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, la préparation de votre environnement au déploiement des composants Lync Server 2013, la publication de votre conception de topologie sur le premier serveur frontal Serveur, puis installation et configuration du logiciel Lync Server 2013 pour les composants de votre déploiement. Lorsque vous avez terminé, votre déploiement de pool pilote Lync Server 2013 coexiste avec un pool Lync Server 2010 existant.
 
 <div>
 
@@ -45,15 +45,15 @@ Cette section présente les étapes nécessaires au déploiement d’un pool de 
 
   - [Préparation d’Active Directory pour Lync Server](prepare-active-directory-for-lync-server.md)
 
-  - [Téléchargement de la topologie à partir d’un déploiement existant](download-topology-from-existing-deployment.md)
+  - [Télécharger la topologie à partir d’un déploiement existant](download-topology-from-existing-deployment.md)
 
-  - [Déploiement du pool de pilotes Lync Server 2013](deploy-lync-server-2013-pilot-pool.md)
+  - [Déployer le pool pilote Lync Server 2013](deploy-lync-server-2013-pilot-pool.md)
 
-  - [Vérification de la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [Vérifier la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
-  - [Connexion du pool pilote aux serveurs Edge hérités](connect-pilot-pool-to-legacy-edge-servers.md)
+  - [Connecter le pool pilote aux serveurs Edge hérités](connect-pilot-pool-to-legacy-edge-servers.md)
 
-  - [Configuration des certificats et des stratégies d’accès de passerelle XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
+  - [Configuration des certificats et des stratégies d’accès à la passerelle XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 

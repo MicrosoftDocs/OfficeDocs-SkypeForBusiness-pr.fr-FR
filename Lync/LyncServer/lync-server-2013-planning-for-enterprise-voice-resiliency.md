@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de la résistance Voix Entreprise'
+title: 'Lync Server 2013 : planification de la résistance voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185408
 ms.date: 10/17/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b8b35871b740bd6d52d741922a3dcea9b7b60b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 635e252953956d9dc6619ab51eea88804c2905c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-resiliency-in-lync-server-2013"></a>Planification de la résistance Voix Entreprise dans Lync Server 2013
+# <a name="planning-for-enterprise-voice-resiliency-in-lync-server-2013"></a>Planification de la résistance voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41754054"
 
 _**Dernière modification de la rubrique :** 2014-10-17_
 
-La résilience vocale désigne la possibilité pour les utilisateurs de continuer à passer et à recevoir des appels si un site central hébergeant Lync Server 2013 devient indisponible, qu’il s’agisse d’un réseau étendu (WAN) ou d’une autre cause. Si un site central ne fonctionne pas, le service de voix en entreprise doit basculer vers un site de sauvegarde pour assurer la continuité du service. En cas de panne du réseau étendu, les appels de la succursale doivent être redirigés vers une passerelle RTC locale. Cette section traite de la planification pour la résistance des communications vocales en cas de panne du site central ou du réseau étendu.
+La résistance vocale fait référence à la capacité des utilisateurs à continuer à passer et à recevoir des appels si un site central hébergeant Lync Server 2013 devient indisponible, qu’il s’agisse d’une défaillance du réseau étendu (WAN) ou d’une autre cause. Si un site central tombe en panne, Voix Entreprise doit basculer vers un site de sauvegarde pour assurer la continuité du service. En cas de panne du réseau étendu, les appels de la succursale doivent être redirigés vers une passerelle PSTN locale. Cette section traite de la planification pour la résistance des communications vocales en cas de panne du site central ou du réseau étendu.
 
 <div>
 

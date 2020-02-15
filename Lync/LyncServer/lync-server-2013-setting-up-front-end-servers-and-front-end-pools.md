@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des serveurs et des pools frontaux'
+title: 'Lync Server 2013 : configuration de serveurs frontaux et de pools frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732194"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Configuration des serveurs et des pools frontaux pour Lync Server 2013
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Configuration de serveurs frontaux et de pools frontaux pour Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41732194"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Cette section vous guide tout au long de l’installation de Lync Server 2013 et de la configuration des rôles de serveur du serveur Standard Edition et du pool frontal, y compris des serveurs frontaux et des rôles serveur colocalisés avec les serveurs frontaux. Pour installer et configurer les rôles de serveur, vous devez exécuter l’Assistant Déploiement de Lync Server sur chaque ordinateur sur lequel vous installez un rôle de serveur. Faites appel à l’Assistant Déploiement pour exécuter les quatre étapes du déploiement que sont l’installation du magasin de configurations local, l’installation des serveurs frontaux, la configuration des certificats et le démarrage des services.
+Cette section vous guide tout au long de l’installation de Lync Server 2013 et de la configuration des rôles de serveur pour le serveur Standard Edition et le pool frontal, y compris les serveurs frontaux et les rôles de serveur qui sont colocalisés avec les serveurs frontaux. Pour installer et configurer les rôles serveur, exécutez l’Assistant Déploiement de Lync Server sur chaque ordinateur sur lequel vous installez un rôle serveur. L’Assistant déploiement vous permet d’effectuer les quatre étapes de déploiement, notamment l’installation du magasin de configurations local, l’installation des serveurs frontaux, la configuration des certificats et le démarrage des services.
 
 <div>
 
 
 > [!NOTE]  
-> Pour pouvoir configurer les rôles de serveurs, vous devez avoir correctement publié une topologie. Pour plus d’informations sur la publication d’une topologie, voir <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalisation et implémentation de la conception topologique dans Lync Server 2013</A>.
+> Avant de pouvoir configurer les rôles serveur, vous devez avoir réussi la publication d’une topologie. Pour plus d’informations sur la publication d’une topologie, reportez-vous à <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">la section finalisation et implémentation de la conception de la topologie dans Lync Server 2013</A>.
 
 
 
@@ -53,13 +53,13 @@ Cette section vous guide tout au long de l’installation de Lync Server 2013 et
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Installation du magasin de configurations local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
+  - [Installer le magasin de configurations local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
-  - [Installation des composants serveur pour Lync Server 2013](lync-server-2013-install-lync-server-server-components.md)
+  - [Installer les composants serveur pour Lync Server 2013](lync-server-2013-install-lync-server-server-components.md)
 
-  - [Configuration des certificats pour les serveurs dans Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md)
+  - [Configurer des certificats pour les serveurs dans Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md)
 
-  - [Démarrer des services sur les serveurs pour Lync Server 2013](lync-server-2013-start-services-on-servers.md)
+  - [Démarrer des services sur des serveurs pour Lync Server 2013](lync-server-2013-start-services-on-servers.md)
 
   - [Test du déploiement du pool dans Lync Server 2013](lync-server-2013-test-the-pool-deployment.md)
 

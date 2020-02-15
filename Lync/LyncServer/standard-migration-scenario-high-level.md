@@ -1,5 +1,5 @@
 ---
-title: Scénario de migration standard - Haut niveau
+title: Scénario de migration standard-haut niveau
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68ff7110cc7e14ccc76ab7d0c0125e723477934a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34084de0af0971018043f230c260adb514f1d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>Scénario de migration standard - Haut niveau
+# <a name="standard-migration-scenario---high-level"></a>Scénario de migration standard-haut niveau
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41741954"
 
 _**Dernière modification de la rubrique :** 2013-01-30_
 
-Utilisez les éléments suivants comme point de départ lors de la migration de Lync Server 2010, d’une conversation de groupe ou d’une conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de chat permanent. Le chemin de migration standard de Lync Server 2013 est le suivant :
+Utilisez les éléments suivants comme point de départ lors de la migration de Lync Server 2010, Group chat ou de la conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de conversation permanente. Le chemin d’accès de migration standard de Lync Server 2013 se présente comme suit :
 
-  - Votre organisation a déjà déployé Lync Server 2010, les discussions de groupe ou les discussions de groupe Office Communications Server 2007 R2 et vous voulez déployer Lync Server 2013, serveur de conversation permanent.
+  - Votre organisation a précédemment déployé Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat, et vous souhaitez déployer Lync Server 2013, serveur de conversation permanente.
 
-  - Déploiement de Lync Server 2013, puis déploiement du ou des pools de serveurs de chat permanents.
+  - Déployez Lync Server 2013, puis déployez le ou les pools de serveurs de conversation permanente.
 
-  - Préparez et planifiez la migration de vos salles de conversation permanente et déterminez un moment approprié pour arrêter le système à des fins de migration.
+  - Préparez et planifiez la migration de vos salles de conversation permanente et déterminez une heure appropriée pour arrêter le système pour la migration.
 
-  - Exécutez les cmdlets Windows PowerShell pour la migration (**Export-CsPersistentChatData** et **Import-CsPersistentChatData**) pour déplacer le contenu vers le serveur de conversation persistante.
+  - Exécutez les applets de commande Windows PowerShell pour la migration (**Export-applet cspersistentchatdata** et **Import-applet cspersistentchatdata**) pour déplacer le contenu vers le serveur de conversation permanente.
 
   - Vérifiez que la migration a réussi.
 
-  - Désaffectez votre déploiement hérité.
+  - Désactivez votre déploiement hérité.
 
-  - Configurez le serveur de chat permanent de sorte que les clients hérités puissent se connecter à Lync Server 2013, serveur de chat permanent. Cela est nécessaire, car cela prend du temps pour le déploiement de nouveaux clients, et vous voulez permettre aux utilisateurs existants d’avoir accès à leurs salles de conversation le plus rapidement possible.
+  - Configurez le serveur de conversation permanente de sorte que les clients hérités puissent se connecter à Lync Server 2013, serveur de conversation permanente. Cette action est nécessaire, car le déploiement de nouveaux clients prend du temps, et les utilisateurs existants avec des clients hérités doivent avoir accès à leurs salles de conversation dès que possible.
 
-  - Déployez de nouveaux clients tout en continuant de garantir que les travailleurs disposant d’une discussion de groupe héritée (clients) pourront accéder à leurs salles de conversation.
+  - Déployez de nouveaux clients, tout en continuant à s’assurer que les travailleurs disposant d’une conversation de groupe héritée (clients) peuvent accéder à leurs salles de conversation.
 
 </div>
 

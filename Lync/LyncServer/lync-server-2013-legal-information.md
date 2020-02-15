@@ -1,5 +1,5 @@
 ---
-title: Informations légales de Lync Server 2013
+title: Informations juridiques sur Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757998"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034926"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a>Informations légales de Lync Server 2013
+# <a name="legal-information-for-lync-server-2013"></a>Informations juridiques pour Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41757998"
 
 _**Dernière modification de la rubrique :** 2011-02-22_
 
-Ce document est fourni « en l’état ». Les informations et opinions exprimées dans ce document, y compris l’URL et autres sites web références, sont susceptibles d’être modifiées sans préavis.
+Ce document est fourni en l’état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l’objet de modifications sans préavis.
 
-Certains exemples mentionnés ici sont purement fictifs et fournis seulement à titre indicatif. Toute ressemblance avec des personnes ou des situations existantes ou ayant existé ne saurait être que fortuite.
+Certains exemples décrits dans ce document sont fournis uniquement à titre d'illustration et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
 
-Ce document ne vous octroie aucun droit à une propriété intellectuelle vis-à-vis d’un quelconque produit Microsoft. Vous pouvez copier et utiliser ce document à des fins internes de référence.
+Ce document ne vous confère aucun droit de propriété intellectuelle sur les produits Microsoft. Vous pouvez copier et utiliser ce document pour votre usage personnel.
 
 Copyright © 2013 Microsoft Corporation. Tous droits réservés.
 

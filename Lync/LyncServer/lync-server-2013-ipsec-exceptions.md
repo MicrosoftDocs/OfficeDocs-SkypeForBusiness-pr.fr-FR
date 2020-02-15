@@ -1,5 +1,5 @@
 ---
-title: Exceptions IPsec de Lync Server 2013
+title: Exceptions IPsec Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733454"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035056"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41733454"
 
 _**Dernière modification de la rubrique :** 2012-06-27_
 
-Pour les réseaux d’entreprise pour lesquels la sécurité du protocole Internet (IPsec) (voir IETF RFC 4301-4309) a été déployée, le protocole IPsec doit être désactivé sur la plage de ports utilisée pour la remise de la vidéo audio, vidéo et de panorama. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
+Dans les réseaux d’entreprise où la sécurité du protocole Internet (IPsec, Internet Protocol security) a été déployée (voir les RFC 4301-4309 de l’IETF), IPsec doit être désactivée sur la plage de ports utilisée pour la transmission des données audio/vidéo et des panoramas vidéo. Cette recommandation s’explique par la nécessité d’éviter tout retard dans l’affectation des ports multimédias lors de la négociation IPsec.
 
 Le tableau suivant présente les paramètres recommandés pour les exceptions IPsec.
 
@@ -67,139 +67,139 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 <tbody>
 <tr class="odd">
 <td><p>Serveur Edge A/V, ports internes/entrants</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Serveur Edge A/V - interne</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur Edge A/V, ports externes/entrants</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Serveur Edge A/V - externe</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur Edge A/V, ports internes/sortants</p></td>
 <td><p>Serveur Edge A/V - interne</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>TCP &amp; UDP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur Edge A/V, ports externes/sortants</p></td>
 <td><p>Serveur Edge A/V - externe</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de médiation, ports entrants</p></td>
-<td><p>Indifférente</p></td>
-<td><p>Serveur(s)</p>
-<p>de médiation</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>Élaboration</p>
+<p>Serveur (s)</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveur de médiation, ports sortants</p></td>
-<td><p>Serveur(s)</p>
-<p>de médiation</p></td>
-<td><p>Indifférente</p></td>
+<td><p>Élaboration</p>
+<p>Serveur (s)</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Intendant Conférence entrant</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Serveur frontal exécutant l’Intendant Conférence</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Intendant Conférence sortant</p></td>
 <td><p>Serveur frontal exécutant l’Intendant Conférence</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de conférence A/V, ports entrants</p></td>
-<td><p>Indifférente</p></td>
-<td><p>serveurs frontaux</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>Serveurs frontaux</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Conférence A/V, ports sortants</p></td>
 <td><p>Serveurs frontaux</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange, ports entrants</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Messagerie unifiée Exchange</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Serveurs de partage d’application, ports entrants</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Serveurs de partage d’application</p></td>
 <td><p>TCP</p></td>
-<td><p>Indifférente</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Serveur de partage d’application, ports sortants</p></td>
 <td><p>Serveurs de partage d’application</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange, ports sortants</p></td>
 <td><p>Messagerie unifiée Exchange</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP et TCP</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clients</p></td>
-<td><p>Indifférente </p></td>
-<td><p>Indifférente</p></td>
-<td><p>UDP</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>DATAGRAMME</p></td>
 <td><p>Plage de ports multimédias définie</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Ne pas authentifier</p></td>
 </tr>
 </tbody>

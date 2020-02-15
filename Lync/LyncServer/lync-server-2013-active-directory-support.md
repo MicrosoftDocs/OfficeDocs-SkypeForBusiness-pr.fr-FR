@@ -12,16 +12,16 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd35b9444f0ede4abc9b66ab6b5513d049df57ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ded5de5500778559efe632c5272db50b0eadbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41735184"
 
 _**Dernière modification de la rubrique :** 2012-12-04_
 
-Les topologies locales services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes :
+Les topologies locales des services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes :
 
   - Forêt unique avec domaine unique
 
@@ -53,7 +53,7 @@ Les topologies locales services de domaine Active Directory prises en charge par
 
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé « informations sur la configuration <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>de Windows pour les domaines avec des noms DNS en une seule étiquette ».
+> Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, une forêt avec un domaine racine nommé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, consultez l’article 300684 de la base de connaissances Microsoft, « informations sur la configuration de Windows pour les domaines avec <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>des noms DNS en une seule partie », à l’adresse.
 
 
 
@@ -63,13 +63,13 @@ Les topologies locales services de domaine Active Directory prises en charge par
 
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge le changement de nom de domaines. Si vous avez besoin de renommer un domaine sur lequel Lync Server est déployé, vous devez commencer par désinstaller Lync Server, puis renommer le domaine, puis réinstaller Lync Server.
+> Lync Server 2013 ne prend pas en charge le changement de nom des domaines. Si vous devez renommer un domaine où Lync Server est déployé, vous devez d’abord désinstaller Lync Server, renommer le domaine, puis réinstaller Lync Server.
 
 
 
 </div>
 
-Pour plus d’informations sur les topologies prises en charge et la configuration requise pour les déploiements sur site, voir [Configuration requise pour les services de domaine Active Directory, support et topologies dans Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) dans la documentation de planification.
+Pour plus d’informations sur les topologies et les exigences prises en charge pour les déploiements sur site, voir [Active Directory Domain Services Requirements, support et topologies dans Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) dans la documentation de planification.
 
 </div>
 

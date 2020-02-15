@@ -12,20 +12,20 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f89b40a7398f35efab418fac7be92536ec17270
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0d2e5cf6eaa6ed594e7f5fbbc5b1e6a4c9103a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762212"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Désactiver un utilisateur pour voix entreprise dans Lync Server 2013
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Désactivation d’un utilisateur pour voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41762212"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Utilisez la procédure suivante pour désactiver Enterprise Voice pour un compte d’utilisateur activé pour Lync Server 2013.
+Utilisez la procédure suivante pour désactiver voix entreprise pour un compte d’utilisateur qui est activé pour Lync Server 2013.
 
 <div>
 
 ## <a name="to-disable-a-user-account-for-enterprise-voice"></a>Pour désactiver un compte d’utilisateur pour voix entreprise
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager), de l’adresse SIP (Session Initiation Protocol) ou de l’URI de ligne du compte d’utilisateur à activer, puis cliquez sur **Rechercher**.
+4.  Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), de l’adresse SIP ou de l’URI (Uniform Resource Identifier) de ligne du compte d’utilisateur que vous souhaitez activer, puis cliquez sur **Rechercher**.
 
-5.  Dans la table, cliquez sur le compte d’utilisateur que vous souhaitez activer pour voix entreprise.
+5.  Dans le tableau, cliquez sur le compte d’utilisateur que vous souhaitez activer pour voix entreprise.
 
 6.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-7.  Dans la page **modifier l’utilisateur de Lync Server** , sous **téléphonie**, cliquez sur une option sauf **entreprise voix**.
+7.  Dans la page **Modifier l’utilisateur Lync Server**, sous **Téléphonie**, cliquez sur l’option de votre choix à l’exception de **Voix Entreprise**.
     
     <div>
     
 
     > [!NOTE]  
-    > Pour empêcher un utilisateur de passer des appels audio ou vidéo à l’aide de Lync, sous <STRONG>téléphonie</STRONG>, cliquez sur <STRONG>audio/vidéo désactivé</STRONG>.
+    > Pour empêcher un utilisateur d’effectuer des appels audio ou vidéo à l’aide de Lync, sous <STRONG>téléphonie</STRONG>, cliquez sur <STRONG>audio/vidéo désactivé</STRONG>.
 
     
     </div>
@@ -77,11 +77,11 @@ L’utilisateur ne peut plus utiliser la fonctionnalité voix entreprise.
 ## <a name="see-also"></a>Voir aussi
 
 
-[Activer les utilisateurs d’Enterprise Voice dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Activer les utilisateurs pour voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
 [Gestion de voix entreprise pour les utilisateurs dans Lync Server 2013](lync-server-2013-managing-enterprise-voice-for-users.md)  
-[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

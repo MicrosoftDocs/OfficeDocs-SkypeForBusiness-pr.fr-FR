@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration système requise'
+title: 'Lync Server 2013 : configuration système requise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af1d9bd6fdb02b31f81d70199cb71c960296013
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2487ba6bdc587bddc0d8dd2a4d877e00d671ac19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731614"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-Cette section présente la configuration requise pour le déploiement de Lync Server 2013 et de tous les composants associés.
+Cette section traite de la configuration système requise pour le déploiement de Lync Server 2013 et de tous les composants associés.
 
 <div>
 
@@ -51,7 +51,7 @@ Cette section présente la configuration requise pour le déploiement de Lync Se
 
   - [Configuration système requise pour les outils d’administration dans Lync Server 2013](lync-server-2013-system-requirements-for-administration-tools.md)
 
-  - [Enregistrements DNS requis pour Lync Server 2013](lync-server-2013-dns-requirements.md)
+  - [Configuration DNS requise pour Lync Server 2013](lync-server-2013-dns-requirements.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets voix avancée entreprise'
+title: 'Lync Server 2013 : applets de commande voix entreprise avancées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2eb83fe91f9c1f2cc0a79adc1232a051534e22e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f54ed09fbb2a96231d635f5c1abcd8475cf35118
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737824"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="advanced-enterprise-voice-cmdlets-in-lync-server-2013"></a>Applets de applet voix entreprise avancées dans Lync Server 2013
+# <a name="advanced-enterprise-voice-cmdlets-in-lync-server-2013"></a>Applets de commande voix entreprise avancées dans Lync Server 2013
 
 </div>
 
@@ -37,334 +37,334 @@ ms.locfileid: "41737824"
 
 _**Dernière modification de la rubrique :** 2016-04-12_
 
-Lorsque vous implémentez Enterprise Voice dans votre organisation, vous pouvez également implémenter des fonctionnalités et applications supplémentaires permettant d’améliorer l’efficacité de l’utilisateur et l’efficacité de votre organisation. Ces fonctionnalités incluent le contrôle d’admission des appels, les appels d’urgence 9-1-1 (E9-1-1) et les paramètres de configuration de média.
+Lorsque vous implémentez Voix Entreprise dans votre organisation, vous pouvez implémenter des fonctionnalités et des applications supplémentaires susceptibles d’améliorer le confort d’utilisation et l’efficacité de votre organisation. Ces fonctionnalités incluent le contrôle d’admission des appels, le système d’appels d’urgence Enhanced 9-1-1 (E9-1-1) et les paramètres de configuration multimédia.
 
 <div>
 
-## <a name="advanced-enterprise-voice-cmdlets"></a>Cmdlets voix entreprise avancées
+## <a name="advanced-enterprise-voice-cmdlets"></a>Applets de commande avancées de Voix Entreprise
 
-Les listes suivantes contiennent des applets de commande qui vous permettent de gérer les fonctionnalités avancées d’un déploiement voix entreprise :
+La liste suivante répertorie les applets de commande qui permettent de gérer les fonctionnalités avancées d’un déploiement Voix Entreprise :
 
 **[Applets de commande de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-call-admission-control-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412727(v=OCS.15))
+    [Get-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg412727(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398175(v=OCS.15))
+    [New-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg398175(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398877(v=OCS.15))
+    [Remove-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg398877(v=OCS.15))
 
   - <span></span>  
-    [Set-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412863(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg425815(v=OCS.15))
-
-  - <span></span>  
-    [New-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398675(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398609(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398338(v=OCS.15))
+    [Set-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/library/Gg412863(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsNetworkBWAlternatePath](https://technet.microsoft.com/en-us/library/Gg398732(v=OCS.15))
+    [Get-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg425815(v=OCS.15))
+
+  - <span></span>  
+    [New-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398675(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398609(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398338(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsNetworkBWPolicy](https://technet.microsoft.com/en-us/library/Gg412916(v=OCS.15))
+    [New-CsNetworkBWAlternatePath](https://technet.microsoft.com/library/Gg398732(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
-
-  - <span></span>  
-    [Remove-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
-
-  - <span></span>  
-    [Set-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [New-CsNetworkBWPolicy](https://technet.microsoft.com/library/Gg412916(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg425817(v=OCS.15))
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398779(v=OCS.15))
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398743(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398410(v=OCS.15))
+    [Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg412769(v=OCS.15))
+    [Get-CsNetworkInterRegionRoute](https://technet.microsoft.com/library/Gg425817(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398994(v=OCS.15))
+    [New-CsNetworkInterRegionRoute](https://technet.microsoft.com/library/Gg398779(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398963(v=OCS.15))
+    [Remove-CsNetworkInterRegionRoute](https://technet.microsoft.com/library/Gg398743(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398772(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398406(v=OCS.15))
-
-  - <span></span>  
-    [New-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg425829(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398466(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg413089(v=OCS.15))
+    [Set-CsNetworkInterRegionRoute](https://technet.microsoft.com/library/Gg398410(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398972(v=OCS.15))
+    [Get-CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg412769(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398437(v=OCS.15))
+    [New-CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398994(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg413012(v=OCS.15))
+    [Remove-CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398963(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg412867(v=OCS.15))
+    [Set-CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398772(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
+    [Get-applet csnetworkregion](https://technet.microsoft.com/library/Gg398406(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
+    [New-applet csnetworkregion](https://technet.microsoft.com/library/Gg425829(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
+    [Remove-applet csnetworkregion](https://technet.microsoft.com/library/Gg398466(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
+    [Set-applet csnetworkregion](https://technet.microsoft.com/library/Gg413089(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412825(v=OCS.15))
+    [Get-CsNetworkRegionLink](https://technet.microsoft.com/library/Gg398972(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg398226(v=OCS.15))
+    [New-CsNetworkRegionLink](https://technet.microsoft.com/library/Gg398437(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg425726(v=OCS.15))
+    [Remove-CsNetworkRegionLink](https://technet.microsoft.com/library/Gg413012(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412739(v=OCS.15))
-
-**[Cmdlets 9-1-1 améliorées dans Lync Server 2013](lync-server-2013-enhanced-9-1-1-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg412877(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg425810(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398620(v=OCS.15))
+    [Set-CsNetworkRegionLink](https://technet.microsoft.com/library/Gg412867(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisCivicAddress](https://technet.microsoft.com/en-us/library/Gg398459(v=OCS.15))
+    [Get-applet csnetworksite](https://technet.microsoft.com/library/Gg398766(v=OCS.15))
 
   - <span></span>  
-    [Test-CsLisCivicAddress](https://technet.microsoft.com/en-us/library/Gg425914(v=OCS.15))
+    [New-applet csnetworksite](https://technet.microsoft.com/library/Gg398365(v=OCS.15))
+
+  - <span></span>  
+    [Remove-applet csnetworksite](https://technet.microsoft.com/library/Gg398135(v=OCS.15))
+
+  - <span></span>  
+    [Set-applet csnetworksite](https://technet.microsoft.com/library/Gg398295(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398539(v=OCS.15))
+    [Get-CsNetworkSubnet](https://technet.microsoft.com/library/Gg412825(v=OCS.15))
 
   - <span></span>  
-    [Import-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398380(v=OCS.15))
+    [New-CsNetworkSubnet](https://technet.microsoft.com/library/Gg398226(v=OCS.15))
 
   - <span></span>  
-    [Debug-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398710(v=OCS.15))
+    [Remove-CsNetworkSubnet](https://technet.microsoft.com/library/Gg425726(v=OCS.15))
 
   - <span></span>  
-    [Test-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398497(v=OCS.15))
+    [Set-CsNetworkSubnet](https://technet.microsoft.com/library/Gg412739(v=OCS.15))
+
+**[Applets de commande 9-1-1 améliorées dans Lync Server 2013](lync-server-2013-enhanced-9-1-1-cmdlets.md)**
 
   - <span></span>  
-    [Publish-CsLisConfiguration](https://technet.microsoft.com/en-us/library/Gg398364(v=OCS.15))
+    [Get-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/library/Gg412877(v=OCS.15))
 
   - <span></span>  
-    [Unpublish-CsLisConfiguration](unhttps://technet.microsoft.com/en-us/library/Gg398364(v=OCS.15))
+    [Remove-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/library/Gg425810(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsEnhancedEmergencyServiceDisclaimer](https://technet.microsoft.com/library/Gg398620(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisLocation](https://technet.microsoft.com/en-us/library/Gg412834(v=OCS.15))
+    [Get-CsLisCivicAddress](https://technet.microsoft.com/library/Gg398459(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisLocation](https://technet.microsoft.com/en-us/library/Gg425722(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsLisLocation](https://technet.microsoft.com/en-us/library/Gg398757(v=OCS.15))
+    [Test-CsLisCivicAddress](https://technet.microsoft.com/library/Gg425914(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisPort](https://technet.microsoft.com/en-us/library/Gg398820(v=OCS.15))
+    [Export-CsLisConfiguration](https://technet.microsoft.com/library/Gg398539(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisPort](https://technet.microsoft.com/en-us/library/Gg412899(v=OCS.15))
+    [Import-CsLisConfiguration](https://technet.microsoft.com/library/Gg398380(v=OCS.15))
 
   - <span></span>  
-    [Set-CsLisPort](https://technet.microsoft.com/en-us/library/Gg398700(v=OCS.15))
+    [Debug-CsLisConfiguration](https://technet.microsoft.com/library/Gg398710(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsLisConfiguration](https://technet.microsoft.com/library/Gg398497(v=OCS.15))
+
+  - <span></span>  
+    [Publish-CsLisConfiguration](https://technet.microsoft.com/library/Gg398364(v=OCS.15))
+
+  - <span></span>  
+    [Unpublish-CsLisConfiguration](unhttps://technet.microsoft.com/library/Gg398364(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg398116(v=OCS.15))
+    [Get-CsLisLocation](https://technet.microsoft.com/library/Gg412834(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg398904(v=OCS.15))
+    [Remove-CsLisLocation](https://technet.microsoft.com/library/Gg425722(v=OCS.15))
 
   - <span></span>  
-    [Set-CsLisServiceProvider](https://technet.microsoft.com/en-us/library/Gg425911(v=OCS.15))
+    [Set-CsLisLocation](https://technet.microsoft.com/library/Gg398757(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg398473(v=OCS.15))
+    [Get-CsLisPort](https://technet.microsoft.com/library/Gg398820(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg413053(v=OCS.15))
+    [Remove-CsLisPort](https://technet.microsoft.com/library/Gg412899(v=OCS.15))
 
   - <span></span>  
-    [Set-CsLisSubnet](https://technet.microsoft.com/en-us/library/Gg399016(v=OCS.15))
+    [Set-CsLisPort](https://technet.microsoft.com/library/Gg398700(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg425769(v=OCS.15))
+    [Get-CsLisServiceProvider](https://technet.microsoft.com/library/Gg398116(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg398352(v=OCS.15))
+    [Remove-CsLisServiceProvider](https://technet.microsoft.com/library/Gg398904(v=OCS.15))
 
   - <span></span>  
-    [Set-CsLisSwitch](https://technet.microsoft.com/en-us/library/Gg412823(v=OCS.15))
+    [Set-CsLisServiceProvider](https://technet.microsoft.com/library/Gg425911(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg398117(v=OCS.15))
+    [Get-CsLisSubnet](https://technet.microsoft.com/library/Gg398473(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg398461(v=OCS.15))
+    [Remove-CsLisSubnet](https://technet.microsoft.com/library/Gg413053(v=OCS.15))
 
   - <span></span>  
-    [Set-CsLisWirelessAccessPoint](https://technet.microsoft.com/en-us/library/Gg412723(v=OCS.15))
+    [Set-CsLisSubnet](https://technet.microsoft.com/library/Gg399016(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398911(v=OCS.15))
+    [Get-CsLisSwitch](https://technet.microsoft.com/library/Gg425769(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg413049(v=OCS.15))
+    [Remove-CsLisSwitch](https://technet.microsoft.com/library/Gg398352(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398231(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg398727(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg412987(v=OCS.15))
-
-  - <span></span>  
-    [Test-CsLocationPolicy](https://technet.microsoft.com/en-us/library/Gg425962(v=OCS.15))
+    [Set-CsLisSwitch](https://technet.microsoft.com/library/Gg412823(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
+    [Get-CsLisWirelessAccessPoint](https://technet.microsoft.com/library/Gg398117(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
+    [Remove-CsLisWirelessAccessPoint](https://technet.microsoft.com/library/Gg398461(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
-
-**[Cmdlets d’apparition de lignes partagées (SLA)](shared-line-appearance-sla-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703202(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsSlaConfiguration](https://technet.microsoft.com/en-us/library/Mt703201(v=OCS.15))
+    [Set-CsLisWirelessAccessPoint](https://technet.microsoft.com/library/Gg412723(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Add-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
+    [Get-CsLocationPolicy](https://technet.microsoft.com/library/Gg398911(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703203(v=OCS.15))
-
-**[Cmdlets de contournement multimédia dans Lync Server 2013](lync-server-2013-media-bypass-cmdlets.md)**
+    [Grant-CsLocationPolicy](https://technet.microsoft.com/library/Gg413049(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [New-CsLocationPolicy](https://technet.microsoft.com/library/Gg398231(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsLocationPolicy](https://technet.microsoft.com/library/Gg398727(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsLocationPolicy](https://technet.microsoft.com/library/Gg412987(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsLocationPolicy](https://technet.microsoft.com/library/Gg425962(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-applet csnetworksite](https://technet.microsoft.com/library/Gg398766(v=OCS.15))
 
   - <span></span>  
-    [Remove-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [New-applet csnetworksite](https://technet.microsoft.com/library/Gg398365(v=OCS.15))
 
   - <span></span>  
-    [Set-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
-
-**[Applets de configuration de média dans Lync Server 2013](lync-server-2013-media-configuration-cmdlets.md)**
+    [Remove-applet csnetworksite](https://technet.microsoft.com/library/Gg398135(v=OCS.15))
 
   - <span></span>  
-    [Get-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))
+    [Set-applet csnetworksite](https://technet.microsoft.com/library/Gg398295(v=OCS.15))
+
+**[Cmdlets d’apparence de ligne partagée (SLA)](shared-line-appearance-sla-cmdlets.md)**
 
   - <span></span>  
-    [Nouveau-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))
+    [Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))
+    [Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))
+    [Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Add-applet cssladelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))
+
+  - <span></span>  
+    [Remove-applet cssladelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))
+
+**[Applets de commande de déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-media-bypass-cmdlets.md)**
+
+  - <span></span>  
+    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
+
+**[Applets de commande de configuration multimédia dans Lync Server 2013](lync-server-2013-media-configuration-cmdlets.md)**
+
+  - <span></span>  
+    [Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))
+
+  - <span></span>  
+    [New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))
 
 </div>
 
@@ -373,7 +373,7 @@ Les listes suivantes contiennent des applets de commande qui vous permettent de 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Cmdlets voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Applets de commande voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Blog Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

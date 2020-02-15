@@ -1,5 +1,5 @@
 ---
-title: Activation d’Outlook Web App et de l’intégration de la messagerie instantanée dans Exchange 2013
+title: Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bd9fb94dd0f068547819aa884b608ac6ddf7e39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a67dd3c18525d7a39678b5871d087ea79c502fce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723034"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Activation d’Outlook Web App et de l’intégration de la messagerie instantanée dans Exchange 2013
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Activer Exchange 2013 Outlook Web App et l’intégration de la messagerie instantanée
 
 </div>
 
@@ -37,58 +37,58 @@ ms.locfileid: "41723034"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Pour activer l’intégration de la messagerie instantanée et de l’intégration de la messagerie instantanée Exchange 2013 à Lync Server 2013, vous devez ajouter le serveur de serveur d’accès au client Exchange 2013 à la topologie Lync Server 2013 comme serveur d’applications de confiance.
+Pour activer l’intégration d’Exchange 2013 Outlook Web Access (OWA) et de la messagerie instantanée avec Lync Server 2013, vous devez ajouter le serveur de serveur d’accès au client (CAS) Exchange 2013 à la topologie Lync Server 2013 en tant que serveur d’applications approuvées.
 
 <div>
 
-## <a name="to-create-a-trusted-application-pool"></a>Pour créer un pool d’applications approuvé
+## <a name="to-create-a-trusted-application-pool"></a>Pour créer un pool d’applications approuvées
 
 1.  Démarrez Lync Server 2013 Management Shell.
 
-2.  Exécutez l’applet de commande suivante :
+2.  Exécutez la cmdlet suivante :
     
         Get-CsSite
     
-    Le siteID est alors renvoyé pour le siteName dans lequel vous créez le pool. Pour plus d’informations, reportez-vous à la rubrique [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) dans la documentation Lync Server 2013 Management Shell.
+    Celle-ci renvoie la valeur siteID correspondant à la valeur siteName dans laquelle vous créez le pool. Pour plus d’informations, reportez-vous à [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) dans la documentation de Lync Server 2013 Management Shell.
 
-3.  Exécutez l’applet de commande suivante :
+3.  Exécutez la cmdlet suivante :
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    Pour plus d’informations, reportez-vous à [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) dans la documentation de Lync Server 2013 Management Shell.
+    Pour plus d’informations, reportez-vous à la rubrique [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) dans la documentation de Lync Server 2013 Management Shell.
     
-    Le nom de domaine complet du serveur Exchange doit être configuré en tant que nom du sujet du certificat OWA Exchange (SN) ou le nom de l’autre nom de l’objet.
+    Le nom de domaine complet du serveur Exchange Server doit être configuré en tant que nom d’objet du certificat Exchange OWA ou en tant qu’autre nom de l’objet.
     
-    Dans Exchange OWA, vérifiez que le nom de domaine complet (FQDN) du pool est également approuvé.
+    Dans Exchange OWA, assurez-vous que le nom de domaine complet du pool est également approuvé.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si votre serveur CAS n’est <EM>pas</EM> localisé sur le même serveur qui exécute Exchange 2013 Unified Messaging (um), ignorez les étapes restantes de cette procédure et effectuez la procédure « créer une application sécurisée pour le serveur CAS Exchange 2013 », plus loin dans cette rubrique. Si votre serveur CAS est colocalisé sur le même serveur qui exécute Exchange 2013 Unified Messaging (UM), suivez les étapes décrites dans cette procédure et n’exécutez pas la procédure « créer une application fiable pour le serveur CAS Exchange 2013 », plus loin dans cette rubrique.
+    > Si votre serveur CAS n’est <EM>pas</EM> colocalisé sur le même serveur qui exécute la messagerie unifiée Exchange 2013, ignorez les étapes restantes de cette procédure et exécutez la procédure « créer une application approuvée pour le serveur CAS Exchange 2013 » plus loin dans cette rubrique. Si votre serveur CAS est colocalisé sur le même serveur qui exécute la messagerie unifiée Exchange 2013, effectuez les étapes de cette procédure et n’effectuez pas la procédure « créer une application approuvée pour le serveur CAS Exchange 2013 » plus loin dans cette rubrique.
 
     
     </div>
 
 4.  Exécutez **Enable-CsTopology**.
 
-5.  Ouvrez le générateur de topologie et téléchargez la topologie existante.
+5.  Ouvrez le Générateur de topologie et téléchargez la topologie existante.
 
-6.  Dans le volet gauche, développez l’arborescence jusqu’à ce que vous atteigniez **serveurs d’application approuvés**.
+6.  Dans le volet gauche, développez l’arborescence jusqu’à ce que vous atteigniez **Serveurs d’applications approuvées**.
 
-7.  Développez le nœud **serveurs d’applications de confiance** .
+7.  Développez le nœud **Serveurs d’applications approuvées**.
 
-8.  Le serveur Exchange 2013 CAS est désormais répertorié comme serveur d’applications de confiance.
+8.  Vous devez maintenant voir le serveur CAS Exchange 2013 mentionné en tant que serveur d’applications approuvées.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a>Pour créer une application fiable pour le serveur CAS Exchange 2013
+## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a>Pour créer une application approuvée pour le serveur CAS Exchange 2013
 
 1.  Démarrez Lync Server 2013 Management Shell.
 
-2.  Si votre serveur CAS n’est *pas* localisé sur le même serveur qui exécute Exchange 2013 Unified Messaging (um), exécutez l’applet de commande suivante :
+2.  Si votre serveur CAS n’est *pas* colocalisé sur le même serveur qui exécute la messagerie unifiée Exchange 2013, exécutez l’applet de commande suivante :
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
@@ -96,11 +96,11 @@ Pour activer l’intégration de la messagerie instantanée et de l’intégrati
 
 3.  Exécutez **Enable-CsTopology**.
 
-4.  Dans le concepteur de topologies, dans le volet gauche, développez l’arborescence jusqu’à ce que vous atteigniez des **serveurs d’application approuvés**.
+4.  Dans le Générateur de topologie, dans le volet gauche, développez l’arborescence jusqu’à ce que vous atteigniez **Serveurs d’applications approuvées**.
 
-5.  Développez le nœud **serveurs d’applications de confiance** .
+5.  Développez le nœud **Serveurs d’applications approuvées**.
 
-6.  Le serveur Exchange 2013 CAS est désormais répertorié comme serveur d’applications de confiance.
+6.  Vous devez maintenant voir le serveur CAS Exchange 2013 mentionné en tant que serveur d’applications approuvées.
 
 </div>
 

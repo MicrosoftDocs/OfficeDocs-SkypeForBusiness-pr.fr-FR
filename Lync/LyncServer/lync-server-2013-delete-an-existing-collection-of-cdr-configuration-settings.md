@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer une collection existante de paramètres de configuration de CDR'
+title: 'Lync Server 2013 : suppression d’une collection existante de paramètres de configuration CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50df73d59c588094693009ab4c84f2a7809ba5f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82170cf695136694588721a0b4e7e63c5c7dd618
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737434"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration de CDR dans Lync Server 2013
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration CDR dans Lync Server 2013
 
 </div>
 
@@ -39,31 +39,31 @@ _**Dernière modification de la rubrique :** 2013-02-23_
 
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
 
-Lorsque vous installez Microsoft Lync Server 2013, une collection globale unique de paramètres de configuration de CDR est créée pour vous. Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels. Par conception, les paramètres configurés sur l’étendue Site sont prioritaires sur les paramètres configurés sur l’étendue Global. Si vous supprimez les paramètres sur l’étendue Site, les enregistrements des détails des appels seront gérés dans ce site en utilisant les paramètres globaux.
+Lorsque vous installez Microsoft Lync Server 2013, une seule collection globale de paramètres de configuration CDR est créée pour vous. Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels. Par défaut, les paramètres configurés au niveau du site ont priorité sur les paramètres configurés au niveau global. Si vous supprimez les paramètres au niveau du site, l’enregistrement des détails des appels sera géré dans ce site à l’aide des paramètres globaux.
 
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, le vidage est, par défaut, activé dans une collection de paramètres de configuration CDR. Si vous modifiez la collection globale afin que le vidage soit désactivé, et que vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que le vidage sera de nouveau activé.
 
-Vous pouvez supprimer des paramètres de configuration de CDR en utilisant le panneau de configuration de Lync Server ou l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
+Vous pouvez supprimer les paramètres de configuration CDR à l’aide du panneau de configuration Lync Server ou de la cmdlet [Remove-applet cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
 
 <div>
 
-## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>Pour supprimer les paramètres de configuration de CDR avec le panneau de configuration de Lync Server
+## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>Pour supprimer les paramètres de configuration CDR avec le panneau de configuration Lync Server
 
-1.  Dans le panneau de configuration de Lync Server, cliquez sur **surveillance et archivage**.
+1.  Dans le panneau de configuration Lync Server, cliquez sur **surveillance et archivage**.
 
 2.  Sous l’onglet **Enregistrement des détails des appels**, sélectionnez la collection (ou les collections) de paramètres CDR à supprimer. Pour sélectionner plusieurs collections, cliquez sur la première collection, maintenez la touche Ctrl enfoncée, puis cliquez sur les autres.
 
 3.  Cliquez sur **Modifier**, puis sur **Supprimer**.
 
-4.  Dans la boîte de dialogue panneau de configuration de Lync Server, cliquez sur **OK**.
+4.  Dans la boîte de dialogue Lync Server, panneau de configuration, cliquez sur **OK**.
 
 </div>
 
 <div>
 
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de CDR à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration CDR à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration de l’enregistrement des détails des appels à l’aide de Windows PowerShell et de l’applet de contrôle **Remove-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez supprimer les paramètres de configuration de l’enregistrement des détails des appels à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet cscdrconfiguration** . Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
@@ -77,7 +77,7 @@ Vous pouvez supprimer des paramètres de configuration de l’enregistrement des
 
 <div>
 
-## <a name="to-remove-all-the-cdr-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration CDR appliqués au niveau du site
+## <a name="to-remove-all-the-cdr-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration CDR appliqués à l’étendue site
 
   - Cette commande supprime tous les paramètres de configuration CDR appliqués au niveau du site :
     
@@ -95,7 +95,7 @@ Vous pouvez supprimer des paramètres de configuration de l’enregistrement des
 
 </div>
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-applet cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
 
 </div>
 

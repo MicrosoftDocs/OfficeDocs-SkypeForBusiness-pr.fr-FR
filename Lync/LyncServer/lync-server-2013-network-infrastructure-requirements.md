@@ -1,5 +1,5 @@
 ---
-title: Configurations requises pour l’infrastructure réseau de Lync Server 2013
+title: Configuration requise pour l’infrastructure réseau de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcded907075b6587eb62ea8b6b76566c4f29ac87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93e68a7aecd8c1390993d25d23668813cad0abbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765915"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,46 +37,46 @@ ms.locfileid: "41765915"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-La carte réseau de chaque serveur dans la topologie Lync Server 2013 doit prendre en charge au moins 1 Gbit/s (Gbps). En règle générale, vous devez connecter tous les rôles de serveur dans la topologie du serveur Lync à l’aide d’un réseau local (LAN) à faible latence et de haut débit. La taille du réseau local dépend de la taille de la topologie :
+La carte réseau de chaque serveur de la topologie Lync Server 2013 doit prendre en charge au moins 1 Gigabit par seconde (Gbits/s). En général, vous devez connecter tous les rôles serveur au sein de la topologie Lync Server à l’aide d’une faible latence et d’un réseau local à bande passante élevée (LAN). La taille du réseau local dépend de la taille de la topologie :
 
-  - Dans les topologies Standard Edition, les serveurs doivent se trouver dans un réseau qui prend en charge Ethernet 1 Gbit ou équivalent.
+  - Dans les topologies Standard Edition, les serveurs doivent se trouver dans un réseau prenant en charge 1 Gbits/s ou équivalent.
 
-  - Dans les topologies de pool frontal, la plupart des serveurs doivent se trouver dans un réseau qui prend en charge plus de 1 Gbit/s, en particulier lors de la prise en charge du partage d’applications et de conférences audio/vidéo (A/V).
+  - Dans les topologies de pool frontal, la plupart des serveurs doivent se trouver dans un réseau prenant en charge plus de 1 Gbits/s, en particulier lors de la prise en charge de la conférence audio/vidéo (A/V) et du partage d’applications.
 
-Dans le cas de l'intégration au réseau téléphonique commuté (RTC ou, en anglais, PSTN pour Public Switched Telephone Network), vous pouvez utiliser les lignes T1/E1 ou les jonctions SIP.
+Pour l’intégration d’un réseau téléphonique commuté (PSTN), vous pouvez intégrer à l’aide de lignes T1/E1 ou de jonctions SIP.
 
 <div>
 
-## <a name="audiovideo-network-requirements"></a>Configuration requise du réseau audio/vidéo
+## <a name="audiovideo-network-requirements"></a>Configuration requise pour le réseau audio/vidéo
 
-La configuration réseau requise pour les appels audio/vidéo (A/V) dans un déploiement Lync Server inclut les éléments suivants :
+La configuration réseau requise pour l’audio/vidéo (A/V) dans un déploiement Lync Server inclut les éléments suivants :
 
-  - Si vous déployez un serveur Edge unique ou un pool Edge à l’aide de l’équilibrage de charge DNS, vous pouvez configurer le pare-feu externe en tant que NAT. Vous ne pouvez pas configurer le pare-feu interne en tant que NAT. Pour plus d’informations sur ces exigences, voir [déterminer la configuration requise pour le pare-feu A/V et la configuration de port pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) dans la documentation de planification.
+  - Si vous déployez un serveur Edge unique ou un pool de serveurs Edge à l’aide de l’équilibrage de charge DNS, vous pouvez configurer le pare-feu externe en tant que NAT. Vous ne pouvez pas configurer le pare-feu interne en tant que NAT. Pour plus d’informations sur ces conditions requises, voir [determine External A/V Firewall and Port Requirements for Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) dans la documentation de planification.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si vous disposez d’un pool Edge et que vous utilisez un dispositif d’équilibrage de la charge matérielle, vous devez utiliser des adresses IP publiques sur chacun des serveurs de périphérie et vous ne pouvez pas utiliser la traduction d’adresses réseau pour les serveurs ou le pool sur votre appareil NAT (par exemple, le pare-feu ou un autre appareil d’infrastructure qui aurait pour tar Inbou trafic ND ou sortant). Pour plus d’informations, reportez-vous à la section <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé de port-bordure consolidée mise en plan avec des équilibreurs de charge matérielle dans Lync Server 2013</A> dans la documentation relative à l’accès des utilisateurs externes.
+    > Si vous avez un pool de serveurs Edge et que vous utilisez un programme d’équilibrage de la charge matérielle, vous devez utiliser des adresses IP publiques sur chaque serveur Edge et vous ne pouvez pas utiliser la traduction d’adresses réseau pour les serveurs ou le pool sur votre périphérique NAT (par exemple, le pare-feu ou un autre périphérique d’infrastructure qui serait Inbou trafic ND ou trafic sortant). Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports-serveur Edge consolidé ajusté avec des programmes d’équilibrage de la charge matérielle dans Lync Server 2013</A> dans la documentation sur la planification de l’accès des utilisateurs externes.
 
     
     </div>
 
   - Si votre organisation utilise une infrastructure de qualité de service (QoS), le sous-système multimédia est compatible avec cette infrastructure.
 
-  - Si vous utilisez le protocole IPSec, nous vous recommandons de le désactiver sur les plages de ports utilisées pour le trafic A/V. Pour plus d’informations, reportez-vous à la section [exceptions IPSec dans Lync Server 2013](lync-server-2013-ipsec-exceptions.md) dans la documentation de planification.
+  - Si vous utilisez la sécurité du protocole Internet (IPsec), nous vous recommandons de désactiver IPsec sur les plages de ports utilisées pour le trafic A/V. Pour plus d’informations, reportez-vous à la rubrique [IPSec exceptions in Lync Server 2013](lync-server-2013-ipsec-exceptions.md) dans la documentation de planification.
 
-Pour garantir une qualité multimédia optimale, procédez comme suit :
+Pour garantir une qualité des médias optimale, procédez comme suit :
 
-  - Mise en service de vos liens réseau pour prendre en charge le débit de 65 kilobits par seconde (kbps) par flux audio et 500 kbps par flux vidéo, s’il est activé, pendant les périodes d’utilisation maximale. Une session audio ou vidéo bidirectionnelle est composée de deux flux.
+  - Configurez vos liens réseau pour qu’ils prennent en charge un débit de 65 kilobits par seconde (Kbits/s) par flux audio et 500 Kbits/s par flux vidéo, s’ils sont activés, pendant les périodes d’utilisation maximale. Une session audio ou vidéo bidirectionnelle est composée de deux flux.
 
-  - Pour gérer les pics inattendus du trafic au-dessus de ce niveau et augmenter l’utilisation au fil du temps, les points de terminaison Lync Server Media peuvent s’adapter à des conditions de réseau variables et prendre en charge des charges de trois fois le débit (voir le paragraphe précédent) pour les appels audio et vidéo, tout en restant conservation de la qualité acceptable. Toutefois, ne supposez pas que cette capacité d’adaptation prend en charge un réseau sous-approvisionné. Dans un réseau sous-approvisionné, la capacité des points de terminaison Lync Server Media d’une manière dynamique avec des conditions de réseau variables (par exemple, une perte de paquets de grande durée temporaire) est réduite.
+  - Pour faire face à des pics inattendus dans le trafic au-dessus de ce niveau et une utilisation accrue au fil du temps, les points de terminaison Lync Server Media peuvent s’adapter à des conditions de réseau variables et prendre en charge des charges de trois fois le débit (voir paragraphe précédent) pour l’audio et la vidéo, tout en restant conservation de la qualité acceptable. Toutefois, ne partez pas du principe que cette adaptabilité prend en charge un réseau sous-configuré. Dans un réseau sous-configuré, la capacité des points de terminaison multimédia Lync Server à traiter dynamiquement des conditions réseau variables (par exemple, une perte de paquets élevée temporaire) est réduite.
 
-  - Pour les liens réseau dans lesquels la mise en service est extrêmement onéreuse et difficile, il est possible que vous deviez envisager la mise en service pour un volume inférieur de trafic. Dans ce scénario, l’élasticité des points de terminaison de Lync Server Media absorbe la différence entre le volume de trafic et le niveau de trafic de pointe, au coût d’une diminution de la qualité de la voix. Par ailleurs, il y a une diminution de l’impasse de la hauteur pour absorber les crêtes soudaines du trafic.
+  - Pour les liaisons réseau où la mise en service est extrêmement coûteuse et difficile, vous devrez peut-être envisager la mise en service d’un volume de trafic inférieur. Dans ce scénario, l’élasticité des points de terminaison de Lync Server Media absorbe la différence entre le volume de trafic et le niveau de trafic maximal, au prix d’une réduction de la qualité de la voix. De plus, il y a une diminution de la hauteur suffisante autrement pour absorber les pics soudains dans le trafic.
 
-  - Pour les liens qui ne peuvent pas être configurés correctement en courte durée (par exemple, un site avec de très mauvaises liaisons WAN), envisagez de désactiver la vidéo pour certains utilisateurs.
+  - Pour les liens qui ne peuvent pas être correctement configurés à court terme (par exemple, un site avec des liaisons de réseau étendu très médiocres), envisagez de désactiver la vidéo pour certains utilisateurs.
 
-  - Mise en service de votre réseau pour garantir un délai de bout en bout maximal (latence) de 150 millisecondes (MS) en faible charge. La latence correspond à une déficience du réseau qui empêche les composants multimédias de Lync Server de réduire, et il est important de rechercher et d’éliminer les points faibles.
+  - Approvisionnez votre réseau pour garantir un retard de bout en bout de 150 millisecondes (MS) en dessous de la charge maximale. La latence est l’une des altérations de réseau que les composants multimédias de Lync Server ne peuvent pas réduire, et il est important de trouver et d’éliminer les points faibles.
 
   - Pour les serveurs exécutant un logiciel antivirus, incluez tous les serveurs exécutant Lync Server dans la liste des exceptions afin de fournir des performances et une qualité audio optimales.
 
@@ -84,9 +84,9 @@ Pour garantir une qualité multimédia optimale, procédez comme suit :
 
 <div>
 
-## <a name="conferencing-network-requirements"></a>Configuration réseau requise
+## <a name="conferencing-network-requirements"></a>Configuration requise pour le réseau de conférence
 
-La bande passante utilisée pour télécharger le contenu de la Conférence à partir du serveur IIS (Internet Information Services) dépend de la taille du contenu chargé.
+La bande passante utilisée pour télécharger le contenu de conférence à partir du serveur IIS (Internet Information Services) dépend de la taille du contenu téléchargé.
 
 </div>
 

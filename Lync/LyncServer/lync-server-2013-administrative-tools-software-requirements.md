@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration logicielle requise pour les outils d’administration'
+title: 'Lync Server 2013 : configuration logicielle requise pour les outils d’administration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a3f174b4f699add911149128e3d7d48aa00e1c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44395f820d8837bddbf03ac903a7baa811cab842
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737954"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41737954"
 
 _**Dernière modification de la rubrique :** 2013-11-07_
 
-Cette rubrique décrit les logiciels requis pour installer et utiliser les outils d’administration de Lync Server 2013 en plus de la configuration requise du système d’exploitation.
+Cette rubrique décrit les logiciels requis pour installer et utiliser les outils d’administration Lync Server 2013 en plus de la configuration requise pour le système d’exploitation.
 
 <div>
 
-## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
+## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
 L’édition 64 bits de Microsoft .NET Framework 4,5 est requise pour Lync Server 2013.
 
@@ -51,17 +51,17 @@ L’édition 64 bits de Microsoft .NET Framework 4,5 est requise pour Lync Serve
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-Windows PowerShell 3,0 est requis pour l’exécution de tous les composants de Microsoft Lync Server 2013. Pour plus d’informations, voir [installation de Windows PowerShell 3,0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+Windows PowerShell 3,0 est requis pour l’exécution de n’importe quel composant de Microsoft Lync Server 2013. Pour plus d’informations, consultez la rubrique [installation de Windows PowerShell 3,0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
 </div>
 
 <div>
 
-## <a name="windows-installer-version-45"></a>Windows Installer version 4,5
+## <a name="windows-installer-version-45"></a>Windows Installer version 4.5
 
-Lync Server 2013 utilise la technologie Windows Installer pour installer, désinstaller et gérer divers rôles de serveur. La version 4,5 de Windows Installer est disponible en tant que composant redistribuable pour le système d’exploitation Windows Server. Windows Installer 4,5 est fourni avec Windows Server 2012 R2, Windows Server 2012 et Windows Server 2008 R2, ce qui signifie que vous n’avez pas besoin de télécharger l’utilitaire pour les ordinateurs exécutant Lync Server 2013. (Lync Server 2013 ne peut être installé que sur les ordinateurs exécutant Windows Server 2012 R2, Windows Server 2012 ou Windows Server 2008 R2.)
+Lync Server 2013 utilise la technologie Windows Installer pour installer, désinstaller et gérer différents rôles serveur. Windows Installer version 4.5 est disponible sous forme de composant redistribuable pour le système d’exploitation Windows Server. Windows Installer 4,5 est fourni avec Windows Server 2012 R2, Windows Server 2012 et Windows Server 2008 R2, ce qui signifie que vous n’avez pas besoin de télécharger l’utilitaire pour un ordinateur exécutant Lync Server 2013. (Lync Server 2013 ne peut être installé que sur des ordinateurs exécutant Windows Server 2012 R2, Windows Server 2012 ou Windows Server 2008 R2.)
 
-Toutefois, si vous voulez installer Lync Server Management Shell ou le générateur de topologie de Lync Server sur une station de travail administrateur, vous devrez peut-être télécharger le programme d’installation 4,5. Cet utilitaire est fourni avec Windows 7 et Windows 2008 R2, mais pas pour les versions antérieures du système d’exploitation Windows. Vous pouvez télécharger Windows Installer 4,5 à partir du centre de téléchargement <http://go.microsoft.com/fwlink/p/?linkid=197395>Microsoft à l’adresse.
+Toutefois, si vous souhaitez installer Lync Server Management Shell ou le générateur de topologie Lync Server sur une station de travail administrateur, vous devrez peut-être Télécharger Windows Installer 4,5. Cet utilitaire est fourni avec Windows 7 et Windows 2008 R2, mais pas avec les versions précédentes du système d’exploitation Windows. Vous pouvez télécharger Windows Installer 4,5 à partir du centre de téléchargement <http://go.microsoft.com/fwlink/p/?linkid=197395>Microsoft à l’adresse.
 
 </div>
 
@@ -69,7 +69,7 @@ Toutefois, si vous voulez installer Lync Server Management Shell ou le générat
 
 ## <a name="microsoft-silverlight-5-browser-plug-in"></a>Plug-in de navigateur Microsoft Silverlight 5
 
-Le panneau de configuration de Lync Server 2013 est un outil Web qui nécessite l’installation de la dernière version du plug-in de navigateur Microsoft Silverlight 5. Lorsque vous démarrez le panneau de configuration de Lync Server 2013, si ce logiciel n’est pas installé ou si vous avez installé une version antérieure, le panneau de configuration de Lync Server 2013 vous invite à installer la version requise.
+Le panneau de configuration Lync Server 2013 est un outil Web qui nécessite l’installation de la dernière version du plug-in de navigateur Microsoft Silverlight 5. Lorsque vous démarrez le panneau de configuration Lync Server 2013, si ce logiciel n’est pas installé ou si une version antérieure est installée, le panneau de configuration Lync Server 2013 vous invite à installer la version requise.
 
 </div>
 
@@ -78,10 +78,10 @@ Le panneau de configuration de Lync Server 2013 est un outil Web qui nécessite 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)  
+[Serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)  
 
 
-[Exigences d’infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md)  
+[Configuration requise pour l’infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md)  
 [Droits et autorisations d’administrateur requis pour la configuration et l’administration de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 

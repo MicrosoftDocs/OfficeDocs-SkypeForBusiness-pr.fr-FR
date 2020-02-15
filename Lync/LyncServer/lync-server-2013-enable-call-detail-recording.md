@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activer l’enregistrement des détails des appels'
+title: 'Lync Server 2013 : activation de l’enregistrement des détails des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b033827600fc962ab5ea9df5c8848ed1533c75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65627b4144ff447b92a8be49d23b73cbaf87993a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729364"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,7 +45,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 
 > [!NOTE]  
-> Pour activer l’enregistrement des détails des appels, vous devez configurer la surveillance et une base de données de surveillance. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-monitoring.md">déploiement de la surveillance dans Lync Server 2013</A>.
+> Pour activer l’enregistrement des détails des appels, vous devez configurer la surveillance et une base de données de surveillance. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-monitoring.md">Deploying Monitoring in Lync Server 2013</A>.
 
 
 
@@ -53,11 +53,11 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 <div>
 
-## <a name="to-enable-cdr-with-lync-server-control-panel"></a>Pour activer le CDR avec le panneau de configuration de Lync Server
+## <a name="to-enable-cdr-with-lync-server-control-panel"></a>Pour activer l’enregistrement des détails des appels dans le panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis cliquez sur **Enregistrement des détails des appels**.
 
@@ -76,9 +76,9 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 <div>
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Activation de CDR à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Activation des enregistrements des détails des appels à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **de passe Set-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez activer les enregistrements des détails des appels à l’aide de Windows PowerShell et de l’applet de commande **Set-applet cscdrconfiguration** . Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
@@ -94,7 +94,7 @@ Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **
 
 ## <a name="to-disable-cdr-for-a-single-location"></a>Pour désactiver l’enregistrement des détails des appels pour un seul site
 
-  - Pour désactiver l’enregistrement des détails des appels, attribuez au paramètre EnableCDR la valeur False ($False). Cette désactivation n’a pas pour effet de désinstaller la surveillance ; il interrompt la collecte et le stockage des données d’enregistrement des détails des appels.
+  - Pour désactiver l’enregistrement des détails des appels, attribuez au paramètre EnableCDR la valeur False ($False). La désactivation de l’enregistrement des détails des appels ne désinstalle pas la surveillance. Il suspend la collecte et le stockage des données CDR.
     
         Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 
@@ -110,7 +110,7 @@ Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-applet cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
 
 </div>
 

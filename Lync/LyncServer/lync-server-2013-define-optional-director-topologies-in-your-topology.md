@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition des topologies facultatives de directeur dans votre topologie'
+title: 'Lync Server 2013 : définition de topologies facultatives de directeur dans votre topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1da76c885eb290673836f518ab9a1bac9e516c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Définition des topologies facultatives de directeur dans votre topologie pour Lync Server 2013
+# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Définir des topologies facultatives de directeur dans votre topologie pour Lync Server 2013
 
 </div>
 
@@ -37,56 +37,56 @@ ms.locfileid: "41728384"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Les directeurs Lync Server 2013 peuvent être des serveurs à instance unique qui peuvent être installés en tant que pool équilibré en charge de plusieurs directeurs pour une disponibilité et une capacité plus élevées. L’équilibrage de charge matérielle et l’équilibrage de charge DNS (Domain Name System) sont pris en charge. Cet article explique comment configurer l’équilibrage de charge DNS pour les pools de directeurs.
+Les directeurs Lync Server 2013 peuvent être des serveurs à instance unique ou être installés en tant que pool à charge équilibrée de plusieurs directeurs pour une disponibilité et une capacité supérieures. L’équilibrage de la charge matérielle et de la charge DNS sont tous deux pris en charge. Cette rubrique explique comment configurer l’équilibrage de la charge DNS pour les pools directeurs.
 
-Pour réussir la publication, l’activation ou la désactivation d’une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes **RTCUniversalServerAdmins** et **Admins du domaine** . Vous pouvez également déléguer les droits d’administrateur et les autorisations appropriés pour ajouter des rôles de serveur. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement Standard Edition Server ou Enterprise Edition Server. Pour les autres modifications de configuration, seule l’appartenance au groupe **RTCUniversalServerAdmins** est requise.
+Pour réussir à publier, activer ou désactiver une topologie lorsque vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes **RTCUniversalServerAdmins** et **Domain Admins**. Il est également possible de déléguer les droits et les autorisations d’administrateur appropriés pour ajouter des rôles serveur. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement du serveur Standard Edition Server ou Enterprise Edition. En ce qui concerne les autres modifications de configuration, seule l’appartenance au groupe **RTCUniversalServerAdmins** est requise.
 
-Cette rubrique décrit les étapes permettant de définir et de publier la topologie pour les deux topologies de Director :
+Cette rubrique décrit les étapes à suivre pour définir et publier la topologie pour les deux topologies de directeur :
 
   - Pour définir le directeur (instance unique)
 
-  - Pour définir le directeur (pool de directeurs multiples)
+  - Pour définir le directeur (pool de plusieurs directeurs)
 
 <div>
 
 ## <a name="to-define-the-director-single-instance"></a>Pour définir le directeur (instance unique)
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans la page Bienvenue, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
+2.  Dans la page d’accueil, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
 
-3.  Dans la boîte de dialogue **enregistrer la topologie en tant que** , entrez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
+3.  Dans la boîte de dialogue **Enregistrer la topologie sous**, tapez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
 
-4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, cliquez avec le bouton droit sur **pools de réalisateurs**, puis cliquez sur **nouvelle liste de répertoires**.
+4.  Développez le site dans lequel vous planifiez d’ajouter le directeur , cliquez avec le bouton droit sur **Pools directeurs**, puis cliquez sur **Nouveau pool directeur**.
 
-5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool de répertoires** , procédez comme suit :
+5.  Dans la boîte de dialogue **Définir le nom de domaine complet du pool directeur**, procédez comme suit :
     
-      - Dans **nom de domaine complet (FQDN**) du pool, tapez le nom de domaine complet (FQDN) du pool
+      - Dans **Nom de domaine complet du pool**, tapez le nom de domaine complet du pool directeur.
     
-      - Cliquez sur **pool d’ordinateurs unique**, puis sur **suivant**.
+      - Cliquez sur **Pool d’un seul ordinateur**, puis sur **Suivant**.
 
-6.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes :
+6.  Dans la boîte de dialogue **Définir le partage de fichiers**, effectuez l’une des opérations suivantes :
     
-    1.  Pour utiliser un partage de fichier existant, cliquez sur **utiliser un partage de fichiers déjà défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **suivant**.
+    1.  Pour utiliser un partage de fichiers existant, cliquez sur **Utiliser un partage de fichiers précédemment défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **Suivant**.
     
-    2.  Pour créer un nouveau partage de fichiers, cliquez sur **définir un nouveau partage de fichier**, tapez le nom de domaine complet (FQDN) de l’emplacement du partage de fichiers dans **nom de domaine complet du serveur de fichiers**, tapez le nom du partage dans partage de **fichiers**, puis cliquez sur **suivant**.
+    2.  Pour créer un partage de fichiers, cliquez sur **Définir un nouveau partage de fichiers**, tapez le nom de domaine complet de l’emplacement du partage de fichiers dans **Nom de domaine complet du serveur de fichiers**, tapez le nom du partage dans **Partage de fichiers**, puis cliquez sur **Suivant**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Le partage de fichiers que vous spécifiez ou créez dans cette étape doit exister ou être créé avant la publication de la topologie.<BR>Le partage de fichiers attribué à un directeur n’est pas utilisé pour vous permettre d’affecter le partage de fichiers de n’importe quel pool au sein de l’organisation.
+    > Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<BR>Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.
 
     
     </div>
 
-7.  Dans la boîte de dialogue **spécifier l’URL du service Web** , dans **URL de base externe**, spécifiez le nom de domaine complet (FQDN) pour les directeurs, puis cliquez sur **Terminer**.
+7.  Dans la boîte de dialogue **Spécifier l’URL des services Web**, dans **URL de base externe**, spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et pointe vers l’adresse IP publique du proxy inverse, qui écoute les demandes HTTP/HTTPs à cette URL et les transmet au répertoire virtuel des services Web externes de ce réalisateur.
+    > Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les transmet via le serveur proxy au répertoire virtuel des services web externes sur ce directeur.
 
     
     </div>
@@ -95,7 +95,7 @@ Cette rubrique décrit les étapes permettant de définir et de publier la topol
     
 
     > [!WARNING]  
-    > Si vous avez plusieurs pools front-end ou serveur frontal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de directeurs, ainsi que sur n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de réalisateur.
+    > Si vous avez plusieurs pools frontaux ou serveurs frontaux, le nom de domaine complet (FQDN) des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour tout directeur ou pool directeur doit être unique à partir d’un autre directeur ou pool Directeur, ainsi que d’un pool frontal ou d’un serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet indépendant, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
     
     </div>
@@ -106,50 +106,50 @@ Cette rubrique décrit les étapes permettant de définir et de publier la topol
 
 <div>
 
-## <a name="to-define-the-director-multiple-director-pool"></a>Pour définir le directeur (pool de directeurs multiples)
+## <a name="to-define-the-director-multiple-director-pool"></a>Pour définir le directeur (pool de plusieurs directeurs)
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans la page Bienvenue, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
+2.  Dans la page d’accueil, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
 
-3.  Dans la boîte de dialogue **enregistrer la topologie en tant que** , entrez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
+3.  Dans la boîte de dialogue **Enregistrer la topologie sous**, tapez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
 
-4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, cliquez avec le bouton droit sur **pools de réalisateurs**, puis cliquez sur **nouvelle liste de répertoires**.
+4.  Développez le site dans lequel vous planifiez d’ajouter le directeur , cliquez avec le bouton droit sur **Pools directeurs**, puis cliquez sur **Nouveau pool directeur**.
 
-5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool de répertoires** , procédez comme suit :
+5.  Dans la boîte de dialogue **Définir le nom de domaine complet du pool directeur**, procédez comme suit :
     
-      - Dans **nom de domaine complet (FQDN**) du pool, tapez le nom de domaine complet (FQDN) du pool
+      - Dans **Nom de domaine complet du pool**, tapez le nom de domaine complet du pool directeur.
     
-      - Cliquez sur **plusieurs pools d’ordinateurs**, puis cliquez sur **suivant**.
+      - Cliquez sur **Pool de plusieurs ordinateurs**, puis sur **Suivant**.
 
-6.  Dans la boîte de dialogue **définir les ordinateurs dans cette liste** , procédez comme suit :
+6.  Dans la boîte de dialogue **Définissez les ordinateurs inclus dans ce pool**, procédez comme suit :
     
-      - Spécifiez le nom de domaine complet du premier membre de la liste, puis cliquez sur **Ajouter**.
+      - Spécifiez le nom de domaine complet d’ordinateur du premier membre du pool, puis cliquez sur **Ajouter**.
     
-      - Répétez l’étape précédente pour chaque ordinateur que vous voulez ajouter. Lorsque vous avez terminé, cliquez sur **suivant**.
+      - Répétez l’étape précédente pour chaque ordinateur à ajouter. Lorsque vous avez terminé, cliquez sur **Suivant**.
 
-7.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes :
+7.  Dans la boîte de dialogue **Définir le partage de fichiers**, effectuez l’une des opérations suivantes :
     
-      - Pour utiliser un partage de fichier existant, cliquez sur **utiliser un partage de fichiers déjà défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **suivant**.
+      - Pour utiliser un partage de fichiers existant, cliquez sur **Utiliser un partage de fichiers précédemment défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **Suivant**.
     
-      - Pour créer un nouveau partage de fichiers, cliquez sur **définir un nouveau partage de fichier**, tapez le nom de domaine complet (FQDN) de l’emplacement du partage de fichiers dans **nom de domaine complet du serveur de fichiers**, tapez le nom du partage dans partage de **fichiers**, puis cliquez sur **suivant**.
+      - Pour créer un partage de fichiers, cliquez sur **Définir un nouveau partage de fichiers**, tapez le nom de domaine complet de l’emplacement du partage de fichiers dans **Nom de domaine complet du serveur de fichiers**, tapez le nom du partage dans **Partage de fichiers**, puis cliquez sur **Suivant**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Le partage de fichiers que vous spécifiez ou créez dans cette étape doit exister ou être créé avant la publication de la topologie.<BR>Le partage de fichiers attribué à un directeur n’est pas utilisé pour vous permettre d’affecter le partage de fichiers de n’importe quel pool au sein de l’organisation.
+    > Le partage de fichiers que vous spécifiez ou créez à cette étape doit exister ou être créé avant de publier la topologie.<BR>Le partage de fichiers attribué à un directeur n’est pas utilisé, si bien que vous pouvez attribuer le partage de fichiers de n’importe quel pool dans l’entreprise.
 
     
     </div>
 
-8.  Dans la boîte de dialogue **spécifier l’URL du service Web** , dans **URL de base externe**, spécifiez le nom de domaine complet (FQDN) pour les directeurs, puis cliquez sur **Terminer**.
+8.  Dans la boîte de dialogue **Spécifier l’URL des services Web**, dans **URL de base externe**, spécifiez le nom de domaine complet des directeurs, puis cliquez sur **Terminer**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Ce nom ne doit pas être résolu à partir des serveurs DNS Internet et pointe vers l’adresse IP publique du proxy inverse, qui écoute les requêtes HTTP/HTTPs envoyées à cette URL et les transmet au répertoire virtuel des services Web externes dans ce pool de répertoires.
+    > Le nom doit pouvoir être résolu à partir des serveurs DNS Internet et doit pointer vers l’adresse IP publique du proxy inverse. Celui-ci écoute les demandes HTTP/HTTPS envoyées à cette URL et les redirige via proxy au répertoire virtuel des services Web externes sur ce pool directeur.
 
     
     </div>
@@ -158,7 +158,7 @@ Cette rubrique décrit les étapes permettant de définir et de publier la topol
     
 
     > [!WARNING]  
-    > Si vous avez plusieurs pools front-end ou serveur frontal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de directeurs, ainsi que sur n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de réalisateur.
+    > Si vous avez plusieurs pools frontaux ou serveurs frontaux, le nom de domaine complet (FQDN) des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour tout directeur ou pool directeur doit être unique à partir d’un autre directeur ou pool Directeur, ainsi que d’un pool frontal ou d’un serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet indépendant, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
     
     </div>

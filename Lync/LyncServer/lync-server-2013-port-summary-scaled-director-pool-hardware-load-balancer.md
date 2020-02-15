@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des ports - Pool directeur mis à l’échelle, équilibreur de charge matérielle'
+title: 'Lync Server 2013 : Résumé des ports-pool directeur mis à l’ampleur, équilibreur de charge matérielle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdf054ee603f2c0917e35bdd2f19d108094c7c78
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 18c0957d66d9b877a67819b8fd8d46d4e614cdad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747504"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé des ports - Pool directeur mis à l’échelle, équilibreur de charge matérielle dans Lync Server 2013
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Résumé des ports-pool directeur mis à l’ampleur, équilibreur de charge matérielle dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41747504"
 
 _**Dernière modification de la rubrique :** 2012-10-21_
 
-La configuration requise pour les ports de pare-feu pour un pool de directeurs est composée des ports utilisés pour établir une communication avec le directeur à partir de l’interface interne du serveur Edge ou de l’interface interne du proxy inverse. Microsoft Lync Server 2013 par défaut s’attend à ce que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts du proxy inverse au directeur, ainsi qu’au pool frontal et au serveur frontal. Par ailleurs, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge au directeur et au serveur principal et au pool frontal. Le protocole SIP utilise SIP/MTLS/TCP 5061 du serveur Edge au pool frontal et au serveur frontal. Une règle qui autorise la communication SIP/MTLS/TCP 5061 à partir du réalisateur, du pool frontal et du serveur frontal vers l’interface interne du serveur Edge doit également être créée.
+Les exigences de port de pare-feu pour un pool directeur consistent en des ports utilisés pour établir la communication avec le directeur à partir de l’interface interne du serveur Edge ou de l’interface interne du proxy inverse. Microsoft Lync Server 2013 attend par défaut que les ports HTTP/TCP 8080 et HTTPs/TCP 4443 soient ouverts depuis le proxy inverse vers le directeur, ainsi que le pool frontal et le serveur frontal. En outre, il doit y avoir une communication SIP (Session Initiation Protocol) à partir de l’interface interne du serveur Edge vers le directeur et vers le pool frontal et le serveur frontal. Le protocole SIP utilise SIP/MTLS/TCP 5061 à partir du serveur Edge vers le pool frontal et le serveur frontal. Une règle qui autorise la communication SIP/MTLS/TCP 5061 depuis le directeur, le pool frontal et le serveur frontal vers l’interface interne du serveur Edge doit également être créée.
 
-### <a name="director-ports-and-protocols-for-firewall-definitions"></a>Ports et protocoles de Director pour les définitions de pare-feu
+### <a name="director-ports-and-protocols-for-firewall-definitions"></a>Ports et protocoles de directeur pour les définitions de pare-feu
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ La configuration requise pour les ports de pare-feu pour un pool de directeurs e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rôles/protocole/TCP ou UDP/Port</th>
+<th>Rôle/Protocole/TCP ou UDP/Port</th>
 <th>Adresse IP source</th>
 <th>Adresse IP de destination</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP/TCP 8080</p></td>
-<td><p>Interface interne du proxy inverse</p></td>
-<td><p>Adresse VIP de l’équilibrage de charge matérielle Director</p></td>
-<td><p>Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée aux services Internet de Director HLB VIP et aux services Web des serveurs frontaux.</p></td>
+<td><p>HTTP/TCP 8080</p></td>
+<td><p>Interface interne de proxy inverse</p></td>
+<td><p>Adresse IP du programme d’équilibrage de la charge matérielle directeur</p></td>
+<td><p>Initialement reçue par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur charge matérielle VIP et serveurs frontaux.</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP 4443</p></td>
-<td><p>Interface interne du proxy inverse</p></td>
-<td><p>Adresse VIP de l’équilibrage de charge matérielle Director</p></td>
-<td><p>Initialement reçues par le côté extérieur du proxy inverse, la communication est envoyée aux services Internet de Director HLB VIP et aux services Web des serveurs frontaux.</p></td>
+<td><p>HTTPS/TCP 4443</p></td>
+<td><p>Interface interne de proxy inverse</p></td>
+<td><p>Adresse IP du programme d’équilibrage de la charge matérielle directeur</p></td>
+<td><p>Initialement reçue par le côté externe du proxy inverse, la communication est envoyée aux services Web du directeur charge matérielle VIP et serveurs frontaux.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 444</p></td>
-<td><p>directeur</p></td>
-<td><p>Serveur frontal ou liste de front-end</p></td>
-<td><p>Communication entre serveur entre le directeur HLB VIP et les serveurs frontaux</p></td>
+<td><p>HTTPS/TCP 444</p></td>
+<td><p>48000b</p></td>
+<td><p>Serveur frontal ou pool frontal</p></td>
+<td><p>Communication entre le directeur charge matérielle VIP et les serveurs frontaux</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP/TCP 80</p></td>
+<td><p>HTTP/TCP 80</p></td>
 <td><p>Clients internes</p></td>
-<td><p>Adresse VIP de l’équilibrage de charge matérielle Director</p></td>
-<td><p>Le directeur fournit des services Web aux clients externes et internes.</p></td>
+<td><p>Adresse IP du programme d’équilibrage de la charge matérielle directeur</p></td>
+<td><p>Le directeur fournit des services Web aux clients internes et externes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 443</p></td>
+<td><p>HTTPS/TCP 443</p></td>
 <td><p>Clients internes</p></td>
-<td><p>Adresse VIP de l’équilibrage de charge matérielle Director</p></td>
-<td><p>Le directeur fournit des services Web aux clients externes et internes.</p></td>
+<td><p>Adresse IP du programme d’équilibrage de la charge matérielle directeur</p></td>
+<td><p>Le directeur fournit des services Web aux clients internes et externes.</p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP 5061</p></td>
+<td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Interface interne du serveur Edge</p></td>
-<td><p>Adresse VIP de l’équilibrage de charge matérielle Director</p></td>
-<td><p>Communication SIP du serveur Edge au directeur et aux serveurs frontaux.</p></td>
+<td><p>Adresse IP du programme d’équilibrage de la charge matérielle directeur</p></td>
+<td><p>Communication SIP du serveur Edge vers le directeur et les serveurs frontaux.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Indifférente</p></td>
-<td><p>directeur</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClsAgent. exe) et collection de journaux</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>48000b</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Indifférente</p></td>
-<td><p>directeur</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClsAgent. exe) et collection de journaux</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>48000b</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Indifférente</p></td>
-<td><p>directeur</p></td>
-<td><p>Commandes de service de journalisation centralisées (ClsController. exe) ou d’agent (ClsAgent. exe) et collection de journaux</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>48000b</p></td>
+<td><p>Commandes et collection de journaux du service de journalisation centralisée (ClsController. exe) ou de l’agent (ClsAgent. exe)</p></td>
 </tr>
 </tbody>
 </table>

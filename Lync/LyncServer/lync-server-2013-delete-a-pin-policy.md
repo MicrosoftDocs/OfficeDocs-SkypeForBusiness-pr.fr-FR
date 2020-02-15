@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer une stratégie de code confidentiel'
+title: 'Lync Server 2013 : suppression d’une stratégie de code confidentiel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc11f1383ec652c512fe5542d9a6780ce028c516
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38f8c9899665353d33682cc0c780cd7411b0abfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740994"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740994"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Suivez cette procédure pour supprimer une stratégie de code confidentiel.
+Suivez cette procédure pour supprimer une stratégie de code confidentiel (PIN).
 
 <div>
 
@@ -51,17 +51,17 @@ Suivez cette procédure pour supprimer une stratégie de code confidentiel.
 
 <div>
 
-## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a>Pour supprimer une stratégie de code confidentiel dans le panneau de configuration de Lync Server 2013
+## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a>Pour supprimer une stratégie de code confidentiel dans le panneau de configuration Lync Server 2013
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Stratégie de code confidentiel**.
 
 4.  Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez entièrement ou partiellement le nom de la stratégie à supprimer.
 
-5.  Dans la liste des stratégies, cliquez sur la stratégie à supprimer, sur **Modifier**, puis sur **Supprimer**.
+5.  Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
 
@@ -69,9 +69,9 @@ Suivez cette procédure pour supprimer une stratégie de code confidentiel.
 
 <div>
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de code confidentiel à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de code confidentiel à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de passe Remove-CsPinPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de commande Remove-applet cspinpolicy. Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
@@ -85,7 +85,7 @@ Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Window
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Pour supprimer toutes les stratégies de code confidentiel appliquées au niveau du site
+## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Pour supprimer toutes les stratégies de code confidentiel appliquées à l’étendue du site
 
   - Cette commande supprime toutes les stratégies de code confidentiel configurées au niveau du site :
     
@@ -95,7 +95,7 @@ Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Window
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Pour supprimer toutes les stratégies de code confidentiel qui autorisent l’utilisation de critères communs
+## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>Pour supprimer toutes les stratégies de code confidentiel qui autorisent l’utilisation de modèles courants
 
   - Cette commande supprime toutes les stratégies de code confidentiel qui autorisent l’utilisation de critères communs : G
     
@@ -103,7 +103,7 @@ Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Window
 
 </div>
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-applet cspinpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
 
 </div>
 

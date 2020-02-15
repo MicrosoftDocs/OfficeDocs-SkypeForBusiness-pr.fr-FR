@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher des informations sur l’application fiable'
+title: 'Lync Server 2013 : afficher les informations sur les applications approuvées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca1ec48696cab7a0dffa1881dba34a589954874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trusted-application-information-in-lync-server-2013"></a>Afficher des informations sur l’application fiable dans Lync Server 2013
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Afficher les informations d’applications approuvées dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41757388"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de la cmdlet **Get-CsTrustedApplication** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-view-trusted-applications"></a>Pour afficher des applications approuvées
+## <a name="to-view-trusted-applications"></a>Pour afficher les applications approuvées
 
   - Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsConferenceDisclaimer
     
-    Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable :
+    Cette commande retourne des informations identiques aux suivantes pour chaque application approuvée :
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -65,7 +65,7 @@ Vous pouvez afficher des informations sur vos applications approuvées à l’ai
         ExUmEnabled            : False
         Enabled                : True
     
-    Pour plus d’informations, consultez la rubrique [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
+    Pour plus d’informations, voir [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
 </div>
 

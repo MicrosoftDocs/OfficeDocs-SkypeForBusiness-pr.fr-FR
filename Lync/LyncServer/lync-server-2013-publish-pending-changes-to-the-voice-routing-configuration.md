@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : publier les modifications en attente apportées à la configuration de l’acheminement vocal'
+title: 'Lync Server 2013 : publication des modifications en attente de la configuration du routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aac5c30cb73ef428d0571a1a0fe6853dbf70db4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eec5236f6b40d332617e2e2a5dedeb6a77d752b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724614"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Publier les modifications en attente apportées à la configuration du routage de la voix dans Lync Server 2013
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Publier les modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724614"
 
 _**Dernière modification de la rubrique :** 2012-08-07_
 
-Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales**, effectuez cette procédure pour consulter, publier ou annuler les modifications en attente.
+Après avoir modifié les paramètres de configuration dans les pages du groupe **Routage des communications vocales**, effectuez cette procédure pour passer en revue, publier ou annuler les modifications en attente.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vérifiez qu’un seul utilisateur à la fois modifie les paramètres de configuration du routage des communications vocales.<BR>Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande <STRONG>Tout valider</STRONG>. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande <STRONG>Vérifier les modifications non validées</STRONG> et annulez les modifications de configuration que vous ne voulez pas publier.<BR>Si vous quittez les pages du groupe <STRONG>Routage des communications vocales</STRONG> avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Cependant, vous pouvez exporter la configuration active (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir <A href="lync-server-2013-export-a-voice-route-configuration-file.md">exporter un fichier de configuration de l’itinéraire vocal dans Lync Server 2013</A>.
+> Vérifiez qu’un seul utilisateur à la fois modifie les paramètres de configuration du routage des communications vocales.<BR>Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande <STRONG>Valider tout</STRONG>. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande <STRONG>Vérifier les modifications non validées</STRONG> et annulez les modifications de configuration que vous ne voulez pas publier.<BR>Si vous quittez les pages du groupe <STRONG>Routage des communications vocales</STRONG> avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Toutefois, vous pouvez exporter la configuration en cours (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, consultez <A href="lync-server-2013-export-a-voice-route-configuration-file.md">la rubrique Exporter un fichier de configuration de routage des communications vocales dans Lync Server 2013</A>.
 
 
 
@@ -51,29 +51,29 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
 
 <div>
 
-## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour consulter, publier ou annuler les modifications de la configuration du routage des communications vocales
+## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour passer en revue, publier ou annuler les modifications de la configuration du routage des communications vocales
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
 
-4.  Effectuez les modifications souhaitées au niveau de la configuration dans chacune des pages du groupe **Routage des communications vocales**.
+4.  Effectuez les modifications souhaitées au niveau de la configuration sur chacune des pages du groupe **Routage des communications vocales**.
 
-5.  Pour consulter les modifications en attente sans les publier, sélectionnez **Vérifier les modifications non validées** dans le menu **Valider**.
+5.  Pour passer en revue les modifications en attente sans les publier, sélectionnez **Vérifier les modifications non validées **dans le menu **Valider**.
 
 6.  Si vous souhaitez annuler l’une des modifications en attente, effectuez l’une des opérations suivantes :
     
       - Sélectionnez **Annuler toutes les modifications non validées** dans le menu **Valider**.
     
-      - Accédez à l’onglet de la page **Routage des communications vocales** qui contient les modifications en attente que vous souhaitez annuler, cliquez sur **Valider**, puis sur **Annuler les modifications sélectionnées**.
+      - Accédez à l’onglet de la page **Routage des communications vocales** où se trouvent les modifications en attente que vous souhaitez annuler, cliquez sur **Valider**, puis sur **Annuler les modifications sélectionnées**.
 
-7.  Une fois que vous avez vérifié toutes les modifications en attente et annulé celles que vous ne souhaitez pas publier, cliquez sur **Valider**, puis sur **Tout valider**.
+7.  Une fois que vous avez passé en revue toutes les modifications en attente et annulé celles que vous ne souhaitez pas publier, cliquez sur **Valider**, puis sur **Valider tout**.
 
-8.  Dans la boîte de dialogue **Paramètres de configuration de la voix non validés** qui contient la liste de toutes les modifications en attente, cliquez sur **OK**.
+8.  Dans la boîte de dialogue **Paramètres de configuration de la voix non validés** qui affiche la liste de toutes les modifications en attente, cliquez sur **OK**.
     
-    Lorsque le panneau de configuration de Lync Server a validé les modifications, le message **configuration de routage vocale correctement publié** s’affiche.
+    Lorsque le panneau de configuration Lync Server a validé les modifications, le message la publication de la **configuration du routage des communications vocales a réussi** s’affiche.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bea99b254504907b429da831fa6b072b482b61b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737834"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41737834"
 
 _**Dernière modification de la rubrique :** 2012-06-29_
 
-La configuration et le déploiement de Lync Server 2013 requièrent que la personne qui installe et déploie le logiciel soit membre de groupes de niveau local ou de domaine. Les outils d’administration de Lync Server 2013 peuvent nécessiter des autorisations supplémentaires.
+La configuration et le déploiement de Lync Server 2013 nécessitent que la personne qui installe et déploie le logiciel soit membre de groupes locaux ou au niveau du domaine. Les outils d’administration pour Lync Server 2013 peuvent nécessiter des autorisations supplémentaires.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Exigences d’adhésion à un groupe pour Lync Server 2013](lync-server-2013-group-membership-requirements.md)
+  - [Configuration requise pour l’appartenance à un groupe pour Lync Server 2013](lync-server-2013-group-membership-requirements.md)
 
-  - [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
+  - [Déléguer les autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
 
 </div>
 

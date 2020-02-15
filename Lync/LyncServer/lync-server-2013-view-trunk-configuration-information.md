@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les informations de configuration de Trunk'
+title: 'Lync Server 2013 : afficher les informations de configuration de jonction'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77f53a4263fd0e0b64ccd6894d27e30c0c5be95c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b85e0398dc02c6138ebd41914f6edeb35ecefe01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Afficher les informations de configuration de Trunk dans Lync Server 2013
+# <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Afficher les informations de configuration de jonction dans Lync Server 2013
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41757398"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Les paramètres de configuration du Trunk SIP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle de réseau téléphonique commuté (PSTN), un échange de succursale public (PBX) ou un contrôleur de bordure de session (SBC) au fournisseur de services. Ces paramètres spécifient, par exemple :
+Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 
-  - si la déviation du trafic multimédia doit être activée sur les jonctions ;
+  - L’activation ou non du contournement de média sur les jonctions.
 
-  - Les conditions dans lesquelles les paquets de contrôle de transport en temps réel (RTCP) sont envoyés.
+  - Les conditions d’envoi des paquets RTCP (Real-time Transport Control Protocol).
 
-  - Le chiffrement SRTP (Secure Real-Time Protocol) est requis sur chaque Trunk.
+  - L’application ou non du chiffrement SRTP (Secure Real-Time Protocol) sur chaque jonction.
 
-Lorsque vous installez Microsoft Lync Server 2013, une collection globale de paramètres de configuration de Trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
+Lorsque vous installez Microsoft Lync Server 2013, une collection globale de paramètres de configuration de jonction SIP (Session Initiation Protocol) est créée. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a>Pour afficher les informations de configuration du Trunk SIP en utilisant le panneau de configuration de Lync Server
+## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a>Pour afficher les informations de configuration de jonction SIP à l’aide du panneau de configuration Lync Server
 
-1.  Dans le panneau de configuration de Lync Server, cliquez sur **routage des communications vocales** , puis cliquez sur **configuration de Trunk**.
+1.  Dans le panneau de configuration Lync Server, cliquez sur **routage des communications vocales** , puis sur Configuration de la **jonction**.
 
-2.  Dans l’onglet **configuration de Trunk** , vous verrez la liste de toutes vos collections de paramètres de configuration de Trunk ; pour chaque collection, des valeurs s’appliquent aux propriétés **Name**, **scope**, **State**et de **contournement de média** , ainsi que le nombre d' **utilisations PSTN**, de **règles de numéro d’appel**et de **règles de numérotation** associées à la collection. Pour afficher des détails supplémentaires sur une collection de paramètres de configuration de ligne, cliquez sur l’ensemble d’intérêt, cliquez sur **modifier**, puis sur **afficher les détails**. Notez que vous pouvez afficher des informations détaillées pour une collection unique de paramètres de configuration de Trunk à la fois.
+2.  Dans l’onglet Configuration de la **jonction** , vous verrez une liste de tous vos paramètres de configuration de jonction ; pour chaque collection, vous verrez des valeurs pour les propriétés **nom**, **étendue**, **État**et déviation du trafic **multimédia** , ainsi que le nombre d' **utilisations RTC**, de **règles de numéro d’appel**et de règles de **numérotation** associées à la collection. Pour afficher des détails supplémentaires sur une collection de paramètres de configuration de jonction, cliquez sur la collection d’intérêt, sur **modifier**, puis sur **afficher les détails**. Notez que vous pouvez afficher des informations détaillées uniquement pour une collection de paramètres de configuration de jonction à la fois.
 
 </div>
 
 <div>
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de Trunk SIP à l’aide des cmdlets Windows PowerShell
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de jonction SIP à l’aide des applets de commande Windows PowerShell
 
-Les paramètres de configuration de Trunk SIP peuvent être affichés à l’aide de Lync Server PowerShell et de l’applet de passe Get-CsTrunkConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Les paramètres de configuration de jonction SIP peuvent être affichés à l’aide de Lync Server PowerShell et de la cmdlet Get-applet cstrunkconfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information"></a>Pour afficher les informations de configuration du Trunk SIP
+## <a name="to-view-sip-trunk-configuration-information"></a>Pour afficher les informations de configuration de jonction SIP
 
-  - Pour afficher des informations sur l’ensemble des paramètres de configuration de Trunk SIP, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+  - Pour afficher des informations sur tous les paramètres de configuration de jonction SIP, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsTrunkConfiguration
     
-    Vous obtiendrez des indications semblables à ceci :
+    Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
         Identity                                  : Global
         OutboundTranslationRulesList              : {}
@@ -100,7 +100,7 @@ Les paramètres de configuration de Trunk SIP peuvent être affichés à l’aid
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Get-applet cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .
 
 </div>
 

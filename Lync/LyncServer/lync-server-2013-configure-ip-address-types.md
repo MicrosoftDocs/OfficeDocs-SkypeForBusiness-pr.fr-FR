@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer les types d’adresses IP'
+title: 'Lync Server 2013 : configuration des types d’adresses IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729764"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-ip-address-types-in-lync-server-2013"></a>Configurer les types d’adresses IP dans Lync Server 2013
+# <a name="configure-ip-address-types-in-lync-server-2013"></a>Configurer des types d’adresses IP dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41729764"
 
 _**Dernière modification de la rubrique :** 2012-06-13_
 
-Le déploiement de types d’adresses IP s’effectue à l’aide des paramètres de topologie que vous configurez dans le générateur de topologie. Cette section décrit le déploiement de types d’adresse IP sur des serveurs frontaux, des serveurs de médiation et des serveurs Edge.
+Vous déployez des types d’adresses IP à l’aide des paramètres de topologie que vous configurez dans le générateur de topologie. Cette section décrit le déploiement des types d’adresses IP sur les serveurs frontaux, les serveurs de médiation et les serveurs Edge.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Déploiement des types d’adresses IP sur un serveur frontal pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [Déployer des types d’adresses IP sur un serveur frontal pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [Déploiement des types d’adresse IP sur un serveur de médiation pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [Déployer des types d’adresses IP sur un serveur de médiation pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [Déploiement des types d’adresse IP sur un serveur Edge pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [Déployer des types d’adresses IP sur un serveur Edge pour Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

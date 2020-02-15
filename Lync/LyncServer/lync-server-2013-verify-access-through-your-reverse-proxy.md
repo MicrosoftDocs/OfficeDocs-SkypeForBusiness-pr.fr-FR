@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vérification de l’accès avec le proxy inverse'
+title: 'Lync Server 2013 : vérification de l’accès par le biais de votre proxy inverse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e13f7e23f3404191f7251c1f49bda6f8935a2929
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4dec8a6d5339af93a7e8c0f63aca5f5d3f990583
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763558"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Vérification de l’accès avec le proxy inverse dans Lync Server 2013
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Vérifier l’accès par le biais de votre proxy inverse dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41763558"
 
 _**Dernière modification de la rubrique :** 2013-03-29_
 
-Utilisez la procédure suivante pour vérifier que vos utilisateurs peuvent accéder aux informations sur le proxy inverse. Vous devrez peut-être effectuer la configuration de pare-feu et la configuration de DNS (Domain Name System) pour que Access fonctionne correctement.
+La procédure suivante vous permet de vérifier que vos utilisateurs peuvent accéder aux informations présentes sur le proxy inverse. Vous devrez peut-être finaliser la configuration du pare-feu et du DNS (Domain Name System) pour que l’accès fonctionne correctement.
 
 <div>
 
-## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>Pour vérifier que vous pouvez accéder au site Web via Internet
+## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>Pour vérifier que vous avez accès au site via Internet
 
-  - Ouvrez un navigateur Web, tapez les URL de la barre d' **adresse** que les clients utilisent pour accéder aux fichiers du carnet d’adresses et au site Web pour les conférences comme suit :
+  - Ouvrez un navigateur web et, dans la barre **Adresse**, tapez les URL que les clients utilisent pour accéder aux fichiers de carnet d’adresses et au site web de conférence, comme suit :
     
-      - Pour le serveur du carnet d’adresses, tapez une URL semblable à **https://externalwebfarmFQDN/abs** ce qui suit : où externalwebfarmFQDN est le nom de domaine complet (FQDN) du service Web externe qui héberge les services du carnet d’adresses. L’utilisateur doit être confronté à un défi HTTP, car la sécurité d’annuaire dans le dossier serveur du carnet d’adresses est configurée par défaut sur authentification Windows.
+      - Pour le serveur de carnet d’adresses, tapez une URL semblable à **https://externalwebfarmFQDN/abs** la suivante : où nom est le nom de domaine complet externe des services Web externes qui hébergent les services de carnet d’adresses. L’utilisateur doit recevoir une demande d’accès HTTP, car l’authentification Windows par défaut est configurée pour la sécurité du répertoire dans le dossier Serveur de carnet d’adresses.
     
-      - Pour Conférence, tapez une URL semblable à ce qui suit **https://externalwebfarmFQDN/meet** : où externalwebfarmFQDN est le nom de domaine complet externe de la batterie de serveurs Web qui héberge le contenu de la réunion. Cette URL doit afficher la page de résolution des problèmes pour les conférences. Vous pouvez également vérifier que votre URL simple pour les conférences fonctionne correctement. Un exemple d’URL simple pour la participation à la Conférence peut êtrehttps://meet.contoso.com
+      - Pour la Conférence, tapez une URL semblable à la suivante **https://externalwebfarmFQDN/meet** : où nom est le nom de domaine complet externe de la batterie de serveurs Web qui héberge le contenu de la réunion. Cette URL doit afficher la page de dépannage pour la conférence. Vous pouvez aussi confirmer que votre URL simple pour la conférence fonctionne correctement. Voici un exemple d’URL simple pour la participation à la Conférence.https://meet.contoso.com
     
-      - Pour extension du groupe de distribution, tapez une URL semblable à ce **https://externalwebfarmFQDN/GroupExpansion/service.svc**qui suit :. L’utilisateur doit recevoir un défi HTTP, car la sécurité d’annuaire sur le service d’extension du groupe de distribution est configurée par défaut sur l’authentification Windows.
+      - Pour expansion du groupe de distribution, tapez une URL semblable à la **https://externalwebfarmFQDN/GroupExpansion/service.svc**suivante :. L’utilisateur doit recevoir une demande d’accès HTTP, car l’authentification Windows par défaut est configurée pour la sécurité du répertoire dans le service de développement de groupes de distribution.
     
-      - Pour composer un numéro de téléphone, tapez l’URL simple semblable à **https://externalwebfarmFQDN/dialin** la suivante, où externalwebfarmFQDN est le nom de domaine complet (FQDN) externe de la batterie de serveurs Web qui héberge la page de conférence rendez-vous pour la Conférence rendez-vous. L’utilisateur doit être dirigé vers la page de connexion. Vous pouvez également vérifier que votre URL de connexion simple fonctionne correctement. Un exemple d’URL simple pour les appels entrants peut êtrehttps://dialin.contoso.com
+      - Pour les appels entrants, tapez l’URL simple semblable à la **https://externalwebfarmFQDN/dialin** suivante, où nom est le nom de domaine complet externe de la batterie de serveurs Web qui héberge la page de conférence rendez-vous. L’utilisateur doit être dirigé vers la page de numérotation. Vous pouvez aussi confirmer que votre URL simple de numérotation fonctionne correctement. Un exemple d’URL simple pour l’accès à distance peut êtrehttps://dialin.contoso.com
     
-      - Pour confirmer le fonctionnement de l’URL de découverte automatique, https://lyncdiscovertapez. externaldomainFQDN. Le navigateur doit vous inviter à ouvrir un fichier. Sélectionnez Bloc-notes pour l’ouvrir. Une réponse classique serait semblable à ce qui suit :
+      - Pour vérifier que l’URL de découverte automatique fonctionne, tapez https://lyncdiscover. externaldomainFQDN. Le navigateur doit vous inviter à ouvrir un fichier. Sélectionnez Bloc-notes pour l’ouvrir. Une réponse typique est semblable à la suivante :
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

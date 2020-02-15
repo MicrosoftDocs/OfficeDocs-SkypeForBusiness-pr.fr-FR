@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Dialog'
+title: 'Lync Server 2013 : boîte de dialogue'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762242"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762242"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Le tableau de boîte de dialogue est une table de prise en charge. chaque enregistrement représente une boîte de dialogue SIP (Session Initiation Protocol).
+La table Dialog est une table de prise en charge ; chaque enregistrement représente un dialogue SIP (Session Initiation Protocol).
 
 
 <table>
@@ -51,34 +51,34 @@ Le tableau de boîte de dialogue est une table de prise en charge. chaque enregi
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Principal</p></td>
-<td><p>Temps pendant lequel l’agent de qualité d’excellence reçoit le premier rapport de l’appelant ou du destinataire. Utilisé conjointement avec SessionSeq pour identifier une session de manière unique.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Heure à laquelle l’agent QoE (Quality of Excellence) reçoit le premier rapport de l’appelant ou de l’appelé. Utilisé conjointement avec SessionSeq pour identifier une session de manière unique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro séquentiel pour différencier les sessions lorsqu’elles ont la même ConferenceDateTime.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro de séquence pour différencier les sessions lorsqu’elles ont le même paramètre ConferenceDateTime.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td></td>
-<td><p>ID de boîte de dialogue globalement unique.</p></td>
+<td><p>ID du dialogue qui est unique à l’échelle globale.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>index</p></td>
-<td><p>Checksum de l’ID de boîte de dialogue.</p></td>
+<td><p>Index</p></td>
+<td><p>Somme de contrôle de l’ID du dialogue.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Étape 6 : déplacer les utilisateurs vers le pool de pilotes'
+title: 'Phase 6 : déplacer des utilisateurs vers le pool pilote'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a>Étape 6 : déplacer les utilisateurs vers le pool de pilotes
+# <a name="phase-6-move-users-to-the-pilot-pool"></a>Phase 6 : déplacer des utilisateurs vers le pool pilote
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41743614"
 
 _**Dernière modification de la rubrique :** 2012-10-16_
 
-Vous pouvez déplacer un ou plusieurs utilisateurs vers le nouveau déploiement de Lync Server 2013 à l’aide des deux méthodes suivantes : Lync Server Control Panel et Lync Server Management Shell. Les rubriques de cette section décrivent les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Lync Server 2013 d’un déploiement pilote vers un déploiement de niveau production.
+Vous pouvez déplacer un ou plusieurs utilisateurs vers le nouveau déploiement Lync Server 2013 à l’aide des deux méthodes suivantes : Lync Server Control Panel et Lync Server Management Shell. Les rubriques de cette section décrivent les tâches que vous devez effectuer lors du déploiement pilote, ainsi que avant de faire passer votre déploiement de Lync Server 2013 d’un déploiement pilote à un déploiement au niveau de la production.
 
 <div>
 
@@ -45,9 +45,9 @@ Vous pouvez déplacer un ou plusieurs utilisateurs vers le nouveau déploiement 
 
   - [Vérifier que la réplication utilisateur est terminée](verify-user-replication-has-completed_1.md)
 
-  - [Déplacer un utilisateur unique vers le pool de pilotes](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Déplacer un seul utilisateur vers le pool pilote](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [Déplacer plusieurs utilisateurs vers le pool de pilotes](move-multiple-users-to-the-pilot-pool_1.md)
+  - [Déplacer plusieurs utilisateurs vers le pool pilote](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 

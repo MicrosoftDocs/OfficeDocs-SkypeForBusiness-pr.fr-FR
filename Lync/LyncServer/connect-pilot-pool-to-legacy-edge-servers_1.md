@@ -1,5 +1,5 @@
 ---
-title: Connexion du pool pilote aux serveurs Edge hérités
+title: Connecter le pool pilote aux serveurs Edge hérités
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f39f3444c0d660a1ed73da566df6b5b348171f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723144"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connexion du pool pilote aux serveurs Edge hérités
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connecter le pool pilote aux serveurs Edge hérités
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41723144"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Après le déploiement de Lync Server 2013, un itinéraire de Fédération pour ce site n’est pas configuré. Pour pouvoir utiliser l’itinéraire fédéré utilisé par Office Communications Server 2007 R2, Lync Server 2013 doit être configuré pour utiliser cet itinéraire.
+Après le déploiement de Lync Server 2013, un itinéraire de Fédération pour ce site n’est pas configuré. Pour utiliser l’itinéraire fédéré utilisé par Office Communications Server 2007 R2, Lync Server 2013 doit être configuré pour utiliser cet itinéraire.
 
-Pour permettre au site Lync Server 2013 d’utiliser le serveur directeur et le serveur de périphérie du BackCompatSite, utilisez le générateur de topologie pour associer le pool de bords hérité.
+Pour activer le site Lync Server 2013 afin qu’il utilise le directeur et le serveur Edge du BackCompatSite, utilisez le générateur de topologie pour associer le pool de serveurs Edge hérité.
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Pour associer le pool de bords antérieurs à l’aide du générateur de topologie
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Pour associer le pool Edge hérité à l’aide du Générateur de topologie
 
-1.  Ouvrez la topologie du pool de pilotes dans le générateur de topologie.
+1.  Ouvrez la topologie du pool pilote dans le Générateur de topologie.
 
 2.  Sélectionnez votre site Lync Server 2013.
 
-3.  Dans le menu **action** , cliquez sur **modifier les propriétés**.
+3.  Dans le menu **Actions**, cliquez sur **Modifier les propriétés**.
 
-4.  Sous **affectation**de l’itinéraire de Fédération de site, sélectionnez **activer la Fédération SIP**, puis sélectionnez le directeur Office Communications Server 2007 R2 ou le serveur Office Communications Server 2007 R2, si aucun directeur n’est répertorié.
+4.  Sous **attribution**de l’itinéraire de Fédération du site, sélectionnez **activer la Fédération SIP**, puis sélectionnez le directeur Office Communications Server 2007 R2 ou le serveur Edge Office Communications Server 2007 R2 si aucun directeur n’est mentionné.
     
     ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")  
 
-5.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
+5.  Cliquez sur **OK** pour fermer la page **Modifier les propriétés**.
 
-6.  Dans le générateur de topologie, sous le nœud Lync Server 2013, accédez aux **Pools front end Server ou Enterprise Edition** **standard** , cliquez avec le bouton droit sur la liste, puis cliquez sur **modifier les propriétés**.
+6.  Dans le générateur de topologie, sous le nœud Lync Server 2013, naviguez jusqu’aux **Pools frontaux** **Standard Edition Server** ou Enterprise Edition, cliquez avec le bouton droit sur le pool, puis cliquez sur **modifier les propriétés**.
 
-7.  Sous **associations**, activez la case à cocher en regard de **associer le pool de bords (pour les composants multimédias)**.
+7.  Sous **Associations**, activez la case à cocher en regard de **Associer un pool de serveurs Edge (pour les composants médias)**.
 
-8.  Dans la liste, sélectionnez l’interface du serveur Edge pour le BackCompatSite.
+8.  Dans la liste, sélectionnez l’interface de serveur Edge pour le BackCompatSite.
     
     ![Boîte de dialogue Modifier les propriétés, page général](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")  
 
-9.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
+9.  Cliquez sur **OK** pour fermer la page **Modifier les propriétés**.
 
-10. Dans **Générateur de topologie**, sélectionnez le nœud supérieur, **Lync Server**.
+10. Dans le **Générateur de topologie**, sélectionnez le nœud de niveau supérieur, **Lync Server**.
 
-11. Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
+11. Depuis le menu **Actions**, cliquez sur **Publier la topologie**, puis sur **Suivant**.
 
-12. À la fin de l' **Assistant Publication** , cliquez sur **Terminer**.
+12. Une fois l’**Assistant Publication** terminé, cliquez sur **Terminer**.
 
 </div>
 

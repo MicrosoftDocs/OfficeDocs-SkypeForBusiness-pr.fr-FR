@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Appels entrants'
+title: 'Lync Server 2013 : appels entrants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e70e5a489cbfa581c666374e6535b898727e1fdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c153af6e14c291189f714f7054f72301d6859a88
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763798"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763798"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Le routage des appels entrants vers les utilisateurs activés pour le routage par emplacement dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté comme suit. Si un utilisateur dispose d’un appel entrant à un point de terminaison situé dans un site réseau de routage de géolocalisation et que le point de terminaison se trouve sur le même site réseau que la passerelle RTC, l’appel est routé. Si un utilisateur dispose d’un appel entrant vers un point de terminaison situé dans un site réseau compatible avec le routage d’emplacement et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de points de terminaison situés dans le même site réseau que la passerelle RTC à partir de laquelle l’appel entrant provient, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel manqué est envoyée à la personne appelée.
+Le routage des appels entrants vers des utilisateurs activés pour le routage géodépendant dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté de la manière suivante. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage basé sur l’emplacement et que le point de terminaison se trouve dans le même site réseau que la passerelle RTC, l’appel sera acheminé. Si un utilisateur a reçu un appel entrant vers un point de terminaison situé dans un site réseau de routage basé sur l’emplacement et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle RTC, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à la personne appelée.
 
-Les paramètres de transfert d’appel d’un utilisateur qui est autorisé à utiliser le routage de géolocalisation continuent d’être appliqués, toutefois, les appels transférés seront soumis à des restrictions de routage basées sur l’emplacement de l’utilisateur.
+Les paramètres de transfert d’appel d’un utilisateur activé pour le routage géodépendant continueront à être appliqués, cependant, les appels transférés seront soumis aux restrictions de routage géodépendant de l’utilisateur.
 
-Le tableau suivant illustre la façon dont le routage en fonction de l’emplacement affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelant. Le site réseau de la passerelle RTC est activé pour le routage d’emplacement et le routage basé sur l’emplacement autorise uniquement le routage des appels RTC vers des points de terminaison au sein du même site réseau.
+Le tableau suivant montre comment le routage géodépendant affecte le routage des appels entrants en fonction de l’emplacement du point de terminaison de l’appelé. Le site réseau de la passerelle PSTN est activé pour le routage géodépendant et le routage géodépendant uniquement autorise le routage des appels PSTN vers les points de terminaison au sein du même site réseau.
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Appelé recevant un appel entrant à partir de la passerelle RTC
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Appelé recevant un appel entrant du RTC
 
 <table>
 <colgroup>
@@ -55,17 +55,17 @@ Le tableau suivant illustre la façon dont le routage en fonction de l’emplace
 <thead>
 <tr class="header">
 <th></th>
-<th>Point de terminaison de l’appelé situé dans le même site réseau que la passerelle RTC</th>
-<th>Point de terminaison de l’appelé non situé dans le même site réseau que la passerelle RTC</th>
-<th>Point de terminaison de l’appelé situé dans un site réseau inconnu ou pour lequel le routage géodépendant n’est pas activé</th>
+<th>Point de terminaison de l’appelé situé dans le même site réseau que la passerelle PSTN</th>
+<th>Point de terminaison de l’appelé non situé dans le même site réseau que la passerelle PSTN</th>
+<th>Point de terminaison de l’appelé situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Routage de l’appel RTC entrant</p></td>
-<td><p>L’appel entrant est routé vers les points de terminaison de l’appelé</p></td>
-<td><p>L’appel entrant n‘est pas routé vers les points de terminaison de l’appelé</p></td>
-<td><p>L’appel entrant n‘est pas routé vers les points de terminaison de l’appelé</p></td>
+<td><p>Routage des appels RTC entrants</p></td>
+<td><p>L’appel entrant est acheminé vers les points de terminaison de l’appelé</p></td>
+<td><p>L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</p></td>
+<td><p>L’appel entrant n’est pas acheminé vers les points de terminaison de l’appelé</p></td>
 </tr>
 </tbody>
 </table>

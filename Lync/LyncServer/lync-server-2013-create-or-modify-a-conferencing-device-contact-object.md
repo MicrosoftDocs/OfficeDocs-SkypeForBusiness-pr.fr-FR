@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : création ou modification d’un objet de contact de périphérique de conférence'
+title: 'Lync Server 2013 : création ou modification d’un objet contact de l’appareil de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03bd3cfa6099d45cbad2d15ed164652756f50f5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a>Créer ou modifier un objet de contact de l’appareil de conférence dans Lync Server 2013
+# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a>Création ou modification d’un objet contact de périphérique de conférence dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41758098"
 
 _**Dernière modification de la rubrique :** 2013-10-02_
 
-Pour créer un objet de salle de conférence, commencez par créer un compte d’utilisateur Active Directory pour représenter l’appareil. Vous pouvez ensuite utiliser l’applet de passe **Enable-CsMeetingRoom** pour permettre au compte de fonctionner en tant qu’appareil de conférence. Si vous devez modifier les propriétés d’un appareil de conférence existant, utilisez l’applet de passe **Set-CsMeetingRoom** .
+Pour créer un objet de salle de conférence, commencez par créer un compte d’utilisateur Active Directory pour représenter l’appareil. Ensuite, utilisez l’applet de commande **Enable-CsMeetingRoom** pour permettre à ce compte de fonctionner en tant que périphérique de conférence. Si vous devez modifier les propriétés d’un périphérique de conférence existant, utilisez la cmdlet **Set-CsMeetingRoom** .
 
-Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -58,7 +58,7 @@ Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 
 
 ## <a name="creating-a-conferencing-device"></a>Création d’un périphérique de conférence
 
-  - Une fois que vous avez créé le compte d’utilisateur Active Directory qui représente le nouvel appareil de conférence, activez-le à l’aide de l’applet de contrôle **Enable-CsMeetingRoom** . N’oubliez pas d’inclure a) l’identité de l’appareil de conférence, b) du pool de bureaux d’enregistrement dans lequel le compte de la salle sera hébergé et l’adresse SIP doit être attribuée à ce compte. Par exemple :
+  - Une fois que vous avez créé le compte d’utilisateur Active Directory qui représente le nouveau périphérique de conférence, activez-le à l’aide de la cmdlet **Enable-CsMeetingRoom** . N’oubliez pas d’inclure a) l’identité de l’appareil de conférence, b) le pool de serveurs d’inscriptions dans lequel le compte de salle sera hébergé et c, l’adresse SIP à attribuer à ce compte. Par exemple :
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -66,15 +66,15 @@ Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 
 
 <div>
 
-## <a name="modifying-a-conferencing-device"></a>Modification d’un appareil de conférence
+## <a name="modifying-a-conferencing-device"></a>Modification d’un périphérique de conférence
 
-  - Pour modifier les valeurs de propriétés d’un appareil de conférence existant, utilisez l’applet de passe **Set-CsMeetingRoom** . Par exemple, la commande suivante met à jour le numéro de téléphone (LineUri) associé à un appareil de conférence :
+  - Pour modifier les valeurs des propriétés d’un périphérique de conférence existant, utilisez la cmdlet **Set-CsMeetingRoom** . Par exemple, la commande suivante met à jour le numéro de téléphone (LineUri) associé à un périphérique de conférence :
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-Pour plus d’informations, consultez les rubriques d’aide de l’applet de connexion [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) et de l’applet de connexion [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) .
+Pour plus d’informations, reportez-vous aux rubriques d’aide pour la cmdlet [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) et la cmdlet [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) .
 
 </div>
 

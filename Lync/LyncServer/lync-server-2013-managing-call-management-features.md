@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des fonctionnalités de gestion des appels'
+title: 'Lync Server 2013 : gestion des fonctionnalités de gestion des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d87756c88866f6fb1c520afd7fe267cede692cf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6d0b1d9b523f8b9884a517b1b223c35112caa5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738798"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41738798"
 
 _**Dernière modification de la rubrique :** 2012-12-18_
 
-Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes :
+Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la façon dont le système achemine les appels entrants et y répond. Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes :
 
-  - **Park d’appel :** Permet aux utilisateurs vocaux de parcer temporairement un appel et de le décrocher sur le même téléphone ou sur un autre téléphone.
+  - **Parcage d’appel :** Permet aux utilisateurs de la messagerie vocale de parkiser temporairement un appel, puis de le reprendre sur le même téléphone ou un autre téléphone.
 
-  - **Capture de groupe :** Permet aux utilisateurs de décrocher les appels qui sonnent pour d’autres utilisateurs en composant un numéro de groupe de capture d’appel.
+  - **Collecte de groupe :** Permet aux utilisateurs de sélectionner des appels qui sonnent pour d’autres utilisateurs en composant un numéro de groupe de prise d’appel.
 
-  - **Response Group :** Achemine les appels entrants vers des groupes d’agents en utilisant des groupes de recherche ou des questions et réponses de réponse vocale interactives.
+  - **Response Group :** Achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche ou de questions et réponses de réponse vocale interactive (IVR).
 
-  - **Annonce :** Lit un message pour les appels passés vers un numéro non attribué, ou route l’appel à un autre endroit, ou les deux.
+  - **Annonce :** Lit un message pour les appels passés à un numéro non attribué, ou achemine l’appel ailleurs, ou les deux.
 
-Cette section explique comment gérer ces fonctionnalités de gestion des appels dans votre déploiement voix entreprise.
+Cette section décrit comment gérer ces fonctionnalités de gestion des appels dans votre déploiement voix entreprise.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Gestion du parc d’appels dans Lync Server 2013](lync-server-2013-managing-call-park.md)
+  - [Gestion du parcage d’appel dans Lync Server 2013](lync-server-2013-managing-call-park.md)
 
-  - [Gestion des appels de groupe dans Lync Server 2013](lync-server-2013-managing-group-call-pickup.md)
+  - [Gestion de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-managing-group-call-pickup.md)
 
-  - [Gestion des groupes de réponses dans Lync Server 2013](lync-server-2013-managing-response-groups.md)
+  - [Gestion des groupes Response Group dans Lync Server 2013](lync-server-2013-managing-response-groups.md)
 
-  - [Gestion des appels vers des numéros non attribués dans Lync Server 2013](lync-server-2013-managing-calls-to-unassigned-numbers.md)
+  - [Gestion des appels à des numéros non attribués dans Lync Server 2013](lync-server-2013-managing-calls-to-unassigned-numbers.md)
 
 </div>
 

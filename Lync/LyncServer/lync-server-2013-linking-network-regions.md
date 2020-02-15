@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : lier des régions réseau'
+title: 'Lync Server 2013 : liaison de régions réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2085eb133fa38231af2d223928796300d553e3c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 681ed50132900e9db269b59d86ca18a022d4a428
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757988"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="linking-network-regions-in-lync-server-2013"></a>Liaison des régions réseau dans Lync Server 2013
+# <a name="linking-network-regions-in-lync-server-2013"></a>Liaison de régions réseau dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41757988"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC).
+Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC).
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Affichage des informations sur les liens de région réseau dans Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
+  - [Affichage des informations de lien de région réseau dans Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
 
-  - [Configuration de liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
+  - [Configuration des liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 
-  - [Supprimer des liens de région réseau dans Lync Server 2013](lync-server-2013-deleting-network-region-links.md)
+  - [Suppression de liens de région réseau dans Lync Server 2013](lync-server-2013-deleting-network-region-links.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
 [Configurer le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
 

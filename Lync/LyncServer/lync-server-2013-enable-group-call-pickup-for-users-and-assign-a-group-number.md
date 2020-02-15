@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activez le prélèvement d’appel de groupe pour les utilisateurs et attribuez un numéro de groupe'
+title: 'Lync Server 2013 : activation de la prise d’appel de groupe pour les utilisateurs et attribution d’un numéro de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ad9bbc6f5505e5778872a568bdbc80b3f7bf91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c541d5a82becf253ebbbb2bbab6d1c69e9fb7016
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729394"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Activer le prélèvement d’appels de groupe pour les utilisateurs dans Lync Server 2013 et affecter un numéro de groupe
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Activer la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013 et affecter un numéro de groupe
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41729394"
 
 _**Dernière modification de la rubrique :** 2013-01-30_
 
-Après avoir ajouté des numéros de groupe de cueillette des appels à la table d’orbite du parc d’appels, vous pouvez attribuer les numéros de groupe aux utilisateurs et activer le prélèvement d’appels de groupe. Utilisez l’outil du kit de ressources de l’extension secondaire (SEFAUtil) pour attribuer des numéros de groupe et activer le choix des appels de groupe.
+Une fois que vous avez ajouté des numéros de groupe de prise d’appel à la table d’orbites de parcage d’appel, vous affectez les numéros de groupe aux utilisateurs et activez la prise d’appel de groupe. Utilisez l’outil de kit de ressources de fonctionnalité d’extension secondaire (SEFAUtil) pour affecter des numéros de groupe et activer la prise d’appel de groupe.
 
 <div>
 
 
 > [!NOTE]  
-> Dans un déploiement hybride, n’affectez pas de groupe de collecte d’appels de groupe aux utilisateurs hébergés en ligne. Les utilisateurs hébergés en ligne ne peuvent pas participer à la cueillette du groupe. Autrement dit, leurs appels ne peuvent pas être pris par d’autres utilisateurs et ils ne peuvent pas répondre aux appels destinés à d’autres utilisateurs.
+> Dans un déploiement hybride, n’affectez pas un groupe de prise d’appel de groupe aux utilisateurs hébergés en ligne. Les utilisateurs hébergés en ligne ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, leurs appels ne peuvent pas être traités par d’autres utilisateurs, et ils ne peuvent pas répondre aux appels à d’autres utilisateurs.
 
 
 
@@ -51,15 +51,15 @@ Après avoir ajouté des numéros de groupe de cueillette des appels à la table
 
 <div>
 
-## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Pour attribuer un numéro de groupe et activer le prélèvement d’appels de groupe pour un utilisateur
+## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Pour affecter un numéro de groupe et activer la prise d’appel de groupe pour un utilisateur
 
-1.  Ouvrez une session sur l’ordinateur où vous avez installé l’outil SEFAUtil avec des droits d’administrateur.
+1.  Ouvrez une session sur l’ordinateur sur lequel vous avez installé l’outil SEFAUtil avec des droits d’administrateur.
 
 2.  À partir de la ligne de commande, exécutez la commande suivante :
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    Par exemple, pour assigner le numéro de groupe 199 à un utilisateur, procédez comme suit :
+    Par exemple, pour attribuer le numéro de groupe 199 à un utilisateur :
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
 
@@ -70,7 +70,7 @@ Après avoir ajouté des numéros de groupe de cueillette des appels à la table
 ## <a name="see-also"></a>Voir aussi
 
 
-[Désactiver le prélèvement d’appels de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Désactivation de la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

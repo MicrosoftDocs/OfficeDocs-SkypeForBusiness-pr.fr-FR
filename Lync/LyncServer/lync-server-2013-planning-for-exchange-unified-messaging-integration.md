@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de l’intégration de la messagerie unifiée Exchange'
+title: 'Lync Server 2013 : planification de l’intégration de la messagerie unifiée Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9325cdce67113c46ec02879417748a2e3dd0397d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752254"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41752254"
 
 _**Dernière modification de la rubrique :** 2012-10-13_
 
-Lync Server 2013 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la boîte vocale et la messagerie électronique en une seule infrastructure de messagerie. Dans Microsoft Exchange Server 2007 Service Pack 1 (SP1) et Microsoft Exchange Server 2010, la messagerie unifiée Exchange (UM) est l’un des rôles Exchange Server que vous pouvez installer et configurer.
+Lync Server 2013 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique. Dans Microsoft Exchange Server 2007 Service Pack 1 (SP1) et Microsoft Exchange Server 2010, la messagerie unifiée Exchange est l’un des rôles serveur Exchange que vous pouvez installer et configurer.
 
-Dans Microsoft Exchange Server 2013, la messagerie unifiée Exchange s’exécute en tant que service sur un serveur de boîtes aux lettres Exchange. Pour les déploiements vocaux Lync Server 2013 Enterprise, la messagerie unifiée combine la messagerie vocale et la messagerie électronique dans un emplacement unique accessible à partir d’un téléphone (Outlook Voice Access) ou d’un ordinateur. La messagerie unifiée et Lync Server 2013 collaborent de manière à fournir des réponses aux appels, à Outlook Voice Access et aux services de standard automatique aux utilisateurs d’Enterprise Voice.
+Dans Microsoft Exchange Server 2013, la messagerie unifiée Exchange s’exécute en tant que service sur un serveur de boîtes aux lettres Exchange. Pour les déploiements de voix entreprise dans Lync Server 2013, la messagerie unifiée combine la messagerie vocale et la messagerie électronique dans une banque unique disponible à partir d’un téléphone (Outlook Voice Access) ou d’un ordinateur. La messagerie unifiée et Lync Server 2013 collaborent pour fournir des services de répondeur automatique, Outlook Voice Access et de standard automatique aux utilisateurs de voix entreprise.
 
-Pour plus d’informations sur les modifications apportées à l’architecture dans Microsoft Exchange Server 2013, voir « modifications de l’architecture vocale » [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)dans la documentation Microsoft exchange Server 2013 à l’adresse.
+Pour plus d’informations sur les modifications apportées à l’architecture de Microsoft Exchange Server 2013, voir « Voice architecture changes » dans [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)la documentation de Microsoft exchange Server 2013 à l’adresse.
 
-Pour que ces fonctionnalités soient prises en charge dans un déploiement Exchange UM local, vous devez exécuter l’une des opérations suivantes :
+Pour que ces fonctionnalités soient prises en charge dans un déploiement de la messagerie unifiée Exchange sur site, vous devez exécuter l’un des éléments suivants :
 
-  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) ou le dernier Service Pack
+  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) ou Service Pack le plus récent
 
-  - Microsoft Exchange Server 2010 ou le dernier Service Pack
+  - Microsoft Exchange Server 2010 ou Service Pack le plus récent
 
   - Microsoft Exchange Server 2013
 
@@ -55,13 +55,13 @@ Pour que ces fonctionnalités soient prises en charge dans un déploiement Excha
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md)
+  - [Fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md)
 
-  - [Composants et topologies de la messagerie unifiée locale dans Lync Server 2013](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
+  - [Composants et topologies pour la messagerie unifiée locale dans Lync Server 2013](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
 
-  - [Instructions d’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [Instructions pour l’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-  - [Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
 </div>
 

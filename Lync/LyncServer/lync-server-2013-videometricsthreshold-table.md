@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : VideoMetricsThreshold'
+title: 'Lync Server 2013 : table VideoMetricsThreshold'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ffd2c289917c5ccf0ec3a484284fecca3323810
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741984"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741984"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les métriques de qualité de l’utilisation des appels vidéo.
+La table VideoMetricsThreshold contient des valeurs optimales et acceptables pour les mesures de la qualité de l’expérience utilisées dans les appels vidéo.
 
 
 <table>
@@ -51,74 +51,74 @@ La table VideoMetricsThreshold contient des valeurs optimales et acceptables pou
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Type d’appel placé.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Type d’appel passé.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 0,05.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,0.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>décimale (9 ; 4)</p></td>
+<td><p>décimale (9, 4)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 12,0000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>décimale (9 ; 4)</p></td>
+<td><p>décimale (9, 4)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 7,0000.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
-<td><p>La valeur par défaut est 10.0/</p></td>
+<td><p>La valeur par défaut est 10,0/</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,0.</p></td>
 </tr>
@@ -130,31 +130,31 @@ La table VideoMetricsThreshold contient des valeurs optimales et acceptables pou
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>flottant</p></td>
 <td></td>
 <td><p>La valeur par défaut est 0,10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>flottant</p></td>
 <td></td>
 <td><p>La valeur par défaut est 12.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>flottant</p></td>
 <td></td>
 <td><p>La valeur par défaut est 7.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 5,00.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>décimale (5 ; 2)</p></td>
+<td><p>décimal (5, 2)</p></td>
 <td></td>
 <td><p>La valeur par défaut est 10,00.</p></td>
 </tr>

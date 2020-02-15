@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport d’inventaire des téléphones IP'
+title: 'Lync Server 2013 : rapport d’inventaire de téléphonie IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c99945626105282324202d1fd754cd5d966bc81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Rapport d’inventaire des téléphones IP dans Lync Server 2013
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Rapport d’inventaire de téléphonie IP dans Lync Server 2013
 
 </div>
 
@@ -39,11 +39,11 @@ _**Dernière modification de la rubrique :** 2012-11-12_
 
 Le Rapport d’inventaire de téléphonie IP fournit des informations sur les téléphones IP en cours d’utilisation dans votre organisation. Il offre une liste détaillée des téléphones IP qui ont été utilisées durant la période de rapport spécifiée. Entre autres choses, il permet aux administrateurs de savoir s’il existe des téléphones obsolètes qui doivent être remplacés. Il peut également les alerter quant à la présence de téléphones coûteux rarement utilisés. Ce type d’informations peut être précieux dans le cadre de l’achat de nouveaux téléphones ou de la redistribution des téléphones existants (par exemple, il peut être demandé à un utilisateur qui n’utilise son téléphone coûteux que très rarement de l’échanger avec un autre utilisateur qui utilise le sien beaucoup plus fréquemment).
 
-Notez que ce rapport comporte quelques limitations s’il s’agit de l’utilisation d’un rapport d’inventaire réel. Pour One, le rapport sur le téléphone IP recense tous les téléphones connectés au serveur Lync au cours de la période spécifiée, classés par date de la dernière connexion. Si aucun téléphone ne s’est connecté pendant la période spécifiée, il n’apparaîtra pas dans le rapport d’inventaire. Il s’agit du téléphone qui est connecté avant la période de début et de l’ouverture de session pendant l’intervalle de temps spécifié. Par exemple, supposons que vous vouliez voir tous les numéros de ligne du téléphone pour juillet, 2012. Par exemple, vous pouvez également être connecté à Lync Server depuis le 30 juin 2012 et être connecté depuis le 1er juillet. Ces téléphones ne s’afficheront pas sur le rapport d’inventaire du 1er juillet.
+Il convient de noter que ce rapport présente quelques limitations lorsqu’il est utilisé comme un véritable rapport d’inventaire. Pour une chose, le rapport de téléphone IP répertorie simplement tous les téléphones qui se sont connectés à Lync Server pendant la période spécifiée, triés par date de la dernière connexion. Si un téléphone ne s’est pas connecté pendant la période spécifiée, il ne figurera pas dans le rapport d’inventaire. Cela inclut les téléphones qui se sont connectés avant la période de démarrage et qui étaient encore connectés pendant l’intervalle de temps spécifié. Par exemple, supposons que vous souhaitiez consulter tout l’inventaire téléphonique pour juillet, 2012. Supposons également que plusieurs téléphones ont ouvert une session sur Lync Server le 30 juin 2012 et ont toujours ouvert une session depuis le 1er juillet. Ces téléphones ne s’afficheront pas dans le rapport d’inventaire pour le 1er juillet.
 
-Il convient également de noter que le rapport d’inventaire pourrait inclure des téléphones que votre organisation n’utilise plus. Par exemple, supposons qu’un certain nombre de téléphones Fabrikam s’est connecté au système le 1er juillet 2012 ; 5 jours plus tard votre organisation vous a débarrassé de tous les téléphones Fabrikam et l’a remplacé par un modèle contoso plus récent. Les téléphones Fabrikam apparaîtront tout de même dans le rapport d’inventaire simplement du fait qu’ils se sont connectés au système durant le mois de juillet.
+Il convient également de noter que le rapport d’inventaire pourrait inclure des téléphones que votre organisation n’utilise plus. Supposez par exemple que plusieurs téléphones Fabrikam se sont connectés au système le 1er juillet 2012 ; cinq jours plus tard, votre organisation s’est débarrassé de tous ces téléphones Fabrikam et les a remplacé par un modèle Contoso plus récent. Les téléphones Fabrikam apparaîtront tout de même dans le rapport d’inventaire simplement du fait qu’ils se sont connectés au système durant le mois de juillet.
 
-En outre, le Rapport d’inventaire de téléphonie IP ne fournit aucun total récapitulatif pour les différents types de téléphones. Par exemple, supposez que vous avez 105 téléphones Polycom CX600. Le rapport ne vous indiquera pas que vous avez 105 de ces téléphones ; au lieu de cela, vous verrez simplement 105 entrées distinctes pour le Polycom Cx600. Le seul moyen de savoir qu’il y a 105 entrées pour le Polycom Cx600 serait de compter chacune de ces entrées manuellement.
+En outre, le Rapport d’inventaire de téléphonie IP ne fournit aucun total récapitulatif pour les différents types de téléphones. Par exemple, supposez que vous avez 105 téléphones Polycom CX600. Le rapport ne vous indiquera pas que vous avez 105 de ces téléphones ; au lieu de cela, vous verrez simplement 105 entrées distinctes pour le Polycom Cx600. Le seul moyen de savoir qu’il y a 105 entrées pour le Polycom Cx600 serait de compter chacune de ces entrées manuellement.
 
 <div>
 
@@ -59,7 +59,7 @@ En outre, le Rapport d’inventaire de téléphonie IP ne fournit aucun total r�
 
 ## <a name="accessing-the-ip-phone-inventory-report"></a>Accès au Rapport d’inventaire de téléphonie IP
 
-Le Rapport d’inventaire de téléphonie IP est accessible à partir de la page d’accueil des Rapports de surveillance. Un clic sur la métrique URI utilisateur vous permet d’accéder au Rapport d’activité de l’utilisateur. Un clic sur la métrique Dernière activité pour appel P2P permet d’accéder au Rapport détaillé de session P2P ; un clic sur cette même métrique pour une conférence permet d’accéder au Rapport détaillé de conférence.
+Le Rapport d’inventaire de téléphonie IP est accessible à partir de la page d’accueil des Rapports de surveillance. Un clic sur la métrique URI utilisateur vous permet d’accéder au Rapport d’activité de l’utilisateur. Un clic sur la métrique Dernière activité pour appel d’égal à égal permet d’accéder au Rapport détaillé de session d’égal à égal ; un clic sur cette même métrique pour une conférence permet d’accéder au Rapport détaillé de conférence.
 
 </div>
 
@@ -67,12 +67,12 @@ Le Rapport d’inventaire de téléphonie IP est accessible à partir de la page
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Utilisation optimale du Rapport d’inventaire de téléphonie IP
 
-Si vous êtes intéressé (e) uniquement dans les informations d’utilisation pour un type particulier de téléphone (par exemple, « quelle est la fréquence d’utilisation pour les utilisateurs d’un téléphone Polycom CX600 ? »), vous pouvez obtenir ces informations directement à partir du rapport sur l’inventaire des téléphones IP en filtrant ce type de téléphone particulier. En revanche, si vous souhaitez obtenir des données de synthèse pour tous vos téléphones (combien de personnes utilisent un Polycom CX600, combien utilisent un LG-Nortel IP8540, et ainsi de suite), vous devrez exporter les données et utiliser une autre application (telle que Windows PowerShell) pour effectuer ce type d’analyse. Par exemple, supposons que vous exportez les données dans un fichier de valeurs séparées\\par\\des\_virgules (C : Data IP\_Inventory\_Report. csv). Dans ce cas, vous pourriez utiliser les deux commandes suivantes pour obtenir des données de synthèse pour tous vos téléphones :
+Si vous êtes intéressé uniquement par les informations d’utilisation d’un type de téléphone particulier (par exemple, « quelle est la fréquence d’utilisation d’un téléphone Polycom CX600 ? »), vous pouvez obtenir ces informations directement à partir du rapport d’inventaire de téléphonie IP en filtrant ce type particulier de téléphone. En revanche, si vous souhaitez obtenir des données de synthèse pour tous vos téléphones (combien de personnes utilisent un Polycom CX600, combien utilisent un LG-Nortel IP8540, et ainsi de suite.), vous devrez exporter les données et utiliser une autre application (telle que Windows PowerShell) pour effectuer ce type d’analyse. Par exemple, supposons que vous exportez les données vers un fichier de valeurs séparées\\par\\des\_virgules\_(C : Data IP\_report report. csv). Dans ce cas, vous pourriez utiliser les deux commandes suivantes pour obtenir des données de synthèse pour tous vos téléphones :
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 
-Des données semblables à ceci sont renvoyées :
+Les données retournées se présentent ainsi :
 
     Count    Name
     -----    ----
@@ -112,7 +112,7 @@ Le Rapport d’inventaire de téléphonie IP offre un autre avantage : si vous 
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, avec le rapport d’inventaire de téléphonie IP il est possible d’afficher uniquement les téléphones fabriqués par une société spécifique ou même une version spécifique de ces téléphones. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les inscriptions sont groupées par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Par exemple, avec le rapport d’inventaire de téléphonie IP il est possible d’afficher uniquement les téléphones fabriqués par une société spécifique ou même une version spécifique de ces téléphones. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les inscriptions sont groupées par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport d’inventaire de téléphonie IP.
 
@@ -131,7 +131,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -141,17 +141,17 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fabricant</strong></p></td>
+<td><p><strong>Constructeur</strong></p></td>
 <td><p>Nom de la société ayant fabriqué le téléphone IP. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.</p></td>
 </tr>
 <tr class="even">
@@ -163,30 +163,30 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Identifiant du logiciel utilisé par le téléphone IP. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Adresse MAC</strong></p></td>
-<td><p>Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC (Media Access Control) est généralement affectée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.</p>
-<p>Pour rechercher des enregistrements associés à une adresse MAC spécifique, il suffit d’entrer cette adresse. Par exemple :</p>
+<td><p><strong>Adresse MAC</strong></p></td>
+<td><p>Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC (Media Access Control) est généralement assignée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.</p>
+<p>Pour rechercher des enregistrements associés à une adresse MAC spécifique, il vous suffit d’entrer cette adresse. Par exemple :</p>
 <p>00-08-5D-16-16-48</p>
-<p>Vous devez entrer l’adresse complète. Une adresse partielle (par exemple, 00-08-5D) ne renvoie aucune donnée.</p></td>
+<p>Vous devez entrer l’adresse complète. Une adresse partielle (par exemple 00-08-5D) ne renvoie aucune donnée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dernière activité avant les jours</strong></p></td>
 <td><p>Sélectionnez l’une des valeurs suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>0,10</p></li>
-<li><p>CX3-20</p></li>
-<li><p>trente</p></li>
+<li><p>Tous les</p></li>
+<li><p>10 </p></li>
+<li><p>vingtaine</p></li>
+<li><p>0,30</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Heure de la dernière fermeture de session avant les jours</strong></p></td>
 <td><p>Sélectionnez l’une des valeurs suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>0,10</p></li>
-<li><p>CX3-20</p></li>
-<li><p>trente</p></li>
+<li><p>Tous les</p></li>
+<li><p>10 </p></li>
+<li><p>vingtaine</p></li>
+<li><p>0,30</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -222,7 +222,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’in
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Fabricant</strong></p></td>
+<td><p><strong>Constructeur</strong></p></td>
 <td><p>Oui</p></td>
 <td><p>Nom de la société ayant fabriqué le téléphone IP.</p></td>
 </tr>
@@ -232,9 +232,9 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’in
 <td><p>Numéro de version du téléphone IP.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Adresse MAC</strong></p></td>
+<td><p><strong>Adresse MAC</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC est généralement affectée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.</p></td>
+<td><p>Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC est généralement assignée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>URI utilisateur</strong></p></td>
@@ -254,7 +254,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’in
 <tr class="odd">
 <td><p><strong>Heure de la dernière fermeture de session</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Date et heure de la dernière connexion du téléphone IP à partir de Lync Server.</p></td>
+<td><p>Date et heure de la dernière déconnexion de Lync Server par le téléphone IP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Dernière activité</strong></p></td>

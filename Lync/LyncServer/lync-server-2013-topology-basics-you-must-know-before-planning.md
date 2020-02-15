@@ -1,5 +1,5 @@
 ---
-title: Tâches de topologie de base à connaître avant la planification pour Lync Server 2013
+title: Notions de base sur la topologie Lync Server 2013 que vous devez maîtriser avant la planification
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Tâches de topologie de base à connaître avant la planification pour Lync Server 2013
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Concepts de base de la topologie que vous devez prendre en compte avant de planifier Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41745194"
 
 _**Dernière modification de la rubrique :** 2012-09-25_
 
-Il n’est pas nécessaire d’être un expert sur Lync Server pour exécuter l’outil de planification. Pour plus d’informations sur Lync Server, il est préférable d’exécuter l’outil de planification plusieurs fois, de répondre à des questions différemment et de comparer la sortie.
+Vous n’avez pas besoin d’être expert sur Lync Server pour exécuter l’outil de planification. En fait, l’exécution de l’outil de planification à plusieurs reprises, la réponse à des questions de manière différente et la comparaison de la sortie est un moyen efficace pour en savoir plus sur Lync Server.
 
-Pour plus d’informations sur les différents composants de façon plus détaillée, vous devez comprendre les aspects de base suivants des topologies de Lync Server 2013.
+Avant de découvrir les différents composants de manière plus approfondie, vous devez comprendre les aspects suivants des topologies Lync Server 2013.
 
 <div>
 

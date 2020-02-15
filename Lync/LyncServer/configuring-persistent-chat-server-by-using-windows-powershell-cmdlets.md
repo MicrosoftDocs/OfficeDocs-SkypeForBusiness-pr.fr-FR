@@ -1,5 +1,5 @@
 ---
-title: Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell
+title: Configuration du serveur de conversation permanente à l’aide des applets de commande Windows PowerShell
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a436f4058ea600f9eed67725f0a519835e432f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723172"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Configuration du serveur de conversation permanente à l’aide des applets de commande Windows PowerShell
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41723172"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Utilisez les applets de commande Windows PowerShell suivantes pour configurer la gestion dans Lync Server 2013, serveur de chat permanent.
+Utilisez les applets de commande Windows PowerShell suivantes pour configurer la gestion dans Lync Server 2013, serveur de conversation permanente.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Manage categories](manage-categories.md)
+  - [Gérer les catégories](manage-categories.md)
 
-  - [Gestion des salles](manage-rooms.md)
+  - [Gérer les salles](manage-rooms.md)
 
-  - [Gestion des compléments](manage-add-ins.md)
+  - [Gérer les compléments](manage-add-ins.md)
 
-  - [Suppression d’un message](remove-a-message.md)
+  - [Supprimer un message](remove-a-message.md)
 
-  - [Test du chat du serveur de conversation permanente avec une transaction synthétique](test-persistent-chat-server-with-a-synthetic-transaction.md)
+  - [Tester un serveur de conversation permanente avec une transaction synthétique](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [Exécution de compatibilité descendante pour la conversation permanente](run-backward-compatibility-for-persistent-chat-server.md)
+  - [Exécuter la compatibilité descendante pour le serveur de conversation permanente](run-backward-compatibility-for-persistent-chat-server.md)
 
   - [Exécution, octroi, obtention, suppression ou définition d’une stratégie de conversation permanente dans Lync Server 2013](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [Configuration du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
+  - [Configurer le serveur de conversation permanente dans Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [Obtention de la disponibilité de pool de serveurs de conversation permanente dans Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [Obtenir la disponibilité du pool de serveurs de conversation permanente dans Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
   - [Conformité de conversation permanente dans Lync Server 2013](lync-server-2013-persistent-chat-compliance.md)
 

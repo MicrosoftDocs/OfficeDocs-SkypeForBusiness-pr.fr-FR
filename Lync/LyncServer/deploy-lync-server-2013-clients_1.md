@@ -1,5 +1,5 @@
 ---
-title: Déploiement de clients Lync Server 2013
+title: Déployer les clients Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc6ee3831968c34bcdb501fcdf543626546e2c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac6dce30e356ed3161f985f32d8f26dc0e34ac6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-clients"></a>Déploiement de clients Lync Server 2013
+# <a name="deploy-lync-server-2013-clients"></a>Déployer les clients Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41723014"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Après avoir migré des utilisateurs vers Lync Server 2013, procédez comme suit :
+Après avoir migré les utilisateurs vers Lync Server 2013, procédez comme suit :
 
-1.  Utilisez le filtre de version du client sur le nouveau serveur Lync Server 2013 pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées pour la connexion.
+1.  Utilisez le filtre de version du client sur le nouveau serveur Lync Server 2013 pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées pour se connecter.
 
-2.  Le cas échéant, configurez les paramètres de stratégie de groupe requis pour le démarrage du client. Pour plus d’informations, reportez-vous à la rubrique [configuration de stratégies d’amorçage client dans Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) dans la documentation de déploiement. La configuration de ces paramètres n’est nécessaire que si vous voulez modifier les stratégies d’amorçage client existantes ou si vous voulez définir de nouvelles stratégies de démarrage de client. Si vous n’envisagez pas de configurer des stratégies d’amorçage client ou si vous souhaitez que les stratégies d’amorçage de clients héritées restent en vigueur, aucune action n’est nécessaire.
+2.  Si nécessaire, configurez les paramètres de stratégie de groupe qui sont requises pour le démarrage du client. Pour plus d’informations, reportez-vous à la rubrique [Configuring Client Bootstrapper Policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) dans la documentation de déploiement. La configuration de ces paramètres est nécessaire seulement si vous voulez définir des nouvelles stratégies de démarrage du client. Si vous ne prévoyez pas de configurer des stratégies de démarrage du client ou si vous voulez que les stratégies de démarrage du client héritées restent en vigueur, aucune action n’est alors requise.
 
-3.  Configurez d’autres stratégies utilisateur et client pour des utilisateurs ou des groupes d’utilisateurs spécifiques à l’aide du panneau de configuration de Lync Server 2013, de Lync Server 2013 Management Shell, ou les deux. Pour plus d’informations, reportez-vous aux [paramètres nouveaux et modifiés pour Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) dans la documentation de planification.
+3.  Configurez d’autres stratégies utilisateur et client pour des utilisateurs ou des groupes d’utilisateurs spécifiques à l’aide du panneau de configuration Lync Server 2013, de l’environnement de gestion de Lync Server 2013 ou des deux. Pour plus d’informations, reportez-vous aux [paramètres nouveaux et modifiés pour Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) dans la documentation de planification.
 
-4.  Déployez la dernière version de clients 2013 Lync Server avec les mises à jour les plus récentes. Pour plus d’informations, reportez-vous à la section [déploiement de clients et d’appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) dans la documentation de déploiement.
+4.  Déployez la dernière version des clients Lync Server 2013 avec les mises à jour cumulatives les plus récentes. Pour plus d’informations, voir [Deploying clients and Devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) dans la documentation de déploiement.
 
-5.  Facultatif Si votre organisation nécessite le mode de confidentialité de présence Enhanced de Lync Server 2013, une fois la migration terminée, définissez une règle de stratégie de version de client pour empêcher les versions de client antérieure de se connecter. Activez ensuite le mode de confidentialité Enhanced Presence.
+5.  Module Si votre organisation requiert le mode de confidentialité Enhanced presence de Lync Server 2013, une fois la migration terminée, définissez une règle de stratégie de version de client pour empêcher les versions antérieures du client de se connecter. Activez ensuite le mode de confidentialité améliorée de la présence.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > N’activez pas le mode de confidentialité de la présence améliorée de Lync 2013 tant que tous les utilisateurs sur un pool de serveurs donné n’ont pas installé la version la plus récente du client.
+    > N’activez pas le mode de confidentialité Enhanced presence de Lync 2013 tant que tous les utilisateurs d’un pool de serveurs donné n’ont pas installé les versions de client les plus récentes.
 
     
     </div>

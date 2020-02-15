@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : planification d’un appel de groupe'
+title: 'Lync Server 2013 : planification de la prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c815e49b1fb60c43e93963c21b3b44c57ff31ae0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10dbaf1842533830411b94476c988629e17aa291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>Planification de la capture des appels de groupe dans Lync Server 2013
+# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>Planification de la prise d’appel de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41725372"
 
 _**Dernière modification de la rubrique :** 2013-02-01_
 
-Mise à jour cumulative pour Lync Server 2013 : février 2013 présente la capture d’appel de groupe comme nouvelle fonctionnalité voix entreprise. La cueillette de groupe permet aux utilisateurs de décrocher les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de capture d’appel. Cette section comprend des informations de planification spécifiques à la cueillette de groupe.
+Mise à jour cumulative pour Lync Server 2013 : février 2013 introduit la prise d’appel de groupe en tant que nouvelle fonctionnalité voix entreprise. La prise d’appel de groupe permet aux utilisateurs de sélectionner des appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de prise d’appel. Cette section comprend des informations de planification spécifiques à la prise d’appel de groupe.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Présentation de l’enlèvement de groupe dans Lync Server 2013](lync-server-2013-overview-of-group-call-pickup.md)
+  - [Vue d’ensemble de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [Composants utilisés par le prélèvement d’appels de groupe dans Lync Server 2013](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [Composants utilisés par la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-components-used-by-group-call-pickup.md)
 
-  - [Exigences techniques pour la cueillette de groupe dans Lync Server 2013](lync-server-2013-technical-requirements-for-group-call-pickup.md)
+  - [Configuration technique requise pour la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [Clients pris en charge pour le prélèvement d’appels de groupe dans Lync Server 2013](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [Clients pris en charge pour la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-clients-supported-for-group-call-pickup.md)
 
-  - [Processus de déploiement pour l’enlèvement de groupe dans Lync Server 2013](lync-server-2013-deployment-process-for-group-call-pickup.md)
+  - [Processus de déploiement de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
 </div>
 

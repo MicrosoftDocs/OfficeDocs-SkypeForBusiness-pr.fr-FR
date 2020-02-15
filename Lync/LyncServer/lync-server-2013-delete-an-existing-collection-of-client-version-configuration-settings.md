@@ -1,5 +1,5 @@
 ---
-title: Supprimer une collection existante de paramètres de configuration de la version du client
+title: Supprimer une collection existante de paramètres de configuration de version du client
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3015358c27786b03b505e580acd599e26d4f3a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00b594254b4ecac166be8e639dd8e7d437fcdffc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737424"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration de la version du client dans Lync Server 2013
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration de version du client dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41737424"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Si vous voulez supprimer les paramètres de configuration de client déjà configurés pour un site, vous pouvez supprimer les paramètres dans Lync Server 2013 Control Panel ou Lync Server 2013 Management Shell.
+Si vous souhaitez supprimer les paramètres de configuration du client précédemment configurés pour un site, vous pouvez supprimer les paramètres du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
 <div>
 
-## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>Pour supprimer les paramètres de configuration du client à l’aide du panneau de configuration de Lync Server
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>Pour supprimer les paramètres de configuration du client à l’aide du panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .
 
@@ -55,15 +55,15 @@ Si vous voulez supprimer les paramètres de configuration de client déjà confi
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de la version du client à l’aide des cmdlets Windows PowerShell
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de la version du client à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration de la version du client à l’aide de l’applet de contrôle **Remove-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez supprimer les paramètres de configuration de la version du client à l’aide de la cmdlet **Remove-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>Pour supprimer une collection spécifiée de paramètres de configuration de la version du client
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>Pour supprimer une collection spécifique de paramètres de configuration de la version du client
 
-  - La commande suivante supprime les paramètres de configuration de la version du client appliqués au site de Redmond :
+  - La commande suivante supprime les paramètres de configuration de la version du client appliqués au site Redmond :
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -73,7 +73,7 @@ Vous pouvez supprimer des paramètres de configuration de la version du client �
 
 ## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration de la version du client appliqués à l’étendue du site
 
-  - Cette commande supprime tous les paramètres de configuration de la version du client configurés pour l’étendue du site :
+  - Cette commande supprime tous les paramètres de configuration de la version du client configurés au niveau de l’étendue site :
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -83,13 +83,13 @@ Vous pouvez supprimer des paramètres de configuration de la version du client �
 
 ## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>Pour supprimer tous les paramètres de configuration de la version du client en fonction de la valeur de la propriété DefaultAction
 
-  - Cette commande supprime tous les paramètres de configuration de la version du client pour lesquels l’action par défaut a été définie sur « bloquer » :
+  - Cette commande permet de supprimer tous les paramètres de configuration de la version du client pour lesquels l’action par défaut a été définie sur « bloquer » :
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15)) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .
 
 </div>
 

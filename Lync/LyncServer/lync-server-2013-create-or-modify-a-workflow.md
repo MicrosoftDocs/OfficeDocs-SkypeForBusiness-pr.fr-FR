@@ -12,20 +12,20 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bcb9dd285beaaf96e56aef1114751b74c290a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f12ecaef8c6dda3b7bcee1da02add88c6ed5c59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740194"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>Créer ou modifier un flux de travail dans Lync Server 2013
+# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>Création ou modification d’un flux de travail dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41740194"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Lync Server 2013 prend en charge deux types de flux de travail : le groupe de recherche et la réponse vocale interactive (IVR). Lorsque vous créez un flux de travail, vous devez utiliser l’outil de configuration de groupe de réponse pour spécifier la file d’attente à utiliser et d’autres paramètres, tels qu’un message d’accueil, de la musique en suspens, des heures d’ouverture et des questions que l’application Response Group demande à l’appelant.
+Lync Server 2013 prend en charge deux types de flux de travail : le groupement de postes et la réponse vocale interactive (IVR). Lorsque vous créez un flux de travail, vous utilisez l’outil de configuration Response Group pour spécifier la file d’attente à utiliser et d’autres paramètres, tels que le message de bienvenue, l’attente musicale, les heures d’ouverture et les questions que l’application Response Group demande à l’appelant.
 
 <div>
 
 
 > [!NOTE]  
-> Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise. Si vous voulez créer des heures et des jours fériés prédéfinis que vous pouvez utiliser pour plusieurs flux de travail, vous devez également définir ces heures et jours fériés avant de créer un flux de travail qui les utilise.
+> Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise. Si vous souhaitez créer des heures d’ouverture et des dates de vacances prédéfinies pouvant être appliquées à plusieurs flux de travail, vous devez aussi définir ces heures et ces vacances avant de créer un flux de travail qui les utilise.
 
 
 
@@ -64,12 +64,12 @@ Lync Server 2013 prend en charge deux types de flux de travail : le groupe de r
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer ou modifier un groupe d’agents dans Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
-[Créer ou modifier une file d’attente dans Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)  
-[Facultatif Définir des jeux de vacances de groupe de réponse dans Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[Création ou modification d’un groupe d’agents dans Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
+[Création ou modification d’une file d’attente dans Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)  
+[Module Définir les groupes de congés Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[Facultatif Définir les heures d’activité du groupe de réponses dans Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
+[Module Définition des heures d’ouverture d’un groupe Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>

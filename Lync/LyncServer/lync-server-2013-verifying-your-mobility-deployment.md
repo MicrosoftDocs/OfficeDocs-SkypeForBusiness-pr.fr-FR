@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vérification du déploiement de mobilité'
+title: 'Lync Server 2013 : vérification de votre déploiement de mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6777414e7fc558e8eef0f913aca90fc7edd924ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>Vérification du déploiement de mobilité dans Lync Server 2013
+# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>Vérification de votre déploiement de mobilité dans Lync Server 2013
 
 </div>
 
@@ -39,23 +39,23 @@ _**Dernière modification de la rubrique :** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Après avoir déployé le service de mobilité Lync Server et le service de découverte automatique Lync Server, exécutez une transaction de test pour vérifier que votre déploiement fonctionne correctement. Vous pouvez exécuter **test-CsUcwaConference** pour tester la capacité de deux utilisateurs qui utilisent des clients mobiles Lync 2013 à créer, rejoindre et communiquer en conférence. Pour utiliser cette transaction de test, vous avez besoin de deux utilisateurs ou d’utilisateurs test, ainsi que de leurs informations d’identification complètes.
+Après avoir déployé le service Lync Server Mobility et le service de découverte automatique Lync Server, exécutez une transaction de test pour vérifier que votre déploiement fonctionne correctement. Vous pouvez exécuter **test-CsUcwaConference** pour tester la capacité de deux utilisateurs qui utilisent les clients mobiles Lync 2013 à créer, rejoindre et communiquer dans une conférence. Pour utiliser cette transaction de test, vous avez besoin de deux utilisateurs ou utilisateurs test, ainsi que leurs informations d’identification complètes.
 
-Vous utilisez **test-CsMcxP2PIM** pour tester l’envoi d’un message instantané entre deux utilisateurs qui utilisent Lync 2010 mobile. À l’instar **des tests-CsUcwaConference**, vous utilisez deux utilisateurs réels ou deux utilisateurs de test prédéfinis.
+Vous utilisez **test-CsMcxP2PIM** pour tester l’envoi d’un message instantané entre deux utilisateurs utilisant Lync 2010 mobile. À l’instar de **test-CsUcwaConference**, vous utilisez deux utilisateurs réels ou deux utilisateurs de test prédéfinis.
 
 <div>
 
-## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>Pour tester les conférences pour les clients mobiles Lync 2013
+## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>Pour tester la Conférence pour les clients mobiles Lync 2013
 
-1.  Ouvrez une session en tant que membre du rôle CsAdministrator sur un ordinateur sur lequel Lync Server Management Shell et Ocscore sont installés.
+1.  Ouvrez une session en tant que membre du rôle CsAdministrator sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande, tapez :
+3.  Sur la ligne de commande, tapez :
     
         Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
     
-    Vous pouvez définir des informations d’identification dans un script et les transférer dans l’applet de contrôle de test. Par exemple :
+    Vous pouvez définir des informations d’identification dans un script et les passer à l’applet de commande de test. Par exemple :
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -69,15 +69,15 @@ Vous utilisez **test-CsMcxP2PIM** pour tester l’envoi d’un message instantan
 
 ## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>Pour tester la messagerie instantanée de personne à personne pour Lync 2010 mobile
 
-1.  Ouvrez une session en tant que membre du rôle CsAdministrator sur un ordinateur sur lequel Lync Server Management Shell et Ocscore sont installés.
+1.  Ouvrez une session en tant que membre du rôle CsAdministrator sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande, tapez :
+3.  Sur la ligne de commande, tapez :
     
         Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
     
-    Vous pouvez définir des informations d’identification dans un script et les transférer dans l’applet de contrôle de test. Par exemple :
+    Vous pouvez définir des informations d’identification dans un script et les passer à l’applet de commande de test. Par exemple :
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force

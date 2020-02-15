@@ -1,5 +1,5 @@
 ---
-title: 'Étape 4 : fusionner les topologies'
+title: 'Phase 4 : fusionner les topologies'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 624bbfa52c5d4ed963fda895e7af3a544f0f3733
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d55f9e1f9233b838c1fe6ee56c4642edee1cc67e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-merge-topologies"></a>Étape 4 : fusionner les topologies
+# <a name="phase-4-merge-topologies"></a>Phase 4 : fusionner les topologies
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41765735"
 
 _**Dernière modification de la rubrique :** 2012-03-29_
 
-Les rubriques suivantes décrivent les étapes nécessaires pour fusionner vos pools Microsoft Office Communications Server 2007 R2 aux pools Microsoft Lync Server 2013. Tout d’abord, vous utilisez l’Assistant de fusion du générateur de topologie pour fusionner les informations de topologie. Cet outil collecte des informations sur votre environnement Office Communications Server 2007 R2, y compris sur les informations sur le serveur Edge, et publie ces informations vers une base de données partagée avec Lync Server 2013. Une fois que vous avez publié la topologie fusionnée, le générateur de topologie est utilisé pour afficher les informations de topologie du serveur Office Communications Server 2007 R2 et les informations relatives à la nouvelle topologie de Lync Server 2013. Enfin, vous utilisez les applets de cmdlet Lync Server Management Shell pour importer des stratégies et des paramètres de configuration.
+Les rubriques suivantes décrivent les étapes nécessaires pour fusionner vos pools Microsoft Office Communications Server 2007 R2 avec les pools Microsoft Lync Server 2013. Tout d’abord, vous utilisez l’Assistant Fusion du générateur de topologies pour fusionner les informations de topologie. Cet outil collecte des informations sur votre environnement Office Communications Server 2007 R2, y compris des informations de serveur Edge, et publie ces informations dans une base de données partagée avec Lync Server 2013. Une fois que vous avez publié la topologie fusionnée, le générateur de topologies est utilisé pour afficher les informations de topologie Office Communications Server 2007 R2 et des informations sur la topologie Lync Server 2013 nouvellement déployée. Enfin, vous utilisez des applets de commande Lync Server Management Shell pour importer des stratégies et des paramètres de configuration.
 
 <div>
 
@@ -45,7 +45,7 @@ Les rubriques suivantes décrivent les étapes nécessaires pour fusionner vos p
 
   - [Installer le package de compatibilité descendante WMI](install-wmi-backward-compatibility-package.md)
 
-  - [Fusionner à l’aide de l’Assistant Fusion du générateur de topologie](merge-using-topology-builder-merge-wizard.md)
+  - [Fusion à l’aide de l’Assistant Fusion du générateur de topologie](merge-using-topology-builder-merge-wizard.md)
 
   - [Importer des stratégies et des paramètres](import-policies-and-settings.md)
 

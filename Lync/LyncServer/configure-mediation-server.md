@@ -12,16 +12,16 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 389c6e5c017594bf386109541a379bd5ae2f7e01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41728164"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Cette procédure décrit la procédure de configuration du pool Lync Server 2013 de manière à utiliser le serveur de médiation Lync Server 2013 au lieu du serveur de médiation traditionnel d’Office Communications Server 2007 R2.
+Cette procédure décrit en détail les étapes à suivre pour configurer le pool Lync Server 2013 afin qu’il utilise le serveur de médiation Lync Server 2013, au lieu du serveur de médiation Office Communications Server 2007 R2 hérité.
 
-Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les droits d’administrateur et les autorisations nécessaires pour ajouter des rôles de serveur. Pour plus d’informations, voir autorisations de configuration de délégué dans la documentation de déploiement Standard Edition Server ou Enterprise Edition Server. Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
+Pour réussir à publier, activer ou désactiver une topologie quand vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les droits et autorisations d’administrateur appropriés pour ajouter des rôles serveur. Pour plus d’informations, voir Déléguer des autorisations de configuration dans la documentation de déploiement consacrée aux serveurs Standard Edition ou Enterprise Edition. Pour toutes les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est nécessaire.
 
 <div>
 
 
 > [!NOTE]  
-> Pour obtenir les dernières informations sur la recherche de passerelles RTC, de PBX IP et de services d’agrégation de messages SIP qualifiés compatibles avec Lync Server 2013, voir « Microsoft Unified Communications Open <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Interoperability » à l’adresse.
+> Pour obtenir les dernières informations sur la recherche de passerelles RTC qualifiées, de PBX IP et de services de jonction SIP fonctionnant avec Lync Server 2013, voir « Microsoft Unified Communications Open Interoperability <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Program » à l’adresse.
 
 
 
@@ -53,41 +53,41 @@ Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la su
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a>Pour configurer la médiation serveur à l’aide du générateur de topologie
+## <a name="to-configure-mediation-server-using-topology-builder"></a>Pour configurer le serveur de médiation à l’aide du Générateur de topologie
 
-1.  Ouvrez une topologie existante à partir du générateur de topologie.
+1.  Ouvrez une topologie existante à partir du Générateur de topologie.
 
-2.  Dans le volet gauche, sélectionnez **passerelles RTC**.
+2.  Dans le volet gauche, accédez à **Passerelles PSTN**.
 
-3.  Cliquez avec le bouton droit sur **passerelles RTC**, puis cliquez sur **nouvelle passerelle IP/PSTN**.
+3.  Cliquez avec le bouton droit sur **Passerelles PSTN**, puis cliquez sur **Nouvelle passerelle IP/PSTN**.
 
-4.  Complétez la page **définir une nouvelle passerelle IP/RTC** en utilisant les informations suivantes :
+4.  Complétez la page **Définir une nouvelle passerelle IP/PSTN** à l’aide des informations suivantes :
     
-      - Entrez le nom de domaine complet ou l’adresse IP de la passerelle. Le FQDN de la passerelle est requis si la passerelle utilise le protocole TLS.
+      - Entrez le nom de domaine complet ou l’adresse IP de la passerelle. Le nom de domaine complet de la passerelle est requis si celle-ci utilise le protocole TLS.
     
-      - Acceptez la valeur par défaut du **port d’écoute pour la passerelle IP/PSTN** ou entrez le nouveau port d’écoute s’il a été modifié.
+      - Acceptez la valeur **Port d’écoute de la passerelle IP/PSTN** par défaut ou entrez le nouveau port d’écoute s’il a été modifié.
     
-      - Définissez le **protocole de transport SIP**.
+      - Définissez la valeur **Protocole de transport SIP**.
 
-5.  Dans le volet gauche, accédez au **pool frontal d’Enterprise Edition** ou au **serveur Standard Edition Server**.
+5.  Dans le volet gauche, accédez au **Pool frontal Enterprise Edition** ou au **Serveur Standard Edition**.
 
-6.  Cliquez avec le bouton droit sur la liste, puis cliquez sur **modifier les propriétés**.
+6.  Cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**.
 
-7.  Sous **serveur de médiation**, définissez les **ports Listening**.
+7.  Sous **Serveur de médiation**, définissez les **Ports d’écoute**.
 
-8.  Ensuite, associez la passerelle RTC nouvellement créée en la sélectionnant et en cliquant sur **Ajouter**.
+8.  Ensuite, associez la nouvelle passerelle PSTN créée en la sélectionnant, puis en cliquant sur **Ajouter**.
 
-9.  Dans **Générateur de topologie**, sélectionnez le **serveur Lync**le plus en tête de nœud.
+9.  Dans le **Générateur de topologie**, sélectionnez le nœud de niveau supérieur **Lync Server**.
 
-10. Dans le menu **action** , sélectionnez la **topologie de publication** , puis cliquez sur **suivant**.
+10. Dans le menu **Action**, sélectionnez **Publier la topologie**, puis cliquez sur **Suivant**.
 
-11. Lorsque l' **Assistant Publication** est terminé, cliquez sur **Terminer** pour fermer l’Assistant.
+11. Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.
 
 <div>
 
 
 > [!NOTE]  
-> Il est important que vous complétiez le sujet suivant, que vous <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Modifiez les itinéraires vocaux pour utiliser le nouveau serveur de médiation Lync Server 2013</A> pour vous assurer que les itinéraires vocaux pointent vers le serveur de médiation approprié.
+> Il est important que vous terminiez la rubrique suivante, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">change Voice routes to use the New Lync server 2013 Mediation Server</A> pour vous assurer que les itinéraires des communications vocales pointent vers le serveur de médiation approprié.
 
 
 

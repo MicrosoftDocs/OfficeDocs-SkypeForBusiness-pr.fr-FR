@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport Détails de la Conférence'
+title: 'Lync Server 2013 : rapport détaillé de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e2cd992e83adb29c43935d4b4c7f223580d53
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dce868d90d2811b36a4f11c159b4e7d9d29b5ffa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757028"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Rapport Détails de la Conférence dans Lync Server 2013
+# <a name="conference-detail-report-in-lync-server-2013"></a>Rapport détaillé de conférence dans Lync Server 2013
 
 </div>
 
@@ -45,13 +45,13 @@ Le rapport détaillé de conférence donne des informations détaillées sur tou
 
 Le rapport détaillé de conférence est accessible à partir des rapports suivants :
 
-  - [Rapport de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-call-admission-control-report.md) (en cliquant sur la métrique détaillée pour une conférence)
+  - Le [rapport de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-call-admission-control-report.md) (en cliquant sur la mesure détails d’une conférence)
 
-  - [Rapport de la liste des échecs dans Lync Server 2013](lync-server-2013-failure-list-report.md) (en cliquant sur la mesure de conférence)
+  - Le [rapport de liste des échecs dans Lync Server 2013](lync-server-2013-failure-list-report.md) (en cliquant sur la mesure de conférence)
 
-  - [Rapport activité de l’utilisateur dans Lync Server 2013](lync-server-2013-user-activity-report.md) (en cliquant sur la métrique de l’URI de la Conférence)
+  - [Rapport d’activité de l’utilisateur dans Lync Server 2013](lync-server-2013-user-activity-report.md) (en cliquant sur la mesure URI de la Conférence)
 
-À partir du rapport Détails de la Conférence, vous pouvez accéder au [rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur le rapport de diagnostic.
+À partir du rapport détaillé de conférence, vous pouvez accéder au [rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur la mesure rapport de diagnostic (détail).
 
 </div>
 
@@ -89,10 +89,10 @@ Le tableau qui suit répertorie les informations fournies dans la section Inform
 <td><p><strong>URI de la conférence</strong></p></td>
 <td></td>
 <td><p>URI affectée à la conférence. Par exemple :</p>
-<p>sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4</p></td>
+<p>SIP : kmyer@litwareinc. com ; gruu ; opaque = app : conf : Focus : ID : drg2y8v4</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FQDN du pool</strong></p></td>
+<td><p><strong>Nom de domaine complet du pool</strong></p></td>
 <td></td>
 <td><p>Nom de domaine complet du pool de serveurs d’inscriptions ou serveur Edge impliqué dans une session.</p></td>
 </tr>
@@ -102,14 +102,14 @@ Le tableau qui suit répertorie les informations fournies dans la section Inform
 <td><p>Date et heure auxquelles la conférence a commencé.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Organisateur</strong></p></td>
+<td><p><strong>Organizer</strong></p></td>
 <td></td>
 <td><p>Adresse SIP de l’utilisateur qui a organisé la conférence.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Heure de fin</strong></p></td>
 <td></td>
-<td><p>Date et heure de fin de la conférence.</p></td>
+<td><p>Date et heure auxquelles la conférence s’est terminée.</p></td>
 </tr>
 </tbody>
 </table>
@@ -134,12 +134,12 @@ Le tableau qui suit répertorie les informations fournies dans la section Partic
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Utilisateur</strong></p></td>
+<td><p><strong>User</strong></p></td>
 <td></td>
 <td><p>Adresse SIP de l’utilisateur qui a participé à la conférence.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Rôle</strong></p></td>
+<td><p><strong>Role</strong></p></td>
 <td></td>
 <td><p>Rôle (par exemple, présentateur) joué par le participant à la conférence.</p></td>
 </tr>
@@ -172,7 +172,7 @@ Le tableau qui suit répertorie les informations fournies dans la section Partic
 </table>
 
 
-Le tableau suivant répertorie les informations fournies dans la section modalités de la Conférence du rapport Détails de la Conférence.
+Le tableau suivant répertorie les informations fournies dans la section modalités de conférence du rapport détaillé de conférence.
 
 ### <a name="conference-modalities-metrics"></a>Mesures des modalités de conférence
 
@@ -191,7 +191,7 @@ Le tableau suivant répertorie les informations fournies dans la section modalit
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Utilisateur</strong></p></td>
+<td><p><strong>User</strong></p></td>
 <td></td>
 <td><p>Adresse SIP de l’utilisateur qui a participé à la conférence.</p></td>
 </tr>

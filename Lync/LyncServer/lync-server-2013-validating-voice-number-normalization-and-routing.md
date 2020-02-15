@@ -12,16 +12,16 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16739595878b0c67b37f988295a4b02877a3a6fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbc15dc47a7eeee0b7fb4bd49ba5ea2584e94fe7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757928"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,32 +37,32 @@ ms.locfileid: "41757928"
 
 _**Dernière modification de la rubrique :** 2014-05-19_
 
-Le bon fonctionnement de la normalisation et du routage des numéros est essentiel pour l’environnement d’entreprise voix. En particulier lors des migrations de l’échange de succursales privées vers un environnement Lync Server autonome, l’une des clés de la migration réussie consiste à afficher et à documenter toutes les règles de numérotation existantes, et à créer des règles de normalisation appropriées, des politiques vocales, utilisations et itinéraires du téléphone.
+La normalisation des numéros et le routage sont très importants pour l’environnement voix entreprise fonctionnel. En particulier lors des migrations de PBX vers un environnement Lync Server autonome, l’une des clés de la migration est de révéler et de documenter toutes les règles de numérotation existantes, et de créer des règles de normalisation appropriées, des stratégies de voix utilisations et itinéraires téléphoniques.
 
-La validation de la normalisation et de l’acheminement des numéros est important non seulement pendant les migrations, mais également dans le cadre du fonctionnement normal et stable du système.
+La validation de la normalisation et du routage des nombres est importante non seulement pendant les migrations, mais aussi pendant une opération normale et stable du système.
 
-Nous vous recommandons d’effectuer cette validation quotidiennement en utilisant le panneau de configuration de Lync Server, en commençant par le développement d’un ensemble de scénarios de test puissants par rapport à l’ensemble actuel de règles de normalisation publiées dans les paramètres globaux de Lync Server. Ces cas de test doivent être exécutés quotidiennement pour mettre en évidence les modifications indésirables apportées et validées au plan de numérotation.
+Nous vous recommandons d’effectuer cette validation tous les jours à l’aide du panneau de configuration Lync Server, en commençant par le développement d’un ensemble robuste de cas de test par rapport à l’ensemble actuel de règles de normalisation publiées dans les paramètres globaux de Lync Server. Ces cas de test doivent être exécutés tous les jours pour mettre en évidence les modifications non souhaitées qui ont été apportées au plan de numérotation.
 
-Le panneau de configuration de Lync Server vous permet également de visualiser, de tester, de modifier, d’archiver et de partager des informations de configuration sur le routage de la voix et de modifier les règles de normalisation des numéros vocaux d’entreprise, les plans de numérotation, la politique vocale et les itinéraires. Les fonctionnalités suivantes sont disponibles pour effectuer les opérations suivantes :
+Le panneau de configuration Lync Server vous permet également de visualiser, de tester, de modifier, d’archiver et de partager des informations de configuration sur le routage des communications vocales et de modifier les règles de normalisation des numéros de voix de l’entreprise, les plans de numérotation, la stratégie de voix et les itinéraires. Il comporte des fonctionnalités supplémentaires permettant d’effectuer les opérations suivantes :
 
-  - Exportation et importation ou sauvegarde de données de routage de la voix entre systèmes ;
+  - L’exportation et l’importation de données de routage des communications vocales entre les systèmes ;
 
-  - Test de la configuration avant de les télécharger sur un système en direct.
+  - Test des modifications de configuration avant leur téléchargement vers un système actif.
 
-  - Création et exécution de cas de test de configuration pour garantir la facilité d’utilisation du routage des données après avoir apporté des modifications à celui-ci, mais avant de les valider.
+  - La création et l’exécution de cas de test de configuration pour garantir la convivialité des données de routage après les avoir modifiées, mais avant de les soumettre à un système déployé.
 
-  - La création et la modification des règles de normalisation des numéros, des profils d’emplacement, de la stratégie vocale et des données de routage sans écrire les expressions régulières nécessaires.
+  - Création et modification des règles de normalisation des numéros, des profils d’emplacement, de la stratégie de voix et des données de routage sans avoir à écrire les expressions régulières nécessaires.
 
-  - Analyse d’un profil d’emplacement à des fins de compatibilité avec Lync Server Phone Edition.
+  - Analyse d’un profil d’emplacement pour la compatibilité avec Lync Server Phone Edition.
 
-  - Vous trouverez des informations supplémentaires sur les tests de routage [de voix dans la boîte de test routage de la voix dans Lync Server 2013](lync-server-2013-test-voice-routing.md)
+  - Vous trouverez plus d’informations sur les tests de routage des communications vocales [dans test de routage des communications vocales dans Lync Server 2013](lync-server-2013-test-voice-routing.md)
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Test du routage des communications vocales dans Lync Server 2013](lync-server-2013-test-voice-routing.md)  
+[Tester le routage des communications vocales dans Lync Server 2013](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

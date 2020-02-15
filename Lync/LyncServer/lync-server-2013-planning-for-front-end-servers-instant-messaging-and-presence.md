@@ -12,16 +12,16 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a481953037ec818378c931a28ce8892c1a486d72
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d0ec31823f4fe7fc5872f9d4266306186703aa2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752234"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41752234"
 
 _**Dernière modification de la rubrique :** 2012-09-13_
 
-Les serveurs frontaux fournissent une grande partie de la fonctionnalité Lync Server et sont inclus dans chaque déploiement de Lync Server. La messagerie instantanée et la présence sont des fonctionnalités principales de Lync Server, qui sont déployées et activées automatiquement dans chaque installation de Lync Server. Les sections suivantes fournissent des informations supplémentaires sur les serveurs front end, la messagerie instantanée et la présence.
+Les serveurs frontaux fournissent la plupart des fonctionnalités Lync Server et sont inclus dans chaque déploiement Lync Server. La messagerie instantanée et la présence sont des fonctionnalités de base de Lync Server, qui sont automatiquement déployées et activées dans chaque installation de Lync Server. Les sections suivantes fournissent des informations supplémentaires sur les serveurs frontaux, la messagerie instantanée et la présence.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Fonctionnalités de serveurs frontaux, de messagerie instantanée et de présence dans Lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
+  - [Fonctionnalités des serveurs frontaux, de la messagerie instantanée et de la présence dans Lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
 
   - [Définition de la configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Topologies et composant utilisés pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Topologies et composants pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Configuration technique requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
 </div>
 

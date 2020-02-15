@@ -1,5 +1,5 @@
 ---
-title: Connexion d’une Survivable Branch Appliance
+title: Connexion d’un Survivable Branch Appliance
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ef6294deba25998c5ad16254e464b6f682fa660
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 77382343fa7736c90ac208f8d13f81bc74969efa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Connexion d’une Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>Connexion d’un Survivable Branch Appliance
 
 </div>
 
@@ -37,60 +37,60 @@ ms.locfileid: "41723164"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Chaque appareil de branchement survivant (SBA) est associé à une réserve frontale qui sert de bureau d’enregistrement de sauvegarde pour le SBA. Lorsque le pool frontal a été déplacé vers Lync Server 2013, le SBA doit être désassocié du pool frontal 2010 de Lync Server lors de la mise à niveau du pool, une fois que le pool a été migré vers Lync Server 2013, il est possible de le réassocier à l’adresse du pool frontal mis à niveau. Cela implique la suppression de l’SBA de la topologie Lync Server 2010 héritée dans le générateur de topologie, puis l’ajout de l’SBA à la topologie de Lync Server 2013. Les utilisateurs hébergés sur l’ancien serveur Lync Server 2010 SBA doivent d’abord être déplacés vers un autre pool frontal avant de supprimer l’SBA de la topologie. Dès lors que l’SBA est ajouté à la topologie Lync Server 2013, les utilisateurs peuvent ensuite être repassés à l’adresse SBA. Ces étapes sont décrites ci-dessous :
+Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de serveur d’inscriptions de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Lync Server 2013, le SBA doit être désassocié à partir du pool frontal Lync Server 2010, tandis que le pool est mis à niveau, une fois le pool migré vers Lync Server 2013, le SBA peut être réassocié au pool frontal mis à niveau. Cela implique de supprimer le SBA de la topologie Lync Server 2010 héritée dans le générateur de topologie, puis d’ajouter le SBA à la topologie Lync Server 2013. Les utilisateurs hébergés sur l’ancien Lync Server 2010 SBA doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA est ajouté à la topologie Lync Server 2013, ces utilisateurs peuvent ensuite être déplacés vers le SBA. Voici un récapitulatif de ces étapes :
 
-1.  Déplacer les utilisateurs de succursales hébergés sur l’ancien réseau Lync Server 2010 vers un autre pool frontal.
+1.  Déplacez les utilisateurs de succursale hébergés sur l’ancien SBA Lync Server 2010 vers un autre pool frontal.
 
-2.  Supprimez SBA de la topologie de Lync Server 2010 héritée pour déconnecter le pool frontal existant en tant qu’Bureau d’enregistrement de sauvegarde.
+2.  Supprimez SBA de la topologie Lync Server 2010 héritée pour déconnecter le pool frontal existant en tant que serveur d’inscriptions de sauvegarde.
 
-3.  Ajoutez SBA à la topologie Lync Server 2013 et configurez ce nouveau pool frontal comme bureau d’enregistrement de sauvegarde.
+3.  Ajoutez SBA à la topologie Lync Server 2013 et configurez ce nouveau pool frontal comme serveur d’inscriptions de sauvegarde.
 
-4.  Déplacez les utilisateurs de la succursale vers le nouveau Lync Server 2013 SBA.
+4.  Déplacez les utilisateurs de succursale vers le nouveau Lync Server 2013 SBA.
 
-**Ajouter le site de succursale Lync Server 2010 SBA à votre topologie**
+**Ajouter le site de succursale SBA Lync Server 2010 à votre topologie**
 
 1.  Ouvrez le **Générateur de topologie**.
 
-2.  Dans le volet gauche, cliquez avec le bouton droit sur **sites de succursales**, puis cliquez sur **nouveau site de succursale**.
+2.  Dans le volet gauche, cliquez avec le bouton droit sur **Sites de succursale**, puis cliquez sur **Nouveau site de succursale**.
 
-3.  Dans la boîte de dialogue **définir un nouveau site de succursale** , cliquez sur **nom**, puis tapez le nom du site de la succursale.
+3.  Dans la boîte de dialogue **Définir un nouveau site de succursale**, cliquez sur **Nom**, puis entrez le nom du site de succursale.
 
-4.  Facultatif Cliquez sur **Description**, puis tapez une description significative pour le site de la succursale.
+4.  (Facultatif) Cliquez sur **Description**, puis tapez une description explicite pour le site de succursale.
 
 5.  Cliquez sur **Suivant**.
 
-6.  Facultatif Dans la boîte de dialogue **définir un nouveau site de succursale** suivante, effectuez l’une des opérations suivantes :
+6.  (Facultatif) Dans la boîte de dialogue **Définir un nouveau site de succursale** qui suit, effectuez l’une des opérations suivantes :
     
-    1.  Cliquez sur **City**, puis tapez le nom de la ville dans laquelle se trouve le site de la succursale.
+    1.  Cliquez sur **Ville**, puis tapez le nom de la ville dans laquelle se trouve le site de succursale.
     
-    2.  Cliquez sur **état/région**, puis tapez le nom de l’État ou de la région où se trouve le site de la succursale.
+    2.  Cliquez sur **Dép./Région**, puis tapez le nom du département ou de la région où se trouve le site de succursale.
     
-    3.  Cliquez sur **indicatif du pays**, puis tapez le code d’appel à deux chiffres correspondant au pays/la région où se trouve le site de la succursale.
+    3.  Cliquez sur **Code du pays**, puis tapez le code d’appel à deux chiffres du pays ou de la région du site de succursale.
 
-7.  Cliquez sur **suivant**, puis effectuez l’une des opérations suivantes :
+7.  Cliquez sur **Suivant** et effectuez l’une des opérations suivantes :
     
-    1.  Si vous utilisez une application de succursale ou un serveur Lync 2010 sur ce site, veillez à désactiver l’option **ouvrir le nouvel Assistant survie lorsque cet Assistant se ferme** . Cliquez sur **Terminer**.
+    1.  Si vous utilisez un SBA ou un serveur Lync 2010 sur ce site, assurez-vous d’avoir désactivé la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**. Cliquez sur **Terminer**.
 
-8.  Pour associer l’ancien serveur Lync Server 2010 SBA au pool frontal 2013 Server, procédez comme suit :
+8.  Pour associer l’ancien serveur Lync Server 2010 SBA au pool frontal Lync Server 2013, procédez comme suit :
     
-    1.  Développez le site de succursale qui a été créé.
+    1.  Développez le site de succursale créé.
     
-    2.  Cliquez avec le bouton droit sur **Lync Server 2010** , puis cliquez sur **nouveau**.
+    2.  Cliquez avec le bouton droit sur **Lync Server 2010** puis cliquez sur **Nouveau**.
     
-    3.  Cliquez sur l' **application branchement Survivable...**
+    3.  Cliquez sur **Survivable Branch Appliance…**
 
-9.  Suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, voir [définir une unité ou un serveur de succursales survivant dans Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+9.  Suivez les instructions de l’Assistant qui s’ouvre. Pour plus d’informations sur les éléments de l’Assistant, voir [define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
     <div>
     
 
     > [!NOTE]  
-    > Une unité de branchement de Lync Server 2010 Survivable ne peut être associée qu’à un magasin de contrôle d' 2010 serveur Lync.
+    > Une appliance Survivable Branch Lync Server 2010 ne peut être associée qu’à un magasin de surveillance Lync Server 2010.
 
     
     </div>
 
-10. Si vous n’utilisez pas d’appareil ou serveur de succursales survivant sur ce site, désactivez la case à cocher **ouvrir le nouvel Assistant survie lorsque cet Assistant se ferme** , puis cliquez sur **Terminer**.
+10. Si vous n’utilisez pas de SBA ou de serveur sur ce site, désactivez la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**, puis cliquez sur **Terminer**.
 
 11. Répétez les étapes précédentes pour chaque site de succursale que vous voulez ajouter à la topologie.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : suppression d’une file d’attente de groupe de réponses'
+title: 'Lync Server 2013 : suppression d’une file d’attente Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ee159d95a21b351da21c76cd04209da1c4ee938
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740984"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Supprimer une file d’attente de groupe de réponses dans Lync Server 2013
+# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Supprimer une file d’attente Response Group dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41740984"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Pour supprimer une file d’attente, utilisez l’une des procédures suivantes.
+Utilisez l’une des procédures suivantes pour supprimer une file d’attente.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>Pour supprimer une file d’attente à l’aide du panneau de configuration de Lync Server
+## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>Pour supprimer une file d’attente à l’aide du panneau de configuration Lync Server
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **File d’attente**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Groupes Response Group**, puis sur **File d’attente**.
 
-4.  Dans le champ de recherche, tapez tout ou partie du nom de la file d’attente que vous voulez supprimer.
+4.  Dans le champ de recherche, tapez entièrement ou partiellement le nom de la file d’attente que vous souhaitez supprimer.
 
-5.  Dans la liste des files d’attente, cliquez sur la file d’attente de votre choix, cliquez sur **modifier**, puis cliquez sur **supprimer**.
+5.  Dans la liste des files d’attente, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
 
@@ -61,11 +61,11 @@ Pour supprimer une file d’attente, utilisez l’une des procédures suivantes.
 
 ## <a name="to-use-windows-powershell-to-delete-a-queue"></a>Pour utiliser Windows PowerShell pour supprimer une file d’attente
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Dans la ligne de commande, exécutez la commande suivante :
+3.  À partir de la ligne de commande, exécutez la commande suivante :
     
         Get-CsRgsQueue -Identity <Application Server service> -Name "<name of queue>" | Remove-CsRgsQueue
     

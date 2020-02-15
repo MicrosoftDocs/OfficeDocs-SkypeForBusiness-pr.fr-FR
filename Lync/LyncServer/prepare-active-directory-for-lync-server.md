@@ -12,16 +12,16 @@ ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bface3b7e2515ed7ec8a8f3d78f21e867a6d6c00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83ab13e614eb88f4089c0dc87bd8a590455a8ed2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41727344"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-Avant de déployer Lync Server 2013 dans un état de coexistence avec Lync Server 2010, vous devez effectuer des tâches Active Directory supplémentaires pour configurer le schéma, la forêt et le domaine pour Lync Server 2013. Les extensions de schéma ajoutent les classes et attributs Active Directory requis par Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+Avant de déployer Lync Server 2013 dans un état de coexistence avec Lync Server 2010, vous devez effectuer certaines tâches Active Directory supplémentaires pour configurer le schéma, la forêt et le domaine pour Lync Server 2013. Les extensions de schéma ajoutent les classes et attributs Active Directory requis par Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
 
 **Pour préparer Active Directory pour Lync Server 2013**
 
@@ -49,7 +49,7 @@ Avant de déployer Lync Server 2013 dans un état de coexistence avec Lync Serve
 
 3.  Effectuez les étapes 1 à 5.
     
-    ![Assistant Déploiement, Prearation Active Directory](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Assistant Déploiement, Prearation Active Directory")
+    ![Assistant Déploiement, Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Assistant Déploiement, Active Directory Prearation")
 
 </div>
 

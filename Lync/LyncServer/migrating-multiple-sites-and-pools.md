@@ -12,16 +12,16 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2f01303c7fe137253d8e993edb05e9562d963ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52e14cccb9856534ea9b7229fd020edc2ec21dba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036056"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765252"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-Lync Server 2013 prend en charge les déploiements multisites et à plusieurs pools. Le processus de migration de plusieurs pools de Lync Server 2010 vers Lync Server 2013 nécessite les éléments suivants :
+Lync Server 2013 prend en charge les déploiements multisites et à plusieurs pools. Le processus de migration de plusieurs pools de Lync Server 2010 vers Lync Server 2013 nécessite les considérations suivantes :
 
-1.  Après le déploiement d’un pool de pilotes de Lync Server 2013, vous devez définir un sous-ensemble d’utilisateurs pilote qui seront déplacés vers le pool Lync Server 2013 et une méthodologie permettant de valider les fonctionnalités des utilisateurs. Par exemple, après le déplacement d’un utilisateur vers le pool de pilotes, vérifiez que la stratégie de conférence de l’utilisateur a été déplacée vers Lync Server 2013.
+1.  Après avoir déployé un pool pilote Lync Server 2013, vous devez définir un sous-ensemble d’utilisateurs pilotes qui seront déplacés vers le pool Lync Server 2013, ainsi qu’une méthodologie pour la validation de la fonctionnalité des utilisateurs. Par exemple, après avoir déplacé un utilisateur vers le pool pilote, vérifiez que la stratégie de conférence de l’utilisateur a été déplacée vers Lync Server 2013.
 
-2.  Après le déploiement d’un serveur de périphérie dans le pool de pilotes, vous devez vérifier que les utilisateurs externes peuvent communiquer avec le pool Lync Server 2013.
+2.  Après avoir déployé un serveur Edge dans le pool pilote, vous devez vérifier que les utilisateurs externes peuvent communiquer avec le pool Lync Server 2013.
 
-3.  Après avoir basculé les itinéraires fédérés de Lync Server 2010 Edge Server vers les serveurs de périphérie de Lync Server 2013, vous devez vérifier que les utilisateurs fédérés peuvent communiquer avec le pool Lync Server 2013.
+3.  Après avoir effectué la transition des itinéraires fédérés des serveurs Edge Lync Server 2010 vers les serveurs Edge de Lync Server 2013, vous devez vérifier que les utilisateurs fédérés peuvent communiquer avec le pool Lync Server 2013.
 
-4.  Après avoir déplacé tous les utilisateurs et les objets de contact non-utilisateur, vous devez vérifier que le pool Lync Server 2010 est vide.
+4.  Après avoir déplacé tous les utilisateurs et les objets contact non-utilisateur, vous devez vérifier que le pool Lync Server 2010 est vide.
 
 5.  Après avoir vérifié que le pool Lync Server 2010 est vide, vous pouvez désactiver le pool.
     
-    Pour plus d’informations sur la désactivation du pool et des serveurs hérités de Lync Server 2010, voir [phase 8 : désactiver les pools hérités](phase-8-decommission-legacy-pools.md).
+    Pour plus d’informations sur la façon de désactiver le pool et les serveurs Lync Server 2010 hérités, voir [phase 8 : retirer les pools hérités](phase-8-decommission-legacy-pools.md).
 
 </div>
 

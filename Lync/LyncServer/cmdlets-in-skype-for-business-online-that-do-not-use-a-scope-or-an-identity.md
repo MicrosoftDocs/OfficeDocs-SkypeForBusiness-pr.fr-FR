@@ -1,5 +1,5 @@
 ---
-title: Cmdlets dans Skype entreprise Online qui n’utilisent pas d’étendue ou d’identité
+title: Applets de commande dans Skype entreprise Online qui n’utilisent pas d’étendue ni d’identité
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,33 +12,33 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3dfc2ee8cd812b597f363934475d1996f2e42a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad366315bbc4acf5afb417262da92a5683a084df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727594"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001729"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Cmdlets dans Skype entreprise Online qui n’utilisent pas d’étendue ou d’identité
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Applets de commande dans Skype entreprise Online qui n’utilisent pas d’étendue ni d’identité
 
  
 
 
-Les applets de passe utilisés lors de la modification des listes autorisées et des listes bloquées (listes qui déterminent les organisations externes avec lesquelles les utilisateurs sont autorisés à communiquer) n’utilisent pas d’étendue ou d’identité. En fait, l’applet **de nouvelle applet de CsEdgeAllowAllKnownDomains** n’a aucun paramètre. Les applets de applet qui n’utilisent pas d’étendue ou d’identité sont les suivantes :
+Les applets de commande utilisées lors de la modification des listes autorisées et des listes bloquées (listes qui déterminent les organisations externes avec lesquelles vos utilisateurs sont autorisés à communiquer) n’utilisent ni une étendue ni une identité. En fait, la cmdlet **New-CsEdgeAllowAllKnownDomains** n’a aucun paramètre. Les applets de commande qui n’utilisent ni une étendue ni une identité sont les suivantes :
 
-  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))
+  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
-  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))
+  - [New-CsEdgeAllowList](https://technet.microsoft.com/library/jj994023\(v=ocs.15\))
 
-  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))
+  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-Notez que, avec l’applet **de nouvelle cmdlet New-CsEdgeAllowList** et la cmdlet **New-CsEdgeDomainPattern** , vous devez inclure le paramètre domain. Par exemple :
+Notez que, avec la cmdlet **New-CsEdgeAllowList** et la cmdlet **New-CsEdgeDomainPattern** , vous devez inclure le paramètre domain. Par exemple :
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Identités, étendues et clients dans Skype entreprise Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Identités, étendues et locataires dans Skype entreprise Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Applets de commande Skype entreprise Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

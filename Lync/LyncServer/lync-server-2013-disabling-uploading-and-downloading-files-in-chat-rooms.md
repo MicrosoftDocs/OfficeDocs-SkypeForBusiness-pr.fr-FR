@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation'
+title: 'Lync Server 2013 : désactivation du chargement et du téléchargement de fichiers dans les salles de conversation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 324845a2be7fd7a0479842d082e1f5e0f38c5e99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e7fd1b65e11d6aa933fcd0ae24b6eb5c7f2698c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757728"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-Par défaut, les utilisateurs peuvent charger et télécharger des fichiers dans les messages qu’ils publient. Vous pouvez désactiver cette fonctionnalité et empêcher les utilisateurs de télécharger et de télécharger des fichiers de deux manières :
+Par défaut, les utilisateurs peuvent télécharger des fichiers vers et depuis les messages qu’ils publient. Vous disposez de deux moyens pour désactiver cette fonctionnalité et empêcher les utilisateurs de télécharger des fichiers :
 
-  - Empêcher tous les utilisateurs de télécharger et de télécharger des fichiers dans une catégorie ou une salle de conversation permanente.
+  - Empêcher tous les utilisateurs de télécharger des fichiers dans une salle de conversation permanente ou une catégorie de salle de conversation.
 
-  - Empêcher certains utilisateurs de télécharger et de télécharger des fichiers dans une salle de conversation. L’utilisateur ne peut pas charger et télécharger des fichiers dans une salle de conversation, y compris des salles de conversation autorisant le chargement et le téléchargement de fichiers.
+  - en empêchant un utilisateur donné de télécharger des fichiers vers et depuis toutes les salles de conversation. L’utilisateur ne peut télécharger de fichiers depuis et vers aucune salle de conversation, même dans celles qui l’autorisent.
 
-Pour plus d’informations sur l’activation et la désactivation du chargement et du téléchargement de fichiers, voir [configurer des catégories dans Lync Server 2013](lync-server-2013-configure-categories.md) et [gérer les catégories](manage-categories.md) dans la documentation de déploiement.
+Pour plus d’informations sur l’activation et la désactivation du chargement et du téléchargement de fichiers, voir [configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) et [Manage categories](manage-categories.md) dans la documentation de déploiement.
 
 </div>
 

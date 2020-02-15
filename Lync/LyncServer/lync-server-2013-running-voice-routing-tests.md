@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Exécution des tests de routage des communications vocales'
+title: 'Lync Server 2013 : exécution des tests de routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869966f5d315fdfaa92409a7586b9eec8fd01ec4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765032"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41765032"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Lync Server 2013 fournit deux méthodes différentes pour tester les itinéraires vocaux : vous pouvez effectuer des tests informels et ponctuels sur n’importe quel numéro de téléphone et n’importe quel itinéraire vocal. vous pouvez ou effectuer des tests plus formels à l’aide de cas de test de la gamme vocale. Dans le cadre de tests officiels, vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la stratégie vocale à utiliser, et Lync Server peut alors vérifier que le numéro fourni peut être acheminé au réseau PSTN. Ces deux méthodes sont décrites dans les sections suivantes de cette documentation.
+Lync Server 2013 fournit deux méthodes différentes pour tester les itinéraires vocaux : vous pouvez effectuer des tests informels et ad hoc sur n’importe quel numéro de téléphone et n’importe quel itinéraire des communications vocales ; ou vous pouvez effectuer des tests plus formels à l’aide de cas de test de routage des communications vocales. Avec des tests formels, vous définissez des éléments tels que le numéro à composer et le plan de numérotation et la stratégie de voix à employer, et Lync Server peut ensuite vérifier que, étant donné ces conditions, le numéro fourni peut être acheminé vers le réseau RTC. Ces deux méthodes sont décrites dans les sections suivantes de cette documentation.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Exécuter des tests de routage de voix informels dans Lync Server 2013](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [Exécuter des tests de routage des communications vocales informels dans Lync Server 2013](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [Exécuter des cas de test de routage de voix dans Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)
+  - [Exécuter des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 

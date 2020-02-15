@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : options de contournement global de médias'
+title: 'Lync Server 2013 : options globales de déviation du trafic multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 653c47cd993bac8ada899f62fa3be6700cd34c33
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b6a5f0d7a6a89b30b0ef08f8631b06fb9047616
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742414"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="global-media-bypass-options-in-lync-server-2013"></a>Options de contournement global de médias dans Lync Server 2013
+# <a name="global-media-bypass-options-in-lync-server-2013"></a>Options globales de déviation du trafic multimédia dans Lync Server 2013
 
 </div>
 
@@ -41,21 +41,21 @@ _**Dernière modification de la rubrique :** 2012-10-04_
 
 
 > [!NOTE]  
-> Cette rubrique part du principe que vous avez déjà configuré une dérivation multimédia pour des Trunks vers un homologue (une passerelle RTC (réseau téléphonique commuté), un PBX IP ou un contrôleur de bordure de session (SBC) sur un fournisseur de services de téléphonie Internet) pour un site ou un service spécifique pour vous voulez que le média ignore le serveur de médiation.
+> Cette rubrique suppose que vous ayez déjà configuré la déviation du trafic multimédia pour toutes les jonctions à un homologue (une passerelle RTC (réseau téléphonique commuté), un système IP-PBX ou un contrôleur SBC (session Border Controller) sur un fournisseur de services de téléphonie Internet) pour un site ou un service spécifique pour dont vous souhaitez que le média contourne le serveur de médiation.
 
 
 
 </div>
 
-Outre l’activation de la déviation du trafic multimédia pour des connexions de jonction associées à un homologue, vous devez également configurer les paramètres généraux de déviation du trafic multimédia. Les paramètres généraux de déviation du trafic multimédia peuvent spécifier de toujours tenter la déviation du trafic multimédia pour les appels vers le RTC ou de l’employer en utilisant le mappage des sous-réseaux vers les sites et les régions réseau, ce qui est similaire à ce que fait le contrôle d’admission des appels, une autre fonctionnalité vocale avancée. Lorsque la déviation du trafic multimédia et le contrôle d’admission des appels sont tous les deux activés, les informations relatives aux régions, aux sites et aux sous-réseaux qui sont spécifiées pour le contrôle d’admission des appels sont utilisées automatiquement pour déterminer si la déviation du trafic multimédia doit être employée. Cela signifie que vous ne pouvez pas spécifier de toujours tenter la déviation du trafic multimédia pour les appels vers le RTC lorsque le contrôle d’admission des appels est activé.
+En plus d’activer le contournement de média pour des connexions de jonction associées à un homologue, vous devez également configurer les paramètres globaux du contournement de média. Les paramètres globaux de contournement de média peuvent spécifier que la déviation du trafic multimédia pour les appels au réseau téléphonique commuté est toujours effectuée ou que cette déviation du trafic multimédia est employée en utilisant le mappage des sous-réseaux aux sites réseau et aux régions réseau, de la même manière que le contrôle d’admission des appels, un autre fonctionnalité vocale avancée. Lorsque la déviation du trafic multimédia et le contrôle d’admission des appels sont tous les deux activés, les informations de région réseau, de site réseau et de sous-réseau spécifiées pour le contrôle d’admission des appels sont automatiquement utilisées pour déterminer s’il faut employer le contournement de média. Cela signifie que vous ne pouvez pas spécifier que la déviation du trafic multimédia est toujours tentée pour les appels au réseau téléphonique commuté lorsque le contrôle d’admission des appels est activé.
 
-Cette rubrique décrit l’utilisation conjointe du panneau de configuration de Lync Server et de Lync Server Management Shell pour configurer les paramètres globaux de contournement de médias.
+Cette rubrique décrit comment utiliser le panneau de configuration Lync Server et Lync Server Management Shell conjointement pour configurer les paramètres globaux de contournement de média.
 
 <div>
 
 
 > [!NOTE]  
-> Pour configurer la déviation du trafic multimédia en suivant cette procédure, la connectivité entre les clients et l’homologue du serveur de médiation (par exemple, une passerelle RTC, un PBX IP ou un contrôleur SBC d’un fournisseur de jonction SIP [Session Initiation Protocol]) doit être de bonne qualité. Si des restrictions de bande passante sont appliquées sur la liaison, la déviation du trafic multimédia ne peut pas être appliquée aux appels. La déviation du trafic multimédia ne va pas interagir avec chaque passerelle RTC, chaque système IP-PBX et chaque contrôleur SBC. Microsoft a testé une série de passerelles RTC et de SBC avec l’aide de partenaires agréés et a réalisé des tests avec les systèmes IP-PBX de Cisco. La dérivation de média est uniquement prise en charge avec les produits et les versions indiqués sur le programme d’interopérabilité d’ouverture de communications unifiées-Lync Server à <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> Pour configurer le contournement de média en suivant cette procédure, la connectivité entre les clients et l’homologue du serveur de médiation (par exemple, une passerelle PSTN, un PBX IP ou un contrôleur de frontière de session d’un fournisseur de jonction SIP) doit être bonne. Si des restrictions de bande passante sont appliquées sur la liaison, le contournement de média ne peut pas être appliqué aux appels. Le contournement de média ne va pas interagir avec chaque passerelle PSTN, chaque système IP-PBX et chaque SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à.
 
 
 
@@ -63,13 +63,13 @@ Cette rubrique décrit l’utilisation conjointe du panneau de configuration de 
 
 <div>
 
-## <a name="next-steps-choose-global-media-bypass-settings"></a>Étapes suivantes : sélectionner les paramètres globaux de contournement du média
+## <a name="next-steps-choose-global-media-bypass-settings"></a>Étapes suivantes : choisir les paramètres globaux du contournement de média
 
-Une fois que vous avez activé la contournement multimédia sur une connexion de Trunk à un homologue pour des sites ou services spécifiques, utilisez le contenu suivant :
+Après avoir activé le contournement de média sur des connexions de jonction vers un homologue pour des sites ou des services spécifiques, utilisez le contenu suivant pour :
 
-  - Activez toujours la dérivation multimédia, comme décrit dans la rubrique [configurer la contournement multimédia dans Lync Server 2013 pour ignorer toujours le serveur de médiation](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md).
+  - Activez toujours la déviation du trafic multimédia, comme indiqué dans [configure Media Bypass in Lync Server 2013 pour toujours contourner le serveur de médiation](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md).
 
-  - Vous pouvez aussi configurer la contournement multimédia pour utiliser les informations sur les sites et les régions, comme décrit dans [configurer les paramètres globaux de contournement du contenu multimédia dans Lync Server 2013 pour utiliser les informations relatives au site et à la région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md).
+  - Ou configurez la déviation du trafic multimédia pour utiliser les informations de site et de région, comme indiqué dans [configure Media Bypass Global Settings in Lync Server 2013 pour utiliser les informations de site et de région](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md).
 
 </div>
 
@@ -78,12 +78,12 @@ Une fois que vous avez activé la contournement multimédia sur une connexion de
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Association d’un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
 
 
-[Configuration de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
-[Déviation du trafic multimédia et serveur de médiation dans Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
+[Configurer la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
+[Contournement de média et serveur de médiation dans Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
   
 
 </div>

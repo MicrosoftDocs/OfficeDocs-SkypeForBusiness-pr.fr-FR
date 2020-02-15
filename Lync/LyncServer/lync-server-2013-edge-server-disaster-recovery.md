@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Récupération d’urgence de serveur Edge'
+title: 'Lync Server 2013 : récupération d’urgence de serveur Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 431b4853407b65bca2b029626cc5659490a493d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd85a769d021aae6873a50a719a6043ef72f770
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733494"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41733494"
 
 _**Dernière modification de la rubrique :** 2014-03-12_
 
-Comme pour les autres rôles de serveur, la meilleure façon de garantir la disponibilité de votre serveur Edge consiste à déployer plusieurs serveurs Edge dans les pools de chaque site. Si un serveur Edge est hors service, les autres serveurs du pool continuent de fournir les services Edge.
+Comme avec les autres rôles serveur, le meilleur moyen d’offrir une haute disponibilité pour vos serveurs Edge consiste à déployer plusieurs serveurs Edge dans des pools pour chaque site. Si un serveur Edge tombe en panne, les autres serveurs dans le pool continueront à assurer les services Edge.
 
-Pour activer les procédures de récupération d’urgence, vous devez déployer des pools de serveurs de bord séparés sur des sites distincts. Vous n’avez pas besoin de jumeler explicitement les pools d’arête comme pour les pools frontaux, mais le fait de disposer de plusieurs pools de bords vous permet d’assurer la mise en place de l’intégralité d’un pool de périphérie. Les sections suivantes fournissent des détails sur la récupération après sinistre pour les diverses fonctions des serveurs de périphérie.
+Pour activer les procédures de récupération d’urgence, vous devez avoir déployé des pools de serveurs Edge distincts sur chaque site. Vous n’avez pas besoin d’associer par deux des pools Edge de façon explicite comme vous le feriez avec des pools frontaux, mais le fait de disposer de plusieurs pools Edge permet de maintenir l’activité si un pool Edge entier tombe en panne. Les sections suivantes décrivent la récupération d’urgence pour les différentes fonctions des serveurs Edge.
 
 <div>
 
 ## <a name="remote-access"></a>Accès à distance
 
-Si vous disposez de plusieurs sites, chacun avec un pool de serveurs Edge et l’ensemble d’un pool de périphérie tombe en panne, les services d’accès à distance continuent de fonctionner sans intervention de l’administrateur. Vous ne pouvez pas utiliser le même nom de domaine complet lors de la création de pools Edge dans différents sites. Chaque pool Edge doit être doté d’un FQDN unique (interne et externe). Les pools de bords n’utilisent pas les règles de publication de proxy inverse pour parler aux serveurs frontaux. Le basculement automatique se produit lorsque le client réactive les enregistrements du service DNS d’accès à distance et que les utilisateurs distants sont routés vers les serveurs de périphérie d’un autre site. Le client tente de chaque nom de domaine complet de bord externe en fonction de la priorité des enregistrements SRV DNS.
+Si vous avez plusieurs sites, chacun d’eux disposant d’un pool de serveurs Edge et que l’un des pools de serveurs Edge échoue, les services d’accès à distance continuent de fonctionner sans avoir besoin de l’intervention de l’administrateur. Lors de la création de pools de serveurs Edge dans des sites différents, vous ne pouvez pas utiliser le même nom de domaine complet. Chaque pool Edge doit avoir des noms de domaine complets uniques (internes et externes). Les pools de serveurs Edge n’utilisent pas de règles de publication de proxy inverse pour communiquer avec les serveurs frontaux. Le basculement automatique se produit lorsque le client interroge à nouveau les enregistrements du service DNS d’accès à distance et que les utilisateurs distants sont routés vers les serveurs Edge dans un autre site. Le client tente de faire chaque nom de domaine complet Edge externe en fonction de la priorité des enregistrements SRV DNS.
 
 <div>
 
 
 > [!NOTE]  
-> Pour que le basculement fonctionne sans problèmes, assurez-vous que le pare-feu permet aux serveurs frontaux de chaque pool de communiquer avec tous les serveurs Edge.
+> Pour que le basculement fonctionne correctement, assurez-vous que le pare-feu autorise les serveurs frontaux de chaque pool à communiquer avec tous les serveurs Edge.
 
 
 
@@ -63,9 +63,9 @@ Si vous disposez de plusieurs sites, chacun avec un pool de serveurs Edge et l�
 
 ## <a name="federation"></a>Fédération
 
-Pour les relations de Fédération avec d’autres organisations exécutant Lync Server, les demandes de Fédération entrante continuent de fonctionner aussi longtemps que vous disposez de solutions comme géo-DNS GTM. Il est important de comprendre que le basculement de la Fédération ne fournit pas de basculement avec la priorité dans les enregistrements SRV. Une solution fournie précédemment peut vous aider à fournir des fonctionnalités de reprise après sinistre pour la Fédération entrante.
+Pour les relations de Fédération avec d’autres organisations exécutant Lync Server, les demandes de Fédération entrantes continueront de fonctionner aussi longtemps que vous avez des solutions comme géo-DNS GTM. Il est important de comprendre que le basculement de Fédération ne fournit pas de basculement avec la priorité dans les enregistrements SRV. Une solution fournie précédemment peut vous aider à fournir des fonctionnalités de récupération d’urgence pour la Fédération entrante.
 
-La Fédération sortante est toujours configurée par le biais d’un pool d’organisations ou d’un serveur de périphérie publié au sein de l’organisation. Dans le cas contraire, vous devez utiliser le générateur de topologie pour modifier l’itinéraire de Fédération sortant et utiliser un pool de bords qui est toujours en cours d’exécution. Pour plus d’informations, reportez-vous à [échec du pool Edge utilisé pour la Fédération Lync Server dans Lync server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+La fédération sortante est toujours configurée par le biais d’un pool ou d’un serveur Edge publié dans l’organisation. Si ce pool Edge est tombé en panne, vous devez utiliser le Générateur de topologie pour changer l’itinéraire de la fédération sortante afin d’utiliser un pool Edge en état de fonctionnement. Pour plus d’informations, reportez-vous à [basculement du pool de serveurs Edge utilisé pour la Fédération Lync Server dans Lync server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
 </div>
 
@@ -73,15 +73,15 @@ La Fédération sortante est toujours configurée par le biais d’un pool d’o
 
 ## <a name="xmpp-federation"></a>Fédération XMPP
 
-Pour la Fédération XMPP, le trafic entrant et sortant échouera si le pool de périphériques de périmètre désigné comme passerelle de Fédération XMPP s’arrête. Pour faire en sorte que la Fédération XMPP fonctionne à nouveau, vous devez modifier la Fédération de XMPP pour utiliser un pool de périphérie différent. Pour plus d’informations, reportez-vous à [échec du pool Edge utilisé pour la Fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
+Concernant la fédération XMPP, le trafic entrant et sortant s’arrêtera si le pool Edge qui est désigné comme passerelle de fédération XMPP tombe en panne. Pour que la fédération XMPP fonctionne de nouveau, vous devez configurer la fédération XMPP de sorte qu’elle utilise un autre pool Edge. Pour plus d’informations, reportez-vous à [basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md).
 
 </div>
 
 <div>
 
-## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>Le pool Edge ne fonctionne pas, mais le pool frontal s’exécute toujours
+## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>Le pool Edge tombe en panne mais le pool frontal fonctionne toujours
 
-Si un pool de périphériques ne fonctionne pas sur un site, mais que le pool frontal sur ce site est toujours en cours d’exécution, vous devez modifier le pool frontal pour utiliser un pool de périphérie différent sur un autre site lorsque ce dernier est en bas de la liste. Pour plus d’informations, reportez-vous à [la section changement du pool de bords associé à un pool frontal dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
+Si un pool Edge tombe en panne sur un site, alors que le pool frontal de ce site fonctionne toujours, vous devez configurer le pool frontal pour qu’il utilise un autre pool Edge d’un autre site pendant que le premier pool Edge est en panne. Pour plus d’informations, consultez [la rubrique Modification du pool de serveurs Edge associé à un pool frontal dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
 
 </div>
 

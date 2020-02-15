@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA'
+title: 'Lync Server 2013 : configuration de Lync Server pour le routage vers une passerelle SIP/CSTA'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185605
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 626ce85fec80508f4411e92c2a2ce469da5a0b2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d816ae391154a5d1024e65fb09e82f37d41b053
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762792"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>Configuration de Lync Server 2013 pour le routage vers une passerelle SIP/CSTA
+# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>Configuration de Lync Server 2013 pour un routage vers une passerelle SIP/CSTA
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41762792"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Une passerelle SIP/CSTA est une passerelle entre le SIP et une application de communication prenant en charge l’ordinateur (CSTA). Une passerelle SIP/CSTA fournit l’interface entre un échange de succursale privée (PBX) et un serveur Lync pour le routage des demandes de contrôle d’appel distant au PBX. Après l’installation d’une passerelle SIP/CSTA, vous devez effectuer les procédures suivantes sur chaque pool de serveurs Lync pour lequel vous souhaitez configurer le contrôle d’appel distant :
+Une passerelle SIP/CSTA est une passerelle entre un serveur SIP et une application CSTA (Computer-Supported Telecommunications Application). Une passerelle SIP/CSTA fournit l’interface entre un autocommutateur privé (PBX) et un serveur Lync pour le routage des demandes de contrôle d’appel distant vers le PBX. Une fois que vous avez installé une passerelle SIP/CSTA, vous devez effectuer les procédures suivantes sur chaque pool Lync Server pour lequel vous souhaitez configurer le contrôle d’appel distant :
 
-  - [Configuration d’un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [Configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
 </div>
 

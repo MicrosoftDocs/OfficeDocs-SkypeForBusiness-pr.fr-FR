@@ -12,20 +12,20 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b6068de77a1a32f45afbc34604dc70a4daf58e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b9f35157b4172376cdcb4724346dc7cd9ecbcf0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734274"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41994069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Créer ou modifier une plage de nombres non affectées dans Lync Server 2013
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Création ou modification d’une plage de numéros non attribués dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41734274"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Utilisez l’une des procédures suivantes pour configurer des plages de nombres non affectées pour l’application d’annonce.
+Utilisez l’une des procédures suivantes pour configurer des plages de numéros non attribués pour l’application d’annonce.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Avant de configurer la table des numéros non attribués, vous devez déjà avoir défini une ou plusieurs annonces ou configurer un standard automatique de messagerie unifiée (MU).
+> Avant de configurer la table des numéros non attribués, vous devez avoir défini une ou plusieurs annonces ou configuré un standard automatique de la messagerie unifiée Exchange.
 
 
 
@@ -51,11 +51,11 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a>Pour utiliser le panneau de configuration de Lync Server pour configurer les numéros de téléphone non affectés
+## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a>Pour configurer les numéros de téléphone non attribués à l’aide du panneau de configuration Lync Server
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fonctionnalités vocales**, puis sur **Numéro non attribué**.
 
@@ -82,11 +82,11 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
     > [!NOTE]  
     > <UL>
     > <LI>
-    > <P>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de cette plage.</P>
+    > <P>Le numéro de début de la plage doit être inférieur ou égal au numéro de fin de celle-ci.</P>
     > <LI>
     > <P>Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.</P>
     > <LI>
-    > <P>Le numéro doit correspondre à l’expression régulière (tel :) ? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</P></LI></UL>
+    > <P>Le numéro doit correspondre à l’expression régulière (tel. :) ? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Cela implique que le numéro peut commencer par la chaîne tel: (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre de 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.</P></LI></UL>
 
     
     </div>
@@ -99,7 +99,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 7.  Si, dans l’étape précédente, vous avez cliqué sur **Annonce**, procédez comme suit :
     
-    1.  Sous **nom de domaine complet du serveur de destination**, cliquez sur **Sélectionner**, sur l’ID du service d’application exécutant l’application d’annonce qui traitera les appels entrants de cette plage de numéros non attribués, puis cliquez sur **OK**.
+    1.  Sous **Nom de domaine complet du serveur de destination**, cliquez sur **Sélectionner**, cliquez sur l’ID de service du service Application qui exécute l’application Annonce devant gérer les appels entrants destinés à cette plage de numéros non attribués, puis sur **OK**.
     
     2.  Dans **Annonce**, cliquez sur l’annonce à associer à cette plage de numéros non attribués.
 
@@ -107,13 +107,13 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 9.  Cliquez sur **OK**.
 
-10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués s’affichent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
+10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués apparaissent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
     
     <div>
     
 
     > [!TIP]  
-    > Lync Server effectue une recherche dans la table des numéros non attribués de haut en bas, et utilise la première plage qui correspond au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.
+    > Lync Server recherche dans la table des numéros non attribués de haut en bas et utilise la première plage correspondant au numéro non attribué. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste.
 
     
     </div>
@@ -124,11 +124,11 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 <div>
 
-## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a>Pour utiliser Windows PowerShell afin de configurer les numéros de téléphone non affectés
+## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a>Pour utiliser Windows PowerShell afin de configurer les numéros de téléphone non attribués
 
-1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 3.  Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
@@ -141,7 +141,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
     
     </div>
     
-    Dans la ligne de commande, effectuez l’une des opérations suivantes :
+    Sur la ligne de commande, effectuez l’une des opérations suivantes :
     
       - Pour créer une plage de numéros pour un service Annonces, exécutez :
         
@@ -151,7 +151,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
         
             New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
     
-    Exemple :
+    Par exemple :
     
         New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
     

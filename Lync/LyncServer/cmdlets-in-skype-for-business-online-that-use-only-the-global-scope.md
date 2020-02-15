@@ -1,5 +1,5 @@
 ---
-title: Cmdlets dans Skype entreprise Online utilisant uniquement l’étendue globale
+title: Applets de commande dans Skype entreprise Online qui utilisent uniquement l’étendue globale
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,60 +13,60 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5610649295fdf4089372d9c59e4ccb51228c1fc2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f4a894c4a9c6e2913abb003c49094bc6d6868483
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728104"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001249"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Cmdlets dans Skype entreprise Online utilisant uniquement l’étendue globale
+# <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Applets de commande dans Skype entreprise Online qui utilisent uniquement l’étendue globale
 
  
 
 
-Un certain nombre de paramètres Skype entreprise Online ne sont disponibles qu’à l' *étendue globale*. Cela signifie qu’il existe une collection unique de paramètres qui s’applique à tous les utilisateurs qui sont affectés à ce client. (Chaque client dispose de sa propre collection unique de paramètres globaux.) Lorsque vous utilisez des applets de applet qui sont limitées à l’étendue globale, le paramètre Identity est facultatif. Par exemple, pour récupérer les paramètres de configuration de la réunion, vous pouvez utiliser la commande suivante :
+Un certain nombre de paramètres Skype entreprise Online sont disponibles uniquement au niveau *Global*. Cela signifie qu’il existe une seule collection de paramètres qui s’applique à tous les utilisateurs qui sont affectés à ce client. (Chaque client possède sa propre collection de paramètres globaux uniques.) Lorsque vous utilisez des applets de commande limitées à l’étendue globale, le paramètre Identity est facultatif. Par exemple, pour récupérer les paramètres de configuration de réunion, vous pouvez utiliser la commande suivante :
 
     Get-CsMeetingConfiguration -Identity "global"
 
-Par ailleurs, vous pouvez omettre le paramètre Identity et utiliser cette commande plus simple :
+Vous pouvez également omettre le paramètre Identity et utiliser cette commande plus simple :
 
     Get-CsMeetingConfiguration
 
-Étant donné qu’il n’existe qu’une seule collection globale de paramètres de configuration de réunion, les deux commandes renvoient exactement les mêmes informations. Le paramètre Identity peut également être omis lors de l’utilisation d’une cmdlet **Set-CS** . Ces deux commandes sont identiques :
+Étant donné qu’il n’existe qu’une seule collection globale de paramètres de configuration de réunion, les deux commandes renvoient exactement les mêmes informations. Le paramètre Identity peut également être omis lors de l’utilisation de l’une des cmdlets **Set-CS** . Ces deux commandes sont identiques :
 
     Set-CsMeetingConfiguration -Identity "global" -AdmitAnonymousUsersByDefault $False
     Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False
 
-Les deux commandes sont identiques, car, par défaut, Windows PowerShell modifie la collection globale si vous n’incluez pas le paramètre Identity.
+Les deux commandes sont identiques car, par défaut, Windows PowerShell modifie la collection globale si vous n’incluez pas le paramètre Identity.
 
 Les applets de commande suivantes fonctionnent uniquement au niveau de l’étendue globale :
 
-  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/gg398980\(v=ocs.15\))
+  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/library/gg398980\(v=ocs.15\))
 
-  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg425875\(v=ocs.15\))
+  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/library/gg425875\(v=ocs.15\))
 
-  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg413002\(v=ocs.15\))
+  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/gg413002\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/jj994016\(v=ocs.15\))
+  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/library/jj994016\(v=ocs.15\))
 
-  - [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398309\(v=ocs.15\))
+  - [Remove-CsVoicePolicy](https://technet.microsoft.com/library/gg398309\(v=ocs.15\))
 
-  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg398648\(v=ocs.15\))
+  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/library/gg398648\(v=ocs.15\))
 
-  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg398484\(v=ocs.15\))
+  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/gg398484\(v=ocs.15\))
 
-Notez que l’applet de l’applet de **suppression-CsVoicePolicy** est une anomalie. Tout d’abord, cette applet de recherche vous demande d’inclure le paramètre Identity :
+Notez que l’applet de commande **Remove-CsVoicePolicy** est une anomalie. Tout d’abord, cette applet de commande vous oblige à inclure le paramètre Identity :
 
     Remove-CsVoicePolicy -Identity "global"
 
-Deuxièmement, l’applet de l’applet de **suppression-CsVoicePolicy** n’entraîne pas la suppression effective de la stratégie vocale globale. Skype entreprise Online ne vous permet pas de supprimer les stratégies globales ou les paramètres de configuration. Ce que fait l’applet de passe consiste à rétablir ses valeurs par défaut pour toutes les propriétés de la stratégie vocale globale. Par exemple, par défaut, la propriété AllowCallForwarding est définie sur false. Toutefois, AllowCallForwarding a pu être modifié, avec la valeur true. Lorsque vous exécutez l’applet de cmdlet **Remove-CsVoicePolicy** , la propriété AllowCallForwarding revient à sa valeur par défaut : false. Le tableau suivant récapitule ce scénario :
+Deuxièmement, l’applet de commande **Remove-CsVoicePolicy** ne supprime pas réellement la stratégie de voix globale ; Skype entreprise Online ne vous permet pas de supprimer des stratégies globales ou des paramètres de configuration. La cmdlet permet de rétablir les valeurs par défaut de toutes les propriétés de la stratégie de voix globale. Par exemple, par défaut, la propriété AllowCallForwarding est définie sur false. Toutefois, AllowCallForwarding peut avoir été modifié, avec la valeur true. Lorsque vous exécutez la cmdlet **Remove-CsVoicePolicy** , la propriété AllowCallForwarding reprend sa valeur par défaut : false. Le tableau suivant résume ce scénario :
 
 
 <table>
@@ -100,6 +100,6 @@ Deuxièmement, l’applet de l’applet de **suppression-CsVoicePolicy** n’ent
 ## <a name="see-also"></a>Voir aussi
 
 
-[Identités, étendues et clients dans Skype entreprise Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Identités, étendues et locataires dans Skype entreprise Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Applets de commande Skype entreprise Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

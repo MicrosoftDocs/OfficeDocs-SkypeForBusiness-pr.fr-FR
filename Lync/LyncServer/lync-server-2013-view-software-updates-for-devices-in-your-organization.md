@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les mises à jour logicielles pour les appareils de votre organisation'
+title: 'Lync Server 2013 : affichage des mises à jour logicielles pour les appareils de votre organisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a969aac4559f02ee7d05f36bece84e40f65aca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757418"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Afficher les mises à jour logicielles des appareils dans Lync Server 2013
+# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Affichage des mises à jour logicielles pour les périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757418"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des appareils de votre organisation. Ces mises à jour sont disponibles dans des fichiers. cab (CAB) sur le site Web du [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)support Microsoft à l’adresse. Après avoir téléchargé le fichier. cab, exécutez l’applet de passe **Import-CSDeviceUpdate** pour importer les règles de mise à jour de l’appareil à partir du fichier. cab. Pour plus d’informations sur l’applet de connexion **Import-CSDeviceUpdate** , voir [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation Lync Server Management Shell.
+Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périphériques pour afficher et gérer les mises à jour logicielles des appareils de votre organisation. Ces mises à jour sont disponibles dans les fichiers. cab (armoire) à partir du site Web [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)du support technique de Microsoft à l’adresse. Après avoir téléchargé le fichier. cab, exécutez l’applet de commande **Import-CSDeviceUpdate** pour importer les règles de mise à jour des périphériques à partir du fichier. cab. Pour plus d’informations sur l’applet de commande **Import-CSDeviceUpdate** , voir [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) dans la documentation de Lync Server Management Shell.
 
 <div>
 
 
 > [!TIP]  
-> Avant de déployer une nouvelle mise à jour de votre organisation, vérifiez qu’elle fonctionne correctement sur un appareil de test.
+> Avant de déployer une nouvelle mise à jour dans votre entreprise, vérifiez qu’elle fonctionne correctement sur un périphérique de test.
 
 
 
@@ -51,33 +51,33 @@ Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périph�
 
 <div>
 
-## <a name="to-view-software-updates-for-uc-devices"></a>Pour afficher les mises à jour logicielles des appareils UC
+## <a name="to-view-software-updates-for-uc-devices"></a>Pour afficher les mises à jour logicielles des périphériques de communications unifiées
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Sur le site Web du support [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)Microsoft à, téléchargez le fichier. cab dans un emplacement sur un ordinateur Lync Server 2013 (par exemple,\\C : mises\\à jour UCUpdates. cab).
+2.  À partir du site Web du [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)support technique de Microsoft à l’adresse, téléchargez le fichier. cab vers un emplacement sur un ordinateur Lync Server\\2013 (par\\exemple, C : updates UCUpdates. cab).
 
-3.  Importez les règles de mise à jour\\de l’appareil\\à partir du fichier C : updates UCUpdates. cab en exécutant une des applets de commande suivantes :
+3.  Importez les règles de mise à jour\\des périphériques à\\partir du fichier C : updates UCUpdates. cab en exécutant l’une des applets de commande suivantes :
     
-      - Si le fichier. cab se trouve sur le même ordinateur que celui exécutant le service à mettre à jour (service : Redmond-WebSvc-2), exécutez l’applet de commande suivante :
+      - Si le fichier .cab se trouve sur le même ordinateur que celui qui exécute le service à mettre à jour (service:Redmond-websvc-2), exécutez l’applet de commande suivante :
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-2 -FileName C:\Updates\UCUpdates.cab
     
-      - Si le fichier. cab se trouve sur un ordinateur autre que celui exécutant le service à mettre à jour (service : Redmond-WebSvc-3), exécutez l’applet de commande suivante :
+      - Si le fichier .cab se trouve sur un autre ordinateur que celui qui exécute le service à mettre à jour (service:Redmond-websvc-3), exécutez l’applet de commande suivante :
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-3 -ByteInput C:\Updates\UCUpdates.cab
 
-4.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+4.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-5.  Dans la barre de navigation gauche, cliquez sur **clients**, puis cliquez sur **mise à jour**de l’appareil.
+5.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur **Mise à jour du périphérique**.
 
-6.  Dans la page **mise à jour** de l’appareil, cliquez sur une mise à jour dans la liste, puis effectuez l’une des opérations suivantes :
+6.  Dans la page **Mise à jour du périphérique**, cliquez sur une mise à jour de la liste, puis effectuez l’une des opérations suivantes :
     
-      - **Annuler une mise à jour en attente.** Pour empêcher le déploiement de la mise à jour sélectionnée sur les appareils de votre organisation, cliquez sur le menu **action** , puis cliquez sur **annuler les mises à jour en attente**.
+      - **Annulez une mise à jour en attente.** Pour empêcher le déploiement de la mise à jour sélectionnée vers les périphériques de votre entreprise, cliquez sur le menu **Action**, puis sur **Annuler les mises à jour en attente**.
     
-      - **Approuver une mise à jour.** Pour autoriser le déploiement de la mise à jour sélectionnée sur les appareils de votre organisation, cliquez sur le menu **action** , puis cliquez sur **approuver**.
+      - **Approuvez une mise à jour.** Pour autoriser le déploiement de la mise à jour sélectionnée vers les périphériques de votre entreprise, cliquez sur le menu **Action**, puis sur **Approuver**.
     
-      - **Restaurer une mise à jour.** Pour autoriser la mise à jour des mises à jour précédemment approuvées sur les appareils de votre organisation, cliquez sur le menu **action** , puis cliquez sur **restaurer**.
+      - **Restaurez une mise à jour.** Pour autoriser le déploiement d’une mise à jour approuvée vers les périphériques de votre entreprise, cliquez sur le menu **Action**, puis sur **Restaurer**.
 
 </div>
 
@@ -86,7 +86,7 @@ Avec Lync Server 2013, vous utilisez le service Web de mise à jour des périph�
 ## <a name="see-also"></a>Voir aussi
 
 
-[Gestion des appareils, des téléphones et des applications client dans Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Gestion des appareils, des téléphones et des applications clientes dans Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

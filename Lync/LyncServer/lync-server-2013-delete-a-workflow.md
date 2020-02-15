@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer un flux de travail'
+title: 'Lync Server 2013 : suppression d’un flux de travail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ed32780e23cce82027271e74a89fb87e194cc4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91326023357df0903ab506217c6abb53babcdf66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742524"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,34 +37,34 @@ ms.locfileid: "41742524"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Pour supprimer un flux de travail, utilisez l’une des procédures suivantes.
+Pour supprimer un flux de travail, effectuez l’une des procédures suivantes.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a>Pour utiliser le panneau de configuration de Lync Server pour supprimer un flux de travail
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a>Pour utiliser le panneau de configuration Lync Server supprimer un flux de travail
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **Flux de travail**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Groupes Response Group**, puis sur **Flux de travail**.
 
-4.  Dans la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
+4.  Sur la page **Flux de travail**, cliquez sur **Créer ou modifier un flux de travail**.
 
-5.  Dans le champ de recherche **Sélectionner un service** , tapez tout ou partie du nom du service **ApplicationServer** qui héberge le flux de travail que vous voulez supprimer.
+5.  Dans le champ de recherche **Sélectionner un service**, tapez l’intégralité ou le début du nom du service **ApplicationServer** qui héberge le flux de travail que vous voulez supprimer.
 
-6.  Dans la liste de services, cliquez sur le service que vous souhaitez utiliser, puis cliquez sur **OK**.
+6.  Dans la liste des services, cliquez sur le service voulu, puis sur **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > La page Web de l’outil de configuration de Response Group s’ouvre. Vous pouvez également accéder à la page Web de l’outil de configuration du groupe de réponse directement à partir d’un navigateur Web en vous connectant à <STRONG>&lt;https://webPoolFqdn&gt;/RgsConfig</STRONG>.
+    > La page Web de l’outil de configuration Response Group s’ouvre. Vous pouvez également ouvrir la page Web de l’outil de configuration Response Group directement à partir d’un navigateur Web en vous connectant à <STRONG>&lt;https://webpoolfqdn représente&gt;/RgsConfig</STRONG>.
 
     
     </div>
 
-7.  Sous **gérer un flux de travail existant**, recherchez le flux de travail que vous voulez supprimer, puis sous **action**, cliquez sur **supprimer**.
+7.  Sous **Gérer un flux de travail existant**, recherchez le flux de travail que vous souhaitez supprimer, puis sous **Action**, cliquez sur **Supprimer**.
 
 8.  Cliquez sur **Oui**.
 
@@ -72,13 +72,13 @@ Pour supprimer un flux de travail, utilisez l’une des procédures suivantes.
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-workflow"></a>Pour utiliser Windows PowerShell pour supprimer un flux de travail
+## <a name="to-use-windows-powershell-to-delete-a-workflow"></a>Pour utiliser Windows PowerShell afin de supprimer un flux de travail
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Dans la ligne de commande, exécutez la commande suivante :
+3.  À partir de la ligne de commande, exécutez la commande suivante :
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     

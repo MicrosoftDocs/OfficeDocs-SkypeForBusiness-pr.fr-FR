@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table ContentTypes'
+title: 'Lync Server 2013 : table ContentTypes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cf7ba9c9fb267e8c65c3ba672850c04eb95a459
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 461b578613a90a0df33e3145ed19e1709db45206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740564"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740564"
 
 _**Dernière modification de la rubrique :** 2010-11-07_
 
-La table ContentTypes est une table qui contient une liste des types de contenu utilisés dans les sessions d’égal à égal et de conférences. Chaque enregistrement de la table représente un type de contenu.
+La table ContentTypes est une table annexe qui stocke la liste des types de contenu utilisés dans les sessions d’égal à égal et dans les sessions de conférence. Chaque enregistrement de la table représente un type de contenu.
 
 
 <table>
@@ -51,7 +51,7 @@ La table ContentTypes est une table qui contient une liste des types de contenu 
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,12 +59,12 @@ La table ContentTypes est une table qui contient une liste des types de contenu 
 <tr class="odd">
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant le type de contenu.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro unique d’identification du type de contenu.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Indiquez</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>ContentType</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td> </td>
 <td><p>Nom du type de contenu.</p></td>
 </tr>

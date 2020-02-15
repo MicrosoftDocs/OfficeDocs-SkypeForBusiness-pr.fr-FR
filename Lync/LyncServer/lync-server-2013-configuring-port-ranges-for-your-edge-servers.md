@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration de plages de ports pour vos serveurs Edge'
+title: 'Lync Server 2013 : configuration des plages de ports pour vos serveurs Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eddf59f6fe4b2575e0e7d70adddb2e94c90e05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b526611e2e29f1b8d11e731381898a7db5e71aa8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742344"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configuration de plages de ports pour vos serveurs Edge dans Lync Server 2013
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configuration des plages de ports pour vos serveurs Edge dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41742344"
 
 _**Dernière modification de la rubrique :** 2015-07-24_
 
-Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de port distinctes pour le partage audio, vidéo et d’application. de même, les plages de port utilisées pour les serveurs Edge ne doivent pas nécessairement correspondre aux plages de port utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de continuer, nous vous conseillons d’insister sur le fait que, si vous dépassez cette option, nous vous conseillons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous éloignez de la plage de ports 50000.
+Avec les serveurs Edge, il n’est pas nécessaire de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’application ; de même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre à celles utilisées avec vos serveurs de conférence, d’applications et de médiation. Avant de poursuivre notre exemple, il est important de souligner que, lorsque cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut avoir un impact négatif sur certains scénarios si vous quittez la plage de ports 50000.
 
-Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d’application et de médiation pour utiliser ces plages de ports :
+Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d’applications et de médiation afin d’utiliser ces plages de ports :
 
 
 <table>
@@ -51,13 +51,13 @@ Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d�
 <thead>
 <tr class="header">
 <th>Type de paquet</th>
-<th>Port de démarrage</th>
+<th>Port de début</th>
 <th>Nombre de ports réservés</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Partage d'application</p></td>
+<td><p>Partage d’application</p></td>
 <td><p>40803</p></td>
 <td><p>8348</p></td>
 </tr>
@@ -80,19 +80,19 @@ Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d�
 </table>
 
 
-Comme vous pouvez le constater, vos plages de port pour le partage audio, vidéo et d’application commencent au port 40803 et incluent au total des ports 24732. Si vous le souhaitez, vous pouvez configurer un serveur Edge donné pour utiliser ces valeurs de port globales en exécutant une commande similaire à celle-ci dans Lync Server Management Shell :
+Comme vous pouvez le voir, les plages de ports pour l’audio, la vidéo et le partage d’application commencent au port 40803 et englobent un total de 24732 ports. Si vous préférez, vous pouvez configurer un serveur Edge donné afin d’utiliser ces valeurs de ports globales en exécutant une commande similaire à celle-ci depuis Lync Server Management Shell :
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-Vous pouvez utiliser la commande suivante pour configurer simultanément tous les serveurs Edge de votre organisation :
+Ou utilisez la commande suivante pour configurer simultanément tous les serveurs Edge de votre organisation :
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Vous pouvez vérifier les paramètres de port actuels pour vos serveurs Edge à l’aide de la commande Lync Server Management Shell suivante :
+Vous pouvez vérifier les paramètres de port actuels de vos serveurs Edge à l’aide de cette commande Lync Server Management Shell :
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-Là encore, nous vous conseillons vivement de conserver les éléments tels que la configuration de port.
+Encore une fois, pendant que nous fournissons ces options, nous vous recommandons vivement de laisser des choses comme pour la configuration de port.
 
 </div>
 

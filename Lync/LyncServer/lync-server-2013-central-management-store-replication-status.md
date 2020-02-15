@@ -1,5 +1,5 @@
 ---
-title: 'Skype Entreprise Server 2015 : statut de réplication du magasin central de gestion'
+title: 'Lync Server 2013 : état de réplication du magasin central de gestion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4212e8616916f6a2a256530a7a0b74c9811f166d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7d411733712cf274760a45cd4e315b4f02a66e0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736854"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-replication-status-in-lync-server-2013"></a>Statut de réplication du magasin central de gestion dans Skype Entreprise Server 2015
+# <a name="central-management-store-replication-status-in-lync-server-2013"></a>État de réplication du magasin central de gestion dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41736854"
 
 _**Dernière modification de la rubrique :** 2015-01-26_
 
-Lorsqu’un administrateur apporte une modification d’une sorte à Lync Server (par exemple, lorsqu’un administrateur crée une nouvelle stratégie vocale ou change les paramètres de configuration du serveur du carnet d’adresses), cette modification est enregistrée dans le magasin central de gestion. À son tour, la modification doit alors être répliquée sur tous les ordinateurs qui exécutent des services ou rôles de serveur Lync Server.
+Lorsqu’un administrateur apporte une modification d’un type à Lync Server (par exemple, lorsqu’un administrateur crée une nouvelle stratégie de voix ou modifie les paramètres de configuration du serveur de carnet d’adresses), cette modification est enregistrée dans le magasin central de gestion. À son tour, la modification doit être répliquée sur tous les ordinateurs qui exécutent des services ou des rôles serveur Lync Server.
 
-Pour répliquer des données, le réplicateur principal (exécuté sur le serveur central de gestion) crée un instantané des données de configuration modifiées. Une copie de cette capture d’image est alors envoyée à chaque ordinateur exécutant Lync Server services ou rôles de serveur. Sur ces ordinateurs, un agent de réplication reçoit l’instantané et transfère les données modifiées. L’agent envoie ensuite au réplicateur principal un message signalant le dernier statut de réplication.
+Pour répliquer des données, le réplicateur principal (exécuté sur le serveur de gestion centralisée) crée une capture instantanée des données de configuration modifiées. Une copie de cette capture instantanée est ensuite envoyée à chaque ordinateur exécutant des services ou des rôles serveur Lync Server. Sur ces ordinateurs, un agent de réplication reçoit la capture instantanée et télécharge les données modifiées. L’agent envoie ensuite au réplicateur principal un message signalant l’état de la réplication la plus récente.
 
-L’applet de contrôle Get-CsManagementStoreReplicationStatus vous permet de vérifier l’état de réplication de tout ou partie des ordinateurs serveur Lync au sein de votre organisation.
+La cmdlet Get-CsManagementStoreReplicationStatus vous permet de vérifier l’état de réplication de tout ou partie des ordinateurs Lync Server de votre organisation.
 
-Qui peut exécuter cette applet de commande ? Par défaut, les membres des groupes ci-dessous ont l’autorisation d’exécuter localement l’applet de commande Get-CsManagementStoreReplicationStatus : RTCUniversalUserAdmins, RTCUniversalServerAdmins.
+Qui peut exécuter cette applet de commande ? Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Get-CsManagementStoreReplicationStatus : RTCUniversalUserAdmins, RTCUniversalServerAdmins.
 
-Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
+Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsManagementStoreReplicationStatus"}
 

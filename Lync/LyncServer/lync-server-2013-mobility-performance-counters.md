@@ -12,20 +12,20 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56454e4ea4fa1498dc73056d5b5f01193b007352
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758686"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-performance-counters-in-lync-server-2013"></a>Compteurs de performance de mobilité dans Lync Server 2013
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Compteurs de performances de mobilité dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41758686"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité MCX de Lync Server 2013.
+Les tableaux suivants répertorient les noms et les descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Web Unified Communications (UCWA) et le service Lync Server 2013 MCX Mobility.
 
-Le nom de la catégorie pour les compteurs dans le tableau UCWA est **LS:WEB – UCWA**.
+Le nom de catégorie pour les compteurs dans la table UCWA est **ls : Web – UCWA**.
 
-Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
+Le nom de catégorie pour les compteurs dans la table MCX Mobility service est **ls : Web-mobile communication service**.
 
 <div>
 
-## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
+## <a name="performance-counters-for-ucwa"></a>Compteurs de performance pour UCWA
 
 
 <table>
@@ -61,175 +61,175 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Active Application Count</p></td>
-<td><p>Nombre d’applications en cours</p></td>
+<td><p>Nombre d’applications actives</p></td>
+<td><p>Nombre actuel d’applications</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Application Sharing Modality Count</p></td>
-<td><p>Nombre actuel de modalités de partage d’applications</p></td>
+<td><p>Nombre de modalités de partage d’applications actives</p></td>
+<td><p>Le nombre actuel de modalités de partage d’application</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Audio Modality Count</p></td>
+<td><p>Nombre de passes actives audio</p></td>
 <td><p>Nombre actuel de modalités audio</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Data Collaboration Modality Count</p></td>
-<td><p>Nombre actuel de modalités de collaboration de données</p></td>
+<td><p>Nombre de MODALITES de collaboration de données actives</p></td>
+<td><p>Le nombre actuel de modalités de collaboration de données ;</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory Photo Get Latency (ms)</p></td>
-<td><p>Ce compteur montre le temps moyen (en millisecondes) nécessaire pour récupérer une photo du répertoire actif.</p></td>
+<td><p>Latence d’obtention de photos Active Directory (MS)</p></td>
+<td><p>Ce compteur indique le temps moyen (en millisecondes) nécessaire pour récupérer une photo à partir d’Active Directory</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Messaging Modality Count</p></td>
+<td><p>Nombre de modalités de messagerie active</p></td>
 <td><p>Nombre actuel de modalités de messagerie</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Panoramic Video Modality Count</p></td>
-<td><p>Nombre actuel de modalités de vidéo panoramique</p></td>
+<td><p>Nombre de passes vidéo panoramique actif</p></td>
+<td><p>Nombre actuel de modalité vidéo panoramique</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Pending Get Count</p></td>
-<td><p>Nombre de gets actifs en attente ; connexions au serveur conservées depuis longtemps</p></td>
+<td><p>Nombre d’obtentions actives en attente</p></td>
+<td><p>Le nombre de gets actuellement en attente ; connexions de longue durée vers le serveur</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Session Count</p></td>
-<td><p>Nombre actuel de points de terminaison enregistrés dans UCWA par application et le total</p></td>
+<td><p>Nombre de sessions actives</p></td>
+<td><p>Nombre actuel de points de terminaison inscrits dans UCWA par application et total</p></td>
 </tr>
 <tr class="even">
-<td><p>Active User Instance Count</p></td>
-<td><p>Nombre d’instances utilisateur en cours</p></td>
+<td><p>Nombre d’instances de l’utilisateur actif</p></td>
+<td><p>Nombre actuel d’instances utilisateur</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active User Instances without Application</p></td>
-<td><p>Nombre d’instances utilisateur en cours sans application</p></td>
+<td><p>Instances utilisateur actives sans application</p></td>
+<td><p>Nombre actuel d’instances utilisateur sans application</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Video Modality Count</p></td>
+<td><p>Nombre de passes de vidéo actives</p></td>
 <td><p>Nombre actuel de modalités vidéo</p></td>
 </tr>
 <tr class="odd">
-<td><p>Application Creation Requests Received/Second</p></td>
-<td><p>Taux par seconde de demandes de création d’application reçues</p></td>
+<td><p>Demandes de création d’application reçues/seconde</p></td>
+<td><p>Taux de demandes de création d’application reçues par seconde</p></td>
 </tr>
 <tr class="even">
-<td><p>AS MCU Join Failures</p></td>
-<td><p>Nombre d’échecs de connexion au service MCU AS</p></td>
+<td><p>En tant qu’échecs de jonction MCU</p></td>
+<td><p>Nombre d’échecs de jointures MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>AV MCU Join Failures</p></td>
-<td><p>Nombre d’échecs de connexion au service MCU audio/vidéo</p></td>
+<td><p>Échecs de participation de la MCU AV</p></td>
+<td><p>Nombre d’échecs de participation de la MCU AV</p></td>
 </tr>
 <tr class="even">
-<td><p>Average Application Startup Time (ms)</p></td>
-<td><p>Délai de démarrage moyen de l’application en millisecondes</p></td>
+<td><p>Durée moyenne de démarrage de l’application (MS)</p></td>
+<td><p>Durée moyenne de démarrage de l’application en millisecondes</p></td>
 </tr>
 <tr class="odd">
-<td><p>Average Lifetime for Session (ms)</p></td>
-<td><p>Durée de vie moyenne pour une session en millisecondes</p></td>
+<td><p>Durée de vie moyenne de la session (MS)</p></td>
+<td><p>Durée de vie moyenne d’une session en millisecondes</p></td>
 </tr>
 <tr class="even">
-<td><p>Data MCU Join Failures</p></td>
-<td><p>Nombre d’échecs de connexion au service MCU de données</p></td>
+<td><p>Échecs de jonction de MCU de données</p></td>
+<td><p>Nombre d’échecs de jonctions de MCU de données</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange Contact Search Latency (ms)</p></td>
-<td><p>Ce compteur affiche le temps moyen (en millisecondes) nécessaire pour rechercher des contacts dans Exchange</p></td>
+<td><p>Latence de recherche de contact Exchange (MS)</p></td>
+<td><p>Ce compteur indique le temps moyen (en millisecondes) entre le contact de recherche dans Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange HD Photo Get Latency (ms)</p></td>
-<td><p>Ce compteur affiche le temps moyen (en millisecondes) nécessaire pour récupérer une photo HD d’Exchange</p></td>
+<td><p>Latence d’obtention de photo HD Exchange (MS)</p></td>
+<td><p>Ce compteur indique le temps moyen (en millisecondes) nécessaire pour récupérer une photo à partir d’Exchange</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP 4xx Responses/Second</p></td>
-<td><p>Taux de réponses avec un code 4xx HTTP par seconde</p></td>
+<td><p>Réponses 4xx HTTP/seconde</p></td>
+<td><p>Taux de réponses par seconde avec le code HTTP 4xx</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP 5xx Responses/Second</p></td>
-<td><p>Taux de réponses avec un code 5xx HTTP par seconde</p></td>
+<td><p>Réponses 5xx HTTP/seconde</p></td>
+<td><p>Taux de réponses par seconde avec du code HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
-<td><p>IM MCU Join Failures</p></td>
-<td><p>Nombre d’échecs de connexion au service MCU de messagerie instantanée</p></td>
+<td><p>Échecs de jonctions de la MCU de messagerie instantanée</p></td>
+<td><p>Nombre d’échecs de jonctions de la MCU de messagerie instantanée</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Active Directory Photo Get Failures</p></td>
-<td><p>Nombre d’échecs de récupération de photos du répertoire actif</p></td>
+<td><p>Nombre d’échecs d’obtention de photos Active Directory</p></td>
+<td><p>Nombre total d’échecs de récupération de photos à partir d’Active Directory</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of Contact Search failures</p></td>
+<td><p>Nombre d’échecs de recherche de contacts</p></td>
 <td><p>Nombre total d’échecs de recherche de contacts dans Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Deserialization Failures</p></td>
+<td><p>Nombre d’échecs de désérialisation</p></td>
 <td><p>Nombre total d’échecs de désérialisation</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre d’échecs de photo HD</p></td>
-<td><p>Nombre total d’échecs de récupération de photos HD depuis Exchange</p></td>
+<td><p>Nombre d’échecs de la photo HD</p></td>
+<td><p>Nombre total d’échecs de récupération de photos HD à partir d’Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Over The Maximum Subscriptions Per Application</p></td>
-<td><p>Nombre de requêtes d’abonnement dépassant le nombre maximal autorisé par application</p></td>
+<td><p>Sur le nombre maximal d’abonnements par application</p></td>
+<td><p>Nombre de demandes d’abonnement sur le maximum autorisé par application</p></td>
 </tr>
 <tr class="odd">
-<td><p>Over The Maximum Subscriptions Per Batch</p></td>
-<td><p>Nombre de requêtes d’abonnement dépassant le nombre maximal autorisé par lot</p></td>
+<td><p>Sur le nombre maximal d’abonnements par lot</p></td>
+<td><p>Nombre de demandes d’abonnement sur le maximum autorisé par lot</p></td>
 </tr>
 <tr class="even">
-<td><p>Presence Subscription Failures</p></td>
-<td><p>Nombre d’échecs d’abonnement de présence</p></td>
+<td><p>Échecs d’abonnements de présence</p></td>
+<td><p>Nombre d’échecs d’abonnement à la présence</p></td>
 </tr>
 <tr class="odd">
-<td><p>Registering Endpoint Failures</p></td>
-<td><p>Nombre d’échecs d’enregistrement de points de terminaison</p></td>
+<td><p>Enregistrement des défaillances du point de terminaison</p></td>
+<td><p>Nombre d’échecs d’enregistrement des points de terminaison</p></td>
 </tr>
 <tr class="even">
-<td><p>Requests Received/Second</p></td>
+<td><p>Demandes reçues/seconde</p></td>
 <td><p>Taux de demandes reçues par seconde</p></td>
 </tr>
 <tr class="odd">
-<td><p>Requests Succeeded/Second</p></td>
-<td><p>Taux de demandes réussies par seconde (codes de réponse 2xx/3xx HTTP)</p></td>
+<td><p>Demandes réussies/seconde</p></td>
+<td><p>Taux de demandes réussies (codes de réponse HTTPs/3xx) par seconde</p></td>
 </tr>
 <tr class="even">
-<td><p>Succeeded Create Application Requests/Second</p></td>
+<td><p>Réussite de la création des demandes d’application/seconde</p></td>
 <td><p>Taux de demandes de création d’application réussies par seconde</p></td>
 </tr>
 <tr class="odd">
-<td><p>Timed Out Pending Get Count</p></td>
-<td><p>Nombre de gets en attente ayant expiré</p></td>
+<td><p>Expiration du nombre d’obtentions en attente</p></td>
+<td><p>Nombre de récupérations en attente qui ont expiré</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Application Creation Requests Received</p></td>
+<td><p>Nombre total de demandes de création d’application reçues</p></td>
 <td><p>Nombre total de demandes de création d’application reçues depuis le démarrage du service</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total HTTP 4xx Responses</p></td>
-<td><p>Nombre total de réponses 4xx HTTP</p></td>
+<td><p>Nombre total de réponses HTTP 4xx</p></td>
+<td><p>Nombre total de réponses HTTP 4xx</p></td>
 </tr>
 <tr class="even">
-<td><p>Total HTTP 5xx Responses</p></td>
+<td><p>Nombre total de réponses 5xx HTTP</p></td>
 <td><p>Nombre total de réponses 5xx HTTP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Requests Received on the Command Channel</p></td>
 <td><p>Nombre total de demandes reçues sur le canal de commande</p></td>
+<td><p>Quantité totale de demandes reçues sur le canal de commande</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Requests Succeeded</p></td>
-<td><p>Nombre total de demandes réussies</p></td>
+<td><p>Quantité totale de demandes réussies</p></td>
+<td><p>Nombre total de demandes ayant réussi</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Sessions Initiated</p></td>
-<td><p>Nombre total de sessions initiées depuis le démarrage du service</p></td>
+<td><p>Nombre total de sessions lancées</p></td>
+<td><p>Nombre total de sessions qui ont été initiées depuis le démarrage du service</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Sessions Terminated Because of Idle Timeout</p></td>
-<td><p>Nombre total de sessions terminées en raison d’un délai d’expiration d’inactivité</p></td>
+<td><p>Nombre total de sessions terminées en raison d’un délai d’inactivité</p></td>
+<td><p>Quantité totale de sessions qui ont été terminées suite à l’expiration du délai d’inactivité utilisateur</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Throttled Applications</p></td>
+<td><p>Nombre total d’applications limitées</p></td>
 <td><p>Nombre d’applications limitées</p></td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 
 <div id="sectionSection1" class="section">
 
-### <a name="performance-counters-for-mcx-mobility-service"></a>Compteurs de performances pour le service de mobilité Mcx
+### <a name="performance-counters-for-mcx-mobility-service"></a>Compteurs de performances pour le service de mobilité MCX
 
 <table>
 <colgroup>
@@ -256,15 +256,15 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <tbody>
 <tr class="odd">
 <td><p>Durée de vie moyenne d’une session en millisecondes</p></td>
-<td><p>Durée de vie moyenne pour une session en millisecondes</p></td>
+<td><p>Durée de vie moyenne d’une session en millisecondes</p></td>
 </tr>
 <tr class="even">
 <td><p>Abonnements actuels aux notifications push</p></td>
-<td><p>Nombre actuel d’abonnements de notification push. Ce chiffre, associé au Nombre de sessions actuellement actives, représente le sous-ensemble de sessions actuellement actives enregistrées pour les appareils Windows Mobile ou iPhone.</p></td>
+<td><p>Quantité actuelle d’abonnements aux notifications push. Ce nombre, en association avec le nombre de sessions actuellement actives, représente le sous-ensemble des sessions actuellement actives qui sont inscrites pour les appareils Windows Mobile ou iPhone.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre d’interrogations réseau expirées actuellement actives</p></td>
-<td><p>Nombre d’interrogations réseau dont le délai d’attente a expiré</p></td>
+<td><p>Nombre d’interrogations réseau sont le délai d’attente a expiré</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre d’interrogations actuellement actives</p></td>
@@ -272,14 +272,14 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </tr>
 <tr class="odd">
 <td><p>Nombre de sessions actuellement actives</p></td>
-<td><p>Nombre actuel de points de terminaison enregistrés dans le service de mobilité</p></td>
+<td><p>Quantité actuelle de points de terminaison enregistrés dans le service de mobilité</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de sessions actuellement actives avec abonnements de présence actifs</p></td>
 <td><p>Nombre de sessions actuellement actives avec abonnements de présence actifs</p></td>
 </tr>
 <tr class="odd">
-<td><p>Demandes de notifications push ayant échoué/seconde</p></td>
+<td><p>Demandes de notifications push échouées/seconde</p></td>
 <td><p>Taux de notifications push ayant échoué par seconde</p></td>
 </tr>
 <tr class="even">
@@ -295,7 +295,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Taux de notifications push envoyées par seconde</p></td>
 </tr>
 <tr class="odd">
-<td><p>Demandes ayant échoué/seconde</p></td>
+<td><p>Demandes échouées/seconde</p></td>
 <td><p>Taux de demandes ayant échoué par seconde</p></td>
 </tr>
 <tr class="even">
@@ -315,68 +315,68 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Taux de demandes Get Location réussies par seconde. Les demandes de lancement de session consomment le plus de puissance de traitement sur le serveur. La charge maximale prise en charge est de 12 par seconde. La capacité à soutenir ces charges dépend des autres charges imposées sur le serveur. Le lancement d’une session signifie généralement la connexion d’un utilisateur ayant été déconnecté depuis un laps de temps étendu.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total d’appels vocaux entrants refusés</p></td>
-<td><p>Nombre total d’appels vocaux entrants ayant été refusés</p></td>
+<td><p>Quantité totale d’appels vocaux entrants refusés</p></td>
+<td><p>Quantité totale d’appels vocaux entrants ayant été refusés</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total d’appels vocaux entrants ayant échoué</p></td>
-<td><p>Nombre total d’appels vocaux entrants ayant échoué</p></td>
+<td><p>Quantité totale d’appels vocaux entrants échoués</p></td>
+<td><p>Quantité totale d’appels vocaux entrants ayant échoué</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total d’appels vocaux sortants ayant échoué</p></td>
-<td><p>Nombre total d’appels vocaux sortants ayant échoué</p></td>
+<td><p>Quantité totale d’appels vocaux sortants échoués</p></td>
+<td><p>Quantité totale d’appels vocaux sortants ayant échoué</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de sessions terminées par l’utilisateur</p></td>
-<td><p>Nombre total de sessions auxquelles les utilisateurs ont mis fin</p></td>
+<td><p>Quantité totale de sessions terminées par l’utilisateur</p></td>
+<td><p>Quantité totale de sessions auxquelles les utilisateurs ont mis fin</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes de notifications push</p></td>
-<td><p>Nombre total de demandes de notifications push</p></td>
+<td><p>Quantité totale de demandes de notifications push</p></td>
+<td><p>Quantité totale de demandes de notifications push</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de demandes de notifications push ayant échoué</p></td>
-<td><p>Nombre total de demandes de notifications push ayant échoué</p></td>
+<td><p>Quantité totale de demandes de notifications push échouées</p></td>
+<td><p>Quantité totale de demandes de notifications push ayant échoué</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes de notifications push réussies</p></td>
-<td><p>Nombre total de demandes de notifications push ayant réussi</p></td>
+<td><p>Quantité totale de demandes de notifications push réussies</p></td>
+<td><p>Quantité totale de demandes de notifications push ayant réussi</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de demandes de notifications push limitées</p></td>
-<td><p>Nombre total de demandes de notifications push ayant limitées</p></td>
+<td><p>Quantité totale de demandes de notifications push limitées</p></td>
+<td><p>Quantité totale de demandes de notifications push ayant limitées</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes ayant échoué</p></td>
-<td><p>Nombre total de demandes ayant échoué</p></td>
+<td><p>Quantité totale de demandes échouées</p></td>
+<td><p>Quantité totale de demandes ayant échoué</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de demandes reçues sur le canal de commande</p></td>
-<td><p>Nombre total de demandes reçues sur le canal de commande</p></td>
+<td><p>Quantité totale de demandes reçues sur le canal de commande</p></td>
+<td><p>Quantité totale de demandes reçues sur le canal de commande</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes rejetées</p></td>
-<td><p>Nombre total de demandes ayant été rejetées</p></td>
+<td><p>Quantité totale de demandes rejetées</p></td>
+<td><p>Quantité totale de demandes ayant été rejetées</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de demandes réussies</p></td>
-<td><p>Nombre total de demandes effectuées au service de mobilité et ayant réussi</p></td>
+<td><p>Quantité totale de demandes réussies</p></td>
+<td><p>Quantité totale de demandes effectuées au service de mobilité et ayant réussi</p></td>
 </tr>
 <tr class="even">
 <td><p>Total de sessions initiées</p></td>
-<td><p>Nombre total de sessions qui ont été initiées depuis le démarrage du service de mobilité</p></td>
+<td><p>Quantité totale de sessions qui ont été initiées depuis le démarrage du service de mobilité</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total des sessions terminées pour inactivité utilisateur</p></td>
-<td><p>Nombre total de sessions terminées en raison d’un délai d’expiration d’inactivité</p></td>
+<td><p>Quantité totale de sessions qui ont été terminées suite à l’expiration du délai d’inactivité utilisateur</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total d’appels vocaux entrants réussis</p></td>
-<td><p>Nombre total d’appels vocaux entrants ayant été réussis</p></td>
+<td><p>Quantité totale d’appels vocaux entrants réussis</p></td>
+<td><p>Quantité totale d’appels vocaux entrants ayant été réussis</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total d’appels vocaux sortants réussis</p></td>
-<td><p>Nombre total d’appels vocaux sortants ayant été réussis</p></td>
+<td><p>Quantité totale d’appels vocaux sortants réussis</p></td>
+<td><p>Quantité totale d’appels vocaux sortants ayant été réussis</p></td>
 </tr>
 </tbody>
 </table>

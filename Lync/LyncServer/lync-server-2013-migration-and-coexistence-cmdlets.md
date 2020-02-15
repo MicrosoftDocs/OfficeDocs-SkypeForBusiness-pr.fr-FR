@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : applets de processus de migration et de coexistence'
+title: 'Lync Server 2013 : applets de commande de migration et de coexistence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbae93a344909139fba3b40e2864ca3b943e77a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20e2931dc24e96243b2e80eb0abd0cf3b50599ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757528"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Cmdlets de migration et de coexistence dans Lync Server 2013
+# <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Applets de commande de migration et de coexistence dans Lync Server 2013
 
 </div>
 
@@ -37,40 +37,40 @@ ms.locfileid: "41757528"
 
 _**Dernière modification de la rubrique :** 2012-06-26_
 
-L’applet de méthode [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15)) vous permet de déplacer les comptes d’utilisateurs à partir d’Office Communications Server 2007 ou de Microsoft lync Server 2010 vers Microsoft lync Server 2013. Si vous avez besoin de déplacer un compte d’utilisateur « précédent » (par exemple, de Microsoft Lync Server 2013 vers Microsoft Lync Server 2010), utilisez l’applet de [passe Move-Csuser](https://technet.microsoft.com/en-us/library/Gg398528(v=OCS.15)) .
+L’applet de commande [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) vous permet de déplacer des comptes d’utilisateur à partir d’Office Communications Server 2007 ou Microsoft lync Server 2010 vers Microsoft lync Server 2013. Si vous devez déplacer un compte d’utilisateur vers l’arrière (par exemple, à partir de Microsoft Lync Server 2013 vers Microsoft Lync Server 2010), utilisez la cmdlet [Move-Csuser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) .
 
   - <span></span>  
-    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg398418(v=OCS.15))
+    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Importation-CsLegacyConfiguration](https://technet.microsoft.com/en-us/library/Gg412923(v=OCS.15))
+    [Import-applet cslegacyconfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Merge-CsLegacyTopology](https://technet.microsoft.com/en-us/library/Gg425870(v=OCS.15))
+    [Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15))
+    [Move-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
 
 <!-- end list -->
 
-  - [Convert-CsUserData](https://technet.microsoft.com/en-us/library/JJ205337(v=OCS.15))
+  - [Convert-applet csuserdata](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
 
-  - [Export-CsUserData](https://technet.microsoft.com/en-us/library/JJ204897(v=OCS.15))
+  - [Export-applet csuserdata](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
 
-  - [Import-CsUserData](https://technet.microsoft.com/en-us/library/JJ205373(v=OCS.15))
+  - [Import-applet csuserdata](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
 
-  - [Update-CsUserData](https://technet.microsoft.com/en-us/library/JJ205358(v=OCS.15))
+  - [Update-applet csuserdata](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
 
 <div>
 

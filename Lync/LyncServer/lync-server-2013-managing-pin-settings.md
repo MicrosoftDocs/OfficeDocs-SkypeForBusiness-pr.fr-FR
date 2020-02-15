@@ -12,16 +12,16 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9b0b516f39fd407ceca5d4ab7a471056dc24847
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f3e10431cd6a739d3ad454d146526819d8aed85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756108"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41756108"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Suivez les procédures décrites dans la section suivante pour gérer les paramètres de code confidentiel dans Lync Server 2013.
+Utilisez les procédures de la section suivante pour gérer les paramètres de code confidentiel dans Lync Server 2013.
 
 <div>
 
@@ -45,7 +45,7 @@ Suivez les procédures décrites dans la section suivante pour gérer les param�
 
   - [Gestion des stratégies de code confidentiel dans Lync Server 2013](lync-server-2013-managing-pin-policies.md)
 
-  - [Gestion des codes secrets d’utilisation dans Lync Server 2013](lync-server-2013-managing-user-pins.md)
+  - [Gestion des codes confidentiels d’utilisateur dans Lync Server 2013](lync-server-2013-managing-user-pins.md)
 
 </div>
 

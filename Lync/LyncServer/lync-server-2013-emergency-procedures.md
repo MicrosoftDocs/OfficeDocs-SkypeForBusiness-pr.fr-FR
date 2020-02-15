@@ -12,16 +12,16 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729374"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729374"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-Procédures d’urgence il s’agit de procédures à la demande qui ne se trouvent pas dans les procédures standard évoquées précédemment et qui doivent être gérées par la fonction de gestion des modifications (voir la [structure MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) pour obtenir une description de la fonction de gestion des modifications). Ces procédures concernent généralement l’un des éléments suivants :
+Les procédures d’urgence sont des procédures à la demande qui ne correspondent pas aux procédures standard décrites précédemment et qui doivent être gérées par la fonction de gestion des modifications (reportez-vous à la [structure MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) pour obtenir une description de la fonction « gestion des modifications »). Ces procédures sont généralement liées à l’un des éléments suivants :
 
-  - Implémentation du changement dans le cadre d’une procédure de résolution des problèmes : pour résoudre un problème système identifié.
+  - Implémentation de la modification dans le cadre d’un effort de dépannage — pour résoudre un problème système identifié.
 
-  - Résoudre une menace identifiée pour la sécurité (par exemple, mises à jour logicielles);
+  - Résoudre une menace de sécurité identifiée, telle que les mises à jour logicielles.
 
-L’impact sur l’entreprise doit être évalué pour déterminer si un changement temporaire doit être implémenté ou canalisé par le biais des procédures officielles de gestion des changements, telles qu’elles sont définies par les instructions du quadrant de changement.
+L’impact sur l’entreprise doit être évalué afin de déterminer si une modification temporaire doit être implémentée ou canal par le biais des procédures de gestion des modifications officielles, comme défini par les instructions du quadrant de changement.
 
-Nous vous recommandons d’implémenter les procédures de changement d’urgence. Par exemple, documentez le fonctionnement de ces types de procédures et l’aide à la réduction d’un état de confusion lors de la présentation d’une modification d’urgence.
+Nous vous recommandons d’implémenter les procédures de modification d’urgence. Par exemple, documentez comment traiter ces types de procédures et aider à réduire un état de confusion lorsqu’un changement d’urgence est présenté.
 
 <div>
 

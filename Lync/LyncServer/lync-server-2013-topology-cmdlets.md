@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets Topology'
+title: 'Lync Server 2013 : applets de commande de topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c584670828524b0d72a03adcbbee7a7bca773b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745104"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-cmdlets-jn-lync-server-2013"></a>Cmdlets Topology Jn Lync Server 2013
+# <a name="topology-cmdlets-jn-lync-server-2013"></a>Applets de commande de topologie Jn Lync Server 2013
 
 </div>
 
@@ -37,72 +37,72 @@ ms.locfileid: "41745104"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-De nombreuses cmdlets de topologie incluses dans Microsoft Lync Server 2013 sont conçues pour une utilisation avec le générateur de configuration et de topologie. pour cette raison, il existe diverses cmdlets de topologie que les administrateurs peuvent rarement appeler directement. Néanmoins, il y aura des moments où les administrateurs seront obligés d’utiliser ces applets de cmdlet. par exemple, après la création de nouveaux comptes Kerberos, vous devez exécuter l’applet de demande [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) pour que les modifications prennent effet. De plus, les administrateurs peuvent exécuter des cmdlets telles que [test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15)) et [test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15)) pour garantir que Lync Server 2013 a été correctement installé et qu’il fonctionne comme prévu.
+La plupart des applets de commande de topologie incluses dans Microsoft Lync Server 2013 sont conçues pour être utilisées avec le générateur de configuration et de topologie ; pour cette raison, il existe un certain nombre d’applets de commande de topologie que les administrateurs appellent rarement directement. Toutefois, il est possible que les administrateurs soient tenus d’utiliser ces applets de commande ; par exemple, après la création de nouveaux comptes Kerberos, vous devez exécuter l’applet de commande [Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) pour que les modifications prennent effet. En outre, les administrateurs exécuteront probablement des applets de commande telles que [test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15)) et [test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15)) pour garantir que Lync Server 2013 a été correctement installé et fonctionne comme prévu.
 
 <div>
 
-## <a name="topology-cmdlets"></a>Cmdlets de topologie
+## <a name="topology-cmdlets"></a>Applets de commande de topologie
 
-Voici une liste des applets de commande qui concernent directement la topologie de votre Lync Server :
+La liste suivante répertorie les applets de commande qui sont directement liées à la gestion de votre topologie Lync Server :
 
 **Topologie**
 
   - <span></span>  
-    [Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [Get-applet cspool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [Get-CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+    [Set-CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+    [Enable-CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+    [Get-CsTopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [Publisher-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+    [Publish-CsTopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [Export-CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
   - <span></span>  
-    [Importation-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+    [Import-CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+    [Get-CsServerVersion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+    [Disable-CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+    [Enable-CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
 
   - <span></span>  
-    [Get-CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+    [Get-CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
 
   - <span></span>  
-    [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [Get-CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
 
 </div>
 

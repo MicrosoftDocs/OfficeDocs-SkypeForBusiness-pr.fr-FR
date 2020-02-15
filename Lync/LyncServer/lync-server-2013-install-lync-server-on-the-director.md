@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Installation de Lync Server sur le directeur'
+title: 'Lync Server 2013 : installation de Lync Server sur le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183410
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d86acfe3ebd1a306a1810a492146849224cbfeb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b34aabd71a3501a305e76e9f9edcfd3fc6ca4201
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763728"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41763728"
 
 _**Dernière modification de la rubrique :** 2014-05-05_
 
-Suivez ces étapes pour installer les composants Lync Server 2013 sur un directeur.
+Procédez comme suit pour installer les composants Lync Server 2013 sur un directeur.
 
 <div>
 
-## <a name="to-install-lync-server-components-on-a-director"></a>Pour installer les composants serveur Lync sur un réalisateur
+## <a name="to-install-lync-server-components-on-a-director"></a>Pour installer les composants Lync Server sur un directeur
 
-1.  Dans l’Assistant Déploiement de Lync Server, sur la page Lync Server 2013, à côté de l' **étape 2 : installer ou supprimer des composants Lync Server**, cliquez sur **exécuter**.
+1.  Dans l’Assistant Déploiement de Lync Server, sur la page Lync Server 2013, à côté de **étape 2 : installer ou supprimer des composants Lync Server**, cliquez sur **exécuter**.
 
-2.  Dans la page **Configuration des composants du serveur Lync** , cliquez sur **suivant** pour configurer les composants comme définis dans votre topologie publiée.
+2.  Sur la page **Configuration des composants Lync Server** , cliquez sur **suivant** pour configurer les composants comme défini dans votre topologie publiée.
 
-3.  Lorsque l’installation des composants Lync Server est terminée, cliquez sur **Terminer**.
+3.  Une fois l’installation des composants Lync Server terminée, cliquez sur **Terminer**.
 
 </div>
 

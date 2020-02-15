@@ -12,16 +12,16 @@ ms:contentKeyID: 48183902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 535515fd11c0cb736b5b6fb4b70d041ea3af8a3c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 055d65fe691d99c8b960ebed088ba47cbcb2f988
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740374"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41740374"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-Une stratégie *par utilisateur* peut affecter uniquement des utilisateurs, des groupes et des objets de contact individuels. Pour déployer une stratégie par utilisateur, vous devez affecter explicitement la stratégie à un ou plusieurs utilisateurs, groupes ou objets de contact. Pour plus d’informations, reportez-vous à [la section affectation d’une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).
+Une stratégie *par utilisateur* ne peut avoir d’incidence que sur des utilisateurs, groupes et objets Contact individuels. Pour déployer une stratégie par utilisateur, vous devez l’attribuer explicitement à un ou plusieurs utilisateurs, groupes ou objets Contact. Pour plus d’informations, reportez-vous à [la rubrique assigner une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).
 
-Pour plus d’informations sur l’utilisation des stratégies de messagerie vocale hébergées par utilisateur, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des stratégies de messagerie vocale hébergée par utilisateur, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [Nouveau-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
   - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
@@ -51,21 +51,21 @@ Pour plus d’informations sur l’utilisation des stratégies de messagerie voc
 
 ## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a>Pour créer une stratégie de messagerie vocale hébergée par utilisateur
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de nouvelle applet de CsHostedVoicemailPolicy pour créer la stratégie. Par exemple, exécutez :
+2.  Exécutez l’applet de commande New-CsHostedVoicemailPolicy pour créer la stratégie. Par exemple, exécutez :
     
         New-CsHostedVoicemailPolicy -Identity ExRedmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for Redmond users." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    L’exemple précédent crée une stratégie de messagerie vocale hébergée avec une étendue par utilisateur et définit les paramètres suivants :
+    Dans l’exemple précédent, une stratégie de messagerie vocale hébergée est créée avec une étendue site et les paramètres suivants sont définis :
     
-      - **Identity** spécifie un identificateur unique pour la stratégie, qui inclut l’étendue. Dans le cas d’une stratégie avec une étendue par utilisateur, la valeur de ce paramètre est spécifiée sous la forme d’une chaîne simple, par exemple, exredmond.
+      - **Identity** spécifie un identificateur unique pour la stratégie qui englobe l’étendue. Pour une stratégie définie avec une étendue utilisateur, cette valeur de paramètre est définie en tant que chaîne simple, par exemple, ExRedmond.
     
-      - **Destination** spécifie le nom de domaine complet (FQDN) du service Exchange um hébergé. Ce paramètre est facultatif, mais si vous tentez d’activer un utilisateur pour la messagerie vocale hébergée et que la stratégie attribuée de l’utilisateur n’a pas de valeur de destination, l’activation échoue.
+      - **Destination** spécifie le nom de domaine complet du service de messagerie unifiée Exchange hébergé. Ce paramètre est facultatif, mais si vous tentez d’activer un utilisateur pour la messagerie vocale hébergée alors que la stratégie affectée à l’utilisateur n’a pas de valeur Destination, l’activation échoue.
     
-      - **Description** fournit des informations descriptives supplémentaires sur la stratégie.
+      - **Description** fournit des informations facultatives décrivant la stratégie.
     
-      - **Organization** spécifie une liste séparée par des virgules des clients Exchange qui sont des utilisateurs de Lync Server 2013. Chaque client doit être spécifié en tant que nom de domaine complet (FQDN) du client sur le service de messagerie unifiée Exchange hébergé.
+      - **Organisation** spécifie une liste séparée par des virgules des clients Exchange hébergeant des utilisateurs de Lync Server 2013. Chaque locataire doit être spécifié avec son nom de domaine complet (FQDN) dans le service de messagerie unifiée Exchange hébergé.
 
 </div>
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur l’utilisation des stratégies de messagerie voc
 ## <a name="see-also"></a>Voir aussi
 
 
-[Affecter une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
+[Affectation d’une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
   
 
 </div>

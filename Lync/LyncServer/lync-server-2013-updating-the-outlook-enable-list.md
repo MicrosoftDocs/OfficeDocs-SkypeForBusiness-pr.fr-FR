@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : mise à jour de la liste d’activations d’Outlook'
+title: 'Lync Server 2013 : mise à jour de la liste d’activation d’Outlook'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44de6e3b7756935829b008c585474e08f6f9969
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 376c5788d535cd893b2261dcddcb1fe05d676005
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744714"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Mise à jour de la liste d’activations d’Outlook dans Lync Server 2013
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Mise à jour de la liste d’activation d’Outlook dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41744714"
 
 _**Dernière modification de la rubrique :** 2013-01-07_
 
-Vous pouvez vous assurer que le complément réunion en ligne pour Microsoft Lync 2013 reste actif pour les utilisateurs en créant une stratégie qui l’inclut dans la liste de gestion des compléments pour Outlook. La stratégie de liste de gestion des compléments est incluse dans les fichiers de modèles d’administration Office pour la console de gestion des stratégies de groupe. Il crée une clé de Registre sous\\stratégies\\\\logiciel HKCU\\Microsoft\\Office\\15,0\\Outlook15 résilience\\AddinList. Vous pouvez ajouter une valeur à ucaddin. dll à cette clé et configurer la valeur ucaddin. dll de sorte qu’elle soit toujours activée et que les utilisateurs ne puissent pas la désactiver manuellement.
+Vous pouvez vous assurer que le complément de réunion en ligne pour Microsoft Lync 2013 reste toujours activé pour les utilisateurs en créant une stratégie qui l’inclut dans la liste de gestion des compléments pour Outlook. La stratégie liste de gestion des compléments est incluse dans les fichiers de modèle d’administration Office pour la console de gestion des stratégies de groupe. Il crée une clé de Registre sous\\les\\stratégies\\de\\logiciel\\HKCU\\Microsoft\\Office 15,0\\Outlook15 Resilience AddinList. Vous pouvez ajouter une valeur pour ucaddin. dll à cette clé et configurer la valeur de ucaddin. dll de sorte qu’elle soit toujours activée et que les utilisateurs ne puissent pas la désactiver manuellement.
 
 <div>
 
 ## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Pour ajouter ucaddin. dll à la liste des compléments Outlook
 
-  - Pour la clé de Registre AddinList, située sous\\stratégies\\\\logicielles\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\de résilience AddinList, ajoutez la valeur suivante :
+  - Dans la clé de Registre AddinList, située sous\\stratégies\\\\logicielles\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\de résilience AddinList, ajoutez la valeur suivante :
     
-      - Type de Registre =\_St SZ
+      - Type de Registre =\_reg SZ
     
       - Nom = ucaddin. dll
     
-      - Valeur = 1 (indique que le complément est toujours activé et ne peut pas être géré par l’utilisateur final)
+      - Valeur = 1 (indique que le complément est toujours activé et qu’il ne peut pas être géré par l’utilisateur final)
 
 </div>
 

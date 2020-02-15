@@ -12,16 +12,16 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739594"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41739594"
 
 _**Dernière modification de la rubrique :** 2013-12-05_
 
-Vous devez renforcer et protéger votre système d’exploitation et vos applications conformément aux meilleures pratiques pour ce composant spécifique. Cette section explique comment renforcer les serveurs d’applications et utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité.
+Vous devez renforcer et protéger votre système d’exploitation et vos applications conformément aux meilleures pratiques pour ce composant spécifique. Cette section décrit comment renforcer les serveurs d’applications et utiliser la stratégie de groupe pour implémenter les verrouillages de sécurité.
 
 <div>
 
@@ -53,7 +53,7 @@ Vous devez renforcer et protéger votre système d’exploitation et vos applica
 
 ## <a name="securing-application-servers"></a>Sécurisation des serveurs d’applications
 
-Pour les serveurs d’applications, le système d’exploitation et l’application doivent être renforcés. Par exemple, un ordinateur Windows Server 2008 destiné à exécuter Microsoft Internet Security and Acceleration (ISA) Server 2006 doit être renforcé à partir du système d’exploitation et du point de vue de l’application. Il est préférable de réduire le nombre de services en cours d’exécution et fournis par le serveur.
+Pour les serveurs d’applications, le système d’exploitation et l’application doivent être renforcés. Par exemple, un ordinateur Windows Server 2008 dédié à l’exécution de Microsoft Internet Security and Acceleration (ISA) Server 2006 doit être renforcé à partir du système d’exploitation et du point de vue de l’application. La réduction du nombre de services en cours d’exécution et fournis par le serveur doit être un objectif principal.
 
 </div>
 
@@ -61,7 +61,7 @@ Pour les serveurs d’applications, le système d’exploitation et l’applicat
 
 ## <a name="securing-virtual-servers"></a>Sécurisation des serveurs virtuels
 
-Les instantanés du serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des vidages de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de provoquer des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, il est recommandé de désactiver toutes les captures d’instantanés serveur ou de les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le guide sur [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)la sécurité Hyper-v sur le :.
+Les captures instantanées de serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des dumps de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de conduire à des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, vous devez désactiver toutes les captures instantanées de serveur ou les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le Guide de [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)sécurité Hyper-v à l’adresse suivante :.
 
 </div>
 
@@ -69,7 +69,7 @@ Les instantanés du serveur virtuel contiennent des copies des disques de donné
 
 ## <a name="group-policy"></a>Stratégie de groupe
 
-Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe fournit la gestion de la configuration de bureau basée sur un annuaire. Vous pouvez utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité en définissant des paramètres d’ordinateur et d’utilisateur au sein d’un objet de stratégie de groupe pour les éléments suivants :
+Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe fournit la gestion de la configuration de bureau basée sur l’annuaire. Vous pouvez utiliser la stratégie de groupe pour implémenter les verrouillages de sécurité en définissant les paramètres ordinateur et utilisateur dans un objet de stratégie de groupe (GPO) pour les éléments suivants :
 
   - Stratégies basées sur le registre
 
@@ -83,19 +83,19 @@ Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe four
 
   - Services d’installation à distance
 
-Pour fournir une interface utilisateur permettant à l’administrateur de configurer ces paramètres, les modèles d’administration sont livrés avec les versions de système d’exploitation, les versions de Service Pack et certaines applications, y compris Lync Server 2013.
+Pour fournir une interface utilisateur permettant à l’administrateur de configurer ces paramètres, les modèles d’administration sont fournis avec les versions du système d’exploitation, les versions des service packs et certaines applications, y compris Lync Server 2013.
 
-Le fichier Communicator. adm est un modèle d’administration fourni avec Lync Server 2013, qui est installé sur le répertoire% windir\\%\\ INF et fournit une interface aux paramètres de stratégie de groupe. Chaque paramètre dans Communicator. adm correspond à un paramètre du Registre affectant le comportement de l’application.
+Le fichier Communicator. adm est un modèle d’administration fourni avec Lync Server 2013, est installé dans le répertoire% windir%\\INF\\ et fournit une interface aux paramètres de la stratégie de groupe. Chaque paramètre de Communicator. adm correspond à un paramètre dans le Registre qui affecte le comportement de l’application.
 
-Il est possible d’accéder aux paramètres à partir de GPedit. dll, qui est disponible dans la console utilisateurs et ordinateurs Active Directory et la console de gestion des stratégies de groupe (GPMC).
+Les paramètres sont accessibles à partir de GPedit. dll, qui est disponible à partir de la console utilisateurs et ordinateurs Active Directory et de la console de gestion des stratégies de groupe (GPMC).
 
 </div>
 
 <div>
 
-## <a name="group-policy-security-settings"></a>Paramètres de sécurité de stratégie de groupe
+## <a name="group-policy-security-settings"></a>Paramètres de sécurité de la stratégie de groupe
 
-La stratégie de groupe contient les paramètres de sécurité d’un objet de stratégie de groupe sous Configuration ordinateur/Paramètres Windows/paramètres de sécurité lorsqu’il est consulté à partir de GPedit. dll. Vous pouvez importer des modèles de sécurité pour configurer les paramètres de sécurité de l’objet de stratégie de groupe. Le guide sur la sécurité de Windows [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) Server 2008 de et le kit de gestion de la sécurité [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) Windows Server 2008 R2 Security Compliance pour contiennent un certain nombre d’exemples de modèles que vous pouvez modifier en fonction de vos besoins.
+La stratégie de groupe contient les paramètres de sécurité d’un objet GPO sous Configuration de l’ordinateur/Paramètres Windows/paramètres de sécurité lors de l’accès à partir de GPedit. dll. Vous pouvez importer des modèles de sécurité pour configurer les paramètres de sécurité de l’objet de stratégie de groupe. Le Guide de sécurité de Windows Server [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 2008 à l’adresse et le kit de gestion de la [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) conformité de la sécurité de Windows Server 2008 R2, accessible à l’aide de ces modèles, que vous pouvez modifier pour répondre à vos besoins.
 
 </div>
 
@@ -103,11 +103,11 @@ La stratégie de groupe contient les paramètres de sécurité d’un objet de s
 
 ## <a name="best-practices"></a>Meilleures pratiques
 
-  - Renforcez tous les systèmes d’exploitation et applications du serveur.
+  - Renforcer tous les systèmes d’exploitation et applications du serveur.
 
-  - Protéger les clichés du serveur et renforcer la sécurité de tous les serveurs virtuels.
+  - Protégez les captures instantanées de serveur et améliorez la sécurité de tous les serveurs virtuels.
 
-  - Utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité.
+  - Utiliser la stratégie de groupe pour implémenter les verrouillages de sécurité.
 
 </div>
 

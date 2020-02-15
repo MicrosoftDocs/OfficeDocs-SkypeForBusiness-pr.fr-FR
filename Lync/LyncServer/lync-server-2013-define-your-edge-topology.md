@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition de la topologie Edge'
+title: 'Lync Server 2013 : définition de votre topologie Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a04dca4b935caf8f07546babd2c53f65fff4e89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9bd7c52eef58d4e40c767f48a296a83a8c056525
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>Définition de la topologie Edge dans Lync Server 2013
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>Définition de votre topologie Edge dans Lync Server 2013
 
 </div>
 
@@ -37,165 +37,165 @@ ms.locfileid: "41763938"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Vous devez utiliser le générateur de topologie pour générer votre topologie et définir au moins un pool interne ou un serveur Standard Edition avant de pouvoir déployer votre serveur Edge. Utilisez la procédure suivante pour définir la topologie latérale pour un serveur Edge unique, puis suivez les procédures décrites dans la rubriques [publier votre topologie dans Lync server 2013](lync-server-2013-publish-your-topology.md) et [exporter votre topologie Lync Server 2013, puis copiez-la sur média externe pour l’installation latérale](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) pour publier la topologie et la rendre accessible à votre serveur Edge.
+Vous devez utiliser le générateur de topologie pour créer votre topologie et vous devez configurer au moins un pool frontal interne ou un serveur Standard Edition Server avant de déployer votre serveur Edge. Utilisez la procédure suivante pour définir la topologie Edge pour un serveur Edge unique, puis utilisez les procédures de la page [publier votre topologie dans Lync server 2013](lync-server-2013-publish-your-topology.md) et [exporter votre topologie Lync Server 2013, puis copiez-la dans le support externe pour l’installation Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) pour publier la topologie et la mettre à la disposition de votre serveur Edge.
 
 <div>
 
 
 > [!NOTE]  
-> L’interface Edge interne et l’interface Edge externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
+> Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
 
 
 
 </div>
 
-Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Vous pouvez également accorder des droits d’administrateur et des autorisations nécessaires pour ajouter des rôles de serveur à un compte d’utilisateur. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement Standard Edition Server ou Enterprise Edition Server. Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
+Pour réussir à publier, activer ou désactiver une topologie lorsque vous ajoutez ou supprimez un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Administrateurs du domaine. Il est également possible de déléguer les droits et autorisations d’administrateur appropriés pour ajouter des rôles serveur à un compte d'utilisateur. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement du serveur Standard Edition Server ou Enterprise Edition. Pour toutes les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
 
-Si vous avez défini votre topologie de bord lorsque vous avez défini et publié votre topologie interne, et qu’aucune modification n’est requise pour la topologie de bord que vous avez précédemment définie, vous n’avez pas besoin de la définir et de la republier. Utilisez la procédure suivante uniquement si vous avez besoin d’apporter des modifications à votre topologie latérale. Vous devez rendre la topologie précédemment définie et publiée disponible pour vos serveurs Edge, en suivant la procédure décrite dans [exporter votre topologie Lync Server 2013 et la copier vers un média externe pour l’installation Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
+Si vous avez défini votre topologie de serveur Edge lorsque vous avez défini et publié votre topologie interne et qu’aucune modification n’est requise pour la topologie Edge que vous avez définie précédemment, vous n’avez pas besoin de la définir et de la publier à nouveau. Utilisez la procédure suivante uniquement si vous devez modifier votre topologie Edge. Vous devez définir la topologie précédemment définie et publiée comme étant disponible pour vos serveurs Edge, comme vous le faites à l’aide de la procédure décrite dans [Export Your Lync Server 2013 Topology et copy it to External Media for Edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous ne pouvez pas exécuter le générateur de topologie à partir d’un serveur Edge. Vous devez l’exécuter à partir de votre serveur frontal ou des serveurs Standard Edition Server.
+> Vous ne pouvez pas exécuter le générateur de topologie à partir d’un serveur Edge. Vous devez l’exécuter à partir de votre serveur frontal ou de vos serveurs Standard Edition.
 
 
 
 </div>
 
-Le processus de définition de la topologie de votre serveur Edge est réalisé dans le générateur de topologie. Les trois principaux types de topologies de serveur Edge que vous planifiez et configurez sont les suivants :
+Le processus de définition de la topologie de serveur Edge s’effectuera dans le générateur de topologie. Les trois principaux types de topologies de serveurs Edge que vous pouvez planifier et configurer sont répertoriés ci-dessous :
 
-  - Pour définir la topologie pour un serveur Edge unique
+  - Pour définir la topologie pour un serveur Edge unique
 
-  - Pour définir la topologie d’un pool de serveurs Edge équilibré
+  - Pour définir la topologie pour un pool de serveurs Edge à charge équilibrée
 
-  - Pour définir la topologie d’un pool de périphériques équilibrés de charge matérielle
+  - Pour définir la topologie pour un pool de serveurs Edge à charge matérielle équilibrée
 
 <div>
 
-## <a name="to-define-the-topology-for-a-single-edge-server"></a>Pour définir la topologie pour un serveur Edge unique
+## <a name="to-define-the-topology-for-a-single-edge-server"></a>Pour définir la topologie pour un serveur Edge unique
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site dans lequel vous voulez déployer un serveur Edge.
+2.  Dans l’arborescence de la console, développez le site dans lequel vous souhaitez déployer un serveur Edge.
 
-3.  Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle réserve de périphérie**.
+3.  Cliquez avec le bouton droit sur **Pools**de serveurs Edge, puis cliquez sur **nouveau pool**de serveurs Edge.
 
-4.  Dans **définir le nouveau pool de bordures**, cliquez sur **suivant**.
+4.  Dans **Définir le nouveau pool Edge**, cliquez sur **Suivant**.
 
-5.  Dans **définir le nom de domaine complet (FQDN) du pool Edge**, procédez comme suit :
+5.  Dans **Définir le nom de domaine complet du pool Edge**, procédez comme suit :
     
-      - Dans **nom**de domaine complet (FQDN) du pool, tapez le nom de domaine complet (FQDN) de l’interface interne du serveur Edge.
+      - Dans **Nom de domaine complet du pool**, tapez le nom de domaine complet (FQDN) de l’interface interne pour le serveur Edge.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Le nom spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom de l’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom court qui n’est pas un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. Utilisez uniquement les caractères standard (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le FQDN doit être attribué à l’SN dans le certificat). Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir <A href="lync-server-2013-configure-dns-for-edge-support.md">configurer la prise en charge de DNS pour les bords dans Lync Server 2013</A>.
+        > Le nom défini doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, pas un nom de domaine complet (FQDN). Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur à déployer en tant que serveur Edge non joint à un domaine. Utilisez uniquement des caractères standard (A à Z, a à z, 0 à 9 et tirets) lorsque vous affectez des noms de domaine complets à vos serveurs Lync, serveurs Edge et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaine complets ne sont souvent pas pris en charge par les DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté à l’élément SN (nom du sujet) du certificat). Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir <A href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</A>.
 
         
         </div>
     
-      - Cliquez sur **pool d’ordinateurs unique**, puis sur **suivant**.
+      - Cliquez sur **Pool d’un seul ordinateur**, puis sur **Suivant**.
 
 6.  Dans **Sélectionner les fonctionnalités**, procédez comme suit :
     
-      - Si vous envisagez d’utiliser un nom de domaine complet et une adresse IP uniques pour le service d’accès SIP, le service de conférence Web de Lync Server 2013 et les services Edge A/V, activez la case à cocher **utiliser un nom de domaine complet et une adresse IP uniques** .
+      - Si vous envisagez d’utiliser un seul nom de domaine complet et une seule adresse IP pour le service d’accès SIP, le service de conférence Web Lync Server 2013 et les services Edge A/V, activez la case à cocher **utiliser un seul nom de domaine complet et une seule adresse IP** .
     
-      - Si vous envisagez d’activer la Fédération, activez la case à cocher **activer la Fédération pour ce pool Edge (Port 5061)** .
+      - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
         
         <div>
         
 
         > [!NOTE]  
-        > Vous pouvez sélectionner cette option, mais un seul pool de périphériques ou serveur de périphérie de votre organisation peut être publié en externe pour la Fédération. Tout accès par des utilisateurs fédérés, y compris des utilisateurs de la messagerie instantanée publique, passe par le même pool de périphérie ou serveur à périphérie unique. Par exemple, si votre déploiement inclut un pool de périphérie ou un serveur Edge unique déployé à New York et un serveur déployé à Londres et que vous activez la prise en charge de la Fédération sur le pool de périphériques de la Nouvelle-York ou sur un serveur de périphérie Pool Edge ou serveur Edge unique. Cela s’applique également aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
+        > Vous pouvez activer cette option, mais un seul pool de serveurs Edge ou serveur Edge dans votre organisation peut être publié en externe pour la fédération. Tout accès par des utilisateurs fédérés, notamment les utilisateurs de messagerie instantanée publique, passe par le même pool de serveurs Edge ou serveur Edge unique. Par exemple, si votre déploiement inclut un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un déployé à Londres et que vous activez la prise en charge de la fédération sur le pool de serveurs Edge ou le serveur Edge unique de New York, le trafic de signalisation des utilisateurs fédérés passera par le pool de serveurs Edge ou le serveur Edge unique de New York. Ceci s’applique aussi aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
 
         
         </div>
     
-      - Si vous envisagez de prendre en charge le protocole de messagerie et de présence extensible (XMPP) pour votre déploiement, activez la case à cocher **activer la Fédération XMPP (port 5269)** .
+      - Si vous envisagez de prendre en charge le protocole XMPP (Extensible Messaging and Presence Protocol) pour votre déploiement, activez la case à cocher **Activer la fédération XMPP (port 5269)**
 
 7.  Dans **Sélectionner les options IP**, procédez comme suit :
     
-      - **Activer IPv4 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv4 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
-    Vous pouvez également configurer le serveur de périphérie ou le pool Edge pour utiliser une adresse de traduction d’adresses réseau pour les adresses IP externes. Pour ce faire, activez la case à cocher **l’adresse IP externe de ce pool Edge est traduite par tar**.
+    Vous pouvez également configurer le serveur Edge ou le pool de serveurs Edge pour utiliser une adresse de traduction d’adresses réseau pour les adresses IP externes. Pour ce faire, activez la case à cocher **L’adresse IP externe de ce pool Edge est traduite par NAT**.
 
-8.  Dans les noms de **domaine complets externes**, procédez comme suit :
+8.  Dans **Noms de domaine complets externes**, procédez comme suit :
     
-      - Si vous avez choisi de **Sélectionner les fonctionnalités** que vous avez choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge a/V, tapez le nom de domaine complet dans **accès SIP**.
+      - Si dans **Sélectionner les fonctionnalités** vous envisagez d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez le nom de domaine complet externe dans **Accès SIP**.
         
         <div>
         
 
         > [!NOTE]  
-        > Si vous choisissez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence Web et 443 pour service Edge A/V). La sélection de cette option permet d’éviter les problèmes de connectivité potentiels et de simplifier la configuration, car vous pouvez ensuite utiliser le même numéro de port (par exemple, 443) pour les trois services.
+        > Si vous sélectionnez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence web et 443 pour le service Edge A/V). L’activation de cette option permet d’éviter les problèmes de connectivité potentiels et de simplifier la configuration, car vous pouvez alors utiliser le même numéro de port (par exemple 443) pour les trois services.
 
         
         </div>
     
-      - Si vous n’avez pas choisi d’utiliser une adresse de domaine complet et un nom de domaine complet (FQDN) dans **Select** , tapez les noms de domaine complets externes pour l' **accès SIP**, les **conférences Web** et la **vidéo audio**, en conservant les ports par défaut.
+      - Si dans **Sélectionner les fonctionnalités** vous n’avez pas choisi d’utiliser un seul nom de domaine complet et une seule adresse IP, tapez les noms de domaine complets pour les services **Accès SIP**, **Conférence web** et **Audio Vidéo**, en conservant les ports par défaut.
 
 9.  Cliquez sur **Suivant**.
 
-10. Dans **définir l’adresse IP interne**, tapez l’adresse IP de votre serveur Edge dans **adresse IPv4 interne** et **adresse IPv6 interne** , en fonction de vos besoins. Cliquez sur **Suivant**.
+10. Dans **Définir l’adresse IP interne**, tapez l’adresse IP de votre serveur Edge dans **Adresse IPv4 interne** et **Adresse IPv6 interne** selon votre configuration. Cliquez sur **Suivant**.
 
-11. Dans **définir l’adresse IP externe**, procédez comme suit :
+11. Dans **Définir l’adresse IP externe**, procédez comme suit :
     
-      - Si vous choisissez d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IPv4 externe du serveur Edge dans **accès SIP**, puis cliquez sur **suivant**.
+      - Si vous avez décidé d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez l’adresse IPv4 externe du serveur Edge dans **Accès SIP**, puis cliquez sur **Suivant**.
     
-      - Si vous avez choisi d’utiliser les adresses IPv6, tapez l’adresse IPv6 externe du serveur Edge dans **accès SIP**, puis cliquez sur **suivant**.
+      - Si vous avez choisi d’utiliser des adresses IPv6, tapez l’adresse IPv6 externe du serveur Edge dans **Accès SIP**, puis cliquez sur **Suivant**.
     
-      - Si vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez les adresses IPv4 externes du serveur Edge dans **accès SIP**, **conférences Web**et **conférences a/v**, puis cliquez sur **suivant**.
+      - Si vous n’avez pas choisi d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez les adresses IPv4 externes du serveur Edge dans **Accès SIP**, **Conférence web** et **Conférence A/V**, puis cliquez sur **Suivant**.
     
-      - Si vous avez choisi d’utiliser les adresses IPv6 et que vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/v, tapez les adresses IPv6 externes du serveur Edge dans **accès SIP**, **conférences Web**et **conférences a/v**, puis cliquez sur **suivant**.
+      - Si vous avez choisi d’utiliser des adresses IPv6 et de ne pas utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez les adresses IPv6 externes du serveur Edge dans **Accès SIP**, **Conférence web** et **Conférence A/V**, puis cliquez sur **Suivant**.
         
         <div>
         
 
         > [!NOTE]  
-        > Si vous n’avez pas choisi d’activer et d’affecter l’adressage IPv6, cette boîte de dialogue ne s’affiche pas.
+        > Si vous n’avez pas activé l’utilisation d’adresses IPv6, cette boîte de dialogue ne s’affiche pas.
 
         
         </div>
 
-12. Si vous choisissez d’utiliser la traduction d’adresses réseau (NAT), une boîte de dialogue s’affiche. Dans **adresse IPv4 publique pour le service Edge A/V**, tapez l’adresse IPv4 publique à traduire par tar, puis cliquez sur **suivant**.
+12. Si vous avez choisi d’utiliser la traduction d’adresses réseau (NAT), une boîte de dialogue s’affiche. Dans **Adresse IPv4 publique pour le service Edge A/V**, tapez l’adresse IPv4 publique à traduire par NAT, puis cliquez sur **Suivant**.
     
     <div>
     
 
     > [!NOTE]  
-    > Il doit s’agir de l’adresse IP externe du service Edge A/V.
+    > Il doit s’agir de l’adresse IP externe du service Edge A/V.
 
     
     </div>
 
-13. Si vous choisissez d’utiliser des adresses NAT et IPv6, une boîte de dialogue s’affiche. Dans **adresse IPv6 publique pour le service Edge A/V**, tapez l’adresse IPv6 publique à traduire par tar, puis cliquez sur **suivant**.
+13. Si vous avez choisi d’utiliser la traduction d’adresses réseau (NAT) et des adresses IPv6, une boîte de dialogue s’affiche. Dans **Adresse IPv6 publique pour le service Edge A/V**, tapez l’adresse IPv6 publique à traduire par NAT, puis cliquez sur **Suivant**.
     
     <div>
     
 
     > [!NOTE]  
-    > Il doit s’agir de l’adresse IP externe du service Edge A/V.
+    > Il doit s’agir de l’adresse IP externe du service Edge A/V.
 
     
     </div>
 
-14. Dans **définir le saut suivant**, dans le **pool de sauts suivant**, sélectionnez le nom du pool interne, qui peut être un pool frontal ou un pool Standard Edition. Si votre déploiement inclut un directeur, sélectionnez le réalisateur. Ensuite, cliquez sur **suivant**.
+14. Dans **Définir le tronçon suivant**, dans la zone **Pool du tronçon suivant**, sélectionnez le nom du pool interne qui peut être soit un pool frontal, soit un pool de serveurs Standard Edition. Ou, si votre déploiement inclut un directeur, sélectionnez-le, puis cliquez sur **Suivant**.
 
-15. Dans la zone **associez les pools front-end**, spécifiez un (ou plusieurs) pools internes, qui peuvent être associés à ce serveur Edge, en sélectionnant les noms des pools internes qui doivent utiliser ce serveur Edge pour communiquer avec des utilisateurs externes pris en charge.
+15. Dans **Pools frontaux associés**, spécifiez un ou plusieurs pools internes à associer à ce serveur Edge, notamment des pools frontaux et des serveurs Standard Edition Server, en sélectionnant les noms des pools internes qui utiliseront ce serveur Edge pour communiquer avec les utilisateurs externes pris en charge.
     
     <div>
     
 
     > [!NOTE]  
-    > Il n’est possible d’associer qu’un seul pool Edge équilibré ou un seul serveur Edge à chaque pool interne pour le trafic A/V. Si vous disposez déjà d’un pool interne associé à un serveur Edge ou à un pool de bords, un message d’avertissement s’affiche, indiquant que le pool interne est déjà associé à un serveur Edge ou à un serveur Edge. Si vous sélectionnez un pool déjà associé à un autre serveur Edge, l’Association est modifiée.
+    > Un seul pool de serveurs Edge avec charge équilibrée ou serveur Edge unique peut être associé à chaque pool interne pour le trafic A/V. Si vous avez déjà un pool interne associé à un pool de serveurs Edge ou à un serveur Edge unique, un avertissement apparaît vous indiquant que le pool interne est déjà associé à un pool de serveurs Edge ou à un serveur Edge unique. Si vous sélectionnez un pool qui est déjà associé à un autre serveur Edge, cela modifiera l’association.
 
     
     </div>
@@ -208,117 +208,117 @@ Le processus de définition de la topologie de votre serveur Edge est réalisé 
 
 <div>
 
-## <a name="to-define-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Pour définir la topologie d’un pool de serveurs Edge équilibré de charge DNS
+## <a name="to-define-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Pour définir la topologie pour un pool de serveurs Edge avec charge DNS équilibrée
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site dans lequel vous voulez déployer des serveurs Edge.
+2.  Dans l’arborescence de la console, développez le site dans lequel vous souhaitez déployer les serveurs Edge.
 
-3.  Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle réserve de périphérie**.
+3.  Cliquez avec le bouton droit sur **Pools de serveurs Edge**, puis cliquez sur **Nouveau pool de serveurs Edge**.
 
-4.  Dans **définir le nouveau pool de bordures**, cliquez sur **suivant**.
+4.  Dans **Définir le nouveau pool Edge**, cliquez sur **Suivant**.
 
-5.  Dans **définir le nom de domaine complet (FQDN) du pool Edge**, procédez comme suit :
+5.  Dans **Définir le nom de domaine complet du pool Edge**, procédez comme suit :
     
-      - Dans **nom**de domaine complet (FQDN) du pool, tapez le nom de domaine complet (FQDN) de votre connexion interne.
+      - Dans **Nom de domaine complet du pool**, tapez le nom de domaine complet (FQDN) pour la connexion interne du pool de serveurs Edge.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Le nom que vous spécifiez pour le pool doit correspondre au nom du pool de bords internes. Cette opération doit être définie en tant que nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Utilisez uniquement les caractères standard (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le FQDN doit être attribué à l’SN dans le certificat).
+        > Le nom de pool que vous indiquez doit être identique au nom du pool Edge interne. Il doit être défini comme nom de domaine complet (FQDN). Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. Utilisez uniquement des caractères standard (A à Z, a à z, 0 à 9 et tirets) lorsque vous affectez des noms de domaine complets à vos serveurs Lync, serveurs Edge et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaine complets ne sont souvent pas pris en charge par les DNS externes et les autorités publiques de certification (lorsque le nom de domaine complet doit être affecté à l’élément SN (nom de sujet) du certificat).
 
         
         </div>
     
-      - Cliquez sur **plusieurs pools d’ordinateurs**, puis cliquez sur **suivant**.
+      - Cliquez sur **Pool de plusieurs ordinateurs**, puis sur **Suivant**.
 
 6.  Dans **Sélectionner les fonctionnalités**, procédez comme suit :
     
-      - Si vous envisagez d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web Lync Server 2013 et les services Edge A/V, activez la case à cocher **utiliser un nom de domaine complet et une adresse IP uniques** .
+      - Si vous envisagez d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence Web Lync Server 2013 et les services Edge A/V, activez la case à cocher **utiliser un seul nom de domaine complet et une seule adresse IP** .
     
-      - Si vous envisagez d’activer la Fédération, activez la case à cocher **activer la Fédération pour ce pool Edge (Port 5061)** . Cliquez sur **suivant** .
+      - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**. Cliquez sur **Suivant**
         
         <div>
         
 
         > [!NOTE]  
-        > Vous pouvez sélectionner cette option, mais un seul pool de périphériques ou serveur de périphérie de votre organisation peut être publié en externe pour la Fédération. Tout accès par des utilisateurs fédérés, y compris des utilisateurs de la messagerie instantanée publique, passe par le même pool de périphérie ou serveur à périphérie unique. Par exemple, si votre déploiement comprend un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un autre déployé à Londres, et que vous activez la prise en charge de fédération sur le pool de serveurs Edge ou sur le serveur Edge unique de New York, le trafic de signalisation pour les utilisateurs fédérés passera par le pool de serveurs Edge ou par le serveur Edge unique de New York. Cela s’applique également aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
+        > Vous pouvez activer cette option, mais un seul pool de serveurs Edge ou serveur Edge dans votre organisation peut être publié en externe pour la fédération. Tout accès par des utilisateurs fédérés, notamment les utilisateurs de messagerie instantanée publique, passe par le même pool de serveurs Edge ou serveur Edge unique. Par exemple, si votre déploiement inclut un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un déployé à Londres et que vous activez la prise en charge de la fédération sur le pool de serveurs Edge ou le serveur Edge unique de New York, le trafic de signalisation des utilisateurs fédérés passera par le pool de serveurs Edge ou le serveur Edge unique de New York. Ceci s’applique aussi aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
 
         
         </div>
     
-      - Si vous envisagez de prendre en charge le protocole de messagerie et de présence extensible (XMPP) pour votre déploiement, activez la case à cocher **activer la Fédération XMPP (port 5269)** .
+      - Si vous envisagez de prendre en charge le protocole XMPP (Extensible Messaging and Presence Protocol) pour votre déploiement, activez la case à cocher **Activer la fédération XMPP (port 5269)**
 
 7.  Cliquez sur **Suivant**.
 
 8.  Dans **Sélectionner les options IP**, procédez comme suit :
     
-      - **Activer IPv4 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv4 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
-    Vous pouvez également configurer le serveur de périphérie ou le pool Edge pour utiliser une adresse de traduction d’adresses réseau pour les adresses IP externes. Pour ce faire, activez la case à cocher **l’adresse IP externe de ce pool Edge est traduite par tar**.
+    Vous pouvez également configurer le serveur Edge ou le pool de serveurs Edge pour utiliser une adresse de traduction d’adresses réseau pour les adresses IP externes. Pour ce faire, activez la case à cocher **L’adresse IP externe de ce pool Edge est traduite par NAT**.
 
-9.  Dans les noms de **domaine complets externes**, procédez comme suit :
+9.  Dans **Noms de domaine complets externes**, procédez comme suit :
     
-      - Si vous avez choisi de **Sélectionner les fonctionnalités** que vous avez choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge a/V, tapez le nom de domaine complet dans **accès SIP**.
+      - Si, dans **Sélectionner les fonctionnalités**, vous avez choisi d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez le nom de domaine complet externe dans **Accès SIP**.
         
         <div>
         
 
         > [!NOTE]  
-        > Si vous choisissez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence Web et 443 pour service Edge A/V). En sélectionnant cette option, vous pouvez éviter les problèmes de connectivité potentiels et simplifier la configuration, car vous pouvez ensuite utiliser le même numéro de port (par exemple, 443) pour les trois services.
+        > Si vous sélectionnez cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence web et 443 pour le service Edge A/V). L’activation de cette option permet d’éviter les problèmes de connectivité potentiels et de simplifier la configuration, car vous pouvez alors utiliser le même numéro de port (par exemple 443) pour les trois services.
 
         
         </div>
     
-      - Si vous n’avez pas choisi d’utiliser une adresse de domaine complet et un nom de domaine complet (FQDN) dans **Sélectionner les fonctionnalités** , tapez le nom de domaine complet (FQDN) du pool pour l' **accès SIP**. Dans **conférences Web**, tapez le nom de domaine complet que vous avez choisi pour le côté public du pool de périphérie. Dans **audio/vidéo**, tapez le nom de domaine complet (FQDN) que vous avez choisi pour le côté public du pool Edge. Utiliser les ports par défaut.
+      - Si, dans **Sélectionner les fonctionnalités**, vous n’avez pas décidé d’utiliser un seul nom de domaine complet et une seule adresse IP, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence web**, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge. Dans **Audio/Vidéo**, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge. Utilisez les ports par défaut.
 
 10. Cliquez sur **Suivant**.
 
-11. Dans **définir les ordinateurs dans ce pool**, cliquez sur **Ajouter**.
+11. Dans **Définissez les ordinateurs inclus dans ce pool**, cliquez sur **Ajouter**.
 
 12. Dans **FQDN et adresse IP internes**, procédez comme suit :
     
-      - Dans **adresse IPv4 interne**, tapez l’adresse IPv4 et l' **adresse IPv6 interne** , en fonction de vos besoins pour le premier serveur de périmètre que vous voulez créer dans ce pool.
+      - Dans **Adresse IPv4 interne**, tapez l’adresse IPv4 et l’**Adresse IPv6 interne** selon les besoins du premier serveur Edge à créer dans ce pool.
     
-      - Dans **nom de domaine complet (FQDN) interne**, tapez le nom de domaine complet (FQDN) du premier serveur Edge que vous voulez créer dans ce pool.
+      - Dans **Nom de domaine complet (FQDN) interne**, tapez le nom de domaine complet du premier serveur Edge que vous souhaitez créer dans ce pool.
         
         <div>
         
 
         > [!NOTE]  
-        > Le nom de domaine complet spécifié doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, et non un nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. Utilisez uniquement les caractères standard (y compris A – Z, a-z, 0 à 9 et les traits d’Union) lorsque vous attribuez des noms de domaine complets de vos serveurs Lync, serveurs de périphérie, groupes et matrices. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le FQDN doit être attribué à l’SN dans le certificat). Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir <A href="lync-server-2013-configure-dns-for-edge-support.md">configurer la prise en charge de DNS pour les bords dans Lync Server 2013</A>.
+        > Le nom que vous spécifiez doit être identique au nom de l’ordinateur configuré sur le serveur. Par défaut, le nom d’un ordinateur qui n’est pas joint à un domaine est un nom court, non un nom de domaine complet. Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur à déployer en tant que serveur Edge non joint à un domaine. Utilisez uniquement des caractères standard (A à Z, a à z, 0 à 9 et tirets) lorsque vous affectez des noms de domaine complets à vos serveurs Lync, serveurs Edge, pools et tableaux. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaine complets ne sont souvent pas pris en charge par les DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté à l’élément SN (nom du sujet) du certificat). Pour plus d’informations sur l’ajout d’un suffixe DNS à un nom d’ordinateur, voir <A href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</A>.
 
         
         </div>
 
 13. Cliquez sur **Suivant**.
 
-14. Dans **définir les adresses IP externes**, procédez comme suit :
+14. Dans **Définir les adresses IP externes**, procédez comme suit :
     
-      - Si vous choisissez d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IP externe du serveur Edge dans **accès SIP**.
+      - Si vous décidez d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IP externe du serveur Edge dans **Accès SIP**.
     
-      - Si vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour les services d’accès SIP, de service de conférence Web et de conférence A/V, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge pour l' **accès SIP**. Dans **conférence Web**, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge. Dans le cadre de **conférences A/V**, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge.
+      - Si vous décidez de ne pas utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence Web et le service de conférence A/V, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence Web**, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge. Dans **Conférence A/V**, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge.
 
 15. Cliquez sur **Suivant**.
 
-16. Si vous choisissez d’activer les adresses IPv6, dans **définir les adresses IP externes**, procédez comme suit :
+16. Si vous avez activé l’utilisation des adresses IPv6, dans **Définir l’adresse IP externe**, procédez comme suit :
     
-      - Si vous choisissez d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IPv6 externe du serveur Edge dans l' **accès SIP**.
+      - Si vous avez décidé d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez l’adresse IPv6 externe du serveur Edge dans **Accès SIP**.
     
-      - Si vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour les services d’accès SIP, de service de conférence Web et de conférence A/V, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge pour l' **accès SIP**. Dans **conférence Web**, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge. Dans le cadre de **conférences A/V**, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge.
+      - Si vous avez décidé de ne pas utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service de conférence A/V, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence web**, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge. Dans **Conférence A/V**, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge.
     
     <div>
     
 
     > [!NOTE]  
-    > Si vous n’avez pas choisi d’activer et d’affecter l’adressage IPv6, cette boîte de dialogue ne s’affiche pas.
+    > Si vous n’avez pas activé l’utilisation d’adresses IPv6, cette boîte de dialogue ne s’affiche pas.
 
     
     </div>
@@ -329,44 +329,44 @@ Le processus de définition de la topologie de votre serveur Edge est réalisé 
     
 
     > [!NOTE]  
-    > Le premier serveur Edge que vous avez créé dans votre pool apparaît désormais dans la boîte de dialogue <STRONG>définir les ordinateurs dans ce pool</STRONG> .
+    > Le premier serveur Edge créé dans votre pool apparaît maintenant dans la boîte de dialogue <STRONG>Définissez les ordinateurs inclus dans ce pool</STRONG>.
 
     
     </div>
 
-18. Dans **définir les ordinateurs dans ce pool**, cliquez sur **Ajouter**, puis répétez les étapes 11 à 14 pour le deuxième serveur de périmètre que vous voulez ajouter à votre liste de serveurs de bord.
+18. Dans **Définissez les ordinateurs inclus dans ce pool**, cliquez sur **Ajouter**, puis répétez les étapes 11 à 14 pour le deuxième serveur Edge à ajouter à votre pool de serveurs Edge.
 
-19. Après avoir répété les étapes 11 à 14, cliquez sur **suivant** dans **définir les ordinateurs dans ce pool**.
+19. Après avoir exécuté les étapes 11 à 14, cliquez sur **Suivant** dans **Définissez les ordinateurs inclus dans ce pool**.
     
     <div>
     
 
     > [!NOTE]  
-    > À ce stade, vous pouvez voir les deux serveurs de périphérie de votre liste.
+    > À ce stade, les deux serveurs Edge sont visibles dans le pool.
 
     
     </div>
 
-20. Si vous choisissez d’utiliser la traduction d’adresses réseau (NAT), une boîte de dialogue s’affiche. Dans **adresse IP publique**, tapez les adresses publiques IPv4 et IPv6 (le cas échéant) à traduire par tar, puis cliquez sur **suivant**.
+20. Si vous avez choisi d’utiliser la traduction d’adresses réseau (NAT), une boîte de dialogue s’affiche. Dans **Adresse IP publique**, tapez les adresses IPv4 et IPv6 (le cas échéant) publiques à traduire par NAT, puis cliquez sur **Suivant**.
     
     <div>
     
 
     > [!NOTE]  
-    > Il doit s’agir de l’adresse IP externe du bord A/V.
+    > Il doit s’agir de l’adresse IP externe du service Edge A/V.
 
     
     </div>
 
-21. Dans **définir le tronçon suivant**, dans la liste **pool de sauts suivants** , sélectionnez le nom du pool interne, qui peut être un pool frontal ou un pool Standard Edition. Si votre déploiement inclut un réalisateur, sélectionnez le nom du réalisateur. Ensuite, cliquez sur **suivant**.
+21. Dans **Définir le tronçon suivant**, dans la liste **Pool du tronçon suivant**, sélectionnez le nom du pool interne qui peut être soit un pool de serveurs frontaux, soit un pool de serveurs Standard Edition Server. Ou, si votre déploiement inclut un directeur, sélectionnez son nom. Cliquez ensuite sur **Suivant**.
 
-22. Dans la liste de serveurs Associate de niveau **frontal**, spécifiez un ou plusieurs pools internes, qui peuvent inclure des pools principaux et des serveurs Standard Edition, à associer à ce serveur Edge, en sélectionnant les noms du ou des pools internes qui doivent utiliser ce serveur Edge pour communiquer avec des utilisateurs externes pris en charge.
+22. Dans **Pools frontaux associés**, spécifiez un ou plusieurs pools internes à associer à ce serveur Edge, notamment des pools frontaux et des serveurs Standard Edition Server, en sélectionnant les noms des pools internes qui utiliseront ce serveur Edge pour communiquer avec les utilisateurs externes pris en charge.
     
     <div>
     
 
     > [!NOTE]  
-    > Il n’est possible d’associer qu’un seul pool Edge équilibré ou un seul serveur Edge à chaque pool interne pour le trafic A/V. Si vous disposez déjà d’un pool interne associé à un serveur Edge ou à un pool de bords, un message d’avertissement s’affiche, indiquant que le pool interne est déjà associé à un serveur Edge ou à un serveur Edge. Si vous sélectionnez un pool déjà associé à un autre serveur Edge, l’Association est modifiée.
+    > Un seul pool de serveurs Edge avec charge équilibrée ou serveur Edge unique peut être associé à chaque pool interne pour le trafic A/V. Si vous avez déjà un pool interne associé à un pool de serveurs Edge ou à un serveur Edge unique, un avertissement apparaît vous indiquant que le pool interne est déjà associé à un pool de serveurs Edge ou à un serveur Edge unique. Si vous sélectionnez un pool qui est déjà associé à un autre serveur Edge, cela modifiera l’association.
 
     
     </div>
@@ -379,118 +379,118 @@ Le processus de définition de la topologie de votre serveur Edge est réalisé 
 
 <div>
 
-## <a name="to-define-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Pour définir la topologie d’un pool de serveurs Edge équilibré en charge matérielle
+## <a name="to-define-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Pour définir la topologie pour un pool de serveurs Edge à charge matérielle équilibrée
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site dans lequel vous voulez déployer des serveurs Edge.
+2.  Dans l’arborescence de la console, développez le site dans lequel vous souhaitez déployer les serveurs Edge.
 
-3.  Cliquez avec le bouton droit sur **pools de bords**, puis sélectionnez **nouvelle liste de bord**.
+3.  Cliquez avec le bouton droit sur **Pools**de serveurs Edge, puis sélectionnez **nouveau pool de serveurs Edge**.
 
-4.  Dans **définir le nouveau pool de bordures**, cliquez sur **suivant**.
+4.  Dans **Définir le nouveau pool Edge**, cliquez sur **Suivant**.
 
-5.  Dans **définir le nom de domaine complet (FQDN) du pool Edge**, procédez comme suit :
+5.  Dans **Définir le nom de domaine complet du pool Edge**, procédez comme suit :
     
-      - Dans **FQDN**, tapez le nom de domaine complet (FQDN) que vous avez choisi pour le côté interne du pool de périphérie.
+      - Dans **Nom de domaine complet**, tapez le nom de domaine complet (FQDN) de l’interface interne pour le pool de serveurs Edge.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Le nom que vous spécifiez pour le pool doit correspondre au nom du pool de bords internes. Cette opération doit être définie en tant que nom de domaine complet. Le générateur de topologie utilise des noms de domaine complets plutôt que des noms courts. Utilisez uniquement les caractères standard (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans un nom de domaine complet ne sont généralement pas pris en charge par les autorités de certification DNS et publiques externes (lorsque le FQDN doit être attribué à l’SN dans le certificat).
+        > Le nom de pool que vous indiquez doit être identique au nom du pool Edge interne. Il doit être défini comme nom de domaine complet (FQDN). Le Générateur de topologies utilise des noms de domaine complets (FQDN), non des noms courts. Utilisez uniquement des caractères standard (A à Z, a à z, 0 à 9 et tirets) lorsque vous affectez des noms de domaine complets à vos serveurs Lync, serveurs Edge et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaine complets ne sont souvent pas pris en charge par les DNS externes et les autorités de certification publiques (lorsque le nom de domaine complet doit être affecté à l’élément SN (nom du sujet) du certificat).
 
         
         </div>
     
     <!-- end list -->
     
-      - Cliquez sur **plusieurs pools d’ordinateurs**, puis sur **suivant**.
+      - Cliquez sur **pool de plusieurs ordinateurs**, puis sur **suivant**.
 
-6.  Dans **Sélectionner les fonctionnalités** , effectuez les opérations suivantes :
+6.  Dans **Sélectionner les fonctionnalités**, procédez comme suit :
     
-      - Si vous envisagez d’utiliser un nom de domaine complet et une adresse IP uniques pour le service d’accès SIP, le service de conférence Web Lync Server et le service Edge A/V, activez la case à cocher **utiliser un nom de domaine complet & adresse IP** .
+      - Si vous envisagez d’utiliser un seul nom de domaine complet et une seule adresse IP pour le service d’accès SIP, le service de conférence Web Lync Server et le service Edge A/V, activez la case à cocher **utiliser un seul nom de domaine complet & adresse IP** .
     
-      - Si vous envisagez d’activer la Fédération, activez la case à cocher **activer la Fédération pour ce pool Edge (Port 5061)** .
+      - Si vous envisagez d’activer la fédération, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**.
         
         <div>
         
 
         > [!NOTE]  
-        > Vous pouvez sélectionner cette option, mais il se peut que vous n’ayez publié qu’une seule grappe de périphériques ou qu’un serveur Edge au sein de votre organisation pour la Fédération. Tout accès par des utilisateurs fédérés, y compris des utilisateurs de la messagerie instantanée publique, passe par le même pool de périphérie ou serveur à périphérie unique. Par exemple, si votre déploiement comprend un pool de serveurs Edge ou un serveur Edge unique déployé à New York et un autre déployé à Londres, et que vous activez la prise en charge de fédération sur le pool de serveurs Edge ou sur le serveur Edge unique de New York, le trafic de signalisation pour les utilisateurs fédérés passera par le pool de serveurs Edge ou par le serveur Edge unique de New York. Cela s’applique également aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
+        > Vous pouvez activer cette option, mais un seul pool Edge ou serveur Edge dans votre organisation peut être publié en externe pour la fédération. Tout accès par des utilisateurs fédérés, notamment les utilisateurs de messagerie instantanée publique, passe par le même pool de serveurs Edge ou serveur Edge unique. Par exemple, si votre déploiement comprend un pool de serveurs Edge ou un serveur Edge unique déployé à New York, et un autre déployé à Londres, et que vous activez la prise en charge de fédération sur le pool de serveurs Edge ou serveur Edge unique de New York, le trafic de signalisation pour les utilisateurs fédérés passera par le pool de serveurs Edge ou serveur Edge unique de New York. Ceci s’applique aussi aux communications avec les utilisateurs de Londres, même si un utilisateur interne de Londres qui appelle un utilisateur fédéré de Londres utilise le pool de serveurs ou le serveur Edge de Londres pour le trafic A/V.
 
         
         </div>
     
-      - Si vous envisagez de prendre en charge le protocole de messagerie et de présence extensible (XMPP) pour votre déploiement, activez la case à cocher **activer la Fédération XMPP (port 5269)** .
+      - Si vous envisagez de prendre en charge le protocole XMPP (Extensible Messaging and Presence Protocol) pour votre déploiement, activez la case à cocher **Activer la fédération XMPP (port 5269)**
 
 7.  Cliquez sur **Suivant**.
 
 8.  Dans **Sélectionner les options IP**, procédez comme suit :
     
-      - **Activer IPv4 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface interne**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface interne du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv4 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv4 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv4 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
-      - **Activer IPv6 sur une interface externe**: activez la case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de périphériques
+      - **Activer IPv6 sur l’interface externe**: activez cette case à cocher si vous voulez appliquer une adresse IPv6 à l’interface externe du serveur Edge ou du pool de serveurs Edge
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Ne cochez pas</STRONG> la case <STRONG>l’adresse IP externe de la liste des bords est traduite par tar</STRONG> . La traduction d’adresses réseau (NAT) n’est pas prise en charge lorsque vous utilisez l’équilibrage de charge matérielle.
+    > <STRONG>N’activez pas</STRONG> la case à cocher <STRONG>L’adresse IP externe de ce pool de serveurs Edge est traduite par NAT</STRONG>. La traduction d’adresses réseau (NAT) n’est pas prise en charge lorsque vous utilisez l’équilibrage de la charge matérielle.
 
     
     </div>
 
-9.  Dans les noms de **domaine complets externes**, procédez comme suit :
+9.  Dans **Noms de domaine complets externes**, procédez comme suit :
     
-      - Si vous avez choisi de **Sélectionner les fonctionnalités** que vous avez choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge a/V, tapez le nom de domaine complet dans **accès SIP**.
+      - Si, dans **Sélectionner les fonctionnalités**, vous avez choisi d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez le nom de domaine complet externe dans **Accès SIP**.
         
         <div>
         
 
         > [!NOTE]  
-        > Si vous choisissez d’activer cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence Web et 443 pour service Edge A/V). En sélectionnant cette option, vous pouvez éviter les problèmes de connectivité potentiels et simplifier la configuration, car vous pouvez ensuite utiliser le même numéro de port (par exemple, 443) pour les trois services.
+        > Si vous décidez d’activer cette option, vous devez spécifier un numéro de port différent pour chacun des services Edge (paramètres de port recommandés : 5061 pour le service Edge d’accès, 444 pour le service Edge de conférence web et 443 pour le service Edge A/V). L’activation de cette option permet d’éviter les problèmes de connectivité potentiels et de simplifier la configuration, car vous pouvez alors utiliser le même numéro de port (par exemple 443) pour les trois services.
 
         
         </div>
     
-      - Si vous n’avez pas choisi d’utiliser une adresse de domaine complet et un nom de domaine complet (FQDN) dans **Sélectionner les fonctionnalités** , tapez le nom de domaine complet (FQDN) du pool pour l' **accès SIP**. Dans **conférences Web**, tapez le nom de domaine complet que vous avez choisi pour le côté public du pool de périphérie. Dans **audio/vidéo**, tapez le nom de domaine complet (FQDN) que vous avez choisi pour le côté public du pool Edge. Utiliser les ports par défaut.
+      - Si, dans **Sélectionner les fonctionnalités**, vous n’avez pas décidé d’utiliser un seul nom de domaine complet et une seule adresse IP, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence web**, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge. Dans **Audio/Vidéo**, tapez le nom de domaine complet que vous avez choisi pour le côté accessible au public du pool de serveurs Edge. Utilisez les ports par défaut.
         
         <div>
         
 
         > [!NOTE]  
-        > Il s’agira des noms de domaine complets de l’adresse IP virtuelle pour le pool.
+        > Il serviront de noms de domaine complets des adresses IP virtuelles (VIP) accessibles au public.
 
         
         </div>
 
 10. Cliquez sur **Suivant**.
 
-11. Dans **définir les ordinateurs dans ce pool**, cliquez sur **Ajouter**.
+11. Dans **Définissez les ordinateurs inclus dans ce pool**, cliquez sur **Ajouter**.
 
-12. Dans **définir les adresses IP externes**, procédez comme suit :
+12. Dans **Définir les adresses IP externes**, procédez comme suit :
     
-      - Si vous avez choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IPv4 externe du serveur Edge **dans accès SIP** **.**
+      - Si vous avez décidé d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez l’adresse IPv4 externe du serveur Edge dans **Accès****SIP**.
     
-      - Si vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour les services d’accès SIP, de service de conférence Web et de conférence A/V, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge pour l' **accès SIP**. Dans **conférence Web**, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge. Dans le cadre de **conférences A/V**, tapez l’adresse IP que vous avez choisie pour le côté public de ce serveur de pool Edge.
+      - Si vous avez décidé de ne pas utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service de conférence A/V, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence web**, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge. Dans **Conférence A/V**, tapez l’adresse IP que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge.
 
 13. Cliquez sur **Suivant**.
 
-14. Si vous choisissez d’activer les adresses IPv6, dans **définir les adresses IP externes**, procédez comme suit :
+14. Si vous avez activé l’utilisation des adresses IPv6, dans **Définir l’adresse IP externe**, procédez comme suit :
     
-      - Si vous choisissez d’utiliser un nom de domaine complet et une adresse IP uniques pour l’accès SIP, le service de conférence Web et le service Edge A/V, tapez l’adresse IPv6 externe du serveur Edge dans l' **accès SIP**.
+      - Si vous avez décidé d’utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service Edge A/V, tapez l’adresse IPv6 externe du serveur Edge dans **Accès SIP**.
     
-      - Si vous n’avez pas choisi d’utiliser un nom de domaine complet et une adresse IP uniques pour les services d’accès SIP, de service de conférence Web et de conférence A/V, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge pour l' **accès SIP**. Dans **conférence Web**, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge. Dans le cadre de **conférences A/V**, tapez l’adresse IPv6 que vous avez choisie pour le côté public de ce serveur de pool Edge.
+      - Si vous avez décidé de ne pas utiliser un seul nom de domaine complet et une seule adresse IP pour l’accès SIP, le service de conférence web et le service de conférence A/V, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge dans **Accès SIP**. Dans **Conférence web**, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge. Dans **Conférence A/V**, tapez l’adresse IPv6 que vous avez choisie pour le côté accessible au public de ce serveur du pool de serveurs Edge.
     
     <div>
     
 
     > [!NOTE]  
-    > Si vous n’avez pas choisi d’activer et d’affecter l’adressage IPv6, cette boîte de dialogue ne s’affiche pas.
+    > Si vous n’avez pas activé l’utilisation d’adresses IPv6, cette boîte de dialogue ne s’affiche pas.
 
     
     </div>
@@ -501,33 +501,33 @@ Le processus de définition de la topologie de votre serveur Edge est réalisé 
     
 
     > [!NOTE]  
-    > Le premier serveur Edge que vous avez créé dans votre pool apparaît désormais dans la boîte de dialogue <STRONG>définir les ordinateurs dans ce pool</STRONG> .
+    > Le premier serveur Edge créé dans votre pool apparaît maintenant dans la boîte de dialogue <STRONG>Définissez les ordinateurs inclus dans ce pool</STRONG>.
 
     
     </div>
 
-16. Dans **définir les ordinateurs dans ce pool**, cliquez sur **Ajouter**, puis répétez les étapes 11 à 14 pour le deuxième serveur de périmètre que vous voulez ajouter à votre pool de périphériques.
+16. Dans **Définissez les ordinateurs inclus dans ce pool**, cliquez sur **Ajouter**, puis répétez les étapes 11 à 14 pour le deuxième serveur Edge que vous souhaitez ajouter à votre pool de serveurs Edge.
 
-17. Après avoir répété les étapes 11 à 14, cliquez sur **suivant** dans **définir les ordinateurs dans ce pool**.
+17. Après avoir exécuté les étapes 11 à 14, cliquez sur **Suivant** dans **Définissez les ordinateurs inclus dans ce pool**.
     
     <div>
     
 
     > [!NOTE]  
-    > À ce stade, vous pouvez voir les deux serveurs de périphérie de votre liste.
+    > À ce stade, les deux serveurs Edge sont visibles dans le pool.
 
     
     </div>
 
-18. Dans **définir le tronçon suivant**, dans la liste **pool de sauts suivants** , sélectionnez le nom du pool interne, qui peut être un pool frontal ou un pool Standard Edition. Si votre déploiement inclut un réalisateur, sélectionnez le nom du réalisateur. Ensuite, cliquez sur **suivant**.
+18. Dans **Définir le tronçon suivant**, dans la liste **Pool du tronçon suivant**, sélectionnez le nom du pool interne qui peut être soit un pool de serveurs frontaux, soit un pool de serveurs Standard Edition Server. Ou, si votre déploiement inclut un directeur, sélectionnez son nom. Cliquez ensuite sur **Suivant**.
 
-19. Dans la liste de serveurs Associate de niveau **frontal**, spécifiez un ou plusieurs pools internes, qui peuvent inclure des pools principaux et des serveurs Standard Edition, à associer à ce serveur Edge, en sélectionnant les noms du ou des pools internes qui doivent utiliser ce serveur Edge pour communiquer avec des utilisateurs externes pris en charge.
+19. Dans **Pools frontaux associés**, spécifiez un ou plusieurs pools internes à associer à ce serveur Edge, notamment des pools frontaux et des serveurs Standard Edition Server, en sélectionnant les noms des pools internes qui utiliseront ce serveur Edge pour communiquer avec les utilisateurs externes pris en charge.
     
     <div>
     
 
     > [!NOTE]  
-    > Il n’est possible d’associer qu’un seul pool Edge équilibré ou un seul serveur Edge à chaque pool interne pour le trafic A/V. Si vous disposez déjà d’un pool interne associé à un serveur Edge ou à un pool de bords, un message d’avertissement s’affiche, indiquant que le pool interne est déjà associé à un serveur Edge ou à un serveur Edge. Si vous sélectionnez un pool déjà associé à un autre serveur Edge, l’Association est modifiée.
+    > Un seul pool de serveurs Edge avec charge équilibrée ou serveur Edge unique peut être associé à chaque pool interne pour le trafic A/V. Si vous avez déjà un pool interne associé à un pool de serveurs Edge ou à un serveur Edge unique, un avertissement apparaît vous indiquant que le pool interne est déjà associé à un pool de serveurs Edge ou à un serveur Edge unique. Si vous sélectionnez un pool qui est déjà associé à un autre serveur Edge, cela modifiera l’association.
 
     
     </div>

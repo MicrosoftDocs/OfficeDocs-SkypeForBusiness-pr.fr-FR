@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : désactivation de la contournement de média réseau'
+title: 'Lync Server 2013 : désactivation de la déviation du trafic multimédia réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58bf551f94bc6b3ba919437730841f54dd01e291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Désactivation de la contournement de média réseau dans Lync Server 2013
+# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Désactivation de la déviation du trafic multimédia réseau dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757608"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-Les paramètres de contournement de média s’appliquent globalement dans le déploiement de Microsoft Lync Server 2013. Bypass Media accepte les appels pour ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement du contenu multimédia, voir [planification d’une dérivation multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) dans la section planification. Vous pouvez désactiver la dérivation multimédia du panneau de configuration de Lync Server. Pour plus d’informations sur l’activation et la configuration du contournement du son, voir [activation du contournement de média réseau dans Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
+Les paramètres de contournement de média s’appliquent globalement à un déploiement de Microsoft Lync Server 2013. La déviation du trafic multimédia autorise les appels à contourner le serveur de médiation. Pour plus d’informations sur l’utilisation de la déviation du trafic multimédia, reportez-vous à la rubrique [Planning for Media Bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) dans la section Planning. Vous pouvez désactiver la déviation du trafic multimédia à partir du panneau de configuration Lync Server. Pour plus d’informations sur l’activation et la configuration de la déviation du trafic, consultez la rubrique [activation du contournement de média réseau dans Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 
 <div>
 
-## <a name="to-disable-media-bypass"></a>Pour désactiver la dérivation multimédia
+## <a name="to-disable-media-bypass"></a>Pour désactiver le contournement de média
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **Global**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Globale**.
 
-4.  Dans la page **Global** , cliquez sur configuration **globale** . Il n’y a toujours qu’une seule configuration et elle est toujours nommée global.
+4.  Dans la page **Globale**, cliquez sur la configuration **Globale**. Il n’existe toujours qu’une seule configuration, qui se nomme toujours Globale.
 
-5.  Dans le menu **édition** , cliquez sur **afficher les détails**.
+5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier le paramètre global** , décochez la case **activer le contournement multimédia** .
+6.  Dans la page **Modifier la configuration globale**, décochez la case **Activer le contournement de média**.
 
-7.  Cliquez sur **valider** pour enregistrer vos modifications.
+7.  Cliquez sur **OK ** pour enregistrer vos modifications.
 
 </div>
 
@@ -64,7 +64,7 @@ Les paramètres de contournement de média s’appliquent globalement dans le d�
 ## <a name="see-also"></a>Voir aussi
 
 
-[Activation du contournement de média réseau dans Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)  
+[Activation de la déviation du trafic multimédia réseau dans Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)  
   
 
 </div>

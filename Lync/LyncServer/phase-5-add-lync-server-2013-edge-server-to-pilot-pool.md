@@ -1,5 +1,5 @@
 ---
-title: 'Étape 5 : ajouter le serveur Edge Lync Server 2013 au pool de pilotes'
+title: 'Phase 5 : ajouter le serveur Edge Lync Server 2013 au pool pilote'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88949c4a2be1779d6be0704bfa90c211640e88be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4822e68ea060056e78f460b77a01e9931d4ee604
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>Étape 5 : ajouter le serveur Edge Lync Server 2013 au pool de pilotes
+# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>Phase 5 : ajouter le serveur Edge Lync Server 2013 au pool pilote
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41765715"
 
 _**Dernière modification de la rubrique :** 2012-09-06_
 
-Les rubriques de cette section expliquent comment ajouter un serveur Edge Lync Server 2013 au déploiement du pool de pilotes. Les rubriques fournissent des recommandations en matière de configuration et de vérification lors de l’exécution de l’Assistant Déploiement du pool de périphériques.
+Les rubriques de cette section expliquent comment ajouter un serveur Edge Lync Server 2013 au déploiement du pool pilote. Les rubriques donnent des conseils quant à la configuration et à la vérification lors de l’exécution de l’Assistant Déploiement d’un nouveau pool de serveurs Edge.
 
 <div>
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-  - [Déploiement d’un serveur Edge pilote](deploy-pilot-edge-server.md)
+  - [Déploiement du serveur Edge pilote](deploy-pilot-edge-server.md)
 
   - [Vérifier les paramètres de configuration](verify-configuration-settings.md)
 

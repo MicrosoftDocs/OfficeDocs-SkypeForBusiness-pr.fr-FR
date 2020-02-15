@@ -1,5 +1,5 @@
 ---
-title: Utilisation de la recherche dans les journaux de capture créés par le service de journalisation centralisé
+title: Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edfc176934479aef04d6850a8ebbae3b38a553a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f9571f2efe08eb13091c3d3660e7760a8e805c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation de la recherche dans les journaux de capture créés par le service de journalisation centralisé dans Lync Server 2013
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Utilisation de la recherche sur les journaux de capture créés par le service de journalisation centralisée dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41744014"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Les fonctionnalités de recherche du service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes :
+Les fonctionnalités de recherche dans le service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes :
 
   - Vos recherches et les résultats sont exécutés sur un seul ordinateur, un pool, un site ou une étendue globale, en fonction des critères que vous définissez.
 
   - Vos recherches peuvent être larges à l’origine, puis s’affiner sur des critères plus ciblés, tels que l’heure, le composant ou l’ordinateur. Vous effectuez vos recherches sur les mêmes journaux et n’avez pas besoin d’exécuter une autre session de journalisation lorsque vos critères de recherche changent.
 
-  - Les résultats de votre recherche sont issus de tous les ordinateurs et pools de l’étendue, collectés et regroupés en un seul fichier de sortie qui représente tous les résultats des critères de recherche (limités aux scénarios qui ont été exécutés et aux données capturées par les scénarios). Vous utilisez des outils familiers, tels que **Snooper** ou **Notepad**, pour lire le fichier de sortie et les messages de suivi de tout votre déploiement.
+  - Les résultats de votre recherche sont recueillis sur tous les ordinateurs et pools de l’étendue, collectés et regroupés dans un seul fichier de sortie qui représente tous les résultats des critères de recherche (limités aux scénarios qui ont été exécutés et aux données capturées par les scénarios). Vous utilisez des outils familiers, tels que **Snooper** ou le **Bloc-notes** pour lire le fichier de sortie et les messages de suivi de tout votre déploiement.
 
 Le CLSAgent sur chaque ordinateur individuel crée les journaux en fonction du ou des scénarios (deux scénarios par ordinateur peuvent s’exécuter en même temps). Les journaux, ainsi que leurs fichiers d’index et de cache associés, sont gérés par le CLSAgent. Lorsque vous définissez et exécutez une recherche, la commande de recherche indique au CLSAgent quelles informations extraire. Le CLSAgent exécute la requête sur les fichiers journaux, les fichiers de cache et les fichiers d’index et renvoie les résultats de la recherche au CLSController. Le CLSController reçoit les résultats de la recherche en provenance de tous les ordinateurs et pools dans l’étendue de la recherche. Le CLSController regroupe ensuite (combine) les journaux et les classe en fonction de l’écart de temps : l’entrée la plus ancienne en premier et l’entrée la plus récente en dernier.
 
-Après chaque recherche, l’applet de commande **Sync-CsClsLogging** est exécutée et vide le cache utilisé par les recherches (à ne pas confondre avec les fichiers cache gérés par CLSAgent). Le fait de vider le cache permet de garantir que la prochaine opération de recherche bénéficie d’une mémoire tampon nette de capture du fichier journal et du fichier de suivi sur le CLSController.
+Au terme de chaque recherche, l’applet de commande **Sync-CsClsLogging** est exécutée et vide le cache utilisé par les recherches (à ne pas confondre avec les fichiers de cache gérés par le CLSAgent). Le fait de vider le cache permet de s’assurer que la prochaine opération de recherche bénéficie d’une mémoire tampon nette de capture du fichier journal et du fichier de suivi sur le CLSController.
 
-Pour tirer le meilleur parti du service de journalisation centralisé, vous devez comprendre comment configurer la recherche pour renvoyer uniquement les messages de suivi des journaux d’ordinateur et de pool pertinents pour le problème que vous recherchez. aspects
+Pour tirer le meilleur parti du service de journalisation centralisée, vous avez besoin d’une bonne compréhension de la configuration de la recherche pour renvoyer uniquement les messages de suivi à partir des journaux d’ordinateur et de pool pertinents pour le problème que vous recherchez. Problem
 
-Pour exécuter les fonctions de recherche du service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre du groupe de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC) ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette cmdlet a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
+Pour exécuter les fonctions de recherche du service de journalisation centralisée à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou RBAC (contrôle d’accès basé sur le rôle CsServerAdministrator), ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -63,9 +63,9 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 <div>
 
-## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour effectuer une recherche de base à l’aide du service de journalisation centralisé
+## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour exécuter une recherche de base à l’aide du service de journalisation centralisée
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Assurez-vous que le scénario AlwaysOn s’exécute dans votre déploiement au niveau de l’étendue globale, puis tapez ce qui suit dans une invite de commandes :
     
@@ -75,7 +75,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
 
     > [!NOTE]
-    > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous voulez enregistrer les résultats de la recherche dans un fichier, utilisez la &lt;chaîne-OutputFilePath de nom&gt;complet. Pour définir le paramètre –OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans un format de chaîne entouré de guillemets (par exemple : C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTSF Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous avez besoin de fichiers séparés, définissez un nom de fichier différent pour chaque recherche.
+    > Par défaut, Search-CsClsLogging envoie les résultats de la recherche à la console. Si vous souhaitez enregistrer les résultats de la recherche dans un fichier, utilisez le &lt;chemin d’accès&gt;complet de la chaîne OutputFilePath. Pour définir le paramètre –OutputFilePath, indiquez un chemin d’accès et un nom de fichier dans un format de chaîne entouré de guillemets (par exemple ; C:\LogFiles\SearchOutput.txt). Dans cet exemple, vous devez vous assurer que le répertoire C:\LogFiles existe et que vous disposez des autorisations en lecture et en écriture (autorisation NTFS Modifier) sur le dossier. Les résultats sont ajoutés et ne sont pas remplacés. Si vous souhaitez des fichiers séparés, définissez un nom de fichier distinct pour chaque recherche.
 
     
     </div>
@@ -88,7 +88,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 <div>
 
-## <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>Pour effectuer une recherche de base sur un pool ou un ordinateur à l’aide du service de journalisation centralisé
+## <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>Pour exécuter une recherche de base sur un pool ou un ordinateur à l’aide du service de journalisation centralisée
 
 1.  Pour limiter la recherche à un pool ou à un ordinateur en particulier, utilisez le paramètre –Computers en définissant l’ordinateur par un nom complet, entouré de guillemets et séparé par une virgule, comme suit :
     
@@ -108,7 +108,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
-4.  Lors de l’utilisation des commandes de recherche, il peut s’agir de n’importe quel pool dans votre déploiement (par exemple, des pools frontaux, des pools de serveurs de chat permanent ou d’autres personnes définies comme pools dans votre déploiement).
+4.  Lors de l’utilisation des commandes de recherche, les pools peuvent être n’importe quel pool de votre déploiement, comme les pools frontaux, les pools de serveurs Edge, les pools de serveurs de conversation permanente ou d’autres groupes définis comme pool dans votre déploiement.
     
     Par exemple :
     
@@ -120,9 +120,9 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 ## <a name="to-run-a-search-by-using-time-parameters"></a>Pour exécuter une recherche à l’aide des paramètres d’heure
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Par défaut, l’heure de début des paramètres spécifiques d’une recherche est 30 minutes avant le moment où vous commencez la recherche. En d’autres termes, si vous lancez votre recherche sur 4:00:00 PM, la recherche effectue une recherche dans les journaux pour les ordinateurs et les groupes que vous définissez à partir de 3:30:00 PM jusqu’à 4:00:00 PM. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre –StartTime et définissez la date et l’heure de manière à indiquer l’heure à laquelle vous souhaitez que la recherche débute.
+2.  Par défaut, l’heure de début pour les paramètres temporels d’une recherche est définie sur 30 minutes avant le moment où vous lancez la recherche. En d’autres termes, si vous lancez votre recherche à 16 h 00 00, la recherche parcourt les journaux des ordinateurs et des pools que vous définissez entre 15 h 30 00 et 16 h 00 00. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre –StartTime et définissez la date et l’heure de manière à indiquer l’heure à laquelle vous souhaitez que la recherche débute.
     
     Par exemple, en utilisant –StartTime et –EndTime pour définir une plage horaire et de dates, vous pouvez définir une recherche entre 8 h 00 00 et 9 h 00 00 le 20/11/2012 sur votre pool. Vous pouvez définir le chemin de sortie pour écrire les résultats dans un fichier nommé c\\: logfile. txt comme suit :
     
@@ -132,12 +132,12 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
 
     > [!NOTE]
-    > La date et l’heure que vous définissez peut s’appeler « date heure » ou « heure date ». "La commande analyse la chaîne et utilise les valeurs appropriées pour la date et l’heure.
+    > La chaîne de date et d’heure que vous spécifiez peut être « date et heure » ou « date d’heure ». "La commande analyse la chaîne et utilise les valeurs appropriées pour la date et l’heure.
 
     
     </div>
 
-3.  Si vous souhaitez extraire les journaux à partir de 11 h 00 00 le 20/11/2012, définissez l’heure de début (paramètre –StartTime). La plage horaire par défaut pour la recherche est de 30 minutes sauf si vous définissez une heure de fin (paramètre –EndTime) spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.
+3.  Si vous souhaitez extraire les journaux à partir de 11 h 00 00 le 20/11/2012, définissez l’heure de début (paramètre –StartTime). La plage horaire par défaut pour la recherche est de 30 minutes sauf si vous définissez une heure de fin ( paramètre –EndTime) spécifique. La recherche obtenue renverra les journaux des ordinateurs ou pools définis entre 11 h 00 00 et 11 h 30 00.
     
     Par exemple :
     
@@ -145,7 +145,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 4.  Pour réaliser une recherche sur des journaux dans une période donnée, définissez une heure de début (paramètre –StartTime) et une heure de fin (paramètre –EndTime). Les journaux entre 13 h 00 et 14 h 45 doivent être présents sur l’ordinateur edge01.contoso.net.
     
-    Exemple :
+    Par exemple :
     
         Search-CsClsLogging -Computers "edge01.contoso.net" -StartTime "11/20/2012 1:00:00 PM" -EndTime "11/20/2012 2:45:00 PM" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -155,23 +155,23 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 ## <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Pour exécuter une recherche avancée à l’aide d’autres critères et options de correspondance
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Pour exécuter une commande visant à collecter les suivis pour des composants en particulier, tapez ce qui suit :
     
         Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
     
-    Exemple :
+    Par exemple :
     
         Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
     
     La recherche obtenue renvoie toutes les entrées de journaux qui possèdent des composants de suivi pour SIPStack, S4 et UserServices sur tous les ordinateurs et pools de votre déploiement au cours des 30 dernières minutes.
 
-3.  Pour limiter la recherche avec les mêmes composants uniquement au pool frontal nommé pool01.contoso.net, tapez :
+3.  Pour limiter la recherche avec les mêmes composants uniquement à votre pool frontal nommé pool01.contoso.net, tapez :
     
         Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
 
-4.  La logique de recherche par défaut pour les commandes comprenant plusieurs paramètres utilise l’opérateur logique OR avec chacun des paramètres définis. Vous pouvez modifier ce comportement en spécifiant le paramètre **–MatchAll**. Pour ce faire, tapez ce qui suit :
+4.  La logique de recherche par défaut pour les commandes comprenant plusieurs paramètres utilise l’opérateur logique OR avec chacun des paramètres définis. Vous pouvez modifier ce comportement en indiquant le paramètre **–MatchAll**. Pour ce faire, tapez ce qui suit :
     
         Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
 

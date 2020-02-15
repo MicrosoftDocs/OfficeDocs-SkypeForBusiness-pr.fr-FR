@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion de l’accès des utilisateurs à la conversation permanente'
+title: 'Lync Server 2013 : gestion de l’accès des utilisateurs à la conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71dde683fed5f1127efd0a966d0de61dcaef65cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756118"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41756118"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Les rubriques suivantes expliquent comment utiliser le panneau de configuration de Lync Server 2013 et la page de **conversation permanente** pour gérer l’accès des utilisateurs dans la conversation persistante. Pour gérer le serveur de chat permanent, vous devez disposer des droits d’administrateur de conversation permanents et des autorisations du système. Lorsque vous installez le serveur de chat permanent, vous spécifiez un ou plusieurs utilisateurs disposant des privilèges et des autorisations d’administrateur de conversation permanente nécessaires. Pour accorder des droits d’administrateur et des autorisations aux comptes d’utilisateurs supplémentaires, utilisez **gérer les utilisateurs et les groupes**d’utilisateurs. Pour plus d’informations, reportez-vous [à la rubrique activation d’un utilisateur pour gérer des catégories, des salles de conversation et des droits d’utilisateur et des autorisations dans Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
+Les rubriques suivantes décrivent comment utiliser le panneau de configuration Lync Server 2013 et la page **conversation permanente** pour gérer l’accès des utilisateurs dans la conversation permanente. Pour gérer le serveur de conversation permanente, vous devez disposer des droits et des autorisations d’administrateur de conversation permanente dans le système. Lorsque vous installez le serveur de conversation permanente, vous spécifiez un ou plusieurs utilisateurs disposant des droits et autorisations d’administrateur de conversation permanente nécessaires. Pour accorder des droits et autorisations d’administrateur à des comptes d’utilisateurs supplémentaires, utilisez **Gérer les utilisateurs et groupes d’utilisateurs**. Pour plus d’informations, reportez-vous [à la rubrique activation d’un utilisateur pour gérer des catégories, des salles de conversation et des droits et autorisations de l’utilisateur dans Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles dans Lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
+  - [Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salle dans Lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
 
   - [Désactivation du chargement et du téléchargement de fichiers dans les salles de conversation dans Lync Server 2013](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
 
-  - [Autorisation d’un utilisateur à gérer les catégories, les salles de conversation, les droits utilisateur et les autorisations dans Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
+  - [Permettre à un utilisateur de gérer les catégories, les salles de conversation, ainsi que les droits et les autorisations des utilisateurs dans Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
 
 </div>
 

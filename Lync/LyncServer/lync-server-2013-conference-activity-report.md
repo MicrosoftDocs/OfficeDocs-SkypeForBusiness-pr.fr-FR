@@ -12,16 +12,16 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8992d4a8e6dc0933449c4ab4be4602d9707f1d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757038"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007893"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757038"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un bref coup d’œil sur les rapports d’activité de conférence peut suggérer une raison possible : beaucoup plus de conférences sont prévues entre les heures de 10:00 AM et 2:00 PM à tout moment.
+Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un coup d’œil rapide aux rapports d’activité de conférence peut suggérer une raison possible : bien d’autres conférences sont planifiées entre les heures de 10:00 AM et de 2:00 PM, à tout autre moment.
 
 Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les utilisateurs à replanifier certaines de leurs conférences à un moment de la journée où le trafic est moins important.
 
@@ -45,7 +45,7 @@ Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les uti
 
 ## <a name="accessing-the-conference-activity-report"></a>Accès au rapport des activités de conférence
 
-Le rapport d’activité de conférence est accessible à partir du [rapport de synthèse de conférences dans Lync Server 2013](lync-server-2013-conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport des activités de conférence est accessible à partir du [rapport de synthèse de conférence dans Lync Server 2013](lync-server-2013-conference-summary-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Nombre total de conférences
 
@@ -57,7 +57,7 @@ Le rapport d’activité de conférence est accessible à partir du [rapport de 
 
 ## <a name="making-the-best-use-of-the-conference-activity-report"></a>Utilisation optimale du rapport des activités de conférence
 
-Par défaut, le rapport des activités de conférence indique le nombre total de conférences pour une période spécifiée (par exemple, le nombre total de conférences par jour ou le nombre total de conférences par heure pour une journée). Cependant, vous pouvez choisir d’afficher également le nombre total de participants pour cette même période ou le nombre total de minutes de participant. Pour ce faire, cliquez sur le bouton Afficher/Masquer les paramètres pour afficher les options de filtrage, puis en sélectionner une dans la liste déroulante Établir un rapport par :
+Par défaut, le rapport des activités de conférence indique le nombre total de conférences pour une période spécifiée (par exemple, le nombre total de conférences par jour ou le nombre total de conférences par heure pour une journée). Toutefois, vous pouvez choisir d’afficher également le nombre total de participants pour cette même période ou le nombre total de minutes de participant. Pour ce faire, cliquez sur le bouton Afficher/Masquer les paramètres pour afficher les options de filtrage, puis en sélectionner une dans la liste déroulante Établir un rapport par :
 
   - Nombre de participants
 
@@ -71,7 +71,7 @@ Par défaut, le rapport des activités de conférence indique le nombre total de
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le tableau ci-dessous dresse la liste des filtres que vous pouvez utiliser avec le rapport des activités de conférence.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le tableau suivant dresse la liste des filtres que vous pouvez utiliser avec le rapport des activités de conférence.
 
 ### <a name="conference-activity-report-filters"></a>Filtres du rapport des activités de conférence
 
@@ -88,7 +88,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -98,7 +98,7 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -108,15 +108,15 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début 7/8/2012 et une date de fin 28/9/2012, les données sont affichées pour les jours 7/8/2012 12:00 AM à 7/9/2012 12:00 AM (c’est-à-dire un total de 31 jours de données pertinentes).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Établir un rapport par</strong></p></td>

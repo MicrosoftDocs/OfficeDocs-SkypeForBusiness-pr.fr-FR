@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets serveur Edge'
+title: 'Lync Server 2013 : applets de commande de serveur Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726194"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Cmdlets du serveur Edge dans Lync Server 2013
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Applets de commande de serveur Edge dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41726194"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft Lync Server 2013 aux personnes qui ne sont pas connectées à votre réseau interne. Par exemple, si vous avez des utilisateurs distants : les utilisateurs authentifiés qui se connectent à Lync Server 2013 via Internet plutôt que via le réseau interne, vous devez configurer un serveur Edge qui exécute le service Lync Server Access Edge. Par ailleurs, il est nécessaire d’utiliser les serveurs de périphérie pour établir une Fédération avec une autre organisation ou pour permettre aux utilisateurs de communiquer avec des personnes disposant de comptes disposant d’un service de messagerie instantanée\!public tel que Yahoo, AOL ou MSN.
+Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft Lync Server 2013 aux personnes qui ne sont pas connectées à votre réseau interne. Par exemple, si vous avez des utilisateurs distants qui se connectent à Lync Server 2013 via Internet plutôt que via le réseau interne, vous devrez configurer un serveur Edge qui exécute le service Edge d’accès Lync Server. En outre, les serveurs de périphérie sont requis si vous voulez établir une Fédération avec une autre organisation ou si vous souhaitez donner à vos utilisateurs le droit de communiquer avec des personnes disposant d’un service de messagerie instantanée\!public tel que Yahoo, AOL ou MSN.
 
 <div>
 
@@ -45,11 +45,11 @@ Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À partir du 2012 1er septembre, la licence d’abonnement utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») n’est plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo !. Messenger jusqu’à la date d’arrêt du service. Date de fin du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité PIC de messagerie instantanée dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL PIC est une licence d’abonnement par utilisateur et par mois requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonnée à la prise en charge de Yahoo !, l’accord sous-jacent de qui est en panne.</P>
 > <LI>
-> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
+> <P>Plus que jamais, Lync est un outil puissant pour la connexion entre les organisations et les utilisateurs dans le monde entier. La Fédération avec Windows Live Messenger ne requiert aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client Lync standard. La Fédération Skype est ajoutée à cette liste, ce qui permet aux utilisateurs de Lync d’atteindre des centaines de millions de personnes avec la messagerie instantanée et la voix.</P></LI></UL>
 
 
 
@@ -57,41 +57,41 @@ Les serveurs Edge vous permettent d’étendre les fonctionnalités de Microsoft
 
 <div>
 
-## <a name="edge-server-cmdlets"></a>Cmdlets Edge Server
+## <a name="edge-server-cmdlets"></a>Applets de commande de serveur Edge
 
-Vous trouverez ci-dessous une liste des applets de commande liés directement à la gestion des serveurs Edge :
+La liste suivante indique les applets de commande qui sont directement associées à la gestion des serveurs Edge :
 
-**serveur Edge**
-
-  - <span></span>  
-    [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))
+**Serveur Edge**
 
   - <span></span>  
-    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+    [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413008(v=OCS.15))
+    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))
+    [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))
+    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))
+    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/en-us/library/JJ205138(v=OCS.15))
+    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsEdgeServer](https://technet.microsoft.com/en-us/library/Gg398859(v=OCS.15))
+    [Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))
 
 </div>
 

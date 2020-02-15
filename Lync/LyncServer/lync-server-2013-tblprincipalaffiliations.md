@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblPrincipalAffiliations'
+title: 'Lync Server 2013 : tblPrincipalAffiliations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764150"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764150"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory (AD FS) dans les conteneurs Active Directory, dans les domaines.
+tblPrincipalAffiliations contient les affiliations principales qui décrivent les appartenances aux emplacements, y compris les groupes de sécurité des services de domaine Active Directory, dans les conteneurs Active Directory, dans les domaines.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
 <tbody>
 <tr class="odd">
 <td><p>principalID</p></td>
-<td><p>ent, non null</p></td>
+<td><p>int, non null</p></td>
 <td><p>ID du principal affilié.</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID de l’objet principal qui représente l’affiliation. Chaque identité (à l’exception des types d’utilisateur système) possède également une auto-affiliation.</p></td>
+<td><p>int, non null</p></td>
+<td><p>ID du principal représentant l’affiliation. Chaque principal (sauf system-user-types) possède également une auto-affiliation.</p></td>
 </tr>
 <tr class="odd">
-<td><p>index</p></td>
-<td><p>ent, non null</p></td>
-<td><p>Index. La valeur de auto-affiliations est-1, et pour les autres affiliations, elle augmente séquentiellement de 1 dans &lt;chaque principalID,&gt; compartiment affiliationId.</p></td>
+<td><p>Index</p></td>
+<td><p>int, non null</p></td>
+<td><p>Évaluer. La valeur des auto-affiliations est-1, et pour les autres affiliations, elle augmente de manière séquentielle de 1 &lt;au sein de&gt; chaque principalID, affiliationId Bucket.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>ent, non null</p></td>
-<td><p>Principal ayant effectué la dernière mise à jour. Il s’agit généralement de la méthode de synchronisation Active Directory.</p></td>
+<td><p>int, non null</p></td>
+<td><p>Principal qui a effectué la mise à jour la plus récente. Il s’agit généralement de 1, ce qui signifie Active Directory Sync.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Permettent
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
 </colgroup>
 <thead>
 <tr class="header">
-<th>Celles</th>
+<th>Columns</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -99,11 +99,11 @@ tblPrincipalAffiliations contient les affiliations principales qui décrivent le
 </tr>
 <tr class="even">
 <td><p>principalID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblPrincipal. prinID.</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblPrincipal. prinID.</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

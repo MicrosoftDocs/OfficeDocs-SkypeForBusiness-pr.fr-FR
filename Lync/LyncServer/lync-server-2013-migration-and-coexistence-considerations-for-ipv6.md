@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Remarques sur la migration et la coexistence pour IPv6'
+title: 'Lync Server 2013 : considérations relatives à la migration et à la coexistence pour IPv6'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5785b270aa3070c2b1592112ab4d5ae582e52bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f4a042089c0961eb8ea8313b78bbfcafa72c999
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766025"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Remarques sur la migration et la coexistence pour IPv6 dans Lync Server 2013
+# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a>Considérations relatives à la migration et à la coexistence pour IPv6 dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41766025"
 
 _**Dernière modification de la rubrique :** 2012-06-14_
 
-Le protocole IP version 6 (IPv6) n’est pas pris en charge sur Lync Server 2010 ou Office Communications Server. Dans le cadre de la phase de test, vous pouvez tester le coexistence de Lync Server 2010 et de Lync Server 2013. Nous vous recommandons d’effectuer la mise à niveau de tous les pools pour un site central vers Lync Server 2013 avant d’activer le protocole IPv6 (réseau à double pile) pour tous les pools. Si vous devez configurer un pool uniquement pour IPv6, nous recommandons que vous configuriez un pool IPv6 uniquement dans votre environnement de laboratoire pour le test.
+IP version 6 (IPv6) n’est pas pris en charge sur Lync Server 2010 ou Office Communications Server. À des fins de test pilote, vous pouvez tester la coexistence de Lync Server 2010 et Lync Server 2013 à double pile. Nous vous recommandons de mettre à niveau tous les pools d’un site central donné vers Lync Server 2013 avant d’activer IPv6 (réseau à double pile) pour tous les pools. Si vous devez configurer un pool uniquement pour IPv6, nous recommandons que vous configuriez un pool IPv6 uniquement dans votre environnement de laboratoire pour le test.
 
 Les scénarios suivants sont pris en charge pendant la migration et la coexistence :
 
-  - Lync Server 2013, Lync Server 2010 et les pools Office Communications Server 2007 R2 en mode IPv4, coexistence de Lync Server 2013 en mode double pile.
+  - Lync Server 2013, Lync Server 2010 et les pools Office Communications Server 2007 R2 en mode IPv4, qui coexistent avec Lync Server 2013 en mode double pile.
 
-  - Pool Lync Server 2013 en mode IPv6 uniquement, si le pool IPv6 uniquement est silo.
+  - Pool Lync Server 2013 en mode IPv6 uniquement, si le pool IPv6 uniquement est mis en silo.
 
 </div>
 

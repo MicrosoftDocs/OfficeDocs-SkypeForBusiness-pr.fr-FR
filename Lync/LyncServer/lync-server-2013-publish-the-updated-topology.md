@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Publication de la topologie mise à jour'
+title: 'Lync Server 2013 : publication de la topologie mise à jour'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0a690d38d6f7d348cdaf12503b08027bc4c0f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747064"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Publication de la topologie mise à jour dans Lync Server 2013
+# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Publier la topologie mise à jour dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41747064"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Après avoir effectué la mise à jour de votre topologie dans le générateur de topologie, vous devez publier la topologie dans le centre de gestion central avant de pouvoir configurer et utiliser le serveur de chat permanent. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
+Après avoir mis à jour votre topologie dans le générateur de topologie, vous devez publier la topologie dans le magasin central de gestion avant de pouvoir configurer et utiliser le serveur de conversation permanente. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
 
 <div>
 
 ## <a name="to-publish-an-updated-topology"></a>Pour publier une topologie mise à jour
 
-Avant de publier votre topologie, installez les bases de données pour le serveur de chat permanent. Utilisez le générateur de topologie pour installer des bases de données en sélectionnant **action** et **installer la base de données**.
+Avant de publier votre topologie, installez les bases de données pour le serveur de conversation permanente. Utilisez le générateur de topologie pour installer des bases de données en sélectionnant **action** et **installer la base de données**.
 
-1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel sont installés les outils d’administration de Lync Server, connectez-vous à l’aide d’un compte membre du groupe **administrateurs de domaine** et du groupe **RTCUniversalServerAdmins** . et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le stockage des fichiers du serveur de chat permanent (de sorte que le générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire requises (DACL)) ou un compte avec des droits d’utilisateur équivalents.
+1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel les outils d’administration Lync Server sont installés, ouvrez une session à l’aide d’un compte membre du groupe **administrateurs du domaine** et du groupe **RTCUniversalServerAdmins** et qui dispose des autorisations contrôle total (en lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le magasin de fichiers du serveur de conversation permanente (afin que le générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire (DACL) requises) ou un compte avec des droits d’utilisateur équivalents.
 
-2.  Démarrer le générateur de topologie. Sélectionnez l’option **Télécharger la topologie à partir du déploiement existant**ou **Ouvrez la topologie à partir d’un fichier local** si vous l’avez enregistrée localement.
+2.  Démarrez le Générateur de topologie. Sélectionnez **Télécharger la topologie à partir du déploiement existant** ou **Ouvrir une topologie depuis un fichier local** si vous l’avez enregistrée localement.
 
 3.  Dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **publier la topologie**.
 
@@ -59,7 +59,7 @@ Avant de publier votre topologie, installez les bases de données pour le serveu
     
 
     > [!IMPORTANT]  
-    > Après la publication de la topologie, vous devez configurer la prise en charge du serveur de chat permanent pour pouvoir archiver le contenu.
+    > Après avoir publié la topologie, vous devez configurer la prise en charge du serveur de conversation permanente pour pouvoir archiver le contenu.
 
     
     </div>

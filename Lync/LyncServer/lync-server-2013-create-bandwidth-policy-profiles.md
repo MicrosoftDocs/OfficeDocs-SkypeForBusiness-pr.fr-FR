@@ -12,16 +12,16 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea1e44f7c8c0d81757d6d10a63194de7c0d12c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726334"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,9 +39,9 @@ _**Dernière modification de la rubrique :** 2012-10-19_
 
 Des *stratégies de bande passante* définissent des restrictions d’utilisation de la bande passante pour des modes audio et vidéo en temps réel. Des stratégies de bande passante sont appliquées à des *profils de stratégie de bande passante* qui peuvent être appliqués à des sites réseau multiples pour le contrôle d’admission des appels.
 
-Pour obtenir des instructions sur les limites de bande passante que vous devez définir dans votre déploiement CAC, voir [définition de vos exigences de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) dans la documentation de planification.
+Pour obtenir des instructions sur les limites de bande passante que vous devez définir dans votre déploiement CAC, voir [définition de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) dans la documentation de planification.
 
-Pour plus d’informations sur l’utilisation des stratégies de bande passante et des profils de stratégie, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des stratégies de bande passante et des profils de stratégie, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
@@ -65,7 +65,7 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 
 
 > [!NOTE]  
-> La valeur minimum de limite de session audio est 40 Kbits/s. La valeur minimum de limite de session vidéo est 100 Kbits/s.
+> La valeur minimum de limite de session audio est 40 Kbits/s La valeur minimum de limite de session vidéo est 100 Kbits/s
 
 
 
@@ -75,7 +75,7 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 
 ## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>Pour créer des profils de stratégie de bande passante à l’aide de Management Shell
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Pour chaque profil de stratégie de bande passante que vous voulez créer, exécutez l’applet de commande New-CsNetworkBandwidthPolicyProfile. Par exemple, exécutez :
     
@@ -99,9 +99,9 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Pour créer des profils de stratégie de bande passante en utilisant le panneau de configuration de Lync Server
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Pour créer des profils de stratégie de bande passante à l’aide du Panneau de configuration Lync Server
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
@@ -109,7 +109,7 @@ Les stratégies d’exemple créées lors de la procédure suivante définissent
 
 4.  Cliquez sur **Nouveau**.
 
-5.  Dans la page **Nouveau profil de stratégie**, cliquez sur **Nom**, puis tapez un nom pour le profil de stratégie de bande passante.
+5.  A la page **Nouveau profil de stratégie**, cliquez sur **Nom**, puis tapez un nom pour le profil de stratégie de bande passante.
 
 6.  Cliquez sur **Limite audio**, puis tapez le nombre maximum de Kbits/s à autoriser pour toutes les sessions audio combinées.
 

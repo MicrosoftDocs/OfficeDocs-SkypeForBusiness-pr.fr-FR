@@ -1,5 +1,5 @@
 ---
-title: Effacement manuel de la base de données de l’enregistrement des détails des appels et de la qualité des appels
+title: Purge manuelle des bases de données d’enregistrement des détails des appels et de qualité de l’expérience
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50d7de2fdb63b9152731214edeff3bf9c03aa634
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f14485465e44b089e5002a04d3ed5e5a392ad4d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723994"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’interface dans Lync Server 2013
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Purge manuelle des bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41723994"
 
 _**Dernière modification de la rubrique :** 2014-07-07_
 
-Les administrateurs peuvent configurer les bases de données d’enregistrement des détails des appels (CDR) et/ou de qualité de l’expérience (QoE) pour vider automatiquement la base de données des enregistrements anciens. Cette opération se produit si le vidage a été activé pour la base de données spécifiée (CDR ou QoE) et si celle-ci contient des enregistrements dont l’ancienneté dépasse la durée spécifiée. Par exemple, les administrateurs peuvent configurer le système pour que tous les jours à 1:00 les enregistrements QoE de plus de 60 jours soient supprimés de la base de données QoE.
+Les administrateurs peuvent configurer les bases de données d’enregistrement des détails des appels et/ou de qualité de l’expérience pour purger automatiquement les anciens enregistrements de la base de données ; Cela se produit si la purge a été activée pour la base de données spécifiée (CDR ou QoE) et si des enregistrements se trouvaient dans la base de données plus longtemps que la durée spécifiée. Par exemple, tous les jours à 1:00 AM les administrateurs peuvent configurer le système de manière à ce que les enregistrements QoE datant de plus de 60 jours soient supprimés de la base de données QoE.
 
-En plus de cette suppression automatique, deux nouvelles cmdlets--Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge--2013--- ces applets de applet permettent aux administrateurs de purger manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour purger manuellement tous les enregistrements de plus de 10 jours de la base de données CDR, vous pouvez utiliser une commande similaire à celle-ci :
+En plus de cette purge automatique, deux nouvelles applets de commande--Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge ont été ajoutées à Microsoft Lync Server 2013 ; ces applets de commande permettent aux administrateurs de purger manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour purger manuellement tous les enregistrements datant de plus de 10 jours de la base de données CDR, vous pouvez utiliser une commande semblable à celle-ci :
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
-Dans la commande précédente, les enregistrements de détail des appels et les enregistrements de données de diagnostic de plus de 10 jours sont supprimés de la base de données de surveillance sur atl-sql-001.litwareinc.com. (Les enregistrements de détail des appels sont des rapports d’utilisateur ou de session. Les enregistrements de données de diagnostic sont des journaux de diagnostic téléchargés par des applications clientes comme Lync 2013.)
+Dans la commande précédente, les enregistrements de détail des appels et les enregistrements de données de diagnostic de plus de 10 jours sont supprimés de la base de données de surveillance sur atl-sql-001.litwareinc.com. (Les enregistrements de détail des appels sont des rapports d’utilisateur ou de session. Les enregistrements de données de diagnostic sont des journaux de diagnostic téléchargés par des applications clientes telles que Lync 2013.)
 
-Comme le montre l’exemple précédent, au moment d’exécuter l’applet de commande Invoke-CsCdrDatabasePurge, vous devez inclure les paramètres PurgeCallDetaiDataOlderThanDays et PurgeDiagnosticDataOlderThanDays. Cependant, ces paramètres ne doivent pas avoir la même valeur. Par exemple, il est possible de vider les enregistrements de détail des appels de plus de 10 jours tout en conservant l’ensemble des enregistrements de données de diagnostic dans la base de données. Pour cela, définissez PurgeCallDetailDataOlderThanDays sur 10 et PurgeDiagnosticDataOlderThanDays sur 0. Par exemple :
+Comme le montre l’exemple précédent, au moment d’exécuter l’applet de commande Invoke-CsCdrDatabasePurge, vous devez inclure les paramètres PurgeCallDetaiDataOlderThanDays et PurgeDiagnosticDataOlderThanDays. Cependant, ces paramètres ne doivent pas avoir la même valeur. Par exemple, il est possible de vider les enregistrements de détail des appels de plus de 10 jours tout en conservant l’ensemble des enregistrements de données de diagnostic dans la base de données. Pour ce faire, définissez PurgeCallDetailDataOlderThanDays sur 10 et PurgeDiagnosticDataOlderThanDays sur 0. Par exemple :
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 
@@ -60,7 +60,7 @@ Vous devez taper Y (pour Oui) ou A (pour Oui pour tout) avant que le vidage de l
 
     -Confirm:$False
 
-Exemple :
+Par exemple :
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False
 

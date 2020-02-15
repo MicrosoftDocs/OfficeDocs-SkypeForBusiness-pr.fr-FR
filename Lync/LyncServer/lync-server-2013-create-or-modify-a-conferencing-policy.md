@@ -12,16 +12,16 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3dd712b94838382f6022de888383c0f47bee6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f5deeab8d2df55f4f2e91a1a90909a3550a3a56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41758088"
 
 _**Dernière modification de la rubrique :** 2013-02-07_
 
-Procédez comme suit pour créer une stratégie de niveau utilisateur ou de niveau site. Pour plus d’informations sur l’affectation d’une stratégie de niveau utilisateur à un utilisateur, voir [affecter une stratégie de conférence par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Pour obtenir la liste de tous les paramètres de stratégie de conférence disponibles, voir [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+Effectuez les étapes suivantes pour créer une stratégie de conférence au niveau de l’utilisateur ou au niveau du site. Pour plus d’informations sur l’affectation d’une stratégie de niveau utilisateur à un utilisateur, voir [assigner une stratégie de conférence par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Pour obtenir la liste de tous les paramètres de stratégie de conférence disponibles, consultez la rubrique [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 <div>
 
-## <a name="to-create-a-new-user-or-site-policy"></a>Pour créer une nouvelle stratégie d’utilisateur ou de site
+## <a name="to-create-a-new-user-or-site-policy"></a>Pour créer une nouvelle stratégie utilisateur ou de site
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
 
 4.  Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -68,7 +68,7 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
 
 6.  Sous **Stratégie de l’organisateur**, dans **Taille maximale de la réunion**, tapez le nombre maximal d’utilisateurs autorisés à participer à une réunion. Par défaut, la taille maximale de la réunion est définie sur 250.
 
-7.  Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas des informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
+7.  Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui n’ont pas d’informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
 
 8.  Dans **Enregistrement**, effectuez l’une des opérations suivantes :
     
@@ -88,11 +88,11 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
 
 11. Si vous avez choisi d’autoriser l’utilisation de l’audio dans **Audio/vidéo**, procédez comme suit :
     
-      - Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous RTC**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
+      - Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous PSTN**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
     
       - Si vous autorisez les utilisateurs à accéder aux réunions à distance et que vous souhaitez autoriser les utilisateurs non authentifiés (anonymes) à rejoindre une réunion via un appel téléphonique sortant, activez la case à cocher **Autoriser l’accès sortant des participants anonymes**. Avec l’appel téléphonique sortant, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour rejoindre la réunion. Par défaut, les utilisateurs anonymes ne peuvent pas rejoindre une réunion via un appel téléphonique sortant.
 
-12. Si vous choisissez d’autoriser l’utilisation de la vidéo dans les **fichiers audio/vidéo**, activez la case à cocher **autoriser plusieurs flux vidéo** .
+12. Si vous décidez d’autoriser l’utilisation de la vidéo dans **Audio/vidéo**, cochez **Autoriser plusieurs flux vidéo** .
 
 13. Dans **Collaboration de données**, effectuez l’une des opérations suivantes :
     
@@ -106,7 +106,7 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
     
       - Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.
     
-      - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans Shard des présentations PowerPoint, désactivez les **Annotations PowerPoint**. Par défaut, les annotations sont autorisées.
+      - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour autoriser l’utilisation des annotations dans les présentations PowerPoint, désactivez la case à cocher **Activer les annotations PowerPoint**. Par défaut, les annotations sont autorisées.
     
       - Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.
 
@@ -122,7 +122,7 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
     
       - Si vous avez choisi d’autoriser les participants à la réunion à prendre le contrôle du partage d’application, activez la case à cocher **Autoriser les participants fédérés et anonymes à prendre le contrôle** pour autoriser les utilisateurs externes à prendre le contrôle du partage d’application. Par défaut, les utilisateurs externes ne peuvent pas prendre le contrôle du partage d’application.
 
-17. Sous **Stratégie de participant**, effectuez l’une des opérations suivantes :
+17. Sous **Stratégie du participant**, effectuez l’une des opérations suivantes :
     
       - Pour interdire le partage d’application et le partage du Bureau, cliquez sur **Désactiver le partage d’application et de Bureau**.
     
@@ -142,15 +142,15 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
 
 <div>
 
-## <a name="to-modify-an-existing-user-or-site-policy"></a>Pour modifier une stratégie d’utilisateur ou de site existante
+## <a name="to-modify-an-existing-user-or-site-policy"></a>Pour modifier une stratégie utilisateur ou de site existante
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
 
-4.  Dans la liste des stratégies de conférence, cliquez sur la stratégie à modifier, cliquez sur **Modifier**, puis sur **Afficher les détails**.
+4.  Dans la liste des stratégies de conférence, cliquez sur la stratégie de conférence souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
 
 5.  Dans **Modifier la stratégie de conférence**, modifiez les paramètres de stratégie, à l’exception du nom de la stratégie qui ne peut pas être modifié.
 

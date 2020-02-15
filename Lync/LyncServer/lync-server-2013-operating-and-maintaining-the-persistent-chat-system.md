@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Fonctionnement et maintenance du système de conversation permanente'
+title: 'Lync Server 2013 : exploitation et maintenance du système de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755818"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41755818"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Les rubriques suivantes décrivent la procédure de maintenance de l’ordinateur qui exécute le serveur Chat permanent et de la manière de gérer les opérations du serveur de chat permanent.
+Les rubriques suivantes décrivent comment gérer l’ordinateur qui exécute le serveur de conversation permanente et comment gérer les opérations de serveur de conversation permanente.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Sauvegarde des bases de données de conversation permanente et de conformité dans Lync Server 2013](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
+  - [Sauvegarde de la base de données de conversation permanente et de la base de données de conformité dans Lync Server 2013](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
 
-  - [Personnalisation du fichier de définition XSLT dans Lync Server 2013](lync-server-2013-customizing-the-xslt-definition-file.md)
+  - [Personnalisation du fichier de définition XSLT dans Lync Server 2013](lync-server-2013-customizing-the-xslt-definition-file.md)
 
-  - [Remplacement de XmlAdapter par un adaptateur de conformité du serveur de chat permanent personnalisé dans Lync Server 2013](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+  - [Remplacement de XmlAdapter par une carte de conformité de serveur de conversation permanente personnalisée dans Lync Server 2013](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
 
   - [Gestion de l’intégrité du système dans Lync Server 2013](lync-server-2013-managing-system-health.md)
 
   - [Surveillance, démarrage et arrêt des services de conversation permanente dans Lync Server 2013](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
 
-  - [Gestion de la hauté disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
+  - [Gestion de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
 
 </div>
 

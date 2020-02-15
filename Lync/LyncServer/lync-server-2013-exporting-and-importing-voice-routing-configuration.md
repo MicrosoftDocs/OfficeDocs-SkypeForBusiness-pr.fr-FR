@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Exportation et importation de la configuration du routage des communications vocales'
+title: 'Lync Server 2013 : exportation et importation de la configuration du routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23ca3642204e4097f5345f879c704dcfcb4d8c9a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3a65c0ab32f40c78c6c679f7be7b86a4ccca1e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756198"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41756198"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Si vous voulez enregistrer votre configuration de routage de la voix sans la publier, procédez comme suit pour utiliser les commandes d’exportation et d’importation du panneau de configuration de Lync Server pour enregistrer et récupérer une capture instantanée de votre configuration de routage de votre voix. Lorsque vous importez un fichier de configuration de l’acheminement vocal (. VCFG), mais que des modifications ont été apportées à la configuration de l’acheminement du message sur le serveur, les pages du groupe de **routage vocal** dans Lync Server Control Panel indiquent qu’il n’y a pas de modifications non validées sur le routage vocal. Ces modifications non validées représentent les différences entre les deux configurations qui doivent être rapprochées.
+Si vous souhaitez enregistrer votre configuration de routage des communications vocales sans la publier, procédez comme suit pour utiliser les commandes exportation et importation de la configuration du panneau de configuration de Lync Server pour enregistrer et récupérer une capture instantanée de la configuration de votre routage des communications vocales. Lorsque vous importez un fichier de configuration de routage des communications vocales (. VCFG), mais que des modifications ont été apportées à la configuration du routage des communications vocales sur le serveur en attendant, les pages du groupe de **routage** des communications vocales dans le panneau de configuration Lync Server indiquent des modifications non validées dans le routage des communications vocales. Ces modifications non validées représentent les différences entre les deux configurations qui doivent être rapprochées.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si vous avez apporté des modifications non validées aux paramètres sur n’importe quelle page du groupe de <STRONG>routage vocal</STRONG> , les modifications sont enregistrées dans le fichier de configuration de la voix exporté (. VCFG). Cela vous permet d’apporter des modifications à la configuration de l’acheminement du routage lors de plusieurs sessions du panneau de configuration Lync Server avant de publier les modifications.
+> Si vous avez modifié les paramètres sur une page du groupe <STRONG>Routage de communications vocales</STRONG> sans les valider, les changements sont enregistrés dans le fichier de configuration des communications vocales exporté (.vcfg). Cela vous permet de modifier la configuration du routage des communications vocales lors de plusieurs sessions du panneau de configuration Lync Server avant de publier les modifications.
 
 
 
@@ -53,15 +53,15 @@ Si vous voulez enregistrer votre configuration de routage de la voix sans la pub
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Exporter un fichier de configuration de l’itinéraire vocale dans Lync Server 2013](lync-server-2013-export-a-voice-route-configuration-file.md)
+  - [Exporter un fichier de configuration d’itinéraire des communications vocales dans Lync Server 2013](lync-server-2013-export-a-voice-route-configuration-file.md)
 
-  - [Importation d’un fichier de configuration d’itinéraire de communications vocales dans Lync Server 2013](lync-server-2013-import-a-voice-route-configuration-file.md)
+  - [Importer un fichier de configuration d’itinéraire des communications vocales dans Lync Server 2013](lync-server-2013-import-a-voice-route-configuration-file.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
 </div>
 

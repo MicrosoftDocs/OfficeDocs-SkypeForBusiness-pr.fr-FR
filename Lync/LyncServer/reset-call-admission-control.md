@@ -1,5 +1,5 @@
 ---
-title: Réinitialisation du contrôle d’admission des appels
+title: Réinitialiser le contrôle d’admission des appels
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6956b1a871a4a0a5c7e758d2890a58989f5ac8a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c51eed6e5164316c2785ff5d560291afe58015c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a>Réinitialisation du contrôle d’admission des appels
+# <a name="reset-call-admission-control"></a>Réinitialiser le contrôle d’admission des appels
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41726994"
 
 _**Dernière modification de la rubrique :** 2012-10-11_
 
-Si un pool frontal de Lync Server 2010 est en cours d’hébergement par le biais du contrôle d’admission des appels (CAC), vous devez déplacer l’hébergement CAC vers un pool Lync Server 2013 avant de pouvoir supprimer le pool frontal de Lync Server 2010.
+Si un pool frontal Lync Server 2010 héberge le contrôle d’admission des appels (CAC), vous devez déplacer le serveur de ports d’hébergement CAC vers un pool Lync Server 2013 avant de pouvoir supprimer le pool frontal Lync Server 2010.
 
 <div>
 
-## <a name="to-reset-cac"></a>Pour réinitialiser le CAC
+## <a name="to-reset-cac"></a>Pour réinitialiser le service Contrôle d’admission des appels
 
-1.  Ouvrez le générateur de topologie.
+1.  Ouvrez le Générateur de topologie.
 
-2.  Cliquez avec le bouton droit sur le nœud site, puis cliquez sur **modifier les propriétés**.
+2.  Cliquez avec le bouton droit sur le nœud du site, puis cliquez sur **Modifier les propriétés**.
 
-3.  Sous **paramètre de contrôle d’admission des appels**, assurez-vous que l’option **activer le contrôle d’admission des appels** est activée.
+3.  Sous **Définition du contrôle d’admission des appels**, assurez-vous que l’option **Activer le contrôle d’admission des appels** est sélectionnée.
 
-4.  Sous **pool frontal pour exécuter le contrôle d’admission des appels (CAC)**, sélectionnez le pool Lync Server 2013 à hôte CAC, puis cliquez sur **OK**.
+4.  Sous **pool frontal pour exécuter le contrôle d’admission des appels (CAC)**, sélectionnez le pool Lync Server 2013 qui doit héberger le contrôle d’admission des appels, puis cliquez sur **OK**.
 
 5.  Publiez la topologie.
 

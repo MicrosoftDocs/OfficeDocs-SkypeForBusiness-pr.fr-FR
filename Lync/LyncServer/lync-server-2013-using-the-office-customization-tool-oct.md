@@ -12,20 +12,20 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b2203c4169075b7b906156bf3436e61011f873a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743844"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Utiliser l’outil de personnalisation Office (OPO) dans Lync Server 2013
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Utilisation de l’outil de personnalisation Office (OPO) dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41743844"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-L’outil de personnalisation Office fait partie du programme d’installation et est recommandé pour de nombreuses personnalisations. Grâce à cet outil, personnalisez Office et enregistrez vos personnalisations dans un fichier .msp de personnalisation de l’installation. Placez ensuite le fichier dans le dossier Updates sur le point d’installation réseau. Lorsque vous installez Office, le programme d’installation cherche un fichier de personnalisation de l’installation dans le dossier Updates et applique les personnalisations. Le dossier mises à jour peut être utilisé uniquement pour déployer des mises à jour logicielles lors d’une installation initiale d’Office 2013.
+L’outil de personnalisation Office fait partie du programme d’installation et est recommandé pour de nombreuses personnalisations. Grâce à cet outil, personnalisez Office et enregistrez vos personnalisations dans un fichier .msp de personnalisation de l’installation. Placez ensuite le fichier dans le dossier Updates sur le point d’installation réseau. Quand vous installez Office, le programme d’installation recherche un fichier de personnalisation de l’installation dans le dossier Updates et applique les personnalisations. Le dossier mises à jour ne peut être utilisé que pour déployer des mises à jour logicielles lors d’une installation initiale d’Office 2013.
 
-L’outil de personnalisation Office fait partie du programme d’installation et est inclus dans les versions de licence en volume du produit. Vous exécutez l’outil OCT en `setup.exe /admin` tapant à partir de la ligne de commande à partir de la racine du point d’installation réseau qui contient les fichiers source d’Office 2013. Par exemple, utilisez la commande suivante :
+L’outil de personnalisation Office fait partie du programme d’installation et est inclus dans les versions de licence en volume du produit. Vous exécutez l’OPO en tapant `setup.exe /admin` sur la ligne de commande à partir de la racine du point d’installation réseau qui contient les fichiers sources Office 2013. Par exemple, utilisez la commande suivante :
 
 `\\server\share\Office15\setup.exe /admin`
 
-Les administrateurs utilisent l’outil de personnalisation Office pour créer un fichier .msp de personnalisation de l’installation. Comme dans Microsoft Office 2010 OCT, les administrateurs peuvent personnaliser les domaines suivants :
+Les administrateurs utilisent l’outil de personnalisation Office pour créer un fichier .msp de personnalisation de l’installation. Comme dans l’OPO de Microsoft Office 2010, les administrateurs peuvent personnaliser les domaines suivants :
 
-  - **Configuration** Spécifie l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, les sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage et les versions antérieures d’Office à supprimer, ainsi que les programmes personnalisés à exécuter lors de l’installation, les paramètres de sécurité et les propriétés d’installation.
+  - **Programme d’installation** Permet de spécifier l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, les sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage, les versions antérieures d’Office à supprimer, les programmes personnalisés à exécuter pendant l’installation, les paramètres de sécurité et les propriétés d’installation.
 
-  - **Fonctionnalités** Permet de configurer les paramètres utilisateur et de personnaliser le mode d’installation des fonctionnalités d’Office. Les administrateurs peuvent utiliser l’outil de personnalisation Office pour spécifier les valeurs par défaut initiales des paramètres de l’application Office pour les utilisateurs. Ces derniers peuvent modifier la plupart des paramètres après l’installation.
+  - **Fonctionnalités** Permet de configurer les paramètres utilisateur et de personnaliser l’installation des fonctionnalités Office. Les administrateurs peuvent utiliser l’outil de personnalisation Office pour spécifier les valeurs par défaut initiales des paramètres de l’application Office pour les utilisateurs. Ces derniers peuvent modifier la plupart des paramètres après l’installation.
 
   - **Contenu supplémentaire** Permet d’ajouter ou de supprimer des fichiers, d’ajouter ou de supprimer des entrées de Registre et de configurer des raccourcis.
 
-  - **Outlook** Permet de personnaliser le profil Outlook par défaut d’un utilisateur, de spécifier les paramètres Exchange, d’ajouter des comptes, de supprimer les\\comptes et d’exporter des paramètres, et de spécifier les groupes de réception.
+  - **Outlook** Permet de personnaliser le profil Outlook par défaut d’un utilisateur, de spécifier les paramètres Exchange, d’ajouter des comptes, de supprimer des\\comptes et d’exporter des paramètres et de spécifier des groupes d’envoi de réception.
 
-Pour plus d’informations sur le PTOM <http://go.microsoft.com/fwlink/p/?linkid=267516>, voir.
+Pour plus d’informations sur l’OPO <http://go.microsoft.com/fwlink/p/?linkid=267516>, reportez-vous à.
 
 </div>
 

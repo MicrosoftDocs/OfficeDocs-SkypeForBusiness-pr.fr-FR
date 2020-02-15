@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : sous-état synthèse P2P'
+title: 'Lync Server 2013 : sous-rapport de résumé P2P'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3cff1eb86376068d53651f0d88224bf7f030921
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47da588037fd3db70fc277c91b919185f48a9286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755398"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Sous-état synthèse P2P de Lync Server 2013
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Sous-rapport de résumé P2P dans Lync Server 2013
 
 </div>
 
@@ -60,8 +60,8 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
-<td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
+<td><p><strong>From</strong></p></td>
+<td><p>Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
@@ -70,9 +70,9 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
-<p>7/7/2012 1:00 PM</p>
+<p>07/07/2012 13:00</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
@@ -81,7 +81,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur <strong>[Tous]</strong> pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.</p></td>
+<td><p>Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur <strong>[Tous]</strong> pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,7 +119,7 @@ Le tableau qui suit répertorie les informations fournies dans le sous-rapport d
 <tr class="even">
 <td><p><strong>Taux d’échec</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Pourcentage de sessions P2P ayant échoué.</p></td>
+<td><p>Pourcentage de sessions d’égal à égal ayant échoué.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sessions par modalité</strong></p></td>

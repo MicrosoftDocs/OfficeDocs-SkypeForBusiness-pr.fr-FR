@@ -1,5 +1,5 @@
 ---
-title: Configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence
+title: Configuration technique requise pour les serveurs frontaux, la messagerie instantanée et la présence
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9502d5cab3cb348b9fdf03236c6da966893d0852
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746584"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Configuration requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Configuration technique requise pour les serveurs frontaux, la messagerie instantanée et la présence dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41746584"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-La messagerie instantanée et la présence s’exécutent en permanence sur les pools des serveurs frontaux Enterprise Edition et Standard Edition. Pour plus d’informations sur les matériels, systèmes d’exploitation et logiciels de base de données pris en charge, voir les rubriques suivantes :
+La messagerie instantanée et la présence s’exécutent toujours sur les pools frontaux Enterprise Edition et les serveurs Standard Edition. Pour plus d’informations sur le matériel, les systèmes d’exploitation et les logiciels de base de données pris en charge, voir :
 
   - [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md)
 
-  - [Prise en charge des infrastructures et des logiciels de serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
 <div>
 
-## <a name="supported-collocation"></a>Colocalisation prises en charge
+## <a name="supported-collocation"></a>Colocalisation prise en charge
 
-Le rôle serveur frontal peut être localisé sur le serveur de médiation. Vous pouvez également exécuter la surveillance et l’archivage sur des serveurs frontaux. Le serveur frontal ne peut pas être colocalisé avec Edge Server ou Director.
+Le rôle serveur frontal peut être colocalisé avec le serveur de médiation. Vous pouvez également exécuter la surveillance et l’archivage sur les serveurs frontaux. Le serveur frontal ne peut pas être colocalisé avec le serveur Edge ou le directeur.
 
 </div>
 

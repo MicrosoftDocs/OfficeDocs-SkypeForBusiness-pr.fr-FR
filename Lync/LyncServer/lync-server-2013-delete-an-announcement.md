@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer une annonce'
+title: 'Lync Server 2013 : suppression d’une annonce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41736424"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Utilisez la procédure suivante pour supprimer une annonce utilisée pour les appels vers des numéros non attribués.
+Procédez de la façon suivante pour supprimer une annonce utilisée pour passer des appels à des numéros non attribués.
 
 <div>
 
 ## <a name="to-delete-an-announcement"></a>Pour supprimer une annonce
 
-1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 3.  Répertoriez toutes les annonces de votre organisation. À partir de la ligne de commande, exécutez la commande suivante :
     
         Get-CsAnnouncement
 
-4.  Dans la liste obtenue, recherchez l’annonce à supprimer et copiez le GUID. À partir de la ligne de commande, exécutez la commande suivante :
+4.  Dans la liste obtenue, recherchez l’annonce que vous voulez supprimer et copiez le GUID. À partir de la ligne de commande, exécutez la commande suivante :
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    Exemple :
+    Par exemple :
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +63,7 @@ Utilisez la procédure suivante pour supprimer une annonce utilisée pour les ap
     
 
     > [!NOTE]  
-    > Pour plus d’informations sur les autres options, voir <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> et <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
+    > Pour plus d’informations sur d’autres options, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> et <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.
 
     
     </div>

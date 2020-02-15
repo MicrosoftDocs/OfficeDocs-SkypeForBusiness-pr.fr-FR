@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Test du directeur'
+title: 'Lync Server 2013 : test du directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b8b7e494a66cf38fd27e37f322c79e95f801c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da9d365b42e0d8c78de48ac9ffa9a96c51ebc9f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41746074"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-À ce stade, un directeur ou un pool de réalisateur est configuré, mais les entrées SRV de votre système de noms de domaine (DNS) continuent à se connecter à l’aide d’un pool ou d’un serveur Standard Edition Server. Avant de modifier l’enregistrement DNS pour que les clients Lync 2013 se connectent automatiquement à l’aide du réalisateur, testez un client en le faisant manuellement au directeur.
+À ce stade, vous avez un directeur ou un pool directeur configuré, mais vos entrées SRV DNS (Domain Name System) désignent toujours les clients pour se connecter à l’aide d’un pool ou d’un serveur Standard Edition. Avant de modifier l’enregistrement DNS pour faire en sorte que les clients Lync 2013 se connectent automatiquement à l’aide du directeur, testez un client en le dirigeant manuellement vers le directeur.
 
 <div>
 
 ## <a name="to-test-the-deployment"></a>Pour tester le déploiement
 
-1.  Ouvrez une session sur l’ordinateur sur lequel est installé le panneau de configuration de Lync Server avec un compte de domaine faisant partie du groupe **CSAdministrator** .
+1.  Ouvrez une session sur l’ordinateur sur lequel le panneau de configuration Lync Server est installé avec un compte de domaine qui fait partie du groupe **CSAdministrator** .
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans le volet de navigation, cliquez sur **Topology**, puis, dans la colonne **statut** , vérifiez qu’il existe un serveur vert avec une flèche (c’est-à-dire, l' ![icône du serveur avec la flèche verte](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icône serveur avec flèche verte")) pour votre directeur ou votre pool de réalisateur.
+3.  Dans le volet de navigation, cliquez sur **topologie**, puis, dans la colonne **État** , vérifiez qu’il y a un serveur vert avec une flèche (c’est-à-dire, une ![icône de serveur avec flèche verte](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Icône de serveur avec flèche verte")) pour votre directeur ou pool directeur.
 
-4.  Connectez deux ordinateurs client sur lesquels le client Lync Server 2013 est installé, puis connectez-vous avec un autre compte d’utilisateur activé pour Lync Server 2013 sur chaque ordinateur.
+4.  Connectez deux ordinateurs clients sur lesquels le client Lync Server 2013 est installé, puis ouvrez une session avec un autre compte d’utilisateur activé pour Lync Server 2013 sur chaque ordinateur.
 
-5.  Sur l’un des ordinateurs clients, cliquez sur le menu **options** , sélectionnez le groupe paramètres **personnels** , cliquez sur **avancé**, sur **configuration manuelle**, puis définissez le **nom du serveur interne ou l’adresse IP** sur le nom de domaine complet (FQDN) du nouveau directeur ou du pool de réalisateurs.
+5.  Sur l’un des ordinateurs clients, cliquez sur le menu **options** , sélectionnez le groupe paramètres **personnels** , cliquez sur **avancé**, cliquez sur **configuration manuelle**, puis définissez le **nom du serveur interne ou l’adresse IP** sur le nom de domaine complet (FQDN) du nouveau directeur ou pool directeur.
 
-6.  Ouvrez une session sur les deux clients et assurez-vous que le client qui se connecte à l’aide du directeur est en mesure de se connecter avec succès, d’afficher le statut de présence de l’autre utilisateur et de pouvoir échanger des messages instantanés.
+6.  Ouvrez une session sur les deux clients et vérifiez que le client qui ouvre une session à l’aide du directeur est en mesure de se connecter correctement, de voir le statut de présence de l’autre utilisateur et de pouvoir échanger des messages instantanés.
 
 </div>
 

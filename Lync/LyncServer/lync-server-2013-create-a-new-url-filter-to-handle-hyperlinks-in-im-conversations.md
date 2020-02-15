@@ -1,5 +1,5 @@
 ---
-title: Créer un nouveau filtre d’URL pour gérer les liens hypertexte dans les conversations par messagerie instantanée
+title: Créer un nouveau filtre d’URL pour gérer les liens hypertexte dans les conversations de messagerie instantanée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7f6cd39034dbc3114f5b89fb15d252b71149762
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88aa97d270448208170e463370774e6279ea9bf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41740384"
 
 _**Dernière modification de la rubrique :** 2012-09-26_
 
-Outre la modification du filtre d’URL global, vous pouvez configurer des filtres d’URL personnalisés pour des sites individuels au sein de votre déploiement 2013 Lync Server. Pour plus d’informations sur le filtrage d’URL, voir [configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+En plus de modifier le filtre d’URL globales, vous pouvez configurer des filtres d’URL personnalisés pour des sites individuels au sein de votre déploiement Lync Server 2013. Pour plus d’informations sur le filtrage des URL, voir [Configuring File Transfer and URL Filtering for Instant Messaging (im) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
-## <a name="to-create-a-new-url-filter"></a>Pour créer un nouveau filtre d’URL
+## <a name="to-create-a-new-url-filter"></a>Pour créer un filtre d’URL
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **messagerie instantanée et présence**, puis cliquez sur **filtre d’URL**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Messagerie instantanée et présence**, puis cliquez sur **Filtre d’URL**.
 
-4.  Dans la page de **filtre d’URL** , cliquez sur **nouveau**.
+4.  Dans la page **Filtre d’URL**, cliquez sur **Nouveau**.
 
-5.  Dans **Sélectionner un site**, cliquez sur le site pour lequel vous souhaitez créer le filtre d’URL, puis cliquez sur **OK**.
+5.  Dans la boîte de dialogue **Sélectionner un site**, cliquez sur le site pour lequel vous souhaitez créer le filtre d’URL, puis cliquez sur **OK**.
 
-6.  Dans la boîte de dialogue **nouveau filtre d’URL** , activez la case à cocher **activer** le filtrage d’URL pour le site.
+6.  Dans la boîte de dialogue **Nouveau filtre d’URL**, activez la case à cocher **Activer le filtre d’URL** pour activer le filtrage d’URL sur le site.
 
-7.  Pour bloquer toute URL active contenant un fichier avec une extension répertoriée sous **extensions de type de fichier à bloquer** dans la boîte de réception **modifier le filtre de fichier**, activez la case à cocher bloquer les **URL avec l’extension de fichier** .
+7.  Pour bloquer une URL active qui contient un fichier dont l’extension figure sous **Extensions de types de fichiers à bloquer** dans **Modifier le filtre de fichiers**, activez la case à cocher **Bloquer les URL avec extension de fichier**.
 
-8.  Dans la zone de liste déroulante des **liens hypertexte** , cliquez sur l’option qui correspond à la manière dont vous souhaitez gérer les URL dans les conversations par messagerie instantanée.
+8.  Dans la zone de liste déroulante **Préfixe de lient hypertexte**, cliquez sur l’option correspondant à la manière dont vous voulez gérer les URL dans les conversations de messages instantanés.
     
-    La boîte de **dialogue autoriser le message** permet d’envoyer un message d’avertissement à l’utilisateur lors de l’envoi de liens hypertexte qui peuvent être envoyés.
+    Lorsque la case à cocher **Autoriser le message** est activée, un message d’avertissement peut être envoyé à l’utilisateur lors de l’envoi des liens hypertexte autorisés à être envoyés.
 
 9.  Cliquez sur **Valider**.
 
@@ -71,7 +71,7 @@ Outre la modification du filtre d’URL global, vous pouvez configurer des filtr
 
 
 [Configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Créer un filtre de transfert de fichiers dans Lync Server 2013 pour un site spécifique](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Créer un nouveau filtre de transfert de fichiers dans Lync Server 2013 pour un site spécifique](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
 [Modifier le filtre de transfert de fichiers par défaut dans Lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 

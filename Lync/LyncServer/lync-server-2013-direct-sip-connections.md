@@ -12,16 +12,16 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edd6c7cbcaa1789d9f37cd77123b4afd8c2416de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762232"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41762232"
 
 _**Dernière modification de la rubrique :** 2012-08-13_
 
-Vous pouvez utiliser des *connexions SIP directes* pour connecter le serveur Lync à l’un des éléments suivants :
+Vous pouvez utiliser des *connexions SIP directes* pour connecter Lync Server à l’un des éléments suivants :
 
-  - Un PBX IP (pour plus de détails, voir [options de déploiement SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
+  - Un PBX IP (pour plus d’informations, reportez-vous à [la rubrique options de déploiement SIP direct dans Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
 
-  - Passerelle RTC (pour plus de détails, voir [options de déploiement de la passerelle RTC dans Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
+  - Une passerelle PSTN (pour plus d’informations, consultez la rubrique [options de déploiement de la passerelle PSTN dans Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
 
-Pour implémenter une connexion SIP directe, vous devez suivre les mêmes étapes de déploiement que dans le cadre de l’implémentation d’un Trunk SIP. Dans les deux cas, vous implémentez la connexion à l’aide de l’interface externe d’un serveur de médiation. La seule différence réside dans le fait que vous connectez des lignes SIP à une entité externe, telle qu’une passerelle ITSP et que vous connectez des connexions SIP directes à une entité interne au sein de votre réseau local (par exemple, un PBX IP ou une passerelle RTC (réseau téléphonique commuté).
+Pour mettre en œuvre une connexion SIP directe, vous devez essentiellement suivre la même procédure de déploiement que pour mettre en œuvre une jonction SIP. Dans les deux cas, vous implémentez la connexion à l’aide de l’interface externe d’un serveur de médiation. La seule différence est que vous connectez les jonctions SIP à une entité externe, comme une passerelle ITSP, et connectez les connexions SIP directes à une entité interne dans le réseau local, comme un PBX IP ou une passerelle PSTN.
 
 <div>
 
@@ -51,7 +51,7 @@ Pour implémenter une connexion SIP directe, vous devez suivre les mêmes étape
 
   - [Options de déploiement SIP direct dans Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [Options de déploiement de passerelle RTC dans Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)
+  - [Options de déploiement de passerelle PSTN dans Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)
 
 </div>
 

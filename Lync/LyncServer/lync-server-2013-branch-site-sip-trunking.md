@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : trunking SIP site de filiale'
+title: 'Lync Server 2013 : jonction SIP de site de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 161964bc7a183672323ac277eae4f3a7ce0d2b82
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741814"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Branch site SIP trunking in Lync Server 2013
+# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Jonction SIP de site de succursale dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41741814"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Dans certains cas, il est possible que vous deviez implémenter une agrégation SIP distribuée sur des sites de succursales sélectionnés. Pour déterminer si un Trunk SIP est requis pour un site de succursale, voir les informations de la mise en œuvre de l' [agrégation SIP dans Lync Server 2013 ?](lync-server-2013-how-do-i-implement-sip-trunking.md).
+Dans certains cas, vous devrez peut-être implémenter une jonction SIP distribuée sur des sites de succursale sélectionnés. Pour déterminer si une jonction SIP est nécessaire pour un site de succursale, consultez les informations de la [procédure implémentation de la jonction SIP dans Lync Server 2013 ?](lync-server-2013-how-do-i-implement-sip-trunking.md).
 
-Pour plus d’informations sur les options de topologie prises en charge pour le déploiement de Trunks SIP dans les sites de succursales, voir [solutions de résilience de sites de succursales dans Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).
+Pour plus d’informations sur les options de topologie prises en charge pour le déploiement de jonctions SIP dans les sites de succursale, consultez la rubrique [solutions de résistance de site de succursale dans Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).
 
 <div>
 
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Conditions requises pour le déploiement d’une jonction SIP sur un site de succursale : exemple d’analyse
 
-Lorsque vous décidez de déployer un Trunk SIP de site de succursale, vous devez effectuer une analyse de coûts spécifique au site. Par exemple, une entreprise disposant d’un site central dans Redmond, Washington et sur une succursale à New York doit effectuer une analyse pour déterminer s’il est nécessaire de mettre en œuvre un Trunk SIP à partir du site de New York vers un fournisseur de services local.
+Lorsque vous décidez de déployer une jonction SIP de site de succursale, vous devez effectuer une analyse des coûts propre au site. Par exemple, une entreprise ayant un site central à Redmond, Washington et un site de succursale à New York doit effectuer une analyse pour déterminer s’il faut implémenter une jonction SIP à partir du site de New York vers un fournisseur de services local.
 
-Pour savoir si une jonction SIP distribuée à New York est rentable, identifiez les numéros SDA (Sélection Directe à l’Arrivée) qui doivent utiliser la jonction SIP, puis analysez le nombre d’appels à destination de zones en dehors de Redmond (425) que le site de New York passe. Vous pouvez avoir terminé le site de succursale sur le site central. Par exemple, le site central de Redmond peut héberger des numéros ayant été importés pour le site de succursale de New York. Si le coût de l’implémentation d’un Trunk SIP distribué est inférieur au coût de ces appels, envisagez d’implémenter une ligne SIP sur le site de la succursale de New York.
+Pour savoir si une jonction SIP distribuée à New York est rentable, identifiez les numéros SDA (Sélection Directe à l’Arrivée) qui doivent utiliser la jonction SIP, puis analysez le nombre d’appels à destination de zones en dehors de Redmond (425) que le site de New York passe. Vous pouvez avoir terminé le site de succursale sur le site central. Par exemple, le site central de Redmond peut héberger des numéros DID pour le site de succursale de New York. Si le coût de mise en œuvre d’une jonction SIP distribuée est inférieur au coût de ces appels, envisagez d’implémenter une jonction SIP sur le site de succursale de New York.
 
 </div>
 
@@ -55,7 +55,7 @@ Pour savoir si une jonction SIP distribuée à New York est rentable, identifiez
 
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Autres conditions requises pour le déploiement d’une jonction SIP sur un site de succursale
 
-Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une ligne SIP site de succursale, vous devez également déterminer votre tolérance de panne et vos besoins en bande passante. Si le lien entre votre site de succursale et votre site central est résilient et dispose d’une bande passante suffisante, vous pouvez déployer une passerelle SIP. Vous n’avez pas besoin de déployer une unité de branchement survivant sur le site de la succursale. Si le lien entre votre site de succursale et votre site central n’est pas résilient, déployez une application de succursale survivant ou déployez un serveur de succursales survivant avec une passerelle ou une ligne SIP sur le site de la succursale.
+Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une jonction SIP de site de succursale, vous devez également déterminer les besoins en matière de résistance et de bande passante. Si la liaison entre votre site de succursale et le site central est résiliente et dispose d’une bande passante suffisante, vous pouvez déployer une jonction SIP ou une passerelle. Vous n’avez pas besoin de déployer un Survivable Branch appliance sur le site de succursale. Si la liaison entre votre site de succursale et le site central n’est pas résiliente, déployez un Survivable Branch Appliance ou déployez un serveur Survivable Branch Server avec une jonction passerelle ou SIP sur le site de succursale.
 
 </div>
 

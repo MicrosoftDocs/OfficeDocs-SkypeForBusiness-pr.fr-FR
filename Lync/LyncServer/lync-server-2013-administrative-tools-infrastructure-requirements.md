@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exigences d’infrastructure des outils d’administration'
+title: 'Lync Server 2013 : configuration requise pour l’infrastructure des outils d’administration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737944"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Exigences d’infrastructure des outils d’administration dans Lync Server 2013
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Configuration requise pour l’infrastructure des outils d’administration dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41737944"
 
 _**Dernière modification de la rubrique :** 2012-09-27_
 
-Aucun besoin d’infrastructure supplémentaire n’est nécessaire pour installer les outils d’administration Microsoft Lync Server 2013 ou effectuer la plupart des tâches de gestion à l’aide de ces outils. Pour connaître la configuration requise en matière d’infrastructure pour des scénarios spécifiques, voir les rubriques de cette section.
+Aucune exigence d’infrastructure supplémentaire n’est requise pour installer les outils d’administration Microsoft Lync Server 2013 ou exécuter la plupart des tâches de gestion à l’aide de ces outils. Pour plus d’informations sur la configuration requise de l’infrastructure pour des scénarios spécifiques, voir les rubriques de cette section.
 
 <div>
 
@@ -47,17 +47,17 @@ Aucun besoin d’infrastructure supplémentaire n’est nécessaire pour install
 
   - [Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
 
-  - [Enregistrements DNS requis pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [Configuration DNS requise pour les URL simples dans Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [Modification ou configuration des URL simples dans Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [Modifier ou configurer des URL simples dans Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
-  - [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
@@ -66,7 +66,7 @@ Aucun besoin d’infrastructure supplémentaire n’est nécessaire pour install
 ## <a name="see-also"></a>Voir aussi
 
 
-[Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
+[Installer les outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
 [Configuration logicielle requise pour les outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  

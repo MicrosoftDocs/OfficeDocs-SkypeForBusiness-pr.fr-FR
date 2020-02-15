@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vérification de votre déploiement Edge'
+title: 'Lync Server 2013 : vérification de votre déploiement Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742024"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742024"
 
 _**Dernière modification de la rubrique :** 2010-11-07_
 
-À l’issue de l’installation et de la configuration de vos composants Edge, vous devez vérifier la configuration et la connectivité des serveurs et vérifier la connectivité de chaque type d’utilisateur externe que vous prenez en charge.
+Une fois que vous avez installé et configuré les composants Edge, vous devez vérifier la configuration et la connectivité des serveurs ainsi que celle de chaque type d’utilisateur externe que vous prenez en charge.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Vérification de la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [Vérifier la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [Vérification de la connectivité pour les utilisateurs externes dans Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [Vérifier la connectivité pour les utilisateurs externes dans Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

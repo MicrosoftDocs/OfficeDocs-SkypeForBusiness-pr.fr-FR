@@ -12,20 +12,20 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742184"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management Shell
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management Shell
 
 </div>
 
@@ -41,40 +41,40 @@ _**Dernière modification de la rubrique :** 2017-09-20_
 
 
 > [!NOTE]  
-> Référence sur les applets de la cmdlet Skype entreprise a été déplacée vers docs.microsoft.com. Cliquer sur les liens ci-dessous vous permet d’atteindre la nouvelle page docs.microsoft.com. Le contenu est désormais ouvert et est disponible pour les contributions de la Communauté par le biais de GitHub. Vous voulez participer ? Consultez le fichier README dans le référentiel Samples :<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> La référence de cmdlet Skype entreprise a été déplacée vers docs.microsoft.com. Cliquez sur les liens ci-dessous pour accéder à la nouvelle page docs.microsoft.com. Le contenu est désormais ouvert et disponible pour les contributions de la Communauté via GitHub. Vous souhaitez contribuer ? Consultez le fichier Lisez-moi dans le référentiel ici :<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft Lync Server 2010 a introduit un grand nombre de fonctionnalités nouvelles et améliorées par rapport à ce qui était disponible dans Microsoft Office Communications Server 2007 R2. L’une des améliorations est le mode de gestion de votre implémentation. Par exemple, il existe une nouvelle interface utilisateur, appelée panneau de configuration de Lync Server, qui représente un important changement de l’utilisation de la plupart des personnes avec la console de gestion Microsoft. L’autre amélioration majeure de la gestion est l’inclusion de Windows PowerShell.
+Microsoft Lync Server 2010 a introduit un grand ensemble de fonctionnalités nouvelles et améliorées par rapport à ce qui était disponible dans Microsoft Office Communications Server 2007 R2. Parmi les améliorations qui ont été apportées figure la façon dont vous pouvez gérer votre implémentation. Par exemple, il existe une nouvelle interface utilisateur, appelée panneau de configuration Lync Server, qui représente une grande équipe de la plupart des utilisateurs avec Microsoft Management Console. L’intégration de Windows PowerShell est une autre amélioration majeure de la facilité de gestion.
 
-Windows PowerShell vous permet de gérer les applications Microsoft à partir de la ligne de commande. Il comporte un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Windows PowerShell s’est d’abord présenté comme une version téléchargeable du système d’exploitation Windows en retard dans 2006, et il a été intégré en tant qu’interface de ligne de commande pour la gestion de Microsoft Exchange Server 2007. À partir de ce point, il a continué de grandir et il a été intégré à la plupart des produits Microsoft Server, les plus récents d’eux étant Microsoft Lync Server 2013. Lync Server 2010 a présenté des applets de passe spécifiques à 550, que vous pouvez utiliser pour gérer chaque aspect de votre déploiement.
+Windows PowerShell vous permet de gérer les applications Microsoft à partir de la ligne de commande. Il comporte un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Windows PowerShell a été introduit pour la première fois en tant que version téléchargeable pour le système d’exploitation Windows en retard dans 2006, et a été incorporée comme interface de ligne de commande pour la gestion de Microsoft Exchange Server 2007. À partir de ce stade, il a continué à croître et il a été intégré dans la plupart des produits serveur Microsoft, les plus récents d’entre eux étant Microsoft Lync Server 2013. Lync Server 2010 introduit des applets de commande spécifiques aux produits de 550, que vous pouvez utiliser pour gérer tous les aspects de votre déploiement.
 
-Les sections suivantes contiennent une liste des applets de commande et leurs descriptions. Ces informations sont aussi disponibles directement à partir de la ligne de commande. Tapez simplement ce qui suit dans l’invite de commandes de Lync Server Management Shell :
+Les sections suivantes contiennent une liste des applets de commande et leurs descriptions. Ces informations sont aussi disponibles directement à partir de la ligne de commande. Il vous suffit de taper ce qui suit à l’invite de commandes Lync Server Management Shell :
 
     Get-Help <cmdlet name> -Full
 
-Par exemple, pour accéder à l’aide depuis l’invite de commande de l’applet de commande **New-CsVoicePolicy** tapez les éléments suivants :
+Par exemple, pour accéder à l’aide depuis l’invite de commandes de l’applet de commande **New-CsVoicePolicy**, tapez les éléments suivants :
 
     Get-Help New-CsVoicePolicy -Full
 
 Éléments à connaître sur Windows PowerShell dans Lync Server 2013 :
 
-  - Pour exécuter les applets de cmdlet Lync Server, ouvrez Lync Server Management Shell.
+  - Pour exécuter les applets de commande Lync Server, ouvrez Lync Server Management Shell.
     
     <div>
     
 
     > [!WARNING]  
-    > Par défaut, si vous ouvrez une fenêtre Windows PowerShell plutôt que Lync Server Management Shell, vous ne serez pas en mesure d’exécuter les applets de cmdlet de Lync Server. Pour exécuter les applets de commande Lync Server à partir de Windows PowerShell, commencez par taper la commande suivante à l’invite de commandes Windows PowerShell :<BR>Importer-module Lync
+    > Si vous ouvrez une fenêtre Windows PowerShell au lieu de Lync Server Management Shell, par défaut, vous ne pourrez pas exécuter les applets de commande Lync Server. Pour exécuter les applets de commande Lync Server à partir de Windows PowerShell, tapez d’abord les éléments suivants à l’invite de commandes Windows PowerShell :<BR>Import-Module Lync
 
     
     </div>
 
-  - Lync Server Management Shell est automatiquement installé sur chaque serveur frontal Lync Server Enterprise Edition ou Standard Edition Server.
+  - Lync Server Management Shell est automatiquement installé sur chaque serveur frontal ou serveur Standard Edition Lync Server Enterprise Edition.
 
-  - Des informations nouvelles et mises à jour, des exemples de scripts et de l’aide pour la mise en route et en savoir plus sur les applets de cmdlet Windows PowerShell et Microsoft [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)Lync Server 2013 sont disponibles sur le blog Windows PowerShell de Lync Server.
+  - Des informations nouvelles et mises à jour, des exemples de scripts et de l’aide pour la mise en route et en savoir plus sur les applets de commande Windows PowerShell et Microsoft [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)lync Server 2013 sont disponibles sur le blog Lync Server Windows PowerShell.
 
 </div>
 

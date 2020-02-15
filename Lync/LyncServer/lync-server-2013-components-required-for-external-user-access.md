@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants requis pour l’accès des utilisateurs externes'
+title: 'Lync Server 2013 : composants requis pour l’accès des utilisateurs externes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 550eb864ff7cc26eb0bfeace37759bb15b9816f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757098"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,48 +37,48 @@ ms.locfileid: "41757098"
 
 _**Dernière modification de la rubrique :** 2014-05-29_
 
-La plupart des composants Edge sont déployés sur un réseau de périmètre. Les composants suivants constituent la topologie latérale du réseau de périmètre. Sauf indication contraire, les composants font partie des [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) et se trouvent dans le réseau de périmètre. Ces composants Edge sont les suivants :
+La plupart des composants Edge sont déployés dans un réseau de périmètre. Les deux composants suivants forment la topologie de périphérie du réseau de périmètre. Sauf indication contraire, les composants font partie des [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) et se trouvent dans le réseau de périmètre. Ces composants de périphérie sont les suivants :
 
-  - Edge Servers
+  - Serveurs de périphérie
 
-  - Reverse proxies
+  - Proxys inverses
 
-  - Firewalls
+  - Pare-feu
 
-  - Directeurs (facultatif et logiquement situé sur le réseau interne)
+  - Directeurs (facultatifs et logiquement situés sur le réseau interne)
 
-  - Équilibrage de la charge pour les topologies Edge mises à l’échelle (avec charge DNS équilibrée ou un équilibreur de la charge matérielle)
+  - Équilibrage de la charge pour les topologies Edge mises à l’échelle (avec charge DNS équilibrée ou un programme d’équilibrage de la charge matérielle)
     
     <div>
     
 
     > [!IMPORTANT]  
-    > L’utilisation de l’équilibrage de charge DNS sur une interface et de l’équilibrage de charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser l’équilibrage de charge matérielle ou l’équilibrage de charge DNS.
+    > L’utilisation de l’équilibrage de la charge DNS sur une interface et de l’équilibrage de la charge matérielle sur l’autre n’est pas prise en charge. Sur les deux interfaces, vous devez utiliser soit l’équilibrage de la charge matérielle, soit l’équilibrage de la charge DNS.
 
     
     </div>
 
 <div>
 
-## <a name="edge-servers"></a>serveurs Edge
+## <a name="edge-servers"></a>Serveurs de périphérie
 
-Les serveurs Edge envoient et reçoivent le trafic réseau pour les services proposés par un déploiement interne par des utilisateurs externes. Le serveur Edge exécute les services suivants :
+Les serveurs Edge envoient et reçoivent le trafic réseau pour les services offerts par les utilisateurs externes par le déploiement interne. Il exécute les services suivants :
 
-  - **Service Edge d'**   accès le service Edge d’accès fournit un point de connexion unique et approuvé pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
+  - **Service Edge d’accès**   le service Edge d’accès fournit un point de connexion unique et approuvé pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
 
-  - **Service Edge de conférence Web**   ce service permet aux utilisateurs externes de rejoindre des réunions hébergées sur votre déploiement interne Lync Server 2013.
+  - **Service Edge de conférence Web**   le service Edge de conférence Web permet aux utilisateurs externes de rejoindre des réunions hébergées sur votre déploiement interne de Lync Server 2013.
 
-  - **Service Edge a/v**   le service Edge a/v effectue des appels audio, vidéo, de partage d’application et de transfert de fichiers aux utilisateurs externes. Vos utilisateurs peuvent ajouter de l’audio et de la vidéo à des réunions qui incluent des participants externes, et ils peuvent communiquer en utilisant directement l’audio et/ou la vidéo avec un utilisateur externe dans les sessions de point à point. Le service Edge A/V fournit également une prise en charge du partage de bureau et du transfert de fichiers.
+  - **Service Edge a/v**   le service Edge a/v rend l’audio, la vidéo, le partage d’application et le transfert de fichiers accessibles aux utilisateurs externes. Vos utilisateurs peuvent ajouter de l’audio et de la vidéo à des réunions qui incluent des participants externes et ils peuvent communiquer à l’aide de l’audio et/ou de la vidéo directement avec un utilisateur externe dans les sessions de point à point. Le service Edge A/V fournit également une prise en charge pour le partage du Bureau et le transfert de fichiers.
 
-  - **Service proxy XMPP**   le service proxy XMPP accepte les messages de la messagerie électronique et les protocoles de présence (XMPP) extensibles, ainsi que les partenaires fédérés fédérés configurés.
+  - **Service proxy XMPP**   le service proxy XMPP accepte et envoie les messages XMPP (extensible Messaging and Presence Protocol) vers et depuis les partenaires fédérés XMPP configurés.
 
-Les utilisateurs externes autorisés peuvent accéder aux serveurs de périphérie afin de se connecter à votre déploiement interne de Lync Server 2013, mais les serveurs de périphérie ne fournissent aucun moyen pour tout autre accès au réseau interne.
+Les utilisateurs externes autorisés peuvent accéder aux serveurs Edge afin de se connecter à votre déploiement interne de Lync Server 2013, mais les serveurs Edge ne permettent pas d’autres accès au réseau interne.
 
 <div>
 
 
 > [!NOTE]  
-> Les serveurs Edge sont déployés de manière à fournir des connexions pour les clients Lync et les autres serveurs Microsoft Edge compatibles (comme dans les scénarios de Fédération). Elles ne sont pas conçues pour autoriser les connexions à partir d’un autre client ou type de serveur principal. Le serveur de passerelle XMPP peut être déployé pour autoriser les connexions avec les partenaires XMPP configurés. Le serveur de périphérie et la passerelle XMPP peuvent uniquement prendre en charge les connexions de point de terminaison de ces types de client et de Fédération.
+> Les serveurs Edge sont déployés pour fournir des connexions pour les clients Lync activés et d’autres serveurs Microsoft Edge (comme dans les scénarios de Fédération). Ils ne sont pas conçus pour autoriser les connexions d’autres types de client d’extrémité ou de serveur. Le serveur de passerelle XMPP peut être déployé pour autoriser les connexions avec les partenaires XMPP configurés. Le serveur Edge et la passerelle XMPP peuvent uniquement prendre en charge les connexions d’extrémité à partir de ces types de client et de fédération.
 
 
 
@@ -90,31 +90,31 @@ Les utilisateurs externes autorisés peuvent accéder aux serveurs de périphér
 
 ## <a name="reverse-proxy"></a>Proxy inverse
 
-Le proxy inverse est requis pour les éléments suivants :
+Le proxy inverse est requis pour les actions suivantes :
 
-  - Pour permettre aux utilisateurs de se connecter à des réunions ou des conférences rendez-vous à l’aide d’URL simples
+  - permettre aux utilisateurs de participer à des réunions ou à des conférences à distance via des URL simples ;
 
-  - Pour permettre aux utilisateurs externes de télécharger le contenu d’une réunion
+  - permettre aux utilisateurs externes de télécharger le contenu de réunions ;
 
-  - Pour permettre aux utilisateurs externes d’étendre les groupes de distribution
+  - permettre aux utilisateurs externes de développer des groupes de distribution ;
 
-  - Pour permettre à l’utilisateur d’obtenir un certificat basé sur l’utilisateur pour l’authentification par certificat client
+  - permettre à l’utilisateur d’obtenir un certificat utilisateur pour l’authentification basée sur un certificat client ;
 
-  - Pour permettre aux utilisateurs distants de télécharger des fichiers à partir du serveur du carnet d’adresses ou d’adresser des requêtes au service de requête sur le carnet d’adresses
+  - permettre aux utilisateurs distants de télécharger des fichiers à partir du serveur de carnet d’adresses ou soumettre des requêtes au service de requête web du carnet d’adresses ;
 
-  - Pour permettre aux utilisateurs distants d’obtenir les mises à jour du logiciel client et de l’appareil
+  - permettre aux utilisateurs distants d’obtenir des mises à jour de logiciels clients et de périphériques ;
 
-  - Pour permettre aux appareils mobiles de détecter automatiquement les serveurs frontaux proposant des services de mobilité
+  - permettre aux appareils mobiles de découvrir automatiquement les serveurs frontaux qui proposent des services de mobilité ;
 
-  - Pour activer les notifications de transmission vers des appareils mobiles à partir d’Office 365 ou d’Apple notifications services
+  - permettre d’envoyer des notifications push aux appareils mobiles depuis les services de notification push Office 365 ou Apple.
 
-Pour plus d’informations sur les proxys inversés et les configurations requises pour les proxys inverse, voir les détails de la [Configuration requise pour le proxy inverse dans Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
+Pour plus d’informations sur les proxys inverses et sur les exigences auxquelles doivent répondre les proxys inverses, voir les détails relatifs à la [Configuration requise pour le proxy inverse dans Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
 <div>
 
 
 > [!NOTE]  
-> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) pour votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN au sein de votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, les conférences vidéo) peut être affecté. Nous vous conseillons de fournir un moyen pour le trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article de blog NextHop intitulé « activation de médias <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour ignorer un tunnel VPN ».
+> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) à votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN dans votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, la vidéoconférence) peut être compromis. Vous devez envisager de permettre au trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « activation de médias <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour contourner un tunnel VPN », à l’adresse.
 
 
 
@@ -124,19 +124,19 @@ Pour plus d’informations sur les proxys inversés et les configurations requis
 
 <div>
 
-## <a name="firewall"></a>Pare-feu
+## <a name="firewall"></a>-
 
-Vous pouvez déployer votre topologie de périphérie avec un pare-feu externe uniquement ou les pare-feu internes et externes. Les architectures de scénario incluent deux pare-feu. L’utilisation de deux pare-feu est l’approche recommandée, car elle assure le routage strict d’un bord réseau vers l’autre et protège votre déploiement interne derrière deux niveaux de pare-feu.
+Vous pouvez déployer votre topologie de périmètre avec un seul pare-feu externe ou un pare-feu interne et un pare-feu externe. Les architectures de scénario incluent deux pare-feu. Il est recommandé d’utiliser deux pare-feu pour garantir le routage strict d’un côté du réseau à l’autre et protéger votre déploiement interne derrière deux niveaux de pare-feu.
 
 </div>
 
 <div>
 
-## <a name="director"></a>directeur
+## <a name="director"></a>48000b
 
-Un directeur est un rôle de serveur distinct et facultatif dans Lync Server 2013 qui ne prend pas en charge les comptes d’utilisateurs personnels ou qui fournissent des services de présence et de conférence. Il sert de serveur interne de tronçons de tronçon sur lequel un serveur de périphérie route le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifie les demandes entrantes et les redirige vers le serveur ou le groupe d’accueil de l’utilisateur. En effectuant une authentification au niveau du réalisateur, vous pouvez déplacer des requêtes de comptes d’utilisateur qui sont inconnus du déploiement.
+Un directeur est un rôle serveur distinct et facultatif dans Lync Server 2013 qui n’utilise pas de compte d’utilisateur personnel, ou fournit des services de présence ou de conférence. Il sert de serveur de tronçon suivant interne vers lequel un serveur Edge achemine le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifie les demandes entrantes et les redirige vers le serveur ou le pool d’accueil de l’utilisateur. En préauthentifiant le directeur, vous pouvez supprimer des demandes de comptes d’utilisateurs qui ne sont pas répertoriés dans le déploiement.
 
-Un directeur permet d’isoler les serveurs Standard Edition et les serveurs frontaux dans les listes frontales d’Enterprise Edition d’un trafic malveillant (par exemple, les attaques par déni de service (DoS)). Si le réseau est inondé de trafic externe non valide lors d’une telle attaque, le trafic se termine au directeur. Pour plus d’informations sur l’utilisation des directeurs, voir [scénarios pour le directeur dans Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
+Un directeur aide à isoler les serveurs Standard Edition et les serveurs frontaux dans les pools frontaux Enterprise Edition du trafic malveillant, tels que les attaques par déni de service (DoS). Si le réseau est inondé avec du trafic externe non valide lors d’une attaque de ce type, le trafic se termine au niveau du directeur. Pour plus d’informations sur l’utilisation des directeurs, reportez-vous à [la rubrique Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
 
 </div>
 
@@ -145,7 +145,7 @@ Un directeur permet d’isoler les serveurs Standard Edition et les serveurs fro
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration requise pour l’équilibreur de charge matérielle pour Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
+[Configuration requise pour le programme d’équilibrage de la charge matérielle pour Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
   
 
 </div>

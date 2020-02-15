@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de surveillance'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725598"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41725598"
 
 _**Dernière modification de la rubrique :** 2012-11-08_
 
-Lync Server 2013 ne possède pas de rôle serveur de surveillance distinct. La surveillance est une fonctionnalité facultative disponible sur tous les serveurs frontaux d’un déploiement Enterprise Edition et sur les serveurs Standard Edition qui peuvent être implémentés et configurés pour un pool ou un site. Nouveauté de Lync Server 2013, vous pouvez activer la mise en miroir de base de données SQL Server pour votre base de données de surveillance.
+Lync Server 2013 ne dispose pas d’un rôle de serveur de surveillance distinct. La surveillance est une fonctionnalité facultative disponible sur tous les serveurs frontaux dans un déploiement Enterprise Edition, ainsi que sur les serveurs Standard Edition, qui peut être mise en œuvre et configurée pour un pool ou un site. Nouveauté de Lync Server 2013, vous pouvez activer la mise en miroir de bases de données SQL Server pour votre base de données de surveillance.
 
 </div>
 

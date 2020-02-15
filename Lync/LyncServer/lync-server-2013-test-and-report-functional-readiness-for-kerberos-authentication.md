@@ -1,5 +1,5 @@
 ---
-title: Test et signalement de la disponibilité fonctionnelle de l’authentification Kerberos
+title: Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8763203827afd3d14638b68474c4f9bd9d6d0cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746506"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Test et signalement de la disponibilité fonctionnelle de l’authentification Kerberos dans Lync Server 2013
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41746506"
 
 _**Dernière modification de la rubrique :** 2012-01-16_
 
-Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
 
-Vous pouvez utiliser l’applet de contrôle Windows PowerShell **test-CsKerberosAccountAssignment** pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos. Cette commande interroge le site spécifié dans le paramètre d’identité obligatoire. Le paramètre de rapport facultatif implique que l’applet de commande rédige un rapport HTML\\vers C : logs sur l’ordinateur sur lequel la commande est exécutée. Le paramètre facultatif détaillé signale les informations d’activité à l’écran.
+Vous pouvez utiliser l’applet de commande Windows PowerShell **test-CsKerberosAccountAssignment** pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos. Cette commande interroge le site spécifié dans le paramètre Identity obligatoire. Le paramètre de rapport facultatif fait en sorte que l’applet de commande écrive\\un rapport HTML dans C : logs sur l’ordinateur sur lequel la commande est exécutée. Le paramètre Verbose facultatif affiche des informations d’activité à l’écran.
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Pour tester et signaler la compatibilité fonctionnelle pour l’authentification Kerberos pour un site
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Pour tester et signaler la disponibilité fonctionnelle pour l’authentification Kerberos d’un site
 
-1.  En tant que membre du groupe RTCUniversalServerAdmins, connectez-vous à un ordinateur du domaine exécutant Lync Server 2013 ou sur l’ordinateur sur lequel les outils d’administration sont installés.
+1.  En tant que membre du groupe RTCUniversalServerAdmins, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur l’ordinateur sur lequel les outils d’administration sont installés.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande, exécutez la commande suivante :
+3.  Depuis la ligne de commande , exécutez la commande suivante :
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     

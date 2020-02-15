@@ -1,5 +1,5 @@
 ---
-title: Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition Server
+title: Mettre à niveau ou mettre à jour un serveur principal ou un serveur Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744664"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition Server dans Lync Server 2013
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41744664"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Cette rubrique explique comment installer une mise à jour sur un serveur principal Enterprise Edition ou un serveur Standard Edition Server.
+Cette rubrique explique comment installer une mise à jour sur un serveur principal Enterprise Edition ou un serveur Standard Edition.
 
-Si un serveur principal est arrêté pendant au moins 30 minutes lors de la mise à niveau, les utilisateurs peuvent alors basculer en mode de résilience. Lorsque la mise à niveau est terminée et que les serveurs dorsaux sont à nouveau connectés avec les serveurs frontaux de la liste, les utilisateurs sont retournés à toutes les fonctionnalités. Si la mise à niveau dure moins de 30 minutes, les utilisateurs ne sont pas affectés.
+Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mise à niveau, les utilisateurs peuvent être placés en mode Résilience. Lorsque la mise à mise à niveau est terminée et que les serveurs principaux sont encore connectés aux serveurs frontaux du pool, les utilisateurs repassent en fonctionnalité complète. Si la mise à niveau dure moins de 30 minutes, les utilisateurs ne seront pas affectés.
 
 <div>
 
@@ -49,7 +49,7 @@ Si un serveur principal est arrêté pendant au moins 30 minutes lors de la mise
 
 2.  Téléchargez la mise à jour et extrayez-la sur le disque dur local.
 
-3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 4.  Arrêtez les services Lync Server. À partir de la ligne de commande, tapez :
     
@@ -59,13 +59,13 @@ Si un serveur principal est arrêté pendant au moins 30 minutes lors de la mise
     
         net stop w3svc
 
-6.  Fermez toutes les fenêtres de Lync Server Management Shell.
+6.  Fermez toutes les fenêtres Lync Server Management Shell.
 
 7.  Installez la mise à jour.
 
-8.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+8.  Démarrez Lync Server Management Shell : Cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-9.  Arrêtez de nouveau les services Lync Server pour détecter les assemblys du cache d’assembly global (GAC)-d À partir de la ligne de commande, tapez :
+9.  Arrêtez de nouveau les services Lync Server pour rattraper les assemblys mis dans le Global Assembly Cache (GAC). À partir de la ligne de commande, tapez :
     
         Stop-CsWindowsService
 
@@ -73,17 +73,17 @@ Si un serveur principal est arrêté pendant au moins 30 minutes lors de la mise
     
         net start w3svc
 
-11. Appliquez les modifications apportées par LyncServerUpdateInstaller. exe aux bases de données SQL Server en effectuant l’une des opérations suivantes :
+11. Appliquez les modifications apportées par LyncServerUpdateInstaller.exe sur les bases de données SQL Server en effectuant l’une des opérations suivantes :
     
-      - S’il s’agit d’un serveur principal Enterprise Edition et qu’il n’y a pas de bases de données colocalisées sur ce serveur, telles que des bases de données d’archivage ou de surveillance, tapez les informations suivantes dans une ligne de commande :
+      - S’il s’agit d’un serveur principal Enterprise Edition et qu’il n’y a pas de base de données colocalisée sur ce serveur, comme les bases de données d’archivage ou de surveillance, tapez ce qui suit dans la ligne de commande :
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - S’il s’agit d’une base de données serveur principal de la version Enterprise Edition et de bases de données colocalisées sur ce serveur, tapez les informations suivantes à partir de la ligne de commande suivante :
+      - S’il s’agit d’un serveur principal Enterprise Edition et qu’il existe des bases de données colocalisées sur ce serveur, tapez ce qui suit dans la ligne de commande :
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - S’il s’agit d’un serveur Standard Edition Server, tapez les informations suivantes dans une ligne de commande :
+      - S’il s’agit d’un serveur Standard Edition, tapez ce qui suit dans la ligne de commande :
         
             Install-CsDatabase -Update -LocalDatabases
 

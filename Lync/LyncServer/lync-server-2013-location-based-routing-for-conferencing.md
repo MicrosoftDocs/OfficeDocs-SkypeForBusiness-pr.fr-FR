@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : routage en fonction de l’emplacement pour les conférences'
+title: 'Lync Server 2013 : routage géodépendant pour les conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec3268109b522a96e5593f6e0246ee7b36651c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762162"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033383"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Routage basé sur l’emplacement pour les conférences dans Lync Server 2013
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Routage géodépendant pour les conférences dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41762162"
 
 _**Dernière modification de la rubrique :** 2013-07-31_
 
-Le routage basé sur l’emplacement permet de limiter le routage des appels entre les points de terminaison VoIP et les points de terminaison RTC en fonction de l’emplacement des parties de l’appel. Avec la mise à jour cumulative 2 de Lync Server 2013, les règles de routage basées sur les emplacements peuvent être appliquées à des réunions Lync (par exemple, des conférences) pour empêcher le contournement du numéro RTC. L’application surveille une conférence active et applique des restrictions de routage basées sur l’emplacement en fonction de l’emplacement des utilisateurs qui participent. L’application de conférence de routage basée sur l’emplacement permet en outre d’appliquer des restrictions de routage basées sur les emplacements aux transferts de points de terminaison RTC.
+Le routage géodépendant permet de limiter le routage des appels entre les points de terminaison VoIP et les points de terminaison RTC en fonction de l’emplacement des parties dans l’appel. Avec la mise à jour cumulative 2 de Lync Server 2013, les règles de routage géodépendant peuvent être appliquées à des réunions Lync (par exemple, des conférences) pour empêcher le contournement des appels PSTN. L’application surveille une conférence active et applique des restrictions de routage basées sur l’emplacement en fonction de l’emplacement des utilisateurs qui y participent. L’application de conférence de routage basée sur l’emplacement permet également d’appliquer des restrictions de routage géodépendant aux transferts consultatifs impliquant des points de terminaison PSTN.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Vue d’ensemble de l’acheminement en fonction de l’emplacement pour les conférences dans Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Vue d’ensemble du routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [Routage par emplacement et transferts d’appels de consultation dans Lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [Routage basé sur l’emplacement et transferts d’appels consultatifs dans Lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Configuration requise pour le routage sur site pour les conférences dans Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Configuration requise pour le routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [Configuration du routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [Configuration du routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

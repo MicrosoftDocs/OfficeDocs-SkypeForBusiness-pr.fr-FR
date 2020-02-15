@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification du jumelage de pools frontaux'
+title: 'Lync Server 2013 : planification du jumelage de pools frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4daeb3ea88570afaf9fc90c0e252466be67ed192
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725394"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41725394"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Pour les meilleures capacités de reprise après sinistre dans Lync Server 2013, le déploiement de paires de pools front-end sur deux sites à dispersion géographique. Chaque site comporte une réserve frontale associée à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde de Lync Server fournit la réplication des données en temps réel pour que les pools restent synchronisés. Le service de sauvegarde est une nouvelle fonctionnalité de Lync Server 2013 conçue pour prendre en charge la solution de reprise après sinistre. Elle est installée sur un pool frontal lorsque vous jumelez la liste avec un autre pool frontal.
+Pour les meilleures capacités de récupération d’urgence dans Lync Server 2013, déployez des paires de pools frontaux sur deux sites géographiquement dispersés. Chaque site contient un pool frontal couplé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde Lync Server fournit une réplication de données en temps réel pour maintenir les pools synchronisés. Le service de sauvegarde est une nouvelle fonctionnalité de Lync Server 2013, conçue pour prendre en charge la solution de récupération d’urgence. Il est installé sur un pool frontal lorsque vous couplez le pool avec un autre pool frontal.
 
-En cas d’échec du pool dans un site, vous pouvez faire basculer les utilisateurs de ce groupe vers le pool dans l’autre site, qui fournit ensuite les services à tous les utilisateurs des deux groupes. Dans le cadre de la planification de la capacité, chaque pool doit être conçu pour gérer les charges de travail de tous les utilisateurs dans les deux pools en cas de sinistre.
+Si le pool dans un site échoue, vous pouvez basculer les utilisateurs de ce pool vers le pool dans l’autre site, qui fournit alors les services à tous les utilisateurs dans les deux pools. À des fins de planification de capacité, chaque pool doit être conçu pour gérer les charges de travail de tous les utilisateurs dans les deux pools en cas de sinistre.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Options de jumelage de pool prises en charge et meilleures pratiques pour Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [Options de jumelage des pools prises en charge et meilleures pratiques pour Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
-  - [Relations des serveurs d’inscriptions de sauvegarde dans Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
+  - [Relations de serveur d’inscriptions de sauvegarde dans Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
 
-  - [Temps de récupération nécessaire pour basculer et restaurer les pools dans Lync Server 2013](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [Temps de récupération pour le basculement de pool et la restauration automatique dans Lync Server 2013](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
   - [Basculement du magasin central de gestion dans Lync Server 2013](lync-server-2013-central-management-store-failover.md)
 
-  - [Sécurité des données d’appariement de pools frontaux dans Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [Sécurité des données de jumelage des pools frontaux dans Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e0f6aeb7d235ea7691c6878a4f21e6ec98f531e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1523a48b5d9056b1cca532a7edb1c826af841b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729644"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Déploiement de l’apparence des lignes partagées dans Lync Server 2013
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Déployer une apparence de ligne partagée dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41729644"
 
 _**Dernière modification de la rubrique :** 2016-06-13_
 
-Pour plus d’informations sur le déploiement de l’apparence des lignes partagées dans Lync Server 2013, consultez la mise à jour cumulative 2016. Le mode partage de lignes est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
+Consultez cette rubrique pour découvrir comment déployer l’apparence de ligne partagée (SLA) dans Lync Server 2013, mise à jour cumulative avril 2016. Le contrat SLA est une fonctionnalité permettant de gérer plusieurs appels sur un numéro spécifique appelé « numéro partagé ».
 
-Pour plus d’informations sur cette fonctionnalité, voir [planifier l’apparition de lignes partagées dans Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).
+Pour plus d’informations sur cette fonctionnalité, reportez-vous à la rubrique [plan for Shared Line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).
 
-L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Lync Server 2013, mise à jour cumulative 2016. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
+L’apparence de ligne partagée (SLA) est une nouvelle fonctionnalité de Lync Server 2013, mise à jour cumulative avril 2016. Pour activer cette fonctionnalité, vous devez d’abord déployer cette mise à jour cumulative.
 
 <div>
 
-## <a name="install-shared-line-appearance"></a>Installation du mode partage de lignes
+## <a name="install-shared-line-appearance"></a>Installation de l’apparence des lignes partagées
 
-1.  Après le déploiement de Lync Server 2013, la mise à jour cumulative 2016 avril est déployée, l’application SLA n’est pas activée par défaut. Pour activer l’application, procédez comme suit :
+1.  Une fois que Lync Server 2013, mise à jour cumulative avril 2016 est déployé, l’application SLA n’est pas activée par défaut. Pour activer l’application, procédez comme suit :
     
-    1.  Enregistrez le mode partage de lignes comme application serveur en exécutant la commande ci-dessous pour chaque pool :
+    1.  Inscrivez le contrat SLA en tant qu’application serveur en exécutant la commande suivante pour chaque pool :
         ```powershell
         New-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
@@ -57,13 +57,13 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
                         $true -Priority (Get-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/UserServices').Priority 
         ```
-        où %FQDN% est le nom de domaine complet du pool.
+        où% FQDN% est le nom de domaine complet du pool.
     
-    2.  Exécutez la commande ci-dessous pour mettre à jour les rôles RBAC pour les applets de commande du mode partage de lignes :
+    2.  Exécutez la commande suivante pour mettre à jour les rôles RBAC pour les cmdlets SLA :
         ```powershell
         Update-CsAdminRole 
         ```
-    3.  Redémarrez tous les serveurs frontaux (service RTCSERV) dans tous les pools où le mode partage de lignes a été installé et activé :
+    3.  Redémarrez tous les serveurs frontaux (RTCSRV service) dans tous les pools où le contrat SLA a été installé et activé :
         
         ```powershell 
         Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -74,59 +74,59 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
 
 <div>
 
-## <a name="create-an-sla-group-and-add-users-to-it"></a>Créez un groupe de mode partage de lignes et ajoutez-y des utilisateurs.
+## <a name="create-an-sla-group-and-add-users-to-it"></a>Créer un groupe de SLA et y ajouter des utilisateurs
 
-1.  Créez le groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
+1.  Créez le groupe SLA à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
                 -MaxNumberOfCalls <Number> -BusyOption
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    L’applet de commande Set-CsSlaConfiguration marque le compte SLAGroup1 de Voix Entreprise en tant qu’entité de mode partage de lignes, et le numéro de SLAGroup1 devient le numéro du groupe de mode partage de lignes. Tous les appels vers SLAGroup1 sonneront chez l’ensemble du groupe de mode partage de lignes.
+    La cmdlet Set-CsSlaConfiguration marque le compte voix entreprise SLAGroup1 comme entité SLA et le nombre d’SLAGroup1 devient le numéro du groupe SLA. Tous les appels vers SLAGroup1 sonneront dans l’ensemble du groupe SLA.
     
-    L’exemple ci-dessous crée un groupe de mode partage de lignes pour un utilisateur Voix Entreprise existant, SLAGroup1, et utilise le numéro attribué pour SLAGroup1 comme numéro de ligne principale du mode partage de lignes.
+    L’exemple suivant crée un groupe de SLA pour un utilisateur voix entreprise existant, SLAGroup1, et utilise le numéro attribué à SLAGroup1 comme numéro de la forme de service SLA.
     
-    La commande définit le nombre maximal d’appels simultanés pour le nouveau groupe de mode partage de lignes sur 3. Les appels qui dépassent cette limitent entendront une tonalité Occupé :
+    La commande définit le nombre maximal d’appels simultanés pour le nouveau groupe de SLA sur 3, et pour les appels au-delà de celui pour écouter un signal occupé :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    Vous pouvez utiliser Set-CsSlaConfiguration pour créer un groupe de mode partage de lignes ou modifier un groupe existant.
+    Vous pouvez utiliser SET-CsSlaConfiguration pour créer un nouveau groupe de SLA ou en modifier un existant.
     
     <div>
     
 
     > [!NOTE]  
-    > Notez que ce que vous spécifiez pour doit être un compte d’utilisateur valide pour <CODE>-Identity</CODE> la voix entreprise valide.
+    > Notez que ce que vous spécifiez pour doit être un compte d’utilisateur activé pour <CODE>-Identity</CODE> voix entreprise existant valide.
 
     
     </div>
 
-2.  Ajoutez des délégués au groupe à l’aide de l’applet de commande [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) :
+2.  Ajoutez des délégués au groupe à l’aide de la cmdlet [Add-applet cssladelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) :
     ```powershell
     Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    L’exemple ci-dessous permet d’ajouter un utilisateur au groupe de mode partage de lignes. Chaque utilisateur ajouté au groupe doit être un utilisateur valide d’entreprise Voice :
+    L’exemple suivant ajoute un utilisateur au groupe SLA. Chaque utilisateur ajouté au groupe doit être un utilisateur compatible voix entreprise valide :
     ```powershell
     Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate1@contoso.com
     ```
-    Répétez l’applet de commande pour chaque utilisateur que vous voulez ajouter au groupe. Les utilisateurs peuvent seulement appartenir à un seul groupe de mode de partage de lignes.
+    Répétez l’applet de commande pour chaque utilisateur que vous souhaitez ajouter au groupe. Les utilisateurs ne peuvent appartenir qu’à un seul groupe SLA.
 
 </div>
 
 <div>
 
-## <a name="configure-the-sla-group-busy-option"></a>Configuration de l’option Occupé du groupe de mode partage de lignes
+## <a name="configure-the-sla-group-busy-option"></a>Configurer l’option de disponibilité du groupe SLA
 
-1.  Configurez l’option Occupé du groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
+1.  Configurez l’option de disponibilité du groupe SLA à l’aide de la cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés à transférer vers le numéro de téléphone 202-555-1234. La cible peut être un utilisateur au sein de votre organisation plutôt qu’un numéro de téléphone. dans ce cas, la syntaxe de la personne qui reçoit les appels transférés est la même que lorsque vous spécifiez un délégué `sip:<NameofDelegate@domain>`:. Le autre paramètre possible pour `BusyOption` est `Voicemail`le suivant :
+    L’exemple suivant définit les appels qui dépassent le nombre maximal d’appels simultanés à transmettre au numéro de téléphone 202-555-1234. La cible peut être un utilisateur de votre organisation au lieu d’un numéro de téléphone ; dans ce cas, la syntaxe de la personne qui reçoit les appels transférés est la même que lorsque vous spécifiez un délégué `sip:<NameofDelegate@domain>`:. L’autre paramètre possible pour `BusyOption` est `Voicemail`le suivant :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -135,15 +135,15 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
 
 <div>
 
-## <a name="configure-the-sla-group-missed-call-option"></a>Configuration de l’option Appel manqué du groupe de mode partage de lignes
+## <a name="configure-the-sla-group-missed-call-option"></a>Configurer l’option d’appel manqué du groupe SLA
 
-1.  Configurez l’option Appel manqué du groupe de mode partage de lignes à l’aide de l’applet de commande [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
+1.  Configurez l’option d’appel manqué du groupe SLA à l’aide de la cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) :
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    L’exemple suivant spécifie que les appels manqués doivent être renvoyés à `sla_forward_number`l’utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget` le paramètre, avec un utilisateur ou un numéro de téléphone comme destination :
+    L’exemple suivant spécifie que les appels manqués doivent être transférés à l' `sla_forward_number`utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget` le paramètre, avec un utilisateur ou un numéro de téléphone comme cible :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -153,9 +153,9 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
 
 <div>
 
-## <a name="remove-a-delegate-from-a-group"></a>Suppression d’un délégué d’un groupe
+## <a name="remove-a-delegate-from-a-group"></a>Supprimer un délégué d’un groupe
 
-1.  Supprimez un délégué d’un groupe à l’aide de l’applet de commande [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) :
+1.  Supprimer un délégué d’un groupe à l’aide de l’applet de commande [Remove-applet cssladelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) :
     ```powershell
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
@@ -169,9 +169,9 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
 
 <div>
 
-## <a name="delete-an-sla-group"></a>Suppression d’un groupe de mode partage de lignes
+## <a name="delete-an-sla-group"></a>Supprimer un groupe SLA
 
-1.  Supprimez un groupe de mode partage de lignes à l’aide de l’applet de commande [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
+1.  Supprimez un groupe de SLA à l’aide de l’applet de commande [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
     
     ```powershell
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

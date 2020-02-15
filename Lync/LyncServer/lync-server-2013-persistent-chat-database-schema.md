@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Schéma de base de données de conversation permanente'
+title: 'Lync Server 2013 : schéma de la base de données de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Schéma de base de données de conversation permanente dans Lync Server 2013
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Schéma de la base de données de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41755234"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-Ce document décrit le schéma de la base de données de chat persistante dans le logiciel de communication de Lync Server 2013.
+Cela décrit le schéma de la base de données de conversation permanente dans le logiciel de communication Lync Server 2013.
 
-La base de données de chat permanent fait référence à la base de données qui correspond à l' **PersistentChatStore** de rôles de serveur principal Lync Server 2013 (qui correspond à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond à la base de données mgccomp). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
+La base de données de conversation permanente fait référence à la base de données correspondant aux rôles de serveur principal **PersistentChatStore** de Lync Server 2013 (correspondant à la base de données MGC) et **PersistentChatComplianceStore** (correspondant à la base de données mgccomp). Le but de la publication de ce schéma est de vous permettre de créer des requêtes et d’obtenir des informations sur la création de rapports pertinents en matière de conversation instantanée, de salles actives, de contributeurs les plus productifs, etc.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Nous nous réservons le droit d’évolutionr ce schéma. Microsoft n’apporte aucune garantie de conservation de la compatibilité descendante avec ce schéma publié.
+> Nous nous réservons le droit de faire évoluer ce schéma. Microsoft ne donne aucune garantie en matière de conservation de la rétrocompatibilité avec le schéma publié.
 
 
 
 </div>
 
-Suivez ces meilleures pratiques :
+Respectez les meilleures pratiques suivantes :
 
-  - Aucune sélection\* //est prise en charge, car la liste de colonnes peut grandir.
+  - Non SELECT\* //est pris en charge, car la liste de colonnes peut croître.
 
   - Aucune modification de schéma générée par l’utilisateur n’est prise en charge.
 
   - Aucune opération d’écriture n’est prise en charge.
 
-  - Testez toutes les requêtes que vous créez sur des bases de données de taille représentative pour vous assurer que les requêtes peuvent être effectuées à un niveau en fonction de vos besoins.
+  - Testez les requêtes que vous créez sur des bases de données représentatives en matière de taille afin d’avoir la garantie que ces requêtes peuvent répondre à vos besoins.
 
 <div>
 
@@ -67,9 +67,9 @@ Suivez ces meilleures pratiques :
 
   - [Liste des tables de serveur de conversation permanente dans Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
-  - [Liste des tables de conformité avec le serveur de conversation permanente dans Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
+  - [Liste des tables de conformité du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
 
-  - [Détails de la table des serveurs de conversation permanente dans Lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
+  - [Détails de la table du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
 
   - [Exemples de requêtes de base de données de conversation permanente pour Lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
 

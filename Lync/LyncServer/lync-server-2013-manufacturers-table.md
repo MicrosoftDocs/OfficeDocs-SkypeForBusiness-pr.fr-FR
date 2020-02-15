@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Manufacturers'
+title: 'Lync Server 2013 : table Manufacturers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8123d516e41d2d6a25d4cfca2234110bff129782
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80ff164c294e2f9133f249ab9bfc3b737f7e5e3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723984"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41723984"
 
 _**Dernière modification de la rubrique :** 2010-11-07_
 
-La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke les informations relatives à un fabricant de périphériques (téléphone de bureau).
+La table Manufacturers est une table de prise en charge. Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).
 
 
 <table>
@@ -51,7 +51,7 @@ La table Manufacturers est une table de prise en charge. Chaque enregistrement s
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,12 +59,12 @@ La table Manufacturers est une table de prise en charge. Chaque enregistrement s
 <tr class="odd">
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Numéro unique identifiant ce fabricant.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Fabricant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Constructeur</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Nom du fabricant.</p></td>
 </tr>

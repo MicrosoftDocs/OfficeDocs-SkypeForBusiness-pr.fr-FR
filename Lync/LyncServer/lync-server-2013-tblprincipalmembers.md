@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblPrincipalMembers'
+title: 'Lync Server 2013 : tblPrincipalMembers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa002b4b1f81cf2ebd607a99f0f00360e01e9292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c81e9ae5b2a712e3d6bb43fc35bd8083334efc1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731214"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblPrincipalMembers contient des appartenances principales.
+tblPrincipalMembers contient des appartenances aux principaux.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblPrincipalMembers contient des appartenances principales.
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID du principal.</p></td>
+<td><p>int, non null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
-<td><p>nvarchar (384), pas null</p></td>
-<td><p>Nom unique d’un membre. Un membre ne doit pas nécessairement être principal (dans la table tblPrincipal).</p></td>
+<td><p>nvarchar (384), non null</p></td>
+<td><p>Nom unique d’un membre. Un membre ne doit pas nécessairement être un principal (dans la table tblPrincipal).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Permettent
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>

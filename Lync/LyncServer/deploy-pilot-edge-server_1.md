@@ -1,5 +1,5 @@
 ---
-title: Déploiement d’un serveur Edge pilote
+title: Déploiement du serveur Edge pilote
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 686973f9334b9bf376a2e56c52f3306cf243c0eb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69d6d83751dd4e8b28a460f154b35416d80e0bb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724024"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
+# <a name="deploy-pilot-edge-server"></a>Déploiement du serveur Edge pilote
 
 </div>
 
@@ -37,45 +37,45 @@ ms.locfileid: "41724024"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Cette rubrique présente les paramètres de configuration que vous devez prendre en compte avant de déployer votre serveur Edge Lync Server 2013. Cette section présente uniquement les points clés à prendre en compte dans le cadre de votre déploiement de pool de périphériques pilote. Pour obtenir la procédure détaillée, consultez la rubrique déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
+Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Lync Server 2013. Cette section met en évidence les points clés que vous devez prendre en compte dans le cadre de votre déploiement pilote de pool Edge. Pour obtenir la procédure détaillée, voir [Deploying External User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
 
-À mesure que vous parcourez l’Assistant **définir un nouveau pool de bords** , passez en revue les paramètres de configuration clés indiqués dans les étapes suivantes. Notez que seules quelques pages de l’Assistant **définir un nouveau pool de bords** sont affichées.
+À mesure que vous parcourez l’Assistant **Définir un nouveau pool Edge**, examinez les principaux paramètres de configuration mentionnés aux étapes suivantes. Notez que seules quelques pages de l’Assistant **Définir un nouveau pool Edge** sont illustrées.
 
-**Définir un pool de bords**
+**Pour définir un pool Edge**
 
-1.  Ouvrez la topologie de pool pilote à l’aide du générateur de topologie.
+1.  Ouvrez la topologie du pool pilote à l’aide du générateur de topologie.
 
-2.  Accédez au nœud Lync Server 2013. Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle liste de bord**.
+2.  Accédez au nœud Lync Server 2013. Cliquez avec le bouton droit sur **Pools Edge**, puis cliquez sur **Nouveau pool de serveurs Edge**.
     
-    ![Boîte de dialogue définir la nouvelle réserve de bords](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Boîte de dialogue définir la nouvelle réserve de bords")
+    ![Boîte de dialogue définir le nouveau pool Edge](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Boîte de dialogue définir le nouveau pool Edge")
 
-3.  Un pool Edge peut être un pool d' **ordinateurs** ou un **pool d’ordinateurs unique**.
+3.  Un pool Edge peut être un **pool de plusieurs ordinateurs** ou un **pool d’un seul ordinateur**.
     
-    ![Définir la boîte de dialogue nom de domaine complet du pool de bords](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Définir la boîte de dialogue nom de domaine complet du pool de bords")
+    ![Boîte de dialogue définir le nom de domaine complet du pool Edge](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Boîte de dialogue définir le nom de domaine complet du pool Edge")
 
-4.  Dans la page **Sélectionner des fonctionnalités** , n’activez pas la Fédération de Fédération ou XMPP. La Fédération des fédérations et XMPP est actuellement routée via le serveur Edge Office Communications Server 2007 R2 hérité. Ces fonctionnalités seront configurées lors de la phase de migration ultérieure.
+4.  Dans la page **Sélectionner les fonctionnalités**, n’activez pas la fédération ni la fédération XMPP. Fédération et la Fédération XMPP sont actuellement routées via le serveur Edge Office Communications Server 2007 R2 hérité. Ces fonctionnalités seront configurées lors d’une phase ultérieure de la migration.
     
     ![Boîte de dialogue Sélectionner les fonctionnalités](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Boîte de dialogue Sélectionner les fonctionnalités")
 
-5.  Continuez à compléter les pages suivantes de l’Assistant : **sélectionnez Options IP**, noms de **domaine complets externes**, **définir l’adresse IP interne**et **définir l’adresse IP externe**.
+5.  Ensuite, continuez à remplir les pages suivantes de l’Assistant : **Sélectionner les options IP**, noms de **domaine complets externes**, **définir l’adresse IP interne**et **définir l’adresse IP externe**.
 
-6.  Sur la page **définir le tronçon suivant** , sélectionnez le directeur pour le tronçon suivant du pool de périphériques Lync Server 2013.
+6.  Sur la page **définir le tronçon suivant** , sélectionnez le directeur pour le tronçon suivant du pool de serveurs Edge Lync Server 2013.
     
-    ![Boîte de dialogue définir un nouveau pool de bords, liste de pools de tronçons suivants](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Boîte de dialogue définir un nouveau pool de bords, liste de pools de tronçons suivants")
+    ![Boîte de dialogue définir un nouveau pool de serveurs Edge, liste Pool du tronçon suivant](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Boîte de dialogue définir un nouveau pool de serveurs Edge, liste Pool du tronçon suivant")
 
-7.  Dans la page **Associate front end pools** , n’associez pas un pool à ce pool d’arêtes pour le moment. Le trafic de médias externes est actuellement acheminé via le serveur Edge Office Communications Server 2007 R2. Ce paramètre sera configuré lors de la phase de migration ultérieure.
+7.  Dans la page **Pools frontaux associés** , n’associez pas un pool à ce pool Edge pour le moment. Le trafic multimédia externe est actuellement routé via le serveur Edge Office Communications Server 2007 R2 hérité. Ce paramètre sera configuré lors d’une phase ultérieure de la migration.
     
-    ![Boîte de dialogue définir un nouveau pool de bords](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Boîte de dialogue définir un nouveau pool de bords")
+    ![Boîte de dialogue définir un nouveau pool de serveurs Edge](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Boîte de dialogue définir un nouveau pool de serveurs Edge")
 
-8.  Cliquez sur **Terminer** , puis **publiez** la topologie.
+8.  Cliquez sur **Terminer**, puis sur **Publier** pour publier la topologie.
 
-9.  Suivez les étapes décrites dans l' [article installer des serveurs Edge pour Lync Server 2013](lync-server-2013-install-edge-servers.md) dans la documentation de déploiement pour installer les fichiers sur le nouveau serveur Edge, configurer des certificats et démarrer les services.
+9.  Suivez les étapes décrites dans [install Edge Servers for Lync Server 2013](lync-server-2013-install-edge-servers.md) dans la documentation de déploiement pour installer les fichiers sur le nouveau serveur Edge, configurer les certificats et démarrer les services.
 
-Il est très important de suivre les recommandations contenues dans les rubriques déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement. Cette section fournit uniquement des recommandations en matière de paramètres de configuration lors de l’installation de ces rôles de serveur.
+Il est très important de suivre les instructions des rubriques déploiement de l' [accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement. Cette section ne fait que fournir des recommandations concernant les paramètres de configuration lors de l’installation de ces rôles de serveur.
 
-Pour le moment, vous devez disposer d’un déploiement d’Office Communications Server 2007 R2 d’ancienne génération, indiqué par la présence de BackCompatSite, parallèlement à un déploiement Lync Server 2013 Edge Server. La Fédération est configurée pour utiliser le directeur Office Communications Server 2007 R2. Vérifiez que les deux déploiements s’exécutent correctement, que les services sont démarrés et que vous pouvez gérer chaque déploiement avant de passer à la phase suivante.
+Vous devez maintenant disposer d’un déploiement de serveur Edge Office Communications Server 2007 R2 hérité, indiqué par la présence du BackCompatSite, en parallèle à un déploiement de serveur Edge Lync Server 2013. La Fédération est configurée pour utiliser le directeur Office Communications Server 2007 R2. Vérifiez que les deux déploiements fonctionnent correctement, que les services ont démarré et que vous pouvez administrer chaque déploiement avant de passer à la phase suivante.
 
-![Générateur de topologie montrant un serveur Edge OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Générateur de topologie montrant un serveur Edge OCS")
+![Générateur de topologies affichant le serveur Edge OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Générateur de topologies affichant le serveur Edge OCS")
 
 </div>
 

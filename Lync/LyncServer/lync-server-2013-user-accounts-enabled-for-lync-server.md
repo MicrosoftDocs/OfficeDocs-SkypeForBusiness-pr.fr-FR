@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : comptes d’utilisateurs activés pour Lync Server'
+title: 'Lync Server 2013 : comptes d’utilisateur activés pour Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d51f72f586ab6d5b5094c61ae09d8ac316350b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744654"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41744654"
 
 _**Dernière modification de la rubrique :** 2014-04-18_
 
-Les rubriques de cette section fournissent des procédures pas à pas permettant de configurer les paramètres utilisateur que vous pouvez effectuer à l’aide du panneau de configuration de Lync Server 2013.
+Les rubriques de cette section comportent des procédures détaillées pour la configuration des paramètres utilisateur que vous pouvez effectuer à l’aide du panneau de configuration Lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous ne pouvez pas utiliser le panneau de configuration de Lync Server pour gérer les utilisateurs membres du groupe administrateurs de domaine Active Directory. Pour les utilisateurs de Domain Admins, vous pouvez utiliser le panneau de configuration de Lync Server uniquement pour effectuer des opérations de recherche en lecture seule. Pour effectuer des opérations d’écriture sur des utilisateurs de Domain Admins (par exemple, activer ou désactiver pour le panneau de configuration de Lync Server, modifier les affectations de la liste ou des stratégies, paramètres de téléphonie, adresse SIP), vous devez utiliser les applets de commande Windows PowerShell lorsque vous êtes connecté en tant qu’utilisateur administrateurs de domaine. Pour plus d’informations sur l’utilisation des cmdlets Windows PowerShell pour gérer les utilisateurs, voir <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.
+> Vous ne pouvez pas utiliser le panneau de configuration Lync Server pour gérer les utilisateurs membres du groupe administrateurs du domaine Active Directory. Pour les utilisateurs administrateurs du domaine, vous pouvez utiliser le panneau de configuration Lync Server uniquement pour effectuer des opérations de recherche en lecture seule. Pour effectuer des opérations d’écriture sur les utilisateurs des administrateurs du domaine (par exemple, activer ou désactiver le panneau de configuration de Lync Server, modifier les attributions de stratégie ou de pool, les paramètres de téléphonie, l’adresse SIP), vous devez utiliser les applets de commande Windows PowerShell lorsque vous êtes connecté en tant qu’utilisateur administrateurs du domaine. Pour plus d’informations sur l’utilisation des applets de commande Windows PowerShell pour gérer les utilisateurs, voir <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.
 
 
 
 </div>
 
-Lors de l’exécution d’une tâche administrative Lync Server 2013 qui implique de rechercher un utilisateur ou de filtrer les résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory (AD FS), mais qui ne sont pas répliquées dans le catalogue global. tant que Microsoft Exchange Server n’est pas déployé. Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de son installation :
+Lorsque vous effectuez une tâche administrative Lync Server 2013 qui implique la recherche d’un utilisateur ou le filtrage des résultats de la recherche utilisateur, il existe des propriétés utilisateur qui existent en tant qu’attributs dans les services de domaine Active Directory, mais qui ne sont pas répliquées dans le catalogue global. tant que Microsoft Exchange Server n’est pas déployé. Microsoft Exchange, et non Lync Server, marque les attributs suivants pour la réplication dans le catalogue global lors de l’installation :
 
 
 <table>
@@ -61,22 +61,22 @@ Lors de l’exécution d’une tâche administrative Lync Server 2013 qui impliq
 <thead>
 <tr class="header">
 <th>Informations utilisateur</th>
-<th>Adresse et téléphone</th>
+<th>Adresse et numéro de téléphone</th>
 <th>Organisation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Initiales</p></td>
-<td><p>Adresse postale</p>
+<td><p>Rue</p>
 <p>Pays/région</p>
-<p>Radiomessagerie</p>
-<p>DelrinaFax</p>
+<p>Alphanumérique</p>
+<p>Télécopie</p>
 <p>Mobile</p></td>
 <td><p>Titre</p>
-<p>Elle</p>
+<p>Company</p>
 <p>Service</p>
-<p>Office</p></td>
+<p>Bureau</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +86,7 @@ Lors de l’exécution d’une tâche administrative Lync Server 2013 qui impliq
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Affichage d’informations sur les comptes d’utilisateurs activés pour Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+  - [Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
   - [Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
@@ -94,9 +94,9 @@ Lors de l’exécution d’une tâche administrative Lync Server 2013 qui impliq
 
   - [Modification des propriétés d’un compte d’utilisateur dans Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)
 
-  - [Gestion de la stratégie d’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [Gérer la stratégie d’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+  - [Affectation de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 
@@ -105,7 +105,7 @@ Lors de l’exécution d’une tâche administrative Lync Server 2013 qui impliq
 ## <a name="see-also"></a>Voir aussi
 
 
-[Cmdlets de gestion des utilisateurs dans Lync Server 2013](lync-server-2013-user-management-cmdlets.md)  
+[Applets de commande de gestion des utilisateurs dans Lync Server 2013](lync-server-2013-user-management-cmdlets.md)  
 
 
 [Gestion des utilisateurs dans Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  

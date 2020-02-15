@@ -1,5 +1,5 @@
 ---
-title: Prise en charge des connexions SIP directes dans Lync Server 2013
+title: Prise en charge des connexions SIP directes pour Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762262"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41762262"
 
 _**Dernière modification de la rubrique :** 2012-06-29_
 
-Lync Server 2013 prend en charge l’utilisation des connexions SIP directes pour connecter Lync Server 2013 à l’un des éléments suivants :
+Lync Server 2013 prend en charge l’utilisation de connexions SIP directes pour connecter Lync Server 2013 à l’un des éléments suivants :
 
-  - Un PBX IP
+  - Un PBX IP
 
-  - Passerelle RTC
+  - Une passerelle PSTN
 
-Les serveurs de médiation dans un pool Lync Server 2013 peuvent contrôler plusieurs passerelles, contrôleurs de frontière de session (SBCs) fournis par des fournisseurs de services de téléphonie ou une combinaison de ces derniers. Par ailleurs, plusieurs serveurs de médiation du pool peuvent interagir avec une seule passerelle.
+Les serveurs de médiation d’un pool Lync Server 2013 peuvent contrôler plusieurs passerelles, des contrôleurs de frontière de session (SBC) fournis par des fournisseurs de service de téléphonie ou une combinaison de ces derniers. En outre, plusieurs serveurs de médiation d’un pool peuvent interagir avec une seule passerelle.
 
-Vous pouvez utiliser le programme Microsoft Unified Communications Open Interoperability pour l’infrastructure de téléphonie de l’entreprise pour rechercher des passerelles RTC, des PBX IP et des services d’agrégation SIP qualifiés. Pour plus d’informations, reportez-vous au site Web Microsoft [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Unified Communications Open Interoperability du programme à l’adresse.
+Vous pouvez utiliser Microsoft Unified Communications Open Interoperability Program pour permettre à l’infrastructure de téléphonie d’entreprise de rechercher des passerelles PSTN, des systèmes PBX IP et des services de jonction SIP qualifiés. Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Interoperability Program à l’adresse.
 
 Pour plus d’informations sur les options de topologie et de déploiement pour les connexions SIP directes, voir [connexions SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-connections.md) dans la documentation de planification.
 

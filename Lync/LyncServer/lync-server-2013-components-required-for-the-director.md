@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants requis pour le directeur'
+title: 'Lync Server 2013 : composants requis pour le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4409632afc61aea4606864e7dd230ad4d295935
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757088"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,33 +37,33 @@ ms.locfileid: "41757088"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Le seul composant requis pour créer et configurer un directeur consiste à déployer le rôle serveur directeur. Pour cela, vous devez utiliser le générateur de topologie et définir un pool d’ordinateurs unique ou un pool d’ordinateurs dans le nœud du pool de réalisateurs. Après avoir défini le directeur ou le pool de réalisateurs, exécutez l’Assistant Déploiement de Lync Server sur l’ordinateur qui sera directeur. Dans le cas d’un pool de directeurs, vous exécutez l’Assistant Déploiement de Lync Server sur chaque serveur qui sera membre du pool.
+Le seul composant requis pour créer et configurer un directeur est de déployer le rôle serveur directeur. Pour ce faire, utilisez le générateur de topologie et définissez un seul pool d’ordinateurs ou un pool de plusieurs ordinateurs dans le nœud du pool directeur. Une fois que vous avez défini le directeur ou le pool Directeur, exécutez l’Assistant Déploiement de Lync Server sur l’ordinateur qui sera directeur. Dans le cas d’un pool Directeur, exécutez l’Assistant Déploiement Lync Server sur chaque serveur qui sera membre du pool.
 
 <div>
 
 ## <a name="topologies"></a>Topologies
 
-Vous pouvez implémenter un serveur Director ou un pool de réalisateurs. Le directeur est toujours un serveur ou un pool distinct, sans colocalisé avec un autre rôle de serveur dans Lync Server 2013.
+Vous pouvez implémenter un serveur directeur ou un pool directeur. Le directeur est toujours un serveur ou pool distinct, non colocalisé avec un autre rôle serveur dans Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Si vous ne déployez pas les directeurs, le serveur frontal ou le pool frontal doit supposer le rôle de directeur.
+> Si vous ne déployez pas les directeurs, le serveur frontal ou le pool frontal assumera le rôle de directeur.
 
 
 
 </div>
 
-Un pool de directeurs doit être équilibré. Vous pouvez effectuer l’une des opérations suivantes :
+Un pool de directeurs doit être équilibré en charge. Vous pouvez effectuer l’une des opérations suivantes :
 
-  - Créer une topologie qui utilise un équilibreur de charge matérielle pour les services Web et l’équilibrage de charge DNS (Domain Name System) pour les autres types de trafic.
+  - Créez une topologie qui utilise un équilibreur de la charge matérielle pour les services web et un équilibrage de la charge DNS (Domain Name System) pour les autres types de trafic.
     
-    [Pool directeur mis à l’échelle - Équilibrage de charge DNS et équilibreur de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+    [Pool directeur mis à l’ampleur-équilibrage de charge DNS et équilibreur de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - Créez une topologie qui utilise un équilibreur de charge matérielle pour l’équilibrage de charge requis pour le pool de directeurs.
+  - Créez une topologie qui utilise un équilibreur de charge matérielle pour l’équilibrage de charge nécessaire pour le pool directeur.
     
-    [Pool directeur mis à l’échelle - Équilibreur de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+    [Pool directeur mis à l’ampleur-équilibreur de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

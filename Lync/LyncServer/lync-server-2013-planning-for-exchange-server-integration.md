@@ -12,16 +12,16 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631e80d9de61e2304cd8ec65bb144aa3e0e3e7fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41725424"
 
 _**Dernière modification de la rubrique :** 2012-09-20_
 
-Lorsque vous déployez Exchange et Lync Server au sein de votre organisation, de nombreuses fonctionnalités sont améliorées dans les deux produits. Cette section contient des informations sur ces fonctionnalités.
+Lorsque vous déployez Exchange et Lync Server dans votre organisation, de nombreuses fonctionnalités des deux produits sont améliorées. Cette section contient des informations sur ces fonctionnalités.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Intégration de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [Intégration de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
   - [Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 

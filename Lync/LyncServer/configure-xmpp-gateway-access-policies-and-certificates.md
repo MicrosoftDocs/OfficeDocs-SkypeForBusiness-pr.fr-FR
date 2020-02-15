@@ -1,5 +1,5 @@
 ---
-title: Configuration des certificats et des stratégies d’accès de passerelle XMPP
+title: Configuration des certificats et des stratégies d’accès à la passerelle XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1aab41b1a9af8c7b8df888dcb3a0c8621fa44e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e785b3f3df2e37bc7cdaaaccdb2e027652a0da36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configuration des certificats et des stratégies d’accès de passerelle XMPP
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configuration des certificats et des stratégies d’accès à la passerelle XMPP
 
 </div>
 
@@ -38,19 +38,19 @@ ms.locfileid: "41723234"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-La Fédération XMPP définit un déploiement externe en fonction du protocole XMPP (eXtensible Messaging and Presence Protocol). Une configuration XMPP permet aux utilisateurs de Lync d’accéder aux utilisateurs de domaine XMPP en procédant comme suit :
+La fédération XMPP définit un déploiement externe basé sur le protocole XMPP (eXtensible Messaging and Presence Protocol). Une configuration XMPP permet aux utilisateurs de Lync d’accéder aux utilisateurs de domaine XMPP via :
 
-  - Messagerie instantanée et présence-personne à personne uniquement
+  - la messagerie instantanée et la présence (personne à personne uniquement) ;
 
-  - Créer des contacts fédérés de XMPP dans le client Lync
+  - la création de contacts fédérés XMPP dans le client Lync.
 
-Lorsque vous configurez des stratégies pour la prise en charge des partenaires fédérés du protocole de messagerie extensible et de présence, les stratégies s’appliquent aux utilisateurs des domaines fédérés de XMPP, mais pas aux utilisateurs de services de messagerie instantanée SIP (Session Initiation Protocol). (par exemple, Windows Live) ou domaines fédérés SIP. Vous configurez un partenaire fédéré de XMPP pour chaque domaine fédéré XMPP que vous voulez autoriser vos utilisateurs à ajouter des contacts et à communiquer avec eux. Une fois les stratégies en place, vous devez configurer les certificats de passerelle XMPP.
+Lorsque vous configurez des stratégies pour la prise en charge des partenaires fédérés XMPP (eXtensible Messaging and Presence Protocol), celles-ci s’appliquent aux utilisateurs de domaines fédérés XMPP, mais pas aux utilisateurs de fournisseurs de services de messagerie instantanée SIP (Session Initiation Protocol) (par exemple, Windows Live), ou aux domaines fédérés SIP. Vous configurez un partenaire fédéré XMPP pour chaque domaine fédéré XMPP souhaité pour permettre aux utilisateurs d’ajouter des contacts et de communiquer avec. Une fois les stratégies en place, vous devez configurer les certificats de passerelle XMPP.
 
 <div>
 
 
 > [!NOTE]  
-> Pour lancer la migration de la passerelle XMPP, vous devez déployer la passerelle de Lync Server 2013 XMPP et configurer des stratégies d’accès pour permettre aux utilisateurs de Lync Server 2013 la passerelle XMPP. Pour pouvoir effectuer cette procédure, tous les utilisateurs doivent être déplacés vers le déploiement Lync Server 2013. Pour plus d’informations, consultez <A href="configure-xmpp-gateway-on-lync-server-2013.md">configurer la passerelle XMPP sur Lync Server 2013</A>.
+> Pour commencer la migration de la passerelle XMPP, vous devez déployer la passerelle XMPP Lync Server 2013 et configurer des stratégies d’accès pour activer les utilisateurs pour la passerelle XMPP Lync Server 2013. Tous les utilisateurs doivent être déplacés vers le déploiement Lync Server 2013 avant d’effectuer ces étapes. Pour plus d’informations, reportez-vous à la rubrique <A href="configure-xmpp-gateway-on-lync-server-2013.md">configurer la passerelle XMPP sur Lync Server 2013</A>.
 
 
 
@@ -58,23 +58,23 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>Configurer une stratégie d’accès externe pour permettre aux utilisateurs de Lync Server 2013-passerelle XMPP
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>Pour configurer une stratégie d’accès externe et activer les utilisateurs pour la passerelle XMPP Lync Server 2013
 
-1.  Ouvrez le Paneau de configuration Lync Server.
+1.  Ouvrez le Panneau de configuration Lync Server.
 
-2.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **stratégie d’accès externe**.
+2.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Stratégie d’accès externe**.
 
-3.  Cliquez sur **nouveau** , puis sur stratégie de l' **utilisateur**.
+3.  Cliquez sur **Nouvelle**, puis sur **Stratégie utilisateur**.
 
-4.  Entrez le nom de la stratégie de l’utilisateur pour l’accès externe.
+4.  Entrez un nom pour la stratégie utilisateur d’accès externe.
 
-5.  Entrez une description pour la stratégie utilisateur d’accès externe.
+5.  Fournissez une description pour la stratégie utilisateur d’accès externe.
 
-6.  Sélectionnez **activer les communications avec les utilisateurs fédérés**.
+6.  Sélectionnez **Activer les communications avec les utilisateurs fédérés**.
 
-7.  Sélectionnez **activer les communications avec les utilisateurs fédérés de XMPP**.
+7.  Sélectionnez **Activer les communications avec les utilisateurs fédérés XMPP**.
 
-8.  Cliquez sur **valider** pour enregistrer les modifications apportées à la stratégie de site ou d’utilisateur.
+8.  Cliquez sur **Valider** pour enregistrer les modifications apportées à la stratégie de site ou utilisateur.
 
 </div>
 

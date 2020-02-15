@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tester les notifications Exchange vers Lync'
+title: 'Lync Server 2013 : test des notifications Exchange vers Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37f163d5a43dce9672535ec3d78f360bcec8d926
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5e6010d7884bca7ec82d4992b83e22cce315b1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745808"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsExStorageNotification</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsExStorageNotification</strong> . Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Dernière modification de la rubrique :** 2014-11-01_
 
 ## <a name="description"></a>Description
 
-L’applet de **contrôle test-CsExStorageNotification** est utilisée pour vérifier que le service de notification Microsoft Exchange Server 2013 peut informer Lync Server 2013 chaque fois que des mises à jour sont apportées à la liste de contacts d’un utilisateur. Cette applet de cmdlet n’est valide que si vous utilisez le magasin de contacts unifié.
+La cmdlet **test-CsExStorageNotification** est utilisée pour vérifier que le service de notification de Microsoft Exchange Server 2013 peut avertir Lync Server 2013 toutes les mises à jour apportées à la liste des contacts d’un utilisateur. Cette applet de commande est valide uniquement si vous utilisez le magasin de contacts unifié.
 
 </div>
 
@@ -74,7 +74,7 @@ L’applet de **contrôle test-CsExStorageNotification** est utilisée pour vér
 
 ## <a name="running-the-test"></a>Exécution du test
 
-La commande décrite dans l’exemple 1 vérifie si le service de stockage Lync Server peut se connecter au service de notification de boîte aux lettres Microsoft Exchange Server pour l’utilisateur sip :kenmyer@litwareinc.com. Dans cet exemple, NetNamedPipe est utilisé en tant que liaison WCF.
+La commande illustrée dans l’exemple 1 vérifie si le service de stockage Lync Server peut se connecter au service de notification de boîte aux lettres Microsoft Exchange Server pour l’utilisateur sip :kenmyer@litwareinc.com. Dans cet exemple, NetNamedPipe est utilisé comme liaison WCF.
 
     Test-CsExStorageNotification -SipUri "sip:kenmyer@litwareinc.com" -Binding "NetNamedPipe"
 
@@ -82,23 +82,23 @@ La commande décrite dans l’exemple 1 vérifie si le service de stockage Lync 
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si l’intégration Exchange est correctement configurée, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:
+Si l’intégration d’Exchange est correctement configurée, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success**:
 
-Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
+Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:00
 
 Message d’erreur :
 
-Diagnostic
+Diagnostique
 
-Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
+Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché sous la forme échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
+Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
 Résultat : échec
 
@@ -106,33 +106,33 @@ Latence : 00:00:00
 
 Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée
 
-ne répond pas correctement après un certain temps, ou
+ne répond pas correctement au bout d’un certain temps, ou
 
-échec de la connexion établie, car l’hôte connecté a
+échec de la connexion établie car l’hôte connecté a
 
-échec de la réponse à 10.188.116.96:5061
+échec de la réponse de 10.188.116.96:5061
 
-Exception interne : une tentative de connexion a échoué, car le
+Exception interne : une tentative de connexion a échoué car le
 
-la fête connectée ne répond pas correctement après un délai de
+la partie connectée n’a pas répondu correctement après une période de
 
-heure ou échec de la connexion en raison d’un hôte connecté
+heure ou échec de la connexion établie car l’hôte connecté
 
-échec de la réponse à 10.188.116.96:5061
+échec de la réponse de 10.188.116.96:5061
 
-Diagnostic
+Diagnostique
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsExStorageNotification** peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec **de test-CsExStorageNotification** :
 
-  - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
+  - Une valeur de paramètre incorrecte a été fournie. Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.
 
-  - Si le serveur Microsoft Exchange Server n’est pas configuré correctement ou n’est pas encore déployé, cette commande échoue.
+  - Cette commande échoue si le serveur Microsoft Exchange est mal configuré ou s’il n’est pas encore déployé.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier un ensemble de paramètres de configuration de serveur Edge A/V
+title: Création ou modification d’une collection de paramètres de configuration de serveur Edge A/V
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c4b45b34b5c52d0eb138fbc16c37e5aaee7262b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 576fcb445eb37b92356ad9fdf36de716581ca6fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Créer ou modifier un ensemble de paramètres de configuration de serveur Edge A/V dans Lync Server 2013
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Créer ou modifier une collection de paramètres de configuration de serveur Edge A/V dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41763366"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Le service Edge A/V offre aux utilisateurs internes (qui sont connectés à votre réseau d’entreprise) un moyen de partager des fichiers audio et vidéo avec des utilisateurs externes (les utilisateurs qui ne sont pas connectés au réseau de votre organisation). Le service Edge A/V est essentiellement géré à l’aide des paramètres de configuration d’un serveur à l’aide d’une/V, le paramétrage qui peut être configuré sur l’étendue du site ou au niveau de l’étendue de service (autrement dit, peut être configuré pour un serveur Edge A/V individuel).
+Le service Edge A/V permet à vos utilisateurs internes (les utilisateurs connectés au réseau de votre organisation) de partager des fichiers audio et vidéo avec des utilisateurs externes (des utilisateurs qui ne sont pas connectés au réseau de votre organisation). La gestion du service Edge A/V s’effectue à l’aide des paramètres de configuration de ce service. Les paramètres peuvent être configurés au niveau du site ou du service (c’est-à-dire pour un serveur Edge A/V).
 
-Lorsque vous installez Lync Server, une collection globale des paramètres de configuration de Microsoft Edge a/V est créée pour vous. De plus, vous pouvez utiliser Windows PowerShell et l’applet de nouvelle applet de nouveau-CsAVEdgeConfiguration pour créer des paramètres au niveau de l’étendue du site ou l’étendue du service (autrement dit, pour un serveur Edge A/V individuel). Si vous créez de nouveaux paramètres, n’oubliez pas que :
+Lorsque vous installez Lync Server, une collection globale de paramètres de configuration Edge A/V est créée pour vous. En outre, vous pouvez utiliser Windows PowerShell et la cmdlet New-CsAVEdgeConfiguration pour créer de nouveaux paramètres au niveau de l’étendue site ou de l’étendue service (c’est-à-dire, pour un serveur Edge A/V individuel). Si vous créez des paramètres, gardez à l’esprit les aspects suivants :
 
-  - Les paramètres configurés au niveau de l’étendue de service (autrement dit, sur un serveur individuel) sont prioritaires sur tout.
+  - Les paramètres configurés au niveau du service (c’est-à-dire sur un serveur) prévalent sur tous les autres paramètres.
 
-  - Les paramètres configurés lors de l’étendue du site sont prioritaires sur les paramètres configurés au niveau de l’étendue globale. Toutefois, les paramètres d’étendue de service remplacent également les paramètres d’étendue de site.
+  - Les paramètres configurés au niveau du site prévalent sur les paramètres configurés au niveau global. Les paramètres au niveau du service, quant à eux, prévalent sur les paramètres au niveau du site.
 
-  - Les paramètres au niveau de l’étendue globale seront utilisés uniquement s’il n’y a aucun paramètre de service configuré sur le serveur individuel et s’il n’y a aucun paramètre de site pour le site sur lequel se trouve le serveur.
+  - Les paramètres au niveau global seront utilisés uniquement si aucun autre paramètre du service n’est configuré sur le serveur et s’il n’existe aucun paramètre pour le site où ce serveur est situé.
 
-Vous pouvez ensuite modifier les paramètres à l’aide de l’applet de applet Set-CsAVEdgeConfiguration. Pour plus d’informations, consultez les rubriques d’aide pour les applets de [nouvelle-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15)) et [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15)) .
+Tous vos paramètres peuvent ensuite être modifiés à l’aide de l’applet de commande Set-CsAVEdgeConfiguration. Pour plus d’informations, reportez-vous aux rubriques d’aide pour les cmdlets [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15)) et [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15)) .
 
 <div>
 
-## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>Pour créer des paramètres de configuration de niveau A/V sur l’étendue du site
+## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>Pour créer des paramètres de configuration de serveur Edge A/V au niveau de l’étendue site
 
-  - La commande suivante crée une nouvelle collection de paramètres de configuration Edge A/V pour le site de Redmond :
+  - La commande suivante crée une collection de paramètres de configuration Edge A/V pour le site Redmond :
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -61,9 +61,9 @@ Vous pouvez ensuite modifier les paramètres à l’aide de l’applet de applet
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>Pour créer des paramètres de configuration de bord A/V personnalisés sur l’étendue du site
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>Pour créer des paramètres de configuration Edge A/V personnalisés au niveau de l’étendue site
 
-  - Aucun paramètre supplémentaire n’ayant été inclus, ces nouveaux paramètres utiliseront les valeurs par défaut pour le service Edge A/V. Vous pouvez également ajouter des paramètres et des valeurs de paramètre supplémentaires pour créer une collection personnalisée. Par exemple, cette commande définit la propriété MaxTokenLifetime sur 4 heures (04 heures : 00 minutes : 00 secondes) :
+  - Dans la mesure où aucun paramètre supplémentaire n’a été inclus, ces nouveaux paramètres utilisent les valeurs par défaut pour le service Edge A/V. Vous pouvez également ajouter des paramètres et des valeurs de paramètres supplémentaires pour créer une collection personnalisée. Par exemple, cette commande définit la propriété MaxTokenLifetime à 4 heures (04 heures : 00 minute : 00 seconde) :
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "04:00:00"
 
@@ -71,7 +71,7 @@ Vous pouvez ensuite modifier les paramètres à l’aide de l’applet de applet
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>Pour créer des paramètres de configuration de bord A/V personnalisés sur l’étendue du service
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>Pour créer des paramètres de configuration Edge A/V personnalisés au niveau de l’étendue service
 
   - Cette commande crée une collection similaire appliquée au serveur Edge A/V atl-edge-001.litwareinc.com :
     
@@ -81,9 +81,9 @@ Vous pouvez ensuite modifier les paramètres à l’aide de l’applet de applet
 
 <div>
 
-## <a name="to-modify-existing-av-edge-configuration-settings"></a>Pour modifier les paramètres de configuration de bord A/V existants
+## <a name="to-modify-existing-av-edge-configuration-settings"></a>Pour modifier les paramètres de configuration Edge A/V existants
 
-  - Dans cet exemple, l’applet de passe Set-CsAVEdgeConfiguration est utilisée pour remplacer la durée de vie du jeton maximale du site de Redmond par 12 heures :
+  - Dans cet exemple, l’applet de commande Set-CsAVEdgeConfiguration est utilisée pour changer la durée de vie maximale du jeton du site Redmond en la définissant à 12 heures :
     
         Set-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "12:00:00"
 
@@ -94,13 +94,13 @@ Vous pouvez ensuite modifier les paramètres à l’aide de l’applet de applet
 ## <a name="see-also"></a>Voir aussi
 
 
-[Renvoyer des informations de configuration de serveur Edge A/V dans Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Renvoyer les informations de configuration du serveur Edge A/V dans Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
 [Supprimer une collection existante de paramètres de configuration de serveur Edge A/V dans Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
-[Serveurs périphériques audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Nouveau-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))  
-[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))  
+[Serveurs Edge audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))  
+[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))  
   
 
 </div>

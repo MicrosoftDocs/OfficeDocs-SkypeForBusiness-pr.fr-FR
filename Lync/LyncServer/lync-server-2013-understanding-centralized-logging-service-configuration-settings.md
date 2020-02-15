@@ -1,5 +1,5 @@
 ---
-title: Présentation des paramètres de configuration du service de journalisation centralisé
+title: Présentation des paramètres de configuration du service de journalisation centralisée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a766756f082e6666d37dff793c457cb335736fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1bda4fe432841cd005671b18a163df57bd6e0bb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744804"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Présentation des paramètres de configuration du service de journalisation centralisé dans Lync Server 2013
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Présentation des paramètres de configuration du service de journalisation centralisée dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41744804"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Le service de journalisation centralisé est configuré pour définir ce que le service de journalisation doit collecter, la manière dont il recueille l’emplacement et les paramètres de journalisation. Ces paramètres sont définis de manière globale (cʼest-à-dire pour lʼensemble du déploiement) ou au niveau d’un site (c’est-à-dire un site déterminé dans votre déploiement). La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.
+Le service de journalisation centralisée est configuré pour définir ce que le service de journalisation doit collecter, le mode de collecte, l’emplacement à partir duquel il sera collecté et les paramètres de journalisation. Vous définissez ces paramètres globalement (c’est-à-dire pour l’ensemble du déploiement) ou pour un site (autrement dit, un site nommé dans votre déploiement). La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.
 
 <div>
 
 ## <a name="to-display-the-current-centralized-logging-service-configuration"></a>Pour afficher la configuration actuelle du service de journalisation centralisée
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Tapez ce qui suit dans une invite de ligne de commande :
     
@@ -53,14 +53,14 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
     
 
     > [!TIP]
-    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration renvoyés par la définition <CODE>-Identity</CODE> et une étendue, par exemple, « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez canaler la sortie dans une autre applet de cmdlet Windows PowerShell. Par exemple, pour obtenir des informations sur les scénarios définis dans la configuration du site « Redmond », tapez :<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration qui sont renvoyés par <CODE>-Identity</CODE> la définition et une étendue, telle que « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez rediriger la sortie vers une autre cmdlet Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site "Redmond", tapez :<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
     
     ![Exemple de sortie de Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")
     
-    Le résultat de l’applet de connexion affiche la configuration actuelle du service de journalisation centralisé.
+    Le résultat de l’applet de commande affiche la configuration actuelle du service de journalisation centralisée.
     
     
     <table>
@@ -76,28 +76,28 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><strong>Identity</strong></p></td>
-    <td><p>Identifie lʼétendue et le nom de cette configuration. Il existe une seule configuration globale et une seule configuration par site.</p></td>
+    <td><p><strong>Identité</strong></p></td>
+    <td><p>Identifie la portée et le nom de cette configuration. Il existe une seule configuration globale et une seule configuration par site.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>Scenarios</strong></p></td>
-    <td><p>Liste de tous les scénarios définis pour cette configuration.</p></td>
+    <td><p>Liste de tous scénarios définis pour cette configuration.</p></td>
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Termes de recherche définis pour la configuration. Office 365, et non des déploiements sur site.</p></td>
+    <td><p>Termes de recherche définis pour la configuration. Office 365, pas les déploiements locaux.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
-    <td><p>Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent. Le site, dans ce contexte, est le site tel qu’il est défini dans le générateur de topologie.</p></td>
+    <td><p>Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent. Site, dans ce contexte, est le site tel qu’il est défini dans le générateur de topologies.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>Regions</strong></p></td>
+    <td><p><strong>Régions</strong></p></td>
     <td><p>Les régions définies servent à collecter les groupes de sécurité (SecurityGroups) dans une région, par exemple, EMEA (Europe/Moyen-Orient/Afrique).</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>EtlFileFolder</strong></p></td>
-    <td><p>Chemin d’accès défini de l’emplacement dans lequel les fichiers journaux sont écrits sur des ordinateurs. CLSAgent écrit les fichiers journaux et s’exécute dans le contexte du service réseau. Dans le cas présent,% TEMP% est étendu à%WINDIR%\ServiceProfiles\NetworkService\AppData\Local</p></td>
+    <td><p>Chemin d’accès défini à l’emplacement où sont écrits les fichiers journaux sur les ordinateurs. CLSAgent écrit les fichiers journaux et s’exécute dans le contexte du service réseau. Dans ce cas, %TEMP% s’étend vers %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.</p></td>
     </tr>
     <tr class="odd">
     <td><p><strong>EtlFileRolloverSizeMB</strong></p></td>
@@ -109,7 +109,7 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
     </tr>
     <tr class="odd">
     <td><p><strong>TmfFileSearchPath</strong></p></td>
-    <td><p>Emplacement dans lequel rechercher les fichiers au format de message de suivi. Les fichiers de format des messages de suivi sont utilisés pour convertir les fichiers binaires en un format lisible par le humain.</p></td>
+    <td><p>Emplacement dans lequel rechercher les fichiers au format de message de suivi. Les fichiers au format de message de suivi servent à convertir les fichiers binaires en format lisible.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>CacheFileLocalFolders</strong></p></td>
@@ -128,7 +128,7 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
     <td><p>Définit le pourcentage d’espace disque pouvant être utilisé par les fichiers cache.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>ComponentThrottleLimit</strong></p></td>
+    <td><p><strong>Limite componentthrottlelimit</strong></p></td>
     <td><p>Définit le nombre maximal de traces par seconde pouvant être créées par un composant avant le déclenchement du limiteur automatique.</p></td>
     </tr>
     <tr class="odd">
@@ -137,7 +137,7 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>La version minimale du CLSAgent dont lʼexécution est autorisée. Cet élément est destiné à Office 365.</p></td>
+    <td><p>Version minimale de CLSAgent autorisée à s’exécuter. Cet élément est destiné à Office 365.</p></td>
     </tr>
     </tbody>
     </table>
@@ -150,13 +150,13 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Présentation du service de journalisation centralisé dans Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Vue d’ensemble du service de journalisation centralisée dans Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
+[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
+[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
   
 
 </div>

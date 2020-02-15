@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour une jonction SIP'
+title: 'Lync Server 2013 : composants et topologies pour la jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9e31b7cc0ea6e5acec0382ecd468a868152570d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742564"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Composants et topologies utilisés pour une jonction SIP dans Lync Server 2013
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Composants et topologies pour la jonction SIP dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41742564"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-La figure suivante illustre la topologie de trunking SIP dans Lync Server.
+La figure suivante illustre la topologie de jonction SIP dans Lync Server.
 
-**Topologie de trunking SIP**
+**Topologie de jonction SIP**
 
 ![Topologie de jonction SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topologie de jonction SIP")
 
@@ -49,7 +49,7 @@ Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé p
 
 
 > [!IMPORTANT]  
-> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, avez-vous besoin de configurer une seule adresse IP et une ligne SIP Trunk sur chaque serveur de médiation, ou devez-vous configurer plusieurs ISL SIP sur chaque serveur de médiation ?<BR>Si vous disposez de plusieurs sites centraux, demandez-vous également si le prestataire de services peut activer les connexions vers et à partir d’un autre site central.
+> Contactez votre fournisseur de services pour déterminer s’il fournit la prise en charge pour la disponibilité élevée, notamment le basculement. Si c’est le cas, vous devrez déterminer les procédures pour la configurer. Par exemple, avez-vous besoin de configurer une seule adresse IP et une jonction SIP sur chaque serveur de médiation, ou devez-vous configurer plusieurs jonctions SIP sur chaque serveur de médiation ?<BR>Si vous disposez de plusieurs sites centraux, demandez également à votre fournisseur de services s’il a la possibilité d’activer les connexions vers et à partir d’un autre site central.
 
 
 
@@ -59,7 +59,7 @@ Comme le montre le diagramme, un réseau privé virtuel (VPN) IP est utilisé p
 
 
 > [!NOTE]  
-> Pour le trunking SIP, nous vous conseillons vivement de déployer des serveurs de médiation autonomes. Pour plus d’informations, reportez-vous à la section <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">déploiement de serveurs de médiation et définition d’homologues dans Lync Server 2013</A> dans la documentation de déploiement.
+> Pour la jonction SIP, nous vous recommandons vivement de déployer les serveurs de médiation autonomes. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and Defining Peers in Lync Server 2013</A> dans la documentation de déploiement.
 
 
 
@@ -77,15 +77,15 @@ Nous vous conseillons de suivre les directives suivantes :
 
   - N’autorisez pas le transfert des paquets de diffusions ou de multidiffusions entre le routeur et le réseau local virtuel.
 
-  - Bloquez les règles de routage qui acheminent le trafic du routeur vers n’importe où, mais le serveur de médiation.
+  - Bloquez toutes les règles de routage qui acheminent le trafic du routeur vers n’importe où mais sur le serveur de médiation.
 
 Si vous utilisez un serveur VPN, bous vous conseillons de suivre les directives suivantes :
 
-  - Configurez un VLAN entre le serveur VPN et le serveur de médiation.
+  - Configurez un réseau local virtuel entre le serveur VPN et le serveur de médiation.
 
   - N’autorisez pas la transmission des paquets de diffusions ou de multidiffusions du serveur VPN vers le réseau local virtuel.
 
-  - Bloquer toutes les règles de routage qui routent le trafic du serveur VPN vers n’importe quel endroit, mais le serveur de médiation.
+  - Bloquez toute règle de routage qui achemine le trafic de serveur VPN vers n’importe quel emplacement, mais sur le serveur de médiation.
 
   - Chiffrez les données sur le réseau privé virtuel (VPN) à l’aide de l’encapsulation générique de routage (GRE).
 

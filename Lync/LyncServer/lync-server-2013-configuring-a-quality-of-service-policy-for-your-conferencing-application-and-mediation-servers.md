@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration d’une stratégie de qualité de service pour les serveurs de conférence, d’application et de médiation'
+title: 'Lync Server 2013 : configuration d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 385530e45c208ced2cce4815d1f60e596c2a08b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99918b1bb10ce740cc74e15054fd88db03f020db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuration d’une stratégie de qualité de service dans Lync Server 2013 pour les serveurs de conférence, d’application et de médiation
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuration d’une stratégie de qualité de service dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation
 
 </div>
 
@@ -37,89 +37,89 @@ ms.locfileid: "41763428"
 
 _**Dernière modification de la rubrique :** 2014-06-23_
 
-La configuration de plages de ports facilite l’utilisation de la qualité de service en s’assurant que tout le trafic d’un type spécifique (par exemple, tout le trafic audio) est acheminé par le même ensemble de ports. Ainsi, le système peut facilement identifier et marquer un paquet donné : si le port 49152 est réservé au trafic audio, tout paquet transmis via le port 49152 peut être marqué avec un code DSCP indiquant qu’il s’agit d’un paquet audio. Cela permet aux routeurs d’identifier le paquet en tant que paquet audio et de lui attribuer une priorité plus élevée que les paquets non marqués (par exemple, les paquets utilisés pour copier un fichier d’un serveur vers un autre).
+La configuration de plages de ports facilite l’utilisation de la qualité de service en s’assurant que tout le trafic d’un type donné (par exemple, tout le trafic audio) passe par le même ensemble de ports. Cela permet au système d’identifier et de marquer facilement un paquet donné : si le port 49152 est réservé au trafic audio, les paquets qui passent par le port 49152 peuvent être marqués avec un code DSCP qui indique qu’il s’agit d’un paquet audio. Cela permet aux routeurs d’identifier le paquet comme étant un paquet audio, et de lui donner une priorité supérieure aux paquets non marqués (par exemple les paquets utilisés pour copier un fichier d’un serveur sur un autre).
 
-En revanche, le simple fait de limiter un ensemble de ports à un type spécifique de trafic n’entraîne pas le passage de paquets avec le code DSCP approprié. En plus de définir des plages de ports, vous devez également créer des politiques de qualité de service qui spécifient le code DSCP à associer à chaque plage de ports. Pour Microsoft Lync Server 2013, il s’agit généralement de créer deux stratégies : une pour le son et une pour la vidéo.
+Cependant, la limitation d’un ensemble de ports à un type de trafic spécifique ne permet pas que ces paquets soient automatiquement marqués avec le code DSCP approprié. En plus de la définition des plages de ports, vous devez également créer des stratégies de qualité de service qui spécifient le code DSCP à associer à chaque plage de ports. Pour Microsoft Lync Server 2013, cela signifie généralement la création de deux stratégies : une pour l’audio et une pour la vidéo.
 
-Les stratégies de qualité de service sont plus faciles à créer et à gérer via une stratégie de groupe. (Ces mêmes stratégies peuvent également être créées à l’aide de stratégies de sécurité locales. Toutefois, vous devez répéter la même procédure sur chacun d’eux et sur tous les ordinateurs.) Votre ensemble initial de stratégies de QoS (une pour le son et l’autre pour la vidéo) ne doit être appliqué qu’aux ordinateurs Lync Server exécutant le serveur de conférence, le serveur d’applications et/ou les services de médiation Server. Si tous ces ordinateurs sont situés dans le même UO d’annuaire Active Directory, vous pouvez simplement affecter le nouvel objet de stratégie de groupe à cette unité d’organisation. Vous pouvez également effectuer d’autres opérations pour cibler la nouvelle stratégie sur les ordinateurs spécifiques. par exemple, vous pouvez placer les ordinateurs appropriés dans un groupe de sécurité, puis utiliser le filtrage de la sécurité de la stratégie de groupe pour appliquer l’objet de stratégie de groupe à ce groupe de sécurité.
+Il est facile de créer et de gérer des stratégies de qualité de service avec la Stratégie de groupe. (Ces stratégies peuvent également être créées à l’aide de stratégies de sécurité locales. Toutefois, vous devez répéter la même procédure sur chaque ordinateur.) Votre ensemble initial de stratégies QoS (une pour l’audio et une pour la vidéo) doit être appliqué uniquement aux ordinateurs Lync Server exécutant le serveur de conférence, le serveur d’applications et/ou les services de serveur de médiation. Si tous ces ordinateurs sont situés dans la même unité d’organisation Active Directory, il vous suffit d’assigner le nouvel objet de stratégie de groupe (GPO) à cette unité d’organisation. Vous pouvez également procéder d’une autre façon pour cibler les ordinateurs spécifiés avec cette stratégie ; par exemple, vous pouvez placer les ordinateurs dans un groupe de sécurité, puis utiliser le filtrage de sécurité de la stratégie de groupe pour appliquer l’objet de stratégie de groupe uniquement à ce groupe de sécurité.
 
-Pour créer une stratégie de qualité de service pour la gestion du son, connectez-vous à un ordinateur sur lequel est installée la gestion des stratégies de groupe. Ouvrez gestion des stratégies de groupe (cliquez sur **Démarrer**, pointez sur **Outils d’administration**, cliquez sur **gestion des stratégies de groupe**), puis procédez comme suit :
+Afin de créer une stratégie de qualité de service pour gérer l’audio, connectez-vous à un ordinateur sur lequel la gestion des stratégies de groupe est installée. Ouvrez gestion des stratégies de groupe (cliquez sur **Démarrer**, pointez sur **Outils d’administration**, puis cliquez sur **gestion des stratégies de groupe**), puis effectuez la procédure suivante :
 
-1.  Dans gestion des stratégies de groupe, recherchez le conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs serveur Lync résident dans une unité d’organisation nommée Lync Server, la nouvelle stratégie doit être créée dans l’unité d’organisation Lync Server.
+1.  Dans la gestion des stratégies de groupe, accédez au conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Lync Server se trouvent dans une unité d’organisation nommée Lync Server, la nouvelle stratégie doit être créée dans l’unité d’organisation Lync Server.
 
-2.  Cliquez avec le bouton droit sur le conteneur approprié, puis cliquez sur **créer un objet de stratégie de groupe dans ce domaine et associez-le ici**.
+2.  Cliquez avec le bouton droit sur le conteneur approprié, puis cliquez sur **Créer un objet GPO dans ce domaine, et le lier ici**.
 
-3.  Dans la boîte de dialogue **nouvel objet GPO** , tapez le nom du nouvel objet de stratégie de groupe dans la zone **nom** (par exemple, **Lync Server QoS**), puis cliquez sur **OK**.
+3.  Dans la boîte de dialogue **nouvel objet GPO** , tapez un nom pour le nouvel objet de stratégie de groupe dans la zone **nom** (par exemple, service **QoS Lync Server**), puis cliquez sur **OK**.
 
-4.  Cliquez avec le bouton droit sur la stratégie que vous venez de créer, puis cliquez sur **modifier**.
+4.  Cliquez avec le bouton droit sur la stratégie nouvellement créée, puis cliquez sur **Modifier**.
 
-5.  Dans l’éditeur de gestion des stratégies de groupe, développez **Configuration ordinateur**, **stratégies**, développez **Paramètres Windows**, cliquez avec le bouton droit sur **QoS basée sur une stratégie**, puis cliquez sur **créer une nouvelle stratégie**.
+5.  Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration ordinateur**, **Stratégies**, **Paramètres Windows**, cliquez avec le bouton droit sur **QoS basée sur la stratégie**, puis cliquez sur **Créer une nouvelle stratégie**.
 
-6.  Dans la boîte de dialogue **QoS basée** sur une stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie (par exemple, **Lync Server QoS**) dans la zone **nom** . Sélectionnez **spécifier la valeur DSCP** et définissez la valeur sur **46**. Laissez l’option **spécifier le taux de limitation en sortie** non sélectionnée, puis cliquez sur **suivant**.
+6.  Dans la boîte de dialogue **QoS basée** sur la stratégie, dans la page d’accueil, tapez un nom pour la nouvelle stratégie (par exemple, **Lync Server QoS**) dans la zone **nom** . Sélectionnez **Spécifier la valeur DSCP** et indiquez la valeur **46**. Laissez la case à cocher **Spécifier le taux d’accélération en sortie** désactivée, puis cliquez sur **Suivant**.
 
-7.  Dans la page suivante, assurez-vous que l’option **toutes les applications** est sélectionnée, puis cliquez sur **suivant**. Cela permet de s’assurer que toutes les applications correspondent aux paquets de la plage de ports spécifiée avec le code DSCP spécifié.
+7.  Dans la page suivante, assurez-vous que **Toutes les applications** est sélectionné, puis cliquez sur **Suivant**. Cela permet de s’assurer que toutes les applications feront correspondre les paquets de la plage de ports spécifiée au code DSCP correct.
 
-8.  Sur la troisième page, assurez-vous que toutes les **adresses IP source et adresse IP de destination** sont sélectionnées, puis cliquez sur **suivant**. Ces deux paramètres garantissent le fonctionnement de la gestion des paquets indépendamment de l’ordinateur (adresse IP) ayant envoyé ces paquets et de l’ordinateur (adresse IP) recevant ces paquets.
+8.  Dans la troisième page, vérifiez que **Toute adresse IP source et Toute adresse IP de destination** sont sélectionnés, puis cliquez sur **Suivant**. Ces deux paramètres permettent que tous les paquets soient gérés quel que soit l’ordinateur (adresse IP) qui a envoyé ces paquets et l’ordinateur (adresse IP) qui les reçoit.
 
-9.  Dans la page 4, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionner le protocole que cette stratégie de QoS applique à** . TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus fréquemment utilisés par Lync Server et ses applications clientes.
+9.  Page quatre, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionnez le protocole auquel s’applique cette stratégie de QoS**. Le protocole TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus couramment utilisés par Lync Server et ses applications clientes.
 
-10. Sous le titre **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port ou plage de sources**. Dans la zone texte de l’accompagnement, tapez la plage de ports réservée aux transmissions audio. Par exemple, si vous avez réservé ports 49152 via ports 57500 pour le trafic audio, entrez la plage de ports à l’aide du format suivant : **49152:57500**. Cliquez sur **Terminer**.
+10. Sous le titre **Spécifiez le numéro de port source**, sélectionnez **À partir de ce port ou plage source**. Dans la zone de texte correspondante, tapez la plage de ports réservée pour les transmissions audio. Par exemple, si vous réservez les ports 49152 à 57500 pour le trafic audio, tapez la plage de ports au format : **49152:57500**. Cliquez sur **Terminer**.
 
 <div>
 
 
 > [!NOTE]  
-> La valeur DSCP de 46 est légèrement arbitraire : bien que le DSCP 46 soit souvent utilisé pour marquer les paquets audio, vous ne devez pas utiliser DSCP 46 pour les communications audio. Si vous avez déjà implémenté la qualité de service (QoS) et que vous utilisez un autre code DSCP pour l’audio (par exemple, DSCP 40), vous devez configurer votre stratégie de qualité de service pour utiliser ce code (c’est-à-dire 40 pour le son). Si vous implémentez actuellement la qualité de service, nous vous conseillons d’utiliser le DSCP 46 pour l’audio, car cette valeur est couramment utilisée pour marquer les paquets audio.
+> La valeur DSCP 46 est arbitraire : bien que DSCP 46 soit souvent utilisé pour marquer les paquets audio, vous n’êtes pas obligé d’utiliser cette valeur pour les communications audio. Si vous avez déjà mis en œuvre QoS et utilisez un autre code DSCP pour l’audio (par exemple, DSCP 40), configurez votre stratégie de qualité de service pour qu’elle utilise ce code (c’est-à-dire, 40 pour l’audio). Si vous implémentez la qualité de service, alors il est recommandé d’utiliser DSCP 46 pour l’audio, car cette valeur est utilisée en général pour marquer les paquets audio.
 
 
 
 </div>
 
-Une fois que vous avez créé la stratégie de QoS pour le trafic audio, vous devez créer une deuxième stratégie pour le trafic vidéo (et éventuellement une troisième stratégie de gestion du trafic de partage d’application). Pour créer une stratégie pour la vidéo, suivez la même procédure que celle que vous avez suivie lors de la création de la stratégie audio, en effectuant les substitutions suivantes :
+Une fois la stratégie QoS créée pour le trafic audio, créez une seconde stratégie pour le trafic vidéo (et une troisième pour la gestion du trafic de partage d’applications, si vous le souhaitez). Pour créer une stratégie pour la vidéo, suivez la procédure indiquée pour l’audio, et remplacez les éléments suivants :
 
-  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Lync Server Video**).
+  - Utilisez un nom de stratégie différent et unique (par exemple, **Vidéo Lync Server**).
 
-  - Définissez la valeur DSCP sur **34** au lieu de 46. (Notez que vous n’avez pas besoin d’utiliser une valeur DSCP de 34. La seule condition requise est d’utiliser une autre valeur DSCP pour la vidéo que celle utilisée pour l’audio.
+  - Attribuez à la valeur DSCP la valeur **34** au lieu de 46. (Notez que vous n’êtes pas obligé d’attribuer la valeur 34 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour la vidéo différente de celle utilisée pour l’audio).
 
-  - Utilisez la plage de ports déjà configurée pour le trafic vidéo. Par exemple, si vous avez réservé ports 57501 à 65535 pour la vidéo, définissez la plage de ports comme suit : **57501:65535**.
+  - Utilisez la plage de ports configurée précédemment pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports comme ceci : **57501:65535**.
 
-Si vous décidez de créer une stratégie de gestion du trafic de partage d’application, vous devez créer une troisième stratégie en effectuant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie en effectuant les substitutions suivantes :
 
-  - Utilisez un nom de stratégie différent (et unique) (par exemple, le **partage d’applications serveur Lync**).
+  - Utilisez un nom de stratégie différent et unique (par exemple, **Partage d’application Lync Server**).
 
-  - Définissez la valeur DSCP sur **24** au lieu de 46. (De nouveau, vous n’avez pas besoin d’utiliser une valeur DSCP de 24. La seule condition requise est d’utiliser une autre valeur DSCP pour le partage d’application que celle utilisée pour l’audio ou la vidéo.)
+  - Attribuez à la valeur DSCP la valeur **24** au lieu de 46. (Là encore, vous n’êtes pas obligé d’attribuer la valeur 24 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour le partage d’application différente de celle utilisée pour l’audio ou la vidéo).
 
-  - Utilisez la plage de ports déjà configurée pour le trafic vidéo. Par exemple, si vous avez réservé ports 40803 à 49151 pour le partage d’application, définissez l’intervalle de ports comme suit : **40803:49151**.
+  - Utilisez la plage de ports configurée précédemment pour le trafic vidéo. Par exemple, si vous avez réservé les ports 40803 à 49151 pour le partage d’application, définissez la plage de ports comme ceci : **40803:49151**.
 
-Les nouvelles stratégies que vous avez créées ne sont pas prises en compte tant que la stratégie de groupe n’a pas été actualisée sur vos ordinateurs serveur Lync. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur dans lequel la stratégie de groupe doit être actualisée :
+Les nouvelles stratégies que vous avez créées ne prendront effet qu’après l’actualisation de la stratégie de groupe sur vos ordinateurs Lync Server. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en utilisant la commande suivante sur les ordinateurs sur lesquels la stratégie de groupe doit être actualisée :
 
     Gpupdate.exe /force
 
-Vous pouvez exécuter cette commande à partir de Lync Server Management Shell ou à partir de n’importe quelle fenêtre de commande qui s’exécute sous informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
+Cette commande peut être exécutée à partir de Lync Server Management Shell ou à partir de n’importe quelle fenêtre de commande exécutée sous les informations d’identification d’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**.
 
-Pour vérifier que les nouvelles stratégies de QoS sont appliquées, procédez comme suit :
+Pour vérifier que les nouvelles stratégies QoS ont été appliquées, procédez ainsi :
 
-1.  Sur un ordinateur serveur Lync, cliquez sur **Démarrer** , puis sur **exécuter**.
+1.  Sur l’ordinateur Lync Server, cliquez sur **Démarrer**, puis sur **Exécuter**.
 
-2.  Dans la boîte de dialogue **exécuter** , tapez **regedit** , puis appuyez sur entrée.
+2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez **ordinateur**, sur **\_HKEY local\_machine**, développez **logiciel**, développez **stratégies**, développez **Microsoft**, développez **Windows**, puis cliquez sur **QoS**. Sous **QoS** , vous devez voir les clés de Registre correspondant aux stratégies de QoS que vous venez de créer. Par exemple, si vous avez créé deux nouvelles stratégies (l’une ayant pour nom QoS du serveur audio Lync Server et l’autre nommée QoS vidéo de Lync Server Video QoS), vous devez les entrées de Registre pour la qualité de service audio de Lync Server et la qualité QoS vidéo de Lync Server.
+3.  Dans l’éditeur du Registre, développez **ordinateur**, **HKEY\_local\_machine**, **logiciel**, développez **stratégies**, **Microsoft**, **Windows**, puis cliquez sur **QoS**. Sous **QoS** des clés de registre pour chaque stratégie QoS créée doivent s’afficher. Par exemple, si vous avez créé deux nouvelles stratégies (l’une nommée QoS audio Lync Server et l’autre nommée QoS vidéo de Lync Server), vous devez les entrées de Registre pour la qualité de service (QoS) audio Lync Server et la qualité de service (QoS) vidéo Lync Server.
 
-Pour vous assurer que les paquets réseau sont marqués avec la valeur DSCP appropriée, vous devez également créer une nouvelle entrée de Registre sur chaque ordinateur en suivant la procédure suivante :
+Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 
-1.  Cliquez sur **Démarrer** , puis sur **exécuter**.
+1.  Pour ce faire, cliquez sur **Démarrer**, puis sur **Exécuter**.
 
-2.  Dans la boîte de dialogue **exécuter** , tapez **regedit** , puis appuyez sur entrée.
+2.  Dans la boîte de dialogue **Exécuter**, tapez **regedit**, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez l' **ordinateur\_\_local HKEY**, développez **système**, **CurrentControlSet**, développez **services**, puis cliquez sur **tcpip**.
+3.  Dans l’éditeur du Registre, développez **HKEY\_local\_machine**, **System**, **CurrentControlSet**, **services**, puis **tcpip**.
 
-4.  Cliquez avec le bouton droit sur **tcpip**, pointez sur **nouveau**, puis cliquez sur **clé**. Une fois la nouvelle clé de Registre créée, tapez **QoS** , puis appuyez sur entrée pour renommer la clé.
+4.  Cliquez avec le bouton droit sur **Tcpip**, pointez sur **Nouveau**, puis cliquez sur **Clé**. Une fois la clé de Registre créée, tapez **QoS**, puis appuyez sur Entrée pour renommer la clé.
 
-5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **nouveau**, puis cliquez sur **valeur de chaîne**. Après la création de la nouvelle valeur du Registre, tapez **ne pas utiliser NLA** , puis appuyez sur entrée pour renommer la valeur.
+5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **Nouveau**, puis cliquez sur **Valeur chaîne**. Une fois la clé de Registre créée, tapez **Ne pas utiliser NLA**, puis appuyez sur Entrée pour renommer la clé.
 
-6.  Double-cliquez sur **ne pas utiliser NLA**. Dans la boîte de dialogue modification de la **chaîne** , tapez **1** dans la zone données de la **valeur** , puis cliquez sur **OK**.
+6.  Double-cliquez sur **ne pas utiliser NLA**. Dans la boîte de dialogue **Modification de la chaîne**, tapez **1** dans la zone **Données de la valeur**, puis cliquez sur **OK**.
 
-7.  Fermez l’éditeur du Registre, puis redémarrez votre ordinateur.
+7.  Fermez l’Éditeur du Registre, puis redémarrez votre ordinateur.
 
 </div>
 

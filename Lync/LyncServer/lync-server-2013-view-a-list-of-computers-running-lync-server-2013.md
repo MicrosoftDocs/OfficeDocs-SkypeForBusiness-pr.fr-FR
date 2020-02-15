@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher une liste d’ordinateurs exécutant Lync Server 2013'
+title: 'Lync Server 2013 : afficher la liste des ordinateurs exécutant Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b11c6234cbe646888946313df8dd77abc60837fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05193ab70846918bd4106883583e42da03b541fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741964"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-computers-running-lync-server-2013"></a>Afficher une liste d’ordinateurs exécutant Lync Server 2013
+# <a name="view-a-list-of-computers-running-lync-server-2013"></a>Afficher la liste des ordinateurs exécutant Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41741964"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour afficher la liste de tous les ordinateurs exécutant Lync Server 2013 dans votre topologie et afficher l’état des services. Vous pouvez trier la liste sur un ordinateur, un pool ou un site.
+Vous pouvez utiliser le panneau de configuration Lync Server 2013 pour afficher la liste de tous les ordinateurs exécutant Lync Server 2013 dans votre topologie et voir l’état du service de chacun d’eux. Vous pouvez trier la liste par ordinateur, pool ou site.
 
 <div>
 
-## <a name="to-view-a-list-of-computers-running-lync-server"></a>Pour afficher une liste d’ordinateurs exécutant Lync Server
+## <a name="to-view-a-list-of-computers-running-lync-server"></a>Pour afficher une liste des ordinateurs qui exécutent Lync Server
 
-1.  À partir d’un compte d’utilisateur affecté à un des rôles d’administration prédéfinis pour Lync Server 2013, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, voir [planification du contrôle d’accès basé sur les rôles dans Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles d’administrateur prédéfinis pour Lync Server 2013, ouvrez une session sur un ordinateur de votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, reportez-vous à la rubrique [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
 
-4.  Dans la page **État** , effectuez l’une des opérations suivantes si nécessaire :
+4.  Dans la page **Statut**, effectuez l’une des opérations suivantes selon vos besoins :
     
-      - Triez la liste en cliquant sur l’en-tête de la colonne **ordinateur**, **pool**ou **site** , puis en cliquant sur la flèche vers le haut ou la flèche vers le bas.
+      - Triez la liste en cliquant sur le titre de colonne **Ordinateur**, **Pool** ou **Site**, puis en cliquant sur la flèche vers le haut ou vers le bas.
     
       - Cliquez sur **Actualiser** pour afficher la liste la plus à jour.
     
-      - Recherchez un ordinateur en particulier en tapant le nom de l’ordinateur dans le champ de recherche.
+      - Recherchez un ordinateur spécifique en tapant son nom dans le champ de recherche.
 
 </div>
 

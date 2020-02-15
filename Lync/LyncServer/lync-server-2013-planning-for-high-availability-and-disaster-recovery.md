@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de la haute disponibilité et de la récupération d’urgence'
+title: 'Lync Server 2013 : planification de la haute disponibilité et de la récupération d’urgence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41752184"
 
 _**Dernière modification de la rubrique :** 2013-10-31_
 
-Comme dans Lync Server 2010, le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Lync Server 2013 repose sur la redondance du serveur via le regroupement. Si un serveur exécutant un rôle serveur particulier rencontre une défaillance, les autres serveurs du pool qui exécutent le même rôle assument la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
+Comme dans Lync Server 2010, le principal modèle de haute disponibilité pour la plupart des rôles serveur dans Lync Server 2013 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
 
-Lync Server 2013 ajoute de nouvelles mesures de reprise après sinistre pour les pools front-end en introduisant la dispersion géographique de vos serveurs dans deux centres de données afin de garantir la continuation du service.
+Lync Server 2013 ajoute de nouvelles mesures de récupération d’urgence pour les pools frontaux en introduisant la dispersion géographique de vos serveurs dans deux centres de données pour assurer la continuité du service en cas de panne d’un pool ou d’un site.
 
-Lync Server 2013 améliore également la disponibilité élevée du serveur principal en prenant en charge la mise en miroir SQL synchrone pour vos bases de données principales.
+Lync Server 2013 améliore également la haute disponibilité des serveurs principaux en prenant en charge la mise en miroir SQL synchrone pour vos bases de données principales.
 
-Cette section décrit les principales fonctionnalités de haute disponibilité et de récupération d’urgence, ainsi que les actions que vous pouvez effectuer pour une disponibilité élevée et une reprise après sinistre pour vos autres rôles de serveur.
+Cette section explique ces fonctionnalités majeures de haute disponibilité et de récupération d’urgence, et explique par ailleurs comment procéder pour assurer la haute disponibilité et la récupération d’urgence de vos autres rôles serveur.
 
 <div>
 
@@ -53,13 +53,13 @@ Cette section décrit les principales fonctionnalités de haute disponibilité e
 
   - [Récupération d’urgence de serveur Edge dans Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [Planification de la résistance Voix Entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [Planification de la résistance voix entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
   - [Fonctionnalités de gestion des appels pour la récupération d’urgence dans Lync Server 2013](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [Configuration d’un serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [Configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [Résistance de sites métropolitains Lync Server 2010](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [Résilience de site métropolitain Lync Server 2010](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 

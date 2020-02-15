@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration technique requise pour le parcage d’appel'
+title: 'Lync Server 2013 : configuration technique requise pour le parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 742d6ef62068e3e6e3bbd953e078b186e86bb497
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746604"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41746604"
 
 _**Dernière modification de la rubrique :** 2013-11-07_
 
-Cette section décrit les exigences techniques suivantes en matière de stationnement d’appel :
+Cette section décrit les exigences techniques suivantes pour le parcage d’appel :
 
   - Configuration matérielle requise
 
@@ -45,13 +45,13 @@ Cette section décrit les exigences techniques suivantes en matière de stationn
 
   - Conditions requises en matière de ports
 
-  - Configuration requise pour le fichier audio
+  - Conditions requises pour les fichiers audio
 
 <div>
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-La configuration matérielle requise pour l’application de parc d’appels est identique à celle des serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge.
+L’application de parcage d’appel présente les mêmes besoins en matière de matériel que les serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [Server Hardware Platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de prise en charge.
 
 </div>
 
@@ -59,9 +59,9 @@ La configuration matérielle requise pour l’application de parc d’appels est
 
 ## <a name="software-requirements"></a>Configuration logicielle requise
 
-La configuration requise pour les systèmes d’exploitation et les logiciels requis par le biais de l’application de parc d’appels est la même que celle des serveurs frontaux. Pour plus d’informations sur la configuration logicielle requise, voir [prise en charge du système d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.
+L’application de parcage d’appel présente les mêmes exigences en matière de système d’exploitation et de logiciels que les serveurs frontaux. Pour plus d’informations sur la configuration logicielle requise, voir [serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
 
-Tous les serveurs frontaux et les serveurs Standard Edition Server pour lesquels l’application de parc d’appels est déployée doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows. Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media audio (. WMA) pour lesquels le parc est lu pour la musique en attente.
+Tous les serveurs frontaux et les serveurs Standard Edition Server sur lesquels l’application de parcage d’appel est déployée doivent avoir installé le module d’exécution du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience Bureau Windows. Le runtime du format Windows Media ou Microsoft Media Foundation est requis pour les fichiers audio Windows Media (. WMA) que le parcage d’appel joue pour la musique en attente.
 
 </div>
 
@@ -69,7 +69,7 @@ Tous les serveurs frontaux et les serveurs Standard Edition Server pour lesquels
 
 ## <a name="port-requirements"></a>Configuration requise pour les ports
 
-L’application de parc d’appels utilise le port suivant :
+L’application de parcage d’appel utilise le port suivant :
 
   - **Port 5075**   utilisé pour les demandes d’écoute SIP.
 
@@ -77,7 +77,7 @@ L’application de parc d’appels utilise le port suivant :
 
 
 > [!NOTE]  
-> Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>. Pour plus d’informations sur cette applet de connexion, consultez la documentation Lync Server Management Shell.
+> Ce port est un paramètre par défaut que vous pouvez modifier à l’aide de l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>. Pour plus d’informations sur cette applet de commande, voir la documentation de Lync Server Management Shell.
 
 
 
@@ -89,13 +89,13 @@ L’application de parc d’appels utilise le port suivant :
 
 ## <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application de parc d’appels prend uniquement en charge les fichiers Windows Media audio (. WMA) pour la musique en attente. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir « Expression Encoder 4 » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers de la musique de parc d’appels est l’audio multimédia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+L’application de parcage d’appel ne prend en charge que les fichiers audio Windows Media (. WMA) pour l’attente musicale. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir « Expression Encoder 4 » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé des fichiers d’attente musicale pour le parcage d’appel est Windows Media Audio 9,44 kHz, 16 bits, Mono, CBR, 32 Kbits/s.
 
 <div>
 
 
 > [!NOTE]  
-> Le fichier converti est lu sur le téléphone à seulement 16 kHz, même s’il a été enregistré à 44 kHz.
+> Le fichier converti est lu à 16 kHz sur le téléphone, même s’il a été enregistré à 44 kHz.
 
 
 

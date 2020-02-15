@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exigences techniques pour le prélèvement d’appels de groupe'
+title: 'Lync Server 2013 : configuration technique requise pour la prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a24f9e5b3950f45804a816e44e13382fc7d3cc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fff6c8fa2d058d5e9ee2df0beb26f97508798f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746564"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Exigences techniques pour la cueillette de groupe dans Lync Server 2013
+# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Configuration technique requise pour la prise d’appel de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41746564"
 
 _**Dernière modification de la rubrique :** 2013-01-30_
 
-Le prélèvement d’appels de groupe présente les mêmes exigences matérielles, logicielles et de port que l’application de parc d’appels. Le prélèvement d’appels de groupe n’utilise pas de fichiers audio.
+La prise d’appel de groupe a les mêmes exigences en matière de matériel, de logiciel et de port que l’application de parcage d’appel. La prise d’appel de groupe n’utilise pas de fichiers audio.
 
 <div>
 

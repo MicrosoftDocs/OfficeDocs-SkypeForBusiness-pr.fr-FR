@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vérification de la conception de la topologie'
+title: 'Lync Server 2013 : vérifier la conception de la topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6968dfca2072ca9a6c0e5008528e27a14f01447
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742144"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-the-topology-design-in-lync-server-2013"></a>Vérification de la conception de la topologie dans Lync Server 2013
+# <a name="verify-the-topology-design-in-lync-server-2013"></a>Vérifier la conception de la topologie dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742144"
 
 _**Dernière modification de la rubrique :** 2012-01-02_
 
-Le générateur de topologie vérifie automatiquement la topologie. Toute erreur de topologie se caractérise par une erreur de validation, indiquée par l’icône d’erreur de validation située en regard du rôle de serveur. Il est important de vérifier également que la topologie représente correctement la topologie de votre déploiement.
+Le générateur de topologies vérifie automatiquement la topologie. Toute erreur de topologie est identifiée en tant qu’erreur de validation et signalée par l’icône d’erreur de validation en regard du rôle serveur. Il est également important de vérifier que la topologie représente correctement la topologie du déploiement.
 
 <div>
 
@@ -45,15 +45,15 @@ Le générateur de topologie vérifie automatiquement la topologie. Toute erreur
 
 1.  Vérifiez que toutes les URL simples sont configurées correctement.
 
-2.  Vérifiez que le serveur SQL Server est en ligne et que l’ordinateur sur lequel le Générateur de topologies est installé peut y accéder. Vérifiez également que les règles de pare-feu nécessaires sont disponibles.
+2.  Vérifiez que le serveur basé sur SQL Server est en ligne et disponible pour l’ordinateur sur lequel le générateur de topologies est installé, y compris les règles de pare-feu nécessaires.
 
-3.  Vérifiez que le partage de fichiers est disponible et qu’il dispose des autorisations appropriées définies.
+3.  Confirmez que le partage de fichiers est disponible et qu’il dispose des autorisations appropriées qui ont été définies.
 
 4.  Confirmez que les rôles serveur corrects qui répondent à la configuration requise pour le déploiement sont définis dans la topologie.
 
-5.  Vérifiez que les serveurs existent dans les services de domaine Active Directory (AD FS). Ce problème se produit automatiquement si vous avez rejoint le domaine.
+5.  Vérifiez que les serveurs existent dans les services de domaine Active Directory. Cela se produit automatiquement si vous avez joint les serveurs au domaine.
 
-Lorsque vous avez vérifié la topologie et qu’aucune erreur de validation n’a été détectée, vous êtes prêt à publier la topologie. S’il existe des erreurs de validation, vous devez les corriger avant de pouvoir publier la topologie. Pour plus d’informations sur la publication de votre topologie, voir [publier la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md).
+Lorsque vous avez vérifié la topologie et qu’aucune erreur de validation n’a été détectée, vous êtes prêt à publier la topologie. Si des erreurs de validation sont détectées, vous devez les corriger pour pouvoir publier la topologie. Pour plus d’informations sur la publication de votre topologie, voir [publier la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
 </div>
 

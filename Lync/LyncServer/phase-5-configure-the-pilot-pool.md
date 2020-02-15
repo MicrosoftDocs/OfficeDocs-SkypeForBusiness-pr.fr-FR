@@ -1,5 +1,5 @@
 ---
-title: 'Étape 5 : configurer le pool de pilotes'
+title: 'Phase 5 : configuration du pool pilote'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a>Étape 5 : configurer le pool de pilotes
+# <a name="phase-5-configure-the-pilot-pool"></a>Phase 5 : configuration du pool pilote
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765705"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-À présent que le pool de pilotes a été créé et que les informations de déploiement héritées ont été fusionnées avec Lync Server 2013, cette section identifie quelques configurations qui doivent être apportées au pool de pilotes.
+À présent que le pool pilote a été créé et que les informations de déploiement hérité ont été fusionnées avec Lync Server 2013, cette section identifie quelques configurations qui doivent être effectuées sur le pool pilote.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Connexion du pool pilote aux serveurs Edge hérités](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [Connecter le pool pilote aux serveurs Edge hérités](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Autoriser la connexion à un serveur Edge Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Autoriser la connexion au serveur Edge Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
   - [Vérifier les paramètres de configuration](verify-configuration-settings_1.md)
 
-  - [Configuration des certificats et des stratégies d’accès de passerelle XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [Configuration des certificats et des stratégies d’accès à la passerelle XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

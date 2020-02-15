@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Emplacement de l’utilisateur'
+title: 'Lync Server 2013 : emplacement de l’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9754b75b941944a445da33750190b9347aeb9313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbb581f049e8d45d16ace385fc26908d3d8301b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744434"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,26 +37,26 @@ ms.locfileid: "41744434"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Le routage basé sur géolocalisation exploite les mêmes régions, sites et sous-réseaux tels qu’ils sont définis dans Lync Server utilisé par E9-1-1, CAC et Media bypass pour appliquer des restrictions de routage des appels pour empêcher le contournement du numéro RTC. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP du ou des points de terminaison Lync de l’utilisateur qui sont connectés. Chaque sous-réseau IP est associé à un site réseau, regroupé au sein de régions réseau définies par l’administrateur. Le routage géodépendant est appliqué sur la base du site réseau de l’utilisateur.
+Le routage géodépendant s’appuie sur les mêmes régions réseau, sites et sous-réseaux que ceux définis dans Lync Server utilisé par E9-1-1, le contrôle d’admission des appels et la déviation du trafic multimédia pour appliquer des restrictions de routage des appels afin d’empêcher le contournement des appels RTC. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP des points de terminaison Lync de l’utilisateur qui sont connectés. Chaque sous-réseau IP est associé à un site réseau, qui est regroupé en régions réseau définies par l’administrateur. Le routage géodépendant est appliqué en fonction du site réseau de l’utilisateur.
 
-Les règles de routage basées sur le niveau de géolocalisation sont appliquées au niveau de chaque site du réseau, ce qui signifie qu’un ensemble de règles donné sera appliqué à tous les points de terminaison activés pour le routage par emplacement situés au sein du même site réseau. Les administrateurs peuvent appliquer le routage sur site aux sites réseau qui en ont besoin.
+Les règles de routage basées sur l’emplacement sont appliquées pour chaque site réseau, ce qui signifie qu’un ensemble de règles donné est appliqué à tous les points de terminaison activés pour le routage géodépendant qui sont situés au sein du même site réseau. Les administrateurs peuvent appliquer le routage géodépendant aux sites réseau qui en ont besoin.
 
-Il est possible de définir les stratégies de routage vocal sur une base de site réseau par site pour définir une passerelle PSTN particulière qui doit être utilisée par tous les utilisateurs situés dans le site réseau pour appeler des numéros de téléphone PSTN. Ces stratégies de routage de la voix prévaudront sur le routage défini par la stratégie vocale de l’utilisateur lorsque celui-ci se trouve dans un site réseau activé pour le routage de l’emplacement et qu’il empêche le routage des appels via d’autres passerelles RTC activées pour Routage basé sur l’emplacement. Lorsqu’un utilisateur de Lync place un appel RTC, la stratégie vocale de l’utilisateur détermine si l’utilisateur peut être autorisé à effectuer l’appel. Si la stratégie vocale de l’utilisateur permet à l’utilisateur de passer l’appel, le routage basé sur l’emplacement détermine la passerelle RTC à partir de laquelle l’appel doit être effectué. Le routage basé sur l’emplacement effectue cette détermination en fonction de l’emplacement de l’utilisateur.
+Les stratégies de routage des communications vocales peuvent être définies par site réseau pour définir une passerelle PSTN particulière qui doit être utilisée par tous les utilisateurs situés dans le site réseau pour appeler des numéros de téléphone PSTN. Ces stratégies de routage des communications vocales prévalent sur le routage défini par la stratégie de voix de l’utilisateur lorsque celui-ci se trouve dans un site réseau pour lequel le routage géodépendant est activé, et empêche le routage des appels via d’autres passerelles RTC activées pour Routage géodépendant. Lorsqu’un utilisateur Lync passe un appel RTC, la stratégie de voix de l’utilisateur détermine si l’utilisateur peut être autorisé à passer l’appel. Si la stratégie de voix de l’utilisateur permet à l’utilisateur de passer l’appel, le routage géodépendant détermine la passerelle PSTN à partir de laquelle l’appel doit être effectué. Le routage géodépendant effectue cette détermination en fonction de l’emplacement de l’utilisateur.
 
-L’emplacement d’un utilisateur peut être classé comme suit :
+Un emplacement d’utilisateur peut être classé comme suit :
 
-  - L’utilisateur se trouve dans un site réseau connu activé pour le routage géolocalisation et il se termine par un numéro sur une passerelle RTC placée sur le même site (par exemple, Office). Le routage des appels sortants est effectué via la stratégie de routage des communications vocales du site réseau dans lequel l’utilisateur est situé. Les appels RTC entrants destinés à l’utilisateur sont acheminés vers les points de terminaison situés dans le même site réseau que la passerelle RTC.
+  - L’utilisateur se trouve dans un site réseau connu activé pour le routage géodépendant et son numéro DID (numérotation directe vers l’intérieur) se termine sur une passerelle RTC placée dans le même site réseau (c.-à-d. Office). Le routage des appels sortants s’effectue par le biais de la stratégie de routage des communications vocales du site réseau dans lequel se trouve l’utilisateur. Les appels RTC entrants vers l’utilisateur sont acheminés vers les points de terminaison situés dans le même site réseau que la passerelle RTC.
 
-  - L’utilisateur est situé dans un site réseau connu différent du site réseau dans lequel la passerelle RTC est située (l’utilisateur a été déplacé vers une autre agence). Le routage des appels sortants utilise la stratégie de routage des communications vocales du site réseau dans lequel l’utilisateur est situé. Les appels RTC entrants destinés à l’utilisateur ne sont pas acheminés vers les points de terminaison situés dans d’autres sites que la passerelle RTC pour empêcher le contournement des frais de réseau téléphonique commuté.
+  - L’utilisateur se trouve dans un site réseau connu qui est différent du site réseau où se trouve la passerelle PSTN. (par exemple, l’utilisateur est parcouru à un autre bureau d’entreprise). Le routage des appels sortants utilise la stratégie de routage des communications vocales du site réseau dans lequel se trouve l’utilisateur. Les appels RTC entrants vers l’utilisateur ne sont pas acheminés vers les points de terminaison situés dans des sites différents de celui de la passerelle PSTN afin d’empêcher le contournement payant PSTN.
 
-  - Lorsqu’un utilisateur se trouve dans un site réseau qui n’est pas connu du déploiement de Lync Server, le routage des appels sortants sera basé sur la stratégie vocale attribuée à l’utilisateur sur les passerelles RTC qui ne sont pas liées aux restrictions de routage basées sur l’emplacement. Les appels RTC entrants ne sont pas acheminés vers les points de terminaison situés dans des sites réseau inconnus pour empêcher le contournement des frais de réseau téléphonique commuté.
+  - Lorsqu’un utilisateur se trouve dans un site réseau inconnu du déploiement de Lync Server, le routage des appels sortants est basé sur la stratégie de voix attribuée à l’utilisateur sur les passerelles PSTN qui ne sont pas liées à des restrictions de routage basées sur l’emplacement. Les appels RTC entrants ne sont pas acheminés vers les points de terminaison situés dans des sites réseau inconnus pour empêcher le contournement payant PSTN.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Instructions de routage géodépendant dans Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
+[Conseils pour le routage géodépendant dans Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

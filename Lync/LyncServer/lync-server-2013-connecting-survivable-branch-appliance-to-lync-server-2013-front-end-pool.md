@@ -12,16 +12,16 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73806f481cfe7c44a5eb9507d043565765a08f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d23b501738010a8e5e5ed1c5c2e9a8608b0709e4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41740574"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Chaque appareil de branchement Survivable (SBA) est associé à un pool frontal, qui fait office d’agent de sauvegarde pour le SBA. Lorsque le pool frontal est mis à niveau vers Lync Server 2013, le SBA doit être désassocié du pool frontal lors de la mise à niveau du pool frontal. Après la mise à niveau du pool frontal, le SBA peut être associé au pool frontal. Cela implique la suppression de l’SBA de la topologie dans le générateur de topologie, puis l’ajout de l’SBA, là encore, au générateur de topologie. Les utilisateurs hébergés sur le SBA doivent être déplacés vers un autre pool frontal avant de supprimer l’SBA de la topologie. Après l’ajout de l’SBA à la topologie, ces utilisateurs peuvent être replacés vers l’SBA.
+Chaque Survivable Branch Appliance (SBA) est associé à un pool de serveurs frontaux, qui sert de serveur d’inscriptions de sauvegarde pour le SBA. Lorsque le pool frontal est mis à niveau vers Lync Server 2013, le SBA doit être désassocié du pool frontal pendant la mise à niveau du pool frontal. Une fois le pool frontal mis à niveau, le SBA peut être réassocié au pool frontal. Cela implique de supprimer le SBA de la topologie dans le Générateur de topologie, puis de l’ajouter à nouveau au Générateur de topologie. Les utilisateurs hébergés sur le SBA doivent être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie. Une fois que le SBA a été rajouté à la topologie, ces utilisateurs peuvent réintégrer le SBA.
 
-Ces étapes sont décrites ci-dessous :
+Voici un récapitulatif de ces étapes :
 
-1.  Déplacez les utilisateurs de succursales hébergés sur SBA vers un autre pool frontal.
+1.  Déplacez les utilisateurs de succursale hébergés sur SBA vers un autre pool frontal.
 
-2.  Supprimez SBA de votre topologie pour dissocier le pool frontal existant en tant qu’Bureau d’enregistrement de sauvegarde.
+2.  Supprimez SBA de votre topologie pour dissocier le pool frontal existant en tant que serveur d’inscriptions de sauvegarde.
 
 3.  Mettez à niveau le pool frontal vers Microsoft Lync Server 2013.
 
-4.  Ajoutez SBA dans votre topologie.
+4.  Rajoutez le SBA à votre topologie.
 
-5.  Associez le nouveau pool frontal à l’SBA en tant qu’Bureau d’enregistrement de sauvegarde.
+5.  Associez le nouveau pool frontal au SBA en tant que serveur d’inscriptions de sauvegarde.
 
-6.  Transférez les utilisateurs de succursale vers le SBA.
+6.  Réintégrez les utilisateurs au SBA.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
+  - [Ajouter le site de succursale Survivable Branch Appliance Lync Server 2013 à votre topologie](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
 
-  - [Ajout d’un site de succursale Survivable Branch Appliance Lync Server 2010 à votre topologie](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
+  - [Ajouter le site de succursale Survivable Branch Appliance Lync Server 2010 à votre topologie](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cc085cd6ac39c4712647795c5baf06eaa68f77a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 901562812e7847a6c205f042922dca6383ad6254
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737544"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41737544"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Le service Edge A/V offre aux utilisateurs internes (qui sont connectés à votre réseau d’entreprise) un moyen de partager des fichiers audio et vidéo avec des utilisateurs externes (les utilisateurs qui ne sont pas connectés au réseau de votre organisation). Le service Edge A/V est essentiellement géré à l’aide des paramètres de configuration d’un serveur à l’aide d’une/V, le paramétrage qui peut être configuré sur l’étendue du site ou au niveau de l’étendue de service (autrement dit, peut être configuré pour un serveur Edge A/V individuel).
+Le service Edge A/V permet à vos utilisateurs internes (les utilisateurs connectés au réseau de votre organisation) de partager des fichiers audio et vidéo avec des utilisateurs externes (des utilisateurs qui ne sont pas connectés au réseau de votre organisation). La gestion du service Edge A/V s’effectue à l’aide des paramètres de configuration de ce service. Les paramètres peuvent être configurés au niveau du site ou du service (c’est-à-dire pour un serveur Edge A/V).
 
-Lorsque vous installez Lync Server, une collection globale des paramètres de configuration de Microsoft Edge a/V est créée pour vous. Cette collection globale ne peut pas être supprimée. Toutefois, vous pouvez utiliser Windows PowerShell et l’applet de passe Remove-CsAVEdgeConfiguration pour « réinitialiser » la collection globale. Cela signifie simplement que toutes les valeurs de propriété de la collection globale seront réinitialisées à leur valeur par défaut. Par exemple, si vous avez défini la propriété MaxTokenLifetime pendant 16 heures, cette propriété sera réinitialisée sur sa valeur par défaut de 8 heures.
+Lorsque vous installez Lync Server, une collection globale de paramètres de configuration Edge A/V est créée pour vous. Cette collection globale ne peut pas être supprimée. Toutefois, vous pouvez utiliser Windows PowerShell et l’applet de commande Remove-CsAVEdgeConfiguration pour « réinitialiser » la collection globale ; Cela signifie simplement que toutes les valeurs de propriété de la collection globale seront réinitialisées à leur valeur par défaut. Par exemple, si vous avez affecté à la propriété MaxTokenLifetime un nombre d’heures égal à 16, la valeur par défaut (à savoir 8 heures) de cette propriété est rétablie.
 
-Toutefois, les collections de paramètres personnalisés que vous avez créées sur l’étendue du site ou sur l’étendue du service peuvent être supprimées à l’aide de l’applet de passe Remove-CsAVEdgeConfiguration. Si vous supprimez les paramètres du site, les serveurs Edge A/V de ce site seront gérés par les paramètres globaux. Si vous supprimez les paramètres d’étendue des services, ce serveur est alors géré par ses paramètres de site, le cas échéant, ou par les paramètres globaux si aucun paramètre de site n’est disponible.
+Toutefois, vous pouvez supprimer les collections de paramètres personnalisées que vous avez créées au niveau de l’étendue du site ou du service à l’aide de l’applet de commande Remove-CsAVEdgeConfiguration. Si vous supprimez les paramètres au niveau du site, les serveurs Edge A/V dans ce site sont alors gérés par les paramètres globaux. Si vous supprimez les paramètres au niveau du service, ce serveur est alors géré par ses paramètres de site (le cas échéant) ou par les paramètres globaux si aucun paramètre de site n’est disponible.
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15)) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15)) .
 
 <div>
 
 ## <a name="to-reset-the-global-collection"></a>Pour réinitialiser la collection globale
 
-  - La commande suivante réinitialise la collection globale des paramètres de configuration de Edge A/V :
+  - La commande suivante réinitialise la collection globale des paramètres de configuration Edge A/V :
     
         Remove-CsAVEdgeConfiguration -Identity "global"
 
@@ -57,9 +57,9 @@ Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l�
 
 <div>
 
-## <a name="to-remove-a-collection-from-the-site-scope"></a>Pour supprimer une collection de l’étendue du site
+## <a name="to-remove-a-collection-from-the-site-scope"></a>Pour supprimer une collection de l’étendue site
 
-  - Cette commande supprime les paramètres de configuration d’une application A/V appliqués au site de Redmond :
+  - Cette commande supprime les paramètres de configuration Edge A/V appliqués au site Redmond :
     
         Remove-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -67,7 +67,7 @@ Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l�
 
 <div>
 
-## <a name="to-remove-a-collection-from-the-service-scope"></a>Pour supprimer une collection de l’étendue du service
+## <a name="to-remove-a-collection-from-the-service-scope"></a>Pour supprimer une collection de l’étendue service
 
   - Cette commande supprime les paramètres appliqués au serveur Edge A/V atl-edge-001.litwareinc.com :
     
@@ -80,12 +80,12 @@ Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l�
 ## <a name="see-also"></a>Voir aussi
 
 
-[Renvoyer des informations de configuration de serveur Edge A/V dans Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[Créer ou modifier un ensemble de paramètres de configuration de serveur Edge A/V dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+[Renvoyer les informations de configuration du serveur Edge A/V dans Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Créer ou modifier une collection de paramètres de configuration de serveur Edge A/V dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
-[Serveurs périphériques audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))  
+[Serveurs Edge audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))  
   
 
 </div>

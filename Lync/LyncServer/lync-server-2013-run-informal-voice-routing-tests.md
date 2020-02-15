@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exécuter des tests de routage de voix informels'
+title: 'Lync Server 2013 : exécuter des tests de routage des communications vocales informelles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8edac9a9bd955165a2e20197fd340ea80c2e27a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765072"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Exécuter des tests de routage de voix informels dans Lync Server 2013
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Exécuter des tests de routage des communications vocales informels dans Lync Server 2013
 
 </div>
 
@@ -37,75 +37,72 @@ ms.locfileid: "41765072"
 
 _**Dernière modification de la rubrique :** 2012-08-07_
 
-Vous pouvez utiliser la boîte de dialogue **créer des informations de cas de test de routage de voix** pour exécuter des tests informels avant de créer un cas de test réel. Lorsque vous êtes satisfait du résultat d’un test, vous pouvez l’enregistrer comme un cas de test formel.
+Vous pouvez utiliser la boîte de dialogue **Créer des informations de cas de test de routage des communications vocales** pour effectuer des tests informels avant de lancer un cas de test réel. Lorsque vous êtes satisfait du résultat d’un test, vous pouvez l’enregistrer comme un cas de test formel.
 
 <div>
 
-## <a name="to-run-an-informal-voice-routing-test"></a>Pour exécuter un test de routage vocal informel
+## <a name="to-run-an-informal-voice-routing-test"></a>Pour effectuer un test de routage des communications vocales informel
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **routage des communications vocales**, puis cliquez sur **tester le routage vocal**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Tester le routage des communications vocales**.
 
-4.  Dans la page **test de routage vocal** , cliquez sur **créer des informations de cas de test de routage vocal**.
+4.  Dans la page **Tester le routage des com. vocales**, cliquez sur **Créer des informations de cas de test de routage des communications vocales**.
 
-5.  Dans le champ **numéro composé** , entrez le numéro de téléphone que vous voulez utiliser pour ce test. Ce numéro sera normalisé et affiché dans le champ **nombre normalisé** du volet **résultats** .
+5.  Dans le champ **Numéro composé**, entrez le numéro de téléphone à utiliser pour ce test. Ce numéro sera normalisé et affiché dans le champ **Numéro normalisé** du volet **Résultats**.
 
-6.  Dans la liste **plan de numérotation** , sélectionnez le plan de numérotation à utiliser pour tester le numéro numéroté. Par défaut est le plan de numérotation global.
+6.  Dans la liste **Plan de numérotation**, sélectionnez le plan de numérotation à utiliser pour tester le numéro composé. Le plan de numérotation global est utilisé par défaut.
     
-    Lors de l’exécution du test, la première règle de normalisation de ce plan de numérotation qui correspond au numéro composé sera affichée dans le champ **règle de normalisation** du volet **résultats** .
+    Lorsque vous exécutez le test, la première règle de normalisation de ce plan de numérotation correspondant au numéro composé apparaîtra dans le champ **Règle de normalisation** du volet **Résultats**.
 
-7.  Dans la liste **politique vocale** , sélectionnez la stratégie vocale à utiliser pour tester le numéro numéroté. La valeur par défaut est la stratégie de voix globale.
+7.  Dans la liste **Stratégie de voix**, sélectionnez la stratégie de voix à utiliser pour tester le numéro composé. La stratégie de voix globale est utilisée par défaut.
     
-    Lors de l’exécution du test, le premier enregistrement d’utilisation RTC correspondant à cette stratégie vocale est affiché dans le premier champ d' **utilisation RTC** du volet **résultats** . Par ailleurs, le premier itinéraire vocal correspondant associé à cet enregistrement d’utilisation RTC sera affiché dans le premier champ de **routage** .
+    Lorsque vous exécutez le test, le premier enregistrement d’utilisation PSTN correspondant de cette stratégie de voix s’affichera dans le champ **Première utilisation PSTN** du volet **Résultats**. Le premier routage des communications vocales correspondant associé à cet enregistrement d’utilisation PSTN apparaîtra également dans le champ **Premier itinéraire**.
 
-8.  Facultatif Activez la case à cocher **remplir à partir de l’utilisateur** si vous souhaitez tester le numéro numéroté par rapport à la stratégie vocale attribuée à un utilisateur particulier.
+8.  (Optionnel) Activez la case à cocher **Remplir à partir de l’utilisateur** pour tester le numéro composé par rapport à la stratégie de voix attribuée à un utilisateur particulier.
     
-    1.  Cliquez sur **Parcourir** pour afficher la boîte de dialogue **Sélectionner des utilisateurs voix entreprise** .
+    1.  Cliquez sur **Parcourir** pour afficher la boîte de dialogue **Sélectionner des utilisateurs Voix Entreprise**.
     
-    2.  Cliquez sur **Rechercher** pour afficher la liste des utilisateurs activés pour voix entreprise.
+    2.  Cliquez sur **Rechercher** pour afficher la liste des utilisateurs activés pour Voix Entreprise.
     
-    3.  Double-cliquez sur le nom d’utilisateur dont vous souhaitez utiliser la politique vocale affectée pour ce test. Le champ **politique** est désormais rempli par la stratégie vocale affectée à l’utilisateur sélectionné.
+    3.  Double-cliquez sur le nom d’utilisateur dont vous souhaitez utiliser la stratégie de voix attribuée pour ce test. Le champ **Stratégie** affiche à présent la stratégie de voix attribuée à l’utilisateur sélectionné.
     
-    Lors de l’exécution du test, le premier enregistrement d’utilisation RTC (réseau téléphonique commuté) correspondant à cette stratégie vocale sera affiché dans le **premier champ d’utilisation RTC** du volet **résultats** . Par ailleurs, le premier itinéraire vocal correspondant associé à cet enregistrement d’utilisation RTC sera affiché dans le premier champ de **routage** .
+    Lorsque vous exécutez le test, le premier enregistrement d’utilisation réseau téléphonique commuté (PSTN) correspondant de cette stratégie de voix s’affichera dans le champ **Première utilisation PSTN** du volet **Résultats**. Le premier routage des communications vocales correspondant associé à cet enregistrement d’utilisation PSTN apparaîtra également dans le champ **Premier itinéraire**.
 
-9.  Cliquez sur **exécuter** pour exécuter le cas de test. Les résultats sont affichés dans le volet droit de la boîte de dialogue.
+9.  Cliquez sur **Exécuter** pour lancer le cas de test. Les résultats s’affichent dans le panneau droit de la boîte de dialogue.
 
-10. Facultatif Cliquez sur **Enregistrer sous** si vous voulez enregistrer cette configuration de test en tant que cas de test formel.
+10. (Optionnel) Cliquez sur **Enregistrer sous** pour enregistrer la configuration de test comme un cas de test formel.
     
-    1.  Dans le champ **nom** de la boîte de dialogue **enregistrer les informations de cas de test de routage de voix** , tapez un nom unique pour le cas de test.
+    1.  Dans le champ **Nom** de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales**, entrez le nom unique de ce cas de test.
         
-        Ce nom doit être unique parmi les cas de test de routage vocal dans votre déploiement voix entreprise. Il peut y avoir une longueur maximale de 32 caractères et contenir des caractères alphanumériques, en plus de la barre\\oblique inverse (), du point (.) ou\_du trait de soulignement ().
+        Le nom doit être unique parmi tous les cas de test de routage des communications vocales dans votre déploiement Voix Entreprise. Il peut comporter jusqu’à 32 caractères et peut contenir des caractères alphanumériques, outre la barre oblique inverse (\\), le point (.) ou le trait de soulignement (\_).
     
-    2.  Notez que les champs restants de la boîte de dialogue Enregistrer les informations de cas de test de l' **itinéraire vocale** sont en lecture seule et sont préremplis par rapport à la configuration *et* aux résultats du test informel. Vérifiez qu’il s’agit de la configuration que vous voulez enregistrer pour le cas de test.
+    2.  Notez que les champs restants de la boîte de dialogue **Enregistrer les informations de cas de test de routage des communications vocales** sont en lecture seule et préremplis à partir de la configuration *et* des résultats du test informel. Vérifiez qu’il s’agit effectivement de la configuration à enregistrer pour le cas de test.
         
         <div>
         
 
         > [!NOTE]  
-        > Les valeurs des résultats de test permettent de préremplir les champs de la boîte de dialogue Enregistrer les informations de cas de test de l' <STRONG>acheminement du message</STRONG> , comme suit : 
+        > Les valeurs des résultats du test servent à préremplir les champs de la boîte de dialogue <STRONG>Enregistrer les informations de cas de test de routage des communications vocales</STRONG> de la façon suivante : 
         > <UL>
         > <LI>
-        > <P>La <STRONG>traduction attendue</STRONG> est préremplie avec la valeur du champ <STRONG>nombre normalisé</STRONG> .</P>
+        > <P>Le champ <STRONG>Traduction attendue</STRONG> est prérempli avec la valeur du champ <STRONG>Numéro normalisé</STRONG>.</P>
         > <LI>
-        > <P>Le champ <STRONG>route attendu</STRONG> est pré-rempli avec la valeur du <STRONG>premier champ itinéraire</STRONG> .</P>
+        > <P>Le champ <STRONG>Itinéraire attendu</STRONG> est prérempli avec la valeur du champ <STRONG>Premier itinéraire</STRONG>.</P>
         > <LI>
-        > <P>L' <STRONG>enregistrement d’utilisation RTC attendu</STRONG> est pré-rempli avec la valeur du premier champ d' <STRONG>utilisation PSTN</STRONG> .</P></LI></UL>Si les correspondances pour une de ces valeurs n’ont pas été trouvées lors de la série de tests, le champ correspondant est vide dans la boîte de dialogue Enregistrer les informations de cas de test de l' <STRONG>acheminement du message</STRONG> .
-
-        
-        </div>
+        > <P>Le champ <STRONG>Utilisation PSTN attendue</STRONG> est prérempli avec la valeur du champ <STRONG>Première utilisation PSTN</STRONG>.</P></LI></UL>Si le test ne renvoie aucun résultat pour ces valeurs, le champ correspondant apparaît vide dans la boîte de dialogue <STRONG>Enregistrer les informations de cas de test de routage des communications vocales</STRONG>.</div>
     
-    3.  Cliquez sur **OK** pour enregistrer le cas de test, ou cliquez sur **Annuler** pour revenir à la boîte de dialogue Afficher les informations de cas de **test de routage**
+    3.  Cliquez sur **Ok** pour enregistrer le cas de test, ou sur **Annuler** pour revenir à la boîte de dialogue **Afficher les informations de cas de test de routage des communications vocales** pour poursuivre le test avant de l’enregistrer.
 
-11. Cliquez sur **Valider**, puis sur **Tout valider**.
+11. Cliquez sur **Valider**, puis sur **Valider tout**.
     
     <div>
     
 
     > [!NOTE]  
-    > Chaque fois que vous créez un cas de test de routage de voix, vous devez exécuter la commande <STRONG>valider tout</STRONG> pour publier le cas de test. Pour plus d’informations, reportez-vous <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">à la rubrique publier des modifications en attente sur la configuration de l’acheminement de la voix dans Lync Server 2013</A> dans la documentation
+    > À chaque fois que vous créez un cas de test de routage des communications vocales, vous devez exécuter la commande <STRONG>Valider tout</STRONG> pour publier le cas de test. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publier des modifications en attente dans la configuration du routage des communications vocales dans Lync Server 2013</A> dans la documentation des opérations.
 
     
     </div>
@@ -117,14 +114,14 @@ Vous pouvez utiliser la boîte de dialogue **créer des informations de cas de t
 ## <a name="see-also"></a>Voir aussi
 
 
-[Création d’un cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)  
-[Exécuter des cas de test de routage de voix dans Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)  
-[Exportation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
-[Importation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
+[Créer un cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)  
+[Exécuter des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)  
+[Exporter des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
+[Importer des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
 
 
 [Configuration des plans de numérotation dans Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[Configuration des stratégies vocales, des enregistrements d’utilisation RTC et des itinéraires vocaux dans Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+[Configuration des stratégies de voix, des enregistrements d’utilisation RTC et des itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
   
 
 </div>

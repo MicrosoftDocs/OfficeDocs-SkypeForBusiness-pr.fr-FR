@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : UserAgentDef'
+title: 'Lync Server 2013 : table table useragentdef'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0996abb7098ba636fc31d27388257f570a549ce2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744374"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-in-lync-server-2013"></a>Table UserAgentDef dans Lync Server 2013
+# <a name="useragentdef-table-in-lync-server-2013"></a>Table table useragentdef dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41744374"
 
 _**Dernière modification de la rubrique :** 2014-03-25_
 
-La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms descriptifs de l’agent. Les agents utilisateurs sont utilisés pour se connecter à Microsoft Lync Server 2013. Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Le tableau table useragentdef mappe les identificateurs de l’agent utilisateur aux noms descriptifs de l’agent. Les agents utilisateurs sont des clients logiciels utilisés pour se connecter à Microsoft Lync Server 2013. Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,27 +55,27 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Le serveur de médiation</p></td>
-<td><p>Le serveur de médiation</p></td>
+<td><p>1 </p></td>
+<td><p>MediationServer</p></td>
+<td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>deuxième</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>OC</p></td>
-<td><p>OC</p></td>
+<td><p>4 </p></td>
+<td><p>O</p></td>
+<td><p>O</p></td>
 </tr>
 <tr class="even">
-<td><p>version8</p></td>
+<td><p>8 </p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>Seiz</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -86,23 +86,23 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>HAUTEUR</p></td>
-<td><p>HAUTEUR</p></td>
+<td><p>MM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
-<td><p>MC</p></td>
-<td><p>HAUTEUR</p></td>
+<td><p>McDonald</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Intendant</p></td>
-<td><p>Intendant</p></td>
+<td><p>Attendant</p></td>
+<td><p>Attendant</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>ALTERN</p></td>
+<td><p>DÉDIÉ</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
@@ -117,17 +117,17 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>ÉCHOUÉ</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
 <td><p>Call_Park_Service_1.0</p></td>
-<td><p>DÉCLARATIONS</p></td>
+<td><p>CPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
-<td><p>Announcement_Service Response_Group_Service</p></td>
-<td><p>PLUS</p></td>
+<td><p>Response_Group_Service Announcement_Service</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
@@ -166,8 +166,8 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ÈRE</p></td>
-<td><p>ÈRE</p></td>
+<td><p>ER</p></td>
+<td><p>ER</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -206,18 +206,18 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>MICRO</p></td>
-<td><p>MICRO</p></td>
+<td><p>PIEC</p></td>
+<td><p>PIEC</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
-<td><p>LOUA</p></td>
-<td><p>LOUA</p></td>
+<td><p>LWA</p></td>
+<td><p>LWA</p></td>
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
-<td><p>App</p></td>
-<td><p>App</p></td>
+<td><p>OWA</p></td>
+<td><p>OWA</p></td>
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
@@ -226,8 +226,8 @@ La table UserAgentDef mappe les identificateurs d’agent utilisateur aux noms d
 </tr>
 <tr class="odd">
 <td><p>16408</p></td>
-<td><p>ANTÉRIEURES</p></td>
-<td><p>ANTÉRIEURES</p></td>
+<td><p>GCC</p></td>
+<td><p>GCC</p></td>
 </tr>
 <tr class="even">
 <td><p>16409</p></td>

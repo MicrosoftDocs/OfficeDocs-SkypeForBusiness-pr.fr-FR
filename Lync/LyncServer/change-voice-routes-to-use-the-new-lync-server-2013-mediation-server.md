@@ -1,5 +1,5 @@
 ---
-title: Changer les itinéraires vocaux pour utiliser le nouveau serveur de médiation Lync Server 2013
+title: Modifier les itinéraires de communications vocales pour utiliser le nouveau serveur de médiation Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727554"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>Changer les itinéraires vocaux pour utiliser le nouveau serveur de médiation Lync Server 2013
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>Modifier les itinéraires de communications vocales pour utiliser le nouveau serveur de médiation Lync Server 2013
 
 </div>
 
@@ -38,35 +38,35 @@ ms.locfileid: "41727554"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Cette procédure modifie les itinéraires vocaux pour utiliser le serveur de médiation Lync Server 2013, au lieu du serveur de médiation traditionnel d’Office Communications Server 2007 R2.
+Cette procédure modifie les itinéraires des communications vocales de façon à utiliser le serveur de médiation Lync Server 2013, au lieu du serveur de médiation Office Communications Server 2007 R2 hérité.
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>Pour modifier les itinéraires vocaux et utiliser le nouveau serveur de médiation
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>Pour changer les itinéraires des communications vocales de façon à utiliser le nouveau serveur de médiation
 
-1.  Panneau de configuration de Lync Server 2013
+1.  Panneau de configuration Lync Server 2013
 
-2.  Dans le volet de gauche, sélectionnez routage de la **voix** , puis **route**.
+2.  Dans le volet gauche, sélectionnez **Routage des communications vocales**, puis cliquez sur **Itinéraire**.
 
-3.  Cliquez sur **nouveau** pour créer un nouvel itinéraire.
+3.  Cliquez sur **Nouveau** pour créer un itinéraire des communications vocales.
 
-4.  Renseignez les champs suivants :
+4.  Remplissez les champs suivants :
     
-      - **Nom**: tapez un nom descriptif pour l’itinéraire vocal. Pour ce document, nous utiliserons **W15PSTNRoute**.
+      - **Nom** : tapez un nom descriptif de l’itinéraire des communications vocales. Pour ce document, nous allons utiliser **W15PSTNRoute**.
     
-      - **Description**: tapez une brève description de l’itinéraire vocal.
+      - **Description** : tapez une brève description de l’itinéraire des communications vocales.
 
-5.  Ignorer toutes les sections restantes jusqu’à ce que vous atteigniez les **passerelles associées**. Cliquez sur **Ajouter**. Sélectionnez la nouvelle passerelle par défaut, puis cliquez sur **OK**.
+5.  Ignorez toutes les autres sections jusqu’à atteindre **Passerelles associées**. Cliquez sur **Ajouter**. Sélectionnez la nouvelle passerelle par défaut et cliquez sur **OK**.
 
-6.  Dans **utilisations RTC associées**, cliquez sur **Sélectionner**.
+6.  Sous **Utilisations PSTN associées**, cliquez sur **Sélectionner**.
 
-7.  Dans la page **Sélectionner un enregistrement d’utilisation RTC** , sélectionnez un nom d’enregistrement, puis cliquez sur **OK**.
+7.  Dans la page **Sélectionner un enregistrement d’utilisation PSTN**, sélectionnez un nom d’enregistrement, puis cliquez sur **OK**.
 
-8.  Dans la page **nouvelle gamme vocale** , cliquez sur **OK** pour créer l' **itinéraire vocal**.
+8.  Dans la page **Nouvel itinéraire des communications vocales**, cliquez sur **OK** pour créer l’**Itinéraire des communications vocales**.
 
-9.  Sur la page routage de la **voix** , sélectionnez **gamme**.
+9.  Dans la page **Routage des communications vocales**, sélectionnez **Itinéraire**.
 
-10. Déplacez l’itinéraire nouvellement créé vers le haut de la liste, puis sélectionnez **valider**.
+10. Déplacez l’itinéraire que vous venez de créer en haut de la liste, puis sélectionnez **Valider**.
 
 </div>
 

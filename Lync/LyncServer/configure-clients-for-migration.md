@@ -1,5 +1,5 @@
 ---
-title: Configuration des clients pour la migration
+title: Configurer les clients pour la migration
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfba9142aca4981f02b0dca7e8e0b16a2cde446
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727964"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>Configuration des clients pour la migration
+# <a name="configure-clients-for-migration"></a>Configurer les clients pour la migration
 
 </div>
 
@@ -38,15 +38,15 @@ ms.locfileid: "41727964"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-Cette rubrique contient les étapes de déploiement de client recommandées avant de procéder à la migration vers Lync Server 2013. Ces modifications de configuration doivent être apportées sur Lync Server 2010.
+Cette rubrique contient les étapes de déploiement de clients recommandées avant la migration vers Lync Server 2013. Ces modifications de configuration doivent être effectuées sur Lync Server 2010.
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a>Pour configurer des clients avant la migration
+## <a name="to-configure-clients-before-migration"></a>Pour configurer les clients avant la migration
 
-1.  Déploiement de la version la plus récente des mises à jour de serveur, de client et d’appareil (HotFix) pour Lync Server 2010. Pour obtenir les informations les plus récentes sur Lync Server 2010, voir mettre à jour le centre de ressources pour Lync à <http://go.microsoft.com/fwlink/p/?linkid=232630>l’adresse.
+1.  Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour Lync Server 2010. Pour obtenir les informations les plus à jour sur Lync Server 2010, consultez la rubrique mises à jour du centre de ressources <http://go.microsoft.com/fwlink/p/?linkid=232630>pour Lync à l’adresse.
 
-2.  Sur Lync Server 2010, utilisez les filtres de version de client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.
+2.  Sur Lync Server 2010, utilisez le filtrage de version du client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.
 
 </div>
 
@@ -56,10 +56,10 @@ Cette rubrique contient les étapes de déploiement de client recommandées avan
 
 
 [Paramètres nouveaux et modifiés pour Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
-[Interopérabilité des clients dans Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[Interopérabilité des clients dans Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
-[Planification des clients et des appareils dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)  
+[Planification des clients et des périphériques dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)  
   
 
 </div>

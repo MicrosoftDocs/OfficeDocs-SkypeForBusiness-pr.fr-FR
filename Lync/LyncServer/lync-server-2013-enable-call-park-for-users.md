@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : activer le parc d’appels pour les utilisateurs'
+title: 'Lync Server 2013 : activation du parcage d’appel pour les utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd89ba10f5cae16e88c65e6e56178fc517c71213
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8d739c9987c0a17c29997fad8ac47b2d886fbea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736244"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Activer le parc d’appels pour les utilisateurs dans Lync Server 2013
+# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Activer le parcage d’appel pour les utilisateurs dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41736244"
 
 _**Dernière modification de la rubrique :** 2012-09-11_
 
-Les utilisateurs ne peuvent pas parcer les appels ou récupérer les appels en stationnement tant qu’ils sont activés pour le parc d’appels dans la politique vocale.
+Les utilisateurs ne peuvent pas parkiser les appels ou récupérer les appels parqués jusqu’à ce qu’ils soient activés pour le parcage d’appel dans la stratégie de voix.
 
 <div>
 
 
 > [!NOTE]  
-> Par défaut, le parc d’appels est désactivé pour tous les utilisateurs.
+> Par défaut, le parcage d’appel est désactivé pour tous les utilisateurs.
 
 
 
 </div>
 
-Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à l’étendue du site ou l’étendue de l’utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies vocales, passez en revue toutes les stratégies pour activer le parc d’appels, pas seulement la politique globale.
+Vous pouvez activer le parcage d’appel au niveau de l’étendue globale ou de l’étendue du site ou de l’utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies de voix, vérifiez toutes les stratégies pour activer le parcage d’appel, et pas seulement la stratégie globale.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-enable-call-park-for-users"></a>Pour utiliser le panneau de configuration de Lync Server pour activer le parc d’appels pour les utilisateurs
+## <a name="to-use-lync-server-control-panel-to-enable-call-park-for-users"></a>Pour utiliser le panneau de configuration Lync Server pour activer le parcage d’appel pour les utilisateurs
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe **RTCUniversalServerAdmins** ou membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou**CsAdministrator**.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
 
@@ -73,17 +73,17 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
 
 <div>
 
-## <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Utiliser des cmdlets pour activer le parc d’appels pour les utilisateurs
+## <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Pour utiliser des applets de commande afin d’activer le parcage d’appel pour les utilisateurs
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins, ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Exécutez :
+3.  Générer
     
         Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
     
-    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut :
+    Par exemple, pour activer le parcage d’appel pour la stratégie de voix globale par défaut :
     
         Set-CsVoicePolicy -EnableCallPark $true
 
@@ -94,7 +94,7 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer une stratégie de voix et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Création d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
   
 
 </div>

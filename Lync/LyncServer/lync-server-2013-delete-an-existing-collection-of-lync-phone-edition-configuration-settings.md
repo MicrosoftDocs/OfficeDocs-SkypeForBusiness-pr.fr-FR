@@ -12,20 +12,20 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf7d49a14ce45550777c6c122cd799f6a511f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 175f7d9cd5417f350dd08873aa748c56d829d86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737404"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration de Lync Phone Edition dans Lync Server 2013
+# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Supprimer une collection existante de paramètres de configuration Lync Phone Edition dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41737404"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Si vous ne voulez plus utiliser un ensemble de paramètres pour les appareils exécutant Lync Phone Edition, supprimez-le. Si vous supprimez une collection pour un site, les paramètres globaux s’appliquent aux téléphones de ce site. Vous ne pouvez pas supprimer la collection globale.
+Si vous ne souhaitez plus utiliser une collection de paramètres pour les appareils exécutant Lync Phone Edition, supprimez-le. Si vous supprimez la collection de paramètres d’un site, les paramètres globaux s’appliqueront aux téléphones de ce site. Vous ne pouvez pas supprimer la collection globale.
 
 <div>
 
 
 > [!NOTE]
-> Au lieu de supprimer une collection, il est possible que vous vouliez simplement modifier certains paramètres. Pour plus d’informations sur la façon de procéder, voir <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">créer ou modifier un ensemble de paramètres de configuration de Lync Phone Edition dans Lync Server 2013</A>.
+> Au lieu de supprimer une collection, vous pouvez simplement modifier certains des paramètres. Pour plus d’informations sur la procédure à suivre, voir <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">créer ou modifier une collection de paramètres de configuration de Lync Phone Edition dans Lync Server 2013</A>.
 
 
 
@@ -53,38 +53,38 @@ Si vous ne voulez plus utiliser un ensemble de paramètres pour les appareils ex
 
 ## <a name="to-delete-a-collection-of-lync-phone-edition-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration de Lync Phone Edition
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton navigation de **configuration d’appareil** .
+3.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur le bouton de navigation **Configuration du périphérique**.
 
-4.  Dans la page Configuration de l' **appareil** , cliquez sur la collection que vous voulez supprimer, cliquez sur le menu **modifier** , puis cliquez sur **supprimer**.
+4.  Dans la page **Configuration du périphérique**, cliquez sur la collection à supprimer, sur le menu **Edition**, puis sur **Supprimer**.
     
     <div>
     
 
     > [!NOTE]
-    > Si vous supprimez la collection globale, les paramètres sont restaurés par défaut. La collection n’est pas déplacée.
+    > Si vous supprimez la collection globale, les paramètres par défaut sont simplement rétablis. La collection ne disparaît pas.
 
     
     </div>
 
-5.  Dans la boîte de confirmation, cliquez sur **OK**.
+5.  Dans la boîte de dialogue de confirmation, cliquez sur **OK**.
 
 </div>
 
 <div>
 
-## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Supprimer les paramètres de configuration de Lync Phone Edition en utilisant des applets de cmdlet Windows PowerShell
+## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de Lync Phone Edition à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration de Lync Phone Edition à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsUCConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez supprimer les paramètres de configuration de Lync Phone Edition à l’aide de Windows PowerShell et de l’applet de commande **Remove-CsUCConfiguration** . Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration de Lync Phone Edition spécifiée
+## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Pour supprimer une collection spécifique de paramètres de configuration de Lync Phone Edition
 
-  - Cette commande supprime les paramètres de configuration de téléphone UC appliqués au site de Redmond :
+  - Cette commande permet de supprimer les paramètres de configuration du téléphone pour messagerie unifiée appliqués au site Redmond :
     
         Remove-CsUCPhoneConfiguration -Identity "site:Redmond"
 
@@ -92,9 +92,9 @@ Vous pouvez supprimer des paramètres de configuration de Lync Phone Edition à 
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration de Lync Phone Edition appliqués à l’étendue du site
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>Pour supprimer tous les paramètres de configuration de Lync Phone Edition appliqués à l’étendue site
 
-  - Cette commande supprime tous les paramètres de configuration de téléphone de UC appliqués à l’étendue du service :
+  - Cette commande permet de supprimer tous les paramètres de configuration du téléphone pour messagerie unifiée appliqués à l’étendue Service :
     
         Get-CsUCPhoneConfiguration -Filter "site:*" | Remove-CsUCPhoneConfiguration
 
@@ -102,15 +102,15 @@ Vous pouvez supprimer des paramètres de configuration de Lync Phone Edition à 
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Pour supprimer tous les paramètres de configuration de Lync Phone Edition dans lesquels le verrouillage de téléphone est désactivé
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Pour supprimer tous les paramètres de configuration de Lync Phone Edition où le verrouillage du téléphone est désactivé
 
-  - Cette commande supprime tous les ensembles de paramètres de configuration du téléphone de type UC pour lesquels le verrouillage du téléphone a été désactivé :
+  - Cette commande permet de supprimer les collections de paramètres de configuration du téléphone pour messagerie unifiée dans lesquels le verrouillage du téléphone a été désactivé :
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
 </div>
 
-Pour plus d’informations, consultez la rubrique [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15)).
+Pour plus d’informations, consultez la rubrique [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15)).
 
 </div>
 

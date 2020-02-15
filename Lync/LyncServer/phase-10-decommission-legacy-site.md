@@ -1,5 +1,5 @@
 ---
-title: 'Étape 10 : désaffecter le site hérité'
+title: 'Phase 10 : mettre hors service le site hérité'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a>Étape 10 : désaffecter le site hérité
+# <a name="phase-10-decommission-legacy-site"></a>Phase 10 : mettre hors service le site hérité
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757708"
 
 _**Dernière modification de la rubrique :** 2012-10-16_
 
-Les rubriques suivantes fournissent des recommandations en matière de mise en service de pools, et de désactivation et de suppression de serveurs et de pools à partir d’un déploiement hérité d’Office Communications Server 2007 R2. Toutes les procédures indiquées dans cette section ne sont pas obligatoires. Lisez les informations contenues dans ces rubriques pour déterminer la procédure de désactivation à utiliser.
+Les rubriques suivantes fournissent des conseils dans la mise hors service des pools et la désactivation et la suppression des serveurs et des pools d’un déploiement hérité d’Office Communications Server 2007 R2. Certaines des procédures répertoriées dans cette section ne sont pas requises. Lisez les informations de chacune de ces rubriques pour déterminer la procédure de mise hors service à utiliser.
 
 <div>
 
 
 > [!WARNING]  
-> Si vous avez importé des annuaires de conférences pour les conférences rendez-vous sur Lync Server 2013, il est important de basculer la propriété de l’annuaire de conférences vers Lync Server 2013 avant de commencer à mettre vos pools en service. Si vous désorganisez un pool sans avoir préalablement transféré la propriété de l’annuaire de conférences, la fonctionnalité de connexion à toutes les réunions migrées ne fonctionnera plus. Vous devez effectuer cette étape pour une transition de propriété unique pour chaque annuaire de conférences de votre pool hérité.
+> Si vous avez importé des annuaires de conférence pour la Conférence rendez-vous vers Lync Server 2013, il est important de faire passer la propriété de l’annuaire des conférences à Lync Server 2013 avant de commencer à désaffecter vos pools. Si vous mettez hors service un pool sans transmettre la propriété des annuaires des conférences au préalable, la fonctionnalité de conférence rendez-vous ne fonctionnera plus pour toutes les réunions migrées. Vous devez effectuer l’étape de transmission de propriété une fois pour chaque annuaire des conférences compris dans votre pool hérité.
 
 
 
@@ -53,7 +53,7 @@ Les rubriques suivantes fournissent des recommandations en matière de mise en s
 
 
 > [!IMPORTANT]  
-> Pour plus d’informations sur la migration et la mise à niveau des applications UCMA (Unified Communications Managed API), avant de désaffecter votre environnement hérité, voir<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Pour plus d’informations sur la migration et la mise à niveau des applications Microsoft Unified Communications Managed API (UCMA), avant de mettre hors service votre environnement hérité, voir<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -63,11 +63,11 @@ Les rubriques suivantes fournissent des recommandations en matière de mise en s
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Déplacer des répertoires de conférences](move-conference-directories.md)
+  - [Déplacer les annuaires des conférences](move-conference-directories.md)
 
   - [Mettre à jour les enregistrements SRV DNS](update-dns-srv-records_1.md)
 
-  - [Désaffectation de serveurs et de pools](decommissioning-servers-and-pools.md)
+  - [Mise hors service des serveurs et des pools](decommissioning-servers-and-pools.md)
 
   - [Supprimer BackCompatSite](remove-backcompatsite.md)
 

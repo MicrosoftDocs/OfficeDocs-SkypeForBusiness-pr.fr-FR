@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer les extensions de numéro de téléphone pour les appels en stationnement'
+title: 'Lync Server 2013 : configuration des extensions de numéros de téléphone pour les appels de parking'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba64f4f622a6f9ae9e134b2447abe21bc99ec62c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546488deb6ee1f00539944271f6f80cfc7a06b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Configurer les extensions de numéro de téléphone pour les appels de parking dans Lync Server 2013
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Configurer les extensions de numéros de téléphone pour les appels de parking dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41762822"
 
 _**Dernière modification de la rubrique :** 2012-09-10_
 
-L’application de parc d’appels utilise des numéros d’extension dans la table de parc d’appels pour les appels de parc. Vous devez configurer la table d’orbite du parc d’appels avec les plages de numéros d’extension que votre organisation réserve pour les appels en stationnement. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque pool de serveurs Lync dans lequel une application de parc d’appels est déployée et configurée peut avoir une ou plusieurs plages d’orbite. Les plages orbites doivent être globalement uniques dans le déploiement de Lync Server.
+L’application de parcage d’appel utilise des numéros de poste dans la table des orbites de parcage d’appel pour Park Calls. Vous devez configurer la table d’orbites de parcage d’appel avec les plages de numéros de poste que votre organisation réserve pour les appels parqués. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est assigné). Chaque pool Lync Server où une application de parcage d’appel est déployée et configurée peut avoir une ou plusieurs plages d’orbites. Les plages d’orbites doivent être uniques au niveau global dans le déploiement Lync Server.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous devez activer la case à cocher <STRONG>activer le parc d’appels</STRONG> dans votre politique vocale pour pouvoir utiliser le parc d’appels. Par défaut, cette option n’est pas sélectionnée.
+> Vous devez activer la case à cocher <STRONG>activer le parcage d’appel</STRONG> dans votre stratégie de voix avant de pouvoir utiliser le parcage d’appel. Par défaut, cette option n’est pas sélectionnée.
 
 
 
@@ -53,9 +53,9 @@ L’application de parc d’appels utilise des numéros d’extension dans la ta
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Créer ou modifier une gamme de parc d’appels dans Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+  - [Création ou modification d’une plage d’orbites de parcage d’appel dans Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [Supprimer une gamme de stationnement d’appels dans Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
+  - [Supprimer une plage d’orbites de parcage d’appel dans Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Migration de Lync Server 2010 vers Lync Server 2013
+title: Migration de Lync Server 2010 vers Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c32d2679d4f31863e389735efb6660ea670b959
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cab7ac790d08a848cb90a609720c237c4c20062
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727724"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Migration de Lync Server 2010 vers Lync Server 2013
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Migration de Lync Server 2010 vers Lync Server 2013
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41727724"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-Les rubriques de cette section vous guident dans le processus de migration de Lync Server 2010 vers Lync Server 2013.
+Les rubriques de cette section vous guident tout au long du processus de migration de Lync Server 2010 vers Lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Ce document décrit les étapes généralement requises pour effectuer chaque phase de la migration. Elle ne traite pas chaque topologie de déploiement hérité possible ou chaque scénario de migration possible. Par conséquent, il est possible que vous n’ayez pas à effectuer toutes les étapes décrites ou que vous deviez effectuer des étapes supplémentaires, selon votre déploiement. Ce document fournit également des exemples de procédure de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez savoir pour vous assurer que toutes les phases s’exécutent correctement lors de la migration. Adaptez ces étapes de vérification à votre processus de migration spécifique.
+> Le présent document décrit les étapes généralement requises pour accomplir chaque phase de la migration. Il n’aborde pas toutes les topologies de déploiement héritées possibles ni tous les scénarios de migration possibles. Par conséquent, vous n’avez peut-être pas besoin d’effectuer toutes les étapes décrites ou vous devez peut-être en effectuer d’autres, selon votre déploiement. Ce document propose également des exemples d’étapes de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez rechercher afin que chaque phase se déroule correctement au fur et à mesure de la migration. Adaptez-les à votre processus de migration propre.
 
 
 
 </div>
 
-Ce guide fournit des informations spécifiques à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Ce guide ne traite pas de l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est documentée à un autre emplacement, ce guide vous dirige vers la section document ou document appropriée.
+Le présent guide fournit des informations propres à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Il n’aborde pas l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est expliquée ailleurs, ce guide vous indique le document ou la section de document appropriés.
 
-Ce document définit les termes indiqués dans la liste suivante.
+Ce document définit les termes spécifiés dans la liste suivante.
 
-  - *vers*  
+  - *MIGR*  
     Migration de votre déploiement de production d’une version antérieure de Lync Server 2010 vers Lync Server 2013.
 
 <!-- end list -->
 
-  - *installation*  
-    Installation d’une nouvelle version du logiciel sur un ordinateur client ou serveur.
+  - *mise à niveau*  
+    Installation d’une version plus récente d’un logiciel sur un serveur ou ordinateur client.
 
 <!-- end list -->
 
   - *coexistence*  
-    Environnement temporaire existant lors de la migration lors de la migration de certaines fonctionnalités vers Lync Server 2013 et d’autres fonctionnalités continuent d’exister sur une version antérieure de Lync Server 2010.
+    Environnement temporaire qui existe lors de la migration, quand une fonctionnalité a été migrée vers Lync Server 2013 et que d’autres fonctionnalités demeurent sur une version antérieure de Lync Server 2010.
 
 <!-- end list -->
 
   - *interopérabilité*  
-    La capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
+    Capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
 
 <div>
 
@@ -77,21 +77,21 @@ Ce document définit les termes indiqués dans la liste suivante.
 
   - [Avant de commencer la migration](before-you-begin-the-migration.md)
 
-  - [Étape 1 : planifier la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
+  - [Phase 1 : planification de la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [Étape 2 : Préparer la migration](phase-2-prepare-for-migration.md)
+  - [Phase 2 : préparer la migration](phase-2-prepare-for-migration.md)
 
-  - [Étape 3 : déployer le pool de pilotes de Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
+  - [Phase 3 : déployer le pool pilote Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-  - [Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
+  - [Phase 4 : déplacer les utilisateurs test vers le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md)
 
-  - [Étape 5 : ajouter le serveur Edge Lync Server 2013 au pool de pilotes](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Phase 5 : ajouter le serveur Edge Lync Server 2013 au pool pilote](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Phase 6 : Transition d’un déploiement pilote vers un environnement de production](phase-6-move-from-pilot-deployment-into-production.md)
+  - [Phase 6 : passer d’un déploiement pilote en production](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [Étape 7 : Exécuter les tâches post-migration](phase-7-complete-post-migration-tasks.md)
+  - [Phase 7 : effectuer les tâches postérieures à la migration](phase-7-complete-post-migration-tasks.md)
 
-  - [Étape 8 : Mettre des pools hérités hors service](phase-8-decommission-legacy-pools.md)
+  - [Phase 8 : désactiver les pools hérités](phase-8-decommission-legacy-pools.md)
 
 </div>
 

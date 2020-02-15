@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration de la stratégie de mobilité'
+title: 'Lync Server 2013 : configuration de la stratégie de mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39a7f0791def99e0b42a57b1f13aae88abbfafa4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6410e50a5e7d84de152b9a4e4bd1f962c5a3c9bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763398"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,45 +39,45 @@ _**Dernière modification de la rubrique :** 2013-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 fournit des stratégies de mobilité qui déterminent qui peut utiliser les fonctionnalités de mobilité, les appels via le bureau, la voix sur IP (VoIP) ou la vidéo, et si l’accès WiFi est requis pour les appels VoIP ou la vidéo. La fonction d’appel via le bureau permet à un utilisateur mobile de passer et de recevoir des appels sur un téléphone mobile en utilisant un numéro de téléphone professionnel à la place du numéro de téléphone mobile. Cette fonctionnalité empêche la partie appelée de voir le numéro de téléphone mobile de l’appelant et permet à un utilisateur d’éviter les frais d’appel sortants. La configuration de VoIP et de la vidéo permet aux utilisateurs de recevoir et de passer des appels et de la vidéo VoIP. Paramètres de l’utilisation WiFi définit si l’appareil d’un utilisateur est tenu d’utiliser un réseau WiFi sur un réseau de données cellulaires.
+Lync Server 2013 fournit des stratégies de mobilité qui déterminent qui peut utiliser les fonctionnalités de mobilité, l’appel via le bureau, la voix sur IP (VoIP) ou la vidéo, et si WiFi est requis pour la voix ou la vidéo. La fonctionnalité appeler via le bureau permet à un utilisateur mobile de passer et de recevoir des appels sur un téléphone mobile en utilisant un numéro de téléphone professionnel au lieu du numéro de téléphone mobile. Cette fonctionnalité empêche la partie appelée de voir le numéro de téléphone mobile de l’appelant et permet à un utilisateur d’éviter les frais d’appels sortants. La configuration de la VoIP et de la vidéo permet aux utilisateurs de recevoir et de passer des appels VoIP et de vidéo. Paramètres d’utilisation de WiFi définissez si l’appareil d’un utilisateur doit utiliser un réseau WiFi sur un réseau de données cellulaires.
 
-Par défaut, la mobilité, les appels via le bureau et les fonctions VoIP et vidéo sont activées. Les paramètres permettant d’exiger le Wi-Fi pour les appels voix et vidéo sont désactivés. Les administrateurs peuvent déterminer qui a accès à ces fonctionnalités en exécutant une cmdlet. Vous pouvez désactiver les options dans le monde entier, par site ou par utilisateur.
+Par défaut, la mobilité, l’appel via le bureau et les fonctionnalités VoIP et vidéo sont activées. Les paramètres permettant d’exiger WiFi pour VoIp et vidéo sont désactivés. Les administrateurs peuvent déterminer qui a accès à ces fonctionnalités en exécutant une applet de commande. Il est possible de désactiver les options globalement, par site ou par utilisateur.
 
-Pour pouvoir utiliser les fonctionnalités de mobilité et l’appel via le bureau, les utilisateurs doivent respecter les conditions préalables suivantes :
+Pour pouvoir utiliser les fonctionnalités de mobilité et d’Appel via le bureau, les utilisateurs doivent remplir les conditions préalables suivantes :
 
   - Les utilisateurs doivent être activés pour Lync Server 2013.
 
-  - Les utilisateurs doivent être activés pour voix entreprise.
+  - les utilisateurs doivent être activés pour Voix Entreprise.
 
-  - Une stratégie de mobilité doit être affectée aux utilisateurs et l’option **EnableMobility** est définie sur true.
+  - une stratégie de mobilité dont l’option **EnableMobility** a la valeur True doit être assignée aux utilisateurs.
 
-Pour que les utilisateurs puissent utiliser un appel via le bureau, ils doivent respecter les deux conditions préalables supplémentaires suivantes :
+Pour pouvoir utiliser la fonctionnalité d’Appel via le bureau, les utilisateurs doivent remplir les deux conditions supplémentaires suivantes :
 
-  - Les utilisateurs doivent être disposant d’une politique vocale dont l’option **activer la sonnerie simultanée des téléphones** est activée.
+  - une stratégie de voix ayant l’option **Activer la sonnerie simultanée de téléphones** activée doit être assignée aux utilisateurs ;
 
-  - Une stratégie de mobilité doit être affectée aux utilisateurs et l’option **EnableOutsideVoice** est définie sur true.
+  - une stratégie de mobilité dont l’option **EnableOutsideVoice** a la valeur True doit être assignée aux utilisateurs.
 
 <div>
 
 
 > [!NOTE]  
-> Les utilisateurs qui ne sont pas activés pour voix entreprise peuvent utiliser leurs appareils mobiles pour passer des appels voix sur IP (VoIP) Lync vers Lync ou participer à des conférences à l’aide du lien Cliquer pour rejoindre sur leurs appareils mobiles, si vous attribuez ces utilisateurs aux options appropriées pour la politique vocale. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-defining-your-mobility-requirements.md">définition de vos exigences de mobilité pour Lync Server 2013</A>.
+> Les utilisateurs qui ne sont pas activés pour voix entreprise peuvent utiliser leurs appareils mobiles pour passer des appels Lync à Lync VoIP (voix sur IP) ou participer à des conférences en utilisant le lien Cliquer pour rejoindre les appareils mobiles, si vous leur attribuez les options appropriées pour la stratégie de voix. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-defining-your-mobility-requirements.md">la rubrique définition de vos besoins de mobilité pour Lync Server 2013</A>.
 
 
 
 </div>
 
-Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 2013, voir [désactiver ou réactiver un compte d’utilisateur pour Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Pour plus d’informations sur l’activation des utilisateurs pour Enterprise Voice, voir [activer les utilisateurs d’Enterprise Voice dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Pour plus d’informations sur la configuration des options de stratégie vocale, voir [modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
+Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 2013, reportez-vous à la rubrique désactiver ou réactiver [le compte d’utilisateur pour Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Pour plus d’informations sur l’activation des utilisateurs pour voix entreprise, consultez la rubrique [activation des utilisateurs pour voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md). Pour plus d’informations sur la configuration des options de stratégie de voix, voir [modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).
 
 <div>
 
 ## <a name="to-modify-global-mobility-policy"></a>Pour modifier la stratégie de mobilité globale
 
-1.  Ouvrez une session sur n’importe quel ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Désactivez l’accès à la mobilité et aux appels via votre bureau. À partir de la ligne de commande, tapez :
+3.  Désactivez globalement l’accès à la mobilité et l’Appel via le bureau.
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -85,7 +85,7 @@ Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 
     
 
     > [!NOTE]  
-    > Vous pouvez désactiver les appels via le mode de fonctionnement sans désactiver l’accès à la mobilité. Toutefois, vous ne pouvez pas désactiver la mobilité sans désactiver la fonction d’appel via le mode de fonctionnement.
+    > Vous pouvez désactiver l’Appel via le bureau sans désactiver l’accès à la mobilité. En revanche, il est impossible de désactiver la mobilité sans également désactiver l’Appel via le bureau.
 
     
     </div>
@@ -96,11 +96,11 @@ Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 
 
 ## <a name="to-modify-mobility-policy-by-site"></a>Pour modifier la stratégie de mobilité par site
 
-1.  Ouvrez une session sur n’importe quel ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Créez une stratégie de niveau de site, puis désactivez VoIP et la vidéo, et activez l’option exiger une connexion audio et vidéo par site. À partir de la ligne de commande, tapez :
+3.  Créez une stratégie au niveau du site, puis désactivez VoIP et la vidéo, et activez l’entrée « WiFi » pour l’audio IP et la vidéo IP par site. Sur la ligne de commande, tapez :
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -110,16 +110,16 @@ Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 
 
 ## <a name="to-modify-mobility-policy-by-user"></a>Pour modifier la stratégie de mobilité par utilisateur
 
-1.  Ouvrez une session sur n’importe quel ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Créez des stratégies de mobilité au niveau utilisateur, puis désactivez la mobilité et les appels via votre bureau. À partir de la ligne de commande, tapez :
+3.  Créez des stratégies de mobilité au niveau de l’utilisateur et désactivez la mobilité et l’Appel via le bureau par utilisateur. Sur la ligne de commande, tapez :
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    Vous pouvez désactiver les appels via le mode de fonctionnement sans désactiver l’accès à la mobilité. Toutefois, vous ne pouvez pas désactiver la mobilité sans désactiver la fonction d’appel via le mode de fonctionnement.
+    Vous pouvez désactiver l’Appel via le bureau sans désactiver l’accès à la mobilité. En revanche, il est impossible de désactiver la mobilité sans également désactiver l’Appel via le bureau.
     
     Par exemple :
     
@@ -134,8 +134,8 @@ Pour plus d’informations sur l’activation des utilisateurs pour Lync Server 
 
 
 [Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[Activer les utilisateurs d’Enterprise Voice dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[Modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Activer les utilisateurs pour voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
 [Définition de la configuration requise pour la mobilité pour Lync Server 2013](lync-server-2013-defining-your-mobility-requirements.md)  

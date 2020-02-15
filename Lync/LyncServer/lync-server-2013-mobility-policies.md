@@ -12,16 +12,16 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f96061011087bc3e23f4e57172b85cc9a379a83f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,9 +45,9 @@ Utilisez les procédures suivantes pour configurer les stratégies de mobilité 
 
   - [Création ou modification d’une stratégie de mobilité dans Lync Server 2013](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [Affecter une stratégie de mobilité par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Attribuer une stratégie de mobilité par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [Renforcer le verrouillage du téléphone dans Lync Server 2013](lync-server-2013-enforce-phone-locking.md)
+  - [Appliquer le verrouillage du téléphone dans Lync Server 2013](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 

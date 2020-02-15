@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants et topologies de la messagerie unifiée locale'
+title: 'Lync Server 2013 : composants et topologies pour la messagerie unifiée locale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94a22348ca5b0f17415edf0a4f259d5c58d473a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742584"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Composants et topologies de la messagerie unifiée locale dans Lync Server 2013
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Composants et topologies pour la messagerie unifiée locale dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41742584"
 
 _**Dernière modification de la rubrique :** 2012-09-25_
 
-Cette rubrique décrit les composants Microsoft Exchange Server 2013 requis pour fournir des fonctionnalités de messagerie unifiée Exchange pour le déploiement de Lync Server 2013. Il décrit également les topologies prises en charge pour l’intégration à la messagerie unifiée Exchange locale.
+Cette rubrique décrit les composants Microsoft Exchange Server 2013 requis pour fournir des fonctionnalités de messagerie unifiée Exchange au déploiement de Lync Server 2013. Il décrit également les topologies prises en charge pour l’intégration de la messagerie unifiée Exchange sur site.
 
 <div>
 
 ## <a name="exchange-server-components"></a>Composants d’Exchange Server
 
-Pour fournir les services et fonctionnalités de messagerie UNIFIÉe Exchange décrits dans les [fonctionnalités de messagerie unifiée et de Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) aux utilisateurs voix entreprise dans votre organisation, vous devez déployer un serveur de boîte aux lettres Microsoft Exchange et un serveur d’accès au client, qui héberge les boîtes aux lettres des utilisateurs et fournit un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. La messagerie unifiée Exchange s’exécute en tant que service sur les serveurs de boîtes aux lettres Exchange et d’accès client.
+Pour fournir les services et fonctionnalités de messagerie unifiée Exchange décrits dans les [fonctionnalités de la messagerie unifiée intégrée et de Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) aux utilisateurs de voix entreprise dans votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui héberge les boîtes aux lettres utilisateur et fournit un emplacement de stockage unique pour la messagerie et la messagerie vocale. La messagerie unifiée Exchange s’exécute en tant que service sur les serveurs de boîtes aux lettres et d’accès au client Exchange.
 
-Pour plus d’informations sur les composants de messagerie unifiée Exchange dans Microsoft Exchange Server 2007 et Microsoft Exchange Server 2010, voir [déploiement de la messagerie unifiée Exchange locale pour fournir la messagerie vocale Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) dans la documentation de déploiement.
+Pour plus d’informations sur les composants de messagerie unifiée Exchange dans Microsoft Exchange Server 2007 et Microsoft Exchange Server 2010, consultez la rubrique [Deploying on-premises Exchange um to Preserver 2013 Voice Mail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) dans la documentation de déploiement.
 
 </div>
 
@@ -53,23 +53,23 @@ Pour plus d’informations sur les composants de messagerie unifiée Exchange da
 
 ## <a name="supported-topologies"></a>Topologies prises en charge
 
-Vous pouvez déployer Lync Server 2013 et Exchange Unified Messaging (UM) dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes d’intégration Exchange pour chaque forêt Exchange UM. Par ailleurs, vous devez configurer chaque forêt Microsoft Exchange pour faire confiance aux forêts Lync Server 2013 et à la forêt Lync Server 2013 pour approuver chaque forêt Exchange UM. Outre cette approbation de forêt, les paramètres de messagerie unifiée Exchange pour tous les utilisateurs doivent être définis sur les objets utilisateur dans la forêt 2013 du serveur Lync.
+Vous pouvez déployer Lync Server 2013 et la messagerie unifiée Exchange dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes d’intégration d’Exchange pour chaque forêt de messagerie unifiée Exchange. Par ailleurs, vous devez configurer chaque forêt Microsoft Exchange pour qu’elle approuve la forêt Lync Server 2013 et la forêt Lync Server 2013 pour approuver chaque forêt de messagerie unifiée Exchange. En plus de cette approbation de forêt, les paramètres de messagerie unifiée Exchange pour tous les utilisateurs doivent être définis sur les objets utilisateur de la forêt Lync Server 2013.
 
-Lync Server 2013 prend en charge les topologies suivantes pour l’intégration à la messagerie unifiée Exchange :
+Lync Server 2013 prend en charge les topologies suivantes pour l’intégration de la messagerie unifiée Exchange :
 
   - Forêt unique
 
-  - Domaine unique (à savoir, une seule forêt associée à un seul domaine). Lync Server 2013, Microsoft Exchange et les utilisateurs se trouvent tous dans le même domaine.
+  - Domaine unique (c’est-à-dire une forêt unique avec un seul domaine). Lync Server 2013, Microsoft Exchange et les utilisateurs résident tous dans le même domaine.
 
-  - Plusieurs domaines (à savoir, un domaine racine comportant un ou plusieurs domaines enfants). Les serveurs Lync Server 2013 et Microsoft Exchange sont déployés dans différents domaines à partir du domaine dans lequel vous créez des utilisateurs. Les serveurs de messagerie unifiée Exchange peuvent être déployés dans différents domaines à partir du pool Lync Server 2013 pris en charge.
+  - Plusieurs domaines (à savoir, un domaine racine comportant un ou plusieurs domaines enfants). Lync Server 2013 et les serveurs Microsoft Exchange sont déployés dans des domaines différents du domaine dans lequel vous créez des utilisateurs. Les serveurs de messagerie unifiée Exchange peuvent être déployés dans différents domaines à partir du pool Lync Server 2013 qu’ils prennent en charge.
 
-  - Forêts multiples (c’est-à-dire, forêt de ressources). Lync Server 2013 est déployé dans une seule forêt, et les utilisateurs sont répartis entre plusieurs forêts. Les attributs d’Exchange UM des utilisateurs doivent être répliqués dans la forêt Lync Server 2013.
+  - Forêt multiple (autrement dit, forêt de ressources). Lync Server 2013 est déployé dans une forêt unique, puis les utilisateurs sont répartis entre plusieurs forêts. Les attributs de messagerie unifiée d’Exchange des utilisateurs doivent être répliqués sur la forêt Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Exchange peut être déployé dans plusieurs forêts. Chaque organisation Exchange peut fournir la messagerie unifiée Exchange à ses utilisateurs, ou la messagerie unifiée Exchange peut être déployée dans la même forêt que Lync Server 2013.
+    > Exchange peut être déployé dans plusieurs forêts. Chaque organisation Exchange peut fournir la messagerie unifiée Exchange à ses utilisateurs, ou le serveur de messagerie unifiée Exchange peut être déployé dans la même forêt que Lync Server 2013.
 
     
     </div>

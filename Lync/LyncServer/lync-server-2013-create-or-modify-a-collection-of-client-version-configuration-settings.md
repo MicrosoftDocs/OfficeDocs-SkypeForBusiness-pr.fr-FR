@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier un ensemble de paramètres de configuration de la version du client
+title: Créer ou modifier une collection de paramètres de configuration de la version du client
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc50696444ddd0602bbf21fd9e05b5bba6eddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38f70e1d29cd6cd8de3a323829772eab1f9c3452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722558"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Créer ou modifier un ensemble de paramètres de configuration de la version du client dans Lync Server 2013
+# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Création ou modification d’une collection de paramètres de configuration de la version du client dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41722558"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version du client global s’installe sur Lync Server et est utilisée pour activer ou désactiver le contrôle de version du client pour le déploiement complet du serveur. Vous pouvez également configurer les paramètres de configuration de la version du client pour chaque site. Vous pouvez créer ou modifier les paramètres de configuration de la version du client à partir du panneau de configuration de Lync Server 2013 ou de Lync Server 2013 Management Shell.
+Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version du client globale s’installe avec Lync Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Vous pouvez également configurer les paramètres de configuration de la version du client pour des sites individuels. Vous pouvez créer ou modifier les paramètres de configuration de la version du client à partir du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.
 
 <div>
 
 
 > [!NOTE]
-> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes ne sont affectés que par les stratégies globales.
+> Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.
 
 
 
@@ -51,27 +51,27 @@ Les paramètres de configuration de version du client sont utilisés pour active
 
 <div>
 
-## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Pour créer ou modifier les paramètres de configuration de la version du client à l’aide du panneau de configuration de Lync Server
+## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Pour créer ou modifier des paramètres de configuration de la version du client à l’aide du panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .
 
-4.  Dans la page Configuration de la **version du client** , procédez comme suit :
+4.  Sur la page Configuration de la **version du client** , procédez comme suit :
     
-      - Pour créer une nouvelle configuration, cliquez sur **nouveau**, sélectionnez un site, cliquez **sur nom de** l’utilisateur et mettez à jour les paramètres.
+      - Pour créer une nouvelle configuration, cliquez sur **nouveau**, sélectionnez un site, cliquez sur **OK** , puis mettez à jour les paramètres.
     
-      - Pour modifier une configuration, sélectionnez celle-ci, cliquez sur **modifier**, sur **afficher les détails**, puis apportez les modifications souhaitées aux paramètres.
+      - Pour modifier une configuration, sélectionnez la configuration, cliquez sur **modifier**, sur **afficher les détails**, puis apportez des modifications aux paramètres.
 
 </div>
 
 <div>
 
-## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création ou modification des paramètres de configuration de la version du client à l’aide des cmdlets Windows PowerShell
+## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création ou modification des paramètres de configuration de la version du client à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration de la version du client à l’aide de l’applet **de nouvelle cmdlet New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de contrôle **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez créer des paramètres de configuration de version des clients à l’aide de la cmdlet **New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de commande **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
@@ -87,7 +87,7 @@ Vous pouvez créer des paramètres de configuration de la version du client à l
 
 ## <a name="to-enable-client-versioning-for-a-site"></a>Pour activer le contrôle de version du client pour un site
 
-  - Cette commande autorise le contrôle de version du client pour le site de Redmond.
+  - Cette commande active le contrôle de version du client pour le site de Redmond.
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
@@ -95,15 +95,15 @@ Vous pouvez créer des paramètres de configuration de la version du client à l
 
 <div>
 
-## <a name="to-disable-client-versioning-throughout-the-organization"></a>Pour désactiver le contrôle de version du client au sein de l’Organisation
+## <a name="to-disable-client-versioning-throughout-the-organization"></a>Pour désactiver la gestion des versions du client au sein de l’Organisation
 
-  - Dans cet exemple, le contrôle de version du client est désactivé pour tous les paramètres de configuration de la version du client utilisés au sein de l’organisation.
+  - Dans cet exemple, le contrôle de version du client est désactivé pour tous les paramètres de configuration de la version du client utilisés dans l’organisation.
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide pour les applets de [nouvelle-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg399029(v=OCS.15)) et [Set-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg398623(v=OCS.15)) .
+Pour plus d’informations, consultez la rubrique d’aide relative aux applets de commande [New-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg399029(v=OCS.15)) et [Set-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg398623(v=OCS.15)) .
 
 </div>
 

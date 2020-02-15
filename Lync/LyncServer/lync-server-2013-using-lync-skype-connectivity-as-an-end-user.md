@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Utilisation de la connectivité Lync-Skype en tant qu’utilisateur final'
+title: 'Lync Server 2013 : utilisation de la connectivité Lync-Skype en tant qu’utilisateur final'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5404a42b0d8e2052541ccb9f9178bf33408c2099
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df22148fae23e0872fc9f33a54792590b634f46d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744134"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,26 +37,26 @@ ms.locfileid: "41744134"
 
 _**Dernière modification de la rubrique :** 2016-12-27_
 
-Lync-Skype Connectivity permet aux utilisateurs de Skype et aux utilisateurs de Lync de s’ajouter aux contacts, d’échanger des messages instantanés et de passer des appels audio et vidéo. Lorsqu’un utilisateur de Skype ajoute un utilisateur Lync, un utilisateur Skype crée un contact dans Skype contenant l’URI (Uniform Resource Identifier) de l’utilisateur Lync. À l’inverse, quand un utilisateur de Lync ajoute un contact Skype, l’utilisateur de Lync crée un contact dans Lync qui contient le compte Microsoft (MSA) de l’utilisateur Skype, et non le nom d’utilisateur Skype.
+Lync-Skype Connectivity permet aux utilisateurs Skype et aux utilisateurs de Lync de s’ajouter eux-mêmes sous forme de contacts, d’échanger des messages instantanés et d’effectuer des appels audio et vidéo. Lorsqu’un utilisateur Skype ajoute un utilisateur Lync, un utilisateur Skype crée un contact dans Skype contenant l’URI (Uniform Resource Identifier) SIP (Session Initiation Protocol) de l’utilisateur Lync. À l’inverse, lorsqu’un utilisateur Lync ajoute un contact Skype, l’utilisateur de Lync crée un contact dans Lync qui contiendra le compte Microsoft (MSA) de l’utilisateur Skype, et non le nom d’utilisateur Skype.
 
-**Qu’est-ce qu’un MSA ?** Les utilisateurs de Skype doivent se connecter à Skype avec un compte Microsoft (auparavant appelé Windows Live ID) pour communiquer avec des contacts Lync.Un compte Microsoft repose sur la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeu Microsoft Xbox LIVE Online et la messagerie Microsoft Outlook et client de collaboration (et, auparavant, service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)à la page de connexion au compte Microsoft à l’adresse. Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, dans de nombreuses applications et services. Une fois le compte fusionné, l’utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
+**Qu’est-ce qu’un MSA ?** Les utilisateurs de Skype doivent se connecter à Skype à l’aide d’un compte Microsoft (anciennement appelé Windows Live ID) pour communiquer avec les contacts Lync.Un compte Microsoft est constitué de la combinaison d’une adresse de messagerie et d’un mot de passe, que vous pouvez également utiliser pour vous connecter à des services tels que la technologie de stockage Microsoft OneDrive, Windows Phone, le service de jeux Microsoft Xbox LIVE Online et la messagerie Microsoft Outlook. et le client de collaboration (et, auparavant, le service de messagerie Web Microsoft Hotmail ou Windows Live Messenger).Si vous utilisez une adresse de messagerie et un mot de passe pour vous connecter à ces services ou à d’autres services, vous disposez déjà d’un compte Microsoft.Pour plus d’informations sur la création d’un compte Microsoft, reportez-vous [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)à la page d’inscription au compte Microsoft à l’adresse. Vous pouvez fusionner votre compte Skype existant avec votre compte Microsoft pour l’authentification unique, par le biais d’une variété d’applications et de services. Une fois le compte fusionné, un utilisateur de Skype peut envoyer une demande de contact aux utilisateurs de Lync.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Pour que les utilisateurs de Lync et Skype puissent communiquer de manière complète, les conditions suivantes doivent être remplies : 
+> Pour permettre aux utilisateurs Lync et Skype de communiquer entièrement les uns avec les autres, les conditions suivantes doivent être remplies : 
 > <UL>
 > <LI>
-> <P>Les utilisateurs de Skype doivent être connectés à leur client Skype avec un compte Microsoft (MSA).</P>
+> <P>Les utilisateurs de Skype doivent être connectés à leur client Skype à l’aide d’un compte Microsoft (MSA).</P>
 > <LI>
-> <P>Les utilisateurs de Lync doivent être activés pour la connectivité PIC (Public IM Connectivity) par leur administrateur Lync.</P>
+> <P>Les utilisateurs de Lync doivent être activés pour la connectivité PIC par leur administrateur Lync.</P>
 > <LI>
 > <P>Lorsqu’un utilisateur Skype ajoute un contact Lync, vérifiez que le mot Lync apparaît sous le nom du contact. Cela indique qu’un URI Lync a été trouvé.</P>
 > <LI>
-> <P>Lorsqu’un utilisateur Skype ajoute un contact Lync et que les résultats de la recherche ne sont pas retournés pour ce domaine Lync, le processus de mise en service de PIC n’est peut-être pas terminé ou le domaine Lync n’a pas encore été configuré.</P>
+> <P>Lorsqu’un utilisateur Skype ajoute un contact Lync et que les résultats de la recherche ne sont pas renvoyés pour ce domaine Lync, le processus de mise en service PIC n’est peut-être pas terminé ou le domaine Lync n’a pas encore été configuré.</P>
 > <LI>
-> <P>En fonction des paramètres de confidentialité de Lync et des utilisateurs Skype, la messagerie instantanée, la vidéo et la présence risquent de ne pas fonctionner tant que les nouveaux contacts ne sont pas acceptés par chaque utilisateur.</P></LI></UL>
+> <P>En fonction des paramètres de confidentialité des utilisateurs Lync et Skype, la messagerie instantanée, la vidéo et la présence peuvent ne pas fonctionner tant que les nouveaux contacts ne sont pas acceptés par chaque utilisateur.</P></LI></UL>
 
 
 
@@ -64,33 +64,33 @@ Lync-Skype Connectivity permet aux utilisateurs de Skype et aux utilisateurs de 
 
 **Pour ajouter un contact Skype à Lync 2013**
 
-1.  Dans Lync, cliquez sur **Ajouter un contact, puis ajoutez un contact qui n’est pas dans ma société**.
+1.  Dans Lync, cliquez sur **Ajouter un contact, puis ajoutez un contact qui n’est pas dans mon organisation**.
 
 2.  Dans la liste des fournisseurs de contacts disponibles, sélectionnez **Skype**.
 
 3.  Dans le champ **adresse de messagerie instantanée** , entrez le compte Microsoft (MSA) de l’utilisateur Skype.
 
-4.  Dans la liste déroulante **Ajouter au groupe de contacts** , sélectionnez le groupe de contacts auquel vous souhaitez ajouter l’utilisateur.
+4.  Dans la zone de liste déroulante **Ajouter au groupe de contacts** , sélectionnez un groupe de contacts auquel ajouter l’utilisateur.
 
 5.  Dans la liste déroulante **définir la relation de confidentialité** , sélectionnez le paramètre de contact approprié, puis cliquez sur **OK**.
 
-6.  L’utilisateur s’affiche désormais comme contact dans Lync. Sélectionnez l’utilisateur, cliquez avec le bouton droit sur le nom d’utilisateur, puis cliquez sur **afficher la carte de visite** pour afficher les propriétés de l’utilisateur. Vous pouvez désormais passer un appel audio ou vidéo à l’aide de l’utilisateur Skype que vous venez d’ajouter.
+6.  L’utilisateur s’affiche désormais en tant que contact dans Lync. Sélectionnez l’utilisateur, cliquez avec le bouton droit sur le nom de l’utilisateur, puis cliquez sur **afficher la carte de visite** pour afficher les propriétés de l’utilisateur. Vous pouvez désormais établir un appel audio ou vidéo avec le nouvel utilisateur Skype ajouté.
 
-Pour plus d’informations sur la prise en charge des contacts, consultez [Ajouter un contact dans Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
+Pour plus d’informations sur la prise en charge des contacts, consultez [la rubrique ajouter un contact dans Lync](https://support.office.com/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).
 
-Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé, tel que <strong>Bob@contoso.com</strong> , un utilisateur de Lync peut ajouter ce compte Microsoft à Lync de deux manières :
+Lorsque le compte Microsoft d’un utilisateur Skype utilise un nom de domaine personnalisé, tel que <strong>Bob@contoso.com</strong> , un utilisateur Lync peut ajouter ce compte Microsoft à Lync de deux manières :
 
 1.  Utilisez l’icône **Ajouter un contact** ou
 
-2.  Utilisez le champ **Rechercher une personne ou une salle ou un numéro de** téléphone.
+2.  Utilisez la zone **Rechercher une personne ou une salle, ou un champ de numéro de** téléphone.
 
-Dans chaque instance, l’utilisateur de Lync doit entrer l’adresse e-mail de l’utilisateur Skype au format suivant : <strong>utilisateur (nom de domaine) @msn. com</strong> .
+Dans chaque instance, l’utilisateur Lync doit entrer le courrier électronique de l’utilisateur Skype dans le format suivant : <strong>utilisateur (nom de domaine) @msn. com</strong> .
 
 <div>
 
 
 > [!IMPORTANT]  
-> Cette étape n’est pas requise pour les comptes Microsoft qui utilisent les noms de domaine suivants : <STRONG>@live. com, @hotmail. com ou @outlook. com</STRONG>. Pour plus d’informations sur les noms de domaine personnalisés pris en charge, voir <A href="https://support.microsoft.com/kb/897567">domaines de messagerie instantanée publics pris en charge</A>.
+> Cette étape n’est pas obligatoire pour les comptes Microsoft qui utilisent les noms de domaine suivants : <STRONG>@live. com, @hotmail. com ou @outlook. com</STRONG>. Pour plus d’informations sur les noms de domaine personnalisés pris en charge, consultez la rubrique <A href="https://support.microsoft.com/kb/897567">domaines de messagerie instantanée publics pris en charge</A>.
 
 
 
@@ -98,56 +98,56 @@ Dans chaque instance, l’utilisateur de Lync doit entrer l’adresse e-mail de 
 
 **Pour ajouter un contact Skype à Lync lors de l’utilisation d’un nom de domaine personnalisé**
 
-1.  Dans Lync, cliquez sur **Ajouter un contact, puis ajoutez un contact qui n’est pas dans ma société**.
+1.  Dans Lync, cliquez sur **Ajouter un contact, puis ajoutez un contact qui n’est pas dans mon organisation**.
 
 2.  Dans la liste des fournisseurs de contacts disponibles, sélectionnez **Skype**.
 
-3.  Dans le champ **adresse de messagerie instantanée** , entrez le compte Microsoft (MSA) de l’utilisateur Skype au format <strong>utilisateur (nom de domaine) @msn. com</strong>. Ainsi, pour l’utilisateur bob@contoso.com, l’entrée <strong>est Bob (contoso. com) @msn.<strong> com.
+3.  Dans le champ **adresse de messagerie instantanée** , entrez le compte Microsoft (MSA) de l’utilisateur Skype au format <strong>utilisateur (nom de domaine) @msn. com</strong>. Ainsi, pour l’utilisateur bob@contoso.com, l’entrée <strong>serait Bob (contoso. com) @msn.<strong> com.
 
-4.  Dans la zone de liste déroulante **Ajouter au groupe de contacts** , sélectionnez le groupe de contacts auquel vous souhaitez ajouter l’utilisateur.
+4.  Dans la zone de liste déroulante **Ajouter au groupe de contacts** , sélectionnez un groupe de contacts auquel ajouter l’utilisateur.
 
 5.  Dans la zone de liste déroulante **définir la relation de confidentialité** , sélectionnez le paramètre de contact approprié, puis cliquez sur **OK**.
 
-6.  Un utilisateur de Lync peut également utiliser le champ **Rechercher une personne ou une salle ou composer un numéro** dans Lync et ajouter une adresse qui ressemble à l' <strong>utilisateur suivant (nom de domaine) @msn. com</strong> . Pour le compte Microsoft bob@contoso.com, l’entrée est <strong>Bob (contoso. com) @msn. com</strong> .
+6.  Un utilisateur Lync peut également utiliser la commande **Rechercher une personne ou une salle, ou composer un** champ de numéro dans Lync, et ajouter une adresse semblable à l' <strong>utilisateur suivant (nom de domaine) @msn. com</strong> . Ainsi, pour le compte Microsoft bob@contoso.com, l’entrée serait <strong>Bob (contoso. com) @msn. com</strong> .
 
-7.  Suivez les étapes 4 et 5 décrites plus haut dans cette procédure pour ajouter le contact à un groupe de contacts et pour sélectionner la relation de confidentialité appropriée.
+7.  Suivez les étapes 4 et 5 plus haut dans cette procédure pour ajouter le contact à un groupe de contacts et sélectionner la relation de confidentialité appropriée.
 
 **Pour ajouter un contact Lync à Skype**
 
-1.  Connectez-vous à Skype. L’utilisateur Skype doit être connecté à son client Skype avec un compte Microsoft (MSA).
+1.  Connectez-vous à Skype. L’utilisateur Skype doit être connecté à son client Skype à l’aide d’un compte Microsoft (MSA).
 
 2.  Sélectionnez l’icône Ajouter des contacts.
 
-3.  Entrez l’URI SIP de l’utilisateur Lync. Par exemple, bob@contoso.com.
+3.  Entrez l’URI SIP de l’utilisateur Lync. (par exemple, bob@contoso.com).
 
-4.  Lorsque Skype trouve la correspondance dans les résultats de recherche, recherchez le mot **Lync** sous le nom de l’utilisateur Lync. Cela indique que Skype a trouvé l’URI SIP du client Lync. Cliquez sur le nom.
+4.  Lorsque Skype trouve la correspondance dans les résultats de la recherche, recherchez le mot **Lync** sous le nom de l’utilisateur Lync. Cela indique que Skype a réussi à localiser l’URI SIP du client Lync. Cliquez sur le nom.
 
 5.  Dans le coin supérieur droit de la fenêtre, cliquez sur Ajouter aux contacts.
 
-6.  Le nouveau contact est désormais ajouté à votre liste de contacts, mais un point d’interrogation est affiché au lieu de son icône de statut jusqu’à ce qu’il accepte votre demande. Lorsque votre contact a accepté votre demande, vous pouvez voir quand il est en ligne, lancer des conversations par messagerie instantanée et effectuer des appels audio et vidéo.
+6.  Le nouveau contact est maintenant ajouté à votre liste de contacts, mais un point d’interrogation s’affiche au lieu de son icône d’État jusqu’à ce qu’il accepte votre requête. Lorsque votre nouveau contact accepte votre demande, vous pouvez voir quand il est en ligne, initier des conversations par messagerie instantanée et émettre des appels audio et vidéo.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > L’administrateur du serveur Lync doit configurer les paramètres de stratégie de l’utilisateur Lync pour autoriser les demandes entrantes. Si ce n’est pas le cas, l’utilisateur de Lync n’aura pas reçu de demandes de contact de l’utilisateur Skype. En fonction de la configuration des paramètres de stratégie de l’utilisateur Lync, la demande d’ajout de l’utilisateur Skype apparaît sous l’onglet <STRONG>nouveau</STRONG> du client Lync. Pour commencer à communiquer avec l’utilisateur Skype, l’utilisateur de Lync doit ajouter l’utilisateur Skype à la liste de favoris ou à une liste de contacts. L’image ci-dessous montre l’emplacement du <STRONG>nouvel</STRONG> onglet dans le client Lync.
+    > L’administrateur Lync Server doit configurer les paramètres de stratégie de l’utilisateur Lync pour autoriser les demandes entrantes. Si ce n’est pas le cas, l’utilisateur de Lync ne reçoit pas de demandes de contact de la part de l’utilisateur Skype. En fonction de la configuration des paramètres de stratégie de l’utilisateur Lync, la demande d’ajout de l’utilisateur Skype apparaît dans le <STRONG>nouvel</STRONG> onglet du client Lync. Pour commencer à communiquer avec l’utilisateur Skype, l’utilisateur de Lync doit ajouter l’utilisateur Skype à la liste des favoris ou à une liste de contacts. L’image ci-dessous montre l’emplacement du <STRONG>nouvel</STRONG> onglet dans le client Lync.
 
     
     </div>
 
-Un utilisateur de Lync doit configurer des alertes Lync pour s’assurer que les demandes envoyées à partir d’un utilisateur Skype apparaissent et qu’ils peuvent être détectés par l’utilisateur de Lync. Pour configurer les alertes Lync, suivez la procédure ci-dessous.
+Un utilisateur Lync doit configurer des alertes Lync pour s’assurer que les demandes envoyées à partir d’un utilisateur Skype apparaissent et sont détectables par l’utilisateur de Lync. Pour configurer les alertes Lync, exécutez la procédure suivante.
 
 **Pour configurer les alertes Lync**
 
-1.  Dans le client Lync, cliquez sur l’icône **options** .
+1.  À partir du client Lync, cliquez sur l’icône **options** .
 
 2.  Sélectionnez **alertes**.
 
-3.  Sous **alertes générales**, activez la case à cocher m’avertir **quand une personne m’ajoute à sa liste de contacts**.
+3.  Sous **alertes générales**, sélectionnez m' **indiquer quand quelqu’un m’ajoute à sa liste de contacts**.
 
 4.  Sous **contacts n’utilisant pas Lync**, sélectionnez **autoriser les invitations, mais bloquer toutes les autres communications**.
 
-5.  Cliquez sur **OK** pour fermer la fenêtre d’options.
+5.  Cliquez sur **OK** pour fermer la fenêtre Options.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table VideoClientEvent'
+title: 'Lync Server 2013 : table table videoclientevent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ff9e19288aaaa09b8c72f857f3cfcf4e5331dd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63a0bf66a7b09801bea94e8995757543511e298e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742004"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="videoclientevent-table-in-lync-server-2013"></a>Table VideoClientEvent dans Lync Server 2013
+# <a name="videoclientevent-table-in-lync-server-2013"></a>Table table videoclientevent dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742004"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Chaque enregistrement contient un événement client pour un point de terminaison dans un appel vidéo. En règle générale, un appel possède deux enregistrements, un pour l’appelant et un pour l’appelant.
+Chaque enregistrement contient un événement client pour un point de terminaison dans un appel vidéo. En règle générale, un appel dispose de deux enregistrements, un pour l’appelant et un pour l’appelé.
 
 
 <table>
@@ -51,48 +51,48 @@ Chaque enregistrement contient un événement client pour un point de terminaiso
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Principal</p></td>
-<td><p>Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
-<td><p>Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p>entier très petit</p></td>
+<td><p>Primaire</p></td>
+<td><p>Référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Principal</p></td>
-<td><p>0 : données du destinataire</p>
+<td><p>légèrement</p></td>
+<td><p>Primaire</p></td>
+<td><p>0 : données de l’appelé</p>
 <p>1 : données de l’appelant</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>Pourcentage de session de déclenchement de l’événement LowBandwidth pour l’état « incorrect ». La bande passante disponible est insuffisante pour obtenir une utilisation vocale acceptable.</p></td>
+<td><p>Pourcentage de la session l’événement LowBandwidth a été déclenché pour l’état « incorrect ». La bande passante disponible est insuffisante pour une expérience vocale acceptable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
 <td></td>
 <td><p> </p></td>
-<td><p>Pourcentage de session de déclenchement de l’événement ReceiveSendQuality pour l’état « incorrect ».</p>
-<p>La qualité du réseau en termes de gigue ou de perte de paquets est sévère et a un impact sur la qualité du son reçu.</p></td>
+<td><p>Pourcentage de la session l’événement ReceiveSendQuality a été déclenché pour l’état « incorrect ».</p>
+<p>La qualité du réseau en termes de gigue ou de perte de paquets est importante et influe sur la qualité de l’audio reçu.</p></td>
 </tr>
 </tbody>
 </table>

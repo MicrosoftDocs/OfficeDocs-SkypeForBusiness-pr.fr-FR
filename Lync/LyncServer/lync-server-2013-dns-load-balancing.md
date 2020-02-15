@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : équilibrage de charge DNS'
+title: 'Lync Server 2013 : équilibrage de la charge DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30d3b88ac66ad7dc6dd3216d941f4a99fc2feedd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>Équilibrage de charge DNS dans Lync Server 2013
+# <a name="dns-load-balancing-in-lync-server-2013"></a>Équilibrage de la charge DNS dans Lync Server 2013
 
 </div>
 
@@ -37,55 +37,55 @@ ms.locfileid: "41739184"
 
 _**Dernière modification de la rubrique :** 2014-01-15_
 
-Lync Server active l’équilibrage de charge DNS, une solution logicielle permettant de réduire considérablement la surcharge d’administration pour l’équilibrage de charge sur votre réseau. L’équilibrage de charge DNS équilibre le trafic réseau unique vers Lync Server, comme le trafic SIP et le trafic multimédia.
+Lync Server active l’équilibrage de charge DNS, une solution logicielle qui réduit considérablement la charge d’administration pour l’équilibrage de charge sur votre réseau. L’équilibrage de charge DNS équilibre le trafic réseau propre à Lync Server, tel que le trafic SIP et le trafic multimédia.
 
-Si vous déployez l’équilibrage de charge DNS, la surcharge d’administration de votre organisation pour les équilibreurs de charge matérielle est réduite. Par ailleurs, le dépannage complexe des problèmes liés à la configuration incompatibilité des équilibreurs de charge pour le trafic SIP sera éliminé. Vous pouvez également empêcher les connexions au serveur pour pouvoir mettre en ligne des serveurs. L’équilibrage de charge DNS vérifie également que les problèmes liés à l’équilibrage de charge matérielle n’affectent pas les éléments du trafic SIP tels que le routage des appels de base.
+Si vous déployez l’équilibrage de la charge DNS, les frais d’administration de votre organisation pour les programmes d’équilibrage de la charge matérielle seront minimisés. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
 
-Si vous utilisez l’équilibrage de charge DNS, vous pouvez également être en mesure d’acheter des équilibreurs de charge matérielle économiques que si vous utilisiez les équilibreurs de charge matérielle pour tous les types de trafic. Vous devez utiliser des équilibreurs de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur le test de l’interopérabilité de l’équilibrage de charge, voir « partenaires de [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)l’équilibrage de charge Lync Server 2010 » à l’adresse.
+En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des programmes d’équilibrage de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir « partenaires d' [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)équilibrage de charge Lync Server 2010 » à l’adresse.
 
-Le service d’équilibrage de la charge DNS est pris en charge pour les pools front-end, les pools de serveurs Edge, les pools de directeurs et les pools de serveurs de médiation autonome
-
-<div>
-
-## <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de charge DNS pour les pools front-end et les pools de directeurs
-
-Vous pouvez utiliser l’équilibrage de charge DNS pour le trafic SIP sur les listes frontales et les pools de Director. Après le déploiement de l’équilibrage de charge DNS, vous devez également utiliser des équilibreurs de charge matérielle pour ces pools, mais uniquement pour le trafic HTTPs de client à serveur. L’équilibrage de charge matérielle est utilisé pour le trafic HTTPs des clients sur les ports 443 et 80.
-
-Même si vous avez encore besoin d’équilibreurs de charge matérielle pour ces pools, leur configuration et leur administration s’adresseront essentiellement au trafic HTTPs, que les administrateurs des équilibreurs de charge matérielle sont habitués.
+L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de directeurs et les pools de serveurs de médiation autonomes.
 
 <div>
 
-## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge de clients et de serveurs plus anciens
+## <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 
-L’équilibrage de charge DNS prend en charge le basculement automatique uniquement pour les serveurs exécutant Lync Server 2013 ou Lync Server 2010 ainsi que les clients Lync 2013 et Lync 2010. Les versions antérieures de clients et d’Office Communications Server peuvent toujours se connecter aux pools exécutant l’équilibrage de charge DNS, mais, si elles ne peuvent pas établir une connexion au premier serveur auquel l’équilibrage de charge DNS fait référence, elles ne peuvent pas basculer sur un autre serveur du pool. .
+Vous pouvez désormais utiliser l’équilibrage de la charge DNS pour le trafic SIP dans les pools frontaux et les pools directeurs. Avec l’équilibrage de charge DNS déployé, vous devrez quand même toujours utiliser les programmes d’équilibrage de la charge matérielle pour ces pools, mais seulement pour le trafic HTTPS du client vers le serveur. Le programme d’équilibrage de la charge matérielle est utilisé pour le trafic HTTPS venant des clients sur les ports 443 et 80.
 
-Par ailleurs, si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir une prise en charge de l’équilibrage de charge DNS de Lync Server. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs ne disposent pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
+Bien que le recours à des programmes d’équilibrage de la charge matérielle soit toujours nécessaire pour ces pools, leur configuration et leur administration concernera avant tout le trafic HTTPS avec lequel les administrateurs des programmes d’équilibrage de la charge matérielle sont familiarisés.
 
-  - Lecture de la messagerie vocale de votre entreprise sur son téléphone
+<div>
 
-  - Transfert d’appels à partir d’un standard automatique de messagerie unifiée Exchange
+## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge d’anciens clients et serveurs
 
-Tous les autres scénarios Exchange UM fonctionnent correctement.
+L’équilibrage de charge DNS prend en charge le basculement automatique uniquement pour les serveurs exécutant Lync Server 2013 ou Lync Server 2010, ainsi que pour les clients Lync 2013 et Lync 2010. Les versions antérieures des clients et d’Office Communications Server peuvent toujours se connecter aux pools exécutant l’équilibrage de charge DNS, mais si elles ne peuvent pas établir une connexion avec le premier serveur auquel l’équilibrage de charge DNS les renvoie, ils ne peuvent pas basculer vers un autre serveur du pool. .
+
+En outre, si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l’équilibrage de charge DNS de Lync Server. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs ne disposeront pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
+
+  - Lecture de leur messagerie vocale Voix Entreprise sur leur téléphone
+
+  - Transfert d’appels à partir d’un standard automatique de la messagerie unifiée Exchange
+
+Tous les autres scénarios de messagerie unifiée Exchange fonctionneront normalement.
 
 </div>
 
 <div>
 
-## <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Déploiement de l’équilibrage de charge DNS pour les pools front-end et les pools de directeurs
+## <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Déploiement de l’équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 
-Le déploiement de l’équilibrage de charge DNS pour les pools principaux et les pools de directeurs nécessite que vous effectuiez quelques étapes supplémentaires avec les noms de domaine complets et les enregistrements DNS.
+Le déploiement de l’équilibrage de la charge DNS dans les pools frontaux et les pools directeurs vous oblige à effectuer quelques étapes supplémentaires avec les enregistrements de noms de domaine complets et les enregistrements DNS.
 
-  - Un pool qui utilise l’équilibrage de charge DNS doit avoir deux noms de domaine complets (FQDN) du pool standard utilisés par l’équilibrage de charge DNS (par exemple, pool01.contoso.com), et est résolu sur l’IPs physique des serveurs du pool et un autre nom de domaine complet pour les services Web du pool (par exemple, web01.contoso.com), qui est résolue en adresse IP virtuelle du pool.
+  - Un pool qui utilise l’équilibrage de la charge DNS doit avoir deux noms de domaine complets : le nom de domaine complet standard du pool qui est utilisé par l’équilibrage de la charge DNS (par exemple, pool01.contoso.com) et qui est résolu en adresse IP pour chaque serveur dans le pool et un autre nom de domaine complet pour les services web du pool (par exemple, web01.contoso.com) qui est résolu en adresse IP virtuelle de ce dernier.
     
-    Dans le générateur de topologie, si vous voulez déployer l’équilibrage de charge DNS pour un pool, pour créer ce nom de domaine complet supplémentaire pour les services Web du pool, vous devez activer la case à cocher **ignorer le nom de domaine complet du pool de services Web internes** , puis taper le nom de domaine complet (FQDN) dans la page **spécifier les URL des services Web pour ce pool** .
+    Dans le générateur de topologies, si vous voulez déployer l’équilibrage de charge DNS pour un pool, vous devez activer la case à cocher Remplacer le nom de domaine complet du **pool des services Web internes** et taper le nom de domaine complet (FQDN) dans la page **spécifier les URL des services Web pour ce pool** .
 
-  - Pour prendre en charge le FQDN utilisé par l’équilibrage de charge DNS, vous devez configurer le système DNS pour résoudre le nom de domaine complet (par exemple, pool01.contoso.com) pour les adresses IP de tous les serveurs du pool (par exemple, 192.168.1.1, 192.168.1.2, etc.). Vous ne devez inclure que les adresses IP des serveurs actuellement déployés.
+  - Pour prendre en charge le nom de domaine complet utilisé par l’équilibrage de la charge DNS, vous devez mettre en service DNS pour résoudre le nom de domaine complet du pool (par exemple, pool01.contoso.com) en adresse IP pour chaque serveur dans le pool (par exemple, 192.168.1.1, 192.168.1.2, etc.). Veillez à inclure uniquement les adresses IP des serveurs en cours de déploiement.
     
     <div>
     
 
     > [!WARNING]  
-    > Si vous avez plusieurs pools front-end ou serveur frontal, le nom de domaine complet des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour n’importe quel directeur ou pool de réalisateur doit être unique à partir d’un autre directeur ou pool de directeurs, ainsi que sur n’importe quel pool frontal ou serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet autonome, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool de réalisateur.
+    > Si vous avez plusieurs pools frontaux ou serveurs frontaux, le nom de domaine complet (FQDN) des services Web externes doit être unique. Par exemple, si vous définissez le nom de domaine complet des services Web externes d’un serveur frontal en tant que <STRONG>pool01.contoso.com</STRONG>, vous ne pouvez pas utiliser <STRONG>pool01.contoso.com</STRONG> pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de domaine complet des services Web externes défini pour tout directeur ou pool directeur doit être unique à partir d’un autre directeur ou pool Directeur, ainsi que d’un pool frontal ou d’un serveur frontal. Si vous décidez de remplacer les services Web internes par un nom de domaine complet indépendant, chaque nom de domaine complet doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
     
     </div>
@@ -96,15 +96,15 @@ Le déploiement de l’équilibrage de charge DNS pour les pools principaux et l
 
 <div>
 
-## <a name="dns-load-balancing-on-edge-server-pools"></a>Équilibrage de charge DNS sur les pools de serveurs Edge
+## <a name="dns-load-balancing-on-edge-server-pools"></a>Équilibrage de charge DNS dans les pools de serveurs Edge
 
-Vous pouvez déployer l’équilibrage de charge DNS sur les pools de serveurs de périphérie. Dans le cas contraire, vous devez tenir compte de certaines considérations.
+Vous pouvez déployer l’équilibrage de charge DNS dans les pools de serveurs Edge. Dans ce cas, vous devez tenir compte de certaines considérations.
 
-L’utilisation de l’équilibrage de charge DNS sur votre serveur Edge entraîne une perte de fonctionnalité de basculement dans les cas suivants :
+L’utilisation de l’équilibrage de charge DNS sur vos serveurs Edge entraîne une perte des capacités de basculement dans les scénarios suivants :
 
-  - Fédération avec des organisations qui utilisent des versions d’Office Communications Server précédées d’une version antérieure à Lync Server 2010.
+  - Fédération avec les organisations qui exécutent des versions d’Office Communications Server antérieures à Lync Server 2010.
 
-  - Échangez des messages instantanés avec des utilisateurs de services de messagerie instantanée publique\!AOLand Yahoo, en plus des fournisseurs et des serveurs utilisant la fonction de messagerie vocale, tels que Google Talk.
+  - Échange de messages instantanés avec des utilisateurs de services de messagerie instantanée (IM\!) publics AOLand Yahoo, en plus des fournisseurs et des serveurs basés sur XMPP, tels que Google Talk.
     
     <div>
     
@@ -112,60 +112,60 @@ L’utilisation de l’équilibrage de charge DNS sur votre serveur Edge entraî
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>Pour le moment, Google Talk est le seul partenaire XMPP pris en charge.</P>
+    > <P>Google Talk est actuellement le seul partenaire XMPP pris en charge.</P>
     > <LI>
-    > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P></LI></UL>
+    > <P>À partir du 2012 1er septembre, la licence d’abonnement utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») n’est plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo !. Messenger jusqu’à la date d’arrêt du service. Date de fin du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité PIC de messagerie instantanée dans Lync Server 2013</A>.</P></LI></UL>
 
     
     </div>
 
-Ces scénarios fonctionneront tant que tous les serveurs Edge du pool seront opérationnels, mais si un serveur Edge n’est pas disponible, toutes les demandes de ces scénarios qui y sont envoyés échoueront au lieu d’être routés vers un autre serveur Edge.
+Ces scénarios fonctionneront tant que tous les serveurs Edge dans le pool sont opérationnels, mais si un serveur Edge est indisponible, toutes les demandes envoyées à ces scénarios échoueront au lieu d’être routées vers un autre serveur Edge.
 
-Si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum d’Exchange 2013 pour obtenir une prise en charge de l’équilibrage de charge DNS de Lync Server sur Edge. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs distants ne disposent pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
+Si vous utilisez la messagerie unifiée Exchange, vous devez utiliser un minimum d’Exchange 2013 pour obtenir la prise en charge de l’équilibrage de charge DNS Lync Server sur Edge. Si vous utilisez une version antérieure d’Exchange, vos utilisateurs distants ne disposeront pas des fonctionnalités de basculement pour ces scénarios de messagerie unifiée Exchange :
 
-  - Lecture de la messagerie vocale de votre entreprise sur son téléphone
+  - Lecture de leur messagerie vocale Voix Entreprise sur leur téléphone
 
-  - Transfert d’appels à partir d’un standard automatique de messagerie unifiée Exchange
+  - Transfert d’appels à partir d’un standard automatique de la messagerie unifiée Exchange
 
-Tous les autres scénarios Exchange UM fonctionnent correctement.
+Tous les autres scénarios de messagerie unifiée Exchange fonctionneront normalement.
 
-L’interface Edge interne et l’interface Edge externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
+Les interfaces Edge interne et externe doivent utiliser le même type d’équilibrage de la charge. Vous ne pouvez pas utiliser l’équilibrage de la charge DNS sur une interface Edge et l’équilibrage de la charge matérielle sur l’autre interface Edge.
 
 <div>
 
-## <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Déploiement de l’équilibrage de charge DNS sur les pools de serveurs de périphérie
+## <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Déploiement de l’équilibrage de charge DNS dans les pools de serveurs Edge
 
 Pour déployer l’équilibrage de charge DNS sur l’interface externe de votre pool de serveurs Edge, vous avez besoin des entrées DNS suivantes :
 
-  - Pour le service Edge d’accès, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le nom de domaine complet du service Edge d’accès (par exemple, sip.contoso.com) en adresse IP du service Edge d’accès sur l’un des serveurs Edge du pool.
+  - Pour le service Edge d’accès, vous avez besoin d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet (FQDN) du service Edge d’accès (par exemple, sip.contoso.com) en adresse IP du service Edge d’accès sur l’un des serveurs Edge du pool.
 
-  - Pour le service Edge de conférence Web, vous avez besoin d’une entrée pour chaque serveur du pool. Chaque entrée doit résoudre le nom de domaine complet (par exemple, webconf.contoso.com) de l’adresse IP du service Edge de conférence Web sur l’un des serveurs Edge du pool.
+  - Pour le service Edge de conférence Web, vous avez besoin d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet (FQDN) du service Edge de conférence Web (par exemple, webconf.contoso.com) en adresse IP du service Edge de conférence Web sur l’un des serveurs Edge du pool.
 
-  - Pour le service Edge audio/vidéo, vous avez besoin d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet (par exemple, av.contoso.com) de l’adresse IP du service Edge A/V sur l’un des serveurs Edge du pool.
+  - Pour le service Edge audio/vidéo, vous avez besoin d’une entrée pour chaque serveur dans le pool. Chaque entrée doit résoudre le nom de domaine complet (FQDN) du service Edge audio/vidéo (par exemple, av.contoso.com) en adresse IP du service Edge A/V sur l’un des serveurs Edge du pool.
 
-Pour déployer l’équilibrage de charge DNS sur l’interface interne de votre pool de serveurs Edge, vous devez ajouter un enregistrement DNS A, qui résout le nom de domaine complet (FQDN) du pool de serveurs Edge, à l’adresse IP de chaque serveur du pool.
-
-</div>
+Pour déployer l’équilibrage de la charge DNS sur l’interface interne de votre pool de serveurs Edge, vous devez ajouter un enregistrement DNS A qui résout le nom de domaine complet interne du pool de serveurs Edge en adresse IP pour chaque serveur dans le pool.
 
 </div>
-
-<div>
-
-## <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Utilisation de l’équilibrage de charge DNS sur les pools de serveurs de médiation
-
-Vous pouvez utiliser l’équilibrage de charge DNS sur les pools de serveurs de médiation autonomes. Le trafic SIP et de média est équilibré par l’équilibrage de charge DNS.
-
-Pour déployer l’équilibrage de charge DNS sur un pool de serveurs de médiation, vous devez configurer le DNS pour résoudre le nom de domaine complet (par exemple, mediationpool1.contoso.com) pour les adresses IP de tous les serveurs du pool (par exemple, 192.168.1.1, 192.168.1.2, etc.).
 
 </div>
 
 <div>
 
-## <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blocage du trafic vers un serveur avec l’équilibrage de charge DNS
+## <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Utilisation de l’équilibrage de charge DNS dans les pools de serveurs de médiation
 
-Si vous utilisez l’équilibrage de charge DNS et que vous voulez bloquer le trafic vers un ordinateur particulier, vous devez supprimer les adresses IP dans le nom de domaine complet du pool, mais également l’entrée DNS associée à l’ordinateur.
+Vous pouvez utiliser l’équilibrage de charge DNS sur des pools de serveurs de médiation autonomes. Tout le trafic SIP et multimédia est équilibré par l’équilibrage de charge DNS.
 
-Notez que pour le trafic de serveur à serveur, Lync Server 2013 utilise l’équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie.
+Pour déployer l’équilibrage de la charge DNS sur un pool de serveurs de médiation, vous devez mettre en service DNS pour résoudre le nom de domaine complet du pool (par exemple, mediationpool1.contoso.com) en adresse IP pour chaque serveur dans le pool (par exemple, 192.168.1.1, 192.168.1.2, etc.).
+
+</div>
+
+<div>
+
+## <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blocage du trafic vers un serveur avec équilibrage de la charge DNS
+
+Si vous utilisez l’équilibrage de la charge DNS et que vous avez besoin de bloquer le trafic sur un ordinateur spécifique, il ne suffit pas de supprimer les entrées d’adresses IP du nom de domaine complet du pool. Vous devez également supprimer l’entrée DNS pour l’ordinateur.
+
+Notez que pour le trafic de serveur à serveur, Lync Server 2013 utilise un équilibrage de charge prenant en charge la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir les noms de domaine complets des serveurs dans la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie.
 
 </div>
 

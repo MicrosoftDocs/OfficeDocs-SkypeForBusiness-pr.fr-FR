@@ -1,5 +1,5 @@
 ---
-title: Gestion de la reprise après sinistre du serveur Lync, haute disponibilité et service de sauvegarde
+title: Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7adc4086ac8ac6b8e5ad33c2e4c1dc131d357e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83e0446bbc0b39f553ac9a2bcba0af9ceacc421f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013
 
 </div>
 
@@ -37,28 +37,28 @@ ms.locfileid: "41762072"
 
 _**Dernière modification de la rubrique :** 2012-11-12_
 
-Cette section contient des procédures pour les opérations de récupération d’urgence, ainsi que pour la gestion du service de sauvegarde qui synchronise les données dans les pools frontaux couplés.
+Cette section contient des procédures destinées aux opérations de récupération d’urgence, ainsi que pour la maintenance du service de sauvegarde qui synchronise les données des pools frontaux couplés.
 
-Les procédures de reprise après sinistre, à la fois de basculement et de restauration automatique, sont manuelles. En cas de sinistre, l’administrateur doit appeler manuellement les procédures de basculement. Il en va de même pour la restauration après la réparation du pool.
+Les procédures de récupération d’urgence, qu’il s’agisse du basculement ou de la restauration automatique, sont manuelles. En cas d’urgence, l’administrateur doit appeler manuellement les procédures de basculement. Il en est de même pour la restauration automatique, après la réparation du pool.
 
-Les procédures de reprise après sinistre dans le reste de cette section sont supposées comme suit :
+Les procédures de récupération d’urgence présentées dans le reste de la section supposent les éléments suivants :
 
-  - Vous disposez d’un déploiement avec des plages frontales couplées disponibles dans les différents sites, comme décrit dans la rubrique [planification de la haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Le service de sauvegarde est en cours d’exécution sur ces pools couplés pour qu’ils soient synchronisés.
+  - Vous disposez d’un déploiement avec des pools frontaux couplés, situés dans différents sites, comme décrit dans la rubrique [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Le service de sauvegarde a été exécuté sur ces pools couplés pour maintenir leur synchronisation.
 
-  - Si le magasin central de gestion est hébergé sur l’un ou l’autre pool, il est installé et en cours d’exécution sur les deux pools couplés, avec l’un de ces pools hébergeant la forme de base active et l’autre réserve hébergeant la réserve.
+  - Si le magasin central de gestion est hébergé sur l’un ou l’autre pool, il est installé et s’exécute sur les deux pools couplés, avec l’un de ces pools hébergeant le serveur principal actif et l’autre pool hébergeant le secours.
 
 <div>
 
 
 > [!IMPORTANT]
-> Dans les procédures suivantes, le paramètre <EM>PoolFQDN</EM> fait référence au nom de domaine complet (FQDN) du pool affecté par un sinistre, et non à partir du pool sur lequel les utilisateurs concernés sont redirigés. Pour le même ensemble d’utilisateurs concernés, il fait référence au même pool dans les applets de service de basculement et de restauration automatique (autrement dit, le pool qui a d’abord hébergé les utilisateurs avant le basculement).<BR>Par exemple, supposons que l’ensemble des utilisateurs hébergés sur un pool P1 aient pu basculer vers le pool de sauvegardes P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement desservis par P2 pour être desservi par P1, l’administrateur doit procéder comme suit : 
+> Dans les procédures suivantes, le paramètre <EM>PoolFQDN</EM> se réfère au nom de domaine complet (FQDN) du pool affecté par la situation d’urgence et non pas le pool depuis lequel les utilisateurs affectés sont redirigés. Dans le cas d’un ensemble d’utilisateurs identique, le paramètre se réfère au même pool, dans les cmdlets de basculement et de récupération automatique (c’est-à-dire, le pool ayant hébergé les utilisateurs avant le basculement).<BR>Par exemple, supposons que tous les utilisateurs hébergés sur un pool P1 ont été basculés sur le pool de sauvegarde, P2. Si l’administrateur veut déplacer tous les utilisateurs actuellement traités par les services de P2 pour qu’ils soient traités par les services de P1, l’administrateur doit procéder comme ceci : 
 > <OL>
 > <LI>
-> <P>Basculez vers la page d’accueil de tous les utilisateurs à l’origine de l’appel P1 sur P1 à l’aide de l’applet de la cmdlet failback. Dans le cas présent, le <EM>PoolFQDN</EM> est P1's FQDN.</P>
+> <P>Il doit restaurer automatiquement tous les utilisateurs hébergés à l’origine sur P1 de P2 à P1 en utilisant la cmdlet de restauration automatique. Dans ce cas, le <EM>PoolFQDN</EM> est le nom de domaine complet (FQDN) de P1.</P>
 > <LI>
-> <P>Faire basculer tous les utilisateurs de la page d’origine de la page de base sur l’applet de contrôle Dans le cas présent, le <EM>PoolFQDN</EM> est P2's FQDN.</P>
+> <P>Il doit ensuite basculer tous les utilisateurs hébergés à l’origine sur P2 vers P1 en utilisant la cmdlet de basculement. Dans ce cas, le <EM>PoolFQDN</EM> est le nom de domaine complet (FQDN) de P2.</P>
 > <LI>
-> <P>Si l’administrateur souhaite plus tard régulariser les utilisateurs de P2, le <EM>PoolFQDN</EM> est P2's FQDN.</P></LI></OL>Notez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 de conservation de l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, l’applet de la cmdlet Step 2 ne fonctionne pas.
+> <P>Si l’administrateur souhaite ultérieurement restaurer automatiquement les utilisateurs de P2 vers P2, le <EM>PoolFQDN</EM> est le nom de domaine complet FQDN de P2.</P></LI></OL>Remarquez que l’étape 1 ci-dessus doit être effectuée avant l’étape 2 pour préserver l’intégrité du pool. Si vous essayez l’étape 2 avant l’étape 1, la cmdlet de l’étape 2 ne fonctionnera pas.
 
 
 
@@ -70,21 +70,21 @@ Les procédures de reprise après sinistre dans le reste de cette section sont s
 
   - [Configuration et surveillance du service de sauvegarde dans Lync Server 2013](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
-  - [Basculement vers un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md)
+  - [Basculement d’un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md)
 
-  - [Basculement vers un pool dans Lync Server 2013](lync-server-2013-failing-back-a-pool.md)
+  - [Restauration d’un pool dans Lync Server 2013](lync-server-2013-failing-back-a-pool.md)
 
-  - [Basculement vers une base de données en miroir dans Lync Server 2013](lync-server-2013-failing-over-a-mirrored-database.md)
+  - [Basculement vers une base de données mise en miroir dans Lync Server 2013](lync-server-2013-failing-over-a-mirrored-database.md)
 
-  - [Basculement vers le pool Edge utilisé pour la fédération Lync Server dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+  - [Basculement du pool de serveurs Edge utilisé pour la Fédération Lync Server dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
-  - [Basculement vers le pool Edge utilisé pour la fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
+  - [Basculement du pool de serveurs Edge utilisé pour la Fédération XMPP dans Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
 
-  - [Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Server dans Lync Server 2013](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
+  - [Restauration du pool Edge utilisé pour Lync Server Federation ou XMPP Federation dans Lync Server 2013](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
 
-  - [Modification du pool de serveurs Edge associé à un pool de serveurs frontaux dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
+  - [Modification du pool de serveurs Edge associé à un pool frontal dans Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
 
-  - [Restauration du contenu d’une conférence avec le service de sauvegarde dans Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
+  - [Restauration du contenu d’une conférence à l’aide du service de sauvegarde dans Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
 </div>
 

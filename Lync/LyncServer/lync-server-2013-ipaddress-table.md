@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : IPAddress'
+title: 'Lync Server 2013 : IPAddress table'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6344319fbdf581a5e51a1f61e141833910e9e29f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733464"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ipaddress-table-in-lync-server-2013"></a>Table IPAddress dans Lync Server 2013
+# <a name="ipaddress-table-in-lync-server-2013"></a>IPAddress table dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41733464"
 
 _**Dernière modification de la rubrique :** 2012-10-17_
 
-La table IPAddress mappe les adresses IP aux identificateurs d’adresse IP uniques utilisés ailleurs dans la base de données de qualité de l’utilisation. Ce tableau a été présenté dans Microsoft Lync Server 2013.
+La table IPAddress mappe les adresses IP à des identificateurs d’adresse IP uniques utilisés dans la base de données Qualité de l’expérience. Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -51,22 +51,22 @@ La table IPAddress mappe les adresses IP aux identificateurs d’adresse IP uniq
 <tr class="header">
 <th><strong>Colonne</strong></th>
 <th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><strong>Clé/index</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>IPAddressKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Identificateur unique de l’adresse IP spécifiée.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Identificateur unique pour l’adresse IP spécifiée.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IPAddress</strong></p></td>
-<td><p>varchar(50)</p></td>
-<td><p>Différent</p></td>
-<td><p>Une adresse IP unique (par exemple, 189.168.1.1) qui correspond à IpAddressKey. Il peut s’agir d’une adresse IPv4 ou IPv6.</p></td>
+<td><p><strong>IP</strong></p></td>
+<td><p>varchar (50)</p></td>
+<td><p>Uniques</p></td>
+<td><p>Adresse IP unique (par exemple, 189.168.1.1) qui est mappée à IpAddressKey. Il peut d’agir d’une adresse IPv4 ou IPv6.</p></td>
 </tr>
 </tbody>
 </table>

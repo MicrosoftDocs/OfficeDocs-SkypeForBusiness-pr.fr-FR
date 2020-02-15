@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le contrôle d’admission des appelst'
+title: 'Lync Server 2013 : définition de la configuration requise pour le contrôle d’admission des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba23e34099ed75f61f8025711189c60d36ca18f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d26596f48178f53f79b1c4cc136610d45705ffd1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -51,30 +51,30 @@ La planification du contrôle d’admission des appels (CAC) requiert des inform
     
 
     > [!NOTE]  
-    > Limites de bande passante reportez-vous à la quantité de bande passante d’une liaison WAN allouée au trafic audio et vidéo d’entreprise. Quand une liaison réseau étendu est décrite comme « à bande passante restreinte », la liaison réseau étendu a une limite de bande passante inférieure au trafic maximal prévu sur la liaison.
+    > Les limites de bande passante font référence à la proportion de bande passante sur une liaison de réseau étendu allouée au trafic audio et vidéo de l’entreprise. Quand une liaison réseau étendu est décrite comme « à bande passante restreinte », la liaison réseau étendu a une limite de bande passante qui est inférieure au trafic maximal prévu sur la liaison.
 
     
     </div>
 
-5.  Identifiez les sous-réseaux IP affectés à chaque site réseau.
+5.  Identifiez les sous-réseaux IP qui sont affectés à chaque site réseau.
 
 Pour expliquer ces concepts, nous prendrons l’exemple de topologie réseau présenté à la figure suivante.
 
 **Exemple de topologie pour le contrôle d’admission des appels**
 
-![Exemple de topologie réseau Litware Inc.](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Exemple de topologie réseau Litware Inc.")
+![Exemple de topologie de réseau Litware Inc.](images/Gg398334.477f3b52-2973-4026-9bc0-b1c6bf9f4803(OCS.15).jpg "Exemple de topologie de réseau Litware Inc.")
 
 <div>
 
 
 > [!NOTE]  
-> Tous les sites réseau sont associés à une région réseau. Par exemple, Portland, Reno et Albuquerque sont inclus dans la région Amérique du Nord. Dans cette figure, seules les liaisons réseau étendu auxquelles des stratégies de service Contrôle d’admission des appels sont appliquées sont présentées, avec des limites de bande passante. Les sites réseau Chicago, New York et Détroit s’affichent dans l’ovale de la région Amérique du Nord, car ils ne sont soumis à aucune limite de bande passante et ne nécessitent donc aucune stratégie de service Contrôle d’admission des appels.
+> Tous les sites réseau sont associés à une région réseau. Par exemple, Portland, Reno et Albuquerque sont inclus dans la région Amérique du Nord. Dans cette figure, seules les liaisons réseau étendu auxquelles des stratégies de service Contrôle d’admission des appels sont appliquées sont présentées, avec des limites de bande passante. Les sites réseau Chicago, New York et Détroit apparaissent dans l’ovale de la région Amérique du Nord, car ils ne sont soumis à aucune limite de bande passante et ne nécessitent donc aucune stratégie de service Contrôle d’admission des appels.
 
 
 
 </div>
 
-Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la façon dont cette topologie a été planifiée, y compris les limites de bande passante, reportez-vous à la rubrique [exemple : rassemblement des exigences relatives au contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
+Les composants de cet exemple de topologie sont décrits dans les sections suivantes. Pour plus d’informations sur la planification de cette topologie, notamment les limites de bande passante, voir [example : Gathering Your Requirements for Call Admission Control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md).
 
 <div>
 
@@ -84,7 +84,7 @@ Une région réseau représente une dorsale principale ou un concentrateur rése
 
 Une dorsale principale ou un concentrateur réseau fait partie de l’infrastructure réseau informatique qui interconnecte différents éléments du réseau, fournissant ainsi un chemin pour l’échange des informations entre différents réseaux locaux (LAN) ou sous-réseaux. Une dorsale principale peut lier divers réseaux d’un petit emplacement à une zone géographique étendue. La capacité de la dorsale principale est généralement plus grande que celle des réseaux qui s’y connectent.
 
-Notre exemple de topologie comporte trois régions réseau : Amérique du Nord, EMEA et APAC. Une région réseau contient un ensemble de sites réseau (voir la définition des sites réseau dans la suite de cette rubrique). Collaborez avec votre équipe responsable des opérations réseau pour identifier vos régions réseau.
+Notre exemple de topologie comporte trois régions réseau : Amérique du Nord, EMEA et APAC. Une région réseau contient un ensemble de sites réseau (voir la définition des sites réseau plus loin dans cette rubrique). Collaborez avec votre équipe responsable des opérations réseau pour identifier vos régions réseau.
 
 </div>
 
@@ -92,13 +92,13 @@ Notre exemple de topologie comporte trois régions réseau : Amérique du Nord,
 
 ## <a name="associating-a-central-site-with-each-network-region"></a>Association d’un site central avec chaque région réseau
 
-Le CAC exige qu’un site central Lync Server soit défini pour chaque région du réseau. Le site central est sélectionné en fonction de la meilleure connectivité réseau et de la bande passante la plus élevée parmi les autres sites de la région réseau. L’exemple précédent de topologie réseau montre trois régions réseau, chacune comportant un site central qui gère les décisions du service Contrôle d’admission des appels. Dans l’exemple précédent, l’association appropriée est indiquée dans le tableau ci-après.
+CAC exige qu’un site central Lync Server soit défini pour chaque région réseau. Le site central est sélectionné en fonction de la meilleure connectivité réseau et de la bande passante la plus élevée parmi les autres sites de la région réseau. L’exemple précédent de topologie réseau montre trois régions réseau, chacune comportant un site central qui gère les décisions du service Contrôle d’admission des appels. Dans l’exemple précédent, l’association appropriée est indiquée dans le tableau ci-après.
 
 <div>
 
 
 > [!NOTE]  
-> Les sites centraux ne correspondent pas nécessairement aux sites réseau. Dans les exemples de cette documentation, certains sites centraux (Chicago, Londres et Pékin) portent les mêmes noms que les sites réseau. Toutefois, même si un site central et un site réseau partagent le même nom, le site central est un élément de la topologie du serveur Lync, alors que le site réseau fait partie du réseau global sur lequel réside la topologie du serveur Lync.
+> Les sites centraux ne correspondent pas nécessairement aux sites réseau. Dans les exemples de cette documentation, certains sites centraux (Chicago, Londres et Pékin) ont les mêmes noms que les sites réseau. Toutefois, même si un site central et un site réseau partagent le même nom, le site central est un élément de la topologie Lync Server, tandis que le site réseau fait partie du réseau global dans lequel réside la topologie Lync Server.
 
 
 
@@ -122,11 +122,11 @@ Le CAC exige qu’un site central Lync Server soit défini pour chaque région d
 <tbody>
 <tr class="odd">
 <td><p>Amérique du Nord</p></td>
-<td><p>Chicago</p></td>
-<td><p>Chicago</p>
+<td><p>Renne</p></td>
+<td><p>Renne</p>
 <p>New York</p>
-<p>Detroit</p>
-<p>Portland</p>
+<p>Détroit</p>
+<p>Agence</p>
 <p>Reno</p>
 <p>Albuquerque</p></td>
 </tr>
@@ -140,7 +140,7 @@ Le CAC exige qu’un site central Lync Server soit défini pour chaque région d
 <td><p>APAC</p></td>
 <td><p>Pékin</p></td>
 <td><p>Pékin</p>
-<p>Manille</p></td>
+<p>Rigide</p></td>
 </tr>
 </tbody>
 </table>
@@ -152,9 +152,9 @@ Le CAC exige qu’un site central Lync Server soit défini pour chaque région d
 
 ## <a name="identify-network-sites"></a>Identifier les sites réseau
 
-Un site réseau représente un lieu physique pour votre organisation, par exemple, des bureaux, un ensemble de bâtiments ou un campus. Tout lieu physique qui comporte un réseau local (LAN) et une connectivité de réseau étendu (WAN) vers d’autres sites est considéré comme un site réseau. Commencez par inventorier tous les bureaux de votre organisation. Dans notre exemple de topologie, la région réseau Amérique du Nord comporte les sites réseau suivants : New York, Chicago, Détroit, Portland, Reno et Albuquerque.
+Un site réseau représente un lieu physique pour votre organisation, par exemple des bureaux, un ensemble de bâtiments ou un campus. Tout lieu physique qui comporte un réseau local (LAN) et une connectivité de réseau étendu (WAN) vers d’autres sites est considéré comme un site réseau. Commencez par inventorier tous les bureaux de votre organisation. Dans notre exemple de topologie, la région réseau Amérique du Nord comporte les sites réseau suivants : New York, Chicago, Détroit, Portland, Reno et Albuquerque.
 
-Vous devez associer chaque site réseau à une région réseau. Selon que le site réseau dispose d’une liaison réseau étendu restreinte, une stratégie de bande passante est associée au site réseau. Pour plus d’informations sur les stratégies de service Contrôle d’admission des appels et la bande passante que vous allouez en les utilisant, reportez-vous à « Définir des stratégies de bande passante » dans la suite de cette rubrique. Pour configurer le service Contrôle d’admission des appels, associez des sites réseau à des régions réseau, puis créez des stratégies d’allocation de bande passante qui doivent être appliquées aux connexions à bande passante restreinte entre un site ou une région spécifique, mais aussi aux connexions réseau étendu entre des sites et des régions.
+Vous devez associer chaque site réseau à une région réseau. Selon que le site réseau dispose d’une liaison réseau étendu restreinte, une stratégie de bande passante est associée au site réseau. Pour plus d’informations sur les stratégies de service Contrôle d’admission des appels et la bande passante que vous allouez en les utilisant, voir « Définir des stratégies de bande passante » plus loin dans cette rubrique. Pour configurer le service Contrôle d’admission des appels, associez des sites réseau à des régions réseau, puis créez des stratégies d’allocation de bande passante qui doivent être appliquées aux connexions à bande passante restreinte entre un site ou une région spécifique, mais aussi aux connexions réseau étendu entre des sites et des régions.
 
 </div>
 
@@ -166,7 +166,7 @@ Les liaisons réseau représentent les connexions au réseau étendu physique qu
 
 Les deux liaisons régionales sont entre Amérique du Nord et EMEA, représentés par NA-EMEA-LINK, et entre APAC et EMEA, représentés par EMEA-APAC-LINK.
 
-Les liaisons de sites sont indiquées par des traits connectant Portland, Reno et Albuquerque à la région Amérique du Nord, Manille à la région APAC et Cologne à la région EMEA. Le trait entre Reno et Albuquerque indique une liaison réseau directe entre ces deux sites.
+Les liaisons de sites sont indiquées par des traits connectant Portland, Reno et Albuquerque à la région Amérique du Nord, Manille à la région APAC, et Cologne à la région EMEA. Le trait entre Reno et Albuquerque indique une liaison réseau directe entre ces deux sites.
 
 </div>
 
@@ -202,7 +202,7 @@ Les stratégies de bande passante CAC peuvent définir un ou plusieurs des él�
 
 
 > [!NOTE]  
-> Les fonctionnalités de stratégie vocale de Lync Server 2013 permettent de remplacer les vérifications de stratégie de bande passante pour les appels entrants vers l’utilisateur (et non pour les appels sortants placés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">création d’une stratégie vocale et configuration des enregistrements d’utilisation RTC dans Lync server 2013</A> ou <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">modification d’une stratégie vocale et configuration des enregistrements d’utilisation RTC dans Lync Server 2013</A> dans la documentation de déploiement.
+> Les fonctionnalités de stratégie de voix Lync Server 2013 permettent de remplacer les vérifications de stratégie de bande passante pour les appels entrants vers l’utilisateur (pas pour les appels sortants passés par l’utilisateur). Une fois la session établie, la consommation de bande passante est calculée avec précision. Ce paramètre doit être utilisé avec modération. Pour plus d’informations, voir <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">créer une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Lync server 2013</A> ou <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Lync Server 2013</A> dans la documentation de déploiement.
 
 
 
@@ -210,11 +210,11 @@ Les stratégies de bande passante CAC peuvent définir un ou plusieurs des él�
 
 Pour optimiser l’utilisation de la bande passante par session, tenez compte du type des codecs audio et vidéo qui seront utilisés. Plus particulièrement, allouez suffisamment de bande passante pour un codec que vous pensez utiliser fréquemment. À l’inverse, si vous souhaitez empêcher le média d’utiliser un codec nécessitant davantage de bande passante, définissez une bande passante maximale par session qui soit suffisamment basse pour décourager ce type d’utilisation. Pour l’audio, tous les codecs ne sont pas disponibles pour chaque scénario. Par exemple :
 
-  - Les appels audio d’égal à égal entre les points de terminaison Lync utilisent RTAudio (8kHz) ou RTAudio (16kHz) lorsque vous factorisez la bande passante et la hiérarchisation des codecs.
+  - Les appels audio P2P entre les points de terminaison Lync utiliseront RTAudio (8 kHz) ou RTAudio (16 kHz) lorsque vous factorerez la bande passante et la définition des priorités des codecs.
 
-  - Conférences téléphoniques entre points de terminaison Lync et service de conférence A/V utilisera G. 722 ou sirène.
+  - Les appels de conférence entre les points de terminaison Lync et le service de conférence A/V utiliseront G. 722 ou Siren.
 
-  - Les appels vers le réseau téléphonique public commuté (RTC) vers ou à partir de points de terminaison Lync utilisent G. 711 ou RTAudio (8kHz).
+  - Les appels vers le réseau téléphonique commuté (PSTN) vers ou à partir de points de terminaison Lync utiliseront G. 711 ou RTAudio (8 kHz).
 
 Utilisez le tableau suivant pour optimiser les paramètres de bande passante par session maximale.
 
@@ -235,7 +235,7 @@ Utilisez le tableau suivant pour optimiser les paramètres de bande passante par
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>RTAudio (8kHz)</p></td>
+<td><p>RTAudio (8 kHz)</p></td>
 <td><p>49,8 Kbits/s</p></td>
 <td><p>61,6 Kbits/s</p></td>
 </tr>
@@ -250,12 +250,12 @@ Utilisez le tableau suivant pour optimiser les paramètres de bande passante par
 <td><p>73,6 Kbits/s</p></td>
 </tr>
 <tr class="even">
-<td><p>G.711</p></td>
+<td><p>G. 711</p></td>
 <td><p>102 Kbits/s</p></td>
 <td><p>166 Kbits/s</p></td>
 </tr>
 <tr class="odd">
-<td><p>G.722</p></td>
+<td><p>G. 722</p></td>
 <td><p>105,6 Kbits/s</p></td>
 <td><p>169,6 Kbits/s</p></td>
 </tr>
@@ -285,9 +285,9 @@ Utilisez le tableau suivant pour optimiser les paramètres de bande passante par
 
 Les codecs G.722.1 et Siren sont similaires, mais offrent différentes vitesses de transmission.
 
-G. 722, le codec par défaut pour les conférences Lync Server, est totalement différent des codecs G. 722.1 et sirène.
+G. 722, le codec par défaut pour la Conférence Lync Server, est complètement différent des codecs G. 722.1 et Siren.
 
-Le codec sirène est utilisé dans Lync Server dans les situations suivantes :
+Le codec Siren est utilisé dans Lync Server dans les situations suivantes :
 
   - La stratégie de bande passante est définie sur une valeur trop basse pour permettre l’utilisation de G.722.
 
@@ -312,7 +312,7 @@ Le codec sirène est utilisé dans Lync Server dans les situations suivantes :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels audio P2P</p></td>
+<td><p>Appels audio d’égal à égal</p></td>
 <td><p>45 Kbits/s</p></td>
 <td><p>62 Kbits/s</p></td>
 <td><p>91 Kbits/s</p></td>
@@ -324,25 +324,25 @@ Le codec sirène est utilisé dans Lync Server dans les situations suivantes :
 <td><p>165 Kbits/s</p></td>
 </tr>
 <tr class="odd">
-<td><p>Appels RTC (entre Lync 2013 et passerelle RTC, avec contournement de média)</p></td>
+<td><p>Appels RTC (entre Lync 2013 et la passerelle PSTN, avec déviation du trafic multimédia)</p></td>
 <td><p>97 Kbits/s</p></td>
 <td><p>97 Kbits/s</p></td>
 <td><p>161 Kbits/s</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels RTC (entre Lync 2013 et médiation Server sans dérivation de média)</p></td>
+<td><p>Appels RTC (entre Lync 2013 et le serveur de médiation sans déviation du trafic multimédia)</p></td>
 <td><p>45 Kbits/s</p></td>
 <td><p>97 Kbits/s</p></td>
 <td><p>161 Kbits/s</p></td>
 </tr>
 <tr class="odd">
-<td><p>Appels RTC (entre le serveur de médiation et la passerelle RTC sans dérivation de média)</p></td>
+<td><p>Appels RTC (entre le serveur de médiation et la passerelle PSTN, sans déviation du trafic multimédia)</p></td>
 <td><p>97 Kbits/s</p></td>
 <td><p>97 Kbits/s</p></td>
 <td><p>161 Kbits/s</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync-appels Polycom</p></td>
+<td><p>Appels Lync Polycom</p></td>
 <td><p>101 Kbits/s</p></td>
 <td><p>101 Kbits/s</p></td>
 <td><p>101 Kbits/s</p></td>
@@ -365,7 +365,7 @@ Dans notre exemple, le site New York de la région Amérique du Nord se voit af
 
 
 > [!WARNING]  
-> Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour la déviation du trafic multimédia. Un client Lync accepte son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé. Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte. Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels. (Si vous déployez le contrôle d’admission des appels, mais pas la déviation du trafic multimédia, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)<BR>Par exemple, si un client se connecte à partir d’un ordinateur doté d’une adresse IP 172.29.81.57 avec un masque de sous-réseau IP 255.255.255.0, Lync 2013 demande l’ID de contournement associé au 172.29.81.0 de sous-réseau. Si le sous-réseau est défini comme 172.29.0.0/16, même si le client appartient au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0. Par conséquent, il est important que l’administrateur entre les sous-réseaux exactement comme fourni par les clients Lync (qui sont configurés avec des sous-réseaux lors de la configuration du réseau de manière statique ou par DHCP.)
+> Les sous-réseaux IP spécifiés pendant la configuration du réseau sur le serveur doivent correspondre au format fourni par les ordinateurs clients afin d’être correctement utilisés pour le contournement de média. Un client Lync prend son adresse IP locale et masque l’adresse IP avec le masque de sous-réseau associé. Lors de la détermination de l’ID de contournement associé à chaque client, le serveur d’inscriptions comparera la liste des sous-réseaux IP associés à chaque site réseau avec le sous-réseau fourni par le client pour obtenir une correspondance exacte. Pour cette raison, il est important que les sous-réseaux entrés lors de la configuration du réseau sur le serveur soient des sous-réseaux réels et non des sous-réseaux virtuels. (Si vous déployez le contrôle d’admission des appels, mais pas le contournement de média, le contrôle d’admission des appels fonctionnera correctement même si vous configurez des sous-réseaux virtuels.)<BR>Par exemple, si un client se connecte sur un ordinateur dont l’adresse IP est 172.29.81.57 avec un masque de sous-réseau IP 255.255.255.0, Lync 2013 demande l’ID de contournement associé au sous-réseau 172.29.81.0. Si le sous-réseau est défini comme 172.29.0.0/16, bien que le client appartienne au sous-réseau virtuel, le serveur d’inscriptions ne considérera pas cela comme une correspondance, car le serveur d’inscriptions recherche spécifiquement le sous-réseau 172.29.81.0. Par conséquent, il est important que l’administrateur entre des sous-réseaux exactement comme fournis par les clients Lync (qui sont configurés avec des sous-réseaux pendant la configuration du réseau, de façon statique ou par DHCP).
 
 
 

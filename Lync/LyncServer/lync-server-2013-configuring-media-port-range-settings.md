@@ -12,20 +12,20 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1cfde603ace9036ba547ffb0a7ee80c1963ae6cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755938"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a>Configuration des paramètres de plage de ports multimédia dans Lync Server 2013
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a>Configuration des paramètres de plage de ports multimédias dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41755938"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Les paramètres de la plage de ports multimédias peuvent avoir un impact considérable sur les performances du client. Vous pouvez configurer ces paramètres à l’aide de Lync Server Management Shell.
+Les paramètres des plages de ports multimédias peuvent affecter considérablement les performances du client et doivent donc être configurés. Vous pouvez configurer ces paramètres à l’aide de Lync Server Management Shell.
 
-### <a name="media-port-range-settings"></a>Paramètres de la plage de ports multimédia
+### <a name="media-port-range-settings"></a>Paramètres de plage de ports multimédias
 
 <table>
 <colgroup>
@@ -50,30 +50,30 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paramètre</th>
+<th>Setting</th>
 <th>Description</th>
 <th>Cmdlet Lync Server Management Shell</th>
-<th>Paramètres de cmdlet</th>
+<th>Paramètres de l’applet de commande</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Portrange\Enabled</p></td>
-<td><p>Indique si les plages de ports envoyées par le serveur doivent être utilisées par le client pour le média et le signalement. Utilisé conjointement avec les sous-valeurs MinMediaPort et MaxMediaPort.</p></td>
+<td><p>Spécifie si les plages de ports envoyées par le serveur doivent être utilisées par le client pour les médias et la signalisation. Utilisée conjointement avec les sous-valeurs MinMediaPort et MaxMediaPort.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRangeEnabled</p></td>
+<td><p>Paramètres clientmediaportrangeenabled</p></td>
 </tr>
 <tr class="even">
 <td><p>Portrange\MinMediaPort</p></td>
-<td><p>Spécifie le numéro de port de départ à utiliser pour le média. S’associe à MaxMediaPort pour spécifier la plage de ports. La plage minimale recommandée est 40 ports.</p></td>
+<td><p>Spécifie le numéro de port de début à utiliser pour le média. Combinée avec MaxMediaPort pour spécifier la plage de ports. La plage minimale recommandée est 40 ports.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPort (représente le numéro du port de départ à utiliser pour le média client)</p></td>
+<td><p>ClientMediaPort (représente le numéro de port de début à utiliser pour le média client)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Portrange\MaxMediaPort</p></td>
-<td><p>Spécifie le numéro de port le plus élevé à utiliser pour le contenu multimédia. S’associe à MinMediaPort pour spécifier la plage de ports. La plage minimale recommandée est 40 ports.</p></td>
+<td><p>Spécifie le numéro de port le plus élevé à utiliser pour le média. Combinée avec MinMediaPort pour spécifier la plage de ports. La plage minimale recommandée est 40 ports.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRange (indique le nombre total de ports disponibles pour le support client ; la valeur par défaut est 40)</p></td>
+<td><p>ClientMediaPortRange (indique le nombre total de ports disponibles pour le trafic multimédia client. La valeur par défaut est 40)</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,17 +81,17 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a>Pour configurer les paramètres de la plage de ports multimédia
+## <a name="to-configure-media-port-range-settings"></a>Pour configurer les paramètres de la plage de ports multimédias
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de commande suivante :
+2.  Exécutez la cmdlet suivante :
     
         Get-CsConferencingConfiguration
     
-    Cette cmdlet renvoie les paramètres de configuration de la Conférence.
+    Cette applet de commande renvoie les paramètres de configuration de conférence.
 
-3.  Exécutez l’applet de commande suivante avec les paramètres et valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server Management Shell) :
+3.  Exécutez l’applet de commande suivante avec les paramètres et les valeurs que vous souhaitez modifier (pour plus d’informations sur les paramètres de cette cmdlet, voir la documentation de Lync Server Management Shell) :
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +99,7 @@ Les paramètres de la plage de ports multimédias peuvent avoir un impact consid
     
 
     > [!NOTE]  
-    > Vous pouvez créer des ensembles de paramètres de configuration de conférences supplémentaires pour des sites spécifiques. Utilisez l’applet <STRONG>de nouvelle applet de nouveau-CsConferencingConfiguration</STRONG> avec une identité de site. Quand vous créez de nouveaux paramètres de configuration de conférence pour les sites, les paramètres du site sont prioritaires sur les paramètres globaux. Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell.
+    > Vous pouvez créer des ensembles de paramètres de configuration de conférence supplémentaires pour des sites spécifiques. Utilisez l’applet de commande <STRONG>New- CsConferencingConfiguration</STRONG> avec une identité de site. Lorsque vous créez de nouveaux paramètres de configuration de conférence pour des sites, ces paramètres prévalent sur les paramètres globaux. Pour plus d’informations, voir la documentation Lync Server Management Shell.
 
     
     </div>

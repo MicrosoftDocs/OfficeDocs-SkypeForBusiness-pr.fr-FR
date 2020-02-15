@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : règles de mise à jour d’appareils'
+title: 'Lync Server 2013 : règles de mise à jour des périphériques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b52fa2f2aefae05f713972df5c3b15e6db7c0b57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762382"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-update-rules-in-lync-server-2013"></a>Règles de mise à jour des appareils dans Lync Server 2013
+# <a name="device-update-rules-in-lync-server-2013"></a>Règles de mise à jour des périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41762382"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Périodiquement, Microsoft publie un nouvel ensemble de mises à jour de microprogramme de périphérique pour Lync Phone Edition. Les *règles de mise à jour* de l’appareil associent les mises à jour du microprogramme aux périphériques matériels (téléphones et autres appareils exécutant Lync Phone Edition).
+Régulièrement, Microsoft publie un nouvel ensemble de mises à jour de microprogramme de périphérique pour Lync Phone Edition. Les *règles de mise à jour des périphériques* associent les mises à jour du microprogramme aux périphériques matériels (téléphones et autres appareils exécutant Lync Phone Edition).
 
-Pour obtenir le dernier ensemble de règles de mise à jour de l’appareil, accédez à la page aide et support sur le site Web de Microsoft et recherchez « Phone Edition ». Téléchargez le package de mise à jour et extrayez les fichiers vers un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, importez les règles de mise à jour de l’appareil trouvées dans le fichier extrait. Le fichier CAB (qui porte le nom UCUpdates. cab). Utilisez ensuite le panneau de configuration de Lync Server ou les applets de commande Windows PowerShell pour afficher et gérer ces règles pour les appareils de votre organisation.
+Pour obtenir la dernière série de règles de mise à jour des appareils, accédez à la page aide et support sur le site Web de Microsoft, puis recherchez « Phone Edition ». Téléchargez le package de mise à jour et extrayez les fichiers dans un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, importez les règles de mise à jour des périphériques qui ont été extraites. Fichier CAB (portant le nom UCUpdates. cab). Ensuite, utilisez le panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour afficher et gérer ces règles pour les périphériques de votre organisation.
 
-Les rubriques suivantes vous expliquent comment importer, afficher et gérer des règles de mise à jour d’appareil.
+Les rubriques suivantes vous expliquent comment importer, afficher et gérer les règles de mise à jour des appareils.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Afficher des informations sur les règles de mise à jour des appareils dans Lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)
+  - [Afficher des informations sur les règles de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)
 
-  - [Importer des règles de mise à jour de périphériques dans Lync Server 2013](lync-server-2013-import-device-update-rules.md)
+  - [Importer des règles de mise à jour des périphériques dans Lync Server 2013](lync-server-2013-import-device-update-rules.md)
 
-  - [Approuver une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)
+  - [Approuver une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)
 
-  - [Supprimer une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-remove-a-device-update-rule.md)
+  - [Supprimer une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-remove-a-device-update-rule.md)
 
-  - [Réinitialiser une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md)
+  - [Réinitialiser une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md)
 
-  - [Restaurer une règle de mise à jour d’appareil dans Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)
+  - [Restaurer une règle de mise à jour de périphérique dans Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)
 
 </div>
 

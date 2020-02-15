@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher une liste des applications approuvées'
+title: 'Lync Server 2013 : afficher la liste des applications approuvées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d5f9d112e045e753147f7fcffa875177a6feb0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16f1e202c1d7e60202b76d42f0104f372213597f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757498"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Afficher une liste des applications approuvées dans Lync Server 2013
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Afficher la liste des applications approuvées dans Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41757498"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour afficher la liste des applications approuvées que vous avez déployées dans votre environnement Lync Server 2013. Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Lync Server 2013. Cette relation d’approbation est résumée dans la liste suivante :
+Vous pouvez utiliser le panneau de configuration Lync Server 2013 pour afficher la liste des applications approuvées que vous avez déployées dans votre environnement Lync Server 2013. Une application approuvée est une application basée sur Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK approuvé par Lync Server 2013. Cette relation d’approbation est résumée dans la liste suivante :
 
-  - Les applications approuvées ne sont pas confrontées à l’authentification par Lync Server.
+  - Les applications approuvées ne sont pas contestées pour l’authentification par Lync Server.
 
-  - Les applications approuvées ne sont pas limitées par Lync Server pour les transactions SIP, les connexions ou les appels voix sur IP sortants.
+  - Les applications approuvées ne sont pas limitées par Lync Server pour les transactions SIP, les connexions ou les appels VoIP (Voice over Internet Protocol) sortants.
 
-  - Les applications approuvées peuvent emprunter l’identité d’un utilisateur et participer à des conférences sans apparaître dans les listes.
+  - Les applications approuvées peuvent emprunter l’identité de n’importe quel utilisateur et participer à des conférences sans apparaître dans les listes.
 
   - Les applications approuvées sont hautement disponibles et résilientes.
 
-Dans le panneau de configuration de Lync Server, vous pouvez voir le nom de l’application, le pool sur lequel elle s’exécute et le port utilisé.
+Dans le panneau de configuration Lync Server, vous pouvez voir le nom des applications, le pool où elles s’exécutent, ainsi que le port qu’elles utilisent.
 
 <div>
 
-## <a name="to-view-a-list-of-trusted-applications"></a>Pour afficher une liste des applications approuvées
+## <a name="to-view-a-list-of-trusted-applications"></a>Pour afficher la liste des applications approuvées
 
-1.  À partir d’un compte d’utilisateur affecté au CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur n’importe quel ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, voir [planification du contrôle d’accès basé sur les rôles dans Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Avec un compte d’utilisateur affecté au rôle CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, reportez-vous à la rubrique [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** et sur **application de confiance**.
+3.  Dans la barre de navigation de gauche, cliquez sur **topologie** , puis sur **application approuvée**.
 
-4.  Dans la page **application fiable** , cliquez sur un en-tête de colonne pour trier les applications si nécessaire.
+4.  Sur la page **application approuvée** , cliquez sur un en-tête de colonne pour trier les applications, le cas échéant.
 
 </div>
 

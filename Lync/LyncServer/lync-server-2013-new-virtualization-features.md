@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de virtualisation'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de virtualisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733861
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 687e1c77cec18dc9ad4372fd911db32c537c61c9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d5c60926db1238c586c2c516302649c5c44cd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755858"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755858"
 
 _**Dernière modification de la rubrique :** 2013-11-07_
 
-Lync Server 2013 prend en charge la virtualisation sur Windows Server 2012, Windows Server 2012 R2 et Windows Server 2008 R2. La prise en charge de Windows Server 2012 et de Windows Server 2012 R2 inclut la prise en charge des fonctionnalités de virtualisation d’e/s racines uniques (SR-IOV). Avec SR-IOV, la fonction virtuelle d’une carte de réseau physique est affectée directement à une machine virtuelle. Cela augmente le débit du réseau et permet de réduire la latence du réseau tout en réduisant la surcharge de l’UC hôte requise pour le traitement du trafic réseau. Pour tirer parti de SR-IOV, vous devez utiliser un serveur hôte qui prend en charge SR-IOV, ainsi que les cartes réseau qui prennent en charge le SR-IOV.
+Lync Server 2013 prend en charge la virtualisation sur Windows Server 2012, Windows Server 2012 R2 et Windows Server 2008 R2. La prise en charge sur Windows Server 2012 et Windows Server 2012 R2 inclut la prise en charge des fonctionnalités de virtualisation d’e/s racines uniques (SR-IOV). Avec SR-IOV, la fonction virtuelle d’une carte réseau physique est attribuée directement à une machine virtuelle. Cela permet d’augmenter le débit réseau et de réduire la latence du réseau tout en réduisant la charge de l’UC hôte requise pour le traitement du trafic réseau. Pour tirer parti de SR-IOV, vous devez utiliser un serveur hôte qui a le BIOS qui prend en charge SR-IOV, ainsi que les cartes réseau qui prennent en charge SR-IOV.
 
 </div>
 

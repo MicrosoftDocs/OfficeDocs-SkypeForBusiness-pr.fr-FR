@@ -1,5 +1,5 @@
 ---
-title: 'Étape 3 : déployer le pool de pilotes de Lync Server 2013'
+title: 'Phase 3 : déployer le pool pilote Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87a5275f423ba8acafd885332a14de2efa030a33
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03e1d3c052b92ef61881b43e3ef3246b36c31f8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Étape 3 : déployer le pool de pilotes de Lync Server 2013
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Phase 3 : déployer le pool pilote Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765745"
 
 _**Dernière modification de la rubrique :** 2012-08-28_
 
-Cette section décrit les étapes nécessaires au déploiement d’un déploiement pilote de Lync Server 2013 et à quelques étapes de validation clés pour s’assurer que les deux pools sont coexistant.
+Cette section décrit les étapes nécessaires au déploiement d’un déploiement pilote de Lync Server 2013, ainsi que quelques étapes de validation clés permettant de s’assurer que les deux pools sont coexistants.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Préparer Active Directory pour Lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
+  - [Préparation d’Active Directory pour Lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
 
-  - [Installer les outils d’administration de Lync Server](install-lync-server-administration-tools.md)
+  - [Installer les outils d’administration Lync Server](install-lync-server-administration-tools.md)
 
-  - [Déploiement du pool de pilotes Lync Server 2013](deploy-lync-server-2013-pilot-pool_1.md)
+  - [Déployer le pool pilote Lync Server 2013](deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [Vérification de la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+  - [Vérifier la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
 
 </div>
 

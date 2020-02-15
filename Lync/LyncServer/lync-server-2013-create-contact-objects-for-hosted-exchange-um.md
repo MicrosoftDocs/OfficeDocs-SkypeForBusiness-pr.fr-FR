@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création des objets de contact pour la messagerie unifiée Exchange hébergée'
+title: 'Lync Server 2013 : créer des objets contact pour la messagerie unifiée Exchange hébergée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358b595fceb05a377c59479b0a08e100bffb318a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15a238c2517fd295d35d63a8a1d2f4c4e88a76b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Création des objets de contact pour la messagerie unifiée Exchange hébergée dans Lync Server 2013
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Créer des objets contact pour la messagerie unifiée Exchange hébergée dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41740344"
 
 _**Dernière modification de la rubrique :** 2012-09-24_
 
-La procédure suivante vous explique comment créer des objets de contact de standard automatique (AA) ou d’accès d’abonné (SA) pour la messagerie unifiée Exchange hébergée.
+La procédure suivante explique comment créer des objets Contact Standard automatique ou Accès abonné pour la messagerie unifiée Exchange hébergée.
 
-Pour plus d’informations, reportez-vous à la rubrique [gestion des objets de contact Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) dans la documentation de planification.
+Pour plus d’informations, reportez-vous à la rubrique [gestion des objets contact Exchange hébergés dans Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) dans la documentation de planification.
 
-Pour plus d’informations sur la configuration des objets de contact, consultez la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur la configuration des objets contact, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
@@ -51,7 +51,7 @@ Pour plus d’informations sur la configuration des objets de contact, consultez
 
 
 > [!IMPORTANT]  
-> Pour que les objets de contact Lync Server 2013 puissent être activés pour la messagerie unifiée Exchange hébergée, une stratégie de messagerie vocale hébergée qui s’applique à ces derniers doit être déployée. Pour plus d’informations, reportez-vous <A href="lync-server-2013-hosted-voice-mail-policies.md">à stratégies de messagerie vocale hébergées dans Lync Server 2013</A>.
+> Avant que les objets contact Lync Server 2013 puissent être activés pour la messagerie unifiée Exchange hébergée, une stratégie de messagerie vocale hébergée qui s’applique à ces objets doit être déployée. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-hosted-voice-mail-policies.md">stratégies de messagerie vocale hébergée dans Lync Server 2013</A>.
 
 
 
@@ -59,11 +59,11 @@ Pour plus d’informations sur la configuration des objets de contact, consultez
 
 <div>
 
-## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>Pour créer des objets de contact AA ou SA pour le UM Exchange hébergé
+## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>Pour créer des objets Contact Standard automatique ou Accès abonné pour la messagerie unifiée Exchange hébergée
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de nouvelle applet de CsExUmContact pour créer des objets de contact requis pour votre déploiement. Par exemple, exécutez la commande suivante pour créer un objet de contact AA et son :
+2.  Exécutez l’applet de commande New-CsExUmContact pour créer les objets Contact requis pour votre déploiement. Exécutez par exemple la commande suivante pour créer un objet Contact Standard automatique ou Accès abonné :
     
        ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
@@ -75,24 +75,24 @@ Pour plus d’informations sur la configuration des objets de contact, consultez
     
     Ces exemples définissent les paramètres suivants :
     
-      - **SipAddress** spécifie l’adresse SIP de l’objet contact. Il doit s’agir d’une adresse qui n’a pas encore été utilisée pour configurer un objet utilisateur ou contact dans les services de domaine Active Directory (AD FS). Cette valeur doit être au format "SIP :\<*SIP Address*\>" comme le montre l’exemple précédent.
+      - **SipAddress** indique l’adresse SIP de l’objet Contact. Cette adresse ne doit pas avoir déjà été utilisée pour configurer un objet Contact ou utilisateur dans les services de domaine Active Directory. Cette valeur doit être au format « SIP :\<*adresse*\>SIP », comme indiqué dans les exemples précédents.
     
-      - **RegistrarPool** spécifie le nom de domaine complet (FQDN) du pool sur lequel le service de bureau d’enregistrement est en cours d’exécution.
+      - **RegistrarPool** spécifie le nom de domaine complet du pool sur lequel le service de serveur d’inscriptions est exécuté.
         
         <div class=" ">
         
 
         > [!NOTE]  
-        > Les objets de contact de MU Exchange ne peuvent pas être déplacés vers des pools qui font partie des déploiements Lync Server 2013 antérieurs à Lync Server 2013.
+        > Les objets contact de messagerie unifiée Exchange ne peuvent pas être déplacés vers des pools qui font partie de déploiements Lync Server 2013 antérieurs à Lync Server 2013.
 
         
         </div>
     
-      - **UO** spécifie l’unité d’organisation Active Directory dans laquelle se trouve l’objet contact.
+      - **OU** spécifies l’unité d’organisation Active Directory dans laquelle cet objet Contact sera situé.
     
-      - **DisplayNumber** spécifie le numéro de téléphone de l’objet contact. Le numéro de téléphone de chaque objet contact doit être unique.
+      - **DisplayNumber** spécifie le numéro de téléphone de l’objet Contact. Le numéro de téléphone de chaque objet Contact doit être unique.
     
-      - Le **standard automatique indique si** l’objet contact est un standard automatique. Le standard automatique propose un ensemble d’invites vocales permettant aux appelants de naviguer dans le système téléphonique et de joindre la partie qu’ils souhaitent contacter. La valeur **false** (valeur par défaut) pour ce paramètre indique un objet contact d’accès abonné.
+      - **AutoAttendant** indique si l’objet Contact est un standard automatique. Le standard automatique fournit un ensemble d’invites vocales qui permettent aux appelants de naviguer dans le système téléphonique et de joindre la personne désirée. Si ce paramètre est défini sur la valeur **False** (par défaut), cela indique un objet Contact Accès abonné.
 
 </div>
 

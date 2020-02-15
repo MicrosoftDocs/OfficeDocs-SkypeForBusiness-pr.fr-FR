@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Dialogs'
+title: 'Lync Server 2013 : table de boîtes de dialogue'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 326ecac8df81eeba11ed29ff9f1968b681cdb98f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be0bb5a603f856aa0faa02074962618fcb82448e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762252"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Le tableau boîtes de dialogue est une table de prise en charge qui contient les informations sur DialogIDs pour les sessions d’égal à égal.
+Le tableau Dialogs est une table de prise en charge qui stocke les informations sur DialogIDs pour les sessions d’égal à égal.
 
 
 <table>
@@ -51,7 +51,7 @@ Le tableau boîtes de dialogue est une table de prise en charge qui contient les
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,28 +59,28 @@ Le tableau boîtes de dialogue est une table de prise en charge qui contient les
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Principal</p></td>
-<td><p>Durée de la demande de session ; utilisé conjointement avec SessionIDSeq pour identifier une session de manière unique.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Heure de la demande de session ; utilisé conjointement avec SessionIDSeq pour identifier une session de manière unique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>IDENTIFIant de la session. Utilisé conjointement avec SessionIDTime pour identifier une session de manière unique.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Numéro d’ID identifiant la session. Utilisé conjointement avec SessionIDTime pour identifier une session de manière unique.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ExternalChecksum</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Checksum du ExternalID. Ce champ est utilisé pour augmenter la vitesse de recherche de la base de données.</p></td>
+<td><p>Checksum du ExternalID. Ce champ est utilisé pour augmenter la vitesse des recherches dans la base de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ExternalId</strong></p></td>
-<td><p>varbinary (LGA775)</p></td>
+<td><p>varbinary (775)</p></td>
 <td><p> </p></td>
-<td><p>ID de boîte de dialogue SIP, enregistré en tant que fichier binaire. Le format du binaire est le suivant :</p>
-<p>boîte de dialogue ; à partir d’une balise</p>
-<p>Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :</p>
+<td><p>ID de boîte de dialogue SIP, stocké sous forme de fichier binaire. Le format du fichier binaire est le suivant :</p>
+<p>boîte de dialogue ; balise ; à-tag</p>
+<p>Ces données peuvent être converties au format texte à l’aide de cette syntaxe :</p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

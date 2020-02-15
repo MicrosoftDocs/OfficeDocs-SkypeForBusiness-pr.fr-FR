@@ -1,5 +1,5 @@
 ---
-title: Affichage d’informations sur les comptes d’utilisateurs activés pour Lync Server
+title: Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0662bb954e3ac914d29d7dce7b22cb4ad2659c19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757328"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Affichage d’informations sur les comptes d’utilisateurs activés pour Lync Server 2013
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41757328"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Suivez les procédures décrites dans cette section pour afficher les paramètres et les informations de stratégie pour les comptes d’utilisateurs Lync Server 2013.
+Suivez les procédures décrites dans cette section pour afficher les paramètres et les informations de stratégie pour les comptes d’utilisateur Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Rechercher des utilisateurs de Lync Server dans Lync Server 2013](lync-server-2013-search-for-lync-server-users.md)
+  - [Rechercher des utilisateurs Lync Server dans Lync Server 2013](lync-server-2013-search-for-lync-server-users.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
-[Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+[Affectation de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

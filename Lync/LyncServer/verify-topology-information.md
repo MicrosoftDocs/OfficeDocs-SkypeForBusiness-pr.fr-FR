@@ -1,5 +1,5 @@
 ---
-title: Vérifier les informations de topologie
+title: Vérifier les informations de la topologie
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5987dc071abb888f8d1f6eca0d3082f2a8ab7523
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a>Vérifier les informations de topologie
+# <a name="verify-topology-information"></a>Vérifier les informations de la topologie
 
 </div>
 
@@ -37,52 +37,52 @@ ms.locfileid: "41730834"
 
 _**Dernière modification de la rubrique :** 2012-09-26_
 
-La première étape de vérification réussie du publipostage consiste à afficher les informations sur la topologie Office Communications Server 2007 R2 que vous avez fusionnées avec Lync Server 2013. Dans le générateur de topologie, le nœud **BackCompatSite** affiche le nom de domaine complet (FQDN) de chaque pool et serveur Office Communications Server 2007 R2.
+La première étape de la vérification de la fusion réussie consiste à afficher les informations de topologie Office Communications Server 2007 R2 que vous avez fusionnées avec Lync Server 2013. Dans le générateur de topologies, le nœud **BackCompatSite** affiche le nom de domaine complet (FQDN) de chaque pool et serveur Office Communications Server 2007 R2 que vous avez fusionnés.
 
 <div>
 
-## <a name="to-view-backcompatsite-in-topology-builder"></a>Pour afficher BackCompatSite dans le générateur de topologie
+## <a name="to-view-backcompatsite-in-topology-builder"></a>Pour afficher BackCompatSite dans le Générateur de topologies
 
 1.  Dans votre environnement Office Communications Server 2007 R2, ouvrez l’outil d’administration Office Communications Server 2007 R2 et notez les noms de domaine complets des pools et serveurs hérités.
 
-2.  Dans votre environnement Lync Server 2013, ouvrez le générateur de topologie et développez le nœud **BackCompatSite** .
+2.  Dans votre environnement Lync Server 2013, ouvrez le générateur de topologies, puis développez le nœud **BackCompatSite** .
 
-3.  Vérifiez que les noms de domaine complets des pools et des serveurs que vous fusionnez sont affichés.
+3.  Vérifiez que les noms de domaine complets des pools et serveurs que vous fusionnez sont affichés.
     
     <div>
     
 
     > [!NOTE]  
-    > Aucune information n’apparaît dans <STRONG>BackCompatSite</STRONG> pour les rôles serveur colocalisés sur un serveur frontal ou un serveur Standard Edition Server. Seuls les rôles de serveur requis pour l’interopérabilité entre Office Communications Server 2007 R2 et Lync Server 2013 sont affichés.
+    > Aucune information n’est affichée dans <STRONG>BackCompatSite</STRONG> pour les rôles serveur colocalisés sur un serveur frontal ou un serveur Standard Edition. Seuls les rôles serveur requis pour l’interopérabilité entre Office Communications Server 2007 R2 et Lync Server 2013 sont affichés.
 
     
     </div>
 
-![Boîte de dialogue BackCompatSite de générateur de topologie](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Boîte de dialogue BackCompatSite de générateur de topologie")
+![Boîte de dialogue BackCompatSite du générateur de topologies](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Boîte de dialogue BackCompatSite du générateur de topologies")
 
-Vous pouvez également utiliser le panneau de configuration de Lync Server 2013 pour afficher votre topologie fusionnée. Dans Lync Server 2013 panneau de configuration, vous pouvez voir chaque nom de domaine complet (FQDN) de serveur, nom de domaine complet (FQDN) du pool et nom de site pour votre topologie fusionnée. Les serveurs fusionnés portent le nom de **site** **BackCompatSite**.
+Vous pouvez également utiliser le panneau de configuration Lync Server 2013 pour afficher votre topologie fusionnée. Dans le panneau de configuration Lync Server 2013, vous pouvez voir le nom de domaine complet du serveur, le nom de domaine complet du pool et le nom du site pour votre topologie fusionnée. Les serveurs fusionnés porte le nom **Site****BackCompatSite**.
 
 </div>
 
 <div>
 
-## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>Pour afficher la topologie fusionnée dans Lync Server 2013 panneau de configuration
+## <a name="to-view-the-merged-topology-in-lync-server-2013-control-panel"></a>Pour afficher la topologie fusionnée dans le panneau de configuration Lync Server 2013
 
-1.  Ouvrez le panneau de configuration de Lync Server 2013.
+1.  Ouvrez le panneau de configuration Lync Server 2013.
 
-2.  Cliquez sur **Topology**.
+2.  Cliquez sur **Topologie**.
 
-3.  Dans l’onglet **statut** , assurez-vous que les serveurs et les pools fusionnés apparaissent en recherchant **BackCompatSite** dans la colonne **site** .
+3.  Sous l’onglet **Statut**, vérifiez que les serveurs et pools que vous avez fusionnés apparaissent en recherchant **BackCompatSite** dans la colonne **Site**.
 
-![Panneau de configuration de Lync Server avec topologie fusionnée](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panneau de configuration de Lync Server avec topologie fusionnée")
+![Panneau de configuration Lync Server affichant la topologie fusionnée](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panneau de configuration Lync Server affichant la topologie fusionnée")
 
-Pour afficher des détails supplémentaires sur un pool fusionné, utilisez l’applet de passe **Get-CsPool** . Outre les informations disponibles dans le générateur de topologie et le panneau de configuration de Lync Server 2013, cette applet de commande affiche les services qui s’exécutent sur le pool Lync Server 2013.
+Pour afficher plus d’informations sur un pool fusionné, utilisez l’applet de commande **Get-CsPool**. Outre les informations disponibles dans le panneau de configuration du générateur de topologies et de Lync Server 2013, cette applet de commande affiche les services exécutés sur le pool Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Lorsque vous publiez la topologie après avoir exécuté l’Assistant fusion dans le générateur de topologie, les annuaires de conférences sont fusionnés avec Lync Server 2013. Les annuaires de conférences peuvent être vérifiés en exécutant l’applet de passe <STRONG>Get-CsConferenceDirectory</STRONG> .
+> Lorsque vous publiez la topologie après avoir exécuté l’Assistant fusion dans le générateur de topologies, les annuaires de conférence sont fusionnés avec Lync Server 2013. Les annuaires des conférences peuvent être vérifiés en exécutant l’applet de commande <STRONG>Get-CsConferenceDirectory</STRONG>.
 
 
 
@@ -92,11 +92,11 @@ Pour afficher des détails supplémentaires sur un pool fusionné, utilisez l’
 
 <div>
 
-## <a name="to-view-services-on-a-merged-pool"></a>Pour afficher les services d’un pool fusionné
+## <a name="to-view-services-on-a-merged-pool"></a>Pour afficher les services sur un pool fusionné
 
 1.  Ouvrez Lync Server 2013 Management Shell.
 
-2.  Dans la ligne de commande, tapez ce qui suit :
+2.  Sur la ligne de commande, tapez ce qui suit :
     
         Get-CsPool [-Identity <FQDN of the pool>]
     
@@ -108,15 +108,15 @@ Pour afficher des détails supplémentaires sur un pool fusionné, utilisez l’
 
 <div>
 
-## <a name="to-verify-conference-directories-merged"></a>Pour vérifier la fusion des répertoires de conférences
+## <a name="to-verify-conference-directories-merged"></a>Pour vérifier les annuaires des conférences fusionnés
 
 1.  Ouvrez Lync Server 2013 Management Shell.
 
-2.  Dans la ligne de commande, tapez ce qui suit :
+2.  Dans la ligne de commande, tapez le code suivant :
     
         Get-CsConferenceDirectory
 
-3.  Vérifiez que tous les répertoires de conférences du pool ou du serveur que vous fusionnez se trouvent désormais dans Lync Server 2013.
+3.  Vérifiez que tous les annuaires des conférences du pool ou du serveur que vous fusionnez figurent désormais dans Lync Server 2013.
 
 </div>
 

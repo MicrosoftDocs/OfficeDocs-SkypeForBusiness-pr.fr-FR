@@ -12,16 +12,16 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3c99e9f10f98d93af73869d166c33a27e9ce18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c38c0e05647e13a1da1f4a5f173b3e92c37a5300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsLisConfiguration. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsLisConfiguration. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de contrôle test-CsLisConfiguration vérifie la possibilité de contacter le service Web LIS. Si le service Web peut être contacté, le test sera considéré comme ayant réussi, qu’il y ait ou non d’emplacements spécifiques.
+L’applet de commande test-CsLisConfiguration vérifie votre capacité à contacter le service Web LIS. Si le service Web peut être contacté, le test sera considéré comme une réussite, que des emplacements spécifiques puissent être trouvés ou non.
 
 </div>
 
@@ -74,24 +74,24 @@ L’applet de contrôle test-CsLisConfiguration vérifie la possibilité de cont
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Vous pouvez exécuter l’applet de contrôle test-CsLisConfguration à l’aide d’un compte de test préconfiguré (voir Configuration de comptes de test pour exécuter des tests Lync Server) ou du compte d’un utilisateur qui est activé pour Lync Server. Pour effectuer cette vérification à l’aide d’un compte de test, vous devez simplement spécifier le nom de domaine complet (FQDN) du pool de serveurs Lync testé. Par exemple :
+La cmdlet Test-CsLisConfguration peut être exécutée à l’aide d’un compte de test préconfiguré (consultez la rubrique Configuration des comptes de test pour l’exécution des tests Lync Server) ou du compte de tout utilisateur activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte de test, il vous suffit de spécifier le nom de domaine complet du pool Lync Server testé. Par exemple :
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Pour effectuer cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell contenant le nom et le mot de passe du compte. Vous devez alors inclure cet objet Credential et l’adresse SIP attribuée au compte lorsque vous appelez le test-CsLisConfiguration :
+Pour exécuter cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell qui contient le nom de compte et le mot de passe. Vous devez ensuite inclure cet objet d’informations d’identification et l’adresse SIP attribuée au compte lorsque vous appelez test-CsLisConfiguration :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) .
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si le LIS est configuré correctement, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie :**
+Si la LIS est configurée correctement, vous recevrez une sortie semblable à celle-ci, avec la propriété Result marquée with **Success :**
 
 TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
 
@@ -99,15 +99,15 @@ liservice. svc
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:06.1616913
 
-Error
+«
 
-Diagnostic
+Diagnostique
 
-Si l’utilisateur spécifié ne peut pas se connecter ou se déconnecter, le résultat est affiché en tant qu’échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
+Si l’utilisateur spécifié ne peut pas se connecter ou se déconnecter, le résultat s’affiche en panne et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
 TargetUri
 
@@ -119,23 +119,23 @@ Latence : 00:00:00
 
 Erreur : 11004, le nom demandé est valide, mais aucune donnée de la requête
 
-type détecté
+le type a été trouvé
 
-Diagnostic
+Diagnostique
 
-Test-CsLisConfiguration : aucun cluster correspondant détecté dans la topologie.
+Test-CsLisConfiguration : aucun cluster correspondant n’a été trouvé dans la topologie.
 
-Par exemple, la sortie précédente inclut la remarque « aucun cluster correspondant trouvé dans la topologie ». Il s’agit généralement d’un problème avec le serveur Edge : les LIS utilisant le serveur de périphérie pour se connecter au fournisseur de services et valider les adresses.
+Par exemple, la sortie précédente inclut la note « aucun cluster de correspondance n’a été trouvé dans la topologie ». Cela indique généralement un problème avec le serveur Edge : la LIS qui utilise le serveur Edge pour se connecter au fournisseur de services et valider les adresses.
 
-Si test-CsLisConfiguration échoue alors, vous souhaiterez peut-être réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
+Si test-CsLisConfiguration échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsLisConfiguration renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la possibilité de l’utilisateur spécifié de se connecter à Lync Server. Par exemple :
+Lorsque le paramètre Verbose est inclus, test-CsLisConfiguration renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
 
-Appel de service d’information d’emplacement.
+Appel du service d’informations d’emplacement.
 
-Path du service =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+Chemin d’accès du service =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 Sous-réseau =
 
@@ -149,13 +149,13 @@ PortIdSubType = type non défini
 
 Mac
 
-Une demande de service Web d’information d’emplacement d’exception a échoué avec le code de réponse Item400. ' Il s’est produit lors de l’exécution du flux de travail Microsoft. RTC. SyntheticTrsnactions. flux de travail. STLisConfigurationWorkflow.
+Une demande de service Web d’informations d’emplacement de l’exception a échoué avec un code de réponse Item400. s’est produite lors de l’exécution de flux de travail Microsoft. RTC. SyntheticTrsnactions. workflows. STLisConfigurationWorkflow.
 
-Si vous examinez soigneusement la sortie précédente, vous verrez que l’applet de la cmdlet a essayé d’appeler le service d’information d’emplacement. L’un des paramètres qui ont été utilisés dans cet appel est le suivant :
+Si vous examinez attentivement la sortie précédente, vous verrez que l’applet de commande a échoué après avoir tenté d’appeler le service d’informations d’emplacement. L’un des paramètres qui ont été utilisés dans cet appel était le suivant :
 
 BssId = 5
 
-Ce n’est pas une valeur valide pour le champ BssID (Service Set Identifier). Au lieu de cela, un BssID doit ressembler à ceci :
+Il ne s’agit pas d’une valeur valide pour l’identificateur BssID (Basic Service Set Identifier). Au lieu de cela, un BssID doit ressembler à ceci :
 
 12-34-56-78-90-AB
 
@@ -163,11 +163,11 @@ Ce n’est pas une valeur valide pour le champ BssID (Service Set Identifier). A
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles les tests-CsLisConfiguration peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec de test-CsLisConfiguration :
 
-  - Une valeur de paramètre incorrecte a été fournie. Comme indiqué dans l’exemple précédent, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
+  - Une valeur de paramètre incorrecte a été fournie. Comme indiqué dans l’exemple précédent, les paramètres facultatifs doivent être configurés correctement ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.
 
 </div>
 

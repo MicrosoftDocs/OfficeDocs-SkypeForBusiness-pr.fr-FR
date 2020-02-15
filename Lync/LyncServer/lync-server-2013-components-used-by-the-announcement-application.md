@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants utilisés par l’application d’annonce'
+title: 'Lync Server 2013 : composants utilisés par l’application d’annonce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a888ca21e26a21103d1c45e74518c3d224d18a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757048"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41757048"
 
 _**Dernière modification de la rubrique :** 2012-09-13_
 
-Dans Lync Server 2013, l’application d’annonce est un composant de l’application Response Group. Lorsque vous déployez Enterprise Voice, l’application d’annonce est automatiquement installée et activée conjointement avec l’application Response Group. Cette section décrit les composants qui prennent en charge l’application d’annonce.
+Dans Lync Server 2013, l’application d’annonce est un composant de l’application Response Group. Lorsque vous déployez voix entreprise, l’application d’annonce est automatiquement installée et activée avec l’application Response Group. Cette section décrit les composants qui prennent en charge l’application d’annonce.
 
 <div>
 
-## <a name="announcement-application-components"></a>Composants de l’application annonce
+## <a name="announcement-application-components"></a>Composants de l’application d’annonce
 
-Les composants Lync Server suivants prennent en charge l’application d’annonce :
+Les composants de Lync Server suivants prennent en charge l’application d’annonce :
 
-  - ****   Le service d’application de service d’application fournit une plate-forme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Le service d’application est automatiquement installé sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server.
+  - **Application service**   application service fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées. Application service est automatiquement installé sur chaque serveur frontal d’un pool frontal et sur chaque serveur Standard Edition.
 
-  - **Application de Response Group**   l’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application. Lorsqu’une plage de numéros de téléphone non attribués est configurée pour diriger vers une annonce, l’application de groupe de réponse est requise pour acheminer les appels passés vers le numéro de téléphone. (L’application Response Group n’est pas nécessaire si toutes les plages sont configurées pour le routage à la messagerie unifiée Exchange (MU).)
+  - **Application Response Group**   l’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application. Lorsqu’une plage de numéros de téléphone non attribués est configurée pour acheminer vers une annonce, l’application Response Group est requise pour acheminer les appels passés au numéro de téléphone. (L’application Response Group n’est pas nécessaire si toutes les plages sont configurées pour acheminer la messagerie unifiée Exchange.)
 
-  - **Les fichiers audio sont**utilisés pour les annonces.   
+  - **Fichiers audio les fichiers**   audio sont utilisés pour les annonces.
 
   - **Magasin de fichiers**   l’application d’annonce utilise le magasin de fichiers pour stocker ses fichiers audio.
 
-  - **Panneau de configuration**   de Lync Server vous pouvez utiliser le panneau de configuration de Lync Server pour configurer la table des numéros non attribués.
+  - **Panneau de configuration Lync Server**   vous pouvez utiliser le panneau de configuration Lync Server pour configurer la table des numéros non attribués.
 
-  - **Lync Server Management Shell**   vous pouvez utiliser les applets de applet Lync Server Management Shell pour configurer les paramètres d’annonce et la table des numéros non attribués.
+  - **Lync Server Management Shell**   vous pouvez utiliser des applets de commande Lync Server Management Shell pour configurer les paramètres d’annonce et la table des numéros non attribués.
 
 </div>
 

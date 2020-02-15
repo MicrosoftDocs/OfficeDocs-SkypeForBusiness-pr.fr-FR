@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les informations sur le téléphone de la zone commune'
+title: 'Lync Server 2013 : afficher les informations relatives au téléphone de la zone commune'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e045cb13d0e0d0c085d9d45e23b1510d61c93a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757458"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Afficher des informations sur le téléphone de zone commune dans Lync Server 2013
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Afficher les informations de téléphone de partie commune dans Lync Server 2013
 
 </div>
 
@@ -37,22 +37,22 @@ ms.locfileid: "41757458"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Vous pouvez afficher des informations sur les téléphones communs configurés pour une utilisation au sein de votre organisation à l’aide de l’applet de passe **Get-CsCommonAreaPhone** . Utilisé sans paramètre, cette applet de méthode renvoie des informations sur tous les téléphones communs. Les paramètres facultatifs permettent de filtrer les informations de différentes manières. Par exemple, vous pouvez retourner tous les téléphones de zone commune qui possèdent des objets de contact dans une unité d’organisation (UO) spécifiée, ou tous les objets de contact situés dans un immeuble spécifié. Pour plus d’informations sur les paramètres **Get-CsCommonAreaPhone** , voir [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
+Vous pouvez afficher des informations sur les téléphones de partie commune configurés pour être utilisés dans votre organisation à l’aide de la cmdlet **Get-CsCommonAreaPhone** . Utilisée sans aucun paramètre, cette applet de commande renvoie des informations sur tous vos téléphones de partie commune. Les paramètres facultatifs vous permettent de filtrer les informations de différentes manières. Par exemple, vous pouvez renvoyer tous les téléphones de partie commune qui ont des objets contact dans une unité d’organisation (UO) spécifique ou tous les objets contacts se trouvant dans un immeuble spécifié. Pour plus d’informations sur les paramètres **Get-CsCommonAreaPhone** , voir [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
 
-Exécutez **Get-CsCommonAreaPhone** à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
-
-<div>
-
+Exécutez **Get-CsCommonAreaPhone** à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a>Affichage d’informations sur tous les téléphones de votre zone commune
 
-  - Pour afficher des informations sur tous les téléphones communs, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+<div>
+
+## <a name="viewing-information-about-all-your-common-area-phones"></a>Affichage des informations sur tous vos téléphones de partie commune
+
+  - Pour afficher des informations sur tous vos téléphones de partie commune, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsCommonAreaPhone
     
-    Vous obtiendrez des informations similaires à ce qui suit :
+    Vous obtiendrez des informations semblables à celles-ci :
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ Exécutez **Get-CsCommonAreaPhone** à partir de Lync Server 2013 Management She
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
 
 </div>
 

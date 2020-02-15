@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration d’un itinéraire de basculement'
+title: 'Lync Server 2013 : configuration d’un itinéraire de basculement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741284"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -84,9 +84,9 @@ L’exemple suivant montre comment un administrateur peut définir un itinérair
 <thead>
 <tr class="header">
 <th>Nom de l’itinéraire</th>
-<th>Type de numéro</th>
+<th>Modèle de numéro</th>
 <th>Utilisation téléphonique</th>
-<th>Jonction</th>
+<th>Urbain</th>
 <th>Passerelle</th>
 </tr>
 </thead>
@@ -98,8 +98,8 @@ L’exemple suivant montre comment un administrateur peut définir un itinérair
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p></td>
+<td><p>Rouge-GW1</p>
+<p>Rouge-GW2</p></td>
 </tr>
 <tr class="even">
 <td><p>Dallas Local Route</p></td>
@@ -115,8 +115,8 @@ L’exemple suivant montre comment un administrateur peut définir un itinérair
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p>
+<td><p>Rouge-GW1</p>
+<p>Rouge-GW2</p>
 <p>Dallas-GW1</p></td>
 </tr>
 <tr class="even">
@@ -130,7 +130,7 @@ L’exemple suivant montre comment un administrateur peut définir un itinérair
 </table>
 
 
-Dans le tableau 1, une utilisation téléphonique GlobalPSTNHopoff est ajoutée après l’utilisation téléphonique DallasUsers dans la stratégie Dallas Calling Policy. Cela permet aux appels dotés de la stratégie Dallas Calling Policy d’utiliser des itinéraires configurés pour l’utilisation téléphonique GlobalPSTNHopoff, lorsqu’aucun itinéraire n’est disponible pour l’utilisation téléphonique DallasUsers.
+Dans le tableau 1, une utilisation téléphonique GlobalPSTNHopoff est ajoutée après l’utilisation téléphonique DallasUsers dans la stratégie Dallas Calling Policy. Cela permet aux appels dotés de la stratégie Dallas Calling Policy d’utiliser des itinéraires configurés pour l’utilisation téléphonique GlobalPSTNHopoff, lorsqu’aucun itinéraire n’est disponible pour l’utilisation téléphonique DallasUsers.
 
 </div>
 

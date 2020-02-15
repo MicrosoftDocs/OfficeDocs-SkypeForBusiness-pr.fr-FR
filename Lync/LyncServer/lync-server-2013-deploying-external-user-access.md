@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de l’accès des utilisateurs externes'
+title: 'Lync Server 2013 : déploiement de l’accès des utilisateurs externes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a4ca695ca711c66e529a4eccd43b650cffe1442
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758038"
 
 _**Dernière modification de la rubrique :** 2013-09-23_
 
-Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation, notamment les utilisateurs distants authentifiés et anonymes, les partenaires fédérés (y compris les partenaires XMPP), clients mobiles et utilisateurs de services de messagerie instantanée publics pour communiquer avec d’autres utilisateurs de votre organisation à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas très différents de ceux de Lync Server 2010. Les outils d’installation et d’administration sont similaires à ceux de Lync Server 2010.
+Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation, y compris les utilisateurs distants authentifiés et anonymes, les partenaires fédérés (y compris les partenaires XMPP), les clients mobiles et les utilisateurs de services de messagerie instantanée (IM) publics, pour communiquer avec les autres utilisateurs de votre organisation à l’aide de Lync Server. Les processus de déploiement et de configuration de Lync Server 2013 ne sont pas sensiblement différents de Lync Server 2010. Les outils d’installation et d’administration sont quasiment identiques à ceux de Lync Server 2010.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Dans le cadre de&nbsp;l’installation et de la configuration de Microsoft Lync Server 2013 Edge, il peut s’agir d’un processus complexe nécessitant une quantité importante de planification et de coordination avec vos équipes internes, y compris, mais sans s’y limiter, la sécurité, la mise en réseau, le pare-feu, le système de noms de domaines Nous vous conseillons vivement de passer en revue et d’utiliser le processus de planification et la documentation fournies avant de déployer vos composants Access externes. Cela vous permettra de limiter le nombre et la fréquence de modifications et de problèmes indésirables lors du processus de déploiement. Pour plus d’informations sur la planification de l’accès aux utilisateurs externes, voir <A href="lync-server-2013-planning-for-external-user-access.md">planification d’un accès utilisateur externe dans Lync Server 2013</A>.
+> L’installation et la&nbsp;configuration du serveur Edge Microsoft Lync Server 2013 peuvent être un processus complexe qui requiert une quantité potentiellement importante de planification et de coordination avec vos équipes internes, y compris les considérations de sécurité, de mise en réseau, de pare-feu, de système DNS (Domain Name System), d’équilibrage de charge et d’infrastructure à clé publique (PKI). Il est vivement recommandé de consulter et d’utiliser le processus de planification et la documentation fournis avant de déployer vos composants d’accès externe. Cela permet de limiter le nombre et la fréquence des modifications et des problèmes indésirables à mesure que vous suivez le processus de déploiement. Pour plus d’informations sur la planification de l’accès des utilisateurs externes, voir <A href="lync-server-2013-planning-for-external-user-access.md">Planning for External User Access in Lync Server 2013</A>.
 
 
 
@@ -57,11 +57,11 @@ Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux ut
 
   - [Configuration système requise pour les composants d’accès des utilisateurs externes pour Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)
 
-  - [Préparation de l’installation des serveurs sur le réseau de périmètre pour Lync Server 2013](lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md)
+  - [Préparation de l’installation des serveurs dans le réseau de périmètre pour Lync Server 2013](lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md)
 
-  - [Création d’une topologie de serveurs Edge et directeurs dans Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
+  - [Création d’une topologie de serveur Edge et de directeur dans Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Configuration du réalisateur dans Lync Server 2013](lync-server-2013-setting-up-the-director.md) (facultatif)
+  - [Configuration du directeur dans Lync Server 2013](lync-server-2013-setting-up-the-director.md) (facultatif)
 
   - [Configuration des serveurs Edge dans Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 
@@ -69,9 +69,9 @@ Le déploiement de composants Edge pour Microsoft Lync Server 2013 permet aux ut
 
   - [Configuration de la prise en charge de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md)
 
-  - [Guide d’approvisionnement pour la connectivité Lync-Skype dans Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+  - [Guide de mise en service pour la connectivité Lync-Skype dans Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
-  - [Configuration des fédérations SIP et XMPP et de la messagerie instantanée publique dans Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
+  - [Configuration de la Fédération SIP, de la Fédération XMPP et de la messagerie instantanée publique dans Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
 
   - [Déploiement de la mobilité dans Lync Server 2013](lync-server-2013-deploying-mobility.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblPrincipalMemberDifference'
+title: 'Lync Server 2013 : tblPrincipalMemberDifference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764140"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41764140"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblPrincipalMemberDifference contient les modifications d’appartenance au groupe (membres ajoutés et supprimés) qui n’ont pas encore été traitées par les étapes ultérieures de synchronisation des services de domaine Active Directory.
+tblPrincipalMemberDifference contient les modifications d’appartenance aux groupes (membres ajoutés et supprimés) qui n’ont pas encore été traitées par les dernières étapes de synchronisation des services de domaine Active Directory.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,8 +57,8 @@ tblPrincipalMemberDifference contient les modifications d’appartenance au grou
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID, pas null</p></td>
-<td><p>GUID principal du groupe qui a changé.</p></td>
+<td><p>GUID, non null</p></td>
+<td><p>GUID principal du groupe qui a été modifié.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
@@ -67,7 +67,7 @@ tblPrincipalMemberDifference contient les modifications d’appartenance au grou
 </tr>
 <tr class="odd">
 <td><p>memberRemoved</p></td>
-<td><p>bit, pas null</p></td>
+<td><p>bit, non null</p></td>
 <td><p>False si le membre a été ajouté. True si le membre a été supprimé.</p></td>
 </tr>
 </tbody>

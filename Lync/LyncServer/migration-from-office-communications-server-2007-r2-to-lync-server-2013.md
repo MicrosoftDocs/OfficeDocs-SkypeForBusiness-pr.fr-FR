@@ -12,16 +12,16 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d43e8052de454647cd9f69b4572d178a0cecb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 624891658fb925fbc2522e98f8b216e535d2bf0c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -43,33 +43,33 @@ Les rubriques de cette section vous guident tout au long du processus de migrati
 
 
 > [!IMPORTANT]  
-> Ce document décrit les étapes généralement requises pour effectuer chaque phase de la migration. Elle ne traite pas chaque topologie de déploiement hérité possible ou chaque scénario de migration possible. Par conséquent, il est possible que vous n’ayez pas à effectuer toutes les étapes décrites ou que vous deviez effectuer des étapes supplémentaires, selon votre déploiement. Ce document fournit également des exemples de procédure de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez savoir pour vous assurer que toutes les phases s’exécutent correctement lors de la migration. Adaptez ces étapes de vérification à votre processus de migration spécifique.
+> Le présent document décrit les étapes généralement requises pour accomplir chaque phase de la migration. Il n’aborde pas toutes les topologies de déploiement héritées possibles ni tous les scénarios de migration possibles. Par conséquent, vous n’avez peut-être pas besoin d’effectuer toutes les étapes décrites ou vous devez peut-être en effectuer d’autres, selon votre déploiement. Ce document propose également des exemples d’étapes de vérification. Ces étapes de vérification sont fournies pour vous aider à comprendre ce que vous devez rechercher afin que chaque phase se déroule correctement au fur et à mesure de la migration. Adaptez-les à votre processus de migration propre.
 
 
 
 </div>
 
-Ce guide fournit des informations spécifiques à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Ce guide ne traite pas de l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est documentée à un autre emplacement, ce guide vous dirige vers la section document ou document appropriée.
+Le présent guide fournit des informations propres à la mise à niveau de votre déploiement existant. Il n’explique pas comment modifier votre topologie existante. Il n’aborde pas l’implémentation des nouvelles fonctionnalités. Lorsqu’une procédure détaillée est expliquée ailleurs, ce guide vous indique le document ou la section de document appropriés.
 
-Ce document définit les termes indiqués dans la liste suivante.
+Ce document définit les termes spécifiés dans la liste suivante.
 
-  - *vers*  
-    Migration de votre déploiement de production d’une version antérieure d’Office Communications Server 2007 R2 vers Lync Server 2013.
+  - *MIGR*  
+    Migration de votre déploiement de production d’une version précédente d’Office Communications Server 2007 R2 vers Lync Server 2013.
 
 <!-- end list -->
 
-  - *installation*  
-    Installation d’une nouvelle version du logiciel sur un ordinateur client ou serveur.
+  - *mise à niveau*  
+    Installation d’une version plus récente d’un logiciel sur un serveur ou ordinateur client.
 
 <!-- end list -->
 
   - *coexistence*  
-    L’environnement temporaire existant lors de la migration lors de la migration de certaines fonctionnalités vers Lync Server 2013 et d’autres fonctionnalités continuent de subsister sur une version antérieure d’Office Communications Server 2007 R2.
+    Environnement temporaire qui existe lors de la migration, quand une fonctionnalité a été migrée vers Lync Server 2013 et que d’autres fonctionnalités demeurent sur une version antérieure d’Office Communications Server 2007 R2.
 
 <!-- end list -->
 
   - *interopérabilité*  
-    La capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
+    Capacité de votre déploiement à fonctionner correctement pendant la période de coexistence.
 
 <div>
 
@@ -79,25 +79,25 @@ Ce document définit les termes indiqués dans la liste suivante.
 
   - [Phases de migration](migration-phases_1.md)
 
-  - [Étape 1 : planifier la migration à partir d’Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [Phase 1 : planifier votre migration à partir d’Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Étape 2 : Préparer la migration](phase-2-prepare-for-migration_1.md)
+  - [Phase 2 : préparer la migration](phase-2-prepare-for-migration_1.md)
 
-  - [Étape 3 : déployer le pool de pilotes de Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Phase 3 : déployer le pool pilote Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [Étape 4 : fusionner les topologies](phase-4-merge-topologies.md)
+  - [Phase 4 : fusionner les topologies](phase-4-merge-topologies.md)
 
-  - [Étape 5 : configurer le pool de pilotes](phase-5-configure-the-pilot-pool.md)
+  - [Phase 5 : configuration du pool pilote](phase-5-configure-the-pilot-pool.md)
 
-  - [Étape 6 : déplacer les utilisateurs vers le pool de pilotes](phase-6-move-users-to-the-pilot-pool.md)
+  - [Phase 6 : déplacer des utilisateurs vers le pool pilote](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [Étape 7 : ajouter le serveur Edge Lync Server 2013 au pool de pilotes](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Phase 7 : ajouter le serveur Edge Lync Server 2013 au pool pilote](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Phase 8 : basculer entre le déploiement pilote et la production](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Phase 8 : passer d’un déploiement pilote en production](phase-8-move-from-pilot-deployment-into-production.md)
 
   - [Phase 9 : effectuer les tâches postérieures à la migration](phase-9-complete-post-migration-tasks.md)
 
-  - [Étape 10 : désaffecter le site hérité](phase-10-decommission-legacy-site.md)
+  - [Phase 10 : mettre hors service le site hérité](phase-10-decommission-legacy-site.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : valider les adresses'
+title: 'Lync Server 2013 : validation des adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 397c1037937e100f1981a689f0860362d852ed10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 75eeabe640c9d66c897d59f4e06bb485a482ed04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743804"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41743804"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-Avant de publier la base de données de géolocalisation, vous devez valider de nouveaux emplacements par rapport au Guide de l’adresse principale (MSAG), qui est géré par votre réseau SIP ou un réseau téléphonique commuté (RTC) E9-1-1 prestataire de services.
+Avant de publier la base de données des emplacements, vous devez valider les nouveaux emplacements par rapport à la base de données MSAG (Master Street Address Guide) gérée par votre fournisseur de service de jonction SIP ou E9-1-1 PSTN (Public Switched Telephone Network).
 
-Pour plus d’informations sur les fournisseurs de services SIP Trunk E9-1-1, voir [choix d’un fournisseur de services E9-1-1 pour Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+Pour plus d’informations sur les fournisseurs de services de jonction SIP E9-1-1, voir [choix d’un fournisseur de services E9-1-1 pour Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
 
-Pour plus d’informations sur la validation d’adresses, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur la validation des adresses, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
   - **Get-CsLisServiceProvider**
 
@@ -57,14 +57,14 @@ Pour plus d’informations sur la validation d’adresses, voir la documentation
 
 ## <a name="to-validate-addresses-located-in-the-location-database"></a>Pour valider des adresses situées dans la base de données des emplacements
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez les applets de commande ci-dessous pour configurer la connexion du fournisseur de service d’urgence.
+2.  Exécutez les applets de commande suivantes pour configurer la connexion du fournisseur de service d’urgence.
     
         $pwd = Read-Host -AsSecureString <password>
         Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-3.  Exécutez l’applet de commande ci-dessous pour valider les adresses de la base de données des emplacements.
+3.  Exécutez l’applet de commande suivante pour valider les adresses de la base de données des emplacements.
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     

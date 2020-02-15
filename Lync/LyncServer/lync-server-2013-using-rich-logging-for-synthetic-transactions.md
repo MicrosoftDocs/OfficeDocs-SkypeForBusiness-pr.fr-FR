@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : utilisation de la journalisation détaillée pour les transactions synthétiques'
+title: 'Lync Server 2013 : utilisation d’une journalisation enrichie pour les transactions synthétiques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48efc99a49fd41678d07eef8685bc7f045397aa3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 421b691bd282b858eca64c9756e92dd24aac8b7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744044"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Utilisation de la journalisation détaillée pour les transactions synthétiques dans Lync Server 2013
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Utilisation d’une journalisation enrichie pour les transactions synthétiques dans Lync Server 2013
 
 </div>
 
@@ -37,40 +37,40 @@ ms.locfileid: "41744044"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Les transactions synthétiques (introduites dans Microsoft Lync Server 2010) permettent aux administrateurs de vérifier que l’utilisateur est en mesure d’effectuer des tâches courantes telles que la connexion au système, l’échange de messages instantanés ou l’appel d’appels vers un téléphone sur le réseau téléphonique public commuté (RTC). Ces tests (qui sont empaquetés sous la forme d’un ensemble de cmdlets Windows PowerShell Lync Server) peuvent être dirigés manuellement par un administrateur, ou s’ils peuvent être exécutés automatiquement par une application telle que System Center Operations Manager.
+Les transactions synthétiques (introduites dans Microsoft Lync Server 2010) permettent aux administrateurs de vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes telles qu’une ouverture de session sur le système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RTC). Ces tests (qui sont empaquetés sous la forme d’un ensemble d’applets de commande Windows PowerShell de Lync Server) peuvent être effectués manuellement par un administrateur ou être exécutés automatiquement par une application telle que System Center Operations Manager.
 
-Dans Lync Server 2010, les transactions synthétiques ont été particulièrement utiles pour aider les administrateurs à identifier les problèmes du système. Par exemple, l’applet de **contrôle test-CsRegistration** peut signaler aux administrateurs que certains utilisateurs éprouvent des difficultés à s’inscrire auprès de Lync Server. Toutefois, les transactions synthétiques étaient légèrement moins utiles pour permettre aux administrateurs de déterminer pourquoi ces utilisateurs éprouvent des difficultés à s’inscrire auprès de Lync Server. Ce problème est dû au fait que les transactions synthétiques n’ont pas fourni d’informations de journalisation détaillées susceptibles d’aider les administrateurs à résoudre les problèmes avec Lync Server. Dans la mesure du possible, la sortie détaillée d’une transaction synthétique vous a fourni des informations détaillées qui pourraient permettre à un administrateur de découvrir à quel point un problème est susceptible de se produire.
+Dans Lync Server 2010, les transactions synthétiques se sont révélées extrêmement utiles pour aider les administrateurs à identifier les problèmes liés au système. Par exemple, l’applet de commande **test-CsRegistration** pourrait alerter les administrateurs du fait que certains utilisateurs ont des difficultés à s’inscrire auprès de Lync Server. Toutefois, les transactions synthétiques étaient quelque peu moins utiles pour aider les administrateurs à déterminer pourquoi ces utilisateurs ont des difficultés à s’inscrire auprès de Lync Server. Cela est dû au fait que les transactions synthétiques n’ont pas fourni d’informations de journalisation détaillées pouvant aider les administrateurs à résoudre les problèmes liés à Lync Server. Au mieux, la sortie détaillée d’une transaction synthétique fournissait des informations pas à pas susceptibles de permettre à un administrateur d’émettre des hypothèses éclairées sur l’origine du problème.
 
-Dans Microsoft Lync Server 2013, les transactions synthétiques ont été repensées pour fournir une journalisation enrichie. « La journalisation enrichie » signifie qu’à chaque activité qu’une transaction synthétique s’engage, des informations telles que celles-ci seront enregistrées :
+Dans Microsoft Lync Server 2013, les transactions synthétiques ont été remaniées afin de fournir une journalisation enrichie. « Journalisation enrichie » signifie que, pour chaque activité qu’une transaction synthétique s’exécute, des informations telles que celles-ci seront enregistrées :
 
-  - Heure de début de l’activité
+  - L’heure de début de l’activité
 
-  - Heure de fin de l’activité
+  - L’heure de fin de l’activité
 
-  - Action exécutée (par exemple, création, participation ou départ d’une conférence ; connexion à Lync Server ; envoi d’un message instantané ; etc.)
+  - Action effectuée (par exemple, la création, la participation ou la fermeture d’une conférence ; connexion à Lync Server ; envoi d’un message instantané, etc.)
 
-  - Les messages informatifs, détaillés, d’avertissement ou d’erreur générés pendant l’exécution de l’activité.
+  - Les messages informatifs, détaillés, d’avertissement ou d’erreur générés pendant l’exécution de l’activité
 
-  - Messages d’enregistrement SIP
+  - Les messages d’inscription SIP
 
-  - Enregistrements d’exceptions ou codes de diagnostic générés lors de l’exécution de l’activité
+  - Les enregistrements d’exception ou codes de diagnostic générés pendant l’exécution de l’activité
 
-  - Résultat net de l’exécution de l’activité
+  - Le résultat net suite à l’exécution de l’activité
 
-Ces informations sont générées automatiquement chaque fois qu’une transaction synthétique est exécutée. Toutefois, les informations ne sont pas affichées ou enregistrées automatiquement dans un fichier journal. À la place, les administrateurs exécutant une transaction synthétique manuellement peuvent utiliser le paramètre OutLoggerVariable pour spécifier une variable Windows PowerShell dans laquelle les informations seront stockées. À partir de là, les administrateurs peuvent utiliser une paire de méthodes qui leur permettent d’enregistrer et/ou d’afficher le journal enrichi au format XML ou HTML.
+Ces informations sont automatiquement générées à chaque exécution d’une transaction synthétique. Toutefois, elles ne sont pas automatiquement affichées ou enregistrées dans un fichier journal. Au lieu de cela, les administrateurs qui exécutent manuellement une transaction synthétique peuvent utiliser le paramètre OutLoggerVariable pour spécifier une variable Windows PowerShell dans laquelle les informations seront stockées. À partir de là, les administrateurs peuvent utiliser deux méthodes pour enregistrer et/ou afficher le journal enrichi au format XML ou HTML.
 
-Par exemple, les administrateurs de Lync Server 2010 peuvent exécuter l’applet de commande **test-CsRegistration** à l’aide d’une commande similaire à ce qui suit :
+Par exemple, les administrateurs de Lync Server 2010 peuvent exécuter l’applet de commande **test-CsRegistration** à l’aide d’une commande semblable à la suivante :
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-Les administrateurs ont la possibilité d’inclure le paramètre OutLoggerVariable, suivi du nom de la variable de leur choix :
+Ils ont la possibilité d’inclure le paramètre OutLoggerVariable suivi d’un nom de variable de leur choix :
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 > [!NOTE]  
-> Ne faites pas précéder le nom de la variable du caractère $. Utilisez un nom de variable tel que RegistrationTest et non $RegistrationTest.
+> Ne faites pas précéder le nom de variable du caractère $. Utilisez un nom de variable comme RegistrationTest et non $RegistrationTest.
 
-La commande précédente génère du contenu similaire à ce qui suit :
+La commande précédente permet d’obtenir du contenu de type :
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -78,7 +78,7 @@ La commande précédente génère du contenu similaire à ce qui suit :
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-Toutefois, des informations plus détaillées sont disponibles pour cet échec que le message d’erreur ci-dessus. Pour accéder à ces informations au format HTML, utilisez une commande similaire à celle-ci afin d’enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML :
+Toutefois, il est possible d’obtenir des informations bien plus détaillées pour cette panne que le simple message d’erreur indiqué plus haut. Utilisez une commande de ce type pour enregistrer les informations stockées dans la variable RegistrationTest dans un fichier HTML et pouvoir y accéder :
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
@@ -86,12 +86,12 @@ Vous pouvez aussi utiliser la méthode ToXML() pour enregistrer les données dan
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-Ces fichiers peuvent être affichés à l’aide d’Internet Explorer, Visual Studio ou de toute autre application capable d’ouvrir des fichiers HTML/XML.
+Ces fichiers peuvent ensuite être affichés à l’aide d’Internet Explorer, de Visual Studio ou de toute autre application capable d’ouvrir des fichiers HTML/XML.
 
-Les transactions synthétiques exécutées à partir de System Center Operations Manager génèrent automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne seront pas générés en cas d’échec de l’exécution avant que Windows PowerShell puisse charger et exécuter la transaction synthétique.
+Les transactions synthétiques exécutées à l’intérieur de System Center Operations Manager génèrent automatiquement ces fichiers journaux pour les échecs. Toutefois, ces journaux ne seront pas générés si l’exécution échoue avant que Windows PowerShell ne puisse charger et exécuter la transaction synthétique.
 
 > [!IMPORTANT]  
-> Par défaut, Lync Server 2013 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour rendre ces journaux facilement accessibles, vous devez partager ce dossier (par exemple, \\ \\ATL-Watcher-001. litwareinc. com\WatcherNode.
+> Par défaut, Lync Server 2013 enregistre les fichiers journaux dans un dossier qui n’est pas partagé. Pour faciliter l’accès à ces journaux, vous devez partager ce dossier (par exemple \\ \\, ATL-Watcher-001. litwareinc. com\WatcherNode.
 
 
 </div>

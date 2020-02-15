@@ -12,16 +12,16 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 572cbee046ed960017a3b60b7ae68c58ec67cf23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6f201b1f7520b365654635c61e4fcebae3c46a0c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762882"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,26 +37,26 @@ ms.locfileid: "41762882"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Si vous avez déployé le serveur d’archivage et le serveur de surveillance dans votre environnement Lync Server 2010, vous pouvez déployer ces serveurs dans votre environnement Lync Server 2013 après la migration de vos pools front-end. En revanche, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, il est préférable d’ajouter un archivage et une analyse à votre pool de pilotes 2013 Lync Server avant de procéder à la migration de manière à ce que la fonctionnalité soit disponible pendant le processus de migration.
+Si vous avez déployé le serveur d’archivage et le serveur de surveillance dans votre environnement Lync Server 2010, vous pouvez déployer ces serveurs dans votre environnement Lync Server 2013 après avoir migré vos pools frontaux. Toutefois, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, vous devez ajouter l’archivage et la surveillance à votre pool de pilotes Lync Server 2013 avant de procéder à la migration afin que la fonctionnalité soit disponible pendant le processus de migration.
 
-Si vous voulez utiliser les fonctionnalités d’archivage et de surveillance pendant le processus de migration, tenez compte des points suivants :
+Si vous voulez la fonctionnalité d’archivage et de surveillance au cours du processus de migration, gardez les considérations suivantes à l’esprit :
 
-  - L’archivage de données et le contrôle des données ne sont pas déplacés vers le déploiement Lync Server 2013. Les données que vous sauvegardez avant de désaffecter l’environnement hérité seront votre historique d’activités dans l’environnement Lync Server 2010.
+  - Les données d’archivage et les données de surveillance ne sont pas déplacées vers le déploiement Lync Server 2013. Les données que vous sauvegardez avant de désaffecter l’environnement hérité correspondent à votre historique d’activité dans l’environnement Lync Server 2010.
 
-  - La version 2010 de Lync Server du serveur d’archivage et de surveillance Server peut être associée uniquement à un pool frontal Lync Server 2010. Dans Lync Server 2013, l’archivage et la surveillance ne sont plus des rôles de serveur, mais les services intégrés au pool de serveurs front end 2013 de Lync Server.
+  - La version Lync Server 2010 du serveur d’archivage et du serveur de surveillance ne peut être associée qu’à un pool frontal Lync Server 2010. Dans Lync Server 2013, l’archivage et la surveillance ne sont plus des rôles serveur, mais des services intégrés au pool frontal Lync Server 2013.
 
-  - Pendant la période de coexistence des déploiements d’anciens et de Lync Server 2013, la version Lync Server 2010 du serveur d’archivage et de surveillance du serveur de surveillance recueille des données destinées aux utilisateurs hébergés sur des pools Lync Server 2010. Archivage et surveillance dans Lync Server 2013 rassemblez les données des utilisateurs hébergés sur les pools 2013 du serveur Lync.
+  - Pendant la coexistence de vos déploiements hérités et Lync Server 2013, la version Lync Server 2010 du serveur d’archivage et du serveur de surveillance recueille des données pour les utilisateurs hébergés sur des pools Lync Server 2010. L’archivage et la surveillance dans Lync Server 2013 recueillent des données pour les utilisateurs hébergés sur des pools Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Pendant la phase de migration lorsque vous utilisez toujours votre serveur de bord traditionnel avec le nouveau pool de pilotes Lync Server 2013, la version du serveur d’archivage de Lync Server 2010 continue de rassembler les données pour les utilisateurs hébergés sur des pools et archivage de Lync Server 2010 dans Lync Server 2013 recueille des données destinées aux utilisateurs hébergés sur des pools Lync Server 2013.
+    > Pendant la phase de migration, lorsque vous utilisez toujours votre serveur Edge hérité avec le nouveau pool pilote Lync Server 2013, la version Lync Server 2010 du serveur d’archivage continue de collecter des données pour les utilisateurs hébergés sur les pools et l’archivage Lync Server 2010 dans Lync Server 2013 recueille des données pour les utilisateurs hébergés sur des pools Lync Server 2013.
 
     
     </div>
 
-  - Si vous utilisez une solution tierce d’archivage et de surveillance conjointement avec l’archivage et l’analyse dans Lync Server 2013, contactez votre vendeur pour savoir quand et comment vous devez intégrer la solution tierce sur Lync Server 2013.
+  - Si vous utilisez une solution d’archivage et de surveillance tierce en association avec l’archivage et la surveillance dans Lync Server 2013, consultez votre fournisseur quand et comment intégrer la solution tierce à Lync Server 2013.
 
 </div>
 

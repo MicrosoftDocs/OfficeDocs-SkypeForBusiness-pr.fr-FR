@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des services et des rôles serveur Lync Server'
+title: 'Lync Server 2013 : gestion des services et des rôles serveur Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650c3afba4aa38282867f28db4e0f142b2315212
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ca7fd0277bf04149376f21964c08d6002564823
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743356"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41743356"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-Vous pouvez utiliser les procédures décrites dans cette section pour gérer les divers services et rôles de serveur dans Lync Server 2013.
+Vous pouvez utiliser les procédures de cette section pour gérer les différents services et rôles serveur dans Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Serveurs périphériques audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)
+  - [Serveurs Edge audio/vidéo (A/V) dans Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)
 
-  - [Configurer un nouveau serveur d’applications de confiance dans Lync Server 2013](lync-server-2013-configure-a-new-trusted-application-server.md)
+  - [Configurer un nouveau serveur d’applications approuvées dans Lync Server 2013](lync-server-2013-configure-a-new-trusted-application-server.md)
 
   - [Gestion des services Lync Server 2013](lync-server-2013-managing-lync-server-services.md)
 
   - [Administration du service de carnet d’adresses dans Lync Server 2013](lync-server-2013-administering-the-address-book-service.md)
 
-  - [Changer l’URL de services Web dans Lync Server 2013](lync-server-2013-change-the-web-services-url.md)
+  - [Modifier l’URL des services Web dans Lync Server 2013](lync-server-2013-change-the-web-services-url.md)
 
 </div>
 

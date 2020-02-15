@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vérification de la connectivité pour les utilisateurs externes'
+title: 'Lync Server 2013 : vérification de la connectivité pour les utilisateurs externes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c1f8a9bbda54c596a9ccae8451b15ce7300bffd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14d3dbc74119ff4f5669776dafce8a7cc2dee21a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763518"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Vérification de la connectivité pour les utilisateurs externes dans Lync Server 2013
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Vérifier la connectivité pour les utilisateurs externes dans Lync Server 2013
 
 </div>
 
@@ -37,35 +37,35 @@ ms.locfileid: "41763518"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-La validation de la connectivité des utilisateurs externes nécessite de garantir la connectivité des utilisateurs au serveur et au port du service Edge d’accès.
+La validation de la connectivité pour les utilisateurs externes nécessite de s’assurer de la connectivité des utilisateurs vers le serveur et le port pour le service Edge d’accès.
 
-Pour confirmer votre configuration et la possibilité de vous connecter, d’envoyer et de recevoir les messages appropriés pour les scénarios requis par l’accès des utilisateurs externes est le site de l’analyseur de<http://www.testocsconnectivity.com>connectivité à distance (). Le site est géré et entretenu par le support technique de Microsoft. Pour accéder à l’analyseur de connectivité à distance, ouvrez le site Web dans un navigateur et suivez les instructions pour sélectionner le scénario.
+Le site analyseur de connectivité à distance (<http://www.testocsconnectivity.com>) est une ressource précieuse pour la confirmation de votre configuration et la possibilité de vous connecter, d’envoyer et de recevoir les messages corrects pour les scénarios requis par l’accès des utilisateurs externes. Le site est géré et géré par le support Microsoft. Pour accéder à l’Analyseur de connectivité à distance, ouvrez le site web dans un navigateur et suivez les instructions relatives à la sélection du scénario.
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>Tester la connectivité des utilisateurs externes et des accès externes
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Tester la connectivité des utilisateurs externes et de l’accès externe
 
-Les tests pour l’accès utilisateur externe doivent inclure chaque type d’utilisateur externe pris en charge par votre organisation, y compris tout ou partie des éléments suivants :
+Les tests d’accès des utilisateurs externes doivent inclure tous les types d’utilisateurs externes pris en charge par votre organisation, dont un ou plusieurs des éléments suivants :
 
-  - Utilisateurs d’au moins un domaine fédéré et test de la messagerie instantanée, de la présence, de A/V et du partage de bureau.
+  - Utilisateurs d’au moins un domaine fédéré, et test de la messagerie instantanée, de la présence et du partage du Bureau.
 
-  - Utilisateurs de chaque fournisseur de services de messagerie instantanée publique pris en charge par votre organisation (et pour lesquels la mise en service est terminée).
+  - Utilisateurs de chaque fournisseur de services de messagerie instantanée public pris en charge par votre organisation (et pour lequel le provisionnement a été effectué).
 
   - Utilisateurs anonymes.
 
-  - Les utilisateurs de votre organisation qui sont connectés à Lync à distance, mais qui ne l’utilisent pas.
+  - Utilisateurs appartenant à votre organisation, qui sont connectés à Lync à distance, mais qui n’utilisent pas VPN.
 
-Ces tests déterminent si votre serveur Edge est :
+Ces tests déterminent si votre serveur Edge :
 
   - Écoute sur les ports requis à l’aide d’un client telnet depuis l’extérieur de votre réseau.
     
-      - Exemple : Telnet sip.contoso.com 443
+      - Exemple : telnet sip.contoso.com 443
     
-      - Effectuez le test précédent sur les ports que vous utilisez sur le serveur Edge ou le pool de serveurs Edge en fonction de votre déploiement.
+      - Effectuez le test précédent sur les ports que vous utilisez sur le serveur Edge ou le pool de serveur Edge en fonction de votre déploiement.
 
   - Effectuer une résolution DNS externe précise.
     
-      - Depuis l’extérieur de votre réseau, effectuez un test ping sur chacun des FQDN externes de votre pool Edge ou Edge. Même si le test échoue, vous verrez les adresses IP, que vous pouvez comparer à celles que vous avez affectées.
+      - Depuis l’extérieur de votre réseau, exécutez la commande ping sur chacun des noms de domaine complets (FQDN) externes de votre serveur Edge ou pool de serveurs Edge. Même si la commande ping échoue, vous obtiendrez les adresses IP que vous pouvez comparer à celles que vous avez affectées.
 
 </div>
 
