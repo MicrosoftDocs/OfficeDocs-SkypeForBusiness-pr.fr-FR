@@ -1,5 +1,5 @@
 ---
-title: Mise en service de la topologie pour exécuter le chargement
+title: Mise en service de la topologie pour exécuter la charge
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a913dc678b2f5e929ad22e09e1d8350f667ce39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="38acf-102">Mise en service de la topologie pour exécuter le chargement</span><span class="sxs-lookup"><span data-stu-id="38acf-102">Provisioning the Topology to Run Load</span></span>
+# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="3f18f-102">Mise en service de la topologie pour exécuter la charge</span><span class="sxs-lookup"><span data-stu-id="3f18f-102">Provisioning the Topology to Run Load</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41763598"
 
 <span> </span>
 
-<span data-ttu-id="38acf-103">_**Dernière modification de la rubrique :** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="38acf-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+<span data-ttu-id="3f18f-103">_**Dernière modification de la rubrique :** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="3f18f-103">_**Topic Last Modified:** 2013-02-04_</span></span>
 
 <div>
 
-## <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="38acf-104">Mise en service de la topologie pour exécuter le chargement</span><span class="sxs-lookup"><span data-stu-id="38acf-104">Provisioning the Topology to Run Load</span></span>
+## <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="3f18f-104">Mise en service de la topologie pour exécuter la charge</span><span class="sxs-lookup"><span data-stu-id="3f18f-104">Provisioning the Topology to Run Load</span></span>
 
-<span data-ttu-id="38acf-105">Selon vos paramètres et la configuration de Lync Server 2013, il est possible que vous deviez apporter les modifications suivantes à votre environnement :</span><span class="sxs-lookup"><span data-stu-id="38acf-105">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
+<span data-ttu-id="3f18f-105">En fonction de vos paramètres et de la configuration existants de Lync Server 2013, vous devrez peut-être effectuer les modifications suivantes dans votre environnement :</span><span class="sxs-lookup"><span data-stu-id="3f18f-105">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
 
-1.  <span data-ttu-id="38acf-106">Définissez la stratégie d’exécution Windows PowerShell sur non restreinte.</span><span class="sxs-lookup"><span data-stu-id="38acf-106">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="38acf-107">Pour vérifier les paramètres de stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="38acf-107">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
+1.  <span data-ttu-id="3f18f-106">Définissez la stratégie d’exécution Windows PowerShell sur Unrestricted.</span><span class="sxs-lookup"><span data-stu-id="3f18f-106">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="3f18f-107">Pour vérifier les paramètres de la stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="3f18f-107">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    <span data-ttu-id="38acf-108">Si cette commande n’a pas pour résultat la valeur Unrestricted, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="38acf-108">If this command does not return the value Unrestricted, run this command:</span></span>
+    <span data-ttu-id="3f18f-108">Si cette commande ne renvoie pas la valeur Unrestricted, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="3f18f-108">If this command does not return the value Unrestricted, run this command:</span></span>
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  <span data-ttu-id="38acf-109">Pour configurer efficacement Lync Server 2013, vous devez :</span><span class="sxs-lookup"><span data-stu-id="38acf-109">To effectively configure Lync Server 2013, you will need to:</span></span>
+2.  <span data-ttu-id="3f18f-109">Pour configurer de manière efficace Lync Server 2013, vous devez :</span><span class="sxs-lookup"><span data-stu-id="3f18f-109">To effectively configure Lync Server 2013, you will need to:</span></span>
     
-      - <span data-ttu-id="38acf-110">Familiarisez-vous avec la topologie Lync Server 2013 (par exemple, les noms d’ordinateurs, les instances de service, les noms de sites et les stratégies).</span><span class="sxs-lookup"><span data-stu-id="38acf-110">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
+      - <span data-ttu-id="3f18f-110">Se familiariser avec la topologie Lync Server 2013 (par exemple, les noms d’ordinateur, les instances de service, les noms de site et les stratégies).</span><span class="sxs-lookup"><span data-stu-id="3f18f-110">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
     
-      - <span data-ttu-id="38acf-111">Assignez certains utilisateurs qui ont été créés dans des groupes, par exemple, des groupes de recherche de Response Group (par exemple, URI SIP).</span><span class="sxs-lookup"><span data-stu-id="38acf-111">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
+      - <span data-ttu-id="3f18f-111">Affectez certains des utilisateurs qui ont été créés à des groupes, tels que les groupes de postes Response Group (par exemple, URI SIP).</span><span class="sxs-lookup"><span data-stu-id="3f18f-111">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
 
-3.  <span data-ttu-id="38acf-112">Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="38acf-112">To run the script from the command line, you may use:</span></span>
+3.  <span data-ttu-id="3f18f-112">Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="3f18f-112">To run the script from the command line, you may use:</span></span>
 
     ``` powershell
         Powershell.exe -file <path to the file>
     ```
     
-4.  <span data-ttu-id="38acf-113">En règle générale, après l’exécution de l’un des scripts de ce package, les traces obtenues à partir du script seront stockées dans un fichier dans le même chemin à partir duquel le script \<a\>été appelé, nommé scriptname $h $ m $ s. txt.</span><span class="sxs-lookup"><span data-stu-id="38acf-113">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="38acf-114">Par exemple, en exécutant ArchivingPolicy. ps1 à 12:15 P.M.</span><span class="sxs-lookup"><span data-stu-id="38acf-114">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="38acf-115">va générer un fichier journal tel que ArchivingPolicy121500. txt.</span><span class="sxs-lookup"><span data-stu-id="38acf-115">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
+4.  <span data-ttu-id="3f18f-113">En règle générale, après l’exécution d’un des scripts de ce package, les traces résultantes du script sont stockées dans un fichier dans le même chemin d’accès que celui à partir duquel \<le\>script a été invoqué, nommé scriptname $h $ m $ s. txt.</span><span class="sxs-lookup"><span data-stu-id="3f18f-113">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="3f18f-114">Par exemple, l’exécution de ArchivingPolicy. ps1 à 12:15 P.M.</span><span class="sxs-lookup"><span data-stu-id="3f18f-114">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="3f18f-115">générera un fichier journal tel que ArchivingPolicy121500. txt.</span><span class="sxs-lookup"><span data-stu-id="3f18f-115">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
 
-5.  <span data-ttu-id="38acf-116">Enfin, Notez que bien que nous ayons fourni des exemples de configuration du serveur, vous êtes responsable de la modification ou de la suppression de la configuration lorsque vous avez terminé d’exécuter le chargement.</span><span class="sxs-lookup"><span data-stu-id="38acf-116">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
+5.  <span data-ttu-id="3f18f-116">Enfin, Notez que même si nous avons fourni des exemples pour configurer le serveur, vous êtes responsable de la modification ou de la suppression de la configuration une fois le chargement terminé.</span><span class="sxs-lookup"><span data-stu-id="3f18f-116">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
 
 </div>
 

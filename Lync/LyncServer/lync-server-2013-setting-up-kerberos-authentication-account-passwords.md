@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des mots de passe de compte d’authentification Kerberos'
+title: 'Lync Server 2013 : configuration des mots de passe de compte d’authentification Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764610"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="22408-102">Configuration des mots de passe de compte d’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22408-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
+# <a name="setting-up-kerberos-authentication-account-passwords-in-lync-server-2013"></a><span data-ttu-id="717a0-102">Configuration des mots de passe de compte d’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="717a0-102">Setting up Kerberos authentication account passwords in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764610"
 
 <span> </span>
 
-<span data-ttu-id="22408-103">_**Dernière modification de la rubrique :** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="22408-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="717a0-103">_**Dernière modification de la rubrique :** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="717a0-103">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="22408-104">Une fois que vous avez créé l’objet ordinateur pour le compte d’authentification Kerberos, vous pouvez configurer le mot de passe du compte.</span><span class="sxs-lookup"><span data-stu-id="22408-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="22408-105">Vous exécutez l’applet de cmdlet Windows PowerShell pour configurer le mot de passe du compte Kerberos sur un serveur.</span><span class="sxs-lookup"><span data-stu-id="22408-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="22408-106">Vous pouvez définir le mot de passe sur l’objet que vous avez créé pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="22408-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="22408-107">Le mot de passe peut être défini sur une valeur connue, mais par défaut comme un mot de passe aléatoire.</span><span class="sxs-lookup"><span data-stu-id="22408-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="22408-108">Le mot de passe est disponible pour toutes les sources d’authentification Kerberos qui utilisent le compte.</span><span class="sxs-lookup"><span data-stu-id="22408-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="22408-109">Les applets de cmdlet Windows PowerShell permettent de configurer et de gérer les mots de passe des comptes Kerberos.</span><span class="sxs-lookup"><span data-stu-id="22408-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
+<span data-ttu-id="717a0-104">Après avoir créé l’objet ordinateur pour le compte d’authentification Kerberos, vous pouvez configurer le mot de passe pour le compte.</span><span class="sxs-lookup"><span data-stu-id="717a0-104">After you create the computer object for the Kerberos authentication account, you can set up the password for the account.</span></span> <span data-ttu-id="717a0-105">Vous exécutez l’applet de commande Windows PowerShell pour définir le mot de passe du compte Kerberos sur un serveur.</span><span class="sxs-lookup"><span data-stu-id="717a0-105">You run the Windows PowerShell cmdlet for setting the Kerberos account password on one server.</span></span> <span data-ttu-id="717a0-106">Vous pouvez définir le mot de passe sur l’objet créé pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="717a0-106">You can set the password on the object that you created for the Kerberos authentication.</span></span> <span data-ttu-id="717a0-107">Le mot de passe peut être défini sur une valeur connue, mais par défaut il s’agit d’un mot de passe aléatoire.</span><span class="sxs-lookup"><span data-stu-id="717a0-107">The password can be set to a known value, but by default is a random password.</span></span> <span data-ttu-id="717a0-108">Il est valable pour toutes les sources d’authentification Kerberos qui utilisent le compte.</span><span class="sxs-lookup"><span data-stu-id="717a0-108">The password is available to all Kerberos authentication sources that use the account.</span></span> <span data-ttu-id="717a0-109">Vous utilisez les applets de commande Windows PowerShell pour configurer et gérer les mots de passe de compte Kerberos.</span><span class="sxs-lookup"><span data-stu-id="717a0-109">You use Windows PowerShell cmdlets to set up and manage Kerberos account passwords.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="22408-110">L’objet de compte Kerberos est un objet ordinateur, mais il utilise le paramètre UserAccount pour les opérations dans les cmdlets Windows PowerShell qui sont référencées.</span><span class="sxs-lookup"><span data-stu-id="22408-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="22408-111">Notez qu’il ne s’agit pas d’une erreur, mais du comportement prévu de l’applet de passe lorsqu’elle est utilisée avec la création et la maintenance du compte Kerberos.</span><span class="sxs-lookup"><span data-stu-id="22408-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
+> <span data-ttu-id="717a0-110">L’objet de compte Kerberos est un objet ordinateur, mais il utilise le paramètre UserAccount pour les opérations des applets de commande Windows PowerShell référencées.</span><span class="sxs-lookup"><span data-stu-id="717a0-110">The Kerberos account object is a computer object, but uses the UserAccount parameter for operations in the Windows PowerShell cmdlets that are referenced.</span></span> <span data-ttu-id="717a0-111">Notez qu’il ne s’agit pas d’une erreur, mais du comportement prévu de l’applet de commande lorsqu’elle est utilisée pour la création et la maintenance du compte Kerberos.</span><span class="sxs-lookup"><span data-stu-id="717a0-111">Note that this is not a mistake, but the intended behavior of the cmdlet when used with the Kerberos account creation and maintenance.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "41764610"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="22408-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="22408-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="717a0-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="717a0-112">In This Section</span></span>
 
-  - [<span data-ttu-id="22408-113">Définition d’un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22408-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [<span data-ttu-id="717a0-113">Définir un mot de passe de compte d’authentification Kerberos sur un serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="717a0-113">Set a Kerberos authentication account password on a server in Lync Server 2013</span></span>](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
-  - [<span data-ttu-id="22408-114">Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22408-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
+  - [<span data-ttu-id="717a0-114">Synchronisation d’un mot de passe de compte d’authentification Kerberos avec les services Internet (IIS) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="717a0-114">Synchronize a Kerberos authentication account password to IIS in Lync Server 2013</span></span>](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 
 </div>
 

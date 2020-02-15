@@ -12,20 +12,20 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f10ba311ce5d626348e4b1837f73768cc2c4ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 68087115e303cbe964c0b3f8ae52318074ce4382
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729874"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="b0209-102">Choix d’un fournisseur de services E9-1-1 pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b0209-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
+# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="da395-102">Choix d’un fournisseur de services E9-1-1 pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da395-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729874"
 
 <span> </span>
 
-<span data-ttu-id="b0209-103">_**Dernière modification de la rubrique :** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="b0209-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="da395-103">_**Dernière modification de la rubrique :** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="da395-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="b0209-104">Le fournisseur de services E9-1-1 route les appels d’urgence provenant de Lync Server vers le point d’accès approprié (PSAPI) public approprié en fonction des informations d’emplacement contenues dans l’appel.</span><span class="sxs-lookup"><span data-stu-id="b0209-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
+<span data-ttu-id="da395-104">Le fournisseur de services E9-1-1 achemine les appels d’urgence émanant de Lync Server vers le point de réponse publique (PSAPI) public approprié en fonction des informations d’emplacement contenues dans l’appel.</span><span class="sxs-lookup"><span data-stu-id="da395-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
 
-<span data-ttu-id="b0209-105">Pour prendre en charge E9-1-1 dans le cadre d’un déploiement de Lync Server, vous devez obtenir un service de routage E9-1-1 auprès d’un fournisseur de services d’interopérabilité Lync en service de E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="b0209-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="b0209-106">Choisissez le fournisseur qui répond le mieux aux besoins de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="b0209-106">Choose the provider that best fits your organizational requirements.</span></span>
+<span data-ttu-id="da395-105">Pour prendre en charge E9-1-1 dans le cadre d’un déploiement Lync Server, vous devez obtenir un service de routage E9-1-1 à partir d’un fournisseur de services E9-1-1 de Lync Open Interoperability Program.</span><span class="sxs-lookup"><span data-stu-id="da395-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="da395-106">Choisissez le fournisseur qui répond le mieux aux besoins de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="da395-106">Choose the provider that best fits your organizational requirements.</span></span>
 
 </div>
 

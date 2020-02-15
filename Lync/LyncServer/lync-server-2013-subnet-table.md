@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Subnet'
+title: 'Lync Server 2013 : table de sous-réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d107889b49ec16c51224b075a8fb7f7a7cec1b00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff03309ab4c71f2dfda9aac96223cde2cd6e000a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731734"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a><span data-ttu-id="590a2-102">Table Subnet dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="590a2-102">Subnet table in Lync Server 2013</span></span>
+# <a name="subnet-table-in-lync-server-2013"></a><span data-ttu-id="d2556-102">Table de sous-réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2556-102">Subnet table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731734"
 
 <span> </span>
 
-<span data-ttu-id="590a2-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="590a2-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="d2556-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d2556-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="590a2-104">La table de sous-réseau est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="590a2-104">The Subnet table is a supporting table.</span></span> <span data-ttu-id="590a2-105">Chaque enregistrement représente un sous-réseau défini dans les paramètres de configuration du réseau.</span><span class="sxs-lookup"><span data-stu-id="590a2-105">Each record represents one subnet defined in network configuration setting.</span></span>
+<span data-ttu-id="d2556-p101">La table Subnet est une table de prise en charge. Chaque enregistrement représente un sous-réseau défini dans un paramètre de configuration réseau.</span><span class="sxs-lookup"><span data-stu-id="d2556-p101">The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "41731734"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="590a2-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="590a2-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="590a2-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="590a2-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="d2556-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="d2556-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="d2556-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="d2556-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="590a2-110"><strong>SubnetIP</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-110"><strong>SubnetIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="590a2-111">int</span><span class="sxs-lookup"><span data-stu-id="590a2-111">int</span></span></p></td>
-<td><p><span data-ttu-id="590a2-112">Etranger principal</span><span class="sxs-lookup"><span data-stu-id="590a2-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="590a2-113">Représentation entière de l’adresse IP du sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="590a2-113">Integer representation for the subnet IP.</span></span></p></td>
+<td><p><span data-ttu-id="d2556-110"><strong>SubnetIP</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-110"><strong>SubnetIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2556-111">int</span><span class="sxs-lookup"><span data-stu-id="d2556-111">int</span></span></p></td>
+<td><p><span data-ttu-id="d2556-112">Primaire, étrangère</span><span class="sxs-lookup"><span data-stu-id="d2556-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d2556-113">Représentation sous forme d’entier de l’adresse IP de sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="d2556-113">Integer representation for the subnet IP.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="590a2-114"><strong>Masque_sous_réseau</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-114"><strong>SubnetMask</strong></span></span></p></td>
-<td><p><span data-ttu-id="590a2-115">int</span><span class="sxs-lookup"><span data-stu-id="590a2-115">int</span></span></p></td>
+<td><p><span data-ttu-id="d2556-114"><strong>Masque</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-114"><strong>SubnetMask</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2556-115">int</span><span class="sxs-lookup"><span data-stu-id="d2556-115">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="590a2-116">Masque de sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="590a2-116">Subnet mask.</span></span></p></td>
+<td><p><span data-ttu-id="d2556-116">Masque de sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="d2556-116">Subnet mask.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="590a2-117"><strong>UserSiteKey</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-117"><strong>UserSiteKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="590a2-118">int</span><span class="sxs-lookup"><span data-stu-id="590a2-118">int</span></span></p></td>
-<td><p><span data-ttu-id="590a2-119">Externes</span><span class="sxs-lookup"><span data-stu-id="590a2-119">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="590a2-120">Fait référence à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="590a2-120">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="d2556-117"><strong>UserSiteKey</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-117"><strong>UserSiteKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2556-118">int</span><span class="sxs-lookup"><span data-stu-id="d2556-118">int</span></span></p></td>
+<td><p><span data-ttu-id="d2556-119">Etranger</span><span class="sxs-lookup"><span data-stu-id="d2556-119">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d2556-120">Référencé à partir de la <a href="lync-server-2013-usersite-table.md">table UserSite dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="d2556-120">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="590a2-121"><strong>SubnetDescription</strong></span><span class="sxs-lookup"><span data-stu-id="590a2-121"><strong>SubnetDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="590a2-122">nvarchar</span><span class="sxs-lookup"><span data-stu-id="590a2-122">nvarchar(512)</span></span></p></td>
+<td><p><span data-ttu-id="d2556-121"><strong>SubnetDescription</strong></span><span class="sxs-lookup"><span data-stu-id="d2556-121"><strong>SubnetDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="d2556-122">nvarchar</span><span class="sxs-lookup"><span data-stu-id="d2556-122">nvarchar(512)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="590a2-123">Description du sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="590a2-123">The description for the subnet.</span></span></p></td>
+<td><p><span data-ttu-id="d2556-123">Description du sous-réseau.</span><span class="sxs-lookup"><span data-stu-id="d2556-123">The description for the subnet.</span></span></p></td>
 </tr>
 </tbody>
 </table>

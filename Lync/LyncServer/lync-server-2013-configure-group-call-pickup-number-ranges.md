@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer des plages de numéros de capture d’appels de groupe'
+title: 'Lync Server 2013 : configuration des plages de numéros de prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bd822dda38dd3b6cb5d6b801460ad463375e62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47639ea1e158ce5cb4e6463b1fb953fc50412c79
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a><span data-ttu-id="193e0-102">Configurer des plages de numéros de capture d’appels de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e0-102">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>
+# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a><span data-ttu-id="4bb04-102">Configuration des plages de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4bb04-102">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729844"
 
 <span> </span>
 
-<span data-ttu-id="193e0-103">_**Dernière modification de la rubrique :** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="193e0-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="4bb04-103">_**Dernière modification de la rubrique :** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="4bb04-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="193e0-104">Le prélèvement d’appels de groupe est basé sur l’application de parc d’appels.</span><span class="sxs-lookup"><span data-stu-id="193e0-104">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="193e0-105">Lorsque vous déployez un appel de groupe, vous configurez la table d’orbite du parc d’appels avec des plages de numéros de téléphone désignés comme numéros de groupe de cueillette d’appel.</span><span class="sxs-lookup"><span data-stu-id="193e0-105">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="193e0-106">Ces numéros de groupe sont les numéros que les utilisateurs composent pour prendre des appels qui sonnent pour un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="193e0-106">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
+<span data-ttu-id="4bb04-104">La prise d’appel de groupe est basée sur l’application de parcage d’appel.</span><span class="sxs-lookup"><span data-stu-id="4bb04-104">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="4bb04-105">Lorsque vous déployez la prise d’appel de groupe, vous configurez la table d’orbites de parcage d’appel avec des plages de numéros de téléphone qui sont désignées comme numéros de groupe de prise d’appel.</span><span class="sxs-lookup"><span data-stu-id="4bb04-105">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="4bb04-106">Ces numéros de groupe correspondent aux numéros que les utilisateurs composent pour effectuer des appels qui sonnent pour un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4bb04-106">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
 
-<span data-ttu-id="193e0-107">Tout comme les numéros d’appels parqués, les numéros de groupe de prise d’appel doivent être des extensions virtuelles auxquelles aucun utilisateur ou téléphone n’est affecté.</span><span class="sxs-lookup"><span data-stu-id="193e0-107">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="193e0-108">Chaque pool frontal sur lequel vous déployez la capture d’appels de groupe peut avoir une ou plusieurs gammes de numéros de groupe de cueillette d’appel.</span><span class="sxs-lookup"><span data-stu-id="193e0-108">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="193e0-109">Les plages de numéros de groupe doivent être globalement uniques dans le déploiement de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="193e0-109">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="4bb04-107">Comme les numéros d’orbite de parcage d’appel, les numéros de groupe de prise d’appel doivent être des extensions virtuelles auxquelles aucun utilisateur ou téléphone n’est affecté.</span><span class="sxs-lookup"><span data-stu-id="4bb04-107">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="4bb04-108">Chaque pool frontal où vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel.</span><span class="sxs-lookup"><span data-stu-id="4bb04-108">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="4bb04-109">Les plages de numéros de groupe doivent être uniques au niveau global dans le déploiement Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4bb04-109">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="193e0-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="193e0-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4bb04-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="4bb04-110">In This Section</span></span>
 
-  - [<span data-ttu-id="193e0-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e0-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+  - [<span data-ttu-id="4bb04-111">Création ou modification d’une plage de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4bb04-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
-  - [<span data-ttu-id="193e0-112">Supprimer une plage de numéros de capture d’appels de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e0-112">Delete a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-delete-a-group-call-pickup-number-range.md)
+  - [<span data-ttu-id="4bb04-112">Supprimer une plage de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4bb04-112">Delete a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-delete-a-group-call-pickup-number-range.md)
 
 </div>
 

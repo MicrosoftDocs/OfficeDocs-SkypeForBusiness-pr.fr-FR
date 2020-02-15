@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : résolution des problèmes de cmdlet voix entreprise'
+title: 'Lync Server 2013 : résolution des applets de commande voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a><span data-ttu-id="56fd6-102">Résoudre les problèmes de cmdlet voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56fd6-102">Troubleshooting Enterprise Voice cmdlets in Lync Server 2013</span></span>
+# <a name="troubleshooting-enterprise-voice-cmdlets-in-lync-server-2013"></a><span data-ttu-id="8fda9-102">Dépannage des applets de commande voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fda9-102">Troubleshooting Enterprise Voice cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,80 +35,80 @@ ms.locfileid: "41745034"
 
 <span> </span>
 
-<span data-ttu-id="56fd6-103">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="56fd6-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="8fda9-103">_**Dernière modification de la rubrique :** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="8fda9-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="56fd6-104">La configuration d’Enterprise Voice dans le cadre de l’implémentation de Microsoft Lync Server 2013 implique la création de routages, de stratégies et de règles qui doivent collaborer pour garantir que les appels entrants et sortants s’exécutent correctement.</span><span class="sxs-lookup"><span data-stu-id="56fd6-104">Setting up Enterprise Voice as part of your Microsoft Lync Server 2013 implementation involves creating routes, policies and rules that must all work together to ensure incoming and outgoing calls are completed as expected.</span></span> <span data-ttu-id="56fd6-105">Lync Server Management Shell inclut des applets de contrôle qui peuvent être utilisées pour tester des connexions et des chemins d’accès et pour résoudre les problèmes qui peuvent survenir lors de l’implémentation.</span><span class="sxs-lookup"><span data-stu-id="56fd6-105">Lync Server Management Shell includes cmdlets that can be used to test connections and paths and to troubleshoot issues that may arise during implementation.</span></span>
+<span data-ttu-id="8fda9-104">La configuration de voix entreprise dans le cadre de votre implémentation Microsoft Lync Server 2013 implique la création d’itinéraires, de stratégies et de règles qui doivent fonctionner ensemble pour garantir que les appels entrants et sortants sont terminés comme prévu.</span><span class="sxs-lookup"><span data-stu-id="8fda9-104">Setting up Enterprise Voice as part of your Microsoft Lync Server 2013 implementation involves creating routes, policies and rules that must all work together to ensure incoming and outgoing calls are completed as expected.</span></span> <span data-ttu-id="8fda9-105">Lync Server Management Shell inclut des applets de commande qui permettent de tester les connexions et les chemins d’accès et de résoudre les problèmes susceptibles de survenir lors de l’implémentation.</span><span class="sxs-lookup"><span data-stu-id="8fda9-105">Lync Server Management Shell includes cmdlets that can be used to test connections and paths and to troubleshoot issues that may arise during implementation.</span></span>
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a><span data-ttu-id="56fd6-106">Résolution des problèmes de cmdlet voix entreprise</span><span class="sxs-lookup"><span data-stu-id="56fd6-106">Troubleshooting Enterprise Voice Cmdlets</span></span>
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a><span data-ttu-id="8fda9-106">Dépannage des applets de commande de Voix Entreprise</span><span class="sxs-lookup"><span data-stu-id="8fda9-106">Troubleshooting Enterprise Voice Cmdlets</span></span>
 
-<span data-ttu-id="56fd6-107">Vous pouvez utiliser les applets de commande suivantes pour tester et résoudre les problèmes de connexion voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="56fd6-107">The following cmdlets can be used to test and troubleshoot Enterprise Voice connections.</span></span>
+<span data-ttu-id="8fda9-107">Vous pouvez utiliser les applets de commande suivantes pour tester et dépanner les connexions Voix Entreprise.</span><span class="sxs-lookup"><span data-stu-id="8fda9-107">The following cmdlets can be used to test and troubleshoot Enterprise Voice connections.</span></span>
 
-<span data-ttu-id="56fd6-108">**Résolution des problèmes de cmdlet voix entreprise**</span><span class="sxs-lookup"><span data-stu-id="56fd6-108">**Troubleshooting Enterprise Voice Cmdlets**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="56fd6-109">[Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-109">[Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))</span></span>
+<span data-ttu-id="8fda9-108">**Dépannage des applets de commande de Voix Entreprise**</span><span class="sxs-lookup"><span data-stu-id="8fda9-108">**Troubleshooting Enterprise Voice Cmdlets**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-110">[Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-110">[Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-109">[Get-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-109">[Get-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-111">[Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-111">[Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-110">[Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-110">[Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="8fda9-111">[Set-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-111">[Set-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-112">[Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-112">[Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-112">[Get-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-112">[Get-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-113">[Nouveau-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-113">[New-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-113">[New-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-113">[New-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-114">[Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-114">[Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-114">[Remove-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-114">[Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-115">[Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-115">[Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-115">[Set-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-115">[Set-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="56fd6-116">[Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-116">[Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-116">[Test-applet csvoicetestconfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-116">[Test-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-117">[Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-117">[Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-117">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-117">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-118">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-118">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-118">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-118">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-119">[Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-119">[Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-119">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-119">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-120">[Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-120">[Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-120">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-120">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="56fd6-121">[Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="56fd6-121">[Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))</span></span>
+    <span data-ttu-id="8fda9-121">[Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8fda9-121">[Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="56fd6-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="56fd6-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8fda9-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8fda9-122">See Also</span></span>
 
 
-[<span data-ttu-id="56fd6-123">Cmdlets voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56fd6-123">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="8fda9-123">Applets de commande voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fda9-123">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="56fd6-124">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="56fd6-124">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="8fda9-124">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="8fda9-124">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

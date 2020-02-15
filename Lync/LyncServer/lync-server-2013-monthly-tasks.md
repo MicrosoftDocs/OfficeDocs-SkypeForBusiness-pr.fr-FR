@@ -12,20 +12,20 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756768"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monthly-tasks-in-lync-server-2013"></a><span data-ttu-id="2fda3-102">Tâches mensuelles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-102">Monthly tasks in Lync Server 2013</span></span>
+# <a name="monthly-tasks-in-lync-server-2013"></a><span data-ttu-id="341f8-102">Tâches mensuelles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-102">Monthly tasks in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41756768"
 
 <span> </span>
 
-<span data-ttu-id="2fda3-103">_**Dernière modification de la rubrique :** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="2fda3-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="341f8-103">_**Dernière modification de la rubrique :** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="341f8-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="2fda3-104">Les tâches mensuelles visent à garantir l’intégrité du système à long terme.</span><span class="sxs-lookup"><span data-stu-id="2fda3-104">Monthly tasks focus on ensuring the long-term health of a system.</span></span>
+<span data-ttu-id="341f8-104">Les tâches mensuelles s’emploient à garantir l’intégrité à long terme d’un système.</span><span class="sxs-lookup"><span data-stu-id="341f8-104">Monthly tasks focus on ensuring the long-term health of a system.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2fda3-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2fda3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="341f8-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="341f8-105">In This Section</span></span>
 
-<span data-ttu-id="2fda3-106">Les tâches suivantes doivent être effectuées sur une base mensuelle :</span><span class="sxs-lookup"><span data-stu-id="2fda3-106">The following tasks should be performed on a monthly basis:</span></span>
+<span data-ttu-id="341f8-106">Les tâches suivantes doivent être effectuées chaque mois :</span><span class="sxs-lookup"><span data-stu-id="341f8-106">The following tasks should be performed on a monthly basis:</span></span>
 
-  - [<span data-ttu-id="2fda3-107">Afficher l’état des paramètres globaux pour une forêt dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-107">View status of global settings for a forest in Lync Server 2013</span></span>](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
+  - [<span data-ttu-id="341f8-107">Afficher l’état des paramètres globaux d’une forêt dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-107">View status of global settings for a forest in Lync Server 2013</span></span>](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [<span data-ttu-id="2fda3-108">Afficher les paramètres de serveur Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-108">View Edge Server settings in Lync Server 2013</span></span>](lync-server-2013-view-edge-server-settings.md)
+  - [<span data-ttu-id="341f8-108">Afficher les paramètres du serveur Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-108">View Edge Server settings in Lync Server 2013</span></span>](lync-server-2013-view-edge-server-settings.md)
 
-  - [<span data-ttu-id="2fda3-109">Vérifier les certificats du serveur Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-109">Check Lync Server 2013 server certificates</span></span>](lync-server-2013-check-lync-server-2013-server-certificates.md)
+  - [<span data-ttu-id="341f8-109">Vérifier les certificats de serveur Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-109">Check Lync Server 2013 server certificates</span></span>](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [<span data-ttu-id="2fda3-110">Vérifier la configuration de Trunk par rapport à un numéro de téléphone dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-110">Check trunk configuration against a phone number in Lync Server 2013</span></span>](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+  - [<span data-ttu-id="341f8-110">Vérifier la configuration de la jonction par rapport à un numéro de téléphone dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-110">Check trunk configuration against a phone number in Lync Server 2013</span></span>](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
-  - [<span data-ttu-id="2fda3-111">Vérifier les règles de normalisation vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-111">Check voice normalization rules in Lync Server 2013</span></span>](lync-server-2013-check-voice-normalization-rules.md)
+  - [<span data-ttu-id="341f8-111">Vérifier les règles de normalisation vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-111">Check voice normalization rules in Lync Server 2013</span></span>](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [<span data-ttu-id="2fda3-112">Testez le numéro de téléphone en fonction de la politique vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-112">Test telephone number against a voice policy in Lync Server 2013</span></span>](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [<span data-ttu-id="341f8-112">Tester le numéro de téléphone par rapport à une stratégie de voix dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-112">Test telephone number against a voice policy in Lync Server 2013</span></span>](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [<span data-ttu-id="2fda3-113">Testez le numéro de téléphone par rapport à un itinéraire vocal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-113">Test telephone number against a voice route in Lync Server 2013</span></span>](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [<span data-ttu-id="341f8-113">Tester le numéro de téléphone par rapport à un itinéraire des communications vocales dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-113">Test telephone number against a voice route in Lync Server 2013</span></span>](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
-  - [<span data-ttu-id="2fda3-114">Test de la configuration vocale dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-114">Test voice configuration in Lync Server 2013</span></span>](lync-server-2013-test-voice-configuration.md)
+  - [<span data-ttu-id="341f8-114">Tester la configuration de la voix dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-114">Test voice configuration in Lync Server 2013</span></span>](lync-server-2013-test-voice-configuration.md)
 
-  - [<span data-ttu-id="2fda3-115">Tester les règles vocales, les itinéraires et les stratégies dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-115">Test voice rules, routes, and policies in Lync Server 2013</span></span>](lync-server-2013-test-voice-rules-routes-and-policies.md)
+  - [<span data-ttu-id="341f8-115">Test des règles, des itinéraires et des stratégies de voix dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-115">Test voice rules, routes, and policies in Lync Server 2013</span></span>](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [<span data-ttu-id="2fda3-116">Test de l’accès à l’application Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-116">Test Web App access in Lync Server 2013</span></span>](lync-server-2013-test-web-app-access.md)
+  - [<span data-ttu-id="341f8-116">Tester l’accès à l’application Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-116">Test Web App access in Lync Server 2013</span></span>](lync-server-2013-test-web-app-access.md)
 
-  - [<span data-ttu-id="2fda3-117">Tester l’accès d’une application Web anonyme dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-117">Test anonymous Web App access in Lync Server 2013</span></span>](lync-server-2013-test-anonymous-web-app-access.md)
+  - [<span data-ttu-id="341f8-117">Tester l’accès aux applications Web anonymes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-117">Test anonymous Web App access in Lync Server 2013</span></span>](lync-server-2013-test-anonymous-web-app-access.md)
 
-  - [<span data-ttu-id="2fda3-118">Test de l’accès des utilisateurs mobiles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-118">Test mobile user access in Lync Server 2013</span></span>](lync-server-2013-test-mobile-user-access.md)
+  - [<span data-ttu-id="341f8-118">Tester l’accès des utilisateurs mobiles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-118">Test mobile user access in Lync Server 2013</span></span>](lync-server-2013-test-mobile-user-access.md)
 
-  - [<span data-ttu-id="2fda3-119">Testez la capacité des utilisateurs mobiles à échanger des messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-119">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
+  - [<span data-ttu-id="341f8-119">Tester la capacité des utilisateurs mobiles à échanger des messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-119">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [<span data-ttu-id="2fda3-120">Tester des notifications de transmission vers des téléphones intelligents dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-120">Test push notifications to smart phones in Lync Server 2013</span></span>](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [<span data-ttu-id="341f8-120">Test des notifications de type poussé vers les téléphones intelligents dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-120">Test push notifications to smart phones in Lync Server 2013</span></span>](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
-  - [<span data-ttu-id="2fda3-121">Tests de sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-121">Security checks in Lync Server 2013</span></span>](lync-server-2013-security-checks.md)
+  - [<span data-ttu-id="341f8-121">Vérifications de sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-121">Security checks in Lync Server 2013</span></span>](lync-server-2013-security-checks.md)
 
-  - [<span data-ttu-id="2fda3-122">Examen de la capacité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fda3-122">Capacity review in Lync Server 2013</span></span>](lync-server-2013-capacity-review.md)
+  - [<span data-ttu-id="341f8-122">Révision de la capacité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-122">Capacity review in Lync Server 2013</span></span>](lync-server-2013-capacity-review.md)
 
-  - [<span data-ttu-id="2fda3-123">Test de récupération d’urgence dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="2fda3-123">Disaster recovery test in Lync Server 2013</span></span>](lync-server-2013-disaster-recovery-test.md)
+  - [<span data-ttu-id="341f8-123">Test de récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="341f8-123">Disaster recovery test in Lync Server 2013</span></span>](lync-server-2013-disaster-recovery-test.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2fda3-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2fda3-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="341f8-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="341f8-124">See Also</span></span>
 
 
-[<span data-ttu-id="2fda3-125">Liste de vérification mensuelle des tâches</span><span class="sxs-lookup"><span data-stu-id="2fda3-125">Monthly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="341f8-125">Liste de vérification des tâches mensuelles</span><span class="sxs-lookup"><span data-stu-id="341f8-125">Monthly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
   
 
 </div>

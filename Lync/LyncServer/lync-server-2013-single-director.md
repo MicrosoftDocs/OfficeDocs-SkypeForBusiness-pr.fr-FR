@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Directeur unique'
+title: 'Lync Server 2013 : directeur unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6060048101bba9d4095adf08c176e8c2a944a19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2732545b807e29f6bda7d7dc931648dc7f759d67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="6a7fa-102">Directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a7fa-102">Single Director in Lync Server 2013</span></span>
+# <a name="single-director-in-lync-server-2013"></a><span data-ttu-id="95706-102">Directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95706-102">Single Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731994"
 
 <span> </span>
 
-<span data-ttu-id="6a7fa-103">_**Dernière modification de la rubrique :** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="6a7fa-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="95706-103">_**Dernière modification de la rubrique :** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="95706-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="6a7fa-104">Le directeur peut être déployé dans une configuration de Director unique ou en tant que pool de directeurs.</span><span class="sxs-lookup"><span data-stu-id="6a7fa-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="6a7fa-105">Cette section définit une topologie et une configuration pour un seul directeur.</span><span class="sxs-lookup"><span data-stu-id="6a7fa-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="6a7fa-106">Si vous envisagez de déployer un pool de directeurs pour gérer une plus grande capacité et une haute disponibilité, voir la rubrique [pool de Directors mis à l’échelle dans Lync Server 2013](lync-server-2013-scaled-director-pool.md) pour les considérations en matière de planification de cette topologie.</span><span class="sxs-lookup"><span data-stu-id="6a7fa-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
+<span data-ttu-id="95706-104">Le directeur peut être déployé dans une configuration à un seul directeur ou dans un pool directeur.</span><span class="sxs-lookup"><span data-stu-id="95706-104">The Director can be deployed in either a single Director configuration or as a Director pool.</span></span> <span data-ttu-id="95706-105">Cette section définit une topologie et une configuration pour un directeur unique.</span><span class="sxs-lookup"><span data-stu-id="95706-105">This section defines a topology and configuration for a single Director.</span></span> <span data-ttu-id="95706-106">Si vous envisagez de déployer un pool de directeurs à des fins de gestion de la plus grande capacité et de la haute disponibilité, voir la rubrique [pool directeur mis à l’ampleur dans Lync Server 2013](lync-server-2013-scaled-director-pool.md) pour la planification des considérations pour cette topologie.</span><span class="sxs-lookup"><span data-stu-id="95706-106">If you are planning on deploying a pool of Directors for the purposes of handling higher capacity and for high availability, see the topic [Scaled Director pool in Lync Server 2013](lync-server-2013-scaled-director-pool.md) for planning considerations for that topology.</span></span>
 
-<span data-ttu-id="6a7fa-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="6a7fa-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
+<span data-ttu-id="95706-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span><span class="sxs-lookup"><span data-stu-id="95706-107">![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6a7fa-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="6a7fa-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="95706-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="95706-108">In This Section</span></span>
 
-  - [<span data-ttu-id="6a7fa-109">Résumé des certificats - Directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a7fa-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="95706-109">Résumé des certificats-directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95706-109">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="6a7fa-110">Résumé des ports - Directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a7fa-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
+  - [<span data-ttu-id="95706-110">Résumé des ports-directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95706-110">Port summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-director.md)
 
-  - [<span data-ttu-id="6a7fa-111">Résumé des enregistrements DNS - Un directeur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a7fa-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
+  - [<span data-ttu-id="95706-111">Résumé des enregistrements DNS-directeur unique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95706-111">DNS summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-director.md)
 
 </div>
 

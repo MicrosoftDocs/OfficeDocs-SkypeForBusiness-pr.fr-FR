@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table MonitoredRegionLink'
+title: 'Lync Server 2013 : table table monitoredregionlink'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5608aa36a76fe59743ed8bb24e88514822a893e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 521996e17c3827b0d2c7e7796a8e95b73f805a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoredregionlink-table-in-lync-server-2013"></a><span data-ttu-id="0dfcb-102">Table MonitoredRegionLink dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0dfcb-102">MonitoredRegionLink table in Lync Server 2013</span></span>
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a><span data-ttu-id="0ab05-102">Table table monitoredregionlink dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ab05-102">MonitoredRegionLink table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765995"
 
 <span> </span>
 
-<span data-ttu-id="0dfcb-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0dfcb-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="0ab05-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0ab05-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="0dfcb-104">La table MonitoredRegionLink est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="0dfcb-104">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="0dfcb-105">Chaque enregistrement représente un lien entre deux pays/régions.</span><span class="sxs-lookup"><span data-stu-id="0dfcb-105">Each record represents one link between two countries/regions.</span></span>
+<span data-ttu-id="0ab05-p101">La table MonitoredRegionLink est une table de prise en charge. Chaque enregistrement représente une liaison entre deux pays/régions.</span><span class="sxs-lookup"><span data-stu-id="0ab05-p101">The MonitoredRegionLink table is a supporting table. Each record represents one link between two countries/regions.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41765995"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0dfcb-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="0dfcb-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="0dfcb-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="0dfcb-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="0ab05-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="0ab05-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="0ab05-108"><strong>Clé/index</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="0ab05-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0dfcb-110"><strong>Region1Key</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-110"><strong>Region1Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-111">int</span><span class="sxs-lookup"><span data-stu-id="0dfcb-111">int</span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-112">Etranger principal</span><span class="sxs-lookup"><span data-stu-id="0dfcb-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-113">Référence à partir de la <a href="lync-server-2013-region-table.md">table Region dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="0dfcb-113">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-110"><strong>Region1Key</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-110"><strong>Region1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ab05-111">int</span><span class="sxs-lookup"><span data-stu-id="0ab05-111">int</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-112">Primaire, étrangère</span><span class="sxs-lookup"><span data-stu-id="0ab05-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-113">Référencé à partir de la <a href="lync-server-2013-region-table.md">table Region dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="0ab05-113">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0dfcb-114"><strong>Region2Key</strong></span><span class="sxs-lookup"><span data-stu-id="0dfcb-114"><strong>Region2Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-115">int</span><span class="sxs-lookup"><span data-stu-id="0dfcb-115">int</span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-116">Etranger principal</span><span class="sxs-lookup"><span data-stu-id="0dfcb-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0dfcb-117">Référence à partir de la <a href="lync-server-2013-region-table.md">table Region dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="0dfcb-117">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-114"><strong>Region2Key</strong></span><span class="sxs-lookup"><span data-stu-id="0ab05-114"><strong>Region2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ab05-115">int</span><span class="sxs-lookup"><span data-stu-id="0ab05-115">int</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-116">Primaire, étrangère</span><span class="sxs-lookup"><span data-stu-id="0ab05-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="0ab05-117">Référencé à partir de la <a href="lync-server-2013-region-table.md">table Region dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="0ab05-117">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

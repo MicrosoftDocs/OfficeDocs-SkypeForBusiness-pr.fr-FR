@@ -1,5 +1,5 @@
 ---
-title: Forum aux questions sur l’outil contraintes et performances de Lync Server 2013
+title: Forum aux questions sur l’outil de contrainte et de performances de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9138a23ee1fa45f3da827832b568852952b0ae4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9de9555f9f009558b700a32ca6e58059eb5ea990
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a><span data-ttu-id="0915d-102">Forum aux questions sur l’outil contraintes et performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0915d-102">Lync Server 2013 Stress and Performance Tool FAQ</span></span>
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a><span data-ttu-id="ccf53-102">Forum aux questions sur l’outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ccf53-102">Lync Server 2013 Stress and Performance Tool FAQ</span></span>
 
 </div>
 
@@ -35,107 +35,107 @@ ms.locfileid: "41763608"
 
 <span> </span>
 
-<span data-ttu-id="0915d-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="0915d-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="ccf53-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="ccf53-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
 <div>
 
-## <a name="frequently-asked-questions"></a><span data-ttu-id="0915d-104">Forum aux questions</span><span class="sxs-lookup"><span data-stu-id="0915d-104">Frequently Asked Questions</span></span>
+## <a name="frequently-asked-questions"></a><span data-ttu-id="ccf53-104">Foire aux questions</span><span class="sxs-lookup"><span data-stu-id="ccf53-104">Frequently Asked Questions</span></span>
 
-<span data-ttu-id="0915d-105">Voici quelques questions fréquemment posées sur l’outil de stress et de performances de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0915d-105">Here are some frequently asked questions about the Lync Server 2013 Stress and Performance Tool.</span></span>
+<span data-ttu-id="ccf53-105">Voici quelques questions fréquemment posées sur l’outil de contrainte et de performances de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ccf53-105">Here are some frequently asked questions about the Lync Server 2013 Stress and Performance Tool.</span></span>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a><span data-ttu-id="0915d-106">Est-il possible d’exécuter LyncPerfTool. exe en production ?</span><span class="sxs-lookup"><span data-stu-id="0915d-106">Can I run LyncPerfTool.exe in production?</span></span>
+## <a name="can-i-run-lyncperftoolexe-in-production"></a><span data-ttu-id="ccf53-106">Puis-je exécuter LyncPerfTool. exe en production ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-106">Can I run LyncPerfTool.exe in production?</span></span>
 
-<span data-ttu-id="0915d-107">Nous déconseillons de le faire.</span><span class="sxs-lookup"><span data-stu-id="0915d-107">We do not recommend this.</span></span> <span data-ttu-id="0915d-108">Cet outil aura un impact sur les performances, la sécurité et l’interface utilisateur du serveur.</span><span class="sxs-lookup"><span data-stu-id="0915d-108">This tool will impact server performance, security, and user experience.</span></span>
+<span data-ttu-id="ccf53-107">Nous vous déconseillons de le faire.</span><span class="sxs-lookup"><span data-stu-id="ccf53-107">We do not recommend this.</span></span> <span data-ttu-id="ccf53-108">Cet outil aura un impact sur les performances, la sécurité et l’expérience utilisateur du serveur.</span><span class="sxs-lookup"><span data-stu-id="ccf53-108">This tool will impact server performance, security, and user experience.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a><span data-ttu-id="0915d-109">Je me connecte pour la première fois.</span><span class="sxs-lookup"><span data-stu-id="0915d-109">I am logging on my users for the first time.</span></span> <span data-ttu-id="0915d-110">Pourquoi les serveurs s’exécutent-ils sur une telle charge ?</span><span class="sxs-lookup"><span data-stu-id="0915d-110">Why are the servers running at such high load?</span></span>
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a><span data-ttu-id="ccf53-109">Je me connecte pour la première fois.</span><span class="sxs-lookup"><span data-stu-id="ccf53-109">I am logging on my users for the first time.</span></span> <span data-ttu-id="ccf53-110">Pourquoi les serveurs fonctionnent-ils à cette charge élevée ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-110">Why are the servers running at such high load?</span></span>
 
-<span data-ttu-id="0915d-111">La première fois que les utilisateurs se connectent, il existe d’autres opérations.</span><span class="sxs-lookup"><span data-stu-id="0915d-111">The first time the users log on, there are additional operations that occur.</span></span> <span data-ttu-id="0915d-112">C’est la raison pour laquelle les performances du serveur principal Microsoft SQL Server sont détériorées.</span><span class="sxs-lookup"><span data-stu-id="0915d-112">As a result, the performance on the Microsoft SQL Server Back End Server will be degraded.</span></span> <span data-ttu-id="0915d-113">Nous vous recommandons d’effectuer un test de courte durée de connexion pour tous les utilisateurs, puis de redémarrer les clients avant de procéder à la mesure des résultats.</span><span class="sxs-lookup"><span data-stu-id="0915d-113">We recommend that you run a short test that logs on all of the users, and then restart the clients before you measure results.</span></span> <span data-ttu-id="0915d-114">Nous ne prenons pas en charge plus de 12 sessions d’ouverture de session simultanées par seconde, mais cela dépend de votre configuration matérielle.</span><span class="sxs-lookup"><span data-stu-id="0915d-114">We do not support more than 12 concurrent user logon sessions per second, but this depends on your hardware configuration.</span></span>
-
-</div>
-
-<div>
-
-## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a><span data-ttu-id="0915d-115">Mes clients manquent de mémoire.</span><span class="sxs-lookup"><span data-stu-id="0915d-115">My clients are running out of memory.</span></span> <span data-ttu-id="0915d-116">Que dois-je faire ?</span><span class="sxs-lookup"><span data-stu-id="0915d-116">What should I do?</span></span>
-
-<span data-ttu-id="0915d-117">Si vos clients manquent de mémoire, vous devez réduire le nombre d’utilisateurs par ordinateur.</span><span class="sxs-lookup"><span data-stu-id="0915d-117">If your clients are running out of memory, you need to reduce the number of users per computer.</span></span>
+<span data-ttu-id="ccf53-111">La première fois que les utilisateurs se connectent, des opérations supplémentaires se produisent.</span><span class="sxs-lookup"><span data-stu-id="ccf53-111">The first time the users log on, there are additional operations that occur.</span></span> <span data-ttu-id="ccf53-112">Par conséquent, les performances du serveur principal Microsoft SQL Server seront dégradées.</span><span class="sxs-lookup"><span data-stu-id="ccf53-112">As a result, the performance on the Microsoft SQL Server Back End Server will be degraded.</span></span> <span data-ttu-id="ccf53-113">Nous vous recommandons d’exécuter un test court qui ouvre une session sur tous les utilisateurs, puis de redémarrer les clients avant de mesurer les résultats.</span><span class="sxs-lookup"><span data-stu-id="ccf53-113">We recommend that you run a short test that logs on all of the users, and then restart the clients before you measure results.</span></span> <span data-ttu-id="ccf53-114">Nous ne prenons pas en charge plus de 12 sessions de connexion utilisateur simultanées par seconde, mais cela dépend de votre configuration matérielle.</span><span class="sxs-lookup"><span data-stu-id="ccf53-114">We do not support more than 12 concurrent user logon sessions per second, but this depends on your hardware configuration.</span></span>
 
 </div>
 
 <div>
 
-## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a><span data-ttu-id="0915d-118">Mes clients utilisent tout le temps de 100%.</span><span class="sxs-lookup"><span data-stu-id="0915d-118">My clients are at 100 percent CPU all the time.</span></span> <span data-ttu-id="0915d-119">Que dois-je faire ?</span><span class="sxs-lookup"><span data-stu-id="0915d-119">What should I do?</span></span>
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a><span data-ttu-id="ccf53-115">Mes clients manquent de mémoire.</span><span class="sxs-lookup"><span data-stu-id="ccf53-115">My clients are running out of memory.</span></span> <span data-ttu-id="ccf53-116">Que dois-je faire ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-116">What should I do?</span></span>
 
-<span data-ttu-id="0915d-120">Si vos clients s’exécutent avec une UC très élevée alors que tous les utilisateurs sont connectés, vous devez réduire le nombre d’utilisateurs par ordinateur.</span><span class="sxs-lookup"><span data-stu-id="0915d-120">If your clients are running with very high CPU after all the users have logged on, you need to reduce the number of users per computer.</span></span> <span data-ttu-id="0915d-121">Les pics d’UC élevés sont acceptables, mais si la charge est soutenue, vous devez réduire la charge.</span><span class="sxs-lookup"><span data-stu-id="0915d-121">High CPU spikes are acceptable, but if it is sustained, you need to reduce the load.</span></span>
-
-</div>
-
-<div>
-
-## <a name="can-i-run-the-tool-on-the-server-itself"></a><span data-ttu-id="0915d-122">Est-il possible d’exécuter l’outil sur le serveur lui-même ?</span><span class="sxs-lookup"><span data-stu-id="0915d-122">Can I run the tool on the server itself?</span></span>
-
-<span data-ttu-id="0915d-123">Non.</span><span class="sxs-lookup"><span data-stu-id="0915d-123">No.</span></span> <span data-ttu-id="0915d-124">Ce scénario n’est pas pris en charge et peut échouer en raison d’une incompatibilité binaire.</span><span class="sxs-lookup"><span data-stu-id="0915d-124">This scenario is not supported and may fail due to a binary mismatch.</span></span> <span data-ttu-id="0915d-125">Par ailleurs, dans la mesure où le point est de mesurer la consommation de ressources sur le serveur, l’exécution de l’outil génère un rendu inutile des mesures.</span><span class="sxs-lookup"><span data-stu-id="0915d-125">Also, because the point is to measure resource consumption on the server, running the tool there would render the measurements meaningless.</span></span>
+<span data-ttu-id="ccf53-117">Si la mémoire de vos clients est insuffisante, vous devez réduire le nombre d’utilisateurs par ordinateur.</span><span class="sxs-lookup"><span data-stu-id="ccf53-117">If your clients are running out of memory, you need to reduce the number of users per computer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a><span data-ttu-id="0915d-126">Est-il possible d’exécuter LyncPerfTool. exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?</span><span class="sxs-lookup"><span data-stu-id="0915d-126">Can I run LyncPerfTool.exe on a Virtual Server or on Microsoft Hyper-V Server 2008/2012?</span></span>
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a><span data-ttu-id="ccf53-118">Mon client dispose d’un processeur de 100% en tout temps.</span><span class="sxs-lookup"><span data-stu-id="ccf53-118">My clients are at 100 percent CPU all the time.</span></span> <span data-ttu-id="ccf53-119">Que dois-je faire ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-119">What should I do?</span></span>
 
-<span data-ttu-id="0915d-127">Oui.</span><span class="sxs-lookup"><span data-stu-id="0915d-127">Yes.</span></span>
-
-</div>
-
-<div>
-
-## <a name="what-does-mpop-mean"></a><span data-ttu-id="0915d-128">Qu’est-ce que MPOP ?</span><span class="sxs-lookup"><span data-stu-id="0915d-128">What does MPOP mean?</span></span>
-
-<span data-ttu-id="0915d-129">MPOP représente plusieurs points de présence.</span><span class="sxs-lookup"><span data-stu-id="0915d-129">MPOP stands for multiple points of presence.</span></span> <span data-ttu-id="0915d-130">Il est conçu pour simuler le scénario dans lequel les utilisateurs sont connectés à Lync 2013 à partir de plusieurs ordinateurs.</span><span class="sxs-lookup"><span data-stu-id="0915d-130">It is meant to simulate the scenario where users are logged on to Lync 2013 from multiple machines.</span></span> <span data-ttu-id="0915d-131">Notez que dans LyncPerfTool. exe, chaque point de terminaison utilise le profil par défaut (autrement dit, le profil n’est pas fractionné entre les deux points de présence).</span><span class="sxs-lookup"><span data-stu-id="0915d-131">Note that in LyncPerfTool.exe, each endpoint uses the default profile (that is, the profile is not split between the two points of presence).</span></span>
+<span data-ttu-id="ccf53-120">Si vos clients s’exécutent avec un processeur très élevé une fois que tous les utilisateurs ont ouvert une session, vous devez réduire le nombre d’utilisateurs par ordinateur.</span><span class="sxs-lookup"><span data-stu-id="ccf53-120">If your clients are running with very high CPU after all the users have logged on, you need to reduce the number of users per computer.</span></span> <span data-ttu-id="ccf53-121">Les pics d’utilisation du processeur élevés sont acceptables, mais si elle est soutenue, vous devez réduire la charge.</span><span class="sxs-lookup"><span data-stu-id="ccf53-121">High CPU spikes are acceptable, but if it is sustained, you need to reduce the load.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a><span data-ttu-id="0915d-132">J’ai démarré LyncPerfTool. exe, mais rien ne se passe.</span><span class="sxs-lookup"><span data-stu-id="0915d-132">I started LyncPerfTool.exe but nothing is happening.</span></span> <span data-ttu-id="0915d-133">Que se passe-t-il?</span><span class="sxs-lookup"><span data-stu-id="0915d-133">What’s going on?</span></span>
+## <a name="can-i-run-the-tool-on-the-server-itself"></a><span data-ttu-id="ccf53-122">Puis-je exécuter l’outil sur le serveur lui-même ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-122">Can I run the tool on the server itself?</span></span>
 
-<span data-ttu-id="0915d-134">Vérifiez le compteur total de points de terminaison actifs sur les clients pour voir si les utilisateurs se connectent.</span><span class="sxs-lookup"><span data-stu-id="0915d-134">Check the Total Active Endpoints counter on the clients to see if the users are connecting.</span></span> <span data-ttu-id="0915d-135">Si les utilisateurs ne se connectent pas, vérifiez votre configuration de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0915d-135">If users are not connecting, verify your Lync Server 2013 configuration.</span></span> <span data-ttu-id="0915d-136">Ce problème se produit généralement lorsque le nom du serveur, le préfixe d’utilisateur ou le mot de passe est incorrect.</span><span class="sxs-lookup"><span data-stu-id="0915d-136">This issue usually occurs because the server name, the user prefix, or the password is incorrect.</span></span> <span data-ttu-id="0915d-137">Notez que les clients externes doivent spécifier le proxy d’accès comme valeur TargetServer.</span><span class="sxs-lookup"><span data-stu-id="0915d-137">Note that external clients should specify the Access Proxy as the TargetServer value.</span></span> <span data-ttu-id="0915d-138">Vérifiez le port dans le fichier de configuration.</span><span class="sxs-lookup"><span data-stu-id="0915d-138">Verify the port in the configuration file.</span></span>
-
-</div>
-
-<div>
-
-## <a name="how-do-i-know-something-is-happening"></a><span data-ttu-id="0915d-139">Comment savoir si un événement se produit ?</span><span class="sxs-lookup"><span data-stu-id="0915d-139">How do I know something is happening?</span></span>
-
-<span data-ttu-id="0915d-140">Les différents compteurs de performance LyncPerfTool indiquent si les utilisateurs se connectent et exécutent des actions.</span><span class="sxs-lookup"><span data-stu-id="0915d-140">The various LyncPerfTool performance counters indicate whether or not users are connecting and performing actions.</span></span> <span data-ttu-id="0915d-141">Toutefois, une méthode simple pour vérifier consiste à se connecter à l’un des comptes à l’aide de Lync 2013 et à effectuer l’action souhaitée.</span><span class="sxs-lookup"><span data-stu-id="0915d-141">However, an easy way to check is to log on to one of the accounts by using Lync 2013 and performing the action you want.</span></span>
+<span data-ttu-id="ccf53-123">Non.</span><span class="sxs-lookup"><span data-stu-id="ccf53-123">No.</span></span> <span data-ttu-id="ccf53-124">Ce scénario n’est pas pris en charge et peut échouer en raison d’une incompatibilité binaire.</span><span class="sxs-lookup"><span data-stu-id="ccf53-124">This scenario is not supported and may fail due to a binary mismatch.</span></span> <span data-ttu-id="ccf53-125">En outre, étant donné que le point est de mesurer la consommation des ressources sur le serveur, l’exécution de l’outil peut rendre les mesures sans signification.</span><span class="sxs-lookup"><span data-stu-id="ccf53-125">Also, because the point is to measure resource consumption on the server, running the tool there would render the measurements meaningless.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a><span data-ttu-id="0915d-142">J’ai installé les outils de planification de capacité de Live Communications Server 2007 R2 et/ou Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="0915d-142">I have Live Communications Server 2007 R2 Capacity Planning Tools and/or Lync Server 2010 installed.</span></span> <span data-ttu-id="0915d-143">C’est tout !</span><span class="sxs-lookup"><span data-stu-id="0915d-143">Is that OK?</span></span>
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a><span data-ttu-id="ccf53-126">Puis-je exécuter LyncPerfTool. exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-126">Can I run LyncPerfTool.exe on a Virtual Server or on Microsoft Hyper-V Server 2008/2012?</span></span>
 
-<span data-ttu-id="0915d-144">Non.</span><span class="sxs-lookup"><span data-stu-id="0915d-144">No.</span></span> <span data-ttu-id="0915d-145">Il existe des problèmes d’interopérabilité et vous devez désinstaller toutes les versions précédentes de ce produit.</span><span class="sxs-lookup"><span data-stu-id="0915d-145">There are interoperability issues, and you must uninstall all previous versions of this product.</span></span>
-
-</div>
-
-<div>
-
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a><span data-ttu-id="0915d-146">Les outils de stress et de performance configureront-ils la topologie du serveur des informations d’appel CAA ?</span><span class="sxs-lookup"><span data-stu-id="0915d-146">Will the Stress and Performance tools set up the CAA Call Information server topology?</span></span>
-
-<span data-ttu-id="0915d-147">Non.</span><span class="sxs-lookup"><span data-stu-id="0915d-147">No.</span></span> <span data-ttu-id="0915d-148">Les outils créent uniquement des utilisateurs, des contacts et des listes de distribution et simulent la charge des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="0915d-148">The tools only create users, contacts, and distribution lists, and simulate user load.</span></span>
+<span data-ttu-id="ccf53-127">Oui.</span><span class="sxs-lookup"><span data-stu-id="ccf53-127">Yes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a><span data-ttu-id="0915d-149">Quel est le nombre maximal d’utilisateurs pris en charge par les outils ?</span><span class="sxs-lookup"><span data-stu-id="0915d-149">What is the maximum number of users that the tools support?</span></span>
+## <a name="what-does-mpop-mean"></a><span data-ttu-id="ccf53-128">Qu’est-ce que MPOP signifie ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-128">What does MPOP mean?</span></span>
 
-<span data-ttu-id="0915d-150">Nous avons créé un total de 80 000 utilisateurs et des tests exécutés totalisant 30 000 utilisateurs, à l’aide de ces outils.</span><span class="sxs-lookup"><span data-stu-id="0915d-150">We have created up to a total of 80,000 users and executed tests totaling 30,000 users, using these tools.</span></span> <span data-ttu-id="0915d-151">Nous vous suggérons d’utiliser un maximum de 120 000 utilisateurs, même si les limitations techniques autorisent une plus grande valeur, en fonction du matériel du serveur et du serveur disponibles.</span><span class="sxs-lookup"><span data-stu-id="0915d-151">We suggest a maximum of 120,000 users, although the technical limitations allow for a higher value, depending on the client and server hardware available.</span></span>
+<span data-ttu-id="ccf53-129">MPOP signifie plusieurs points de présence.</span><span class="sxs-lookup"><span data-stu-id="ccf53-129">MPOP stands for multiple points of presence.</span></span> <span data-ttu-id="ccf53-130">Il est conçu pour simuler le scénario dans lequel les utilisateurs sont connectés à Lync 2013 à partir de plusieurs machines.</span><span class="sxs-lookup"><span data-stu-id="ccf53-130">It is meant to simulate the scenario where users are logged on to Lync 2013 from multiple machines.</span></span> <span data-ttu-id="ccf53-131">Notez que dans LyncPerfTool. exe, chaque point de terminaison utilise le profil par défaut (autrement dit, le profil n’est pas fractionné entre les deux points de présence).</span><span class="sxs-lookup"><span data-stu-id="ccf53-131">Note that in LyncPerfTool.exe, each endpoint uses the default profile (that is, the profile is not split between the two points of presence).</span></span>
+
+</div>
+
+<div>
+
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a><span data-ttu-id="ccf53-132">J’ai démarré LyncPerfTool. exe mais rien ne se passe.</span><span class="sxs-lookup"><span data-stu-id="ccf53-132">I started LyncPerfTool.exe but nothing is happening.</span></span> <span data-ttu-id="ccf53-133">Que se passe-t-il ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-133">What’s going on?</span></span>
+
+<span data-ttu-id="ccf53-134">Vérifiez le compteur nombre total de points de terminaison actifs sur les clients pour voir si les utilisateurs se connectent.</span><span class="sxs-lookup"><span data-stu-id="ccf53-134">Check the Total Active Endpoints counter on the clients to see if the users are connecting.</span></span> <span data-ttu-id="ccf53-135">Si les utilisateurs ne se connectent pas, vérifiez votre configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ccf53-135">If users are not connecting, verify your Lync Server 2013 configuration.</span></span> <span data-ttu-id="ccf53-136">Ce problème se produit généralement lorsque le nom du serveur, le préfixe d’utilisateur ou le mot de passe est incorrect.</span><span class="sxs-lookup"><span data-stu-id="ccf53-136">This issue usually occurs because the server name, the user prefix, or the password is incorrect.</span></span> <span data-ttu-id="ccf53-137">Notez que les clients externes doivent spécifier le proxy d’accès comme valeur de TargetServer.</span><span class="sxs-lookup"><span data-stu-id="ccf53-137">Note that external clients should specify the Access Proxy as the TargetServer value.</span></span> <span data-ttu-id="ccf53-138">Vérifiez le port dans le fichier de configuration.</span><span class="sxs-lookup"><span data-stu-id="ccf53-138">Verify the port in the configuration file.</span></span>
+
+</div>
+
+<div>
+
+## <a name="how-do-i-know-something-is-happening"></a><span data-ttu-id="ccf53-139">Comment puis-je savoir ce qu’il se passe ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-139">How do I know something is happening?</span></span>
+
+<span data-ttu-id="ccf53-140">Les différents compteurs de performance LyncPerfTool indiquent si les utilisateurs se connectent et exécutent des actions.</span><span class="sxs-lookup"><span data-stu-id="ccf53-140">The various LyncPerfTool performance counters indicate whether or not users are connecting and performing actions.</span></span> <span data-ttu-id="ccf53-141">Toutefois, il est facile de vérifier qu’il est possible de se connecter à l’un des comptes à l’aide de Lync 2013 et d’effectuer l’action souhaitée.</span><span class="sxs-lookup"><span data-stu-id="ccf53-141">However, an easy way to check is to log on to one of the accounts by using Lync 2013 and performing the action you want.</span></span>
+
+</div>
+
+<div>
+
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a><span data-ttu-id="ccf53-142">Les outils de planification de capacité de Live Communications Server 2007 R2 et/ou Lync Server 2010 sont installés.</span><span class="sxs-lookup"><span data-stu-id="ccf53-142">I have Live Communications Server 2007 R2 Capacity Planning Tools and/or Lync Server 2010 installed.</span></span> <span data-ttu-id="ccf53-143">Est-ce OK ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-143">Is that OK?</span></span>
+
+<span data-ttu-id="ccf53-144">Non.</span><span class="sxs-lookup"><span data-stu-id="ccf53-144">No.</span></span> <span data-ttu-id="ccf53-145">Il existe des problèmes d’interopérabilité et vous devez désinstaller toutes les versions précédentes de ce produit.</span><span class="sxs-lookup"><span data-stu-id="ccf53-145">There are interoperability issues, and you must uninstall all previous versions of this product.</span></span>
+
+</div>
+
+<div>
+
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a><span data-ttu-id="ccf53-146">Les outils de stress et de performances configurent-ils la topologie du serveur d’informations d’appel CAA ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-146">Will the Stress and Performance tools set up the CAA Call Information server topology?</span></span>
+
+<span data-ttu-id="ccf53-147">Non.</span><span class="sxs-lookup"><span data-stu-id="ccf53-147">No.</span></span> <span data-ttu-id="ccf53-148">Les outils créent uniquement des utilisateurs, des contacts et des listes de distribution et simulent la charge utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ccf53-148">The tools only create users, contacts, and distribution lists, and simulate user load.</span></span>
+
+</div>
+
+<div>
+
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a><span data-ttu-id="ccf53-149">Quel est le nombre maximal d’utilisateurs pris en charge par les outils ?</span><span class="sxs-lookup"><span data-stu-id="ccf53-149">What is the maximum number of users that the tools support?</span></span>
+
+<span data-ttu-id="ccf53-150">Nous avons créé un total de 80 000 utilisateurs et des tests exécutés totalisant 30 000 utilisateurs, à l’aide de ces outils.</span><span class="sxs-lookup"><span data-stu-id="ccf53-150">We have created up to a total of 80,000 users and executed tests totaling 30,000 users, using these tools.</span></span> <span data-ttu-id="ccf53-151">Nous vous suggérons un maximum de 120 000 utilisateurs, même si les limitations techniques permettent une plus grande valeur, en fonction du matériel du client et du serveur disponible.</span><span class="sxs-lookup"><span data-stu-id="ccf53-151">We suggest a maximum of 120,000 users, although the technical limitations allow for a higher value, depending on the client and server hardware available.</span></span>
 
 </div>
 
