@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement des serveurs de médiation et définition des homologues'
+title: 'Lync Server 2013 : déploiement des serveurs de médiation et définition des homologues'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b20f5e733dddd34971ca3a5070e99364785e147a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e9ca9fa29d2646a38a9cbf94d79ba9766b21d62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a><span data-ttu-id="d8af5-102">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-102">Deploying Mediation Servers and defining peers in Lync Server 2013</span></span>
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a><span data-ttu-id="8d1ec-102">Déploiement des serveurs de médiation et définition des homologues dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-102">Deploying Mediation Servers and defining peers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41757638"
 
 <span> </span>
 
-<span data-ttu-id="d8af5-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d8af5-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="8d1ec-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8d1ec-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="d8af5-104">La charge de travail voix entreprise, les conférences rendez-vous et les applications Advanced Enterprise voix (application de groupe de réponse, application de stationnement d’appel, contrôle d’admission des appels (CAC), etc.), sont disponibles dans des regroupements front-end.</span><span class="sxs-lookup"><span data-stu-id="d8af5-104">The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools.</span></span> <span data-ttu-id="d8af5-105">Avec Lync Server 2013, les fonctionnalités du serveur de médiation sont intégrées au serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="d8af5-105">With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server.</span></span> <span data-ttu-id="d8af5-106">Un serveur de médiation autonome distinct n’est plus nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d8af5-106">A separate stand-alone Mediation Server is no longer necessary.</span></span> <span data-ttu-id="d8af5-107">Les pools front-end peuvent communiquer directement avec les passerelles prises en charge (une passerelle RTC (réseau téléphonique commuté) ou un PBX IP (PBX), ce qui évite qu’un serveur de médiation ne serve de intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="d8af5-107">Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary.</span></span>
+<span data-ttu-id="8d1ec-104">La charge de travail voix entreprise, les conférences rendez-vous et les applications avancées de voix entreprise (application Response Group, application de parcage d’appel, contrôle d’admission des appels (CAC), etc.) sont disponibles dans les pools frontaux.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-104">The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools.</span></span> <span data-ttu-id="8d1ec-105">Avec Lync Server 2013, la fonctionnalité du serveur de médiation est intégrée au serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-105">With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server.</span></span> <span data-ttu-id="8d1ec-106">Un serveur de médiation autonome distinct n’est plus nécessaire.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-106">A separate stand-alone Mediation Server is no longer necessary.</span></span> <span data-ttu-id="8d1ec-107">Les pools frontaux peuvent communiquer directement avec les passerelles prises en charge (une passerelle RTC (réseau téléphonique commuté) ou un IP-PBX), ce qui élimine la nécessité d’un serveur de médiation comme intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-107">Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary.</span></span>
 
-<span data-ttu-id="d8af5-108">La seule exception est si vous configurez une jonction SIP (Session Initiation Protocol) pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet.</span><span class="sxs-lookup"><span data-stu-id="d8af5-108">The only exception is if you configure a SIP trunk to connect to a Session Border Controller for an Internet Telephony Service Provider.</span></span> <span data-ttu-id="d8af5-109">Pour connecter l’infrastructure vocale de votre entreprise à votre fournisseur SIP Trunk, un serveur de médiation distinct doit être déployé.</span><span class="sxs-lookup"><span data-stu-id="d8af5-109">To connect your Enterprise Voice infrastructure to your SIP trunk provider, a separate Mediation Server must be deployed.</span></span>
+<span data-ttu-id="8d1ec-108">La seule exception est si vous configurez une jonction SIP pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-108">The only exception is if you configure a SIP trunk to connect to a Session Border Controller for an Internet Telephony Service Provider.</span></span> <span data-ttu-id="8d1ec-109">Pour connecter votre infrastructure voix entreprise à votre fournisseur de jonction SIP, un serveur de médiation distinct doit être déployé.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-109">To connect your Enterprise Voice infrastructure to your SIP trunk provider, a separate Mediation Server must be deployed.</span></span>
 
-<span data-ttu-id="d8af5-110">La connexion entre Lync Server (le composant du serveur de médiation sur une liste frontale ou un serveur de médiation autonome) et une passerelle est définie en tant qu’association logique appelée *Trunk*.</span><span class="sxs-lookup"><span data-stu-id="d8af5-110">The connection between Lync Server (the Mediation Server component on a Front End pool or stand-alone Mediation Server) and a gateway is defined as a logical association called a *trunk*.</span></span> <span data-ttu-id="d8af5-111">Les rubriques de cette section expliquent comment définir un élément Trunk et comment déployer un serveur de médiation autonome si vous vous connectez à un Trunk SIP.</span><span class="sxs-lookup"><span data-stu-id="d8af5-111">The topics in this section describe how to define a trunk and how to deploy a stand-alone Mediation Server, if you connect to a SIP trunk.</span></span>
+<span data-ttu-id="8d1ec-110">La connexion entre Lync Server (le composant serveur de médiation sur un pool frontal ou un serveur de médiation autonome) et une passerelle est définie comme une association logique appelée *jonction*.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-110">The connection between Lync Server (the Mediation Server component on a Front End pool or stand-alone Mediation Server) and a gateway is defined as a logical association called a *trunk*.</span></span> <span data-ttu-id="8d1ec-111">Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.</span><span class="sxs-lookup"><span data-stu-id="8d1ec-111">The topics in this section describe how to define a trunk and how to deploy a stand-alone Mediation Server, if you connect to a SIP trunk.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d8af5-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d8af5-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8d1ec-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8d1ec-112">In This Section</span></span>
 
-  - [<span data-ttu-id="d8af5-113">Définir un serveur de médiation dans le générateur de topologies de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-113">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
+  - [<span data-ttu-id="8d1ec-113">Définition d’un serveur de médiation dans le générateur de topologies dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-113">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
 
-  - [<span data-ttu-id="d8af5-114">Définir une passerelle dans le générateur de topologies de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-114">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)
+  - [<span data-ttu-id="8d1ec-114">Définition d’une passerelle dans le générateur de topologies dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-114">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)
 
-  - [<span data-ttu-id="d8af5-115">Installer les fichiers pour le serveur de médiation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-115">Install the files for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-install-the-files-for-mediation-server.md)
+  - [<span data-ttu-id="8d1ec-115">Installer les fichiers pour le serveur de médiation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-115">Install the files for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-install-the-files-for-mediation-server.md)
 
-  - [<span data-ttu-id="d8af5-116">Définir des lignes supplémentaires dans le générateur de topologies de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-116">Define additional trunks in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-additional-trunks-in-topology-builder.md)
+  - [<span data-ttu-id="8d1ec-116">Définir d’autres jonctions dans le générateur de topologies dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-116">Define additional trunks in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-additional-trunks-in-topology-builder.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="d8af5-117">Sections associées</span><span class="sxs-lookup"><span data-stu-id="d8af5-117">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="8d1ec-117">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="8d1ec-117">Related Sections</span></span>
 
-[<span data-ttu-id="d8af5-118">Configuration de conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8af5-118">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+[<span data-ttu-id="8d1ec-118">Configuration de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d1ec-118">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
 </div>
 
