@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de Lync Server'
+title: 'Lync Server 2013 : déploiement de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7654b88d209e6a19571632ed773e891c50679e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5eb5cc86eeaf6be3f32993cf4374148bab7e5f5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050016"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41733584"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Votre processus de déploiement de Lync Server 2013 est déterminé par la topologie et les composants du serveur Lync que vous décidez d’installer, notamment si vous voulez déployer un pool frontal ou un serveur Standard Edition Server. Les rubriques de cette section vous aident à déterminer quel environnement vous voulez déployer et vous guider lors du processus de déploiement.
+Votre processus de déploiement de Lync Server 2013 est déterminé par la topologie et les composants Lync Server que vous décidez d’installer, notamment si vous souhaitez déployer un pool frontal ou un serveur Standard Edition. Les rubriques de cette section vous permettent de déterminer l’environnement que vous souhaitez déployer et vous guident tout au long du processus de déploiement.
 
 <div>
 
@@ -51,11 +51,11 @@ Votre processus de déploiement de Lync Server 2013 est déterminé par la topol
 
   - [Définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [Finalisation et implémentation de la conception de topologie dans Lync Server 2013](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [Finalisation et implémentation de la conception de la topologie dans Lync Server 2013](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [Configuration des serveurs et des pools frontaux pour Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [Configuration de serveurs frontaux et de pools frontaux pour Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
-  - [Déploiement de Lync Server 2013 Standard Edition dans une instance existante de Lync Server 2013 Enterprise](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [Déploiement de Lync Server 2013 Standard Edition dans un Lync Server 2013 Enterprise existant](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
   - [Ajout de rôles serveur dans Lync Server 2013](lync-server-2013-adding-server-roles.md)
 

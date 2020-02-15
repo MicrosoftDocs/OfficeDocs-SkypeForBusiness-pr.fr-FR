@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Suppression d’un message ou purge de messages obsolètes'
+title: 'Lync Server 2013 : suppression d’un message ou purge de messages obsolètes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8040d52690628b6085727d6a1fdac9288b94d5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fb0c960140ebe7474ac7b4b5322f7b42d611af5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763236"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41763236"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Un administrateur de chat permanent peut supprimer un message d’une salle de conversation permanente (et peut éventuellement le remplacer par un autre). Les administrateurs peuvent également effacer les messages obsolètes dans le cadre de la maintenance en cours afin de réduire la croissance de la base de données. Par exemple, la commande Windows PowerShell suivante entraîne la suppression de tous les messages de la salle de conversation ITChatRoom publiée par l’utilisateur kenmyer@litwareinc.com :
+Un administrateur de conversation permanente peut supprimer un message d’une salle de conversation permanente (et, éventuellement, le remplacer par un autre message). De même, les administrateurs peuvent vider les messages obsolètes dans le cadre de la maintenance régulière afin de limiter la croissance de la base de données. Par exemple, cette commande Windows PowerShell supprime tous les messages de la salle de conversation ITChatRoom qui ont été publiés par l’utilisateur kenmyer@litwareinc.com :
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com"
 
-Dans cet exemple, vous remplacez les messages supprimés par la note que le message n’est plus disponible :
+Et cet exemple remplace les messages supprimés par la remarque indiquant que le message n’est plus disponible :
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-cspersistentchatmessage ne](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) .
 
 </div>
 

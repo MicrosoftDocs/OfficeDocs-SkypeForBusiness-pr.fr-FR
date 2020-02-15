@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités IPv6'
+title: 'Lync Server 2013 : nouvelles fonctionnalités IPv6'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228dd3a10924fdddcff2c23e2784740e3192039
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 682dda5cd6da569f15d209a3cc1c8a2cc943d750
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739404"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048445"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,16 +37,16 @@ ms.locfileid: "41739404"
 
 _**Dernière modification de la rubrique :** 2012-08-16_
 
-Lync Server 2013 prend en charge les adresses IPv6. En raison d’un nombre croissant d’appareils nécessitant des adresses IP, le nombre d' 32 adresses IPv4 disponibles est en cours d’exécution. IPv6 fournit un plus grand nombre d’adresses disponibles, car il utilise des adresses 128 bits. L’utilisation des adresses IPv6 dans votre environnement dépend de la prise en charge du protocole IPv6 dans les appareils que vous utilisez.
+Lync Server 2013 inclut la prise en charge des adresses IPv6. En raison d’un nombre croissant d’appareils requérant des adresses IP, le nombre d’adresses IPv4 disponibles, qui sont des adresses 32 bits, est en cours d’exécution. IPv6 fournit un plus grand nombre d’adresses disponibles, car il utilise des adresses 128 bits. L’utilisation des adresses IPv6 dans votre environnement dépend de la prise en charge du protocole IPv6 dans les périphériques que vous utilisez.
 
-Étant donné que de nombreux appareils existants ne prennent pas en charge le protocole IPv6, il est possible que la transition complète entre IPv4 et IPv6 prenne quelques années. Par conséquent, Lync Server 2013 inclut la prise en charge des environnements réseau dotés uniquement d’adresses IPv4, seules les adresses IPv6 et les adresses à double pile (IPv4 et IPv6).
+Comme de nombreux périphériques ne prennent pas encore en charge le protocole IPv6, une transition complète du IPv4 vers le IPv6 est susceptible de prendre plusieurs années. Par conséquent, Lync Server 2013 inclut une prise en charge des environnements réseau avec uniquement des adresses IPv4, uniquement des adresses IPv6 et des adresses double pile (IPv4 et IPv6).
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification et configuration du protocole IPv6 dans Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  
+[Planification et configuration D’ipv6 dans Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Conditions prérequises à l’activation de l’authentification Kerberos'
+title: 'Lync Server 2013 : conditions préalables pour l’activation de l’authentification Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adb722f69dcd975d7f346b6e4db8f8ff140f4ac3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ecbba3403024663e529cef7653b310148faa2e2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Conditions prérequises à l’activation de l’authentification Kerberos dans Lync Server 2013
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Conditions préalables à l’activation de l’authentification Kerberos dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41724844"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Avant d’activer l’authentification Kerberos, assurez-vous d’avoir effectué toutes les préparations de configuration et d’infrastructure prérequises :
+Avant d’activer l’authentification Kerberos, veillez à effectuer toutes les préparations de configuration et d’infrastructure prérequises :
 
   - Le schéma Active Directory est étendu pour Lync Server 2013.
 
@@ -45,15 +45,15 @@ Avant d’activer l’authentification Kerberos, assurez-vous d’avoir effectu�
 
   - La préparation du domaine Active Directory est terminée pour Lync Server 2013.
 
-  - Le centre de gestion central est correctement installé et disponible.
+  - Le magasin central de gestion est correctement installé et disponible.
 
-  - Le module topologique a été créé et publié à l’aide du générateur de topologie.
+  - La topologie a été créée et publiée à l’aide du générateur de topologie.
 
-  - Les serveurs et rôles nécessitant la définition et le déploiement de services Web, notamment les serveurs front end, les serveurs Standard Edition et les directeurs.
+  - Les serveurs et les rôles nécessitant des services Web ont été définis et déployés, y compris les serveurs frontaux, les serveurs Standard Edition et les directeurs.
 
-  - Internet Information Services (IIS) est configuré et déployé avec les services de rôle recommandés pour prendre en charge les services Web dans Lync Server 2013.
+  - Les services Internet (IIS) sont configurés et déployés avec les services de rôle recommandés pour prendre en charge les services Web dans Lync Server 2013.
 
-Lorsque les conditions préalables sont remplies, vous devez être prêt à créer un ou plusieurs comptes pour les services Web à utiliser pour l’authentification Kerberos pour votre déploiement. Au minimum, vous devez créer un compte d’authentification Kerberos pour chaque déploiement. Toutefois, vous pouvez créer un compte pour chaque site afin de fournir une authentification Kerberos locale sur le site. Vous ne pouvez spécifier qu’un seul compte d’authentification Kerberos par site.
+Une fois que les conditions préalables sont remplies, vous devez être prêt à créer un ou plusieurs comptes pour les services Web à utiliser pour l’authentification Kerberos de votre déploiement. Vous devez créer au moins un compte d’authentification Kerberos pour chaque déploiement. Néanmoins, vous pouvez créer un compte pour chaque site, afin de permettre l’authentification Kerberos locale au niveau du site. Vous ne pouvez spécifier qu’un seul compte d’authentification Kerberos par site.
 
 </div>
 

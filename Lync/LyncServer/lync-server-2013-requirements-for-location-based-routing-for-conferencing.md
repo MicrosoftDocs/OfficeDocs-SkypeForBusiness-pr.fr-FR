@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour le routage sur site pour les conférences'
+title: 'Lync Server 2013 : configuration requise pour le routage géodépendant pour les conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a5e97ed5e762b35489eac0b69fbfcad45a8e822
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuration requise pour le routage sur site pour les conférences dans Lync Server 2013
+# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuration requise pour le routage géodépendant pour les conférences dans Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41723814"
 
 _**Dernière modification de la rubrique :** 2013-07-19_
 
-Voici les exigences requises pour l’installation et la configuration de l’application de conférence de routage basée sur l’emplacement :
+Les conditions requises pour l’installation et la configuration de l’application de conférence de routage basée sur l’emplacement sont les suivantes :
 
-  - La mise à jour cumulative 2 Lync Server 2013 doit être déployée sur tous les serveurs ou pools de votre topologie.
+  - La mise à jour cumulative 2 de Lync Server 2013 doit être déployée sur tous les serveurs ou pools de votre topologie.
 
 <div>
 
 
 > [!NOTE]  
-> Si une mise à jour cumulative 2 ou une version ultérieure de Lync Server 2013 n’est pas installée sur un serveur ou un pool Lync dans votre topologie, il n’est pas possible de garantir l’exécution du routage de réunion Lync dans l’emplacement.
+> Si la mise à jour cumulative 2 ou ultérieure de Lync Server 2013 n’est pas installée sur un pool ou un serveur Lync dans votre topologie, l’application du routage géodépendant des réunions Lync n’est pas garantie.
 
 
 
 </div>
 
-  - Le routage de géolocalisation Lync Server 2013 est une configuration requise pour l’application de conférence de routage basée sur l’emplacement. Pour plus d’informations sur la configuration du routage de l’emplacement de Lync Server 2013, voir [configuration du routage en fonction](lync-server-2013-configuring-location-based-routing.md)de l’emplacement.
+  - Le routage géodépendant de Lync Server 2013 est une condition préalable pour l’application de conférence de routage basée sur l’emplacement. Pour plus d’informations sur la configuration du routage géodépendant de Lync Server 2013, reportez-vous à la rubrique [Configuring location-based Routing](lync-server-2013-configuring-location-based-routing.md).
 
-  - Les exigences de l’application conférences de routage de géolocalisation sont les mêmes que celles requises pour le routage en fonction de l’emplacement de Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique [planification pour le routage sur site](lync-server-2013-planning-for-location-based-routing.md).
+  - La configuration requise de l’application de conférence de routage basée sur l’emplacement est identique à celle requise pour le routage géodépendant de Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique [Planning for location-based Routing](lync-server-2013-planning-for-location-based-routing.md).
 
 <div>
 
 ## <a name="supported-servers"></a>Serveurs pris en charge
 
-L’application de conférence de routage basée sur l’emplacement nécessite le déploiement de la mise à jour cumulative 2 de Lync Server 2013 sur toutes les listes frontales et les serveurs Standard Edition dans votre topologie. Si la mise à jour cumulative 2 de Lync Server 2013 n’est pas installée sur certains serveurs Lync dans votre topologie, les restrictions de routage basées sur les emplacements ne peuvent pas être entièrement appliquées lors des réunions Lync et des transferts d’appel.
+L’application de conférence de routage basée sur l’emplacement nécessite le déploiement de la mise à jour cumulative 2 de Lync Server 2013 sur tous les pools frontaux et les serveurs Standard Edition de votre topologie. Si la mise à jour cumulative 2 de Lync Server 2013 n’est pas installée sur certains serveurs Lync de votre topologie, les restrictions de routage géodépendant ne peuvent pas être appliquées entièrement sur les réunions Lync et les transferts d’appels consultatifs.
 
-Le tableau suivant identifie la combinaison de rôles et de versions du serveur prenant en charge le routage par emplacement.
+Le tableau suivant identifie les combinaisons de rôles serveur et de versions qui prennent en charge le routage géodépendant.
 
 
 <table>
@@ -72,43 +72,43 @@ Le tableau suivant identifie la combinaison de rôles et de versions du serveur 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Version de pool frontal</p></td>
-<td><p>Version de serveur de médiation</p></td>
+<td><p>Version du pool frontal</p></td>
+<td><p>Version du serveur de médiation</p></td>
 <td><p>Pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
-<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
+<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
+<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
-<td><p>Mise à jour cumulative 1 de Lync Server 2013</p></td>
+<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
+<td><p>Mise à jour cumulative 1 de Lync Server 2013</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
+<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
-<td><p>Office Communications Server 2007 R2</p></td>
+<td><p>Mise à jour cumulative 2 de Lync Server 2013</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Mise à jour cumulative 1 de Lync Server 2013</p></td>
-<td><p>Indifférente</p></td>
+<td><p>Mise à jour cumulative 1 de Lync Server 2013</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Indifférente</p></td>
+<td><p>Office Communications Server 2007 R2</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Non</p></td>
 </tr>
 </tbody>
@@ -121,35 +121,35 @@ Le tableau suivant identifie la combinaison de rôles et de versions du serveur 
 
 ## <a name="supported-clients"></a>Clients pris en charge
 
-Les clients Lync prenant en charge le routage par emplacement des réunions Lync sont les mêmes que ceux prenant en charge le routage sur l’emplacement Lync Server 2013. Pour plus d’informations, consultez [prise en charge des clients et du serveur pour le routage géolocalisation](lync-server-2013-client-and-server-support-for-location-based-routing.md).
+Les clients Lync qui prennent en charge le routage géodépendant des réunions Lync sont les mêmes que ceux qui prennent en charge le routage géodépendant de Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique [prise en charge des clients et des serveurs pour le routage géodépendant](lync-server-2013-client-and-server-support-for-location-based-routing.md).
 
 </div>
 
 <div>
 
-## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>Configuration requise pour le serveur de médiation pour les transferts d’appels
+## <a name="mediation-server-requirements-for-consultative-call-transfers"></a>Exigences de serveur de médiation pour les transferts d’appel consultatifs
 
-L’application de conférence de routage basée sur l’emplacement nécessite le déploiement de serveurs de médiation autonomes pour appliquer les restrictions de routage basées sur les emplacements aux transferts d’appel consultatif.
+L’application de conférence de routage basée sur l’emplacement nécessite le déploiement de serveurs de médiation autonomes afin d’appliquer des restrictions de routage géodépendant sur les transferts d’appel consultatifs.
 
-Pour appliquer le routage des appels de consultation selon l’emplacement, le serveur de médiation doit être associé à un seul homologue du serveur de médiation (par exemple, PBX, passerelle SIP, etc.) dans les régions réseau où le routage de l’emplacement est requis. Si d’autres homologues du serveur de médiation sont déployés dans la même région réseau, l’homologue du serveur de médiation doit être associé à un serveur de médiation différent. Cette obligation est détaillée comme suit :
+Pour appliquer le routage basé sur l’emplacement des transferts d’appel consultatifs, le serveur de médiation doit être associé à un seul serveur de médiation (PBX, passerelle SIP, etc.) dans les régions réseau où le routage géodépendant est requis. Si des homologues de serveur de médiation supplémentaires sont déployés dans la même région réseau, le serveur de médiation homologue doit être associé à un autre serveur de médiation. Cette exigence est détaillée de la manière suivante :
 
-  - Serveur de médiation unique par plusieurs homologues du serveur de médiation lorsque le transfert d’un appel consultatif est acheminé vers un homologue du serveur de médiation par le biais d’un serveur de médiation configuré avec plusieurs ISL SIP pour plusieurs homologues (PBX et passerelles), le Conseil le transfert d’appel est bloqué pour empêcher le contournement du protocole RTC si le transfert d’appel est autorisé par le biais de lignes SIP, mais rejeté par d’autres ISL SIP.
+  - Serveur de médiation unique par plusieurs homologues de serveur de médiation lorsqu’un transfert d’appel consultatif est acheminé vers un homologue de serveur de médiation via un serveur de médiation configuré avec plusieurs jonctions SIP vers plusieurs pairs (PBX et passerelles), le Conseil consultatif le transfert d’appel est bloqué pour empêcher la déviation du trafic téléphonique PSTN si le transfert d’appel consultatif est autorisé via certaines jonctions SIP, mais interdit par le biais d’autres jonctions SIP.
     
-    Par exemple, dans le cas d’un serveur de médiation unique qui dessert un homologue du serveur de médiation de la passerelle RTC et un homologue du serveur de médiation PBX, le comportement suivant est observé :
+    Par exemple, dans le cas d’un serveur de médiation unique traitant un homologue de serveur de médiation de passerelle PSTN et un homologue de serveur de médiation de PBX, le comportement suivant sera observé :
     
-      - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel avec un point de terminaison RTC à un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais du transfert de consultation, l’appel n’est pas autorisé à éviter le contournement du numéro RTC.
+      - Lorsqu’un utilisateur Lync à partir d’un site donné (site 1) tente de transférer un appel avec un point de terminaison PSTN à un utilisateur Lync à partir d’un autre site (site 2) via le transfert consultatif, l’appel n’est pas autorisé à empêcher le contournement de téléphone PSTN.
     
-      - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel avec un point de terminaison PBX au sein d’un même site (site 1) pour un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais d’un virement RTC potentiel, l’appel est rejeté même l en contournement.
+      - Lorsqu’un utilisateur Lync à partir d’un site donné (site 1) tente de transférer un appel avec un point de terminaison PBX dans le même site (site 1) vers un utilisateur Lync à partir d’un autre site (site 2) via le transfert consultatif, l’appel est interdit même s’il n’est pas en mesure d’engendrer une probabilité RTC potentielle. l contournement.
 
-  - Séparation des serveurs de médiation par le pair du serveur de médiation
+  - Serveurs de médiation distincts par homologue de serveur de médiation
     
-    Lorsque le transfert consultatif est ciblé auprès d’un homologue de serveur de médiation, le transfert de la consultation est évalué par rapport à l’homologue du serveur de médiation unique desservi par le serveur de médiation. L’appel sera interdit ou autorisé en fonction de son potentiel dans le cadre du contournement du numéro RTC, quels que soient les autres homologues du site dans le cadre de leur service par des serveurs de médiation distincts.
+    Lorsqu’un transfert consultatif est ciblé sur un homologue de serveur de médiation, le transfert consultatif est évalué par rapport à l’homologue de serveur de médiation unique desservi par le serveur de médiation. L’appel sera rejeté ou autorisé en fonction du potentiel qu’il peut supporter dans le cadre du contournement de téléphone RTC, indépendamment de tous les autres homologues de serveur de médiation dans le site, car ils sont desservis par des serveurs de médiation distincts.
     
-    Par exemple, dans le cas d’un serveur de médiation distinct prenant en service un homologue de serveur de médiation de passerelle RTC et un homologue de serveur de médiation PBX, le comportement suivant est observé :
+    Par exemple, dans le cas d’un serveur de médiation distinct traitant un homologue de serveur de médiation de passerelle PSTN et un homologue de serveur de médiation de PBX, le comportement suivant sera observé :
     
-      - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel avec un point de terminaison RTC à un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais du transfert de consultation, l’appel n’est pas autorisé à éviter le contournement du numéro RTC.
+      - Lorsqu’un utilisateur Lync à partir d’un site donné (site 1) tente de transférer un appel avec un point de terminaison PSTN à un utilisateur Lync à partir d’un autre site (site 2) via le transfert consultatif, l’appel n’est pas autorisé à empêcher le contournement de téléphone PSTN.
     
-      - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel à l’aide d’un point de terminaison PBX dans le même site (site 1) pour un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais du transfert de consultation, l’appel est autorisé à ne pas occasionner de contournement assurance.
+      - Lorsqu’un utilisateur Lync à partir d’un site donné (site 1) tente de transférer un appel avec un point de terminaison PBX dans le même site (site 1) vers un utilisateur Lync à partir d’un autre site (site 2) via le transfert consultatif, l’appel est autorisé, car il n’est pas soumis à un contournement de numéro de téléphone PSTN potentiel. ant.
 
 </div>
 
@@ -159,9 +159,9 @@ Pour appliquer le routage des appels de consultation selon l’emplacement, le s
 
 Les fonctionnalités suivantes ne sont pas prises en charge par l’application de conférence de routage basée sur l’emplacement :
 
-  - Conférence rendez-vous. Le routage en fonction de l’emplacement ne peut pas être appliqué pour la Conférence rendez-vous. Toute demande d’accès à une conférence donnée n’est pas limitée par le routage de l’emplacement, même si l’organisateur de la Conférence est un utilisateur de Lync prenant en charge le routage de l’emplacement.
+  - Conférence rendez-vous. Le routage géodépendant ne peut pas être appliqué pour les conférences rendez-vous. Toute demande d’accès à une conférence donnée n’est pas limitée par le routage géodépendant même si l’organisateur de la Conférence est un utilisateur Lync activé pour le routage géodépendant.
 
-  - Nous vous conseillons de ne pas mettre en place des numéros d’accès aux conférences dans les régions dans lesquelles les restrictions de routage basées sur l’emplacement doivent être appliquées.
+  - Il est recommandé de ne pas mettre en service les numéros d’accès aux conférences dans les régions où des restrictions de routage géodépendant doivent être appliquées.
 
 </div>
 

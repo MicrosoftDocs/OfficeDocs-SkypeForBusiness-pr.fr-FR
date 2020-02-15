@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelle fonctionnalité de messagerie vocale'
+title: 'Lync Server 2013 : nouvelle fonctionnalité de messagerie vocale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755848"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Lync Server 2013 introduit l’échappement de la messagerie vocale, une amélioration de la gestion de la messagerie vocale. Cette nouvelle fonctionnalité peut détecter qu’un appel a été acheminé vers la messagerie vocale et empêcher l’appel d’être immédiatement acheminé vers la messagerie vocale de l’utilisateur, sans permettre à l’utilisateur de répondre à l’appel. Ce scénario se produit lorsque l’utilisateur permet de sonner simultanément sur son téléphone mobile, qu’il est désactivé, qu’il n’est pas à portée de batterie ou qu’il n’est pas dans la plage. La fonction de messagerie vocale permet de détecter que l’appel a été reçu immédiatement par la messagerie vocale du téléphone mobile de l’utilisateur et de déconnecter l’appel vers la messagerie vocale du téléphone mobile. L’appel continue de sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Si l’utilisateur ne répond pas, l’appel est acheminé vers la messagerie vocale de l’entreprise.
+Lync Server 2013 présente l’échappement de la messagerie vocale, une amélioration de la gestion de la messagerie vocale. Cette fonctionnalité peut détecter quand un appel est acheminé vers la messagerie vocale et empêcher l’acheminement immédiat de l’appel vers la messagerie vocale du téléphone mobile de l’utilisateur avant que l’utilisateur puisse répondre. Ce scénario se produit quand l’utilisateur active la sonnerie simultanée sur son téléphone mobile et que ce dernier est éteint, à court de batterie ou hors de portée. Voicemail Escape détecte que la messagerie vocale du téléphone mobile de l’utilisateur a répondu immédiatement à l’appel, et déconnecte l’appel de la messagerie vocale du téléphone mobile. L’appel continue de sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Si l’utilisateur ne répond pas à l’appel, ce dernier est acheminé vers la messagerie vocale d’entreprise.
 
 <div>
 
@@ -47,7 +47,7 @@ Lync Server 2013 introduit l’échappement de la messagerie vocale, une amélio
 [Configuration de l’échappement de la messagerie vocale dans Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[Nouvelles fonctionnalités Voix Entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nouvelles fonctionnalités voix entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

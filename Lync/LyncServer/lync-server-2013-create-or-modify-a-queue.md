@@ -12,20 +12,20 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Créer ou modifier une file d’attente dans Lync Server 2013
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Création ou modification d’une file d’attente dans Lync Server 2013
 
 </div>
 
@@ -41,9 +41,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>Pour utiliser le panneau de configuration de Lync Server pour créer ou modifier une file d’attente
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>Pour créer ou modifier une file d’attente à l’aide du panneau de configuration Lync Server
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
     <div>
     
@@ -54,7 +54,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     </div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Services Response Group**, puis sur **File d’attente**.
 
@@ -62,7 +62,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour créer une file d’attente, cliquez sur **Nouveau**. Dans **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** où vous voulez ajouter la file d’attente dans le champ de recherche. Dans la liste des services obtenue, cliquez sur le service de votre choix, puis sur **OK**.
     
-      - Pour modifier une file d’attente existante, tapez entièrement ou partiellement le nom de la file d’attente dans le champ de recherche. Dans la liste des files d’attente obtenue, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
+      - Pour modifier une file d’attente existante, tapez entièrement ou partiellement le nom de la file d’attente dans le champ de recherche. Dans la liste des files d’attente obtenue, cliquez sur la file d’attente souhaitée, sur **Modifier**, puis sur click **Afficher les détails**.
 
 5.  Dans **Nom**, tapez un nom d’identification pour la file d’attente.
 
@@ -70,7 +70,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 7.  Dans **Groupes**, spécifiez les groupes que vous voulez affecter à la file d’attente. Effectuez l’une des opérations suivantes :
     
-      - Pour ajouter un groupe à la file d’attente, cliquez sur **Sélectionner**. Dans le champ de recherche **Sélectionner des groupes**, tapez entièrement ou partiellement le nom du groupe d’agents que vous voulez affecter à la file d’attente, cliquez sur le groupe d’agents souhaité, puis sur **OK**.
+      - Pour ajouter un groupe à la fille d’attente, cliquez sur **Sélectionner**. Dans le champ de recherche **Sélectionner des groupes**, tapez entièrement ou partiellement le nom du groupe d’agents que vous voulez affecter à la file d’attente, cliquez sur le groupe d’agents souhaité, puis sur **OK**.
     
       - Pour supprimer un groupe de la file d’attente, dans la zone des groupes d’agents, cliquez sur le groupe que vous voulez supprimer, puis sur **Supprimer**.
     
@@ -95,17 +95,17 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> NomUtilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP : numéro nom_domaine (par exemple, SIP :+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au\<format\>@\<SIP\> : numéro nomdomaine (par exemple, SIP :+14255550121@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<nom\>d’utilisateur NomDomaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<NomUtilisateur\>nom_domaine.
     
       - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
 
 9.  Pour spécifier un nombre maximal d’appels pouvant être stockés dans la file d’attente, activez la case à cocher **Activer le débordement de la file d’attente**, puis procédez comme suit :
     
-    1.  Dans **Nombre maximal d’appels**, sélectionnez le nombre maximal d’appels que la file d’attente doit contenir.
+    1.  Dans **Nombre maximal d’appels** sélectionnez le nombre maximal d’appels que la file d’attente doit contenir.
     
     2.  Dans **Transférer l’appel**, sélectionnez l’appel à transférer lorsque la file d’attente est pleine : **Appel le plus récent** ou **Appel le plus ancien**.
     
@@ -115,11 +115,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
       - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> nom d’utilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
+      - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer à la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format\<SIP\>@\<:\> NomUtilisateur nom_domaine (par exemple, SIP :Bob@contoso.com).
     
-      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone\<dans\>@\<le\> format SIP : numéro nom_domaine (par exemple, SIP :+14255550121@contoso.com).
+      - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer au numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone au\<format\>@\<SIP\> : numéro nomdomaine (par exemple, SIP :+14255550121@contoso.com).
     
-      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<nom\>d’utilisateur NomDomaine.
+      - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer à l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP\<:\>@\<NomUtilisateur\>nom_domaine.
     
       - Pour transférer l’appel vers une autre file d’attente, cliquez sur **Transférer vers une autre file d’attente**, puis accédez à la file d’attente que vous voulez utiliser.
 
@@ -129,9 +129,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 
 <div>
 
-## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>Pour utiliser Windows PowerShell pour la création ou la modification d’une file d’attente
+## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>Pour utiliser Windows PowerShell pour créer ou modifier une file d’attente
 
-1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
+1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
     <div>
     
@@ -142,7 +142,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     </div>
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 3.  Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
@@ -156,7 +156,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
 
     > [!NOTE]  
-    > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>. Pour plus d’informations, voir <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
+    > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>. Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -190,7 +190,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
 
     > [!NOTE]  
-    > Pour utiliser un fichier audio pour l’invite, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>. Pour plus d’informations, voir <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
+    > Pour utiliser un fichier audio pour le message, utilisez l’applet de commande <STRONG>Import-CsRgsAudioFile</STRONG>. Pour plus d’informations, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -208,11 +208,11 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
     </div>
     
-    Par exemple :
+    Par exemple :
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  Récupérez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
+7.  Récupérez le nom du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
@@ -224,7 +224,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
 
     > [!NOTE]  
-    > Pour plus d’informations sur la création d’un groupe d’agents, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
+    > Pour plus d’informations sur la création du groupe d’agents, voir <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     
     </div>
@@ -233,7 +233,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
         $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
     
-    Exemple :
+    Par exemple :
     
         $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
 
@@ -248,12 +248,12 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
 ## <a name="see-also"></a>Voir aussi
 
 
-[Nouveau-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[Nouveau-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
-[Importation-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des paramètres des comptes d’utilisateurs'
+title: 'Lync Server 2013 : configuration des paramètres de compte d’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b74056587a192ec81f0dffb0044fb76e7698960
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 19bb9bbba1d9a247b2c33a4ae0fd95f9a8e4553a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733804"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-account-settings-in-lync-server-2013"></a>Configuration des paramètres des comptes d’utilisateurs dans Lync Server 2013
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Configurer les paramètres de compte d’utilisateur dans Lync Server 2013
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41733804"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Les utilisateurs d’appels entrants doivent entrer un numéro de téléphone ou de poste, ainsi qu’un code confidentiel pour participer à des conférences en qualité d’utilisateurs authentifiés. L’URI de **ligne** téléphonique spécifié sur les comptes d’utilisateurs de Lync Server est requis pour l’authentification.
+Les utilisateurs d’appels entrants doivent entrer un numéro de téléphone ou de poste, ainsi qu’un code confidentiel pour participer à des conférences en qualité d’utilisateurs authentifiés. L’URI de **ligne** de téléphonie spécifié sur les comptes d’utilisateur Lync Server est requis pour l’authentification.
 
-La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un compte utilisateur unique. Si vous devez attribuer un **URI de ligne** à plusieurs comptes utilisateur, vous pouvez créer un script à l’aide de l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un **URI de ligne** à plusieurs comptes d’utilisateur, voir « [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)attribuer des URI de ligne à plusieurs utilisateurs ».
+La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un seul compte d’utilisateur. Si vous devez affecter un **URI de ligne** à plusieurs comptes d’utilisateur, vous pouvez créer un script qui utilise l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un **URI de ligne** à plusieurs comptes d’utilisateur, voir « [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)attribuer des URI de ligne à plusieurs utilisateurs » à l’adresse.
 
 <div>
 
-## <a name="to-configure-user-account-settings"></a>Pour configurer les paramètres de compte d’utilisateur
+## <a name="to-configure-user-account-settings"></a>Pour configurer les paramètres des comptes d’utilisateur
 
 1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle **Cs-UserAdministrator** ou **CsAdministrator**.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
 4.  Dans le champ de recherche, tapez le nom de l’utilisateur à configurer pour une conférence rendez-vous ou cliquez sur **Ajouter un filtre** pour spécifier les champs de la recherche, puis cliquez sur **Rechercher**.
 
-5.  Double-cliquez sur le nom d’utilisateur pour ouvrir la boîte de dialogue **modifier l’utilisateur de Lync Server** .
+5.  Double-cliquez sur le nom d’utilisateur pour ouvrir la boîte de dialogue **modifier l’utilisateur Lync Server** .
 
-6.  Sous **Téléphonie**, dans le champ **URI de ligne**, tapez un numéro de téléphone normalisé unique (par exemple, tél :+14255550200).
+6.  Sous **Téléphonie**, dans le champ **URI de ligne**, tapez un numéro de téléphone normalisé unique (par exemple, tel:+14255550200).
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez spécifier un <STRONG>URI de ligne</STRONG> uniquement si l’option <STRONG>Téléphonie</STRONG> est définie sur <STRONG>De PC à PC uniquement</STRONG>, <STRONG>Voix Entreprise</STRONG>, <STRONG>Contrôle d’appel distant</STRONG> ou <STRONG>Contrôle d’appel distant uniquement</STRONG>.
+    > Vous pouvez spécifier l' <STRONG>URI de ligne</STRONG> uniquement si la <STRONG>téléphonie</STRONG> est définie sur <STRONG>PC à PC uniquement</STRONG>, <STRONG>voix entreprise</STRONG>, <STRONG>contrôle d’appel distant</STRONG> ou <STRONG>contrôle d’appel distant uniquement</STRONG>.
 
     
     </div>

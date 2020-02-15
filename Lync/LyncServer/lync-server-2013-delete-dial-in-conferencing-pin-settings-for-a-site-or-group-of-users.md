@@ -12,16 +12,16 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae81fd45c2679c8b4d2ab0bf6813fbb405905224
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e27ec145c52ac62bb97fff4af0729d66596fe682
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41734218"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Suivez ces étapes pour supprimer un utilisateur ou une stratégie de code secret de niveau site.
+Suivez cette procédure pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site.
 
 <div>
 
@@ -51,17 +51,17 @@ Suivez ces étapes pour supprimer un utilisateur ou une stratégie de code secre
 
 <div>
 
-## <a name="to-delete-a-user-or-site-pin-policy"></a>Pour supprimer une stratégie de code confidentiel d’utilisateur ou de site
+## <a name="to-delete-a-user-or-site-pin-policy"></a>Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
 
-4.  Dans la page de **stratégie de code confidentiel** , dans le champ de recherche, tapez tout ou partie du nom de la stratégie que vous voulez supprimer.
+4.  Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez l’intégralité ou le début du nom de la stratégie que vous souhaitez supprimer.
 
-5.  Dans la liste des stratégies, cliquez sur la stratégie à supprimer, sur **Modifier**, puis sur **Supprimer**.
+5.  Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
 

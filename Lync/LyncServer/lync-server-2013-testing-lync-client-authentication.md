@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test de l’authentification du client Lync'
+title: 'Lync Server 2013 : test de l’authentification de client Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e24f579a4fcaca2651c0225b515241db00ff990
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc07ff877d5692c2871a8b0481233d3bd8c58b6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745704"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Test de l’authentification du client Lync dans Lync Server 2013
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Test de l’authentification client Lync dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsClientAuth. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsClientAuth. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de contrôle test-CsClientAuth vous permet de déterminer si un utilisateur peut se connecter au serveur Lync à l’aide d’un certificat client, vous pouvez exécuter l’applet de contrôle CsClientAuth. Après avoir appelé test-CsClientAuth, l’applet de commande contacte le service de mise en service des certificats et télécharge une copie des certificats clients pour l’utilisateur spécifié. S’il est possible de trouver et de télécharger un certificat client, test-CsClientAuth tente alors de se connecter à l’aide de ce certificat. En cas de réussite de l’ouverture de session, la fonction test-CsClientAuth se déconnecte et signale que le test a réussi. Si un certificat est introuvable ou n’a pas pu être téléchargé, ou si l’applet de connexion n’est pas en mesure de se connecter à l’aide de ce certificat, le test-CsClientAuth indique que le test a échoué.
+L’applet de commande test-CsClientAuth vous permet de déterminer si un utilisateur peut se connecter au serveur Lync à l’aide d’un certificat client, mais vous pouvez exécuter la cmdlet Test-CsClientAuth. Une fois appelée, l’applet de commande Test-CsClientAuth contacte le service d’approvisionnement de certificats et télécharge un exemplaire des certificats clients pour l’utilisateur spécifié. S’il est possible de trouver un certificat client et de le télécharger, la fonction test-CsClientAuth essaiera de se connecter à l’aide de ce certificat. Si l’ouverture de session réussit, Test-CsClientAuth ferme la session et indique que le test a réussi. Si aucun certificat n’est disponible ou s’il n’est pas possible de télécharger un certificat, ou si l’applet de commande Test-CsClientAuth ne peut pas ouvrir une session avec un certificat téléchargé, l’applet de commande indique que le test a échoué.
 
 </div>
 
@@ -74,32 +74,32 @@ L’applet de contrôle test-CsClientAuth vous permet de déterminer si un utili
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-CsClientAuth est exécutée en utilisant le compte de tout utilisateur autorisé pour Lync Server. Pour effectuer cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell contenant le nom et le mot de passe du compte. Lorsque le système appelle test-CsClientAuth, vous devez inclure l’objet Credential et l’adresse SIP associée au compte.
+La cmdlet Test-CsClientAuth est exécutée à l’aide du compte de n’importe quel utilisateur qui est activé pour Lync Server. Pour exécuter cette vérification à l’aide d’un compte d’utilisateur réel, vous devez d’abord créer un objet d’informations d’identification Windows PowerShell qui contient le nom de compte et le mot de passe. Vous devez ensuite inclure cet objet d’informations d’identification et l’adresse SIP attribuée au compte lorsque le système appelle test-CsClientAuth :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsClientAuth](http://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) .
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si l’utilisateur spécifié peut se connecter à Lync Server à l’aide d’un certificat client, vous recevrez une sortie semblable à ce qui suit, avec la propriété Result marquée comme **réussie :**
+Si l’utilisateur spécifié peut se connecter à Lync Server à l’aide d’un certificat client, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success :**
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:06.8630376
 
-Error
+«
 
-Diagnostic
+Diagnostique
 
-Si l’utilisateur spécifié ne peut pas se connecter, le résultat s’affichera en tant qu’échec et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic :
+Si l’utilisateur spécifié ne peut pas se connecter, le résultat est affiché sous la forme échec et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -107,22 +107,22 @@ Résultat : échec
 
 Latence : 00:00:03.3645259
 
-Erreur : nous n’avons pas pu télécharger un certificat CS pour l’utilisateur donné. Vérifier si
+Erreur : impossible de télécharger un certificat CS pour l’utilisateur donné. Vérifier si
 
-les informations d’identification et URI fournies sont correctes.
+l’URI fourni et les informations d’identification sont corrects.
 
-Diagnostic
+Diagnostique
 
-Par exemple, la sortie précédente indique que le test a échoué car un certificat client valide a pu être localisé pour l’utilisateur spécifié. Vous pouvez renvoyer une liste des certificats clients émis à un utilisateur en exécutant une commande comme suit :
+Par exemple, la sortie précédente indique que le test a échoué, car il est impossible de trouver un certificat client valide pour l’utilisateur spécifié. Vous pouvez renvoyer la liste des certificats clients délivrés à un utilisateur en exécutant une commande comme suit :
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-Si test-CsClientAuth échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
+Si test-CsClientAuth échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsClientAuth renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la possibilité de l’utilisateur spécifié de se connecter à Lync Server. Par exemple :
+Lorsque le paramètre Verbose est inclus, test-CsClientAuth renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple :
 
 Tentative de téléchargement d’un certificat CS pour l’utilisateur : kenmyer@litwareinc.com Endpoint : STEpid
 
@@ -130,33 +130,33 @@ URL du service Web :https://atl-cs-001.litwareinc.com:443/CertProv/Certprovisio
 
 Impossible de télécharger un certificat CS à partir du service Web.
 
-Recherchez
+OPTION
 
-\-L’URL du service Web est valide et les services Web sont opérationnels
+\-L’URL de service Web est valide et les services Web sont fonctionnels
 
-\-Si vous utilisez\\\\PhoneNo code confidentiel pour l’authentification, vérifiez qu’il correspond à l’URI de l’utilisateur.
+\-Si vous utilisez\\\\le code confidentiel PhoneNo pour l’authentification, assurez-vous qu’ils correspondent à l’URI de l’utilisateur.
 
-\-Si vous utilisez\\l’authentification Kerberos NTLM, assurez-vous d’avoir fourni les informations d’identification valides.
+\-Si vous utilisez\\l’authentification NTLM Kerberos, vérifiez que vous avez fourni des informations d’identification valides.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles les tests-CsClientAuth peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec de test-CsClientAuth :
 
-  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit :
+  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit :
+  - Le compte d’utilisateur est valide, mais le compte n’est actuellement pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à la suivante :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
     Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est actuellement pas activé pour Lync Server.
 
-  - Il est possible que l’utilisateur test ne dispose pas d’un certificat client valide. Vous pouvez renvoyer des informations sur les certificats clients attribués à un utilisateur à l’aide d’une commande semblable à ce qui suit :
+  - Il est possible que l’utilisateur test ne dispose pas d’un certificat client valide. Vous pouvez renvoyer des informations sur les certificats clients affectés à un utilisateur à l’aide d’une commande semblable à celle-ci :
     
         Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 

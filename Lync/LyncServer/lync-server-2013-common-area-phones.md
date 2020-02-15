@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : téléphones de zone commune'
+title: 'Lync Server 2013 : téléphones de partie commune'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742784"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a>Numéros de téléphone communs dans Lync Server 2013
+# <a name="common-area-phones-in-lync-server-2013"></a>Téléphones de partie commune dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41742784"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Les téléphones portables courants sont des téléphones IP qui ne sont pas associés à un utilisateur individuel. Au lieu d’être localisé dans le Bureau d’une personne, les téléphones communs sont généralement situés dans des couloirs de bâtiment, des cafétérias, des salons d’employés, des salles de réunion et d’autres emplacements dans lesquels un grand nombre de personnes est susceptible de se réunir. Contrairement aux autres téléphones dans Lync Server, qui sont généralement conservés à l’aide de stratégies vocales et de plans de numérotation qui sont attribués à des utilisateurs individuels, les téléphones ordinaires n’ont pas d’utilisateurs individuels. Cela signifie qu’elles doivent être gérées différemment de celles de vos autres téléphones.
+Les téléphones de partie commune sont des téléphones IP qui ne sont pas associés à un utilisateur individuel. Au lieu d’être situés dans le Bureau d’une personne, les téléphones de partie commune sont généralement situés dans des halls de construction, des cafétérias, des salons d’employés, des salles de réunion et dans d’autres emplacements susceptibles d’être rassemblés par un grand nombre de personnes. Contrairement à d’autres téléphones dans Lync Server, qui sont généralement gérés à l’aide de stratégies de voix et de plans de numérotation attribués à des utilisateurs individuels, les téléphones de zone commune ne sont pas affectés à des utilisateurs individuels. Cela signifie qu’ils doivent être gérés différemment de vos autres téléphones.
 
-Pour gérer les téléphones portables courants, vous devez créer des objets de contact services de domaine Active Directory (AD FS) pour tous vos numéros de téléphone communs, qui, tels que les comptes d’utilisateurs, peuvent être affectés à des stratégies et des plans vocaux. Cette approche permet de garder le contrôle sur des téléphones courants, même si ces téléphones ne sont pas associés à un utilisateur individuel.
+Pour gérer les téléphones de partie commune, vous créez des objets contact des services de domaine Active Directory pour tous vos téléphones de partie commune qui, comme les comptes d’utilisateur, peuvent se voir attribuer des stratégies et des plans vocaux. Cette approche vous permet de maintenir le contrôle sur les téléphones de partie commune, même si ces téléphones ne sont pas associés à un utilisateur individuel.
 
-Les rubriques de cette section vous permettent d’apprendre à créer des objets de contact pour les téléphones communs, à les modifier ou à les supprimer, ainsi qu’à configurer et afficher des informations de configuration sur les téléphones communs dans votre déploiement.
+Utilisez les rubriques de cette section pour apprendre à créer des objets contact pour les téléphones de partie commune, pour les modifier et les supprimer, et pour configurer et afficher les informations de configuration concernant les téléphones de partie commune dans votre déploiement.
 
 <div>
 
 
 > [!NOTE]  
-> Trois options s’offrent à vous pour les téléphones de zone commune : le téléphone local Aastra 6721ip, le téléphone IP HP 4110 et le téléphone local IP Polycom CX500. Le numéro de téléphone de la Conférence rendez-vous d’Polycom CX3000 est une variante. Il est toutefois destiné à une utilisation dans des salles de conférence. Pour plus d’informations sur les téléphones portables courants, voir la section téléphones communs pour le <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">choix de nouveaux périphériques</A>.
+> Vous disposez de trois options pour les téléphones de partie commune : le téléphone de partie commune Aastra 6721ip, le téléphone IP HP 4110 et le téléphone de partie commune IP Polycom CX500. Le téléphone de conférence IP Polycom CX3000 est un autre composant de partie commune. Toutefois, il est destiné à être utilisé dans les salles de conférence. Pour plus d’informations sur les téléphones de partie commune, consultez la section relative aux téléphones de partie commune sur la <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">sélection de nouveaux appareils</A>.
 
 
 
@@ -57,15 +57,15 @@ Les rubriques de cette section vous permettent d’apprendre à créer des objet
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Afficher des informations sur le téléphone de zone commune dans Lync Server 2013](lync-server-2013-view-common-area-phone-information.md)
+  - [Afficher les informations de téléphone de partie commune dans Lync Server 2013](lync-server-2013-view-common-area-phone-information.md)
 
-  - [Création ou modification d’un objet de contact pour les téléphones communs dans Lync Server 2013](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+  - [Création ou modification d’un objet contact de téléphone de partie commune dans Lync Server 2013](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
 
-  - [Activer ou désactiver la gestion de l’accès à chaud dans Lync Server 2013](lync-server-2013-enable-or-disable-hot-desking.md)
+  - [Activation ou désactivation de la connexion à chaud dans Lync Server 2013](lync-server-2013-enable-or-disable-hot-desking.md)
 
-  - [Supprimer un objet de contact de téléphone pour les zones communes dans Lync Server 2013](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+  - [Supprimer un objet contact de téléphone de partie commune dans Lync Server 2013](lync-server-2013-delete-a-common-area-phone-contact-object.md)
 
-  - [Attribuer des stratégies dans Lync Server 2013 à un téléphone de zone commune](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [Affecter des stratégies dans Lync Server 2013 à un téléphone de partie commune](lync-server-2013-assign-policies-to-a-common-area-phone.md)
 
 </div>
 

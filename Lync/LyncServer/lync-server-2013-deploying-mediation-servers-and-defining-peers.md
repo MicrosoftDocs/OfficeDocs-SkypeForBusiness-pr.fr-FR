@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement des serveurs de médiation et définition des homologues'
+title: 'Lync Server 2013 : déploiement des serveurs de médiation et définition des homologues'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b20f5e733dddd34971ca3a5070e99364785e147a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e9ca9fa29d2646a38a9cbf94d79ba9766b21d62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41757638"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-La charge de travail voix entreprise, les conférences rendez-vous et les applications Advanced Enterprise voix (application de groupe de réponse, application de stationnement d’appel, contrôle d’admission des appels (CAC), etc.), sont disponibles dans des regroupements front-end. Avec Lync Server 2013, les fonctionnalités du serveur de médiation sont intégrées au serveur frontal. Un serveur de médiation autonome distinct n’est plus nécessaire. Les pools front-end peuvent communiquer directement avec les passerelles prises en charge (une passerelle RTC (réseau téléphonique commuté) ou un PBX IP (PBX), ce qui évite qu’un serveur de médiation ne serve de intermédiaire.
+La charge de travail voix entreprise, les conférences rendez-vous et les applications avancées de voix entreprise (application Response Group, application de parcage d’appel, contrôle d’admission des appels (CAC), etc.) sont disponibles dans les pools frontaux. Avec Lync Server 2013, la fonctionnalité du serveur de médiation est intégrée au serveur frontal. Un serveur de médiation autonome distinct n’est plus nécessaire. Les pools frontaux peuvent communiquer directement avec les passerelles prises en charge (une passerelle RTC (réseau téléphonique commuté) ou un IP-PBX), ce qui élimine la nécessité d’un serveur de médiation comme intermédiaire.
 
-La seule exception est si vous configurez une jonction SIP (Session Initiation Protocol) pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet. Pour connecter l’infrastructure vocale de votre entreprise à votre fournisseur SIP Trunk, un serveur de médiation distinct doit être déployé.
+La seule exception est si vous configurez une jonction SIP pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet. Pour connecter votre infrastructure voix entreprise à votre fournisseur de jonction SIP, un serveur de médiation distinct doit être déployé.
 
-La connexion entre Lync Server (le composant du serveur de médiation sur une liste frontale ou un serveur de médiation autonome) et une passerelle est définie en tant qu’association logique appelée *Trunk*. Les rubriques de cette section expliquent comment définir un élément Trunk et comment déployer un serveur de médiation autonome si vous vous connectez à un Trunk SIP.
+La connexion entre Lync Server (le composant serveur de médiation sur un pool frontal ou un serveur de médiation autonome) et une passerelle est définie comme une association logique appelée *jonction*. Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Définir un serveur de médiation dans le générateur de topologies de Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
+  - [Définition d’un serveur de médiation dans le générateur de topologies dans Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
 
-  - [Définir une passerelle dans le générateur de topologies de Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
+  - [Définition d’une passerelle dans le générateur de topologies dans Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
 
   - [Installer les fichiers pour le serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)
 
-  - [Définir des lignes supplémentaires dans le générateur de topologies de Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)
+  - [Définir d’autres jonctions dans le générateur de topologies dans Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
-[Configuration de conférences rendez-vous dans Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+[Configuration de la Conférence rendez-vous dans Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
 </div>
 
