@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration d’Enterprise Voice'
+title: 'Lync Server 2013 : configuration de voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76105b9bee5ce35801196b5a4cd20b2a1feed3e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728934"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configuration d’Enterprise Voice dans Lync Server 2013
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configuration de voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41728934"
 
 _**Dernière modification de la rubrique :** 2013-03-12_
 
-Pour déployer Enterprise Voice, vous devez configurer les éléments suivants :
+Pour déployer voix entreprise, vous devez configurer les éléments suivants :
 
-  - Créer un Trunk
+  - Créer une jonction
 
-  - Définir une politique vocale
+  - Définir une stratégie de voix
 
-  - Définir une gamme vocale
+  - Définition d’un itinéraire des communications vocales
 
-  - Enable Users for Enterprise Voice
+  - Activer les utilisateurs pour Voix Entreprise
 
 <div>
 
-## <a name="create-a-trunk"></a>Créer un Trunk
+## <a name="create-a-trunk"></a>Créer une jonction
 
-Vous devez définir des Trunks dans votre déploiement voix entreprise. Pour le routage basé sur l’emplacement, vous devez créer une configuration de Trunk par Trunk. Utilisez le générateur de topologie de serveur Lync pour définir vos Trunks, puis utilisez la commande Windows PowerShell de Lync Server, le nouveau-CsTrunkConfiguration ou le panneau de configuration de Lync Server pour définir les configurations de Trunk correspondantes. Pour plus d’informations sur l’activation du routage par emplacement sur des configurations de Trunk, reportez-vous à la section permettre le routage par emplacement vers des lignes de routage dans [Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Pour cet exemple, le tableau ci-dessous illustre les Trunks utilisés dans ce scénario.
+Vous devez définir des jonctions dans votre déploiement voix entreprise. Pour le routage géodépendant, vous devez créer une configuration de jonction par jonction. À l’aide du générateur de topologie Lync Server, définissez vos jonctions et utilisez la commande Lync Server Windows PowerShell, New-applet cstrunkconfiguration ou le panneau de configuration Lync Server pour définir les configurations de jonction correspondantes. Pour plus d’informations sur l’activation du routage géodépendant sur les configurations de jonctions, consultez la section Activer le routage géodépendant vers des jonctions dans la rubrique [activation du routage géodépendant dans Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Pour cet exemple, le tableau suivant illustre les jonctions utilisées dans ce scénario.
 
-Pour plus d’informations, reportez-vous à la section [définir des lignes supplémentaires dans le générateur de topologie de Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
+Pour plus d’informations, reportez-vous à la rubrique [define Additional jonctions in Topology Builder in Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
 
 <table>
@@ -66,38 +66,38 @@ Pour plus d’informations, reportez-vous à la section [définir des lignes sup
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom du Trunk</th>
-<th>Type de système</th>
+<th>Nom de la jonction</th>
+<th>Type du système</th>
 <th>Nom</th>
-<th>Lieu</th>
-<th>serveur de médiation</th>
+<th>L’emplacement</th>
+<th>Serveur de médiation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Trunk 1 DEL-GW</p></td>
-<td><p>Passerelle RTC</p></td>
+<td><p>Jonction 1 DEL-GW</p></td>
+<td><p>Passerelle PSTN</p></td>
 <td><p>DEL-GW</p></td>
 <td><p>Delhi</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
-<td><p>Trunk 2 HYD-GW</p></td>
-<td><p>Passerelle RTC</p></td>
+<td><p>Jonction 2 HYD-GW</p></td>
+<td><p>Passerelle PSTN</p></td>
 <td><p>HYD-GW</p></td>
 <td><p>Hyderabad</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Trunk 3 DEL-PBX</p></td>
-<td><p>Private</p></td>
+<td><p>Jonction 3 DEL-PBX</p></td>
+<td><p>PBX</p></td>
 <td><p>DEL-PBX</p></td>
 <td><p>Delhi</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
-<td><p>Trunk 4 HYD-PBX</p></td>
-<td><p>Private</p></td>
+<td><p>Jonction 4 HYD-PBX</p></td>
+<td><p>PBX</p></td>
 <td><p>HYD-PBX</p></td>
 <td><p>Hyderabad</p></td>
 <td><p>MS1</p></td>
@@ -115,11 +115,11 @@ Pour plus d’informations, reportez-vous à la section [définir des lignes sup
 
 <div>
 
-## <a name="defines-voice-policies"></a>Définit les stratégies vocales
+## <a name="defines-voice-policies"></a>Définit les stratégies de voix
 
-Vous devez définir des politiques vocales pour le déploiement de votre voix entreprise. Définissez une stratégie vocale pour appliquer des restrictions de routage basées sur les emplacements à un sous-ensemble d’utilisateurs, si seul un sous-ensemble de ces derniers est requis pour utiliser le routage basé sur l’emplacement. Pour cet exemple, le tableau ci-dessous illustre les stratégies vocales utilisées dans ce scénario. Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.
+Vous devez définir des stratégies de voix pour votre déploiement voix entreprise. Définir une stratégie de voix pour appliquer des restrictions de routage géodépendant à un sous-ensemble d’utilisateurs si seul un sous-ensemble d’entre eux est requis pour utiliser le routage géodépendant. Pour cet exemple, le tableau suivant illustre les stratégies de voix utilisées dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 
-Pour plus d’informations, reportez-vous [à configuration des stratégies de voix et des enregistrements d’utilisation RTC pour autoriser les fonctionnalités et privilèges d’utilisation dans Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies de voix et des enregistrements d’utilisation RTC pour autoriser les fonctionnalités d’appel et les privilèges dans Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
 
 <table>
@@ -131,20 +131,20 @@ Pour plus d’informations, reportez-vous [à configuration des stratégies de v
 <thead>
 <tr class="header">
 <th></th>
-<th>Politique vocale 1</th>
-<th>Politique vocale 2</th>
+<th>Stratégie de voix 1</th>
+<th>Stratégie de voix 2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID de la stratégie vocale</p></td>
-<td><p>Politique vocale de Delhi</p></td>
-<td><p>Politique vocale Hyderabad</p></td>
+<td><p>ID de stratégie de voix</p></td>
+<td><p>Stratégie de voix de Delhi</p></td>
+<td><p>Stratégie de voix Hyderabad</p></td>
 </tr>
 <tr class="even">
-<td><p>Usages RTC</p></td>
-<td><p>Utilisation de Delhi, utilisation de PBX del, utilisation du PBX HYD</p></td>
-<td><p>Utilisation de Hyderabad, utilisation de PBX HYD, utilisation de PBX del</p></td>
+<td><p>Utilisations RTC</p></td>
+<td><p>Utilisation de Delhi, utilisation de PBX del, utilisation de PBX HYD</p></td>
+<td><p>Utilisation de Hyderabad, utilisation de la HYD PBX, utilisation de PBX del</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
@@ -164,11 +164,11 @@ Pour plus d’informations, reportez-vous [à configuration des stratégies de v
 
 <div>
 
-## <a name="define-voice-routes"></a>Définir des itinéraires vocaux
+## <a name="define-voice-routes"></a>Définir les itinéraires des communications vocales
 
-Vous devez définir des itinéraires vocaux pour votre déploiement voix entreprise. Pour cet exemple, le tableau ci-dessous illustre les itinéraires vocaux utilisés dans ce scénario. Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.
+Vous devez définir des itinéraires de communications vocales pour votre déploiement voix entreprise. Pour cet exemple, le tableau suivant illustre les itinéraires des communications vocales utilisés dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 
-Pour plus d’informations, reportez-vous à la rubrique [Configuration des itinéraires vocaux pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+Pour plus d’informations, reportez-vous à la rubrique [Configuration des itinéraires des communications vocales pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
 
 <table>
@@ -182,33 +182,33 @@ Pour plus d’informations, reportez-vous à la rubrique [Configuration des itin
 <thead>
 <tr class="header">
 <th></th>
-<th>Route vocale 1</th>
-<th>Route vocale 2</th>
-<th>Route vocale 3</th>
-<th>Route vocale 4</th>
+<th>Itinéraire des communications vocales 1</th>
+<th>Itinéraire des communications vocales 2</th>
+<th>Itinéraire des communications vocales 3</th>
+<th>Itinéraire des communications vocales 4</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Nom</p></td>
-<td><p>Delhi route</p></td>
-<td><p>Route Hyderabad</p></td>
-<td><p>Route PBX del</p></td>
-<td><p>Route HYD PBX</p></td>
+<td><p>Itinéraire de l’Delhi</p></td>
+<td><p>Itinéraire Hyderabad</p></td>
+<td><p>Itinéraire de la del PBX</p></td>
+<td><p>Itinéraire HYD PBX</p></td>
 </tr>
 <tr class="even">
-<td><p>Usages RTC</p></td>
-<td><p>L’utilisation de Delhi</p></td>
+<td><p>Utilisations RTC</p></td>
+<td><p>Utilisation de Delhi</p></td>
 <td><p>Utilisation de Hyderabad</p></td>
 <td><p>Utilisation de PBX del</p></td>
-<td><p>Utilisation de HYD PBX</p></td>
+<td><p>Utilisation de la HYD PBX</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jonction</p></td>
-<td><p>Trunk 1 DEL-GW</p></td>
-<td><p>Trunk 2 HYD-GW</p></td>
-<td><p>Trunk 3 DEL-PBX</p></td>
-<td><p>Trunk 4 HYD-PBX</p></td>
+<td><p>Urbain</p></td>
+<td><p>Jonction 1 DEL-GW</p></td>
+<td><p>Jonction 2 HYD-GW</p></td>
+<td><p>Jonction 3 DEL-PBX</p></td>
+<td><p>Jonction 4 HYD-PBX</p></td>
 </tr>
 </tbody>
 </table>
@@ -223,11 +223,11 @@ Pour plus d’informations, reportez-vous à la rubrique [Configuration des itin
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
+## <a name="enable-users-for-enterprise-voice"></a>Activer les utilisateurs pour Voix Entreprise
 
-Activez les utilisateurs pour voix entreprise et attribuez-leur une stratégie vocale déjà définie. Pour cet exemple, le tableau ci-dessous illustre l’affectation utilisée dans ce scénario. Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.
+Activez les utilisateurs pour voix entreprise et affectez-leur une stratégie de voix que vous avez définie précédemment. Pour cet exemple, le tableau suivant illustre l’affectation utilisée dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
 
-Pour plus d’informations, reportez-vous à [activer l’application voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
+Pour plus d’informations, consultez la rubrique [activation des utilisateurs pour voix entreprise dans Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
 
 <table>
@@ -239,15 +239,15 @@ Pour plus d’informations, reportez-vous à [activer l’application voix entre
 <thead>
 <tr class="header">
 <th></th>
-<th>Utilisateurs situés à Delhi</th>
+<th>Utilisateurs situés à l’adresse de Delhi</th>
 <th>Utilisateurs situés dans Hyderabad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Politique vocale associée</p></td>
-<td><p>Politique vocale de Delhi</p></td>
-<td><p>Politique vocale Hyderabad</p></td>
+<td><p>Stratégie de voix associée</p></td>
+<td><p>Stratégie de voix de Delhi</p></td>
+<td><p>Stratégie de voix Hyderabad</p></td>
 </tr>
 <tr class="even">
 <td><p>Exemples d’utilisateurs</p></td>

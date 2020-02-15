@@ -12,20 +12,20 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be77aa62f03271c198a4448f5d299f90de0d5e5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7dbc63d5b90636ecb5a8c8dfe7971a0d862b8eff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765945"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Navigation dans l’outil de planification de Lync Server 2013
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Navigation dans l’outil de planification dans Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41765945"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Vous naviguez dans l’outil de planification de Microsoft Lync Server 2013 à l’aide d’une combinaison d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques du contexte. Les volets contextuels fournissent des informations conceptuelles sur la planification et la capacité appropriées pour les options de sélection sur une page spécifique.
+Vous naviguez dans l’outil de planification Microsoft Lync Server 2013, à l’aide d’une combinaison de barres d’outils, de boutons et de liens spécifiques aux pages, et de volets spécifiques à des contextes. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité correspondant aux options de sélection sur une page spécifique.
 
-Lorsque vous démarrez l’outil de planification, le concepteur affiche d’abord la page **Bienvenue dans l’outil de planification de Microsoft Lync Server 2013** .
+Au démarrage de l’outil de planification, un concepteur visualise d’abord la page **Bienvenue dans l’outil de planification pour la page Microsoft Lync Server 2013** .
 
-![Page d’accueil de l’outil planification](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Page d’accueil de l’outil planification")
+![Page d’accueil de l’outil de planification](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Page d’accueil de l’outil de planification")
 
-Dans la page d’accueil, le concepteur choisit entre **Prise en main**, **Concevoir des sites** ou **Afficher**. Pour plus d’informations, reportez-vous à [la rubrique Création de la conception de topologie initiale pour Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).
+Sur la page d’accueil, le concepteur choisit **Démarrer**, **concevoir des sites**ou **Afficher**. Pour plus d’informations, reportez-vous à [la rubrique Création de la conception de topologie initiale pour Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).
 
-En haut de l’outil de planification se trouve une barre d’outils qui permet d’accéder facilement aux fonctions fréquemment utilisées. La barre d’outils est affichée ici pour référence et chaque fonction sera abordée dans des rubriques connexes.
+En haut de l’outil de planification se trouve une barre d’outils qui permet d’accéder facilement aux fonctions fréquemment utilisées. La barre d’outils apparaît ici à des fins de référence, et chaque fonction sera abordée dans Rubriques connexes.
 
-![Barre d’outils outil de planification](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Barre d’outils outil de planification")
+![Barre d’outils de l’outil de planification](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Barre d’outils de l’outil de planification")
 
-Dans l’outil de planification, une section Liens externes est située sur le côté gauche de l’outil. À partir de cette section, le concepteur peut accéder facilement aux informations de planification et de déploiement et à d’autres ressources techniques, telles que des formations, des blogs techniques, des forums et d’autres ressources téléchargeables. Vous pouvez également accéder à la section Liens externes en tant que lien vers l’équipe d’outils de planification de Lync Server 2013.
+L’outil de planification dispose d’une section Liens externes sur le côté gauche de l’outil. À partir de cette section, le concepteur peut accéder facilement aux informations de planification et de déploiement et à d’autres ressources techniques, telles que des formations, des blogs techniques, des forums et d’autres ressources téléchargeables. De même, dans la section des liens externes se trouve un lien de commentaires vers l’équipe de l’outil de planification Lync Server 2013.
 
 ![Boîte de dialogue Liens externes de l’outil de planification](images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Boîte de dialogue Liens externes de l’outil de planification")
 
-Un volet actions qui dépend du contexte s’affiche sur plusieurs pages dans l’outil de planification. Grâce au volet Actions, le concepteur peut accéder facilement aux principales sections de la topologie. Les liens disponibles dans le volet Actions changent en fonction du niveau de détail de la topologie. Le volet Actions est disponible une fois que vous avez répondu aux questions initiales et affiché la topologie. Le volet Actions comporte une section de vue d’ensemble, qui affiche les chiffres que le concepteur a indiqués en réponse aux questions initiales. La vue d’ensemble correspond au contexte des informations affichées.
+Un volet actions contextuelles est affiché dans de nombreuses pages de l’outil de planification. Le volet Actions donne au concepteur un accès facile aux sections principales de la topologie. Les liens disponibles dans le volet Actions changent en fonction du niveau de détail de votre topologie. Le volet actions est disponible une fois que vous avez terminé les questions de l’interview et affiché votre topologie. Le volet Actions inclut la section vue d’ensemble, qui affiche les numéros que le concepteur a entrés dans le cadre du processus d’entretien. La vue d’ensemble correspond au contexte des informations affichées.
 
 En outre, des informations de matériel sont affichées dans la vue d’ensemble sous le volet Actions. La configuration matérielle indique le matériel que la topologie actuelle recommande.
 
@@ -64,13 +64,13 @@ En outre, des informations de matériel sont affichées dans la vue d’ensemble
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer la conception de topologie initiale pour Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)  
+[Création de la conception de topologie initiale pour Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)  
 
 
 [Modification de la conception dans Lync Server 2013](lync-server-2013-editing-the-design.md)  
 
 
-[Consultation des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Examen des rapports de l’administrateur dans Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

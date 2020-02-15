@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des déploiements hybrides'
+title: 'Lync Server 2013 : configuration des déploiements hybrides'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299c80b3626f60209e268a51d91916bb72bb56c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4e1192882a7727ca4388b09a8644253be889b25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Configuration des déploiements hybrides pour Lync Server 2013
+# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Configuration des déploiements hybrides Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41728794"
 
 _**Dernière modification de la rubrique :** 2016-05-26_
 
-Cette section décrit les étapes nécessaires à la configuration des déploiements hybrides Lync Server 2013.
+Cette section décrit les étapes nécessaires à la configuration de déploiements hybrides de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - Si vous disposez d’un déploiement Lync local et voulez déplacer des utilisateurs vers le Cloud pour utiliser Lync Online dans Office 365, voir [configuration d’un déploiement local pour l’environnement hybride avec Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
+  - Si vous disposez d’un déploiement Lync local et que vous souhaitez déplacer certains utilisateurs vers le Cloud pour utiliser Lync Online dans Office 365, reportez-vous à la rubrique [Configuring an on-premises Deployment for Hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
 
-  - Si vous avez activé des utilisateurs pour Lync dans Lync Online, mais que vous n’avez pas activé le déploiement local, voir [déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
+  - Si des utilisateurs sont activés pour Lync dans Lync Online, mais qui n’ont pas été activés dans un déploiement local, reportez-vous à la rubrique [déplacement d’utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
-[Planification des déploiements hybrides de Lync Server 2013](lync-server-2013-planning-for-hybrid-deployments.md)
+[Planification des déploiements hybrides Lync Server 2013](lync-server-2013-planning-for-hybrid-deployments.md)
 
 </div>
 

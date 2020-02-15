@@ -1,5 +1,5 @@
 ---
-title: Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant
+title: Configurer une entrée d’application approuvée pour le contrôle d’appel distant
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43921fcdeb5ca6e5c74e2c7a82b36bf830cbaa15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757868"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configurer une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757868"
 
 _**Dernière modification de la rubrique :** 2015-11-02_
 
-La passerelle SIP/CSTA doit être configurée en tant qu’application approuvée afin que Lync Server applique un itinéraire statique pour acheminer les appels vers la passerelle.
+La passerelle SIP/CSTA doit être configurée en tant qu’application approuvée afin de permettre à Lync Server d’appliquer un itinéraire statique pour acheminer les appels vers la passerelle.
 
 <div>
 
 
 > [!IMPORTANT]
-> Si vous effectuez une migration à partir d’une version précédente du déploiement de Lync Server, assurez-vous que vous avez supprimé toutes les entrées d’applications approuvées (auparavant connues sous le nom d’entrées d’hébergement autorisées) que vous avez créées pour la passerelle SIP/CSTA avant de suivre les procédures décrites dans cette rubrique. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">la rubrique supprimer un ancien hôte autorisé de Lync Server 2013 (facultatif)</A>.<BR>Si vous envisagez de déployer le nouveau contrôle d’appel distant à l’aide d’une connexion TCP (Transmission Control Protocol), vous devez vérifier que <STRONG>l’utilisation du service de limitation aux adresses IP sélectionnées</STRONG> doit être définie sur les applications et les pools de confiance existants, si vous souhaitez utiliser le même port TCP pour la nouvelle application de confiance.
+> Si vous migrez des utilisateurs à partir d’une version précédente du déploiement Lync Server, veillez à supprimer toutes les entrées d’applications approuvées existantes (précédemment connues sous le nom d’entrées d’hôte autorisé) créées pour la passerelle SIP/CSTA avant de suivre les procédures décrites dans cette rubrique. Pour plus d’informations, consultez <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">la rubrique supprimer un hôte autorisé hérité dans Lync Server 2013 (facultatif)</A>.<BR>Si vous envisagez de déployer un nouveau contrôle d’appel distant à l’aide d’une connexion TCP (Transmission Control Protocol), vous devez vérifier que la <STRONG>limite d’utilisation des services aux adresses IP sélectionnées</STRONG> doit être définie sur des pools et des applications approuvées existantes, si vous voulez utiliser le même port TCP pour la nouvelle application approuvée.
 
 
 
@@ -51,15 +51,15 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
 
 <div>
 
-## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>Pour configurer une entrée d’application fiable pour la passerelle SIP/CSTA
+## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>Pour configurer une entrée d’application approuvée pour la passerelle SIP/CSTA
 
-1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou d’un rôle de contrôle d’accès basé sur un rôle (RBAC) auquel vous avez affecté l’applet **de commande New-CsTrustedApplicationPool** .
+1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou d’un rôle RBAC (contrôle d’accès basé sur un rôle) auquel vous avez affecté la cmdlet **New-CsTrustedApplicationPool** .
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Pour créer une entrée d’application fiable, effectuez l’une des opérations suivantes :
+3.  Pour créer une entrée d’application approuvée, procédez comme suit :
     
-      - Pour une connexion TLS (Transport Layer Security), à l’invite de commandes, tapez ce qui suit :
+      - Pour une connexion TLS (Transport Layer Security), tapez ce qui suit à l’invite de commandes :
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -67,7 +67,7 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
-      - Pour une connexion TCP (Transmission Control Protocol), à l’invite de commandes, tapez ce qui suit :
+      - Pour une connexion TCP (Transmission Control Protocol), tapez ce qui suit à l’invite de commandes :
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -75,9 +75,9 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
-4.  Pour ajouter l’application fiable au pool, effectuez l’une des opérations suivantes :
+4.  Pour ajouter l’application approuvée au pool, procédez de l’une des manières suivantes :
     
-      - Pour une connexion TLS, à l’invite de commandes, tapez ce qui suit :
+      - Pour une connexion TLS, tapez ce qui suit à l’invite de commandes :
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway>
         
@@ -85,7 +85,7 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn rccgateway.contoso.net -Port 5065
     
-      - Pour une connexion TCP, à l’invite de commandes, tapez ce qui suit :
+      - Pour une connexion TCP, tapez ce qui suit à l’invite de commandes :
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <IP address or FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway> -EnableTcp
         
@@ -93,7 +93,7 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn 192.169.0.240 -Port 5065 -EnableTcp
 
-5.  Pour implémenter les modifications publiées apportées à la topologie, à l’invite de commandes, tapez ce qui suit :
+5.  Pour implémenter les modifications publiées que vous avez apportées à la topologie, tapez ce qui suit à l’invite de commandes :
     
         Enable-CsTopology
 
@@ -104,7 +104,7 @@ La passerelle SIP/CSTA doit être configurée en tant qu’application approuvé
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration d’un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[Configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
 [Définition d’une adresse IP de passerelle SIP/CSTA dans Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 

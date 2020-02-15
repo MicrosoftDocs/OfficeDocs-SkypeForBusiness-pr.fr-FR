@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des certificats - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
+title: 'Lync Server 2013 : Résumé des certificats-serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736554"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé des certificats - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013
+# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Résumé des certificats-serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41736554"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Microsoft Lync Server 2013 utilise des certificats pour authentifier mutuellement d’autres serveurs et pour chiffrer les données du serveur vers le client et le serveur. Les certificats nécessitent une correspondance de nom des enregistrements DNS (Domain Name System) associés aux serveurs et du nom de l’objet (SN) et du nom de l’objet du certificat. Pour mapper correctement les serveurs, les enregistrements DNS et les entrées de certificat, vous devez planifier soigneusement les noms de domaines complets du serveur prévus inscrits dans DNS et les entrées SN et SAN sur le certificat.
+Microsoft Lync Server 2013 utilise des certificats pour authentifier mutuellement d’autres serveurs et chiffrer les données entre serveurs et serveurs en client. Les certificats exigent que les noms des enregistrements DNS (Domain Name System) associés aux serveurs, au nom du sujet et à l’autre nom du sujet correspondent. Pour mapper correctement les serveurs, les enregistrements DNS et les entrées de certificat, vous devez planifier attentivement les noms de domaine complets de vos serveurs tels qu’ils sont inscrits dans le système DNS et dans les entrées du nom du sujet et de l’autre nom du sujet sur le certificat.
 
-Le certificat attribué aux interfaces externes du serveur Edge est demandé auprès d’une autorité de certification (CA) publique. Les autorités de certification publiques ayant démontré le succès de la fourniture de certificats aux fins de communications unifiées sont indiquées dans [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)l’article suivant :. Lors de la demande du certificat, vous pouvez utiliser la demande de certificat générée par l’Assistant Déploiement de Lync Server ou créer manuellement la requête à l’aide des applets de certification Lync Server Management Shell ou d’un processus fourni par une autorité de certification publique. Pour plus d’informations sur les applets de certification Lync Server Management Shell pour la gestion des certificats, voir [applets de certification et d’authentification dans Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) lors de l’attribution du certificat, le certificat est attribué à l’interface du service Edge d’accès, à l’interface du service Edge de conférence Web et au service d’authentification audio/vidéo. Le service d’authentification audio/vidéo ne doit pas être confondu avec le service Edge A/V qui n’utilise pas de certificat pour chiffrer les flux audio et vidéo. L’interface du serveur Edge interne peut utiliser un certificat provenant d’une autorité de certification interne (à votre organisation) ou d’un certificat d’une autorité de certification publique. Le certificat d’interface interne utilise uniquement le SN et n’a pas besoin ou n’utilise pas d’entrées du SAN.
+Le certificat affecté aux interfaces externes du serveur Edge est demandé auprès d’une autorité de certification publique. Les autorités de certification publiques ayant démontré la réussite de la fourniture de certificats à des fins de communications unifiées sont répertoriées dans l’article suivant : [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395). Lors de la demande du certificat, vous pouvez utiliser la demande de certificat générée par l’Assistant Déploiement de Lync Server ou créer manuellement la demande à l’aide des applets de commande Lync Server Management Shell ou d’un processus fourni par une autorité de certification publique. Pour plus d’informations sur les applets de commande Lync Server Management Shell pour la gestion des certificats, consultez les applets de commande de [certificat et d’authentification dans Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) lors de l’affectation du certificat, le certificat est affecté à l’interface de service Edge de conférence Web et au service d’authentification audio/vidéo. Le service d’authentification audio/vidéo ne doit pas être confondu avec le service Edge A/V qui n’utilise pas de certificat pour chiffrer les flux audio et vidéo. L’interface de serveur Edge interne peut utiliser un certificat d’une autorité de certification interne (vers votre organisation) ou un certificat d’une autorité de certification publique. Le certificat de l’interface interne utilise uniquement le nom du sujet ; il ne requiert pas et n’utilise pas d’entrées SAN.
 
 <div>
 
 
 > [!NOTE]  
-> Le tableau suivant montre une deuxième entrée SIP (sip.fabrikam.com) dans la liste nom de l’objet. Pour chaque domaine SIP de votre organisation, vous devez ajouter un FQDN correspondant dans la liste nom du sujet du certificat.
+> Le tableau suivant présente une deuxième entrée SIP (sip.fabrikam.com) dans la liste des autres noms de sujet, à des fins de référence. Pour chaque domaine SIP dans votre organisation, vous devez ajouter un nom de domaine complet (FQDN) correspondant répertorié dans la liste des autres noms de sujet du certificat.
 
 
 
@@ -53,7 +53,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 
 <div>
 
-## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a>Certificats requis pour une seule bordure consolidée avec des adresses IP privées utilisant tar
+## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a>Certificats requis pour un serveur Edge consolidé unique avec des adresses IP privées à l’aide de la traduction d’adresses réseau
 
 
 <table>
@@ -67,30 +67,30 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 <tr class="header">
 <th>Composant</th>
 <th>Nom du sujet (SN)</th>
-<th>Autres noms d’objet (SAN)/Order</th>
+<th>Autres noms du sujet (SAN)/Ordre</th>
 <th>Commentaires</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Bordure consolidée unique (bord externe)</p></td>
+<td><p>Serveur Edge consolidé unique (serveur Edge externe)</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces de bord externe pour :</p>
+<td><p>Le certificat doit provenir d’une autorité de certification publique et comporter l’utilisation améliorée de la clé du serveur et l’utilisation améliorée de la clé du client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est assigné aux interfaces Edge externes pour :</p>
 <ul>
 <li><p>Serveur Edge d’accès</p></li>
-<li><p>Edge de conférence</p></li>
-<li><p>Edge A/V</p></li>
+<li><p>Serveur Edge de conférence</p></li>
+<li><p>Edge A/V</p></li>
 </ul>
-<p>Notez que les San sont automatiquement ajoutés au certificat en fonction de vos définitions dans le générateur de topologie. Vous pouvez ajouter des entrées SAN selon vos besoins pour des domaines SIP supplémentaires et d’autres entrées que vous devez prendre en charge. Le nom du sujet est répliqué sur le SAN et doit être présent pour une opération correcte.</p></td>
+<p>Notez que les autres noms du sujet sont automatiquement ajoutés au certificat en fonction de vos définitions dans le Générateur de topologie. Vous ajoutez des entrées SAN selon les besoins liés aux autres domaines SIP et entrées que vous devez prendre en charge. Le nom du sujet est répliqué dans l’autre nom du sujet et doit être présent pour assurer un fonctionnement correct.</p></td>
 </tr>
 <tr class="even">
-<td><p>Arête consolidée unique (bord interne)</p></td>
+<td><p>Serveur Edge consolidé unique (serveur Edge interne)</p></td>
 <td><p>lsedge.contoso.net</p></td>
-<td><p>Aucun SAN requis</p></td>
-<td><p>Le certificat peut être émis par une autorité de certification publique ou privée, et doit contenir l’extension améliorée du serveur. Le certificat est attribué à l’interface latérale interne.</p></td>
+<td><p>Aucun autre nom du sujet requis</p></td>
+<td><p>Le certificat peut être émis par une autorité de certification publique ou privée et il doit contenir l’utilisation améliorée de la clé du serveur. Il est assigné à l’interface Edge interne.</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Résumé de certification-connectivité de messagerie instantanée publique
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Résumé du certificat – Solution PIC (Public IM Connectivity)
 
 
 <table>
@@ -113,25 +113,25 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 <thead>
 <tr class="header">
 <th>Composant</th>
-<th>Nom de l’objet</th>
-<th>Autres noms d’objet (SAN)/Order</th>
+<th>Nom du sujet</th>
+<th>Autres noms de sujets (SAN)/Ordre</th>
 <th>Commentaires</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Périphérie externe/accès</p></td>
+<td><p>Serveur Edge externe/d’accès</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces de bord externe pour :</p>
+<td><p>Le certificat doit provenir d’une autorité de certification publique et comporter l’utilisation améliorée de la clé du serveur et l’utilisation améliorée de la clé du client si la solution PIC (Public IM Connectivity) avec AOL doit être déployée. Le certificat est assigné aux interfaces Edge externes pour :</p>
 <ul>
 <li><p>Serveur Edge d’accès</p></li>
-<li><p>Edge de conférence</p></li>
-<li><p>Edge A/V</p></li>
+<li><p>Serveur Edge de conférence</p></li>
+<li><p>Edge A/V</p></li>
 </ul>
-<p>Notez que les San sont automatiquement ajoutés au certificat en fonction de vos définitions dans le générateur de topologie. Vous pouvez ajouter des entrées SAN selon vos besoins pour des domaines SIP supplémentaires et d’autres entrées que vous devez prendre en charge. Le nom du sujet est répliqué sur le SAN et doit être présent pour une opération correcte.</p></td>
+<p>Notez que les autres noms de sujets sont automatiquement ajoutés au certificat en fonction de vos définitions dans le Générateur de topologies. Vous ajoutez les entrées d’autres noms de sujets dont vous avez besoin pour les domaines SIP supplémentaires, ainsi que d’autres entrées que vous devez prendre en charge. Le nom de sujet est répliqué dans l’autre nom de sujet et doit être présent pour un fonctionnement correct.</p></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>Résumé du certificat pour le protocole extensible de messagerie et de présence
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>Résumé du certificat pour le protocole XMPP
 
 
 <table>
@@ -154,21 +154,21 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 <thead>
 <tr class="header">
 <th>Composant</th>
-<th>Nom de l’objet</th>
-<th>Autres noms d’objet (SAN)/Order</th>
+<th>Nom du sujet</th>
+<th>Autres noms de sujets (SAN)/Ordre</th>
 <th>Commentaires</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Affecter au service Edge d’accès du serveur Edge ou du pool de périphérie</p></td>
+<td><p>Attribuer au service Edge d’accès d’un serveur Edge ou d’un pool de serveurs Edge</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p>
 <p>xmpp.contoso.com</p>
-<p><strong>*.contoso.com</strong></p></td>
-<td><p>Les trois premières entrées du SAN sont les entrées SAN normales pour un serveur de périphérie complet. Contoso.com est l’entrée requise pour la Fédération avec le partenaire XMPP au niveau du domaine racine. Cette entrée autorise la fonction XMPP pour tous les domaines dont le suffixe est *. contoso.com.</p></td>
+<p><strong>*. contoso.com</strong></p></td>
+<td><p>Les trois premières entrées SAN sont les entrées SAN normales pour un serveur Edge complet. L’entrée contoso.com correspond à l’entrée requise pour la fédération avec le partenaire XMPP au niveau du domaine racine. Cette entrée autorise le protocole XMPP pour tous les domaines portant le suffixe *.contoso.com.</p></td>
 </tr>
 </tbody>
 </table>

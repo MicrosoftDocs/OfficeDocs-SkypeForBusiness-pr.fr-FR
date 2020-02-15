@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer une stratégie de conférence existante'
+title: 'Lync Server 2013 : suppression d’une stratégie de conférence existante'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736374"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41736374"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Suivez ces étapes pour supprimer un utilisateur ou une stratégie de conférence au niveau du site.
+Suivez cette procédure pour supprimer une stratégie de conférence au niveau de l’utilisateur ou du site.
 
 <div>
 
@@ -51,23 +51,23 @@ Suivez ces étapes pour supprimer un utilisateur ou une stratégie de conférenc
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Pour supprimer une stratégie de site ou de conférence utilisateur
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Pour supprimer une stratégie de conférence au niveau de l’utilisateur ou du site
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
 
-4.  Dans la liste des stratégies de conférence, cliquez sur la stratégie de site ou d’utilisateur à supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
+4.  Dans la liste des stratégies de conférence, cliquez sur la stratégie de site ou d’utilisateur à supprimer, cliquez sur **modifier**, puis cliquez sur **supprimer**.
 
 </div>
 
 <div>
 
-## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de conférence à l’aide d’applets de cmdlet Windows PowerShell
+## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Suppression des stratégies de conférence à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server Management Shell et de l’applet de passe **Remove-CsConferencingPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server Management Shell et de la cmdlet **Remove-CsConferencingPolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
@@ -83,7 +83,7 @@ Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server 
 
 ## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>Pour supprimer toutes les stratégies de conférence appliquées à l’étendue par utilisateur
 
-  - La commande suivante supprime toutes les stratégies de conférence configurées pour l’étendue par utilisateur :
+  - La commande suivante permet de supprimer toutes les stratégies de conférence configurées dans l’étendue par utilisateur :
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -91,9 +91,9 @@ Vous pouvez supprimer des stratégies de conférence à l’aide de Lync Server 
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>Pour supprimer toutes les stratégies de conférence autorisant l’enregistrement par des utilisateurs externes
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>Pour supprimer toutes les stratégies de conférence qui autorise l’enregistrement par des utilisateurs externes
 
-  - La commande suivante supprime toutes les stratégies de conférence qui permettent aux utilisateurs externes d’enregistrer la Conférence :
+  - La commande suivante permet de supprimer toutes les stratégies de conférence qui autorisent les utilisateurs externes à enregistrer la conférence :
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 

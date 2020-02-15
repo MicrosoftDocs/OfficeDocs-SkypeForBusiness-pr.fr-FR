@@ -1,5 +1,5 @@
 ---
-title: 'Configuration requise pour Lync Server 2013 : Lync pour Windows Phone'
+title: 'Lync Server 2013 : configuration requise pour Lync pour Windows Phone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ea0721b69ff8c7fa666a77f96123c9f605092ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5ea73784e025cb1270451706d5a59628020b629
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765472"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41765472"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Microsoft Lync 2013 pour Windows Phone fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un appareil mobile Windows professionnel. Les appareils mobiles permettent aux utilisateurs de prolonger la portée de Lync 2013. Cette rubrique décrit les considérations relatives à la planification de Lync 2013 pour Windows Phone, qui incluent l’identification des éléments requis et des exigences techniques, des composants requis et des instructions de déploiement.
+Microsoft Lync 2013 pour Windows Phone offre une messagerie instantanée, une présence améliorée et la téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un appareil mobile Windows professionnel. Les appareils mobiles permettent aux utilisateurs d’étendre la portée de Lync 2013. Cette rubrique décrit les considérations relatives à la planification de Lync 2013 pour Windows Phone qui incluent l’identification des conditions préalables et des exigences techniques, les composants requis et les instructions de déploiement.
 
 <div>
 
 ## <a name="lync-for-windows-phone-prerequisites"></a>Configuration requise pour Lync pour Windows Phone
 
-Vous trouverez ci-après les conditions préalables de Lync 2013 pour Windows Phone.
+Voici les conditions préalables de Lync 2013 pour Windows Phone.
 
-  - Windows Phone 8, nom de l’application « Apollo » ou la version la plus récente.
+  - Windows Phone 8, nom de nom « Apollo » ou la dernière version.
 
-  - Les dernières mises à jour Microsoft doivent être installées sur l’appareil Windows Phone. Pour plus d’informations, consultez l’historique des mises [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)à jour Windows Phone 8 à l’adresse.
+  - L’appareil Windows Phone doit disposer des dernières mises à jour disponibles auprès de Microsoft. Pour plus d’informations, consultez l’historique des mises [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)à jour de Windows Phone 8 à l’adresse.
 
-  - L’appareil doit disposer de 12 Mo d’espace libre sur le disque.
+  - L’appareil doit avoir au moins 12 Mo d’espace disque disponible.
 
   - L’utilisateur doit avoir souscrit un plan de données et de communications vocales auprès d’un fournisseur.
 

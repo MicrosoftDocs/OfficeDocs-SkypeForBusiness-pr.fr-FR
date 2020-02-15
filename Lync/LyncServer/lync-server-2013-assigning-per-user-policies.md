@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Attribution de stratégies par utilisateur dans Lync Server 2013
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Affectation de stratégies par utilisateur dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41734034"
 
 _**Dernière modification de la rubrique :** 2012-10-14_
 
-Vous pouvez affecter certaines stratégies à un utilisateur ou à un groupe d’utilisateurs afin de spécifier des paramètres spécifiques qui s’écartent des paramètres définis dans les stratégies affectées à d’autres utilisateurs, telles que les stratégies globales. Ces stratégies s’appellent des politiques par utilisateur.
+Vous pouvez attribuer certaines stratégies à un utilisateur ou à un groupe d’utilisateurs pour spécifier des paramètres particuliers, qui divergent de ceux définis dans les stratégies attribuées aux autres utilisateurs, telles que les stratégies globales. Ces stratégies sont connues sous le terme de stratégies par utilisateur.
 
 <div>
 
@@ -47,21 +47,21 @@ Vous pouvez affecter certaines stratégies à un utilisateur ou à un groupe d�
 
   - [Affecter une stratégie de version de client par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [Affecter une stratégie de code confidentiel par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Affectation d’une stratégie de code confidentiel par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [Affectation d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [Affecter une stratégie d’archivage par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [Affectation d’une stratégie d’archivage par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
   - [Affecter une stratégie d’emplacement par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [Affecter une stratégie de mobilité par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Attribuer une stratégie de mobilité par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [Assigner une stratégie de discussion persistante par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [Affectation d’une stratégie de conversation permanente par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [Affecter une stratégie de plan de numérotation par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [Affectation d’une stratégie de plan de numérotation par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [Affecter une stratégie vocale par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [Affecter une stratégie de voix par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-voice-policy.md)
 
 </div>
 

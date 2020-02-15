@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Ajout d’un serveur de conversation permanente à la topologie'
+title: 'Lync Server 2013 : ajout d’un serveur de conversation permanente à la topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41e34643c2a9f838d9a8c66cdfc04698d813db01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Ajout d’un serveur de conversation permanente à la topologie dans Lync Server 2013
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Ajouter un serveur de conversation permanente à la topologie dans Lync Server 2013
 
 </div>
 
@@ -37,68 +37,68 @@ ms.locfileid: "41738234"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour pouvoir configurer votre déploiement pour la prise en charge de la messagerie instantanée, vous devez disposer de Lync Server 2013 et de la prise en charge du serveur de chat permanent dans votre topologie. Les informations fournies dans cette rubrique décrivent comment utiliser le générateur de topologie pour ajouter le support technique de chat permanent à votre topologie existante.
+Vous devez incorporer la prise en charge de Lync Server 2013 et du serveur de conversation permanente dans votre topologie avant de pouvoir configurer votre déploiement pour prendre en charge le serveur de conversation permanente. Les informations contenues dans cette rubrique expliquent comment utiliser le générateur de topologie pour ajouter la prise en charge du serveur de conversation permanente à votre topologie existante.
 
 <div>
 
-## <a name="to-add-persistent-chat-server-to-a-topology"></a>Pour ajouter le serveur de chat permanent à une topologie
+## <a name="to-add-persistent-chat-server-to-a-topology"></a>Pour ajouter un serveur de conversation permanente à une topologie
 
-Suivez les étapes ci-dessous pour installer une seule liste de serveurs de chat permanent sans configuration de reprise après sinistre. Pour configurer un pool de serveurs de chat permanent étiré en vue d’une haute disponibilité et d’une reprise après sinistre, reportez-vous à la rubrique [configuration du serveur de chat permanent pour une haute disponibilité et une reprise après sinistre dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) dans la documentation de déploiement.
+Procédez comme suit pour installer un seul pool de serveurs de conversation permanente sans une configuration de récupération d’urgence. Pour configurer un pool de serveurs de conversation permanente étiré pour la haute disponibilité et la récupération d’urgence, reportez-vous à la rubrique [configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) dans la documentation de déploiement.
 
-Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même procédure pour chaque liste.
+Pour déployer plusieurs pools de serveurs de conversation permanente, répétez la même procédure pour chaque pool.
 
-1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel sont installés les outils d’administration de Lync Server, connectez-vous à l’aide d’un compte qui est membre du groupe utilisateurs local (ou d’un compte disposant de droits d’utilisateur équivalents).
+1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel les outils d’administration Lync Server sont installés, ouvrez une session à l’aide d’un compte membre du groupe utilisateurs local (ou d’un compte doté de droits d’utilisateur équivalents).
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est requise pour l’installation d’un serveur Lync Server 2013, vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations contrôle total (en lecture, écriture et modification) sur le magasin de fichiers que vous souhaitez utiliser pour le stockage de fichiers du serveur de chat permanent (autrement dit, le générateur de topologie peut configurer les DACL requis). ou un compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour publier une topologie, qui est nécessaire pour installer un serveur Lync Server 2013, vous devez utiliser un compte membre du groupe <STRONG>administrateurs du domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations contrôle total (c’est-à-dire, lecture, écriture et modification) sur le magasin de fichiers que vous allez utiliser pour le magasin de fichiers du serveur de conversation permanente (c’est-à-dire que le générateur de topologies peut configurer les DACL requises) ou un compte disposant de droits équivalents.
 
     
     </div>
 
-2.  Démarrer le générateur de topologie.
+2.  Démarrez le Générateur de topologie.
 
-3.  Dans l’arborescence de la console, accédez au nœud **pools de conversations permanentes** et développez-le pour sélectionner un pool de serveurs de chat permanent, ou cliquez avec le bouton droit sur le nœud et sélectionnez **nouvelle liste de conversations permanentes**. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
+3.  Dans l’arborescence de la console, accédez au nœud **pools de conversations permanentes** et développez-le pour sélectionner un pool de serveurs de conversation permanente, ou cliquez avec le bouton droit sur le nœud et sélectionnez **nouveau pool de conversations permanentes**. Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer si le pool sera un déploiement de pool à serveur unique ou à plusieurs serveurs.
     
-    Vous pouvez choisir un **Pool de plusieurs ordinateurs** ou un **Pool d’un seul ordinateur**. Choisissez le premier si vous envisagez de disposer de plusieurs serveurs front-end serveur de chat permanent dans votre pool de serveurs de chat permanent. Effectuez ce choix maintenant, ou ultérieurement, car une fois que vous aurez créé un pool d’un seul ordinateur, vous ne pourrez pas ajouter d’autres serveurs. Si vous choisissez un pool d’ordinateurs multiples, entrez le nom de chaque serveur frontal de chat permanent qui comprend le pool.
+    Vous pouvez choisir un **Pool de plusieurs ordinateurs** ou un **Pool d’un seul ordinateur**. Choisissez le premier si vous envisagez d’avoir plusieurs serveurs frontaux de serveur de conversation permanente dans votre pool de serveurs de conversation permanente. Effectuez ce choix maintenant, ou ultérieurement, car une fois créé un pool d’un seul ordinateur, vous ne pourrez pas ajouter d’autres serveurs. Si vous choisissez un pool de plusieurs ordinateurs, entrez les noms des serveurs frontaux individuels de serveur de conversation permanente qui composent le pool.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si le rôle serveur Chat permanent est installé sur un serveur Lync Server 2013&nbsp;Standard Edition Server, le FQDN doit correspondre au nom de domaine complet (FQDN) du serveur Standard Edition Server.
+    > Si le rôle serveur de conversation permanente est installé sur un serveur Lync Server&nbsp;2013 Standard Edition, le nom de domaine complet doit correspondre au nom de domaine complet du serveur Standard Edition.
 
     
     </div>
 
-4.  Définissez un **nom complet** simple pour le pool de serveurs de chat permanent. Le nom d’affichage peut être utilisé par les clients personnalisés, en particulier lorsqu’il existe plusieurs pools de serveurs de chat permanent pour différencier des salles.
+4.  Définissez un **nom complet** simple pour le pool de serveurs de conversation permanente. Le nom d’affichage peut être utilisé par les clients personnalisés, en particulier lorsqu’il existe plusieurs pools de serveurs de conversation permanente, pour différencier les salles.
 
-5.  Définissez le port utilisé par le serveur de chat permanent pour communiquer avec les serveurs front-end de Lync Server. Le port par défaut est 5041.
+5.  Définissez le port utilisé par le serveur de conversation permanente pour communiquer avec les serveurs frontaux Lync Server. Le port par défaut est 5041.
 
-6.  Si votre organisation nécessite la prise en charge de la conformité, cochez la case **Activer la conformité**. Le cas échéant, le service de conformité serveur Chat permanent est installé sur le même ordinateur que le serveur frontal de chat permanent du serveur. Vous êtes invité à sélectionner un serveur principal SQL Server pour la compatibilité avec le serveur Chat permanent plus tard.
+6.  Si votre organisation nécessite la prise en charge de la conformité, cochez la case **Activer la conformité**. Si vous choisissez, le service de conformité du serveur de conversation permanente est installé sur le même ordinateur que le serveur frontal du serveur de conversation permanente. Vous êtes invité à sélectionner un serveur principal SQL Server pour la conformité du serveur de conversation permanente par la suite.
 
-7.  Attribuez une affinité de site pour le pool de serveurs de chat permanent. Activez la case à cocher **utiliser ce pool \<comme\> option par défaut pour le site SiteName** ou **Utilisez ce pool par défaut pour tous les sites** pour désigner ce pool de serveurs de chat permanent comme pool par défaut pour le site actuel ou pour tous les sites. Lorsque le client 2013 Lync est utilisé pour créer et gérer des salles, le pool par défaut associé au site de l’utilisateur est utilisé par l’interface de création et de gestion de la salle, afin de pouvoir diriger les opérations de création et de gestion de salle vers ce pool. Ce comportement s’applique uniquement lorsque vous avez déployé plusieurs pools de serveurs de chat permanent et que vous voulez utiliser les fonctionnalités de création et de gestion de la salle du serveur de chat permanent.
+7.  Affectez l’affinité de site pour le pool de serveurs de conversation permanente. Activez la case à cocher **utiliser ce pool \<comme\> valeur par défaut pour le site SiteName** ou **Utilisez ce pool par défaut pour tous les sites** pour désigner ce pool de serveurs de conversation permanente comme pool par défaut pour le site actuel ou tous les sites. Lorsque le client Lync 2013 est utilisé pour créer et gérer des salles, le pool par défaut associé au site de l’utilisateur est utilisé par l’expérience de création et de gestion de salle afin de pouvoir acheminer les opérations de création et de gestion de salle vers ce pool. Ceci s’applique uniquement lorsque vous avez déployé plusieurs pools de serveurs de conversation permanente et que vous souhaitez utiliser les fonctionnalités de création et de gestion de salle du serveur de conversation permanente.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Vous pouvez personnaliser les fonctionnalités de création et de gestion d’une salle à l’aide du kit de développement logiciel (SDK) serveur Chat permanent.<BR>Pour plus d’informations sur la configuration des bases de données de sauvegarde SQL Server pour la récupération d’urgence, reportez-vous à la rubrique <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configuration d’un serveur de chat permanent pour une disponibilité élevée et une reprise après sinistre dans Lync Server 2013</A> dans la documentation de déploiement.
+    > Vous pouvez personnaliser les fonctionnalités de création et de gestion de salle à l’aide du kit de développement logiciel (SDK) de serveur de conversation permanente.<BR>Pour plus d’informations sur la configuration des bases de données de sauvegarde SQL Server pour la récupération d’urgence, voir <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013</A> dans la documentation de déploiement.
 
     
     </div>
 
-8.  Définissez le **SQL Store pour le serveur de chat permanent (emplacement de stockage du contenu d’une salle de conversation)** en effectuant l’une des opérations suivantes :
+8.  Définissez le **magasin SQL pour le serveur de conversation permanente (où le contenu de la salle de conversation est stocké)** en effectuant l’une des opérations suivantes :
     
       - Pour utiliser une base de données SQL Server existante, dans la liste déroulante, cliquez sur le nom de la base de données SQL Server que vous souhaitez utiliser.
     
-      - Pour spécifier une nouvelle base de données SQL Server, cliquez sur **nouveau**, puis dans **définir un nouveau SQL Store**, procédez comme suit :
+      - Pour spécifier une nouvelle base de données SQL Server, cliquez sur **nouveau**, puis dans **définir un nouveau magasin SQL**, effectuez les opérations suivantes :
     
     <!-- end list -->
     
-      - Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous voulez créer la nouvelle base de données SQL Server.
+      - Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL Server sur lequel vous voulez créer la nouvelle base de données SQL Server.
     
       - Sélectionnez **Instance par défaut** pour utiliser l’instance par défaut ou, pour spécifier une autre instance, sélectionnez **Instance nommée**, et spécifiez l’instance que vous voulez utiliser.
 
@@ -108,16 +108,16 @@ Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même
     
 
     > [!IMPORTANT]  
-    > Pour plus d’informations sur la configuration des miroirs SQL Server en vue d’une haute disponibilité de la base de données serveur Chat permanent et de la base de données de conformité du serveur Chat permanent, voir <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configurer le serveur Chat permanent pour une disponibilité élevée et une reprise après sinistre dans Lync Server 2013</A> dans la documentation de déploiement.
+    > Pour plus d’informations sur la configuration des miroirs SQL Server pour la haute disponibilité de la base de données du serveur de conversation permanente et de la base de données de conformité du serveur de conversation permanente, reportez-vous à la rubrique <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013</A> dans la documentation de déploiement.
 
     
     </div>
 
-10. Définissez le magasin de fichiers. Un magasin de fichiers est un dossier dans lequel une copie des fichiers téléchargés dans le référentiel est stockée (par exemple, le stockage des pièces jointes publiées dans une salle de conversation). Dans le cas d’une topologie de serveur de chat permanent multiserveur, il doit s’agir d’un chemin UNC (Universal Naming Convention); dans le cas d’une topologie de serveur de chat permanent d’un serveur unique, il peut s’agir d’un chemin d’accès de fichier local.
+10. Définissez le magasin de fichiers. Un magasin de fichiers est un dossier dans lequel une copie des fichiers téléchargés dans le référentiel est stockée (par exemple, le stockage des pièces jointes publiées dans une salle de conversation). Dans le cas d’une topologie de serveur de conversation permanente à plusieurs serveurs, il doit s’agir d’un chemin d’accès UNC (Universal Naming Convention); pour une topologie de serveur de conversation permanente à serveur unique, il peut s’agir d’un chemin d’accès de fichier local.
     
     Pour utiliser un magasin de fichiers existant, procédez ainsi :
     
-      - Dans **nom de domaine complet du serveur de fichiers**, spécifiez le nom de domaine complet (FQDN) du magasin de fichiers sur lequel vous souhaitez créer le nouveau magasin de fichiers.
+      - Dans **Nom de domaine complet du serveur de fichiers**, indiquez le nom de domaine complet du magasin de fichiers dans lequel vous voulez créer le nouveau magasin de fichiers.
     
       - Dans **Partage de fichiers**, indiquez le magasin de fichiers à utiliser.
     
@@ -130,17 +130,17 @@ Pour déployer plusieurs pools de serveurs de chat permanent, répétez la même
     
     </div>
 
-11. Sélectionnez le pool de serveurs frontal à utiliser comme tronçon suivant pour ce pool de serveurs de chat permanent. Il s’agit du pool de serveurs frontal qui sera en mesure d’acheminer les demandes de serveur de chat permanent vers ce pool.
+11. Sélectionnez le pool de serveurs frontaux à utiliser comme tronçon suivant pour ce pool de serveurs de conversation permanente. Il s’agit du pool de serveurs frontaux qui pourra acheminer les demandes de serveur de conversation permanente vers ce pool.
 
-12. Pour enregistrer la configuration, cliquez sur **Terminer**. Le pool de serveurs de chat permanent apparaît dans le générateur de topologie accompagné de vos paramètres de réserve spécifiques.
+12. Pour enregistrer la configuration, cliquez sur **Terminer**. Le pool de serveurs de conversation permanente apparaît dans le générateur de topologie, accompagné de vos paramètres de pool spécifiques.
     
-    Pour maintenant publier votre topologie mise à jour sur laquelle vous avez permanent le serveur de conversation, voir [publier la topologie mise à jour dans Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) dans la documentation de déploiement.
+    Pour publier votre topologie mise à jour sur laquelle vous avez un serveur de conversation permanente, voir [publier la topologie mise à jour dans Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) dans la documentation de déploiement.
     
     <div>
     
 
     > [!NOTE]  
-    > Lorsque le générateur de topologie est déjà ouvert, vous pouvez passer à l’étape 3 de <A href="lync-server-2013-publish-the-updated-topology.md">la rubrique publier la topologie mise à jour dans Lync Server 2013</A> pour commencer à publier votre topologie mise à jour.
+    > Lorsque le générateur de topologies est déjà ouvert, vous pouvez passer à l’étape 3 de <A href="lync-server-2013-publish-the-updated-topology.md">la publication de la topologie mise à jour dans Lync Server 2013</A> pour commencer à publier votre topologie mise à jour.
 
     
     </div>

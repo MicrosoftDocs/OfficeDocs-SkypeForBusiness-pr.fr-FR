@@ -1,5 +1,5 @@
 ---
-title: Planification de la capacité de Lync Server 2013
+title: Planification de la capacité Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ca40d198a03ccae9924292fdf85eb2c10cc5841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737004"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41737004"
 
 _**Dernière modification de la rubrique :** 2013-07-31_
 
-Les rubriques de cette section vous expliquent comment planifier et déployer Lync Server 2013 de manière à ce que vous puissiez planifier le nombre d’utilisateurs de votre organisation de manière appropriée et planifier la charge du serveur que leurs activités génèrent.
+Les rubriques de cette section vous aident à comprendre comment planifier et déployer Lync Server 2013 afin que vous puissiez planifier correctement le nombre d’utilisateurs dans votre organisation et planifier la charge serveur générée par leurs activités.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Planification de la capacité de Lync Server 2013 à l’aide des modèles utilisateur](lync-server-2013-capacity-planning-using-the-user-models.md)
+  - [Planification de la capacité pour Lync Server 2013 à l’aide des modèles utilisateur](lync-server-2013-capacity-planning-using-the-user-models.md)
 
   - [Estimation du trafic et de l’utilisation de la voix pour Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Recommandations en matière de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Instructions de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
   - [Modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md)
 
-  - [Utiliser le calculateur de planification de capacité pour Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)
+  - [Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)
 
 </div>
 

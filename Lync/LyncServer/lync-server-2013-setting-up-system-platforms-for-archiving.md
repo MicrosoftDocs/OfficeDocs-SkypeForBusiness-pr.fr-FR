@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration de plates-formes système pour l’archivage'
+title: 'Lync Server 2013 : configuration des plateformes système pour l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13682b7507e133dd49c102bf6c25293ff5da2c08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88e1a8aea999fdf134b0152a9d37b2d36fc81ee8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732074"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Configuration de plates-formes système pour l’archivage dans Lync Server 2013
+# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Configuration des plateformes système pour l’archivage dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41732074"
 
 _**Dernière modification de la rubrique :** 2012-10-09_
 
-Avant de commencer le déploiement de l’archivage, vous devez installer le système d’exploitation requis et tout autre logiciel requis sur le matériel qui répond à la configuration système requise :
+Avant de commencer à déployer l’archivage, vous devez installer le système d’exploitation requis et tout autre logiciel prérequis sur du matériel conforme à la configuration requise :
 
-  - ****   Les déploiements Lync Server 2013 de la plateforme Lync Server 2013 ne disposent pas de serveurs d’archivage. À la place, les agents de collection de données unifiés s’exécutent sur des serveurs frontaux et sur les serveurs Standard Edition pour capturer les données pour l’archivage, de sorte qu’aucune plateforme système distincte n’est requise pour l’archivage.
+  - ****   Les déploiements de la plateforme Lync Server 2013 Lync Server 2013 n’ont pas de serveurs d’archivage. Aucune plateforme système séparée n’est donc nécessaire pour héberger l’archivage.
 
   - **Plateforme de stockage de données**   dans Lync Server 2013, vous pouvez stocker des données à l’aide de l’une des méthodes suivantes :
     
-      - **Intégration de Microsoft Exchange**   si vous voulez stocker les données d’archivage de Lync Server 2013 en utilisant votre déploiement Exchange 2013, au lieu d’une base de données séparée pour le stockage des données d’archivage, votre déploiement Exchange doit exécuter Exchange 2013. Pour plus d’informations sur la configuration des plates-formes système pour Exchange 2013, voir la documentation du produit Exchange.
+      - **Intégration de Microsoft Exchange**   si vous souhaitez stocker les données d’archivage de Lync Server 2013 à l’aide de votre déploiement Exchange 2013, au lieu de configurer une base de données distincte pour le stockage des données d’archivage, votre déploiement Exchange doit exécuter Exchange 2013. Pour plus d’informations sur la configuration des plateformes système pour Exchange 2013, voir la documentation du produit Exchange.
     
-      - **SQL Server**   si vous souhaitez utiliser une base de données SQL Server distincte pour le stockage des données d’archivage, au lieu de ou en plus de l’intégration de Microsoft Exchange, vous devez configurer la plateforme système de la base de données avant le déploiement de l’archivage. La configuration requise pour la plateforme système spécifique dépend de l’utilisation de Microsoft SQL Server 2008 R2 ou de Microsoft SQL Server 2012 pour la base de données d’archivage. Pour plus d’informations sur la configuration de plates-formes système pour ces bases de données, consultez la documentation du produit Microsoft SQL Server 2008 R2 et Microsoft SQL Server 2012.
+      - **SQL Server**   si vous voulez utiliser une base de données SQL Server distincte pour le stockage des données d’archivage, au lieu ou en plus de l’utilisation de l’intégration de Microsoft Exchange, vous devez configurer la plateforme système pour la base de données avant le déploiement de l’archivage. La configuration requise de la plateforme système varie selon que vous utilisez Microsoft SQL Server 2008 R2 ou Microsoft SQL Server 2012 pour la base de données d’archivage. Pour plus d’informations sur la configuration des plateformes système pour ces bases de données, reportez-vous à la documentation du produit Microsoft SQL Server 2008 R2 et Microsoft SQL Server 2012.
 
-  - **Plateforme du serveur de fichiers**   Lync Server 2013 stocke les fichiers d’archivage de Lync Server dans le même emplacement que celui que vous spécifiez pour le stockage de fichiers lorsque vous configurez votre serveur frontal ou les serveurs Standard Edition. Dans le cas contraire, vous ne pouvez pas spécifier d’emplacement distinct pour l’archivage des fichiers. Si vous utilisez l’intégration de Microsoft Exchange, Exchange 2013 les fichiers pour les communications Lync archivées sont stockés sur les serveurs Exchange 2013 pour les utilisateurs hébergés sur les serveurs Exchange.
+  - **Plateforme de serveur de fichiers**   Lync Server 2013 stocke les fichiers d’archivage Lync Server dans le même emplacement que celui que vous spécifiez pour le stockage des fichiers lorsque vous configurez vos serveurs frontaux ou serveurs Standard Edition. Vous ne pouvez pas spécifier d’emplacement séparé pour le stockage des fichiers d’archivage, aucune plateforme système séparée n’est donc nécessaire. Si vous utilisez l’intégration de Microsoft Exchange, Exchange 2013 les fichiers pour les communications Lync archivées sont stockés sur les serveurs Exchange 2013 pour les utilisateurs hébergés sur ces serveurs Exchange.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration du serveur de gestion principal'
+title: 'Lync Server 2013 : configuration du serveur d’administration principal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d6cb7d0f27413449873cb8a0d8498aec230fdfd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configuration du serveur de gestion principal dans Lync Server 2013
+# <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configuration du serveur d’administration principal dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41734614"
 
 _**Dernière modification de la rubrique :** 2014-03-19_
 
-Pour tirer pleinement parti des nouvelles fonctionnalités de l’analyse de l’intégrité intégrées aux administrateurs Microsoft Lync Server 2013, vous devez commencer par désigner un ordinateur pour agir en tant que serveur d’administration principal. sur cet ordinateur, vous devez ensuite installer System Center Operations Manager 2007 R2 ou System Center Operations Manager 2012. Par ailleurs, vous devez installer une version prise en charge de SQL Server pour pouvoir fonctionner en tant que base de données principale Operations Manager. Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser l’une des versions suivantes de SQL Server comme base de données principale :
+Pour tirer pleinement parti des nouvelles fonctionnalités d’analyse d’intégrité incluses dans les administrateurs de Microsoft Lync Server 2013, vous devez d’abord désigner un ordinateur qui agira en tant que serveur d’administration principal ; sur cet ordinateur, vous devez ensuite installer System Center Operations Manager 2007 R2 ou System Center Operations Manager 2012. En outre, vous devez installer une version prise en charge de SQL Server pour qu’elle fonctionne en tant que base de données principale Operations Manager. Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser l’une des versions suivantes de SQL Server comme base de données principale :
 
   - SQL Server 2008 R2 Service Pack 1
 
   - SQL Server 2008 R2 Service Pack 2
 
-Si vous utilisez System Center Operations Manager 2007 R2, il est recommandé d’installer SQL Server 2005 Service Pack 4 ou SQL Server 2008 Service Pack 3. Vous pouvez également utiliser SQL Server 2008 R2 en tant que base de données principale pour System Center Operations Manager 2007 R2. Pour plus d’informations sur la configuration de SQL Server 2008 R2 pour l’utilisation de System Center Operations Manager 2007 R2, voir l’annexe 1 de cette documentation.
+Si vous utilisez System Center Operations Manager 2007 R2, il est recommandé d’installer SQL Server 2005 Service Pack 4 ou SQL Server 2008 Service Pack 3. Vous pouvez également utiliser SQL Server 2008 R2 comme base de données principale pour System Center Operations Manager 2007 R2. Voir l’annexe 1 de cette documentation pour plus d’informations sur la configuration de SQL Server 2008 R2 pour qu’elle fonctionne avec System Center Operations Manager 2007 R2.
 
-Lorsque vous installez System Center Operations Manager 2012 ou System Center Operations Manager 2007 R2, vous devez installer tous les composants de ce produit, y compris :
+Lorsque vous installez System Center Operations Manager 2012 ou System Center Operations Manager 2007 R2, vous devez installer tous les composants de ce produit, notamment :
 
   - Base de données opérationnelle
 
@@ -53,19 +53,19 @@ Lorsque vous installez System Center Operations Manager 2012 ou System Center Op
 
   - Console
 
-  - Cmdlets Windows PowerShell
+  - Applets de commande Windows PowerShell
 
   - Console web
 
-  - Créateur de rapports
+  - Reporting
 
-  - Entrepôt de données
+  - Data Warehouse
 
-Ces composants et leur installation ne seront pas abordés en détail dans ce document. Pour plus d’informations sur System Center Operations Manager 2007 R2, voir la documentation Operations <http://go.microsoft.com/fwlink/p/?linkid=257526> Manager 2007 R2 sur le document System Center Operations Manager 2012 <http://go.microsoft.com/fwlink/p/?linkid=257527>. Suivez ces instructions si vous envisagez d’utiliser SQL Server 2005 ou SQL Server 2008 Service Pack 1 comme base de données principale.
+Ces composants et leur installation ne sont pas décrits en détail dans le présent document. Pour plus d’informations sur System Center Operations Manager 2007 R2, reportez-vous <http://go.microsoft.com/fwlink/p/?linkid=257526> à la documentation Operations Manager 2007 R2 à <http://go.microsoft.com/fwlink/p/?linkid=257527>l’adresse et à la documentation de System center Operations Manager 2012 à l’adresse. Suivez ces instructions si vous envisagez d’utiliser SQL Server 2005 ou SQL Server 2008 Service Pack 1 comme base de données principale.
 
-Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser SQL Server 2012 comme base de données principale. Pour plus d’informations sur SQL Server 2012, voir la documentation en ligne pour [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)sql Server 2012 à l’adresse.
+Si vous utilisez System Center Operations Manager 2012, vous pouvez utiliser SQL Server 2012 comme base de données principale. Pour plus d’informations sur SQL Server 2012, reportez-vous à [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)la documentation en ligne de sql Server 2012 à l’adresse.
 
-Gardez à l’esprit que vous ne pouvez avoir qu’un seul serveur de gestion principal par déploiement de Lync Server. Par ailleurs, si vous pouvez utiliser System Center Operations Manager 2012 ou System Center Operations Manager 2007 R2, vous ne pouvez pas exécuter les deux applications en même temps, vous devez en choisir une. Par exemple, si vous exécutez System Center Operations Manager 2012, tous vos agents System Center doivent également exécuter System Center Operations Manager 2012. Vous ne pouvez pas disposer de certains agents exécutant System Center Operations Manager 2012 et d’autres agents exécutant System Center Operations Manager 2007 R2.
+N’oubliez pas que vous ne pouvez avoir qu’un seul serveur de gestion principal par déploiement Lync Server. En outre, si vous pouvez utiliser System Center Operations Manager 2012 ou System Center Operations Manager 2007 R2, vous ne pouvez pas exécuter simultanément les deux applications, mais vous devez choisir l’une ou l’autre. Par exemple, si vous exécutez System Center Operations Manager 2012, tous vos agents System Center doivent également exécuter System Center Operations Manager 2012. Certains agents ne peuvent pas exécuter System Center Operations Manager 2012 et d’autres agents exécutant System Center Operations Manager 2007 R2.
 
 </div>
 

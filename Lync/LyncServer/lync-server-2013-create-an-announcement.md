@@ -12,16 +12,16 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfae1817cb47c769885ca42a7ca3ff6f57f7b669
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c50db03b8c6d428322129f1a46a0ffe50b19ed25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726364"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,46 +37,46 @@ ms.locfileid: "41726364"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Pour créer une annonce, vous devez effectuer les tâches suivantes :
+Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
-1.  Pour des invites audio, enregistrez le fichier audio à l’aide de votre application d’enregistrement audio favorite.
+1.  Pour les invites audio, enregistrez le fichier audio à l’aide de votre application d’enregistrement audio favorite.
 
-2.  Pour des invites audio, exécutez l’applet de commande **Import-CsAnnouncementFile** pour importer les contenus du fichier audio vers le magasin de fichiers.
+2.  Pour les invites audio, exécutez l’applet de commande **Import-CsAnnouncementFile** pour importer le contenu du fichier audio dans le magasin de fichiers.
 
-3.  Exécutez l’applet de commande **New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite TTS ou sans invite.
+3.  Exécutez la cmdlet **New-CsAnnouncement** pour créer et nommer l’annonce. Effectuez cette étape pour créer des annonces avec une invite audio, une invite de conversion de texte par synthèse vocale ou sans invite.
     
     <div>
     
 
     > [!TIP]  
-    > Vous pouvez créer une annonce sans invite (par exemple, si vous voulez transférer des appels vers une destination spécifiques sans lire d’invite).
+    > Vous pouvez créer une annonce sans invite (par exemple, si vous souhaitez transférer des appels vers une destination spécifique sans lire de message).
 
     
     </div>
 
 4.  Affectez la nouvelle annonce à une plage de numéros dans la table des numéros non attribués.
 
-Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’affectation d’annonces dans la table numéro non affecté, voir [configurer la table des numéros non attribués dans Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
+Cette rubrique décrit comment importer et créer des annonces. Pour plus d’informations sur l’attribution d’annonces dans la table des numéros non attribués, reportez-vous à [la rubrique Configurer le tableau des numéros non attribués dans Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
 
 <div>
 
 ## <a name="to-create-a-new-announcement"></a>Pour créer une annonce
 
-1.  Pour des invites audio, créez le fichier audio.
+1.  Pour les invites audio, créez le fichier audio.
 
-2.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-4.  Pour des invites audio, exécutez :
+4.  Pour les invites audio, exécutez :
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  Exécutez :
+5.  Générer
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
-    Pour transférer des appels vers la messagerie vocale, tapez SIPAddress au format sip:nomutilisateur@nomdomaine;opaque=app:voicemail (par exemple, sip:bob@contoso.com;opaque=app:voicemail). Pour transférer des appels vers un numéro de téléphone, tapez SIPAddress au format sip:number@nomdomaine;user=phone (par exemple, sip:+ 14255550121@contoso.com;user=phone).
+    Pour le transfert d’appels vers la messagerie vocale, tapez SIPAddress au format SIP : username@domainname ; opaque = app : messagerie vocale (par exemple, SIP : bob@contoso. com ; opaque = application : messagerie vocale). Pour le transfert des appels vers un numéro de téléphone, tapez SIPAddress au format SIP : number@domainname ; User = Phone (par exemple, SIP : + 14255550121@contoso. com ; user = Phone).
     
     Par exemple, pour spécifier une invite audio :
     
@@ -88,7 +88,7 @@ Cette rubrique décrit comment importer et créer des annonces. Pour plus d’in
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Pour plus d’informations sur ces cmdlets et afficher la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt** , voir [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
+    Pour plus d’informations sur ces applets de commande et pour afficher une liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt** , voir [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
 
 </div>
 
@@ -98,7 +98,7 @@ Cette rubrique décrit comment importer et créer des annonces. Pour plus d’in
 
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
-[Nouveau-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
 [Configuration de la table des numéros non attribués dans Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
   
 

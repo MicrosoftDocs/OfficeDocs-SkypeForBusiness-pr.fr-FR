@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets de configuration de Lync Server Management Shell'
+title: 'Lync Server 2013 : applets de commande de configuration de Lync Server Management Shell'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Cmdlets de configuration de Lync Server Management Shell dans Lync Server 2013
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Applets de commande de configuration de Lync Server Management Shell dans Lync Server 2013
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41742204"
 
 _**Dernière modification de la rubrique :** 2012-03-21_
 
-Lync Server Management Shell est une implémentation de la fenêtre de commande Windows PowerShell avec des applets de commande spécifiques à la gestion de Microsoft Lync Server 2010 pré-chargées dans l’environnement. Ces cmdlets vous permettent de personnaliser cet environnement.
+Lync Server Management Shell est une implémentation de la fenêtre de commande Windows PowerShell avec des applets de commande spécifiques à la gestion de Microsoft Lync Server 2010 préchargé dans l’environnement. Ces applets de commande vous permettent de personnaliser cet environnement.
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Cmdlets de configuration de Lync Server Management Shell
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Applets de commande de configuration de Lync Server Management Shell
 
-Utilisez ces cmdlets pour définir certaines propriétés personnalisées de Lync Server Management Shell.
-
-  - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+Utilisez ces applets de commande pour définir certaines propriétés personnalisées de Lync Server Management Shell.
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [Get-CsUICulture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUICulture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [Get-CsManagementConnection](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [Remove-CsManagementConnection](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [Set-CsManagementConnection](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration du serveur de conversation permanente'
+title: 'Lync Server 2013 : configuration du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741344"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Configuration du serveur de conversation permanente dans Lync Server 2013
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Configurer le serveur de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741344"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour créer une nouvelle configuration de chat permanent
+Pour créer une nouvelle configuration de conversation permanente
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
@@ -45,15 +45,15 @@ Pour obtenir une configuration de conversation permanente
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-Pour supprimer une configuration de conversation permanente
+Pour supprimer la configuration de la conversation permanente
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-Pour définir la configuration de chat permanent
+Pour définir la configuration de la conversation permanente
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Pour Lync Server 2013, tout le trafic de service Web est pris en charge sur les serveurs frontaux 2013 serveur Lync. Par conséquent, l’adresse gcweb01 sur un serveur de chat permanent n’est pas nécessaire. Nous sommes toujours en mesure de prendre en charge l’accès au service Web interne, car nous fournissons uniquement le service Web de chargement/téléchargement de fichiers sur le site Web *interne* (et non vers le site Web *externe* pour les utilisateurs distants).
+Pour Lync Server 2013, tout le trafic de service Web est pris en charge sur les serveurs Lync Server 2013, frontaux. Par conséquent, l’adresse gcweb01 sur le serveur de conversation permanente n’est pas nécessaire. Nous prenons toujours en charge l’accès au service web interne, car nous fournissons le service web de transfert/téléchargement de fichiers sur le site web *interne* uniquement (pas sur le site web *externe* pour les utilisateurs distants).
 
 </div>
 

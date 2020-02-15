@@ -1,5 +1,5 @@
 ---
-title: Suppression des serveurs d’archivage et de surveillance hérités
+title: Supprimer les serveurs d’archivage et de surveillance hérités
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1df5ed76a0e0518120c9772b515b36c5f23bfd89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727134"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Suppression des serveurs d’archivage et de surveillance hérités
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Supprimer les serveurs d’archivage et de surveillance hérités
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41727134"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Si votre déploiement héritait d’un serveur d’archivage ou d’un serveur de surveillance après la migration vers Lync Server 2013, ces serveurs peuvent être supprimés de l’environnement hérité, à condition que tous les utilisateurs y aient été supprimés. Vous pouvez supprimer le serveur d’archivage ou la surveillance du serveur dans n’importe quelle séquence. La clé requise est que tous les utilisateurs ont été supprimés de tous les groupes hérités restants.
+Si votre déploiement hérité contient un serveur d’archivage ou un serveur de surveillance, après la migration vers Lync Server 2013, ces serveurs peuvent être supprimés de l’environnement hérité, sous réserve que tous les utilisateurs aient été supprimés des pools hérités restants. Vous pouvez supprimer le serveur d’archivage ou le serveur de surveillance dans n’importe quel ordre. La principale condition est que tous les utilisateurs aient été supprimés de tous les pools hérités restants.
 
-Vous pouvez déplacer des utilisateurs de Lync Server 2010 vers Lync Server 2013 en suivant les procédures décrites dans la [phase 4 : déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md).
+Vous pouvez déplacer des utilisateurs de Lync Server 2010 vers Lync Server 2013 en suivant les procédures décrites dans la [phase 4 : déplacer les utilisateurs de test vers le pool pilote](phase-4-move-test-users-to-the-pilot-pool.md).
 
-Après avoir vérifié que tous les utilisateurs ont été supprimés de tous les pools restants, suivez la procédure décrite dans la section « désinstallation de Microsoft Lync Server 2010 et suppression des rôles [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)de serveur » qui peut être téléchargée à l’adresse.
+Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section « désinstallation de Microsoft Lync Server 2010 et suppression des [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)rôles serveur », qui peut être téléchargée à l’adresse.
 
 </div>
 

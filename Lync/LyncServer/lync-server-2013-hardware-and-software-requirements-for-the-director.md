@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration matérielle et logicielle requise pour le directeur'
+title: 'Lync Server 2013 : configuration matérielle et logicielle requise pour le directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d91a739935b2e42bb925d5645350c5875e5b43
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32c4e241c7fd991fc217aaf2e1f2bd0ee9e37aab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762192"
 
 _**Dernière modification de la rubrique :** 2012-10-20_
 
-Cette section détaille les configurations matérielles et logicielles requises pour le directeur et les scénarios de colocalisation pris en charge pour le directeur.
+Cette section décrit la configuration matérielle et logicielle requise pour le directeur, ainsi que les scénarios de colocalisation pris en charge pour le directeur.
 
 <div>
 
@@ -60,29 +60,29 @@ Le tableau suivant répertorie la configuration matérielle requise pour le dire
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Processeur</p></td>
+<td><p>UC</p></td>
 <td><ul>
-<li><p>processeur 64 bits, quadruple cœur, 2,0 GHz ou version ultérieure</p></li>
-<li><p>processeur double cœur, 2,0 GHz ou version ultérieure 64</p></li>
+<li><p>Processeur 64 bits, quadruple cœur 2,0 GHz ou supérieur</p></li>
+<li><p>Biprocesseur 64 bits, double cœur 2,0 GHz ou supérieur</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Mémoire</p></td>
-<td><p>4 gigaoctets (Go)</p></td>
+<td><p>4 gigaoctets (Go)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Disque</p></td>
 <td><ul>
-<li><p>disque dur (HDD) 10 000 tr/min</p></li>
-<li><p>Disque SSD haute performance avec performances égale ou supérieure à 10 000 tr/min</p></li>
-<li><p>2 RAID 10 (bandes et miroirs) pour les fichiers de données de base de données</p></li>
+<li><p>Lecteur de disque dur (HDD) 10 000 tr/min</p></li>
+<li><p>Disque SSD à hautes performances avec des performances supérieures ou égales à 10K tr/min (HDD)</p></li>
+<li><p>2x disques RAID 10 (agrégés par bandes et en miroir) 15 000 tr/min pour les fichiers de données des bases de données</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Réseau</p></td>
 <td><ul>
-<li><p>2 cartes réseau 1 Gbit/s (Gbps)</p></li>
-<li><p>Carte réseau 1 Gbps unique (prise en charge)</p></li>
+<li><p>Cartes réseau Dual-port 1 gigabit par seconde (Gbps) (recommandé)</p></li>
+<li><p>Carte réseau d’un gigabit (prise en charge)</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -95,29 +95,29 @@ Le tableau suivant répertorie la configuration matérielle requise pour le dire
 
 ## <a name="software-requirements-for-the-director"></a>Configuration logicielle requise pour le directeur
 
-Le rôle directeur peut être déployé uniquement sur les serveurs exécutant Lync Server 2013 Enterprise Edition.
+Le rôle directeur ne peut être déployé que sur des serveurs exécutant Lync Server 2013 Enterprise Edition.
 
 L’un des systèmes d’exploitation 64 bits suivants est requis pour les directeurs :
 
   - Système d’exploitation Windows Server 2008 R2 Standard avec Service Pack 1
 
-  - Système d’exploitation Windows Server 2008 R2 entreprise avec Service Pack 1
+  - Système d’exploitation Windows Server 2008 R2 Enterprise avec Service Pack 1
 
   - Système d’exploitation Windows Server 2008 R2 Datacenter avec Service Pack 1
 
-  - Système d’exploitation Windows Server 2012 standard
+  - Le système d’exploitation Windows Server 2012 standard
 
   - Système d’exploitation Windows Server 2012 Datacenter
 
-Lync Server 2013 nécessite également l’installation des mises à jour et des programmes suivants sur le sujet du [support technique supplémentaire et des exigences de Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md).
+Lync Server 2013 nécessite également l’installation des programmes et des mises à jour suivants, décrits dans la rubrique relative à la [prise en charge et aux exigences des serveurs supplémentaires dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>Colocalisation prises en charge
+## <a name="supported-collocation"></a>Colocalisation prise en charge
 
-Le rôle serveur Director ne peut pas être localisé avec un autre rôle serveur dans Lync Server 2013. Toutefois, si vous ne déployez pas de réalisateur, le rôle serveur frontal sera supposé.
+Le rôle serveur directeur ne peut pas être colocalisé avec un autre rôle serveur dans Lync Server 2013. Toutefois, si vous ne déployez pas de directeur, les serveurs frontaux assumeront le rôle.
 
 </div>
 

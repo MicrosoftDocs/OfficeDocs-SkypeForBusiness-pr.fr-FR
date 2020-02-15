@@ -1,5 +1,5 @@
 ---
-title: 'Configuration requise pour Lync Server 2013 : Lync pour iPhone et iPad'
+title: 'Lync Server 2013 : configuration requise pour les iPhone et les iPad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765482"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765482"
 
 _**Dernière modification de la rubrique :** 2015-06-01_
 
-Pour prendre en charge Microsoft Lync 2013 pour iPhone ou Microsoft Lync 2013 pour iPad, l’appareil doit présenter la configuration suivante :
+Pour prendre en charge Microsoft Lync 2013 pour iPhone ou Microsoft Lync 2013 pour iPad, l’appareil doit remplir les conditions suivantes :
 
-  - appareil numérique iPhone 6 avec Apple iOS 8 ou la version la plus récente.
+  - appareil numérique mobile iPhone 6 avec Apple iOS 8 ou la version la plus récente.
 
-  - appareil numérique iPhone 5 avec Apple iOS 7 ou la version la plus récente.
+  - appareil numérique mobile iPhone 5 avec Apple iOS 7 ou la version la plus récente.
 
-  - appareil numérique pour iPhone 4 avec Apple iOS 7 ou la version la plus récente.
+  - appareil numérique mobile iPhone 4 avec Apple iOS 7 ou la version la plus récente.
 
-  - iPad 2 ou un appareil numérique mobile version ultérieure avec Apple iOS 7 ou la version la plus récente.
+  - appareil numérique mobile pour iPad 2 ou version ultérieure avec Apple iOS 7 ou la version la plus récente.
 
-  - appareil numérique pour iPad mini mobile avec Apple iOS 7 ou la version la plus récente.
+  - appareil numérique mobile iPad avec Apple iOS 7 ou la version la plus récente.
 
 </div>
 

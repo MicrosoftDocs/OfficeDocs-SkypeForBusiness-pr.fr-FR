@@ -12,45 +12,45 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0864fdf4d2356ee04e1084c2f6b0149b2a6ebd5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9523794808ca3b689cf1f3213c1f4ad657c83c25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722814"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030117"
 ---
-# <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>Affecter une stratégie de code confidentiel par utilisateur dans Lync Server 2013
+# <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>Affectation d’une stratégie de code confidentiel par utilisateur dans Lync Server 2013
 
  
 
 
-La stratégie code confidentiel (PIN) pour les conférences rendez-vous est l’un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le panneau de configuration de Lync Server 2013.
+La stratégie de code confidentiel (PIN) de conférence rendez-vous est l’un des paramètres individuels d’un compte d’utilisateur qui peut être configuré dans le panneau de configuration Lync Server 2013.
 
 Le déploiement d’une ou plusieurs stratégies de code confidentiel par utilisateur est facultatif. Vous pouvez également déployer une stratégie de code confidentiel au niveau global ou au niveau d’un site. Si vous déployez des stratégies au niveau utilisateur, vous devez les attribuer de manière explicite aux objets User, Group ou Contact. Les droits et autorisations des utilisateurs concernant l’utilisation des codes confidentiels pour les conférences rendez-vous sont automatiquement définis sur ceux de la stratégie de code confidentiel globale si aucune stratégie par utilisateur ou au niveau d’un site spécifique n’est attribuée.
 
 Lorsque vous aurez créé au moins une stratégie de code confidentiel par utilisateur, suivez les procédures de cette rubrique pour attribuer la stratégie spécifiant les contraintes que le serveur doit appliquer aux codes confidentiels créés et utilisés par un utilisateur particulier.
 
-Pour plus d’informations sur la création de stratégies de code confidentiel de conférence rendez-vous par utilisateur, voir [créer ou modifier les paramètres de code confidentiel de conférence rendez-vous dans Lync Server 2013 pour un site ou un groupe d’utilisateurs](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md).
+Pour plus d’informations sur la création de stratégies de code confidentiel de conférence rendez-vous par utilisateur, voir [Create or Modify Dial-in Conferencing pin Settings in Lync Server 2013 pour un site ou un groupe d’utilisateurs](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md).
 
 ## <a name="to-assign-a-per-user-pin-policy"></a>Pour attribuer une stratégie de code confidentiel par utilisateur
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
 4.  Recherchez un utilisateur à l’aide de l’une des méthodes suivantes :
     
-      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP (Session Initiation Protocol) ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
+      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
     
-      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour rechercher la requête (un fichier .usf).
+      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour localiser la requête (un fichier .usf).
 
 5.  (Facultatif) Indiquez des critères de recherche supplémentaires pour affiner les résultats :
     
     1.  Cliquez sur **Ajouter un filtre**.
     
-    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
+    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
     
     3.  Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Pas égal à**).
     
@@ -75,10 +75,10 @@ Pour plus d’informations sur la création de stratégies de code confidentiel 
     
 
     > [!NOTE]  
-    > Dans la mesure où il existe plusieurs stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <STRONG>affecter des stratégies</STRONG> , <STRONG> &lt;l’option conserver en tant que est&gt; </STRONG> activée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
+    > Étant donné qu’il existe plusieurs stratégies que vous pouvez configurer à l’aide de la boîte de dialogue <STRONG>affecter les stratégies</STRONG> , <STRONG> &lt;l’option conserver en tant que est&gt; </STRONG> sélectionnée par défaut pour chaque stratégie dans la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
 
     
-      - Autorisez Lync Server 2013 à choisir automatiquement la stratégie de niveau global ou, s’il est défini, la stratégie au niveau du site.
+      - Autoriser Lync Server 2013 à choisir automatiquement la stratégie au niveau global ou, si elle est définie, la stratégie au niveau du site.
     
       - Cliquez sur le nom d’une stratégie de code confidentiel par utilisateur que vous avez définie dans la page **Stratégie de code confidentiel**.
         
@@ -90,9 +90,9 @@ Pour plus d’informations sur la création de stratégies de code confidentiel 
 
 8.  Lorsque vous avez terminé, cliquez sur **OK**.
 
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie de code confidentiel par utilisateur à l’aide des applets de cmdlet Windows PowerShell
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie de code confidentiel par utilisateur à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsPinPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’aide de Windows PowerShell et de la cmdlet **Grant-applet cspinpolicy** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 ## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Pour affecter une stratégie de code confidentiel par utilisateur à un seul utilisateur
 
@@ -102,7 +102,7 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l�
 
 ## <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>Pour affecter une stratégie de code confidentiel par utilisateur à plusieurs utilisateurs
 
-  - La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-Csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).
+  - La commande suivante affecte la stratégie de code confidentiel par utilisateur RedmondUsersPinPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, consultez la rubrique [Get-Csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)).
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -112,13 +112,13 @@ Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l�
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, consultez la rubrique [Grant-CsPinPolicy](https://technet.microsoft.com/en-us/library/gg398871\(v=ocs.15\)).
+Pour plus d’informations, consultez la rubrique [Grant-applet cspinpolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\)).
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer une nouvelle stratégie de code confidentiel dans Lync Server 2013](lync-server-2013-create-a-new-pin-policy.md)  
+[Créer une stratégie de code confidentiel dans Lync Server 2013](lync-server-2013-create-a-new-pin-policy.md)  
 
 
-[Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+[Affectation de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 

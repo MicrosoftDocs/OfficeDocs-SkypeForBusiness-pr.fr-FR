@@ -12,20 +12,20 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5063aca74fe3454569a2b2309be584a4ca11d13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d42dbd967f90b6e2a905b92558c88fe52ef62d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ucwa-events-in-lync-server-2013"></a>Événements adUCWA dans Lync Server 2013
+# <a name="ucwa-events-in-lync-server-2013"></a>Événements UCWA dans Lync Server 2013
 
 </div>
 
@@ -39,9 +39,9 @@ _**Dernière modification de la rubrique :** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 utilise l’API UCWA (Unified Communications Web API) à diverses fins, en accédant à Microsoft Exchange pour les recherches de contacts pour la mise à jour de la présence pour les clients mobiles.
+Lync Server 2013 utilise l’API Web de communications unifiées (UCWA) à différentes fins, de l’accès à Microsoft Exchange pour les recherches de contacts à la mise à jour de la présence des clients mobiles.
 
-L’API UCWA écrit les enregistrements liés aux opérations en tant qu’événements de type information, avertissement ou erreur. Le tableau suivant décrit les événements pouvant être écrits par les composants de l’API UCWA.
+UCWA écrit des enregistrements de comportement opérationnel sous forme d’informations de type d’événement, d’avertissement et d’erreur. Le tableau suivant décrit les événements qui peuvent être écrits par les composants UCWA.
 
 
 <table>
@@ -53,8 +53,8 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID d’événement</th>
-<th>Type d’événement</th>
+<th>ID d’évènement</th>
+<th>Type d'événement</th>
 <th>Résumé</th>
 <th>Cause et résolution</th>
 </tr>
@@ -62,185 +62,185 @@ L’API UCWA écrit les enregistrements liés aux opérations en tant qu’évé
 <tbody>
 <tr class="odd">
 <td><p>20001</p></td>
-<td><p>Information</p></td>
-<td><p>API UCWA initialisée</p></td>
-<td><p>N/D</p>
-<p>N/D</p></td>
+<td><p>Message d’information</p></td>
+<td><p>UCWA initialisé</p></td>
+<td><p>N/A</p>
+<p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
-<td><p>Erreur</p></td>
-<td><p>L’API UCWA a rencontré une exception inattendue pendant son initialisation.</p></td>
-<td><p>Une erreur inattendue s’est produite pendant l’initialisation.</p>
-<p>Examinez les détails de l’exception dans l’entrée correspondante du journal des événements pour déterminer la cause possible.</p></td>
+<td><p>Error</p></td>
+<td><p>UCWA a rencontré une exception inattendue lors de l’initialisation</p></td>
+<td><p>Une erreur inattendue s’est produite lors de l’initialisation</p>
+<p>Examiner les détails de l’exception dans l’entrée du journal des événements associé afin de déterminer la cause possible</p></td>
 </tr>
 <tr class="odd">
 <td><p>20003</p></td>
-<td><p>Erreur</p></td>
-<td><p>L’API UCWA a rencontré une exception non traitée.</p></td>
-<td><p>Une exception non traitée s’est produite.</p>
-<p>Redémarrez le serveur. Si le problème persiste, contactez le support technique.</p></td>
+<td><p>Error</p></td>
+<td><p>UCWA a rencontré une exception non gérée</p></td>
+<td><p>Une exception non gérée s’est produite</p>
+<p>Redémarrez le serveur. Si le problème persiste, contactez le support technique</p></td>
 </tr>
 <tr class="even">
 <td><p>20004</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Impossible d’accéder à Exchange pour la photo HD</p></td>
-<td><p>La connexion à Exchange n’est pas disponible.</p>
-<p>Vérifiez que la connexion à Exchange est disponible.</p></td>
+<td><p>La connexion à Exchange n’est pas disponible</p>
+<p>Assurez-vous que la connexion à Exchange est disponible.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20005</p></td>
-<td><p>Information</p></td>
+<td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de l’accès à Exchange pour la photo HD</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Impossible d’accéder à Exchange pour la recherche de contact</p></td>
-<td><p>La connexion à Exchange n’est pas disponible.</p>
-<p>Vérifiez que la connexion à Exchange est disponible.</p></td>
+<td><p>La connexion à Exchange n’est pas disponible</p>
+<p>Assurez-vous que la connexion à Exchange est disponible.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20007</p></td>
-<td><p>Information</p></td>
-<td><p>Récupération de l’échec de la recherche de contact dans Exchange</p></td>
+<td><p>Message d’information</p></td>
+<td><p>Récupération d’un contact de recherche inversement dans Exchange</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
 <td><p>Avertissement</p></td>
-<td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application</p></td>
-<td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par application</p>
-<p>Vérifiez si les clients possèdent des abonnements superflus.</p></td>
+<td><p>Tentative d’abonnement à un abonnement de présence supérieur à celui autorisé par application</p></td>
+<td><p>Tentative d’abonnement à un abonnement de présence supérieur à celui autorisé par application</p>
+<p>Vérifier les clients pour les abonnements inutiles</p></td>
 </tr>
 <tr class="odd">
 <td><p>20009</p></td>
 <td><p>Avertissement</p></td>
-<td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot</p></td>
-<td><p>Tentative de souscription à un nombre d’abonnements aux informations de présence supérieur au nombre autorisé par lot</p>
-<p>Vérifiez si les clients possèdent des abonnements superflus.</p></td>
+<td><p>Tentative d’abonnement à un abonnement de présence supérieur à celui autorisé par lot</p></td>
+<td><p>Tentative d’abonnement à un abonnement de présence supérieur à celui autorisé par lot</p>
+<p>Vérifier les clients pour les abonnements inutiles</p></td>
 </tr>
 <tr class="even">
 <td><p>20010</p></td>
-<td><p>Erreur</p></td>
-<td><p>Impossible de récupérer les données de la bande entrante</p></td>
-<td><p>Impossible de récupérer les données de la bande entrante</p>
-<p>Si le problème persiste, contactez le support technique.</p></td>
+<td><p>Error</p></td>
+<td><p>Impossible de récupérer les données inbande</p></td>
+<td><p>Impossible de récupérer les données inbande</p>
+<p>Si le problème persiste, contactez le support technique</p></td>
 </tr>
 <tr class="odd">
 <td><p>20011</p></td>
-<td><p>Erreur</p></td>
-<td><p>Impossible de s’abonner aux informations de présence</p></td>
-<td><p>Impossible de s’abonner aux informations de présence</p>
-<p>Si le problème persiste, contactez le support technique.</p></td>
+<td><p>Error</p></td>
+<td><p>Impossible de s’abonner à la présence</p></td>
+<td><p>Impossible de s’abonner à la présence</p>
+<p>Si le problème persiste, contactez le support technique</p></td>
 </tr>
 <tr class="even">
 <td><p>20012</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Échec de l’enregistrement du point de terminaison</p></td>
 <td><p>Échec de l’enregistrement du point de terminaison</p>
-<p>Si le problème persiste, contactez le support technique.</p></td>
+<p>Si le problème persiste, contactez le support technique</p></td>
 </tr>
 <tr class="odd">
 <td><p>20013</p></td>
-<td><p>Erreur</p></td>
-<td><p>Le MCU de messagerie instantanée n’est pas disponible.</p></td>
-<td><p>Le MCU de messagerie instantanée n’est pas disponible.</p>
-<p>Vérifiez si le MCU de messagerie instantanée est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>Le MCU de messagerie instantanée n’est pas disponible</p></td>
+<td><p>Le MCU de messagerie instantanée n’est pas disponible</p>
+<p>Vérifier si la MCU de messagerie instantanée est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20014</p></td>
-<td><p>Information</p></td>
+<td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de messagerie instantanée</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
-<td><p>Erreur</p></td>
-<td><p>Le MCU AV n’est pas disponible.</p></td>
-<td><p>Le MCU AV n’est pas disponible.</p>
-<p>Vérifiez si le MCU AV est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>Le MCU AV n’est pas disponible</p></td>
+<td><p>Le MCU AV n’est pas disponible</p>
+<p>Vérifier si le MCU AV est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20016</p></td>
-<td><p>Information</p></td>
+<td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU AV</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
-<td><p>Erreur</p></td>
-<td><p>Le MCU AS n’est pas disponible.</p></td>
-<td><p>Le MCU AS n’est pas disponible.</p>
-<p>Vérifiez si le MCU AS est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>CAR MCU n’est pas disponible</p></td>
+<td><p>CAR MCU n’est pas disponible</p>
+<p>Voir si MCU est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20018</p></td>
-<td><p>Information</p></td>
-<td><p>Récupération de l’échec de la connexion au MCU AS</p></td>
+<td><p>Message d’information</p></td>
+<td><p>Récupération de l’échec de la connexion à MCU</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
-<td><p>Erreur</p></td>
-<td><p>Le MCU de données n’est pas disponible.</p></td>
-<td><p>Le MCU de données n’est pas disponible.</p>
-<p>Vérifiez si le MCU de données est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>Le MCU de données n’est pas disponible</p></td>
+<td><p>Le MCU de données n’est pas disponible</p>
+<p>Vérifier si le MCU de données est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20020</p></td>
-<td><p>Information</p></td>
+<td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de données</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
-<td><p>Erreur</p></td>
-<td><p>Impossible de rejoindre le MCU de messagerie instantanée</p></td>
-<td><p>Impossible de rejoindre le MCU de messagerie instantanée</p>
-<p>Vérifiez si le MCU de messagerie instantanée est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>Impossible de rejoindre la MCU de messagerie instantanée</p></td>
+<td><p>Impossible de rejoindre la MCU de messagerie instantanée</p>
+<p>Vérifier si la MCU de messagerie instantanée est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20022</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Impossible de rejoindre le MCU AV</p></td>
 <td><p>Impossible de rejoindre le MCU AV</p>
-<p>Vérifiez si le MCU AV est en cours d’exécution.</p></td>
+<p>Vérifier si le MCU AV est en cours d’exécution</p></td>
 </tr>
 <tr class="odd">
 <td><p>20023</p></td>
-<td><p>Erreur</p></td>
-<td><p>Impossible de rejoindre le MCU AS</p></td>
-<td><p>Impossible de rejoindre le MCU AS</p>
-<p>Vérifiez si le MCU AS est en cours d’exécution.</p></td>
+<td><p>Error</p></td>
+<td><p>Impossible de rejoindre en tant que MCU</p></td>
+<td><p>Impossible de rejoindre en tant que MCU</p>
+<p>Voir si MCU est en cours d’exécution</p></td>
 </tr>
 <tr class="even">
 <td><p>20024</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Impossible de rejoindre le MCU de données</p></td>
 <td><p>Impossible de rejoindre le MCU de données</p>
-<p>Vérifiez si le MCU de données est en cours d’exécution.</p></td>
+<p>Vérifier si le MCU de données est en cours d’exécution</p></td>
 </tr>
 <tr class="odd">
 <td><p>20025</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
 <td><p>Impossible d’accéder à Active Directory pour la photo</p></td>
-<td><p>La connexion à Active Directory n’est pas disponible.</p>
-<p>Vérifiez que la connexion à Active Directory est disponible.</p></td>
+<td><p>La connexion à Active Directory n’est pas disponible</p>
+<p>Assurez-vous que la connexion à Active Directory est disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>20026</p></td>
-<td><p>Information</p></td>
+<td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de l’accès à Active Directory pour la photo</p></td>
 <td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>20027</p></td>
 <td><p>Avertissement</p></td>
-<td><p>Impossible d’effectuer la désérialisation</p></td>
-<td><p>Impossible d’effectuer la désérialisation</p>
-<p>Si le problème persiste, contactez le support technique.</p></td>
+<td><p>Impossible de désérialiser</p></td>
+<td><p>Impossible de désérialiser</p>
+<p>Si le problème persiste, contactez le support technique</p></td>
 </tr>
 </tbody>
 </table>

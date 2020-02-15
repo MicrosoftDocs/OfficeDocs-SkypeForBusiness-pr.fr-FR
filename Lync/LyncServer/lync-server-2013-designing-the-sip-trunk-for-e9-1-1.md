@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : conception du Trunk SIP pour E9-1-1'
+title: 'Lync Server 2013 : conception de la jonction SIP pour E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0ca42092b33632dbc7aed84808499b13ab0843c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8daf27670f7820a64cd7a91fe350ba7345c9463e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762512"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Designing the SIP Trunk pour E9-1-1 dans Lync Server 2013
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Conception de la jonction SIP pour E9-1-1 dans Lync Server 2013
 
 </div>
 
@@ -37,42 +37,42 @@ ms.locfileid: "41762512"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Lync Server utilise des lignes SIP pour connecter un appel d’urgence au fournisseur de services E9-1-1. Vous pouvez configurer des jonctions SIP de services d’urgence pour le service E9-1-1 au niveau d’un site central, de plusieurs sites centraux ou de chaque site de succursale. Cependant, si la liaison de réseau étendu (WAN) entre le site de l’appelant et le site qui héberge la jonction SIP de service d’urgence n’est pas disponible, tout appel passé par un utilisateur au niveau du site déconnecté nécessitera un enregistrement d’utilisation téléphonique spécifique dans la stratégie de voix de l’utilisateur qui acheminera l’appel au centre d’intervention en cas d’appels d’urgence via la passerelle RTC. Il en va de même si les limites relatives aux appels simultanés du service Contrôle d’admission des appels sont appliquées.
+Lync Server utilise des jonctions SIP pour connecter un appel d’urgence au fournisseur de services E9-1-1. Vous pouvez configurer des jonctions SIP de services d’urgence pour le service E9-1-1 au niveau d’un site central, de plusieurs sites centraux ou de chaque site de succursale. Toutefois, si la liaison de réseau étendu (WAN) entre le site de l’appelant et le site qui héberge la jonction SIP de service d’urgence n’est pas disponible, tout appel passé par un utilisateur au niveau du site déconnecté nécessitera un enregistrement d’utilisation téléphonique spécifique dans la stratégie de voix de l’utilisateur qui acheminera l’appel au centre d’intervention en cas d’appels d’urgence via la passerelle PSTN. Il en va de même si les limites relatives aux appels simultanés du service Contrôle d’admission des appels sont appliquées.
 
 <div>
 
 
 > [!NOTE]  
-> Il existe deux façons d’implémenter une ligne SIP dans un environnement serveur Lync : 
+> Il existe deux façons d’implémenter une jonction SIP dans un environnement Lync Server : 
 > <UL>
 > <LI>
-> <P>Utiliser des serveurs de médiation multi-résidents qui utilisent leurs interfaces routées vers l’extérieur pour communiquer avec le fournisseur de Trunks SIP.</P>
+> <P>Utilisez des serveurs de médiation multirésidents qui utilisent leurs interfaces routées publiquement vers l’extérieur pour communiquer avec le fournisseur de jonctions SIP.</P>
 > <LI>
-> <P>Utilisez un contrôleur de bordure de session (SBC) local pour fournir un point de délimitation sécurisé entre les serveurs de médiation et les services du fournisseur de Trunks SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels parviennent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur la certification SBCs, voir la section « infrastructure qualifie <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>pour Microsoft Lync » à l’adresse.<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration de l’acheminement des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
+> <P>Utilisez un contrôleur de frontière de session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et les services du fournisseur de jonctions SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les contrôleurs SBC certifiés, voir « infrastructure <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>Qualified for Microsoft Lync » à l’adresse.<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
 
 
 
 </div>
 
-Pour plus d’informations sur le déploiement d’une connexion SIP dans Lync Server, voir [comment implémenter le trunking SIP dans Lync server 2013 ?](lync-server-2013-how-do-i-implement-sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
+Pour plus d’informations sur le déploiement d’une jonction SIP dans Lync Server, voir [comment implémenter la jonction SIP dans Lync server 2013 ?](lync-server-2013-how-do-i-implement-sip-trunking.md). Pour faciliter le déploiement de jonctions SIP pour E9-1-1, répondez d’abord aux questions suivantes.
 
   - **Devez-vous déployer la jonction SIP sur une connexion en bail dédiée ou une connexion Internet partagée ?**  
     Il est important que les appels d’urgence se connectent en permanence. Une ligne dédiée fournit une connexion qui n’est pas préemptée par un autre trafic réseau. En outre, elle permet d’implémenter la qualité de service (QoS). N’oubliez pas que si vous vous connectez à des fournisseurs de services d’urgence via le réseau Internet public et si vous devez garantir la confidentialité des appels d’urgence, un chiffrement IPsec est nécessaire.
 
 <!-- end list -->
 
-  - **Votre déploiement E9-1-1 est-il conçu pour la tolérance au désastre ?**  
-    Puisqu’il s’agit d’une solution d’urgence, la résistance est importante. Déployez vos serveurs de médiation principaux et secondaires et les Trunks SIP dans les emplacements tolérants aux sinistres. Il peut s’avérer utile de déployer votre serveur de médiation principal le plus proche des utilisateurs qu’il prend en charge, et d’acheminer les appels de basculement par le biais du serveur de médiation secondaire (situé dans un autre emplacement géographique).
+  - **Votre déploiement E9-1-1 est-il conçu pour la tolérance aux catastrophes ?**  
+    Puisqu’il s’agit d’une solution d’urgence, la résilience est importante. Déployez vos serveurs de médiation principaux et secondaires et les jonctions SIP dans des emplacements tolérants aux sinistres. Il est recommandé de déployer votre serveur de médiation le plus proche des utilisateurs pris en charge et d’acheminer les appels de basculement via le serveur de médiation secondaire (situé dans un autre emplacement géographique).
 
 <!-- end list -->
 
-  - **Devez-vous déployer une jonction SIP (Session Initiation Protocol) distincte pour chaque succursale ?**  
-    Lync Server offre plusieurs stratégies de gestion de la résilience vocale dans les succursales, notamment : utilisation de réseaux de données résilients, déploiement d’une ligne SIP dans chaque succursale ou transfert d’appels vers la passerelle locale au cours des pannes. Pour plus d’informations, voir [trunking SIP site dans Lync Server 2013](lync-server-2013-branch-site-sip-trunking.md).
+  - **Devez-vous déployer une jonction SIP distincte pour chaque succursale ?**  
+    Lync Server offre plusieurs stratégies de gestion de la résistance des communications vocales dans les succursales, notamment : les réseaux de données résistants, le déploiement d’une jonction SIP au niveau de chaque succursale ou le transfert d’appels vers la passerelle locale pendant les pannes. Pour plus d’informations, reportez-vous à la rubrique [Branch site SIP Trunking in Lync Server 2013](lync-server-2013-branch-site-sip-trunking.md).
 
 <!-- end list -->
 
-  - **Le contrôle d’admission des appels est-il activé ?**  
-    Lync Server ne gère pas les appels d’urgence de la même manière que les appels ordinaires. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle RTC locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.
+  - **Le contrôle d’admission des appels (CAC) est-il activé ?**  
+    Lync Server ne gère pas les appels d’urgence de la même manière qu’un appel ordinaire. Pour cette raison, la gestion de la bande passante ou le service Contrôle d’admission des appels peut avoir un impact négatif sur une configuration E9-1-1. Les appels d’urgence sont bloqués ou acheminés vers la passerelle PSTN locale si un service Contrôle d’admission des appels est activé et si la limite configurée est dépassée sur une liaison où les appels d’urgence sont acheminés. Comme indiqué précédemment dans cette rubrique, ce type d’appel ne dispose pas de données d’emplacement et doit être acheminé manuellement vers le centre d’intervention en cas d’appels d’urgence.
 
 </div>
 

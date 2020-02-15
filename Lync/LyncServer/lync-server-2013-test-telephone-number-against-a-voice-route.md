@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test du numéro de téléphone par rapport à un itinéraire vocal'
+title: 'Lync Server 2013 : test du numéro de téléphone par rapport à un itinéraire des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d4105b54c7d5b745efddeeb961960c402aaa349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fccdcb5dfc0fe52c2c0dcf80f7f6a374e35a39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746174"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Testez le numéro de téléphone par rapport à un itinéraire vocal dans Lync Server 2013
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Tester le numéro de téléphone par rapport à un itinéraire des communications vocales dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Mois</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les mois</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsVoiceRoute. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsVoiceRoute. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,17 +66,17 @@ _**Dernière modification de la rubrique :** 2014-05-20_
 
 ## <a name="description"></a>Description
 
-Les itinéraires vocaux fonctionnent conjointement avec les politiques vocales pour vous permettre d’acheminer les appels voix entreprise vers le réseau PSTN. Chaque itinéraire vocal inclut une expression régulière (un modèle de nombre) qui identifie les numéros de téléphone qui seront routés par le biais d’un itinéraire vocal donné : l’itinéraire sera en mesure de gérer les numéros de téléphone correspondant à cette expression régulière. Par exemple, un itinéraire vocal peut avoir une expression régulière qui lui permet de gérer tout numéro à 10 chiffres. Cela signifie que l’itinéraire peut gérer un numéro de téléphone tel que celui-ci :
+Les itinéraires des communications vocales fonctionnent avec les stratégies de voix pour acheminer les appels voix entreprise vers le réseau RTC. Chaque itinéraire des communications vocales inclut une expression régulière (un modèle numérique) qui identifie les numéros de téléphone qui seront acheminés via un itinéraire de communications vocales donné : l’itinéraire sera en mesure de gérer les numéros de téléphone qui correspondent à cette expression régulière. Par exemple, un itinéraire des communications vocales peut avoir une expression régulière qui lui permet de gérer n’importe quel nombre à 10 chiffres. Cela signifie que l’itinéraire peut traiter un numéro de téléphone tel que celui-ci :
 
   - 2065551219
 
-L’itinéraire ne peut pas gérer l’un ou l’autre des deux nombres suivants, aucun des deux chiffres :
+L’itinéraire ne sera pas en mesure de gérer l’un ou l’autre des deux nombres suivants, aucun n’ayant 10 chiffres :
 
   - 5551219
 
   - 12065551219
 
-L’applet de contrôle test-CsVoiceRoute vérifie si un itinéraire vocal donné peut acheminer un numéro de téléphone spécifié.
+L’applet de commande test-CsVoiceRoute vérifie si un itinéraire des communications vocales donné peut acheminer un numéro de téléphone spécifié.
 
 </div>
 
@@ -84,29 +84,29 @@ L’applet de contrôle test-CsVoiceRoute vérifie si un itinéraire vocal donn�
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Le processus en deux étapes permet de vérifier que la capacité d’un itinéraire vocal est d’acheminer un numéro de téléphone spécifié. Tout d’abord, vous devez utiliser l’applet de contrôle Get-CsVoiceRoute pour renvoyer une instance de ce routage, puis vous devez utiliser l’applet de contrôle CsVoiceRoute de test pour vérifier la capacité de cet itinéraire à gérer le numéro de téléphone cible. Par exemple, si vous avez la possibilité de vérifier si l’itinéraire vocal de RedmondVoiceRoute peut acheminer le numéro de téléphone 2065551219 :
+La vérification de la capacité d’un itinéraire des communications vocales à acheminer un numéro de téléphone spécifié est un processus en deux étapes. Tout d’abord, vous devez utiliser la cmdlet Get-CsVoiceRoute pour retourner une instance de cet itinéraire de communications vocales, puis utiliser l’applet de commande test-CsVoiceRoute pour vérifier la capacité de cet itinéraire à gérer le numéro de téléphone cible. Par exemple, cette commande vérifie si l’itinéraire de communications vocales RedmondVoiceRoute peut acheminer le numéro de téléphone 2065551219 :
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-Notez que le numéro de téléphone doit être tapé pour que les utilisateurs puissent composer ce numéro. Par exemple, si vous ne pensez pas que les utilisateurs incluent l’indicatif du pays et l’indicatif de la région lorsque vous composez, utilisez une syntaxe semblable à celle-ci :
+Notez que le numéro de téléphone doit être tapé comme vous souhaitez que les utilisateurs composent ce numéro. Par exemple, si vous ne prévoyez pas que les utilisateurs doivent inclure le code du pays et l’indicatif régional lors de la numérotation, utilisez une syntaxe similaire à celle-ci :
 
 `-TargetNumber "5551219"`
 
-Dans le cas présent, le numéro de la cible quitte le code de pays et l’indicatif de la région.
+Dans ce cas, le numéro cible exclut le code du pays et l’indicatif régional.
 
-Pour utiliser une seule commande pour tester tous les itinéraires vocaux sur un numéro cible spécifié, utilisez la syntaxe suivante :
+Pour utiliser une commande unique afin de tester tous les itinéraires des communications vocales par rapport à un numéro cible spécifié, utilisez une syntaxe semblable à celle-ci :
 
 `Get-CsVoiceRoute | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-Pour plus d’informations, consultez la documentation d’aide de l’applet de contrôle test-CsVoiceRoute.
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande test-CsVoiceRoute.
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si l’itinéraire vocal peut router le numéro de téléphone cible, l’applet de contrôle de test-CsVoiceRoute renvoie uniquement la valeur true :
+Si l’itinéraire des communications vocales peut acheminer le numéro de téléphone cible, la cmdlet Test-CsVoiceRoute renvoie simplement la valeur true :
 
 MatchesPattern
 
@@ -114,7 +114,7 @@ MatchesPattern
 
 Vrai
 
-Cela signifie que l’itinéraire peut gérer des nombres similaires au numéro cible. Si l’itinéraire vocal ne peut pas gérer le numéro cible, test-CsVoiceRoute renvoie la valeur false :
+Cela signifie que le routage peut gérer des nombres similaires au numéro cible. Si l’itinéraire des communications vocales ne peut pas gérer le numéro cible, la méthode test-CsVoiceRoute renvoie la valeur false :
 
 MatchesPattern
 
@@ -126,9 +126,9 @@ False
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Lors du test des itinéraires vocaux, « Failure » est un terme relatif. Dans ce cas, cela ne veut pas dire que l’itinéraire est quelque peu « rompu », ce qui signifie que l’itinéraire ne peut pas gérer le numéro cible. Cela peut être dû au fait que l’itinéraire vocal a été configuré de manière incorrecte. Cela peut également signifier que l’itinéraire n’était jamais destiné à gérer des nombres à l’aide de ce modèle. Par exemple, si vous ne souhaitez pas acheminer les appels vers d’autres pays sur un itinéraire donné, il est possible que l’itinéraire soit configuré pour rejeter tous les numéros de téléphone incluant un code de pays. Si test-CsVoiceRoute renvoie la valeur faux lorsque vous vous attendiez à ce qu’il retourne vrai, vérifiez que vous avez correctement tapé le numéro cible. Si tel est le cas, utilisez une commande similaire à celle-ci pour afficher le NumberPattern configuré pour l’itinéraire :
+Lors du test des itinéraires des communications vocales, « échec » est un terme relatif. Dans ce cas, cela ne signifie pas que l’itinéraire est quelque peu « brisé »; à la place, il signifie simplement que l’itinéraire ne peut pas gérer le numéro cible. Cela peut être dû à une configuration incorrecte de l’itinéraire des communications vocales. Cela peut également signifier que l’itinéraire n’était jamais destiné à gérer les numéros à l’aide de ce modèle. Par exemple, si vous ne souhaitez pas acheminer les appels vers d’autres pays sur un itinéraire donné, celui-ci peut être configuré pour refuser tous les numéros de téléphone incluant un code pays. Si test-CsVoiceRoute retourne la valeur false lorsque vous attendiez qu’il renvoie la valeur true, vérifiez que vous avez tapé le numéro cible correctement. Si vous l’avez fait, utilisez une commande semblable à celle-ci pour afficher les NumberPattern configurés pour l’itinéraire :
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 

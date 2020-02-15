@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Finalisation et implémentation de la conception de topologie'
+title: 'Lync Server 2013 : finalisation et implémentation de la conception de la topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Finalisation et implémentation de la conception de topologie dans Lync Server 2013
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Finalisation et implémentation de la conception de la topologie dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765362"
 
 _**Dernière modification de la rubrique :** 2012-06-19_
 
-Après avoir terminé la préparation de votre environnement, vous devez être prêt à finaliser et à implémenter la conception de votre topologie. Pour cela, vous devez utiliser le générateur de topologie pour publier votre topologie, qui est requise pour installer les rôles serveur Lync Server 2013.
+Une fois que vous avez terminé la préparation de votre environnement, vous devez être prêt à finaliser et mettre en œuvre votre conception de topologie. Cela inclut l’utilisation du générateur de topologie pour publier votre topologie, ce qui est nécessaire pour installer les rôles serveur Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Installation de la base de données de serveur Standard Edition pour Lync Server 2013](lync-server-2013-install-standard-edition-server-database.md)
+  - [Installer la base de données de serveur Standard Edition pour Lync Server 2013](lync-server-2013-install-standard-edition-server-database.md)
 
-  - [Vérification de la conception de la topologie dans Lync Server 2013](lync-server-2013-verify-the-topology-design.md)
+  - [Vérifier la conception de la topologie dans Lync Server 2013](lync-server-2013-verify-the-topology-design.md)
 
-  - [Publication de la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md)
+  - [Publier la topologie dans Lync Server 2013](lync-server-2013-publish-the-topology.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des numéros d’accès aux conférences rendez-vous'
+title: 'Lync Server 2013 : configurer les numéros d’accès aux conférences rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19d594b8d1661a314b834e6c2e92d8668490ad7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4762971397192dc45fdcc402d40c2adec72414f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757908"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Configuration des numéros d’accès aux conférences rendez-vous dans Lync Server 2013
+# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Configurer les numéros d’accès aux conférences rendez-vous dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41757908"
 
 _**Dernière modification de la rubrique :** 2011-07-17_
 
-Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros s’affichent dans les invitations à une réunion et sur la page web des paramètres de configuration des conférences rendez-vous.
+Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros apparaissent dans les invitations à une réunion et sur la page Web des paramètres de configuration des conférences rendez-vous.
 
-Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez planifier vos régions de conférences rendez-vous puis configurer les plans de numérotation correspondants. Pour plus d’informations sur les régions, voir [exigences relatives aux conférences rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) dans la documentation de planification. Pour plus d’informations sur la configuration de plans de numérotation pour les conférences rendez-vous, voir [configurer des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
+Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez planifier vos régions de conférences rendez-vous puis configurer les plans de numérotation correspondants. Pour plus d’informations sur les régions, voir Configuration requise pour les conférences rendez [-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md) dans la documentation de planification. Pour plus d’informations sur la configuration des plans de numérotation pour les conférences rendez-vous, voir [configurer des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md).
 
 <div>
 
 
 > [!NOTE]  
-> Vous ne pouvez pas utiliser de nouveau numéro d’accès rendez-vous tant que la&nbsp;réplication des services de domaine Active Directory (AD DS) n’est pas terminée. La réplication peut durer plusieurs heures.
+> Vous ne pouvez pas utiliser un nouveau numéro d’accès entrant tant que la réplication des&nbsp;services de domaine Active Directory (AD DS) de ce numéro d’accès n’est pas terminée. La réplication peut durer plusieurs heures.
 
 
 
@@ -55,7 +55,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
 
 
 > [!NOTE]  
-> Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Utilisez l’applet de cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> pour modifier le nom d’affichage. Vous ne devez pas modifier manuellement les objets Active Directory. Pour plus d’informations sur la modification d’un numéro d’accès, reportez-vous à la documentation Lync Server Management Shell pour l’applet <STRONG>de connexion Set-CsDialInConferencingAccessNumber</STRONG> .
+> Une fois que vous avez créé les numéros d’accès aux conférences rendez-vous, vous pouvez modifier le nom complet des objets contact Active Directory pour permettre aux utilisateurs d’identifier plus facilement le numéro d’accès approprié. Utilisez la cmdlet <STRONG>Set-CsDialInConferencingAccessNumber</STRONG> pour modifier le nom complet. Vous ne devez pas modifier manuellement les objets Active Directory. Pour plus d’informations sur la modification d’un numéro d’accès, reportez-vous à la documentation Lync Server Management Shell pour la cmdlet <STRONG>Set-applet csdialinconferencingaccessnumber</STRONG> .
 
 
 
@@ -74,10 +74,10 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
 ## <a name="see-also"></a>Voir aussi
 
 
-[Configuration requise pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
+[Exigences en matière de conférence rendez-vous dans Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[Configuration des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
+[Configurer des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)  
   
 
 </div>

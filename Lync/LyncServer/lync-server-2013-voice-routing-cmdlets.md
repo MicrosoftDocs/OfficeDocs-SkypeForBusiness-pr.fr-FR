@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets de routage vocal'
+title: 'Lync Server 2013 : applets de commande de routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1557fd451247b72a5f6082e0e72c71f53389fd3c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aeb6d01708bef791e5d91d98893dd4051a93e6dc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758576"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008626"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Cmdlets de routage vocal dans Lync Server 2013
+# <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Applets de commande de routage des communications vocales dans Lync Server 2013
 
 </div>
 
@@ -37,64 +37,64 @@ ms.locfileid: "41758576"
 
 _**Dernière modification de la rubrique :** 2012-06-26_
 
-Les itinéraires vocaux contiennent des instructions qui indiquent à Microsoft Lync Server 2013 le routage des appels d’utilisateurs voix entreprise vers des numéros de téléphone sur le réseau téléphonique public commuté (RTC) ou un échange de succursales privées.
+Les itinéraires des communications vocales contiennent des instructions qui indiquent à Microsoft Lync Server 2013 comment acheminer les appels des utilisateurs voix entreprise vers des numéros de téléphone sur le réseau téléphonique commuté (PSTN) ou un PBX (Private Branch Exchange).
 
 <div>
 
-## <a name="voice-routing-cmdlets"></a>Cmdlets de routage vocal
+## <a name="voice-routing-cmdlets"></a>Applets de commande de routage des communications vocales
 
-Utilisez les applets de commande suivantes pour configurer des itinéraires vocaux.
+Utilisez les applets de commande qui suivent pour configurer les itinéraires de communications vocales.
 
 **Routage des communications vocales**
 
   - <span></span>  
-    [Get-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
+    [Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
+    [New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
+    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
+    [Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
+    [Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
+    [New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
+    [Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
+    [Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204940(v=OCS.15))
+  - [Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))
 
-  - [Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205141(v=OCS.15))
+  - [Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))
 
-  - [New-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205135(v=OCS.15))
+  - [New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))
 
-  - [Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ204799(v=OCS.15))
+  - [Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))
 
-  - [Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/en-us/library/JJ205313(v=OCS.15))
+  - [Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 </div>
 
@@ -103,8 +103,8 @@ Utilisez les applets de commande suivantes pour configurer des itinéraires voca
 ## <a name="see-also"></a>Voir aussi
 
 
-[Cmdlets voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
-[Applets de connexion RTC dans Lync Server 2013](lync-server-2013-pstn-connectivity-cmdlets.md)  
+[Applets de commande voix entreprise dans Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Applets de commande de connectivité PSTN dans Lync Server 2013](lync-server-2013-pstn-connectivity-cmdlets.md)  
 
 
 [Blog Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

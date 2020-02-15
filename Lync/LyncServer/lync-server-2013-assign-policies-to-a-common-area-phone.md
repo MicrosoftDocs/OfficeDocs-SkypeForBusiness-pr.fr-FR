@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : attribuer des stratégies à un téléphone de zone commune'
+title: 'Lync Server 2013 : affecter des stratégies à un téléphone de partie commune'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6dfe908f2bb4ca66714d3eef756a0c53c7334fd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734044"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Attribuer des stratégies dans Lync Server 2013 à un téléphone de zone commune
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Affecter des stratégies dans Lync Server 2013 à un téléphone de partie commune
 
 </div>
 
@@ -37,16 +37,16 @@ ms.locfileid: "41734044"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Après avoir créé votre stratégie de téléphone pour les zones communes (pour plus de détails, voir [créer une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), vous pouvez affecter la stratégie à un téléphone réseau commun en utilisant Windows PowerShell et l’applet **de commande Grant-CS** appropriée. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Une fois que vous avez créé votre stratégie pour les téléphones de partie commune (pour plus de détails, voir [Create a Voice Policy and configure PSTN usage Records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), vous pouvez affecter la stratégie à un téléphone de partie commune à l’aide de Windows PowerShell et de la cmdlet **Grant-CS** appropriée. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
 
 <div>
 
-## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Attribution d’une stratégie à un seul téléphone standard
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Affectation d’une stratégie à un seul téléphone de partie commune
 
-  - La commande suivante affecte le RedmondVoice de la stratégie vocale par utilisateur au téléphone local qui dispose de l’identité bâtiment 14 lobby.
+  - La commande suivante affecte la stratégie de voix par utilisateur RedmondVoice au téléphone de partie commune qui possède l’identité Building 14 lobby.
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -54,15 +54,15 @@ Après avoir créé votre stratégie de téléphone pour les zones communes (pou
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Attribution d’une stratégie à plusieurs téléphones de surface commune
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Affectation d’une stratégie à plusieurs téléphones de partie commune
 
-  - Dans cet exemple, la stratégie vocale RedmondVoice est affectée à l’ensemble des téléphones communs configurés pour une utilisation au sein de l’organisation.
+  - Dans cet exemple, la stratégie de voix par utilisateur RedmondVoice est affectée à tous les téléphones de partie commune configurés pour être utilisés dans l’organisation.
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-Pour plus d’informations, reportez-vous aux rubriques d’aide pour le [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
+Pour plus d’informations, consultez les rubriques d’aide relatives à [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
 
 </div>
 

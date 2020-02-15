@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables et droits d’utilisateur pour la configuration des appels de groupe
+title: Conditions préalables à la configuration de la prise d’appel de groupe et droits de l’utilisateur
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1f5387ac7c67e01e3c4473367e1256cf07181a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Configuration requise pour les appels de groupe et droits d’utilisateur dans Lync Server 2013
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Conditions préalables à la configuration de la prise d’appel de groupe et droits de l’utilisateur dans Lync Server 2013
 
 </div>
 
@@ -37,43 +37,43 @@ ms.locfileid: "41763878"
 
 _**Dernière modification de la rubrique :** 2013-01-30_
 
-La cueillette de groupe est une fonctionnalité de gestion des appels qui est installée par défaut lors du déploiement d’Enterprise Voice. Cette rubrique décrit ce que vous devez mettre en place avant de pouvoir configurer la collecte d’appels de groupe et les droits d’utilisateur nécessaires à l’exécution des tâches de configuration.
+La prise d’appel de groupe est une fonctionnalité de gestion des appels installée par défaut lorsque vous déployez voix entreprise. Cette rubrique décrit ce que vous devez avoir en place avant de pouvoir configurer la prise d’appel de groupe et les droits d’utilisateur dont vous avez besoin pour effectuer des tâches de configuration.
 
-Cette section part du principe que vous avez lu la documentation de planification liée au regroupement d’appels de groupe (voir [planification d’appels de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).
+Cette section suppose que vous avez lu la documentation de planification relative à la prise d’appel de groupe (voir [planification de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).
 
 <div>
 
-## <a name="group-call-pickup-configuration-prerequisites"></a>Configuration requise pour la configuration des appels de groupe
+## <a name="group-call-pickup-configuration-prerequisites"></a>Conditions préalables à la configuration de la prise d’appel de groupe
 
-La collecte des appels de groupe nécessite les composants suivants :
+La prise d’appel de groupe requiert les composants suivants :
 
   - service d’application
 
   - application de parcage d’appel
 
-Ces composants sont installés automatiquement lorsque vous déployez Enterprise Voice.
+Ces composants sont installés automatiquement lorsque vous déployez voix entreprise.
 
 </div>
 
 <div>
 
-## <a name="group-call-pickup-configuration-user-rights"></a>Droits d’utilisateur de configuration des appels de groupe
+## <a name="group-call-pickup-configuration-user-rights"></a>Droits d’utilisateur de configuration de prise d’appel de groupe
 
-Vous pouvez utiliser les outils d’administration suivants pour configurer la cueillette des appels de groupe :
+Vous utilisez les outils d’administration suivants pour configurer la prise d’appel de groupe :
 
-  - Lync Server Management Shell
+  - Lync Server Management Shell
 
-  - Outil du kit de ressources SEFAUtil
+  - Outil de kit de ressources SEFAUtil
 
-Utilisez Lync Server Management Shell pour créer et gérer des groupes de captures d’appels dans la table de stationnement d’appel. Utilisez l’outil de kit de ressources SEFAUtil pour attribuer un groupe de cueillette d’appel et activer le regroupement d’appels de groupe pour les utilisateurs ou pour désactiver la sélection d’appels de groupe pour les utilisateurs.
+Utilisez Lync Server Management Shell pour créer et gérer des groupes de prise d’appel dans la table des orbites de parcage d’appel. Utilisez l’outil Kit de ressources SEFAUtil pour affecter un groupe de prise d’appel et activer la prise d’appel de groupe pour les utilisateurs ou pour désactiver la prise d’appel de groupe pour les utilisateurs.
 
-La configuration de la cueillette de groupe nécessite l’un des rôles d’administration suivants, en fonction de la tâche :
+La configuration de la prise d’appel de groupe nécessite l’un des rôles d’administrateur suivants, en fonction de la tâche :
 
-  - **CsVoiceAdministrator :** Ce rôle d’administrateur peut créer, configurer et gérer l’ensemble des stratégies et paramètres relatifs à la voix.
+  - **CsVoiceAdministrator :** Ce rôle d’administrateur permet de créer, de configurer et de gérer toutes les stratégies et les paramètres liés à la voix.
 
-  - **CsUserAdministrator :** Ce rôle d’administrateur peut activer le prélèvement d’appels de groupe pour les utilisateurs. Ce rôle d’administrateur dispose également d’un accès en lecture seule à toutes les configurations vocales.
+  - **CsUserAdministrator :** Ce rôle d’administrateur peut activer la prise d’appel de groupe pour les utilisateurs. Il dispose aussi d’un accès en lecture seule à toutes les configurations de voix.
 
-  - **CsServerAdministrator :** Ce rôle d’administrateur peut gérer, surveiller et résoudre les problèmes liés aux serveurs et services.
+  - **CsServerAdministrator :** Ce rôle d’administrateur peut gérer, surveiller et dépanner les serveurs et les services.
 
   - **CsAdministrator :** Ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
 
@@ -81,7 +81,7 @@ La configuration de la cueillette de groupe nécessite l’un des rôles d’adm
 
 
 > [!NOTE]
-> Pour plus d’informations sur les droits d’administration, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification.
+> Pour plus d’informations sur les droits d’administration, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</A> dans la documentation de planification.
 
 
 
@@ -94,10 +94,10 @@ La configuration de la cueillette de groupe nécessite l’un des rôles d’adm
 ## <a name="see-also"></a>Voir aussi
 
 
-[Déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+[Déploiement de voix entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[Planifier les fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+[Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

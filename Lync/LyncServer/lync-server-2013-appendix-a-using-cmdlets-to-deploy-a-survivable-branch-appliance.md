@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Annexe A : Utilisation d’applets de commande pour déployer un Survivable Branch Appliance'
+title: 'Lync Server 2013 : annexe A : utilisation d’applets de commande pour déployer un Survivable Branch Appliance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb77c4f22122694d928489f7d61beaa9cbae9355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029015"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Annexe A : Utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Annexe A : utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41737794"
 
 _**Dernière modification de la rubrique :** 2012-10-07_
 
-Cette rubrique décrit le déploiement d’une unité de branchement Survivable à l’aide de Lync Server Management Shell. Suivez cette procédure sur le site central.
+Cette rubrique décrit la procédure de déploiement d’un Survivable Branch appliance à l’aide de Lync Server Management Shell. Cette procédure doit être effectuée sur le site central.
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Pour déployer à distance une unité de branchement Survivable
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Pour déployer un Survivable Branch appliance à distance
 
-1.  Suivez la procédure décrite dans [Ajouter des sites de succursales à votre topologie dans Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) pour ajouter un nouveau site de succursale.
+1.  Suivez la procédure décrite dans la partie [Ajouter des sites de succursale à votre topologie dans Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) pour ajouter un nouveau site de succursale.
 
-2.  Rejoignez le site de succursale au domaine.
+2.  Joignez le site de succursale.
 
 3.  Ajoutez le groupe RTCUniversalSBATechnicians au groupe Administrateurs local.
 
-4.  Redémarrez le serveur, puis ouvrez une session en tant que membre du groupe RTCUniversalSBATechnicians.
+4.  Redémarrez le serveur et ouvrez une session dessus en tant que membre du groupe RTCUniversalSBATechnicians.
 
-5.  Dans Lync Server Management Shell, tapez les commandes suivantes en remplaçant les espaces réservés par les informations appropriées pour votre organisation :
+5.  Dans Lync Server Management Shell, tapez les commandes suivantes, en remplaçant les espaces réservés par les informations correctes pour votre organisation :
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

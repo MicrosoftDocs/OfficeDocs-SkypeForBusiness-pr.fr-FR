@@ -12,16 +12,16 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,22 +37,22 @@ ms.locfileid: "41735604"
 
 _**Dernière modification de la rubrique :** 2012-06-06_
 
-Lors de l’enregistrement du client, Lync Server utilise une stratégie d’emplacement pour configurer les propriétés E9-1-1 pour les utilisateurs d’Enterprise Voice. Cette stratégie contient les paramètres qui déterminent la façon dont E9-1-1 est implémenté. Par exemple, la stratégie d’emplacement contient des informations telles que la chaîne de numérotation d’urgence, et si un utilisateur est tenu d’entrer manuellement un emplacement si le service d’information d’emplacement n’en a pas fourni automatiquement un. Pour obtenir une définition complète d’une stratégie d’emplacement, voir [définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Lors de l’inscription du client, Lync Server utilise une stratégie d’emplacement pour configurer les propriétés E9-1-1 pour les utilisateurs à extension voix entreprise. Cette stratégie contient les paramètres qui définissent comment E9-1-1 est implémenté. Par exemple, la stratégie d’emplacement contient des informations telles que la chaîne de numérotation d’urgence, et indique si un utilisateur est requis ou non pour entrer manuellement un emplacement si le service informations d’emplacement ne en fournit pas automatiquement un. Pour obtenir une définition complète d’une stratégie d’emplacement, voir [définition de la stratégie d’emplacement pour Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-Lync Server peut affecter une stratégie d’emplacement aux clients en fonction du sous-réseau, ou à des utilisateurs basés sur une stratégie globale, par site ou par utilisateur. Pour vous aider à prendre une décision quant au mode d’activation des utilisateurs, commencez par répondre aux questions suivantes.
+Lync Server peut attribuer une stratégie d’emplacement aux clients basés sur un sous-réseau ou à des utilisateurs basés sur une stratégie globale, par site ou par utilisateur. Pour vous aider à prendre une décision quant au mode d’activation des utilisateurs, commencez par répondre aux questions suivantes.
 
   - **Envisagez-vous d’activer tous les utilisateurs ou de limiter la prise en charge à des zones géographiques spécifiques de l’entreprise ?**  
-    Vous pouvez affecter un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. Toutefois, en assignant une stratégie d’emplacement à un site réseau du serveur Lync et en ajoutant des sous-réseaux au site, vous pouvez limiter le support de E9-1-1 à des emplacements sélectionnés au sein de l’entreprise et spécifier le comportement de routage de E9-1-1 pour chaque site.
+    Vous pouvez assigner un emplacement à tous les utilisateurs de votre entreprise à l’aide d’une stratégie d’emplacement globale. Toutefois, en affectant une stratégie d’emplacement à un site réseau Lync Server, puis en ajoutant des sous-réseaux au site, vous pouvez limiter la prise en charge du E9-1-1 aux emplacements sélectionnés au sein de l’entreprise et spécifier le comportement de routage E9-1-1 pour chaque site.
 
 <!-- end list -->
 
-  - **Envisagez-vous d’activer des utilisateurs individuels par le biais d’une stratégie utilisateur ?**  
-    Vous pouvez affecter directement des stratégies d’emplacement à des utilisateurs ou des objets contact de téléphone de partie commune spécifiques si vous voulez personnaliser leur prise en charge du service E-9-1-1.
+  - **Envisagez-vous d’activer des utilisateurs individuels au moyen d’une stratégie utilisateur ?**  
+    Vous pouvez assigner directement des stratégies d’emplacement à des utilisateurs ou des objets contact de téléphone de partie commune spécifiques si vous voulez personnaliser leur prise en charge du service E-9-1-1.
 
 <!-- end list -->
 
-  - **Quand des clients se trouvent en dehors du réseau ou se connectent à partir d’un sous-réseau non défini, doivent-ils bénéficier du service E9-1-1 ?**  
-    Si des utilisateurs se voient attribuer une stratégie d’emplacement globale, de site ou par utilisateur, ils peuvent être obligés d’entrer manuellement un emplacement dans le client si le client ne se trouve pas dans un sous-réseau défini ou s’il n’y a pas de localisation trouvée par le service d’informations d’emplacement. Pour plus d’informations, reportez-vous à [définition de l’interface utilisateur pour l’acquisition manuelle d’un emplacement dans Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
+  - **Quand des clients se trouvent en dehors du réseau ou se connectent à partir d’un sous-réseau non défini, ces clients doivent-ils bénéficier du service E9-1-1 ?**  
+    Si des utilisateurs se voient attribuer une stratégie d’emplacement globale, de site ou par utilisateur, il peut être nécessaire d’entrer manuellement un emplacement dans le client si celui-ci ne se trouve pas dans un sous-réseau défini ou s’il a été trouvé par le service d’informations d’emplacement. Pour plus d’informations, reportez-vous à [la rubrique définition de l’expérience utilisateur pour l’acquisition manuelle d’un emplacement dans Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
 
 </div>
 

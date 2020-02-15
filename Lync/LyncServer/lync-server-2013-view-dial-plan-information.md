@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les informations de plan de numérotation'
+title: 'Lync Server 2013 : afficher les informations sur le plan de numérotation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a83de5daf33764dd08be9c08141d338e73a675d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c63aead21441cb972cce2b6fb26391efc43969bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41731074"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Pour afficher des informations pour un plan de numérotation existant, suivez les étapes de la procédure ci-dessous. Pour créer un nouveau plan de numérotation, reportez-vous à [la rubrique créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md).
+Pour afficher les informations d’un plan de numérotation existant, effectuez la procédure suivante. Si vous souhaitez créer un nouveau plan de numérotation, voir [créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md).
 
 <div>
 
-## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a>Pour afficher des informations sur un plan de numérotation via le panneau de configuration de Lync Server
+## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a>Pour afficher des informations sur un plan de numérotation à partir du panneau de configuration Lync Server
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Plan de numérotation**.
 
-4.  Dans la page **Plan de numérotation**, double-cliquez sur le nom d’un plan de numérotation.
+4.  Dans la page **Plan de numérotation**, double-cliquez sur le nom du plan de numérotation.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez afficher des informations pour un seul plan de numérotation à la fois.
+    > Vous ne pouvez afficher les informations que d’un seul plan de numération à la fois.
 
     
     </div>
@@ -64,15 +64,15 @@ Pour afficher des informations pour un plan de numérotation existant, suivez le
 
 <div>
 
-## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Pour afficher les plans de numérotation à l’aide des cmdlets Windows PowerShell
+## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Pour afficher les plans de numérotation à l’aide des applets de commande Windows PowerShell
 
-  - Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de l’applet de commande **Get-CsDialPlan** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+  - Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de la cmdlet **Get-CsDialPlan** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
     
-    Pour afficher des informations sur l’ensemble de vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+    Pour afficher des informations sur tous vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsDialPlan
     
-    Cette commande renvoie des informations similaires à ce qui suit :
+    Cette commande renvoie des informations semblables à celles-ci :
     
         Identity                 : Global
         Description              :
@@ -94,8 +94,8 @@ Pour afficher des informations pour un plan de numérotation existant, suivez le
 ## <a name="see-also"></a>Voir aussi
 
 
-[Créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
-[Modification d’un plan de numérotation dans Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
+[Création d’un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
+[Modifier un plan de numérotation dans Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
   
 
 </div>

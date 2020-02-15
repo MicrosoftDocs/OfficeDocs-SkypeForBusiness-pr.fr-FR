@@ -12,20 +12,20 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1d75e0801ec16957083f2e9fef043080c771ea9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Résoudre les problèmes du plug-in Lync VDI dans Lync Server 2013
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Résolution des problèmes liés au plug-in Lync VDI dans Lync Server 2013
 
 </div>
 
@@ -53,11 +53,11 @@ Si vous rencontrez des problèmes lors de l’installation du plug-in VDI sur un
 
 ## <a name="troubleshooting-issues-with-pairing"></a>Résolution des problèmes liés au jumelage
 
-Lorsque le jumelage enfichable VDI échoue, l’icône de jumelage en bas à droite s’affiche sous la forme d’un « X » rouge, comme illustré ci-dessous :
+Lorsque le jumelage du plug-in VDI échoue, l’icône du jumelage qui se trouve dans l’angle inférieur droit prend la forme d’un « X » rouge, comme ceci :
 
-![Icône VDI de Lync montrant une jumelage réussie](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icône VDI de Lync montrant une jumelage réussie")
+![Icône Lync VDI montrant le jumelage réussi](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icône Lync VDI montrant le jumelage réussi")
 
-Voici quelques raisons possibles d’échecs et des actions correctives que vous pouvez effectuer.
+Voici les raisons possibles des échecs, ainsi que les mesures que vous pouvez prendre pour y remédier.
 
   - **L’utilisateur a entré des informations d’identification incorrectes au moment de la connexion.**
     
@@ -65,29 +65,29 @@ Voici quelques raisons possibles d’échecs et des actions correctives que vous
 
   - **Une autre instance du client Bureau à distance est en cours d’exécution.**
     
-    S’ils utilisent une connexion Bureau à distance dans Windows, les utilisateurs doivent procéder comme suit :
+    S’ils utilisent la connexion Bureau à distance dans Windows, les utilisateurs doivent procéder comme suit :
     
-    1.  Démarrez le Gestionnaire des tâches : appuyez sur **Alt+Ctrl+Suppr **, puis cliquez sur **Démarrer le Gestionnaire des tâches**.
+    1.  Démarrez le Gestionnaire des tâches : appuyez sur **Alt+Ctrl+Suppr**, puis cliquez sur **Démarrer le Gestionnaire des tâches**.
     
     2.  Cliquez sur l’onglet **Processus** et recherchez tous les processus nommés **mstsc.exe** dans la liste.
     
-    3.  Mettez chaque processus **mstsc.exe** en surbrillance et cliquez sur **Arrêter le processus**. 
+    3.  Mettez chaque processus **mstsc.exe** en surbrillance et cliquez sur **Arrêter le processus**.
     
-    4.  Démarrez une nouvelle session Bureau à distance et réessayez de vous connecter. 
+    4.  Démarrez une nouvelle session Bureau à distance et réessayez de vous connecter.
 
   - **Les fichiers nécessaires n’ont pas été installés correctement.**
     
-    Une fois que le plug-in est installé sur l’ordinateur local, les fichiers suivants doivent figurer sous\\C :\\Program Files\\Microsoft Office Office15 (ou la lettre de lecteur appropriée) :
+    Une fois le plug-in installé sur l’ordinateur local, les fichiers suivants doivent être présents sous C :\\Program Files\\Microsoft Office\\Office15 (ou la lettre de lecteur appropriée) :
     
-      - LyncVdiPlugin.dll
+      - LyncVdiPlugin. dll
     
-      - UcVdi.dll
+      - UcVdi. dll
     
-    S’il existe des problèmes avec le jumelage d’infrastructure VDI, assurez-vous que ces fichiers sont présents sur l’ordinateur local.
+    Si des problèmes liés au jumelage VDI se sont produits, vérifiez que ces fichiers sont présents sur l’ordinateur local.
 
-  - **Le client Lync s’exécute sur l’ordinateur local.**
+  - **Le client Lync est en cours d’exécution sur l’ordinateur local.**
     
-    Pour utiliser le plug-in Lync VDI, un client Lync ne doit pas être en cours d’exécution sur l’ordinateur local ; sinon, le jumelage échoue. En règle générale, l’utilisateur ne doit pas installer un client Lync sur l’ordinateur local.
+    Pour utiliser le plug-in Lync VDI, un client Lync ne doit pas être en cours d’exécution sur l’ordinateur local, sinon le jumelage échoue. La meilleure pratique consiste à ne pas installer un client Lync sur l’ordinateur local.
 
 </div>
 

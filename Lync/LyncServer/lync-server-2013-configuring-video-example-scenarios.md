@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration de scénarios d’exemples vidéo'
+title: 'Lync Server 2013 : configuration des exemples de scénarios vidéo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 085a87d24efed3f9f5e1a5d2d30c29c9b8461693
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Configuration de scénarios d’exemples vidéo pour Lync Server 2013
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>Configuration d’exemples de scénarios vidéo pour Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41734424"
 
 _**Dernière modification de la rubrique :** 2012-10-02_
 
-Lync 2013 ajoute de nouvelles fonctionnalités vidéo pour la prise en charge des vidéos d’affichage de la vidéo HD 1920 x 1080. Les mesures sur la base des données client indiquent que la bande passante vidéo type n’est plus légèrement comparée à Lync 2010, mais que la bande passante maximale de la bande passante augmente en raison de la prise en charge complète HD (pour plus de détails, voir la section « utilisation du réseau du trafic multimédia » dans les [exigences de bande passante réseau de Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Les administrateurs peuvent donc vouloir limiter la bande passante vidéo pour certains utilisateurs (par exemple, les utilisateurs d’une succursale qui ont moins de capacités réseau) et permettent de garantir la meilleure qualité vidéo possible pour les autres utilisateurs (comme les dirigeants).
+Lync 2013 ajoute de nouvelles fonctionnalités de vidéo pour la prise en charge de la vidéo et de la Galerie (HD) 1920 x 1080. Les mesures basées sur les données client indiquent que la bande passante vidéo classique n’a pas été légèrement comparée à Lync 2010, mais que la bande passante de flux vidéo maximale a augmenté en raison de la prise en charge Full HD (pour plus d’informations, consultez la section « utilisation du réseau multimédia » dans la [bande passante réseau requise pour le trafic multimédia dans Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Les administrateurs peuvent donc restreindre la bande passante vidéo pour certains utilisateurs (par exemple, utilisateurs dans une succursale dotée d’une capacité réseau inférieure) et offrir la meilleure qualité vidéo possible pour les autres utilisateurs (par exemple, cadres).
 
-Le tableau suivant répertorie les paramètres recommandés pour la configuration de la vidéo pour différentes capacités du réseau. Ces paramètres restreignent certains scénarios d’utilisation et de réception de vidéos de haute résolution (voir la colonne la plus à droite). Le paramètre minimum entraîne l’indisponibilité de la vidéo de la galerie en raison de la bande passante réseau faible de réception.
+Le tableau suivant fournit la liste des paramètres recommandés pour configurer la vidéo pour différentes capacités réseau. Ces paramètres limiteront dans certains cas l’envoi et la réception de vidéos de résolution plus élevée (voir la colonne la plus à droite). La vidéo en mode Galerie n’est pas disponible si la configuration minimale est utilisée en raison de la faible bande passante réseau de réception maximale.
 
 ### <a name="recommended-video-settings"></a>Paramètres vidéo recommandés
 
@@ -59,101 +59,101 @@ Le tableau suivant répertorie les paramètres recommandés pour la configuratio
 <th>EnableMultiViewJoin</th>
 <th>VideoBitRateKB</th>
 <th>TotalReceiveVideoBitRateKB</th>
-<th>Résolution vidéo prévue pour une vidéo de qualité optimale</th>
+<th>Résolution vidéo attendue pour une vidéo de bonne qualité</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Optimal</p></td>
-<td><p>Vrai</p></td>
-<td><p>Vrai</p></td>
+<td><p>Idéale</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
-<td><p>Poste à poste : résolution vidéo de 1920 x 1080</p>
-<p>Affichage Galerie : jusqu’à 2 1920 x 1080 vidéos ou plusieurs vidéos de résolution réduite</p></td>
+<td><p>Égal à égal : résolution vidéo 1920 x 1080 maximum</p>
+<p>Mode Galerie : jusqu’à deux vidéos de résolution 1920 x 1080 ou plusieurs vidéos de résolution inférieure</p></td>
 </tr>
 <tr class="even">
 <td><p>Good</p></td>
-<td><p>Vrai</p></td>
-<td><p>Vrai</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
-<td><p>Poste à poste : résolution vidéo de 1280 x 720</p>
-<p>Vue Galerie : vidéo de résolution de 5 640 x 360</p></td>
+<td><p>Égal à égal : résolution vidéo 1280 x 720 maximum</p>
+<p>Mode Galerie : jusqu’à cinq vidéos de résolution 640 x 360</p></td>
 </tr>
 <tr class="odd">
-<td><p>Moyen</p></td>
-<td><p>Vrai</p></td>
-<td><p>Vrai</p></td>
+<td><p>Moyenne</p></td>
+<td><p>True</p></td>
+<td><p>True</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
-<td><p>Poste à poste : résolution vidéo de 960 x 540</p>
-<p>Vue Galerie : vidéo de résolution de 5 424 x 240</p></td>
+<td><p>Égal à égal : résolution vidéo 960 x 540 maximum</p>
+<p>Mode Galerie : jusqu’à cinq vidéos de résolution 424 x 240</p></td>
 </tr>
 <tr class="even">
-<td><p>Requise</p></td>
+<td><p>Minimale</p></td>
 <td><p>Vrai</p></td>
 <td><p>False</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
-<td><p>Poste à poste : résolution vidéo de 424 x 240</p>
-<p>Affichage Galerie : indisponible</p></td>
+<td><p>Égal à égal : résolution vidéo 424 x 240 maximum</p>
+<p>Mode Galerie : non disponible</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Vous pouvez utiliser les informations contenues dans le tableau ci-dessus pour déployer les nouvelles fonctionnalités de visioconférence et de vidéoconférence HD pour certains utilisateurs de votre organisation, tout en autorisant des résolutions vidéo différentes pour les autres utilisateurs.
+Vous pouvez utiliser les informations du tableau précédent pour déployer les nouvelles fonctionnalités de conférence vidéo HD et en mode Galerie pour certains utilisateurs dans votre organisation, tout en autorisant des résolutions vidéo différentes pour d’autres.
 
-Dans l’exemple suivant, l’administrateur déploie les nouvelles fonctions vidéo avec la meilleure qualité vidéo disponible uniquement aux dirigeants. Pour les employés d’une succursale distante disposant d’une faible capacité réseau, le paramètre minimum du tableau précédent est déployé. Pour tous les autres employés, le paramètre « Good » du tableau précédent est déployé.
+Dans l’exemple suivant, l’administrateur déploie les nouvelles fonctionnalités vidéo avec la meilleure qualité vidéo disponible pour les seuls cadres. Pour les employés d’une succursale dotée d’une faible capacité réseau, seule la configuration minimale du tableau précédent est déployée. Pour tous les autres employés, la configuration « Satisfaisante » est déployée.
 
-Pour déployer les nouvelles fonctionnalités aux dirigeants, l’administrateur crée une stratégie de conférence nommée ExecutiveVideo. Cette stratégie de conférence a les paramètres suivants :
+Pour déployer les nouvelles fonctionnalités pour les cadres, l’administrateur crée la stratégie de conférence ExecutiveVideo avec les paramètres suivants :
 
-  - VideoBitRateKB est défini sur 8000 kbps
+  - VideoBitRateKB est défini sur 8 000 Kbits/s.
 
-  - TotalReceiveVideoBitRateKB est défini sur 8000 kbps
+  - TotalReceiveVideoBitRateKB est défini sur 8 000 Kbits/s.
 
-  - AllowMultiview est défini sur true.
+  - AllowMultiview est défini sur True.
 
-  - EnableMultiviewJoin est défini sur true.
+  - EnableMultiviewJoin est défini sur True.
 
-Pour les employés de la succursale, l’administrateur crée une stratégie de conférence nommée BranchOfficeVideo. Cette stratégie de conférence a les paramètres suivants :
+Pour les employés de la succursale, l’administrateur crée la stratégie de conférence BranchOfficeVideo avec les paramètres suivants :
 
-  - VideoBitRateKB est défini sur 350 kbps
+  - VideoBitRateKB est défini sur 350 Kbits/s.
 
-  - TotalReceiveVideoBitRateKB est défini sur 350 kbps
+  - TotalReceiveVideoBitRateKB est défini sur 350 Kbits/s.
 
-  - AllowMultiview est défini sur true.
+  - AllowMultiview est défini sur True.
 
-  - EnableMultiviewJoin est défini sur false.
+  - EnableMultiviewJoin est défini sur False.
 
-Pour tous les autres employés, l’administrateur crée une stratégie de conférence nommée StandardVideo. Cette stratégie de conférence a les paramètres suivants :
+Pour tous les autres employés, l’administrateur crée la stratégie de conférence StandardVideo avec les paramètres suivants :
 
-  - VideoBitRateKB est défini sur 2500 kbps
+  - VideoBitRateKB est défini sur 2 500 Kbits/s.
 
-  - TotalReceiveVideoBitRateKB est défini sur 2500 kbps
+  - TotalReceiveVideoBitRateKB est défini sur 2 500 Kbits/s.
 
-  - AllowMultiview est défini sur true.
+  - AllowMultiview est défini sur True.
 
-  - EnableMultiviewJoin est défini sur true.
+  - EnableMultiviewJoin est défini sur True.
 
-L’administrateur affecte la stratégie de conférence aux utilisateurs comme suit :
+L’administrateur affecte les stratégies de conférence aux utilisateurs comme suit :
 
-  - La stratégie de conférence ExecutiveVideo est affectée aux dirigeants.
+  - La stratégie de conférence ExecutiveVideo est affectée aux cadres.
 
-  - La stratégie de conférence BranchOfficeVideo est affectée à tous les employés de l’succursale.
+  - La stratégie de conférence BranchOfficeVideo est affectée à tous les employés de la succursale.
 
   - La stratégie de conférence StandardVideo est affectée à tous les autres employés.
 
-Ces attributions de stratégie de conférence génèrent l’interface utilisateur suivante :
+Il en résulte l’expérience utilisateur suivante :
 
-  - Toutes les conférences organisées par tout type d’affichage Galerie de support utilisateur, mais les employés dans la succursale ne peuvent pas accéder à l’affichage Galerie.
+  - Toutes les conférences organisées par les utilisateurs prennent en charge le mode Galerie, mais les employés de la succursale ne peuvent pas l’utiliser.
 
-  - Dans le cadre d’une conférence à deux ou à plusieurs, les dirigeants peuvent envoyer une vidéo HD HD de 1920 x 1080, si leur matériel et leur lien réseau le prennent en charge, et qu’ils peuvent recevoir une vidéo HD de 1920 x 1080, au sein desquels les autres clients participants le prennent en charge.
+  - Pour toutes les conférences incluant plusieurs participants, les cadres peuvent envoyer la vidéo HD intégrale 1920 x 1080 (si leur matériel et leur liaison réseau la prennent en charge) et peuvent recevoir la vidéo HD intégrale 1920 x 1080 si les clients des autres participants la prennent en charge.
 
-  - Les employés qui ne sont pas des dirigeants disposent de résolutions plus basses que celles des dirigeants dans leurs conférences à deux ou à plusieurs, mais ils continuent à utiliser une bonne résolution.
+  - S’ils bénéficient de résolutions inférieures par rapport aux cadres dans le cadre des conférences à plusieurs participants, les employés qui ne sont pas des cadres obtiennent tout de même une résolution satisfaisante.
 
-  - Les employés qui se trouvent dans la succursale disposent d’une bonne qualité vidéo dans les appels à deux participants lorsque Lync affiche la taille de la fenêtre vidéo par défaut ; Toutefois, si la fenêtre Lync est agrandie en plein écran, la résolution vidéo n’augmentera pas. Dans le cadre de conférences à plusieurs, les employés de la succursale ne verront qu’une vidéo active.
+  - Les employés de la filiale obtiendront une bonne qualité vidéo dans les appels à deux parties lorsque Lync affiche la taille de la fenêtre vidéo par défaut ; Toutefois, si la fenêtre Lync est agrandie en plein écran, la résolution vidéo n’augmente pas. Pour les conférences à plusieurs, les employés de la succursale ne verront qu’une seule vidéo active.
 
 </div>
 

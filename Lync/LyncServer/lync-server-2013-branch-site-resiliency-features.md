@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Fonctionnalités de résistance de site de succursale'
+title: 'Lync Server 2013 : fonctionnalités de résistance de site de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5f477bcb5620112789a338339b6ca00bf9c3c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737564"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,14 +37,14 @@ ms.locfileid: "41737564"
 
 _**Dernière modification de la rubrique :** 2014-02-10_
 
-Si vous fournissez la résistance des sites de succursale et que la connexion de réseau étendu d’un site de succursale à un site central échoue si ce dernier est inaccessible, les fonctionnalités vocales suivantes seront encore disponibles :
+Si vous fournissez la résistance des sites de succursale et que la connexion WAN d’un site de succursale à un site central échoue si ce dernier est inaccessible, les fonctionnalités vocales suivantes seront encore disponibles :
 
 <div>
 
 
-  - Appels RTC entrants et sortants
+  - Appels PSTN entrants et sortants
 
-  - Appels Enterprise entre des utilisateurs situés sur le même site ou sur deux sites différents
+  - Appels Enterprise entre des utilisateurs situés sur le même site ou sur deux sites différents
 
   - Fonctionnalités de base de gestion des appels, dont la mise en attente, la récupération et le transfert
 
@@ -54,33 +54,33 @@ Si vous fournissez la résistance des sites de succursale et que la connexion de
 
   - Enregistrements des détails des appels (CDR)
 
-  - Conférence rendez-vous par réseau téléphonique commuté (RTC) avec standard automatique de conférence
+  - Conférence rendez-vous par réseau téléphonique commuté (PSTN) avec standard automatique de conférence
 
-  - Fonctionnalités de messagerie vocale si vous configurez les paramètres de réacheminement de la messagerie vocale. (Pour plus d’informations, consultez [Configuration requise pour la résilience du site de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).)
+  - Les fonctionnalités de messagerie vocale, si vous configurez les paramètres de réacheminement de la messagerie vocale. (Pour plus d’informations, consultez la rubrique [Configuration requise pour la résistance des sites de succursale pour Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).)
 
   - Authentification et autorisations des utilisateurs
 
-Les fonctionnalités suivantes ne seront disponibles que si votre solution de résilience est un déploiement de Lync Server à une échelle complète sur le site de la succursale :
+Les fonctionnalités suivantes seront disponibles uniquement si votre solution de résilience est un déploiement Lync Server complet sur le site de succursale :
 
-  - Messagerie instantanée, conférence A/V et web
+  - messagerie instantanée, conférence A/V et web
 
-  - Routage basé sur la présence et Ne pas déranger (DND (quand les appels ne sonnent pas sur les postes dont le statut est Ne pas déranger)
+  - routage basé sur la présence et Ne pas déranger (DND (quand les appels ne sonnent pas sur les postes dont le statut est Ne pas déranger)
 
   - Mise à jour des paramètres de transfert d’appel
 
-  - Application de groupe de réponse et application de parc d’appels
+  - Application Response Group et application parcage d’appel
 
-  - Attribution de nouveaux téléphones et clients, mais uniquement si les services de domaine Active Directory sont présents au niveau du site de succursale.
+  - Mise en service des nouveaux téléphones et clients, mais uniquement si les services de domaine Active Directory sont présents sur le site de succursale.
 
   - Enhanced 9-1-1 (E9-1-1)
     
-    Si E9-1-1 est déployé et que le Trunk SIP sur le site central n’est pas disponible parce que la liaison WAN est en panne, l’application branche Survivable achemine les appels E9-1-1 vers la passerelle locale. Pour activer cette fonctionnalité, les stratégies de voix des utilisateurs du site de succursale doivent acheminer les appels vers la passerelle locale en cas de panne du réseau étendu (WAN).
+    Si E9-1-1 est déployé et que la jonction SIP sur le site central n’est pas disponible car la liaison de réseau étendu est inactive, le Survivable Branch Appliance achemine les appels E9-1-1 vers la passerelle de succursale locale. Pour activer cette fonctionnalité, les stratégies de voix des utilisateurs du site de succursale doivent acheminer les appels vers la passerelle locale en cas de panne du réseau étendu (WAN).
 
 <div>
 
 
 > [!NOTE]  
-> SBA (survivable branch office) n’est pas pris en charge pour XMPP. Les utilisateurs hébergés dans des configurations SBA ne seront pas en mesure d’envoyer des messages instantanés ou de voir la présence de contacts XMPP.
+> SBA (Survivable Branch Office) n’est pas pris en charge pour XMPP. Les utilisateurs hébergés dans une configuration SBA ne peuvent pas envoyer de messages instantanés ou voir la présence avec des contacts XMPP.
 
 
 

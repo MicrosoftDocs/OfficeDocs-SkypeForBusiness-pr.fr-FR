@@ -1,5 +1,5 @@
 ---
-title: Migrer les numéros d’accès entrant
+title: Faire migrer les numéros d’accès entrant
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0638ae76a9aa1108b11c1d1ff98fdd3eef08c938
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a56dbb90c65bdbb4e26d289c289b6ccc9054d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762942"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>Migrer les numéros d’accès entrant
+# <a name="migrate-dial-in-access-numbers"></a>Faire migrer les numéros d’accès entrant
 
 </div>
 
@@ -37,31 +37,31 @@ ms.locfileid: "41762942"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-La migration des numéros d’accès rendez-vous de Lync Server 2010 vers Lync Server 2013 nécessite l’exécution de l’applet de connexion **Move-CsApplicationEndpoint** pour migrer les objets de contact. Pendant la période de coexistence Lync Server 2010 et Lync Server 2013, les numéros d’accès rendez-vous créés dans Lync Server 2013 se comportent de la même manière que les numéros d’accès rendez-vous créés dans Lync Server 2010, comme décrit dans cette section.
+La migration des numéros d’accès entrant de Lync Server 2010 vers Lync Server 2013 nécessite l’exécution de la cmdlet **Move-CsApplicationEndpoint** pour migrer les objets contact. Pendant la période de coexistence Lync Server 2010 et Lync Server 2013, les numéros d’accès entrant que vous avez créés dans Lync Server 2013 se comportent de la même manière que les numéros d’accès entrant que vous créez dans Lync Server 2010, comme décrit dans cette section.
 
-Les numéros d’accès rendez-vous que vous avez créés dans Lync Server 2010, mais qui ont été déplacés vers Lync Server 2013 ou que vous avez créés dans Lync Server 2013 auparavant, pendant ou après la migration, présentent les caractéristiques suivantes :
+Les numéros d’accès entrant que vous avez créés dans Lync Server 2010, mais déplacés vers Lync Server 2013 ou créés dans Lync Server 2013 avant, pendant ou après la migration, ont les caractéristiques suivantes :
 
-  - N’apparaissent pas dans les invitations aux réunions Office Communications Server 2007 R2 et la page numéro d’accès rendez-vous.
+  - N’apparaissent pas sur les invitations aux réunions Office Communications Server 2007 R2 et la page numéro d’accès entrant.
 
-  - S’affichent dans les invitations aux réunions Lync Server 2010 et la page numéro d’accès rendez-vous.
+  - Apparaissent sur les invitations aux réunions Lync Server 2010 et la page numéro d’accès entrant.
 
-  - S’affichent dans les invitations aux réunions Lync Server 2013 et la page numéro d’accès rendez-vous.
+  - Apparaissent sur les invitations aux réunions Lync Server 2013 et la page numéro d’accès entrant.
 
-  - Ne peut pas être affiché ou modifié dans l’outil d’administration d’Office Communications Server 2007 R2.
+  - Ne peuvent pas être affichés ni modifiés dans l’outil d’administration Office Communications Server 2007 R2.
 
-  - Peut être affiché et modifié dans le panneau de configuration de Lync Server 2010 et dans Lync Server 2010 Management Shell.
+  - Peuvent être affichés et modifiés dans le panneau de configuration Lync Server 2010 et dans Lync Server 2010 Management Shell.
 
-  - Peut être affiché et modifié dans le panneau de configuration de Lync Server 2013 et dans Lync Server 2013 Management Shell.
+  - Peuvent être affichés et modifiés dans le panneau de configuration Lync Server 2013 et dans Lync Server 2013 Management Shell.
 
-  - Peuvent être réécrits au sein de la région à l’aide de l’applet de requête Set-CsDialinConferencingAccessNumber avec le paramètre Priority.
+  - ils peuvent être réordonnés dans la région à l’aide de l’applet de commande Set-CsDialinConferencingAccessNumber avec le paramètre Priority.
 
-Vous devez terminer la migration des numéros d’accès rendez-vous qui pointent vers un pool Lync Server 2010 avant de désactiver le pool Lync Server 2010. Si vous n’avez pas terminé la migration des numéros d’accès rendez-vous, comme indiqué dans la procédure suivante, les appels entrants vers les numéros d’accès échoueront.
+Vous devez terminer la migration des numéros d’accès entrant qui pointent vers un pool Lync Server 2010 avant de mettre hors service le pool Lync Server 2010. Si vous ne terminez pas la migration des numéros d’accès entrant tel que décrit dans la procédure suivante, les appels entrants vers les numéros d’accès échoueront.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous devez effectuer cette procédure avant de désaffecter le pool Lync Server 2010.
+> Vous devez effectuer cette procédure avant de désactiver le pool Lync Server 2010.
 
 
 
@@ -71,58 +71,58 @@ Vous devez terminer la migration des numéros d’accès rendez-vous qui pointen
 
 
 > [!NOTE]  
-> Nous vous recommandons de déplacer les numéros d’accès rendez-vous lorsque le niveau d’utilisation du réseau est faible, en cas de panne de service de courte durée.
+> Nous vous recommandons de déplacer les numéros d’accès entrant lorsque l’utilisation du réseau est faible, au cas où il y aurait une courte période d’interruption de service.
 
 
 
 </div>
 
-**Pour identifier et déplacer les numéros d’accès rendez-vous**
+**Pour identifier et déplacer les numéros d’accès entrant**
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, à partir de la ligne de commande :
+2.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez la commande suivante à partir de la ligne de commande :
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-3.  Ouvrez le Paneau de configuration Lync Server.
+3.  Ouvrez le Panneau de configuration Lync Server.
 
-4.  Dans la barre de navigation de gauche, cliquez sur **Conférences**.
+4.  Dans la barre de navigation de gauche, cliquez sur **Conférence**.
 
-5.  Cliquez sur l’onglet **numéro d’accès** rendez-vous.
+5.  Cliquez sur l’onglet **numéro d’accès entrant** .
 
-6.  Vérifiez qu’aucun numéro d’accès par connexion n’est conservé pour le pool Lync Server 2010 à partir duquel vous effectuez la migration.
+6.  Vérifiez qu’il ne reste aucun numéro d’accès entrant pour le pool Lync Server 2010 à partir duquel vous effectuez la migration.
     
     <div>
     
 
     > [!NOTE]  
-    > Lorsque tous les numéros d’accès par connexion pointent vers le pool Lync Server 2013, vous pouvez désactiver le pool Lync Server 2010.
+    > Lorsque tous les numéros d’accès entrants pointent vers le pool Lync Server 2013, vous pouvez mettre hors service le pool Lync Server 2010.
 
     
     </div>
 
-**Vérifier la migration des numéros d’accès rendez-vous à l’aide du panneau de configuration de Lync Server**
+**Vérifier la migration des numéros d’accès entrant à l’aide du panneau de configuration Lync Server**
 
-1.  À partir d’un compte d’utilisateur affecté au rôle **CsUserAdministrator** ou au rôle **CsAdministrator** , connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  À partir d’un compte d’utilisateur affecté au rôle **CsUserAdministrator** ou **CsAdministrator** , ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Ouvrez le Paneau de configuration Lync Server.
+2.  Ouvrez le Panneau de configuration Lync Server.
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférences**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**.
 
-4.  Cliquez sur l’onglet **numéro d’accès** rendez-vous.
+4.  Cliquez sur l’onglet **numéro d’accès entrant** .
 
-5.  Vérifiez que tous les numéros d’accès rendez-vous sont déplacés vers le pool hébergé sur Lync Server 2013.
+5.  Vérifiez que tous les numéros d’accès entrant sont migrés vers le pool hébergé sur Lync Server 2013.
 
-**Vérifier la migration des numéros d’accès entrants à l’aide de Lync Server Management Shell**
+**Vérifier la migration des numéros d’accès entrant à l’aide de Lync Server Management Shell**
 
-1.  Ouvrez Lync Server Management Shell.
+1.  Ouvrez Lync Server Management Shell.
 
-2.  Pour rétablir tous les numéros d’accès pour les conférences rendez-vous transférés, à partir de la ligne de commande :
+2.  Pour renvoyer tous les numéros d’accès de conférence rendez-vous migrés, exécutez la commande suivante à partir de la ligne de commande :
     
         Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
 
-3.  Vérifiez que tous les numéros d’accès rendez-vous sont déplacés vers le pool hébergé sur Lync Server 2013.
+3.  Vérifiez que tous les numéros d’accès entrant sont migrés vers le pool hébergé sur Lync Server 2013.
 
 </div>
 

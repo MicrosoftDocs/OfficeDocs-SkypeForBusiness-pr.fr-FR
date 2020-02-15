@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test de Web Scheduler'
+title: 'Lync Server 2013 : test du planificateur Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d7dc70bad90dc4e4c94e2db273f44ed20c50ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8bc3d93e1e4a08575119031471863dad817f3e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745414"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Test de Web Scheduler dans Lync Server 2013
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Test du planificateur Web dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsWebScheduler</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-applet cswebscheduler</strong> . Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,19 +66,19 @@ _**Dernière modification de la rubrique :** 2014-11-03_
 
 ## <a name="description"></a>Description
 
-L’applet de **contrôle test-CsWebScheduler** vous permet de déterminer si un utilisateur spécifique peut planifier une réunion à l’aide de Web Scheduler. Web Scheduler permet aux utilisateurs qui n’exécutent pas Outlook de planifier des réunions en ligne. Entre autres choses, cette nouvelle fonctionnalité (qui incorpore les fonctionnalités disponibles dans l’outil Web Scheduler inclus dans le kit de ressources Microsoft Lync Server 2010) permet aux utilisateurs d’effectuer les opérations suivantes :
+L’applet de commande **test-applet cswebscheduler** vous permet de déterminer si un utilisateur spécifique peut planifier une réunion à l’aide du planificateur Web. Le planificateur Web permet aux utilisateurs qui n’exécutent pas Outlook de planifier des réunions en ligne. Entre autres, cette nouvelle fonctionnalité (qui intègre les fonctionnalités de l’outil Web Scheduler fourni avec le kit de ressources Microsoft Lync Server 2010) permet aux utilisateurs d’effectuer les opérations suivantes :
 
-  - Planifier une nouvelle réunion en ligne.
+  - planifier une nouvelle réunion en ligne ;
 
-  - Répertorier toutes les réunions qu’il a planifiées.
+  - dresser une liste de toutes les réunions qu’ils ont planifiées ;
 
-  - Afficher/modifier une réunion existante.
+  - afficher/modifier une réunion existante ;
 
-  - Supprimez une réunion existante.
+  - supprimer une réunion existante ;
 
-  - Envoyez une invitation électronique aux participants à la réunion à l’aide d’un serveur de messagerie SMTP préconfiguré.
+  - envoyer une invitation par courrier électronique aux participants aux réunions par le biais d’un serveur de messagerie SMTP ;
 
-  - Participez à une conférence existante.
+  - participer à une conférence existante.
 
 </div>
 
@@ -86,15 +86,15 @@ L’applet de **contrôle test-CsWebScheduler** vous permet de déterminer si un
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’exemple suivant vérifie le planificateur Web pour le pool atl-cs-001.litwareinc.com. Cette commande ne fonctionne que si les utilisateurs de test sont définis pour le pool atl-cs-001.litwareinc.com. Si tel est le cas, la commande détermine si le premier utilisateur du test peut planifier une réunion en ligne à l’aide de Web Scheduler.
+L’exemple suivant vérifie le planificateur Web pour le pool atl-cs-001.litwareinc.com. Cette commande fonctionne uniquement si les utilisateurs de test sont définis pour le pool atl-cs-001.litwareinc.com. Si c’est le cas, la commande détermine si le premier utilisateur de test peut planifier une réunion en ligne à l’aide du planificateur Web.
 
-Si les utilisateurs de test ne sont pas définis, la commande échoue, car il ne connaît pas l’utilisateur sur lequel se connecter. Si vous n’avez pas défini les utilisateurs test pour un pool, vous devez inclure le paramètre UserSipAddress et les informations d’identification de l’utilisateur que la commande doit utiliser lors de la tentative de connexion.
+Si les utilisateurs de test ne sont pas définis, la commande échoue, car elle ne peut pas identifier l’utilisateur sous lequel se connecter. Si vous n’avez pas défini les utilisateurs de test pour un pool, vous devez inclure le paramètre UserSipAddress et les informations d’identification de l’utilisateur que la commande doit utiliser lors de la tentative de connexion.
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Les commandes indiquées dans l’exemple suivant testent la capacité d’un utilisateur spécifique (\\litwareinc kenmeyer) pour planifier une réunion en ligne à l’aide de Web Scheduler. Pour cela, la première commande de l’exemple utilise l’applet de commande **Get-Credential** pour créer un objet d’informations d’identification d’interface de ligne de commande Windows PowerShell contenant le nom et le mot de passe de l’utilisateur Ken Meyer. (Dans la mesure où le\\nom de connexion litwareinc kenmeyer est inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Ken Meyer.) L’objet Credential obtenu est ensuite stocké dans une variable nommée $cred 1.
+Les commandes présentées dans l’exemple suivant testent la capacité d’un utilisateur spécifique (\\litwareinc kenmeyer) à planifier une réunion en ligne à l’aide du planificateur Web. Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows PowerShell qui contient le nom et le mot de passe de l’utilisateur Ken Meyer. (Étant donné que le nom\\de connexion litwareinc kenmeyer est inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Ken Meyer.) L’objet Credential qui en résulte est ensuite stocké dans une variable nommée $cred 1.
 
-La deuxième commande vérifie que l’utilisateur peut se connecter au pool atl-cs-001.litwareinc.com et planifier une réunion en ligne. Pour exécuter cette tâche, l’applet de **contrôle test-CsWebScheduler** est appelée, avec trois paramètres : TargetFqdn (nom de domaine complet du pool d’inscriptions); UserCredential (l’objet Windows PowerShell contenant les informations d’identification de l’utilisateur de Pilar Arès); et UserSipAddress (adresse SIP correspondant aux informations d’identification fournies par l’utilisateur).
+La deuxième commande vérifie ensuite si cet utilisateur peut se connecter au pool atl-cs-001.litwareinc.com et planifier une réunion en ligne. Pour exécuter cette tâche, la cmdlet **test-applet cswebscheduler** est appelée, ainsi que trois paramètres : TargetFqdn (le nom de domaine complet du pool de serveurs d’inscriptions); UserCredential (l’objet Windows PowerShell qui contient les informations d’identification de l’utilisateur de Pilar Ackerman); et UserSipAddress (l’adresse SIP qui correspond aux informations d’identification de l’utilisateur fourni).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -104,61 +104,61 @@ La deuxième commande vérifie que l’utilisateur peut se connecter au pool atl
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si Web Scheduler est correctement configuré, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:
+Si le planificateur Web est configuré correctement, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success**:
 
-Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
+Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
 URI cible : https://atl-cs-001.litwareinc.com.
 
 litwareinc.com:443/Scheduler
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:00
 
 Message d’erreur :
 
-Diagnostic
+Diagnostique
 
-Si Web Scheduler n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
+Si le planificateur Web n’est pas configuré correctement, le résultat est affiché sous la forme **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-AVERTISSEMENT : impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
+AVERTISSEMENT : impossible de lire le numéro de port du serveur d’inscriptions pour le serveur complet
 
-nom de domaine (FQDN). Utilisation du numéro de port de bureau par défaut. Sauf
+nom de domaine (FQDN). À l’aide du numéro de port de serveur d’inscriptions par défaut. Rogation
 
-System. InvalidOperationException : aucun cluster correspondant détecté dans la topologie.
+System. InvalidOperationException : aucun cluster correspondant n’a été trouvé dans la topologie.
 
-dès
+Regardez
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
+Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
-URI de destination :
+URI cible :
 
 Résultat : échec
 
 Latence : 00:00:00
 
-Message d’erreur : aucun cluster correspondant détecté dans la topologie.
+Message d’erreur : aucun cluster correspondant n’a été trouvé dans la topologie.
 
-Diagnostic
+Diagnostique
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsWebScheduler** peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec **de test-applet cswebscheduler** :
 
-  - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
+  - Une valeur de paramètre incorrecte a été fournie. Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.
 
-  - Cette commande échoue si Web Scheduler n’est pas configuré correctement ou n’est pas encore déployé.
+  - Cette commande échoue si le planificateur Web est configuré de façon incorrecte ou s’il n’est pas encore déployé.
 
 </div>
 

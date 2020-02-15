@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration logicielle'
+title: 'Lync Server 2013 : configuration logicielle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764460"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764460"
 
 _**Dernière modification de la rubrique :** 2012-06-29_
 
-Cette section détaille le paramétrage logiciel requis après avoir configuré le matériel dans votre environnement.
+Cette section explique la configuration logicielle requise après avoir configuré le matériel dans votre environnement.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs pour Lync Server 2013](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
+  - [Installer les systèmes d’exploitation et les logiciels prérequis sur les serveurs pour Lync Server 2013](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
   - [Configurer le stockage de fichiers pour Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [Demande des certificats à l’avance (facultatif) pour Lync Server 2013](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [Demander des certificats à l’avance (facultatif) pour Lync Server 2013](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [Configuration des services Internet (IIS) pour Lync Server 2013](lync-server-2013-configure-iis.md)
+  - [Configurer les services Internet (IIS) pour Lync Server 2013](lync-server-2013-configure-iis.md)
 
-  - [Installation de Windows PowerShell 3.0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [Installation de Windows PowerShell 3,0 pour Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

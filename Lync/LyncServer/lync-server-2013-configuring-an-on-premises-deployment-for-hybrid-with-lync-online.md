@@ -1,5 +1,5 @@
 ---
-title: Configuration d’un déploiement local pour une solution hybride avec Lync Online
+title: Configuration d’un déploiement local pour une configuration hybride avec Lync Online
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741174"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configuration d’un déploiement local pour une solution hybride avec Lync Online
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configuration d’un déploiement local pour une configuration hybride avec Lync Online
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741174"
 
 _**Dernière modification de la rubrique :** 2014-05-28_
 
-Un déploiement hybride est un déploiement dans lequel certains utilisateurs sont hébergés sur site, et certains utilisateurs sont connectés en ligne, mais tous les utilisateurs partagent le même domaine, tel que user@contoso.com. Cette section vous guide tout au long du déploiement des applications requises pour un déploiement hybride, puis la configuration de votre déploiement pour l’activer.
+Un déploiement hybride est un déploiement dans lequel certains utilisateurs sont hébergés en local et certains utilisateurs sont hébergés en ligne, mais tous les utilisateurs partagent le même domaine, comme user@contoso.com. Cette section vous guide tout au long du déploiement des applications requises pour un déploiement hybride, puis à la configuration de votre déploiement pour l’activer.
 
 <div>
 
@@ -45,7 +45,7 @@ Un déploiement hybride est un déploiement dans lequel certains utilisateurs so
 
   - [Vue d’ensemble de l’environnement hybride Lync Server 2013](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
-  - [Procédure de préparation et de déploiement d’un environnement hybride Lync Server 2013](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
+  - [Étapes de préparation et de déploiement de l’environnement hybride Lync Server 2013](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 
   - [Configurer la Fédération de Lync Server 2013 avec Lync Online](lync-server-2013-configure-federation-with-lync-online.md)
 
@@ -53,7 +53,7 @@ Un déploiement hybride est un déploiement dans lequel certains utilisateurs so
 
   - [Déplacer des utilisateurs vers Lync Online dans Lync Server 2013](lync-server-2013-move-users-to-lync-online.md)
 
-  - [Administration des utilisateurs dans un déploiement 2013 Lync Server hybride](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
+  - [Administration des utilisateurs dans un déploiement hybride de Lync Server 2013](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
 
 </div>
 

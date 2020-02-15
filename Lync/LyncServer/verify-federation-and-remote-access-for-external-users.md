@@ -12,16 +12,16 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61ad994eb7769dff067195520c2c6fde955910f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 382c3e892f7e4d46b5c584e7efc0c03cc89531ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738544"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41738544"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-Après la transition de l’itinéraire de Fédération au serveur Edge Lync Server 2013, vous devez effectuer certains tests fonctionnels pour vérifier que la Fédération s’exécute comme prévu. Les tests pour l’accès utilisateur externe doivent inclure chaque type d’utilisateur externe pris en charge par votre organisation, y compris tout ou partie des éléments suivants.
+Après avoir effectué la transition de l’itinéraire de Fédération vers le serveur Edge Lync Server 2013, vous devez effectuer certains tests fonctionnels pour vérifier que la Fédération se comporte comme prévu. Les tests relatifs à l’accès des utilisateurs externes doivent inclure chaque type d’utilisateur externe pris en charge par votre organisation, notamment une partie ou l’ensemble de ce qui suit.
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>Tester la connectivité des utilisateurs externes et des accès externes
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Tester la connectivité des utilisateurs externes et de l’accès externe
 
-  - Utilisateurs d’au moins un domaine fédéré, utilisateur interne sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, les appels audio/vidéo (A/V) et le partage de bureau.
+  - Utilisateurs d’au moins un domaine fédéré, un utilisateur interne sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, l’audio/vidéo (A/V) et le partage de Bureau.
 
-  - Les utilisateurs de chaque fournisseur de services de messagerie instantanée publique pris en charge par votre organisation (et pour lesquels la mise en service a été effectuée) communiquent avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.
+  - Utilisateurs de chaque fournisseur de services de messagerie instantanée public pris en charge par votre organisation (et pour lequel le provisionnement a été effectué) communiquant avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.
 
   - Vérifiez que les utilisateurs anonymes peuvent participer à des conférences.
 
-  - Un utilisateur hébergé sur Lync Server 2010 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2010 hors de l’intranet, mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, A/V et le partage du bureau.
+  - Un utilisateur hébergé sur Lync Server 2010 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2010 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.
 
-  - Un utilisateur hébergé sur Lync Server 2013 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2013 hors de l’intranet, mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, A/V et le partage du bureau.
+  - Un utilisateur hébergé sur Lync Server 2013 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2013 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010. Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.
 
 </div>
 

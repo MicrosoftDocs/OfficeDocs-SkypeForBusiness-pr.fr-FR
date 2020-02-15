@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration d’AD FS 2,0 pour prendre en charge l’authentification du client'
+title: 'Lync Server 2013 : configuration d’AD FS 2,0 pour prendre en charge l’authentification client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuration de la 2,0 AD FS pour prendre en charge l’authentification client dans Lync Server 2013
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuration d’AD FS 2,0 pour prendre en charge l’authentification client dans Lync Server 2013
 
 </div>
 
@@ -37,42 +37,42 @@ ms.locfileid: "41741194"
 
 _**Dernière modification de la rubrique :** 2013-07-03_
 
-Deux types d’authentifications peuvent être configurés pour permettre à AD FS 2.0 de prendre en charge l’authentification à l’aide de cartes à puce :
+Il existe deux types d’authentification possibles pouvant être configurés pour permettre à AD FS 2,0 de prendre en charge l’authentification à l’aide de cartes à puce :
 
-  - Authentification basée sur les formulaires
+  - Authentification basée sur les formulaires (FBA)
 
-  - Authentification de client TLS (Transport Layer Security)
+  - Authentification du client TLS (Transport Layer Security)
 
-L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications 2,0 d’AD FS, voir AD FS 2,0 : Comment changer le [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)type d’authentification locale à.
+À l’aide de l’authentification basée sur les formulaires, vous pouvez développer une page Web qui permet aux utilisateurs de s’authentifier en utilisant leur nom d’utilisateur/mot de passe ou en utilisant leur carte à puce et leur code confidentiel. Cette rubrique se concentre sur la mise en œuvre de l’authentification du client TLS (Transport Layer Security) avec les services ADFS 2,0. Pour plus d’informations sur les types d’authentifications AD FS 2,0, voir AD FS 2,0 : comment modifier le type [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)d’authentification local à.
 
 <div>
 
 
-**Pour configurer AD FS 2.0 pour prendre en charge l’authentification du client**
+**Pour configurer AD FS 2,0 afin de prendre en charge l’authentification client**
 
-1.  Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.
+1.  Connectez-vous à l’ordinateur AD FS 2,0 à l’aide d’un compte d’administrateur de domaine.
 
 2.  Lancez l’Explorateur Windows.
 
-3.  Naviguez jusqu’à\\C\\:\\Inetpub adfs ls
+3.  Accédez à C :\\Inetpub\\ADFS\\ls.
 
-4.  Effectuez une copie de sauvegarde du fichier web.config existant.
+4.  Effectuez une copie de sauvegarde du fichier Web. config existant.
 
-5.  Ouvrez le fichier web.config existant à l’aide du Bloc-notes.
+5.  Ouvrez le fichier Web. config existant à l’aide du bloc-notes.
 
-6.  Dans la barre de menus, sélectionnez **Edition**, puis **Rechercher**.
+6.  Dans la barre de menus, sélectionnez **modifier** , puis **Rechercher**.
 
 7.  Recherchez ** \<localAuthenticationTypes\>**.
     
-    Quatre types d’authentification s’affichent (un par ligne).
+    Notez qu’il existe quatre types d’authentification répertoriés, un par ligne.
 
-8.  Déplacez la ligne contenant le type d’authentification TLSClient au début de la liste dans la section.
+8.  Déplacez la ligne contenant le type d’authentification TLSClient en haut de la liste dans la section.
 
-9.  Enregistrez et fermez le fichier web.config.
+9.  Enregistrez et fermez le fichier Web. config.
 
-10. Lancez une invite de commandes avec des droits élevés.
+10. Lancez une invite de commandes avec des privilèges élevés.
 
-11. Redémarrez IIS en exécutant la commande suivante :
+11. Redémarrez les services Internet (IIS) en exécutant la commande suivante :
     
         IISReset /Restart /NoForce
 

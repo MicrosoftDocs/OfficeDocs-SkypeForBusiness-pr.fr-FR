@@ -12,16 +12,16 @@ ms:contentKeyID: 48185737
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9705a56a2167e0afc5e950c387e0f99b15deed1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b71989b2dcc5dba8de877230d33133d88b95b221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741434"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741434"
 
 _**Dernière modification de la rubrique :** 2014-04-22_
 
-Pour obtenir la liste actualisée des paramètres de stratégie de conférence, consultez la rubrique d’aide de l’applet de passe [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
+Pour obtenir la liste la plus à jour des paramètres de stratégie de conférence, voir la rubrique d’aide relative à l’applet de commande [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
 
 </div>
 

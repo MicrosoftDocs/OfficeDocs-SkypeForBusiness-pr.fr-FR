@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets Lync Server par catégorie'
+title: 'Lync Server 2013 : applets de commande Lync Server par catégorie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d5db33e3d41bca0a3d14361b6d7bda254d43d19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723324"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a>Applets de cmdlet Lync Server 2013 par catégorie
+# <a name="lync-server-2013-cmdlets-by-category"></a>Applets de commande Lync Server 2013 par catégorie
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41723324"
 
 _**Dernière modification de la rubrique :** 2017-09-20_
 
-Microsoft Lync Server 2013 est fourni avec une cmdlet presque 550 conçue spécifiquement pour permettre aux administrateurs de gérer Lync Server à partir de la ligne de commande. Vous accédez aux cmdlets à partir de Lync Server Management Shell. Vous pouvez obtenir de l’aide sur une cmdlet directement à partir de la ligne de commande en tapant une commande semblable à ce qui suit :
+Microsoft Lync Server 2013 est livré avec presque 550 cmdlets spécialement conçues pour permettre aux administrateurs de gérer Lync Server à partir de la ligne de commande. Vous accédez aux applets de commande à partir de Lync Server Management Shell. Vous pouvez obtenir de l’aide sur une applet de commande directement à partir de la ligne de commande en tapant une commande similaire à la suivante :
 
     Get-Help New-CsVoicePolicy -Full
 
-La commande précédente récupère toutes les rubriques d’aide disponibles pour l’applet de commande **New-CsVoicePolicy** . Remplacez **New-CsVoicePolicy** par le nom de l’applet de recherche pour laquelle vous souhaitez obtenir de l’aide.
+La commande précédente récupérera toute l’aide disponible pour l’applet de commande **New-CsVoicePolicy**. Remplacez la référence à **New-CsVoicePolicy** par le nom de l’applet de commande pour laquelle vous souhaitez obtenir de l’aide.
 
-Pour obtenir la liste complète des applets de commande disponibles pour gérer Microsoft Lync Server 2013, à l’invite de commandes de Lync Server Management Shell, tapez ce qui suit :
+Pour récupérer la liste complète des applets de commande disponibles pour la gestion de Microsoft Lync Server 2013, tapez ce qui suit à l’invite de commandes Lync Server Management Shell :
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-Si vous n’êtes pas sûr des cmdlets dont vous avez besoin, nous avons également fourni une liste classés des cmdlets et leurs rubriques d’aide. Vous constaterez que certaines de ces applets de technologie apparaissent dans plusieurs catégories, ce qui était intentionnel lors de leur application à plusieurs zones du produit. La liste suivante répertorie les catégories :
+Si vous ne savez pas exactement de quelles applets de commande vous avez besoin, vous disposez aussi d’une liste d’applets de commande classées par catégories et de leurs rubriques d’aide. Vous remarquerez également que certaines applets de commande apparaissent dans plusieurs catégories, ce qui est normal puisqu’elles s’appliquent à plusieurs zones du produit. Vous trouverez ci-dessous une liste des catégories :
 
 <div>
 
 
 > [!NOTE]
-> Référence sur les applets de la cmdlet Skype entreprise a été déplacée vers docs.microsoft.com. Cliquer sur les liens ci-dessous vous permet d’atteindre la nouvelle page docs.microsoft.com. Le contenu est désormais ouvert et est disponible pour les contributions de la Communauté par le biais de GitHub. Vous voulez participer ? Consultez le fichier README dans le référentiel Samples :<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> La référence de cmdlet Skype entreprise a été déplacée vers docs.microsoft.com. Cliquez sur les liens ci-dessous pour accéder à la nouvelle page docs.microsoft.com. Le contenu est désormais ouvert et disponible pour les contributions de la Communauté via GitHub. Vous souhaitez contribuer ? Consultez le fichier Lisez-moi dans le référentiel ici :<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -71,43 +71,43 @@ Si vous n’êtes pas sûr des cmdlets dont vous avez besoin, nous avons égalem
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-user-management-cmdlets.md">Cmdlets de gestion des utilisateurs dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-voice-application-cmdlets.md">Cmdlets de l’application vocale dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-user-management-cmdlets.md">Applets de commande de gestion des utilisateurs dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-voice-application-cmdlets.md">Applets de commande pour les applications vocales dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-client-management-cmdlets.md">Cmdlets de gestion des clients dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Applets de applet voix entreprise avancées dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-client-management-cmdlets.md">Applets de commande de gestion des clients dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Applets de commande voix entreprise avancées dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Cmdlets de la messagerie instantanée et de la présence dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Applets de connexion RTC dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Applets de commande de messagerie instantanée et de présence dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Applets de commande de connectivité PSTN dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencing-cmdlets.md">Cmdlets de conférence dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-phones-and-devices-cmdlets.md">Cmdlets et périphériques de téléphone dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-conferencing-cmdlets.md">Applets de commande de conférence dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-phones-and-devices-cmdlets.md">Applets de commande de téléphones et de périphériques dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Cmdlets Infrastructure and Deployment dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Cmdlets de migration et de coexistence dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-infrastructure-and-deployment-cmdlets.md">Applets de commande d’infrastructure et de déploiement dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-migration-and-coexistence-cmdlets.md">Applets de commande de migration et de coexistence dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-security-cmdlets.md">Cmdlets de sécurité dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Cmdlets de configuration de Lync Server Management Shell dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Applets de commande de configuration de Lync Server Management Shell dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Applets de service et rôles de serveur dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-mobility-cmdlets.md">Cmdlets de mobilité dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Applets de commande de services et de rôles serveur dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-mobility-cmdlets.md">Applets de commande de mobilité dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-application-management-cmdlets.md">Cmdlets de gestion des applications dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Cmdlets Server chat permanent dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-application-management-cmdlets.md">Applets de commande de gestion des applications dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Applets de commande de serveur de conversation permanente dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Applets de la Fédération et accès externe dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Cmdlets d’enregistrement centralisé dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Cmdlets de Fédération et d’accès externe dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Cmdlets de journalisation centralisée dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Cmdlets voix entreprise dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Applets de commande voix entreprise dans Lync Server 2013</a></p></td>
 <td></td>
 </tr>
 </tbody>

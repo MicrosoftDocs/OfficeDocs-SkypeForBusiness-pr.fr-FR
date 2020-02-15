@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités de gestion des appels pour la récupération d’urgence dans Lync Server 2013
+title: Fonctionnalités de gestion des appels Lync Server 2013 pour la récupération d’urgence
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c276c8dac153ebd2ba08c55d8444bcc746287ffc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4126f35850aeae6bd2d0bbd8f678e9f082a13355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742994"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41742994"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Les rubriques suivantes contiennent des informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence pour les fonctionnalités de gestion des appels de Lync Server.
+Les rubriques suivantes contiennent des informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence pour les fonctionnalités de gestion des appels dans Lync Server.
 
 <div>
 
@@ -45,9 +45,9 @@ Les rubriques suivantes contiennent des informations sur les fonctionnalités de
 
   - [Gestion des groupes Response Group dans Lync Server 2013 lors d’un sinistre](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
-  - [Gestion du parcage d’appel lors de la récupération d’urgence dans Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [Gérer le parcage d’appel lors de la récupération d’urgence dans Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
-  - [Gestion des annonces lors de la récupération d’urgence dans Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+  - [Gérer les annonces lors de la récupération d’urgence dans Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Les rubriques suivantes contiennent des informations sur les fonctionnalités de
 ## <a name="see-also"></a>Voir aussi
 
 
-[Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

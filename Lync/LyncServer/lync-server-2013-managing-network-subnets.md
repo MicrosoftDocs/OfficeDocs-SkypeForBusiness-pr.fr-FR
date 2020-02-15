@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762016"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762016"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-Vous pouvez utiliser le panneau de configuration de Lync Server 2013 ou Lync Server 2013 Management Shell pour gérer les sous-réseaux réseau. Dans la plupart des déploiements de Lync Server 2013 où le contrôle d’admission des appels (CAC) est implémenté, il existe généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer les sous-réseaux à partir de Lync Server Management Shell.
+Vous pouvez utiliser le panneau de configuration Lync Server 2013 ou Lync Server 2013 Management Shell pour gérer les sous-réseaux réseau. Dans la plupart des déploiements de Lync Server 2013 où le contrôle d’admission des appels (CAC) est implémenté, il y aura généralement un grand nombre de sous-réseaux. Pour cette raison, il est souvent préférable de configurer des sous-réseaux à partir de Lync Server Management Shell.
 
 <div>
 
@@ -45,9 +45,9 @@ Vous pouvez utiliser le panneau de configuration de Lync Server 2013 ou Lync Ser
 
   - [Affichage des informations de sous-réseau dans Lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
 
-  - [Créer ou modifier des sous-réseaux réseau dans Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
+  - [Création ou modification de sous-réseaux dans Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [Supprimer des sous-réseaux réseau dans Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
+  - [Suppression de sous-réseaux réseau dans Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server 2013 ou Lync Ser
 ## <a name="see-also"></a>Voir aussi
 
 
-[Association d’un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

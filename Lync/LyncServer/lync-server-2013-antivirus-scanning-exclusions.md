@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exclusions de l’analyse antivirus'
+title: 'Lync Server 2013 : exclusions d’analyse antivirus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737774"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusions de l’analyse antivirus pour Lync Server 2013
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusions d’analyse antivirus pour Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41737774"
 
 _**Dernière modification de la rubrique :** 2015-11-02_
 
-Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnement de Lync Server 2013, vous devez exclure les processus et répertoires spécifiques pour chaque serveur Lync Server 2013 Server ou le rôle serveur sur lequel vous exécutez un scanneur antivirus. Vous devez exclure les processus et les répertoires suivants :
+Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Lync Server 2013, vous devez exclure des processus et des répertoires spécifiques pour chaque rôle serveur ou serveur Lync Server 2013 sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
 
 <div>
 
 
 > [!NOTE]  
-> Emplacement des dossiers et fichiers indiqués ci-dessous sont les emplacements par défaut de Lync Server 2013. Pour les emplacements pour lesquels vous n’avez pas utilisé la valeur par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut spécifiés dans cette rubrique.
+> Emplacements de fichiers et de dossiers répertoriés ci-dessous sont les emplacements par défaut pour Lync Server 2013. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.
 
 
 
@@ -53,7 +53,7 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 
 
 > [!IMPORTANT]  
-> Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, non relatifs, pour leur liste d’exclusions.
+> Notez que certains programmes antivirus peuvent nécessiter des chemins d’accès absolus, non relatifs, pour leur liste d’exclusion.
 
 
 
@@ -61,75 +61,75 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 
   - Processus Lync Server 2013 :
     
-      - ABServer.exe
+      - AB. exe
     
       - AcpMcuSvc. exe
     
-      - ASMCUSvc.exe
+      - ASMCUSvc. exe
     
-      - AVMCUSvc.exe
+      - AVMCUSvc. exe
     
-      - ChannelService.exe
+      - ChannelService. exe
     
-      - ClsAgent.exe
+      - ClsAgent. exe
     
-      - ComplianceService.exe
+      - ComplianceService. exe
     
-      - DataMCUSvc.exe
+      - DataMCUSvc. exe
     
-      - DataProxy.exe
+      - DataProxy. exe
     
-      - FileTransferAgent.exe
+      - FileTransferAgent. exe
     
-      - IMMCUSvc.exe
+      - IMMCUSvc. exe
     
-      - LysSvc.exe
+      - LysSvc. exe
     
-      - MasterReplicatorAgent.exe
+      - MasterReplicatorAgent. exe
     
-      - MediaRelaySvc.exe
+      - MediaRelaySvc. exe
     
-      - MediationServerSvc.exe
+      - MediationServerSvc. exe
     
-      - MRASSvc.exe
+      - MRASSvc. exe
     
-      - OcsAppServerHost.exe
+      - OcsAppServerHost. exe
     
-      - ReplicaReplicatorAgent.exe
+      - ReplicaReplicatorAgent. exe
     
-      - ReplicationApp.exe
+      - ReplicationApp. exe
     
-      - RtcHost.exe
+      - RtcHost. exe
     
-      - RTCSrv.exe
+      - RTCSrv. exe
     
-      - XmppProxy.exe
+      - XmppProxy. exe
     
-      - XmppTGW.exe
+      - XmppTGW. exe
 
-  - Processus du service d’hôte Windows Fabric :
+  - Processus du service d’hôte de fabric Windows :
     
-      - Fabric.exe
+      - Fabric. exe
     
-      - FabricDCA.exe
+      - FabricDCA. exe
     
-      - FabricHost.exe
+      - FabricHost. exe
 
-  - Processus d’IIS :
+  - Processus IIS :
     
       - % systemroot%\\system32\\inetsrv\\w3wp. exe
     
       - % systemroot%\\SysWOW64\\inetsrv\\w3wp. exe
 
-  - Processus du serveur dorsal SQL Server :
+  - Processus principaux SQL Server :
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting\\services\\\\ReportServer bin ReportingServicesService. exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. Emplacement\\\\OLAP\\de MSSQLSERVER MSMDSrv. exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
 
-  - Processus du serveur SQL Server frontal :
+  - Processus frontaux SQL Server :
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe
     
@@ -141,21 +141,21 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
     
       - % systemroot%\\SysWOW64\\LogFiles
     
-      - code global du\\GAC\\\_de\\l’assembly% systemroot% Microsoft.net
+      - % systemroot%\\Microsoft.NET\\\\GAC GAC\_
     
       - % ProgramFiles%\\Microsoft Lync Server 2013
     
-      - % ProgramFiles%\\fichiers\\communs Microsoft Lync Server 2013\\FileSystemWatcher
+      - % ProgramFiles%\\de fichiers\\communs le nœud observateur\\Microsoft Lync Server 2013
     
       - Fichiers\\communs%\\ProgramFiles% Microsoft Lync Server 2013
     
       - % SystemDrive%\\RtcReplicaRoot
     
-      - Magasin de partage de fichiers (spécifié dans le générateur de topologies). Les magasins de fichiers sont spécifiés dans le générateur de topologies.
+      - Magasin de partages de fichiers (spécifié dans le Générateur de topologies). Les magasins de fichiers sont spécifiés dans le Générateur de topologies.
     
-      - Fichiers journaux et de données SQL Server, dont ceux pour la base de données principale, le magasin d’utilisateurs, le magasin d’archivage, le magasin de surveillance et le magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le générateur de topologies. Pour plus d’informations sur les données et les fichiers journaux pour chaque base de données, y compris les noms par défaut, voir [données SQL Server et emplacement des fichiers journaux pour Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) dans la documentation de déploiement.
+      - Données et fichiers journaux de SQL server, y compris ceux de la base de données principale, magasin utilisateur, magasin d’archivage, magasin de surveillance et magasin d’applications. Les fichiers journaux et de base de données peuvent être spécifiés dans le Générateur de topologies. Pour plus d’informations sur les données et les fichiers journaux de chaque base de données, y compris les noms par défaut, voir [SQL Server Data and log file placement for Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) dans la documentation de déploiement.
     
-      - Les fichiers de données et les fichiers journaux de SQL Server, y compris ceux de la base de données frontale, du magasin Lync et du magasin RtcDatabase. Ils sont généralement sous% Lecteur_Local%\\CSData.
+      - Les fichiers de données et les fichiers journaux SQL Server, y compris ceux de la base de données frontale, Lync Store et RtcDatabase Store. Ils sont normalement sous% Lecteur_Local%\\CSData.
 
 </div>
 

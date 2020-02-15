@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des enregistrements hôte DNS'
+title: 'Lync Server 2013 : configuration des enregistrements d’hôte DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74da23cb0139a982a30207b61032f043f795b76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 54ae1e2502ec1618f007ba76255ae6d01ebb66f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755978"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-host-records-for-lync-server-2013"></a>Configuration des enregistrements hôte DNS pour Lync Server 2013
+# <a name="configure-dns-host-records-for-lync-server-2013"></a>Configuration des enregistrements d’hôte DNS pour Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41755978"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Domain Admins ou membre du groupe DnsAdmins.
+Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine au moins en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
 
 <div>
 
-## <a name="to-configure-dns-host-a-records"></a>Pour configurer les enregistrements d’un hôte DNS
+## <a name="to-configure-dns-host-a-records"></a>Pour configurer des enregistrement d’hôte DNS (A)
 
-1.  Sur le serveur DNS (Domain Name System), cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
+1.  Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-2.  Dans l’arborescence de la console pour votre domaine, développez **zones de recherche directe**, puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.
+2.  Dans l’arborescence de la console pour votre domaine, développez **zones de recherche directes**, puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.
 
-3.  Cliquez sur **nouvel hôte (A ou AAAA)**.
+3.  Cliquez sur **Nouvel hôte (A ou AAAA)**.
 
-4.  Cliquez sur **nom**, tapez le nom d’hôte de la liste (le nom de domaine est censé partir de la zone dans laquelle l’enregistrement est défini et qu’il n’est pas nécessaire d’entrer dans le cadre de l’enregistrement a).
+4.  Cliquez sur **Nom**, tapez le nom d’hôte du pool (le nom de domaine est présumé à partir de la zone dans laquelle est défini l’enregistrement, il est inutile de l’entrer comme partie de l’enregistrement A).
 
-5.  Cliquez sur **IP Address (adresse IP**), puis tapez l’adresse IP virtuelle (VIP) de l’équilibrage de charge pour le pool frontal.
+5.  Cliquez sur **adresse IP**, tapez l’adresse IP virtuelle de l’équilibreur de charge pour le pool frontal.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Dans les déploiements qui utilisent un pool de réalisateurs, les enregistrements d’hôte (A) pour les URL simples doivent pointer vers l’adresse VIP du directeur de charge du directeur.
+    > Dans les déploiements qui utilisent un pool directeur, les enregistrements hôtes (A) pour les URL simples doivent pointer sur l’adresse IP virtuelle du programme d’équilibrage de la charge du directeur.
 
     
     </div>
@@ -66,16 +66,16 @@ Pour effectuer cette procédure, vous devez être connecté au serveur ou au dom
     
 
     > [!NOTE]  
-    > Si vous déployez uniquement un serveur ou un directeur Enterprise Edition qui est connecté à la topologie sans équilibrage de charge, ou si vous déployez un serveur Standard Edition Server, tapez l’adresse IP du serveur Enterprise Edition Server, Standard Edition Server ou Director. Un équilibrage de charge est requis si vous déployez plusieurs serveurs ou Director Enterprise Edition dans un pool. Les équilibreurs de charge ne sont pas utilisés avec les serveurs Standard Edition.
+    > Si vous déployez un seul serveur Enterprise Edition Server connecté à la topologie sans programme d’équilibrage de la charge, ou si vous déployez un serveur Standard Edition, tapez l’adresse IP du serveur Enterprise Edition Server, Standard Edition Server ou du directeur. L’utilisation d’un programme d’équilibrage de la charge est nécessaire si vous déployez plusieurs serveurs Enterprise Edition Server ou directeur dans un pool. Les programmes d’équilibrage de la charge ne sont pas utilisés avec les serveurs Standard Edition.
 
     
     </div>
 
-6.  Cliquez sur **Ajouter un hôte**, puis cliquez sur **OK**.
+6.  Cliquez sur **Ajouter un hôte**, puis sur **OK**.
 
-7.  Pour créer un enregistrement A supplémentaires, répétez les étapes 4 et 5.
+7.  Pour créer un enregistrement A supplémentaire, répétez les étapes 4 et 5.
 
-8.  Lorsque vous avez terminé de créer tous les enregistrements A dont vous avez besoin, cliquez sur **terminé**.
+8.  Lorsque vous avez terminé de créer tous les enregistrements A dont vous avez besoin, cliquez sur **Terminer**.
 
 </div>
 

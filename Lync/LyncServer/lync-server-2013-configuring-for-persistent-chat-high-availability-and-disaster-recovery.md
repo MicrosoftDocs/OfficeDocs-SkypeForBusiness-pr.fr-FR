@@ -1,5 +1,5 @@
 ---
-title: Configuration de la récupération d’urgence et de la haute disponibilité des services de conversation permanente
+title: Configuration de la haute disponibilité et de la récupération d’urgence pour la conversation permanente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f29fa807034a8cdad6fb4bf14526a868e242130f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff25a874bc733f1186c5f4586a34bcbd3bf51831
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728974"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Configuration de la récupération d’urgence et de la haute disponibilité des services de conversation permanente dans Lync Server 2013
+# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Configuration de la haute disponibilité et de la récupération d’urgence de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41728974"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour plus d’informations sur la configuration des services de chat permanent pour une haute disponibilité et une reprise après sinistre, voir [déploiement d’un serveur de conversation permanent dans Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+Pour plus d’informations sur la configuration des services de conversation permanente pour la haute disponibilité et la récupération d’urgence, reportez-vous à la rubrique [Deploying persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
 
 </div>
 

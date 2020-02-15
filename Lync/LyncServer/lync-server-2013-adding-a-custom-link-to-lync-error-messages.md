@@ -12,16 +12,16 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63523013d8df74a52fee307192d3f60eb5232121
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c9f15b72f105edf291007569999c549b8b2c841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738204"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738204"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Personnalisez les messages d’erreur de Lync 2013 en ajoutant un lien vers votre propre dépannage ou les informations de votre support technique. Pour ce faire, utilisez les applets de applet **nouvelle-CSClientPolicy** ou **Set-CSClientPolicy** Lync Server Management Shell avec le paramètre CustomLinkInErrorMessages. Le texte du lien personnalisé est « cliquer ici pour afficher les rubriques d’aide de votre administrateur » et ne peut pas être personnalisé.
+Personnalisez les messages d’erreur de Lync 2013 en ajoutant un lien vers vos propres problèmes ou informations de support technique. Pour ce faire, utilisez les cmdlets **New-CSClientPolicy** ou **Set-CSClientPolicy** de l’environnement de commande Lync Server Management Shell avec le paramètre CustomLinkInErrorMessages. Le texte du lien personnalisé est « cliquez ici pour obtenir des rubriques d’aide auprès de votre administrateur » et il ne peut pas être personnalisé.
 
-Par exemple, la commande suivante entraîne l’affichage du lien personnalisé dans la zone de note de bas de page de chaque message d’erreur Lync 2013 et définit la destination du lien surhttp://contoso.com/help/LyncHelpDesk.aspx:
+Par exemple, la commande suivante affiche le lien personnalisé dans la zone de note de bas de page de chaque message d’erreur Lync 2013 et définit la destination du lien surhttp://contoso.com/help/LyncHelpDesk.aspx:
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-Utilisez **Grant-CSClientPolicy** pour affecter cette nouvelle stratégie aux utilisateurs. Pour plus d’informations, reportez-vous à **New-CSClientPolicy** et **Grant-CSClientPolicy** dans la documentation Lync Server Management Shell.
+Utilisez **Grant-CSClientPolicy** pour affecter cette nouvelle stratégie aux utilisateurs. Pour plus d’informations, voir **New-CSClientPolicy** et **Grant-CSClientPolicy** dans la documentation de Lync Server Management Shell.
 
 </div>
 

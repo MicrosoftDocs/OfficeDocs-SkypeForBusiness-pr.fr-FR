@@ -12,16 +12,16 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3023741b1b9e71d7789857c9b55fb195453ee5b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757548"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Dans les versions précédentes de Lync et Office Communicator, un modèle d’administration de Communicator. adm autonome était disponible pour la configuration des paramètres de stratégie de groupe client. Pour Lync 2013, les nouveaux fichiers de modèles d’administration (fichiers. admx et. adml) sont inclus avec le modèle d’administration de stratégie de groupe Office. La disponibilité des fichiers. admx et. adml de 2013 Lync vous permet de télécharger des modèles et de gérer de façon centralisée des paramètres de stratégie de groupe pour tous vos programmes Office et modules linguistiques. Pour plus d’informations, reportez-vous à la section « fichiers de modèles d’administration Office 2013 ( <http://go.microsoft.com/fwlink/p/?linkid=267516>ADMX, ADML) » dans la documentation Office 2013 à l’adresse.
+Dans les versions précédentes de Lync et Office Communicator, un modèle d’administration de Communicator. adm autonome était disponible pour la configuration des paramètres de stratégie de groupe client. Pour Lync 2013, les nouveaux fichiers de modèle d’administration (fichiers. admx et. adml) sont inclus avec le modèle d’administration de stratégie de groupe Office. La disponibilité des fichiers Lync 2013. admx et. adml vous permet de télécharger des modèles et de gérer les paramètres de stratégie de groupe de manière centralisée pour tous vos programmes et modules linguistiques Office. Pour plus d’informations, reportez-vous à la rubrique « Office 2013 administrative Template Files (ADMX, <http://go.microsoft.com/fwlink/p/?linkid=267516>adml) » dans la documentation Office 2013 à l’adresse.
 
 <div>
 
-## <a name="client-bootstrapping-policies"></a>Stratégies d’amorçage client
+## <a name="client-bootstrapping-policies"></a>Stratégies de démarrage du client
 
-Il existe plusieurs stratégies de démarrage de client que vous devez configurer avant que les utilisateurs se connectent au serveur pour la première fois. Dans la mesure où ces stratégies entreront en vigueur avant que le client ne se connecte et ne commence à recevoir des paramètres de mise en service intrabande à partir du serveur, vous pouvez utiliser une stratégie de groupe pour les configurer. Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies de démarrage de clients dans Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) dans la documentation de déploiement.
+Vous devez configurer plusieurs stratégies de démarrage du client pour permettre aux utilisateurs de se connecter au serveur pour la première fois. Dans la mesure où ces stratégies sont appliquées avant que le client ne se connecte et commence à recevoir les paramètres de mise en service intrabande de la part du serveur, vous pouvez utiliser la stratégie de groupe pour les configurer. Pour plus d’informations, reportez-vous à la rubrique [Configuration des stratégies de démarrage client dans Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) dans la documentation de déploiement.
 
 </div>
 

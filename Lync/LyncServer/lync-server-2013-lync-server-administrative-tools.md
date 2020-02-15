@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Outils d’administration de Lync Server'
+title: 'Lync Server 2013 : outils d’administration Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Outils d’administration de Lync Server 2013
+# <a name="lync-server-2013-administrative-tools"></a>Outils d’administration Lync Server 2013
 
 </div>
 
@@ -39,51 +39,51 @@ _**Dernière modification de la rubrique :** 2013-02-21_
 
 Cette rubrique décrit les outils d’administration de Lync Server 2013.
 
-Les outils d’administration sont installés par défaut sur chaque serveur Lync Server. Par ailleurs, vous pouvez installer les outils d’administration sur d’autres ordinateurs, par exemple des consoles d’administration dédiées. Pour connaître les procédures d’installation des outils d’administration, voir [installer les outils d’administration de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md). Pour consulter les procédures permettant d’ouvrir les outils d’exécution des tâches de gestion, voir [ouvrir les outils d’administration de Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+Les outils d’administration sont installés par défaut sur chaque serveur Lync Server. Vous pouvez également les installer sur d’autres ordinateurs, notamment des consoles d’administration dédiées. Pour connaître les procédures d’installation des outils d’administration, reportez-vous à la rubrique [install Lync Server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md). Pour connaître les procédures permettant d’ouvrir les outils permettant d’effectuer des tâches de gestion, reportez-vous à la rubrique [Open Lync Server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Vérifiez que vous passez en revue les exigences en matière d’infrastructure, de système d’exploitation, de logiciels et de droits d’administrateur avant d’installer ou d’utiliser les outils d’administration de Lync Server. Pour plus d’informations sur la configuration requise en matière d’infrastructure, voir la [Configuration requise infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Pour plus d’informations sur le système d’exploitation et la configuration logicielle requise pour l’installation des outils d’administration de Lync Server, voir [prise en charge des systèmes d’exploitation serveur et outils dans Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [configuration logicielle requise pour Lync Server 2013](lync-server-2013-additional-software-requirements.md), et [prise en charge et configuration supplémentaires du serveur sur Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Les droits d’utilisateur et les autorisations nécessaires pour installer et utiliser les outils sont décrits dans [droits d’administrateur et autorisations nécessaires pour l’installation et l’administration de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+Avant d’installer ou d’utiliser les outils d’administration Lync Server, vérifiez que vous avez examiné les exigences en matière d’infrastructure, de système d’exploitation, de logiciel et d’administrateur. Pour plus d’informations sur les exigences d’infrastructure, voir [administrative Tools infrastructure Requirements in Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Pour plus d’informations sur le système d’exploitation et la configuration logicielle requise pour l’installation des outils d’administration de Lync Server, voir [serveur et outils pris en charge par le système d’exploitation dans Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [autres logiciels requis pour Lync Server 2013](lync-server-2013-additional-software-requirements.md), ainsi que la [prise en charge et les exigences des serveurs supplémentaires dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Les droits et autorisations de l’utilisateur nécessaires à l’installation et à l’utilisation des outils sont décrits dans la section [droits et autorisations d’administrateur requis pour la configuration et l’administration de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
-Les outils d’administration sont les suivants :
+Les outils d’administration se composent des éléments suivants :
 
-  - **L’Assistant**   déploiement de Lync Server vous permet de déployer Lync Server et d’installer tous les outils d’administration.
+  - **L’Assistant**   déploiement Lync Server permet de déployer Lync Server et d’installer tous les outils d’administration.
 
-  - **Le générateur**   de topologie Lync Server permet de définir des composants dans votre déploiement.
+  - **Le générateur**   de topologies Lync Server permet de définir les composants de votre déploiement.
 
-  - **Panneau de configuration**   de Lync Server pour une gestion suivie de votre déploiement à l’aide d’une interface basée sur le Web.
+  - **Le panneau de configuration**   Lync Server permet de gérer en continu votre déploiement à l’aide d’une interface Web.
 
-  - **Lync Server Management Shell**   vous permet d’utiliser la ligne de commande pour gérer en continu votre déploiement.
+  - **Lync Server Management Shell**   utilisez pour la gestion continue de votre déploiement à l’aide de la ligne de commande.
 
-  - **Outil de journalisation Lync Server**   à utiliser pour résoudre les problèmes de votre déploiement.
+  - **Outil de journalisation Lync Server**   utilisé pour résoudre les problèmes de votre déploiement.
 
-  - **Le service**   de connexion centralisé collecte les journaux et trace les fichiers à partir d’un ordinateur, d’une réserve, d’un site ou d’une connexion globale. Sélectionner et définir des scénarios qui contiennent des fournisseurs, des indicateurs et des niveaux de suivi. La journalisation est collectée, agrégée et affichée à l’aide d’outils tels que des outils de texte ou de la fonction Snoop. exe.
+  - **Le service**   de journalisation centralisée collecte les fichiers journaux et de suivi à partir d’un ordinateur, d’un pool, d’un site ou d’un global. Sélectionnez et définissez des scénarios qui contiennent des fournisseurs, des indicateurs et des niveaux de suivi. La journalisation est collectée, agrégée et affichée avec des outils tels que n’importe quel outil basé sur du texte ou Snooper. exe.
 
-Vous pouvez gérer votre déploiement en utilisant essentiellement le générateur de topologie et le panneau de configuration de Lync Server.
+Vous pouvez gérer votre déploiement en utilisant principalement le générateur de topologie et le panneau de configuration Lync Server.
 
 <div>
 
 ## <a name="deployment-wizard"></a>Assistant Déploiement
 
-Vous devez utiliser l’Assistant Déploiement de Lync Server inclus sur le média d’installation pour installer tous les outils d’administration sur un ordinateur sur lequel vous n’avez pas encore installé Lync Server. Pendant le processus d’installation des outils d’administration, l’Assistant Déploiement de Lync Server est installé en local avec les autres outils de sorte que vous puissiez l’utiliser ultérieurement pour installer des fichiers pour les composants supplémentaires ou supprimer des fichiers pour les composants que vous ne souhaitez pas voir sur le ordinateur.
+Vous devez utiliser l’Assistant Déploiement Lync Server inclus sur le support d’installation pour installer tous les outils d’administration sur un ordinateur sur lequel vous n’avez pas encore installé Lync Server. Pendant le processus d’installation des outils d’administration, l’Assistant Déploiement de Lync Server est installé localement avec les autres outils de sorte que vous puissiez l’utiliser ultérieurement pour installer des fichiers pour des composants supplémentaires ou supprimer des fichiers pour les composants dont vous ne voulez pas sur le ci.
 
-Pour plus d’informations sur l’exécution de l’Assistant Déploiement de Lync Server pour la première fois à partir du support d’installation de Lync Server, voir [installer les outils d’administration de Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
-
-</div>
-
-<div>
-
-## <a name="topology-builder"></a>Générateur de topologie
-
-Pour plus d’informations sur les tâches de déploiement que vous pouvez effectuer à l’aide du générateur de topologie, consultez la documentation de déploiement pour chaque rôle de serveur.
+Pour plus d’informations sur l’exécution de l’Assistant Déploiement de Lync Server pour la première fois à partir du support d’installation de Lync Server, voir [install Lync server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
 </div>
 
 <div>
 
-## <a name="lync-server-control-panel"></a>Panneau de configuration Lync Server
+## <a name="topology-builder"></a>Générateur de topologies
 
-Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour effectuer la plupart des tâches administratives nécessaires à la gestion et à la gestion de Lync Server 2013. Le panneau de configuration de Lync Server vous offre une interface utilisateur graphique (GUI) pour gérer la configuration des serveurs exécutant Lync Server, en plus des utilisateurs, des clients et des appareils de votre organisation. Lync Server Management Shell utilise le panneau de configuration de Lync Server comme mécanisme sous-jacent pour effectuer la configuration de Lync Server.
+Pour plus d’informations sur les tâches de déploiement que vous pouvez effectuer à l’aide du générateur de topologie, reportez-vous à la documentation de déploiement pour chaque rôle serveur.
 
-Le panneau de configuration de Lync Server est automatiquement installé sur tous les serveurs front end Server Lync Server ou Standard Edition Server. Dans cette version, vous administrez les serveurs Edge à distance. Vous pouvez également installer le panneau de configuration de Lync Server sur un autre ordinateur, tel qu’une console de gestion à partir de laquelle vous voulez gérer de manière centralisée Lync Server. Pour en savoir plus, voir [installer les outils d’administration de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
+</div>
+
+<div>
+
+## <a name="lync-server-control-panel"></a>Panneau de commande Lync Server
+
+Vous pouvez utiliser le panneau de configuration Lync Server 2013 pour effectuer la plupart des tâches d’administration nécessaires à la gestion et à la maintenance de Lync Server 2013. Le panneau de configuration Lync Server vous fournit une interface utilisateur graphique (GUI) pour gérer la configuration des serveurs exécutant Lync Server, en plus des utilisateurs, des clients et des appareils de votre organisation. Lync Server Management Shell utilise le panneau de configuration Lync Server comme mécanisme sous-jacent pour effectuer la configuration de Lync Server.
+
+Le panneau de configuration Lync Server est automatiquement installé sur chaque serveur frontal Lync Server ou serveur Standard Edition. Dans cette version, l’administration des serveurs Edge s’effectue à distance. Vous pouvez également installer le panneau de configuration Lync Server sur un autre ordinateur, tel qu’une console de gestion à partir de laquelle vous souhaitez centraliser la gestion de Lync Server. Pour plus d’informations, reportez-vous à la rubrique [install Lync Server 2013 administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
 <div>
 
@@ -91,9 +91,9 @@ Le panneau de configuration de Lync Server est automatiquement installé sur tou
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Pour configurer les paramètres à l’aide du panneau de configuration de Lync Server, vous devez être connecté à l’aide d’un compte attribué au rôle CsAdministrator. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync server 2013</A>.</P>
+> <P>Pour configurer les paramètres à l’aide du panneau de configuration Lync Server, vous devez être connecté à l’aide d’un compte affecté au rôle CsAdministrator. Pour plus d’informations sur les rôles d’administration prédéfinis disponibles dans Lync Server 2013, reportez-vous à la rubrique <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync server 2013</A>.</P>
 > <LI>
-> <P>Pour configurer les paramètres à l’aide du panneau de configuration de Lync Server, vous devez également utiliser un ordinateur avec une résolution d’écran minimum de 1024 x 768.</P></LI></UL>
+> <P>Pour configurer les paramètres à l’aide du panneau de configuration Lync Server, vous devez également utiliser un ordinateur avec une résolution d’écran minimale de 1024 x 768.</P></LI></UL>
 
 
 
@@ -103,23 +103,23 @@ Le panneau de configuration de Lync Server est automatiquement installé sur tou
 
 <div>
 
-## <a name="lync-server-management-shell"></a>Lync Server Management Shell
+## <a name="lync-server-management-shell"></a>Lync Server Management Shell
 
-Dans Lync Server, Lync Server Management Shell fournit une nouvelle méthode d’administration et de gestion. Lync Server Management Shell est une interface de gestion puissante, basée sur l’interface de ligne de commande Windows PowerShell, qui inclut un ensemble complet d’applets de commande spécifiques à Lync Server. Lync Server Management Shell vous permet d’accéder à un large éventail de contrôles de configuration et d’automatisation. Le générateur de topologie et le panneau de configuration de Lync Server implémentent les sous-ensembles de ces applets de commande pour la prise en charge de la gestion de Lync Server. Lync Server Management Shell inclut des cmdlets pour toutes les tâches d’administration de Lync Server et vous pouvez utiliser les applets de cmdlet individuellement pour gérer votre déploiement. Pour plus d’informations, reportez-vous à la documentation de [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) ou à l’aide de la ligne de commande pour chaque cmdlet.
+Dans Lync Server, Lync Server Management Shell fournit une nouvelle méthode d’administration et de gestion. Lync Server Management Shell est une interface de gestion puissante, basée sur l’interface de ligne de commande Windows PowerShell, qui inclut un ensemble complet d’applets de commande propres à Lync Server. Avec Lync Server Management Shell, vous bénéficiez d’un ensemble complet de contrôles de configuration et d’automatisation. Le générateur de topologie et le panneau de configuration Lync Server implémentent tous deux des sous-ensembles de ces applets de commande pour prendre en charge la gestion de Lync Server. Lync Server Management Shell inclut des applets de commande pour toutes les tâches d’administration de Lync Server, et vous pouvez utiliser les applets de commande individuellement pour gérer votre déploiement. Pour plus d’informations, reportez-vous à la documentation de [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) ou à l’aide de ligne de commande pour chaque cmdlet.
 
 </div>
 
 <div>
 
-## <a name="logging-tool"></a>Outil d’enregistrement
+## <a name="logging-tool"></a>Outil de journalisation
 
-L’outil de journalisation de Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi à partir du produit lorsque le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
+L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi du produit pendant que le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle de serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Le service de journalisation centralisé est recommandé pour toutes les collections de journaux par le biais de l’outil de journalisation Lync Server en toutes circonstances. L’outil de journalisation de Lync Server fonctionne toujours, mais il interfère ou s’affiche de façon plus efficace si le service de journalisation centralisé est déjà en cours d’exécution. Vous devez uniquement utiliser le service de journalisation centralisé ou l’outil de journalisation de Lync Server, mais jamais les deux simultanément. Pour plus d’informations sur le service de journalisation centralisé et sur les raisons pour lesquelles vous devriez l’utiliser exclusivement, voir <A href="lync-server-2013-using-the-centralized-logging-service.md">utiliser le service de journalisation centralisé dans Lync Server 2013</A>.
+> Le service de journalisation centralisée est recommandé pour toutes les collections de journalisation sur l’outil de journalisation Lync Server dans toutes les circonstances. L’outil de journalisation Lync Server continue de fonctionner, mais il interfère ou s’affiche principalement si le service de journalisation centralisée est déjà en cours d’exécution. Vous devez utiliser uniquement le service de journalisation centralisée ou l’outil de journalisation Lync Server, mais jamais les deux à la fois. Pour plus d’informations sur le service de journalisation centralisée et la raison pour laquelle vous devez l’utiliser exclusivement, voir <A href="lync-server-2013-using-the-centralized-logging-service.md">utilisation du service de journalisation centralisée dans Lync Server 2013</A>.
 
 
 
@@ -131,9 +131,9 @@ L’outil de journalisation de Lync Server facilite la résolution des problème
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Exigences d’infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md)
+  - [Configuration requise pour l’infrastructure des outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md)
 
-  - [Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
   - [Configuration logicielle requise pour les outils d’administration dans Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
 
@@ -141,13 +141,13 @@ L’outil de journalisation de Lync Server facilite la résolution des problème
 
   - [Conditions requises pour publier une topologie dans Lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)
+  - [Installer les outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)
 
-  - [Ouvrez les outils d’administration de Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md)
+  - [Ouvrir les outils d’administration de Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md)
 
-  - [Résolution des problèmes liés à Lync Server 2013 Control Panel](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
+  - [Dépannage du panneau de configuration Lync Server 2013](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
 
-  - [Utiliser le service de journalisation centralisé dans Lync Server 2013](lync-server-2013-using-the-centralized-logging-service.md)
+  - [Utilisation du service de journalisation centralisée dans Lync Server 2013](lync-server-2013-using-the-centralized-logging-service.md)
 
 </div>
 
@@ -156,7 +156,7 @@ L’outil de journalisation de Lync Server facilite la résolution des problème
 ## <a name="see-also"></a>Voir aussi
 
 
-[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

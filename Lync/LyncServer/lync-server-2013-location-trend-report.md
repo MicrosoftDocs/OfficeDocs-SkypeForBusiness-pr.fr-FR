@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport de tendance d’emplacement'
+title: 'Lync Server 2013 : rapport de tendance des emplacements'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762142"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a>Rapport de tendance d’emplacement dans Lync Server 2013
+# <a name="location-trend-report-in-lync-server-2013"></a>Rapport de tendance des emplacements dans Lync Server 2013
 
 </div>
 
@@ -62,7 +62,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -72,7 +72,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -82,20 +82,20 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
 <li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 01/01/2011 et une date de fin le 28/02/2011, les données s’affichent pour les jours compris entre le 01/08/2011 12:00 AM et le 01/09/2011 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 1/1/2011 et une date de fin le 28/2/2011, les données s’affichent pour les jours compris entre le 1/8/2011 à minuit et le 1/9/2011 à minuit (c’est-à-dire, un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type d’accès</strong></p></td>
 <td><p>Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Interne</p></li>
 <li><p>Externe</p></li>
 </ul></td>
@@ -104,18 +104,18 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ul></td>
 </tr>
 </tbody>

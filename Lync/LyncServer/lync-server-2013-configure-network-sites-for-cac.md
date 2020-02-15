@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer les sites réseau pour le CAC'
+title: 'Lync Server 2013 : configuration des sites réseau pour le contrôle d’admission des opérations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0958c74d6f1ce587886b7a8456aee44381c00ff5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f449d26515c6790ec8582676ca57ed897f12dc40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Configurer les sites réseau pour le CAC dans Lync Server 2013
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Configuration des sites réseau pour le contrôle d’admission des adresses dans Lync Server 2013
 
 </div>
 
@@ -41,23 +41,23 @@ _**Dernière modification de la rubrique :** 2012-09-05_
 
 
 > [!IMPORTANT]  
-> Si vous avez déjà créé des sites réseau pour le contournement de E9-1-1 ou du contenu multimédia, vous pouvez modifier les sites réseau existants pour appliquer un profil de stratégie de bande passante à l’aide de l’applet de connexion <STRONG>Set-CsNetworkSite</STRONG> . Pour obtenir un exemple illustrant comment modifier un site réseau, voir <A href="lync-server-2013-create-or-modify-a-network-site.md">créer ou modifier un site réseau dans Lync Server 2013</A>.
+> Si vous avez déjà créé des sites réseau pour E9-1-1 ou le contournement de média, vous pouvez modifier les sites réseau existants pour appliquer un profil de stratégie de bande passante à l’aide de l’applet de commande <STRONG>Set-CsNetworkSite</STRONG>. Pour obtenir un exemple de la façon de modifier un site réseau, reportez-vous à la rubrique <A href="lync-server-2013-create-or-modify-a-network-site.md">créer ou modifier un site réseau dans Lync Server 2013</A>.
 
 
 
 </div>
 
-Les *sites réseau* sont les bureaux ou les emplacements dans chaque région du réseau de déploiement d’admission des appels (CAC), de E9-1-1 et de contournement de média. Utilisez les procédures suivantes pour créer des sites réseau qui s’alignent sur les sites réseau dans l’exemple de topologie réseau pour CAC. Les procédures suivantes vous expliquent comment créer et configurer des sites réseau limités par une bande passante WAN et exiger ainsi des stratégies de bande passante qui limitent le flux de trafic audio ou vidéo en temps réel.
+Les *sites réseau* sont les bureaux ou emplacements au sein de chaque région réseau des déploiements de contrôle d’admission des appels (Call Admission Control ou CAC), E9-1-1 et de contournement de média. Utilisez les procédures suivantes pour créer des sites réseau qui s’alignent sur les sites réseau de l’exemple de topologie de réseau pour le service CAC. Ces procédures indiquent comment créer et configurer des sites réseau restreints par la bande passante de réseau étendu et qui nécessitent, par conséquent, des stratégies de bande passante qui limitent le flux du trafic audio ou vidéo en temps réel.
 
-Dans l’exemple de déploiement CAC, la région Amérique du Nord comporte six sites. Trois de ces sites sont limités par une bande passante WAN : Reno, Portland et Albuquerque. Les trois autres sites, qui ne sont *pas* limités par la bande passante WAN : New York, Chicago et détroit. Pour obtenir un exemple illustrant la création ou la modification de ces sites, voir [créer ou modifier un site réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
+Dans l’exemple de déploiement CAC, la région Amérique du Nord comporte six sites. Parmi ces sites, trois sont restreints par la bande passante de réseau étendu : Reno, Portland et Albuquerque. Les trois autres sites, qui ne sont *pas* restreints par la bande passante de réseau étendu sont les suivants : New York, Chicago et Détroit. Pour obtenir un exemple de création ou de modification de ces autres sites réseau, reportez-vous à la rubrique [créer ou modifier un site réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
 
-Pour afficher l’exemple de topologie du réseau, reportez-vous à la rubrique [exemple : rassemblement des exigences relatives au contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) dans la documentation de planification.
+Pour afficher l’exemple de topologie réseau, reportez-vous à l’exemple [suivant : collecte de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) dans la documentation de planification.
 
 <div class=" ">
 
 
 > [!NOTE]  
-> Dans la procédure suivante, Lync Server Management Shell est utilisé pour créer un site réseau. Pour plus d’informations sur l’utilisation du panneau de configuration de Lync Server pour créer un site réseau, voir <A href="lync-server-2013-create-or-modify-a-network-site.md">créer ou modifier un site réseau dans Lync Server 2013</A>.
+> Dans la procédure suivante, Lync Server Management Shell est utilisé pour créer un site réseau. Pour plus d’informations sur l’utilisation du panneau de configuration Lync Server pour créer un site réseau, voir <A href="lync-server-2013-create-or-modify-a-network-site.md">créer ou modifier un site réseau dans Lync Server 2013</A>.
 
 
 
@@ -65,11 +65,11 @@ Pour afficher l’exemple de topologie du réseau, reportez-vous à la rubrique 
 
 <div>
 
-## <a name="to-create-network-sites-for-call-admission-control"></a>Pour créer un site réseau pour le contrôle d’admission des appels
+## <a name="to-create-network-sites-for-call-admission-control"></a>Pour créer des sites réseau pour le contrôle d’admission des appels
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exécutez l’applet de nouvelle applet de **CsNetworkSite** pour créer des sites réseau et appliquer un profil de stratégie de bande passante approprié à chaque site. Par exemple, exécutez :
+2.  Exécutez l’applet de commande **New-CsNetworkSite** pour créer des sites réseau, puis appliquez un profil de stratégie de bande passante approprié à chaque site. Par exemple, exécutez :
     
        ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
@@ -83,7 +83,7 @@ Pour afficher l’exemple de topologie du réseau, reportez-vous à la rubrique 
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 
-3.  Pour terminer la création de sites réseau pour la topologie d’exemple complète, répétez l’étape 2 pour les sites réseau limités en bande passante dans les régions EMEA et APAC.
+3.  Afin de terminer la création de sites réseau pour l’ensemble de l’exemple de topologie, répétez l’étape 2 pour les sites réseau à bande passante restreinte dans les régions EMEA et APAC.
 
 </div>
 

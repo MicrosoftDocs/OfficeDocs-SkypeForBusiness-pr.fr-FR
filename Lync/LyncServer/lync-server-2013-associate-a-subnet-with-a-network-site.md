@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Association d’un sous-réseau à un site réseau'
+title: 'Lync Server 2013 : associer un sous-réseau à un site réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f54ba8be2be6ae042633e519c5d7d27bde834162
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 929448f14fbc21781b20d3849c5b409f120c0450
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722804"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a>Association d’un sous-réseau à un site réseau dans Lync Server 2013
+# <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a>Associer un sous-réseau à un site réseau dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41722804"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Chaque sous-réseau de votre réseau doit être associé à un site réseau spécifique, car les informations de sous-réseau servent à définir le site réseau sur lequel figure un point de terminaison lorsqu’une nouvelle session est initiée. Lorsque l’emplacement de chaque partie d’une session est connu, les fonctionnalités avancées de voix entreprise peuvent appliquer ces informations pour déterminer le mode de gestion de l’appel ou du routage.
+Chaque sous-réseau de votre réseau doit être associé à un site réseau spécifique, car les informations de sous-réseau servent à définir le site réseau sur lequel figure un système d’extrémité lorsqu’une nouvelle session est initiée. Lorsque l’emplacement de chaque partie d’une session est connu, les fonctionnalités avancées de voix entreprise peuvent appliquer ces informations pour déterminer comment gérer la configuration de l’appel ou le routage.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de votre déploiement doivent être ajoutées à vos paramètres de configuration réseau. Ces adresses IP sont ajoutées sous forme de sous-réseaux avec un masque de 32. Le site réseau associé doit correspondre au site réseau configuré approprié. Par exemple, l’adresse IP publique qui correspond au serveur Edge A/V dans le site central de Chicago serait NetworkSiteID Chicago. Pour plus d’informations sur les adresses IP publiques, voir <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">déterminer la configuration requise pour le pare-feu A/V pour Lync Server 2013</A> dans la documentation de planification.
+> Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de votre déploiement doivent être ajoutées à vos paramètres de configuration réseau. Ces adresses IP sont ajoutées sous forme de sous-réseaux avec un masque de 32. Le site réseau associé doit correspondre au site réseau configuré approprié. Par exemple, l’adresse IP publique correspondant au serveur Edge A/V du site central Chicago serait NetworkSiteID Chicago. Pour plus d’informations sur les adresses IP publiques, voir <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determine External A/V Firewall and Port Requirements for Lync Server 2013</A> dans la documentation de planification.
 
 
 
@@ -53,7 +53,7 @@ Chaque sous-réseau de votre réseau doit être associé à un site réseau spé
 
 
 > [!NOTE]  
-> Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de huit heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (noyau)<BR><STRONG>Numéro de l’événement :</STRONG> 36034<BR><STRONG>Niveau :</STRONG> 2<BR><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: une liste d'&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes n’apparaissent pas dans les paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui s’affiche dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
+> Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de huit heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :<BR><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (Core)<BR><STRONG>Numéro d’événement :</STRONG> 36034<BR><STRONG>Niveau :</STRONG> 2<BR><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: la liste des&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.<BR><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste des adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.<BR>Par exemple, si la liste d’adresses IP qui apparaît dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit : 
 > <OL>
 > <LI>
 > <P>Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</P>
@@ -64,7 +64,7 @@ Chaque sous-réseau de votre réseau doit être associé à un site réseau spé
 
 </div>
 
-Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des sous-réseaux, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)
 
@@ -78,7 +78,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
 
 
 > [!TIP]  
-> Si vous travaillez avec un grand nombre de sous-réseaux, nous vous recommandons d’utiliser un fichier de valeurs séparées par des virgules (CSV) pour associer les sous-réseaux aux sites. Le fichier CSV doit contenir les quatre colonnes suivantes : <STRONG>IPAddress</STRONG>, <STRONG>Mask</STRONG>, <STRONG>Description</STRONG>, <STRONG>NetworkSiteID</STRONG>.
+> Si vous utilisez un grand nombre de sous-réseaux, nous vous recommandons d’utiliser un fichier de valeurs séparées par des virgules (CSV) pour associer les sous-réseaux à des sites. Le fichier CSV doit comporter les quatre colonnes suivantes : <STRONG>adresse IP</STRONG>, <STRONG>masque</STRONG>, <STRONG>description</STRONG>, <STRONG>ID de site réseau</STRONG>.
 
 
 
@@ -88,19 +88,19 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
 
 ## <a name="to-associate-a-subnet-with-a-network-site-by-using-management-shell"></a>Pour associer un sous-réseau à un site réseau à l’aide de Management Shell
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande **New-CsNetworkSubnet** pour associer un sous-réseau à un site réseau :
     
         New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
     
-    Exemple :
+    Par exemple :
     
         New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
     
     Dans cet exemple, vous avez créé une association entre le sous-réseau 172.11.12.13 et le site réseau « Chicago ».
 
-3.  Répétez l’étape 2 pour tous les sous-réseaux de votre topologie.
+3.  Répétez l’étape 2 pour tous les sous-réseaux de votre topologie.
 
 </div>
 
@@ -120,9 +120,9 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
     
     `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Exécutez l’applet de commande suivante pour importer **subnet. csv**, puis stockez son contenu dans le magasin de gestion du serveur Lync :
+3.  Exécutez l’applet de commande suivante pour importer le fichier **subnet. csv**, puis enregistrez son contenu dans le magasin de gestion Lync Server :
     
         import-csv subnet.csv | foreach {New-CSNCSSubnet  _.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
 
@@ -130,9 +130,9 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
 
 <div>
 
-## <a name="to-associate-a-subnet-with-a-network-site-by-using-lync-server-control-panel"></a>Pour associer un sous-réseau à un site réseau en utilisant le panneau de configuration de Lync Server
+## <a name="to-associate-a-subnet-with-a-network-site-by-using-lync-server-control-panel"></a>Pour associer un sous-réseau à un site réseau à l’aide du Panneau de configuration Lync Server
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
@@ -150,7 +150,7 @@ Pour plus d’informations sur l’utilisation des sous-réseaux réseau, voir l
     
 
     > [!NOTE]  
-    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, voir <A href="lync-server-2013-create-or-modify-a-network-site.md">créer ou modifier un site réseau dans Lync Server 2013</A>. Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande <STRONG>Get-CsNetworkSite</STRONG>. Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell.
+    > Si vous n’avez pas encore créé de sites réseau, cette liste est vide. Pour plus d’informations sur la procédure, voir <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or Modify a Network site in Lync Server 2013</A>. Vous pouvez également récupérer des ID de site pour votre déploiement en exécutant l’applet de commande <STRONG>Get-CsNetworkSite</STRONG>. Pour plus d’informations, voir la documentation Lync Server Management Shell.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion de la fédération et de l’accès externe à Lync Server 2013'
+title: 'Lync Server 2013 : gestion de la Fédération et de l’accès externe à Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dadc455389d95c91996b75928def8f03b06c64e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 756a766bc45bc1b3a19777a405a743d55628e309
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Gestion de la fédération et de l’accès externe à Lync Server 2013
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Gestion de la Fédération et de l’accès externe à Lync Server 2013
 
 </div>
 
@@ -37,59 +37,59 @@ ms.locfileid: "41729314"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-Le déploiement d’un serveur de périphérie ou d’un pool de périphérie est la première étape de la prise en charge des utilisateurs externes. Pour plus d’informations sur le déploiement de serveurs Edge, voir [déploiement d’un accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
+La première étape du processus de définition de la prise en charge des utilisateurs externes consiste à déployer un serveur Edge ou un pool Edge. Pour plus d’informations sur le déploiement des serveurs Edge, voir [Deploying External User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) dans la documentation de déploiement.
 
-Après l’installation et la configuration de votre déploiement interne de Lync Server 2013, les utilisateurs internes au sein de votre organisation peuvent collaborer avec d’autres utilisateurs internes disposant de comptes SIP dans les services de domaine Active Directory (AD DS). La collaboration peut inclure la possibilité d’envoyer et de recevoir des messages instantanés et de mettre à jour le statut de présence et participer à des conférences (également appelées « réunions »). Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs internes de Lync Server. Les utilisateurs externes peuvent inclure des utilisateurs distants de votre déploiement, des utilisateurs fédérés (y compris les utilisateurs pris en charge de fournisseurs de services de messagerie instantanée publique), de Fédération de XMPP et de participants anonymes lors de conférences.
+Après avoir installé et configuré votre déploiement interne de Lync Server 2013, les utilisateurs internes au sein de votre organisation peuvent collaborer avec d’autres utilisateurs internes disposant de comptes SIP dans vos services de domaine Active Directory (AD DS). La collaboration peut prendre la forme d’envoi et réception de messages instantanés et de mise à jour du statut de présence ainsi que la participation à des conférences (ou réunions). Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs internes de Lync Server. Les utilisateurs externes peuvent être des utilisateurs distants de votre déploiement, des utilisateurs fédérés (y compris les utilisateurs pris en charge des fournisseurs de services de messagerie instantanée publics), une fédération XMPP ou bien des participants anonymes à des conférences.
 
-Si votre déploiement incluait l’installation d’un serveur Edge Lync Server 2013 ou d’un pool Edge, l’étendue des types de communication possibles sera considérablement améliorée grâce à un certain nombre d’options pour l’accès utilisateur externe, la communication avec les membres d’autres domaines fédérés SIP. Les fournisseurs fédérés SIP et les utilisateurs fédérés XMPP. Après avoir configuré le serveur de périphérie ou le pool de bords, vous activez les types d’accès des utilisateurs externes que vous souhaitez fournir et configurez les stratégies pour contrôler l’accès externe. Dans Lync Server 2013, vous activez et configurez l’accès et les stratégies des utilisateurs externes à l’aide du panneau de configuration de Lync Server, de Lync Server Management Shell ou les deux, en fonction de la configuration requise pour la tâche. Pour plus d’informations sur ces outils de gestion, reportez-vous à la rubrique [Outils d’administration de Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) dans la documentation opérations, [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) dans la documentation opérations et [installer les outils d’administration de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation sur les opérations.
+Si votre déploiement comprenait l’installation d’un serveur Edge Lync Server 2013 ou d’un pool Edge, l’étendue des types de communication possibles est grandement étendue avec un certain nombre d’options pour l’accès des utilisateurs externes, la communication avec les membres d’autres domaines fédérés SIP, Les fournisseurs fédérés SIP et les utilisateurs fédérés XMPP. Après avoir configuré le serveur Edge ou le pool de serveurs Edge, vous permettez aux types d’accès des utilisateurs externes que vous souhaitez fournir et vous configurez les stratégies pour contrôler l’accès externe. Dans Lync Server 2013, vous activez et configurez les stratégies et l’accès des utilisateurs externes à l’aide du panneau de configuration Lync Server, de Lync Server Management Shell ou des deux, en fonction des besoins de la tâche. Pour plus d’informations sur ces outils de gestion, reportez-vous aux [Outils d’administration de Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) dans la documentation des opérations, [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) dans la documentation des opérations et [installer les outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation des opérations.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lorsque vous concevez votre configuration et vos stratégies pour l’accès des utilisateurs externes, vous devez comprendre la priorité des stratégies et la façon dont elles sont appliquées. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit : la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+> Vous devez bien saisir la priorité des stratégies et la façon dont elles sont appliquées avant de concevoir votre configuration et vos stratégies pour l’accès des utilisateurs externes. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 
 
 
 </div>
 
-Par défaut, aucune stratégie n’est configurée pour prendre en charge l’accès des utilisateurs externes, y compris l’accès des utilisateurs distants, l’accès des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes pour votre organisation. Pour contrôler l’utilisation de l’accès des utilisateurs externes, vous devez configurer une ou plusieurs stratégies en spécifiant le type d’accès des utilisateurs externes pris en charge pour chaque stratégie. Cela inclut les stratégies d’accès externe suivantes :
+Par défaut, aucune stratégie n’est configurée pour prendre en charge l’accès des utilisateurs externes, notamment l’accès des utilisateurs distants et des utilisateurs fédérés, même si vous avez déjà activé la prise en charge de l’accès des utilisateurs externes dans votre organisation. Pour contrôler l’accès des utilisateurs externes, vous devez configurer au moins une stratégie, qui spécifie le type d’accès des utilisateurs externes pris en charge. Cela inclut les stratégies d’accès externe suivantes :
 
-  - **Politique globale la**   stratégie globale est créée lors du déploiement de votre serveur Edge. Par défaut, aucune option d’accès utilisateur externe n’est activée dans la stratégie globale. Pour prendre en charge l’accès des utilisateurs externes au niveau global, vous pouvez configurer la stratégie globale pour prendre en charge un ou plusieurs types d’options d’accès utilisateurs externes. La politique globale s’applique à tous les utilisateurs de votre organisation, mais les stratégies de site et les stratégies d’utilisateur remplacent la stratégie globale. Si vous supprimez la stratégie globale, vous ne la supprimez pas. Au lieu de cela, vous rétablissez la valeur par défaut.
+  - **Stratégie globale la**   stratégie globale est créée lorsque vous déployez vos serveurs Edge. Par défaut, aucune option d’accès utilisateur externe n’est activée dans la stratégie globale. Pour prendre en charge l’accès des utilisateurs externes au niveau global, vous configurez la stratégie globale pour prendre en charge un ou plusieurs types d’options d’accès des utilisateurs externes. La stratégie globale s’applique à tous les utilisateurs de votre organisation, mais les stratégies de site et les stratégies utilisateur remplacent la stratégie globale. Si vous supprimez la stratégie globale, vous ne la supprimez pas. Au lieu de cela, vous devez rétablir le paramètre par défaut.
 
-  - **Stratégie de site**   vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter l’accès des utilisateurs externes à des sites spécifiques. La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous autorisez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès des utilisateurs distants pour un site spécifique. Par défaut, une stratégie de site est appliquée à tous les utilisateurs de ce site, mais vous pouvez affecter une stratégie d’utilisateur à un utilisateur pour remplacer le paramètre de stratégie de site.
+  - **Stratégie de site**   vous pouvez créer et configurer une ou plusieurs stratégies de site pour limiter la prise en charge de l’accès des utilisateurs externes à des sites spécifiques. La configuration de la stratégie du site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie. Par exemple, si vous activez l’accès des utilisateurs distants dans la stratégie globale, vous pouvez spécifier une stratégie de site qui désactive l’accès sur un site donné. Par défaut, une stratégie de site s’applique à tous les utilisateurs de ce site, mais vous pouvez affecter une stratégie d’utilisateur qui supplante la configuration de la stratégie de site.
 
-  - **Stratégie**   de l’utilisateur vous pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La configuration de la stratégie utilisateur remplace la stratégie globale et la stratégie de site, mais uniquement pour les utilisateurs spécifiques auxquels la stratégie utilisateur est affectée. Par exemple, si vous autorisez l’accès des utilisateurs distants dans la stratégie globale et la stratégie de site, vous pouvez spécifier une stratégie d’utilisateur qui désactive l’accès des utilisateurs distants, puis affecter cette stratégie à des utilisateurs spécifiques. Si vous créez une stratégie d’utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs avant qu’elle ne soit appliquée.
+  - **Stratégie utilisateur vous**   pouvez créer et configurer une ou plusieurs stratégies utilisateur pour limiter la prise en charge de l’accès des utilisateurs distants à des utilisateurs spécifiques. La stratégie utilisateur supplante les stratégies globale et de site, uniquement pour les utilisateurs auxquels elle est affectée. Par exemple, si vous activez l’accès des utilisateurs distants dans les stratégies globale et de site, vous pouvez définir une stratégie utilisateur qui désactive l’accès des utilisateurs distants et l’affecter à des utilisateurs spécifiques. Si vous créez une stratégie d’utilisateur, vous devez l’appliquer à un ou plusieurs utilisateurs avant qu’elle n’entre en vigueur.
 
 Pour déterminer les paramètres de configuration et les stratégies à créer ou modifier, reportez-vous aux points de décision suivants :
 
-**Souhaitez-vous autoriser les utilisateurs internes et externes de votre domaine à collaborer à l’aide de la messagerie instantanée, de la conférence Web et de l’audio et de la vidéo ?**
+**Voulez-vous autoriser les utilisateurs internes et externes de votre domaine à collaborer à l’aide de la messagerie instantanée, des conférences web et de l’audio/vidéo ?**
 
-Configurez les paramètres comme décrit plus en détail dans les rubriques [Configuration des stratégies pour contrôler l’accès des utilisateurs distants dans Lync server 2013](lync-server-2013-configure-policies-to-control-remote-user-access.md)et [activez ou désactivez la connectivité de Fédération et de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
+Configurez les paramètres comme indiqué dans les rubriques [configure Policies to Control Remote User Access in Lync server 2013](lync-server-2013-configure-policies-to-control-remote-user-access.md), et [activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
 
-**Souhaitez-vous autoriser les utilisateurs anonymes à participer à des conférences hébergées par des utilisateurs dans votre déploiement ?**
+**Voulez-vous autoriser les utilisateurs anonymes à participer et être invité à des conférences hébergées par des utilisateurs au sein de votre déploiement ?**
 
-Configurez les paramètres comme décrit dans la rubrique [affecter des stratégies de conférence pour prendre en charge les utilisateurs anonymes dans Lync server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), puis [créez ou modifiez une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) et les [paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+Configurez les paramètres comme indiqué dans la rubrique [attribuer des stratégies de conférence pour prendre en charge les utilisateurs anonymes dans Lync server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), [créer ou modifier une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) et [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
 
-**Souhaitez-vous autoriser les utilisateurs à communiquer avec des contacts de domaine fédéré SIP ?**
+**Voulez-vous autoriser les utilisateurs à communiquer avec des contacts de domaines fédérés SIP ?**
 
-Configurez les paramètres comme décrit dans les rubriques [Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [activez ou désactivez la connectivité de Fédération et de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)et [gérez des domaines fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+Configurez les paramètres comme indiqué dans les rubriques [configure Policies to Control Federated User Access in Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)et [gestion des domaines fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
 
-**Si vous avez activé la communication avec les domaines de Fédération SIP, voulez-vous activer les communications avec les contacts de partenariat fédéré XMPP ?**
+**Si vous avez activé la communication avec les domaines de fédération SIP, voulez-vous activer les communications avec les contacts partenaires fédérés SIP ?**
 
-Configurez les paramètres comme décrit dans la rubrique [configurer des stratégies pour contrôler l’accès des utilisateurs fédérés de XMPP dans Lync server 2013](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md) et [gérer les partenaires fédérés fédérés dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md).
+Configurez les paramètres comme indiqué dans la rubrique [configure Policies to Control XMPP Federated User Access in Lync server 2013](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md) et [Manage XMPP Federated Partners in Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md).
 
-**Si vous avez activé la communication avec des domaines fédérés SIP, voulez-vous activer la découverte automatique de la Fédération SIP ?**
+**Si vous avez activé la communication avec les domaines fédérés SIP, voulez-vous activer la découverte automatique de la Fédération SIP ?**
 
-Configurez les paramètres comme décrit dans la rubrique [activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
+Configurez les paramètres comme indiqué dans la rubrique [activation ou désactivation de la découverte des partenaires de Fédération dans Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
 
-**Si vous avez activé la communication avec les domaines de Fédération SIP, voulez-vous autoriser l’envoi d’une exclusion de responsabilité à des contacts fédérés pour les informer que vous utilisez l’archivage et que ces communications peuvent être archivées ?**
+**Si vous avez activé la communication avec les domaines de fédération SIP, voulez-vous activer l’envoi d’un dédit de responsabilité aux contacts fédérés leur indiquant que vous utilisez l’archivage et que les communications peuvent être archivées ?**
 
-Configurez les paramètres comme décrit dans la rubrique [activer ou désactiver l’envoi d’une exclusion d’autorisation d’archivage aux partenaires fédérés de Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
+Configurez les paramètres comme indiqué dans la rubrique [activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés dans Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
 
-**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui autorisent les communications avec les fournisseurs publics, telles que Windows Live Messenger,\!AOL et Yahoo ?**
+**Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui permettent la communication avec des fournisseurs publics, tels que Windows Live Messenger, AOL\!et Yahoo ?**
 
-Configurez les paramètres conformément aux rubriques de [Configuration des stratégies pour contrôler l’accès des utilisateurs publics dans Lync server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[activer ou désactiver la Fédération et la connectivité de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md), puis [créer ou modifier des fournisseurs fédérés SIP publics dans Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
+Configurez les paramètres comme indiqué dans les rubriques [configure Policies to Control public user Access dans Lync server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Enable or Disable Federation and Public IM Connectivity in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md), et [créez ou modifiez des fournisseurs fédérés SIP publics dans Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
 
 <div>
 
@@ -97,11 +97,11 @@ Configurez les paramètres conformément aux rubriques de [Configuration des str
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À partir du 2012 1er septembre, la licence d’abonnement utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») n’est plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo !. Messenger jusqu’à la date d’arrêt du service. Date de fin du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité PIC de messagerie instantanée dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL PIC est une licence d’abonnement par utilisateur et par mois requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonnée à la prise en charge de Yahoo !, l’accord sous-jacent de qui est en panne.</P>
 > <LI>
-> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
+> <P>Plus que jamais, Lync est un outil puissant pour la connexion entre les organisations et les utilisateurs dans le monde entier. La Fédération avec Windows Live Messenger ne requiert aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client Lync standard. La Fédération Skype est ajoutée à cette liste, ce qui permet aux utilisateurs de Lync d’atteindre des centaines de millions de personnes avec la messagerie instantanée et la voix.</P></LI></UL>
 
 
 
@@ -109,13 +109,13 @@ Configurez les paramètres conformément aux rubriques de [Configuration des str
 
 **Souhaitez-vous autoriser les utilisateurs à communiquer avec des fournisseurs fédérés SIP qui sont des fournisseurs hébergés exécutant Microsoft Office 365, Microsoft Lync Online et Microsoft Lync Online 2010 ?**
 
-Configurez les paramètres comme décrit dans les rubriques [création ou modification des fournisseurs fédérés SIP dans Lync server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [activation ou désactivation de la connectivité de Fédération et de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) et [création ou modification des fournisseurs fédérés sip hébergés Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Configurez les paramètres comme indiqué dans les rubriques [création ou modification de fournisseurs fédérés SIP publics dans Lync server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) et [création ou modification des fournisseurs fédérés sip hébergés Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
-**Votre déploiement est-il configuré dans un domaine fractionné (également connu sous le nom de domaine hybride) dans lequel certains utilisateurs disposent du serveur principal dans le cadre d’un déploiement local et d’autres utilisateurs sont configurés avec un serveur domestique dans un environnement en ligne ?**
+**Votre déploiement est-il configuré dans un domaine séparé (ou domaine hybride), dans lequel certains utilisateurs possèdent leur serveur central dans un déploiement local et d’autres dans un environnement en ligne ?**
 
-Configurez les paramètres conformément aux rubriques [Configuration des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [activez ou désactivez la connectivité de Fédération et de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) , puis [créez ou modifiez des fournisseurs fédérés SIP hébergés Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Configurez les paramètres comme indiqué dans les rubriques [configure Policies to Control Federated User Access in Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [Enable or Disable Federation and Public IM Connectivity in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) et [Create or Edit Hosted SIP Federated providers Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
-Si vous préférez un tableau qui répertorie les exigences :
+Vous trouverez ci-après un tableau récapitulant les conditions requises :
 
 
 <table style="width:100%;">
@@ -129,66 +129,66 @@ Si vous préférez un tableau qui répertorie les exigences :
 </colgroup>
 <thead>
 <tr class="header">
-<th>Onglet dans la Fédération et l’accès externe (en travers) ou type d’accès externe (vers le bas)</th>
+<th>Onglet dans Fédération et accès externe (en travers) Fédération ou type d’accès externe (bas)</th>
 <th>Stratégie d’accès externe</th>
-<th>Configurer Access Edge</th>
+<th>Configuration du serveur Edge d’accès</th>
 <th>Domaines fédérés SIP</th>
 <th>Fournisseurs fédérés SIP</th>
-<th>Partenaire fédéré de XMPP</th>
+<th>Partenaire fédéré XMPP</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Utilisateurs distants</p></td>
-<td><p><a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs distants dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activer ou désactiver l’accès des utilisateurs distants dans Lync Server 2013</a></p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>Contacts fédérés SIP</p></td>
-<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activation ou désactivation de la découverte de partenaires de fédération dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md">Activation ou désactivation de l’envoi d’une notification d’exclusion relative à l’archivage aux partenaires fédérés dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Gestion des domaines fédérés SIP pour l’organisation dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p>
+<p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013</a></p>
+<p><a href="lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md">Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-manage-sip-federated-domains-for-your-organization.md">Gérer les domaines fédérés SIP pour votre organisation dans Lync Server 2013</a></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Contacts fédérés de XMPP</p></td>
-<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a></p>
-<p><a href="lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
+<td><p>Contacts fédérés XMPP</p></td>
+<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</a></p>
+<p><a href="lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés XMPP dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
 <td></td>
 <td></td>
-<td><p><a href="lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md">Gestion des partenaires fédérés XMPP dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md">Gérer les partenaires fédérés XMPP dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Domaines partagés/utilisateurs hybrides</p></td>
-<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
+<td><p>Utilisateurs de domaine séparé/hybride</p></td>
+<td><p><a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
 <td></td>
-<td><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP hébergés dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Créer ou modifier des fournisseurs fédérés SIP hébergés Lync Server 2013</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Contacts du service de messagerie instantanée publique</p></td>
+<td><p>Contacts de services de messagerie instantanée publics</p></td>
 <td><p><a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</a></p></td>
 <td></td>
-<td><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification des fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Création ou modification de fournisseurs fédérés SIP publics dans Lync Server 2013</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Accès anonyme aux réunions et aux conférences</p></td>
+<td><p>Accès des utilisateurs anonymes aux réunions et conférences</p></td>
 <td></td>
-<td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Affectation des stratégies de conférence pour la prise en charge les utilisateurs anonymes dans Lync Server 2013</a></p>
+<td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Affecter des stratégies de conférence pour prendre en charge les utilisateurs anonymes dans Lync Server 2013</a></p>
 <div>
 
 > [!NOTE]  
-> Vous devez également tenir compte des paramètres de configuration suivants sous stratégies de conférence : <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">création ou modification d’une stratégie de conférence dans Lync server 2013</A> et les <A href="lync-server-2013-conferencing-policy-settings-reference.md">paramètres de stratégie de conférence pour Lync Server 2013</A>
+> Vous devez également prendre en compte les paramètres de configuration suivants sous stratégies de conférence : <A href="lync-server-2013-create-or-modify-a-conferencing-policy.md">création ou modification d’une stratégie de conférence dans Lync server 2013</A> et <A href="lync-server-2013-conferencing-policy-settings-reference.md">référence des paramètres de stratégie de conférence pour Lync Server 2013</A>
 
 
 </div></td>
@@ -200,23 +200,23 @@ Si vous préférez un tableau qui répertorie les exigences :
 </table>
 
 
-Vous pouvez configurer les paramètres d’accès des utilisateurs externes, y compris les stratégies que vous souhaitez utiliser pour contrôler l’accès des utilisateurs externes, même si vous n’avez pas activé l’accès des utilisateurs externes pour votre organisation. Toutefois, les stratégies et autres paramètres que vous configurez ne s’appliquent que si l’accès utilisateur externe est activé pour votre organisation. Les utilisateurs externes ne peuvent pas communiquer avec les utilisateurs de votre organisation lorsque l’accès des utilisateurs externes est désactivé ou s’il n’y a pas de stratégie d’accès des utilisateurs externes pour la prise en charge.
+Vous pouvez configurer les paramètres d’accès des utilisateurs externes, y compris les stratégies de contrôle de l’accès des utilisateurs externes, même si vous n’avez pas activé l’accès des utilisateurs externes pour votre organisation. Toutefois, les stratégies et les autres paramètres que vous configurez ne prennent effet que lorsque vous activez l’accès des utilisateurs externes pour votre organisation. Les utilisateurs externes ne peuvent pas communiquer avec les utilisateurs de votre organisation si l’accès des utilisateurs externes est désactivé ou si aucune stratégie de prise en charge de l’accès des utilisateurs externes n’a été configurée.
 
-Votre déploiement Edge authentifie les types d’utilisateurs externes (à l’exception des utilisateurs anonymes, qui sont authentifiés par l’ID de conférence et d’une clé d’authentification envoyée au participant anonyme lors de la création de la Conférence et d’invitations aux participants) et de contrôles. Access en fonction de la configuration de votre support Edge. Afin de contrôler les communications, vous pouvez configurer une ou plusieurs stratégies et configurer des paramètres définissant le mode de communication des utilisateurs internes et externes à votre déploiement. Les stratégies et paramètres incluent la stratégie globale par défaut de l’accès des utilisateurs externes, en plus des stratégies de site et d’utilisateur que vous pouvez créer et configurer pour activer un ou plusieurs types d’accès utilisateur externe pour des sites ou des utilisateurs spécifiques.
+Votre déploiement Edge authentifie les types d’utilisateurs externes (à l’exception des utilisateurs anonymes, qui sont authentifiés par l’ID de conférence et une clé de sécurité envoyée aux participants anonymes lorsque vous créez la conférence et invitez des participants) et contrôle l’accès selon la façon dont vous avez configuré la prise en charge de votre déploiement Edge. Pour contrôler les communications, vous pouvez configurer une ou plusieurs stratégies et des paramètres qui définissent comment les utilisateurs situés en amont ou en aval de votre déploiement communiquent entre eux. Ces stratégies et paramètres incluent la stratégie globale par défaut d’accès des utilisateurs externes, en plus des stratégies de site et utilisateur que vous créez et configurez pour activer un ou plusieurs types d’accès des utilisateurs externes à l’intention de sites ou d’utilisateurs spécifiques.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Gestion de la stratégie d’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [Gérer la stratégie d’accès externe dans Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Gestion de la configuration du serveur Edge d’accès pour votre organisation dans Lync Server 2013](lync-server-2013-manage-access-edge-configuration-for-your-organization.md)
+  - [Gérer la configuration du serveur Edge d’accès pour votre organisation dans Lync Server 2013](lync-server-2013-manage-access-edge-configuration-for-your-organization.md)
 
-  - [Gestion des domaines fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+  - [Gérer les domaines fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
 
-  - [Gestion des fournisseurs fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+  - [Gestion des fournisseurs fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
 
-  - [Gestion des partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
+  - [Gérer les partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
 
   - [Configuration de la prise en charge de la Fédération pour un client Lync Online dans Lync Server 2013](lync-server-2013-configuring-federation-support-for-a-lync-online-customer.md)
 

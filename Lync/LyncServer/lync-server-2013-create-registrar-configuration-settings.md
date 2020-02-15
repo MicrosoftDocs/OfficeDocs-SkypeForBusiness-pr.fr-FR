@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : créer des paramètres de configuration du Bureau d’enregistrement'
+title: 'Lync Server 2013 : création des paramètres de configuration du serveur d’inscriptions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81aec9ee6923dc125769ad16a26390b23155852c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52826d78b4c528437940f0e44bfac4329bcc7b5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Créer des paramètres de configuration du Bureau d’enregistrement dans Lync Server 2013
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Créer des paramètres de configuration du serveur d’inscriptions dans Lync Server 2013
 
 </div>
 
@@ -37,41 +37,41 @@ ms.locfileid: "41763468"
 
 _**Dernière modification de la rubrique :** 2013-03-17_
 
-Vous pouvez utiliser le serveur d’inscriptions avancé pour configurer les méthodes d’authentification du serveur proxy. Le protocole d’authentification que vous spécifiez détermine le type de difficultés que les serveurs du pool posent aux clients. Les protocoles disponibles sont les suivants :
+Vous pouvez utiliser le serveur d’inscriptions pour configurer les méthodes d’authentification de serveur proxy. Le protocole d’authentification que vous spécifiez détermine le type de défis que les serveurs du pool émettent sur les clients. Les protocoles disponibles sont les suivants :
 
-  - **Kerberos**   il s’agit du schéma d’authentification par mot de passe le plus puissant disponible pour les clients, mais uniquement pour les clients d’entreprise, car cela nécessite une connexion client à un centre de distribution de clés (contrôleur de domaine Kerberos). Ce paramètre est adapté si le serveur ne doit authentifier que des clients entreprise.
+  - **Kerberos**   il s’agit du modèle d’authentification par mot de passe le plus puissant disponible pour les clients, mais il est normalement disponible uniquement pour les clients d’entreprise, car il nécessite une connexion client à un centre de distribution de clés (contrôleur de domaine Kerberos). Ce paramètre est approprié si le serveur authentifie uniquement les clients d’entreprise.
 
-  - **NTLM**   il s’agit de l’authentification par mot de passe qui est disponible pour les clients qui utilisent un modèle de hachage de réponse à la demande du mot de passe. C’est la seule forme d’authentification proposée aux clients ne disposant pas d’une connectivité à un centre de distribution des clés (contrôleur de domaine Kerberos), comme les utilisateurs distants. Si un serveur n’authentifie que des utilisateurs distants, vous devez choisir NTLM.
+  - **NTLM**   il s’agit de l’authentification par mot de passe disponible pour les clients qui utilisent un modèle de hachage Challenge-Response sur le mot de passe. Il s’agit de la seule forme d’authentification disponible pour les clients sans connexion à un centre de distribution de clés (contrôleur de domaine Kerberos), comme les utilisateurs distants. Si un serveur authentifie uniquement les utilisateurs distants, vous devez choisir NTLM.
 
-  - **Authentification par**   certificat il s’agit de la nouvelle méthode d’authentification lorsque le serveur doit obtenir des certificats de clients Lync Phone Edition, de téléphones de zone commune, de Lync 2013 et de l’application Lync du Windows Store. Sur les clients Lync Phone Edition, une fois que l’utilisateur s’est connecté et est authentifié par le biais d’un code confidentiel (PIN), Lync Server 2013 configure l’URI SIP sur le téléphone et met en place un certificat signé Lync Server ou un certificat utilisateur qui identifie Joe (par exemple : SN=joe@contoso.com) sur le téléphone. This certificate is used for authenticating with the Registrar and Web Services.
+  - **Authentification de certificat**   il s’agit de la nouvelle méthode d’authentification lorsque le serveur doit obtenir des certificats à partir de clients Lync Phone Edition, de téléphones de partie commune, de Lync 2013 et de l’application Lync Windows Store. Sur les clients Lync Phone Edition, une fois qu’un utilisateur s’est connecté et qu’il est authentifié à l’aide d’un code confidentiel (PIN), Lync Server 2013 met en service l’URI SIP pour le téléphone et procède à la mise en service d’un certificat signé Lync Server ou d’un certificat utilisateur qui identifie Joe (par exemple : SN=joe@contoso.com) sur le téléphone. Ce certificat est utilisé pour l’authentification auprès du serveur d’inscriptions et des services Web.
 
 <div>
 
 
 > [!NOTE]  
-> Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également sur le serveur, Kerberos est utilisé.<BR>Si vous allez utiliser les clients de l’application Lync du Windows Store, vous devez activer l’authentification par certificat.
+> Nous vous recommandons d’activer Kerberos et NTLM lorsqu’un serveur prend à la fois en charge l’authentification des clients distants et d’entreprise. Le serveur Edge et les serveurs internes communiquent pour veiller à ce qu’une authentification NTLM seulement soit proposée aux clients distants. Si seul Kerberos est activé sur ces serveurs, ils ne peuvent pas authentifier les utilisateurs distants. Si des utilisateurs d’entreprise s’authentifient également envers le serveur, Kerberos est utilisé.<BR>Si vous utilisez des clients d’application Lync Windows Store, vous devez activer l’authentification par certificat.
 
 
 
 </div>
 
-Pour créer un serveur d’inscriptions avancé, procédez comme suit.
+Procédez comme suit pour créer un serveur d’inscriptions.
 
 <div>
 
-## <a name="to-create-new-registrar-configuration-settings"></a>Pour créer des paramètres de configuration du serveur d’inscriptions avancé
+## <a name="to-create-new-registrar-configuration-settings"></a>Pour créer des paramètres de configuration du serveur d’inscriptions
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Serveur d’inscriptions avancé**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Serveur d’inscriptions**.
 
-4.  Dans la page **Serveur d’inscriptions avancé**, cliquez sur **Nouveau**.
+4.  Sur la page serveur d' **inscriptions** , cliquez sur **nouveau**
 
-5.  Dans **Sélectionner un service**, cliquez sur le service auquel le serveur d’inscriptions avancé s’appliquera, puis cliquez sur **OK**.
+5.  Dans **Sélectionner un service**, cliquez sur le service auquel le serveur d’inscriptions doit s’appliquer, puis cliquez sur **OK**.
 
-6.  Dans **Nouveau paramètre de serveur d’inscriptions avancé**, sélectionnez un ou plusieurs des éléments ci-dessous selon les fonctionnalités des clients et la prise en charge de votre environnement :
+6.  Dans **paramètre nouveau**serveur d’inscriptions, sélectionnez un ou plusieurs des éléments suivants selon les fonctionnalités des clients et la prise en charge dans votre environnement :
     
       - **Activer l’authentification Kerberos** pour que les serveurs du pool émettent des demandes à l’aide de l’authentification Kerberos.
     

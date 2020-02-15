@@ -12,16 +12,16 @@ ms:contentKeyID: 48183474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53021b37baca7a859c79a6c47bfbf3d587a3466d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a955133dcadfc1966225b643467e5640c81d128
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764014"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-La procédure de migration recommandée et prise en charge pour Lync Server 2013 est une migration côte à côte. Cette rubrique décrit les raisons pour lesquelles vous devez utiliser la migration côte à côte et inclut des informations sur les tests de coexistence.
+La procédure de migration recommandée et prise en charge pour Lync Server 2013 est une migration côte à côte. Cette rubrique décrit les raisons pour lesquelles vous devez utiliser la migration côte à côte et fournit également des informations sur les tests de coexistence.
 
 <div>
 
 ## <a name="side-by-side-migration"></a>Migration côte à côte
 
-Dans presque chaque migration, utilisez le chemin de migration côte à côte. Dans une migration côte à côte, vous déployez un nouveau serveur avec Lync Server 2013 avec un serveur correspondant exécutant Lync Server 2010, puis transférez les opérations sur le nouveau serveur. S’il est nécessaire de revenir à Lync Server 2010, vous ne pouvez pas déplacer les opérations vers les serveurs d’origine. Notez que dans ce cas, toutes les réunions planifiées avec des clients mis à niveau ne fonctionneront pas et les clients devront également être mis à niveau vers une version antérieure.
+Il est recommandé d’appliquer la migration côte à côte dans pratiquement toutes les migrations. Dans une migration côte à côte, vous déployez un nouveau serveur avec Lync Server 2013 avec un serveur correspondant exécutant Lync Server 2010, puis transférez des opérations vers le nouveau serveur. S’il s’avère nécessaire de restaurer Lync Server 2010, vous ne pouvez basculer les opérations vers les serveurs d’origine. Sachez que dans cette situation, toute nouvelle réunion planifiée avec les clients mis à niveau ne fonctionnera pas, et que les clients devront également être rétrogradés.
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a>Tests de coexistence
+## <a name="coexistence-testing"></a>Test de coexistence
 
-Après avoir déployé Lync Server 2013 en parallèle avec Lync Server 2010, le déploiement représente un état de test de coexistence de Lync Server 2013 et de Lync Server 2010. Dans cet État, il est important de tester et de veiller à ce que les services soient démarrés, chaque site peut être administré et les clients peuvent communiquer avec leurs utilisateurs actuels et propriétaires. Avant de procéder à la migration de tous les utilisateurs, il est très important de comprendre l’état de chacun d’eux et de garantir le fonctionnement correct de chaque déploiement. En règle générale, la phase de test de coexistence existe tout au long des tests pilotes de Lync Server 2013. Les utilisateurs hérités sont déplacés vers Lync Server 2013 pendant un certain temps pour garantir que la compatibilité et les fonctionnalités de l’application fonctionnent correctement. Après le test pilote, les utilisateurs et les applications sont déplacés vers la version de production de Lync Server 2013, et les applications et pools hérités de Lync Server 2010 sont obsolètes.
+Une fois que vous avez déployé Lync Server 2013 en parallèle avec Lync Server 2010, le déploiement représente un état de test de coexistence de Lync Server 2013 et Lync Server 2010. Dans cet État, il est important de tester et de vérifier que les services sont démarrés, que chaque site peut être administré et que les clients peuvent communiquer avec les utilisateurs actuels et hérités. Avant la migration de tous les utilisateurs, il est très important de comprendre l’état de chaque déploiement et de veiller à ce que chaque déploiement soit opérationnel et fonctionne correctement. En règle générale, la phase de test de coexistence existe tout au long du test pilote de Lync Server 2013. Les utilisateurs hérités sont déplacés vers Lync Server 2013 pendant une période de temps pour garantir le bon fonctionnement de la compatibilité et des fonctions des applications. Une fois le test pilote effectué, les utilisateurs et les applications sont déplacés vers la version de production de Lync Server 2013, et les pools hérités et les applications de Lync Server 2010 sont supprimés.
 
 </div>
 

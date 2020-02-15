@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création des files d’attente Response Group'
+title: 'Lync Server 2013 : création de files d’attente Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34344654dfc8d2b26a935607111d8fd417d01c19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05c918d9f06bb1b22fd65bcde13e4049a0bab3c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-queues-in-lync-server-2013"></a>Création des files d’attente Response Group dans Lync Server 2013
+# <a name="create-response-group-queues-in-lync-server-2013"></a>Créer des files d’attente Response Group dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763588"
 
 _**Dernière modification de la rubrique :** 2012-01-18_
 
-Les files d’attente contiennent les appelants tant qu’un agent ne répond pas à l’appel. Lorsque l’application de Response Group recherche un agent disponible, elle effectue une recherche dans les groupes d’agents dans l’ordre de leur liste. Vous pouvez sélectionner les groupes d’agents affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple pour limiter le nombre d’appels qui peuvent être maintenus par la file d’attente et la durée pendant laquelle l’agent attend la réponse à l’appel.
+Les files d’attente hébergent les appelants jusqu’à ce qu’un agent réponde à l’appel. Lorsque l’application Response Group recherche un agent disponible, elle recherche les groupes d’agents dans l’ordre dans lequel vous les répertoriez. Vous pouvez sélectionner les groupes d’agents affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple limiter le nombre d’appels que la file d’attente peut conserver et le temps d’attente de l’appel jusqu’à ce qu’un agent réponde à l’appel.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-[Créer ou modifier une file d’attente dans Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
+[Création ou modification d’une file d’attente dans Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
 
 </div>
 

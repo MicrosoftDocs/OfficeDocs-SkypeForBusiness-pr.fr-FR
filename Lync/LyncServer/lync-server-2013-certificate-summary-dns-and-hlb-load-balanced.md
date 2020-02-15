@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des certificats - Équilibrage de charge DNS et matérielle'
+title: 'Lync Server 2013 : Résumé des certificats-équilibrage de charge DNS et charge matérielle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cd6d86844629544b54670eb07c3433d19f99f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44b89f1b305b99d86fd1843ac61625083a5fb51b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736654"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Résumé des certificats - Équilibrage de charge DNS et matérielle dans Lync Server 2013
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Résumé des certificats-charge DNS et charge matérielle équilibrée dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41736654"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Les exigences en matière de certificat pour un directeur avec l’équilibrage de charge DNS et un équilibreur de charge matérielle utilise un certificat par défaut qui comporte un nom de sujet et des noms de remplacement d’objet pour les services que le directeur peut recevoir. Un certificat est demandé pour chaque réalisateur du pool. Il est important de se souvenir que le service d’équilibrage de la charge matérielle ne charge que le trafic du proxy inverse. Par ailleurs, il existe un certificat de jeton OAuth pour les rôles d’authentification de serveur à serveur qui est installé sur chaque serveur.
+Certificate Requirements for a Director with DNS Load Balancing et un programme d’équilibrage de la charge matérielle utiliseront un certificat par défaut dont le nom d’objet et les autres noms de sujet pour les services que le directeur peut recevoir. Un certificat est demandé pour chaque directeur du pool. Il ne faut pas oublier que l’équilibreur de charge matérielle équilibre la charge uniquement pour le trafic du proxy inverse. De plus, un certificat de jeton OAuth pour le processus d’authentification serveur à serveur existe qui est installé sur chaque serveur.
 
-### <a name="certificates-for-director"></a>Certificats pour Director
+### <a name="certificates-for-director"></a>Certificats pour le directeur
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Les exigences en matière de certificat pour un directeur avec l’équilibrage 
 <tr class="header">
 <th>Composant</th>
 <th>Nom du sujet (SN)</th>
-<th>Autres noms d’objet (SAN)</th>
+<th>Autres noms du sujet (SAN)</th>
 <th>Commentaires</th>
 </tr>
 </thead>
@@ -66,10 +66,10 @@ Les exigences en matière de certificat pour un directeur avec l’équilibrage 
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Facultatif) *. contoso.com</p></td>
-<td><p>Les certificats de réalisateur peuvent être demandés auprès d’une autorité de certification (CA) gérée en interne ou auprès d’une autorité de certification publique.</p>
-<p>Le directeur répond aux requêtes du proxy inverse dans le périmètre ou du serveur Edge. Les clients internes n’utiliseront pas le directeur.</p>
-<p>Ou une entrée de caractère générique pour les URL simples</p></td>
+<p>(Facultatif) *.contoso.com</p></td>
+<td><p>Les certificats directeurs peuvent être demandés auprès d’une autorité de certification gérée en interne ou auprès d’une autorité de certification publique.</p>
+<p>Le directeur répond aux demandes du proxy inverse dans le périmètre ou à partir du serveur Edge. Les clients internes n’utiliseront pas le directeur.</p>
+<p>Ou, une entrée de caractère générique pour les URL simples</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
@@ -78,11 +78,11 @@ Les exigences en matière de certificat pour un directeur avec l’équilibrage 
 <td><div>
 
 > [!IMPORTANT]  
-> Notez que la longueur de la clé minimum est de 1024, mais vous pouvez recevoir un avertissement indiquant que la longueur de la clé minimum recommandée est 2048 bits.
+> Notez que la longueur de clé minimale s’élève à 1 024 bits ; toutefois, vous pouvez recevoir un avertissement indiquant que la longueur de clé minimale recommandée s’élève à 2 048 bits.
 
 
 </div>
-<p>Le certificat OAuthTokenIssuer est un certificat à usage unique qui permet d’authentifier des serveurs dans un environnement à grande échelle et qui peut être demandé auprès d’une autorité de certification interne ou d’une autorité de certification publique. Le certificat est requis.</p></td>
+<p>Le certificat OAuthTokenIssuer est un certificat à usage unique qui permet d’authentifier des serveurs dans un environnement à grande échelle ; il peut être demandé auprès d’une autorité de certification interne ou publique. Ce certificat est obligatoire.</p></td>
 </tr>
 </tbody>
 </table>

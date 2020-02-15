@@ -12,16 +12,16 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f866af74117547c279955747c5c3398369465a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727174"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41727174"
 
 _**Dernière modification de la rubrique :** 2012-10-04_
 
-Cette rubrique vous guide dans le processus de suppression d’un pool frontal ou d’un serveur frontal Standard Edition. Lorsque vous supprimez un pool frontal, vous supprimez chaque serveur frontal qui appartient au pool dans le cadre du processus de suppression du pool. Lorsque vous supprimez un serveur frontal Standard Edition, vous devez supprimer la définition du SQL Store du générateur de topologie.
+Cette rubrique vous guide tout au long du processus de suppression d’un pool frontal ou d’un serveur frontal Standard Edition. Lorsque vous supprimez un pool frontal, vous supprimez tous les serveurs frontaux qui appartiennent au pool dans le cadre du processus de suppression du pool. Lorsque vous supprimez un serveur frontal Standard Edition, vous devez supprimer la définition du magasin SQL du générateur de topologies.
 
 <div>
 
-## <a name="to-remove-a-front-end-server-pool"></a>Pour supprimer un pool de serveurs frontal
+## <a name="to-remove-a-front-end-server-pool"></a>Pour supprimer un pool de serveurs frontaux
 
-1.  Ouvrez le générateur de topologie.
+1.  Ouvrez le Générateur de topologie.
 
 2.  Accédez au nœud Lync Server 2010.
 
-3.  Développez **Pools front end Enterprise Edition**, développez le pool frontal, cliquez avec le bouton droit sur le pool frontal que vous voulez supprimer, puis cliquez sur **supprimer**.
+3.  Développez **Pools frontaux Enterprise Edition**, développez le pool frontal, cliquez avec le bouton droit sur le pool frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.
 
 4.  Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Lync Server selon vos besoins.
 
@@ -57,11 +57,11 @@ Cette rubrique vous guide dans le processus de suppression d’un pool frontal o
 
 ## <a name="to-remove-a-standard-edition-front-end-server"></a>Pour supprimer un serveur frontal Standard Edition
 
-1.  Ouvrez le générateur de topologie.
+1.  Ouvrez le Générateur de topologie.
 
 2.  Accédez au nœud Lync Server 2010.
 
-3.  Développez **serveurs front-end standard**, cliquez avec le bouton droit sur le serveur frontal que vous voulez supprimer, puis cliquez sur **supprimer**.
+3.  Développez **serveurs frontaux Standard Edition**, cliquez avec le bouton droit sur le serveur frontal que vous souhaitez supprimer, puis cliquez sur **supprimer**.
 
 4.  Développez **magasins SQL**, cliquez avec le bouton droit sur la base de données SQL Server associée au serveur frontal Standard Edition, puis cliquez sur **supprimer**.
     
@@ -69,7 +69,7 @@ Cette rubrique vous guide dans le processus de suppression d’un pool frontal o
     
 
     > [!IMPORTANT]  
-    > Vous devez supprimer la définition des bases de données SQL Server colocalisées du serveur frontal Standard Edition.
+    > Vous devez supprimer la définition des bases de données SQL Server colocalisées à partir du serveur frontal Standard Edition.
 
     
     </div>

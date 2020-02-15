@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants et topologies pour CAC'
+title: 'Lync Server 2013 : composants et topologies pour CAC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 08b5ad344df748c56173ce36dd9335a3c0719066
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742684"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -47,7 +47,7 @@ Les rubriques de cette section donnent des informations sur les considérations 
 
   - [Contrôle d’admission des appels sur une jonction SIP dans Lync Server 2013](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [Contrôle d’admisson des appels dans Lync Server 2013 avec une passerelle RTC ou un système PBX tiers](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [Contrôle d’admission des appels dans Lync Server 2013 avec une passerelle PSTN ou un PBX tiers](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

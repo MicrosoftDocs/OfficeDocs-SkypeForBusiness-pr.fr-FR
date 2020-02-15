@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé de certification-connectivité de messagerie instantanée publique'
+title: 'Lync Server 2013 : Résumé des certificats-connectivité de messagerie instantanée publique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e2cce89560c885ad04e03c77d0542289221f1ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé de certification-connectivité de messagerie instantanée publique dans Lync Server 2013
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Résumé des certificats-connectivité de messagerie instantanée publique dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41736634"
 
 _**Dernière modification de la rubrique :** 2013-02-19_
 
-Pour configurer des certificats pour la connectivité de messagerie instantanée publique, vous devez d’abord noter qu’il n’y a rien d’autre que d’autres types de Fédération SIP ou même des certificats de serveur Edge standard, à l’exception que America Online (AOL) nécessite une seule configuration de certificat. Outre l’utilisation améliorée de la clé avancée du serveur, America Online nécessite que le ou les certificats (dans le cas d’un pool de périphérie) contiennent également l’utilisation améliorée de l’utilisation du client. L’utilisation améliorée de l’utilisation du client est un ajout du certificat, qui fait partie du certificat public externe affecté à votre serveur Edge.
+Pour configurer des certificats pour la connectivité de messagerie instantanée publique, vous devez tout d’abord remarquer qu’il n’y a rien de différent des autres types de Fédération SIP ou même des certificats de serveur Edge standard, à la seule différence qu’America Online (AOL) requiert un seul configuration du certificat. En plus de l’utilisation avancée de la clé (EKU) du serveur, America Online nécessite le certificat ou les certificats (dans le cas d’un pool de serveurs Edge) pour contenir également l’utilisation améliorée de la clé client. L’EKU client est un complément du certificat et fait partie du certificat public externe attribué à votre serveur Edge.
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Résumé de certification-connectivité de messagerie instantanée publique
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Résumé du certificat – Connectivité PIC (Public IM Connectivity)
 
 
 <table>
@@ -54,25 +54,25 @@ Pour configurer des certificats pour la connectivité de messagerie instantanée
 <thead>
 <tr class="header">
 <th>Composant</th>
-<th>Nom de l’objet</th>
-<th>Autres noms d’objet (SAN)/Order</th>
+<th>Nom du sujet</th>
+<th>Autres noms du sujet (SAN)/Ordre</th>
 <th>Commentaires</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Périphérie externe/accès</p></td>
+<td><p>Serveur Edge externe/d’accès</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces du serveur Edge externe pour les éléments suivants :</p>
+<td><p>Le certificat doit provenir d’une autorité de certification publique et doit disposer de l’utilisation améliorée de l’étendue du serveur et de l’EKU client si la connectivité PIC avec AOL doit être déployée. Le certificat est affecté aux interfaces du serveur Edge externe pour les éléments suivants :</p>
 <ul>
-<li><p>Service Edge d’accès</p></li>
-<li><p>Service Edge de conférence web</p></li>
-<li><p>Service Edge A/V</p></li>
+<li><p>service Edge d’accès</p></li>
+<li><p>service Edge de conférence Web</p></li>
+<li><p>Service Edge A/V</p></li>
 </ul>
-<p>Notez que les San sont automatiquement ajoutés au certificat en fonction de vos définitions dans le générateur de topologie. Vous pouvez ajouter des entrées SAN selon vos besoins pour des domaines SIP supplémentaires et d’autres entrées que vous devez prendre en charge. Le nom du sujet est répliqué sur le SAN et doit être présent pour une opération correcte.</p></td>
+<p>Notez que les autres noms du sujet sont automatiquement ajoutés au certificat en fonction de vos définitions dans le Générateur de topologie. Vous ajoutez des entrées SAN selon les besoins liés aux autres domaines SIP et entrées que vous devez prendre en charge. Le nom du sujet est répliqué dans l’autre nom du sujet et doit être présent pour assurer un fonctionnement correct.</p></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ Pour configurer des certificats pour la connectivité de messagerie instantanée
 ## <a name="see-also"></a>Voir aussi
 
 
-[Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+[Scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
   
 
 </div>

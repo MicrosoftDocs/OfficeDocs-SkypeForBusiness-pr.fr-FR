@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé des certificats - Proxy inverse'
+title: 'Lync Server 2013 : Résumé des certificats-proxy inverse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42e52fa8522de53404fee3f3b5798f159361dbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56da4c10da99a43c3a93f9ae251c2eb6f1536b37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Résumé des certificats - Proxy inverse dans Lync Server 2013
+# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Résumé des certificats-proxy inverse dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41736614"
 
 _**Dernière modification de la rubrique :** 2012-11-14_
 
-Les exigences de certificat pour le proxy inverse sont beaucoup plus simples que celles des serveurs de périphérie. L’organigramme fourni présente les exigences nécessaires. La table associée présente le nom du sujet du certificat standard et les noms de remplacement de l’objet par rapport aux scénarios que nous avons examinés dans les discussions du serveur Edge. Pour plus d’informations sur les scénarios de serveur Edge, voir [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+Les exigences de certificat pour le proxy inverse sont plus simples que celles des serveurs Edge. Le diagramme de flux fourni présente les conditions requises. Le tableau associé présente le nom de sujet du certificat et les autres noms du sujet par rapport aux scénarios que nous avons consultés dans les discussions de serveur Edge. Pour plus d’informations sur les scénarios de serveur Edge, voir [Scenarios for External User Access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-**Diagramme de flux de certificats pour un proxy inverse**
+**Organigramme des certificats pour le proxy inverse**
 
-![Diagramme de certificats pour le serveur Edge](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Diagramme de certificats pour le serveur Edge")
+![Organigramme des certificats pour le serveur Edge](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Organigramme des certificats pour le serveur Edge")
 
 ### <a name="reverse-proxy-external-interface"></a>Proxy inverse : interface externe
 
@@ -55,7 +55,7 @@ Les exigences de certificat pour le proxy inverse sont beaucoup plus simples que
 <thead>
 <tr class="header">
 <th>Composant</th>
-<th>Nom de l’objet</th>
+<th>Nom du sujet</th>
 <th>Autre nom de l’objet (SAN)/Order</th>
 <th>Commentaires</th>
 </tr>
@@ -71,16 +71,16 @@ Les exigences de certificat pour le proxy inverse sont beaucoup plus simples que
 <p>officewebapps01.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>(Facultatif) :*. contoso.com</p></td>
-<td><p>Le certificat doit être émis par une autorité de certification publique et par l’utilisation améliorée du serveur. Services : service de carnet d’adresses, extension de groupe de distribution applications Web Office pour les conférences et règles de publication de périphériques IP Lync. Le nom alternatif de l’objet inclut :</p>
+<td><p>Le certificat doit être émis par une autorité de certification publique et avec l’utilisation améliorée de l’extension serveur. Les services incluent le service de carnet d’adresses, le développement de groupes de distribution Office Web Apps pour les conférences et les règles de publication d’appareils IP Lync. Les autres noms de sujet incluent :</p>
 <ul>
-<li><p>Nom de domaine complet des services Web externes pour le serveur frontal ou le pool frontal</p></li>
-<li><p>Nom de domaine complet des services Web externes pour le directeur ou le pool de réalisateurs</p></li>
+<li><p>Nom de domaine complet externe des services Web pour le serveur frontal ou le pool frontal</p></li>
+<li><p>Nom de domaine complet externe des services Web pour le directeur ou le pool directeur</p></li>
 <li><p>Conférence rendez-vous</p></li>
 <li><p>Règle de publication de réunion en ligne</p></li>
 <li><p>Office Web Apps pour les conférences</p></li>
 <li><p>Lyncdiscover (découverte automatique)</p></li>
 </ul>
-<p>Le caractère générique facultatif remplace les SAN de connexion et de numérotation.</p></td>
+<p>Le caractère générique facultatif remplace le SAN de conférence et de numérotation.</p></td>
 </tr>
 </tbody>
 </table>

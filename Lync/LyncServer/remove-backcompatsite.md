@@ -12,16 +12,16 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7f613f6e96261d256c4c1f15fd2161648eed4fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727194"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,37 +37,37 @@ ms.locfileid: "41727194"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Une fois que tous les pools ont été désactivés et que tous les serveurs Edge ont été désinstallés, exécutez l’Assistant Fusion du générateur de topologie pour supprimer **BackCompatSite**.
+Une fois tous les pools désactivés et tous les serveurs Edge désinstallés, exécutez l’Assistant Fusion du Générateur de topologie pour supprimer **BackCompatSite**.
 
 <div>
 
-## <a name="to-remove-backcompat-site-from-topology-builder"></a>Pour supprimer le site de recompatibilité dans le générateur de topologie
+## <a name="to-remove-backcompat-site-from-topology-builder"></a>Pour supprimer le site BackCompat à partir du Générateur de topologie
 
-1.  Ouvrez un déploiement existant à partir du générateur de topologie.
+1.  Ouvrez un déploiement existant à partir du Générateur de topologie.
 
-2.  Dans le menu **action** , cliquez sur **fusionner la topologie 2007 R2**.
+2.  Dans le menu **Actions**, cliquez sur **Fusionner la topologie 2007 R2**.
 
 3.  Cliquez sur **Suivant** pour continuer.
 
-4.  Dans la page **spécifier le bord hérité** , assurez-vous que la liste des serveurs Edge est vide. S’il ne s’agit pas de la liste, appuyez sur le bouton **supprimer** pour supprimer tous les serveurs de périphérie hérités, puis cliquez sur **suivant**.
+4.  Dans la page **Spécifier la configuration Edge héritée**, vérifiez que la liste des serveurs Edge est vide. Si elle ne l’est pas, utilisez le bouton **Supprimer** pour supprimer tous les serveurs Edge hérités, puis cliquez sur **Suivant**.
     
-    ![Assistant Fusion-topologie-définir la page de configuration du bord](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistant Fusion-topologie-définir la page de configuration du bord")  
+    ![Assistant fusion de topologies, spécifier la page Configuration du serveur Edge](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistant fusion de topologies, spécifier la page Configuration du serveur Edge")  
 
-5.  Dans la page **Specify Internal SIP port Setting** , cliquez sur **Next (suivant**).
+5.  Dans la page **Spécifier le port SIP interne**, cliquez sur **Suivant**.
 
-6.  Dans la page **Résumé** , cliquez sur **suivant** pour commencer à fusionner les topologies afin de supprimer le site hérité.
+6.  Sur la page **Résumé** , cliquez sur **suivant** pour commencer à fusionner les topologies afin de supprimer le site hérité.
 
-7.  Dans la colonne **État** , assurez-vous que la valeur est **succès** , puis cliquez sur **Terminer** pour fermer l’Assistant.
+7.  Dans la colonne **Statut**, vérifiez que la valeur est **Opération réussie**, puis cliquez sur **Terminer** pour fermer l’Assistant.
 
-8.  Dans le volet gauche du générateur de topologie, développez le BackCompatSite et assurez-vous qu’aucun serveur n’est répertorié.
+8.  Dans le volet de gauche du Générateur de topologie, développez BackCompatSite et vérifiez qu’aucun serveur n’est répertorié.
 
-9.  Cliquez avec le bouton droit sur le **BackCompatSite**, puis cliquez sur **supprimer**.
+9.  Cliquez avec le bouton droit sur **BackCompatSite**, puis cliquez sur **Supprimer**.
 
-10. Dans **Générateur de topologie**, sélectionnez le **serveur Lync**le plus en tête de nœud.
+10. Dans le **Générateur de topologie**, sélectionnez le nœud de niveau supérieur **Lync Server**.
 
-11. Dans le menu **action** , sélectionnez la **topologie de publication** , puis cliquez sur **suivant**.
+11. Dans le menu **Action**, sélectionnez **Publier la topologie**, puis cliquez sur **Suivant**.
 
-12. Lorsque l' **Assistant Publication** est terminé, cliquez sur **Terminer** pour fermer l’Assistant.
+12. Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.
 
 </div>
 

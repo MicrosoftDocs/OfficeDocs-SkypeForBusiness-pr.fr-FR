@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration d’intégrité dans Lync Server'
+title: 'Lync Server 2013 : configuration de l’intégrité dans Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a4da3ec3f06dfb573ef7e9422bdd6b751db636
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 831dd021799f658ae9ce332935ff2381e5d79bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733474"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,35 +37,35 @@ ms.locfileid: "41733474"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Entre les différents sites Web, les Articles de la base de connaissances Microsoft et les outils du kit de ressources Lync Server, les administrateurs rencontrant des problèmes d’exécution de Lync Server ne sont jamais loin d’une solution pour résoudre ces problèmes.
+Entre différents sites Web, les Articles de la base de connaissances Microsoft et les outils du kit de ressources Lync Server, les administrateurs qui rencontrent des problèmes lors de l’exécution de Lync Server ne sont pas loin d’un moyen de résoudre ces problèmes.
 
-Évidemment, il n’existe aucun moyen de garantir que vous ne rencontrerez jamais de problèmes avec Lync Server 2013, car Lync Server peut être touché par de nombreux éléments tels que le blocage du réseau et les défaillances matérielles, que le produit lui-même ne peut pas contrôler. En implémentant le contrôle d’intégrité, les administrateurs peuvent identifier les problèmes potentiels avant qu’ils ne deviennent des problèmes réels. Par exemple, les administrateurs peuvent utiliser le contrôle du serveur Lync pour identifier les tendances et tendances des. Par exemple, une augmentation constante du nombre de conférences audio/vidéo peut vous suggérer de devoir ajouter de la capacité avant que le système ne soit surchargé.
+Évidemment, il n’est pas possible de vous assurer que vous ne rencontrerez jamais de problèmes avec Lync Server 2013 car Lync Server peut être affecté par de nombreux éléments, tels que les pannes de réseau et les défaillances matérielles, que le produit lui-même ne peut pas contrôler. En implémentant la surveillance de l’intégrité, les administrateurs peuvent identifier les problèmes potentiels avant de se transformer en problèmes réels. Par exemple, les administrateurs peuvent utiliser la surveillance de Lync Server pour identifier des tendances et des Tendencies. Par exemple, une augmentation constante du nombre de conférences audio/vidéo peut suggérer de devoir ajouter de la capacité avant que le système ne soit surchargé.
 
-De la même façon, les administrateurs peuvent utiliser System Center Operations Manager pour effectuer les actions suivantes lors de l’exécution d’alertes en temps réel lors de l’exécution d’événements spécifiques et de l’exécution de transactions de synthèse qui testent activement le système. Les transactions synthétiques sont utilisées dans Lync Server pour vérifier que les utilisateurs sont en mesure de réaliser des tâches courantes, telles que la connexion au système, l’échange de messages instantanés ou l’appel d’appels vers un téléphone figurant sur le réseau téléphonique public commuté (RTC). Par exemple, l’exécution périodique de ces tests peut vous avertir en cas de problème avec les utilisateurs qui se connectent à Lync Server et vous permet de corriger le problème avant que votre équipe de support ne puisse se connecter. L’utilisation de System Center Operations Manager pour exécuter ces transactions synthétiques peut surveiller régulièrement le déploiement de Lync Server sur 24 heures sur 24 sans avoir à faire beaucoup de choses au-delà de répondre à des alertes qui pourraient être émis.
+De la même manière, les administrateurs peuvent utiliser System Center Operations Manager pour effectuer des alertes en temps réel lorsque des événements spécifiés se produisent, et pour exécuter des transactions synthétiques qui testent le système de manière proactive. Les transactions synthétiques sont utilisées dans Lync Server pour vérifier que les utilisateurs peuvent effectuer correctement des tâches courantes, telles que la connexion au système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RTC). Par exemple, l’exécution périodique de ces tests peut vous avertir en cas de problème avec les utilisateurs qui se connectent à Lync Server, et vous donner la possibilité de corriger le problème avant que votre équipe de support ne soit saturée d’appels provenant d’utilisateurs incapables d’établir une connexion. À l’aide de System Center Operations Manager pour exécuter ces transactions synthétiques, les administrateurs peuvent surveiller régulièrement leur déploiement de Lync Server en continu pendant 24 heures sur 24, sans avoir à effectuer une grande partie des alertes pouvant être émis.
 
 <div>
 
 
 > [!NOTE]  
-> Pour Lync Server 2013, le pack d’administration pour System Center Operations Manager est également capable de détecter les problèmes « externes » qui peuvent avoir un impact sur Lync Server. Par exemple, les administrateurs peuvent être avertis si Internet Information Services (IIS) se déconnecte, les ressources système sur un ordinateur Lync Server sont inférieures à un certain nombre de ressources ou un ordinateur serveur Lync rencontre une défaillance matérielle.
+> Pour Lync Server 2013, le pack d’administration de System Center Operations Manager peut également détecter les problèmes « externes » susceptibles d’avoir un impact négatif sur Lync Server. Par exemple, les administrateurs peuvent être avertis si les services Internet (IIS) se déconnectent, les ressources système sur un ordinateur Lync Server descendent en dessous d’une quantité spécifiée, ou un ordinateur Lync Server rencontre une défaillance matérielle.
 
 
 
 </div>
 
-La configuration de l’intégrité de Lync Server 2013 est basée sur System Center Operations Manager et sur l’utilisation des packs de gestion de Lync Server. Les packs d’administration suivants incluent un certain nombre de nouvelles fonctionnalités et améliorations, notamment :
+La configuration de l’intégrité dans Lync Server 2013 est basée sur System Center Operations Manager et sur l’utilisation des packs d’administration Lync Server. Ces packs d’administration incluent un certain nombre de nouvelles fonctionnalités et d’améliorations, notamment :
 
-  - **Disponibilité des scénarios à partir de n’importe quel emplacement.** Le pack d’administration de Lync Server 2010 a présenté le concept de surveillance de la disponibilité des scénarios des utilisateurs finaux aux transactions synthétiques. Dans Lync Server 2013, ces agents ont plus de transactions synthétiques et peuvent être exécutés à partir de différents emplacements au sein de l’entreprise, d’emplacements géographiques distants en dehors de l’entreprise, d’appareils de succursale et de Lync Server 2010 les déploiements permettent d’ajouter une couverture aux déploiements de bords anciens.
+  - **Disponibilité des scénarios à partir de n’importe quel emplacement.** Le pack d’administration Lync Server 2010 a introduit le concept de surveillance de la disponibilité des scénarios des utilisateurs finaux avec les transactions synthétiques. Dans Lync Server 2013, ces agents ont plus de transactions synthétiques et peuvent être exécutés à partir d’un grand nombre d’emplacements à l’intérieur de l’entreprise, à partir d’emplacements géographiques distants en dehors de l’entreprise, sur des appareils de succursale et sur Lync Server 2010 les déploiements pour ajouter la couverture aux déploiements de serveurs Edge hérités.
 
-  - **Journaux de transactions synthétiques.** En cas d’échec d’une transaction synthétique, les administrateurs ont accès aux journaux HTML pour vous aider à déterminer les échecs. Il s’agit notamment de savoir quelle action a échoué, la latence de chaque action, la ligne de commande utilisée pour exécuter le test et l’erreur rencontrée.
+  - **Journaux de transactions synthétiques.** Lorsqu’une transaction synthétique échoue, les administrateurs ont accès aux journaux HTML afin de déterminer ce qui a échoué. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur rencontrée.
 
-  - **Meilleure couverture de la fiabilité des appels.** Le pack d’administration de Lync Server 2010 a présenté une alerte de fiabilité des appels pour détecter des problèmes de connectivité importants qui affectent les appels audio des utilisateurs finaux. Les packs d’administration de Lync Server 2013 ajoutent une couverture pour la messagerie instantanée et d’autres fonctions de base pour la couverture tout en réduisant le bruit.
+  - **Couverture accrue des appels.** Le pack d’administration Lync Server 2010 a introduit les alertes de fiabilité des appels pour détecter les problèmes de connectivité graves affectant les appels audio des utilisateurs finaux. Les packs d’administration Lync Server 2013 ajoutent une couverture pour la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence de base pour maximiser la couverture tout en réduisant le bruit.
 
-  - **Analyse des dépendances.** Les scénarios Lync Server peuvent échouer en raison d’un large éventail de facteurs externes tels que les services Internet (IIS) qui sont déconnectés, les ressources de mémoire et d’UC limitées, et les problèmes de disque. Les nouveaux packs de gestion vérifient plusieurs dépendances critiques pour s’assurer que les administrateurs connaissent leurs répercussions.
+  - **Surveillance des dépendances.** Les scénarios Lync Server peuvent échouer en raison d’un certain nombre de facteurs externes, tels que les services Internet (IIS) hors connexion, les ressources de mémoire et de processeur limitées, ainsi que les problèmes de disque. Les nouveaux packs d’administration vérifient plusieurs dépendances critiques afin de s’assurer que les administrateurs connaissent leur impact.
 
-  - **Rapports améliorés.** Un ensemble de rapports permettant aux administrateurs d’évaluer la disponibilité des scénarios, de planifier la capacité et de voir quels composants rencontrent le plus de problèmes.
+  - **Création de rapports améliorée.** Ensemble de rapports permettant aux administrateurs d’estimer la disponibilité des scénarios, de planifier la capacité et de voir les composants qui rencontrent le plus de problèmes.
 
-Les packs de gestion incluent également diverses fonctionnalités qui permettent de détecter et de diagnostiquer une visibilité en temps réel dans le déploiement de Lync Server. Ces fonctionnalités sont indiquées dans le tableau suivant.
+Les packs d’administration incluent également un grand nombre de fonctionnalités pour vous aider à détecter et à diagnostiquer une visibilité en temps réel sur l’état de votre déploiement Lync Server. Ces fonctions sont répertoriées dans le tableau suivant.
 
 ### <a name="management-pack-features"></a>Fonctionnalités du pack d’administration
 
@@ -83,45 +83,45 @@ Les packs de gestion incluent également diverses fonctionnalités qui permetten
 <tbody>
 <tr class="odd">
 <td><p>Transactions synthétiques</p></td>
-<td><p>Les applets de connexion Windows PowerShell peuvent être exécutées à partir de différents emplacements pour s’assurer que les scénarios utilisateur finaux tels que la connexion, la présence, la messagerie instantanée et les conférences sont facilement accessibles aux utilisateurs finaux.</p></td>
+<td><p>Applets de commande Windows PowerShell pouvant être exécutées à partir de différents emplacements afin de s’assurer que les scénarios d’utilisateur final, tels que la connexion, la présence, la messagerie instantanée et la Conférence, sont immédiatement disponibles pour les utilisateurs finaux.</p></td>
 </tr>
 <tr class="even">
 <td><p>Alertes de fiabilité des appels</p></td>
-<td><p>Requêtes de base de données pour les enregistrements des détails des appels (CDR). Ces enregistrements sont écrits par des serveurs frontaux pour indiquer si les utilisateurs finaux étaient en mesure de se connecter à un appel ou la fin d’un appel. Ces requêtes génèrent des alertes indiquant qu’un grand nombre d’utilisateurs finaux rencontrent des problèmes de connectivité pour les appels d’égal à égal ou les fonctionnalités de conférence de base.</p></td>
+<td><p>Requêtes de base de données pour les enregistrements des détails des appels (CDR). Ces enregistrements sont écrits par les serveurs frontaux pour indiquer si les utilisateurs finaux ont pu se connecter à un appel ou la raison de l’arrêt d’un appel. Ces requêtes génèrent des alertes qui indiquent quand un grand nombre d’utilisateurs finaux rencontrent des problèmes de connectivité pour les appels P2P ou les fonctionnalités de conférence de base.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Alertes de qualité multimédia</p></td>
-<td><p>Requêtes de base de données qui observent les rapports de qualité d’expérimentation (QoE) publiés par les clients à la fin de chaque appel. Ces requêtes génèrent des alertes qui identifient les scénarios dans lesquels les utilisateurs risquent de rencontrer des problèmes de qualité de média lors des appels et des conférences. Les données sont bâties sur des indicateurs clés, comme la latence et la perte de paquets, des métriques connues pour contribuer directement à la qualité des appels.</p></td>
+<td><p>Alertes de qualité des médias</p></td>
+<td><p>Requêtes de base de données qui examinent les rapports de qualité de l’expérience publiés par les clients à la fin de chaque appel. Ces requêtes génèrent des alertes qui identifient les scénarios dans lesquels les utilisateurs sont susceptibles de rencontrer des problèmes de qualité des médias pendant les appels et les conférences. Les données sont basées sur des mesures clés, telles que la latence et la perte de paquets, qui sont connues pour contribuer directement à la qualité des appels.</p></td>
 </tr>
 <tr class="even">
-<td><p>État du composant</p></td>
-<td><p>Les composants serveur individuels déclenchent des alertes à l’aide de journaux d’événements et de compteurs de performance. Ces alertes indiquent des conditions d’échec qui peuvent avoir un impact important sur un ou plusieurs scénarios utilisateur finaux. Ces alertes peuvent également indiquer un grand nombre de conditions d’échec, y compris les services qui ne sont pas en cours d’exécution, les taux d’échec élevés, la latence des messages importants ou les problèmes de connectivité.</p></td>
+<td><p>Intégrité des composants</p></td>
+<td><p>Les composants serveur individuels déclenchent des alertes à l’aide de journaux d’événements et de compteurs de performance. Ces alertes indiquent des conditions d’échec qui peuvent sérieusement affecter un ou plusieurs scénarios d’utilisateur final. Ces alertes peuvent également indiquer diverses autres conditions d’échec, notamment les services non exécutés, les taux d’échec élevés, la latence de messages élevée ou des problèmes de connectivité.</p></td>
 </tr>
 <tr class="odd">
-<td><p>État de dépendance</p></td>
-<td><p>Des échecs peuvent se produire pour diverses raisons externes. Les packs de gestion contrôlent et recueillent désormais des données pour certaines des dépendances externes critiques susceptibles d’indiquer des problèmes importants, y compris la disponibilité d’IIS, l’utilisation du processeur et de la mémoire de serveurs et de processus, et des métriques de disque.</p></td>
+<td><p>Intégrité des dépendances</p></td>
+<td><p>Des échecs peuvent se produire pour diverses raisons externes. Les packs d’administration surveillent et collectent des données pour certaines dépendances externes critiques susceptibles d’indiquer des problèmes sérieux, notamment la disponibilité des services Internet, l’utilisation du processeur et de la mémoire des serveurs et des processus, ainsi que les mesures de disque.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Les alertes émises par le système sont classées en trois catégories générales :
+Les alertes émises par le système ont été classées en trois catégories générales :
 
-  - **Alertes à priorité élevée.** Ces alertes indiquent des conditions qui engendreront des interruptions de service pour de grands groupes d’utilisateurs. Par exemple, une défaillance de composant sur un seul ordinateur n’est pas une alerte de priorité élevée, car Lync Server 2013 inclut des fonctionnalités de haute disponibilité intégrées. Au lieu de cela, les alertes de priorité élevée représentent des problèmes importants» pour réactiver les administrateurs de la journée.» Les pannes détectées par les transactions synthétiques et les services hors connexion (par exemple, les conférences audio/vidéo) sont éligibles en tant qu’alertes à priorité élevée.
+  - **Alertes à priorité élevée.** Ces alertes indiquent les conditions qui provoquent des pannes de service pour des groupes d’utilisateurs importants. Par exemple, une défaillance de composant sur un seul ordinateur n’est pas une alerte de haute priorité, car Lync Server 2013 possède des fonctionnalités de haute disponibilité intégrées. Au lieu de cela, les alertes de haute priorité représentent des problèmes assez graves» pour réveiller les administrateurs la nuit. Les pannes détectées par les transactions synthétiques et les services hors ligne (par exemple, conférence audio/vidéo) sont considérées comme des alertes de haute priorité.
 
-  - **Alertes de priorité moyenne.**.. Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent la dégradation de la qualité d’appel. Cela inclut les problèmes tels que les défaillances de composant, la latence dans l’établissement d’appel ou la qualité audio détériorée lors d’un appel. Les alertes de cette catégorie sont avec état et indiquent l’état actuel du problème. Par exemple, supposons que la durée de votre établissement d’appel dépasse le seuil d’alerte. Si les heures d’établissement d’appel retournent à normal, ces alertes sont résolues automatiquement dans System Center Operations Manager. Le préversion de ces alertes est qu’un administrateur le verra sur la même journée de travail.
+  - **Alertes de priorité moyenne.**. Ces alertes indiquent les conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent une dégradation de la qualité des appels. Cela inclut des problèmes comme les défaillances de composants, la latence dans l’établissement d’appel ou la qualité audio dégradée dans l’appel. Les alertes de cette catégorie sont avec état et indiquent l’état actuel du problème. Par exemple, supposons que les heures d’établissement de votre appel dépassent le seuil d’alerte. Si les heures d’établissement d’appel reviennent à la normale, ces alertes seront résolues automatiquement dans System Center Operations Manager. L’attente de ces alertes est qu’un administrateur les consultera le même jour ouvré.
 
-  - **Autres alertes.** Il s’agit d’alertes provenant de composants susceptibles d’affecter un utilisateur ou un sous-ensemble d’utilisateurs spécifiques. Par exemple, il est possible que le service de carnet d’adresses ne puisse pas analyser l’entrée Active Directory d’un utilisateur donné. L’attente de ces alertes est que les administrateurs y accrire lorsque le temps est disponible.
+  - **Autres alertes.** Il s’agit d’alertes provenant de composants susceptibles d’affecter un utilisateur spécifique ou un sous-ensemble d’utilisateurs. Par exemple, le service de carnet d’adresses n’a peut-être pas pu analyser l’entrée Active Directory d’un utilisateur donné. L’attente de ces alertes est que les administrateurs y accéderont lorsqu’ils auront le temps de se rendre disponible.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration de Lync Server 2013 pour fonctionner avec System Center Operations Manager](lync-server-2013-configuring-lync-server-to-work-with-system-center-operations-manager.md)
+  - [Configuration de Lync Server 2013 pour qu’il fonctionne avec System Center Operations Manager](lync-server-2013-configuring-lync-server-to-work-with-system-center-operations-manager.md)
 
-  - [Utilisation de la journalisation détaillée pour les transactions synthétiques dans Lync Server 2013](lync-server-2013-using-rich-logging-for-synthetic-transactions.md)
+  - [Utilisation d’une journalisation enrichie pour les transactions synthétiques dans Lync Server 2013](lync-server-2013-using-rich-logging-for-synthetic-transactions.md)
 
-  - [Utilisation de Microsoft SQL Server 2008 R2 en tant que base de données Gestionnaire d’opérations System Center pour Lync Server 2013](lync-server-2013-using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database.md)
+  - [Utilisation de Microsoft SQL Server 2008 R2 comme base de données System Center Operations Manager pour Lync Server 2013](lync-server-2013-using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database.md)
 
 </div>
 

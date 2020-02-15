@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : afficher les informations du code confidentiel d’utilisateur'
+title: 'Lync Server 2013 : afficher les informations du code confidentiel de l’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1e6f8e12e7b6d2dde684a4cf558eec0ece216a9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b338691813980130d60cd5424cc87dd9d0220f5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41757378"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur de Lync Server 2013 avec les informations d’identification d’AD DS (Active Directory Domain Services) nécessite un code confidentiel (PIN). Vous pouvez afficher les informations du code confidentiel d’un utilisateur à partir du panneau de configuration de Lync Server 2013.
+Pour joindre une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur Lync Server 2013 avec les informations d’identification des services de domaine Active Directory (AD DS) nécessite un code confidentiel (PIN). Vous pouvez afficher les informations de code confidentiel d’un utilisateur à partir du panneau de configuration Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent, par exemple, si le code confidentiel a été défini ou lorsqu’il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu son code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans la rubrique <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">définir le code confidentiel de conférence rendez-vous d’un utilisateur dans Lync Server 2013</A>
+> Vous pouvez afficher les informations de statut du code confidentiel, qui indiquent par exemple si le code confidentiel a été défini ou quand il a été modifié pour la dernière fois, mais vous ne pouvez pas voir le code confidentiel actif en consultant le statut de ce dernier. Si un utilisateur a perdu son code confidentiel, vous pouvez le réinitialiser en suivant les procédures décrites dans <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">définir le code confidentiel de la Conférence rendez-vous d’un utilisateur dans Lync Server 2013</A>
 
 
 
@@ -51,29 +51,29 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 <div>
 
-## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a>Pour afficher le code confidentiel d’un utilisateur dans le panneau de configuration de Lync Server
+## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a>Pour afficher le code confidentiel d’un utilisateur dans le panneau de configuration Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
 4.  Recherchez un utilisateur à l’aide de l’une des méthodes suivantes :
     
-      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP (Session Initiation Protocol) ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
+      - Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP ou de l’URI de ligne du compte d’utilisateur, puis cliquez sur **Rechercher**.
     
-      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour rechercher la requête (un fichier .usf).
+      - Si vous avez enregistré une requête, cliquez sur l’icône **Ouvrir une requête**, puis sur **Rechercher** dans la boîte de dialogue **Ouvrir** pour localiser la requête (un fichier .usf).
 
 5.  (Facultatif) Indiquez des critères de recherche supplémentaires pour affiner les résultats :
     
     1.  Cliquez sur **Ajouter un filtre**.
     
-    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche de la liste déroulante.
+    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
     
-    3.  Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Différent de**).
+    3.  Dans la liste déroulante **Égal à**, cliquez sur l’opérateur (par exemple, **Égal à** ou **Pas égal à**).
     
-    4.  Selon la propriété utilisateur sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche de la liste déroulante.
+    4.  Selon la propriété utilisateur que vous avez sélectionnée, entrez le critère que vous souhaitez utiliser pour filtrer les résultats de recherche en le tapant ou en cliquant sur la flèche dans la liste déroulante.
         
         <div>
         
@@ -101,19 +101,19 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 <div>
 
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de code confidentiel utilisateur à l’aide des cmdlets Windows PowerShell
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de code confidentiel de l’utilisateur à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Vous pouvez afficher les informations relatives au code confidentiel de l’utilisateur à l’aide de l’applet de commande Get-CsClientPinInfo. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
 ## <a name="to-view-user-pin-information"></a>Pour afficher les informations relatives au code confidentiel de l’utilisateur
 
-  - Pour afficher les informations de code confidentiel d’un utilisateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée :
+  - Pour afficher les informations de code confidentiel d’un utilisateur, tapez une commande semblable à la suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
-    Vous obtiendrez des indications semblables à ceci :
+    Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
         Identity          : sip:kenmyer@litwareinc.com
         IsPinSet          : False
@@ -123,7 +123,7 @@ Vous pouvez afficher les informations relatives au code confidentiel de l’util
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Get-applet csconferencedisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) .
 
 </div>
 
@@ -133,7 +133,7 @@ Pour plus d’informations, consultez la rubrique d’aide de l’applet de pass
 
 
 [Définir le code confidentiel de conférence rendez-vous d’un utilisateur dans Lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
-[Verrouiller ou déverrouiller un code confidentiel d’utilisateur dans Lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)  
+[Verrouillage ou déverrouillage du code confidentiel d’un utilisateur dans Lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)  
   
 
 </div>

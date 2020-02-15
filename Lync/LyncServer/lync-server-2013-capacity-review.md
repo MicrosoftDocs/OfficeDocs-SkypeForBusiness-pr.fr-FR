@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : examen de la capacité'
+title: 'Lync Server 2013 : révision de la capacité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bf9aa2a8246f9f639a33381d7bcfa790df0cffb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736974"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-review-in-lync-server-2013"></a>Examen de la capacité dans Lync Server 2013
+# <a name="capacity-review-in-lync-server-2013"></a>Révision de la capacité dans Lync Server 2013
 
 </div>
 
@@ -37,14 +37,14 @@ ms.locfileid: "41736974"
 
 _**Dernière modification de la rubrique :** 2014-05-20_
 
-Passez en revue les chiffres de capacité pour le mois précédent et Élaborez un plan pour les mises à niveau éventuellement nécessaires dans les prochains mois afin de préserver le fonctionnement du système dans les limites spécifiées par les SLA de votre organisation.
+Passez en revue les chiffres de capacité pour le mois précédent et Élaborez un plan pour les mises à niveau pouvant être nécessaires dans les prochains mois afin de maintenir le système opérationnel dans les limites spécifiées par les accords SLA de votre organisation.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Utiliser le calculateur de planification de capacité pour Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
+[Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
 
 
 [Planification de la capacité pour Lync Server 2013](lync-server-2013-capacity-planning.md)  

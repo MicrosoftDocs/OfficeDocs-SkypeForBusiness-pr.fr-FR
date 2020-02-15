@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Installation du magasin de configurations local'
+title: 'Lync Server 2013 : installation du magasin de configurations local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4af6d4b6dfe203f69a6b104b6ade636d2658178
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 00b4ffc463412064b578938516c4ea33b0dbb663
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Installation du magasin de configurations local dans Lync Server 2013
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Installer le magasin de configurations local dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41726184"
 
 _**Dernière modification de la rubrique :** 2014-06-27_
 
-Avant de procéder à ces étapes, assurez-vous que vous êtes connecté au serveur à l’aide d’un compte d’utilisateur de domaine qui est un administrateur local et un membre du groupe RTCUniversalReadOnlyAdmin.
+Avant de suivre ces étapes, vérifiez que vous êtes connecté au serveur avec un compte d’utilisateur de domaine qui est à la fois un administrateur local et un membre du groupe RTCUniversalReadOnlyAdmin.
 
-Pour pouvoir utiliser l’Assistant Déploiement de Lync Server, le magasin de configuration local doit exister sur un serveur. Le magasin de configuration local est une copie en lecture seule du magasin de gestion central, qui est créée après l’installation locale de SQL Server Express. Le magasin de gestion central proprement dit est ajouté à la base de données SQL Server existante qui est installé sur la base de données SQL Server Standard Server ou SQL Server Express.
+Pour pouvoir faire quoi que ce soit avec l’Assistant Déploiement Lync Server, nous avons besoin que le magasin de configuration local existe sur un serveur. Le magasin de configurations local est une copie en lecture seule du magasin central de gestion, qui est créée après l’installation locale de SQL Server Express. Le magasin central de gestion lui-même est ajouté à la base de données SQL Server existante installée sur le serveur Standard Edition ou la base de données SQL Server Express.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si vous n’avez pas encore exécuté le programme d’installation de Lync Server 2013 sur ce serveur, vous serez invité à entrer un lecteur et un chemin d’accès pour installer Lync Server 2013. Cela vous permettra de procéder à l’installation sur un lecteur autre que le lecteur système, si votre organisation l’exige, ou si vous avez des problèmes d’espace. Dans la boîte de dialogue d’installation, il vous suffit de changer le chemin d’accès d’installation pour les fichiers du serveur Lync vers un nouveau lecteur disponible. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, le reste des fichiers Lync Server 2013 y sera également déployé.
+> Si vous n’avez pas encore exécuté le programme d’installation de Lync Server 2013 sur ce serveur, vous serez invité à indiquer un lecteur et un chemin d’accès pour installer Lync Server 2013. Cela vous permettra d’effectuer l’installation sur un lecteur autre que le lecteur système, si votre organisation l’exige ou si vous avez des préoccupations en matière d’espace. Vous pouvez simplement modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server dans la boîte de dialogue d’installation avec un nouveau lecteur disponible. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, le reste des fichiers Lync Server 2013 se déploiera également.
 
 
 
@@ -53,23 +53,23 @@ Pour pouvoir utiliser l’Assistant Déploiement de Lync Server, le magasin de c
 
 <div>
 
-## <a name="to-install-the-local-configuration-store"></a>Pour installer le magasin de configuration local
+## <a name="to-install-the-local-configuration-store"></a>Pour installer le magasin de configurations local
 
-1.  À partir de votre support d’installation \\,\\accédez\\à Setup. exe. exe, puis cliquez sur **OK**.
+1.  À partir de votre support d’installation \\,\\naviguez jusqu’à Setup amd64\\Setup. exe, puis cliquez sur **OK**.
 
-2.  Si vous êtes invité à installer Microsoft Visual C++ 2012 redistribuable, cliquez sur **Oui**.
+2.  Si vous êtes invité à installer Microsoft Visual C++ 2012 Redistributable, cliquez sur **Oui**.
 
-3.  Dans la page de l’emplacement de l' **installation de Lync Server 2013** , cliquez sur **OK**.
+3.  Sur la page **emplacement d’installation de Lync Server 2013** , cliquez sur **OK**.
 
-4.  Sur la page **contrat de licence utilisateur final** , passez en revue les termes du contrat de licence, vous devez sélectionner **J’accepte les conditions du contrat de licence**, puis cliquez sur **OK** pour pouvoir continuer.
+4.  Dans la page **contrat de licence utilisateur final** , lisez les termes du contrat de licence, vous devez sélectionner **J’accepte les termes du contrat de licence**, puis cliquer sur **OK** pour pouvoir continuer.
 
-5.  Dans la page de l’Assistant Déploiement, cliquez sur **installer ou mettre à jour le système serveur Lync**.
+5.  Sur la page Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Lync Server**.
 
-6.  Sur la page **Lync Server 2013** , à côté de la page **étape suivante : installer le magasin de configuration local**, cliquez sur **exécuter**.
+6.  Sur la page **Lync Server 2013** , en regard de **étape 1 : installer le magasin de configurations local**, cliquez sur **exécuter**.
 
-7.  Dans la page **Installer le magasin de configurations local**, assurez-vous que l’option **Récupérer directement à partir du magasin central de gestion** est sélectionnée, puis cliquez sur **Suivant**.
+7.  Sur la page **installer le magasin de configurations local** , assurez-vous que l’option **récupérer directement à partir du magasin central de gestion** est sélectionnée, puis cliquez sur **suivant**.
 
-8.  Lorsque l’installation de configuration du serveur local est terminée, cliquez sur **Terminer**.
+8.  Une fois l’installation de la configuration du serveur local terminée, cliquez sur **Terminer**.
 
 </div>
 

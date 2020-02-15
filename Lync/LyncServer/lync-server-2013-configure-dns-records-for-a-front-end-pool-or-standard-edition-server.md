@@ -1,5 +1,5 @@
 ---
-title: Configuration des enregistrements DNS pour un pool frontal ou un serveur Standard Edition
+title: Configurer des enregistrements DNS pour un pool frontal ou un serveur Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755968"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Configuration des enregistrements DNS dans Lync Server 2013 pour un pool frontal ou un serveur Standard Edition
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Configurer des enregistrements DNS dans Lync Server 2013 pour un pool frontal ou un serveur Standard Edition
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41755968"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Lync Server 2013 utilise le DNS (Domain Name System) pour enregistrer et gérer les enregistrements de façon à ce qu’ils aient un nom de domaine approprié pour la résolution d’adresse IP. Vous devez configurer les enregistrements DNS requis pour votre déploiement avant d’utiliser le serveur Standard Edition ou le pool frontal. Les liens suivants vous aideront à définir les enregistrements nécessaires à la création du bon fonctionnement de Lync Server 2013.
+Lync Server 2013 utilise le système DNS (Domain Name System) pour enregistrer et gérer les enregistrements pour un nom de domaine approprié à la résolution d’adresse IP. Vous devez configurer les enregistrements DNS requis pour votre déploiement avant d’utiliser le serveur Standard Edition ou le pool frontal. Les liens suivants fournissent des instructions sur les enregistrements qui doivent être créés pour permettre le bon fonctionnement de Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration du DNS pour l’équilibrage de charge dans Lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [Configurer le DNS pour l’équilibrage de charge dans Lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [Configuration des enregistrements hôte DNS pour Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
+  - [Configuration des enregistrements d’hôte DNS pour Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
 
-  - [Création et vérification des enregistrements SRV DNS dans Lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [Créer et vérifier des enregistrements SRV DNS dans Lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

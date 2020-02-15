@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets droits d’utilisateur et autorisations'
+title: 'Lync Server 2013 : applets de commande de droits et d’autorisations d’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85f99cbaf6c2a3b61e6437ec573d7e5800b73b72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744464"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Cmdlets droits d’utilisateur et autorisations dans Lync Server 2013
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Applets de commande droits et autorisations des utilisateurs dans Lync Server 2013
 
 </div>
 
@@ -37,57 +37,57 @@ ms.locfileid: "41744464"
 
 _**Dernière modification de la rubrique :** 2012-06-26_
 
-Les applets de commande d’autorisation de l’utilisateur servent essentiellement à gérer le contrôle d’accès basé sur les rôles (RBAC), la nouvelle technologie permettant de déléguer le contrôle administratif de Microsoft Lync Server 2013.
+Les cmdlets d’autorisation de l’utilisateur sont principalement utilisées pour gérer le contrôle d’accès basé sur un rôle (RBAC), la nouvelle technologie pour la délégation du contrôle administratif de Microsoft Lync Server 2013.
 
 <div>
 
-## <a name="user-permission-cmdlets"></a>Cmdlets d’autorisation de l’utilisateur
+## <a name="user-permission-cmdlets"></a>Applets de commande des autorisations des utilisateurs
 
-Voici une liste des applets de commande qui sont associées directement à la gestion des autorisations des utilisateurs :
+La liste suivante indique les applets de commande directement associées à la gestion des autorisations des utilisateurs :
 
 **Autorisations des utilisateurs**
 
   - <span></span>  
-    [Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
+    [Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [Nouveau-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
+    [New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
+    [Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
+    [Set-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
 
   - <span></span>  
-    [Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
+    [Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
+    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
+    [Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
+    [Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
+    [Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
+    [Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
+    [Revoke-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+    [Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 </div>
 

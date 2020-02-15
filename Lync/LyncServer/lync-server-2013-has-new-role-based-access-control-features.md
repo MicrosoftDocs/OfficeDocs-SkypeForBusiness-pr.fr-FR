@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 comporte des nouvelles fonctionnalités de contrôle d’accès basé sur un rôle
+title: Lync Server 2013 dispose de nouvelles fonctionnalités de contrôle d’accès basées sur les rôles
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41727794"
 
 _**Dernière modification de la rubrique :** 2012-09-20_
 
-Lync Server 2013 améliore la fonctionnalité de contrôle d’accès basée sur les rôles de deux manières principales. Vous pouvez désormais créer des rôles personnalisés, qui disposent chacun de privilèges pour un ensemble d’applets de cmdlet que vous spécifiez. Ces rôles personnalisés peuvent également disposer de privilèges pour exécuter des scripts d’applets de cmdlet.
+Lync Server 2013 améliore la fonctionnalité de contrôle d’accès basé sur un rôle (RBAC) de deux manières principales. Vous pouvez désormais créer des rôles personnalisés, n’ayant chacun des privilèges que pour l’ensemble d’applets de commande que vous spécifiez. Ces rôles personnalisés peuvent également se voir accorder le droit d’exécuter des scripts d’applets de commande.
 
-Par ailleurs, Lync Server 2013 inclut deux nouveaux rôles prédéfinis.
+De plus, Lync Server 2013 inclut deux nouveaux rôles prédéfinis.
 
-  - Les utilisateurs disposant du rôle *responsable de groupe de réponse* peuvent gérer des files d’attente de groupe de réponse spécifiques au sein de votre organisation, mais pas nécessairement des droits de gestion pour d’autres files d’attente ou l’application de groupe de réponses dans son intégralité.
+  - Les utilisateurs auxquels le rôle *Gestionnaire Response Group* est accordé peuvent gérer des files d’attente Response Group spécifiques au sein de votre organisation, sans nécessairement bénéficier de droits de gestion pour d’autres files d’attente ou pour l’application Response Group dans son intégralité.
 
-  - Les utilisateurs disposant du rôle de *Gestionnaire de chat permanent* peuvent gérer des salles de conversation permanentes spécifiques au sein de votre organisation, mais pas nécessairement des droits de gestion pour les autres pièces ou la fonctionnalité de conversation permanente dans son intégralité.
+  - Les utilisateurs disposant du rôle de *Gestionnaire de conversation permanente* peuvent gérer des salles de conversation permanente spécifiques au sein de votre organisation, mais pas nécessairement des droits de gestion pour d’autres salles ou la fonctionnalité de conversation permanente dans son ensemble.
 
 <div>
 

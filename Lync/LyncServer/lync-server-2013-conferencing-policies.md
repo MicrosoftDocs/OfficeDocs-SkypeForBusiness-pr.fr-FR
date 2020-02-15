@@ -12,16 +12,16 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96d1d9ed6fc0ad75e316a41ef7939f36ecaba354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bf77ff67167b6d3e66ff70b9db5b00dad09b96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741484"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41741484"
 
 _**Dernière modification de la rubrique :** 2012-09-18_
 
-La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion). Les paramètres d’une stratégie de conférence englobent une grande variété d’options de planification et de participation, notamment la possibilité d’utiliser des fonctions audio et vidéo IP dans une réunion et de déterminer le nombre maximal de participants. Les administrateurs peuvent utiliser une stratégie de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion). Les paramètres d’une stratégie de conférence englobent une grande variété d’options de planification et de participation, notamment la possibilité d’utiliser des fonctions audio et vidéo IP dans une réunion et de déterminer le nombre maximal de participants. Les administrateurs peuvent utiliser une stratégie de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
 
-Vous pouvez définir une stratégie de conférence sur trois niveaux : étendue globale, étendue de site et étendue d’utilisateur. Les paramètres s’appliquent à un utilisateur spécifique de l’étendue la plus étroite à la plus large. Si vous attribuez une stratégie utilisateur à un utilisateur, ces paramètres sont prioritaires. Si vous n’affectez pas une stratégie utilisateur à un utilisateur, les paramètres de la stratégie par site s’appliquent. Si vous n’appliquez aucune stratégie par utilisateur ou par site, la stratégie globale fournit les paramètres par défaut.
+Vous pouvez définir une stratégie de conférence sur trois niveaux : étendue globale, étendue de site et étendue d’utilisateur. Les paramètres s’appliquent à un utilisateur de l’étendue la plus étroite à la plus large. Si vous affectez une stratégie utilisateur à un utilisateur, les paramètres de cette stratégie prévalent. Si vous n’affectez pas une stratégie utilisateur à un utilisateur, les paramètres de la stratégie par site s’appliquent. Si vous n’appliquez aucune stratégie par utilisateur ou par site, la stratégie globale fournit les paramètres par défaut.
 
 Une stratégie globale existe par défaut, par conséquent vous ne pouvez pas en créer une nouvelle. Vous ne pouvez pas non plus supprimer la stratégie globale existante, mais vous pouvez modifier la stratégie globale existante pour personnaliser les paramètres par défaut.
 

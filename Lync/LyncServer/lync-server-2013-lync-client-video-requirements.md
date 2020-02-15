@@ -1,5 +1,5 @@
 ---
-title: 'Configuration requise pour le client Lync Server 2013 :'
+title: 'Lync Server 2013 : configuration vidéo requise pour les clients Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d174b73bd4369220ae83bc8365267a626849e235
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6d5b06123879f2f9724fbd0f49facb8336d9860
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765502"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Configuration vidéo requise pour le client Lync pour Lync Server 2013
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Configuration requise pour la vidéo client Lync pour Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765502"
 
 _**Dernière modification de la rubrique :** 2016-01-29_
 
-Cette section décrit la prise en charge de matériel vidéo pour les appels vidéo Lync 2013 et explique comment déterminer la qualité vidéo prévue pour différentes configurations d’ordinateur, de tablette et de périphérique mobile.
+Cette section décrit la prise en charge du matériel vidéo pour les appels vidéo Lync 2013 et explique comment déterminer la qualité vidéo attendue pour différentes configurations d’ordinateur, de tablette et d’appareil mobile.
 
 <div>
 
-## <a name="windows-desktop-and-tablet-video-requirements-and-capabilities"></a>Configurations et capacités requises pour les ordinateurs de bureau et les tablettes Windows
+## <a name="windows-desktop-and-tablet-video-requirements-and-capabilities"></a>Caractéristiques et fonctionnalités des ordinateurs de bureau et tablette Windows
 
-Lync 2013 introduit l’accélération matérielle pour le codage et le décodage vidéo en fonction de la norme de codage vidéo de H. 264/MPEG-4 partie 10 avancée. Cette fonctionnalité permet aux ordinateurs dont la vitesse d’horloge du processeur est faible d’encoder et de décoder des vidéos avec des résolutions supérieures. La configuration requise pour le matériel vidéo dépend de la configuration de l’ordinateur et de la résolution vidéo souhaitée.
+Lync 2013 introduit l’accélération matérielle pour le codage et le décodage vidéo en fonction de la norme H. 264/MPEG-4 part 10 Advanced Video Coding standard. Cette fonctionnalité permet aux ordinateurs dont la vitesse d’horloge du processeur est faible d’encoder et de décoder des vidéos avec des résolutions supérieures. La configuration requise pour le matériel vidéo dépend de la configuration de l’ordinateur et de la résolution vidéo souhaitée.
 
 <div>
 
-## <a name="video-hardware-requirements"></a>Configuration matérielle requise pour la vidéo
+## <a name="video-hardware-requirements"></a>Configuration requise du matériel vidéo
 
 
 <table>
@@ -58,7 +58,7 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 <thead>
 <tr class="header">
 <th>Fonctionnalité</th>
-<th>Condition requise</th>
+<th>Conditions requises</th>
 </tr>
 </thead>
 <tbody>
@@ -78,17 +78,17 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 </tr>
 <tr class="even">
 <td><p>Encodage matériel accéléré H.264 : chipset requis</p></td>
-<td><p>Les solutions d’encodage vidéo matériel accéléré Intel suivantes sont prises en charge :</p>
+<td><p>Les solutions de codage vidéo avec accélération matérielle Intel suivantes sont prises en charge :</p>
 <ul>
-<li><p>Chipsets vidéo Intel HD 2000, 2500, 3000 et 4000 (ou versions ultérieures) avec les codes vidéo intégrés. L’installation du pilote 15.28.9.2884 Intel HD Graphics ou version ultérieure contenant les éléments suivants est requise :</p>
+<li><p>Chipsets Intel HD Graphics 2000, 2500, 3000, et 4000 de deuxième ou troisième générations (ou versions ultérieures) avec encodeurs vidéo matériel intégrés. L’installation du pilote Intel HD Graphics 15.28.9.2884 ou le pilote le plus récent contenant les éléments suivants sont requis :</p>
 <ul>
-<li><p>pilote d’affichage 9.17.10.2884 ou version ultérieure ;</p></li>
-<li><p>HMFT (Hardware Media Foundation Transform) 3.12.10.31 ou version ultérieure.</p></li>
+<li><p>Pilote d’affichage 9.17.10.2884 ou le pilote le plus récent</p></li>
+<li><p>Version de Hardware Media Foundation Transform (HMFT) 3.12.10.31 ou la dernière HMFT</p></li>
 </ul></li>
 </ul>
-<p>Les solutions de codage vidéo accélérées sur le matériel AMD suivantes sont prises en charge (nécessite des mises à jour CU1 pour Lync Server 2013) :</p>
+<p>Les solutions de codage vidéo avec accélération matérielle AMD suivantes sont prises en charge (nécessite des mises à jour CU1 pour Lync Server 2013) :</p>
 <ul>
-<li><p>AMD Video Codec Engine, disponible dans plusieurs cartes graphiques discrètes et les unités de traitement accéléré intégrées des processeurs accélérés AMD série A. Le pilote 9.12.0.0 AMD Video Codec Engine ou une version ultérieure doit être installé.</p></li>
+<li><p>Le moteur de codec vidéo AMD, qui est disponible dans plusieurs cartes graphiques discrètes et dans des unités de traitement accélérées intégrées de processeurs accélérés de la série AMD. Le pilote du moteur de codec vidéo AMD 9.12.0.0 ou une version ultérieure doit être installé.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -97,7 +97,7 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 <div>
 
 > [!NOTE]  
-> Lync 2013 prend en charge les appareils photo 1,5 UVC avec Windows 8 ou Windows 8,1, qui inclut la prise en charge de UVC 1,5. Dans la mesure où Windows 7 n’inclut pas la prise en charge de UVC 1,5, Lync 2013 considère les appareils photo 1,5 UVC comme des caméras normales sans prise en charge du codage matériel.
+> Lync 2013 prend en charge les caméras UVC 1,5 avec Windows 8 ou Windows 8,1, qui inclut la prise en charge de UVC 1,5. Dans la mesure où Windows 7 ne prend pas en charge UVC 1.5, Lync 2013 considère les caméras UVC 1.5 comme des caméras génériques sans prise en charge de l’encodage matériel.
 
 
 </div></td>
@@ -110,7 +110,7 @@ Lync 2013 introduit l’accélération matérielle pour le codage et le décodag
 
 <div>
 
-## <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Détermination des capacités de codage et de décodage vidéo de H. 264
+## <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Identification des fonctionnalités d’encodage et de décodage vidéo H.264
 
 En règle générale, quatre facteurs principaux déterminent les capacités d’encodage et de décodage maximales d’une configuration donnée :
 
@@ -122,13 +122,13 @@ En règle générale, quatre facteurs principaux déterminent les capacités d�
 
   - Indice de performance Windows (WEI)
 
-L’Outil d’évaluation système Windows (WinSAT) détermine l’indice WEI. Lorsque vous exécutez l’outil de vérification WINS, il génère un document XML d’évaluation formel sur l’ordinateur dans le répertoire\\%\\windir\\% performance WinSAT. Ce fichier XML contient les deux scores suivants qui sont essentiels pour déterminer les capacités d’encodage et de décodage :
+L’Outil d’évaluation système Windows (WinSAT) détermine l’indice WEI. Lorsque vous exécutez l’outil WinSAT, il génère un document XML formel. Assessment sur l’ordinateur dans le répertoire%\\windir\\%\\WinSAT datastore. Ce fichier XML contient les deux scores suivants qui sont essentiels pour déterminer les capacités d’encodage et de décodage :
 
   - La valeur VideoEncodeScore indique la capacité d’encodage vidéo logiciel de l’ordinateur.
 
   - La valeur GraphicsScore indique la capacité d’encodage matériel accéléré de l’ordinateur.
 
-Les trois tableaux suivants expliquent les capacités d’encodage et de décodage maximales pour différents types de PC en fonction de l’accélération matérielle prise en charge. Pour des résolutions de 640x360 et supérieures, la fréquence d’images maximale prise en charge est de 30 images par secondes (i/s). Pour des résolutions inférieures à 640x360, la fréquence d’images maximale prise en charge est de 15 i/s.
+Les trois tableaux suivants expliquent les capacités d’encodage et de décodage maximales pour différents types de PC en fonction de l’accélération matérielle prise en charge. Pour des résolutions de 640x360 et supérieures, la fréquence d’images maximale prise en charge est de 30 images par secondes (i/s). Pour des résolutions inférieures à 640x360, la fréquence d’images maximale prise en charge est de 15 i/s.
 
 ### <a name="computer-without-dxva-and-without-hardware-accelerated-encoder"></a>Ordinateur sans DXVA et sans encodeur matériel accéléré
 
@@ -142,39 +142,39 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 <tr class="header">
 <th>Résolution d’encodeur compatible</th>
 <th>Résolution de décodeur compatible</th>
-<th>Condition requise</th>
+<th>Conditions requises</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>424x240</p></td>
-<td><p>424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)</p></td>
-<td><p>1 cœur et VideoEncodeScore ≥ 4,0</p></td>
+<td><p>424x240 (640x360 à 15 i/s pour des scénarios de réception uniquement)</p></td>
+<td><p>1 cœur et VideoEncodeScore ≥ 4,0</p></td>
 </tr>
 <tr class="even">
 <td><p>640x360</p></td>
 <td><p>640x360</p></td>
-<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
+<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>640x360</p></td>
 <td><p>1280x720</p></td>
-<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
+<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
 </tr>
 <tr class="even">
 <td><p>640x360</p></td>
 <td><p>1920x1080</p></td>
-<td><p>4 cœurs et VideoEncodeScore ≥ 4,5</p></td>
+<td><p>4 cœurs et VideoEncodeScore ≥ 4,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>1280x720</p></td>
 <td><p>1280x720</p></td>
-<td><p>4 cœurs et VideoEncodeScore ≥ 7,3</p></td>
+<td><p>4 cœurs et VideoEncodeScore ≥ 7,3</p></td>
 </tr>
 <tr class="even">
 <td><p>1280x720</p></td>
 <td><p>1920x1080</p></td>
-<td><p>4 cœurs et VideoEncodeScore ≥ 7,3</p></td>
+<td><p>4 cœurs et VideoEncodeScore ≥ 7,3</p></td>
 </tr>
 <tr class="odd">
 <td><p>1920x1080</p></td>
@@ -197,34 +197,34 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 <tr class="header">
 <th>Résolution d’encodeur compatible</th>
 <th>Résolution de décodeur compatible</th>
-<th>Condition requise</th>
+<th>Conditions requises</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>424x240</p></td>
 <td><p>1920x1080</p></td>
-<td><p>1 cœur et VideoEncodeScore ≥ 3,0</p></td>
+<td><p>1 cœur et VideoEncodeScore ≥ 3,0</p></td>
 </tr>
 <tr class="even">
 <td><p>640x360</p></td>
 <td><p>1920x1080</p></td>
-<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
+<td><p>2 cœurs et VideoEncodeScore ≥ 4,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>960x540</p></td>
 <td><p>1920x1080</p></td>
-<td><p>2 cœurs et VideoEncodeScore ≥ 6,0</p></td>
+<td><p>2 cœurs et VideoEncodeScore ≥ 6,0</p></td>
 </tr>
 <tr class="even">
 <td><p>1280x720</p></td>
 <td><p>1920x1080</p></td>
-<td><p>4 cœurs et VideoEncodeScore ≥ 6,7</p></td>
+<td><p>4 cœurs et VideoEncodeScore ≥ 6,7</p></td>
 </tr>
 <tr class="odd">
 <td><p>1920x1080</p></td>
 <td><p>1920x1080</p></td>
-<td><p>4 cœurs et VideoEncodeScore ≥ 8,2</p></td>
+<td><p>4 cœurs et VideoEncodeScore ≥ 8,2</p></td>
 </tr>
 </tbody>
 </table>
@@ -234,7 +234,7 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 
 
 > [!NOTE]  
-> Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. C’est pourquoi la capacité d’encodage d’un ordinateur sans encodeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8.1, pour lequel le score WinSAT est de 9,9 au maximum.
+> Le score WinSAT sur Windows 7 est limité à un maximum de 7,9. Par conséquent, la fonctionnalité de codage pour un ordinateur dépourvu de codeur matériel accéléré ne peut être obtenue que sur Windows 8 ou Windows 8,1, où le score WinSAT maximal est de 9,9.
 
 
 
@@ -252,7 +252,7 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 <tr class="header">
 <th>Résolution d’encodeur compatible</th>
 <th>Résolution de décodeur compatible</th>
-<th>Condition requise</th>
+<th>Conditions requises</th>
 </tr>
 </thead>
 <tbody>
@@ -276,9 +276,9 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 
 <div>
 
-## <a name="mobile-device-video-capabilities"></a>Fonctionnalités vidéo sur les appareils mobiles
+## <a name="mobile-device-video-capabilities"></a>Fonctionnalités de vidéo d’appareil mobile
 
-Le tableau ci-dessous décrit les fonctionnalités vidéo maximales pour les appareils mobiles pris en charge. Pour plus d’informations sur la prise en charge des appareils mobiles, voir [planification pour les clients mobiles dans Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
+Le tableau suivant décrit les capacités vidéo maximales pour les appareils mobiles pris en charge. Pour plus d’informations sur la prise en charge des appareils mobiles, voir [Planning for mobile clients in Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
 
 
 <table>
@@ -300,23 +300,23 @@ Le tableau ci-dessous décrit les fonctionnalités vidéo maximales pour les app
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Résolution d’encodage maximale H.264</p></td>
+<td><p>Résolution maximale de H. 264</p></td>
 <td><p>VGA</p></td>
-<td><p>QVGA : iPhone 4S</p>
-<p>VGA : iPhone 5</p>
-<p>720p : iPhone 5S et version ultérieure</p></td>
-<td><p>VGA : iPad 2 et version ultérieure/iPad mini 1 et version ultérieure</p>
-<p>720p : iPad Air/iPad mini 2/iPad Pro et version ultérieure</p></td>
+<td><p>QVGA : iPhone-n</p>
+<p>VGA : iPhone 5</p>
+<p>720p : iPhone 5S et versions ultérieures</p></td>
+<td><p>VGA : iPad 2 et version ultérieure/iPad mini 1 et versions ultérieures</p>
+<p>720p : iPad air/iPad mini 2/iPad Pro et version ultérieure</p></td>
 <td><p>Jusqu’à VGA en fonction du modèle d’appareil</p></td>
 </tr>
 <tr class="even">
-<td><p>Résolution de décodage maximale H.264</p></td>
+<td><p>Résolution de décodage maximale H. 264</p></td>
 <td><p>VGA</p></td>
-<td><p>QVGA : iPhone 4S</p>
-<p>VGA : iPhone 5</p>
-<p>720p : iPhone 5S et version ultérieure</p></td>
-<td><p>VGA : iPad 2 et version ultérieure/iPad mini 1 et version ultérieure</p>
-<p>720p : iPad Air/iPad mini 2/iPad Pro et version ultérieure</p></td>
+<td><p>QVGA : iPhone-n</p>
+<p>VGA : iPhone 5</p>
+<p>720p : iPhone 5S et versions ultérieures</p></td>
+<td><p>VGA : iPad 2 et version ultérieure/iPad mini 1 et versions ultérieures</p>
+<p>720p : iPad air/iPad mini 2/iPad Pro et version ultérieure</p></td>
 <td><p>Jusqu’à VGA en fonction du modèle d’appareil</p></td>
 </tr>
 </tbody>

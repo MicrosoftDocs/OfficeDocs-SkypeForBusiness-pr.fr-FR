@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tester l’accès d’une application Web anonyme'
+title: 'Lync Server 2013 : tester l’accès anonyme à l’application Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aabac9e106c325b7b1b964e6e594bb2b05ef85c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a5001b7c318c9d165d9e20bbcde83e7f34b3b7cc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746264"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Tester l’accès d’une application Web anonyme dans Lync Server 2013
+# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Tester l’accès aux applications Web anonymes dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-06-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Mois</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les mois</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsWebAppAnonymous. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsWebAppAnonymous. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebAppAnonymous&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Dernière modification de la rubrique :** 2014-06-07_
 
 ## <a name="description"></a>Description
 
-L’applet de contrôle test-CsWebAppAnonymous vérifie qu’un utilisateur anonyme peut participer à des conférences Lync Server à l’aide de Lync Web App. Lorsque vous exécutez l’applet de contrôle, test-CsWebAppAnonymous contacte le service de ticket Web pour obtenir un ticket Web pour l’utilisateur anonyme. Si l’applet de demande réussit à obtenir ce ticket, test-CsWebAppAnonymous contacte alors Lync Server et tente d’établir des conférences distinctes pour la messagerie instantanée, le partage d’application et la collaboration de données.
+L’applet de commande test-CsWebAppAnonymous vérifie qu’un utilisateur anonyme peut participer à des conférences Lync Server à l’aide de Lync Web App. Lorsque vous exécutez l’applet de commande, test-CsWebAppAnonymous contacte le service de ticket Web pour obtenir un ticket Web pour l’utilisateur anonyme. Si l’applet de commande réussit à obtenir ce ticket, test-CsWebAppAnonymous contacte ensuite Lync Server et tente d’établir des conférences distinctes pour la messagerie instantanée, le partage d’application et la collaboration de données.
 
-Notez que test-CsWebAppAnonymous vérifie uniquement les API et les connexions utilisées pour créer ces conférences. Le cmdlet ne crée et ne fait pas de conférences.
+Notez que test-CsWebAppAnonymous vérifie uniquement les API et les connexions utilisées pour créer ces conférences. L’applet de commande ne crée pas réellement de conférence.
 
 </div>
 
@@ -76,49 +76,49 @@ Notez que test-CsWebAppAnonymous vérifie uniquement les API et les connexions u
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-CsWebAppAnonymous peut être exécutée à l’aide d’une paire de comptes de test préconfigurés ou des comptes de deux utilisateurs qui sont activés pour Lync Server. Pour exécuter cette vérification à l’aide de comptes de test, vous devez simplement spécifier le nom de domaine complet du pool de serveurs Lync testé. Par exemple :
+La cmdlet Test-CsWebAppAnonymous peut être exécutée à l’aide d’une paire de comptes de test préconfigurés ou des comptes de deux utilisateurs activés pour Lync Server. Pour exécuter cette vérification à l’aide de comptes de test, il vous suffit de spécifier le nom de domaine complet du pool Lync Server testé. Par exemple :
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 
-Pour exécuter cette vérification à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Lync Server Management Shell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsWebAppAnonymous :
+Pour exécuter cette vérification à l’aide de comptes d’utilisateur réels, vous devez créer deux objets d’informations d’identification Lync Server Management Shell (objets qui contiennent le nom de compte et le mot de passe) pour chaque compte. Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez test-CsWebAppAnonymous :
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1
 
-Pour plus d’informations, consultez la rubrique d’aide de l’applet de contrôle test-CsWebAppAnonymous. Notez que test-CsWebAppAnonymous est déconseillé pour une utilisation sur Lync Server 2013.
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande test-CsWebAppAnonymous. Notez que test-CsWebAppAnonymous est déconseillé pour une utilisation sur Lync Server 2013.
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si test-CsWebAppAnonymous peut rejoindre l’utilisateur anonyme dans ses conférences, l’applet de contrôle renverra le résultat de test réussite :
+Si test-CsWebAppAnonymous peut joindre l’utilisateur anonyme à ses conférences, la cmdlet renverra le résultat du test réussite :
 
 Nom de domaine complet cible :
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:00
 
 Message d’erreur :
 
-Diagnostic
+Diagnostique
 
-Si l’utilisateur anonyme ne peut pas participer aux conférences nécessaires, le résultat du test sera marqué comme ayant échoué. En règle générale, le test-CsWebAppAnonymous signale également un message d’erreur et un diagnostic détaillés :
+Si l’utilisateur anonyme ne peut pas rejoindre les conférences nécessaires, le résultat du test sera marqué comme étant un échec. En règle générale, test-CsWebAppAnonymous signale également un message d’erreur détaillé et un diagnostic :
 
-Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
+Nom de domaine complet cible : atl-cs-001.litwareinc.com
 
 Résultat : échec
 
 Latence : 00:00:05.9746266
 
-Message d’erreur : aucun réponse reçu pour le service de ticket Web
+Message d’erreur : aucune réponse reçue pour le service de ticket Web
 
-Diagnostic : la requête HTTP n’est pas autorisée avec le client
+Diagnostic : la demande HTTP n’est pas autorisée avec le client
 
-schéma d’authentification « NTLM ». L’authentification
+modèle d’authentification « NTLM ». L’authentification
 
 l’en-tête reçu du serveur était « Negotiate, NTLM ».
 
@@ -126,21 +126,21 @@ l’en-tête reçu du serveur était « Negotiate, NTLM ».
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Les échecs de test-CsWebAppAnonymous font généralement appel à des erreurs d’authentification de l’utilisateur : vous devez exécuter le test à l’aide d’un compte d’utilisateur valide, même si la cmdlet vérifie la capacité d’un utilisateur anonyme à se connecter à Lync Server. En cas d’échec de test-CsWebAppAnonymous, vous devez vérifier que l’utilisateur spécifié a valide un compte d’utilisateur de Lync Server. Vous pouvez récupérer les informations de compte de Lync Server en utilisant une commande similaire à celle-ci :
+Les échecs de test-CsWebAppAnonymous se produisent généralement autour des erreurs d’authentification de l’utilisateur : vous devez exécuter le test à l’aide d’un compte d’utilisateur valide même si l’applet de commande vérifie la capacité d’un utilisateur anonyme à se connecter à Lync Server. Si test-CsWebAppAnonymous échoue, vérifiez que l’utilisateur spécifié a un compte d’utilisateur de Lync Server valide. Vous pouvez récupérer les informations de compte Lync Server à l’aide d’une commande semblable à celle-ci :
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Si la propriété Enabled n’est pas égale à true ou en cas d’échec de la commande, cela signifie que l’utilisateur ne possède pas de compte Lync Server valide.
+Si la propriété Enabled n’a pas la valeur true ou si la commande échoue, cela signifie que l’utilisateur ne dispose pas d’un compte Lync Server valide.
 
-Vous devez également vérifier que le mot de passe que vous avez fourni lorsque vous exécutez l’applet de contrôle est un mot de passe valide.
+Vous devez également vérifier que le mot de passe que vous avez fourni lors de l’exécution de l’applet de commande est un mot de passe valide.
 
-Les problèmes de configuration liés à Office Web Apps Server peuvent également entraîner l’échec de test-CsWebAppAnonymous ; C’est souvent le cas si vous recevez le code de diagnostic suivant :
+Les problèmes de configuration avec Office Web Apps Server peuvent également entraîner l’échec de test-CsWebAppAnonymous ; ce sera souvent le cas si vous recevez le diagnostic suivant :
 
-La requête HTTP n’est pas autorisée avec le schéma d’authentification du client « NTLM ». L’en-tête d’authentification reçu du serveur était « Negotiate, NTLM ».
+La demande HTTP n’est pas autorisée avec le modèle d’authentification client « NTLM ». L’en-tête d’authentification reçu du serveur était « Negotiate, NTLM ».
 
-Pour plus d’informations sur le diagnostic et la résolution des problèmes liés au serveur Office Web Apps, voir le billet de blog [Office Web Apps server 2013-les ordinateurs sont toujours signalés comme défectueux](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).
+Pour plus d’informations sur le diagnostic et la résolution des problèmes liés à Office Web Apps Server, voir le billet de blog [Office Web Apps server 2013-les ordinateurs sont toujours signalés comme défectueux](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5672619302e169db5e89281323eec4b5d8312c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,25 +37,25 @@ ms.locfileid: "41734624"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Si vous intégrez Microsoft Lync Server 2013 et Microsoft Exchange Server 2013, il est recommandé de configurer le magasin de contacts personnels sur les ordinateurs clients exécutant Microsoft Lync 2010. En particulier, vous devez configurer Lync pour qu’il utilise Exchange en tant que magasin de contacts personnel et, en même temps, veiller à ce que les utilisateurs ne puissent pas ignorer cette décision. Vous pouvez faire cela en créant et en configurant une valeur Registre sur chaque ordinateur client.
+Si vous intégrez Microsoft Lync Server 2013 et Microsoft Exchange Server 2013, il est recommandé de configurer le magasin de contacts personnels sur les ordinateurs clients exécutant Microsoft Lync 2010. En particulier, vous devez configurer Lync pour qu’il utilise Exchange comme magasin de contacts personnel et, en même temps, vérifier que les utilisateurs ne sont pas en mesure de remplacer cette décision. Cette opération peut être réalisée en créant et en configurant une valeur de Registre sur chaque ordinateur client.
 
-Notez que cela n’est pas requis sur les ordinateurs exécutant Lync 2013.
+Notez que cette fonction n’est pas obligatoire sur les ordinateurs exécutant Lync 2013.
 
-Pour configurer cette valeur sur un ordinateur unique, procédez comme suit :
+Pour configurer cette valeur sur un seul ordinateur, procédez comme suit :
 
-1.  Sur l’ordinateur client, cliquez sur **Démarrer**, puis sur **Exécuter**.
+1.  Sur l’ordinateur client, cliquez sur **Démarrer** , puis sur **exécuter**.
 
-2.  Dans la boîte de dialogue **Exécuter** tapez regedit, puis appuyez sur Entrée.
+2.  Dans la boîte de dialogue **Exécuter**, tapez regedit, puis appuyez sur Entrée.
 
-3.  Dans l’éditeur du Registre, développez l' **application** **HKEY\_local\_**, développez logiciel, développez **stratégies**, développez **Microsoft**, puis développez **Communicator**.
+3.  Dans l’éditeur du Registre, développez **\_HKEY\_local machine**, **Software**, **Policies**, **Microsoft**, puis **Communicator**.
 
-4.  Cliquez avec le bouton droit sur **Communicator**, pointez sur **Nouveau**, puis cliquez sur **Valeur DWORD (32 bits)**.
+4.  Cliquez avec le bouton droit sur **Communicator**, pointez sur **nouveau**, puis cliquez sur **valeur DWORD (32 bits)**.
 
-5.  Une fois la nouvelle valeur créée, tapez **PersonalContactStoreOverride**, puis appuyez sur Entrée pour renommer la valeur.
+5.  Une fois la nouvelle valeur créée, tapez **PersonalContactStoreOverride** , puis appuyez sur entrée pour renommer la valeur.
 
-6.  Vérifiez que la valeur de PersonalContactStoreOverride est définie sur 0, puis fermez l’Éditeur du Registre.
+6.  Vérifiez que la valeur de PersonalContactStoreOverride est définie sur 0, puis fermez l’éditeur du Registre.
 
-Si vous devez effectuer le même changement sur plusieurs ordinateurs, vous pouvez le faire en créant un objet Stratégie de groupe personnalisé. Pour plus d’informations, consultez la documentation relative [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)à la stratégie de groupe à l’adresse.
+Si vous devez effectuer cette même modification sur plusieurs ordinateurs, vous pouvez le faire en créant un objet de stratégie de groupe personnalisé. Pour plus d’informations, consultez la documentation sur [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)la stratégie de groupe à l’adresse.
 
 </div>
 

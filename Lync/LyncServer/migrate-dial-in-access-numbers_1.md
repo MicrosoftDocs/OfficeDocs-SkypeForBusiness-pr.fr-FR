@@ -1,5 +1,5 @@
 ---
-title: Migrer les numéros d’accès entrant
+title: Faire migrer les numéros d’accès entrant
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15ee86d78b75fe1928cb92459f8689aea2f6b1b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762932"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>Migrer les numéros d’accès entrant
+# <a name="migrate-dial-in-access-numbers"></a>Faire migrer les numéros d’accès entrant
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41762932"
 
 _**Dernière modification de la rubrique :** 2012-09-26_
 
-La migration des numéros d’accès rendez-vous implique deux étapes : l’exécution de l’applet de connexion **Import-CsLegacyConfiguration** (exécutée précédemment dans l' [importation de stratégies et de paramètres](import-policies-and-settings.md)) pour migrer les plans de numérotation et les autres paramètres de numéro d’accès à la Conférence rendez-vous, et l’exécution de l’applet de **passe Move-CsApplicationEndpoint** .
+La migration des numéros d’accès entrants nécessite deux étapes : exécution de l’applet de commande **Import-applet cslegacyconfiguration** (terminée précédemment dans [importer des stratégies et des paramètres](import-policies-and-settings.md)) pour migrer les plans de numérotation et les autres paramètres de numéro d’accès entrant, et exécution de la cmdlet **Move-CsApplicationEndpoint** pour migrer les objets contact.
 
 <div>
 
-## <a name="to-migrate-dial-in-access-numbers"></a>Pour migrer des numéros d’accès entrants
+## <a name="to-migrate-dial-in-access-numbers"></a>Pour faire migrer les numéros d’accès entrant
 
-1.  Ouvrez l’outil d’administration d’Office Communications Server 2007 R2.
+1.  Ouvrez l’outil d’administration Office Communications Server 2007 R2.
 
-2.  Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud de la forêt, cliquez sur **Propriétés**, puis sur **Propriétés du surveillant de conférence**.
+2.  Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud Forêt, cliquez sur **Propriétés**, puis sur **Propriétés de Intendant Conférence**.
 
-3.  Dans l’onglet **numéros de téléphone d’accès** , cliquez sur **desservi par le pool** pour trier les numéros de téléphone d’accès par leur liste de connexions associées, puis identifiez tous les numéros d’accès pour le pool à partir duquel vous effectuez la migration.
+3.  Sous l’onglet **Numéros de téléphone d’accès**, cliquez sur **Traité par le pool** pour trier les numéros de téléphone d’accès par leur pool associé, et identifiez tous les numéros d’accès pour le pool à partir duquel vous effectuez la migration.
 
-4.  Pour identifier l’URI SIP de chaque numéro d’accès, double-cliquez sur le numéro d’accès pour ouvrir la boîte de dialogue **modifier le numéro du surveillant de conférences** et recherchez sous **URI SIP**.
+4.  Pour identifier l’URI SIP de chaque numéro d’accès, double-cliquez sur le numéro d’accès pour ouvrir la boîte de dialogue **Modifier le numéro de l’Intendant Conférence** et regardez sous **URI SIP**.
 
-5.  Ouvrez Lync Server Management Shell.
+5.  Ouvrez Lync Server Management Shell.
 
 6.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez :
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  Dans l’onglet **numéros de téléphone d’accès** de l’outil d’administration d’Office communications Server 2007 R2, vérifiez qu’aucun numéro d’accès entrant ne reste pour le pool Office communications Server 2007 R2 à partir duquel vous effectuez la migration.
+7.  Dans l’outil d’administration Office Communications Server 2007 R2, sous l’onglet **numéros de téléphone d’accès** , vérifiez qu’aucun numéro d’accès entrant n’est conservé pour le pool Office Communications Server 2007 R2 à partir duquel vous effectuez la migration.
 
 </div>
 

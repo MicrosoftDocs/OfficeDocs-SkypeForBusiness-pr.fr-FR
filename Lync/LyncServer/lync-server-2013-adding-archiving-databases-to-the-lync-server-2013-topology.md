@@ -12,20 +12,20 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476107b064b45dbef74b03ff9d54e02fc9eee52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e73fe49aaf3a5b90a23bcfd6b99c9a5bb4476513
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Ajouter des bases de données d’archivage à la topologie Lync Server 2013
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Ajout de bases de données d’archivage à la topologie Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41738164"
 
 _**Dernière modification de la rubrique :** 2012-10-10_
 
-Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cet article vous expliquent comment utiliser le générateur de topologie pour ajouter l’archivage à votre topologie existante.
+Vous devez incorporer l’archivage dans votre topologie avant de configurer votre déploiement pour qu’il prenne en charge l’archivage. Les informations contenues dans cette rubrique expliquent comment utiliser le générateur de topologie pour ajouter l’archivage à votre topologie existante.
 
 <div>
 
 
 > [!NOTE]  
-> Si vous souhaitez utiliser l’intégration de Microsoft Exchange pour stocker les données et fichiers d’archivage sur les serveurs Exchange 2013 pour tous les utilisateurs de votre déploiement, ne spécifiez pas <STRONG>l’archivage de SQL Server Store</STRONG> ou n’utilisez pas les informations de <STRONG>mise en miroir SQL Server Store</STRONG> .
+> Si vous souhaitez utiliser l’intégration de Microsoft Exchange pour stocker les données d’archivage et les fichiers sur les serveurs Exchange 2013 pour tous les utilisateurs de votre déploiement, ne spécifiez pas le <STRONG>magasin SQL Server d’archivage</STRONG> ou n’utilisez pas les informations de <STRONG>mise en miroir du magasin SQL Server</STRONG> .
 
 
 
@@ -53,20 +53,20 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
 
 ## <a name="to-add-archiving-database-support-to-your-topology"></a>Pour ajouter la prise en charge de la base de données d’archivage à votre topologie
 
-1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel sont installés les outils d’administration de Lync Server, connectez-vous à l’aide d’un compte qui est membre du groupe utilisateurs local (ou d’un compte disposant de droits d’utilisateur équivalents).
+1.  Sur un ordinateur exécutant Lync Server 2013 ou sur lequel les outils d’administration Lync Server sont installés, ouvrez une session à l’aide d’un compte membre du groupe utilisateurs local (ou d’un compte doté de droits d’utilisateur équivalents).
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un serveur à la topologie. vous devez utiliser un compte membre du groupe <STRONG>administrateurs de domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers 2013 Lync Server (c’est-à-dire, le générateur de topologie peut configurer la liste de contrôle d’accès discrétionnaire requise). ou un compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs local, mais pour publier une topologie, qui est requise pour ajouter un serveur à la topologie, vous devez utiliser un compte membre du groupe <STRONG>administrateurs du domaine</STRONG> et du groupe <STRONG>RTCUniversalServerAdmins</STRONG> et qui dispose des autorisations contrôle total (c’est-à-dire, lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le magasin de fichiers Lync Server 2013 (de sorte que le générateur de topologies puisse configurer la liste de contrôle d’accès discrétionnaire requise ou un compte disposant de droits équivalents.
 
     
     </div>
 
-2.  Démarrer le générateur de topologie.
+2.  Démarrez le Générateur de topologie.
 
-3.  Dans l’arborescence de la console, naviguez jusqu’au pool frontal dans lequel vous voulez déployer l’archivage, puis cliquez sur le nom du pool frontal pour lequel vous voulez déployer l’archivage.
+3.  Dans l’arborescence de la console, accédez au pool frontal dans lequel vous voulez déployer l’archivage, puis cliquez sur le nom de ce pool frontal.
 
 4.  Dans le menu **Action**, cliquez sur **Modifier les propriétés**.
 
@@ -76,37 +76,37 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
 
 7.  Activez la case à cocher **Archivage**.
 
-8.  Sous **archivage de SQL Server Store,** effectuez l’une des opérations suivantes :
+8.  Sous **magasin SQL Server d’archivage,** effectuez l’une des opérations suivantes :
     
-      - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont hébergés sur Microsoft Exchange Server 2013 ou une version ultérieure, vous pouvez archiver les communications Lync pour tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer le magasin SQL Server d’archivage.
+      - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont hébergés sur Microsoft Exchange Server 2013 ou version ultérieure, vous pouvez archiver les communications Lync pour tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer le magasin d’archivage SQL Server.
     
-      - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit :
+      - Pour spécifier un nouveau magasin SQL Server, cliquez sur **nouveau**, puis dans la boîte de dialogue **définir un nouveau magasin SQL Server** , procédez comme suit :
         
-          - Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau SQL Server Store.
+          - Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau magasin SQL Server.
         
           - Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
         
-          - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
+          - Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans la relation de mise en miroir** , puis, dans **numéro de port miroir**, spécifiez le numéro de port.
 
-9.  Si vous souhaitez utiliser la mise en miroir SQL Server Store, sélectionnez **activer la mise en miroir SQL Server Store**, puis procédez comme suit :
+9.  Si vous souhaitez utiliser la mise en miroir du magasin SQL Server, sélectionnez **activer la mise en miroir du magasin SQL Server**, puis procédez comme suit :
     
-      - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante **archivage de SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
+      - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante **miroir du magasin SQL Server d’archivage** , cliquez sur le nom du magasin SQL Server que vous souhaitez utiliser pour la mise en miroir.
     
-      - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes :
+      - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**, puis dans la boîte de dialogue **définir un nouveau magasin SQL Server** , effectuez l’une des opérations suivantes :
         
-        1.  Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous souhaitez créer le nouveau SQL Server Store.
+        1.  Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL Server sur lequel vous souhaitez créer le nouveau magasin SQL Server.
         
-        2.  Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou, pour définir une instance différente, cliquez sur **Instance nommée** et spécifiez l’instance à utiliser.
+        2.  Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser.
         
-        3.  Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
+        3.  Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans la relation de mise en miroir** , puis, dans **numéro de port miroir**, spécifiez le numéro de port.
     
-      - Si vous activez la mise en miroir SQL Server et souhaitez inclure un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server principal et des instances miroir), activez la case à cocher **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** , puis effectuez l’une des opérations suivantes :
+      - Si vous activez la mise en miroir SQL Server et que vous souhaitez inclure un témoin de mise en miroir SQL Server (une troisième instance SQL Server distincte qui peut détecter l’intégrité du serveur SQL Server et des instances miroir principales), activez la case à cocher **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** , puis effectuez l’une des opérations suivantes :
         
-        1.  Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
+        1.  Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
         
         2.  Cliquez sur **Instance par défaut** pour utiliser l’instance par défaut ou sur **Instance nommée** pour définir une instance différente, puis spécifiez l’instance à utiliser comme témoin de mise en miroir.
         
-        3.  Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
+        3.  Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans la relation de mise en miroir** , puis, dans **numéro de port miroir**, spécifiez le numéro de port.
 
 10. Pour enregistrer la configuration, cliquez sur **OK**.
 

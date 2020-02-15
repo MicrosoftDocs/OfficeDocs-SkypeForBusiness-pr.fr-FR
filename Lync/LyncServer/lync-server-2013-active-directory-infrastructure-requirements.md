@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration requise pour l’infrastructure Active Directory'
+title: 'Lync Server 2013 : configuration requise pour l’infrastructure Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75278700623ae7251fe7cebec36e959a38f325dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14980b886ac9a00b9ea23a0d915bc34ac3956c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735214"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013
 
 </div>
 
@@ -45,32 +45,32 @@ Avant de commencer le processus de préparation des services de domaine Active D
     
       - Système d’exploitation Windows Server 2012
     
-      - Système d’exploitation Windows Server 2008 R2
+      - système d’exploitation Windows Server 2008 R2
     
-      - Système d’exploitation Windows Server 2008
+      - système d’exploitation Windows Server 2008
     
-      - Windows Server 2008 entreprise 32 bits
+      - Windows Server 2008 Enterprise 32 bits
     
-      - versions 32 ou 64 bits du système d’exploitation Windows Server 2003 R2
+      - versions 32 bits ou 64 bits du système d’exploitation Windows Server 2003 R2
     
-      - versions 32 ou 64 bits du système d’exploitation Windows Server 2003
+      - versions 32 bits ou 64 bits du système d’exploitation Windows Server 2003
 
-  - Tous les domaines dans lesquels vous déployez Lync Server sont déclenchés à un niveau de fonctionnalité de domaine de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
+  - Tous les domaines dans lesquels vous déployez Lync Server sont élevés à un niveau fonctionnel de domaine de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
 
-  - La forêt dans laquelle vous déployez Lync Server est déclenchée à un niveau de fonctionnalité de forêt de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
+  - La forêt dans laquelle vous déployez Lync Server est élevée à un niveau fonctionnel de forêt de Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou au minimum Windows Server 2003.
     
     <div>
     
 
     > [!NOTE]  
-    > Pour modifier le niveau de fonctionnement de votre domaine ou forêt, voir « augmentation des niveaux fonctionnels de domaine et de <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>forêt » dans la bibliothèque TechNet à l’adresse.
+    > Pour modifier le niveau fonctionnel de votre domaine ou de votre forêt, voir « augmentation des niveaux fonctionnels des domaines et <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>des forêts » dans la bibliothèque TechNet à l’adresse.
 
     
     </div>
 
-  - Un catalogue global est déployé dans chaque domaine sur lequel vous déployez des ordinateurs ou des utilisateurs Lync Server.
+  - Un catalogue global est déployé dans chaque domaine où vous déployez des ordinateurs ou des utilisateurs Lync Server.
 
-Lync Server 2013 prend en charge les groupes universels dans les systèmes d’exploitation Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 et Windows Server 2003. Les membres de groupes universels peuvent inclure d’autres groupes et comptes provenant de n’importe quel domaine de l’arbre ou de la forêt de domaines et peuvent se voir attribuer des autorisations dans n’importe quel domaine également. La prise en charge des groupes universels, combinée à la délégation d’administrateur, simplifie la gestion d’un déploiement de Lync Server. Par exemple, il n’est pas nécessaire d’ajouter un domaine à un autre domaine pour permettre à un administrateur de les gérer tous les deux.
+Lync Server 2013 prend en charge les groupes universels dans les systèmes d’exploitation Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 et Windows Server 2003. Les membres des groupes universels peuvent inclure d’autres groupes et comptes provenant de n’importe quel domaine de l’arborescence de domaine ou de la forêt et peuvent se voir attribuer des autorisations dans n’importe quel domaine de l’arborescence de domaine ou de la forêt. La prise en charge de groupes universels, combinée à la délégation d’administrateur, simplifie la gestion d’un déploiement Lync Server. Par exemple, il n’est pas nécessaire d’ajouter un domaine à un autre pour permettre à un administrateur de gérer les deux.
 
 </div>
 

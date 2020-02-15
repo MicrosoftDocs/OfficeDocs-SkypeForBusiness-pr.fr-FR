@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration de la page de participation à une réunion'
+title: 'Lync Server 2013 : configuration de la page de participation aux réunions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8471b6b897a365763d55edcbd55e4a9bab4a3124
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a62ac96688887e9d5ee66f0f0439a73941db3563
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Configuration de la page de participation à une réunion dans Lync Server 2013
+# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Configuration de la page de participation aux réunions dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41734634"
 
 _**Dernière modification de la rubrique :** 2012-12-14_
 
-Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à une réunion détecte si un client 2013 Lync est déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, le client ouvre et joint la réunion. Si un client n’est pas installé, la version 2013 de Lync Web App est ouverte par défaut.
+Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation aux réunions détecte si un client Lync 2013 est déjà installé sur l’ordinateur de l’utilisateur. Si c’est le cas, ce client s’ouvre et se joint à la réunion. Si un client n’est pas installé, la version 2013 de Lync Web App par défaut s’ouvre.
 
-Vous pouvez modifier le comportement de la page de participation à une réunion si vous voulez permettre aux utilisateurs de participer à des réunions avec Office Communicator 2007 R2 ou Lync 2010 attendant. Ces options de configuration ont été supprimées du panneau de configuration de Lync Server 2013, mais vous avez configuré celles-ci à l’aide de l’applet de commande Set-CsWebServiceConfiguration.
+Vous pouvez modifier le comportement de la page de participation à la réunion si vous souhaitez autoriser les utilisateurs à participer à des réunions avec Office Communicator 2007 R2 ou Lync 2010 attendant. Ces options de configuration ont été supprimées du panneau de configuration Lync Server 2013, mais vous les configurez à l’aide de la cmdlet Set-CsWebServiceConfiguration.
 
-### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a>Ensemble de pages de participation à une réunion-paramètres de CsWebServiceConfiguration
+### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a>Paramètres Set-CsWebServiceConfiguration de la page de participation aux réunions
 
 <table>
 <colgroup>
@@ -50,18 +50,18 @@ Vous pouvez modifier le comportement de la page de participation à une réunion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paramètre SET-CsWebServiceConfiguration</th>
+<th>Paramètre Set-CsWebServiceConfiguration</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ShowJoinUsingLegacyClientLink</p></td>
-<td><p>Si elle est définie sur true, les utilisateurs qui rejoignent une réunion à l’aide d’une application client autre que Lync seront en mesure de rejoindre la réunion à l’aide d’Office Communicator 2007 R2. La valeur par défaut est False.</p></td>
+<td><p>Si la valeur est true, les utilisateurs qui rejoignent une réunion à l’aide d’une application cliente autre que Lync auront la possibilité de participer à la réunion à l’aide d’Office Communicator 2007 R2. La valeur par défaut est False.</p></td>
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>Lorsque cette propriété est définie sur true, d’autres options permettant de participer à une conférence en ligne (comme Office Communicator 2007 R2) seront automatiquement développées et affichées aux utilisateurs. Lorsque ce paramètre est défini sur false (valeur par défaut), ces options sont disponibles, mais l’utilisateur doit afficher la liste des options pour eux-mêmes.</p></td>
+<td><p>Quand la valeur est True, les autres options pour rejoindre une conférence en ligne (comme Office Communicator 2007 R2) seront automatiquement développées et montrées aux utilisateurs. Quand la valeur est False (valeur par défaut), ces options sont disponibles, mais l’utilisateur doit afficher la liste des options.</p></td>
 </tr>
 </tbody>
 </table>
@@ -69,15 +69,15 @@ Vous pouvez modifier le comportement de la page de participation à une réunion
 
 <div>
 
-## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Pour configurer la page de participation à une réunion à l’aide de Lync Server 2013 Management Shell
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Pour configurer la page de participation aux réunions à l’aide de Lync Server 2013 Management Shell
 
 1.  Démarrez Lync Server 2013 Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Pour afficher les paramètres de configuration de service Web, exécutez l’applet de commande suivante :
+2.  Pour afficher les paramètres de configuration du service web, exécutez l’applet de commande suivante :
     
         Get-CsWebServiceConfiguration
 
-3.  Exécutez la commande suivante avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, voir [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) dans la documentation de Lync Server 2013 Management Shell) :
+3.  Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de vos préférences (pour plus d’informations sur les paramètres de cette cmdlet, voir [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) dans la documentation de Lync Server 2013 Management Shell) :
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

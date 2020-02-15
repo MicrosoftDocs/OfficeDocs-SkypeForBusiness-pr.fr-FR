@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration des services de fédération Active Directory (AD FS 2,0)'
+title: 'Lync Server 2013 : configuration des services ADFS (Active Directory Federation Services) (AD FS 2,0)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68864b6e5773bcd1cb9f063b400015697285ba36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741204"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuration des services ADFS 2,0 (Active Directory Federation Services) pour Lync Server 2013
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuration des services ADFS (Active Directory Federation Services) pour Lync Server 2013 (AD FS 2,0)
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41741204"
 
 _**Dernière modification de la rubrique :** 2013-07-03_
 
-Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2,0, consultez la rubrique AD FS 2,0 étape par étape et comment les [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)guides.
+La section suivante décrit la configuration des services ADFS 2,0 (Active Directory Federation Services) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2,0, voir AD FS 2,0 Step-by-Step et How to [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)guides à l’adresse.
 
 <div class="">
 
 
 > [!NOTE]  
-> Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services. Au lieu de cela, téléchargez et installez le package de services ADFS ( <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>Active Directory Federation Services) 2,0 à l’adresse.
+> Lors de l’installation d’AD FS 2,0, n’utilisez pas le gestionnaire Windows Server pour ajouter le rôle services ADFS (Active Directory Federation Services). Au lieu de cela, téléchargez et installez le package Active Directory Federation Services <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>2,0 RTW à l’adresse.
 
 
 
@@ -54,25 +54,25 @@ Cette section décrit la configuration d’Active Directory Federation Services 
 
 **Pour configurer AD FS pour l’authentification à deux facteurs**
 
-1.  Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.
+1.  Connectez-vous à l’ordinateur AD FS 2,0 à l’aide d’un compte d’administrateur de domaine.
 
-2.  Lancez Windows PowerShell.
+2.  Démarrez Windows PowerShell.
 
 3.  À partir de la ligne de commande Windows PowerShell, exécutez la commande suivante :
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  Établissez un partenariat avec chaque 2013 Lync Server avec des mises à jour cumulatives pour Lync Server 2013 : le directeur 2013 de juillet, le pool d’entreprise et le serveur Standard Edition Server qui seront activés pour l’authentification passive en exécutant la commande suivante, en remplaçant le nom du serveur propre à votre déploiement :
+4.  Établissez un partenariat avec chaque Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : le directeur de 2013 juillet, le pool d’entreprise et le serveur Standard Edition Server qui seront activés pour l’authentification passive en exécutant la commande suivante, en remplaçant le nom de serveur spécifique à votre déploiement :
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
-5.  Dans le menu Outils d’administration, lancez la console de gestion AD FS 2.0.
+5.  Dans le menu Outils d’administration, lancez la console de gestion AD FS 2,0.
 
-6.  Développez **relations d’approbation** \> de confiance entre les **parties**.
+6.  Développez **relations** \> d’approbation de **partie**de confiance.
 
-7.  Vérifiez qu’une nouvelle approbation a été créée pour votre Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013:2013 du pool d’entreprise.
+7.  Vérifiez qu’une nouvelle approbation a été créée pour votre Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : juillet 2013 pool d’entreprise ou serveur Standard Edition.
 
-8.  Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
+8.  Créez et attribuez une règle d’autorisation d’émission pour votre approbation de partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
     
        ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -83,7 +83,7 @@ Cette section décrit la configuration d’Active Directory Federation Services 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
-9.  Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
+9.  Créez et affectez une règle de transformation d’émission pour votre approbation de partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
     
        ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -93,11 +93,11 @@ Cette section décrit la configuration d’Active Directory Federation Services 
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre relation d’approbation de la partie de confiance, puis sélectionnez **Modifier les règles de revendication**.
+10. Dans la console de gestion AD FS 2,0, cliquez avec le bouton droit sur votre approbation de partie de confiance et sélectionnez **modifier les règles de revendication**.
 
-11. Sélectionnez l’onglet **Règles d’autorisation d’émission**, puis vérifiez que la règle d’autorisation a été correctement créée.
+11. Sélectionnez l’onglet **règles d’autorisation d’émission** et vérifiez que la nouvelle règle d’autorisation a bien été créée.
 
-12. Sélectionnez l’onglet **Règles de transformation d’émission**, puis vérifiez que la règle de transformation d’émission a été créée correctement.
+12. Sélectionnez l’onglet **règles de transformation d’émission** et vérifiez que la nouvelle règle de transformation a bien été créée.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078c3d8eed34e7fb6fd98d2d7c12014b87a0497b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Ajouter ou supprimer un serveur frontal dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41724014"
 
 _**Dernière modification de la rubrique :** 2016-01-21_
 
-Lorsque vous ajoutez un serveur frontal à un pool, ou supprimez un serveur frontal d’un pool, vous devez redémarrer le pool. Pour éviter toute interruption de service aux utilisateurs, utilisez la procédure suivante lors de l’ajout ou de la suppression d’un serveur frontal.
+Lorsque vous ajoutez un serveur frontal à un pool, ou que vous supprimez un serveur frontal d’un pool, vous devez redémarrer le pool. Pour éviter toute interruption de service pour les utilisateurs, utilisez la procédure suivante en cas d’ajout ou de suppression d’un serveur frontal.
 
 <div>
 
 
 > [!NOTE]  
-> Si vous ajoutez des serveurs au pool, mettez à jour vos nouveaux serveurs du pool pour qu’ils se trouvent au même niveau de mise à jour cumulée que les serveurs existants du pool.
+> Si vous ajoutez de nouveaux serveurs au pool, mettez à jour vos nouveaux serveurs de pool de sorte qu’ils se trouvent au même niveau de mise à jour cumulative que les serveurs existants dans le pool.
 
 
 
@@ -53,23 +53,23 @@ Lorsque vous ajoutez un serveur frontal à un pool, ou supprimez un serveur fron
 
 ## <a name="to-add-or-remove-front-end-servers"></a>Pour ajouter ou supprimer des serveurs frontaux
 
-1.  Si vous supprimez un serveur frontal, vous devez d’abord arrêter de nouvelles connexions sur ces serveurs. Pour ce faire, vous pouvez utiliser l’applet de commande suivante :
+1.  Si vous supprimez des serveurs frontaux, commencez par arrêter les nouvelles connexions à ces serveurs. Pour ce faire, vous pouvez utiliser l’applet de commande suivante :
     
         Stop-CsWindowsServices -Graceful
 
-2.  Lorsque les serveurs en cours de suppression ne disposent pas de sessions actives, arrêtez les services Lync Server.
+2.  Lorsque les serveurs supprimés n’ont pas de sessions actives, arrêtez les services Lync Server sur ces serveurs.
 
-3.  Ouvrez le générateur de topologie et ajoutez ou supprimez les serveurs nécessaires.
+3.  Ouvrez le Générateur de topologie, puis ajoutez ou supprimez les serveurs nécessaires.
 
 4.  Publiez la topologie.
 
-5.  Si le nombre d’éléments de la liste est supérieur à deux ou qu’il n’a pas encore plus de deux serveurs, vous devez taper l’applet de commande suivante :
+5.  Si le pool est passé de deux serveurs frontaux à plus de deux ou de plus de deux serveurs à exactement deux, vous devez taper l’applet de commande suivante :
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    Si le pool comporte au moins trois serveurs, trois de ces serveurs doivent être en cours d’exécution lorsque vous tapez cette cmdlet.
+    Si le pool comprend trois serveurs ou plus, au moins trois de ces serveurs doivent être en cours d’exécution lorsque vous tapez cette applet de commande.
 
-6.  Redémarrez tous les serveurs frontaux de la liste, un par un.
+6.  Redémarrez tous les serveurs frontaux du pool, un par un.
 
 </div>
 

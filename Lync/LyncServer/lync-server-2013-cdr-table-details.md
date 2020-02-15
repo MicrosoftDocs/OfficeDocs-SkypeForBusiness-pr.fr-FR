@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Informations sur la table des enregistrements des détails des appels'
+title: 'Lync Server 2013 : détails de la table CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736944"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="cdr-table-details-in-lync-server-2013"></a>Informations sur la table des enregistrements des détails des appels dans Lync Server 2013
+# <a name="cdr-table-details-in-lync-server-2013"></a>Détails de la table CDR dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41736944"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Les rubriques suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données d’enregistrements des détails des appels.
+Les rubriques suivantes présentent en détail les colonnes de chacune des tables de schéma de la base de données des enregistrements des détails des appels.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Table Application dans Lync Server 2013](lync-server-2013-application-table.md)
+  - [Table application dans Lync Server 2013](lync-server-2013-application-table.md)
 
-  - [Table CallPriorities dans Lync Server 2013](lync-server-2013-callpriorities-table.md)
+  - [Table table callpriorities dans Lync Server 2013](lync-server-2013-callpriorities-table.md)
 
   - [Table CallType dans Lync Server 2013](lync-server-2013-calltype-table.md)
 
@@ -55,7 +55,7 @@ Les rubriques suivantes décrivent en détail les colonnes dans chaque table de 
 
   - [Table ConferenceMessageCount dans Lync Server 2013](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Table Conferences dans Lync Server 2013](lync-server-2013-conferences-table.md)
+  - [Tableau conférences dans Lync Server 2013](lync-server-2013-conferences-table.md)
 
   - [Table ConferenceSessionDetails dans Lync Server 2013](lync-server-2013-conferencesessiondetails-table.md)
 
@@ -69,11 +69,11 @@ Les rubriques suivantes décrivent en détail les colonnes dans chaque table de 
 
   - [Table Dialogs dans Lync Server 2013](lync-server-2013-dialogs-table.md)
 
-  - [Table EdgeServers dans Lync Server 2013](lync-server-2013-edgeservers-table.md)
+  - [Table table edgeservers dans Lync Server 2013](lync-server-2013-edgeservers-table.md)
 
   - [Table ErrorCategory dans Lync Server 2013](lync-server-2013-errorcategory-table.md)
 
-  - [Table ErrorDef dans Lync Server 2013](lync-server-2013-errordef-table.md)
+  - [Table table errordef dans Lync Server 2013](lync-server-2013-errordef-table.md)
 
   - [Table ErrorReport dans Lync Server 2013](lync-server-2013-errorreport-table.md)
 
@@ -81,33 +81,33 @@ Les rubriques suivantes décrivent en détail les colonnes dans chaque table de 
 
   - [Table FocusJoinsAndLeaves dans Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [Table frontale dans Lync Server 2013](lync-server-2013-frontend-table.md)
+  - [Table FrontEnd dans Lync Server 2013](lync-server-2013-frontend-table.md)
 
-  - [Table Gateways dans Lync Server 2013](lync-server-2013-gateways-table.md)
+  - [Tableau des passerelles dans Lync Server 2013](lync-server-2013-gateways-table.md)
 
-  - [Table HardwareVersions dans Lync Server 2013](lync-server-2013-hardwareversions-table.md)
+  - [Table table hardwareversions dans Lync Server 2013](lync-server-2013-hardwareversions-table.md)
 
   - [Table IMReportSummary dans Lync Server 2013](lync-server-2013-imreportsummary-table.md)
 
-  - [Table Locations dans Lync Server 2013](lync-server-2013-locations-table.md)
+  - [Table locations dans Lync Server 2013](lync-server-2013-locations-table.md)
 
   - [Table Manufacturers dans Lync Server 2013](lync-server-2013-manufacturers-table.md)
 
   - [Table McuJoinsAndLeaves dans Lync Server 2013](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [Table Mcus dans Lync Server 2013](lync-server-2013-mcus-table.md)
+  - [Table MCU dans Lync Server 2013](lync-server-2013-mcus-table.md)
 
   - [Table Media dans Lync Server 2013](lync-server-2013-media-table.md)
 
-  - [Table MediaList dans Lync Server 2013](lync-server-2013-medialist-table.md)
+  - [Table médial dans Lync Server 2013](lync-server-2013-medialist-table.md)
 
-  - [Table MediationServers dans Lync Server 2013](lync-server-2013-mediationservers-table.md)
+  - [Table table mediationservers dans Lync Server 2013](lync-server-2013-mediationservers-table.md)
 
-  - [Table MSMQProcessing dans Lync Server 2013](lync-server-2013-msmqprocessing-table.md)
+  - [Table table msmqprocessing dans Lync Server 2013](lync-server-2013-msmqprocessing-table.md)
 
-  - [Table !Phones dans Lync Server 2013](lync-server-2013-phones-table.md)
+  - [Table téléphones dans Lync Server 2013](lync-server-2013-phones-table.md)
 
-  - [Table Pools dans Lync Server 2013](lync-server-2013-pools-table.md)
+  - [Table pools dans Lync Server 2013](lync-server-2013-pools-table.md)
 
   - [Table ProgressReport dans Lync Server 2013](lync-server-2013-progressreport-table.md)
 
@@ -123,19 +123,19 @@ Les rubriques suivantes décrivent en détail les colonnes dans chaque table de 
 
   - [Table SIPResponseMetaData dans Lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Table syndicators dans Lync Server 2013](lync-server-2013-syndicators-table.md)
+  - [Table table syndicators dans Lync Server 2013](lync-server-2013-syndicators-table.md)
 
-  - [Table SyndicatorsTenantMap dans Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
+  - [Table table syndicatorstenantmap dans Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Tableau de tâches dans Lync Server 2013](lync-server-2013-task-table.md)
+  - [Table de tâches dans Lync Server 2013](lync-server-2013-task-table.md)
 
-  - [Table Tenants dans Lync Server 2013](lync-server-2013-tenants-table.md)
+  - [Table locataires dans Lync Server 2013](lync-server-2013-tenants-table.md)
 
   - [Table UriTypes dans Lync Server 2013](lync-server-2013-uritypes-table.md)
 
-  - [Table Users dans Lync Server 2013](lync-server-2013-users-table.md)
+  - [Table users dans Lync Server 2013](lync-server-2013-users-table.md)
 
-  - [Table UserAgentDef dans Lync Server 2013](lync-server-2013-useragentdef-table.md)
+  - [Table table useragentdef dans Lync Server 2013](lync-server-2013-useragentdef-table.md)
 
   - [Table UserStatistics dans Lync Server 2013](lync-server-2013-userstatistics-table.md)
 

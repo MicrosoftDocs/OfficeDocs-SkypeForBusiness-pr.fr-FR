@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour le serveur de médiation'
+title: 'Lync Server 2013 : composants et topologies pour le serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9369c7ab74f19b8ccc53ff0c071e0458b21e6e0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742614"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Composants et topologies utilisés pour le serveur de médiation dans Lync Server 2013
+# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Composants et topologies pour le serveur de médiation dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41742614"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Cette rubrique décrit les composants sur lesquels le serveur de médiation dépend et les topologies dans lesquelles il est possible de déployer le serveur de médiation.
+Cette rubrique décrit les composants dont dépend le serveur de médiation et les topologies dans lesquelles le serveur de médiation peut être déployé.
 
 <div>
 
 ## <a name="dependencies"></a>Dépendances
 
-Le serveur de médiation a les dépendances suivantes :
+Le serveur de médiation présente les dépendances suivantes :
 
-  - **Autorités.** Requis. Le Bureau d’enregistrement est le tronçon suivant de signalisation dans les interactions du serveur de médiation avec le réseau Lync Server 2013. Notez que le serveur de médiation peut être localisé sur un serveur frontal conjointement au bureau d’enregistrement, en plus d’être installé dans un pool autonome composé uniquement de serveurs de médiation. Le Bureau d’enregistrement est colocalisé par un serveur de médiation et une passerelle RTC sur une unité de branchement Survivable.
+  - **Inscriptions.** Obligatoire. Le serveur d’inscriptions est le tronçon suivant pour la signalisation dans les interactions du serveur de médiation avec le réseau Lync Server 2013. Notez que le serveur de médiation peut être colocalisé sur un serveur frontal avec le serveur d’inscriptions, en plus d’être installé dans un pool autonome constitué uniquement de serveurs de médiation. Le serveur d’inscriptions est colocalisé avec un serveur de médiation et une passerelle PSTN sur un Survivable Branch appliance.
 
-  - **Serveur de surveillance.** Facultatif, mais fortement recommandé. Le serveur de surveillance permet au serveur de médiation d’enregistrer les mesures de qualité associées à ses sessions multimédias.
+  - **Serveur de surveillance.** Facultatif mais fortement recommandé. Le serveur de surveillance permet au serveur de médiation d’enregistrer les mesures de qualité associées à ses sessions multimédia.
 
-  - **Serveur Edge.** Requis pour la prise en charge des utilisateurs externes. Le serveur Edge permet au serveur de médiation d’interagir avec des utilisateurs situés derrière un NAT ou un pare-feu.
+  - **Serveur Edge.** Obligatoire pour la prise en charge des utilisateurs externes. Le serveur Edge permet au serveur de médiation d’interagir avec les utilisateurs situés derrière un NAT ou un pare-feu.
 
 </div>
 
@@ -57,37 +57,37 @@ Le serveur de médiation a les dépendances suivantes :
 
 ## <a name="topologies"></a>Topologies
 
-Le serveur Lync Server 2013, médiation Server est par défaut colocalisé avec une instance du Bureau d’enregistrement sur un serveur Standard Edition Server, un pool frontal ou une unité de branchement Survivable. Tous les serveurs de médiation dans un pool frontal doivent être configurés de la même manière.
+Le serveur de médiation Lync Server 2013 est colocalisé par défaut avec une instance du serveur d’inscriptions sur un serveur Standard Edition, un pool frontal ou un Survivable Branch appliance. Tous les serveurs de médiation d’un pool frontal doivent être configurés de manière identique.
 
-Lorsque la performance est un problème, il peut être préférable de déployer un ou plusieurs serveurs de médiation dans un pool autonome dédié. Par contre, si vous déployez le trunking SIP, nous vous recommandons de déployer un pool de serveurs de médiation autonome.
+Lorsque les performances sont problématiques, il peut être préférable de déployer un ou plusieurs serveurs de médiation dans un pool autonome dédié. Ou, si vous déployez une jonction SIP, nous vous recommandons de déployer un pool de serveurs de médiation autonome.
 
-Si vous déployez des connexions SIP directes vers une passerelle RTC qualifiée qui prend en charge le contournement du contenu multimédia et l’équilibrage de charge DNS, vous n’avez pas besoin d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool.
+Si vous déployez des connexions SIP directes vers une passerelle PSTN qualifiée qui prend en charge la déviation du trafic multimédia et l’équilibrage de la charge DNS, un pool de serveurs de médiation autonomes n’est pas nécessaire. Si vous déployez des connexions Direct SIP sur une passerelle multimédia PSTN qualifiée prenant en charge le contournement du média et l‘équilibrage de charge DNS, un pool de serveurs de médiation autonome n‘est pas nécessaire, car les passerelles qualifiées sont capables d‘effectuer l‘équilibrage de charge DNS sur un pool de serveurs de médiation et recevoir du trafic provenant d‘un des serveurs du pool.
 
-Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie :
+Il est également recommandé de colocaliser le serveur de médiation sur un pool frontal lorsque vous avez déployé des systèmes IP-PBX ou que vous vous êtes connecté(e) au contrôleur SBC (Session Border Controller) d‘un fournisseur ITSP (Internet Telephony Server Provider), à condition de respecter les indications suivantes :
 
-  - Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
+  - Le système IP-PBX ou le contrôleur SBC est configuré pour recevoir du trafic de n’importe quel serveur de médiation du pool et peut acheminer les données de ce trafic de manière uniforme sur tous les serveurs de médiation du pool.
 
-  - Le PBX IP ne prend pas en charge la dérivation multimédia, mais le pool frontal qui héberge le serveur de médiation peut gérer le transcodage de la voix pour les appels pour lesquels aucune dérivation de média ne s’applique.
+  - Le système IP-PBX ne prend pas en charge la déviation du trafic multimédia, mais le pool frontal qui héberge le serveur de médiation peut gérer le transcodage des communications vocales pour les appels auxquels la déviation du trafic multimédia ne s’applique pas.
 
-Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour déterminer si le pool frontal sur lequel vous souhaitez collocate le serveur de médiation peut gérer le chargement. Si votre environnement ne peut pas répondre à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
+Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour évaluer si le pool frontal où vous souhaitez colocaliser le serveur de médiation peut gérer la charge. Si votre environnement ne remplit pas les conditions requises, vous devez alors déployer un pool de serveurs de médiation autonome.
 
 Pour plus d’informations sur la topologie à déployer, voir [instructions de déploiement pour le serveur de médiation dans Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
-La figure suivante montre une topologie simple constituée de deux sites connectés par une liaison de réseau étendu. Le serveur de médiation est colocalisé avec le Bureau d’enregistrement sur un pool frontal sur le site 1. Les serveurs de médiation du site 1 contrôlent à la fois la passerelle RTC sur le site 1 et la passerelle sur le site 2. Dans cette topologie, la déviation du trafic multimédia est activée globalement afin d’utiliser les informations de site et de région, et le contournement est activé sur les jonctions vers chaque passerelle RTC (GW1 et GW2).
+La figure suivante montre une topologie simple constituée de deux sites connectés par une liaison WAN. Le serveur de médiation est colocalisé avec le serveur d’inscriptions sur un pool frontal sur le site 1. Les serveurs de médiation du site 1 contrôlent à la fois la passerelle PSTN sur le site 1 et la passerelle sur le site 2. Dans cette topologie, le contournement de média est activé globalement afin d’utiliser les informations de site et de région, et le contournement est activé sur les jonctions vers chaque passerelle PSTN (GW1 et GW2).
 
-**Exemple de sites connectés par une liaison de réseau étendu avec un serveur de médiation pour Site 1 et une passerelle RTC pour Site 2**
+**Exemple de sites connectés par une liaison WAN avec un serveur de médiation sur Site 1 et une passerelle PSTN sur Site 2**
 
-![Topologie vocale avec passerelle du réseau WAN du serveur de médiation](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Topologie vocale avec passerelle du réseau WAN du serveur de médiation")
+![Topologie vocale avec passerelle WAN de serveur de médiation](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Topologie vocale avec passerelle WAN de serveur de médiation")
 
-La figure suivante illustre une topologie simple dans laquelle le serveur de médiation est colocalisé avec le Bureau d’enregistrement de niveau frontal sur le site 1 et dispose d’une connexion SIP directe au PBX IP sur le site 1. Dans cette figure, le serveur de médiation contrôle également une passerelle RTC sur le site 2. Supposez que les utilisateurs de Lync existent sur les sites 1 et 2. Par ailleurs, supposez que le PBX IP possède un processeur de média associé qui doit être parcouru par tous les éléments multimédias provenant de points de terminaison Lync avant d’être envoyés aux points de terminaison multimédias contrôlés par le PBX IP. Dans cette topologie, la déviation du trafic multimédia est activée globalement pour utiliser les informations de site et de région, et il est activé pour les jonctions vers la passerelle PBX et RTC.
+La figure suivante montre une topologie simple dans laquelle le serveur de médiation est colocalisé avec le serveur d’inscriptions sur le pool frontal sur le site 1 et dispose d’une connexion SIP directe vers le PBX IP sur le site 1. Dans cette illustration, le serveur de médiation contrôle également une passerelle RTC sur le site 2. Supposons que des utilisateurs Lync existent sur les sites 1 et 2. Supposons également que le système IP-PBX possède un processeur multimédia associé qui doit être traversé par tous les médias provenant de points de terminaison Lync avant d’être envoyés aux points de terminaison multimédias contrôlés par le système IP-PBX. Dans cette topologie, le contournement de média est activé globalement pour utiliser les informations de site et de région, et il est activé pour les jonctions vers la passerelle PBX et PSTN.
 
-**Exemple de sites connectés par une liaison de réseau étendu avec un serveur de médiation pour Site 1 et un PBX pour Site 2**
+**Exemple de sites connectés par une liaison WAN avec un serveur de médiation sur Site 1 et un PBX sur Site 2**
 
-![PBX WAN du serveur de médiation vocale](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "PBX WAN du serveur de médiation vocale")
+![Serveur de médiation de topologie vocale-PBX WAN](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "Serveur de médiation de topologie vocale-PBX WAN")
 
-Pour plus d’informations sur la planification des topologies PBX, voir [instructions de déploiement pour le serveur de médiation dans Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) et [options de déploiement SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md).
+Pour plus d’informations sur la planification des topologies PBX, voir [Deployment Guidelines for Mediation Server in Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) et [direct SIP Deployment options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md).
 
-La dernière figure de cette rubrique montre une topologie dans laquelle le serveur de médiation est connecté à l’SBC d’un fournisseur de services de téléphonie Internet. Pour plus d’informations sur les topologies du Trunk SIP, consultez l’une des [lignes SIP dans Lync Server 2013](lync-server-2013-sip-trunking.md).
+La dernière figure de cette rubrique montre une topologie à laquelle le serveur de médiation est connecté à l’SBC d’un fournisseur de services de téléphonie Internet. Pour plus d’informations sur les topologies de jonction SIP, voir [SIP Trunking in Lync Server 2013](lync-server-2013-sip-trunking.md).
 
 </div>
 

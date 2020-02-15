@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Colocalisation de serveur prise en charge pour les composants Edge'
+title: 'Lync Server 2013 : colocalisation des serveurs pris en charge pour les composants Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc12e442be98ba1fd962634460200ce749aca3d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e52d1c630bba8c93193c2e309d4d3299f45a6388
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731664"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41731664"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Service Edge d’accès, service Edge de conférence Web, service Edge A/V et service proxy XMPP. Les serveurs suivants fournissent les fonctions requises pour l’accès des utilisateurs externes et doivent être déployées en tant que serveurs dédiés :
+Le service Edge d’accès, le service Edge de conférence Web, le service Edge A/V et le service proxy XMPP sont colocalisés sur les serveurs Edge. Les serveurs suivants fournissent les fonctions nécessaires à l’accès des utilisateurs externes et doivent être déployés en tant que serveurs dédiés :
 
-  - serveur Edge
+  - Serveur Edge
 
-  - Director (facultatif)
+  - Directeur (facultatif)
 
   - Proxy inverse
 
@@ -49,7 +49,7 @@ Service Edge d’accès, service Edge de conférence Web, service Edge A/V et se
 
 
 > [!IMPORTANT]  
-> Il n’est pas nécessaire de dédier le proxy inverse au service Lync Server 2013 uniquement. Par exemple, vous pouvez fournir des services pour publier les services Web de Lync Server et fournir simultanément un site Web publié pour un autre site Web qui n’est pas du tout porteur sur Lync Server. Si vous disposez déjà d’un serveur proxy inverse dans le réseau de périmètre pour prendre en charge d’autres services, vous pouvez l’utiliser pour Lync Server 2013.
+> Le proxy inverse n’a pas besoin d’être dédié pour servir uniquement Lync Server 2013. Par exemple, vous pouvez fournir des services pour publier les services Web Lync Server et fournir simultanément un site Web publié pour un autre site Web qui n’a aucune incidence sur Lync Server. Si vous disposez déjà d’un serveur proxy inverse dans le réseau de périmètre pour prendre en charge d’autres services, vous pouvez l’utiliser pour Lync Server 2013.
 
 
 

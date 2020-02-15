@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration technique requise pour l’application Annonces'
+title: 'Lync Server 2013 : configuration technique requise pour l’application d’annonce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da328ef485d4dcc8bdac316aa31cef8880525c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746514"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022445"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Configuration technique requise pour l’application Annonces dans Lync Server 2013
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Configuration technique requise pour l’application d’annonce dans Lync Server 2013
 
 </div>
 
@@ -45,13 +45,13 @@ Cette section décrit les exigences techniques suivantes pour l’application d�
 
   - Conditions requises en matière de ports
 
-  - Configuration requise pour le fichier audio
+  - Conditions requises pour les fichiers audio
 
 <div>
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 
-La configuration matérielle requise pour l’application d’annonce est identique à celle des serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [plates-formes matérielles pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation relative à la prise en charge.
+L’application d’annonce a les mêmes besoins en matière de matériel que les serveurs frontaux. Pour plus d’informations sur la configuration matérielle requise, voir [Server Hardware Platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) dans la documentation de prise en charge.
 
 </div>
 
@@ -59,9 +59,9 @@ La configuration matérielle requise pour l’application d’annonce est identi
 
 ## <a name="software-requirements"></a>Configuration logicielle requise
 
-La configuration requise pour le système d’exploitation et les composants logiciels requis par le biais de l’application d’annonce sont les mêmes. Pour plus d’informations sur la configuration logicielle requise, voir [prise en charge du système d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.
+L’application d’annonce présente les mêmes exigences en matière de système d’exploitation et de logiciels que les serveurs frontaux. Pour plus d’informations sur la configuration logicielle requise, voir [serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation de prise en charge.
 
-Tous les serveurs front-end ou les serveurs Standard Edition qui exécutent l’application d’annonce doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows. Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media audio (. WMA) que l’application d’annonce exécute pour les annonces et la musique.
+Windows Media Format Runtime doit être installé sur tous les serveurs frontaux ou les serveurs Standard Edition qui exécutent l’application d’annonce pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de l’expérience Bureau Windows. Le module d’exécution du format Windows Media ou Microsoft Media Foundation est requis pour les fichiers audio Windows Media (. WMA) que l’application d’annonce joue pour les annonces et la musique.
 
 </div>
 
@@ -77,7 +77,7 @@ L’application d’annonce utilise le port suivant :
 
 
 > [!NOTE]  
-> Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant l’applet de commande <STRONG>Set-CsApplicationServer</STRONG>. Pour plus d’informations sur cette applet de connexion, consultez la documentation Lync Server Management Shell.
+> Ce port est le paramètre par défaut, que vous pouvez modifier en utilisant la cmdlet <STRONG>Set-CsApplicationServer</STRONG>. Pour plus d’informations sur cette applet de commande, voir la documentation de Lync Server Management Shell.
 
 
 
@@ -89,7 +89,7 @@ L’application d’annonce utilise le port suivant :
 
 ## <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application d’annonce prend en charge le format de fichier Wave (. wav) et le format de fichier Windows Media audio (. WMA) pour la musique et les annonces. La configuration requise pour le fichier audio pour l’application d’annonce est identique à celle de l’application Response Group. Pour plus d’informations, voir [configuration technique requise pour Response Group dans Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
+L’application annonce prend en charge le format de fichier Wave (. wav) et le format de fichier audio Windows Media (. WMA) pour la musique et les annonces. Les exigences en matière de fichiers audio pour l’application d’annonce sont les mêmes que pour l’application Response Group. Pour plus d’informations, voir [Technical Requirements for Response Group dans Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
 
 </div>
 

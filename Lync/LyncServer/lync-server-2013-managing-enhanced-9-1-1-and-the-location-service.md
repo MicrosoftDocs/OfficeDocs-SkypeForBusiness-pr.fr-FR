@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion du service Enhanced 9-1-1 et du service d’emplacement'
+title: 'Lync Server 2013 : gestion des fonctionnalités améliorées de 9-1-1 et du service d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251d76cd7fcdc04834dbab3146ac39847630f45c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6ea5107ddbcc4e98473f58c43d10fe8f745b2e64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729284"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41729284"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Lync Server 2013 prend en charge les appels Enhanced 9-1-1 (E9-1-1) à partir des clients Lync et des appareils Lync Phone Edition. Lorsque vous configurez Lync Server 2013 pour E9-1-1, les appels d’urgence placés dans Lync 2013 ou Lync Phone Edition incluent des informations de lieu de réponse d’urgence (ERL) de la base de données de service des informations d’emplacement. Suivez les procédures décrites dans cette section pour gérer la stratégie d’emplacement.
+Lync Server 2013 prend en charge l’appel Enhanced 9-1-1 (E9-1-1) à partir des clients Lync et des appareils Lync Phone Edition. Lorsque vous configurez Lync Server 2013 pour E9-1-1, les appels d’urgence passés à partir de Lync 2013 ou Lync Phone Edition incluent des informations de lieu d’intervention d’urgence (ERL) à partir de la base de données du service informations d’emplacement. Utilisez les procédures indiquées dans cette section pour gérer la stratégie d’emplacement.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur le déploiement de fonctionnalités avancées d’entreprise voix, telles que E9-1-1 et le service d’information d’emplacement, voir <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">déploiement de fonctionnalités avancées d’entreprise voix dans Lync Server 2013</A>.
+> Pour plus d’informations sur le déploiement des fonctionnalités avancées de voix entreprise, telles que E9-1-1 et location information service, reportez-vous à la rubrique <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying Advanced Enterprise Voice Features in Lync Server 2013</A>.
 
 
 

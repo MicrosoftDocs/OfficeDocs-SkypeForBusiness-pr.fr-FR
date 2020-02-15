@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Gestion des partenaires fédérés XMPP pour l’organisation'
+title: 'Lync Server 2013 : gestion des partenaires fédérés XMPP pour votre organisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ea1e2993ed168ece718864f4167815e799605d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733254"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Gestion des partenaires fédérés XMPP dans Lync Server 2013
+# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Gérer les partenaires fédérés XMPP dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41733254"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
+Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
-Pour gérer la prise en charge des utilisateurs de domaines fédérés XMPP, vous devez effectuer les opérations suivantes :
+Pour gérer la prise en charge des utilisateurs des domaines fédérés XMPP, procédez comme suit :
 
-  - Configurez une ou plusieurs stratégies d’accès externe pour la prise en charge des utilisateurs des domaines fédérés XMPP.
+  - Configurez une ou plusieurs stratégies d’accès externes pour prendre en charge les utilisateurs XMPP des domaines fédérés.
 
-  - Configurer une stratégie de configuration de Microsoft Edge pour prendre en charge la Fédération.
+  - Configurez la stratégie de configuration de serveur Edge d’accès pour prendre en charge la fédération.
 
-  - Créer des définitions de partenaires fédérés de XMPP.
+  - Créez des définitions de partenaires fédérés XMPP.
 
-  - Comprendre les paramètres de négociation disponibles pour la Fédération XMPP.
+  - Identifiez les paramètres de négociation disponibles pour la fédération XMPP.
 
-Pour effectuer ces tâches, suivez les procédures décrites dans cette section.
+Pour effectuer ces tâches, utilisez les procédures décrites dans cette section.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Créer ou modifier une configuration de partenaire XMPP dans Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
+  - [Créer ou modifier la configuration d’un partenaire XMPP dans Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
 
   - [Paramètres de négociation pour les partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des notifications push'
+title: 'Lync Server 2013 : configuration des notifications de type transmission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34b49d6c968effa46005a01df286d14fcff394c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f92ae27b919df6a32f06921df97746680a68b030
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configuration des notifications push dans Lync Server 2013
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configuration des notifications de type transmission dans Lync Server 2013
 
 </div>
 
@@ -37,50 +37,50 @@ ms.locfileid: "41728984"
 
 _**Dernière modification de la rubrique :** 2013-02-12_
 
-Les notifications de transmission sous forme de badges, d’icônes ou d’alertes peuvent être envoyées à un appareil mobile même lorsque l’application mobile n’est pas active. Les notifications de transmission avertissent un utilisateur d’événements tels qu’une invitation à la messagerie instantanée, une invitation à une nouvelle ou une messagerie vocale. Le service de mobilité Lync Server 2013 envoie les notifications au service de notifications de transmission Lync Server via le Cloud, qui envoie ensuite les notifications au service de notifications de transmission d’Apple (APNS) (pour un appareil Apple exécutant le client mobile Lync 2010) ou le Service de notifications d’appel Microsoft (MPNS) (pour un appareil Windows Phone exécutant l’application mobile Lync 2010 ou le client mobile Lync 2013).
+Des notifications push, sous forme de badges, icônes ou alertes, peuvent être envoyées à un appareil mobile même si l’application mobile est inactive. Ces notifications signalent à un utilisateur qu’un événement s’est produit, par exemple une invitation par messagerie instantanée nouvelle ou manquée, ou un message vocal. Le service de mobilité Lync Server 2013 envoie les notifications au service de notifications distribuées Lync Server basé sur un nuage, qui envoie ensuite les notifications au service de notifications d’Apple (APNS) Apple (pour un appareil Apple exécutant le client mobile Lync 2010) ou le Microsoft transmission notification service (MPNS) (pour un appareil Windows Phone exécutant Lync 2010 mobile ou le client mobile Lync 2013).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si vous utilisez un téléphone Windows Phone avec Lync 2010 mobile ou Lync 2013 mobile, la notification de transmission est une considération importante.<BR>Si vous utilisez Lync 2010 mobile sur des appareils Apple, vous devez tenir compte des notifications de transmission.<BR>Si vous utilisez Lync 2013 mobile sur des appareils Apple, vous n’avez plus besoin d’une notification de transmission.
+> Si vous utilisez Windows Phone avec Lync 2010 mobile ou Lync 2013 mobile client, la notification de transmission est une considération importante.<BR>Si vous utilisez Lync 2010 mobile sur des appareils Apple, la notification de transmission est une considération importante.<BR>Si vous utilisez Lync 2013 mobile sur des appareils Apple, vous n’avez plus besoin d’une notification de transmission.
 
 
 
 </div>
 
-Configurez votre topologie pour prendre en charge les notifications de transmission en procédant comme suit :
+Vous pouvez configurer votre topologie de sorte qu’elle prenne en charge les notifications push en procédant comme suit :
 
-  - Si votre environnement possède un serveur Edge Lync Server 2010 ou Lync Server 2013, vous devez ajouter un nouveau fournisseur d’hébergement, Microsoft Lync Online, puis configurer la Fédération des fournisseurs d’hébergement entre votre organisation et Lync Online.
+  - Si votre environnement comporte un serveur Edge Lync Server 2010 ou Lync Server 2013, vous devez ajouter un nouveau fournisseur d’hébergement, Microsoft Lync Online, puis configurer la Fédération des fournisseurs d’hébergement entre votre organisation et Lync Online.
 
-  - Si votre environnement possède un serveur Edge Office Communications Server 2007 R2, vous devez configurer la Fédération SIP directe avec push.lync.com.
+  - Si votre environnement est doté d’un serveur Edge Office Communications Server 2007 R2, vous devez configurer la Fédération SIP directe avec push.lync.com.
     
     <div>
     
 
     > [!NOTE]  
-    > Push.lync.com est un domaine Microsoft Office 365 pour le service de notifications de transmission.
+    > Push.lync.com est un domaine Microsoft Office 365 pour le service de notifications push.
 
     
     </div>
 
-  - Pour activer les notifications de transmission, vous devez exécuter l’applet **de cmdlet Set-CsPushNotificationConfiguration** . Par défaut, les notifications push sont désactivées.
+  - Pour activer les notifications push, vous devez exécuter l’applet de commande **Set-CsPushNotificationConfiguration**. Par défaut, les notifications push sont désactivées.
 
-  - Testez la configuration de la Fédération et les notifications de transmission.
+  - Testez la configuration de fédération et les notifications push.
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>Pour configurer les notifications de transmission avec Lync Server 2013 ou Lync Server 2010 Edge Server
+## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>Pour configurer les notifications de type transmission avec Lync Server 2013 ou Lync Server 2010 serveur Edge
 
-1.  Connectez-vous à un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du groupe RtcUniversalServerAdmins.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du groupe RtcUniversalServerAdmins.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Ajoutez un fournisseur d’hébergement Lync Server online. Dans la ligne de commande, tapez :
+3.  Ajoutez un fournisseur d’hébergement Lync Server online. Sur la ligne de commande, tapez :
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
-    Exemple :
+    Par exemple :
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
@@ -88,12 +88,12 @@ Configurez votre topologie pour prendre en charge les notifications de transmiss
     
 
     > [!NOTE]  
-    > Vous ne pouvez pas avoir plusieurs relations de Fédération avec un seul fournisseur d’hébergement. Autrement dit, si vous avez déjà configuré un fournisseur d’hébergement ayant une relation de Fédération avec sipfed.online.lync.com, n’ajoutez pas d’autre fournisseur d’hébergement, même si l’identité du fournisseur d’hébergement n’est pas LyncOnline.
+    > Vous ne pouvez pas avoir plus d’une relation de fédération avec un même fournisseur d’hébergement. Autrement dit, si vous avez déjà configuré un fournisseur d’hébergement ayant une relation de fédération avec sipfed.online.lync.com, vous ne devez pas ajouter d’autre fournisseur d’hébergement, même si l’identité du fournisseur d’hébergement est différente de LyncOnline.
 
     
     </div>
 
-4.  Configurez la Fédération des fournisseurs d’hébergement entre votre organisation et le service de notifications de transmission de Lync Online. À partir de la ligne de commande, tapez :
+4.  Configurez la fédération de fournisseurs d’hébergement entre votre organisation et le service de notifications push de Lync Online. Sur la ligne de commande, tapez :
     
         New-CsAllowedDomain -Identity "push.lync.com"
 
@@ -101,21 +101,21 @@ Configurez votre topologie pour prendre en charge les notifications de transmiss
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>Pour configurer les notifications de transmission avec un serveur Edge Office Communications Server 2007 R2
+## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>Pour configurer les notifications de type transmission avec le serveur Edge Office Communications Server 2007 R2
 
 1.  Ouvrez une session sur le serveur Edge en tant que membre du groupe RtcUniversalServerAdmins.
 
-2.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Outils d’administration**, puis sur gestion de l' **ordinateur**.
+2.  Cliquez sur **Démarrer**, sur **Tous les programmes**, sur **Outils d’administration**, puis sur **Gestion de l’ordinateur**.
 
-3.  Dans l’arborescence de la console, développez **services et applications**, cliquez avec le bouton droit sur **Microsoft Office Communications Server 2007 R2**, puis cliquez sur **Propriétés**.
+3.  Dans l’arborescence de la console, développez **Services et applications**, cliquez avec le bouton droit sur **Microsoft Office Communications Server 2007 R2**, puis cliquez sur **Propriétés**.
 
-4.  Dans l’onglet **autoriser** , cliquez sur **Ajouter**.
+4.  Sous l’onglet **Autoriser**, cliquez sur **Ajouter**.
 
-5.  Dans la boîte de dialogue **Ajouter un partenaire fédéré** , procédez comme suit :
+5.  Dans la boîte de dialogue **Ajouter un partenaire fédéré**, procédez comme suit :
     
-      - Dans **nom de domaine du partenaire fédéré**, entrez **push.Lync.com**.
+      - Dans **Nom de domaine du partenaire fédéré**, tapez **push.lync.com**.
     
-      - Dans **serveur Edge d’accès du partenaire fédéré**, entrez **sipfed.online.Lync.com**.
+      - Dans **Serveur Edge d’accès du partenaire fédéré**, tapez **sipfed.online.lync.com**.
     
       - Cliquez sur **OK**.
 
@@ -123,17 +123,17 @@ Configurez votre topologie pour prendre en charge les notifications de transmiss
 
 <div>
 
-## <a name="to-enable-push-notifications"></a>Pour activer les notifications de transmission
+## <a name="to-enable-push-notifications"></a>Pour activer les notifications push
 
-1.  Connectez-vous à un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Activez les notifications de transmission. À partir de la ligne de commande, tapez :
+3.  Activez les notifications push. Sur la ligne de commande, tapez :
     
         Set-CsPushNotificationConfiguration -EnableApplePushNotificationService $True -EnableMicrosoftPushNotificationService $True
 
-4.  Activez la Fédération. À partir de la ligne de commande, tapez :
+4.  Activez la fédération. Sur la ligne de commande, tapez :
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -141,25 +141,25 @@ Configurez votre topologie pour prendre en charge les notifications de transmiss
 
 <div>
 
-## <a name="to-test-federation-and-push-notifications"></a>Pour tester la Fédération et les notifications de transmission
+## <a name="to-test-federation-and-push-notifications"></a>Pour tester la fédération et les notifications push
 
-1.  Connectez-vous à un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
+1.  Ouvrez une session sur un ordinateur sur lequel Lync Server Management Shell et OCSCore sont installés en tant que membre du rôle CsAdministrator.
 
-2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-3.  Testez la configuration de la Fédération. Dans la ligne de commande, tapez :
+3.  Testez la configuration de la fédération. Sur la ligne de commande, tapez :
     
         Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
     
-    Exemple :
+    Par exemple :
     
         Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
 
-4.  Testez les notifications de transmission. Dans la ligne de commande, tapez :
+4.  Testez les notifications push. Sur la ligne de commande, tapez :
     
         Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
     
-    Exemple :
+    Par exemple :
     
         Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
 

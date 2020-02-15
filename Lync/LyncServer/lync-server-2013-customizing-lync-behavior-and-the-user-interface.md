@@ -12,16 +12,16 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d5b006c14932e011fc0921c2f0a92933515e5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728714"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41728714"
 
 _**Dernière modification de la rubrique :** 2013-03-22_
 
-Cette section explique comment ajouter des fonctionnalités personnalisées à Lync 2013.
+Cette section décrit comment ajouter des fonctionnalités personnalisées à Lync 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Configuration des paramètres de plage de ports multimédia dans Lync Server 2013](lync-server-2013-configuring-media-port-range-settings.md)
+  - [Configuration des paramètres de plage de ports multimédias dans Lync Server 2013](lync-server-2013-configuring-media-port-range-settings.md)
 
-  - [Ajouter des commandes aux menus Lync dans Lync Server 2013](lync-server-2013-adding-commands-to-lync-menus.md)
+  - [Ajout de commandes aux menus Lync dans Lync Server 2013](lync-server-2013-adding-commands-to-lync-menus.md)
 
   - [Intégration d’une application de collaboration tierce avec Lync Server 2013](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 
@@ -53,7 +53,7 @@ Cette section explique comment ajouter des fonctionnalités personnalisées à L
 
   - [Ajout d’un lien personnalisé à des messages d’erreur Lync dans Lync Server 2013](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
 
-  - [Ajout de texte personnalisé dans des messages instantanés dans Lync Server 2013](lync-server-2013-adding-custom-text-to-instant-messages.md)
+  - [Ajout de texte personnalisé aux messages instantanés dans Lync Server 2013](lync-server-2013-adding-custom-text-to-instant-messages.md)
 
   - [Démarrage de Lync à partir d’une autre application](lync-server-2013-starting-lync-from-another-application.md)
 
