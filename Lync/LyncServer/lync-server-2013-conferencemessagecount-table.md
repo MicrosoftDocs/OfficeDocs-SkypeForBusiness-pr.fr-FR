@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table ConferenceMessageCount'
+title: 'Lync Server 2013 : table ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e13f45936f210085361624a0d884f507a88e0d35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41740024"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-Chaque enregistrement de cette table représente un utilisateur au sein d’une conférence par messagerie instantanée et inclut le nombre de messages envoyés par cet utilisateur. Chaque conférence est représentée par plusieurs enregistrements dans ce tableau ; un enregistrement pour chaque utilisateur.
+Chaque enregistrement de cette table représente un utilisateur dans une conférence par messagerie instantanée et indique le nombre de messages envoyés par cet utilisateur. Chaque conférence est représentée par plusieurs enregistrements dans cette table ; un enregistrement pour chaque utilisateur.
 
 
 <table>
@@ -51,7 +51,7 @@ Chaque enregistrement de cette table représente un utilisateur au sein d’une 
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,20 +59,20 @@ Chaque enregistrement de cette table représente un utilisateur au sein d’une 
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Etranger principal</p></td>
-<td><p>Durée de l’instance de conférence. Utilisé conjointement avec <strong>SessionIdSeq</strong> pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le <a href="lync-server-2013-conferences-table.md">tableau conférences dans Lync Server 2013</a> .</p></td>
+<td><p>Primaire, étrangère</p></td>
+<td><p>Heure de l’instance de conférence. Utilisé conjointement avec <strong>SessionIdSeq</strong> pour identifier une instance de conférence de manière unique. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-conferences-table.md">tableau conférences de Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Etranger principal</p></td>
-<td><p>Numéro d’identification pour identifier l’instance de conférence. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier de manière unique une instance de conférence. Pour plus d’informations, voir le <a href="lync-server-2013-conferences-table.md">tableau conférences dans Lync Server 2013</a> .</p></td>
+<td><p>Primaire, étrangère</p></td>
+<td><p>Numéro d’identification de l’instance de conférence. Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une instance de conférence de manière unique. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-conferences-table.md">tableau conférences de Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externes</p></td>
-<td><p>Numéro unique identifiant cet utilisateur, référencé dans la <a href="lync-server-2013-users-table.md">table utilisateurs de Lync Server 2013</a>.</p></td>
+<td><p>Etranger</p></td>
+<td><p>Numéro unique identifiant cet utilisateur, référencé à partir de la <a href="lync-server-2013-users-table.md">table users dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MessageCount</strong></p></td>

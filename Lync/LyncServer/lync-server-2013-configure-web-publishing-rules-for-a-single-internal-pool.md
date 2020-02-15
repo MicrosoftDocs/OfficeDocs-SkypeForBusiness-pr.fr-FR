@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des règles de publication web pour un pool interne unique'
+title: 'Lync Server 2013 : configuration des règles de publication Web pour un pool interne unique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d87e0096ee71fb08da396188d419e918f66e125
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configuration des règles de publication web pour un pool interne unique dans Lync Server 2013
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurer des règles de publication Web pour un pool interne unique dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41741314"
 
 _**Dernière modification de la rubrique :** 2014-07-07_
 
-Microsoft Forefront Threat Management Gateway 2010 et le routage de requête d’application Internet Information Server (IIS ARR) utilise des règles de publication Web pour publier les ressources internes, telles qu’une URL de réunion, pour les utilisateurs sur Internet.
+Microsoft Forefront Threat Management Gateway 2010 et Internet Information Server application Request Routing (IIS ARR) utilise des règles de publication Web pour publier des ressources internes, telles qu’une URL de réunion, aux utilisateurs sur Internet.
 
-Outre les URL des services Web pour les répertoires virtuels, vous devez également créer des règles de publication pour les URL simples, l’URL LyncDiscover et le serveur Office Web Apps. Pour chaque URL simple, vous devez créer une règle individuelle sur le proxy inverse qui pointe vers cette URL simple.
+En plus des URL des services Web pour les répertoires virtuels, vous devez également créer des règles de publication pour les URL simples, l’URL LyncDiscover et le serveur Office Web Apps. Pour chaque URL simple, vous devez créer une règle individuelle sur le proxy inverse qui pointe sur cette URL simple.
 
-Si vous déployez la mobilité et utilisez la découverte automatique, vous devez créer une règle de publication pour l’URL du service de découverte automatique externe. La découverte automatique nécessite également des règles de publication pour l’URL des services Web Lync Server externes pour votre pool de directeurs et votre pool frontal. Pour plus d’informations sur la création de règles de publication sur le Web pour la découverte automatique, voir [configuration du proxy inverse pour la mobilité dans Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md).
+Si vous déployez la mobilité et que vous utilisez la découverte automatique, vous devez créer une règle de publication pour l’URL du service de découverte automatique externe. La découverte automatique requiert également des règles de publication pour l’URL des services Web Lync Server externes pour votre pool directeur et votre pool frontal. Pour plus d’informations sur la création des règles de publication Web pour la découverte automatique, voir [configuration du proxy inverse pour la mobilité dans Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md).
 
-Utilisez les procédures suivantes pour créer des règles de publication Web.
+Suivez les procédures ci-dessous pour créer des règles de publication web.
 
 <div>
 
 
 > [!NOTE]  
-> Ces procédures présupposent que vous avez installé l’édition standard de Forefront Threat Management Gateway (TMG) 2010 ou que vous avez installé et configuré Internet Information Server avec l’extension de routage de requête d’application (IIS ARR). Vous utilisez TMG ou IIS ARR.
+> Ces procédures supposent que vous avez installé l’édition standard de Forefront Threat Management Gateway (TMG) 2010 ou que vous avez installé et configuré Internet Information Server avec l’extension de routage des demandes d’application (IIS ARR). Vous utilisez TMG ou IIS ARR.
 
 
 
@@ -57,148 +57,148 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 <div>
 
-## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-tmg-2010"></a>Pour créer une règle de publication sur le serveur Web sur l’ordinateur exécutant TMG 2010
+## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-tmg-2010"></a>Pour créer une règle de publication de serveur web sur l’ordinateur qui exécute TMG 2010
 
-1.  Cliquez sur **Démarrer**, cliquez sur **programmes**, sélectionnez **Microsoft Forefront TMG**, puis cliquez sur **gestion de Forefront TMG**.
+1.  Cliquez sur **Démarrer**, sélectionnez **Programmes**, **Microsoft Forefront TMG**, puis cliquez sur **Forefront TMG Management**.
 
-2.  Dans le volet gauche, développez **NomServeur**, cliquez avec le bouton droit sur **stratégie de pare-feu**, sélectionnez **nouveau**, puis cliquez sur règle de **publication de site Web**.
+2.  Dans le volet de gauche, développez **NomServeur**, cliquez avec le bouton droit sur **Stratégie de pare-feu**, sélectionnez **Nouveau**, puis cliquez sur **Règle de publication web**.
 
-3.  Dans la page **Bienvenue dans la nouvelle règle de publication Web** , tapez un nom d’affichage pour la règle de publication (par exemple, LyncServerWebDownloadsRule).
+3.  Dans la page **Assistant Nouvelle règle de publication web**, entrez un nom convivial pour la règle de publication (par exemple, LyncServerWebDownloadsRule).
 
-4.  Dans la page **Sélectionner une action de règle** , sélectionnez **autoriser**.
+4.  Dans la page **Sélectionner l’action de la règle**, sélectionnez **Autoriser**.
 
-5.  Dans la page **type de publication** , sélectionnez **publier un site Web ou un équilibrage de charge unique**.
+5.  Dans la page **Type de publication**, sélectionnez **Publier un seul site web ou équilibreur de charge**.
 
-6.  Dans la page sécurité de la **connexion au serveur** , sélectionnez **utiliser SSL pour se connecter au serveur Web publié ou à la batterie de**serveurs.
+6.  Dans la page **Sécurité de connexion serveur**, sélectionnez **Utiliser SSL pour se connecter au serveur web publié ou à la batterie de serveurs**.
 
-7.  Dans la page Détails de la **publication interne** , tapez le nom de domaine complet (FQDN) de la batterie de serveurs Web interne qui héberge le contenu de la réunion et le contenu de votre carnet d’adresses dans la zone **nom du site interne** .
+7.  Dans la page **Détails de publication interne**, tapez le nom de domaine complet de la batterie de serveurs web internes qui héberge le contenu de réunion et les fichiers de carnet d’adresses dans la zone **Nom du site interne**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si votre serveur interne est un serveur Standard Edition Server, il s’agit du nom de domaine complet Standard Edition Server. S’il s’agit d’un pool frontal, il s’agit d’une adresse IP virtuelle d’équilibrage de charge matérielle qui charge les serveurs internes de batteries de serveurs. Le serveur TMG doit être en mesure de résoudre le nom de domaine complet sur l’adresse IP du serveur Web interne. Si le serveur TMG ne peut pas résoudre le nom de domaine complet (FQDN) en adresse IP appropriée, vous pouvez sélectionner <STRONG>utiliser un nom d’ordinateur ou une adresse IP pour vous connecter au serveur publié</STRONG>, puis, dans la zone nom de l' <STRONG>ordinateur ou</STRONG> <STRONG>adresse IP</STRONG> , tapez l’adresse IP du serveur Web interne. Dans ce cas, vous devez vous assurer que le port 53 est ouvert sur le serveur TMG et qu’il peut accéder à un serveur DNS résidant sur le réseau de périmètre. Vous pouvez également utiliser des entrées dans le fichier hosts local pour fournir une résolution de nom.
+    > Si votre serveur interne est un serveur Standard Edition, ce nom de domaine complet est celui du serveur Standard Edition. Si votre serveur interne est un pool frontal, le nom de domaine complet (FQDN) est une adresse IP virtuelle (VIP) de l’équilibreur de la charge matérielle qui équilibre la charge des serveurs de la batterie de serveurs web internes. Le serveur TMG doit pouvoir résoudre le nom de domaine complet sur l’adresse IP du serveur web interne. Si le serveur TMG ne parvient pas à résoudre le nom de domaine complet (FQDN) en adresse IP correcte, vous pouvez sélectionner <STRONG>utiliser un nom d’ordinateur ou une adresse IP pour se connecter au serveur publié</STRONG>, puis, dans la zone nom de l' <STRONG>ordinateur ou</STRONG> <STRONG>adresse IP</STRONG> , tapez l’adresse IP du serveur Web interne. Dans ce cas, vous devez vous assurer que le port 53 est ouvert sur le serveur TMG et que celui-ci parvient à atteindre un serveur DNS résidant dans le réseau de périmètre. Vous pouvez également utiliser des entrées dans le fichier hôtes local pour permettre la résolution des noms.
 
     
     </div>
 
-8.  Dans la page Détails de la **publication interne** , dans la zone **chemin (facultatif)** , tapez ** / ** le chemin d’accès du dossier à publier.
+8.  Sur la page **Détails de publication interne** , dans la zone **chemin d’accès (facultatif)** , tapez ** / ** comme chemin d’accès du dossier à publier.
     
     <div>
     
 
     > [!NOTE]  
-    > Dans l’Assistant Publication de site Web, vous ne pouvez spécifier qu’un seul chemin. Vous pouvez ajouter des chemins supplémentaires en modifiant les propriétés de la règle.
+    > Dans l’Assistant de publication de sites web, vous ne pouvez indiquer qu’un seul chemin d’accès. Vous pouvez toutefois en ajouter d’autres en modifiant les propriétés de la règle.
 
     
     </div>
 
-9.  Dans la page informations sur le **nom public** , confirmez que **ce nom de domaine** est sélectionné sous **accepter les demandes pour**, tapez le nom de domaine complet (FQDN) des services Web externes dans la zone **nom public** .
+9.  Dans la page **Informations sur les noms publics**, confirmez que **Ce nom de domaine** est bien sélectionné sous **Accepter les demandes pour**, et tapez le nom de domaine complet des services web externes dans la zone **Nom public**.
 
-10. Dans la page **Sélectionner un écouteur Web** , cliquez sur **nouveau** pour ouvrir l’Assistant Nouvelle définition d’écoute Web.
+10. Dans la page **Sélectionnez le port d’écoute**, cliquez sur **Nouveau** pour ouvrir l’Assistant Nouvelle définition de port d’écoute web.
 
-11. Dans la page Bienvenue dans l' **Assistant Nouvelle écoute Web** , tapez un nom pour l’écouteur Web dans la zone **nom de l’écouteur Web** (par exemple, LyncServerWebServers).
+11. Dans la page **Assistant Nouveau port d’écoute web**, tapez le nom du port d’écoute web dans la zone **Nom du port d’écoute web** (par exemple, LyncServerWebServers).
 
-12. Dans la page sécurité de la **connexion client** , sélectionnez **exiger des connexions SSL sécurisées avec les clients**.
+12. Dans la page **Sécurité de la connexion client**, sélectionnez **Exiger des connexions sécurisées SSL avec les clients**.
 
-13. Dans la page **adresse IP de l’écouteur Web** , sélectionnez **externe**, puis cliquez sur **Sélectionner des adresses IP**.
+13. Dans la page **Adresse IP de l’écouteur web**, sélectionnez **Externe**, puis cliquez sur **Sélectionner l’adresse IP**.
 
-14. Dans la page de sélection de l' **écouteur externe** , sélectionnez **adresse IP spécifiée dans l’ordinateur Forefront TMG du réseau sélectionné**, sélectionnez l’adresse IP appropriée, puis cliquez sur **Ajouter**.
+14. Dans la page **Sélection de l’adresse IP de l’écouteur externe**, sélectionnez **Les adresses IP spécifiées inscrites sur l’ordinateur Forefront TMG** qui sont dans le réseau sélectionné, sélectionnez l’adresse IP appropriée, puis cliquez sur **Ajouter**.
 
-15. Sur la page **certificats SSL de l’écouteur** , sélectionnez **attribuer un certificat pour chaque adresse IP**, sélectionnez l’adresse IP associée au FQDN Web externe, puis cliquez sur **Sélectionner un certificat**.
+15. Dans la page **Certificats SSL de l’écouteur**, sélectionnez **Affecter un certificat à chaque adresse IP**, sélectionnez l’adresse IP associée au nom de domaine web complet externe, puis cliquez sur **Sélectionner le certificat**.
 
-16. Dans la page **Sélectionner un certificat** , sélectionnez le certificat correspondant aux noms publics spécifiés à l’étape 9, puis cliquez sur **Sélectionner**.
+16. Dans la page **Sélectionner le certificat**, sélectionnez le certificat qui correspond aux noms publics spécifiés à l’étape 9, puis cliquez sur **Sélectionner**.
 
-17. Dans la page **paramètres d’authentification** , sélectionnez **aucune authentification**.
+17. Dans la page **Paramètre d’authentification**, sélectionnez **Pas d’authentification**.
 
-18. Sur la page des **paramètres de connexion unique** , cliquez sur **suivant**.
+18. Dans la page **Paramètres de l’authentification unique**, cliquez sur **Suivant**.
 
-19. Dans la page **fin de l’Assistant réception de Web** , vérifiez que les paramètres de l' **écouteur** sont corrects, puis cliquez sur **Terminer**.
+19. Dans la page **Fin de l’Assistant Nouveau port d’écoute web**, vérifiez que les paramètres du **port d’écoute web** sont corrects, puis cliquez sur **Terminer**.
 
-20. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement**.
+20. Dans la page **Délégation de l’authentification**, sélectionnez **Aucune délégation pour laisser le client s’authentifier directement**.
 
-21. Dans la page **jeu d’utilisateurs** , cliquez sur **suivant**.
+21. Dans la page **Ensemble d’utilisateurs**, cliquez sur **Suivant**.
 
-22. Dans la page **fin de l’Assistant Nouvelle règle de publication Web** , vérifiez que les paramètres de règle de publication Web sont corrects, puis cliquez sur **Terminer**.
+22. Dans la page **Fin de l’Assistant Nouvelle règle de publication web**, vérifiez que les paramètres de la règle de publication web sont corrects, puis cliquez sur **Terminer**.
 
-23. Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
+23. Cliquez sur **Appliquer** dans le volet des détails pour enregistrer les modifications et mettre à jour la configuration.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-iis-arr"></a>Pour créer une règle de publication sur le serveur Web sur l’ordinateur exécutant IIS ARR
+## <a name="to-create-a-web-server-publishing-rule-on-the-computer-running-iis-arr"></a>Pour créer une règle de publication de serveur Web sur l’ordinateur qui exécute IIS ARR
 
-1.  Liez le certificat que vous allez utiliser pour le proxy inverse au protocole HTTPs. Cliquez sur **Démarrer**, cliquez sur **programmes**, sélectionnez **Outils d’administration**, puis cliquez sur **Gestionnaire des services Internet (IIS)**.
+1.  Liez le certificat que vous allez utiliser pour le proxy inverse au protocole HTTPs. Cliquez sur **Démarrer**, sélectionnez **programmes**, **Outils d’administration**, puis **Gestionnaire des services Internet (IIS)**.
     
     <div>
     
 
     > [!NOTE]  
-    > Des informations d’aide, des captures d’écran et des recommandations supplémentaires sur le déploiement et la configuration d’IIS ARR sont disponibles dans l’article NextHop <A href="http://go.microsoft.com/fwlink/?linkid=293391">à l’aide d’IIS ARR en tant que proxy inverse de Lync Server 2013</A>.
+    > Une aide supplémentaire, des captures d’écran et des conseils sur le déploiement et la configuration d’IIS ARR se trouve dans l’article NextHop <A href="http://go.microsoft.com/fwlink/?linkid=293391">à l’aide d’IIS ARR en tant que proxy inverse pour Lync Server 2013</A>.
 
     
     </div>
 
-2.  Si vous ne l’avez pas déjà fait, importez le certificat que vous utiliserez pour le proxy inverse. Dans le **Gestionnaire des services Internet (IIS)**, cliquez sur le nom du serveur proxy inverse à gauche de la console. Au milieu de la console sous **IIS** , recherchez **certificats de serveur**. Cliquez sur **certificats de serveur** avec le bouton droit, puis sélectionnez **ouvrir la fonctionnalité**.
+2.  Si vous ne l’avez pas déjà fait, importez le certificat que vous utiliserez pour le proxy inverse. Dans le **Gestionnaire des services Internet (IIS)**, cliquez sur le nom du serveur proxy inverse dans la partie gauche de la console. Au milieu de la console, sous **IIS** , localisez les **certificats de serveur**. Cliquez avec le bouton droit sur **certificats de serveur** , puis sélectionnez **ouvrir la fonctionnalité**.
 
-3.  Sur le côté droit de la console, cliquez sur **Importer...**. Tapez le chemin d’accès et le nom du fichier du certificat portant l’extension ou cliquez sur **...** pour rechercher le certificat. Sélectionnez le certificat et cliquez sur **ouvrir**. Entrez le mot de passe utilisé pour protéger la clé privée (si vous avez attribué un mot de passe lors de l’exportation du certificat et de la clé privée). Cliquez sur **OK**. Si l’importation du certificat est réussie, le certificat apparaît comme entrée dans le milieu de la console en tant qu’entrée dans les **certificats de serveur**.
+3.  Sur le côté droit de la console, cliquez sur **Importer...**. Tapez le chemin d’accès et le nom de fichier du certificat avec l’extension, ou cliquez sur **...** pour rechercher le certificat. Sélectionnez le certificat, puis cliquez sur **ouvrir**. Fournissez le mot de passe utilisé pour protéger la clé privée (si vous avez attribué un mot de passe lors de l’exportation du certificat et de la clé privée). Cliquez sur **OK**. Si l’importation de certificat a réussi, le certificat apparaît sous la forme d’une entrée au milieu de la console sous forme d’entrée dans les **certificats de serveur**.
 
-4.  Attribuez le certificat pour une utilisation par HTTPs. Sur le côté gauche de la console, sélectionnez le **site Web par défaut** du serveur IIS. Sur le côté droit, cliquez sur **liaisons...**. Dans la boîte de dialogue **liaisons de sites** , cliquez sur **Ajouter...**. Dans la boîte de dialogue **Ajouter une liaison de site** , sous **type :**, sélectionnez **https**. La sélection de https vous permet de sélectionner le certificat à utiliser pour HTTPS. Sous **certificat SSL :**, sélectionnez le certificat que vous avez importé pour le proxy inverse. Cliquez sur **OK**. Cliquez ensuite sur **Fermer**. Le certificat est désormais lié au proxy inverse pour SSL (Secure Socket Layer) et TLS (Transport Layer Security).
+4.  Affectez le certificat pour une utilisation par HTTPs. Sur le côté gauche de la console, sélectionnez le **site Web par défaut** du serveur IIS. Sur le côté droit, cliquez sur **liaisons...**. Dans la boîte de dialogue **liaisons de site** , cliquez sur **Ajouter.**... Dans la boîte de dialogue **Ajouter une liaison de site** , sous **type :**, sélectionnez **https**. La sélection du protocole HTTPS vous permet de sélectionner le certificat à utiliser pour HTTPS. Sous **certificat SSL :**, sélectionnez le certificat que vous avez importé pour le proxy inverse. Cliquez sur **OK**. Ensuite, cliquez sur **Fermer**. Le certificat est maintenant lié au proxy inverse pour SSL (Secure Socket Layer) et TLS (Transport Layer Security).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si vous recevez un message d’avertissement lors de la fermeture des boîtes de dialogue de liaison, il manque des certificats intermédiaires, vous devez localiser et importer le certificat d’autorité racine de l’autorité de certification publique et les certificats d’autorité de certification intermédiaires. Reportez-vous aux instructions de l’autorité publique qui vous a demandé votre certificat et suivez les instructions pour demander et importer une chaîne de certificats. Si vous avez exporté le certificat à partir de votre serveur Edge, vous pouvez exporter le certificat de l’autorité de certification racine et les certificats d’autorité de certification intermédiaires associés au serveur Edge. Importez le certificat racine de l’autorité de certification dans la Banque d’autorités de certification racine de l’ordinateur (à ne pas confondre avec le magasin de l’utilisateur).
+    > Si vous recevez un avertissement lorsque vous fermez les boîtes de dialogue de liaison pour lesquelles des certificats intermédiaires sont manquants, vous devez rechercher et importer le certificat d’autorité racine de l’autorité de certification publique et tous les certificats de l’autorité de certification intermédiaire. Consultez les instructions de l’autorité de certification publique à partir de laquelle vous avez demandé votre certificat et suivez les instructions pour demander et importer une chaîne de certificats. Si vous avez exporté le certificat à partir de votre serveur Edge, vous pouvez exporter le certificat de l’autorité de certification racine et tous les certificats de l’autorité de certification intermédiaire associés au serveur Edge. Importez le certificat d’autorité de certification racine dans le magasin d’autorités de certification racines de confiance et les certificats intermédiaires dans le magasin d’autorités de certification intermédiaires de l’ordinateur (à ne pas confondre avec le magasin d’utilisateurs).
 
     
     </div>
 
-5.  Sur le côté gauche de la console sous le nom du serveur IIS, cliquez avec le bouton droit sur **batteries de serveurs** , puis cliquez sur créer une **batterie de serveurs.**
+5.  Sur le côté gauche de la console, sous le nom du serveur IIS, cliquez avec le bouton droit sur **batteries de serveurs** , puis cliquez sur créer une **batterie de serveurs...**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si vous ne voyez pas le nœud <STRONG>batteries de serveurs</STRONG> , vous devez installer le routage de demandes d’application. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuration de serveurs proxy inverse pour Lync Server 2013</A>.
+    > Si vous ne voyez pas le nœud <STRONG>batteries de serveurs</STRONG> , vous devez installer le routage des demandes d’applications. Pour plus d’informations, voir <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up Reverse Proxy Servers for Lync Server 2013</A>.
 
     
     </div>
     
-    Dans la boîte de dialogue **créer une batterie de serveurs** dans nom de la batterie de **serveurs**, tapez un nom (nom convivial pour les fins d’identification) pour la première URL. Cliquez sur **Suivant**.
+    Dans la boîte de dialogue **créer une batterie** de serveurs, dans nom de la **batterie de serveurs**, tapez le nom (il peut s’agir d’un nom convivial pour l’identification) pour la première URL. Cliquez sur **Suivant**.
 
-6.  Dans la boîte de dialogue **Ajouter un serveur** dans **adresse du serveur**, tapez le nom de domaine complet (FQDN) des services Web externes sur votre serveur frontal. Les noms qui seront utilisés ici, par exemple, sont les mêmes que ceux utilisés dans la section planification du proxy inverse, du [proxy de certificat-proxy inverse dans Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Pour vous référer à la planification du proxy inverse, `webext.contoso.com`entrez le nom de domaine complet. Vérifiez que la case à cocher en regard de **connecté** est sélectionnée. Cliquez sur **Ajouter** pour ajouter le serveur à la liste de serveurs Web pour cette configuration.
+6.  Dans la boîte de dialogue **Ajouter un serveur** dans **adresse du serveur**, tapez le nom de domaine complet (FQDN) des services Web externes sur votre serveur frontal. Les noms qui seront utilisés ici à titre d’exemple sont les mêmes que ceux utilisés dans la section de planification pour le proxy inverse, [Certificate Summary-Reverse Proxy in Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). En vous référant à la planification du proxy inverse, nous `webext.contoso.com`allons taper le nom de domaine complet. Vérifiez que la case à cocher en regard de **en ligne** est activée. Cliquez sur **Ajouter** pour ajouter le serveur au pool de serveurs Web pour cette configuration.
     
     <div>
     
 
     > [!WARNING]  
-    > Lync Server fait appel à des équilibreurs de charge matérielle pour le regroupement du Director et des serveurs frontaux pour le trafic HTTP et HTTPs. Vous devez fournir un nom de domaine complet uniquement lors de l’ajout d’un serveur à la batterie de serveurs IIS ARR. Le nom de domaine complet (FQDN) sera le serveur principal ou le directeur des configurations serveur hors pool ou le nom de domaine complet (FQDN) de l’équilibrage de charge matérielle configuré pour les pools de serveurs. La seule méthode prise en charge pour le trafic HTTP et HTTPs consiste à utiliser des équilibreurs de charge matérielle.
+    > Lync Server utilise des programmes d’équilibrage de la charge matérielle pour le directeur de pool et les serveurs frontaux pour le trafic HTTP et HTTPs. Vous ne fournissez qu’un seul nom de domaine complet lors de l’ajout d’un serveur à la batterie de serveurs IIS ARR. Le nom de domaine complet sera le serveur frontal ou le directeur dans les configurations de serveur non regroupé, ou le nom de domaine complet (FQDN) de l’équilibreur de charge matérielle configuré pour les pools de serveurs. La seule méthode prise en charge pour équilibrer la charge du trafic HTTP et HTTPs consiste à utiliser des programmes d’équilibrage de la charge matérielle.
 
     
     </div>
 
-7.  Dans la boîte de dialogue **Ajouter un serveur** , cliquez sur **Paramètres avancés.** Cette action ouvre une boîte de dialogue permettant de définir le routage de requête d’application pour les demandes de nom de domaine complet configuré. L’objectif est de redéfinir le port utilisé lors du traitement de la requête par IIS ARR.
+7.  Dans la boîte de dialogue **Ajouter un serveur** , cliquez sur **Paramètres avancés.**... Une boîte de dialogue s’ouvre pour définir le routage de demande d’application pour les demandes au nom de domaine complet configuré. L’objectif est de redéfinir le port utilisé lorsque la demande est traitée par IIS ARR.
     
-    Par défaut, le port HTTP de destination doit être défini comme 8080. Cliquez sur en regard de la **80 port http** et définissez la valeur sur **8080**. Cliquez sur en regard de la **443 port HTTPS** et définissez la valeur sur **4443**. Laissez le paramètre **Weight** sur 100. Le cas échéant, vous pouvez redéfinir les pondérations pour une règle donnée une fois que vous avez des statistiques de référence. Cliquez sur **Terminer** pour terminer cette partie de la configuration de la règle.
+    Par défaut, le port HTTP de destination doit être défini comme 8080. Cliquez sur en regard de la **httpPort 80** actuelle et définissez la valeur sur **8080**. Cliquez sur en regard de la **httpsPort 443** actuelle et définissez la valeur sur **4443**. Laissez le paramètre **Weight** à 100. Si nécessaire, vous pouvez redéfinir les pondérations d’une règle donnée une fois que vous avez défini les statistiques de la planification. Cliquez sur **Terminer** pour terminer cette partie de la configuration de la règle.
 
-8.  Il est possible qu’une boîte de dialogue de réécriture d’URL s’affiche pour vous informer que le gestionnaire des services Internet peut créer une règle de réécriture d’URL pour acheminer automatiquement toutes les demandes entrantes vers la batterie de serveurs. Cliquez sur **Oui**. Vous ajusterez les règles manuellement, mais le fait de sélectionner Yes définit la configuration initiale.
+8.  Vous pouvez voir une boîte de dialogue de réécriture de règles qui vous informe que le gestionnaire des services Internet (IIS) peut créer une règle de réécriture d’URL pour acheminer automatiquement toutes les demandes entrantes vers la batterie de serveurs. Cliquez sur **Oui**. Vous allez ajuster les règles manuellement, mais la sélection de Oui définit la configuration initiale..
 
-9.  Cliquez sur le nom de la batterie de serveurs que vous venez de créer. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire de services Internet, vous double-cliquez sur **mise en cache**. Désactivez l’option **activer le cache disque**. Cliquez sur **appliquer** sur le côté droit.
+9.  Cliquez sur le nom de la batterie de serveurs que vous venez de créer. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire des services Internet (IIS), vous double-cliquez sur **mise en cache**. Désactivez l’option **activer le cache disque**. Cliquez sur **appliquer** à droite.
 
-10. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire de services Internet, vous double-cliquez sur **proxy**. Dans la page Paramètres du proxy, remplacez la valeur du délai d’expiration **(secondes)** par une valeur adaptée à votre déploiement. Cliquez sur **appliquer** pour enregistrer la modification.
+10. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire des services Internet (IIS), vous double-cliquez sur **proxy**. Dans la page Paramètres du proxy, modifiez la valeur du délai d’expiration **(secondes)** en fonction de votre déploiement. Cliquez sur **appliquer** pour enregistrer la modification.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > La valeur du délai d’expiration du proxy est un nombre qui peut varier d’un déploiement au déploiement. Nous vous conseillons de surveiller votre déploiement et de modifier la valeur de la meilleure utilisation pour les clients. Il est possible que vous puissiez définir la valeur sur une valeur inférieure ou égale à 200. Si vous prenez en charge des clients mobiles Lync dans votre environnement, définissez la valeur sur 960 pour autoriser les délais d’expiration de notifications de transmission d’Office 365 qui ont une valeur de délai d’expiration de 900. Il est très probable que vous deviez augmenter la valeur du délai d’expiration pour éviter que le client se déconnecte lorsque la valeur est trop faible ou que le nombre de connexions par le biais du proxy ne se déconnecte pas et qu’elle est désactivée longtemps après la déconnexion du client. Le fait de surveiller et de définir la position normale pour votre environnement est le seul moyen de déterminer où se trouve le paramètre approprié pour cette valeur.
+    > La valeur du délai d’expiration du proxy est un nombre qui varie d’un déploiement à l’autre. Vous devez surveiller votre déploiement et modifier la valeur pour la meilleure expérience pour les clients. Vous pouvez définir la valeur sur 200. Si vous prenez en charge les clients mobiles Lync dans votre environnement, vous devez définir la valeur sur 960 pour autoriser le délai d’expiration des notifications de type transmission à partir d’Office 365, dont la valeur de délai d’expiration est de 900. Il est fort probable que vous deviez augmenter la valeur du délai d’expiration pour éviter que le client se déconnecte lorsque la valeur est trop faible ou réduire le nombre si les connexions par le proxy ne se déconnectent pas et s’effacent longtemps après la déconnexion du client. Surveillance et base-la définition de la normale pour votre environnement est la seule façon de déterminer où se trouve le paramètre correct pour cette valeur.
 
     
     </div>
 
-11. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire de services Internet, vous double-cliquez sur **règles de routage**. Dans la boîte de dialogue Règles de routage sous routage, désactivez la case à cocher en regard de activer le déchargement SSL. Si vous ne pouvez pas désactiver la case à cocher, activez la case à cocher **utiliser la réécriture d’URL pour inspecter les demandes entrantes**. Cliquez sur **appliquer** pour enregistrer vos modifications.
+11. Cliquez sur le nom de la batterie de serveurs. Sous **batterie de serveurs** dans l’affichage fonctionnalités du gestionnaire des services Internet (IIS), vous double-cliquez sur **règles de routage**. Dans la boîte de dialogue Règles de routage, sous routage, désactivez la case à cocher en regard de activer le déchargement SSL. Si la désactivation de cette case n’est pas disponible, activez la case à cocher **utiliser la réécriture d’URL pour inspecter les demandes entrantes**. Cliquez sur **appliquer** pour enregistrer vos modifications.
     
     <div>
     
@@ -209,50 +209,50 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
     
     </div>
 
-12. Répétez les étapes 5-11 pour chaque URL qui doit traverser le proxy inverse. Une liste courante serait la suivante :
+12. Répétez les étapes 5-11 pour chaque URL qui doit transiter par le proxy inverse. Une liste commune est la suivante :
     
-      - Services Web du serveur frontal externes : webext.contoso.com (déjà configurés par le biais du parcours initial)
+      - Services Web de serveur frontal externes : webext.contoso.com (déjà configurés par la visite initiale)
     
-      - Services Web de Director externes pour Director : webdirext.contoso.com (facultatif si un directeur est déployé)
+      - Services Web Director externes pour Director : webdirext.contoso.com (facultatif si un directeur est déployé)
     
       - URL simple : meet.contoso.com
     
-      - Connexion simple pour les URL : dialin.contoso.com
+      - Numérotation URL simple : dialin.contoso.com
     
       - URL de découverte automatique Lync : lyncdiscover.contoso.com
     
-      - URL du serveur Office Web Apps : officewebapps01.contoso.com
+      - URL d’Office Web Apps Server : officewebapps01.contoso.com
         
         <div>
         
 
         > [!IMPORTANT]  
-        > L’URL du serveur Office Web Apps utilisera une adresse port HTTPS différente. À l’étape 7, vous définissez <STRONG>port HTTPS</STRONG> comme <STRONG>443</STRONG> et <STRONG>port http</STRONG> en tant que port <STRONG>80</STRONG>. Les autres paramètres de configuration sont les mêmes.
+        > L’URL du serveur Office Web Apps Server utilisera une autre adresse httpsPort. À l’étape 7, vous définissez le <STRONG>httpsPort</STRONG> en tant que <STRONG>443</STRONG> et le <STRONG>httpPort</STRONG> en tant que port <STRONG>80</STRONG>. Tous les autres paramètres de configuration sont les mêmes.
 
         
         </div>
 
-13. Sur le côté gauche de la console, cliquez sur le nom du serveur IIS. Au milieu de la console, repérez la **réécriture d’URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL. Vous devez voir les règles de chaque batterie de serveurs que vous avez créée lors des étapes précédentes. Si ce n’est pas le cas, vérifiez que vous avez cliqué sur le nom du **serveur IIS** juste en dessous du nœud de la **page de démarrage** dans la console du gestionnaire d’informations Internet.
+13. Sur le côté gauche de la console, cliquez sur le nom du serveur IIS. Au milieu de la console, recherchez **URL Rewrite** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL. Vous devez voir les règles pour chaque batterie de serveurs que vous avez créée lors des étapes précédentes. Si vous ne le faites pas, vérifiez que vous avez cliqué sur le nom du **serveur IIS** juste en dessous du nœud de la **page de démarrage** dans la console du gestionnaire Internet Information Server.
 
-14. Dans la boîte de dialogue de **réécriture d’URL** , en utilisant webext.contoso.com en guise d’exemple, le nom complet de la règle telle qu’affichée est **\_arr webext.contoso.com\_LoadBalance\_SSL**.
+14. Dans la boîte de dialogue de **réécriture d’URL** , à l’aide de webext.contoso.com comme exemple, le nom complet de la règle tel qu’il est affiché est **\_arr webext.contoso.com\_LoadBalance\_SSL**.
     
       - Double-cliquez sur la règle pour ouvrir la boîte de dialogue **modifier la règle de trafic entrant** .
     
       - Cliquez sur **Ajouter...** dans la boîte de dialogue **conditions** .
     
-      - Sur la **condition ajouter** dans l’entrée de la **condition :** tapez **{http\_Host}**. (Lors de la saisie, une boîte de dialogue s’affiche pour vous permettre de sélectionner l’État). sous **vérifier si la chaîne d’entrée :** , sélectionnez **correspond au modèle**. Dans le type **\*** **d’entrée pattern** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
+      - Dans la **condition Add** de l' **entrée de condition :** type **{\_http Host}**. (En fur et à mesure que vous tapez, une boîte de dialogue s’affiche pour vous permettre de sélectionner la condition). sous **Vérifier la chaîne d’entrée :** sélectionnez **correspond au modèle**. Dans le type **\*** **d’entrée pattern** . **Ignorer la casse** doit être sélectionné. Cliquez sur **OK**.
     
-      - Faites défiler la boîte de dialogue **modifier la règle de trafic entrant** pour rechercher la boîte de dialogue **action** . **Type d’action :** doit être défini sur **route vers la batterie de serveurs**, **schéma :** défini sur **https://**, **batterie de serveurs :** définie sur l’URL à laquelle s’applique cette règle. Pour cet exemple, ce doit être défini sur **webext.contoso.com**. **Path :** est défini sur **/{R : 0}**
+      - Faites défiler la boîte de dialogue **modifier la règle de trafic entrant** pour localiser la boîte de dialogue **action** . **Type d’action :** doit être défini sur **acheminer vers la batterie de serveurs**, **modèle :** défini sur **https://**, **batterie de serveurs :** définit sur l’URL à laquelle cette règle s’applique. Pour cet exemple, il doit être défini sur **webext.contoso.com**. **Path :** est défini sur **/{R : 0}**
     
       - Cliquez sur **appliquer** pour enregistrer vos modifications. Cliquez sur **retour aux règles** pour revenir aux règles de réécriture d’URL.
 
-15. Répétez la procédure définie à l’étape 14 pour chacune des règles de réécriture SSL que vous avez définies, une pour chaque URL de batterie de serveurs.
+15. Répétez la procédure définie à l’étape 14 pour chacune des règles de réécriture SSL que vous avez définies, une par URL de batterie de serveurs.
     
     <div>
     
 
     > [!WARNING]  
-    > Par défaut, les règles HTTP sont également créées et sont dénotées par leur appellation similaire aux règles SSL. Pour notre exemple actuel, la règle HTTP serait nommée <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Il n’est pas nécessaire de modifier ces règles et celles-ci peuvent être ignorées en toute sécurité.
+    > Par défaut, les règles HTTP sont également créées et sont représentées par des noms similaires aux règles SSL. Pour notre exemple actuel, la règle HTTP est nommée <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Aucune modification n’est requise pour ces règles et elles peuvent être ignorées en toute sécurité.
 
     
     </div>
@@ -263,29 +263,29 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 ## <a name="to-modify-the-properties-of-the-web-publishing-rule-in-tmg-2010"></a>Pour modifier les propriétés de la règle de publication Web dans TMG 2010
 
-1.  Cliquez sur **Démarrer**, pointez sur **programmes**, sélectionnez **Microsoft Forefront TMG**, puis cliquez sur **gestion de Forefront TMG**.
+1.  Cliquez sur **Démarrer**, pointez sur **programmes**, sélectionnez **Microsoft Forefront TMG**, puis cliquez sur **Forefront TMG Management**.
 
-2.  Dans le volet gauche, développez **NomServeur**, puis cliquez sur **stratégie de pare-feu**.
+2.  Dans le volet de gauche, développez **NomServeur**, puis cliquez sur **Stratégie de pare-feu**.
 
-3.  Dans le volet Détails, cliquez avec le bouton droit sur la règle de publication sur le serveur Web que vous avez créée au cours de la procédure précédente (par exemple, LyncServerExternalRule), puis cliquez sur **Propriétés**.
+3.  Dans le volet des détails, cliquez avec le bouton droit sur la règle de publication de serveur web que vous avez créée précédemment (par exemple, LyncServerExternalRule), puis cliquez sur **Propriétés**.
 
-4.  Dans la page **Propriétés** , sous l’onglet **de** , effectuez les opérations suivantes :
+4.  Dans la page **Propriétés**, sous l’onglet **De**, procédez comme suit :
     
-      - Dans la liste **cette règle s’applique au trafic de ces sources** , cliquez sur **n’importe où**, puis cliquez sur **supprimer**.
+      - Dans la liste **Cette règle s’applique au trafic émanant de ces sources**, cliquez sur **Partout**, puis sur **Supprimer**.
     
       - Cliquez sur **Ajouter**.
     
-      - Dans **Ajouter des entités réseau**, développez **réseaux**, cliquez sur **externe**, cliquez sur **Ajouter**, puis sur **Fermer**.
+      - Dans la boîte de dialogue **Ajouter des entités réseau**, développez **Réseaux**, cliquez sur **Externe**, puis sur **Ajouter**, puis sur **Fermer**.
 
-5.  Dans l’onglet **à** , assurez-vous que la case à cocher **transférer l’en-tête de l’hôte d’origine au lieu de la** case à cocher réel est activée.
+5.  Sous l’onglet **À**, vérifiez que la case à cocher **Transmettre l’en-tête de l’hôte d’origine plutôt que l’en-tête réel** est activée.
 
-6.  Dans l’onglet **pontage** , activez la case à cocher **rediriger la demande vers le port SSL** , puis spécifiez le port **4443**.
+6.  Dans la zone **Pontage**, activez la case à cocher **Rediriger la demande vers le port SSL**, puis spécifiez le port **4443**.
 
-7.  Dans l’onglet **nom du public** , ajoutez les URL simples (par exemple, meet.contoso.com et Dialin.contoso.com).
+7.  Sous l’onglet **Nom public**, ajoutez les URL simples (par exemple, meet.contoso.com et dialin.contoso.com).
 
-8.  Cliquez sur **appliquer** pour enregistrer les modifications, puis cliquez sur **OK**.
+8.  Cliquez sur **Appliquer** pour enregistrer les modifications, puis sur **OK**.
 
-9.  Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
+9.  Cliquez sur **Appliquer** dans le volet des détails pour enregistrer les modifications et mettre à jour la configuration.
 
 </div>
 
@@ -293,15 +293,15 @@ Utilisez les procédures suivantes pour créer des règles de publication Web.
 
 ## <a name="to-modify-the-properties-of-the-web-publishing-rule-in-iis-arr"></a>Pour modifier les propriétés de la règle de publication Web dans IIS ARR
 
-1.  Cliquez sur **Démarrer**, cliquez sur **programmes**, sélectionnez **Outils d’administration**, puis cliquez sur **Gestionnaire des services Internet (IIS)**.
+1.  Cliquez sur **Démarrer**, sélectionnez **programmes**, **Outils d’administration**, puis **Gestionnaire des services Internet (IIS)**.
 
 2.  Sur le côté gauche de la console, cliquez sur le nom du serveur IIS.
 
-3.  Au milieu de la console, repérez la **réécriture d’URL** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL.
+3.  Au milieu de la console, recherchez **URL Rewrite** sous **IIS**. Double-cliquez sur réécriture d’URL pour ouvrir la configuration des règles de réécriture d’URL.
 
-4.  Double-cliquez sur la règle que vous devez modifier. Apportez les modifications souhaitées, selon les besoins, en fonction de l' **URL**, des **conditions**, des **variables serveur** ou de l' **action**.
+4.  Double-cliquez sur la règle à modifier. Effectuez vos modifications, selon vos besoins, dans l' **URL de correspondance**, les **conditions**, les **variables de serveur** ou l' **action**.
 
-5.  Cliquez sur **appliquer** pour valider les modifications. Cliquez sur **retour aux règles** pour modifier d’autres règles ou fermez la console du **Gestionnaire des services Internet** si vous avez effectué vos modifications.
+5.  Cliquez sur **appliquer** pour valider vos modifications. Cliquez sur **retour aux règles** pour modifier d’autres règles ou fermez la console du **Gestionnaire IIS** si vous avez effectué vos modifications.
 
 </div>
 

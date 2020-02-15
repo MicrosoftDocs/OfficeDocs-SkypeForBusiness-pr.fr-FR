@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création ou modification d’un numéro d’accès à une conférence rendez-vous'
+title: 'Lync Server 2013 : création ou modification d’un numéro d’accès à une conférence rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ecfebba25d45f53633fdd425e5901929fc32d0c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6406fe5c2f1183b39966902ee2fa5273f509bf2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41758078"
 
 _**Dernière modification de la rubrique :** 2012-09-17_
 
-Pour créer ou modifier un numéro d’accès à une conférence rendez-vous, procédez comme suit.
+Procédez comme suit pour créer ou modifier un numéro d’accès à une conférence rendez-vous.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Avant de créer un numéro d’accès rendez-vous, vous devez définir une région de conférence rendez-vous pour le plan de numérotation associé au nouveau numéro d’accès par connexion. Plusieurs plans de numérotation peuvent utiliser la même région.
+> Avant de créer un numéro d’accès entrant, vous devez définir une région de conférence rendez-vous dans le plan de numérotation associé au nouveau numéro d’accès entrant. Plusieurs plans de numérotation peuvent utiliser la même région.
 
 
 
@@ -51,52 +51,52 @@ Pour créer ou modifier un numéro d’accès à une conférence rendez-vous, pr
 
 <div>
 
-## <a name="to-create-or-modify-a-dial-in-access-number"></a>Pour créer ou modifier un numéro d’accès à une conférence rendez-vous
+## <a name="to-create-or-modify-a-dial-in-access-number"></a>Pour créer ou modifier un numéro d’accès entrant
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Numéro d’accès entrant**.
 
-4.  Dans la page **Numéro d’accès entrant**, effectuez l’une des opérations suivantes :
+4.  Sur la page **numéro d’accès entrant** , effectuez l’une des opérations suivantes :
     
-      - Cliquez sur **Nouveau** pour ouvrir **Nouveau numéro d’accès entrant**.
+      - Cliquez sur **nouveau** pour ouvrir **le nouveau numéro d’accès entrant**.
     
-      - Cliquez sur l’un des numéros d’accès entrant dans la liste, cliquez sur **Modifier**, puis sur **Afficher les détails**.
+      - Cliquez sur l’un des numéros d’accès entrant dans la liste, cliquez sur **modifier**, puis sur **afficher les détails**.
         
         <div>
         
 
         > [!NOTE]  
-        > Utiliser le champ de recherche pour rechercher le contenu d’une colonne dans la liste des numéros d’accès entrant peut ne pas produire les résultats que vous attendez. Par conséquent, triez la liste selon la colonne qui vous intéresse pour identifier le numéro d’accès entrant que vous voulez afficher ou modifier.
+        > L’utilisation du champ de recherche pour rechercher le contenu d’une colonne dans la liste des numéros d’accès entrant peut ne pas donner les résultats attendus. Au lieu de cela, triez la liste selon la colonne qui vous intéresse pour identifier le numéro d’accès entrant que vous souhaitez afficher ou modifier.
 
         
         </div>
 
-5.  Dans **Numéro affiché**, tapez le numéro de téléphone que les utilisateurs du réseau téléphonique commuté (RTC) composent pour rejoindre une conférence.
+5.  Dans **numéro affiché**, tapez le numéro de téléphone que les utilisateurs du téléphone du réseau téléphonique commuté (PSTN) composent pour rejoindre une conférence.
     
     <div>
     
 
     > [!NOTE]  
-    > Ce numéro est affiché dans les invitations aux réunions et dans la page web des paramètres des conférences rendez-vous.
+    > Ce numéro est affiché dans les invitations aux réunions et dans la page Web des paramètres de conférence rendez-vous.
 
     
     </div>
 
-6.  In **Nom d’affichage**, tapez la description du numéro d’accès entrant. Il s’agit du nom associé au numéro d’accès rendez-vous dans les résultats de recherche Lync.
+6.  Dans **nom d’affichage**, tapez une description pour le numéro d’accès entrant. Il s’agit du nom associé au numéro d’accès entrant dans les résultats de la recherche Lync.
     
     <div>
     
 
     > [!NOTE]  
-    > Ce nom est affiché dans le client lorsqu’un utilisateur appelle le numéro d’accès.
+    > Ce nom s’affiche dans le client lorsqu’un utilisateur appelle le numéro d’accès.
 
     
     </div>
 
-7.  Dans **URI de ligne**, tapez le numéro E.164 du numéro d’accès entrant au format d’URI TEL, avec le symbole + avant le numéro et sans espace. Par exemple, tel :+14255550200.
+7.  Dans **URI de ligne**, tapez le numéro E. 164 du numéro d’accès entrant au format URI tel, y compris le symbole + avant le numéro et en excluant les espaces. Par exemple, Tél : + 14255550200.
     
     <div>
     
@@ -109,20 +109,20 @@ Pour créer ou modifier un numéro d’accès à une conférence rendez-vous, pr
 
 8.  Dans **URI SIP**, procédez comme suit :
     
-      - Dans la zone de texte, tapez un URI SIP (Session Initiation Protocol) unique pour ce numéro d’accès à une conférence rendez-vous. Cet URI SIP est affiché à différents emplacements, y compris, mais sans s’y limiter, les messages de notification d’appel et les versions antérieures de clients Communicator.
+      - Dans la zone de texte, tapez un URI SIP unique pour ce numéro d’accès à la Conférence rendez-vous. Cet URI SIP est affiché à différents emplacements, y compris, sans s’y limiter, les messages de notification d’appel et les versions antérieures des clients Communicator.
         
         <div>
         
 
         > [!NOTE]  
-        > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous. Il n’est pas possible de modifier l’URI SIP une fois que le numéro d’accès est créé. Le seul moyen de modifier l’URI SIP est de supprimer et de recréer le numéro d’accès.
+        > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès à une conférence rendez-vous. L’URI SIP ne peut pas être modifié une fois que le numéro d’accès est créé. La seule façon de modifier l’URI SIP est de supprimer et de recréer le numéro d’accès.
 
         
         </div>
     
-      - Dans la zone de liste déroulante, cliquez sur le domaine de l’application de surveillance des conférences qui prend en charge ce numéro d’accès rendez-vous.
+      - Dans la zone de liste déroulante, cliquez sur le domaine de l’application de surveillance de conférence qui prend en charge ce numéro d’accès entrant.
 
-9.  Dans **Pool**, cliquez sur le pool qui exécute l’instance d’Intendant Conférence qui prend en charge ce numéro d’accès entrant.
+9.  Dans **pool**, cliquez sur le pool qui exécute l’instance du service Surveillance de conférence qui prend en charge ce numéro d’accès entrant.
     
     <div>
     
@@ -133,31 +133,31 @@ Pour créer ou modifier un numéro d’accès à une conférence rendez-vous, pr
     
     </div>
 
-10. Dans **Langue principale**, cliquez sur la langue des invites pour ce numéro d’accès entrant.
+10. Dans **langue principale**, cliquez sur la langue dans laquelle les invites sont exécutées pour ce numéro d’accès entrant.
     
     <div>
     
 
     > [!NOTE]  
-    > La langue principale est la langue que l’Intendant Conférence utilise pour répondre aux appels. Les langues prises en charge sont affichées avec chaque numéro de téléphone d’accès dans la page web des paramètres des conférences rendez-vous.
+    > La langue principale est la langue utilisée par le service Surveillance de conférence pour répondre à l’appel. Les langues prises en charge sont affichées avec chaque numéro de téléphone d’accès dans la page Web paramètres de conférence rendez-vous.
 
     
     </div>
 
-11. (Facultatif) Dans **Langues secondaires (quatre au maximum)**, cliquez sur **Ajouter**, sélectionnez les langues supplémentaires que vous souhaitez prendre en charge pour les personnes qui appellent ce numéro d’accès entrant, puis cliquez sur **OK**.
+11. Module Dans **langues secondaires (quatre au maximum)**, cliquez sur **Ajouter**, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants vers ce numéro d’accès entrant, puis cliquez sur **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez sélectionner jusqu’à quatre langues secondaires pour chaque numéro d’accès entrant. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de la conférence à laquelle ils souhaitent participer.
+    > Vous pouvez choisir jusqu’à quatre langues secondaires pour chaque numéro d’accès entrant. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de conférence lorsqu’ils se connectent à une conférence.
 
     
     </div>
 
-12. Pour ajouter une région pour le numéro d’accès à la Conférence rendez-vous, sous **régions associées**, cliquez sur **Ajouter**, sélectionnez une ou plusieurs régions associées au plan de numérotation pour ce numéro d’accès rendez-vous, puis cliquez sur **OK**.
+12. Pour ajouter une région pour le numéro d’accès entrant, sous **régions associées**, cliquez sur **Ajouter**, cliquez sur une ou plusieurs régions associées aux plans de numérotation pour ce numéro d’accès entrant, puis cliquez sur **OK**.
 
-13. Pour supprimer une région du numéro d’accès entrant, sous **Régions associées**, cliquez sur la région que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
+13. Pour supprimer une région du numéro d’accès entrant, sous **régions associées**, cliquez sur la région que vous souhaitez supprimer, puis cliquez sur **supprimer**.
 
 14. Cliquez sur **Valider**.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification du routage géodépendant'
+title: 'Lync Server 2013 : planification du routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a2dc25aa80e45d7e24f3a91a18b2dd83a4d554
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 307b4d696fdf4348649eb9363d252c7f1d0f8d12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751904"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41751904"
 
 _**Dernière modification de la rubrique :** 2013-07-31_
 
-Les informations de cette rubrique font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+Les informations contenues dans cette rubrique concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
-Le routage basé sur l’emplacement permet de limiter le routage des appels entre les points de terminaison VoIP et les points de terminaison RTC en fonction de l’emplacement des parties de l’appel. Le routage basé sur l’emplacement fait partie de l’infrastructure de voix entreprise 2013 de Lync Server. Le routage basé sur l’emplacement est une fonctionnalité de gestion des appels qui contrôle le routage des appels par Lync Server 2013 CU1. Il applique des règles d’autorisation des appels si les appels peuvent être routés vers des points de terminaison PBX ou PSTN en fonction de l’emplacement géographique de l’appelant Lync.
+Le routage géodépendant permet de limiter le routage des appels entre les points de terminaison VoIP et les points de terminaison RTC en fonction de l’emplacement des parties dans l’appel. Le routage géodépendant fait partie de l’infrastructure voix entreprise de Lync Server 2013. Le routage géodépendant est une fonctionnalité de gestion des appels qui contrôle la manière dont les appels sont routés par Lync Server 2013 CU1. Elle applique les règles d’autorisation d’appels indiquant si les appels peuvent être acheminés vers des points de terminaison PBX ou PSTN en fonction de l’emplacement géographique de l’appelant Lync.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Vue d’ensemble du routage basé sur l’emplacement dans Lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
+  - [Vue d’ensemble du routage géodépendant dans Lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
 
-  - [Instructions de routage géodépendant dans Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
+  - [Conseils pour le routage géodépendant dans Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
 
   - [Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
 
@@ -57,9 +57,9 @@ Le routage basé sur l’emplacement permet de limiter le routage des appels ent
 
   - [Fonctionnalités non prises en charge par le routage géodépendant dans Lync Server 2013](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
-  - [Processus de déploiement du routage géodépendant dans Lync Server 2013](lync-server-2013-deployment-process-for-location-based-routing.md)
+  - [Processus de déploiement pour le routage géodépendant dans Lync Server 2013](lync-server-2013-deployment-process-for-location-based-routing.md)
 
-  - [Routage basé sur l’emplacement pour les conférences dans Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md)
+  - [Routage géodépendant pour les conférences dans Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md)
 
 </div>
 
@@ -68,7 +68,7 @@ Le routage basé sur l’emplacement permet de limiter le routage des appels ent
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification d’Enterprise Voice dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+[Planification de voix entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
   
 
 </div>

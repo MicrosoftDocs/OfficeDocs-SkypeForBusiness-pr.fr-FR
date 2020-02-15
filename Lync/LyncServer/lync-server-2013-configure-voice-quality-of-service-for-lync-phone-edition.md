@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer la qualité de service de la voix pour Lync Phone Edition'
+title: 'Lync Server 2013 : configuration de la qualité de service des communications vocales pour Lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d2b669592d2fa50d3b47fcc45722234fe76963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 104e74c903b673c4aa3593b8b50868306912a9a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733884"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>Configurer la qualité de service de la voix pour Lync Phone Edition dans Lync Server 2013
+# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>Configuration de la qualité de service des communications vocales pour Lync Phone Edition dans Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41733884"
 
 _**Dernière modification de la rubrique :** 2012-09-29_
 
-Vous pouvez configurer la configuration requise pour la qualité de service (QoS) pour les appareils Lync Phone Edition dans un pool en définissant le niveau de QoS pour les téléphones IP qui se connectent à Lync Server 2013.
+Vous pouvez configurer les exigences de qualité de service (QoS) pour les appareils Lync Phone Edition d’un pool en définissant le niveau de QoS pour les téléphones IP qui se connectent à Lync Server 2013.
 
 <div>
 
-## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>Pour configurer la qualité de service de la voix pour Lync Phone Edition
+## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>Pour configurer la qualité de service des communications vocales pour Lync Phone Edition
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Dans la barre de navigation gauche, cliquez sur **clients**, puis sur Configuration de l' **appareil**.
+2.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur **Configuration du périphérique**.
 
-3.  Dans la page Configuration de l' **appareil** , dans la liste des configurations d’appareils, double-cliquez sur la configuration pour laquelle vous souhaitez modifier les paramètres de QoS.
+3.  Dans la page **Configuration du périphérique**, dans la liste des configurations de périphériques, double-cliquez sur la configuration dont vous voulez changer les paramètres de qualité de service.
 
-4.  Dans **modifier la configuration**de l’appareil, sous **qualité du service**pour la voix, spécifiez le niveau de QoS. Le niveau par défaut est **40**.
+4.  Dans **Modifier la configuration du périphérique**, sous **Qualité de service de la voix**, spécifiez un niveau. Le niveau par défaut est **40**.
 
 </div>
 

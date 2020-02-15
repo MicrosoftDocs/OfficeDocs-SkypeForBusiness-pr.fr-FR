@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Appels sortants'
+title: 'Lync Server 2013 : appels sortants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a353cecbf1cdc1ff411c2cfe7c57edcd909c5c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca0cdc7781143b0e76ff83a980f00da58c814f02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755638"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755638"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Le routage des appels sortants d’utilisateurs activés pour le routage par emplacement est affecté par l’emplacement réseau du point de terminaison de l’utilisateur. Le tableau suivant illustre la façon dont le routage en fonction de l’emplacement affecte le routage des appels sortants en fonction de l’emplacement du point de terminaison de l’appelant.
+Le routage des appels sortants d’utilisateurs activés pour le routage géodépendant est affecté par l’emplacement réseau du point de terminaison de l’utilisateur. Le tableau suivant montre comment le routage géodépendant affecte le routage des appels sortants en fonction de l’emplacement du point de terminaison de l’appelant.
 
 ### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Appelant passant un appel sortant vers le réseau téléphonique commuté (RTC)
 
@@ -50,20 +50,20 @@ Le routage des appels sortants d’utilisateurs activés pour le routage par emp
 <thead>
 <tr class="header">
 <th></th>
-<th>Point de terminaison d’un utilisateur situé dans un site réseau pour lequel le routage géodépendant est activé</th>
-<th>Point de terminaison de l’utilisateur situé dans un site réseau inconnu ou pour lequel le routage géodépendant n’est pas activé</th>
+<th>Point de terminaison d’utilisateur situé dans un site réseau activé pour le routage géodépendant</th>
+<th>Point de terminaison d’utilisateur situé dans un site réseau inconnu ou non activé pour le routage géodépendant</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Autorisation des appels sortants</p></td>
-<td><p>L’appel est autorisé sur la base de la stratégie de voix de l’utilisateur</p></td>
-<td><p>L’appel est autorisé sur la base de la stratégie de voix de l’utilisateur</p></td>
+<td><p>L’appel est autorisé en fonction de la stratégie de voix de l’utilisateur</p></td>
+<td><p>L’appel est autorisé en fonction de la stratégie de voix de l’utilisateur</p></td>
 </tr>
 <tr class="even">
-<td><p>Routage de l’appel sortant</p></td>
-<td><p>L’appel est routé selon le stratégie de routage des communications vocales du site réseau</p></td>
-<td><p>L’appel est routé selon la stratégie de voix de l’utilisateur en utilisant uniquement des jonctions pour lesquelles le routage géodépendant n’est pas activé (si celui-ci est disponible)</p></td>
+<td><p>Routage des appels sortants</p></td>
+<td><p>L’appel est acheminé en fonction de la stratégie de routage des communications vocales du site réseau</p></td>
+<td><p>L’appel est acheminé en fonction de la stratégie de voix de l’utilisateur et uniquement via des jonctions non activées pour le routage géodépendant (le cas échéant)</p></td>
 </tr>
 </tbody>
 </table>

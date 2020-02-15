@@ -1,5 +1,5 @@
 ---
-title: Gestion des compléments
+title: Gérer les compléments
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757178"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-add-ins"></a>Gestion des compléments
+# <a name="manage-add-ins"></a>Gérer les compléments
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757178"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour créer un nouveau complément serveur Chat permanent
+Pour créer un complément de serveur de conversation permanente
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
@@ -53,7 +53,7 @@ Pour créer un nouveau complément
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn &lt;chaîne&gt; est requise uniquement s’il existe plusieurs pools de serveurs de chat permanents.
+> La &lt;chaîne&gt; PersistentChatPoolFqdn est requise uniquement s’il existe plusieurs pools de serveurs de conversation permanente.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configurer un nouveau serveur d’applications de confiance'
+title: 'Lync Server 2013 : configuration d’un nouveau serveur d’applications approuvées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dae7e02d7642fed5fea60235283eaa0d7d7e1e35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e370c229442d90d6e962f0d73efbf4b94038926a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756358"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurer un nouveau serveur d’applications de confiance dans Lync Server 2013
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurer un nouveau serveur d’applications approuvées dans Lync Server 2013
 
 </div>
 
@@ -37,35 +37,35 @@ ms.locfileid: "41756358"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Microsoft Lync Server 2013. Pour plus d’informations sur les applications UCMA, voir la documentation relative au kit de développement logiciel [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)unifié API 3,0 principal du SDK.
+Une application approuvée est une application basée sur Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK approuvé par Microsoft Lync Server 2013. Pour plus d’informations sur les applications UCMA, voir «documentation du [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)Kit de développement logiciel (SDK) Unified Communications Managed API 3,0.
 
-Pour plus d’informations sur la configuration de Microsoft Outlook Web Access (OWA) et de Lync Server 2013, voir « configurer Outlook Web App et intégration de Lync Server 2010 » dans la documentation Microsoft Exchange Server 2013.
+Pour plus d’informations sur la configuration de Microsoft Outlook Web Access (OWA) et de Lync Server 2013, voir « Configurer l’intégration d’Outlook Web App et de Lync Server 2010 » dans la documentation de Microsoft Exchange Server 2013.
 
-Pour la publication, l’activation ou la désactivation d’une topologie lors de l’ajout ou de la suppression d’un rôle de serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les autorisations et les droits d’administrateur appropriés pour ajouter des rôles de serveur. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement. Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
+Pour publier, activer ou désactiver correctement une topologie lors de l’ajout ou de la suppression d’un rôle de serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Administrateurs du domaine. Il est également possible de déléguer les droits et autorisations d’administrateur appropriés pour l’ajout de rôles de serveur. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement. Pour procéder à d’autres modifications de la configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est nécessaire.
 
 <div>
 
-## <a name="to-configure-a-trusted-application-server"></a>Pour configurer un serveur d’applications de confiance
+## <a name="to-configure-a-trusted-application-server"></a>Pour configurer un serveur d’applications approuvées
 
-1.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
+1.  Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologies est installé, en tant que membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 
-2.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+2.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
-3.  Sélectionnez **Télécharger la topologie à partir du déploiement existant**, puis cliquez sur **OK**.
+3.  Sélectionnez **Télécharger la topologie à partir d’un déploiement existant**, puis cliquez sur **OK**.
 
-4.  Dans la boîte de dialogue **enregistrer la topologie comme** , cliquez sur le fichier de générateur de topologie que vous voulez utiliser, puis cliquez sur **Enregistrer**.
+4.  Dans la boîte de dialogue **enregistrer la topologie sous** , cliquez sur le fichier du générateur de topologies que vous souhaitez utiliser, puis cliquez sur **Enregistrer**.
 
-5.  Dans le volet gauche, cliquez avec le bouton droit sur **serveurs d’applications de confiance**, puis cliquez sur **nouveau pool d’applications approuvés**.
+5.  Dans le volet de gauche, cliquez avec le bouton droit sur **serveurs d’applications approuvées**, puis cliquez sur **nouveau pool d’applications approuvées**.
 
-6.  Entrez le **nom de domaine complet (FQDN** ) du pool d’applications de confiance, puis choisissez s’il s’agit d’un serveur unique ou d’un serveur, puis cliquez sur **suivant**.
+6.  Entrez le **Nom de domaine complet (FQDN) du pool** de l’application approuvée, sélectionnez s’il s’agira d’un serveur unique ou d’un serveur multiple, puis cliquez sur **Suivant**.
 
-7.  Dans la page **Sélectionner le tronçon suivant** , dans la liste, sélectionnez le pool frontal de Lync Server 2013.
+7.  Dans la page **Sélectionner le tronçon suivant** , dans la liste, sélectionnez le pool frontal Lync Server 2013.
 
-8.  Cliquez sur **Terminer**.
+8.  Cliquez sur**Terminer**.
 
-9.  Sélectionnez le nœud supérieur **Lync Server 2013**, puis dans le menu **actions** , cliquez sur **publier la topologie**.
+9.  Sélectionnez le nœud supérieur **Lync Server 2013**, puis, dans le menu **actions** , cliquez sur **publier la topologie**.
     
-    Le **pool d’applications approuvé** doit avoir été créé avec succès et associé au pool frontal approprié.
+    Le **pool d’applications approuvées** doit avoir été créé avec succès et associé au pool frontal correct.
 
 </div>
 

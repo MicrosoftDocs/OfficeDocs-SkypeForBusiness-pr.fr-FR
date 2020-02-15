@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour DNS pour les serveurs de chat permanent'
+title: 'Lync Server 2013 : configuration DNS requise pour les serveurs de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc401fa844c750e57c870ad64ebd919c9b673d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737394"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Configuration DNS requise pour les serveurs de chat permanent dans Lync Server 2013
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Configuration DNS requise pour les serveurs de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41737394"
 
 _**Dernière modification de la rubrique :** 2012-06-28_
 
-Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de serveurs de chat permanents.
+Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de serveurs de conversation permanente.
 
 <div>
 
-## <a name="dns-records-for-persistent-chat-servers"></a>Enregistrements DNS pour les serveurs de chat permanent
+## <a name="dns-records-for-persistent-chat-servers"></a>Enregistrements DNS pour les serveurs de conversation permanente
 
-Le tableau suivant indique les exigences DNS pour le déploiement d’un serveur de chat permanent.
+Le tableau suivant spécifie les exigences DNS pour le déploiement du serveur de conversation permanente.
 
-### <a name="dns-requirements-for-a-persistent-chat-server"></a>Configuration DNS requise pour un serveur de chat permanent
+### <a name="dns-requirements-for-a-persistent-chat-server"></a>Enregistrements DNS requis pour un serveur de conversation permanente
 
 <table>
 <colgroup>
@@ -60,16 +60,16 @@ Le tableau suivant indique les exigences DNS pour le déploiement d’un serveur
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Un serveur de chat permanent</p></td>
+<td><p>Un serveur de conversation permanente</p></td>
 <td><p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) du serveur à son adresse IP.</p></td>
 </tr>
 <tr class="even">
 <td><p>Pool de conversation permanente</p></td>
-<td><p>Un enregistrement A interne qui résout le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
+<td><p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
 <p><strong>Exemple</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10.1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10.2</p>
-<p>Un enregistrement A interne qui résout le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
+<p>Un enregistrement interne A qui associe le nom de domaine complet (FQDN) des serveurs à son adresse IP.</p>
 <p><strong>Exemple</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10.1</p>
 <p>PersistentChatPool.contoso.com 10.10.10.2</p></td>

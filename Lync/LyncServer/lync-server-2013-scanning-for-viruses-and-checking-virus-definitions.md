@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : recherche de virus et vérification des signatures de virus'
+title: 'Lync Server 2013 : analyse antivirus et vérification des définitions de virus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb36ec86c5e9d30e6a215a89748a02e5ef355b73
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1825b96cc4ef2c0c71e04b369f1cf116b8070eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732644"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41732644"
 
 _**Dernière modification de la rubrique :** 2014-05-01_
 
-Nous vous recommandons vivement d’installer un produit antivirus de niveau message instantané. Le message instantané est une source connue pour la propagation rapide des virus et des logiciels malveillants au sein d’une organisation. Microsoft Forefront® Security pour Lync Server fournit une analyse multimoteur avec un virus, un logiciel malveillant, une protection de filtre par fichier et mot clé ainsi qu’une intégration transparente avec Office Communications Server.
+Nous vous recommandons vivement d’installer un produit antivirus de niveau messagerie instantanée. La messagerie instantanée est une source connue pour diffuser rapidement les virus et les logiciels malveillants au sein d’une organisation. Microsoft Forefront® Security for Lync Server fournit une analyse multimoteur avec des virus, des logiciels malveillants, une protection contre le filtrage des fichiers et des mots clés et une intégration transparente avec Office Communications Server.
 
-En plus de Forefront Security pour Lync Server, nous vous conseillons vivement d’installer une solution antivirus de niveau fichier pour protéger le système de fichiers du serveur.
+En plus de Forefront Security pour Lync Server, nous vous recommandons également d’installer une solution antivirus au niveau du fichier pour protéger le système de fichiers du serveur.
 
-Il est très important de maintenir les moteurs de scanneurs et les définitions de virus mis à jour. La configuration et la surveillance de l’état des mises à jour permettent de s’assurer que les informations d’analyse les plus récentes sont utilisées pour protéger les fichiers et le système de fichiers Office Communications Server.
+La mise à jour des moteurs de scanneurs et des définitions de virus est très importante. La configuration et la surveillance de l’intégrité des mises à jour permettent de s’assurer que les informations d’analyse les plus récentes sont utilisées pour protéger à la fois Office Communications Server et le système de fichiers.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si vous utilisez un logiciel antivirus tiers, sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et le serveur Lync sont installés ne sont pas analysés, afin d’éviter leur corruption. Pour obtenir la liste complète des exclusions, <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>reportez-vous à la section.
+> Lors de l’utilisation d’un logiciel antivirus de niveau fichier tiers sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et Lync Server sont installés ne sont pas analysés, afin d’empêcher leur corruption. Pour obtenir la liste complète des exclusions, <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>reportez-vous à la rubrique.
 
 
 

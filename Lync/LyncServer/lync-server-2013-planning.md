@@ -12,16 +12,16 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba5a563612a395a7f252aecb5992a64d04b5221
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b60f2cb767dc37d06c2c55547b0bf8cfae366cc4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725164"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41725164"
 
 _**Dernière modification de la rubrique :** 2014-12-09_
 
-Les rubriques de cette section expliquent comment planifier un déploiement réussi de Lync Server.
+Les rubriques de cette section décrivent la planification d’un déploiement Lync Server réussi.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Planification de l’organisation pour Lync Server 2013](lync-server-2013-planning-for-your-organization.md)
+  - [Planification de l’Organisation pour Lync Server 2013](lync-server-2013-planning-for-your-organization.md)
 
-  - [Définition de la configuration requise pour l’infrastructure pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [Détermination de la configuration requise pour votre infrastructure pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)
 
-  - [Planification du réseau pour Lync Server 2013](lync-server-2013-network-planning.md)
+  - [Planification réseau pour Lync Server 2013](lync-server-2013-network-planning.md)
 
   - [Planification de la capacité pour Lync Server 2013](lync-server-2013-capacity-planning.md)
 
   - [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [Planification de la gérabilité et de la virtualisation dans Lync Server 2013](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [Planification de la gestion et de la virtualisation dans Lync Server 2013](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
   - [Planification des serveurs frontaux, de la messagerie instantanée et de la présence dans Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Planification des conférences dans Lync Server 2013](lync-server-2013-planning-for-conferencing.md)
+  - [Planification de la Conférence dans Lync Server 2013](lync-server-2013-planning-for-conferencing.md)
 
   - [Planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)
 
-  - [Planification d’Enterprise Voice dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
+  - [Planification de voix entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
 
   - [Planification de la surveillance dans Lync Server 2013](lync-server-2013-planning-for-monitoring.md)
 
@@ -71,7 +71,7 @@ Les rubriques de cette section expliquent comment planifier un déploiement réu
 
   - [Planification de l’intégration d’Exchange Server à Lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md)
 
-  - [Planification des clients et des appareils dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
+  - [Planification des clients et des périphériques dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
 
   - [Planification du contrôle d’appel distant dans Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 

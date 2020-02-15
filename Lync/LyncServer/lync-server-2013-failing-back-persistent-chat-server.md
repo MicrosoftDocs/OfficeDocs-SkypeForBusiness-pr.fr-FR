@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Restauration d’un serveur de conversation permanente'
+title: 'Lync Server 2013 : restauration d’un serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a0e7bef65773c20c5d97a1b625d2ef39255f64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756168"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,27 +37,27 @@ ms.locfileid: "41756168"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Cette procédure décrit les étapes nécessaires à la récupération d’une défaillance du serveur de chat permanent et à la restauration d’opérations à partir du centre de données principal.
+Cette procédure décrit les étapes nécessaires pour effectuer une récupération suite à une défaillance du serveur de conversation permanente, ainsi que pour rétablir les opérations à partir du centre de données principal.
 
-Lors de l’échec du serveur Chat permanent, le centre de données principal est en panne, et les bases de données principales et miroirs deviennent indisponibles. Le centre de données principal bascule vers le serveur de sauvegarde.
+Lors d’une défaillance du serveur de conversation permanente, le centre de données principal subit une panne totale, et les bases de données principale et miroir deviennent indisponibles. Le centre de données principal bascule vers le serveur de sauvegarde.
 
-La procédure suivante rétablit le fonctionnement normal une fois le centre de données principal sauvegardé et les serveurs reconstruits. Cette procédure part du principe que le centre de données principal a été restauré à partir d’une panne totale et que la base de données MGC et la base de données mgccomp ont été recréées puis réinstallées à l’aide du générateur de topologie.
+La procédure suivante rétablit le fonctionnement normal une fois le centre de données principal sauvegardé et les serveurs reconstruits. La procédure suppose que le centre de données principal ait été récupéré après une panne totale et que la base de données MGC et la base de données mgccomp ont été recréées et réinstallées à l’aide du générateur de topologies.
 
-Cette procédure part du principe qu’aucun nouveau serveur miroir et de sauvegarde n’a été déployé pendant la période de basculement, et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme cela a été défini dans [échec du serveur de conversation permanent dans Lync server 2013](lync-server-2013-failing-over-persistent-chat-server.md).
+La procédure suppose également qu’aucun nouveau serveur de miroir et de sauvegarde n’ait été déployé pendant la période de basculement, et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme défini dans basculement du [serveur de conversation permanente dans Lync server 2013](lync-server-2013-failing-over-persistent-chat-server.md).
 
 Ces étapes visent à récupérer la configuration telle qu’elle existait avant la défaillance, cette dernière ayant provoqué le basculement du serveur principal vers le serveur de sauvegarde.
 
 <div>
 
-## <a name="to-fail-back-persistent-chat-server"></a>Pour restaurer le serveur de conversation persistante
+## <a name="to-fail-back-persistent-chat-server"></a>Pour restaurer un serveur de conversation permanente
 
-1.  Effacez tous les serveurs de la liste de serveurs actifs de chat permanent `Set-CsPersistentChatActiveServer` du serveur à l’aide de l’applet de contrôle de Lync Server Management Shell. Cela a pour fin la connexion à la base de données MGC et de la base de données mgccomp lors du retour arrière.
+1.  Effacez tous les serveurs de la liste serveur de conversation permanente Active Server `Set-CsPersistentChatActiveServer` à l’aide de l’applet de commande de Lync Server Management Shell. Cela empêche tous les serveurs de conversation permanente de se connecter à la base de données MGC et à la base de données mgccomp pendant la restauration automatique.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > L’agent SQL Server sur le serveur principal de chat permanent du serveur principal doit être en cours d’exécution sous un compte privilégié. Plus précisément, le compte doit disposer des droits suivants : 
+    > L’agent SQL Server sur le serveur principal de serveur de conversation permanente secondaire doit être en cours d’exécution sous un compte privilégié. Plus précisément, le compte doit disposer des droits suivants : 
     > <UL>
     > <LI>
     > <P>Accès en lecture au partage réseau dans lequel les sauvegardes sont placées</P>
@@ -69,7 +69,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
 
 2.  Désactivez la mise en miroir sur la base de données mgc de sauvegarde :
     
-    1.  À l’aide de SQL Server Management Studio, connectez-vous à l’instance Backup MGC.
+    1.  À l’aide de SQL Server Management Studio, connectez-vous à l’instance de MGC de sauvegarde.
     
     2.  Cliquez avec le bouton droit sur la base de données mgc, pointez sur **Tâches**, puis cliquez sur **Miroir**.
     
@@ -81,7 +81,7 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
 
 3.  Sauvegardez la base de données mgc afin qu’elle puisse être restaurée vers la nouvelle base de données primaire :
     
-    1.  À l’aide de SQL Server Management Studio, connectez-vous à l’instance Backup MGC.
+    1.  À l’aide de SQL Server Management Studio, connectez-vous à l’instance de MGC de sauvegarde.
     
     2.  Cliquez avec le bouton droit sur la base de données mgc, pointez sur **Tâches**, puis cliquez sur **Sauvegarder**. La boîte de dialogue **Sauvegarder la base de données** s’affiche.
     
@@ -119,24 +119,24 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     
     9.  Cliquez sur **OK** pour lancer le processus de restauration.
 
-5.  Configurer l’envoi du journal SQL Server pour la base de données principale. Suivez les procédures de [configuration du serveur de chat permanent pour une haute disponibilité et une reprise après sinistre dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) pour établir l’envoi de journaux pour la base de données MGC principale.
+5.  Configurez la copie des journaux de transaction SQL Server pour la base de données principale. Suivez les procédures décrites dans [configuration du serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) pour établir la copie des journaux de transaction pour la base de données MGC principale.
 
-6.  Définissez les serveurs actifs de chat permanent serveur. À partir de Lync Server Management Shell, utilisez l’applet de contrôle **Set-CsPersistentChatActiveServer** pour définir la liste des serveurs actifs.
+6.  Définissez les serveurs actifs du serveur de conversation permanente. À partir de Lync Server Management Shell, utilisez l’applet de commande **Set-applet cspersistentchatactiveserver** pour définir la liste des serveurs actifs.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Tous les serveurs actifs doivent être situés au sein du même centre de données que celui de la nouvelle base de données primaire, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données.
+    > Tous les serveurs actifs doivent être situés dans le même centre de données que celui de la nouvelle base de données principale, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données.
 
     
     </div>
 
-Lorsque le pool est restauré à son état normal, exécutez la commande Windows PowerShell suivante :
+La restauration du pool à son état normal exécute la commande Windows PowerShell suivante :
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Pour plus d’informations, consultez la rubrique d’aide sur l’applet de [CsPersistentChatState Set-](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) .
 
 </div>
 

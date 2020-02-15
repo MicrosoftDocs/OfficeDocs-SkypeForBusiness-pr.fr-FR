@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Prise en charge du protocole IP et de gestion réseau'
+title: 'Lync Server 2013 : prise en charge du protocole IP et du réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 285ed0d383b09276979ad6e29c390e2fc22a1caf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a9792ea8365dcd8941b831c43ab0406f9e33b90
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Prise en charge du protocole IP et de gestion réseau dans Lync Server 2013
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Prise en charge des protocoles IP et réseau dans Lync Server 2013
 
 </div>
 
@@ -37,26 +37,26 @@ ms.locfileid: "41762182"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Lync Server 2013 prend en charge les protocoles IP et réseau suivants :
+Lync Server 2013 prend en charge les protocoles IP et de mise en réseau suivants :
 
-  - **Protocoles IP.**    Lync Server 2013 prend en charge les protocoles IP version 4 (IPv4) ou IP version 6 (IPv6) pour le réseau du serveur.
+  - **Protocoles IP.**    Lync Server 2013 prend en charge IP version 4 (IPv4) ou IP version 6 (IPv6) pour le réseau de serveurs.
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 peut fonctionner dans un réseau doté d’une pile IP double activée.
+    > Lync Server 2013 peut fonctionner dans un réseau avec une pile IP double activée.
 
     
     </div>
 
-  - **Protocoles de transport SIP.**    De manière générale, le protocole SIP peut utiliser au moins trois types de transport : protocole UDP (User Datagram Protocol), protocole TCP (Transmission Control Protocol) et TLS (Transport Layer Security). Dans la configuration de transport SIP par défaut, le protocole TLS s’exécute sur TCP. TLS est utilisé au sein du réseau Lync Server 2013. Au bord du réseau, Lync Server 2013 peut interagir via TCP. Lync Server 2013 ne prend pas en charge le protocole UDP pour les transports SIP, car il ne respecte pas les normes minimales pour la sécurité, la fiabilité et l’évolutivité des communications d’entreprise. Pour plus d’informations, reportez-vous à l’article de blog NextHop, «au protocole UDP ou pas à UDP [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369), qui est la question «à.
+  - **Protocoles de transport SIP.**    De manière générique, SIP peut utiliser au moins trois types de transport : UDP (User Datagram Protocol), TCP (Transmission Control Protocol) et TLS (Transport Layer Security). Dans la configuration de transport SIP par défaut, le protocole TLS prévaut sur TCP. TLS est utilisé dans le réseau Lync Server 2013. Sur le serveur Edge du réseau, Lync Server 2013 peut interagir sur TCP. Lync Server 2013 ne prend pas en charge le protocole UDP pour le transport SIP car il ne respecte pas les normes minimales pour la sécurité, la fiabilité et l’évolutivité des communications d’entreprise. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « vers UDP, ou non à UDP [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369), qui est la question » à l’adresse.
     
     <div>
     
 
     > [!NOTE]  
-    > Le contenu des blogs et leurs URL peuvent être modifiés sans préavis.
+    > Le contenu de chaque blog et les URL correspondantes peuvent faire l'objet de modifications sans préavis.
 
     
     </div>

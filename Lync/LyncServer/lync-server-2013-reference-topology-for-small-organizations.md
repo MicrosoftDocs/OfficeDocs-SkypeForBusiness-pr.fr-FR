@@ -1,5 +1,5 @@
 ---
-title: Topologie de référence de Lync Server 2013 pour les petites entreprises
+title: Topologie de référence Lync Server 2013 pour les petites organisations
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f4c9d99e95dea0edd0b5990b0bb198dfe59dc61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746864"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,23 +37,23 @@ ms.locfileid: "41746864"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-La topologie de référence pour les petites organisations montre comment vous pouvez déployer une solution robuste et facilement disponible en déployant uniquement trois serveurs exécutant Lync Server.
+La topologie de référence pour les petites organisations vous montre comment déployer une solution robuste hautement disponible en déployant uniquement trois serveurs exécutant Lync Server.
 
 **Topologie de référence pour les petites organisations**
 
-![Diagramme de topologie de référence déployant trois serveurs](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagramme de topologie de référence déployant trois serveurs")
+![Diagramme de la topologie de référence de déploiement de trois serveurs](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagramme de la topologie de référence de déploiement de trois serveurs")
 
-  - **Paire de serveurs Standard Edition déployés**     cette organisation a des utilisateurs 4 000 sur leur site central. L’organisation a déployé deux serveurs Standard Edition et les a couplés pour permettre une haute disponibilité et une reprise après sinistre. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Pour plus d’informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence dans Lync Server 2013, voir [planification d’une haute disponibilité et reprise après sinistre dans Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Paire de serveurs Standard Edition déployée**     cette organisation a 4 000 utilisateurs sur leur site central. L’organisation a déployé deux serveurs Standard Edition et les a associés pour permettre la haute disponibilité et la récupération d’urgence. Chaque serveur héberge 2 000 utilisateurs, mais les informations sur tous les utilisateurs sont synchronisées entre les deux serveurs. En cas de panne, un administrateur peut faire basculer ces utilisateurs pour qu’ils soient pris en charge par l’autre serveur, avec un minimum de perturbation pour les utilisateurs. Pour plus d’informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence dans Lync Server 2013, consultez la rubrique [planification de la haute disponibilité et de la récupération d’urgence dans Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **Le déploiement de Edge Server est recommandé.**    Même si le déploiement d’un serveur de périphérie n’est pas requis pour la messagerie instantanée interne, la présence et les conférences, nous le recommandons même pour les petits déploiements. Vous pouvez optimiser votre investissement sur votre serveur Lync en déployant un serveur Edge pour fournir des services aux utilisateurs qui se trouvent en dehors des pare-feu de votre organisation. Les avantages sont les suivants :
+  - **Le déploiement de serveur Edge est recommandé.**    Bien que le déploiement d’un serveur Edge ne soit pas requis pour la messagerie instantanée interne, la présence et la Conférence, nous vous recommandons de le faire même pour les déploiements de petite taille. Vous pouvez optimiser votre investissement Lync Server en déployant un serveur Edge pour fournir des services aux utilisateurs qui se trouvent actuellement en dehors des pare-feu de votre organisation. Les avantages sont les suivants :
     
-      - Les utilisateurs de votre organisation peuvent utiliser la fonctionnalité de serveur Lync, s’ils travaillent à la maison ou sont en déplacement.
+      - Les utilisateurs de votre organisation peuvent utiliser les fonctionnalités de Lync Server, s’ils travaillent de chez eux ou s’ils sont en déplacement.
     
       - Les utilisateurs de votre organisation peuvent inviter des utilisateurs externes à participer à des réunions.
     
-      - Si un partenaire, un fournisseur ou une organisation cliente utilise également Lync Server, vous pouvez créer une *relation fédérée* avec cette organisation. Le déploiement de votre serveur Lync reconnaît alors les utilisateurs de cette organisation fédérée pour une meilleure collaboration.
+      - Si vous avez un partenaire, un fournisseur ou une organisation cliente qui utilise également Lync Server, vous pouvez former une *relation fédérée* avec cette organisation. Votre déploiement Lync Server reconnaîtrait alors les utilisateurs de cette organisation fédérée, ce qui permettra une meilleure collaboration.
     
-      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publique, y compris tout ou partie des éléments suivants :\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être nécessaire pour la connectivité de messagerie instantanée publique avec ces services.
+      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publics, y compris tout ou partie des éléments suivants :\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être requise pour la connectivité PIC avec ces services.
         
         <div>
         
@@ -61,22 +61,22 @@ La topologie de référence pour les petites organisations montre comment vous p
         > [!IMPORTANT]  
         > <UL>
         > <LI>
-        > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+        > <P>À partir du 2012 1er septembre, la licence d’abonnement utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») n’est plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo !. Messenger jusqu’à la date d’arrêt du service. Date de fin du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité PIC de messagerie instantanée dans Lync Server 2013</A>.</P>
         > <LI>
-        > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
+        > <P>La fonction USL PIC est une licence d’abonnement par utilisateur et par mois requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonnée à la prise en charge de Yahoo !, l’accord sous-jacent de qui est en panne.</P>
         > <LI>
-        > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
+        > <P>Plus que jamais, Lync est un outil puissant pour la connexion entre les organisations et les utilisateurs dans le monde entier. La Fédération avec Windows Live Messenger ne requiert aucune licence utilisateur/périphérique supplémentaire au-delà de la licence d’accès client Lync standard. La Fédération Skype est ajoutée à cette liste, ce qui permet aux utilisateurs de Lync d’atteindre des centaines de millions de personnes avec la messagerie instantanée et la voix.</P></LI></UL>
 
         
         </div>
 
-  - **Survie du site de succursale.**    Cette organisation exécute un programme pilote de la fonctionnalité voix entreprise de Lync Server. Certains utilisateurs utilisent Lync Server comme solution vocale unique. Certains de ces utilisateurs de pilotes vocaux sont disponibles sur le site de la succursale. Le site de succursale ne possède pas de lien réseau étendu (WAN) fiable vers le site central ; de sorte qu’une unité de branchement survivant y est déployée. Ainsi, si la liaison de réseau étendu ne fonctionne pas, les utilisateurs sur le site de la succursale peuvent continuer à passer et à recevoir des appels (au sein de l’organisation et des appels RTC), à utiliser leur messagerie vocale et à communiquer par le biais de la messagerie instantanée à deux personnes. Les utilisateurs peuvent également être authentifiés lorsque la liaison de réseau étendu n’est plus disponible.
+  - **Survivabilité du site de succursale.**    Cette organisation exécute un programme pilote de la fonctionnalité voix entreprise de Lync Server. Certains utilisateurs utilisent Lync Server comme solution vocale unique. Certains de ces utilisateurs de la version pilote vocale se trouvent sur le site de succursale. Le site de succursale ne dispose pas d’un lien de réseau étendu (WAN) fiable vers le site central, c’est pourquoi un Survivable Branch Appliance est déployé à cet emplacement. Une fois cette fonctionnalité déployée, si la liaison de réseau étendu (WAN) tombe en panne, les utilisateurs du site de succursale peuvent continuer à passer et recevoir des appels (les deux appels au sein de l’organisation et les appels RTC), bénéficier des fonctionnalités de messagerie vocale et communiquer avec la messagerie instantanée (IM) à deux personnes. Les utilisateurs peuvent également être authentifiés lorsque la liaison WAN n’est plus disponible.
 
-  - **Déploiement de la messagerie unifiée Exchange.** Cette topologie de référence inclut un serveur Exchange Unified Messaging (UM) qui exécute Microsoft Exchange Server et non Lync Server.
+  - **Déploiement de la messagerie unifiée Exchange** Cette topologie de référence inclut un serveur de messagerie unifiée Exchange, qui exécute Microsoft Exchange Server, et non Lync Server.
     
-    Pour plus d’informations sur la messagerie unifiée Exchange, voir [planification d’une intégration de messagerie unifiée Exchange dans Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) et [intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) dans la documentation de planification.
+    Pour plus d’informations sur la messagerie unifiée Exchange, consultez la rubrique [planification de l’intégration de la messagerie unifiée Exchange dans Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) et l' [intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) dans la documentation de planification.
 
-  - **Office Web Apps Server.** Nous recommandons le déploiement d’un serveur Office Web Apps Server ou d’une batterie de serveurs Office Web Apps Server dans toutes les organisations qui utilisent des conférences Web. Office Web Apps Server vous permet de présenter des diapositives PowerPoint lors de conférences Web. Pour plus d’informations, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Office Web Apps Server.** Nous vous recommandons de déployer une batterie de serveurs Office Web Apps Server ou Office Web Apps Server dans toutes les organisations qui utilisent la conférence Web. Office Web Apps Server permet de présenter des diapositives PowerPoint dans des conférences Web. Pour plus d’informations, reportez-vous à la rubrique [configuration de l’intégration à Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 </div>
 

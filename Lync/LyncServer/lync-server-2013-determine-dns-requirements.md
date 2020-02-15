@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Détermination de la configuration requise pour DNS pour Lync Server 2013'
+title: 'Lync Server 2013 : déterminer les exigences DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79f1c27f48beddd0c1fd3260193a71bb79b034bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762482"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determine-dns-requirements-for-lync-server-2013"></a>Détermination de la configuration requise pour DNS pour Lync Server 2013
+# <a name="determine-dns-requirements-for-lync-server-2013"></a>Déterminer les exigences DNS pour Lync Server 2013
 
 </div>
 
@@ -37,19 +37,19 @@ ms.locfileid: "41762482"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Utilisez le diagramme de flux suivant pour déterminer la configuration requise DNS (Domain Name System). Les modifications apportées aux mises à jour cumulatives pour Lync Server 2013:2013 février sont indiquées dans l’emplacement où ils s’appliquent.
+Utilisez l’organigramme suivant pour déterminer les enregistrements DNS requis. Les modifications apportées aux mises à jour cumulatives pour Lync Server 2013 : février 2013 sont indiquées à l’endroit où elles s’appliquent.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft Lync Server 2013 prend en charge l’utilisation de l’adressage IPv6. Pour utiliser les adresses IPv6, vous devez également fournir une prise en charge pour le DNS IPv6 et configurer les enregistrements d’hôte DNS AAAA (connus sous le nom de « Quad-A »). Dans les déploiements où IPv4 et IPv6 sont utilisés, il est préférable de configurer et de gérer les enregistrements d’hôte A pour IPv4 et l’hôte AAAA pour IPv6. Même si votre déploiement a été entièrement basculé vers IPv6, des enregistrements d’hôte DNS IPv4 peuvent toujours être requis lorsque des utilisateurs externes utilisent toujours IPv4.
+> Microsoft Lync Server 2013 prend en charge l’utilisation de l’adressage IPv6. Pour utiliser les adresses IPv6, vous devez également fournir la prise en charge du DNS IPv6 et configurer les enregistrements d’hôte DNS AAAA (appelés « Quad-A »). Dans les déploiements où les protocoles IPv4 et IPv6 sont utilisés, il est préférable de configurer et de gérer à la fois les enregistrements d’hôte A pour IPv4 et l’hôte AAAA pour IPv6. Même si votre déploiement a été intégralement transféré vers IPv6, les enregistrements d’hôte DNS IPv4 peuvent toujours être requis lorsque des utilisateurs externes continuent à utiliser IPv4.
 
 
 
 </div>
 
-**Déterminer le graphique de processus requis pour DNS**
+**Détermination de l’organigramme des enregistrements DNS requis**
 
 ![175782ac-363e-408a-912f-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
 
@@ -57,7 +57,7 @@ Utilisez le diagramme de flux suivant pour déterminer la configuration requise 
 
 
 > [!IMPORTANT]  
-> Par défaut, le nom de l’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom d’hôte, et non un nom de domaine complet. Le générateur de topologie utilise les noms de domaine complets et non les noms d’hôte. Vous devez donc configurer un suffixe DNS sur le nom de l’ordinateur qui sera déployé en tant que serveur de périphérie non lié à un domaine. <STRONG>Utilisez uniquement les caractères standard</STRONG> (tels que A–Z, a–z, 0–9, et les traits d’union) quand vous assignez les FQDN de vos serveurs Lync, serveurs de périphérie et pools. N’utilisez pas les caractères ou traits de soulignement Unicode. Souvent, les caractères non standard dans un FQDN ne sont pas pris en charge par le DNS externe et les autorités de certification publique (quand le FQDN doit être assigné au SN dans le certificat). Pour plus d’informations, voir <A href="lync-server-2013-configure-dns-host-records.md">configurer les enregistrements d’hôte DNS pour Lync Server 2013</A>
+> Par défaut, le nom d’ordinateur d’un ordinateur qui n’est pas joint à un domaine est un nom d’hôte, et non un nom de domaine complet (FQDN). Le générateur de topologie utilise des noms de domaine complets, pas des noms d’hôte. Par conséquent, vous devez configurer un suffixe DNS sur le nom de l’ordinateur à déployer en tant que serveur Edge non membre d’un domaine. <STRONG>Utilisez uniquement des caractères standard</STRONG> (A–Z, a–z, 0–9 et tirets) lorsque vous assignez des noms de domaines complets à vos serveurs Lync, serveurs Edge et pools. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères non standard dans les noms de domaines complets ne sont généralement pas pris en charge par les DNS externes et les autorités publiques de certification (c’est-à-dire lorsque le nom de domaine complet doit être affecté à l’élément SN (Subject Name) du certificat). Pour plus d’informations, reportez-vous à <A href="lync-server-2013-configure-dns-host-records.md">configurer des enregistrements d’hôte DNS pour Lync Server 2013</A>
 
 
 
@@ -65,47 +65,47 @@ Utilisez le diagramme de flux suivant pour déterminer la configuration requise 
 
 <div>
 
-## <a name="how-lync-clients-locate-services"></a>Comment les clients Lync trouvent les services
+## <a name="how-lync-clients-locate-services"></a>Comment les clients Lync localisent les services
 
-Microsoft Lync 2010, Lync 2013 et Lync mobile sont similaires dans la façon dont le client recherche et accède aux services dans Lync Server 2013. L’exception notable est l’application Lync du Windows Store qui utilise un processus d’emplacement de service différent. Cette section décrit en détail deux scénarios illustrant la façon dont les clients trouvent les services, d’abord la méthode classique à l’aide d’une série d’enregistrements SRV et en second lieu en utilisant uniquement les enregistrements du service de découverte automatique. Les mises à jour cumulatives apportées aux clients de bureau changent le processus d’emplacement DNS de Lync Server 2010 pour tous les clients, le processus de requête DNS se poursuit jusqu’à ce qu’une requête réussie soit renvoyée ou que la liste des enregistrements DNS possibles soit épuisée et que la dernière erreur soit retournée à le client.
+Microsoft Lync 2010, Lync 2013 et Lync mobile sont similaires dans la façon dont le client trouve et accède aux services dans Lync Server 2013. L’exception notable est l’application Lync Windows Store qui utilise un processus d’emplacement de service différent. Cette section décrit deux scénarios de localisation des services par les clients, la méthode traditionnelle qui utilise une série d’enregistrements d’hôte SRV et A, ainsi que les enregistrements du service de découverte automatique uniquement. Les mises à jour cumulatives des clients de bureau modifient le processus d’emplacement DNS à partir de Lync Server 2010 pour tous les clients, le processus de requête DNS continue jusqu’à ce qu’une requête réussie soit renvoyée, ou la liste des enregistrements DNS possibles soit épuisée, et la dernière erreur est renvoyée à le client.
 
-Pour tous les clients, **à l’exception** de l’application Lync du Windows Store lors de la recherche DNS, les enregistrements SRV sont interrogés et renvoyés au client dans l’ordre suivant :
+Pour tous les clients **à l’exception** de l’application Lync Windows Store pendant la recherche DNS, les enregistrements SRV sont interrogés et renvoyés au client dans l’ordre suivant :
 
-1.  lyncdiscoverinternal. \<enregistrement\> Domain A (Host) pour le service de découverte automatique sur les services Web internes
+1.  lyncdiscoverinternal. \<enregistrement\> de domaine A (hôte) pour le service de découverte automatique sur les services Web internes
 
-2.  lyncdiscover. \<enregistrement\> Domain A (Host) pour le service de découverte automatique sur les services Web externes
+2.  lyncdiscover. \<enregistrement\> de domaine A (hôte) pour le service de découverte automatique sur les services Web externes
 
-3.  \_sipinternaltls. \_TCP. \<enregistrement\> Domain SRV (service Locator) pour les connexions TLS internes
+3.  \_sipinternaltls. \_TCP. \<enregistrement\> de domaine SRV (Localisateur de service) pour les connexions TLS internes
 
-4.  \_sipinternal. \_TCP. \<enregistrement\> Domain SRV (Localisateur de service) pour les connexions TCP internes (exécuté uniquement si le protocole TCP est autorisé)
+4.  \_sipinternal. \_TCP. \<enregistrement\> de domaine SRV (Localisateur de service) pour les connexions TCP internes (effectué uniquement si TCP est autorisé)
 
-5.  \_SIP. \_TLS. \<enregistrement\> Domain SRV (service Locator) pour les connexions TLS externes
+5.  \_SIP. \_TLS. \<enregistrement\> de domaine SRV (Localisateur de service) pour les connexions TLS externes
 
-6.  sipinternal. \<l'\> enregistrement Domain A (Host) pour le pool frontal ou le directeur, résolu uniquement sur le réseau interne.
+6.  sipinternal. \<enregistrement\> de domaine A (hôte) pour le pool frontal ou le directeur, pouvant être résolu uniquement sur le réseau interne
 
 7.  SIP. \<enregistrement\> de domaine A (hôte) pour le pool frontal ou le directeur sur le réseau interne, ou le service Edge d’accès lorsque le client est externe
 
 8.  sipexternal. \<enregistrement\> de domaine A (hôte) pour le service Edge d’accès lorsque le client est externe
 
-L’application Lync du Windows Store modifie entièrement le processus, car elle utilise deux enregistrements :
+L’application Lync Windows Store modifie complètement le processus, car il utilise deux enregistrements :
 
-1.  lyncdiscoverinternal. \<enregistrement\> Domain A (Host) pour le service de découverte automatique sur les services Web internes
+1.  lyncdiscoverinternal. \<enregistrement\> de domaine A (hôte) pour le service de découverte automatique sur les services Web internes
 
-2.  lyncdiscover. \<enregistrement\> Domain A (Host) pour le service de découverte automatique sur les services Web externes
+2.  lyncdiscover. \<enregistrement\> de domaine A (hôte) pour le service de découverte automatique sur les services Web externes
 
-Il n’y a aucun retour vers les autres types d’enregistrements.
+Il n’y a pas de secours pour les autres types d’enregistrements.
 
-La différence entre les méthodes utilisées pour les nouveaux clients par rapport aux clients plus anciens est que le service de découverte automatique devient la méthode préférée pour rechercher tous les services.
+La différence entre les méthodes utilisées pour les clients plus récents et les clients plus anciens est que le service de découverte automatique devient la méthode préférée pour rechercher tous les services.
 
-Quand une connexion est établie, le service de découverte automatique renvoie toutes les URL des services Web pour le pool de domicile de l’utilisateur, y compris le service de mobilité (connu sous le nom de MCX par le répertoire virtuel créé pour le service dans IIS), Microsoft Lync Web App et URL Web Scheduler. Toutefois, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont associées au nom de domaine complet des services Web externes. Par conséquent, qu’il s’agisse d’un appareil mobile ou d’une connexion externe, l’appareil se connecte toujours au service de mobilité par le biais du proxy inverse.
+Lorsqu’une connexion réussit, le service de découverte automatique renvoie toutes les URL des services Web pour le pool d’accueil de l’utilisateur, y compris le service de mobilité (appelé MCX par le répertoire virtuel créé pour le service dans les services Internet (IIS), Microsoft Lync Web App et les URL du planificateur Web. Toutefois, l'URL du Service Mobilité interne et l'URL du Service Mobilité externe sont associées au nom de domaine complet des services web externes. Par conséquent, qu’il soit interne ou externe au réseau, un appareil mobile se connecte toujours au service de mobilité de manière externe, par le biais du proxy inverse.
 
-Si les mises à jour cumulatives pour Lync Server 2013 : février 2013 ont été installées, le service de découverte automatique renvoie également des références à des éléments internes/UCWA, externes/UCWA et UCWA. Ces entrées font référence au composant WebPart Unified Communications Web API (UCWA). Pour l’instant, seul l’entrée UCWA est utilisée et fournit une référence à une URL pour le composant WebPart. UCWA est utilisé par les clients mobiles Lync 2013 au lieu du service de mobilité MCX utilisé par les clients mobiles Lync 2010.
+Si les mises à jour cumulatives pour Lync Server 2013 : février 2013 ont été installées, le service de découverte automatique renvoie également des références à Internal/UCWA, External/UCWA et UCWA. Ces entrées font référence au composant web de l'API web Unified Communications (UCWA). Actuellement, seule l’entrée UCWA est utilisée et fournit une référence à une URL pour le composant Web. UCWA est utilisé par les clients mobiles Lync 2013 au lieu du service de mobilité MCX utilisé par les clients mobiles Lync 2010.
 
 <div>
 
 
 > [!NOTE]  
-> Lors de la création d’enregistrements SRV, il est important de ne pas oublier qu’ils doivent pointer vers un enregistrement DNS A et AAAA (si vous utilisez l’adressage IPv6) dans le même domaine dans lequel l’enregistrement SRV DNS est créé. Par exemple, si l’enregistrement SRV est dans contoso.com, l’enregistrement A et le signe AAAA (si vous utilisez l’adressage IPv6) ne peuvent pas être dans fabrikam.com.
+> Lors de la création d’enregistrements SRV, il est important de ne pas oublier qu’ils doivent pointer vers un enregistrement DNS A et AAAA (si vous utilisez l’adressage IPv6) dans le même domaine que celui dans lequel l’enregistrement DNS SRV est créé. Par exemple, si l’enregistrement SRV se trouve dans contoso.com, l’enregistrement A et AAAA (si vous utilisez l’adressage IPv6) sur lequel pointe vers ne peut pas être dans fabrikam.com.
 
 
 
@@ -115,7 +115,7 @@ Si les mises à jour cumulatives pour Lync Server 2013 : février 2013 ont ét�
 
 
 > [!TIP]  
-> La configuration par défaut consiste à diriger tout le trafic du client mobile par le biais du site externe. Vous pouvez modifier les paramètres pour renvoyer uniquement l’URL interne, si cela est préférable pour vos exigences. Avec cette configuration, les utilisateurs peuvent utiliser les applications mobiles Lync sur leur appareil mobile uniquement lorsqu’elles se trouvent à l’intérieur du réseau d’entreprise. Pour ce faire, vous devez utiliser l’applet <STRONG>de passe Set-CsMcxConfiguration</STRONG> .
+> La configuration par défaut consiste à diriger tout le trafic client mobile via le site externe. Vous pouvez modifier les paramètres pour qu’ils ne renvoient que l’URL interne, si cela est plus préférable pour vos besoins. Dans cette configuration, les utilisateurs peuvent utiliser les applications mobiles Lync sur leur appareil mobile uniquement lorsqu’ils se trouvent sur le réseau d’entreprise. Pour définir cette configuration, vous utilisez la cmdlet <STRONG>Set-CsMcxConfiguration</STRONG> .
 
 
 
@@ -125,95 +125,95 @@ Si les mises à jour cumulatives pour Lync Server 2013 : février 2013 ont ét�
 
 
 > [!NOTE]  
-> Même si les applications mobiles peuvent également se connecter à d’autres services Lync Server 2013, tels que le service de carnet d’adresses, les demandes Web de l’application mobile interne sont dirigées vers le FQDN Web externe uniquement pour le service de mobilité. D’autres demandes de service, telles que des demandes de carnet d’adresses, ne nécessitent pas cette configuration.
+> Bien que les applications mobiles puissent également se connecter à d’autres services Lync Server 2013, tels que le service de carnet d’adresses, les demandes Web d’applications mobiles internes sont dirigées vers le nom de domaine complet Web externe uniquement pour le service de mobilité. Cette configuration n’est pas nécessaire pour les autres demandes de services, telles que les demandes de carnet d’adresses.
 
 
 
 </div>
 
-Les appareils mobiles prennent en charge la découverte manuelle des services. Dans le cas présent, chaque utilisateur doit configurer les paramètres de l’appareil mobile avec les URI de service de découverte automatique internes et externes complets, y compris le protocole et le chemin d’accès comme suit :
+Les appareils mobiles prennent en charge la découverte manuelle des services. Dans ce cas, chaque utilisateur doit configurer les paramètres de l’appareil mobile avec les URI complètes interne et externe du service de découverte automatique, y compris le protocole et le chemin d’accès, comme suit :
 
   - https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/root pour l’accès externe
 
   - https://\<IntPoolFQDN\>/autodiscover/autodiscover.svc/root pour l’accès interne
 
-Nous vous recommandons d’utiliser la découverte automatique plutôt que la découverte manuelle. Toutefois, il peut s’avérer utile de résoudre les problèmes de connectivité des appareils mobiles.
+Nous vous recommandons d’utiliser la découverte automatique au lieu de la découverte manuelle. Toutefois, les paramètres manuels peuvent être utiles pour résoudre les problèmes de connectivité des appareils mobiles.
 
 </div>
 
 <div>
 
-## <a name="configuring-split-brain-dns-with-lync-server"></a>Configuration du système DNS split-brain avec Lync Server
+## <a name="configuring-split-brain-dns-with-lync-server"></a>Configuration du DNS split-brain avec Lync Server
 
-Le système DNS split-brain est connu par un certain nombre de noms (par exemple, Split DNS ou Split-horizon). Il s’agit simplement d’une configuration DNS qui comporte deux zones DNS ayant le même espace de noms, mais une requête en interne uniquement pour les services de zone DNS, et les autres demandes externes aux services de zone DNS. Toutefois, la plupart des enregistrements DNS SRV et A contenus dans le DNS interne ne seront pas inclus dans le DNS externe et l’inverse est également vrai. Dans les cas où il existe le même enregistrement DNS dans le DNS interne et externe (par exemple, www.contoso.com), l’adresse IP renvoyée sera différente en fonction de la date à laquelle la requête a été lancée (interne ou externe).
+Le DNS split-brain est connu sous la dénomination d’un certain nombre de noms, par exemple, Split DNS ou Split-horizon DNS. En fait, il décrit une configuration DNS dans laquelle il existe deux zones DNS avec le même espace de noms, mais une seule requête de services de zone DNS en interne uniquement et les autres requêtes externes aux services de zone DNS. Toutefois, de nombreux enregistrements DNS (SRV et A) contenus dans le DNS interne ne seront pas contenus dans le DNS externe, et inversement. Dans les cas où le même enregistrement DNS existe à la fois dans le DNS interne et dans le DNS externe (par exemple, www.contoso.com), l’adresse IP renvoyée sera différente selon l’emplacement (interne ou externe) de la requête.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Pour le moment, le DNS fractionné-Brain n’est pas pris en charge pour la mobilité, ou plus précisément, les enregistrements DNS LyncDiscover et LyncDiscoverInternal. LyncDiscover doit être défini sur un serveur DNS externe et LyncDiscoverInternal doit être défini sur un serveur DNS interne.
+> Actuellement, le DNS split-brain n’est pas pris en charge pour la mobilité, ou plus spécifiquement, les enregistrements DNS LyncDiscover et LyncDiscoverInternal. LyncDiscover doit être défini sur un serveur DNS externe et LyncDiscoverInternal doit être défini sur un serveur DNS interne.
 
 
 
 </div>
 
-Dans le cadre de ces rubriques, le terme « DNS split-brain » sera utilisé.
+Pour les besoins de ces rubriques, le terme DNS split-brain est utilisé.
 
-Si vous configurez le système DNS fractionné-Brain, la zone interne et externe suivante contiennent un résumé des types d’enregistrements DNS requis dans chaque zone. Pour plus d’informations, reportez-vous à la rubrique [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+Si vous configurez DNS split-brain, les zones interne et externe suivantes contiennent un résumé des types d’enregistrements DNS requis dans chaque zone. Pour plus d’informations, reportez-vous à [scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
 **DNS interne :**
 
-  - Contient une zone DNS appelée contoso.com pour laquelle il fait autorité
+  - contient une zone DNS appelée contoso.com pour laquelle il fait autorité
 
-  - La zone contoso.com interne contient les éléments suivants :
+  - La zone interne contoso.com contient :
     
-      - DNS A et AAAA (si vous utilisez l’adressage IPv6) et enregistrements SRV pour la configuration automatique du client Lync Server 2013 interne (facultatif)
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) et SRV pour la configuration automatique du client Lync Server 2013 interne (facultatif)
     
-      - DNS A et AAAA (si vous utilisez l’adressage IPv6) ou les enregistrements CNAMe pour la découverte automatique des services Web Lync Server 2013 (facultatif)
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) ou CNAMe pour la découverte automatique des services Web Lync Server 2013 (facultatif)
     
-      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour le nom du pool frontal, le directeur ou le nom du pool de réalisateurs, ainsi que tous les serveurs internes exécutant Lync Server 2013 sur le réseau d’entreprise
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour le nom du pool frontal, le nom du pool directeur ou du pool Directeur, ainsi que tous les serveurs internes exécutant Lync Server 2013 dans le réseau d’entreprise
     
-      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface interne latérale de chaque Lync Server 2013, serveur Edge du réseau de périmètre
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface interne du serveur Edge de chaque Lync Server 2013, serveur Edge dans le réseau de périmètre
     
-      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface interne de chaque serveur proxy inverse dans le réseau de périmètre (facultatif pour la gestion du proxy inverse)
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface interne de chaque serveur proxy inverse dans le réseau de périmètre (facultatif pour la gestion des proxys inverses)
     
-      - Toutes les interfaces Edge internes de Lync Server 2013 Edge Server dans le réseau de périmètre utilisent la zone DNS interne pour la résolution des requêtes vers contoso.com
+      - Toutes les interfaces Edge internes du serveur Edge Lync Server 2013 dans le réseau de périmètre utilisent la zone DNS interne pour résoudre les requêtes vers contoso.com
     
-      - Tous les serveurs exécutant Lync Server 2013 et les clients exécutant Lync 2013 dans le réseau d’entreprise pointent vers les serveurs DNS internes pour la résolution des requêtes vers contoso.com ou l’utilisation du fichier HOSTs sur chaque serveur Edge et de la liste A et des enregistrements AAAA (si vous utilisez l’adressage IPv6) pour serveur du tronçon suivant, en particulier le directeur ou le VIP du réalisateur, le protocole VIP de pool frontal ou le serveur Standard Edition Server
+      - Tous les serveurs exécutant Lync Server 2013 et les clients exécutant Lync 2013 dans le réseau d’entreprise pointent vers les serveurs DNS internes pour résoudre les requêtes vers contoso.com ou utiliser le fichier HOSTs sur chaque serveur Edge et les enregistrements de liste A et AAAA (si vous utilisez l’adressage IPv6) pour serveur du tronçon suivant, en particulier le VIP directeur ou directeur, le VIP de pool frontal ou le serveur Standard Edition
 
 **DNS externe :**
 
-  - Contient une zone DNS appelée contoso.com pour laquelle il fait autorité
+  - contient une zone DNS appelée contoso.com pour laquelle il fait autorité
 
-  - La zone contoso.com externe contient les éléments suivants :
+  - La zone externe contoso.com contient :
     
-      - DNS A et AAAA (si vous utilisez l’adressage IPv6) et enregistrements SRV pour la configuration automatique du client Lync Server 2013 (facultatif)
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) et SRV pour la configuration automatique du client Lync Server 2013 (facultatif)
     
-      - DNS A et AAAA (si vous utilisez l’adressage IPv6) ou les enregistrements CNAMe pour la découverte automatique des services Web de Lync Server 2013 pour une utilisation avec la mobilité
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) ou CNAMe pour la découverte automatique des services Web Lync Server 2013 pour une utilisation avec la mobilité
     
-      - DNS A et AAAA (si vous utilisez l’adressage IPv6) et enregistrements SRV pour l’interface externe Edge de chaque adresse IP virtuelle Lync Server 2013, Edge Server ou du réseau de périmètre
+      - Les enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) et SRV pour l’interface externe de serveur Edge de chaque Lync Server 2013, serveur Edge ou adresse IP virtuelle du programme d’équilibrage de la charge matérielle dans le réseau de périmètre
     
-      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface externe du serveur proxy inverse ou d’une adresse IP virtuelle pour une réserve de serveurs proxy inverse dans le réseau de périmètre
+      - Enregistrements DNS A et AAAA (si vous utilisez l’adressage IPv6) pour l’interface externe du serveur proxy inverse ou de l’adresse IP virtuelle pour un pool de serveurs proxy inverses dans le réseau de périmètre
 
 </div>
 
 <div>
 
-## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS fractionné-Brain
+## <a name="automatic-configuration-without-split-brain-dns"></a>Configuration automatique sans DNS split-brain
 
-À l’aide du système DNS fractionné-Brain, un utilisateur de Lync Server 2013 qui se connecte en interne peut tirer parti de la configuration automatique \_si la zone DNS interne contient une sipinternaltls. \_enregistrement SRV TCP pour chaque domaine SIP utilisé. Toutefois, si vous n’utilisez pas le DNS fractionné-Brain, la configuration automatique interne des clients exécutant Lync ne fonctionne pas, sauf si l’une des solutions de contournement décrites dans la section ci-après est implémentée. Le problème est dû au fait que Lync Server 2013 nécessite que l’URI SIP de l’utilisateur correspond au domaine du pool frontal destiné à la configuration automatique. C’est également le cas dans les versions antérieures de Communicator.
+À l’aide du DNS split-brain, un utilisateur de Lync Server 2013 qui se connecte en interne peut tirer parti de la configuration automatique si \_la zone DNS interne contient un sipinternaltls. \_enregistrement TCP SRV pour chaque domaine SIP utilisé. Toutefois, si vous n’utilisez pas le DNS split-brain, la configuration interne automatique des clients exécutant Lync ne fonctionnera pas, sauf si l’une des solutions de contournement décrites plus loin dans cette section est implémentée. En effet, Lync Server 2013 nécessite l’URI SIP de l’utilisateur pour correspondre au domaine du pool frontal désigné pour la configuration automatique. Cela était également le cas avec les versions antérieures de Communicator.
 
-Par exemple, si deux domaines SIP sont utilisés, les enregistrements de service DNS (SRV) suivants sont nécessaires :
+Si par exemple vous avez deux domaines SIP utilisés, les enregistrements DNS SRV suivants seront nécessaires :
 
-  - Si un utilisateur se connecte en tant que bob@contoso.com, l’enregistrement SRV suivant fonctionne pour la configuration automatique, car le domaine SIP de l’utilisateur (contoso.com) correspond au domaine du pool frontal de configuration automatique.
+  - Si un utilisateur se connecte en tant que bob@contoso.com l’enregistrement SRV suivant fonctionnera pour la configuration automatique, car le domaine SIP de l’utilisateur (contoso.com) correspond au domaine du pool frontal de configuration automatique) :
     
      \_sipinternaltls. \_TCP.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
 
-  - Si un utilisateur se connecte en tant que alice@fabrikam.com, l’enregistrement SRV DNS suivant fonctionne pour la configuration automatique du deuxième domaine SIP.
+  - Si un utilisateur se connecte en tant que alice@fabrikam.com, l’enregistrement DNS SRV suivant fonctionnera pour la configuration automatique du deuxième domaine SIP.
     
      \_sipinternaltls. \_TCP.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
 
-Pour comparaison, si un utilisateur se connecte en tant que tim@litwareinc.com, l’enregistrement SRV DNS suivant ne fonctionne pas pour la configuration automatique, car le domaine SIP du client (litwareinc.com) ne correspond pas au domaine dans lequel se trouve le pool (fabrikam.com) :
+À titre de comparaison, si un utilisateur se connecte en tant que tim@litwareinc.com, l’enregistrement DNS SRV suivant ne fonctionne pas pour la configuration automatique, car le domaine SIP du client (litwareinc.com) ne correspond pas au domaine dans lequel se trouve le pool (fabrikam.com) :
 
  \_sipinternaltls. \_TCP.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
 
@@ -225,14 +225,14 @@ Si la configuration automatique est requise pour les clients exécutant Lync, s�
     
 
     > [!NOTE]  
-    > Si cette option n’est pas activée dans le processus de configuration manuelle, vous n’avez pas besoin de configurer automatiquement les enregistrements SRV associés à la configuration automatique.
+    > Cette option n’active pas la configuration automatique, mais automatise le processus de configuration manuelle. Par conséquent, en suivant cette approche, les enregistrements SRV associés à la configuration automatique ne sont pas nécessaires.
 
     
     </div>
 
-  - **Zone interne correspondante**   créez une zone dans le DNS interne qui correspond à la zone DNS externe (par exemple, contoso.com), puis créez les enregistrements DNS a et aaaa (si vous utilisez l’adressage IPv6) correspondant au pool Lync Server 2013 utilisé pour la configuration automatique. Par exemple, si un utilisateur est hébergé sur pool01.contoso.net mais qu’il se connecte à Lync en tant que bob@contoso.com, créez une zone DNS interne appelée contoso.com et à l’intérieur de cette dernière, créez un enregistrement DNS A et AAAA (si l’adressage IPv6 est utilisé) pour pool01.contoso.com.
+  - **La zone**   interne correspondante permet de créer une zone dans le DNS interne correspondant à la zone DNS externe (par exemple, contoso.com) et de créer des enregistrements DNS a et aaaa (si vous utilisez l’adressage IPv6) correspondant au pool Lync Server 2013 utilisé pour la configuration automatique. Par exemple, si un utilisateur est hébergé sur pool01.contoso.net, mais qu’il se connecte à Lync en tant que bob@contoso.com, créez une zone DNS interne appelée contoso.com et à l’intérieur de celle-ci, créez un enregistrement DNS A et AAAA (si l’adressage IPv6 est utilisé) pour pool01.contoso.com.
 
-  - **Zone de point d’épingle**   si vous créez une zone entière dans le DNS interne n’est pas une option disponible, vous pouvez créer des zones de point d’épingle (qui sont dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd. exe. Dnscmd. exe est requis, car l’interface utilisateur DNS ne prend pas en charge la création de zones au lieu de punaise. Par exemple, si le domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous avez besoin des zones de points de repère et des enregistrements A suivants dans votre DNS interne :
+  - **Zone de code interne**   si vous créez une zone entière dans le DNS interne n’est pas une option, vous pouvez créer des zones de code confidentiel (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd. exe. Dnscmd.exe est obligatoire car l’interface utilisateur DNS ne prend pas en charge la création de zones repère. Par exemple, si le domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 contenant deux serveurs frontaux, vous avez besoin des zones repère en enregistrements A suivants dans votre DNS interne :
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
@@ -242,7 +242,7 @@ Si la configuration automatique est requise pour les clients exécutant Lync, s�
         dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.91 
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
     
-    Si votre environnement contient un deuxième domaine SIP (par exemple, fabrikam.com), vous avez besoin des zones de points de repère et des enregistrements A suivants dans votre DNS interne :
+    Si votre environnement contient un deuxième domaine SIP (par exemple, fabrikam.com), vous avez besoin des zones repère et des enregistrements A suivants dans votre DNS interne :
     
         dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
@@ -256,19 +256,19 @@ Si la configuration automatique est requise pour les clients exécutant Lync, s�
 
 
 > [!NOTE]  
-> Le nom de domaine complet (FQDN) du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. En effet, l’équilibrage de charge DNS est utilisé, mais si l’équilibrage de charge matérielle est utilisé, il n’y a qu’une entrée de pool frontal unique. Par ailleurs, les valeurs de nom de domaine complet (FQDN) du pool frontal changent entre l’exemple contoso.com et l’exemple fabrikam.com, mais les adresses IP restent identiques. En effet, les utilisateurs qui se connectent à partir d’un domaine SIP utilisent le même pool frontal pour la configuration automatique.
+> Le nom de domaine complet du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû à l’utilisation de l’équilibrage de la charge DNS, mais si l’équilibrage de la charge matérielle était utilisé, il n’y aurait qu’une seule entrée de pool frontal. De même, les valeurs du nom de domaine complet du pool frontal entre l’exemple contoso.com et l’exemple fabrikam.com changent, mais les adresses IP sont conservées. La raison est que les utilisateurs qui se connectent à partir de l’un de ces domaines IP utilisent le même pool frontal pour la configuration automatique.
 
 
 
 </div>
 
-Pour plus d’informations, reportez-vous à [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707)l’article de blog DMTF « configuration automatique de Communicator et DNS split-brain ».
+Pour plus d’informations, reportez-vous à l’article du blog DMTF, « Communicator Automatic Configuration and [http://go.microsoft.com/fwlink/p/?linkId=200707](http://go.microsoft.com/fwlink/p/?linkid=200707)split-brain DNS », à l’adresse.
 
 <div>
 
 
 > [!NOTE]  
-> Le contenu des blogs et leurs URL peuvent être modifiés sans préavis.
+> Le contenu de chaque blog et les URL correspondantes peuvent faire l'objet de modifications sans préavis.
 
 
 
@@ -280,9 +280,9 @@ Pour plus d’informations, reportez-vous à [http://go.microsoft.com/fwlink/p/?
 
 ## <a name="configuring-the-domain-name-system-dns-for-disaster-recovery"></a>Configuration du DNS (Domain Name System) pour la récupération d’urgence
 
-Pour configurer le système DNS afin de rediriger le trafic Web de Lync Server 2013 vers vos sites de reprise et de basculement sur incident, vous devez utiliser un fournisseur DNS qui prend en charge GeoDNS. Vous pouvez configurer vos enregistrements DNS pour le Web de manière à ce qu’ils prennent en charge la récupération après sinistre, de sorte que les fonctionnalités qui utilisent les services Web continuent de fonctionner, même si une seule partie du frontale s’affiche. Cette fonctionnalité de reprise après sinistre prend en charge la découverte automatique (URL Lyncdiscover), la réunion et les URL simples de connexion.
+Pour configurer le DNS de façon à rediriger le trafic Web Lync Server 2013 vers vos sites de récupération d’urgence et de basculement, vous devez utiliser un fournisseur DNS qui prend en charge GeoDNS. Vous pouvez configurer vos enregistrements DNS pour que le Web prenne en charge la récupération d’urgence, de sorte que les fonctionnalités qui utilisent les services Web se poursuivent même si un pool frontal complet tombe en panne. Cette fonctionnalité de récupération d’urgence prend en charge la découverte automatique (URL Lyncdiscover), la réunion et les URL simples de numérotation.
 
-Vous pouvez définir et configurer des enregistrements DNS supplémentaires (A et AAAA si vous utilisez des enregistrements IPv6) pour la résolution interne et externe des services Web auprès de votre fournisseur de services de GeoDNS. Les détails suivants présupposent que le niveau de répartition des réserves, géographiquement et GeoDNS est pris en charge par votre fournisseur avec le DNS à répétition alternée ou configuré pour utiliser Pool1 comme principal, et basculer vers Pool2 en cas de perte de communication ou de défaillance matérielle.
+Vous définissez et configurez des enregistrements hôtes DNS (A et AAAA en cas d’utilisation d’IPv6) supplémentaires pour la résolution interne et externe des services Web au niveau de votre fournisseur GeoDNS. Les détails suivants supposent que les pools couplés, géographiquement dispersés et GeoDNS pris en charge par votre fournisseur avec un DNS à tour de rôle ou configurés pour utiliser Pool1 comme principaux, basculent vers Pool2 en cas de perte de communication ou de défaillance matérielle.
 
 
 <table>
@@ -295,7 +295,7 @@ Vous pouvez définir et configurer des enregistrements DNS supplémentaires (A e
 <thead>
 <tr class="header">
 <th>Enregistrement GeoDNS (exemple)</th>
-<th>Enregistrements du pool (exemple)</th>
+<th>Enregistrements de pool (exemple)</th>
 <th>Enregistrements CNAMe (exemple)</th>
 <th>Paramètres DNS (sélectionnez une option)</th>
 </tr>
@@ -305,73 +305,73 @@ Vous pouvez définir et configurer des enregistrements DNS supplémentaires (A e
 <td><p>Meet-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Meet.contoso.com alias de Pool1InternalWebFQDN.contoso.com</p>
-<p>Meet.contoso.com alias de Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Meet.contoso.com vers Pool1InternalWebFQDN.contoso.com</p>
+<p>Alias Meet.contoso.com vers Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="even">
 <td><p>Meet-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Meet.contoso.com alias de Pool1ExternalWebFQDN.contoso.com</p>
-<p>Meet.contoso.com alias de Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Meet.contoso.com vers Pool1ExternalWebFQDN.contoso.com</p>
+<p>Alias Meet.contoso.com vers Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="odd">
 <td><p>Dialin-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Dialin.contoso.com alias de Pool1InternalWebFQDN.contoso.com</p>
-<p>Dialin.contoso.com alias de Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Dialin.contoso.com vers Pool1InternalWebFQDN.contoso.com</p>
+<p>Alias Dialin.contoso.com vers Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="even">
 <td><p>Dialin-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Dialin.contoso.com alias de Pool1ExternalWebFQDN.contoso.com</p>
-<p>Dialin.contoso.com alias de Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Dialin.contoso.com vers Pool1ExternalWebFQDN.contoso.com</p>
+<p>Alias Dialin.contoso.com vers Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lyncdiscoverint-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Lyncdiscoverinternal.contoso.com alias de Pool1InternalWebFQDN.contoso.com</p>
-<p>Lyncdiscoverinternal.contoso.com alias de Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Lyncdiscoverinternal.contoso.com vers Pool1InternalWebFQDN.contoso.com</p>
+<p>Alias Lyncdiscoverinternal.contoso.com vers Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="even">
 <td><p>Lyncdiscover-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Lyncdiscover.contoso.com alias de Pool1ExternalWebFQDN.contoso.com</p>
-<p>Lyncdiscover.contoso.com alias de Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Lyncdiscover.contoso.com vers Pool1ExternalWebFQDN.contoso.com</p>
+<p>Alias Lyncdiscover.contoso.com vers Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="odd">
 <td><p>Scheduler-int.geolb.contoso.com</p></td>
 <td><p>Pool1InternalWebFQDN.contoso.com</p>
 <p>Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Scheduler.contoso.com alias de Pool1InternalWebFQDN.contoso.com</p>
-<p>Scheduler.contoso.com alias de Pool2InternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Scheduler.contoso.com vers Pool1InternalWebFQDN.contoso.com</p>
+<p>Alias Scheduler.contoso.com vers Pool2InternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 <tr class="even">
 <td><p>Scheduler-ext.geolb.contoso.com</p></td>
 <td><p>Pool1ExternalWebFQDN.contoso.com</p>
 <p>Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Scheduler.contoso.com alias de Pool1ExternalWebFQDN.contoso.com</p>
-<p>Scheduler.contoso.com alias de Pool2ExternalWebFQDN.contoso.com</p></td>
-<td><p>Round Robin entre pools</p>
-<p>Utiliser le principal, se connecter à Secondary en cas d’échec</p></td>
+<td><p>Alias Scheduler.contoso.com vers Pool1ExternalWebFQDN.contoso.com</p>
+<p>Alias Scheduler.contoso.com vers Pool2ExternalWebFQDN.contoso.com</p></td>
+<td><p>Tourniquet entre les pools</p>
+<p>Utiliser le principal, se connecter au secondaire en cas d’échec</p></td>
 </tr>
 </tbody>
 </table>
@@ -381,13 +381,13 @@ Vous pouvez définir et configurer des enregistrements DNS supplémentaires (A e
 
 <div>
 
-## <a name="dns-load-balancing"></a>DNS Load Balancing
+## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
 
-L’équilibrage de charge DNS est généralement implémenté au niveau de l’application. Dans le cas contraire, l’application (par exemple, un client exécutant Lync) essaie de se connecter à un serveur dans un pool en se connectant à l’une des adresses IP renvoyées à partir de l’enregistrement DNS A et du nom de domaine AAAA (si l’adressage IPv6 est utilisé).
+L’équilibrage de la charge DNS est généralement implémenté au niveau de l’application. L’application (par exemple, un client exécutant Lync) tente de se connecter à un serveur dans un pool en se connectant à l’une des adresses IP renvoyées par la requête d’enregistrement DNS A et AAAA (si l’adressage IPv6 est utilisé) pour le nom de domaine complet (FQDN) du pool.
 
-Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool01.contoso.com, les informations suivantes se produisent :
+Si par exemple il existe trois serveurs frontaux dans un pool appelé pool01.contoso.com, voilà ce qui se produit :
 
-  - Les clients exécutant une requête Lync DNS pour pool01.contoso.com. La requête renvoie trois adresses IP et les met en cache comme suit (pas nécessairement dans cet ordre) :
+  - Clients exécutant une requête DNS Lync pour pool01.contoso.com. La requête renvoie trois adresses IP et les met en cache comme suit (pas nécessairement dans cet ordre) :
     
     pool01.contoso.com 192.168.10.90
     
@@ -395,45 +395,45 @@ Par exemple, s’il existe trois serveurs front end dans un pool intitulé pool0
     
     pool01.contoso.com 192.168.10.92
 
-  - Le client tente d’établir une connexion TCP (Transmission Control Protocol) vers l’une des adresses IP. En cas d’échec, le client tente l’adresse IP suivante dans le cache.
+  - Le client tente d’établir une connexion TCP (Transmission Control Protocol) à l’une des adresses IP. En cas d’échec, le client essaie l’adresse IP suivante dans le cache.
 
-  - Si la connexion TCP aboutit, le client négocie le protocole TLS pour se connecter au serveur d’inscriptions principal sur pool1.contoso.com.
+  - Si la connexion TCP réussit, le client négocie le protocole TLS pour se connecter au serveur d’inscriptions principal sur pool01.contoso.com.
 
-  - Si le client tente d’accéder à toutes les entrées du cache sans connexion réussie, l’utilisateur est prévenu qu’aucun serveur exécutant Lync Server 2013 n’est disponible pour le moment.
+  - Si le client essaie toutes les entrées mises en cache sans connexion, l’utilisateur est informé qu’aucun serveur exécutant Lync Server 2013 n’est disponible pour le moment.
 
 <div>
 
 
 > [!NOTE]  
-> Le service d’équilibrage de charge DNS est différent de l’équilibrage de charge DNS (RR) qui fait généralement référence à l’équilibrage de charge en fonction du système DNS, qui fournit un ordre différent d’adresses IP correspondant aux serveurs d’un pool. En règle générale, le RR DNS active uniquement la distribution de charge, mais n’autorise pas le basculement. Par exemple, si la connexion à une adresse IP renvoyée par la requête DNS A et AAAA (si vous utilisez l’adressage IPv6) échoue, la connexion échoue. C’est la raison pour laquelle le tourniquet DNS est plutôt moins fiable que le service d’équilibrage de charge DNS. Vous pouvez utiliser le tourniquet DNS conjointement avec l’équilibrage de charge DNS.
+> L’équilibrage de la charge DNS est différent du tourniquet (round robin) DNS (DNS RR) qui fait généralement référence à l’équilibrage de charge en s’appuyant sur DNS pour fournir un ordre d’adresses IP différent correspondant aux serveurs d’un pool. DNS RR active en général uniquement la distribution de la charge, mais n’active pas le basculement. Par exemple, si la connexion à l’adresse IP renvoyée par la requête DNS A et AAAA (si vous utilisez l’adressage IPv6) échoue, la connexion échoue. Par conséquent, le tourniquet DNS (round robin) seul est moins fiable que l’équilibrage de la charge DNS. Vous pouvez utiliser le tourniquet DNS (round robin) conjointement avec l’équilibrage de la charge DNS.
 
 
 
 </div>
 
-L’équilibrage de charge DNS est utilisé pour les éléments suivants :
+L’équilibrage de la charge DNS est utilisé dans les cas suivants :
 
-  - Équilibrage de la charge de serveur à serveur SIP aux serveurs de périphérie
+  - Équilibrage de la charge du SIP de serveur à serveur vers les serveurs Edge
 
-  - Les applications UCAS (Unified Communications application Services) de répartition de charge telles que le standard automatique des conférences, le groupe de réponse et le parc d’appels
+  - Équilibrage de la charge des applications des services d’applications de communications unifiées (UCAS) telles que le Standard automatique de conférence, Response Group et le parcage d’appel.
 
-  - Interdiction de nouvelles connexions aux applications UCAS (également appelées « drainage »)
+  - Empêcher les nouvelles connexions aux applications UCAS (également appelé « drainage »)
 
-  - Équilibrage de la charge de tout le trafic client à serveur entre les clients et les serveurs de périphérie
+  - Équilibrage de la charge de l’ensemble du trafic client-serveur entre les clients et les serveurs Edge
 
-L’équilibrage de charge DNS ne peut pas être utilisé pour les éléments suivants :
+L’équilibrage de la charge DNS ne peut pas être utilisé dans les cas suivants :
 
-  - Trafic Web de client à serveur vers le directeur ou les serveurs frontaux
+  - Trafic Web client à serveur vers le directeur ou les serveurs frontaux
 
-Équilibrage de charge DNS et trafic fédéré :
+Équilibrage de la charge DNS et trafic fédéré :
 
-Si plusieurs enregistrements DNS sont renvoyés par une requête DNS SRV, le service Edge d’accès sélectionne toujours l’enregistrement SRV DNS avec la priorité numérique la plus basse et la pondération numérique la plus élevée. Le document « IETF (Internet Engineering Task Force » "un RR DNS pour spécifier l’emplacement des services ( <http://www.ietf.org/rfc/rfc2782.txt> DNS SRV)" spécifie que, si plusieurs enregistrements SRV DNS sont définis, la priorité est d’abord utilisée, puis pondération. Par exemple, l’enregistrement SRV DNS a a une épaisseur de 20 et une priorité de 40 et de l’enregistrement SRV DNS B a une épaisseur de 10 et de Priority 50. L’enregistrement SRV DNS A avec la priorité 40 est sélectionnée. Les règles suivantes s’appliquent à la sélection d’enregistrements SRV DNS :
+Si plusieurs enregistrements DNS sont renvoyés par une requête SRV DNS, le service Edge d’accès sélectionne toujours l’enregistrement DNS SRV avec la priorité numérique la plus basse et la pondération numérique la plus élevée. Le document IETF (Internet Engineering Task Force) « un RR DNS pour la spécification de l’emplacement des services <http://www.ietf.org/rfc/rfc2782.txt> (DNS SRV) » indique que s’il existe plusieurs enregistrements SRV DNS définis, Priority est utilisé pour la première fois, puis Weight. Par exemple, l’enregistrement DNS SRV a a un poids de 20 et une priorité de 40 et un enregistrement DNS SRV B dont le poids est de 10 et la priorité 50. L’enregistrement DNS SRV A avec la priorité 40 est sélectionné. Les règles suivantes s’appliquent à la sélection des enregistrements SRV DNS :
 
-  - Priority est considéré comme premier. Un client doit tenter de contacter l’hôte cible défini par l’enregistrement SRV DNS dont la priorité numéro faible peut être atteinte. Les cibles de même priorité doivent être essayées dans un ordre défini par le champ pondération.
+  - La priorité est prise en compte en premier. Un client doit essayer de contacter l’hôte cible défini par l’enregistrement DNS SRV avec la priorité la plus faible qu’il peut atteindre. Les cibles ayant la même priorité doivent être testées dans un ordre défini par le champ Weight.
 
-  - Le champ poids spécifie une pondération relative pour les entrées ayant la même priorité. Le plus grand nombre de pondérations doit être proportionnel à la sélection. Les administrateurs DNS doivent utiliser le poids 0 quand il n’y a pas de sélection de serveur à effectuer. En présence d’enregistrements contenant des pondérations supérieures à 0, les enregistrements de poids 0 doivent avoir une très petite chance d’être sélectionnés.
+  - Le champ poids spécifie un poids relatif pour les entrées présentant la même priorité. Les poids plus élevés doivent se voir attribuer une probabilité proportionnellement plus élevée de sélection. Les administrateurs DNS doivent utiliser le poids 0 lorsqu’il n’y a aucune sélection de serveur à effectuer. En présence d’enregistrements contenant des poids supérieurs à 0, les enregistrements dont le poids est supérieur à 0 doivent avoir une chance très faible d’être sélectionnés.
 
-Si plusieurs enregistrements SRV DNS ayant une priorité et un poids identiques sont retournés, le service Edge d’accès sélectionne l’enregistrement SRV reçu en premier du serveur DNS.
+Si plusieurs enregistrements SRV DNS avec une priorité et un poids égaux sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV qui a été reçu en premier à partir du serveur DNS.
 
 </div>
 

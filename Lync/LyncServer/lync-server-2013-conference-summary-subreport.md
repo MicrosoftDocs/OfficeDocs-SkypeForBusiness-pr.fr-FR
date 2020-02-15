@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : sous-état synthèse de la Conférence'
+title: 'Lync Server 2013 : sous-rapport de synthèse de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2c31c614298112b91874882df1e4945845b74bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756988"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-subreport-in-lync-server-2013"></a>Sous-état synthèse de la Conférence dans Lync Server 2013
+# <a name="conference-summary-subreport-in-lync-server-2013"></a>Sous-rapport de synthèse de conférence dans Lync Server 2013
 
 </div>
 
@@ -60,7 +60,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -70,7 +70,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -81,7 +81,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur <strong>[Tous]</strong> pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.</p></td>
+<td><p>Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur <strong>[Tous]</strong> pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -122,7 +122,7 @@ Le tableau suivant répertorie les informations fournies dans le sous-rapport de
 <td><p>Nombre total de sessions de conférence. Une seule conférence peut avoir plusieurs sessions : par exemple, elle peut inclure à la fois une session Focus et une session MCU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taux d’échec de session global</strong></p></td>
+<td><p><strong>Taux d’échec global des sessions</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Pourcentage de tous les échecs de conférence.</p></td>
 </tr>
@@ -132,7 +132,7 @@ Le tableau suivant répertorie les informations fournies dans le sous-rapport de
 <td><p>Nombre total de sessions Focus.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taux d’échec de focus</strong></p></td>
+<td><p><strong>Taux d’échec Focus</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Pourcentage d’échec des sessions Focus.</p></td>
 </tr>

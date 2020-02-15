@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : appel d’équipe avec le routage géodépendant'
+title: Appel de l’équipe Lync Server 2013 avec routage géodépendant
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5dcf8e73c9f800076c848e9a95cd2a234db893b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c44334e9c0901f5d05b4eae37311f6512cc27a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731124"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41731124"
 
 _**Dernière modification de la rubrique :** 2014-08-11_
 
-Lync Server 2013 prend en charge les appels d’équipe avec le routage basé sur l’emplacement.
+Lync Server 2013 prend en charge les appels d’équipe avec le routage géodépendant.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729444"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-clients-and-devices-in-lync-server-2013"></a>Déploiement de clients et d’appareils dans Lync Server 2013
+# <a name="deploying-clients-and-devices-in-lync-server-2013"></a>Déploiement des clients et des périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41729444"
 
 _**Dernière modification de la rubrique :** 2015-04-03_
 
-Cette section décrit les procédures de déploiement de clients et d’appareils Lync Server 2013.
+Cette section décrit les procédures de déploiement des clients et des appareils Lync Server 2013.
 
 <div>
 
@@ -45,17 +45,17 @@ Cette section décrit les procédures de déploiement de clients et d’appareil
 
   - [Déploiement de clients Lync dans Lync Server 2013](lync-server-2013-deploying-lync-clients.md)
 
-  - [Configure the client experience with Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Configuration de l’expérience client avec Skype entreprise](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
   - [Déploiement du plug-in Lync VDI dans Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
   - [Déploiement de Lync Web App dans Lync Server 2013](lync-server-2013-deploying-lync-web-app.md)
 
-  - [Déploiement d’appareils dans Lync Server 2013](lync-server-2013-deploying-devices.md)
+  - [Déploiement de périphériques dans Lync Server 2013](lync-server-2013-deploying-devices.md)
 
   - [Déploiement de clients mobiles dans Lync Server 2013](lync-server-2013-deploying-mobile-clients.md)
 
-  - [Déploiement de l’application Lync du Windows Store dans Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)
+  - [Déploiement de l’application Lync Windows Store dans Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)
 
  </div>
 

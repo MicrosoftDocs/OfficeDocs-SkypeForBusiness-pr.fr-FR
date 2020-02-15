@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration requise pour DNS pour les serveurs et fonctionnalités Edge'
+title: 'Lync Server 2013 : configuration DNS requise pour les serveurs et les fonctionnalités Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e9f0cb2eb68ed29984811f1c42a97dab4693a2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd9c14de1b25125e94a3019b4e3dcdbd192cbb13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739144"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Configuration requise pour DNS pour les serveurs et fonctionnalités Edge dans Lync Server 2013
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Configuration DNS requise pour les serveurs et les fonctionnalités Edge dans Lync Server 2013
 
 </div>
 
@@ -37,27 +37,27 @@ ms.locfileid: "41739144"
 
 _**Dernière modification de la rubrique :** 2014-04-08_
 
-Les serveurs Edge Lync Server 2013, les pools de bords et les proxys inversés ont des exigences spécifiques pour les enregistrements DNS (Domain Name System). Dans Lync Server 2013 lorsque IPv4 et IPv6 sont en cours d’utilisation, vous devez planifier pour les enregistrements hôte A et AAAA.
+Les serveurs Edge Lync Server 2013, les pools de serveurs Edge et les proxys inverses ont des exigences spécifiques pour les enregistrements DNS (Domain Name System). Dans Lync Server 2013, lorsque IPv4 et IPv6 sont en cours d’utilisation, vous devez planifier les enregistrements hôte A et AAAA.
 
-Les rubriques répertoriées ci-dessous décrivent l’utilisation des enregistrements DNS pour votre planification de déploiement :
+Les sujets énumérés ci-dessous définissent l’utilisation des enregistrements DNS pour votre planification de développement :
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Résumé des enregistrements DNS-serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Résumé des enregistrements DNS - Serveur Edge unique consolidé avec adresses IP publiques dans Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Résumé des enregistrements DNS-serveur Edge unique consolidé avec adresses IP publiques dans Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Résumé DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Résumé DNS-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP privées à l’aide de la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Résumé des enregistrements DNS-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Résumé des enregistrements DNS-serveur Edge consolidé ajusté avec programmes d’équilibrage de la charge matérielle dans Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Résumé DNS - Proxy inverse dans Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
+  - [Résumé des enregistrements DNS-proxy inverse dans Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
 
-  - [Résumé DNS-SIP, Fédération de XMPP et messagerie instantanée publique dans Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Résumé des enregistrements DNS-SIP, Fédération XMPP et messagerie instantanée publique dans Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

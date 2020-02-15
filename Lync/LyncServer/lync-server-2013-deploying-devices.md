@@ -12,20 +12,20 @@ ms:contentKeyID: 48183889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc72daeeac3f4bd15c47eb3b9bfa27e4e1c7362
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5400a65f1003012499fd3cf4afae8f75b8b38b86
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-devices-in-lync-server-2013"></a>Déploiement d’appareils dans Lync Server 2013
+# <a name="deploying-devices-in-lync-server-2013"></a>Déploiement de périphériques dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41729424"
 
 _**Dernière modification de la rubrique :** 2013-09-10_
 
-Lync Server 2013 inclut Lync Phone Edition, un logiciel qui s’exécute sur les appareils qualifiés et fournit des fonctionnalités de téléphonie traditionnelles et avancées, une sécurité intégrée, une gestion, etc. Le fonctionnement de Lync Phone Edition fonctionne de la même façon que pour Lync Server 2013 comme pour Lync Server 2010. Pour plus d’informations sur le déploiement d’appareils, voir [déploiement de Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) dans la bibliothèque TechNet de lync Server 2010.
+Lync Server 2013 comprend Lync Phone Edition, un logiciel qui s’exécute sur des appareils qualifiés et fournit des fonctionnalités de téléphonie traditionnelles et avancées, une sécurité intégrée, une facilité de gestion et bien plus encore. Lync Phone Edition fonctionne de la même manière que Lync Server 2013 que dans Lync Server 2010. Pour plus d’informations sur le déploiement des appareils, reportez-vous à la rubrique [Deploying Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) dans la bibliothèque TechNet lync Server 2010.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Planification pour les appareils](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[Prise en charge de logiciels et d’infrastructure pour les clients et périphériques](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[Planification pour les périphériques](http://go.microsoft.com/fwlink/p/?linkid=285881)  
+[Prise en charge du logiciel et de l’infrastructure des clients et des appareils](http://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

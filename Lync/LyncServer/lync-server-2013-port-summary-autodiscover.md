@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Résumé de port-découverte automatique'
+title: 'Lync Server 2013 : Résumé des ports-découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945e3ed9d532f27676e250c29ab415646bd967ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 605aee0d4054c482140ae66ba460931d4658274d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747624"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Résumé du port-découverte automatique dans Lync Server 2013
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Résumé des ports-découverte automatique dans Lync Server 2013
 
 </div>
 
@@ -37,24 +37,24 @@ ms.locfileid: "41747624"
 
 _**Dernière modification de la rubrique :** 2013-03-05_
 
-Le service de découverte automatique de Lync Server 2013 s’exécute sur le directeur et les serveurs du pool frontal, et lorsqu’il `lyncdiscover.<domain>` est `lyncdiscoverinternal.<domain>` publié dans DNS à l’aide des enregistrements d’hôte et, les clients peuvent utiliser les fonctionnalités de Lync Server. Pour que les appareils mobiles exécutant Lync mobile puissent utiliser la découverte automatique, il est possible que vous deviez modifier les listes de noms de remplacement de l’objet du certificat sur tout directeur et serveur frontal exécutant le service de découverte automatique. Par ailleurs, il est possible que vous deviez modifier les listes nom de remplacement de l’objet sur les certificats utilisés pour les règles de publication de service Web externe sur les proxys inverses.
+Le service de découverte automatique Lync Server 2013 s’exécute sur les serveurs de pools frontaux et de directeurs et, lorsqu' `lyncdiscover.<domain>` il `lyncdiscoverinternal.<domain>` est publié dans DNS à l’aide des enregistrements de l’hôte et, peut être utilisé par les clients pour accéder aux fonctionnalités de Lync Server. Pour que les appareils mobiles exécutant Lync mobile puissent utiliser la découverte automatique, vous devez d’abord modifier les listes des autres noms de sujet du certificat sur un directeur et un serveur frontal exécutant le service de découverte automatique. En outre, il peut s’avérer nécessaire de modifier les listes des autres noms de sujet sur les certificats utilisés pour les règles de publication des services web externes sur les proxys inverses.
 
-La décision concernant l’utilisation des listes de noms de substitution sur les proxys inverse est basée sur le fait que vous publiez le service de découverte automatique sur le port 80 ou sur le port 443 :
+La décision d’utiliser des listes d’autres noms de sujet sur les proxys inverses est basée sur la publication du service de découverte automatique sur le port 80 ou sur le port 443 :
 
-  - **Publié sur le port 80**   pour les appareils mobiles, aucune modification de certificat n’est requise si la requête initiale au service de découverte automatique a lieu sur le port 80. En effet, les appareils mobiles exécutant Lync accèderont au proxy inverse sur le port 80 en externe, puis seront redirigés vers un serveur directeur ou frontal sur le port 8080 en interne.
+  - **Publié sur le port 80**   pour les appareils mobiles, aucune modification de certificat n’est requise si la requête initiale du service de découverte automatique a lieu sur le port 80. Cela est dû au fait que les appareils mobiles exécutant Lync accèdent au proxy inverse sur le port 80 de manière externe, puis sont redirigés vers un directeur ou un serveur frontal sur le port 8080 en interne.
 
-  - **Publié sur le port 443**   la liste autre nom de l’objet sur les certificats utilisés par la règle de publication des `lyncdiscover.<sipdomain>` services Web externes doit contenir une entrée pour chaque domaine SIP au sein de votre organisation.
+  - **Publié sur le port 443**   la liste autre nom du sujet sur les certificats utilisés par la règle de publication des services `lyncdiscover.<sipdomain>` Web externes doit contenir une entrée pour chaque domaine SIP de votre organisation.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Pour les nouvelles installations ou mises à niveau de Lync Server 2010 sur lequel vous avez déployé une mobilité, vous avez utilisé le port 80 pour la découverte automatique du service de mobilité ou les certificats ayant été renommés avec le nom d’objet approprié et les noms de substitution de l’objet en vigueur. Passez en revue les certificats de votre directeur et de votre serveur frontal pour vérifier le chemin que vous avez choisi.
+    > Pour les nouvelles installations ou mises à niveau à partir de Lync Server 2010 où vous avez déployé la mobilité, vous avez utilisé le port 80 pour la découverte automatique du service de mobilité ou émis à nouveau les certificats avec le nom d’objet et les autres noms de sujet appropriés sur place. Passez en revue les certificats sur votre directeur et votre serveur frontal pour confirmer le chemin d’accès que vous avez choisi.
 
     
     </div>
 
-### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Détails du pare-feu pour le serveur proxy inverse : interface externe
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Informations sur le pare-feu pour le serveur proxy inverse : interface externe
 
 <table>
 <colgroup>
@@ -66,29 +66,29 @@ La décision concernant l’utilisation des listes de noms de substitution sur l
 <thead>
 <tr class="header">
 <th>Protocole/TCP ou UDP/Port</th>
-<th>Adresse IP source</th>
-<th>Adresse IP de destination</th>
-<th>Remarques</th>
+<th>Adresse IP source</th>
+<th>Adresse IP de destination</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Indifférente</p></td>
-<td><p>Écouteur de proxy inverse</p></td>
-<td><p>Facultatif Redirection vers HTTPs si l’utilisateur entre http://&lt;publishedSiteFQDN&gt;. Également requis si vous utilisez Office Web Apps pour les conférences et le service de découverte automatique pour les appareils mobiles exécutant Lync dans les situations dans lesquelles l’organisation ne souhaite pas modifier le certificat de règle de publication de service Web externe.</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>Port d’écoute du proxy inverse</p></td>
+<td><p>Module Redirection vers HTTPs si l’utilisateur entre http://&lt;publishedSiteFQDN&gt;. Également requis si vous utilisez Office Web Apps pour les conférences et le service de découverte automatique pour les appareils mobiles exécutant Lync dans les situations où l’organisation ne souhaite pas modifier le certificat de règle de publication du service Web externe.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Indifférente</p></td>
-<td><p>Écouteur de proxy inverse</p></td>
-<td><p>Téléchargements de carnets d’adresses, service de requête sur le Web du carnet d’adresses, découverte automatique, mises à jour du client, contenu de la réunion, mises à jour de l’appareil, développement de groupe, Office Web Apps pour les conférences, Conférence rendez-vous et réunions.</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>Port d’écoute du proxy inverse</p></td>
+<td><p>Téléchargements de carnets d’adresses, service de requête sur le Web du carnet d’adresses, découverte automatique, mises à jour du client, contenu de la réunion, mises à jour de périphériques, développement de groupes, Office Web Apps pour les conférences, Conférence rendez-vous et réunions.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Détails du pare-feu pour le serveur proxy inverse : interface interne
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Informations sur le pare-feu pour le serveur proxy inverse : interface interne
 
 <table>
 <colgroup>
@@ -100,23 +100,23 @@ La décision concernant l’utilisation des listes de noms de substitution sur l
 <thead>
 <tr class="header">
 <th>Protocole/TCP ou UDP/Port</th>
-<th>Adresse IP source</th>
-<th>Adresse IP de destination</th>
-<th>Remarques</th>
+<th>Adresse IP source</th>
+<th>Adresse IP de destination</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
-<td><p>Interface du proxy inverse interne</p></td>
-<td><p>Serveur frontal, pool frontal, directeur, pool de directeurs, Office Web Apps pour les conférences</p></td>
-<td><p>Obligatoire si vous utilisez le service de découverte automatique pour les appareils mobiles exécutant Lync dans les situations où l’organisation ne souhaite pas modifier le certificat de règle de publication de service Web externe. Le trafic envoyé au port 80 sur l’interface externe du proxy inverse est redirigé vers un pool sur le port 8080 à partir de l’interface interne du proxy, afin que les services Web de réserve puissent le différencier du trafic Web interne.</p></td>
+<td><p>Interface interne du proxy inverse</p></td>
+<td><p>Serveur frontal, pool frontal, directeur, pool Directeur, Office Web Apps pour les conférences</p></td>
+<td><p>Obligatoire si vous utilisez le service de découverte automatique pour les appareils mobiles exécutant Lync dans les situations où l’organisation ne souhaite pas modifier le certificat de règle de publication du service Web externe. Le trafic envoyé vers le port 80 sur l’interface externe du proxy inverse est redirigé vers un pool sur le port 8080 à partir de l’interface interne du proxy inverse. Ainsi, les services web du pool peuvent faire la distinction par rapport au trafic web interne.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Interface du proxy inverse interne</p></td>
-<td><p>Serveur frontal, pool frontal, directeur, pool de directeurs, Office Web Apps pour les conférences</p></td>
-<td><p>Le trafic envoyé au port 443 sur l’interface externe du proxy inverse est redirigé vers un pool sur le port 4443 à partir de l’interface interne du proxy, afin que les services Web de réserve puissent le différencier du trafic Web interne.</p></td>
+<td><p>Interface interne du proxy inverse</p></td>
+<td><p>Serveur frontal, pool frontal, directeur, pool Directeur, Office Web Apps pour les conférences</p></td>
+<td><p>Le trafic envoyé vers le port 443 sur l’interface externe du proxy inverse est redirigé vers un pool sur le port 4443 à partir de l’interface interne du proxy inverse. Ainsi, les services web du pool peuvent faire la distinction par rapport au trafic web interne.</p></td>
 </tr>
 </tbody>
 </table>

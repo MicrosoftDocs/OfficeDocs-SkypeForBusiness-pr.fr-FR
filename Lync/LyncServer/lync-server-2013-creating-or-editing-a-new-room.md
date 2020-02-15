@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création ou modification d’une salle'
+title: 'Lync Server 2013 : création ou modification d’une nouvelle salle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bd0fdbce300f417764e093fec3acb8705b2d17b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c445513cf112b335ce900ab8e39660210f0b5ef4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741104"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Création ou modification d’une salle dans Lync Server 2013
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Création ou modification d’une nouvelle salle dans Lync Server 2013
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41741104"
 
 _**Dernière modification de la rubrique :** 2015-03-19_
 
-La configuration des salles de conversation permanente est généralement gérée par les utilisateurs. en règle générale, un administrateur de chat permanent ne peut pas configurer ou gérer des salles de conversation. Les applets de cmdlet Windows PowerShell pour gérer des salles sont disponibles uniquement pour les administrateurs **CsPersistentChatAdministrator** .
+La configuration des salles de conversation permanente est généralement gérée par les utilisateurs ; un administrateur de conversation permanente ne configure pas ou ne gère généralement pas les salles de conversation. Les applets de commande Windows PowerShell pour gérer les salles sont disponibles uniquement pour les administrateurs **CsPersistentChatAdministrator** .
 
-Les utilisateurs qui sont des **créateurs** dans une catégorie donnée peuvent utiliser le client Lync pour créer et gérer des salles. Les utilisateurs qui ont été désignés comme responsables pour une salle de conversation spécifique peuvent également effectuer une gestion en continu de la salle, comme la modification des propriétés de la salle ou de l’appartenance.
+Les utilisateurs qui sont des **créateurs** dans une catégorie donnée peuvent utiliser le client Lync pour créer et gérer des salles. Les utilisateurs qui ont été désignés comme responsables d’une salle de conversation spécifique peuvent également assurer la gestion continue de la salle, par exemple modifier ses propriétés ou son appartenance.
 
 <div>
 
 
 > [!TIP]  
-> Ils peuvent également être créateurs de messages permanents et ne sont pas soumis aux restrictions imposées par les créateurs.
+> Les administrateurs de conversation permanente peuvent également être créateurs, et ils ne sont pas soumis aux restrictions imposées aux créateurs.
 
 
 
 </div>
 
-Si vous êtes un administrateur de chat permanent, vous pouvez également utiliser une interface utilisateur pour créer et gérer des salles de conversation au lieu d’utiliser des cmdlets Windows PowerShell. Pour ce faire, SIP : activez un administrateur pour le serveur de chat permanent, puis utilisez le client Lync pour créer et gérer des salles de conversation.
+Si vous êtes un administrateur de conversation permanente, vous pouvez également utiliser une interface utilisateur pour créer et gérer des salles de conversation au lieu d’utiliser des applets de commande Windows PowerShell. Pour ce faire, activez un administrateur pour le serveur de conversation permanente, puis utilisez le client Lync pour créer et gérer des salles de conversation.
 
-Si vous voulez créer un flux de travail de gestion des salles personnalisé pour vos utilisateurs, vous pouvez définir la propriété **RoomManagementUrl** sur votre configuration serveur de chat permanent pour rediriger les utilisateurs vers votre solution personnalisée du client Lync.
+Si vous souhaitez créer un flux de travail de gestion de salle personnalisé pour vos utilisateurs, vous pouvez définir la propriété **RoomManagementUrl** sur votre configuration de serveur de conversation permanente afin de rediriger les utilisateurs vers votre solution personnalisée à partir du client Lync.
 
-Pour plus d’informations sur la configuration des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, voir « gestion des salles » dans [configuration du serveur de chat permanent à l’aide d’applets de commande Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Pour plus d’informations sur la configuration des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, voir « gestion des salles » dans [Configuring persistent Chat Server by Using Windows PowerShell Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
-Pour plus d’informations sur la configuration des salles de conversation, voir [configurer des salles dans Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.
+Pour plus d’informations sur la configuration des salles de conversation, voir [configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.
 
 <div>
 
 
 > [!NOTE]  
-> Serveur Chat permanent permet aux utilisateurs de créer et de gérer des salles de conversation pour un site spécifique. Toutefois, les utilisateurs ne peuvent pas créer ou gérer des salles de conversation sur d’autres sites au sein de la même topologie. Veillez à spécifier des créateurs et des gestionnaires de salle de conversation pour tous les sites de votre organisation.
+> Le serveur de conversation permanente permet aux utilisateurs de créer et de gérer une salle de conversation pour un site spécifique. Toutefois, les utilisateurs ne peuvent pas créer ou gérer des salles de conversation sur d’autres sites au sein de la même topologie. Veillez à spécifier des créateurs et des responsables de salle de conversation pour tous les sites de votre organisation.
 
 
 
@@ -73,7 +73,7 @@ Pour plus d’informations sur la configuration des salles de conversation, voir
 
 
 > [!NOTE]  
-> Les utilisateurs qui sont hébergés sur une unité de branchement Survivable Lync Server ne peuvent pas créer de nouvelles salles de conversation ou afficher la carte de la salle pour les salles existantes.
+> Les utilisateurs hébergés sur une appliance Survivable Branch Lync Server ne peuvent pas créer de nouvelles salles de conversation ni afficher la carte de salle pour les salles existantes.
 
 
 

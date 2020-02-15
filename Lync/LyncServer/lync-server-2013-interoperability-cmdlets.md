@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : cmdlets d’interopérabilité'
+title: 'Lync Server 2013 : applets de commande d’interopérabilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fba07f35836e6b8ac5025b887c69bea283846b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23c32967da142d48d15a8fec484134c11af9170a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725794"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="interoperability-cmdlets-in-lync-server-2013"></a>Cmdlets d’interopérabilité dans Lync Server 2013
+# <a name="interoperability-cmdlets-in-lync-server-2013"></a>Applets de commande d’interopérabilité dans Lync Server 2013
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41725794"
 
 _**Dernière modification de la rubrique :** 2012-06-27_
 
-Les applets de demande d’interopérabilité permettent de configurer l’authentification et l’autorisation de serveur à serveur entre Microsoft Lync Server 2013 et d’autres produits serveur tels que Microsoft Exchange Server 2013. L’authentification et l’autorisation serveur à serveur permettent à ces serveurs d’échanger et de partager des données en toute transparence.
+Les cmdlets d’interopérabilité sont utilisées pour configurer l’authentification de serveur à serveur et l’autorisation entre Microsoft Lync Server 2013 et d’autres produits serveur tels que Microsoft Exchange Server 2013. L’authentification et l’autorisation de serveur à serveur permettent à ces serveurs d’échanger et de partager facilement des données.
 
 <div>
 
-## <a name="interoperability-cmdlets"></a>Cmdlets d’interopérabilité
+## <a name="interoperability-cmdlets"></a>Applets de commande d’interopérabilité
 
-La liste suivante répertorie les applets de commande qui s’associent directement à la configuration et à la gestion de l’interopérabilité entre Microsoft Lync Server 2013 et d’autres produits serveur :
+La liste suivante répertorie les applets de commande qui sont directement liées à la configuration et à la gestion de l’interopérabilité entre Microsoft Lync Server 2013 et d’autres produits serveur :
 
-**Cmdlets d’interopérabilité**
+**Applets de commande d’interopérabilité**
 
-  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ205155(v=OCS.15))
+  - [Get-applet csoauthconfiguration](https://technet.microsoft.com/library/JJ205155(v=OCS.15))
 
-  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ204841(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205238(v=OCS.15))
-
-  - [New-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205206(v=OCS.15))
-
-  - [Remove-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205408(v=OCS.15))
-
-  - [Set-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ204896(v=OCS.15))
+  - [Set-applet csoauthconfiguration](https://technet.microsoft.com/library/JJ204841(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ205128(v=OCS.15))
+  - [Get-CsOAuthServer](https://technet.microsoft.com/library/JJ205238(v=OCS.15))
 
-  - [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))
+  - [New-CsOAuthServer](https://technet.microsoft.com/library/JJ205206(v=OCS.15))
 
-  - [Remove-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204820(v=OCS.15))
+  - [Remove-CsOAuthServer](https://technet.microsoft.com/library/JJ205408(v=OCS.15))
 
-  - [Set-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204755(v=OCS.15))
+  - [Set-CsOAuthServer](https://technet.microsoft.com/library/JJ204896(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-applet cspartnerapplication](https://technet.microsoft.com/library/JJ205128(v=OCS.15))
+
+  - [New-applet cspartnerapplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15))
+
+  - [Remove-applet cspartnerapplication](https://technet.microsoft.com/library/JJ204820(v=OCS.15))
+
+  - [Set-applet cspartnerapplication](https://technet.microsoft.com/library/JJ204755(v=OCS.15))
 
 </div>
 

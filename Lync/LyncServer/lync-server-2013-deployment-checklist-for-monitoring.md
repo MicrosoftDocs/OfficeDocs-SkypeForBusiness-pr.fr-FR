@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Liste de vérification du déploiement pour la surveillance'
+title: 'Lync Server 2013 : liste de vérification du déploiement pour la surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26fd0c34d51445902e7f00439dd210ddfd64f392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762712"
 
 _**Dernière modification de la rubrique :** 2012-09-05_
 
-Même si la surveillance est déjà installée et activée sur chaque serveur frontal, il existe toujours plusieurs étapes que vous devez effectuer avant de pouvoir recueillir des données d’analyse pour Microsoft Lync Server 2013. Ces étapes sont décrites dans la liste de vérification suivante :
+Bien que la surveillance soit déjà installée et activée sur chaque serveur frontal, il existe toujours plusieurs étapes que vous devez prendre avant de pouvoir réellement collecter les données de surveillance pour Microsoft Lync Server 2013. Ces étapes sont décrites dans la liste de vérification suivante :
 
 
 <table>
@@ -58,21 +58,21 @@ Même si la surveillance est déjà installée et activée sur chaque serveur fr
 <td><p><strong>Installer le matériel et les logiciels prérequis</strong></p></td>
 <td><p>Installez une version prise en charge de Microsoft SQL Server sur l’ordinateur qui fera office de magasin de données principal pour la surveillance.</p></td>
 <td><p>Utilisateur de domaine qui est également membre du groupe Administrateurs local.</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">Matériel compatible pour Lync Server 2013</a> dans le Guide de prise en charge</p>
-<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Prise en charge de Software and Infrastructure Server dans Lync Server 2013</a> dans le Guide de prise en charge</p></td>
+<td><p><a href="lync-server-2013-supported-hardware.md">Matériel pris en charge pour Lync Server 2013</a> dans le Guide de prise en charge</p>
+<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013</a> dans le Guide de prise en charge</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Créer la topologie interne appropriée pour prendre en charge la surveillance</strong></p></td>
-<td><p>Utilisez le générateur de topologie Lync Server 2013 pour ajouter des bases de données de surveillance à la topologie, puis publiez la topologie mise à jour.</p></td>
+<td><p>Utilisez le générateur de topologies Lync Server 2013 pour ajouter des bases de données de surveillance à la topologie, puis publiez la topologie mise à jour.</p></td>
 <td><p>Pour définir une topologie, utilisateur membre du groupe Utilisateurs local.</p>
 <p>Pour publier la topologie, utilisateur membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.</p></td>
-<td><p><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Association d’un magasin d’analyse à un pool frontal dans Lync Server 2013</a> dans le Guide de déploiement</p></td>
+<td><p><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Association d’un magasin de surveillance à un pool frontal dans Lync Server 2013</a> dans le Guide de déploiement</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Activer les paramètres de surveillance appropriés</strong></p></td>
-<td><p>Activez l’enregistrement des détails des appels (CDR) et/ou la qualité de l’expertise (QoE) au niveau du global et/ou des étendues de site.</p></td>
+<td><p>Activez l’enregistrement des détails des appels et/ou la surveillance QoE au niveau des étendues Global et/ou Site.</p></td>
 <td><p>Utilisateur membre du groupe RTCUniversalServerAdmins ou disposant d’un rôle RBAC qui permet d’accéder aux applets de commande CsCdrConfiguration et CsQoEConfiguration.</p></td>
-<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuration des paramètres d’enregistrement des détails des appels et de la qualité de l’utilisation dans Lync Server 2013</a> dans le guide des opérations</p></td>
+<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuration des paramètres d’enregistrement des détails des appels et de qualité de l’expérience dans Lync Server 2013</a> dans le guide des opérations</p></td>
 </tr>
 </tbody>
 </table>

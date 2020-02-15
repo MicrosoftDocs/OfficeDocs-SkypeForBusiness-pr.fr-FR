@@ -1,5 +1,5 @@
 ---
-title: 'Rapport de performances du serveur Lync Server 2013 :'
+title: 'Lync Server 2013 : rapport de performances du serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a>Rapport sur les performances du serveur dans Lync Server 2013
+# <a name="server-performance-report-in-lync-server-2013"></a>Rapport de performances du serveur dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41764862"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le rapport sur les performances du serveur fournit une liste de serveurs Microsoft Lync Server 2013 ayant constaté le plus grand pourcentage d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
+Le rapport de performances du serveur fournit une liste des serveurs Microsoft Lync Server 2013 qui ont rencontré le plus grand pourcentage d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques séparées pour les types suivants :
 
   - Serveur de médiation
 
@@ -59,7 +59,7 @@ Il est important de noter que le classement indiqué dans le rapport est relatif
 
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [rapport des listes d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Volume d’appels
 
@@ -67,13 +67,13 @@ Le rapport de performances du serveur est accessible à partir de la page d’ac
 
 De plus, vous pouvez accéder au rapport de tendance de la qualité des médias serveur en cliquant sur la mesure suivante :
 
-  - Tendance
+  - Trend
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-server-performance-report"></a>Optimiser l’utilisation du rapport sur les performances du serveur
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Utilisation efficace du rapport de performances du serveur
 
 Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.
 
@@ -83,7 +83,7 @@ Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les 
 
 ## <a name="filters"></a>Filtres
 
-Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le rapport de performances du serveur vous permet par exemple, de filtrer les données renvoyées par type de serveur ou type de réseau (câblé ou sans fil). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les données sont groupées par heure, jour, semaine ou mois.
+Les filtres vous offrent la possibilité de retourner un ensemble de données mieux ciblées ou de visualiser les données retournées de différentes manières. Le rapport de performances du serveur vous permet par exemple de filtrer les données renvoyées par type de serveur ou type de réseau (câblé ou sans fil). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les données sont groupées par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de performances du serveur.
 
@@ -102,7 +102,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -112,20 +112,20 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
 <p>7/7/2012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
 <p>7/3/2012</p>
-<p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
+<p>Les semaines commencent le dimanche et se terminent le samedi.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de serveur</strong></p></td>
 <td><p>Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Serveur de médiation</p></li>
 <li><p>Serveur de conférence A/V</p></li>
 <li><p>Serveur Edge A/V</p></li>
@@ -135,16 +135,16 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p><strong>N premiers</strong></p></td>
 <td><p>Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong>, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>5</p></li>
-<li><p>0,10</p></li>
+<li><p>Tous les</p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type d’accès</strong></p></td>
 <td><p>Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Interne</p></li>
 <li><p>Externe</p></li>
 </ol></td>
@@ -153,18 +153,18 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un client externe utilisait une connexion de réseau privé virtuel (VPN) au moment d’effectuer l’appel. Sélectionnez l’une des options suivantes :</p>
 <ol>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -196,7 +196,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Serveur</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Nom/adresse IP du serveur</p></td>
 </tr>
@@ -219,8 +219,8 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
-<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Perte de paquets</strong></p></td>
@@ -230,7 +230,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne du délai d’arrivée entre les paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -268,16 +268,16 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
+<td><p><strong>Type d’appel/type de système d’extrémité</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
 <ul>
-<li><p>Appels P2P UC</p></li>
+<li><p>Appels d’égal à égal UC</p></li>
 <li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
+<li><p>Sessions de conférence PSTN</p></li>
+<li><p>Appels PSTN : contournement du média</p></li>
+<li><p>Appels PSTN (sans contournement) : partie UC</p></li>
+<li><p>Appels PSTN (sans contournement) : partie passerelle</p></li>
 <li><p>Autres types d’appels</p></li>
 </ul></td>
 </tr>
@@ -367,16 +367,16 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d’appel/type de point de terminaison</strong></p></td>
+<td><p><strong>Type d’appel/type de système d’extrémité</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants :</p>
 <ul>
-<li><p>Appels P2P UC</p></li>
+<li><p>Appels d’égal à égal UC</p></li>
 <li><p>Sessions de conférence UC</p></li>
-<li><p>Sessions de conférence RTC</p></li>
-<li><p>Appels RTC : contournement du média</p></li>
-<li><p>Appels RTC (sans contournement) : partie UC</p></li>
-<li><p>Appels RTC (sans contournement) : partie passerelle</p></li>
+<li><p>Sessions de conférence PSTN</p></li>
+<li><p>Appels PSTN : contournement du média</p></li>
+<li><p>Appels PSTN (sans contournement) : partie UC</p></li>
+<li><p>Appels PSTN (sans contournement) : partie passerelle</p></li>
 <li><p>Autres types d’appels</p></li>
 </ul></td>
 </tr>
@@ -408,7 +408,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unilatéral relatif moyen</strong></p></td>

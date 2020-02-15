@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : création ou modification d’une règle de stratégie de version de client'
+title: 'Lync Server 2013 : création ou modification d’une règle de stratégie de version du client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae209caef3910ad08d09391cb13de4e1e0ceb7a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722444"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Créer ou modifier une règle de stratégie de nouvelle version du client dans Lync Server 2013
+# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Création ou modification d’une nouvelle règle de stratégie de version des clients dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41722444"
 
 _**Dernière modification de la rubrique :** 2013-01-21_
 
-Les règles de stratégie de version du client définissent les actions qui doivent être effectuées lorsque les utilisateurs essaient de se connecter à l’aide de clients et de versions client spécifiques. Vous pouvez créer ou modifier des règles individuelles pour une stratégie de version de client à partir du panneau de configuration de Lync Server 2013.
+Les règles de stratégie de version des clients définissent les actions à entreprendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques. Vous pouvez créer ou modifier des règles individuelles pour une stratégie de version de client à partir du panneau de configuration Lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Les règles sont classées par ordre de priorité. Par exemple, si vous avez une règle qui permet aux clients exécutant la version 1,5 de se connecter, suivi par une règle qui empêche les clients exécutant une version antérieure à 2,0, la première règle est prioritaire et les clients exécutant la version 1,5 sont autorisés à se connecter.
+> Les règles sont répertoriées par ordre de priorité. Par exemple, si vous avez une règle qui permet aux clients exécutant la version 1,5 de se connecter, suivi d’une règle qui bloque les clients exécutant une version antérieure à 2,0, la première règle prend la priorité et les clients exécutant la version 1,5 sont autorisés à se connecter.
 
 
 
@@ -51,84 +51,84 @@ Les règles de stratégie de version du client définissent les actions qui doiv
 
 <div>
 
-## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>Pour créer ou modifier des règles de stratégie de version de client avec le panneau de configuration de Lync Server
+## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>Pour créer ou modifier des règles de stratégie de version des clients à l’aide du panneau de configuration Lync Server
 
-1.  [Créez ou modifiez une nouvelle stratégie de version de client dans Lync server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) avec le panneau de configuration de Lync Server.
+1.  [Créez ou modifiez une nouvelle stratégie de version du client dans Lync server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) avec le panneau de configuration Lync Server.
 
-2.  Dans la page **modifier la stratégie de version du client** , effectuez l’une des opérations suivantes :
+2.  Sur la page **modifier la stratégie de version du client** , effectuez l’une des opérations suivantes :
     
-      - Cliquez sur **nouveau** pour créer une règle de version de client.
+      - Cliquez sur **Nouveau** pour créer une règle de version du client.
     
-      - Cliquez sur l’un des types de clients définis dans la liste, puis sur **afficher les détails**.
+      - Cliquez sur l’un des types de clients définis dans la liste, puis sur **Afficher les détails**.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez utiliser des caractères génériques pour indiquer le type de client.
+    > Vous pouvez utiliser des caractères génériques pour spécifier le type du client.
 
     
     </div>
 
-3.  Dans **agent utilisateur**, sélectionnez un type de client.
+3.  Dans **Agent utilisateur**, sélectionnez un type de client.
 
-4.  Sous **numéro de version**, procédez comme suit :
+4.  Sous **Numéro de version**, procédez comme suit :
     
-      - Dans **version principale**, tapez le numéro qui correspond à la version majeure du client.
+      - Dans **Version principale**, tapez le numéro qui correspond à la version principale du client.
     
-      - Dans **version mineure**, tapez le numéro qui correspond à la version mineure du client.
+      - Dans **Version secondaire**, tapez le numéro qui correspond à la version secondaire du client.
     
-      - Dans **générer**, tapez le numéro qui correspond à la version majeure et mineure du client.
+      - Dans **Version**, tapez le numéro qui correspond aux versions principale et secondaire du client.
     
-      - Dans **mise à jour**, tapez le numéro qui correspond à la version mise à jour du client.
+      - Dans **Mise à jour**, tapez le numéro qui correspond à la version mise à jour du client.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez utiliser des caractères génériques pour indiquer le numéro de version du client.
+    > Vous pouvez utiliser des caractères génériques pour spécifier le numéro de version du client.
 
     
     </div>
 
-5.  Pour spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes, dans **opération de comparaison**, cliquez sur l’une des options suivantes :
+5.  Pour sélectionner l’opération de comparaison à utiliser pour la version du client spécifiée ci-dessus, dans **Opération de comparaison**, cliquez sur l’une des options suivantes :
     
       - **Identique à**
     
-      - **Différent de**
+      - **N’est pas**
     
-      - **Antérieur à**
+      - **Plus récent que**
     
-      - **Antérieur ou simultané**
+      - **Plus récent ou identique**
     
-      - **Postérieur à**
+      - **Plus ancien que**
     
-      - **Postérieur ou simultané**
+      - **Plus ancien ou identique**
 
-6.  Pour spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis, **cliquez sur l'** une des options suivantes :
+6.  Pour spécifier l’action à exécuter lorsque les critères définis ci-dessus sont respectés, cliquez sur l’une des options suivantes dans **Action** :
     
-      - Pour permettre au client de se connecter, cliquez sur **autoriser**.
+      - Pour autoriser le client à se connecter, cliquez sur **Autoriser**.
     
-      - Pour permettre au client de se connecter et de recevoir des mises à jour de Windows Server Update service ou de Microsoft Update, cliquez sur **autoriser et mettre à niveau**. Cette action est disponible uniquement en cas de sélection de l’agent utilisateur **OC** .
+      - Pour autoriser le client à se connecter et à recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Autoriser et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
         
         <div>
         
 
         > [!NOTE]  
-        > La sélection de cette action entraîne l’affichage d’une notification lors de la prochaine connexion de l’utilisateur à Lync 2013. La notification indique qu’une mise à jour est disponible, même si des mises à jour n’ont pas encore été publiées dans Windows Server Update service ou Microsoft Update. Pour éviter toute confusion, ne sélectionnez cette action qu’après que les mises à jour sont disponibles.
+        > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent à Lync 2013. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées dans le service de mise à jour de Windows Server ou dans Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.
 
         
         </div>
     
-      - Pour permettre au client de se connecter et d’afficher un message concernant l’emplacement de téléchargement d’une autre version du client, cliquez sur **autoriser avec une URL**. Vous spécifiez l’URL plus loin dans cette procédure.
+      - Pour autoriser le client à se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Autoriser avec une URL**. Vous indiquerez l’URL ultérieurement.
     
-      - Pour empêcher le client de se connecter, cliquez sur **bloquer**.
+      - Pour empêcher le client de se connecter, cliquez sur **Bloquer**.
     
-      - Pour empêcher le client de se connecter et de permettre au client de recevoir des mises à jour de Windows Server Update service ou Microsoft Update, cliquez sur **bloquer et mettre à niveau**. Cette action est disponible uniquement en cas de sélection de l’agent utilisateur **OC** .
+      - Pour empêcher le client de se connecter et lui permettre de recevoir des mises à jour de Windows Server Update Service ou Microsoft Update, cliquez sur **Bloquer et mettre à niveau**. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
     
-      - Pour empêcher le client de se connecter et d’afficher un message concernant l’emplacement de téléchargement d’une autre version du client, cliquez sur **bloquer avec l’URL**. Vous spécifiez l’URL plus loin dans cette procédure.
+      - Pour empêcher le client de se connecter et afficher un message sur l’emplacement de téléchargement d’une autre version du client, cliquez sur **Bloquer avec une URL**. Vous indiquerez l’URL ultérieurement.
 
-7.  Facultatif Si vous avez cliqué sur **autoriser avec** l’URL ou **bloquer avec l’URL** lors de l’étape précédente, tapez l’URL de téléchargement du client à inclure dans le message dans l' **URL**.
+7.  (Facultatif) Si vous avez cliqué sur **Autoriser avec une URL** ou **Bloquer avec une URL** à l’étape précédente, dans le champ **URL**, tapez l’URL de téléchargement du client que vous souhaitez inclure dans le message.
 
 8.  Cliquez sur **OK**, puis sur **valider**.
 

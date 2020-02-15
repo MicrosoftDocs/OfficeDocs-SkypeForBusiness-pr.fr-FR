@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : déploiement de fonctionnalités avancées de voix entreprise'
+title: 'Lync Server 2013 : déploiement des fonctionnalités avancées de voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c29d679b047f5ccf616102c4b96c8468150fd77f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Déploiement de fonctionnalités avancées d’entreprise voix dans Lync Server 2013
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Déploiement des fonctionnalités avancées de voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,9 +37,9 @@ ms.locfileid: "41729575"
 
 _**Dernière modification de la rubrique :** 2012-09-22_
 
-Après avoir configuré Voix Entreprise dans votre organisation, vous pouvez déployer une ou plusieurs fonctionnalités Voix Entreprise plus avancées en procédant comme indiqué dans cette section.
+Une fois que vous avez configuré la fonctionnalité voix entreprise de base pour votre organisation, vous pouvez déployer une ou plusieurs fonctionnalités voix entreprise avancées en suivant les procédures décrites dans cette section.
 
-Pour plus d’informations sur les fonctionnalités avancées de voix entreprise, reportez-vous aux sections suivantes de la documentation relative [à la planification de Lync Server 2013](lync-server-2013-planning.md) :
+Pour plus d’informations sur les fonctionnalités avancées de voix entreprise, reportez-vous aux sections suivantes de la documentation [planification de Lync Server 2013](lync-server-2013-planning.md) :
 
   - [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
@@ -51,19 +51,19 @@ Pour plus d’informations sur les fonctionnalités avancées de voix entreprise
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [À propos des régions réseau, des sites réseau et des sous-réseaux dans Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [À propos des régions réseau, des sites et des sous-réseaux dans Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
-  - [Créer ou modifier une région réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Création ou modification d’une région réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
 
   - [Création ou modification d’un site réseau dans Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [Association d’un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Associer un sous-réseau à un site réseau dans Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
   - [Configurer le contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
 
-  - [Configuration d’Enhanced 9-1-1 dans Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Configurer Enhanced 9-1-1 dans Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
 
-  - [Configuration de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)
+  - [Configurer la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
 </div>
 

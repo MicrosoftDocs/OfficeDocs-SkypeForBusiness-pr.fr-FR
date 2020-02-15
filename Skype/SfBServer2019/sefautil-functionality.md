@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir le fonctionnement de SEFAUtil dans Skype entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: 91958d466a2f51b45ef933d21bfce10f5c61790d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir la fonctionnalité SEFAUtil dans Skype entreprise Server 2019 après avoir installé la mise à jour cumulative 1.'
+ms.openlocfilehash: 1a18a954e40ba7a0c72e4d87b4b3c943e827f2a1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824018"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049136"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utiliser la fonctionnalité SEFAUtil via PowerShell dans Skype entreprise Server 2019
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell dans Skype entreprise Server 2019
 
-SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet aux administrateurs et aux techniciens du support technique de Skype entreprise de configurer la sonnerie de délégué, le transfert d’appel et les paramètres de cueillette de groupe pour le compte d’un utilisateur de Skype entreprise Server. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après l’installation de la mise à jour cumulative de 2019 juillet de Skype entreprise Server, les fonctionnalités suivantes qui peuvent être gérées uniquement via SEFAUtil peuvent également être gérées via PowerShell :
+SEFAUtil (option d’activation secondaire) permet aux administrateurs de Skype entreprise Server et aux agents du support technique de configurer la sonnerie des délégués, le transfert d’appels et les paramètres de prise d’appel de groupe pour le compte d’un utilisateur de Skype entreprise Server. Cet outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après avoir installé la mise à jour cumulative de Skype entreprise Server 2019 juillet, les fonctionnalités suivantes, qui peuvent actuellement être gérées uniquement via SEFAUtil, seront également gérables via PowerShell :
 
 - [Paramètres de transfert d’appel](#call-forwarding-settings)
 - [Paramètres de délégation](#delegation-settings)
@@ -34,45 +34,45 @@ Les administrateurs peuvent modifier les paramètres de transfert d’appel à l
 
 - `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
-Cette cmdlet renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même écran sur l’écran.
+Cette applet de commande renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même sur l’écran.
 
 - `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
-Cette applet de demande modifie les paramètres de transfert d’appel de l’utilisateur spécifié. Ce cmdlet renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même écran, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette applet de commande modifie les paramètres de transfert d’appel de l’utilisateur spécifié. Cette applet de commande renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même sur l’écran, en cas de réussite. En cas de défaillance, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-Cette applet de demande désactive les paramètres de transfert d’appel de l’utilisateur (nous affichons deux exemples de paramètres différents ici).
+Cette applet de commande désactive les paramètres de transfert d’appel de l’utilisateur (nous affichons deux exemples de paramètres différents ici).
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-Cette applet de demande modifie les paramètres de transfert d’appel de l’utilisateur.
+Cette applet de commande modifie les paramètres de transfert d’appel de l’utilisateur.
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Cette applet de cmdlet modifie les paramètres de SimulRing (de nouveau, avec deux exemples de paramètres : un pour sans réponse à la boîte vocale et le second en absence de réponse à d’autres).
+Cette applet de commande modifie les paramètres sonnerie simultanée (encore une fois, avec deux exemples de paramètres : un pour les messages sans réponse à la messagerie vocale et le second n’a pas répondu à d’autres).
 
 ## <a name="delegation-settings"></a>Paramètres de délégation
 
-Les administrateurs peuvent modifier les paramètres de délégation en utilisant l’applet de commande suivante dans PowerShell :
+Les administrateurs peuvent modifier les paramètres de délégation à l’aide de l’applet de commande suivante dans PowerShell :
 
 - `Get-CsuserDelegates -Identity <UserIdParameter>`
 
-Cette cmdlet renvoie un objet de liste de délégués et affiche la liste de délégués de l’utilisateur spécifié, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette applet de commande renvoie un objet de liste de délégués et affiche la liste de délégués de l’utilisateur spécifié, en cas de réussite. En cas de défaillance, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-Cette applet de demande modifie les paramètres de délégation de l’utilisateur spécifié, renvoie un objet de liste délégués et affiche la liste des délégués, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche. 
+Cette applet de commande modifie les paramètres de délégation de l’utilisateur spécifié, renvoie une liste d’objets de délégués et affiche la liste des délégués en cas de réussite. En cas de défaillance, un message d’erreur approprié s’affiche. 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
-Cette applet de cmdlet ajoute ou supprime un délégué.
+Cette applet de commande ajoute ou supprime un délégué.
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
-Cette applet de cmdlet définit une liste de délégués pour des délégués spécifiques.
+Cette applet de commande définit une liste de délégués à des délégués spécifiques.
 
 ## <a name="team-members-and-related-settings"></a>Membres de l’équipe et paramètres associés
 
@@ -80,30 +80,30 @@ Les administrateurs peuvent modifier les membres de l’équipe et les paramètr
 
 - `Get-CsUserTeamMembers -Identity <UserIdParameter>`
 
-Cette cmdlet renvoie un objet qui contient la liste des membres de l’équipe et affiche l’objet à l’écran, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette applet de commande renvoie un objet qui contient la liste des membres de l’équipe et affiche l’objet à l’écran, en cas de réussite. En cas de défaillance, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]`
 
-Cette applet de demande modifie la liste des membres de l’équipe spécifiée, renvoie un objet qui contient la liste des membres de l’équipe et affiche l’objet à l’écran, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette applet de commande modifie la liste des membres de l’équipe spécifiée, renvoie un objet qui contient la liste des membres de l’équipe et affiche l’objet à l’écran, en cas de réussite. En cas de défaillance, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
 
-Cette applet de cmdlet ajoute ou supprime des membres de l’équipe.
+Cette applet de commande ajoute ou supprime des membres de l’équipe.
 
 - `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]`
 
-Cette applet de cmdlet définit une liste d’équipes pour des membres spécifiques.
+Cette applet de commande définit une liste d’équipes sur des membres spécifiques.
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>Plus d’informations
 
-Pour les déploiements sur site, les applets de commande introduites dans cette fonctionnalité ne peuvent être exécutées que par les membres des groupes suivants, selon le niveau d’accès indiqué ci-dessous :
+Pour les déploiements locaux, les applets de commande introduites dans cette fonctionnalité ne peuvent être exécutées que par les membres des groupes suivants, selon le niveau d’accès spécifié ci-dessous :
 
-- CsAdministrator – Get et Set pour toutes les applets de cmdlet
-- CsVoiceAdministrator-Get et Set pour toutes les applets de cmdlet
-- CsHelpDesk-obtenir toutes les applets de cmdlet
+- CsAdministrator – obtenir et définir pour toutes les cmdlets
+- CsVoiceAdministrator-Get et Set pour toutes les cmdlets
+- CsHelpDesk-Get pour toutes les cmdlets
 
-Pour plus d’informations sur ces rôles d’administrateur, reportez-vous à la rubrique [création d’administrateurs du panneau de configuration Skype entreprise Server](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces applets de commande en se connectant directement ou à distance à un ordinateur serveur.
-Pour un déploiement hybride, les administrateurs Skype entreprise doivent pouvoir appeler Get et Set pour toutes les applets de méthode. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur Office 365](https://docs.microsoft.com/en-us/office365/admin/add-users/about-admin-roles)
+Pour plus d’informations sur ces rôles d’administrateur, voir [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). L’administrateur peut accéder à ces applets de commande en ouvrant directement ou à distance une session sur un ordinateur serveur.
+Pour un déploiement hybride, les administrateurs Skype entreprise doivent pouvoir appeler Get et Set pour toutes les cmdlets. Pour plus d’informations sur la liste complète des rôles, voir [à propos des rôles d’administrateur Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
-> La découverte automatique du serveur doit être activée. Aucun besoin de licence supplémentaire n’est introduit pour l’utilisation des cmdlets.
+> La découverte automatique de serveur doit être activée. Aucune autre exigence en matière de licences ne sera introduite pour l’utilisation des applets de commande.

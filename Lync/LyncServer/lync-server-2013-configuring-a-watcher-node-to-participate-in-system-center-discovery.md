@@ -1,5 +1,5 @@
 ---
-title: Configuration d’un nœud FileSystemWatcher pour participer à la découverte de System Center
+title: Configuration d’un nœud observateur pour participer à la découverte de System Center
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763488"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Configuration d’un nœud FileSystemWatcher dans Lync Server 2013 pour participer à la découverte de System Center
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Configuration d’un nœud observateur dans Lync Server 2013 pour la participation à la découverte de System Center
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763488"
 
 _**Dernière modification de la rubrique :** 2012-10-22_
 
-Pour vous assurer que votre nœud FileSystemWatcher participe au processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur un ordinateur sur lequel la console System Center Operations Manager a été installée :
+Pour vous assurer que votre nœud observateur participe au processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur un ordinateur sur lequel la console System Center Operations Manager a été installée :
 
-1.  Dans l’onglet **administration** , cliquez sur **géré par l’agent**.
+1.  Sous l’onglet **Administration**, cliquez sur **Géré par agent**.
 
-2.  Cliquez avec le bouton droit sur le nom de l’ordinateur du nœud d’observation, puis cliquez sur **Propriétés**. Dans la boîte de dialogue **Propriétés** , sous l’onglet **sécurité** , sélectionnez **Autoriser cet agent à agir en tant que proxy et détecter les objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.
+2.  Cliquez avec le bouton droit sur le nom de l’ordinateur du nœud observateur, puis cliquez sur **Propriétés**. Dans la boîte de dialogue **Propriétés**, sous l’onglet **Sécurité**, sélectionnez **Autoriser cet agent à agir en tant que proxy et découvrir des objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.
 
-Après avoir configuré le nœud FileSystemWatcher pour qu’il serve de proxy, redémarrez l’ordinateur de nœud d’observation. Après le redémarrage de l’ordinateur, vérifiez qu’aucun événement d’erreur n’est enregistré dans le journal des événements Operations Manager sur cet ordinateur. Une fois que l’ordinateur est en cours d’exécution pendant 15 minutes, utilisez la console Operations Manager pour vérifier que votre ordinateur serveur Lync figure dans la catégorie **Lync** .
+Après avoir configuré le nœud observateur pour qu’il se comporte comme un proxy, démarrez l’ordinateur du nœud observateur. Une fois l’ordinateur redémarré, vérifiez qu’aucun événement d’erreur n’est enregistré dans le journal des événements Operations Manager sur cet ordinateur. Une fois que l’ordinateur est en cours d’exécution pendant 15 minutes, utilisez la console Operations Manager pour vérifier que vos ordinateurs Lync Server sont répertoriés sous la catégorie **Lync** .
 
 </div>
 

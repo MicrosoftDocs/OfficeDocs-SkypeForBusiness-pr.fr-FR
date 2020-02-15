@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition de la configuration requise pour le pare-feu A/V et les ports'
+title: 'Lync Server 2013 : déterminer les exigences en matière de port et de pare-feu A/V externe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d5519ef37ff334ddf196e94b40aa7df14d69d25
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6f44e23cdc60251df4ea3f4071805d9367eef84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762472"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013
+# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>Déterminer la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41762472"
 
 _**Dernière modification de la rubrique :** 2012-10-29_
 
-Les communications audio/vidéo (A/V) peuvent être complexes. En raison de la nature des protocoles utilisés dans A/V et de la manière dont les clients et les serveurs utilisent les protocoles, une section spéciale est garante d’expliquer les différences entre les versions client et serveur.
+La communication audio/vidéo (A/V) peut être complexe. En raison de la nature des protocoles utilisés dans A/V et de la façon dont les clients et les serveurs utilisent les protocoles, une section spéciale permet d’expliquer les différences entre les versions client et serveur.
 
-Utilisez le pare-feu A/V et la table de port suivants pour déterminer les exigences de pare-feu et les ports à ouvrir. Ensuite, examinez la terminologie de la traduction d’adresses réseau (NAT), car la traduction d’adresses réseau peut être implémentée de diverses manières. Pour obtenir un exemple détaillé de paramètres de port de pare-feu, consultez les architectures de référence dans les [scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+Utilisez le pare-feu A/V et le tableau de ports suivants pour déterminer les exigences de pare-feu et les ports à ouvrir. Consultez ensuite la terminologie propre à la traduction d’adresses réseau (NAT, Network Address Translation), car cette fonctionnalité peut être implémentée de nombreuses façons. Pour obtenir un exemple détaillé des paramètres de port de pare-feu, consultez la rubrique architectures de référence dans [scénarios pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
-### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a>Utilisation générale des protocoles pour UDP et TCP dans le trafic audio/vidéo et multimédia
+### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a>Utilisation générale du protocole pour UDP et TCP dans le trafic audio/vidéo et multimédia
 
 <table>
 <colgroup>
@@ -56,14 +56,14 @@ Utilisez le pare-feu A/V et la table de port suivants pour déterminer les exige
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UDP</p></td>
-<td><p>Protocole préféré de couche de transport pour le son et la vidéo</p></td>
+<td><p>DATAGRAMME</p></td>
+<td><p>Protocole de couche de transport préféré pour l’audio et la vidéo</p></td>
 </tr>
 <tr class="even">
 <td><p>TCP</p></td>
-<td><p>Protocole de couche de transport de secours pour le son et la vidéo</p>
-<p>Protocole requis pour le partage d’application sur Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013</p>
-<p>Protocole requis pour le transfert de fichiers vers Lync Server 2010 et Lync Server 2013</p></td>
+<td><p>Protocole de couche transport de secours pour l’audio et la vidéo</p>
+<p>Protocole de couche transport requis pour le partage d’application vers Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013</p>
+<p>Protocole de couche transport requis pour le transfert de fichiers vers Lync Server 2010 et Lync Server 2013</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,15 +71,15 @@ Utilisez le pare-feu A/V et la table de port suivants pour déterminer les exige
 
 <div>
 
-## <a name="external-av-firewall-port-requirements-for-external-user-access"></a>Exigences relatives aux ports de pare-feu A/V externes pour l’accès des utilisateurs externes
+## <a name="external-av-firewall-port-requirements-for-external-user-access"></a>Conditions requises pour les ports du pare-feu A/V externe pour l’accès des utilisateurs externes
 
-La configuration requise pour les ports de pare-feu pour les interfaces SIP et de conférence externes (et internes) est cohérente, quelle que soit la version de votre client ou la version du partenaire de Fédération.
+Les exigences de port de pare-feu pour les interfaces SIP et de conférence externes (et internes) sont cohérentes, quelle que soit la version de votre client ou la version du partenaire de Fédération.
 
-Le même type n’est pas vrai pour l’interface externe du périphérique audio/vidéo. Dans le cadre de la Fédération avec Office Communications Server 2007, le service Edge A/V exige que les règles de pare-feu externe autorisent le trafic RTP/TCP et RTP/UDP dans les 50 000 à 59 999 par le biais de la plage de port. Le tableau précédent part du principe que Lync Server 2013 est le principal partenaire de Fédération et qu’il est configuré pour communiquer avec l’un des autres types de partenaires de Fédération répertoriés.
+Il en est de même pour l’interface externe du serveur Edge audio/vidéo. Pour la Fédération avec Office Communications Server 2007, le service Edge A/V exige que les règles de pare-feu externes autorisent le trafic RTP/TCP et RTP/UDP dans la plage de ports 50 000 à 59 999 pour circuler dans les deux directions. Le tableau précédent part du principe que Lync Server 2013 est le partenaire de Fédération principal et qu’il est configuré pour communiquer avec l’un des autres types de partenaires de Fédération énumérés.
 
-La configuration de la plage de ports audio/vidéo de 50000-59,999 doit prendre en compte que la plage de port va contenir les ports sources pour les communications avec les partenaires de Fédération. En détail, considérez qu’une communication est lancée à partir d’un partenaire de Fédération. La communication des ports de service Edge A/V dans la plage 50000-59,999 se connectera au port TCP 443 du service Edge A/V du partenaire. À l’inverse, le trafic entrant vers votre service de port TCP 443 a un port source dans la plage comprise entre 50000 et 59,999.
+La configuration de la plage de ports audio/vidéo de 50000-000-59 999 doit prendre en compte que la plage de ports contiendra les ports sources des communications vers les partenaires de Fédération. En détail, considérez qu’une communication est initiée à partir d’un partenaire de Fédération. La communication des ports de service Edge A/V dans la plage 50 000-000-59 999 se connectera au port TCP 443 attendu du service Edge A/V du partenaire. À l’inverse, le trafic entrant vers votre port de service Edge A/V TCP 443 aura un port source dans la plage de 50000-000-59 999.
 
-Les pare-feu et les stratégies différents pour l’administration du pare-feu peuvent nécessiter la configuration de règles de destination uniquement, ou exiger la configuration de la source et de la destination. S’il s’agit de la configuration requise pour les ports de destination uniquement, les exigences audio et vidéo sont les suivantes :
+Différents pare-feu et stratégies pour l’administration du pare-feu peuvent nécessiter que seules des règles de destination soient configurées, ou exiger la configuration de la source et de la destination. Si votre configuration requise concerne uniquement les ports de destination, les exigences audio/vidéo sont les suivantes :
 
 
 <table>
@@ -98,21 +98,21 @@ Les pare-feu et les stratégies différents pour l’administration du pare-feu 
 <tbody>
 <tr class="odd">
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
-<td><p>TCP 443</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>TCP 443</p></td>
+<td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface de service Edge A/V</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
@@ -120,7 +120,7 @@ Les pare-feu et les stratégies différents pour l’administration du pare-feu 
 </table>
 
 
-Si vos stratégies nécessitent à la fois les définitions des règles de pare-feu entrant et sortant, les exigences audio et vidéo sont les suivantes :
+Si vos stratégies nécessitent à la fois des définitions de règles de pare-feu entrantes et sortantes, les exigences audio/vidéo sont les suivantes :
 
 
 <table>
@@ -141,26 +141,26 @@ Si vos stratégies nécessitent à la fois les définitions des règles de pare-
 <tbody>
 <tr class="odd">
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
-<td><p>TCP 50 000 à 59 999</p></td>
-<td><p>TCP 443</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>TCP 50000-000-59 999</p></td>
+<td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP 3478</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
-<td><p>TCP 443</p></td>
+<td><p>N'importe lequel</p></td>
+<td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>Interface de service Edge A/V</p></td>
-<td><p>Indifférente</p></td>
+<td><p>N'importe lequel</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 </tbody>
@@ -171,7 +171,7 @@ Si vos stratégies nécessitent à la fois les définitions des règles de pare-
 
 
 > [!IMPORTANT]  
-> La configuration de Microsoft Office Communications Server 2007 nécessite une configuration légèrement différente. Les plages de port TCP et UDP de 50000-59,999 doivent être ouvertes en entrée et en sortie. Cette condition est uniquement requise pour Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013 nécessitent uniquement la plage TCP 50000-59,999 ouverte.
+> Microsoft Office Communications Server 2007 nécessite une configuration légèrement différente. La plage de ports TCP et UDP de 50000 000-59 999 doit être ouverte et sortante. Cette exigence est uniquement destinée à Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013 nécessitent uniquement une plage TCP de 50000 000-59 999 ouvertes.
 
 
 
@@ -183,31 +183,31 @@ Si vos stratégies nécessitent à la fois les définitions des règles de pare-
 
 ## <a name="nat-requirements-for-the-edge-service"></a>Configuration NAT requise pour le service Edge
 
-Les exigences suivantes concernant tar s’appliquent si vous choisissez de configurer des adresses IP privées non routables pour le service Edge :
+Les conditions suivantes de l’interface NAT s’appliquent si vous choisissez de configurer des adresses IP privées non routables pour le service Edge :
 
-  - TAR ne peut être utilisée qu’avec l’équilibrage de charge DNS. TAR n’est pas pris en charge avec une topologie de bord de l’équilibrage de charge matérielle (HLB).
+  - La conversion d’adresses réseau ne peut être utilisée qu’avec l’équilibrage de charge DNS. NAT n’est pas pris en charge avec une topologie Edge d’équilibrage de la charge matérielle (charge matérielle).
 
-  - TAR ne peut être utilisée que sur l’interface latérale externe. TAR n’est pas pris en charge sur l’interface latérale interne.
+  - La conversion d’adresses réseau (NAT) ne peut être utilisée que sur l’interface Edge externe. NAT n’est pas pris en charge sur l’interface interne Edge.
 
-  - TAR doit être symétrique pour le trafic entrant et sortant.
+  - La conversion d’adresses réseau (NAT) doit être symétrique pour le trafic entrant et sortant.
     
-  - Pour le trafic provenant d’Internet, tar doit remplacer l’adresse IP de destination par l’adresse IP publique compatible NAT du service Edge A/V par son adresse IP externe. L’adresse IP source doit rester intacte, de sorte que le service Edge A/V peut trouver le chemin multimédia optimal.
+  - Pour le trafic provenant d’Internet, tar doit modifier l’adresse IP de destination à partir de l’adresse IP publique à extension NAT du service Edge A/V vers son adresse IP externe. L’adresse IP source doit rester intacte, de sorte que le service Edge A/V puisse trouver le chemin multimédia optimal.
   
-  Par exemple, dans la direction entrante dans l’illustration ci-dessous, l’adresse IP publique 131.107.155.30 a été remplacée par l’adresse IP (privée) 10.45.16.10. L’adresse IP source reste inchangée.
+  Par exemple, dans la direction entrante dans la figure ci-dessous, l’adresse IP publique 131.107.155.30 a été remplacée par l’adresse IP externe (privée) 10.45.16.10. L’adresse IP source est restée inchangée.
   
-  - Pour le trafic du service Edge A/V vers Internet, tar doit remplacer l’adresse IP source par l’adresse IP externe du service Edge A/V par l’adresse IP publique compatible NAT.
+  - Pour le trafic depuis le service Edge A/V vers Internet, tar doit modifier l’adresse IP source de l’adresse IP externe du service Edge A/V vers l’adresse IP publique à extension NAT.
 
-Par exemple, dans la direction sortante dans la figure ci-dessous, l’adresse IP (privée) 10.45.16.10 a été remplacée par l’adresse IP publique 131.107.155.30.
+Par exemple, dans la direction sortante dans la figure ci-dessous, l’adresse IP externe (privée) 10.45.16.10 a été remplacée par l’adresse IP publique 131.107.155.30.
 
-**La figure ci-dessous montre comment tar modifie l’adresse IP de destination pour le trafic entrant et l’adresse IP source pour le trafic sortant.**
+**La figure ci-dessous montre comment NAT modifie l’adresse IP de destination pour le trafic entrant et l’adresse IP source pour le trafic sortant.**
 
-![Modification des adresses IP de destination/source](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Modification des adresses IP de destination/source")
+![Modification des adresses IP source/destination](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Modification des adresses IP source/destination")
 
-Les points clés sont les suivants :
+Les principaux points sont les suivants :
 
-  - Le trafic entrant sur le serveur exécutant le service Edge A/V, l’adresse IP source reste inchangée mais l’adresse IP de destination passe d' 131.107.155.30 à l’adresse IP traduite de 10.45.16.10.
+  - Trafic entrant sur le serveur qui exécute le service Edge A/V, l’adresse IP source ne change pas, mais l’adresse IP de destination passe de 131.107.155.30 à l’adresse IP traduite de 10.45.16.10.
 
-  - Le trafic sortant du serveur exécutant le service Edge A/V vers la station de travail, l’adresse IP source passe de l’adresse IP publique du serveur à l’adresse IP publique du serveur exécutant le service Edge A/V. L’adresse IP de destination reste l’adresse IP publique de la station de travail. Une fois que le paquet A quitté le premier périphérique NAT en sortie, la règle sur le périphérique NAT change l’adresse IP source du serveur exécutant l’adresse IP de l’interface externe A/V (10.45.16.10) sur son adresse IP publique (131.107.155.30).
+  - Trafic sortant du serveur qui exécute le service Edge A/V vers le poste de travail, l’adresse IP source passe de l’adresse IP publique du serveur à l’adresse IP publique du serveur exécutant le service Edge A/V. L’adresse IP de destination conserve l’adresse IP publique de la station de travail. Une fois que le paquet quitte le premier périphérique NAT, la règle sur le périphérique NAT modifie l’adresse IP source du serveur exécutant l’adresse IP de l’interface externe du service Edge A/V (10.45.16.10) en son adresse IP publique (131.107.155.30).
 
 </div>
 

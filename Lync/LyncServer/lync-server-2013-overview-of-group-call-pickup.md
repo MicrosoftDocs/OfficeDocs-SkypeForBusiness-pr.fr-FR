@@ -12,20 +12,20 @@ ms:contentKeyID: 51541466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0efc85b28a689b43d024d9996211a70dcd91cee0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d36232c04a8d91ff389449786386f380b54ec7a7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-group-call-pickup-in-lync-server-2013"></a>Présentation de l’enlèvement de groupe dans Lync Server 2013
+# <a name="overview-of-group-call-pickup-in-lync-server-2013"></a>Vue d’ensemble de la prise d’appel de groupe dans Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41755548"
 
 _**Dernière modification de la rubrique :** 2013-02-12_
 
-Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013 : février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Cette nouvelle fonctionnalité améliore la disponibilité de la ligne d’un utilisateur en permettant à d’autres utilisateurs de répondre à un appel entrant en composant un numéro de groupe. Lors du déploiement de la prise d’appel de groupe, le nombre d’appels entrants vers la messagerie vocale peut être considérablement réduit, ce qui est particulièrement utile pour les appels provenant de clients extérieurs à votre organisation.
+Group Call Pick, une nouvelle fonctionnalité des mises à jour cumulatives pour Lync Server 2013 : février 2013, permet aux utilisateurs de répondre à leurs collègues à partir de leurs propres téléphones. Cette nouvelle fonctionnalité augmente la disponibilité de la ligne d’un utilisateur en permettant à d’autres utilisateurs de répondre à un appel entrant en composant un numéro de groupe de prise d’appel. Lorsque la prise d’appel de groupe est déployée, le nombre d’appels entrants acheminés vers la messagerie vocale peut être considérablement réduit, ce qui est particulièrement utile pour les appels provenant de clients externes à votre organisation.
 
-La fonctionnalité de cueillette des appels de groupe est conçue en particulier pour les unités d’entreprise dans les environnements Office ouverts. Les appels entrants n’entraînent pas de perturbation, car ils sonnent uniquement sur le poste de leur destinataire. Toutefois, les autres utilisateurs qui entendent la sonnerie peuvent prendre l’appel en composant simplement le numéro de groupe.
+La fonctionnalité de prise d’appel de groupe est conçue en particulier pour les divisions dans des environnements Office ouverts. Les appels entrants ne sont pas perturbés car ils ne sonnent qu’au niveau de destination prévu. Toutefois, les autres utilisateurs qui entendent la sonnerie peuvent toujours reprendre l’appel en composant le numéro de groupe.
 
-Dans les environnements dans lesquels les utilisateurs ne se trouvent pas dans une mise en page de bureau ouverte ou lorsque les utilisateurs qui partagent une responsabilité commune sont répartis géographiquement, l’équipe appelle la solution la plus adaptée. La principale différence entre un appel de groupe et un appel d’équipe réside dans le fait que, si vous utilisez la fonction d’appel de groupe, un appel entrant sonne uniquement vers la destination prévue, mais tout le monde peut tout de même le répondre en composant un numéro de groupe. Grâce à l’appel d’équipe, l’appel sonne sur le téléphone des membres de l’équipe, et n’importe quel utilisateur de l’équipe peut capter son téléphone pour répondre à l’appel. Une différence supplémentaire entre le prélèvement d’appels de groupe et l’appel d’équipe est la gestion par un administrateur des appels de groupe par le biais de Lync Server. Avec l’appel d’équipe, les utilisateurs finaux gèrent la fonctionnalité à l’aide du client Lync. Ce choix est centralisé grâce à la fonction de redirection des appels de groupe.
+Dans les environnements où les utilisateurs ne se trouvent pas dans un aménagement de bureau ouvert ou dans lesquels les utilisateurs qui partagent une responsabilité commune sont répartis géographiquement, les appels d’équipe présentent la solution la plus appropriée. La principale différence entre la prise d’appel de groupe et l’appel d’équipe est que, avec la prise d’appel de groupe, un appel entrant sonne uniquement à la destination prévue, mais tout le monde peut toujours choisir de le répondre en composant un numéro de groupe. Avec l’appel d’équipe, l’appel sonne sur tous les téléphones des membres de l’équipe et n’importe quel utilisateur de l’équipe peut prendre le téléphone pour répondre à l’appel. Une autre différence entre la prise d’appel de groupe et l’appel d’équipe est que la prise d’appel de groupe est gérée par un administrateur via Lync Server. Avec l’appel d’équipe, les utilisateurs finaux gèrent la fonctionnalité à l’aide du client Lync. Avec la prise d’appel de groupe, cet aspect de la gestion des appels peut donc être centralisé.
 
-La cueillette des appels de groupe repose sur l’application de stationnement d’appels. Lorsque vous déployez un appel de groupe, vous configurez la table d’orbite du parc d’appels avec des plages distinctes de numéros d’extension désignés comme numéros de groupe de cueillette d’appel. À l’image des numéros d’appel parqué, les numéros de groupe de prise d’appel doivent être des extensions virtuelles auxquelles n’est affecté aucun utilisateur ou téléphone. Chaque pool frontal sur lequel vous déployez la capture d’appels de groupe peut avoir une ou plusieurs gammes de numéros de groupe de cueillette d’appel. Les plages de numéros de groupe doivent être globalement uniques dans le déploiement de Lync Server.
+La prise d’appel de groupe est basée sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous configurez la table d’orbites de parcage d’appel avec des plages de numéros d’extension séparées qui sont désignées comme numéros de groupe de prise d’appel. Comme les numéros d’orbite de parcage d’appel, les numéros de groupe de prise d’appel doivent être des extensions virtuelles auxquelles aucun utilisateur ou téléphone n’est affecté. Chaque pool frontal où vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéros de groupe doivent être uniques au niveau global dans le déploiement Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Les plages de nombres qui sont désignées en tant que numéros de capture d’appel de groupe dans la table de parc d’appels ne peuvent pas être gérées ou affichées à l’aide du panneau de configuration de Lync Server. La seule façon d’afficher toutes les plages de chiffres dans la table de stationnement d’appels consiste à utiliser Lync Server Management Shell. De même, la seule façon d’ajouter, de modifier ou de supprimer des numéros de capture d’appels de groupe consiste à utiliser Lync Server Management Shell.
+> Les plages de numéros qui sont désignées comme numéros de prise d’appel de groupe dans la table des orbites de parcage d’appel ne peuvent pas être gérées ou visualisées à l’aide du panneau de configuration Lync Server. La seule façon d’afficher toutes les plages de numéros dans la table des orbites de parcage d’appel consiste à utiliser Lync Server Management Shell. De même, la seule façon d’ajouter, de modifier ou de supprimer des numéros de prise d’appel de groupe est d’utiliser Lync Server Management Shell.
 
 
 
 </div>
 
-Après avoir configuré les numéros de groupe de prise d’appel, vous affectez les utilisateurs à un groupe de prise d’appel. Les appels destinés à un utilisateur membre d’un groupe de prise d’appel peuvent être pris par les autres utilisateurs. Lorsqu’un appel parvient à un utilisateur affecté à un groupe de prise d’appel, tout autre utilisateur qui remarque l’appel peut y répondre en composant manuellement le numéro du groupe de prise d’appel. Il n’est pas nécessaire que l’utilisateur qui prend l’appel soit membre du groupe. Lorsqu’un appel est pris par un autre utilisateur, une notification est envoyée au numéro initialement appelé.
+Après avoir configuré les numéros de groupe de prise d’appel, vous affectez des utilisateurs à un groupe de prise d’appel. Tout utilisateur affecté à un groupe de prise d’appel peut faire en sorte que les appels soient traités par d’autres utilisateurs. Lorsqu’un appel arrive à un utilisateur affecté à un groupe de prise d’appel, tout autre utilisateur qui remarque l’appel peut y répondre en appelant manuellement le numéro de groupe de prise d’appel. L’utilisateur qui sélectionne l’appel ne doit pas nécessairement être membre du groupe. Lorsqu’un autre utilisateur reçoit un appel, une notification est envoyée au numéro initialement appelé.
 
 <div>
 
@@ -71,55 +71,55 @@ Après avoir configuré les numéros de groupe de prise d’appel, vous affectez
 
 
 > [!NOTE]  
-> Même si tout utilisateur du déploiement de Lync Server peut répondre à un appel d’un membre d’un groupe de capture d’appel, la personne qui répond à l’appel doit connaître le numéro du groupe de capture d’appel approprié pour composer le numéro.
+> Bien que tous les utilisateurs du déploiement Lync Server puissent répondre à un appel à un membre du groupe de prise d’appel, la personne répondant à l’appel doit indiquer le numéro de groupe de prise d’appel correct à composer.
 
 
 
 </div>
 
-Si un utilisateur compose un numéro de groupe de prise d’appel pour répondre à un appel alors que plusieurs téléphones du groupe sonnent, il répond à l’appel qui a sonné en premier.
+Si un utilisateur compose un numéro de groupe de prise d’appel pour répondre à un appel lorsque plusieurs téléphones dans le groupe sonnent, l’utilisateur répond à l’appel qui a été le plus long.
 
-Les paramètres de sonnerie simultanée fonctionnent pour les utilisateurs qui bénéficient de la prise d’appel de groupe. Autrement dit, un appel passé à un utilisateur disposant d’un appel de groupe sonne pour toutes les destinations configurées et un autre utilisateur peut répondre à l’appel. Toutefois, cette règle ne s’applique pas si l’utilisateur configure une sonnerie simultanée pour appeler tous les membres de l’équipe.
+Les paramètres de sonnerie simultanée fonctionneront pour les utilisateurs disposant de la prise d’appel de groupe. Autrement dit, un appel passé à un utilisateur disposant de la prise d’appel de groupe sonnera pour toutes les destinations configurées, et un autre utilisateur pourra répondre à l’appel. L’exception à cette règle est lorsque l’utilisateur configure la sonnerie simultanée pour appeler tous les membres de l’équipe.
 
-La cueillette de groupe ne peut pas être utilisée pour répondre aux types d’appel suivants :
+La prise d’appel de groupe ne peut pas être utilisée pour répondre aux types d’appels suivants :
 
-  - Appels à destination d’une ligne privée
+  - Appels vers une ligne privée
 
-  - Appels en provenance d’un contact auquel a été affecté le niveau de confidentialité Famille et amis
+  - Appels à partir d’un contact auquel a été attribuée la relation de confidentialité amis et famille
     
     <div>
     
 
     > [!TIP]  
-    > Les utilisateurs qui sont membres d’un groupe de captures d’appels peuvent empêcher certains appels d’être récupérés par le biais du prélèvement d’appels de groupe en le marquant en tant que contact personnel dans le client Lync. Pour marquer un contact en tant que contact personnel, définissez le niveau de confidentialité du contact sur Famille et amis. Tout appel entrant provenant de contacts dont le niveau de confidentialité est défini sur amis et votre famille ne peut pas être récupéré à l’aide de la fonction de cueillette d’appel de groupe.
+    > Un utilisateur membre d’un groupe de prise d’appel peut empêcher l’extraction de certains appels via la prise d’appel de groupe en marquant le contact comme contact personnel dans le client Lync. Pour marquer un contact comme contact personnel, définissez la relation de confidentialité du contact sur amis et famille. Les appels entrants provenant de contacts dont la relation de confidentialité est définie sur amis et la famille ne peuvent pas être récupérés à l’aide de la prise d’appel de groupe.
 
     
     </div>
 
-  - Partie vidéo d’un appel audio/vidéo
+  - Partie vidéo des appels audio/vidéo
     
     <div>
     
 
     > [!NOTE]  
-    > Si un utilisateur répond à un appel audio/vidéo, il reçoit uniquement la partie audio. La personne qui passe l’appel ou celle qui y répond peut doter l’appel de la fonctionnalité vidéo.
+    > Si un utilisateur répond à un appel audio/vidéo, il reçoit uniquement l’audio. La personne qui appelle ou la personne qui répond à l’appel peut escalader l’appel pour ajouter de la vidéo.
 
     
     </div>
 
-  - Appels à sonnerie simultanée routés vers les membres d’appel de l’équipe
+  - Appels de sonnerie simultanés routés vers les membres de l’appel d’équipe
 
   - Appels routés vers un délégué
 
-  - Appels routés vers un service Response Group
+  - Appels routés vers un groupe Response Group
 
-Les types d’utilisateurs suivants ne peuvent pas participer à la cueillette de groupe. Autrement dit, ils ne doivent pas être inclus dans un groupe de prélèvement d’appels de groupe et ne peuvent pas répondre aux appels pour les utilisateurs disposant d’une cueillette de groupe activée.
+Les types d’utilisateurs suivants ne peuvent pas participer à la prise d’appel de groupe. Autrement dit, ils ne doivent pas être inclus dans un groupe de prise d’appel de groupe et ne peuvent pas reprendre d’appels pour les utilisateurs qui ont activé la prise d’appel de groupe.
 
   - Utilisateurs hébergés en ligne dans un déploiement hybride
 
-  - Utilisateurs qui ne sont pas hébergés sur un pool Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013:2013 février dans un déploiement local
+  - Les utilisateurs qui ne sont pas hébergés sur un pool Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013 : février 2013 dans un déploiement local
 
-Si personne ne répond à un appel destiné à un membre d’un groupe de prise d’appel, l’appel est routé conformément au paramétrage défini dans les paramètres du client. En d’autres termes, l’appel est acheminé vers la messagerie vocale ou transféré à une autre destination.
+Si personne ne répond à un appel à un membre d’un groupe de prise d’appel, l’appel est acheminé comme indiqué dans les paramètres du client. Autrement dit, l’appel passe à la messagerie vocale ou est transféré vers une destination différente, comme indiqué dans les paramètres du client.
 
 </div>
 

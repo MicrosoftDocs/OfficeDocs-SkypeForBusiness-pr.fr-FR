@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : déplacer des groupes de réponse vers un nouveau pool'
+title: 'Lync Server 2013 : transfert de groupes Response Group vers un nouveau pool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>Déplacer des groupes de réponse vers un nouveau pool dans Lync Server 2013
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>Transfert de groupes Response Group vers un nouveau pool dans Lync Server 2013
 
 </div>
 
@@ -37,15 +37,15 @@ ms.locfileid: "41756708"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Lync Server 2013 introduit une nouvelle cmdlet support pour le déplacement de groupes de réponse d’un pool vers un autre, même si le nom de domaine complet (FQDN) est différent.
+Lync Server 2013 introduit une nouvelle prise en charge des cmdlets pour le transfert de groupes Response Group d’un pool vers un autre, même si le nom de domaine complet (FQDN) est différent.
 
-Suivez les étapes décrites dans la procédure ci-dessous pour déplacer les groupes de réponse d’un pool frontal vers un autre à l’aide d’un nom de domaine complet différent.
+Suivez les étapes de la procédure ci-après pour déplacer des groupes Response Group d’un pool frontal vers un autre.
 
 <div>
 
 
 > [!NOTE]  
-> Dans un environnement de coexistence, vous pouvez déplacer des groupes de réponse uniquement entre&nbsp;les pools front end de Lync Server 2013.
+> Dans un environnement de coexistence, vous pouvez déplacer des groupes Response Group uniquement entre&nbsp;des pools frontaux Lync Server 2013.
 
 
 
@@ -53,27 +53,27 @@ Suivez les étapes décrites dans la procédure ci-dessous pour déplacer les gr
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>Pour déplacer des groupes de réponses vers un pool avec un nom de domaine complet différent
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>Pour déplacer les groupes Response Group avec un nom de domaine complet différent
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
-2.  Exportez les groupes de réponses dans le pool de sources. Dans la ligne de commande, tapez :
+2.  Exportez les groupes Response Group dans le pool source. Sur la ligne de commande, tapez :
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    Exemple :
+    Par exemple :
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    Pour supprimer les groupes de réponse du pool de sources lors de l’exportation, incluez le paramètre – RemoveExportedConfiguration. Par exemple :
+    Pour supprimer les groupes Response Group du pool source durant l’exportation, incluez le paramètre –RemoveExportedConfiguration. Par exemple :
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  Importez les groupes de réponses dans le pool de destination et attribuez le pool de destination comme nouveau propriétaire. À partir de la ligne de commande, tapez :
+3.  Importez les groupes Response Group vers le pool de destination et affectez ce dernier comme nouveau propriétaire. Sur la ligne de commande, tapez :
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    Si vous voulez également copier les paramètres au niveau de l’application du groupe de réponses du pool de sources vers le pool de destination, incluez le paramètre – ReplaceExistingRgsSettings. Vous pouvez définir un seul ensemble de paramètres de niveau application par pool. Si vous copiez les paramètres au niveau de l’application à partir du pool de sources vers le pool de destination, les paramètres du pool de sources remplacent ceux du pool de destination. Si vous ne copiez pas les paramètres au niveau de l’application à partir du pool de sources, les paramètres existants du pool de destination s’appliquent aux groupes de réponse importés.
+    Si vous souhaitez également copier les paramètres de niveau application de Response Group depuis le pool source vers le pool de destination, incluez le paramètre – ReplaceExistingRgsSettings. Vous ne pouvez définir qu’un seul ensemble de paramètres de niveau d’application par pool. Si vous copiez les paramètres de niveau d’application du pool source vers le pool de destination, les paramètres du pool source remplacent ceux du pool de destination. Si vous ne copiez pas les paramètres de niveau d’application du pool source, les paramètres existants du pool de destination s’appliquent aux groupes Response Group importés.
     
     Par exemple :
     
@@ -83,38 +83,38 @@ Suivez les étapes décrites dans la procédure ci-dessous pour déplacer les gr
     
 
     > [!NOTE]  
-    > Les paramètres au niveau de l’application incluent la configuration par défaut de Music-Holding, le fichier audio de musique par défaut, la période de grâce aux retours de l’agent et la configuration du contexte d’appel. Pour afficher ces paramètres de configuration, exécutez l’applet <STRONG>de passe Get-CsRgsConfiguration</STRONG> . Pour plus d’informations sur cette cmdlet, voir <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
+    > Les paramètres de niveau d’application comprennent la configuration de l’attente musicale par défaut, le fichier audio de l’attente musicale par défaut, la période de grâce de la reprise d’appel parqué des agents ainsi que la configuration du contexte de l’appel. Pour afficher ces paramètres de configuration, exécutez l’applet de commande <STRONG>Get-CsRgsConfiguration</STRONG>. Pour plus d’informations sur cette applet de commande, consultez la rubrique <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-applet csrgsconfiguration</A>.
 
     
     </div>
 
-4.  Assurez-vous que l’importation réussie s’affiche avec la configuration de groupe de réponse importée en procédant comme suit :
+4.  Vérifiez que l’importation est réussie en affichant la configuration des groupes Response Group importés. Pour ce faire, procédez comme suit :
     
-      - Vérifiez que tous les flux de travail étaient importés. Dans la ligne de commande, tapez ce qui suit :
+      - Vérifiez que tous les flux de travail ont été importés. Sur la ligne de commande, tapez ce qui suit :
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Vérifiez que toutes les files d’attente ont été importées. Dans la ligne de commande, tapez ce qui suit :
+      - Vérifiez que toutes les files d’attente ont été importées. Sur la ligne de commande, tapez ce qui suit :
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Vérifiez que tous les groupes d’agents ont été importés. Dans la ligne de commande, tapez ce qui suit :
+      - Vérifiez que tous les groupes d’agents ont été importés. Sur la ligne de commande, tapez ce qui suit :
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Vérifiez que toutes les heures d’activité ont été importées. Dans la ligne de commande, tapez ce qui suit :
+      - Vérifiez que toutes les heures ouvrées ont été importées. Sur la ligne de commande, tapez ce qui suit :
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - Vérifiez que tous les ensembles de jours fériés ont été importés. Dans la ligne de commande, tapez ce qui suit :
+      - Vérifiez que tous les groupes de congés ont été importés. Sur la ligne de commande, tapez ce qui suit :
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  Vérifiez que l’importation est réussie en passant un appel à l’un des groupes de réponses et en vérifiant que l’appel est géré correctement.
+5.  Vérifiez que l’importation est réussie en appelant un des groupes Response Group et en vérifiant que l’appel est correctement traité.
 
-6.  Demandez aux agents membres de groupes d’agents formels de se connecter à leurs groupes d’agents dans le pool de destination.
+6.  Demandez aux agents membres des groupes d’agents formels de s’inscrire à leurs groupes d’agents dans le pool de destination.
 
-7.  Si vous n’avez pas encore supprimé les groupes de réponses du pool de sources, supprimez les groupes de réponses du pool de sources. Dans la ligne de commande, tapez :
+7.  Si vous n’avez pas précédemment supprimé les groupes Response Group du pool source, supprimez-les. Sur la ligne de commande, tapez :
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     

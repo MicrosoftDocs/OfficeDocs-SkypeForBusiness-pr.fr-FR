@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : test de l’appel d’égal à égal PSTN'
+title: 'Lync Server 2013 : test des appels d’égal à égal PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 61c172ea79e646e9deec1c56e792d4e7c4df3a26
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Test de l’appel d’égal à égal RTC dans Lync Server 2013
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Test des appels d’égal à égal RTC dans Lync Server 2013
 
 </div>
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsPstnPeerToPeerCall. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsPstnPeerToPeerCall. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de contrôle test-CsPstnPeerToPeerCall vérifie la possibilité pour une paire d’utilisateurs d’effectuer un appel d’égal à égal sur la passerelle RTC (réseau téléphonique commuté). Lorsque vous appelez test-CsPstnPeerToPeerCall, l’applet de connexion tente d’abord de se connecter à deux utilisateurs de test sur Lync Server. En supposant que les ouvertures de session aboutissent, l’applet de connexion a alors une tentative d’appel de la part de l’utilisateur 2 par le biais de la passerelle RTC. Test-CsPstnPeerToPeerCall effectue l’appel à l’aide du plan de numérotation, de la stratégie vocale et d’autres paramètres de stratégie et de configuration attribués à l’utilisateur de test. Si le test s’exécute comme prévu, l’applet de connexion vérifie que l’utilisateur 2 a pu répondre à l’appel, puis déconnecte les deux comptes de test du système.
+L’applet de commande test-CsPstnPeerToPeerCall vérifie la capacité à laquelle une paire d’utilisateurs doit effectuer un appel P2P sur la passerelle PSTN (réseau téléphonique commuté). Lorsque vous appelez test-CsPstnPeerToPeerCall, l’applet de commande tente d’abord de se connecter deux utilisateurs de test à Lync Server. En supposant que les ouvertures de sessions réussissent, l’utilisateur 1 tentera d’appeler l’utilisateur 2 sur la passerelle PSTN. Test-CsPstnPeerToPeerCall effectuera cet appel à l’aide du plan de numérotation, de la stratégie de voix, ainsi que d’autres paramètres de stratégie et de configuration affectés à l’utilisateur test. Si le test se déroule comme prévu, l’applet de commande vérifie que l’utilisateur 2 a pu répondre à l’appel, puis se déconnecte des deux comptes de test à partir du système.
 
-Test-CsPstnPeerToPeerCall effectue un appel téléphonique réel et vérifie qu’il est possible d’établir une connexion et qu’elle transmet également des codes DTMF sur le réseau pour déterminer si le média peut être envoyé sur la connexion. L’appel est alors reçu par l’applet de demande et aucune terminaison manuelle de l’appel n’est nécessaire. (Autrement dit, personne ne doit répondre et raccrocher le téléphone appelé.)
+Test-CsPstnPeerToPeerCall effectue un appel téléphonique réel, qui vérifie qu’une connexion peut être établie et qui transmet également des codes DTMF sur le réseau pour déterminer si des médias peuvent être envoyés via la connexion. L’appel est traité par l’applet de commande elle-même et aucune interruption manuelle de l’appel n’est nécessaire. (Autrement dit, personne ne doit répondre, puis raccrocher le téléphone qui a été appelé.)
 
 </div>
 
@@ -76,37 +76,37 @@ Test-CsPstnPeerToPeerCall effectue un appel téléphonique réel et vérifie qu�
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-CsPstnPeerToPeerCall peut être exécutée à l’aide d’une paire de comptes de test préconfigurés (voir Configuration de comptes de test pour exécuter des tests Lync Server) ou les comptes de tous les utilisateurs qui sont activés pour Lync Server. Pour exécuter cette vérification à l’aide de comptes de test, vous devez simplement spécifier le nom de domaine complet (FQDN) du pool de serveurs Lync testé. Par exemple :
+La cmdlet Test-CsPstnPeerToPeerCall peut être exécutée à l’aide d’une paire de comptes de test préconfigurés (voir Configuration des comptes de test pour l’exécution des tests Lync Server) ou des comptes de deux utilisateurs activés pour Lync Server. Pour exécuter cette vérification à l’aide de comptes de test, il vous suffit de spécifier le nom de domaine complet du pool Lync Server testé. Par exemple :
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
-Pour exécuter ce contrôle à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsPstnPeerToPeerCall :
+Pour exécuter cette vérification à l’aide de comptes d’utilisateur réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez test-CsPstnPeerToPeerCall :
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) .
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Si les utilisateurs spécifiés peuvent effectuer un appel d’égal à égal, vous recevrez une sortie semblable à celle-ci, avec la propriété Result marquée comme **réussie :**
+Si les utilisateurs spécifiés peuvent effectuer un appel P2P, vous recevrez un résultat semblable à celui-ci, la propriété Result étant marquée comme **Success :**
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:06.8630376
 
-Error
+«
 
-Diagnostic
+Diagnostique
 
-Si les utilisateurs spécifiés ne parviennent pas à effectuer un appel d’égal à égal, le résultat est affiché en tant qu’échec et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic :
+Si les utilisateurs spécifiés ne peuvent pas effectuer un appel P2P, le résultat est indiqué comme étant un échec et des informations supplémentaires sont enregistrées dans les propriétés Error et diagnostic :
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
@@ -116,45 +116,45 @@ Latence : 00:00:0182361
 
 Erreur : 403, interdit
 
-Diagnostic : codeerreur = 12001, source = ATL-CS-001.litwareinc.com,
+Diagnostic : ErrorCode = 12001, source = ATL-CS-001.litwareinc.com,
 
-Raison = la stratégie utilisateur ne contient pas l’utilisation de l’itinéraire du téléphone
+Raison = la stratégie de l’utilisateur ne contient pas l’utilisation de l’itinéraire téléphonique
 
-La sortie précédente indique que le test a échoué, car la stratégie vocale affectée à au moins un des utilisateurs spécifiés n’inclut pas une utilisation du téléphone. (Les utilisations du téléphone lient les politiques vocales aux itinéraires vocaux. Sans qu’il s’agissait d’une stratégie vocale et d’un itinéraire vocal correspondant, vous ne pouvez pas passer d’appels sur PSTN.)
+La sortie précédente indique que le test a échoué car la stratégie de voix attribuée à au moins un des utilisateurs spécifiés n’inclut pas d’utilisation téléphonique. (Les utilisations téléphoniques lient les stratégies vocales aux itinéraires des communications vocales. Sans une stratégie de voix ni un itinéraire des communications vocales, vous ne pouvez pas passer d’appels sur le RTC.)
 
-Si test-CsPstnPeerToPeerCall échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
+Si test-CsPstnPeerToPeerCall échoue, vous pouvez réexécuter le test, ce qui inclut le paramètre Verbose :
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsPstnPeerToPeerCall renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la possibilité de l’utilisateur spécifié de se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion avec le RTC :
+Lorsque le paramètre Verbose est inclus, test-CsPstnPeerToPeerCall renvoie un compte pas à pas de chaque action qu’il a tentée lorsqu’il a vérifié la capacité de l’utilisateur spécifié à se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion au réseau téléphonique commuté (RTC) :
 
-Etablissement d’un appel vidéo audio sur’SIP : + 12065551219@litwareinc. com ; utilisateur = téléphone'.
+Établissement de l’appel audio vidéo à « SIP : + 12065551219@litwareinc. com ; user = Phone ».
 
-Une exception «une 404 (non trouvée) a été reçue du réseau et l’opération a échoué.
+Une exception’A 404 (introuvable) a été reçue du réseau et l’opération a échoué.
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles les tests-CsPstnPeerToPeerCall peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec de test-CsPstnPeerToPeerCall :
 
-  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit :
+  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à celle-ci :
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit :
+  - Le compte d’utilisateur est valide, mais le compte n’est actuellement pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à la suivante :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
     Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est actuellement pas activé pour Lync Server.
 
-  - La stratégie vocale attribuée à l’utilisateur spécifié ne dispose pas d’une utilisation PSTN valide. Vous pouvez déterminer la politique vocale affectée à un utilisateur à l’aide d’une commande similaire à celle-ci :
+  - La stratégie de voix attribuée à l’utilisateur spécifié ne dispose pas d’une utilisation PSTN valide. Vous pouvez déterminer la stratégie de voix qui est affectée à un utilisateur à l’aide d’une commande semblable à celle-ci :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    Vous pouvez ensuite déterminer les utilisations RTC qui sont affectées à cette stratégie à l’aide d’une commande similaire à ce qui suit, qui extrait des informations sur le RedmondVoicePolicy de stratégie vocale par utilisateur :
+    Vous pouvez ensuite déterminer les utilisations PSTN (le cas échéant) qui sont affectées à cette stratégie à l’aide d’une commande semblable à la suivante, qui récupère des informations sur la stratégie de voix par utilisateur RedmondVoicePolicy :
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
 

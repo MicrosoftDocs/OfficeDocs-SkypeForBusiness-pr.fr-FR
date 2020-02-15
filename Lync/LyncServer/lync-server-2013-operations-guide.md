@@ -1,5 +1,5 @@
 ---
-title: 'Guide des opérations de Lync Server 2013 :'
+title: 'Lync Server 2013 : Guide des opérations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d797f638121f09eacc9b1472feed0a0b84e2a74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755788"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Operations Guide for Lync Server 2013
+# <a name="operations-guide-for-lync-server-2013"></a>Guide des opérations pour Lync Server 2013
 
 </div>
 
@@ -37,33 +37,33 @@ ms.locfileid: "41755788"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-Ce document décrit les processus opérationnels, les tâches et les outils requis pour gérer un environnement logiciel de communication Microsoft Lync Server 2013. Cet article explique comment gérer Lync Server 2013 conformément au modèle MOF (Microsoft Operations Framework) et vous aidera à concevoir un environnement de gestion des opérations efficace, qui inclut l’implémentation de plannings, de processus et de procédures pour gérer une environnement de travail efficace.
+Ce document décrit les processus, les tâches et les outils opérationnels nécessaires pour gérer un environnement logiciel de communications Microsoft Lync Server 2013. Elle explique comment gérer Lync Server 2013 conformément au modèle MOF (Microsoft Operations Framework) et il vous aidera à concevoir un environnement de gestion des opérations efficace, qui inclut la mise en œuvre de planifications, de processus et de procédures pour maintenir une environnement de travail efficace.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Les sections suivantes sont disponibles :
+Les sections suivantes sont incluses :
 
-  - [Recommandations en matière d’environnements Lync Server 2013](lync-server-2013-best-practices-for-lync-server-environments.md)
+  - [Meilleures pratiques pour les environnements Lync Server 2013](lync-server-2013-best-practices-for-lync-server-environments.md)
 
-  - [Tâches quotidiennes dans Skype Entreprise Server 2015](lync-server-2013-daily-tasks.md)
+  - [Tâches quotidiennes dans Lync Server 2013](lync-server-2013-daily-tasks.md)
 
-  - [Tâches hebdomadaires dans Skype Entreprise Server 2015](lync-server-2013-weekly-tasks.md)
+  - [Tâches hebdomadaires dans Lync Server 2013](lync-server-2013-weekly-tasks.md)
 
   - [Tâches mensuelles dans Lync Server 2013](lync-server-2013-monthly-tasks.md)
 
-  - [Tâches selon les besoins dans Lync Server 2013](lync-server-2013-as-needed-tasks.md)
+  - [Tâches nécessaires dans Lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
-  - [Listes de contrôle des opérations pour Lync Server 2013](lync-server-2013-operations-checklists.md)
+  - [Listes de vérification des opérations pour Lync Server 2013](lync-server-2013-operations-checklists.md)
 
-  - [Surveiller Lync Server 2013 avec System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+  - [Surveillance de Lync Server 2013 avec System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
   - [Dépendances opérationnelles dans Lync Server 2013](lync-server-2013-operational-dependencies.md)
 
   - [Résolution des problèmes et indicateurs d’intégrité clés dans Lync Server 2013](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-Il est supposé que votre déploiement de Microsoft Lync Server 2013 est terminé. Si ce n’est pas le cas, reportez-vous à la planification et au contenu de déploiement pour Microsoft Lync Server 2013 avant de continuer.
+Le déploiement de Microsoft Lync Server 2013 est supposé se terminer. Si ce n’est pas le cas, reportez-vous à la rubrique planification et déploiement du contenu pour Microsoft Lync Server 2013 avant de poursuivre.
 
 </div>
 
@@ -72,10 +72,10 @@ Il est supposé que votre déploiement de Microsoft Lync Server 2013 est termin�
 ## <a name="see-also"></a>Voir aussi
 
 
-[Prise en main avec Lync Server 2013](lync-server-2013-getting-started.md)  
+[Prise en main de Lync Server 2013](lync-server-2013-getting-started.md)  
 [Planification de Lync Server 2013](lync-server-2013-planning.md)  
 [Déploiement de Lync Server 2013](lync-server-2013-deployment.md)  
-[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

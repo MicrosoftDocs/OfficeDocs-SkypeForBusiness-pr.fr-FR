@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833454"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962083"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -42,12 +42,15 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre d’équipes que peut avoir un client Office 365    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
 |Nombre de canaux privés par équipe    |30|
+|Taille de billet de conversation de canal | Environ 28 Ko par billet<sup>4</sup> |
 
 & sup1 ; N’importe quel objet dans Azure Active Directory compte dans cette limite. Les administrateurs généraux sont exempts de cette limite, comme les applications appelant Microsoft Graph en utilisant des[autorisations d’application](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; Cette limite inclut les équipes archivées.
 
 &sup3; Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite des 200 canaux par équipe.
+
+<sup>4</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions, le nombre de connecteurs et les réactions.
 
 ## <a name="messaging"></a>Messagerie
 
@@ -61,10 +64,13 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 |---------|---------|
 |Nombre de personnes dans une conversation privée<sup>1</sup>  | 100    |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
+|Taille de la conversation | Environ 28 Ko par billet<sup>3</sup> |
 
 <sup>1</sup> Si plus de 1 personnes sont présentes dans une conversation, les fonctionnalités de conversation suivantes sont désactivées : réponses automatiques d’Outlook et messages d’état de Teams, indicateur de saisie, appels vidéo et audio, partage, confirmations de lecture.
 
 <sup>2</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
+
+<sup>3</sup> 28 Ko est une limite approximative, car elle inclut le message lui-même (texte, liens d’image, etc.), les @-mentions et les réactions.
 
 ### <a name="emailing-a-channel"></a>Envoi d’un message électronique à un canal
 

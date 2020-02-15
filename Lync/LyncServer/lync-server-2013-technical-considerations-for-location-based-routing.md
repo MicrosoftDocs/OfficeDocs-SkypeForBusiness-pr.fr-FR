@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Considérations techniques relatives au routage géodépendant'
+title: 'Lync Server 2013 : considérations techniques relatives au routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 978590484cbb6bd3c23fac26422c186847662e49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fcdebdccd0584d31b27120709212be674e8d3c2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764044"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41764044"
 
 _**Dernière modification de la rubrique :** 2013-03-09_
 
-Lors de la planification du routage par emplacement, vous devez prendre en compte l’impact sur les situations suivantes.
+Lors de la planification du routage géodépendant, vous devez prendre en compte l’impact sur les scénarios suivants.
 
 <div>
 
 ## <a name="disaster-recovery"></a>Récupération d’urgence
 
-Lors d’un basculement entre le pool principal et un pool de sauvegarde, ainsi que lors de la restauration d’opérations normales sur le pool principal, le routage de l’emplacement reste appliqué à tout moment dans le cadre d’une procédure de sinistre et de récupération.
+Lors d’un basculement depuis le pool principal vers un pool de sauvegarde, ainsi que lors de la restauration d’opérations normales dans le pool principal, le routage géodépendant restera en permanence pendant une procédure de récupération d’urgence et de récupération.
 
 </div>
 
 <div>
 
-## <a name="survivable-branch-appliance"></a>Survivable Branch Appliance
+## <a name="survivable-branch-appliance"></a>Survivable Branch Appliance
 
-La configuration de l’acheminement en fonction de l’emplacement a un impact sur la planification de l’endroit où vous déployez les passerelles associées à vos appareils distants. La passerelle associée à votre SBA doit se trouver dans le même site réseau que votre application de succursale Survivable ; dans le cas contraire, les utilisateurs hébergés sur votre unité de branchement Survivable ne sont pas autorisés à effectuer des appels sortants si le routage par emplacement est configuré. Lorsque la connexion WAN entre votre appareil de branchement Survivable et le site central est en panne, des restrictions de routage basées sur l’emplacement ne sont pas appliquées.
+La configuration du routage géodépendant a une incidence sur la planification de l’emplacement où vous déployez les passerelles associées à vos Survivable Branch Appliances. La passerelle associée à votre SBA doit se trouver dans le même site réseau que votre Survivable Branch Appliance ; dans le cas contraire, les utilisateurs hébergés sur votre Survivable Branch Appliance ne seront pas autorisés à effectuer des appels sortants si le routage géodépendant est configuré. Lorsque la connexion WAN entre votre Survivable Branch appliance et le site central est inactive, les restrictions de routage géodépendant restent appliquées.
 
 </div>
 

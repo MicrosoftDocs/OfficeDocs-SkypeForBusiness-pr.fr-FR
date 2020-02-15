@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblComplianceParticipant'
+title: 'Lync Server 2013 : tblComplianceParticipant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4d5a0024c273dbef8fee16f1fb4b3372692ab4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731554"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731554"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblComplianceParticipant contient les participants actuels par canal et par serveur.
+tblComplianceParticipant contient les participants actifs, par canal et par serveur.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,39 +57,39 @@ tblComplianceParticipant contient les participants actuels par canal et par serv
 <tbody>
 <tr class="odd">
 <td><p>channelUri</p></td>
-<td><p>nvarchar (255), pas null</p></td>
-<td><p>URI (Uniform Resource Identifier) de canal.</p></td>
+<td><p>nvarchar (255), non null</p></td>
+<td><p>URI (Uniform Resource Identifier) du canal.</p></td>
 </tr>
 <tr class="even">
 <td><p>userId</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID principal du participant (correspondant à la table tblPrincipal. prinID).</p></td>
+<td><p>int, non null</p></td>
+<td><p>ID Principal du participant (correspondant à la table tblPrincipal.prinID).</p></td>
 </tr>
 <tr class="odd">
 <td><p>joinedAt</p></td>
-<td><p>bigint, pas null</p></td>
-<td><p>Date et heure de l’événement de jointure.</p></td>
+<td><p>bigint, non null</p></td>
+<td><p>Horodatage de l’événement qui se joint.</p></td>
 </tr>
 <tr class="even">
 <td><p>partedAt</p></td>
-<td><p>bigint</p></td>
-<td><p>NULL si le participant reste connecté. Horodatage du canal quittant l’événement s’il n’a pas la valeur null.</p>
-<p>Ces entrées sont finalement supprimées lorsque tous les traducteurs traitent l’événement.</p></td>
+<td><p>comportant</p></td>
+<td><p>Null si le participant est encore joint. Horodatage de l’événement qui quitte le canal s’il n’est pas null.</p>
+<p>Ces entrées finissent par être supprimées lorsque tous les traducteurs traitent l’événement.</p></td>
 </tr>
 <tr class="odd">
 <td><p>userUri</p></td>
-<td><p>nvarchar (255), pas null</p></td>
+<td><p>nvarchar (255), non null</p></td>
 <td><p>URI de l’utilisateur.</p></td>
 </tr>
 <tr class="even">
 <td><p>serverID</p></td>
 <td><p>int</p></td>
-<td><p>Identité du serveur (comme dans la table tblServerIdentity. serverID).</p></td>
+<td><p>Identité du serveur (comme dans tblServerIdentity.serverID table).</p></td>
 </tr>
 <tr class="odd">
-<td><p>ID</p></td>
-<td><p>bigint</p></td>
-<td><p>Session du serveur. Il s’agit d’un nombre aléatoire généré chaque fois qu’un service de conversation démarre. Il est utilisé pour différencier les sessions à des fins d’identification de participants orphelins.</p></td>
+<td><p>Session</p></td>
+<td><p>comportant</p></td>
+<td><p>Session du serveur. Il s’agit d’un nombre aléatoire généré chaque fois que le service de conversation démarre. Il sert à différencier les sessions dans le but d’identifier les participants orphelins.</p></td>
 </tr>
 </tbody>
 </table>

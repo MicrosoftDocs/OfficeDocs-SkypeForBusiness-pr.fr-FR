@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblPrincipalInvites'
+title: 'Lync Server 2013 : tblPrincipalInvites'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731524"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731524"
 
 _**Dernière modification de la rubrique :** 2012-06-25_
 
-tblPrincipalInvites contient des invitations pour tous les utilisateurs approvisionnés pour tous les nœuds avec l’invitation automatique activé.
+tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour l’ensemble des nœuds avec l’option d’invitation automatique activée.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalInvites contient des invitations pour tous les utilisateurs approvis
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>ID du principal.</p></td>
+<td><p>entier, non null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>ent, non null</p></td>
-<td><p>Numéro séquentiel unique (par ID principal) généré à partir de la table tblLastInviteId.</p></td>
+<td><p>int, non null</p></td>
+<td><p>Numéro séquentiel unique (par ID principal) généré depuis la table tblLastInviteId.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ID</p></td>
-<td><p>ent, non null</p></td>
+<td><p>nodeID</p></td>
+<td><p>int, non null</p></td>
 <td><p>ID de nœud (salle de conversation uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p>Created</p></td>
-<td><p>DATEHEURE, pas null</p></td>
-<td><p>Heure de création</p></td>
+<td><p>datetime, non null</p></td>
+<td><p>Heure de création.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Permettent
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -99,11 +99,11 @@ tblPrincipalInvites contient des invitations pour tous les utilisateurs approvis
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblPrincipal. prinID.</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ID</p></td>
-<td><p>Clé étrangère avec recherche dans la table tblNode. nodeID.</p></td>
+<td><p>nodeID</p></td>
+<td><p>Clé étrangère avec recherche dans la table tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

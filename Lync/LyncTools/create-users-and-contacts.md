@@ -12,16 +12,16 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 660ac18e00ef25a3cda4dd37d6a7850fee2fa459
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,31 +37,31 @@ ms.locfileid: "41727574"
 
 _**Dernière modification de la rubrique :** 2013-02-22_
 
-Vous devez utiliser l’outil de mise en service des utilisateurs de Lync Server 2013 (UserProvisioningTool. exe) pour créer des utilisateurs et des contacts en préparation au test de charge de stress et de performance.
+Vous devez utiliser l’outil de mise en service utilisateur Lync Server 2013 (UserProvisioningTool. exe) pour créer des utilisateurs et des contacts en vue de préparer le test de charge de stress et de performances.
 
-Vous trouverez ci-dessous une liste de termes et de définitions qui peuvent vous intéresser lorsque vous lisez ce sujet.
+Voici une liste des termes et des définitions que vous pouvez trouver utiles lors de la lecture de cette rubrique.
 
-  - Unité d’organisation-l’unité d’organisation Active Directory Domain Services (UO).
+  - Unité d’organisation : l’unité d’organisation des services de domaine Active Directory.
 
-  - Regroupement fédéré/croisé : les utilisateurs qui pourront communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que le réseau MSN de services Internet, le® AOL et Yahoo\!®.
+  - Fédérés/interpools : utilisateurs qui seront autorisés à communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que MSN Network of Internet Services, AOL® et Yahoo\!®.
 
-  - Listes de distribution : objets dans les services de domaine Active Directory (AD FS) qui contiennent une liste des utilisateurs des services de domaine Active Directory (AD FS) utilisés pour le lancement des communications avec des groupes de personnes.
+  - Listes de distribution : objets des services de domaine Active Directory qui contiennent une liste des utilisateurs des services de domaine Active Directory, utilisés pour lancer des communications avec des groupes de personnes.
 
-  - Service des informations de géolocalisation : le service Lync Server 2013 qui, lorsqu’il est activé ou configuré par téléphone, autorise la récupération de l’emplacement physique pour les services Enhanced 9-1-1 (E9-1-1).
+  - Service d’informations d’emplacement : le service Lync Server 2013 qui, lorsqu’il est activé et configuré par téléphone, permet la récupération de l’emplacement physique des services Enhanced 9-1-1 (E9-1-1).
 
-  - Numéros de téléphone américains : les numéros de téléphone affectés aux utilisateurs, en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants et la recherche de numéros inversés (RNL).
+  - Numéros de téléphone des États-Unis : numéros de téléphone affectés aux utilisateurs, en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants et la recherche de numéros inversées (RNL).
 
 <div>
 
 ## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Créer des utilisateurs et des contacts à l’aide de UserProvisioningTool. exe
 
-Vous devez utiliser l’outil de mise en service de l’utilisateur de Lync Server pour créer des utilisateurs et des contacts pour la simulation de chargement. L’outil de mise en service de l’utilisateur Lync Server est installé avec le package d’outils de stress et de performance de Lync Server. Assurez-vous que le programme d’installation de package (CapacityPlanningTool. msi) a été exécuté sur le serveur frontal ou sur le serveur Standard Edition Server. Démarrez l’outil de mise en service de l’utilisateur Lync Server en exécutant le fichier UserProvisioningTool. exe (qui se trouve\\à% InstalledDirectory% LyncStressAndPerfTool LyncStress) sur le serveur frontal ou sur le serveur Standard Edition Server.
+Vous devez utiliser l’outil de mise en service d’utilisateur Lync Server pour créer des utilisateurs et des contacts pour la simulation de charge. L’outil de mise en service des utilisateurs Lync Server est installé avec le package d’outils de performances et de stress de Lync Server. Assurez-vous que le programme d’installation du package (CapacityPlanningTool. msi) a été exécuté sur le serveur frontal ou le serveur Standard Edition. Démarrez l’outil de mise en service des utilisateurs Lync Server en exécutant le fichier UserProvisioningTool. exe (situé dans le dossier\\% InstalledDirectory% LyncStressAndPerfTool LyncStress) sur le serveur frontal ou sur le serveur Standard Edition Server.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Vous devez être connecté en tant que membre du groupe de sécurité administrateurs de domaine pour pouvoir exécuter UserProvisioningTool. exe. Il est nécessaire de procéder à une exécution à partir du contexte, car UserProvisioningTool. exe crée et configure de nouveaux utilisateurs de services de domaine Active Directory.
+> Vous devez être connecté en tant que membre du groupe de sécurité administrateurs du domaine afin d’exécuter UserProvisioningTool. exe. Il est nécessaire d’exécuter à partir de ce contexte car UserProvisioningTool. exe crée et configure les nouveaux utilisateurs des services de domaine Active Directory.
 
 
 
@@ -71,35 +71,35 @@ Vous devez utiliser l’outil de mise en service de l’utilisateur de Lync Serv
 
 
 > [!NOTE]  
-> Lorsque vous créez un nombre d’utilisateurs important (10 000 ou plus), exécutez UserProvisioningTool. exe à partir d’un ordinateur haut de gamme. Notez que le contrôleur de domaine fonctionne également en charge lors de la création des utilisateurs.
+> Lorsque vous créez un nombre important d’utilisateurs (10 000 ou plus), exécutez UserProvisioningTool. exe à partir d’un ordinateur haut de gamme. Notez que le contrôleur de domaine subira également une charge élevée pendant que les utilisateurs sont en cours de création.
 
 
 
 </div>
 
-Lorsque l’outil de mise en service de l’utilisateur Lync Server s’ouvre, cliquez sur **configuration** , puis sélectionnez **charger la configuration**. Pour commencer à configurer les utilisateurs et les contacts, chargez le fichier par défaut inclus dans le package, SampleData. Xml. Cette opération préremplira les champs avec des exemples de données que vous devrez modifier pour votre système. Si vous avez un fichier XML préconfiguré qui contient déjà des paramètres personnalisés, chargez ce fichier à la place. Renseignez les champs de l’outil de mise en service de l’utilisateur Lync Server, comme décrit dans les sections suivantes.
+Lorsque l’outil de mise en service de l’utilisateur Lync Server s’ouvre, cliquez sur **configuration** , puis sélectionnez **charger la configuration**. Pour commencer à configurer des utilisateurs et des contacts, chargez le fichier par défaut inclus dans le package, SampleData. Xml. Cette opération préremplira les champs avec des exemples de données que vous devrez réviser pour votre système. Si vous disposez d’un fichier XML préconfiguré qui contient déjà des paramètres personnalisés, chargez ce fichier à la place. Renseignez les champs de l’outil de mise en service d’utilisateur Lync Server, comme décrit dans les sections suivantes.
 
 ![Onglet création d’utilisateur.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Onglet création d’utilisateur.")
 
-Pour configurer les options du serveur, procédez comme suit.
+Pour configurer les options de serveur, procédez comme suit.
 
-1.  Dans nom de domaine complet (FQDN) du **pool frontal**, tapez le nom de domaine complet (FQDN) du serveur Standard Edition ou du pool frontal sur lequel vous souhaitez héberger les utilisateurs.
+1.  Dans nom de domaine **complet du pool frontal**, tapez le nom de domaine complet (FQDN) du serveur Standard Edition ou du pool frontal où vous voulez héberger les utilisateurs.
 
-2.  Dans **nom d’utilisateur**, entrez le préfixe que vous souhaitez utiliser pour créer des noms d’utilisateur à des fins de test.
+2.  Dans **préfixe du nom d’utilisateur**, tapez un préfixe que vous souhaitez utiliser pour créer des noms d’utilisateurs à des fins de test.
 
-3.  Dans **mot de passe**, spécifiez un mot de passe qui sera appliqué à tous les comptes d’utilisateurs de test.
+3.  Dans **mot de passe**, spécifiez un mot de passe qui sera appliqué à tous les comptes d’utilisateur test.
 
-4.  Dans **domaine SIP**, tapez le nom de domaine à utiliser pour les URI SIP des utilisateurs test (Uniform Resource Identifiers).
+4.  Dans **domaine SIP**, tapez le nom de domaine à utiliser pour les URI SIP (Uniform Resource Identifiers) des utilisateurs test.
 
-5.  Dans **domaine de compte**, tapez le nom de domaine de votre domaine de services de domaine Active Directory actuel, sous lequel vous voulez créer les utilisateurs de test.
+5.  Dans **domaine de compte**, tapez le nom de domaine de votre domaine des services de domaine Active Directory actuel, sous lequel vous souhaitez créer les utilisateurs de test.
 
-6.  Dans **unité d’organisation**, tapez le nom de l’unité d’organisation Active Directory Domain Services dans laquelle vous voulez créer les objets utilisateur. S’il n’existe pas, il sera créé.
+6.  Dans **unité d’organisation**, tapez le nom de l’unité d’organisation des services de domaine Active Directory dans laquelle vous souhaitez créer les objets utilisateur. Si l’unité d’organisation n’existe pas, elle sera créée.
 
-7.  Dans **Code de la zone téléphonique**, tapez le code de zone à trois chiffres qui sera utilisé pour les comptes d’utilisateurs test. Assurez-vous que le code de zone téléphonique n’entre pas en conflit avec les codes de zone des autres utilisateurs dans les services de domaine Active Directory.
+7.  Dans **Code de zone de téléphone**, tapez le code de zone à trois chiffres qui sera utilisé pour les comptes d’utilisateur test. Assurez-vous que le code de la zone téléphonique n’entre pas en conflit avec les autres codes de zone des utilisateurs dans les services de domaine Active Directory.
 
-8.  Activez la case à cocher **voix activée** si vous souhaitez activer l’option voix entreprise pour les utilisateurs de test.
+8.  Activez la case à cocher **voix activée** si vous souhaitez activer les utilisateurs de test pour voix entreprise.
 
-9.  Dans **nombre d’utilisateurs**, spécifiez le nombre total d’utilisateurs de test que vous souhaitez créer.
+9.  Dans **nombre d’utilisateurs**, spécifiez le nombre total d’utilisateurs test que vous souhaitez créer.
 
 10. Dans **index de début**, spécifiez le numéro de départ qui sera utilisé comme suffixe du préfixe du nom d’utilisateur.
 
@@ -107,13 +107,13 @@ Pour configurer les options du serveur, procédez comme suit.
 
 ## <a name="create-users-button"></a>Bouton créer des utilisateurs
 
-Lorsque vous cliquez sur le bouton créer des utilisateurs, tous les paramètres d’entrée sont validés.
+Lorsque vous cliquez sur le bouton créer des utilisateurs, il valide tous les paramètres d’entrée.
 
   - S’il existe des erreurs de validation, il vous invite à corriger ces valeurs d’entrée.
 
-  - Si toutes les valeurs d’entrée sont correctes, la création des utilisateurs dans les services de domaine Active Directory va commencer. Une barre de progression apparaît au bas du formulaire. Nous vous recommandons de ne pas fermer l’application lorsque la barre de progression est active.
+  - Si toutes les valeurs d’entrée sont correctes, il commence à créer des utilisateurs dans les services de domaine Active Directory. Une barre de progression s’affiche au bas de ce formulaire. Nous vous recommandons de ne pas fermer l’application lorsque la barre de progression est active.
 
-Le processus de création d’utilisateur est lent. Quelques minutes peuvent être nécessaires. Si le nombre d’utilisateurs est très grand, le processus peut même prendre quelques heures. Si les utilisateurs existent déjà, ils sont mis à jour avec les modifications apportées. Vous pouvez vérifier que les utilisateurs ont été créés en se connectant comme l’un des utilisateurs de la plage. Utilisez le préfixe d’utilisateur, le numéro d’utilisateur et le @sipDomain comme nom d’utilisateur (par exemple, LyncUser10@contoso.net), ainsi que le mot de passe spécifié.
+La création de l’utilisateur est un processus lent. Cette opération peut prendre plusieurs minutes. Si le nombre d’utilisateurs est très important, le processus peut prendre quelques heures. Si les utilisateurs existent déjà, ils sont mis à jour avec les modifications. Vous pouvez vérifier que les utilisateurs ont été créés en ouvrant une session en tant que l’un des utilisateurs de la plage. Utilisez le préfixe d’utilisateur, le numéro d’utilisateur et le @sipDomain comme nom d’utilisateur (par exemple, LyncUser10@contoso.net), ainsi que le mot de passe spécifié.
 
 </div>
 
@@ -121,11 +121,11 @@ Le processus de création d’utilisateur est lent. Quelques minutes peuvent êt
 
 ## <a name="delete-users-button"></a>Bouton supprimer des utilisateurs
 
-Lorsque vous cliquez sur le bouton supprimer des utilisateurs, tous les paramètres d’entrée sont validés.
+Lorsque vous cliquez sur le bouton supprimer des utilisateurs, il valide tous les paramètres d’entrée.
 
   - S’il existe des erreurs de validation, il vous invite à corriger ces valeurs d’entrée.
 
-  - Si toutes les valeurs d’entrée sont correctes, elles commenceront à désactiver et à supprimer des utilisateurs dans les services de domaine Active Directory (AD FS). Une barre de progression apparaît au bas du formulaire. Nous vous recommandons de ne pas fermer l’application lorsque la barre de progression est active.
+  - Si toutes les valeurs d’entrée sont correctes, il commencera à désactiver et à supprimer les utilisateurs dans les services de domaine Active Directory. Une barre de progression s’affiche au bas de ce formulaire. Nous vous recommandons de ne pas fermer l’application lorsque la barre de progression est active.
 
 <div>
 
@@ -133,9 +133,9 @@ Lorsque vous cliquez sur le bouton supprimer des utilisateurs, tous les paramèt
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>Seuls les numéros de téléphone au format U.S. sont pris en charge. Les numéros de téléphone sont toujours attribués aux utilisateurs, et tous les utilisateurs créés par UserProvisioningTool. exe sont activés pour Enterprise Voice. Tout scénario utilisant le numéro de téléphone, comme le standard automatique des conférences ou les appels RTC, utilisez ce numéro de téléphone pour acheminer correctement les appels. C’est pourquoi chaque utilisateur doit avoir un numéro de téléphone unique. Si vous devez créer des utilisateurs à deux reprises, la commande échouera, sauf si vous utilisez un indicatif de zone différent ou si les utilisateurs précédents ont été désactivés à l’aide de l’applet de commande <STRONG>Disable-Csuser</STRONG> .</P>
+> <P>Seuls les numéros de téléphone au format américain sont pris en charge. Les numéros de téléphone sont toujours attribués aux utilisateurs et tous les utilisateurs créés par UserProvisioningTool. exe sont activés pour voix entreprise. Tous les scénarios qui utilisent le numéro de téléphone, comme les appels de standard automatique de conférence ou RTC-PSTN, utilisent ce numéro de téléphone pour acheminer correctement les appels. Pour cette raison, chaque utilisateur doit disposer d’un numéro de téléphone unique. Si vous devez créer des utilisateurs à deux reprises, la commande échoue, sauf si vous utilisez un indicatif régional différent ou si les utilisateurs précédents ont été désactivés à l’aide de la cmdlet <STRONG>Disable-Csuser</STRONG> .</P>
 > <LI>
-> <P>Avant de créer des contacts, vous devez commencer par procéder à la réplication des utilisateurs, à partir de l’onglet utilisateurs. Si vous venez de créer vos utilisateurs, vous devez attendre la fin de la réplication de Lync Server et remplir les comptes d’utilisateurs dans la base de données. Si les utilisateurs n’ont pas terminé la réplication, un message d’erreur s’affiche. Vous savez alors que les utilisateurs ont fini de procéder à la réplication si le service frontal de Lync Server 2013 a démarré ou en exécutant correctement l’applet de passe <STRONG>Get-Csuser</STRONG> sur le dernier utilisateur.</P></LI></OL>
+> <P>Avant de créer des contacts, vous devez d’abord effectuer une réplication utilisateur, effectuée à partir de l’onglet utilisateurs. Si vous venez de créer vos utilisateurs, vous devez patienter jusqu’à ce que la réplication Lync Server se termine et renseigne les comptes d’utilisateur dans la base de données. Si les utilisateurs n’ont pas terminé la réplication, un message d’erreur s’affiche. Vous saurez quand les utilisateurs ont terminé la réplication si le service frontal Lync Server 2013 a démarré ou en exécutant correctement la cmdlet <STRONG>Get-Csuser</STRONG> sur le dernier utilisateur.</P></LI></OL>
 
 
 
@@ -155,17 +155,17 @@ L’onglet Création de contacts vous permet de spécifier les détails des cont
 
 Pour configurer les contacts des utilisateurs, procédez comme suit.
 
-1.  Dans les contacts moyens par utilisateur, spécifiez le nombre moyen de contacts à renseigner dans les listes de contacts pour chacun des utilisateurs.
+1.  Dans moyenne des contacts par utilisateur, spécifiez le nombre moyen de contacts à remplir dans les listes de contacts pour chacun des utilisateurs.
 
-2.  Activez la case à cocher fixe si vous souhaitez créer un nombre égal de contacts pour chaque utilisateur. Si vous voulez modifier le nombre de contacts créés pour les utilisateurs, décochez la case.
+2.  Activez la case à cocher fixe si vous souhaitez créer un nombre égal de contacts pour chaque utilisateur. Si vous souhaitez modifier le nombre de contacts créés pour les utilisateurs, désactivez la case à cocher.
 
-3.  Dans les groupes de contacts moyens par utilisateur, spécifiez le nombre de groupes de contacts par utilisateur. Ce numéro doit être inférieur à la moyenne des contacts par utilisateur.
+3.  Dans moyenne des groupes de contacts par utilisateur, spécifiez le nombre de groupes de contacts par utilisateur. Ce nombre doit être inférieur à la moyenne des contacts par utilisateur.
 
-4.  Dans la section pourcentage du nombre de contacts du pool fédéré/du groupe croisé, spécifiez un nombre compris entre 0 et 100. Ce pourcentage de contacts sera créé avec les utilisateurs fédérés.
+4.  Dans le pourcentage de contacts fédérés/de pool croisé, spécifiez un nombre compris entre 0 et 100. Ce pourcentage de contacts est créé avec les utilisateurs fédérés.
 
-5.  Dans le cas d’un préfixe d’utilisateur pour les pools fédéré et Cross, spécifiez le nom d’utilisateur des utilisateurs fédérés qui seront ajoutés aux listes de contacts des utilisateurs locaux.
+5.  Dans le préfixe d’utilisateur fédéré/de pool croisé, spécifiez le nom d’utilisateur des utilisateurs fédérés qui seront ajoutés aux listes de contacts des utilisateurs locaux.
 
-6.  Dans domaine SIP pour les utilisateurs fédérés/ThreadPool, spécifiez le nom de domaine SIP des utilisateurs fédérés.
+6.  Dans domaine SIP d’utilisateur fédéré/de pool croisé, spécifiez le nom de domaine SIP des utilisateurs fédérés.
     
     <div>
     
@@ -176,15 +176,15 @@ Pour configurer les contacts des utilisateurs, procédez comme suit.
     
     </div>
 
-7.  Dans l’onglet création d’utilisateur, vérifiez que les paramètres sont corrects. Le nombre d’utilisateurs pour lesquels les contacts seront créés est obtenu à partir de l’onglet création d’utilisateurs.
+7.  Dans l’onglet création d’utilisateur, vérifiez que les paramètres sont corrects. La plage d’utilisateurs pour laquelle les contacts seront créés est obtenue à partir de l’onglet Création de l’utilisateur.
 
-8.  Cliquez sur créer des contacts pour commencer la création du contact. Ce processus peut prendre quelques minutes. Une fois qu’elle est terminée, une boîte de dialogue s’affiche avec le message « opération terminée correctement ». Vous pouvez valider les contacts créés en vous connectant en tant qu’utilisateur créé à partir de l’onglet création d’utilisateur.
+8.  Cliquez sur créer des contacts pour commencer la création du contact. Ce processus peut prendre plusieurs minutes. Une fois l’opération terminée, une boîte de dialogue s’affiche avec le message « l’opération s’est déroulée correctement ». Vous pouvez valider les contacts qui ont été créés en ouvrant une session en tant qu’utilisateur créé à partir de l’onglet création d’utilisateur.
     
     <div>
     
 
     > [!NOTE]  
-    > Une fois les contacts créés, vous redémarrez tous les serveurs frontaux dans la liste cible. Le début de la période (jusqu’à 2 heures) est susceptible de durer plus longtemps, selon le nombre de contacts créés par cette opération.
+    > Une fois les contacts créés, cet outil redémarrera tous les serveurs frontaux dans le pool cible. Le démarrage des serveurs frontaux peut prendre plus de temps (jusqu’à 2 heures), selon le nombre de contacts créés par cette opération.
 
     
     </div>
@@ -195,27 +195,27 @@ Pour configurer les contacts des utilisateurs, procédez comme suit.
 
 ## <a name="distribution-list"></a>Liste de distribution
 
-L’une des fonctionnalités de l’outil de stress et de performance de Lync Server 2013 consiste à simuler la fonctionnalité d’extension de liste de distribution dans Lync 2013. Si vous n’êtes pas en mesure d’activer l’extension DL dans UserProvisioningTool, vous pouvez ignorer cette étape.
+L’une des fonctionnalités de l’outil stress and performance de Lync Server 2013 consiste à simuler la fonctionnalité d’extension de liste de distribution (DL) dans Lync 2013. Si vous ne souhaitez pas activer le développement de la LD dans UserProvisioningTool, vous pouvez ignorer cette étape.
 
 ![Onglet Création de liste de distribution.](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Onglet Création de liste de distribution.")
 
-L’onglet Liste de distribution vous permet de créer des listes de distribution que l’outil de stress et de performance utilisera pour la fonctionnalité d’extension de liste de distribution. Avant de créer des listes de distribution, Lync Server 2013 doit déjà être installé. Vous devez avoir exécuté Lync Server 2013 ForestPrep. Dans le cas contraire, les attributs DL n’existent pas dans le schéma des services de domaine Active Directory et l’outil ne peut pas créer de DL.
+L’onglet Liste de distribution vous permet de créer des listes de distribution que l’outil stress and performance utilisera pour la fonctionnalité d’extension de liste de distribution. Avant de créer des listes de distribution, Lync Server 2013 doit déjà être installé. Vous devez avoir exécuté Lync Server 2013 ForestPrep. Dans le cas contraire, les attributs DL n’existent pas dans le schéma des services de domaine Active Directory et l’outil ne pourra pas créer de listes de distribution.
 
-Pour configurer des listes de distribution, procédez comme suit.
+Pour configurer les listes de distribution, procédez comme suit.
 
-1.  Dans nombre de listes de distribution, spécifiez le nombre total de DL que vous souhaitez créer. (Nous vous recommandons d’utiliser deux fois le nombre d’utilisateurs). Ils sont numérotés de 0 à n-1.
+1.  Dans nombre de listes de distribution, spécifiez le nombre total de listes de distribution que vous souhaitez créer. (Nous vous recommandons de commencer avec deux fois le nombre d’utilisateurs). Ils sont numérotés de 0 à n-1.
 
-2.  Dans préfixe de la liste de distribution, spécifiez le préfixe de la liste de distribution. Par exemple, si vous spécifiez des listes de distribution 100 et un préfixe de testDL, les listes de distribution seront nommées testDL0, testDL1, etc., via testDL99.
+2.  Dans préfixe de liste de distribution, spécifiez le préfixe que devra posséder les listes de distribution. Par exemple, si vous spécifiez 100 DL et un préfixe testDL, les listes de distribution seront nommées testDL0, testDL1, et ainsi de suite, via testDL99.
 
-3.  Dans membres minimum d’une liste de dist., spécifiez le nombre minimum d’utilisateurs à ajouter dans chaque liste de distribution.
+3.  Dans membres minimum d’une liste dist., spécifiez le nombre minimal d’utilisateurs à ajouter dans chaque liste de distribution.
 
-4.  Dans nombre maximal de membres d’une liste de dist., spécifiez le nombre maximal d’utilisateurs à ajouter dans chaque liste de distribution.
+4.  Dans nombre maximal de membres dans une liste dist., spécifiez le nombre maximal d’utilisateurs à ajouter dans chaque liste de distribution.
 
 <div>
 
 ## <a name="create-distribution-lists-button"></a>Bouton créer des listes de distribution
 
-Lorsque vous cliquez sur le bouton créer des listes de distribution, l’outil interroge les services de domaine Active Directory pour voir si les listes de distribution correspondant au préfixe et aux numéros existent déjà. L’outil crée uniquement ceux qui n’existent pas déjà. Lors de l’ajout de membres à ces listes de distribution nouvellement créées, les utilisateurs sont sélectionnés dans la plage spécifiée dans l’onglet création d’utilisateurs.
+Lorsque vous cliquez sur le bouton créer des listes de distribution, l’outil interroge les services de domaine Active Directory pour déterminer si les listes de distribution correspondant au préfixe et aux numéros existent déjà. L’outil crée uniquement ceux qui n’existent pas encore. Lorsque vous ajoutez des membres à ces listes de distribution nouvellement créées, les utilisateurs sont sélectionnés dans la plage spécifiée dans l’onglet création d’utilisateur.
 
 </div>
 
@@ -223,13 +223,13 @@ Lorsque vous cliquez sur le bouton créer des listes de distribution, l’outil 
 
 <div>
 
-## <a name="location-info-service-config-tab"></a>Onglet Configuration du service informations de géolocalisation
+## <a name="location-info-service-config-tab"></a>Onglet Configuration du service informations d’emplacement
 
-L’une des fonctionnalités de l’outil de stress et de performance de Lync Server 2013 consiste à générer des fichiers de configuration factices pour le service d’information d’emplacement. En règle générale, le service des informations d’emplacement n’a pas d’impact important sur les performances sur les serveurs.
+L’une des fonctionnalités de l’outil stress and performance de Lync Server 2013 est de générer des fichiers de configuration factices pour le service d’informations d’emplacement. En règle générale, le service informations d’emplacement n’a pas d’impact significatif sur les performances des serveurs.
 
-![Onglet Configuration du service informations de géolocalisation.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Onglet Configuration du service informations de géolocalisation.")
+![Onglet Configuration du service informations d’emplacement.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Onglet Configuration du service informations d’emplacement.")
 
-Si vous choisissez de tester cette fonctionnalité, vous pouvez renseigner les valeurs mentionnées dans le formulaire, puis cliquer sur le bouton générer les fichiers de configuration de LIS. Il génère des fichiers CSV nommés LIS\_subnet. csv, lis\_switchs. csv,\_lis ports. csv et lis\_WAP. csv. Vous pouvez ensuite importer ces fichiers CSV dans la base de données LIS à l’aide de l’applet de cmdlet **Set-CsLisSubnet** , de l’applet de applet Set- **CsLisSwitch** , de l’applet de passe **Set-CsLisPort** et de l’applet **de passe Set-CsWirelessAccessPoint** , respectivement.
+Si vous choisissez de tester cette fonctionnalité, vous pouvez renseigner les valeurs mentionnées dans le formulaire, puis cliquer sur le bouton générer des fichiers de configuration LIS. Il génère des fichiers CSV appelés lis\_subnet. csv, lis\_switches. csv,\_lis ports. csv et lis\_WAP. csv. Vous pouvez ensuite importer ces fichiers CSV dans la base de données LIS à l’aide de la cmdlet **Set-CsLisSubnet** , de l’applet de commande Set **-CsLisSwitch** , de l’applet de commande **Set-CsLisPort** et de l’applet de commande **Set-CsWirelessAccessPoint** .
 
 </div>
 

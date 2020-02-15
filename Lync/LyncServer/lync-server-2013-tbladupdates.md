@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblADUpdates'
+title: 'Lync Server 2013 : tblADUpdates'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb4b5b73fb74c2337eeaa6b065396253a2cb0be4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e75c8079b4093290846321340b21248b9f8882ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731514"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41731514"
 
 _**Dernière modification de la rubrique :** 2012-09-12_
 
-tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes ultérieures de synchronisation Active Directory.
+tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les dernières étapes de synchronisation Active Directory.
 
-### <a name="columns"></a>Celles
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,38 +57,38 @@ tblADUpdates contient les modifications des services de domaine Active Directory
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID, pas null</p></td>
-<td><p>GUID principal de l’objet qui a changé.</p></td>
+<td><p>GUID, non null</p></td>
+<td><p>GUID de principal de l’objet qui a changé.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384), pas null</p></td>
+<td><p>nvarchar (384), non null</p></td>
 <td><p>Nom unique de l’objet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
-<td><p>bit, pas null</p></td>
-<td><p>Vrai si au moins un attribut de l’objet a changé.</p></td>
+<td><p>bit, non null</p></td>
+<td><p>True si au moins un attribut de l’objet a changé.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>bit, pas null</p></td>
+<td><p>bit, non null</p></td>
 <td><p>True si l’appartenance a changé.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>bit, pas null</p></td>
-<td><p>Non utilisé.</p></td>
+<td><p>bit, non null</p></td>
+<td><p>Inutilisé.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit, pas null</p></td>
+<td><p>bit, non null</p></td>
 <td><p>True si l’objet a été supprimé.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lastUpdated</p></td>
-<td><p>DATEHEURE, pas null</p></td>
-<td><p>Horodatage de la date d’insertion de la ligne.</p></td>
+<td><p>datetime, non null</p></td>
+<td><p>Horodatage de l’insertion de la ligne.</p></td>
 </tr>
 </tbody>
 </table>

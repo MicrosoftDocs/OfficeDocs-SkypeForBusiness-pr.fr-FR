@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table !Phones'
+title: 'Lync Server 2013 : table des téléphones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Table !Phones dans Lync Server 2013
+# <a name="phones-table-in-lync-server-2013"></a>Table téléphones dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41755184"
 
 _**Dernière modification de la rubrique :** 2012-08-20_
 
-La table Telephones est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur un numéro de téléphone impliqué dans les appels VoIP qui contiennent des enregistrements dans la base de données.
+La table téléphones est une table de prise en charge. Chaque enregistrement de la table stocke des informations sur un numéro de téléphone impliqué dans les appels VoIP qui ont des enregistrements dans la base de données.
 
 
 <table>
@@ -51,7 +51,7 @@ La table Telephones est une table de prise en charge. Chaque enregistrement de l
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -59,7 +59,7 @@ La table Telephones est une table de prise en charge. Chaque enregistrement de l
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Numéro unique identifiant ce téléphone.</p></td>
 </tr>
 <tr class="even">
@@ -70,10 +70,10 @@ La table Telephones est une table de prise en charge. Chaque enregistrement de l
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>Valeur</p></td>
+<td><p>dateTime</p></td>
 <td></td>
-<td><p>Horodatage (pour une utilisation interne uniquement).</p>
-<p>Ce champ a été présenté dans Microsoft Lync Server 2013.</p></td>
+<td><p>Horodatage (réservé à un usage interne).</p>
+<p>Ce champ a été introduit dans Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>

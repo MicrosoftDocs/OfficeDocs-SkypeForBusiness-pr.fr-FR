@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de messagerie instantanée et de présence'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de messagerie instantanée et de présence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5a2a9183aeceacc70937cc90b30a54287361af2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41758626"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Microsoft Lync Server 2013 ajoute les nouvelles fonctionnalités de messagerie instantanée et de présence suivantes pour enrichir l’interface Lync de vos utilisateurs.
+Microsoft Lync Server 2013 ajoute les nouvelles fonctionnalités de messagerie instantanée et de présence suivantes pour enrichir l’expérience Lync de vos utilisateurs.
 
   - Si votre organisation exécute également Exchange 2013, les utilisateurs peuvent tirer parti d’un magasin de contacts unifié. Les utilisateurs peuvent gérer leurs contacts dans Outlook 2013, Outlook Web App, ainsi que dans Lync 2013.
 
-  - Vos utilisateurs peuvent échanger des messages instantanés et des informations de présence avec des utilisateurs de fournisseurs de messagerie instantanée publics qui utilisent le protocole de messagerie et de présence extensible, comme Google Talk, en raison de la fonctionnalité d' **intégration de XMPP** de Lync Server 2013. D’intégration de XMPP intégrée aux serveurs frontaux et aux serveurs Edge, et vous pouvez l’activer et le configurer pour autoriser cette fonctionnalité.
+  - Vos utilisateurs peuvent échanger des messages instantanés et des informations de présence avec des utilisateurs de fournisseurs de messagerie instantanée publics qui utilisent le protocole de messagerie et de présence extensible, comme Google Talk, en raison de la fonctionnalité d' **intégration XMPP** de Lync Server 2013. Intégration de XMPP intégrée aux serveurs frontaux et aux serveurs Edge, et vous pouvez l’activer et la configurer pour autoriser cette fonctionnalité.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Activation des utilisateurs pour le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
+[Activer les utilisateurs pour le magasin de contacts unifié dans Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
 
 
-[Planification de la Fédération des protocoles de messagerie et de présence extensibles dans Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[Planification de la Fédération XMPP (extensible Messaging and Presence Protocol) dans Lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

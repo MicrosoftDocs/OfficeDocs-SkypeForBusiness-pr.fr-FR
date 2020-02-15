@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Exportation des cas de test de routage des communications vocales'
+title: 'Lync Server 2013 : exporter des cas de test de routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d014d9c2748a5e6479c0f86ebd32255f3361ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756218"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exportation des cas de test de routage des communications vocales dans Lync Server 2013
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exporter des cas de test de routage des communications vocales dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41756218"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Les scénarios de test vous permettent de tester les itinéraires vocaux au sein de votre organisation : vous définissez des éléments tels que le numéro à composer, le plan de numérotation et la politique vocale à utiliser, et Lync Server peut alors vérifier qu’il est possible d’utiliser le numéro fourni. correctement routés vers le réseau PSTN.
+Les scénarios de test vous permettent de tester les itinéraires des communications vocales dans votre organisation : vous définissez des éléments tels que le numéro à composer et le plan de numérotation et la stratégie de voix à utiliser, et Lync Server peut ensuite vérifier que, étant donné ces conditions, le numéro fourni peut correctement acheminés vers le réseau RTC.
 
-Les cas de test, qui peuvent être créés à l’aide du panneau de configuration de Lync Server, sont généralement enregistrés uniquement sur le serveur où le cas a été créé et exécuté à l’origine. Toutefois, ces cas de test peuvent être exportés sous forme de fichiers XML (avec l’extension. vtest), puis importés sur d’autres serveurs. Cela vous permet d’exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
+Les cas de test, qui peuvent être créés à l’aide du panneau de configuration Lync Server, sont généralement enregistrés uniquement sur le serveur où le cas a été initialement créé et exécuté. Cependant, il est possible d’exporter ces cas de test sous forme de fichiers XML (avec l’extension .vtest) et de les importer sur d’autres serveurs. Vous pouvez ainsi exécuter les mêmes tests sur différents ordinateurs situés à différents endroits de votre topologie.
 
 <div>
 
-## <a name="to-export-a-voice-routing-test-case"></a>Pour exporter un cas de test de routage vocal
+## <a name="to-export-a-voice-routing-test-case"></a>Pour exporter un cas de test de routage des communications vocales
 
-1.  Dans le panneau de configuration de Lync Server, cliquez sur **routage des communications vocales** , puis cliquez sur **tester le routage vocal**.
+1.  Dans le panneau de configuration Lync Server, cliquez sur **routage** des communications vocales, puis sur **tester le routage des communications vocales**.
 
-2.  Dans l’onglet **tester le routage vocal** , sélectionnez le cas de test (ou les cas de test) à exporter. Pour sélectionner plusieurs cas de test, cliquez sur la première case à exporter, puis maintenez la touche CTRL enfoncée et sélectionnez les cas supplémentaires à exporter.
+2.  Sous l’onglet **Tester le routage des communications vocales**, sélectionnez le cas de test (ou les cas de test) à exporter. Pour sélectionner plusieurs cas de test, cliquez sur le premier cas à exporter, puis maintenez la touche Ctrl enfoncée et sélectionnez les cas supplémentaires à exporter.
 
-3.  Cliquez sur **action**, puis sur **Exporter les cas de test**.
+3.  Cliquez sur **Action**, puis sur **Exporter des cas de test**.
 
-4.  Dans la boîte de dialogue **Enregistrer sous** , sélectionnez un dossier pour stocker les cas de test exportés et tapez un nom pour le fichier XML obtenu dans la zone **nom de fichier** . Notez que si vous exportez plusieurs cas de tests, tous ces cas de test seront enregistrés dans un fichier XML unique.
+4.  Dans la boîte de dialogue **Enregistrer sous** , sélectionnez un dossier pour stocker les cas de test exportés et tapez un nom pour le fichier XML résultant dans la zone **nom de fichier** . Notez que si vous exportez plusieurs cas de test, tous ces cas de test seront enregistrés dans un seul fichier XML.
 
 5.  Pour enregistrer les cas de test, cliquez sur **Enregistrer**.
 
@@ -62,7 +62,7 @@ Les cas de test, qui peuvent être créés à l’aide du panneau de configurati
 ## <a name="see-also"></a>Voir aussi
 
 
-[Importation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
+[Importer des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
   
 
 </div>

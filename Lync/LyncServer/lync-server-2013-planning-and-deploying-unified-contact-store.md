@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : planification et déploiement du magasin de contacts unifié'
+title: 'Lync Server 2013 : planification et déploiement d’un magasin de contacts unifié'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Planification et déploiement du magasin de contacts unifié dans Lync Server 2013
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Planification et déploiement d’un magasin de contacts unifié dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41725614"
 
 _**Dernière modification de la rubrique :** 2012-06-14_
 
-Le magasin de contacts unifié est une fonctionnalité qui offre une interface de contact homogène pour les produits Microsoft Office. Cette fonctionnalité permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013 de sorte que les informations soient disponibles dans le monde entier via Lync, Exchange, Outlook et Outlook Web Access.
+Le magasin de contacts unifié est une fonctionnalité offrant une expérience de contact cohérente entre les produits Microsoft Office. Cette fonctionnalité permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013 afin que les informations soient disponibles globalement dans Lync, Exchange, Outlook et Outlook Web Access.
 
 <div>
 

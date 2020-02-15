@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : ConferenceJoinTimeThresholds'
+title: 'Lync Server 2013 : table ConferenceJoinTimeThresholds'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 280202a83828757c3caca20c21795453ad4f133f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,19 +37,19 @@ ms.locfileid: "41740054"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table ConferenceJoinTimeThresholds contient les limites de classification utilisées par le rapport de synthèse des heures de participation à la Conférence. Le rapport Résumé de l’heure de la Conférence résume le temps nécessaire pour que les utilisateurs puissent rejoindre une conférence ; ces valeurs d’heure sont communiquées tant en moyenne qu’à l’une des catégories suivantes :
+La table ConferenceJoinTimeThresholds contient les limites de classification utilisées par le rapport de synthèse du temps de connexion à la conférence. Ce rapport récapitule le temps nécessaire aux utilisateurs pour se joindre à une conférence. Ces valeurs de temps représentent à la fois une moyenne et l’une des catégories suivantes :
 
-  - Moins de 2 secondes.
+  - Moins de 2 secondes.
 
-  - Entre 2 secondes et 5 secondes.
+  - Entre 2 et 5 secondes.
 
-  - Entre 5 et 10 secondes.
+  - Entre 5 et 10 secondes.
 
-  - Plus de 10 secondes.
+  - Plus de 10 secondes.
 
-La table ConferenceJoinTimeThresholds contient les valeurs de classification 2 secondes, 5 secondes et 10 secondes.
+La table ConferenceJoinTimeThresholds contient les valeurs de classification 2 secondes, 5 secondes et 10 secondes.
 
-Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -63,7 +63,7 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
@@ -71,7 +71,7 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="odd">
 <td><p><strong>ThresholdId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primaire</p></td>
 <td><p>Identificateur unique de la classification.</p></td>
 </tr>
 <tr class="even">
@@ -80,9 +80,9 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <td></td>
 <td><p>Limite supérieure de la classification. Les valeurs autorisées sont les suivantes :</p>
 <ol>
-<li><p>deuxième</p></li>
-<li><p>5</p></li>
-<li><p>0,10</p></li>
+<li><p>2 </p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 </tbody>

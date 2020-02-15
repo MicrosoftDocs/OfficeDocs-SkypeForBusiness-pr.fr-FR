@@ -12,20 +12,20 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 779929d270fa4ae2f8eec59a954c2273ff61b44f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Configuration de la prise en charge de la découverte automatique dans Lync Server 2013
+# <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Configuration de la prise en charge du service de découverte automatique dans Lync Server 2013
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41734805"
 
 _**Dernière modification de la rubrique :** 2013-01-21_
 
-Le **service de découverte automatique** des services Web de Lync Server est d’abord apparu dans la mise à jour cumulative de lync Server 2010:2011 novembre. Cette mise à jour a été accompagnée de la version initiale des clients mobiles Lync. Le service de découverte automatique a exposé les services de mobilité, connus sous le nom de service MCX.
+Le **service de découverte automatique** des services Web Lync Server est d’abord apparu dans la mise à jour cumulative lync Server 2010 : novembre 2011. Cette mise à jour est accompagnée de la version initiale des clients mobiles Lync. Le service de découverte automatique exposait les services de mobilité, appelé service MCX.
 
-Le service de découverte automatique joue le rôle d’emplacement unique pour tous les clients afin de demander des informations sur les services et les fonctionnalités disponibles, et sur la manière de contacter les bureaux de vente, soit par un nom de domaine complet, soit par une référence de localisateur de ressources Web uniformes. La fonction de découverte automatique expose plusieurs fonctionnalités et chaque client effectue des requêtes en fonction des fonctionnalités que le client peut utiliser. Par exemple, un client de bureau Lync 2013 utilise autodiscvoer pour déterminer les services Web externes, mais n’utilise pas les services de mobilité (MCX). Pour pouvoir définir et permettre à vos clients d’utiliser les fonctionnalités qui leur sont disponibles, les scénarios permettant à un client de rechercher et d’utiliser efficacement des entrées de découverte automatique doivent être définis. Pour utiliser autodoscover, votre déploiement exige qu’un proxy inverse publie les services Web de Lync Server, que les enregistrements DNS sont configurés pour résoudre les requêtes DNS pour le service de découverte automatique de Lync Server et les services Web Lync Server et ces services de certificats sont configurés correctement pour votre scénario spécifique.
+Le service de découverte automatique agit en tant qu’emplacement unique pour tous les clients afin de demander des informations sur les services et les fonctionnalités disponibles, ainsi que sur la façon de contacter les services, soit par un nom de domaine complet, soit par une référence Web Uniform Resource Locator. La découverte automatique expose un certain nombre de fonctionnalités, et chaque client effectue des demandes en fonction des fonctionnalités que le client peut utiliser. Par exemple, un client de bureau Lync 2013 utilisera autodiscvoer pour déterminer les services Web externes, mais n’utilisera pas les services de mobilité (MCX). Pour définir correctement et permettre à vos clients d’utiliser les fonctionnalités disponibles, les scénarios qui permettent à un client de trouver et d’utiliser efficacement des entrées de découverte automatique doivent être définis. Pour utiliser autodoscover, votre déploiement nécessite qu’un proxy inverse publie les services Web Lync Server, que les enregistrements DNS soient configurés pour résoudre les requêtes DNS pour le service de découverte automatique Lync Server et les services Web Lync Server, et que les services de certificats sont correctement configurés pour votre scénario spécifique.
 
 <div>
 
 
 > [!TIP]  
-> Pour plus d’informations techniques sur les éléments de la requête/réponse de découverte automatique, voir <A href="lync-server-2013-understanding-autodiscover.md">comprendre la découverte automatique dans Lync Server 2013</A>.
+> Pour obtenir des informations techniques sur les éléments inclus dans la demande/réponse de découverte automatique, voir <A href="lync-server-2013-understanding-autodiscover.md">Understanding Autodiscover dans Lync Server 2013</A>.
 
 
 
 </div>
 
-Les informations et les tableaux suivants définissent, par scénario, les configurations (le cas échéant) que vous devez implémenter afin de fournir une utilisation complète et efficace du service de découverte automatique. Les informations contenues dans les rubriques suivantes sont spécifiques à Microsoft Lync Server 2013. Pour plus d’informations sur la planification de la mobilité pour Lync Server 2010, voir [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Pour déployer Mobility pour Lync Server 2010, voir[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+Les informations et les tableaux suivants définissent, par scénario, les configurations (le cas échéant) que vous devez implémenter pour fournir l’utilisation complète et efficace du service de découverte automatique. Les informations contenues dans les rubriques suivantes sont propres à Microsoft Lync Server 2013. Si vous recherchez des instructions sur la planification de la mobilité pour Lync Server 2010, reportez-vous à la rubrique [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Pour déployer la mobilité pour Lync Server 2010, reportez-vous à[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : supprimer les fichiers de mise à jour d’appareils non associés à un appareil'
+title: 'Lync Server 2013 : suppression des fichiers de mise à jour de périphérique non associés à un appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724244"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Supprimer les fichiers de mise à jour des appareils non associés à un appareil dans Lync Server 2013
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Supprimer les fichiers de mise à jour des périphériques qui ne sont pas associés à un périphérique dans Lync Server 2013
 
 </div>
 
@@ -37,18 +37,18 @@ ms.locfileid: "41724244"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Chaque fois que de nouvelles mises à jour de périphériques sont téléchargées sur le système, une règle de mise à jour d’appareil correspondante est créée. Par défaut, ces nouvelles règles de mise à jour de l’appareil sont affectées à l’État en attente. Cela signifie que les règles peuvent être téléchargées et installées sur les appareils de test, mais pas sur les appareils de production, ce qui vous permet de tester les mises à jour avant de les rendre accessibles aux utilisateurs. D’après les tests, vous acceptez et déployez ou rejetez et supprimez la mise à jour. Lorsque vous refusez une mise à jour, la mise à jour de l’appareil est désassociée de sa règle de mise à jour de l’appareil.
+Dès que de nouvelles mises à jour des périphériques sont téléchargées sur le système, une règle de mise correspondante est créée. Par défaut, ces nouvelles règles de mise à jour des appareils sont affectées à l’État en attente. Cela signifie que les règles peuvent être téléchargées et installées sur des périphériques de test, mais pas sur des appareils de production, ce qui vous permet de tester les mises à jour avant de les rendre accessibles aux utilisateurs. En fonction des tests, vous acceptez et déployez ou rejetez et supprimez la mise à jour. Lorsque vous rejetez une mise à jour, la mise à jour de l’appareil n’est pas associée à sa règle de mise à jour d’appareil.
 
 <div>
 
 
-Les fichiers de mise à jour d’appareil qui ne sont plus associés à un appareil peuvent être supprimés à l’aide de Windows PowerShell et de l’applet **de cmdlet Clear-CsDeviceUpdateFile** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
+Les fichiers de mise à jour de périphérique qui ne sont plus associés à un périphérique peuvent être supprimés à l’aide de Windows PowerShell et de la cmdlet **Clear-CsDeviceUpdateFile** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 
 
@@ -57,13 +57,13 @@ Les fichiers de mise à jour d’appareil qui ne sont plus associés à un appar
 <div>
 
 
-  - Par exemple, la commande suivante supprime toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com qui ne sont plus associées à un appareil :
+  - Par exemple, la commande suivante supprime toutes les règles de mise à jour des périphériques sur le serveur Web atl-cs-001.litwareinc.com qui ne sont plus associées à un périphérique :
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de connexion [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
 
 </div>
 

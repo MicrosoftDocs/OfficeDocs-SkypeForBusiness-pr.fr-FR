@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration de l’authentification dans le panneau de configuration de Lync Server'
+title: 'Lync Server 2013 : configuration de l’authentification dans le panneau de configuration Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Configuration de l’authentification dans le panneau de configuration de Lync Server 2013
+# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Configuration de l’authentification dans le panneau de configuration Lync Server 2013
 
 </div>
 
@@ -37,23 +37,23 @@ ms.locfileid: "41734839"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Les rubriques de cette section fournissent des procédures pas à pas pour les tâches que vous pouvez effectuer à l’aide du groupe de **sécurité** dans le panneau de configuration de Lync Server 2013.
+Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide du groupe de **sécurité** dans le panneau de configuration Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Créer des paramètres de configuration du Bureau d’enregistrement dans Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
+  - [Créer des paramètres de configuration du serveur d’inscriptions dans Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [Modifier les paramètres de configuration de bureau d’enregistrement existants dans Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [Modifier les paramètres de configuration du serveur d’inscriptions existants dans Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [Supprimer les paramètres de configuration du Bureau d’enregistrement existants dans Lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [Supprimer les paramètres de configuration du serveur d’inscriptions existants dans Lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
   - [Créer des paramètres de configuration de service Web dans Lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
 
   - [Modifier les paramètres de configuration d’un service Web existant dans Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [Supprimer les paramètres de configuration d’un service Web existant dans Lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [Supprimer les paramètres de configuration de service Web existants dans Lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 

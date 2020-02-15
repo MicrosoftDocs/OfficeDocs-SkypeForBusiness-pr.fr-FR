@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : prérequis pour fédérer avec un client Lync Online'
+title: 'Lync Server 2013 : conditions préalables pour la Fédération avec un client Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 337189476cf7c2767b359086014944715afbd623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71ad28107f31bf2593952ae8356ac2c9af2b4bc6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747264"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41747264"
 
 _**Dernière modification de la rubrique :** 2012-10-19_
 
-Pour fédérer avec un client Lync Online 2010, vous devez déjà avoir effectué le déploiement initial et la configuration de Lync Server 2013 au sein de votre organisation. Il s’agit notamment de ce qui suit :
+Pour fédérer avec un client Lync Online 2010, vous devez avoir déjà effectué le déploiement et la configuration initiaux de Lync Server 2013 au sein de votre organisation. Les voici :
 
-  - Déploiement d’au moins un serveur Standard Edition Server ou un pool frontal Enterprise Edition au sein de votre organisation. Pour plus d’informations sur le déploiement de serveurs internes, voir [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
+  - Le déploiement d’au moins un serveur Standard Edition Server ou d’un pool frontal Enterprise Edition dans votre organisation. Pour plus d’informations sur le déploiement des serveurs internes, voir [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.
 
-  - Activation de comptes d’utilisateurs internes pour Lync Server 2013. Pour plus d’informations, reportez-vous à désactiver ou réactiver le [compte d’utilisateur Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) dans la documentation de déploiement ou la documentation des opérations.
+  - Activation des comptes d’utilisateur internes pour Lync Server 2013. Pour plus d’informations, reportez-vous à la rubrique désactiver ou réactiver le [compte d’utilisateur pour Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) dans la documentation de déploiement ou la documentation des opérations.
 
-  - Déploiement d’au moins un serveur Edge et des autres composants nécessaires à la prise en charge de l’accès des utilisateurs externes. Pour plus d’informations, reportez-vous [à gestion de la Fédération et accès externe à Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) dans la documentation de déploiement.
+  - Le déploiement d’au moins un serveur Edge et des autres composants requis pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, consultez la rubrique gestion de la [Fédération et de l’accès externe à Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) dans la documentation de déploiement.
 
-  - Activation de la prise en charge de la Fédération au sein de votre organisation et configuration de la méthode appropriée pour contrôler l’accès par des domaines fédérés. Pour plus d’informations, reportez-vous à [activation ou désactivation de l’accès des utilisateurs distants dans Lync server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) et à la [gestion des fournisseurs fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) dans la documentation sur les opérations.
+  - Activation de la prise en charge de la Fédération au sein de votre organisation et configuration de la méthode appropriée pour contrôler l’accès par les domaines fédérés. Pour plus d’informations, reportez-vous à la rubrique [activation ou désactivation de l’accès des utilisateurs distants dans Lync server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) et [gestion des fournisseurs fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) dans la documentation des opérations.
 
-  - Activation de l’accès des utilisateurs externes pour les utilisateurs de votre organisation. Pour plus d’informations, voir [affecter une stratégie d’accès d’utilisateur externe à un utilisateur compatible Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) et dans la documentation relative au déploiement et aux opérations.
+  - Activation de l’accès des utilisateurs externes pour les utilisateurs de votre organisation. Pour plus d’informations, reportez-vous à la rubrique [attribuer une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) et dans la documentation sur le déploiement ou les opérations.
 
 </div>
 

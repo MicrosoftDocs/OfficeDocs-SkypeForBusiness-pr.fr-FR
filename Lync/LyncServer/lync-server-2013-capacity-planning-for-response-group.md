@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Planification de capacité de Response Group'
+title: 'Lync Server 2013 : planification de la capacité pour Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planification de capacité de Response Group dans Lync Server 2013
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planification de la capacité pour Response Group dans Lync Server 2013
 
 </div>
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
-Le tableau suivant décrit le modèle utilisateur de Response Group que vous pouvez utiliser comme base pour les exigences de planification de capacité.
+Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez utiliser comme base pour les exigences de planification de capacité.
 
 <div>
 
@@ -71,16 +71,16 @@ Le tableau suivant décrit le modèle utilisateur de Response Group que vous pou
 </colgroup>
 <thead>
 <tr class="header">
-<th>Mesure</th>
-<th>Par pool d’éditions d’entreprise (avec 8 serveurs frontaux)</th>
+<th>Liées</th>
+<th>Par pool Enterprise Edition (avec 8 serveurs frontaux)</th>
 <th>Par serveur Standard Edition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Appels entrants par seconde</p></td>
-<td><p>Seiz</p></td>
-<td><p>deuxième</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale</p></td>
@@ -90,12 +90,12 @@ Le tableau suivant décrit le modèle utilisateur de Response Group que vous pou
 <tr class="odd">
 <td><p>Sessions anonymes simultanées (sans messagerie instantanée)</p></td>
 <td><p>224</p></td>
-<td><p>12,70</p></td>
+<td><p>vingt</p></td>
 </tr>
 <tr class="even">
 <td><p>Sessions anonymes simultanées (avec messagerie instantanée)</p></td>
 <td><p>64</p></td>
-<td><p>version8</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Agents actifs (formels et informels)</p></td>

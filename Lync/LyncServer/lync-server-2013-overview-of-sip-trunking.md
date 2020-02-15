@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Vue d’ensemble d’une jonction SIP'
+title: 'Lync Server 2013 : vue d’ensemble de la jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fbf29b02af831f82050e9a032a35f0fa57c1eb1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755468"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Vue d’ensemble d’une jonction SIP dans Lync Server 2013
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Vue d’ensemble de la jonction SIP dans Lync Server 2013
 
 </div>
 
@@ -37,17 +37,17 @@ ms.locfileid: "41755468"
 
 _**Dernière modification de la rubrique :** 2012-10-05_
 
-Le déploiement d’une jonction SIP peut contribuer grandement à simplifier les télécommunications de votre organisation et à préparer celle-ci en vue des dernières améliorations apportées aux communications en temps réel. L’un des principaux avantages qu’offre le déploiement d’une jonction SIP est que vous pouvez consolider les connexions de votre organisation vers le réseau téléphonique commuté (RTC) sur le site central, contrairement à la jonction TDM, qui nécessite une jonction distincte pour chaque site de succursale vers le site central.
+Le déploiement d’une jonction SIP peut contribuer grandement à simplifier les télécommunications de votre organisation et à préparer celle-ci en vue des dernières améliorations apportées aux communications en temps réel. L’un des principaux avantages qu’offre le déploiement d’une jonction SIP est que vous pouvez consolider les connexions de votre organisation vers le réseau téléphonique commuté (PSTN) sur le site central, contrairement à la jonction TDM, qui nécessite une jonction séparée pour chaque site de succursale vers le site central.
 
 <div>
 
-## <a name="sip-trunking-in-lync-server"></a>Trunking SIP dans Lync Server
+## <a name="sip-trunking-in-lync-server"></a>Jonction SIP dans Lync Server
 
-Les fonctionnalités de trunking SIP de Lync Server 2013 permettent ce qui suit :
+Les fonctionnalités de jonction SIP de Lync Server 2013 permettent les opérations suivantes :
 
-  - Un utilisateur d’entreprise, qu’il se trouve à l’intérieur ou à l’extérieur du pare-feu d’entreprise, peut effectuer un appel local ou un appel longue distance qui est fourni par un numéro compatible E. 164 qui est arrêté sur le RTC en tant que service du fournisseur de services correspondant.
+  - Un utilisateur d’entreprise, qu’il se trouve à l’intérieur ou à l’extérieur des limites du pare-feu de l’entreprise, peut passer un appel local ou un appel longue distance au format E.164 qui aboutit sur le réseau PSTN en tant que service du fournisseur de service correspondant.
 
-  - Tout abonné PSTN peut contacter un utilisateur d’entreprise à l’intérieur ou à l’extérieur du pare-feu de l’entreprise en composant un numéro de numérotation directe à l’intérieur associé à l’utilisateur d’entreprise.
+  - Chaque abonné PSTN peut contacter un utilisateur d’entreprise à l’intérieur ou à l’extérieur des limites du pare-feu en composant un numéro SDA (sélection directe à l’arrivée, Direct Inward Dialing (DID)) associé à cet utilisateur.
 
 </div>
 
@@ -65,9 +65,9 @@ Les économies associées à la jonction SIP peuvent être substantielles :
 
 <div>
 
-## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>Jonction SIP comparée à l’hébergement d’une passerelle RTC ou d’un PBX IP
+## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>Jonction SIP comparée à l’hébergement d’une passerelle PSTN ou d’un PBX IP
 
-Étant donné que les jonctions SIP se connectent directement à votre fournisseur de service, vous pouvez éliminer les passerelles RTC et éviter le coût et la complexité de leur gestion. L’utilisation d’une jonction SIP peut se traduire par des économies substantielles, car les tâches de maintenance et d’administration sont réduites.
+Étant donné que les jonctions SIP se connectent directement à votre fournisseur de service, vous pouvez éliminer les passerelles PSTN et éviter le coût et la complexité de leur gestion. L’utilisation d’une jonction SIP peut se traduire par des économies substantielles, car les tâches de maintenance et d’administration sont réduites.
 
 </div>
 
@@ -77,9 +77,9 @@ Les économies associées à la jonction SIP peuvent être substantielles :
 
 ## <a name="expanded-voip-services"></a>Services VoIP étendus
 
-Bénéficier de fonctionnalités vocales est souvent la principale motivation pour déployer une jonction SIP, mais la prise en charge de fonctionnalités vocales n’est que la première étape. Le trunking SIP vous permet d’étendre les fonctionnalités VoIP et d’activer Lync Server 2013 pour offrir un ensemble de services plus riche. Par exemple :
+Bénéficier de fonctionnalités vocales est souvent la principale motivation pour déployer une jonction SIP, mais la prise en charge de fonctionnalités vocales n’est que la première étape. Avec la jonction SIP, vous pouvez étendre les fonctionnalités VoIP et activer Lync Server 2013 pour offrir un ensemble de services plus riche. Par exemple :
 
-  - La détection de présence améliorée pour les appareils qui n’exécutent pas Lync Server 2013 peut offrir une meilleure intégration aux téléphones mobiles, ce qui vous permet de voir quand un utilisateur se trouve sur un téléphone mobile.
+  - La détection de présence améliorée pour les appareils qui n’exécutent pas Lync Server 2013 peut offrir une meilleure intégration avec les téléphones mobiles, ce qui vous permet de savoir quand un utilisateur est sur un téléphone mobile.
 
   - Le service d’appels d’urgence E9-1-1 permet aux services de secours qui répondent aux appels d’urgence de déterminer l’emplacement de la personne qui appelle à partir de son numéro de téléphone.
 

@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables requises de configuration et de sécurité pour Voix Entreprise
+title: Conditions préalables de configuration et de sécurité pour voix entreprise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4fb37047ec57d281e47d1c03c2f52ed455dcdf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Conditions préalables à la sécurité et à la configuration pour Enterprise Voice dans Lync Server 2013
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Conditions préalables de configuration et de sécurité pour voix entreprise dans Lync Server 2013
 
 </div>
 
@@ -37,40 +37,40 @@ ms.locfileid: "41732572"
 
 _**Dernière modification de la rubrique :** 2012-10-18_
 
-Vérifiez que votre infrastructure répond à la configuration requise en matière de sécurité, de configuration utilisateur et de matériel spécifique.
+Vérifiez que votre infrastructure est conforme aux conditions préalables suivantes en matière de sécurité, de configuration utilisateur et de matériel pour des scénarios spécifiques.
 
 <div>
 
-## <a name="administrative-rights-and-certificate-infrastructure"></a>Droits d’administration et infrastructure de certification
+## <a name="administrative-rights-and-certificate-infrastructure"></a>Droits d’administration et infrastructure de certificats
 
-Assurez-vous que votre environnement est configuré avec les groupes d’utilisateurs administratifs et l’infrastructure de certification suivants à utiliser au cours du processus de déploiement voix entreprise.
+Assurez-vous que votre environnement est configuré avec les groupes d’administrateurs et l’infrastructure de certificats suivants à utiliser au cours du processus de déploiement de Voix Entreprise.
 
-  - Le déploiement d’Enterprise Voice par les administrateurs doit être membre du groupe RTCUniversalServerAdmins.
+  - Les administrateurs déployant Voix Entreprise doivent être membres du groupe RTCUniversalServerAdmins.
 
   - Les administrateurs doivent disposer des droits appropriés pour effectuer les tâches de configuration :
     
-      - **CsVoiceAdministrator :** ce rôle permet à l’administrateur d’effectuer des tâches de configuration vocale, de gérer les applications vocales et d’affecter des stratégies vocales aux utilisateurs finaux.
+      - **CsVoiceAdministrator :** Ce rôle permet à l’administrateur d’effectuer des tâches de configuration vocale, de gérer les applications vocales et d’affecter des stratégies vocales aux utilisateurs finaux.
     
-      - **CsUserAdministrator :** ce rôle permet à l’administrateur de gérer les propriétés des utilisateurs, par exemple, pour activer Voix Entreprise pour un utilisateur. Ce rôle permet également à l’administrateur d’affecter des stratégies par utilisateur, à l’exception de la stratégie d’archivage, et de gérer les téléphones de partie commune et les périphériques analogiques.
+      - **CsUserAdministrator :** Ce rôle permet à l’administrateur de gérer les propriétés des utilisateurs, par exemple, pour activer Voix Entreprise pour un utilisateur. Ce rôle permet également à l’administrateur d’affecter des stratégies par utilisateur, à l’exception de la stratégie d’archivage, et de gérer les téléphones de partie commune et les périphériques analogues.
     
-      - **CsAdministrator :** ce rôle permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
+      - **CsAdministrator :** Ce rôle permet à l’utilisateur d’effectuer toutes les tâches des rôles CsVoiceAdministrator et CsUserAdministrator.
     
     <div>
     
 
     > [!NOTE]
-    > La délégation permet à un plus grand nombre d’administrateurs de participer à votre déploiement Lync Server sans qu’il soit nécessaire d’ouvrir un accès inutile aux ressources.
+    > La délégation permet à un plus grand nombre d’administrateurs de participer à votre déploiement Lync Server sans avoir à ouvrir un accès inutile aux ressources.
 
     
     </div>
 
-  - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
+  - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée, à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     <div>
     
 
     > [!NOTE]
-    > Pour plus d’informations sur les exigences relatives aux certificats dans Lync Server, voir <A href="lync-server-2013-certificate-infrastructure-requirements.md">Configuration requise en matière d’infrastructure de certificat pour Lync Server 2013</A> dans la documentation de planification.
+    > Pour plus d’informations sur les certificats requis dans Lync Server, voir <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure Requirements for Lync Server 2013</A> dans la documentation de planification.
 
     
     </div>
@@ -81,15 +81,15 @@ Assurez-vous que votre environnement est configuré avec les groupes d’utilisa
 
 ## <a name="user-configuration"></a>Configuration utilisateur
 
-Si vous avez localisé le serveur de médiation avec chaque pool frontal ou serveur Standard Edition au cours du déploiement frontal, les paramètres utilisateur nécessaires à l’utilisation d’Enterprise Voice étaient configurés automatiquement lors de l’installation des fichiers pour ces rôles de serveur.
+Si vous avez colocalisé le serveur de médiation avec chaque pool frontal ou serveur Standard Edition pendant le déploiement frontal, les paramètres utilisateur nécessaires pour voix entreprise ont été configurés automatiquement lors de l’installation des fichiers pour ces rôles serveur.
 
-Si vous venez de déployer la charge de travail voix entreprise pour le moment, avant de commencer le processus de déploiement, spécifiez le numéro de téléphone principal de chaque utilisateur que vous envisagez d’activer pour voix entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principal doivent être normalisés (correctement mis en forme) et copiés sur les propriétés d' **URI de ligne** de chaque utilisateur à l’aide du panneau de configuration de Lync Server.
+Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principaux doivent être normalisés (correctement mis en forme) et copiés dans la propriété **URI de ligne** de chaque utilisateur à l’aide du panneau de configuration Lync Server.
 
 <div>
 
 
 > [!NOTE]
-> Pour obtenir des exemples de numéros de téléphone principaux requis pour le déploiement d’Enterprise Voice, voir les <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et les règles de normalisation dans la section Lync server 2013</A> des <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et des règles de normalisation dans Lync Server 2013</A> dans la documentation de planification.
+> Pour obtenir des exemples de numéros de téléphone principaux requis pour le déploiement de voix entreprise, voir la section <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et règles de normalisation dans la section Lync server 2013</A> des <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et des règles de normalisation dans Lync Server 2013</A> dans la documentation de planification.
 
 
 
@@ -99,13 +99,13 @@ Si vous venez de déployer la charge de travail voix entreprise pour le moment, 
 
 <div>
 
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installation de fichiers ou configuration de la connectivité PSTN
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installer les fichiers ou configurer la connectivité PSTN
 
-Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez utiliser le contenu suivant :
+Après avoir vérifié que les logiciels requis sont disponibles et que votre environnement répond aux conditions préalables pour le déploiement de Voix Entreprise, vous pouvez utiliser le contenu suivant pour :
 
-  - Installez le serveur de médiation, comme décrit dans [la rubrique installer les fichiers pour le serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mais uniquement si vous voulez déployer un serveur ou un pool de médiation autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement de l’application frontale ou du pool frontal.
+  - Installez le serveur de médiation, comme décrit dans [install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Standard Edition lorsqu’ils sont colocalisés.
 
-  - Vous pouvez aussi commencer à configurer des paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans la rubrique [Configuration des Trunks dans Lync Server 2013](lync-server-2013-configuring-trunks.md).
+  - Vous pouvez aussi commencer à configurer les paramètres pour acheminer les appels pour les utilisateurs de voix entreprise, comme décrit dans la rubrique [Configuring Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
 </div>
 

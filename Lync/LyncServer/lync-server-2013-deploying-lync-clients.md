@@ -12,16 +12,16 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d7f4497fb6842befba3f5facf5de023b94b4a76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 351fc1b62f0ef72cb3580f3c5d43dc8486799aec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41733597"
 
 _**Dernière modification de la rubrique :** 2012-10-03_
 
-Lync 2013 introduit une approche différente pour le déploiement du client. À partir de versions précédentes, Lync 2013 ne dispose plus de son propre programme d’installation. À la place, Lync est inclus avec le programme d’installation d’Office 2013. Pour déployer Lync 2013 auprès des utilisateurs, vous pouvez utiliser les méthodes d’installation d’Office 2013 et les outils de personnalisation.
+Lync 2013 présente une approche différente pour le déploiement de clients. Dans les versions antérieures, Lync 2013 ne dispose plus de son propre programme d’installation. Au lieu de cela, Lync est inclus dans le programme d’installation d’Office 2013. Pour déployer Lync 2013 auprès de vos utilisateurs, vous pouvez utiliser les méthodes d’installation et les outils de personnalisation d’Office 2013.
 
-  - Le programme d’installation d' **Office 2013** est un package d’installation basé sur Windows Installer, composé de plusieurs fichiers msi. Un package MSI de base indépendant de la langue est associé à un ou plusieurs packages spécifiques à la langue pour créer un produit complet. La configuration assemble les packages individuels et effectue des tâches de personnalisation et de maintenance pendant et après l’installation d’Office sur les ordinateurs des utilisateurs. Les rubriques de cette section expliquent comment utiliser et personnaliser le programme d’installation de Windows 2013 pour déployer Lync 2013.
+  - **Office 2013 Windows Installer** est un package d’installation basé sur Windows Installer qui se compose de plusieurs fichiers msi. Un package MSI principal indépendant de la langue s’accompagne d’un ou plusieurs packages spécifiques à la langue pour en faire un produit complet. Le programme d’installation assemble les packages individuels et effectue des tâches de personnalisation et de maintenance pendant et après l’installation d’Office sur les ordinateurs des utilisateurs. Les rubriques de cette section décrivent comment utiliser et personnaliser Office 2013 Windows Installer pour déployer Lync 2013.
 
-  - **Office 2013 démarrer** en un clic est un programme d’installation qui diffuse les fichiers d’installation d’Office à l’utilisateur à partir du portail Microsoft Office 365. Les administrateurs peuvent personnaliser l’installation à l’aide de l’outil Déploiement d’Office pour « Démarrer en un clic ». Comme Office 2013 démarrer en un clic est essentiellement utilisé dans l’environnement Microsoft Office 365, cette méthode d’installation n’est pas décrite en détail dans cette section. Des informations détaillées sur l’utilisation et la personnalisation de l’installation « démarrer en un clic » sont disponibles dans la documentation du kit de ressources Office 2013. Les administrateurs peuvent également télécharger le programme Office 2013 « démarrer en un clic » et les fichiers source de langue vers un emplacement local, ce qui est utile lorsque vous souhaitez réduire la demande sur le réseau ou empêcher les utilisateurs d’installer un logiciel à partir d’Internet en raison de exigences en matière de sécurité d’entreprise.
+  - **Office 2013 « démarrer en un clic »** est un programme d’installation qui diffuse les fichiers d’installation d’Office à l’utilisateur à partir du portail de Microsoft Office 365. Les administrateurs peuvent personnaliser l’installation à l’aide de l’outil Déploiement d’Office pour Office « Démarrer en un clic ». Étant donné que Office 2013 « démarrer en un clic » est principalement utilisé dans l’environnement Microsoft Office 365, cette méthode d’installation n’est pas décrite en détail dans cette section. Vous trouverez des informations détaillées sur l’utilisation et la personnalisation de l’installation d’Office « démarrer en un clic » dans la documentation du kit de ressources Office 2013. Les administrateurs peuvent également télécharger les fichiers de programme et de langue Office 2013 « démarrer en un clic » sur un emplacement local, ce qui est utile lorsque vous souhaitez réduire la demande sur le réseau ou empêcher les utilisateurs d’installer des logiciels à partir d’Internet en raison de exigences en matière de sécurité de l’entreprise.
 
-Les rubriques de cette section portent sur le déploiement de clients à l’aide du programme d’installation MSI d’Office 2013. Il doit s’agir de la documentation du kit de ressources Office 2013, qui décrit en détail la préparation de votre infrastructure, la personnalisation de l’installation et le déploiement d’Office 2013. Néanmoins, vous devez utiliser la documentation Office conjointement avec les rubriques de cette section, qui pointent sur des considérations de déploiement spécifiques à Lync 2013.
+Les rubriques de cette section traitent de la façon de déployer des clients à l’aide du programme d’installation basé sur MSI Office 2013. Votre référence principale doit être la documentation du kit de ressources Office 2013, qui décrit en détail comment préparer votre infrastructure, personnaliser le programme d’installation et déployer Office 2013. Toutefois, vous devez utiliser la documentation Office conjointement avec les rubriques de cette section, qui indiquent les considérations de déploiement spécifiques à Lync 2013.
 
 <div>
 
@@ -51,9 +51,9 @@ Les rubriques de cette section portent sur le déploiement de clients à l’aid
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Le complément réunion en ligne pour Lync 2013, qui prend en charge la gestion de la réunion à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Lync 2013.</P>
+> <P>Le complément de réunion en ligne pour Lync 2013, qui prend en charge la gestion des réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Lync 2013.</P>
 > <LI>
-> <P>Le programme d’installation d’Office 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 s’installe côte à côte avec d’autres clients Lync ou Office Communicator</P></LI></UL>
+> <P>Le programme d’installation d’Office 2013 ne désinstalle pas les versions précédentes de Lync ou d’Office Communicator. Le client Lync 2013 installe côte à côte avec d’autres clients Lync ou Office Communicator</P></LI></UL>
 
 
 
@@ -67,13 +67,13 @@ Les rubriques de cette section portent sur le déploiement de clients à l’aid
 
   - [Personnalisation du comportement de Lync et de l’interface utilisateur dans Lync Server 2013](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
 
-  - [Personnalisation du complément réunion en ligne dans Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md)
+  - [Personnalisation du complément de réunion en ligne dans Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md)
 
-  - [Configuration de la page de participation à une réunion dans Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [Configuration de la page de participation aux réunions dans Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
 
-  - [Configuration des versions clientes prises en charge dans Lync Server 2013](lync-server-2013-configuring-supported-client-versions.md)
+  - [Configuration des versions de client prises en charge dans Lync Server 2013](lync-server-2013-configuring-supported-client-versions.md)
 
-  - [Configuration du mode de confidentialité Enhanced presence dans Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)
+  - [Configuration du mode de confidentialité améliorée de la présence dans Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)
 
 </div>
 

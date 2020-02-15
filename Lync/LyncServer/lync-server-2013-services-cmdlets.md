@@ -1,5 +1,5 @@
 ---
-title: 'Cmdlets Lync Server 2013 : services'
+title: 'Applets de commande Lync Server 2013 : services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d71336440b4816942ca24782683f17c24e889b1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9c0fb2cff1bf77017c26a61f3181b5b018d0b5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="services-cmdlets-in-lync-server-2013"></a>Cmdlets services dans Lync Server 2013
+# <a name="services-cmdlets-in-lync-server-2013"></a>Applets de commande des services dans Lync Server 2013
 
 </div>
 
@@ -37,29 +37,29 @@ ms.locfileid: "41764822"
 
 _**Dernière modification de la rubrique :** 2012-06-20_
 
-Les applets de configuration de serveur et de rôle serveur fourni avec Microsoft Lync Server 2013 vous permettent de renvoyer des informations sur les différents composants installés dans le cadre de votre déploiement de Lync Server 2013. De plus, ces applets de commande permettent d’arrêter et de démarrer facilement vos services Lync Server.
+Les applets de commande des services et des rôles serveur fournis avec Microsoft Lync Server 2013 vous permettent de renvoyer des informations sur les différents composants qui ont été installés dans le cadre de votre déploiement Lync Server 2013. En outre, ces cmdlets facilitent l’arrêt et le démarrage de vos services Lync Server.
 
 <div>
 
-## <a name="services-cmdlets"></a>Cmdlets services
+## <a name="services-cmdlets"></a>Applets de commande de services
 
-La liste suivante répertorie les applets de commande qui concernent directement la gestion des services :
+La liste suivante indique les applets de commande qui sont directement associées à la gestion des services :
 
 **Services**
 
   - <span></span>  
-    [Get-CsService](https://technet.microsoft.com/en-us/library/Gg413038(v=OCS.15))
+    [Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398803(v=OCS.15))
+    [Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))
 
   - <span></span>  
-    [Démarrer-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398561(v=OCS.15))
+    [Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))
 
   - <span></span>  
-    [Stop-CsWindowsService](https://technet.microsoft.com/en-us/library/Gg398426(v=OCS.15))
+    [Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9eead17e9cd08267f941d80cb25460f4d456d896
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 958c67b1b10b25e44805d2582ffe2e9fab575568
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,25 +39,25 @@ _**Dernière modification de la rubrique :** 2014-05-01_
 
 <div>
 
-## <a name="qoe-summarytrend-reports"></a>Rapport de synthèse
+## <a name="qoe-summarytrend-reports"></a>Rapports de tendance/Résumé QoE
 
-Les rapports de synthèse/tendances QoE permettent de rechercher les heures d’utilisation du PIC et d’examiner la qualité du média pendant ces périodes pour vous assurer que les ressources réseau de votre organisation sont suffisantes. Votre organisation peut également utiliser les nombreux filtres disponibles dans le rapport pour isoler les numéros de performance de certains emplacements, types de clients et de périphériques, et de serveurs.
+Les rapports de résumé/tendances QoE sont utiles pour trouver les heures d’utilisation maximale du jour et examiner la qualité des médias pendant ces périodes afin de s’assurer que les ressources réseau de votre organisation sont suffisantes. Votre organisation peut également utiliser les nombreux filtres disponibles dans le rapport pour isoler les numéros de performances de certains emplacements, clients et types d’appareils et de serveurs.
 
-Les rapports de synthèse/tendance sont les suivants :
+Le résumé des données QoE/rapports de tendance se compose des éléments suivants :
 
-  - Rapport synthèse sur les communications UNIFIÉes/rapport de tendance
+  - Rapport de tendance/synthèse UC/Cu
 
-  - Rapport de synthèse PSTN/tendance
+  - Résumé PSTN/rapport de tendance
 
-  - Rapport de synthèse de conférence/tendance
+  - Rapport de tendance/Résumé de conférence
 
 </div>
 
 <div>
 
-## <a name="qoe-performance-reports"></a>Rapports sur les performances QoE
+## <a name="qoe-performance-reports"></a>Rapports de performances QoE
 
-Rapports sur les performances de QoE fournissent des détails sur les trois rapports qui se concentrent sur les performances QoE des serveurs de médiation, des serveurs de conférence A/V et des emplacements de point de terminaison.
+Les rapports sur les performances QoE fournissent des détails sur les trois rapports qui se concentrent sur les performances QoE des serveurs de médiation, des serveurs de conférence A/V et des emplacements de point de terminaison.
 
 </div>
 
@@ -65,27 +65,27 @@ Rapports sur les performances de QoE fournissent des détails sur les trois rapp
 
 ## <a name="mediation-server-performance-report"></a>Rapport de performances du serveur de médiation
 
-Le rapport sur les performances du serveur de médiation recense les métriques accomplies par une ou plusieurs médiation pendant la période spécifiée. Les métriques pour la jambe Unified Communications (UC) à médiation Server leg et la direction serveur à passerelle de médiation de chaque appel sont communiquées séparément. Utilisez ce rapport pour comparer le volume et les performances des divers serveurs de médiation de votre organisation.
+Le rapport de performances du serveur de médiation répertorie les mesures réalisées par une ou plusieurs médiations pendant la période spécifiée. Les mesures de la jambe de serveur communications unifiées (UC) à médiation et la partie serveur à passerelle de médiation de chaque appel sont signalées séparément. Utilisez ce rapport pour comparer le volume et les performances des différents serveurs de médiation de votre organisation.
 
 Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rapport affiche les éléments suivants :
 
-  - Nombre d'appels
+  - Nombre d’appels
 
   - Perte de paquets
 
-  - Durée de l’aller-retour
+  - Durée de la boucle
 
-  - Jitter
+  - Scintill
 
   - Note moyenne d’opinion de conversation (MOS)
 
   - Envoi d’un MOS
 
-  - Ecouter le MOS
+  - Réception d’un MOS
 
-  - MOS du réseau
+  - MOS réseau
 
-  - Baisse de la dégradation du réseau
+  - Dégradation du MOS réseau
 
   - Retour d’écho
 
@@ -97,7 +97,7 @@ Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rappor
 
 ## <a name="av-conferencing-server-performance-report"></a>Rapport de performances du serveur de conférence A/V
 
-Le rapport sur les performances du serveur de conférence A/V fournit des listes de mesures obtenues par un ou plusieurs serveurs de conférence A/V pendant la période spécifiée. Ce rapport peut être utilisé pour comparer le volume et les performances des différents serveurs de conférence A/V de votre organisation. Votre organisation peut également isoler le rapport pour afficher uniquement l’interface utilisateur de types de clients spécifiques, tels que les clients Lync ou les clients PSTN.
+Le rapport de performances du serveur de conférence A/V fournit des listes de mesures réalisées par un ou plusieurs serveurs de conférence A/V pendant la période spécifiée. Ce rapport peut être utilisé pour comparer le volume et les performances des différents serveurs de conférence A/V de votre organisation. Votre organisation peut également isoler le rapport pour afficher uniquement l’expérience de types de clients spécifiques, tels que les clients Lync ou les clients RTC.
 
 Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivants :
 
@@ -105,19 +105,19 @@ Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivan
 
   - Perte de paquets
 
-  - Durée de l’aller-retour
+  - Durée de la boucle
 
-  - Jitter
+  - Scintill
 
   - Note moyenne d’opinion de conversation (MOS)
 
   - Envoi d’un MOS
 
-  - Ecouter le MOS
+  - Réception d’un MOS
 
-  - MOS du réseau
+  - MOS réseau
 
-  - Baisse de la dégradation du réseau
+  - Dégradation du MOS réseau
 
   - Retour d’écho
 
@@ -127,25 +127,25 @@ Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivan
 
 <div>
 
-## <a name="location-based-performance-report"></a>Rapport sur les performances de l’emplacement
+## <a name="location-based-performance-report"></a>Rapport de performances basé sur l’emplacement
 
-Le rapport sur les performances de géolocalisation fournit une liste d’emplacements réseau et chaque emplacement indique le nombre d’appels dans chaque gamme de qualité prédéfinie. L’objectif de ce rapport est d’offrir une vue d’ensemble de la qualité de média des appels téléphoniques de votre organisation pour différents emplacements, afin que vous puissiez identifier les emplacements médiocres et voir les différentes notes de qualité multimédia dans votre organisation. différents emplacements.
+Le rapport de performances basé sur l’emplacement fournit une liste des emplacements réseau et indique le nombre d’appels dans chaque plage de qualité prédéterminée. L’objectif de ce rapport est de fournir une vue d’ensemble de la qualité des médias de l’ensemble des appels téléphoniques de votre organisation pour les différents emplacements, afin que vous puissiez identifier les emplacements les plus performants et voir les différentes qualités de médias dans votre organisation. différents emplacements.
 
-Lors de l’affichage du rapport, différentes tables de métriques apparaissent : une table pour chaque métrique que votre organisation décide de signaler. Pour ce rapport, vous pouvez choisir parmi les mesures suivantes :
+Lors de l’affichage du rapport, différentes tables de mesures apparaissent : une table pour chaque mesure que votre organisation décide d’effectuer des rapports. Vous pouvez choisir l’une des mesures suivantes pour ce rapport :
 
   - Note moyenne d’opinion de conversation (MOS)
 
-  - MOS du réseau
+  - MOS réseau
 
-  - Baisse de la dégradation du réseau
+  - Dégradation du MOS réseau
 
   - Envoi d’un MOS
 
-  - Ecouter le MOS
+  - Réception d’un MOS
 
   - Perte de paquets
 
-  - Jitter
+  - Scintill
 
   - Latence
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc90e58fecf5e386600ca91cf764dbb50f9d76c7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 155e9cab3eb21416230253926f77eb70ea4d5494
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747234"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,45 +37,45 @@ ms.locfileid: "41747234"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Le panneau de configuration de Lync Server vous permet d’empêcher les nouvelles sessions de tous les services Lync Server 2013 en cours d’exécution sur un ordinateur spécifique ou d’empêcher de nouvelles sessions pour un service 2013 serveur Lync spécifique.
+Vous pouvez utiliser le panneau de configuration Lync Server pour empêcher de nouvelles sessions pour tous les services Lync Server 2013 en cours d’exécution sur un ordinateur spécifique ou pour empêcher de nouvelles sessions pour un service Lync Server 2013 spécifique.
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>Pour empêcher de nouvelles sessions pour tous les services Lync Server sur un ordinateur
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>Pour empêcher l’exécution de nouvelles sessions de tous les services Lync Server sur un ordinateur
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
 
-4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services pour lesquels vous voulez éviter de nouvelles sessions, puis cliquez dessus.
+4.  Dans la page **État**, recherchez dans la liste l’ordinateur qui exécute les services pour lesquels vous souhaitez empêcher toute nouvelle session, puis cliquez sur cet ordinateur.
 
-5.  Cliquez sur **action**.
+5.  Cliquez sur **Action**.
 
-6.  Cliquez sur **empêcher de nouvelles sessions pour tous les services**.
+6.  Cliquez sur **Empêcher de nouvelles sessions pour tous les services**.
 
 </div>
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Pour empêcher de nouvelles sessions pour un service spécifique
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Pour empêcher l’exécution de nouvelles sessions d’un service spécifique
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
 
-4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus.
+4.  Dans la page **État**, recherchez dans la liste l’ordinateur qui exécute le service que vous souhaitez démarrer ou arrêter, ou triez cette liste, puis cliquez sur cet ordinateur.
 
 5.  Cliquez sur **Propriétés**.
 
-6.  Triez la liste des services, si nécessaire, puis cliquez sur le service pour lequel vous souhaitez éviter de nouvelles sessions.
+6.  Triez la liste de services, si nécessaire, et cliquez sur le service pour lequel vous souhaitez empêcher toute nouvelle session.
 
-7.  Cliquez sur **action**.
+7.  Cliquez sur **Action**.
 
-8.  Cliquez sur **empêcher de nouvelles sessions pour le service**.
+8.  Cliquez sur **Empêcher de nouvelles sessions pour le service**.
 
 9.  Cliquez sur **Fermer**.
 

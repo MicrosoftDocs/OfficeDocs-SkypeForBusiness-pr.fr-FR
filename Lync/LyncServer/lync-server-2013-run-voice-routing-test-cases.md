@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : exécuter des cas de test de routage de voix'
+title: 'Lync Server 2013 : exécuter des cas de test de routage des communications vocales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0a5ea6da9fad7f6a7e242bb522c493962fc603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Exécuter des cas de test de routage de voix dans Lync Server 2013
+# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Exécuter des cas de test de routage des communications vocales dans Lync Server 2013
 
 </div>
 
@@ -37,39 +37,39 @@ ms.locfileid: "41732834"
 
 _**Dernière modification de la rubrique :** 2013-02-24_
 
-Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage de voix ou exécuter un ou plusieurs cas de test sélectionnés.
+Vous pouvez exécuter tous les cas de test dans votre suite de cas de test de routage des communications vocales, ou vous pouvez exécuter un ou plusieurs cas de test sélectionnés.
 
 <div>
 
-## <a name="to-run-all-voice-routing-test-cases"></a>Pour exécuter tous les cas de test de routage vocale
+## <a name="to-run-all-voice-routing-test-cases"></a>Pour exécuter tous les cas de test de routage des communications vocales
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **routage des communications vocales** , puis cliquez sur **tester le routage vocal**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Tester le routage des communications vocales**.
 
-4.  Dans la page **test de routage vocal** , cliquez sur **action** , puis sur **Tout exécuter**.
+4.  Sur la page **Tester le routage des com. vocales**, cliquez sur **Action** puis sur **Exécuter tout**.
     
-    Le statut de réussite ou d’échec de chaque cas de test est affiché dans la colonne **passe/échec** . Si un cas de test n’a pas encore été exécuté, N/A s’affiche dans la colonne **passe/échec** .
+    Le statut de réussite ou d’échec de chaque cas de test apparaît dans la colonne **Réussite/échec**. Si un cas de test n’a pas encore été exécuté, la colonne **Réussite/échec** contient la mention N/A.
 
-5.  Facultatif Pour afficher les résultats détaillés pour chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats s’affichent dans la zone ombrée située sur le côté droit de la page **modifier le cas de test** :
+5.  (Facultatif) Pour consulter les résultats détaillés de chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats apparaissent dans la zone ombrée sur le côté droit de la page **Modifier le cas de test** :
     
     1.  **Résultat du test :** État de réussite ou d’échec global du cas de test exécuté.
     
-    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
+    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test et qui correspond au numéro composé (valeur du champ **nombre à tester** ).
     
     3.  **Numéro normalisé :** Valeur du numéro composé une fois la règle de normalisation traduite.
     
-    4.  **Première utilisation RTC :** Premier enregistrement d’utilisation de réseau téléphonique commuté (PSTN) dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
+    4.  **Première utilisation PSTN :** Premier enregistrement d’utilisation du réseau téléphonique commuté (PSTN) dans la stratégie de voix sélectionnée pour ce cas de test et qui correspond au numéro composé.
     
-    5.  **Premier itinéraire :** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
+    5.  **Première route :** Premier itinéraire de communications vocales dans le premier enregistrement d’utilisation PSTN correspondant au numéro composé.
         
         <div>
         
 
         > [!NOTE]  
-        > Les champs <STRONG>enregistrement d’utilisation RTC</STRONG> et <STRONG>route attendue</STRONG> sont facultatifs dans la configuration de cas de test de l’acheminement vocal. Si le cas de test ne spécifie pas ces valeurs, le champ correspondant dans les résultats du test sera vide.
+        > Les champs <STRONG>Enregistrement d’utilisation PSTN attendu</STRONG> et <STRONG>Itinéraire attendu</STRONG> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.
 
         
         </div>
@@ -78,37 +78,37 @@ Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage 
 
 <div>
 
-## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>Pour exécuter une ou plusieurs situations de test de routage vocal sélectionnées
+## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>Pour exécuter un ou plusieurs cas de test de routage des communications vocales
 
-1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, reportez-vous à la rubrique [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **routage des communications vocales**, puis cliquez sur **tester le routage vocal**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Tester le routage des communications vocales**.
 
-4.  Dans la page de routage de la **voix** , cliquez sur les noms des cas de test que vous souhaitez exécuter.
+4.  Sur la page **Tester le routage des com. vocales**, cliquez sur le nom des cas de test que vous souhaitez exécuter.
 
-5.  Dans le menu **action** , cliquez sur **exécuter la sélection**.
+5.  Dans le menu **Action**, cliquez sur **Exécuter la sélection**.
     
-    Le statut de réussite ou d’échec de chaque cas de test est affiché dans la colonne **passe/échec** . Si un cas de test n’a pas encore été exécuté, N/A s’affiche dans la colonne **passe/échec** .
+    Le statut de réussite ou d’échec de chaque cas de test apparaît dans la colonne **Réussite/échec**. Si un cas de test n’a pas encore été exécuté, la colonne **Réussite/échec** contient la mention N/A.
 
-6.  Facultatif Pour afficher les résultats détaillés pour chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats s’affichent dans la zone ombrée située sur le côté droit de la page **modifier le cas de test** :
+6.  (Facultatif) Pour consulter les résultats détaillés de chaque cas de test, double-cliquez sur le nom du cas de test. Les résultats apparaissent dans la zone ombrée sur le côté droit de la page **Modifier le cas de test** :
     
     1.  **Résultat du test :** État de réussite ou d’échec global du cas de test exécuté.
     
-    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test correspondant au numéro composé (valeur du champ **numéro à tester** ).
+    2.  **Règle de normalisation :** Première règle de normalisation du plan de numérotation sélectionné pour ce cas de test et qui correspond au numéro composé (valeur du champ **nombre à tester** ).
     
     3.  **Numéro normalisé :** Valeur du numéro composé une fois la règle de normalisation traduite.
     
-    4.  **Première utilisation RTC :** Premier enregistrement d’utilisation RTC dans la stratégie vocale sélectionnée pour ce cas de test correspondant au numéro numéroté.
+    4.  **Première utilisation PSTN :** Premier enregistrement d’utilisation PSTN dans la stratégie de voix sélectionnée pour ce cas de test qui correspond au numéro composé.
     
-    5.  **Premier itinéraire :** Le premier itinéraire vocal dans le premier enregistrement d’utilisation RTC qui correspond au numéro numéroté.
+    5.  **Première route :** Premier itinéraire de communications vocales dans le premier enregistrement d’utilisation PSTN correspondant au numéro composé.
         
         <div>
         
 
         > [!NOTE]  
-        > Les champs <STRONG>enregistrement d’utilisation RTC</STRONG> et <STRONG>route attendue</STRONG> sont facultatifs dans la configuration de cas de test de l’acheminement vocal. Si le cas de test ne spécifie pas ces valeurs, le champ correspondant dans les résultats du test sera vide.
+        > Les champs <STRONG>Enregistrement d’utilisation PSTN attendu</STRONG> et <STRONG>Itinéraire attendu</STRONG> sont facultatifs dans la configuration d’un cas de test de routage des communications vocales. Si les cas de test ne spécifient pas ces valeurs, le champ correspondant dans les résultats de test sera vide.
 
         
         </div>
@@ -120,7 +120,7 @@ Vous pouvez exécuter tous les cas de test dans votre suite de tests de routage 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Test du routage des communications vocales dans Lync Server 2013](lync-server-2013-test-voice-routing.md)  
+[Tester le routage des communications vocales dans Lync Server 2013](lync-server-2013-test-voice-routing.md)  
 [Exécution des tests de routage des communications vocales dans Lync Server 2013](lync-server-2013-running-voice-routing-tests.md)  
   
 

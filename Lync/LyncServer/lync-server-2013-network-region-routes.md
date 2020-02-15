@@ -12,16 +12,16 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83db08d7e0630a74ae5c4366afb3b18ed9d7e567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41765895"
 
 _**Dernière modification de la rubrique :** 2013-02-21_
 
-Un *itinéraire de région réseau* définit l’itinéraire entre deux régions du réseau. Chaque paire de zones réseau dans le déploiement de votre contrôle d’admission des appels nécessite un itinéraire de la région du réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région. Les procédures décrites dans cette section vous permettent d’afficher, de créer, de modifier ou de supprimer des itinéraires de région réseau.
+Un *itinéraire de région réseau* définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels requiert un itinéraire de région réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région. Appliquez les procédures indiquées dans cette section pour afficher, créer, modifier ou supprimer des itinéraires de région réseau.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Création ou modification des régions réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [Création ou modification de régions réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [Affichage des informations sur les itinéraires de la région réseau dans Lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
+  - [Affichage des informations d’itinéraire de région réseau dans Lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [Supprimer des itinéraires de région réseau existants dans Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [Suppression des itinéraires de région réseau existants dans Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 
@@ -55,7 +55,7 @@ Un *itinéraire de région réseau* définit l’itinéraire entre deux régions
 
 ## <a name="reference"></a>Référence
 
-[Déploiement de fonctionnalités avancées d’entreprise voix dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[Déploiement des fonctionnalités avancées de voix entreprise dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

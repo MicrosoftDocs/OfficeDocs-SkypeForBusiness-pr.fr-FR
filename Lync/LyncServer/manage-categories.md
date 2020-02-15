@@ -1,5 +1,5 @@
 ---
-title: Gestion des catégories
+title: Gérer les catégories
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757168"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a>Manage categories
+# <a name="manage-categories"></a>Gérer les catégories
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41757168"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Pour créer une nouvelle catégorie de serveur Chat permanent
+Pour créer une catégorie de serveur de conversation permanente
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
@@ -45,24 +45,24 @@ Pour créer une nouvelle catégorie de serveur Chat permanent
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn est requis uniquement s’il existe plusieurs pools de serveurs de chat permanent.
+> PersistentChatPoolFqdn est nécessaire uniquement s’il existe plusieurs pools de serveurs de conversation permanente.
 
 
 
 </div>
 
-Pour apporter des modifications à la catégorie de serveur Chat permanent existante
+Pour modifier la catégorie de serveur de conversation permanente existante
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell : AllowedMembers, DeniedMembers et Creators peuvent être définis simultanément. Creators doit être le sous-ensemble de AllowedMembers moins DeniedMembers. Vous pouvez également définir les propriétés d’une catégorie en même temps que les membres et créateurs.
+Windows PowerShell : AllowedMembers, membres refusés et créateurs peuvent être définis simultanément. Les créateurs doivent constituer le sous-ensemble des membres autorisés moins les membres non autorisés. Vous pouvez également définir les propriétés d’une catégorie en même temps que les membres et les créateurs.
 
 <div>
 
 ## <a name="create-get-set-or-remove-a-category"></a>Créer, obtenir, définir ou supprimer une catégorie
 
-Pour créer une nouvelle catégorie
+Pour créer une catégorie
 
     New-CsPersistentChatCategory -Name <String> [-PersistentChatPoolFqdn <String>] [-Description <String>] [-EnableInvitations<Switch Parameter>] [-EnableFileUpload <Switch Parameter>] [-RemoveChatHistory <Switch Parameter>] [-MaxContentSize <Integer>]
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de sites de succursale'
+title: 'Lync Server 2013 : déploiement de sites de succursale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729504"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,27 +37,27 @@ ms.locfileid: "41729504"
 
 _**Dernière modification de la rubrique :** 2012-09-21_
 
-Les utilisateurs du site de succursale obtiennent la plupart des fonctionnalités de Lync Server 2013 du serveur sur le site central auquel le site de succursale est associé. Chaque site de filiale est associé à un seul site central. Pour passer des appels vers et à partir du réseau téléphonique public commuté (RTC), un site de succursale peut comporter l’une des opérations suivantes :
+Les utilisateurs de site de succursale obtiennent la plupart de leurs fonctionnalités Lync Server 2013 à partir du serveur sur le site central auquel le site de succursale est associé. Chaque site de succursale est associé à exactement un site central. Pour transmettre les appels vers et depuis le réseau téléphonique commuté public, le site de succursale peut avoir besoin de ce qui suit :
 
-  - Passerelle RTC et éventuellement un serveur méditation
+  - une passerelle PSTN et si possible un serveur de médiation ;
 
-  - Un Trunk SIP
+  - une jonction SIP ;
 
-  - Une infrastructure vocale existante avec un échange de succursale privée (PBX)
+  - une infrastructure vocale existante avec PBX (autocommutateur privé) ;
 
-  - Appareil de branchement survivant
+  - Un Survivable Branch Appliance
 
-  - Serveur de succursales survivant
+  - Un serveur Survivable Branch Server
 
-Les sites de succursales disposant d’une unité de branchement plus survivant ou d’un serveur de succursales survivant sont plus résilients en cas d’échecs de réseaux larges ou de sites de succursales sans l’une de ces solutions. Par exemple, dans le cas d’un site disposant d’une branche ou d’un serveur de succursale survivant, les utilisateurs peuvent toujours passer et recevoir des appels RTC si le réseau qui se connecte au site central est arrêté. Une autre méthode pour obtenir la résilience du site d’une succursale consiste à utiliser une passerelle PSTN ou une ligne SIP avec un déploiement de Lync Server à grande échelle sur le site de la succursale.
+Les sites de succursale disposant d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server sont plus résiliences en cas de défaillance du réseau étendu ou du site central que les sites de succursale sans l’une de ces solutions. Par exemple, dans un site disposant d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server déployé, les utilisateurs peuvent toujours effectuer et recevoir des appels RTC si le réseau qui connecte le site de succursale au site central est inactif. Une autre façon d’obtenir la résistance des sites de succursale consiste à utiliser une passerelle PSTN ou une jonction SIP avec un déploiement de Lync Server complet sur le site de succursale.
 
-Pour en savoir plus sur le déploiement de sites de succursale approprié pour votre organisation, notamment les conditions préalables et d’autres considérations en matière de planification, voir [planification de la connectivité PSTN dans Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) et [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
+Pour plus d’informations sur le déploiement de site de succursale le plus approprié pour votre organisation, notamment les conditions préalables et les autres considérations de planification, reportez-vous à [Planning for PSTN Connectivity in Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) et [Planning for Branch-site Voice Resiliency in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
 
 <div>
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Connectivité RTC sur un site de succursale dans Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [Fourniture de la connectivité PSTN sur un site de succursale dans Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
   - [Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 

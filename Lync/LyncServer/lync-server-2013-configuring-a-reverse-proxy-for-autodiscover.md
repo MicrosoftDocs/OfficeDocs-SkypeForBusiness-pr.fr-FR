@@ -12,16 +12,16 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 712dbc4e3bc9acf083f540520968953115ffc699
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726564"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,29 +37,29 @@ ms.locfileid: "41726564"
 
 _**Dernière modification de la rubrique :** 2012-12-12_
 
-La découverte automatique et la prise en charge des clients à l’aide de la découverte automatique nécessitent la modification d’une règle de publication Web existante ou la création d’une nouvelle règle de publication Web pour le proxy inverse. La modification ou la création d’une nouvelle règle de publication ne dépend pas de la décision de mettre à jour ou de ne pas mettre à jour les listes de noms secondaires d’objet sur les certificats de proxy inverse.
+Découverte automatique et prise en charge des clients à l’aide de la découverte automatique nécessite la modification d’une règle de publication Web existante ou la création d’une nouvelle règle de publication Web pour le proxy inverse. La modification ou la création d’une nouvelle règle de publication n’est pas tributaire de la décision de mettre à jour ou de ne pas mettre à jour les listes d’autres noms de sujet sur les certificats de proxy inverse.
 
-Si vous décidez d’utiliser HTTPs pour les demandes de service de découverte automatique Lync Server 2013 et de mettre à jour les listes de noms de remplacement d’objet sur les certificats de proxy inverse, vous devez affecter le certificat public mis à jour à l’écouteur SSL (Secure Sockets Layer) sur votre proxy inverse. La mise à jour requise du certificat externe (public) inclura l’entrée du nom de la personne qui est le nom de l’objet. \<nom\>de domaine. Vous devez ensuite modifier l’écouteur existant pour les services Web externes ou créer une nouvelle règle de publication Web pour l’URL du service de découverte automatique externe (par exemple, **lyncdiscover.contoso.com**. Si vous ne disposez pas encore d’une règle de publication sur le Web pour l’URL des services Web Lync Server 2013 externes pour votre pool frontal et votre pool de directeurs (si vous avez déployé des directeurs), vous devez également publier une règle pour cela.
-
-<div>
-
-
-> [!NOTE]  
-> La règle de publication de proxy inverse et l’écouteur peuvent service à la fois les services Web externes et le service de découverte automatique, tant que le certificat attribué à l’écouteur contient le nom du sujet et les noms de remplacement de l’objet requis pour les deux. Pour plus d’informations sur la configuration par défaut de l’écouteur et de la règle de publication sur le Web, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuration de serveurs proxy inverse pour Lync Server 2013</A> pour plus d’informations.
-
-
-
-</div>
-
-Si vous décidez d’utiliser HTTP pour les demandes de service de découverte automatique initiales afin de ne pas avoir besoin de mettre à jour les autres noms d’objet du proxy inverse, vous devez créer ou modifier une règle de publication Web pour le port 80.
-
-Les procédures décrites dans cette section expliquent comment créer ou modifier les règles de publication Web dans Microsoft Forefront Threat Management Gateway 2010 pour la découverte automatique.
+Si vous décidez d’utiliser le protocole HTTPs pour les demandes de service de découverte automatique Lync Server 2013 initiales et mettez à jour les listes des autres noms de sujet sur les certificats de proxy inverse, vous devez affecter le certificat public mis à jour à l’écouteur SSL (Secure Sockets Layer) sur votre proxy inverse. La mise à jour requise du certificat externe (public) inclut l’entrée de l’autre nom de l’objet (SAN) pour lyncdiscover. \<nom\>de domaine. Vous devez ensuite modifier l’écouteur existant pour les services Web externes ou créer une nouvelle règle de publication Web pour l’URL du service de découverte automatique externe, par exemple **lyncdiscover.contoso.com**. Si vous n’avez pas encore de règle de publication Web pour l’URL de services Web Lync Server 2013 externe pour votre pool frontal et votre pool directeur (si vous avez déployé des directeurs), vous devez également publier une règle pour cela.
 
 <div>
 
 
 > [!NOTE]  
-> Les procédures suivantes présupposent que vous avez installé l’édition standard de Forefront Threat Management Gateway (TMG) 2010. Si vous utilisez un autre proxy inverse, les procédures sont similaires, mais doivent être mappées à la documentation du produit tiers.
+> La règle de publication et l’écouteur du proxy inverse peuvent être utilisés par les services web externes et le service de découverte automatique, à condition que le certificat assigné à l’écouteur contienne le nom de sujet et les autres noms de sujet nécessaires aux deux. Pour plus d’informations sur la configuration par défaut du port d’écoute Web et de la règle de publication, voir <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up Reverse Proxy Servers for Lync Server 2013</A> pour plus d’informations.
+
+
+
+</div>
+
+Si vous décidez d’utiliser HTTP pour les demandes initiales du service de découverte automatique pour ne pas avoir à mettre à jour les autres noms de sujet pour le proxy inverse, vous devez créer ou modifier une règle de publication web pour le port 80.
+
+Les procédures de cette section indiquent comment créer ou modifier les règles de publication web dans Microsoft Forefront Threat Management Gateway 2010 pour la découverte automatique.
+
+<div>
+
+
+> [!NOTE]  
+> Ces procédures supposent que vous avez installé la version Standard Edition de Forefront Threat Management Gateway (TMG) 2010. Si vous utilisez un autre proxy inverse, les procédures, bien qu’identiques, devront être adaptées en tenant compte de la documentation du produit tiers.
 
 
 
@@ -67,146 +67,146 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 <div>
 
-## <a name="to-create-a-web-publishing-rule-for-the-external-autodiscover-url"></a>Pour créer une règle de publication Web pour l’URL de découverte automatique externe
+## <a name="to-create-a-web-publishing-rule-for-the-external-autodiscover-url"></a>Pour créer une règle de publication web pour l’URL de découverte automatique externe
 
-1.  Cliquez sur **Démarrer**, pointez sur **programmes**, sur **Microsoft Forefront TMG**, puis cliquez sur gestion de **Forefront TMG**.
+1.  Cliquez sur **Démarrer**, pointez sur **Programmes**, pointez sur **Microsoft Forefront TMG**, puis cliquez sur **Forefront TMG Management**.
 
-2.  Dans le volet gauche, développez **NomServeur**, cliquez avec le bouton droit sur **stratégie de pare-feu**, pointez sur **nouveau**, puis cliquez sur règle de **publication de site Web**.
+2.  Dans le volet de gauche, développez **NomServeur**, cliquez avec le bouton droit sur **Stratégie de pare-feu**, pointez sur **Nouveau**, puis cliquez sur **Règle de publication web**.
 
-3.  Dans la page **Bienvenue dans la nouvelle règle de publication Web** , tapez un nom d’affichage pour la nouvelle règle de publication (par exemple, LyncDiscoveryURL).
+3.  Dans la page **Assistant Nouvelle règle de publication web**, entrez un nom convivial pour la nouvelle règle de publication (par exemple, LyncDiscoveryURL).
 
-4.  Dans la page **Sélectionner une action de règle** , sélectionnez **autoriser**.
+4.  Dans la page **Sélectionner l’action de la règle**, sélectionnez **Autoriser**.
 
-5.  Dans la page **type de publication** , sélectionnez **publier un site Web ou un équilibrage de charge unique**.
+5.  Dans la page **Type de publication**, sélectionnez **Publier un seul site web ou équilibreur de charge**.
 
-6.  Dans la page sécurité de la **connexion au serveur** , sélectionnez **utiliser SSL pour se connecter au serveur Web publié ou à la batterie de**serveurs.
+6.  Dans la page **Sécurité de connexion serveur**, sélectionnez **Utiliser SSL pour se connecter au serveur web publié ou à la batterie de serveurs**.
 
-7.  Dans la page Détails de la **publication interne** , dans **nom du site interne**, tapez le nom de domaine complet (FQDN) de votre pool de répertoires (par exemple, lyncdir01. contoso. local). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet (FQDN) du pool frontal (par exemple, lyncpool01. contoso. local).
+7.  Sur la page **Détails de publication interne** , dans **nom de site interne**, tapez le nom de domaine complet (FQDN) de votre pool de directeurs (par exemple, lyncdir01. contoso. local). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet du pool frontal (par exemple, lyncpool01. contoso. local).
 
-8.  Dans la page Détails de la **publication interne** , dans **Path (facultatif)**, tapez ** / ** le chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine**.
+8.  Sur la page **Détails de publication interne** , dans **chemin (facultatif)**, ** / ** tapez comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine**.
 
-9.  Dans la page **Détails du nom public** , procédez comme suit :
+9.  Dans la page **Informations sur les noms publics**, procédez comme suit :
     
-      - Sous **accepter les demandes pour**, sélectionnez **ce nom de domaine**.
+      - Sous **Accepter les demandes pour**, sélectionnez **Ce nom de domaine**.
     
-      - Dans **nom public**, tapez **lyncdiscover.** \<SIPDOMAIN\> (URL du service de découverte automatique externe). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet (FQDN) pour les services Web externes dans votre liste frontale (par exemple, lyncwebextpool01.contoso.com).
+      - Dans **nom public**, tapez **lyncdiscover.** \<SIPDOMAIN\> (URL du service de découverte automatique externe). Si vous créez une règle pour l’URL des services Web externes sur le pool frontal, tapez le nom de domaine complet (FQDN) des services Web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
     
-      - Dans **path**, tapez ** / **.
+      - Dans **chemin d’accès**, tapez ** / **.
 
-10. Dans la page **Sélectionner un écouteur** Web, dans **écouteur Web**, sélectionnez votre écouteur SSL existant avec le certificat public mis à jour.
+10. Dans la page **Sélectionner le port d’écoute**, dans **Port d’écoute web**, sélectionnez votre écouteur SSL existant avec le certificat public mis à jour.
 
-11. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement**.
+11. Dans la page **Délégation de l’authentification**, sélectionnez **Aucune délégation, mais le client peut authentifier directement**.
 
-12. Dans la page **jeu d’utilisateurs** , sélectionnez tous les **utilisateurs**.
+12. Dans la page **Ensemble d’utilisateurs**, cliquez sur **Tous les utilisateurs**.
 
-13. Dans la page **fin de l’Assistant Nouvelle règle de publication Web** , vérifiez que les paramètres de règle de publication Web sont corrects, puis cliquez sur **Terminer**.
+13. Dans la page **Fin de l’Assistant Nouvelle règle de publication web**, vérifiez que les paramètres de la règle de publication web sont corrects, puis cliquez sur **Terminer**.
 
-14. Dans la liste de règles de publication Web de Forefront TMG, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
+14. Dans la liste Forefront TMG de règles de publication web, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
 
-15. Dans l’onglet **à** , procédez comme suit :
+15. Sous l’onglet **À**, procédez comme suit :
     
-      - Sélectionnez **transférer l’en-tête d’hôte d’origine au lieu du premier**.
+      - Sélectionnez **Transmettre l’en-tête de l’hôte d’origine plutôt que l’en-tête réel**.
     
-      - **Les demandes de sélection semblent provenir de l’ordinateur Forefront TMG**.
+      - Sélectionnez **Les demandes semblent émaner de l’ordinateur Forefront TMG**.
 
-16. Dans l’onglet **pontage** , configurez les éléments suivants :
+16. Sous l’onglet **Pontage**, configurez ce qui suit :
     
-      - Sélectionnez **serveur Web**.
+      - Sélectionnez **Serveur web**.
     
-      - Sélectionnez **Rediriger les demandes vers le port http**et tapez **8080** pour le numéro de port.
+      - Sélectionnez **Rediriger les demandes au port HTTP** et tapez **8080** comme numéro de port.
     
-      - Sélectionnez **Rediriger les demandes vers le port SSL**et tapez **4443** pour le numéro de port.
+      - Sélectionnez **Rediriger les demandes au port SSL** et tapez **4443** comme numéro de port.
 
 17. Cliquez sur **OK**.
 
-18. Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
+18. Cliquez sur **Appliquer** dans le volet des détails pour enregistrer les modifications et mettre à jour la configuration.
 
-19. Cliquez sur **règle de test** pour vérifier que la configuration de votre nouvelle règle est correcte.
+19. Cliquez sur **Tester la règle** pour vérifier que votre nouvelle règle est configurée correctement.
 
 </div>
 
 <div>
 
-## <a name="to-modify-an-existing-web-publishing-rule-to-add-the-external-autodiscover-san-and-url"></a>Pour modifier une règle de publication sur le Web existante pour ajouter le SAN de découverte automatique et l’URL externes
+## <a name="to-modify-an-existing-web-publishing-rule-to-add-the-external-autodiscover-san-and-url"></a>Pour modifier une règle de publication web existante afin d’ajouter l’autre nom de sujet et l’URL du service de découverte automatique externe
 
-1.  Cliquez sur **Démarrer**, pointez sur **programmes**, sur **Microsoft Forefront TMG**, puis cliquez sur gestion de **Forefront TMG**.
+1.  Cliquez sur **Démarrer**, pointez sur **Programmes**, pointez sur **Microsoft Forefront TMG**, puis cliquez sur **Forefront TMG Management**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Vous devrez répéter la modification pour chaque règle de publication et votre écouteur. En règle générale, il s’agit d’une règle et d’un écouteur pour les pools frontaux et l’un pour les directeurs ou pools de directeurs facultatifs, si vous les avez déployés.
+    > Vous devrez répéter la modification pour chaque règle de publication et chaque écouteur que vous possédez. En règle générale, il s’agit d’une règle et d’un écouteur pour les pools frontaux et un pour les directeurs ou pools directeurs facultatifs, si vous les avez déployés.
 
     
     </div>
 
-2.  Dans le volet gauche, développez **NomServeur**, cliquez avec le bouton droit sur **stratégie de pare-feu**, puis cliquez sur la règle applicable. Sous l’onglet **tâches** , cliquez sur **modifier la règle sélectionnée**.
+2.  Dans le volet gauche, développez **NomServeur**, cliquez avec le bouton droit sur **Stratégie de pare-feu**, puis cliquez sur la règle applicable. Sous l’onglet **Tâches**, cliquez sur **Modifier la règle sélectionnée**.
 
-3.  Dans l’onglet **nom du public** , dans **cette règle**, sélectionnez **demandes pour les sites Web suivants**.
+3.  Sous l’onglet **Nom public**, dans **Cette règle s’applique à**, sélectionnez **Demandes pour les sites web suivants**.
 
 4.  Cliquez sur **Ajouter**, tapez le nom du nouveau site de découverte automatique (par exemple, « lyncdiscover.contoso.com »), puis cliquez sur **OK**.
 
-5.  Dans l’onglet **écouteur** , cliquez sur **Sélectionner un certificat** et attribuez le nouveau certificat aux entrées du réseau de découverte automatique ajoutées. Fermez les propriétés Listener et de publication Web.
+5.  Sous l’onglet **Écouteur**, cliquez sur **Sélectionner un certificat** et assignez le nouveau certificat avec les entrées d’autres noms de sujet ajoutées du service de découverte automatique. Fermez les propriétés d’écouteur et de publication web.
 
-6.  Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
+6.  Cliquez sur **Appliquer** dans le volet des détails pour enregistrer les modifications et mettre à jour la configuration.
 
-7.  Cliquez sur **règle de test** pour vérifier que la configuration de votre nouvelle règle est correcte.
+7.  Cliquez sur **Tester la règle** pour vérifier que votre nouvelle règle est configurée correctement.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-web-publishing-rule-for-port-80"></a>Pour créer une règle de publication Web pour le port 80
+## <a name="to-create-a-web-publishing-rule-for-port-80"></a>Pour créer une règle de publication web pour le port 80
 
-1.  Cliquez sur **Démarrer**, pointez sur **programmes**, sur **Microsoft Forefront TMG**, puis cliquez sur gestion de **Forefront TMG**.
+1.  Cliquez sur **Démarrer**, pointez sur **Programmes**, pointez sur **Microsoft Forefront TMG**, puis cliquez sur **Forefront TMG Management**.
 
-2.  Dans le volet gauche, développez **NomServeur**, cliquez avec le bouton droit sur **stratégie de pare-feu**, pointez sur **nouveau**, puis cliquez sur règle de **publication de site Web**.
+2.  Dans le volet de gauche, développez **NomServeur**, cliquez avec le bouton droit sur **Stratégie de pare-feu**, pointez sur **Nouveau**, puis cliquez sur **Règle de publication web**.
 
-3.  Dans la page **Bienvenue dans la nouvelle règle de publication Web** , tapez un nom d’affichage pour la nouvelle règle de publication (par exemple, la découverte automatique LYNC (http)).
+3.  Dans la page **Assistant Nouvelle règle de publication web**, entrez un nom convivial pour la nouvelle règle de publication (par exemple, Lync Autodiscover (HTTP)).
 
-4.  Dans la page **Sélectionner une action de règle** , sélectionnez **autoriser**.
+4.  Dans la page **Sélectionner l’action de la règle**, sélectionnez **Autoriser**.
 
-5.  Dans la page **type de publication** , sélectionnez **publier un site Web ou un équilibrage de charge unique**.
+5.  Dans la page **Type de publication**, sélectionnez **Publier un seul site web ou équilibreur de charge**.
 
-6.  Dans la page sécurité de la **connexion au serveur** , sélectionnez utiliser des **connexions non sécurisées pour la connexion au serveur Web publié ou à la batterie de serveurs**.
+6.  Dans la page **Sécurité de connexion serveur**, sélectionnez **Utiliser des connexions non sécurisées pour se connecter au serveur web publié ou à la batterie de serveurs**.
 
-7.  Dans la page Détails de la **publication interne** , dans **nom du site interne**, tapez le nom de domaine complet des services Web interne pour votre pool frontal (par exemple, lyncpool01. contoso. local).
+7.  Sur la page **Détails de publication interne** , dans **nom de site interne**, tapez le nom de domaine complet des services Web internes pour votre pool frontal (par exemple, lyncpool01. contoso. local).
 
-8.  Dans la page Détails de la **publication interne** , dans **Path (facultatif)**, tapez ** / ** le chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celui spécifié dans le champ nom du site interne**.
+8.  Sur la page **Détails de publication interne** , dans **chemin d’accès (facultatif)**, tapez ** / ** comme chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celui spécifié dans le champ nom de site interne**.
 
-9.  Dans la page **Détails du nom public** , procédez comme suit :
+9.  Dans la page **Informations sur les noms publics**, procédez comme suit :
     
-      - Sous **accepter les demandes pour**, sélectionnez **ce nom de domaine**.
+      - Sous **Accepter les demandes pour**, sélectionnez **Ce nom de domaine**.
     
       - Dans **nom public**, tapez **lyncdiscover.** \<SIPDOMAIN\> (URL du service de découverte automatique externe).
     
-      - Dans **path**, tapez ** / **.
+      - Dans **chemin d’accès**, tapez ** / **.
 
-10. Dans la page **Sélectionner un écouteur** Web, dans **écouteur Web**, sélectionnez un écouteur Web ou utilisez l’Assistant Nouvelle définition de l’écouteur Web pour en créer un autre.
+10. Dans la page **Sélectionner un port d’écoute**, dans **Port d’écoute web**, sélectionnez un écouteur web ou utilisez l’Assistant Nouvelle définition d’écouteur web pour en créer un nouveau.
 
-11. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, et le client ne peut pas s’authentifier directement**.
+11. Dans la page **Délégation de l’authentification**, sélectionnez **Aucune délégation, et le client ne peut pas authentifier directement**.
 
-12. Dans la page **jeu d’utilisateurs** , sélectionnez tous les **utilisateurs**.
+12. Dans la page **Ensemble d’utilisateurs**, cliquez sur **Tous les utilisateurs**.
 
-13. Dans la page **fin de l’Assistant Nouvelle règle de publication Web** , vérifiez que les paramètres de règle de publication Web sont corrects, puis cliquez sur **Terminer**.
+13. Dans la page **Fin de l’Assistant Nouvelle règle de publication web**, vérifiez que les paramètres de la règle de publication web sont corrects, puis cliquez sur **Terminer**.
 
-14. Dans la liste de règles de publication Web de Forefront TMG, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
+14. Dans la liste Forefront TMG de règles de publication web, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
 
-15. Dans l’onglet **pontage** , configurez les éléments suivants :
+15. Sous l’onglet **Pontage**, configurez ce qui suit :
     
-      - Sélectionnez **serveur Web**.
+      - Sélectionnez **Serveur web**.
     
-      - Sélectionnez **Rediriger les demandes vers le port http**et tapez **8080** pour le numéro de port.
+      - Sélectionnez **Rediriger les demandes au port HTTP** et tapez **8080** comme numéro de port.
     
-      - Vérifiez que l’option **Rediriger les demandes vers le port SSL** n’est pas sélectionnée.
+      - Vérifiez que l’option **Rediriger les demandes au port SSL** n’est pas sélectionnée.
 
 16. Cliquez sur **OK**.
 
-17. Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
+17. Cliquez sur **Appliquer** dans le volet des détails pour enregistrer les modifications et mettre à jour la configuration.
 
-18. Cliquez sur **règle de test** pour vérifier que la configuration de votre nouvelle règle est correcte.
+18. Cliquez sur **Tester la règle** pour vérifier que votre nouvelle règle est configurée correctement.
 
-19. Vérifiez que l’URL du service de découverte automatique externe n’est pas définie sur une autre règle de publication Web.
+19. Vérifiez que l’URL du service de découverte automatique externe n’est définie sur aucune autre règle de publication web.
 
 </div>
 

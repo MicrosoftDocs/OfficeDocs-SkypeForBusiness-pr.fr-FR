@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : vue d’ensemble de l’environnement Lync Server hybride'
+title: 'Lync Server 2013 : vue d’ensemble de l’environnement hybride Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41755428"
 
 _**Dernière modification de la rubrique :** 2014-05-28_
 
-L’environnement hybride Lync Server 2013 fait référence à un déploiement dans lequel certains utilisateurs sont hébergés sur le serveur Lync Server 2013 local et d’autres utilisateurs hébergés sur Lync Online, mais les utilisateurs partagent le même domaine, tel que user@contoso.com.
+L’environnement hybride Lync Server 2013 fait référence à un déploiement dans lequel certains utilisateurs sont hébergés sur le serveur Lync Server 2013 sur site et d’autres utilisateurs hébergés sur Lync Online, mais les utilisateurs partagent le même domaine, par exemple user@contoso.com.
 
 <div>
 
 ## <a name="about-this-guide"></a>À propos de ce guide
 
-Ce guide décrit les tâches nécessaires à la configuration de votre environnement Lync Server 2013 pour l’interopérabilité avec Lync Online, et la migration des utilisateurs de votre déploiement local vers Lync Online.
+Ce guide décrit les tâches nécessaires pour configurer votre environnement Lync Server 2013 pour l’interopérabilité avec Lync Online, puis pour déplacer les utilisateurs de votre déploiement local vers Lync Online.
 
 </div>
 
@@ -51,15 +51,15 @@ Ce guide décrit les tâches nécessaires à la configuration de votre environne
 
 ## <a name="prerequisites"></a>Conditions requises
 
-Pour effectuer les tâches de configuration d’un déploiement pour la configuration hybride, vous devez avoir installé les applications et utilitaires suivants. Les programmes d’installation de ces fichiers sont inclus sur le support d’installation fourni pour votre déploiement, ainsi que sur les liens inclus dans la liste suivante.
+Les applications et les utilitaires suivants doivent être installés pour effectuer les tâches de configuration d’un déploiement pour un déploiement hybride. Les programmes d’installation de ces fichiers sont inclus sur le support d’installation fourni pour votre déploiement, ainsi que sur les liens inclus dans la liste suivante.
 
-  - [Services AD FS (Active Directory Federation Services) 2,0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Active Directory Federation Services (ADFS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [Outil de synchronisation d’annuaires 9,1](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [Outil de synchronisation d’annuaires Microsoft 9,1](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
   - [Installer Windows PowerShell pour l’authentification unique avec AD FS](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - L’Assistant de connexion de Microsoft Online Services (msoidcli-7.0. msi) est inclus avec la configuration du Bureau pour Office 365, qui est obtenue à partir de la page téléchargements liée à partir du portail d’administration Office 365.
+  - L’Assistant de connexion Microsoft Online Services (msoidcli-7.0. msi) est inclus dans le programme d’installation de bureau pour Office 365, qui peut être obtenu à partir de la page de téléchargement liée à partir du portail d’administration d’Office 365.
 
 </div>
 
@@ -67,7 +67,7 @@ Pour effectuer les tâches de configuration d’un déploiement pour la configur
 
 ## <a name="administrator-credentials"></a>Informations d’identification d’administrateur
 
-Lorsque vous êtes invité à fournir vos informations d’identification d’administrateur, utilisez le nom d’utilisateur et le mot de passe du compte d’administrateur de votre client Office 365. Vous pouvez également utiliser ces informations d’identification lorsque vous configurez les services AD FS (Active Directory Federation Services) 2,0, la synchronisation d’annuaires, l’authentification unique, la Fédération et le déplacement des utilisateurs vers Lync Online.
+Lorsque vous êtes invité à fournir vos informations d’identification d’administrateur, utilisez le nom d’utilisateur et le mot de passe pour le compte d’administrateur de votre client Office 365. Vous utiliserez également ces informations d’identification lors de la configuration des services AD FS (Active Directory Federation Services) 2,0, de la synchronisation d’annuaires, de la Fédération et du transfert d’utilisateurs vers Lync Online.
 
 </div>
 
@@ -75,7 +75,7 @@ Lorsque vous êtes invité à fournir vos informations d’identification d’ad
 
 ## <a name="connecting-to-lync-online-powershell"></a>Connexion à Lync Online PowerShell
 
-Les administrateurs ont désormais la possibilité d’utiliser Windows PowerShell pour gérer Lync Online et leurs comptes d’utilisateurs Lync Online. Pour cela, vous devez d’abord télécharger et installer le module Lync Online Connector à partir du centre de téléchargementhttp://go.microsoft.com/fwlink/?LinkId=294688)Microsoft (. Pour plus d’informations sur le téléchargement, l’installation et l’utilisation du module Lync Online Connector et pour obtenir des informations détaillées sur l’utilisation de Windows PowerShell pour gérer Lync Online, voir [utilisation de Windows PowerShell pour gérer Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Les administrateurs ont désormais la possibilité d’utiliser Windows PowerShell pour gérer Lync Online et leurs comptes d’utilisateur Lync Online. Pour ce faire, vous devez d’abord télécharger et installer le module Lync Online Connector à partir du centre dehttp://go.microsoft.com/fwlink/?LinkId=294688)téléchargement Microsoft (. Pour plus d’informations sur le téléchargement, l’installation et l’utilisation du module Lync Online Connector et des informations détaillées sur l’utilisation de Windows PowerShell pour gérer Lync Online, voir [Using Windows PowerShell to Manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

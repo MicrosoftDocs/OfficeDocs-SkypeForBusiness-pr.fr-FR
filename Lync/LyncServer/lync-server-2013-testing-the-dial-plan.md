@@ -12,16 +12,16 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e0e39b88d7b6c90a55d236038d03cc4cc717319
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c35d204a8a3fa16ff38dbcce89c0c8f36da2039
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745454"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -45,17 +45,17 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Échéancier de vérification</p></td>
-<td><p>Jour</p></td>
+<td><p>Planification de la vérification</p></td>
+<td><p>Tous les jours</p></td>
 </tr>
 <tr class="even">
 <td><p>Outil de test</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
-<td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsDialPlan. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
+<td><p>Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
+<p>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsDialPlan. Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Dernière modification de la rubrique :** 2014-06-05_
 
 ## <a name="description"></a>Description
 
-L’applet de contrôle test-CsDialPlan vous permet d’afficher les résultats de l’application d’un plan de numérotation à un numéro de téléphone donné. Les plans de numérotation fournissent des informations, telles que les règles de normalisation, requises pour permettre aux utilisateurs d’entreprise Voice d’effectuer des appels téléphoniques. À partir d’un numéro composé et d’un plan de numérotation, cette applet de contrôle vérifie quelle règle de normalisation du plan de numérotation sera appliquée et quel sera le numéro traduit.
+L’applet de commande test-CsDialPlan vous permet d’afficher les résultats de l’application d’un plan de numérotation à un numéro de téléphone donné. Les plans de numérotation fournissent des informations, telles que la manière dont les règles de normalisation sont appliquées, requises pour permettre aux utilisateurs de voix entreprise d’effectuer des appels téléphoniques. Dotée d’un numéro composé et d’un plan de numérotation, cette applet de commande vérifiera la règle de normalisation qui sera appliquée au sein du plan de numérotation et quel sera le numéro traduit.
 
-Vous pouvez utiliser cette cmdlet pour résoudre les problèmes liés aux traductions de nombres ou pour vérifier l’application de règles à certains numéros.
+Vous pouvez utiliser cette applet de commande pour résoudre les problèmes liés aux traductions de numéros ou pour vérifier comment appliquer des règles à certains numéros.
 
 </div>
 
@@ -76,43 +76,43 @@ Vous pouvez utiliser cette cmdlet pour résoudre les problèmes liés aux traduc
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-CsDialPlan vous demande d’effectuer deux actions. Tout d’abord, vous devez obtenir une instance du plan de numérotation testé. pour ce faire, vous pouvez utiliser l’applet de passe Get-CsDialPlan. Deuxièmement, vous devez spécifier le numéro de téléphone qui doit être normalisé. Le format utilisé pour le numéro de téléphone doit correspondre au numéro composé par un utilisateur. Par exemple, cette commande récupère une instance du plan de numérotation, RedmondDialPlan et vérifie si le numéro de téléphone 12065551219 peut être normalisé :
+La cmdlet Test-CsDialPlan vous oblige à effectuer deux opérations. Tout d’abord, vous devez obtenir une instance du plan de numérotation testé ; Cela peut être réalisé à l’aide de la cmdlet Get-CsDialPlan. Deuxièmement, vous devez spécifier le numéro de téléphone qui doit être normalisé. Le format utilisé pour le numéro de téléphone doit correspondre au numéro composé par un utilisateur. Par exemple, cette commande extrait une instance du plan de numérotation, RedmondDialPlan, et vérifie si le numéro de téléphone 12065551219 peut être normalisé :
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-Si vous disposez d’une règle de normalisation qui ajoute automatiquement le code du pays (dans cet exemple, 1) et l’indicatif de la région (206), vous pouvez vérifier le numéro de téléphone 5551219 comme suit :
+Si vous disposez d’une règle de normalisation qui ajoute automatiquement le code du pays (dans cet exemple, 1) et l’indicatif régional (206), vous pouvez vérifier le numéro de téléphone 5551219, comme suit :
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-Pour plus d’informations, consultez la documentation d’aide de l’applet de [contrôle test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .
+Pour plus d’informations, reportez-vous à la documentation de l’aide relative à l’applet de commande [test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
+## <a name="determining-success-or-failure"></a>Détermination de la réussite ou de l’échec
 
-Test-CsDialPlan est différent de la plupart des cmdlets de test du serveur Lync, car il n’indique qu’un test a réussi ou échoué. Lors de l’utilisation de test-CsDialPlan, vous ne recevez pas de sortie semblable à celle-ci avec le résultat clairement libellé :
+Test-CsDialPlan diffère de la plupart des applets de commande Lync Server test car il indique uniquement indirectement si un test a réussi ou échoué. Lors de l’utilisation de test-CsDialPlan, vous ne recevez pas de sortie semblable à celle-ci avec le résultat clairement étiqueté :
 
 TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat : réussite
+Résultat : opération réussie
 
 Latence : 00:00:06.8630376
 
-Error
+«
 
-Diagnostic
+Diagnostique
 
-Si test-CsDialPlan réussit, vous recevez des informations sur la règle de normalisation qui a pu traduire et utiliser le numéro de téléphone spécifié.
+En revanche, si test-CsDialPlan réussit, vous recevrez des informations sur la règle de normalisation qui a réussi à traduire et à utiliser le numéro de téléphone spécifié :
 
 TranslatedNumber : + 12065551219
 
-MatchingRule : description =; Modèle = ^ (\\j (11)) $; Traduction = + $1 ;
+MatchingRule : description =; Modèle = ^ (\\d (11)) $; Translation = + $1 ;
 
-Nom = tout préfixe ; IsInternalExtension = false
+Nom = préfixe tout ; IsInternalExtension = false
 
-Si test-CsDialPlan échoue (autrement dit, si le plan de numérotation ne dispose pas d’une règle de normalisation qui peut traduire le numéro de téléphone spécifié), il vous suffit de recevoir la sortie « vider » comme suit :
+Si test-CsDialPlan échoue (autrement dit, si le plan de numérotation ne dispose pas d’une règle de normalisation qui peut traduire le numéro de téléphone spécifié), vous recevrez simplement la sortie « vide » comme suit :
 
 TranslatedNumber :
 
@@ -122,15 +122,15 @@ MatchingRule :
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
+## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test a pu échouer
 
-Voici quelques raisons courantes pour lesquelles les tests-CsDialPlan peuvent échouer :
+Voici quelques-unes des causes courantes de l’échec de test-CsDialPlan :
 
-  - Vous avez peut-être déjà utilisé un format incorrect lorsque vous spécifiez le numéro de téléphone. Les plans de numérotation incluent des règles de normalisation qui permettent à Lync Server de traduire les numéros de téléphone numérotés ou entrés par un utilisateur. Par conséquent, votre plan de numérotation doit être doté de règles de normalisation correspondant aux numéros que les utilisateurs peuvent composer. Par exemple, si les utilisateurs peuvent composer le code de pays, l’indicatif régional et le numéro de téléphone lui-même, cela signifie que votre plan de numérotation doit être doté d’une règle de normalisation pour gérer les numéros de téléphone comme suit :
+  - Vous avez peut-être utilisé un format incorrect lors de la spécification du numéro de téléphone. Les plans de numérotation incluent des règles de normalisation qui permettent à Lync Server de traduire les numéros de téléphone composés ou entrés par un utilisateur. Par conséquent, votre plan de numérotation doit avoir des règles de normalisation qui correspondent aux numéros susceptibles d’être composés par les utilisateurs. Par exemple, si les utilisateurs peuvent composer le code du pays, l’indicatif régional, puis le numéro de téléphone lui-même, cela signifie que votre plan de numérotation doit disposer d’une règle de normalisation pour gérer les numéros de téléphone comme ceci :
     
     12065551219
     
-    Toutefois, si vous entrez un numéro de téléphone incorrect (par exemple, en ne disquittant pas le dernier chiffre), test-CsDialPlan échoue. Ce n’est pas parce que le plan de numérotation est défectueux, car vous avez entré un numéro de téléphone qui ne peut pas être interprété.
+    Toutefois, si vous entrez un numéro de téléphone incorrect (par exemple, en ne laissant pas le chiffre final), test-CsDialPlan échoue. Cela n’est pas dû au fait que le plan de numérotation est défectueux mais parce que vous avez entré un numéro de téléphone qui ne peut pas être interprété.
 
 </div>
 

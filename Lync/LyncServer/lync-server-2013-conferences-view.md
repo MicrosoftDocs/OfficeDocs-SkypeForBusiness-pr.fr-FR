@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : vue conférences'
+title: 'Lync Server 2013 : affichage des conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36278c1053c2b5737e0de6caf914c050db93ea4b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56f292a35f5e4f24ba5226e06a308e780ce5c687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741604"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferences-view-in-lync-server-2013"></a>Affichage conférences dans Lync Server 2013
+# <a name="conferences-view-in-lync-server-2013"></a>Vue des conférences dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41741604"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-L’affichage conférences stocke les informations relatives aux conférences. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+L’affichage des conférences fournit des informations relatives aux conférences. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,63 +57,63 @@ L’affichage conférences stocke les informations relatives aux conférences. C
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Durée de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier une session de manière unique. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFIant de la session. Utilisé conjointement avec SessionIdTime pour identifier une session de manière unique. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de la Conférence.</p></td>
+<td><p>URI de la conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Type de l’URI de la Conférence. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Type de l’URI de la conférence. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfInstance</strong></p></td>
-<td><p>identificateur</p></td>
-<td><p>Utilisé pour les conférences récurrentes. Chaque instance d’une conférence périodique a le même ConferenceUri qu’une autre ConfInstance.</p></td>
+<td><p>unique</p></td>
+<td><p>Utilisé pour les conférences périodiques. Chaque instance d’une conférence périodique a la même valeur ConferenceUri, mais une valeur ConfInstance différente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceStartTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Heure de début de la Conférence.</p></td>
+<td><p>Heure de début de la conférence.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceEndTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Heure de fin de la Conférence.</p></td>
+<td><p>Heure de fin de la conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI de l’utilisateur qui a organisé la Conférence.</p></td>
+<td><p>URI de l’utilisateur qui a organisé la conférence.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OrganizerType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Type d’URI de l’utilisateur qui a organisé la Conférence. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Type de l’URI de l’utilisateur qui a organisé la conférence. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Client de l’utilisateur qui a organisé la Conférence. Pour plus d’informations, voir la <a href="lync-server-2013-tenants-table.md">table locataires dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Locataire de l’utilisateur qui a organisé la conférence. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-tenants-table.md">table clients dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom de domaine complet du pool ayant hébergé la Conférence.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom de domaine complet du pool ayant hébergé la conférence.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Indication</strong></p></td>
+<td><p><strong>Indicateur</strong></p></td>
 <td><p>type</p></td>
-<td><p>Masque binaire qui contient les attributs de la Conférence. Valeurs possibles :</p>
-<p>0X01 – transaction synthétique</p></td>
+<td><p>Masque de bits qui contient les attributs de la conférence. Les valeurs possibles sont les suivantes :</p>
+<p>0X01 – Synthetic Transaction</p></td>
 </tr>
 </tbody>
 </table>

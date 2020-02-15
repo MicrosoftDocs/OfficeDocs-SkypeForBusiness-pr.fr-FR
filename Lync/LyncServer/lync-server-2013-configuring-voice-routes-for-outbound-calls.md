@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Configuration des itinéraires de communications vocales pour les appels sortants'
+title: 'Lync Server 2013 : configuration des itinéraires des communications vocales pour les appels sortants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8b425ce1e0627645f84223f36f6fc0de18b5af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c5c74a11adfb3785196352f3c03772028e73ec9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734394"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Configuration des itinéraires de communications vocales pour les appels sortants dans Lync Server 2013
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Configuration des itinéraires des communications vocales pour les appels sortants dans Lync Server 2013
 
 </div>
 
@@ -37,36 +37,36 @@ ms.locfileid: "41734394"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Un itinéraire vocal de Lync Server 2013 associe des numéros de téléphone de destination à une ou plusieurs passerelles de réseau téléphonique commuté (PSTN) ou des Trunks SIP et un ou plusieurs enregistrements d’utilisation PSTN.
+Un itinéraire de communications vocales Lync Server 2013 associe les numéros de téléphone de destination à une ou plusieurs passerelles de réseau téléphonique commuté (PSTN) ou à des jonctions SIP, ainsi qu’un ou plusieurs enregistrements d’utilisation PSTN.
 
-**Pour afficher les itinéraires vocaux à l’aide du panneau de configuration de Lync Server**
+**Pour afficher les itinéraires des communications vocales à l’aide du panneau de configuration Lync Server**
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Cliquez sur **gamme vocale**.
+2.  Cliquez sur **Routage des communications vocales**.
 
 3.  Cliquez sur **Itinéraire**.
 
-4.  Double-cliquez sur un itinéraire vocal pour afficher d’autres propriétés dans la liste des itinéraires vocaux, ou sélectionnez l’itinéraire, puis cliquez sur **modifier**. Cliquez ensuite sur **afficher les détails**.
+4.  Double-cliquez sur un itinéraire de communications vocales pour afficher les autres propriétés de la liste des itinéraires de communications vocales ou sélectionnez l’itinéraire, puis cliquez sur **Modifier**. Cliquez ensuite sur **Afficher les détails**.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez uniquement afficher des informations détaillées sur un itinéraire à la fois.
+    > Vous ne pouvez afficher les informations détaillées que d’un seul itinéraire à la fois.
 
     
     </div>
 
-**Pour afficher les itinéraires vocaux à l’aide de Windows PowerShell**
+**Pour afficher les itinéraires des communications vocales à l’aide de Windows PowerShell**
 
-  - Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**. Les itinéraires vocaux peuvent être affichés à l’aide de Windows PowerShell et de l’applet **de passe Get-CsVoiceRoute** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+  - Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**. Les itinéraires des communications vocales peuvent être affichés à l’aide de Windows PowerShell et de l’applet de commande **Get-CsVoiceRoute** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
     
-    Pour afficher des informations sur l’ensemble de vos itinéraires vocaux, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
+    Pour afficher des informations sur tous vos itinéraires vocaux, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsVoiceRoute
     
-    Vous obtiendrez des indications semblables à ceci :
+    Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
         Identity          : global
         Priority          : -1
@@ -82,7 +82,7 @@ Un itinéraire vocal de Lync Server 2013 associe des numéros de téléphone de 
 
 
 > [!NOTE]  
-> Pour plus d’informations, reportez-vous à la section <A href="lync-server-2013-voice-routes.md">itinéraires vocaux dans Lync Server 2013</A> dans la documentation de planification.
+> Pour plus d’informations, reportez-vous à <A href="lync-server-2013-voice-routes.md">Voice routes in Lync Server 2013</A> dans la documentation de planification.
 
 
 
@@ -92,9 +92,9 @@ Un itinéraire vocal de Lync Server 2013 associe des numéros de téléphone de 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Créer un itinéraire vocal dans Lync Server 2013](lync-server-2013-create-a-voice-route.md)
+  - [Créer un itinéraire des communications vocales dans Lync Server 2013](lync-server-2013-create-a-voice-route.md)
 
-  - [Modifier un itinéraire vocal dans Lync Server 2013](lync-server-2013-modify-a-voice-route.md)
+  - [Modifier un itinéraire des communications vocales dans Lync Server 2013](lync-server-2013-modify-a-voice-route.md)
 
 </div>
 

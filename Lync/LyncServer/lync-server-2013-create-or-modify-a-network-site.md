@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Création ou modification d’un site réseau'
+title: 'Lync Server 2013 : création ou modification d’un site réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed721a48b12a497b25d58e7ebb65ff3a91980904
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce676c4e86d6bceae81d60897846e3005780eb58
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722566"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,44 +37,44 @@ ms.locfileid: "41722566"
 
 _**Dernière modification de la rubrique :** 2013-02-24_
 
-Les déploiements de contrôle d’admission des appels (CAC), de E9-1-1 et de contournement de média multimédias dépendent de la configuration des *sites réseau* qui sont définis dans et qui sont toujours associés à une région réseau. Un site réseau représente une succursale, un ensemble de bâtiments ou un campus. Les sites réseau représentent des collections de sous-réseaux avec une bande passante similaire.
+Les déploiements du contrôle d’admission des appels, du système E9-1-1 et du contournement de média s’appuient sur la configuration des *sites réseau* qui sont définis dans une région du réseau et toujours associés à celle-ci. Un site réseau représente une succursale, un ensemble de bâtiments ou un campus. Les sites réseau représentent des ensembles de sous-réseaux avec une bande passante similaire.
 
-Pour créer ou modifier des sites réseau, utilisez les procédures suivantes. Par exemple, si vous avez déjà créé des sites réseau pour une seule fonctionnalité vocale, vous n’avez pas besoin de créer de nouveaux sites réseau. les autres fonctions vocales utilisent les mêmes sites. Cependant, il est possible que vous soyez obligé de modifier la définition d’un site réseau existant pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé un site réseau pour E9-1-1, vous devez modifier le site réseau au cours du déploiement du contrôle d’admission des appels pour appliquer un profil de stratégie de bande passante.
+Les procédures suivantes vous permettent de créer ou de modifier des sites réseau. Par exemple, si vous avez créé des sites réseau pour une fonctionnalité vocale, vous n’avez pas besoin de créer d’autres sites réseau ; les autres fonctionnalités vocales utiliseront ces mêmes sites. Toutefois, il est possible que vous soyez obligé de modifier la définition d’un site réseau existant pour appliquer des paramètres spécifiques à une fonctionnalité.  Par exemple, si vous avez créé un site réseau pour E9-1-1, vous devez modifier le site réseau au cours du déploiement du contrôle d’admission des appels pour appliquer un profil de stratégie de bande passante.
 
 <div>
 
 
 > [!NOTE]  
-> Le cas échéant, vous trouverez des exemples et des exigences spécifiques pour les sites réseau en ce qui concerne une fonctionnalité vocale avancée dans la documentation de déploiement pour chaque fonctionnalité : 
+> Vous pouvez trouver des exemples et des conditions spécifiques pour les sites réseau concernant chaque fonctionnalité vocale avancée dans la documentation de déploiement : 
 > <UL>
 > <LI>
-> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Configurer les sites réseau pour le CAC dans Lync Server 2013</A></P></LI></UL>
+> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Configuration des sites réseau pour le contrôle d’admission des adresses dans Lync Server 2013</A></P></LI></UL>
 
 
 
 </div>
 
-Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
+Pour plus d’informations sur l’utilisation des sites réseau, reportez-vous à la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
-  - [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
+  - [New-applet csnetworksite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
-  - [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)
+  - [Get-applet csnetworksite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)
 
-  - [Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+  - [Set-applet csnetworksite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
-  - [Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)
+  - [Remove-applet csnetworksite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)
 
 <div>
 
 ## <a name="create-a-network-site"></a>Créer un site réseau
 
-Créez une région réseau qui peut être utilisée par le contrôle d’admission des appels, le E9-1-1 ou le contournement multimédia.
+Créez une région réseau pouvant être utilisée par le contrôle d’admission des appels, le système E9-1-1 ou le contournement de média.
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-management-shell"></a>Pour créer un site réseau à l’aide de Management Shell
+## <a name="to-create-a-network-site-by-using-management-shell"></a>Pour créer un site réseau à l’aide de Lync Server Management Shell
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande New-CsNetworkSite pour créer des sites réseau :
     
@@ -95,15 +95,15 @@ Créez une région réseau qui peut être utilisée par le contrôle d’admissi
     
     </div>
 
-3.  Pour finir de créer des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.
+3.  Pour finir de créer des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Pour créer un site réseau en utilisant le panneau de configuration de Lync Server
+## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Pour créer un site réseau à l’aide du Panneau de configuration Lync Server
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
@@ -141,7 +141,7 @@ Créez une région réseau qui peut être utilisée par le contrôle d’admissi
 
 10. Cliquez sur **Valider**.
 
-11. Pour finir de créer des sites réseau pour votre topologie, répétez les étapes 4 à 10 avec les paramètres pour d’autres sites.
+11. Pour finir de créer des sites réseau pour votre topologie, répétez les étapes 4 à 10 avec les paramètres pour d’autres sites.
 
 </div>
 
@@ -151,42 +151,42 @@ Créez une région réseau qui peut être utilisée par le contrôle d’admissi
 
 ## <a name="modify-a-network-site"></a>Modifier un site réseau
 
-Modification d’une région réseau qui peut être utilisée par le contrôle d’admission des appels, E9-1-1 ou contournement multimédia.
+Modifiez une région réseau pouvant être utilisée par le contrôle d’admission des appels, le système E9-1-1 ou le contournement de média.
 
 <div>
 
 ## <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande Set-CsNetworkSite pour modifier des sites réseau :
     
         Set-CsNetworkSite -Identity <string>
     
-    Exemple :
+    Par exemple :
     
         Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
     
-    Dans cet exemple, le site appelé « Albuquerque » est déplacé dans la région « NorthAmerica ». Pour modifier la configuration du site réseau afin de déployer le contrôle d’admission des appels, le système E9-1-1 ou la déviation du trafic multimédia, modifiez les paramètres du site réseau en exécutant l’applet de commande Set-CsNetworkSite avec le paramètre BWPolicyProfileID ou LocationPolicy, respectivement.
+    Dans cet exemple, le site appelé « Albuquerque » est déplacé dans la région « NorthAmerica ». Pour modifier la configuration du site réseau afin de déployer le contrôle d’admission des appels, le système E9-1-1 ou le contournement de média, modifiez les paramètres du site réseau en exécutant l’applet de commande Set-CsNetworkSite avec le paramètre BWPolicyProfileID ou LocationPolicy, respectivement.
     
     <div>
     
 
     > [!NOTE]  
-    > Même si le paramètre BypassID existe pour la déviation du trafic multimédia, nous vous recommandons vivement de ne pas remplacer les ID de contournement générés automatiquement. Vous n’avez pas besoin de spécifier des paramètres supplémentaires pour configurer un site réseau pour la déviation du trafic multimédia.
+    > Bien que le paramètre BypassID existe pour le contournement de média, nous vous recommandons vivement de ne pas remplacer les ID de contournement générés automatiquement. Vous n’avez pas besoin de spécifier des paramètres supplémentaires pour configurer un site réseau pour le contournement de média.
 
     
     </div>
 
-3.  Pour finir de modifier des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.
+3.  Pour finir de modifier des sites réseau pour votre topologie, répétez l’étape 2 avec les paramètres pour d’autres sites.
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Pour modifier un site réseau en utilisant le panneau de configuration de Lync Server
+## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Pour modifier un site réseau à l’aide du Panneau de configuration Lync Server
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
@@ -200,7 +200,7 @@ Modification d’une région réseau qui peut être utilisée par le contrôle d
 
 7.  Cliquez sur **Valider**.
 
-8.  Pour finir de modifier les sites réseau, répétez les étapes 4 à 7 avec les paramètres pour d’autres sites.
+8.  Pour finir de modifier les sites réseau, répétez les étapes 4 à 7 avec les paramètres pour d’autres sites.
 
 </div>
 

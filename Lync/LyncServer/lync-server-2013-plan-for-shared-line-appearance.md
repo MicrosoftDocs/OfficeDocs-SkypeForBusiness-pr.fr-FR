@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : planification de l’apparence des lignes partagées'
+title: 'Lync Server 2013 : planifier l’apparence des lignes partagées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fdb4f8ad407950f8d3180d030ede03a1e93cf0b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755164"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,41 +37,41 @@ ms.locfileid: "41755164"
 
 _**Dernière modification de la rubrique :** 2016-03-21_
 
-Pour plus d’informations sur la planification de l’apparence des lignes partagées dans Lync Server 2013, consultez la mise à jour cumulative 2016.
+Consultez cette rubrique pour découvrir comment planifier l’apparence de ligne partagée (SLA) dans Lync Server 2013, mise à jour cumulative avril 2016.
 
-L’apparence des lignes partagées est une fonctionnalité de Lync Server 2013, mise à jour cumulative 2016 avril pour le traitement des appels multiples sur un numéro particulier appelé numéro partagé. SLA peut configurer tout utilisateur de Lync pour l’entreprise à l’aide d’un numéro partagé avec plusieurs lignes pour répondre à plusieurs appels. Les appels ne sont pas reçus réellement sur le numéro partagé, mais ils sont transférés vers les utilisateurs qui agissent en tant que délégués pour le numéro partagé. Les délégués peuvent prendre l’appel, tandis que les autres reçoivent une notification sur leur téléphone indiquant le nom de la personne qui a pris l’appel et la ligne qui est occupée. Le nombre de lignes et le nombre de délégués sont configurables pour un numéro partagé en mode partage de lignes. De plus, les options avancées, comme BusyOption (ce qui est le cas lorsque toutes les lignes sont occupées) et MissedCallOption (ce qui est le cas lorsqu’aucun des délégués ne prend d’appel), peuvent également être configurées pour un numéro partagé.
+Shared Line Appearance est une fonctionnalité de Lync Server 2013, cumulative update avril 2016 pour le traitement de plusieurs appels sur un numéro spécifique appelé « numéro partagé ». Le contrat SLA peut configurer un utilisateur Lync voix entreprise compatible avec plusieurs lignes pour répondre à plusieurs appels. Les appels ne sont pas réellement reçus sur le numéro partagé, mais ils sont transférés aux utilisateurs qui agissent en tant que délégués pour le numéro partagé. Tous les délégués peuvent sélectionner l’appel pendant que le reste des délégués obtient une notification sur leur téléphone indiquant qui a pris l’appel et quelle ligne a été utilisée comme résultat. Le nombre de lignes et les délégués peuvent être configurés pour un numéro partagé dans le contrat SLA. De plus, les options avancées, telles que BusyOption (ce qui se passe dans une situation où toutes les lignes sont occupées) et MissedCallOption (le cas dans lequel aucun des délégués ne récupère un appel), peuvent également être configurées pour un numéro partagé.
 
-Le SLA est uniquement pris en charge sur les appareils mobiles suivants (il n’est pas pris en charge pour les clients Lync sur des ordinateurs, des téléphones mobiles ou d’autres appareils) :
+Le contrat SLA est pris en charge uniquement sur les appareils téléphoniques suivants (il n’est pas pris en charge pour les clients Lync sur des ordinateurs, des téléphones mobiles ou d’autres appareils) :
 
-  - Polycom VVX300 avec mise à jour du microprogramme 5.4.1
+  - Polycom VVX300 avec mise à jour du microprogramme 5.4.1
 
-  - Polycom VVX400 avec mise à jour du microprogramme 5.4.1
+  - Polycom VVX400 avec mise à jour du microprogramme 5.4.1
 
-  - Polycom VVX500 avec mise à jour du microprogramme 5.4.1
+  - Polycom VVX500 avec mise à jour du microprogramme 5.4.1
 
-  - Polycom VVX600 avec mise à jour du microprogramme 5.4.1
+  - Polycom VVX600 avec mise à jour du microprogramme 5.4.1
 
-SLA est une nouvelle fonctionnalité de Lync Server 2013, mise à jour cumulative 2016 avril.
+Le contrat SLA est une nouvelle fonctionnalité de Lync Server 2013, mise à jour cumulative avril 2016.
 
-Pour plus d’informations sur le déploiement du contrat de service d’application, voir [déploiement d’une ligne partagée dans Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
+Pour plus d’informations sur le déploiement du contrat SLA, voir [Deploy Shared Line Appearance in Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
 
 <div>
 
 ## <a name="feature-list"></a>Liste des fonctionnalités
 
-La configuration d’un groupe de mode partage de lignes permet les actions suivantes :
+La configuration d’un groupe de SLA permet d’activer les éléments suivants :
 
-  - Tous les délégués du groupe peuvent répondre aux appels entrants vers le même numéro partagé. Ces appels peuvent être basés sur RTC ou le protocole SIP.
+  - Tous les délégués du groupe peuvent répondre à des appels entrants vers le même numéro partagé. Les appels peuvent être basés sur PSTN ou sur SIP.
 
-  - Les délégués peuvent mettre en attente des appels ou les prendre.
+  - Les délégués peuvent suspendre et reprendre des appels.
 
-  - Les délégués peuvent transférer des appels vers un numéro extérieur au groupe de mode partage de lignes.
+  - Les délégués peuvent transférer des appels vers un numéro en dehors du groupe SLA.
 
-  - Les délégués peuvent voir le nombre d’appels actuels sur le numéro partagé et afficher le statut de chacun de ces appels.
+  - Les délégués peuvent voir le nombre d’appels actuellement sur le numéro partagé et afficher l’état de chacun de ces appels.
 
-  - Vous pouvez configurer un nombre maximal d’appels simultanés pour le numéro partagé. Vous pouvez également définir comment traiter les nouveaux appels une fois cette limite atteinte. Les appels hors limite peuvent être rejetés avec une tonalité Occupé, transférés vers un autre numéro ou transférés vers la messagerie vocale.
+  - Vous pouvez configurer un nombre maximal d’appels simultanés pour le numéro partagé. Vous pouvez également définir la façon dont vous souhaitez que les appels supplémentaires soient gérés une fois ce maximum atteint. Les appels excédentaires peuvent être rejetés avec un signal occupé, transférés vers un autre numéro ou transférés vers la messagerie vocale.
 
-  - Vous pouvez définir comment traiter les appels manqués (appels non pris après un certain temps). Si vous activez la messagerie vocale pour le groupe, les appels manqués sont redirigés automatiquement vers la messagerie vocale. Si vous n’avez pas activé la messagerie vocale pour le groupe (numéro partagé), vous pouvez décider de rejeter les appels manqués avec une tonalité Occupé, de les transférer vers un autre numéro ou de les déconnecter.
+  - Vous pouvez configurer le mode de traitement des appels manqués (appels non récupérés après un certain temps). Si vous activez la messagerie vocale pour l’identité du groupe, les appels manqués sont automatiquement dirigés vers la messagerie vocale. Si la messagerie vocale n’est pas activée pour l’identité du groupe (numéro partagé), vous pouvez choisir de refuser les appels manqués à l’aide d’un signal d’occupation, de le transférer à un autre numéro ou de le déconnecter.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : rapport de tendance de qualité multimédia Server'
+title: 'Lync Server 2013 : rapport de tendance de la qualité des médias serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4efb7e2f29c1da75a81f4df4ec586c396d77d3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c36add301665c2e6b689bd1343cc09efeec5b3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732434"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Rapport de tendances de la qualité multimédia du serveur dans Lync Server 2013
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Rapport de tendance de la qualité des médias serveur dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41732434"
 
 _**Dernière modification de la rubrique :** 2012-11-12_
 
-Le rapport de tendances de la qualité Media Media fournit un moyen de comparer graphiquement les performances d’une qualité d’appel, par exemple le volume des appels, le pourcentage d’appels médiocres, la perte de paquets et l’instabilité. Cela permet d’identifier plus facilement les serveurs dont les performances sont médiocres, les serveurs qui sont sous-utilisés ou sur-utilisés.
+Le rapport de tendance générale de la qualité des médias serveur vous permet de comparer de façon graphique la qualité de l’expérience sur 5 serveurs maximum, par exemple le volume d’appel, le pourcentage d’appels médiocres, la perte de paquet et la gigue. Cela permet d’identifier plus facilement les serveurs dont les performances sont médiocres, les serveurs qui sont sous-utilisés ou sur-utilisés.
 
 <div>
 
@@ -45,9 +45,9 @@ Le rapport de tendances de la qualité Media Media fournit un moyen de comparer 
 
 Le rapport de tendance générale de la qualité des médias serveur est accessible à partir de l’un des rapports suivants :
 
-  - [Rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la métrique de Trend)
+  - [Rapport de performances du serveur dans Lync server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la mesure tendance)
 
-  - [Rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) (en cliquant sur la métrique du serveur Edge A/V). Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
+  - [Rapport détaillé des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) (en cliquant sur la mesure serveur Edge A/V. Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance des médias de qualité serveur en cliquant sur le nom du point de terminaison.)
 
 </div>
 
@@ -55,9 +55,9 @@ Le rapport de tendance générale de la qualité des médias serveur est accessi
 
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Utilisation efficace du rapport de tendance de la qualité des médias serveur
 
-Lorsque vous cliquez sur la métrique de tendance dans le rapport sur les [performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) pour un serveur en particulier, le rapport tendances de la qualité média du serveur s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
+Lorsque vous cliquez sur la mesure tendance dans le [rapport de performances du serveur dans Lync server 2013](lync-server-2013-server-performance-report.md) pour un serveur spécifique, le rapport de tendance de la qualité des médias serveur s’ouvre. Cependant, vous obtenez une instance vide de ce rapport ; le serveur que vous sélectionnez ne sera pas affiché à l’écran. Vous devez sélectionner ce serveur dans la liste déroulante Serveurs. Notez que la liste déroulante Serveurs propose une option Tout sélectionner. Cette option ne sera pas disponible si vous avez plus de 5 serveurs, en effet le rapport de tendance de la qualité des médias serveur ne peut afficher que 5 serveurs à la fois.
 
-Sur les graphiques affichés par le rapport Trend Server Media Quality tendance, les points intitulés volume d’appel et mauvais pourcentage d’appels sont des hyperliens. Cliquez sur un point sur le graphique pour ouvrir une instance du [rapport de liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) indiquant le nombre total d’appels (ou les appels médiocres) pendant la période spécifiée.
+Sur les graphiques affichés par le rapport de tendance de la qualité des médias serveur, les points étiquetés volume d’appels et pourcentage d’appels médiocres sont des lien hypertexte ; un clic sur un point de la courbe ouvre une instance du [rapport de liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) affichant le nombre total d’appels (ou d’appels médiocres) pendant la période spécifiée.
 
 </div>
 
@@ -82,7 +82,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>De</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -92,7 +92,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>À</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
 <p>7/7/2012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
@@ -102,14 +102,14 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Intervalle</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 8/7/2012 et une date de fin de 9/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec le 7/8/2012 comme date de début et le 28/9/2012 comme date de fin, les données s’affichent pour les jours compris entre le 7/8/2012 12:00 AM et le 7/9/2012 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de serveur</strong></p></td>
@@ -125,13 +125,13 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 </tr>
 <tr class="odd">
 <td><p><strong>Serveurs</strong></p></td>
-<td><p>Nom du serveur de la session ; cette liste déroulante est automatiquement remplie en fonction de la valeur du filtre Type de serveur. Vous pouvez sélectionner jusqu’à 5 serveurs différents lors de la création d’un rapport.</p></td>
+<td><p>Nom du serveur de la session ; cette liste déroulante est automatiquement remplie en fonction de la valeur du filtre Type de serveur. Vous pouvez sélectionner jusqu’à 5 serveurs différents lors de la création d’un rapport.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type d’accès</strong></p></td>
 <td><p>Indique si le participant était connecté au réseau interne ou à partir d’un réseau externe. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>Interne</p></li>
 <li><p>Externe</p></li>
 </ul></td>
@@ -140,18 +140,18 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 <td><p><strong>Type de réseau</strong></p></td>
 <td><p>Indique le type de réseau auquel le participant était connecté. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
-<li><p>Câblé</p></li>
-<li><p>Sans fil</p></li>
+<li><p>Tous les</p></li>
+<li><p>Circuit</p></li>
+<li><p>Fil</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indique si un participant externe utilisait une connexion VPN lors de la session. Les valeurs autorisées sont les suivantes :</p>
 <ul>
-<li><p>[Tous]</p></li>
+<li><p>Tous les</p></li>
 <li><p>VPN</p></li>
-<li><p>Non-VPN</p></li>
+<li><p>Non VPN</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -190,7 +190,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de ten
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
+<td><p>Taux moyen de dégradation de la note MOS (note moyenne d’opinion) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion étaient calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Lync Server utilise un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
 <p>Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
@@ -201,7 +201,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de ten
 <tr class="even">
 <td><p><strong>Boucle (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un point de terminaison. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.</p>
+<td><p>Temps moyen (en millisecondes) nécessaire à un paquet RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un point de terminaison. Des boucles de 200 millisecondes ou moins sont considérées qualitativement acceptables.</p>
 <p>Des boucles de durée plus élevée peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les durées d’aller-retour élevées créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.</p></td>
 </tr>
 <tr class="odd">
@@ -212,7 +212,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de ten
 <tr class="even">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (L’instabilité est une mesure &quot;de&quot; la fluctuations d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, et entraînent une déviation ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>

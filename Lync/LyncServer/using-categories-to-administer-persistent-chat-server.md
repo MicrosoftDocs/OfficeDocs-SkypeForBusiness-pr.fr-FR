@@ -1,5 +1,5 @@
 ---
-title: Utilisation des catégories pour administrer le serveur de conversation permanente
+title: Utilisation de catégories pour administrer le serveur de conversation permanente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52e56f776969ece55f71355ed7f184dd6dd46a91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eecae8ff3c84861df7c624e8ca5b958c4fb53696
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a>Utilisation des catégories pour administrer le serveur de conversation permanente
+# <a name="using-categories-to-administer-persistent-chat-server"></a>Utilisation de catégories pour administrer le serveur de conversation permanente
 
 </div>
 
@@ -37,21 +37,21 @@ ms.locfileid: "41738594"
 
 _**Dernière modification de la rubrique :** 2013-10-01_
 
-Le déploiement de votre serveur Chat permanent peut accueillir de nombreux salles de conversation permanentes concomitantes. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
+Votre déploiement de serveur de conversation permanente peut héberger de nombreuses salles de conversation permanentes simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
 
 <div>
 
 
 > [!NOTE]  
-> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur des ordinateurs exécutant une conversation permanente (client Lync) pour l’utilisateur, les administrateurs de chat permanent (dans le rôle <STRONG>cspersistentchatadministrator</STRONG> ) doivent utiliser le panneau de configuration de Lync Server ou les applets de commande Windows PowerShell pour créer ou gérer des catégories.
+> Bien que de nombreuses fonctionnalités de gestion des salles de conversation soient disponibles sur les ordinateurs qui exécutent une conversation permanente (client Lync) pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle <STRONG>cspersistentchatadministrator</STRONG> ) doivent utiliser le panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer ou gérer des catégories.
 
 
 
 </div>
 
-Les administrateurs de chat permanent utilisent le panneau de configuration de Lync Server ou des applets de commande Windows PowerShell pour créer et gérer des catégories, et pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
+Les administrateurs de conversation permanente utilisent le panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer et gérer des catégories, ainsi que pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
 
-Les gestionnaires de salle de conversation permanents, qui peuvent gérer une ou plusieurs salles de conversation, peuvent utiliser le client Lync pour lancer une application Web de gestion de salle de création et de gestion des salles (ou les clients peuvent créer des solutions et des flux de travail personnalisés à appeler). Les administrateurs de chat permanent peuvent également utiliser les applets de commande du panneau de configuration de Lync Server ou de Windows PowerShell pour créer et gérer des salles.
+Les gestionnaires de salles de conversation permanente, qui peuvent gérer une ou plusieurs salles de conversation, peuvent utiliser le client Lync pour lancer une application Web de gestion de salle afin de créer et gérer des salles (ou les clients peuvent créer des solutions et des flux de travail personnalisés à appeler). Les administrateurs de conversation permanente peuvent également utiliser le panneau de configuration Lync Server ou les applets de commande Windows PowerShell pour créer et gérer des salles.
 
 <div>
 
@@ -63,7 +63,7 @@ Les gestionnaires de salle de conversation permanents, qui peuvent gérer une ou
 
 </div>
 
-Les responsables de salle de conversation peuvent apporter des modifications à toutes les propriétés des salles de conversation, mais ne peuvent pas modifier la catégorie de la salle. Il n’est pas possible de les empêcher d’effectuer les actions suivantes :
+Les responsables de salles de conversation peuvent apporter des modifications à toutes les propriétés des salles de conversation, à l’exception de la catégorie de la salle. Il n’est pas possible de les empêcher d’effectuer les actions suivantes :
 
   - Désactivation d’une salle de conversation
 
@@ -71,9 +71,9 @@ Les responsables de salle de conversation peuvent apporter des modifications à 
 
   - Modification de la description d’une salle de conversation
 
-  - Modification du type de salle d’une conversation (Auditorium ou Normal)
+  - Modification du type d’une salle de conversation (Auditorium ou Normal)
 
-  - Modification de la confidentialité d’une salle (ouverte, fermée ou secrète)
+  - modification de la confidentialité d’une salle (ouverte/fermée/secrète) ;
 
   - Ajout ou suppression de membres
 
@@ -81,17 +81,17 @@ Les responsables de salle de conversation peuvent apporter des modifications à 
 
   - Ajout ou suppression d’un complément
 
-  - Modification des paramètres, comme les invitations (selon ce qu’autorise la catégorie)
+  - Modification de paramètres tels que les invitations (en fonction de ce qui est autorisé par la catégorie)
 
 <div>
 
 ## <a name="delegated-administration"></a>Administration déléguée
 
-La création et la gestion des salles de conversation permanentes sont beaucoup plus simples grâce à l’utilisation correcte des catégories. Un administrateur de chat permanent peut définir des **AllowedMembers** et des **créateurs** pour chaque catégorie, et peut également définir les paramètres et les comportements de la salle de conversation par défaut qui seront appliqués à l’ensemble des salles de conversation créées dans la catégorie. Les administrateurs de chat permanent créent et gèrent des catégories à l’aide du panneau de configuration de Lync Server ou des applets de commande Windows PowerShell.
+La création et la gestion de salles de conversation permanente sont beaucoup plus faciles avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir **AllowedMembers** et des **créateurs** pour chaque catégorie, et peut également définir les paramètres et les comportements de la salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créent et gèrent des catégories à l’aide du panneau de configuration Lync Server ou des applets de commande Windows PowerShell.
 
-Les utilisateurs, les unités d’organisation et les groupes d’utilisateurs identifiés comme créateurs de la catégorie sont les seuls individus et groupes autorisés à créer des salles dans la catégorie. Une fois la catégorie créée, ils peuvent définir les utilisateurs, les unités d’organisation et les groupes d’utilisateurs à partir de la liste **AllowedMembers** de la catégorie comme responsables et membres de salle de conversation pour gérer et participer à la salle.
+Les utilisateurs, les unités d’organisation (UO) et les groupes d’utilisateurs identifiés comme créateurs de la catégorie sont les seuls individus et groupes autorisés à créer des salles dans la catégorie. Une fois la catégorie créée, les utilisateurs, les unités d’organisation et les groupes d’utilisateurs de la liste **AllowedMembers** de la catégorie peuvent choisir comme responsables et membres de la salle de conversation pour gérer et participer à la salle.
 
-Les salles de conversation créées dans une catégorie respectent les stratégies et les paramètres appliqués par la catégorie (par exemple, qui peut se trouver dans l’appartenance de la salle, qui peut gérer la salle, si les téléchargements de fichiers sont autorisés, si les invitations sont envoyées, etc.).
+Les salles de conversation créées dans une catégorie adhèrent aux stratégies et paramètres appliqués par la catégorie (par exemple, qui peuvent être dans l’appartenance de la salle, qui peut gérer la salle, si les téléchargements de fichiers sont autorisés, si les invitations sont envoyées, etc.).
 
 </div>
 

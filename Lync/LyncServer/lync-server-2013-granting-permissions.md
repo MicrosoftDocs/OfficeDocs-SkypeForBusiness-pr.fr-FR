@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Octroi d’autorisations'
+title: 'Lync Server 2013 : octroi d’autorisations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 495b556254ab42270aa031861aea0c4390f17602
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763898"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,17 +37,17 @@ ms.locfileid: "41763898"
 
 _**Dernière modification de la rubrique :** 2012-10-15_
 
-Dans le cas de l’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique (UO), ce qui permet aux membres du groupe RTCUniversalServerAdmins dans cette UO d’installer Lync Server 2013 dans le domaine spécifié. Lorsque vous accordez des autorisations sur une unité d’organisation, les autorisations suivantes sont octroyées :
+Pour le programme d’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique, permettant ainsi aux membres du groupe RTCUniversalServerAdmins dans cette unité d’organisation d’installer Lync Server 2013 dans le domaine spécifié. Quand vous octroyez des autorisations à une unité d’organisation, vous octroyez les autorisations suivantes :
 
-  - Suit
+  - Lecture
 
-  - Écrits
+  - Write
 
   - ReadSPN
 
   - WriteSPN
 
-Dans le cas d’une administration, vous pouvez ajouter des autorisations à des UO spécifiques de sorte que les membres des groupes universels RTC créés par la préparation de la forêt puissent accéder aux UO sans avoir besoin d’être membres du groupe administrateurs de domaine. Les autorisations ajoutées à l’unité d’organisation spécifiée sont les mêmes que celles apportées par l’applet de passe **Enable-CsAdDomain** aux ordinateurs et aux conteneurs d’UO des utilisateurs.
+En ce qui concerne l’administration, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés pendant la préparation de la forêt puissent y accéder sans avoir besoin d’appartenir au groupe Administrateurs du domaine. Les autorisations ajoutées à l’unité d’organisation spécifiée sont identiques à celles que la cmdlet **Enable-CsAdDomain** ajoute aux conteneurs d’unités d’organisation d’ordinateurs et d’utilisateurs.
 
 <div>
 
@@ -55,7 +55,7 @@ Dans le cas d’une administration, vous pouvez ajouter des autorisations à des
 
   - [Octroi d’autorisations de configuration dans Lync Server 2013](lync-server-2013-granting-setup-permissions.md)
 
-  - [Octroi d’autorisations d’unité organisationnelle dans Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
+  - [Octroi d’autorisations d’unité d’organisation dans Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
 
 </div>
 

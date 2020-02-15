@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Liste des tables de conformité avec le serveur de conversation permanente'
+title: 'Lync Server 2013 : liste des tables de conformité du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c4f6e9622e839e2f1fd719b8e2d7ba95286247e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fab78f554c94e11c808eeb28929d6b4511c3a695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765412"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Liste des tables de conformité avec le serveur de conversation permanente dans Lync Server 2013
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Liste des tables de conformité du serveur de conversation permanente dans Lync Server 2013
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765412"
 
 _**Dernière modification de la rubrique :** 2012-10-06_
 
-Le schéma de base de données de conformité des conversations permanentes se compose des tables suivantes.
+Le schéma de la base de données de conformité de la conversation permanente se compose des tables suivantes.
 
 <div>
 
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>Liste des tables de compatibilité de serveur Chat permanent
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>Liste des tables de serveur de conformité de la conversation permanente
 
 
 <table>
@@ -58,21 +58,21 @@ Le schéma de base de données de conformité des conversations permanentes se c
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData dans Lync Server 2013</a></p></td>
-<td><p>Contient les événements de conformité qui n’ont pas encore été traités par l’adaptateur configuré.</p>
-<p>Le tableau suivant contient des événements liés à des discussions permanentes, tels que des messages de discussion et des téléchargements de fichiers. (Les événements de participants sont suivis par la table tblComplianceParticipant.)</p>
-<p>(Les serveurs qui ont géré les événements dans ce tableau apparaissent dans la table tblComplianceFanout.)</p></td>
+<td><p>Contient les événements de conformité qui n’ont pas encore été traités par la carte configurée.</p>
+<p>Ce tableau comprend les événements persistants liés à la conversation, tels que les messages de conversation et les téléchargements de fichiers. (Les événements des participants sont suivis par la table tblComplianceParticipant.)</p>
+<p>(Les serveurs qui ont traité les événements de cette table sont répertoriés dans la table tblComplianceFanout.)</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout dans Lync Server 2013</a></p></td>
-<td><p>Contient les serveurs qui ont traité un événement de conformité. Ce tableau est étroitement couplé à la table tblComplianceData.</p></td>
+<td><p>Contient les serveurs qui ont traité un événement de conformité. Celle-ci est étroitement associée à la table tblComplianceData.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant dans Lync Server 2013</a></p></td>
-<td><p>Contient les participants actuels par service de conversation et par serveur. Elle est conservée en fonction des événements de jointure et de conformité de partie reçus du service de chat permanent.</p></td>
+<td><p>Contient les participants actifs par service de conversation et par serveur. Elle est conservée en fonction des événements de conformité et de participation reçus du service de conversation permanente.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState dans Lync Server 2013</a></p></td>
-<td><p>Contient des informations sur l’état de conformité au pool.</p></td>
+<td><p>Contient les informations d’état de conformité au niveau du pool.</p></td>
 </tr>
 </tbody>
 </table>

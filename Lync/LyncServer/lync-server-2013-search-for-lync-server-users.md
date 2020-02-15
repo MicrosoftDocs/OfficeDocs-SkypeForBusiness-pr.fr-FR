@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Rechercher des utilisateurs de Lync Server'
+title: 'Lync Server 2013 : recherche d’utilisateurs Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7134afbc86134471e8d536b36fc8e28142a64db2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91bbaf491abbf40b8cdc3f272ee2b47599c09d3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764922"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Rechercher des utilisateurs de Lync Server dans Lync Server 2013
+# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Rechercher des utilisateurs Lync Server dans Lync Server 2013
 
 </div>
 
@@ -39,13 +39,13 @@ _**Dernière modification de la rubrique :** 2014-05-14_
 
 Vous pouvez utiliser les résultats d’une requête de recherche pour configurer des utilisateurs pour Lync Server 2013. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne.
 
-Vous pouvez rechercher des utilisateurs à l’aide du panneau de configuration de Lync Server ou du composant logiciel enfichable utilisateurs et ordinateurs Active Directory. La procédure suivante vous explique comment utiliser le panneau de configuration de Lync Server pour rechercher des utilisateurs.
+Vous pouvez rechercher des utilisateurs à partir du Panneau de configuration Lync Server ou du composant Utilisateurs et ordinateurs Active Directory. La procédure suivante explique comment utiliser le panneau de configuration Lync Server pour rechercher des utilisateurs.
 
 <div>
 
 
 > [!NOTE]  
-> Dans un environnement doté d’une topologie de forêt centrale, il est possible que les résultats de la recherche soient inexacts lorsque vous recherchez un utilisateur à l’aide de son adresse de messagerie. Au lieu de cela, vous pouvez rechercher des utilisateurs en spécifiant un préfixe d’adresse SIP (par exemple, SIP : nom), ajouter un filtre de recherche et sélectionner une adresse SIP contenant une adresse de messagerie partielle ou utiliser l’applet de requête <STRONG>Get-Csuser</STRONG> .
+> Dans un environnement avec une topologie de forêt centrale, les résultats de la recherche peuvent ne pas être précis lorsque vous recherchez un utilisateur à l’aide de son adresse de messagerie. Au lieu de cela, vous pouvez rechercher des utilisateurs en spécifiant un préfixe d’adresse SIP, par exemple, SIP : nom, ajouter un filtre de recherche et sélectionner une adresse SIP qui contient une adresse de messagerie partielle ou utiliser la cmdlet <STRONG>Get-Csuser</STRONG> .
 
 
 
@@ -55,25 +55,25 @@ Vous pouvez rechercher des utilisateurs à l’aide du panneau de configuration 
 
 ## <a name="to-search-for-one-or-more-users"></a>Pour rechercher un ou plusieurs utilisateurs
 
-1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la boîte de **recherche utilisateurs** , entrez tout ou la première partie du nom d’affichage, prénom, nom, nom de compte Sam, adresse SIP ou URI de ligne du compte d’utilisateur que vous souhaitez rechercher, puis cliquez sur **Rechercher**.
+4.  Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM, de l’adresse SIP ou de l’URI de ligne du compte d’utilisateur que vous souhaitez activer, puis cliquez sur **Rechercher**.
 
 5.  (Facultatif) Indiquez des critères de recherche supplémentaires pour affiner les résultats :
     
-    1.  Cliquez sur la flèche de développement située dans le coin supérieur droit de l’écran au-dessus des résultats de la **recherche**, puis cliquez sur **Ajouter un filtre**.
+    1.  Cliquez sur la flèche déroulante située en haut à droite de l’écran, au-dessus **Résultats de la recherche**, puis sur **Ajouter un filtre**.
     
-    2.  Entrez la propriété User en le tapant ou en cliquant sur la flèche dans la liste déroulante pour sélectionner une propriété d’utilisateur.
+    2.  Entrez la propriété utilisateur en tapant son nom ou en cliquant sur la flèche dans la liste déroulante.
     
-    3.  Dans la liste **égal à** , cliquez sur **égal à** ou **n’est pas égal à**.
+    3.  Dans la liste déroulante **Égal à**, cliquez sur **Égal à** ou **Pas égal à**.
     
-    4.  Dans la zone de texte, tapez les critères de recherche que vous voulez utiliser pour filtrer les résultats de recherche, puis cliquez sur **Rechercher**.
+    4.  Dans la zone de texte, tapez le critère de recherche selon lequel filtrer les résultats, puis cliquez sur **Rechercher**.
 
-6.  Les résultats de la recherche apparaissent sous résultats de la **recherche**. Vous pouvez sélectionner tout ou partie des utilisateurs de la liste et effectuer des tâches de configuration pour les utilisateurs sélectionnés.
+6.  les résultats de la recherche apparaissent sous **Résultats de la recherche**. Sélectionnez dans la liste les utilisateurs sur lesquels vous voulez exécuter les tâches de configuration.
 
 </div>
 
@@ -82,7 +82,7 @@ Vous pouvez rechercher des utilisateurs à l’aide du panneau de configuration 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Affichage d’informations sur les comptes d’utilisateurs activés pour Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
+[Affichage des informations sur les comptes d’utilisateurs activés pour Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
 [Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 

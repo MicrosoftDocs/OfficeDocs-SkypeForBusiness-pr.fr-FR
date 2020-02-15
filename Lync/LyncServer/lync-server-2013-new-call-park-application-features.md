@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application de parcage d’appel'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de l’application de parcage d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,9 +37,9 @@ ms.locfileid: "41765805"
 
 _**Dernière modification de la rubrique :** 2012-10-17_
 
-L’application de parc d’appel permet aux utilisateurs voix entreprise de mettre un appel en attente, puis de le récupérer ultérieurement sur n’importe quel téléphone. L’utilisateur qui a parqué l’appel peut composer le numéro en orbite fourni par le parc d’appels pour récupérer l’appel en stationnement ou utiliser un mécanisme externe, tel que la messagerie instantanée (IM) ou un système d’échange, pour demander à un tiers de récupérer l’appel.
+L’application de parcage d’appel permet aux utilisateurs de voix entreprise de mettre un appel en attente, puis de les récupérer ultérieurement à partir de n’importe quel téléphone. L’utilisateur qui a parqué l’appel peut composer le numéro d’orbite fourni par le parcage d’appel pour extraire l’appel parqué ou utiliser un mécanisme externe, tel que la messagerie instantanée ou un système de radiomessagerie, pour demander à d’autres utilisateurs de récupérer l’appel.
 
-Lync Server 2013 fournit de nouveaux mécanismes de reprise après sinistre sous la forme de processus de basculement et de restauration automatique. Ces processus de basculement et de restauration prennent en charge la récupération de la fonctionnalité de parc d’appels en permettant aux utilisateurs hébergés sur le pool principal de tirer parti de l’application de parc de sauvegarde lorsqu’une panne se produit dans le pool principal. La prise en charge de la reprise après sinistre de l’application de parc d’appels est activée dans le cadre de la configuration et du déploiement de pools front-end couplés.
+Lync Server 2013 fournit de nouveaux mécanismes de récupération d’urgence sous la forme de processus de basculement et de restauration automatique. Ces processus de basculement et de retour arrière prennent en charge la récupération de la fonctionnalité de parcage d’appel en permettant aux utilisateurs hébergés dans le pool principal de tirer parti de l’application de parcage d’appel du pool de sauvegarde lorsqu’une panne se produit dans le pool principal. La prise en charge de la récupération d’urgence de l’application de parcage d’appel est activée dans le cadre de la configuration et du déploiement des pools frontaux couplés.
 
 <div>
 

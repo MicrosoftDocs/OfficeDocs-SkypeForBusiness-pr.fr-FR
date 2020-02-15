@@ -12,16 +12,16 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5366f7e3d4c2aba81b5b8b25873ea22d54c3a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45282476beac35df7248c4ef6bd04c6642a0f1e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41765845"
 
 _**Dernière modification de la rubrique :** 2014-12-05_
 
-Cette rubrique traite des modifications apportées aux applets de applet Lync Server Management Shell qui sont associées directement à la gestion des clients. Lync Server 2013 introduit plusieurs nouveaux paramètres et déprécie les paramètres des fonctionnalités qui peuvent être configurées par le biais d’autres moyens.
+Cette rubrique traite des modifications apportées aux applets de commande Lync Server Management Shell qui sont directement liées à la gestion des clients. Lync Server 2013 introduit plusieurs nouveaux paramètres et déprécie les paramètres des fonctionnalités qui peuvent être configurées par d’autres moyens.
 
 <div>
 
-## <a name="new-client-management-parameters"></a>Nouveaux paramètres de gestion des clients
+## <a name="new-client-management-parameters"></a>Nouveau paramètres de gestion des clients
 
 
 <table>
@@ -61,58 +61,58 @@ Cette rubrique traite des modifications apportées aux applets de applet Lync Se
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Lorsque cette propriété est définie sur true, le suivi logiciel est activé dans Lync ; Lorsque la valeur est définie sur false, le suivi logiciel est désactivé. Le suivi logiciel implique de maintenir un enregistrement détaillé de tout ce qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est particulièrement utile pour les développeurs et pour le personnel de support de l’application. Ce paramètre est équivalent au paramètre &quot;de stratégie de groupe Communications Server 2007 R2 activez le suivi pour Communicator. &quot; Les paramètres sont les suivants :</p>
+<td><p>Lorsque ce paramètre est défini sur true, le suivi de logiciel est activé dans Lync ; Lorsque la valeur est false, le suivi de logiciel est désactivé. Le suivi des logiciels implique de conserver un enregistrement détaillé de tous les éléments qu’un programme effectue (y compris les appels d’API de suivi). Le suivi est principalement utile aux développeurs et au personnel de support des applications. Ce paramètre équivaut au paramètre &quot;de stratégie de groupe Communications Server 2007 R2 activer le suivi pour Communicator. &quot; Les paramètres sont les suivants :</p>
 <ul>
-<li><p>Désactivé = le suivi est désactivé et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
-<li><p>Clair = le suivi minimal est effectué et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
-<li><p>On = suivi détaillé est effectué et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
+<li><p>Off = Le suivi est désactivé et l’utilisateur ne peut pas modifier le paramètre.</p></li>
+<li><p>Light = Un suivi minimal est assuré et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
+<li><p>On = Un suivi documenté est assuré et l’utilisateur ne peut pas modifier ce paramètre.</p></li>
 </ul>
-<p>Par défaut, TracingLevel est défini sur une valeur null. Cela signifie qu’un suivi minimal est effectué, mais que l’utilisateur peut activer ou désactiver ce suivi minimal.</p></td>
+<p>Par défaut, TracingLevel a la valeur null. Cela signifie qu’un suivi minimal est assuré, mais que l’utilisateur peut activer ou désactiver ce suivi minimal.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableMediaRedirection</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Lorsque ce paramètre est défini sur true ($True) autorise la séparation des flux audio et vidéo à partir du trafic réseau, cela permet aux appareils clients de procéder au codage et au décodage de l’audio et de la vidéo localement. La redirection de média entraîne généralement une utilisation plus lente de la bande passante, une extensibilité du serveur plus élevée et une meilleure interface utilisateur par rapport aux techniques similaires, telles que l’accès à l’appareil distant ou la compression du codec.</p></td>
+<td><p>Lorsque la valeur est True ($True), les flux audio et vidéo peuvent être isolés du reste du trafic réseau. Les périphériques clients peuvent alors les coder et les décoder localement. La redirection de médias se traduit généralement par une moindre utilisation de la bande passante, une plus grande extensibilité du serveur et une expérience utilisateur optimisée par rapport aux techniques similaires telles que l’accès à distance des périphériques ou la compression codec.</p></td>
 </tr>
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Lorsque cette propriété est définie sur true, toutes les réunions &quot;Lync sont considérées comme des réunions de grande taille. &quot; Dans une grande réunion, des restrictions sont placées sur le nombre de notifications envoyées aux participants, en plus de la taille de la liste de la réunion qui est transmise par défaut.</p></td>
+<td><p>Lorsque la valeur est true, toutes les réunions Lync sont &quot;traitées comme des grandes réunions. &quot; Avec une grande réunion, des restrictions sont placées sur le nombre de notifications envoyées aux participants, en plus de la taille de la liste de réunions qui est transmise par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Lorsque cette propriété est définie sur true ($True), les utilisateurs ne peuvent pas ajouter d’annotations aux diapositives PowerPoint utilisées dans une conférence. Toutefois, en fonction de la valeur de la propriété AllowAnnotations, les utilisateurs auront toujours accès à d’autres fonctionnalités de tableau blanc. La valeur par défaut est false, ce qui signifie que les annotations PowerPoint sont autorisées.</p></td>
+<td><p>Quand la valeur est True ($True), les utilisateurs ne sont pas en mesure d’ajouter des annotations à des diapositives PowerPoint utilisées dans une conférence. Cependant, (en fonction de la valeur de la propriété AllowAnnotations), les utilisateurs ont toujours accès aux autres fonctionnalités de tableau blanc. La valeur par défaut est False, ce qui signifie que les annotations PowerPoint sont autorisées.</p></td>
 </tr>
 <tr class="odd">
 <td><p>AllowSharedNotes</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Lorsque cette propriété est définie sur true (valeur par défaut), tous les blocs-notes OneNote ouverts liés à la Conférence seront automatiquement mis à jour avec des informations telles que des participants à la Conférence et des détails sur le contenu partagé pendant la Conférence.</p></td>
+<td><p>Quand la valeur est True (valeur par défaut), tout bloc-notes OneNote ouvert lié à la conférence est automatiquement mis à jour avec des informations telles que les participants à la conférence et les détails sur le contenu partagé pendant la conférence.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableInviteCustomization</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Utilisé avec les autres nouveaux paramètres de CsMeetingConfiguration pour personnaliser les invitations aux réunions générées par le complément réunion en ligne pour Lync 2013.</p></td>
+<td><p>Utilisé avec les autres nouveaux paramètres CsMeetingConfiguration pour personnaliser les invitations aux réunions générées par le complément de réunion en ligne pour Lync 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LogoURL</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Ajoute le logo de votre organisation à toutes les invitations générées par le complément réunion en ligne pour Lync 2013. Vous spécifiez l’URL d’une image GIF ou JPG.</p></td>
+<td><p>Ajoute le logo de votre organisation à toutes les invitations générées par le complément de réunion en ligne pour Lync 2013. Vous spécifiez l’URL d’une image GIF ou JPG.</p></td>
 </tr>
 <tr class="even">
 <td><p>HelpURL</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Ajoute l’adresse d’aide ou d’assistance de votre organisation à toutes les invitations générées par le complément réunion en ligne pour Lync 2013.</p></td>
+<td><p>Ajoute l’URL d’aide ou de support de votre organisation à toutes les invitations générées par le complément de réunion en ligne pour Lync 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LegalURL</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Ajoute du texte légal ou une exclusion de responsabilité à toutes les invitations générées par le complément réunion en ligne pour Lync 2013. Vous spécifiez l’URL de l’emplacement du texte.</p></td>
+<td><p>Ajoute du texte légal ou du texte de la clause d’exclusion de responsabilité à toutes les invitations générées par le complément de réunion en ligne pour Lync 2013. Vous spécifiez l’URL de l’emplacement de ce texte.</p></td>
 </tr>
 <tr class="even">
 <td><p>CustomFooterText</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Ajoute un pied de page personnalisé à toutes les invitations générées par le complément réunion en ligne pour Lync 2013. Vous spécifiez l’URL de l’emplacement du texte de pied de page personnalisé.</p></td>
+<td><p>Ajoute un pied de page personnalisé à toutes les invitations générées par le complément de réunion en ligne pour Lync 2013. Vous spécifiez l’URL de l’emplacement du texte du pied de page personnalisé.</p></td>
 </tr>
 </tbody>
 </table>
@@ -120,7 +120,7 @@ Cette rubrique traite des modifications apportées aux applets de applet Lync Se
 
 <div>
 
-## <a name="deprecated-client-management-parameters"></a>Paramètres de gestion des clients déconseillés
+## <a name="deprecated-client-management-parameters"></a>Paramètres de gestion des clients supprimés
 
 
 <table>
@@ -140,32 +140,32 @@ Cette rubrique traite des modifications apportées aux applets de applet Lync Se
 <tr class="odd">
 <td><p>CustomizedHelpUrl</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Ce paramètre a été déconseillé pour une utilisation avec Lync Server 2013. Lorsqu’il est utilisé avec EnableEnterpriseCustomizedHelp, ce paramètre a autorisé une organisation à spécifier une URL de telle sorte que lorsque les utilisateurs cliquent sur le menu aide de Lync, l’aide personnalisée s’affiche.</p></td>
+<td><p>Ce paramètre est déconseillé pour une utilisation avec Lync Server 2013. Lorsqu’il est utilisé avec EnableEnterpriseCustomizedHelp, ce paramètre a permis à une organisation de spécifier une URL de manière à ce que, lorsque les utilisateurs cliquent sur le menu aide dans Lync, l’aide personnalisée s’affiche.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableEnterpriseCustomizedHelp</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Ce paramètre a été déconseillé pour une utilisation avec Lync Server 2013. Lorsqu’il est utilisé avec CustomizedHelpUrl, ce paramètre a activé les organisations pour afficher une aide personnalisée.</p></td>
+<td><p>Ce paramètre est déconseillé pour une utilisation avec Lync Server 2013. Lorsqu’il est utilisé avec CustomizedHelpUrl, ce paramètre permet aux organisations d’afficher l’aide personnalisée.</p></td>
 </tr>
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Le paramètre EnableSQMData de l’applet de passe Set-CSClientPolicy a été supprimé dans Lync Server 2013. Au lieu de cela, vous pouvez utiliser le paramètre de stratégie de groupe partagé pour les données de gestion de la qualité des logiciels pour déterminer l’interface utilisateur pour l’option d’amélioration du produit dans la page d’options général du client Lync :</p>
+<td><p>Le paramètre EnableSQMData de la cmdlet Set-CSClientPolicy a été supprimé dans Lync Server 2013. À la place, vous pouvez utiliser le paramètre de stratégie de groupe des données de Gestion de la qualité logicielle (SQM, Software Quality Management) pour déterminer l’interface utilisateur de l’option d’amélioration de l’expérience utilisateur dans la page d’options Général du client Lync :</p>
 <p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
-<p>Doubl</p>
-<p>1 = afficher et activer la case à cocher (l’utilisateur peut désactiver la case à cocher)</p>
-<p>0 = désactiver et désactiver la case à cocher (l’utilisateur ne peut pas remplacer)</p>
-<p>NULL = la valeur est déterminée par le programme d’installation d’Office et la case à cocher est affichée pour que les utilisateurs puissent définir tels choix</p></td>
+<p>Value</p>
+<p>1 = Afficher et activer la case à cocher (l’utilisateur peut désactiver cette case à cocher)</p>
+<p>0 = Désactiver la case à cocher (l’utilisateur ne peut pas remplacer cette valeur)</p>
+<p>Null = La valeur est déterminée par le programme d’installation d’Office, et la case à cocher est affichée pour que les utilisateurs la définissent à leur guise</p></td>
 </tr>
 <tr class="even">
 <td><p>AllowExchangeContactStore</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Ce paramètre a été supprimé. Au lieu de cela, lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le magasin de contacts unifié est activé par défaut pour tous les utilisateurs. Cela signifie que tous les contacts d’un utilisateur sont conservés dans Exchange et sont disponibles dans Lync, Outlook et Outlook Web Access. Vous pouvez utiliser l’applet de cmdlet Set-CsUserServicesPolicy pour personnaliser les utilisateurs disposant d’un magasin de contacts unifié disponible. Vous pouvez activer les utilisateurs globalement, par site, par client ou par individu ou groupe d’utilisateurs. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-enable-users-for-unified-contact-store.md">activer les utilisateurs pour le magasin de contacts unifié dans Lync Server 2013</a>.</p></td>
+<td><p>Ce paramètre est supprimé. Au lieu de cela, lorsque vous déployez Lync Server 2013 et que vous publiez la topologie, le magasin de contacts unifié est activé par défaut pour tous les utilisateurs. Cela signifie que tous les contacts d’un utilisateur sont conservés dans Exchange et sont disponibles dans Lync, Outlook et Outlook Web Access. Vous pouvez utiliser l’applet de commande Set-CsUserServicesPolicy pour personnaliser les utilisateurs qui ont un magasin de contacts unifié disponible. Vous pouvez activer les utilisateurs globalement, par site, par locataire, ou par personne ou groupe de personnes. Pour plus d’informations, consultez la rubrique <a href="lync-server-2013-enable-users-for-unified-contact-store.md">activation des utilisateurs pour le magasin de contacts unifié dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MAPIPollInterval</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Ce paramètre n’est pas utilisé par Lync 2013. Dans les versions précédentes, ce paramètre spécifiait le nombre de fois où le client récupérait des données MAPI à partir de dossiers publics Exchange</p></td>
+<td><p>Ce paramètre n’est pas utilisé par Lync 2013. Dans les précédentes versions, il spécifiait la fréquence à laquelle le client récupérait des données MAPI à partir de dossiers publics Exchange.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisableICE</p></td>

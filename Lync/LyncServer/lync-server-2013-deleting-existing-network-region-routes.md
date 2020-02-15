@@ -12,20 +12,20 @@ ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9f9ba7c20aff0bba3101edc9b04f3704314cfc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 030980ca18e21915f514435a8682ec8ddcf78286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048655"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Supprimer des itinéraires de région réseau existants dans Lync Server 2013
+# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Suppression des itinéraires de région réseau existants dans Lync Server 2013
 
 </div>
 
@@ -37,30 +37,30 @@ ms.locfileid: "41763052"
 
 _**Dernière modification de la rubrique :** 2012-11-01_
 
-Chaque région au sein d’une configuration de contrôle d’admission des appels (CAC) doit disposer d’un moyen d’accéder à toutes les autres régions. Lorsque les liaisons de zone définissent des limitations de bande passante pour les connexions entre les régions et représentent également les liens physiques, un itinéraire détermine le chemin d’accès lié que la connexion traverse d’une région à l’autre. Vous pouvez utiliser le panneau de configuration de Lync Server pour configurer les itinéraires de région réseau. Dans le panneau de configuration de Lync Server, vous pouvez créer, modifier ou supprimer un itinéraire de la région du réseau. Utilisez cette rubrique pour supprimer des itinéraires de la région de réseau existants. Pour plus d’informations sur la création et la modification des itinéraires de région réseau, voir [création ou modification des itinéraires de région réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
+Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Vous pouvez utiliser le panneau de configuration Lync Server pour configurer les itinéraires de région réseau. Dans le panneau de configuration Lync Server, vous pouvez créer, modifier ou supprimer un itinéraire de région réseau. Utilisez cette rubrique pour supprimer des itinéraires de région réseau existants. Pour plus d’informations sur la création ou la modification des itinéraires de région réseau, voir [création ou modification des itinéraires de région réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
 
 <div>
 
-## <a name="to-delete-a-network-region-route"></a>Pour supprimer un itinéraire de la région du réseau
+## <a name="to-delete-a-network-region-route"></a>Pour supprimer un itinéraire de région réseau
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **itinéraire des régions**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Itinéraire de région**.
 
-4.  Sur la page itinéraire de la **région** , cliquez sur le secteur que vous voulez supprimer.
+4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région à supprimer.
     
     <div>
     
 
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs itinéraires par région à la fois. Pour cela, appuyez sur CTRL et sélectionnez plusieurs itinéraires de région tout en maintenant la touche CTRL enfoncée. Pour sélectionner tous les itinéraires de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>édition</STRONG> .
+    > Vous pouvez supprimer plusieurs itinéraires de région à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs itinéraires de région. Ou, pour sélectionner tous les itinéraires de région, cliquez sur <STRONG>Sélectionner tout</STRONG> dans le menu <STRONG>Edition</STRONG>.
 
     
     </div>
 
-5.  Dans le menu **modifier** , cliquez sur **supprimer**.
+5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
 
 6.  Cliquez sur **OK**.
 
@@ -74,7 +74,7 @@ Chaque région au sein d’une configuration de contrôle d’admission des appe
 [Création ou modification des itinéraires de région réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
 
-[Configurer un itinéraire de région réseau](https://technet.microsoft.com/en-us/library/gg133706\(v=ocs.15\))  
+[Configurer un itinéraire de région réseau](https://technet.microsoft.com/library/gg133706\(v=ocs.15\))  
 
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184371
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c07674be037c7d2fe06d6e2811dcd3264cc6db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a2faff08d5517809d4cfb11d00711a146accc61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,15 +37,15 @@ ms.locfileid: "41725224"
 
 _**Dernière modification de la rubrique :** 2012-09-05_
 
-Dans Lync Server 2013, la prise en charge des scénarios de contrôle d’appel distant permet aux utilisateurs de contrôler leurs téléphones PBX en utilisant Lync 2013 sur leur ordinateur de bureau. Cette section décrit les fonctionnalités de contrôle d’appel distant et la configuration requise pour le déploiement du contrôle d’appel distant.
+Dans Lync Server 2013, la prise en charge des scénarios de contrôle d’appel distant permet aux utilisateurs de contrôler leurs téléphones PBX (Private Branch Exchange) à l’aide de Lync 2013 sur leurs ordinateurs de bureau. Cette section décrit les fonctionnalités de contrôle d’appel distant et les conditions nécessaires au déploiement du contrôle d’appel distant.
 
-L’intégration entre un système PBX et Lync Server 2013 permet aux utilisateurs ayant activé le contrôle d’appel distant d’utiliser l’interface utilisateur de Lync 2013 pour contrôler les appels sur leurs téléphones PBX comme suit :
+L’intégration entre un PBX et Lync Server 2013 permet aux utilisateurs activés pour le contrôle d’appel distant d’utiliser l’interface utilisateur de Lync 2013 pour contrôler les appels sur leurs téléphones PBX des manières suivantes :
 
 <div>
 
 
 > [!NOTE]  
-> Enfin, les fonctionnalités du PBX qui héberge le téléphone PBX d’un utilisateur déterminent les fonctionnalités de contrôle d’appel distant qui seront disponibles pour cet utilisateur.
+> En définitive, les capacités de l’autocommutateur privé (PBX) qui héberge le téléphone PBX d’un utilisateur déterminent les fonctionnalités de contrôle d’appel distant qui sont mises à la disposition de cet utilisateur.
 
 
 
@@ -55,13 +55,13 @@ L’intégration entre un système PBX et Lync Server 2013 permet aux utilisateu
 
   - Répondre à un appel entrant
 
-  - Réponse à un appel entrant avec un message instantané
+  - Répondre à un appel entrant avec un message instantané
     
     <div>
     
 
     > [!NOTE]  
-    > En d’autres termes, lorsque le numéro de téléphone de l’appelant peut être associé à une adresse de messagerie instantanée dans la liste d’adresses globale de votre organisation, dans la liste de contacts Lync du destinataire, ou dans une organisation de partenaire fédéré.
+    > C’est-à-dire, lorsque le numéro de téléphone de l’appelant peut être associé à une adresse de messagerie instantanée dans la liste d’adresses globale de votre organisation, dans la liste des contacts Lync de l’appelé ou dans l’organisation d’un partenaire fédéré.
 
     
     </div>
@@ -70,33 +70,33 @@ L’intégration entre un système PBX et Lync Server 2013 permet aux utilisateu
 
   - Transférer un appel entrant
 
-  - Bloquer les appels
+  - Mettre des appels en attente
 
-  - Alterner entre plusieurs appels simultanés
+  - Basculer entre plusieurs appels simultanés
 
-  - Répondre à un deuxième appel alors qu’il est déjà en cours d’appel (en attente d’appel)
+  - Répondre à un deuxième appel pendant un appel en cours (c’est-à-dire, mise en attente d’un appel)
 
-  - Composer un numéro à deux tonalités (DTMF)
+  - Composer des chiffres de numérotation en fréquences vocales (DTMF)
 
-  - Dans la fenêtre de conversation, tapez des notes dans le programme de prises de notes Microsoft Office OneNote
+  - Dans la fenêtre de conversation, taper des notes dans le programme de prise de note Microsoft Office OneNote
 
-En outre, lorsqu’un utilisateur est activé pour le contrôle d’appel distant, Lync 2013 fournit les informations d’appel suivantes :
+De plus, lorsqu’un utilisateur est activé pour le contrôle d’appel distant, Lync 2013 fournit les informations d’appel suivantes :
 
-  - Identification d’un appelant par son nom lorsque le numéro de téléphone de l’appelant figure dans la liste des contacts d’un client de messagerie et de collaboration Microsoft Office Outlook prenant en charge la gestion des appels distants, liste de contacts Lync ou GAL de votre organisation.
+  - Identification d’un appelant par son nom lorsque le numéro de téléphone de l’appelant existe dans la liste des contacts d’un client de messagerie et de collaboration Microsoft Office Outlook de l’utilisateur à extension à distance, liste de contacts Lync ou liste d’adresses globale de votre organisation.
 
-  - Avez passé les appels entrants et sortants, qui sont enregistrés dans le dossier historique des conversations dans Outlook.
+  - Appels entrants et sortants précédents, qui sont enregistrés dans le dossier Historique des conversations d’Outlook.
 
-  - Les notifications d’appels manqués, qui sont envoyées au dossier de la boîte de réception Outlook de l’utilisateur, mais qui sont générées uniquement si Lync est en cours d’exécution lors de la réception de l’appel entrant.
+  - Les notifications d’appels manqués, qui sont envoyées au dossier boîte de réception Outlook de l’utilisateur, mais sont générées uniquement si Lync est en cours d’exécution lors de la réception de l’appel entrant.
 
 <div>
 
-## <a name="remote-call-control-and-enterprise-voice"></a>Contrôle d’appel distant et voix entreprise
+## <a name="remote-call-control-and-enterprise-voice"></a>Contrôle d’appel distant et Voix Entreprise
 
-Bien que les fonctionnalités de contrôle d’appel distant soient distinctes des fonctions vocales d’entreprise et que les utilisateurs ne peuvent pas être activés pour les deux, Enterprise Voice fournit un sous-ensemble de fonctionnalités qui sont également disponibles pour les utilisateurs disposant d’un contrôle d’appel distant. Si Enterprise Voice est déployé, les utilisateurs dotés du contrôle d’appel distant peuvent utiliser Lync pour accéder aux fonctions vocales d’entreprise suivantes :
+Bien que les fonctionnalités de contrôle d’appel distant soient distinctes des fonctionnalités voix entreprise et que les utilisateurs ne puissent pas les activer, voix entreprise fournit un sous-ensemble de fonctionnalités également accessibles aux utilisateurs activés pour le contrôle d’appel distant. Si Enterprise Voice est déployé, les utilisateurs qui sont activés pour le contrôle d’appel distant peuvent utiliser Lync pour accéder aux fonctionnalités voix entreprise suivantes :
 
   - Passer et recevoir des appels audio vers un autre client Lync
 
-  - Rejoindre la partie audio d’une conférence créée par un utilisateur activé pour voix entreprise
+  - Joindre la partie audio d’une conférence créée par un utilisateur qui est activé pour voix entreprise
 
 </div>
 
@@ -104,7 +104,7 @@ Bien que les fonctionnalités de contrôle d’appel distant soient distinctes d
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Tâches de déploiement du contrôle d’appel distant dans Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+  - [Tâches de déploiement pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
 
 </div>
 

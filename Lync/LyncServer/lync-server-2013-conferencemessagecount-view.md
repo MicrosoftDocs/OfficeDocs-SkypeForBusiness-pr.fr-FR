@@ -1,5 +1,5 @@
 ---
-title: 'Affichage Lync Server 2013 : ConferenceMessageCount'
+title: 'Lync Server 2013 : vue ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73944e1561b88301b740fcb52cf301645154c6e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f94e824b18cab71fe1329ffcad1c836df6d46ebd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencemessagecount-view-in-lync-server-2013"></a>Affichage ConferenceMessageCount dans Lync Server 2013
+# <a name="conferencemessagecount-view-in-lync-server-2013"></a>Vue ConferenceMessageCount dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41741614"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le mode ConferenceMessageCount stocke les informations sur le nombre de messages envoyés par un utilisateur à une conférence. Cet affichage a été présenté dans Microsoft Lync Server 2013.
+L’affichage ConferenceMessageCount stocke les informations relatives au nombre de messages envoyés par un utilisateur à une conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Le mode ConferenceMessageCount contient toutes les colonnes de la <A href="lync-server-2013-conferencesessiondetails-view.md">vue ConferenceSessionDetails dans Lync Server 2013</A> , en plus des colonnes répertoriées ci-dessous.
+> La vue ConferenceMessageCount contient toutes les colonnes de la <A href="lync-server-2013-conferencesessiondetails-view.md">vue ConferenceSessionDetails dans Lync Server 2013</A> , en plus des colonnes indiquées ci-dessous.
 
 
 
@@ -71,18 +71,18 @@ Le mode ConferenceMessageCount stocke les informations sur le nombre de messages
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Type d’URI de l’utilisateur qui a envoyé les messages. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Type d’URI de l’utilisateur qui a envoyé les messages. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>identificateur</p></td>
-<td><p>Client de l’utilisateur qui a envoyé les messages. Pour plus d’informations, voir la <a href="lync-server-2013-tenants-table.md">table locataires dans Lync Server 2013</a> .</p></td>
+<td><p>unique</p></td>
+<td><p>Locataire de l’utilisateur qui a envoyé les messages. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-tenants-table.md">table clients dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>
 <td><p>type</p></td>
-<td><p>Nombre de messages envoyés par l’utilisateur au cours de la session de conférence.</p></td>
+<td><p>Nombre de messages envoyés par l’utilisateur pendant la session de conférence.</p></td>
 </tr>
 </tbody>
 </table>

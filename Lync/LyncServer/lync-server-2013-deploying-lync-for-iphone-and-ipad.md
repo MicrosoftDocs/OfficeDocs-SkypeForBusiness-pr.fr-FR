@@ -12,16 +12,16 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 888fdd0a34973d5b7c7b6063056c98d4426a2f1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758028"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41758028"
 
 _**Dernière modification de la rubrique :** 2013-02-19_
 
-Cette section décrit le déploiement de Lync 2013 pour iPhone et de Lync 2013 pour iPad pour vos utilisateurs mobiles.
+Cette section décrit comment déployer Lync 2013 pour iPhone et Lync 2013 pour iPad pour vos utilisateurs mobiles.
 
 <div>
 

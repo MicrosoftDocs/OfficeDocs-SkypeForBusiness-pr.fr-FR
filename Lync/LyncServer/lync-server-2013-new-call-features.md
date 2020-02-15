@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités d’appel'
+title: 'Lync Server 2013 : nouvelles fonctionnalités d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,16 +37,16 @@ ms.locfileid: "41765825"
 
 _**Dernière modification de la rubrique :** 2012-10-10_
 
-Lync Server 2013 fournit une gamme d’options de configuration considérablement plus large pour le transfert d’appel et la sonnerie simultanée. Par exemple, si une organisation ne souhaite pas que les appels entrants soient transférés en externe au réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction.
+Lync Server 2013 offre un large éventail d’options de configuration pour le transfert d’appel et la sonnerie simultanée. Par exemple, si une organisation ne souhaite pas que les appels entrants soient transférés en externe au réseau téléphonique commuté (RTC), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction.
 
-De plus, les délégués peuvent désormais configurer la sonnerie simultanée pour les appels entrants vers leurs responsables dans leurs appareils mobiles. Cela fournit aux délégués une plus grande flexibilité, leur permettant de répondre aux appels pour le compte de leur responsable sans être liés à un téléphone de bureau.
+En outre, les délégués peuvent désormais configurer la sonnerie simultanée sur leurs appareils mobiles pour les appels entrants à leurs responsables. Cela permet aux délégués de bénéficier d’une plus grande flexibilité, ce qui leur permet de répondre aux appels au nom de leur responsable sans être liés à un téléphone de bureau.
 
 <div>
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Nouvelles fonctionnalités Voix Entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Nouvelles fonctionnalités voix entreprise dans Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

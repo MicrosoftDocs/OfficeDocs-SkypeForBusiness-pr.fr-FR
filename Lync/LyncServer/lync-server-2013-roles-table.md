@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table Roles'
+title: 'Lync Server 2013 : tableau de rôles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,7 +37,7 @@ ms.locfileid: "41732964"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table rôles est une table statique qui contient la liste des rôles de conférence possibles, tels que participant et présentateur.
+La table Roles est une table statique qui stocke la liste des rôles possibles pour les conférences, tels que participant et présentateur.
 
 
 <table>
@@ -51,26 +51,26 @@ La table rôles est une table statique qui contient la liste des rôles de conf�
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>RoleId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
+<td><p>entier très petit</p></td>
+<td><p>Primaire</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Rôle</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Role</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valeurs autorisées :</p>
 <ul>
-<li><p>0-Inconnu</p></li>
-<li><p>1-présentateur</p></li>
-<li><p>2 participants</p></li>
+<li><p>0 - Inconnu</p></li>
+<li><p>1 - Présentateur</p></li>
+<li><p>2 - Participant</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 926cc7e45fe3e57c189b01ff92da49342506dc2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bde8694cb5249cd5c284bfadc89d9784ca76ac31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41763072"
 
 _**Dernière modification de la rubrique :** 2013-02-23_
 
-Vous pouvez supprimer une stratégie d’utilisateur ou une stratégie de site. La stratégie globale ne peut pas être supprimée. Si vous tentez de supprimer la stratégie globale, Lync Server 2013 réinitialise automatiquement la stratégie aux valeurs par défaut.
+Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site. La stratégie globale ne peut pas être supprimée. Si vous essayez de supprimer la stratégie globale, Lync Server 2013 réinitialise automatiquement les valeurs par défaut de la stratégie.
 
 <div>
 
 
 > [!NOTE]  
-> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies Exchange déterminent si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont leurs boîtes aux lettres sont placées sur place. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuration de stratégies d’archivage dans Lync server 2013 lors de l’utilisation d’une intégration Exchange Server</A> dans la documentation de déploiement.
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies Exchange déterminent si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres sont placées en conservation inaltérable. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies d’archivage dans Lync Server 2013 lors de l’utilisation de l’intégration d’Exchange Server</A> dans la documentation de déploiement.
 
 
 
@@ -53,13 +53,13 @@ Vous pouvez supprimer une stratégie d’utilisateur ou une stratégie de site. 
 
 ## <a name="to-delete-a-user-or-site-policy-for-archiving"></a>Pour supprimer une stratégie d’utilisateur ou de site pour l’archivage
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
+3.  Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
 
-4.  Dans la liste des stratégies d’archivage, cliquez sur la stratégie utilisateur ou la stratégie de site que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
+4.  Dans la liste des stratégies d’archivage, cliquez sur la stratégie d’utilisateur ou de site que vous souhaitez supprimer, cliquez sur **modifier**, puis cliquez sur **supprimer**.
 
 5.  Cliquez sur **Valider**.
 
@@ -67,15 +67,15 @@ Vous pouvez supprimer une stratégie d’utilisateur ou une stratégie de site. 
 
 <div>
 
-## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies d’archivage à l’aide des cmdlets Windows PowerShell
+## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies d’archivage à l’aide d’applets de commande Windows PowerShell
 
-Les stratégies d’archivage peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsArchivingPolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
+Les stratégies d’archivage peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet csarchivingpolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 
 ## <a name="to-remove-a-specified-archiving-policy"></a>Pour supprimer une stratégie d’archivage spécifiée
 
-  - Par exemple, **Remove-CsArchivingPolicy** supprime la stratégie avec le site identité : Redmond. Notez qu’en cas de suppression d’une stratégie configurée sur l’étendue du site, les utilisateurs gérés par cette stratégie de site seront automatiquement gouvernés par la stratégie d’archivage globale. La commande suivante supprime l’archivage appliqué au site de Redmond :
+  - Par exemple, **Remove-applet csarchivingpolicy** supprime la stratégie avec l’identité site : Redmond. Notez que lorsqu’une stratégie configurée au niveau de l’étendue Site est supprimée, les utilisateurs précédemment gérés par cette stratégie utiliseront automatiquement à la place la stratégie d’archivage globale. La commande suivante supprime l’archivage appliqué au site Redmond :
     
         Remove-CsArchivingPolicy -Identity site:Redmond
 
@@ -95,13 +95,13 @@ Les stratégies d’archivage peuvent être supprimées à l’aide de Windows P
 
 ## <a name="to-remove-all-the-archiving-policies-that-disable-internal-archiving"></a>Pour supprimer toutes les stratégies d’archivage qui désactivent l’archivage interne
 
-  - Cette commande permet de supprimer toutes les stratégies d’archivage où l’archivage interne a été désactivé :
+  - Cette commande supprime toutes les stratégies d’archivage où l’archivage interne a été désactivé :
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
 </div>
 
-Pour plus d’informations, reportez-vous à la rubrique d’aide relative à l’applet de passe [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-applet csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) .
 
 </div>
 

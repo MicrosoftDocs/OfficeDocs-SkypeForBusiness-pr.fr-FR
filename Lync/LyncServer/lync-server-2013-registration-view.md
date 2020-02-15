@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : affichage d’inscription'
+title: 'Lync Server 2013 : vue d’inscription'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 120f0cb40bb3401a327e495a460db400a9359891
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a7418c5aa80e35d783517a86626dd2b77a393e1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050706"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="registration-view-in-lync-server-2013"></a>Affichage inscription dans Lync Server 2013
+# <a name="registration-view-in-lync-server-2013"></a>Vue d’enregistrement dans Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41746844"
 
 _**Dernière modification de la rubrique :** 2012-10-01_
 
-Le mode d’enregistrement enregistre des informations sur l’inscription des utilisateurs. Cet affichage a été présenté dans Lync Server 2013.
+L’affichage Inscription stocke les informations relatives à l’inscription de l’utilisateur. Cet affichage a été introduit dans Lync Server 2013.
 
 
 <table>
@@ -57,17 +57,17 @@ Le mode d’enregistrement enregistre des informations sur l’inscription des u
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Durée de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier une session de manière unique. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>IDENTIFIant de la session. Utilisé conjointement avec SessionIdTime pour identifier une session de manière unique. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus d’informations, reportez-vous au <a href="lync-server-2013-dialogs-table.md">tableau boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegisterTime</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Heure à laquelle l’inscription s’est produite.</p></td>
+<td><p>Heure de l’enregistrement.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUri</strong></p></td>
@@ -76,64 +76,64 @@ Le mode d’enregistrement enregistre des informations sur l’inscription des u
 </tr>
 <tr class="odd">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Type d’URI de l’utilisateur inscrit. Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Type d’URI de l’utilisateur inscrit. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Client de l’utilisateur inscrit. Pour plus d’informations, voir la <a href="lync-server-2013-tenants-table.md">table locataires dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Locataire de l’utilisateur inscrit. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-tenants-table.md">table clients dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndpointId</strong></p></td>
-<td><p>identificateur</p></td>
-<td><p>Identificateur unique du point de terminaison de l’utilisateur enregistré avec.</p></td>
+<td><p>unique</p></td>
+<td><p>Identificateur unique du point de terminaison auprès duquel l’utilisateur est inscrit.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EndpointEra</strong></p></td>
-<td><p>identificateur</p></td>
-<td><p>Identificateur unique utilisé pour différencier les inscriptions qui impliquent le même utilisateur et le même point de terminaison.</p></td>
+<td><p>unique</p></td>
+<td><p>Identificateur unique utilisé pour différencier les inscriptions du même utilisateur auprès du même point de terminaison.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterType</strong></p></td>
 <td><p>DateHeure</p></td>
-<td><p>Heure à laquelle l’annulation de l’inscription s’est produite.</p></td>
+<td><p>Heure à laquelle la désinscription a eu lieu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Raison de l’annulation de l’inscription.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Raison de la désinscription.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Version du client utilisée par l’utilisateur inscrit.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Version du client utilisé par l’utilisateur inscrit.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TypeClient</strong></p></td>
+<td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Client utilisé par l’utilisateur inscrit. Pour plus d’informations, voir la <a href="lync-server-2013-useragentdef-table.md">table UserAgentDef dans Lync Server 2013</a> .</p></td>
+<td><p>Client utilisé par l’utilisateur inscrit. Pour plus d’informations, consultez la <a href="lync-server-2013-useragentdef-table.md">table table useragentdef dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Catégorie du client utilisée par l’utilisateur qui est inscrit.</p></td>
+<td><p>Catégorie du client utilisée par l’utilisateur inscrit.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Grat</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Adresse IP de l’utilisateur avec lequel il a été enregistré. Il s’agit éventuellement d’une adresse IPv4 ou IPv6.</p></td>
+<td><p><strong>IP</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Adresse IP avec laquelle l’utilisateur s’est inscrit. Il peut s’agit d’une adresse IPv4 ou IPv6.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varstring (LGA775)</p></td>
-<td><p>ID de boîte de dialogue SIP. Le format de :</p>
-<p>boîte de dialogue ; à partir d’une balise</p></td>
+<td><p>varstring (775)</p></td>
+<td><p>ID de dialogue SIP. Le format est :</p>
+<p>boîte de dialogue ; balise ; à-tag</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>Code de réponse SIP à l’invitation de la session. Ce champ est généralement rempli par des données générées à partir du message d’invitation initial dans la session. S’il n’y a pas de message d’invitation, le champ est peuplé de la date et de l’heure du premier message SIP approprié (BYE, annuler, MESSAGE ou informations).</p></td>
+<td><p>Code de réponse SIP à l’invitation de session. Ce champ est généralement renseigné avec des données issues du message INVITE initial de la session. En l’absence de message INVITE, le champ est renseigné avec la date et l’heure du premier message SIP pertinent (BYE, CANCEL, MESSAGE ou INFO).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DiagnosticId</strong></p></td>
@@ -141,49 +141,49 @@ Le mode d’enregistrement enregistre des informations sur l’inscription des u
 <td><p>ID de diagnostic capturé à partir de l’en-tête SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>serveur d’inscriptions</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom de domaine complet du Bureau d’enregistrement.</p></td>
+<td><p><strong>Inscriptions</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom de domaine complet du serveur d’inscriptions.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Nom de domaine complet (FQDN) du pool qui a capturé les données de la session.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nom de domaine complet (FQDN) du serveur Edge utilisé par l’utilisateur qui est inscrit.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nom de domaine complet du serveur Edge utilisé par l’utilisateur inscrit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsInternal</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Indique si l’utilisateur s’est connecté à partir du réseau interne.</p></td>
+<td><p>légèrement</p></td>
+<td><p>Indique si l’utilisateur s’est connecté à partir du réseau interne ou non.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsUserServiceAvailable</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Indique si l’UserService a été disponible au moment de l’inscription.</p></td>
+<td><p>légèrement</p></td>
+<td><p>Indique si UserService était disponible au moment de l’inscription.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsPrimaryRegistrar</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Indique si l’inscription a été apportée au bureau d’enregistrement principal.</p></td>
+<td><p>légèrement</p></td>
+<td><p>Indique si l’inscription a eu lieu auprès du serveur d’inscriptions principal.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceMacAddress</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>comportant</p></td>
 <td><p>Adresse MAC de l’appareil inscrit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceManufacturer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Fabricant de l’appareil inscrit. Pour plus d’informations, reportez-vous <a href="lync-server-2013-manufacturers-table.md">à la table fabricants dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Fabricant de l’appareil inscrit. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-manufacturers-table.md">table constructeurs dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHardwareVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Version matérielle de l’appareil inscrit. Pour plus d’informations, voir la <a href="lync-server-2013-hardwareversions-table.md">table HardwareVersions dans Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Version matérielle de l’appareil inscrit. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-hardwareversions-table.md">table table hardwareversions dans Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

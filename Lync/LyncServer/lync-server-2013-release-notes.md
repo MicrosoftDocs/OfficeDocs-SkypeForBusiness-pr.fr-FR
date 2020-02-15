@@ -12,20 +12,20 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10961f0a8e59fe1d0dc0268b430f37fd294252b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cc7339b4861fe6e7e93e08d4928f6128916aeea0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="release-notes-for-lync-server-2013"></a>Notes de publication de Lync Server 2013
+# <a name="release-notes-for-lync-server-2013"></a>Notes de publication pour Lync Server 2013
 
 </div>
 
@@ -37,25 +37,25 @@ ms.locfileid: "41724384"
 
 _**Dernière modification de la rubrique :** 2016-12-08_
 
-Bienvenue dans les notes de publication de Lync Server 2013. Pour plus d’informations sur les problèmes connus concernant Lync Server 2013, consultez ce fichier.
+Bienvenue dans les notes de publication de Lync Server 2013. Consultez ce fichier pour obtenir des informations sur les problèmes connus concernant Lync Server 2013.
 
 <div>
 
 ## <a name="about-this-document"></a>À propos de ce document
 
-Ce document contient des informations importantes à connaître avant de déployer et d’utiliser Lync Server 2013. Pour plus d’informations sur Lync Server 2013, voir la documentation [Microsoft Lync server 2013](microsoft-lync-server-2013.md) .
+Ce document contient des informations importantes que vous devez savoir avant de déployer et d’utiliser Lync Server 2013. Pour plus d’informations sur Lync Server 2013, reportez-vous à la documentation de [Microsoft Lync Server 2013](microsoft-lync-server-2013.md) .
 
 Ce document contient les sections suivantes :
 
-  - Client 2013 Lync
+  - Client Lync 2013
 
-  - Lync Server
+  - Lync Server
 
   - Installation
 
   - Mobilité
 
-  - Conférence
+  - Vidéoconférence
 
   - Voix Entreprise
 
@@ -63,11 +63,11 @@ Ce document contient les sections suivantes :
 
   - Application Response Group et application Parcage d’appel
 
-  - Panneau de configuration Lync Server, générateur de topologie et outil de planification
+  - Panneau de configuration de Lync Server, Générateur de topologie et Outil de planification
 
   - Localisation
 
-  - Reproduction
+  - Copyright
 
 </div>
 
@@ -75,19 +75,19 @@ Ce document contient les sections suivantes :
 
 <div>
 
-## <a name="lync-2013-client"></a>Client 2013 Lync
+## <a name="lync-2013-client"></a>Client Lync 2013
 
 <div>
 
-## <a name="transferring-a-file-in-an-instant-message-fails-if-the-file-is-open-in-another-application"></a>Échec du transfert d’un fichier dans un message instantané si le fichier est ouvert dans une autre application
+## <a name="transferring-a-file-in-an-instant-message-fails-if-the-file-is-open-in-another-application"></a>Le transfert d’un fichier dans un message instantané échoue si le fichier est ouvert dans une autre application
 
-**Émet**
+**Exécuter**
 
-Si vous essayez de transférer un fichier, tel qu’un document Word, en l’incluant dans un message instantané à un autre utilisateur Lync, le transfert semble aboutir, mais il se peut que le transfert du fichier échoue. Une icône pour le type de fichier s’affichera dans le client Lync, mais le fichier ne peut pas être ouvert par le destinataire prévu. Aucun message d’erreur ne s’affiche pour vous signaler que le transfert a échoué.
+Si vous tentez de transférer un fichier, tel qu’un document Word, en l’incluant dans un message instantané à un autre utilisateur Lync, le transfert semble réussi, mais il est possible que le transfert du fichier échoue. Une icône pour le type de fichier s’affiche dans le client Lync, mais le fichier ne peut pas être ouvert par le destinataire prévu. Aucun message d’erreur ne s’affiche pour vous informer que le transfert a échoué.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, fermez l’application ou le fichier ouvert qui s’ouvre avant d’essayer de transférer le fichier dans un message instantané.
+Pour contourner ce problème, fermez le fichier ou l’application ouvert qui s’est ouvert avant de tenter de transférer le fichier dans un message instantané.
 
 </div>
 
@@ -97,33 +97,33 @@ Pour contourner ce problème, fermez l’application ou le fichier ouvert qui s�
 
 <div>
 
-## <a name="lync-server"></a>Lync Server
+## <a name="lync-server"></a>Lync Server
 
 <div>
 
-## <a name="if-lync-server-storage-service-data-replication-fails-administrators-will-need-to-check-performance-counters-for-stale-storage-service-queue-items"></a>Si la réplication des données du service de stockage Lync Server échoue, les administrateurs doivent vérifier les compteurs de performance pour les éléments de la file d’attente du service de stockage obsolète
+## <a name="if-lync-server-storage-service-data-replication-fails-administrators-will-need-to-check-performance-counters-for-stale-storage-service-queue-items"></a>Si la réplication de données du service de stockage Lync Server échoue, les administrateurs devront vérifier les compteurs de performances pour les éléments de file d’attente du service de stockage périmés.
 
-**Émet**
+**Exécuter**
 
-Le service de stockage Lync Server utilise Windows fabric pour la réplication. Si les données sont supprimées sur un serveur frontal principal, mais que la suppression d’un serveur frontal secondaire échoue (par exemple, en cas d’arrêt inattendu ou d’erreur sur le serveur frontal), les données peuvent être laissées au-dessus et « orphelines ». Les données orphelines peuvent entraîner une dégradation des performances et gaspiller l’espace disque.
+Le service de stockage Lync Server utilise Windows fabric pour la réplication. Si les données sont supprimées sur un serveur frontal principal, mais que la suppression sur un serveur frontal secondaire échoue, par exemple, en cas d’arrêt inattendu ou d’erreur sur le serveur frontal, les données peuvent être conservées et orphelines. Ces données orphelines peuvent entraîner une dégradation des performances et un gaspillage de l’espace disque.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, si les événements LYSS\_DB\_de\_la\_base de données (ID = 32058)\_et\_LYSS\_DB\_utilisés comme Critical (ID = 32059) sont générés dans le journal des événements, les administrateurs doivent vérifier le compteur de performance du serveur frontal sous **ls : LYSS-API du service** de stockage dont le nom est **LYSS**. Si ce compteur de performance a une valeur élevée (par exemple, supérieure à 50 000), l’administrateur doit exécuter l’outil CleanuUpStorageServiceData. exe dans le kit de ressources de Lync Server 2013, qui supprimera toutes les données orphelines du pool. Pour plus d’informations sur l’outil, voir la documentation du kit de ressources de Lync Server 2013.
+Pour contourner ce problème, si l’espace de\_la\_base\_de\_données LYSS DB utilisé (ID = 32058\_)\_et\_LYSS\_DB utilisés (ID = 32059) sont générés dans le journal des événements, les administrateurs doivent vérifier le compteur de performances sur le serveur frontal sous **ls : LYSS-API de service de stockage** avec le nom **LYSS-nombre actuel d’éléments de file d’attente obsolètes**. Si ce compteur de performance a une valeur élevée (par exemple, supérieure à 50000), l’administrateur doit exécuter l’outil CleanuUpStorageServiceData. exe dans le kit de ressources Lync Server 2013, ce qui supprime toutes les données orphelines du pool. Pour plus d’informations sur l’outil, voir la documentation du kit de ressources Lync Server 2013.
 
 </div>
 
 <div>
 
-## <a name="whenever-the-ip-address-configuration-is-changed-for-a-server-or-pool-lync-server-services-need-to-be-restarted"></a>Chaque fois que la configuration de l’adresse IP d’un serveur ou d’un pool est modifiée, vous devez redémarrer les services Lync Server.
+## <a name="whenever-the-ip-address-configuration-is-changed-for-a-server-or-pool-lync-server-services-need-to-be-restarted"></a>Chaque fois que la configuration de l’adresse IP d’un serveur ou d’un pool est modifiée, les services Lync Server doivent être redémarrés.
 
-**Émet**
+**Exécuter**
 
-Lorsque la configuration de l’adresse IP d’un déploiement de Lync Server 2013 est modifiée (par exemple, le passage d’une pile IPv4 à une pile double ou d’une pile passant à une pile IPv6), tous les composants serveur ne prennent pas en main la modification de la configuration tant qu’il n’est pas redémarré.
+Lorsque la configuration de l’adresse IP est modifiée pour un déploiement Lync Server 2013, par exemple en passant d’IPv4 à double pile ou de double pile en IPv6, tous les composants serveur ne prennent pas en charge la modification de la configuration avant le redémarrage des services.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, redémarrez les services Lync Server suite à la modification de la configuration d’adresse IP pour le déploiement. Pour cela, exécutez les applets de commande suivantes dans Lync Server Management Shell :
+Pour contourner ce problème, redémarrez les services Lync Server après avoir modifié la configuration d’adresse IP pour le déploiement. Pour ce faire, exécutez les applets de commande suivantes dans Lync Server Management Shell :
 
    ```PowerShell
     Stop-CsWindowsService -graceful
@@ -137,83 +137,83 @@ Pour contourner ce problème, redémarrez les services Lync Server suite à la m
 
 <div>
 
-## <a name="the-dial-in-conferencing-synthetic-transaction-cmdlet-is-no-longer-available-in-the-lync-server-2013-management-pack"></a>L’applet de connexion de transaction synthétique de conférence rendez-vous n’est plus disponible dans le pack d’administration 2013 de Lync Server.
+## <a name="the-dial-in-conferencing-synthetic-transaction-cmdlet-is-no-longer-available-in-the-lync-server-2013-management-pack"></a>L’applet de commande de transaction synthétique de conférence rendez-vous n’est plus disponible dans le pack d’administration Lync Server 2013
 
-**Émet**
+**Exécuter**
 
-L’applet de **contrôle** de conférence rendez-vous de la Conférence rendez-vous n’est plus disponible dans le pack d’administration 2013 de Lync Server.
+La cmdlet de transaction synthétique de conférence rendez **-vous-CsDialInConferencing** n’est plus disponible dans le pack d’administration Lync Server 2013.
 
-**Moyens**
+**Palliatives**
 
-L’utilisation de l’applet de **contrôle** de conférence rendez-vous est prise en charge uniquement en interne pour une entreprise.
+L’utilisation de l’applet de commande de transaction synthétique de conférence rendez-vous **Test-CsDialInConferencing** est prise en charge uniquement en interne, au sein d’une entreprise.
 
-Les administrateurs peuvent continuer à utiliser l’applet de cmdlet dans Lync Server Management Shell à des fins de dépannage. Le cas échéant, une entreprise peut également développer un pack d’administration privé pour exécuter l’applet de demande en interne.
-
-</div>
-
-<div>
-
-## <a name="the-centralized-logging-service-stops-if-network-traffic-is-disrupted-when-log-files-are-being-copied-to-network-share"></a>Le service de journalisation centralisé s’arrête si le trafic réseau a été interrompu lors de la copie des fichiers journaux vers le partage réseau.
-
-**Émet**
-
-Lorsque le service de journalisation centralisé est configuré pour utiliser un chemin d’accès réseau (la valeur du paramètre CacheFileNetworkFolder de l’applet de connexion **Get-CsClsConfiguration** est un chemin UNC valide), les fichiers journaux mises en cache sont copiés sur le partage réseau. S’il y a un problème de trafic réseau lors de la copie des fichiers, une exception se produit, ce qui entraîne l’arrêt du service de journalisation centralisé.
-
-Le service est configuré pour un démarrage automatique à trois reprises, de sorte que le service récupère les trois premières exceptions.
-
-**Moyens**
-
-Il n’existe aucune solution de contournement pour ce problème. Pour identifier le problème, analysez le journal des événements pour l’ID d’événement 7031 à partir du « gestionnaire de contrôle de service » qui consigne le service « Lync Server central Logging agent » s’est arrêté de manière inattendue. S’il s’agit de plus de trois fois, redémarrez manuellement le service à l’aide de l’applet de passe **Start-CsWindowService** .
+Les administrateurs peuvent continuer à utiliser la cmdlet dans Lync Server Management Shell à des fins de résolution des problèmes. Si nécessaire, une entreprise peut développer un pack de gestion privé pour exécuter l’applet de commande en interne.
 
 </div>
 
 <div>
 
-## <a name="storage-service-queue-items-need-to-be-imported-manually"></a>Les éléments de la file d’attente du service de stockage doivent être importés manuellement
+## <a name="the-centralized-logging-service-stops-if-network-traffic-is-disrupted-when-log-files-are-being-copied-to-network-share"></a>Le service de journalisation centralisée cesse si le trafic réseau est perturbé lorsque les fichiers journaux sont copiés sur le partage réseau
 
-**Émet**
+**Exécuter**
 
-Lync Server 2013 stocke les données relatives aux conférences et à la messagerie instantanée, telles que les messages archivés et l’enregistrement des détails des appels, sur une base de données sur chaque serveur frontal. Les données sont stockées dans la base de données pendant son traitement avant d’être remises à la destination prévue. Pour améliorer les performances, Lync Server 2013 exporte périodiquement les éléments de la file d’attente à partir de la base de données locale qui ne sont pas traités pendant une période prolongée et les enregistre sur le magasin de fichiers. Si le magasin de fichiers n’est pas disponible, les éléments sont stockés sur chaque serveur frontal. La même opération se produit afin d’éviter les pertes de données pendant le basculement du pool.
+Lorsque le service de journalisation centralisée est configuré de façon à utiliser un chemin d’accès réseau (la valeur du paramètre CacheFileNetworkFolder de l’applet de commande **Get-CsClsConfiguration** est un chemin d’accès UNC valide), les fichiers journaux mis en cache sont copiés vers le partage réseau. Si le trafic réseau est perturbé durant la copie des fichiers, une exception se produit et le service de journalisation centralisée est arrêté.
 
-Pendant l’opération d’exportation, le service de stockage du serveur Lync enregistre chaque étape du journal des événements avec les ID d’événement de 32075 (l’opération de vidage complète est lancée), 32076 (vidage complet est effectué), 32082 (le vidage du niveau de maintenance est démarré), 32083 (vidage de niveau de maintenance est terminé), 32089 (le vidage s’est produit en raison du remplissage de la base de données). Ces données ne seront pas automatiquement importées sur le système pour être traitées et transmises à la destination finale (SQL Server ou Exchange Server).
+Ce service étant configuré de façon à redémarrer automatiquement jusqu’à trois fois, il récupèrera suite aux trois premières exceptions.
 
-**Moyens**
+**Palliatives**
 
-Pour importer les données dans le système, les administrateurs doivent utiliser l’outil ImportStorageServiceData dans le kit de ressources de Lync Server, qui ajoute les données dans le système afin qu’elles soient traitées et transmises à la destination finale.
+Il n’existe aucune solution de contournement à ce problème. Pour identifier le problème, surveillez le journal des événements pour l’ID d’événement 7031 à partir du « gestionnaire de contrôle des services » qui se connecte lorsque le service « Lync Server Centralized Logging Service agent » s’est terminé de manière inattendue. Si cela se produit plus de trois fois, redémarrez manuellement le service à l’aide de l’applet de commande **Start-CsWindowService**.
 
 </div>
 
 <div>
 
-## <a name="address-book-web-query-searches-will-fail-if-the-default-value-for-usenormalizationrules-is-changed-to-false"></a>Les recherches dans le carnet d’adresses Web peuvent échouer si la valeur par défaut de UseNormalizationRules est remplacée par false.
+## <a name="storage-service-queue-items-need-to-be-imported-manually"></a>Les éléments de file d’attente du service de stockage doivent être importés manuellement
 
-**Émet**
+**Exécuter**
 
-Si la valeur par défaut de UseNormalizationRules est remplacée par false, les recherches de requête sur le Web du carnet d’adresses échouent. Après la modification de la valeur par défaut, les utilisateurs du client Lync ne seront pas en mesure d’utiliser la requête Web du carnet d’adresses Lync pour rechercher des utilisateurs.
+Lync Server 2013 stocke des données sur les conférences et la messagerie instantanée, telles que les messages archivés et l’enregistrement des détails des appels, sur une base de données sur chaque serveur frontal. Les données sont stockées dans la base de données lorsqu’elles sont traitées avant d’être remises à la destination prévue. Pour améliorer les performances, Lync Server 2013 exporte régulièrement les éléments de la file d’attente à partir de la base de données locale qui ne sont pas traités pendant une longue période, et les enregistre sur le magasin de fichiers. Si le magasin de fichiers n’est pas disponible, les éléments sont stockés sur chaque serveur frontal. La même opération se produit afin d’éviter toute perte de données durant le basculement de pool.
 
-**Moyens**
+Pendant l’opération d’exportation, le service de stockage Lync Server enregistre toutes les étapes dans le journal des événements avec les ID d’événement 32075 (l’opération de vidage complet est démarrée), 32076 (vidage total terminé), 32082 (le vidage du niveau de maintenance est démarré), 32083 (vidage au niveau de la maintenance est terminé), 32089 (vidage effectué en raison du remplissage de la base de données). Ces données ne seront pas automatiquement importées sur le système pour être traitées et livrées à leur destination finale (SQL Server ou Exchange Server).
 
-Si la valeur par défaut de UseNormalizationRules est définie sur false, afin que les utilisateurs puissent utiliser des numéros de téléphone tels qu’ils sont définis dans les services de domaine Active Directory sans Lync Server 2013 appliquant des règles de normalisation, contourner ce problème en procédant comme suit :
+**Palliatives**
 
-1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+Pour importer les données dans le système, les administrateurs doivent utiliser l’outil ImportStorageServiceData dans le kit de ressources Lync Server, qui rajoutera les données au système pour qu’elles soient traitées et livrées à leur destination finale.
 
-2.  Effectuez l’une des actions suivantes :
+</div>
+
+<div>
+
+## <a name="address-book-web-query-searches-will-fail-if-the-default-value-for-usenormalizationrules-is-changed-to-false"></a>Les recherches de requête sur le Web du carnet d’adresses échouent si la valeur par défaut de UseNormalizationRules est remplacée par false.
+
+**Exécuter**
+
+Si la valeur par défaut de UseNormalizationRules est changée en False, les recherches d’interrogation web du carnet d’adresses échouent. Une fois la valeur par défaut modifiée, les utilisateurs du client Lync ne pourront pas utiliser l’interrogation web du carnet d’adresses Lync pour rechercher des utilisateurs.
+
+**Palliatives**
+
+Si la valeur par défaut de UseNormalizationRules est définie sur false afin que les utilisateurs puissent utiliser des numéros de téléphone tels que définis dans les services de domaine Active Directory sans Lync Server 2013 appliquant des règles de normalisation, contourner ce problème en procédant comme suit :
+
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Lync Server Management Shell**.
+
+2.  Effectuez l’une des opérations suivantes :
     
-      - Si votre déploiement inclut uniquement les serveurs Lync Server 2013, exécutez l’applet de commande suivante au niveau global pour modifier les valeurs de UseNormalizationRules et IgnoreGenericRules sur true :
+      - Si votre déploiement inclut uniquement des serveurs Lync Server 2013, exécutez l’applet de commande suivante au niveau global pour modifier les valeurs de UseNormalizationRules et IgnoreGenericRules sur true :
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
-      - Si votre déploiement inclut une combinaison de Lync Server 2013 et de Lync Server 2010 ou Office Communications Server 2007 R2, exécutez l’applet de commande suivante et affectez-la à chaque pool Lync Server 2013 dans la topologie :
+      - Si votre déploiement inclut une combinaison de Lync Server 2013 et Lync Server 2010 ou Office Communications Server 2007 R2, exécutez l’applet de commande suivante et affectez-la à chaque pool Lync Server 2013 dans la topologie :
         
             new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
-3.  Attendez la fin de la réplication CMS sur tous les pools.
+3.  Attendez que le réplication CMS ait lieu sur tous les pools.
 
-4.  Modifiez le fichier de règles de normalisation du téléphone pour votre déploiement pour effacer le contenu. Le fichier se trouve sur le partage de fichiers de chaque pool Lync Server 2013. Si le fichier n’est pas présent, créez-en un dans la section\_«\_\_règles\_de normalisation des numéros de téléphone de l’entreprise ».
+4.  Modifiez le fichier de règles de normalisation téléphonique de votre déploiement afin d’effacer le contenu. Le fichier se trouve sur le partage de fichiers de chaque pool Lync Server 2013. Si le fichier n’est pas présent, créez un fichier vide nommé « Company\_Phone\_Number\_Normalization\_Rules. txt ».
 
-5.  Attendez quelques minutes pour que tous les pools du serveur principal lisent les nouveaux fichiers.
+5.  Attendez quelques minutes que tous les pools frontaux aient lu les nouveaux fichiers.
 
-6.  Exécutez l’applet de commande suivante sur chaque pool Lync Server 2013 dans votre déploiement.
+6.  Exécutez l’applet de commande suivante sur chaque pool Lync Server 2013 de votre déploiement.
     
         Update-csAddressBook
 
@@ -221,171 +221,171 @@ Si la valeur par défaut de UseNormalizationRules est définie sur false, afin q
 
 <div>
 
-## <a name="address-book-server-error-event-21054-is-generated-once-daily-for-each-lync-2013-pool"></a>Le message d’erreur de serveur du carnet d’adresses 21054 est généré quotidiennement pour chaque pool 2013 de Lync
+## <a name="address-book-server-error-event-21054-is-generated-once-daily-for-each-lync-2013-pool"></a>L’événement d’erreur de serveur de carnet d’adresses 21054 est généré une fois par jour pour chaque pool Lync 2013
 
-**Émet**
+**Exécuter**
 
-Le serveur du carnet d’adresses Lync Server 2013 génère un événement d’erreur 21054 une fois tous les jours lors de la maintenance quotidienne. Cette erreur est également générée chaque fois qu’un administrateur exécute l’applet de connexion **Update-csAddressBook** , même si la mise à jour est réussie. Toutefois, l’événement d’erreur peut être ignoré en toute sécurité lorsque la mise à jour est réussie.
+Le serveur de carnet d’adresses Lync Server 2013 générera un événement d’erreur 21054 une fois par jour lors de la maintenance quotidienne. L’erreur est également générée chaque fois qu’un administrateur exécute la cmdlet **Update-csAddressBook** , même si la mise à jour réussit. Toutefois, cet événement d’erreur peut être ignoré lorsque la mise à jour réussit.
 
-**Moyens**
+**Palliatives**
 
 Lorsque vous rencontrez cet événement d’erreur, exécutez l’applet de commande suivante :
 
     Debug-csAddressBookReplication -Poolfqdn <Pool FQDN for which the event was generated>
 
-Si l’applet de passe signale qu’il n’y a aucun objet non indexé ou abandonné, l’événement d’erreur 21054 peut être ignoré en toute sécurité.
+Si l’applet de commande signale qu’il n’y a pas d’objets non indexés ou abandonnés, l’événement d’erreur 21054 peut être ignoré en toute sécurité.
 
-Par ailleurs, le témoin d’intégrité principal (KHI) « les utilisateurs du carnet d’adresses correctement indexé » doit être désactivé dans System Center Operations Manager.
-
-</div>
-
-<div>
-
-## <a name="requests-may-fail-when-ipv6-is-configured-on-an-edge-pool"></a>Les requêtes peuvent échouer lorsque le protocole IPv6 est configuré sur un pool de bords
-
-**Émet**
-
-Lorsque le protocole IPv6 est configuré sur un pool Edge, certaines requêtes vers le pool Edge peuvent échouer.
-
-**Moyens**
-
-Pour contourner ce problème, ne configurez pas de pool Edge avec IPv6.
+Par ailleurs, l’indicateur d’intégrité de clé « Utilisateurs de carnet d’adresses correctement indexés » doit être désactivé dans System Center Operations Manager.
 
 </div>
 
 <div>
 
-## <a name="the-invoke-cspoolfailback-cmdlet-may-fail-during-pool-failback"></a>L’applet de passe Invoke-csPoolFailback risque de ne pas fonctionner lors du retour automatique de la liste
+## <a name="requests-may-fail-when-ipv6-is-configured-on-an-edge-pool"></a>Les demandes peuvent échouer lorsque le protocole IPv6 est configuré sur un pool de serveurs Edge
 
-**Émet**
+**Exécuter**
 
-Lorsque vous tentez de basculer sur un pool, l’applet de demande **Invoke-csPoolFailback** risque d’échouer en raison de l’erreur « Échec de l’accomplissement du processus d’hydratation après plusieurs tentatives ».
+Lorsque le protocole IPv6 est configuré sur un pool Edge, certaines demandes envoyées au pool Edge peuvent échouer.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, exécutez de nouveau l’applet de passe et attendez que l’applet de passe réussisse. Notez que le processus de restauration automatique peut prendre quelques minutes. Un délai de 60 minutes doit être nécessaire pour un pool avec des utilisateurs 20 000.
-
-</div>
-
-<div>
-
-## <a name="data-loss-may-occur-when-you-add-a-front-end-server-to-an-already-established-pool--hybrid-skype-for-business-online"></a>Une perte de données est susceptible de se produire lorsque vous ajoutez un serveur frontal à une réserve déjà établie-hybride, Skype entreprise Online
-
-**Émet**
-
-Ce problème peut se produire dans un environnement dans lequel un pool a plusieurs serveurs frontaux et que vous redémarrez l’un des serveurs frontaux ou ajoutez un nouveau serveur frontal qui ne faisait pas partie de la liste.
-
-Les utilisateurs dont les données sont archivées peuvent faire l’objet d’une perte de données jusqu’à ce qu’une distribution stable de l’archivage des données soit établie pour le pool. Ce délai de perte de données potentiel est limité à 15 minutes pour les conversations de personne à personne et de 30 minutes pour les conférences.
-
-**Moyens**
-
-Lorsque vous effectuez une maintenance, au lieu de démarrer les serveurs frontaux dans le groupe, vous devez basculer le pool vers un autre, puis effectuer des tâches de maintenance sur les serveurs. Vous pouvez également rendre le Service indisponible avant d’effectuer des tâches de maintenance, puis restaurer la disponibilité au terme de la maintenance.
+Pour contourner ce problème, ne configurez pas de pool Edge avec le protocole IPv6.
 
 </div>
 
 <div>
 
-## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>Les administrateurs ne peuvent pas obtenir le nombre de licenciés à l’aide de l’applet de passe Get-CsClientAccessLicense
+## <a name="the-invoke-cspoolfailback-cmdlet-may-fail-during-pool-failback"></a>La cmdlet Invoke-applet cspoolfailback peut échouer pendant la restauration automatique du pool
 
-**Émet**
+**Exécuter**
 
-Les administrateurs ne peuvent pas obtenir une utilisation précise des licences client en utilisant l’applet de commande **Get-CsClientAccessLicense** .
+Lors d’une tentative de restauration de pool, l’applet de commande **invoke-csPoolFailback** peut échouer et renvoyer l’erreur « Désolé... En dépit de plusieurs tentatives, nous n’avons pas pu effectuer le processus d’hydration. ».
 
-**Moyens**
+**Palliatives**
 
-Pour vérifier le type de licence serveur, vous pouvez exécuter l’applet de contrôle **Get-CsService** pour récupérer les noms de domaine complets (FDQNs) de toutes les bases de données. Si le nom de domaine complet du serveur principal est identique à celui de la base de données principale, la licence est une licence Standard Edition. Dans le cas contraire, la licence est une licence Enterprise Edition.
-
-</div>
-
-<div>
-
-## <a name="client-licensee-count-is-not-accurately-reported"></a>Le nombre de licenciés du client n’est pas correctement signalé
-
-**Émet**
-
-Lorsque vous déterminez le nombre de licences clientes, vous pouvez observer les conditions suivantes :
-
-1.  **Nombre de licences inexactes pour les utilisateurs mobiles**
-    
-    Le nombre de licences est basé sur le nombre d’adresses IP uniques pour les utilisateurs de périphériques. Le nombre de licences sera limité des manières suivantes :
-    
-      - Les licences seront surconsidérées si l’adresse IP de l’utilisateur change au cours des sessions Lync. Cela peut se produire lorsqu’un utilisateur se connecte à Lync Server à partir de plusieurs emplacements auprès d’un client de bureau.
-    
-      - Les licences seront sous-comptabilisées si un utilisateur se connecte à un client mobile, car l’adresse IP de l’appareil ne peut pas être déterminée.
-
-2.  **Les licences sont comptabilisées à deux reprises pour les appels de réseau téléphonique commuté (PSTN) vers le client Lync, les appels client Lync vers les lignes RTC et les appels Lync renvoyés vers des lignes PSTN**
-    
-    Dans les scénarios suivants, deux licences supplémentaires seront comptabilisées au lieu d’une telle sorte que le numéro de téléphone et l’utilisateur Lync soient pris en compte pour déterminer le nombre de licences utilisées. Pour obtenir des informations précises sur la gestion des licences, supprimez manuellement les licences générées par un numéro de téléphone.
-    
-      - Appel téléphonique PSTN vers Lync
-    
-      - Appel Lync vers une ligne RTC
-    
-      - Un appel RTC sur Lync, puis Lync transfère l’appel vers une ligne PSTN. Une des lignes RTC sera comptée.
-
-3.  **Une licence ne sera pas comptabilisée pour un téléphone Lync connecté**
-    
-    Lorsqu’un utilisateur utilise un téléphone certifié Lync, si le téléphone se connecte et reste connecté, ce qui conserve son statut de connexion, le téléphone ne sera pas comptabilisé comme utilisant une licence si la requête de licences intervient après la connexion du téléphone.
-
-4.  **Licences comptabilisées pour les téléphones RTC qui se connectent à des conférences**
-    
-    Lorsqu’un utilisateur rejoint une conférence à l’aide d’un téléphone RTC, une licence n’est pas correctement comptabilisée pour rejoindre la Conférence. Toutefois, aucune licence n’est nécessaire pour participer à une conférence à l’aide d’un téléphone RTC.
-
-**Moyens**
-
-1.  **Nombre de licences inexactes pour les utilisateurs mobiles**
-    
-      - Vous pouvez identifier les adresses IP qui appartiennent au même appareil et en supprimer une dans le nombre de licences.
-    
-      - Il n’existe aucune solution de contournement pour ce problème avec les appareils mobiles qui se connectent avec le client Lync.
-
-2.  **Les licences sont comptabilisées deux fois pour les appels RTC vers le client Lync, les appels client Lync vers les lignes RTC et les appels Lync transférés vers les lignes RTC**
-    
-    Vous devez identifier manuellement le numéro de téléphone RTC et supprimer le nombre de licences qui lui est généré.
-
-3.  **Une licence ne sera pas comptabilisée pour un téléphone Lync connecté**
-    
-    Vous pouvez configurer le téléphone Lync pour vous déconnecter, puis vous reconnecter à un intervalle régulier, par exemple tous les 3 mois.
-
-4.  **Licences comptabilisées pour les téléphones RTC qui se connectent à des conférences**
-    
-    Vous pouvez identifier manuellement le numéro de téléphone RTC qui est utilisé pour participer à la Conférence et supprimer la licence générée par le numéro de téléphone.
+Pour contourner ce problème, réexécutez l’applet de commande et attendez qu’elle réussisse. Notez que le processus de restauration peut prendre plusieurs minutes (jusqu’à 60 minutes pour un pool de 20 000 utilisateurs).
 
 </div>
 
 <div>
 
-## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-upgrading-to-silverlight-5"></a>Le panneau de configuration de Lync Server cesse de fonctionner dans un environnement VMware après la mise à niveau vers Silverlight 5
+## <a name="data-loss-may-occur-when-you-add-a-front-end-server-to-an-already-established-pool--hybrid-skype-for-business-online"></a>Une perte de données peut se produire lorsque vous ajoutez un serveur frontal à un pool déjà établi-hybride, Skype entreprise Online
 
-**Émet**
+**Exécuter**
 
-Si vous utilisez le panneau de configuration de Lync Server dans un environnement VMware, il est possible que le panneau de configuration de Lync Server cesse de fonctionner après la mise à niveau de Microsoft Silverlight vers la version 5.
+Vous pouvez rencontrer ce problème dans un environnement où un pool comporte plusieurs serveurs frontaux, et vous devez redémarrer l’un des serveurs frontaux ou ajouter un nouveau serveur frontal qui ne faisait pas partie du pool.
 
-**Moyens**
+Les utilisateurs dont les données sont en cours d’archivage peuvent constater une perte de données jusqu’à ce qu’une distribution stable de l’archivage des données soit établie pour le pool. Cette période de perte de données potentielle est limitée à 15 minutes pour les conversations de personne à personne et à 30 minutes pour les conférences.
+
+**Palliatives**
+
+Lorsque vous effectuez une maintenance au lieu de démarrer les serveurs frontaux dans le pool un par un, vous devez basculer le pool vers un autre pool, puis effectuer les tâches de maintenance sur les serveurs. Vous pouvez également rendre le service indisponible avant d’effectuer les tâches de maintenance, puis rétablir la disponibilité une fois la maintenance terminée.
+
+</div>
+
+<div>
+
+## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>Les administrateurs ne peuvent pas obtenir le nombre de licenciés à l’aide de la cmdlet Get-applet csclientaccesslicense
+
+**Exécuter**
+
+Les administrateurs ne peuvent pas obtenir d’informations correctes relatives à l’utilisation des licences client à l’aide de l’applet de commande **Get-CsClientAccessLicense**.
+
+**Palliatives**
+
+Pour vérifier le type de licence serveur, vous pouvez exécuter l’applet de commande **Get-CsService** pour extraire les noms de domaine complets de toutes les bases de données. Si le nom de domaine complet du serveur frontal est identique au nom de domaine complet de la base de données principale, la licence est une licence Standard Edition. Dans le cas contraire, il s’agit d’une licence Enterprise Edition.
+
+</div>
+
+<div>
+
+## <a name="client-licensee-count-is-not-accurately-reported"></a>Le nombre de licenciés client n’est pas correctement signalé
+
+**Exécuter**
+
+Lors de la détermination du nombre de licences client, vous pouvez rencontrer les conditions suivantes :
+
+1.  **Nombre de licences incorrect pour les utilisateurs mobiles**
+    
+    Le nombre de licences est basé sur le nombre d’adresses IP uniques pour les utilisateurs de périphériques mobiles. Le nombre de licence sera limité des manières suivantes :
+    
+      - Le nombre de licences est surévalué si l’adresse IP de l’utilisateur change durant les sessions Lync. Cela peut se produire lorsqu’un utilisateur se connecte à Lync Server à partir de plusieurs emplacements à l’aide d’un client de bureau.
+    
+      - Le nombre de licences est sous-évalué si un utilisateur se connecte avec un client mobile, car l’adresse IP de l’appareil ne peut pas être déterminée.
+
+2.  **Les licences sont comptabilisées deux fois pour les appels PSTN (Public Switched Telephone Network) vers le client Lync, les appels de clients Lync vers des lignes PSTN et les appels Lync transférés à des lignes PSTN**
+    
+    Dans les scénarios suivants, deux licences supplémentaires sont comptabilisées (au lieu d’une seule) car le numéro de téléphone et l’utilisateur Lync sont tous deux comptés afin de déterminer le nombre de licences utilisés. Pour obtenir des données de licence correctes, supprimez manuellement les licences générées par un numéro de téléphone.
+    
+      - Un appel téléphonique PSTN vers Lync
+    
+      - Un appel Lync vers une ligne PSTN
+    
+      - Un appel PSTN vers Lync, qui est ensuite transféré par Lync à une ligne PSTN. L’une des lignes PSTN est comptabilisée.
+
+3.  **Aucune licence n’est comptabilisée pour un téléphone Lync connecté**
+    
+    Lorsqu’un utilisateur utilise un téléphone certifié Lync, si le téléphone se connecte et reste connecté (auquel cas son statut de connexion est conservé), le téléphone n’est pas comptabilisé comme utilisant une licence si l’interrogation de licence a lieu après la connexion du téléphone.
+
+4.  **Licences comptabilisées pour les téléphones PSTN prenant part à des conférences**
+    
+    Lorsqu’un utilisateur prend part à une conférence avec un téléphone PSTN, une licence est comptabilisée de manière incorrecte pour la participation à la conférence. Toutefois, aucune licence n’est nécessaire pour prendre part à une conférence avec un téléphone PSTN.
+
+**Palliatives**
+
+1.  **Nombre de licences incorrect pour les utilisateurs mobiles**
+    
+      - Vous pouvez identifier manuellement les adresses IP qui appartiennent au même périphérique, puis supprimer l’une d’entre elles dans le nombre de licences.
+    
+      - Il n’existe aucune solution de contournement à ce problème dans le cas des appareils mobiles se connectant avec le client Lync.
+
+2.  **Les licences sont comptabilisées deux fois pour les appels PSTN vers le client Lync, les appels de clients Lync vers des lignes PSTN et les appels Lync transférés à des lignes PSTN**
+    
+    Vous devez identifier manuellement le numéro de téléphone PSTN et supprimer la licence générée pour ce numéro.
+
+3.  **Aucune licence n’est comptabilisée pour un téléphone Lync connecté**
+    
+    Vous pouvez configurer le téléphone Lync pour qu’il se déconnecte puis se reconnecte à intervalles réguliers (par exemple tous les trois mois).
+
+4.  **Licences comptabilisées pour les téléphones PSTN prenant part à des conférences**
+    
+    Vous pouvez identifier manuellement le numéro de téléphone PSTN utilisé pour prendre part à la conférence et supprimer la licence générée par ce numéro de téléphone.
+
+</div>
+
+<div>
+
+## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-upgrading-to-silverlight-5"></a>Le panneau de configuration Lync Server cesse de fonctionner dans un environnement VMware après la mise à niveau vers Silverlight 5
+
+**Exécuter**
+
+Si vous utilisez le panneau de configuration Lync Server dans un environnement VMware, le panneau de configuration Lync Server peut cesser de fonctionner après la mise à niveau de Microsoft Silverlight vers la version 5.
+
+**Palliatives**
 
 Pour contourner ce problème, effectuez l’une des opérations suivantes :
 
-  - Désinstaller Silverlight 5, puis installer Silverlight 4 [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)à partir de.
+  - Désinstallez Silverlight 5 et installez Silverlight 4 à [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)partir de.
 
-  - Accédez au panneau de configuration de Lync Server à partir d’un ordinateur qui n’est pas un ordinateur virtuel VMware.
+  - Accédez au panneau de configuration Lync Server à partir d’un ordinateur qui n’est pas un ordinateur virtuel VMware.
     
-    Pour ce faire, vous pouvez démarrer le panneau de configuration de Lync Server à partir du menu **Démarrer** de Windows sur le serveur, si les outils d’administration de Lync Server sont installés sur votre ordinateur.
+    Pour ce faire, vous pouvez démarrer le panneau de configuration Lync Server à partir du menu **Démarrer** de Windows sur le serveur, si les outils d’administration Lync Server sont installés sur l’ordinateur.
     
-    Vous pouvez également accéder au panneau de configuration de Lync Server à l’aide d’un navigateur Web. L’URL sera similaire à celle du\<nom\_de\_domaine\>complet du pool https:///CSCP.
+    Vous pouvez également accéder au panneau de configuration Lync Server à l’aide d’un navigateur Web. L’URL sera similaire au nom de\<domaine\_complet\_\>du pool https://frontal/CSCP.
 
 </div>
 
 <div>
 
-## <a name="user-information-in-the-address-book-service-is-not-updated-after-the-distinguished-name-for-the-user-is-modified-in-active-directory"></a>Les informations utilisateur du service de carnet d’adresses ne sont pas mises à jour lorsque le nom complet de l’utilisateur est modifié dans Active Directory
+## <a name="user-information-in-the-address-book-service-is-not-updated-after-the-distinguished-name-for-the-user-is-modified-in-active-directory"></a>Les informations utilisateur du service de carnet d’adresses ne sont pas mises à jour après la modification du nom unique de l’utilisateur dans Active Directory.
 
-**Émet**
+**Exécuter**
 
-Si le nom distinctif d’un utilisateur (également appelé DN) est modifié dans les services de domaine Active Directory (AD DS), les modifications supplémentaires ne seront pas mises à jour dans le service de carnet d’adresses (ABS). Cela n’affecte pas la connexion ou la présence de l’utilisateur, mais empêche la communication de l’utilisateur si l’adresse SIP est également modifiée, car la recherche renverra une adresse SIP obsolète.
+Si le nom unique d’un utilisateur (également appelé DN) est modifié dans les services de domaine Active Directory (AD DS), toutes les modifications supplémentaires ne seront pas mises à jour dans le service de carnet d’adresses (ABS). Ceci n’affecte pas la connexion ou la présence de l’utilisateur, mais empêchera toute communication pour l’utilisateur si l’adresse SIP est également modifiée, car les recherches renverront une adresse IP obsolète.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, ne modifiez pas le nom d’utilisateur de l’utilisateur. Si vous rétablissez la valeur précédente pour l’utilisateur, les mises à jour sont reflétées dans le service de carnet d’adresses.
+Pour contourner ce problème, ne modifiez pas le nom unique de l’utilisateur. Si vous rétablissez la valeur précédente du nom unique de l’utilisateur, les mises à jour seront reflétées dans le service de carnet d’adresses.
 
 </div>
 
@@ -399,13 +399,13 @@ Pour contourner ce problème, ne modifiez pas le nom d’utilisateur de l’util
 
 <div>
 
-## <a name="using-non-ascii-characters-may-result-in-lync-server-failing-to-start"></a>L’utilisation de caractères non ASCII risque de provoquer un échec du démarrage de Lync Server.
+## <a name="using-non-ascii-characters-may-result-in-lync-server-failing-to-start"></a>L’utilisation de caractères non-ASCII peut entraîner l’échec du démarrage de Lync Server
 
-**Émet**
+**Exécuter**
 
-Le programme d’installation ne fonctionnera pas si le nom du dossier de destination inclut des caractères non ASCII (par exemple, UNICODE, jeu de caractères codés sur deux octets (DBCS), UTF-8 et UTF-16). De plus, le programme d’installation peut réussir, mais le serveur ne démarrera pas si des caractères non-ASCII sont contenus dans les éléments suivants :
+Le programme d’installation échouera si le nom du dossier de destination inclut des caractères non-ASCII (UNICODE, jeu de caractères codés sur deux octets (DBCS), UTF-8 et UTF-16). De plus, le programme d’installation peut réussir, mais le serveur ne démarre pas si les caractères non ASCII sont contenus dans l’un des éléments suivants :
 
-  - Nom de l’ordinateur
+  - Nom de l'ordinateur
 
   - Nom du domaine
 
@@ -415,7 +415,7 @@ Le programme d’installation ne fonctionnera pas si le nom du dossier de destin
 
   - Nom du compte de service
 
-**Moyens**
+**Palliatives**
 
 Utilisez uniquement des caractères ASCII dans le nom du dossier de destination, le nom de l’ordinateur, le nom de domaine, le nom d’utilisateur, l’URI SIP de l’utilisateur et les noms de compte de service.
 
@@ -423,13 +423,13 @@ Utilisez uniquement des caractères ASCII dans le nom du dossier de destination,
 
 <div>
 
-## <a name="the-hotfix-for-heap-corruption-occurs-when-a-module-calls-the-insertentitybody-method-in-iis-75-must-be-installed-prior-to-installing-lync-server-2013"></a>Le correctif pour la corruption du tas se produit lorsqu’un module appelle la méthode InsertEntityBody dans IIS 7,5» doit être installé avant d’installer Lync Server 2013
+## <a name="the-hotfix-for-heap-corruption-occurs-when-a-module-calls-the-insertentitybody-method-in-iis-75-must-be-installed-prior-to-installing-lync-server-2013"></a>Le correctif logiciel pour « un endommagement de segment se produit lorsqu’un module appelle la méthode InsertEntityBody dans IIS 7,5 » doit être installé avant d’installer Lync Server 2013
 
-**Émet**
+**Exécuter**
 
-Le correctif pour la corruption du tas se produit lorsqu’un module appelle la méthode InsertEntityBody dans IIS 7,5[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)"(), décrite dans l’article 264886 ([https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603)) de la base de connaissances Microsoft, doit être installé avant d’installer Lync Server 2013.
+Le correctif logiciel pour « un endommagement de segment se produit lorsqu’un module appelle la méthode[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)INSERTENTITYBODY dans IIS 7,5 » () décrit dans l'[https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603)article 264886 de la base de connaissances Microsoft (), doit être installé avant l’installation de Lync Server 2013.
 
-**Moyens**
+**Palliatives**
 
 Téléchargez et installez le correctif à partir du centre de téléchargement [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)Microsoft à l’adresse.
 
@@ -437,17 +437,17 @@ Téléchargez et installez le correctif à partir du centre de téléchargement 
 
 <div>
 
-## <a name="lync-server-2013-fails-to-install-on-ita-windows-server-2012-os-rtm-version"></a>Lync Server 2013 ne peut pas être installé sur la version du système d’exploitation Windows Server 2012 du système d’exploitation ITA
+## <a name="lync-server-2013-fails-to-install-on-ita-windows-server-2012-os-rtm-version"></a>Lync Server 2013 ne parvient pas à installer sur le système d’exploitation Windows Server 2012 version RTM
 
-**Émet**
+**Exécuter**
 
-Échec de l’installation de Lync Server 2013 sur le Windows Server 2012 en raison de l’échec de l’installation de Windows fabric.
+L’installation de Lync Server 2013 échoue sur le serveur Windows Server 2012 ITA en raison de l’échec de l’installation de Windows fabric.
 
-Échec de l’installation de Windows fabric, car les traces de fabrique sont créées au format HH : MM : SS. Toutefois, dans le Windows Server ITA, le format horaire est HH. MM.SS.
+L’installation de Windows Fabric échoue car les traces de structure sont créées au format de l’heure HH:MM:SS, alors que dans Windows Server ITA le format de l’heure est HH.MM.SS.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, mettez à jour le registre système avant d’installer Lync Server 2013. La clé de Registre qui doit être mise à jour est\_:\\utilisateurs de HKEY. Panneau\\\\de configuration par\\défaut sTimeFormat international. Définissez la valeur de sTimeFormat sur HH : mm : SS en utilisant l’interface de ligne de commande Windows PowerShell comme suit :
+Pour contourner ce problème, mettez à jour le registre système avant d’installer Lync Server 2013. La clé de Registre qui doit être mise à jour est\_la\\suivante : HKEY Users. Panneau\\de configuration\\par\\défaut international sTimeFormat. Modifiez la valeur de sTimeFormat sur HH : mm : SS à l’aide de l’interface de ligne de commande Windows PowerShell comme suit :
 
 1.  Démarrez Windows PowerShell et exécutez les applets de commande suivantes :
     
@@ -463,15 +463,15 @@ Pour contourner ce problème, mettez à jour le registre système avant d’inst
     
         Get-itemproperty $a -Name sTimeFormat
     
-    Notez la valeur actuelle de sTimeFormat afin qu’elle puisse être restaurée une fois l’installation terminée.
+    Prenez note de la valeur actuelle de sTimeFormat afin de pouvoir la restaurer une fois l’installation terminée.
 
-3.  Pour définir une nouvelle valeur, exécutez l’applet de commande suivante :
+3.  Pour définir la nouvelle valeur, exécutez l’applet de commande suivante :
     
         Set-ItemProperty $a -Name sTimeFormat -Value "HH:mm:ss"
 
-4.  Après l’installation de Lync Server 2013, restaurez la valeur d’origine pour sTimeFormat en exécutant l’applet de commande suivante :
+4.  Une fois que Lync Server 2013 a été correctement installé, restaurez la valeur d’origine du sTimeFormat en exécutant l’applet de commande suivante :
     
-        - Set-ItemProperty $a-name sTimeFormat-value» <valeur notée à l’étape 3. au-dessus de> "
+        - Set-ItemProperty $a-name sTimeFormat "valeur de <notée à l’étape 3. au-dessus de>»
 
 </div>
 
@@ -485,91 +485,91 @@ Pour contourner ce problème, mettez à jour le registre système avant d’inst
 
 <div>
 
-## <a name="issues-for-mobile-clients-during-the-server-failover-process"></a>Problèmes pour les clients mobiles au cours du processus de basculement du serveur
+## <a name="issues-for-mobile-clients-during-the-server-failover-process"></a>Problèmes liés aux clients mobiles pendant le processus de basculement de serveur
 
-**Émet**
+**Exécuter**
 
-En cas d’échec du serveur Lync et du démarrage du processus de basculement, les problèmes suivants peuvent affecter les utilisateurs des clients mobiles :
+Lorsqu’un serveur Lync échoue et que le processus de basculement commence, les problèmes suivants peuvent affecter les utilisateurs des clients mobiles :
 
-  - Aucun appel ou signal entrant Lync n’est effectué pendant 10 minutes après le démarrage du basculement.
+  - Aucun signal ou appel Lync entrant pendant 10 minutes maximum après le démarrage du basculement.
 
   - Impossible d’accepter les demandes de conversation entrantes
 
-  - Impossible de rejoindre des réunions si le serveur en panne est le serveur de base pour l’utilisateur
+  - Impossible de joindre des réunions si le serveur défaillant est le serveur d’accueil de l’utilisateur
 
-**Moyens**
+**Palliatives**
 
-Il n’existe aucune solution de contournement pour ce problème. Les fonctionnalités normales seront restaurées une fois le processus de basculement terminé.
-
-</div>
-
-<div>
-
-## <a name="if-a-mobile-user-declines-an-incoming-call-from-another-lync-endpoint-the-call-is-displayed-as-a-missed-conversion-on-lync-mobile-clients"></a>Si un utilisateur mobile décline un appel entrant d’un autre point de terminaison Lync, l’appel est affiché en tant que conversion manquée sur les clients mobiles Lync
-
-**Émet**
-
-Si un utilisateur mobile décline un appel entrant et que l’appel provient d’un autre point de terminaison Lync, l’appel s’affiche sous la forme d’une conversation manquée dans le client mobile Lync au lieu d’un appel dans la liste d’appels d’appareil.
-
-**Moyens**
-
-Il n’existe aucune solution de contournement pour ce problème.
+Il n’existe aucune solution de contournement à ce problème. Les fonctionnalités normales seront restaurées une fois le processus de basculement terminé.
 
 </div>
 
 <div>
 
-## <a name="the-mobile-client-may-not-display-a-federated-contacts-display-name-when-searching-for-contacts"></a>Le client mobile ne peut pas afficher le nom complet d’un contact fédéré lors de la recherche de contacts
+## <a name="if-a-mobile-user-declines-an-incoming-call-from-another-lync-endpoint-the-call-is-displayed-as-a-missed-conversion-on-lync-mobile-clients"></a>Si un utilisateur mobile refuse un appel entrant d’un autre point de terminaison Lync, l’appel est affiché en tant que conversion manquée sur les clients mobiles Lync.
 
-**Émet**
+**Exécuter**
 
-Dans certains cas, le nom d’affichage des contacts fédérés ne s’affiche pas, par exemple lors de la recherche d’un contact fédéré dans la liste de contacts. Cela peut se produire lorsqu’il n’y a aucun abonnement de présence actif pour le contact à partir du client mobile Lync.
+Si un utilisateur mobile refuse un appel entrant et que l’appel provenait d’un autre point de terminaison Lync, l’appel est affiché en tant que conversation manquée dans le client mobile Lync et non dans la liste d’appels de périphérique.
 
-**Moyens**
+**Palliatives**
 
-Il n’existe aucune solution de contournement pour ce problème.
-
-</div>
-
-<div>
-
-## <a name="in-the-mobile-client-invitee-and-timestamp-information-are-missing-from-a-missed-conversation-that-is-an-invitation-to-a-conference"></a>Dans le client mobile, les informations d’invité et d’horodatage sont manquantes dans une conversation manquée qui est une invitation à une conférence
-
-**Émet**
-
-Dans le client mobile, lorsqu’une conversation manquée est une invitation à une conférence, les informations invité et horodatage sont manquantes dans le message de conversation manqué.
-
-**Moyens**
-
-Il n’existe aucune solution de contournement pour ce problème.
+Il n’existe aucune solution de contournement à ce problème.
 
 </div>
 
 <div>
 
-## <a name="mobile-client-users-making-calls-using-voip-are-not-be-able-to-leave-voice-mail-for-users-whose-voice-mail-is-configured-in-exchange-2010-or-earlier-versions"></a>Les utilisateurs des clients mobiles effectuant des appels à l’aide de VoIP ne peuvent pas quitter la messagerie vocale pour les utilisateurs dont la messagerie vocale est configurée dans Exchange 2010 ou les versions précédentes.
+## <a name="the-mobile-client-may-not-display-a-federated-contacts-display-name-when-searching-for-contacts"></a>Le client mobile peut ne pas afficher le nom d’affichage d’un contact fédéré lors de la recherche de contacts
 
-**Émet**
+**Exécuter**
 
-Si un utilisateur du client mobile utilise le protocole VoIP pour passer des appels, l’utilisateur ne pourra pas quitter les messages vocaux pour les utilisateurs configurés pour utiliser la messagerie vocale dans Microsoft Exchange Server 2007 ou Microsoft Exchange Server 2010.
+Le nom d’affichage des contacts fédérés peut ne pas être affiché dans certains scénarios, par exemple lors de la recherche d’un contact fédéré dans la liste des contacts. Cela peut se produire lorsqu’il n’existe aucun abonnement de présence actif pour le contact à partir du client mobile Lync.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, utilisez Exchange 2010 avec SP1 ou une version plus récente de Microsoft Exchange Server.
+Il n’existe aucune solution de contournement à ce problème.
 
 </div>
 
 <div>
 
-## <a name="when-using-block-with-url-for-client-version-configuration-on-mobile-clients-an-incorrect-error-message-may-be-displayed"></a>Lors de l’utilisation de l’application bloc with URL pour la configuration de la version client sur des clients mobiles, un message d’erreur s’affiche
+## <a name="in-the-mobile-client-invitee-and-timestamp-information-are-missing-from-a-missed-conversation-that-is-an-invitation-to-a-conference"></a>Dans le client mobile, les informations d’invité et d’horodatage sont manquantes dans une conversation manquée qui est une invitation à une conférence.
 
-**Émet**
+**Exécuter**
 
-Lors de l’utilisation de l’application **bloc with URL** pour la configuration de la version client sur des clients mobiles, un message d’erreur incorrect peut s’afficher lorsque la version du client n’est pas prise en charge.
+Dans le client mobile, lorsqu’une conversation manquée est une invitation à une conférence, les informations de l’invité et de l’horodatage sont manquantes dans le message de conversation manqué.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, configurez la configuration de version de client de façon à ce qu’elle utilise **bloc** au lieu de **bloquer avec une URL**.
+Il n’existe aucune solution de contournement à ce problème.
+
+</div>
+
+<div>
+
+## <a name="mobile-client-users-making-calls-using-voip-are-not-be-able-to-leave-voice-mail-for-users-whose-voice-mail-is-configured-in-exchange-2010-or-earlier-versions"></a>Les utilisateurs de clients mobiles qui effectuent des appels à l’aide de VoIP ne sont pas en mesure de laisser des messages vocaux aux utilisateurs dont la messagerie vocale est configurée dans Exchange 2010 ou versions antérieures
+
+**Exécuter**
+
+Si un utilisateur de client mobile utilise la voix sur IP pour passer des appels, l’utilisateur ne pourra pas laisser de messages vocaux aux utilisateurs configurés pour utiliser la messagerie vocale dans Microsoft Exchange Server 2007 ou Microsoft Exchange Server 2010.
+
+**Palliatives**
+
+Pour contourner ce problème, utilisez Exchange 2010 avec SP1 ou une version ultérieure de Microsoft Exchange Server.
+
+</div>
+
+<div>
+
+## <a name="when-using-block-with-url-for-client-version-configuration-on-mobile-clients-an-incorrect-error-message-may-be-displayed"></a>Lors de l’utilisation de bloc avec une URL pour la configuration de la version du client sur les clients mobiles, un message d’erreur incorrect peut s’afficher.
+
+**Exécuter**
+
+Lors de l’utilisation de **bloc avec une URL** pour la configuration de la version du client sur les clients mobiles, un message d’erreur incorrect peut s’afficher lorsque la version du client n’est pas prise en charge.
+
+**Palliatives**
+
+Pour contourner ce problème, configurez la version du client de sorte qu’elle utilise **Block** au lieu de **bloquer avec l’URL**.
 
 </div>
 
@@ -579,29 +579,29 @@ Pour contourner ce problème, configurez la configuration de version de client d
 
 <div>
 
-## <a name="conferencing"></a>Conférence
+## <a name="conferencing"></a>Vidéoconférence
 
 <div>
 
-## <a name="antivirus-software-running-on-lync-server-2013front-end-servers-can-cause-application-domain-recycling-which-temporarily-interrupts-service-for-lync-web-app-2013-lync-mobile-2010-and-lync-mobile-2013-clients"></a>Un logiciel antivirus exécuté sur des serveurs frontaux Lync Server 2013 peut entraîner le recyclage du domaine d’application, ce qui interrompt temporairement le service pour Lync Web App 2013, Lync Mobile 2010 et les clients Lync mobile 2013.
+## <a name="antivirus-software-running-on-lync-server-2013front-end-servers-can-cause-application-domain-recycling-which-temporarily-interrupts-service-for-lync-web-app-2013-lync-mobile-2010-and-lync-mobile-2013-clients"></a>Un logiciel antivirus exécuté sur des serveurs frontaux Lync Server 2013 peut entraîner le recyclage du domaine d’application, ce qui interrompt temporairement le service pour Lync Web App 2013, Lync Mobile 2010 et les clients Lync mobile 2013
 
-**Émet**
+**Exécuter**
 
-Un logiciel antivirus peut déclencher les redémarrages de domaine d’application, ce qui peut entraîner l’exécution d’applications clientes d’API de mobilité Lync 2013 et de communications unifiées (UC) sur les applications clientes (Lync Web App 2013, Lync Mobile 2010 et Lync mobile 2013).
+Les logiciels antivirus peuvent déclencher des redémarrages de domaine d’application, ce qui peut entraîner des applications clientes d’API Web Lync Mobility service 2013 et Unified Communications (UC) (Lync Web App 2013, Lync Mobile 2010 et Lync mobile 2013) pour perdre leur état.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, excluez les dossiers contenant des composants Web et .NET Framework de l’analyse antivirus. Pour plus d’informations, reportez-vous à l’article 312592 de la base de connaissances Microsoft « problème : les redémarrages de l’application aléatoire avec [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)«l’application redémarre » dans ASP.net».
+Pour contourner ce problème, excluez les dossiers suivants contenant des composants web et le .NET Framework de l’analyse antivirus. Pour plus d’informations, consultez l’article 312592 de la base de connaissances Microsoft « PRB : Random application restarts with’application Restarting » dans ASP.NET [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)», à l’adresse.
 
 Les dossiers suivants doivent être exclus :
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\composants Web\\Components MCX\\ext
+  - % ProgramFiles%\\composants\\\\Web Microsoft Lync Server 2013 MCX\\ext
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\composants Web\\Components MCX\\ent
+  - % ProgramFiles%\\composants\\\\Web Microsoft Lync Server 2013 MCX\\int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\composants Web\\Components Ucwa\\ent
+  - % ProgramFiles%\\composants\\\\Web Microsoft Lync Server 2013 Ucwa\\int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\composants Web\\Components Ucwa\\ext
+  - % ProgramFiles%\\composants\\\\Web Microsoft Lync Server 2013 Ucwa\\ext
 
   - % Windir%\\Microsoft.NET\\Framework64\\v 4.0.30319\\config
 
@@ -609,29 +609,29 @@ Les dossiers suivants doivent être exclus :
 
 <div>
 
-## <a name="activex-controls-or-native-xmlhttp-support-must-be-enabled-in-windows-internet-explorer-to-successfully-join-conferences"></a>Les contrôles ActiveX ou la prise en charge native de XMLHTTP doivent être activés dans Windows Internet Explorer pour pouvoir participer à des conférences
+## <a name="activex-controls-or-native-xmlhttp-support-must-be-enabled-in-windows-internet-explorer-to-successfully-join-conferences"></a>Les contrôles ActiveX ou la prise en charge native de XMLHTTP doivent être activés dans Windows Internet Explorer pour rejoindre les conférences.
 
-**Émet**
+**Exécuter**
 
-Si un utilisateur a désactivé les contrôles ActiveX et la prise en charge du programme XMLHTTP natif dans Windows Internet Explorer, l’utilisateur ne pourra pas participer à une réunion si Internet Explorer est sélectionné comme navigateur par défaut.
+Si un utilisateur a désactivé la prise en charge XMLHTTP native et les contrôles ActiveX dans les paramètres du navigateur Internet Windows Internet Explorer, il ne pourra pas prendre part à une réunion si Internet Explorer est sélectionné comme navigateur par défaut.
 
-**Moyens**
+**Palliatives**
 
-Activez les contrôles ActiveX ou le « support XMLHTTP natif » dans Internet Explorer.
+Activez les contrôles ActiveX ou la prise en charge XMLHTTP native dans Internet Explorer.
 
 </div>
 
 <div>
 
-## <a name="lync-server-web-conferencing-service-cannot-recover-from-critical-mode"></a>Le service de conférence Web de Lync Server ne peut pas être récupéré à partir du mode critique
+## <a name="lync-server-web-conferencing-service-cannot-recover-from-critical-mode"></a>Le service de conférence Web Lync Server ne peut pas récupérer à partir du mode critique
 
-**Émet**
+**Exécuter**
 
-Si le mode critique est activé pour l’archivage, en cas de pannes système, le mode Critical démarre et les conférences ne fonctionneront plus pour les participants. Une fois que l’administrateur a résolu les défaillances du système (par exemple, correction d’un problème de base de données), le service de conférence de données ne se restaure pas automatiquement, et l’administrateur doit redémarrer manuellement le service de conférence pour qu’il reprenne.
+Si le mode critique est activé pour l’archivage, en cas de défaillance du système, le mode critique démarre et les conférences ne fonctionnent plus pour les participants. Une fois que l’administrateur a éliminé cette défaillance (par exemple en résolvant un problème de base de données), le service de conférence de données ne récupère pas automatiquement et l’administrateur doit redémarrer manuellement le service de conférence pour que la conférence reprenne.
 
-**Moyens**
+**Palliatives**
 
-Une fois le système résolu, un administrateur doit redémarrer manuellement le service de conférence.
+Un administrateur redémarrer manuellement le service de conférence une fois la défaillance système éliminée.
 
 </div>
 
@@ -639,45 +639,45 @@ Une fois le système résolu, un administrateur doit redémarrer manuellement le
 
 ## <a name="web-conferencing-service-ignores-the-http-proxy-for-external-office-web-app-servers"></a>Le service de conférence Web ignore le proxy HTTP pour les serveurs Office Web App externes
 
-**Émet**
+**Exécuter**
 
-Si vous avez déployé un serveur Office Web Apps externe au service de conférence Web (autrement dit, un serveur qui n’est pas présent dans le réseau d’entreprise interne) sur Internet, le réseau de périmètre et le service de conférence Web nécessite un proxy HTTP pour se connecter à cette application, le La découverte d’Office Web Apps Server échoue. Le service de conférence Web ignore le paramètre proxy HTTP, tel qu’il est défini dans générateur de topologie pour l’installation d’Office Web Apps Server. Par conséquent, le client Lync ne sera pas en mesure d’effectuer le partage de 2010 Microsoft PowerPoint avec les autres participants à la Conférence. Si vous installez Lync Server en local et configurez également Office Web Apps Server en local sur le réseau interne, une configuration de proxy n’est pas requise.
+Si vous avez déployé un serveur Office Web Apps Server externe au service de conférence Web (autrement dit, un serveur qui n’est pas dans le réseau d’entreprise interne) sur Internet, le réseau de périmètre et le service de conférence Web nécessite un proxy HTTP pour se connecter à ceci, le La découverte d’Office Web Apps Server échouera. Le service de conférence Web ignore le paramètre proxy HTTP, tel que défini dans le générateur de topologies pour le programme d’installation d’Office Web Apps Server. Par conséquent, le client Lync ne pourra pas effectuer de partage Microsoft PowerPoint 2010 avec les autres participants à la Conférence. Si vous installez Lync Server localement et que vous configurez également Office Web Apps Server sur site sur le réseau interne, aucune configuration de proxy n’est requise.
 
-**Moyens**
+**Palliatives**
 
-La seule solution de contournement consiste à ne pas avoir de configuration de déploiement qui nécessite l’utilisation du proxy HTTP pour communiquer avec un serveur Office Web Apps externe.
-
-</div>
-
-<div>
-
-## <a name="adding-video-to-an-audio-conferencing-provider-conference-is-not-supported"></a>L’ajout de la vidéo à une conférence du fournisseur de services d’audioconférence n’est pas pris en charge
-
-**Émet**
-
-L’ajout d’une vidéo n’est pas pris en charge si l’utilisateur est joint à une conférence de fournisseur de services d’audioconférence pour le son.
-
-**Moyens**
-
-Il n’existe aucune solution de contournement pour ce problème.
+La seule solution de contournement consiste à ne pas avoir de configuration de déploiement nécessitant l’utilisation d’un proxy HTTP pour communiquer avec un serveur Office Web Apps externe.
 
 </div>
 
 <div>
 
-## <a name="topologies-with-ipv6-enabled-force-the-lync-web-app-silverlight-plug-in-auto-update-to-ensure-screen-sharing-functionality-can-work-from-lync-web-app"></a>Les topologies avec IPv6 activé forcent la mise à jour automatique du plug-in Lync Web App pour garantir le fonctionnement du partage d’écran à partir de Lync Web App
+## <a name="adding-video-to-an-audio-conferencing-provider-conference-is-not-supported"></a>L’ajout d’une vidéo à une conférence de fournisseurs de services d’audioconférence n’est pas pris en charge
 
-**Émet**
+**Exécuter**
 
-Lorsqu’une topologie est configurée avec l’option IPv6 activée, les utilisateurs ne peuvent pas partager leur écran à partir du client Lync Web App si une version antérieure du plug-in de partage d’écran est déjà installée.
+L’ajout de vidéo n’est pas pris en charge si l’utilisateur participe à une conférence de fournisseur de services d’audioconférence pour l’audio.
 
-**Moyens**
+**Palliatives**
 
-Pour forcer une mise à jour vers la version la plus récente du plug-in de partage d’écran lors de la participation à une réunion via Lync Web App, remplacez la valeur de **MinSupportedBuildVersion** par « 4.0.7457.0 » par « 4.0.7577.380 » dans les deux fichiers suivants :
+Il n’existe aucune solution de contournement à ce problème.
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\composants\\Web ont\\atteint\\les\\plug\\-ins de clients ReachAppShPluginProperties. Xml
+</div>
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\composants\\Web sont\\accessibles\\à\\l'\\extension du client ReachAppShPluginProperties. Xml
+<div>
+
+## <a name="topologies-with-ipv6-enabled-force-the-lync-web-app-silverlight-plug-in-auto-update-to-ensure-screen-sharing-functionality-can-work-from-lync-web-app"></a>Les topologies avec IPv6 activé forcent la mise à jour automatique de Lync Web App Silverlight plug-in pour s’assurer que la fonctionnalité de partage d’écran peut fonctionner à partir de Lync Web App.
+
+**Exécuter**
+
+Lorsqu’une topologie est configurée avec IPv6 activé, les utilisateurs ne peuvent pas partager leur écran à partir du client Lync Web App si une version antérieure du plug-in de partage d’écran est déjà installée.
+
+**Palliatives**
+
+Pour forcer une mise à jour vers la version la plus récente du plug-in de partage d’écran lors de la participation à une réunion via Lync Web App, modifiez la valeur de **MinSupportedBuildVersion** de « 4.0.7457.0 » à « 4.0.7577.380 » dans les deux fichiers suivants :
+
+  - Les composants\\\\\\Web de% ProgramFiles% Microsoft Lync Server\\15\\atteignent\\les plug-ins client\\ReachAppShPluginProperties. Xml
+
+  - % ProgramFiles%\\les composants\\\\Web Microsoft Lync Server 15\\atteignent\\les plug-ins\\client ext\\ReachAppShPluginProperties. Xml
 
 </div>
 
@@ -687,43 +687,43 @@ Pour forcer une mise à jour vers la version la plus récente du plug-in de part
 
 <div>
 
-## <a name="enterprise-voice"></a>Voix Entreprise
+## <a name="enterprise-voice"></a>Enterprise Voice
 
 <div>
 
-## <a name="in-some-cases-a-lync-client-running-on-a-computer-configured-to-use-ipv4-and-ipv6-dual-stack-might-not-support-capabilities-that-rely-in-the-ip-subnet-of-the-computer-such-as-e911-media-bypass-call-admission-control-and-location-based-routing"></a>Dans certains cas, un client Lync exécuté sur un ordinateur configuré pour utiliser la pile double IPv4 et IPv6 peut ne pas prendre en charge les fonctionnalités qui dépendent du sous-réseau IP de l’ordinateur (par exemple, E911, dérivation multimédia, contrôle d’admission des appels et routage basé sur l’emplacement).
+## <a name="in-some-cases-a-lync-client-running-on-a-computer-configured-to-use-ipv4-and-ipv6-dual-stack-might-not-support-capabilities-that-rely-in-the-ip-subnet-of-the-computer-such-as-e911-media-bypass-call-admission-control-and-location-based-routing"></a>Dans certains cas, un client Lync exécuté sur un ordinateur configuré pour utiliser la pile double IPv4 et IPv6 peut ne pas prendre en charge les fonctionnalités qui reposent sur le sous-réseau IP de l’ordinateur comme E911, la déviation du trafic multimédia, le contrôle d’admission des appels et le routage basé sur l’emplacement.
 
 <div class="">
 
 
 > [!NOTE]  
-> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+> Les informations contenues dans cette section concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-**Émet**
+**Exécuter**
 
-Lorsqu’un client Lync est en cours d’exécution sur un ordinateur activé pour la pile IPv4 et IPv6 et en fonction de la résolution DNS du serveur proxy, le client peut utiliser l’adresse IPv6 de l’ordinateur pour se connecter. Après cela, le client Lync ne prend en charge que les fonctionnalités prises en charge pour IPv6, ce qui exclut E911, le contournement du média, le contrôle d’admission des appels et le routage basé sur l’emplacement.
+Lorsqu’un client Lync est en cours d’exécution sur un ordinateur qui est activé pour la pile double IPv4 et IPv6 et sur la base de la résolution DNS du serveur proxy, le client peut utiliser l’adresse IPv6 de l’ordinateur pour se connecter. Une fois cette opération effectuée, le client Lync ne prend en charge que les fonctionnalités prises en charge par IPv6, ce qui exclut E911, la déviation du trafic multimédia, le contrôle d’admission des appels et le routage basé sur l’emplacement.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, désactivez la prise en charge du protocole IPv6 sur l’ordinateur client.
+Pour contourner ce problème, désactivez la prise en charge D’ipv6 sur l’ordinateur client.
 
 </div>
 
 <div>
 
-## <a name="if-enterprise-voice-is-not-configured-for-a-user-the-user-will-need-to-use-e164-format-to-dial-out-from-a-conference"></a>Si voix entreprise n’est pas configurée pour un utilisateur, l’utilisateur doit utiliser le format E164 pour appeler à partir d’une conférence
+## <a name="if-enterprise-voice-is-not-configured-for-a-user-the-user-will-need-to-use-e164-format-to-dial-out-from-a-conference"></a>Si voix entreprise n’est pas configurée pour un utilisateur, l’utilisateur devra utiliser le format E164 pour effectuer un appel sortant à partir d’une conférence.
 
-**Émet**
+**Exécuter**
 
-Si voix entreprise n’est pas configurée pour un utilisateur, il doit utiliser le format E164 pour qu’il se connecte correctement à partir d’une conférence. Si le format E164 n’est pas utilisé, l’utilisateur ne pourra pas se connecter à partir de la Conférence.
+Si voix entreprise n’est pas configurée pour un utilisateur, il devra utiliser le format E164 pour effectuer correctement un appel sortant d’une conférence. S’il n’utilise pas le format E164, l’utilisateur ne pourra pas effectuer d’appel sortant depuis la conférence.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, les utilisateurs qui ne sont pas activés pour voix entreprise doivent composer d’une conférence en utilisant des numéros au format E164.
+Pour contourner ce problème, les utilisateurs qui ne sont pas activés pour voix entreprise doivent effectuer des appels sortants à partir d’une conférence à l’aide de numéros au format E164.
 
 </div>
 
@@ -737,13 +737,13 @@ Pour contourner ce problème, les utilisateurs qui ne sont pas activés pour voi
 
 <div>
 
-## <a name="if-a-user-has-selected-block-all-invites-and-communications-while-the-unified-contact-store-is-turned-on-for-the-user-presence-status-is-not-rejected-when-it-should-be"></a>Si un utilisateur a sélectionné « bloquer toutes les invitations et communications » alors que le magasin de contacts unifié est activé pour l’utilisateur, le statut de présence n’est pas rejeté s’il devrait être
+## <a name="if-a-user-has-selected-block-all-invites-and-communications-while-the-unified-contact-store-is-turned-on-for-the-user-presence-status-is-not-rejected-when-it-should-be"></a>Si un utilisateur a sélectionné l’option « bloquer toutes les invitations et communications » alors que le magasin de contacts unifié est activé pour l’utilisateur, le statut de présence n’est pas rejeté quand il devrait l’être.
 
-**Émet**
+**Exécuter**
 
-Si un utilisateur a sélectionné « bloquer toutes les invitations et communications » alors que le magasin de contacts unifié est activé pour l’utilisateur, le statut de présence n’est pas rejeté le cas échéant.
+Si un utilisateur a sélectionné l’option « Bloquer toutes les invitations et communications » alors que le magasin de contacts unifié est activé pour cet utilisateur, le statut de présence n’est pas rejeté quand il devrait l’être.
 
-**Moyens**
+**Palliatives**
 
 Pour contourner ce problème, vous pouvez désactiver le magasin de contacts unifié pour l’utilisateur. Pour cela, exécutez les applets de commande suivantes :
 
@@ -757,19 +757,19 @@ Par exemple :
 
 <div>
 
-## <a name="office-communications-server-2007-r2-users-homed-on-premises-are-not-able-to-see-the-presence-status-of-skype-for-business-online-users-in-hybrid-deployments---hybrid"></a>Les utilisateurs d’Office Communications Server 2007 R2 hébergés sur site ne peuvent pas voir le statut de présence des utilisateurs Skype entreprise Online dans des déploiements hybrides-hybrides
+## <a name="office-communications-server-2007-r2-users-homed-on-premises-are-not-able-to-see-the-presence-status-of-skype-for-business-online-users-in-hybrid-deployments---hybrid"></a>Office Communications Server 2007 R2 les utilisateurs hébergés sur site ne peuvent pas voir le statut de présence des utilisateurs Skype entreprise Online dans des déploiements hybrides-hybrides
 
-**Émet**
+**Exécuter**
 
-Le problème est susceptible de se produire dans un déploiement hybride lorsque vous utilisez un directeur 2013 de Lync Server.
+Le problème peut se produire dans un déploiement hybride lorsque vous utilisez un directeur Lync Server 2013.
 
-Le statut de présence des utilisateurs hébergés dans Skype entreprise Online est affiché en tant que présence inconnue pour les utilisateurs locaux. De plus, les utilisateurs hébergés sur Skype entreprise Online ne peuvent pas voir le statut de présence des utilisateurs Office Communications Server R2 locaux.
+Le statut de présence des utilisateurs hébergés sur Skype entreprise Online est affiché en tant que présence inconnue pour les utilisateurs locaux. En outre, les utilisateurs hébergés sur Skype entreprise Online ne peuvent pas voir le statut de présence des utilisateurs locaux d’Office Communications Server R2.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, vous devez modifier le serveur principal (msRTCSIP-presencehomeserver) des utilisateurs de Skype entreprise Online pour qu’ils pointent vers un pool Lync Server 2013 local au lieu du Director Lync Server 2013. Vous pouvez modifier ce paramètre sur le serveur frontal local.
+Pour contourner partiellement ce problème, modifiez le serveur d’accueil (msRTCSIP-presencehomeserver) des utilisateurs de Skype entreprise Online afin qu’ils pointent vers un pool Lync Server 2013 local au lieu du directeur de Lync Server 2013. Vous pouvez modifier ce paramètre sur le serveur frontal local.
 
-Cette solution de contournement affiche correctement le statut de présence des utilisateurs hébergés sur Office Communications Server 2007 R2 aux utilisateurs de Skype entreprise online.
+Cette solution de contournement affiche correctement l’état de présence des utilisateurs hébergés sur Office Communications Server 2007 R2 aux utilisateurs de Skype entreprise online.
 
 </div>
 
@@ -779,73 +779,73 @@ Cette solution de contournement affiche correctement le statut de présence des 
 
 <div>
 
-## <a name="response-group-application-call-park-application-and-group-call-pickup"></a>Application de groupe de réponse, application de parc d’appels et capture d’appel de groupe
+## <a name="response-group-application-call-park-application-and-group-call-pickup"></a>Application Response Group, application de parcage d’appel et prise d’appel de groupe
 
 <div>
 
-## <a name="a-caller-might-hear-one-second-of-music-on-hold-during-the-establishment-of-a-call-with-the-retrieving-party"></a>Un appelant peut entendre une seconde de la musique lors de l’établissement d’un appel avec la fête de l’extraction
+## <a name="a-caller-might-hear-one-second-of-music-on-hold-during-the-establishment-of-a-call-with-the-retrieving-party"></a>Un appelant peut entendre une seconde de musique en attente lors de l’établissement d’un appel avec la partie de récupération
 
 <div class="">
 
 
 > [!NOTE]  
-> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+> Les informations contenues dans cette section concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-**Émet**
+**Exécuter**
 
-Lorsqu’un appel est récupéré par le biais d’un appel de groupe, l’appelant peut entendre une seconde de la musique lors de l’établissement de l’appel avec la partie du récupérateur.
+Lorsqu’un appel est récupéré via la prise d’appel de groupe, l’appelant peut entendre une seconde de l’attente musicale lors de l’établissement de l’appel auprès du destinataire.
 
-**Moyens**
+**Palliatives**
 
-Il n’existe aucune solution de contournement pour ce problème.
-
-</div>
-
-<div>
-
-## <a name="a-response-group-agent-can-sign-in-and-sign-out-through-a-lync-server-2010-agent-console-to-lync-server-2010-formal-agent-groups-only"></a>Un agent Response Group peut se connecter et se déconnecter de la console de l’agent Lync Server 2010 aux groupes d’agents officiels Lync Server 2010
-
-**Émet**
-
-Un agent Response Group de Lync Server 2013 peut se connecter et se déconnecter par le biais d’une console de l’agent Lync Server 2010 aux groupes d’agents officiels Lync Server 2010. Dans la console de l’agent Lync Server 2010, les utilisateurs peuvent uniquement voir le groupe de réponse Lync Server 2010 auquel ils appartiennent. Ils ne peuvent pas voir les groupes de réponse Lync Server 2013 auxquels ils appartiennent.
-
-**Moyens**
-
-Si l’agent Response Group est un utilisateur de Lync Server 2013 et fait partie d’un groupe d’agents officiels de Lync Server 2013, l’utilisateur doit accéder à la console de l’agent Lync Server 2013 directement via un lien Web dans un navigateur pour vous connecter et se déconnecter des groupes d’agents Lync Server 2013.
+Il n’existe aucune solution de contournement à ce problème.
 
 </div>
 
 <div>
 
-## <a name="a-lync-server-2010response-group-agent-cannot-place-calls-on-behalf-of-a-lync-server-2013response-group"></a>Un agent Response Group de Lync Server 2010 ne peut pas passer d’appels pour le compte d’un groupe de réponse 2013 Server
+## <a name="a-response-group-agent-can-sign-in-and-sign-out-through-a-lync-server-2010-agent-console-to-lync-server-2010-formal-agent-groups-only"></a>Un agent Response Group peut se connecter et se déconnecter par le biais d’une console de l’agent Lync Server 2010 pour les groupes d’agents formels Lync Server 2010 uniquement
 
-**Émet**
+**Exécuter**
 
-Un utilisateur de Lync Server 2010 qui est un agent d’un groupe de réponse 2013 Server n’est pas en mesure de passer un appel au nom du groupe de réponse. Le groupe de réponse Lync Server 2013 ne sera pas disponible dans le client Lync pour effectuer un appel.
+Un agent Response Group Lync Server 2013 peut se connecter et se déconnecter par le biais d’une console de l’agent Lync Server 2010 pour les groupes d’agents formels Lync Server 2010 uniquement. Dans la console de l’agent Lync Server 2010, les utilisateurs peuvent uniquement voir le groupe de réponse Lync Server 2010 auquel ils appartiennent. Ils ne peuvent pas voir les groupes de réponses Lync Server 2013 auxquels ils appartiennent.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, vous devez déplacer l’utilisateur de Lync Server 2010 vers Lync Server 2013.
+Si l’agent Response Group est un utilisateur Lync Server 2013 et qu’il fait partie d’un groupe d’agents formels Lync Server 2013, l’utilisateur doit accéder à la console de l’agent Lync Server 2013 directement via un lien Web dans un navigateur pour se connecter et se déconnecter des groupes d’agents Lync Server 2013.
 
 </div>
 
 <div>
 
-## <a name="removing-a-response-group-from-lync-server-2010-after-it-has-been-migrated-to-lync-server-2013-will-prevent-the-response-group-from-accepting-any-incoming-calls"></a>La suppression d’un groupe réponse de Lync Server 2010 après la migration vers Lync Server 2013 empêche le groupe de réponse d’accepter les appels entrants.
+## <a name="a-lync-server-2010response-group-agent-cannot-place-calls-on-behalf-of-a-lync-server-2013response-group"></a>Un agent Response Group Lync Server 2010 ne peut pas passer d’appels pour le compte d’un groupe de réponse Lync Server 2013
 
-**Émet**
+**Exécuter**
 
-Si un groupe Response migration de Lync Server 2010 vers Lync Server 2013 est supprimé de Lync Server 2010 par le biais du panneau de configuration de Lync Server ou de Lync Server Management Shell, le groupe réponse dans Lync Server 2013 cessera de recevoir des appels entrants.
+Un utilisateur Lync Server 2010 qui est un agent d’un groupe Response Group Lync Server 2013 ne peut pas effectuer d’appel pour le compte du groupe Response Group. Le groupe de réponse Lync Server 2013 ne sera pas disponible dans le client Lync pour passer un appel.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, ne supprimez pas les groupes de réponses de Lync Server 2010 qui ont été migrés de Lync Server 2010 vers Lync Server 2013.
+Pour contourner ce problème, vous devez déplacer l’utilisateur Lync Server 2010 vers Lync Server 2013.
 
-Si le groupe de réponse a déjà été supprimé, vous devez le redéployer dans Lync Server 2013.
+</div>
+
+<div>
+
+## <a name="removing-a-response-group-from-lync-server-2010-after-it-has-been-migrated-to-lync-server-2013-will-prevent-the-response-group-from-accepting-any-incoming-calls"></a>La suppression d’un groupe Response Group de Lync Server 2010 après sa migration vers Lync Server 2013 empêchera le groupe Response Group d’accepter les appels entrants.
+
+**Exécuter**
+
+Si un groupe Response Group qui a été migré de Lync Server 2010 vers Lync Server 2013 est supprimé de Lync Server 2010 via le panneau de configuration Lync Server ou Lync Server Management Shell, le groupe Response Group dans Lync Server 2013 cessera de recevoir les appels entrants.
+
+**Palliatives**
+
+Pour contourner ce problème, ne supprimez pas de groupes Response Group de Lync Server 2010 qui ont été migrés de Lync Server 2010 vers Lync Server 2013.
+
+Si le groupe Response Group a déjà été supprimé, vous devez le redéployer dans Lync Server 2013.
 
 </div>
 
@@ -853,49 +853,49 @@ Si le groupe de réponse a déjà été supprimé, vous devez le redéployer dan
 
 ## <a name="when-a-new-managed-workflow-is-set-to-inactive-when-created-deployment-of-the-workflow-will-fail"></a>Lorsqu’un nouveau flux de travail géré est défini sur inactif lors de sa création, le déploiement du flux de travail échoue
 
-**Émet**
+**Exécuter**
 
-Lorsqu’un nouveau flux de travail géré est défini sur inactif lors de sa création, le déploiement du flux de travail échoue. Ce problème survient lorsque le flux de travail est défini sur inactif lors de sa création, mais n’affecte pas le flux de travail modifié pour le définir comme inactif après le déploiement de.
+Lorsqu’un nouveau flux de travail géré est défini comme inactif lors de sa création, son déploiement échoue. Ce problème se produit quand le flux de travail est défini comme inactif au moment de sa création, mais il n’affecte pas un flux de travail modifié et défini comme inactif après son déploiement.
 
-**Moyens**
+**Palliatives**
 
-Lorsque vous créez et déployez un flux de travail, définissez le flux de travail comme actif, puis déployez-le. Après le déploiement réussi du flux de travail, le flux de travail peut être modifié et défini comme inactif.
-
-</div>
-
-<div>
-
-## <a name="removing-a-response-group-from-the-owner-pool-will-prevent-the-response-group-of-the-backup-pool-from-accepting-any-incoming-calls-during-failover-if-the-response-group-has-been-imported-to-the-backup-pool"></a>Le fait de supprimer un groupe de réponses de la liste de propriétaires empêche le groupe de réponse du pool de sauvegarde d’accepter les appels entrants lors du basculement si le groupe de réponse a été importé dans le pool de sauvegarde
-
-**Émet**
-
-Si un groupe de réponses possédé par le pool principal a été importé dans le pool de sauvegarde sans remplacer le propriétaire, et si le groupe de réponses est supprimé de la liste de propriétaires, le groupe réponse dans le pool de sauvegarde n’accepte aucun appel entrant lors du basculement.
-
-**Moyens**
-
-Vous devez redéployer le groupe Response dans le pool principal. Vous devrez alors exporter la configuration de groupe de réponse à partir du pool principal et l’importer dans le pool de sauvegarde.
-
-Vous pouvez également recréer le groupe Response dans le pool de sauvegarde. Dans ce cas, le pool de sauvegarde sera le pool de propriétaires du groupe de réponse.
+Lors de la création et du déploiement d’un flux de travail, définissez le flux de travail comme actif, puis déployez-le. Une fois le déploiement réussi, vous pouvez modifier le flux de travail et le définir comme inactif.
 
 </div>
 
 <div>
 
-## <a name="a-parked-call-cant-be-retrieved-from-the-call-park-application-if-the-retrieve-request-is-done-on-behalf-of-a-response-group"></a>Un appel parqué ne peut pas être récupéré à partir de l’application de parc d’appels si la demande de récupération est exécutée au nom d’un groupe de réponse.
+## <a name="removing-a-response-group-from-the-owner-pool-will-prevent-the-response-group-of-the-backup-pool-from-accepting-any-incoming-calls-during-failover-if-the-response-group-has-been-imported-to-the-backup-pool"></a>La suppression d’un groupe Response Group du pool propriétaire empêche le groupe Response Group du pool de sauvegarde d’accepter les appels entrants pendant le basculement si le groupe Response Group a été importé dans le pool de sauvegarde
 
-**Émet**
+**Exécuter**
 
-Lorsque les conditions suivantes sont vraies, une demande de récupération d’un appel en stationnement échoue :
+Si un groupe Response Group appartenant au pool principal a été importé dans le pool de sauvegarde sans remplacer le propriétaire et que le groupe Response Group est supprimé du pool propriétaire, le groupe Response Group dans le pool de sauvegarde n’accepte aucun appel entrant lors du basculement.
 
-  - Un agent fait partie d’un groupe de réponse anonyme
+**Palliatives**
 
-  - L’agent tente de récupérer un appel parqué à partir de l’application de parc d’appels via le groupe de réponse anonyme
+Vous devrez redéployer le groupe Response Group dans le pool principal. Vous devrez ensuite exporter la configuration Response Group à partir du pool principal et l’importer à nouveau dans le pool de sauvegarde.
 
-  - L’agent tente de récupérer l’appel en composant le numéro orbite par le biais de l’option appeler de la part ou de la même option dans le client attendant Lync.
+Vous pouvez également recréer le groupe Response Group dans le pool de sauvegarde. Dans ce cas, le pool de sauvegarde sera le pool propriétaire du groupe Response Group.
 
-**Moyens**
+</div>
 
-Il n’existe aucune solution de contournement pour ce problème. L’appel parqué doit être récupéré sans action pour le compte d’un groupe de réponse.
+<div>
+
+## <a name="a-parked-call-cant-be-retrieved-from-the-call-park-application-if-the-retrieve-request-is-done-on-behalf-of-a-response-group"></a>Un appel parqué ne peut pas être récupéré à partir de l’application de parcage d’appel si la demande de récupération est exécutée pour le compte d’un groupe Response Group
+
+**Exécuter**
+
+Lorsque les conditions suivantes sont remplies, une demande de récupération pour un appel parqué échoue :
+
+  - Un agent fait partie d’un groupe Response Group anonyme
+
+  - L’agent tente de récupérer un appel parqué à partir de l’application de parcage d’appel via le groupe Response Group anonyme
+
+  - L’agent tente de récupérer l’appel en composant le numéro d’orbite par le biais de l’option Appeler de la part de ou par le biais de la même option dans le client intendant Lync.
+
+**Palliatives**
+
+Il n’existe aucune solution de contournement à ce problème. L’appel parqué doit être récupéré sans faire pour le compte d’un groupe Response Group.
 
 </div>
 
@@ -905,7 +905,7 @@ Il n’existe aucune solution de contournement pour ce problème. L’appel parq
 
 <div>
 
-## <a name="lync-server-control-panel-topology-builder-and-planning-tool"></a>Panneau de configuration Lync Server, générateur de topologie et outil de planification
+## <a name="lync-server-control-panel-topology-builder-and-planning-tool"></a>Panneau de configuration Lync Server, générateur de topologies et outil de planification
 
 <div>
 
@@ -915,113 +915,113 @@ Il n’existe aucune solution de contournement pour ce problème. L’appel parq
 
 
 > [!NOTE]  
-> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+> Les informations contenues dans cette section concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-**Émet**
+**Exécuter**
 
-Lorsque vous planifiez votre déploiement, l’outil de planification présente les limitations suivantes :
+Lors de la planification de votre déploiement, l’outil de planification présente les limitations suivantes :
 
-  - La prise en charge de 10 sites centraux est au maximum
+  - Il y a un maximum de 10 sites centraux pris en charge
 
-  - Chaque site central peut comporter un maximum de 14 sites de succursales
+  - Chaque site central peut comporter 14 sites de succursale au maximum.
 
-  - Chaque site central peut avoir un maximum de 240 000 utilisateurs
+  - Chaque site central peut comporter jusqu’à 240 000 utilisateurs
 
-Par ailleurs, l’outil de planification n’inclut pas de valeurs pour les éléments suivants lors du calcul de la topologie recommandée :
+En outre, l’outil de planification n’inclut pas de valeurs pour les éléments suivants lors du calcul de la topologie recommandée :
 
-  - Le nombre d’utilisateurs hébergés en ligne
+  - Le nombre d’utilisateurs hébergés en ligne ;
 
   - Pourcentage d’utilisateurs activés pour la Fédération XMPP
 
   - Pourcentage d’utilisateurs qui utilisent Lync Web App
 
-**Moyens**
+**Palliatives**
 
-Il n’existe aucune solution de contournement pour ces problèmes. Pour plus d’informations sur l’outil de planification, voir [conception de la topologie pour Lync Server 2013 à l’aide de l’outil de planification](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md).
-
-</div>
-
-<div>
-
-## <a name="planning-tool-may-not-use-previously-defined-ip-addresses-for-the-edge-network-when-updating-options"></a>L’outil de planification n’utilise pas les adresses IP précédemment définies pour le réseau Edge lors de la mise à jour des options
-
-**Émet**
-
-Lorsque vous avez terminé de créer votre conception à l’aide de l’outil de planification, si vous apportez des modifications aux options du réseau Edge, des adresses IP supplémentaires pourront être ajoutées à la conception au lieu de mettre à jour les adresses IP existantes. Cela peut se produire lorsque vous affichez les détails du réseau de tâches latérales, sélectionnez **cliquez ici pour mettre à jour vos options**, puis, dans la boîte de dialogue Options de configuration, sélectionnez réseau de bord, sélectionnez **l’option je souhaite utiliser les mêmes noms de domaine complets et adresses IP, mais des ports différents pour les services Edge sur le serveur Edge**. L’application de toute modification entraîne l’ajout de nouvelles adresses IP et de serveurs de frontière à la conception.
-
-**Moyens**
-
-Pour le moment, il n’existe aucune solution de contournement pour ce problème.
+Il n’existe aucune solution de contournement à ces problèmes. Pour plus d’informations sur l’outil de planification, voir [conception de la topologie pour Lync Server 2013 à l’aide de l’outil de planification](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md).
 
 </div>
 
 <div>
 
-## <a name="in-lync-server-control-panel-move-all-users-to-pool-may-not-work-as-expected"></a>Dans le panneau de configuration de Lync Server, « déplacer tous les utilisateurs vers le pool » risque de ne pas fonctionner comme prévu
+## <a name="planning-tool-may-not-use-previously-defined-ip-addresses-for-the-edge-network-when-updating-options"></a>L’outil de planification ne peut pas utiliser des adresses IP précédemment définies pour le réseau de périmètre lors de la mise à jour des options
 
-**Émet**
+**Exécuter**
 
-Lorsque vous utilisez le panneau de configuration de Lync Server pour déplacer tous les utilisateurs d’un pool vers un autre dans un environnement Active Directory complexe (par exemple, un avec plusieurs contrôleurs de domaine et domaines parent/enfant), un message d’erreur peut être retourné, car « l’utilisateur spécifié n’est pas un utilisateur hérité, utilisez l’applet de commande Move-CsUser à la place. » Cela résulte de temps de réplication plus longs dans les environnements Active Directory complexes.
+Une fois que vous avez terminé votre conception à l’aide de l’outil de planification, si vous modifiez les options réseau Edge, des adresses IP supplémentaires peuvent être ajoutées à la conception au lieu de mettre à jour les adresses IP existantes. Cela peut se produire lorsque vous affichez les détails du diagramme de réseau Edge, que vous sélectionnez **Cliquer ici pour mettre à jour vos options**, puis que vous sélectionnez réseau Edge dans la boîte de dialogue Options de configuration, et que vous sélectionnez réseau Edge **, sélectionnez je souhaite utiliser les mêmes noms de domaine complets et adresses IP, mais des ports différents pour les services Edge sur mon serveur Edge**. L’application des modifications peut entraîner l’ajout de nouvelles adresses IP et de nouveaux serveurs Edge à la conception.
 
-**Moyens**
+**Palliatives**
+
+Il n’existe actuellement aucune solution de contournement à ce problème.
+
+</div>
+
+<div>
+
+## <a name="in-lync-server-control-panel-move-all-users-to-pool-may-not-work-as-expected"></a>Dans le panneau de configuration Lync Server, « déplacer tous les utilisateurs vers le pool » peut ne pas fonctionner comme prévu
+
+**Exécuter**
+
+Lors de l’utilisation du panneau de configuration Lync Server pour déplacer tous les utilisateurs d’un pool vers un autre dans un environnement Active Directory complexe, tel qu’un autre avec des contrôleurs de domaine et des domaines parents/enfants, un message d’erreur peut être renvoyé indiquant que « l’utilisateur spécifié n’est pas un utilisateur hérité, utilisez plutôt l’applet de commande Move-CsUser. ». Ceci est le résultat d’un temps de réplication plus long dans les environnements Active Directory complexes.
+
+**Palliatives**
 
 Pour contourner ce problème, effectuez l’une des opérations suivantes :
 
-  - Utilisez les filtres du panneau de configuration de Lync Server pour rechercher des utilisateurs hérités, sélectionnez ces utilisateurs, puis utilisez la **commande déplacer les utilisateurs sélectionnés vers le pool** au lieu de **déplacer tous les utilisateurs vers le pool**.
+  - Utilisez des filtres dans le panneau de configuration Lync Server pour rechercher des utilisateurs hérités, sélectionnez ces utilisateurs, puis utilisez la **commande déplacer les utilisateurs sélectionnés vers le pool** au lieu de **déplacer tous les utilisateurs vers le pool**.
 
-  - Utilisez Lync Server Management Shell pour déplacer des utilisateurs hérités par lot à l’aide d’applets de commande Lync Server.
+  - Utilisez Lync Server Management Shell pour déplacer des utilisateurs hérités par lots à l’aide des applets de commande Lync Server.
 
 </div>
 
 <div>
 
-## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-the-microsoft-silverlight-browser-plug-in-is-updated-to-version-5"></a>Le panneau de configuration de Lync Server cesse de fonctionner dans un environnement VMware après la mise à jour du plug-in de navigateur Microsoft Silverlight vers la version 5
+## <a name="the-lync-server-control-panel-stops-working-in-a-vmware-environment-after-the-microsoft-silverlight-browser-plug-in-is-updated-to-version-5"></a>Le panneau de configuration Lync Server cesse de fonctionner dans un environnement VMware après la mise à jour du plug-in de navigateur Microsoft Silverlight vers la version 5
 
-**Émet**
+**Exécuter**
 
-Si vous utilisez le panneau de configuration de Lync Server dans un environnement VMware, il est possible que le panneau de configuration de Lync Server cesse de fonctionner après la mise à niveau de Silverlight vers la version 5.
+Si vous utilisez le panneau de configuration Lync Server dans un environnement VMware, le panneau de configuration Lync Server peut cesser de fonctionner après la mise à niveau de Silverlight vers la version 5.
 
-**Moyens**
+**Palliatives**
 
 Pour contourner ce problème, effectuez l’une des opérations suivantes :
 
-  - Désinstaller Silverlight 5, puis installer Silverlight 4 à [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)partir de.
+  - Désinstallez Silverlight 5, puis installez Silverlight 4 à [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)partir de.
 
-  - Ouvrez le panneau de configuration de Lync Server à partir d’un ordinateur qui n’est pas un ordinateur virtuel VMware.
+  - Ouvrez le panneau de configuration Lync Server à partir d’un ordinateur qui n’est pas un ordinateur virtuel VMware.
     
-    Pour ouvrir le panneau de configuration de Lync Server à partir d’un ordinateur distant, installez les outils d’administration de Lync Server sur votre ordinateur, puis démarrez le panneau de configuration de Lync Server à partir du menu **Démarrer** de Windows.
+    Pour ouvrir le panneau de configuration Lync Server à partir d’un ordinateur distant, installez les outils d’administration Lync Server sur l’ordinateur, puis démarrez le panneau de configuration Lync Server à partir du menu **Démarrer** de Windows.
     
-    Vous pouvez également ouvrir le panneau de configuration de Lync Server en entrant l’URL dans un navigateur Web. L’URL sera similaire à celle du\<nom\_de\_domaine\>complet du pool https:///CSCP.
+    Vous pouvez également ouvrir le panneau de configuration Lync Server en entrant l’URL dans un navigateur Web. L’URL sera similaire au nom de\<domaine\_complet\_\>du pool https://frontal/CSCP.
 
 </div>
 
 <div>
 
-## <a name="an-administrator-cannot-run-the-uninstall-csmirrordb-cmdlet-after-removing-the-mirroring-database-in-topology-builder"></a>Un administrateur ne peut pas exécuter l’applet de création de désinstallation-csMirrorDB après la suppression de la base de données en miroir dans le générateur de topologie
+## <a name="an-administrator-cannot-run-the-uninstall-csmirrordb-cmdlet-after-removing-the-mirroring-database-in-topology-builder"></a>Un administrateur ne peut pas exécuter la cmdlet Uninstall-csMirrorDB après la suppression de la base de données de mise en miroir dans le générateur de topologies
 
-**Émet**
+**Exécuter**
 
-Lorsqu’un administrateur désactive une base de données en miroir dans le générateur de topologie, puis supprime la base de données en miroir dans le générateur de topologie, un message s’affiche dans la liste des tâches pour l’administrateur pour exécuter l’applet de l’applet de suppression **-csMirrorDatabase** et supprimer la mise en miroir de SQL Server. Lorsque l’administrateur tente d’exécuter l’applet de cmdlet, il échoue.
+Lorsqu’un administrateur désactive une base de données de mise en miroir dans le générateur de topologie, puis supprime la base de données de mise en miroir dans le générateur de topologie, un message s’affiche dans la liste à faire pour que l’administrateur puisse exécuter la cmdlet **Uninstall-csMirrorDatabase** afin de supprimer la mise en miroir de SQL Server. Quand l’administrateur tente d’exécuter l’applet de commande, l’opération échoue.
 
-**Moyens**
+**Palliatives**
 
-Pour supprimer la mise en miroir SQL d’un pool dans le générateur de topologie, vous devez commencer par utiliser une applet de cmdlet pour supprimer le miroir dans SQL Server. Vous pouvez ensuite utiliser le générateur de topologie pour supprimer le miroir de la topologie. Pour supprimer le miroir dans SQL Server, utilisez l’applet de commande suivante :
+Pour supprimer la mise en miroir SQL d’un pool dans le générateur de topologies, vous devez d’abord utiliser une cmdlet pour supprimer le miroir dans SQL Server. Vous pouvez ensuite utiliser le Générateur de topologie pour supprimer le miroir de la topologie. Pour supprimer le miroir dans SQL Server, utilisez l’applet de commande suivante :
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 
-Par exemple, pour supprimer la mise en miroir et supprimer les bases de données pour les bases de données utilisateur, tapez ce qui suit :
+Par exemple, pour supprimer la mise en miroir et les bases de données pour les bases de données utilisateur, tapez ce qui suit :
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 
-Le paramètre *DropExistingDatabasesOnMirror* vous permet de supprimer les bases de données affectées du miroir. Ensuite, pour supprimer le miroir de la topologie, procédez comme suit :
+Le paramètre *DropExistingDatabasesOnMirror* permet de supprimer les bases de données affectées du miroir. Ensuite, pour supprimer le miroir de la topologie, procédez comme suit :
 
-1.  Dans le générateur de topologie, cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**.
+1.  Dans le Générateur de topologie, cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés**.
 
-2.  Désactivez l’option **activer la mise en miroir du magasin SQL** , puis cliquez sur **OK**.
+2.  Désactivez l’option **Activer la mise en miroir du magasin SQL** et cliquez sur **OK**.
 
 3.  Publiez la topologie.
 
@@ -1029,7 +1029,7 @@ Le paramètre *DropExistingDatabasesOnMirror* vous permet de supprimer les bases
 
 
 > [!IMPORTANT]  
-> Lorsque vous modifiez une relation de mise en miroir de la base de données principale, vous devez redémarrer tous les serveurs frontaux de la liste.
+> Chaque fois que vous modifiez une relation de mise en miroir de base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.
 
 
 
@@ -1039,33 +1039,33 @@ Le paramètre *DropExistingDatabasesOnMirror* vous permet de supprimer les bases
 
 <div>
 
-## <a name="validation-errors-are-returned-in-topology-builder-when-an-administrator-attempts-to-remove-a-deployment-with-a-front-end-pool-that-has-an-associated-witness-store"></a>Les erreurs de validation sont renvoyées dans le générateur de topologie lorsqu’un administrateur tente de supprimer un déploiement avec un pool frontal qui dispose d’un magasin témoin associé.
+## <a name="validation-errors-are-returned-in-topology-builder-when-an-administrator-attempts-to-remove-a-deployment-with-a-front-end-pool-that-has-an-associated-witness-store"></a>Les erreurs de validation sont renvoyées dans le générateur de topologie lorsqu’un administrateur tente de supprimer un déploiement avec un pool frontal disposant d’un magasin de témoins associé
 
-**Émet**
+**Exécuter**
 
-Si un administrateur tente d’utiliser la commande **supprimer le déploiement** dans le générateur de topologie pour supprimer un déploiement incluant un pool frontal avec un magasin témoin associé, une erreur de validation s’affiche dans le générateur de topologie et l’action ne se poursuit pas.
+Si un administrateur tente d’utiliser la commande **supprimer le déploiement** dans le générateur de topologie pour supprimer un déploiement qui inclut un pool frontal avec un magasin de témoins associé, une erreur de validation s’affiche dans le générateur de topologies et l’action ne se poursuit pas.
 
-**Moyens**
+**Palliatives**
 
 Pour contourner ce problème, effectuez l’une des opérations suivantes :
 
-  - Supprimez le magasin témoin avant d’essayer de supprimer le déploiement.
+  - Supprimez le magasin de témoins avant d’essayer de supprimer le déploiement.
 
-  - Ajoutez un magasin témoin pour le pool frontal, puis supprimez-le.
+  - Ajoutez un magasin de témoins pour le pool frontal, puis supprimez-le.
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-server-deployment-information-is-inconsistent-between-the-planning-tool-and-topology-builder"></a>Les informations de déploiement permanent du serveur de conversation ne sont pas cohérentes entre l’outil de planification et le générateur de topologie
+## <a name="persistent-chat-server-deployment-information-is-inconsistent-between-the-planning-tool-and-topology-builder"></a>Les informations de déploiement du serveur de conversation permanente ne sont pas cohérentes entre l’outil de planification et le générateur de topologies
 
-**Émet**
+**Exécuter**
 
-Lorsque le serveur Lync Server 2013, l’outil de planification génère le diagramme de topologie de site pour un déploiement de serveur Chat permanent avec l’option de reprise après sinistre activée, le diagramme de topologie de site inclut plusieurs sites (physiques), avec des serveurs de chat permanent assignés Sitemap. Dans le générateur de topologie, tous les serveurs de chat permanent sont représentés comme appartenant à un site unique (logique) et apparaissent sous le même nœud de pool de serveurs de chat permanent.
+Lorsque l’outil de planification Lync Server 2013, affiche le diagramme de topologie de site pour un déploiement de serveur de conversation permanente avec la récupération d’urgence activée, le diagramme de topologie de site inclut plusieurs sites (physiques), avec des serveurs de conversation permanente affectés de manière équitable. site. Dans le générateur de topologie, tous les serveurs de conversation permanente sont représentés comme appartenant à un site unique (logique) et sont répertoriés sous le même nœud de pool de serveurs de conversation permanente.
 
-**Moyens**
+**Palliatives**
 
-Pour le moment, il n’existe aucune solution de contournement pour ce problème. L’utilisateur doit analyser la sortie de l’outil de planification pour le déploiement de serveur Chat permanent et modifier le plan en fonction de ses besoins spécifiques.
+Il n’existe actuellement aucune solution de contournement à ce problème. L’utilisateur doit analyser la sortie de l’outil de planification pour le déploiement du serveur de conversation permanente et modifier le plan pour répondre à ses besoins spécifiques.
 
 </div>
 
@@ -1083,15 +1083,15 @@ Pour le moment, il n’existe aucune solution de contournement pour ce problème
 
 <div>
 
-## <a name="the-deploy-monitoring-reports-wizard-displays-incorrect-characters-under-certain-circumstances-when-using-the-east-asian-version-of-lync-server"></a>L’Assistant Déploiement des rapports de surveillance affiche des caractères incorrects dans certaines circonstances lors de l’utilisation de la version d’Asie orientale de Lync Server
+## <a name="the-deploy-monitoring-reports-wizard-displays-incorrect-characters-under-certain-circumstances-when-using-the-east-asian-version-of-lync-server"></a>L’Assistant déployer les rapports de surveillance affiche des caractères incorrects dans certaines circonstances lors de l’utilisation de la version d’Asie orientale de Lync Server
 
-**Émet**
+**Exécuter**
 
-Lorsque vous utilisez une version d’Asie orientale de Lync Server 2013 (par exemple, chinois (simplifié), chinois (traditionnel), japonais ou coréen, sur un système d’exploitation dont les paramètres régionaux du système ne sont pas définis sur une langue d’Asie de l’est, l’Assistant Déploiement des rapports d’analyse Affichez des points d’interrogation ou d’autres caractères au lieu de messages localisés.
+Lors de l’utilisation d’une version d’Asie orientale de Lync Server 2013 (par exemple, chinois (simplifié), chinois (traditionnel), japonais ou coréen) sur un système d’exploitation dont les paramètres régionaux système ne sont pas définis sur une langue d’Asie de l’est, l’Assistant déployer les rapports de surveillance afficher des points d’interrogation ou d’autres caractères au lieu de messages localisés.
 
-**Moyens**
+**Palliatives**
 
-Pour résoudre ce problème, définissez les paramètres régionaux pour le système d’exploitation et Lync Server 2013 dans la même langue, ce qui permet d’afficher tous les messages correctement.
+Pour corriger ce problème, définissez les paramètres régionaux du système d’exploitation et de Lync Server 2013 dans la même langue, ce qui affichera correctement tous les messages.
 
 </div>
 
@@ -1099,25 +1099,25 @@ Pour résoudre ce problème, définissez les paramètres régionaux pour le syst
 
 <div>
 
-## <a name="lync-server-control-panel"></a>Panneau de configuration Lync Server
+## <a name="lync-server-control-panel"></a>Panneau de commande Lync Server
 
 <div>
 
-## <a name="in-certain-cases-the-first-item-in-the-top-navigation-bar-on-a-page-of-lync-server-control-panel-disappears-when-the-last-item-in-the-top-navigation-bar-is-clicked"></a>Dans certains cas, le premier élément de la barre de navigation supérieure sur une page du panneau de configuration de Lync Server disparaît lorsque vous cliquez sur le dernier élément de la barre de navigation supérieure.
+## <a name="in-certain-cases-the-first-item-in-the-top-navigation-bar-on-a-page-of-lync-server-control-panel-disappears-when-the-last-item-in-the-top-navigation-bar-is-clicked"></a>Dans certains cas, le premier élément dans la barre de navigation supérieure sur une page du panneau de configuration Lync Server disparaît lorsque l’utilisateur clique sur le dernier élément de la barre de navigation supérieure.
 
-**Émet**
+**Exécuter**
 
-Il existe trois cas connus où cliquer sur le dernier élément de la barre de navigation supérieure sur une page du panneau de configuration de Lync Server entraîne la disparition du premier élément dans la barre de navigation supérieure :
+Il existe trois cas connus dans lesquels le fait de cliquer sur le dernier élément dans la barre de navigation supérieure sur une page du panneau de configuration Lync Server entraîne la disparition du premier élément dans la barre de navigation supérieure :
 
-  - Dans la version française, sur la page « Féderation et accès extern », l’élément « stratégie d’accès externe » disparaîtra lorsque vous cliquez sur « partenaires fédérés XMPP ».
+  - Dans la version française, dans la page « Fédération et accès externe », l’élément « Stratégie d’accès externe » disparaît lorsque vous cliquez sur « Partenaires fédérés XMPP ».
 
-  - Dans la version allemande, sur la page « clients », l’élément « Clientversionskonfiguration » disparaît lorsque vous cliquez sur « Pushbenachrichtigungskonfiguration ».
+  - Dans la version allemande, dans la page « Clients », l’élément « Clientversionskonfiguration » disparaît lorsque vous cliquez sur « Pushbenachrichtigungskonfiguration ».
 
-  - Dans la version russe, sur la page « Конфигурация сети », l’élément « Глобально » disparaît lorsque vous cliquez sur « Маршрут региона ».
+  - Dans la version russe, dans la page « Конфигурация сети », l’élément « Глобально » disparaît lorsque vous cliquez sur « Маршрут региона ».
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, actualisez la page du panneau de configuration de Lync Server dans votre navigateur. La page se charge dans le navigateur avec tous les éléments dans la barre de navigation supérieure affichée.
+Pour contourner ce problème, actualisez la page du panneau de configuration Lync Server dans votre navigateur. La page sera chargée dans le navigateur avec tous les éléments de la barre de navigation supérieure affichés.
 
 </div>
 
@@ -1135,39 +1135,39 @@ Pour contourner ce problème, actualisez la page du panneau de configuration de 
 
 
 > [!NOTE]  
-> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+> Les informations contenues dans cette section concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-Si les propriétés d’un utilisateur contiennent un champ indexé et que ce champ ne contient que des caractères qui ne peuvent pas être indexés, l’utilisateur n’apparaît pas dans les recherches effectuées dans le carnet d’adresses.
+Si les propriétés d’un utilisateur contiennent un champ indexé et que ce champ contient uniquement des caractères qui ne peuvent pas être indexés, l’utilisateur n’apparaît pas dans les recherches effectuées dans le carnet d’adresses.
 
-Les caractères et valeurs locales suivants ne peuvent pas être indexés :
+Les paramètres régionaux et les caractères suivants ne peuvent pas être indexés :
 
-  - Caractères cyrilliques, grecs et arméniens en majuscules
+  - Caractères latins, grecs et arméniens en majuscules
 
-  - Caractères en majuscules accentués
+  - Caractères accentués avec des majuscules
 
   - Thaï
 
-  - Laos
+  - Lao
 
-  - Birmanie
+  - Birman
 
-  - DÉVANÂGARÎ
+  - Dévanâgarî
 
-  - Éthiopienne
+  - Éthiopien
 
-  - Voyelle
+  - Tibétain
 
   - Bengali
 
-  - Gujarâtî
+  - Goudjrati
 
-  - Telugu
+  - Télougou
 
-  - Tous les autres scripts Indiens
+  - Tous les autres scripts indo-aryens
 
 </div>
 
@@ -1175,15 +1175,15 @@ Les caractères et valeurs locales suivants ne peuvent pas être indexés :
 
 <div>
 
-## <a name="lync-web-app-web-scheduler-and-web-components"></a>Lync Web App, Web Scheduler et composants Web
+## <a name="lync-web-app-web-scheduler-and-web-components"></a>Lync Web App, Web Scheduler et Web Components
 
 <div>
 
-## <a name="language-fallback-for-certain-languages-in-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-might-not-work-as-expected"></a>La langue de secours pour certaines langues dans Lync Web Scheduler, le lanceur de la Conférence rendez-vous, la gestion des salles de conversation permanente et OCTab peut ne pas fonctionner comme prévu
+## <a name="language-fallback-for-certain-languages-in-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-might-not-work-as-expected"></a>La langue de secours pour certaines langues dans Lync Web Scheduler, Dial-in, Join Launcher, la gestion des salles de conversation permanente et OCTab peut ne pas fonctionner comme prévu
 
-**Émet**
+**Exécuter**
 
-Lors de la sélection d’un paramètre régional neutre dans un navigateur Web (dans Internet Explorer, par exemple, le nom de la langue sans spécification \[supplémentaire\](par exemple, « norvégien no ») au lieu d’un paramètre régional spécifiant la langue, le script et les \[paramètres régionaux (\]par exemple, « norvégien, Bokmål (Norvège) NB-no ») peut entraîner un comportement inattendu pour certaines langues dans Lync Web Scheduler, le lanceur d’appels, la gestion des salles de conversation permanentes Par exemple, les utilisateurs peuvent voir la page en anglais lorsque l’une des langues suivantes est sélectionnée :
+Lors de la sélection d’un paramètre régional neutre dans un navigateur Web (dans Internet Explorer, par exemple, le nom de la langue sans spécification \[supplémentaire\], comme « non norvégien ») au lieu d’un paramètre régional spécifiant la langue, le script et les paramètres régionaux \[(par exemple\], « norvégien, Bokmål (Norvège) NB-no ») peut entraîner un comportement d’affichage inattendu pour certaines langues dans Lync Web Scheduler, Dial-in, le lanceur de conversation permanente et OCTab Par exemple, les utilisateurs peuvent voir la page en anglais lorsque l’une des langues suivantes est sélectionnée :
 
   - Norvégien
 
@@ -1191,37 +1191,37 @@ Lors de la sélection d’un paramètre régional neutre dans un navigateur Web 
 
   - Serbe
 
-**Moyens**
+**Palliatives**
 
-Si vous voulez sélectionner une langue à l’aide d’un paramètre régional neutre, assurez-vous également d’ajouter la langue avec des paramètres régionaux spécifiques (avec l’indicatif de script et/ou du pays) comme langue supplémentaire dans la liste des préférences linguistiques de votre navigateur.
+Si vous souhaitez sélectionner une langue avec un paramètre régional neutre, assurez-vous de toujours ajouter également la langue avec un paramètre régional spécifique (avec script et/ou code de pays) comme langue supplémentaire dans la liste des préférences linguistiques de votre navigateur.
 
 </div>
 
 <div>
 
-## <a name="there-is-limited-support-for-azeri-and-uzbek-locales-when-using-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-in-some-web-browsers"></a>La prise en charge des paramètres régionaux azéri et ouzbek est limitée lors de l’utilisation de Lync Web Scheduler, de la Conférence rendez-vous, du lanceur de jointure, de la gestion des salles de conversation permanentes et de OCTab dans certains navigateurs Web
+## <a name="there-is-limited-support-for-azeri-and-uzbek-locales-when-using-lync-web-scheduler-dial-in-join-launcher-persistent-chat-room-management-and-octab-in-some-web-browsers"></a>La prise en charge des paramètres régionaux azéri et ouzbek avec Lync Web Scheduler, Dial-in, Join Launcher, la gestion des salles de conversation permanente et OCTab dans certains navigateurs Web est limitée.
 
 <div class="">
 
 
 > [!NOTE]  
-> Les informations de cette section font partie des mises à jour cumulatives pour Lync Server 2013 : février 2013.
+> Les informations contenues dans cette section concernent les mises à jour cumulatives pour Lync Server 2013 : février 2013.
 
 
 
 </div>
 
-**Émet**
+**Exécuter**
 
-Lorsque vous utilisez Internet Explorer 8 ou Internet Explorer 9 et que vous définissez la langue du navigateur sur azéri (latin) ou ouzbek (latin), les pages de lancement et de connexion sont affichées en anglais ou dans la langue par défaut définie dans le navigateur.
+Lorsque vous utilisez Internet Explorer 8 ou Internet Explorer 9 et que vous définissez la langue du navigateur sur azéri (latin) ou ouzbek (latin), les pages du lanceur d’appels entrants et de jonction s’afficheront en anglais ou dans la langue par défaut définie dans le navigateur.
 
-Lorsque vous utilisez les navigateurs Firefox ou chrome et que vous définissez la langue du navigateur sur azéri (latin) ou ouzbek (latin), les langues Lync Web App, Lync Web Scheduler et RGS OCTab apparaissent en anglais ou dans la langue par défaut du navigateur.
+Lorsque vous utilisez des navigateurs Firefox ou chrome, et que vous définissez la langue du navigateur sur azéri (latin) ou ouzbek (latin), l’application Lync Web App, Lync Web Scheduler et RGS OCTab seront affichées en anglais ou dans la langue par défaut définie pour le navigateur.
 
 Les paramètres régionaux ouzbek (latin) ne sont pas pris en charge dans le navigateur Safari.
 
-**Moyens**
+**Palliatives**
 
-Il n’existe aucune solution de contournement pour ces problèmes.
+Il n’existe pas de solution de contournement pour ces problèmes.
 
 </div>
 
@@ -1229,39 +1229,39 @@ Il n’existe aucune solution de contournement pour ces problèmes.
 
 <div>
 
-## <a name="the-drop-down-arrow-is-missing-for-join-meeting-from-list-in-the-romanian-version-of-lync-web-app"></a>La flèche déroulante ne figure pas dans la liste « rejoindre la réunion de » dans la version roumaine de Lync Web App
+## <a name="the-drop-down-arrow-is-missing-for-join-meeting-from-list-in-the-romanian-version-of-lync-web-app"></a>La flèche déroulante est manquante pour la liste « joindre une réunion de » dans la version roumaine de Lync Web App
 
-**Émet**
+**Exécuter**
 
-Lorsqu’un utilisateur qui utilise la version roumaine de Lync Web App effectue les étapes suivantes, la flèche déroulante ne s’affiche pas dans la liste déroulante **joindre la réunion** dans la liste déroulante :
+Lorsqu’un utilisateur qui utilise la version roumaine de Lync Web App effectue les étapes suivantes, la flèche déroulante n’est pas affichée pour **rejoindre une réunion** dans la liste déroulante :
 
-1.  Sélectionnez **Mémoriser mon adresse sur cet ordinateur** sous l’onglet **général** .
+1.  Sélectionnez **Mémoriser mon adresse sur cet ordinateur** sous l’onglet **Général**.
 
-2.  Sélectionnez l’onglet **téléphone** .
+2.  Sélectionnez l’onglet **Téléphone**.
 
-3.  Cliquez sur la liste déroulante pour **participer à une réunion à partir de**.
+3.  Cliquez sur la liste déroulante pour **Rejoindre la réunion**.
     
-    Les utilisateurs ne verront pas une flèche indiquant qu’il existe d’autres options que la connexion par défaut de **Lync Web App**, par exemple : **ne pas participer** à la partie audio (en Roumanie, « nu se asociažae » et **nouveau numéro**» (en Roumanie, « număr Nou »).
+    Les utilisateurs ne verront pas une flèche indiquant qu’il existe davantage d’options que l' **application Web Lync**par défaut, notamment : **ne pas participer** à l’audio (en roumain, « nu se asociaža la composantea audio ») et le **nouveau numéro**« (en roumain, «număr Nou »).
 
-**Moyens**
+**Palliatives**
 
-Même si la flèche de cette liste déroulante n’est pas affichée, les utilisateurs peuvent toujours sélectionner les paramètres supplémentaires dans la liste en cliquant sur la valeur par défaut.
+Bien que la flèche de cette liste déroulante ne soit pas affichée, les utilisateurs peuvent tout de même sélectionner les paramètres supplémentaires dans la liste en cliquant sur la valeur par défaut.
 
 </div>
 
 <div>
 
-## <a name="when-using-the-turkish-version-of-lync-web-scheduler-a-meeting-cannot-be-saved-when-using-the-people-i-choose-option-under-who-is-a-presenter"></a>Lors de l’utilisation de la version turque de Lync Web Scheduler, une réunion ne peut pas être enregistrée lors de l’utilisation de l’option « personnes que je choisis » sous « qui est présentateur »
+## <a name="when-using-the-turkish-version-of-lync-web-scheduler-a-meeting-cannot-be-saved-when-using-the-people-i-choose-option-under-who-is-a-presenter"></a>Lors de l’utilisation de la version turque de Lync Web Scheduler, une réunion ne peut pas être enregistrée lors de l’utilisation de l’option « personnes que je choisis » sous « qui est un présentateur ».
 
-**Émet**
+**Exécuter**
 
-Lors de la création ou de la modification d’une réunion dans la version turque de Lync Web Scheduler, l’option « les personnes que je choisis » sous « qui est présentateur » n’est pas prise en charge. Lorsque cette option est sélectionnée, la réunion ne peut pas être enregistrée. Au lieu de cela, un message d’erreur s’affiche, indiquant qu’une ou plusieurs personnes ne peuvent pas être transformées en présentateurs.
+Lors de la création ou de la modification d’une réunion dans la version turque de Lync Web Scheduler, l’option « Personnes que j’ai choisies » sous « Présentateur » n’est pas prise en charge. Lorsque cette option est sélectionnée, la réunion ne peut pas être enregistrée. Au lieu de cela, un message d’erreur s’affiche et indique qu’une ou plusieurs personnes ne peuvent pas être présentateurs.
 
-**Moyens**
+**Palliatives**
 
-Pour contourner ce problème, les utilisateurs peuvent utiliser l’option par défaut « utilisateurs de ma société » ou tout autre choix, tels que « uniquement organisateur » ou « tout le monde, y compris les personnes externes à mon entreprise ». L’organisateur peut rétrograder ou promouvoir les utilisateurs à leurs rôles appropriés ultérieurement, après avoir rejoint la réunion.
+Pour contourner ce problème, les utilisateurs peuvent sélectionner l’option par défaut « Personnes de ma société » ou tout autre choix tel que « Seul l’organisateur » ou « Tout le monde, y compris les personnes extérieures à ma société ». L’organisateur peut rétrograder ou promouvoir les personnes à leur rôle correct ultérieurement, une fois qu’elles ont rejoint la réunion.
 
-Par ailleurs, les utilisateurs qui comprennent une autre langue peuvent modifier la sélection de la langue dans le navigateur pour l’une des autres langues prises en charge par 43 et tenter d’utiliser l’option « les personnes que je choisis ».
+En guise d’alternative, les utilisateurs qui comprennent une autre langue peuvent modifier la sélection de langue dans leur navigateur, choisir l’une des 43 langues prises en charge et essayer d’utiliser l’option « Personnes que j’ai choisies ».
 
 </div>
 
@@ -1271,17 +1271,17 @@ Par ailleurs, les utilisateurs qui comprennent une autre langue peuvent modifier
 
 <div>
 
-## <a name="copyright"></a>Reproduction
+## <a name="copyright"></a>Copyright
 
-Ce document prend en charge une version préliminaire d’un produit logiciel dont le changement est susceptible d’être sensiblement antérieur à la version commerciale finale et qui est confidentiel et commercial. Il est divulgué par le biais d’un accord de non-divulgation entre le destinataire et Microsoft. Ce document est fourni à titre indicatif uniquement et Microsoft ne fournit aucune garantie, expresse ou implicite, dans ce document. Les informations contenues dans ce document, y compris les URL et autres références de site Web Internet, peuvent faire l’objet de modifications sans préavis. Le risque qu’une utilisation ou des résultats de l’utilisation de ce document reste l’utilisateur. Sauf mention contraire, les sociétés, organisations, produits, noms de domaines, adresses de messagerie, logos, personnes, lieux et événements décrits dans les exemples ci-dessous sont fictifs. Il n’est pas possible d’associer une société, une organisation, un produit, un nom de domaine, une adresse de messagerie, un logo, une personne, un lieu ou un événement. Conformément à toutes les lois applicables en matière de copyright, il incombe à l’utilisateur. Sans limitation des droits découlant du droit d’auteur, aucune partie de ce document ne pourra être reproduite, stockée ou introduite dans un système de récupération, ni transmise à l’aide d’un moyen quelconque (électronique, mécanique, photocopie, enregistrement ou autre), ou à d’autres fins, sans l’autorisation expresse écrite de Microsoft Corporation.
+Ce document traite d’une version préliminaire d’un produit logiciel qui pourra faire l’objet de modifications substantielles préalablement à la version commerciale finale et constitue des informations confidentielles et appartenant à Microsoft Corporation. Il est divulgué conformément à un accord de confidentialité entre le bénéficiaire et Microsoft. Ce document est fourni uniquement à titre informatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Les informations contenues dans ce document, y compris les URL et autres références à des sites web Internet, pourront faire l’objet de modifications sans préavis. L’utilisateur reconnaît assumer tous les risques liés à l’utilisation de ce document. Sauf mention contraire, les noms de sociétés, d’organisations, de produits, de personnes ou les événements mentionnés dans les exemples sont fictifs. Toute ressemblance avec des noms ou des événements réels est purement fortuite et involontaire. L’utilisateur est tenu d’observer la réglementation relative aux droits d’auteur applicable dans son pays. Aucune partie de ce document ne peut être reproduite, stockée ou introduite dans un système de restitution, ou transmise à quelque fin ou par quelque moyen que ce soit (électronique, mécanique, photocopie, enregistrement ou autre) sans la permission expresse et écrite de Microsoft Corporation.
 
-Microsoft peut être doté d’un brevet, d’une demande de brevet, de marques commerciales, de droits d’auteur ou d’autres droits de propriété intellectuelle concernant le sujet figurant dans ce document. À l’exception de ce que prévoit expressément un contrat de licence écrit de la part de Microsoft, la fourniture de ce document ne vous donne aucune licence pour ces brevets, marques commerciales, droits d’auteur ou toute autre propriété intellectuelle.
+Microsoft peut détenir des brevets, avoir déposé des demandes d’enregistrement de brevets ou être titulaire de marques, droits d’auteur ou autres droits de propriété intellectuelle portant sur tout ou partie des éléments qui font l’objet du présent document. Sauf stipulation expresse contraire d’un contrat de licence écrit de Microsoft, la fourniture de ce document n’a pas pour effet de vous concéder une licence sur ces brevets, marques, droits d’auteur ou autres droits de propriété intellectuelle.
 
-© 2012 de Microsoft Corporation. Tous droits réservés.
+© 2012 Microsoft Corporation. Tous droits réservés.
 
-Microsoft, Windows, Windows Live, Active Directory, Internet Explorer, MSN, Outlook et SQL Server sont des marques commerciales ou des marques commerciales déposées de Microsoft Corporation aux États-Unis et/ou dans d’autres pays ou régions.
+Microsoft, Windows, Windows Live, Active Directory, Internet Explorer, MSN, Outlook et SQL Server sont soit des marques de Microsoft Corporation, soit des marques déposées de Microsoft Corporation, aux États-Unis et/ou dans d’autres pays/régions.
 
-Toutes les autres marques déposées sont la propriété de leurs détenteurs respectifs.
+Toutes les autres marques sont la propriété de leur détenteur respectif.
 
 </div>
 

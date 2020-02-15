@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités d’administration et de gestion'
+title: 'Lync Server 2013 : nouvelles fonctionnalités de gestion et d’administration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29efac93e5f041172b6d05c4fafec96a56834978
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b2b45dd3d48298012bfea5b26345cd2230d72e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765352"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-09-26_
 
 Lync Server 2013 inclut les nouvelles fonctionnalités suivantes pour simplifier la tâche de gestion de votre déploiement.
 
-  - [Prise en charge de la mise en miroir SQL Server par le générateur de topologie dans Lync Server 2013](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+  - [Le générateur de topologie prend en charge la mise en miroir SQL Server dans Lync Server 2013](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
 
   - [Nouvelles fonctionnalités de contrôle d’accès basé sur un rôle dans Lync Server 2013](lync-server-2013-has-new-role-based-access-control-features.md)
 

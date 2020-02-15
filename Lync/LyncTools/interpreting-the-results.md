@@ -12,16 +12,16 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dcb1d84392cf9f56f2996281eb53e798690ba1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c226e3b677965db03ba4d5fcc3c3dadb37192548
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763296"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,21 +37,21 @@ ms.locfileid: "41763296"
 
 _**Dernière modification de la rubrique :** 2013-02-24_
 
-L’outil de stress et de performance de Lync Server 2013 (LyncPerfTool. exe) comporte de nombreux compteurs qui vous permettent de comprendre ce que le client effectue et s’il rencontre des problèmes.
+L’outil de contrainte et de performances de Lync Server 2013 (LyncPerfTool. exe) comporte de nombreux compteurs que vous pouvez utiliser pour comprendre ce que fait le client et s’il rencontre des problèmes.
 
 <div>
 
-## <a name="client-counters"></a>Compteurs clients
+## <a name="client-counters"></a>Compteurs client
 
 Chaque instance de LyncPerfTool. exe en cours d’exécution dispose d’une instance distincte des compteurs. Chaque instance est nommée par son ID de processus.
 
-Si les clients sont surchargés, des problèmes peuvent se produire. Pour éviter ce problème, procédez comme suit :
+Si les clients sont surchargés, des problèmes peuvent se produire. Pour éviter ces problèmes, procédez comme suit :
 
-1.  Surveiller le processeur et l’utilisation de la mémoire sur les ordinateurs clients. Si le processeur est toujours supérieur à 90%, réduisez le nombre d’utilisateurs.
+1.  Surveillez l’utilisation du processeur et de la mémoire sur les ordinateurs clients. Si le processeur est toujours supérieur à 90%, réduisez le nombre d’utilisateurs.
 
-2.  Si l’encombrement mémoire est élevé, vous risquez de rencontrer des problèmes si le fichier de la page n’est pas assez grand. Assurez-vous que la mémoire de validation n’atteint pas la limite de l’ordinateur. Si vous utilisez des limites de mémoire, envisagez d’augmenter la taille de fichier de la page ou de réduire le nombre d’utilisateurs.
+2.  Si l’encombrement mémoire est élevé, vous pouvez rencontrer des problèmes si le fichier d’échange n’est pas assez grand. Vérifiez que la charge dédiée n’atteint pas la limite de l’ordinateur. Si vous utilisez des limites de mémoire, envisagez d’augmenter la taille du fichier d’échange ou de réduire le nombre d’utilisateurs.
 
-Les tableaux suivants répertorient les principaux compteurs de performances de LyncPerfTool.
+Les tableaux suivants répertorient les compteurs de performances Key LyncPerfTool.
 
 **Informations générales**
 
@@ -78,11 +78,11 @@ Les tableaux suivants répertorient les principaux compteurs de performances de 
 </tr>
 <tr class="odd">
 <td><p>Échecs de connexion</p></td>
-<td><p>Nombre total d’échecs de connexion de point de terminaison.</p></td>
+<td><p>Nombre total d’échecs de connexion au point de terminaison.</p></td>
 </tr>
 <tr class="even">
-<td><p>Tentatives d’ouverture de session</p></td>
-<td><p>Nombre total de tentatives de connexion de point de terminaison.</p></td>
+<td><p>Tentatives de connexion</p></td>
+<td><p>Nombre total de tentatives de connexion au point de terminaison.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Points de terminaison déconnectés</p></td>
@@ -113,7 +113,7 @@ Les tableaux suivants répertorient les principaux compteurs de performances de 
 <tbody>
 <tr class="odd">
 <td><p>Appels SetPresence</p></td>
-<td><p>Nombre total de tentatives de changement de présence. Pour les différents types de modifications de présence, voir le compteur de performance appels SetPresence (type de présence).</p></td>
+<td><p>Nombre total de tentatives de modification de présence. Pour les différents types de modifications de présence, voir le compteur de performances appels SetPresence (type de présence).</p></td>
 </tr>
 <tr class="even">
 <td><p>NNN réponses pour SetPresence</p></td>
@@ -121,7 +121,7 @@ Les tableaux suivants répertorient les principaux compteurs de performances de 
 </tr>
 <tr class="odd">
 <td><p>Appels GetPresence</p></td>
-<td><p>Nombre total de tentatives de demande de présence.</p></td>
+<td><p>Nombre total de tentatives de demande d’obtention de présence.</p></td>
 </tr>
 <tr class="even">
 <td><p>NNN réponses pour GetPresence</p></td>
@@ -131,9 +131,9 @@ Les tableaux suivants répertorient les principaux compteurs de performances de 
 </table>
 
 
-**Informations relatives au service de carnet d’adresses**
+**Informations du service de carnet d’adresses**
 
-Cette catégorie inclut des compteurs permettant de surveiller les téléchargements de fichiers du service de carnet d’adresses et les demandes de service de requête sur le carnet d’adresses.
+Cette catégorie comprend les compteurs utilisés pour surveiller les téléchargements de fichiers du service de carnet d’adresses et les demandes de service de requête Web du carnet d’adresses.
 
 
 <table>
@@ -149,34 +149,34 @@ Cette catégorie inclut des compteurs permettant de surveiller les téléchargem
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tentatives de téléchargements de fichiers complets/Delta de ABS</p></td>
-<td><p>Nombre total de demandes de téléchargement de fichiers complets ou Delta.</p></td>
+<td><p>Tentatives de téléchargements de fichiers complets/Delta ABS</p></td>
+<td><p>Nombre total de demandes de téléchargements de fichiers complets ou deltas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Réussite des téléchargements de fichiers complets/Delta</p></td>
-<td><p>Nombre total de demandes de téléchargement de fichiers complets ou Delta.</p></td>
+<td><p>Les téléchargements de fichiers complets/Delta ABS ont réussi</p></td>
+<td><p>Nombre total de demandes de téléchargements de fichiers complets ou deltas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Compteurs liés au service de requête Web dans le carnet d’adresses</p></td>
-<td><p>Compteurs liés au téléchargement du fichier du carnet d’adresses.</p></td>
+<td><p>Compteurs liés au service de requête Web du carnet d’adresses</p></td>
+<td><p>Compteurs liés au téléchargement du fichier de carnet d’adresses.</p></td>
 </tr>
 <tr class="even">
 <td><p>Tentatives d’appels WS WS</p></td>
-<td><p>Nombre total de demandes de service de requête Web dans le carnet d’adresses.</p></td>
+<td><p>Nombre total de demandes de service de requête sur le Web du carnet d’adresses.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appels WS WS réussis</p></td>
-<td><p>Nombre total de demandes de service de requête Web de carnet d’adresses qui renvoient un code de réponse réussi.</p></td>
+<td><p>Nombre total de demandes de service de requête Web de carnet d’adresses ayant renvoyé un code de réponse réussi.</p></td>
 </tr>
 <tr class="even">
-<td><p>Échecs des services d’ABS WS</p></td>
-<td><p>Nombre total de demandes de service de requête Web de carnet d’adresses qui renvoient un code de réponse d’erreur.</p></td>
+<td><p>Échec des appels d’ABS WS</p></td>
+<td><p>Nombre total de demandes de service de requête Web de carnet d’adresses qui a renvoyé un code de réponse d’erreur.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Informations de liste de distribution (DL)**
+**Informations sur la liste de distribution (DL)**
 
 
 <table>
@@ -192,24 +192,24 @@ Cette catégorie inclut des compteurs permettant de surveiller les téléchargem
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels essayés</p></td>
-<td><p>Nombre total de demandes de service Web d’extension de liste de distribution (DLX) effectuées.</p></td>
+<td><p>Tentatives d’appels</p></td>
+<td><p>Nombre total de demandes de service Web d’expansion de liste de distribution (DLX).</p></td>
 </tr>
 <tr class="even">
 <td><p>Appels réussis</p></td>
 <td><p>Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse réussi.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Appels en échec</p></td>
-<td><p>Nombre total de demandes de service Web DLX qui renvoient un code de réponse d’erreur.</p></td>
+<td><p>Échec des appels</p></td>
+<td><p>Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse d’erreur.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Informations de base sur VoIP**
+**Informations de base VoIP**
 
-Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous les appels voix sur IP (VoIP), y compris les appels vers le serveur de médiation, le serveur de conférence A/V, le serveur Edge, l’application Response Group et le standard automatique des conférences, lorsque ces scénarios sont activés.
+Les compteurs de performance répertoriés ci-dessous indiquent les numéros de tous les appels VoIP (Voice over IP), y compris les appels vers le serveur de médiation, le serveur de conférence A/V, le serveur Edge, l’application Response Group et le standard automatique de conférence, lorsque ces scénarios sont activés.
 
 
 <table>
@@ -225,11 +225,11 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels actifs</p></td>
-<td><p>Nombre total d’appels vocaux entrants/sortants actuellement en cours.</p></td>
+<td><p>Appelle active</p></td>
+<td><p>Nombre total d’appels vocaux entrants/sortants en cours.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels interrompus</p></td>
+<td><p>Appels terminés</p></td>
 <td><p>Nombre total d’appels vocaux entrants/sortants déjà terminés.</p></td>
 </tr>
 <tr class="odd">
@@ -238,7 +238,7 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </tr>
 <tr class="even">
 <td><p>Tentatives d’appels entrants/sortants</p></td>
-<td><p>Nombre total d’appels vocaux entrants/sortants.</p></td>
+<td><p>Nombre total d’appels vocaux entrants/sortants tentés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appels entrants/sortants établis</p></td>
@@ -249,14 +249,14 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 <td><p>Nombre total de codes de réponse nnn reçus du serveur.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Taux de passe VoIP (%)</p></td>
-<td><p>Nombre total d’appels passés/nombre total d’appels tentés.</p></td>
+<td><p>Taux de réussite VoIP (%)</p></td>
+<td><p>Nombre total d’appels établis/nombre total d’appels tentés.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Informations de l’appel service de Response Group**
+**Informations sur les appels au service Response Group**
 
 
 <table>
@@ -272,11 +272,11 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels actifs</p></td>
-<td><p>Nombre total d’appels actifs vers l’application Response Group.</p></td>
+<td><p>Appelle active</p></td>
+<td><p>Nombre total d’appels actifs à l’application Response Group.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels essayés</p></td>
+<td><p>Tentatives d’appels</p></td>
 <td><p>Nombre total d’appels tentés.</p></td>
 </tr>
 </tbody>
@@ -299,12 +299,12 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels actifs</p></td>
-<td><p>Nombre total d’appels de messages instantanés entrants et sortants.</p></td>
+<td><p>Appelle active</p></td>
+<td><p>Nombre total d’appels de messagerie instantanée entrants/sortants en cours.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels interrompus</p></td>
-<td><p>Nombre total d’appels entrants/sortants de messagerie instantanée déjà terminés.</p></td>
+<td><p>Appels terminés</p></td>
+<td><p>Nombre total d’appels de messagerie instantanée entrants/sortants déjà terminés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appels reçus NNN</p></td>
@@ -316,11 +316,11 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </tr>
 <tr class="odd">
 <td><p>Tentatives d’appels entrants/sortants</p></td>
-<td><p>Nombre total d’appels entrants/sortants de messages instantanés.</p></td>
+<td><p>Nombre total d’appels de messagerie instantanée entrants/sortants.</p></td>
 </tr>
 <tr class="even">
 <td><p>Appels entrants/sortants établis</p></td>
-<td><p>Nombre total d’appels entrants/sortants de messages instantanés établis.</p></td>
+<td><p>Nombre total d’appels de messagerie instantanée entrants/sortants établis.</p></td>
 </tr>
 </tbody>
 </table>
@@ -342,12 +342,12 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels actifs</p></td>
-<td><p>Nombre total d’appels de partage d’application entrants ou sortants.</p></td>
+<td><p>Appelle active</p></td>
+<td><p>Nombre total d’appels de partage d’application entrants/sortants en cours.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels interrompus</p></td>
-<td><p>Nombre total d’appels de partage d’application entrants/sortants déjà terminés.</p></td>
+<td><p>Appels terminés</p></td>
+<td><p>Nombre total d’appels de partage d’application entrants et sortants déjà terminés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appels reçus NNN</p></td>
@@ -355,7 +355,7 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </tr>
 <tr class="even">
 <td><p>Tentatives d’appels entrants/sortants</p></td>
-<td><p>Nombre total d’appels entrants/sortants de partage d’application.</p></td>
+<td><p>Nombre total d’appels de partage d’application entrants/sortants.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Appels entrants/sortants établis</p></td>
@@ -385,16 +385,16 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Appels actifs</p></td>
-<td><p>Nombre total d’appels entrants/sortants de réseau téléphonique commuté (RTC) actuellement en cours.</p></td>
+<td><p>Appelle active</p></td>
+<td><p>Nombre total d’appels RTC (réseau téléphonique commuté) en cours.</p></td>
 </tr>
 <tr class="even">
-<td><p>Appels interrompus</p></td>
+<td><p>Appels terminés</p></td>
 <td><p>Nombre total d’appels RTC entrants/sortants déjà terminés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tentatives d’appels entrants/sortants</p></td>
-<td><p>Nombre total d’appels RTC entrants et sortants.</p></td>
+<td><p>Nombre total d’appels RTC entrants/sortants.</p></td>
 </tr>
 <tr class="even">
 <td><p>Appels entrants/sortants établis</p></td>
@@ -428,26 +428,26 @@ Les compteurs de performance indiqués ci-dessous indiquent les numéros de tous
 <td><p>Nombre total de conférences audio/vidéo (A/V) en cours.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conférences de partage d’application actives</p></td>
+<td><p>Conférences de partage d’applications actives</p></td>
 <td><p>Nombre total de conférences de partage d’application en cours.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de participants</p></td>
-<td><p>Nombre total de participants actuellement connectés aux conférences.</p></td>
+<td><p>Nombre total de participants actuellement connectés à des conférences.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Échec de la planification de conférences</p></td>
-<td><p>Nombre total d’échecs lors de la planification d’une conférence.</p></td>
+<td><p>Échec de la planification des conférences</p></td>
+<td><p>Nombre total d’échecs lors de la tentative de planification d’une conférence.</p></td>
 </tr>
 <tr class="even">
-<td><p>Participer à une conférence téléphonique</p></td>
-<td><p>Nombre total d’échecs lors d’une tentative de connexion à une conférence.</p></td>
+<td><p>Rejoindre la Conférence</p></td>
+<td><p>Nombre total d’échecs lors de la tentative de connexion à une conférence.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Compteurs du client UCWA**
+**Compteurs client UCWA**
 
 
 <table>

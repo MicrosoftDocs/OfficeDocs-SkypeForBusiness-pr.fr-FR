@@ -12,16 +12,16 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e610990182e01c0e9e2d7199bd3a34f70fbe3132
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750434"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41750434"
 
 _**Dernière modification de la rubrique :** 2015-04-06_
 
-La liste suivante répertorie les éléments à prendre en compte lors de la configuration d’un environnement Microsoft Lync Server 2013 pour prendre en charge l’authentification à deux facteurs.
+Voici une liste de considérations relatives au déploiement lors de la configuration d’un environnement Microsoft Lync Server 2013 afin de prendre en charge l’authentification à deux facteurs.
 
 <div>
 
 ## <a name="client-support"></a>Prise en charge des clients
 
-Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013 : le client de bureau 2013 de juillet et tous les clients mobiles prennent actuellement en charge l’authentification à deux facteurs.
+Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013 : client de bureau de juillet 2013 et tous les clients mobiles prennent actuellement en charge l’authentification à deux facteurs.
 
 </div>
 
@@ -51,7 +51,7 @@ Les mises à jour cumulatives de Lync 2013 pour Lync Server 2013 : le client de
 
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
-Les clients sont fortement invités à déployer l’authentification à deux facteurs à l’aide de la 2013 dédiée de Lync Server avec des mises à jour cumulatives pour Lync Server 2013:2013 Edge, Director et groupes d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs de Lync, les autres méthodes d’authentification doivent être désactivées pour les autres rôles et services, notamment les suivantes :
+Les clients sont vivement encouragés à déployer l’authentification à deux facteurs à l’aide de Lync Server 2013 dédié avec des mises à jour cumulatives pour Lync Server 2013 : juillet 2013 Edge, directeur et pools d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs de Lync, les autres méthodes d’authentification doivent être désactivées pour les autres rôles et services, notamment les suivantes :
 
 
 <table>
@@ -65,32 +65,32 @@ Les clients sont fortement invités à déployer l’authentification à deux fa
 <tr class="header">
 <th>Type de configuration</th>
 <th>Type de service</th>
-<th>Rôle serveur</th>
+<th>Server Role</th>
 <th>Type d’authentification à désactiver</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Service web</p></td>
+<td><p>Service Web</p></td>
 <td><p>WebServer</p></td>
-<td><p>Directeur</p></td>
-<td><p>Kerberos, NTLM et par certificat</p></td>
+<td><p>48000b</p></td>
+<td><p>Kerberos, NTLM et certificat</p></td>
 </tr>
 <tr class="even">
-<td><p>Service web</p></td>
+<td><p>Service Web</p></td>
 <td><p>WebServer</p></td>
 <td><p>Serveur frontal</p></td>
-<td><p>Kerberos, NTLM et par certificat</p></td>
+<td><p>Kerberos, NTLM et certificat</p></td>
 </tr>
 <tr class="odd">
-<td><p>Proxy</p></td>
+<td><p>Établir</p></td>
 <td><p>EdgeServer</p></td>
 <td><p>Edge</p></td>
 <td><p>Kerberos et NTLM</p></td>
 </tr>
 <tr class="even">
-<td><p>Proxy</p></td>
-<td><p>Serveur d’inscriptions avancé</p></td>
+<td><p>Établir</p></td>
+<td><p>Inscriptions</p></td>
 <td><p>Serveur frontal</p></td>
 <td><p>Kerberos et NTLM</p></td>
 </tr>
@@ -98,7 +98,7 @@ Les clients sont fortement invités à déployer l’authentification à deux fa
 </table>
 
 
-Si ces types d’authentifications ne sont pas désactivés au niveau du service, toutes les autres versions du client Lync ne seront pas en mesure de se connecter une fois que l’authentification à deux facteurs est activée dans le cadre de votre déploiement.
+À moins que ces types d’authentification soient désactivés au niveau du service, toutes les autres versions du client Lync ne pourront pas se connecter une fois que l’authentification à deux facteurs est activée dans dans votre déploiement.
 
 </div>
 
@@ -106,7 +106,7 @@ Si ces types d’authentifications ne sont pas désactivés au niveau du service
 
 ## <a name="lync-service-discovery"></a>Découverte de service Lync
 
-Les enregistrements DNS utilisés par les clients internes et/ou externes pour détecter les services Lync doivent être configurés pour une résolution sur un serveur Lync qui n’est pas activé pour l’authentification à deux facteurs. Dans cette configuration, les utilisateurs de pools Lync qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas obligés d’entrer un code confidentiel pour s’authentifier, alors que les utilisateurs de pools Lync qui sont activés pour l’authentification à deux facteurs seront obligés d’entrer leur code confidentiel Authenticate.
+Les enregistrements DNS utilisés par les clients internes et/ou externes pour découvrir Lync services doivent être configurés pour être résolus en Lync Server qui n’est pas activé pour l’authentification à deux facteurs. Avec cette configuration, les utilisateurs des pools Lync qui ne sont pas activés pour l’authentification à deux facteurs ne seront pas tenus d’entrer un code confidentiel à authentifier, tandis que les utilisateurs des pools Lync qui sont activés pour l’authentification à deux facteurs doivent entrer leur code confidentiel pour identifiés.
 
 </div>
 
@@ -114,7 +114,7 @@ Les enregistrements DNS utilisés par les clients internes et/ou externes pour d
 
 ## <a name="exchange-authentication"></a>Authentification Exchange
 
-Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent constater que certaines fonctionnalités du client Lync ne sont pas disponibles. Cette fonctionnalité est actuellement à l’étude, car le client Lync ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de l’intégration Exchange.
+Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent constater que certaines fonctionnalités du client Lync ne sont pas disponibles. Cette fonctionnalité est actuellement conçue par défaut, car le client Lync ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de l’intégration d’Exchange.
 
 </div>
 
@@ -122,9 +122,9 @@ Les clients qui ont déployé l’authentification à deux facteurs pour Microso
 
 ## <a name="lync-contacts"></a>Contacts Lync
 
-Les utilisateurs de Lync qui sont configurés pour utiliser la fonctionnalité de magasin de contacts unifiée pourront constater que leurs contacts ne sont plus disponibles une fois que vous êtes connecté à l’aide de l’authentification à deux facteurs.
+Les utilisateurs de Lync configurés pour tirer parti de la fonctionnalité de magasin de contacts unifié constateront que leurs contacts ne sont plus disponibles après la connexion à l’aide de l’authentification à deux facteurs.
 
-Pour activer l’authentification à deux facteurs, vous devez utiliser l’applet de passe **Invoke-CsUcsRollback** pour supprimer les contacts des utilisateurs existants du magasin de contacts unifié et les stocker dans Lync Server 2013.
+Vous devez utiliser l’applet de commande **Invoke-CsUcsRollback** pour supprimer les contacts utilisateur existants du magasin de contacts unifié et les stocker dans Lync Server 2013 avant d’activer l’authentification à deux facteurs.
 
 </div>
 
@@ -132,7 +132,7 @@ Pour activer l’authentification à deux facteurs, vous devez utiliser l’appl
 
 ## <a name="skill-search"></a>Recherche de compétences
 
-Les clients qui ont configuré la fonction de recherche de compétences dans leur environnement Lync constateront que cette fonctionnalité ne fonctionne pas lorsque Lync est activé pour l’authentification à deux facteurs. Ce comportement est normal, car Microsoft SharePoint ne prend pas en charge l’authentification à deux facteurs pour le moment.
+Les clients qui ont configuré la fonctionnalité de recherche de compétences dans leur environnement Lync constateront que cette fonctionnalité ne fonctionne pas lorsque Lync est activé pour l’authentification à deux facteurs. C’est par conception, car Microsoft SharePoint ne prend actuellement pas en charge l’authentification à deux facteurs.
 
 </div>
 
@@ -140,13 +140,13 @@ Les clients qui ont configuré la fonction de recherche de compétences dans leu
 
 ## <a name="lync-credentials"></a>Informations d’identification Lync
 
-Il existe un certain nombre de considérations de déploiement impliquant des informations d’identification Lync enregistrées qui peuvent avoir un impact sur les utilisateurs qui sont configurés pour utiliser l’authentification à deux facteurs.
+Il existe un certain nombre de considérations relatives au déploiement impliquant des informations d’identification Lync enregistrées susceptibles d’avoir un impact sur les utilisateurs configurés pour utiliser l’authentification à deux facteurs.
 
 <div>
 
 ## <a name="deleting-saved-credentials"></a>Suppression des informations d’identification enregistrées
 
-Les utilisateurs du client de bureau doivent utiliser l’option **Supprimer mes informations de connexion** dans le client Lync et supprimer leur dossier de profil SIP de\\%\\LocalAppData\\%\\Microsoft Office 15,0 Lync avant d’essayer de vous connecter pour la première fois à l’aide de l’authentification à deux facteurs.
+Les utilisateurs des clients de bureau doivent utiliser l’option de **Suppression de mes informations de connexion** dans le client Lync et supprimer leur dossier de profil\\SIP\\de\\%\\LocalAppData% Microsoft Office 15,0 Lync avant de tenter de signer pour la première fois à l’aide de l’authentification à deux facteurs.
 
 </div>
 
@@ -154,13 +154,13 @@ Les utilisateurs du client de bureau doivent utiliser l’option **Supprimer mes
 
 ## <a name="disablentcredentials"></a>DisableNTCredentials
 
-Lorsque la méthode d’authentification Kerberos ou NTLM est utilisée, les informations d’identification Windows de l’utilisateur sont utilisées automatiquement pour l’authentification. Dans le cas d’un déploiement standard de Lync Server 2013 sur lequel Kerberos et/ou NTLM est activé pour l’authentification, l’utilisateur ne doit pas entrer ses informations d’identification chaque fois qu’il se connecte.
+Avec la méthode d’authentification Kerberos ou NTLM, les informations d’identification Windows de l’utilisateur sont utilisées automatiquement pour l’authentification. Dans un déploiement standard de Lync Server 2013 où Kerberos et/ou NTLM sont activés pour l’authentification, les utilisateurs ne doivent pas nécessairement entrer leurs informations d’identification chaque fois qu’ils se connectent.
 
-Si les utilisateurs sont invités à entrer leurs informations d’identification avant leur code confidentiel, la clé de Registre **DisableNTCredentials** est peut être configurée involontairement sur les ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
+Si les utilisateurs sont involontairement invités à fournir des informations d’identification avant qu’ils ne soient invités à entrer leur code confidentiel, la clé de Registre **DisableNTCredentials** peut être involontairement configurée sur des ordinateurs clients, éventuellement par le biais de la stratégie de groupe.
 
-Pour empêcher l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe :
+Pour empêcher l’invite supplémentaire pour les informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
 
-HKEY\_stratégies\_\\\\\\logicielles\\locales Microsoft Office 15,0\\\\
+HKEY\_stratégies\_\\logicielles\\de l'\\ordinateur\\\\local\\Microsoft Office 15,0 Lync
 
 REG\_DWORD : DisableNTCredentials
 
@@ -172,11 +172,11 @@ Valeur : 0x0
 
 ## <a name="savepassword"></a>SavePassword
 
-Lorsqu’un utilisateur se connecte à Lync pour la première fois, l’utilisateur est invité à enregistrer son mot de passe. Lorsqu’elle est sélectionnée, cette option permet le stockage du certificat client de l’utilisateur dans le magasin de certificats personnel et des informations d’identification Windows de l’utilisateur dans le Gestionnaire d’informations d’identification de l’ordinateur local.
+Lorsqu’un utilisateur se connecte à Lync pour la première fois, il est invité à enregistrer son mot de passe. Si cette option est sélectionnée, le certificat client de l’utilisateur est stocké dans le magasin de certificats personnel et les informations d’identification Windows de l’utilisateur sont stockées dans le gestionnaire d’informations d’identification de l’ordinateur local.
 
-Le paramètre de Registre **SavePassword** doit être désactivé lorsque Lync est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs pour un pool donné à l’aide d’une stratégie de groupe :
+Le paramètre de Registre **SavePassword** doit être désactivé lorsque Lync est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leurs mots de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Lync pour appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
 
-HKEY\_logiciel\_\\utilisateur\\actuel Microsoft\\Office\\15,0\\Lync
+HKEY\_Current\_USER\\Software\\Microsoft\\Office\\15,0\\Lync
 
 REG\_DWORD : SavePassword
 
@@ -188,11 +188,11 @@ Valeur : 0x0
 
 <div>
 
-## <a name="ad-fs-20-token-replay"></a>Relecture des jetons d’AD FS 2.0
+## <a name="ad-fs-20-token-replay"></a>Relecture des jetons AD FS 2,0
 
-La fonctionnalité d’AD FS 2.0 de détection de relecture des jetons détecte et rejette les demandes de jeton multiples effectuées à l’aide d’un même jeton. Lorsqu’elle est activée, elle protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vérifiant que le même jeton n’est pas utilisé plusieurs fois.
+AD FS 2,0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis rejetées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil WebSSO SAML en s’assurant que le même jeton n’est jamais utilisé plusieurs fois.
 
-Cette fonctionnalité doit être activée dans les cas dans lesquels la sécurité constitue un aspect essentiel, par exemple, dans le cadre de l’utilisation des kiosques. Pour plus d’informations sur la détection de relecture de jeton, voir recommandations en matière de planification et de déploiement [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)sécurisés d’AD FS 2,0 à l’adresse.
+Cette fonctionnalité doit être activée dans les situations où la sécurité est une préoccupation majeure, par exemple lors de l’utilisation de kiosques. Pour plus d’informations sur la détection de relecture de jetons, voir Best Practices for Secure Planning and [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)Deployment of AD FS 2,0 à l’adresse.
 
 </div>
 
@@ -200,7 +200,7 @@ Cette fonctionnalité doit être activée dans les cas dans lesquels la sécurit
 
 ## <a name="external-user-access"></a>Accès des utilisateurs externes
 
-La configuration d’un proxy AD FS ou d’un proxy inverse pour prendre en charge l’authentification à deux facteurs de Lync à partir de réseaux externes n’est pas décrite dans les rubriques suivantes.
+La configuration d’un proxy AD FS ou d’un proxy inverse pour prendre en charge l’authentification à deux facteurs de Lync à partir de réseaux externes n’est pas abordée dans ces rubriques.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Tableau Lync Server 2013 : PurgeSettings'
+title: 'Lync Server 2013 : table PurgeSettings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ea95d0ba54a34eaa315ff345efb45cd563700c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32522f0818b95e829bbb643dea8749e2f91d1f31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747024"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,13 +37,13 @@ ms.locfileid: "41747024"
 
 _**Dernière modification de la rubrique :** 2012-09-28_
 
-La table PurgeSettings contient des informations qui spécifient si les enregistrements de détails des appels obsolètes seront automatiquement supprimés de la base de données CDR. Notez que les informations relatives à la purge peuvent également être obtenues à partir de Microsoft Lync Server 2013 Management Shell en exécutant la commande suivante :
+La table PurgeSettings contient des informations qui indiquent si (et quand) les enregistrements des détails des appels obsolètes sont supprimés automatiquement de la base de données d’enregistrement des détails des appels. Notez que les informations relatives à la purge peuvent également être obtenues à partir de Microsoft Lync Server 2013 Management Shell en exécutant la commande suivante :
 
     Get-CsCdrConfiguration
 
-Les administrateurs doivent traiter la table PurgeSettings comme étant en lecture seule : les modifications apportées aux paramètres de purge des détails des appels doivent uniquement être effectuées à l’aide des applets [de nouvelle-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) ou [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
+Les administrateurs doivent traiter la table PurgeSettings comme étant en lecture seule : les modifications apportées aux paramètres de purge des détails de l’appel doivent être effectuées uniquement à l’aide des cmdlets [New-applet cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) ou [Set-applet cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
 
-Ce tableau a été présenté dans Microsoft Lync Server 2013.
+Cette table a été introduite dans Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,40 +57,40 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 <tr class="header">
 <th>Colonne</th>
 <th>Type de données</th>
-<th>Clé/Index</th>
+<th>Clé/index</th>
 <th>Détails</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ID</strong></p></td>
+<td><p><strong>Id</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Identificateur unique de la collection de paramètres de purge de CDR.</p></td>
+<td><p>Primaire</p></td>
+<td><p>Identificateur unique de la collection des paramètres de suppression des enregistrements des détails des appels.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
-<td><p>bit</p></td>
+<td><p>légèrement</p></td>
 <td></td>
-<td><p>Lorsque cette propriété est définie sur true (1) Microsoft Lync Server 2013 supprime périodiquement les enregistrements obsolètes de la base de données CDR. La purge doit avoir lieu tous les jours sur le tome indiqué par le paramètre PurgeHour. Si elle a la valeur false (0), les enregistrements ne seront pas automatiquement supprimés de la base de données. La valeur par défaut est « True ».</p></td>
+<td><p>Lorsque ce paramètre est défini sur true (1), Microsoft Lync Server 2013 purge régulièrement les enregistrements obsolètes de la base de données CDR. LA suppression a lieu tous les jours à l’heure indiquée par le paramètre PurgeHour. Si la valeur est False (0), les enregistrements ne sont pas supprimés automatiquement de la base de données. La valeur par défaut est True.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Spécifie l’âge des enregistrements CDR (en jours) qui seront supprimés de la base de données : si la suppression définitive est activée, les enregistrements CDR antérieurs à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.</p></td>
+<td><p>Indique l’âge des enregistrements des détails des appels (en jours) qui seront supprimés de la base de données : si la suppression est activée, les enregistrements des détails des appels dont l’antériorité est supérieure à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Spécifie l’âge des enregistrements de rapport d’erreur (en jours) qui seront supprimés de la base de données : si la purge est activée, les enregistrements de rapport d’erreur antérieurs à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.</p></td>
+<td><p>Indique l’âge des enregistrements de rapport d’erreurs (en jours) qui seront supprimés de la base de données : si la suppression est activée, les enregistrements de rapport d’erreurs dont l’antériorité est supérieure à cette valeur seront supprimés de la base de données. La valeur par défaut est 60 jours.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Spécifie l’heure locale du jour où le vidage de la base de données doit avoir lieu. L’heure de la journée est spécifiée à l’aide de l’horloge 24 heures, avec 0 qui représente minuit (24 h) et 23 qui représente 23 h. Notez que vous pouvez seulement spécifier l’heure du jour : une valeur de 10 (indiquant 10:00 AM) est autorisée, mais une valeur de 10:30 de 10,5 (indiquant 10:30 AM) n’est pas autorisée. La valeur par défaut est 2 (2:00 AM).</p></td>
+<td><p>Indique l’heure locale de la journée à laquelle la suppression de la base de données a lieu. L’heure de la journée est spécifiée à l’aide de l’horloge 24 heures, avec 0 qui représente minuit (00h00) et 23 qui représente 23h00. Notez que vous ne pouvez spécifier que l’heure de la journée : la valeur 10 (indiquant 10h00) est autorisée, mais la valeur 10,5 (indiquant 10h30) est interdite. La valeur par défaut est 2 (02h00).</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition de la configuration requise pour l’infrastructure'
+title: 'Lync Server 2013 : détermination de la configuration requise pour votre infrastructure'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762462"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Définition de la configuration requise pour l’infrastructure pour Lync Server 2013
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Détermination de la configuration requise pour votre infrastructure pour Lync Server 2013
 
 </div>
 
@@ -37,7 +37,7 @@ ms.locfileid: "41762462"
 
 _**Dernière modification de la rubrique :** 2012-09-10_
 
-Vous devez identifier et comprendre les exigences d’infrastructure requises pour votre déploiement, de sorte que vous puissiez planifier la configuration requise de Lync Server.
+Vous devez identifier et comprendre les exigences en matière d’infrastructure pour votre déploiement, de sorte que vous puissiez planifier la façon de répondre à ces exigences avant de déployer Lync Server.
 
 <div>
 
@@ -45,9 +45,9 @@ Vous devez identifier et comprendre les exigences d’infrastructure requises po
 
   - [Détermination de la configuration système requise pour Lync Server 2013](lync-server-2013-determining-your-system-requirements.md)
 
-  - [Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [Configuration requise pour les infrastructures de certificat pour Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [Configuration requise pour l’infrastructure de certificat pour Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
 
   - [Configuration requise pour les services Internet (IIS) dans Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md)
 

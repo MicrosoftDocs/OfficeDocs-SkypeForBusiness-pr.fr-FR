@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Sélection du serveur de gestion centralisée'
+title: 'Lync Server 2013 : sélectionnez le serveur de gestion centralisée'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732474"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="select-the-central-management-server-in-lync-server-2013"></a>Sélection du serveur de gestion centralisée dans Lync Server 2013
+# <a name="select-the-central-management-server-in-lync-server-2013"></a>Sélectionnez le serveur de gestion centralisée dans Lync Server 2013
 
 </div>
 
@@ -37,13 +37,13 @@ ms.locfileid: "41732474"
 
 _**Dernière modification de la rubrique :** 2012-01-02_
 
-Pour pouvoir définir et configurer votre topologie, vous devez d’abord définir l’emplacement d’installation du serveur de gestion central.
+Avant de définir et de configurer votre topologie, vous devez d’abord définir l’emplacement d’installation du serveur de gestion centralisée.
 
 <div>
 
 
 > [!NOTE]  
-> Cela ne prend effet qu’après que vous avez publié une topologie dans le générateur de topologie. Pour définir le serveur de gestion central avant la création et la publication de la topologie, exécutez <STRONG>Set-CSConfigurationStoreLocation</STRONG>.
+> Cela ne prendra pas effet tant que vous n’aurez pas publié une topologie dans le générateur de topologies. Pour définir le serveur de gestion centralisée avant la création et la publication de la topologie, exécutez <STRONG>Set-CSConfigurationStoreLocation</STRONG>.
 
 
 
@@ -51,13 +51,13 @@ Pour pouvoir définir et configurer votre topologie, vous devez d’abord défin
 
 <div>
 
-## <a name="to-select-the-central-management-server"></a>Pour sélectionner le serveur de gestion central
+## <a name="to-select-the-central-management-server"></a>Pour sélectionner le serveur de gestion centralisée
 
-1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrez le Générateur de topologie : cliquez sur **Démarrer **, **Tous les programmes **, **Microsoft Lync Server 2013 **, puis sur **Générateur de topologie Lync Server**.
 
 2.  Cliquez avec le bouton droit sur le nœud Lync Server 2013, puis cliquez sur **modifier les propriétés**.
 
-3.  Dans le volet serveur de gestion central, sélectionnez le serveur frontal sur lequel installer le serveur de gestion centrale, puis cliquez sur **OK**.
+3.  Dans le volet serveur de gestion centralisée, sélectionnez le serveur frontal sur lequel installer le serveur de gestion centralisée, puis cliquez sur **OK**.
 
 </div>
 

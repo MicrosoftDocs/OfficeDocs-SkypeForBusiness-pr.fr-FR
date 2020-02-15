@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de la mobilité'
+title: 'Lync Server 2013 : déploiement de la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f70b94d5a529a3fce46ac2b199e079f6be1e5bd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -37,11 +37,11 @@ ms.locfileid: "41740944"
 
 _**Dernière modification de la rubrique :** 2012-09-08_
 
-Lorsque vous déployez la fonctionnalité de mobilité de Lync Server 2013, les utilisateurs mobiles peuvent utiliser les appareils mobiles pris en charge pour les fonctionnalités Lync telles que la messagerie instantanée, la présence et les contacts.
+Lorsque vous déployez la fonctionnalité de mobilité Lync Server 2013, les utilisateurs mobiles peuvent utiliser des appareils mobiles pris en charge pour la fonctionnalité de Lync, tels que la messagerie instantanée, la présence et les contacts.
 
-Pour plus d’informations sur la configuration requise pour le déploiement de la fonctionnalité de mobilité, voir [planification de la mobilité dans Lync Server 2013](lync-server-2013-planning-for-mobility.md).
+Pour plus d’informations sur les conditions requises pour le déploiement de la fonctionnalité de mobilité, voir [planification de la mobilité dans Lync Server 2013](lync-server-2013-planning-for-mobility.md).
 
-Cette section vous guide tout au long de la procédure de déploiement et de vérification des fonctionnalités de mobilité et de découverte automatique.
+Cette section vous guide durant les étapes de déploiement et de vérification des fonctionnalités de mobilité et de découverte automatique.
 
 <div>
 
@@ -53,11 +53,11 @@ Cette section vous guide tout au long de la procédure de déploiement et de vé
 
   - [Configuration du proxy inverse pour la mobilité dans Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [Configuration de la découverte automatique dans Lync Server 2013 pour la mobilité avec les déploiements hybrides](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [Configuration de la découverte automatique dans Lync Server 2013 pour la mobilité avec des déploiements hybrides](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [Vérification du déploiement de mobilité dans Lync Server 2013](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [Vérification de votre déploiement de mobilité dans Lync Server 2013](lync-server-2013-verifying-your-mobility-deployment.md)
 
-  - [Configuration des notifications push dans Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+  - [Configuration des notifications de type transmission dans Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
 
   - [Configuration de la stratégie de mobilité dans Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
 
