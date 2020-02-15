@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : applets de applet de contournement multimédia'
+title: 'Lync Server 2013 : applets de commande de contournement de média'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761960"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b48c9-102">Cmdlets de contournement multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b48c9-102">Media bypass cmdlets in Lync Server 2013</span></span>
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a><span data-ttu-id="85dfa-102">Applets de commande de déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85dfa-102">Media bypass cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41761960"
 
 <span> </span>
 
-<span data-ttu-id="b48c9-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="b48c9-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="85dfa-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="85dfa-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="b48c9-104">La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="b48c9-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
+<span data-ttu-id="85dfa-104">Le contournement de média fait référence à la suppression du serveur de médiation du chemin d’accès des médias, dans la mesure du possible, pour les appels dont la signalisation traverse le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="85dfa-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a><span data-ttu-id="b48c9-105">Cmdlets de contournement multimédia</span><span class="sxs-lookup"><span data-stu-id="b48c9-105">Media Bypass Cmdlets</span></span>
+## <a name="media-bypass-cmdlets"></a><span data-ttu-id="85dfa-105">Applets de commande du contournement de média</span><span class="sxs-lookup"><span data-stu-id="85dfa-105">Media Bypass Cmdlets</span></span>
 
-<span data-ttu-id="b48c9-106">Utilisez les applets de commande suivantes pour configurer la dérivation multimédia.</span><span class="sxs-lookup"><span data-stu-id="b48c9-106">Use the following cmdlets to configure media bypass.</span></span>
+<span data-ttu-id="85dfa-106">Utilisez les applets de commande suivantes pour configurer le contournement de média.</span><span class="sxs-lookup"><span data-stu-id="85dfa-106">Use the following cmdlets to configure media bypass.</span></span>
 
-<span data-ttu-id="b48c9-107">**Contournement de média**</span><span class="sxs-lookup"><span data-stu-id="b48c9-107">**Media Bypass**</span></span>
+<span data-ttu-id="85dfa-107">**Contournement de média**</span><span class="sxs-lookup"><span data-stu-id="85dfa-107">**Media Bypass**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b48c9-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b48c9-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))</span></span>
+    <span data-ttu-id="85dfa-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="85dfa-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b48c9-109">[Get-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b48c9-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))</span></span>
+    <span data-ttu-id="85dfa-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="85dfa-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b48c9-110">[Remove-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b48c9-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))</span></span>
+    <span data-ttu-id="85dfa-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="85dfa-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b48c9-111">[Set-Csnetworkconfiguration permettent](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b48c9-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))</span></span>
+    <span data-ttu-id="85dfa-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="85dfa-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b48c9-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b48c9-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85dfa-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="85dfa-112">See Also</span></span>
 
 
-[<span data-ttu-id="b48c9-113">Planification de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b48c9-113">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
-[<span data-ttu-id="b48c9-114">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="b48c9-114">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="85dfa-113">Planification de la déviation du trafic multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85dfa-113">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="85dfa-114">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="85dfa-114">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

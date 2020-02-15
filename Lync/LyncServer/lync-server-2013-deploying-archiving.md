@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Déploiement de l’archivage'
+title: 'Lync Server 2013 : déploiement de l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86b1394df9bb52502e1e0c605bedb05a0579042e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436870bd932a0cf92168555d298bf81aff1de667
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-archiving-in-lync-server-2013"></a><span data-ttu-id="684eb-102">Déploiement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="684eb-102">Deploying Archiving in Lync Server 2013</span></span>
+# <a name="deploying-archiving-in-lync-server-2013"></a><span data-ttu-id="de91a-102">Déploiement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de91a-102">Deploying Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41729593"
 
 <span> </span>
 
-<span data-ttu-id="684eb-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="684eb-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="de91a-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="de91a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="684eb-104">Lync Server 2013 fournit une solution pour l’archivage de contenu de messagerie instantanée et de communications de conférence dans Lync Server.</span><span class="sxs-lookup"><span data-stu-id="684eb-104">Lync Server 2013 provides a solution for archiving instant messaging (IM) content and conferencing communications in Lync Server.</span></span> <span data-ttu-id="684eb-105">Pour mettre en œuvre la prise en charge de l’archivage, il est possible d’intégrer la prise en charge de l’archivage au stockage Exchange 2013, en utilisant les bases de données SQL Server pour le stockage des données d’archivage de Lync Server 2013, ou à l’aide de Lync Server 2013 et du stockage 2013 Exchange</span><span class="sxs-lookup"><span data-stu-id="684eb-105">You can implement archiving support by integrating archiving storage with Exchange 2013 storage, by using SQL Server databases for storage of Lync Server 2013 archiving data, or by using both Lync Server 2013 and Exchange 2013 storage.</span></span> <span data-ttu-id="684eb-106">Vous contrôlez le mode d’archivage des données à l’aide de stratégies et de configurations d’archivage.</span><span class="sxs-lookup"><span data-stu-id="684eb-106">You control how data is archived using policies and archiving configurations.</span></span> <span data-ttu-id="684eb-107">Pour plus d’informations, reportez-vous à la rubrique [planification de l’archivage dans Lync server 2013](lync-server-2013-planning-for-archiving.md) dans la documentation de planification et fonctionnement de l' [archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.</span><span class="sxs-lookup"><span data-stu-id="684eb-107">For details, see [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) in the Planning documentation and [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="de91a-104">Lync Server 2013 fournit une solution pour l’archivage du contenu de messagerie instantanée et des communications de conférence dans Lync Server.</span><span class="sxs-lookup"><span data-stu-id="de91a-104">Lync Server 2013 provides a solution for archiving instant messaging (IM) content and conferencing communications in Lync Server.</span></span> <span data-ttu-id="de91a-105">Vous pouvez implémenter la prise en charge de l’archivage en intégrant le stockage d’archivage avec le stockage Exchange 2013, en utilisant les bases de données SQL Server pour le stockage des données d’archivage Lync Server 2013 ou en utilisant Lync Server 2013 et Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="de91a-105">You can implement archiving support by integrating archiving storage with Exchange 2013 storage, by using SQL Server databases for storage of Lync Server 2013 archiving data, or by using both Lync Server 2013 and Exchange 2013 storage.</span></span> <span data-ttu-id="de91a-106">Le contrôle de l’archivage des données s’effectue à l’aide de stratégies et de configurations d’archivage.</span><span class="sxs-lookup"><span data-stu-id="de91a-106">You control how data is archived using policies and archiving configurations.</span></span> <span data-ttu-id="de91a-107">Pour plus d’informations, reportez-vous à la rubrique [planification de l’archivage dans Lync server 2013](lync-server-2013-planning-for-archiving.md) dans la documentation de planification et fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou la documentation des opérations.</span><span class="sxs-lookup"><span data-stu-id="de91a-107">For details, see [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) in the Planning documentation and [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
-<span data-ttu-id="684eb-108">Vous pouvez utiliser les informations de cette section pour configurer et configurer l’archivage au départ.</span><span class="sxs-lookup"><span data-stu-id="684eb-108">You can use the information in this section to set up and configure Archiving initially.</span></span> <span data-ttu-id="684eb-109">Après le déploiement, vous pouvez modifier les paramètres d’archivage.</span><span class="sxs-lookup"><span data-stu-id="684eb-109">After deployment, you can change Archiving settings.</span></span> <span data-ttu-id="684eb-110">Pour plus d’informations sur l’implémentation de la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre à de nouvelles exigences au sein de votre organisation, reportez-vous à la rubrique gestion de l' [archivage Lync Server 2013](lync-server-2013-managing-archiving.md) dans la documentation sur les opérations.</span><span class="sxs-lookup"><span data-stu-id="684eb-110">For details about how you implement archiving support for day-to-day management or to meet new requirements in your organization, see [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) in the Operations documentation.</span></span>
+<span data-ttu-id="de91a-108">Vous pouvez utiliser les informations de cette section pour procéder à la configuration initiale de l’archivage.</span><span class="sxs-lookup"><span data-stu-id="de91a-108">You can use the information in this section to set up and configure Archiving initially.</span></span> <span data-ttu-id="de91a-109">Après le déploiement, vous pouvez modifier les paramètres d’archivage.</span><span class="sxs-lookup"><span data-stu-id="de91a-109">After deployment, you can change Archiving settings.</span></span> <span data-ttu-id="de91a-110">Pour plus d’informations sur la façon dont vous implémentez la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre à de nouvelles exigences au sein de votre organisation, voir [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) dans la documentation des opérations.</span><span class="sxs-lookup"><span data-stu-id="de91a-110">For details about how you implement archiving support for day-to-day management or to meet new requirements in your organization, see [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) in the Operations documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="684eb-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="684eb-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="de91a-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="de91a-111">In This Section</span></span>
 
-  - [<span data-ttu-id="684eb-112">Fonctionnement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="684eb-112">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
+  - [<span data-ttu-id="de91a-112">Fonctionnement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de91a-112">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
 
-  - [<span data-ttu-id="684eb-113">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="684eb-113">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [<span data-ttu-id="de91a-113">Liste de vérification du déploiement pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de91a-113">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
 
-  - [<span data-ttu-id="684eb-114">Configuration de systèmes et d’infrastructure pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="684eb-114">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
+  - [<span data-ttu-id="de91a-114">Configuration des systèmes et de l’infrastructure pour l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de91a-114">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
 
-  - [<span data-ttu-id="684eb-115">Ajouter des bases de données d’archivage à un déploiement de Lync Server 2013 existant</span><span class="sxs-lookup"><span data-stu-id="684eb-115">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
+  - [<span data-ttu-id="de91a-115">Ajout de bases de données d’archivage à un déploiement Lync Server 2013 existant</span><span class="sxs-lookup"><span data-stu-id="de91a-115">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
 
-  - [<span data-ttu-id="684eb-116">Configuration de la prise en charge de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="684eb-116">Configuring support for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-archiving.md)
+  - [<span data-ttu-id="de91a-116">Configuration de la prise en charge de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de91a-116">Configuring support for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-archiving.md)
 
 </div>
 

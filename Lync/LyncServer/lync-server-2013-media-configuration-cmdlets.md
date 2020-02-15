@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : applets de configuration de média'
+title: 'Lync Server 2013 : applets de commande de configuration multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676730eac8ec6959d10ad2dd039f2aa124a0a65
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcf2a65fdb435057c9e6e436ed35502a0c63da5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761940"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="ee160-102">Applets de configuration de média dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ee160-102">Media configuration cmdlets in Lync Server 2013</span></span>
+# <a name="media-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="69acd-102">Applets de commande de configuration multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="69acd-102">Media configuration cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41761940"
 
 <span> </span>
 
-<span data-ttu-id="ee160-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="ee160-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="69acd-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="69acd-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="ee160-104">Les applets de passe relatifs à la configuration de média vous permettent de spécifier des éléments tels que le niveau de cryptage pris en charge et la résolution vidéo maximale autorisée.</span><span class="sxs-lookup"><span data-stu-id="ee160-104">Cmdlets relating to media configuration allow you to specify such things as the supported level of encryption and the maximum allowed video resolution.</span></span>
+<span data-ttu-id="69acd-104">Les applets de commande de configuration multimédia permettent de spécifier des éléments comme le niveau de chiffrement pris en charge et la résolution vidéo maximale autorisée.</span><span class="sxs-lookup"><span data-stu-id="69acd-104">Cmdlets relating to media configuration allow you to specify such things as the supported level of encryption and the maximum allowed video resolution.</span></span>
 
 <div>
 
-## <a name="media-configuration-cmdlets"></a><span data-ttu-id="ee160-105">Applets de configuration de média</span><span class="sxs-lookup"><span data-stu-id="ee160-105">Media Configuration Cmdlets</span></span>
+## <a name="media-configuration-cmdlets"></a><span data-ttu-id="69acd-105">Applets de commande de configuration multimédia</span><span class="sxs-lookup"><span data-stu-id="69acd-105">Media Configuration Cmdlets</span></span>
 
-<span data-ttu-id="ee160-106">Utilisez les applets de commande suivantes pour la configuration de média.</span><span class="sxs-lookup"><span data-stu-id="ee160-106">Use the following cmdlets for media configuration.</span></span>
+<span data-ttu-id="69acd-106">Les applets de commande suivantes permettent de procéder à la configuration multimédia.</span><span class="sxs-lookup"><span data-stu-id="69acd-106">Use the following cmdlets for media configuration.</span></span>
 
-<span data-ttu-id="ee160-107">**Configuration de média**</span><span class="sxs-lookup"><span data-stu-id="ee160-107">**Media Configuration**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="ee160-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ee160-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))</span></span>
+<span data-ttu-id="69acd-107">**Configuration multimédia**</span><span class="sxs-lookup"><span data-stu-id="69acd-107">**Media Configuration**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ee160-109">[Nouveau-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ee160-109">[New-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))</span></span>
+    <span data-ttu-id="69acd-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69acd-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ee160-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ee160-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))</span></span>
+    <span data-ttu-id="69acd-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69acd-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ee160-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ee160-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))</span></span>
+    <span data-ttu-id="69acd-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69acd-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="69acd-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="69acd-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ee160-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ee160-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="69acd-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="69acd-112">See Also</span></span>
 
 
-[<span data-ttu-id="ee160-113">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="ee160-113">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="69acd-113">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="69acd-113">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

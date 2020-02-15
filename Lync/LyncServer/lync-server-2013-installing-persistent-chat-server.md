@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Installation du serveur de conversation permanente'
+title: 'Lync Server 2013 : installation du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bca2a47c65b4654ffdc94eeab2ef3dc3924e92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28c1a068df21883a80e447d3407e023f3eb7de9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="244ad-102">Installation du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="244ad-102">Installing Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="installing-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="8f60b-102">Installation du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f60b-102">Installing Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726014"
 
 <span> </span>
 
-<span data-ttu-id="244ad-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="244ad-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="8f60b-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="8f60b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="244ad-104">L’installation d’un serveur de chat permanent est intégrée à la configuration de Lync Server 2013 et utilise le programme d’amorçage que Lync Server 2013 utilise pour l’installation.</span><span class="sxs-lookup"><span data-stu-id="244ad-104">Installing Persistent Chat Server is integrated into Lync Server 2013 setup and uses the same Bootstrapper that Lync Server 2013 uses for installation.</span></span> <span data-ttu-id="244ad-105">Pour obtenir des instructions sur l’installation, voir [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="244ad-105">For installation instructions, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="8f60b-104">L’installation du serveur de conversation permanente est intégrée à la configuration de Lync Server 2013 et utilise le même programme d’amorçage que Lync Server 2013 pour l’installation.</span><span class="sxs-lookup"><span data-stu-id="8f60b-104">Installing Persistent Chat Server is integrated into Lync Server 2013 setup and uses the same Bootstrapper that Lync Server 2013 uses for installation.</span></span> <span data-ttu-id="8f60b-105">Pour obtenir des instructions d’installation, consultez la rubrique [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="8f60b-105">For installation instructions, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
 
 </div>
 
