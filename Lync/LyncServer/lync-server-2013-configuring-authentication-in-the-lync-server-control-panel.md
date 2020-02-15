@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : configuration de l’authentification dans le panneau de configuration de Lync Server'
+title: 'Lync Server 2013 : configuration de l’authentification dans le panneau de configuration Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a><span data-ttu-id="50a61-102">Configuration de l’authentification dans le panneau de configuration de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-102">Configuring authentication in the Lync Server 2013 Control Panel</span></span>
+# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a><span data-ttu-id="92b27-102">Configuration de l’authentification dans le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-102">Configuring authentication in the Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41734839"
 
 <span> </span>
 
-<span data-ttu-id="50a61-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="50a61-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="92b27-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="92b27-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="50a61-104">Les rubriques de cette section fournissent des procédures pas à pas pour les tâches que vous pouvez effectuer à l’aide du groupe de **sécurité** dans le panneau de configuration de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="50a61-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Security** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="92b27-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide du groupe de **sécurité** dans le panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="92b27-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Security** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="50a61-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="50a61-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="92b27-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="92b27-105">In This Section</span></span>
 
-  - [<span data-ttu-id="50a61-106">Créer des paramètres de configuration du Bureau d’enregistrement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-106">Create Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-registrar-configuration-settings.md)
+  - [<span data-ttu-id="92b27-106">Créer des paramètres de configuration du serveur d’inscriptions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-106">Create Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="50a61-107">Modifier les paramètres de configuration de bureau d’enregistrement existants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-107">Modify existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [<span data-ttu-id="92b27-107">Modifier les paramètres de configuration du serveur d’inscriptions existants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-107">Modify existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="50a61-108">Supprimer les paramètres de configuration du Bureau d’enregistrement existants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-108">Delete existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [<span data-ttu-id="92b27-108">Supprimer les paramètres de configuration du serveur d’inscriptions existants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-108">Delete existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="50a61-109">Créer des paramètres de configuration de service Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-109">Create new Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-new-web-service-configuration-settings.md)
+  - [<span data-ttu-id="92b27-109">Créer des paramètres de configuration de service Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-109">Create new Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [<span data-ttu-id="50a61-110">Modifier les paramètres de configuration d’un service Web existant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-110">Modify existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [<span data-ttu-id="92b27-110">Modifier les paramètres de configuration d’un service Web existant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-110">Modify existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [<span data-ttu-id="50a61-111">Supprimer les paramètres de configuration d’un service Web existant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-111">Delete existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [<span data-ttu-id="92b27-111">Supprimer les paramètres de configuration de service Web existants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-111">Delete existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="50a61-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="50a61-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92b27-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="92b27-112">See Also</span></span>
 
 
-[<span data-ttu-id="50a61-113">Gestion des réunions et des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50a61-113">Managing meetings and conferences in Lync Server 2013</span></span>](lync-server-2013-managing-meetings-and-conferences.md)  
+[<span data-ttu-id="92b27-113">Gestion des réunions et des conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92b27-113">Managing meetings and conferences in Lync Server 2013</span></span>](lync-server-2013-managing-meetings-and-conferences.md)  
   
 
 </div>

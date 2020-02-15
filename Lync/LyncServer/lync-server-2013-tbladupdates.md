@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tblADUpdates'
+title: 'Lync Server 2013 : tblADUpdates'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb4b5b73fb74c2337eeaa6b065396253a2cb0be4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e75c8079b4093290846321340b21248b9f8882ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731514"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbladupdates-in-lync-server-2013"></a><span data-ttu-id="2038b-102">tblADUpdates dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2038b-102">tblADUpdates in Lync Server 2013</span></span>
+# <a name="tbladupdates-in-lync-server-2013"></a><span data-ttu-id="59448-102">tblADUpdates dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59448-102">tblADUpdates in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731514"
 
 <span> </span>
 
-<span data-ttu-id="2038b-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2038b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="59448-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="59448-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="2038b-104">tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les étapes ultérieures de synchronisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="2038b-104">tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.</span></span>
+<span data-ttu-id="59448-104">tblADUpdates contient les modifications des services de domaine Active Directory qui n’ont pas encore été traitées par les dernières étapes de synchronisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="59448-104">tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="2038b-105">Celles</span><span class="sxs-lookup"><span data-stu-id="2038b-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="59448-105">Columns</span><span class="sxs-lookup"><span data-stu-id="59448-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,46 +49,46 @@ ms.locfileid: "41731514"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2038b-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="2038b-106">Column</span></span></th>
-<th><span data-ttu-id="2038b-107">Type</span><span class="sxs-lookup"><span data-stu-id="2038b-107">Type</span></span></th>
-<th><span data-ttu-id="2038b-108">Description</span><span class="sxs-lookup"><span data-stu-id="2038b-108">Description</span></span></th>
+<th><span data-ttu-id="59448-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="59448-106">Column</span></span></th>
+<th><span data-ttu-id="59448-107">Type</span><span class="sxs-lookup"><span data-stu-id="59448-107">Type</span></span></th>
+<th><span data-ttu-id="59448-108">Description</span><span class="sxs-lookup"><span data-stu-id="59448-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2038b-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="2038b-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="2038b-110">GUID, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-111">GUID principal de l’objet qui a changé.</span><span class="sxs-lookup"><span data-stu-id="2038b-111">Principal GUID of the object that changed.</span></span></p></td>
+<td><p><span data-ttu-id="59448-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="59448-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="59448-110">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="59448-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-111">GUID de principal de l’objet qui a changé.</span><span class="sxs-lookup"><span data-stu-id="59448-111">Principal GUID of the object that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2038b-112">prinADPath</span><span class="sxs-lookup"><span data-stu-id="2038b-112">prinADPath</span></span></p></td>
-<td><p><span data-ttu-id="2038b-113">nvarchar (384), pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-113">nvarchar (384), not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-114">Nom unique de l’objet.</span><span class="sxs-lookup"><span data-stu-id="2038b-114">Distinguished name of the object.</span></span></p></td>
+<td><p><span data-ttu-id="59448-112">prinADPath</span><span class="sxs-lookup"><span data-stu-id="59448-112">prinADPath</span></span></p></td>
+<td><p><span data-ttu-id="59448-113">nvarchar (384), non null</span><span class="sxs-lookup"><span data-stu-id="59448-113">nvarchar (384), not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-114">Nom unique de l’objet.</span><span class="sxs-lookup"><span data-stu-id="59448-114">Distinguished name of the object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2038b-115">prinAttributesChanged</span><span class="sxs-lookup"><span data-stu-id="2038b-115">prinAttributesChanged</span></span></p></td>
-<td><p><span data-ttu-id="2038b-116">bit, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-117">Vrai si au moins un attribut de l’objet a changé.</span><span class="sxs-lookup"><span data-stu-id="2038b-117">True if at least one attribute of the object changed.</span></span></p></td>
+<td><p><span data-ttu-id="59448-115">prinAttributesChanged</span><span class="sxs-lookup"><span data-stu-id="59448-115">prinAttributesChanged</span></span></p></td>
+<td><p><span data-ttu-id="59448-116">bit, non null</span><span class="sxs-lookup"><span data-stu-id="59448-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-117">True si au moins un attribut de l’objet a changé.</span><span class="sxs-lookup"><span data-stu-id="59448-117">True if at least one attribute of the object changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2038b-118">prinMembersChanged</span><span class="sxs-lookup"><span data-stu-id="2038b-118">prinMembersChanged</span></span></p></td>
-<td><p><span data-ttu-id="2038b-119">bit, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-119">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-120">True si l’appartenance a changé.</span><span class="sxs-lookup"><span data-stu-id="2038b-120">True if the membership changed.</span></span></p></td>
+<td><p><span data-ttu-id="59448-118">prinMembersChanged</span><span class="sxs-lookup"><span data-stu-id="59448-118">prinMembersChanged</span></span></p></td>
+<td><p><span data-ttu-id="59448-119">bit, non null</span><span class="sxs-lookup"><span data-stu-id="59448-119">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-120">True si l’appartenance a changé.</span><span class="sxs-lookup"><span data-stu-id="59448-120">True if the membership changed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2038b-121">prinAffiliationsChanged</span><span class="sxs-lookup"><span data-stu-id="2038b-121">prinAffiliationsChanged</span></span></p></td>
-<td><p><span data-ttu-id="2038b-122">bit, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-122">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-123">Non utilisé.</span><span class="sxs-lookup"><span data-stu-id="2038b-123">Not used.</span></span></p></td>
+<td><p><span data-ttu-id="59448-121">prinAffiliationsChanged</span><span class="sxs-lookup"><span data-stu-id="59448-121">prinAffiliationsChanged</span></span></p></td>
+<td><p><span data-ttu-id="59448-122">bit, non null</span><span class="sxs-lookup"><span data-stu-id="59448-122">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-123">Inutilisé.</span><span class="sxs-lookup"><span data-stu-id="59448-123">Not used.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2038b-124">prinDeleted</span><span class="sxs-lookup"><span data-stu-id="2038b-124">prinDeleted</span></span></p></td>
-<td><p><span data-ttu-id="2038b-125">bit, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-125">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-126">True si l’objet a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="2038b-126">True if the object was deleted.</span></span></p></td>
+<td><p><span data-ttu-id="59448-124">prinDeleted</span><span class="sxs-lookup"><span data-stu-id="59448-124">prinDeleted</span></span></p></td>
+<td><p><span data-ttu-id="59448-125">bit, non null</span><span class="sxs-lookup"><span data-stu-id="59448-125">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-126">True si l’objet a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="59448-126">True if the object was deleted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2038b-127">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="2038b-127">lastUpdated</span></span></p></td>
-<td><p><span data-ttu-id="2038b-128">DATEHEURE, pas null</span><span class="sxs-lookup"><span data-stu-id="2038b-128">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="2038b-129">Horodatage de la date d’insertion de la ligne.</span><span class="sxs-lookup"><span data-stu-id="2038b-129">Time stamp of when the row was inserted.</span></span></p></td>
+<td><p><span data-ttu-id="59448-127">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="59448-127">lastUpdated</span></span></p></td>
+<td><p><span data-ttu-id="59448-128">datetime, non null</span><span class="sxs-lookup"><span data-stu-id="59448-128">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="59448-129">Horodatage de l’insertion de la ligne.</span><span class="sxs-lookup"><span data-stu-id="59448-129">Time stamp of when the row was inserted.</span></span></p></td>
 </tr>
 </tbody>
 </table>

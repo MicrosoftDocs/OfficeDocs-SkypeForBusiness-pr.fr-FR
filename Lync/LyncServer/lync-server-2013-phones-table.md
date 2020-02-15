@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Table !Phones'
+title: 'Lync Server 2013 : table des téléphones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="928e7-102">Table !Phones dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="928e7-102">Phones table in Lync Server 2013</span></span>
+# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="4c0c0-102">Table téléphones dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c0c0-102">Phones table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755184"
 
 <span> </span>
 
-<span data-ttu-id="928e7-103">_**Dernière modification de la rubrique :** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="928e7-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="4c0c0-103">_**Dernière modification de la rubrique :** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="4c0c0-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="928e7-104">La table Telephones est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="928e7-104">The Phones table is a supporting table.</span></span> <span data-ttu-id="928e7-105">Chaque enregistrement de la table stocke des informations sur un numéro de téléphone impliqué dans les appels VoIP qui contiennent des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="928e7-105">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
+<span data-ttu-id="4c0c0-104">La table téléphones est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="4c0c0-104">The Phones table is a supporting table.</span></span> <span data-ttu-id="4c0c0-105">Chaque enregistrement de la table stocke des informations sur un numéro de téléphone impliqué dans les appels VoIP qui ont des enregistrements dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="4c0c0-105">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
 
 
 <table>
@@ -49,31 +49,31 @@ ms.locfileid: "41755184"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="928e7-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="928e7-106">Column</span></span></th>
-<th><span data-ttu-id="928e7-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="928e7-107">Data Type</span></span></th>
-<th><span data-ttu-id="928e7-108">Clé/Index</span><span class="sxs-lookup"><span data-stu-id="928e7-108">Key/Index</span></span></th>
-<th><span data-ttu-id="928e7-109">Détails</span><span class="sxs-lookup"><span data-stu-id="928e7-109">Details</span></span></th>
+<th><span data-ttu-id="4c0c0-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="4c0c0-106">Column</span></span></th>
+<th><span data-ttu-id="4c0c0-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="4c0c0-107">Data Type</span></span></th>
+<th><span data-ttu-id="4c0c0-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="4c0c0-108">Key/Index</span></span></th>
+<th><span data-ttu-id="4c0c0-109">Détails</span><span class="sxs-lookup"><span data-stu-id="4c0c0-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="928e7-110"><strong>PhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="928e7-110"><strong>PhoneId</strong></span></span></p></td>
-<td><p><span data-ttu-id="928e7-111">int</span><span class="sxs-lookup"><span data-stu-id="928e7-111">int</span></span></p></td>
-<td><p><span data-ttu-id="928e7-112">Principal</span><span class="sxs-lookup"><span data-stu-id="928e7-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="928e7-113">Numéro unique identifiant ce téléphone.</span><span class="sxs-lookup"><span data-stu-id="928e7-113">Unique number identifying this phone.</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-110"><strong>PhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="4c0c0-110"><strong>PhoneId</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-111">int</span><span class="sxs-lookup"><span data-stu-id="4c0c0-111">int</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="4c0c0-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-113">Numéro unique identifiant ce téléphone.</span><span class="sxs-lookup"><span data-stu-id="4c0c0-113">Unique number identifying this phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="928e7-114"><strong>PhoneUri</strong></span><span class="sxs-lookup"><span data-stu-id="928e7-114"><strong>PhoneUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="928e7-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="928e7-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-114"><strong>PhoneUri</strong></span><span class="sxs-lookup"><span data-stu-id="4c0c0-114"><strong>PhoneUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="4c0c0-115">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="928e7-116">Numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="928e7-116">Phone number.</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-116">Numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="4c0c0-116">Phone number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="928e7-117"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="928e7-117"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="928e7-118">Valeur</span><span class="sxs-lookup"><span data-stu-id="928e7-118">dateTime</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-117"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="4c0c0-117"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-118">dateTime</span><span class="sxs-lookup"><span data-stu-id="4c0c0-118">dateTime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="928e7-119">Horodatage (pour une utilisation interne uniquement).</span><span class="sxs-lookup"><span data-stu-id="928e7-119">Time stamp (for internal use only).</span></span></p>
-<p><span data-ttu-id="928e7-120">Ce champ a été présenté dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="928e7-120">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="4c0c0-119">Horodatage (réservé à un usage interne).</span><span class="sxs-lookup"><span data-stu-id="4c0c0-119">Time stamp (for internal use only).</span></span></p>
+<p><span data-ttu-id="4c0c0-120">Ce champ a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4c0c0-120">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

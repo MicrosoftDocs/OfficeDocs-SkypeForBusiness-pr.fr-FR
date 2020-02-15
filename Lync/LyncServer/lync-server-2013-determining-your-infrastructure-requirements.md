@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : Définition de la configuration requise pour l’infrastructure'
+title: 'Lync Server 2013 : détermination de la configuration requise pour votre infrastructure'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762462"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="00b99-102">Définition de la configuration requise pour l’infrastructure pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00b99-102">Determining your infrastructure requirements for Lync Server 2013</span></span>
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="271e6-102">Détermination de la configuration requise pour votre infrastructure pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="271e6-102">Determining your infrastructure requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762462"
 
 <span> </span>
 
-<span data-ttu-id="00b99-103">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="00b99-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="271e6-103">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="271e6-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="00b99-104">Vous devez identifier et comprendre les exigences d’infrastructure requises pour votre déploiement, de sorte que vous puissiez planifier la configuration requise de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="00b99-104">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
+<span data-ttu-id="271e6-104">Vous devez identifier et comprendre les exigences en matière d’infrastructure pour votre déploiement, de sorte que vous puissiez planifier la façon de répondre à ces exigences avant de déployer Lync Server.</span><span class="sxs-lookup"><span data-stu-id="271e6-104">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="00b99-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="00b99-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="271e6-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="271e6-105">In This Section</span></span>
 
-  - [<span data-ttu-id="00b99-106">Détermination de la configuration système requise pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00b99-106">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
+  - [<span data-ttu-id="271e6-106">Détermination de la configuration système requise pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="271e6-106">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
 
-  - [<span data-ttu-id="00b99-107">Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00b99-107">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="271e6-107">Configuration requise pour l’infrastructure Active Directory pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="271e6-107">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="00b99-108">Configuration requise pour les infrastructures de certificat pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00b99-108">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [<span data-ttu-id="271e6-108">Configuration requise pour l’infrastructure de certificat pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="271e6-108">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="00b99-109">Configuration requise pour les services Internet (IIS) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00b99-109">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [<span data-ttu-id="271e6-109">Configuration requise pour les services Internet (IIS) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="271e6-109">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

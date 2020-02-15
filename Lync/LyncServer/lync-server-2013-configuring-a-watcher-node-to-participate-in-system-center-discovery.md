@@ -1,5 +1,5 @@
 ---
-title: Configuration d’un nœud FileSystemWatcher pour participer à la découverte de System Center
+title: Configuration d’un nœud observateur pour participer à la découverte de System Center
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763488"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a><span data-ttu-id="6e7a6-102">Configuration d’un nœud FileSystemWatcher dans Lync Server 2013 pour participer à la découverte de System Center</span><span class="sxs-lookup"><span data-stu-id="6e7a6-102">Configuring a watcher node in Lync Server 2013 to participate in System Center discovery</span></span>
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a><span data-ttu-id="83c26-102">Configuration d’un nœud observateur dans Lync Server 2013 pour la participation à la découverte de System Center</span><span class="sxs-lookup"><span data-stu-id="83c26-102">Configuring a watcher node in Lync Server 2013 to participate in System Center discovery</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763488"
 
 <span> </span>
 
-<span data-ttu-id="6e7a6-103">_**Dernière modification de la rubrique :** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="6e7a6-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="83c26-103">_**Dernière modification de la rubrique :** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="83c26-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="6e7a6-104">Pour vous assurer que votre nœud FileSystemWatcher participe au processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur un ordinateur sur lequel la console System Center Operations Manager a été installée :</span><span class="sxs-lookup"><span data-stu-id="6e7a6-104">To make sure that your watcher node participates in the discovery process for System Center Operations Manager, you must complete the following procedure on a computer where the System Center Operations Manager console has been installed:</span></span>
+<span data-ttu-id="83c26-104">Pour vous assurer que votre nœud observateur participe au processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur un ordinateur sur lequel la console System Center Operations Manager a été installée :</span><span class="sxs-lookup"><span data-stu-id="83c26-104">To make sure that your watcher node participates in the discovery process for System Center Operations Manager, you must complete the following procedure on a computer where the System Center Operations Manager console has been installed:</span></span>
 
-1.  <span data-ttu-id="6e7a6-105">Dans l’onglet **administration** , cliquez sur **géré par l’agent**.</span><span class="sxs-lookup"><span data-stu-id="6e7a6-105">On the **Administration** tab, click **Agent Managed**.</span></span>
+1.  <span data-ttu-id="83c26-105">Sous l’onglet **Administration**, cliquez sur **Géré par agent**.</span><span class="sxs-lookup"><span data-stu-id="83c26-105">On the **Administration** tab, click **Agent Managed**.</span></span>
 
-2.  <span data-ttu-id="6e7a6-106">Cliquez avec le bouton droit sur le nom de l’ordinateur du nœud d’observation, puis cliquez sur **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="6e7a6-106">Right-click the name of the watcher node computer, and then click **Properties**.</span></span> <span data-ttu-id="6e7a6-107">Dans la boîte de dialogue **Propriétés** , sous l’onglet **sécurité** , sélectionnez **Autoriser cet agent à agir en tant que proxy et détecter les objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="6e7a6-107">In the **Properties** dialog box, on the **Security** tab, select **Allow this agent to act as a proxy and discover managed objects on other computers**, and then click **OK**.</span></span>
+2.  <span data-ttu-id="83c26-p101">Cliquez avec le bouton droit sur le nom de l’ordinateur du nœud observateur, puis cliquez sur **Propriétés**. Dans la boîte de dialogue **Propriétés**, sous l’onglet **Sécurité**, sélectionnez **Autoriser cet agent à agir en tant que proxy et découvrir des objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="83c26-p101">Right-click the name of the watcher node computer, and then click **Properties**. In the **Properties** dialog box, on the **Security** tab, select **Allow this agent to act as a proxy and discover managed objects on other computers**, and then click **OK**.</span></span>
 
-<span data-ttu-id="6e7a6-108">Après avoir configuré le nœud FileSystemWatcher pour qu’il serve de proxy, redémarrez l’ordinateur de nœud d’observation.</span><span class="sxs-lookup"><span data-stu-id="6e7a6-108">After configuring the watcher node to act as a proxy, reboot the watcher node computer.</span></span> <span data-ttu-id="6e7a6-109">Après le redémarrage de l’ordinateur, vérifiez qu’aucun événement d’erreur n’est enregistré dans le journal des événements Operations Manager sur cet ordinateur.</span><span class="sxs-lookup"><span data-stu-id="6e7a6-109">After the computer has rebooted, verify that no error events are being recorded in the Operations Manager event log on that computer.</span></span> <span data-ttu-id="6e7a6-110">Une fois que l’ordinateur est en cours d’exécution pendant 15 minutes, utilisez la console Operations Manager pour vérifier que votre ordinateur serveur Lync figure dans la catégorie **Lync** .</span><span class="sxs-lookup"><span data-stu-id="6e7a6-110">After the computer has been running for 15 minutes or so, use the Operations Manager console to verify that your Lync Server computers are listed under the **Lync** category.</span></span>
+<span data-ttu-id="83c26-108">Après avoir configuré le nœud observateur pour qu’il se comporte comme un proxy, démarrez l’ordinateur du nœud observateur.</span><span class="sxs-lookup"><span data-stu-id="83c26-108">After configuring the watcher node to act as a proxy, reboot the watcher node computer.</span></span> <span data-ttu-id="83c26-109">Une fois l’ordinateur redémarré, vérifiez qu’aucun événement d’erreur n’est enregistré dans le journal des événements Operations Manager sur cet ordinateur.</span><span class="sxs-lookup"><span data-stu-id="83c26-109">After the computer has rebooted, verify that no error events are being recorded in the Operations Manager event log on that computer.</span></span> <span data-ttu-id="83c26-110">Une fois que l’ordinateur est en cours d’exécution pendant 15 minutes, utilisez la console Operations Manager pour vérifier que vos ordinateurs Lync Server sont répertoriés sous la catégorie **Lync** .</span><span class="sxs-lookup"><span data-stu-id="83c26-110">After the computer has been running for 15 minutes or so, use the Operations Manager console to verify that your Lync Server computers are listed under the **Lync** category.</span></span>
 
 </div>
 

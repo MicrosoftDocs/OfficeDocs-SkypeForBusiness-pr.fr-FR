@@ -1,5 +1,5 @@
 ---
-title: Temps de récupération nécessaire pour basculer et restaurer les pools dans Lync Server 2013
+title: Temps de récupération de Lync Server 2013 pour le basculement de pool et la restauration de pool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fff6f74b5d486c05d01bcd3a911ae674b4f0708
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8692e01ed9691f69da7be78a2e0437e7829594cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724448"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a><span data-ttu-id="4d611-102">Temps de récupération nécessaire pour basculer et restaurer les pools dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d611-102">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>
+# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a><span data-ttu-id="e81d5-102">Temps de récupération pour le basculement de pool et la restauration automatique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81d5-102">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41724448"
 
 <span> </span>
 
-<span data-ttu-id="4d611-103">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="4d611-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="e81d5-103">_**Dernière modification de la rubrique :** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="e81d5-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="4d611-104">Pour le basculement de pool et la restauration de pool, le Target Engineering pour l’objectif de temps de récupération (RTO) est de 30 minutes.</span><span class="sxs-lookup"><span data-stu-id="4d611-104">For pool failover and pool failback, the engineering target for recovery time objective (RTO) is 30 minutes.</span></span> <span data-ttu-id="4d611-105">Il s’agit du temps nécessaire au basculement, une fois que les administrateurs ont déterminé qu’il y a eu un sinistre et démarré les procédures de basculement.</span><span class="sxs-lookup"><span data-stu-id="4d611-105">This is the time required for the failover to happen, after administrators have determined there was a disaster and initiated the failover procedures.</span></span> <span data-ttu-id="4d611-106">Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.</span><span class="sxs-lookup"><span data-stu-id="4d611-106">It does not include the time for administrators to assess the situation and make a decision, nor does it include the time for users to sign in again after failover is complete.</span></span>
+<span data-ttu-id="e81d5-p101">Pour le basculement de pool et la restauration de pool, le but à atteindre pour la durée maximale d’interruption admissible (RTO) est de 30 minutes. Il s’agit de la durée nécessaire pour que le basculement ait lieu, une fois que les administrateurs ont identifié une panne et lancé les procédures de basculement. Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.</span><span class="sxs-lookup"><span data-stu-id="e81d5-p101">For pool failover and pool failback, the engineering target for recovery time objective (RTO) is 30 minutes. This is the time required for the failover to happen, after administrators have determined there was a disaster and initiated the failover procedures. It does not include the time for administrators to assess the situation and make a decision, nor does it include the time for users to sign in again after failover is complete.</span></span>
 
-<span data-ttu-id="4d611-107">Pour le basculement de pool et la restauration de pool, le ciblage d’ingénierie pour l’objectif de point de récupération (RPO) est de 30 minutes.</span><span class="sxs-lookup"><span data-stu-id="4d611-107">For pool failover and pool failback, the engineering target for recovery point objective (RPO) is 30 minutes.</span></span> <span data-ttu-id="4d611-108">Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="4d611-108">This represents the time measure of data that could be lost due to the disaster, due to replication latency of the Backup Service.</span></span> <span data-ttu-id="4d611-109">Par exemple, si un pool est arrêté à 10:00 AM et que le RPO est de 30 minutes, les données écrites dans le pool entre 9:30 AM</span><span class="sxs-lookup"><span data-stu-id="4d611-109">For example, if a pool goes down at 10:00 A.M., and the RPO is 30 minutes, data written to the pool between 9:30 A.M.</span></span> <span data-ttu-id="4d611-110">Il est possible que la 10:00 A n’ayant pas été répliquée vers le pool de sauvegarde et qu’elle soit perdue.</span><span class="sxs-lookup"><span data-stu-id="4d611-110">and 10:00 A.M.might not have replicated to the backup pool, and would be lost.</span></span>
+<span data-ttu-id="e81d5-107">Pour le basculement de pool et la restauration de pool, le but à atteindre pour la perte de données maximale admissible (RPO) est de 30 minutes.</span><span class="sxs-lookup"><span data-stu-id="e81d5-107">For pool failover and pool failback, the engineering target for recovery point objective (RPO) is 30 minutes.</span></span> <span data-ttu-id="e81d5-108">Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="e81d5-108">This represents the time measure of data that could be lost due to the disaster, due to replication latency of the Backup Service.</span></span> <span data-ttu-id="e81d5-109">Par exemple, si un pool tombe à 10:00 du matin et que le RPO est de 30 minutes, les données écrites dans le pool entre 9:30 h 00</span><span class="sxs-lookup"><span data-stu-id="e81d5-109">For example, if a pool goes down at 10:00 A.M., and the RPO is 30 minutes, data written to the pool between 9:30 A.M.</span></span> <span data-ttu-id="e81d5-110">et 10:00 A. M. n’ont peut-être pas été répliqués sur le pool de sauvegarde et seraient perdus.</span><span class="sxs-lookup"><span data-stu-id="e81d5-110">and 10:00 A.M.might not have replicated to the backup pool, and would be lost.</span></span>
 
-<span data-ttu-id="4d611-111">Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites.</span><span class="sxs-lookup"><span data-stu-id="4d611-111">All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites.</span></span> <span data-ttu-id="4d611-112">Ces chiffres sont mesurés pour un pool avec 40 000 utilisateurs actifs et 200 000 utilisateurs activés pour Lync par rapport à un modèle utilisateur prédéfini pour lequel il n’y a pas de journal des travaux en souffrance dans la réplication des données.</span><span class="sxs-lookup"><span data-stu-id="4d611-112">These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Lync with respect to a pre-defined user model where there is no backlog in data replication.</span></span> <span data-ttu-id="4d611-113">Ces chiffres peuvent changer en fonction du test et de la validation des performances.</span><span class="sxs-lookup"><span data-stu-id="4d611-113">They are subject to change based on performance testing and validation.</span></span>
+<span data-ttu-id="e81d5-111">Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites.</span><span class="sxs-lookup"><span data-stu-id="e81d5-111">All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites.</span></span> <span data-ttu-id="e81d5-112">Ces chiffres sont mesurés pour un pool avec 40 000 utilisateurs actifs simultanément et 200 000 utilisateurs activés pour Lync par rapport à un modèle utilisateur prédéfini où il n’y a pas de journal en attente de réplication de données.</span><span class="sxs-lookup"><span data-stu-id="e81d5-112">These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Lync with respect to a pre-defined user model where there is no backlog in data replication.</span></span> <span data-ttu-id="e81d5-113">Ces chiffres peuvent changer en fonction du test et de la validation des performances.</span><span class="sxs-lookup"><span data-stu-id="e81d5-113">They are subject to change based on performance testing and validation.</span></span>
 
 </div>
 

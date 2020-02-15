@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013 : tests de sécurité'
+title: 'Lync Server 2013 : vérifications de sécurité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03b9b966aaea9c74b0fbd9c0306aa559fd981419
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e93a9e220ddb89b7b82dc3df20709a3268907d5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764912"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="b3d00-102">Tests de sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3d00-102">Security checks in Lync Server 2013</span></span>
+# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="49289-102">Vérifications de sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49289-102">Security checks in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41764912"
 
 <span> </span>
 
-<span data-ttu-id="b3d00-103">_**Dernière modification de la rubrique :** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="b3d00-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="49289-103">_**Dernière modification de la rubrique :** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="49289-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="b3d00-104">Effectuez régulièrement des audits de sécurité, tels que des règles de pare-feu, des droits d’utilisateur, une appartenance de groupe, des droits de délégué, etc.</span><span class="sxs-lookup"><span data-stu-id="b3d00-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
+<span data-ttu-id="49289-104">Effectuez des audits réguliers de la sécurité, tels que les règles de pare-feu, les droits d’utilisateur, l’appartenance au groupe, les droits de délégué, etc.</span><span class="sxs-lookup"><span data-stu-id="49289-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b3d00-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b3d00-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="49289-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="49289-105">See Also</span></span>
 
 
-[<span data-ttu-id="b3d00-106">Planification de la sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3d00-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
+[<span data-ttu-id="49289-106">Planification de la sécurité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49289-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
   
 
 </div>
