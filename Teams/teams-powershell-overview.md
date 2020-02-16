@@ -15,12 +15,12 @@ f1.keywords:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035356"
+ms.locfileid: "42052521"
 ---
 # <a name="teams-powershell-overview"></a>Vue d’ensemble de PowerShell teams
 
@@ -79,7 +79,7 @@ Lorsque nous avons distribué notre version générale de notre module PowerShel
 
 ## <a name="managing-policies-via-powershell"></a>Gestion des stratégies via PowerShell
 
-Les applets de décision pour la gestion des stratégies se trouvent dans le [module cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366).
+Utilisez les applets de décision dans le [module de cmdlet Skype entreprise](https://www.microsoft.com/download/details.aspx?id=39366) pour gérer les stratégies d’utilisateurs individuels.
 
 > [!NOTE]
 > Les applets de connexion seront disponibles dans votre session PowerShell une fois que vous vous connectez à Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [gestion de Skype entreprise Online avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 

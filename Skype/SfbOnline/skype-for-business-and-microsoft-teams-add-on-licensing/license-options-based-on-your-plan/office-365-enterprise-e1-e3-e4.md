@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010587"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
-Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) ou E4, voici les compléments de licences que vous pouvez acheter pour obtenir d'autres fonctionnalités Skype Entreprise.
+Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) ou E4, voici les compléments de licences que vous pouvez acheter pour obtenir d'autres fonctionnalités Skype Entreprise.
 
 |||
 |:-----|:-----|

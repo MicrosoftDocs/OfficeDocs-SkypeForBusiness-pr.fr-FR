@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Découvrez comment permettre à des personnes qui utilisent Skype Entreprise de contacter des utilisateurs Skype Entreprise externes à votre organisation et à les ajouter à leur liste de contacts. '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692879"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010807"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Autoriser les utilisateurs de Skype Entreprise à ajouter des contacts Skype
 
 Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par messagerie instantanéet toute personne utilisant Skype, l'application gratuite ! Cet article vous indique comment procéder pour leur permettre d'ajouter des contacts Skype. 
   
-Pour cela, vous devez disposer [d’autorisations d’administrateur](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) dans Office 365.
+Pour cela, vous devez disposer [d’autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) dans Office 365.
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
   
@@ -55,11 +55,11 @@ Pour cela, vous devez disposer [d’autorisations d’administrateur](https://su
     
 6.  Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
     
-    Si votre organisation utilise une autre solution pour empêcher les ordinateurs sur le réseau de se connecter à Internet, assurez-vous que les ordinateurs clients peuvent accéder à toutes les [adresses IP et URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) pour la connectivité Skype et la recherche dans l’annuaire Skype. Vous devez peut-être les ajouter à la liste autorisée dans votre pare-feu ou à la configuration de votre infrastructure proxy.
+    Si votre organisation utilise une autre solution pour empêcher les ordinateurs sur le réseau de se connecter à Internet, assurez-vous que les ordinateurs clients peuvent accéder à toutes les [adresses IP et URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) pour la connectivité Skype et la recherche dans l’annuaire Skype. Vous devez peut-être les ajouter à la liste autorisée dans votre pare-feu ou à la configuration de votre infrastructure proxy.
     
 7. **ATTENDEZ JUSQU'À 24 HEURES POUR EFFECTUER UN TEST**. Chaque fois que vous modifiez les paramètres de communications externes, jusqu'à 24 heures peuvent être nécessaires pour que les modifications soient appliquées à tous les centres de données.
     
-8. Montrez à vos utilisateurs comment rechercher et ajouter des contacts Skype à leur liste des contacts Skype Entreprise. Dirigez-les vers [Rechercher des personnes dans Skype Entreprise](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
+8. Montrez à vos utilisateurs comment rechercher et ajouter des contacts Skype à leur liste des contacts Skype Entreprise. Dirigez-les vers [Rechercher des personnes dans Skype Entreprise](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19).
     
 ## <a name="test-and-troubleshoot"></a>Test et dépannage
 
@@ -73,7 +73,7 @@ Pour tester votre configuration, vous devez disposer d'un contact qui ne soit pa
   
 3. Dans Skype Entreprise, recherchez votre contact dans Skype et envoyez-lui une demande de conversation. 
     
-    Si votre message ne peut pas être envoyé en raison d’une stratégie de votre société, vous devez vérifier à nouveau les [paramètres de votre pare-feu](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Si votre message ne peut pas être envoyé en raison d’une stratégie de votre société, vous devez vérifier à nouveau les [paramètres de votre pare-feu](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Une autre solution permettant de vérifier si le problème se situe au niveau de votre pare-feu consiste à accéder à un emplacement Wi-Fi non situé derrière votre pare-feu, par exemple un café, et d’utiliser Skype Entreprise pour envoyer une demande de conversation à votre contact Skype. 
     

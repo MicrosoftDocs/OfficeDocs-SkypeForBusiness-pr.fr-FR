@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes de réinitialisation de l’ID de conférence d’un utilisateur dans Skype entreprise Online et obtenez des liens vers des outils de mise à jour et de migration de réunions. '
-ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707149"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986489"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Réinitialisation de l’ID de conférence d’un utilisateur dans Skype entreprise Online
 
@@ -66,7 +66,7 @@ Un ID de conférence dynamique est inclus en bas de l’invitation à la réunio
     
   - [Outil de migration de réunions Skype Entreprise Online (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [Outil de migration de réunions Skype Entreprise Online (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [Outil de migration de réunions Skype Entreprise Online (32 bits)](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 

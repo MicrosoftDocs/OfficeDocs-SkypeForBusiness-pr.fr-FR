@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Télécharger, installer et utiliser Windows PowerShell 5.1 pour créer une session PowerShell distante se connectant à Skype Entreprise Online.
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831149"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029095"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Télécharger et installer Windows PowerShell 5.1
 
@@ -49,7 +49,7 @@ Pour déterminer la version de Microsoft PowerShell que vous utilisez, effectuez
     4.0
     </pre>
 
-    Si le numéro de version renvoyé est 5.1, c'est que vous utilisez Windows PowerShell 5.1. Si le numéro de version renvoyé n'est pas 5.1, vous devez installer Windows PowerShell 5.1. Vous pouvez télécharger Windows Management Framework 5.1, qui inclut Windows PowerShell 5.1, à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+    Si le numéro de version renvoyé est 5.1, c'est que vous utilisez Windows PowerShell 5.1. Si le numéro de version renvoyé n'est pas 5.1, vous devez installer Windows PowerShell 5.1. Vous pouvez télécharger Windows Management Framework 5.1, qui inclut Windows PowerShell 5.1, à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=54616).
   
 Une fois que vous avez vérifié que Windows PowerShell 5.1 est bien installé, vous devez vous assurer que PowerShell a bien été configuré pour l'exécution de scripts distants. Pour cela, démarrez PowerShell en tant qu’administrateur. Sous Windows 7, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2, procédez comme suit :
   

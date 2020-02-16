@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Découvrez comment configurer Skype entreprise afin de pouvoir voir la disponibilité de vos collègues. '
-ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769727"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010897"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -50,9 +50,9 @@ En tant qu' **[administrateur](https://support.office.com/article/eac4d046-1afd-
 
 Pour plus d’informations sur les modifications que vos utilisateurs peuvent modifier dans Skype entreprise, reportez-vous aux articles suivants :
 
-- [Contrôle de l’accès à vos informations de présence dans Skype entreprise](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Contrôle de l’accès à vos informations de présence dans Skype entreprise](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Définir les options de statut dans Skype entreprise](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Définir les options de statut dans Skype entreprise](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

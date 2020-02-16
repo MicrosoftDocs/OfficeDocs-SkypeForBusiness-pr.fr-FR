@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence rendez-vous dans Skype entreprise online. '
-ms.openlocfilehash: 167b083c1cc212a6d301b0cfb2012ef9d639727d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707229"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986549"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online
 
@@ -76,7 +76,7 @@ Par défaut, il existe quatre types de messages électroniques qui seront envoy�
     
     Cette situation se produit lorsque la licence de **conférence audio** est supprimée d’un utilisateur ou lorsque vous définissez un fournisseur de services d’audioconférence tiers pour un utilisateur ou un fournisseur de services d’audioconférence tiers ou lorsque vous définissez le fournisseur sur **aucun**. Ce courrier électronique contient les instructions et les informations nécessaires à l’utilisateur pour utiliser l’outil de mise à jour des réunions de Skype entreprise Online afin de supprimer les informations spécifiques aux services d’audioconférence, comme le numéro de téléphone de la Conférence par défaut ou l’ID de conférence.
     
-    Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Voici un exemple de ce courrier électronique :
     

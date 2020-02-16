@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment attribuer un ID de conférence à un utilisateur dans Skype entreprise Online et quels sont les paramètres d’ID de conférence. '
-ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010987"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Afficher et réinitialiser un ID de conférence affecté à un utilisateur de Skype Entreprise Online
 
@@ -97,7 +97,7 @@ Vous pouvez réinitialiser l’ID de conférence d'un utilisateur à l’aide de
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
    > [!IMPORTANT]
-   >  Après la création d’un ID de conférence ou son réinitialisation, l’ancien ID de conférence ne peut pas être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser l’outil de migration de réunion Skype entreprise pour mettre à jour leurs réunions existantes. Pour plus d’informations sur le téléchargement, l’installation et l’exécution de l’outil, voir la section [outil de mise à jour des réunions pour Skype entreprise et Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype entreprise Online, outil de migration de réunion (64)](https://go.microsoft.com/fwlink/?LinkID=626047)et [Skype entreprise Online, outil de migration de réunion (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Après la création d’un ID de conférence ou son réinitialisation, l’ancien ID de conférence ne peut pas être utilisé par les appelants. Vous devez inviter les utilisateurs à replanifier leurs invitations à la réunion pour vous assurer que le nouvel ID de conférence sera ajouté aux invitations. Les utilisateurs peuvent utiliser l’outil de migration de réunion Skype entreprise pour mettre à jour leurs réunions existantes. Pour plus d’informations sur le téléchargement, l’installation et l’exécution de l’outil, voir la section [outil de mise à jour des réunions pour Skype entreprise et Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype entreprise Online, outil de migration de réunion (64)](https://go.microsoft.com/fwlink/?LinkID=626047)et [Skype entreprise Online, outil de migration de réunion (32 bits)](https://www.microsoft.com/download/details.aspx?id=54079).
 
 - Pour en savoir plus sur l'applet de commande, reportez-vous à la rubrique [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
 

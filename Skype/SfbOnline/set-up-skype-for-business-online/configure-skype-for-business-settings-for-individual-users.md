@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769687"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010887"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
@@ -43,7 +43,7 @@ Pour autoriser (ou bloquer) toutes les personnes de votre entreprise à communiq
 ## <a name="configure-general-settings-for-one-user"></a>Configurer les paramètres généraux pour un utilisateur
 <a name="__toc325019204"> </a>
 
-Vous devez disposer des [autorisations d’administrateur](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer ces étapes.
+Vous devez disposer des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer ces étapes.
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
   
@@ -67,7 +67,7 @@ Vous devez disposer des [autorisations d’administrateur](https://support.offic
 |:-----|:-----|
 |Appels audio et vidéo HD  <br/> |Autorisez cette personne à enregistrer les réunions audio et les réunions audio et vidéo ou ne l’autorisez pas à planifier des réunions (aucune).  <br/> |
 |Enregistrer les conversations et les réunions  <br/> |Sélectionnez les éléments que cette personne est autorisée à enregistrer.  <br/> Cette option n’est pas disponible dans Skype entreprise Basic.  <br/> |
-|À des fins de conformité, désactivez les fonctions non archivées.  <br/> | Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/>  La sélection de cette option désactive les fonctionnalités qui ne sont pas capturées lorsque vous disposez d’une [conservation inaltérable](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) dans le centre d’administration Exchange. Elle désactive les fonctions suivantes : <br/>  transfert de fichiers avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/> |
+|À des fins de conformité, désactivez les fonctions non archivées.  <br/> | Sélectionnez cette option si vous êtes légalement tenu de conserver les informations stockées électroniquement. <br/>  La sélection de cette option désactive les fonctionnalités qui ne sont pas capturées lorsque vous disposez d’une [conservation inaltérable](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) dans le centre d’administration Exchange. Elle désactive les fonctions suivantes : <br/>  transfert de fichiers avec la messagerie instantanée <br/>  Pages OneNote partagées <br/>  Annotations PowerPoint <br/> |
    
 Pour configurer ces paramètres en bloc, utilisez PowerShell. Voir [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   

@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692939"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010937"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -51,7 +51,7 @@ Suivez la procédure décrite dans cet article lorsque :
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Autoriser les communications entre entreprises pour vos utilisateurs
 <a name="bk_preview"> </a>
 
-Pour cela, vous devez disposer des [autorisations d’administrateur](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) dans Office 365 dans les deux organisations.
+Pour cela, vous devez disposer des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) dans Office 365 dans les deux organisations.
 
 ![Icône affichant le logo](../images/teams-logo-30x30.png) Microsoft teams **avec le centre d’administration teams**
   
@@ -112,9 +112,9 @@ Après avoir activé les communications externes avec d’autres utilisateurs Sk
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Conseils de configuration des communications avec des entreprises fédérées
 <a name="bk_preview"> </a>
 
-- Pour configurer la Fédération entre Skype entreprise 2015 et Skype entreprise Online, consultez cet article : [configuration de la Fédération avec Skype entreprise Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Pour configurer la Fédération entre Skype entreprise 2015 et Skype entreprise Online, consultez cet article : [configuration de la Fédération avec Skype entreprise Online](https://technet.microsoft.com/library/jj205126.aspx).
     
-- Pour configurer la Fédération entre Lync et Skype entreprise Online, consultez cet article : [configuration de la prise en charge de la Fédération pour un client Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Pour configurer la Fédération entre Lync et Skype entreprise Online, consultez cet article : [configuration de la prise en charge de la Fédération pour un client Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
     
 - Lorsque deux utilisateurs Skype Entreprise dans Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités Skype Entreprise (par exemple, des conversations vidéo ou un partage de bureau) qui sont activées dans les deux organisations.
     

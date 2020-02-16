@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions pour la mise en œuvre d’une connectivité hybride entre Skype entreprise Server et Skype entreprise online.
-ms.openlocfilehash: 0f7494388508aca689a1b019babf2f14a06d3f65
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 54029297cb17da79d706f62ecdf9109747f9ce20
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726804"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008616"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Configurer la connectivité hybride entre Skype Entreprise Server et Office 365.
 
@@ -34,8 +34,8 @@ Le tableau suivant répertorie les tâches requises pour configurer la connectiv
   
 |Étape|Description|
 |:-----|:-----|
-|Créer un compte client pour Office 365   <br/> |Découvrez Office 365 sur [office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vous assurer que votre environnement est prêt pour Office 365, reportez-vous à la [Configuration système requise](https://products.office.com/en-US/office-system-requirements).  <br/> Pour plus d’informations sur la configuration d’Office 365, voir [Getting Started with office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
-|Ajouter votre domaine à votre client Office 365 et vérifier la propriété  <br/> | Vous devez ajouter votre domaine à votre client Office 365, puis suivre les étapes pour valider le domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine. <br/> Pour ajouter votre domaine à votre client Office 365, suivez les étapes décrites dans la rubrique [Ajouter un domaine à office 365](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
+|Créer un compte client pour Office 365   <br/> |Découvrez Office 365 sur [office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vous assurer que votre environnement est prêt pour Office 365, reportez-vous à la [Configuration système requise](https://products.office.com/office-system-requirements).  <br/> Pour plus d’informations sur la configuration d’Office 365, voir [Getting Started with office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
+|Ajouter votre domaine à votre client Office 365 et vérifier la propriété  <br/> | Vous devez ajouter votre domaine à votre client Office 365, puis suivre les étapes pour valider le domaine avec Office 365. Cela permet de confirmer que vous êtes le propriétaire du domaine. <br/> Pour ajouter votre domaine à votre client Office 365, suivez les étapes décrites dans la rubrique [Ajouter un domaine à office 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
 |Configuration de la synchronisation Active Directory  <br/> |La synchronisation Active Directory maintient la synchronisation permanente de votre Active Directory local avec Office 365. Cela vous permet de créer des versions synchronisées de chaque compte d’utilisateur et groupe.  <br/> <br> **Important :** Vous devez synchroniser les comptes AD de tous les utilisateurs de Skype entreprise de votre organisation entre vos déploiements locaux et en ligne, même si les utilisateurs ne sont pas déplacés vers teams ou Skype entreprise online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et les utilisateurs en ligne de votre organisation peut ne pas fonctionner comme prévu. Pour plus d’informations, reportez-vous à la rubrique [configurer Azure ad Connect pour les environnements hybrides](configure-azure-ad-connect.md).         |
 | Configurer Skype Entreprise hybride | Il existe trois étapes de base : <br><br> 1. Configurez votre environnement local de façon à ce qu’il se fédérer avec Office 365. <br> 2. Configurez votre environnement local pour qu’il approuve Office 365 et activez l’espace d’adressage SIP partagé avec Office 365.<br> 3. activez l’espace d’adressage SIP partagé dans votre client Office 365. <br><br> De plus, si vous avez Exchange en local, vous pouvez configurer OAuth entre vos environnements Exchange local et Skype Entreprise Online. <br> <br>Pour plus d’informations, reportez-vous à la rubrique [configure Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md).
 |Déplacement des utilisateurs pilotes  <br/> |Une fois que vous avez terminé les étapes de préparation et de configuration de votre environnement pour teams ou Skype entreprise Online, vous pouvez commencer à transférer des utilisateurs pilotes vers votre client Office 365 en ligne. Pour plus d’informations, reportez-vous à la rubrique [déplacer des utilisateurs de sur site vers Skype entreprise Online](move-users-from-on-premises-to-skype-for-business-online.md) et [déplacer des utilisateurs de l’organisation locale vers teams](move-users-from-on-premises-to-Teams.md).  <br/> |

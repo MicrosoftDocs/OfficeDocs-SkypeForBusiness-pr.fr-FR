@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: Découvrez les statistiques utilisateur Skype Entreprise disponibles, telles que le nombre d’utilisateurs activés, d’utilisateurs pour lesquels la conférence est activée ou d’utilisateurs pour lesquels Office 365 est activé.
-ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f4d98b8c8a57551dc71d1b38436c204aff67ec27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769527"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010747"
 ---
 # <a name="user-statistics-and-organization-information"></a>Statistiques utilisateur et informations sur l’organisation
 
@@ -41,7 +41,7 @@ Le tableau de bord Skype Entreprise vous donne un aperçu de la configuration d
 |Utilisateurs de Skype Entreprise Online  <br/> |Pour ajouter ou bloquer des utilisateurs de l’application Skype Entreprise, reportez-vous à la rubrique [Attribuer ou supprimer des licences Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ou [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Pour obtenir la liste complète des étapes à suivre lorsqu’un utilisateur quitte votre entreprise, consultez la rubrique [Supprimer un ancien employé d’Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
 |Utilisateurs pour lesquels l’audioconférence est activée  <br/> |Pour activer les services d’audioconférence, reportez-vous à [essayer ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
 |Utilisateurs dans le cloud  <br/> |Nombre d’utilisateurs de Skype Entreprise Online ayant des comptes Office 365.  <br/> Pour ajouter des personnes à votre abonnement Office 365 (autrement dit, créer des comptes Office 365 pour eux), consultez la rubrique [Ajouter des utilisateurs individuellement ou en bloc dans Office 365 - Centre d’administration](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Utilisateurs synchronisés et hébergés en ligne  <br/> |Nombre d’utilisateurs hybrides créés dans un déploiement sur site de Skype Entreprise Server mais synchronisés avec Office 365.  <br/> Pour configurer une connectivité hybride Skype Entreprise, reportez-vous à la rubrique [Déployer une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
+|Utilisateurs synchronisés et hébergés en ligne  <br/> |Nombre d’utilisateurs hybrides créés dans un déploiement sur site de Skype Entreprise Server mais synchronisés avec Office 365.  <br/> Pour configurer une connectivité hybride Skype Entreprise, reportez-vous à la rubrique [Déployer une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > Si Non disponible est indiqué, cela signifie qu’il n’y a pas d’informations ou qu’il y avait des erreurs. 

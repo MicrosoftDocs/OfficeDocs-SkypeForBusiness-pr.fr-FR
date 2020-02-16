@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Le 31 juillet 2021, le programme de fin de vie se conclut pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACP tiers).
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706689"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985029"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programme de fin de vie pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers 
 
@@ -47,7 +47,7 @@ Dans le cadre de la mise en place du programme de fin de vie, le changement suiv
 
 Pour préparer ce changement, nous encourageons les organisations concernées à informer leurs utilisateurs de cette mise à jour prévue avant le 31 juillet 2021. 
 
-Après le 31 juillet 2021, les utilisateurs peuvent continuer à utiliser Skype entreprise sans interruption de leurs réunions en ligne. Toutefois, les organisations doivent activer leurs utilisateurs pour l’audioconférence fournie par Microsoft s’ils ont besoin d’une audioconférence rendez-vous avec Skype entreprise ou Microsoft Teams. Pour en savoir plus sur l’audioconférence Microsoft, voir [audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+Après le 31 juillet 2021, les utilisateurs peuvent continuer à utiliser Skype entreprise sans interruption de leurs réunions en ligne. Toutefois, les organisations doivent activer leurs utilisateurs pour l’audioconférence fournie par Microsoft s’ils ont besoin d’une audioconférence rendez-vous avec Skype entreprise ou Microsoft Teams. Pour en savoir plus sur l’audioconférence Microsoft, voir [audioconférence](https://products.office.com/skype-for-business/audio-conferencing). 
 
 En fonction de l’état de terminaison souhaité d’une organisation, vous pouvez suivre trois chemins d’accès :
 

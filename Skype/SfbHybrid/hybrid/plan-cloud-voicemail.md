@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’implémentation du service de messagerie vocale Microsoft Cloud. Pour plus d’informations sur la configuration de la messagerie vocale Cloud, consultez la rubrique Configuring Cloud vocaux.
-ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765695"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006019"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux
 
@@ -46,7 +46,7 @@ Avec la messagerie vocale Cloud, vos tâches d’administration sont grandement 
 - Il n’est pas nécessaire de configurer le rôle de messagerie unifiée Exchange.
 - Les tâches de configuration de la messagerie vocale Cloud sont plus simples.
 - Les mises à jour de la fonctionnalité de messagerie vocale sont fournies directement dans le Cloud, de sorte que vos utilisateurs ont toujours accès aux fonctionnalités et mises à jour les plus récentes avec une dépendance moindre sur les mises à jour cumulatives (CUs).
-- Vous disposez du même ensemble de contrôles pour les boîtes aux lettres Exchange locales et en ligne. Pour plus d’informations sur ces contrôles, consultez la rubrique [configurer la messagerie vocale du système téléphonique](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Vous disposez du même ensemble de contrôles pour les boîtes aux lettres Exchange locales et en ligne. Pour plus d’informations sur ces contrôles, consultez la rubrique [configurer la messagerie vocale du système téléphonique](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
 
 Le diagramme suivant montre la messagerie vocale dans le Cloud dans un déploiement hybride :
 
@@ -90,7 +90,7 @@ Si vous envisagez de déployer Skype entreprise Server 2019 et/ou Exchange Serve
 
 L’interopérabilité des versions et les topologies prises en charge pour la messagerie vocale Cloud sont répertoriées dans le tableau suivant, qui compare les versions de Skype entreprise Server auxquelles l’utilisateur peut être hébergé avec la version possible fournissant sa boîte aux lettres Exchange. La messagerie vocale Cloud fonctionne uniquement avec Skype entreprise Server et Exchange Server 2019 ou Exchange Online.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype entreprise Server 2019 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale sur le Cloud | Messagerie vocale sur le Cloud |
 | Skype Entreprise Server 2015 | Messagerie unifiée Exchange Server | Messagerie unifiée Exchange Server | Messagerie vocale Cloud<sup>1</sup> | Messagerie vocale sur le Cloud <br> Messagerie unifiée Exchange Online<sup>2</sup> |

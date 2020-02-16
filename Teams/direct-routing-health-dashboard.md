@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment utiliser le tableau de bord d’état d’intégrité pour contrôler la connexion entre votre contrôleur de bordure de session et le routage direct.
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836074"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051800"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Tableau de bord d’État pour le routage direct
 
@@ -102,7 +102,7 @@ L’affichage détaillé affiche les paramètres supplémentaires suivants :
 
 - **Appels simultanés**-indique le nombre d’appels simultanés de l’SBC géré par le SBC. Ces informations sont utiles pour prévoir le nombre de canaux simultanés dont vous avez besoin et voir la tendance. Vous pouvez faire glisser les données à l’aide du nombre de jours et de la direction de l’appel (entrant/sortant/tous les flux).
 
-- **Paramètres réseau** -tous les paramètres réseau sont mesurés à partir de l’interface de routage directe vers le contrôleur de bordure de session. Pour plus d’informations sur les valeurs recommandées, voir [préparer le réseau de votre organisation à Microsoft teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network), et observez les valeurs recommandées par Microsoft Edge pour le client.
+- **Paramètres réseau** -tous les paramètres réseau sont mesurés à partir de l’interface de routage directe vers le contrôleur de bordure de session. Pour plus d’informations sur les valeurs recommandées, voir [préparer le réseau de votre organisation à Microsoft teams](https://docs.microsoft.com/microsoftteams/prepare-network), et observez les valeurs recommandées par Microsoft Edge pour le client.
 
    - Gigue : il s’agit de la mesure de milliseconde de la variation du délai de propagation du réseau, calculée entre deux points de terminaison utilisant le protocole RTCP (protocole de contrôle RTP).
 

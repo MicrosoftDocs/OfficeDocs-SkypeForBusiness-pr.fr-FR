@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : dans un déploiement local de Skype entreprise Server activé pour l’environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et le Cloud (pour Microsoft teams ou Skype entreprise Online)..'
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726764"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008606"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Déplacer des utilisateurs entre les sites et le Cloud
 
@@ -100,4 +100,4 @@ Dans les environnements locaux et cloud, les stratégies (telles que le contrôl
 
 [Planifier le routage direct](/microsoftteams/direct-routing-plan)
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

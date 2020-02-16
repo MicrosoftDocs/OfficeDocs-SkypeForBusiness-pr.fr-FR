@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Considérations relatives à la planification de la mise en œuvre d’une connectivité hybride entre Skype entreprise Server et Skype entreprise Online ou Teams.
-ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043376"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planifier la connectivité hybride entre Skype Entreprise Server et Office 365
 
@@ -68,7 +68,7 @@ Pour implémenter une connectivité hybride entre votre environnement local et l
 - Un client Microsoft Office 365 avec Skype entreprise Online activé.
     > [!NOTE]
     > Vous ne pouvez utiliser qu’un seul client pour une configuration hybride avec votre déploiement local.
-- Azure Active Directory Connect pour synchroniser votre annuaire local avec Office 365. Pour plus d’informations, reportez-vous à la rubrique [Azure ad Connect : comptes et autorisations](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect pour synchroniser votre annuaire local avec Office 365. Pour plus d’informations, reportez-vous à la rubrique [Azure ad Connect : comptes et autorisations](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Outils d’administration de Skype entreprise Server.  Ces éléments sont requis pour déplacer les utilisateurs de l’organisation locale vers le Cloud. Ces outils doivent être installés sur un serveur ayant accès à la fois au déploiement local et à Internet.
 - Outils d’administration en ligne.  Vous pouvez utiliser le centre d’administration teams ou Windows PowerShell pour gérer teams et Skype entreprise online. Pour utiliser PowerShell pour gérer teams ou Skype entreprise Online, téléchargez et installez le connecteur Skype entreprise online.
 - L’espace d’adressage SIP partagé doit être activé et votre déploiement local doit être configuré pour utiliser Office 365 en tant que fournisseur d’hébergement. Pour plus d’informations sur les étapes nécessaires à la configuration de la connectivité hybride, voir [configure Hybrid Connectivity](configure-hybrid-connectivity.md).
@@ -89,7 +89,7 @@ Pour configurer votre déploiement hybride avec **teams ou Skype entreprise Onli
   - Lync Server 2013 et Skype entreprise Server 2019
   - Lync Server 2013 et Skype entreprise Server 2015
 
-*Si la voix hybride est souhaitée dans n’importe quelle topologie*, le serveur Edge désigné comme serveur Edge de Fédération et le pool associé à la Fédération SIP doivent exécuter Skype entreprise 2015 ou une version ultérieure. Les utilisateurs peuvent rester sur un pool Lync 2013 s’il en existe un. Pour plus d’informations, reportez-vous à la rubrique [plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+*Si la voix hybride est souhaitée dans n’importe quelle topologie*, le serveur Edge désigné comme serveur Edge de Fédération et le pool associé à la Fédération SIP doivent exécuter Skype entreprise 2015 ou une version ultérieure. Les utilisateurs peuvent rester sur un pool Lync 2013 s’il en existe un. Pour plus d’informations, reportez-vous à la rubrique [plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
 Les topologies suivantes qui incluent **Lync Server 2010 sont prises en charge avec Skype entreprise Online** pour la messagerie instantanée et les réunions.  Les topologies qui incluent **Lync Server 2010 ne sont pas prises en charge pour la voix hybride ou les équipes**.
 
@@ -112,7 +112,7 @@ Microsoft prend en charge les types de scénarios hybrides à forêts multiples 
 - **Plusieurs déploiements de Skype entreprise Server dans plusieurs forêts.** Cette configuration peut se produire à la suite de scénarios de fusion et d’acquisition, ainsi que dans les entreprises plus complexes.  La consolidation de tous les utilisateurs de local en nuage dans un seul client Office 365 peut être réalisée pour n’importe quelle organisation avec plusieurs déploiements Skype entreprise, à condition que les exigences clés suivantes soient respectées :
 
   - Un seul client Office 365 au maximum doit être impliqué. La consolidation dans des scénarios comportant plusieurs clients Office 365 n’est pas prise en charge.
-  - À un moment donné, une seule forêt Skype entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype entreprise locales doivent rester entièrement locales (et mutuellement fédérées les unes avec les autres). Notez que ces autres organisations locales peuvent effectuer une synchronisation avec AAD si vous le souhaitez avec de [nouvelles fonctionnalités pour désactiver les domaines SIP en ligne](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) disponibles à partir du 2018 décembre.
+  - À un moment donné, une seule forêt Skype entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype entreprise locales doivent rester entièrement locales (et mutuellement fédérées les unes avec les autres). Notez que ces autres organisations locales peuvent effectuer une synchronisation avec AAD si vous le souhaitez avec de [nouvelles fonctionnalités pour désactiver les domaines SIP en ligne](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) disponibles à partir du 2018 décembre.
 
     Les clients avec des déploiements de Skype entreprise dans plusieurs forêts doivent totalement migrer chaque forêt Skype entreprise de manière individuelle vers le client Office 365 à l’aide de la fonctionnalité de partage de domaine (espace d’adressage SIP partagé), puis désactiver hybride avec le déploiement local, avant de passer au déploiement de Skype entreprise sur site le plus proche. Par ailleurs, avant d’être migrés vers le Cloud, les utilisateurs locaux restent dans un État fédéré avec tous les utilisateurs qui ne sont pas représentés dans le même annuaire local de l’utilisateur. Pour plus d’informations, consultez la rubrique [consolidation du Cloud pour teams et Skype entreprise](cloud-consolidation.md).
 

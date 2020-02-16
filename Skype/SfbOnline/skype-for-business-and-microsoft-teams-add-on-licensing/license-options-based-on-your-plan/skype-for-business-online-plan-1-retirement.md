@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: Le plan 1 de Skype entreprise Online a été annulé. Néanmoins, si vous avez un abonnement à Skype entreprise Online plan 1, cette modification n’affectera pas le bon vous. Lorsque vous êtes prêt à passer à une nouvelle offre, que ce soit immédiatement ou au moment du renouvellement, trois options s’offrent à vous.
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692659"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029085"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Entreprise Online - Déclassement de l’offre 1 
 
@@ -38,7 +38,7 @@ Vous pouvez conserver les mêmes fonctionnalités que celles de Skype entreprise
 
 ## <a name="switching-to-office-365-f1"></a>Passer à Office 365 F1
 
-Cette option est idéale si vous souhaitez tirer parti des fonctionnalités supplémentaires proposées par Office 365 F1. Pour plus d’informations et obtenir des informations sur les tarifs, voir [Office 365 F1](https://products.office.com/en-us/business/office-365-f1).
+Cette option est idéale si vous souhaitez tirer parti des fonctionnalités supplémentaires proposées par Office 365 F1. Pour plus d’informations et obtenir des informations sur les tarifs, voir [Office 365 F1](https://products.office.com/business/office-365-f1).
 
 
 ### <a name="how-to-switch"></a>Comment changer 

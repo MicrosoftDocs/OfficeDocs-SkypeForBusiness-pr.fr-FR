@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Cet article explique comment configurer et résoudre les problèmes de délégation Skype entreprise online. Cet article fournit des conseils pour la configuration des recommandations, meilleures pratiques et étapes de résolution des problèmes.
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706479"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010797"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
 
@@ -140,7 +140,7 @@ Si la configuration est réussie, le délégué doit voir le message **vous avez
   
 - La création d’un groupe de sécurité et l’ajout d’autorisations de délégation pour ce groupe de sécurité ne sont pas prises en charge.
     
-- MAPI n’est pas disponible. Voir [erreur « MAPI non disponible » dans le client Skype entreprise 2016](https://support.microsoft.com/en-us/help/3147130).
+- MAPI n’est pas disponible. Voir [erreur « MAPI non disponible » dans le client Skype entreprise 2016](https://support.microsoft.com/help/3147130).
     
 - La boîte aux lettres Exchange Online n’est pas accessible via le client Skype entreprise. Le cas échéant, exécutez le [test de connectivité Outlook](https://testconnectivity.microsoft.com/) pour vérifier qu’il est transmis.
     

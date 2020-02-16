@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037816"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
 
@@ -98,7 +98,7 @@ Le didacticiel intitulé [petite entreprise-configurer un standard automatique](
 Lorsque vous disposez d’une structure solide qui répond à vos besoins et d’un script qui guide les clients de manière efficace, passez à la [Configuration des comptes de ressources](configure-onprem-ra.md).
 
 > [!CAUTION]
-> Comme mentionné dans [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), le transfert des standards automatiques de messagerie unifiée Exchange créés dans le serveur 2015 vers les serveurs exécutant le serveur 2019 est déconseillé. Pour le moment, vous devez les conserver dans un pool Skype entreprise Server 2015 en cours d’exécution en mode coexistence.
+> Comme mentionné dans [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), le transfert des standards automatiques de messagerie unifiée Exchange créés dans le serveur 2015 vers les serveurs exécutant le serveur 2019 est déconseillé. Pour le moment, vous devez les conserver dans un pool Skype entreprise Server 2015 en cours d’exécution en mode coexistence.
 
 ## <a name="see-also"></a>Voir aussi
 

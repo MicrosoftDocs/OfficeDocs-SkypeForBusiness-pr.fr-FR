@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Familiarisez-vous avec la configuration de votre domaine, des utilisateurs, de la messagerie instantanée et de la présence de votre organisation pour l’installation de Skype entreprise. Apprenez-en plus sur la configuration de l’audioconférence, du système téléphonique et des plans d’appel et de la diffusion de réunion Skype. '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010787"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -41,7 +41,7 @@ Il semble que vous ayez besoin d'aide pour configurer Skype avec votre abonnemen
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Offre pour Skype Entreprise
 
-Si vous disposez d' **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** ou de **Business Essentials**, vous pouvez utiliser Skype Entreprise pour passer des appels en ligne à d'autres personnes de votre entreprise incluses dans votre abonnement. Par exemple, si votre entreprise dispose de 10 personnes, vous pourrez [commencer à utiliser Skype entreprise pour la messagerie instantanée et les réunions en ligne et réunions en ligne](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) [avec Skype entreprise](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) avec Skype entreprise, après avoir effectué les étapes suivantes 2-6. Vous pouvez aussi organiser [une réunion Skype entreprise dans Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) en réunion en ligne.
+Si vous disposez d' **[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** ou de **Business Essentials**, vous pouvez utiliser Skype Entreprise pour passer des appels en ligne à d'autres personnes de votre entreprise incluses dans votre abonnement. Par exemple, si votre entreprise dispose de 10 personnes, vous pourrez [commencer à utiliser Skype entreprise pour la messagerie instantanée et les réunions en ligne et réunions en ligne](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) [avec Skype entreprise](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) avec Skype entreprise, après avoir effectué les étapes suivantes 2-6. Vous pouvez aussi organiser [une réunion Skype entreprise dans Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) en réunion en ligne.
 
 Si vous voulez utiliser Skype Entreprise pour passer et recevoir des **appels** avec des personnes *externes*  à votre entreprise :
 

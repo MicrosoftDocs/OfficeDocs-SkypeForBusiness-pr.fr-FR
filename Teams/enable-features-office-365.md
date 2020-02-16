@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035236"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -60,6 +60,10 @@ Dans les **Paramètres de Teams**, vous pouvez configurer des fonctionnalités p
 #### <a name="notifications-and-feeds"></a>Notifications et flux
 
 Vous pouvez déterminer si les flux suggérés s’affichent dans le flux d’activité des utilisateurs dans Teams. Pour en savoir plus sur le flux d’activités, voir [Explorer le flux d’activités dans Microsoft Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
+
+#### <a name="tagging"></a>Marquage
+
+Les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble de membres d’une équipe. Les indicateurs peuvent être ajoutés à un ou plusieurs membres de l’équipe. Une fois qu’une étiquette est ajoutée, elle peut être utilisée dans @mentions par tous les membres de l’équipe dans un billet de canal pour communiquer uniquement avec les personnes auxquelles cette étiquette est attribuée. Utilisez ces paramètres pour contrôler les utilisateurs pouvant ajouter des indicateurs et la manière dont les étiquettes sont utilisées au sein de votre organisation. Pour plus d’informations, consultez [Gérer les étiquettes dans Teams](manage-tags.md).
 
 #### <a name="email-integration"></a>Intégration de courrier électronique
 
@@ -109,7 +113,7 @@ Le mode de coexistence que vous choisissez détermine le routage des appels et c
 
 #### <a name="app-preferences"></a>Préférences d’application
 
-Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/fr-FR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
+Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
 
 
 #### <a name="network-planner"></a>Planificateur de réseau
@@ -121,7 +125,7 @@ Vous pouvez également sélectionner l’option Télécharger l’application Te
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
-Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Plus d’informations
 

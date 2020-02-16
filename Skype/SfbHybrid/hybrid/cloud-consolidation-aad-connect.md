@@ -21,16 +21,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut la procédure détaillée pour la mise à jour d’AAD Connect afin d’inclure plusieurs forêts dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049096"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Mettre à jour AAD Connect pour inclure plusieurs forêts
 
-Azure AD Connect prend en charge la [synchronisation à partir de plusieurs forêts](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies). Toutefois, il ne prend en charge qu’une seule instance de la synchronisation Azure AD Connect vers AAD. Par conséquent, dans les cas où Azure AD est déjà installé dans une forêt, l’instance existante de la connexion AAD doit être mise à jour pour être synchronisée à partir de la forêt supplémentaire.
+Azure AD Connect prend en charge la [synchronisation à partir de plusieurs forêts](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies). Toutefois, il ne prend en charge qu’une seule instance de la synchronisation Azure AD Connect vers AAD. Par conséquent, dans les cas où Azure AD est déjà installé dans une forêt, l’instance existante de la connexion AAD doit être mise à jour pour être synchronisée à partir de la forêt supplémentaire.
 
  - Si toutes les identités ne sont représentées qu’une seule fois dans les deux forêts (c’est-à-dire, si vous n’avez pas effectué de contacts à extension messagerie), vous pouvez réexécuter l’Assistant Connexion AAD, choisir « personnaliser les options de synchronisation », puis, dans la page **connecter vos annuaires** , entrer le nom de la forêt et des références d’identification supplémentaires.<br><br>
  ![Page connecter vos répertoires](../media/cloud-consolidation-connect-your-directories.png)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010757"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
@@ -195,7 +195,7 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Mettez à jour l’attribut **msRTCSIP-UserEnabled** pour tous les utilisateurs affectés sur **TRUE**.
 
-2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/fr-FR/library/hh967642.aspx).
+2. Réexécutez Microsoft Online Services - Outil de synchronisation d'annuaires (DirSync). Pour plus de détails, voir [Intégrer vos annuaires locaux avec Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
 
 Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez par éliminer les causes les plus courantes des problèmes de connexion. Si nécessaire, vous pouvez suivre des étapes de résolution spécifiques en fonction du type d’erreur. Si l’utilisateur ne parvient toujours pas à se connecter, recueillez des informations supplémentaires, puis recherchez une aide supplémentaire.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Utiliser le guide de résolution des problèmes du Support Microsoft
