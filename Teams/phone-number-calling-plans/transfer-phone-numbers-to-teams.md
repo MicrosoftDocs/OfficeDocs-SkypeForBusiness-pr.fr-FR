@@ -17,18 +17,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827932"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089737"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transfert de numéros de téléphone dans Microsoft teams
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Utilisez l’Assistant de Portage dans le centre d’administration de Microsoft teams pour transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous transférez vos numéros de téléphone vers Teams, Microsoft deviendra votre fournisseur de services et vous facturera ces numéros de téléphone.
 
-Avant de commencer, nous vous conseillons de passer en revue les informations relatives à [une demande](port-order-overview.md)de transfert. Si vous disposez de numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou d’autres numéros de service, les numéros de téléphone gratuits ou dont vous avez plus de 999, vous devez transférer les numéros de téléphone de votre organisation, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires appropriés et nous les envoyer.
+Avant de commencer, nous vous conseillons de passer en revue les informations relatives à [une demande](port-order-overview.md) de transfert ? Si vous disposez de numéros de service pour les ponts de conférence rendez-vous, les standards automatiques ou d’autres numéros de service, les numéros de téléphone gratuits ou dont vous avez plus de 999, vous devez transférer les numéros de téléphone de votre organisation, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour télécharger les formulaires appropriés et nous les envoyer.
 
   > [!NOTE]
   > Les commandes de port ne sont traitées pour le transfert des numéros de téléphone qu’aux États-Unis et non aux jours fériés et week-end publics.
@@ -36,7 +38,7 @@ Avant de commencer, nous vous conseillons de passer en revue les informations re
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Création d’une demande de transfert et transfert de vos numéros de téléphone dans teams
 
 > [!NOTE]
-> Si votre pays ou votre région n’est pas répertorié dans l’Assistant Portage dans le centre d’administration de Microsoft Teams, vous pouvez [demander manuellement une demande de](manually-submit-port-order.md)transfert.
+> Pour **l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le Royaume-Uni et le Canada**. Pour obtenir des numéros de téléphone pour d’autres pays ou régions, vous pouvez [demander manuellement une demande de](manually-submit-port-order.md)transfert. Pour obtenir le formulaire, vous devez d’abord valider manuellement une demande de transfert, puis sélectionnez votre pays ou région dans la liste déroulante [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**numéros de téléphone** **vocaux** > . Cliquez sur **nombres**, puis cliquez sur **port** pour démarrer l’Assistant de Portage.
 2. Passez en revue les informations de la page mise en **route** , puis, lorsque vous êtes prêt, cliquez sur **suivant**.
@@ -87,7 +89,7 @@ Avant de commencer, nous vous conseillons de passer en revue les informations re
 
 Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier électronique qui confirme votre demande. Votre demande est vérifiée et mise à jour quotidiennement et vous recevez une notification d’avancement et de statut par e-mail. Si votre demande est refusée, vous serez invité à ouvrir un ticket de support.
 
-Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md).
+Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

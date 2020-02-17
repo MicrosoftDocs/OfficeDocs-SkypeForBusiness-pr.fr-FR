@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089727"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -50,7 +50,10 @@ Tout d’abord, vous devez acheter une licence de téléphone pour les zones com
 4. Développez **abonnements de modules complémentaires** , puis cliquez sur pour acheter un plan d’appels. Choisissez le forfait d' **appels nationaux** ou les offres d' **appels nationaux et internationaux**.
 
 > [!NOTE]
-> Vous n’avez pas besoin d’une licence de Système téléphonique. Il est inclus dans la licence Téléphone de zone commune.
+> Si vous utilisez le routage direct du système Microsoft Phone, vous n’avez pas besoin d’une licence de plan d’appel.
+
+> [!NOTE]
+> Vous n’avez pas besoin d’ajouter une licence de système téléphonique. Il est inclus dans la licence Téléphone de zone commune.
 
 Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -89,6 +92,9 @@ La licence de téléphone commune prend en charge les éléments suivants :
 6. Attribuez les licences à l’utilisateur. Sur la même page, cliquez pour développer **Licences produit**. Activez le téléphone courant et sélectionnez un **plan d’appels nationaux** ou un plan d' **appels nationaux et internationaux**. 
 
     ![Capture d’écran montrant une attribution de licence](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Si vous utilisez le routage direct du système Microsoft Phone, il est inutile d’affecter une licence de plan d’appel.
 
 Pour plus d’informations, reportez-vous à [Ajouter un utilisateur](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 
