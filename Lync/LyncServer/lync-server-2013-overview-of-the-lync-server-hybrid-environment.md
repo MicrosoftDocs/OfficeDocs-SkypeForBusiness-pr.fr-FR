@@ -49,7 +49,7 @@ Ce guide décrit les tâches nécessaires pour configurer votre environnement Ly
 
 <div>
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="prerequisites"></a>Conditions préalables
 
 Les applications et les utilitaires suivants doivent être installés pour effectuer les tâches de configuration d’un déploiement pour un déploiement hybride. Les programmes d’installation de ces fichiers sont inclus sur le support d’installation fourni pour votre déploiement, ainsi que sur les liens inclus dans la liste suivante.
 
