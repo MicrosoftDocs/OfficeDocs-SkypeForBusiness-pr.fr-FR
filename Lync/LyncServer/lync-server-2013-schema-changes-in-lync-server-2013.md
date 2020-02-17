@@ -118,7 +118,7 @@ Le tableau suivant décrit les classes Active Directory qui sont modifiées par 
 <thead>
 <tr class="header">
 <th>Class</th>
-<th>Modifier</th>
+<th>Modification</th>
 <th>Classe ou attribut</th>
 </tr>
 </thead>
