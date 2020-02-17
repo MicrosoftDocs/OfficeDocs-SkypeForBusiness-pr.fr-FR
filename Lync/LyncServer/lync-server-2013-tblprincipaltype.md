@@ -120,19 +120,19 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>0,1</p></td>
 <td><p>N'importe lequel</p></td>
 <td><p>Principal générique sans type connu. Inutilisé dans la table tblPrincipal.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 <td><p>AnyUser</p></td>
 <td><p>Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>AnyGroup</p></td>
 <td><p>Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.</p></td>
 <td></td>

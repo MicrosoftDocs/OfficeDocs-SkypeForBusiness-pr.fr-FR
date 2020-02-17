@@ -80,7 +80,7 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 <tr class="odd">
 <td><p>Appels entrants par seconde</p></td>
 <td><p>16 </p></td>
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 </tr>
 <tr class="even">
 <td><p>Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale</p></td>

@@ -85,17 +85,17 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>0,1</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 <td><p>SN</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
@@ -135,7 +135,7 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>a4</p></td>
+<td><p>11 </p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
@@ -145,7 +145,7 @@ L’activation du serveur de carnet d’adresses remplit la table AbAttribute av
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>kg</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>

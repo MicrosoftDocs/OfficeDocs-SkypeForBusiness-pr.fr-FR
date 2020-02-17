@@ -80,7 +80,7 @@ Cette table a été introduite dans Microsoft Lync Server 2013.
 <td></td>
 <td><p>Limite supérieure de la classification. Les valeurs autorisées sont les suivantes :</p>
 <ol>
-<li><p>2 </p></li>
+<li><p>n°2</p></li>
 <li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>

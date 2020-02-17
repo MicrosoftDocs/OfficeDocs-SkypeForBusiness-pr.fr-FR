@@ -53,15 +53,15 @@ Le rapport de distribution des mesures de qualité des médias vous permet d’a
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>0,1</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
