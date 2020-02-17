@@ -41,6 +41,7 @@
 ## [Configurer la modération des canaux dans teams](manage-channel-moderation-in-teams.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présence des utilisateurs dans Teams](presence-admins.md)
+## [Gérer les balises dans Teams](manage-tags.md)
 ## [Afficher les analyses interéquipes et par équipe dans Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Renouvellement et expiration d’une équipe](team-expiration-renewal.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
@@ -95,6 +96,7 @@
 ### [Gérer la version gratuite de Teams](manage-freemium.md)
 ### [Affecter des propriétaires d’équipe et des membres dans Teams](assign-roles-permissions.md)
 ### [Modifier les paramètres utilisateur Teams en bloc](edit-user-settings-in-bulk.md)
+### [Attribuer des stratégies à vos utilisateurs.](assign-policies.md)
 ### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
 ### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 ### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
@@ -636,7 +638,6 @@
 ## [Stratégies de contrôle d’application AppLocker dans Teams](applocker-in-teams.md)
 ## Stratégies de conservation dans Teams
 ### [Vue d’ensemble](retention-policies.md)
-### [Questions fréquentes sur les stratégies de conservation](retention-policies-FAQ.md)
 ### [Problèmes connus avec les stratégies de conservation](retention-policies-known-issues.md)
 ## [Emplacement des données dans Teams](location-of-data-in-teams.md)
 ## [Déclaration d’accessibilité de la conformité en France pour Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
