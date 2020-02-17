@@ -195,7 +195,7 @@ Pour plus d’informations sur l’exécution de ces étapes, voir [Response Gro
 
 </div></li>
 </ul></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>Après une récupération, avant une restauration</p></td>

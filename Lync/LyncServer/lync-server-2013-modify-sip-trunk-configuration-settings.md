@@ -135,7 +135,7 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 </tr>
 <tr class="odd">
 <td><p>Numéro traduit à tester</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.</p></td>
 </tr>
 <tr class="even">
@@ -150,17 +150,17 @@ Lorsque vous modifiez les paramètres de configuration de jonction SIP à l’ai
 </tr>
 <tr class="even">
 <td><p>Numéro de téléphone à tester</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 <td><p>Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Numéro appelant</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de l’appelant.</p></td>
 </tr>
 <tr class="even">
 <td><p>Numéro appelé</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 <td><p>Indique que le numéro de téléphone à tester est celui de la personne appelée.</p></td>
 </tr>
 </tbody>
