@@ -12,20 +12,20 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036484"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a><span data-ttu-id="ff30b-102">Planification de la capacité pour Lync Server 2013 à l’aide des modèles utilisateur</span><span class="sxs-lookup"><span data-stu-id="ff30b-102">Capacity planning for Lync Server 2013 using the user models</span></span>
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a><span data-ttu-id="5af2c-102">Planification de la capacité pour Lync Server 2013 à l’aide des modèles utilisateur</span><span class="sxs-lookup"><span data-stu-id="5af2c-102">Capacity planning for Lync Server 2013 using the user models</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42036484"
 
 <span> </span>
 
-<span data-ttu-id="ff30b-103">_**Dernière modification de la rubrique :** 2014-01-14_</span><span class="sxs-lookup"><span data-stu-id="ff30b-103">_**Topic Last Modified:** 2014-01-14_</span></span>
+<span data-ttu-id="5af2c-103">_**Dernière modification de la rubrique :** 2014-01-14_</span><span class="sxs-lookup"><span data-stu-id="5af2c-103">_**Topic Last Modified:** 2014-01-14_</span></span>
 
-<span data-ttu-id="ff30b-104">Cette section fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-104">This section provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+<span data-ttu-id="5af2c-104">Cette section fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-104">This section provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
 <div>
 
-## <a name="tested-hardware-platform"></a><span data-ttu-id="ff30b-105">Plateforme matérielle testée</span><span class="sxs-lookup"><span data-stu-id="ff30b-105">Tested Hardware Platform</span></span>
+## <a name="tested-hardware-platform"></a><span data-ttu-id="5af2c-105">Plateforme matérielle testée</span><span class="sxs-lookup"><span data-stu-id="5af2c-105">Tested Hardware Platform</span></span>
 
-<span data-ttu-id="ff30b-106">Tous les résultats de performances et les recommandations de déploiement de cette section sont basés sur les tests de performances sur les serveurs qui exécutent le matériel décrit dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="ff30b-106">All the performance results and deployment recommendations in this section are based on performance testing on servers running the hardware described in the following table.</span></span> <span data-ttu-id="ff30b-107">Nous vous recommandons d’utiliser un matériel similaire.</span><span class="sxs-lookup"><span data-stu-id="ff30b-107">We recommend that you use similar hardware.</span></span> <span data-ttu-id="ff30b-108">Si vous utilisez un matériel moins puissant, vous pouvez rencontrer des problèmes de fonctionnement ou des performances médiocres.</span><span class="sxs-lookup"><span data-stu-id="ff30b-108">If you use less powerful hardware, you may experience functionality problems or poor performance.</span></span> <span data-ttu-id="ff30b-109">Notez que ces recommandations matérielles sont plus élevées que celles des versions précédentes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ff30b-109">Note that these hardware recommendations are higher than those of previous versions of Lync Server.</span></span>
+<span data-ttu-id="5af2c-106">Tous les résultats de performances et les recommandations de déploiement de cette section sont basés sur les tests de performances sur les serveurs qui exécutent le matériel décrit dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="5af2c-106">All the performance results and deployment recommendations in this section are based on performance testing on servers running the hardware described in the following table.</span></span> <span data-ttu-id="5af2c-107">Nous vous recommandons d’utiliser un matériel similaire.</span><span class="sxs-lookup"><span data-stu-id="5af2c-107">We recommend that you use similar hardware.</span></span> <span data-ttu-id="5af2c-108">Si vous utilisez un matériel moins puissant, vous pouvez rencontrer des problèmes de fonctionnement ou des performances médiocres.</span><span class="sxs-lookup"><span data-stu-id="5af2c-108">If you use less powerful hardware, you may experience functionality problems or poor performance.</span></span> <span data-ttu-id="5af2c-109">Notez que ces recommandations matérielles sont plus élevées que celles des versions précédentes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5af2c-109">Note that these hardware recommendations are higher than those of previous versions of Lync Server.</span></span>
 
-### <a name="hardware-used-in-performance-testing"></a><span data-ttu-id="ff30b-110">Matériel utilisé dans les tests de performances</span><span class="sxs-lookup"><span data-stu-id="ff30b-110">Hardware Used in Performance Testing</span></span>
+### <a name="hardware-used-in-performance-testing"></a><span data-ttu-id="5af2c-110">Matériel utilisé dans les tests de performances</span><span class="sxs-lookup"><span data-stu-id="5af2c-110">Hardware Used in Performance Testing</span></span>
 
 <table>
 <colgroup>
@@ -54,33 +54,33 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-111">Composant matériel</span><span class="sxs-lookup"><span data-stu-id="ff30b-111">Hardware component</span></span></th>
-<th><span data-ttu-id="ff30b-112">Recommandé</span><span class="sxs-lookup"><span data-stu-id="ff30b-112">Recommended</span></span></th>
+<th><span data-ttu-id="5af2c-111">Composant matériel</span><span class="sxs-lookup"><span data-stu-id="5af2c-111">Hardware component</span></span></th>
+<th><span data-ttu-id="5af2c-112">Recommandé</span><span class="sxs-lookup"><span data-stu-id="5af2c-112">Recommended</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-113">UC</span><span class="sxs-lookup"><span data-stu-id="ff30b-113">CPU</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-114">Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur</span><span class="sxs-lookup"><span data-stu-id="ff30b-114">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher</span></span></p>
-<p><span data-ttu-id="ff30b-115">Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ff30b-115">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-113">UC</span><span class="sxs-lookup"><span data-stu-id="5af2c-113">CPU</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-114">Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur</span><span class="sxs-lookup"><span data-stu-id="5af2c-114">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher</span></span></p>
+<p><span data-ttu-id="5af2c-115">Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5af2c-115">Intel Itanium processors are not supported for Lync Server server roles.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-116">Mémoire</span><span class="sxs-lookup"><span data-stu-id="ff30b-116">Memory</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-117">32 Go</span><span class="sxs-lookup"><span data-stu-id="ff30b-117">32 gigabytes (GB)</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-116">Mémoire</span><span class="sxs-lookup"><span data-stu-id="5af2c-116">Memory</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-117">32 Go</span><span class="sxs-lookup"><span data-stu-id="5af2c-117">32 gigabytes (GB)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-118">Disque</span><span class="sxs-lookup"><span data-stu-id="ff30b-118">Disk</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-118">Disque</span><span class="sxs-lookup"><span data-stu-id="5af2c-118">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="ff30b-119">8 disques durs 10 000-RPM avec au moins 72 Go d’espace disque disponible.</span><span class="sxs-lookup"><span data-stu-id="ff30b-119">8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
-<p><span data-ttu-id="ff30b-120">Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.</span><span class="sxs-lookup"><span data-stu-id="ff30b-120">Two of the disks should use RAID 1, and six should use RAID 10.</span></span></p>
-<p><span data-ttu-id="ff30b-121">-Des</span><span class="sxs-lookup"><span data-stu-id="ff30b-121">- OR -</span></span></p></li>
-<li><p><span data-ttu-id="ff30b-122">Disques SSD (Solid State Drive) qui fournissent des performances similaires à 8 disques durs mécaniques 10 000 tours/minute.</span><span class="sxs-lookup"><span data-stu-id="ff30b-122">Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.</span></span></p></li>
+<li><p><span data-ttu-id="5af2c-119">8 disques durs 10 000-RPM avec au moins 72 Go d’espace disque disponible.</span><span class="sxs-lookup"><span data-stu-id="5af2c-119">8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.</span></span></p>
+<p><span data-ttu-id="5af2c-120">Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.</span><span class="sxs-lookup"><span data-stu-id="5af2c-120">Two of the disks should use RAID 1, and six should use RAID 10.</span></span></p>
+<p><span data-ttu-id="5af2c-121">-Des</span><span class="sxs-lookup"><span data-stu-id="5af2c-121">- OR -</span></span></p></li>
+<li><p><span data-ttu-id="5af2c-122">Disques SSD (Solid State Drive) qui fournissent des performances similaires à 8 disques durs mécaniques 10 000 tours/minute.</span><span class="sxs-lookup"><span data-stu-id="5af2c-122">Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-123">Réseau</span><span class="sxs-lookup"><span data-stu-id="ff30b-123">Network</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-123">Réseau</span><span class="sxs-lookup"><span data-stu-id="5af2c-123">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="ff30b-124">1 carte réseau double port, 1 Gbps ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP)</span><span class="sxs-lookup"><span data-stu-id="ff30b-124">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)</span></span></p></li>
+<li><p><span data-ttu-id="5af2c-124">1 carte réseau double port, 1 Gbps ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP)</span><span class="sxs-lookup"><span data-stu-id="5af2c-124">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -91,9 +91,9 @@ ms.locfileid: "42036484"
 
 <div>
 
-## <a name="summary-of-results"></a><span data-ttu-id="ff30b-125">Résumé des résultats</span><span class="sxs-lookup"><span data-stu-id="ff30b-125">Summary of Results</span></span>
+## <a name="summary-of-results"></a><span data-ttu-id="5af2c-125">Résumé des résultats</span><span class="sxs-lookup"><span data-stu-id="5af2c-125">Summary of Results</span></span>
 
-<span data-ttu-id="ff30b-126">Le tableau suivant résume ces recommandations.</span><span class="sxs-lookup"><span data-stu-id="ff30b-126">The following table summarizes these recommendations.</span></span>
+<span data-ttu-id="5af2c-126">Le tableau suivant résume ces recommandations.</span><span class="sxs-lookup"><span data-stu-id="5af2c-126">The following table summarizes these recommendations.</span></span>
 
 
 <table>
@@ -103,47 +103,47 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-127">Rôle serveur</span><span class="sxs-lookup"><span data-stu-id="ff30b-127">Server role</span></span></th>
-<th><span data-ttu-id="ff30b-128">Nombre maximal d’utilisateurs pris en charge</span><span class="sxs-lookup"><span data-stu-id="ff30b-128">Maximum number of users supported</span></span></th>
+<th><span data-ttu-id="5af2c-127">Rôle serveur</span><span class="sxs-lookup"><span data-stu-id="5af2c-127">Server role</span></span></th>
+<th><span data-ttu-id="5af2c-128">Nombre maximal d’utilisateurs pris en charge</span><span class="sxs-lookup"><span data-stu-id="5af2c-128">Maximum number of users supported</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-129">Pool frontal avec douze serveurs frontaux et un serveur principal ou une paire de serveurs principaux en miroir.</span><span class="sxs-lookup"><span data-stu-id="ff30b-129">Front End pool with twelve Front End Servers and one Back End Server or a mirrored pair of Back End Servers.</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-130">80 000 utilisateurs uniques connectés simultanément, plus 50% de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40% d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="ff30b-130">80,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 152,000 endpoints.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-129">Pool frontal avec douze serveurs frontaux et un serveur principal ou une paire de serveurs principaux en miroir.</span><span class="sxs-lookup"><span data-stu-id="5af2c-129">Front End pool with twelve Front End Servers and one Back End Server or a mirrored pair of Back End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-130">80 000 utilisateurs uniques connectés simultanément, plus 50% de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40% d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="5af2c-130">80,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 152,000 endpoints.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-131">Conférence A/V</span><span class="sxs-lookup"><span data-stu-id="ff30b-131">A/V Conferencing</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-132">Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant une taille maximale de conférence de 250 utilisateurs, et une seule de ces grandes conférences en cours d’exécution à la fois.</span><span class="sxs-lookup"><span data-stu-id="ff30b-132">The A/V Conferencing service provided by a Front End pool supports the pool’s conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.</span></span></p>
+<td><p><span data-ttu-id="5af2c-131">Conférence A/V</span><span class="sxs-lookup"><span data-stu-id="5af2c-131">A/V Conferencing</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-132">Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant une taille maximale de conférence de 250 utilisateurs, et une seule de ces grandes conférences en cours d’exécution à la fois.</span><span class="sxs-lookup"><span data-stu-id="5af2c-132">The A/V Conferencing service provided by a Front End pool supports the pool’s conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-133">En outre, vous pouvez prendre en charge des conférences importantes entre 250 et 1000 utilisateurs en déployant un pool frontal distinct avec deux serveurs frontaux pour héberger les grandes conférences.</span><span class="sxs-lookup"><span data-stu-id="ff30b-133">Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences.</span></span> <span data-ttu-id="ff30b-134">Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-supporting-large-meetings.md">prise en charge de grandes réunions à l’aide de Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ff30b-134">For details, see <A href="lync-server-2013-supporting-large-meetings.md">Supporting large meetings using Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="5af2c-133">En outre, vous pouvez prendre en charge des conférences importantes entre 250 et 1000 utilisateurs en déployant un pool frontal distinct avec deux serveurs frontaux pour héberger les grandes conférences.</span><span class="sxs-lookup"><span data-stu-id="5af2c-133">Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences.</span></span> <span data-ttu-id="5af2c-134">Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-supporting-large-meetings.md">prise en charge de grandes réunions à l’aide de Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5af2c-134">For details, see <A href="lync-server-2013-supporting-large-meetings.md">Supporting large meetings using Lync Server 2013</A>.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-135">Un serveur Edge</span><span class="sxs-lookup"><span data-stu-id="ff30b-135">One Edge Server</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-136">12 000 utilisateurs distants simultanés</span><span class="sxs-lookup"><span data-stu-id="ff30b-136">12,000 concurrent remote users</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-135">Un serveur Edge</span><span class="sxs-lookup"><span data-stu-id="5af2c-135">One Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-136">12 000 utilisateurs distants simultanés</span><span class="sxs-lookup"><span data-stu-id="5af2c-136">12,000 concurrent remote users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-137">Un directeur</span><span class="sxs-lookup"><span data-stu-id="ff30b-137">One Director</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-138">12 000 utilisateurs distants simultanés</span><span class="sxs-lookup"><span data-stu-id="ff30b-138">12,000 concurrent remote users</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-137">Un directeur</span><span class="sxs-lookup"><span data-stu-id="5af2c-137">One Director</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-138">12 000 utilisateurs distants simultanés</span><span class="sxs-lookup"><span data-stu-id="5af2c-138">12,000 concurrent remote users</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-139">Surveillance et archivage</span><span class="sxs-lookup"><span data-stu-id="ff30b-139">Monitoring and Archiving</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-140">Dans Lync Server 2013, les services frontaux de surveillance et d’archivage s’exécutent désormais sur chaque serveur frontal, et non sur des rôles serveur distincts.</span><span class="sxs-lookup"><span data-stu-id="ff30b-140">In Lync Server 2013, the Monitoring and Archiving front end services now run on each Front End Server, instead of on separate server roles.</span></span></p>
-<p><span data-ttu-id="ff30b-141">La surveillance et l’archivage nécessitent toujours leurs propres magasins de base de données.</span><span class="sxs-lookup"><span data-stu-id="ff30b-141">Monitoring and Archiving each still require their own database stores.</span></span> <span data-ttu-id="ff30b-142">Si vous exécutez également Exchange 2013, vous pouvez conserver vos données d’archivage dans Exchange, plutôt que dans une base de données SQL dédiée.</span><span class="sxs-lookup"><span data-stu-id="ff30b-142">If you also run Exchange 2013, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-139">Surveillance et archivage</span><span class="sxs-lookup"><span data-stu-id="5af2c-139">Monitoring and Archiving</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-140">Dans Lync Server 2013, les services frontaux de surveillance et d’archivage s’exécutent désormais sur chaque serveur frontal, et non sur des rôles serveur distincts.</span><span class="sxs-lookup"><span data-stu-id="5af2c-140">In Lync Server 2013, the Monitoring and Archiving front end services now run on each Front End Server, instead of on separate server roles.</span></span></p>
+<p><span data-ttu-id="5af2c-141">La surveillance et l’archivage nécessitent toujours leurs propres magasins de base de données.</span><span class="sxs-lookup"><span data-stu-id="5af2c-141">Monitoring and Archiving each still require their own database stores.</span></span> <span data-ttu-id="5af2c-142">Si vous exécutez également Exchange 2013, vous pouvez conserver vos données d’archivage dans Exchange, plutôt que dans une base de données SQL dédiée.</span><span class="sxs-lookup"><span data-stu-id="5af2c-142">If you also run Exchange 2013, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-143">Un serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="ff30b-143">One Mediation Server</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-144">Le serveur de médiation colocalisé avec le serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante pour les utilisateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="ff30b-144">Mediation Server collocated with Front End Server runs on every Front End Server in a pool, and should provide enough capacity for the users in the pool.</span></span> <span data-ttu-id="ff30b-145">Pour un serveur de médiation autonome, consultez la section « serveur de médiation » plus loin dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="ff30b-145">For stand-alone Mediation Server, see the “Mediation Server” section later in this topic.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-143">Un serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="5af2c-143">One Mediation Server</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-144">Le serveur de médiation colocalisé avec le serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante pour les utilisateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="5af2c-144">Mediation Server collocated with Front End Server runs on every Front End Server in a pool, and should provide enough capacity for the users in the pool.</span></span> <span data-ttu-id="5af2c-145">Pour un serveur de médiation autonome, consultez la section « serveur de médiation » plus loin dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="5af2c-145">For stand-alone Mediation Server, see the “Mediation Server” section later in this topic.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-146">Un serveur Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="ff30b-146">One Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-147">Si vous utilisez des serveurs Standard Edition pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser deux serveurs, associés à l’aide des recommandations de <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ff30b-147">We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planning for high availability and disaster recovery in Lync Server 2013</a>.</span></span> <span data-ttu-id="ff30b-148">Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs et, si un serveur échoue, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de basculement.</span><span class="sxs-lookup"><span data-stu-id="ff30b-148">Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.</span></span></p>
-<p><span data-ttu-id="ff30b-149">Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être affectées à plus de 2 500 utilisateurs par serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-149">If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server.</span></span> <span data-ttu-id="ff30b-150">Dans ce cas, vous devez envisager d’ajouter des serveurs Standard Edition ou de passer à Lync Server Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="ff30b-150">In this case, you should consider adding more Standard Edition servers or moving to Lync Server Enterprise Edition.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-146">Un serveur Standard Edition Server</span><span class="sxs-lookup"><span data-stu-id="5af2c-146">One Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-147">Si vous utilisez des serveurs Standard Edition pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser deux serveurs, associés à l’aide des recommandations de <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="5af2c-147">We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planning for high availability and disaster recovery in Lync Server 2013</a>.</span></span> <span data-ttu-id="5af2c-148">Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs et, si un serveur échoue, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de basculement.</span><span class="sxs-lookup"><span data-stu-id="5af2c-148">Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.</span></span></p>
+<p><span data-ttu-id="5af2c-149">Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être affectées à plus de 2 500 utilisateurs par serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-149">If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server.</span></span> <span data-ttu-id="5af2c-150">Dans ce cas, vous devez envisager d’ajouter des serveurs Standard Edition ou de passer à Lync Server Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="5af2c-150">In this case, you should consider adding more Standard Edition servers or moving to Lync Server Enterprise Edition.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -153,47 +153,47 @@ ms.locfileid: "42036484"
 
 <div>
 
-## <a name="front-end-server"></a><span data-ttu-id="ff30b-151">serveur frontal</span><span class="sxs-lookup"><span data-stu-id="ff30b-151">Front End Server</span></span>
+## <a name="front-end-server"></a><span data-ttu-id="5af2c-151">serveur frontal</span><span class="sxs-lookup"><span data-stu-id="5af2c-151">Front End Server</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-152">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-152">Stretched pools are not supported for this server role.</span></span>
+> <span data-ttu-id="5af2c-152">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-152">Stretched pools are not supported for this server role.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="ff30b-153">Dans un pool frontal, vous devez disposer d’un serveur frontal pour tous les 6 660 utilisateurs hébergés dans le pool, en supposant que la technologie Hyper-Threading est activée sur tous les serveurs du pool et que le matériel du serveur répond aux recommandations dans les [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-153">In a Front End pool, you should have one Front End Server for every 6,660 users homed in the pool, assuming that hyper-threading is enabled on all servers in the pool, and that the server hardware meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span> <span data-ttu-id="ff30b-154">Le nombre maximal d’utilisateurs dans un pool frontal est de 80 000, en supposant que la technologie Hyper-Threading est activée sur tous les serveurs du pool.</span><span class="sxs-lookup"><span data-stu-id="ff30b-154">The maximum number of users in one Front End pool is 80,000, assuming that hyper-threading is enabled on all the servers in the pool.</span></span> <span data-ttu-id="ff30b-155">Si vous avez plus de 80 000 utilisateurs sur un site, vous pouvez déployer plusieurs pools frontaux.</span><span class="sxs-lookup"><span data-stu-id="ff30b-155">If you have more than 80,000 users at a site, you can deploy more than one Front End pool.</span></span>
+<span data-ttu-id="5af2c-153">Dans un pool frontal, vous devez disposer d’un serveur frontal pour tous les 6 660 utilisateurs hébergés dans le pool, en supposant que la technologie Hyper-Threading est activée sur tous les serveurs du pool et que le matériel du serveur répond aux recommandations dans les [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-153">In a Front End pool, you should have one Front End Server for every 6,660 users homed in the pool, assuming that hyper-threading is enabled on all servers in the pool, and that the server hardware meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span> <span data-ttu-id="5af2c-154">Le nombre maximal d’utilisateurs dans un pool frontal est de 80 000, en supposant que la technologie Hyper-Threading est activée sur tous les serveurs du pool.</span><span class="sxs-lookup"><span data-stu-id="5af2c-154">The maximum number of users in one Front End pool is 80,000, assuming that hyper-threading is enabled on all the servers in the pool.</span></span> <span data-ttu-id="5af2c-155">Si vous avez plus de 80 000 utilisateurs sur un site, vous pouvez déployer plusieurs pools frontaux.</span><span class="sxs-lookup"><span data-stu-id="5af2c-155">If you have more than 80,000 users at a site, you can deploy more than one Front End pool.</span></span>
 
-<span data-ttu-id="ff30b-156">Lorsque vous comptez le nombre d’utilisateurs d’un pool frontal, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à ce pool frontal.</span><span class="sxs-lookup"><span data-stu-id="ff30b-156">When you account for the number of users in a Front End pool, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with this Front End pool.</span></span>
+<span data-ttu-id="5af2c-156">Lorsque vous comptez le nombre d’utilisateurs d’un pool frontal, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à ce pool frontal.</span><span class="sxs-lookup"><span data-stu-id="5af2c-156">When you account for the number of users in a Front End pool, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with this Front End pool.</span></span>
 
-<span data-ttu-id="ff30b-157">Lorsqu’un serveur actif est indisponible, ses connexions sont transférées automatiquement aux autres serveurs du pool.</span><span class="sxs-lookup"><span data-stu-id="ff30b-157">When an active server is unavailable, its connections are transferred automatically to the other servers in the pool.</span></span> <span data-ttu-id="ff30b-158">Par exemple, si vous avez 30 000 utilisateurs et cinq serveurs frontaux, si un serveur est indisponible, les connexions de 6000 doivent être transférées vers les quatre autres serveurs.</span><span class="sxs-lookup"><span data-stu-id="ff30b-158">For example, if you have 30,000 users and five Front End Servers, then if one server is unavailable, the connections of 6000 users need to be transferred to the other four servers.</span></span> <span data-ttu-id="ff30b-159">Les quatre serveurs restants auront chacun 7500 utilisateurs, ce qui est plus grand que recommandé.</span><span class="sxs-lookup"><span data-stu-id="ff30b-159">The remaining four servers will each have 7500 users, which is a larger number than recommended.</span></span>
+<span data-ttu-id="5af2c-157">Lorsqu’un serveur actif est indisponible, ses connexions sont transférées automatiquement aux autres serveurs du pool.</span><span class="sxs-lookup"><span data-stu-id="5af2c-157">When an active server is unavailable, its connections are transferred automatically to the other servers in the pool.</span></span> <span data-ttu-id="5af2c-158">Par exemple, si vous avez 30 000 utilisateurs et cinq serveurs frontaux, si un serveur est indisponible, les connexions de 6000 doivent être transférées vers les quatre autres serveurs.</span><span class="sxs-lookup"><span data-stu-id="5af2c-158">For example, if you have 30,000 users and five Front End Servers, then if one server is unavailable, the connections of 6000 users need to be transferred to the other four servers.</span></span> <span data-ttu-id="5af2c-159">Les quatre serveurs restants auront chacun 7500 utilisateurs, ce qui est plus grand que recommandé.</span><span class="sxs-lookup"><span data-stu-id="5af2c-159">The remaining four servers will each have 7500 users, which is a larger number than recommended.</span></span>
 
-<span data-ttu-id="ff30b-160">Si, au lieu de cela, vous avez commencé avec six serveurs frontaux pour vos utilisateurs de 30 000 et que l’autre est devenu indisponible, un total de 5000 utilisateurs seront déplacés vers les cinq serveurs restants.</span><span class="sxs-lookup"><span data-stu-id="ff30b-160">If instead you had started with six Front End Servers for your 30,000 users and subsequently one became unavailable, a total of 5000 users will be moved to the remaining five servers.</span></span> <span data-ttu-id="ff30b-161">Ces cinq serveurs sont tous les utilisateurs de l’hôte 6000, qui se trouvent dans la plage recommandée.</span><span class="sxs-lookup"><span data-stu-id="ff30b-161">These five servers will each host 6000 users, which is in the recommended range.</span></span>
+<span data-ttu-id="5af2c-160">Si, au lieu de cela, vous avez commencé avec six serveurs frontaux pour vos utilisateurs de 30 000 et que l’autre est devenu indisponible, un total de 5000 utilisateurs seront déplacés vers les cinq serveurs restants.</span><span class="sxs-lookup"><span data-stu-id="5af2c-160">If instead you had started with six Front End Servers for your 30,000 users and subsequently one became unavailable, a total of 5000 users will be moved to the remaining five servers.</span></span> <span data-ttu-id="5af2c-161">Ces cinq serveurs sont tous les utilisateurs de l’hôte 6000, qui se trouvent dans la plage recommandée.</span><span class="sxs-lookup"><span data-stu-id="5af2c-161">These five servers will each host 6000 users, which is in the recommended range.</span></span>
 
-<span data-ttu-id="ff30b-162">Le nombre maximal d’utilisateurs dans un pool frontal est de 80 000.</span><span class="sxs-lookup"><span data-stu-id="ff30b-162">The maximum number of users in a Front End pool is 80,000.</span></span> <span data-ttu-id="ff30b-163">Le nombre maximal de serveurs frontaux dans un pool est de 12.</span><span class="sxs-lookup"><span data-stu-id="ff30b-163">The maximum number of Front End Servers in a pool is 12.</span></span>
+<span data-ttu-id="5af2c-162">Le nombre maximal d’utilisateurs dans un pool frontal est de 80 000.</span><span class="sxs-lookup"><span data-stu-id="5af2c-162">The maximum number of users in a Front End pool is 80,000.</span></span> <span data-ttu-id="5af2c-163">Le nombre maximal de serveurs frontaux dans un pool est de 12.</span><span class="sxs-lookup"><span data-stu-id="5af2c-163">The maximum number of Front End Servers in a pool is 12.</span></span>
 
-<span data-ttu-id="ff30b-164">Pour un pool frontal avec des utilisateurs 80 000, douze serveurs frontaux sont suffisants pour les performances, dans des déploiements classiques qui suivent les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-164">For a Front End pool with 80,000 users, twelve Front End Servers is sufficient for performance, in typical deployments that follow the [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span> <span data-ttu-id="ff30b-165">Les déploiements conçus pour prendre en charge le basculement de récupération d’urgence supposent qu’un maximum de 40 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, où chaque pool dispose de serveurs frontaux suffisants pour accueillir les utilisateurs des deux pools en cas de défaillance d’un pool. vers l’autre.</span><span class="sxs-lookup"><span data-stu-id="ff30b-165">Deployments designed to support disaster recovery failover assume that a maximum of 40,000 users can be hosted in each of two paired Front End pools, in which each pool has enough Front End Servers to accommodate the users in both pools should one pool need to be failed over to the other.</span></span>
+<span data-ttu-id="5af2c-164">Pour un pool frontal avec des utilisateurs 80 000, douze serveurs frontaux sont suffisants pour les performances, dans des déploiements classiques qui suivent les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-164">For a Front End pool with 80,000 users, twelve Front End Servers is sufficient for performance, in typical deployments that follow the [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span> <span data-ttu-id="5af2c-165">Les déploiements conçus pour prendre en charge le basculement de récupération d’urgence supposent qu’un maximum de 40 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, où chaque pool dispose de serveurs frontaux suffisants pour accueillir les utilisateurs des deux pools en cas de défaillance d’un pool. vers l’autre.</span><span class="sxs-lookup"><span data-stu-id="5af2c-165">Deployments designed to support disaster recovery failover assume that a maximum of 40,000 users can be hosted in each of two paired Front End pools, in which each pool has enough Front End Servers to accommodate the users in both pools should one pool need to be failed over to the other.</span></span>
 
-<span data-ttu-id="ff30b-166">Le nombre d’utilisateurs pris en charge avec de bonnes performances par un pool frontal particulier peut différer de ces chiffres pour les raisons suivantes :</span><span class="sxs-lookup"><span data-stu-id="ff30b-166">The number of users supported with good performance by a particular Front End pool may differ from these numbers for the following reasons:</span></span>
+<span data-ttu-id="5af2c-166">Le nombre d’utilisateurs pris en charge avec de bonnes performances par un pool frontal particulier peut différer de ces chiffres pour les raisons suivantes :</span><span class="sxs-lookup"><span data-stu-id="5af2c-166">The number of users supported with good performance by a particular Front End pool may differ from these numbers for the following reasons:</span></span>
 
-  - <span data-ttu-id="ff30b-167">Le matériel de vos serveurs frontaux ne répond pas aux recommandations des [plateformes matérielles de serveur pour Lync server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-167">The hardware for your Front End Servers does not meet the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
+  - <span data-ttu-id="5af2c-167">Le matériel de vos serveurs frontaux ne répond pas aux recommandations des [plateformes matérielles de serveur pour Lync server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-167">The hardware for your Front End Servers does not meet the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
 
-  - <span data-ttu-id="ff30b-168">L’utilisation de votre organisation diffère de manière significative de celle des modèles utilisateur, en raison d’un trafic de conférence plus important par exemple.</span><span class="sxs-lookup"><span data-stu-id="ff30b-168">Your organization’s usage differs significantly from the user models, such as significantly more conferencing traffic.</span></span>
+  - <span data-ttu-id="5af2c-168">L’utilisation de votre organisation diffère de manière significative de celle des modèles utilisateur, en raison d’un trafic de conférence plus important par exemple.</span><span class="sxs-lookup"><span data-stu-id="5af2c-168">Your organization’s usage differs significantly from the user models, such as significantly more conferencing traffic.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="ff30b-169">Dans Lync Server 2013, les bases de données de présence sont désormais hébergées sur des serveurs frontaux, contrairement à Lync Server 2010 où elles étaient hébergées sur le serveur principal.</span><span class="sxs-lookup"><span data-stu-id="ff30b-169">In Lync Server 2013, the presence databases are now hosted on Front End Servers, unlike in Lync Server 2010 where they were hosted on the Back End Server.</span></span> <span data-ttu-id="ff30b-170">Cela signifie que les performances de disque et la capacité de vos serveurs frontaux ne doivent pas être compromises par les recommandations répertoriées plus haut dans cette section et dans les <A href="lync-server-2013-server-hardware-platforms.md">plateformes matérielles de serveur pour Lync Server 2013</A>, quel que soit le nombre d’utilisateurs hébergés par vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="ff30b-170">This means that the disk performance and capacity of your Front End Servers should not be compromised from the recommendations listed earlier in this section and in <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>, regardless of the number of users hosted by your Front End Servers.</span></span>
+> <span data-ttu-id="5af2c-169">Dans Lync Server 2013, les bases de données de présence sont désormais hébergées sur des serveurs frontaux, contrairement à Lync Server 2010 où elles étaient hébergées sur le serveur principal.</span><span class="sxs-lookup"><span data-stu-id="5af2c-169">In Lync Server 2013, the presence databases are now hosted on Front End Servers, unlike in Lync Server 2010 where they were hosted on the Back End Server.</span></span> <span data-ttu-id="5af2c-170">Cela signifie que les performances de disque et la capacité de vos serveurs frontaux ne doivent pas être compromises par les recommandations répertoriées plus haut dans cette section et dans les <A href="lync-server-2013-server-hardware-platforms.md">plateformes matérielles de serveur pour Lync Server 2013</A>, quel que soit le nombre d’utilisateurs hébergés par vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="5af2c-170">This means that the disk performance and capacity of your Front End Servers should not be compromised from the recommendations listed earlier in this section and in <A href="lync-server-2013-server-hardware-platforms.md">Server hardware platforms for Lync Server 2013</A>, regardless of the number of users hosted by your Front End Servers.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="ff30b-171">Le tableau suivant indique la bande passante moyenne pour la messagerie instantanée et la présence, étant donné le modèle utilisateur, tel qu’il est défini dans [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-171">The following table shows the average bandwidth for IM and presence, given the user model, as defined in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+<span data-ttu-id="5af2c-171">Le tableau suivant indique la bande passante moyenne pour la messagerie instantanée et la présence, étant donné le modèle utilisateur, tel qu’il est défini dans [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-171">The following table shows the average bandwidth for IM and presence, given the user model, as defined in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
 
 <table>
@@ -203,14 +203,14 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-172">Bande passante moyenne par utilisateur</span><span class="sxs-lookup"><span data-stu-id="ff30b-172">Average bandwidth per user</span></span></th>
-<th><span data-ttu-id="ff30b-173">Besoins en bande passante par serveur frontal avec 6 660 utilisateurs</span><span class="sxs-lookup"><span data-stu-id="ff30b-173">Bandwidth requirements per Front End Server with 6,660 users</span></span></th>
+<th><span data-ttu-id="5af2c-172">Bande passante moyenne par utilisateur</span><span class="sxs-lookup"><span data-stu-id="5af2c-172">Average bandwidth per user</span></span></th>
+<th><span data-ttu-id="5af2c-173">Besoins en bande passante par serveur frontal avec 6 660 utilisateurs</span><span class="sxs-lookup"><span data-stu-id="5af2c-173">Bandwidth requirements per Front End Server with 6,660 users</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-174">1,3 Kbits/s</span><span class="sxs-lookup"><span data-stu-id="ff30b-174">1.3 Kpbs</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-175">13 Mbits/s</span><span class="sxs-lookup"><span data-stu-id="ff30b-175">13 Mbps</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-174">1,3 Kbits/s</span><span class="sxs-lookup"><span data-stu-id="5af2c-174">1.3 Kpbs</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-175">13 Mbits/s</span><span class="sxs-lookup"><span data-stu-id="5af2c-175">13 Mbps</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -220,7 +220,7 @@ ms.locfileid: "42036484"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-176">Pour améliorer les performances multimédia de la fonctionnalité de conférence A/V et du serveur de médiation colocalisée sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="ff30b-176">To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers.</span></span> <span data-ttu-id="ff30b-177">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-177">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="ff30b-178">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="ff30b-178">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="ff30b-179">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="ff30b-179">For details about how to enable RSS, see your network adapter documentation.</span></span>
+> <span data-ttu-id="5af2c-176">Pour améliorer les performances multimédia de la fonctionnalité de conférence A/V et du serveur de médiation colocalisée sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="5af2c-176">To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers.</span></span> <span data-ttu-id="5af2c-177">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-177">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="5af2c-178">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="5af2c-178">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="5af2c-179">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="5af2c-179">For details about how to enable RSS, see your network adapter documentation.</span></span>
 
 
 
@@ -230,93 +230,93 @@ ms.locfileid: "42036484"
 
 <div>
 
-## <a name="conferencing-maximums"></a><span data-ttu-id="ff30b-180">Nombre maximal de conférences</span><span class="sxs-lookup"><span data-stu-id="ff30b-180">Conferencing Maximums</span></span>
+## <a name="conferencing-maximums"></a><span data-ttu-id="5af2c-180">Nombre maximal de conférences</span><span class="sxs-lookup"><span data-stu-id="5af2c-180">Conferencing Maximums</span></span>
 
-<span data-ttu-id="ff30b-181">Selon le modèle utilisateur, 5 % des utilisateurs d’un pool peuvent assister à une conférence en même temps, donc un pool de 80 000 utilisateurs peut avoir 4 000 utilisateurs en conférence simultanément.</span><span class="sxs-lookup"><span data-stu-id="ff30b-181">Given the user model that 5% of users in a pool may be in a conference at any one time, a pool of 80,000 users could have about 4,000 users in conferences at one time.</span></span> <span data-ttu-id="ff30b-182">Ces conférences sont supposées être composées d’un mélange de plusieurs médias (messagerie instantanée uniquement, messagerie instantanée avec audio, audio/vidéo par exemple) et du nombre de participants.</span><span class="sxs-lookup"><span data-stu-id="ff30b-182">These conferences are expected to be a mix of media (some IM-only, some IM with audio, some audio/video, for example) and number of participants.</span></span> <span data-ttu-id="ff30b-183">Il n’existe pas de limite inconditionnelle au nombre réel de conférences autorisées, et l’utilisation réelle détermine les performances réelles.</span><span class="sxs-lookup"><span data-stu-id="ff30b-183">There is no hard limit for the actual number of conferences allowed, and actual usage determines the actual performance.</span></span> <span data-ttu-id="ff30b-184">Par exemple, si le nombre de conférences en mode mixte dans votre organisation est anormalement élevé par rapport au modèle utilisateur, vous devrez peut-être déployer un nombre de serveurs frontaux et de serveurs de conférence A/V plus important que celui recommandé dans ce document.</span><span class="sxs-lookup"><span data-stu-id="ff30b-184">For example, if your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers or A/V Conferencing Servers than the recommendations in this document.</span></span> <span data-ttu-id="ff30b-185">Pour plus d’informations sur les hypothèses du modèle utilisateur, voir [User Models in Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-185">For details about the assumptions in the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+<span data-ttu-id="5af2c-181">Selon le modèle utilisateur, 5 % des utilisateurs d’un pool peuvent assister à une conférence en même temps, donc un pool de 80 000 utilisateurs peut avoir 4 000 utilisateurs en conférence simultanément.</span><span class="sxs-lookup"><span data-stu-id="5af2c-181">Given the user model that 5% of users in a pool may be in a conference at any one time, a pool of 80,000 users could have about 4,000 users in conferences at one time.</span></span> <span data-ttu-id="5af2c-182">Ces conférences sont supposées être composées d’un mélange de plusieurs médias (messagerie instantanée uniquement, messagerie instantanée avec audio, audio/vidéo par exemple) et du nombre de participants.</span><span class="sxs-lookup"><span data-stu-id="5af2c-182">These conferences are expected to be a mix of media (some IM-only, some IM with audio, some audio/video, for example) and number of participants.</span></span> <span data-ttu-id="5af2c-183">Il n’existe pas de limite inconditionnelle au nombre réel de conférences autorisées, et l’utilisation réelle détermine les performances réelles.</span><span class="sxs-lookup"><span data-stu-id="5af2c-183">There is no hard limit for the actual number of conferences allowed, and actual usage determines the actual performance.</span></span> <span data-ttu-id="5af2c-184">Par exemple, si le nombre de conférences en mode mixte dans votre organisation est anormalement élevé par rapport au modèle utilisateur, vous devrez peut-être déployer un nombre de serveurs frontaux et de serveurs de conférence A/V plus important que celui recommandé dans ce document.</span><span class="sxs-lookup"><span data-stu-id="5af2c-184">For example, if your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers or A/V Conferencing Servers than the recommendations in this document.</span></span> <span data-ttu-id="5af2c-185">Pour plus d’informations sur les hypothèses du modèle utilisateur, voir [User Models in Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-185">For details about the assumptions in the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
-<span data-ttu-id="ff30b-186">La taille de conférence maximale prise en charge par un pool frontal Lync Server 2013 classique qui héberge également les utilisateurs est de 250 participants.</span><span class="sxs-lookup"><span data-stu-id="ff30b-186">The maximum supported conference size hosted by a regular Lync Server 2013 Front End pool which also hosts users is 250 participants.</span></span> <span data-ttu-id="ff30b-187">Pendant une conférence de 250 utilisateurs, le pool prend toujours en charge d’autres conférences, de sorte qu’un total de 5% des utilisateurs du pool se trouvent dans des conférences simultanées.</span><span class="sxs-lookup"><span data-stu-id="ff30b-187">While a 250-user conference is happening, the pool still supports other conferences as well, such that a total of 5% of pool users are in concurrent conferences.</span></span> <span data-ttu-id="ff30b-188">Par exemple, dans un pool de douze serveurs frontaux et 80 000 utilisateurs, tandis que la Conférence utilisateur 250 se produit, Lync Server prend en charge 3 750 autres utilisateurs participant à des conférences plus petites.</span><span class="sxs-lookup"><span data-stu-id="ff30b-188">For example, in a pool of twelve Front End Servers and 80,000 users, while the 250-user conference is happening, Lync Server supports 3,750 other users participating in smaller conferences.</span></span>
+<span data-ttu-id="5af2c-186">La taille de conférence maximale prise en charge par un pool frontal Lync Server 2013 classique qui héberge également les utilisateurs est de 250 participants.</span><span class="sxs-lookup"><span data-stu-id="5af2c-186">The maximum supported conference size hosted by a regular Lync Server 2013 Front End pool which also hosts users is 250 participants.</span></span> <span data-ttu-id="5af2c-187">Pendant une conférence de 250 utilisateurs, le pool prend toujours en charge d’autres conférences, de sorte qu’un total de 5% des utilisateurs du pool se trouvent dans des conférences simultanées.</span><span class="sxs-lookup"><span data-stu-id="5af2c-187">While a 250-user conference is happening, the pool still supports other conferences as well, such that a total of 5% of pool users are in concurrent conferences.</span></span> <span data-ttu-id="5af2c-188">Par exemple, dans un pool de douze serveurs frontaux et 80 000 utilisateurs, tandis que la Conférence utilisateur 250 se produit, Lync Server prend en charge 3 750 autres utilisateurs participant à des conférences plus petites.</span><span class="sxs-lookup"><span data-stu-id="5af2c-188">For example, in a pool of twelve Front End Servers and 80,000 users, while the 250-user conference is happening, Lync Server supports 3,750 other users participating in smaller conferences.</span></span>
 
-<span data-ttu-id="ff30b-189">Quel que soit le nombre d’utilisateurs hébergés sur le pool frontal ou le serveur Standard Edition, Lync Server prend en charge un minimum de 125 autres utilisateurs participant à des conférences plus petites sur le même pool ou serveur qui héberge une conférence de 250 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="ff30b-189">Regardless of the number of users homed on the Front End pool or Standard Edition server, Lync Server supports a minimum of 125 other users participating in smaller conferences on the same pool or server which is hosting a 250-user conference.</span></span>
+<span data-ttu-id="5af2c-189">Quel que soit le nombre d’utilisateurs hébergés sur le pool frontal ou le serveur Standard Edition, Lync Server prend en charge un minimum de 125 autres utilisateurs participant à des conférences plus petites sur le même pool ou serveur qui héberge une conférence de 250 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5af2c-189">Regardless of the number of users homed on the Front End pool or Standard Edition server, Lync Server supports a minimum of 125 other users participating in smaller conferences on the same pool or server which is hosting a 250-user conference.</span></span>
 
-<span data-ttu-id="ff30b-190">Pour activer les conférences avec des utilisateurs entre 250 et 1000, vous pouvez configurer un pool frontal distinct pour héberger ces conférences.</span><span class="sxs-lookup"><span data-stu-id="ff30b-190">To enable conferences with between 250 and 1000 users, you can set up a separate Front End pool just to host those conferences.</span></span> <span data-ttu-id="ff30b-191">Ce pool frontal n’héberge aucun utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-191">This Front End pool will not host any users.</span></span> <span data-ttu-id="ff30b-192">Pour plus d’informations, consultez la rubrique [prise en charge de grandes réunions à l’aide de Lync Server 2013](lync-server-2013-supporting-large-meetings.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-192">For details, see [Supporting large meetings using Lync Server 2013](lync-server-2013-supporting-large-meetings.md).</span></span>
+<span data-ttu-id="5af2c-190">Pour activer les conférences avec des utilisateurs entre 250 et 1000, vous pouvez configurer un pool frontal distinct pour héberger ces conférences.</span><span class="sxs-lookup"><span data-stu-id="5af2c-190">To enable conferences with between 250 and 1000 users, you can set up a separate Front End pool just to host those conferences.</span></span> <span data-ttu-id="5af2c-191">Ce pool frontal n’héberge aucun utilisateur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-191">This Front End pool will not host any users.</span></span> <span data-ttu-id="5af2c-192">Pour plus d’informations, consultez la rubrique [prise en charge de grandes réunions à l’aide de Lync Server 2013](lync-server-2013-supporting-large-meetings.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-192">For details, see [Supporting large meetings using Lync Server 2013](lync-server-2013-supporting-large-meetings.md).</span></span>
 
-<span data-ttu-id="ff30b-193">Si votre organisation a de nombreuses conférences en mode mixte que celles supposées dans le modèle utilisateur, vous devrez peut-être déployer davantage de serveurs frontaux que les recommandations de ce document (jusqu’à une limite de 12 FEs).</span><span class="sxs-lookup"><span data-stu-id="ff30b-193">If your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers than the recommendations in this document (up to a limit of 12 FEs).</span></span> <span data-ttu-id="ff30b-194">Pour plus d’informations sur les hypothèses du modèle utilisateur, voir [User Models in Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-194">For details about the assumptions in the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+<span data-ttu-id="5af2c-193">Si votre organisation a de nombreuses conférences en mode mixte que celles supposées dans le modèle utilisateur, vous devrez peut-être déployer davantage de serveurs frontaux que les recommandations de ce document (jusqu’à une limite de 12 FEs).</span><span class="sxs-lookup"><span data-stu-id="5af2c-193">If your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers than the recommendations in this document (up to a limit of 12 FEs).</span></span> <span data-ttu-id="5af2c-194">Pour plus d’informations sur les hypothèses du modèle utilisateur, voir [User Models in Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-194">For details about the assumptions in the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="edge-server"></a><span data-ttu-id="ff30b-195">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="ff30b-195">Edge Server</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="ff30b-196">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-196">Stretched pools are not supported for this server role.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="ff30b-197">Vous devez déployer un serveur Edge pour chaque 12 000 utilisateurs distants qui accèdent simultanément à un site.</span><span class="sxs-lookup"><span data-stu-id="ff30b-197">You should deploy one Edge Server for every 12,000 remote users who will access a site concurrently.</span></span> <span data-ttu-id="ff30b-198">Nous vous conseillons au moins deux serveurs Edge pour une disponibilité élevée.</span><span class="sxs-lookup"><span data-stu-id="ff30b-198">At a minimum we recommend two Edge Servers for high availability.</span></span> <span data-ttu-id="ff30b-199">Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-199">These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
-
-<span data-ttu-id="ff30b-200">Lorsque vous comptez le nombre d’utilisateurs pour les serveurs Edge, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.</span><span class="sxs-lookup"><span data-stu-id="ff30b-200">When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.</span></span>
+## <a name="edge-server"></a><span data-ttu-id="5af2c-195">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="5af2c-195">Edge Server</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-201">Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="ff30b-201">To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers.</span></span> <span data-ttu-id="ff30b-202">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-202">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="ff30b-203">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="ff30b-203">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="ff30b-204">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="ff30b-204">For details about how to enable RSS, see your network adapter documentation.</span></span>
+> <span data-ttu-id="5af2c-196">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-196">Stretched pools are not supported for this server role.</span></span>
 
 
 
 </div>
 
-</div>
+<span data-ttu-id="5af2c-197">Vous devez déployer un serveur Edge pour chaque 12 000 utilisateurs distants qui accèdent simultanément à un site.</span><span class="sxs-lookup"><span data-stu-id="5af2c-197">You should deploy one Edge Server for every 12,000 remote users who will access a site concurrently.</span></span> <span data-ttu-id="5af2c-198">Nous vous conseillons au moins deux serveurs Edge pour une disponibilité élevée.</span><span class="sxs-lookup"><span data-stu-id="5af2c-198">At a minimum we recommend two Edge Servers for high availability.</span></span> <span data-ttu-id="5af2c-199">Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-199">These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
 
-<div>
-
-## <a name="director"></a><span data-ttu-id="ff30b-205">48000b</span><span class="sxs-lookup"><span data-stu-id="ff30b-205">Director</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="ff30b-206">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-206">Stretched pools are not supported for this server role.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="ff30b-207">Si vous déployez le rôle de serveur Directeur, nous vous recommandons de déployer un directeur pour chaque 12 000 utilisateurs distants qui accèdent simultanément à un site.</span><span class="sxs-lookup"><span data-stu-id="ff30b-207">If you deploy the Director server role we recommend that you deploy one Director for every 12,000 remote users who will access a site concurrently.</span></span> <span data-ttu-id="ff30b-208">Nous vous conseillons au moins deux directeurs pour une disponibilité élevée.</span><span class="sxs-lookup"><span data-stu-id="ff30b-208">At a minimum we recommend two Directors for high availability.</span></span> <span data-ttu-id="ff30b-209">Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-209">These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
-
-<span data-ttu-id="ff30b-210">Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.</span><span class="sxs-lookup"><span data-stu-id="ff30b-210">When you account for the number of users for the Directors, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.</span></span>
-
-</div>
-
-<div>
-
-## <a name="mediation-server"></a><span data-ttu-id="ff30b-211">Serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="ff30b-211">Mediation Server</span></span>
+<span data-ttu-id="5af2c-200">Lorsque vous comptez le nombre d’utilisateurs pour les serveurs Edge, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.</span><span class="sxs-lookup"><span data-stu-id="5af2c-200">When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-212">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-212">Stretched pools are not supported for this server role.</span></span>
+> <span data-ttu-id="5af2c-201">Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="5af2c-201">To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers.</span></span> <span data-ttu-id="5af2c-202">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-202">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="5af2c-203">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="5af2c-203">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="5af2c-204">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="5af2c-204">For details about how to enable RSS, see your network adapter documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="ff30b-213">Si vous colocaliser serveur de médiation avec un serveur frontal, le serveur de médiation s’exécute sur chaque serveur frontal du pool et doit fournir une capacité suffisante pour les utilisateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="ff30b-213">If you collocate Mediation Server with Front End Server, Mediation Server runs on every Front End Server in the pool, and should provide enough capacity for the users in the pool.</span></span>
+</div>
 
-<span data-ttu-id="ff30b-214">Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, dont le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP dont vous disposez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation les contrôles, le trafic des heures de pointe via ces passerelles et le pourcentage d’appels avec des médias qui contournent le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="ff30b-214">If you deploy a stand-alone Mediation Server pool, then how many Mediation Servers to deploy depends on many factors, including the hardware used for Mediation Server, the number of VoIP users you have, the number of gateway peers that each Mediation Server pool controls, the busy hour traffic through those gateways, and the percentage of calls with media that bypasses the Mediation Server.</span></span>
+<div>
 
-<span data-ttu-id="ff30b-215">Les tableaux suivants fournissent une indication du nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel pour les serveurs de médiation répond aux exigences des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) et que la technologie Hyper-Threading soit activée.</span><span class="sxs-lookup"><span data-stu-id="ff30b-215">The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) and that hyper-threading is enabled.</span></span> <span data-ttu-id="ff30b-216">Pour plus d’informations sur l’extensibilité du serveur de médiation, voir [estimation de l’utilisation et du trafic vocaux pour Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) et [les instructions de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-216">For details about Mediation Server scalability, see [Estimating voice usage and traffic for Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) and [Deployment guidelines for Mediation Server in Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).</span></span>
+## <a name="director"></a><span data-ttu-id="5af2c-205">48000b</span><span class="sxs-lookup"><span data-stu-id="5af2c-205">Director</span></span>
 
-<span data-ttu-id="ff30b-217">Tous les tableaux ci-dessous présupposent une utilisation telle que résumée dans les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-217">All the following tables assume usage as summarized in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+<div>
 
-### <a name="stand-alone-mediation-server-capacity-70-internal-users-30-external-users-with-non-bypass-call-capacity-media-transcoding-performed-by-mediation-server"></a><span data-ttu-id="ff30b-218">Capacité de serveur de médiation autonome : 70% d’utilisateurs internes, 30% d’utilisateurs externes avec une capacité d’appel sans contournement (transcodage multimédia effectué par le serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="ff30b-218">Stand-alone Mediation Server Capacity: 70% Internal Users, 30% External users with non-bypass call capacity (media transcoding performed by Mediation Server)</span></span>
+
+> [!NOTE]  
+> <span data-ttu-id="5af2c-206">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-206">Stretched pools are not supported for this server role.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="5af2c-207">Si vous déployez le rôle de serveur Directeur, nous vous recommandons de déployer un directeur pour chaque 12 000 utilisateurs distants qui accèdent simultanément à un site.</span><span class="sxs-lookup"><span data-stu-id="5af2c-207">If you deploy the Director server role we recommend that you deploy one Director for every 12,000 remote users who will access a site concurrently.</span></span> <span data-ttu-id="5af2c-208">Nous vous conseillons au moins deux directeurs pour une disponibilité élevée.</span><span class="sxs-lookup"><span data-stu-id="5af2c-208">At a minimum we recommend two Directors for high availability.</span></span> <span data-ttu-id="5af2c-209">Ces recommandations supposent que le matériel de vos serveurs Edge répond aux recommandations des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-209">These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
+
+<span data-ttu-id="5af2c-210">Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les utilisateurs hébergés sur les Survivable Branch Appliances et les serveurs Survivable Branch Server des succursales associés à un pool frontal sur ce site.</span><span class="sxs-lookup"><span data-stu-id="5af2c-210">When you account for the number of users for the Directors, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.</span></span>
+
+</div>
+
+<div>
+
+## <a name="mediation-server"></a><span data-ttu-id="5af2c-211">Serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="5af2c-211">Mediation Server</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="5af2c-212">Les pools étirés ne sont pas pris en charge pour ce rôle serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-212">Stretched pools are not supported for this server role.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="5af2c-213">Si vous colocaliser serveur de médiation avec un serveur frontal, le serveur de médiation s’exécute sur chaque serveur frontal du pool et doit fournir une capacité suffisante pour les utilisateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="5af2c-213">If you collocate Mediation Server with Front End Server, Mediation Server runs on every Front End Server in the pool, and should provide enough capacity for the users in the pool.</span></span>
+
+<span data-ttu-id="5af2c-214">Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, dont le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP dont vous disposez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation les contrôles, le trafic des heures de pointe via ces passerelles et le pourcentage d’appels avec des médias qui contournent le serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="5af2c-214">If you deploy a stand-alone Mediation Server pool, then how many Mediation Servers to deploy depends on many factors, including the hardware used for Mediation Server, the number of VoIP users you have, the number of gateway peers that each Mediation Server pool controls, the busy hour traffic through those gateways, and the percentage of calls with media that bypasses the Mediation Server.</span></span>
+
+<span data-ttu-id="5af2c-215">Les tableaux suivants fournissent une indication du nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel pour les serveurs de médiation répond aux exigences des [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) et que la technologie Hyper-Threading soit activée.</span><span class="sxs-lookup"><span data-stu-id="5af2c-215">The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) and that hyper-threading is enabled.</span></span> <span data-ttu-id="5af2c-216">Pour plus d’informations sur l’extensibilité du serveur de médiation, voir [estimation de l’utilisation et du trafic vocaux pour Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) et [les instructions de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-216">For details about Mediation Server scalability, see [Estimating voice usage and traffic for Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) and [Deployment guidelines for Mediation Server in Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).</span></span>
+
+<span data-ttu-id="5af2c-217">Tous les tableaux ci-dessous présupposent une utilisation telle que résumée dans les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-217">All the following tables assume usage as summarized in [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
+
+### <a name="stand-alone-mediation-server-capacity-70-internal-users-30-external-users-with-non-bypass-call-capacity-media-transcoding-performed-by-mediation-server"></a><span data-ttu-id="5af2c-218">Capacité de serveur de médiation autonome : 70% d’utilisateurs internes, 30% d’utilisateurs externes avec une capacité d’appel sans contournement (transcodage multimédia effectué par le serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="5af2c-218">Stand-alone Mediation Server Capacity: 70% Internal Users, 30% External users with non-bypass call capacity (media transcoding performed by Mediation Server)</span></span>
 
 <table>
 <colgroup>
@@ -327,24 +327,24 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-219">Matériel serveur</span><span class="sxs-lookup"><span data-stu-id="ff30b-219">Server hardware</span></span></th>
-<th><span data-ttu-id="ff30b-220">Nombre maximal d’appels</span><span class="sxs-lookup"><span data-stu-id="ff30b-220">Maximum number of calls</span></span></th>
-<th><span data-ttu-id="ff30b-221">Nombre maximal de lignes T1</span><span class="sxs-lookup"><span data-stu-id="ff30b-221">Maximum number of T1 lines</span></span></th>
-<th><span data-ttu-id="ff30b-222">Nombre maximal de lignes E1</span><span class="sxs-lookup"><span data-stu-id="ff30b-222">Maximum number of E1 lines</span></span></th>
+<th><span data-ttu-id="5af2c-219">Matériel serveur</span><span class="sxs-lookup"><span data-stu-id="5af2c-219">Server hardware</span></span></th>
+<th><span data-ttu-id="5af2c-220">Nombre maximal d’appels</span><span class="sxs-lookup"><span data-stu-id="5af2c-220">Maximum number of calls</span></span></th>
+<th><span data-ttu-id="5af2c-221">Nombre maximal de lignes T1</span><span class="sxs-lookup"><span data-stu-id="5af2c-221">Maximum number of T1 lines</span></span></th>
+<th><span data-ttu-id="5af2c-222">Nombre maximal de lignes E1</span><span class="sxs-lookup"><span data-stu-id="5af2c-222">Maximum number of E1 lines</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-223">Double processeur, principal, cadencé à 2,26 GHz <strong>avec Hyper-Threading désactivé</strong>, avec une mémoire de 32 Go et une carte réseau double port.</span><span class="sxs-lookup"><span data-stu-id="ff30b-223">Dual processor, hex core, 2.26 GHz hyper-threaded CPU <strong>with hyper-threading disabled</strong>, with 32 GB memory and one dual-port network adapter card.</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-224">1100</span><span class="sxs-lookup"><span data-stu-id="ff30b-224">1100</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-225">46</span><span class="sxs-lookup"><span data-stu-id="ff30b-225">46</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-226">35</span><span class="sxs-lookup"><span data-stu-id="ff30b-226">35</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-223">Double processeur, principal, cadencé à 2,26 GHz <strong>avec Hyper-Threading désactivé</strong>, avec une mémoire de 32 Go et une carte réseau double port.</span><span class="sxs-lookup"><span data-stu-id="5af2c-223">Dual processor, hex core, 2.26 GHz hyper-threaded CPU <strong>with hyper-threading disabled</strong>, with 32 GB memory and one dual-port network adapter card.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-224">1100</span><span class="sxs-lookup"><span data-stu-id="5af2c-224">1100</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-225">46</span><span class="sxs-lookup"><span data-stu-id="5af2c-225">46</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-226">35</span><span class="sxs-lookup"><span data-stu-id="5af2c-226">35</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-227">Dual Processor, hex Core, processeur Hyper-Threading 2,26 GHz, 1 32 Go de mémoire et une carte réseau double port.</span><span class="sxs-lookup"><span data-stu-id="ff30b-227">Dual processor, hex core, 2.26 GHz hyper-threaded CPU, with 32 GB memory and one dual-port network adapter card.</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-228">1500</span><span class="sxs-lookup"><span data-stu-id="ff30b-228">1500</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-229">63</span><span class="sxs-lookup"><span data-stu-id="ff30b-229">63</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-230">47</span><span class="sxs-lookup"><span data-stu-id="ff30b-230">47</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-227">Dual Processor, hex Core, processeur Hyper-Threading 2,26 GHz, 1 32 Go de mémoire et une carte réseau double port.</span><span class="sxs-lookup"><span data-stu-id="5af2c-227">Dual processor, hex core, 2.26 GHz hyper-threaded CPU, with 32 GB memory and one dual-port network adapter card.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-228">1500</span><span class="sxs-lookup"><span data-stu-id="5af2c-228">1500</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-229">63</span><span class="sxs-lookup"><span data-stu-id="5af2c-229">63</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-230">47</span><span class="sxs-lookup"><span data-stu-id="5af2c-230">47</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -354,13 +354,13 @@ ms.locfileid: "42036484"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-231">Bien que des serveurs dotés de 32 Go de mémoire aient été utilisés pour tester les performances, les serveurs ayant 16 Go de mémoire sont pris en charge pour un serveur de médiation autonome et sont suffisants pour fournir les performances indiquées dans ce tableau.</span><span class="sxs-lookup"><span data-stu-id="ff30b-231">Although servers with 32 GB of memory were used for performance testing, servers with 16 GB of memory are supported for stand-alone Mediation Server, and are sufficient to provide the performance shown in this table.</span></span>
+> <span data-ttu-id="5af2c-231">Bien que des serveurs dotés de 32 Go de mémoire aient été utilisés pour tester les performances, les serveurs ayant 16 Go de mémoire sont pris en charge pour un serveur de médiation autonome et sont suffisants pour fournir les performances indiquées dans ce tableau.</span><span class="sxs-lookup"><span data-stu-id="5af2c-231">Although servers with 32 GB of memory were used for performance testing, servers with 16 GB of memory are supported for stand-alone Mediation Server, and are sufficient to provide the performance shown in this table.</span></span>
 
 
 
 </div>
 
-### <a name="mediation-server-capacity-mediation-server-collocated-with-front-end-server-70-internal-users-30-external-users-non-bypass-call-capacity-media-processing-performed-by-mediation-server"></a><span data-ttu-id="ff30b-232">Capacité du serveur de médiation (serveur de médiation colocalisé avec le serveur frontal) 70% d’utilisateurs internes, 30% d’utilisateurs externes, capacité d’appel sans contournement (traitement multimédia effectué par le serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="ff30b-232">Mediation Server Capacity (Mediation Server Collocated with Front End Server) 70% Internal Users, 30% External Users, Non-Bypass Call Capacity (Media Processing Performed by Mediation Server)</span></span>
+### <a name="mediation-server-capacity-mediation-server-collocated-with-front-end-server-70-internal-users-30-external-users-non-bypass-call-capacity-media-processing-performed-by-mediation-server"></a><span data-ttu-id="5af2c-232">Capacité du serveur de médiation (serveur de médiation colocalisé avec le serveur frontal) 70% d’utilisateurs internes, 30% d’utilisateurs externes, capacité d’appel sans contournement (traitement multimédia effectué par le serveur de médiation)</span><span class="sxs-lookup"><span data-stu-id="5af2c-232">Mediation Server Capacity (Mediation Server Collocated with Front End Server) 70% Internal Users, 30% External Users, Non-Bypass Call Capacity (Media Processing Performed by Mediation Server)</span></span>
 
 <table>
 <colgroup>
@@ -369,14 +369,14 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-233">Matériel serveur</span><span class="sxs-lookup"><span data-stu-id="ff30b-233">Server hardware</span></span></th>
-<th><span data-ttu-id="ff30b-234">Nombre maximal d’appels</span><span class="sxs-lookup"><span data-stu-id="ff30b-234">Maximum number of calls</span></span></th>
+<th><span data-ttu-id="5af2c-233">Matériel serveur</span><span class="sxs-lookup"><span data-stu-id="5af2c-233">Server hardware</span></span></th>
+<th><span data-ttu-id="5af2c-234">Nombre maximal d’appels</span><span class="sxs-lookup"><span data-stu-id="5af2c-234">Maximum number of calls</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-235">Dual Processor, hex Core, processeur Hyper-Threading 2,26 GHz, avec une mémoire de 32 Go et 2 cartes réseau 1 Go.</span><span class="sxs-lookup"><span data-stu-id="ff30b-235">Dual processor, hex core, 2.26 GHz hyper-threaded CPU, with 32 GB memory and 2 1GB network adapter cards.</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-236">150</span><span class="sxs-lookup"><span data-stu-id="ff30b-236">150</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-235">Dual Processor, hex Core, processeur Hyper-Threading 2,26 GHz, avec une mémoire de 32 Go et 2 cartes réseau 1 Go.</span><span class="sxs-lookup"><span data-stu-id="5af2c-235">Dual processor, hex core, 2.26 GHz hyper-threaded CPU, with 32 GB memory and 2 1GB network adapter cards.</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-236">150</span><span class="sxs-lookup"><span data-stu-id="5af2c-236">150</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -386,7 +386,7 @@ ms.locfileid: "42036484"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-237">Ce nombre est plus petit que les numéros pour le serveur de médiation autonome car le serveur frontal doit gérer d’autres fonctionnalités et fonctions pour les 6600 utilisateurs hébergés dessus, en plus du transcodage nécessaire pour les appels vocaux.</span><span class="sxs-lookup"><span data-stu-id="ff30b-237">This number is much smaller than the numbers for the stand-alone Mediation Server because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls.</span></span>
+> <span data-ttu-id="5af2c-237">Ce nombre est plus petit que les numéros pour le serveur de médiation autonome car le serveur frontal doit gérer d’autres fonctionnalités et fonctions pour les 6600 utilisateurs hébergés dessus, en plus du transcodage nécessaire pour les appels vocaux.</span><span class="sxs-lookup"><span data-stu-id="5af2c-237">This number is much smaller than the numbers for the stand-alone Mediation Server because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls.</span></span>
 
 
 
@@ -396,7 +396,7 @@ ms.locfileid: "42036484"
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff30b-238">Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="ff30b-238">To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers.</span></span> <span data-ttu-id="ff30b-239">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-239">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="ff30b-240">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="ff30b-240">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="ff30b-241">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="ff30b-241">For details about how to enable RSS, see your network adapter documentation.</span></span>
+> <span data-ttu-id="5af2c-238">Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="5af2c-238">To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers.</span></span> <span data-ttu-id="5af2c-239">RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-239">RSS enables incoming packets to be handled in parallel by multiple processors on the server.</span></span> <span data-ttu-id="5af2c-240">Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="5af2c-240">For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>.</span></span> <span data-ttu-id="5af2c-241">Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.</span><span class="sxs-lookup"><span data-stu-id="5af2c-241">For details about how to enable RSS, see your network adapter documentation.</span></span>
 
 
 
@@ -406,21 +406,21 @@ ms.locfileid: "42036484"
 
 <div>
 
-## <a name="back-end-server"></a><span data-ttu-id="ff30b-242">serveur principal</span><span class="sxs-lookup"><span data-stu-id="ff30b-242">Back End Server</span></span>
+## <a name="back-end-server"></a><span data-ttu-id="5af2c-242">serveur principal</span><span class="sxs-lookup"><span data-stu-id="5af2c-242">Back End Server</span></span>
 
-<span data-ttu-id="ff30b-243">Dans Lync Server 2013, les bases de données de présence se trouvent sur les serveurs frontaux et non sur le serveur principal.</span><span class="sxs-lookup"><span data-stu-id="ff30b-243">In Lync Server 2013, the presence databases are located on the Front End Servers instead of the Back End Server.</span></span> <span data-ttu-id="ff30b-244">Cela a permis une configuration plus simple pour chaque serveur principal de Lync Server 2013, ce qui équivaut à la configuration matérielle requise pour le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="ff30b-244">This has resulted in a much simpler requirement for each Back End Server in Lync Server 2013, equivalent to the hardware requirement for the Front End Server.</span></span> <span data-ttu-id="ff30b-245">À la différence de Lync Server 2010, le serveur principal devait être un serveur de plus grande qualité avec 25 disques.</span><span class="sxs-lookup"><span data-stu-id="ff30b-245">Contrast this to Lync Server 2010, where the Back End Server was required to be a much higher grade server with 25 disks.</span></span> <span data-ttu-id="ff30b-246">Toutefois, la charge de travail des serveurs principaux est toujours telle que vous ne devriez pas ne pas faire face aux recommandations matérielles répertoriées plus haut dans cette section et dans les [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-246">However, the workload of Back End Servers is still such that you should not fail to meet the hardware recommendations listed earlier in this section and in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
+<span data-ttu-id="5af2c-243">Dans Lync Server 2013, les bases de données de présence se trouvent sur les serveurs frontaux et non sur le serveur principal.</span><span class="sxs-lookup"><span data-stu-id="5af2c-243">In Lync Server 2013, the presence databases are located on the Front End Servers instead of the Back End Server.</span></span> <span data-ttu-id="5af2c-244">Cela a permis une configuration plus simple pour chaque serveur principal de Lync Server 2013, ce qui équivaut à la configuration matérielle requise pour le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="5af2c-244">This has resulted in a much simpler requirement for each Back End Server in Lync Server 2013, equivalent to the hardware requirement for the Front End Server.</span></span> <span data-ttu-id="5af2c-245">À la différence de Lync Server 2010, le serveur principal devait être un serveur de plus grande qualité avec 25 disques.</span><span class="sxs-lookup"><span data-stu-id="5af2c-245">Contrast this to Lync Server 2010, where the Back End Server was required to be a much higher grade server with 25 disks.</span></span> <span data-ttu-id="5af2c-246">Toutefois, la charge de travail des serveurs principaux est toujours telle que vous ne devriez pas ne pas faire face aux recommandations matérielles répertoriées plus haut dans cette section et dans les [plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-246">However, the workload of Back End Servers is still such that you should not fail to meet the hardware recommendations listed earlier in this section and in [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
 
-<span data-ttu-id="ff30b-247">Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer la mise en miroir du serveur.</span><span class="sxs-lookup"><span data-stu-id="ff30b-247">To provide high availability of your Back End Server, we recommend deploying server mirroring.</span></span> <span data-ttu-id="ff30b-248">Pour plus d’informations, reportez-vous à la rubrique [back end Server High Availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="ff30b-248">For more information, see [Back End Server high availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span></span>
+<span data-ttu-id="5af2c-247">Pour fournir une haute disponibilité de votre serveur principal, nous vous recommandons de déployer la mise en miroir du serveur.</span><span class="sxs-lookup"><span data-stu-id="5af2c-247">To provide high availability of your Back End Server, we recommend deploying server mirroring.</span></span> <span data-ttu-id="5af2c-248">Pour plus d’informations, reportez-vous à la rubrique [back end Server High Availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="5af2c-248">For more information, see [Back End Server high availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="monitoring-and-archiving"></a><span data-ttu-id="ff30b-249">Surveillance et archivage</span><span class="sxs-lookup"><span data-stu-id="ff30b-249">Monitoring and Archiving</span></span>
+## <a name="monitoring-and-archiving"></a><span data-ttu-id="5af2c-249">Surveillance et archivage</span><span class="sxs-lookup"><span data-stu-id="5af2c-249">Monitoring and Archiving</span></span>
 
-<span data-ttu-id="ff30b-250">Dans Lync Server 2013, si vous déployez la surveillance ou l’archivage, les fonctionnalités frontales de ces services s’exécutent sur les serveurs frontaux, et non sur des rôles serveur distincts.</span><span class="sxs-lookup"><span data-stu-id="ff30b-250">In Lync Server 2013, if you deploy Monitoring or Archiving, the front end functionality of these services runs on the Front End Servers, instead of on separate server roles.</span></span> <span data-ttu-id="ff30b-251">La surveillance et l’archivage utilisent toujours leur propre magasin de bases de données, distinct du magasin principal.</span><span class="sxs-lookup"><span data-stu-id="ff30b-251">Monitoring and Archiving each still use their own database store, separate from the Back End store.</span></span> <span data-ttu-id="ff30b-252">Sinon, si vous avez déployé Exchange 2013, vous pouvez stocker les données d’archivage des messages instantanés dans Exchange au lieu d’un magasin SQL dédié.</span><span class="sxs-lookup"><span data-stu-id="ff30b-252">Alternatively, if you have Exchange 2013 deployed, you can store instant message Archiving data in Exchange instead of in a dedicated SQL store.</span></span>
+<span data-ttu-id="5af2c-250">Dans Lync Server 2013, si vous déployez la surveillance ou l’archivage, les fonctionnalités frontales de ces services s’exécutent sur les serveurs frontaux, et non sur des rôles serveur distincts.</span><span class="sxs-lookup"><span data-stu-id="5af2c-250">In Lync Server 2013, if you deploy Monitoring or Archiving, the front end functionality of these services runs on the Front End Servers, instead of on separate server roles.</span></span> <span data-ttu-id="5af2c-251">La surveillance et l’archivage utilisent toujours leur propre magasin de bases de données, distinct du magasin principal.</span><span class="sxs-lookup"><span data-stu-id="5af2c-251">Monitoring and Archiving each still use their own database store, separate from the Back End store.</span></span> <span data-ttu-id="5af2c-252">Sinon, si vous avez déployé Exchange 2013, vous pouvez stocker les données d’archivage des messages instantanés dans Exchange au lieu d’un magasin SQL dédié.</span><span class="sxs-lookup"><span data-stu-id="5af2c-252">Alternatively, if you have Exchange 2013 deployed, you can store instant message Archiving data in Exchange instead of in a dedicated SQL store.</span></span>
 
-<span data-ttu-id="ff30b-253">Le tableau suivant indique approximativement la proportion de stockage de base de données requise par utilisateur et par jour pour les données de surveillance et d’archivage.</span><span class="sxs-lookup"><span data-stu-id="ff30b-253">The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.</span></span>
+<span data-ttu-id="5af2c-253">Le tableau suivant indique approximativement la proportion de stockage de base de données requise par utilisateur et par jour pour les données de surveillance et d’archivage.</span><span class="sxs-lookup"><span data-stu-id="5af2c-253">The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.</span></span>
 
 
 <table>
@@ -433,23 +433,23 @@ ms.locfileid: "42036484"
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p><span data-ttu-id="ff30b-254"><strong>CDR (surveillance)</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-254"><strong>CDR (Monitoring)</strong></span></span></p></td>
-<td><p><span data-ttu-id="ff30b-255"><strong>QoE (surveillance)</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-255"><strong>QoE (Monitoring)</strong></span></span></p></td>
-<td><p><span data-ttu-id="ff30b-256"><strong>Archivage</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-256"><strong>Archiving</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-254"><strong>CDR (surveillance)</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-254"><strong>CDR (Monitoring)</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-255"><strong>QoE (surveillance)</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-255"><strong>QoE (Monitoring)</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-256"><strong>Archivage</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-256"><strong>Archiving</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-257">Espace disque requis par utilisateur et par jour</span><span class="sxs-lookup"><span data-stu-id="ff30b-257">Disk space required per user per day</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-258">49 KO</span><span class="sxs-lookup"><span data-stu-id="ff30b-258">49 KB</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-259">28 KO</span><span class="sxs-lookup"><span data-stu-id="ff30b-259">28 KB</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-260">57 KO</span><span class="sxs-lookup"><span data-stu-id="ff30b-260">57 KB</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-257">Espace disque requis par utilisateur et par jour</span><span class="sxs-lookup"><span data-stu-id="5af2c-257">Disk space required per user per day</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-258">49 KO</span><span class="sxs-lookup"><span data-stu-id="5af2c-258">49 KB</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-259">28 KO</span><span class="sxs-lookup"><span data-stu-id="5af2c-259">28 KB</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-260">57 KO</span><span class="sxs-lookup"><span data-stu-id="5af2c-260">57 KB</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="ff30b-261">Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de données pour la surveillance et l’archivage pendant le test des performances.</span><span class="sxs-lookup"><span data-stu-id="ff30b-261">Microsoft used the hardware in the following table for the database server for Monitoring and Archiving during its performance testing.</span></span> <span data-ttu-id="ff30b-262">Les tests ont collecté les données de deux pools frontaux, chacun contenant 80 000 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="ff30b-262">The testing collected the data of two Front End pools, each of which contained 80,000 users.</span></span>
+<span data-ttu-id="5af2c-261">Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de données pour la surveillance et l’archivage pendant le test des performances.</span><span class="sxs-lookup"><span data-stu-id="5af2c-261">Microsoft used the hardware in the following table for the database server for Monitoring and Archiving during its performance testing.</span></span> <span data-ttu-id="5af2c-262">Les tests ont collecté les données de deux pools frontaux, chacun contenant 80 000 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5af2c-262">The testing collected the data of two Front End pools, each of which contained 80,000 users.</span></span>
 
-### <a name="hardware-used-in-monitoring-and-archiving-performance-testing"></a><span data-ttu-id="ff30b-263">Matériel utilisé dans les tests de performances de surveillance et d’archivage</span><span class="sxs-lookup"><span data-stu-id="ff30b-263">Hardware Used in Monitoring and Archiving Performance Testing</span></span>
+### <a name="hardware-used-in-monitoring-and-archiving-performance-testing"></a><span data-ttu-id="5af2c-263">Matériel utilisé dans les tests de performances de surveillance et d’archivage</span><span class="sxs-lookup"><span data-stu-id="5af2c-263">Hardware Used in Monitoring and Archiving Performance Testing</span></span>
 
 <table>
 <colgroup>
@@ -458,22 +458,22 @@ ms.locfileid: "42036484"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff30b-264">Composant matériel</span><span class="sxs-lookup"><span data-stu-id="ff30b-264">Hardware component</span></span></th>
-<th><span data-ttu-id="ff30b-265">Recommandé</span><span class="sxs-lookup"><span data-stu-id="ff30b-265">Recommended</span></span></th>
+<th><span data-ttu-id="5af2c-264">Composant matériel</span><span class="sxs-lookup"><span data-stu-id="5af2c-264">Hardware component</span></span></th>
+<th><span data-ttu-id="5af2c-265">Recommandé</span><span class="sxs-lookup"><span data-stu-id="5af2c-265">Recommended</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-266">UC</span><span class="sxs-lookup"><span data-stu-id="ff30b-266">CPU</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-267">Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur</span><span class="sxs-lookup"><span data-stu-id="ff30b-267">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-266">UC</span><span class="sxs-lookup"><span data-stu-id="5af2c-266">CPU</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-267">Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur</span><span class="sxs-lookup"><span data-stu-id="5af2c-267">64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-268">Mémoire</span><span class="sxs-lookup"><span data-stu-id="ff30b-268">Memory</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-269">48 gigaoctets (Go)</span><span class="sxs-lookup"><span data-stu-id="ff30b-269">48 gigabytes (GB)</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-268">Mémoire</span><span class="sxs-lookup"><span data-stu-id="5af2c-268">Memory</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-269">48 gigaoctets (Go)</span><span class="sxs-lookup"><span data-stu-id="5af2c-269">48 gigabytes (GB)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-270">Disque</span><span class="sxs-lookup"><span data-stu-id="ff30b-270">Disk</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-271">disques durs 25 10 000-RPM avec 300 Go sur chaque disque, avec la configuration suivante</span><span class="sxs-lookup"><span data-stu-id="ff30b-271">25 10,000-RPM hard disk drives with 300 GB on each disk, with the following configuration</span></span></p>
+<td><p><span data-ttu-id="5af2c-270">Disque</span><span class="sxs-lookup"><span data-stu-id="5af2c-270">Disk</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-271">disques durs 25 10 000-RPM avec 300 Go sur chaque disque, avec la configuration suivante</span><span class="sxs-lookup"><span data-stu-id="5af2c-271">25 10,000-RPM hard disk drives with 300 GB on each disk, with the following configuration</span></span></p>
 <h3 id="section-3"> </h3>
 <div>
 <table>
@@ -484,29 +484,29 @@ ms.locfileid: "42036484"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-272"><strong>Drive</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-272"><strong>Drive</strong></span></span></p></td>
-<td><p><span data-ttu-id="ff30b-273"><strong>Configuration RAID</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-273"><strong>RAID Configuration</strong></span></span></p></td>
-<td><p><span data-ttu-id="ff30b-274"><strong>Nombre de disques</strong></span><span class="sxs-lookup"><span data-stu-id="ff30b-274"><strong>Number of disks</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-272"><strong>Drive</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-272"><strong>Drive</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-273"><strong>Configuration RAID</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-273"><strong>RAID Configuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="5af2c-274"><strong>Nombre de disques</strong></span><span class="sxs-lookup"><span data-stu-id="5af2c-274"><strong>Number of disks</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-275">Fichiers de données de base de données d’archivage, d’enregistrement des détails des appels, QoE et archivage, sur un seul lecteur</span><span class="sxs-lookup"><span data-stu-id="ff30b-275">CDR, QoE, and Archiving database data files, on a single drive</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-276">1 + 0</span><span class="sxs-lookup"><span data-stu-id="ff30b-276">1+0</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-277">16 </span><span class="sxs-lookup"><span data-stu-id="ff30b-277">16</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-275">Fichiers de données de base de données d’archivage, d’enregistrement des détails des appels, QoE et archivage, sur un seul lecteur</span><span class="sxs-lookup"><span data-stu-id="5af2c-275">CDR, QoE, and Archiving database data files, on a single drive</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-276">1 + 0</span><span class="sxs-lookup"><span data-stu-id="5af2c-276">1+0</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-277">16 </span><span class="sxs-lookup"><span data-stu-id="5af2c-277">16</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-278">Fichier journal de la base de données d’enregistrement des détails des appels</span><span class="sxs-lookup"><span data-stu-id="ff30b-278">CDR database log file</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-279">1 </span><span class="sxs-lookup"><span data-stu-id="ff30b-279">1</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-280">2 </span><span class="sxs-lookup"><span data-stu-id="ff30b-280">2</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-278">Fichier journal de la base de données d’enregistrement des détails des appels</span><span class="sxs-lookup"><span data-stu-id="5af2c-278">CDR database log file</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-279">0,1</span><span class="sxs-lookup"><span data-stu-id="5af2c-279">1</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-280">n°2</span><span class="sxs-lookup"><span data-stu-id="5af2c-280">2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-281">Fichier journal de la base de données QoE</span><span class="sxs-lookup"><span data-stu-id="ff30b-281">QoE database log file</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-282">1 </span><span class="sxs-lookup"><span data-stu-id="ff30b-282">1</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-283">2 </span><span class="sxs-lookup"><span data-stu-id="ff30b-283">2</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-281">Fichier journal de la base de données QoE</span><span class="sxs-lookup"><span data-stu-id="5af2c-281">QoE database log file</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-282">0,1</span><span class="sxs-lookup"><span data-stu-id="5af2c-282">1</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-283">n°2</span><span class="sxs-lookup"><span data-stu-id="5af2c-283">2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff30b-284">Fichier journal de la base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="ff30b-284">Archiving database log file</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-285">1 </span><span class="sxs-lookup"><span data-stu-id="ff30b-285">1</span></span></p></td>
-<td><p><span data-ttu-id="ff30b-286">2 </span><span class="sxs-lookup"><span data-stu-id="ff30b-286">2</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-284">Fichier journal de la base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="5af2c-284">Archiving database log file</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-285">0,1</span><span class="sxs-lookup"><span data-stu-id="5af2c-285">1</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-286">n°2</span><span class="sxs-lookup"><span data-stu-id="5af2c-286">2</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -514,9 +514,9 @@ ms.locfileid: "42036484"
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff30b-287">Réseau</span><span class="sxs-lookup"><span data-stu-id="ff30b-287">Network</span></span></p></td>
+<td><p><span data-ttu-id="5af2c-287">Réseau</span><span class="sxs-lookup"><span data-stu-id="5af2c-287">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="ff30b-288">1 carte réseau double port, 1 Gbps ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP)</span><span class="sxs-lookup"><span data-stu-id="ff30b-288">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)</span></span></p></li>
+<li><p><span data-ttu-id="5af2c-288">1 carte réseau double port, 1 Gbps ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP)</span><span class="sxs-lookup"><span data-stu-id="5af2c-288">1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -527,11 +527,11 @@ ms.locfileid: "42036484"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ff30b-289">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ff30b-289">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5af2c-289">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5af2c-289">In This Section</span></span>
 
-  - [<span data-ttu-id="ff30b-290">Estimation du trafic et de l’utilisation de la voix pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff30b-290">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [<span data-ttu-id="5af2c-290">Estimation du trafic et de l’utilisation de la voix pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5af2c-290">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [<span data-ttu-id="ff30b-291">Instructions de déploiement pour le serveur de médiation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff30b-291">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [<span data-ttu-id="5af2c-291">Instructions de déploiement pour le serveur de médiation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5af2c-291">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
 </div>
 

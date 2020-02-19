@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bd86bcbe34e1cd3510fcbf5f257504a2316f3d14
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046417"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="36e53-102">Configuration de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="7b08d-102">Configuration de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "42046417"
 
 <span> </span>
 
-<span data-ttu-id="36e53-103">_**Dernière modification de la rubrique :** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="36e53-103">_**Topic Last Modified:** 2014-10-03_</span></span>
+<span data-ttu-id="7b08d-103">_**Dernière modification de la rubrique :** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="7b08d-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-<span data-ttu-id="36e53-104">Cette section vous guide tout au long de la configuration de la Conférence rendez-vous Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="36e53-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
+<span data-ttu-id="7b08d-104">Cette section vous guide tout au long de la configuration de la Conférence rendez-vous Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7b08d-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="36e53-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="36e53-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7b08d-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="7b08d-105">In This Section</span></span>
 
-  - [<span data-ttu-id="36e53-106">Conditions préalables et autorisations pour la configuration de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [<span data-ttu-id="7b08d-106">Conditions préalables et autorisations pour la configuration de la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [<span data-ttu-id="36e53-107">Liste de vérification du déploiement pour les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="7b08d-107">Liste de vérification du déploiement pour les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="36e53-108">Configurer des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="7b08d-108">Configurer des plans de numérotation pour les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="36e53-109">Vérifier que les plans de numérotation Lync Server 2013 ont des régions affectées</span><span class="sxs-lookup"><span data-stu-id="36e53-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [<span data-ttu-id="7b08d-109">Vérifier que les plans de numérotation Lync Server 2013 ont des régions affectées</span><span class="sxs-lookup"><span data-stu-id="7b08d-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [<span data-ttu-id="36e53-110">Module Vérifier les paramètres de stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [<span data-ttu-id="7b08d-110">Module Vérifier les paramètres de stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [<span data-ttu-id="36e53-111">Configurer la stratégie de conférence pour les appels entrants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [<span data-ttu-id="7b08d-111">Configurer la stratégie de conférence pour les appels entrants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [<span data-ttu-id="36e53-112">Configurer les numéros d’accès aux conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="7b08d-112">Configurer les numéros d’accès aux conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="36e53-113">Module Vérifier les paramètres de conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [<span data-ttu-id="7b08d-113">Module Vérifier les paramètres de conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [<span data-ttu-id="36e53-114">Module Modifier le mappage des clés pour les commandes DTMF dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [<span data-ttu-id="7b08d-114">Module Modifier le mappage des clés pour les commandes DTMF dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [<span data-ttu-id="36e53-115">Module Activer et désactiver les annonces de participation et de sortie de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [<span data-ttu-id="7b08d-115">Module Activer et désactiver les annonces de participation et de sortie de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [<span data-ttu-id="36e53-116">Module Vérifier les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [<span data-ttu-id="7b08d-116">Module Vérifier les conférences rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="36e53-117">Déploiement du complément de réunion en ligne pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [<span data-ttu-id="7b08d-117">Déploiement du complément de réunion en ligne pour Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [<span data-ttu-id="36e53-118">Configurer les paramètres de compte d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
+  - [<span data-ttu-id="7b08d-118">Configurer les paramètres de compte d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
 
-  - [<span data-ttu-id="36e53-119">Recommandation Créer des annuaires de conférences</span><span class="sxs-lookup"><span data-stu-id="36e53-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
+  - [<span data-ttu-id="7b08d-119">Recommandation Créer des annuaires de conférences</span><span class="sxs-lookup"><span data-stu-id="7b08d-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
 
-  - [<span data-ttu-id="36e53-120">Module Bienvenue les utilisateurs à la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [<span data-ttu-id="7b08d-120">Module Bienvenue les utilisateurs à la Conférence rendez-vous dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="36e53-121">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="36e53-121">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="7b08d-121">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="7b08d-121">Related Sections</span></span>
 
-[<span data-ttu-id="36e53-122">Déploiement de Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e53-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+[<span data-ttu-id="7b08d-122">Déploiement de Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b08d-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
 </div>
 

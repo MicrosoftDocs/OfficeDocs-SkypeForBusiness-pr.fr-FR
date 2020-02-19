@@ -12,20 +12,20 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bf9aa2a8246f9f639a33381d7bcfa790df0cffb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ea92b6782d049aa96652b1c67f40420837380be9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008516"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-review-in-lync-server-2013"></a><span data-ttu-id="d127e-102">Révision de la capacité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d127e-102">Capacity review in Lync Server 2013</span></span>
+# <a name="capacity-review-in-lync-server-2013"></a><span data-ttu-id="a6e4f-102">Révision de la capacité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6e4f-102">Capacity review in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42008516"
 
 <span> </span>
 
-<span data-ttu-id="d127e-103">_**Dernière modification de la rubrique :** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="d127e-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="a6e4f-103">_**Dernière modification de la rubrique :** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="a6e4f-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
-<span data-ttu-id="d127e-104">Passez en revue les chiffres de capacité pour le mois précédent et Élaborez un plan pour les mises à niveau pouvant être nécessaires dans les prochains mois afin de maintenir le système opérationnel dans les limites spécifiées par les accords SLA de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="d127e-104">Review capacity figures for the previous month, and produce a plan for any upgrades that may be required in the coming months to keep the system operating within limits specified by your organization's SLAs.</span></span>
+<span data-ttu-id="a6e4f-104">Passez en revue les chiffres de capacité pour le mois précédent et Élaborez un plan pour les mises à niveau pouvant être nécessaires dans les prochains mois afin de maintenir le système opérationnel dans les limites spécifiées par les accords SLA de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="a6e4f-104">Review capacity figures for the previous month, and produce a plan for any upgrades that may be required in the coming months to keep the system operating within limits specified by your organization's SLAs.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d127e-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d127e-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a6e4f-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a6e4f-105">See Also</span></span>
 
 
-[<span data-ttu-id="d127e-106">Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d127e-106">Using the capacity planning calculator for Lync Server 2013</span></span>](lync-server-2013-capacity-planning-calculator.md)  
+[<span data-ttu-id="a6e4f-106">Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6e4f-106">Using the capacity planning calculator for Lync Server 2013</span></span>](lync-server-2013-capacity-planning-calculator.md)  
 
 
-[<span data-ttu-id="d127e-107">Planification de la capacité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d127e-107">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)  
+[<span data-ttu-id="a6e4f-107">Planification de la capacité pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6e4f-107">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)  
   
 
 </div>
