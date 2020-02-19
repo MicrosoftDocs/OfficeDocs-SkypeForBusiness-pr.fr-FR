@@ -12,18 +12,18 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f55ec3444348b2717721dcad890a4712cd8b9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038226"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instructions de déploiement pour le serveur de médiation dans Lync Server 2013
 
@@ -73,7 +73,7 @@ Les serveurs de médiation sur le site central peuvent être utilisés pour rout
 
 
 > [!NOTE]  
-> Le contournement de média ne fonctionnera pas avec chaque passerelle PSTN, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à.
+> Le contournement de média ne fonctionnera pas avec chaque passerelle PSTN, système IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et les versions mentionnés dans le <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>programme d’interopérabilité ouvert pour les communications unifiées – Lync Server à.
 
 
 
@@ -89,7 +89,7 @@ Pour finir, si votre site central comporte un TDM PBX ou que votre IP-PBX ne sup
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédias d’un serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l' <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>évolutivité côté réception dans Windows Server » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias d’un serveur de médiation autonome, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de ces serveurs. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l' <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>évolutivité côté réception dans Windows Server » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 

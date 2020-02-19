@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044136"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Installation de la base de données à l’aide de Lync Server Management Shell dans Lync Server 2013
 
@@ -77,7 +77,7 @@ Pour l’installation des bases de données, **install-applet csdatabase** utili
 
 1.  Ouvrez une session d’administration sur un ordinateur pour créer les bases de données sur le serveur SQL Server. Pour plus d’informations, reportez-vous à la rubrique [autorisations de déploiement pour SQL Server dans Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la rubrique « examen de [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)la stratégie d’exécution » à l’adresse.
+2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la rubrique « examen de [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)la stratégie d’exécution » à l’adresse.
 
 3.  Utilisez la cmdlet **install-applet csdatabase** pour installer le magasin central de gestion.
     

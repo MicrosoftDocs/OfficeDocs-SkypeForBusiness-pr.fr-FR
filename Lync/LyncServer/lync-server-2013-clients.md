@@ -12,18 +12,18 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9920f00b70b0a5591787d740c2395078a3872760
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a212ad1e4250b1c3823230a550c9e39f37eb67d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046727"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="clients-for-lync-server-2013"></a>Clients pour Lync Server 2013
 
@@ -109,7 +109,7 @@ Lync Server 2013 prend en charge les clients suivants des versions précédentes
 
   - **Lync 2010**   Lync 2010 offre une expérience complète du bureau, notamment la messagerie instantanée, la présence améliorée, la voix, la vidéo, le partage et la téléphonie. Toutefois, aucune des nouvelles fonctionnalités introduites dans Lync Server 2013 ne sera disponible tant que le client de l’utilisateur n’aura pas été mis à niveau vers Lync 2013.
 
-  - **Lync 2010 mobile**   Lync Server 2013 prend en charge toutes les applications mobiles Microsoft Lync 2010. Microsoft Lync 2010 mobile fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un téléphone exécutant une édition professionnelle de Windows Mobile. Vous pouvez demander à vos utilisateurs d’installer Microsoft Lync 2010 mobile en les dirigeant vers le Marketplace de l’application pour leur téléphone mobile. Pour plus d’informations, reportez-vous à la rubrique « planification des clients [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)mobiles » dans la documentation Lync Server 2010 à l’adresse.
+  - **Lync 2010 mobile**   Lync Server 2013 prend en charge toutes les applications mobiles Microsoft Lync 2010. Microsoft Lync 2010 mobile fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un téléphone exécutant une édition professionnelle de Windows Mobile. Vous pouvez demander à vos utilisateurs d’installer Microsoft Lync 2010 mobile en les dirigeant vers le Marketplace de l’application pour leur téléphone mobile. Pour plus d’informations, reportez-vous à la rubrique « planification des clients [https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955)mobiles » dans la documentation Lync Server 2010 à l’adresse.
 
   - **Le logiciel Lync Phone Edition**   Lync Phone Edition pour les téléphones IP intelligents (par exemple, les téléphones à connexion USB) n’a pas été mis à jour pour Lync Server 2013. Lync Phone Edition continue à être pris en charge dans pour le placement et la réception des appels, de la présence améliorée et des fonctionnalités audio client pour les conférences.
 

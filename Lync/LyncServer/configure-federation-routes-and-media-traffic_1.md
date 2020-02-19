@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f4818e74bbc0f59900ebf7d8f0a2b79fcd003f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006660"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136091"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurer les itinéraires de fédération et le trafic multimédia
 
@@ -41,7 +41,7 @@ Utilisez les procédures suivantes pour effectuer la transition de l’itinérai
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Déplacer les utilisateurs restants vers Lync Server 2013</A></P>
 > <LI>
-> <P>« Supprimer les serveurs et les rôles serveur » à l’adresse<A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
+> <P>« Supprimer les serveurs et les rôles serveur » à l’adresse<A href="https://go.microsoft.com/fwlink/p/?linkid=268790">https://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 

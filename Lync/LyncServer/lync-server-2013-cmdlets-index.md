@@ -12,18 +12,18 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ca2367ebe47d5abde48a11f06be49d4a6d6ea35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fb713c1f328258bcb80173e0ff7e61ddd8304075
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046617"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-cmdlets-index"></a>Index des applets de commande Lync Server 2013
 
@@ -47,7 +47,7 @@ Pour récupérer la liste complète des applets de commande disponibles pour la 
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-Pour plus d’informations sur l’utilisation de Lync Server Management Shell, voir le blog Lync Server [http://go.microsoft.com/fwlink/p/?linkId=203150](http://go.microsoft.com/fwlink/p/?linkid=203150)Windows PowerShell à l’adresse.
+Pour plus d’informations sur l’utilisation de Lync Server Management Shell, voir le blog Lync Server [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)Windows PowerShell à l’adresse.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d77d39cfa1483db9251d038f876f8e91428ae23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037966"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Vue d’ensemble de la conférence A/V dans Lync Server 2013
 
@@ -43,7 +43,7 @@ Pour planifier votre conférence A/V, vous devez connaître la bande passante r
 
 Avant d’activer les utilisateurs pour la conférence A/V, assurez-vous que votre réseau est en mesure de gérer la charge qui en résulte. Si la bande passante réseau est insuffisante, les performances du système seront largement diminuées pour l’utilisateur. Vous pouvez utiliser le contrôle d’admission des appels (CAC) pour gérer la bande passante réseau utilisée par la conférence A/V. Ceci est important pour les réseaux restreints, tels que les liaisons à bande passante limitée entre les sites centraux et les sites de succursale. Pour plus d’informations, reportez-vous à [vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Pour plus d’informations sur les besoins en bande passante des médias, voir [Network Bandwidth Requirements for Media Traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio tels que des casques pour y prendre part. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo tels que des webcams pour les utilisateurs. Nous vous recommandons d’utiliser des appareils de communications unifiées certifiés par Microsoft pour tous les types d’appareils, afin de garantir une expérience utilisateur optimale. Pour plus d’informations sur les périphériques certifiés UC, voir « téléphones et appareils pour [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)Lync » à l’adresse. Pour les périphériques audio ou vidéo, le déploiement des périphériques et la formation des utilisateurs sont des étapes importantes qu’il convient de planifier soigneusement.
+Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio tels que des casques pour y prendre part. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo tels que des webcams pour les utilisateurs. Nous vous recommandons d’utiliser des appareils de communications unifiées certifiés par Microsoft pour tous les types d’appareils, afin de garantir une expérience utilisateur optimale. Pour plus d’informations sur les périphériques certifiés UC, voir « téléphones et appareils pour [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)Lync » à l’adresse. Pour les périphériques audio ou vidéo, le déploiement des périphériques et la formation des utilisateurs sont des étapes importantes qu’il convient de planifier soigneusement.
 
 Les sections suivantes décrivent les fonctionnalités de conférence audio et vidéo et fournissent des informations sur la gestion de la bande passante et la sélection de clients appropriés.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006360"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Utilisation de la calculatrice de planification de la capacité pour Lync Server 2013
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006360"
 
 _**Dernière modification de la rubrique :** 2013-11-21_
 
-La calculatrice de planification de capacité Microsoft® Lync™ Server 2013 peut être téléchargée à l’adresse <http://www.microsoft.com/download/details.aspx?id=36828>. Elle est conçue pour vous aider à déterminer les exigences de serveur en fonction du nombre d’utilisateurs et de modalités de communication activés au sein de votre organisation. Vous entrez le profil de votre organisation et la calculatrice fournit des recommandations pour vous aider à planifier votre topologie.
+La calculatrice de planification de capacité Microsoft® Lync™ Server 2013 peut être téléchargée à l’adresse <https://www.microsoft.com/download/details.aspx?id=36828>. Elle est conçue pour vous aider à déterminer les exigences de serveur en fonction du nombre d’utilisateurs et de modalités de communication activés au sein de votre organisation. Vous entrez le profil de votre organisation et la calculatrice fournit des recommandations pour vous aider à planifier votre topologie.
 
-Les recommandations créées par la calculatrice sont uniquement destinées à la planification. La simulation de charge réelle est nécessaire pour s’assurer que Lync Server 2013 est correctement configuré. Pour effectuer des tests de contrainte sous une charge simulée, utilisez l' [outil de contrainte et de performances de Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=282724).
+Les recommandations créées par la calculatrice sont uniquement destinées à la planification. La simulation de charge réelle est nécessaire pour s’assurer que Lync Server 2013 est correctement configuré. Pour effectuer des tests de contrainte sous une charge simulée, utilisez l' [outil de contrainte et de performances de Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=282724).
 
 Une fois que vous avez déterminé votre profil utilisateur et les modalités que vous souhaitez activer pour vos utilisateurs, il est temps d’utiliser la calculatrice pour planifier le nombre de serveurs, la mémoire et la bande passante dont vous avez besoin. Cette version de la calculatrice ne fournit pas d’instructions pour les besoins en e/s disque.
 
-Cette calculatrice complète [Microsoft Lync Server](http://go.microsoft.com/fwlink/?linkid=282725) et [Microsoft Lync Server](lync-server-2013-planning.md). Utilisez la calculatrice une fois que vous avez consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
+Cette calculatrice complète [Microsoft Lync Server](https://go.microsoft.com/fwlink/?linkid=282725) et [Microsoft Lync Server](lync-server-2013-planning.md). Utilisez la calculatrice une fois que vous avez consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
 
 Vous pouvez tirer le meilleur parti de la calculatrice si vous disposez d’informations précises et détaillées sur votre profil utilisateur spécifique. Par exemple, le pourcentage d’utilisateurs à extension vocale, le nombre moyen d’appels par utilisateur et par heure, la durée de l’appel et le pourcentage d’utilisateurs simultanés dans les conférences peuvent faire une très grande différence en termes de serveur. La précision des recommandations créées par la calculatrice dépend de la précision des informations que vous fournissez.
 

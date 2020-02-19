@@ -12,18 +12,18 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e5265f580e3894d0fc8214b974ad03c9559323c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050446"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Comment implémenter la jonction SIP dans Lync Server 2013 ?
 
@@ -153,7 +153,7 @@ Lync Server 2013 prend en charge uniquement les codecs suivants :
 
 ## <a name="internet-telephony-service-provider"></a>Fournisseur de services de téléphonie Internet
 
-La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de jonction SIP certifiés, consultez le [site Web Microsoft Unified Communications Open Interoperability Program](http://go.microsoft.com/fwlink/?linkid=287029).
+La manière dont vous mettez en œuvre le côté fournisseur de services d’une connexion de jonction SIP varie d’un fournisseur de services de téléphonie Internet à l’autre. Pour plus d’informations sur le déploiement, contactez votre fournisseur de services. Pour obtenir la liste des fournisseurs de services de jonction SIP certifiés, consultez le [site Web Microsoft Unified Communications Open Interoperability Program](https://go.microsoft.com/fwlink/?linkid=287029).
 
 Pour plus d’informations sur les fournisseurs de jonctions SIP approuvés par Microsoft, contactez votre représentant Microsoft.
 

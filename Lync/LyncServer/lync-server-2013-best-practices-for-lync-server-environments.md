@@ -12,18 +12,18 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c31d39ae7537fc53fc4e72c8b1c57863b2ba189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041113"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-lync-server-2013-environments"></a>Meilleures pratiques pour les environnements Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2014-08-04_
 
 Les principes généraux suivants doivent être appliqués aux opérations en cours de votre système :
 
-  - **Comprendre et utiliser**   MOF MOF est une collection de meilleures pratiques, de principes et de modèles qui fournissent aux organisations des instructions techniques sur la gestion des ressources informatiques, telles que les opérations quotidiennes de Lync Server 2013. Les instructions MOF suivantes peuvent vous aider à améliorer la fiabilité, la disponibilité, la prise en charge et la facilité de gestion des systèmes de production critiques pour les produits Microsoft. Pour plus d’informations, consultez la rubrique [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Comprendre et utiliser**   MOF MOF est une collection de meilleures pratiques, de principes et de modèles qui fournissent aux organisations des instructions techniques sur la gestion des ressources informatiques, telles que les opérations quotidiennes de Lync Server 2013. Les instructions MOF suivantes peuvent vous aider à améliorer la fiabilité, la disponibilité, la prise en charge et la facilité de gestion des systèmes de production critiques pour les produits Microsoft. Pour plus d’informations, consultez la rubrique [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939).
 
   - **Découvrez les meilleures pratiques pour Lync Server 2013**   nous vous recommandons d’implémenter des procédures pratiques et éprouvées pour gérer Lync Server 2013. En utilisant les méthodes testées, testées et documentées de gestion des opérations peut être plus efficace que le développement de vos propres méthodes.
 
@@ -104,7 +104,7 @@ Consultez les rubriques suivantes concernant les opérations système avant de c
 ## <a name="see-also"></a>Voir aussi
 
 
-[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

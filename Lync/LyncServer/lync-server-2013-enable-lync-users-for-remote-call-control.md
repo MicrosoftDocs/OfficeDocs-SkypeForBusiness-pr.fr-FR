@@ -12,18 +12,18 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baa6f18e92eb284cce8610ba576b30dd6d2f320
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7e165efe4e9b679c5464a35aac1c4130840b801
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042611"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Activation des utilisateurs Lync pour le contrôle d’appel distant dans Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-09-21_
 
 Vous pouvez configurer des utilisateurs Lync pour le contrôle d’appel distant à l’aide de stratégies de mise en service intrabande basées sur un serveur. Vous pouvez gérer les paramètres de mise en service intrabande à l’aide du panneau de configuration Lync Server ou de l’interface de ligne de commande Lync Server Management Shell. Ces outils remplacent le composant logiciel enfichable WMI (Windows Management Instrumentation) qui a été utilisé pour gérer les paramètres de stratégie de groupe dans les versions antérieures.
 
-Si vous préférez permettre aux utilisateurs de configurer leurs propres paramètres de contrôle d’appel distant dans Lync, vous pouvez configurer les paramètres de contrôle d’appel distant pour les utilisateurs sur le serveur sans spécifier les valeurs URI de ligne de **serveur** et URI de **ligne** . Assurez-vous de communiquer les valeurs URI de **ligne** et URI de **serveur de ligne** appropriées à vos utilisateurs, et fournissez à vos utilisateurs les instructions permettant de configurer ces paramètres. Pour connaître la procédure permettant de configurer manuellement le contrôle d’appel distant dans Lync Server, voir « définition des options <http://go.microsoft.com/fwlink/p/?linkid=210132> et des numéros de téléphone » dans la documentation du client Lync sur le site Web de Microsoft Office.
+Si vous préférez permettre aux utilisateurs de configurer leurs propres paramètres de contrôle d’appel distant dans Lync, vous pouvez configurer les paramètres de contrôle d’appel distant pour les utilisateurs sur le serveur sans spécifier les valeurs URI de ligne de **serveur** et URI de **ligne** . Assurez-vous de communiquer les valeurs URI de **ligne** et URI de **serveur de ligne** appropriées à vos utilisateurs, et fournissez à vos utilisateurs les instructions permettant de configurer ces paramètres. Pour connaître la procédure permettant de configurer manuellement le contrôle d’appel distant dans Lync Server, voir « définition des options <https://go.microsoft.com/fwlink/p/?linkid=210132> et des numéros de téléphone » dans la documentation du client Lync sur le site Web de Microsoft Office.
 
 Si vous disposez d’un déploiement de Communications Server 2007 R2 ou Communications Server 2007 existant, les clients Communicator 2007 R2 et Communicator 2007 continueront à utiliser la stratégie de groupe lors de la migration côte à côte. Toutefois, si vous souhaitez que les paramètres de stratégie soient transférés vers les clients Lync, vous devez configurer les paramètres de mise en service intrabande Lync Server équivalents.
 

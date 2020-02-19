@@ -12,18 +12,18 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8daf27670f7820a64cd7a91fe350ba7345c9463e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 920eecbdb456e3b643da9f935e2586dea7e6e165
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030798"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Conception de la jonction SIP pour E9-1-1 dans Lync Server 2013
 
@@ -48,7 +48,7 @@ Lync Server utilise des jonctions SIP pour connecter un appel d’urgence au fou
 > <LI>
 > <P>Utilisez des serveurs de médiation multirésidents qui utilisent leurs interfaces routées publiquement vers l’extérieur pour communiquer avec le fournisseur de jonctions SIP.</P>
 > <LI>
-> <P>Utilisez un contrôleur de frontière de session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et les services du fournisseur de jonctions SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les contrôleurs SBC certifiés, voir « infrastructure <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>Qualified for Microsoft Lync » à l’adresse.<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
+> <P>Utilisez un contrôleur de frontière de session (SBC) local pour fournir un point de démarcation sécurisé entre les serveurs de médiation et les services du fournisseur de jonctions SIP.</P></LI></UL>Si vous choisissez cette dernière méthode, assurez-vous que la marque et le modèle du contrôleur SBC que vous choisissez ont été certifiés et que celui-ci prend en charge le transfert des données d’emplacement PIDF-LO (Presence Information Data Format Location Object) dans le cadre de sa requête SIP INVITE. Dans le cas contraire, les appels arrivent au fournisseur de services d’urgence sans leurs informations d’emplacement. Pour plus d’informations sur les contrôleurs SBC certifiés, voir « infrastructure <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>Qualified for Microsoft Lync » à l’adresse.<BR>Les fournisseurs de services E9-1-1 vous permettent d’accéder à une paire de contrôleurs SBC à des fins de redondance. Vous devez prendre plusieurs décisions concernant la topologie du serveur de médiation et la configuration du routage des appels. Allez-vous traiter les deux contrôleurs SBC comme des homologues égaux et utiliser le routage par tourniquet (round robin) pour les appels qu’ils s’échangent, ou allez-vous désigner l’un des contrôleurs SBC en tant que serveur principal et l’autre en tant que serveur secondaire ?
 
 
 

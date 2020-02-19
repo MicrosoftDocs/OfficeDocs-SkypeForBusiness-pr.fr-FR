@@ -12,18 +12,18 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b973a1eeb704788eb07e02afc502ac4bbe41544c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050246"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planification de l’authentification à deux facteurs dans Lync Server 2013
 
@@ -192,7 +192,7 @@ Valeur : 0x0
 
 AD FS 2,0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis rejetées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil WebSSO SAML en s’assurant que le même jeton n’est jamais utilisé plusieurs fois.
 
-Cette fonctionnalité doit être activée dans les situations où la sécurité est une préoccupation majeure, par exemple lors de l’utilisation de kiosques. Pour plus d’informations sur la détection de relecture de jetons, voir Best Practices for Secure Planning and [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)Deployment of AD FS 2,0 à l’adresse.
+Cette fonctionnalité doit être activée dans les situations où la sécurité est une préoccupation majeure, par exemple lors de l’utilisation de kiosques. Pour plus d’informations sur la détection de relecture de jetons, voir Best Practices for Secure Planning and [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)Deployment of AD FS 2,0 à l’adresse.
 
 </div>
 

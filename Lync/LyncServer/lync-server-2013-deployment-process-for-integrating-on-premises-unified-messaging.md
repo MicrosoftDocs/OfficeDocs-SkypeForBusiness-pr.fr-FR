@@ -12,18 +12,18 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbef561e7b2c4edd3e38f028bdbdcdfbe246d036
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6d60b120db57ad73c33e682fa8150e99f5606e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051548"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Processus de déploiement pour l’intégration de la messagerie unifiée locale et de Lync Server 2013
 
@@ -97,13 +97,13 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <td><p>Voir la documentation correspondant à votre serveur Exchange Server :</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Documentation de déploiement d’Exchange Server <a href="http://go.microsoft.com/fwlink/p/?linkid=268694">http://go.microsoft.com/fwlink/p/?LinkId=268694</a>2007 à l’adresse.</p>
+<dd><p>Documentation de déploiement d’Exchange Server <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>2007 à l’adresse.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2010 ou la documentation de déploiement du service <a href="http://go.microsoft.com/fwlink/p/?linkid=268695">http://go.microsoft.com/fwlink/p/?LinkId=268695</a>Pack la plus récente à l’adresse.</p>
+<dd><p>Exchange Server 2010 ou la documentation de déploiement du service <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>Pack la plus récente à l’adresse.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Planification et déploiement de Microsoft Exchange Server 2013 <a href="http://go.microsoft.com/fwlink/p/?linkid=266569">http://go.microsoft.com/fwlink/p/?LinkId=266569</a>à l’adresse.</p>
+<dd><p>Planification et déploiement de Microsoft Exchange Server 2013 <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>à l’adresse.</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +117,9 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <td><p>Créez et configurez un nouveau plan de numérotation SIP de messagerie unifiée Exchange.</p></td>
 <td><p>Sur le serveur de messagerie unifiée Exchange, créez un plan de numérotation SIP basé sur les exigences spécifiques de votre organisation en matière de déploiement.</p></td>
 <td><p>Administrateur d’organisation Exchange</p></td>
-<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique How to Create a&quot; Unified Messaging SIP URI SIP dial plan at <a href="http://go.microsoft.com/fwlink/p/?linkid=268632">http://go.microsoft.com/fwlink/p/?linkId=268632</a>.</p>
-<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, consultez la rubrique&quot; créer <a href="http://go.microsoft.com/fwlink/p/?linkid=268674">http://go.microsoft.com/fwlink/p/?linkId=268674</a>un plan de numérotation de messagerie unifiée à l’adresse.</p>
-<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique How to Create a&quot; Unified Messaging SIP URI SIP dial plan at <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>.</p>
+<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, consultez la rubrique&quot; créer <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>un plan de numérotation de messagerie unifiée à l’adresse.</p>
+<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Configurez les paramètres de sécurité pour le plan de numérotation SIP de messagerie unifiée Exchange.</p></td>
@@ -127,28 +127,28 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <td><p>Administrateur d’organisation Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Configuration de la messagerie unifiée sur Microsoft Exchange pour Lync Server 2013</a></p>
 <p>Pour Exchange 2007 SP1 ou le Service Pack le plus récent, voir également :</p>
-<p>&quot;Comment configurer la sécurité sur un plan&quot; de numérotation de <a href="http://go.microsoft.com/fwlink/p/?linkid=268696">http://go.microsoft.com/fwlink/p/?LinkId=268696</a>messagerie unifiée à l’adresse.</p>
+<p>&quot;Comment configurer la sécurité sur un plan&quot; de numérotation de <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a>messagerie unifiée à l’adresse.</p>
 <p>Pour Exchange 2010 ou Service Pack le plus récent, voir également :</p>
-<p>&quot;Configurez la sécurité VoIP sur un&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268697">http://go.microsoft.com/fwlink/p/?LinkId=268697</a>plan de numérotation de messagerie unifiée.</p>
-<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<p>&quot;Configurez la sécurité VoIP sur un&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>plan de numérotation de messagerie unifiée.</p>
+<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ajoutez des serveurs de messagerie unifiée au plan de numérotation SIP de messagerie unifiée Exchange.</p></td>
 <td><p>Pour qu’un serveur de messagerie unifiée récemment installé puisse répondre aux appels entrants et les traiter, vous devez ajouter le serveur de messagerie unifiée au plan de numérotation de la messagerie unifiée. Dans ce cas, ajoutez le serveur au plan de numérotation SIP de messagerie unifiée Exchange.</p></td>
 <td><p>Administrateurs</p>
 <p>Administrateurs Exchange Server</p></td>
-<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique ajouter un serveur de messagerie&quot; unifiée à un plan de numérotation à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=268681">http://go.microsoft.com/fwlink/p/?linkId=268681</a>.</p>
-<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, voir afficher ou configurer les propriétés d'&quot; un <a href="http://go.microsoft.com/fwlink/p/?linkid=268682">http://go.microsoft.com/fwlink/p/?linkId=268682</a>serveur de messagerie unifiée à l’adresse.</p>
-<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique ajouter un serveur de messagerie&quot; unifiée à un plan de numérotation à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>.</p>
+<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, voir afficher ou configurer les propriétés d'&quot; un <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>serveur de messagerie unifiée à l’adresse.</p>
+<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Attribuez des adresses SIP aux boîtes aux lettres.</p></td>
 <td><p>Attribuer des adresses SIP aux boîtes aux lettres des utilisateurs voix entreprise qui utiliseront les fonctionnalités de messagerie unifiée Exchange.</p></td>
 <td><p>Administrateur Lync Server 2013</p>
 <p>Administrateur de destinataires Exchange</p></td>
-<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, voir comment ajouter, supprimer ou modifier une adresse SIP pour un utilisateur&quot; à extension messagerie <a href="http://go.microsoft.com/fwlink/p/?linkid=268698">http://go.microsoft.com/fwlink/p/?LinkId=268698</a>unifiée à l’adresse.</p>
-<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, consultez la rubrique modifier une adresse SIP pour&quot; un <a href="http://go.microsoft.com/fwlink/p/?linkid=268699">http://go.microsoft.com/fwlink/p/?LinkId=268699</a>utilisateur à extension messagerie unifiée à l’adresse.</p>
-<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, voir comment ajouter, supprimer ou modifier une adresse SIP pour un utilisateur&quot; à extension messagerie <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>unifiée à l’adresse.</p>
+<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, consultez la rubrique modifier une adresse SIP pour&quot; un <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>utilisateur à extension messagerie unifiée à l’adresse.</p>
+<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exécutez le script exchucutil.ps1.</p></td>
@@ -231,9 +231,9 @@ Si vous souhaitez intégrer la messagerie unifiée Exchange avec Lync Server 201
 <td><p>Activez les utilisateurs voix entreprise pour la messagerie unifiée Exchange.</p></td>
 <td><p>Sur le serveur de messagerie UNIFIÉe Exchange, vérifiez qu’une stratégie de boîte aux lettres de messagerie unifiée a été créée et que chaque utilisateur a une attribution unique de numéro de poste, puis activez l’utilisateur pour la messagerie unifiée.</p></td>
 <td><p>Administrateur de destinataires Exchange</p></td>
-<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique How to Enable&quot; a <a href="http://go.microsoft.com/fwlink/p/?linkid=268700">http://go.microsoft.com/fwlink/p/?LinkId=268700</a>User for Unified Messaging à l’adresse.</p>
-<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, voir Activer un utilisateur&quot; pour <a href="http://go.microsoft.com/fwlink/p/?linkid=268701">http://go.microsoft.com/fwlink/p/?LinkId=268701</a>la messagerie unifiée à l’adresse.</p>
-<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Pour Exchange 2007 SP1 ou le Service Pack le plus &quot;récent, consultez la rubrique How to Enable&quot; a <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>User for Unified Messaging à l’adresse.</p>
+<p>Pour Exchange 2010 ou le Service Pack le plus &quot;récent, voir Activer un utilisateur&quot; pour <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>la messagerie unifiée à l’adresse.</p>
+<p>Pour Exchange 2013, consultez la rubrique Unified Messaging at <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 </tbody>
 </table>

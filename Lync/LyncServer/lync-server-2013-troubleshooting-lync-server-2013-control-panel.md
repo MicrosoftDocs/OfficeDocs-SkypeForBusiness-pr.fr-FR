@@ -12,18 +12,18 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87ad05798dab0f324a44a4c41807e8acb6105927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07e670dc0871490e513023d3276ad80126be173b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038076"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-lync-server-2013-control-panel"></a>Dépannage du panneau de configuration Lync Server 2013
 
@@ -55,7 +55,7 @@ Le panneau de configuration Lync Server nécessite l’installation du plug-in d
 
 </div>
 
-Si votre navigateur Internet bloque l’installation de Silverlight en raison de considérations de sécurité, ajoutez l’URL (Uniform Resource Locator) qui ouvre le panneau de configuration Lync Server à la liste des sites de confiance. Dans les paramètres de sécurité d’Internet Explorer, vérifiez que **Exécuter les contrôles ActiveX et les plugins** est défini comme **Activé**. Pour plus d’informations [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060), reportez-vous à. De plus, vérifiez que le navigateur est configuré pour utiliser SSL 3.0.
+Si votre navigateur Internet bloque l’installation de Silverlight en raison de considérations de sécurité, ajoutez l’URL (Uniform Resource Locator) qui ouvre le panneau de configuration Lync Server à la liste des sites de confiance. Dans les paramètres de sécurité d’Internet Explorer, vérifiez que **Exécuter les contrôles ActiveX et les plugins** est défini comme **Activé**. Pour plus d’informations [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060), reportez-vous à. De plus, vérifiez que le navigateur est configuré pour utiliser SSL 3.0.
 
 Si le navigateur Internet est configuré de sorte d’utiliser un serveur proxy, vérifiez qu’il est configuré pour contourner le serveur proxy pour les sites qui sont automatiquement détectés comme des sites internes. Vous pouvez aussi ajouter l’adresse à la liste d’exception du navigateur dans les paramètres de configuration du serveur proxy.
 

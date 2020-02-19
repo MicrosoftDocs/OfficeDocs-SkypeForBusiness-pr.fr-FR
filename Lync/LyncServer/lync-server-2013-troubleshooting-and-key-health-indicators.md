@@ -12,18 +12,18 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d4923ed94cba19136558c2f7336bfdc527fda000
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036454"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Résolution des problèmes et indicateurs d’intégrité clés dans Lync Server 2013
 
@@ -41,9 +41,9 @@ _**Dernière modification de la rubrique :** 2015-05-18_
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Pour répondre aux accords SLA de l’architecture de référence et garantir une transition sans complication vers nos équipes de support technique, une approche de résolution des problèmes commune doit être définie avec un ensemble d’outils et d’approches de résolution des problèmes, tel que défini dans le [Guide de mise en réseau](http://go.microsoft.com/fwlink/p/?linkid=390677) Lync Server.
+Pour répondre aux accords SLA de l’architecture de référence et garantir une transition sans complication vers nos équipes de support technique, une approche de résolution des problèmes commune doit être définie avec un ensemble d’outils et d’approches de résolution des problèmes, tel que défini dans le [Guide de mise en réseau](https://go.microsoft.com/fwlink/p/?linkid=390677) Lync Server.
 
-Il est vivement recommandé d’utiliser System Center Operations Manager pour surveiller l’intégrité du système Lync Server 2013. Reportez-vous également à la description de KHIs dans le [Guide réseau](http://go.microsoft.com/fwlink/p/?linkid=390677) lync Server 2013 et dans la feuille de calcul Excel pour une utilisation avec Lync 2013.
+Il est vivement recommandé d’utiliser System Center Operations Manager pour surveiller l’intégrité du système Lync Server 2013. Reportez-vous également à la description de KHIs dans le [Guide réseau](https://go.microsoft.com/fwlink/p/?linkid=390677) lync Server 2013 et dans la feuille de calcul Excel pour une utilisation avec Lync 2013.
 
 </div>
 

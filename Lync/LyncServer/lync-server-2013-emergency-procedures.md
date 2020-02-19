@@ -12,18 +12,18 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cdb34ef5e000456f787c2a62bc61a4667a1459e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006230"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="emergency-procedures-in-lync-server-2013"></a>Procédures d’urgence dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006230"
 
 _**Dernière modification de la rubrique :** 2014-08-18_
 
-Les procédures d’urgence sont des procédures à la demande qui ne correspondent pas aux procédures standard décrites précédemment et qui doivent être gérées par la fonction de gestion des modifications (reportez-vous à la [structure MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) pour obtenir une description de la fonction « gestion des modifications »). Ces procédures sont généralement liées à l’un des éléments suivants :
+Les procédures d’urgence sont des procédures à la demande qui ne correspondent pas aux procédures standard décrites précédemment et qui doivent être gérées par la fonction de gestion des modifications (reportez-vous à la [structure MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) pour obtenir une description de la fonction « gestion des modifications »). Ces procédures sont généralement liées à l’un des éléments suivants :
 
   - Implémentation de la modification dans le cadre d’un effort de dépannage — pour résoudre un problème système identifié.
 
@@ -52,7 +52,7 @@ Nous vous recommandons d’implémenter les procédures de modification d’urge
 ## <a name="see-also"></a>Voir aussi
 
 
-[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

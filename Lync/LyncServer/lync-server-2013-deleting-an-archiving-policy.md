@@ -12,18 +12,18 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bde8694cb5249cd5c284bfadc89d9784ca76ac31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b2cac48287063e61be00495077f51042b1810f65
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048845"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Suppression d’une stratégie d’archivage dans Lync Server 2013
 
@@ -69,7 +69,7 @@ Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site. La s
 
 ## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies d’archivage à l’aide d’applets de commande Windows PowerShell
 
-Les stratégies d’archivage peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet csarchivingpolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les stratégies d’archivage peuvent être supprimées à l’aide de Windows PowerShell et de l’applet de commande **Remove-applet csarchivingpolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 

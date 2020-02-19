@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049706"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Vue d’ensemble du service de journalisation centralisée dans Lync Server 2013
 
@@ -61,7 +61,7 @@ ClsAgent conserve un fichier d’index de tous les fichiers. Mettre en CACHE les
 
 </div>
 
-Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper. exe** et tout outil capable de lire un fichier texte, tel que **notepad. exe**. Snooper. exe fait partie des outils de débogage Lync Server 2013 et peut être téléchargé sur le Web [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)à partir de.
+Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper. exe** et tout outil capable de lire un fichier texte, tel que **notepad. exe**. Snooper. exe fait partie des outils de débogage Lync Server 2013 et peut être téléchargé sur le Web [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)à partir de.
 
 Comme OCSLogger, le service de journalisation centralisée dispose de plusieurs composants à suivre et fournit des options permettant de sélectionner des indicateurs\_, tels que\_le composant TF et TF diag. Le service de journalisation centralisée conserve également les options de niveau de journalisation de OCSLogger.
 

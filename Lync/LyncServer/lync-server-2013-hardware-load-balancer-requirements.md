@@ -12,18 +12,18 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d54ad738824b2ccaa4daf7f67758a970c24cee6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030317"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Configuration requise pour le programme d’équilibrage de la charge matérielle pour Lync Server 2013
 
@@ -75,7 +75,7 @@ La topologie Edge consolidée Lync Server 2013 est optimisée pour l’équilibr
 
 </div>
 
-Pour déterminer si votre programme d’équilibrage de la charge matérielle prend en charge les fonctionnalités requises par Lync Server 2013, voir « partenaires d’équilibrage de charge [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 » à l’adresse.
+Pour déterminer si votre programme d’équilibrage de la charge matérielle prend en charge les fonctionnalités requises par Lync Server 2013, voir « partenaires d’équilibrage de charge [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 » à l’adresse.
 
 <div>
 
@@ -143,7 +143,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 
 
 > [!WARNING]  
-> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<BR>Pour plus d’informations sur les programmes d’équilibrage de la charge matérielle de tiers, voir<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> Les programmes d’équilibrage de la charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de la charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 fournit les paramètres spécifiques pour cela.<BR>Pour plus d’informations sur les programmes d’équilibrage de la charge matérielle de tiers, voir<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -286,7 +286,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 <td><p>4443</p></td>
 <td><p>Serveur frontal</p>
 <p>5061</p></td>
-<td><p>Aucun</p></td>
+<td><p>Néant</p></td>
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
@@ -295,7 +295,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 <td><p>8080</p></td>
 <td><p>Serveur frontal</p>
 <p>5061</p></td>
-<td><p>Aucun</p></td>
+<td><p>Néant</p></td>
 <td><p>HTTP</p></td>
 </tr>
 </tbody>

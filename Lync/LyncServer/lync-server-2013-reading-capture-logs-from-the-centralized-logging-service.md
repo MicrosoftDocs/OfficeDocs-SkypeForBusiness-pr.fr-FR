@@ -12,18 +12,18 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebb1ec3ebde4f1277d6304190aceafa2e0fe2884
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050176"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138875"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lecture des journaux de capture à partir du service de journalisation centralisée dans Lync Server 2013
 
@@ -43,7 +43,7 @@ Vous profitez de l’avantage réel du service de journalisation centralisée ap
 
 
 > [!IMPORTANT]  
-> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de résolution des problèmes. Le dépannage et les processus qui l’entourent constituent un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et sur la résolution des charges de travail spécifiques, <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>consultez le Guide du kit de ressources Microsoft Lync Server 2010 à l’adresse. Les processus et procédures s’appliquent toujours à Lync Server 2013.
+> L’objectif de cette rubrique n’est pas de détailler et de discuter des techniques de résolution des problèmes. Le dépannage et les processus qui l’entourent constituent un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base et sur la résolution des charges de travail spécifiques, <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>consultez le Guide du kit de ressources Microsoft Lync Server 2010 à l’adresse. Les processus et procédures s’appliquent toujours à Lync Server 2013.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043036"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Méthodologie de qualité des appels Lync dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043036"
 
 _**Dernière modification de la rubrique :** 2016-06-24_
 
-Cet article est un complément de l’affiche de [méthodologie de qualité des appels Lync](http://go.microsoft.com/fwlink/?linkid=391841) , que vous pouvez télécharger à partir du centre de téléchargement.
+Cet article est un complément de l’affiche de [méthodologie de qualité des appels Lync](https://go.microsoft.com/fwlink/?linkid=391841) , que vous pouvez télécharger à partir du centre de téléchargement.
 
 ![Affiche décrivant le processus CQM](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Affiche décrivant le processus CQM")
 
@@ -71,7 +71,7 @@ L’affiche décrit les domaines suivants :
 
 ## <a name="what-is-lync-cqm"></a>Qu’est-ce que Lync CQM ?
 
-La méthodologie de qualité des appels est une nouvelle infrastructure de résolution des problèmes et de gestion des services qui peut mieux se concentrer sur les services voix entreprise dans Lync. Lorsque vous utilisez CQM, vous devez réduire les efforts pour garantir la qualité des appels et la satisfaction des utilisateurs pour les services voix entreprise. CQM est plus entièrement expliqué dans la [méthodologie de qualité des appels](http://go.microsoft.com/fwlink/p/?linkid=615208). Cet article et l’affiche sont des résumés de ce contenu.
+La méthodologie de qualité des appels est une nouvelle infrastructure de résolution des problèmes et de gestion des services qui peut mieux se concentrer sur les services voix entreprise dans Lync. Lorsque vous utilisez CQM, vous devez réduire les efforts pour garantir la qualité des appels et la satisfaction des utilisateurs pour les services voix entreprise. CQM est plus entièrement expliqué dans la [méthodologie de qualité des appels](https://go.microsoft.com/fwlink/p/?linkid=615208). Cet article et l’affiche sont des résumés de ce contenu.
 
 CQM divise le dépannage du système en trois chemins ou « routes ». Ce sont les suivants : la route de plante serveur, qui examine les serveurs et les liens entre elles, les points de terminaison, qui examinent les appareils et les supports utilisateur utilisés pour transporter des appels, et le dernier kilomètre, qui traite de l’intégration des appels réseau téléphoniques commutés traditionnels.
 
@@ -204,9 +204,9 @@ Pour **tenir** compte du jeu, précisez le plan de gestion des services en fonct
 ## <a name="see-also"></a>Voir aussi
 
 
-[Guide de mise en réseau Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Indicateurs d’intégrité clés : base pour la maintenance des serveurs Lync sains](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Méthodologie de qualité des appels Lync](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Guide de mise en réseau Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Indicateurs d’intégrité clés : base pour la maintenance des serveurs Lync sains](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Méthodologie de qualité des appels Lync](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

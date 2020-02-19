@@ -12,18 +12,18 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d42dbd967f90b6e2a905b92558c88fe52ef62d7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 717f4e9686574a04434889f2c44a029a02e75768
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029165"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="ucwa-events-in-lync-server-2013"></a>Événements UCWA dans Lync Server 2013
 
@@ -92,7 +92,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20005</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de l’accès à Exchange pour la photo HD</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
@@ -105,7 +105,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20007</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération d’un contact de recherche inversement dans Exchange</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
@@ -153,7 +153,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20014</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de messagerie instantanée</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
@@ -166,7 +166,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20016</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU AV</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
@@ -179,7 +179,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20018</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion à MCU</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
@@ -192,7 +192,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20020</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de la connexion au MCU de données</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
@@ -233,7 +233,7 @@ UCWA écrit des enregistrements de comportement opérationnel sous forme d’inf
 <td><p>20026</p></td>
 <td><p>Message d’information</p></td>
 <td><p>Récupération de l’échec de l’accès à Active Directory pour la photo</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>20027</p></td>

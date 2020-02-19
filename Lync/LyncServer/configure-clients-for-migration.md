@@ -13,18 +13,18 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cbdc2ef87003110aed4cc9bc754fb73f62ea493
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000569"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>Configurer les clients pour la migration
 
@@ -44,7 +44,7 @@ Cette rubrique contient les étapes de déploiement de clients recommandées ava
 
 ## <a name="to-configure-clients-before-migration"></a>Pour configurer les clients avant la migration
 
-1.  Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour Lync Server 2010. Pour obtenir les informations les plus à jour sur Lync Server 2010, consultez la rubrique mises à jour du centre de ressources <http://go.microsoft.com/fwlink/p/?linkid=232630>pour Lync à l’adresse.
+1.  Déployez les mises à jour les plus récentes du serveur, du client et du périphérique (correctifs) pour Lync Server 2010. Pour obtenir les informations les plus à jour sur Lync Server 2010, consultez la rubrique mises à jour du centre de ressources <https://go.microsoft.com/fwlink/p/?linkid=232630>pour Lync à l’adresse.
 
 2.  Sur Lync Server 2010, utilisez le filtrage de version du client pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées.
 

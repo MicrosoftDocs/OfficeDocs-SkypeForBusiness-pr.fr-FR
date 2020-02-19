@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037876"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>Configuration des services Internet (IIS) dans Lync Server 2013
 
@@ -45,7 +45,7 @@ Avant de configurer et d’installer le serveur frontal pour Lync Server 2013, S
 
 
 > [!IMPORTANT]  
-> Si votre organisation nécessite que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server 2013 dans la boîte de dialogue Configuration lors de l’installation initiale de Lync Server 2013 Outils d’administration. Vous devez installer ces derniers avant d’installer IIS. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, les autres fichiers Lync Server 2013 seront également déployés sur ce lecteur. Pour dtails, voir <A href="lync-server-2013-install-lync-server-administrative-tools.md">install Lync Server 2013 administrative Tools</A>. Pour plus d’informations sur la façon de déplacer le INETPUB déployé par le gestionnaire Windows Server lors de <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>l’installation d’IIS, reportez-vous à la rubrique.
+> Si votre organisation nécessite que vous localisiez les services Internet (IIS) et tous les services Web sur un lecteur autre que le lecteur système, vous pouvez modifier le chemin d’accès de l’emplacement d’installation des fichiers Lync Server 2013 dans la boîte de dialogue Configuration lors de l’installation initiale de Lync Server 2013 Outils d’administration. Vous devez installer ces derniers avant d’installer IIS. Si vous installez les fichiers d’installation dans ce chemin d’accès, y compris OCSCore. msi, les autres fichiers Lync Server 2013 seront également déployés sur ce lecteur. Pour dtails, voir <A href="lync-server-2013-install-lync-server-administrative-tools.md">install Lync Server 2013 administrative Tools</A>. Pour plus d’informations sur la façon de déplacer le INETPUB déployé par le gestionnaire Windows Server lors de <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>l’installation d’IIS, reportez-vous à la rubrique.
 
 
 
@@ -155,7 +155,7 @@ Sur le système d’exploitation Windows Server 2008 R2 SP1 x64, vous pouvez uti
 
 
 > [!NOTE]  
-> L’authentification anonyme est installée par défaut avec le rôle de serveur IIS. Vous pouvez gérer l’authentification anonyme après l’installation d’IIS. Pour plus d’informations, consultez la rubrique « activer l’authentification anonyme ( <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>IIS 7) » à l’adresse.
+> L’authentification anonyme est installée par défaut avec le rôle de serveur IIS. Vous pouvez gérer l’authentification anonyme après l’installation d’IIS. Pour plus d’informations, consultez la rubrique « activer l’authentification anonyme ( <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>IIS 7) » à l’adresse.
 
 
 
@@ -167,7 +167,7 @@ Le tableau suivant indique les services de rôle IIS 8,0 et IIS 8,5 requis pour 
 
 
 > [!NOTE]  
-> Pour Windows Server 2012 et Windows Server 2012 R2, la cmdlet Add-WindowsFeature a été remplacée par la cmdlet install-WindowsFeature. Pour plus d’informations, consultez la rubrique <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.
+> Pour Windows Server 2012 et Windows Server 2012 R2, la cmdlet Add-WindowsFeature a été remplacée par la cmdlet install-WindowsFeature. Pour plus d’informations, consultez la rubrique <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.
 
 
 

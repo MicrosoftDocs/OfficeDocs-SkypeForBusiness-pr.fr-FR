@@ -12,18 +12,18 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 851ac4d48a5242355baa1f25499dcaf26e8ef099
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c3393fff4df6a4b506c547752feb3684b65580ea
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043736"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Afficher les numéros d’accès aux conférences rendez-vous dans Lync Server 2013
 
@@ -59,7 +59,7 @@ Dans le panneau de configuration Lync Server 2013, fournissez des numéros d’a
 
 ## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Affichage des numéros d’accès aux conférences rendez-vous à l’aide des applets de commande Windows PowerShell
 
-Les numéros d’accès aux conférences rendez-vous peuvent être affichés à l’aide de Windows PowerShell et de l’applet de commande Get-applet csdialinconferencingaccessnumber. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les numéros d’accès aux conférences rendez-vous peuvent être affichés à l’aide de Windows PowerShell et de l’applet de commande Get-applet csdialinconferencingaccessnumber. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 

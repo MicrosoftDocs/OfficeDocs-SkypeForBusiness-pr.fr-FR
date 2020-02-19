@@ -12,18 +12,18 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5ca6823c1f3e8265f7b06ea0d175b58d42ef4a08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029225"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : données
 
@@ -213,7 +213,7 @@ Pour vous aider à restaurer les services Lync Server en cas de panne, vous deve
     
       - Le compte d’authentification Kerberos (un objet ordinateur facultatif) et les groupes de sécurité Lync Server.
     
-    Pour plus d’informations sur la sauvegarde et la restauration des services AD DS dans Windows Server 2008, voir « Guide pas à pas de la sauvegarde et de [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)la récupération AD DS » à l’adresse.
+    Pour plus d’informations sur la sauvegarde et la restauration des services AD DS dans Windows Server 2008, voir « Guide pas à pas de la sauvegarde et de [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)la récupération AD DS » à l’adresse.
 
   - **Autorité de certification et certificats**   utilisez la stratégie de votre organisation pour sauvegarder votre autorité de certification et vos certificats. Si vous utilisez des clés privées exportables, vous pouvez sauvegarder le certificat et la clé privée, puis les exporter si vous utilisez les procédures décrites dans ce document pour restaurer Lync Server. Si vous utilisez une autorité de certification interne, vous pouvez réinscrire si vous avez besoin de restaurer Lync Server. Il est important de conserver la clé privée dans un endroit sûr où elle sera disponible en cas de défaillance d’un ordinateur.
 
@@ -221,11 +221,11 @@ Pour vous aider à restaurer les services Lync Server en cas de panne, vous deve
 
   - **Configuration de la passerelle PSTN (réseau téléphonique commuté)**   si vous utilisez des appliances voix entreprise ou Survivable Branch Appliances, vous devez sauvegarder la configuration de la passerelle PSTN. Pour plus d’informations sur la sauvegarde et la restauration des configurations de passerelle PSTN, consultez votre fournisseur.
 
-  - **Versions coexistantes de Lync Server ou Office Communications Server**   si votre déploiement Lync Server 2013 coexiste avec Lync Server 2010 ou une version antérieure d’Office Communications Server, vous ne pouvez pas utiliser les procédures décrites dans ce document pour sauvegarder ou restaurer la version antérieure. Au lieu de cela, vous devez utiliser les procédures de sauvegarde et de restauration documentées spécifiquement pour votre version précédente. Pour plus d’informations sur la sauvegarde et la restauration de Lync Server [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) 2010, reportez-vous à la rubrique. Pour plus d’informations sur la sauvegarde et la restauration de Microsoft Office Communications Server 2007 [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)R2, reportez-vous à la rubrique.
+  - **Versions coexistantes de Lync Server ou Office Communications Server**   si votre déploiement Lync Server 2013 coexiste avec Lync Server 2010 ou une version antérieure d’Office Communications Server, vous ne pouvez pas utiliser les procédures décrites dans ce document pour sauvegarder ou restaurer la version antérieure. Au lieu de cela, vous devez utiliser les procédures de sauvegarde et de restauration documentées spécifiquement pour votre version précédente. Pour plus d’informations sur la sauvegarde et la restauration de Lync Server [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) 2010, reportez-vous à la rubrique. Pour plus d’informations sur la sauvegarde et la restauration de Microsoft Office Communications Server 2007 [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)R2, reportez-vous à la rubrique.
 
   - **Informations**   relatives à l’infrastructure dont vous avez besoin pour sauvegarder des informations sur votre infrastructure, telles que la configuration de votre pare-feu, la configuration de l’équilibrage de charge, la configuration des services Internet (IIS), les enregistrements DNS (Domain Name System) et les adresses IP, ainsi que la configuration du protocole DHCP (Dynamic Host Configuration Protocol). Pour plus d’informations sur la sauvegarde de ces composants, consultez leur fournisseur respectif.
 
-  - **Microsoft Exchange et la messagerie unifiée Exchange**   sauvegarde et restauration de Microsoft Exchange et de la messagerie unifiée Exchange, comme décrit dans la documentation de Microsoft Exchange. Pour plus d’informations sur la sauvegarde et la restauration d’Exchange Server [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)2013, voir. Pour plus d’informations sur la sauvegarde et la restauration d’Exchange Server [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)2010, voir.
+  - **Microsoft Exchange et la messagerie unifiée Exchange**   sauvegarde et restauration de Microsoft Exchange et de la messagerie unifiée Exchange, comme décrit dans la documentation de Microsoft Exchange. Pour plus d’informations sur la sauvegarde et la restauration d’Exchange Server [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)2013, voir. Pour plus d’informations sur la sauvegarde et la restauration d’Exchange Server [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)2010, voir.
     
     Notez que Lync Server 2013 offre la possibilité de faire en sorte que les listes de contacts de l’utilisateur, les photos des utilisateurs à haute définition et les données d’archivage soient stockées dans Exchange 2013. Consultez la liste suivante pour savoir comment sauvegarder ces types de données :
     

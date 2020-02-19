@@ -12,18 +12,18 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1d60a29eff876ef362d15c90e2615fd70bc8774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 635565936712fe542c807ea4d4c65f584e836bdc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993809"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscrire des utilisateurs pour l’authentification par carte à puce dans Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2013-07-03_
 
 Il existe généralement deux méthodes pour inscrire des utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire en sorte que les utilisateurs s’inscrivent directement pour l’authentification par carte à puce à l’aide de l’inscription Web, tandis que la méthode plus complexe implique l’utilisation d’un agent d’inscription. Cette rubrique se concentre sur l’auto-évaluation des certificats de carte à puce.
 
-Pour plus d’informations sur l’inscription pour le compte des utilisateurs en tant qu’agent d’inscription, voir inscrire des certificats pour le compte d’autres [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)utilisateurs chez.
+Pour plus d’informations sur l’inscription pour le compte des utilisateurs en tant qu’agent d’inscription, voir inscrire des certificats pour le compte d’autres [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)utilisateurs chez.
 
 <div>
 
