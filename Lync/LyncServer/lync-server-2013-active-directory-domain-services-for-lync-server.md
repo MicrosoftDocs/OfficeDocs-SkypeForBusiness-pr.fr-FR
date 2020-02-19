@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008576"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Services de domaine Active Directory pour Lync Server 2013
 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Active Directory infrastructure Requirements f
 
 
 > [!NOTE]  
-> Nous vous recommandons de déployer les paramètres globaux du conteneur système au lieu du conteneur de configuration. Cela n’améliore pas la sécurité, mais peut induire des améliorations en termes d’extensibilité pour certaines topologies de service de domaine Active Directory. Si vous effectuez une migration à partir de Microsoft Office Communications Server 2007 et que vous avez utilisé le conteneur système mais que vous envisagez d’utiliser le conteneur de configuration, vous devez déplacer les paramètres dans le conteneur système avant de procéder à une mise à niveau. Pour migrer vos paramètres de conteneur système vers le conteneur de configuration, reportez-vous à l' <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>outil de migration des paramètres globaux d’Office Communications Server 2007 à l’adresse.
+> Nous vous recommandons de déployer les paramètres globaux du conteneur système au lieu du conteneur de configuration. Cela n’améliore pas la sécurité, mais peut induire des améliorations en termes d’extensibilité pour certaines topologies de service de domaine Active Directory. Si vous effectuez une migration à partir de Microsoft Office Communications Server 2007 et que vous avez utilisé le conteneur système mais que vous envisagez d’utiliser le conteneur de configuration, vous devez déplacer les paramètres dans le conteneur système avant de procéder à une mise à niveau. Pour migrer vos paramètres de conteneur système vers le conteneur de configuration, reportez-vous à l' <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>outil de migration des paramètres globaux d’Office Communications Server 2007 à l’adresse.
 
 
 
@@ -219,7 +219,7 @@ De plus, pour permettre aux déploiements de Microsoft Office Communications Ser
 </table>
 
 
-Pour prendre en charge les serveurs de confiance des versions précédentes, vous devez exécuter l’outil Best Practices Analyzer. Pour plus d’informations sur l’exécution de Best Practices [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)Analyzer, reportez-vous à la rubrique.
+Pour prendre en charge les serveurs de confiance des versions précédentes, vous devez exécuter l’outil Best Practices Analyzer. Pour plus d’informations sur l’exécution de Best Practices [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)Analyzer, reportez-vous à la rubrique.
 
 </div>
 

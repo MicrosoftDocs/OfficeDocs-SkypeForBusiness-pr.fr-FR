@@ -12,18 +12,18 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57c7aa0f754491371f0b8f87c2ec0eac805ae5f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6fa619262aee2b1342dce6f211eec7ff31aabe62
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044016"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013
 
@@ -45,7 +45,7 @@ Nous vous recommandons vivement d’activer la déviation du trafic multimédia.
 
 
 > [!NOTE]  
-> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle PSTN (réseau téléphonique commuté), PBX IP et contrôleur SBC (session Border Controller). Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans la rubrique Unified Communications Open Interoperability Program – Lync Server à l’adresse <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> La déviation du trafic multimédia ne fonctionnera pas avec chaque passerelle PSTN (réseau téléphonique commuté), PBX IP et contrôleur SBC (session Border Controller). Microsoft a testé un ensemble de passerelles PSTN et de contrôleurs SBC avec des partenaires agréés et a effectué quelques tests avec les systèmes IP-PBX de Cisco. La déviation du trafic multimédia n’est prise en charge qu’avec les produits et versions répertoriés dans la rubrique Unified Communications Open Interoperability Program – Lync Server à l’adresse <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e09284d78ead2e8cd4249c2dc54159284ddad43
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043806"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42127647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-archiving-features-in-lync-server-2013"></a>Nouvelles fonctionnalités d’archivage dans Lync Server 2013
 
@@ -49,7 +49,7 @@ De plus, l’archivage dans Lync Server 2013 offre de nouvelles fonctionnalités
 
   - **Colocalisation de l’archivage sur les serveurs frontaux.**    Lync Server 2013 ne dispose pas d’un rôle de serveur d’archivage distinct. L’archivage est une fonctionnalité facultative disponible sur tous les serveurs frontaux dans un déploiement Enterprise Edition, ainsi que sur les serveurs Standard Edition Server qui peuvent être implémentés pour un pool ou un site.
 
-  - **Intégration de Microsoft Exchange.**    Lorsque vous déployez l’archivage, vous pouvez intégrer le stockage des données pour l’archivage à votre stockage Exchange 2013 existant pour tous les utilisateurs hébergés sur Exchange 2013 et disposer de leurs boîtes aux lettres en conservation inaltérable, de sorte que vous n’avez pas besoin de déployer des bases de données SQL Server distinctes pour archiver les données Lync. Si vous ne disposez pas d’un déploiement d’Exchange 2013 ou si vous préférez ne pas l’intégrer ou si vous avez des utilisateurs Lync 2013 qui ne sont pas hébergés sur Exchange 2013 avec leurs boîtes aux lettres placées en conservation inaltérable, vous pouvez déployer des bases de données d’archivage distinctes à l’aide de SQL Server to Stor e données archivées à partir de Lync communications. Vous pouvez utiliser à la fois l’intégration de Microsoft Exchange et les bases de données d’archivage Lync Server 2013 pour utiliser l’intégration de Microsoft Exchange pour certains utilisateurs, mais pas pour tous, dans votre déploiement. Pour plus d’informations sur le blocage sur place, consultez la rubrique « conservation inaltérable [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)» à l’adresse.
+  - **Intégration de Microsoft Exchange.**    Lorsque vous déployez l’archivage, vous pouvez intégrer le stockage des données pour l’archivage à votre stockage Exchange 2013 existant pour tous les utilisateurs hébergés sur Exchange 2013 et disposer de leurs boîtes aux lettres en conservation inaltérable, de sorte que vous n’avez pas besoin de déployer des bases de données SQL Server distinctes pour archiver les données Lync. Si vous ne disposez pas d’un déploiement d’Exchange 2013 ou si vous préférez ne pas l’intégrer ou si vous avez des utilisateurs Lync 2013 qui ne sont pas hébergés sur Exchange 2013 avec leurs boîtes aux lettres placées en conservation inaltérable, vous pouvez déployer des bases de données d’archivage distinctes à l’aide de SQL Server to Stor e données archivées à partir de Lync communications. Vous pouvez utiliser à la fois l’intégration de Microsoft Exchange et les bases de données d’archivage Lync Server 2013 pour utiliser l’intégration de Microsoft Exchange pour certains utilisateurs, mais pas pour tous, dans votre déploiement. Pour plus d’informations sur le blocage sur place, consultez la rubrique « conservation inaltérable [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)» à l’adresse.
 
   - **Mise en miroir du magasin SQL.**    Lorsque vous déployez l’archivage, vous pouvez activer la mise en miroir de base de données SQL Server pour votre base de données d’archivage.
 

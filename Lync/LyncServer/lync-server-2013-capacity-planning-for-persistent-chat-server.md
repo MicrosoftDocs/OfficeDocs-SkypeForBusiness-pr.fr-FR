@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036504"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planification de la capacité pour le serveur de conversation permanente dans Lync Server 2013
 
@@ -41,7 +41,7 @@ Le serveur de conversation permanente peut effectuer une conversation en temps r
 
 La planification de la capacité est un élément important de la préparation du déploiement du serveur de conversation permanente. Cette rubrique fournit des informations sur les topologies de serveur de conversation permanente prises en charge et les tables de planification de la capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il décrit également comment gérer au mieux les déploiements de serveurs de conversation permanente qui nécessitent une plus grande capacité aux heures de pointe.
 
-Pour télécharger le serveur de conversation permanente, voir « Microsoft Lync Server 13 persistent chat [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)Server » à l’adresse.
+Pour télécharger le serveur de conversation permanente, voir « Microsoft Lync Server 13 persistent chat [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Server » à l’adresse.
 
 Pour plus d’informations sur l’installation du serveur de conversation permanente, voir [Installing persistent Chat Server in Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) et [Configuring persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) dans la documentation de déploiement.
 
@@ -212,21 +212,21 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 <td><p>Salles ouvertes (pas d’appartenance explicite)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>disque</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Salles non ouvertes (salles standard avec appartenance explicite)</p></td>
 <td><p>31 040</p></td>
 <td><p>1,035</p></td>
-<td><p>5 </p></td>
+<td><p>disque</p></td>
 <td><p>32 080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salles Auditorium (entrée autres présentateurs supplémentaires)</p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>disque</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 </tr>
 <tr class="even">
 <td><p>Groupes d’utilisateurs dans la liste d’appartenance de chaque salle de conversation pour les salles non ouvertes</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>3</p></td>
+<td><p>disque</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ Les exemples de données du tableau suivant supposent que, sur la page des param
 <tr class="odd">
 <td><p>Taux de conversation par utilisateur et par jour</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>disque</p></td>
 <td><p>0,1</p></td>
 <td><p>vingtaine</p></td>
 </tr>
@@ -559,7 +559,7 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 </tr>
 <tr class="even">
 <td><p>Nombre d’instances de service du serveur de conversation permanente</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>Taille des petites salles de conversation</p></td>
@@ -599,11 +599,11 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de conversatio
 </tr>
 <tr class="even">
 <td><p>Nombre total de moyennes salles de conversation par utilisateur</p></td>
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre total de grandes salles de conversation par utilisateur</p></td>
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de salles jointes par utilisateur</p></td>

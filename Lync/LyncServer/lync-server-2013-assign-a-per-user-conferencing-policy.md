@@ -12,12 +12,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4fbef02553d4ba390dcf94f96f55936e2661b1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043316"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134450"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Affecter une stratégie de conférence par utilisateur dans Lync Server 2013
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur la création de stratégies de conférence, voir 
 
 ## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie de conférence par utilisateur à l’aide d’applets de commande Windows PowerShell
 
-Les stratégies de conférence par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de la cmdlet Grant-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Les stratégies de conférence par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de la cmdlet Grant-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>Pour affecter une stratégie de conférence par utilisateur à un seul utilisateur
 

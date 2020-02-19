@@ -12,18 +12,18 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7000456629a91742350b9866dc9e1441c18eee57
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0561c2d6b36090a9499abf360373cf0468cdbda8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030868"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Conditions requises pour les certificats pour l’accès des utilisateurs externes dans Lync Server 2013
 
@@ -41,7 +41,7 @@ Le logiciel de communication Microsoft Lync Server 2013 prend en charge l’util
 
 Le certificat public utilisé pour les interfaces externes Edge d’accès et de conférence web et pour le service d’authentification A/V doit remplir les conditions suivantes :
 
-  - Le certificat doit être émis par une autorité de certification publique approuvée qui prend en charge les autres noms de sujet. Pour plus d’informations, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications unifiées pour Exchange [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)Server et Communications Server », à l’adresse.
+  - Le certificat doit être émis par une autorité de certification publique approuvée qui prend en charge les autres noms de sujet. Pour plus d’informations, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications unifiées pour Exchange [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Server et Communications Server », à l’adresse.
 
   - Si vous comptez utiliser le certificat dans un pool de serveurs Edge, vous devez le créer de manière à pouvoir l’exporter, en utilisant le même certificat sur chaque serveur Edge du pool. Les exigences de clé privée exportable concernent le service d’authentification A/V, qui doit utiliser la même clé privée sur tous les serveurs Edge du pool.
 

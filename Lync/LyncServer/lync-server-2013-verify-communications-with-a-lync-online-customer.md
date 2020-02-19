@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59fcf8398fa012543303f959f4888074f5192470
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007363"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Vérifier les communications avec un client Lync Online dans Lync Server 2013
 
@@ -45,7 +45,7 @@ Pour permettre aux utilisateurs Lync de votre organisation de communiquer avec l
 
   - Vous avez configuré les comptes de vos utilisateurs de sorte qu’ils prennent en charge la fédération. Pour plus d’informations, voir [configurer l’accès utilisateur pour la Fédération avec un client Lync Online dans Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).
 
-Une fois que vous avez effectué toutes ces étapes et que l’administrateur du client Lync Online 2010 complète toutes les configurations de leurs services en ligne afin de prendre en charge la Fédération avec votre organisation, vérifiez les communications en testant les communications entre un service interne utilisateur au sein de votre organisation et un utilisateur du client Lync Online. Si la communication échoue, utilisez l’outil de journalisation à partir de votre serveur Edge pour capturer les fichiers journaux et de suivi afin de résoudre le problème. Pour plus d’informations sur l’utilisation de l’outil de journalisation, voir [Open Lync Server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md) dans la documentation des opérations. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
+Une fois que vous avez effectué toutes ces étapes et que l’administrateur du client Lync Online 2010 complète toutes les configurations de leurs services en ligne afin de prendre en charge la Fédération avec votre organisation, vérifiez les communications en testant les communications entre un service interne utilisateur au sein de votre organisation et un utilisateur du client Lync Online. Si la communication échoue, utilisez l’outil de journalisation à partir de votre serveur Edge pour capturer les fichiers journaux et de suivi afin de résoudre le problème. Pour plus d’informations sur l’utilisation de l’outil de journalisation, voir [Open Lync Server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md) dans la documentation des opérations. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
 
 </div>
 

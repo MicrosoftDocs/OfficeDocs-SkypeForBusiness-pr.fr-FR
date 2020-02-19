@@ -12,18 +12,18 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0d08c56e8b88f13a965f7ab24c8f497e01f10400
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034816"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-load-balancing-in-lync-server-2013"></a>Équilibrage de la charge DNS dans Lync Server 2013
 
@@ -41,7 +41,7 @@ Lync Server active l’équilibrage de charge DNS, une solution logicielle qui r
 
 Si vous déployez l’équilibrage de la charge DNS, les frais d’administration de votre organisation pour les programmes d’équilibrage de la charge matérielle seront minimisés. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
 
-En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des programmes d’équilibrage de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir « partenaires d' [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)équilibrage de charge Lync Server 2010 » à l’adresse.
+En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des programmes d’équilibrage de charge qui ont passé des tests de compétences d’interopérabilité avec Lync Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir « partenaires d' [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)équilibrage de charge Lync Server 2010 » à l’adresse.
 
 L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools de directeurs et les pools de serveurs de médiation autonomes.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036484"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planification de la capacité pour Lync Server 2013 à l’aide des modèles utilisateur
 
@@ -220,7 +220,7 @@ Le tableau suivant indique la bande passante moyenne pour la messagerie instanta
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédia de la fonctionnalité de conférence A/V et du serveur de médiation colocalisée sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
+> Pour améliorer les performances multimédia de la fonctionnalité de conférence A/V et du serveur de médiation colocalisée sur vos serveurs frontaux, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs frontaux. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 
@@ -266,7 +266,7 @@ Lorsque vous comptez le nombre d’utilisateurs pour les serveurs Edge, ajoutez 
 
 
 > [!NOTE]  
-> Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
+> Pour améliorer les performances du service Edge de conférence A/V sur vos serveurs Edge, vous devez activer le partage du trafic entrant (RSS, Receive-Side Scaling) sur les cartes réseau de vos serveurs Edge. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 
@@ -396,7 +396,7 @@ Tous les tableaux ci-dessous présupposent une utilisation telle que résumée d
 
 
 > [!NOTE]  
-> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs de médiation. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
+> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau de vos serveurs de médiation. RSS permet de gérer les paquets entrants en parallèle à l’aide de plusieurs processeurs sur le serveur. Pour plus d’informations, reportez-vous à la section « améliorations de l’évolutivité <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>côté réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, consultez la documentation de votre carte réseau.
 
 
 
@@ -495,18 +495,18 @@ Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de 
 </tr>
 <tr class="odd">
 <td><p>Fichier journal de la base de données d’enregistrement des détails des appels</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>0,1</p></td>
+<td><p>n°2</p></td>
 </tr>
 <tr class="even">
 <td><p>Fichier journal de la base de données QoE</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>0,1</p></td>
+<td><p>n°2</p></td>
 </tr>
 <tr class="odd">
 <td><p>Fichier journal de la base de données d’archivage</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>0,1</p></td>
+<td><p>n°2</p></td>
 </tr>
 </tbody>
 </table>

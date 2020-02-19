@@ -12,18 +12,18 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03a819fad54bbd19be842f7ae28f655186135b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029285"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="as-needed-tasks-in-lync-server-2013"></a>Tâches nécessaires dans Lync Server 2013
 
@@ -103,7 +103,7 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent également couv
     
       - Suppression d’utilisateurs Lync Server
 
-  - **Analyse des fichiers**   journaux Lync Server 2013 un outil très utile, généralement utilisé pour la résolution des problèmes, est l’outil de journalisation Lync Server 2013 décrit en détail dans [utilisation de l’outil de journalisation Lync Server 2013](http://technet.microsoft.com/library/gg558599.aspx).
+  - **Analyse des fichiers**   journaux Lync Server 2013 un outil très utile, généralement utilisé pour la résolution des problèmes, est l’outil de journalisation Lync Server 2013 décrit en détail dans [utilisation de l’outil de journalisation Lync Server 2013](https://technet.microsoft.com/library/gg558599.aspx).
 
 Étant donné que l’outil de journalisation génère des fichiers journaux (par serveur), ces fichiers journaux peuvent être affichés et analysés à l’aide de l’outil Snooper, si les outils du kit de ressources Microsoft Office Server 12 sont installés sur l’ordinateur. Dans le cas contraire, les journaux peuvent également être analysés à l’aide d’un éditeur de texte, ce qui est bien moins transparent et plus complexe que l’utilisation de l’utilitaire de surveillance.
 

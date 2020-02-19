@@ -12,18 +12,18 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3dd1aa5bdde1c94e3d0558be14c67cf62ec8142a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038456"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Configuration requise pour l’infrastructure de certificat pour Lync Server 2013
 
@@ -59,7 +59,7 @@ Pour Lync Server, les exigences communes suivantes s’appliquent :
 
   - Tous les certificats de serveur doivent contenir un point de distribution de liste de révocation de certificats (CDP).
 
-  - Tous les certificats doivent être signés à l’aide d’un algorithme de signature pris en charge par le système d’exploitation. Lync Server 2013 prend en charge la suite SHA-1 et SHA-2 de tailles de condensé (224, 256, 384 et 512 bits) et répond ou dépasse la configuration requise du système d’exploitation. Pour la prise en charge du [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)système d’exploitation, voir.
+  - Tous les certificats doivent être signés à l’aide d’un algorithme de signature pris en charge par le système d’exploitation. Lync Server 2013 prend en charge la suite SHA-1 et SHA-2 de tailles de condensé (224, 256, 384 et 512 bits) et répond ou dépasse la configuration requise du système d’exploitation. Pour la prise en charge du [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)système d’exploitation, voir.
     
     <div>
     
