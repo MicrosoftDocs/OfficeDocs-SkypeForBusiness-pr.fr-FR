@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9038244969b70ba570fa00e66620868f57348443
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036584"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141130"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a><span data-ttu-id="2d3f5-102">Concepts de base de la topologie que vous devez prendre en compte avant de planifier Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d3f5-102">Topology basics you must know before planning for Lync Server 2013</span></span>
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a><span data-ttu-id="0758c-102">Concepts de base de la topologie que vous devez prendre en compte avant de planifier Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0758c-102">Topology basics you must know before planning for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42036584"
 
 <span> </span>
 
-<span data-ttu-id="2d3f5-103">_**Dernière modification de la rubrique :** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="2d3f5-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="0758c-103">_**Dernière modification de la rubrique :** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="0758c-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="2d3f5-104">Vous n’avez pas besoin d’être expert sur Lync Server pour exécuter l’outil de planification.</span><span class="sxs-lookup"><span data-stu-id="2d3f5-104">You do not have to be an expert on Lync Server to run the Planning Tool.</span></span> <span data-ttu-id="2d3f5-105">En fait, l’exécution de l’outil de planification à plusieurs reprises, la réponse à des questions de manière différente et la comparaison de la sortie est un moyen efficace pour en savoir plus sur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2d3f5-105">In fact, running the Planning Tool multiple times, answering questions differently, and comparing the output is a good way to learn about Lync Server.</span></span>
+<span data-ttu-id="0758c-104">Vous n’avez pas besoin d’être expert sur Lync Server pour exécuter l’outil de planification.</span><span class="sxs-lookup"><span data-stu-id="0758c-104">You do not have to be an expert on Lync Server to run the Planning Tool.</span></span> <span data-ttu-id="0758c-105">En fait, l’exécution de l’outil de planification à plusieurs reprises, la réponse à des questions de manière différente et la comparaison de la sortie est un moyen efficace pour en savoir plus sur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0758c-105">In fact, running the Planning Tool multiple times, answering questions differently, and comparing the output is a good way to learn about Lync Server.</span></span>
 
-<span data-ttu-id="2d3f5-106">Avant de découvrir les différents composants de manière plus approfondie, vous devez comprendre les aspects suivants des topologies Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2d3f5-106">Before you learn about the various components in more depth, you should understand the following basic aspects of Lync Server 2013 topologies.</span></span>
+<span data-ttu-id="0758c-106">Avant de découvrir les différents composants de manière plus approfondie, vous devez comprendre les aspects suivants des topologies Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0758c-106">Before you learn about the various components in more depth, you should understand the following basic aspects of Lync Server 2013 topologies.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2d3f5-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2d3f5-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0758c-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0758c-107">In This Section</span></span>
 
-  - [<span data-ttu-id="2d3f5-108">Sites Lync Server pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d3f5-108">Lync Server sites for Lync Server 2013</span></span>](lync-server-2013-sites.md)
+  - [<span data-ttu-id="0758c-108">Sites Lync Server pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0758c-108">Lync Server sites for Lync Server 2013</span></span>](lync-server-2013-sites.md)
 
-  - [<span data-ttu-id="2d3f5-109">Rôles serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d3f5-109">Server roles in Lync Server 2013</span></span>](lync-server-2013-server-roles.md)
+  - [<span data-ttu-id="0758c-109">Rôles serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0758c-109">Server roles in Lync Server 2013</span></span>](lync-server-2013-server-roles.md)
 
-  - [<span data-ttu-id="2d3f5-110">Prise en charge de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d3f5-110">High availability and disaster recovery support in Lync Server 2013</span></span>](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [<span data-ttu-id="0758c-110">Prise en charge de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0758c-110">High availability and disaster recovery support in Lync Server 2013</span></span>](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b86f283aae05985ea903a17dfb15dff83574c42f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b273674d1f2ad20a0379c65e35e85ae0300df3dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029215"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a><span data-ttu-id="59987-102">Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations</span><span class="sxs-lookup"><span data-stu-id="59987-102">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a><span data-ttu-id="1c450-102">Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations</span><span class="sxs-lookup"><span data-stu-id="1c450-102">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42029215"
 
 <span> </span>
 
-<span data-ttu-id="59987-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="59987-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="1c450-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="1c450-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="59987-104">Cette rubrique identifie les outils que vous pouvez utiliser pour sauvegarder et restaurer Lync Server 2013, les autorisations dont vous avez besoin et si vous pouvez exécuter des commandes à distance ou localement.</span><span class="sxs-lookup"><span data-stu-id="59987-104">This topic identifies the tools that you can use to back up and restore Lync Server 2013, the permissions that you need, and whether you can run commands remotely or locally.</span></span> <span data-ttu-id="59987-105">Plus précisément, cette rubrique se concentre sur les outils fournis avec Lync Server pour la sauvegarde et la restauration.</span><span class="sxs-lookup"><span data-stu-id="59987-105">Specifically, this topic focuses on tools that are provided with Lync Server for backup and restoration.</span></span>
+<span data-ttu-id="1c450-104">Cette rubrique identifie les outils que vous pouvez utiliser pour sauvegarder et restaurer Lync Server 2013, les autorisations dont vous avez besoin et si vous pouvez exécuter des commandes à distance ou localement.</span><span class="sxs-lookup"><span data-stu-id="1c450-104">This topic identifies the tools that you can use to back up and restore Lync Server 2013, the permissions that you need, and whether you can run commands remotely or locally.</span></span> <span data-ttu-id="1c450-105">Plus précisément, cette rubrique se concentre sur les outils fournis avec Lync Server pour la sauvegarde et la restauration.</span><span class="sxs-lookup"><span data-stu-id="1c450-105">Specifically, this topic focuses on tools that are provided with Lync Server for backup and restoration.</span></span>
 
 <div>
 
-## <a name="backups"></a><span data-ttu-id="59987-106">Sauvegardes</span><span class="sxs-lookup"><span data-stu-id="59987-106">Backups</span></span>
+## <a name="backups"></a><span data-ttu-id="1c450-106">Sauvegardes</span><span class="sxs-lookup"><span data-stu-id="1c450-106">Backups</span></span>
 
-<span data-ttu-id="59987-107">Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="59987-107">To back up Lync Server, use the tools identified in the following table.</span></span> <span data-ttu-id="59987-108">Toutes les commandes dont vous avez besoin pour sauvegarder Lync Server peuvent être scriptées et exécutées à distance.</span><span class="sxs-lookup"><span data-stu-id="59987-108">All the commands that you need to back up Lync Server can be scripted and can be run remotely.</span></span>
+<span data-ttu-id="1c450-107">Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="1c450-107">To back up Lync Server, use the tools identified in the following table.</span></span> <span data-ttu-id="1c450-108">Toutes les commandes dont vous avez besoin pour sauvegarder Lync Server peuvent être scriptées et exécutées à distance.</span><span class="sxs-lookup"><span data-stu-id="1c450-108">All the commands that you need to back up Lync Server can be scripted and can be run remotely.</span></span>
 
-### <a name="tools-for-backing-up-lync-server"></a><span data-ttu-id="59987-109">Outils de sauvegarde de Lync Server</span><span class="sxs-lookup"><span data-stu-id="59987-109">Tools for Backing Up Lync Server</span></span>
+### <a name="tools-for-backing-up-lync-server"></a><span data-ttu-id="1c450-109">Outils de sauvegarde de Lync Server</span><span class="sxs-lookup"><span data-stu-id="1c450-109">Tools for Backing Up Lync Server</span></span>
 
 <table>
 <colgroup>
@@ -54,50 +54,50 @@ ms.locfileid: "42029215"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="59987-110">Pour sauvegarder ces éléments, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="59987-110">To back up this:</span></span></th>
-<th><span data-ttu-id="59987-111">Utilisez cet outil ou cette applet de commande :</span><span class="sxs-lookup"><span data-stu-id="59987-111">Use this tool or cmdlet:</span></span></th>
+<th><span data-ttu-id="1c450-110">Pour sauvegarder ces éléments, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="1c450-110">To back up this:</span></span></th>
+<th><span data-ttu-id="1c450-111">Utilisez cet outil ou cette applet de commande :</span><span class="sxs-lookup"><span data-stu-id="1c450-111">Use this tool or cmdlet:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-112">Données de configuration de topologie (XDS. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-112">Topology configuration data (Xds.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-113">Export-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-113">Export-CsConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="1c450-112">Données de configuration de topologie (XDS. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-112">Topology configuration data (Xds.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-113">Export-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-113">Export-CsConfiguration</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-114">Données de service d’informations d’emplacement (E9-1-1) (LIS. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-114">Location information service (E9-1-1) data (Lis.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-115">Export-CsLisConfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-115">Export-CsLisConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="1c450-114">Données de service d’informations d’emplacement (E9-1-1) (LIS. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-114">Location information service (E9-1-1) data (Lis.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-115">Export-CsLisConfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-115">Export-CsLisConfiguration</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-116">Données de configuration de Response Group (RgsConfig. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-116">Response Group configuration data (RgsConfig.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-117">Export-applet csrgsconfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-117">Export-CsRgsConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="1c450-116">Données de configuration de Response Group (RgsConfig. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-116">Response Group configuration data (RgsConfig.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-117">Export-applet csrgsconfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-117">Export-CsRgsConfiguration</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-118">Données utilisateur persistantes (base de données Rtcxds. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-118">Persistent user data (Rtcxds.mdf database)</span></span></p>
-<p><span data-ttu-id="59987-119">ID de conférence</span><span class="sxs-lookup"><span data-stu-id="59987-119">Conference IDs</span></span></p></td>
-<td><p><span data-ttu-id="59987-120">Export-applet csuserdata</span><span class="sxs-lookup"><span data-stu-id="59987-120">Export-CsUserData</span></span></p></td>
+<td><p><span data-ttu-id="1c450-118">Données utilisateur persistantes (base de données Rtcxds. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-118">Persistent user data (Rtcxds.mdf database)</span></span></p>
+<p><span data-ttu-id="1c450-119">ID de conférence</span><span class="sxs-lookup"><span data-stu-id="1c450-119">Conference IDs</span></span></p></td>
+<td><p><span data-ttu-id="1c450-120">Export-applet csuserdata</span><span class="sxs-lookup"><span data-stu-id="1c450-120">Export-CsUserData</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><ul>
-<li><p><span data-ttu-id="59987-121">Base de données d’archivage (LcsLog. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-121">Archiving database (LcsLog.mdf)</span></span></p></li>
-<li><p><span data-ttu-id="59987-122">Base de données d’enregistrement des détails des appels de surveillance (LcsCDR. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-122">Monitoring call detail record database (LcsCDR.mdf)</span></span></p></li>
-<li><p><span data-ttu-id="59987-123">Surveillance de la base de données QoE (QoEMetrics. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-123">Monitoring QoE database (QoEMetrics.mdf)</span></span></p></li>
+<li><p><span data-ttu-id="1c450-121">Base de données d’archivage (LcsLog. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-121">Archiving database (LcsLog.mdf)</span></span></p></li>
+<li><p><span data-ttu-id="1c450-122">Base de données d’enregistrement des détails des appels de surveillance (LcsCDR. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-122">Monitoring call detail record database (LcsCDR.mdf)</span></span></p></li>
+<li><p><span data-ttu-id="1c450-123">Surveillance de la base de données QoE (QoEMetrics. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-123">Monitoring QoE database (QoEMetrics.mdf)</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="59987-124">Outil de base de données SQL Server, tel que SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="59987-124">SQL Server database tool, such as SQL Server Management Studio</span></span></p></td>
+<td><p><span data-ttu-id="1c450-124">Outil de base de données SQL Server, tel que SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="1c450-124">SQL Server database tool, such as SQL Server Management Studio</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-125">Base de données de conversation permanente (MGC. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-125">Persistent Chat database (Mgc.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-126">Procédures de sauvegarde SQL Server ou Export-applet cspersistentchatdata.</span><span class="sxs-lookup"><span data-stu-id="59987-126">SQL Server backup procedures or Export-CsPersistentChatData.</span></span> <span data-ttu-id="59987-127">Export-applet cspersistentchatdata exporte les données de conversation permanente sous forme de fichier.</span><span class="sxs-lookup"><span data-stu-id="59987-127">Export-CsPersistentChatData exports Persistent Chat data as a file.</span></span></p></td>
+<td><p><span data-ttu-id="1c450-125">Base de données de conversation permanente (MGC. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-125">Persistent Chat database (Mgc.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-126">Procédures de sauvegarde SQL Server ou Export-applet cspersistentchatdata.</span><span class="sxs-lookup"><span data-stu-id="1c450-126">SQL Server backup procedures or Export-CsPersistentChatData.</span></span> <span data-ttu-id="1c450-127">Export-applet cspersistentchatdata exporte les données de conversation permanente sous forme de fichier.</span><span class="sxs-lookup"><span data-stu-id="1c450-127">Export-CsPersistentChatData exports Persistent Chat data as a file.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-128">Tous les magasins de fichiers : magasin de fichiers Lync Server, magasin de fichiers d’archivage</span><span class="sxs-lookup"><span data-stu-id="59987-128">All file stores: Lync Server file store, Archiving file store</span></span></p>
+<td><p><span data-ttu-id="1c450-128">Tous les magasins de fichiers : magasin de fichiers Lync Server, magasin de fichiers d’archivage</span><span class="sxs-lookup"><span data-stu-id="1c450-128">All file stores: Lync Server file store, Archiving file store</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="59987-129">Les fichiers nommés <STRONG>Meeting. active</STRONG> ne doivent pas être sauvegardés.</span><span class="sxs-lookup"><span data-stu-id="59987-129">Files named <STRONG>Meeting.Active</STRONG> should not be backed up.</span></span> <span data-ttu-id="59987-130">Ces fichiers sont en cours d’utilisation et verrouillés lors d’une réunion.</span><span class="sxs-lookup"><span data-stu-id="59987-130">These files are in use and locked while a meeting takes place.</span></span>
+> <span data-ttu-id="1c450-129">Les fichiers nommés <STRONG>Meeting. active</STRONG> ne doivent pas être sauvegardés.</span><span class="sxs-lookup"><span data-stu-id="1c450-129">Files named <STRONG>Meeting.Active</STRONG> should not be backed up.</span></span> <span data-ttu-id="1c450-130">Ces fichiers sont en cours d’utilisation et verrouillés lors d’une réunion.</span><span class="sxs-lookup"><span data-stu-id="1c450-130">These files are in use and locked while a meeting takes place.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="59987-131">Outil de gestion de système de fichiers standard, tel que Robocopy.</span><span class="sxs-lookup"><span data-stu-id="59987-131">Standard file system management tool, such as Robocopy.</span></span></p></td>
+<td><p><span data-ttu-id="1c450-131">Outil de gestion de système de fichiers standard, tel que Robocopy.</span><span class="sxs-lookup"><span data-stu-id="1c450-131">Standard file system management tool, such as Robocopy.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -107,11 +107,11 @@ ms.locfileid: "42029215"
 
 <div>
 
-## <a name="restoration"></a><span data-ttu-id="59987-132">Generation</span><span class="sxs-lookup"><span data-stu-id="59987-132">Restoration</span></span>
+## <a name="restoration"></a><span data-ttu-id="1c450-132">Generation</span><span class="sxs-lookup"><span data-stu-id="1c450-132">Restoration</span></span>
 
-<span data-ttu-id="59987-133">Pour restaurer Lync Server, utilisez les outils dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="59987-133">To restore Lync Server, use the tools in the following table.</span></span> <span data-ttu-id="59987-134">Toutes les commandes dont vous avez besoin pour restaurer Lync Server peuvent être scriptées.</span><span class="sxs-lookup"><span data-stu-id="59987-134">All the commands that you need to restore Lync Server can be scripted.</span></span> <span data-ttu-id="59987-135">Certaines peuvent être exécutées à distance, mais d’autres doivent être exécutées localement, comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="59987-135">Some can be run remotely, but others need to be run locally, as specified in the following table.</span></span>
+<span data-ttu-id="1c450-133">Pour restaurer Lync Server, utilisez les outils dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="1c450-133">To restore Lync Server, use the tools in the following table.</span></span> <span data-ttu-id="1c450-134">Toutes les commandes dont vous avez besoin pour restaurer Lync Server peuvent être scriptées.</span><span class="sxs-lookup"><span data-stu-id="1c450-134">All the commands that you need to restore Lync Server can be scripted.</span></span> <span data-ttu-id="1c450-135">Certaines peuvent être exécutées à distance, mais d’autres doivent être exécutées localement, comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="1c450-135">Some can be run remotely, but others need to be run locally, as specified in the following table.</span></span>
 
-### <a name="tools-for-restoring-lync-server"></a><span data-ttu-id="59987-136">Outils de restauration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="59987-136">Tools for Restoring Lync Server</span></span>
+### <a name="tools-for-restoring-lync-server"></a><span data-ttu-id="1c450-136">Outils de restauration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="1c450-136">Tools for Restoring Lync Server</span></span>
 
 <table>
 <colgroup>
@@ -120,99 +120,99 @@ ms.locfileid: "42029215"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="59987-137">Pour ce faire :</span><span class="sxs-lookup"><span data-stu-id="59987-137">To do this:</span></span></th>
-<th><span data-ttu-id="59987-138">Utilisez cet outil ou cette applet de commande :</span><span class="sxs-lookup"><span data-stu-id="59987-138">Use this tool or cmdlet:</span></span></th>
+<th><span data-ttu-id="1c450-137">Pour ce faire :</span><span class="sxs-lookup"><span data-stu-id="1c450-137">To do this:</span></span></th>
+<th><span data-ttu-id="1c450-138">Utilisez cet outil ou cette applet de commande :</span><span class="sxs-lookup"><span data-stu-id="1c450-138">Use this tool or cmdlet:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-139">Créer un ordinateur nouveau ou propre</span><span class="sxs-lookup"><span data-stu-id="59987-139">Build a new or clean computer</span></span></p></td>
+<td><p><span data-ttu-id="1c450-139">Créer un ordinateur nouveau ou propre</span><span class="sxs-lookup"><span data-stu-id="1c450-139">Build a new or clean computer</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="59987-140">Logiciel d’installation du système d’exploitation Windows</span><span class="sxs-lookup"><span data-stu-id="59987-140">Windows operating system installation software</span></span></p></li>
-<li><p><span data-ttu-id="59987-141">Logiciel d’installation de SQL Server</span><span class="sxs-lookup"><span data-stu-id="59987-141">SQL Server installation software</span></span></p></li>
-<li><p><span data-ttu-id="59987-142">Composant logiciel enfichable Certificats de la console MMC (Microsoft Management Console), si vous restaurez des certificats avec une clé privée exportable</span><span class="sxs-lookup"><span data-stu-id="59987-142">Certificates Microsoft Management Console (MMC) snap-in, if restoring certificates with an exportable private key</span></span></p></li>
+<li><p><span data-ttu-id="1c450-140">Logiciel d’installation du système d’exploitation Windows</span><span class="sxs-lookup"><span data-stu-id="1c450-140">Windows operating system installation software</span></span></p></li>
+<li><p><span data-ttu-id="1c450-141">Logiciel d’installation de SQL Server</span><span class="sxs-lookup"><span data-stu-id="1c450-141">SQL Server installation software</span></span></p></li>
+<li><p><span data-ttu-id="1c450-142">Composant logiciel enfichable Certificats de la console MMC (Microsoft Management Console), si vous restaurez des certificats avec une clé privée exportable</span><span class="sxs-lookup"><span data-stu-id="1c450-142">Certificates Microsoft Management Console (MMC) snap-in, if restoring certificates with an exportable private key</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-143">Restaurer les données du magasin de fichiers</span><span class="sxs-lookup"><span data-stu-id="59987-143">Restore file store data</span></span></p></td>
-<td><p><span data-ttu-id="59987-144">Outil de gestion de système de fichiers standard, tel que Robocopy</span><span class="sxs-lookup"><span data-stu-id="59987-144">Standard file system management tool, such as Robocopy</span></span></p></td>
+<td><p><span data-ttu-id="1c450-143">Restaurer les données du magasin de fichiers</span><span class="sxs-lookup"><span data-stu-id="1c450-143">Restore file store data</span></span></p></td>
+<td><p><span data-ttu-id="1c450-144">Outil de gestion de système de fichiers standard, tel que Robocopy</span><span class="sxs-lookup"><span data-stu-id="1c450-144">Standard file system management tool, such as Robocopy</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-145">Recréez les bases de données vides et définissez des autorisations pour les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="59987-145">Recreate empty databases and set permissions for the following:</span></span></p>
+<td><p><span data-ttu-id="1c450-145">Recréez les bases de données vides et définissez des autorisations pour les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="1c450-145">Recreate empty databases and set permissions for the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="59987-146">magasin central de gestion</span><span class="sxs-lookup"><span data-stu-id="59987-146">Central Management store</span></span></p></li>
-<li><p><span data-ttu-id="59987-147">serveur principal</span><span class="sxs-lookup"><span data-stu-id="59987-147">Back End Server</span></span></p></li>
-<li><p><span data-ttu-id="59987-148">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="59987-148">Monitoring database</span></span></p></li>
-<li><p><span data-ttu-id="59987-149">Base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="59987-149">Archiving database</span></span></p></li>
+<li><p><span data-ttu-id="1c450-146">magasin central de gestion</span><span class="sxs-lookup"><span data-stu-id="1c450-146">Central Management store</span></span></p></li>
+<li><p><span data-ttu-id="1c450-147">serveur principal</span><span class="sxs-lookup"><span data-stu-id="1c450-147">Back End Server</span></span></p></li>
+<li><p><span data-ttu-id="1c450-148">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="1c450-148">Monitoring database</span></span></p></li>
+<li><p><span data-ttu-id="1c450-149">Base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="1c450-149">Archiving database</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="59987-150">Install-applet csdatabase</span><span class="sxs-lookup"><span data-stu-id="59987-150">Install-CsDatabase</span></span></p></td>
+<td><p><span data-ttu-id="1c450-150">Install-applet csdatabase</span><span class="sxs-lookup"><span data-stu-id="1c450-150">Install-CsDatabase</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-151">Restaurer le pointeur des services de domaine Active Directory vers le magasin central de gestion</span><span class="sxs-lookup"><span data-stu-id="59987-151">Restore the Active Directory Domain Services pointer to the Central Management store</span></span></p>
+<td><p><span data-ttu-id="1c450-151">Restaurer le pointeur des services de domaine Active Directory vers le magasin central de gestion</span><span class="sxs-lookup"><span data-stu-id="1c450-151">Restore the Active Directory Domain Services pointer to the Central Management store</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="59987-152">Si vous perdez le point de connexion de service à tout moment, vous pouvez réexécuter cette applet de commande.</span><span class="sxs-lookup"><span data-stu-id="59987-152">If you lose the service connection point at any time, you can rerun this cmdlet.</span></span>
+> <span data-ttu-id="1c450-152">Si vous perdez le point de connexion de service à tout moment, vous pouvez réexécuter cette applet de commande.</span><span class="sxs-lookup"><span data-stu-id="1c450-152">If you lose the service connection point at any time, you can rerun this cmdlet.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="59987-153">Set-CsConfigurationStoreLocation</span><span class="sxs-lookup"><span data-stu-id="59987-153">Set-CsConfigurationStoreLocation</span></span></p></td>
+<td><p><span data-ttu-id="1c450-153">Set-CsConfigurationStoreLocation</span><span class="sxs-lookup"><span data-stu-id="1c450-153">Set-CsConfigurationStoreLocation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-154">Importer la topologie, les stratégies et les paramètres de configuration dans le magasin central de gestion (XDS. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-154">Import the topology, policies, and configuration settings to the Central Management store (Xds.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-155">Import-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-155">Import-CsConfiguration</span></span></p></td>
+<td><p><span data-ttu-id="1c450-154">Importer la topologie, les stratégies et les paramètres de configuration dans le magasin central de gestion (XDS. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-154">Import the topology, policies, and configuration settings to the Central Management store (Xds.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-155">Import-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-155">Import-CsConfiguration</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-156">Publier et activer la topologie</span><span class="sxs-lookup"><span data-stu-id="59987-156">Publish and enable the topology</span></span></p></td>
-<td><p><span data-ttu-id="59987-157">Générateur de topologies</span><span class="sxs-lookup"><span data-stu-id="59987-157">Topology Builder</span></span></p>
-<p><span data-ttu-id="59987-158">- ou -</span><span class="sxs-lookup"><span data-stu-id="59987-158">-or-</span></span></p>
-<p><span data-ttu-id="59987-159">Publish-CsTopology et Enable-CsTopology</span><span class="sxs-lookup"><span data-stu-id="59987-159">Publish-CsTopology and Enable-CsTopology</span></span></p></td>
+<td><p><span data-ttu-id="1c450-156">Publier et activer la topologie</span><span class="sxs-lookup"><span data-stu-id="1c450-156">Publish and enable the topology</span></span></p></td>
+<td><p><span data-ttu-id="1c450-157">Générateur de topologies</span><span class="sxs-lookup"><span data-stu-id="1c450-157">Topology Builder</span></span></p>
+<p><span data-ttu-id="1c450-158">- ou -</span><span class="sxs-lookup"><span data-stu-id="1c450-158">-or-</span></span></p>
+<p><span data-ttu-id="1c450-159">Publish-CsTopology et Enable-CsTopology</span><span class="sxs-lookup"><span data-stu-id="1c450-159">Publish-CsTopology and Enable-CsTopology</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-160">Activer la dernière topologie publiée</span><span class="sxs-lookup"><span data-stu-id="59987-160">Enable the last published topology</span></span></p></td>
-<td><p><span data-ttu-id="59987-161">Enable-CsTopology</span><span class="sxs-lookup"><span data-stu-id="59987-161">Enable-CsTopology</span></span></p></td>
+<td><p><span data-ttu-id="1c450-160">Activer la dernière topologie publiée</span><span class="sxs-lookup"><span data-stu-id="1c450-160">Enable the last published topology</span></span></p></td>
+<td><p><span data-ttu-id="1c450-161">Enable-CsTopology</span><span class="sxs-lookup"><span data-stu-id="1c450-161">Enable-CsTopology</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-162">Réinstaller les composants Lync Server</span><span class="sxs-lookup"><span data-stu-id="59987-162">Reinstall Lync Server components</span></span></p></td>
-<td><p><span data-ttu-id="59987-163">Programme d’installation de Lync Server</span><span class="sxs-lookup"><span data-stu-id="59987-163">Lync Server Setup</span></span></p>
+<td><p><span data-ttu-id="1c450-162">Réinstaller les composants Lync Server</span><span class="sxs-lookup"><span data-stu-id="1c450-162">Reinstall Lync Server components</span></span></p></td>
+<td><p><span data-ttu-id="1c450-163">Programme d’installation de Lync Server</span><span class="sxs-lookup"><span data-stu-id="1c450-163">Lync Server Setup</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="59987-164">Situé dans le dossier ou le support d’installation de Lync Server sur \setup\amd64\Setup.exe.</span><span class="sxs-lookup"><span data-stu-id="59987-164">Located in the Lync Server installation folder or media at \setup\amd64\Setup.exe.</span></span>
-
-
-</div></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="59987-165">Restaurer les données d’informations d’emplacement (E9-1-1) (LIS. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-165">Restore location information (E9-1-1) data (Lis.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-166">Import-CsLisConfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-166">Import-CsLisConfiguration</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="59987-167">Restaurer les données utilisateur persistantes (Rtcxds. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-167">Restore persistent user data (Rtcxds.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-168">Import-applet csuserdata</span><span class="sxs-lookup"><span data-stu-id="59987-168">Import-CsUserData</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="59987-169">Restaurer les données de configuration du groupe Response Group (RgsConfig. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-169">Restore Response Group configuration data (RgsConfig.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-170">Import-applet csrgsconfiguration</span><span class="sxs-lookup"><span data-stu-id="59987-170">Import-CsRgsConfiguration</span></span></p>
-<div>
-
-> [!NOTE]  
-> <span data-ttu-id="59987-171">Si la configuration est restaurée dans un pool nouvellement déployé sans données Response Group dans la base de données, vous devez utiliser l’option – OverwriteOwner.</span><span class="sxs-lookup"><span data-stu-id="59987-171">If the configuration is being restored in a newly deployed pool that has no Response Group data in the database, then you should use the –OverwriteOwner option.</span></span> <span data-ttu-id="59987-172">Utilisez cette option même si les données en cours de restauration se trouvent dans un pool avec le même nom de domaine complet (FQDN).</span><span class="sxs-lookup"><span data-stu-id="59987-172">Use this option even if the data being restored is in a pool with the same fully qualified domain name (FQDN).</span></span> <span data-ttu-id="59987-173">Dans le cas contraire, l’importation échouera, car les objets contact sont déjà présents dans Active Directory.</span><span class="sxs-lookup"><span data-stu-id="59987-173">Otherwise, the import will not succeed, due to the contact objects to the Response Groups already existing in Active Directory.</span></span>
+> <span data-ttu-id="1c450-164">Situé dans le dossier ou le support d’installation de Lync Server sur \setup\amd64\Setup.exe.</span><span class="sxs-lookup"><span data-stu-id="1c450-164">Located in the Lync Server installation folder or media at \setup\amd64\Setup.exe.</span></span>
 
 
 </div></td>
 </tr>
+<tr class="odd">
+<td><p><span data-ttu-id="1c450-165">Restaurer les données d’informations d’emplacement (E9-1-1) (LIS. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-165">Restore location information (E9-1-1) data (Lis.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-166">Import-CsLisConfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-166">Import-CsLisConfiguration</span></span></p></td>
+</tr>
 <tr class="even">
-<td><p><span data-ttu-id="59987-174">Restaurez les bases de données suivantes :</span><span class="sxs-lookup"><span data-stu-id="59987-174">Restore the following databases:</span></span></p>
+<td><p><span data-ttu-id="1c450-167">Restaurer les données utilisateur persistantes (Rtcxds. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-167">Restore persistent user data (Rtcxds.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-168">Import-applet csuserdata</span><span class="sxs-lookup"><span data-stu-id="1c450-168">Import-CsUserData</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="1c450-169">Restaurer les données de configuration du groupe Response Group (RgsConfig. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-169">Restore Response Group configuration data (RgsConfig.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-170">Import-applet csrgsconfiguration</span><span class="sxs-lookup"><span data-stu-id="1c450-170">Import-CsRgsConfiguration</span></span></p>
+<div>
+
+> [!NOTE]  
+> <span data-ttu-id="1c450-171">Si la configuration est restaurée dans un pool nouvellement déployé sans données Response Group dans la base de données, vous devez utiliser l’option – OverwriteOwner.</span><span class="sxs-lookup"><span data-stu-id="1c450-171">If the configuration is being restored in a newly deployed pool that has no Response Group data in the database, then you should use the –OverwriteOwner option.</span></span> <span data-ttu-id="1c450-172">Utilisez cette option même si les données en cours de restauration se trouvent dans un pool avec le même nom de domaine complet (FQDN).</span><span class="sxs-lookup"><span data-stu-id="1c450-172">Use this option even if the data being restored is in a pool with the same fully qualified domain name (FQDN).</span></span> <span data-ttu-id="1c450-173">Dans le cas contraire, l’importation échouera, car les objets contact sont déjà présents dans Active Directory.</span><span class="sxs-lookup"><span data-stu-id="1c450-173">Otherwise, the import will not succeed, due to the contact objects to the Response Groups already existing in Active Directory.</span></span>
+
+
+</div></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="1c450-174">Restaurez les bases de données suivantes :</span><span class="sxs-lookup"><span data-stu-id="1c450-174">Restore the following databases:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="59987-175">Base de données d’archivage (LcsLog. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-175">Archiving database (LcsLog.mdf)</span></span></p></li>
-<li><p><span data-ttu-id="59987-176">Bases de données de surveillance : base de données d’enregistrements des détails des appels (LcsCDR. mdf) et base de données QoE (QoEMetrics. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-176">Monitoring databases: call detail record database (LcsCDR.mdf) and QoE database (QoEMetrics.mdf)</span></span></p></li>
+<li><p><span data-ttu-id="1c450-175">Base de données d’archivage (LcsLog. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-175">Archiving database (LcsLog.mdf)</span></span></p></li>
+<li><p><span data-ttu-id="1c450-176">Bases de données de surveillance : base de données d’enregistrements des détails des appels (LcsCDR. mdf) et base de données QoE (QoEMetrics. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-176">Monitoring databases: call detail record database (LcsCDR.mdf) and QoE database (QoEMetrics.mdf)</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="59987-177">Outils de gestion de base de données SQL Server</span><span class="sxs-lookup"><span data-stu-id="59987-177">SQL Server database management tools</span></span></p></td>
+<td><p><span data-ttu-id="1c450-177">Outils de gestion de base de données SQL Server</span><span class="sxs-lookup"><span data-stu-id="1c450-177">SQL Server database management tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="59987-178">Base de données de conversation permanente (MGS. mdf)</span><span class="sxs-lookup"><span data-stu-id="59987-178">Persistent Chat database (Mgs.mdf)</span></span></p></td>
-<td><p><span data-ttu-id="59987-179">Procédures de restauration SQL Server ou Import-applet cspersistentchatdata.</span><span class="sxs-lookup"><span data-stu-id="59987-179">SQL Server restore procedures or Import-CsPersistentChatData.</span></span> <span data-ttu-id="59987-180">Vous pouvez utiliser import-applet cspersistentchatdata avec un fichier créé par Export-applet cspersistentchatdata, et les données seront importées dans la base de données de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="59987-180">You can use Import-CsPersistentChatData with a file created by Export-CsPersistentChatData, and the data will be imported into the Persistent Chat database.</span></span></p></td>
+<td><p><span data-ttu-id="1c450-178">Base de données de conversation permanente (MGS. mdf)</span><span class="sxs-lookup"><span data-stu-id="1c450-178">Persistent Chat database (Mgs.mdf)</span></span></p></td>
+<td><p><span data-ttu-id="1c450-179">Procédures de restauration SQL Server ou Import-applet cspersistentchatdata.</span><span class="sxs-lookup"><span data-stu-id="1c450-179">SQL Server restore procedures or Import-CsPersistentChatData.</span></span> <span data-ttu-id="1c450-180">Vous pouvez utiliser import-applet cspersistentchatdata avec un fichier créé par Export-applet cspersistentchatdata, et les données seront importées dans la base de données de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="1c450-180">You can use Import-CsPersistentChatData with a file created by Export-CsPersistentChatData, and the data will be imported into the Persistent Chat database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -222,9 +222,9 @@ ms.locfileid: "42029215"
 
 <div>
 
-## <a name="required-permissions"></a><span data-ttu-id="59987-181">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="59987-181">Required Permissions</span></span>
+## <a name="required-permissions"></a><span data-ttu-id="1c450-181">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="1c450-181">Required Permissions</span></span>
 
-<span data-ttu-id="59987-182">Les utilisateurs doivent être membres du groupe **RTCUniversalServerAdmins** pour effectuer toutes les commandes décrites dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="59987-182">Users must be a member of the **RTCUniversalServerAdmins** group to perform all the commands described in this topic.</span></span> <span data-ttu-id="59987-183">La plupart des commandes de sauvegarde et de restauration ne prennent pas en charge le contrôle d’accès basé sur un rôle (RBAC).</span><span class="sxs-lookup"><span data-stu-id="59987-183">Most backup and restore commands do not support role-based access control (RBAC).</span></span> <span data-ttu-id="59987-184">Il existe deux exceptions : les cmdlets de conversation permanente Export-applet cspersistentchatdata et Import-applet cspersistentchatdata, qui doivent être exécutées par un utilisateur membre du groupe CsPersistentChatAdministrator.</span><span class="sxs-lookup"><span data-stu-id="59987-184">Two exceptions are the Persistent Chat cmdlets Export-CsPersistentChatData and Import-CsPersistentChatData, which must be run by a user who is a member of the CsPersistentChatAdministrator group.</span></span> <span data-ttu-id="59987-185">Pour exécuter l’Assistant Déploiement Lync Server, un utilisateur doit également être membre du groupe Administrateurs local.</span><span class="sxs-lookup"><span data-stu-id="59987-185">To run Lync Server Deployment Wizard, a user must also be a member of the Local Adminstrators group.</span></span>
+<span data-ttu-id="1c450-182">Les utilisateurs doivent être membres du groupe **RTCUniversalServerAdmins** pour effectuer toutes les commandes décrites dans cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="1c450-182">Users must be a member of the **RTCUniversalServerAdmins** group to perform all the commands described in this topic.</span></span> <span data-ttu-id="1c450-183">La plupart des commandes de sauvegarde et de restauration ne prennent pas en charge le contrôle d’accès basé sur un rôle (RBAC).</span><span class="sxs-lookup"><span data-stu-id="1c450-183">Most backup and restore commands do not support role-based access control (RBAC).</span></span> <span data-ttu-id="1c450-184">Il existe deux exceptions : les cmdlets de conversation permanente Export-applet cspersistentchatdata et Import-applet cspersistentchatdata, qui doivent être exécutées par un utilisateur membre du groupe CsPersistentChatAdministrator.</span><span class="sxs-lookup"><span data-stu-id="1c450-184">Two exceptions are the Persistent Chat cmdlets Export-CsPersistentChatData and Import-CsPersistentChatData, which must be run by a user who is a member of the CsPersistentChatAdministrator group.</span></span> <span data-ttu-id="1c450-185">Pour exécuter l’Assistant Déploiement Lync Server, un utilisateur doit également être membre du groupe Administrateurs local.</span><span class="sxs-lookup"><span data-stu-id="1c450-185">To run Lync Server Deployment Wizard, a user must also be a member of the Local Adminstrators group.</span></span>
 
 </div>
 

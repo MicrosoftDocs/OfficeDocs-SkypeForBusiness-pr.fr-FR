@@ -12,20 +12,20 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 218879c8e2c64178fc140d46199529f86ec7dc31
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e8cbb42d078ccba029ae0cf55c7b1ced803aa94f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049055"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferences-table-in-lync-server-2013"></a><span data-ttu-id="39914-102">Tableau conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39914-102">Conferences table in Lync Server 2013</span></span>
+# <a name="conferences-table-in-lync-server-2013"></a><span data-ttu-id="112ec-102">Tableau conférences dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="112ec-102">Conferences table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42049055"
 
 <span> </span>
 
-<span data-ttu-id="39914-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="39914-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="112ec-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="112ec-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="39914-104">Chaque enregistrement de cette table contient les détails des appels d’une conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-104">Each record in this table contains call details about one conference.</span></span>
+<span data-ttu-id="112ec-104">Chaque enregistrement de cette table contient les détails des appels d’une conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-104">Each record in this table contains call details about one conference.</span></span>
 
 
 <table>
@@ -49,84 +49,84 @@ ms.locfileid: "42049055"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="39914-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="39914-105">Column</span></span></th>
-<th><span data-ttu-id="39914-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="39914-106">Data Type</span></span></th>
-<th><span data-ttu-id="39914-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="39914-107">Key/Index</span></span></th>
-<th><span data-ttu-id="39914-108">Détails</span><span class="sxs-lookup"><span data-stu-id="39914-108">Details</span></span></th>
+<th><span data-ttu-id="112ec-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="112ec-105">Column</span></span></th>
+<th><span data-ttu-id="112ec-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="112ec-106">Data Type</span></span></th>
+<th><span data-ttu-id="112ec-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="112ec-107">Key/Index</span></span></th>
+<th><span data-ttu-id="112ec-108">Détails</span><span class="sxs-lookup"><span data-stu-id="112ec-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="39914-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="39914-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="39914-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="39914-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="39914-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="39914-112">Heure à laquelle la demande de conférence a été capturée par l’agent CDR.</span><span class="sxs-lookup"><span data-stu-id="39914-112">Time that the conference request was captured by the CDR agent.</span></span> <span data-ttu-id="39914-113">Utilisé uniquement comme clé primaire pour identifier une instance de conférence de manière unique.</span><span class="sxs-lookup"><span data-stu-id="39914-113">Used only as a primary key to uniquely identify a conference instance.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-110">DateHeure</span><span class="sxs-lookup"><span data-stu-id="112ec-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="112ec-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="112ec-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="112ec-112">Heure à laquelle la demande de conférence a été capturée par l’agent CDR.</span><span class="sxs-lookup"><span data-stu-id="112ec-112">Time that the conference request was captured by the CDR agent.</span></span> <span data-ttu-id="112ec-113">Utilisé uniquement comme clé primaire pour identifier une instance de conférence de manière unique.</span><span class="sxs-lookup"><span data-stu-id="112ec-113">Used only as a primary key to uniquely identify a conference instance.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="39914-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="39914-114"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-115">int</span><span class="sxs-lookup"><span data-stu-id="39914-115">int</span></span></p></td>
-<td><p><span data-ttu-id="39914-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="39914-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="39914-117">Numéro d’ID identifiant la session.</span><span class="sxs-lookup"><span data-stu-id="39914-117">ID number to identify the session.</span></span> <span data-ttu-id="39914-118">Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une instance de conférence de manière unique.</span><span class="sxs-lookup"><span data-stu-id="39914-118">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> *</p></td>
+<td><p><span data-ttu-id="112ec-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-114"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-115">int</span><span class="sxs-lookup"><span data-stu-id="112ec-115">int</span></span></p></td>
+<td><p><span data-ttu-id="112ec-116">Primaire</span><span class="sxs-lookup"><span data-stu-id="112ec-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="112ec-117">Numéro d’ID identifiant la session.</span><span class="sxs-lookup"><span data-stu-id="112ec-117">ID number to identify the session.</span></span> <span data-ttu-id="112ec-118">Utilisé conjointement avec <strong>SessionIdTime</strong> pour identifier une instance de conférence de manière unique.</span><span class="sxs-lookup"><span data-stu-id="112ec-118">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> *</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="39914-119"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="39914-119"><strong>ConferenceUriId</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-120">int</span><span class="sxs-lookup"><span data-stu-id="39914-120">int</span></span></p></td>
-<td><p><span data-ttu-id="39914-121">Etranger</span><span class="sxs-lookup"><span data-stu-id="39914-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="39914-122">URI de la conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-122">Conference URI.</span></span> <span data-ttu-id="39914-123">Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-conferenceuris-table.md">table ConferenceUris dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="39914-123">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-119"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-119"><strong>ConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-120">int</span><span class="sxs-lookup"><span data-stu-id="112ec-120">int</span></span></p></td>
+<td><p><span data-ttu-id="112ec-121">Etranger</span><span class="sxs-lookup"><span data-stu-id="112ec-121">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="112ec-122">URI de la conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-122">Conference URI.</span></span> <span data-ttu-id="112ec-123">Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-conferenceuris-table.md">table ConferenceUris dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="112ec-123">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="39914-124"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="39914-124"><strong>ConfInstance</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-125">unique</span><span class="sxs-lookup"><span data-stu-id="39914-125">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="112ec-124"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-124"><strong>ConfInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-125">unique</span><span class="sxs-lookup"><span data-stu-id="112ec-125">uniqueidentifier</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="39914-126">Utile pour les conférences périodiques ; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong>, mais elle aura un <strong>ConfInstance</strong>différent.</span><span class="sxs-lookup"><span data-stu-id="39914-126">Useful for recurring conferences; each instance of a recurring conference has the same <strong>ConferenceUri</strong>, but will have a different <strong>ConfInstance</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-126">Utile pour les conférences périodiques ; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong>, mais elle aura un <strong>ConfInstance</strong>différent.</span><span class="sxs-lookup"><span data-stu-id="112ec-126">Useful for recurring conferences; each instance of a recurring conference has the same <strong>ConferenceUri</strong>, but will have a different <strong>ConfInstance</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="39914-127"><strong>ConferenceStartTime</strong></span><span class="sxs-lookup"><span data-stu-id="39914-127"><strong>ConferenceStartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-128">DateHeure</span><span class="sxs-lookup"><span data-stu-id="39914-128">datetime</span></span></p></td>
+<td><p><span data-ttu-id="112ec-127"><strong>ConferenceStartTime</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-127"><strong>ConferenceStartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-128">DateHeure</span><span class="sxs-lookup"><span data-stu-id="112ec-128">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="39914-129">Heure de début de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-129">Conference start time.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-129">Heure de début de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-129">Conference start time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="39914-130"><strong>ConferenceEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="39914-130"><strong>ConferenceEndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-131">DateHeure</span><span class="sxs-lookup"><span data-stu-id="39914-131">datetime</span></span></p></td>
+<td><p><span data-ttu-id="112ec-130"><strong>ConferenceEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-130"><strong>ConferenceEndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-131">DateHeure</span><span class="sxs-lookup"><span data-stu-id="112ec-131">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="39914-132">Heure de début de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-132">Conference start time.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-132">Heure de début de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-132">Conference start time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="39914-133"><strong>PoolId</strong></span><span class="sxs-lookup"><span data-stu-id="39914-133"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-134">int</span><span class="sxs-lookup"><span data-stu-id="39914-134">int</span></span></p></td>
-<td><p><span data-ttu-id="39914-135">Etranger</span><span class="sxs-lookup"><span data-stu-id="39914-135">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="39914-136">Numéro d’identification permettant d’identifier le pool dans lequel la Conférence a été capturée.</span><span class="sxs-lookup"><span data-stu-id="39914-136">ID number to identify the pool in which the conference was captured.</span></span> <span data-ttu-id="39914-137">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-pools-table.md">tableau pools dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="39914-137">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-133"><strong>PoolId</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-133"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-134">int</span><span class="sxs-lookup"><span data-stu-id="112ec-134">int</span></span></p></td>
+<td><p><span data-ttu-id="112ec-135">Etranger</span><span class="sxs-lookup"><span data-stu-id="112ec-135">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="112ec-136">Numéro d’identification permettant d’identifier le pool dans lequel la Conférence a été capturée.</span><span class="sxs-lookup"><span data-stu-id="112ec-136">ID number to identify the pool in which the conference was captured.</span></span> <span data-ttu-id="112ec-137">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-pools-table.md">tableau pools dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="112ec-137">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="39914-138"><strong>OrganizerId</strong></span><span class="sxs-lookup"><span data-stu-id="39914-138"><strong>OrganizerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-139">Int</span><span class="sxs-lookup"><span data-stu-id="39914-139">Int</span></span></p></td>
-<td><p><span data-ttu-id="39914-140">Etranger</span><span class="sxs-lookup"><span data-stu-id="39914-140">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="39914-141">Numéro d’identification permettant d’identifier l’URI de l’organisateur de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-141">ID number to identify the organizer URI of this conference.</span></span> <span data-ttu-id="39914-142">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-users-table.md">tableau utilisateurs dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="39914-142">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-138"><strong>OrganizerId</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-138"><strong>OrganizerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-139">Int</span><span class="sxs-lookup"><span data-stu-id="112ec-139">Int</span></span></p></td>
+<td><p><span data-ttu-id="112ec-140">Etranger</span><span class="sxs-lookup"><span data-stu-id="112ec-140">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="112ec-141">Numéro d’identification permettant d’identifier l’URI de l’organisateur de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-141">ID number to identify the organizer URI of this conference.</span></span> <span data-ttu-id="112ec-142">Pour plus d’informations, reportez-vous au <a href="lync-server-2013-users-table.md">tableau utilisateurs dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="112ec-142">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="39914-143"><strong>Indicateur</strong></span><span class="sxs-lookup"><span data-stu-id="39914-143"><strong>Flag</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-144">type</span><span class="sxs-lookup"><span data-stu-id="39914-144">smallint</span></span></p></td>
+<td><p><span data-ttu-id="112ec-143"><strong>Indicateur</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-143"><strong>Flag</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-144">type</span><span class="sxs-lookup"><span data-stu-id="112ec-144">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="39914-145">Masque de bits qui contient les attributs de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="39914-145">A bit mask that contains Conference Attributes.</span></span> <span data-ttu-id="39914-146">Les valeurs possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="39914-146">Possible values are:</span></span></p>
+<td><p><span data-ttu-id="112ec-145">Masque de bits qui contient les attributs de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="112ec-145">A bit mask that contains Conference Attributes.</span></span> <span data-ttu-id="112ec-146">Les valeurs possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="112ec-146">Possible values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="39914-147">0X01</span><span class="sxs-lookup"><span data-stu-id="39914-147">0X01</span></span></p></li>
-<li><p><span data-ttu-id="39914-148">Fibres</span><span class="sxs-lookup"><span data-stu-id="39914-148">Synthetic</span></span></p></li>
-<li><p><span data-ttu-id="39914-149">Transaction</span><span class="sxs-lookup"><span data-stu-id="39914-149">Transaction</span></span></p></li>
+<li><p><span data-ttu-id="112ec-147">0X01</span><span class="sxs-lookup"><span data-stu-id="112ec-147">0X01</span></span></p></li>
+<li><p><span data-ttu-id="112ec-148">Fibres</span><span class="sxs-lookup"><span data-stu-id="112ec-148">Synthetic</span></span></p></li>
+<li><p><span data-ttu-id="112ec-149">Transaction</span><span class="sxs-lookup"><span data-stu-id="112ec-149">Transaction</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="39914-150"><strong>Traiter</strong></span><span class="sxs-lookup"><span data-stu-id="39914-150"><strong>Processed</strong></span></span></p></td>
-<td><p><span data-ttu-id="39914-151">légèrement</span><span class="sxs-lookup"><span data-stu-id="39914-151">bit</span></span></p></td>
+<td><p><span data-ttu-id="112ec-150"><strong>Traiter</strong></span><span class="sxs-lookup"><span data-stu-id="112ec-150"><strong>Processed</strong></span></span></p></td>
+<td><p><span data-ttu-id="112ec-151">légèrement</span><span class="sxs-lookup"><span data-stu-id="112ec-151">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="39914-152">Champ interne utilisé par le service de surveillance.</span><span class="sxs-lookup"><span data-stu-id="39914-152">Internal field used by the Monitoring service.</span></span></p>
-<p><span data-ttu-id="39914-153">Ce champ a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="39914-153">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="112ec-152">Champ interne utilisé par le service de surveillance.</span><span class="sxs-lookup"><span data-stu-id="112ec-152">Internal field used by the Monitoring service.</span></span></p>
+<p><span data-ttu-id="112ec-153">Ce champ a été introduit dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="112ec-153">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="39914-154">\*Pour la plupart des sessions, SessionIdSeq aura la valeur 1.</span><span class="sxs-lookup"><span data-stu-id="39914-154">\* For most sessions, SessionIdSeq will have the value of 1.</span></span> <span data-ttu-id="39914-155">Si deux sessions commencent exactement en même temps, le SessionIdSeq est égal à 1 et l’autre à 2, et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="39914-155">If two sessions start at exactly the same time, the SessionIdSeq for one will be 1, and for the other will be 2, and so on.</span></span>
+<span data-ttu-id="112ec-154">\*Pour la plupart des sessions, SessionIdSeq aura la valeur 1.</span><span class="sxs-lookup"><span data-stu-id="112ec-154">\* For most sessions, SessionIdSeq will have the value of 1.</span></span> <span data-ttu-id="112ec-155">Si deux sessions commencent exactement en même temps, le SessionIdSeq est égal à 1 et l’autre à 2, et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="112ec-155">If two sessions start at exactly the same time, the SessionIdSeq for one will be 1, and for the other will be 2, and so on.</span></span>
 
 </div>
 

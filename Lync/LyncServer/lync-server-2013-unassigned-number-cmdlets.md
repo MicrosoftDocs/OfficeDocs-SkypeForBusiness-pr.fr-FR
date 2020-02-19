@@ -12,20 +12,20 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3dc86689bd79a8efd8831f3b7028fb1f8dcc34f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 00748ce0f53175e3136f56d799360861a29f857f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029155"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a><span data-ttu-id="7d519-102">Applets de commande de numéros non attribués dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d519-102">Unassigned number cmdlets in Lync Server 2013</span></span>
+# <a name="unassigned-number-cmdlets-in-lync-server-2013"></a><span data-ttu-id="880ef-102">Applets de commande de numéros non attribués dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="880ef-102">Unassigned number cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "42029155"
 
 <span> </span>
 
-<span data-ttu-id="7d519-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="7d519-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="880ef-103">_**Dernière modification de la rubrique :** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="880ef-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="7d519-p101">Les numéros non attribués sont des numéros de téléphone qui appartiennent à une organisation, mais qui n’ont pas été attribués à un utilisateur ou à un téléphone. Les numéros non attribués peuvent être configurés pour lire divers types d’annonces lorsqu’ils sont appelés.</span><span class="sxs-lookup"><span data-stu-id="7d519-p101">Unassigned numbers are phone numbers that belong to an organization but have not been assigned to a user or phone. Unassigned numbers can be configured to play various types of announcements when a call is made to those numbers.</span></span>
+<span data-ttu-id="880ef-p101">Les numéros non attribués sont des numéros de téléphone qui appartiennent à une organisation, mais qui n’ont pas été attribués à un utilisateur ou à un téléphone. Les numéros non attribués peuvent être configurés pour lire divers types d’annonces lorsqu’ils sont appelés.</span><span class="sxs-lookup"><span data-stu-id="880ef-p101">Unassigned numbers are phone numbers that belong to an organization but have not been assigned to a user or phone. Unassigned numbers can be configured to play various types of announcements when a call is made to those numbers.</span></span>
 
 <div>
 
-## <a name="unassigned-number-cmdlets"></a><span data-ttu-id="7d519-106">Applets de commande des numéros non attribués</span><span class="sxs-lookup"><span data-stu-id="7d519-106">Unassigned Number Cmdlets</span></span>
+## <a name="unassigned-number-cmdlets"></a><span data-ttu-id="880ef-106">Applets de commande des numéros non attribués</span><span class="sxs-lookup"><span data-stu-id="880ef-106">Unassigned Number Cmdlets</span></span>
 
-<span data-ttu-id="7d519-107">Les applets de commande suivantes peuvent être utilisées pour gérer les numéros non attribués.</span><span class="sxs-lookup"><span data-stu-id="7d519-107">The following cmdlets can be used to manage unassigned numbers.</span></span>
+<span data-ttu-id="880ef-107">Les applets de commande suivantes peuvent être utilisées pour gérer les numéros non attribués.</span><span class="sxs-lookup"><span data-stu-id="880ef-107">The following cmdlets can be used to manage unassigned numbers.</span></span>
 
-<span data-ttu-id="7d519-108">**Numéro non attribué**</span><span class="sxs-lookup"><span data-stu-id="7d519-108">**Unassigned Number**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="7d519-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span></span>
+<span data-ttu-id="880ef-108">**Numéro non attribué**</span><span class="sxs-lookup"><span data-stu-id="880ef-108">**Unassigned Number**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-109">[Get-CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-110">[New-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-111">[Remove-CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="880ef-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-112">[Set-CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="7d519-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-113">[Get-CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-114">[New-CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-115">[Remove-CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="7d519-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-116">[Set-CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="7d519-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="7d519-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span></span>
+    <span data-ttu-id="880ef-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="880ef-117">[Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7d519-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7d519-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="880ef-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="880ef-118">See Also</span></span>
 
 
-[<span data-ttu-id="7d519-119">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="7d519-119">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="880ef-119">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="880ef-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf10e56acf6e719a5d5bd63d661cb4a5362e172f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046667"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clientversions-view-in-lync-server-2013"></a><span data-ttu-id="3e231-102">Vue ClientVersions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e231-102">ClientVersions view in Lync Server 2013</span></span>
+# <a name="clientversions-view-in-lync-server-2013"></a><span data-ttu-id="cb70d-102">Vue ClientVersions dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cb70d-102">ClientVersions view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42046667"
 
 <span> </span>
 
-<span data-ttu-id="3e231-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3e231-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="cb70d-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="cb70d-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="3e231-104">L’affichage ClientVersions stocke des informations sur les différents types et versions de clients qui ont participé à des sessions enregistrées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="3e231-104">The ClientVersions view stores information about the various client types and versions that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="3e231-105">Chaque enregistrement de la vue représente une version du client.</span><span class="sxs-lookup"><span data-stu-id="3e231-105">Each record in the view represents one client version.</span></span> <span data-ttu-id="3e231-106">Cette vue a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3e231-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="cb70d-104">L’affichage ClientVersions stocke des informations sur les différents types et versions de clients qui ont participé à des sessions enregistrées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="cb70d-104">The ClientVersions view stores information about the various client types and versions that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="cb70d-105">Chaque enregistrement de la vue représente une version du client.</span><span class="sxs-lookup"><span data-stu-id="cb70d-105">Each record in the view represents one client version.</span></span> <span data-ttu-id="cb70d-106">Cette vue a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cb70d-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="3e231-107">Il peut y avoir plusieurs enregistrements pour certaines colonnes.</span><span class="sxs-lookup"><span data-stu-id="3e231-107">There may be multiple records for certain columns.</span></span>
+> <span data-ttu-id="cb70d-107">Il peut y avoir plusieurs enregistrements pour certaines colonnes.</span><span class="sxs-lookup"><span data-stu-id="cb70d-107">There may be multiple records for certain columns.</span></span>
 
 
 
@@ -58,31 +58,31 @@ ms.locfileid: "42046667"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e231-108">Colonne</span><span class="sxs-lookup"><span data-stu-id="3e231-108">Column</span></span></th>
-<th><span data-ttu-id="3e231-109">Type de données</span><span class="sxs-lookup"><span data-stu-id="3e231-109">Data Type</span></span></th>
-<th><span data-ttu-id="3e231-110">Détails</span><span class="sxs-lookup"><span data-stu-id="3e231-110">Details</span></span></th>
+<th><span data-ttu-id="cb70d-108">Colonne</span><span class="sxs-lookup"><span data-stu-id="cb70d-108">Column</span></span></th>
+<th><span data-ttu-id="cb70d-109">Type de données</span><span class="sxs-lookup"><span data-stu-id="cb70d-109">Data Type</span></span></th>
+<th><span data-ttu-id="cb70d-110">Détails</span><span class="sxs-lookup"><span data-stu-id="cb70d-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e231-111"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="3e231-111"><strong>VersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e231-112">int</span><span class="sxs-lookup"><span data-stu-id="3e231-112">int</span></span></p></td>
-<td><p><span data-ttu-id="3e231-113">Numéro unique identifiant le type et la version de ce client.</span><span class="sxs-lookup"><span data-stu-id="3e231-113">Unique number identifying this client type and version.</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-111"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="cb70d-111"><strong>VersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb70d-112">int</span><span class="sxs-lookup"><span data-stu-id="cb70d-112">int</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-113">Numéro unique identifiant le type et la version de ce client.</span><span class="sxs-lookup"><span data-stu-id="cb70d-113">Unique number identifying this client type and version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e231-114"><strong>Version</strong></span><span class="sxs-lookup"><span data-stu-id="3e231-114"><strong>Version</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e231-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3e231-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3e231-116">Représente l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="3e231-116">Represents the user agent.</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-114"><strong>Version</strong></span><span class="sxs-lookup"><span data-stu-id="cb70d-114"><strong>Version</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb70d-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cb70d-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-116">Représente l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="cb70d-116">Represents the user agent.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3e231-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="3e231-117"><strong>ClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e231-118">int</span><span class="sxs-lookup"><span data-stu-id="3e231-118">int</span></span></p></td>
-<td><p><span data-ttu-id="3e231-119">Type de client.</span><span class="sxs-lookup"><span data-stu-id="3e231-119">Type of client.</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="cb70d-117"><strong>ClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb70d-118">int</span><span class="sxs-lookup"><span data-stu-id="cb70d-118">int</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-119">Type de client.</span><span class="sxs-lookup"><span data-stu-id="cb70d-119">Type of client.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e231-120"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="3e231-120"><strong>ClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e231-121">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="3e231-121">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="3e231-122">Catégorie à laquelle appartient le client.</span><span class="sxs-lookup"><span data-stu-id="3e231-122">Category that the client belongs to.</span></span> <span data-ttu-id="3e231-123">Par exemple, le client Conferencing_Attendant_1.0 appartient au ClientCategory CAA.</span><span class="sxs-lookup"><span data-stu-id="3e231-123">For example, the client Conferencing_Attendant_1.0 belongs to the ClientCategory CAA.</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-120"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="cb70d-120"><strong>ClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="cb70d-121">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="cb70d-121">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="cb70d-122">Catégorie à laquelle appartient le client.</span><span class="sxs-lookup"><span data-stu-id="cb70d-122">Category that the client belongs to.</span></span> <span data-ttu-id="cb70d-123">Par exemple, le client Conferencing_Attendant_1.0 appartient au ClientCategory CAA.</span><span class="sxs-lookup"><span data-stu-id="cb70d-123">For example, the client Conferencing_Attendant_1.0 belongs to the ClientCategory CAA.</span></span></p></td>
 </tr>
 </tbody>
 </table>

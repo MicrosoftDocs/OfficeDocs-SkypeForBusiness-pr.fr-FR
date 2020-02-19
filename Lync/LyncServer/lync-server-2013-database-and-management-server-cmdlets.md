@@ -12,20 +12,20 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25bf5b464b8bda91d2374811d3c727154d1ceccc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c4744471a005f9acec17cf110911489f692940d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044146"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="5536d-102">Cmdlets de serveur de base de données et de gestion dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5536d-102">Database and Management Server cmdlets in Lync Server 2013</span></span>
+# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="6d69b-102">Cmdlets de serveur de base de données et de gestion dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d69b-102">Database and Management Server cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,85 +35,85 @@ ms.locfileid: "42044146"
 
 <span> </span>
 
-<span data-ttu-id="5536d-103">_**Dernière modification de la rubrique :** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="5536d-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="6d69b-103">_**Dernière modification de la rubrique :** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="6d69b-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="5536d-104">Les cmdlets de serveur de base de données et de gestion sont utilisées pour gérer les bases de données principales de Microsoft Lync Server 2013 et vos services de gestion frontaux.</span><span class="sxs-lookup"><span data-stu-id="5536d-104">The database and Management Server cmdlets are used to manage both your Microsoft Lync Server 2013 back-end databases and your front-end management services.</span></span> <span data-ttu-id="5536d-105">Vous pouvez utiliser ces applets de commande pour installer ou désinstaller des bases de données utilisées par Lync Server 2013, en plus de la configuration du point de contrôle du service Active Directory pour le magasin central de gestion.</span><span class="sxs-lookup"><span data-stu-id="5536d-105">You can use these cmdlets to install or uninstall any of the databases used by Lync Server 2013, in addition to configuring the Active Directory service control point for the Central Management store.</span></span>
+<span data-ttu-id="6d69b-104">Les cmdlets de serveur de base de données et de gestion sont utilisées pour gérer les bases de données principales de Microsoft Lync Server 2013 et vos services de gestion frontaux.</span><span class="sxs-lookup"><span data-stu-id="6d69b-104">The database and Management Server cmdlets are used to manage both your Microsoft Lync Server 2013 back-end databases and your front-end management services.</span></span> <span data-ttu-id="6d69b-105">Vous pouvez utiliser ces applets de commande pour installer ou désinstaller des bases de données utilisées par Lync Server 2013, en plus de la configuration du point de contrôle du service Active Directory pour le magasin central de gestion.</span><span class="sxs-lookup"><span data-stu-id="6d69b-105">You can use these cmdlets to install or uninstall any of the databases used by Lync Server 2013, in addition to configuring the Active Directory service control point for the Central Management store.</span></span>
 
 <div>
 
-## <a name="database-and-management-server-cmdlets"></a><span data-ttu-id="5536d-106">Applets de commande de base de données et du serveur d’administration</span><span class="sxs-lookup"><span data-stu-id="5536d-106">Database and Management Server Cmdlets</span></span>
+## <a name="database-and-management-server-cmdlets"></a><span data-ttu-id="6d69b-106">Applets de commande de base de données et du serveur d’administration</span><span class="sxs-lookup"><span data-stu-id="6d69b-106">Database and Management Server Cmdlets</span></span>
 
-<span data-ttu-id="5536d-107">La liste suivante indique les applets de commande directement associées à la gestion des bases de données et au serveur d’administration :</span><span class="sxs-lookup"><span data-stu-id="5536d-107">The following is a list of cmdlets that relate directly to managing databases and the Management Server:</span></span>
+<span data-ttu-id="6d69b-107">La liste suivante indique les applets de commande directement associées à la gestion des bases de données et au serveur d’administration :</span><span class="sxs-lookup"><span data-stu-id="6d69b-107">The following is a list of cmdlets that relate directly to managing databases and the Management Server:</span></span>
 
-<span data-ttu-id="5536d-108">**Bases de données et serveur d’administration**</span><span class="sxs-lookup"><span data-stu-id="5536d-108">**Databases and Management Server**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="5536d-109">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-109">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span></span>
+<span data-ttu-id="6d69b-108">**Bases de données et serveur d’administration**</span><span class="sxs-lookup"><span data-stu-id="6d69b-108">**Databases and Management Server**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5536d-110">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-110">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-109">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-109">[Get-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5536d-111">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-111">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-110">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-110">[Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="6d69b-111">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-111">[Set-CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5536d-112">[Install-applet csdatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-112">[Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-112">[Install-applet csdatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-112">[Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5536d-113">[Test-applet csdatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-113">[Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-113">[Test-applet csdatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-113">[Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5536d-114">[Uninstall-applet csdatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-114">[Uninstall-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-114">[Uninstall-applet csdatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-114">[Uninstall-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5536d-115">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-115">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span></span>
+  - <span data-ttu-id="6d69b-115">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-115">[Invoke-CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5536d-116">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-116">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span></span>
+  - <span data-ttu-id="6d69b-116">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-116">[Get-CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5536d-117">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-117">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
+  - <span data-ttu-id="6d69b-117">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-117">[Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="5536d-118">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-118">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="5536d-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="5536d-120">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-120">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span></span>
+  - <span data-ttu-id="6d69b-118">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-118">[Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5536d-121">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-121">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-119">[Get-CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="6d69b-120">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-120">[Set-CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5536d-122">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-122">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="5536d-123">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-123">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span></span>
+    <span data-ttu-id="6d69b-121">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-121">[Update-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5536d-124">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5536d-124">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span></span>
+  - <span></span>  
+    <span data-ttu-id="6d69b-122">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-122">[Move-CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="6d69b-123">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-123">[Set-CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="6d69b-124">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="6d69b-124">[Invoke-CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5536d-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5536d-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d69b-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6d69b-125">See Also</span></span>
 
 
-[<span data-ttu-id="5536d-126">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="5536d-126">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="6d69b-126">Blog Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="6d69b-126">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
