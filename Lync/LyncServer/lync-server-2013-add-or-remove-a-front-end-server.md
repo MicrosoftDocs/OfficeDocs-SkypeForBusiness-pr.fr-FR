@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29c1b3800b05ac4318f853ece95b935c6e65c16c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008840"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a><span data-ttu-id="b7bba-102">Ajouter ou supprimer un serveur frontal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7bba-102">Add or remove a Front End Server in Lync Server 2013</span></span>
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a><span data-ttu-id="f341b-102">Ajouter ou supprimer un serveur frontal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f341b-102">Add or remove a Front End Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42008840"
 
 <span> </span>
 
-<span data-ttu-id="b7bba-103">_**Dernière modification de la rubrique :** 2016-01-21_</span><span class="sxs-lookup"><span data-stu-id="b7bba-103">_**Topic Last Modified:** 2016-01-21_</span></span>
+<span data-ttu-id="f341b-103">_**Dernière modification de la rubrique :** 2016-01-21_</span><span class="sxs-lookup"><span data-stu-id="f341b-103">_**Topic Last Modified:** 2016-01-21_</span></span>
 
-<span data-ttu-id="b7bba-p101">Lorsque vous ajoutez un serveur frontal à un pool, ou que vous supprimez un serveur frontal d’un pool, vous devez redémarrer le pool. Pour éviter toute interruption de service pour les utilisateurs, utilisez la procédure suivante en cas d’ajout ou de suppression d’un serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="b7bba-p101">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. To prevent any interruption of service to users, use the following procedure when adding or removing a Front End Server.</span></span>
+<span data-ttu-id="f341b-p101">Lorsque vous ajoutez un serveur frontal à un pool, ou que vous supprimez un serveur frontal d’un pool, vous devez redémarrer le pool. Pour éviter toute interruption de service pour les utilisateurs, utilisez la procédure suivante en cas d’ajout ou de suppression d’un serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="f341b-p101">When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. To prevent any interruption of service to users, use the following procedure when adding or removing a Front End Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="b7bba-106">Si vous ajoutez de nouveaux serveurs au pool, mettez à jour vos nouveaux serveurs de pool de sorte qu’ils se trouvent au même niveau de mise à jour cumulative que les serveurs existants dans le pool.</span><span class="sxs-lookup"><span data-stu-id="b7bba-106">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span>
+> <span data-ttu-id="f341b-106">Si vous ajoutez de nouveaux serveurs au pool, mettez à jour vos nouveaux serveurs de pool de sorte qu’ils se trouvent au même niveau de mise à jour cumulative que les serveurs existants dans le pool.</span><span class="sxs-lookup"><span data-stu-id="f341b-106">If you're adding new servers to the pool, update your new pool servers to be at the same Cumulative Update level as the existing servers in the Pool.</span></span>
 
 
 
@@ -51,25 +51,25 @@ ms.locfileid: "42008840"
 
 <div>
 
-## <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="b7bba-107">Pour ajouter ou supprimer des serveurs frontaux</span><span class="sxs-lookup"><span data-stu-id="b7bba-107">To add or remove Front End servers</span></span>
+## <a name="to-add-or-remove-front-end-servers"></a><span data-ttu-id="f341b-107">Pour ajouter ou supprimer des serveurs frontaux</span><span class="sxs-lookup"><span data-stu-id="f341b-107">To add or remove Front End servers</span></span>
 
-1.  <span data-ttu-id="b7bba-p102">Si vous supprimez des serveurs frontaux, commencez par arrêter les nouvelles connexions à ces serveurs. Pour ce faire, vous pouvez utiliser l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="b7bba-p102">If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:</span></span>
+1.  <span data-ttu-id="f341b-p102">Si vous supprimez des serveurs frontaux, commencez par arrêter les nouvelles connexions à ces serveurs. Pour ce faire, vous pouvez utiliser l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="f341b-p102">If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:</span></span>
     
         Stop-CsWindowsServices -Graceful
 
-2.  <span data-ttu-id="b7bba-110">Lorsque les serveurs supprimés n’ont pas de sessions actives, arrêtez les services Lync Server sur ces serveurs.</span><span class="sxs-lookup"><span data-stu-id="b7bba-110">When the servers being removed have no current sessions, stop Lync Server services on them.</span></span>
+2.  <span data-ttu-id="f341b-110">Lorsque les serveurs supprimés n’ont pas de sessions actives, arrêtez les services Lync Server sur ces serveurs.</span><span class="sxs-lookup"><span data-stu-id="f341b-110">When the servers being removed have no current sessions, stop Lync Server services on them.</span></span>
 
-3.  <span data-ttu-id="b7bba-111">Ouvrez le Générateur de topologie, puis ajoutez ou supprimez les serveurs nécessaires.</span><span class="sxs-lookup"><span data-stu-id="b7bba-111">Open Topology Builder, and add or remove the necessary servers.</span></span>
+3.  <span data-ttu-id="f341b-111">Ouvrez le Générateur de topologie, puis ajoutez ou supprimez les serveurs nécessaires.</span><span class="sxs-lookup"><span data-stu-id="f341b-111">Open Topology Builder, and add or remove the necessary servers.</span></span>
 
-4.  <span data-ttu-id="b7bba-112">Publiez la topologie.</span><span class="sxs-lookup"><span data-stu-id="b7bba-112">Publish the topology.</span></span>
+4.  <span data-ttu-id="f341b-112">Publiez la topologie.</span><span class="sxs-lookup"><span data-stu-id="f341b-112">Publish the topology.</span></span>
 
-5.  <span data-ttu-id="b7bba-113">Si le pool est passé de deux serveurs frontaux à plus de deux ou de plus de deux serveurs à exactement deux, vous devez taper l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="b7bba-113">If the pool has gone from having two Front End Servers to more than two, or gone from more than two servers to exactly two, you need to type the following cmdlet:</span></span>
+5.  <span data-ttu-id="f341b-113">Si le pool est passé de deux serveurs frontaux à plus de deux ou de plus de deux serveurs à exactement deux, vous devez taper l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="f341b-113">If the pool has gone from having two Front End Servers to more than two, or gone from more than two servers to exactly two, you need to type the following cmdlet:</span></span>
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    <span data-ttu-id="b7bba-114">Si le pool comprend trois serveurs ou plus, au moins trois de ces serveurs doivent être en cours d’exécution lorsque vous tapez cette applet de commande.</span><span class="sxs-lookup"><span data-stu-id="b7bba-114">If the pool has three or more servers, then at least three of those servers must be running when you type this cmdlet.</span></span>
+    <span data-ttu-id="f341b-114">Si le pool comprend trois serveurs ou plus, au moins trois de ces serveurs doivent être en cours d’exécution lorsque vous tapez cette applet de commande.</span><span class="sxs-lookup"><span data-stu-id="f341b-114">If the pool has three or more servers, then at least three of those servers must be running when you type this cmdlet.</span></span>
 
-6.  <span data-ttu-id="b7bba-115">Redémarrez tous les serveurs frontaux du pool, un par un.</span><span class="sxs-lookup"><span data-stu-id="b7bba-115">Restart all Front End Servers in the pool, one at a time.</span></span>
+6.  <span data-ttu-id="f341b-115">Redémarrez tous les serveurs frontaux du pool, un par un.</span><span class="sxs-lookup"><span data-stu-id="f341b-115">Restart all Front End Servers in the pool, one at a time.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 95e675c7d07d0e3afc7767fecc35d27a7e3a303e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42024685"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a><span data-ttu-id="11787-102">tblSystemRevision dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="11787-102">tblSystemRevision in Lync Server 2013</span></span>
+# <a name="tblsystemrevision-in-lync-server-2013"></a><span data-ttu-id="468ba-102">tblSystemRevision dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="468ba-102">tblSystemRevision in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42024685"
 
 <span> </span>
 
-<span data-ttu-id="11787-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="11787-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="468ba-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="468ba-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="11787-104">tblSystemRevision contient le numéro de révision utilisé avec la table tblAdminLock pour assurer la cohérence entre plusieurs clients d’administrateur.</span><span class="sxs-lookup"><span data-stu-id="11787-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+<span data-ttu-id="468ba-104">tblSystemRevision contient le numéro de révision utilisé avec la table tblAdminLock pour assurer la cohérence entre plusieurs clients d’administrateur.</span><span class="sxs-lookup"><span data-stu-id="468ba-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="11787-105">Columns</span><span class="sxs-lookup"><span data-stu-id="11787-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="468ba-105">Columns</span><span class="sxs-lookup"><span data-stu-id="468ba-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,16 +49,16 @@ ms.locfileid: "42024685"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="11787-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="11787-106">Column</span></span></th>
-<th><span data-ttu-id="11787-107">Type</span><span class="sxs-lookup"><span data-stu-id="11787-107">Type</span></span></th>
-<th><span data-ttu-id="11787-108">Description</span><span class="sxs-lookup"><span data-stu-id="11787-108">Description</span></span></th>
+<th><span data-ttu-id="468ba-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="468ba-106">Column</span></span></th>
+<th><span data-ttu-id="468ba-107">Type</span><span class="sxs-lookup"><span data-stu-id="468ba-107">Type</span></span></th>
+<th><span data-ttu-id="468ba-108">Description</span><span class="sxs-lookup"><span data-stu-id="468ba-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11787-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="11787-109">sysRevision</span></span></p></td>
-<td><p><span data-ttu-id="11787-110">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="11787-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="11787-111">Nombre de révisions.</span><span class="sxs-lookup"><span data-stu-id="11787-111">Revision number.</span></span></p></td>
+<td><p><span data-ttu-id="468ba-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="468ba-109">sysRevision</span></span></p></td>
+<td><p><span data-ttu-id="468ba-110">bigint, non null</span><span class="sxs-lookup"><span data-stu-id="468ba-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="468ba-111">Nombre de révisions.</span><span class="sxs-lookup"><span data-stu-id="468ba-111">Revision number.</span></span></p></td>
 </tr>
 </tbody>
 </table>

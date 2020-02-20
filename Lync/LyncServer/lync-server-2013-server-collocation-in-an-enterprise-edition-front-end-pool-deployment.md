@@ -12,20 +12,20 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74afcdd9212ebced9d93f0f699b90dd7a89edefd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 44b6c298d6c0d2116be92d5e267ef9b7418ea480
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049376"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a><span data-ttu-id="13a23-102">Colocalisation des serveurs dans un déploiement de pool frontal Enterprise Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="13a23-102">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a><span data-ttu-id="3a1e6-102">Colocalisation des serveurs dans un déploiement de pool frontal Enterprise Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e6-102">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "42049376"
 
 <span> </span>
 
-<span data-ttu-id="13a23-103">_**Dernière modification de la rubrique :** 2013-11-11_</span><span class="sxs-lookup"><span data-stu-id="13a23-103">_**Topic Last Modified:** 2013-11-11_</span></span>
+<span data-ttu-id="3a1e6-103">_**Dernière modification de la rubrique :** 2013-11-11_</span><span class="sxs-lookup"><span data-stu-id="3a1e6-103">_**Topic Last Modified:** 2013-11-11_</span></span>
 
-<span data-ttu-id="13a23-104">Cette section décrit les rôles serveur, les bases de données et les partages de fichiers que vous pouvez colocaliser dans un déploiement de pool frontal Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="13a23-104">This section describes the server roles, databases, and file shares that you can collocate in a Lync Server 2013 Front End pool deployment.</span></span>
+<span data-ttu-id="3a1e6-104">Cette section décrit les rôles serveur, les bases de données et les partages de fichiers que vous pouvez colocaliser dans un déploiement de pool frontal Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-104">This section describes the server roles, databases, and file shares that you can collocate in a Lync Server 2013 Front End pool deployment.</span></span>
 
 <div>
 
-## <a name="server-roles"></a><span data-ttu-id="13a23-105">Rôles serveur</span><span class="sxs-lookup"><span data-stu-id="13a23-105">Server Roles</span></span>
+## <a name="server-roles"></a><span data-ttu-id="3a1e6-105">Rôles serveur</span><span class="sxs-lookup"><span data-stu-id="3a1e6-105">Server Roles</span></span>
 
-<span data-ttu-id="13a23-106">Dans Lync Server 2013, le service de conférence A/V, le service de médiation, la surveillance et l’archivage sont colocalisés sur le serveur frontal, mais une configuration supplémentaire est nécessaire pour les activer.</span><span class="sxs-lookup"><span data-stu-id="13a23-106">In Lync Server 2013, A/V Conferencing service, Mediation service, Monitoring, and Archiving are collocated on the Front End Server, but additional configuration is required to enable them.</span></span> <span data-ttu-id="13a23-107">Si vous ne souhaitez pas colocaliser le serveur de médiation avec le serveur frontal, vous pouvez le déployer en tant que serveur de médiation autonome sur un ordinateur distinct.</span><span class="sxs-lookup"><span data-stu-id="13a23-107">If you do not want to collocate the Mediation Server with the Front End Server, you can deploy it as a stand-alone Mediation Server on a separate computer.</span></span>
+<span data-ttu-id="3a1e6-106">Dans Lync Server 2013, le service de conférence A/V, le service de médiation, la surveillance et l’archivage sont colocalisés sur le serveur frontal, mais une configuration supplémentaire est nécessaire pour les activer.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-106">In Lync Server 2013, A/V Conferencing service, Mediation service, Monitoring, and Archiving are collocated on the Front End Server, but additional configuration is required to enable them.</span></span> <span data-ttu-id="3a1e6-107">Si vous ne souhaitez pas colocaliser le serveur de médiation avec le serveur frontal, vous pouvez le déployer en tant que serveur de médiation autonome sur un ordinateur distinct.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-107">If you do not want to collocate the Mediation Server with the Front End Server, you can deploy it as a stand-alone Mediation Server on a separate computer.</span></span>
 
-<span data-ttu-id="13a23-108">Vous pouvez colocaliser un serveur d’application approuvées avec le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="13a23-108">You can collocate a trusted application server with the Front End Server.</span></span>
+<span data-ttu-id="3a1e6-108">Vous pouvez colocaliser un serveur d’application approuvées avec le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-108">You can collocate a trusted application server with the Front End Server.</span></span>
 
-<span data-ttu-id="13a23-109">Les rôles serveur suivants doivent être individuellement déployés sur un ordinateur distinct :</span><span class="sxs-lookup"><span data-stu-id="13a23-109">The following server roles must each be deployed on a separate computer:</span></span>
+<span data-ttu-id="3a1e6-109">Les rôles serveur suivants doivent être individuellement déployés sur un ordinateur distinct :</span><span class="sxs-lookup"><span data-stu-id="3a1e6-109">The following server roles must each be deployed on a separate computer:</span></span>
 
-  - <span data-ttu-id="13a23-110">48000b</span><span class="sxs-lookup"><span data-stu-id="13a23-110">Director</span></span>
+  - <span data-ttu-id="3a1e6-110">48000b</span><span class="sxs-lookup"><span data-stu-id="3a1e6-110">Director</span></span>
 
-  - <span data-ttu-id="13a23-111">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="13a23-111">Edge Server</span></span>
+  - <span data-ttu-id="3a1e6-111">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="3a1e6-111">Edge Server</span></span>
 
-  - <span data-ttu-id="13a23-112">Serveur de médiation (s’il n’est pas colocalisé avec le serveur frontal).</span><span class="sxs-lookup"><span data-stu-id="13a23-112">Mediation Server (if not collocated with the Front End Server)</span></span>
+  - <span data-ttu-id="3a1e6-112">Serveur de médiation (s’il n’est pas colocalisé avec le serveur frontal).</span><span class="sxs-lookup"><span data-stu-id="3a1e6-112">Mediation Server (if not collocated with the Front End Server)</span></span>
 
-  - <span data-ttu-id="13a23-113">Office Web Apps Server</span><span class="sxs-lookup"><span data-stu-id="13a23-113">Office Web Apps Server</span></span>
+  - <span data-ttu-id="3a1e6-113">Office Web Apps Server</span><span class="sxs-lookup"><span data-stu-id="3a1e6-113">Office Web Apps Server</span></span>
 
-<span data-ttu-id="13a23-114">Vous ne pouvez pas colocaliser le rôle de serveur de conversation permanente avec le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="13a23-114">You cannot collocate Persistent Chat server role with the Front End Server.</span></span>
+<span data-ttu-id="3a1e6-114">Vous ne pouvez pas colocaliser le rôle de serveur de conversation permanente avec le serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-114">You cannot collocate Persistent Chat server role with the Front End Server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="databases"></a><span data-ttu-id="13a23-115">Databases</span><span class="sxs-lookup"><span data-stu-id="13a23-115">Databases</span></span>
+## <a name="databases"></a><span data-ttu-id="3a1e6-115">Databases</span><span class="sxs-lookup"><span data-stu-id="3a1e6-115">Databases</span></span>
 
-<span data-ttu-id="13a23-116">Vous pouvez colocaliser chacune des bases de données suivantes sur le même serveur de base de données :</span><span class="sxs-lookup"><span data-stu-id="13a23-116">You can collocate each of the following databases on the same database server:</span></span>
+<span data-ttu-id="3a1e6-116">Vous pouvez colocaliser chacune des bases de données suivantes sur le même serveur de base de données :</span><span class="sxs-lookup"><span data-stu-id="3a1e6-116">You can collocate each of the following databases on the same database server:</span></span>
 
-  - <span data-ttu-id="13a23-117">Base de données principale</span><span class="sxs-lookup"><span data-stu-id="13a23-117">Back-end database</span></span>
+  - <span data-ttu-id="3a1e6-117">Base de données principale</span><span class="sxs-lookup"><span data-stu-id="3a1e6-117">Back-end database</span></span>
 
-  - <span data-ttu-id="13a23-118">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="13a23-118">Monitoring database</span></span>
+  - <span data-ttu-id="3a1e6-118">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="3a1e6-118">Monitoring database</span></span>
 
-  - <span data-ttu-id="13a23-119">base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="13a23-119">Archiving database</span></span>
+  - <span data-ttu-id="3a1e6-119">base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="3a1e6-119">Archiving database</span></span>
 
-  - <span data-ttu-id="13a23-120">Base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="13a23-120">Persistent Chat database</span></span>
+  - <span data-ttu-id="3a1e6-120">Base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3a1e6-120">Persistent Chat database</span></span>
 
-  - <span data-ttu-id="13a23-121">Base de données de conformité de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="13a23-121">Persistent Chat compliance database</span></span>
+  - <span data-ttu-id="3a1e6-121">Base de données de conformité de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3a1e6-121">Persistent Chat compliance database</span></span>
 
-<span data-ttu-id="13a23-122">Vous pouvez colocaliser une partie ou l’ensemble de ces bases de données dans une seule instance de SQL Server ou utiliser une instance distincte de SQL Server pour chacune d’elles, avec les limitations suivantes :</span><span class="sxs-lookup"><span data-stu-id="13a23-122">You can collocate any or any or all of these databases in a single instance of SQL Server or use a separate instance of SQL Server for each, with the following limitations:</span></span>
+<span data-ttu-id="3a1e6-122">Vous pouvez colocaliser une partie ou l’ensemble de ces bases de données dans une seule instance de SQL Server ou utiliser une instance distincte de SQL Server pour chacune d’elles, avec les limitations suivantes :</span><span class="sxs-lookup"><span data-stu-id="3a1e6-122">You can collocate any or any or all of these databases in a single instance of SQL Server or use a separate instance of SQL Server for each, with the following limitations:</span></span>
 
-  - <span data-ttu-id="13a23-123">Chaque instance de SQL Server ne peut contenir qu’une seule base de données principale, une seule base de données de surveillance, une seule base de données d’archivage, une seule base de données de conversation permanente et une seule base de données de conformité de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="13a23-123">Each instance of SQL Server can contain only a single back-end database, a single Monitoring database, a single Archiving database, a single Persistent Chat database, and a single Persistent Chat compliance database.</span></span>
+  - <span data-ttu-id="3a1e6-123">Chaque instance de SQL Server ne peut contenir qu’une seule base de données principale, une seule base de données de surveillance, une seule base de données d’archivage, une seule base de données de conversation permanente et une seule base de données de conformité de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-123">Each instance of SQL Server can contain only a single back-end database, a single Monitoring database, a single Archiving database, a single Persistent Chat database, and a single Persistent Chat compliance database.</span></span>
 
-  - <span data-ttu-id="13a23-124">Le serveur de base de données ne peut pas prendre en charge plusieurs pools frontaux, un déploiement d’archivage et un déploiement de surveillance, mais il peut prendre en charge l’un d’entre eux, indépendamment du fait que les bases de données utilisent la même instance de SQL Server ou des instances distinctes de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="13a23-124">The database server cannot support more than one Front End pool, one Archiving deployment, and one Monitoring deployment, but it can support one of each, regardless of whether the databases use the same instance of SQL Server or separate instances of SQL Server.</span></span>
+  - <span data-ttu-id="3a1e6-124">Le serveur de base de données ne peut pas prendre en charge plusieurs pools frontaux, un déploiement d’archivage et un déploiement de surveillance, mais il peut prendre en charge l’un d’entre eux, indépendamment du fait que les bases de données utilisent la même instance de SQL Server ou des instances distinctes de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-124">The database server cannot support more than one Front End pool, one Archiving deployment, and one Monitoring deployment, but it can support one of each, regardless of whether the databases use the same instance of SQL Server or separate instances of SQL Server.</span></span>
 
-<span data-ttu-id="13a23-125">Vous pouvez également colocaliser un partage de fichiers avec les bases de données comme il est indiqué plus loin dans cette section.</span><span class="sxs-lookup"><span data-stu-id="13a23-125">You can collocate a file share with the databases, as described later in this section.</span></span>
+<span data-ttu-id="3a1e6-125">Vous pouvez également colocaliser un partage de fichiers avec les bases de données comme il est indiqué plus loin dans cette section.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-125">You can collocate a file share with the databases, as described later in this section.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="13a23-126">Dans Lync Server 2013, vous avez la possibilité d’intégrer le stockage d’archivage au stockage Exchange 2013 pour tout ou partie des utilisateurs de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="13a23-126">In Lync Server 2013, you have the option of integrating Archiving storage with Exchange 2013 storage for some or all users in your deployment.</span></span> <span data-ttu-id="13a23-127">Vous ne pouvez pas déployer de serveurs exécutant Lync Server ou des composants sur les mêmes serveurs que le stockage Exchange.</span><span class="sxs-lookup"><span data-stu-id="13a23-127">You cannot deploy any servers running Lync Server or components on the same servers as the Exchange storage.</span></span>
+> <span data-ttu-id="3a1e6-126">Dans Lync Server 2013, vous avez la possibilité d’intégrer le stockage d’archivage au stockage Exchange 2013 pour tout ou partie des utilisateurs de votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-126">In Lync Server 2013, you have the option of integrating Archiving storage with Exchange 2013 storage for some or all users in your deployment.</span></span> <span data-ttu-id="3a1e6-127">Vous ne pouvez pas déployer de serveurs exécutant Lync Server ou des composants sur les mêmes serveurs que le stockage Exchange.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-127">You cannot deploy any servers running Lync Server or components on the same servers as the Exchange storage.</span></span>
 
 
 
@@ -99,7 +99,7 @@ ms.locfileid: "42049376"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="13a23-128">Bien que la colocation des bases de données soit prise en charge, la taille des bases de données peut augmenter rapidement.</span><span class="sxs-lookup"><span data-stu-id="13a23-128">Although collocation of databases is supported, the size of the databases can grow quickly.</span></span> <span data-ttu-id="13a23-129">Par exemple, lorsque vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données du serveur d’archivage peuvent devenir très importants.</span><span class="sxs-lookup"><span data-stu-id="13a23-129">For example, when you consider collocating the Archiving database with other databases, be aware that if you are archiving the messages of more than a few users, the disk space needed by the Archiving database can grow very large.</span></span> <span data-ttu-id="13a23-130">Pour cette raison, nous vous déconseillons de colocaliser plusieurs bases de données, notamment la base de données d’archivage, la base de données de conversation permanente ou la base de données de conformité de conversation permanente avec la base de données principale.</span><span class="sxs-lookup"><span data-stu-id="13a23-130">For this reason, we do not recommend collocating multiple databases, especially the Archiving database, the Persistent Chat database, or the Persistent Chat compliance database with the back-end database.</span></span>
+> <span data-ttu-id="3a1e6-128">Bien que la colocation des bases de données soit prise en charge, la taille des bases de données peut augmenter rapidement.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-128">Although collocation of databases is supported, the size of the databases can grow quickly.</span></span> <span data-ttu-id="3a1e6-129">Par exemple, lorsque vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données du serveur d’archivage peuvent devenir très importants.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-129">For example, when you consider collocating the Archiving database with other databases, be aware that if you are archiving the messages of more than a few users, the disk space needed by the Archiving database can grow very large.</span></span> <span data-ttu-id="3a1e6-130">Pour cette raison, nous vous déconseillons de colocaliser plusieurs bases de données, notamment la base de données d’archivage, la base de données de conversation permanente ou la base de données de conformité de conversation permanente avec la base de données principale.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-130">For this reason, we do not recommend collocating multiple databases, especially the Archiving database, the Persistent Chat database, or the Persistent Chat compliance database with the back-end database.</span></span>
 
 
 
@@ -109,27 +109,27 @@ ms.locfileid: "42049376"
 
 <div>
 
-## <a name="file-share"></a><span data-ttu-id="13a23-131">Partage de fichiers</span><span class="sxs-lookup"><span data-stu-id="13a23-131">File Share</span></span>
+## <a name="file-share"></a><span data-ttu-id="3a1e6-131">Partage de fichiers</span><span class="sxs-lookup"><span data-stu-id="3a1e6-131">File Share</span></span>
 
-<span data-ttu-id="13a23-132">Le partage de fichier peut être un serveur distinct ou être colocalisé sur le même serveur que l’un ou l’ensemble des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="13a23-132">The file share can be a separate server or can be collocated on the same server as any or all of the following:</span></span>
+<span data-ttu-id="3a1e6-132">Le partage de fichier peut être un serveur distinct ou être colocalisé sur le même serveur que l’un ou l’ensemble des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="3a1e6-132">The file share can be a separate server or can be collocated on the same server as any or all of the following:</span></span>
 
-  - <span data-ttu-id="13a23-133">Serveur de base de données, y compris le serveur principal d’un pool frontal Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="13a23-133">Database server, including the Back End Server of an Enterprise Edition Front End pool</span></span>
+  - <span data-ttu-id="3a1e6-133">Serveur de base de données, y compris le serveur principal d’un pool frontal Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="3a1e6-133">Database server, including the Back End Server of an Enterprise Edition Front End pool</span></span>
 
-  - <span data-ttu-id="13a23-134">Base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="13a23-134">Archiving database</span></span>
+  - <span data-ttu-id="3a1e6-134">Base de données d’archivage</span><span class="sxs-lookup"><span data-stu-id="3a1e6-134">Archiving database</span></span>
 
-  - <span data-ttu-id="13a23-135">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="13a23-135">Monitoring database</span></span>
+  - <span data-ttu-id="3a1e6-135">Base de données de surveillance</span><span class="sxs-lookup"><span data-stu-id="3a1e6-135">Monitoring database</span></span>
 
-  - <span data-ttu-id="13a23-136">Base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="13a23-136">Persistent Chat database</span></span>
+  - <span data-ttu-id="3a1e6-136">Base de données de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3a1e6-136">Persistent Chat database</span></span>
 
-  - <span data-ttu-id="13a23-137">Base de données de conformité de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="13a23-137">Persistent Chat compliance database</span></span>
+  - <span data-ttu-id="3a1e6-137">Base de données de conformité de conversation permanente</span><span class="sxs-lookup"><span data-stu-id="3a1e6-137">Persistent Chat compliance database</span></span>
 
-<span data-ttu-id="13a23-138">Un partage de fichiers unique peut être utilisé pour plusieurs pools frontaux et serveurs Standard Edition (sur le même site).</span><span class="sxs-lookup"><span data-stu-id="13a23-138">A single file share can be used for multiple Front End pools, Standard Edition servers (all in the same site).</span></span>
+<span data-ttu-id="3a1e6-138">Un partage de fichiers unique peut être utilisé pour plusieurs pools frontaux et serveurs Standard Edition (sur le même site).</span><span class="sxs-lookup"><span data-stu-id="3a1e6-138">A single file share can be used for multiple Front End pools, Standard Edition servers (all in the same site).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="13a23-139">Dans Lync Server 2013, la surveillance et l’archivage utilisent le partage de fichiers Lync Server comme serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="13a23-139">In Lync Server 2013, Monitoring and Archiving use the Lync Server file share as the Front End Server.</span></span>
+> <span data-ttu-id="3a1e6-139">Dans Lync Server 2013, la surveillance et l’archivage utilisent le partage de fichiers Lync Server comme serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-139">In Lync Server 2013, Monitoring and Archiving use the Lync Server file share as the Front End Server.</span></span>
 
 
 
@@ -139,11 +139,11 @@ ms.locfileid: "42049376"
 
 <div>
 
-## <a name="other-components"></a><span data-ttu-id="13a23-140">Autres composants</span><span class="sxs-lookup"><span data-stu-id="13a23-140">Other Components</span></span>
+## <a name="other-components"></a><span data-ttu-id="3a1e6-140">Autres composants</span><span class="sxs-lookup"><span data-stu-id="3a1e6-140">Other Components</span></span>
 
-<span data-ttu-id="13a23-141">Vous ne pouvez pas colocaliser un serveur proxy inverse, qui n’est pas un composant Lync Server 2013, mais qui est requis dans votre déploiement si vous souhaitez prendre en charge le partage de contenu Web pour les utilisateurs fédérés avec un rôle serveur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="13a23-141">You cannot collocate a reverse proxy server, which is not a Lync Server 2013 component, but is required in your deployment if you want to support sharing of web content for federated users with any Lync Server 2013 server role.</span></span> <span data-ttu-id="13a23-142">Toutefois, vous pouvez implémenter la prise en charge du proxy inverse pour un déploiement Lync Server 2013 en configurant la prise en charge sur un serveur proxy inverse existant de votre organisation qui est utilisé pour d’autres applications.</span><span class="sxs-lookup"><span data-stu-id="13a23-142">You can, however, implement reverse proxy support for a Lync Server 2013 deployment by configuring the support on an existing reverse proxy server in your organization that is used for other applications.</span></span>
+<span data-ttu-id="3a1e6-141">Vous ne pouvez pas colocaliser un serveur proxy inverse, qui n’est pas un composant Lync Server 2013, mais qui est requis dans votre déploiement si vous souhaitez prendre en charge le partage de contenu Web pour les utilisateurs fédérés avec un rôle serveur Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-141">You cannot collocate a reverse proxy server, which is not a Lync Server 2013 component, but is required in your deployment if you want to support sharing of web content for federated users with any Lync Server 2013 server role.</span></span> <span data-ttu-id="3a1e6-142">Toutefois, vous pouvez implémenter la prise en charge du proxy inverse pour un déploiement Lync Server 2013 en configurant la prise en charge sur un serveur proxy inverse existant de votre organisation qui est utilisé pour d’autres applications.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-142">You can, however, implement reverse proxy support for a Lync Server 2013 deployment by configuring the support on an existing reverse proxy server in your organization that is used for other applications.</span></span>
 
-<span data-ttu-id="13a23-143">Vous ne pouvez pas colocaliser un composant de messagerie unifiée Exchange ou un composant SharePoint avec un rôle SharePoint Server.</span><span class="sxs-lookup"><span data-stu-id="13a23-143">You cannot collocate any Exchange Unified Messaging (UM) component or SharePoint component with any SharePoint Server role.</span></span>
+<span data-ttu-id="3a1e6-143">Vous ne pouvez pas colocaliser un composant de messagerie unifiée Exchange ou un composant SharePoint avec un rôle SharePoint Server.</span><span class="sxs-lookup"><span data-stu-id="3a1e6-143">You cannot collocate any Exchange Unified Messaging (UM) component or SharePoint component with any SharePoint Server role.</span></span>
 
 </div>
 

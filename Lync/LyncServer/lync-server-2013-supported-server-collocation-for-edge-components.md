@@ -12,20 +12,20 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e52d1c630bba8c93193c2e309d4d3299f45a6388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 118ed297998072edf721d0f6a254f2b66120d343
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029785"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="c05e6-102">Colocalisation de serveur prise en charge pour les composants Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c05e6-102">Supported server collocation for edge components in Lync Server 2013</span></span>
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="e39ae-102">Colocalisation de serveur prise en charge pour les composants Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e39ae-102">Supported server collocation for edge components in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42029785"
 
 <span> </span>
 
-<span data-ttu-id="c05e6-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c05e6-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="e39ae-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="e39ae-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="c05e6-104">Le service Edge d’accès, le service Edge de conférence Web, le service Edge A/V et le service proxy XMPP sont colocalisés sur les serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="c05e6-104">The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMPP Proxy service are collocated on the Edge Servers.</span></span> <span data-ttu-id="c05e6-105">Les serveurs suivants fournissent les fonctions nécessaires à l’accès des utilisateurs externes et doivent être déployés en tant que serveurs dédiés :</span><span class="sxs-lookup"><span data-stu-id="c05e6-105">The following servers provide functions needed for external user access and must be deployed as dedicated servers:</span></span>
+<span data-ttu-id="e39ae-104">Le service Edge d’accès, le service Edge de conférence Web, le service Edge A/V et le service proxy XMPP sont colocalisés sur les serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="e39ae-104">The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMPP Proxy service are collocated on the Edge Servers.</span></span> <span data-ttu-id="e39ae-105">Les serveurs suivants fournissent les fonctions nécessaires à l’accès des utilisateurs externes et doivent être déployés en tant que serveurs dédiés :</span><span class="sxs-lookup"><span data-stu-id="e39ae-105">The following servers provide functions needed for external user access and must be deployed as dedicated servers:</span></span>
 
-  - <span data-ttu-id="c05e6-106">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="c05e6-106">Edge Server</span></span>
+  - <span data-ttu-id="e39ae-106">Serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e39ae-106">Edge Server</span></span>
 
-  - <span data-ttu-id="c05e6-107">Directeur (facultatif)</span><span class="sxs-lookup"><span data-stu-id="c05e6-107">Director (Optional)</span></span>
+  - <span data-ttu-id="e39ae-107">Directeur (facultatif)</span><span class="sxs-lookup"><span data-stu-id="e39ae-107">Director (Optional)</span></span>
 
-  - <span data-ttu-id="c05e6-108">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="c05e6-108">Reverse proxy</span></span>
+  - <span data-ttu-id="e39ae-108">Proxy inverse</span><span class="sxs-lookup"><span data-stu-id="e39ae-108">Reverse proxy</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="c05e6-109">Le proxy inverse n’a pas besoin d’être dédié pour servir uniquement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c05e6-109">The reverse proxy does not need to be dedicated to serving only Lync Server 2013.</span></span> <span data-ttu-id="c05e6-110">Par exemple, vous pouvez fournir des services pour publier les services Web Lync Server et fournir simultanément un site Web publié pour un autre site Web qui n’a aucune incidence sur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c05e6-110">For example, you can provide services to publish the Lync Server Web services, and concurrently provide a published Web site for another Web site that has no bearing on Lync Server at all.</span></span> <span data-ttu-id="c05e6-111">Si vous disposez déjà d’un serveur proxy inverse dans le réseau de périmètre pour prendre en charge d’autres services, vous pouvez l’utiliser pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c05e6-111">If you already have a reverse proxy server in the perimeter network to support other services, you can use it for Lync Server 2013.</span></span>
+> <span data-ttu-id="e39ae-109">Le proxy inverse n’a pas besoin d’être dédié pour servir uniquement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e39ae-109">The reverse proxy does not need to be dedicated to serving only Lync Server 2013.</span></span> <span data-ttu-id="e39ae-110">Par exemple, vous pouvez fournir des services pour publier les services Web Lync Server et fournir simultanément un site Web publié pour un autre site Web qui n’a aucune incidence sur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e39ae-110">For example, you can provide services to publish the Lync Server Web services, and concurrently provide a published Web site for another Web site that has no bearing on Lync Server at all.</span></span> <span data-ttu-id="e39ae-111">Si vous disposez déjà d’un serveur proxy inverse dans le réseau de périmètre pour prendre en charge d’autres services, vous pouvez l’utiliser pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e39ae-111">If you already have a reverse proxy server in the perimeter network to support other services, you can use it for Lync Server 2013.</span></span>
 
 
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c134da606ab5745f197fb7a6e8d439065b8721f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051528"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="c8694-102">Examen du rapport de pare-feu dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8694-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="56b1b-102">Examen du rapport de pare-feu dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56b1b-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "42051528"
 
 <span> </span>
 
-<span data-ttu-id="c8694-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="c8694-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="56b1b-103">_**Dernière modification de la rubrique :** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="56b1b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="c8694-104">Lync Server 2013 dispose d’un ensemble de règles de pare-feu potentiellement complexe.</span><span class="sxs-lookup"><span data-stu-id="c8694-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="c8694-105">L’outil de planification réduit cette complexité en générant un rapport qui définit en détail tous les besoins en matière de pare-feu, en fonction des critères d’entrée du concepteur.</span><span class="sxs-lookup"><span data-stu-id="c8694-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="c8694-106">L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.</span><span class="sxs-lookup"><span data-stu-id="c8694-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
+<span data-ttu-id="56b1b-104">Lync Server 2013 dispose d’un ensemble de règles de pare-feu potentiellement complexe.</span><span class="sxs-lookup"><span data-stu-id="56b1b-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="56b1b-105">L’outil de planification réduit cette complexité en générant un rapport qui définit en détail tous les besoins en matière de pare-feu, en fonction des critères d’entrée du concepteur.</span><span class="sxs-lookup"><span data-stu-id="56b1b-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="56b1b-106">L’administrateur du pare-feu informatique pourra utiliser ce rapport pour configurer et définir les règles nécessaires.</span><span class="sxs-lookup"><span data-stu-id="56b1b-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
 
-<span data-ttu-id="c8694-107">Du point de vue de la gestion de pare-feu, le rapport doit être soigneusement révisé pour garantir qu’il n’y a aucun conflit avec la sortie des règles de pare-feu et qu’il n’existe aucune stratégie ou procédure susceptible d’être violée.</span><span class="sxs-lookup"><span data-stu-id="c8694-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
+<span data-ttu-id="56b1b-107">Du point de vue de la gestion de pare-feu, le rapport doit être soigneusement révisé pour garantir qu’il n’y a aucun conflit avec la sortie des règles de pare-feu et qu’il n’existe aucune stratégie ou procédure susceptible d’être violée.</span><span class="sxs-lookup"><span data-stu-id="56b1b-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
 
-<span data-ttu-id="c8694-108">![Rapport d’administrateur de pare-feu](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administrateur de pare-feu")</span><span class="sxs-lookup"><span data-stu-id="c8694-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
+<span data-ttu-id="56b1b-108">![Rapport d’administrateur de pare-feu](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Rapport d’administrateur de pare-feu")</span><span class="sxs-lookup"><span data-stu-id="56b1b-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c8694-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c8694-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56b1b-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="56b1b-109">See Also</span></span>
 
 
-[<span data-ttu-id="c8694-110">Examen des rapports de l’administrateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8694-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+[<span data-ttu-id="56b1b-110">Examen des rapports de l’administrateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56b1b-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

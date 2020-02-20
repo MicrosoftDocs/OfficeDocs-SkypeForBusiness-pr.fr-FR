@@ -12,20 +12,20 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b75a0de9f308bd660b19168480add8006ff1995
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044996"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="1f520-102">Sauvegarde de magasins de fichiers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f520-102">Backing up file stores in Lync Server 2013</span></span>
+# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="fea06-102">Sauvegarde de magasins de fichiers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fea06-102">Backing up file stores in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42044996"
 
 <span> </span>
 
-<span data-ttu-id="1f520-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="1f520-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="fea06-103">_**Dernière modification de la rubrique :** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="fea06-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="1f520-104">La sauvegarde des magasins de fichiers Lync Server inclut tous les fichiers et dossiers utilisés par les composants Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1f520-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
+<span data-ttu-id="fea06-104">La sauvegarde des magasins de fichiers Lync Server inclut tous les fichiers et dossiers utilisés par les composants Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fea06-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
 
 <div>
 
-## <a name="to-back-up-file-stores"></a><span data-ttu-id="1f520-105">Pour sauvegarder des magasins de fichiers</span><span class="sxs-lookup"><span data-stu-id="1f520-105">To back up File Stores</span></span>
+## <a name="to-back-up-file-stores"></a><span data-ttu-id="fea06-105">Pour sauvegarder des magasins de fichiers</span><span class="sxs-lookup"><span data-stu-id="fea06-105">To back up File Stores</span></span>
 
-1.  <span data-ttu-id="1f520-106">Pour rechercher les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologies et regardez dans le nœud **magasins de fichiers** .</span><span class="sxs-lookup"><span data-stu-id="1f520-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
+1.  <span data-ttu-id="fea06-106">Pour rechercher les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologies et regardez dans le nœud **magasins de fichiers** .</span><span class="sxs-lookup"><span data-stu-id="fea06-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
 
-2.  <span data-ttu-id="1f520-107">Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque\\magasin de fichiers vers $Backup de stockage de fichiers.</span><span class="sxs-lookup"><span data-stu-id="1f520-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
+2.  <span data-ttu-id="fea06-107">Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque\\magasin de fichiers vers $Backup de stockage de fichiers.</span><span class="sxs-lookup"><span data-stu-id="fea06-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
 
 </div>
 

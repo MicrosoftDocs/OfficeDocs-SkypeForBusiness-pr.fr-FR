@@ -12,20 +12,20 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84e4a79f511247b3c335872b7a1ec31fb9f2201e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5885ed34fd28f06b9a7d8c4f95abc29d3b5e147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021325"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a><span data-ttu-id="c8894-102">Tester la capacité des utilisateurs mobiles à échanger des messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8894-102">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a><span data-ttu-id="70063-102">Tester la capacité des utilisateurs mobiles à échanger des messages instantanés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70063-102">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42021325"
 
 <span> </span>
 
-<span data-ttu-id="c8894-103">_**Dernière modification de la rubrique :** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="c8894-103">_**Topic Last Modified:** 2014-06-07_</span></span>
+<span data-ttu-id="70063-103">_**Dernière modification de la rubrique :** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="70063-103">_**Topic Last Modified:** 2014-06-07_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42021325"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c8894-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="c8894-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="c8894-105">Tous les mois</span><span class="sxs-lookup"><span data-stu-id="c8894-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="70063-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="70063-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="70063-105">Tous les mois</span><span class="sxs-lookup"><span data-stu-id="70063-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c8894-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="c8894-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="c8894-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c8894-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="70063-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="70063-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="70063-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="70063-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c8894-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="c8894-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="c8894-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="c8894-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="c8894-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsMcxP2PIM.</span><span class="sxs-lookup"><span data-stu-id="c8894-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet.</span></span> <span data-ttu-id="c8894-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="c8894-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="70063-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="70063-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="70063-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="70063-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="70063-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet Test-CsMcxP2PIM.</span><span class="sxs-lookup"><span data-stu-id="70063-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet.</span></span> <span data-ttu-id="70063-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="70063-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,122 +64,122 @@ ms.locfileid: "42021325"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="c8894-112">Description</span><span class="sxs-lookup"><span data-stu-id="c8894-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="70063-112">Description</span><span class="sxs-lookup"><span data-stu-id="70063-112">Description</span></span>
 
-<span data-ttu-id="c8894-113">Le service de mobilité permet aux utilisateurs d’appareils mobiles d’effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="c8894-113">The Mobility Service enables mobile device users to do such things as:</span></span>
+<span data-ttu-id="70063-113">Le service de mobilité permet aux utilisateurs d’appareils mobiles d’effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="70063-113">The Mobility Service enables mobile device users to do such things as:</span></span>
 
-1.  <span data-ttu-id="c8894-114">Échanger des messages instantanés et des informations de présence.</span><span class="sxs-lookup"><span data-stu-id="c8894-114">Exchange instant messages and presence information.</span></span>
+1.  <span data-ttu-id="70063-114">Échanger des messages instantanés et des informations de présence.</span><span class="sxs-lookup"><span data-stu-id="70063-114">Exchange instant messages and presence information.</span></span>
 
-2.  <span data-ttu-id="c8894-115">Stockez et récupérez les messages vocaux en interne au lieu de leur fournisseur sans fil.</span><span class="sxs-lookup"><span data-stu-id="c8894-115">Store and retrieve voice mail internally instead of with their wireless provider.</span></span>
+2.  <span data-ttu-id="70063-115">Stockez et récupérez les messages vocaux en interne au lieu de leur fournisseur sans fil.</span><span class="sxs-lookup"><span data-stu-id="70063-115">Store and retrieve voice mail internally instead of with their wireless provider.</span></span>
 
-3.  <span data-ttu-id="c8894-116">Tirez parti des fonctionnalités de Lync Server, telles que l’appel via le bureau et la Conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="c8894-116">Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.</span></span>
+3.  <span data-ttu-id="70063-116">Tirez parti des fonctionnalités de Lync Server, telles que l’appel via le bureau et la Conférence rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="70063-116">Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.</span></span>
 
-<span data-ttu-id="c8894-117">L’applet de commande test-CsMxcP2PIM offre un moyen rapide et simple de vérifier que les utilisateurs peuvent utiliser le service de mobilité pour échanger des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="c8894-117">The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.</span></span>
+<span data-ttu-id="70063-117">L’applet de commande test-CsMxcP2PIM offre un moyen rapide et simple de vérifier que les utilisateurs peuvent utiliser le service de mobilité pour échanger des messages instantanés.</span><span class="sxs-lookup"><span data-stu-id="70063-117">The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="c8894-118">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="c8894-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="70063-118">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="70063-118">Running the test</span></span>
 
-<span data-ttu-id="c8894-119">Pour exécuter ce test, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte.</span><span class="sxs-lookup"><span data-stu-id="c8894-119">To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="c8894-120">Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez test-CsMcxP2PIM :</span><span class="sxs-lookup"><span data-stu-id="c8894-120">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:</span></span>
+<span data-ttu-id="70063-119">Pour exécuter ce test, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte.</span><span class="sxs-lookup"><span data-stu-id="70063-119">To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="70063-120">Vous devez ensuite inclure ces objets Credentials et les adresses SIP des deux comptes lorsque vous appelez test-CsMcxP2PIM :</span><span class="sxs-lookup"><span data-stu-id="70063-120">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-<span data-ttu-id="c8894-121">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) .</span><span class="sxs-lookup"><span data-stu-id="c8894-121">For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.</span></span>
+<span data-ttu-id="70063-121">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) .</span><span class="sxs-lookup"><span data-stu-id="70063-121">For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="c8894-122">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="c8894-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="70063-122">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="70063-122">Determining success or failure</span></span>
 
-<span data-ttu-id="c8894-123">Si les deux utilisateurs de test peuvent échanger des messages instantanés à l’aide du service de mobilité, la fonction test-CsMcxP2PIM renverra la réussite du test :</span><span class="sxs-lookup"><span data-stu-id="c8894-123">If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:</span></span>
+<span data-ttu-id="70063-123">Si les deux utilisateurs de test peuvent échanger des messages instantanés à l’aide du service de mobilité, la fonction test-CsMcxP2PIM renverra la réussite du test :</span><span class="sxs-lookup"><span data-stu-id="70063-123">If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:</span></span>
 
-<span data-ttu-id="c8894-124">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="c8894-124">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="70063-124">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="70063-124">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="c8894-125">URI cible :http://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="c8894-125">Target Uri : http://atl-cs-001.litwareinc.com:443/mcx</span></span>
+<span data-ttu-id="70063-125">URI cible :http://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="70063-125">Target Uri : http://atl-cs-001.litwareinc.com:443/mcx</span></span>
 
-<span data-ttu-id="c8894-126">Résultat : opération réussie</span><span class="sxs-lookup"><span data-stu-id="c8894-126">Result : Success</span></span>
+<span data-ttu-id="70063-126">Résultat : opération réussie</span><span class="sxs-lookup"><span data-stu-id="70063-126">Result : Success</span></span>
 
-<span data-ttu-id="c8894-127">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="c8894-127">Latency : 00:00:00</span></span>
+<span data-ttu-id="70063-127">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="70063-127">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="c8894-128">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="c8894-128">Error Message :</span></span>
+<span data-ttu-id="70063-128">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="70063-128">Error Message :</span></span>
 
-<span data-ttu-id="c8894-129">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="c8894-129">Diagnosis :</span></span>
+<span data-ttu-id="70063-129">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="70063-129">Diagnosis :</span></span>
 
-<span data-ttu-id="c8894-130">Si le test échoue, le résultat est défini sur échec et un message d’erreur détaillé et un diagnostic s’affichent :</span><span class="sxs-lookup"><span data-stu-id="c8894-130">If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:</span></span>
+<span data-ttu-id="70063-130">Si le test échoue, le résultat est défini sur échec et un message d’erreur détaillé et un diagnostic s’affichent :</span><span class="sxs-lookup"><span data-stu-id="70063-130">If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:</span></span>
 
-<span data-ttu-id="c8894-131">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="c8894-131">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="70063-131">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="70063-131">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="c8894-132">URI cible :https://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="c8894-132">Target Uri : https://atl-cs-001.litwareinc.com:443/mcx</span></span>
+<span data-ttu-id="70063-132">URI cible :https://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="70063-132">Target Uri : https://atl-cs-001.litwareinc.com:443/mcx</span></span>
 
-<span data-ttu-id="c8894-133">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="c8894-133">Result : Failure</span></span>
+<span data-ttu-id="70063-133">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="70063-133">Result : Failure</span></span>
 
-<span data-ttu-id="c8894-134">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="c8894-134">Latency : 00:00:00</span></span>
+<span data-ttu-id="70063-134">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="70063-134">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="c8894-135">Message d’erreur : aucune réponse reçue pour le service de ticket Web.</span><span class="sxs-lookup"><span data-stu-id="c8894-135">Error Message : No response received for Web-Ticket service.</span></span>
+<span data-ttu-id="70063-135">Message d’erreur : aucune réponse reçue pour le service de ticket Web.</span><span class="sxs-lookup"><span data-stu-id="70063-135">Error Message : No response received for Web-Ticket service.</span></span>
 
-<span data-ttu-id="c8894-136">Exception interne : la demande HHTP n’est pas autorisée avec</span><span class="sxs-lookup"><span data-stu-id="c8894-136">Inner Exception:The HHTP request is unauthorized with</span></span>
+<span data-ttu-id="70063-136">Exception interne : la demande HHTP n’est pas autorisée avec</span><span class="sxs-lookup"><span data-stu-id="70063-136">Inner Exception:The HHTP request is unauthorized with</span></span>
 
-<span data-ttu-id="c8894-137">schéma de négociation client « NTLM ».</span><span class="sxs-lookup"><span data-stu-id="c8894-137">client negotiation scheme 'Ntlm'.</span></span> <span data-ttu-id="c8894-138">L’authentification</span><span class="sxs-lookup"><span data-stu-id="c8894-138">The authentication</span></span>
+<span data-ttu-id="70063-137">schéma de négociation client « NTLM ».</span><span class="sxs-lookup"><span data-stu-id="70063-137">client negotiation scheme 'Ntlm'.</span></span> <span data-ttu-id="70063-138">L’authentification</span><span class="sxs-lookup"><span data-stu-id="70063-138">The authentication</span></span>
 
-<span data-ttu-id="c8894-139">l’en-tête reçu du serveur était « Negotiate, NTLM ».</span><span class="sxs-lookup"><span data-stu-id="c8894-139">header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="70063-139">l’en-tête reçu du serveur était « Negotiate, NTLM ».</span><span class="sxs-lookup"><span data-stu-id="70063-139">header received from the server was 'Negotiate,NTLM'.</span></span>
 
-<span data-ttu-id="c8894-140">Exception interne : le serveur distant a renvoyé une erreur :</span><span class="sxs-lookup"><span data-stu-id="c8894-140">Inner Exception:The remote server returned an error:</span></span>
+<span data-ttu-id="70063-140">Exception interne : le serveur distant a renvoyé une erreur :</span><span class="sxs-lookup"><span data-stu-id="70063-140">Inner Exception:The remote server returned an error:</span></span>
 
-<span data-ttu-id="c8894-141">(401) non autorisé.</span><span class="sxs-lookup"><span data-stu-id="c8894-141">(401) Unauthorized.</span></span>
+<span data-ttu-id="70063-141">(401) non autorisé.</span><span class="sxs-lookup"><span data-stu-id="70063-141">(401) Unauthorized.</span></span>
 
-<span data-ttu-id="c8894-142">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="c8894-142">Diagnosis :</span></span>
+<span data-ttu-id="70063-142">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="70063-142">Diagnosis :</span></span>
 
-<span data-ttu-id="c8894-143">Diagnostic interne : X-MS-Server-Fqdb : ATL-CS-</span><span class="sxs-lookup"><span data-stu-id="c8894-143">Inner Diagnosis:X-MS-server-Fqdb : atl-cs-</span></span>
+<span data-ttu-id="70063-143">Diagnostic interne : X-MS-Server-Fqdb : ATL-CS-</span><span class="sxs-lookup"><span data-stu-id="70063-143">Inner Diagnosis:X-MS-server-Fqdb : atl-cs-</span></span>
 
-<span data-ttu-id="c8894-144">001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="c8894-144">001.litwareinc.com</span></span>
+<span data-ttu-id="70063-144">001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="70063-144">001.litwareinc.com</span></span>
 
-<span data-ttu-id="c8894-145">Cache-Control : Private</span><span class="sxs-lookup"><span data-stu-id="c8894-145">Cache-Control : private</span></span>
+<span data-ttu-id="70063-145">Cache-Control : Private</span><span class="sxs-lookup"><span data-stu-id="70063-145">Cache-Control : private</span></span>
 
-<span data-ttu-id="c8894-146">Content-type : text/html ; charset = UTF-8.</span><span class="sxs-lookup"><span data-stu-id="c8894-146">Content-Type : text/html; charset=utf-8.</span></span>
+<span data-ttu-id="70063-146">Content-type : text/html ; charset = UTF-8.</span><span class="sxs-lookup"><span data-stu-id="70063-146">Content-Type : text/html; charset=utf-8.</span></span>
 
-<span data-ttu-id="c8894-147">Serveur : Microsoft-IIS/8.5</span><span class="sxs-lookup"><span data-stu-id="c8894-147">Server : Microsoft-IIS/8.5</span></span>
+<span data-ttu-id="70063-147">Serveur : Microsoft-IIS/8.5</span><span class="sxs-lookup"><span data-stu-id="70063-147">Server : Microsoft-IIS/8.5</span></span>
 
-<span data-ttu-id="c8894-148">WWW-Authenticate : Negotiate, NTLM</span><span class="sxs-lookup"><span data-stu-id="c8894-148">WWW-Authenticate : Negotiate,NTLM</span></span>
+<span data-ttu-id="70063-148">WWW-Authenticate : Negotiate, NTLM</span><span class="sxs-lookup"><span data-stu-id="70063-148">WWW-Authenticate : Negotiate,NTLM</span></span>
 
-<span data-ttu-id="c8894-149">X-alimenté par : ASP.NET</span><span class="sxs-lookup"><span data-stu-id="c8894-149">X-Powered-By : ASP.NET</span></span>
+<span data-ttu-id="70063-149">X-alimenté par : ASP.NET</span><span class="sxs-lookup"><span data-stu-id="70063-149">X-Powered-By : ASP.NET</span></span>
 
-<span data-ttu-id="c8894-150">X-Content-type-options : nosniffer</span><span class="sxs-lookup"><span data-stu-id="c8894-150">X-Content-Type-Options : nosniff</span></span>
+<span data-ttu-id="70063-150">X-Content-type-options : nosniffer</span><span class="sxs-lookup"><span data-stu-id="70063-150">X-Content-Type-Options : nosniff</span></span>
 
-<span data-ttu-id="c8894-151">Date : Wed, 28 mai 2014 19:16:05 GMT</span><span class="sxs-lookup"><span data-stu-id="c8894-151">Date : Wed, 28 May 2014 19:16:05 GMT</span></span>
+<span data-ttu-id="70063-151">Date : Wed, 28 mai 2014 19:16:05 GMT</span><span class="sxs-lookup"><span data-stu-id="70063-151">Date : Wed, 28 May 2014 19:16:05 GMT</span></span>
 
-<span data-ttu-id="c8894-152">Longueur de contenu : 6305</span><span class="sxs-lookup"><span data-stu-id="c8894-152">Content-Length : 6305</span></span>
+<span data-ttu-id="70063-152">Longueur de contenu : 6305</span><span class="sxs-lookup"><span data-stu-id="70063-152">Content-Length : 6305</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="c8894-153">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="c8894-153">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="70063-153">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="70063-153">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="c8894-154">Si test-CsMcxP2PIM échoue, la première étape consiste à vérifier que le service de mobilité est opérationnel.</span><span class="sxs-lookup"><span data-stu-id="c8894-154">If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running.</span></span> <span data-ttu-id="c8894-155">Vous pouvez effectuer cette opération à l’aide d’un navigateur Web pour vérifier que l’URL du service de mobilité de votre pool Lync Server est accessible.</span><span class="sxs-lookup"><span data-stu-id="c8894-155">That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed.</span></span> <span data-ttu-id="c8894-156">Par exemple, cette commande vérifie l’URL du pool atl-cs-001.litwareinc.com :</span><span class="sxs-lookup"><span data-stu-id="c8894-156">For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:</span></span>
+<span data-ttu-id="70063-154">Si test-CsMcxP2PIM échoue, la première étape consiste à vérifier que le service de mobilité est opérationnel.</span><span class="sxs-lookup"><span data-stu-id="70063-154">If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running.</span></span> <span data-ttu-id="70063-155">Vous pouvez effectuer cette opération à l’aide d’un navigateur Web pour vérifier que l’URL du service de mobilité de votre pool Lync Server est accessible.</span><span class="sxs-lookup"><span data-stu-id="70063-155">That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed.</span></span> <span data-ttu-id="70063-156">Par exemple, cette commande vérifie l’URL du pool atl-cs-001.litwareinc.com :</span><span class="sxs-lookup"><span data-stu-id="70063-156">For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:</span></span>
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
-<span data-ttu-id="c8894-157">Si le service de mobilité semble être en cours d’exécution, vérifiez que vos deux utilisateurs test ont des comptes Lync Server valides.</span><span class="sxs-lookup"><span data-stu-id="c8894-157">If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts.</span></span> <span data-ttu-id="c8894-158">Vous pouvez récupérer les informations de compte à l’aide d’une commande semblable à celle-ci :</span><span class="sxs-lookup"><span data-stu-id="c8894-158">You can retrieve account information by using a command similar to this:</span></span>
+<span data-ttu-id="70063-157">Si le service de mobilité semble être en cours d’exécution, vérifiez que vos deux utilisateurs test ont des comptes Lync Server valides.</span><span class="sxs-lookup"><span data-stu-id="70063-157">If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts.</span></span> <span data-ttu-id="70063-158">Vous pouvez récupérer les informations de compte à l’aide d’une commande semblable à celle-ci :</span><span class="sxs-lookup"><span data-stu-id="70063-158">You can retrieve account information by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-<span data-ttu-id="c8894-159">Si la propriété Enabled n’a pas la valeur true ou si la commande échoue, cela signifie que l’utilisateur ne dispose pas d’un compte Lync Server valide.</span><span class="sxs-lookup"><span data-stu-id="c8894-159">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
+<span data-ttu-id="70063-159">Si la propriété Enabled n’a pas la valeur true ou si la commande échoue, cela signifie que l’utilisateur ne dispose pas d’un compte Lync Server valide.</span><span class="sxs-lookup"><span data-stu-id="70063-159">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
 
-<span data-ttu-id="c8894-160">Vous devez également vérifier que l’utilisateur est activé pour la mobilité.</span><span class="sxs-lookup"><span data-stu-id="c8894-160">You should also verify that the user is enabled for mobility.</span></span> <span data-ttu-id="c8894-161">Pour ce faire, commencez par déterminer la stratégie de mobilité affectée au compte :</span><span class="sxs-lookup"><span data-stu-id="c8894-161">To do that, first determine the mobility policy that is assigned to the account:</span></span>
+<span data-ttu-id="70063-160">Vous devez également vérifier que l’utilisateur est activé pour la mobilité.</span><span class="sxs-lookup"><span data-stu-id="70063-160">You should also verify that the user is enabled for mobility.</span></span> <span data-ttu-id="70063-161">Pour ce faire, commencez par déterminer la stratégie de mobilité affectée au compte :</span><span class="sxs-lookup"><span data-stu-id="70063-161">To do that, first determine the mobility policy that is assigned to the account:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-<span data-ttu-id="c8894-162">Une fois que vous avez déterminé le nom de la stratégie, utilisez la cmdlet Get-CsMobilityPolicy pour vérifier que la stratégie en question (par exemple, RedmondMobilityPolicy) a la propriété EnableMobility définie sur true :</span><span class="sxs-lookup"><span data-stu-id="c8894-162">After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:</span></span>
+<span data-ttu-id="70063-162">Une fois que vous avez déterminé le nom de la stratégie, utilisez la cmdlet Get-CsMobilityPolicy pour vérifier que la stratégie en question (par exemple, RedmondMobilityPolicy) a la propriété EnableMobility définie sur true :</span><span class="sxs-lookup"><span data-stu-id="70063-162">After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:</span></span>
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-<span data-ttu-id="c8894-163">Si vous recevez un message d’erreur avec des en-têtes d’authentification, cela signifie que vous n’avez pas spécifié de compte d’utilisateur valide.</span><span class="sxs-lookup"><span data-stu-id="c8894-163">If you receive an error message with authentication headers, that often means that you have not specified a valid user account.</span></span> <span data-ttu-id="c8894-164">Vérifiez le nom d’utilisateur et le mot de passe, puis recommencez le test.</span><span class="sxs-lookup"><span data-stu-id="c8894-164">Verify the user name and password and then try the test again.</span></span> <span data-ttu-id="c8894-165">Si vous êtes convaincu que le compte d’utilisateur est valide, utilisez la cmdlet Get-CsWebServiceConfiguration et vérifiez la valeur de la propriété UseWindowsAuth.</span><span class="sxs-lookup"><span data-stu-id="c8894-165">If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property.</span></span> <span data-ttu-id="c8894-166">Cela vous permettra de savoir quelles méthodes d’authentification sont activées dans votre organisation. Pour plus d’informations sur la résolution des problèmes liés au service de mobilité, voir le billet de blog [Troubleshooting External Lync Mobility connectivity problems Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8894-166">That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span></span>
+<span data-ttu-id="70063-163">Si vous recevez un message d’erreur avec des en-têtes d’authentification, cela signifie que vous n’avez pas spécifié de compte d’utilisateur valide.</span><span class="sxs-lookup"><span data-stu-id="70063-163">If you receive an error message with authentication headers, that often means that you have not specified a valid user account.</span></span> <span data-ttu-id="70063-164">Vérifiez le nom d’utilisateur et le mot de passe, puis recommencez le test.</span><span class="sxs-lookup"><span data-stu-id="70063-164">Verify the user name and password and then try the test again.</span></span> <span data-ttu-id="70063-165">Si vous êtes convaincu que le compte d’utilisateur est valide, utilisez la cmdlet Get-CsWebServiceConfiguration et vérifiez la valeur de la propriété UseWindowsAuth.</span><span class="sxs-lookup"><span data-stu-id="70063-165">If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property.</span></span> <span data-ttu-id="70063-166">Cela vous permettra de savoir quelles méthodes d’authentification sont activées dans votre organisation. Pour plus d’informations sur la résolution des problèmes liés au service de mobilité, voir le billet de blog [Troubleshooting External Lync Mobility connectivity problems Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span><span class="sxs-lookup"><span data-stu-id="70063-166">That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span></span>
 
 </div>
 

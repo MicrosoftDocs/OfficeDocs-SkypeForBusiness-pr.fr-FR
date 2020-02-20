@@ -12,20 +12,20 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 165154591e8829a9586382f93b39c39f9fa78c5e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5325a3dab058132dfe6bbf8558ebe771450f36ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038266"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a><span data-ttu-id="1fef8-102">Exécuter LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="1fef8-102">Run LyncPerfTool</span></span>
+# <a name="run-lyncperftool"></a><span data-ttu-id="8a01c-102">Exécuter LyncPerfTool</span><span class="sxs-lookup"><span data-stu-id="8a01c-102">Run LyncPerfTool</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "42038266"
 
 <span> </span>
 
-<span data-ttu-id="1fef8-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="1fef8-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="8a01c-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="8a01c-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="1fef8-104">Avant d’exécuter l’outil stress and performance de Lync Server 2013 (LyncPerfTool. exe), vous devez créer des utilisateurs, des contacts et des scénarios.</span><span class="sxs-lookup"><span data-stu-id="1fef8-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="1fef8-105">Pour plus d’informations sur l’utilisation des outils pour effectuer ces actions, consultez la rubrique [créer des utilisateurs et des contacts](create-users-and-contacts.md) et [configurer le profil utilisateur](configure-user-profile.md).</span><span class="sxs-lookup"><span data-stu-id="1fef8-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="1fef8-106">L’exécution de ces outils génère également un fichier qui exécute LyncPerfTool. exe dans le cadre d’un fichier de commandes avec les paramètres requis inclus.</span><span class="sxs-lookup"><span data-stu-id="1fef8-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
+<span data-ttu-id="8a01c-104">Avant d’exécuter l’outil stress and performance de Lync Server 2013 (LyncPerfTool. exe), vous devez créer des utilisateurs, des contacts et des scénarios.</span><span class="sxs-lookup"><span data-stu-id="8a01c-104">Before running the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe), you must create users, contacts, and scenarios.</span></span> <span data-ttu-id="8a01c-105">Pour plus d’informations sur l’utilisation des outils pour effectuer ces actions, consultez la rubrique [créer des utilisateurs et des contacts](create-users-and-contacts.md) et [configurer le profil utilisateur](configure-user-profile.md).</span><span class="sxs-lookup"><span data-stu-id="8a01c-105">For details about using the tools to perform these actions, see [Create Users and Contacts](create-users-and-contacts.md) and [Configure User Profile](configure-user-profile.md).</span></span> <span data-ttu-id="8a01c-106">L’exécution de ces outils génère également un fichier qui exécute LyncPerfTool. exe dans le cadre d’un fichier de commandes avec les paramètres requis inclus.</span><span class="sxs-lookup"><span data-stu-id="8a01c-106">Running these tools will also generate a file that will run LyncPerfTool.exe as part of a batch file with the required parameters included.</span></span>
 
 <div>
 
-## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="1fef8-107">Exécution de l’outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1fef8-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="8a01c-107">Exécution de l’outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a01c-107">Running the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="1fef8-108">L’outil UserProfileGenerator. exe crée un fichier de commandes qui vous permet d’exécuter LyncPerfTool. exe en enregistrant les compteurs de performance LyncPerfTool et en chargeant le fichier de configuration XML.</span><span class="sxs-lookup"><span data-stu-id="1fef8-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="1fef8-109">Le fichier de commandes exécute une instance de LyncPerfTool. exe par fichier de configuration.</span><span class="sxs-lookup"><span data-stu-id="1fef8-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="1fef8-110">Pour exécuter le fichier de commandes, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="1fef8-110">To run the batch file, do the following:</span></span>
+<span data-ttu-id="8a01c-108">L’outil UserProfileGenerator. exe crée un fichier de commandes qui vous permet d’exécuter LyncPerfTool. exe en enregistrant les compteurs de performance LyncPerfTool et en chargeant le fichier de configuration XML.</span><span class="sxs-lookup"><span data-stu-id="8a01c-108">The UserProfileGenerator.exe tool creates a batch file that enables you to run LyncPerfTool.exe by registering the LyncPerfTool performance counters and loading the XML configuration file.</span></span> <span data-ttu-id="8a01c-109">Le fichier de commandes exécute une instance de LyncPerfTool. exe par fichier de configuration.</span><span class="sxs-lookup"><span data-stu-id="8a01c-109">The batch file runs one instance of LyncPerfTool.exe per configuration file.</span></span> <span data-ttu-id="8a01c-110">Pour exécuter le fichier de commandes, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="8a01c-110">To run the batch file, do the following:</span></span>
 
-1.  <span data-ttu-id="1fef8-111">Copiez le dossier qui contient les dossiers et les fichiers de configuration dans le répertoire qui contient LyncStressTool. exe sur chaque ordinateur client.</span><span class="sxs-lookup"><span data-stu-id="1fef8-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="1fef8-112">(Par exemple, si vous avez généré les fichiers de configuration dans le dossier\_nommé 1,28 13.16.16, copiez ce dossier dans le dossier qui contient LyncPerfTool. exe sur chaque client.)</span><span class="sxs-lookup"><span data-stu-id="1fef8-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
+1.  <span data-ttu-id="8a01c-111">Copiez le dossier qui contient les dossiers et les fichiers de configuration dans le répertoire qui contient LyncStressTool. exe sur chaque ordinateur client.</span><span class="sxs-lookup"><span data-stu-id="8a01c-111">Copy the folder that contains the configuration folders and files to the directory that contains LyncStressTool.exe on each client computer.</span></span> <span data-ttu-id="8a01c-112">(Par exemple, si vous avez généré les fichiers de configuration dans le dossier\_nommé 1,28 13.16.16, copiez ce dossier dans le dossier qui contient LyncPerfTool. exe sur chaque client.)</span><span class="sxs-lookup"><span data-stu-id="8a01c-112">(For example, if you generated the configuration files in the folder named 1.28\_13.16.16, copy that folder to the folder that contains LyncPerfTool.exe on each client.)</span></span>
 
-2.  <span data-ttu-id="1fef8-113">Naviguez jusqu’au dossier client avec un numéro approprié et exécutez le script de commandes RunClient.</span><span class="sxs-lookup"><span data-stu-id="1fef8-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="1fef8-114">Vous pouvez simplement double-cliquer sur le fichier de commandes dans l’Explorateur Windows et exécuter tous les fichiers de configuration pour ce numéro de client.</span><span class="sxs-lookup"><span data-stu-id="1fef8-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="1fef8-115">Vous pouvez également exécuter le script à partir du dossier client approprié à l’aide de la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="1fef8-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
+2.  <span data-ttu-id="8a01c-113">Naviguez jusqu’au dossier client avec un numéro approprié et exécutez le script de commandes RunClient.</span><span class="sxs-lookup"><span data-stu-id="8a01c-113">Navigate to the appropriately numbered client folder and run the RunClient batch script.</span></span> <span data-ttu-id="8a01c-114">Vous pouvez simplement double-cliquer sur le fichier de commandes dans l’Explorateur Windows et exécuter tous les fichiers de configuration pour ce numéro de client.</span><span class="sxs-lookup"><span data-stu-id="8a01c-114">You can simply double-click the batch file in Windows Explorer and it will run all of the configuration files for that client number.</span></span> <span data-ttu-id="8a01c-115">Vous pouvez également exécuter le script à partir du dossier client approprié à l’aide de la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="8a01c-115">You can also run the script from the appropriate client folder by using the following syntax:</span></span>
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-<span data-ttu-id="1fef8-116">Pour exécuter LyncPerfTool. exe directement, ouvrez une invite de commandes, puis tapez la commande suivante dans la ligne de commande (lorsque vous effectuez cette opération pour la première fois, veillez à enregistrer les compteurs de performance regsvr32/i/n/s LyncPerfToolPerf. dll, comme indiqué dans la remarque plus loin dans cette rubrique) : LyncPerfTool\<. exe/file : configXML\></span><span class="sxs-lookup"><span data-stu-id="1fef8-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
+<span data-ttu-id="8a01c-116">Pour exécuter LyncPerfTool. exe directement, ouvrez une invite de commandes, puis tapez la commande suivante dans la ligne de commande (lorsque vous effectuez cette opération pour la première fois, veillez à enregistrer les compteurs de performance regsvr32/i/n/s LyncPerfToolPerf. dll, comme indiqué dans la remarque plus loin dans cette rubrique) : LyncPerfTool\<. exe/file : configXML\></span><span class="sxs-lookup"><span data-stu-id="8a01c-116">To run LyncPerfTool.exe directly, open a command prompt, and then type the following command at the command line (when doing this for the first time, be sure to register the performance counters regsvr32 /i /n /s LyncPerfToolPerf.dll, as show in the note later in this topic):LyncPerfTool.exe /file:\<configXML\></span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
-<span data-ttu-id="1fef8-117">Pour que l’outil affiche les valeurs dans le fichier de configuration, incluez le paramètre/displayfile sur la commande précédente, comme suit :</span><span class="sxs-lookup"><span data-stu-id="1fef8-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
+<span data-ttu-id="8a01c-117">Pour que l’outil affiche les valeurs dans le fichier de configuration, incluez le paramètre/displayfile sur la commande précédente, comme suit :</span><span class="sxs-lookup"><span data-stu-id="8a01c-117">To have the tool display the values in the configuration file, include the /displayfile parameter on the preceding command, like this:</span></span>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
-<span data-ttu-id="1fef8-118">Pour terminer le processus, appuyez sur Ctrl + C.</span><span class="sxs-lookup"><span data-stu-id="1fef8-118">To end the process, press Ctrl+C.</span></span>
+<span data-ttu-id="8a01c-118">Pour terminer le processus, appuyez sur Ctrl + C.</span><span class="sxs-lookup"><span data-stu-id="8a01c-118">To end the process, press Ctrl+C.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1fef8-119">Avant d’exécuter LyncPerfTool directement, vous devez enregistrer les compteurs de performance.</span><span class="sxs-lookup"><span data-stu-id="1fef8-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="1fef8-120">Entrez la commande suivante pour enregistrer les compteurs de performances :</span><span class="sxs-lookup"><span data-stu-id="1fef8-120">Enter the following command to register performance counters:</span></span>
+> <span data-ttu-id="8a01c-119">Avant d’exécuter LyncPerfTool directement, vous devez enregistrer les compteurs de performance.</span><span class="sxs-lookup"><span data-stu-id="8a01c-119">Before running LyncPerfTool directly, you must register the performance counters.</span></span> <span data-ttu-id="8a01c-120">Entrez la commande suivante pour enregistrer les compteurs de performances :</span><span class="sxs-lookup"><span data-stu-id="8a01c-120">Enter the following command to register performance counters:</span></span>
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "42038266"
 
 
 > [!NOTE]  
-> <span data-ttu-id="1fef8-121">Chaque instance de LyncPerfTool. exe que vous démarrez commence immédiatement à se connecter aux utilisateurs, généralement à une fréquence d’un utilisateur par seconde.</span><span class="sxs-lookup"><span data-stu-id="1fef8-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="1fef8-122">Le taux de connexion de l’utilisateur maximal pour le pool est d’environ 12 par seconde.</span><span class="sxs-lookup"><span data-stu-id="1fef8-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="1fef8-123">Cela signifie que vous ne devez pas démarrer plus de 12 instances LyncPerfTool en même temps, tandis que les utilisateurs se connectent toujours.</span><span class="sxs-lookup"><span data-stu-id="1fef8-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="1fef8-124">1000 les utilisateurs disposent d’environ 20 minutes pour se connecter complètement, un par un par seconde.</span><span class="sxs-lookup"><span data-stu-id="1fef8-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
+> <span data-ttu-id="8a01c-121">Chaque instance de LyncPerfTool. exe que vous démarrez commence immédiatement à se connecter aux utilisateurs, généralement à une fréquence d’un utilisateur par seconde.</span><span class="sxs-lookup"><span data-stu-id="8a01c-121">Every instance of LyncPerfTool.exe that you start will immediately start signing in users, usually at a rate of one user per second.</span></span> <span data-ttu-id="8a01c-122">Le taux de connexion de l’utilisateur maximal pour le pool est d’environ 12 par seconde.</span><span class="sxs-lookup"><span data-stu-id="8a01c-122">The peak user sign-in rate for the pool is about 12 per second.</span></span> <span data-ttu-id="8a01c-123">Cela signifie que vous ne devez pas démarrer plus de 12 instances LyncPerfTool en même temps, tandis que les utilisateurs se connectent toujours.</span><span class="sxs-lookup"><span data-stu-id="8a01c-123">This means that you should not start more than 12 LyncPerfTool instances at the same time, while the users are still signing in.</span></span> <span data-ttu-id="8a01c-124">1000 les utilisateurs disposent d’environ 20 minutes pour se connecter complètement, un par un par seconde.</span><span class="sxs-lookup"><span data-stu-id="8a01c-124">1000 users will take about 20 minutes to fully sign in, at one per second.</span></span>
 
 
 
@@ -89,11 +89,11 @@ ms.locfileid: "42038266"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1fef8-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1fef8-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8a01c-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8a01c-125">See Also</span></span>
 
 
-[<span data-ttu-id="1fef8-126">Créer des utilisateurs et des contacts</span><span class="sxs-lookup"><span data-stu-id="1fef8-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
-[<span data-ttu-id="1fef8-127">Configurer le profil utilisateur</span><span class="sxs-lookup"><span data-stu-id="1fef8-127">Configure User Profile</span></span>](configure-user-profile.md)  
+[<span data-ttu-id="8a01c-126">Créer des utilisateurs et des contacts</span><span class="sxs-lookup"><span data-stu-id="8a01c-126">Create Users and Contacts</span></span>](create-users-and-contacts.md)  
+[<span data-ttu-id="8a01c-127">Configurer le profil utilisateur</span><span class="sxs-lookup"><span data-stu-id="8a01c-127">Configure User Profile</span></span>](configure-user-profile.md)  
   
 
 </div>

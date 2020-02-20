@@ -12,20 +12,20 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c3c5a2c83d664182226decb88ab6bd1c34d6d3a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006069"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="fd903-102">Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd903-102">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="9b07a-102">Test et signalement de la disponibilité fonctionnelle pour l’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9b07a-102">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42006069"
 
 <span> </span>
 
-<span data-ttu-id="fd903-103">_**Dernière modification de la rubrique :** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="fd903-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="9b07a-103">_**Dernière modification de la rubrique :** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="9b07a-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="fd903-104">Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="fd903-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="9b07a-104">Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="9b07a-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="fd903-105">Vous pouvez utiliser l’applet de commande Windows PowerShell **test-CsKerberosAccountAssignment** pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="fd903-105">You can use the **Test-CsKerberosAccountAssignment** Windows PowerShell cmdlet to test and report the functional readiness of a site assignment for Kerberos authentication.</span></span> <span data-ttu-id="fd903-106">Cette commande interroge le site spécifié dans le paramètre Identity obligatoire.</span><span class="sxs-lookup"><span data-stu-id="fd903-106">This command queries the site specified in the required Identity parameter.</span></span> <span data-ttu-id="fd903-107">Le paramètre de rapport facultatif fait en sorte que l’applet de commande écrive\\un rapport HTML dans C : logs sur l’ordinateur sur lequel la commande est exécutée.</span><span class="sxs-lookup"><span data-stu-id="fd903-107">The optional Report parameter causes the cmdlet to write an HTML report to C:\\Logs on the computer on which the command is run.</span></span> <span data-ttu-id="fd903-108">Le paramètre Verbose facultatif affiche des informations d’activité à l’écran.</span><span class="sxs-lookup"><span data-stu-id="fd903-108">The optional Verbose parameter reports activity information to the screen.</span></span>
+<span data-ttu-id="9b07a-105">Vous pouvez utiliser l’applet de commande Windows PowerShell **test-CsKerberosAccountAssignment** pour tester et signaler la disponibilité fonctionnelle d’une affectation de site pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="9b07a-105">You can use the **Test-CsKerberosAccountAssignment** Windows PowerShell cmdlet to test and report the functional readiness of a site assignment for Kerberos authentication.</span></span> <span data-ttu-id="9b07a-106">Cette commande interroge le site spécifié dans le paramètre Identity obligatoire.</span><span class="sxs-lookup"><span data-stu-id="9b07a-106">This command queries the site specified in the required Identity parameter.</span></span> <span data-ttu-id="9b07a-107">Le paramètre de rapport facultatif fait en sorte que l’applet de commande écrive\\un rapport HTML dans C : logs sur l’ordinateur sur lequel la commande est exécutée.</span><span class="sxs-lookup"><span data-stu-id="9b07a-107">The optional Report parameter causes the cmdlet to write an HTML report to C:\\Logs on the computer on which the command is run.</span></span> <span data-ttu-id="9b07a-108">Le paramètre Verbose facultatif affiche des informations d’activité à l’écran.</span><span class="sxs-lookup"><span data-stu-id="9b07a-108">The optional Verbose parameter reports activity information to the screen.</span></span>
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a><span data-ttu-id="fd903-109">Pour tester et signaler la disponibilité fonctionnelle pour l’authentification Kerberos d’un site</span><span class="sxs-lookup"><span data-stu-id="fd903-109">To test and report functional readiness for Kerberos authentication for a site</span></span>
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a><span data-ttu-id="9b07a-109">Pour tester et signaler la disponibilité fonctionnelle pour l’authentification Kerberos d’un site</span><span class="sxs-lookup"><span data-stu-id="9b07a-109">To test and report functional readiness for Kerberos authentication for a site</span></span>
 
-1.  <span data-ttu-id="fd903-110">En tant que membre du groupe RTCUniversalServerAdmins, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur l’ordinateur sur lequel les outils d’administration sont installés.</span><span class="sxs-lookup"><span data-stu-id="fd903-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to the computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="9b07a-110">En tant que membre du groupe RTCUniversalServerAdmins, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur l’ordinateur sur lequel les outils d’administration sont installés.</span><span class="sxs-lookup"><span data-stu-id="9b07a-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to the computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="fd903-111">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="fd903-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="9b07a-111">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="9b07a-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="fd903-112">Depuis la ligne de commande , exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="fd903-112">From the command line, run the following command:</span></span>
+3.  <span data-ttu-id="9b07a-112">Depuis la ligne de commande , exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="9b07a-112">From the command line, run the following command:</span></span>
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     
-    <span data-ttu-id="fd903-113">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="fd903-113">For example:</span></span>
+    <span data-ttu-id="9b07a-113">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="9b07a-113">For example:</span></span>
     
         Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "c:\logs\KerberosReport.htm" -Verbose
 

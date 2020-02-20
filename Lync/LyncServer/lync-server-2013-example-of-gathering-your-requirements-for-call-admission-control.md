@@ -12,20 +12,20 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204339161cf5af83f0d9e393a0a4db981c0e8445
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 64731e324b93cb4baff85f36ad342016d3b68738
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035156"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="a2581-102">Exemple : collecte de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2581-102">Example: Gathering your requirements for call admission control in Lync Server 2013</span></span>
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="90805-102">Exemple : collecte de la configuration requise pour le contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90805-102">Example: Gathering your requirements for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "42035156"
 
 <span> </span>
 
-<span data-ttu-id="a2581-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="a2581-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="90805-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="90805-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="a2581-p101">Cet exemple indique comment planifier et implémenter le contrôle d’admission des appels (CAC). Globalement, il s’agit des activités suivantes :</span><span class="sxs-lookup"><span data-stu-id="a2581-p101">This example shows you how to plan for and implement call admission control (CAC). At a high level, this consists of the following activities:</span></span>
+<span data-ttu-id="90805-p101">Cet exemple indique comment planifier et implémenter le contrôle d’admission des appels (CAC). Globalement, il s’agit des activités suivantes :</span><span class="sxs-lookup"><span data-stu-id="90805-p101">This example shows you how to plan for and implement call admission control (CAC). At a high level, this consists of the following activities:</span></span>
 
-1.  <span data-ttu-id="a2581-106">Identifiez l’ensemble de vos concentrateurs réseau et dorsales principales (connues aussi sous le nom de *régions réseau*).</span><span class="sxs-lookup"><span data-stu-id="a2581-106">Identify all of your network hubs and backbones (known as *network regions*).</span></span>
+1.  <span data-ttu-id="90805-106">Identifiez l’ensemble de vos concentrateurs réseau et dorsales principales (connues aussi sous le nom de *régions réseau*).</span><span class="sxs-lookup"><span data-stu-id="90805-106">Identify all of your network hubs and backbones (known as *network regions*).</span></span>
 
-2.  <span data-ttu-id="a2581-107">Identifiez le site central Lync Server qui doit gérer le contrôle d’admission de la connexion pour chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-107">Identify the Lync Server central site that will manage CAC for each network region.</span></span>
+2.  <span data-ttu-id="90805-107">Identifiez le site central Lync Server qui doit gérer le contrôle d’admission de la connexion pour chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-107">Identify the Lync Server central site that will manage CAC for each network region.</span></span>
 
-3.  <span data-ttu-id="a2581-108">Identifiez et définissez les *sites réseau* connectés à chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-108">Identify and define the *network sites* that are connected to each network region.</span></span>
+3.  <span data-ttu-id="90805-108">Identifiez et définissez les *sites réseau* connectés à chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-108">Identify and define the *network sites* that are connected to each network region.</span></span>
 
-4.  <span data-ttu-id="a2581-109">Pour chaque site réseau dont la connexion au réseau étendu est limitée, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante que l’administrateur réseau a défini pour le trafic multimédia Lync Server, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="a2581-109">For each network site whose connection to the WAN is bandwidth-constrained, describe the bandwidth capacity of the WAN connection and the bandwidth limits that to the network administrator has set for Lync Server media traffic, if applicable.</span></span> <span data-ttu-id="a2581-110">Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.</span><span class="sxs-lookup"><span data-stu-id="a2581-110">You do not need to include sites whose connection to the WAN is not bandwidth-constrained.</span></span>
+4.  <span data-ttu-id="90805-109">Pour chaque site réseau dont la connexion au réseau étendu est limitée, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante que l’administrateur réseau a défini pour le trafic multimédia Lync Server, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="90805-109">For each network site whose connection to the WAN is bandwidth-constrained, describe the bandwidth capacity of the WAN connection and the bandwidth limits that to the network administrator has set for Lync Server media traffic, if applicable.</span></span> <span data-ttu-id="90805-110">Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.</span><span class="sxs-lookup"><span data-stu-id="90805-110">You do not need to include sites whose connection to the WAN is not bandwidth-constrained.</span></span>
 
-5.  <span data-ttu-id="a2581-111">Associez chaque sous-réseau de votre réseau à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-111">Associate each subnet in your network with a network site.</span></span>
+5.  <span data-ttu-id="90805-111">Associez chaque sous-réseau de votre réseau à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-111">Associate each subnet in your network with a network site.</span></span>
 
-6.  <span data-ttu-id="a2581-112">Mappez les liaisons entre régions réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-112">Map the links between the network regions.</span></span> <span data-ttu-id="a2581-113">Pour chaque lien, décrivez sa capacité de bande passante et les limites que l’administrateur réseau a placées sur le trafic multimédia Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2581-113">For each link, describe its bandwidth capacity and any limits that the network administrator has placed on Lync Server media traffic.</span></span>
+6.  <span data-ttu-id="90805-112">Mappez les liaisons entre régions réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-112">Map the links between the network regions.</span></span> <span data-ttu-id="90805-113">Pour chaque lien, décrivez sa capacité de bande passante et les limites que l’administrateur réseau a placées sur le trafic multimédia Lync Server.</span><span class="sxs-lookup"><span data-stu-id="90805-113">For each link, describe its bandwidth capacity and any limits that the network administrator has placed on Lync Server media traffic.</span></span>
 
-7.  <span data-ttu-id="a2581-114">Définissez un itinéraire entre chaque paire de régions réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-114">Define a route between every pair of network regions.</span></span>
+7.  <span data-ttu-id="90805-114">Définissez un itinéraire entre chaque paire de régions réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-114">Define a route between every pair of network regions.</span></span>
 
 <div>
 
-## <a name="gather-the-required-information"></a><span data-ttu-id="a2581-115">Rassembler les informations requises</span><span class="sxs-lookup"><span data-stu-id="a2581-115">Gather the Required Information</span></span>
+## <a name="gather-the-required-information"></a><span data-ttu-id="90805-115">Rassembler les informations requises</span><span class="sxs-lookup"><span data-stu-id="90805-115">Gather the Required Information</span></span>
 
-<span data-ttu-id="a2581-116">Pour préparer le contrôle d’admission des appels, rassemblez les informations présentées dans les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="a2581-116">To prepare for call admission control, gather the information described in the following steps:</span></span>
+<span data-ttu-id="90805-116">Pour préparer le contrôle d’admission des appels, rassemblez les informations présentées dans les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="90805-116">To prepare for call admission control, gather the information described in the following steps:</span></span>
 
-1.  <span data-ttu-id="a2581-p104">Identifiez vos régions réseau. Une région réseau représente une dorsale principale ou un concentrateur réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-p104">Identify your network regions. A network region represents a network backbone or a network hub.</span></span>
+1.  <span data-ttu-id="90805-p104">Identifiez vos régions réseau. Une région réseau représente une dorsale principale ou un concentrateur réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-p104">Identify your network regions. A network region represents a network backbone or a network hub.</span></span>
     
-    <span data-ttu-id="a2581-p105">Une dorsale principale ou un concentrateur réseau fait partie de l’infrastructure réseau informatique qui interconnecte différents éléments du réseau, fournissant ainsi un chemin pour l’échange des informations entre différents réseaux locaux (LAN) ou sous-réseaux. Une dorsale principale peut lier divers réseaux d’un petit emplacement à une zone géographique étendue. La capacité de la dorsale principale est généralement plus grande que celle des réseaux qui s’y connectent.</span><span class="sxs-lookup"><span data-stu-id="a2581-p105">A network backbone or a network hub is a part of computer network infrastructure that interconnects various pieces of network, providing a path for the exchange of information between different LANs or subnets. A backbone can tie together diverse networks, from a small location to a wide geographic area. The backbone's capacity is typically greater than that of the networks connected to it.</span></span>
+    <span data-ttu-id="90805-p105">Une dorsale principale ou un concentrateur réseau fait partie de l’infrastructure réseau informatique qui interconnecte différents éléments du réseau, fournissant ainsi un chemin pour l’échange des informations entre différents réseaux locaux (LAN) ou sous-réseaux. Une dorsale principale peut lier divers réseaux d’un petit emplacement à une zone géographique étendue. La capacité de la dorsale principale est généralement plus grande que celle des réseaux qui s’y connectent.</span><span class="sxs-lookup"><span data-stu-id="90805-p105">A network backbone or a network hub is a part of computer network infrastructure that interconnects various pieces of network, providing a path for the exchange of information between different LANs or subnets. A backbone can tie together diverse networks, from a small location to a wide geographic area. The backbone's capacity is typically greater than that of the networks connected to it.</span></span>
     
-    <span data-ttu-id="a2581-p106">Notre exemple de topologie comporte trois régions réseau : Amérique du Nord, EMEA et APAC. Une région réseau contient une collection de sites réseau. Définissez les régions réseau de votre entreprise avec l’administrateur réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-p106">Our example topology has three network regions: North America, EMEA, and APAC. A network region contains a collection of network sites. Work with your network administrator to define the network regions for your enterprise.</span></span>
+    <span data-ttu-id="90805-p106">Notre exemple de topologie comporte trois régions réseau : Amérique du Nord, EMEA et APAC. Une région réseau contient une collection de sites réseau. Définissez les régions réseau de votre entreprise avec l’administrateur réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-p106">Our example topology has three network regions: North America, EMEA, and APAC. A network region contains a collection of network sites. Work with your network administrator to define the network regions for your enterprise.</span></span>
 
-2.  <span data-ttu-id="a2581-125">Identifiez le site central associé à chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-125">Identify each network region’s associated central site.</span></span> <span data-ttu-id="a2581-126">Un site central contient au moins un serveur frontal et le déploiement Lync Server qui gère le contrôle d’admission des médias pour tout le trafic multimédia transitant par la connexion WAN de la région réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-126">A central site contains at least one Front End Server and is the Lync Server deployment that will manage CAC for all media traffic that passes through the network region’s WAN connection.</span></span>
+2.  <span data-ttu-id="90805-125">Identifiez le site central associé à chaque région réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-125">Identify each network region’s associated central site.</span></span> <span data-ttu-id="90805-126">Un site central contient au moins un serveur frontal et le déploiement Lync Server qui gère le contrôle d’admission des médias pour tout le trafic multimédia transitant par la connexion WAN de la région réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-126">A central site contains at least one Front End Server and is the Lync Server deployment that will manage CAC for all media traffic that passes through the network region’s WAN connection.</span></span>
     
-    <span data-ttu-id="a2581-127">**Exemple de réseau d’entreprise divisé en trois régions réseau**</span><span class="sxs-lookup"><span data-stu-id="a2581-127">**An example enterprise network divided into three network regions**</span></span>
+    <span data-ttu-id="90805-127">**Exemple de réseau d’entreprise divisé en trois régions réseau**</span><span class="sxs-lookup"><span data-stu-id="90805-127">**An example enterprise network divided into three network regions**</span></span>
     
-    <span data-ttu-id="a2581-128">![Exemple de topologie réseau avec 3 régions réseau](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemple de topologie réseau avec 3 régions réseau")</span><span class="sxs-lookup"><span data-stu-id="a2581-128">![Network Topology Example with 3 Network Regions](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Network Topology Example with 3 Network Regions")</span></span>  
+    <span data-ttu-id="90805-128">![Exemple de topologie réseau avec 3 régions réseau](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemple de topologie réseau avec 3 régions réseau")</span><span class="sxs-lookup"><span data-stu-id="90805-128">![Network Topology Example with 3 Network Regions](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Network Topology Example with 3 Network Regions")</span></span>  
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="a2581-129">Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant.</span><span class="sxs-lookup"><span data-stu-id="a2581-129">A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site.</span></span> <span data-ttu-id="a2581-130">Pour plus d’informations, reportez-vous à la rubrique «<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call Admission Control on an MPLS Network with Lync Server 2013</A>» dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="a2581-130">For details, see the “<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call admission control on an MPLS network with Lync Server 2013</A>” topic in the Planning documentation.</span></span>
+    > <span data-ttu-id="90805-129">Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant.</span><span class="sxs-lookup"><span data-stu-id="90805-129">A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site.</span></span> <span data-ttu-id="90805-130">Pour plus d’informations, reportez-vous à la rubrique «<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call Admission Control on an MPLS Network with Lync Server 2013</A>» dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="90805-130">For details, see the “<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call admission control on an MPLS network with Lync Server 2013</A>” topic in the Planning documentation.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="a2581-131">Dans l’exemple de topologie réseau, il existe trois régions réseau, chacune comportant un site central Lync Server qui gère le contrôle d’admission des requêtes.</span><span class="sxs-lookup"><span data-stu-id="a2581-131">In the preceding example network topology, there are three network regions, each with a Lync Server central site that manages CAC.</span></span> <span data-ttu-id="a2581-132">Le site central approprié pour une région réseau est choisi par le voisinage géographique.</span><span class="sxs-lookup"><span data-stu-id="a2581-132">The appropriate central site for a network region is chosen by the geographic vicinity.</span></span> <span data-ttu-id="a2581-133">Étant donné que le trafic multimédia sera le plus lourd dans les régions réseau, la propriété par voisinage géographique le rend autonome et continuera de fonctionner même si d’autres sites centraux deviennent indisponibles.</span><span class="sxs-lookup"><span data-stu-id="a2581-133">Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable.</span></span>
+    <span data-ttu-id="90805-131">Dans l’exemple de topologie réseau, il existe trois régions réseau, chacune comportant un site central Lync Server qui gère le contrôle d’admission des requêtes.</span><span class="sxs-lookup"><span data-stu-id="90805-131">In the preceding example network topology, there are three network regions, each with a Lync Server central site that manages CAC.</span></span> <span data-ttu-id="90805-132">Le site central approprié pour une région réseau est choisi par le voisinage géographique.</span><span class="sxs-lookup"><span data-stu-id="90805-132">The appropriate central site for a network region is chosen by the geographic vicinity.</span></span> <span data-ttu-id="90805-133">Étant donné que le trafic multimédia sera le plus lourd dans les régions réseau, la propriété par voisinage géographique le rend autonome et continuera de fonctionner même si d’autres sites centraux deviennent indisponibles.</span><span class="sxs-lookup"><span data-stu-id="90805-133">Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable.</span></span>
     
-    <span data-ttu-id="a2581-134">Dans cet exemple, un déploiement Lync Server nommé Chicago est le site central de la région Amérique du Nord.</span><span class="sxs-lookup"><span data-stu-id="a2581-134">In this example, a Lync Server deployment named Chicago is the central site for the North America region.</span></span>
+    <span data-ttu-id="90805-134">Dans cet exemple, un déploiement Lync Server nommé Chicago est le site central de la région Amérique du Nord.</span><span class="sxs-lookup"><span data-stu-id="90805-134">In this example, a Lync Server deployment named Chicago is the central site for the North America region.</span></span>
     
-    <span data-ttu-id="a2581-135">Tous les utilisateurs Lync en Amérique du Nord sont hébergés sur des serveurs du déploiement de Chicago.</span><span class="sxs-lookup"><span data-stu-id="a2581-135">All Lync users in North America are homed on servers in the Chicago deployment.</span></span> <span data-ttu-id="a2581-136">Le tableau suivant répertorie les sites centraux pour les trois régions réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-136">The following table shows central sites for all three network regions.</span></span>
+    <span data-ttu-id="90805-135">Tous les utilisateurs Lync en Amérique du Nord sont hébergés sur des serveurs du déploiement de Chicago.</span><span class="sxs-lookup"><span data-stu-id="90805-135">All Lync users in North America are homed on servers in the Chicago deployment.</span></span> <span data-ttu-id="90805-136">Le tableau suivant répertorie les sites centraux pour les trois régions réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-136">The following table shows central sites for all three network regions.</span></span>
     
-    ### <a name="network-regions-and-their-associated-central-sites"></a><span data-ttu-id="a2581-137">Régions réseau et leur site central associé</span><span class="sxs-lookup"><span data-stu-id="a2581-137">Network Regions and their Associated Central Sites</span></span>
+    ### <a name="network-regions-and-their-associated-central-sites"></a><span data-ttu-id="90805-137">Régions réseau et leur site central associé</span><span class="sxs-lookup"><span data-stu-id="90805-137">Network Regions and their Associated Central Sites</span></span>
     
     <table>
     <colgroup>
@@ -95,22 +95,22 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-138">Région réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-138">Network Region</span></span></th>
-    <th><span data-ttu-id="a2581-139">Site central</span><span class="sxs-lookup"><span data-stu-id="a2581-139">Central Site</span></span></th>
+    <th><span data-ttu-id="90805-138">Région réseau</span><span class="sxs-lookup"><span data-stu-id="90805-138">Network Region</span></span></th>
+    <th><span data-ttu-id="90805-139">Site central</span><span class="sxs-lookup"><span data-stu-id="90805-139">Central Site</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-140">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-140">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-141">Renne</span><span class="sxs-lookup"><span data-stu-id="a2581-141">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="90805-140">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-140">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-141">Renne</span><span class="sxs-lookup"><span data-stu-id="90805-141">Chicago</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-142">EMEA</span><span class="sxs-lookup"><span data-stu-id="a2581-142">EMEA</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-143">Londres</span><span class="sxs-lookup"><span data-stu-id="a2581-143">London</span></span></p></td>
+    <td><p><span data-ttu-id="90805-142">EMEA</span><span class="sxs-lookup"><span data-stu-id="90805-142">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="90805-143">Londres</span><span class="sxs-lookup"><span data-stu-id="90805-143">London</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-144">APAC</span><span class="sxs-lookup"><span data-stu-id="a2581-144">APAC</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-145">Pékin</span><span class="sxs-lookup"><span data-stu-id="a2581-145">Beijing</span></span></p></td>
+    <td><p><span data-ttu-id="90805-144">APAC</span><span class="sxs-lookup"><span data-stu-id="90805-144">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="90805-145">Pékin</span><span class="sxs-lookup"><span data-stu-id="90805-145">Beijing</span></span></p></td>
     </tr>
     </tbody>
     </table>
@@ -119,52 +119,16 @@ ms.locfileid: "42035156"
     
 
     > [!NOTE]
-    > <span data-ttu-id="a2581-146">En fonction de votre topologie Lync Server, le même site central peut être affecté à plusieurs régions réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-146">Depending on your Lync Server topology, the same central site can be assigned to multiple network regions.</span></span>
+    > <span data-ttu-id="90805-146">En fonction de votre topologie Lync Server, le même site central peut être affecté à plusieurs régions réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-146">Depending on your Lync Server topology, the same central site can be assigned to multiple network regions.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="a2581-p111">Pour chaque région réseau, identifiez tous les sites réseau (bureaux ou emplacements) dont les connexions au WAN ne sont pas soumises à une limite de bande passante. Comme ces sites disposent de liaisons réseau dont la bande passante n’est pas limitée, il n’est pas nécessaire de leur appliquer des stratégies de bande passante CAC.</span><span class="sxs-lookup"><span data-stu-id="a2581-p111">For each network region, identify all of the network sites (offices or locations) whose WAN connections are not bandwidth-constrained. Because these sites are not bandwidth constrained, you do not need to apply CAC bandwidth policies to them.</span></span>
+3.  <span data-ttu-id="90805-p111">Pour chaque région réseau, identifiez tous les sites réseau (bureaux ou emplacements) dont les connexions au WAN ne sont pas soumises à une limite de bande passante. Comme ces sites disposent de liaisons réseau dont la bande passante n’est pas limitée, il n’est pas nécessaire de leur appliquer des stratégies de bande passante CAC.</span><span class="sxs-lookup"><span data-stu-id="90805-p111">For each network region, identify all of the network sites (offices or locations) whose WAN connections are not bandwidth-constrained. Because these sites are not bandwidth constrained, you do not need to apply CAC bandwidth policies to them.</span></span>
     
-    <span data-ttu-id="a2581-149">Dans l’exemple présenté dans le tableau suivant, trois sites réseau disposent de liaisons réseau dont la bande passante n’est pas limitée : New York, Chicago et Détroit.</span><span class="sxs-lookup"><span data-stu-id="a2581-149">In the example shown in the following table, three network sites do not have bandwidth-constrained WAN links: New York, Chicago, and Detroit.</span></span>
+    <span data-ttu-id="90805-149">Dans l’exemple présenté dans le tableau suivant, trois sites réseau disposent de liaisons réseau dont la bande passante n’est pas limitée : New York, Chicago et Détroit.</span><span class="sxs-lookup"><span data-stu-id="90805-149">In the example shown in the following table, three network sites do not have bandwidth-constrained WAN links: New York, Chicago, and Detroit.</span></span>
     
-    ### <a name="network-sites-not-constrained-by-wan-bandwidth"></a><span data-ttu-id="a2581-150">Sites réseau non limités par la bande passante de la connexion WAN</span><span class="sxs-lookup"><span data-stu-id="a2581-150">Network Sites not Constrained by WAN Bandwidth</span></span>
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><span data-ttu-id="a2581-151">Site réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-151">Network Site</span></span></th>
-    <th><span data-ttu-id="a2581-152">Région réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-152">Network Region</span></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p><span data-ttu-id="a2581-153">New York</span><span class="sxs-lookup"><span data-stu-id="a2581-153">New York</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-154">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-154">North America</span></span></p></td>
-    </tr>
-    <tr class="even">
-    <td><p><span data-ttu-id="a2581-155">Renne</span><span class="sxs-lookup"><span data-stu-id="a2581-155">Chicago</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-156">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-156">North America</span></span></p></td>
-    </tr>
-    <tr class="odd">
-    <td><p><span data-ttu-id="a2581-157">Détroit</span><span class="sxs-lookup"><span data-stu-id="a2581-157">Detroit</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-158">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-158">North America</span></span></p></td>
-    </tr>
-    </tbody>
-    </table>
-
-
-4.  <span data-ttu-id="a2581-159">Pour chaque région réseau, identifiez tous les sites réseau se connectant à la région réseau via des liaisons WAN dont la bande passante est limitée.</span><span class="sxs-lookup"><span data-stu-id="a2581-159">For each network region, identify all of the network sites that connect to the network region through bandwidth-constrained WAN links.</span></span>
-    
-    <span data-ttu-id="a2581-160">Pour garantir la qualité de l’audio et de la vidéo, nous recommandons de surveiller les réseaux WAN des sites dont la bande passante est limitée et d’imposer des stratégies de bande passante CAC limitant le flux multimédia (vocal ou vidéo) depuis et vers la région réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-160">To help ensure audio and video quality, we recommend that these bandwidth-constrained network sites have their WANs monitored and CAC bandwidth policies that limit media (voice or video) traffic flow to and from the network region.</span></span>
-    
-    <span data-ttu-id="a2581-161">Dans l’exemple présenté dans le tableau suivant, trois sites réseaux sont limités par la bande passante du WAN : Portland, Reno et Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="a2581-161">In the example shown in the following table, there are three network sites that are constrained by WAN bandwidth: Portland, Reno and Albuquerque.</span></span>
-    
-    ### <a name="network-sites-constrained-by-wan-bandwidth"></a><span data-ttu-id="a2581-162">Sites réseau limités par la bande passante de la connexion WAN</span><span class="sxs-lookup"><span data-stu-id="a2581-162">Network Sites Constrained by WAN Bandwidth</span></span>
+    ### <a name="network-sites-not-constrained-by-wan-bandwidth"></a><span data-ttu-id="90805-150">Sites réseau non limités par la bande passante de la connexion WAN</span><span class="sxs-lookup"><span data-stu-id="90805-150">Network Sites not Constrained by WAN Bandwidth</span></span>
     
     <table>
     <colgroup>
@@ -173,41 +137,77 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-163">Site réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-163">Network Site</span></span></th>
-    <th><span data-ttu-id="a2581-164">Région réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-164">Network Region</span></span></th>
+    <th><span data-ttu-id="90805-151">Site réseau</span><span class="sxs-lookup"><span data-stu-id="90805-151">Network Site</span></span></th>
+    <th><span data-ttu-id="90805-152">Région réseau</span><span class="sxs-lookup"><span data-stu-id="90805-152">Network Region</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-165">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="a2581-165">Albuquerque</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-166">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-166">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-153">New York</span><span class="sxs-lookup"><span data-stu-id="90805-153">New York</span></span></p></td>
+    <td><p><span data-ttu-id="90805-154">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-154">North America</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-167">Reno</span><span class="sxs-lookup"><span data-stu-id="a2581-167">Reno</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-168">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-168">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-155">Renne</span><span class="sxs-lookup"><span data-stu-id="90805-155">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="90805-156">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-156">North America</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-169">Agence</span><span class="sxs-lookup"><span data-stu-id="a2581-169">Portland</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-170">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-170">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-157">Détroit</span><span class="sxs-lookup"><span data-stu-id="90805-157">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="90805-158">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-158">North America</span></span></p></td>
+    </tr>
+    </tbody>
+    </table>
+
+
+4.  <span data-ttu-id="90805-159">Pour chaque région réseau, identifiez tous les sites réseau se connectant à la région réseau via des liaisons WAN dont la bande passante est limitée.</span><span class="sxs-lookup"><span data-stu-id="90805-159">For each network region, identify all of the network sites that connect to the network region through bandwidth-constrained WAN links.</span></span>
+    
+    <span data-ttu-id="90805-160">Pour garantir la qualité de l’audio et de la vidéo, nous recommandons de surveiller les réseaux WAN des sites dont la bande passante est limitée et d’imposer des stratégies de bande passante CAC limitant le flux multimédia (vocal ou vidéo) depuis et vers la région réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-160">To help ensure audio and video quality, we recommend that these bandwidth-constrained network sites have their WANs monitored and CAC bandwidth policies that limit media (voice or video) traffic flow to and from the network region.</span></span>
+    
+    <span data-ttu-id="90805-161">Dans l’exemple présenté dans le tableau suivant, trois sites réseaux sont limités par la bande passante du WAN : Portland, Reno et Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="90805-161">In the example shown in the following table, there are three network sites that are constrained by WAN bandwidth: Portland, Reno and Albuquerque.</span></span>
+    
+    ### <a name="network-sites-constrained-by-wan-bandwidth"></a><span data-ttu-id="90805-162">Sites réseau limités par la bande passante de la connexion WAN</span><span class="sxs-lookup"><span data-stu-id="90805-162">Network Sites Constrained by WAN Bandwidth</span></span>
+    
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><span data-ttu-id="90805-163">Site réseau</span><span class="sxs-lookup"><span data-stu-id="90805-163">Network Site</span></span></th>
+    <th><span data-ttu-id="90805-164">Région réseau</span><span class="sxs-lookup"><span data-stu-id="90805-164">Network Region</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p><span data-ttu-id="90805-165">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="90805-165">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="90805-166">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-166">North America</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="90805-167">Reno</span><span class="sxs-lookup"><span data-stu-id="90805-167">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="90805-168">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-168">North America</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="90805-169">Agence</span><span class="sxs-lookup"><span data-stu-id="90805-169">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="90805-170">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-170">North America</span></span></p></td>
     </tr>
     </tbody>
     </table>
     
-    <span data-ttu-id="a2581-171">**Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison WAN (Portland, Reno et Albuquerque)**</span><span class="sxs-lookup"><span data-stu-id="a2581-171">**CAC network region North America with three network sites that are unconstrained by bandwidth (Chicago, New York, and Detroit) and three network sites that are constrained by WAN bandwidth (Portland, Reno, and Albuquerque)**</span></span>
+    <span data-ttu-id="90805-171">**Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison WAN (Portland, Reno et Albuquerque)**</span><span class="sxs-lookup"><span data-stu-id="90805-171">**CAC network region North America with three network sites that are unconstrained by bandwidth (Chicago, New York, and Detroit) and three network sites that are constrained by WAN bandwidth (Portland, Reno, and Albuquerque)**</span></span>
     
-    <span data-ttu-id="a2581-172">![Exemples de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemples de sites réseau limités par la bande passante de la connexion WAN")</span><span class="sxs-lookup"><span data-stu-id="a2581-172">![Example network sites constrained by WAN bandwidth](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Example network sites constrained by WAN bandwidth")</span></span>  
+    <span data-ttu-id="90805-172">![Exemples de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemples de sites réseau limités par la bande passante de la connexion WAN")</span><span class="sxs-lookup"><span data-stu-id="90805-172">![Example network sites constrained by WAN bandwidth](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Example network sites constrained by WAN bandwidth")</span></span>  
 
-5.  <span data-ttu-id="a2581-173">Pour chaque liaison WAN dont la bande passante est limitée, déterminez les points suivants :</span><span class="sxs-lookup"><span data-stu-id="a2581-173">For each bandwidth-constrained WAN link, determine the following:</span></span>
+5.  <span data-ttu-id="90805-173">Pour chaque liaison WAN dont la bande passante est limitée, déterminez les points suivants :</span><span class="sxs-lookup"><span data-stu-id="90805-173">For each bandwidth-constrained WAN link, determine the following:</span></span>
     
-      - <span data-ttu-id="a2581-174">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-174">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="a2581-175">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-175">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-174">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-174">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="90805-175">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-175">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p113">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p113">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p113">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p113">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - <span data-ttu-id="a2581-178">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-178">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="a2581-179">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-179">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-178">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-178">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="90805-179">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-179">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p115">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p115">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p115">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p115">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    ### <a name="network-sites-with-wan-bandwidth-constraint-information-bandwidth-in-kbps"></a><span data-ttu-id="a2581-182">Sites réseau et informations de restriction de bande passante WAN (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="a2581-182">Network Sites with WAN Bandwidth Constraint Information (Bandwidth in kbps)</span></span>
+    ### <a name="network-sites-with-wan-bandwidth-constraint-information-bandwidth-in-kbps"></a><span data-ttu-id="90805-182">Sites réseau et informations de restriction de bande passante WAN (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="90805-182">Network Sites with WAN Bandwidth Constraint Information (Bandwidth in kbps)</span></span>
     
     <table style="width:100%;">
     <colgroup>
@@ -221,81 +221,81 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-183">Site réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-183">Network Site</span></span></th>
-    <th><span data-ttu-id="a2581-184">Région réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-184">Network Region</span></span></th>
-    <th><span data-ttu-id="a2581-185">Limite BP</span><span class="sxs-lookup"><span data-stu-id="a2581-185">BW Limit</span></span></th>
-    <th><span data-ttu-id="a2581-186">Limite audio</span><span class="sxs-lookup"><span data-stu-id="a2581-186">Audio Limit</span></span></th>
-    <th><span data-ttu-id="a2581-187">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="a2581-187">Audio Session Limit</span></span></th>
-    <th><span data-ttu-id="a2581-188">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-188">Video Limit</span></span></th>
-    <th><span data-ttu-id="a2581-189">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-189">Video Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-183">Site réseau</span><span class="sxs-lookup"><span data-stu-id="90805-183">Network Site</span></span></th>
+    <th><span data-ttu-id="90805-184">Région réseau</span><span class="sxs-lookup"><span data-stu-id="90805-184">Network Region</span></span></th>
+    <th><span data-ttu-id="90805-185">Limite BP</span><span class="sxs-lookup"><span data-stu-id="90805-185">BW Limit</span></span></th>
+    <th><span data-ttu-id="90805-186">Limite audio</span><span class="sxs-lookup"><span data-stu-id="90805-186">Audio Limit</span></span></th>
+    <th><span data-ttu-id="90805-187">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="90805-187">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-188">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-188">Video Limit</span></span></th>
+    <th><span data-ttu-id="90805-189">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-189">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-190">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="a2581-190">Albuquerque</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-191">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-191">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-192">5,000</span><span class="sxs-lookup"><span data-stu-id="a2581-192">5,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-193">2,000</span><span class="sxs-lookup"><span data-stu-id="a2581-193">2,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-194">175</span><span class="sxs-lookup"><span data-stu-id="a2581-194">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-195">1 400</span><span class="sxs-lookup"><span data-stu-id="a2581-195">1,400</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-196">700</span><span class="sxs-lookup"><span data-stu-id="a2581-196">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-190">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="90805-190">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="90805-191">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-191">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-192">5,000</span><span class="sxs-lookup"><span data-stu-id="90805-192">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-193">2,000</span><span class="sxs-lookup"><span data-stu-id="90805-193">2,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-194">175</span><span class="sxs-lookup"><span data-stu-id="90805-194">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-195">1 400</span><span class="sxs-lookup"><span data-stu-id="90805-195">1,400</span></span></p></td>
+    <td><p><span data-ttu-id="90805-196">700</span><span class="sxs-lookup"><span data-stu-id="90805-196">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-197">Reno</span><span class="sxs-lookup"><span data-stu-id="a2581-197">Reno</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-198">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-198">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-199">10 000</span><span class="sxs-lookup"><span data-stu-id="a2581-199">10,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-200">4 000</span><span class="sxs-lookup"><span data-stu-id="a2581-200">4,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-201">175</span><span class="sxs-lookup"><span data-stu-id="a2581-201">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-202">2 800</span><span class="sxs-lookup"><span data-stu-id="a2581-202">2,800</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-203">700</span><span class="sxs-lookup"><span data-stu-id="a2581-203">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-197">Reno</span><span class="sxs-lookup"><span data-stu-id="90805-197">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="90805-198">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-198">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-199">10 000</span><span class="sxs-lookup"><span data-stu-id="90805-199">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-200">4 000</span><span class="sxs-lookup"><span data-stu-id="90805-200">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-201">175</span><span class="sxs-lookup"><span data-stu-id="90805-201">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-202">2 800</span><span class="sxs-lookup"><span data-stu-id="90805-202">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="90805-203">700</span><span class="sxs-lookup"><span data-stu-id="90805-203">700</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-204">Agence</span><span class="sxs-lookup"><span data-stu-id="a2581-204">Portland</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-205">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-205">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-206">5,000</span><span class="sxs-lookup"><span data-stu-id="a2581-206">5,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-207">4 000</span><span class="sxs-lookup"><span data-stu-id="a2581-207">4,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-208">175</span><span class="sxs-lookup"><span data-stu-id="a2581-208">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-209">2 800</span><span class="sxs-lookup"><span data-stu-id="a2581-209">2,800</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-210">700</span><span class="sxs-lookup"><span data-stu-id="a2581-210">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-204">Agence</span><span class="sxs-lookup"><span data-stu-id="90805-204">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="90805-205">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-205">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-206">5,000</span><span class="sxs-lookup"><span data-stu-id="90805-206">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-207">4 000</span><span class="sxs-lookup"><span data-stu-id="90805-207">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-208">175</span><span class="sxs-lookup"><span data-stu-id="90805-208">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-209">2 800</span><span class="sxs-lookup"><span data-stu-id="90805-209">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="90805-210">700</span><span class="sxs-lookup"><span data-stu-id="90805-210">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-211">New York</span><span class="sxs-lookup"><span data-stu-id="a2581-211">New York</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-212">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-212">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-213">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-213">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-214">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-214">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-215">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-215">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-216">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-216">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-217">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-217">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-211">New York</span><span class="sxs-lookup"><span data-stu-id="90805-211">New York</span></span></p></td>
+    <td><p><span data-ttu-id="90805-212">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-212">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-213">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-213">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-214">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-214">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-215">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-215">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-216">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-216">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-217">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-217">(no limit)</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-218">Renne</span><span class="sxs-lookup"><span data-stu-id="a2581-218">Chicago</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-219">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-219">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-220">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-220">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-221">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-221">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-222">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-222">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-223">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-223">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-224">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-224">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-218">Renne</span><span class="sxs-lookup"><span data-stu-id="90805-218">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="90805-219">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-219">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-220">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-220">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-221">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-221">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-222">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-222">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-223">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-223">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-224">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-224">(no limit)</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-225">Détroit</span><span class="sxs-lookup"><span data-stu-id="a2581-225">Detroit</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-226">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-226">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-227">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-227">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-228">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-228">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-229">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-229">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-230">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-230">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-231">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-231">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-225">Détroit</span><span class="sxs-lookup"><span data-stu-id="90805-225">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="90805-226">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-226">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-227">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-227">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-228">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-228">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-229">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-229">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-230">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-230">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-231">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-231">(no limit)</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-6.  <span data-ttu-id="a2581-232">Pour chaque sous-réseau du réseau, indiquez son site réseau associé.</span><span class="sxs-lookup"><span data-stu-id="a2581-232">For every subnet in your network, specify its associated network site.</span></span>
+6.  <span data-ttu-id="90805-232">Pour chaque sous-réseau du réseau, indiquez son site réseau associé.</span><span class="sxs-lookup"><span data-stu-id="90805-232">For every subnet in your network, specify its associated network site.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="a2581-p116">Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un système d’extrémité doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée.</span><span class="sxs-lookup"><span data-stu-id="a2581-p116">Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated.</span></span><BR><span data-ttu-id="a2581-237">Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé.</span><span class="sxs-lookup"><span data-stu-id="a2581-237">If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed.</span></span> <span data-ttu-id="a2581-238">Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32.</span><span class="sxs-lookup"><span data-stu-id="a2581-238">Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32.</span></span> <span data-ttu-id="a2581-239">Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux.</span><span class="sxs-lookup"><span data-stu-id="a2581-239">For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets.</span></span> <span data-ttu-id="a2581-240">Pour plus d’informations sur les adresses IP publiques, voir <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determine External A/V Firewall and Port Requirements for Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="a2581-240">For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
+    > <span data-ttu-id="90805-p116">Chaque sous-réseau doit être associé à un site réseau, même si le site réseau n’est pas soumis à une limite de bande passante. Cela est dû au fait que le contrôle d’admission des appels utilise les informations relatives aux sous-réseaux pour déterminer sur quel site réseau un système d’extrémité doit se situer. Lorsque les emplacements de chaque partie de la session sont déterminés, le contrôle d’admission des appels peut déterminer si la bande passante est suffisante pour établir l’appel. Lorsqu’une session est établie sur une liaison dont la bande passante n’est pas limitée, une alerte est générée.</span><span class="sxs-lookup"><span data-stu-id="90805-p116">Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated.</span></span><BR><span data-ttu-id="90805-237">Si vous déployez des serveurs Edge A/V, les adresses IP publiques de chaque serveur Edge doivent être associées au site réseau sur lequel le serveur Edge est déployé.</span><span class="sxs-lookup"><span data-stu-id="90805-237">If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed.</span></span> <span data-ttu-id="90805-238">Vous devez ajouter chaque adresse IP publique du serveur Edge A/V à vos paramètres de configuration réseau en tant que sous-réseau avec un masque de sous réseau de 32.</span><span class="sxs-lookup"><span data-stu-id="90805-238">Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32.</span></span> <span data-ttu-id="90805-239">Par exemple, si vous déployez des serveurs Edge A/V à Chicago, pour chaque adresse IP externe de ces serveurs, créez un sous-réseau avec un masque de sous-réseau de 32 et associez le site réseau Chicago à ces sous-réseaux.</span><span class="sxs-lookup"><span data-stu-id="90805-239">For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets.</span></span> <span data-ttu-id="90805-240">Pour plus d’informations sur les adresses IP publiques, voir <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determine External A/V Firewall and Port Requirements for Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="90805-240">For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
     
     </div>
@@ -304,17 +304,17 @@ ms.locfileid: "42035156"
     
 
     > [!NOTE]
-    > <span data-ttu-id="a2581-p118">Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :</span><span class="sxs-lookup"><span data-stu-id="a2581-p118">A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:</span></span><BR><span data-ttu-id="a2581-244"><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (Core)</span><span class="sxs-lookup"><span data-stu-id="a2581-244"><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)</span></span><BR><span data-ttu-id="a2581-245"><STRONG>Numéro d’événement :</STRONG> 36034</span><span class="sxs-lookup"><span data-stu-id="a2581-245"><STRONG>Event number:</STRONG> 36034</span></span><BR><span data-ttu-id="a2581-246"><STRONG>Niveau :</STRONG> 2</span><span class="sxs-lookup"><span data-stu-id="a2581-246"><STRONG>Level:</STRONG> 2</span></span><BR><span data-ttu-id="a2581-247"><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: la liste des&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-247"><STRONG>Description:</STRONG> The subnets for the following IP Addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="a2581-248"><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-248"><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="a2581-249"><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste précédente d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-249"><STRONG>Resolution:</STRONG> Add subnets corresponding to the preceding list of IP addresses into the network configuration settings and associate every subnet to a network site.</span></span><BR><span data-ttu-id="a2581-p119">Par exemple, si la liste d’adresses IP qui apparaît dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :</span><span class="sxs-lookup"><span data-stu-id="a2581-p119">For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:</span></span> 
+    > <span data-ttu-id="90805-p118">Une alerte d’indicateur d’intégrité clé est générée, indiquant une liste d’adresses IP figurant dans votre réseau, mais non associées à un sous-réseau ou figurant dans un sous-réseau non associé à un site réseau. L’alerte n’est générée qu’une seule fois par période de 8 heures. Les informations d’alerte pertinentes et un exemple sont présentés ci-dessous :</span><span class="sxs-lookup"><span data-stu-id="90805-p118">A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:</span></span><BR><span data-ttu-id="90805-244"><STRONG>Source :</STRONG> Service de stratégie de bande passante CS (Core)</span><span class="sxs-lookup"><span data-stu-id="90805-244"><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)</span></span><BR><span data-ttu-id="90805-245"><STRONG>Numéro d’événement :</STRONG> 36034</span><span class="sxs-lookup"><span data-stu-id="90805-245"><STRONG>Event number:</STRONG> 36034</span></span><BR><span data-ttu-id="90805-246"><STRONG>Niveau :</STRONG> 2</span><span class="sxs-lookup"><span data-stu-id="90805-246"><STRONG>Level:</STRONG> 2</span></span><BR><span data-ttu-id="90805-247"><STRONG>Description :</STRONG> Les sous-réseaux pour les adresses IP suivantes &lt;: la liste des&gt; adresses IP n’est pas configurée ou les sous-réseaux ne sont pas associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-247"><STRONG>Description:</STRONG> The subnets for the following IP Addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="90805-248"><STRONG>Cause :</STRONG> Les sous-réseaux pour les adresses IP correspondantes sont absents des paramètres de configuration du réseau ou les sous-réseaux ne sont pas associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-248"><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="90805-249"><STRONG>Résolution :</STRONG> Ajoutez des sous-réseaux correspondant à la liste précédente d’adresses IP dans les paramètres de configuration du réseau et associez chaque sous-réseau à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-249"><STRONG>Resolution:</STRONG> Add subnets corresponding to the preceding list of IP addresses into the network configuration settings and associate every subnet to a network site.</span></span><BR><span data-ttu-id="90805-p119">Par exemple, si la liste d’adresses IP qui apparaît dans l’alerte indique 10.121.248.226 et 10.121.249.20, soit ces adresses IP ne sont pas associées à un sous-réseau, soit le sous-réseau auquel elles sont associées n’appartient pas au site réseau. Si 10.121.248.0/24 et 10.121.249.0/24 sont les sous-réseaux associés à ces adresses, vous pouvez résoudre le problème comme suit :</span><span class="sxs-lookup"><span data-stu-id="90805-p119">For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:</span></span> 
     > <OL>
     > <LI>
-    > <P><span data-ttu-id="a2581-252">Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</span><span class="sxs-lookup"><span data-stu-id="a2581-252">Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.</span></span></P>
+    > <P><span data-ttu-id="90805-252">Vérifiez que l’adresse IP 10.121.248.226 est associée au sous-réseau 10.121.248.0/24 et l’adresse IP 10.121.249.20 au sous-réseau 10.121.249.0/24.</span><span class="sxs-lookup"><span data-stu-id="90805-252">Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.</span></span></P>
     > <LI>
-    > <P><span data-ttu-id="a2581-253">Vérifiez que les sous-réseaux 10.121.248.0/24 et 10.121.249.0/24 sont chacun associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-253">Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.</span></span></P></LI></OL>
+    > <P><span data-ttu-id="90805-253">Vérifiez que les sous-réseaux 10.121.248.0/24 et 10.121.249.0/24 sont chacun associés à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-253">Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.</span></span></P></LI></OL>
 
     
     </div>
     
-    ### <a name="network-sites-and-associated-subnets-bandwidth-in-kbps"></a><span data-ttu-id="a2581-254">Sites réseau et sous-réseaux associés (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="a2581-254">Network Sites and Associated Subnets (Bandwidth in kbps)</span></span>
+    ### <a name="network-sites-and-associated-subnets-bandwidth-in-kbps"></a><span data-ttu-id="90805-254">Sites réseau et sous-réseaux associés (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="90805-254">Network Sites and Associated Subnets (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -329,96 +329,96 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-255">Site réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-255">Network Site</span></span></th>
-    <th><span data-ttu-id="a2581-256">Région réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-256">Network Region</span></span></th>
-    <th><span data-ttu-id="a2581-257">Limite BP</span><span class="sxs-lookup"><span data-stu-id="a2581-257">BW Limit</span></span></th>
-    <th><span data-ttu-id="a2581-258">Limite audio</span><span class="sxs-lookup"><span data-stu-id="a2581-258">Audio Limit</span></span></th>
-    <th><span data-ttu-id="a2581-259">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="a2581-259">Audio Session Limit</span></span></th>
-    <th><span data-ttu-id="a2581-260">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-260">Video Limit</span></span></th>
-    <th><span data-ttu-id="a2581-261">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-261">Video Session Limit</span></span></th>
-    <th><span data-ttu-id="a2581-262">Sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="a2581-262">Subnets</span></span></th>
+    <th><span data-ttu-id="90805-255">Site réseau</span><span class="sxs-lookup"><span data-stu-id="90805-255">Network Site</span></span></th>
+    <th><span data-ttu-id="90805-256">Région réseau</span><span class="sxs-lookup"><span data-stu-id="90805-256">Network Region</span></span></th>
+    <th><span data-ttu-id="90805-257">Limite BP</span><span class="sxs-lookup"><span data-stu-id="90805-257">BW Limit</span></span></th>
+    <th><span data-ttu-id="90805-258">Limite audio</span><span class="sxs-lookup"><span data-stu-id="90805-258">Audio Limit</span></span></th>
+    <th><span data-ttu-id="90805-259">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="90805-259">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-260">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-260">Video Limit</span></span></th>
+    <th><span data-ttu-id="90805-261">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-261">Video Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-262">Sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="90805-262">Subnets</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-263">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="a2581-263">Albuquerque</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-264">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-264">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-265">5,000</span><span class="sxs-lookup"><span data-stu-id="a2581-265">5,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-266">2,000</span><span class="sxs-lookup"><span data-stu-id="a2581-266">2,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-267">175</span><span class="sxs-lookup"><span data-stu-id="a2581-267">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-268">1 400</span><span class="sxs-lookup"><span data-stu-id="a2581-268">1,400</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-269">700</span><span class="sxs-lookup"><span data-stu-id="a2581-269">700</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span><span class="sxs-lookup"><span data-stu-id="a2581-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span></span></p></td>
+    <td><p><span data-ttu-id="90805-263">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="90805-263">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="90805-264">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-264">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-265">5,000</span><span class="sxs-lookup"><span data-stu-id="90805-265">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-266">2,000</span><span class="sxs-lookup"><span data-stu-id="90805-266">2,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-267">175</span><span class="sxs-lookup"><span data-stu-id="90805-267">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-268">1 400</span><span class="sxs-lookup"><span data-stu-id="90805-268">1,400</span></span></p></td>
+    <td><p><span data-ttu-id="90805-269">700</span><span class="sxs-lookup"><span data-stu-id="90805-269">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span><span class="sxs-lookup"><span data-stu-id="90805-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-271">Reno</span><span class="sxs-lookup"><span data-stu-id="a2581-271">Reno</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-272">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-272">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-273">10 000</span><span class="sxs-lookup"><span data-stu-id="a2581-273">10,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-274">4 000</span><span class="sxs-lookup"><span data-stu-id="a2581-274">4,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-275">175</span><span class="sxs-lookup"><span data-stu-id="a2581-275">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-276">2 800</span><span class="sxs-lookup"><span data-stu-id="a2581-276">2,800</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-277">700</span><span class="sxs-lookup"><span data-stu-id="a2581-277">700</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-278">157.57.210.0/23, 172.28.151.128/25</span><span class="sxs-lookup"><span data-stu-id="a2581-278">157.57.210.0/23, 172.28.151.128/25</span></span></p></td>
+    <td><p><span data-ttu-id="90805-271">Reno</span><span class="sxs-lookup"><span data-stu-id="90805-271">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="90805-272">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-272">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-273">10 000</span><span class="sxs-lookup"><span data-stu-id="90805-273">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-274">4 000</span><span class="sxs-lookup"><span data-stu-id="90805-274">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-275">175</span><span class="sxs-lookup"><span data-stu-id="90805-275">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-276">2 800</span><span class="sxs-lookup"><span data-stu-id="90805-276">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="90805-277">700</span><span class="sxs-lookup"><span data-stu-id="90805-277">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-278">157.57.210.0/23, 172.28.151.128/25</span><span class="sxs-lookup"><span data-stu-id="90805-278">157.57.210.0/23, 172.28.151.128/25</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-279">Agence</span><span class="sxs-lookup"><span data-stu-id="a2581-279">Portland</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-280">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-280">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-281">5,000</span><span class="sxs-lookup"><span data-stu-id="a2581-281">5,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-282">4 000</span><span class="sxs-lookup"><span data-stu-id="a2581-282">4,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-283">175</span><span class="sxs-lookup"><span data-stu-id="a2581-283">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-284">2 800</span><span class="sxs-lookup"><span data-stu-id="a2581-284">2,800</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-285">700</span><span class="sxs-lookup"><span data-stu-id="a2581-285">700</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span><span class="sxs-lookup"><span data-stu-id="a2581-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span></span></p></td>
+    <td><p><span data-ttu-id="90805-279">Agence</span><span class="sxs-lookup"><span data-stu-id="90805-279">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="90805-280">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-280">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-281">5,000</span><span class="sxs-lookup"><span data-stu-id="90805-281">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-282">4 000</span><span class="sxs-lookup"><span data-stu-id="90805-282">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-283">175</span><span class="sxs-lookup"><span data-stu-id="90805-283">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-284">2 800</span><span class="sxs-lookup"><span data-stu-id="90805-284">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="90805-285">700</span><span class="sxs-lookup"><span data-stu-id="90805-285">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span><span class="sxs-lookup"><span data-stu-id="90805-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-287">New York</span><span class="sxs-lookup"><span data-stu-id="a2581-287">New York</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-288">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-288">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-289">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-289">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-290">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-290">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-291">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-291">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-292">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-292">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-293">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-293">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span><span class="sxs-lookup"><span data-stu-id="a2581-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span></span></p></td>
+    <td><p><span data-ttu-id="90805-287">New York</span><span class="sxs-lookup"><span data-stu-id="90805-287">New York</span></span></p></td>
+    <td><p><span data-ttu-id="90805-288">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-288">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-289">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-289">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-290">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-290">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-291">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-291">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-292">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-292">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-293">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-293">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span><span class="sxs-lookup"><span data-stu-id="90805-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-295">Renne</span><span class="sxs-lookup"><span data-stu-id="a2581-295">Chicago</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-296">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-296">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-297">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-297">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-298">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-298">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-299">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-299">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-300">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-300">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-301">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-301">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-302">157.57.211.0/23, 172.28.152.128/25</span><span class="sxs-lookup"><span data-stu-id="a2581-302">157.57.211.0/23, 172.28.152.128/25</span></span></p></td>
+    <td><p><span data-ttu-id="90805-295">Renne</span><span class="sxs-lookup"><span data-stu-id="90805-295">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="90805-296">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-296">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-297">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-297">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-298">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-298">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-299">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-299">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-300">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-300">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-301">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-301">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-302">157.57.211.0/23, 172.28.152.128/25</span><span class="sxs-lookup"><span data-stu-id="90805-302">157.57.211.0/23, 172.28.152.128/25</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-303">Détroit</span><span class="sxs-lookup"><span data-stu-id="a2581-303">Detroit</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-304">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-304">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-305">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-305">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-306">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-306">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-307">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-307">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-308">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-308">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-309">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="a2581-309">(no limit)</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span><span class="sxs-lookup"><span data-stu-id="a2581-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span></span></p></td>
+    <td><p><span data-ttu-id="90805-303">Détroit</span><span class="sxs-lookup"><span data-stu-id="90805-303">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="90805-304">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-304">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-305">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-305">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-306">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-306">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-307">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-307">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-308">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-308">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-309">(aucune limite)</span><span class="sxs-lookup"><span data-stu-id="90805-309">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="90805-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span><span class="sxs-lookup"><span data-stu-id="90805-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-7.  <span data-ttu-id="a2581-311">Dans le contrôle d’admission des appels Lync Server, les connexions entre les régions réseau sont appelées *liens de région*.</span><span class="sxs-lookup"><span data-stu-id="a2581-311">In Lync Server call admission control, the connections between network regions are called *region links*.</span></span> <span data-ttu-id="a2581-312">Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :</span><span class="sxs-lookup"><span data-stu-id="a2581-312">For each region link, determine the following, just as you did for the network sites:</span></span>
+7.  <span data-ttu-id="90805-311">Dans le contrôle d’admission des appels Lync Server, les connexions entre les régions réseau sont appelées *liens de région*.</span><span class="sxs-lookup"><span data-stu-id="90805-311">In Lync Server call admission control, the connections between network regions are called *region links*.</span></span> <span data-ttu-id="90805-312">Pour chaque lien de région, déterminez ce qui suit, tout comme vous l’avez fait pour les sites réseau :</span><span class="sxs-lookup"><span data-stu-id="90805-312">For each region link, determine the following, just as you did for the network sites:</span></span>
     
-      - <span data-ttu-id="a2581-313">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-313">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="a2581-314">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-314">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-313">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-313">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="90805-314">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-314">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p122">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p122">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p122">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p122">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - <span data-ttu-id="a2581-317">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-317">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="a2581-318">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-318">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-317">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-317">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="90805-318">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-318">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p124">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p124">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p124">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p124">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    <span data-ttu-id="a2581-321">**Liens de région réseau et limites de bande passante associées**</span><span class="sxs-lookup"><span data-stu-id="a2581-321">**Network Region links with associated bandwidth limits**</span></span>
+    <span data-ttu-id="90805-321">**Liens de région réseau et limites de bande passante associées**</span><span class="sxs-lookup"><span data-stu-id="90805-321">**Network Region links with associated bandwidth limits**</span></span>
     
-    <span data-ttu-id="a2581-322">![Exemple de limitations entre 3 régions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemple de limitations entre 3 régions")</span><span class="sxs-lookup"><span data-stu-id="a2581-322">![Example of Limitations between 3 Regions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Example of Limitations between 3 Regions")</span></span>  
+    <span data-ttu-id="90805-322">![Exemple de limitations entre 3 régions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemple de limitations entre 3 régions")</span><span class="sxs-lookup"><span data-stu-id="90805-322">![Example of Limitations between 3 Regions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Example of Limitations between 3 Regions")</span></span>  
     
-    ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a><span data-ttu-id="a2581-323">Information de bande passante du lien de région (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="a2581-323">Region Link Bandwidth Information (Bandwidth in kbps)</span></span>
+    ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a><span data-ttu-id="90805-323">Information de bande passante du lien de région (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="90805-323">Region Link Bandwidth Information (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -433,53 +433,53 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-324">Nom de la liaison réseau</span><span class="sxs-lookup"><span data-stu-id="a2581-324">Region Link Name</span></span></th>
-    <th><span data-ttu-id="a2581-325">Première région</span><span class="sxs-lookup"><span data-stu-id="a2581-325">First Region</span></span></th>
-    <th><span data-ttu-id="a2581-326">Seconde région</span><span class="sxs-lookup"><span data-stu-id="a2581-326">Second Region</span></span></th>
-    <th><span data-ttu-id="a2581-327">Limite BP</span><span class="sxs-lookup"><span data-stu-id="a2581-327">BW Limit</span></span></th>
-    <th><span data-ttu-id="a2581-328">Limite audio</span><span class="sxs-lookup"><span data-stu-id="a2581-328">Audio Limit</span></span></th>
-    <th><span data-ttu-id="a2581-329">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="a2581-329">Audio Session Limit</span></span></th>
-    <th><span data-ttu-id="a2581-330">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-330">Video Limit</span></span></th>
-    <th><span data-ttu-id="a2581-331">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-331">Video Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-324">Nom de la liaison réseau</span><span class="sxs-lookup"><span data-stu-id="90805-324">Region Link Name</span></span></th>
+    <th><span data-ttu-id="90805-325">Première région</span><span class="sxs-lookup"><span data-stu-id="90805-325">First Region</span></span></th>
+    <th><span data-ttu-id="90805-326">Seconde région</span><span class="sxs-lookup"><span data-stu-id="90805-326">Second Region</span></span></th>
+    <th><span data-ttu-id="90805-327">Limite BP</span><span class="sxs-lookup"><span data-stu-id="90805-327">BW Limit</span></span></th>
+    <th><span data-ttu-id="90805-328">Limite audio</span><span class="sxs-lookup"><span data-stu-id="90805-328">Audio Limit</span></span></th>
+    <th><span data-ttu-id="90805-329">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="90805-329">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-330">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-330">Video Limit</span></span></th>
+    <th><span data-ttu-id="90805-331">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-331">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-332">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="a2581-332">NA-EMEA-LINK</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-333">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-333">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-334">EMEA</span><span class="sxs-lookup"><span data-stu-id="a2581-334">EMEA</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-335">50 000</span><span class="sxs-lookup"><span data-stu-id="a2581-335">50,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-336">20,000</span><span class="sxs-lookup"><span data-stu-id="a2581-336">20,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-337">175</span><span class="sxs-lookup"><span data-stu-id="a2581-337">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-338">14 000</span><span class="sxs-lookup"><span data-stu-id="a2581-338">14,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-339">700</span><span class="sxs-lookup"><span data-stu-id="a2581-339">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-332">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="90805-332">NA-EMEA-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="90805-333">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-333">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-334">EMEA</span><span class="sxs-lookup"><span data-stu-id="90805-334">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="90805-335">50 000</span><span class="sxs-lookup"><span data-stu-id="90805-335">50,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-336">20,000</span><span class="sxs-lookup"><span data-stu-id="90805-336">20,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-337">175</span><span class="sxs-lookup"><span data-stu-id="90805-337">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-338">14 000</span><span class="sxs-lookup"><span data-stu-id="90805-338">14,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-339">700</span><span class="sxs-lookup"><span data-stu-id="90805-339">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-340">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="a2581-340">EMEA-APAC-LINK</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-341">EMEA</span><span class="sxs-lookup"><span data-stu-id="a2581-341">EMEA</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-342">APAC</span><span class="sxs-lookup"><span data-stu-id="a2581-342">APAC</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-343">25 000</span><span class="sxs-lookup"><span data-stu-id="a2581-343">25,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-344">10 000</span><span class="sxs-lookup"><span data-stu-id="a2581-344">10,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-345">175</span><span class="sxs-lookup"><span data-stu-id="a2581-345">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-346">7 000</span><span class="sxs-lookup"><span data-stu-id="a2581-346">7,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-347">700</span><span class="sxs-lookup"><span data-stu-id="a2581-347">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-340">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="90805-340">EMEA-APAC-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="90805-341">EMEA</span><span class="sxs-lookup"><span data-stu-id="90805-341">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="90805-342">APAC</span><span class="sxs-lookup"><span data-stu-id="90805-342">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="90805-343">25 000</span><span class="sxs-lookup"><span data-stu-id="90805-343">25,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-344">10 000</span><span class="sxs-lookup"><span data-stu-id="90805-344">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-345">175</span><span class="sxs-lookup"><span data-stu-id="90805-345">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-346">7 000</span><span class="sxs-lookup"><span data-stu-id="90805-346">7,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-347">700</span><span class="sxs-lookup"><span data-stu-id="90805-347">700</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-8.  <span data-ttu-id="a2581-348">Définissez un itinéraire entre chaque paire de régions réseau.</span><span class="sxs-lookup"><span data-stu-id="a2581-348">Define a route between every pair of network regions.</span></span>
+8.  <span data-ttu-id="90805-348">Définissez un itinéraire entre chaque paire de régions réseau.</span><span class="sxs-lookup"><span data-stu-id="90805-348">Define a route between every pair of network regions.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="a2581-349">Deux liaisons sont nécessaires à l’itinéraire entre les régions Amérique du Nord et APAC, car aucun lien de région ne les relie directement.</span><span class="sxs-lookup"><span data-stu-id="a2581-349">Two links are required for the route between the North America and APAC regions because there is no region link that directly connects them.</span></span>
+    > <span data-ttu-id="90805-349">Deux liaisons sont nécessaires à l’itinéraire entre les régions Amérique du Nord et APAC, car aucun lien de région ne les relie directement.</span><span class="sxs-lookup"><span data-stu-id="90805-349">Two links are required for the route between the North America and APAC regions because there is no region link that directly connects them.</span></span>
 
     
     </div>
     
-    ### <a name="region-routes"></a><span data-ttu-id="a2581-350">Itinéraires de région</span><span class="sxs-lookup"><span data-stu-id="a2581-350">Region Routes</span></span>
+    ### <a name="region-routes"></a><span data-ttu-id="90805-350">Itinéraires de région</span><span class="sxs-lookup"><span data-stu-id="90805-350">Region Routes</span></span>
     
     <table>
     <colgroup>
@@ -490,50 +490,50 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-351">Nom de l’itinéraire</span><span class="sxs-lookup"><span data-stu-id="a2581-351">Region Route Name</span></span></th>
-    <th><span data-ttu-id="a2581-352">Première région</span><span class="sxs-lookup"><span data-stu-id="a2581-352">First Region</span></span></th>
-    <th><span data-ttu-id="a2581-353">Seconde région</span><span class="sxs-lookup"><span data-stu-id="a2581-353">Second Region</span></span></th>
-    <th><span data-ttu-id="a2581-354">Liens de région</span><span class="sxs-lookup"><span data-stu-id="a2581-354">Region Links</span></span></th>
+    <th><span data-ttu-id="90805-351">Nom de l’itinéraire</span><span class="sxs-lookup"><span data-stu-id="90805-351">Region Route Name</span></span></th>
+    <th><span data-ttu-id="90805-352">Première région</span><span class="sxs-lookup"><span data-stu-id="90805-352">First Region</span></span></th>
+    <th><span data-ttu-id="90805-353">Seconde région</span><span class="sxs-lookup"><span data-stu-id="90805-353">Second Region</span></span></th>
+    <th><span data-ttu-id="90805-354">Liens de région</span><span class="sxs-lookup"><span data-stu-id="90805-354">Region Links</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-355">NA-EMEA-ROUTE</span><span class="sxs-lookup"><span data-stu-id="a2581-355">NA-EMEA-ROUTE</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-356">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-356">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-357">EMEA</span><span class="sxs-lookup"><span data-stu-id="a2581-357">EMEA</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-358">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="a2581-358">NA-EMEA-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="90805-355">NA-EMEA-ROUTE</span><span class="sxs-lookup"><span data-stu-id="90805-355">NA-EMEA-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="90805-356">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-356">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-357">EMEA</span><span class="sxs-lookup"><span data-stu-id="90805-357">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="90805-358">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="90805-358">NA-EMEA-LINK</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a2581-359">EMEA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="a2581-359">EMEA-APAC-ROUTE</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-360">EMEA</span><span class="sxs-lookup"><span data-stu-id="a2581-360">EMEA</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-361">APAC</span><span class="sxs-lookup"><span data-stu-id="a2581-361">APAC</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-362">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="a2581-362">EMEA-APAC-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="90805-359">EMEA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="90805-359">EMEA-APAC-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="90805-360">EMEA</span><span class="sxs-lookup"><span data-stu-id="90805-360">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="90805-361">APAC</span><span class="sxs-lookup"><span data-stu-id="90805-361">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="90805-362">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="90805-362">EMEA-APAC-LINK</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-363">NA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="a2581-363">NA-APAC-ROUTE</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-364">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="a2581-364">North America</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-365">APAC</span><span class="sxs-lookup"><span data-stu-id="a2581-365">APAC</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-366">NA-EMEA-LINK, EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="a2581-366">NA-EMEA-LINK, EMEA-APAC-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="90805-363">NA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="90805-363">NA-APAC-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="90805-364">Amérique du Nord</span><span class="sxs-lookup"><span data-stu-id="90805-364">North America</span></span></p></td>
+    <td><p><span data-ttu-id="90805-365">APAC</span><span class="sxs-lookup"><span data-stu-id="90805-365">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="90805-366">NA-EMEA-LINK, EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="90805-366">NA-EMEA-LINK, EMEA-APAC-LINK</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-9.  <span data-ttu-id="a2581-367">Pour chaque paire de sites réseau directement connectée à une seule liaison (appelée liaison *intersite*), déterminez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="a2581-367">For every pair of network sites that are directly connected by a single link (called an *inter-site* link), determine the following:</span></span>
+9.  <span data-ttu-id="90805-367">Pour chaque paire de sites réseau directement connectée à une seule liaison (appelée liaison *intersite*), déterminez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="90805-367">For every pair of network sites that are directly connected by a single link (called an *inter-site* link), determine the following:</span></span>
     
-      - <span data-ttu-id="a2581-368">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-368">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="a2581-369">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-369">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-368">Limite de bande passante globale à appliquer à toutes les sessions audio simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-368">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="90805-369">Si une nouvelle session audio entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-369">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p126">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p126">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p126">Limite de bande passante à appliquer à chaque session audio individuelle. La bande passante CAC par défaut est de 175 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p126">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - <span data-ttu-id="a2581-372">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="a2581-372">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="a2581-373">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="a2581-373">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
+      - <span data-ttu-id="90805-372">Limite de bande passante globale à appliquer à toutes les sessions vidéo simultanées.</span><span class="sxs-lookup"><span data-stu-id="90805-372">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="90805-373">Si une nouvelle session vidéo entraîne le dépassement de cette limite, Lync Server n’autorise pas le démarrage de la session.</span><span class="sxs-lookup"><span data-stu-id="90805-373">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - <span data-ttu-id="a2581-p128">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="a2581-p128">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
+      - <span data-ttu-id="90805-p128">Limite de bande passante à appliquer à chaque session vidéo individuelle. La bande passante CAC par défaut est de 700 Kbits/s, mais elle est modifiable par l’administrateur.</span><span class="sxs-lookup"><span data-stu-id="90805-p128">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    <span data-ttu-id="a2581-376">**Région réseau CAC Amérique du Nord avec les capacités et les limites de bande passante de la liaison intersite entre Reno et Albuquerque**</span><span class="sxs-lookup"><span data-stu-id="a2581-376">**CAC network region North America showing the bandwidth capacities and bandwidth limits for the inter-site link between Reno and Albuquerque**</span></span>
+    <span data-ttu-id="90805-376">**Région réseau CAC Amérique du Nord avec les capacités et les limites de bande passante de la liaison intersite entre Reno et Albuquerque**</span><span class="sxs-lookup"><span data-stu-id="90805-376">**CAC network region North America showing the bandwidth capacities and bandwidth limits for the inter-site link between Reno and Albuquerque**</span></span>
     
-    <span data-ttu-id="a2581-377">![Exemples de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Exemples de sites réseau limités par la bande passante de la connexion WAN")</span><span class="sxs-lookup"><span data-stu-id="a2581-377">![Network Sites Constrained by WAN Bandwidth example](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Network Sites Constrained by WAN Bandwidth example")</span></span>  
+    <span data-ttu-id="90805-377">![Exemples de sites réseau limités par la bande passante de la connexion WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Exemples de sites réseau limités par la bande passante de la connexion WAN")</span><span class="sxs-lookup"><span data-stu-id="90805-377">![Network Sites Constrained by WAN Bandwidth example](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Network Sites Constrained by WAN Bandwidth example")</span></span>  
     
-    ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a><span data-ttu-id="a2581-378">Information de bande passante d’une liaison intersite entre deux sites réseau (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="a2581-378">Bandwidth Information for an Inter-Site Link between Two Network Sites (Bandwidth in kbps)</span></span>
+    ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a><span data-ttu-id="90805-378">Information de bande passante d’une liaison intersite entre deux sites réseau (bande passante en Kbits/s)</span><span class="sxs-lookup"><span data-stu-id="90805-378">Bandwidth Information for an Inter-Site Link between Two Network Sites (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -548,26 +548,26 @@ ms.locfileid: "42035156"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a2581-379">Nom de la liaison intersite</span><span class="sxs-lookup"><span data-stu-id="a2581-379">Inter-Site Link Name</span></span></th>
-    <th><span data-ttu-id="a2581-380">Premier site</span><span class="sxs-lookup"><span data-stu-id="a2581-380">First Site</span></span></th>
-    <th><span data-ttu-id="a2581-381">Second site</span><span class="sxs-lookup"><span data-stu-id="a2581-381">Second Site</span></span></th>
-    <th><span data-ttu-id="a2581-382">Limite BP</span><span class="sxs-lookup"><span data-stu-id="a2581-382">BW Limit</span></span></th>
-    <th><span data-ttu-id="a2581-383">Limite audio</span><span class="sxs-lookup"><span data-stu-id="a2581-383">Audio Limit</span></span></th>
-    <th><span data-ttu-id="a2581-384">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="a2581-384">Audio Session Limit</span></span></th>
-    <th><span data-ttu-id="a2581-385">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-385">Video Limit</span></span></th>
-    <th><span data-ttu-id="a2581-386">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="a2581-386">Video Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-379">Nom de la liaison intersite</span><span class="sxs-lookup"><span data-stu-id="90805-379">Inter-Site Link Name</span></span></th>
+    <th><span data-ttu-id="90805-380">Premier site</span><span class="sxs-lookup"><span data-stu-id="90805-380">First Site</span></span></th>
+    <th><span data-ttu-id="90805-381">Second site</span><span class="sxs-lookup"><span data-stu-id="90805-381">Second Site</span></span></th>
+    <th><span data-ttu-id="90805-382">Limite BP</span><span class="sxs-lookup"><span data-stu-id="90805-382">BW Limit</span></span></th>
+    <th><span data-ttu-id="90805-383">Limite audio</span><span class="sxs-lookup"><span data-stu-id="90805-383">Audio Limit</span></span></th>
+    <th><span data-ttu-id="90805-384">Limite de session audio</span><span class="sxs-lookup"><span data-stu-id="90805-384">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="90805-385">Limite vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-385">Video Limit</span></span></th>
+    <th><span data-ttu-id="90805-386">Limite de session vidéo</span><span class="sxs-lookup"><span data-stu-id="90805-386">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a2581-387">Reno-Albu-lien intersites</span><span class="sxs-lookup"><span data-stu-id="a2581-387">Reno-Albu-Intersite-Link</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-388">Reno</span><span class="sxs-lookup"><span data-stu-id="a2581-388">Reno</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-389">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="a2581-389">Albuquerque</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-390">20,000</span><span class="sxs-lookup"><span data-stu-id="a2581-390">20,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-391">12 000</span><span class="sxs-lookup"><span data-stu-id="a2581-391">12,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-392">175</span><span class="sxs-lookup"><span data-stu-id="a2581-392">175</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-393">5,000</span><span class="sxs-lookup"><span data-stu-id="a2581-393">5,000</span></span></p></td>
-    <td><p><span data-ttu-id="a2581-394">700</span><span class="sxs-lookup"><span data-stu-id="a2581-394">700</span></span></p></td>
+    <td><p><span data-ttu-id="90805-387">Reno-Albu-lien intersites</span><span class="sxs-lookup"><span data-stu-id="90805-387">Reno-Albu-Intersite-Link</span></span></p></td>
+    <td><p><span data-ttu-id="90805-388">Reno</span><span class="sxs-lookup"><span data-stu-id="90805-388">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="90805-389">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="90805-389">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="90805-390">20,000</span><span class="sxs-lookup"><span data-stu-id="90805-390">20,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-391">12 000</span><span class="sxs-lookup"><span data-stu-id="90805-391">12,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-392">175</span><span class="sxs-lookup"><span data-stu-id="90805-392">175</span></span></p></td>
+    <td><p><span data-ttu-id="90805-393">5,000</span><span class="sxs-lookup"><span data-stu-id="90805-393">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="90805-394">700</span><span class="sxs-lookup"><span data-stu-id="90805-394">700</span></span></p></td>
     </tr>
     </tbody>
     </table>
@@ -575,15 +575,15 @@ ms.locfileid: "42035156"
 
 <div>
 
-## <a name="next-steps"></a><span data-ttu-id="a2581-395">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="a2581-395">Next Steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="90805-395">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="90805-395">Next Steps</span></span>
 
-<span data-ttu-id="a2581-396">Une fois que vous avez rassemblé les informations requises, vous pouvez effectuer un déploiement CAC à l’aide du panneau de configuration Lync Server Management Shell ou Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2581-396">After you have gathered the required information, you can perform CAC deployment either by using the Lync Server Management Shell or Lync Server Control Panel.</span></span>
+<span data-ttu-id="90805-396">Une fois que vous avez rassemblé les informations requises, vous pouvez effectuer un déploiement CAC à l’aide du panneau de configuration Lync Server Management Shell ou Lync Server.</span><span class="sxs-lookup"><span data-stu-id="90805-396">After you have gathered the required information, you can perform CAC deployment either by using the Lync Server Management Shell or Lync Server Control Panel.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="a2581-397">Bien que vous puissiez effectuer la plupart des tâches de configuration réseau à l’aide du panneau de configuration Lync Server, pour créer des sous-réseaux et des liaisons intersites, vous devez utiliser Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="a2581-397">Although you can perform most network configuration tasks by using Lync Server Control Panel, to create subnets and intersite links, you must use Lync Server Management Shell.</span></span> <span data-ttu-id="a2581-398">Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell pour la cmdlet <STRONG>New-CsNetworkSubnet</STRONG> et la cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="a2581-398">For details, see the Lync Server Management Shell documentation for the <STRONG>New-CsNetworkSubnet</STRONG> cmdlet and the <STRONG>New-CsNetworkIntersitePolicy</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="90805-397">Bien que vous puissiez effectuer la plupart des tâches de configuration réseau à l’aide du panneau de configuration Lync Server, pour créer des sous-réseaux et des liaisons intersites, vous devez utiliser Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="90805-397">Although you can perform most network configuration tasks by using Lync Server Control Panel, to create subnets and intersite links, you must use Lync Server Management Shell.</span></span> <span data-ttu-id="90805-398">Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell pour la cmdlet <STRONG>New-CsNetworkSubnet</STRONG> et la cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="90805-398">For details, see the Lync Server Management Shell documentation for the <STRONG>New-CsNetworkSubnet</STRONG> cmdlet and the <STRONG>New-CsNetworkIntersitePolicy</STRONG> cmdlet.</span></span>
 
 
 

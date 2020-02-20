@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e721131ef7a7d649a270080cb18f01017e950ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037604"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="a9907-102">Configuration des serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-102">Setting up Edge Servers in Lync Server 2013</span></span>
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="39044-102">Configuration des serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-102">Setting up Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42037604"
 
 <span> </span>
 
-<span data-ttu-id="a9907-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a9907-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="39044-103">_**Dernière modification de la rubrique :** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="39044-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="a9907-104">Les tâches principales requises pour configurer les serveurs Edge sont les mêmes que pour installer un serveur Edge sur un pool avec charge équilibrée de serveurs Edge. En revanche, un pool de serveurs Edge avec charge matérielle équilibrée nécessite le déploiement de programmes d’équilibrage de charge et des tâches supplémentaires pour répliquer la configuration sur plusieurs serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="a9907-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
+<span data-ttu-id="39044-104">Les tâches principales requises pour configurer les serveurs Edge sont les mêmes que pour installer un serveur Edge sur un pool avec charge équilibrée de serveurs Edge. En revanche, un pool de serveurs Edge avec charge matérielle équilibrée nécessite le déploiement de programmes d’équilibrage de charge et des tâches supplémentaires pour répliquer la configuration sur plusieurs serveurs Edge.</span><span class="sxs-lookup"><span data-stu-id="39044-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a9907-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a9907-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="39044-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="39044-105">In This Section</span></span>
 
-  - [<span data-ttu-id="a9907-106">Configuration des interfaces réseau pour les serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [<span data-ttu-id="39044-106">Configuration des interfaces réseau pour les serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [<span data-ttu-id="a9907-107">Installer les logiciels prérequis sur les serveurs Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [<span data-ttu-id="39044-107">Installer les logiciels prérequis sur les serveurs Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [<span data-ttu-id="a9907-108">Exportation de votre topologie Lync Server 2013 et copie vers le support externe pour l’installation Edge</span><span class="sxs-lookup"><span data-stu-id="a9907-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [<span data-ttu-id="39044-108">Exportation de votre topologie Lync Server 2013 et copie vers le support externe pour l’installation Edge</span><span class="sxs-lookup"><span data-stu-id="39044-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [<span data-ttu-id="a9907-109">Installer des serveurs Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
+  - [<span data-ttu-id="39044-109">Installer des serveurs Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
 
-  - [<span data-ttu-id="a9907-110">Configurer des certificats de serveur Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
+  - [<span data-ttu-id="39044-110">Configurer des certificats de serveur Edge pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
 
-  - [<span data-ttu-id="a9907-111">Démarrer des serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
+  - [<span data-ttu-id="39044-111">Démarrer des serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
 
-  - [<span data-ttu-id="a9907-112">Configuration des serveurs proxy inverses pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9907-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="39044-112">Configuration des serveurs proxy inverses pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39044-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 
