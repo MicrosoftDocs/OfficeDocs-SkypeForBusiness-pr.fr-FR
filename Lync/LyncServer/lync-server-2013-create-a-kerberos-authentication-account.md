@@ -12,20 +12,20 @@ ms:contentKeyID: 48184348
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e59703328fad7c8763bc1a6cc018c2cbc585c3ed
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a36c2408569fb667871cec534bc6e8e80dc5efcd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035086"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-kerberos-authentication-account-in-lync-server-2013"></a><span data-ttu-id="75bcf-102">Créer un compte d’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75bcf-102">Create a Kerberos authentication account in Lync Server 2013</span></span>
+# <a name="create-a-kerberos-authentication-account-in-lync-server-2013"></a><span data-ttu-id="a4a72-102">Créer un compte d’authentification Kerberos dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4a72-102">Create a Kerberos authentication account in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42035086"
 
 <span> </span>
 
-<span data-ttu-id="75bcf-103">_**Dernière modification de la rubrique :** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="75bcf-103">_**Topic Last Modified:** 2012-01-02_</span></span>
+<span data-ttu-id="a4a72-103">_**Dernière modification de la rubrique :** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="a4a72-103">_**Topic Last Modified:** 2012-01-02_</span></span>
 
-<span data-ttu-id="75bcf-104">Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Admins du domaine.</span><span class="sxs-lookup"><span data-stu-id="75bcf-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group.</span></span>
+<span data-ttu-id="a4a72-104">Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Admins du domaine.</span><span class="sxs-lookup"><span data-stu-id="a4a72-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group.</span></span>
 
-<span data-ttu-id="75bcf-105">Vous pouvez créer des comptes d’authentification Kerberos pour chaque site, ou vous pouvez créer un seul compte d’authentification Kerberos et l’utiliser pour tous les sites.</span><span class="sxs-lookup"><span data-stu-id="75bcf-105">You can create Kerberos authentication accounts for each site or you can create a single Kerberos authentication account and use it for all sites.</span></span> <span data-ttu-id="75bcf-106">Vous utilisez les applets de commande Windows PowerShell pour créer et gérer les comptes, y compris l’identification des comptes affectés à chaque site.</span><span class="sxs-lookup"><span data-stu-id="75bcf-106">You use Windows PowerShell cmdlets to create and manage the accounts, including identifying the accounts assigned to each site.</span></span> <span data-ttu-id="75bcf-107">Le générateur de topologie et le panneau de configuration Lync Server 2013 n’affichent pas les comptes d’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="75bcf-107">Topology Builder and the Lync Server 2013 Control Panel do not display Kerberos authentication accounts.</span></span> <span data-ttu-id="75bcf-108">Suivez la procédure ci-après pour créer un ou plusieurs comptes d’utilisateur pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="75bcf-108">Use the following procedure to create one or more user accounts to be used for Kerberos authentication.</span></span>
+<span data-ttu-id="a4a72-105">Vous pouvez créer des comptes d’authentification Kerberos pour chaque site, ou vous pouvez créer un seul compte d’authentification Kerberos et l’utiliser pour tous les sites.</span><span class="sxs-lookup"><span data-stu-id="a4a72-105">You can create Kerberos authentication accounts for each site or you can create a single Kerberos authentication account and use it for all sites.</span></span> <span data-ttu-id="a4a72-106">Vous utilisez les applets de commande Windows PowerShell pour créer et gérer les comptes, y compris l’identification des comptes affectés à chaque site.</span><span class="sxs-lookup"><span data-stu-id="a4a72-106">You use Windows PowerShell cmdlets to create and manage the accounts, including identifying the accounts assigned to each site.</span></span> <span data-ttu-id="a4a72-107">Le générateur de topologie et le panneau de configuration Lync Server 2013 n’affichent pas les comptes d’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="a4a72-107">Topology Builder and the Lync Server 2013 Control Panel do not display Kerberos authentication accounts.</span></span> <span data-ttu-id="a4a72-108">Suivez la procédure ci-après pour créer un ou plusieurs comptes d’utilisateur pour l’authentification Kerberos.</span><span class="sxs-lookup"><span data-stu-id="a4a72-108">Use the following procedure to create one or more user accounts to be used for Kerberos authentication.</span></span>
 
 <div>
 
-## <a name="to-create-a-kerberos-account"></a><span data-ttu-id="75bcf-109">Pour créer un compte Kerberos</span><span class="sxs-lookup"><span data-stu-id="75bcf-109">To create a Kerberos account</span></span>
+## <a name="to-create-a-kerberos-account"></a><span data-ttu-id="a4a72-109">Pour créer un compte Kerberos</span><span class="sxs-lookup"><span data-stu-id="a4a72-109">To create a Kerberos account</span></span>
 
-1.  <span data-ttu-id="75bcf-110">En tant que membre du groupe administrateurs du domaine, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.</span><span class="sxs-lookup"><span data-stu-id="75bcf-110">As a member of the Domain Admins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="a4a72-110">En tant que membre du groupe administrateurs du domaine, ouvrez une session sur un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.</span><span class="sxs-lookup"><span data-stu-id="a4a72-110">As a member of the Domain Admins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="75bcf-111">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="75bcf-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="a4a72-111">Démarrez Lync Server Management Shell : cliquez sur \*\*Démarrer \*\*, \*\*Tous les programmes \*\*, \*\*Microsoft Lync Server 2013 \*\*, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="a4a72-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="75bcf-112">Depuis la ligne de commande , exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="75bcf-112">From the command line, run the following command:</span></span>
+3.  <span data-ttu-id="a4a72-112">Depuis la ligne de commande , exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="a4a72-112">From the command line, run the following command:</span></span>
     
         New-CsKerberosAccount -UserAccount "Domain\UserAccount" -ContainerDN "CN=Users,DC=DomainName,DC=DomainExtension"
     
-    <span data-ttu-id="75bcf-113">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="75bcf-113">For example:</span></span>
+    <span data-ttu-id="a4a72-113">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="a4a72-113">For example:</span></span>
     
         New-CsKerberosAccount -UserAccount "Contoso\KerbAuth" -ContainerDN "CN=Users,DC=contoso,DC=com"
 
-4.  <span data-ttu-id="75bcf-114">Vérifiez que l’objet Ordinateur a été créé en ouvrant Utilisateurs et ordinateurs Active Directory, développez le conteneur **Utilisateurs**, puis vérifiez que l’objet Ordinateur du compte d’utilisateur se trouve dans le conteneur.</span><span class="sxs-lookup"><span data-stu-id="75bcf-114">Confirm that the Computer object was created by opening Active Directory User and Computers, expand the **Users** container, and then confirm that the Computer object for the user account is in the container.</span></span>
+4.  <span data-ttu-id="a4a72-114">Vérifiez que l’objet Ordinateur a été créé en ouvrant Utilisateurs et ordinateurs Active Directory, développez le conteneur **Utilisateurs**, puis vérifiez que l’objet Ordinateur du compte d’utilisateur se trouve dans le conteneur.</span><span class="sxs-lookup"><span data-stu-id="a4a72-114">Confirm that the Computer object was created by opening Active Directory User and Computers, expand the **Users** container, and then confirm that the Computer object for the user account is in the container.</span></span>
 
 </div>
 

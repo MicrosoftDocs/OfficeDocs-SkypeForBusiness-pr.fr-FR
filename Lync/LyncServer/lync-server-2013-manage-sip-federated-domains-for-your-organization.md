@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b4245c710502dd2b175be3cb07c79b6a983e311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028435"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="2a4b7-102">Gérer les domaines fédérés SIP pour votre organisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-102">Manage SIP federated domains for your organization in Lync Server 2013</span></span>
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="bef2b-102">Gérer les domaines fédérés SIP pour votre organisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-102">Manage SIP federated domains for your organization in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42028435"
 
 <span> </span>
 
-<span data-ttu-id="2a4b7-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2a4b7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="bef2b-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="bef2b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="2a4b7-104">Cette documentation est préliminaire et sujette à modification.</span><span class="sxs-lookup"><span data-stu-id="2a4b7-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="2a4b7-105">Des rubriques vides sont incluses comme espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="2a4b7-105">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="bef2b-104">Cette documentation est préliminaire et sujette à modification.</span><span class="sxs-lookup"><span data-stu-id="bef2b-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="bef2b-105">Des rubriques vides sont incluses comme espaces réservés.</span><span class="sxs-lookup"><span data-stu-id="bef2b-105">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="2a4b7-106">Pour gérer et configurer des domaines SIP avec lesquels vous pouvez vous fédérer, vous pouvez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="2a4b7-106">To manage and configure SIP domains that you can federate with, you can do the following:</span></span>
+<span data-ttu-id="bef2b-106">Pour gérer et configurer des domaines SIP avec lesquels vous pouvez vous fédérer, vous pouvez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="bef2b-106">To manage and configure SIP domains that you can federate with, you can do the following:</span></span>
 
-  - <span data-ttu-id="2a4b7-107">créer ou modifier une liste de domaines partenaires fédérés SIP autorisés ;</span><span class="sxs-lookup"><span data-stu-id="2a4b7-107">Create or edit an allowed domain list of SIP federated partner domains.</span></span>
+  - <span data-ttu-id="bef2b-107">créer ou modifier une liste de domaines partenaires fédérés SIP autorisés ;</span><span class="sxs-lookup"><span data-stu-id="bef2b-107">Create or edit an allowed domain list of SIP federated partner domains.</span></span>
 
-  - <span data-ttu-id="2a4b7-108">créer ou modifier une liste de domaines fédérés SIP bloqués.</span><span class="sxs-lookup"><span data-stu-id="2a4b7-108">Create or edit a blocked domain list of SIP federated domains.</span></span>
+  - <span data-ttu-id="bef2b-108">créer ou modifier une liste de domaines fédérés SIP bloqués.</span><span class="sxs-lookup"><span data-stu-id="bef2b-108">Create or edit a blocked domain list of SIP federated domains.</span></span>
 
-<span data-ttu-id="2a4b7-109">Pour effectuer ces tâches, utilisez les procédures décrites dans cette section.</span><span class="sxs-lookup"><span data-stu-id="2a4b7-109">To perform these tasks, use the procedures in this section.</span></span>
+<span data-ttu-id="bef2b-109">Pour effectuer ces tâches, utilisez les procédures décrites dans cette section.</span><span class="sxs-lookup"><span data-stu-id="bef2b-109">To perform these tasks, use the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2a4b7-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2a4b7-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bef2b-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="bef2b-110">In This Section</span></span>
 
-  - [<span data-ttu-id="2a4b7-111">Configurer la prise en charge des domaines externes autorisés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-111">Configure support for allowed external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-allowed-external-domains.md)
+  - [<span data-ttu-id="bef2b-111">Configurer la prise en charge des domaines externes autorisés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-111">Configure support for allowed external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
-  - [<span data-ttu-id="2a4b7-112">Configurer la prise en charge des domaines externes bloqués dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-112">Configure support for blocked external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - [<span data-ttu-id="bef2b-112">Configurer la prise en charge des domaines externes bloqués dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-112">Configure support for blocked external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2a4b7-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2a4b7-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bef2b-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bef2b-113">See Also</span></span>
 
 
-[<span data-ttu-id="2a4b7-114">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-114">Configure policies to control federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[<span data-ttu-id="2a4b7-115">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-115">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[<span data-ttu-id="2a4b7-116">Activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a4b7-116">Enable or disable discovery of federation partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[<span data-ttu-id="bef2b-114">Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-114">Configure policies to control federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[<span data-ttu-id="bef2b-115">Activation ou désactivation de la Fédération et de la connectivité PIC dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-115">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[<span data-ttu-id="bef2b-116">Activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef2b-116">Enable or disable discovery of federation partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>
