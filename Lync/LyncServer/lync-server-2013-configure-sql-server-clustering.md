@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035196"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurer le clustering SQL Server pour Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2014-01-10_
 
 Microsoft Lync Server 2013 prend en charge la mise en cluster pour SQL Server 2012 et SQL Server 2008 R2. Pour plus d’informations sur les éléments pris en charge, consultez la rubrique [prise en charge logicielle des bases de données dans Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Vous devez installer et configurer le cluster SQL Server avant d’installer et de déployer le serveur frontal et la base de données principale Enterprise Edition. Pour obtenir les meilleures pratiques et des instructions de configuration pour le clustering de basculement dans SQL Server 2012, reportez-vous <http://technet.microsoft.com/library/hh231721.aspx>à. Pour le clustering de basculement dans SQL Server <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, reportez-vous à.
+Vous devez installer et configurer le cluster SQL Server avant d’installer et de déployer le serveur frontal et la base de données principale Enterprise Edition. Pour obtenir les meilleures pratiques et des instructions de configuration pour le clustering de basculement dans SQL Server 2012, reportez-vous <https://technet.microsoft.com/library/hh231721.aspx>à. Pour le clustering de basculement dans SQL Server <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, reportez-vous à.
 
 Lorsque vous installez SQL Server, pensez à installer SQL Server Management Studio pour la gestion des emplacements des fichiers de la base de données et des fichiers journaux. SQL Server Management Studio est installé en tant que composant facultatif lors de l’installation de SQL Server.
 

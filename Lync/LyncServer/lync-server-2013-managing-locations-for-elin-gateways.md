@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043086"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Gestion des emplacements pour les passerelles ELIN dans Lync Server 2013
 
@@ -103,17 +103,17 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 <tbody>
 <tr class="odd">
 <td><p>Premier étage</p></td>
-<td><p>1 </p></td>
+<td><p>0,1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>Deuxième étage</p></td>
-<td><p>2 </p></td>
+<td><p>n°2</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>Troisième étage</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Les questions suivantes vous permettront de déterminer comment remplir la base 
   - **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**  
     En utilisant l’option service d’informations d’emplacement secondaire de Lync Server pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’informations d’emplacement peut retourner plusieurs adresses provenant du service d’informations d’emplacement secondaire à un client Lync Server. L’utilisateur peut alors choisir l’emplacement le plus approprié.
     
-    Pour s’intégrer au service d’informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations <http://go.microsoft.com/fwlink/p/?linkid=213819>, reportez-vous à. Pour plus d’informations sur le déploiement d’un service d’informations d’emplacement secondaire, reportez-vous à la rubrique [Configure a Secondary location information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
+    Pour s’intégrer au service d’informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations <https://go.microsoft.com/fwlink/p/?linkid=213819>, reportez-vous à. Pour plus d’informations sur le déploiement d’un service d’informations d’emplacement secondaire, reportez-vous à la rubrique [Configure a Secondary location information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le remplissage de la base de données d’emplacements, voir [configure the location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
 

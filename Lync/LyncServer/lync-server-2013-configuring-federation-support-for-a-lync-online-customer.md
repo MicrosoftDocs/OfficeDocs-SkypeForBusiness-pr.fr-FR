@@ -12,18 +12,18 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f25a2ba7735c8ccf135d2030e7853940ef545ac2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030618"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configuration de la prise en charge de la Fédération pour un client Lync Online dans Lync Server 2013
 
@@ -49,7 +49,7 @@ Si vous déployez Lync 2013 dans votre organisation, vous pouvez fédérer avec 
 
 
 > [!NOTE]  
-> Cette documentation décrit uniquement les procédures de configuration de votre organisation pour la prise en charge de la Fédération avec un client Lync Online 2010. Cette documentation ne décrit pas les procédures permettant de configurer le client Lync Online 2010 de sorte qu’il prenne en charge la Fédération. Pour plus d’informations sur Lync Online Services, voir Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>Online à l’adresse.
+> Cette documentation décrit uniquement les procédures de configuration de votre organisation pour la prise en charge de la Fédération avec un client Lync Online 2010. Cette documentation ne décrit pas les procédures permettant de configurer le client Lync Online 2010 de sorte qu’il prenne en charge la Fédération. Pour plus d’informations sur Lync Online Services, voir Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>Online à l’adresse.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 28d356af649dbee7dd367eb356ec564a06fa83aa
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034564"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="move-conference-directories"></a>Déplacer les annuaires des conférences
 
@@ -67,7 +67,7 @@ Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour 
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-Consultez le document « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur » (qui peut être téléchargé à [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)partir de) pour obtenir des instructions détaillées, étape par étape, sur la désaffectation des pools Lync 2010.
+Consultez le document « désinstallation de Microsoft Lync Server 2010 et suppression des rôles serveur » (qui peut être téléchargé à [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)partir de) pour obtenir des instructions détaillées, étape par étape, sur la désaffectation des pools Lync 2010.
 
 Lorsque vous déplacez des annuaires de conférence, vous pouvez rencontrer l’erreur suivante :
 

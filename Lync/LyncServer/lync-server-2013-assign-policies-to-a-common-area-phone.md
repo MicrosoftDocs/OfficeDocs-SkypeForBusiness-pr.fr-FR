@@ -12,18 +12,18 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dfe908f2bb4ca66714d3eef756a0c53c7334fd7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6376d672898d54b55871d8ff78f3c62041a00ef3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030067"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Affecter des stratégies dans Lync Server 2013 à un téléphone de partie commune
 
@@ -37,7 +37,7 @@ ms.locfileid: "42030067"
 
 _**Dernière modification de la rubrique :** 2013-02-20_
 
-Une fois que vous avez créé votre stratégie pour les téléphones de partie commune (pour plus de détails, voir [Create a Voice Policy and configure PSTN usage Records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), vous pouvez affecter la stratégie à un téléphone de partie commune à l’aide de Windows PowerShell et de la cmdlet **Grant-CS** appropriée. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Une fois que vous avez créé votre stratégie pour les téléphones de partie commune (pour plus de détails, voir [Create a Voice Policy and configure PSTN usage Records in Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), vous pouvez affecter la stratégie à un téléphone de partie commune à l’aide de Windows PowerShell et de la cmdlet **Grant-CS** appropriée. Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 

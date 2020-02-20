@@ -12,18 +12,18 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38f70e1d29cd6cd8de3a323829772eab1f9c3452
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d4a3b270ecf35d9fbc33accd8c46909a6e8755b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035620"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Création ou modification d’une collection de paramètres de configuration de la version du client dans Lync Server 2013
 
@@ -71,7 +71,7 @@ Les paramètres de configuration de version du client sont utilisés pour active
 
 ## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création ou modification des paramètres de configuration de la version du client à l’aide des applets de commande Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration de version des clients à l’aide de la cmdlet **New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de commande **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez créer des paramètres de configuration de version des clients à l’aide de la cmdlet **New-CsClientVersionConfiguration** et les modifier à l’aide de l’applet de commande **Set-CsClientVersionConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 

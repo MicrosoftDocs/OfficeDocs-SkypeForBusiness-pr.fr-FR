@@ -12,18 +12,18 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3190e6b3727d1d226a217dc059a1f0b69f890a16
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041183"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Applets de commande Windows PowerShell pour les services de carnet d’adresses dans Lync Server 2013
 
@@ -86,7 +86,7 @@ Toutes ces applets de commande sont émises via Lync Server Management Shell dan
 ## <a name="see-also"></a>Voir aussi
 
 
-[http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  
+[https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  
   
 
 </div>

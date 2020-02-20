@@ -12,18 +12,18 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 36fb605741abfd65a43b0da39e372f31d112ae0d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008900"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Supprimer les serveurs d’archivage et de surveillance hérités
 
@@ -41,7 +41,7 @@ Si votre déploiement Office Communications Server 2007 R2 contenait un serveur 
 
 Vous pouvez déplacer des utilisateurs d’Office Communications Server 2007 R2 vers Lync Server 2013 en suivant les procédures décrites à [la phase 6 : déplacer des utilisateurs vers le pool pilote](phase-6-move-users-to-the-pilot-pool.md).
 
-Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)« suppression des serveurs et des rôles serveur » à l’adresse.
+Une fois que vous avez confirmé que tous les utilisateurs ont été supprimés des pools restants, suivez la procédure décrite dans la section [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)« suppression des serveurs et des rôles serveur » à l’adresse.
 
 </div>
 

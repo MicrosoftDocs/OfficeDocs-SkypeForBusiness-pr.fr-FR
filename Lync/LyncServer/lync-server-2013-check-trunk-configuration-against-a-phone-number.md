@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043486"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Vérifier la configuration de la jonction par rapport à un numéro de téléphone dans Lync Server 2013
 
@@ -136,7 +136,7 @@ Modèle : ^\\+ (\\d\*) $
 
 Nom : NoAreaCode
 
-À ce stade, vous vérifiez la valeur de la propriété Pattern (qui est une chaîne d' [expression régulière](http://go.microsoft.com/fwlink/?linkid=400464) ) pour déterminer si des règles de conversion sont configurées pour gérer le numéro composé. Si ce n’est pas le cas, vous devez modifier l’une des règles existantes (Set-CsOutboundTranslationRule) ou utiliser l’applet de commande New-CsOutboundTranslationRule pour ajouter une nouvelle règle à la collection.
+À ce stade, vous vérifiez la valeur de la propriété Pattern (qui est une chaîne d' [expression régulière](https://go.microsoft.com/fwlink/?linkid=400464) ) pour déterminer si des règles de conversion sont configurées pour gérer le numéro composé. Si ce n’est pas le cas, vous devez modifier l’une des règles existantes (Set-CsOutboundTranslationRule) ou utiliser l’applet de commande New-CsOutboundTranslationRule pour ajouter une nouvelle règle à la collection.
 
 </div>
 

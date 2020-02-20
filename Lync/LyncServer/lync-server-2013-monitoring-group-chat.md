@@ -12,18 +12,18 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a42589db677132170e9456c998d96fd2eb1de5d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051136"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-group-chat-in-lync-server-2013"></a>Surveillance de la conversation de groupe dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051136"
 
 _**Dernière modification de la rubrique :** 2014-08-04_
 
-Nous vous recommandons vivement d’exécuter le [programme d’installation de mise à jour de serveur](http://support.microsoft.com/kb/968802) le plus récent disponible sur le centre de téléchargement Microsoft pour en améliorer les performances.
+Nous vous recommandons vivement d’exécuter le [programme d’installation de mise à jour de serveur](https://support.microsoft.com/kb/968802) le plus récent disponible sur le centre de téléchargement Microsoft pour en améliorer les performances.
 
 En supposant que vous exécutez la dernière mise à jour cumulative, utilisez le tableau test de contrainte suivant pour les mesures à comprendre si vos serveurs de conversation de groupe fonctionnent au niveau de l’intégrité.
 

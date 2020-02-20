@@ -12,18 +12,18 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2ffa9b16a2c582af2de990eab52b55c175121bc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8be19c6ca5aad78bc82487d8208fb163f62fbcb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042551"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Gestion des emplacements pour les fournisseurs de services de jonction SIP dans Lync Server 2013
 
@@ -73,7 +73,7 @@ Les questions suivantes vous permettront de déterminer comment remplir la base 
   - **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**  
     En utilisant l’option service d’informations d’emplacement secondaire de Lync Server pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’informations d’emplacement peut retourner plusieurs adresses provenant du service d’informations d’emplacement secondaire à un client Lync Server. L’utilisateur peut alors choisir l’emplacement le plus approprié.
     
-    Pour s’intégrer au service d’informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations,\[reportez\]-vous à « MS-E911WS : Web service <http://go.microsoft.com/fwlink/p/?linkid=213819>for E911 support Protocol Specification » à l’adresse. Pour plus d’informations sur le déploiement d’un service d’informations d’emplacement secondaire, reportez-vous à la rubrique [Configure a Secondary location information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
+    Pour s’intégrer au service d’informations d’emplacement, la base de données tierce doit suivre le schéma de demande/réponse d’emplacement Lync Server. Pour plus d’informations,\[reportez\]-vous à « MS-E911WS : Web service <https://go.microsoft.com/fwlink/p/?linkid=213819>for E911 support Protocol Specification » à l’adresse. Pour plus d’informations sur le déploiement d’un service d’informations d’emplacement secondaire, reportez-vous à la rubrique [Configure a Secondary location information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
 
 Pour plus d’informations sur le remplissage de la base de données d’emplacements, voir [configure the location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
 

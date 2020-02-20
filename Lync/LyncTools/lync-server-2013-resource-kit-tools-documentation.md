@@ -12,18 +12,18 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1cb9d5f72d03d9c4899c16e35968109819b09d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 046e29fcec697a1ac073833e6b73c7bfe15fb8ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038366"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-resource-kit-tools-documentation"></a>Documentation sur les outils du kit de ressources Lync Server 2013
 
@@ -43,7 +43,7 @@ Cette rubrique décrit les outils qui font partie du kit de ressources Lync Serv
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Installation des outils du kit de ressources
 
-Pour installer les outils du kit de ressources Lync Server 2013, téléchargez **OCSReskit. msi**. Vous pouvez télécharger le programme d’installation des outils du kit de ressources [http://go.microsoft.com/fwlink/p/?LinkID=330429](http://go.microsoft.com/fwlink/p/?linkid=330429)à partir du centre de téléchargement à l’adresse.
+Pour installer les outils du kit de ressources Lync Server 2013, téléchargez **OCSReskit. msi**. Vous pouvez télécharger le programme d’installation des outils du kit de ressources [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429)à partir du centre de téléchargement à l’adresse.
 
 Exécutez **OCSResKit. msi** pour effectuer une installation simple. Le fichier. msi installe tous les outils dans le chemin d’accès suivant : **%\\Program Files% Microsoft\\Lync Server 2013 reskit**. Les outils qui sont des fichiers exécutables autonomes se trouvent dans ce dossier. Les outils qui ont également des fichiers se trouvent dans leurs propres sous-dossiers.
 
@@ -199,7 +199,7 @@ Administrateurs disposant des autorisations nécessaires pour mettre à jour le 
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 ABSConfig peut être démarré en tapant **ABSConfig. exe** à une invite de commandes. L’interface utilisateur de l’outil ABSConfig est illustrée ci-dessous.
 
@@ -647,7 +647,7 @@ Il n’y a aucune condition requise si cet outil est exécuté sur le même ordi
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 Plages d’orbites déployées : le paramètre – o répertorie toutes les plages d’orbites configurées pour ce pool, comme indiqué
 
@@ -705,7 +705,7 @@ Installez les outils du kit de ressources Lync Server 2013. L’outil s’exécu
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 C :\\Program Files\\Microsoft Lync Server 2013\\reskit\\StorageService\> ImportStorageServiceData. exe
 
@@ -852,7 +852,7 @@ Pour installer DbAnalyze. exe, copiez-le dans un dossier local, puis exécutez l
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 Voici des exemples de commandes valides de DbAnalyze. exe :
 
@@ -919,7 +919,7 @@ Installez les outils du kit de ressources Lync Server 2013. L’outil s’exécu
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
     >  C:\StorageService>ImportStorageServiceData.exe
     Description:
@@ -1130,7 +1130,7 @@ Installez les outils du kit de ressources Lync Server 2013. L’outil s’exécu
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 C :\\Program Files\\Microsoft Lync Server 2013\\reskit\>LookupUserConsole. exe
 
@@ -1236,7 +1236,7 @@ L’outil renvoie les résultats de chacune des opérations.
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 Voici un exemple de l’entrée d’outil.
 
@@ -1296,7 +1296,7 @@ Afficher les liens de topologie du réseau CAC d’entreprise dans une interface
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 **Chargez et affichez la topologie de réseau CAC à partir d’un déploiement Lync Server 2013 dans un format graphique :** Les administrateurs Lync Server 2013 peuvent charger et afficher la configuration de la topologie du réseau CAC sur n’importe quel ordinateur Lync Server 2013 à l’aide de l’option **Télécharger la configuration réseau** , comme illustré dans la figure ci-dessous. L’outil ne parviendra pas à télécharger ou à afficher une configuration de ce type lorsqu’il est déployé sur un ordinateur qui n’a pas de connectivité avec le magasin de configurations Lync.
 
@@ -1420,7 +1420,7 @@ Les trois paramètres suivants peuvent être personnalisés dans la configuratio
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 La figure ci-dessous illustre comment appeler ou envoyer un message instantané à un autre agent en cliquant avec le bouton droit sur le contact dans le volet de droite.
 
@@ -1589,7 +1589,7 @@ La prise d’appel de groupe nécessite une configuration supplémentaire dans L
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 <div>
 
@@ -2012,23 +2012,23 @@ Avant d’exécuter le script SYSPrep. ps1, vous devez copier les fichiers prér
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=23650</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=23650</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows PowerShell version 3,0</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34595</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34595</p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++ 2010 Redistributable</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=5555</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=5555</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mises à jour de Internet Information Server</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=34869</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=34869</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation</p></td>
-<td><p>http://www.microsoft.com/download/details.aspx?id=17331</p></td>
+<td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013 Setup. exe</p></td>
@@ -2050,7 +2050,7 @@ Le paramètre **– SetupFolder** prend comme argument l’emplacement du réper
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 Pour exécuter le script SYSPrep. ps1 et installer les éléments prérequis de Lync Server 2013, exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges :
 
@@ -2141,7 +2141,7 @@ Le script Move-CsAnnouncementConfiguration nécessite les deux paramètres décr
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 <div>
 
@@ -2227,7 +2227,7 @@ L’outil doit être exécuté en utilisant les privilèges d’administrateur p
 
 <div>
 
-## <a name="examples"></a>範例
+## <a name="examples"></a>Exemples
 
 Le tableau suivant décrit les paramètres, dont certains sont utilisés dans les exemples.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2abe30cd464b223523df9d5fa878607404f7a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d27f7a2402fabbc28080ca5efc2532497c93c653
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050666"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Déploiement de l’application Lync Windows Store dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050666"
 
 _**Dernière modification de la rubrique :** 2013-12-03_
 
-Avant de rendre l’application Lync Windows Store accessible aux utilisateurs, assurez-vous que votre déploiement est conforme à la [Configuration requise de l’application Lync pour Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Pour plus d’informations sur la configuration de Lync Server 2013 afin de prendre en charge l’application Lync Windows Store, voir l’article du blog NextHop, « Lync Server Autodiscover and [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)the Lync Windows Store App », à l’adresse. Une fois que votre environnement serveur est correctement configuré, vous pouvez demander aux utilisateurs de télécharger l’application Lync à partir du Windows Store en recherchant « Lync ».
+Avant de rendre l’application Lync Windows Store accessible aux utilisateurs, assurez-vous que votre déploiement est conforme à la [Configuration requise de l’application Lync pour Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Pour plus d’informations sur la configuration de Lync Server 2013 afin de prendre en charge l’application Lync Windows Store, voir l’article du blog NextHop, « Lync Server Autodiscover and [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)the Lync Windows Store App », à l’adresse. Une fois que votre environnement serveur est correctement configuré, vous pouvez demander aux utilisateurs de télécharger l’application Lync à partir du Windows Store en recherchant « Lync ».
 
 <div>
 
@@ -66,9 +66,9 @@ Mises à jour cumulatives pour Lync Server 2013 : le 2013 juin ajoute la prise 
 
 **Pour configurer l’authentification multifacteur**
 
-1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services de <http://go.microsoft.com/fwlink/p/?linkid=267511>Fédération Active Directory (AD fs) 2,0 à l’adresse.
+1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement des services de <https://go.microsoft.com/fwlink/p/?linkid=267511>Fédération Active Directory (AD fs) 2,0 à l’adresse.
 
-2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)-on.
+2.  Créer des certificats pour AD FS. Pour plus d’informations, consultez la section « certificats de serveur de Fédération » de la rubrique plan for and Deploy AD FS for use with Single Sign [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)-on.
 
 3.  À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante :
     ```powershell

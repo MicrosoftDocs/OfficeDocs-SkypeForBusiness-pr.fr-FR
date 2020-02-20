@@ -12,18 +12,18 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 418001642f387caf67277f408d4eb19109c98936
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 699fd4413e071a9377369a383c9fd379a3451c6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035412"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>Création ou modification d’un objet contact de téléphone de partie commune dans Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2013-02-20_
 
 Pour créer des objets contact des services de domaine Active Directory pour tous vos téléphones de partie commune, utilisez la cmdlet **New-CsCommonAreaPhone** . Cette applet de commande peut créer des objets contact à utiliser avec des téléphones de partie commune ou associer des objets contact existants à un nouveau téléphone de partie commune. Pour modifier les propriétés des objets contact associés à des téléphones de partie commune, utilisez la cmdlet **Set-CsCommonAreaPhone** . Les paramètres facultatifs de **Set-CsCommonAreaPhone** vous permettent de modifier des éléments, tels que le nom d’affichage du contact Active Directory ou l’URI (Uniform Resource Identifier) de ligne associé au téléphone, ainsi que d’activer et de désactiver le compte à utiliser avec Lync Server. Pour plus d’informations sur toutes les modifications disponibles, reportez-vous à la section Parameters de [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone). Pour plus d’informations sur les paramètres **New-CsCommonAreaPhone** , voir [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).
 
-Vous pouvez exécuter ces deux cmdlets à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
+Vous pouvez exécuter ces deux cmdlets à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.
 
 <div>
 

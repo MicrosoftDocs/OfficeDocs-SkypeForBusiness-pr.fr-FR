@@ -12,18 +12,18 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 876a4de1357786e2d5089fdc632002107a6c7cc2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029205"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Meilleures pratiques pour votre infrastructure de base dans Lync Server 2013
 
@@ -41,7 +41,7 @@ Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance 
 
 Pour protéger les serveurs de votre déploiement Lync Server 2013 contre les dommages accidentels ou involontaires susceptibles d’entraîner un temps d’arrêt, prenez les précautions suivantes :
 
-  - Mettez régulièrement à jour vos serveurs en installant les mises à jour de sécurité. La souscription d’un abonnement au service de notification de sécurité de Microsoft permet de recevoir une notification immédiate des mises à jour de sécurité pour un produit Microsoft. Pour vous abonner, rendez-vous sur le site [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)Web des notifications de sécurité technique Microsoft à l’adresse.
+  - Mettez régulièrement à jour vos serveurs en installant les mises à jour de sécurité. La souscription d’un abonnement au service de notification de sécurité de Microsoft permet de recevoir une notification immédiate des mises à jour de sécurité pour un produit Microsoft. Pour vous abonner, rendez-vous sur le site [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)Web des notifications de sécurité technique Microsoft à l’adresse.
 
   - Vérifiez que les droits d’accès sont correctement configurés.
 

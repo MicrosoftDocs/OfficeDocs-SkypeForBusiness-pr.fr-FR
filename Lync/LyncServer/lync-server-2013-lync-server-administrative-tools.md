@@ -12,18 +12,18 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 85ba9b1d9848fa51d798dd93b9cbc53daf69a6b7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030237"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-administrative-tools"></a>Outils d’administration Lync Server 2013
 
@@ -113,7 +113,7 @@ Dans Lync Server, Lync Server Management Shell fournit une nouvelle méthode d�
 
 ## <a name="logging-tool"></a>Outil de journalisation
 
-L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi du produit pendant que le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle de serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
+L’outil de journalisation Lync Server facilite la résolution des problèmes en capturant les informations de journalisation et de suivi du produit pendant que le produit est en cours d’exécution. Vous pouvez utiliser l’outil pour exécuter des sessions de débogage sur n’importe quel rôle de serveur Lync Server. Pour plus d’informations sur l’outil de journalisation, voir la documentation de l’outil de journalisation [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)Lync Server 2010 dans la bibliothèque TechNet à l’adresse.
 
 <div>
 

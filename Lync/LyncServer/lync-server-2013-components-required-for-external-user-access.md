@@ -12,18 +12,18 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31381edc58240d990096b47498b5c98845af5b2d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007954"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Composants requis pour l’accès des utilisateurs externes dans Lync Server 2013
 
@@ -114,7 +114,7 @@ Pour plus d’informations sur les proxys inverses et sur les exigences auxquell
 
 
 > [!NOTE]  
-> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) à votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN dans votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, la vidéoconférence) peut être compromis. Vous devez envisager de permettre au trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « activation de médias <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour contourner un tunnel VPN », à l’adresse.
+> Les utilisateurs externes n’ont pas besoin d’une connexion de réseau privé virtuel (VPN) à votre organisation afin de participer aux communications à l’aide de Lync Server 2013. Si vous avez implémenté la technologie VPN dans votre organisation et que vos utilisateurs utilisent le VPN pour Lync, le trafic multimédia (par exemple, la vidéoconférence) peut être compromis. Vous devez envisager de permettre au trafic multimédia de se connecter directement au service Edge AV et de contourner le VPN. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « activation de médias <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>Lync pour contourner un tunnel VPN », à l’adresse.
 
 
 

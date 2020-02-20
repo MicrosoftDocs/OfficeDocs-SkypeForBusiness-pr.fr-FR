@@ -12,18 +12,18 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da6e0eb7c4377941992dfba9dd11312a12ee29a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041213"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="weekly-tasks-in-lync-server-2013"></a>Tâches hebdomadaires dans Lync Server 2013
 
@@ -81,7 +81,7 @@ Effectuez un audit hebdomadaire des rapports d’incident de votre organisation 
 
 ## <a name="check-iis-logs-and-performance"></a>Vérifier les journaux et les performances IIS
 
-Effectuer une révision hebdomadaire des journaux et des performances des services IIS (Internet Information Services). Pour plus d’informations sur la surveillance des performances et des journaux IIS, voir [Windows Server 2003 Internet Information Services (IIS) Logging Logging Overview](http://go.microsoft.com/fwlink/?linkid=36077). La révision doit inclure les éléments suivants :
+Effectuer une révision hebdomadaire des journaux et des performances des services IIS (Internet Information Services). Pour plus d’informations sur la surveillance des performances et des journaux IIS, voir [Windows Server 2003 Internet Information Services (IIS) Logging Logging Overview](https://go.microsoft.com/fwlink/?linkid=36077). La révision doit inclure les éléments suivants :
 
   - Compteurs de cache de service Web permettant de surveiller le cache du service WWW.
 
@@ -258,7 +258,7 @@ Bandwidth utilization Analyzer peut générer des tracés graphiques de la capac
 
   - Filtré par région réseau
 
-La documentation relative à cet outil est disponible dans [la documentation sur les outils du kit de ressources Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=623245).
+La documentation relative à cet outil est disponible dans [la documentation sur les outils du kit de ressources Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 
