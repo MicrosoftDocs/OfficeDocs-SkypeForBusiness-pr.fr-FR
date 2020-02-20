@@ -12,18 +12,18 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0d5ac758c1e4c87fd5559da1c2a9cf388dc8834
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91c4d5092fc12ac374b57872b7cda2d6f88d9e33
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043816"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Basculement du serveur de conversation permanente dans Lync Server 2013
 
@@ -69,7 +69,7 @@ La base de données de conformité de conversation permanente (mgccomp) n’est 
 
 2.  Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
 
-3.  Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, consultez la rubrique « Procédure : appliquer une sauvegarde du journal des transactions (Transact http://go.microsoft.com/fwlink/p/?linkid=247428-SQL) » à l’adresse.
+3.  Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, consultez la rubrique « Procédure : appliquer une sauvegarde du journal des transactions (Transact https://go.microsoft.com/fwlink/p/?linkid=247428-SQL) » à l’adresse.
 
 4.  Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     

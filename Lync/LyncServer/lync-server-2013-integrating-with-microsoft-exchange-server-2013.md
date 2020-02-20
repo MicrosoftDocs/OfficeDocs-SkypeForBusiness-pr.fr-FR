@@ -12,18 +12,18 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dccf60dba1b729b1ffa808694fffcacc14e460ba
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1c60768311f4fbf832f3dbe2ac4a0c2e8e55298
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035286"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Intégration de Microsoft Lync Server 2013 et Microsoft Exchange Server 2013
 
@@ -51,7 +51,7 @@ Cela est particulièrement vrai avec la version de Microsoft Lync Server 2013 et
 
 N’oubliez pas que ces nouvelles fonctionnalités requièrent l’utilisation de Lync Server 2013 et Exchange 2013. En outre, les utilisateurs qui espèrent tirer pleinement parti de ces nouvelles fonctionnalités doivent disposer de comptes sur Lync Server 2013 et Exchange 2013, et doivent utiliser les versions les plus récentes du logiciel client (par exemple, Lync 2013). Par exemple, le magasin de contacts unifié n’est pas disponible pour les utilisateurs qui ont été hébergés sur Lync Server 2010 ; de même, les photos haute résolution ne peuvent pas être affichées dans Lync 2010.
 
-Cette documentation fournit des informations sur l’intégration de Lync Server 2013 et d’Exchange 2013. y compris des informations détaillées sur l’activation de nouvelles fonctionnalités, telles que l’intégration de l’archivage et le magasin de contacts unifié. Cette documentation ne fait pas la configuration initiale et la configuration de ces deux produits. Pour plus d’informations sur le déploiement de Lync Server 2013, voir Lync Server 2013 [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)Tech Center à l’adresse. Pour plus d’informations sur le déploiement d’Exchange 2013, consultez le site [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)Exchange 2013 Tech Center à l’adresse.
+Cette documentation fournit des informations sur l’intégration de Lync Server 2013 et d’Exchange 2013. y compris des informations détaillées sur l’activation de nouvelles fonctionnalités, telles que l’intégration de l’archivage et le magasin de contacts unifié. Cette documentation ne fait pas la configuration initiale et la configuration de ces deux produits. Pour plus d’informations sur le déploiement de Lync Server 2013, voir Lync Server 2013 [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)Tech Center à l’adresse. Pour plus d’informations sur le déploiement d’Exchange 2013, consultez le site [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)Exchange 2013 Tech Center à l’adresse.
 
 <div>
 

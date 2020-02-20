@@ -12,18 +12,18 @@ ms:contentKeyID: 49733734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c51adcb773769abc4dfc553d8dc5dd72a0df152
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6804f4b1cd9075982474c7b515c38af7ce8af01
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030928"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-hardware-support-in-lync-server-2013"></a>Prise en charge du matériel client Lync dans Lync Server 2013
 
@@ -87,7 +87,7 @@ Cette section décrit le matériel recommandé pour Lync 2013 et le complément 
 <td><p>Téléphonie</p></td>
 <td><p>Microphone et haut-parleurs, casque avec microphone ou périphérique(s) équivalent(s). Périphériques recommandés :</p>
 <ul>
-<li><p>Téléphones avec le logo « optimisé pour Microsoft Lync » (voir téléphones et appareils qualifiés pour Microsoft Lync à <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> l’adresse pour obtenir une liste)</p></li>
+<li><p>Téléphones avec le logo « optimisé pour Microsoft Lync » (voir téléphones et appareils qualifiés pour Microsoft Lync à <a href="https://go.microsoft.com/fwlink/p/?linkid=208938">https://go.microsoft.com/fwlink/p/?LinkID=208938</a> l’adresse pour obtenir une liste)</p></li>
 <li><p>Téléphones exécutant Lync Phone Edition</p></li>
 </ul></td>
 </tr>

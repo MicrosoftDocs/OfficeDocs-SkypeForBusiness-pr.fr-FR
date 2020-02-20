@@ -12,18 +12,18 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fd2bd6d66b8b4f040e654f2412f86027071f9ac
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3b370242bab888047b6f234f0b574311fe626773
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039044"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="sip-trunking-support-in-lync-server-2013"></a>Prise en charge de la jonction SIP dans Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-10-03_
 
 Si vous envisagez d’utiliser la voix entreprise avec la jonction SIP, vous devez déployer un serveur de médiation et vous assurer que d’autres infrastructures et composants répondent aux exigences de prise en charge appropriées à votre modèle de déploiement. Pour plus d’informations sur la façon de déterminer s’il faut implémenter la jonction SIP, voir [Overview of SIP Trunking in Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) dans la documentation de planification.
 
-Vous pouvez utiliser le programme d’interopérabilité Open Communications Microsoft pour l’infrastructure de téléphonie d’entreprise pour rechercher les passerelles RTC (réseau téléphonique commuté), les PBX IP et les services de jonction SIP qualifiés, y compris la téléphonie IP qualifiée fournisseurs de services. Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open [http://go.microsoft.com/fwlink/p/?LinkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Interoperability Program à l’adresse.
+Vous pouvez utiliser le programme d’interopérabilité Open Communications Microsoft pour l’infrastructure de téléphonie d’entreprise pour rechercher les passerelles RTC (réseau téléphonique commuté), les PBX IP et les services de jonction SIP qualifiés, y compris la téléphonie IP qualifiée fournisseurs de services. Pour plus d’informations, consultez le site Web Microsoft Unified Communications Open [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)Interoperability Program à l’adresse.
 
 <div>
 

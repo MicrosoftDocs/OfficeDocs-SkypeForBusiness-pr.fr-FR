@@ -12,18 +12,18 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ac8c0f9a38ca80961f9a15a40a88214ad3cf2d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045486"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Configuration requise pour l’exécution de Best Practices Analyzer dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045486"
 
 _**Dernière modification de la rubrique :** 2012-09-19_
 
-Vous pouvez utiliser Lync Server 2013, Best Practices Analyzer pour analyser votre environnement Lync Server 2013. Vous ne pouvez pas l’utiliser pour analyser des environnements antérieurs, mais vous pouvez utiliser les versions précédentes de l’outil pour analyser ces environnements. Pour plus d’informations sur le téléchargement et l’utilisation des versions Lync Server 2010 et Office Communications Server 2007 R2 de Best Practices Analyzer, voir « Lync Server 2010, Best Practices Analyzer » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) et « Best Practices Analyzer for Office communications Server 2007 and Office [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)Communications Server 2007 R2 » à l’adresse.
+Vous pouvez utiliser Lync Server 2013, Best Practices Analyzer pour analyser votre environnement Lync Server 2013. Vous ne pouvez pas l’utiliser pour analyser des environnements antérieurs, mais vous pouvez utiliser les versions précédentes de l’outil pour analyser ces environnements. Pour plus d’informations sur le téléchargement et l’utilisation des versions Lync Server 2010 et Office Communications Server 2007 R2 de Best Practices Analyzer, voir « Lync Server 2010, Best Practices Analyzer » à l’adresse [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) et « Best Practices Analyzer for Office communications Server 2007 and Office [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)Communications Server 2007 R2 » à l’adresse.
 
 Avant de commencer l’analyse, vous devez vous assurer que tous les composants de votre environnement Lync Server 2013 sont en cours d’exécution et en ligne.
 

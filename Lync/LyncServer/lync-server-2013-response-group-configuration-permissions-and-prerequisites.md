@@ -12,18 +12,18 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051820"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Autorisations et conditions préalables à la configuration du groupe Response Group dans Lync Server 2013
 
@@ -186,7 +186,7 @@ La première étape de la configuration du groupe Response Group consiste à cr�
 
 Cette section vous est applicable uniquement si votre entreprise doit se conformer aux normes FIPS (Federal Information Processing Standard).
 
-Pour permettre une compatibilité avec la norme FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un algorithme de chiffrement différent après l’installation des services web. Vous devez préciser le recours à l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour qu’ASP.NET puisse traiter les données ViewState. Pour l’application Response Group, cette exigence s’applique à l’outil de configuration Response Group et à la console de connexion et de déconnexion de l’agent. Pour plus d’informations sur cette exigence, consultez l’article 911722 de la base de connaissances Microsoft, « vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont le ViewState est activé après avoir effectué [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)la mise à niveau de ASP.net 1,1 vers ASP.NET 2,0 » à l’adresse.
+Pour permettre une compatibilité avec la norme FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un algorithme de chiffrement différent après l’installation des services web. Vous devez préciser le recours à l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour qu’ASP.NET puisse traiter les données ViewState. Pour l’application Response Group, cette exigence s’applique à l’outil de configuration Response Group et à la console de connexion et de déconnexion de l’agent. Pour plus d’informations sur cette exigence, consultez l’article 911722 de la base de connaissances Microsoft, « vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont le ViewState est activé après avoir effectué [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)la mise à niveau de ASP.net 1,1 vers ASP.NET 2,0 » à l’adresse.
 
 Pour modifier le fichier Web.config, procédez comme suit :
 
@@ -216,7 +216,7 @@ Cette section vous est applicable seulement si votre organisation doit prendre e
 
 
 > [!NOTE]  
-> Pour plus d’informations sur les caractères Yi, Meng et Zang et la raison pour laquelle ils peuvent être importants pour votre déploiement, consultez les informations sur les jeux <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>de caractères GB18030.
+> Pour plus d’informations sur les caractères Yi, Meng et Zang et la raison pour laquelle ils peuvent être importants pour votre déploiement, consultez les informations sur les jeux <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>de caractères GB18030.
 
 
 
@@ -236,9 +236,9 @@ Pour la prise en charge des caractères Yi, Meng ou Zang, vous devez modifier le
 
 Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le classement\_Latin\_général 100 (accentué). Si vous utilisez ce classement, tous les noms d’objets ne tiennent pas compte de la casse.
 
-Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir « utilisation de SQL [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio » à l’adresse. Pour modifier le classement, procédez comme suit :
+Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir « utilisation de SQL [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio » à l’adresse. Pour modifier le classement, procédez comme suit :
 
-1.  Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, consultez la section « enregistrer (non autorisé) [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)» à l’adresse. Pour plus d’informations sur la définition d’un classement de colonne, voir « How to : Set Column collation (Visual Database Tools [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)) » à l’adresse.
+1.  Assurez-vous que SQL Server Management Studio est configuré pour autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, consultez la section « enregistrer (non autorisé) [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)» à l’adresse. Pour plus d’informations sur la définition d’un classement de colonne, voir « How to : Set Column collation (Visual Database Tools [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)) » à l’adresse.
 
 2.  À l’aide de Microsoft SQL Server Management Studio, connectez-vous à la base de données Rgsconfig.
 

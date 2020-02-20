@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047279"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Demander et configurer un certificat pour votre proxy HTTP inverse dans Lync Server 2013
 
@@ -156,7 +156,7 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
 
 **Création d’une demande de signature de certificat**
 
-1.  Ouvrez la console MMC (Microsoft Management Console) et ajoutez le composant logiciel enfichable Certificats, sélectionnez **ordinateurs**, puis développez **personnel**. Pour plus d’informations sur la création d’une console certificats dans la console MMC (Microsoft Management Console [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)), reportez-vous à la rubrique.
+1.  Ouvrez la console MMC (Microsoft Management Console) et ajoutez le composant logiciel enfichable Certificats, sélectionnez **ordinateurs**, puis développez **personnel**. Pour plus d’informations sur la création d’une console certificats dans la console MMC (Microsoft Management Console [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)), reportez-vous à la rubrique.
 
 2.  Cliquez avec le bouton droit sur **certificats**, cliquez sur **toutes les tâches**, puis sur **opérations avancées**, cliquez sur **créer une demande personnalisée**.
 
@@ -217,7 +217,7 @@ Pour générer une demande de signature de certificat sur l’ordinateur sur leq
     
 
     > [!IMPORTANT]
-    > Microsoft a identifié des autorités de certification publiques qui répondent aux exigences des communications unifiées. Une liste est conservée dans l’article suivant de la base de connaissances. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft a identifié des autorités de certification publiques qui répondent aux exigences des communications unifiées. Une liste est conservée dans l’article suivant de la base de connaissances. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

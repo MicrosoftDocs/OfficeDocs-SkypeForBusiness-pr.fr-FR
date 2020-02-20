@@ -12,18 +12,18 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3993c2259d42bfa632394cb3c9acaf70f26cdc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12a6e5d94cef7c9f25bb1c4091a981603f66da82
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035296"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Configuration des stratégies de contrôle d’accès des utilisateurs publics dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035296"
 
 _**Dernière modification de la rubrique :** 2013-10-07_
 
-La connectivité PIC (Public IM Connectivity) permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs de services de messagerie instantanée fournis par des fournisseurs de services de messagerie instantanée publics\!, notamment le réseau Windows Live des services Internet, Yahoo et AOL. Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs internes de Lync Server. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui s’appuie sur la configuration de votre déploiement et de vos utilisateurs. Elle dépend également de la mise en service du service au niveau du fournisseur de messagerie instantanée publique. Pour plus d’informations sur la façon de configurer votre déploiement pour utiliser les fournisseurs publics, voir le Guide de mise en service de la connectivité PIC (Public IM Connectivity pour Microsoft Lync Server, Office Communications Server et Live Communications Server) :[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+La connectivité PIC (Public IM Connectivity) permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs de services de messagerie instantanée fournis par des fournisseurs de services de messagerie instantanée publics\!, notamment le réseau Windows Live des services Internet, Yahoo et AOL. Vous configurez une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs publics peuvent collaborer avec des utilisateurs internes de Lync Server. La connectivité de messagerie instantanée publique est une fonctionnalité ajoutée qui s’appuie sur la configuration de votre déploiement et de vos utilisateurs. Elle dépend également de la mise en service du service au niveau du fournisseur de messagerie instantanée publique. Pour plus d’informations sur la façon de configurer votre déploiement pour utiliser les fournisseurs publics, voir le Guide de mise en service de la connectivité PIC (Public IM Connectivity pour Microsoft Lync Server, Office Communications Server et Live Communications Server) :[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,7 +55,7 @@ La connectivité PIC (Public IM Connectivity) permet aux utilisateurs de votre o
 
 </div>
 
-Pour accéder au site de mise en service de la connectivité PIC de Microsoft Lync Server, utilisez le lien suivant :[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+Pour accéder au site de mise en service de la connectivité PIC de Microsoft Lync Server, utilisez le lien suivant :[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
 Pour contrôler l’accès des utilisateurs publics, vous pouvez configurer des stratégies au niveau global, du site et des utilisateurs. Pour plus d’informations sur les types de stratégies que vous pouvez configurer, reportez-vous à la rubrique Configuration de la [prise en charge de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) dans la documentation de déploiement ou dans la documentation de planification. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
 

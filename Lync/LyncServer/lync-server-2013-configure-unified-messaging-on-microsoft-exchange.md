@@ -12,18 +12,18 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9f69d243079d0a2b2a6a9fc4a233e3c9854de158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043016"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Configuration de la messagerie unifiée sur Microsoft Exchange pour Lync Server 2013
 
@@ -70,11 +70,11 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     ```
     Pour obtenir des informations détaillées, voir :
     
-      - Pour Office Communications Server 2007, voir « procédure de création d’un plan de numérotation SIP de messagerie [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) unifiée » à l’adresse et « New-UMDialplan [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help » à l’adresse.
+      - Pour Office Communications Server 2007, voir « procédure de création d’un plan de numérotation SIP de messagerie [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) unifiée » à l’adresse et « New-UMDialplan [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help » à l’adresse.
     
-      - Pour Exchange 2010, voir « Création d’un plan de numérotation [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) de messagerie unifiée » à l’adresse et « New [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)-UMDialplan : Exchange 2010 Help » à l’adresse.
+      - Pour Exchange 2010, voir « Création d’un plan de numérotation [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) de messagerie unifiée » à l’adresse et « New [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)-UMDialplan : Exchange 2010 Help » à l’adresse.
     
-      - Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+      - Pour Exchange 2013, voir « messagerie unifiée » [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
     
     <div>
     
@@ -93,11 +93,11 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     
     Pour obtenir des informations détaillées, voir :
     
-      - Pour Exchange 2007, voir « Get-UMDialplan : Exchange 2007 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)l’adresse.
+      - Pour Exchange 2007, voir « Get-UMDialplan : Exchange 2007 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)l’adresse.
     
-      - Pour Exchange 2010, voir « Get-UMDialplan : Exchange 2010 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)l’adresse.
+      - Pour Exchange 2010, voir « Get-UMDialplan : Exchange 2010 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)l’adresse.
     
-      - Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+      - Pour Exchange 2013, voir « messagerie unifiée » [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
 
 3.  Enregistrez le nom de chaque plan de numérotation de messagerie unifiée. En fonction de votre version d’Exchange Server, vous devrez peut-être utiliser le nom de domaine complet (FQDN) de chaque nom de plan de numérotation par la suite, comme le nom du plan de numérotation Lync Server correspondant à chaque plan de numérotation de messagerie unifiée, afin que les noms de plan de numérotation
     
@@ -114,11 +114,11 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     
       - Si vous choisissez d’utiliser la console de gestion Exchange, vous pouvez ajouter le plan de numérotation à partir de la feuille de propriétés du serveur. Pour des instructions spécifiques, voir la documentation du produit Exchange Server.
         
-        Pour Exchange 2007, voir « procédure d’ajout d’un serveur de messagerie unifiée à un [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)plan de numérotation » à l’adresse.
+        Pour Exchange 2007, voir « procédure d’ajout d’un serveur de messagerie unifiée à un [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)plan de numérotation » à l’adresse.
         
-        Pour Exchange 2010, voir « afficher ou configurer les propriétés d’un serveur de messagerie unifiée » à l’adresse [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).
+        Pour Exchange 2010, voir « afficher ou configurer les propriétés d’un serveur de messagerie unifiée » à l’adresse [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682).
         
-        Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+        Pour Exchange 2013, voir « messagerie unifiée » [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
     
       - Si vous utilisez l’environnement de ligne de commande Exchange Management Shell, exécutez ce qui suit pour chaque serveur de messagerie unifiée Exchange :
         ```powershell
@@ -131,7 +131,7 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     
 
     > [!NOTE]  
-    > Avant d’effectuer l’étape suivante, vérifiez que tous les utilisateurs de Voix Entreprise ont été configurés avec une boîte aux lettres Exchange Server.<BR>Pour Exchange 2007, reportez-vous à la bibliothèque <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>TechNet exchange Server 2007 à l’adresse.<BR>Pour Exchange 2010, reportez-vous à la bibliothèque <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>TechNet exchange Server 2010 à l’adresse.<BR>Lorsque vous spécifiez une stratégie de boîte aux lettres pour chaque plan de numérotation créé à l’étape 1, vous pouvez sélectionner la stratégie par défaut ou une stratégie que vous avez créée.
+    > Avant d’effectuer l’étape suivante, vérifiez que tous les utilisateurs de Voix Entreprise ont été configurés avec une boîte aux lettres Exchange Server.<BR>Pour Exchange 2007, reportez-vous à la bibliothèque <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>TechNet exchange Server 2007 à l’adresse.<BR>Pour Exchange 2010, reportez-vous à la bibliothèque <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>TechNet exchange Server 2010 à l’adresse.<BR>Lorsque vous spécifiez une stratégie de boîte aux lettres pour chaque plan de numérotation créé à l’étape 1, vous pouvez sélectionner la stratégie par défaut ou une stratégie que vous avez créée.
 
     
     </div>
@@ -181,9 +181,9 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Pour Exchange 2007, voir « Set-UMIPGateway : Exchange 2007 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)l’adresse.
+        Pour Exchange 2007, voir « Set-UMIPGateway : Exchange 2007 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)l’adresse.
         
-        Pour Exchange 2010, voir « Set-UMIPGateway : Exchange 2010 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)l’adresse.
+        Pour Exchange 2010, voir « Set-UMIPGateway : Exchange 2010 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)l’adresse.
     
       - Si vous utilisez la console de gestion Exchange, désactivez la case à cocher **Autoriser les appels sortants via cette passerelle IP de messagerie unifiée**.
     
@@ -212,9 +212,9 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     ```
     Pour plus d’informations, voir :
     
-      - Pour Exchange 2007, voir « New-UMAutoAttendant : Exchange 2007 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)l’adresse.
+      - Pour Exchange 2007, voir « New-UMAutoAttendant : Exchange 2007 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)l’adresse.
     
-      - Pour Exchange 2010, voir « New-UMAutoAttendant : Exchange 2010 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)l’adresse.
+      - Pour Exchange 2010, voir « New-UMAutoAttendant : Exchange 2010 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)l’adresse.
     
     L’étape suivante doit être effectuée pour chaque utilisateur une fois que vous avez activé les utilisateurs de Lync Server pour voix entreprise et que vous connaissiez leurs URI SIP.
 
@@ -234,9 +234,9 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange (MU) s
     ```
     Pour obtenir des informations détaillées, voir :
     
-      - Pour Exchange 2007, voir « Enable-UMMailbox : Exchange 2007 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)l’adresse.
+      - Pour Exchange 2007, voir « Enable-UMMailbox : Exchange 2007 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)l’adresse.
     
-      - Pour Exchange 2010, voir « Enable-UMMailbox : Exchange 2010 Help » à [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)l’adresse.
+      - Pour Exchange 2010, voir « Enable-UMMailbox : Exchange 2010 Help » à [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)l’adresse.
 
 </div>
 

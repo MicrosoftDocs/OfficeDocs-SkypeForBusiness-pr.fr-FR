@@ -12,18 +12,18 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 05c1e366c797eb0c626d00744ef6f0088d28e465
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050696"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="server-performance-report-in-lync-server-2013"></a>Rapport de performances du serveur dans Lync Server 2013
 
@@ -136,7 +136,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong>, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</p>
 <ol>
 <li><p>Tous les</p></li>
-<li><p>5 </p></li>
+<li><p>disque</p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

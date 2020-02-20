@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030788"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>Administration système dans Lync Server 2013
 
@@ -75,7 +75,7 @@ Le diagramme suivant illustre le processus de résolution des problèmes et les 
 
 Les outils du service d’assistance permettent aux employés d’enregistrer, de classer et de classer par priorité les nouveaux problèmes. Les outils fournissent ensuite les processus de flux de travail pour gérer la demande de service de problème par le biais d’une enquête et d’un diagnostic, souvent par plusieurs équipes de support technique. Les outils, qui fournissent fréquemment des rapports sur les temps de résolution et les tendances historiques, peuvent également inclure une base de données de la base de connaissances, qui peut être utilisée pour effectuer des recherches dans les problèmes précédents.
 
-La base de connaissances Microsoft est un enregistrement utile des problèmes de support rencontrés par Microsoft. Pour plus d’informations, consultez le site Web du<http://go.microsoft.com/fwlink/?linkid=14898>support Microsoft ().
+La base de connaissances Microsoft est un enregistrement utile des problèmes de support rencontrés par Microsoft. Pour plus d’informations, consultez le site Web du<https://go.microsoft.com/fwlink/?linkid=14898>support Microsoft ().
 
 Les logiciels tiers nécessitent généralement une personnalisation pour répondre aux besoins de l’organisation, tels que l’Organisation des équipes, les exigences en matière de création de rapports et les mesures requises par le contrat SLA.
 

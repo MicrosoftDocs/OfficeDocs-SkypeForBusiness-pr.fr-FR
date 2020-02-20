@@ -12,18 +12,18 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2bdc3ee4b25e6e60dfb22ae7a1abe3c6bf7b2cb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030918"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-software-support-in-lync-server-2013"></a>Prise en charge du logiciel client Lync dans Lync Server 2013
 
@@ -124,9 +124,9 @@ Cette section récapitule la prise en charge logicielle de Lync 2013 et le compl
 
 Lync 2013 est uniquement disponible pour Windows. Toutefois, Lync Server 2013 prend en charge les clients suivants sur les ordinateurs qui exécutent Mac OS 10.5.8 ou les systèmes d’exploitation les plus récents Service Pack ou version (les systèmes d’exploitation Mac OS 10,9 ne sont actuellement pas pris en charge). Pour plus d’informations sur les fonctionnalités prises en charge, reportez-vous [aux tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Lync pour Mac 2011 (voir « Guide de déploiement de Lync pour Mac 2011 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)» à l’adresse)
+  - Microsoft Lync pour Mac 2011 (voir « Guide de déploiement de Lync pour Mac 2011 [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786)» à l’adresse)
 
-  - Microsoft Communicator pour Mac 2011 (voir « Guide de déploiement de Communicator pour Mac 2011 » à [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)l’adresse)
+  - Microsoft Communicator pour Mac 2011 (voir « Guide de déploiement de Communicator pour Mac 2011 » à [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787)l’adresse)
 
 </div>
 
@@ -156,7 +156,7 @@ Les clients Lync Server 2013 prennent en charge l’intégration à différentes
 
 ## <a name="using-mandatory-profiles"></a>Utilisation de profils obligatoires
 
-Si les utilisateurs envisagent d’utiliser les fonctionnalités de conférence Lync 2013, ils ne doivent pas utiliser les profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, consultez l’article 2552221 de la base de connaissances Microsoft « la fonctionnalité de conférence Lync 2010 échoue lorsque l’utilisateur est connecté à l' [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)aide d’un profil d’utilisateur obligatoire » à l’adresse.
+Si les utilisateurs envisagent d’utiliser les fonctionnalités de conférence Lync 2013, ils ne doivent pas utiliser les profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, consultez l’article 2552221 de la base de connaissances Microsoft « la fonctionnalité de conférence Lync 2010 échoue lorsque l’utilisateur est connecté à l' [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)aide d’un profil d’utilisateur obligatoire » à l’adresse.
 
 </div>
 

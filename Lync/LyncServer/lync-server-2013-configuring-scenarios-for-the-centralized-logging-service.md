@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041023"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Configuration des scénarios pour le service de journalisation centralisée dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041023"
 
 _**Dernière modification de la rubrique :** 2014-02-05_
 
-Les scénarios définissent l’étendue (globale, de site, de pool ou d’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisée. À l’aide de scénarios, vous activez ou désactivez le suivi des fournisseurs (par exemple, S4, SIPStack, messagerie instantanée et présence). En configurant un scénario, vous pouvez regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique. Si vous constatez qu’un scénario doit être modifié pour répondre à vos besoins de résolution des problèmes et de journalisation, les outils de débogage Lync Server 2013 vous fournissent un module Windows PowerShell nommé *ClsController. psm1* qui contient une fonction nommée *Edit-CsClsScenario*. Grâce à ce module, vous pouvez modifier les propriétés du scénario nommé. Des exemples d’utilisation de ce module sont fournis dans cette rubrique. Les outils de débogage Lync Server 2013 sont téléchargés à partir du lien suivant :[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Les scénarios définissent l’étendue (globale, de site, de pool ou d’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisée. À l’aide de scénarios, vous activez ou désactivez le suivi des fournisseurs (par exemple, S4, SIPStack, messagerie instantanée et présence). En configurant un scénario, vous pouvez regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique. Si vous constatez qu’un scénario doit être modifié pour répondre à vos besoins de résolution des problèmes et de journalisation, les outils de débogage Lync Server 2013 vous fournissent un module Windows PowerShell nommé *ClsController. psm1* qui contient une fonction nommée *Edit-CsClsScenario*. Grâce à ce module, vous pouvez modifier les propriétés du scénario nommé. Des exemples d’utilisation de ce module sont fournis dans cette rubrique. Les outils de débogage Lync Server 2013 sont téléchargés à partir du lien suivant :[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -114,7 +114,7 @@ Comme présenté dans la [rubrique vue d’ensemble du service de journalisation
     
 
     > [!NOTE]  
-    > Comme il est connu dans Windows PowerShell, la Convention de création d’une table de hachage des <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> valeurs à l’aide de est appelée « <EM>projection</EM>». Pour plus d’informations sur la projection dans Windows PowerShell, <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>reportez-vous à la rubrique.
+    > Comme il est connu dans Windows PowerShell, la Convention de création d’une table de hachage des <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> valeurs à l’aide de est appelée « <EM>projection</EM>». Pour plus d’informations sur la projection dans Windows PowerShell, <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>reportez-vous à la rubrique.
 
     
     </div>

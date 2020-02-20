@@ -12,18 +12,18 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88e0d822e14ea1792751338bd3606766cc98ab96
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6513af4598f36aa510181e6971ccb6962cd44f91
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006700"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Configuration technique requise pour IPv6 dans Lync Server 2013
 
@@ -60,9 +60,9 @@ Si vous envisagez de configurer Lync Server 2013 pour IPv6, gardez les exigences
 ## <a name="see-also"></a>Voir aussi
 
 
-[Architecture d’adressage IP version 6](http://tools.ietf.org/html/rfc4291)  
-[Format d’adresse unicast global IPv6](http://tools.ietf.org/html/rfc3587)  
-[Adresses unicast IPv6 locales uniques](http://tools.ietf.org/html/rfc4193)  
+[Architecture d’adressage IP version 6](https://tools.ietf.org/html/rfc4291)  
+[Format d’adresse unicast global IPv6](https://tools.ietf.org/html/rfc3587)  
+[Adresses unicast IPv6 locales uniques](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

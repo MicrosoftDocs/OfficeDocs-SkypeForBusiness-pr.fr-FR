@@ -12,18 +12,18 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b950b8ff778ee48014dc951d89baafab59510c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bb14153739c5f29e88044eae89a1322b046a0a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048217"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Activation de la connectivité Lync-Skype dans Lync Server 2013
 
@@ -87,9 +87,9 @@ La Fédération est nécessaire pour permettre aux utilisateurs de Skype de comm
 
 </div>
 
-1.  Pour configurer la Fédération et PIC, voir « Activer ou désactiver la Fédération et la connectivité PIC [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)» à l’adresse.
+1.  Pour configurer la Fédération et PIC, voir « Activer ou désactiver la Fédération et la connectivité PIC [https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063)» à l’adresse.
 
-2.  Pour configurer au moins une stratégie pour prendre en charge l’accès des utilisateurs fédérés, voir « Configurer des stratégies pour contrôler [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)l’accès des utilisateurs publics » à l’adresse.
+2.  Pour configurer au moins une stratégie pour prendre en charge l’accès des utilisateurs fédérés, voir « Configurer des stratégies pour contrôler [https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064)l’accès des utilisateurs publics » à l’adresse.
 
 **Pour modifier un fournisseur de messagerie instantanée Messenger ou Skype existant et le configurer pour Skype**
 
@@ -123,7 +123,7 @@ La Fédération est nécessaire pour permettre aux utilisateurs de Skype de comm
     
     ![Ajouter un contact Skype](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Ajouter un contact Skype")
 
-4.  Pour plus d’informations sur la modification des fournisseurs hébergés, consultez la rubrique « créer ou modifier des [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)fournisseurs fédérés SIP hébergés » à l’adresse.
+4.  Pour plus d’informations sur la modification des fournisseurs hébergés, consultez la rubrique « créer ou modifier des [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)fournisseurs fédérés SIP hébergés » à l’adresse.
 
 Cette opération termine les tâches d’administration qui doivent être effectuées sur le serveur. Vous êtes maintenant configuré pour la connectivité Lync-Skype.
 

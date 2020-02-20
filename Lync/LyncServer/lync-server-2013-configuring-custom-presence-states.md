@@ -12,18 +12,18 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 304bd14e62f6ee9c629dfcf43e37cb8ee7880cb6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046477"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Configuration des États de présence personnalisés dans Lync Server 2013
 
@@ -70,7 +70,7 @@ Les fichiers de configuration ont les propriétés suivantes :
 
 </div>
 
-Localisez votre état de présence personnalisé en spécifiant un ou plusieurs schémas d’ID de paramètres régionaux (LCID) dans le fichier de configuration XML. L’exemple ci-dessous montre la localisation en anglais-États-Unis (1033), Norvégien-Bokmål (1044), français-France (1036) et turc (1055). Pour obtenir la liste des LCID, consultez la rubrique paramètres régionaux attribués <http://go.microsoft.com/fwlink/p/?linkid=157331>par Microsoft à l’adresse.
+Localisez votre état de présence personnalisé en spécifiant un ou plusieurs schémas d’ID de paramètres régionaux (LCID) dans le fichier de configuration XML. L’exemple ci-dessous montre la localisation en anglais-États-Unis (1033), Norvégien-Bokmål (1044), français-France (1036) et turc (1055). Pour obtenir la liste des LCID, consultez la rubrique paramètres régionaux attribués <https://go.microsoft.com/fwlink/p/?linkid=157331>par Microsoft à l’adresse.
 
 <div>
 

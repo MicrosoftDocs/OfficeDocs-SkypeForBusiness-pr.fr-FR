@@ -12,18 +12,18 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19bb9bbba1d9a247b2c33a4ae0fd95f9a8e4553a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 68681e172c4683a29bb676630250f7268e20fade
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048167"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-user-account-settings-in-lync-server-2013"></a>Configurer les paramètres de compte d’utilisateur dans Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2012-10-05_
 
 Les utilisateurs d’appels entrants doivent entrer un numéro de téléphone ou de poste, ainsi qu’un code confidentiel pour participer à des conférences en qualité d’utilisateurs authentifiés. L’URI de **ligne** de téléphonie spécifié sur les comptes d’utilisateur Lync Server est requis pour l’authentification.
 
-La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un seul compte d’utilisateur. Si vous devez affecter un **URI de ligne** à plusieurs comptes d’utilisateur, vous pouvez créer un script qui utilise l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un **URI de ligne** à plusieurs comptes d’utilisateur, voir « [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)attribuer des URI de ligne à plusieurs utilisateurs » à l’adresse.
+La procédure décrite dans cette rubrique explique comment affecter un **URI de ligne** pour un seul compte d’utilisateur. Si vous devez affecter un **URI de ligne** à plusieurs comptes d’utilisateur, vous pouvez créer un script qui utilise l’applet de commande **Set-CsUser**. Pour plus d’informations sur l’utilisation d’un exemple de script pour attribuer un **URI de ligne** à plusieurs comptes d’utilisateur, voir « [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945)attribuer des URI de ligne à plusieurs utilisateurs » à l’adresse.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2662225ac8aa00383b38deec3825a6f26b9dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a03a5c312123d714eebe8d49674a19ce712e37bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034986"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-security-features-in-lync-server-2013"></a>Principales fonctionnalités de sécurité dans Lync Server 2013
 
@@ -127,7 +127,7 @@ L’Assistant Déploiement peut remplir automatiquement les noms du sujet et les
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>Cycle de vie de développement de la sécurité informatique de confiance (SDL)
 
-Lync Server 2013 est conçu et développé conformément au cycle de vie de développement de la sécurité Microsoft Trustworthy Computing (SDL), <http://go.microsoft.com/fwlink/?linkid=68761>qui est décrit à l’adresse.
+Lync Server 2013 est conçu et développé conformément au cycle de vie de développement de la sécurité Microsoft Trustworthy Computing (SDL), <https://go.microsoft.com/fwlink/?linkid=68761>qui est décrit à l’adresse.
 
   - **Fiabilité par conception**   la première étape de la création d’un système de communications unifiées plus sécurisé consistait à concevoir des modèles de menaces et à tester chaque fonctionnalité au fur et à mesure de leur conception. De plus, Microsoft effectue des tests en dehors du comportement conçu afin de trouver des failles de sécurité résultant d’un comportement inattendu du produit. Plusieurs améliorations liées à la sécurité ont été intégrées dans le processus et les pratiques de codage. Au moment de la création, des outils détectent les dépassements de mémoire tampon et d’autres risques de sécurité potentiels avant l’archivage du code dans le produit final. Bien entendu, il est impossible de concevoir un produit capable de contrer toutes les menaces de sécurité encore inconnues. Aucun système ne saurait garantir une sécurité à toute épreuve. Toutefois, étant donné que le développement de produits a adopté des principes de conception sécurisée dès le départ, Lync Server 2013 incorpore des technologies de sécurité standard en tant que partie fondamentale de son architecture.
 

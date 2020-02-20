@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029805"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>Configurations hybrides Lync Server 2013 prises en charge
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029805"
 
 _**Dernière modification de la rubrique :** 2016-05-10_
 
-Vous pouvez configurer les déploiements Lync Server 2013 en vue de l’intégration à Microsoft Exchange Server 2010 et Microsoft Exchange Server 2013 et SharePoint Server, en local et en ligne. Sauf indication contraire, les fonctionnalités répertoriées dans le tableau suivant sont prises en charge avec tous les clients. Pour plus d’informations sur la prise en charge des clients, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) et Skype entreprise Online-tableaux de comparaison des [clients pour Skype entreprise Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+Vous pouvez configurer les déploiements Lync Server 2013 en vue de l’intégration à Microsoft Exchange Server 2010 et Microsoft Exchange Server 2013 et SharePoint Server, en local et en ligne. Sauf indication contraire, les fonctionnalités répertoriées dans le tableau suivant sont prises en charge avec tous les clients. Pour plus d’informations sur la prise en charge des clients, reportez-vous aux [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) et Skype entreprise Online-tableaux de comparaison des [clients pour Skype entreprise Online](https://go.microsoft.com/fwlink/p/?linkid=281902).
 
 <div>
 
@@ -141,7 +141,7 @@ Le tableau suivant répertorie les fonctionnalités prises en charge dans un dé
 <li><p>L’historique des conversations manquées et les journaux d’appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur</p></li>
 <li><p>Archivage de contenu (messagerie instantanée et réunion) dans Exchange.</p>
 <p>Pour plus d’informations, consultez la rubrique <a href="lync-server-2013-deployment-checklist-for-archiving.md">relative à la liste de vérification du déploiement pour l’archivage dans Lync Server 2013</a></p></li>
-<li><p>Rechercher du contenu archivé. Pour plus d’informations, reportez-vous à la rubrique <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">configurer Exchange pour le centre EDiscovery SharePoint</a></p></li>
+<li><p>Rechercher du contenu archivé. Pour plus d’informations, reportez-vous à la rubrique <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">configurer Exchange pour le centre EDiscovery SharePoint</a></p></li>
 <li><p>Messagerie vocale. Pour plus d’informations, consultez la rubrique Présentation <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">de la messagerie vocale des utilisateurs Lync Server 2013 sur une messagerie unifiée Exchange hébergée</a></p></li>
 </ul></td>
 </tr>

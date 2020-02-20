@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030998"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurer Lync Server 2013 pour qu’il fonctionne avec la messagerie unifiée sur Microsoft Exchange Server
 
@@ -57,8 +57,8 @@ Lorsque vous exécutez l’utilitaire d’intégration de la messagerie unifiée
 > Avant d’exécuter l’utilitaire d’intégration de la messagerie unifiée Exchange, assurez-vous que vous avez réalisé les opérations suivantes :
 > <ul>
 > <li><p>Créez un ou plusieurs plans de numérotation de messagerie unifiée Exchange, comme décrit dans la documentation du produit Exchange.</p>
-> <p>Pour Microsoft Exchange Server 2010, consultez &quot;la rubrique créer un plan&quot; de <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>numérotation de messagerie unifiée à l’adresse.</p>
-> <p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), consultez &quot;la rubrique How to Create a Unified Messaging SIP URI SIP dial plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <p>Pour Microsoft Exchange Server 2010, consultez &quot;la rubrique créer un plan&quot; de <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>numérotation de messagerie unifiée à l’adresse.</p>
+> <p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), consultez &quot;la rubrique How to Create a Unified Messaging SIP URI SIP dial plan&quot; at <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
 > <li><p>Créez un ou plusieurs plans de numérotation Lync Server correspondants, comme décrit dans <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</p></li>
 > <ul><li>Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet (FQDN) du plan de numérotation SIP de messagerie unifiée Exchange correspondant dans le champ <STRONG>nom simple</STRONG> du plan de numérotation de Lync Server 2013. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le Service Pack le plus récent, cette correspondance de nom de plan de numérotation n’est pas nécessaire.</li></ul>
 > <li>Créez un standard automatique et assurez-vous que le numéro d’accès abonné et le numéro du standard automatique sont au format E.164.</li></ul>

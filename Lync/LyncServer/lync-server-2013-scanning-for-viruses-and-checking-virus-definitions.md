@@ -12,18 +12,18 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1825b96cc4ef2c0c71e04b369f1cf116b8070eb4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1bc6704329dbc124bb61f779bf773a1f55bd72d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049596"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Recherche de virus et vérification des définitions de virus dans Lync Server 2013
 
@@ -47,7 +47,7 @@ La mise à jour des moteurs de scanneurs et des définitions de virus est très 
 
 
 > [!IMPORTANT]  
-> Lors de l’utilisation d’un logiciel antivirus de niveau fichier tiers sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et Lync Server sont installés ne sont pas analysés, afin d’empêcher leur corruption. Pour obtenir la liste complète des exclusions, <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>reportez-vous à la rubrique.
+> Lors de l’utilisation d’un logiciel antivirus de niveau fichier tiers sur un serveur qui exécute Lync Server 2013 et Forefront Security pour Lync Server, assurez-vous que les dossiers dans lesquels Forefront Security pour Lync Server et Lync Server sont installés ne sont pas analysés, afin d’empêcher leur corruption. Pour obtenir la liste complète des exclusions, <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>reportez-vous à la rubrique.
 
 
 

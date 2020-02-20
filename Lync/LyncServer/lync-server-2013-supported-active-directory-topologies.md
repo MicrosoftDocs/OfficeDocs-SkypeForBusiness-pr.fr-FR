@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029845"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologies Active Directory prises en charge dans Lync Server 2013
 
@@ -159,7 +159,7 @@ Le diagramme suivant illustre une topologie de forêt de ressources.
 
 Dans cette topologie, une ou plusieurs forêts sont situées sur site et sont dédiées à l’hébergement des comptes d’utilisateur Active Directory. La forêt de ressources se trouve hors site et est gérée par un fournisseur d’hébergement tiers. La forêt de ressources contient uniquement le déploiement Lync Server et une réplication synchronisée des comptes d’utilisateur à partir des forêts de comptes d’utilisateurs locaux. Il ne contient pas de comptes d’utilisateur à extension connexion. Exchange est déployé dans les forêts de compte d’utilisateur locales intégrées avec Exchange Online (hybride), ou les services de messagerie pour les comptes d’utilisateur locaux sont fournis exclusivement par Exchange Online.
 
-La forêt de ressources agit comme un environnement de services partagés pour les forêts Active Directory locales où les objets utilisateur résident. Les forêts de compte d’utilisateur ont une relation d’approbation de niveau forêt unidirectionnelle avec la forêt de ressources. Lorsque vous déployez Lync Server dans ce type de topologie, vous créez un objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur dans les forêts d’utilisateurs. Une application de synchronisation d’annuaires, tel que MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateur. Lorsqu’un nouveau compte d’utilisateurs est créé dans l’une des forêts d’utilisateurs ou lorsqu’un compte d’utilisateur est supprimé d’une forêt, l’application de synchronisation d’annuaires synchronise la représentation d’utilisateur correspondante dans la forêt de ressources. Pour plus d’informations sur la configuration d’un déploiement à forêts multiples, reportez-vous à la rubrique [Deploying Lync in a multi-Forest architecture (Partner Hosted Lync with Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+La forêt de ressources agit comme un environnement de services partagés pour les forêts Active Directory locales où les objets utilisateur résident. Les forêts de compte d’utilisateur ont une relation d’approbation de niveau forêt unidirectionnelle avec la forêt de ressources. Lorsque vous déployez Lync Server dans ce type de topologie, vous créez un objet utilisateur désactivé dans la forêt de ressources pour chaque compte d’utilisateur dans les forêts d’utilisateurs. Une application de synchronisation d’annuaires, tel que MIIS, Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateur. Lorsqu’un nouveau compte d’utilisateurs est créé dans l’une des forêts d’utilisateurs ou lorsqu’un compte d’utilisateur est supprimé d’une forêt, l’application de synchronisation d’annuaires synchronise la représentation d’utilisateur correspondante dans la forêt de ressources. Pour plus d’informations sur la configuration d’un déploiement à forêts multiples, reportez-vous à la rubrique [Deploying Lync in a multi-Forest architecture (Partner Hosted Lync with Exchange Hybrid)](https://go.microsoft.com/fwlink/p/?linkid=513216).
 
 </div>
 

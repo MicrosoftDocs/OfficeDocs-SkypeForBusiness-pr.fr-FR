@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006730"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Configuration technique requise pour les conférences dans Lync Server 2013
 
@@ -194,9 +194,9 @@ La page Paramètres de conférence rendez-vous prend en charge les combinaisons 
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Exigences concernant les fichiers audio pour la conférence rendez-vous
 
-Lync Server 2013 ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences rendez-vous. Toutefois, si vous avez un besoin important de votre entreprise qui nécessite de modifier les fichiers audio par défaut, consultez l’article 961177 de la base de connaissances Microsoft, [Comment personnaliser les invites vocales ou les fichiers musicaux pour les conférences audio de rendez-vous dans Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences rendez-vous. Toutefois, si vous avez un besoin important de votre entreprise qui nécessite de modifier les fichiers audio par défaut, consultez l’article 961177 de la base de connaissances Microsoft, [Comment personnaliser les invites vocales ou les fichiers musicaux pour les conférences audio de rendez-vous dans Microsoft Office Communications Server 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Vous pouvez également utiliser l’utilitaire de gestion des [invites vocales personnalisées du service de conférence Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant téléphonique rejoint une réunion Lync avec des invites personnalisées pour fournir une autre expérience d’entrée de réunion. Les invites vocales personnalisées peuvent être installées sur un serveur qui exécute Lync Server 2010 ou Lync Server 2013, Enterprise ou Standard Edition.
+Vous pouvez également utiliser l’utilitaire de gestion des [invites vocales personnalisées du service de conférence Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkid=396880) , qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant téléphonique rejoint une réunion Lync avec des invites personnalisées pour fournir une autre expérience d’entrée de réunion. Les invites vocales personnalisées peuvent être installées sur un serveur qui exécute Lync Server 2010 ou Lync Server 2013, Enterprise ou Standard Edition.
 
 Application de surveillance de conférence et application d’annonce de conférence ont les exigences suivantes en matière d’attente musicale, de nom enregistré et de fichiers d’invite audio :
 

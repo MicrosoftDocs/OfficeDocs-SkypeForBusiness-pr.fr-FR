@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044536"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurer des certificats pour l’interface Edge externe pour Lync Server 2013
 
@@ -51,7 +51,7 @@ Chaque serveur Edge nécessite un certificat public sur l’interface entre le r
 
 Pour plus d’informations à ce sujet et sur d’autres exigences de certificat, voir [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server 2013, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)unifiées pour Exchange Server et Communications Server » à l’adresse.
+Pour obtenir la liste des autorités de certification publiques qui fournissent des certificats conformes aux exigences spécifiques pour les certificats de communications unifiées et qui ont conclu un partenariat avec Microsoft afin de s’assurer qu’ils fonctionnent avec l’Assistant Certificat Lync Server 2013, consultez l’article 929395 de la base de connaissances Microsoft « partenaires de certificat de communications [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)unifiées pour Exchange Server et Communications Server » à l’adresse.
 
 <div>
 
