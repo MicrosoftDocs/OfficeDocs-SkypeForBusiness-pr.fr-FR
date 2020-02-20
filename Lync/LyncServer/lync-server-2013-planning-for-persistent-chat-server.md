@@ -12,20 +12,20 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf28684443b93dbd6d3d1d769ca545177f6cfa0f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cda48e5ab61af965d719298533227c8e473d9a15
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049976"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="44195-102">Planification du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-102">Planning for Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="d0b9c-102">Planification du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-102">Planning for Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42049976"
 
 <span> </span>
 
-<span data-ttu-id="44195-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="44195-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="d0b9c-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="d0b9c-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="44195-104">Vous pouvez utiliser Lync Server 2013, le serveur de conversation permanente pour permettre à plusieurs utilisateurs de participer à des conversations dans lesquels ils publient du contenu sur des sujets spécifiques, y compris du texte, des liens et des fichiers.</span><span class="sxs-lookup"><span data-stu-id="44195-104">You can use Lync Server 2013, Persistent Chat Server to enable multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files.</span></span> <span data-ttu-id="44195-105">Bien que les utilisateurs puissent communiquer en temps réel pendant une session, le contenu de chaque session est permanent, ce qui signifie qu’il reste disponible après la fin d’une session.</span><span class="sxs-lookup"><span data-stu-id="44195-105">Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.</span></span>
+<span data-ttu-id="d0b9c-104">Vous pouvez utiliser Lync Server 2013, le serveur de conversation permanente pour permettre à plusieurs utilisateurs de participer à des conversations dans lesquels ils publient du contenu sur des sujets spécifiques, y compris du texte, des liens et des fichiers.</span><span class="sxs-lookup"><span data-stu-id="d0b9c-104">You can use Lync Server 2013, Persistent Chat Server to enable multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files.</span></span> <span data-ttu-id="d0b9c-105">Bien que les utilisateurs puissent communiquer en temps réel pendant une session, le contenu de chaque session est permanent, ce qui signifie qu’il reste disponible après la fin d’une session.</span><span class="sxs-lookup"><span data-stu-id="d0b9c-105">Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.</span></span>
 
-<span data-ttu-id="44195-106">Cette section décrit les considérations relatives à la planification dans un déploiement de serveur de conversation permanente Lync Server 2013, y compris la définition des exigences, l’identification des composants et des topologies prises en charge, ainsi que les recommandations en matière de déploiement.</span><span class="sxs-lookup"><span data-stu-id="44195-106">This section describes planning considerations in a Lync Server 2013, Persistent Chat Server deployment, including defining requirements, identifying components and supported topologies, and deployment recommendations.</span></span>
+<span data-ttu-id="d0b9c-106">Cette section décrit les considérations relatives à la planification dans un déploiement de serveur de conversation permanente Lync Server 2013, y compris la définition des exigences, l’identification des composants et des topologies prises en charge, ainsi que les recommandations en matière de déploiement.</span><span class="sxs-lookup"><span data-stu-id="d0b9c-106">This section describes planning considerations in a Lync Server 2013, Persistent Chat Server deployment, including defining requirements, identifying components and supported topologies, and deployment recommendations.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="44195-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="44195-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d0b9c-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d0b9c-107">In This Section</span></span>
 
-  - [<span data-ttu-id="44195-108">Vue d’ensemble du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-108">Vue d’ensemble du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)
 
-  - [<span data-ttu-id="44195-109">Fonctionnement du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-109">How Persistent Chat Server works in Lync Server 2013</span></span>](lync-server-2013-how-persistent-chat-server-works.md)
+  - [<span data-ttu-id="d0b9c-109">Fonctionnement du serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-109">How Persistent Chat Server works in Lync Server 2013</span></span>](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [<span data-ttu-id="44195-110">Définition des besoins de votre organisation pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-110">Defining your organization's requirements for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-110">Définition des besoins de votre organisation pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-110">Defining your organization's requirements for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="44195-111">Composants et topologies pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-111">Components and topologies for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-111">Composants et topologies pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-111">Components and topologies for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="44195-112">Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-112">Technical requirements for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-112">Configuration technique requise pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-112">Technical requirements for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="44195-113">Configuration des systèmes et de l’infrastructure pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-113">Setting up systems and infrastructure for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-113">Configuration des systèmes et de l’infrastructure pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-113">Setting up systems and infrastructure for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="44195-114">Liste de vérification du déploiement pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44195-114">Deployment checklist for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
+  - [<span data-ttu-id="d0b9c-114">Liste de vérification du déploiement pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0b9c-114">Deployment checklist for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
 
 </div>
 

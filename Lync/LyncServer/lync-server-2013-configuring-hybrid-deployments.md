@@ -12,20 +12,20 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4e1192882a7727ca4388b09a8644253be889b25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4010357afd2f40338316c9b66208409a2a9d593c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030568"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="dc76f-102">Configuration des déploiements hybrides Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc76f-102">Configuring Lync Server 2013 hybrid deployments</span></span>
+# <a name="configuring-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="27b01-102">Configuration des déploiements hybrides Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27b01-102">Configuring Lync Server 2013 hybrid deployments</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42030568"
 
 <span> </span>
 
-<span data-ttu-id="dc76f-103">_**Dernière modification de la rubrique :** 2016-05-26_</span><span class="sxs-lookup"><span data-stu-id="dc76f-103">_**Topic Last Modified:** 2016-05-26_</span></span>
+<span data-ttu-id="27b01-103">_**Dernière modification de la rubrique :** 2016-05-26_</span><span class="sxs-lookup"><span data-stu-id="27b01-103">_**Topic Last Modified:** 2016-05-26_</span></span>
 
-<span data-ttu-id="dc76f-104">Cette section décrit les étapes nécessaires à la configuration de déploiements hybrides de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc76f-104">This section describes the steps necessary for configuring hybrid Lync Server 2013 deployments.</span></span>
+<span data-ttu-id="27b01-104">Cette section décrit les étapes nécessaires à la configuration de déploiements hybrides de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27b01-104">This section describes the steps necessary for configuring hybrid Lync Server 2013 deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dc76f-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="dc76f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="27b01-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="27b01-105">In This Section</span></span>
 
-  - <span data-ttu-id="dc76f-106">Si vous disposez d’un déploiement Lync local et que vous souhaitez déplacer certains utilisateurs vers le Cloud pour utiliser Lync Online dans Office 365, reportez-vous à la rubrique [Configuring an on-premises Deployment for Hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span><span class="sxs-lookup"><span data-stu-id="dc76f-106">If you have an on-premises Lync deployment, and want to move some users to the cloud to use Lync Online in Office 365, see [Configuring an on-premises deployment for hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span></span>
+  - <span data-ttu-id="27b01-106">Si vous disposez d’un déploiement Lync local et que vous souhaitez déplacer certains utilisateurs vers le Cloud pour utiliser Lync Online dans Office 365, reportez-vous à la rubrique [Configuring an on-premises Deployment for Hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span><span class="sxs-lookup"><span data-stu-id="27b01-106">If you have an on-premises Lync deployment, and want to move some users to the cloud to use Lync Online in Office 365, see [Configuring an on-premises deployment for hybrid with Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).</span></span>
 
-  - <span data-ttu-id="dc76f-107">Si des utilisateurs sont activés pour Lync dans Lync Online, mais qui n’ont pas été activés dans un déploiement local, reportez-vous à la rubrique [déplacement d’utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span><span class="sxs-lookup"><span data-stu-id="dc76f-107">If you have users enabled for Lync in Lync Online, but that have not been enabled in an on-premises deployment, see [Moving users from Lync Online to Lync on-premises in Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span></span>
+  - <span data-ttu-id="27b01-107">Si des utilisateurs sont activés pour Lync dans Lync Online, mais qui n’ont pas été activés dans un déploiement local, reportez-vous à la rubrique [déplacement d’utilisateurs de Lync Online vers Lync sur site dans Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span><span class="sxs-lookup"><span data-stu-id="27b01-107">If you have users enabled for Lync in Lync Online, but that have not been enabled in an on-premises deployment, see [Moving users from Lync Online to Lync on-premises in Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="dc76f-108">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="dc76f-108">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="27b01-108">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="27b01-108">Related Sections</span></span>
 
-[<span data-ttu-id="dc76f-109">Planification des déploiements hybrides Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc76f-109">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+[<span data-ttu-id="27b01-109">Planification des déploiements hybrides Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27b01-109">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
 </div>
 

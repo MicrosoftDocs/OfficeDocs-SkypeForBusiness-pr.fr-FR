@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69ac9581ecc0e998c49a4731c9d89d1950d15f3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007994"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="24206-102">Prise en charge des navigateurs pour le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24206-102">Browser support for Lync Server 2013 Control Panel</span></span>
+# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="71273-102">Prise en charge des navigateurs pour le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71273-102">Browser support for Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42007994"
 
 <span> </span>
 
-<span data-ttu-id="24206-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="24206-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="71273-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="71273-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="24206-104">Lync Server 2013 prend en charge l’utilisation du générateur de topologie et le panneau de configuration Lync Server 2013 est pris en charge lors de l’utilisation des navigateurs suivants :</span><span class="sxs-lookup"><span data-stu-id="24206-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
+<span data-ttu-id="71273-104">Lync Server 2013 prend en charge l’utilisation du générateur de topologie et le panneau de configuration Lync Server 2013 est pris en charge lors de l’utilisation des navigateurs suivants :</span><span class="sxs-lookup"><span data-stu-id="71273-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
 
-  - <span data-ttu-id="24206-105">Internet Explorer 10, 32 bits</span><span class="sxs-lookup"><span data-stu-id="24206-105">Internet Explorer 10, 32-bit</span></span>
+  - <span data-ttu-id="71273-105">Internet Explorer 10, 32 bits</span><span class="sxs-lookup"><span data-stu-id="71273-105">Internet Explorer 10, 32-bit</span></span>
 
-  - <span data-ttu-id="24206-106">Internet Explorer 9, 32 bits</span><span class="sxs-lookup"><span data-stu-id="24206-106">Internet Explorer 9, 32-bit</span></span>
+  - <span data-ttu-id="71273-106">Internet Explorer 9, 32 bits</span><span class="sxs-lookup"><span data-stu-id="71273-106">Internet Explorer 9, 32-bit</span></span>
 
-  - <span data-ttu-id="24206-107">Internet Explorer 8, 32 bits</span><span class="sxs-lookup"><span data-stu-id="24206-107">Internet Explorer 8, 32 bit</span></span>
+  - <span data-ttu-id="71273-107">Internet Explorer 8, 32 bits</span><span class="sxs-lookup"><span data-stu-id="71273-107">Internet Explorer 8, 32 bit</span></span>
 
 </div>
 

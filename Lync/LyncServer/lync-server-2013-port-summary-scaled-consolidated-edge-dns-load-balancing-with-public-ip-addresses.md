@@ -12,20 +12,20 @@ ms:contentKeyID: 48185865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f49a5f14d66e921dc84c42553d3af6a6dddf925
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: df1a650feb27a4f104ae4077d0bf7d541cc5d7d9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034064"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="37eb2-102">Résumé des ports-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37eb2-102">Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>
+# <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a><span data-ttu-id="e26ae-102">Résumé des ports-serveur Edge consolidé ajusté, équilibrage de charge DNS avec adresses IP publiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e26ae-102">Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42034064"
 
 <span> </span>
 
-<span data-ttu-id="37eb2-103">_**Dernière modification de la rubrique :** 2013-04-03_</span><span class="sxs-lookup"><span data-stu-id="37eb2-103">_**Topic Last Modified:** 2013-04-03_</span></span>
+<span data-ttu-id="e26ae-103">_**Dernière modification de la rubrique :** 2013-04-03_</span><span class="sxs-lookup"><span data-stu-id="e26ae-103">_**Topic Last Modified:** 2013-04-03_</span></span>
 
-<span data-ttu-id="37eb2-104">La fonctionnalité de serveur Edge de Lync Server 2013 décrite dans cette architecture de scénario est très semblable à celle qui a été implémentée dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="37eb2-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="37eb2-105">L’ajout le plus notable est le port **5269 sur entrée TCP** pour le protocole XMPP (extensible Messaging and Presence Protocol).</span><span class="sxs-lookup"><span data-stu-id="37eb2-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="37eb2-106">Lync Server 2013 déploie éventuellement un proxy XMPP sur le serveur Edge ou le pool de serveurs Edge et le serveur de passerelle XMPP sur le serveur frontal ou le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="37eb2-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span>
+<span data-ttu-id="e26ae-104">La fonctionnalité de serveur Edge de Lync Server 2013 décrite dans cette architecture de scénario est très semblable à celle qui a été implémentée dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e26ae-104">The Lync Server 2013, Edge Server functionality described in this scenario architecture is very similar to what was implemented in Lync Server 2010.</span></span> <span data-ttu-id="e26ae-105">L’ajout le plus notable est le port **5269 sur entrée TCP** pour le protocole XMPP (extensible Messaging and Presence Protocol).</span><span class="sxs-lookup"><span data-stu-id="e26ae-105">The most noticeable addition is the port **5269 over TCP** entry for the extensible messaging and presence protocol (XMPP).</span></span> <span data-ttu-id="e26ae-106">Lync Server 2013 déploie éventuellement un proxy XMPP sur le serveur Edge ou le pool de serveurs Edge et le serveur de passerelle XMPP sur le serveur frontal ou le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="e26ae-106">Lync Server 2013 optionally deploys an XMPP proxy on the Edge Server or Edge pool and the XMPP gateway server on the Front End Server or Front End pool.</span></span>
 
-<span data-ttu-id="37eb2-107">Outre IPv4, le serveur Edge prend désormais en charge le protocole IPv6.</span><span class="sxs-lookup"><span data-stu-id="37eb2-107">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="37eb2-108">Par souci de clarté, seul IPv4 est utilisé dans les scénarios.</span><span class="sxs-lookup"><span data-stu-id="37eb2-108">For clarity, only IPv4 is used in the scenarios.</span></span>
+<span data-ttu-id="e26ae-107">Outre IPv4, le serveur Edge prend désormais en charge le protocole IPv6.</span><span class="sxs-lookup"><span data-stu-id="e26ae-107">In addition to IPv4, the Edge Server now supports IPv6.</span></span> <span data-ttu-id="e26ae-108">Par souci de clarté, seul IPv4 est utilisé dans les scénarios.</span><span class="sxs-lookup"><span data-stu-id="e26ae-108">For clarity, only IPv4 is used in the scenarios.</span></span>
 
-<span data-ttu-id="37eb2-109">**Réseau de périmètre d’entreprise pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques**</span><span class="sxs-lookup"><span data-stu-id="37eb2-109">**Enterprise perimeter network for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses**</span></span>
+<span data-ttu-id="e26ae-109">**Réseau de périmètre d’entreprise pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques**</span><span class="sxs-lookup"><span data-stu-id="e26ae-109">**Enterprise perimeter network for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses**</span></span>
 
-<span data-ttu-id="37eb2-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span><span class="sxs-lookup"><span data-stu-id="37eb2-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span></span>
+<span data-ttu-id="e26ae-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span><span class="sxs-lookup"><span data-stu-id="e26ae-110">![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")</span></span>
 
 <div>
 
-## <a name="port-and-protocol-details"></a><span data-ttu-id="37eb2-111">Détails des ports et protocoles</span><span class="sxs-lookup"><span data-stu-id="37eb2-111">Port and Protocol Details</span></span>
+## <a name="port-and-protocol-details"></a><span data-ttu-id="e26ae-111">Détails des ports et protocoles</span><span class="sxs-lookup"><span data-stu-id="e26ae-111">Port and Protocol Details</span></span>
 
-<span data-ttu-id="37eb2-112">Il est recommandé d’ouvrir uniquement les ports nécessaires à la prise en charge de la fonctionnalité pour laquelle vous fournissez un accès externe.</span><span class="sxs-lookup"><span data-stu-id="37eb2-112">It is recommended that you open only the ports required to support the functionality for which you are providing external access.</span></span>
+<span data-ttu-id="e26ae-112">Il est recommandé d’ouvrir uniquement les ports nécessaires à la prise en charge de la fonctionnalité pour laquelle vous fournissez un accès externe.</span><span class="sxs-lookup"><span data-stu-id="e26ae-112">It is recommended that you open only the ports required to support the functionality for which you are providing external access.</span></span>
 
-<span data-ttu-id="37eb2-113">Pour que l’accès à distance fonctionne pour tout service Edge, il est obligatoire d’autoriser un flux bidirectionnel du trafic SIP comme illustré dans la figure Trafic Edge entrant/sortant.</span><span class="sxs-lookup"><span data-stu-id="37eb2-113">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bi-directionally as shown in the Inbound/Outbound edge traffic figure.</span></span> <span data-ttu-id="37eb2-114">Autrement dit, la messagerie SIP vers et depuis le service Edge d’accès est impliquée dans la messagerie instantanée, la présence, la conférence Web, l’audio/vidéo (A/V) et la Fédération.</span><span class="sxs-lookup"><span data-stu-id="37eb2-114">Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V) and federation.</span></span>
+<span data-ttu-id="e26ae-113">Pour que l’accès à distance fonctionne pour tout service Edge, il est obligatoire d’autoriser un flux bidirectionnel du trafic SIP comme illustré dans la figure Trafic Edge entrant/sortant.</span><span class="sxs-lookup"><span data-stu-id="e26ae-113">For remote access to work for any edge service, it is mandatory that SIP traffic is allowed to flow bi-directionally as shown in the Inbound/Outbound edge traffic figure.</span></span> <span data-ttu-id="e26ae-114">Autrement dit, la messagerie SIP vers et depuis le service Edge d’accès est impliquée dans la messagerie instantanée, la présence, la conférence Web, l’audio/vidéo (A/V) et la Fédération.</span><span class="sxs-lookup"><span data-stu-id="e26ae-114">Stated another way, the SIP messaging to and from the Access Edge service is involved in instant messaging (IM), presence, web conferencing, audio/video (A/V) and federation.</span></span>
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-external-interface--node-1-and-node-2-example"></a><span data-ttu-id="37eb2-115">Résumé du pare-feu pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques : interface externe – nœud 1 et nœud 2 (exemple)</span><span class="sxs-lookup"><span data-stu-id="37eb2-115">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses: External Interface – Node 1 and Node 2 (Example)</span></span>
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-external-interface--node-1-and-node-2-example"></a><span data-ttu-id="e26ae-115">Résumé du pare-feu pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques : interface externe – nœud 1 et nœud 2 (exemple)</span><span class="sxs-lookup"><span data-stu-id="e26ae-115">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses: External Interface – Node 1 and Node 2 (Example)</span></span>
 
 <table>
 <colgroup>
@@ -64,114 +64,114 @@ ms.locfileid: "42034064"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37eb2-116">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="37eb2-116">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="37eb2-117">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="37eb2-117">Source IP address</span></span></th>
-<th><span data-ttu-id="37eb2-118">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="37eb2-118">Destination IP address</span></span></th>
-<th><span data-ttu-id="37eb2-119">Notes</span><span class="sxs-lookup"><span data-stu-id="37eb2-119">Notes</span></span></th>
+<th><span data-ttu-id="e26ae-116">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e26ae-116">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e26ae-117">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="e26ae-117">Source IP address</span></span></th>
+<th><span data-ttu-id="e26ae-118">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="e26ae-118">Destination IP address</span></span></th>
+<th><span data-ttu-id="e26ae-119">Notes</span><span class="sxs-lookup"><span data-stu-id="e26ae-119">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-120">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="37eb2-120">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-121">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-121">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-122">Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)</span><span class="sxs-lookup"><span data-stu-id="37eb2-122">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-123">Le service proxy XMPP accepte le trafic de contacts XMPP dans les fédérations XMPP définies</span><span class="sxs-lookup"><span data-stu-id="37eb2-123">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-120">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="e26ae-120">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-121">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-121">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-122">Service proxy XMPP (partage une adresse IP avec le service Edge d’accès)</span><span class="sxs-lookup"><span data-stu-id="e26ae-122">XMPP Proxy service (shares IP address with Access Edge service)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-123">Le service proxy XMPP accepte le trafic de contacts XMPP dans les fédérations XMPP définies</span><span class="sxs-lookup"><span data-stu-id="e26ae-123">XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-124">Accès/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="37eb2-124">Access/HTTP/TCP/80</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-125">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-125">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-126">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-126">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-127">Vérification et extraction de la liste de révocation de certificats</span><span class="sxs-lookup"><span data-stu-id="37eb2-127">Certificate revocation/CRL check and retrieval</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-124">Accès/HTTP/TCP/80</span><span class="sxs-lookup"><span data-stu-id="e26ae-124">Access/HTTP/TCP/80</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-125">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-125">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-126">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-126">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-127">Vérification et extraction de la liste de révocation de certificats</span><span class="sxs-lookup"><span data-stu-id="e26ae-127">Certificate revocation/CRL check and retrieval</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-128">Accès/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="37eb2-128">Access/DNS/TCP/53</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-129">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-129">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-130">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-130">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-131">Requête DNS sur TCP</span><span class="sxs-lookup"><span data-stu-id="37eb2-131">DNS query over TCP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-128">Accès/DNS/TCP/53</span><span class="sxs-lookup"><span data-stu-id="e26ae-128">Access/DNS/TCP/53</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-129">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-129">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-130">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-130">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-131">Requête DNS sur TCP</span><span class="sxs-lookup"><span data-stu-id="e26ae-131">DNS query over TCP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-132">Accès/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="37eb2-132">Access/DNS/UDP/53</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-133">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-133">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-134">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-134">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-135">Requête DNS sur UDP</span><span class="sxs-lookup"><span data-stu-id="37eb2-135">DNS query over UDP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-132">Accès/DNS/UDP/53</span><span class="sxs-lookup"><span data-stu-id="e26ae-132">Access/DNS/UDP/53</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-133">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-133">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-134">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-134">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-135">Requête DNS sur UDP</span><span class="sxs-lookup"><span data-stu-id="e26ae-135">DNS query over UDP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-136">Accès/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-136">Access/SIP(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-137">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-137">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-138">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-138">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-139">Trafic SIP client vers serveur pour l’accès des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="37eb2-139">Client-to-server SIP traffic for external user access</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-136">Accès/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-136">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-137">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-137">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-138">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-138">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-139">Trafic SIP client vers serveur pour l’accès des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="e26ae-139">Client-to-server SIP traffic for external user access</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-140">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-140">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-141">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-141">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-142">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-142">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-143">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="37eb2-143">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-140">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-140">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-141">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-141">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-142">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-142">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-143">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="e26ae-143">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-144">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-144">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-145">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-145">Edge Server Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-146">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-146">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-147">Pour la connectivité fédérée et PIC utilisant SIP</span><span class="sxs-lookup"><span data-stu-id="37eb2-147">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-144">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-144">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-145">Adresse IP publique du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-145">Edge Server Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-146">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-146">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-147">Pour la connectivité fédérée et PIC utilisant SIP</span><span class="sxs-lookup"><span data-stu-id="e26ae-147">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-148">Conférence Web/PSOM (TLS) TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-148">Web Conferencing/PSOM(TLS)TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-149">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-149">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-150">Adresse IP publique du service Edge de conférence Web du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-150">Edge Server Web Conferencing Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-151">Support de conférence Web</span><span class="sxs-lookup"><span data-stu-id="37eb2-151">Web Conferencing media</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-148">Conférence Web/PSOM (TLS) TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-148">Web Conferencing/PSOM(TLS)TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-149">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-149">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-150">Adresse IP publique du service Edge de conférence Web du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-150">Edge Server Web Conferencing Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-151">Support de conférence Web</span><span class="sxs-lookup"><span data-stu-id="e26ae-151">Web Conferencing media</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-152">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="37eb2-152">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-153">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-153">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-154">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-154">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-155">Obligatoire pour la Fédération avec des partenaires exécutant Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37eb2-155">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-152">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="e26ae-152">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-153">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-153">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-154">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-154">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-155">Obligatoire pour la Fédération avec des partenaires exécutant Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 et Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e26ae-155">Required for federating with partners running Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-156">A/V/RTP/UDP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="37eb2-156">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-157">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-157">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-158">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-158">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-159">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="37eb2-159">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-156">A/V/RTP/UDP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="e26ae-156">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-157">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-157">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-158">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-158">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-159">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="e26ae-159">Required only for federation with partners running Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-160">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="37eb2-160">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-161">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-161">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-162">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-162">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-163">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="37eb2-163">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-160">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="e26ae-160">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-161">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-161">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-162">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-162">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-163">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="e26ae-163">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-164">A/V/RTP/UDP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="37eb2-164">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-165">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-165">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-166">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-166">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-167">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="37eb2-167">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-164">A/V/RTP/UDP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="e26ae-164">A/V/RTP/UDP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-165">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-165">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-166">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-166">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-167">Requis uniquement pour la Fédération avec des partenaires exécutant Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="e26ae-167">Required only for federation with partners running Office Communications Server 2007</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-168">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-168">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-169">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-169">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-170">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-170">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-171">3478 sortant est utilisé pour déterminer la version du serveur Edge avec lequel Lync Server communique et également pour le trafic multimédia à partir du serveur Edge de serveur à serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="37eb2-171">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="37eb2-172">Requis pour la Fédération avec Lync Server 2010, Windows Live Messenger et Office Communications Server 2007 R2, ainsi que si plusieurs pools Edge sont déployés au sein d’une entreprise.</span><span class="sxs-lookup"><span data-stu-id="37eb2-172">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-168">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-168">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-169">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-169">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-170">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-170">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-171">3478 sortant est utilisé pour déterminer la version du serveur Edge avec lequel Lync Server communique et également pour le trafic multimédia à partir du serveur Edge de serveur à serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="e26ae-171">3478 outbound is used to determine the version of Edge Server that Lync Server is communicating with and also for media traffic from Edge Server-to-Edge Server.</span></span> <span data-ttu-id="e26ae-172">Requis pour la Fédération avec Lync Server 2010, Windows Live Messenger et Office Communications Server 2007 R2, ainsi que si plusieurs pools Edge sont déployés au sein d’une entreprise.</span><span class="sxs-lookup"><span data-stu-id="e26ae-172">Required for federation with Lync Server 2010, Windows Live Messenger, and Office Communications Server 2007 R2, and also if multiple Edge pools are deployed within a company.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-173">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-173">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-174">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-174">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-175">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-175">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-176">STUN/activer la négociation des candidats via UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-176">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-173">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-173">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-174">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-174">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-175">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-175">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-176">STUN/activer la négociation des candidats via UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-176">STUN/TURN negotiation of candidates over UDP/3478</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-177">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-177">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-178">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-178">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-179">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-179">Edge Server A/V Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-180">STUN/activer la négociation des candidats sur TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-180">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-177">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-177">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-178">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-178">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-179">Adresse IP publique du service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-179">Edge Server A/V Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-180">STUN/activer la négociation des candidats sur TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-180">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-181">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-181">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-182">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-182">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-183">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-183">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-184">STUN/activer la négociation des candidats sur TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-184">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-181">A/V/STUN, MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-181">A/V/STUN,MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-182">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-182">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-183">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-183">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-184">STUN/activer la négociation des candidats sur TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-184">STUN/TURN negotiation of candidates over TCP/443</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-internal-interface--node-1-and-node-2-example"></a><span data-ttu-id="37eb2-185">Résumé du pare-feu pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques : interface interne – nœud 1 et nœud 2 (exemple)</span><span class="sxs-lookup"><span data-stu-id="37eb2-185">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses: Internal Interface – Node 1 and Node 2 (Example)</span></span>
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-internal-interface--node-1-and-node-2-example"></a><span data-ttu-id="e26ae-185">Résumé du pare-feu pour le serveur Edge consolidé ajusté, équilibrage de charge DNS avec des adresses IP publiques : interface interne – nœud 1 et nœud 2 (exemple)</span><span class="sxs-lookup"><span data-stu-id="e26ae-185">Firewall Summary for Scaled Consolidated Edge, DNS Load Balancing with Public IP Addresses: Internal Interface – Node 1 and Node 2 (Example)</span></span>
 
 <table>
 <colgroup>
@@ -182,111 +182,78 @@ ms.locfileid: "42034064"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37eb2-186">Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="37eb2-186">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="37eb2-187">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="37eb2-187">Source IP address</span></span></th>
-<th><span data-ttu-id="37eb2-188">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="37eb2-188">Destination IP address</span></span></th>
-<th><span data-ttu-id="37eb2-189">Commentaires</span><span class="sxs-lookup"><span data-stu-id="37eb2-189">Comments</span></span></th>
+<th><span data-ttu-id="e26ae-186">Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e26ae-186">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e26ae-187">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="e26ae-187">Source IP address</span></span></th>
+<th><span data-ttu-id="e26ae-188">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="e26ae-188">Destination IP address</span></span></th>
+<th><span data-ttu-id="e26ae-189">Commentaires</span><span class="sxs-lookup"><span data-stu-id="e26ae-189">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-190">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="37eb2-190">XMPP/MTLS/TCP/23456</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-191">Any (peut être défini comme adresse de serveur frontal ou adresse IP de pool frontal exécutant le service de passerelle XMPP)</span><span class="sxs-lookup"><span data-stu-id="37eb2-191">Any (can be defined as Front End Server address, or Front End pool IP address running the XMPP Gateway service)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-192">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-192">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-193">Trafic XMPP sortant du service de passerelle XMPP exécuté sur un serveur frontal ou un pool frontal</span><span class="sxs-lookup"><span data-stu-id="37eb2-193">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-190">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="e26ae-190">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-191">Any (peut être défini comme adresse de serveur frontal ou adresse IP de pool frontal exécutant le service de passerelle XMPP)</span><span class="sxs-lookup"><span data-stu-id="e26ae-191">Any (can be defined as Front End Server address, or Front End pool IP address running the XMPP Gateway service)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-192">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-192">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-193">Trafic XMPP sortant du service de passerelle XMPP exécuté sur un serveur frontal ou un pool frontal</span><span class="sxs-lookup"><span data-stu-id="e26ae-193">Outbound XMPP traffic from XMPP Gateway service running on Front End Server or Front End pool</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-194">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-194">SIP/MTLS/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-195">Any (peut être défini en tant que directeur, adresse IP du pool Directeur, serveur frontal ou adresse IP du pool frontal)</span><span class="sxs-lookup"><span data-stu-id="37eb2-195">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-196">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-196">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-197">Trafic SIP sortant (depuis le directeur, l’adresse IP du pool Directeur, le serveur frontal ou l’adresse IP du pool frontal) vers l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-197">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-194">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-194">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-195">Any (peut être défini en tant que directeur, adresse IP du pool Directeur, serveur frontal ou adresse IP du pool frontal)</span><span class="sxs-lookup"><span data-stu-id="e26ae-195">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-196">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-196">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-197">Trafic SIP sortant (depuis le directeur, l’adresse IP du pool Directeur, le serveur frontal ou l’adresse IP du pool frontal) vers l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-197">Outbound SIP traffic (from Director, Director pool IP address, Front End Server or Front End pool IP address) to Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-198">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-198">SIP/MTLS/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-199">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-199">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-200">Any (peut être défini en tant que directeur, adresse IP du pool Directeur, serveur frontal ou adresse IP du pool frontal)</span><span class="sxs-lookup"><span data-stu-id="37eb2-200">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-201">Trafic SIP entrant (vers le directeur, l’adresse IP du pool Directeur, le serveur frontal ou l’adresse IP du pool frontal) à partir de l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-201">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-198">SIP/MTLS/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-198">SIP/MTLS/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-199">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-199">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-200">Any (peut être défini en tant que directeur, adresse IP du pool Directeur, serveur frontal ou adresse IP du pool frontal)</span><span class="sxs-lookup"><span data-stu-id="e26ae-200">Any (can be defined as Director, Director pool IP address, Front End Server or Front End pool IP address)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-201">Trafic SIP entrant (vers le directeur, l’adresse IP du pool Directeur, le serveur frontal ou l’adresse IP du pool frontal) à partir de l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-201">Inbound SIP traffic (to Director, Director pool IP address, Front End Server or Front End pool IP address) from Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-202">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="37eb2-202">PSOM/MTLS/TCP/8057</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-203">Any (peut être défini en tant qu’adresse IP de serveur frontal ou chaque adresse IP de serveur frontal dans un pool frontal)</span><span class="sxs-lookup"><span data-stu-id="37eb2-203">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-204">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-204">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-205">Trafic de conférence Web à partir du serveur frontal ou de chaque serveur frontal dans un pool, vers l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-205">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-202">PSOM/MTLS/TCP/8057</span><span class="sxs-lookup"><span data-stu-id="e26ae-202">PSOM/MTLS/TCP/8057</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-203">Any (peut être défini en tant qu’adresse IP de serveur frontal ou chaque adresse IP de serveur frontal dans un pool frontal)</span><span class="sxs-lookup"><span data-stu-id="e26ae-203">Any (can be defined as Front End Server IP address, or each Front End Server IP address in a Front End pool)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-204">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-204">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-205">Trafic de conférence Web à partir du serveur frontal ou de chaque serveur frontal dans un pool, vers l’interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-205">Web conferencing traffic from Front End Server or each Front End Server if in a pool, to Edge Server internal interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-206">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="37eb2-206">SIP/MTLS/TCP/5062</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-207">Any (peut être défini comme adresse IP du serveur frontal ou adresse IP du pool frontal ou n’importe quel serveur Survivable Branch Server ou Survivable Branch Server à l’aide de ce serveur Edge)</span><span class="sxs-lookup"><span data-stu-id="37eb2-207">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-208">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-208">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-209">Authentification des utilisateurs A/V (service d’authentification A/V) à partir du serveur frontal ou de l’adresse IP du pool frontal ou d’un serveur Survivable Branch Appliance ou d’un serveur Survivable Branch à l’aide de ce serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-209">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-206">SIP/MTLS/TCP/5062</span><span class="sxs-lookup"><span data-stu-id="e26ae-206">SIP/MTLS/TCP/5062</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-207">Any (peut être défini comme adresse IP du serveur frontal ou adresse IP du pool frontal ou n’importe quel serveur Survivable Branch Server ou Survivable Branch Server à l’aide de ce serveur Edge)</span><span class="sxs-lookup"><span data-stu-id="e26ae-207">Any (can be defined as Front End Server IP address, or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-208">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-208">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-209">Authentification des utilisateurs A/V (service d’authentification A/V) à partir du serveur frontal ou de l’adresse IP du pool frontal ou d’un serveur Survivable Branch Appliance ou d’un serveur Survivable Branch à l’aide de ce serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-209">Authentication of A/V users (A/V authentication service) from Front End Server or Front End pool IP address or any Survivable Branch Appliance or Survivable Branch Server using this Edge Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-210">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-210">STUN/MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-211">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-211">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-212">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-212">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-213">Chemin préféré pour le transfert multimédia A/V entre les utilisateurs internes et externes, le Survivable Branch Appliance ou le serveur Survivable Branch Server</span><span class="sxs-lookup"><span data-stu-id="37eb2-213">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-210">STUN/MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-210">STUN/MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-211">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-211">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-212">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-212">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-213">Chemin préféré pour le transfert multimédia A/V entre les utilisateurs internes et externes, le Survivable Branch Appliance ou le serveur Survivable Branch Server</span><span class="sxs-lookup"><span data-stu-id="e26ae-213">Preferred path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-214">STUN/MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-214">STUN/MSTURN/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-215">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-215">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-216">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-216">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-217">Chemin de secours pour le transfert multimédia A/V entre les utilisateurs internes et externes, Survivable Branch Appliance ou le serveur Survivable Branch Server si la communication UDP ne peut pas être établie, le protocole TCP est utilisé pour le transfert de fichiers et le partage de bureau</span><span class="sxs-lookup"><span data-stu-id="37eb2-217">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-214">STUN/MSTURN/TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-214">STUN/MSTURN/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-215">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-215">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-216">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-216">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-217">Chemin de secours pour le transfert multimédia A/V entre les utilisateurs internes et externes, Survivable Branch Appliance ou le serveur Survivable Branch Server si la communication UDP ne peut pas être établie, le protocole TCP est utilisé pour le transfert de fichiers et le partage de bureau</span><span class="sxs-lookup"><span data-stu-id="e26ae-217">Fallback path for A/V media transfer between internal and external users, Survivable Branch Appliance or Survivable Branch Server if UDP communication cannot be established, TCP is used for file transfer and desktop sharing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-218">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="37eb2-218">HTTPS/TCP/4443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-219">Any (peut être défini comme adresse IP du serveur frontal ou pool qui contient le magasin central de gestion)</span><span class="sxs-lookup"><span data-stu-id="37eb2-219">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-220">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-220">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-221">Réplication des modifications depuis le magasin central de gestion vers le serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-221">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-218">HTTPS/TCP/4443</span><span class="sxs-lookup"><span data-stu-id="e26ae-218">HTTPS/TCP/4443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-219">Any (peut être défini comme adresse IP du serveur frontal ou pool qui contient le magasin central de gestion)</span><span class="sxs-lookup"><span data-stu-id="e26ae-219">Any (can be defined as the Front End Server IP address, or pool that holds the Central Management store)</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-220">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-220">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-221">Réplication des modifications depuis le magasin central de gestion vers le serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-221">Replication of changes from the Central Management store to the Edge Server</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-222">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="37eb2-222">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-223">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-223">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-224">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-224">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-225">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="37eb2-225">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-222">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="e26ae-222">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-223">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-223">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-224">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-224">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-225">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e26ae-225">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-226">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="37eb2-226">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-227">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-227">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-228">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-228">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-229">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="37eb2-229">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-226">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="e26ae-226">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-227">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-227">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-228">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-228">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-229">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e26ae-229">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-230">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="37eb2-230">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-231">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-231">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-232">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-232">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-233">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="37eb2-233">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-</div>
-
-<div>
-
-## <a name="firewall-summary-for-federation"></a><span data-ttu-id="37eb2-234">Résumé du pare-feu pour la fédération</span><span class="sxs-lookup"><span data-stu-id="37eb2-234">Firewall Summary for Federation</span></span>
-
-
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="37eb2-235">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="37eb2-235">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="37eb2-236">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="37eb2-236">Source IP address</span></span></th>
-<th><span data-ttu-id="37eb2-237">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="37eb2-237">Destination IP address</span></span></th>
-<th><span data-ttu-id="37eb2-238">Notes</span><span class="sxs-lookup"><span data-stu-id="37eb2-238">Notes</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="37eb2-239">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-239">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-240">Adresse IP publique du service Edge d’accès</span><span class="sxs-lookup"><span data-stu-id="37eb2-240">Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-241">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-241">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-242">Pour la connectivité fédérée et PIC utilisant SIP</span><span class="sxs-lookup"><span data-stu-id="37eb2-242">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-230">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="e26ae-230">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-231">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-231">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-232">Interface interne du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-232">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-233">Contrôleur de service de journalisation centralisée à l’aide de Lync Server Management Shell et des applets de commande du service de journalisation centralisée, de la ligne de commande ClsController (ClsController. exe) ou de la collection de journaux de l’agent (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="e26ae-233">Centralized Logging Service controller using Lync Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +263,7 @@ ms.locfileid: "42034064"
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="37eb2-243">Résumé du pare-feu : connectivité de messagerie instantanée publique</span><span class="sxs-lookup"><span data-stu-id="37eb2-243">Firewall Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="firewall-summary-for-federation"></a><span data-ttu-id="e26ae-234">Résumé du pare-feu pour la fédération</span><span class="sxs-lookup"><span data-stu-id="e26ae-234">Firewall Summary for Federation</span></span>
 
 
 <table>
@@ -308,48 +275,18 @@ ms.locfileid: "42034064"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37eb2-244">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="37eb2-244">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="37eb2-245">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="37eb2-245">Source IP address</span></span></th>
-<th><span data-ttu-id="37eb2-246">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="37eb2-246">Destination IP address</span></span></th>
-<th><span data-ttu-id="37eb2-247">Notes</span><span class="sxs-lookup"><span data-stu-id="37eb2-247">Notes</span></span></th>
+<th><span data-ttu-id="e26ae-235">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e26ae-235">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e26ae-236">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="e26ae-236">Source IP address</span></span></th>
+<th><span data-ttu-id="e26ae-237">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="e26ae-237">Destination IP address</span></span></th>
+<th><span data-ttu-id="e26ae-238">Notes</span><span class="sxs-lookup"><span data-stu-id="e26ae-238">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-248">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-248">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-249">Partenaires de connectivité PIC</span><span class="sxs-lookup"><span data-stu-id="37eb2-249">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-250">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-250">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-251">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="37eb2-251">For federated and public IM connectivity using SIP</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="37eb2-252">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="37eb2-252">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-253">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-253">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-254">Partenaires de connectivité PIC</span><span class="sxs-lookup"><span data-stu-id="37eb2-254">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-255">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="37eb2-255">For federated and public IM connectivity using SIP</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="37eb2-256">Accès/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="37eb2-256">Access/SIP(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-257">Clients</span><span class="sxs-lookup"><span data-stu-id="37eb2-257">Clients</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-258">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-258">Edge Server Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-259">Trafic SIP client vers serveur pour l’accès des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="37eb2-259">Client-to-server SIP traffic for external user access</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="37eb2-260">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="37eb2-260">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-261">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-261">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-262">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="37eb2-262">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-263">Utilisé pour les sessions A/V avec Windows Live Messenger si la connectivité PIC est configurée.</span><span class="sxs-lookup"><span data-stu-id="37eb2-263">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="37eb2-264">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-264">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-265">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-265">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-266">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="37eb2-266">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-267">Requis pour la connectivité PIC avec Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="37eb2-267">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="37eb2-268">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="37eb2-268">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-269">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="37eb2-269">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-270">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-270">Edge Server A/V Edge service</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-271">Requis pour la connectivité PIC avec Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="37eb2-271">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-239">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-239">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-240">Adresse IP publique du service Edge d’accès</span><span class="sxs-lookup"><span data-stu-id="e26ae-240">Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-241">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-241">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-242">Pour la connectivité fédérée et PIC utilisant SIP</span><span class="sxs-lookup"><span data-stu-id="e26ae-242">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -359,7 +296,7 @@ ms.locfileid: "42034064"
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="37eb2-272">Résumé du pare-feu pour le protocole XMPP</span><span class="sxs-lookup"><span data-stu-id="37eb2-272">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="e26ae-243">Résumé du pare-feu : connectivité de messagerie instantanée publique</span><span class="sxs-lookup"><span data-stu-id="e26ae-243">Firewall Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -371,30 +308,93 @@ ms.locfileid: "42034064"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37eb2-273">Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="37eb2-273">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="37eb2-274">Source (adresse IP)</span><span class="sxs-lookup"><span data-stu-id="37eb2-274">Source (IP address)</span></span></th>
-<th><span data-ttu-id="37eb2-275">Destination (adresse IP)</span><span class="sxs-lookup"><span data-stu-id="37eb2-275">Destination (IP address)</span></span></th>
-<th><span data-ttu-id="37eb2-276">Commentaires</span><span class="sxs-lookup"><span data-stu-id="37eb2-276">Comments</span></span></th>
+<th><span data-ttu-id="e26ae-244">Rôle/Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e26ae-244">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e26ae-245">Adresse IP source</span><span class="sxs-lookup"><span data-stu-id="e26ae-245">Source IP address</span></span></th>
+<th><span data-ttu-id="e26ae-246">Adresse IP de destination</span><span class="sxs-lookup"><span data-stu-id="e26ae-246">Destination IP address</span></span></th>
+<th><span data-ttu-id="e26ae-247">Notes</span><span class="sxs-lookup"><span data-stu-id="e26ae-247">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-277">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="37eb2-277">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-278">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-278">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-279">Adresse IP de l’interface du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-279">Edge Server Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-280">Port de communication de serveur à serveur standard pour XMPP.</span><span class="sxs-lookup"><span data-stu-id="37eb2-280">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="37eb2-281">Autorise la communication vers le proxy XMPP du serveur Edge à partir de partenaires XMPP fédérés</span><span class="sxs-lookup"><span data-stu-id="37eb2-281">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-248">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-248">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-249">Partenaires de connectivité PIC</span><span class="sxs-lookup"><span data-stu-id="e26ae-249">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-250">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-250">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-251">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="e26ae-251">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37eb2-282">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="37eb2-282">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-283">Adresse IP de l’interface du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-283">Edge Server Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-284">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-284">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-285">Port de communication de serveur à serveur standard pour XMPP.</span><span class="sxs-lookup"><span data-stu-id="37eb2-285">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="37eb2-286">Autorise la communication du proxy XMPP serveur Edge aux partenaires XMPP fédérés</span><span class="sxs-lookup"><span data-stu-id="37eb2-286">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-252">Accès/SIP (MTLS)/TCP/5061</span><span class="sxs-lookup"><span data-stu-id="e26ae-252">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-253">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-253">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-254">Partenaires de connectivité PIC</span><span class="sxs-lookup"><span data-stu-id="e26ae-254">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-255">Pour la connectivité fédérée et PIC avec SIP</span><span class="sxs-lookup"><span data-stu-id="e26ae-255">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37eb2-287">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="37eb2-287">XMPP/MTLS/TCP/23456</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-288">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="37eb2-288">Any</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-289">Adresse IP de chaque interface de serveur Edge interne</span><span class="sxs-lookup"><span data-stu-id="37eb2-289">Each internal Edge Server Interface IP</span></span></p></td>
-<td><p><span data-ttu-id="37eb2-290">Trafic XMPP interne depuis la passerelle XMPP sur le serveur frontal ou le pool frontal vers l’adresse IP interne du serveur Edge ou l’adresse IP interne de chaque membre du pool Edge</span><span class="sxs-lookup"><span data-stu-id="37eb2-290">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-256">Accès/SIP (TLS)/TCP/443</span><span class="sxs-lookup"><span data-stu-id="e26ae-256">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-257">Clients</span><span class="sxs-lookup"><span data-stu-id="e26ae-257">Clients</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-258">Service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-258">Edge Server Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-259">Trafic SIP client vers serveur pour l’accès des utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="e26ae-259">Client-to-server SIP traffic for external user access</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e26ae-260">A/V/RTP/TCP/50000-000-59 999</span><span class="sxs-lookup"><span data-stu-id="e26ae-260">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-261">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-261">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-262">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="e26ae-262">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-263">Utilisé pour les sessions A/V avec Windows Live Messenger si la connectivité PIC est configurée.</span><span class="sxs-lookup"><span data-stu-id="e26ae-263">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e26ae-264">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-264">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-265">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-265">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-266">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="e26ae-266">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-267">Requis pour la connectivité PIC avec Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="e26ae-267">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e26ae-268">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="e26ae-268">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-269">Clients Live Messenger</span><span class="sxs-lookup"><span data-stu-id="e26ae-269">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-270">Service Edge A/V du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-270">Edge Server A/V Edge service</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-271">Requis pour la connectivité PIC avec Windows Live Messenger</span><span class="sxs-lookup"><span data-stu-id="e26ae-271">Required for public IM connectivity with Windows Live Messenger</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="e26ae-272">Résumé du pare-feu pour le protocole XMPP</span><span class="sxs-lookup"><span data-stu-id="e26ae-272">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="e26ae-273">Protocole/TCP ou UDP/Port</span><span class="sxs-lookup"><span data-stu-id="e26ae-273">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="e26ae-274">Source (adresse IP)</span><span class="sxs-lookup"><span data-stu-id="e26ae-274">Source (IP address)</span></span></th>
+<th><span data-ttu-id="e26ae-275">Destination (adresse IP)</span><span class="sxs-lookup"><span data-stu-id="e26ae-275">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="e26ae-276">Commentaires</span><span class="sxs-lookup"><span data-stu-id="e26ae-276">Comments</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="e26ae-277">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="e26ae-277">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-278">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-278">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-279">Adresse IP de l’interface du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-279">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-280">Port de communication de serveur à serveur standard pour XMPP.</span><span class="sxs-lookup"><span data-stu-id="e26ae-280">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="e26ae-281">Autorise la communication vers le proxy XMPP du serveur Edge à partir de partenaires XMPP fédérés</span><span class="sxs-lookup"><span data-stu-id="e26ae-281">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="e26ae-282">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="e26ae-282">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-283">Adresse IP de l’interface du service Edge d’accès au serveur Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-283">Edge Server Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-284">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-284">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-285">Port de communication de serveur à serveur standard pour XMPP.</span><span class="sxs-lookup"><span data-stu-id="e26ae-285">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="e26ae-286">Autorise la communication du proxy XMPP serveur Edge aux partenaires XMPP fédérés</span><span class="sxs-lookup"><span data-stu-id="e26ae-286">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="e26ae-287">XMPP/MTLS/TCP/23456</span><span class="sxs-lookup"><span data-stu-id="e26ae-287">XMPP/MTLS/TCP/23456</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-288">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="e26ae-288">Any</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-289">Adresse IP de chaque interface de serveur Edge interne</span><span class="sxs-lookup"><span data-stu-id="e26ae-289">Each internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="e26ae-290">Trafic XMPP interne depuis la passerelle XMPP sur le serveur frontal ou le pool frontal vers l’adresse IP interne du serveur Edge ou l’adresse IP interne de chaque membre du pool Edge</span><span class="sxs-lookup"><span data-stu-id="e26ae-290">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server internal IP address or each Edge pool member’s internal IP address</span></span></p></td>
 </tr>
 </tbody>
 </table>

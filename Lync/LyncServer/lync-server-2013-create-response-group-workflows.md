@@ -12,20 +12,20 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b93b63ffbb551c7e5d9d6998a5f25f86eb6fb0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f927d5257c3e4217c8f16f3e5138d075d91b858c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009387"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="e8bc2-102">Créer des flux de travail Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-102">Create Response Group workflows in Lync Server 2013</span></span>
+# <a name="create-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="031d3-102">Créer des flux de travail Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-102">Create Response Group workflows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42009387"
 
 <span> </span>
 
-<span data-ttu-id="e8bc2-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="e8bc2-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="031d3-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="031d3-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="e8bc2-p101">Un flux de travail définit le comportement d’un appel, depuis le déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche, ou les questions et les réponses à utiliser pour les groupes Response Group interactifs. Un flux de travail définit également des paramètres comme un message de bienvenue, l’attente musicale, les heures de bureau et les vacances.</span><span class="sxs-lookup"><span data-stu-id="e8bc2-p101">A workflow defines the behavior of a call from the time that the phone rings to the time that someone answers the call. The workflow specifies the queue to use for holding the call, and specifies the routing method to use for hunt groups or the questions and answers to use for interactive response groups. A workflow also defines settings such as a welcome message, music on hold, business hours, and holidays.</span></span>
+<span data-ttu-id="031d3-p101">Un flux de travail définit le comportement d’un appel, depuis le déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche, ou les questions et les réponses à utiliser pour les groupes Response Group interactifs. Un flux de travail définit également des paramètres comme un message de bienvenue, l’attente musicale, les heures de bureau et les vacances.</span><span class="sxs-lookup"><span data-stu-id="031d3-p101">A workflow defines the behavior of a call from the time that the phone rings to the time that someone answers the call. The workflow specifies the queue to use for holding the call, and specifies the routing method to use for hunt groups or the questions and answers to use for interactive response groups. A workflow also defines settings such as a welcome message, music on hold, business hours, and holidays.</span></span>
 
-<span data-ttu-id="e8bc2-107">Vous utilisez l’outil de configuration Response Group pour créer des flux de travail.</span><span class="sxs-lookup"><span data-stu-id="e8bc2-107">You use the Response Group Configuration Tool to create workflows.</span></span> <span data-ttu-id="e8bc2-108">Vous pouvez accéder à l’outil de configuration Response Group à partir de la page Response Group du panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e8bc2-108">You can access the Response Group Configuration Tool from the Response Group page of Lync Server Control Panel.</span></span>
+<span data-ttu-id="031d3-107">Vous utilisez l’outil de configuration Response Group pour créer des flux de travail.</span><span class="sxs-lookup"><span data-stu-id="031d3-107">You use the Response Group Configuration Tool to create workflows.</span></span> <span data-ttu-id="031d3-108">Vous pouvez accéder à l’outil de configuration Response Group à partir de la page Response Group du panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="031d3-108">You can access the Response Group Configuration Tool from the Response Group page of Lync Server Control Panel.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e8bc2-109">Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise.</span><span class="sxs-lookup"><span data-stu-id="e8bc2-109">You must create agent groups and queues before you create a workflow that uses them.</span></span>
+> <span data-ttu-id="031d3-109">Vous devez créer des groupes d’agents et des files d’attente avant de créer un flux de travail qui les utilise.</span><span class="sxs-lookup"><span data-stu-id="031d3-109">You must create agent groups and queues before you create a workflow that uses them.</span></span>
 
 
 
@@ -53,23 +53,23 @@ ms.locfileid: "42009387"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e8bc2-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="e8bc2-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="031d3-110">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="031d3-110">In This Section</span></span>
 
-  - [<span data-ttu-id="e8bc2-111">Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-111">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [<span data-ttu-id="031d3-111">Création ou modification d’un flux de travail de groupe de recherche dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-111">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [<span data-ttu-id="e8bc2-112">Concevoir des flux d’appels de réponse vocale interactive dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-112">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="031d3-112">Concevoir des flux d’appels de réponse vocale interactive dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-112">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="e8bc2-113">Création ou modification d’un flux de travail interactif dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-113">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [<span data-ttu-id="031d3-113">Création ou modification d’un flux de travail interactif dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-113">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="e8bc2-114">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="e8bc2-114">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="031d3-114">Sections connexes</span><span class="sxs-lookup"><span data-stu-id="031d3-114">Related Sections</span></span>
 
-  - [<span data-ttu-id="e8bc2-115">Créer des groupes d’agents Response Group Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
+  - [<span data-ttu-id="031d3-115">Créer des groupes d’agents Response Group Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [<span data-ttu-id="e8bc2-116">Créer des files d’attente Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8bc2-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
+  - [<span data-ttu-id="031d3-116">Créer des files d’attente Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="031d3-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
 
 </div>
 

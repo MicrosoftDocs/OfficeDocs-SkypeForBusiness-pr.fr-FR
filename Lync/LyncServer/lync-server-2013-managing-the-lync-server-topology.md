@@ -12,20 +12,20 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a7a823e2dc1aa0e7ea1df5d873292f2932ac32
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d7d4b688a2a6d768e93e436e0ced354d0c5070bd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045586"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-topology"></a><span data-ttu-id="3b1c9-102">Gestion de la topologie Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-102">Managing the Lync Server 2013 topology</span></span>
+# <a name="managing-the-lync-server-2013-topology"></a><span data-ttu-id="5c7f5-102">Gestion de la topologie Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-102">Managing the Lync Server 2013 topology</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42045586"
 
 <span> </span>
 
-<span data-ttu-id="3b1c9-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="3b1c9-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="5c7f5-103">_**Dernière modification de la rubrique :** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="5c7f5-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="3b1c9-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide de la page **topologie** du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3b1c9-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Topology** page in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="5c7f5-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide de la page **topologie** du panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5c7f5-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Topology** page in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3b1c9-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="3b1c9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5c7f5-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5c7f5-105">In This Section</span></span>
 
-  - [<span data-ttu-id="3b1c9-106">Afficher la liste des ordinateurs exécutant Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-106">View a list of computers running Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
+  - [<span data-ttu-id="5c7f5-106">Afficher la liste des ordinateurs exécutant Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-106">View a list of computers running Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
 
-  - [<span data-ttu-id="3b1c9-107">Affichage de l’état des services exécutés sur un ordinateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-107">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [<span data-ttu-id="5c7f5-107">Affichage de l’état des services exécutés sur un ordinateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-107">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
-  - [<span data-ttu-id="3b1c9-108">Afficher les détails relatifs à un service dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-108">View details about a service in Lync Server 2013</span></span>](lync-server-2013-view-details-about-a-service.md)
+  - [<span data-ttu-id="5c7f5-108">Afficher les détails relatifs à un service dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-108">View details about a service in Lync Server 2013</span></span>](lync-server-2013-view-details-about-a-service.md)
 
-  - [<span data-ttu-id="3b1c9-109">Démarrer ou arrêter les services Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-109">Start or stop Lync Server 2013 services</span></span>](lync-server-2013-start-or-stop-lync-server-services.md)
+  - [<span data-ttu-id="5c7f5-109">Démarrer ou arrêter les services Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-109">Start or stop Lync Server 2013 services</span></span>](lync-server-2013-start-or-stop-lync-server-services.md)
 
-  - [<span data-ttu-id="3b1c9-110">Empêcher les sessions pour les services dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-110">Prevent sessions for services in Lync Server 2013</span></span>](lync-server-2013-prevent-sessions-for-services.md)
+  - [<span data-ttu-id="5c7f5-110">Empêcher les sessions pour les services dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-110">Prevent sessions for services in Lync Server 2013</span></span>](lync-server-2013-prevent-sessions-for-services.md)
 
-  - [<span data-ttu-id="3b1c9-111">Mettre à niveau ou mettre à jour des serveurs frontaux dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-111">Upgrade or update Front End Servers in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-front-end-servers.md)
+  - [<span data-ttu-id="5c7f5-111">Mettre à niveau ou mettre à jour des serveurs frontaux dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-111">Upgrade or update Front End Servers in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-front-end-servers.md)
 
-  - [<span data-ttu-id="3b1c9-112">Ajouter ou supprimer un serveur frontal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-112">Add or remove a Front End Server in Lync Server 2013</span></span>](lync-server-2013-add-or-remove-a-front-end-server.md)
+  - [<span data-ttu-id="5c7f5-112">Ajouter ou supprimer un serveur frontal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-112">Add or remove a Front End Server in Lync Server 2013</span></span>](lync-server-2013-add-or-remove-a-front-end-server.md)
 
-  - [<span data-ttu-id="3b1c9-113">Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-113">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+  - [<span data-ttu-id="5c7f5-113">Mise à niveau ou mise à jour d’un serveur principal ou d’un serveur Standard Edition dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-113">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
-  - [<span data-ttu-id="3b1c9-114">Gestion des applications MSPL (Microsoft SIP Processing Language) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-114">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [<span data-ttu-id="5c7f5-114">Gestion des applications MSPL (Microsoft SIP Processing Language) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-114">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
-  - [<span data-ttu-id="3b1c9-115">Gestion des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3b1c9-115">Managing simple URLs in Lync Server 2013</span></span>](lync-server-2013-managing-simple-urls.md)
+  - [<span data-ttu-id="5c7f5-115">Gestion des URL simples dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c7f5-115">Managing simple URLs in Lync Server 2013</span></span>](lync-server-2013-managing-simple-urls.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 44275f8c63c7b5ed68bcea7730a7fccb90f52c01
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050786"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="68268-102">Planification et déploiement d’un magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68268-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="0c4ab-102">Planification et déploiement d’un magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c4ab-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42050786"
 
 <span> </span>
 
-<span data-ttu-id="68268-103">_**Dernière modification de la rubrique :** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="68268-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="0c4ab-103">_**Dernière modification de la rubrique :** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="0c4ab-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="68268-104">Le magasin de contacts unifié est une fonctionnalité offrant une expérience de contact cohérente entre les produits Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="68268-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="68268-105">Cette fonctionnalité permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013 afin que les informations soient disponibles globalement dans Lync, Exchange, Outlook et Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="68268-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
+<span data-ttu-id="0c4ab-104">Le magasin de contacts unifié est une fonctionnalité offrant une expérience de contact cohérente entre les produits Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="0c4ab-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="0c4ab-105">Cette fonctionnalité permet aux utilisateurs de stocker toutes les informations de contact dans Exchange 2013 afin que les informations soient disponibles globalement dans Lync, Exchange, Outlook et Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="0c4ab-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="68268-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="68268-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0c4ab-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0c4ab-106">In This Section</span></span>
 
-  - [<span data-ttu-id="68268-107">Configuration requise pour le magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68268-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
+  - [<span data-ttu-id="0c4ab-107">Configuration requise pour le magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c4ab-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="68268-108">Déploiement d’un magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68268-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
+  - [<span data-ttu-id="0c4ab-108">Déploiement d’un magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c4ab-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
 
 </div>
 

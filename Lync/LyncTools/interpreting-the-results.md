@@ -12,20 +12,20 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c226e3b677965db03ba4d5fcc3c3dadb37192548
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 484f10757dcbd1463b54cf70ac8d725402decb44
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049416"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="interpreting-the-results"></a><span data-ttu-id="5facd-102">Interprétation des résultats</span><span class="sxs-lookup"><span data-stu-id="5facd-102">Interpreting the Results</span></span>
+# <a name="interpreting-the-results"></a><span data-ttu-id="fa72b-102">Interprétation des résultats</span><span class="sxs-lookup"><span data-stu-id="fa72b-102">Interpreting the Results</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42049416"
 
 <span> </span>
 
-<span data-ttu-id="5facd-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="5facd-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="fa72b-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="fa72b-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="5facd-104">L’outil de contrainte et de performances de Lync Server 2013 (LyncPerfTool. exe) comporte de nombreux compteurs que vous pouvez utiliser pour comprendre ce que fait le client et s’il rencontre des problèmes.</span><span class="sxs-lookup"><span data-stu-id="5facd-104">The Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) has many counters that you can use to understand what the client is doing and whether it is encountering issues.</span></span>
+<span data-ttu-id="fa72b-104">L’outil de contrainte et de performances de Lync Server 2013 (LyncPerfTool. exe) comporte de nombreux compteurs que vous pouvez utiliser pour comprendre ce que fait le client et s’il rencontre des problèmes.</span><span class="sxs-lookup"><span data-stu-id="fa72b-104">The Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) has many counters that you can use to understand what the client is doing and whether it is encountering issues.</span></span>
 
 <div>
 
-## <a name="client-counters"></a><span data-ttu-id="5facd-105">Compteurs client</span><span class="sxs-lookup"><span data-stu-id="5facd-105">Client Counters</span></span>
+## <a name="client-counters"></a><span data-ttu-id="fa72b-105">Compteurs client</span><span class="sxs-lookup"><span data-stu-id="fa72b-105">Client Counters</span></span>
 
-<span data-ttu-id="5facd-106">Chaque instance de LyncPerfTool. exe en cours d’exécution dispose d’une instance distincte des compteurs.</span><span class="sxs-lookup"><span data-stu-id="5facd-106">Each instance of LyncPerfTool.exe that is running has a separate instance of the counters.</span></span> <span data-ttu-id="5facd-107">Chaque instance est nommée par son ID de processus.</span><span class="sxs-lookup"><span data-stu-id="5facd-107">Each instance is named by its process ID.</span></span>
+<span data-ttu-id="fa72b-106">Chaque instance de LyncPerfTool. exe en cours d’exécution dispose d’une instance distincte des compteurs.</span><span class="sxs-lookup"><span data-stu-id="fa72b-106">Each instance of LyncPerfTool.exe that is running has a separate instance of the counters.</span></span> <span data-ttu-id="fa72b-107">Chaque instance est nommée par son ID de processus.</span><span class="sxs-lookup"><span data-stu-id="fa72b-107">Each instance is named by its process ID.</span></span>
 
-<span data-ttu-id="5facd-108">Si les clients sont surchargés, des problèmes peuvent se produire.</span><span class="sxs-lookup"><span data-stu-id="5facd-108">If the clients are overloaded, issues can occur.</span></span> <span data-ttu-id="5facd-109">Pour éviter ces problèmes, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="5facd-109">To prevent these issues, do the following:</span></span>
+<span data-ttu-id="fa72b-108">Si les clients sont surchargés, des problèmes peuvent se produire.</span><span class="sxs-lookup"><span data-stu-id="fa72b-108">If the clients are overloaded, issues can occur.</span></span> <span data-ttu-id="fa72b-109">Pour éviter ces problèmes, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="fa72b-109">To prevent these issues, do the following:</span></span>
 
-1.  <span data-ttu-id="5facd-110">Surveillez l’utilisation du processeur et de la mémoire sur les ordinateurs clients.</span><span class="sxs-lookup"><span data-stu-id="5facd-110">Monitor the CPU and the memory usage on the client computers.</span></span> <span data-ttu-id="5facd-111">Si le processeur est toujours supérieur à 90%, réduisez le nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5facd-111">If the CPU is consistently above 90 percent, reduce the number of users.</span></span>
+1.  <span data-ttu-id="fa72b-110">Surveillez l’utilisation du processeur et de la mémoire sur les ordinateurs clients.</span><span class="sxs-lookup"><span data-stu-id="fa72b-110">Monitor the CPU and the memory usage on the client computers.</span></span> <span data-ttu-id="fa72b-111">Si le processeur est toujours supérieur à 90%, réduisez le nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="fa72b-111">If the CPU is consistently above 90 percent, reduce the number of users.</span></span>
 
-2.  <span data-ttu-id="5facd-112">Si l’encombrement mémoire est élevé, vous pouvez rencontrer des problèmes si le fichier d’échange n’est pas assez grand.</span><span class="sxs-lookup"><span data-stu-id="5facd-112">If the memory footprint is high, you could run into issues if the page file is not big enough.</span></span> <span data-ttu-id="5facd-113">Vérifiez que la charge dédiée n’atteint pas la limite de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="5facd-113">Verify that the Commit Charge is not hitting the limit on the computer.</span></span> <span data-ttu-id="5facd-114">Si vous utilisez des limites de mémoire, envisagez d’augmenter la taille du fichier d’échange ou de réduire le nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5facd-114">If you are running into memory limits, consider increasing the page file size or reducing the number of users</span></span>
+2.  <span data-ttu-id="fa72b-112">Si l’encombrement mémoire est élevé, vous pouvez rencontrer des problèmes si le fichier d’échange n’est pas assez grand.</span><span class="sxs-lookup"><span data-stu-id="fa72b-112">If the memory footprint is high, you could run into issues if the page file is not big enough.</span></span> <span data-ttu-id="fa72b-113">Vérifiez que la charge dédiée n’atteint pas la limite de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-113">Verify that the Commit Charge is not hitting the limit on the computer.</span></span> <span data-ttu-id="fa72b-114">Si vous utilisez des limites de mémoire, envisagez d’augmenter la taille du fichier d’échange ou de réduire le nombre d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="fa72b-114">If you are running into memory limits, consider increasing the page file size or reducing the number of users</span></span>
 
-<span data-ttu-id="5facd-115">Les tableaux suivants répertorient les compteurs de performances Key LyncPerfTool.</span><span class="sxs-lookup"><span data-stu-id="5facd-115">The following tables list the key LyncPerfTool performance counters.</span></span>
+<span data-ttu-id="fa72b-115">Les tableaux suivants répertorient les compteurs de performances Key LyncPerfTool.</span><span class="sxs-lookup"><span data-stu-id="fa72b-115">The following tables list the key LyncPerfTool performance counters.</span></span>
 
-<span data-ttu-id="5facd-116">**Informations générales**</span><span class="sxs-lookup"><span data-stu-id="5facd-116">**General Information**</span></span>
+<span data-ttu-id="fa72b-116">**Informations générales**</span><span class="sxs-lookup"><span data-stu-id="fa72b-116">**General Information**</span></span>
 
 
 <table>
@@ -63,30 +63,30 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-117"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-117"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-118"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-118"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-117"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-117"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-118"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-118"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-119">Temps passé en minutes</span><span class="sxs-lookup"><span data-stu-id="5facd-119">Time Spent in Minutes</span></span></p></td>
-<td><p><span data-ttu-id="5facd-120">Temps passé depuis le démarrage du processus.</span><span class="sxs-lookup"><span data-stu-id="5facd-120">Time spent since the process was started.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-119">Temps passé en minutes</span><span class="sxs-lookup"><span data-stu-id="fa72b-119">Time Spent in Minutes</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-120">Temps passé depuis le démarrage du processus.</span><span class="sxs-lookup"><span data-stu-id="fa72b-120">Time spent since the process was started.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-121">Points de terminaison actifs</span><span class="sxs-lookup"><span data-stu-id="5facd-121">Active Endpoints</span></span></p></td>
-<td><p><span data-ttu-id="5facd-122">Nombre de points de terminaison actuellement connectés au serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-122">Number of endpoints currently connected to the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-121">Points de terminaison actifs</span><span class="sxs-lookup"><span data-stu-id="fa72b-121">Active Endpoints</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-122">Nombre de points de terminaison actuellement connectés au serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-122">Number of endpoints currently connected to the server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-123">Échecs de connexion</span><span class="sxs-lookup"><span data-stu-id="5facd-123">Failed Logons</span></span></p></td>
-<td><p><span data-ttu-id="5facd-124">Nombre total d’échecs de connexion au point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="5facd-124">Total number of endpoint sign-in failures.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-123">Échecs de connexion</span><span class="sxs-lookup"><span data-stu-id="fa72b-123">Failed Logons</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-124">Nombre total d’échecs de connexion au point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="fa72b-124">Total number of endpoint sign-in failures.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-125">Tentatives de connexion</span><span class="sxs-lookup"><span data-stu-id="5facd-125">Logon Attempts</span></span></p></td>
-<td><p><span data-ttu-id="5facd-126">Nombre total de tentatives de connexion au point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="5facd-126">Total number of endpoint sign-in attempts.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-125">Tentatives de connexion</span><span class="sxs-lookup"><span data-stu-id="fa72b-125">Logon Attempts</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-126">Nombre total de tentatives de connexion au point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="fa72b-126">Total number of endpoint sign-in attempts.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-127">Points de terminaison déconnectés</span><span class="sxs-lookup"><span data-stu-id="5facd-127">Endpoints Disconnected</span></span></p></td>
-<td><p><span data-ttu-id="5facd-128">Nombre total de points de terminaison qui ont été déconnectés.</span><span class="sxs-lookup"><span data-stu-id="5facd-128">Total number of endpoints that have been disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-127">Points de terminaison déconnectés</span><span class="sxs-lookup"><span data-stu-id="fa72b-127">Endpoints Disconnected</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-128">Nombre total de points de terminaison qui ont été déconnectés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-128">Total number of endpoints that have been disconnected.</span></span></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -96,7 +96,7 @@ ms.locfileid: "42049416"
 </table>
 
 
-<span data-ttu-id="5facd-129">**Informations de présence**</span><span class="sxs-lookup"><span data-stu-id="5facd-129">**Presence Information**</span></span>
+<span data-ttu-id="fa72b-129">**Informations de présence**</span><span class="sxs-lookup"><span data-stu-id="fa72b-129">**Presence Information**</span></span>
 
 
 <table>
@@ -106,34 +106,34 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-130"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-130"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-131"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-131"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-130"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-130"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-131"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-131"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-132">Appels SetPresence</span><span class="sxs-lookup"><span data-stu-id="5facd-132">SetPresence Calls</span></span></p></td>
-<td><p><span data-ttu-id="5facd-133">Nombre total de tentatives de modification de présence.</span><span class="sxs-lookup"><span data-stu-id="5facd-133">Total number of presence change attempts.</span></span> <span data-ttu-id="5facd-134">Pour les différents types de modifications de présence, voir le compteur de performances appels SetPresence (type de présence).</span><span class="sxs-lookup"><span data-stu-id="5facd-134">For different types of presence changes, see the SetPresence (Presence Type) Calls Performance Counter.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-132">Appels SetPresence</span><span class="sxs-lookup"><span data-stu-id="fa72b-132">SetPresence Calls</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-133">Nombre total de tentatives de modification de présence.</span><span class="sxs-lookup"><span data-stu-id="fa72b-133">Total number of presence change attempts.</span></span> <span data-ttu-id="fa72b-134">Pour les différents types de modifications de présence, voir le compteur de performances appels SetPresence (type de présence).</span><span class="sxs-lookup"><span data-stu-id="fa72b-134">For different types of presence changes, see the SetPresence (Presence Type) Calls Performance Counter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-135">NNN réponses pour SetPresence</span><span class="sxs-lookup"><span data-stu-id="5facd-135">NNN Responses for SetPresence</span></span></p></td>
-<td><p><span data-ttu-id="5facd-136">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-136">Total number of nnn response codes received from the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-135">NNN réponses pour SetPresence</span><span class="sxs-lookup"><span data-stu-id="fa72b-135">NNN Responses for SetPresence</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-136">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-136">Total number of nnn response codes received from the server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-137">Appels GetPresence</span><span class="sxs-lookup"><span data-stu-id="5facd-137">GetPresence Calls</span></span></p></td>
-<td><p><span data-ttu-id="5facd-138">Nombre total de tentatives de demande d’obtention de présence.</span><span class="sxs-lookup"><span data-stu-id="5facd-138">Total number of get presence request attempts.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-137">Appels GetPresence</span><span class="sxs-lookup"><span data-stu-id="fa72b-137">GetPresence Calls</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-138">Nombre total de tentatives de demande d’obtention de présence.</span><span class="sxs-lookup"><span data-stu-id="fa72b-138">Total number of get presence request attempts.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-139">NNN réponses pour GetPresence</span><span class="sxs-lookup"><span data-stu-id="5facd-139">NNN Responses for GetPresence</span></span></p></td>
-<td><p><span data-ttu-id="5facd-140">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-140">Total number of nnn response codes received from the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-139">NNN réponses pour GetPresence</span><span class="sxs-lookup"><span data-stu-id="fa72b-139">NNN Responses for GetPresence</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-140">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-140">Total number of nnn response codes received from the server.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-141">**Informations du service de carnet d’adresses**</span><span class="sxs-lookup"><span data-stu-id="5facd-141">**Address Book service Information**</span></span>
+<span data-ttu-id="fa72b-141">**Informations du service de carnet d’adresses**</span><span class="sxs-lookup"><span data-stu-id="fa72b-141">**Address Book service Information**</span></span>
 
-<span data-ttu-id="5facd-142">Cette catégorie comprend les compteurs utilisés pour surveiller les téléchargements de fichiers du service de carnet d’adresses et les demandes de service de requête Web du carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="5facd-142">This category includes counters used to monitor Address Book service (ABS) file downloads and Address Book Web Query service requests.</span></span>
+<span data-ttu-id="fa72b-142">Cette catégorie comprend les compteurs utilisés pour surveiller les téléchargements de fichiers du service de carnet d’adresses et les demandes de service de requête Web du carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="fa72b-142">This category includes counters used to monitor Address Book service (ABS) file downloads and Address Book Web Query service requests.</span></span>
 
 
 <table>
@@ -143,40 +143,40 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-143"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-143"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-144"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-144"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-143"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-143"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-144"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-144"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-145">Tentatives de téléchargements de fichiers complets/Delta ABS</span><span class="sxs-lookup"><span data-stu-id="5facd-145">ABS Full/Delta File Downloads Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-146">Nombre total de demandes de téléchargements de fichiers complets ou deltas.</span><span class="sxs-lookup"><span data-stu-id="5facd-146">Total number of full or delta file download requests attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-145">Tentatives de téléchargements de fichiers complets/Delta ABS</span><span class="sxs-lookup"><span data-stu-id="fa72b-145">ABS Full/Delta File Downloads Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-146">Nombre total de demandes de téléchargements de fichiers complets ou deltas.</span><span class="sxs-lookup"><span data-stu-id="fa72b-146">Total number of full or delta file download requests attempted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-147">Les téléchargements de fichiers complets/Delta ABS ont réussi</span><span class="sxs-lookup"><span data-stu-id="5facd-147">ABS Full/Delta File Downloads Succeeded</span></span></p></td>
-<td><p><span data-ttu-id="5facd-148">Nombre total de demandes de téléchargements de fichiers complets ou deltas.</span><span class="sxs-lookup"><span data-stu-id="5facd-148">Total number of full or delta file download requests attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-147">Les téléchargements de fichiers complets/Delta ABS ont réussi</span><span class="sxs-lookup"><span data-stu-id="fa72b-147">ABS Full/Delta File Downloads Succeeded</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-148">Nombre total de demandes de téléchargements de fichiers complets ou deltas.</span><span class="sxs-lookup"><span data-stu-id="fa72b-148">Total number of full or delta file download requests attempted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-149">Compteurs liés au service de requête Web du carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="5facd-149">Address Book Web Query service related counters</span></span></p></td>
-<td><p><span data-ttu-id="5facd-150">Compteurs liés au téléchargement du fichier de carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="5facd-150">Address book file download related counters.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-149">Compteurs liés au service de requête Web du carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="fa72b-149">Address Book Web Query service related counters</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-150">Compteurs liés au téléchargement du fichier de carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="fa72b-150">Address book file download related counters.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-151">Tentatives d’appels WS WS</span><span class="sxs-lookup"><span data-stu-id="5facd-151">ABS WS Calls attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-152">Nombre total de demandes de service de requête sur le Web du carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="5facd-152">Total number of Address Book Web Query service requests attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-151">Tentatives d’appels WS WS</span><span class="sxs-lookup"><span data-stu-id="fa72b-151">ABS WS Calls attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-152">Nombre total de demandes de service de requête sur le Web du carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="fa72b-152">Total number of Address Book Web Query service requests attempted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-153">Appels WS WS réussis</span><span class="sxs-lookup"><span data-stu-id="5facd-153">ABS WS Calls Succeeded</span></span></p></td>
-<td><p><span data-ttu-id="5facd-154">Nombre total de demandes de service de requête Web de carnet d’adresses ayant renvoyé un code de réponse réussi.</span><span class="sxs-lookup"><span data-stu-id="5facd-154">Total number of Address Book Web Query service requests that returned a successful response code.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-153">Appels WS WS réussis</span><span class="sxs-lookup"><span data-stu-id="fa72b-153">ABS WS Calls Succeeded</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-154">Nombre total de demandes de service de requête Web de carnet d’adresses ayant renvoyé un code de réponse réussi.</span><span class="sxs-lookup"><span data-stu-id="fa72b-154">Total number of Address Book Web Query service requests that returned a successful response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-155">Échec des appels d’ABS WS</span><span class="sxs-lookup"><span data-stu-id="5facd-155">ABS WS Calls Failed</span></span></p></td>
-<td><p><span data-ttu-id="5facd-156">Nombre total de demandes de service de requête Web de carnet d’adresses qui a renvoyé un code de réponse d’erreur.</span><span class="sxs-lookup"><span data-stu-id="5facd-156">Total number of Address Book Web Query service requests that returned an error response code.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-155">Échec des appels d’ABS WS</span><span class="sxs-lookup"><span data-stu-id="fa72b-155">ABS WS Calls Failed</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-156">Nombre total de demandes de service de requête Web de carnet d’adresses qui a renvoyé un code de réponse d’erreur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-156">Total number of Address Book Web Query service requests that returned an error response code.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-157">**Informations sur la liste de distribution (DL)**</span><span class="sxs-lookup"><span data-stu-id="5facd-157">**Distribution List (DL) Information**</span></span>
+<span data-ttu-id="fa72b-157">**Informations sur la liste de distribution (DL)**</span><span class="sxs-lookup"><span data-stu-id="fa72b-157">**Distribution List (DL) Information**</span></span>
 
 
 <table>
@@ -186,30 +186,30 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-158"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-158"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-159"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-159"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-158"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-158"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-159"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-159"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-160">Tentatives d’appels</span><span class="sxs-lookup"><span data-stu-id="5facd-160">Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-161">Nombre total de demandes de service Web d’expansion de liste de distribution (DLX).</span><span class="sxs-lookup"><span data-stu-id="5facd-161">Total number of distribution list expansion (DLX) web service requests attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-160">Tentatives d’appels</span><span class="sxs-lookup"><span data-stu-id="fa72b-160">Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-161">Nombre total de demandes de service Web d’expansion de liste de distribution (DLX).</span><span class="sxs-lookup"><span data-stu-id="fa72b-161">Total number of distribution list expansion (DLX) web service requests attempted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-162">Appels réussis</span><span class="sxs-lookup"><span data-stu-id="5facd-162">Calls Succeeded</span></span></p></td>
-<td><p><span data-ttu-id="5facd-163">Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse réussi.</span><span class="sxs-lookup"><span data-stu-id="5facd-163">Total number of DLX web service requests that returned a successful response code.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-162">Appels réussis</span><span class="sxs-lookup"><span data-stu-id="fa72b-162">Calls Succeeded</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-163">Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse réussi.</span><span class="sxs-lookup"><span data-stu-id="fa72b-163">Total number of DLX web service requests that returned a successful response code.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-164">Échec des appels</span><span class="sxs-lookup"><span data-stu-id="5facd-164">Calls Failed</span></span></p></td>
-<td><p><span data-ttu-id="5facd-165">Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse d’erreur.</span><span class="sxs-lookup"><span data-stu-id="5facd-165">Total number of DLX web service requests that returned an error response code.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-164">Échec des appels</span><span class="sxs-lookup"><span data-stu-id="fa72b-164">Calls Failed</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-165">Nombre total de demandes de service Web DLX ayant renvoyé un code de réponse d’erreur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-165">Total number of DLX web service requests that returned an error response code.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-166">**Informations de base VoIP**</span><span class="sxs-lookup"><span data-stu-id="5facd-166">**VoIP Basic Information**</span></span>
+<span data-ttu-id="fa72b-166">**Informations de base VoIP**</span><span class="sxs-lookup"><span data-stu-id="fa72b-166">**VoIP Basic Information**</span></span>
 
-<span data-ttu-id="5facd-167">Les compteurs de performance répertoriés ci-dessous indiquent les numéros de tous les appels VoIP (Voice over IP), y compris les appels vers le serveur de médiation, le serveur de conférence A/V, le serveur Edge, l’application Response Group et le standard automatique de conférence, lorsque ces scénarios sont activés.</span><span class="sxs-lookup"><span data-stu-id="5facd-167">The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled.</span></span>
+<span data-ttu-id="fa72b-167">Les compteurs de performance répertoriés ci-dessous indiquent les numéros de tous les appels VoIP (Voice over IP), y compris les appels vers le serveur de médiation, le serveur de conférence A/V, le serveur Edge, l’application Response Group et le standard automatique de conférence, lorsque ces scénarios sont activés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-167">The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled.</span></span>
 
 
 <table>
@@ -219,44 +219,44 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-168"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-168"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-169"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-169"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-168"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-168"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-169"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-169"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-170">Appelle active</span><span class="sxs-lookup"><span data-stu-id="5facd-170">Calls Active</span></span></p></td>
-<td><p><span data-ttu-id="5facd-171">Nombre total d’appels vocaux entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-171">Total number of incoming/outgoing voice calls ongoing currently.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-170">Appelle active</span><span class="sxs-lookup"><span data-stu-id="fa72b-170">Calls Active</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-171">Nombre total d’appels vocaux entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-171">Total number of incoming/outgoing voice calls ongoing currently.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-172">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="5facd-172">Calls Terminated</span></span></p></td>
-<td><p><span data-ttu-id="5facd-173">Nombre total d’appels vocaux entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="5facd-173">Total number of incoming/outgoing voice calls already terminated.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-172">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="fa72b-172">Calls Terminated</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-173">Nombre total d’appels vocaux entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-173">Total number of incoming/outgoing voice calls already terminated.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-174">Appels refusés</span><span class="sxs-lookup"><span data-stu-id="5facd-174">Calls Declined</span></span></p></td>
-<td><p><span data-ttu-id="5facd-175">Nombre total d’appels vocaux entrants refusés.</span><span class="sxs-lookup"><span data-stu-id="5facd-175">Total number of incoming voice calls declined.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-174">Appels refusés</span><span class="sxs-lookup"><span data-stu-id="fa72b-174">Calls Declined</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-175">Nombre total d’appels vocaux entrants refusés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-175">Total number of incoming voice calls declined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-176">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="5facd-176">Incoming/Outgoing Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-177">Nombre total d’appels vocaux entrants/sortants tentés.</span><span class="sxs-lookup"><span data-stu-id="5facd-177">Total number of incoming/outgoing voice calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-176">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="fa72b-176">Incoming/Outgoing Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-177">Nombre total d’appels vocaux entrants/sortants tentés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-177">Total number of incoming/outgoing voice calls attempted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-178">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="5facd-178">Incoming/Outgoing Calls Established</span></span></p></td>
-<td><p><span data-ttu-id="5facd-179">Nombre total d’appels vocaux entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="5facd-179">Total number of incoming/outgoing voice calls established.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-178">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="fa72b-178">Incoming/Outgoing Calls Established</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-179">Nombre total d’appels vocaux entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="fa72b-179">Total number of incoming/outgoing voice calls established.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-180">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="5facd-180">Calls Received NNN</span></span></p></td>
-<td><p><span data-ttu-id="5facd-181">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-181">Total number of nnn response codes received from the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-180">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="fa72b-180">Calls Received NNN</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-181">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-181">Total number of nnn response codes received from the server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-182">Taux de réussite VoIP (%)</span><span class="sxs-lookup"><span data-stu-id="5facd-182">VoIP Pass Rate (%)</span></span></p></td>
-<td><p><span data-ttu-id="5facd-183">Nombre total d’appels établis/nombre total d’appels tentés.</span><span class="sxs-lookup"><span data-stu-id="5facd-183">Total calls established/Total calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-182">Taux de réussite VoIP (%)</span><span class="sxs-lookup"><span data-stu-id="fa72b-182">VoIP Pass Rate (%)</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-183">Nombre total d’appels établis/nombre total d’appels tentés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-183">Total calls established/Total calls attempted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-184">**Informations sur les appels au service Response Group**</span><span class="sxs-lookup"><span data-stu-id="5facd-184">**Response Group service Call Information**</span></span>
+<span data-ttu-id="fa72b-184">**Informations sur les appels au service Response Group**</span><span class="sxs-lookup"><span data-stu-id="fa72b-184">**Response Group service Call Information**</span></span>
 
 
 <table>
@@ -266,24 +266,24 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-185"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-185"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-186"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-186"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-185"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-185"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-186"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-186"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-187">Appelle active</span><span class="sxs-lookup"><span data-stu-id="5facd-187">Calls Active</span></span></p></td>
-<td><p><span data-ttu-id="5facd-188">Nombre total d’appels actifs à l’application Response Group.</span><span class="sxs-lookup"><span data-stu-id="5facd-188">Total number of active calls to the Response Group application.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-187">Appelle active</span><span class="sxs-lookup"><span data-stu-id="fa72b-187">Calls Active</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-188">Nombre total d’appels actifs à l’application Response Group.</span><span class="sxs-lookup"><span data-stu-id="fa72b-188">Total number of active calls to the Response Group application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-189">Tentatives d’appels</span><span class="sxs-lookup"><span data-stu-id="5facd-189">Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-190">Nombre total d’appels tentés.</span><span class="sxs-lookup"><span data-stu-id="5facd-190">Total number of calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-189">Tentatives d’appels</span><span class="sxs-lookup"><span data-stu-id="fa72b-189">Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-190">Nombre total d’appels tentés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-190">Total number of calls attempted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-191">**Informations sur les appels de messagerie instantanée**</span><span class="sxs-lookup"><span data-stu-id="5facd-191">**Instant Messaging (IM) Call Information**</span></span>
+<span data-ttu-id="fa72b-191">**Informations sur les appels de messagerie instantanée**</span><span class="sxs-lookup"><span data-stu-id="fa72b-191">**Instant Messaging (IM) Call Information**</span></span>
 
 
 <table>
@@ -293,40 +293,40 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-192"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-192"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-193"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-193"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-192"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-192"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-193"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-193"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-194">Appelle active</span><span class="sxs-lookup"><span data-stu-id="5facd-194">Calls Active</span></span></p></td>
-<td><p><span data-ttu-id="5facd-195">Nombre total d’appels de messagerie instantanée entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-195">Total number of ongoing incoming/outgoing instant messaging calls.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-194">Appelle active</span><span class="sxs-lookup"><span data-stu-id="fa72b-194">Calls Active</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-195">Nombre total d’appels de messagerie instantanée entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-195">Total number of ongoing incoming/outgoing instant messaging calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-196">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="5facd-196">Calls Terminated</span></span></p></td>
-<td><p><span data-ttu-id="5facd-197">Nombre total d’appels de messagerie instantanée entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="5facd-197">Total number of incoming/outgoing instant messaging calls already terminated.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-196">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="fa72b-196">Calls Terminated</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-197">Nombre total d’appels de messagerie instantanée entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-197">Total number of incoming/outgoing instant messaging calls already terminated.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-198">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="5facd-198">Calls Received NNN</span></span></p></td>
-<td><p><span data-ttu-id="5facd-199">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-199">Total number of nnn response codes received from the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-198">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="fa72b-198">Calls Received NNN</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-199">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-199">Total number of nnn response codes received from the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-200">Messages INSTANTANÉs reçus/envoyés</span><span class="sxs-lookup"><span data-stu-id="5facd-200">IM Messages Received/Sent</span></span></p></td>
-<td><p><span data-ttu-id="5facd-201">Nombre total de messages reçus ou envoyés pour toutes les sessions.</span><span class="sxs-lookup"><span data-stu-id="5facd-201">Total number of messages received or sent for all sessions.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-200">Messages INSTANTANÉs reçus/envoyés</span><span class="sxs-lookup"><span data-stu-id="fa72b-200">IM Messages Received/Sent</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-201">Nombre total de messages reçus ou envoyés pour toutes les sessions.</span><span class="sxs-lookup"><span data-stu-id="fa72b-201">Total number of messages received or sent for all sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-202">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="5facd-202">Incoming/Outgoing Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-203">Nombre total d’appels de messagerie instantanée entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="5facd-203">Total number of incoming/outgoing instant messaging calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-202">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="fa72b-202">Incoming/Outgoing Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-203">Nombre total d’appels de messagerie instantanée entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="fa72b-203">Total number of incoming/outgoing instant messaging calls attempted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-204">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="5facd-204">Incoming/Outgoing Calls Established</span></span></p></td>
-<td><p><span data-ttu-id="5facd-205">Nombre total d’appels de messagerie instantanée entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="5facd-205">Total number of incoming/outgoing instant message calls established.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-204">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="fa72b-204">Incoming/Outgoing Calls Established</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-205">Nombre total d’appels de messagerie instantanée entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="fa72b-205">Total number of incoming/outgoing instant message calls established.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-206">**Informations sur les appels de partage d’application**</span><span class="sxs-lookup"><span data-stu-id="5facd-206">**App Sharing Call Information**</span></span>
+<span data-ttu-id="fa72b-206">**Informations sur les appels de partage d’application**</span><span class="sxs-lookup"><span data-stu-id="fa72b-206">**App Sharing Call Information**</span></span>
 
 
 <table>
@@ -336,30 +336,30 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-207"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-207"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-208"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-208"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-207"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-207"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-208"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-208"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-209">Appelle active</span><span class="sxs-lookup"><span data-stu-id="5facd-209">Calls Active</span></span></p></td>
-<td><p><span data-ttu-id="5facd-210">Nombre total d’appels de partage d’application entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-210">Total number of ongoing incoming/outgoing application sharing calls.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-209">Appelle active</span><span class="sxs-lookup"><span data-stu-id="fa72b-209">Calls Active</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-210">Nombre total d’appels de partage d’application entrants/sortants en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-210">Total number of ongoing incoming/outgoing application sharing calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-211">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="5facd-211">Calls Terminated</span></span></p></td>
-<td><p><span data-ttu-id="5facd-212">Nombre total d’appels de partage d’application entrants et sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="5facd-212">Total number of incoming/outgoing application sharing calls already terminated.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-211">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="fa72b-211">Calls Terminated</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-212">Nombre total d’appels de partage d’application entrants et sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-212">Total number of incoming/outgoing application sharing calls already terminated.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-213">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="5facd-213">Calls Received NNN</span></span></p></td>
-<td><p><span data-ttu-id="5facd-214">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="5facd-214">Total number of nnn response codes received from the server.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-213">Appels reçus NNN</span><span class="sxs-lookup"><span data-stu-id="fa72b-213">Calls Received NNN</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-214">Nombre total de codes de réponse nnn reçus du serveur.</span><span class="sxs-lookup"><span data-stu-id="fa72b-214">Total number of nnn response codes received from the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-215">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="5facd-215">Incoming/Outgoing Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-216">Nombre total d’appels de partage d’application entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="5facd-216">Total number of incoming/outgoing application sharing calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-215">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="fa72b-215">Incoming/Outgoing Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-216">Nombre total d’appels de partage d’application entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="fa72b-216">Total number of incoming/outgoing application sharing calls attempted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-217">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="5facd-217">Incoming/Outgoing Calls Established</span></span></p></td>
-<td><p><span data-ttu-id="5facd-218">Nombre total d’appels de partage d’application entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="5facd-218">Total number of incoming/outgoing application sharing calls established.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-217">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="fa72b-217">Incoming/Outgoing Calls Established</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-218">Nombre total d’appels de partage d’application entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="fa72b-218">Total number of incoming/outgoing application sharing calls established.</span></span></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -369,7 +369,7 @@ ms.locfileid: "42049416"
 </table>
 
 
-<span data-ttu-id="5facd-219">**Informations sur les appels CAA**</span><span class="sxs-lookup"><span data-stu-id="5facd-219">**CAA Call Information**</span></span>
+<span data-ttu-id="fa72b-219">**Informations sur les appels CAA**</span><span class="sxs-lookup"><span data-stu-id="fa72b-219">**CAA Call Information**</span></span>
 
 
 <table>
@@ -379,32 +379,32 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-220"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-220"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-221"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-221"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-220"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-220"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-221"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-221"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-222">Appelle active</span><span class="sxs-lookup"><span data-stu-id="5facd-222">Calls Active</span></span></p></td>
-<td><p><span data-ttu-id="5facd-223">Nombre total d’appels RTC (réseau téléphonique commuté) en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-223">Total number of incoming/outgoing public switched telephone network (PSTN) calls ongoing currently.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-222">Appelle active</span><span class="sxs-lookup"><span data-stu-id="fa72b-222">Calls Active</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-223">Nombre total d’appels RTC (réseau téléphonique commuté) en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-223">Total number of incoming/outgoing public switched telephone network (PSTN) calls ongoing currently.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-224">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="5facd-224">Calls Terminated</span></span></p></td>
-<td><p><span data-ttu-id="5facd-225">Nombre total d’appels RTC entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="5facd-225">Total number of incoming/outgoing PSTN calls already terminated.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-224">Appels terminés</span><span class="sxs-lookup"><span data-stu-id="fa72b-224">Calls Terminated</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-225">Nombre total d’appels RTC entrants/sortants déjà terminés.</span><span class="sxs-lookup"><span data-stu-id="fa72b-225">Total number of incoming/outgoing PSTN calls already terminated.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-226">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="5facd-226">Incoming/Outgoing Calls Attempted</span></span></p></td>
-<td><p><span data-ttu-id="5facd-227">Nombre total d’appels RTC entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="5facd-227">Total number of incoming/outgoing PSTN calls attempted.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-226">Tentatives d’appels entrants/sortants</span><span class="sxs-lookup"><span data-stu-id="fa72b-226">Incoming/Outgoing Calls Attempted</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-227">Nombre total d’appels RTC entrants/sortants.</span><span class="sxs-lookup"><span data-stu-id="fa72b-227">Total number of incoming/outgoing PSTN calls attempted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-228">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="5facd-228">Incoming/Outgoing Calls Established</span></span></p></td>
-<td><p><span data-ttu-id="5facd-229">Nombre total d’appels RTC entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="5facd-229">Total number of incoming/outgoing PSTN calls established.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-228">Appels entrants/sortants établis</span><span class="sxs-lookup"><span data-stu-id="fa72b-228">Incoming/Outgoing Calls Established</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-229">Nombre total d’appels RTC entrants/sortants établis.</span><span class="sxs-lookup"><span data-stu-id="fa72b-229">Total number of incoming/outgoing PSTN calls established.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-230">**Informations sur la Conférence**</span><span class="sxs-lookup"><span data-stu-id="5facd-230">**Conference Information**</span></span>
+<span data-ttu-id="fa72b-230">**Informations sur la Conférence**</span><span class="sxs-lookup"><span data-stu-id="fa72b-230">**Conference Information**</span></span>
 
 
 <table>
@@ -414,40 +414,40 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-231"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-231"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-232"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-232"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-231"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-231"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-232"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-232"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-233">Conférences de messagerie instantanée actives</span><span class="sxs-lookup"><span data-stu-id="5facd-233">Active Instant Messaging Conferences</span></span></p></td>
-<td><p><span data-ttu-id="5facd-234">Nombre total de conférences de messagerie instantanée en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-234">Total number of ongoing instant messaging conferences.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-233">Conférences de messagerie instantanée actives</span><span class="sxs-lookup"><span data-stu-id="fa72b-233">Active Instant Messaging Conferences</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-234">Nombre total de conférences de messagerie instantanée en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-234">Total number of ongoing instant messaging conferences.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-235">Conférences audio/vidéo actives</span><span class="sxs-lookup"><span data-stu-id="5facd-235">Active Audio/Video Conferences</span></span></p></td>
-<td><p><span data-ttu-id="5facd-236">Nombre total de conférences audio/vidéo (A/V) en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-236">Total number of ongoing audio/video (A/V) conferences.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-235">Conférences audio/vidéo actives</span><span class="sxs-lookup"><span data-stu-id="fa72b-235">Active Audio/Video Conferences</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-236">Nombre total de conférences audio/vidéo (A/V) en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-236">Total number of ongoing audio/video (A/V) conferences.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-237">Conférences de partage d’applications actives</span><span class="sxs-lookup"><span data-stu-id="5facd-237">Active Application Sharing Conferences</span></span></p></td>
-<td><p><span data-ttu-id="5facd-238">Nombre total de conférences de partage d’application en cours.</span><span class="sxs-lookup"><span data-stu-id="5facd-238">Total number of ongoing application sharing conferences.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-237">Conférences de partage d’applications actives</span><span class="sxs-lookup"><span data-stu-id="fa72b-237">Active Application Sharing Conferences</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-238">Nombre total de conférences de partage d’application en cours.</span><span class="sxs-lookup"><span data-stu-id="fa72b-238">Total number of ongoing application sharing conferences.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-239">Nombre de participants</span><span class="sxs-lookup"><span data-stu-id="5facd-239">Number of Participants</span></span></p></td>
-<td><p><span data-ttu-id="5facd-240">Nombre total de participants actuellement connectés à des conférences.</span><span class="sxs-lookup"><span data-stu-id="5facd-240">Total number of participants currently connected to conferences.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-239">Nombre de participants</span><span class="sxs-lookup"><span data-stu-id="fa72b-239">Number of Participants</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-240">Nombre total de participants actuellement connectés à des conférences.</span><span class="sxs-lookup"><span data-stu-id="fa72b-240">Total number of participants currently connected to conferences.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-241">Échec de la planification des conférences</span><span class="sxs-lookup"><span data-stu-id="5facd-241">Conference Schedule Failure</span></span></p></td>
-<td><p><span data-ttu-id="5facd-242">Nombre total d’échecs lors de la tentative de planification d’une conférence.</span><span class="sxs-lookup"><span data-stu-id="5facd-242">Total number of failures while trying to schedule a conference.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-241">Échec de la planification des conférences</span><span class="sxs-lookup"><span data-stu-id="fa72b-241">Conference Schedule Failure</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-242">Nombre total d’échecs lors de la tentative de planification d’une conférence.</span><span class="sxs-lookup"><span data-stu-id="fa72b-242">Total number of failures while trying to schedule a conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-243">Rejoindre la Conférence</span><span class="sxs-lookup"><span data-stu-id="5facd-243">Join Conference Failure</span></span></p></td>
-<td><p><span data-ttu-id="5facd-244">Nombre total d’échecs lors de la tentative de connexion à une conférence.</span><span class="sxs-lookup"><span data-stu-id="5facd-244">Total number of failures while trying to connect to a conference.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-243">Rejoindre la Conférence</span><span class="sxs-lookup"><span data-stu-id="fa72b-243">Join Conference Failure</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-244">Nombre total d’échecs lors de la tentative de connexion à une conférence.</span><span class="sxs-lookup"><span data-stu-id="fa72b-244">Total number of failures while trying to connect to a conference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5facd-245">**Compteurs client UCWA**</span><span class="sxs-lookup"><span data-stu-id="5facd-245">**UCWA Client Counters**</span></span>
+<span data-ttu-id="fa72b-245">**Compteurs client UCWA**</span><span class="sxs-lookup"><span data-stu-id="fa72b-245">**UCWA Client Counters**</span></span>
 
 
 <table>
@@ -457,18 +457,18 @@ ms.locfileid: "42049416"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5facd-246"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-246"><strong>Performance Counter</strong></span></span></th>
-<th><span data-ttu-id="5facd-247"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="5facd-247"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="fa72b-246"><strong>Compteur de performance</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-246"><strong>Performance Counter</strong></span></span></th>
+<th><span data-ttu-id="fa72b-247"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="fa72b-247"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5facd-248">Nombre total de jointures IMMCU réussies</span><span class="sxs-lookup"><span data-stu-id="5facd-248">Total Number of IMMCU Joins Succeeded</span></span></p></td>
-<td><p><span data-ttu-id="5facd-249">Nombre total de conférences de messagerie instantanée jointes.</span><span class="sxs-lookup"><span data-stu-id="5facd-249">Total number of instant messaging conferences joined.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-248">Nombre total de jointures IMMCU réussies</span><span class="sxs-lookup"><span data-stu-id="fa72b-248">Total Number of IMMCU Joins Succeeded</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-249">Nombre total de conférences de messagerie instantanée jointes.</span><span class="sxs-lookup"><span data-stu-id="fa72b-249">Total number of instant messaging conferences joined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5facd-250">Nombre total de jointures DMCU réussies</span><span class="sxs-lookup"><span data-stu-id="5facd-250">Total Number of DMCU Joins Succeeded</span></span></p></td>
-<td><p><span data-ttu-id="5facd-251">Nombre total de conférences A/V jointes.</span><span class="sxs-lookup"><span data-stu-id="5facd-251">Total number of A/V conferences joined.</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-250">Nombre total de jointures DMCU réussies</span><span class="sxs-lookup"><span data-stu-id="fa72b-250">Total Number of DMCU Joins Succeeded</span></span></p></td>
+<td><p><span data-ttu-id="fa72b-251">Nombre total de conférences A/V jointes.</span><span class="sxs-lookup"><span data-stu-id="fa72b-251">Total number of A/V conferences joined.</span></span></p></td>
 </tr>
 </tbody>
 </table>
