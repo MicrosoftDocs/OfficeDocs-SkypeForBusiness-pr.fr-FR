@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Consultez cette rubrique pour découvrir comment migrer des appareils de système de salle Lync pour utiliser le logiciel de salle Microsoft Teams.
-ms.openlocfilehash: 4aad70c0a91824f0b1eff892aa1940760fc39d39
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4f0c255c40c64274ff4b104a8706eb8f73ee792f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826002"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155106"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migration de périphériques LRS (Lync Room System) vers des salles Microsoft teams
 
@@ -36,7 +36,7 @@ Voici la liste des appareils concernés par ce changement :
 - Crestron RL
 - [Crestron RL2](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
 - [Systèmes de salle intelligente](https://support.smarttech.com/en/hardware/room-systems-skype)
-- [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
+- [Polycom CX8000](https://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
 ## <a name="upgrade-options"></a>Options de mise à niveau
 

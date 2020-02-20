@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825802"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155086"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -248,7 +248,7 @@ Présenté dans cette mise à jour :
 
 Présenté dans cette mise à jour :
 
-- Prise en charge du matériel de votre station de [Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Prise en charge du matériel de votre station de [Polycom MSR](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Prise en charge de [Logitech brio](https://www.logitech.com/product/brio)
 - Résout un problème dans lequel les écrans (console et avant-salle) ne sont pas disponibles en mode veille lorsqu’il n’y a aucune activité dans la salle.
 
@@ -258,7 +258,7 @@ Présenté dans cette mise à jour :
 
 - S’exécute sur une tablette surface Pro (2017) 
 - Prend en charge la mise à jour de Windows 10 entreprise Creator (langue anglaise, Build 1703)
-- Prise en charge du matériel [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Dock
+- Prise en charge du matériel [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Dock
 - Support OEM pour les contrôles d’environnement (Crestron)
 
 Dans le cadre de la mise à jour de Microsoft teams 3.0.12.0 (Update 3), la version 64 bits de l’édition anniversaire Windows 10 entreprise (langue anglaise, version 1607) n’est plus prise en charge.

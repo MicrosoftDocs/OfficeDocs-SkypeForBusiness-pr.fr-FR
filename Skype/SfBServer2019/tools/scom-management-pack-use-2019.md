@@ -1,8 +1,8 @@
 ---
 title: Gérer Skype entreprise Server 2019 à l’aide d’un pack d’administration SCOM
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype entreprise Server 2019 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006039"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150541"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gérer Skype entreprise Server 2019 à l’aide d’un pack d’administration SCOM
  
@@ -126,11 +126,11 @@ Les packs d’administration de Skype entreprise Server 2019 fournissent une cou
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |Inscription (ouverture de session utilisateur)  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
-|2   <br/> |Service de carnet d’adresses (téléchargement de fichier)  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
-|3   <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
-|4   <br/> |Présence  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
-|5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et versions ultérieures  <br/> |
+|0,1  <br/> |Inscription (ouverture de session utilisateur)  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
+|n°2  <br/> |Service de carnet d’adresses (téléchargement de fichier)  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
+|3  <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
+|4  <br/> |Présence  <br/> |Lync Server 2010 disponible et versions ultérieures  <br/> |
+|disque  <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et versions ultérieures  <br/> |
    
 **Transactions synthétiques prises en charge pour les services P2P**
 
@@ -149,7 +149,7 @@ Les packs d’administration de Skype entreprise Server 2019 fournissent une cou
 |:-----|:-----|:-----|
 |9   <br/> |Audioconférence  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
 |10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et versions ultérieures  <br/> |
-|a4  <br/> |Conférence par messagerie instantanée  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
+|11   <br/> |Conférence par messagerie instantanée  <br/> |Disponible dans Lync Server 2010 et versions ultérieures  <br/> |
 |12  <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et versions ultérieures  <br/> |
 |kg  <br/> |Lanceur de participation (réunions planifiées)  <br/> |Disponible dans Lync Server 2013 et versions ultérieures  <br/> |
 |14   <br/> |Conférence rendez-vous  <br/> |Disponible dans Skype entreprise Server 2015 et versions ultérieures <br/> |

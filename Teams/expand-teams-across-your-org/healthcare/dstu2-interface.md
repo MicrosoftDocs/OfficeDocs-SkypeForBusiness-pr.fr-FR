@@ -1,7 +1,7 @@
 ---
 title: Application patients et interface DSTU2 d’intégration DMI
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827802"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153816"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
@@ -54,7 +54,7 @@ Toutes les ressources FHIR suivantes doivent être accessibles par référence d
    1. Veille
    2. Interaction
    3. Ressource : type
-   4. Sécurité : [extension pour les URI OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Sécurité : [extension pour les URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (notre code nécessite une telle mesure pour savoir quelle version nous devons faire pivoter à mesure que nous prenons en charge plusieurs versions.)
 
 Pour [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) plus d’informations sur ce jeu de champs, voir.
@@ -82,7 +82,7 @@ Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’ap
     Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>",.
       .
       .
-      "nom" : [{"utilisation" : "officiel", "préfixe" : ["Mr"], "famille" : ["Chau"], "en"; ";" ";" ";" ";" officiel "," tapez " : {" codage " : [{" système " :"http://hl7.org/fhir/v2/0203"," code " :" 1234567 "}])," valeur " :" "}]," sexe "," careProvider "," DateNaissance " :" 1957-06-05 "," " : [{" Display " :" Jane Dupont "}],}
+      "nom" : [{"utilisation" : "officiel", "préfixe" : ["Mr"], "famille" : ["Chau"], "en"; ";" ";" ";" ";" officiel "," tapez " : {" codage " : [{" système " :"https://hl7.org/fhir/v2/0203"," code " :" 1234567 "}])," valeur " :" "}]," sexe "," careProvider "," DateNaissance " :" 1957-06-05 "," " : [{" Display " :" Jane Dupont "}],}
 
 * * *
 

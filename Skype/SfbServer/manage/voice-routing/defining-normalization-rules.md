@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les règles de normalisation de Skype entreprise Server utilisent des expressions régulières .NET Framework pour convertir les numéros de téléphone composés au format E. 164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce nombre au format utilisé en interne par Skype entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028845"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151214"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition de règles de normalisation dans Skype entreprise Server
 
@@ -24,7 +24,7 @@ Les règles de normalisation de Skype entreprise Server utilisent des expression
 
 Pour plus d’informations sur les règles de normalisation, voir [Dial plans and Normalization Rules](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-Pour plus d’informations sur la façon d’écrire des expressions régulières, consultez la rubrique [expressions régulières .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
+Pour plus d’informations sur la façon d’écrire des expressions régulières, consultez la rubrique [expressions régulières .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Vous pouvez utiliser l’une des méthodes suivantes pour définir ou modifier une règle de normalisation :
 - [Utilisez l’outil **créer une règle de normalisation** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laissez le panneau de configuration de Skype entreprise Server générer le modèle de correspondance et la règle de traduction correspondants pour vous.

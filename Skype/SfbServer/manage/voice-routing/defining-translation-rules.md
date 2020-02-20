@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype entreprise Server Enterprise Voice achemine les appels en fonction de numéros de téléphone normalisés au format E. 164. Cela signifie que toutes les chaînes composées doivent être normalisées au format E. 164 dans le but d’effectuer une recherche inversée des numéros (RNL) afin qu’ils puissent être traduits dans leur URI SIP correspondant. Skype entreprise Server offre la possibilité de manipuler l’ID appelé et la présentation de l’ID de l’appelant.
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045066"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151204"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Définition de règles de conversion dans Skype entreprise Server
 
@@ -55,7 +55,7 @@ Vous pouvez employer l’une des méthodes suivantes pour créer ou modifier une
 - [Rédigez manuellement des expressions régulières](#create-or-modify-a-translation-rule-manually) pour définir le modèle de correspondance et la règle de traduction.
 
 > [!Note]
-> Pour plus d’informations sur l’écriture d’expressions régulières, consultez la rubrique [expressions régulières .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927). 
+> Pour plus d’informations sur l’écriture d’expressions régulières, consultez la rubrique [expressions régulières .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927). 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>Création ou modification d’une règle de conversion à l’aide de l’outil créer une règle de traduction
 

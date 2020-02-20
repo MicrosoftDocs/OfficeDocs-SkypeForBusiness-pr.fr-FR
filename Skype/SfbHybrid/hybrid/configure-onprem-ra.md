@@ -1,7 +1,7 @@
 ---
 title: Configuration d’un compte de ressource dans Skype entreprise Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726774"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113257"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
@@ -64,8 +64,8 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 2. Acheter une licence de système téléphonique. Voir :  
    - [Système téléphonique – licence utilisateur virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
-   - [Office 365 entreprise E1 et E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
-   - [Office 365 Entreprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
+   - [Office 365 Entreprise E1 et E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
+   - [Office 365 Entreprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 entreprise E5 Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
 3. Créez un compte de ressource local en exécutant l' `New-CsHybridApplicationEndpoint` applet de commande pour chaque standard automatique ou file d’attente d’appels du système téléphonique, et attribuez un nom, une adresse SIP et ainsi de suite à chacun d’eux.
@@ -112,8 +112,8 @@ Le compte de ressource aura besoin d’un numéro de téléphone attribué s’i
 
 7. Créez le standard automatique du système téléphonique ou la file d’attente d’appels. Consultez l’une des rubriques suivantes :
 
-   - [Configurer un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Créer une file d’attente d’appels sur le Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Créer une file d’attente d’appels cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. Associez le compte de ressource au standard automatique ou à la file d’attente d’appels du système téléphonique que vous avez choisi précédemment.
 
@@ -144,8 +144,8 @@ Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de c
     Pour plus d’informations sur cette commande, voir [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
 3. Créez le standard automatique du système téléphonique ou la file d’attente d’appels. Consultez l’une des rubriques suivantes :
-   - [Configurer un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Créer une file d’attente d’appels sur le Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Créer une file d’attente d’appels cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associez le compte de ressource et le standard automatique du système téléphonique ou la file d’attente que vous avez choisie précédemment.
 
 Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
@@ -193,11 +193,11 @@ La migration du service de messagerie unifiée Exchange vers le système télép
 
 ## <a name="see-also"></a>Voir aussi
 
-[Créer une file d’attente d’appels sur le Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
+[Créer une file d’attente d’appels cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
 
 [Qu’est-ce que les standards automatiques Cloud ?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Configurer un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+[Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
 [Planifier les standards automatiques Cloud](plan-cloud-auto-attendant.md)
 
