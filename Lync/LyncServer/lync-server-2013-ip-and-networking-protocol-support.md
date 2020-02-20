@@ -12,18 +12,18 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a9792ea8365dcd8941b831c43ab0406f9e33b90
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ea7312cff97b6c339d960c14902e912f6e2e7bae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046137"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Prise en charge des protocoles IP et réseau dans Lync Server 2013
 
@@ -50,7 +50,7 @@ Lync Server 2013 prend en charge les protocoles IP et de mise en réseau suivant
     
     </div>
 
-  - **Protocoles de transport SIP.**    De manière générique, SIP peut utiliser au moins trois types de transport : UDP (User Datagram Protocol), TCP (Transmission Control Protocol) et TLS (Transport Layer Security). Dans la configuration de transport SIP par défaut, le protocole TLS prévaut sur TCP. TLS est utilisé dans le réseau Lync Server 2013. Sur le serveur Edge du réseau, Lync Server 2013 peut interagir sur TCP. Lync Server 2013 ne prend pas en charge le protocole UDP pour le transport SIP car il ne respecte pas les normes minimales pour la sécurité, la fiabilité et l’évolutivité des communications d’entreprise. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « vers UDP, ou non à UDP [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369), qui est la question » à l’adresse.
+  - **Protocoles de transport SIP.**    De manière générique, SIP peut utiliser au moins trois types de transport : UDP (User Datagram Protocol), TCP (Transmission Control Protocol) et TLS (Transport Layer Security). Dans la configuration de transport SIP par défaut, le protocole TLS prévaut sur TCP. TLS est utilisé dans le réseau Lync Server 2013. Sur le serveur Edge du réseau, Lync Server 2013 peut interagir sur TCP. Lync Server 2013 ne prend pas en charge le protocole UDP pour le transport SIP car il ne respecte pas les normes minimales pour la sécurité, la fiabilité et l’évolutivité des communications d’entreprise. Pour plus d’informations, reportez-vous à l’article du blog NextHop, « vers UDP, ou non à UDP [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369), qui est la question » à l’adresse.
     
     <div>
     

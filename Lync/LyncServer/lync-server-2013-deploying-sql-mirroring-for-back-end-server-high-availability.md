@@ -12,18 +12,18 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0202b41c5da45513ccd4e08aa2ed054c3d20acbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 582de419e2c92ce5d158cb979147db5a94715322
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043726"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Déploiement de la mise en miroir SQL pour la haute disponibilité des serveurs principaux dans Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043726"
 
 _**Dernière modification de la rubrique :** 2014-01-08_
 
-Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921), reportez-vous à.
+Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921), reportez-vous à.
 
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
 
@@ -47,19 +47,19 @@ En général, la configuration de la mise en miroir SQL entre deux serveurs prin
 
   - Le principal et le miroir doivent disposer de la même édition de SQL Server. Le témoin peut en avoir une différente.
 
-Pour connaître les meilleures pratiques SQL en matière de prise en charge des versions SQL pour un rôle de témoin, voir « témoin de mise en miroir de [http://go.microsoft.com/fwlink/p/?LinkId=247345](http://go.microsoft.com/fwlink/p/?linkid=247345)bases de données » dans la bibliothèque MSDN à l’adresse.
+Pour connaître les meilleures pratiques SQL en matière de prise en charge des versions SQL pour un rôle de témoin, voir « témoin de mise en miroir de [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)bases de données » dans la bibliothèque MSDN à l’adresse.
 
 Vous utilisez le générateur de topologies pour déployer la mise en miroir SQL. Sélectionnez une option dans le générateur de topologie pour mettre en miroir les bases de données, et le générateur de topologies configure la mise en miroir (y compris la configuration d’un témoin, si vous le souhaitez) lors de la publication de la topologie. Notez que vous configurez ou supprimez le témoin en même temps que le miroir. Il n’existe pas de commande distincte pour déployer ou supprimer uniquement un témoin.
 
-Pour configurer la mise en miroir des serveurs, vous devez d’abord configurer les autorisations de base de données SQL correctement. Pour plus d’informations, consultez la rubrique « Configurer des comptes de connexion pour la mise en miroir de bases de données [http://go.microsoft.com/fwlink/p/?LinkId=268454](http://go.microsoft.com/fwlink/p/?linkid=268454)ou les groupes de disponibilité AlwaysOn (SQL Server) » à l’adresse.
+Pour configurer la mise en miroir des serveurs, vous devez d’abord configurer les autorisations de base de données SQL correctement. Pour plus d’informations, consultez la rubrique « Configurer des comptes de connexion pour la mise en miroir de bases de données [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)ou les groupes de disponibilité AlwaysOn (SQL Server) » à l’adresse.
 
 Avec la mise en miroir SQL, le mode de récupération de la base de données a toujours la valeur **Complète**, ce qui signifie que vous devez surveiller de près la taille du journal des transactions et sauvegarder les journaux des transactions de manière régulière afin d’éviter toute insuffisance d’espace disque sur les serveurs principaux. La fréquence des sauvegardes des journaux des transactions dépend de la vitesse à laquelle leur taille augmente, laquelle dépend à son tour des transactions de base de données induites par les activités des utilisateurs sur le pool frontal. Nous vous recommandons d’estimer l’accroissement des journaux des transactions pour la charge de travail de votre déploiement Lync afin de procéder à une planification en conséquence. Les articles suivants fournissent des informations supplémentaires sur la gestion des journaux et sauvegardes SQL :
 
-  - Modèles de récupération de base de données : « modèles de récupération (SQL Server) » à l’adresse[http://go.microsoft.com/fwlink/p/?LinkId=268446](http://go.microsoft.com/fwlink/p/?linkid=268446)
+  - Modèles de récupération de base de données : « modèles de récupération (SQL Server) » à l’adresse[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - Vue d’ensemble de la sauvegarde : « vue d’ensemble de la sauvegarde (SQL Server) » à[http://go.microsoft.com/fwlink/p/?LinkId=268449](http://go.microsoft.com/fwlink/p/?linkid=268449)
+  - Vue d’ensemble de la sauvegarde : « vue d’ensemble de la sauvegarde (SQL Server) » à[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - Sauvegarder le journal des transactions : « sauvegarder un journal des transactions (SQL Server) » à l’adresse[http://go.microsoft.com/fwlink/p/?LinkId=268452](http://go.microsoft.com/fwlink/p/?linkid=268452)
+  - Sauvegarder le journal des transactions : « sauvegarder un journal des transactions (SQL Server) » à l’adresse[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en miroir lorsque vous créez les pools ou après les avoir déjà créés.
 
@@ -151,9 +151,9 @@ Gardez les points suivants à l’esprit lorsque vous configurez la mise en miro
 
   - Tout port déjà alloué à d’autres applications sur le même serveur, y compris ceux des autres instances SQL, ne doit pas être utilisé pour les instances SQL installées. Cela signifie que si vous avez plusieurs instances SQL installées sur le même serveur, elles ne doivent pas utiliser le même port pour la mise en miroir. Pour plus d’informations, voir les articles suivants :
     
-      - « Spécifier une adresse réseau de serveur (mise en miroir de bases de données) » dans la bibliothèque MSDN[http://go.microsoft.com/fwlink/p/?LinkId=247346](http://go.microsoft.com/fwlink/p/?linkid=247346)
+      - « Spécifier une adresse réseau de serveur (mise en miroir de bases de données) » dans la bibliothèque MSDN[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - « Le point de terminaison de mise en miroir de base de données (SQL Server) » à[http://go.microsoft.com/fwlink/p/?LinkId=247347](http://go.microsoft.com/fwlink/p/?linkid=247347)
+      - « Le point de terminaison de mise en miroir de base de données (SQL Server) » à[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -321,7 +321,7 @@ Utilisez cette procédure si vous devez supprimer le témoin d’une configurati
     
     Toutefois, ne suivez pas cette étape et ne tapez `Uninstall-CsMirrorDatabase` pas comme cela aurait pour effet de désinstaller toute la configuration de la mise en miroir.
 
-4.  Pour supprimer uniquement le témoin de la configuration SQL Server, suivez les instructions de la section « supprimer le témoin d’une session de mise en miroir de bases de [http://go.microsoft.com/fwlink/p/?LinkId=268456](http://go.microsoft.com/fwlink/p/?linkid=268456)données (SQL Server) » à l’adresse.
+4.  Pour supprimer uniquement le témoin de la configuration SQL Server, suivez les instructions de la section « supprimer le témoin d’une session de mise en miroir de bases de [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)données (SQL Server) » à l’adresse.
 
 </div>
 

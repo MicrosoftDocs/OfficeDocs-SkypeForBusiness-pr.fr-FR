@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045746"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configuration de Windows 8 pour l’utilisation de cartes à puce virtuelles avec Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Dernière modification de la rubrique :** 2013-07-03_
 
 L’un des facteurs à prendre en compte lors du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce est le coût de mise en œuvre. Windows 8 fournit un certain nombre de nouvelles fonctionnalités de sécurité et l’une des nouvelles fonctionnalités les plus intéressantes est la prise en charge des cartes à puce virtuelles.
 
-Pour les ordinateurs équipés d’un processeur de module de plateforme sécurisée (TPM) qui correspond à la version de spécification 1,2, les organisations peuvent désormais bénéficier des avantages de l’ouverture de session par carte à puce sans faire d’autres investissements sur le matériel. Pour plus d’informations, consultez la rubrique utilisation de cartes à puce [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)virtuelles avec Windows 8 à l’adresse.
+Pour les ordinateurs équipés d’un processeur de module de plateforme sécurisée (TPM) qui correspond à la version de spécification 1,2, les organisations peuvent désormais bénéficier des avantages de l’ouverture de session par carte à puce sans faire d’autres investissements sur le matériel. Pour plus d’informations, consultez la rubrique utilisation de cartes à puce [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)virtuelles avec Windows 8 à l’adresse.
 
 <div>
 

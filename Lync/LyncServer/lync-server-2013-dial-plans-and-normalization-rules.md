@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036754"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Plans de numérotation et règles de normalisation dans Lync Server 2013
 
@@ -175,7 +175,7 @@ Les champs numériques suivants figurent parmi ceux que vos règles de normalisa
 
 Les règles de normalisation utilisent des expressions régulières .NET Framework pour spécifier des modèles de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation au format E. 164 dans le but d’effectuer une recherche inversée des numéros. Vous pouvez créer des règles de normalisation dans le panneau de configuration Lync Server en saisissant les expressions manuellement ou en saisissant les chiffres de départ et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le panneau de configuration Lync Server générer le expression régulière pour vous. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
 
-Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, voir « .NET [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)Framework regular expressions » à l’adresse.
+Pour plus d’informations sur l’utilisation des expressions régulières .NET Framework, voir « .NET [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)Framework regular expressions » à l’adresse.
 
 </div>
 

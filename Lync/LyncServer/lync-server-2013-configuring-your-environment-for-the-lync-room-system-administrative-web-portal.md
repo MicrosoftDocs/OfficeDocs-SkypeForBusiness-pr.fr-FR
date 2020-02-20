@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034996"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Configuration de votre environnement Lync Server 2013 pour le portail Web d’administration de Lync Room System
 
@@ -51,7 +51,7 @@ Pour utiliser le portail Web d’administration de Lync Room System (LRS), vous 
 
 1.  Installez les mises à jour cumulatives de Lync Server 2013 : juillet 2013 dans la topologie Lync Server.
     
-    Pour obtenir la mise à jour ou voir ce qu’elle contient, consultez la rubrique [mises à jour pour Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
+    Pour obtenir la mise à jour ou voir ce qu’elle contient, consultez la rubrique [mises à jour pour Lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=323959).
 
 2.  Créez un utilisateur Active Directory compatible SIP.
     
@@ -83,7 +83,7 @@ Pour utiliser le portail Web d’administration de Lync Room System (LRS), vous 
     
      
 
-7.  Installez ASP.NET MVC 4 pour Visual Studio 2010 SP1 et Visual Web Developer 2010 SP1, disponible dans le centre de téléchargement [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)Microsoft à l’adresse.
+7.  Installez ASP.NET MVC 4 pour Visual Studio 2010 SP1 et Visual Web Developer 2010 SP1, disponible dans le centre de téléchargement [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)Microsoft à l’adresse.
 
 </div>
 

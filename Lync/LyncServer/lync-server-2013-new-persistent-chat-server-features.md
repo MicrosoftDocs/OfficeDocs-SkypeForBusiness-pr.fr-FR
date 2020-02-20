@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048318"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de serveur de conversation permanente dans Lync Server 2013
 
@@ -53,7 +53,7 @@ Lync Server 2013, serveur de conversation permanente vous permet de participer �
 
 Lync Server 2013, le serveur de conversation permanente n’est pas disponible dans Microsoft Office 365. Pour le moment, il n’est disponible que pour les clients Lync 2013 locaux.
 
-Dans Lync 2013, la fonctionnalité de conversation permanente est intégrée au client Lync 2013. Par conséquent, les utilisateurs ont accès à la messagerie instantanée/présence, audio/vidéo, à la Conférence et à la conversation permanente dans le client Lync 2013. Pour plus d’informations sur le client Lync 2013, <http://go.microsoft.com/fwlink/p/?linkid=270877>voir.
+Dans Lync 2013, la fonctionnalité de conversation permanente est intégrée au client Lync 2013. Par conséquent, les utilisateurs ont accès à la messagerie instantanée/présence, audio/vidéo, à la Conférence et à la conversation permanente dans le client Lync 2013. Pour plus d’informations sur le client Lync 2013, <https://go.microsoft.com/fwlink/p/?linkid=270877>voir.
 
 Cette rubrique décrit les modifications apportées aux fonctionnalités entre la nouvelle version de Lync Server 2013, le serveur de conversation permanente et la version précédente (Microsoft Lync Server 2010, Group chat), notamment :
 
@@ -67,7 +67,7 @@ Cette rubrique décrit les modifications apportées aux fonctionnalités entre l
 
 Pour plus d’informations sur la dernière version du serveur de conversation permanente, consultez les rubriques suivantes :
 
-  - Aide de la conversation permanente <http://go.microsoft.com/fwlink/p/?linkid=270945> , à partir de laquelle fournit une liste détaillée des fonctionnalités de conversation permanente, de leur fonctionnement et de leur utilisation lors de l’exécution du serveur de conversation permanente.
+  - Aide de la conversation permanente <https://go.microsoft.com/fwlink/p/?linkid=270945> , à partir de laquelle fournit une liste détaillée des fonctionnalités de conversation permanente, de leur fonctionnement et de leur utilisation lors de l’exécution du serveur de conversation permanente.
 
   - [Planification du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) dans la documentation de planification, [Deploying persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) dans la documentation de déploiement, [migration de Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat to Lync Server 2013, persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) dans la documentation de migration et [Managing Lync Server 2013, persistent Server](managing-lync-server-2013-persistent-chat-server.md) dans la documentation des opérations, qui fournissent toutes des instructions pour configurer Serveur de conversation permanente.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28ca4ea233f783271c91490aa0550bc2344bdaad
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 863cd213fb28d3adeedc04a5d46e4310ea4cd83b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051026"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Vue d’ensemble du routage géodépendant pour les conférences dans Lync Server 2013
 
@@ -77,7 +77,7 @@ Ces restrictions de routage basées sur l’emplacement des conférences sont r�
 <p>Utilisateur de client VoIP Lync à partir d’un site réseau inconnu</p>
 <p>Utilisateur client VoIP fédéré de Lync</p>
 <p>Appartenance d’un utilisateur à partir d’un point de terminaison PSTN</p></td>
-<td><p>Aucun</p></td>
+<td><p>Néant</p></td>
 </tr>
 <tr class="odd">
 <td><p>Utilisateur (s) de client VoIP Lync à partir d’un site réseau inconnu</p></td>

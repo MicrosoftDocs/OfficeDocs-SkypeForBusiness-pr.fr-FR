@@ -12,18 +12,18 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b0c352e9e890611d95a7d562a88ae8f6cebc7243
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043366"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Déploiement du portail Web d’administration de Lync Room System dans Lync Server 2013
 
@@ -47,7 +47,7 @@ Une fois le portail Web d’administration LRS déployé sur le serveur, les adm
 
 
 > [!IMPORTANT]  
-> Lorsque vous installez le portail Web d’administration LRS dans un déploiement de Microsoft Lync Server 2013, vous devez utiliser le <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">portail Web d’administration de Microsoft Lync Room System pour Lync Server 2013</A>.<BR>Une nouvelle version du portail Web d’administration LRS est disponible pour Skype entreprise Server 2015, mais vous ne devez pas installer cette version, sauf si vous avez déployé Skype entreprise Server 2015. Téléchargez le <A href="http://go.microsoft.com/fwlink/?linkid=544807">portail Web d’administration de Microsoft Lync Room System pour Skype entreprise Server 2015</A>.
+> Lorsque vous installez le portail Web d’administration LRS dans un déploiement de Microsoft Lync Server 2013, vous devez utiliser le <A href="https://go.microsoft.com/fwlink/p/?linkid=544806">portail Web d’administration de Microsoft Lync Room System pour Lync Server 2013</A>.<BR>Une nouvelle version du portail Web d’administration LRS est disponible pour Skype entreprise Server 2015, mais vous ne devez pas installer cette version, sauf si vous avez déployé Skype entreprise Server 2015. Téléchargez le <A href="https://go.microsoft.com/fwlink/?linkid=544807">portail Web d’administration de Microsoft Lync Room System pour Skype entreprise Server 2015</A>.
 
 
 
