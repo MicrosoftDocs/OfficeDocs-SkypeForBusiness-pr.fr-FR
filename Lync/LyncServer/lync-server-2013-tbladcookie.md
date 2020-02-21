@@ -12,20 +12,20 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa3543d04ff4da2782d8848f820a7651578448e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 02995141dfad6e91089fb80c7e9b09e4ef554edb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142200"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="9c63e-102">tblADCookie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c63e-102">tblADCookie in Lync Server 2013</span></span>
+# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="ceded-102">tblADCookie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ceded-102">tblADCookie in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42142200"
 
 <span> </span>
 
-<span data-ttu-id="9c63e-103">_**Dernière modification de la rubrique :** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="9c63e-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="ceded-103">_**Dernière modification de la rubrique :** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="ceded-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="9c63e-104">tblADCookie contient les cookies de synchronisation LDAP (Lightweight Directory Access Protocol) actifs.</span><span class="sxs-lookup"><span data-stu-id="9c63e-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
+<span data-ttu-id="ceded-104">tblADCookie contient les cookies de synchronisation LDAP (Lightweight Directory Access Protocol) actifs.</span><span class="sxs-lookup"><span data-stu-id="ceded-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="9c63e-105">Columns</span><span class="sxs-lookup"><span data-stu-id="9c63e-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="ceded-105">Columns</span><span class="sxs-lookup"><span data-stu-id="ceded-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,42 +49,42 @@ ms.locfileid: "42142200"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9c63e-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="9c63e-106">Column</span></span></th>
-<th><span data-ttu-id="9c63e-107">Type</span><span class="sxs-lookup"><span data-stu-id="9c63e-107">Type</span></span></th>
-<th><span data-ttu-id="9c63e-108">Description</span><span class="sxs-lookup"><span data-stu-id="9c63e-108">Description</span></span></th>
+<th><span data-ttu-id="ceded-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="ceded-106">Column</span></span></th>
+<th><span data-ttu-id="ceded-107">Type</span><span class="sxs-lookup"><span data-stu-id="ceded-107">Type</span></span></th>
+<th><span data-ttu-id="ceded-108">Description</span><span class="sxs-lookup"><span data-stu-id="ceded-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c63e-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="9c63e-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-110">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="9c63e-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-111">GUID principal du domaine en cours de surveillance.</span><span class="sxs-lookup"><span data-stu-id="9c63e-111">Principal GUID of the domain being monitored.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="ceded-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="ceded-110">GUID, non null</span><span class="sxs-lookup"><span data-stu-id="ceded-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="ceded-111">GUID principal du domaine en cours de surveillance.</span><span class="sxs-lookup"><span data-stu-id="ceded-111">Principal GUID of the domain being monitored.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c63e-112">prinDCHost</span><span class="sxs-lookup"><span data-stu-id="9c63e-112">prinDCHost</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="9c63e-113">nvarchar (255)</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-114">Nom de domaine complet (FQDN) du contrôleur de domaine actuel utilisé pour la synchronisation des services de domaine Active Directory. A une valeur informatif.</span><span class="sxs-lookup"><span data-stu-id="9c63e-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-112">prinDCHost</span><span class="sxs-lookup"><span data-stu-id="ceded-112">prinDCHost</span></span></p></td>
+<td><p><span data-ttu-id="ceded-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="ceded-113">nvarchar (255)</span></span></p></td>
+<td><p><span data-ttu-id="ceded-114">Nom de domaine complet (FQDN) du contrôleur de domaine actuel utilisé pour la synchronisation des services de domaine Active Directory. A une valeur informatif.</span><span class="sxs-lookup"><span data-stu-id="ceded-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c63e-115">adcContent</span><span class="sxs-lookup"><span data-stu-id="9c63e-115">adcContent</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-116">image (binaire)</span><span class="sxs-lookup"><span data-stu-id="9c63e-116">image (binary)</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-117">Cookie de synchronisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="9c63e-117">Active Directory Sync cookie.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-115">adcContent</span><span class="sxs-lookup"><span data-stu-id="ceded-115">adcContent</span></span></p></td>
+<td><p><span data-ttu-id="ceded-116">image (binaire)</span><span class="sxs-lookup"><span data-stu-id="ceded-116">image (binary)</span></span></p></td>
+<td><p><span data-ttu-id="ceded-117">Cookie de synchronisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ceded-117">Active Directory Sync cookie.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c63e-118">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="9c63e-118">lastUpdated</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-119">DateHeure</span><span class="sxs-lookup"><span data-stu-id="9c63e-119">datetime</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-120">Horodatage avec l’heure de mise à jour de ligne.</span><span class="sxs-lookup"><span data-stu-id="9c63e-120">Time stamp with the row update time.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-118">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="ceded-118">lastUpdated</span></span></p></td>
+<td><p><span data-ttu-id="ceded-119">DateHeure</span><span class="sxs-lookup"><span data-stu-id="ceded-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ceded-120">Horodatage avec l’heure de mise à jour de ligne.</span><span class="sxs-lookup"><span data-stu-id="ceded-120">Time stamp with the row update time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c63e-121">lockedUntil</span><span class="sxs-lookup"><span data-stu-id="9c63e-121">lockedUntil</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-122">DateHeure</span><span class="sxs-lookup"><span data-stu-id="9c63e-122">datetime</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-p101">Heure jusqu’à laquelle la ligne est verrouillée pour modification. Il s’agit d’une partie d’un mécanisme de verrouillage logiciel qui garantit que la synchronisation Active Directory est effectuée par un seul des services de conversation à la fois.</span><span class="sxs-lookup"><span data-stu-id="9c63e-p101">Time until the row is locked for changes. This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-121">lockedUntil</span><span class="sxs-lookup"><span data-stu-id="ceded-121">lockedUntil</span></span></p></td>
+<td><p><span data-ttu-id="ceded-122">DateHeure</span><span class="sxs-lookup"><span data-stu-id="ceded-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ceded-p101">Heure jusqu’à laquelle la ligne est verrouillée pour modification. Il s’agit d’une partie d’un mécanisme de verrouillage logiciel qui garantit que la synchronisation Active Directory est effectuée par un seul des services de conversation à la fois.</span><span class="sxs-lookup"><span data-stu-id="ceded-p101">Time until the row is locked for changes. This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="9c63e-125">Keys</span><span class="sxs-lookup"><span data-stu-id="9c63e-125">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="ceded-125">Keys</span><span class="sxs-lookup"><span data-stu-id="ceded-125">Keys</span></span>
 
 <table>
 <colgroup>
@@ -93,18 +93,18 @@ ms.locfileid: "42142200"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9c63e-126">Colonne (s)</span><span class="sxs-lookup"><span data-stu-id="9c63e-126">Column(s)</span></span></th>
-<th><span data-ttu-id="9c63e-127">Description</span><span class="sxs-lookup"><span data-stu-id="9c63e-127">Description</span></span></th>
+<th><span data-ttu-id="ceded-126">Colonne (s)</span><span class="sxs-lookup"><span data-stu-id="ceded-126">Column(s)</span></span></th>
+<th><span data-ttu-id="ceded-127">Description</span><span class="sxs-lookup"><span data-stu-id="ceded-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c63e-128">prinGuid</span><span class="sxs-lookup"><span data-stu-id="9c63e-128">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-129">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="9c63e-129">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-128">prinGuid</span><span class="sxs-lookup"><span data-stu-id="ceded-128">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="ceded-129">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="ceded-129">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c63e-130">prinGuid</span><span class="sxs-lookup"><span data-stu-id="9c63e-130">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="9c63e-131">Clé étrangère avec recherche dans la table Principal.prinGuid.</span><span class="sxs-lookup"><span data-stu-id="9c63e-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
+<td><p><span data-ttu-id="ceded-130">prinGuid</span><span class="sxs-lookup"><span data-stu-id="ceded-130">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="ceded-131">Clé étrangère avec recherche dans la table Principal.prinGuid.</span><span class="sxs-lookup"><span data-stu-id="ceded-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

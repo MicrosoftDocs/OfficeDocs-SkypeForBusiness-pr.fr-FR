@@ -12,20 +12,20 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 044c8a6ac5d87723a58c1f692c5e969701b72a37
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5412e52b150cf67a4d8763202c67998d1df9df48
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154586"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-pin-policy-in-lync-server-2013"></a><span data-ttu-id="1463a-102">Supprimer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1463a-102">Delete a PIN policy in Lync Server 2013</span></span>
+# <a name="delete-a-pin-policy-in-lync-server-2013"></a><span data-ttu-id="44e74-102">Supprimer une stratégie de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44e74-102">Delete a PIN policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42154586"
 
 <span> </span>
 
-<span data-ttu-id="1463a-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="1463a-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="44e74-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="44e74-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="1463a-104">Suivez cette procédure pour supprimer une stratégie de code confidentiel (PIN).</span><span class="sxs-lookup"><span data-stu-id="1463a-104">Follow these steps to delete a personal identification number (PIN) policy.</span></span>
+<span data-ttu-id="44e74-104">Suivez cette procédure pour supprimer une stratégie de code confidentiel (PIN).</span><span class="sxs-lookup"><span data-stu-id="44e74-104">Follow these steps to delete a personal identification number (PIN) policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1463a-105">Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</span><span class="sxs-lookup"><span data-stu-id="1463a-105">You cannot delete the global PIN policy.</span></span>
+> <span data-ttu-id="44e74-105">Vous ne pouvez pas supprimer la stratégie de code confidentiel globale.</span><span class="sxs-lookup"><span data-stu-id="44e74-105">You cannot delete the global PIN policy.</span></span>
 
 
 
@@ -51,33 +51,33 @@ ms.locfileid: "42154586"
 
 <div>
 
-## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a><span data-ttu-id="1463a-106">Pour supprimer une stratégie de code confidentiel dans le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1463a-106">To delete a PIN policy in Lync Server 2013 Control Panel</span></span>
+## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a><span data-ttu-id="44e74-106">Pour supprimer une stratégie de code confidentiel dans le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44e74-106">To delete a PIN policy in Lync Server 2013 Control Panel</span></span>
 
-1.  <span data-ttu-id="1463a-107">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1463a-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="44e74-107">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="44e74-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="1463a-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1463a-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1463a-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1463a-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="44e74-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="44e74-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="44e74-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="44e74-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="1463a-110">Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Stratégie de code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="1463a-110">In the left navigation bar, click **Security** and then click **PIN Policy**.</span></span>
+3.  <span data-ttu-id="44e74-110">Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Stratégie de code confidentiel**.</span><span class="sxs-lookup"><span data-stu-id="44e74-110">In the left navigation bar, click **Security** and then click **PIN Policy**.</span></span>
 
-4.  <span data-ttu-id="1463a-111">Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez entièrement ou partiellement le nom de la stratégie à supprimer.</span><span class="sxs-lookup"><span data-stu-id="1463a-111">On the **PIN Policy** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4.  <span data-ttu-id="44e74-111">Dans la page **Stratégie de code confidentiel**, dans le champ de recherche, tapez entièrement ou partiellement le nom de la stratégie à supprimer.</span><span class="sxs-lookup"><span data-stu-id="44e74-111">On the **PIN Policy** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
 
-5.  <span data-ttu-id="1463a-112">Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="1463a-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="44e74-112">Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="44e74-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="1463a-113">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="1463a-113">Click **OK**.</span></span>
+6.  <span data-ttu-id="44e74-113">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="44e74-113">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="1463a-114">Suppression de stratégies de code confidentiel à l’aide des applets de commande Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="1463a-114">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="44e74-114">Suppression de stratégies de code confidentiel à l’aide des applets de commande Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="44e74-114">Removing PIN Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="1463a-115">Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de commande Remove-applet cspinpolicy.</span><span class="sxs-lookup"><span data-stu-id="1463a-115">You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPolicy cmdlet.</span></span> <span data-ttu-id="1463a-116">Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1463a-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="1463a-117">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="1463a-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="44e74-115">Vous pouvez supprimer des stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de commande Remove-applet cspinpolicy.</span><span class="sxs-lookup"><span data-stu-id="44e74-115">You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPolicy cmdlet.</span></span> <span data-ttu-id="44e74-116">Vous pouvez exécuter cette cmdlet à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="44e74-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="44e74-117">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="44e74-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specific-pin-policy"></a><span data-ttu-id="1463a-118">Pour supprimer une stratégie de code confidentiel spécifique</span><span class="sxs-lookup"><span data-stu-id="1463a-118">To remove a specific PIN policy</span></span>
+## <a name="to-remove-a-specific-pin-policy"></a><span data-ttu-id="44e74-118">Pour supprimer une stratégie de code confidentiel spécifique</span><span class="sxs-lookup"><span data-stu-id="44e74-118">To remove a specific PIN policy</span></span>
 
-  - <span data-ttu-id="1463a-119">Cette commande supprime la stratégie de code confidentiel avec l’identité RedmondPinPolicy :</span><span class="sxs-lookup"><span data-stu-id="1463a-119">This command removes the PIN policy with the Identity RedmondPinPolicy:</span></span>
+  - <span data-ttu-id="44e74-119">Cette commande supprime la stratégie de code confidentiel avec l’identité RedmondPinPolicy :</span><span class="sxs-lookup"><span data-stu-id="44e74-119">This command removes the PIN policy with the Identity RedmondPinPolicy:</span></span>
     
         Remove-CsPinPolicy -Identity "RedmondPinPolicy"
 
@@ -85,9 +85,9 @@ ms.locfileid: "42154586"
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a><span data-ttu-id="1463a-120">Pour supprimer toutes les stratégies de code confidentiel appliquées à l’étendue du site</span><span class="sxs-lookup"><span data-stu-id="1463a-120">To remove all the PIN policies applied to the site scope</span></span>
+## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a><span data-ttu-id="44e74-120">Pour supprimer toutes les stratégies de code confidentiel appliquées à l’étendue du site</span><span class="sxs-lookup"><span data-stu-id="44e74-120">To remove all the PIN policies applied to the site scope</span></span>
 
-  - <span data-ttu-id="1463a-121">Cette commande supprime toutes les stratégies de code confidentiel configurées au niveau du site :</span><span class="sxs-lookup"><span data-stu-id="1463a-121">This command removes all the PIN policies configured at the site scope:</span></span>
+  - <span data-ttu-id="44e74-121">Cette commande supprime toutes les stratégies de code confidentiel configurées au niveau du site :</span><span class="sxs-lookup"><span data-stu-id="44e74-121">This command removes all the PIN policies configured at the site scope:</span></span>
     
         Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 
@@ -95,15 +95,15 @@ ms.locfileid: "42154586"
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a><span data-ttu-id="1463a-122">Pour supprimer toutes les stratégies de code confidentiel qui autorisent l’utilisation de modèles courants</span><span class="sxs-lookup"><span data-stu-id="1463a-122">To remove all the PIN policies that allow the use of common patterns</span></span>
+## <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a><span data-ttu-id="44e74-122">Pour supprimer toutes les stratégies de code confidentiel qui autorisent l’utilisation de modèles courants</span><span class="sxs-lookup"><span data-stu-id="44e74-122">To remove all the PIN policies that allow the use of common patterns</span></span>
 
-  - <span data-ttu-id="1463a-123">Cette commande supprime toutes les stratégies de code confidentiel qui autorisent l’utilisation de critères communs : G</span><span class="sxs-lookup"><span data-stu-id="1463a-123">And this one removes all the PIN policies that allow the use of common patterns:G</span></span>
+  - <span data-ttu-id="44e74-123">Cette commande supprime toutes les stratégies de code confidentiel qui autorisent l’utilisation de critères communs : G</span><span class="sxs-lookup"><span data-stu-id="44e74-123">And this one removes all the PIN policies that allow the use of common patterns:G</span></span>
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
 </div>
 
-<span data-ttu-id="1463a-124">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-applet cspinpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .</span><span class="sxs-lookup"><span data-stu-id="1463a-124">For more information, see the help topic for the [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) cmdlet.</span></span>
+<span data-ttu-id="44e74-124">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Remove-applet cspinpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .</span><span class="sxs-lookup"><span data-stu-id="44e74-124">For more information, see the help topic for the [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) cmdlet.</span></span>
 
 </div>
 

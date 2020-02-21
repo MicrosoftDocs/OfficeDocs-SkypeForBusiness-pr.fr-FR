@@ -12,20 +12,20 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72552f56041103e381291bf13ab13283a3c47ee
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141210"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42193727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a><span data-ttu-id="89977-102">Test de la connexion utilisateur à la messagerie unifiée Exchange dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89977-102">Testing user connection to Exchange UM in Lync Server 2013</span></span>
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a><span data-ttu-id="ed8b5-102">Test de la connexion utilisateur à la messagerie unifiée Exchange dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ed8b5-102">Testing user connection to Exchange UM in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42141210"
 
 <span> </span>
 
-<span data-ttu-id="89977-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="89977-103">_**Topic Last Modified:** 2014-11-01_</span></span>
+<span data-ttu-id="ed8b5-103">_**Dernière modification de la rubrique :** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="ed8b5-103">_**Topic Last Modified:** 2014-11-01_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42141210"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="89977-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="89977-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="89977-105">Tous les jours</span><span class="sxs-lookup"><span data-stu-id="89977-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="ed8b5-104">Planification de la vérification</span><span class="sxs-lookup"><span data-stu-id="ed8b5-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="ed8b5-105">Tous les jours</span><span class="sxs-lookup"><span data-stu-id="ed8b5-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="89977-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="89977-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="89977-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="89977-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="ed8b5-106">Outil de test</span><span class="sxs-lookup"><span data-stu-id="ed8b5-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="ed8b5-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ed8b5-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="89977-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="89977-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="89977-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="89977-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="89977-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsExUMConnectivity</strong> .</span><span class="sxs-lookup"><span data-stu-id="89977-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExUMConnectivity</strong> cmdlet.</span></span> <span data-ttu-id="89977-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="89977-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="ed8b5-108">Autorisations requises</span><span class="sxs-lookup"><span data-stu-id="ed8b5-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="ed8b5-109">Lorsqu’ils sont exécutés localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="ed8b5-110">Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter la cmdlet <strong>test-CsExUMConnectivity</strong> .</span><span class="sxs-lookup"><span data-stu-id="ed8b5-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExUMConnectivity</strong> cmdlet.</span></span> <span data-ttu-id="ed8b5-111">Pour afficher la liste de tous les rôles RBAC pouvant utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="ed8b5-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMConnectivity&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,28 +64,28 @@ ms.locfileid: "42141210"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="89977-112">Description</span><span class="sxs-lookup"><span data-stu-id="89977-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="ed8b5-112">Description</span><span class="sxs-lookup"><span data-stu-id="ed8b5-112">Description</span></span>
 
-<span data-ttu-id="89977-113">L’applet de commande **test-CsExUMConnectivity** vérifie que l’utilisateur spécifié peut se connecter au service de messagerie unifiée Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="89977-113">The **Test-CsExUMConnectivity** cmdlet verifies that the specified user can connect to the Microsoft Exchange Server 2013 unified messaging service.</span></span> <span data-ttu-id="89977-114">Notez que cette applet de commande vérifie uniquement qu’une connexion peut être établie avec le service.</span><span class="sxs-lookup"><span data-stu-id="89977-114">Note that this cmdlet only verifies that a connection can be made to the service.</span></span> <span data-ttu-id="89977-115">Il ne teste pas le service lui-même.</span><span class="sxs-lookup"><span data-stu-id="89977-115">It does not test the service itself.</span></span> <span data-ttu-id="89977-116">Pour tester le service de messagerie unifiée (en exécutant une applet de commande de transaction synthétique qui laisse un message vocal dans la boîte aux lettres de l’utilisateur), utilisez l’applet de commande the Test-CsExUMVoiceMail.</span><span class="sxs-lookup"><span data-stu-id="89977-116">To test the unified messaging service (by running a synthetic transaction cmdlet that actually leaves a voice mail message in a user's mailbox) use the Test-CsExUMVoiceMail cmdlet.</span></span>
+<span data-ttu-id="ed8b5-113">L’applet de commande **test-CsExUMConnectivity** vérifie que l’utilisateur spécifié peut se connecter au service de messagerie unifiée Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-113">The **Test-CsExUMConnectivity** cmdlet verifies that the specified user can connect to the Microsoft Exchange Server 2013 unified messaging service.</span></span> <span data-ttu-id="ed8b5-114">Notez que cette applet de commande vérifie uniquement qu’une connexion peut être établie avec le service.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-114">Note that this cmdlet only verifies that a connection can be made to the service.</span></span> <span data-ttu-id="ed8b5-115">Il ne teste pas le service lui-même.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-115">It does not test the service itself.</span></span> <span data-ttu-id="ed8b5-116">Pour tester le service de messagerie unifiée (en exécutant une applet de commande de transaction synthétique qui laisse un message vocal dans la boîte aux lettres de l’utilisateur), utilisez l’applet de commande the Test-CsExUMVoiceMail.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-116">To test the unified messaging service (by running a synthetic transaction cmdlet that actually leaves a voice mail message in a user's mailbox) use the Test-CsExUMVoiceMail cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="89977-117">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="89977-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="ed8b5-117">Exécution du test</span><span class="sxs-lookup"><span data-stu-id="ed8b5-117">Running the test</span></span>
 
-<span data-ttu-id="89977-118">L’exemple suivant teste la connectivité de messagerie unifiée Exchange pour le pool atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="89977-118">The following example tests Exchange Unified Messaging connectivity for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="89977-119">Cette commande fonctionne uniquement si les utilisateurs de test ont été définis pour le pool atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="89977-119">This command will work only if test users were defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="89977-120">Si c’est le cas, la commande détermine si le premier utilisateur de test peut se connecter à la messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="89977-120">If they have, then the command will determine whether the first test user can connect to Unified Messaging.</span></span> <span data-ttu-id="89977-121">Si les utilisateurs de test n’ont pas été configurés pour le pool, la commande échouera.</span><span class="sxs-lookup"><span data-stu-id="89977-121">If test users were not configured for the pool then the command will fail.</span></span>
+<span data-ttu-id="ed8b5-118">L’exemple suivant teste la connectivité de messagerie unifiée Exchange pour le pool atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-118">The following example tests Exchange Unified Messaging connectivity for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="ed8b5-119">Cette commande fonctionne uniquement si les utilisateurs de test ont été définis pour le pool atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-119">This command will work only if test users were defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="ed8b5-120">Si c’est le cas, la commande détermine si le premier utilisateur de test peut se connecter à la messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-120">If they have, then the command will determine whether the first test user can connect to Unified Messaging.</span></span> <span data-ttu-id="ed8b5-121">Si les utilisateurs de test n’ont pas été configurés pour le pool, la commande échouera.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-121">If test users were not configured for the pool then the command will fail.</span></span>
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-<span data-ttu-id="89977-122">Les commandes indiquées dans l’exemple suivant testent la connectivité de messagerie unifiée Exchange\\pour l’utilisateur litwareinc kenmyer.</span><span class="sxs-lookup"><span data-stu-id="89977-122">The commands shown in the following example test Exchange Unified Messaging connectivity for the user litwareinc\\kenmyer.</span></span> <span data-ttu-id="89977-123">Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows\\PowerShell pour l’utilisateur litwareinc kenmyer.</span><span class="sxs-lookup"><span data-stu-id="89977-123">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer.</span></span> <span data-ttu-id="89977-124">Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMConnectivity** peut exécuter sa vérification.</span><span class="sxs-lookup"><span data-stu-id="89977-124">Note that you must supply the password for this account to create a valid credentials object and to ensure that the **Test-CsExUMConnectivity** cmdlet can run its check.</span></span>
+<span data-ttu-id="ed8b5-122">Les commandes indiquées dans l’exemple suivant testent la connectivité de messagerie unifiée Exchange\\pour l’utilisateur litwareinc kenmyer.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-122">The commands shown in the following example test Exchange Unified Messaging connectivity for the user litwareinc\\kenmyer.</span></span> <span data-ttu-id="ed8b5-123">Pour ce faire, la première commande de l’exemple utilise la cmdlet **Get-Credential** pour créer un objet d’informations d’identification de l’interface de ligne de commande Windows\\PowerShell pour l’utilisateur litwareinc kenmyer.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-123">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer.</span></span> <span data-ttu-id="ed8b5-124">Notez que vous devez fournir le mot de passe de ce compte pour créer un objet d’informations d’identification valide et garantir que la cmdlet **test-CsExUMConnectivity** peut exécuter sa vérification.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-124">Note that you must supply the password for this account to create a valid credentials object and to ensure that the **Test-CsExUMConnectivity** cmdlet can run its check.</span></span>
 
-<span data-ttu-id="89977-125">La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l'\\utilisateur litwareinc kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie unifiée Exchange ou non.</span><span class="sxs-lookup"><span data-stu-id="89977-125">The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether or this user can connect to Exchange Unified Messaging.</span></span>
+<span data-ttu-id="ed8b5-125">La deuxième commande de l’exemple utilise l’objet d’informations d’identification fourni ($x) et l’adresse SIP de l'\\utilisateur litwareinc kenmyer pour déterminer si l’utilisateur peut se connecter à la messagerie unifiée Exchange ou non.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-125">The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether or this user can connect to Exchange Unified Messaging.</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="89977-126">La commande illustrée dans l’exemple suivant est une variante de la commande qui vient d’apparaître.</span><span class="sxs-lookup"><span data-stu-id="89977-126">The command shown in the next example is a variation of the command just shown.</span></span> <span data-ttu-id="89977-127">Dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMConnectivity** cmdletand la réussite ou l’échec de chacune de ces étapes.</span><span class="sxs-lookup"><span data-stu-id="89977-127">In this case, the OutLoggerVariable parameter is included to generate a detailed log of every step done by the **Test-CsExUMConnectivity** cmdletand the success or failure of each of those steps.</span></span> <span data-ttu-id="89977-128">Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest.</span><span class="sxs-lookup"><span data-stu-id="89977-128">To do this, the OutLoggerVariable parameter is added together with the parameter value ExumText; that causes detailed logging information to be stored in a variable named $ExumTest.</span></span> <span data-ttu-id="89977-129">Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML.</span><span class="sxs-lookup"><span data-stu-id="89977-129">In the final command in the example, the ToXML() method is used to convert the log information to XML format.</span></span> <span data-ttu-id="89977-130">Ces données XML sont ensuite écrites dans un fichier nommé C :\\logs\\ExumTest. XML à l’aide de l’applet de commande Out-File.</span><span class="sxs-lookup"><span data-stu-id="89977-130">That XML data is then written to a file that is named C:\\Logs\\ExumTest.xml by using the Out-File cmdlet.</span></span>
+<span data-ttu-id="ed8b5-126">La commande illustrée dans l’exemple suivant est une variante de la commande qui vient d’apparaître.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-126">The command shown in the next example is a variation of the command just shown.</span></span> <span data-ttu-id="ed8b5-127">Dans ce cas, le paramètre OutLoggerVariable est inclus pour générer un journal détaillé de chaque étape effectuée par le **test-CsExUMConnectivity** cmdletand la réussite ou l’échec de chacune de ces étapes.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-127">In this case, the OutLoggerVariable parameter is included to generate a detailed log of every step done by the **Test-CsExUMConnectivity** cmdletand the success or failure of each of those steps.</span></span> <span data-ttu-id="ed8b5-128">Pour ce faire, le paramètre OutLoggerVariable est ajouté avec la valeur de paramètre ExumText ; les informations de journalisation détaillées sont alors stockées dans une variable nommée $ExumTest.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-128">To do this, the OutLoggerVariable parameter is added together with the parameter value ExumText; that causes detailed logging information to be stored in a variable named $ExumTest.</span></span> <span data-ttu-id="ed8b5-129">Dans la dernière commande de l’exemple, la méthode ToXML () est utilisée pour convertir les informations du journal au format XML.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-129">In the final command in the example, the ToXML() method is used to convert the log information to XML format.</span></span> <span data-ttu-id="ed8b5-130">Ces données XML sont ensuite écrites dans un fichier nommé C :\\logs\\ExumTest. XML à l’aide de l’applet de commande Out-File.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-130">That XML data is then written to a file that is named C:\\Logs\\ExumTest.xml by using the Out-File cmdlet.</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 
@@ -95,68 +95,68 @@ ms.locfileid: "42141210"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="89977-131">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="89977-131">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="ed8b5-131">Détermination de la réussite ou de l’échec</span><span class="sxs-lookup"><span data-stu-id="ed8b5-131">Determining success or failure</span></span>
 
-<span data-ttu-id="89977-132">Si l’intégration d’Exchange est correctement configurée, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success**:</span><span class="sxs-lookup"><span data-stu-id="89977-132">If Exchange integration is correctly configured, you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
+<span data-ttu-id="ed8b5-132">Si l’intégration d’Exchange est correctement configurée, vous recevrez un résultat semblable à celui-ci, avec la propriété Result marquée comme **Success**:</span><span class="sxs-lookup"><span data-stu-id="ed8b5-132">If Exchange integration is correctly configured, you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
 
-<span data-ttu-id="89977-133">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="89977-133">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="ed8b5-133">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ed8b5-133">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="89977-134">Résultat : opération réussie</span><span class="sxs-lookup"><span data-stu-id="89977-134">Result : Success</span></span>
+<span data-ttu-id="ed8b5-134">Résultat : opération réussie</span><span class="sxs-lookup"><span data-stu-id="ed8b5-134">Result : Success</span></span>
 
-<span data-ttu-id="89977-135">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="89977-135">Latency : 00:00:00</span></span>
+<span data-ttu-id="ed8b5-135">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="ed8b5-135">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="89977-136">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="89977-136">Error Message :</span></span>
+<span data-ttu-id="ed8b5-136">Message d’erreur :</span><span class="sxs-lookup"><span data-stu-id="ed8b5-136">Error Message :</span></span>
 
-<span data-ttu-id="89977-137">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="89977-137">Diagnosis :</span></span>
+<span data-ttu-id="ed8b5-137">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="ed8b5-137">Diagnosis :</span></span>
 
-<span data-ttu-id="89977-138">Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché sous la forme **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :</span><span class="sxs-lookup"><span data-stu-id="89977-138">If the specified user can't receive notifications, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="ed8b5-138">Si l’utilisateur spécifié ne peut pas recevoir de notifications, le résultat est affiché sous la forme **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :</span><span class="sxs-lookup"><span data-stu-id="ed8b5-138">If the specified user can't receive notifications, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="89977-139">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="89977-139">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="ed8b5-139">Nom de domaine complet cible : atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="ed8b5-139">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="89977-140">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="89977-140">Result : Failure</span></span>
+<span data-ttu-id="ed8b5-140">Résultat : échec</span><span class="sxs-lookup"><span data-stu-id="ed8b5-140">Result : Failure</span></span>
 
-<span data-ttu-id="89977-141">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="89977-141">Latency : 00:00:00</span></span>
+<span data-ttu-id="ed8b5-141">Latence : 00:00:00</span><span class="sxs-lookup"><span data-stu-id="ed8b5-141">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="89977-142">Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée</span><span class="sxs-lookup"><span data-stu-id="89977-142">Error Message : 10060, A connection attempt failed because the connected party</span></span>
+<span data-ttu-id="ed8b5-142">Message d’erreur : 10060, une tentative de connexion a échoué car la partie connectée</span><span class="sxs-lookup"><span data-stu-id="ed8b5-142">Error Message : 10060, A connection attempt failed because the connected party</span></span>
 
-<span data-ttu-id="89977-143">ne répond pas correctement au bout d’un certain temps, ou</span><span class="sxs-lookup"><span data-stu-id="89977-143">did not properly respond after a period of time, or</span></span>
+<span data-ttu-id="ed8b5-143">ne répond pas correctement au bout d’un certain temps, ou</span><span class="sxs-lookup"><span data-stu-id="ed8b5-143">did not properly respond after a period of time, or</span></span>
 
-<span data-ttu-id="89977-144">échec de la connexion établie car l’hôte connecté a</span><span class="sxs-lookup"><span data-stu-id="89977-144">established connection failed because connected host has</span></span>
+<span data-ttu-id="ed8b5-144">échec de la connexion établie car l’hôte connecté a</span><span class="sxs-lookup"><span data-stu-id="ed8b5-144">established connection failed because connected host has</span></span>
 
-<span data-ttu-id="89977-145">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="89977-145">failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="ed8b5-145">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="ed8b5-145">failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="89977-146">Exception interne : une tentative de connexion a échoué car le</span><span class="sxs-lookup"><span data-stu-id="89977-146">Inner Exception:A connection attempt failed because the</span></span>
+<span data-ttu-id="ed8b5-146">Exception interne : une tentative de connexion a échoué car le</span><span class="sxs-lookup"><span data-stu-id="ed8b5-146">Inner Exception:A connection attempt failed because the</span></span>
 
-<span data-ttu-id="89977-147">la partie connectée n’a pas répondu correctement après une période de</span><span class="sxs-lookup"><span data-stu-id="89977-147">connected party did not properly respond after a period of</span></span>
+<span data-ttu-id="ed8b5-147">la partie connectée n’a pas répondu correctement après une période de</span><span class="sxs-lookup"><span data-stu-id="ed8b5-147">connected party did not properly respond after a period of</span></span>
 
-<span data-ttu-id="89977-148">heure ou échec de la connexion établie car l’hôte connecté</span><span class="sxs-lookup"><span data-stu-id="89977-148">time, or established connection failed because connected host</span></span>
+<span data-ttu-id="ed8b5-148">heure ou échec de la connexion établie car l’hôte connecté</span><span class="sxs-lookup"><span data-stu-id="ed8b5-148">time, or established connection failed because connected host</span></span>
 
-<span data-ttu-id="89977-149">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="89977-149">has failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="ed8b5-149">échec de la réponse de 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="ed8b5-149">has failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="89977-150">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="89977-150">Diagnosis :</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="89977-151">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="89977-151">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="89977-152">Voici quelques-unes des causes courantes de l’échec **de test-CsExUMConnectivity** :</span><span class="sxs-lookup"><span data-stu-id="89977-152">Here are some common reasons why **Test-CsExUMConnectivity** might fail:</span></span>
-
-  - <span data-ttu-id="89977-153">Une valeur de paramètre incorrecte a été fournie.</span><span class="sxs-lookup"><span data-stu-id="89977-153">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="89977-154">Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue.</span><span class="sxs-lookup"><span data-stu-id="89977-154">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="89977-155">Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.</span><span class="sxs-lookup"><span data-stu-id="89977-155">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
-
-  - <span data-ttu-id="89977-156">Cette commande échoue si le serveur Exchange est mal configuré ou s’il n’est pas encore déployé.</span><span class="sxs-lookup"><span data-stu-id="89977-156">This command will fail if the Exchange Server is misconfigured or not yet deployed.</span></span>
-
-  - <span data-ttu-id="89977-157">Cette commande échoue si le serveur Exchange n’est pas accessible sur votre réseau.</span><span class="sxs-lookup"><span data-stu-id="89977-157">This command will fail if the Exchange Server is not reachable over your network.</span></span>
+<span data-ttu-id="ed8b5-150">Diagnostique</span><span class="sxs-lookup"><span data-stu-id="ed8b5-150">Diagnosis :</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="89977-158">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="89977-158">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="ed8b5-151">Raisons pour lesquelles le test a pu échouer</span><span class="sxs-lookup"><span data-stu-id="ed8b5-151">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="ed8b5-152">Voici quelques-unes des causes courantes de l’échec **de test-CsExUMConnectivity** :</span><span class="sxs-lookup"><span data-stu-id="ed8b5-152">Here are some common reasons why **Test-CsExUMConnectivity** might fail:</span></span>
+
+  - <span data-ttu-id="ed8b5-153">Une valeur de paramètre incorrecte a été fournie.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-153">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="ed8b5-154">Si ce paramètre est utilisé, les paramètres facultatifs doivent être configurés correctement ou le test échoue.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-154">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="ed8b5-155">Réexécutez la commande sans les paramètres facultatifs et vérifiez si elle réussit.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-155">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+  - <span data-ttu-id="ed8b5-156">Cette commande échoue si le serveur Exchange est mal configuré ou s’il n’est pas encore déployé.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-156">This command will fail if the Exchange Server is misconfigured or not yet deployed.</span></span>
+
+  - <span data-ttu-id="ed8b5-157">Cette commande échoue si le serveur Exchange n’est pas accessible sur votre réseau.</span><span class="sxs-lookup"><span data-stu-id="ed8b5-157">This command will fail if the Exchange Server is not reachable over your network.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="ed8b5-158">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ed8b5-158">See Also</span></span>
 
 
-[<span data-ttu-id="89977-159">Test-CsExUMVoiceMail</span><span class="sxs-lookup"><span data-stu-id="89977-159">Test-CsExUMVoiceMail</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail)  
+[<span data-ttu-id="ed8b5-159">Test-CsExUMVoiceMail</span><span class="sxs-lookup"><span data-stu-id="ed8b5-159">Test-CsExUMVoiceMail</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail)  
   
 
 </div>
