@@ -12,20 +12,20 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da5443dfe85fb76518a75eb65bd4b64b8a5daa87
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14f51b6ec899dfc0f8c8f88d27537ff8eb121827
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136932"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a><span data-ttu-id="f0d47-102">Vérification de votre déploiement Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0d47-102">Verifying your edge deployment in Lync Server 2013</span></span>
+# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a><span data-ttu-id="2c3bd-102">Vérification de votre déploiement Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c3bd-102">Verifying your edge deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42136932"
 
 <span> </span>
 
-<span data-ttu-id="f0d47-103">_**Dernière modification de la rubrique :** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="f0d47-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+<span data-ttu-id="2c3bd-103">_**Dernière modification de la rubrique :** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="2c3bd-103">_**Topic Last Modified:** 2010-11-07_</span></span>
 
-<span data-ttu-id="f0d47-104">Une fois que vous avez installé et configuré les composants Edge, vous devez vérifier la configuration et la connectivité des serveurs ainsi que celle de chaque type d’utilisateur externe que vous prenez en charge.</span><span class="sxs-lookup"><span data-stu-id="f0d47-104">After completing the installation and configuration of your edge components, you need to verify the configuration and connectivity of servers and to verify connectivity for each type of external user that you support.</span></span>
+<span data-ttu-id="2c3bd-104">Une fois que vous avez installé et configuré les composants Edge, vous devez vérifier la configuration et la connectivité des serveurs ainsi que celle de chaque type d’utilisateur externe que vous prenez en charge.</span><span class="sxs-lookup"><span data-stu-id="2c3bd-104">After completing the installation and configuration of your edge components, you need to verify the configuration and connectivity of servers and to verify connectivity for each type of external user that you support.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f0d47-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f0d47-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2c3bd-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2c3bd-105">In This Section</span></span>
 
-  - [<span data-ttu-id="f0d47-106">Vérifier la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0d47-106">Verify connectivity between internal servers and Edge Servers in Lync Server 2013</span></span>](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [<span data-ttu-id="2c3bd-106">Vérifier la connectivité entre les serveurs internes et les serveurs Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c3bd-106">Verify connectivity between internal servers and Edge Servers in Lync Server 2013</span></span>](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [<span data-ttu-id="f0d47-107">Vérifier la connectivité pour les utilisateurs externes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0d47-107">Verify connectivity for external users in Lync Server 2013</span></span>](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [<span data-ttu-id="2c3bd-107">Vérifier la connectivité pour les utilisateurs externes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c3bd-107">Verify connectivity for external users in Lync Server 2013</span></span>](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

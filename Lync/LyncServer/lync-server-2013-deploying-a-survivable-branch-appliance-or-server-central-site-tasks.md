@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e39b0d9e4d10f4e28afa2a01e02dc2fab4c842bb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ced7b5262880b23540bf3465f787f6512781f2e3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140147"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a><span data-ttu-id="ad789-102">Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013-tâches de site central</span><span class="sxs-lookup"><span data-stu-id="ad789-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a><span data-ttu-id="78e8f-102">Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013-tâches de site central</span><span class="sxs-lookup"><span data-stu-id="78e8f-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42140147"
 
 <span> </span>
 
-<span data-ttu-id="ad789-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="ad789-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="78e8f-103">_**Dernière modification de la rubrique :** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="78e8f-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="ad789-104">Effectuez les tâches de cette section sur le site central.</span><span class="sxs-lookup"><span data-stu-id="ad789-104">Complete the tasks in this section at the central site.</span></span> <span data-ttu-id="ad789-105">Si vous déployez un serveur Survivable Branch Server, ignorez la première tâche.</span><span class="sxs-lookup"><span data-stu-id="ad789-105">If you’re deploying a Survivable Branch Server, skip the first task.</span></span>
+<span data-ttu-id="78e8f-104">Effectuez les tâches de cette section sur le site central.</span><span class="sxs-lookup"><span data-stu-id="78e8f-104">Complete the tasks in this section at the central site.</span></span> <span data-ttu-id="78e8f-105">Si vous déployez un serveur Survivable Branch Server, ignorez la première tâche.</span><span class="sxs-lookup"><span data-stu-id="78e8f-105">If you’re deploying a Survivable Branch Server, skip the first task.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="ad789-106">Avant d’effectuer les tâches dans cette section, les conditions suivantes doivent être remplies :</span><span class="sxs-lookup"><span data-stu-id="ad789-106">Before you perform the tasks in this section, the following conditions must be in place:</span></span> 
+> <span data-ttu-id="78e8f-106">Avant d’effectuer les tâches dans cette section, les conditions suivantes doivent être remplies :</span><span class="sxs-lookup"><span data-stu-id="78e8f-106">Before you perform the tasks in this section, the following conditions must be in place:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="ad789-107">Lync Server doit être configuré sur le site central.</span><span class="sxs-lookup"><span data-stu-id="ad789-107">Lync Server must be set up at the central site.</span></span></P>
+> <P><span data-ttu-id="78e8f-107">Lync Server doit être configuré sur le site central.</span><span class="sxs-lookup"><span data-stu-id="78e8f-107">Lync Server must be set up at the central site.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="ad789-108">Un technicien d’installation du site de succursale doit être ajouté au groupe RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="ad789-108">An installation technician at the branch site must be added to the RTCUniversalSBATechnicians group.</span></span></P></LI></UL><span data-ttu-id="ad789-109">En outre, nous vous recommandons d’effectuer ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="ad789-109">In addition, we recommend that you do the following:</span></span>
+> <P><span data-ttu-id="78e8f-108">Un technicien d’installation du site de succursale doit être ajouté au groupe RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="78e8f-108">An installation technician at the branch site must be added to the RTCUniversalSBATechnicians group.</span></span></P></LI></UL><span data-ttu-id="78e8f-109">En outre, nous vous recommandons d’effectuer ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="78e8f-109">In addition, we recommend that you do the following:</span></span>
 > <UL>
 > <LI>
-> <P><span data-ttu-id="ad789-110">Déployez un serveur DHCP sur chaque site de succursale pour permettre aux clients d’obtenir les adresses IP.</span><span class="sxs-lookup"><span data-stu-id="ad789-110">Deploy a DHCP server at each branch site to enable clients to obtain IP addresses.</span></span></P>
+> <P><span data-ttu-id="78e8f-110">Déployez un serveur DHCP sur chaque site de succursale pour permettre aux clients d’obtenir les adresses IP.</span><span class="sxs-lookup"><span data-stu-id="78e8f-110">Deploy a DHCP server at each branch site to enable clients to obtain IP addresses.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="ad789-111">En guise d’alternative au déploiement d’un serveur DHCP sur chaque site de succursale, vous pouvez activer le protocole DHCP Lync Server sur le Survivable Branch Appliance ou le serveur Survivable Branch Server à l’aide de la cmdlet Lync Server Management Shell <STRONG>Set-CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="ad789-111">As an alternative to deploying a DHCP server at each branch site, enable Lync Server DHCP on the Survivable Branch Appliance or Survivable Branch Server by using the Lync Server Management Shell cmdlet <STRONG>Set-CsRegistrarConfiguration –EnableDHCPServer $true</STRONG>.</span></span> <span data-ttu-id="ad789-112">Pour plus d’informations, reportez-vous à la section Configuration matérielle et logicielle requise <A href="lync-server-2013-branch-site-resiliency-requirements.md">pour la résistance des sites de succursale pour Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="ad789-112">For details, see the “Hardware and Software Requirements” section of <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span></P></LI></UL>
+> <P><span data-ttu-id="78e8f-111">En guise d’alternative au déploiement d’un serveur DHCP sur chaque site de succursale, vous pouvez activer le protocole DHCP Lync Server sur le Survivable Branch Appliance ou le serveur Survivable Branch Server à l’aide de la cmdlet Lync Server Management Shell <STRONG>Set-CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="78e8f-111">As an alternative to deploying a DHCP server at each branch site, enable Lync Server DHCP on the Survivable Branch Appliance or Survivable Branch Server by using the Lync Server Management Shell cmdlet <STRONG>Set-CsRegistrarConfiguration –EnableDHCPServer $true</STRONG>.</span></span> <span data-ttu-id="78e8f-112">Pour plus d’informations, reportez-vous à la section Configuration matérielle et logicielle requise <A href="lync-server-2013-branch-site-resiliency-requirements.md">pour la résistance des sites de succursale pour Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="78e8f-112">For details, see the “Hardware and Software Requirements” section of <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span></P></LI></UL>
 
 
 
@@ -61,13 +61,13 @@ ms.locfileid: "42140147"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ad789-113">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ad789-113">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="78e8f-113">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="78e8f-113">In This Section</span></span>
 
-  - [<span data-ttu-id="ad789-114">Ajouter un Survivable Branch appliance à Active Directory dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad789-114">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [<span data-ttu-id="78e8f-114">Ajouter un Survivable Branch appliance à Active Directory dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78e8f-114">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
-  - [<span data-ttu-id="ad789-115">Ajouter des sites de succursale à votre topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad789-115">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [<span data-ttu-id="78e8f-115">Ajouter des sites de succursale à votre topologie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78e8f-115">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [<span data-ttu-id="ad789-116">Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad789-116">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [<span data-ttu-id="78e8f-116">Définition d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78e8f-116">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

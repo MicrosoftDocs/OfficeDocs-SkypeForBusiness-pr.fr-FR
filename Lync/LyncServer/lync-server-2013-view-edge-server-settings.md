@@ -12,20 +12,20 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03eb804329bd0e8ce5c502c44d1ef1071e19f65c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c76eb9580c7ee394e0e60e5d0f8cfe38dcae65e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136742"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-edge-server-settings-in-lync-server-2013"></a><span data-ttu-id="d72d1-102">Afficher les paramètres du serveur Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d72d1-102">View Edge Server settings in Lync Server 2013</span></span>
+# <a name="view-edge-server-settings-in-lync-server-2013"></a><span data-ttu-id="895c2-102">Afficher les paramètres du serveur Edge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="895c2-102">View Edge Server settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "42136742"
 
 <span> </span>
 
-<span data-ttu-id="d72d1-103">_**Dernière modification de la rubrique :** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="d72d1-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="895c2-103">_**Dernière modification de la rubrique :** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="895c2-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
-<span data-ttu-id="d72d1-104">Les configurations de serveur Edge général doivent être comparées aux données de la base de données de gestion de la configuration pour garantir que toutes les modifications ont été documentées conformément aux procédures de contrôle des modifications définies.</span><span class="sxs-lookup"><span data-stu-id="d72d1-104">General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.</span></span>
+<span data-ttu-id="895c2-104">Les configurations de serveur Edge général doivent être comparées aux données de la base de données de gestion de la configuration pour garantir que toutes les modifications ont été documentées conformément aux procédures de contrôle des modifications définies.</span><span class="sxs-lookup"><span data-stu-id="895c2-104">General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.</span></span>
 
-<span data-ttu-id="d72d1-105">Les vérifications supplémentaires peuvent inclure celles qui sont décrites dans les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="d72d1-105">Additional checks could include those that are described in the following sections:</span></span>
+<span data-ttu-id="895c2-105">Les vérifications supplémentaires peuvent inclure celles qui sont décrites dans les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="895c2-105">Additional checks could include those that are described in the following sections:</span></span>
 
 <div>
 
-## <a name="verify-the-allow-and-block-lists"></a><span data-ttu-id="d72d1-106">Vérifier les listes verte et rouge</span><span class="sxs-lookup"><span data-stu-id="d72d1-106">Verify the Allow and block lists</span></span>
+## <a name="verify-the-allow-and-block-lists"></a><span data-ttu-id="895c2-106">Vérifier les listes verte et rouge</span><span class="sxs-lookup"><span data-stu-id="895c2-106">Verify the Allow and block lists</span></span>
 
-<span data-ttu-id="d72d1-107">Vérifiez les listes d’URI SIP « autoriser » et « bloquer » pour les domaines fédérés afin de déterminer si les espaces de noms répertoriés sont toujours valides.</span><span class="sxs-lookup"><span data-stu-id="d72d1-107">Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.</span></span>
+<span data-ttu-id="895c2-107">Vérifiez les listes d’URI SIP « autoriser » et « bloquer » pour les domaines fédérés afin de déterminer si les espaces de noms répertoriés sont toujours valides.</span><span class="sxs-lookup"><span data-stu-id="895c2-107">Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.</span></span>
 
-<span data-ttu-id="d72d1-108">Vous pouvez utiliser Windows PowerShell pour afficher les listes autorisées et bloquées.</span><span class="sxs-lookup"><span data-stu-id="d72d1-108">You can use Windows PowerShell to view the allowed and blocked lists.</span></span> <span data-ttu-id="d72d1-109">Pour passer en revue les domaines de la liste des domaines autorisés, exécutez la commande Windows PowerShell suivante :</span><span class="sxs-lookup"><span data-stu-id="d72d1-109">To review the domains on the Allowed Domains list, run the following Windows PowerShell command:</span></span>
+<span data-ttu-id="895c2-108">Vous pouvez utiliser Windows PowerShell pour afficher les listes autorisées et bloquées.</span><span class="sxs-lookup"><span data-stu-id="895c2-108">You can use Windows PowerShell to view the allowed and blocked lists.</span></span> <span data-ttu-id="895c2-109">Pour passer en revue les domaines de la liste des domaines autorisés, exécutez la commande Windows PowerShell suivante :</span><span class="sxs-lookup"><span data-stu-id="895c2-109">To review the domains on the Allowed Domains list, run the following Windows PowerShell command:</span></span>
 
 `Get-CsAllowedDomain`
 
-<span data-ttu-id="d72d1-110">Cette commande renvoie des informations semblables à celles-ci pour les domaines de la liste des domaines autorisés :</span><span class="sxs-lookup"><span data-stu-id="d72d1-110">That command returns information similar to this for the domains on the Allowed Domains list:</span></span>
+<span data-ttu-id="895c2-110">Cette commande renvoie des informations semblables à celles-ci pour les domaines de la liste des domaines autorisés :</span><span class="sxs-lookup"><span data-stu-id="895c2-110">That command returns information similar to this for the domains on the Allowed Domains list:</span></span>
 
-<span data-ttu-id="d72d1-111">Identity : contoso.com</span><span class="sxs-lookup"><span data-stu-id="d72d1-111">Identity : contoso.com</span></span>
+<span data-ttu-id="895c2-111">Identity : contoso.com</span><span class="sxs-lookup"><span data-stu-id="895c2-111">Identity : contoso.com</span></span>
 
-<span data-ttu-id="d72d1-112">Domaine : contoso.com</span><span class="sxs-lookup"><span data-stu-id="d72d1-112">Domain : contoso.com</span></span>
+<span data-ttu-id="895c2-112">Domaine : contoso.com</span><span class="sxs-lookup"><span data-stu-id="895c2-112">Domain : contoso.com</span></span>
 
-<span data-ttu-id="d72d1-113">ProxyFqdn</span><span class="sxs-lookup"><span data-stu-id="d72d1-113">ProxyFqdn :</span></span>
+<span data-ttu-id="895c2-113">ProxyFqdn</span><span class="sxs-lookup"><span data-stu-id="895c2-113">ProxyFqdn :</span></span>
 
-<span data-ttu-id="d72d1-114">Commentaire</span><span class="sxs-lookup"><span data-stu-id="d72d1-114">Comment :</span></span>
+<span data-ttu-id="895c2-114">Commentaire</span><span class="sxs-lookup"><span data-stu-id="895c2-114">Comment :</span></span>
 
-<span data-ttu-id="d72d1-115">MarkForMonitoring : false</span><span class="sxs-lookup"><span data-stu-id="d72d1-115">MarkForMonitoring : False</span></span>
+<span data-ttu-id="895c2-115">MarkForMonitoring : false</span><span class="sxs-lookup"><span data-stu-id="895c2-115">MarkForMonitoring : False</span></span>
 
-<span data-ttu-id="d72d1-116">Commentaire</span><span class="sxs-lookup"><span data-stu-id="d72d1-116">Comment :</span></span>
+<span data-ttu-id="895c2-116">Commentaire</span><span class="sxs-lookup"><span data-stu-id="895c2-116">Comment :</span></span>
 
-<span data-ttu-id="d72d1-117">Pour passer en revue les domaines de la liste des domaines bloqués, utilisez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="d72d1-117">To review the domains on the blocked domains list, use this command:</span></span>
+<span data-ttu-id="895c2-117">Pour passer en revue les domaines de la liste des domaines bloqués, utilisez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="895c2-117">To review the domains on the blocked domains list, use this command:</span></span>
 
 `Get-CsBlockedDomain`
 
-<span data-ttu-id="d72d1-118">En retour, vous recevrez des informations comme celles-ci pour chaque domaine bloqué :</span><span class="sxs-lookup"><span data-stu-id="d72d1-118">In turn, you'll receive information such as this for each blocked domain:</span></span>
+<span data-ttu-id="895c2-118">En retour, vous recevrez des informations comme celles-ci pour chaque domaine bloqué :</span><span class="sxs-lookup"><span data-stu-id="895c2-118">In turn, you'll receive information such as this for each blocked domain:</span></span>
 
-<span data-ttu-id="d72d1-119">Identity : tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="d72d1-119">Identity : tailspintoys.com</span></span>
+<span data-ttu-id="895c2-119">Identity : tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="895c2-119">Identity : tailspintoys.com</span></span>
 
-<span data-ttu-id="d72d1-120">Domaine : tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="d72d1-120">Domain : tailspintoys.com</span></span>
+<span data-ttu-id="895c2-120">Domaine : tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="895c2-120">Domain : tailspintoys.com</span></span>
 
-<span data-ttu-id="d72d1-121">Windows PowerShell vous permet également de vérifier que vous pouvez vous connecter aux domaines de votre liste de domaines autorisés.</span><span class="sxs-lookup"><span data-stu-id="d72d1-121">Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list.</span></span> <span data-ttu-id="d72d1-122">Par exemple, cette commande vérifie la connexion entre votre serveur Edge (TargetFqdn) et le domaine fédéré contoso.com :</span><span class="sxs-lookup"><span data-stu-id="d72d1-122">For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:</span></span>
+<span data-ttu-id="895c2-121">Windows PowerShell vous permet également de vérifier que vous pouvez vous connecter aux domaines de votre liste de domaines autorisés.</span><span class="sxs-lookup"><span data-stu-id="895c2-121">Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list.</span></span> <span data-ttu-id="895c2-122">Par exemple, cette commande vérifie la connexion entre votre serveur Edge (TargetFqdn) et le domaine fédéré contoso.com :</span><span class="sxs-lookup"><span data-stu-id="895c2-122">For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:</span></span>
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-<span data-ttu-id="d72d1-123">Cette commande vérifie la connexion entre votre serveur Edge et tous les domaines figurant dans la liste des domaines autorisés :</span><span class="sxs-lookup"><span data-stu-id="d72d1-123">And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:</span></span>
+<span data-ttu-id="895c2-123">Cette commande vérifie la connexion entre votre serveur Edge et tous les domaines figurant dans la liste des domaines autorisés :</span><span class="sxs-lookup"><span data-stu-id="895c2-123">And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:</span></span>
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
@@ -87,22 +87,22 @@ ms.locfileid: "42136742"
 
 <div>
 
-## <a name="verify-multiple-edge-servers-are-identical"></a><span data-ttu-id="d72d1-124">Vérifier que plusieurs serveurs Edge sont identiques</span><span class="sxs-lookup"><span data-stu-id="d72d1-124">Verify multiple Edge Servers are identical</span></span>
+## <a name="verify-multiple-edge-servers-are-identical"></a><span data-ttu-id="895c2-124">Vérifier que plusieurs serveurs Edge sont identiques</span><span class="sxs-lookup"><span data-stu-id="895c2-124">Verify multiple Edge Servers are identical</span></span>
 
-<span data-ttu-id="d72d1-125">Si plusieurs serveurs Edge sont déployés dans un tableau à charge équilibrée, nous vous recommandons de vérifier que tous les serveurs Edge du groupe sont configurés de la même manière.</span><span class="sxs-lookup"><span data-stu-id="d72d1-125">If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.</span></span>
+<span data-ttu-id="895c2-125">Si plusieurs serveurs Edge sont déployés dans un tableau à charge équilibrée, nous vous recommandons de vérifier que tous les serveurs Edge du groupe sont configurés de la même manière.</span><span class="sxs-lookup"><span data-stu-id="895c2-125">If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.</span></span>
 
-<span data-ttu-id="d72d1-126">Vous pouvez afficher les paramètres des serveurs Edge dans le volet d’informations de l’extension Lync Server 2013 pour le composant logiciel enfichable Gestion de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="d72d1-126">You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.</span></span>
+<span data-ttu-id="895c2-126">Vous pouvez afficher les paramètres des serveurs Edge dans le volet d’informations de l’extension Lync Server 2013 pour le composant logiciel enfichable Gestion de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="895c2-126">You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d72d1-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d72d1-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="895c2-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="895c2-127">See Also</span></span>
 
 
-[<span data-ttu-id="d72d1-128">Get-CsAllowedDomain</span><span class="sxs-lookup"><span data-stu-id="d72d1-128">Get-CsAllowedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
-[<span data-ttu-id="d72d1-129">Get-applet csblockeddomain</span><span class="sxs-lookup"><span data-stu-id="d72d1-129">Get-CsBlockedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
-[<span data-ttu-id="d72d1-130">Test-CsFederatedPartner</span><span class="sxs-lookup"><span data-stu-id="d72d1-130">Test-CsFederatedPartner</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+[<span data-ttu-id="895c2-128">Get-CsAllowedDomain</span><span class="sxs-lookup"><span data-stu-id="895c2-128">Get-CsAllowedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[<span data-ttu-id="895c2-129">Get-applet csblockeddomain</span><span class="sxs-lookup"><span data-stu-id="895c2-129">Get-CsBlockedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[<span data-ttu-id="895c2-130">Test-CsFederatedPartner</span><span class="sxs-lookup"><span data-stu-id="895c2-130">Test-CsFederatedPartner</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
   
 
 </div>
