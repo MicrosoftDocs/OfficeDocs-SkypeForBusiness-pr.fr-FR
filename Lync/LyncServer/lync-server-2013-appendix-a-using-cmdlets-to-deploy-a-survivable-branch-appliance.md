@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 107bc5f9b39b1d62db0cba6960b60307c82831fb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b260347eaf1642c9ff86c347539439e50de179b9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147047"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="8fdb8-102">Annexe A : utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fdb8-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="eb3aa-102">Annexe A : utilisation d’applets de commande pour déployer un Survivable Branch Appliance dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb3aa-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42147047"
 
 <span> </span>
 
-<span data-ttu-id="8fdb8-103">_**Dernière modification de la rubrique :** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="8fdb8-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="eb3aa-103">_**Dernière modification de la rubrique :** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="eb3aa-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="8fdb8-104">Cette rubrique décrit la procédure de déploiement d’un Survivable Branch appliance à l’aide de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="8fdb8-105">Cette procédure doit être effectuée sur le site central.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-105">Perform this procedure at the central site.</span></span>
+<span data-ttu-id="eb3aa-104">Cette rubrique décrit la procédure de déploiement d’un Survivable Branch appliance à l’aide de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="eb3aa-105">Cette procédure doit être effectuée sur le site central.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-105">Perform this procedure at the central site.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="8fdb8-106">Pour déployer un Survivable Branch appliance à distance</span><span class="sxs-lookup"><span data-stu-id="8fdb8-106">To deploy a Survivable Branch Appliance remotely</span></span>
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="eb3aa-106">Pour déployer un Survivable Branch appliance à distance</span><span class="sxs-lookup"><span data-stu-id="eb3aa-106">To deploy a Survivable Branch Appliance remotely</span></span>
 
-1.  <span data-ttu-id="8fdb8-107">Suivez la procédure décrite dans la partie [Ajouter des sites de succursale à votre topologie dans Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) pour ajouter un nouveau site de succursale.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
+1.  <span data-ttu-id="eb3aa-107">Suivez la procédure décrite dans la partie [Ajouter des sites de succursale à votre topologie dans Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) pour ajouter un nouveau site de succursale.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
 
-2.  <span data-ttu-id="8fdb8-108">Joignez le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-108">Join the branch site to the domain.</span></span>
+2.  <span data-ttu-id="eb3aa-108">Joignez le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-108">Join the branch site to the domain.</span></span>
 
-3.  <span data-ttu-id="8fdb8-109">Ajoutez le groupe RTCUniversalSBATechnicians au groupe Administrateurs local.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
+3.  <span data-ttu-id="eb3aa-109">Ajoutez le groupe RTCUniversalSBATechnicians au groupe Administrateurs local.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
 
-4.  <span data-ttu-id="8fdb8-110">Redémarrez le serveur et ouvrez une session dessus en tant que membre du groupe RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="8fdb8-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
+4.  <span data-ttu-id="eb3aa-110">Redémarrez le serveur et ouvrez une session dessus en tant que membre du groupe RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
 
-5.  <span data-ttu-id="8fdb8-111">Dans Lync Server Management Shell, tapez les commandes suivantes, en remplaçant les espaces réservés par les informations correctes pour votre organisation :</span><span class="sxs-lookup"><span data-stu-id="8fdb8-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
+5.  <span data-ttu-id="eb3aa-111">Dans Lync Server Management Shell, tapez les commandes suivantes, en remplaçant les espaces réservés par les informations correctes pour votre organisation :</span><span class="sxs-lookup"><span data-stu-id="eb3aa-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

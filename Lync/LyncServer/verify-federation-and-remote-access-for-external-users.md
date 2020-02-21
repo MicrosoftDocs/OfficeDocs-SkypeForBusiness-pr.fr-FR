@@ -12,20 +12,20 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f45029b4818a555dd21f7bf5afef70cdca5b50e2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f95f08997a9a65bdbb6c21a8850ee059b0dc64c6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147887"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="1229d-102">Vérifier la fédération et l’accès à distance pour les utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="1229d-102">Verify federation and remote access for external users</span></span>
+# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="985a4-102">Vérifier la fédération et l’accès à distance pour les utilisateurs externes</span><span class="sxs-lookup"><span data-stu-id="985a4-102">Verify federation and remote access for external users</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42147887"
 
 <span> </span>
 
-<span data-ttu-id="1229d-103">_**Dernière modification de la rubrique :** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="1229d-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="985a4-103">_**Dernière modification de la rubrique :** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="985a4-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="1229d-104">Après avoir effectué la transition de l’itinéraire de Fédération vers le serveur Edge Lync Server 2013, vous devez effectuer certains tests fonctionnels pour vérifier que la Fédération se comporte comme prévu.</span><span class="sxs-lookup"><span data-stu-id="1229d-104">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="1229d-105">Les tests relatifs à l’accès des utilisateurs externes doivent inclure chaque type d’utilisateur externe pris en charge par votre organisation, notamment une partie ou l’ensemble de ce qui suit.</span><span class="sxs-lookup"><span data-stu-id="1229d-105">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
+<span data-ttu-id="985a4-104">Après avoir effectué la transition de l’itinéraire de Fédération vers le serveur Edge Lync Server 2013, vous devez effectuer certains tests fonctionnels pour vérifier que la Fédération se comporte comme prévu.</span><span class="sxs-lookup"><span data-stu-id="985a4-104">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="985a4-105">Les tests relatifs à l’accès des utilisateurs externes doivent inclure chaque type d’utilisateur externe pris en charge par votre organisation, notamment une partie ou l’ensemble de ce qui suit.</span><span class="sxs-lookup"><span data-stu-id="985a4-105">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="1229d-106">Tester la connectivité des utilisateurs externes et de l’accès externe</span><span class="sxs-lookup"><span data-stu-id="1229d-106">Test Connectivity of External Users and External access</span></span>
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="985a4-106">Tester la connectivité des utilisateurs externes et de l’accès externe</span><span class="sxs-lookup"><span data-stu-id="985a4-106">Test Connectivity of External Users and External access</span></span>
 
-  - <span data-ttu-id="1229d-107">Utilisateurs d’au moins un domaine fédéré, un utilisateur interne sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="1229d-107">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="1229d-108">Testez la messagerie instantanée, la présence, l’audio/vidéo (A/V) et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="1229d-108">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
+  - <span data-ttu-id="985a4-107">Utilisateurs d’au moins un domaine fédéré, un utilisateur interne sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="985a4-107">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="985a4-108">Testez la messagerie instantanée, la présence, l’audio/vidéo (A/V) et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="985a4-108">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
 
-  - <span data-ttu-id="1229d-109">Utilisateurs de chaque fournisseur de services de messagerie instantanée public pris en charge par votre organisation (et pour lequel le provisionnement a été effectué) communiquant avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="1229d-109">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
+  - <span data-ttu-id="985a4-109">Utilisateurs de chaque fournisseur de services de messagerie instantanée public pris en charge par votre organisation (et pour lequel le provisionnement a été effectué) communiquant avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="985a4-109">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
 
-  - <span data-ttu-id="1229d-110">Vérifiez que les utilisateurs anonymes peuvent participer à des conférences.</span><span class="sxs-lookup"><span data-stu-id="1229d-110">Verify that anonymous users are able to join conferences.</span></span>
+  - <span data-ttu-id="985a4-110">Vérifiez que les utilisateurs anonymes peuvent participer à des conférences.</span><span class="sxs-lookup"><span data-stu-id="985a4-110">Verify that anonymous users are able to join conferences.</span></span>
 
-  - <span data-ttu-id="1229d-111">Un utilisateur hébergé sur Lync Server 2010 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2010 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="1229d-111">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="1229d-112">Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="1229d-112">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="985a4-111">Un utilisateur hébergé sur Lync Server 2010 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2010 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="985a4-111">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="985a4-112">Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="985a4-112">Test IM, presence, A/V, and desktop sharing.</span></span>
 
-  - <span data-ttu-id="1229d-113">Un utilisateur hébergé sur Lync Server 2013 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2013 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="1229d-113">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="1229d-114">Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="1229d-114">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="985a4-113">Un utilisateur hébergé sur Lync Server 2013 à l’aide de l’accès des utilisateurs distants (connexion à Lync Server 2013 depuis l’extérieur de l’intranet mais sans VPN) avec un utilisateur sur Lync Server 2013 et un utilisateur sur Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="985a4-113">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="985a4-114">Testez la messagerie instantanée, la présence, l’audio/vidéo et le partage de Bureau.</span><span class="sxs-lookup"><span data-stu-id="985a4-114">Test IM, presence, A/V, and desktop sharing.</span></span>
 
 </div>
 

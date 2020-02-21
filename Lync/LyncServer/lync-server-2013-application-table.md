@@ -12,20 +12,20 @@ ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61470712afe2bb1be20855d4a8a861a62e0595c0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 29006decb3e6dc28e9ab2b5a9a9d191d2a92b303
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147147"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="d2997-102">Table application dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2997-102">Application table in Lync Server 2013</span></span>
+# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="cd013-102">Table application dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd013-102">Application table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42147147"
 
 <span> </span>
 
-<span data-ttu-id="d2997-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d2997-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cd013-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cd013-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="d2997-104">Cette table stocke des informations sur les différents processus dans Lync Server 2013 impliqués dans le routage et les connexions.</span><span class="sxs-lookup"><span data-stu-id="d2997-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
+<span data-ttu-id="cd013-104">Cette table stocke des informations sur les différents processus dans Lync Server 2013 impliqués dans le routage et les connexions.</span><span class="sxs-lookup"><span data-stu-id="cd013-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42147147"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d2997-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="d2997-105">Column</span></span></th>
-<th><span data-ttu-id="d2997-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="d2997-106">Data Type</span></span></th>
-<th><span data-ttu-id="d2997-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="d2997-107">Key/Index</span></span></th>
-<th><span data-ttu-id="d2997-108">Détails</span><span class="sxs-lookup"><span data-stu-id="d2997-108">Details</span></span></th>
+<th><span data-ttu-id="cd013-105">Colonne</span><span class="sxs-lookup"><span data-stu-id="cd013-105">Column</span></span></th>
+<th><span data-ttu-id="cd013-106">Type de données</span><span class="sxs-lookup"><span data-stu-id="cd013-106">Data Type</span></span></th>
+<th><span data-ttu-id="cd013-107">Clé/index</span><span class="sxs-lookup"><span data-stu-id="cd013-107">Key/Index</span></span></th>
+<th><span data-ttu-id="cd013-108">Détails</span><span class="sxs-lookup"><span data-stu-id="cd013-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2997-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="d2997-109"><strong>ApplicationId</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2997-110">int</span><span class="sxs-lookup"><span data-stu-id="d2997-110">int</span></span></p></td>
-<td><p><span data-ttu-id="d2997-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="d2997-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d2997-112">Numéro unique identifiant cette application.</span><span class="sxs-lookup"><span data-stu-id="d2997-112">Unique number identifying this application.</span></span></p></td>
+<td><p><span data-ttu-id="cd013-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="cd013-109"><strong>ApplicationId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd013-110">int</span><span class="sxs-lookup"><span data-stu-id="cd013-110">int</span></span></p></td>
+<td><p><span data-ttu-id="cd013-111">Primaire</span><span class="sxs-lookup"><span data-stu-id="cd013-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cd013-112">Numéro unique identifiant cette application.</span><span class="sxs-lookup"><span data-stu-id="cd013-112">Unique number identifying this application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d2997-113"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="d2997-113"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2997-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d2997-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cd013-113"><strong>Name</strong></span><span class="sxs-lookup"><span data-stu-id="cd013-113"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd013-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd013-114">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="d2997-115">Nom du composant serveur.</span><span class="sxs-lookup"><span data-stu-id="d2997-115">Name of the server component.</span></span></p></td>
+<td><p><span data-ttu-id="cd013-115">Nom du composant serveur.</span><span class="sxs-lookup"><span data-stu-id="cd013-115">Name of the server component.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92812a791d09c5afc52ebffb4f7989418a5576f5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e5b2dd76a071c01c74f3d42f9c1ffbfa76c4a924
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148037"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a><span data-ttu-id="a9a8f-102">Scénario de migration standard-haut niveau</span><span class="sxs-lookup"><span data-stu-id="a9a8f-102">Standard migration scenario - high-level</span></span>
+# <a name="standard-migration-scenario---high-level"></a><span data-ttu-id="5e0e5-102">Scénario de migration standard-haut niveau</span><span class="sxs-lookup"><span data-stu-id="5e0e5-102">Standard migration scenario - high-level</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42148037"
 
 <span> </span>
 
-<span data-ttu-id="a9a8f-103">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="a9a8f-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="5e0e5-103">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="5e0e5-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="a9a8f-104">Utilisez les éléments suivants comme point de départ lors de la migration de Lync Server 2010, Group chat ou de la conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-104">Use the following items as a starting point when migrating Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="a9a8f-105">Le chemin d’accès de migration standard de Lync Server 2013 se présente comme suit :</span><span class="sxs-lookup"><span data-stu-id="a9a8f-105">The standard Lync Server 2013 migration path is as follows:</span></span>
+<span data-ttu-id="5e0e5-104">Utilisez les éléments suivants comme point de départ lors de la migration de Lync Server 2010, Group chat ou de la conversation de groupe Office Communications Server 2007 R2 vers Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-104">Use the following items as a starting point when migrating Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="5e0e5-105">Le chemin d’accès de migration standard de Lync Server 2013 se présente comme suit :</span><span class="sxs-lookup"><span data-stu-id="5e0e5-105">The standard Lync Server 2013 migration path is as follows:</span></span>
 
-  - <span data-ttu-id="a9a8f-106">Votre organisation a précédemment déployé Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat, et vous souhaitez déployer Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-106">Your organization has previously deployed Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat, and you want to deploy Lync Server 2013, Persistent Chat Server.</span></span>
+  - <span data-ttu-id="5e0e5-106">Votre organisation a précédemment déployé Lync Server 2010, Group chat ou Office Communications Server 2007 R2 Group chat, et vous souhaitez déployer Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-106">Your organization has previously deployed Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat, and you want to deploy Lync Server 2013, Persistent Chat Server.</span></span>
 
-  - <span data-ttu-id="a9a8f-107">Déployez Lync Server 2013, puis déployez le ou les pools de serveurs de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-107">Deploy Lync Server 2013, and then deploy Persistent Chat Server pool(s).</span></span>
+  - <span data-ttu-id="5e0e5-107">Déployez Lync Server 2013, puis déployez le ou les pools de serveurs de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-107">Deploy Lync Server 2013, and then deploy Persistent Chat Server pool(s).</span></span>
 
-  - <span data-ttu-id="a9a8f-108">Préparez et planifiez la migration de vos salles de conversation permanente et déterminez une heure appropriée pour arrêter le système pour la migration.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-108">Prepare and plan for migration of your Persistent Chat rooms, and determine an appropriate time to shut down the system for migration.</span></span>
+  - <span data-ttu-id="5e0e5-108">Préparez et planifiez la migration de vos salles de conversation permanente et déterminez une heure appropriée pour arrêter le système pour la migration.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-108">Prepare and plan for migration of your Persistent Chat rooms, and determine an appropriate time to shut down the system for migration.</span></span>
 
-  - <span data-ttu-id="a9a8f-109">Exécutez les applets de commande Windows PowerShell pour la migration (**Export-applet cspersistentchatdata** et **Import-applet cspersistentchatdata**) pour déplacer le contenu vers le serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-109">Run the Windows PowerShell cmdlets for migration (**Export-CsPersistentChatData** and **Import-CsPersistentChatData**) to move content to Persistent Chat Server.</span></span>
+  - <span data-ttu-id="5e0e5-109">Exécutez les applets de commande Windows PowerShell pour la migration (**Export-applet cspersistentchatdata** et **Import-applet cspersistentchatdata**) pour déplacer le contenu vers le serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-109">Run the Windows PowerShell cmdlets for migration (**Export-CsPersistentChatData** and **Import-CsPersistentChatData**) to move content to Persistent Chat Server.</span></span>
 
-  - <span data-ttu-id="a9a8f-110">Vérifiez que la migration a réussi.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-110">Verify that migration has succeeded.</span></span>
+  - <span data-ttu-id="5e0e5-110">Vérifiez que la migration a réussi.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-110">Verify that migration has succeeded.</span></span>
 
-  - <span data-ttu-id="a9a8f-111">Désactivez votre déploiement hérité.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-111">Decommission your legacy deployment.</span></span>
+  - <span data-ttu-id="5e0e5-111">Désactivez votre déploiement hérité.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-111">Decommission your legacy deployment.</span></span>
 
-  - <span data-ttu-id="a9a8f-112">Configurez le serveur de conversation permanente de sorte que les clients hérités puissent se connecter à Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-112">Configure Persistent Chat Server so that legacy clients can connect to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="a9a8f-113">Cette action est nécessaire, car le déploiement de nouveaux clients prend du temps, et les utilisateurs existants avec des clients hérités doivent avoir accès à leurs salles de conversation dès que possible.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-113">This is necessary because it takes time to deploy new clients, and you want to enable existing users with legacy clients to have access to their chat rooms as soon as possible.</span></span>
+  - <span data-ttu-id="5e0e5-112">Configurez le serveur de conversation permanente de sorte que les clients hérités puissent se connecter à Lync Server 2013, serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-112">Configure Persistent Chat Server so that legacy clients can connect to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="5e0e5-113">Cette action est nécessaire, car le déploiement de nouveaux clients prend du temps, et les utilisateurs existants avec des clients hérités doivent avoir accès à leurs salles de conversation dès que possible.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-113">This is necessary because it takes time to deploy new clients, and you want to enable existing users with legacy clients to have access to their chat rooms as soon as possible.</span></span>
 
-  - <span data-ttu-id="a9a8f-114">Déployez de nouveaux clients, tout en continuant à s’assurer que les travailleurs disposant d’une conversation de groupe héritée (clients) peuvent accéder à leurs salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="a9a8f-114">Deploy new clients, while continuing to help ensure that workers with legacy Group Chat (clients) can get to their chat rooms.</span></span>
+  - <span data-ttu-id="5e0e5-114">Déployez de nouveaux clients, tout en continuant à s’assurer que les travailleurs disposant d’une conversation de groupe héritée (clients) peuvent accéder à leurs salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="5e0e5-114">Deploy new clients, while continuing to help ensure that workers with legacy Group Chat (clients) can get to their chat rooms.</span></span>
 
 </div>
 

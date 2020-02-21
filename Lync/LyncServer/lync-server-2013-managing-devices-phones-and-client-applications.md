@@ -12,20 +12,20 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 763a940528d433b79e0958f9be09199c1f372341
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8722e629d03cb5461f01313eecc2b56041242cf5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136161"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="6b5c9-102">Gestion des appareils, des téléphones et des applications clientes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
+# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="dc46f-102">Gestion des appareils, des téléphones et des applications clientes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42136161"
 
 <span> </span>
 
-<span data-ttu-id="6b5c9-103">_**Dernière modification de la rubrique :** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="6b5c9-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="dc46f-103">_**Dernière modification de la rubrique :** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="dc46f-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="6b5c9-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide du groupe **clients** dans le panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6b5c9-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="dc46f-104">Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide du groupe **clients** dans le panneau de configuration Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc46f-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6b5c9-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="6b5c9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dc46f-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="dc46f-105">In This Section</span></span>
 
-  - [<span data-ttu-id="6b5c9-106">Téléphones de partie commune dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
+  - [<span data-ttu-id="dc46f-106">Téléphones de partie commune dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
 
-  - [<span data-ttu-id="6b5c9-107">Périphériques de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
+  - [<span data-ttu-id="dc46f-107">Périphériques de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
 
-  - [<span data-ttu-id="6b5c9-108">Téléphones mobiles (stratégie/notification de transmission) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
+  - [<span data-ttu-id="dc46f-108">Téléphones mobiles (stratégie/notification de transmission) dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
 
-  - [<span data-ttu-id="6b5c9-109">Périphériques de test dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
+  - [<span data-ttu-id="dc46f-109">Périphériques de test dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
 
-  - [<span data-ttu-id="6b5c9-110">Paramètres de configuration de Lync Phone Edition dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="dc46f-110">Paramètres de configuration de Lync Phone Edition dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="6b5c9-111">Service Web de mise à jour des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
+  - [<span data-ttu-id="dc46f-111">Service Web de mise à jour des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
 
-  - [<span data-ttu-id="6b5c9-112">Spécification des applications clientes qui peuvent être utilisées pour se connecter à Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
+  - [<span data-ttu-id="dc46f-112">Spécification des applications clientes qui peuvent être utilisées pour se connecter à Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6b5c9-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6b5c9-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc46f-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dc46f-113">See Also</span></span>
 
 
-[<span data-ttu-id="6b5c9-114">Opérations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
-[<span data-ttu-id="6b5c9-115">Déploiement des clients et des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b5c9-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
+[<span data-ttu-id="dc46f-114">Opérations dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="dc46f-115">Déploiement des clients et des périphériques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc46f-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
   
 
 </div>
