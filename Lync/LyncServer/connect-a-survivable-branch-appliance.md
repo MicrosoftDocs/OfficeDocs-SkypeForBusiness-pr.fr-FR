@@ -12,20 +12,20 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8840bb7c9beec8170b26783a180d9f8bf1347e22
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0b65eed74396eb7c373230358f29366f7d6d18e5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135951"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="106ef-102">Connexion d’un Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="106ef-102">Connect a Survivable Branch Appliance</span></span>
+# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="0a3a4-102">Connexion d’un Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="0a3a4-102">Connect a Survivable Branch Appliance</span></span>
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "42135951"
 
 <span> </span>
 
-<span data-ttu-id="106ef-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="106ef-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="0a3a4-103">_**Dernière modification de la rubrique :** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0a3a4-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="106ef-104">Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de serveur d’inscriptions de sauvegarde pour le SBA.</span><span class="sxs-lookup"><span data-stu-id="106ef-104">Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="106ef-105">Lorsque le pool frontal est migré vers Lync Server 2013, le SBA doit être désassocié à partir du pool frontal Lync Server 2010, tandis que le pool est mis à niveau, une fois le pool migré vers Lync Server 2013, le SBA peut être réassocié au pool frontal mis à niveau.</span><span class="sxs-lookup"><span data-stu-id="106ef-105">When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="106ef-106">Cela implique de supprimer le SBA de la topologie Lync Server 2010 héritée dans le générateur de topologie, puis d’ajouter le SBA à la topologie Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="106ef-106">This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology.</span></span> <span data-ttu-id="106ef-107">Les utilisateurs hébergés sur l’ancien Lync Server 2010 SBA doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie.</span><span class="sxs-lookup"><span data-stu-id="106ef-107">Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="106ef-108">Une fois que le SBA est ajouté à la topologie Lync Server 2013, ces utilisateurs peuvent ensuite être déplacés vers le SBA.</span><span class="sxs-lookup"><span data-stu-id="106ef-108">Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA.</span></span> <span data-ttu-id="106ef-109">Voici un récapitulatif de ces étapes :</span><span class="sxs-lookup"><span data-stu-id="106ef-109">These steps are summarized below:</span></span>
+<span data-ttu-id="0a3a4-104">Chaque Survivable Branch Appliance (SBA) est associé à un pool frontal qui sert de serveur d’inscriptions de sauvegarde pour le SBA.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-104">Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="0a3a4-105">Lorsque le pool frontal est migré vers Lync Server 2013, le SBA doit être désassocié à partir du pool frontal Lync Server 2010, tandis que le pool est mis à niveau, une fois le pool migré vers Lync Server 2013, le SBA peut être réassocié au pool frontal mis à niveau.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-105">When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="0a3a4-106">Cela implique de supprimer le SBA de la topologie Lync Server 2010 héritée dans le générateur de topologie, puis d’ajouter le SBA à la topologie Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-106">This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology.</span></span> <span data-ttu-id="0a3a4-107">Les utilisateurs hébergés sur l’ancien Lync Server 2010 SBA doivent d’abord être déplacés vers un autre pool frontal avant de supprimer le SBA de la topologie.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-107">Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="0a3a4-108">Une fois que le SBA est ajouté à la topologie Lync Server 2013, ces utilisateurs peuvent ensuite être déplacés vers le SBA.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-108">Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA.</span></span> <span data-ttu-id="0a3a4-109">Voici un récapitulatif de ces étapes :</span><span class="sxs-lookup"><span data-stu-id="0a3a4-109">These steps are summarized below:</span></span>
 
-1.  <span data-ttu-id="106ef-110">Déplacez les utilisateurs de succursale hébergés sur l’ancien SBA Lync Server 2010 vers un autre pool frontal.</span><span class="sxs-lookup"><span data-stu-id="106ef-110">Move branch users homed on the legacy SBA Lync Server 2010 to another Front End pool.</span></span>
+1.  <span data-ttu-id="0a3a4-110">Déplacez les utilisateurs de succursale hébergés sur l’ancien SBA Lync Server 2010 vers un autre pool frontal.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-110">Move branch users homed on the legacy SBA Lync Server 2010 to another Front End pool.</span></span>
 
-2.  <span data-ttu-id="106ef-111">Supprimez SBA de la topologie Lync Server 2010 héritée pour déconnecter le pool frontal existant en tant que serveur d’inscriptions de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="106ef-111">Remove SBA from the legacy Lync Server 2010 topology to disconnect the existing Front End pool as a backup registrar.</span></span>
+2.  <span data-ttu-id="0a3a4-111">Supprimez SBA de la topologie Lync Server 2010 héritée pour déconnecter le pool frontal existant en tant que serveur d’inscriptions de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-111">Remove SBA from the legacy Lync Server 2010 topology to disconnect the existing Front End pool as a backup registrar.</span></span>
 
-3.  <span data-ttu-id="106ef-112">Ajoutez SBA à la topologie Lync Server 2013 et configurez ce nouveau pool frontal comme serveur d’inscriptions de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="106ef-112">Add SBA to the Lync Server 2013 topology and configure this new Front End pool as the backup registrar.</span></span>
+3.  <span data-ttu-id="0a3a4-112">Ajoutez SBA à la topologie Lync Server 2013 et configurez ce nouveau pool frontal comme serveur d’inscriptions de sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-112">Add SBA to the Lync Server 2013 topology and configure this new Front End pool as the backup registrar.</span></span>
 
-4.  <span data-ttu-id="106ef-113">Déplacez les utilisateurs de succursale vers le nouveau Lync Server 2013 SBA.</span><span class="sxs-lookup"><span data-stu-id="106ef-113">Move the branch users to the new Lync Server 2013 SBA.</span></span>
+4.  <span data-ttu-id="0a3a4-113">Déplacez les utilisateurs de succursale vers le nouveau Lync Server 2013 SBA.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-113">Move the branch users to the new Lync Server 2013 SBA.</span></span>
 
-<span data-ttu-id="106ef-114">**Ajouter le site de succursale SBA Lync Server 2010 à votre topologie**</span><span class="sxs-lookup"><span data-stu-id="106ef-114">**Add Lync Server 2010 SBA Branch Site to Your Topology**</span></span>
+<span data-ttu-id="0a3a4-114">**Ajouter le site de succursale SBA Lync Server 2010 à votre topologie**</span><span class="sxs-lookup"><span data-stu-id="0a3a4-114">**Add Lync Server 2010 SBA Branch Site to Your Topology**</span></span>
 
-1.  <span data-ttu-id="106ef-115">Ouvrez le **Générateur de topologie**.</span><span class="sxs-lookup"><span data-stu-id="106ef-115">Open **Topology Builder**.</span></span>
+1.  <span data-ttu-id="0a3a4-115">Ouvrez le **Générateur de topologie**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-115">Open **Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="106ef-116">Dans le volet gauche, cliquez avec le bouton droit sur **Sites de succursale**, puis cliquez sur **Nouveau site de succursale**.</span><span class="sxs-lookup"><span data-stu-id="106ef-116">In the left pane right-click **Branch sites**, and then click **New Branch Site**.</span></span>
+2.  <span data-ttu-id="0a3a4-116">Dans le volet gauche, cliquez avec le bouton droit sur **Sites de succursale**, puis cliquez sur **Nouveau site de succursale**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-116">In the left pane right-click **Branch sites**, and then click **New Branch Site**.</span></span>
 
-3.  <span data-ttu-id="106ef-117">Dans la boîte de dialogue **Définir un nouveau site de succursale**, cliquez sur **Nom**, puis entrez le nom du site de succursale.</span><span class="sxs-lookup"><span data-stu-id="106ef-117">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
+3.  <span data-ttu-id="0a3a4-117">Dans la boîte de dialogue **Définir un nouveau site de succursale**, cliquez sur **Nom**, puis entrez le nom du site de succursale.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-117">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
 
-4.  <span data-ttu-id="106ef-118">(Facultatif) Cliquez sur **Description**, puis tapez une description explicite pour le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="106ef-118">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
+4.  <span data-ttu-id="0a3a4-118">(Facultatif) Cliquez sur **Description**, puis tapez une description explicite pour le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-118">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
 
-5.  <span data-ttu-id="106ef-119">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="106ef-119">Click **Next**.</span></span>
+5.  <span data-ttu-id="0a3a4-119">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-119">Click **Next**.</span></span>
 
-6.  <span data-ttu-id="106ef-120">(Facultatif) Dans la boîte de dialogue **Définir un nouveau site de succursale** qui suit, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="106ef-120">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
+6.  <span data-ttu-id="0a3a4-120">(Facultatif) Dans la boîte de dialogue **Définir un nouveau site de succursale** qui suit, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="0a3a4-120">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
     
-    1.  <span data-ttu-id="106ef-121">Cliquez sur **Ville**, puis tapez le nom de la ville dans laquelle se trouve le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="106ef-121">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
+    1.  <span data-ttu-id="0a3a4-121">Cliquez sur **Ville**, puis tapez le nom de la ville dans laquelle se trouve le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-121">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
     
-    2.  <span data-ttu-id="106ef-122">Cliquez sur **Dép./Région**, puis tapez le nom du département ou de la région où se trouve le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="106ef-122">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
+    2.  <span data-ttu-id="0a3a4-122">Cliquez sur **Dép./Région**, puis tapez le nom du département ou de la région où se trouve le site de succursale.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-122">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
     
-    3.  <span data-ttu-id="106ef-123">Cliquez sur **Code du pays**, puis tapez le code d’appel à deux chiffres du pays ou de la région du site de succursale.</span><span class="sxs-lookup"><span data-stu-id="106ef-123">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
+    3.  <span data-ttu-id="0a3a4-123">Cliquez sur **Code du pays**, puis tapez le code d’appel à deux chiffres du pays ou de la région du site de succursale.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-123">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
 
-7.  <span data-ttu-id="106ef-124">Cliquez sur **Suivant** et effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="106ef-124">Click **Next**, and then do one of the following:</span></span>
+7.  <span data-ttu-id="0a3a4-124">Cliquez sur **Suivant** et effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="0a3a4-124">Click **Next**, and then do one of the following:</span></span>
     
-    1.  <span data-ttu-id="106ef-p102">Si vous utilisez un SBA ou un serveur Lync 2010 sur ce site, assurez-vous d’avoir désactivé la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**. Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="106ef-p102">If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.</span></span>
+    1.  <span data-ttu-id="0a3a4-p102">Si vous utilisez un SBA ou un serveur Lync 2010 sur ce site, assurez-vous d’avoir désactivé la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**. Cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-p102">If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.</span></span>
 
-8.  <span data-ttu-id="106ef-127">Pour associer l’ancien serveur Lync Server 2010 SBA au pool frontal Lync Server 2013, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="106ef-127">To associate the legacy Lync Server 2010 SBA to the Lync Server 2013 Front End pool:</span></span>
+8.  <span data-ttu-id="0a3a4-127">Pour associer l’ancien serveur Lync Server 2010 SBA au pool frontal Lync Server 2013, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="0a3a4-127">To associate the legacy Lync Server 2010 SBA to the Lync Server 2013 Front End pool:</span></span>
     
-    1.  <span data-ttu-id="106ef-128">Développez le site de succursale créé.</span><span class="sxs-lookup"><span data-stu-id="106ef-128">Expand the branch site that has been created.</span></span>
+    1.  <span data-ttu-id="0a3a4-128">Développez le site de succursale créé.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-128">Expand the branch site that has been created.</span></span>
     
-    2.  <span data-ttu-id="106ef-129">Cliquez avec le bouton droit sur **Lync Server 2010** puis cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="106ef-129">Right click on **Lync Server 2010** and then click **New**.</span></span>
+    2.  <span data-ttu-id="0a3a4-129">Cliquez avec le bouton droit sur **Lync Server 2010** puis cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-129">Right click on **Lync Server 2010** and then click **New**.</span></span>
     
-    3.  <span data-ttu-id="106ef-130">Cliquez sur **Survivable Branch Appliance…**</span><span class="sxs-lookup"><span data-stu-id="106ef-130">Click **Survivable Branch Appliance…**</span></span>
+    3.  <span data-ttu-id="0a3a4-130">Cliquez sur **Survivable Branch Appliance…**</span><span class="sxs-lookup"><span data-stu-id="0a3a4-130">Click **Survivable Branch Appliance…**</span></span>
 
-9.  <span data-ttu-id="106ef-131">Suivez les instructions de l’Assistant qui s’ouvre.</span><span class="sxs-lookup"><span data-stu-id="106ef-131">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="106ef-132">Pour plus d’informations sur les éléments de l’Assistant, voir [define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="106ef-132">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
+9.  <span data-ttu-id="0a3a4-131">Suivez les instructions de l’Assistant qui s’ouvre.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-131">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="0a3a4-132">Pour plus d’informations sur les éléments de l’Assistant, voir [define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="0a3a4-132">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="106ef-133">Une appliance Survivable Branch Lync Server 2010 ne peut être associée qu’à un magasin de surveillance Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="106ef-133">A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store.</span></span>
+    > <span data-ttu-id="0a3a4-133">Une appliance Survivable Branch Lync Server 2010 ne peut être associée qu’à un magasin de surveillance Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-133">A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="106ef-134">Si vous n’utilisez pas de SBA ou de serveur sur ce site, désactivez la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**, puis cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="106ef-134">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
+10. <span data-ttu-id="0a3a4-134">Si vous n’utilisez pas de SBA ou de serveur sur ce site, désactivez la case à cocher **Ouvrir l’Assistant Nouveau Survivable Branch Appliance à la fermeture de cet Assistant**, puis cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-134">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
 
-11. <span data-ttu-id="106ef-135">Répétez les étapes précédentes pour chaque site de succursale que vous voulez ajouter à la topologie.</span><span class="sxs-lookup"><span data-stu-id="106ef-135">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
+11. <span data-ttu-id="0a3a4-135">Répétez les étapes précédentes pour chaque site de succursale que vous voulez ajouter à la topologie.</span><span class="sxs-lookup"><span data-stu-id="0a3a4-135">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
 
 </div>
 

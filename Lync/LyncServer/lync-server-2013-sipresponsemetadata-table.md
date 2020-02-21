@@ -12,20 +12,20 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bbfec0e3d1dae6d4799fbb109e081a8f7a1a299
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0143bdd74b955f2cba5f68540be7c969f748aa47
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142790"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="bc40d-102">Table SIPResponseMetaData dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc40d-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="cab5d-102">Table SIPResponseMetaData dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cab5d-102">SIPResponseMetaData table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42142790"
 
 <span> </span>
 
-<span data-ttu-id="bc40d-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="bc40d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cab5d-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cab5d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="bc40d-p101">La table SIPResponseMetaDataTable contient la liste des codes de réponse SIP et les classification et définition de chacun de ces codes. Ceux-ci sont générés en réponse aux événements affectant les périphériques SIP et les sessions de communication SIP. Par exemple, le code de réponse 403 est généré quand un périphérique SIP effectue une requête, mais que le serveur refuse d’honorer cette requête.</span><span class="sxs-lookup"><span data-stu-id="bc40d-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
+<span data-ttu-id="cab5d-p101">La table SIPResponseMetaDataTable contient la liste des codes de réponse SIP et les classification et définition de chacun de ces codes. Ceux-ci sont générés en réponse aux événements affectant les périphériques SIP et les sessions de communication SIP. Par exemple, le code de réponse 403 est généré quand un périphérique SIP effectue une requête, mais que le serveur refuse d’honorer cette requête.</span><span class="sxs-lookup"><span data-stu-id="cab5d-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
 
-<span data-ttu-id="bc40d-106">Cette table a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bc40d-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="cab5d-106">Cette table a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cab5d-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,39 +51,39 @@ ms.locfileid: "42142790"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc40d-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="bc40d-107">Column</span></span></th>
-<th><span data-ttu-id="bc40d-108">Type de données</span><span class="sxs-lookup"><span data-stu-id="bc40d-108">Data Type</span></span></th>
-<th><span data-ttu-id="bc40d-109">Clé/index</span><span class="sxs-lookup"><span data-stu-id="bc40d-109">Key/Index</span></span></th>
-<th><span data-ttu-id="bc40d-110">Détails</span><span class="sxs-lookup"><span data-stu-id="bc40d-110">Details</span></span></th>
+<th><span data-ttu-id="cab5d-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="cab5d-107">Column</span></span></th>
+<th><span data-ttu-id="cab5d-108">Type de données</span><span class="sxs-lookup"><span data-stu-id="cab5d-108">Data Type</span></span></th>
+<th><span data-ttu-id="cab5d-109">Clé/index</span><span class="sxs-lookup"><span data-stu-id="cab5d-109">Key/Index</span></span></th>
+<th><span data-ttu-id="cab5d-110">Détails</span><span class="sxs-lookup"><span data-stu-id="cab5d-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc40d-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="bc40d-111"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc40d-112">int</span><span class="sxs-lookup"><span data-stu-id="bc40d-112">int</span></span></p></td>
-<td><p><span data-ttu-id="bc40d-113">Primaire</span><span class="sxs-lookup"><span data-stu-id="bc40d-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bc40d-114">Valeur numérique qui représente le code de réponse SIP.</span><span class="sxs-lookup"><span data-stu-id="bc40d-114">Numeric value that represents the SIP response code.</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="cab5d-111"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="cab5d-112">int</span><span class="sxs-lookup"><span data-stu-id="cab5d-112">int</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-113">Primaire</span><span class="sxs-lookup"><span data-stu-id="cab5d-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-114">Valeur numérique qui représente le code de réponse SIP.</span><span class="sxs-lookup"><span data-stu-id="cab5d-114">Numeric value that represents the SIP response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc40d-115"><strong>Classe</strong></span><span class="sxs-lookup"><span data-stu-id="bc40d-115"><strong>Class</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc40d-116">int</span><span class="sxs-lookup"><span data-stu-id="bc40d-116">int</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-115"><strong>Classe</strong></span><span class="sxs-lookup"><span data-stu-id="cab5d-115"><strong>Class</strong></span></span></p></td>
+<td><p><span data-ttu-id="cab5d-116">int</span><span class="sxs-lookup"><span data-stu-id="cab5d-116">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc40d-p102">Classification générale pour le code de réponse. Les classifications comprennent :</span><span class="sxs-lookup"><span data-stu-id="bc40d-p102">General classification for the response code. Classifications include:</span></span></p>
+<td><p><span data-ttu-id="cab5d-p102">Classification générale pour le code de réponse. Les classifications comprennent :</span><span class="sxs-lookup"><span data-stu-id="cab5d-p102">General classification for the response code. Classifications include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bc40d-119">1 – Réponses informatives</span><span class="sxs-lookup"><span data-stu-id="bc40d-119">1 – Informational Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc40d-120">2 – Réponses réussies</span><span class="sxs-lookup"><span data-stu-id="bc40d-120">2 – Successful Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc40d-121">3 – Réponses de redirection</span><span class="sxs-lookup"><span data-stu-id="bc40d-121">3 – Redirection Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc40d-122">4 – Réponses d’échec de client</span><span class="sxs-lookup"><span data-stu-id="bc40d-122">4 – Client Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc40d-123">5--réponses d’échec de serveur</span><span class="sxs-lookup"><span data-stu-id="bc40d-123">5 -- Server Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc40d-124">6 – Réponse d’échec global</span><span class="sxs-lookup"><span data-stu-id="bc40d-124">6 – Global Failure Response</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-119">1 – Réponses informatives</span><span class="sxs-lookup"><span data-stu-id="cab5d-119">1 – Informational Responses</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-120">2 – Réponses réussies</span><span class="sxs-lookup"><span data-stu-id="cab5d-120">2 – Successful Responses</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-121">3 – Réponses de redirection</span><span class="sxs-lookup"><span data-stu-id="cab5d-121">3 – Redirection Responses</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-122">4 – Réponses d’échec de client</span><span class="sxs-lookup"><span data-stu-id="cab5d-122">4 – Client Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-123">5--réponses d’échec de serveur</span><span class="sxs-lookup"><span data-stu-id="cab5d-123">5 -- Server Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="cab5d-124">6 – Réponse d’échec global</span><span class="sxs-lookup"><span data-stu-id="cab5d-124">6 – Global Failure Response</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc40d-125"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="bc40d-125"><strong>Description</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc40d-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="bc40d-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-125"><strong>Description</strong></span><span class="sxs-lookup"><span data-stu-id="cab5d-125"><strong>Description</strong></span></span></p></td>
+<td><p><span data-ttu-id="cab5d-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cab5d-126">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc40d-p103">Description du code de réponse SIP. Par exemple, le code de réponse 181 a la description suivante :</span><span class="sxs-lookup"><span data-stu-id="bc40d-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
-<p><span data-ttu-id="bc40d-129">L’appel est en cours de transfert</span><span class="sxs-lookup"><span data-stu-id="bc40d-129">Call Is Being Forwarded</span></span></p></td>
+<td><p><span data-ttu-id="cab5d-p103">Description du code de réponse SIP. Par exemple, le code de réponse 181 a la description suivante :</span><span class="sxs-lookup"><span data-stu-id="cab5d-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
+<p><span data-ttu-id="cab5d-129">L’appel est en cours de transfert</span><span class="sxs-lookup"><span data-stu-id="cab5d-129">Call Is Being Forwarded</span></span></p></td>
 </tr>
 </tbody>
 </table>

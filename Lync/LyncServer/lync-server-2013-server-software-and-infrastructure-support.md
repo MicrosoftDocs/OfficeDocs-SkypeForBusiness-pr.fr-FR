@@ -12,20 +12,20 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c6eef7f6e7a9e9c2a11a35c46a51962c5740546
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 92794db01db02ec8c9413fdab8c2c31cc624dfaa
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42143952"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="c742b-102">Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-102">Server software and infrastructure support in Lync Server 2013</span></span>
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="93a19-102">Prise en charge du logiciel et de l’infrastructure serveur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-102">Server software and infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42143952"
 
 <span> </span>
 
-<span data-ttu-id="c742b-103">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="c742b-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="93a19-103">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="93a19-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="c742b-104">La prise en charge logicielle des composants serveur, y compris tous les rôles serveur et le stockage Lync Server 2013, inclut les systèmes d’exploitation pris en charge, les logiciels de base de données, les logiciels d’infrastructure et d’autres logiciels requis pour prendre en charge des fonctionnalités spécifiques.</span><span class="sxs-lookup"><span data-stu-id="c742b-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="c742b-105">Elle inclut également la virtualisation des composants serveur.</span><span class="sxs-lookup"><span data-stu-id="c742b-105">It also includes virtualization of server components.</span></span>
+<span data-ttu-id="93a19-104">La prise en charge logicielle des composants serveur, y compris tous les rôles serveur et le stockage Lync Server 2013, inclut les systèmes d’exploitation pris en charge, les logiciels de base de données, les logiciels d’infrastructure et d’autres logiciels requis pour prendre en charge des fonctionnalités spécifiques.</span><span class="sxs-lookup"><span data-stu-id="93a19-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="93a19-105">Elle inclut également la virtualisation des composants serveur.</span><span class="sxs-lookup"><span data-stu-id="93a19-105">It also includes virtualization of server components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c742b-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c742b-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="93a19-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="93a19-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c742b-107">Serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="93a19-107">Serveur et outils pris en charge par le système d’exploitation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="c742b-108">Prise en charge du logiciel de base de données dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="93a19-108">Prise en charge du logiciel de base de données dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="c742b-109">Prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [<span data-ttu-id="93a19-109">Prise en charge de l’intégration d’Exchange Server et de SharePoint dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
-  - [<span data-ttu-id="c742b-110">Prise en charge de l’infrastructure de certificat dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
+  - [<span data-ttu-id="93a19-110">Prise en charge de l’infrastructure de certificat dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [<span data-ttu-id="c742b-111">Prise en charge de certificat générique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
+  - [<span data-ttu-id="93a19-111">Prise en charge de certificat générique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
 
-  - [<span data-ttu-id="c742b-112">Prise en charge de l’infrastructure DNS dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
+  - [<span data-ttu-id="93a19-112">Prise en charge de l’infrastructure DNS dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
 
-  - [<span data-ttu-id="c742b-113">Prise en charge des services Internet dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
+  - [<span data-ttu-id="93a19-113">Prise en charge des services Internet dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
 
-  - [<span data-ttu-id="c742b-114">Prise en charge des protocoles IP et réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [<span data-ttu-id="93a19-114">Prise en charge des protocoles IP et réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [<span data-ttu-id="c742b-115">Prise en charge de la messagerie instantanée publique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
+  - [<span data-ttu-id="93a19-115">Prise en charge de la messagerie instantanée publique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
 
-  - [<span data-ttu-id="c742b-116">Prise en charge des navigateurs pour le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [<span data-ttu-id="93a19-116">Prise en charge des navigateurs pour le panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
-  - [<span data-ttu-id="c742b-117">Prise en charge des communications vocales dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
+  - [<span data-ttu-id="93a19-117">Prise en charge des communications vocales dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
 
-  - [<span data-ttu-id="c742b-118">Prise en charge de la virtualisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c742b-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
+  - [<span data-ttu-id="93a19-118">Prise en charge de la virtualisation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a19-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
 
 </div>
 

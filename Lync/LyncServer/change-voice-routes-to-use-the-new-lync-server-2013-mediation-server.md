@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 386789c5cb3753db2df8910a1fde437a33849ca7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b4998057543f6695104ecbe759135b6735160c23
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135401"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181006"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="fab5c-102">Modifier les itinéraires de communications vocales pour utiliser le nouveau serveur de médiation Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fab5c-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="aa786-102">Modifier les itinéraires de communications vocales pour utiliser le nouveau serveur de médiation Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa786-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
 
 </div>
 
@@ -36,37 +36,37 @@ ms.locfileid: "42135401"
 
 <span> </span>
 
-<span data-ttu-id="fab5c-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="fab5c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="aa786-103">_**Dernière modification de la rubrique :** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="aa786-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="fab5c-104">Cette procédure modifie les itinéraires des communications vocales de façon à utiliser le serveur de médiation Lync Server 2013, au lieu du serveur de médiation Office Communications Server 2007 R2 hérité.</span><span class="sxs-lookup"><span data-stu-id="fab5c-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="aa786-104">Cette procédure modifie les itinéraires des communications vocales de façon à utiliser le serveur de médiation Lync Server 2013, au lieu du serveur de médiation Office Communications Server 2007 R2 hérité.</span><span class="sxs-lookup"><span data-stu-id="aa786-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="fab5c-105">Pour changer les itinéraires des communications vocales de façon à utiliser le nouveau serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="fab5c-105">To change the voice routes to use the new Mediation Server</span></span>
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="aa786-105">Pour changer les itinéraires des communications vocales de façon à utiliser le nouveau serveur de médiation</span><span class="sxs-lookup"><span data-stu-id="aa786-105">To change the voice routes to use the new Mediation Server</span></span>
 
-1.  <span data-ttu-id="fab5c-106">Panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fab5c-106">Lync Server 2013 Control Panel</span></span>
+1.  <span data-ttu-id="aa786-106">Panneau de configuration Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa786-106">Lync Server 2013 Control Panel</span></span>
 
-2.  <span data-ttu-id="fab5c-107">Dans le volet gauche, sélectionnez **Routage des communications vocales**, puis cliquez sur **Itinéraire**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
+2.  <span data-ttu-id="aa786-107">Dans le volet gauche, sélectionnez **Routage des communications vocales**, puis cliquez sur **Itinéraire**.</span><span class="sxs-lookup"><span data-stu-id="aa786-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
 
-3.  <span data-ttu-id="fab5c-108">Cliquez sur **Nouveau** pour créer un itinéraire des communications vocales.</span><span class="sxs-lookup"><span data-stu-id="fab5c-108">Click **New** to create a New Voice Route.</span></span>
+3.  <span data-ttu-id="aa786-108">Cliquez sur **Nouveau** pour créer un itinéraire des communications vocales.</span><span class="sxs-lookup"><span data-stu-id="aa786-108">Click **New** to create a New Voice Route.</span></span>
 
-4.  <span data-ttu-id="fab5c-109">Remplissez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="fab5c-109">Fill in the following fields:</span></span>
+4.  <span data-ttu-id="aa786-109">Remplissez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="aa786-109">Fill in the following fields:</span></span>
     
-      - <span data-ttu-id="fab5c-p101">**Nom** : tapez un nom descriptif de l’itinéraire des communications vocales. Pour ce document, nous allons utiliser **W15PSTNRoute**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-p101">**Name**: Type a descriptive name of the voice route. For this document we will use **W15PSTNRoute**.</span></span>
+      - <span data-ttu-id="aa786-p101">**Nom** : tapez un nom descriptif de l’itinéraire des communications vocales. Pour ce document, nous allons utiliser **W15PSTNRoute**.</span><span class="sxs-lookup"><span data-stu-id="aa786-p101">**Name**: Type a descriptive name of the voice route. For this document we will use **W15PSTNRoute**.</span></span>
     
-      - <span data-ttu-id="fab5c-112">**Description** : tapez une brève description de l’itinéraire des communications vocales.</span><span class="sxs-lookup"><span data-stu-id="fab5c-112">**Description**: Type a short description of the voice route.</span></span>
+      - <span data-ttu-id="aa786-112">**Description** : tapez une brève description de l’itinéraire des communications vocales.</span><span class="sxs-lookup"><span data-stu-id="aa786-112">**Description**: Type a short description of the voice route.</span></span>
 
-5.  <span data-ttu-id="fab5c-p102">Ignorez toutes les autres sections jusqu’à atteindre **Passerelles associées**. Cliquez sur **Ajouter**. Sélectionnez la nouvelle passerelle par défaut et cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-p102">Skip all remaining sections until you reach **Associated gateways**. Click **Add**. Select the new default gateway and click **OK**.</span></span>
+5.  <span data-ttu-id="aa786-p102">Ignorez toutes les autres sections jusqu’à atteindre **Passerelles associées**. Cliquez sur **Ajouter**. Sélectionnez la nouvelle passerelle par défaut et cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="aa786-p102">Skip all remaining sections until you reach **Associated gateways**. Click **Add**. Select the new default gateway and click **OK**.</span></span>
 
-6.  <span data-ttu-id="fab5c-116">Sous **Utilisations PSTN associées**, cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
+6.  <span data-ttu-id="aa786-116">Sous **Utilisations PSTN associées**, cliquez sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="aa786-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
 
-7.  <span data-ttu-id="fab5c-117">Dans la page **Sélectionner un enregistrement d’utilisation PSTN**, sélectionnez un nom d’enregistrement, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
+7.  <span data-ttu-id="aa786-117">Dans la page **Sélectionner un enregistrement d’utilisation PSTN**, sélectionnez un nom d’enregistrement, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="aa786-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="fab5c-118">Dans la page **Nouvel itinéraire des communications vocales**, cliquez sur **OK** pour créer l’**Itinéraire des communications vocales**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
+8.  <span data-ttu-id="aa786-118">Dans la page **Nouvel itinéraire des communications vocales**, cliquez sur **OK** pour créer l’**Itinéraire des communications vocales**.</span><span class="sxs-lookup"><span data-stu-id="aa786-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
 
-9.  <span data-ttu-id="fab5c-119">Dans la page **Routage des communications vocales**, sélectionnez **Itinéraire**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-119">From the **Voice Routing** page, select **Route**.</span></span>
+9.  <span data-ttu-id="aa786-119">Dans la page **Routage des communications vocales**, sélectionnez **Itinéraire**.</span><span class="sxs-lookup"><span data-stu-id="aa786-119">From the **Voice Routing** page, select **Route**.</span></span>
 
-10. <span data-ttu-id="fab5c-120">Déplacez l’itinéraire que vous venez de créer en haut de la liste, puis sélectionnez **Valider**.</span><span class="sxs-lookup"><span data-stu-id="fab5c-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
+10. <span data-ttu-id="aa786-120">Déplacez l’itinéraire que vous venez de créer en haut de la liste, puis sélectionnez **Valider**.</span><span class="sxs-lookup"><span data-stu-id="aa786-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
 
 </div>
 

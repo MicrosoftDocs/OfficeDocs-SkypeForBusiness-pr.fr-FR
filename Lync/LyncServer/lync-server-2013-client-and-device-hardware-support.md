@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 325e241100ec9f79cc40222c3394c54eb73e090e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: cbd370d32f672dd503a44815cf062456b40afd8e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134100"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="a8355-102">Prise en charge du matériel client et du périphérique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8355-102">Client and device hardware support in Lync Server 2013</span></span>
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="bcead-102">Prise en charge du matériel client et du périphérique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bcead-102">Client and device hardware support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42134100"
 
 <span> </span>
 
-<span data-ttu-id="a8355-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="a8355-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="bcead-103">_**Dernière modification de la rubrique :** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="bcead-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="a8355-104">Les ordinateurs clients doivent répondre à certaines exigences matérielles pour prendre en charge les clients dans votre déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a8355-104">Client computers must meet certain hardware requirements to support clients in your Lync Server 2013 deployment.</span></span> <span data-ttu-id="a8355-105">Une configuration matérielle supplémentaire doit être en place avant de pouvoir déployer des téléphones IP et des périphériques analogiques.</span><span class="sxs-lookup"><span data-stu-id="a8355-105">Additional hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+<span data-ttu-id="bcead-104">Les ordinateurs clients doivent répondre à certaines exigences matérielles pour prendre en charge les clients dans votre déploiement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bcead-104">Client computers must meet certain hardware requirements to support clients in your Lync Server 2013 deployment.</span></span> <span data-ttu-id="bcead-105">Une configuration matérielle supplémentaire doit être en place avant de pouvoir déployer des téléphones IP et des périphériques analogiques.</span><span class="sxs-lookup"><span data-stu-id="bcead-105">Additional hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a8355-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="a8355-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bcead-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="bcead-106">In This Section</span></span>
 
-  - [<span data-ttu-id="a8355-107">Prise en charge du matériel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8355-107">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
+  - [<span data-ttu-id="bcead-107">Prise en charge du matériel client Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bcead-107">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
 
-  - [<span data-ttu-id="a8355-108">Prise en charge du matériel de périphérique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8355-108">Device hardware support in Lync Server 2013</span></span>](lync-server-2013-device-hardware-support.md)
+  - [<span data-ttu-id="bcead-108">Prise en charge du matériel de périphérique dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bcead-108">Device hardware support in Lync Server 2013</span></span>](lync-server-2013-device-hardware-support.md)
 
-  - [<span data-ttu-id="a8355-109">Prise en charge de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8355-109">Mobility support in Lync Server 2013</span></span>](lync-server-2013-mobility-support.md)
+  - [<span data-ttu-id="bcead-109">Prise en charge de la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bcead-109">Mobility support in Lync Server 2013</span></span>](lync-server-2013-mobility-support.md)
 
 </div>
 
