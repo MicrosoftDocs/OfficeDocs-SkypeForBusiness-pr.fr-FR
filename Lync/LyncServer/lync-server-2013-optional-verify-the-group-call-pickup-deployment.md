@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007e4419a5763f86818d8d7320464ab41c8f8c08
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 201cfddce199f1250b5e995b6a5019e319bfedfb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153344"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="bbefd-102">Module Vérifier le déploiement de la prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bbefd-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="7739f-102">Module Vérifier le déploiement de la prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7739f-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42153344"
 
 <span> </span>
 
-<span data-ttu-id="bbefd-103">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="bbefd-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="7739f-103">_**Dernière modification de la rubrique :** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="7739f-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="bbefd-104">Une fois que vous avez activé la prise d’appel de groupe pour les utilisateurs, vérifiez que la configuration fonctionne comme prévu.</span><span class="sxs-lookup"><span data-stu-id="bbefd-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="bbefd-105">Vérifiez au minimum les points suivants :</span><span class="sxs-lookup"><span data-stu-id="bbefd-105">At a minimum, verify the following:</span></span>
+<span data-ttu-id="7739f-104">Une fois que vous avez activé la prise d’appel de groupe pour les utilisateurs, vérifiez que la configuration fonctionne comme prévu.</span><span class="sxs-lookup"><span data-stu-id="7739f-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="7739f-105">Vérifiez au minimum les points suivants :</span><span class="sxs-lookup"><span data-stu-id="7739f-105">At a minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="bbefd-106">Appeler un utilisateur activé pour la prise d’appel de groupe et demander à un autre utilisateur de récupérer l’appel.</span><span class="sxs-lookup"><span data-stu-id="bbefd-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="bbefd-107">L’autre utilisateur peut appartenir au même groupe, à un groupe différent ou ne pas avoir activé la prise d’appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="bbefd-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+  - <span data-ttu-id="7739f-106">Appeler un utilisateur activé pour la prise d’appel de groupe et demander à un autre utilisateur de récupérer l’appel.</span><span class="sxs-lookup"><span data-stu-id="7739f-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="7739f-107">L’autre utilisateur peut appartenir au même groupe, à un groupe différent ou ne pas avoir activé la prise d’appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="7739f-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
 
-  - <span data-ttu-id="bbefd-108">Appelez un utilisateur activé pour la prise d’appel de groupe et ne répondez pas à l’appel.</span><span class="sxs-lookup"><span data-stu-id="bbefd-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+  - <span data-ttu-id="7739f-108">Appelez un utilisateur activé pour la prise d’appel de groupe et ne répondez pas à l’appel.</span><span class="sxs-lookup"><span data-stu-id="7739f-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
 
 </div>
 

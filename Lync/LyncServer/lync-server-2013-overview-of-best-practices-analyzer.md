@@ -12,20 +12,20 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a11cebfe1b8344bcad0385bbe17bb26277c498c1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c13554027a1e75bc28943478a883b72beeec7419
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153284"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="d9096-102">Vue d’ensemble de Best Practices Analyzer dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9096-102">Overview of Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="28fa9-102">Vue d’ensemble de Best Practices Analyzer dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28fa9-102">Overview of Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "42153284"
 
 <span> </span>
 
-<span data-ttu-id="d9096-103">_**Dernière modification de la rubrique :** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="d9096-103">_**Topic Last Modified:** 2012-09-19_</span></span>
+<span data-ttu-id="28fa9-103">_**Dernière modification de la rubrique :** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="28fa9-103">_**Topic Last Modified:** 2012-09-19_</span></span>
 
-<span data-ttu-id="d9096-104">Vous pouvez utiliser Lync Server 2013, Best Practices Analyzer pour identifier et résoudre les problèmes liés à votre déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-104">You can use Lync Server 2013, Best Practices Analyzer to identify and resolve problems with your Lync Server 2013 deployment.</span></span> <span data-ttu-id="d9096-105">Lync Server 2013, Best Practices Analyzer recueille des informations de configuration à partir des composants Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-105">The Lync Server 2013, Best Practices Analyzer gathers configuration information from Lync Server 2013 components.</span></span>
+<span data-ttu-id="28fa9-104">Vous pouvez utiliser Lync Server 2013, Best Practices Analyzer pour identifier et résoudre les problèmes liés à votre déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-104">You can use Lync Server 2013, Best Practices Analyzer to identify and resolve problems with your Lync Server 2013 deployment.</span></span> <span data-ttu-id="28fa9-105">Lync Server 2013, Best Practices Analyzer recueille des informations de configuration à partir des composants Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-105">The Lync Server 2013, Best Practices Analyzer gathers configuration information from Lync Server 2013 components.</span></span>
 
-<span data-ttu-id="d9096-106">Avec l’accès réseau approprié, Best Practices Analyzer peut examiner les serveurs exécutant les services de domaine Active Directory, la messagerie unifiée Exchange Server et Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-106">With the proper network access, the Best Practices Analyzer can examine servers running Active Directory Domain Services, Exchange Server Unified Messaging (UM), and Lync Server 2013.</span></span> <span data-ttu-id="d9096-107">Vous pouvez utiliser Best Practices Analyzer pour effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="d9096-107">You can use Best Practices Analyzer to do the following:</span></span>
+<span data-ttu-id="28fa9-106">Avec l’accès réseau approprié, Best Practices Analyzer peut examiner les serveurs exécutant les services de domaine Active Directory, la messagerie unifiée Exchange Server et Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-106">With the proper network access, the Best Practices Analyzer can examine servers running Active Directory Domain Services, Exchange Server Unified Messaging (UM), and Lync Server 2013.</span></span> <span data-ttu-id="28fa9-107">Vous pouvez utiliser Best Practices Analyzer pour effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="28fa9-107">You can use Best Practices Analyzer to do the following:</span></span>
 
-  - <span data-ttu-id="d9096-108">Effectuer des vérifications de manière proactive, en vérifiant que la configuration est définie conformément aux meilleures pratiques recommandées.</span><span class="sxs-lookup"><span data-stu-id="d9096-108">Proactively perform checks, verifying that the configuration is set according to recommended best practices.</span></span>
+  - <span data-ttu-id="28fa9-108">Effectuer des vérifications de manière proactive, en vérifiant que la configuration est définie conformément aux meilleures pratiques recommandées.</span><span class="sxs-lookup"><span data-stu-id="28fa9-108">Proactively perform checks, verifying that the configuration is set according to recommended best practices.</span></span>
 
-  - <span data-ttu-id="d9096-109">Détecter automatiquement les mises à jour requises pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-109">Automatically detect required updates to Lync Server 2013.</span></span>
+  - <span data-ttu-id="28fa9-109">Détecter automatiquement les mises à jour requises pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-109">Automatically detect required updates to Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="d9096-110">Générez une liste de problèmes, tels que des paramètres de configuration sous-optimaux, des options non prises en charge, des mises à jour manquantes ou des pratiques non recommandées.</span><span class="sxs-lookup"><span data-stu-id="d9096-110">Generate a list of issues, such as suboptimal configuration settings, unsupported options, missing updates, or practices that we do not recommend.</span></span>
+  - <span data-ttu-id="28fa9-110">Générez une liste de problèmes, tels que des paramètres de configuration sous-optimaux, des options non prises en charge, des mises à jour manquantes ou des pratiques non recommandées.</span><span class="sxs-lookup"><span data-stu-id="28fa9-110">Generate a list of issues, such as suboptimal configuration settings, unsupported options, missing updates, or practices that we do not recommend.</span></span>
 
-  - <span data-ttu-id="d9096-111">Vous aider à résoudre des problèmes spécifiques.</span><span class="sxs-lookup"><span data-stu-id="d9096-111">Help you troubleshoot and fix specific problems.</span></span>
+  - <span data-ttu-id="28fa9-111">Vous aider à résoudre des problèmes spécifiques.</span><span class="sxs-lookup"><span data-stu-id="28fa9-111">Help you troubleshoot and fix specific problems.</span></span>
 
-<span data-ttu-id="d9096-112">Best Practices Analyzer offre les fonctionnalités suivantes :</span><span class="sxs-lookup"><span data-stu-id="d9096-112">Best Practices Analyzer provides the following features:</span></span>
+<span data-ttu-id="28fa9-112">Best Practices Analyzer offre les fonctionnalités suivantes :</span><span class="sxs-lookup"><span data-stu-id="28fa9-112">Best Practices Analyzer provides the following features:</span></span>
 
-  - <span data-ttu-id="d9096-113">Conditions préalables d’installation minimales.</span><span class="sxs-lookup"><span data-stu-id="d9096-113">Minimal installation prerequisites.</span></span>
+  - <span data-ttu-id="28fa9-113">Conditions préalables d’installation minimales.</span><span class="sxs-lookup"><span data-stu-id="28fa9-113">Minimal installation prerequisites.</span></span>
 
-  - <span data-ttu-id="d9096-114">Documentation en ligne sur les problèmes signalés, y compris des conseils de dépannage.</span><span class="sxs-lookup"><span data-stu-id="d9096-114">Online documentation about reported issues, including troubleshooting tips.</span></span>
+  - <span data-ttu-id="28fa9-114">Documentation en ligne sur les problèmes signalés, y compris des conseils de dépannage.</span><span class="sxs-lookup"><span data-stu-id="28fa9-114">Online documentation about reported issues, including troubleshooting tips.</span></span>
 
-  - <span data-ttu-id="d9096-115">Informations de configuration que vous pouvez enregistrer pour une révision ultérieure.</span><span class="sxs-lookup"><span data-stu-id="d9096-115">Configuration information that you can save for later review.</span></span>
+  - <span data-ttu-id="28fa9-115">Informations de configuration que vous pouvez enregistrer pour une révision ultérieure.</span><span class="sxs-lookup"><span data-stu-id="28fa9-115">Configuration information that you can save for later review.</span></span>
 
-  - <span data-ttu-id="d9096-116">Analyse du système de pointe.</span><span class="sxs-lookup"><span data-stu-id="d9096-116">State-of-the-art system analysis.</span></span>
+  - <span data-ttu-id="28fa9-116">Analyse du système de pointe.</span><span class="sxs-lookup"><span data-stu-id="28fa9-116">State-of-the-art system analysis.</span></span>
 
-<span data-ttu-id="d9096-117">Best Practices Analyzer utilise un ensemble de fichiers de configuration XML pour déterminer les informations à collecter à partir de votre environnement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-117">Best Practices Analyzer uses a set of XML configuration files to determine the information to gather from your Lync Server 2013 environment.</span></span> <span data-ttu-id="d9096-118">En plus de vérifier les services de domaine Active Directory, il vérifie les sources telles que le Registre du système d’exploitation Windows Server et les paramètres dans WMI (Windows Management Instrumentation).</span><span class="sxs-lookup"><span data-stu-id="d9096-118">In addition to checking Active Directory Domain Services, it checks sources such as the Windows Server operating system registry and settings in Windows Management Instrumentation (WMI).</span></span>
+<span data-ttu-id="28fa9-117">Best Practices Analyzer utilise un ensemble de fichiers de configuration XML pour déterminer les informations à collecter à partir de votre environnement Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-117">Best Practices Analyzer uses a set of XML configuration files to determine the information to gather from your Lync Server 2013 environment.</span></span> <span data-ttu-id="28fa9-118">En plus de vérifier les services de domaine Active Directory, il vérifie les sources telles que le Registre du système d’exploitation Windows Server et les paramètres dans WMI (Windows Management Instrumentation).</span><span class="sxs-lookup"><span data-stu-id="28fa9-118">In addition to checking Active Directory Domain Services, it checks sources such as the Windows Server operating system registry and settings in Windows Management Instrumentation (WMI).</span></span>
 
-<span data-ttu-id="d9096-119">Best Practices Analyzer compare les données qu’il recueille avec un ensemble de règles prédéfinies pour les paramètres et les configurations des déploiements Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-119">Best Practices Analyzer compares the data it gathers with a set of predefined rules for the settings and configurations of Lync Server 2013 deployments.</span></span>
+<span data-ttu-id="28fa9-119">Best Practices Analyzer compare les données qu’il recueille avec un ensemble de règles prédéfinies pour les paramètres et les configurations des déploiements Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-119">Best Practices Analyzer compares the data it gathers with a set of predefined rules for the settings and configurations of Lync Server 2013 deployments.</span></span>
 
-<span data-ttu-id="d9096-120">Après avoir comparé les données collectées aux règles prédéfinies, l’outil signale les problèmes.</span><span class="sxs-lookup"><span data-stu-id="d9096-120">After comparing the collected data with the predefined rules, the tool reports issues.</span></span> <span data-ttu-id="d9096-121">Pour chaque problème signalé par le service informatique, Best Practices Analyzer fournit des informations sur ce qui a été trouvé dans l’environnement Lync Server 2013 analysé et la configuration recommandée.</span><span class="sxs-lookup"><span data-stu-id="d9096-121">For every issue that it reports, Best Practices Analyzer provides information about what was found in the scanned Lync Server 2013 environment and the recommended configuration.</span></span> <span data-ttu-id="d9096-122">Best Practices Analyzer fournit également des liens vers des informations plus détaillées sur les problèmes spécifiques.</span><span class="sxs-lookup"><span data-stu-id="d9096-122">Best Practices Analyzer also provides links to more detailed information about the specific issues.</span></span>
+<span data-ttu-id="28fa9-120">Après avoir comparé les données collectées aux règles prédéfinies, l’outil signale les problèmes.</span><span class="sxs-lookup"><span data-stu-id="28fa9-120">After comparing the collected data with the predefined rules, the tool reports issues.</span></span> <span data-ttu-id="28fa9-121">Pour chaque problème signalé par le service informatique, Best Practices Analyzer fournit des informations sur ce qui a été trouvé dans l’environnement Lync Server 2013 analysé et la configuration recommandée.</span><span class="sxs-lookup"><span data-stu-id="28fa9-121">For every issue that it reports, Best Practices Analyzer provides information about what was found in the scanned Lync Server 2013 environment and the recommended configuration.</span></span> <span data-ttu-id="28fa9-122">Best Practices Analyzer fournit également des liens vers des informations plus détaillées sur les problèmes spécifiques.</span><span class="sxs-lookup"><span data-stu-id="28fa9-122">Best Practices Analyzer also provides links to more detailed information about the specific issues.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d9096-123">Lync Server 2013, Best Practices Analyzer recueille des informations de configuration uniquement à partir des composants Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9096-123">The Lync Server 2013, Best Practices Analyzer gathers configuration information only from Lync Server 2013 components.</span></span> <span data-ttu-id="d9096-124">Vous pouvez utiliser les versions précédentes de l’outil pour analyser les environnements précédents.</span><span class="sxs-lookup"><span data-stu-id="d9096-124">You can use the previous versions of the tool to scan previous environments.</span></span> <span data-ttu-id="d9096-125">Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Configuration requise pour l’exécution de Best Practices Analyzer dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="d9096-125">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="28fa9-123">Lync Server 2013, Best Practices Analyzer recueille des informations de configuration uniquement à partir des composants Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28fa9-123">The Lync Server 2013, Best Practices Analyzer gathers configuration information only from Lync Server 2013 components.</span></span> <span data-ttu-id="28fa9-124">Vous pouvez utiliser les versions précédentes de l’outil pour analyser les environnements précédents.</span><span class="sxs-lookup"><span data-stu-id="28fa9-124">You can use the previous versions of the tool to scan previous environments.</span></span> <span data-ttu-id="28fa9-125">Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Configuration requise pour l’exécution de Best Practices Analyzer dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="28fa9-125">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 
 
