@@ -12,20 +12,20 @@ ms:contentKeyID: 48183874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46f19f1244f7be64dd70522497690e44f3165b2f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 87b59fbb697414530638e46c3b63acea1fdbde02
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142360"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="1f10b-102">Colocalisation de serveur prise en charge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f10b-102">Supported server collocation in Lync Server 2013</span></span>
+# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="047d5-102">Colocalisation de serveur prise en charge dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="047d5-102">Supported server collocation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42142360"
 
 <span> </span>
 
-<span data-ttu-id="1f10b-103">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="1f10b-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="047d5-103">_**Dernière modification de la rubrique :** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="047d5-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="1f10b-104">Lync Server 2013 prend en charge la colocalisation de certains rôles serveur et fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="1f10b-104">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="1f10b-105">Les rôles et les fonctionnalités serveur que vous pouvez colocaliser dépendent en partie du type de déploiement (pool frontal ou serveur Standard Edition) que vous effectuez.</span><span class="sxs-lookup"><span data-stu-id="1f10b-105">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
+<span data-ttu-id="047d5-104">Lync Server 2013 prend en charge la colocalisation de certains rôles serveur et fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="047d5-104">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="047d5-105">Les rôles et les fonctionnalités serveur que vous pouvez colocaliser dépendent en partie du type de déploiement (pool frontal ou serveur Standard Edition) que vous effectuez.</span><span class="sxs-lookup"><span data-stu-id="047d5-105">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1f10b-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="1f10b-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="047d5-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="047d5-106">In This Section</span></span>
 
-  - [<span data-ttu-id="1f10b-107">Colocalisation des serveurs dans un déploiement de pool frontal Enterprise Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f10b-107">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
+  - [<span data-ttu-id="047d5-107">Colocalisation des serveurs dans un déploiement de pool frontal Enterprise Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="047d5-107">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
 
-  - [<span data-ttu-id="1f10b-108">Colocalisation des serveurs dans un déploiement de serveur Standard Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f10b-108">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
+  - [<span data-ttu-id="047d5-108">Colocalisation des serveurs dans un déploiement de serveur Standard Edition pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="047d5-108">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
 
 </div>
 
