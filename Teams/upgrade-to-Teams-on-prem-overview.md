@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852101"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157892"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers &mdash; teams pour les administrateurs informatiques
 
@@ -423,7 +423,7 @@ Les étapes de base sont décrites ci-dessous.Les étapes 1-5 sont répertoriée
 
 1. Assurez-vous que votre contrôleur de bordure de session (SBC) est compatible avec le routage direct en passant en revue [cette liste](direct-routing-border-controllers.md). Vous devez également vérifier que vous disposez de la version de microprogramme correcte.  
 
-2. Associez votre SBC local au service de routage direct Teams. Pour plus d’informations, voir [jumeler l’SBC au service de routage direct du système téléphonique](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+2. Associez votre SBC local au service de routage direct Teams. Pour plus d’informations, voir [jumeler l’SBC au service de routage direct du système téléphonique](direct-routing-configure.md). 
 
 3. Cette configuration est essentiellement un miroir de la configuration locale. La configuration en ligne se compose des éléments suivants : 
    - OnlineVoiceRoutingPolicy (sur la base de la VoiceRoutingPolicy locale lors de la migration des utilisateurs de Skype entreprise Online et sur la base d’VoicePolicy lors de la migration des utilisateurs de Skype entreprise à l’aide de la voix entreprise).

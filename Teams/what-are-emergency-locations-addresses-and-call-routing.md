@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836674"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161687"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -157,9 +157,9 @@ Les clients teams pour le routage direct peuvent acquérir une adresse de secour
 
 ### <a name="emergency-call-routing"></a>Routage des appels d’urgence
 
-Le TeamsEmergencyCallRoutingPolicy fait référence à une utilisation RTC en ligne, qui doit disposer de la configuration de routage directe appropriée pour acheminer correctement les appels d’urgence vers la ou les passerelles RTC appropriées. En particulier, vous devez vous assurer qu’il existe une OnlineVoiceRoute pour la chaîne de numérotation d’urgence. Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md#configure-voice-routing). 
+Le TeamsEmergencyCallRoutingPolicy fait référence à une utilisation RTC en ligne, qui doit disposer de la configuration de routage directe appropriée pour acheminer correctement les appels d’urgence vers la ou les passerelles RTC appropriées. En particulier, vous devez vous assurer qu’il existe une OnlineVoiceRoute pour la chaîne de numérotation d’urgence. Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md). 
 
-(Remarque : dans Skype entreprise Server, le numéro d’urgence a été précédé du préfixe « + », lequel doit être défini pour correspondre à « + 911 » par exemple. Les clients teams n’ont pas le préfixe « + » avec les numéros d’urgence.)
+(Remarque : les clients teams peuvent ajouter le signe « + » devant les numéros d’urgence de la même manière que le client Skype entreprise, c’est-à-dire + 911. Ce comportement sera modifié au cours des prochains mois de sorte que les appels d’urgence d’équipes n’envoient plus le numéro « + » précédant le numéro. c’est-à-dire 911.)
 
 La possibilité d’acheminer dynamiquement les appels d’urgence pour les utilisateurs de routage direct varie en fonction du réseau d’appel d’urgence dans un pays donné. Deux solutions sont disponibles :
 

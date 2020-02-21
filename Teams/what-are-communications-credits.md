@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051568"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161725"
 ---
 # <a name="what-are-communications-credits"></a>Qu’est-ce que les crédits de communication ?
 
@@ -68,7 +68,7 @@ Vous pouvez configurer la facturation de la consommation à l’aide d’un **fi
 > [!NOTE]
 > Vous pouvez voir les offres et les tarifs en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation** > **abonnements** > **Ajouter des abonnements**. 
   
-Dans**** > le **Centre** > d’administration Microsoft 365 **, vous pouvez ajouter des crédits**manuellement à tout moment. Vous pouvez également activer l'option **Recharge automatique**, qui permet de recharger automatiquement le compte lorsque le solde est inférieur au seuil défini. Si vous choisissez de financer le solde de vos crédits de communication avec un montant unique et que le solde est égal à zéro, les autres scénarios d’appel ci-dessus ne fonctionneront plus, y compris les numéros de téléphone gratuits. Par exemple, nous vous conseillons d’utiliser le paramètre de **recharge automatique** pour éviter toute interruption de service, si les crédits de votre communication se soldent à 0 (zéro). Vous recevrez un message électronique lors du succès de la recharge des transactions, des transactions de recharge (par exemple, une carte de crédit expirée), et le solde de vos crédits de communication atteint 0 (zéro).
+**** > Dans le **Centre** >  > **d'** administration Microsoft 365, vous pouvez sélectionner des crédits de communication**pour ajouter des** crédits et ajouter des crédits manuellement à tout moment. Vous pouvez également activer l'option **Recharge automatique**, qui permet de recharger automatiquement le compte lorsque le solde est inférieur au seuil défini. Si vous choisissez de financer le solde de vos crédits de communication avec un montant unique et que le solde est égal à zéro, les autres scénarios d’appel ci-dessus ne fonctionneront plus, y compris les numéros de téléphone gratuits. Par exemple, nous vous conseillons d’utiliser le paramètre de **recharge automatique** pour éviter toute interruption de service, si les crédits de votre communication se soldent à 0 (zéro). Vous recevrez un message électronique lors du succès de la recharge des transactions, des transactions de recharge (par exemple, une carte de crédit expirée), et le solde de vos crédits de communication atteint 0 (zéro).
   
 ## <a name="communications-credits"></a>Crédits de communication
 

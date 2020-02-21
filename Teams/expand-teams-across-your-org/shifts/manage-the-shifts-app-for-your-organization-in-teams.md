@@ -1,6 +1,6 @@
 ---
 title: Gérer l’application Shifts pour votre organisation dans Microsoft Teams
-author: kenwith
+author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831166"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161857"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
@@ -30,6 +30,7 @@ ms.locfileid: "41831166"
 > À compter du 31 décembre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub s’arrêtera de fonctionner pour tous les utilisateurs du 31 décembre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Vue d’ensemble des équipes
+
 L’application Shifts dans Microsoft teams permet aux utilisateurs de terrain de se connecter et de se synchroniser avec eux. Il s’agit d’abord sur un appareil mobile pour une gestion rapide et efficace du temps pour les équipes. Les Shifts permettent à terrain travailleurs et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les plannings et rester en interaction. 
 
 - Les responsables créent, mettent à jour et gèrent les plannings de Shifts pour Teams. Ils peuvent envoyer des messages à une personne (« il y a un renversé sur le plancher ») ou à l’équipe entière (« le GM régional arrive dans 20 minutes »). Ils peuvent également envoyer des documents de stratégie, des bulletins d’actualité et des vidéos. 
@@ -49,19 +50,17 @@ Les données de décalage sont actuellement stockées dans Azure dans les centre
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>Activer ou désactiver les équipes au sein de votre organisation
 
-Les Shifts sont activés par défaut pour tous les utilisateurs d’équipes de votre organisation. Vous pouvez activer ou désactiver l’application à l’échelle de l’organisation à l’aide des paramètres à l’échelle de l’organisation dans le centre d’administration Microsoft Teams.
+Les Shifts sont activés par défaut pour tous les utilisateurs d’équipes de votre organisation. Vous pouvez activer ou désactiver l’application au niveau de l’organisation sur la page [gérer les applications](../../manage-apps.md) dans le centre d’administration Microsoft Teams.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à > **stratégies d’autorisations** des **applications teams**.
-2. Cliquez sur **paramètres à l’échelle de l’organisation**.
-3. Dans le panneau Paramètres de l' **organisation** , sous **applications bloquées**, effectuez l’une des opérations suivantes :
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **teams** > **Manage** apps.
+2. Dans la liste des applications, effectuez l’une des opérations suivantes :
 
-    - Pour désactiver les Shifts pour votre organisation, recherchez l’application Shifts, puis cliquez sur **Ajouter** pour l’ajouter à la liste applications bloquées.
-    - Pour activer les Shifts pour votre organisation, supprimez l’application Shifts de la liste des applications bloquées.
-4. Cliquez sur **Enregistrer**. 
+    - Pour désactiver les Shifts pour votre organisation, recherchez l’application Shifts, sélectionnez-la, puis cliquez sur **bloquer**.
+    - Pour activer les Shifts pour votre organisation, recherchez l’application Shifts, sélectionnez-la, puis cliquez sur **allow**.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Activer ou désactiver les équipes pour des utilisateurs spécifiques de votre organisation
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser des équipes, assurez-vous que les Shifts sont activés pour votre organisation dans les paramètres à l’échelle de l’organisation, puis créez une stratégie d’autorisations d’application personnalisée et attribuez-la à ces utilisateurs. Pour en savoir plus, voir [gérer les stratégies d’autorisation d’applications dans Microsoft teams](../../teams-app-permission-policies.md).
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser des équipes, assurez-vous que les Shifts sont activés pour votre organisation dans la page [gérer les applications](../../manage-apps.md) , puis créez une stratégie d’autorisations d’application personnalisée et attribuez-la à ces utilisateurs. Pour en savoir plus, voir [gérer les stratégies d’autorisation d’applications dans Microsoft teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser la stratégie de configuration de l’application FirstlineWorker pour épingler les équipes dans teams
 

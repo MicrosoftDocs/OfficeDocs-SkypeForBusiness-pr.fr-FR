@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837454"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161589"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 
@@ -79,6 +79,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | Assiette | Connexion | Disponibles |
 | | Présence | Disponibles |
 | | Présence unifiée (Skype entreprise et équipes unifiées) | Disponibles |
+| | Client Linux | Sur le backlog du secteur public |
 | Interactive | Actualité | Disponibles |
 |  | Mon activité | Disponibles |
 | Conversation | Conversation | Disponibles |

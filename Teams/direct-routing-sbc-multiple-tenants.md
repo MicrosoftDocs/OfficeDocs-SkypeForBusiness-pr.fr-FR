@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837274"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160728"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -37,7 +37,7 @@ Opérateur :
 - Gère la fin de la qualité des appels.
 - Frais pour les services RTC séparément.
 
-Microsoft ne gère pas les opérateurs. Microsoft propose un système PBX (Microsoft Phone System) et un client Teams, certifie les téléphones et certifie SBCs qui peut être utilisé avec le système Microsoft Phone. Avant de choisir un opérateur, assurez-vous que votre choix dispose d’une SBC certifié et peut gérer la fin de la qualité de la voix.
+Microsoft ne gère pas les opérateurs. Microsoft propose une offre PBX (système Microsoft Phone) et un client Teams. Microsoft certifie également des téléphones et certifie les SBCs qui peuvent être utilisés avec le système Microsoft Phone. Avant de choisir un opérateur, assurez-vous que votre choix dispose d’une SBC certifié et peut gérer la fin de la qualité de la voix.
 
 Vous trouverez ci-après les étapes d’implémentation techniques de la configuration du scénario.
 
@@ -215,7 +215,6 @@ Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes 
 
 -  **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
  
-
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
 Deux nouvelles entités ont été introduites :
@@ -245,4 +244,22 @@ Nous vous encourageons vivement à procéder à une migration vers la nouvelle s
  
 
 Pour plus d’informations, reportez-vous à la rubrique [instructions du fournisseur SBC](#deploy-and-configure-the-sbc) sur la configuration de l’envoi du nom FQDN des sous-domaines dans l’en-tête contact.
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Remarques sur la configuration du basculement de Muti-locataire 
+
+Pour configurer le basculement dans un environnement multi-locataire, vous devez procéder comme suit :
+
+- Pour chaque client, ajoutez les noms de domaine complets pour deux SBCs différents.  Par exemple :
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- Dans les stratégies de routage de la voix en ligne des utilisateurs, spécifiez SBCs.  En cas d’échec d’un SBC, la stratégie de routage route les appels vers le second SBC.
+
+
+## <a name="see-also"></a>Voir aussi
+
+[Planifier le routage direct](direct-routing-plan.md)
+
+[Configurer le routage direct](direct-routing-configure.md)
 

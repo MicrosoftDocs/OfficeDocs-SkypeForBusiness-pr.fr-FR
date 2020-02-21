@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953775"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160708"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -311,7 +311,7 @@ S’applique aux cas de contournement de média et de non-contournement.
 L’interface de routage directe sur la jambe entre le contrôleur de bordure de session et le processeur de média Cloud (sans contournement de média), ou entre le client teams et l’SBC (si le contournement de média est activé) peut utiliser les codecs suivants :
 
 - Contournement non multimédia (SBC pour le processeur de média Cloud) : soie, G. 711, G. 722, G. 729
-- Contournement multimédia (SBC vers le client Teams) : soie, G. 711, G. 722, G. 729, OPUS
+- Contournement multimédia (SBC vers le client Teams) : soie, G. 711, G. 722, G. 729
 
 Vous pouvez forcer l’utilisation du codec spécifique sur le contrôleur de bordure de session en excluant les codecs indésirables de l’offrant.
 

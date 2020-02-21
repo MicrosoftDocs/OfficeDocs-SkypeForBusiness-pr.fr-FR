@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837904"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160738"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -48,8 +48,17 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 |Ratio Concealed Samples Avg|> 0,07|Rapport moyen du nombre de trames audio et d’échantillons masqués générés par la correction de perte de paquets sur le nombre total de trames audio.|
 ||||
 
-### <a name="video-classifier"></a>Classificateur vidéo
+### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo en raison de gel
 
+Le flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur du score de classifieur généré pour évaluer la vidéo de l’utilisateur final. Ce classificateur est disponible uniquement pour le produit Microsoft Teams.
+
+|N° d’étape|Mesure|Scénario|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Vidéo médiocre à cause du gel du classificateur |Est-ce que la paire de serveurs est client : serveur|>0,246|_Poor_|_Good_|_Unclassified_|Score compris entre 0 et 1, généré en fonction d’une combinaison d’utilisation de l’utilisateur, de statistiques de durée de gel et de l’utilisation globale des appels |
+|deuxième|Vidéo médiocre à cause du gel du classificateur |Est-ce que la paire de serveurs est client :|>0,524|_Poor_|_Good_|_Unclassified_|Score compris entre 0 et 1, généré en fonction d’une combinaison d’utilisation de l’utilisateur, de statistiques de durée de gel et de l’utilisation globale des appels |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>Classificateur vidéo
 Un flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur de la première métrique disponible dans l’ordre suivant :
 
 |N° d’étape|Mesure|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
@@ -112,3 +121,4 @@ Si la connectivité ICE a réussi pour un flux non _classé_ , le flux est proba
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 

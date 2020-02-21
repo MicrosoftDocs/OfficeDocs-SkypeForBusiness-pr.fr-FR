@@ -7,88 +7,86 @@ ms.reviewer: mikedav, jastark, oscarr, makolomi
 ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: a8cd5582cdcbddff1a6c6375230864e569111a0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Découvrez comment obtenir de nouveaux numéros de téléphone, de port ou de transfert de nouveaux numéros de téléphone pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelées numéros de service) pour Teams.
+ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031048"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170720"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+En plus d' [obtenir des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users), vous pouvez obtenir des numéros de téléphone gratuits ou payants pour les services tels que les conférences audio (pour les ponts de conférence), les standards automatiques et les files d’attente d’appels (également appelées numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, alors que le numéro de téléphone d’un utilisateur peut uniquement gérer quelques appels simultanément.
   
 > [!NOTE]
-> Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
+> Vous devez d’abord configurer les crédits de communication avant de pouvoir accéder aux numéros sans frais. Pour en savoir plus, reportez-vous à [la rubrique Configuration de crédits de communication pour votre organisation](/microsoftteams/set-up-communications-credits-for-your-organization).
   
-Vous pouvez obtenir des numéros de service à utiliser avec Skype entreprise et Microsoft teams de deux manières :
+Il existe trois façons d’obtenir des numéros de service :
   
-- Obtenez de nouveaux numéros à partir d’Office 365.
-    
-- Transfert de vos numéros existants du fournisseur de services ou de l’opérateur de téléphonie vers Office 365.
-    
-    > [!NOTE]
-    > Lorsque vous transférez vos numéros de service, il est fortement recommandé de contacter le support Microsoft pour vérifier que la capacité d’appels simultanés est prise [en charge](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) et configurée correctement.
+- **Utiliser le centre d’administration Microsoft Teams.** Pour certains pays et régions, vous pouvez obtenir des numéros de service à l’aide du centre d’administration Microsoft Teams. Voir [obtenir de nouveaux numéros de service](#get-new-service-numbers).
+
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel. Pour plus d’informations sur la façon de procéder, voir [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [gérer des numéros de téléphone pour votre organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+  
+- **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Microsoft Teams, ou vous aurez besoin de numéros de téléphone ou de codes de zone spécifiques. Si tel est le cas, vous devez télécharger un formulaire et le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization).
+  
+> [!NOTE]
+> Des numéros de service sont nécessaires pour que vous puissiez bénéficier d’une plus grande capacité d’appels simultanés pour un nombre donné. Lorsque vous transférez le numéro à nous, vous pouvez [contacter le service d’assistance RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour vous assurer que le numéro de service que vous transférez dispose d’une forte capacité d’appel simultanée.
   
 ## <a name="get-new-service-numbers"></a>Obtenir de nouveaux numéros de service
 
-![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
-    
-2. Accédez au **Centre** > d’administration**et** > à l'**administrateur Skype hérité**.
-    
-3. Dans le volet de navigation de**gauche, sélectionnez****numéros** > de téléphone **vocaux** > , puis cliquez sur **nouveaux numéros de service**.
-    
-    > [!IMPORTANT] 
-    > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
-    
-4. Dans la page **ajouter de nouveaux numéros de service** , sélectionnez les options suivantes :
-    
-   - **Pays/Région**
-    
-   - **État/Région**
-    
-   - **Ville**
-    
-5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of phone numbers.
-    
-    > [!NOTE]
-    > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total Service numbers your can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
-  
-6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
-    
-7. Sélectionnez les numéros de téléphone de votre choix, puis cliquez sur **acquérir les numéros**.
-    
-### <a name="assign-service-numbers"></a>Affecter des numéros de service
+1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **Ajouter**.
+2. Entrez un nom pour la commande et, si vous le souhaitez, ajoutez une description.
+3. Sur la page emplacement et quantité, procédez comme suit :
+    1. Dans **pays ou région**, sélectionnez un pays ou une région.
+    1. Sous **type de nombre**, sélectionnez le type de service souhaité.
+    1. Sous **emplacement**, sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez sur **Ajouter un emplacement**.
+    1. Sous **indicatif**, sélectionnez l’indicatif de la région. 
+    2. Sous **quantité**, indiquez le nombre de numéros souhaité pour votre organisation, puis cliquez sur **suivant** pour sélectionner vos numéros.
+4. Sélectionnez les numéros souhaités. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et passer votre commande. Si vous prenez plus de 10 minutes, les numéros de téléphone sont renvoyés dans la liste des numéros.
+5. Lorsque vous êtes prêt à passer votre commande, cliquez sur **passer une commande**.
 
-Once you have your service numbers, they can then be assigned to an audio conferencing bridge. To do this, see [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
-  
-### <a name="port-or-transfer-existing-service-numbers"></a>Transférer des numéros de service existants
+## <a name="port-or-transfer-existing-service-numbers"></a>Transférer des numéros de service existants
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
+Pour transférer vos numéros de téléphone de votre fournisseur de services ou de votre transporteur actuel vers Teams, vous pouvez utiliser l’Assistant Portage dans le centre d’administration Microsoft Teams. Suivez les étapes décrites dans [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+
+Si votre pays ou votre région n’est pas répertorié dans l’Assistant de Portage, vous pouvez effectuer [une demande](phone-number-calling-plans/manually-submit-port-order.md) de transfert manuellement ou accéder à la [gestion des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), sélectionner votre pays ou région, puis télécharger une lettre d’autorisation (LOA). Pour chaque type de numéro de service (par exemple, numéro payant ou gratuit), vous devez fournir des commandes de port distinctes, que vous allez transférer par le biais d’un LOA. Dans le LOA, vous devez sélectionner le type de service approprié. Assurez-vous de spécifier que vous transférez un numéro de service (et non un numéro d’utilisateur ou d’abonné), ou la capacité d’appels simultanés ne suffit pas à gérer les volumes d’appels.  
 
 > [!NOTE]
-> Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
-  
+> Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez l’assistance téléphonique PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+
+## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone pour votre organisation
+
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** 
+
+Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **vocaux** > pour afficher les numéros de votre organisation, y compris l’emplacement, le type de numéro et les informations d’État.
+
+## <a name="assign-service-phone-numbers"></a>Attribution de numéros de téléphone de service
+
+Une fois que vous avez obtenu vos numéros de service, attribuez chaque numéro à un pont de conférence audio. Voir [modifier les numéros payants ou les numéros gratuits de votre pont de conférence audio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+
 ## <a name="related-topics"></a>Rubriques connexes
-[Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+
+[Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+
+[Questions fréquentes à propos du transfert de numéros de téléphone](/microsoftteams/transferring-phone-numbers-common-questions)
+
+[Différents types de numéros de téléphone utilisés pour les offres d'appel](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+
+[Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-  
- 

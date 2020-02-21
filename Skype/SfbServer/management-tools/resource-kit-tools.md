@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Cette rubrique décrit les outils du kit de ressources Skype entreprise Server 2015, notamment l’objectif de chaque outil, ainsi que des exemples de son utilisation. Le kit de ressources de Skype entreprise Server 2015 facilite les tâches de routine pour les administrateurs qui déploient et gèrent Skype entreprise Server 2015. Par exemple, l’outil Web conf Data peut être utilisé pour contrôler facilement les données téléchargées par les utilisateurs au cours d’une réunion en ligne. L’outil SEFAUtil peut être utilisé pour configurer le transfert d’appel de délégué et la réponse pour les utilisateurs. Nous encourageons les administrateurs informatiques à utiliser ces outils pour gérer plus efficacement Skype entreprise Server 2015.
-ms.openlocfilehash: ab43d8e951308fab5a4aefc25d9dad2804ea5d0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42005989"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160768"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentation sur les outils du kit de ressources Skype entreprise Server 2015
 
@@ -122,7 +122,7 @@ Les composants logiciels suivants doivent être installés avant d’exécuter l
 
 Administrateurs disposant des autorisations nécessaires pour mettre à jour le déploiement de Skype entreprise Server 2015.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 ABSConfig peut être démarré en tapant **ABSConfig. exe** à une invite de commandes. L’interface utilisateur de l’outil ABSConfig est illustrée ci-dessous.
 
@@ -436,7 +436,7 @@ Integrated Security=false;"/>
 </configuration>
 ```
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 Plages d’orbites déployées : le paramètre-o répertorie toutes les plages d’orbites configurées pour ce pool, comme indiqué
 
@@ -513,7 +513,7 @@ Pour installer DbAnalyze. exe, copiez-le dans un dossier local, puis exécutez l
 > [!NOTE]
 > Un compte d’administrateur local est requis pour le mode **/Report : Disk** .
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 Voici des exemples de commandes valides de DbAnalyze. exe :
 
@@ -556,7 +556,7 @@ Installez les outils du kit de ressources Skype entreprise Server 2015. L’outi
 > [!NOTE]
 > Sur Windows Server 2012, la communication à distance Windows PowerShell est activée par défaut, mais pas avec le système d’exploitation Windows Server 2008.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 ```console
 >  C:\StorageService>ImportStorageServiceData.exe
@@ -742,7 +742,7 @@ L’outil LookupUserConsole affiche des informations de routage Skype entreprise
 
 Installez le kit de ressources Skype entreprise Server 2015. L’outil s’exécute sur les machines liées à un domaine où Skype entreprise Server est installé.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 C:\Program Files\Skype for Business Server 2015 \ reskit\>LookupUserConsole. exe
 
@@ -831,7 +831,7 @@ L’outil renvoie les résultats de chacune des opérations.
 
 - L’outil doit être exécuté en tant qu’administrateur ayant accès au magasin local.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 Voici un exemple de l’entrée d’outil.
 
@@ -874,7 +874,7 @@ La visionneuse de configuration réseau (NetworkConfigurationViewer. exe) permet
 
 Afficher les liens de topologie du réseau CAC d’entreprise dans une interface graphique.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
  **Chargez et affichez la topologie réseau CAC à partir d’un déploiement Skype entreprise server 2015 au format graphique**: les administrateurs de Skype entreprise Server 2015 peuvent charger et afficher la configuration de la topologie du réseau CAC sur n’importe quel ordinateur Skype entreprise Server 2015 en utilisant l’option **Télécharger la configuration réseau** , comme illustré dans la figure ci-dessous. L’outil ne parviendra pas à télécharger ou à afficher une configuration de ce type lorsqu’il est déployé sur un ordinateur qui n’a pas de connectivité au magasin de configurations Skype entreprise Server 2015.
 
@@ -967,7 +967,7 @@ Les trois paramètres suivants peuvent être personnalisés dans la configuratio
 
 - Démarrez avec Windows : l’application peut être configurée pour démarrer automatiquement avec Windows.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 La figure ci-dessous illustre comment appeler ou envoyer un message instantané à un autre agent en cliquant avec le bouton droit sur le contact dans le volet de droite.
 
@@ -1088,7 +1088,7 @@ L’outil SEFAUtil peut être exécuté uniquement sur un ordinateur qui fait pa
 
 La prise d’appel de groupe nécessite une configuration supplémentaire dans Skype entreprise Server 2015 pour être entièrement activée. Avant d’affecter des groupes de collecte aux utilisateurs, reportez-vous à la documentation du produit de prise d’appel de groupe pour les étapes de planification et de déploiement de cette fonctionnalité.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 #### <a name="display-current-call-handling-settings"></a>Afficher les paramètres de gestion des appels actifs
 
@@ -1113,7 +1113,7 @@ Call Forward No Answer to: voicemail
 Cet exemple montre comment définir la destination de transfert d’appel/de réponse et le retard de l’anneau. Ici, le commutateur/Server n’est pas fourni ; SEFAUtil tente de découvrir automatiquement le service Skype entreprise Server 2015.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Résultat**
@@ -1150,7 +1150,7 @@ Forward immediate to: sip:anders@contoso.com
 Cet exemple désactive immédiatement le transfert d’appel.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Résultat**
@@ -1381,7 +1381,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### <a name="disable-group-call-pickup"></a>Désactiver la prise d’appel de groupe
@@ -1443,7 +1443,7 @@ Avant d’exécuter le script SYSPrep. ps1, vous devez copier les fichiers prér
 
 Le paramètre **-SetupFolder** prend comme argument l’emplacement du répertoire des fichiers prérequis
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 Pour exécuter le script SYSPrep. ps1 et installer les composants prérequis de Skype entreprise Server 2015, exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges :
 
@@ -1503,7 +1503,7 @@ Le script Move-CsAnnouncementConfiguration nécessite les deux paramètres décr
 
 ![Paramètres Move-CsAnnouncementConfiguration.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>Transfert de la configuration des annonces de numéros non attribués à partir d’un pool Lync Server 2013 vers un pool Skype entreprise Server 2015
 
@@ -1559,7 +1559,7 @@ L’outil doit être exécuté dans le même pool que l’organisateur.
 
 L’outil doit être exécuté en utilisant les privilèges d’administrateur pour accéder au magasin de fichiers de contenu.
 
-### <a name="examples"></a>範例
+### <a name="examples"></a>Exemples
 
 Le tableau suivant décrit les paramètres, dont certains sont utilisés dans les exemples.
 

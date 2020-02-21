@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment emporter vos applications teams personnalisées du développement au déploiement.
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837504"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161810"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gérer vos applications métier dans Microsoft teams
 
@@ -50,10 +50,10 @@ Pour offrir aux développeurs l’accès nécessaires aux tests, autorisez tous 
 Pour autoriser les utilisateurs à télécharger des applications personnalisées, procédez comme suit :
 
 1. Activez le paramètre **autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à**stratégies d’autorisations**des **applications** > Teams, puis cliquez sur **paramètres à l’échelle**de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams** > **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
     2. Sous **applications personnalisées**, activez **autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
 
-    ![Capture d’écran du paramètre « autoriser l’interaction avec les applications personnalisées » en niveau de l’Organisation](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    ![Capture d’écran du paramètre « autoriser l’interaction avec les applications personnalisées » dans l’Organisation](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Activez le paramètre **Télécharger des applications personnalisées** dans la stratégie de configuration de l’application globale. Pour ce faire :
     1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications** > **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
@@ -81,12 +81,12 @@ Microsoft utilise <a href="https://docs.microsoft.com/microsoftteams/platform/pu
 Pour vérifier que l’application fonctionne correctement dans votre client de production, vous devez permettre aux utilisateurs approuvés de votre organisation de télécharger des applications personnalisées.  À l’instar de l' <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">étape</a>précédente, vous utilisez des stratégies de configuration d’application pour cela.
 
 > [!NOTE]
-> Si vous n’avez pas l’habitude de télécharger l’application sur votre client de production pour la validation, même pour les utilisateurs vous-même ou approuvés, vous pouvez ignorer cette étape et suivre les étapes 3 et 4 pour télécharger l’application non validée sur votre magasin d’applications clientes. Restreignez ensuite l’accès à cette application uniquement et aux utilisateurs approuvés. Ces utilisateurs peuvent ensuite télécharger l’application auprès du magasin des applications clientes pour effectuer la validation. Une fois l’application validée, utilisez les mêmes stratégies d’autorisation pour ouvrir Access et annuler l’application en vue d’une utilisation en production.
+> Si vous n’avez pas l’habitude de télécharger l’application sur votre client de production pour la validation, même pour les utilisateurs vous-même ou approuvés, vous pouvez ignorer cette étape et suivre les étapes 3 et 4 pour télécharger l’application non validée sur votre magasin d’applications client. Restreignez ensuite l’accès à cette application uniquement et aux utilisateurs approuvés. Ces utilisateurs peuvent ensuite obtenir l’application à partir du magasin d’applications du client pour effectuer la validation. Une fois l’application validée, utilisez les mêmes stratégies d’autorisation pour ouvrir Access et annuler l’application en vue d’une utilisation en production.
 
 Pour permettre aux utilisateurs approuvés de télécharger des applications personnalisées, procédez comme suit :
 
 1. Activez le paramètre **autoriser l’interaction avec les applications personnalisées** à l’échelle de l’organisation. Pour ce faire :
-    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à**stratégies d’autorisations**des **applications** > Teams, puis cliquez sur **paramètres à l’échelle**de l’organisation.
+    1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à **teams** > **Manage Apps**, puis cliquez sur **paramètres de l’application à l’échelle**de l’organisation.
     2. Sous **applications personnalisées**, activez **autoriser l’interaction avec les applications personnalisées**, puis cliquez sur **Enregistrer**.
 2. Désactivez le paramètre **Télécharger des applications personnalisées** de la stratégie de configuration de l’application globale. Pour ce faire :
     1. Dans le volet de navigation de gauche du <a href="https://admin.teams.microsoft.com/" target="_blank">Centre d’administration de Microsoft teams</a>, accédez à stratégies de configuration des **applications** > **d'** équipe, puis cliquez sur la stratégie **globale par défaut** de l’organisation.
@@ -99,11 +99,17 @@ Pour permettre aux utilisateurs approuvés de télécharger des applications per
 
     Ces utilisateurs peuvent désormais télécharger le manifeste de l’application pour vérifier que l’application fonctionne correctement dans le client de production.
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>Étape 3 : Télécharger dans le catalogue des applications clientes
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Étape 3 : charger vers le catalogue d’applications du client
 
-Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications clientes, téléchargez l’application. Vous pouvez le faire à l’aide du client de bureau Teams. Suivez les étapes <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">ci-dessous</a>.
+Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications du client, téléchargez l’application. Pour cela, vous pouvez <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">utiliser le client de bureau teams</a> ou la page [gérer les applications](manage-apps.md) du centre d’administration Microsoft Teams.
+
+Voici une capture d’écran de l’option Télécharger dans le client de bureau Teams.
 
 ![Capture d’écran de la page applications](media/manage-your-lob-apps-store.png)
+
+Voici une capture d’écran de l’option Télécharger dans la page **gérer les applications** du centre d’administration Microsoft Teams.
+
+![Capture d’écran de la page gérer les applications dans le centre d’administration](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>Étape 4 : configurer et affecter des autorisations
 
@@ -125,6 +131,6 @@ Par défaut, pour que les utilisateurs puissent trouver cette application, ils d
 
 Pour mettre à jour une application, les développeurs doivent continuer à suivre les [étapes 1](#step-1-develop-and-test) et [2](#step-2-validate-in-production).
 
-Vous pouvez mettre à jour l’application par le biais du catalogue d’applications clientes. Pour ce faire, dans le client de bureau Teams, accédez à **applications** > **développées pour &lt;le&gt;nom de votre client**, puis cliquez sur **...** dans le coin supérieur droit de l’application, puis cliquez sur **mettre à jour**. Cette opération a pour effet de remplacer l’application existante dans le catalogue d’applications clientes, et toutes les stratégies d’autorisation et de configuration restent appliquées pour l’application mise à jour. 
+Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le client de bureau Teams, accédez à **applications** > **développées pour &lt;le&gt;nom de votre client**, puis cliquez sur **...** dans le coin supérieur droit de l’application, puis cliquez sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration reste en vigueur pour l’application mise à jour. 
 
 ![Capture d’écran de la mise à jour d’une application dans la page applications](media/manage-your-lob-apps-update-app.png)

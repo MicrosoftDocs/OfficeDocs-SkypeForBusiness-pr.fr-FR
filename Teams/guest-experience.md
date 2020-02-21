@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977526"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160568"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -41,22 +41,23 @@ Le tableau suivant compare les fonctionnalités d’équipes disponibles pour le
 
 |**Fonctionnalité dans Teams**|**Utilisateur de Teams dans l'organisation**|**Utilisateur invité**|
 |:-----|:-----|:-----|
-|Créer un canal  <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participer à une conversation privée  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participer à une conversation dans un canal  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Publier, supprimer et modifier des messages  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Partager un fichier dans un canal  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Partager un fichier dans une conversation  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Ajouter des applications (onglets, bots ou connecteurs)  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Créer des réunions ou des échéanciers d’accès  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Accès au stockage OneDrive entreprise  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Inviter un utilisateur en dehors du domaine du client Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Créer une équipe  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Rechercher et rejoindre une équipe publique  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Afficher l'organigramme  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Utiliser la traduction intraligne  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Devenir le propriétaire de l’équipe  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Créer un canal  <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> |&#x2713;|&#x2713;|
+|Participer à une conversation privée  <br/> |&#x2713;|&#x2713;|
+|Participer à une conversation dans un canal  <br/> |&#x2713;|&#x2713;|
+|Publier, supprimer et modifier des messages  <br/> |&#x2713;|&#x2713;|
+|Partager un fichier dans un canal  <br/> |&#x2713;|&#x2713;|
+|Partager un fichier dans une conversation  <br/> |&#x2713;||
+|Ajouter des applications (onglets, bots ou connecteurs)  <br/> |&#x2713;||
+|Créer des réunions ou des échéanciers d’accès  <br/> |&#x2713;||
+|Accès au stockage OneDrive entreprise  <br/> |&#x2713;||
+|Créer des stratégies d'accès invité qui s'appliquent à l'ensemble du client et aux équipes/canaux  <br/> |&#x2713;||
+|Inviter un utilisateur en dehors du domaine du client Office 365 <br/>  *Les propriétaires d'équipe contrôlent ce paramètre.*  <br/> <br/> |&#x2713;||
+|Créer une équipe  <br/> |&#x2713;||
+|Rechercher et rejoindre une équipe publique  <br/> |&#x2713;||
+|Afficher l'organigramme  <br/> |&#x2713;||
+|Utiliser la traduction intraligne  <br/> |&#x2713;||
+|Devenir le propriétaire de l’équipe  <br/> |&#x2713;||
+
    
 Le tableau suivant répertorie les fonctionnalités d’appel et de réunion accessibles aux invités par rapport aux autres types d’utilisateurs.
 

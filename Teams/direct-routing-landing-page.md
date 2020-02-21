@@ -16,12 +16,12 @@ f1.keywords:
 description: Page d’accueil pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836064"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157902"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
@@ -51,7 +51,7 @@ Voici les principales décisions à prendre en considération pour le routage di
 
 |Posez-vous la question|Action |
 | :------------|:-------|
-|Pour quels utilisateurs le routage direct est-il activé ? | Pour plus d’informations, voir [activer les utilisateurs pour le service de routage direct](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+|Pour quels utilisateurs le routage direct est-il activé ? | Pour plus d’informations, voir [activer les utilisateurs pour le service de routage direct](direct-routing-configure.md). |
 Est-ce que je dispose des licences requises pour le routage direct ? | Pour plus d’informations, reportez-vous à la rubrique [licences et autres exigences](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
@@ -71,8 +71,8 @@ Vous devez configurer le système téléphonique pour acheminer les appels vers 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Quelles sont les stratégies de routage vocal, l’utilisation RTC et les itinéraires vocaux nécessaires ? | Pour plus d’informations sur le routage vocal, voir [configurer le routage](direct-routing-configure.md#configure-voice-routing)de la voix.
-| Quels utilisateurs seront attribués à la stratégie de routage vocale que j’ai définie ? | Pour plus d’exemples, voir [configurer le routage](direct-routing-configure.md#configure-voice-routing)de la voix. |
+| Quelles sont les stratégies de routage vocal, l’utilisation RTC et les itinéraires vocaux nécessaires ? | Pour plus d’informations sur le routage vocal, voir [configurer le routage](direct-routing-configure.md)de la voix.
+| Quels utilisateurs seront attribués à la stratégie de routage vocale que j’ai définie ? | Pour plus d’exemples, voir [configurer le routage](direct-routing-configure.md)de la voix. |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Faire en sorte que les appels entrants soient dans le client teams à l’aide de TeamsUpgradePolicy

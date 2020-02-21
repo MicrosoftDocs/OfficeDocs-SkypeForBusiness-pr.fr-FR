@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez les différentes méthodes d’attribution de stratégies aux utilisateurs de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052544"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170760"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribution de stratégies aux utilisateurs de Microsoft teams
 
 > [!NOTE]
-> **Deux des fonctionnalités de Microsoft teams abordées dans cet article, l' [affectation de stratégie de lot](#assign-a-policy-to-a-batch-of-users) et l’affectation de stratégie de [groupe](#assign-a-policy-to-a-group)sont actuellement en version préliminaire.**
+> **Deux des fonctionnalités de Microsoft teams abordées dans cet article, l’attribution de stratégie de [lot](#assign-a-policy-to-a-batch-of-users) et l' [attribution de stratégies aux groupes](#assign-a-policy-to-a-group), sont actuellement en version préliminaire.**
 
 En tant qu’administrateur, vous utilisez des stratégies pour contrôler les fonctionnalités d’équipes disponibles pour les utilisateurs de votre organisation. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie pour n’appeler qu’un seul nom.
 
@@ -213,18 +213,18 @@ Pour en savoir plus, consultez la rubrique [Get-CsBatchPolicyAssignmentOperation
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Une affectation de stratégie de groupe vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une unité d’organisation. L’affectation de stratégie est propagée aux membres du groupe conformément aux règles de priorité. Les membres étant ajoutés ou supprimés d’un groupe, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+Attribution de stratégie aux groupes vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une unité d’organisation. L’affectation de stratégie est propagée aux membres du groupe conformément aux règles de priorité. Les membres étant ajoutés ou supprimés d’un groupe, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
 Vous pouvez utiliser ```New-CsGroupPolicyAssignment``` l’applet de cmdlet pour attribuer une stratégie à un groupe. Vous pouvez spécifier un groupe à l’aide d’un ID d’objet, d’une adresse SIP ou d’une adresse de messagerie.
 
 Lorsque vous affectez la stratégie, celle-ci est immédiatement affectée au groupe. Toutefois, Notez que la propagation de l’affectation de stratégie aux membres du groupe est effectuée en tant qu’opération en arrière-plan et peut prendre un certain temps selon la taille du groupe. Il en va de même lorsque la stratégie n’est pas attribuée à un groupe, ou lorsque les membres sont ajoutés à un groupe ou supprimés.
 
 > [!NOTE]
-> Pour l’instant, l’affectation de stratégie de groupe n’est pas disponible pour tous les types de stratégie d’équipe. Pour obtenir la liste des types de stratégie pris en charge, voir [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) .
+> Pour l’instant, l’affectation de stratégie à des groupes n’est pas disponible pour tous les types de stratégie d’équipe. Pour obtenir la liste des types de stratégie pris en charge, voir [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) .
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>Ce que vous devez savoir sur une affectation de stratégie de groupe
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>Ce que vous devez savoir sur l’attribution de stratégies aux groupes
 
-Avant de commencer, il est important de comprendre les règles de précédence et le classement des affectations de stratégie de groupe.
+Avant de commencer, il est important de comprendre les règles de précédence et le classement des affectations de groupe.
 
 #### <a name="precedence-rules"></a>Règles de précédence
 
@@ -240,7 +240,7 @@ La stratégie effective d’un utilisateur est mise à jour en fonction de ces r
  
 Lorsque vous affectez une stratégie à un groupe, vous spécifiez le classement de l’affectation de groupe. Il est utilisé pour identifier la stratégie qu’un utilisateur doit hériter en tant que stratégie effective si l’utilisateur est membre de deux groupes ou plus et qu’une stratégie du même type est affectée à chaque groupe.
 
-Le classement des affectations de groupe est relatif aux autres affectations de stratégie de groupe du même type. Par exemple, si vous attribuez une stratégie d’appel à deux groupes, définissez le classement d’une affectation sur 1 et l’autre sur 2, avec 1 en tant que classement le plus élevé. Le classement des affectations de groupe indique l’appartenance au groupe qui est la plus importante ou la plus pertinente par rapport à d’autres appartenances aux groupes en ce qui concerne l’héritage.
+Le classement des affectations de groupe est relatif par rapport à d’autres affectations de groupe du même type. Par exemple, si vous attribuez une stratégie d’appel à deux groupes, définissez le classement d’une affectation sur 1 et l’autre sur 2, avec 1 en tant que classement le plus élevé. Le classement des affectations de groupe indique l’appartenance au groupe qui est la plus importante ou la plus pertinente par rapport à d’autres appartenances aux groupes en ce qui concerne l’héritage.
  
 Imaginons, par exemple, que vous avez deux groupes, que vous stockez des employés et des responsables du magasin. Les deux groupes se voient attribuer une stratégie d’appel d’équipes, et les employés de la stratégie d’appel et de la stratégie d’appel des responsables de la boutique sont respectivement. Dans le cas d’un responsable du Windows Store qui se trouve dans les deux groupes, son rôle en tant que responsable est supérieur à celui d’un employé, de sorte que la stratégie d’appel attribuée au groupe responsables du magasin doit présenter un niveau de classement supérieur.
 

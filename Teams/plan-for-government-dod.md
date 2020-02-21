@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836854"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161735"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour les déploiements Microsoft 365 Government-DoD
 
@@ -42,7 +42,7 @@ L’environnement Microsoft 365 Government-DoD fournit une conformité avec les 
 
 Vous trouverez des informations supplémentaires sur l’offre Microsoft 365 Government-DoD pour les clients du secteur public dans [Office 365 Government](https://products.office.com/government/compare-office-365-government-plans), y compris les [exigences d’éligibilité](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [Description du service fédéral des États-Unis d’Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les exigences en matière de conformité aux États-Unis.
+La [Description du service fédéral des États-Unis d’Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les exigences en matière de conformité aux États-Unis.
 
 
 > [!Tip]
@@ -79,6 +79,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | Assiette | Connexion | Disponibles |
 | | Présence | Disponibles |
 | | Présence unifiée (Skype entreprise et équipes unifiées) | Sur le backlog du secteur public |
+| | Client Linux | Sur le backlog du secteur public |
 | Interactive | Actualité | Disponibles |
 |  | Mon activité | Disponibles |
 | Conversation | Conversation | Disponibles |
