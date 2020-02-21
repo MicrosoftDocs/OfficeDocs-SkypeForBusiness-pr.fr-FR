@@ -19,18 +19,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f58815ad2f722b0409b22e05a71adc65a8772e1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045016"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205408"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Planification de la mise à niveau Teams</h1>
            <p>En tant que client Skype Entreprise, nous voulons nous assurer que vous disposez de ce dont vous avez besoin au fur et à mesure que vous naviguez Teams. Rejoignez-nous pour une série d’ateliers de planification de mise à niveau en direct et interactifs, dans lesquels nous allons partager des conseils, des meilleures pratiques et des ressources conçues pour vous aider à planifier et implémenter la mise à niveau vers Teams. Pour une expérience optimale, commencez par <strong>planifier votre session de mise à niveau</strong> ci-dessous.
-            <p>Vous débutez avec Teams? Apprenez-en davantage <a href="http://docs.microsoft.com/microsoftteams/teams-overview">ici</a>.
+            <p>Vous débutez avec Teams? Apprenez-en davantage <a href="https://docs.microsoft.com/microsoftteams/teams-overview">ici</a>.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
