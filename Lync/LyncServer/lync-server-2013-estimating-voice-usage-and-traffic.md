@@ -12,20 +12,20 @@ ms:contentKeyID: 48184332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7723a67b4cefb75218f01dde3603a100b54d40b8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 638e2ff873415236d11bae4486cd4642bd075c9d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42131397"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="estimating-voice-usage-and-traffic-for-lync-server-2013"></a><span data-ttu-id="53546-102">Estimation du trafic et de l’utilisation de la voix pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53546-102">Estimating voice usage and traffic for Lync Server 2013</span></span>
+# <a name="estimating-voice-usage-and-traffic-for-lync-server-2013"></a><span data-ttu-id="d1631-102">Estimation du trafic et de l’utilisation de la voix pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1631-102">Estimating voice usage and traffic for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42131397"
 
 <span> </span>
 
-<span data-ttu-id="53546-103">_**Dernière modification de la rubrique :** 2012-08-07_</span><span class="sxs-lookup"><span data-stu-id="53546-103">_**Topic Last Modified:** 2012-08-07_</span></span>
+<span data-ttu-id="d1631-103">_**Dernière modification de la rubrique :** 2012-08-07_</span><span class="sxs-lookup"><span data-stu-id="d1631-103">_**Topic Last Modified:** 2012-08-07_</span></span>
 
-<span data-ttu-id="53546-104">L’outil de planification Microsoft Lync Server 2013 utilise la mesure suivante pour estimer le trafic utilisateur sur chaque site et le nombre de ports nécessaires à la prise en charge de ce trafic.</span><span class="sxs-lookup"><span data-stu-id="53546-104">The Microsoft Lync Server 2013, Planning Tool uses the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="53546-105">Pour **Faible trafic** (1 appel PSTN par utilisateur et par heure), 15 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="53546-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
+<span data-ttu-id="d1631-104">L’outil de planification Microsoft Lync Server 2013 utilise la mesure suivante pour estimer le trafic utilisateur sur chaque site et le nombre de ports nécessaires à la prise en charge de ce trafic.</span><span class="sxs-lookup"><span data-stu-id="d1631-104">The Microsoft Lync Server 2013, Planning Tool uses the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="53546-106">Pour **Trafic moyen** (2 appels PSTN par utilisateur et par heure), 10 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="53546-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
+    <span data-ttu-id="d1631-105">Pour **Faible trafic** (1 appel PSTN par utilisateur et par heure), 15 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="d1631-105">For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="53546-107">Pour **Trafic important** (au moins 3 appels PSTN par utilisateur et par heure), 5 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="53546-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
+    <span data-ttu-id="d1631-106">Pour **Trafic moyen** (2 appels PSTN par utilisateur et par heure), 10 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="d1631-106">For **Medium traffic** (2 PSTN calls per user per hour), figure 10 users per port.</span></span>
 
-<span data-ttu-id="53546-108">Le nombre de ports à son tour détermine le nombre de serveurs de médiation et de passerelles qui seront nécessaires.</span><span class="sxs-lookup"><span data-stu-id="53546-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="53546-109">La taille des passerelles de réseau téléphonique commuté (PSTN) que la plupart des organisations envisagent de déployer peut aller de 2 à 960 ports.</span><span class="sxs-lookup"><span data-stu-id="53546-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="53546-110">(Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.)</span><span class="sxs-lookup"><span data-stu-id="53546-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
+  - <span></span>  
+    <span data-ttu-id="d1631-107">Pour **Trafic important** (au moins 3 appels PSTN par utilisateur et par heure), 5 utilisateurs par port.</span><span class="sxs-lookup"><span data-stu-id="d1631-107">For **Heavy traffic** (3 or more PSTN per user calls per hour), figure 5 users per port.</span></span>
 
-<span data-ttu-id="53546-p102">Par exemple, une organisation comportant 10 000 utilisateurs et dont le trafic est moyen requiert 1 000 ports. Le nombre de passerelles requis est égal au nombre total de ports requis, qui est déterminé par la capacité totale des passerelles.</span><span class="sxs-lookup"><span data-stu-id="53546-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
+<span data-ttu-id="d1631-108">Le nombre de ports à son tour détermine le nombre de serveurs de médiation et de passerelles qui seront nécessaires.</span><span class="sxs-lookup"><span data-stu-id="d1631-108">The number of ports in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="d1631-109">La taille des passerelles de réseau téléphonique commuté (PSTN) que la plupart des organisations envisagent de déployer peut aller de 2 à 960 ports.</span><span class="sxs-lookup"><span data-stu-id="d1631-109">The public switched telephone network (PSTN) gateways that most organizations consider deploying range in size from 2 ports to as many as 960 ports.</span></span> <span data-ttu-id="d1631-110">(Il existe des passerelles encore plus importantes, mais celles-ci sont principalement utilisées par des fournisseurs de services téléphoniques.)</span><span class="sxs-lookup"><span data-stu-id="d1631-110">(There are even larger gateways, but these are used mainly by telephony service providers.)</span></span>
+
+<span data-ttu-id="d1631-p102">Par exemple, une organisation comportant 10 000 utilisateurs et dont le trafic est moyen requiert 1 000 ports. Le nombre de passerelles requis est égal au nombre total de ports requis, qui est déterminé par la capacité totale des passerelles.</span><span class="sxs-lookup"><span data-stu-id="d1631-p102">For example, an organization with 10,000 users and medium traffic would require 1000 ports. The number of gateways required would equal the total number of ports required as determined by the total capacity of the gateways.</span></span>
 
 </div>
 
