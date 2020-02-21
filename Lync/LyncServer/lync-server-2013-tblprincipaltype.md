@@ -12,20 +12,20 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f1c43c0e000e0c8adc3516304b931a68111072d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141970"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a><span data-ttu-id="5528c-102">tblPrincipalType dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5528c-102">tblPrincipalType in Lync Server 2013</span></span>
+# <a name="tblprincipaltype-in-lync-server-2013"></a><span data-ttu-id="d579f-102">tblPrincipalType dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d579f-102">tblPrincipalType in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42141970"
 
 <span> </span>
 
-<span data-ttu-id="5528c-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="5528c-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="d579f-103">_**Dernière modification de la rubrique :** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="d579f-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="5528c-104">La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="5528c-104">tblPrincipalType contains principal types to categorize what is in the tblPrincipal table.</span></span>
+<span data-ttu-id="d579f-104">La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="d579f-104">tblPrincipalType contains principal types to categorize what is in the tblPrincipal table.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="5528c-105">Columns</span><span class="sxs-lookup"><span data-stu-id="5528c-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="d579f-105">Columns</span><span class="sxs-lookup"><span data-stu-id="d579f-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "42141970"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5528c-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="5528c-106">Column</span></span></th>
-<th><span data-ttu-id="5528c-107">Type</span><span class="sxs-lookup"><span data-stu-id="5528c-107">Type</span></span></th>
-<th><span data-ttu-id="5528c-108">Description</span><span class="sxs-lookup"><span data-stu-id="5528c-108">Description</span></span></th>
+<th><span data-ttu-id="d579f-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="d579f-106">Column</span></span></th>
+<th><span data-ttu-id="d579f-107">Type</span><span class="sxs-lookup"><span data-stu-id="d579f-107">Type</span></span></th>
+<th><span data-ttu-id="d579f-108">Description</span><span class="sxs-lookup"><span data-stu-id="d579f-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-109">ptypeID</span><span class="sxs-lookup"><span data-stu-id="5528c-109">ptypeID</span></span></p></td>
-<td><p><span data-ttu-id="5528c-110">smallint, non null</span><span class="sxs-lookup"><span data-stu-id="5528c-110">smallint, not null</span></span></p></td>
-<td><p><span data-ttu-id="5528c-111">ID de type Principal.</span><span class="sxs-lookup"><span data-stu-id="5528c-111">Principal type ID.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-109">ptypeID</span><span class="sxs-lookup"><span data-stu-id="d579f-109">ptypeID</span></span></p></td>
+<td><p><span data-ttu-id="d579f-110">smallint, non null</span><span class="sxs-lookup"><span data-stu-id="d579f-110">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="d579f-111">ID de type Principal.</span><span class="sxs-lookup"><span data-stu-id="d579f-111">Principal type ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5528c-112">ptypeDesc</span><span class="sxs-lookup"><span data-stu-id="5528c-112">ptypeDesc</span></span></p></td>
-<td><p><span data-ttu-id="5528c-113">nvarchar (256), non null</span><span class="sxs-lookup"><span data-stu-id="5528c-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="5528c-114">Description du type.</span><span class="sxs-lookup"><span data-stu-id="5528c-114">Description of the type.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-112">ptypeDesc</span><span class="sxs-lookup"><span data-stu-id="d579f-112">ptypeDesc</span></span></p></td>
+<td><p><span data-ttu-id="d579f-113">nvarchar (256), non null</span><span class="sxs-lookup"><span data-stu-id="d579f-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="d579f-114">Description du type.</span><span class="sxs-lookup"><span data-stu-id="d579f-114">Description of the type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-115">ptypeIsSystemUser</span><span class="sxs-lookup"><span data-stu-id="5528c-115">ptypeIsSystemUser</span></span></p></td>
-<td><p><span data-ttu-id="5528c-116">bit, non null</span><span class="sxs-lookup"><span data-stu-id="5528c-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="5528c-117">Vrai si le type correspond aux principaux qui sont utilisés pour des fonctions internes.</span><span class="sxs-lookup"><span data-stu-id="5528c-117">True if the type corresponds to the principals that are used for internal purposes.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-115">ptypeIsSystemUser</span><span class="sxs-lookup"><span data-stu-id="d579f-115">ptypeIsSystemUser</span></span></p></td>
+<td><p><span data-ttu-id="d579f-116">bit, non null</span><span class="sxs-lookup"><span data-stu-id="d579f-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="d579f-117">Vrai si le type correspond aux principaux qui sont utilisés pour des fonctions internes.</span><span class="sxs-lookup"><span data-stu-id="d579f-117">True if the type corresponds to the principals that are used for internal purposes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5528c-118">ptypeIsUser</span><span class="sxs-lookup"><span data-stu-id="5528c-118">ptypeIsUser</span></span></p></td>
-<td><p><span data-ttu-id="5528c-119">bit, non null</span><span class="sxs-lookup"><span data-stu-id="5528c-119">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="5528c-120">Vrai si le type est un type utilisateur.</span><span class="sxs-lookup"><span data-stu-id="5528c-120">True if the type is a user type.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-118">ptypeIsUser</span><span class="sxs-lookup"><span data-stu-id="d579f-118">ptypeIsUser</span></span></p></td>
+<td><p><span data-ttu-id="d579f-119">bit, non null</span><span class="sxs-lookup"><span data-stu-id="d579f-119">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="d579f-120">Vrai si le type est un type utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d579f-120">True if the type is a user type.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="5528c-121">Clé</span><span class="sxs-lookup"><span data-stu-id="5528c-121">Key</span></span>
+### <a name="key"></a><span data-ttu-id="d579f-121">Clé</span><span class="sxs-lookup"><span data-stu-id="d579f-121">Key</span></span>
 
 <table>
 <colgroup>
@@ -88,20 +88,20 @@ ms.locfileid: "42141970"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5528c-122">Colonne</span><span class="sxs-lookup"><span data-stu-id="5528c-122">Column</span></span></th>
-<th><span data-ttu-id="5528c-123">Description</span><span class="sxs-lookup"><span data-stu-id="5528c-123">Description</span></span></th>
+<th><span data-ttu-id="d579f-122">Colonne</span><span class="sxs-lookup"><span data-stu-id="d579f-122">Column</span></span></th>
+<th><span data-ttu-id="d579f-123">Description</span><span class="sxs-lookup"><span data-stu-id="d579f-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-124">ptypeID</span><span class="sxs-lookup"><span data-stu-id="5528c-124">ptypeID</span></span></p></td>
-<td><p><span data-ttu-id="5528c-125">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="5528c-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-124">ptypeID</span><span class="sxs-lookup"><span data-stu-id="d579f-124">ptypeID</span></span></p></td>
+<td><p><span data-ttu-id="d579f-125">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="d579f-125">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="principal-values"></a><span data-ttu-id="5528c-126">Valeurs principales</span><span class="sxs-lookup"><span data-stu-id="5528c-126">Principal Values</span></span>
+### <a name="principal-values"></a><span data-ttu-id="d579f-126">Valeurs principales</span><span class="sxs-lookup"><span data-stu-id="d579f-126">Principal Values</span></span>
 
 <table>
 <colgroup>
@@ -112,59 +112,59 @@ ms.locfileid: "42141970"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5528c-127">ID</span><span class="sxs-lookup"><span data-stu-id="5528c-127">ID</span></span></th>
-<th><span data-ttu-id="5528c-128">Role</span><span class="sxs-lookup"><span data-stu-id="5528c-128">Role</span></span></th>
-<th><span data-ttu-id="5528c-129">Description</span><span class="sxs-lookup"><span data-stu-id="5528c-129">Description</span></span></th>
-<th><span data-ttu-id="5528c-130">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="5528c-130">User</span></span></th>
+<th><span data-ttu-id="d579f-127">ID</span><span class="sxs-lookup"><span data-stu-id="d579f-127">ID</span></span></th>
+<th><span data-ttu-id="d579f-128">Role</span><span class="sxs-lookup"><span data-stu-id="d579f-128">Role</span></span></th>
+<th><span data-ttu-id="d579f-129">Description</span><span class="sxs-lookup"><span data-stu-id="d579f-129">Description</span></span></th>
+<th><span data-ttu-id="d579f-130">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="d579f-130">User</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-131">0,1</span><span class="sxs-lookup"><span data-stu-id="5528c-131">1</span></span></p></td>
-<td><p><span data-ttu-id="5528c-132">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="5528c-132">Any</span></span></p></td>
-<td><p><span data-ttu-id="5528c-p101">Principal générique sans type connu. Inutilisé dans la table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="5528c-p101">Generic principal with no known type. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-131">0,1</span><span class="sxs-lookup"><span data-stu-id="d579f-131">1</span></span></p></td>
+<td><p><span data-ttu-id="d579f-132">N'importe lequel</span><span class="sxs-lookup"><span data-stu-id="d579f-132">Any</span></span></p></td>
+<td><p><span data-ttu-id="d579f-p101">Principal générique sans type connu. Inutilisé dans la table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="d579f-p101">Generic principal with no known type. Not used in tblPrincipal table.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5528c-135">n°2</span><span class="sxs-lookup"><span data-stu-id="5528c-135">2</span></span></p></td>
-<td><p><span data-ttu-id="5528c-136">AnyUser</span><span class="sxs-lookup"><span data-stu-id="5528c-136">AnyUser</span></span></p></td>
-<td><p><span data-ttu-id="5528c-p102">Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="5528c-p102">Generic principal of user type. Not used in tblPrincipal table.</span></span></p></td>
-<td><p><span data-ttu-id="5528c-139">Oui</span><span class="sxs-lookup"><span data-stu-id="5528c-139">Yes</span></span></p></td>
+<td><p><span data-ttu-id="d579f-135">n°2</span><span class="sxs-lookup"><span data-stu-id="d579f-135">2</span></span></p></td>
+<td><p><span data-ttu-id="d579f-136">AnyUser</span><span class="sxs-lookup"><span data-stu-id="d579f-136">AnyUser</span></span></p></td>
+<td><p><span data-ttu-id="d579f-p102">Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="d579f-p102">Generic principal of user type. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-139">Oui</span><span class="sxs-lookup"><span data-stu-id="d579f-139">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-140">3</span><span class="sxs-lookup"><span data-stu-id="5528c-140">3</span></span></p></td>
-<td><p><span data-ttu-id="5528c-141">AnyGroup</span><span class="sxs-lookup"><span data-stu-id="5528c-141">AnyGroup</span></span></p></td>
-<td><p><span data-ttu-id="5528c-p103">Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="5528c-p103">Generic principal with group semantic. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-140">3</span><span class="sxs-lookup"><span data-stu-id="d579f-140">3</span></span></p></td>
+<td><p><span data-ttu-id="d579f-141">AnyGroup</span><span class="sxs-lookup"><span data-stu-id="d579f-141">AnyGroup</span></span></p></td>
+<td><p><span data-ttu-id="d579f-p103">Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.</span><span class="sxs-lookup"><span data-stu-id="d579f-p103">Generic principal with group semantic. Not used in tblPrincipal table.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5528c-144">4</span><span class="sxs-lookup"><span data-stu-id="5528c-144">4</span></span></p></td>
-<td><p><span data-ttu-id="5528c-145">SystemUser</span><span class="sxs-lookup"><span data-stu-id="5528c-145">SystemUser</span></span></p></td>
-<td><p><span data-ttu-id="5528c-146">Principal utilisé en interne par le serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="5528c-146">Principal used internally by Persistent Chat Server.</span></span></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="5528c-147">disque</span><span class="sxs-lookup"><span data-stu-id="5528c-147">5</span></span></p></td>
-<td><p><span data-ttu-id="5528c-148">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="5528c-148">User</span></span></p></td>
-<td><p><span data-ttu-id="5528c-149">Utilisateur régulier.</span><span class="sxs-lookup"><span data-stu-id="5528c-149">Regular user.</span></span></p></td>
-<td><p><span data-ttu-id="5528c-150">Oui</span><span class="sxs-lookup"><span data-stu-id="5528c-150">Yes</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="5528c-151">8 </span><span class="sxs-lookup"><span data-stu-id="5528c-151">8</span></span></p></td>
-<td><p><span data-ttu-id="5528c-152">DC</span><span class="sxs-lookup"><span data-stu-id="5528c-152">DC</span></span></p></td>
-<td><p><span data-ttu-id="5528c-153">Contrôleur de domaine des services de domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5528c-153">Active Directory Domain Services domain controller.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-144">4</span><span class="sxs-lookup"><span data-stu-id="d579f-144">4</span></span></p></td>
+<td><p><span data-ttu-id="d579f-145">SystemUser</span><span class="sxs-lookup"><span data-stu-id="d579f-145">SystemUser</span></span></p></td>
+<td><p><span data-ttu-id="d579f-146">Principal utilisé en interne par le serveur de conversation permanente.</span><span class="sxs-lookup"><span data-stu-id="d579f-146">Principal used internally by Persistent Chat Server.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5528c-154">9 </span><span class="sxs-lookup"><span data-stu-id="5528c-154">9</span></span></p></td>
-<td><p><span data-ttu-id="5528c-155">Group</span><span class="sxs-lookup"><span data-stu-id="5528c-155">Group</span></span></p></td>
-<td><p><span data-ttu-id="5528c-156">Groupe de sécurité Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5528c-156">Active Directory security group.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-147">disque</span><span class="sxs-lookup"><span data-stu-id="d579f-147">5</span></span></p></td>
+<td><p><span data-ttu-id="d579f-148">Utilisateur</span><span class="sxs-lookup"><span data-stu-id="d579f-148">User</span></span></p></td>
+<td><p><span data-ttu-id="d579f-149">Utilisateur régulier.</span><span class="sxs-lookup"><span data-stu-id="d579f-149">Regular user.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-150">Oui</span><span class="sxs-lookup"><span data-stu-id="d579f-150">Yes</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="d579f-151">8 </span><span class="sxs-lookup"><span data-stu-id="d579f-151">8</span></span></p></td>
+<td><p><span data-ttu-id="d579f-152">DC</span><span class="sxs-lookup"><span data-stu-id="d579f-152">DC</span></span></p></td>
+<td><p><span data-ttu-id="d579f-153">Contrôleur de domaine des services de domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d579f-153">Active Directory Domain Services domain controller.</span></span></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="d579f-154">9 </span><span class="sxs-lookup"><span data-stu-id="d579f-154">9</span></span></p></td>
+<td><p><span data-ttu-id="d579f-155">Group</span><span class="sxs-lookup"><span data-stu-id="d579f-155">Group</span></span></p></td>
+<td><p><span data-ttu-id="d579f-156">Groupe de sécurité Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d579f-156">Active Directory security group.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5528c-157">10 </span><span class="sxs-lookup"><span data-stu-id="5528c-157">10</span></span></p></td>
-<td><p><span data-ttu-id="5528c-158">Folder</span><span class="sxs-lookup"><span data-stu-id="5528c-158">Folder</span></span></p></td>
-<td><p><span data-ttu-id="5528c-159">Conteneur ou unité d’organisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5528c-159">Active Directory container or organizational unit.</span></span></p></td>
+<td><p><span data-ttu-id="d579f-157">10 </span><span class="sxs-lookup"><span data-stu-id="d579f-157">10</span></span></p></td>
+<td><p><span data-ttu-id="d579f-158">Folder</span><span class="sxs-lookup"><span data-stu-id="d579f-158">Folder</span></span></p></td>
+<td><p><span data-ttu-id="d579f-159">Conteneur ou unité d’organisation Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d579f-159">Active Directory container or organizational unit.</span></span></p></td>
 <td></td>
 </tr>
 </tbody>
@@ -173,10 +173,10 @@ ms.locfileid: "42141970"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5528c-160">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5528c-160">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d579f-160">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d579f-160">See Also</span></span>
 
 
-[<span data-ttu-id="5528c-161">tblPrincipal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5528c-161">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)  
+[<span data-ttu-id="d579f-161">tblPrincipal dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d579f-161">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)  
   
 
 </div>

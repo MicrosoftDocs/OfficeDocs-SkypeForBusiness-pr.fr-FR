@@ -12,20 +12,20 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf4efc6be84cc2c0ea9a93e300a77f4e8b6b1de
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b8e02c81b19943baaf33ba3bb401f4810d053703
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140357"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a><span data-ttu-id="eafb4-102">Configurer Enhanced 9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-102">Configure Enhanced 9-1-1 in Lync Server 2013</span></span>
+# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a><span data-ttu-id="8ecaa-102">Configurer Enhanced 9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-102">Configure Enhanced 9-1-1 in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42140357"
 
 <span> </span>
 
-<span data-ttu-id="eafb4-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="eafb4-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="8ecaa-103">_**Dernière modification de la rubrique :** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="8ecaa-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="eafb4-p101">Enhanced 9-1-1 (E9-1-1) est une fonctionnalité de notification d’urgence qui associe le numéro de téléphone de l’appelant à une adresse géographique ou postale. Au moyen de ces informations, le centre d’appels de la sécurité publique (PSAP) peut immédiatement contacter les services d’urgence et les dépêcher sur place pour porter secours à l’appelant.</span><span class="sxs-lookup"><span data-stu-id="eafb4-p101">Enhanced 9-1-1 (E9-1-1) is an emergency notification feature that associates the calling party’s telephone number with a civic or a street address. Using this information, the Public Safety Answering Point (PSAP) can immediately dispatch emergency services to the caller in distress.</span></span>
+<span data-ttu-id="8ecaa-p101">Enhanced 9-1-1 (E9-1-1) est une fonctionnalité de notification d’urgence qui associe le numéro de téléphone de l’appelant à une adresse géographique ou postale. Au moyen de ces informations, le centre d’appels de la sécurité publique (PSAP) peut immédiatement contacter les services d’urgence et les dépêcher sur place pour porter secours à l’appelant.</span><span class="sxs-lookup"><span data-stu-id="8ecaa-p101">Enhanced 9-1-1 (E9-1-1) is an emergency notification feature that associates the calling party’s telephone number with a civic or a street address. Using this information, the Public Safety Answering Point (PSAP) can immediately dispatch emergency services to the caller in distress.</span></span>
 
-<span data-ttu-id="eafb4-106">Pour prendre en charge E9-1-1, Lync Server 2013 doit être en mesure d’associer correctement un emplacement à un client et de s’assurer que ces informations sont utilisées pour acheminer l’appel d’urgence vers le PSAPI le plus proche.</span><span class="sxs-lookup"><span data-stu-id="eafb4-106">To support E9-1-1, Lync Server 2013 must be able to correctly associate a location with a client and to make sure that this information is used to route the emergency call to the nearest PSAP.</span></span>
+<span data-ttu-id="8ecaa-106">Pour prendre en charge E9-1-1, Lync Server 2013 doit être en mesure d’associer correctement un emplacement à un client et de s’assurer que ces informations sont utilisées pour acheminer l’appel d’urgence vers le PSAPI le plus proche.</span><span class="sxs-lookup"><span data-stu-id="8ecaa-106">To support E9-1-1, Lync Server 2013 must be able to correctly associate a location with a client and to make sure that this information is used to route the emergency call to the nearest PSAP.</span></span>
 
-<span data-ttu-id="eafb4-107">Pour plus d’informations sur la planification d’un déploiement E9-1-1, reportez-vous à la rubrique [Planning for Emergency Services (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span><span class="sxs-lookup"><span data-stu-id="eafb4-107">For details about planning for an E9-1-1 deployment, see [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span>
+<span data-ttu-id="8ecaa-107">Pour plus d’informations sur la planification d’un déploiement E9-1-1, reportez-vous à la rubrique [Planning for Emergency Services (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span><span class="sxs-lookup"><span data-stu-id="8ecaa-107">For details about planning for an E9-1-1 deployment, see [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="eafb4-108">Lync Server 2013 prend uniquement en charge E9-1-1 aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="eafb4-108">Lync Server 2013 only supports E9-1-1 within the United States.</span></span> <span data-ttu-id="eafb4-109">Pour déployer E9-1-1, vous devez configurer une connexion SIP à un fournisseur de services E9-1-1 certifié, ou déployer une passerelle ELIN (Emergency Location Identification Number) vers un fournisseur de services E9-1-1 basé sur le réseau téléphonique commuté (RTC).</span><span class="sxs-lookup"><span data-stu-id="eafb4-109">To deploy E9-1-1, you need to configure a SIP connection to a qualified E9-1-1 service provider, or deploy an emergency location identification number (ELIN) gateway to a public switched telephone (PSTN)-based E9-1-1 service provider.</span></span> <span data-ttu-id="eafb4-110">Pour plus d’informations, voir <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">enhanced 9-1-1 (E9-1-1) et serveur de médiation dans Lync server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="eafb4-110">For details, see <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</A>.</span></span> <span data-ttu-id="eafb4-111">Pour plus d’informations sur la configuration des connexions de jonction, voir <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configure a trunk with Media Bypass in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="eafb4-111">For details about configuring trunk connections, see <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configure a trunk with media bypass in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="8ecaa-108">Lync Server 2013 prend uniquement en charge E9-1-1 aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="8ecaa-108">Lync Server 2013 only supports E9-1-1 within the United States.</span></span> <span data-ttu-id="8ecaa-109">Pour déployer E9-1-1, vous devez configurer une connexion SIP à un fournisseur de services E9-1-1 certifié, ou déployer une passerelle ELIN (Emergency Location Identification Number) vers un fournisseur de services E9-1-1 basé sur le réseau téléphonique commuté (RTC).</span><span class="sxs-lookup"><span data-stu-id="8ecaa-109">To deploy E9-1-1, you need to configure a SIP connection to a qualified E9-1-1 service provider, or deploy an emergency location identification number (ELIN) gateway to a public switched telephone (PSTN)-based E9-1-1 service provider.</span></span> <span data-ttu-id="8ecaa-110">Pour plus d’informations, voir <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">enhanced 9-1-1 (E9-1-1) et serveur de médiation dans Lync server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8ecaa-110">For details, see <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</A>.</span></span> <span data-ttu-id="8ecaa-111">Pour plus d’informations sur la configuration des connexions de jonction, voir <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configure a trunk with Media Bypass in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8ecaa-111">For details about configuring trunk connections, see <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Configure a trunk with media bypass in Lync Server 2013</A>.</span></span>
 
 
 
@@ -55,17 +55,17 @@ ms.locfileid: "42140357"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="eafb4-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="eafb4-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8ecaa-112">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8ecaa-112">In This Section</span></span>
 
-  - [<span data-ttu-id="eafb4-113">Configuration d’un itinéraire des communications vocales E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-113">Configure an E9-1-1 voice route in Lync Server 2013</span></span>](lync-server-2013-configure-an-e9-1-1-voice-route.md)
+  - [<span data-ttu-id="8ecaa-113">Configuration d’un itinéraire des communications vocales E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-113">Configure an E9-1-1 voice route in Lync Server 2013</span></span>](lync-server-2013-configure-an-e9-1-1-voice-route.md)
 
-  - [<span data-ttu-id="eafb4-114">Créer des stratégies d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-114">Create location policies in Lync Server 2013</span></span>](lync-server-2013-create-location-policies.md)
+  - [<span data-ttu-id="8ecaa-114">Créer des stratégies d’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-114">Create location policies in Lync Server 2013</span></span>](lync-server-2013-create-location-policies.md)
 
-  - [<span data-ttu-id="eafb4-115">Configurer les informations de site pour E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-115">Configure site information for E9-1-1 in Lync Server 2013</span></span>](lync-server-2013-configure-site-information-for-e9-1-1.md)
+  - [<span data-ttu-id="8ecaa-115">Configurer les informations de site pour E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-115">Configure site information for E9-1-1 in Lync Server 2013</span></span>](lync-server-2013-configure-site-information-for-e9-1-1.md)
 
-  - [<span data-ttu-id="eafb4-116">Configuration de la base de données d’emplacements dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-116">Configure the location database in Lync Server 2013</span></span>](lync-server-2013-configure-the-location-database.md)
+  - [<span data-ttu-id="8ecaa-116">Configuration de la base de données d’emplacements dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-116">Configure the location database in Lync Server 2013</span></span>](lync-server-2013-configure-the-location-database.md)
 
-  - [<span data-ttu-id="eafb4-117">Configurer les fonctionnalités avancées d’E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eafb4-117">Configure advanced E9-1-1 features in Lync Server 2013</span></span>](lync-server-2013-configure-advanced-e9-1-1-features.md)
+  - [<span data-ttu-id="8ecaa-117">Configurer les fonctionnalités avancées d’E9-1-1 dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ecaa-117">Configure advanced E9-1-1 features in Lync Server 2013</span></span>](lync-server-2013-configure-advanced-e9-1-1-features.md)
 
 </div>
 

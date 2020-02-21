@@ -12,20 +12,20 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8c6620c5ae20331ac805cf8d65c1aa0683e5fbdb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145953"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="43fa9-102">Recherche des mises à jour apportées par Best Practices Analyzer dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="43fa9-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="29db3-102">Recherche des mises à jour apportées par Best Practices Analyzer dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29db3-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42145953"
 
 <span> </span>
 
-<span data-ttu-id="43fa9-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="43fa9-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="29db3-103">_**Dernière modification de la rubrique :** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="29db3-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="43fa9-104">Lorsque vous démarrez Best Practices Analyzer, l’outil vous offre la possibilité de rechercher les dernières mises à jour de l’outil.</span><span class="sxs-lookup"><span data-stu-id="43fa9-104">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool.</span></span> <span data-ttu-id="43fa9-105">Si une mise à jour est disponible, vous pouvez télécharger la mise à jour.</span><span class="sxs-lookup"><span data-stu-id="43fa9-105">If an update is available, you can download the update.</span></span> <span data-ttu-id="43fa9-106">Si vous choisissez de ne pas télécharger les mises à jour, ou si Best Practices Analyzer ne peut pas accéder à Internet, vous pouvez continuer à utiliser la version qui se trouve déjà sur l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="43fa9-106">If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
+<span data-ttu-id="29db3-104">Lorsque vous démarrez Best Practices Analyzer, l’outil vous offre la possibilité de rechercher les dernières mises à jour de l’outil.</span><span class="sxs-lookup"><span data-stu-id="29db3-104">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool.</span></span> <span data-ttu-id="29db3-105">Si une mise à jour est disponible, vous pouvez télécharger la mise à jour.</span><span class="sxs-lookup"><span data-stu-id="29db3-105">If an update is available, you can download the update.</span></span> <span data-ttu-id="29db3-106">Si vous choisissez de ne pas télécharger les mises à jour, ou si Best Practices Analyzer ne peut pas accéder à Internet, vous pouvez continuer à utiliser la version qui se trouve déjà sur l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="29db3-106">If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="43fa9-107">Si vous avez besoin d’une authentification proxy pour accéder à Internet, Best Practices Analyzer ne peut pas accéder aux nouvelles mises à jour pour que vous les téléchargiez.</span><span class="sxs-lookup"><span data-stu-id="43fa9-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="43fa9-108">Toutefois, vous pouvez télécharger manuellement la dernière version d’RtcBPA. msi à partir du centre de téléchargement <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>Microsoft à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="43fa9-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="43fa9-109">Après avoir téléchargé le fichier, vous pouvez le copier sur l’ordinateur sur lequel vous souhaitez mettre à jour Best Practices Analyzer et utiliser le fichier. msi pour installer la nouvelle version de l’outil sur cet ordinateur.</span><span class="sxs-lookup"><span data-stu-id="43fa9-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
+> <span data-ttu-id="29db3-107">Si vous avez besoin d’une authentification proxy pour accéder à Internet, Best Practices Analyzer ne peut pas accéder aux nouvelles mises à jour pour que vous les téléchargiez.</span><span class="sxs-lookup"><span data-stu-id="29db3-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="29db3-108">Toutefois, vous pouvez télécharger manuellement la dernière version d’RtcBPA. msi à partir du centre de téléchargement <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>Microsoft à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="29db3-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="29db3-109">Après avoir téléchargé le fichier, vous pouvez le copier sur l’ordinateur sur lequel vous souhaitez mettre à jour Best Practices Analyzer et utiliser le fichier. msi pour installer la nouvelle version de l’outil sur cet ordinateur.</span><span class="sxs-lookup"><span data-stu-id="29db3-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="43fa9-110">Pour mettre à jour les règles de Best Practice Analyzer, vous devez exécuter l’outil en tant qu’administrateur sur l’ordinateur local.</span><span class="sxs-lookup"><span data-stu-id="43fa9-110">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer.</span></span> <span data-ttu-id="43fa9-111">Si vous n’avez pas ouvert de session à l’aide d’un compte membre du groupe administrateurs et que des mises à jour sont détectées, fermez Best Practices Analyzer, puis utilisez la procédure suivante pour démarrer le programme.</span><span class="sxs-lookup"><span data-stu-id="43fa9-111">If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
+<span data-ttu-id="29db3-110">Pour mettre à jour les règles de Best Practice Analyzer, vous devez exécuter l’outil en tant qu’administrateur sur l’ordinateur local.</span><span class="sxs-lookup"><span data-stu-id="29db3-110">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer.</span></span> <span data-ttu-id="29db3-111">Si vous n’avez pas ouvert de session à l’aide d’un compte membre du groupe administrateurs et que des mises à jour sont détectées, fermez Best Practices Analyzer, puis utilisez la procédure suivante pour démarrer le programme.</span><span class="sxs-lookup"><span data-stu-id="29db3-111">If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
 
 <div>
 
-## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="43fa9-112">Pour ouvrir Best Practices Analyzer en tant qu’administrateur pour vérifier les mises à jour</span><span class="sxs-lookup"><span data-stu-id="43fa9-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="29db3-112">Pour ouvrir Best Practices Analyzer en tant qu’administrateur pour vérifier les mises à jour</span><span class="sxs-lookup"><span data-stu-id="29db3-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
 
-1.  <span data-ttu-id="43fa9-113">Sur un ordinateur sur lequel Best Practices Analyzer est installé, cliquez sur **Démarrer**, pointez sur **Microsoft Lync Server 2013**, cliquez avec le bouton droit sur **Best Practices Analyzer**, puis cliquez sur **exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="43fa9-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
+1.  <span data-ttu-id="29db3-113">Sur un ordinateur sur lequel Best Practices Analyzer est installé, cliquez sur **Démarrer**, pointez sur **Microsoft Lync Server 2013**, cliquez avec le bouton droit sur **Best Practices Analyzer**, puis cliquez sur **exécuter en tant qu’administrateur**.</span><span class="sxs-lookup"><span data-stu-id="29db3-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
 
-2.  <span data-ttu-id="43fa9-114">Spécifiez les informations d’identification d’un compte membre du groupe administrateurs.</span><span class="sxs-lookup"><span data-stu-id="43fa9-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
+2.  <span data-ttu-id="29db3-114">Spécifiez les informations d’identification d’un compte membre du groupe administrateurs.</span><span class="sxs-lookup"><span data-stu-id="29db3-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
 
 </div>
 

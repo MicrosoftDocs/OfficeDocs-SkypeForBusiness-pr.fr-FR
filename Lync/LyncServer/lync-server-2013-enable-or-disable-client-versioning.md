@@ -12,20 +12,20 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63d09d563abb44884b1248974ea188dc142e1b95
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c575a861644c27a0dba93790667ece9b973211e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137733"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a><span data-ttu-id="768a3-102">Activer ou désactiver le contrôle de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="768a3-102">Enable or disable client versioning in Lync Server 2013</span></span>
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a><span data-ttu-id="a2c7b-102">Activer ou désactiver le contrôle de version du client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2c7b-102">Enable or disable client versioning in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42137733"
 
 <span> </span>
 
-<span data-ttu-id="768a3-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="768a3-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="a2c7b-103">_**Dernière modification de la rubrique :** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a2c7b-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="768a3-104">Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, soit globalement, soit pour des sites particuliers.</span><span class="sxs-lookup"><span data-stu-id="768a3-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="768a3-105">La configuration de la version du client global s’installe avec Lync Server 2013 et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur.</span><span class="sxs-lookup"><span data-stu-id="768a3-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="768a3-106">Lorsque la configuration globale est activée, toutes les stratégies de version du client en place prendront effet lorsque les utilisateurs tenteront de se connecter.</span><span class="sxs-lookup"><span data-stu-id="768a3-106">When the global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="768a3-107">Vous pouvez désactiver la configuration de version du client globale si vous ne souhaitez pas que le contrôle de version du client se produise.</span><span class="sxs-lookup"><span data-stu-id="768a3-107">You can disable the global client version configuration if you do not want any client version control to occur.</span></span> <span data-ttu-id="768a3-108">Vous pouvez activer ou désactiver le contrôle de version du client à partir du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.</span><span class="sxs-lookup"><span data-stu-id="768a3-108">You can enable or disable client versioning from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="a2c7b-104">Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, soit globalement, soit pour des sites particuliers.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-104">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span> <span data-ttu-id="a2c7b-105">La configuration de la version du client global s’installe avec Lync Server 2013 et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="a2c7b-106">Lorsque la configuration globale est activée, toutes les stratégies de version du client en place prendront effet lorsque les utilisateurs tenteront de se connecter.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-106">When the global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="a2c7b-107">Vous pouvez désactiver la configuration de version du client globale si vous ne souhaitez pas que le contrôle de version du client se produise.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-107">You can disable the global client version configuration if you do not want any client version control to occur.</span></span> <span data-ttu-id="a2c7b-108">Vous pouvez activer ou désactiver le contrôle de version du client à partir du panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-108">You can enable or disable client versioning from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="768a3-109">Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</span><span class="sxs-lookup"><span data-stu-id="768a3-109">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="a2c7b-109">Comme ils ne sont pas associés à un utilisateur, un site ou un service spécifiques, les utilisateurs anonymes sont uniquement affectés par les stratégies globales.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-109">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
@@ -51,49 +51,49 @@ ms.locfileid: "42137733"
 
 <div>
 
-## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a><span data-ttu-id="768a3-110">Pour activer ou désactiver le contrôle de version du client à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="768a3-110">To enable or disable client versioning by using Lync Server Control Panel</span></span>
+## <a name="to-enable-or-disable-client-versioning-by-using-lync-server-control-panel"></a><span data-ttu-id="a2c7b-110">Pour activer ou désactiver le contrôle de version du client à l’aide du panneau de configuration Lync Server</span><span class="sxs-lookup"><span data-stu-id="a2c7b-110">To enable or disable client versioning by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="768a3-111">Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="768a3-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="a2c7b-111">Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="768a3-112">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="768a3-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="768a3-113">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="768a3-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="a2c7b-112">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a2c7b-113">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Lync Server, voir [Open Lync server 2013 administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a2c7b-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="768a3-114">Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .</span><span class="sxs-lookup"><span data-stu-id="768a3-114">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="a2c7b-114">Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de la **version du client** .</span><span class="sxs-lookup"><span data-stu-id="a2c7b-114">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="768a3-115">Procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="768a3-115">Do the following:</span></span>
+4.  <span data-ttu-id="a2c7b-115">Procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="a2c7b-115">Do the following:</span></span>
     
-      - <span data-ttu-id="768a3-116">Pour activer ou désactiver globalement le contrôle de version du client, double-cliquez sur la configuration **globale** , puis modifiez les paramètres.</span><span class="sxs-lookup"><span data-stu-id="768a3-116">To globally enable or disable client versioning, double-click the **Global** configuration, and then modify the settings.</span></span>
+      - <span data-ttu-id="a2c7b-116">Pour activer ou désactiver globalement le contrôle de version du client, double-cliquez sur la configuration **globale** , puis modifiez les paramètres.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-116">To globally enable or disable client versioning, double-click the **Global** configuration, and then modify the settings.</span></span>
     
-      - <span data-ttu-id="768a3-117">Pour activer ou désactiver le contrôle de version du client pour un site particulier, cliquez sur **nouveau**, sélectionnez le site, cliquez sur **OK**, puis modifiez les paramètres du site.</span><span class="sxs-lookup"><span data-stu-id="768a3-117">To enable or disable client versioning for a particular site, click **New**, select the site, click **OK**, and then modify the settings for the site.</span></span>
+      - <span data-ttu-id="a2c7b-117">Pour activer ou désactiver le contrôle de version du client pour un site particulier, cliquez sur **nouveau**, sélectionnez le site, cliquez sur **OK**, puis modifiez les paramètres du site.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-117">To enable or disable client versioning for a particular site, click **New**, select the site, click **OK**, and then modify the settings for the site.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="768a3-118">Activation ou désactivation du contrôle de version du client à l’aide des applets de commande Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="768a3-118">Enabling or Disabling Client Versioning by Using Windows PowerShell Cmdlets</span></span>
+## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a2c7b-118">Activation ou désactivation du contrôle de version du client à l’aide des applets de commande Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a2c7b-118">Enabling or Disabling Client Versioning by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="768a3-119">Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de la cmdlet **Set-CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="768a3-119">You can enable or disable client versioning by using the **Set-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="768a3-120">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="768a3-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="768a3-121">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="768a3-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
-
-<div>
-
-## <a name="to-enable-client-versioning"></a><span data-ttu-id="768a3-122">Pour activer le contrôle de version du client</span><span class="sxs-lookup"><span data-stu-id="768a3-122">To enable client versioning</span></span>
-
-  - <span data-ttu-id="768a3-123">Vous pouvez activer le contrôle de version du client en affectant à la propriété **Enabled** la valeur True ($true).</span><span class="sxs-lookup"><span data-stu-id="768a3-123">You can enable client versioning by setting the **Enabled** property to True ($True).</span></span>
-    
-        Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
-
-</div>
+<span data-ttu-id="a2c7b-119">Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de la cmdlet **Set-CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="a2c7b-119">You can enable or disable client versioning by using the **Set-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="a2c7b-120">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a2c7b-121">Pour plus d’informations sur l’utilisation de Windows PowerShell à distance pour se connecter à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Quick Start : Managing Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 Using Remote PowerShell » (en anglais) à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="a2c7b-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-disable-client-versioning"></a><span data-ttu-id="768a3-124">Pour désactiver le contrôle de version du client</span><span class="sxs-lookup"><span data-stu-id="768a3-124">To disable client versioning</span></span>
+## <a name="to-enable-client-versioning"></a><span data-ttu-id="a2c7b-122">Pour activer le contrôle de version du client</span><span class="sxs-lookup"><span data-stu-id="a2c7b-122">To enable client versioning</span></span>
 
-  - <span data-ttu-id="768a3-125">Vous pouvez désactiver le contrôle de version du client en affectant à la propriété **Enabled** la valeur false ($false).</span><span class="sxs-lookup"><span data-stu-id="768a3-125">You can disable client versioning by setting the **Enabled** property to False ($False).</span></span>
+  - <span data-ttu-id="a2c7b-123">Vous pouvez activer le contrôle de version du client en affectant à la propriété **Enabled** la valeur True ($true).</span><span class="sxs-lookup"><span data-stu-id="a2c7b-123">You can enable client versioning by setting the **Enabled** property to True ($True).</span></span>
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
 </div>
 
-<span data-ttu-id="768a3-126">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="768a3-126">For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.</span></span>
+<div>
+
+## <a name="to-disable-client-versioning"></a><span data-ttu-id="a2c7b-124">Pour désactiver le contrôle de version du client</span><span class="sxs-lookup"><span data-stu-id="a2c7b-124">To disable client versioning</span></span>
+
+  - <span data-ttu-id="a2c7b-125">Vous pouvez désactiver le contrôle de version du client en affectant à la propriété **Enabled** la valeur false ($false).</span><span class="sxs-lookup"><span data-stu-id="a2c7b-125">You can disable client versioning by setting the **Enabled** property to False ($False).</span></span>
+    
+        Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
+
+</div>
+
+<span data-ttu-id="a2c7b-126">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de commande [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="a2c7b-126">For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.</span></span>
 
 </div>
 

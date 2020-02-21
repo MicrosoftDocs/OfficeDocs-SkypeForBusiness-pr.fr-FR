@@ -12,20 +12,20 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4fbea950a9a69076d7f3dba17d6c366d1facf5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b925526580ac347fe3682135409da3651ae06d1b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146307"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-tools"></a><span data-ttu-id="1be63-102">Outils Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1be63-102">Lync Server 2013 Tools</span></span>
+# <a name="lync-server-2013-tools"></a><span data-ttu-id="1cf53-102">Outils Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cf53-102">Lync Server 2013 Tools</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146307"
 
 <span> </span>
 
-<span data-ttu-id="1be63-103">_**Dernière modification de la rubrique :** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="1be63-103">_**Topic Last Modified:** 2013-03-14_</span></span>
+<span data-ttu-id="1cf53-103">_**Dernière modification de la rubrique :** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="1cf53-103">_**Topic Last Modified:** 2013-03-14_</span></span>
 
-<span data-ttu-id="1be63-104">Les outils suivants sont disponibles pour Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="1be63-104">The following tools are available for Lync Server 2013:</span></span>
+<span data-ttu-id="1cf53-104">Les outils suivants sont disponibles pour Lync Server 2013 :</span><span class="sxs-lookup"><span data-stu-id="1cf53-104">The following tools are available for Lync Server 2013:</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1be63-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="1be63-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1cf53-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="1cf53-105">In This Section</span></span>
 
-[<span data-ttu-id="1be63-106">Outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1be63-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
+[<span data-ttu-id="1cf53-106">Outil de contrainte et de performances de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cf53-106">Lync Server 2013 Stress and Performance Tool</span></span>](lync-server-2013-stress-and-performance-tool.md)
 
-[<span data-ttu-id="1be63-107">Documentation sur les outils du kit de ressources Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1be63-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
+[<span data-ttu-id="1cf53-107">Documentation sur les outils du kit de ressources Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cf53-107">Lync Server 2013 Resource Kit Tools Documentation</span></span>](lync-server-2013-resource-kit-tools-documentation.md)
 
-[<span data-ttu-id="1be63-108">Outils du kit de ressources de conversation permanente Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1be63-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
+[<span data-ttu-id="1cf53-108">Outils du kit de ressources de conversation permanente Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cf53-108">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>](lync-server-2013-persistent-chat-resource-kit-tools.md)
 
 </div>
 
