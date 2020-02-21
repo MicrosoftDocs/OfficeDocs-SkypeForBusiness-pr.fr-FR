@@ -12,16 +12,16 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0476b90659ced152a4d24fbb3890ac224bdf0d91
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147997"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -53,7 +53,7 @@ Les applets de commande de création de rapports disponibles pour les administra
 
 La plupart des administrateurs utilisent les rapports disponibles dans le centre d’administration 365 de Microsoft : non seulement les rapports sont générés automatiquement, mais ils fournissent également une représentation graphique des données souvent plus facile à interpréter que les valeurs numériques brutes renvoyées par le applets de commande de création de rapports. Toutefois, les administrateurs habitués à Windows PowerShell peuvent utiliser les applets de commande de création de rapports pour renvoyer des données qui ne sont pas immédiatement disponibles à partir des rapports Lync Online. Par exemple, les applets de commande de création de rapports renvoient des informations sur la durée de la session (la durée, en minutes, de chaque session). Les durées de session individuelles ne sont pas disponibles à l’aide des rapports Lync Online. De même, dans l’affichage quotidien, les rapports Lync Online affichent des informations uniquement pour les 14 jours précédents. Si vous souhaitez passer en revue les totaux quotidiens pour un autre jour (par exemple, une date comprise entre quatre mois), vous pouvez le faire à l’aide des applets de commande de création de rapports.
 
-Les administrateurs peuvent également être intéressés par l’article [utilisant Excel pour récupérer des données de création de rapports office 365](http://msdn.microsoft.com/library/dn781442.aspx), qui expliquent comment utiliser la fonctionnalité requête de données OData dans Microsoft Excel pour créer des rapports Office 365 personnalisés. Les rapports personnalisés vous permettent de déterminer les données (et la capacité de données) renvoyées par le service de création de rapports Office 365. Les rapports personnalisés vous permettent également d’effectuer des opérations telles que la spécification du mode de tri et de regroupement des données, ainsi que l’accès aux informations qui ne sont pas affichées dans le centre d’administration.
+Les administrateurs peuvent également être intéressés par l’article [utilisant Excel pour récupérer des données de création de rapports office 365](https://msdn.microsoft.com/library/dn781442.aspx), qui expliquent comment utiliser la fonctionnalité requête de données OData dans Microsoft Excel pour créer des rapports Office 365 personnalisés. Les rapports personnalisés vous permettent de déterminer les données (et la capacité de données) renvoyées par le service de création de rapports Office 365. Les rapports personnalisés vous permettent également d’effectuer des opérations telles que la spécification du mode de tri et de regroupement des données, ainsi que l’accès aux informations qui ne sont pas affichées dans le centre d’administration.
 
 Les administrateurs disposant d’un arrière-plan de développement peuvent utiliser le service Web REST pour obtenir des informations non affichées dans le centre d’administration de Skype entreprise online. Le service REST est similaire au service SOAP, car chaque technologie offre un moyen de transférer des données XML entre un client et un serveur. Toutefois, le service REST présente au moins deux avantages par rapport au service SOAP. Pour un, REST effectue des transferts de données XML à l’aide d’un format standardisé connu sous le nom de syndication ATOM. En revanche, SOAP utilise un format non standard lors du transfert de données. De plus, REST est capable de transférer des données entre des réseaux qui bloquent les verbes HTTP autres que GET et POST.
 
@@ -65,10 +65,10 @@ Les administrateurs disposant d’un arrière-plan de développement peuvent uti
 [Création de rapports Lync Online](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  
 
 
-[Service Web de création de rapports Office 365](http://msdn.microsoft.com/library/office/jj984325.aspx)  
-[En savoir plus sur le service Web de création de rapports Office 365](http://msdn.microsoft.com/library/office/jj984321.aspx)  
+[Service Web de création de rapports Office 365](https://msdn.microsoft.com/library/office/jj984325.aspx)  
+[En savoir plus sur le service Web de création de rapports Office 365](https://msdn.microsoft.com/library/office/jj984321.aspx)  
 [Applets de commande de création de rapports Exchange Online](https://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
-[Utilisation d'Excel pour récupérer des données de création de rapports Office 365](http://msdn.microsoft.com/library/dn781442.aspx)  
+[Utilisation d'Excel pour récupérer des données de création de rapports Office 365](https://msdn.microsoft.com/library/dn781442.aspx)  
   
 
 </div>
