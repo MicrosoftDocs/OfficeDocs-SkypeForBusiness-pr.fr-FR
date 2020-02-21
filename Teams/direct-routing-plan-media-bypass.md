@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835974"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214484"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -317,28 +317,28 @@ Le tableau suivant indique la portée de port des processeurs multimédias (appl
 UDP/SRTP | Processeur de média | SBC | 49 152 – 53 247    | Définie sur l’SBC |
 | UDP/SRTP | SBC | Processeur de média | Définie sur l’SBC | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Remarques Si vous avez des téléphones Skype entreprise sur votre réseau  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurer des Trunks séparés pour le contournement du contenu multimédia et l’exclusion de médias non multimédias  
 
-Si vous avez des points de terminaison Skype entreprise dans votre réseau qui utilisent le routage direct (par exemple, un utilisateur de teams peut avoir un téléphone 3PIP basé sur le client Skype entreprise), la dérivation multimédia sur le Trunk qui dessert ces utilisateurs doit être désactivée.
-
-Vous pouvez créer un Trunk distinct pour ces utilisateurs et leur attribuer une stratégie de routage vocale en ligne.
+Si vous effectuez une migration vers une dérivation multimédia à partir d’une dérivation non multimédia et que vous voulez vérifier la fonctionnalité avant de migrer toute utilisation en dérivation de média, vous pouvez créer une stratégie de routage en ligne distincte et séparée pour diriger vers le Trunk de contournement du média et l’affecter à des éléments spécifiques. ont. 
 
 Étapes de configuration de haut niveau :
 
-- Fractionnez les utilisateurs par type, selon que l’utilisateur a ou non un téléphone 3PIP.
+- Identifiez les utilisateurs pour tester le contournement du contenu multimédia.
 
 - Créez deux Trunks distinctes avec différents noms de domaine complets : l’un est activé pour la dérivation multimédia ; l’autre non. 
 
   Les deux Trunks pointent vers le même SBC. Les ports pour le signalement SIP TLS doivent être différents. Les ports pour le média doivent être identiques.
 
-- Attribuez le Trunk approprié en fonction du type d’utilisateur dans la politique de routage de la voix en ligne.
+- Créez une nouvelle stratégie de routage de la voix en ligne et attribuez la ligne de contournement du support multimédia aux itinéraires correspondants associés à l’utilisation RTC de cette stratégie.
+
+- Affectez la nouvelle stratégie de routage vocale en ligne aux utilisateurs que vous avez identifiés pour tester le contournement du contenu multimédia.
 
 L’exemple ci-dessous illustre cette logique.
 
 | Ensemble d’utilisateurs | Nombre d’utilisateurs | Nom de domaine complet du Trunk affecté dans OVRP | Contournement de média activé |
 | :------------ |:----------------- |:--------------|:--------------|
-Utilisateurs avec des clients équipes et des téléphones 3PIP | CX3-20 | sbc1.contoso.com:5061 | false | 
-Utilisateurs avec uniquement les points de terminaison équipes (y compris les nouveaux téléphones certifiés pour Teams) | 980 | sbc2.contoso.com:5060 | true
+Utilisateurs dotés d’une ligne de contournement non multimédia | 980 | sbc1.contoso.com:5060 | true
+Utilisateurs avec relais multimédia | CX3-20 | sbc2.contoso.com:5061 | false | 
 
 Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publique. Les ports de signalisation TLS de l’SBC doivent être différents, comme indiqué dans le schéma suivant. Remarque vous devrez vous assurer que votre certificat prend en charge les deux Trunks. Dans SAN, vous devez avoir deux noms (**sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
@@ -354,9 +354,9 @@ Pour plus d’informations sur la configuration de deux lignes sur le même SBC,
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Points de terminaison client pris en charge avec l’exclusion de média
 
-La dérivation de média est prise en charge avec tous les points de terminaison Teams.
+La dérivation de média est prise en charge par tous les clients teams et les appareils de bureau Teams. 
 
-Remarque pour les clients Web (teams Web App dans Microsoft Edge, Google Chrome ou Mozilla Firefox), l’appel est soumis à un contournement, même s’il a commencé en tant qu’appel de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. 
+Pour tous les autres points de terminaison qui ne prennent pas en charge la dérivation multimédia, nous allons aborder l’appel sans contournement, même s’il a démarré en tant qu’appel de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. Cela inclut les téléphones 3PIP Skype entreprise et les clients Web teams qui prennent en charge l’appel de routage direct (nouveau Microsoft Edge basé sur chrome, Google Chrome et Mozilla Firefox). 
  
 ## <a name="see-also"></a>Voir aussi
 

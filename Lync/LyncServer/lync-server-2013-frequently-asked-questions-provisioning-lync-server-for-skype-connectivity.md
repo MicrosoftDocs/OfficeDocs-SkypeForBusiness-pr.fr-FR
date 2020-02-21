@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136992"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ Une fois que cette modification a lieu, nous ne pourrons plus fournir de mises �
 
 2.  Patientez jusqu’à ce que vous voyez confirmation que votre domaine a été mis en service par Microsoft.
 
-3.  Une fois que vous avez affiché la confirmation, utilisez le centre d’administration Lync pour activer les communications externes. Pour plus d’informations, consultez la rubrique[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  Une fois que vous avez affiché la confirmation, utilisez le centre d’administration Lync pour activer les communications externes. Pour plus d’informations, consultez la rubrique[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Cette commande est importante.Vous devez configurer la connectivité locale avant d’activer les communications dans Lync Online. Si la commande est contrepassée, les informations entrées pour le local dans <https://pic.lync.com> ne seront pas transmises. Si vous avez déjà configuré Lync Online pour les communications externes avec ce domaine, vous devez le désactiver, patienter 24 heures, puis recommencer, tout d’abord en entrant vos informations <https://pic.lync.com> sur les locaux, puis en activant les communications externes pour Lync Online.
 
