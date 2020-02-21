@@ -12,20 +12,20 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fecc07225682b3520d75faf62b1d999ce9c0f77
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0c90de8310fa136efb56a60e4dfd52656d49469b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149924"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="8d4a7-102">Table Manufacturers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d4a7-102">Manufacturers table in Lync Server 2013</span></span>
+# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="7a69a-102">Table Manufacturers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a69a-102">Manufacturers table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42149924"
 
 <span> </span>
 
-<span data-ttu-id="8d4a7-103">_**Dernière modification de la rubrique :** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="8d4a7-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+<span data-ttu-id="7a69a-103">_**Dernière modification de la rubrique :** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="7a69a-103">_**Topic Last Modified:** 2010-11-07_</span></span>
 
-<span data-ttu-id="8d4a7-104">La table Manufacturers est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="8d4a7-104">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="8d4a7-105">Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).</span><span class="sxs-lookup"><span data-stu-id="8d4a7-105">Each record stores information about one device (desk phone) manufacturer.</span></span>
+<span data-ttu-id="7a69a-104">La table Manufacturers est une table de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="7a69a-104">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="7a69a-105">Chaque enregistrement stocke des informations sur un fabricant d’appareils (téléphone de bureau).</span><span class="sxs-lookup"><span data-stu-id="7a69a-105">Each record stores information about one device (desk phone) manufacturer.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42149924"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8d4a7-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="8d4a7-106">Column</span></span></th>
-<th><span data-ttu-id="8d4a7-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="8d4a7-107">Data Type</span></span></th>
-<th><span data-ttu-id="8d4a7-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="8d4a7-108">Key/Index</span></span></th>
-<th><span data-ttu-id="8d4a7-109">Détails</span><span class="sxs-lookup"><span data-stu-id="8d4a7-109">Details</span></span></th>
+<th><span data-ttu-id="7a69a-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="7a69a-106">Column</span></span></th>
+<th><span data-ttu-id="7a69a-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="7a69a-107">Data Type</span></span></th>
+<th><span data-ttu-id="7a69a-108">Clé/index</span><span class="sxs-lookup"><span data-stu-id="7a69a-108">Key/Index</span></span></th>
+<th><span data-ttu-id="7a69a-109">Détails</span><span class="sxs-lookup"><span data-stu-id="7a69a-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8d4a7-110"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="8d4a7-110"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4a7-111">int</span><span class="sxs-lookup"><span data-stu-id="8d4a7-111">int</span></span></p></td>
-<td><p><span data-ttu-id="8d4a7-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="8d4a7-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="8d4a7-113">Numéro unique identifiant ce fabricant.</span><span class="sxs-lookup"><span data-stu-id="8d4a7-113">Unique number identifying this manufacturer.</span></span></p></td>
+<td><p><span data-ttu-id="7a69a-110"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="7a69a-110"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="7a69a-111">int</span><span class="sxs-lookup"><span data-stu-id="7a69a-111">int</span></span></p></td>
+<td><p><span data-ttu-id="7a69a-112">Primaire</span><span class="sxs-lookup"><span data-stu-id="7a69a-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="7a69a-113">Numéro unique identifiant ce fabricant.</span><span class="sxs-lookup"><span data-stu-id="7a69a-113">Unique number identifying this manufacturer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d4a7-114"><strong>Constructeur</strong></span><span class="sxs-lookup"><span data-stu-id="8d4a7-114"><strong>Manufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4a7-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="8d4a7-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="7a69a-114"><strong>Constructeur</strong></span><span class="sxs-lookup"><span data-stu-id="7a69a-114"><strong>Manufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="7a69a-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="7a69a-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="8d4a7-116">Nom du fabricant.</span><span class="sxs-lookup"><span data-stu-id="8d4a7-116">Manufacturer name.</span></span></p></td>
+<td><p><span data-ttu-id="7a69a-116">Nom du fabricant.</span><span class="sxs-lookup"><span data-stu-id="7a69a-116">Manufacturer name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

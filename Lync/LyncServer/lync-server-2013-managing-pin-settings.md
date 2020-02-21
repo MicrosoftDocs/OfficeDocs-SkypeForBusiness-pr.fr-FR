@@ -12,20 +12,20 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 031d625853762778fb829bd17eaf987f608a755d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4ef1f38627860c1a70c285fe6187dbc11f297b41
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150195"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-pin-settings-in-lync-server-2013"></a><span data-ttu-id="caa4b-102">Gestion des paramètres de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caa4b-102">Managing PIN settings in Lync Server 2013</span></span>
+# <a name="managing-pin-settings-in-lync-server-2013"></a><span data-ttu-id="8769c-102">Gestion des paramètres de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8769c-102">Managing PIN settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42150195"
 
 <span> </span>
 
-<span data-ttu-id="caa4b-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="caa4b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="8769c-103">_**Dernière modification de la rubrique :** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8769c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="caa4b-104">Utilisez les procédures de la section suivante pour gérer les paramètres de code confidentiel dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="caa4b-104">Use the procedures in the following section to manage PIN settings in Lync Server 2013.</span></span>
+<span data-ttu-id="8769c-104">Utilisez les procédures de la section suivante pour gérer les paramètres de code confidentiel dans Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8769c-104">Use the procedures in the following section to manage PIN settings in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="caa4b-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="caa4b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8769c-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="8769c-105">In This Section</span></span>
 
-  - [<span data-ttu-id="caa4b-106">Gestion des stratégies de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caa4b-106">Managing PIN policies in Lync Server 2013</span></span>](lync-server-2013-managing-pin-policies.md)
+  - [<span data-ttu-id="8769c-106">Gestion des stratégies de code confidentiel dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8769c-106">Managing PIN policies in Lync Server 2013</span></span>](lync-server-2013-managing-pin-policies.md)
 
-  - [<span data-ttu-id="caa4b-107">Gestion des codes confidentiels d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caa4b-107">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)
+  - [<span data-ttu-id="8769c-107">Gestion des codes confidentiels d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8769c-107">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)
 
 </div>
 

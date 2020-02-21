@@ -12,20 +12,20 @@ ms:contentKeyID: 51541494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 372987bcee60e458bf000f7a4f921edadd81a1b1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 466c5e65e3e81e8c9f90a093810067cf66616762
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150365"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42218110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="cf4f0-102">Gestion de la prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf4f0-102">Managing Group Call Pickup in Lync Server 2013</span></span>
+# <a name="managing-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="ad076-102">Gestion de la prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad076-102">Managing Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42150365"
 
 <span> </span>
 
-<span data-ttu-id="cf4f0-103">_**Dernière modification de la rubrique :** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="cf4f0-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="ad076-103">_**Dernière modification de la rubrique :** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="ad076-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="cf4f0-104">Mise à jour cumulative pour Lync Server 2013 : février 2013 introduit la prise d’appel de groupe en tant que nouvelle fonctionnalité voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="cf4f0-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="cf4f0-105">La prise d’appel de groupe permet aux utilisateurs de voix entreprise de choisir les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de prise d’appel.</span><span class="sxs-lookup"><span data-stu-id="cf4f0-105">Group Call Pickup enables Enterprise Voice users to pick up calls that are ringing for another user by dialing a call pickup group number.</span></span>
+<span data-ttu-id="ad076-104">Mise à jour cumulative pour Lync Server 2013 : février 2013 introduit la prise d’appel de groupe en tant que nouvelle fonctionnalité voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="ad076-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="ad076-105">La prise d’appel de groupe permet aux utilisateurs de voix entreprise de choisir les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de prise d’appel.</span><span class="sxs-lookup"><span data-stu-id="ad076-105">Group Call Pickup enables Enterprise Voice users to pick up calls that are ringing for another user by dialing a call pickup group number.</span></span>
 
-<span data-ttu-id="cf4f0-106">Les rubriques de cette section comportent des procédures pas à pas pour les tâches que vous effectuez pour configurer la prise d’appel de groupe dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="cf4f0-106">Topics in this section provide step-by-step procedures for tasks that you perform to configure Group Call Pickup in your deployment.</span></span>
+<span data-ttu-id="ad076-106">Les rubriques de cette section comportent des procédures pas à pas pour les tâches que vous effectuez pour configurer la prise d’appel de groupe dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="ad076-106">Topics in this section provide step-by-step procedures for tasks that you perform to configure Group Call Pickup in your deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cf4f0-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="cf4f0-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ad076-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ad076-107">In This Section</span></span>
 
-  - [<span data-ttu-id="cf4f0-108">Configuration des plages de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf4f0-108">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>](lync-server-2013-configure-group-call-pickup-number-ranges.md)
+  - [<span data-ttu-id="ad076-108">Configuration des plages de numéros de prise d’appel de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad076-108">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>](lync-server-2013-configure-group-call-pickup-number-ranges.md)
 
-  - [<span data-ttu-id="cf4f0-109">Affecter des numéros de prise d’appel de groupe aux utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf4f0-109">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
+  - [<span data-ttu-id="ad076-109">Affecter des numéros de prise d’appel de groupe aux utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad076-109">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
 
-  - [<span data-ttu-id="cf4f0-110">Activer ou désactiver la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf4f0-110">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+  - [<span data-ttu-id="ad076-110">Activer ou désactiver la prise d’appel de groupe pour les utilisateurs dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad076-110">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
 
-  - [<span data-ttu-id="cf4f0-111">Gestion de la prise d’appel de groupe lors de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf4f0-111">Manage Group Call Pickup during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+  - [<span data-ttu-id="ad076-111">Gestion de la prise d’appel de groupe lors de la récupération d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad076-111">Manage Group Call Pickup during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
 
 </div>
 
