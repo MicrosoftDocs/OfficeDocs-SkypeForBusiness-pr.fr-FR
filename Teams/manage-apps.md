@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications teams dans la page gére
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ab00f4ee445a5711a272ed5b4e2eea104012a7bd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161900"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229914"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le centre d’administration Microsoft teams
 ======================================================
@@ -53,9 +53,13 @@ Pour afficher les informations que vous souhaitez inclure dans le tableau, cliqu
 
 ## <a name="upload-a-new-app"></a>Télécharger une nouvelle application
 
-Pour télécharger une nouvelle application personnalisée dans le catalogue d’applications de votre client, cliquez sur **Télécharger une nouvelle application** pour télécharger votre package d’application au format. zip. Lorsque l’application n’est pas mise en surbrillance, vous devez effectuer une recherche dans le catalogue de vos clients pour la trouver.
+Vous pouvez utiliser votre catalogue d’applications pour tester et distribuer des applications métier qui sont spécifiquement conçues pour votre organisation. Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Lorsque vous disposez du package d’application, vous pouvez l’ajouter à votre catalogue d’applications. Même si tous les utilisateurs de votre organisation peuvent afficher le catalogue d’applications, seuls les administrateurs généraux et les administrateurs des services teams peuvent les publier et les gérer.
 
-Vous pouvez également charger des applications à [l’aide du client de bureau teams](tenant-apps-catalog-teams.md#go-to-the-tenant-app-catalog). Pour en savoir plus, voir [gérer vos applications métier dans teams](manage-your-lob-apps.md).
+Pour télécharger une nouvelle application personnalisée dans le catalogue d’applications de votre client, cliquez sur **Télécharger une nouvelle application** pour télécharger votre package d’application au format. zip. Lorsque l’application n’est pas mise en surbrillance, vous devez effectuer une recherche dans le catalogue de votre application pour la trouver.
+
+Pour mettre à jour une application après son téléchargement, dans la liste des applications sur la page **gérer les applications** , cliquez sur le nom de l’application, puis cliquez sur **mettre à jour**. Cela a pour effet de remplacer l’application existante dans votre catalogue d’applications et toutes les stratégies d’autorisations et les stratégies de configuration des applications qui ont été appliquées pour l’application mise à jour.
+
+Pour en savoir plus, voir [gérer vos applications métier dans teams](manage-your-lob-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Autoriser et bloquer des applications
 

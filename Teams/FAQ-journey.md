@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834494"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160381"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -82,7 +82,7 @@ Afin d’accompagner les organisations de taille modeste qui n’ont pas de ress
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Comment l’annonce du retrait de Skype Entreprise Online affecte-t-elle les organisations qui disposent de configurations hybrides (Skype Entreprise Online et Skype Entreprise Server) ?
 
-Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les trajectoires de mise à niveau pour les configurations hybrides basées sur les principes de coexistence et d’interopérabilité sont conservées après le retrait de Skype Entreprise Online. 
+Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les trajectoires de mise à niveau pour les configurations hybrides basées sur les principes de coexistence et d’interopérabilité sont conservées après le retrait de Skype Entreprise Online. Pour plus d’informations, accédez à la rubrique [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md) et [Comprendre la coexistence et l'interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Les clients disposant d’un abonnement éligible sont encouragés à s’engager avec [FastTrack](https://fasttrack.microsoft.com/) pour l’assistance technique de Teams.
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161647"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229924"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -167,7 +167,7 @@ Les clients mobiles teams pourront voir les applications principales de teams, t
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Les utilisateurs peuvent-ils changer l’ordre des applications épinglées par le biais d’une stratégie ?
 
-Pour l’instant, les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur des clients mobiles Teams, mais pas sur le bureau teams ou les clients Web. 
+Pour l’instant, les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur des clients mobiles Teams, mais pas sur le bureau teams ou les clients Web.
 
 ### <a name="custom-teams-apps"></a>Applications personnalisées d’équipes
 
@@ -178,4 +178,3 @@ Veillez à suivre les recommandations relatives au logo avant de procéder à la
  ## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
-- [Publier une application dans le catalogue d’applications client à partir du client teams](tenant-apps-catalog-teams.md)

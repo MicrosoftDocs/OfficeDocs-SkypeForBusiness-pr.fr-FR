@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment emporter vos applications teams personnalisées du développement au déploiement.
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161810"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229934"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gérer vos applications métier dans Microsoft teams
 
@@ -101,13 +101,7 @@ Pour permettre aux utilisateurs approuvés de télécharger des applications per
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Étape 3 : charger vers le catalogue d’applications du client
 
-Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications du client, téléchargez l’application. Pour cela, vous pouvez <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">utiliser le client de bureau teams</a> ou la page [gérer les applications](manage-apps.md) du centre d’administration Microsoft Teams.
-
-Voici une capture d’écran de l’option Télécharger dans le client de bureau Teams.
-
-![Capture d’écran de la page applications](media/manage-your-lob-apps-store.png)
-
-Voici une capture d’écran de l’option Télécharger dans la page **gérer les applications** du centre d’administration Microsoft Teams.
+Pour mettre l’application à la disposition des utilisateurs dans le magasin d’applications du client, téléchargez l’application. Vous pouvez le faire dans la page [gérer les applications](manage-apps.md) du centre d’administration Microsoft Teams.
 
 ![Capture d’écran de la page gérer les applications dans le centre d’administration](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Par défaut, pour que les utilisateurs puissent trouver cette application, ils d
 
 Pour mettre à jour une application, les développeurs doivent continuer à suivre les [étapes 1](#step-1-develop-and-test) et [2](#step-2-validate-in-production).
 
-Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le client de bureau Teams, accédez à **applications** > **développées pour &lt;le&gt;nom de votre client**, puis cliquez sur **...** dans le coin supérieur droit de l’application, puis cliquez sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration reste en vigueur pour l’application mise à jour. 
+Vous pouvez mettre à jour l’application via le catalogue d’applications du client. Pour ce faire, dans le centre d’administration de Microsoft Teams, accédez à **teams** > **Manage**apps. Dans la liste des applications, cliquez sur le nom de l’application, puis sur **mettre à jour**. Le fait de procéder au remplacement de l’application existante dans le catalogue d’applications du client et à l’ensemble des stratégies d’autorisation et de configuration de l’application reste en vigueur pour l’application mise à jour.
 
-![Capture d’écran de la mise à jour d’une application dans la page applications](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>Applications associées
+
+- [Gérer vos applications dans le centre d’administration Microsoft teams](manage-apps.md)
