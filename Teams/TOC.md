@@ -59,7 +59,6 @@
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
 ### [Gérer vos applications métier](manage-your-lob-apps.md)
-### [Publier des applications dans le catalogue d’applications de locataire Teams](tenant-apps-catalog-teams.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
