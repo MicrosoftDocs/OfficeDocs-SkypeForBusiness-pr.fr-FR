@@ -54,6 +54,7 @@
 
 ### [Vue d’ensemble](deploy-apps-microsoft-teams-landing-page.md)
 ### [Autorisations d’applications et points à prendre en compte](app-permissions.md)
+### [Gérer les applications pour Teams](manage-apps.md)
 ### [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [Vue d’ensemble](direct-routing-landing-page.md)
 ### [Planifier le routage direct](direct-routing-plan.md)
-### [Configurer le routage direct](direct-routing-configure.md)
+### [Liste des Contrôleurs de frontière de session (SBC) certifiés pour le routage direct](direct-routing-border-controllers.md)
+
+### Configurer le routage direct
+#### [Vue d’ensemble](direct-routing-configure.md)
+#### [Connectez votre contrôleur SBC au routage direct](direct-routing-connect-the-sbc.md)
+#### [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)
+#### [Configurer le routage de voix](direct-routing-voice-routing.md)
+#### [Traduire des numéros de téléphone](direct-routing-translate-numbers.md)
+#### [Configurer un contrôleur SBC pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
+#### [Utilisation des appareils analogiques avec le routage direct](direct-routing-analog-devices.md)
+
+
 ### [Migrer vers un routage direct](direct-routing-migrating.md)
 
 ### Contrôler et dépanner le routage direct
 #### [Vue d’ensemble](direct-routing-monitor-and-troubleshoot.md)
 #### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
-### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
+
+
 ### Routage géodépendant
 #### [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 #### [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# Connectivité hybride 
+# Connectivité hybride
 
 ## [Planifier une connectivité hybride](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Déplacer des utilisateurs du cloud vers l’environnement local](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Gérer les stratégies de migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Gérer les stratégies de migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [Désactiver le mode hybride pour terminer la migration vers le cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # Conseils pour les industries et le secteur public
-## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # Sécurité et conformité
-## [Vue d’ensemble](security-compliance-overview.md)
-## [Protection des informations dans Teams](information-barriers-in-teams.md)
-## [Mener une recherche eDiscovery de contenu dans Microsoft Teams](ediscovery-investigation.md)
-## [Modèles d’identité et authentification dans Teams](identify-models-authentication.md)
-## [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
-## [Placer un utilisateur ou une équipe Microsoft Teams en conservation légale](legal-hold.md)
-## [Rechercher des événements Microsoft Teams dans le journal d’audit](audit-log-events.md)
-## [Utilisation de la recherche de contenu dans Microsoft Teams](content-search.md)
-## [Stratégies de contrôle d’application AppLocker dans Teams](applocker-in-teams.md)
-## Stratégies de conservation dans Teams
-### [Vue d’ensemble](retention-policies.md)
-### [Problèmes connus avec les stratégies de conservation](retention-policies-known-issues.md)
-## [Emplacement des données dans Teams](location-of-data-in-teams.md)
-## [Déclaration d’accessibilité de la conformité en France pour Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Solutions d’accessibilité pour Skype Entreprise Online et Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Forfaits d’appels dans Office 365 - Code de conduite au Royaume-Uni](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Forfaits d’appels dans Office 365 - Gestion de réclamation de code pour le Royaume-Uni](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Pratiques de collecte de données](data-collection-practices.md)
-## [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
-
+## Sécurité
+### [Modèles d’identité et authentification](identify-models-authentication.md)
+### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
+## Conformité
+### [Vue d’ensemble](security-compliance-overview.md)
+### [Obstacles aux informations](information-barriers-in-teams.md)
+### [Stratégies de rétention](retention-policies.md)
+### [Protection contre la perte de données](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### eDiscovery
+#### [Mener une recherche eDiscovery de contenu](ediscovery-investigation.md)
+#### [Placer un utilisateur ou une équipe Microsoft Teams en conservation légale](legal-hold.md)
+### Recherche de contenu
+#### [Utiliser la recherche de contenu](content-search.md)
+#### [Rechercher des événements dans le journal d’audit](audit-log-events.md)
+### [Stratégies de contrôle d’application AppLocker](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Surveillance, maintenance et résolution des problèmes
@@ -672,13 +679,16 @@
 #    
 # Référence
 
+## [Spécifications et limites de Teams](limits-specifications-teams.md)
+## [Emplacement des données dans Teams](location-of-data-in-teams.md)
+## [Pratiques de collecte de données](data-collection-practices.md)
+
 ## Préparez-vous à déployer Teams
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 ### [Utiliser Advisor pour Teams pour déployer Teams](use-advisor-teams-roll-out.md)
 ### [Utiliser le Planificateur de réseau pour Teams](network-planner.md)
 ### [Procédure de présentation du Planificateur de réseau](tutorial-network-planner-example.yml)
 ### [Serveurs proxy pour Skype Entreprise Online et Teams](proxy-servers-for-skype-for-business-online.md)
-### [Spécifications et limites de Teams](limits-specifications-teams.md)
 ### [Planifier les groupes Office 365 lors de la création d’équipes dans Teams](plan-office-365-groups.md)
 ### [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)
 ### [Planifier la gouvernance dans Teams](plan-teams-governance.md)
@@ -854,3 +864,10 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## Accessibilité et conformité
+### [Déclaration d’accessibilité de la conformité en France pour Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Solutions d’accessibilité pour Skype Entreprise Online et Microsoft Teams](accessibility-solutions-in-france.md)
+### [Forfaits d’appels dans Office 365 - Code de conduite au Royaume-Uni](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Forfaits d’appels dans Office 365 - Gestion de réclamation de code pour le Royaume-Uni](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
