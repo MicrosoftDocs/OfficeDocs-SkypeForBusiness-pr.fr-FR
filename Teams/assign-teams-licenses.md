@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment attribuer des licences aux fonctionnalités telles que l’audioconférence, le système téléphonique et les offres d’appels.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888683"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236834"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Attribution de licences Microsoft teams
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | Forfait d’appels nationaux (120 minutes par utilisateur/mois pour chaque pays) </br>*Remarque : ce plan n’est pas disponible aux États-Unis*. | MCOPSTN5 |
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Remarque : ce plan n’est pas disponible aux États-Unis*. | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconférence : conseils et scripts pour affecter des licences
-
-Voici ce que vous devez savoir avant d’affecter des licences de conférence audio.
-
-- Fournisseur de services d' **audioconférence tiers**: si une personne est déjà configurée pour utiliser un fournisseur de services d’audioconférence tiers, lorsque vous lui attribuez une licence d’audioconférence, celle-ci est modifiée de manière à utiliser Microsoft comme fournisseur de services d’audioconférence. Vous pouvez le remplacer par le fournisseur tiers.
-
-- **Étapes**suivantes : une fois que vous avez attribué des licences de conférence audio, vous devez affecter un fournisseur de services d’audioconférence. Voir [affecter Microsoft en tant que fournisseur de](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)services d’audioconférence.
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>Affectation d’une licence de conférence audio à un utilisateur
 

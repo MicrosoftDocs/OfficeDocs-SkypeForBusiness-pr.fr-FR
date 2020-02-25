@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834524"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236674"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Découverte environnementale pour le lancement de Microsoft teams
 ===================================================
@@ -31,8 +31,7 @@ La découverte est l’une des principales étapes principales que vous prenez l
 
 Vous effectuez une découverte détaillée de votre environnement pour mieux comprendre son état actuel et révéler les difficultés, etc., à l’exécution de votre déploiement d’équipes.
 
-<a name="discovery-questionnaire"></a>Questionnaire de découverte
-=======================
+## <a name="discovery-questionnaire"></a>Questionnaire de découverte
 
 L’exemple de questionnaire ci-dessous vous présente un ensemble de questions qui vous permettent de vérifier que votre organisation est prête pour le bon déploiement de la fonction d’audioconférence et du système téléphonique grâce aux fonctionnalités d’appel d’équipes.
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826292"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236814"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconférence dans Office 365
 Audioconférence dans Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. Audioconférence accepte jusqu’à 250 participants.
@@ -47,7 +47,7 @@ Il vous suffit de configurer la fonctionnalité de conférence audio pour les ut
 Une fois que les participants ont rejoint la réunion, ils peuvent également appeler les autres appelants et inviter d’autres personnes à participer à une réunion Skype entreprise ou Microsoft Teams. Pour plus d’informations sur [la participation à une réunion Skype entreprise](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it), reportez-vous à [la section appel sortant d’une réunion avec d’autres personnes](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) pour qu’elles puissent y accéder.
 
 ## <a name="what-does-it-cost"></a>Combien cela coûte-t-il ?
-Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## <a name="where-is-it-available"></a>Où est-il disponible ?
 Grâce à l’audioconférence, vos utilisateurs peuvent utiliser des numéros de téléphone gratuits et payants pour se connecter aux réunions. Les numéros payants (service) sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations quand ils sont activés pour les conférences audio. Les numéros payants et gratuits peuvent être attribués à votre organisation à partir de villes supplémentaires.

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment utiliser le centre d’administration de Microsoft teams pour afficher la liste de tous les numéros de téléphone de votre organisation ainsi que les numéros attribués aux utilisateurs ou non attribués.
-ms.openlocfilehash: 7b2ae1d2cf008b3f824f3d3837b7023766571ec1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838154"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236854"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -114,5 +114,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
 [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  

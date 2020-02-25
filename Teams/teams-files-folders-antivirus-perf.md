@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dbb4b31fc3cddd8c434eb5c94e4f8801ff0633b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837674"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265619"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Fichiers et dossiers Teams à exclure de l’analyse antivirus
 =================================
@@ -50,4 +50,4 @@ Ajoutez les dossiers d’équipes suivants à votre liste de protection antiviru
 |Catégorie  |Lieu  |
 |---------|---------|
 |Program Files  |%localappdata%\Microsoft\Teams|
-|Fichiers de données     |%appdata%\Microsoft\Teams\|
+|Fichiers de données     |%appdata%\Microsoft\Teams\ |

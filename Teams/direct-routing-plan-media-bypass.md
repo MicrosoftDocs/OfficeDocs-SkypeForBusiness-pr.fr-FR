@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214484"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265639"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -137,7 +137,7 @@ Chemin multimédia pour les appels sans contournement pour les utilisateurs fina
 Dans le chemin multimédia pour les appels ignorés pour les utilisateurs finaux | Interdire | Si le client ne peut pas accéder à l’SBC sur l’adresse IP publique | 
 Dans le chemin multimédia pour les applications vocales | Toujours | Interdire | 
 Peut faire un transcodage (B2BUA)\* | Oui | Non, ne relaye le son qu’entre les points de terminaison. | 
-Nombre d’instances dans le monde et emplacement | 8 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon (ajouté dans Q1CY2019)  | Multiples
+Nombre d’instances dans le monde et emplacement | 8 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon  | Multiples
 
 La plage d’adresses IP est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254). 
 

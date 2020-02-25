@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837314"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265629"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft teams
 
@@ -60,7 +60,7 @@ Pour déterminer si un canal privé est approprié, prenez en considération les
 |Oui     |Non         |Non         |Créer un canal dans l’équipe existante.         |
 |Non     |Non         |Non         |Envisagez de créer une équipe.         |
 |Non     |Non         |Oui         |Envisagez de créer une équipe puis, en fonction de la confidentialité de chaque sujet, envisagez de créer des canaux standard ou privés distincts pour chaque sujet.         |
-|Non     |Oui         |Non         |Créer une nouvelle équipe ou créer un canal privé dans une équipe existante.         |
+|Non     |Oui         |Non         |Créez une nouvelle équipe et envisagez de créer un canal privé.         |
 
 Lorsqu’un canal privé est créé, il est lié à l’équipe parente et ne peut pas être déplacé vers une autre équipe. Par ailleurs, les canaux privés ne peuvent pas être convertis en canaux standard, et inversement.
 

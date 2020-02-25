@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online.
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755998"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265609"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planification de la migration de Skype entreprise Server et d’Exchange Server
 
-Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online. Ce que vous pouvez migrer et quand, dépend fortement de ce que vous avez déjà configuré dans votre organisation. Certaines fonctionnalités, telles que le standard automatique de l’organisation, ne sont pas disponibles à la disponibilité générale (GA), mais seront proposées plus tard dans 2018.
+Cette rubrique décrit ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype entreprise Server ou Exchange Server existants vers la dernière version ou Skype entreprise Online ou Exchange Online. Ce que vous pouvez migrer et quand, dépend fortement de ce que vous avez déjà configuré dans votre organisation.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Modifications apportées aux fonctionnalités dans Exchange 2019 et Skype entreprise Server 2019
 
@@ -45,12 +45,12 @@ La messagerie vocale Cloud ne fournit pas de fonctionnalité de messagerie vocal
 
 Avec Skype entreprise Server 2019, nous passons de la messagerie UNIFIÉe Exchange Online à la messagerie vocale Cloud. Lorsqu’un utilisateur est déplacé vers un serveur Skype entreprise 2019, il commence automatiquement à utiliser la messagerie vocale Cloud lorsqu’il est configuré pour la messagerie vocale hébergée. Si vous utilisez actuellement la messagerie unifiée Exchange Online, vous n’avez pas besoin d’effectuer d’autres opérations que de déplacer un utilisateur vers Skype entreprise Server 2019 pour commencer à utiliser la messagerie vocale sur le Cloud. Toutefois, certaines modifications apportées aux fonctionnalités doivent être conscientes des éléments suivants :
 
-- Le standard automatique de l’organisation (le remplacement du standard automatique dans la messagerie unifiée Exchange Online) n’est pas disponible dès la disponibilité générale, mais sera disponible plus tard dans 2018.
+- Le standard automatique de l’organisation est le remplacement du standard automatique dans la messagerie unifiée Exchange Online.
 - Les paramètres de messagerie vocale de l’utilisateur dans Outlook sur le Web ne s’appliquent pas à la messagerie vocale Cloud.
 
 ## <a name="on-premises-um-migration-scenarios"></a>Scénarios de migration de messagerie unifiée sur site
 
-Nous prenons en charge les scénarios suivants, qui vous permettront de migrer des utilisateurs à la fois vers Exchange 2019 et vers le service de messagerie vocale Cloud. Plus tard dans 2018, nous allons prendre en charge des scénarios supplémentaires qui vous permettront de migrer à partir de versions supplémentaires d’Exchange et de Skype entreprise Server. Nous proposons également des fonctionnalités supplémentaires, telles que le standard automatique de l’organisation.
+Nous prenons en charge les scénarios suivants, qui vous permettront de migrer des utilisateurs à la fois vers Exchange 2019 et vers le service de messagerie vocale Cloud.
 
 - Exchange 2013/Exchange 2016 et Skype entreprise Server 2015 vers Exchange 2019 et Skype entreprise Server 2019
 - Skype entreprise Server 2015 vers Skype entreprise Server 2019 avec Exchange 2013/Exchange 2016
@@ -68,7 +68,7 @@ L’ordre dans lequel vous déplacez les utilisateurs vers Exchange 2019 et Skyp
 | Boîte aux lettres située sur :            | Utilisateur situé sur Skype entreprise Server 2015 | Utilisateur situé sur Skype entreprise Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | messagerie unifiée Exchange                             | messagerie unifiée Exchange                              |
-| Exchange 2019                  | Non pris en charge                           | Messagerie vocale sur le Cloud                          |
+| Exchange 2019                  | Non pris en charge                           | Messagerie vocale cloud                          |
 
 Avant de commencer la migration vers Skype entreprise Server 2019 et Exchange 2019, gardez les points suivants à l’esprit :
 

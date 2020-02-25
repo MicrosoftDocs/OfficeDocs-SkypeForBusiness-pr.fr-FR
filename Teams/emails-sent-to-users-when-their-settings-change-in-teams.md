@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par e-mail lorsque leurs paramètres d’audioconférence sont modifiés dans Microsoft Teams. '
-ms.openlocfilehash: 0c0764a3787fa6431d07125b607bf9916f7f8ccf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835004"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236864"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
@@ -64,11 +64,11 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
   
 - **La licence d’un utilisateur est supprimée ou le fournisseur de service d’audioconférence Microsoft est remplacé par un autre fournisseur ou est défini sur Aucun.**
 
-    Cela se produit lorsque la licence pour l’**audioconférence** d'un utilisateur est supprimée, lorsque vous remplacez le fournisseur de service d’audioconférence Microsoft d'un utilisateur par un fournisseur de service d'audioconférence tiers ou lorsque le fournisseur est défini sur **Aucun**. Ce courrier électronique contient les instructions et les informations nécessaires à l'utilisateur pour utiliser l'outil de mise à jour de réunion de Skype Entreprise Online pour supprimer les informations spécifiques à l’audioconférence, comme le numéro de téléphone de conférence par défaut ou l'ID de conférence.
+    Cela se produit lorsque la licence d' **audioconférence** est supprimée d’un utilisateur ou lors de la définition du fournisseur de services d’audioconférence sur **aucun**.
 
-    Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
-    Voici un exemple de ce courrier électronique :
+    Voici un exemple de ce courrier électronique :
 
      ![La fonctionnalité Conférence rendez-vous est désactivée.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
@@ -77,35 +77,35 @@ Par défaut, quatre types de courriers électroniques seront envoyés à vos uti
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les courriers électroniques qui leur sont envoyés
 
-Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs. Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier le nom d’affichage à l’aide de Windows PowerShell. Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs. Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier le nom d’affichage à l’aide de Windows PowerShell. Pour plus d’informations, consultez la [référence Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
-## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Comment procéder si vous ne souhaitez pas leur envoyer de courriers électroniques ?
 
-Lorsque vous désactivez l'envoi de courriers électroniques aux utilisateurs, le courrier électronique ne sera pas envoyé même si une licence est attribuée à l’utilisateur. Dans ce cas, l'ID de conférence, le numéro de téléphone d'accès par défaut à la conférence et, plus important, son code confidentiel d’audioconférence ne seront pas envoyés à l'utilisateur. En pareil cas, vous devez en informer l'utilisateur en lui envoyant un courrier électronique distinct ou en l'appelant.
+Lorsque vous désactivez l'envoi de courriers électroniques, le courrier électronique ne sera pas envoyé même si l'utilisateur dispose d'une licence. Dans le cas présent, l’ID de conférence, le numéro de téléphone de l’audioconférence par défaut et, plus important encore, le code confidentiel de l’audioconférence ne sera pas envoyé à l’utilisateur. En pareil cas, vous devez en informer l'utilisateur en lui envoyant un courrier électronique distinct ou en l'appelant.
 
-Par défaut, des courriers électroniques seront envoyés à vos utilisateurs, mais si vous ne souhaitez pas qu'ils en reçoivent pour l’audioconférence, vous pouvez utiliser Microsoft Teams ou Windows PowerShell. 
+Par défaut, les courriers électroniques seront envoyés à vos utilisateurs, mais si vous ne souhaitez pas qu’ils reçoivent du courrier électronique pour les conférences audio, vous pouvez utiliser Microsoft teams ou Windows PowerShell. 
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page **Conference Bridges** (Ponts de conférence), cliquez sur **Bridge Settings** (Paramètres du pont). 
+2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
-3. Dans le volet **Bridge settings** (Paramètres du pont), activez ou désactivez l’option **Envoyer automatiquement un courrier électronique aux utilisateurs en cas de modification de leurs paramètres de numérotation**.
+3. Dans le volet **paramètres du pont** , activez ou désactivez l' **envoi automatique de messages électroniques aux utilisateurs en cas de modification de leurs paramètres de connexion**.
 
 4. Cliquez sur **Enregistrer**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Utiliser Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
-Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Pour plus d’informations, consultez la [référence Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Par défaut, l'envoi des courriers électroniques se fera à partir d'Office 365, mais vous pouvez modifier l'adresse électronique et le nom d'affichage à l'aide de Windows PowerShell. 
+Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell. 
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
 
@@ -118,6 +118,6 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Activer ou désactiver l'envoi de courriers électroniques lorsque les paramètres d’audioconférence sont modifiés](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
 [Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

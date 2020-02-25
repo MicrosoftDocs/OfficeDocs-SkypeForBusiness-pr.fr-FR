@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des questions les plus fréquemment posées par nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826302"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236844"
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
@@ -81,7 +81,7 @@ La durée maximale dépend des participants à la réunion et du type d'authenti
 |:-----|:-----|
 |Il s’agit des utilisateurs qui se sont connectés à l’aide de l’application Skype entreprise ou Microsoft teams ou qui ont rejoint la réunion.  <br/> |La réunion est terminée si aucune modification n'est apportée à la liste des participants après 24 heures.  <br/> |
 |Tous les utilisateurs ont accédé à la réunion, mais une personne a utilisé un code confidentiel pour y assister.  <br/> |La réunion se termine après 24 heures.  <br/> |
-|Tous les utilisateurs ont accédé à la réunion, mais personne n’a utilisé de code confidentiel pour entrer la réunion.  <br/> |La réunion se termine après 4 heures.  <br/> |
+|Tous les utilisateurs ont accédé à la réunion, mais personne n’a utilisé de code confidentiel pour entrer la réunion.  <br/> | Si les utilisateurs anonymes sont autorisés à démarrer des réunions, la réunion se termine après 4 heures. Si les utilisateurs anonymes ne sont pas autorisés à démarrer des réunions et que tous les participants authentifiés ont quitté la réunion, la réunion se termine à 90 minutes après le dernier participant authentifié. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Combien de participants téléphoniques puis-je avoir dans les réunions ?
 

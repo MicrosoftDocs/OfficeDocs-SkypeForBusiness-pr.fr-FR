@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la discussion, du routage des appels et de la présence entre les utilisateurs d’équipes et Skype entreprise, à la fois dans le client et fédéré, en fonction de modes TeamsUpgrade attribués. Il inclut des optimisations de routage, le comportement de présence, ainsi que le changement du mode de TeamsUpgrade par défaut de l' *ancien* au départ des *îles* et de l’ancienne mise au *départ.*
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050116"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236824"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -58,9 +58,9 @@ Les paramètres qui déterminent la méthode de routage du thread sont les suiva
 > [!NOTE]
 > Pour l’instant, toutes les fédérations impliquant des équipes tirent parti du pipeline de Fédération Skype entreprise, ainsi que des équipes : interopérabilité de Skype entreprise. Nous envisageons des équipes natives-Fédération Teams. Le document de présentation sera mis à jour au moment de la publication de la Fédération native.
 
-# <a name="chat-and-call-routing"></a>Messagerie instantanée et routage des appels
+## <a name="chat-and-call-routing"></a>Messagerie instantanée et routage des appels
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Routage dans le client pour les nouvelles conversations ou appels 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Routage dans le client pour les nouvelles conversations ou appels 
 
 Les tableaux ci-dessous capturent le routage de discussions et d’appels dans le client et sont valides pour les nouveaux appels ou messages instantanés qui ne sont pas démarrés à partir d’un thread préexistant. Il décrit le client recevant un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur à gauche, à un utilisateur de destinataire dans le client sur la droite.
 
@@ -102,7 +102,7 @@ Dans les tableaux ci-dessous :
 |TeamsOnly  | Équipes | Online |  &boxv; |Équipes   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>Routage fédéré pour de nouvelles conversations ou appels
+### <a name="federated-routing-for-new-chats-or-calls"></a>Routage fédéré pour de nouvelles conversations ou appels
   
 Les tableaux ci-dessous capturent le routage des appels et des discussions fédéré et sont valides pour les nouveaux appels ou les discussions. Ils indiquent quel client recevra un nouvel appel ou une nouvelle conversation, s’il provient d’un utilisateur à gauche, à un utilisateur cible fédéré sur la droite.
 
@@ -157,14 +157,14 @@ Si le thread persistant préexistant dans Teams était un thread natif (routé v
 
 Les threads Skype entreprise ne persistent pas au-delà du délai d’expiration de session SIP de 10 minutes. Les conversations et les appels à partir d’un thread existant dans Skype entreprise avant la date d’expiration de la session SIP seront routés comme le thread. Les appels et les messages instantanés à partir d’une conversation existante dans Skype entreprise au-delà du délai d’expiration de la session SIP seront routés vers Skype entreprise de la part de la partie distante, quel que soit le client d’origine du thread de l’autre partie.
 
-## <a name="availability"></a>Disponibilité
+### <a name="availability"></a>Disponibilité
 
 Les comportements dans le client et fédéré décrits ci-dessus sont disponibles, avec les limitations suivantes :
 
 - Les participants externes dont les clients résident dans un déploiement GoLocal différent ou la géographie ne verront pas la discussion par messagerie instantanée pendant une réunion fédérée.
 - La Fédération et l’interopérabilité entre un client O365 et un Cloud souverain ne sont pas pris en charge
 
-# <a name="presence"></a>Présence
+## <a name="presence"></a>Présence
 
 Si certains de vos utilisateurs utilisent le client teams et que d’autres personnes utilisent le client Skype entreprise, il est possible que vous ayez un certain nombre d’utilisateurs qui utilisent les deux clients. Vous voulez tout de même que les États de présence soient partagés avec tous les utilisateurs, sans tenir compte du client qu’un utilisateur particulier possède. Lorsque celle-ci est partagée au sein de l’organisation, les utilisateurs peuvent mieux déterminer s’il est approprié de lancer une conversation ou de passer un appel.
 
@@ -180,7 +180,7 @@ Pour savoir quel comportement vous attend, vous devez comprendre que la présenc
     * À partir de Skype entreprise, tout autre utilisateur verra la présence Skype entreprise de l’utilisateur (à la fois dans le client et fédéré); elle est alignée avec les tables de routage ci-dessus.
 
 
-## <a name="in-tenant-presence"></a>Présence dans le client
+### <a name="in-tenant-presence"></a>Présence dans le client
 
 Les messages envoyés aux utilisateurs de TeamsOnly seront toujours en équipe. Les messages envoyés aux\* utilisateurs de marketing seront toujours disponibles dans Skype entreprise, si la conversation est possible comme décrit ci-dessus. Les messages envoyés aux îlots utilisateurs s’afficheront toujours dans le client à partir duquel ils ont été créés.
 
@@ -194,7 +194,7 @@ Le tableau décrit la présence de l’éditeur qui sera vue par un observateur,
 |Teams |&boxv; |Teams |Skype Entreprise |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>Présence fédérée
+### <a name="federated-presence"></a>Présence fédérée
 
 La présence fédérée repose sur l’accessibilité fédérée figurant dans le tableau 2.
 
@@ -208,7 +208,7 @@ Le tableau ci-dessous décrit la présence de l’éditeur qui sera visible par 
 |Teams | &boxv;|Skype Entreprise |Skype Entreprise |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>Présence dans les threads préexistants
+### <a name="presence-in-pre-existing-threads"></a>Présence dans les threads préexistants
 
 Pour aligner la présence et l’accessibilité dans des threads préexistants, la présence de Target exposée dans ce thread doit être alignée sur le routage du thread, en partant du principe que le routage est possible.
 
