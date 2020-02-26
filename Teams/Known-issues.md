@@ -18,12 +18,12 @@ f1.keywords:
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962093"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265519"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -51,7 +51,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|L’[accès conditionnel](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
+|L’[Accès conditionnel](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » ou « Azure DevOps » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, un navigateur, des restrictions d’adresse IP ou une conformité appareil), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -82,11 +82,15 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
+|Après la modification le mot de passe du compte utilisateur, un message d’erreur s’affiche : votre mot de passe a été modifié ou le serveur doit de nouveau disposer de vos informations de connexion. Cela se produit de nouveau, même avec le nouveau mot de passe. <br/> | Les équipes résoudront prochainement ce problème dans un correctif déployé. <br/> | Déconnexion et reconnexion avec des informations d’identification incorrectes. Après l’échec, entrez vos correctes informations d’identification. <br/> |09/01/20  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
 |Lorsque vous tentez d'ouvrir Teams sur Internet Explorer ou Edge, une boucle se produit ou le programme se bloque et ne se connecte pas.   <br/> | Votre organisation utilises la fonction de sites approuvés dans Internet Explorer et l'application Web Teams n'est pas correctement journalisée car les sites approuvés pour Teams ne sont pas autorisés. <br/>|Dans les paramètres d'IE, effectuez les modifications suivantes en utilisant des droits d'administrateur ou un objet de stratégie de groupe :<br/><ol><li>Sous **Options Internet** &gt; **Confidentialité** &gt; **Avancé**, acceptez les cookies internes et tierce partie et cochez la case **Toujours autoriser les cookies de la session**.</li><li>Cliquez sur **Options Internet** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** et ajoutez l’adresse suivante :<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>REMARQUE</b> : Validez et autorisez toujours les URL approuvées pour Teams et les conditions requises figurant dans le document suivant : [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams se connectera toujours au compte de l’ordinateur lié à un domaine.   <br/> |Si un utilisateur qui a deux comptes Teams différents et une machine avec la jonction à un domaine activée, Teams utilisera le profil lié à un domaine pour connecter automatiquement l’utilisateur à Teams. Pour basculer sur l’autre compte Teams, l’utilisateur doit se déconnecter manuellement de l’application puis entrer les informations d'identification du second compte pour se connecter. S’il se déconnecte de Teams et redémarre la machine, au démarrage, Teams se connectera automatiquement en utilisant le profil joint au domaine. <br/> | Aucune solution. <br/> |02/08/2017  <br/> |
+|Microsoft Teams se connectera toujours au compte de l’ordinateur lié à un domaine.   <br/> |Si un utilisateur qui a deux comptes Teams différents et une machine avec la jonction à un domaine activée, Teams utilisera le profil lié à un domaine pour connecter automatiquement l’utilisateur à Teams. Pour basculer sur l’autre compte Teams, l’utilisateur doit se déconnecter manuellement de l’application puis entrer les informations d'identification du second compte pour se connecter. S’il se déconnecte de Teams et redémarre la machine, au démarrage, Teams se connectera automatiquement en utilisant le profil joint au domaine. <br/> | Si les utilisateurs sont connectés à un ordinateur joint à un domaine et que vous ne souhaitez pas que leur nom d’utilisateur soit déjà rempli sur l’écran de connexion à Teams, les administrateurs peuvent définir le registre Windows suivant pour désactiver le pré-remplissage du nom d’utilisateur (UPN) Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill\(REG_DWORD) 0X00000001 (1). Le nom d’utilisateur, qui doit être renseigné pour les noms d’utilisateur qui se terminent par « .local » ou « .corp », est activé par défaut, vous n’avez ainsi pas besoin de définir une clé de registre pour le désactiver. Référence https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |02/08/2017  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
