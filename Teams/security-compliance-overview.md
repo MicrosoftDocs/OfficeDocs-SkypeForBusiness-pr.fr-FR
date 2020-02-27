@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c46949391ec37178985ab3ed4a08aebc7e5747
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285736"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288622"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sécurité et conformité dans Microsoft teams
 
@@ -111,8 +111,8 @@ Les clients peuvent tirer parti d’une découverte électronique inaltérable o
 
 Au cours d’un litige, il est possible que vous ayez besoin de toutes les données associées à un utilisateur ou à une équipe dont la conservation est inaltérable, afin qu’elle puisse être utilisée comme preuve pour le cas. Pour ce faire, vous devez placer un utilisateur (boîte aux lettres d’utilisateur) ou une équipe en attente de conservation légale. Pour une attente légale d’équipe, la boîte aux lettres de l’équipe peut être placée sur les éléments suivants :
 
-- Blocage sur place (un sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré est mis en attente) ou
-- Conservation pour litige (la boîte aux lettres ou la collection de sites entière est mise en attente)
+- Blocage sur place (un sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré est mis en attente), ou
+- Conservation pour litige (la boîte aux lettres ou la collection de sites entière est mise en attente).
 
 Dans les deux cas, une fois la conservation définie, elle garantit que, même si les utilisateurs finaux suppriment ou modifient des messages de canal qui se trouvent dans la boîte aux lettres de groupe, les copies immuables de ce contenu sont conservées et disponibles par le biais de la recherche eDiscovery. Les conservations juridiques sont généralement appliquées dans le cadre d’un cas de découverte électronique.
 
@@ -148,14 +148,14 @@ La figure suivante indique le flux d’intégration des réunions teams et des d
 
 En ce qui concerne les capacités de protection des informations, les abonnements Office 365 et les licences autonomes associées déterminent l’ensemble des fonctionnalités disponibles.
 
-Pour plus d’informations sur la façon de déterminer les fonctionnalités de gestion des licences requises en matière de sécurité et de conformité, reportez-vous à la rubrique [licences pour Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) .
+Pour plus d’informations sur la façon de déterminer les fonctionnalités de gestion des licences requises en matière de sécurité et de conformité, reportez-vous à la rubrique [licences pour Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 > [!NOTE]
 > La recherche de contenu et eDiscovery n’ont pas besoin d’être activées dans le centre de sécurité & conformité pour fonctionner.
 
 ## <a name="location-of-data-in-teams"></a>Emplacement des données dans Teams
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Pour connaître les régions prises en charge pour le moment, veuillez vérifier [l’emplacement des données dans Microsoft teams](location-of-data-in-teams.md)
+Les données dans Teams résident dans la région géographique associée à votre client Office 365. Pour connaître les régions prises en charge pour le moment, veuillez vérifier [l’emplacement des données dans Microsoft teams](location-of-data-in-teams.md).
 
 Si vous avez besoin de voir la région qui abrite les données pour votre client, accédez au**profil d’organisation****paramètres** > du centre > d' [administration 365 Microsoft](https://portal.office.com/adminportal/home). Défilez jusqu’à la section **Emplacement des données**.
 
