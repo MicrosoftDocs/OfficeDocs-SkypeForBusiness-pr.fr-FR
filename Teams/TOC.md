@@ -263,10 +263,10 @@
 
 ### Configurer le routage direct
 #### [Vue d’ensemble](direct-routing-configure.md)
-#### [Connectez votre contrôleur SBC au routage direct](direct-routing-connect-the-sbc.md)
-#### [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)
-#### [Configurer le routage de voix](direct-routing-voice-routing.md)
-#### [Traduire des numéros de téléphone](direct-routing-translate-numbers.md)
+#### [Étape 1 : connecter votre SBC](direct-routing-connect-the-sbc.md)
+#### [Étape 2 : activer les utilisateurs](direct-routing-enable-users.md)
+#### [Étape 3 : configurer le routage de voix](direct-routing-voice-routing.md)
+#### [Étape 4 : traduire des numéros de téléphone](direct-routing-translate-numbers.md)
 #### [Configurer un contrôleur SBC pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 #### [Utilisation des appareils analogiques avec le routage direct](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # Sécurité et conformité
+## [Vue d’ensemble](security-compliance-overview.md)
 ## Sécurité
 ### [Modèles d’identité et authentification](identify-models-authentication.md)
 ### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
 ## Conformité
-### [Vue d’ensemble](security-compliance-overview.md)
 ### [Obstacles aux informations](information-barriers-in-teams.md)
 ### [Stratégies de rétention](retention-policies.md)
 ### [Protection contre la perte de données](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
