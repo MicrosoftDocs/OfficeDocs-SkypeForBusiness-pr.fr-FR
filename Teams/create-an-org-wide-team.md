@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826752"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288732"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -44,9 +44,10 @@ Les types de comptes suivants ne sont pas ajoutés à votre équipe au sein de l
 Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre entreprise, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
 
 > [!NOTE]
-> - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, il est possible que la fonctionnalité soit en cours de déploiement, que vous ayez atteint la limite de cinq équipes au niveau de l’organisation, ou qu’elle ne dépasse pas la limite de taille actuelle des membres 5 000. Nous cherchons à augmenter cette limite à l’avenir.
+> - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, il est possible que la fonctionnalité soit en cours de déploiement, que vous ayez atteint la limite de cinq équipes au niveau de l’organisation, ou qu’elle ne dépasse pas la limite de taille actuelle des membres 5 000. Nous cherchons à augmenter cette limite à l’avenir. Les équipes à l’échelle de l’organisation ne sont pas encore disponibles pour les équipes pour l’éducation.
 > - Les salles qui ne font pas partie d’une liste de salles, de ressources de matériel et de ressources peuvent être ajoutées ou synchronisées à l’équipe au sein de l’organisation. Les propriétaires d’équipe peuvent facilement supprimer ces comptes de l’équipe.
 > - Toutes les actions par le système pour ajouter ou supprimer des membres sont publiées dans le canal général. Le canal sera également marqué comme ayant une nouvelle activité dans le client Teams.
+> - Nous allons créer automatiquement une équipe à l’échelle de l’organisation de votre organisation si votre organisation est une nouveauté d’équipes et ne comporte pas plus de 5 000 utilisateurs. Le nom de l’équipe indique le nom du client et dispose d’un canal général. Les administrateurs généraux peuvent modifier cette équipe comme n’importe quelle autre équipe. 
 
 ## <a name="best-practices"></a>Meilleures pratiques
 

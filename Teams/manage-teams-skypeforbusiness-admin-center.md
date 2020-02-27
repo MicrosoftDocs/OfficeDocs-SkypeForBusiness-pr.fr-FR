@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833124"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288632"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -104,12 +104,12 @@ Le tableau suivant indique les emplacements où vous pouvez gérer les fonctionn
 |Paramètres d’accès externe     |    X    |      |       |
 |Gestion des utilisateurs    |         |         |    X     |    
 |Audioconférence     |    X     |    X     |         |
-|Forfaits d'appels     |         |    X     |         |
-|Système téléphonique    |         |     X    |         |
-|Gestion des numéros de téléphone     |         |   X      |         |
+|Forfaits d'appels     |    X    |    X     |         |
+|Système téléphonique    |    X    |     X    |         |
+|Gestion des numéros de téléphone     |    X    |   X      |         |
 |Licences pour les fonctionnalités vocales sur le Cloud     |         |         |    X     |
-|Standards automatiques     |         |    X     |         |
-|Files d'attente des appels     |         |    X     |         |
+|Standards automatiques     |    X    |          |         |
+|Files d'attente des appels     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Gérer les paramètres après la migration
 

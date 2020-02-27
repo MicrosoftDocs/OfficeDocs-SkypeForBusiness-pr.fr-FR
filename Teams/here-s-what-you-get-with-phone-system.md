@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer le système Microsoft Phone pour votre entreprise. '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045166"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288702"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -45,11 +45,11 @@ Le système téléphonique offre les fonctionnalités suivantes. Sauf indication
 |**Système téléphonique dans Office 365** <br/> |**Description** <br/> |
 |[Standards automatiques Cloud](what-are-phone-system-auto-attendants.md) <br/> |Vous permet de créer un système de menus qui permet aux appelants internes et externes de rechercher et de transférer les appels vers des utilisateurs ou services de l’entreprise au sein de votre organisation.  <br/> |
 |[Files d’attente d’appels Cloud](create-a-phone-system-call-queue.md) <br/> |Vous permet de configurer le mode de gestion des files d’attente d’appels pour votre organisation : par exemple, configurer les messages d’accueil et la musique en attente, Rechercher le prochain agent d’appel disponible pour gérer l’appel, et ainsi de suite.  <br/> |
-|Attente musicale | Lecture de la musique par défaut définie par le service lors de la mise en attente d’un appel externe à partir du réseau téléphonique public commuté (RTC). Cette fonctionnalité est disponible pour les appels RTC vers équipes et les appels passés vers une file d’attente d’appels. Cette fonctionnalité fournit la parité de notification en attente avec d’autres plateformes. Au premier lancement, cette fonctionnalité n’est pas configurable par l’administrateur. Le blocage de la musique n’est pas non plus pris en charge dans un transfert de consultation d’un appel RTC.|
+|Attente musicale | Lecture de la musique par défaut définie par le service lors de la mise en attente d’un appel externe à partir du réseau téléphonique public commuté (RTC). Cette fonctionnalité est disponible pour les appels RTC vers équipes et les appels passés vers une file d’attente d’appels. Cette fonctionnalité fournit la parité de notification en attente avec d’autres plateformes. Cette fonctionnalité est configurable par l’administrateur, mais [uniquement via PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Le blocage de la musique n’est pas non plus pris en charge dans un transfert de consultation d’un appel RTC.|
 |Démarrage d'un appel/réponse à un appel (par nom et numéro)  <br/> |Permet aux utilisateurs de répondre aux appels entrants à l’aide d’un contact et d’effectuer des appels sortants en composant le numéro de téléphone complet ou en cliquant sur un nom dans le client.  <br/> |
 |[Options de transfert d’appel et sonnerie simultanée](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Permet aux utilisateurs de configurer les règles de transfert afin de pouvoir y accéder en tout lieu, ou renvoyer des appels à des collègues ou à la messagerie vocale.  <br/> |
 |[Enlèvement de groupe et transférer vers le groupe](call-sharing-and-group-call-pickup.md) <br/> | Permet aux utilisateurs de partager des appels entrants avec leurs collègues pour permettre aux collègues de répondre aux appels qui se produisent lorsque l’utilisateur n’est pas disponible. Moins de perturbation des destinataires que d’autres formes de partage d’appel (par exemple, le transfert d’appel ou la sonnerie simultanée), car les utilisateurs peuvent configurer la façon dont ils souhaitent être avertis d’un appel partagé entrant. |
-|[Transfert d’un appel et transfert de consultation](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permet aux utilisateurs de transférer des appels à une autre personne. Ou bien, s’il est nécessaire de quitter la conversation, il peut transférer les appels depuis son PC ou son téléphone IP vers son téléphone mobile.  <br/> |
+|[Transférer un appel et transférer des conseils](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permet aux utilisateurs de transférer des appels à une autre personne. Ou bien, s’il est nécessaire de quitter la conversation, il peut transférer les appels depuis son PC ou son téléphone IP vers son téléphone mobile.  <br/> |
 |[Transfert vers la messagerie vocale](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Permet aux utilisateurs de transférer des messages vocaux pendant un appel. |
 |[Parcage d’appel et récupération](call-park-and-retrieve.md)  <br/> | Permet aux utilisateurs de placer un appel en attente dans le service équipes du Cloud. Lorsqu’un appel est parqué, le service génère un code unique pour la récupération des appels. L’utilisateur qui a parqué l’appel ou quelqu’un d’autre peut alors utiliser ce code et une application ou un appareil pris en charge pour récupérer l’appel. <br/> |
 |Appeler un numéro de téléphone à partir de la recherche  <br/> | Permet aux utilisateurs de passer un appel à partir de la zone de recherche à l’aide de la commande/Call et de spécifier un nom ou un numéro. <br/> |

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824752"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285816"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Utilisation de l’Assistant Mise en route pour configurer Business Voice
 
@@ -46,11 +46,8 @@ Vous avez terminé, si vous ne voulez rien personnaliser pour le moment. Vous po
 
 <table>
     <tr>
-        <td>Si vous souhaitez modifier l’adresse d’urgence, cliquez sur <b>Modifier</b>, et entrez ensuite une nouvelle adresse. L’adresse que vous fournissez est validée afin de vérifier qu’elle est légitime et correctement mise en forme pour les services d’intervention d’urgence. Cette adresse est ensuite attribuée aux utilisateurs auxquels vous affectez un numéro à l’étape suivante. Si vos employés sont répartis dans plusieurs lieux, voir <a href="./customize-business-voice.md">Personnaliser la conception de Business Voice</a> pour ajouter et attribuer d’autres adresses d’urgence une fois la préparation de l’assistant Mise en route effectuée.</td>
-
-        
+        <td>Si vous souhaitez modifier l’adresse d’urgence, cliquez sur <b>Modifier</b>, et entrez ensuite une nouvelle adresse. L’adresse que vous fournissez est validée afin de vérifier qu’elle est légitime et correctement mise en forme pour les services d’intervention d’urgence. Cette adresse est ensuite attribuée aux utilisateurs auxquels vous affectez un numéro à l’étape suivante. Si vos employés sont répartis dans plusieurs lieux, voir <a href="./customize-business-voice.md">Personnaliser la conception de Business Voice</a> pour ajouter et attribuer d’autres adresses d’urgence une fois la préparation de l’assistant Mise en route effectuée.</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 Pour plus d'informations, voir [Que sont les emplacements, les adresses et le routage d’appel d’urgence ?](../what-are-emergency-locations-addresses-and-call-routing.md)

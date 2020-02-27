@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
-ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041243"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288712"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
 
@@ -77,7 +77,7 @@ Pour vous assurer que la messagerie vocale de votre organisation est acheminée 
 Pour modifier la stratégie globale, exécutez la commande suivante dans Skype entreprise Server Management Shell après avoir mis à jour votre organisation et TenantID :
 
 ```PowerShell
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
 - **Destination** : spécifie le nom de domaine complet (FQDN) du service de messagerie vocale hébergée dans le Cloud. Cette valeur doit être définie sur **EXAP.um.Outlook.com**.
@@ -85,8 +85,6 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 - **Organization** est le domaine par défaut affecté à votre client. Vous pouvez récupérer ces informations en faisant en sorte que l’administrateur client se connecte à office.com, cliquez sur l’application du centre d’administration, accédez à l' **installation** sur la gauche, puis cliquez sur **domaines**. Par exemple : mytenant.onmicrosoft.com.
 
     Le nom de l’organisation est également le nom de domaine par défaut dans Office 365.
-
-- Le **client** est utilisé pour identifier votre client dans Office 365. Pour plus d’informations, consultez [la rubrique trouver votre ID de client Office 365](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été correctement créée, exécutez la commande suivante :
 
