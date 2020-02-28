@@ -21,12 +21,12 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827822"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327996"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
@@ -40,7 +40,6 @@ Les paramètres d’administration du centre d’administration Microsoft teams 
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Résumé du message électronique du tuteur de chaque semaine
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Les messages électroniques de tuteur sont des messages électroniques hebdomadaires envoyés aux parents ou tuteurs des étudiants. Les courriers électroniques contiennent des informations sur les affectations de la semaine précédente et de la semaine à venir, et seront envoyées pendant le week-end. Les messages électroniques doivent être mis à jour par les administrateurs à l’aide de la fonctionnalité School Data Sync.
 
@@ -58,7 +57,6 @@ Ce paramètre est désactivé par défaut.
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin est un service de détection Plagiarism. Il s’agit d’un produit ou service tiers soumis à ses propres conditions et politique de confidentialité. Vous êtes responsable de l’utilisation de produits et services tiers.
 

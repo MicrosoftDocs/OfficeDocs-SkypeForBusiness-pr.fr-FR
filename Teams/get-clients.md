@@ -3,7 +3,6 @@ title: Obtenir des clients pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833764"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327836"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -41,7 +40,7 @@ Microsoft teams est disponible pour les clients de bureau (Windows, Mac et Linux
 > [!TIP]
 > Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
 
-Le client de bureau Microsoft teams est une application autonome qui est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams est disponible pour Windows (7 +), Windows Server (2012 R2 +), versions 32 bits et 64 bits, macOS (10.10 +) et Linux (au `.deb` `.rpm` format.). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sur Linux, les responsables de package tels que apt et yum essaient d’installer une configuration requise pour vous. Néanmoins, si ce n’est pas le cas, vous devez installer la configuration requise avant d’installer teams sur Linux.
+Le client de bureau Microsoft teams est une application autonome qui est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams est disponible pour les versions 32 bits et 64 bits de Windows (8,1 ou version ultérieure) et Windows Server (2012 R2 ou version ultérieure), ainsi que pour macOS (10,10 ou version ultérieure) et Linux `.deb` ( `.rpm` en format). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sous Linux, les responsables de packages `apt` , `yum` tels que et, essaient d’installer une configuration requise pour vous. Néanmoins, si ce n’est pas le cas, vous devez installer la configuration requise avant d’installer teams sur Linux.
 
 Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
 
@@ -181,6 +180,8 @@ Le client web effectue la détection de la version navigateur lors de la connexi
 ## <a name="mobile-clients"></a>Clients mobiles
 
 Les applications mobiles Microsoft Teams sont disponibles pour Android et iOS et sont destinées aux utilisateurs en déplacement pour participer aux chats basées sur la conversation et autorisent les appels audio privés. Pour les applications mobiles, accédez à Google Play et l’Apple App Store. L’application Windows Phone a été retirée le 20 juillet 2018 et peut ne plus fonctionner. 
+
+En Chine, voici comment [obtenir teams pour Android](get-teams-android-in-china.md). 
 
 Les plateformes mobiles prises en charge pour les applications mobiles Microsoft Teams sont les suivantes :
 

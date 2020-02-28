@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277977"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327826"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installation de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 
@@ -55,9 +55,9 @@ Les équipes peuvent également être incluses dans un déploiement d’Office 3
 
 ### <a name="pc-installation"></a>Installation sur PC
 
-Le MSI teams place un programme d’installation dans les fichiers programme. Dès qu’un utilisateur se connecte à un nouveau profil utilisateur Windows, le programme d’installation est lancé et une copie de l’application teams est installée dans le dossier AppData de l’utilisateur. Si un utilisateur possède déjà l’application teams installée dans le dossier AppData, le programme d’installation MSI ignore le processus pour cet utilisateur.
+Le MSI teams place un programme d’installation dans les fichiers programme. Dès qu’un utilisateur se connecte à un nouveau profil utilisateur Windows, le programme d’installation est lancé et une copie de l’application teams est installée `AppData` dans le dossier de cet utilisateur. Si un utilisateur a déjà installé l’application teams dans `AppData` le dossier, le programme d’installation MSI ignore le processus pour cet utilisateur.
 
-N’utilisez pas le MSI pour déployer les mises à jour, car le client effectue automatiquement une mise à jour dès qu’il détecte une nouvelle version. Pour redéployer le dernier programme d’installation, procédez comme suit lors du processus de redéploiement de MSI décrit ci-dessous.Si vous déployez une version plus ancienne du package MSI, le client se met à jour automatiquement (sauf dans les environnements VDI) lorsque l’utilisateur le peut. Si une ancienne version est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams.
+N’utilisez pas le MSI pour déployer les mises à jour, car le client effectue automatiquement une mise à jour dès qu’il détecte une nouvelle version. Pour redéployer le dernier programme d’installation, procédez comme suit lors du processus de redéploiement de MSI décrit ci-dessous. Si vous déployez une version plus ancienne du package MSI, le client se met à jour automatiquement (sauf dans les environnements VDI) lorsque l’utilisateur le peut. Si une ancienne version est déployée, le MSI déclenche une mise à jour de l’application avant que l’utilisateur ne puisse utiliser Teams.
 
 > [!Important]
 > Nous vous déconseillons de ne pas modifier les emplacements d’installation par défaut, car cela risque de perturber le déroulement de la mise à jour. La présence d’une trop ancienne version entraînera le blocage des utilisateurs de l’accès au service.
@@ -65,7 +65,7 @@ N’utilisez pas le MSI pour déployer les mises à jour, car le client effectue
 #### <a name="target-computer-requirements"></a>Configuration requise pour l’ordinateur cible
 
 - .NET Framework 4,5 ou version ultérieure
-- Windows 7 ou version ultérieure
+- Windows 8,1 ou version ultérieure
 - Windows Server 2012 R2 ou version ultérieure
 - 3 Go d’espace disque pour chaque profil utilisateur (recommandé)
 
@@ -78,7 +78,7 @@ Pour obtenir des instructions complètes sur le déploiement de l’application 
 Si un utilisateur désinstalle teams de son profil utilisateur, le programme d’installation MSI effectue le suivi de la désinstallation de l’application teams par l’utilisateur et n’installe plus teams pour ce profil utilisateur. Pour redéployer teams pour cet utilisateur sur un ordinateur particulier sur lequel il a été désinstallé, procédez comme suit :
 
 1. Désinstaller l’application teams installée pour chaque profil utilisateur.
-2. Après la désinstallation, supprimez le répertoire de manière récursive sous%localappdata%\Microsoft\Teams\.
+2. Après la désinstallation, supprimez le répertoire `%localappdata%\Microsoft\Teams\`de manière récursive.
 3. Redéployez le package MSI sur cet ordinateur particulier.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Empêcher les équipes de démarrer automatiquement après l’installation

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Ce document décrit le comportement de la discussion, du routage des appels et de la présence entre les utilisateurs d’équipes et Skype entreprise, à la fois dans le client et fédéré, en fonction de modes TeamsUpgrade attribués. Il inclut des optimisations de routage, le comportement de présence, ainsi que le changement du mode de TeamsUpgrade par défaut de l' *ancien* au départ des *îles* et de l’ancienne mise au *départ.*
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236824"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328016"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 
@@ -56,7 +56,7 @@ Les paramètres qui déterminent la méthode de routage du thread sont les suiva
     - La communication équipes vers teams est toujours possible dans le client.
 
 > [!NOTE]
-> Pour l’instant, toutes les fédérations impliquant des équipes tirent parti du pipeline de Fédération Skype entreprise, ainsi que des équipes : interopérabilité de Skype entreprise. Nous envisageons des équipes natives-Fédération Teams. Le document de présentation sera mis à jour au moment de la publication de la Fédération native.
+> S’il s’agit du destinataire et de l’expéditeur dans le mode de mise à niveau de TeamsOnly, la conversation sera une expérience de chat native qui inclut l’ensemble des fonctionnalités d’appel et de messagerie complètes. Pour en savoir plus, consultez [l’interface de conversation native pour les utilisateurs externes dans teams](native-chat-for-external-users.md). Si l’un des participants à la conversation n’est pas en mode de mise à niveau TeamsOnly, la conversation reste une interface d’interopérabilité avec les messages texte uniquement.
 
 ## <a name="chat-and-call-routing"></a>Messagerie instantanée et routage des appels
 
