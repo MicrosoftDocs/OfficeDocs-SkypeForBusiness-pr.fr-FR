@@ -4,6 +4,8 @@
 
 # [Affiches de solutions en téléphonie et architecture](teams-architecture-solutions-posters.md)  
 
+# [Prise en charge des travailleurs à distance (travail à la maison)](support-remote-work-with-teams.md)
+
 # Formation 
 ## [Vue d’ensemble](training-microsoft-teams-landing-page.md)
 ## [Formation Teams par un instructeur](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Afficher la liste des numéros d’audioconférence](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Définir les langues du standard automatique d’audioconférence](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [Configurer la confirmation de la numérotation des réunions pour vos utilisateurs](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [Gérer les paramètres d’audioconférence pour votre organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
