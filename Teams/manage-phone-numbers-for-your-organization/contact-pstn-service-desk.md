@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de transfert pour votre organisation, il est possible que vous deviez obtenir de l’aide et une assistance technique au niveau de l’assistance téléphonique PSTN.
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825712"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341780"
 ---
-# <a name="pstn-service-desk-help"></a>Aide de l’assistance de service PSTN
+# <a name="pstn-service-desk-contact"></a>Contact de bureau de service PSTN
 
-Si vous avez besoin d’aide pour vous permettre d’obtenir ou de transférer des numéros, n’hésitez pas à nous le faire savoir. Dans votre demande de support électronique, incluez autant de détails que possible et incluez des détails tels que l’ID de votre organisation, les domaines, les types de numéros dont vous avez besoin d’aide, le nombre de numéros souhaités, l’autorisation de personne sur le compte et d’autres détails importants sur votre problème.
+Si vous avez besoin d’aide pour acheter des numéros de téléphone auprès de Microsoft ou pour porter des numéros de téléphone existants vers Microsoft, envoyez une demande par courrier électronique contenant les informations suivantes :
 
-Envoyez ensuite votre demande à l’une des adresses de messagerie suivantes :
+  - ID de votre organisation (ID de client) ou domaines actifs.
+  - Quels types de numéros vous avez besoin d’aide pour (utilisateur/abonné, service/payant ou gratuit).
+  - Nombre de numéros requis (s’il s’agit d’une acquisition numérique).
+  - Autorisation de personne sur le compte et autres détails importants en fonction de votre demande.
 
-- Pour obtenir de l'assistance pour des numéros de téléphone au sein des États-Unis, [envoyez votre demande ici](mailto:ptn@microsoft.com).
-- Pour obtenir de l'assistance pour des numéros de téléphone en dehors des États-Unis, [envoyez votre demande ici](mailto:ptneu@microsoft.com).
+Une fois que vous disposez de toutes les informations dont vous avez besoin, envoyez-nous votre demande à l’une des adresses e-mail suivantes qui s’appliquent à votre demande :
+- **Portage des numéros**
+    - Transférez les numéros de téléphone **à l’intérieur des États-Unis ou du Canada**, [envoyez-nous un e-mail sur PTN@microsoft.com](mailto:ptn@microsoft.com).
+    - Transférez les numéros de téléphone **hors des États-Unis ou du Canada**en [nous envoyant un e-mail sur ptneu@microsoft.com](mailto:ptneu@microsoft.com).
+    
+- **Acquisition numérique**
+    - Acquisition de nouveaux numéros de téléphone pour l’un des pays suivants : **Belgique, France, Allemagne, Grande-Bretagne, Irlande, Pays-Bas, Espagne, Suède, Suisse**, [envoyez-nous un e-mail à ptneu@microsoft.com](mailto:ptneu@microsoft.com)
+    - En acquérant de nouveaux numéros de téléphone pour le **reste du monde** , [nous vous envoyons un e-mail sur gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

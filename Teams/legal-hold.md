@@ -15,12 +15,12 @@ f1.keywords:
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863025"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341632"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
@@ -59,7 +59,7 @@ Pour vous aider, vous pouvez utiliser le tableau ci-dessous pour comprendre ce q
 |Scénario  |Éléments à placer en conservation  |
 |---------|---------|
 |**Le contenu de Microsoft teams chat par un utilisateur (dans les discussions 1:1, 1 : plusieurs personnes ou discussions de groupe, conversations de canal privé, etc.)**     |Boîte aux lettres de l'utilisateur         |
-|**Discussions de canal de Microsoft Teams (exclusion de canaux privés**    |Boîte aux lettres de groupe utilisée pour l'équipe         |
+|**Discussions de canal de Microsoft Teams (exclusion de canaux privés)**    |Boîte aux lettres de groupe utilisée pour l'équipe         |
 |**Contenu de Microsoft Teams (par exemple, wiki, fichiers)**     |Site SharePoint utilisé par l'équipe         |
 |**Fichiers de canaux privés de Microsoft teams**     |Site SharePoint dédié au canal privé     |
 |**Contenu privé de l’utilisateur**     |Site OneDrive Entreprise de l'utilisateur         |

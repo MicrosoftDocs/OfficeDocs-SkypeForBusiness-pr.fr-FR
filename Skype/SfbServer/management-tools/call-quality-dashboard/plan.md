@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029415"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339439"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype entreprise Server 
  
@@ -193,11 +193,11 @@ Cette section suppose qu’il existe une seule base de données QoEMetrics dans 
   
 **Profils d’ordinateur**
 
-|**Ordinateur**|**Cœurs de l’UC**|**RAM**|**Archives QoE et cube sur le même disque**|**Archive QoE et base de données temp SQL sur le même disque**|
+|**Ordinateur**|**Cœurs de l’UC**|**Mémoire RAM**|**Archives QoE et cube sur le même disque**|**Archive QoE et base de données temp SQL sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
-|Machine virtuelle  <br/> |4   <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
-|4 cœurs  <br/> |4   <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
-|8 cœurs  <br/> |8   <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
+|Machine virtuelle  <br/> |4  <br/> |7 GO  <br/> |Oui  <br/> |Oui  <br/> |
+|4 cœurs  <br/> |4  <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
+|8 cœurs  <br/> |8bits  <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
 |16 cœurs  <br/> |16   <br/> |128 Go  <br/> |Non  <br/> |Non  <br/> |
    
 **Résultats des performances**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Les versions suivantes de SQL Server sont prises en charge :
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (Skype entreprise Server 2019 CQD uniquement)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 L’aide à la décision ou Enterprise Edition est recommandée pour des raisons de performances. Ces éditions autorisent l’utilisation de plusieurs fichiers de partition pouvant être traités en parallèle, ce qui est bénéfique pour le traitement des données sur plusieurs mois ou plus. 
   

@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca20e7293f20d68ea98f61a98090f7892ba294e8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836944"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341772"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -53,7 +53,7 @@ Pour plus d’informations sur l’utilisation des stratégies de carnet d’adr
 
 2. Dans le centre d’administration de Microsoft Teams, sélectionnez > **paramètres d’équipe** **des paramètres à l’échelle**de l’organisation.
 
-3. Sous **recherche**, en regard de la **zone Rechercher dans l’annuaire dans teams à l’aide d’une stratégie de carnet d’adresses Exchange (APB)**, activez le bouton **bascule.**
+3. Sous **recherche**, en regard de la **zone Rechercher dans l’annuaire dans teams à l’aide d’une stratégie de carnet d’adresses Exchange (ABP)**, activez le bouton **bascule.**
 
     ![Recherche dans l’annuaire dans l’étendue dans le centre d’administration Microsoft teams](media/teams-scoped-directory-search-image1.png)
 

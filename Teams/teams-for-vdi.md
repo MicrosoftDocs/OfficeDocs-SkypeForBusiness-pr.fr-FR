@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278007"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339459"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -351,7 +351,8 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
     - Le partage d’applications n’est pas pris en charge.
 - Donnez le contrôle et prenez le contrôle :  
     - Non pris en charge lors d’une session de partage d’écran ou d’application.
-    - Pris en charge lors d’une session de partage PowerPoint.  
+    - Pris en charge lors d’une session de partage PowerPoint.
+- Lorsque le partage d’écran est configuré dans une configuration à plusieurs moniteurs, seul le moniteur principal est partagé.
 - La mise à l’échelle PPP élevée sur CWA n’est pas prise en charge.
 
 Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastructure VDI, voir [problèmes connus de teams](Known-issues.md).

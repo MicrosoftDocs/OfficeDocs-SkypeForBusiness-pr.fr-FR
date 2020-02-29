@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lisez cet article pour découvrir comment utiliser des appareils analogiques avec le routage direct du système Microsoft Phone.
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192167"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341794"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Utilisation de périphériques analogiques avec le routage direct du système téléphonique
 
@@ -45,7 +45,7 @@ Cet exemple vous guide à travers les étapes suivantes :
 4. Affectation de l’itinéraire vocal à l’utilisation RTC
 5. Activez l’utilisateur en ligne
 6. Affectation de la stratégie d’itinéraire vocale à l’utilisateur
-7. Affecter une stratégie d’itinéraire vocale à un appareil analogique
+7. Créer un itinéraire vocal pour un appareil analogique
 
 Pour plus d’informations sur la connexion d’un disque ATA à un SBC et sur la configuration de l’SBC, voir le Guide de configuration de votre fabricant SBC :
 - [Documentation de configuration de AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ Cette commande affecte la stratégie de routage vocale AnalogInteropPolicy en li
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>Étape 7 : affectation d’un itinéraire vocal à un appareil analogique
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Étape 7 : créer un itinéraire vocal pour un appareil analogique
 
 Cette commande crée un itinéraire vocal en ligne avec identité « Analog-Interop » pour le numéro de série + 1425 4XX XX XX applicable à une liste de passerelles sbc.contoso.com et l’associe à l’utilisation RTC en ligne.  Cette commande doit être exécutée pour chaque appareil analogique dont le modèle de numéro de téléphone est approprié. Par ailleurs, il est possible d’utiliser un modèle de nombre approprié pour les appareils analogiques lorsque vous configurez l’itinéraire vocal en ligne au cours de l’une des étapes précédentes.
 
