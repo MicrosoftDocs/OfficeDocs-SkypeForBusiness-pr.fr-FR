@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089737"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370413"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transfert de numéros de téléphone dans Microsoft teams
 
@@ -87,7 +87,7 @@ Avant de commencer, nous vous conseillons de passer en revue les informations re
 
 ## <a name="what-happens-next"></a>Que va-t-il se passer ensuite ?
 
-Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier électronique qui confirme votre demande. Votre demande est vérifiée et mise à jour quotidiennement et vous recevez une notification d’avancement et de statut par e-mail. Si votre demande est refusée, vous serez invité à ouvrir un ticket de support.
+Lorsque nous aurons reçu votre demande de transfert, vous recevez un courrier électronique qui confirme votre demande. Votre demande est vérifiée et mise à jour quotidiennement et vous recevez une notification d’avancement et de statut par e-mail. Si votre demande de transfert a été refusée par l’opérateur de perte, contactez le [service d’assistance RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 Pour afficher l’état de votre demande de transfert, dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à >**ordres de port** **vocal** > , puis cliquez sur **historique des commandes**. Chaque statut de la demande de transfert figure dans la colonne **État** . Pour en savoir plus, consultez [quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
