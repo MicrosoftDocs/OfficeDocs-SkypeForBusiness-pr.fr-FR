@@ -1,0 +1,90 @@
+---
+title: Gérer la version d’évaluation gratuite d’Office 365 E1
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.topic: article
+audience: Admin
+ms.reviewer: aytange
+ms.service: msteams
+search.appverid: MET150
+localization_priority: Priority
+description: Si vous ne disposez pas de Microsoft Teams et que vous en avez rapidement besoin, déployez la version d’évaluation d’Office 365 E1 pour les utilisateurs qui ont besoin de travailler à distance ou à partir de leur domicile (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374344"
+---
+<a name="manage-the-office-365-e1-trial"></a>Gérer la version d’évaluation d’Office 365 E1
+==============================
+
+Nouveauté de mars 2020, une version d’évaluation gratuite de 6 mois à Office 365 E1, y compris Microsoft Teams, est désormais disponible. Microsoft rend cette licence spéciale d'évaluation E1 disponible pour répondre à la nécessité croissante pour les employés de travailler à partir de leur domicile (WFH) en réponse à l’épidémie COVID-19 (coronavirus). 
+
+Pour découvrir ce qui est inclus avec une licence E1, consultez [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+## <a name="how-to-get-an-e1-trial-license"></a>Comment obtenir une licence d’évaluation E1
+
+Contactez le gestionnaire de votre compte Microsoft. Vous obtiendrez un code promotionnel que vous pourrez utiliser pour vous enregistrer à la version d’évaluation E1. 
+
+## <a name="how-to-sign-up-for-e1"></a>Voici comment s'enregistrer pour une licence E1
+
+Cliquez sur le code promo dans le message électronique envoyé par le gestionnaire de compte. 
+
+
+## <a name="whos-eligible"></a>Qui est éligible ?
+
+Cette offre est destinée aux clients gérés par un gestionnaire de compte Microsoft. Il s’agit d’organisations qui n’ont pas activé d’autres version évaluations Office 365 E1 dans le passé. 
+
+Une fois que vous avez utilisé votre code promotionnel d’évaluation E1, vous ne pouvez plus l’utiliser, ni activer un autre code d’évaluation E1. Dans ces cas, vous pouvez faire en sorte que vos employés activent une [Licence exploratoire Teams](teams-exploratory.md).
+
+## <a name="who-isnt-eligible"></a>Qui n'est pas éligible ?
+
+- Cette offre n’est pas valable pour les clients GCC, GCC HIGH, DoD ou EDU. Nous étudions la publication d'une version d’évaluation E1. Elle sera prochainement disponible. 
+
+- Les clients UDE doivent utiliser la licence gratuite Office 365 A1.
+
+## <a name="manage-the-e1-trial"></a>Gérer l’évaluation E1
+
+Une fois activée la version d’évaluation Office 365 E1, activez la licence pour les utilisations qui en ont besoin. Pour plus d'informations, lire la rubrique [Gestion de l'accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+
+
+Une fois que vous avez activé la version d’évaluation E1 pour les utilisateurs qui en ont besoin, vous devez gérer ces utilisateurs de la même manière que les utilisateurs disposant d’une licence payante. Pour plus d’informations, voir [Gérer les paramètres de Teams pour votre organisation](enable-features-office-365.md).
+
+
+
+### <a name="upgrade-users-from-the-office-365-e1-trial-license"></a>Mettre à niveau les utilisateurs à partir de la licence d’évaluation Office 365 E1
+
+Pour migrer les utilisateurs de l'évaluation E1 vers une version payante :
+
+1. Achetez un abonnement incluant Teams.
+
+2. Supprimez l’abonnement d’évaluation Office 365 E1 chez l’utilisateur en question.
+
+3. Affectez la licence nouvellement achetée.
+
+Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsoft Teams](Office-365-licensing.md).
+
+> [!NOTE]
+> Si la licence d'essai E1se termine et qu'un utilisateur n’est pas immédiatement mis à jour vers un abonnement incluant Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 
+
+### <a name="remove-an-office-365-e1-trial-license"></a>Supprimer une licence d’évaluation d’Office 365 E1
+
+- Si vous souhaitez supprimer cette licence à l’aide PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
+
+- Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+
+
+## <a name="related-topics"></a>Sujets associés
+
+[Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+
+[Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
+
+[Gérer l’expérience d’exploration de Teams](teams-exploratory.md)
+
