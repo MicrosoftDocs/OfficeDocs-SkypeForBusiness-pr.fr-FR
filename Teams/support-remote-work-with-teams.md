@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation en utilisant Microsoft Teams, en particulier lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342901"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374311"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Prise en charge des travailleurs à distance avec Microsoft Teams
 
@@ -29,7 +29,7 @@ Utilisez les pratiques recommandées décrites dans cet article pour soutenir le
 
 1.  Assurez-vous que [Teams est activé pour tout le monde](assign-teams-licenses.md)
     
-      - Consultez [Teams exploratoire](teams-exploratory.md) ou [Teams gratuit](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) pour rendre Teams accessible à tous les membres de votre entreprise.
+      - Consultez la [Version d’essai de Teams E1](e1-trial-license.md), l’[expérience exploratoire de Teams](teams-exploratory.md), ou la [Version gratuite de Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) pour mettre Teams à la disposition de tous les membres de votre équipe.
 
       - Les employés à distance dépendent plus largement des réunions et des conférences audio. Si vous n’avez pas encore déployé ces charges de travail, consultez les [Réunions et conférences dans Teams](deploy-meetings-microsoft-teams-landing-page.md).
 
