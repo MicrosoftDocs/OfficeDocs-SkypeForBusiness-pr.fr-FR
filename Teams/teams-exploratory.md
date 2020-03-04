@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
-ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
+ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41917019"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398172"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 =======================================================
 
-L’expérience exploratoire Microsoft Teams permet aux utilisateurs au sein de votre organisation d’Azure Active Directory (AAD) et de ne pas être licenciés pour Teams de lancer une expérience exploratoire de Teams. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. Le précédent [essai de cloud commercial Microsoft](iw-trial-teams.md) est désormais appelée expérience exploratoire Teams.
+L’expérience exploratoire Microsoft Teams permet aux utilisateurs au sein de votre organisation d’Azure Active Directory (AAD) et de ne pas être licenciés pour Teams de lancer une expérience exploratoire de Teams. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. La précédente [Version d'évaluation dans le cloud commercial Microsoft](iw-trial-teams.md) est désormais remplacée par l'expérience exploratoire Teams.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Qu’est-ce que l’expérience exploratoire Teams ?
 
-Les offres de service incluses dans l’expérience exploratoire Teams sont les suivantes :
+Les plans de service qu’un administrateur peut voir dans le cadre de l’expérience exploratoire Teams sont les suivants :
  - Exchange Online (plan 1)
  - Flow pour Office 365
  - Informations obtenues par MyAnalytics
@@ -51,13 +51,14 @@ Les offres de service incluses dans l’expérience exploratoire Teams sont les 
  - Yammer Enterprise
 
 
-## <a name="whos-eligible"></a>Utilisateurs éligibles ?
+## <a name="whos-eligible"></a>Qui est éligible ?
+
+Aussi longtemps que l’utilisateur dispose d’une adresse de messagerie de domaine Azure Active Directory gérée et qu’aucune licence Teams ne lui est actuellement pas attribuée, il peut bénéficier de cette expérience. Par exemple, un utilisateur disposant d’une licence Office 365 Business (n’incluant pas Teams) est éligible à l’expérience exploratoire Teams.
 
 Les utilisateurs doivent être autorisés à s’inscrire aux applications et aux essais (dans le Centre d’administration Microsoft 365). Pour plus d’informations, voir [Gérer l’expérience exploratoire Teams](#manage-the-teams-exploratory-experience) plus loin dans cet article. 
 
-Les utilisateurs qui n’ont pas de licence Office 365 et qui incluent Teams peuvent initier une expérience exploratoire Teams. Par exemple, un utilisateur disposant d’une licence Office 365 Business (n’incluant pas Teams) est éligible à l’expérience exploratoire Teams.
 
-## <a name="who-isnt-eligible"></a>Personnes non éligibles
+## <a name="who-isnt-eligible"></a>Qui n'est pas éligible ?
 
 Votre organisation n’est pas éligible pour cette offre si vous êtes un client partenaire de syndication ou un client GCC, GCC élevé, DoD ou EDU.
 
@@ -140,14 +141,22 @@ Pour mettre à niveau les utilisateurs de la licence exploratoire Teams, procéd
 Pour plus d’informations, voir [Gestion des licences Office 365 pour Microsoft Teams](Office-365-licensing.md).
 
 > [!NOTE]
-> Si la licence exploratoire Teams se termine et un utilisateur n’est pas immédiatement mis à niveau à un abonnement qui inclut Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 
+> Si la licence exploratoire Teams se termine et un utilisateur n’est pas immédiatement mis à jour vers un abonnement qui inclut Teams, les données des utilisateurs ne sont pas supprimées. L’utilisateur existe toujours dans Azure Active Directory et toutes les données au sein de Teams sont disponibles. Une fois qu’une nouvelle licence est attribuée à l’utilisateur pour activer la fonctionnalité Teams de nouveau, tout le contenu existera encore. 
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Qu’arrive-t-il aux licences d’évaluation cloud commercial de Microsoft Teams ?
 
-Depuis la mi-janvier 2020, les utilisateurs éligibles peuvent commencer à utiliser la dernière expérience exploratoire de Microsoft Teams. Toutes les versions d’évaluation du Cloud commercial sont automatiquement converties à la nouvelle offre avant l’expiration de la période d’évaluation.
+À compter de février 2020, les utilisateurs qualifiés peuvent commencer à utiliser la dernière expérience exploratoire de Microsoft Teams. Toutes les versions d’évaluation du Cloud commercial sont automatiquement converties à la nouvelle offre avant l’expiration de la période d’évaluation.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Supprimer une licence exploratoire Teams
 
 - Si vous souhaitez supprimer cette licence à l’aide PowerShell, voir [Supprimer des licences de comptes d’utilisateurs avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
 - Si vous souhaitez supprimer cette licence via le portail d’administration, voir [Retirer des licences à des utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Combien de temps dure l’expérience d’exploration de Teams ?
+
+L’expérience exploratoire Microsoft Teams est disponible sans frais supplémentaires jusqu'à la prochaine date anniversaire ou le renouvellement de votre contrat d’entreprise survenant à compter du mois de janvier 2021. À ce stade, les utilisateurs finaux ayant une licence d’expérience exploratoire Microsoft doivent migrer vers une licence payante incluant Teams. Toutes les licences d’expérience exploratoire Microsoft commençant après cette période resteront valables sans frais supplémentaires jusqu’à la prochaine date anniversaire ou cycle de renouvellement. 
+
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>Que se passe-t-il si un utilisateur final débute l’expérience exploratoire Microsoft Teams juste avant la date anniversaire ou de renouvellement ?
+
+Les licences d’expérience exploratoire Microsoft Teams initiées dans le délai de 90 jours de la date anniversaire ou de renouvellement de votre contrat d’entreprise n'auront pas à migrer vers une licence payante avant le cycle anniversaire ou de renouvellement suivant. 
