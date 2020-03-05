@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837364"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417869"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837364"
                     <div class="cardText">
                         <h3>Commencer à utiliser teams dans 30</h3>
                         <P>Démarrez vos équipes dans 30 voyages sur le pied de page de droite. Comprenez le programme, qui doit participer, et les ressources que vous pouvez utiliser pour garantir votre réussite.</P>
-                        <p>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</p>
+                        <p>*Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Préparez vos utilisateurs finaux</h3>
+                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</p><p>*Public : adoption et modification des propriétaires*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837364"
                     </div>
                     <div class="cardText">
                     <h3>Préparer votre environnement-Partie I</h3>
-                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p>Public : administrateurs informatiques</p>
+                    <p>Définissez le fondement du déploiement de votre équipe. Identifiez les éléments requis Teams, les meilleures pratiques en matière de mise en réseau et de sécurité, les politiques de coexistence, les données d’analyse et de création de rapports</p><p>*Public : administrateurs informatiques*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837364"
                     </div>
                     <div class="cardText">
                         <h3>Préparer votre environnement-Partie 2</h3>
-                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p>Public : administrateurs informatiques</p>
+                    <p>À présent que vous disposez de la Fondation, il est conseillé de comprendre les pratiques recommandées pour la mise en œuvre de la conformité, de la rétention, de la gouvernance et de l’audioconférence pour Teams.</p><p>*Public : administrateurs informatiques*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Préparez vos utilisateurs finaux</h3>
-                    <p>Découvrez des stratégies et des ressources pour préparer vos utilisateurs, créer un subordonné de champions et garantir l’acceptation de l’utilisateur en tant que composant principal de votre déploiement d’équipes.</p><p>Public : adoption et modification des propriétaires</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837364"
                     <div class="cardText">
                     <h3>Optimiser et développer</h3>
                     <p>Concevoir un plan capable d’optimiser les performances du service, d’étendre les fonctionnalités d’équipes et d’intégrer de nouveaux utilisateurs.</p>
-                    <p>Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur</p>
+                    <p>*Public : sponsors de l’entreprise, administrateurs informatiques, adoption et changement d’armateur*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Discussions d’équipes</h3>
+                    <p>Ces ateliers interactifs peuvent être utilisés par des spécialistes interactifs en ligne pour vous offrir une opportunité unique de découvrir les meilleures pratiques et les recommandations en matière de sécurité des équipes.</p><p>*Public : administrateurs informatiques*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     
