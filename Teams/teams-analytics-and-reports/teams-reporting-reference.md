@@ -15,12 +15,12 @@ ms.collection:
 description: En savoir plus sur les rapports d’équipes disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc5c3c3c5588abe0c3ee748bdcd8a5ba3a2bf302
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 080ddb1455a204b7dc96ddcac8d414a1d1b77228
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827222"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507962"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -28,7 +28,7 @@ Une nouvelle expertise d’analyse et de création de rapports de Microsoft team
 
 ## <a name="how-to-access-the-reports"></a>Accès aux rapports
 
-Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, l’administrateur de service teams ou l’administrateur Skype entreprise.  Accédez au centre d’administration de Microsoft Teams, dans le volet de navigation gauche, sélectionnez **analyse & rapports**, puis sous **État**, choisissez le rapport que vous souhaitez exécuter.
+Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, l’administrateur de service Teams, l’administrateur des communications teams ou l’administrateur Skype entreprise.  Accédez au centre d’administration de Microsoft Teams, dans le volet de navigation gauche, sélectionnez **analyse & rapports**, puis sous **État**, choisissez le rapport que vous souhaitez exécuter.
 
 > [!NOTE]
 > Les rapports dans le centre d’administration Microsoft teams sont séparés des rapports d’activité des équipes qui font partie des rapports 365 Office dans le centre d’administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le centre d’administration Microsoft 365, voir [rapports d’activité d’équipe dans le centre d’administration microsoft 365](../teams-activity-reports.md) .
@@ -43,7 +43,7 @@ Nous cherchons constamment à améliorer l’efficacité de création de rapport
 |---------|---------|
 |[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans équipes et canaux<br/>Canaux actifs<br/>Contenus<br/>Paramètre de confidentialité de teams<br/>Invités dans une équipe   |
 |[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  1:1 appelle un utilisateur ayant participé à la Conférence<br/>Messages qu’un utilisateur a publié dans une conversation d’équipe<br/>Messages qu’un utilisateur a publié dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
-|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs de Mac<br/>utilisateurs d’iOS<br/>Utilisateurs du téléphone Android     |
+|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs Windows<br/>Utilisateurs Mac<br/>utilisateurs d’iOS<br/>Utilisateurs du téléphone Android     |
 |[Rapport d’utilisation des événements en direct Teams](teams-live-event-usage-report.md)   |  Nombre total d’affichages<br>Heure de début<br>État de l’événement<br>Organisateur<br>Présentateur<br>Productrice<br>Paramètre d’enregistrement<br>Type de production    |
 |[Rapport sur les utilisateurs bloqués RTC](pstn-blocked-users-report.md)   |  Nom d’affichage<br>Numéro de téléphone<br>Raison<br>Type d’action<br>Date et heure de l’action   |
 |[Rapport sur les pools de minutes RTC teams](pstn-minute-pools-report.md) |  Pays ou région<br>Capability (licence) <br>Nombre total de minutes<br>Minutes utilisées<br>Minutes disponibles|

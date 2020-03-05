@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft a pu retirer le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 2020 28 février. Cet article résume les clients concernés et les mesures à prendre pour planifier leur activité.
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374301"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417619"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration de messagerie unifiée Exchange Online
 
@@ -127,7 +127,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux sta
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice de fonctionnalité des services Cloud ExchUMO et Azure
 
-| Service | Niveau de fonctionnalité | Fonctionnalité | Commentaires  | Virtual VM/AA  | ExUMO |
+| Service | Niveau de fonctionnalité | Fonctionnalité | Notes  | Virtual VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | Media  | Fonctionnalités de service| Prise en charge d’un PBX tiers    | Inclusion de toutes les fonctionnalités fournies au système PBX tiers comme indicateur (indicateur de message en attente) à l’aide de messages SIP Notify provenant d’Exchange UM Online | N   | v    |
 | Media | Fonctionnalités de service  | Prise en charge de Skype entreprise Server   |  | v | v    |
@@ -235,6 +235,8 @@ Les nouveaux utilisateurs de Skype entreprise seront automatiquement mis en serv
 Pour en savoir plus sur les standards automatiques, consultez [la rubrique Configurer un standard automatique Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Problèmes connus
+
+**Désactiver l’accès abonné après la migration pour éviter l’incohérence des salutations** L’accès abonné peut continuer à fonctionner pour votre client jusqu’à ce que le service soit complètement retiré, même après que tous vos utilisateurs ont été migrés vers la messagerie vocale Cloud. Pour éviter toute confusion d’utilisateur et une expérience incohérente, désactivez l’accès abonné car les messages d’accueil ont changé après la migration à partir de là. Pour ce faire, supprimez le contact EXUM pour chaque ligne d’accès abonné à l’aide de Get-CsExUmContact | ? {$_. IsSubscriberAccess-EQ $true} | Remove-CsExUmContact 
 
 **Transfert d’appel de standard automatique vers PSTN** Les clients sont encouragés à configurer une solution de contournement temporaire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro RTC externe ou vers une instance RGS. 
  
