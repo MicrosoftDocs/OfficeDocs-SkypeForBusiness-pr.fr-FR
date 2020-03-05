@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
-ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
+ms.openlocfilehash: dd4509e809348a21231a6aa136c6cb360a152472
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42403743"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417569"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
@@ -187,13 +187,13 @@ En tant qu’administrateur, vous pouvez utiliser les commandes de l’API Power
 1. Exécutez la commande suivante, &lt;où&gt; group_id est l’ID de groupe de l' &lt;équipe&gt; et CHANNEL_NAME est le nom du canal.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
+    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
 2. Promouvoir un membre en tant que propriétaire ;
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>Utilisation de l’API Graph

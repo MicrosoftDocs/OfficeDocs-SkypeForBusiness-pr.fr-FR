@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160778"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417849"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -379,7 +379,7 @@ Pour filtrer tous les rapports détaillés, dans la barre de navigation, ajoutez
 
 **Example**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 Pour plus d’informations sur les filtres d’URL, voir [filtrage de rapports](#filtering-reports) plus loin dans cette section.
 
@@ -472,11 +472,11 @@ Pour des formations et des ressources plus détaillées, voir l' [annexe](#other
 
 Vous pouvez accéder à bord de l’une des trois manières suivantes :
 
--   Accédez à <https://cqd.lync.com>.
+-   Accédez à <https://cqd.teams.microsoft.com>.
 
 -   Accédez au **Centre d’administration Microsoft teams** et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
-![Capture d’écran du tableau de bord de qualité d’appel sélectionné.](media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
+![Capture d’écran du tableau de bord de qualité des appels sélectionné.](media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
 
 _Figure 7 : accès à bord par le biais du centre d’administration Microsoft teams_
 
@@ -491,7 +491,7 @@ _Figure 8 : accès à bord par le biais du centre d’administration Skype entr
 
 Lorsque vous accédez à bord pour la première fois, vous verrez la page rapports de synthèse. La plupart des rapports décrits dans ce guide sont des rapports détaillés personnalisés. Pour commencer à utiliser les rapports détaillés, sélectionnez **rapports de synthèse** dans la partie supérieure de la page, puis sélectionnez **rapports détaillés**.
 
-![Capture d’écran illustrant les types de rapports disponibles dans bord](media/qerguide-image-choosereports.png)
+![Capture d’écran montrant des types de rapports disponibles dans bord](media/qerguide-image-choosereports.png)
 
 _Figure 9 : accéder aux rapports détaillés_
 
@@ -543,7 +543,7 @@ Pour implémenter un filtre d’URL, dans la barre d’adresses du navigateur, a
 
 Example  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Pour filtrer les rapports pour teams ou Skype entreprise, ajoutez le code suivant à la fin de l’URL :
 
@@ -553,11 +553,11 @@ Pour filtrer les rapports pour teams ou Skype entreprise, ajoutez le code suivan
 
 Example
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> Les exemples d’URL ci-dessus sont uniquement destinés à la représentation visuelle. Utilisez le lien bord par défaut de <https://cqd.lync.com>.
+> Les exemples d’URL ci-dessus sont uniquement destinés à la représentation visuelle. Utilisez le lien bord par défaut de <https://cqd.teams.microsoft.com>.
 
 
 #### <a name="query-filters"></a>Filtres de requête
@@ -591,7 +591,7 @@ Ce guide inclut [deux modèles bord](https://aka.ms/qertemplates). Ces modèles 
 
 **Pour importer les modèles (. CQDX) dans bord Online**
 
-1. Accédez à <https://cqd.lync.com>.
+1. Accédez à <https://cqd.teams.microsoft.com>.
 
 2. S’authentifier à l’aide de vos informations d’identification d’administration Office 365.
 
@@ -711,7 +711,7 @@ Les données de qualité de l’expertise que les clients envoient à Office 365
 
 Le tableau de bord des rapports de synthèse de bord inclut une page de **téléchargement de données de client** accessible en sélectionnant la balise lien de téléchargement de données du **client** dans le coin supérieur droit (recherchez l’icône d’engrenage). Cette page est utilisée pour permettre aux administrateurs de télécharger leurs propres informations, par exemple le mappage de l’adresse IP et des informations géographiques, le mappage de chaque point d’accès sans fil et son adresse MAC, etc.
 
-1. Accédez à bord Online en accédant <https://cqd.lync.com>à.
+1. Accédez à bord Online en accédant <https://cqd.teams.microsoft.com>à.
 
 2. Sélectionnez l’icône d’engrenage dans le coin supérieur droit, puis choisissez **Télécharger les données du client** dans la page **rapports de synthèse** .
 
@@ -1130,7 +1130,7 @@ Ce rapport identifie les bâtiments et sous-réseaux spécifiques qui participen
 > [!NOTE]
 > Veillez à ajuster le filtre mois en cours au mois en cours. Sélectionnez **modifier**, puis ajustez l' **année du mois** pour enregistrer le nouveau mois par défaut.
 
-![Sreen capture du rapport sur l’utilisation du proxy HTTP par bâtiment et sous-réseau](media/qerguide-image-httpproxyusage.png)
+![Capture d’écran du rapport sur l’utilisation du proxy HTTP par le biais de la construction et du sous-réseau](media/qerguide-image-httpproxyusage.png)
 
 _Figure 29 – utilisation du proxy HTTP par le biais de la construction et du sous-réseau_
 

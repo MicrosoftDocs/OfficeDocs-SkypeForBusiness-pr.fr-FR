@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339459"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417879"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -97,7 +97,7 @@ Voici la configuration minimale recommandée pour les ordinateurs virtuels.
 
 Dans une configuration non persistante, les modifications du système d’exploitation local des utilisateurs ne sont pas conservées lorsque les utilisateurs se déconnectent. Ces paramètres sont fréquemment partagés par des sessions multi-utilisateurs. La configuration de l’ordinateur virtuel varie en fonction du nombre d’utilisateurs et des ressources de zone physiques disponibles.
 
-Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. Pour en savoir plus, voir la section [installer ou mettre à jour l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur. L’utilisation de teams avec une configuration non persistante nécessite également un gestionnaire de mise en cache de profil pour une synchronisation des données d’exécution teams efficace. Cela permet de s’assurer que les informations spécifiques à l’utilisateur (par exemple, les données utilisateur, le profil et les paramètres) sont mises en cache lors de la session utilisateur.  Il existe plusieurs solutions de gestionnaire de mise en cache disponibles. Par exemple, [FSLogix](https://docs.microsoft.com/fslogix/overview). Pour obtenir des instructions de configuration spécifiques, contactez le fournisseur du gestionnaire de cache.
+Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. (Pour en savoir plus, voir la section [installer ou mettre à jour l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) .) Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur. L’utilisation de teams avec une configuration non persistante nécessite également un gestionnaire de mise en cache de profil pour une synchronisation des données d’exécution teams efficace. Cela permet de s’assurer que les informations spécifiques à l’utilisateur (par exemple, les données utilisateur, le profil et les paramètres) sont mises en cache lors de la session utilisateur.  Il existe de nombreuses solutions de gestionnaire de mise en cache disponibles. Par exemple, [FSLogix](https://docs.microsoft.com/fslogix/overview). Pour obtenir des instructions de configuration spécifiques, contactez le fournisseur du gestionnaire de cache.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Liste d’exclusions de contenu mise en cache dans teams pour une configuration non persistante
 
@@ -363,7 +363,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

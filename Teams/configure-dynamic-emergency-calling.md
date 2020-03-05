@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer un appel d’urgence dynamique
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825512"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417589"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -70,10 +70,10 @@ Pour plus d’informations sur les appels d’urgence, notamment des information
 
 Les clients suivants sont actuellement pris en charge.  Consultez régulièrement les mises à jour de cette liste.
 
-- Client de bureau teams pour Windows
-- Client de bureau teams pour Mac
-- Client mobile teams pour les versions de client IOS 1.0.92.2019121004 et App Store 1.0.92 ou version ultérieure
-- Client mobile teams pour Android et Windows Store version 1416/1.0.0.2019121201 et version ultérieure
+- Client de bureau teams pour Microsoft Windows
+- Client de bureau teams pour Apple macOS
+- Client Microsoft teams mobile pour les versions de client Apple iOS 1.0.92.2019121004 et App Store 1.0.92 et version ultérieure
+- Client mobile teams pour Android et Google Play Store version 1416/1.0.0.2019121201 et version ultérieure
 - Version de téléphone teams 1449/1.0.94.2019110802 et version ultérieure
 
 ## <a name="assign-emergency-addresses"></a>Attribution d’adresses de secours
@@ -202,7 +202,7 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 
 - **Le routage direct des clients aux États-Unis** doit coordonné avec leur ERSP pour un service de test.
 
- ## <a name="related-topics"></a>Rubriques connexes
+ ## <a name="related-topics"></a>Sujets associés
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
