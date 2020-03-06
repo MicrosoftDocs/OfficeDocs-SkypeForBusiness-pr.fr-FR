@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825302"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550911"
 ---
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur le stade d’excellence opérationnel](media/upgrade-banner-op-excellence.png "Étapes du voyage de la mise à niveau, avec mise en évidence de l’étape d’excellence opérationnelle")
 
@@ -47,7 +47,7 @@ Pour profiter au maximum des avantages et des résultats commerciaux avec Teams,
 
 - D’en citer des champions pour promouvoir et encourager les utilisateurs.
 - Consulter le [Guide d’adoption d’Office 365](https://go.microsoft.com/fwlink/?linkid=859045) pour obtenir des conseils sur la promotion de votre engagement et son adoption.
-- Tirant parti du [Kit de réussite des utilisateurs d’équipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) pour améliorer la sensibilisation et partager les meilleures pratiques.
+- Tirant parti du [Kit de réussite des utilisateurs d’équipes](https://aka.ms/TeamsCustomerSuccess) pour améliorer la sensibilisation et partager les meilleures pratiques.
 - Implémentation d’une [stratégie de gestion et d’adoption](http://www.successwithteams.com/) formelle pour favoriser la croissance de l’adoption.
 
 ## <a name="prepare-for-new-functionality"></a>Préparer une nouvelle fonctionnalité
