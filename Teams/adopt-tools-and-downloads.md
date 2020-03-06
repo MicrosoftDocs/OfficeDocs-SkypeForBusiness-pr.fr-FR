@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033021"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551002"
 ---
 # <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption 
 
@@ -155,4 +155,4 @@ Le programme de spécialistes d’Office 365 est un programme gratuit aidant les
 Consultez le [livret d’adoption Teams](https://aka.ms/teamstoolkit), un guide en ligne qui vous aidera à mettre en place les équipes de votre entreprise. Il inclut de nombreux outils téléchargeables, des modèles et autres ressources pour vous aider tout au long de vos premiers pas dans l’adoption Teams.
 
 ### <a name="teams-customer-success-kit"></a>Kit de réussite des clients de Microsoft Teams
-Le [Kit Succès Client](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) propose des outils pour vous aider à mettre en place Teams dans votre organisation. Ils comprennent des modèles d'e-mails d'annonces, des brochures, des affiches, un compte à rebours et des e-mails de conseils et astuces. Des guides de prise en main sont également inclus et destinés aux responsables d'équipe et administrateurs informatiques.
+Le [Kit Succès Client](https://aka.ms/TeamsCustomerSuccess) propose des outils pour vous aider à mettre en place Teams dans votre organisation. Ils comprennent des modèles d'e-mails d'annonces, des brochures, des affiches, un compte à rebours et des e-mails de conseils et astuces. Des guides de prise en main sont également inclus et destinés aux responsables d'équipe et administrateurs informatiques.
